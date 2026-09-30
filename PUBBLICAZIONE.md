@@ -31,6 +31,7 @@ Minificati HTML, CSS e JavaScript senza rinominare variabili né comprimere la l
 - 20.773 riferimenti HTML/CSS esaminati: nessuna nuova risorsa mancante rispetto al pacchetto iniziale.
 - 10.505 collegamenti locali esaminati: nessuna differenza di maiuscole/minuscole e nessun frammento mancante.
 - Corretti 85 collegamenti di Aroma ed Eden Leaf che puntavano alla radice del dominio.
+- Verificate nel browser le sette home nuove: immagini visibili caricate e video di DISH-KI e Riff riproducibili.
 - Verificata la presentazione nel percorso `/cvedi2627/slides/`, comprese le anteprime e il collegamento all’archivio.
 
 Restano sei collegamenti a due PDF storici di “Tu con noi” che erano già assenti dal materiale originale: `Tu-con-noi-bilancio-2019.pdf` e `La-casa-sulla-collina-presentazione.pdf`. Anche altri riferimenti a risorse già assenti negli elaborati di partenza non possono essere ricostruiti dai file disponibili.
