@@ -1,0 +1,174 @@
+/* Motion follows Slidev lifecycle state, including revisits and presenter view. */
+.slidev-page.fade-enter-active {
+  transition-duration: 260ms;
+  transition-timing-function: var(--cvedi-ease-out);
+}
+.slidev-page.fade-leave-active {
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+}
+.chapter-slide.is-active h1 {
+  transform-origin: left center;
+  animation: cvedi-title-focus 760ms var(--cvedi-ease-out) both;
+}
+.chapter-slide.is-active > p {
+  animation: cvedi-subtitle-reveal 540ms var(--cvedi-ease-out) 230ms both;
+}
+.grade-slide.is-active .progress {
+  animation: cvedi-grade-reveal var(--cvedi-motion-data) var(--cvedi-ease-out) calc(120ms + var(--grade-order, 0) * 85ms) both;
+}
+/* Follow the calendar chronologically; the complete sequence stays under 800 ms. */
+.calendar-slide.is-active .cvedi-calendar tbody tr {
+  animation: cvedi-calendar-row 360ms var(--cvedi-ease-out) calc(60ms + var(--calendar-order, 0) * 28ms) both;
+}
+/* One metro journey on entry; labels and the full route remain visible. */
+:is(.process-slide, .chapter-slide).is-active .metro-train {
+  animation: cvedi-metro-journey var(--cvedi-motion-metro) linear 100ms both;
+}
+.chapter-slide.is-active .metro-train {
+  animation-delay: 520ms;
+}
+.process-slide.is-active .metro-station::after {
+  animation: cvedi-metro-arrival 480ms var(--cvedi-ease-out) calc(500ms + var(--station-order, 0) * 450ms) both;
+}
+/* Build the vector map lane by lane; staggered routes settle after 10.5 s. */
+.closing-slide.is-active .closing-metro-reveal {
+  animation: cvedi-closing-route var(--route-duration) cubic-bezier(.4, 0, .2, 1) var(--route-delay) both;
+}
+.closing-slide.is-active .closing-metro-details {
+  animation: cvedi-closing-details 4s ease-out 2s both;
+}
+.closing-slide.is-active .closing-metro-complete {
+  animation: cvedi-closing-details 180ms ease-out var(--complete-delay) both;
+}
+@keyframes cvedi-closing-route {
+  from {
+    stroke-dashoffset: 1;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes cvedi-closing-details {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes cvedi-metro-journey {
+  0% {
+    stroke-dashoffset: .1;
+    opacity: 0;
+  }
+  5%, 92% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: -1.1;
+    opacity: 0;
+  }
+}
+@keyframes cvedi-metro-arrival {
+  from {
+    opacity: 0;
+    transform: scale(1);
+  }
+  18% {
+    opacity: .8;
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.4);
+  }
+}
+@keyframes cvedi-calendar-row {
+  from {
+    opacity: .2;
+    transform: translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes cvedi-title-focus {
+  0% {
+    color: var(--chapter-ghost);
+    transform: scale(1.34);
+    filter: blur(10px);
+  }
+  48% {
+    color: var(--chapter-mid);
+    filter: blur(1px);
+  }
+  100% {
+    color: white;
+    transform: scale(1);
+    filter: blur(0);
+  }
+}
+@keyframes cvedi-subtitle-reveal {
+  from {
+    opacity: 0;
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    opacity: 1;
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes cvedi-grade-reveal {
+  from {
+    clip-path: inset(0 100% 0 0);
+  }
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+@keyframes cvedi-title-color {
+  from {
+    color: var(--chapter-mid);
+  }
+  to {
+    color: white;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gallery-tile img {
+    transition: none;
+  }
+  .slidev-page:is(.fade-enter-active, .fade-leave-active) {
+    transition-duration: 80ms;
+  }
+  .chapter-slide.is-active h1 {
+    animation: cvedi-title-color 180ms ease-out both;
+  }
+  .chapter-slide.is-active > p,
+  .grade-slide.is-active .progress,
+  .calendar-slide.is-active .cvedi-calendar tbody tr,
+  :is(.process-slide, .chapter-slide).is-active .metro-train,
+  .process-slide.is-active .metro-station::after {
+    animation: none;
+  }
+  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-complete) {
+    animation: none;
+  }
+}
+@media print {
+  .gallery-tile img {
+    transition: none;
+  }
+  .chapter-slide.is-active h1,
+  .chapter-slide.is-active > p,
+  .grade-slide.is-active .progress,
+  .calendar-slide.is-active .cvedi-calendar tbody tr,
+  :is(.process-slide, .chapter-slide).is-active .metro-train,
+  .process-slide.is-active .metro-station::after {
+    animation: none;
+  }
+  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-complete) {
+    animation: none;
+  }
+}

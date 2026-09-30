@@ -1,0 +1,303 @@
+/* Shared daisyUI components. Keep surfaces equal; color hierarchy lives in text. */
+.speaker {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: var(--cvedi-space-section);
+}
+.speaker .speaker-initials {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--slide-surface-alt);
+  color: var(--slide-subtitle);
+  font: 600 14px/1 var(--cvedi-font-display);
+}
+.slidev-layout .speaker p {
+  margin: 0;
+  color: var(--cvedi-body);
+  font: 600 22px/1.3 var(--cvedi-font-display);
+}
+.speaker-role {
+  margin-right: 4px;
+  color: var(--cvedi-muted);
+  font-size: 17px;
+  font-weight: 400;
+}
+.cvedi-card {
+  min-width: 0;
+  border: 0;
+  border-radius: var(--cvedi-radius);
+  background: var(--color-base-200);
+  box-shadow: none;
+}
+.cvedi-card .card-body {
+  padding: var(--cvedi-space-content);
+  gap: 0;
+}
+.cvedi-card .card-title {
+  margin: 0 0 var(--cvedi-space-card);
+  color: var(--slide-detail-accent);
+  font: 700 var(--cvedi-type-card-title)/1.25 var(--cvedi-font-display);
+  letter-spacing: -.025em;
+}
+.cvedi-card p {
+  flex-grow: 0;
+  margin: 0 0 12px;
+  font: 400 var(--cvedi-type-card-body)/1.45 var(--cvedi-font-body);
+}
+.cvedi-card .card-body > :last-child {
+  margin-bottom: 0;
+}
+.cvedi-card .badge {
+  align-self: flex-start;
+  margin-top: 8px;
+}
+.cvedi-card .cvedi-list {
+  gap: 16px;
+}
+.cvedi-card .cvedi-list li {
+  font: 400 19px/1.4 var(--cvedi-font-body);
+}
+.dense-slide .cvedi-card .card-title {
+  font-size: 22px;
+}
+.dense-slide .cvedi-card :is(p, li) {
+  font-size: 18px;
+}
+.cvedi-card-illustrated {
+  min-height: 188px;
+  overflow: hidden;
+}
+.cvedi-card-illustrated .card-body {
+  position: relative;
+  z-index: 1;
+}
+/* Longer notices reserve a clear lower corner for the same 140px artwork. */
+.materials-slide .cvedi-card-illustrated .card-body {
+  padding-bottom: 104px;
+}
+.card-illustration {
+  position: absolute;
+  right: -10px;
+  bottom: -22px;
+  width: 140px;
+  opacity: .48;
+  pointer-events: none;
+}
+.index-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--cvedi-space-card);
+}
+.index-button.btn {
+  justify-content: flex-start;
+  gap: 16px;
+  min-height: 112px;
+  padding: 24px 30px;
+  border: 0;
+  border-radius: var(--cvedi-radius);
+  background: var(--index-color);
+  color: var(--index-foreground, white);
+  font: 700 25px/1.25 var(--cvedi-font-display);
+  text-align: left;
+  opacity: 1;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+.index-button.btn:disabled {
+  background: var(--index-color);
+  color: var(--index-foreground, white);
+}
+.index-chapter-1 {
+  --index-color: var(--cvedi-teal-700);
+}
+.index-chapter-2 {
+  --index-color: var(--cvedi-pink-700);
+}
+.index-chapter-3 {
+  --index-color: var(--cvedi-red-700);
+}
+.index-chapter-4 {
+  --index-color: var(--cvedi-orange-700);
+}
+.index-chapter-5 {
+  --index-color: var(--cvedi-yellow-500);
+  --index-foreground: var(--cvedi-gray-950);
+  grid-column: 1 / -1;
+}
+.index-chapter-number {
+  flex: none;
+  min-width: 34px;
+  font: 700 17px/1 var(--cvedi-font-display);
+}
+.cvedi-calendar {
+  width: 100%;
+  font-family: var(--cvedi-font-display);
+  font-variant-numeric: tabular-nums;
+}
+.cvedi-calendar thead {
+  color: var(--slide-subtitle);
+  background: var(--slide-surface-alt);
+}
+.cvedi-calendar thead th {
+  padding: 10px 16px;
+  font: 600 var(--cvedi-type-data)/1.2 var(--cvedi-font-display);
+}
+.cvedi-calendar tbody :is(th, td) {
+  padding: 5px 16px;
+  border-bottom: 1px solid var(--slide-rule);
+  color: var(--cvedi-body);
+  font: 500 var(--cvedi-type-data)/1.2 var(--cvedi-font-display);
+}
+.cvedi-calendar tbody th {
+  width: 48%;
+  font-weight: 600;
+}
+.cvedi-calendar td:last-child {
+  width: 22%;
+}
+.cvedi-calendar tbody tr:nth-child(even) {
+  background: var(--slide-surface);
+}
+.cvedi-calendar tr.annullata :is(th, td) {
+  color: var(--cvedi-muted);
+}
+.cvedi-calendar tr.annullata th {
+  text-decoration: line-through;
+}
+.cvedi-calendar .badge {
+  font-size: 14px;
+  min-height: 22px;
+  height: 22px;
+}
+.slidev-layout .calendar-note {
+  margin-top: 12px;
+  font: 600 16px/1.3 var(--cvedi-font-display);
+}
+.process-slide h1 {
+  margin-bottom: var(--cvedi-space-major);
+}
+.cvedi-metro-timeline {
+  position: relative;
+  width: 100%;
+}
+.cvedi-metro-route {
+  position: absolute;
+  inset: 0 calc(-1 * var(--cvedi-slide-inline)) auto;
+  width: calc(100% + 2 * var(--cvedi-slide-inline));
+  height: 112px;
+  overflow: hidden;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  pointer-events: none;
+}
+.cvedi-metro-route :is(.metro-track, .metro-train) {
+  stroke-width: calc(2 * var(--cvedi-metro-lane) + var(--cvedi-metro-divider));
+}
+.metro-track {
+  stroke: var(--metro-track-color, var(--cvedi-indigo));
+}
+.metro-divider {
+  stroke: var(--metro-divider-color, var(--cvedi-paper));
+  stroke-width: var(--cvedi-metro-divider);
+}
+.slidev-layout .chapter-metro-route {
+  --metro-track-color: var(--cvedi-indigo-500);
+  --metro-divider-color: var(--slide-accent);
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+.metro-train {
+  stroke: var(--cvedi-yellow-400);
+  stroke-dasharray: .085 1.1;
+  stroke-dashoffset: .1;
+  opacity: 0;
+}
+.slidev-layout .cvedi-process-timeline {
+  position: relative;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  flex: 0 0 auto;
+  align-items: stretch;
+  list-style: none;
+}
+.cvedi-process-timeline li {
+  flex: 1;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  grid-template-rows: 48px 56px minmax(52px, auto);
+}
+.cvedi-process-timeline hr {
+  visibility: hidden;
+}
+.cvedi-process-timeline .timeline-middle {
+  padding: 0;
+}
+.cvedi-process-timeline .metro-station {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  border: 4px solid var(--cvedi-paper);
+  border-radius: 50%;
+  font: 700 18px/1 var(--cvedi-font-display);
+}
+.metro-station::after {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border: 2px solid var(--cvedi-yellow-400);
+  border-radius: inherit;
+  opacity: 0;
+  pointer-events: none;
+}
+.cvedi-process-timeline .timeline-end {
+  max-width: 270px;
+  padding: 16px 12px 0;
+  color: var(--cvedi-body);
+  font: 600 20px/1.3 var(--cvedi-font-display);
+  text-align: center;
+}
+.cvedi-stats {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  width: 100%;
+  border: 0;
+  border-radius: var(--cvedi-radius);
+  background: var(--slide-surface);
+  box-shadow: none;
+}
+.cvedi-stats .stat {
+  min-width: 0;
+  padding: var(--cvedi-space-content);
+}
+.cvedi-stats .stat-title {
+  margin-bottom: 12px;
+  color: var(--slide-detail-accent);
+  font: 600 24px/1.2 var(--cvedi-font-display);
+}
+.cvedi-stats .stat-value {
+  color: var(--cvedi-body);
+  font: 700 32px/1.2 var(--cvedi-font-display);
+  font-variant-numeric: tabular-nums;
+}
+.presentation-progress-rail {
+  position: absolute;
+  z-index: 30;
+  inset: auto 0 0;
+  display: block;
+  width: 100%;
+  height: 10px;
+  overflow: hidden;
+  background: var(--cvedi-indigo-200);
+  pointer-events: none;
+}
+.presentation-progress-fill {
+  display: block;
+  height: 100%;
+  background: var(--cvedi-yellow-400);
+}

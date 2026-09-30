@@ -1,0 +1,386 @@
+/* Slidev scales this 1280 × 720 canvas; viewport breakpoints must not reflow it. */
+.slidev-layout {
+  --slide-accent: var(--cvedi-indigo-700);
+  --slide-subtitle: var(--cvedi-indigo-800);
+  --slide-detail-accent: var(--cvedi-detail-accent);
+  --slide-stripe: var(--cvedi-indigo-700);
+  --slide-surface: var(--cvedi-indigo-50);
+  --slide-surface-alt: var(--cvedi-indigo-100);
+  --slide-rule: var(--cvedi-indigo-200);
+  --chapter-ghost: #5944db;
+  --chapter-mid: var(--cvedi-indigo-200);
+  --color-primary: var(--slide-accent);
+  --color-secondary: var(--cvedi-indigo-500);
+  --color-accent: var(--cvedi-yellow-400);
+  --color-base-100: var(--cvedi-paper);
+  --color-base-200: var(--slide-surface);
+  --color-base-300: var(--slide-rule);
+  --color-base-content: var(--cvedi-body);
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: var(--cvedi-slide-top) var(--cvedi-slide-inline) var(--cvedi-slide-bottom);
+  background: var(--cvedi-paper);
+  color: var(--cvedi-body);
+  font-family: var(--cvedi-font-display);
+}
+/* Center the title and its content together inside the footer-safe area. */
+.slidev-layout > :not(.slide-footer) {
+  flex-shrink: 0;
+}
+.slidev-layout > :nth-last-child(2) {
+  margin-bottom: 0;
+}
+.slidev-layout:is(.exam-section, .history-section) {
+  --slide-accent: var(--cvedi-indigo-800);
+  --slide-subtitle: var(--cvedi-indigo-700);
+  --chapter-ghost: #4734ab;
+}
+.slidev-layout:is(.project-section, .archive-section) {
+  --slide-stripe: var(--cvedi-indigo-500);
+}
+.slidev-layout.history-section {
+  --slide-stripe: var(--cvedi-indigo-800);
+}
+.slidev-layout::before {
+  content: '';
+  position: absolute;
+  inset: 0 0 auto;
+  height: 14px;
+  background: var(--slide-stripe);
+}
+.slidev-layout h1 {
+  position: relative;
+  z-index: 1;
+  margin: 0 0 var(--cvedi-space-section);
+  color: var(--slide-accent);
+  font: 700 var(--cvedi-type-title)/1.08 var(--cvedi-font-display);
+  letter-spacing: -.035em;
+  text-wrap: balance;
+}
+.slidev-layout h2 {
+  margin: 0;
+}
+.slidev-layout :is(p, li) {
+  color: var(--cvedi-body);
+  font: 400 var(--cvedi-type-body)/1.45 var(--cvedi-font-body);
+}
+.slidev-layout h1 + p {
+  opacity: 1;
+}
+.slidev-layout p {
+  margin: 0 0 var(--cvedi-space-card);
+}
+.slidev-layout .lead {
+  max-width: 980px;
+  margin-bottom: var(--cvedi-space-section);
+  font-size: var(--cvedi-type-lead);
+  line-height: 1.42;
+}
+.slidev-layout .aside {
+  margin-top: var(--cvedi-space-content);
+  color: var(--cvedi-muted);
+  font: 400 16px/1.4 var(--cvedi-font-display);
+}
+.slidev-layout h1:has(+ .speaker) {
+  margin-bottom: var(--cvedi-space-card);
+}
+.slidev-layout a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: .14em;
+}
+.slidev-layout a:focus-visible {
+  outline: 3px solid var(--slide-accent);
+  outline-offset: 4px;
+}
+.slidev-layout strong {
+  color: inherit;
+}
+.slidev-layout ::selection {
+  background: var(--slide-surface-alt);
+  color: var(--cvedi-ink);
+}
+/* Native per-slide context keeps labels and numbering correct in every view. */
+.slide-footer {
+  position: absolute;
+  z-index: 5;
+  inset: auto var(--cvedi-slide-inline) 32px;
+  display: flex;
+  align-items: baseline;
+  gap: var(--cvedi-space-content);
+  color: var(--cvedi-muted);
+  font: 500 var(--cvedi-type-label)/1.2 var(--cvedi-font-display);
+}
+.slide-label {
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.slide-index {
+  margin-left: auto;
+  letter-spacing: .08em;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+/* Equal columns group equivalent content; there is no card-specific layout logic. */
+.cvedi-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--cvedi-space-card);
+  align-items: stretch;
+  width: 100%;
+}
+.cvedi-grid.three {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.cvedi-grid.four {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.cvedi-grid:has(> .cvedi-card:only-child) {
+  grid-template-columns: minmax(0, 900px);
+}
+.cvedi-grid.three .cvedi-card {
+  min-height: 215px;
+}
+.cvedi-list {
+  display: grid;
+  gap: var(--cvedi-space-content) 40px;
+  margin: 0;
+  padding: 0;
+}
+.cvedi-list li {
+  display: grid;
+  grid-template-columns: 8px minmax(0, 1fr);
+  align-items: start;
+  column-gap: var(--cvedi-space-card);
+  min-width: 0;
+  margin: 0;
+  list-style: none;
+}
+.cvedi-list li::before {
+  content: '';
+  width: 8px;
+  height: 8px;
+  margin-top: .56em;
+  border-radius: 50%;
+  background: var(--slide-detail-accent);
+}
+.list-slide > .cvedi-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.list-slide > .cvedi-list li {
+  font-size: 23px;
+  line-height: 1.4;
+}
+.dense-slide .lead {
+  font-size: 24px;
+}
+/* Expressive slides retain their type scale and individual surfaces. */
+.slidev-layout.cover-slide {
+  padding: 50px 72px;
+  background: var(--cvedi-paper) url('/images/manuale-cover-pattern.png') center / cover no-repeat;
+}
+.slidev-layout.cover-slide::before {
+  inset: 24% 0 22%;
+  z-index: 0;
+  height: auto;
+  background: var(--cvedi-indigo);
+}
+.slidev-layout.cover-slide h1 {
+  max-width: 1050px;
+  margin-bottom: 26px;
+  color: white;
+  font-size: 66px;
+  line-height: 1.02;
+  text-transform: uppercase;
+}
+.cover-meta {
+  position: relative;
+  z-index: 1;
+  margin-bottom: 32px;
+  color: white;
+  font: 700 22px/1.2 var(--cvedi-font-display);
+  letter-spacing: .025em;
+}
+.cover-people {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  gap: 32px;
+  max-width: 1010px;
+  border-top: 2px solid white;
+  padding-top: 20px;
+  color: white;
+  font: 600 16px/1.3 var(--cvedi-font-display);
+}
+.cover-people > span {
+  flex: 1;
+}
+.cover-people small {
+  font-size: 14px;
+  font-weight: 400;
+}
+.slidev-layout:is(.chapter-slide, .closing-slide) {
+  background: var(--slide-accent);
+}
+.slidev-layout:is(.chapter-slide, .closing-slide)::before {
+  display: none;
+}
+.slidev-layout:is(.chapter-slide, .closing-slide) h1 {
+  max-width: 1100px;
+  color: white;
+  font-size: 96px;
+}
+.slidev-layout:is(.chapter-slide, .closing-slide) p {
+  color: var(--cvedi-detail-accent-on-indigo);
+  font: 600 28px/1.3 var(--cvedi-font-display);
+}
+:is(.cover-slide, .chapter-slide, .closing-slide) .slide-footer {
+  color: white;
+}
+.slidev-layout.closing-slide {
+  isolation: isolate;
+  background: var(--cvedi-paper);
+}
+.slidev-layout.closing-slide::before {
+  display: block;
+  inset: 224px 0 auto;
+  z-index: -1;
+  height: 272px;
+  background: var(--cvedi-indigo);
+}
+.closing-metro-map {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.closing-metro-reveal {
+  stroke-dasharray: 1 1;
+  stroke-dashoffset: 0;
+}
+.closing-slide > p {
+  position: relative;
+  z-index: 1;
+}
+.closing-slide .slide-footer {
+  inset: auto 32px 32px auto;
+  padding: 10px 14px;
+  background: var(--cvedi-indigo);
+}
+.cover-slide .slide-footer {
+  bottom: 176px;
+}
+.slidev-layout.question-slide h1 {
+  max-width: 1080px;
+  font-size: 76px;
+}
+.question-slide .lead {
+  margin: 12px 0 0;
+  font-size: 28px;
+}
+/* Dense data and images share the same centering and footer safety zone. */
+.calendar-slide h1 {
+  margin-bottom: var(--cvedi-space-content);
+  font-size: 48px;
+}
+.slidev-layout .formula {
+  font: 600 24px/1.4 var(--cvedi-font-display);
+}
+.book-layout {
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  align-items: center;
+  gap: var(--cvedi-space-major);
+}
+.book-layout > img {
+  width: 100%;
+  max-height: 440px;
+  object-fit: contain;
+}
+.book-layout .card-title {
+  font-size: 30px;
+}
+/* The archive becomes a full-bleed set of independently changing windows. */
+.slidev-layout.archive-wall-slide {
+  padding: 0;
+  background: var(--cvedi-indigo-700);
+}
+.slidev-layout.archive-wall-slide::before {
+  display: none;
+}
+.archive-wall-slide .project-gallery {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+  gap: 0;
+  background: var(--cvedi-indigo-700);
+}
+.gallery-tile {
+  position: relative;
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+.gallery-tile img {
+  position: absolute;
+  inset: -18px;
+  display: block;
+  width: calc(100% + 36px);
+  height: calc(100% + 36px);
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  object-position: center top;
+}
+.gallery-tile-next {
+  opacity: 0;
+  transform: scale(1.035);
+  transition: opacity 820ms ease-in-out, transform 820ms var(--cvedi-ease-out);
+}
+.gallery-tile.is-revealing .gallery-tile-next {
+  opacity: 1;
+  transform: scale(1);
+}
+.slidev-layout.archive-wall-slide h1 {
+  position: absolute;
+  z-index: 4;
+  bottom: 108px;
+  left: 64px;
+  max-width: none;
+  margin: 0;
+  color: white;
+  font-size: 48px;
+}
+.project-gallery-linkbar {
+  position: absolute;
+  z-index: 3;
+  inset: auto auto 32px 40px;
+  display: flex;
+  align-items: flex-end;
+  width: 520px;
+  height: 150px;
+  padding: 0 24px 20px;
+  background: var(--cvedi-indigo-700);
+}
+.project-gallery-linkbar .link {
+  color: var(--cvedi-detail-accent-on-indigo);
+  font: 600 26px/1.2 var(--cvedi-font-display);
+  text-underline-offset: .2em;
+}
+.archive-wall-slide .slide-footer {
+  inset: auto 32px 32px auto;
+  padding: 14px 16px;
+  background: var(--cvedi-indigo-700);
+  color: white;
+}

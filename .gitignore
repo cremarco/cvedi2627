@@ -1,0 +1,11 @@
+node_modules/
+/dist/
+/_site/
+.slidev/
+/*.pptx
+slides-export/
+.DS_Store
+reports/
+
+.impeccable/*
+!.impeccable/config.json

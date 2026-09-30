@@ -1,0 +1,154 @@
+/* Grade charts use the same data, bands and tonal scale in every view. */
+.grade-slide h1 {
+  margin-bottom: 16px;
+  font-size: 50px;
+}
+.grade-slide .grade-intro {
+  margin-bottom: 28px;
+  font: 400 23px/1.3 var(--cvedi-font-body);
+}
+.grade-distribution {
+  display: grid;
+  gap: 17px;
+  margin: 0 0 25px;
+}
+.grade-range {
+  --grade-fill: var(--cvedi-indigo-700);
+}
+.grade-tone-low {
+  --grade-fill: var(--cvedi-indigo-200);
+}
+.grade-tone-mid {
+  --grade-fill: var(--cvedi-indigo-300);
+}
+.grade-tone-high {
+  --grade-fill: var(--cvedi-indigo-500);
+}
+.grade-tone-top {
+  --grade-fill: var(--cvedi-indigo-800);
+}
+.grade-range-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 7px;
+  color: var(--cvedi-body);
+  font: 600 21px/1.2 var(--cvedi-font-display);
+}
+.grade-range-head strong {
+  color: var(--slide-detail-accent);
+  font-size: 25px;
+  font-variant-numeric: tabular-nums;
+}
+.grade-range-head small {
+  color: var(--cvedi-muted);
+  font-size: 16px;
+  font-weight: 400;
+}
+.grade-summary-stats.stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  margin-bottom: 16px;
+  border: 0;
+  border-radius: var(--cvedi-radius);
+  background: var(--slide-surface);
+  box-shadow: none;
+}
+.grade-summary-stats .stat {
+  padding: 12px 22px;
+}
+.grade-summary-stats .stat-title {
+  color: var(--cvedi-muted);
+  font: 500 16px/1.2 var(--cvedi-font-display);
+}
+.grade-summary-stats .stat-value {
+  color: var(--slide-detail-accent);
+  font: 700 31px/1.15 var(--cvedi-font-display);
+}
+.grade-summary-stats .stat-desc {
+  color: var(--cvedi-body);
+  font: 400 15px/1.25 var(--cvedi-font-display);
+}
+.grade-table-wrap {
+  width: 100%;
+  margin: 18px 0 21px;
+}
+.grade-year-table.table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  background: transparent;
+}
+.grade-year-table thead {
+  background: var(--slide-surface);
+}
+.grade-year-table th:first-child {
+  width: 160px;
+}
+.grade-year-table th:last-child {
+  width: 110px;
+  text-align: right;
+}
+.grade-year-table thead th {
+  padding: 10px 13px;
+  border-bottom: 1px solid var(--slide-rule);
+  color: var(--cvedi-muted);
+  font: 600 15px/1.2 var(--cvedi-font-display);
+}
+.grade-year-table tbody th, .grade-year-table tbody td {
+  padding: 9px 13px;
+  border-bottom: 1px solid var(--slide-rule);
+  background: transparent;
+}
+.grade-year-table tbody th {
+  color: var(--cvedi-body);
+  font: 700 19px/1.15 var(--cvedi-font-display);
+  font-variant-numeric: tabular-nums;
+}
+.grade-year-table tbody th small {
+  display: block;
+  margin-top: 3px;
+  color: var(--cvedi-muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+.grade-table-value {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--cvedi-body);
+  font: 600 17px/1.1 var(--cvedi-font-display);
+  font-variant-numeric: tabular-nums;
+}
+.grade-year-table .grade-table-median {
+  color: var(--slide-detail-accent);
+  font: 700 24px/1.1 var(--cvedi-font-display);
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.grade-slide .grade-note {
+  max-width: 1110px;
+  margin: 0;
+  color: var(--cvedi-muted);
+  font: 400 14px/1.3 var(--cvedi-font-display);
+}
+.grade-slide .progress {
+  display: block;
+  width: 100%;
+  height: 15px;
+  border-radius: 0;
+  color: var(--grade-fill);
+  background: var(--slide-surface);
+}
+.grade-slide .progress::-webkit-progress-bar {
+  background: var(--slide-surface);
+}
+.grade-slide .progress::-webkit-progress-value {
+  background: var(--grade-fill);
+}
+.grade-slide .progress::-moz-progress-bar {
+  background: var(--grade-fill);
+}
+.grade-year-table .progress {
+  height: 8px;
+}

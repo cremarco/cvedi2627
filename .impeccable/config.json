@@ -1,0 +1,62 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "progetti/index.html"
+        ],
+        "createdAt": "2026-09-30T13:30:38.414Z",
+        "reason": "Agent: Chromium resolves Tailwind CDN text to rgb(214,211,209) on dark filters, not detector-assumed black; active filters use the existing dark oklch text on bright backgrounds."
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "progetti/index.html"
+        ],
+        "createdAt": "2026-09-30T13:30:38.430Z",
+        "reason": "Agent: Chromium resolves Tailwind CDN h1 to 36px and year h2 to 30px, rather than detector-assumed 16px."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "progetti/a.a.2025_2026/mise-en-thropic/css/main.css"
+        ],
+        "createdAt": "2026-09-30T13:49:05.425Z",
+        "reason": "Agent: verified in the pre-minification backup; the accent belongs to the existing slide-out navigation edge and active menu links, not a newly introduced card. User requested preserved final appearance."
+      },
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "files": [
+          "progetti/a.a.2025_2026/mise-en-thropic/css/main.css"
+        ],
+        "createdAt": "2026-09-30T13:49:05.484Z",
+        "reason": "User requested preserved final appearance; Arial already styles map labels in the pre-minification backup. No font choice was introduced by this optimization."
+      },
+      {
+        "rule": "overused-font",
+        "value": "instrument sans",
+        "files": [
+          "progetti/a.a.2025_2026/mise-en-thropic/css/main.css"
+        ],
+        "createdAt": "2026-09-30T13:49:05.540Z",
+        "reason": "User requested preserved final appearance; Instrument Sans is the existing heading face in the pre-minification backup. No font choice was introduced by this optimization."
+      },
+      {
+        "rule": "layout-transition",
+        "value": "*",
+        "files": [
+          "progetti/a.a.2025_2026/mise-en-thropic/css/main.css"
+        ],
+        "createdAt": "2026-09-30T13:49:05.596Z",
+        "reason": "User requested preserved final rendering; the existing 0.3-second max-height expansion of the navigation submenu is retained. Current CSS equals formatting-only minification of the backed-up CSS; changing this interaction is outside the file-size task."
+      }
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+:root {
+  /* Booklet chapter colors, with Tailwind indigo and yellow variants for the deck. */
+  --cvedi-teal-500: #00bba7;
+  --cvedi-teal-700: #00786f;
+  --cvedi-teal-800: #005f5a;
+  --cvedi-pink-500: #f6339a;
+  --cvedi-pink-700: #c6005c;
+  --cvedi-pink-800: #a3004c;
+  --cvedi-red-500: #fb2c36;
+  --cvedi-red-700: #c10007;
+  --cvedi-red-800: #9f0712;
+  --cvedi-orange-500: #ff6900;
+  --cvedi-orange-700: #ca3500;
+  --cvedi-orange-800: #9f2d00;
+  --cvedi-yellow-400: #fdc700;
+  --cvedi-yellow-500: #f0b100;
+  --cvedi-yellow-700: #a65f00;
+  --cvedi-yellow-800: #894b00;
+  --cvedi-indigo-500: #615fff;
+  --cvedi-indigo-600: #4f39f6;
+  --cvedi-indigo-700: #432dd7;
+  --cvedi-indigo-50: #f7f6ff;
+  --cvedi-indigo-100: #eeecff;
+  --cvedi-indigo-200: #dcd7fc;
+  --cvedi-indigo-300: #bcb2f4;
+  --cvedi-indigo-800: #3222a3;
+  --cvedi-indigo-900: #21156c;
+  --cvedi-gray-50: #f9fafb;
+  --cvedi-gray-950: #030712;
+
+  /* Tailwind yellow: bright on indigo, readable on light surfaces. */
+  --cvedi-indigo: var(--cvedi-indigo-700);
+  --cvedi-detail-accent: var(--cvedi-yellow-700);
+  --cvedi-detail-accent-on-indigo: var(--cvedi-yellow-400);
+
+  /* Reading surfaces and hierarchy */
+  --cvedi-ink: #17212b;
+  --cvedi-body: #4b5563;
+  --cvedi-muted: #64727a;
+  --cvedi-paper: #ffffff;
+  --cvedi-surface: #f7f8fb;
+  --cvedi-rule: #d0dad8;
+
+  --cvedi-font-display: 'Inter', Arial, sans-serif;
+  --cvedi-font-body: 'Merriweather', Georgia, serif;
+  --cvedi-type-title: 55px;
+  --cvedi-type-lead: 27px;
+  --cvedi-type-body: 21px;
+  --cvedi-type-card-title: 24px;
+  --cvedi-type-card-body: 19px;
+  --cvedi-type-data: 17px;
+  --cvedi-type-label: 15px;
+
+  --cvedi-slide-top: 64px;
+  --cvedi-slide-inline: 68px;
+  --cvedi-slide-bottom: 88px;
+  --cvedi-radius: 8px;
+  --cvedi-ease-out: cubic-bezier(.16, 1, .3, 1);
+  --cvedi-motion-data: 520ms;
+  /* About 14 px per colored lane in the cover's pattern on this canvas. */
+  --cvedi-metro-lane: 14px;
+  --cvedi-metro-divider: 2px;
+  --cvedi-motion-metro: 2300ms;
+
+  --cvedi-space-card: 16px;
+  --cvedi-space-content: 24px;
+  --cvedi-space-section: 32px;
+  --cvedi-space-major: 48px;
+}
