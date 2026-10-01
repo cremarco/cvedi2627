@@ -65,6 +65,8 @@ try {
         brokenImages,
         backgrounds,
         galleryImages: root.querySelectorAll('.project-gallery img').length,
+        archiveWall: root.classList.contains('archive-wall-slide'),
+        projectSection: root.classList.contains('project-section'),
       }
     }, number)
     assert.equal(report.headings, 1, `slide ${number}: heading`)
@@ -72,7 +74,7 @@ try {
     assert.equal(report.codeBlocks, 0, `slide ${number}: unintended code block`)
     assert.equal(report.brokenImages.length, 0, `slide ${number}: missing images`)
     assert.ok(report.backgrounds.length <= 1, `slide ${number}: inconsistent card surfaces`)
-    if (number === 44) {
+    if (report.archiveWall) {
       assert.ok(projects.length >= 12, 'archive: enough project screenshots to cycle')
       assert.equal(report.galleryImages, 12, 'archive: twelve full-screen image windows')
     }
@@ -81,7 +83,11 @@ try {
   }
   for (let number = 1; number <= total; number++) await inspect(number)
   await page.setViewportSize({ width: 636, height: 778 })
-  for (const number of [2, 6, 10, 17, 23, 37, 41, 44]) await inspect(number, true)
+  const narrowNumbers = new Set([
+    2, 3, 7, 11, 18,
+    ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
+  ])
+  for (const number of narrowNumbers) await inspect(number, true)
   const overset = reports.filter(report => report.violations.length)
   console.log(JSON.stringify({ slides: total, renders: reports.length, errors, overset, reports }, null, 2))
   if (output) await writeFile(`${output}/report.json`, JSON.stringify(reports, null, 2))

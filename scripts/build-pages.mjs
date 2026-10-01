@@ -1,4 +1,5 @@
 import { spawnSync } from 'node:child_process'
+import { existsSync } from 'node:fs'
 import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
@@ -33,7 +34,10 @@ async function prefixArchiveURLs(directory) {
   }
 }
 await prefixArchiveURLs(path.join(output, 'project'))
-await cp(path.join(root, 'cvedi-2026-2027.pdf'), path.join(output, 'slides/cvedi-2026-2027.pdf'))
+// The PDF is generated manually at the end and is optional for publication.
+const pdf = path.join(root, 'cvedi-2026-2027.pdf')
+if (existsSync(pdf))
+  await cp(pdf, path.join(output, 'slides/cvedi-2026-2027.pdf'))
 await writeFile(path.join(output, '.nojekyll'), '')
 await writeFile(path.join(output, 'index.html'), '<!doctype html><html lang="it"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=slides/"><title>CVeDI 2026/27</title><body><a class="link" href="slides/">Presentazione CVeDI 2026/27</a> · <a class="link" href="project/">Progetti</a></body></html>\n')
 

@@ -56,6 +56,25 @@
         ],
         "createdAt": "2026-09-30T13:49:05.596Z",
         "reason": "User requested preserved final rendering; the existing 0.3-second max-height expansion of the navigation submenu is retained. Current CSS equals formatting-only minification of the backed-up CSS; changing this interaction is outside the file-size task."
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "progetti/gallery.source.css",
+          "progetti/index.html"
+        ],
+        "createdAt": "2026-09-30T23:19:34.522Z",
+        "reason": "Agent: DESIGN.md specifies Inter as the shared CVeDI heading and interface typeface; this scoped refinement reuses that existing system and self-hosts the installed fonts."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "progetti/index.html"
+        ],
+        "createdAt": "2026-09-30T23:25:14.646Z",
+        "reason": "Agent: targeted Chromium measurement verifies archive-toolbar has 16px vertical padding on desktop and 12px on mobile; toolbar-inner adds 80px horizontal insets at 1440px and 20px at 390px. The static detector does not resolve this external CSS and nested page-width wrapper. No text is flush against the visible toolbar boundary."
       }
     ]
   }

@@ -30,11 +30,43 @@ footer: "Lezioni"
 # Indice delle lezioni
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
-  <button type="button" class="btn btn-lg index-button index-chapter-1" disabled><span class="index-chapter-number">01</span><span>Introduzione</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-1" @click="$nav.go(4)"><span class="index-chapter-number">01</span><span>Introduzione</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-2" disabled><span class="index-chapter-number">02</span><span>Storia del graphic design e delle interfacce</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">03</span><span>Il processo UX attraverso il Design Thinking</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">04</span><span>La metodologia Lean UX</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">05</span><span>Conclusioni</span></button>
+</div>
+
+---
+layout: default
+class: content-slide shortcuts-slide course-section
+footer: "Navigazione"
+---
+
+# Navigare con la tastiera
+
+<p class="lead">Le scorciatoie funzionano anche quando i comandi sullo schermo sono nascosti.</p>
+<div class="cvedi-grid two">
+  <section aria-labelledby="navigation-keys">
+    <h2 id="navigation-keys">Avanti e indietro</h2>
+    <table class="table shortcut-table"><tbody>
+      <tr><th scope="row">Passo successivo</th><td><kbd class="kbd kbd-lg" aria-label="Freccia destra">→</kbd> <span>oppure</span> <kbd class="kbd kbd-lg">Spazio</kbd></td></tr>
+      <tr><th scope="row">Passo precedente</th><td><kbd class="kbd kbd-lg" aria-label="Freccia sinistra">←</kbd> <span>oppure</span> <kbd class="kbd kbd-lg">Shift</kbd> + <kbd class="kbd kbd-lg">Spazio</kbd></td></tr>
+      <tr><th scope="row">Slide successiva</th><td><kbd class="kbd kbd-lg">Shift</kbd> + <kbd class="kbd kbd-lg" aria-label="Freccia destra">→</kbd> <span>oppure</span> <kbd class="kbd kbd-lg" aria-label="Freccia giù">↓</kbd></td></tr>
+      <tr><th scope="row">Slide precedente</th><td><kbd class="kbd kbd-lg">Shift</kbd> + <kbd class="kbd kbd-lg" aria-label="Freccia sinistra">←</kbd> <span>oppure</span> <kbd class="kbd kbd-lg" aria-label="Freccia su">↑</kbd></td></tr>
+    </tbody></table>
+    <p class="shortcut-note">Un passo avanza anche le animazioni. <kbd class="kbd kbd-sm">PgDn</kbd> e <kbd class="kbd kbd-sm">PgUp</kbd> sono alternative per avanti e indietro.</p>
+  </section>
+  <section aria-labelledby="exploration-keys">
+    <h2 id="exploration-keys">Esplorare le slide</h2>
+    <table class="table shortcut-table"><tbody>
+      <tr><th scope="row">Aprire la panoramica</th><td><kbd class="kbd kbd-lg">O</kbd> <span>oppure</span> <kbd class="kbd kbd-lg">`</kbd></td></tr>
+      <tr><th scope="row">Scegliere nella panoramica</th><td><kbd class="kbd kbd-lg" aria-label="Frecce direzionali">← ↑ ↓ →</kbd> <span>poi</span> <kbd class="kbd kbd-lg">Invio</kbd></td></tr>
+      <tr><th scope="row">Andare a una slide</th><td><kbd class="kbd kbd-lg">G</kbd></td></tr>
+      <tr><th scope="row">Schermo intero</th><td><kbd class="kbd kbd-lg">F</kbd></td></tr>
+      <tr><th scope="row">Chiudere panoramica o salto</th><td><kbd class="kbd kbd-lg">Esc</kbd></td></tr>
+    </tbody></table>
+  </section>
 </div>
 
 ---
@@ -254,13 +286,13 @@ footer: "Valutazione"
 # Tre parti dell’esame
 
 <div class="cvedi-grid three">
-  <CvediCard title="Progetto o approfondimento">
+  <CvediCard title="Progetto o approfondimento" illustration="/images/flat/lesson-workshops.svg" illustration-variant="roomy">
     <p>Progetto di gruppo secondo il brief, con attività metaprogettuali, oppure approfondimento individuale. Massimo 31 punti (30 e lode).</p>
   </CvediCard>
-  <CvediCard title="Esame scritto">
+  <CvediCard title="Esame scritto" illustration="/images/flat/document.svg" illustration-variant="roomy">
     <p>16 domande chiuse (1 punto ciascuna) e 3 aperte (5 punti ciascuna). Argomenti delle lezioni, delle esercitazioni e della bibliografia. 75 minuti; massimo 31 punti.</p>
   </CvediCard>
-  <CvediCard title="Esame orale">
+  <CvediCard title="Esame orale" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
     <p>Discussione sul voto del progetto e domande sulla bibliografia teorica. Massimo 31 punti.</p>
   </CvediCard>
 </div>
@@ -274,10 +306,10 @@ footer: "Organizzazione"
 # Individuale e di gruppo
 
 <div class="cvedi-grid two">
-  <CvediCard title="Il gruppo">
+  <CvediCard title="Il gruppo" illustration="/images/flat/people.svg" illustration-variant="roomy">
     <p>Il progetto è valutato per gruppo. I gruppi sono composti da 6 persone con competenze eterogenee; eventuali deroghe si discutono con il docente.</p>
   </CvediCard>
-  <CvediCard title="La persona">
+  <CvediCard title="La persona" illustration="/images/flat/person.svg" illustration-variant="roomy">
     <p>Scritto e orale sono individuali. I membri dello stesso gruppo possono iscriversi ad appelli diversi. Un’insufficienza nello scritto o nell’orale non richiede un nuovo progetto o approfondimento.</p>
   </CvediCard>
 </div>
@@ -293,14 +325,14 @@ footer: "Percorso di gruppo"
 
 <p class="lead">Attività di gruppo: 6 studenti, salvo eventuali adattamenti in base agli iscritti.</p>
 <div class="cvedi-grid two">
-  <CvediCard title="Obiettivo nella sorgente">
-    <p>Progettare e sviluppare un’interfaccia responsive per un totem. Il brief nelle slide seguenti descrive invece un sito per ristoranti: il tema definitivo è da confermare.</p>
+  <CvediCard title="Obiettivo · WHAT IF?" illustration="/images/flat/idea.svg" illustration-variant="roomy">
+    <p>Inventare un servizio del 2050 basato sulle potenzialità future dell’AI e progettare il sito web responsive dell’organizzazione che lo offre.</p>
   </CvediCard>
-  <CvediCard title="Scadenze">
-    <p>Brief, selezione e consegna saranno confermati per il 2026/27. La consegna finale è prevista una settimana prima dell’appello scritto.</p>
+  <CvediCard title="Scadenze" illustration="/images/flat/calendar.svg" illustration-variant="roomy">
+    <p>Le scadenze saranno confermate per il 2026/27. La consegna finale è prevista una settimana prima dell’appello scritto.</p>
   </CvediCard>
 </div>
-<p class="aside">Nella sorgente questa slide è segnata “in aggiornamento”.</p>
+<p class="aside">Ogni gruppo inventa nome e identità della propria organizzazione.</p>
 
 ---
 layout: default
@@ -322,10 +354,10 @@ footer: "Consegne"
 
 <p class="lead">Il form di consegna e le scadenze dei singoli appelli saranno pubblicati durante il corso.</p>
 <div class="cvedi-grid two">
-  <CvediCard title="Form di consegna">
+  <CvediCard title="Form di consegna" illustration="/images/flat/delivery.svg" illustration-variant="roomy">
     <p>Il collegamento verrà comunicato dal docente.</p>
   </CvediCard>
-  <CvediCard title="Appelli">
+  <CvediCard title="Appelli" illustration="/images/flat/calendar.svg" illustration-variant="roomy">
     <p>1 · 2 · 3 · 4 · 5 · 6</p>
     <p>Scadenze in aggiornamento.</p>
   </CvediCard>
@@ -333,49 +365,180 @@ footer: "Consegne"
 
 ---
 layout: default
-class: content-slide dense-slide project-section
-footer: "Il brief"
+class: content-slide project-section nextme-slide nextme-intro
+footer: "WHAT IF? · Il brief"
 ---
 
-# Progetto: brief
+# WHAT IF?
 
-<p class="lead">Realizzare un sito web intuitivo, accessibile e sicuro per ristoranti: presentare il locale, consultare menù e allergeni, prenotare un tavolo.</p>
-<div class="cvedi-grid">
-  <CvediCard title="Destinatari">
-    <ul class="cvedi-list" role="list">
-      <li>Nuovi visitatori e clienti abituali in cerca di informazioni rapide</li>
-      <li>Utenti che vogliono prenotare</li>
-      <li>Persone con diversi bisogni di accessibilità</li>
-      <li>Turisti e pubblico multilingua</li>
-    </ul>
+<div class="nextme-layout">
+  <div class="nextme-copy">
+    <p class="nextme-subtitle">Progettare i servizi del futuro con l’intelligenza artificiale</p>
+    <p>Siamo nel <strong>2050</strong>. L’evoluzione dell’AI apre nuove possibilità per imparare, creare, lavorare, comunicare e interagire con il mondo.</p>
+    <p>Inventate un’organizzazione che offra <strong>soluzioni, prodotti, servizi o esperienze innovative</strong> basati su queste possibilità.</p>
+    <p>Individuate un bisogno delle persone e progettate un’offerta originale, utile e comprensibile.</p>
+  </div>
+  <NextMeIllustration src="/images/generated/next-me/next-me-2050-v2.webp" />
+</div>
+<p class="aside nextme-statement">Realizzate il sito web responsive attraverso cui le persone scoprono, scelgono e utilizzano la vostra offerta.</p>
+
+<!--
+WHAT IF? è il titolo del progetto didattico: ogni gruppo inventa il nome e l’identità della propria organizzazione.
+L’ambientazione futura lascia spazio alla fantasia. Le proposte devono avere una logica comprensibile, destinatari riconoscibili e un’utilità concreta.
+Definite quali capacità dell’AI rendono possibile l’offerta, come funziona e quale ruolo hanno le persone.
+Il progetto riguarda il concept, la comunicazione visiva, l’esperienza delle persone e la realizzazione del sito web.
+-->
+
+---
+layout: default
+class: content-slide project-section nextme-slide nextme-concept
+footer: "WHAT IF? · Il concept"
+---
+
+# Dal bisogno al concept
+
+<p class="lead">Collegate persone, capacità dell’AI e valore del servizio.</p>
+<div class="nextme-layout">
+  <dl class="nextme-definition-list">
+    <div><dt>Destinatari</dt><dd>Definite persone, bisogno e contesto d’uso.</dd></div>
+    <div><dt>Offerta</dt><dd>Una soluzione principale, con servizi o varianti coerenti.</dd></div>
+    <div><dt>Ruolo dell’AI</dt><dd>Spiegate quale capacità rende possibile la vostra offerta.</dd></div>
+    <div><dt>Evoluzione</dt><dd>Distinguete ciò che esiste oggi da ciò che ipotizzate per il 2050.</dd></div>
+    <div><dt>Scelte dell’utente</dt><dd>Chiarite cosa decide, fornisce, delega e può modificare.</dd></div>
+  </dl>
+  <NextMeIllustration src="/images/generated/next-me/next-me-concept-v2.webp" />
+</div>
+
+---
+layout: default
+class: content-slide project-section nextme-directions
+footer: "WHAT IF? · Direzioni da esplorare"
+---
+
+# Potenzialità dell’AI
+
+<p class="lead">Sei direzioni per immaginare la vostra offerta.</p>
+<div class="cvedi-grid three">
+  <CvediCard title="Personalizzazione" illustration="/images/flat/sliders.svg" illustration-variant="compact">
+    <p>Servizi che si adattano a esigenze, conoscenze, preferenze e contesto.</p>
+  </CvediCard>
+  <CvediCard title="Collaborazione" illustration="/images/flat/people.svg" illustration-variant="compact">
+    <p>Persone e AI progettano, ricercano e creano insieme.</p>
+  </CvediCard>
+  <CvediCard title="Multimodalità" illustration="/images/flat/multimodal.svg" illustration-variant="compact">
+    <p>Linguaggio, immagini, suoni, movimento e dati ambientali dialogano.</p>
+  </CvediCard>
+  <CvediCard title="Simulazione" illustration="/images/flat/simulation.svg" illustration-variant="compact">
+    <p>Ambienti generati per imparare, sperimentare e prepararsi a situazioni nuove.</p>
+  </CvediCard>
+  <CvediCard title="Autonomia" illustration="/images/flat/check.svg" illustration-variant="compact">
+    <p>Attività articolate coordinate con livelli di delega scelti dall’utente.</p>
+  </CvediCard>
+  <CvediCard title="Mondo fisico" illustration="/images/flat/devices.svg" illustration-variant="compact">
+    <p>AI, oggetti, spazi e robotica si collegano in nuovi servizi.</p>
   </CvediCard>
 </div>
 
 ---
 layout: default
-class: list-slide dense-slide project-section
-footer: "Il brief"
+class: content-slide project-section
+footer: "WHAT IF? · Fondare l’ipotesi"
 ---
 
-# Progetto: funzionalità
+# Dal presente al 2050
+
+<p class="lead">La fantasia si appoggia a una logica comprensibile e a fonti verificabili.</p>
+<div class="cvedi-grid three">
+  <CvediCard title="Capacità emergente" illustration="/images/flat/search.svg" illustration-variant="roomy">
+    <p>Documentate una capacità disponibile o in sperimentazione e citate le fonti.</p>
+  </CvediCard>
+  <CvediCard title="Evoluzione ipotizzata" illustration="/images/flat/idea.svg" illustration-variant="roomy">
+    <p>Descrivete quale ulteriore capacità assumete disponibile nel 2050 e perché è plausibile.</p>
+  </CvediCard>
+  <CvediCard title="Nuovo valore" illustration="/images/flat/check.svg" illustration-variant="roomy">
+    <p>Spiegate il bisogno affrontato e come l’evoluzione dell’AI cambia l’esperienza delle persone.</p>
+  </CvediCard>
+</div>
+<p class="aside">Riferimenti per partire: <a class="link" href="https://deepmind.google/blog/genie-3-a-new-frontier-for-world-models/" target="_blank" rel="noreferrer">Genie · ambienti interattivi</a> e <a class="link" href="https://deepmind.google/blog/co-scientist-a-multi-agent-ai-partner-to-accelerate-research/" target="_blank" rel="noreferrer">Co-Scientist · collaborazione nella ricerca</a>.</p>
+
+<!--
+Le capacità future sono ipotesi progettuali, non previsioni certe. I riferimenti documentano direzioni di ricerca già emergenti: generazione di ambienti interattivi e collaborazione fra AI e ricercatori nella formulazione di ipotesi.
+Ogni gruppo esplicita il passaggio dalla capacità attuale all’evoluzione ipotizzata e all’offerta proposta.
+-->
+
+---
+layout: default
+class: content-slide project-section
+footer: "WHAT IF? · Spunti"
+---
+
+# Spunti per partire
+
+<div class="cvedi-grid two">
+  <CvediCard title="Professioni da provare" illustration="/images/flat/person.svg" illustration-variant="compact">
+    <p>Un’agenzia di esperienze personalizzate per esplorare una giornata in professioni future.</p>
+  </CvediCard>
+  <CvediCard title="Oggetti che evolvono" illustration="/images/flat/sliders.svg" illustration-variant="compact">
+    <p>Un atelier di oggetti capaci di adattarsi nel tempo alle esigenze del proprietario.</p>
+  </CvediCard>
+  <CvediCard title="Ambienti narrativi" illustration="/images/flat/simulation.svg" illustration-variant="compact">
+    <p>Uno studio di luoghi e storie su misura, in cui le persone partecipano e cambiano l’esperienza.</p>
+  </CvediCard>
+  <CvediCard title="Ecosistemi domestici" illustration="/images/flat/plant.svg" illustration-variant="compact">
+    <p>Un servizio che coordina piante, spazi e risorse per creare piccoli ecosistemi.</p>
+  </CvediCard>
+</div>
+<p class="aside">Usate questi esempi come stimoli e sviluppate una proposta originale.</p>
+
+---
+layout: default
+class: content-slide project-section nextme-slide nextme-website
+footer: "WHAT IF? · Il sito web"
+---
+
+# Dal concept al sito web
+
+<p class="lead">Un sito dove il servizio si capisce e si sceglie.</p>
+<div class="nextme-layout">
+  <dl class="nextme-definition-list">
+    <div><dt>Identità</dt><dd>Homepage, organizzazione, persone e contatti.</dd></div>
+    <div><dt>Offerta</dt><dd>Catalogo e schede dettagliate dei servizi.</dd></div>
+    <div><dt>Funzionamento</dt><dd>Come si usa il servizio e quale contributo dà l’AI.</dd></div>
+    <div><dt>Accesso al servizio</dt><dd>Richiesta, personalizzazione, prenotazione o attivazione.</dd></div>
+  </dl>
+  <NextMeIllustration src="/images/generated/next-me/next-me-web-v2.webp" />
+</div>
+
+---
+layout: default
+class: content-slide project-section
+footer: "WHAT IF? · Funzionalità"
+---
+
+# Un percorso completo
+
+<p class="lead">Accompagnate le persone dalla scoperta all’attivazione.</p>
 
 <div class="cvedi-grid three">
-  <CvediCard title="Scoperta del locale">
+  <CvediCard title="Scoprire" illustration="/images/flat/search.svg" illustration-variant="roomy">
     <ul class="cvedi-list" role="list">
-      <li>“Chi siamo”, galleria foto e ambienti, mappa interattiva e orari aggiornati.</li>
-      <li>Contatti rapidi: click-to-call, WhatsApp, “Come arrivare” e teletrasporto.</li>
+      <li>Esplorare l’offerta e trovare un servizio pertinente.</li>
+      <li>Capire benefici, requisiti e condizioni.</li>
+      <li>Confrontare le opzioni quando serve.</li>
     </ul>
   </CvediCard>
-  <CvediCard title="Menù e allergeni">
+  <CvediCard title="Personalizzare" illustration="/images/flat/sliders.svg" illustration-variant="roomy">
     <ul class="cvedi-list" role="list">
-      <li>Menù per categorie, prezzi, ingredienti, allergeni e icone (veg, senza glutine, piccante, magico, allucinante).</li>
-      <li>Filtri e ricerca per allergie, intolleranze e preferenze alimentari.</li>
+      <li>Esprimere esigenze e preferenze.</li>
+      <li>Scegliere opzioni e livello di delega all’AI.</li>
+      <li>Capire quali dati fornire e quale risultato aspettarsi.</li>
     </ul>
   </CvediCard>
-  <CvediCard title="Prenotazione">
+  <CvediCard title="Attivare" illustration="/images/flat/check.svg" illustration-variant="roomy">
     <ul class="cvedi-list" role="list">
-      <li>Data, ora, persone, linea temporale e multiverso con disponibilità in tempo reale.</li>
-      <li>Conferma e promemoria via e-mail/SMS; modifica e cancellazione.</li>
+      <li>Completare una richiesta o prenotazione.</li>
+      <li>Verificare il riepilogo e ricevere una conferma.</li>
+      <li>Correggere errori e modificare le proprie scelte.</li>
     </ul>
   </CvediCard>
 </div>
@@ -383,26 +546,35 @@ footer: "Il brief"
 ---
 layout: default
 class: list-slide project-section
-footer: "Il brief"
+footer: "WHAT IF? · Requisiti"
 ---
 
 # Progetto: requisiti
 
-<div class="cvedi-grid two">
-  <CvediCard title="Accessibilità">
+<div class="cvedi-grid three">
+  <CvediCard title="Accessibilità" illustration="/images/flat/accessibility.svg" illustration-variant="roomy">
     <ul class="cvedi-list" role="list">
       <li>Conformità WCAG 2.2 AA</li>
       <li>Contrasto elevato, font scalabili, focus visibile</li>
       <li>Etichette ARIA e navigazione da tastiera</li>
     </ul>
   </CvediCard>
-  <CvediCard title="Lingue e SEO">
+  <CvediCard title="Responsive e contenuti" illustration="/images/flat/devices.svg" illustration-variant="roomy">
     <ul class="cvedi-list" role="list">
-      <li>Selettore lingua IT/EN/Dothraki/Na’vi/Simlish</li>
+      <li>Desktop, tablet e smartphone</li>
+      <li>Contenuti solo in italiano, con terminologia coerente</li>
       <li>URL leggibili e metadati della pagina</li>
     </ul>
   </CvediCard>
+  <CvediCard title="Fiducia e controllo" illustration="/images/flat/shield.svg" illustration-variant="roomy">
+    <ul class="cvedi-list" role="list">
+      <li>Spiegare il contributo dell’AI</li>
+      <li>Chiarire dati richiesti e livelli di delega</li>
+      <li>Consentire modifiche e recupero dagli errori</li>
+    </ul>
+  </CvediCard>
 </div>
+<p class="aside">I comportamenti dell’AI e le disponibilità possono essere simulati. La valutazione riguarda concept, comunicazione visiva e usabilità del sito.</p>
 
 ---
 layout: default
@@ -413,17 +585,31 @@ footer: "Percorso individuale"
 # Approfondimento
 
 <div class="cvedi-grid three">
-  <CvediCard title="01 · Valutazione">
+  <CvediCard title="01 · Valutazione" illustration="/images/flat/document.svg" illustration-variant="roomy">
     <p>La valutazione dell’approfondimento è individuale.</p>
   </CvediCard>
-  <CvediCard title="02 · Accesso all’orale">
+  <CvediCard title="02 · Accesso all’orale" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
     <p>La consegna dell’approfondimento non è obbligatoria per sostenere l’orale.</p>
   </CvediCard>
-  <CvediCard title="03 · Migliorie">
+  <CvediCard title="03 · Migliorie" illustration="/images/flat/sliders.svg" illustration-variant="roomy">
     <p>È possibile apportare migliorie all’approfondimento.</p>
   </CvediCard>
 </div>
 <p class="aside">Indicazioni della sorgente segnalate “in aggiornamento”.</p>
+
+---
+layout: default
+class: process-slide project-section
+footer: "Percorso individuale"
+---
+
+# Approfondimento: fasi
+
+<ProcessTimeline label="Fasi dell’approfondimento" :steps="['Scelta dell’argomento', 'Ricerca e analisi delle fonti', 'Stesura del documento', 'Consegna finale']" />
+
+<!--
+Le quattro tappe riassumono il lavoro individuale per analizzare in dettaglio un argomento e presentarlo in un documento.
+-->
 
 ---
 layout: default
@@ -434,10 +620,10 @@ footer: "Percorso individuale"
 # Approfondimento: attività
 
 <div class="cvedi-grid two">
-  <CvediCard title="Obiettivo">
+  <CvediCard title="Obiettivo" illustration="/images/flat/document.svg" illustration-variant="roomy">
     <p>Stendere un documento che analizzi in dettaglio un argomento scelto.</p>
   </CvediCard>
-  <CvediCard title="Consegna">
+  <CvediCard title="Consegna" illustration="/images/flat/delivery.svg" illustration-variant="roomy">
     <p>Prevista due settimane prima dell’appello scritto. Brief e richiesta dell’argomento sono in aggiornamento per il 2026/27.</p>
   </CvediCard>
 </div>
@@ -481,10 +667,10 @@ footer: "Consegne"
 
 <p class="lead">Il form di consegna e le scadenze dei singoli appelli saranno pubblicati durante il corso.</p>
 <div class="cvedi-grid two">
-  <CvediCard title="Form di consegna">
+  <CvediCard title="Form di consegna" illustration="/images/flat/delivery.svg" illustration-variant="roomy">
     <p>Il collegamento verrà comunicato dal docente.</p>
   </CvediCard>
-  <CvediCard title="Appelli">
+  <CvediCard title="Appelli" illustration="/images/flat/calendar.svg" illustration-variant="roomy">
     <p>1 · 2 · 3 · 4 · 5 · 6</p>
     <p>Scadenze in aggiornamento.</p>
   </CvediCard>
@@ -499,10 +685,10 @@ footer: "Esame"
 # Esame scritto in presenza
 
 <div class="cvedi-grid two">
-  <CvediCard title="Struttura">
+  <CvediCard title="Struttura" illustration="/images/flat/document.svg" illustration-variant="roomy">
     <p>16 domande chiuse da 1 punto e 3 domande aperte da 5 punti. Argomenti delle lezioni, delle esercitazioni e della bibliografia teorica.</p>
   </CvediCard>
-  <CvediCard title="Durata e sede">
+  <CvediCard title="Durata e sede" illustration="/images/flat/clock.svg" illustration-variant="roomy">
     <p>75 minuti. L’esame si svolge nei laboratori informatici tramite la piattaforma Esami-Online.</p>
   </CvediCard>
 </div>
@@ -517,7 +703,7 @@ footer: "Esame"
 # Esame orale
 
 <p class="lead">Domande sulla bibliografia teorica. Punteggio massimo: 31 (30 e lode).</p>
-<CvediCard title="Eventuale discussione del progetto">
+<CvediCard title="Eventuale discussione del progetto" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
   <p>Se emergono criticità o servono chiarimenti specifici, potrà essere richiesta una discussione sul progetto. Sarà comunicata con preavviso e fissata per consentire la presenza di tutto il gruppo.</p>
 </CvediCard>
 
@@ -715,7 +901,7 @@ footer: "Comunicazioni"
 # Contatti
 
 <p class="lead">Utilizzate il forum della piattaforma del corso: le risposte a quesiti di interesse comune possono essere utili a tutta la classe.</p>
-<CvediCard title="Docenti">
+<CvediCard title="Docenti" illustration="/images/flat/people.svg" illustration-variant="roomy">
   <p>Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti</p>
 </CvediCard>
 

@@ -181,6 +181,64 @@
 .dense-slide .lead {
   font-size: 24px;
 }
+/* NEXT ME extends the booklet palette with coordinated editorial illustrations. */
+.nextme-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
+  align-items: center;
+  gap: var(--cvedi-space-section);
+  width: 100%;
+}
+.nextme-copy > :last-child {
+  margin-bottom: 0;
+}
+.slidev-layout .nextme-subtitle {
+  margin-bottom: var(--cvedi-space-content);
+  color: var(--slide-subtitle);
+  font: 700 32px/1.2 var(--cvedi-font-display);
+  letter-spacing: -.025em;
+  text-wrap: balance;
+}
+.nextme-illustration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin: 0;
+}
+.nextme-illustration img {
+  display: block;
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+}
+.nextme-concept .nextme-illustration img {
+  max-height: 380px;
+}
+.nextme-definition-list {
+  display: grid;
+  gap: var(--cvedi-space-card);
+  margin: 0;
+}
+.nextme-definition-list dt {
+  margin: 0 0 4px;
+  color: var(--slide-detail-accent);
+  font: 700 var(--cvedi-type-card-title)/1.25 var(--cvedi-font-display);
+  letter-spacing: -.025em;
+}
+.nextme-definition-list dd {
+  margin: 0;
+  color: var(--cvedi-body);
+  font: 400 var(--cvedi-type-card-body)/1.45 var(--cvedi-font-body);
+}
+.slidev-layout .nextme-statement {
+  max-width: 980px;
+  color: var(--slide-subtitle);
+  font: 600 var(--cvedi-type-card-body)/1.45 var(--cvedi-font-display);
+}
+.nextme-directions .cvedi-grid.three .cvedi-card {
+  min-height: 0;
+}
 /* Expressive slides retain their type scale and individual surfaces. */
 .slidev-layout.cover-slide {
   padding: 50px 72px;

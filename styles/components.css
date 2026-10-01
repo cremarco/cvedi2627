@@ -85,6 +85,10 @@
   opacity: .48;
   pointer-events: none;
 }
+/* Reserve a quiet corner below the copy; dense grids use smaller artwork. */
+.cvedi-card-roomy .card-body { padding-bottom: 96px; }
+.cvedi-card-compact .card-body { padding-bottom: 56px; }
+.cvedi-card-compact .card-illustration { width: 90px; right: -6px; bottom: -18px; }
 .index-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -103,14 +107,22 @@
   text-align: left;
   opacity: 1;
   box-shadow: none;
-  cursor: not-allowed;
+  cursor: pointer;
 }
 .index-button.btn:disabled {
-  background: var(--index-color);
-  color: var(--index-foreground, white);
+  background: color-mix(in srgb, var(--index-color) 10%, var(--cvedi-paper));
+  color: var(--cvedi-body);
+  cursor: not-allowed;
+}
+.index-button.btn:focus-visible {
+  outline: 3px solid var(--index-color);
+  outline-offset: 4px;
+}
+.index-chapter-1:not(:disabled):hover {
+  background: var(--cvedi-indigo-800);
 }
 .index-chapter-1 {
-  --index-color: var(--cvedi-teal-700);
+  --index-color: var(--cvedi-indigo);
 }
 .index-chapter-2 {
   --index-color: var(--cvedi-pink-700);
@@ -161,10 +173,18 @@
   background: var(--slide-surface);
 }
 .cvedi-calendar tr.annullata :is(th, td) {
-  color: var(--cvedi-muted);
+  color: var(--cvedi-red-700);
 }
 .cvedi-calendar tr.annullata th {
   text-decoration: line-through;
+}
+.cvedi-calendar tr.annullata .badge {
+  color: var(--cvedi-red-700);
+  background: color-mix(in srgb, var(--cvedi-red-700) 10%, var(--cvedi-paper));
+}
+.cvedi-calendar tr.esercitazione .badge {
+  color: var(--cvedi-teal-800);
+  background: color-mix(in srgb, var(--cvedi-teal-700) 10%, var(--cvedi-paper));
 }
 .cvedi-calendar .badge {
   font-size: 14px;
@@ -301,3 +321,14 @@
   height: 100%;
   background: var(--cvedi-yellow-400);
 }
+
+/* Keyboard reference: native daisyUI keys, aligned with the slide typography. */
+.shortcuts-slide h2 { margin: 0 0 12px; font: 700 24px/1.25 var(--cvedi-font-display); color: var(--cvedi-detail-accent); }
+.shortcut-table { font: 500 18px/1.35 var(--cvedi-font-display); }
+.shortcut-table :is(th, td) { padding: 10px 0; vertical-align: middle; }
+.shortcut-table th { width: 43%; padding-right: 12px; font-weight: 500; }
+.shortcut-table td { white-space: nowrap; }
+.shortcut-table td span { font-size: 14px; margin: 0 4px; }
+.shortcuts-slide .kbd { font-family: var(--cvedi-font-display); color: var(--color-primary); }
+.shortcuts-slide .kbd-lg { font-size: 18px; }
+.shortcuts-slide .shortcut-note { margin-top: 16px; font: 400 16px/1.5 var(--cvedi-font-body); }

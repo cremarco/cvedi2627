@@ -1,0 +1,4 @@
+/* Scope to Slidev's play-mode toolbar, not navigation inside slide content. */
+.cvedi-published #page-root nav:has(button[title="Go to next slide"]) {
+  display: none;
+}

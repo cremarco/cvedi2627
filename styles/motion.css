@@ -38,8 +38,8 @@
 .closing-slide.is-active .closing-metro-details {
   animation: cvedi-closing-details 4s ease-out 2s both;
 }
-.closing-slide.is-active .closing-metro-complete {
-  animation: cvedi-closing-details 180ms ease-out var(--complete-delay) both;
+.closing-slide.is-active .closing-metro-dot {
+  animation: cvedi-closing-details 180ms ease-out var(--dot-delay) both;
 }
 @keyframes cvedi-closing-route {
   from {
@@ -152,7 +152,7 @@
   .process-slide.is-active .metro-station::after {
     animation: none;
   }
-  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-complete) {
+  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
     animation: none;
   }
 }
@@ -168,7 +168,7 @@
   .process-slide.is-active .metro-station::after {
     animation: none;
   }
-  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-complete) {
+  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
     animation: none;
   }
 }

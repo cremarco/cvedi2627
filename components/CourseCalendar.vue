@@ -20,7 +20,7 @@ const rows = computed(() => calendar[props.period])
         <tr
           v-for="(row, index) in rows"
           :key="row.date"
-          :class="{ annullata: row.type === 'Annullata' }"
+          :class="{ annullata: row.type === 'Annullata', esercitazione: row.type === 'Esercitazione' }"
           :style="{ '--calendar-order': Math.min(index, 12) }"
         >
           <th scope="row">{{ row.date }}</th>

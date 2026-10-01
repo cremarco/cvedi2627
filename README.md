@@ -1,6 +1,6 @@
 # CVeDI 2026/27 · Slidev
 
-Presentazione di **47 slide**, ricostruita dalla [lezione introduttiva CVeDI](https://docs.google.com/presentation/d/1caK7BBFHEfVcSZTLqgjCA0fV9BYIa9H4aLXxnLJP_W4/edit) con lo stile del [Manuale booklet](https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-id=198-1687).
+Presentazione di **54 slide**, ricostruita dalla [lezione introduttiva CVeDI](https://docs.google.com/presentation/d/1caK7BBFHEfVcSZTLqgjCA0fV9BYIa9H4aLXxnLJP_W4/edit) con lo stile del [Manuale booklet](https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-id=198-1687).
 
 ## Pubblicazione
 
@@ -8,9 +8,12 @@ Repository: [cremarco/cvedi2627](https://github.com/cremarco/cvedi2627).
 
 - Presentazione: [slides/](https://cremarco.github.io/cvedi2627/slides/).
 - Archivio di 76 siti: [project/](https://cremarco.github.io/cvedi2627/project/).
-- PDF: [cvedi-2026-2027.pdf](https://cremarco.github.io/cvedi2627/slides/cvedi-2026-2027.pdf).
 
 `pnpm build:pages` genera `_site/slides/` e `_site/project/`. La sorgente dell’archivio resta in `progetti/`; immagini e collegamenti funzionano anche quando il sito è ospitato in una sottocartella. La presentazione usa URL con hash per funzionare su GitHub Pages senza riscritture lato server.
+
+Il PDF viene generato manualmente dall’autore alla fine del lavoro; non viene rigenerato durante le revisioni delle slide. La pubblicazione funziona anche senza PDF. Se `cvedi-2026-2027.pdf` è presente nella radice, la build lo copia in `_site/slides/`.
+
+L’indice dei progetti include filtri annuali, ricerca per nome e anteprime responsive, con stili e font locali. Dopo aver modificato `progetti/gallery.source.css`, eseguire `pnpm css:projects` per aggiornare `progetti/gallery.css`. La build Pages lo esegue automaticamente. Per l’anteprima dell’archivio basta un server statico dalla radice del repository e la pagina `/progetti/`.
 
 [Riepilogo della compressione e dei controlli](PUBBLICAZIONE.md).
 
@@ -39,6 +42,8 @@ La parete dei progetti usa tutti gli `screenshot.webp` in `progetti/`. Dodici an
 
 La build è in `dist/`. L’export PDF usa `--per-slide` per sincronizzare la barra globale con ciascuna pagina. `styles/daisy-built.css` è generato: non modificarlo direttamente.
 
+Nella versione pubblicata online la barra dei comandi Slidev è nascosta. La navigazione con tastiera, gesti touch e collegamenti nelle slide resta disponibile. Il server Slidev e l’anteprima della build su localhost, indirizzi di loopback e rete locale mantengono la barra completa. `styles/index.ts` verifica sia la build di produzione sia il nome host; `styles/published.css` nasconde solo la barra del player, senza modificare i contenuti o la vista relatore.
+
 ## Dove modificare
 
 | File o cartella | Responsabilità |
@@ -46,6 +51,8 @@ La build è in `dist/`. L’export PDF usa `--per-slide` per sincronizzare la ba
 | `slides.md` | Testi, ordine, classe visiva e label del footer |
 | `layouts/default.vue` | Canvas comune, stato attivo e numerazione automatica |
 | `components/CvediCard.vue` | Card DaisyUI, titolo, contenuto e illustrazione opzionale |
+| `components/NextMeIllustration.vue` | Illustrazioni coordinate del brief WHAT IF?, con percorsi compatibili con la pubblicazione |
+| `components/ProcessTimeline.vue` | Percorsi metro a quattro tappe per progetto e approfondimento, con etichetta accessibile specifica |
 | `components/CourseCalendar.vue` | Tabella del calendario con badge di stato |
 | `data/calendar.json` | Date, tipo e orario dei 38 incontri |
 | `components/GradeDistribution.vue` | Distribuzione e riepilogo di una categoria di voti |
@@ -86,7 +93,7 @@ footer: "Il percorso"
 
 La numerazione usa il contesto nativo di Slidev: inserire o rimuovere una slide non richiede aggiornamenti manuali. Tutti i layout centrano verticalmente titolo e contenuti come un unico blocco, entro lo spazio riservato al contenuto. Il footer resta ancorato in basso. `two`, `three` e `four` indicano le colonne delle griglie. Il canvas 16:9 viene scalato anche nel browser stretto, conservando la composizione della slide.
 
-Le illustrazioni si passano esplicitamente: `illustration="/images/flat/lesson-theory.svg"`. I grafici si inseriscono con `<GradeDistribution category="project" />`; le altre categorie sono `oral`, `written` e `final`. Aggiornare i dati JSON aggiorna barre, percentuali, campione e mediana visualizzata.
+Le illustrazioni si passano esplicitamente: `illustration="/images/flat/lesson-theory.svg"`. La famiglia vettoriale è in `public/images/flat/`. `illustration-variant="roomy"` riserva spazio sotto il testo; `illustration-variant="compact"` riduce il disegno nelle griglie a due righe. I grafici si inseriscono con `<GradeDistribution category="project" />`; le altre categorie sono `oral`, `written` e `final`. Aggiornare i dati JSON aggiorna barre, percentuali, campione e mediana visualizzata.
 
 ## Contenuti e fonti
 
@@ -95,4 +102,6 @@ Le illustrazioni si passano esplicitamente: `illustration="/images/flat/lesson-t
 - [Calendario CVeDI 2026/27](https://docs.google.com/spreadsheets/d/1QVVpKXtLz6C3KHJSRF7iA4GvdZtmf0rauWHFnpqt8Vo/edit): fonte del calendario; include incontri annullati, 35 ore di lezione e 36 di esercitazione.
 - `public/images/source/`: immagini della presentazione originale.
 
-Appelli, brief e scadenze non confermati restano esplicitamente indicati. La slide “Progetto” segnala la discrepanza della sorgente fra totem e sito per ristoranti. I cinque pulsanti dell’indice delle lezioni restano disabilitati in attesa dei relativi materiali.
+Le slide 23–30 contengono il brief **WHAT IF?** per il 2026/27: inventare un’organizzazione che offra servizi del 2050 basati sulle potenzialità future dell’AI e realizzarne il sito web responsive, solo in italiano. Le slide distinguono capacità emergenti e ipotesi future, guidano il concept e definiscono pagine, percorso dell’utente e requisiti. I comportamenti dell’AI possono essere simulati. Le tre illustrazioni sono generate con lo strumento integrato imagegen e rigenerate in uno stile geometrico coordinato con i tracciati metro del booklet. Originali, riferimento visivo e prompt sono in `assets/next-me/`; le slide caricano le versioni `*-v2.webp` ottimizzate in `public/images/generated/next-me/`. Il manifest della seconda versione è `assets/next-me/imagegen-manifest-v2.json`; la prima versione resta disponibile.
+
+Appelli e scadenze non confermati restano esplicitamente indicati. Nell’indice delle lezioni è attivo solo “Introduzione”, collegato alla slide 4; gli altri quattro pulsanti restano disabilitati.
