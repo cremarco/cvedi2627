@@ -724,7 +724,7 @@ footer: "Letture"
 
 # Bibliografia
 
-<div class="book-layout"><img src="/images/booklet/cover-metro.svg" alt="Nuova copertina del booklet Comunicazione visiva e design delle interfacce, con linee metro colorate e fascia indaco" />
+<div class="book-layout booklet-cover-layout"><img src="/images/booklet/cover-metro-2026-27.png" alt="Copertina e retro del booklet Comunicazione visiva e design delle interfacce, con linee metro colorate su fondo scuro" />
 <CvediCard title="Comunicazione visiva e design delle interfacce">
   <p>Materiale teorico del corso e approfondimenti.</p>
   <p>Marco Cremaschi et al.</p>

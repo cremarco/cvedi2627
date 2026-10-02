@@ -6,7 +6,7 @@ La copertina riprende il motivo grafico originale del booklet a pieno canvas, co
 
 La slide 2 annuncia il rinnovo del corso per l’A.A. 2026/27 e l’aggiornamento di slide e materiale bibliografico completamente nuovi. Conserva il fondo indaco, il titolo bianco e l’accento giallo; il testo a sinistra è affiancato dal tracciato geometrico statico di `RenewalMetro`, con l’anno e le fermate “Slide” e “Bibliografia”. Un riquadro daisyUI giallo sotto le due colonne segnala la possibilità di errori, refusi o passaggi poco chiari e invita gentilmente gli studenti a comunicarli nel forum del corso.
 
-La slide Bibliografia mostra la nuova copertina del booklet, [COP · 006 · DX, nodo 198:6329](https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-id=198-6329), in `public/images/booklet/cover-metro.svg`. La vista pubblica di Figma è stata catturata dentro il Trimbox, escludendo i margini e l’interfaccia dell’editor; l’asset conserva grafica e testi della copertina originale.
+La slide Bibliografia mostra la copertina e il retro del booklet su fondo scuro, forniti dall’autore nel file “Copertina metro · nuova variante.png”. L’immagine è copiata senza modifiche in `public/images/booklet/cover-metro-2026-27.png`; la colonna larga 660 px conserva l’intera grafica orizzontale e affianca le informazioni sul materiale bibliografico. La precedente copertina in `cover-metro.svg` resta conservata come riferimento.
 
 | Ruolo | Token CSS | Valore |
 | --- | --- | --- |
