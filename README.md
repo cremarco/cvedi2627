@@ -15,6 +15,10 @@ Il PDF viene generato manualmente dall’autore alla fine del lavoro; non viene 
 
 L’indice dei progetti include filtri annuali, ricerca per nome e anteprime responsive, con stili e font locali. Dopo aver modificato `progetti/gallery.source.css`, eseguire `pnpm css:projects` per aggiornare `progetti/gallery.css`. La build Pages lo esegue automaticamente. Per l’anteprima dell’archivio basta un server statico dalla radice del repository e la pagina `/progetti/`.
 
+I sei prototipi totem del 2024/25 si aprono in `progetti/totem.html`, sia dalla galleria sia dai loro collegamenti iniziali diretti. La vista conserva il viewport del progetto e lo adatta alla finestra, con i comandi “Ingrandisci” e “Adatta allo schermo”. “Apri originale” mostra il prototipo alle dimensioni native. Le dimensioni sono nel campo `screen` di `progetti/gallery-data.json`; `screen.pages` permette un formato diverso per singole schermate, come il tabellone di Magrathea. La navigazione interna viene salvata nell’URL della vista, così un aggiornamento della pagina mantiene la schermata raggiunta.
+
+`node scripts/check-projects.mjs` verifica i 14 progetti 2024/25 e 2025/26: adattamento dei totem su desktop, telefono e tablet, ingrandimento, percorsi di avvio, filtri e risorse locali delle 227 pagine HTML. Richiede un server statico su `http://127.0.0.1:4173/progetti/`; usare `PROJECTS_URL` per un altro indirizzo. Il rapporto JSON è in `reports/browser-2026-10-02/verification.json`, oppure nella cartella indicata da `PROJECTS_REPORT`.
+
 [Riepilogo della compressione e dei controlli](PUBBLICAZIONE.md).
 
 Ogni push sul ramo `main` pubblica automaticamente la build tramite `.github/workflows/pages.yml`. La build si arresta se il pacchetto supera 990 MB. Per un’altra sottocartella, impostare `PAGES_BASE=/nome-repository/`.
