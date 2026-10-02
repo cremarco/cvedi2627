@@ -1,17 +1,6 @@
 /* Shared daisyUI components. Keep surfaces equal; color hierarchy lives in text. */
 .speaker {
-  display: flex;
-  align-items: center;
-  gap: 12px;
   margin-bottom: var(--cvedi-space-section);
-}
-.speaker .speaker-initials {
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background: var(--slide-surface-alt);
-  color: var(--slide-subtitle);
-  font: 600 14px/1 var(--cvedi-font-display);
 }
 .slidev-layout .speaker p {
   margin: 0;
@@ -45,6 +34,10 @@
   flex-grow: 0;
   margin: 0 0 12px;
   font: 400 var(--cvedi-type-card-body)/1.45 var(--cvedi-font-body);
+}
+.cvedi-card .card-note {
+  margin-top: 4px;
+  font: 400 17px/1.45 var(--cvedi-font-display);
 }
 .cvedi-card .card-body > :last-child {
   margin-bottom: 0;

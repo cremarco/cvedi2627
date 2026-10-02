@@ -5,6 +5,7 @@ import projectData from '../data/projects.json'
 import { publicAsset } from '../utils/public-asset'
 
 const projects = projectData.map(project => ({ ...project, image: publicAsset(project.image) }))
+const archiveIndex = import.meta.env.DEV ? '/progetti/index.html' : '../project/index.html'
 
 const { isPrintMode } = useNav()
 const isActive = useIsSlideActive()
@@ -99,5 +100,8 @@ onBeforeUnmount(() => {
         decoding="async"
       />
     </div>
+  </div>
+  <div class="project-gallery-linkbar">
+    <a class="link" :href="archiveIndex" target="_blank" rel="noreferrer">Archivio completo dei progetti</a>
   </div>
 </template>

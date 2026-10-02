@@ -84,7 +84,7 @@ try {
   for (let number = 1; number <= total; number++) await inspect(number)
   await page.setViewportSize({ width: 636, height: 778 })
   const narrowNumbers = new Set([
-    2, 3, 7, 11, 18,
+    2, 3, 4, 8, 12, 19,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)

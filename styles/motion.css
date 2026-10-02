@@ -1,4 +1,24 @@
 /* Motion follows Slidev lifecycle state, including revisits and presenter view. */
+.exercises-slide.is-active .syllabus-retired::after {
+  animation: cvedi-syllabus-strike 560ms var(--cvedi-ease-out) 300ms both;
+}
+.exercises-slide.is-active .syllabus-sticker {
+  animation: cvedi-syllabus-sticker 440ms var(--cvedi-ease-out) 880ms both;
+}
+@keyframes cvedi-syllabus-strike {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0); }
+}
+@keyframes cvedi-syllabus-sticker {
+  from {
+    clip-path: inset(0 0 100% 0);
+    transform: translateY(-4px) rotate(-7deg);
+  }
+  to {
+    clip-path: inset(0);
+    transform: rotate(-3deg);
+  }
+}
 .slidev-page.fade-enter-active {
   transition-duration: 260ms;
   transition-timing-function: var(--cvedi-ease-out);
@@ -32,13 +52,13 @@
   animation: cvedi-metro-arrival 480ms var(--cvedi-ease-out) calc(500ms + var(--station-order, 0) * 450ms) both;
 }
 /* Build the vector map lane by lane; staggered routes settle after 10.5 s. */
-.closing-slide.is-active .closing-metro-reveal {
+:is(.cover-slide, .closing-slide).is-active .closing-metro-reveal {
   animation: cvedi-closing-route var(--route-duration) cubic-bezier(.4, 0, .2, 1) var(--route-delay) both;
 }
-.closing-slide.is-active .closing-metro-details {
+:is(.cover-slide, .closing-slide).is-active .closing-metro-details {
   animation: cvedi-closing-details 4s ease-out 2s both;
 }
-.closing-slide.is-active .closing-metro-dot {
+:is(.cover-slide, .closing-slide).is-active .closing-metro-dot {
   animation: cvedi-closing-details 180ms ease-out var(--dot-delay) both;
 }
 @keyframes cvedi-closing-route {
@@ -136,6 +156,10 @@
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .exercises-slide.is-active .syllabus-retired::after,
+  .exercises-slide.is-active .syllabus-sticker {
+    animation: none;
+  }
   .gallery-tile img {
     transition: none;
   }
@@ -152,11 +176,15 @@
   .process-slide.is-active .metro-station::after {
     animation: none;
   }
-  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
+  :is(.cover-slide, .closing-slide).is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
     animation: none;
   }
 }
 @media print {
+  .exercises-slide.is-active .syllabus-retired::after,
+  .exercises-slide.is-active .syllabus-sticker {
+    animation: none;
+  }
   .gallery-tile img {
     transition: none;
   }
@@ -168,7 +196,7 @@
   .process-slide.is-active .metro-station::after {
     animation: none;
   }
-  .closing-slide.is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
+  :is(.cover-slide, .closing-slide).is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
     animation: none;
   }
 }

@@ -18,7 +18,7 @@ const period = computed(() => {
 </script>
 
 <template>
-  <p class="grade-intro">{{ data.n }} {{ descriptions[category] }} nei registri dal {{ period }}.</p>
+  <p class="grade-intro">{{ data.n }} {{ descriptions[category] }} dal {{ period }}.</p>
   <div class="grade-distribution" aria-label="Distribuzione dei voti per fascia">
     <div v-for="(count, index) in data.bins" :key="gradeBands[index]" class="grade-range" :class="gradeTones[index]" :style="{ '--grade-order': index }">
       <div class="grade-range-head">
@@ -37,7 +37,7 @@ const period = computed(() => {
     <div class="stat">
       <div class="stat-title">Mediana</div>
       <div class="stat-value">{{ gradeNumber(data.median) }}</div>
-      <div class="stat-desc">su {{ data.n }} voti registrati</div>
+      <div class="stat-desc">su {{ data.n }} voti</div>
     </div>
   </div>
 </template>

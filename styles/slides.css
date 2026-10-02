@@ -85,7 +85,7 @@
 .slidev-layout .aside {
   margin-top: var(--cvedi-space-content);
   color: var(--cvedi-muted);
-  font: 400 16px/1.4 var(--cvedi-font-display);
+  font: 400 17px/1.45 var(--cvedi-font-display);
 }
 .slidev-layout h1:has(+ .speaker) {
   margin-bottom: var(--cvedi-space-card);
@@ -101,6 +101,10 @@
 }
 .slidev-layout strong {
   color: inherit;
+  font-weight: 700;
+}
+.slidev-layout :is(p, li, dd) strong {
+  color: var(--cvedi-ink);
 }
 .slidev-layout ::selection {
   background: var(--slide-surface-alt);
@@ -181,6 +185,175 @@
 .dense-slide .lead {
   font-size: 24px;
 }
+/* The course renewal joins the cover's metro grammar without a new visual system. */
+.slidev-layout.renewal-slide {
+  --color-base-content: var(--cvedi-paper);
+  background: var(--cvedi-indigo-700);
+  color: var(--cvedi-paper);
+}
+.renewal-slide::before {
+  background: var(--cvedi-yellow-400);
+}
+.slidev-layout.renewal-slide h1 {
+  margin-bottom: 24px;
+  color: var(--cvedi-paper);
+  font-size: 64px;
+}
+.renewal-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 400px;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.slidev-layout .renewal-copy p {
+  margin-bottom: 24px;
+  color: var(--cvedi-indigo-100);
+  font-size: 25px;
+  line-height: 1.48;
+}
+.renewal-copy p:last-child {
+  margin-bottom: 0;
+}
+.slidev-layout .renewal-copy strong {
+  color: var(--cvedi-paper);
+}
+.renewal-metro {
+  position: relative;
+  width: 400px;
+  height: 316px;
+}
+.renewal-metro svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.renewal-track {
+  stroke: var(--cvedi-indigo-500);
+  stroke-width: 30px;
+}
+.renewal-divider {
+  stroke: var(--cvedi-indigo-700);
+  stroke-width: 4px;
+}
+.renewal-year {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: var(--cvedi-yellow-400);
+  font: 700 96px/1 var(--cvedi-font-display);
+  letter-spacing: -.04em;
+}
+.renewal-stop {
+  stroke: var(--cvedi-paper);
+  stroke-width: 4px;
+}
+.renewal-stop-slides {
+  fill: var(--cvedi-teal-500);
+}
+.renewal-stop-books {
+  fill: var(--cvedi-pink-500);
+}
+.renewal-material {
+  position: absolute;
+  left: 104px;
+  color: var(--cvedi-paper);
+  font: 700 28px/1.2 var(--cvedi-font-display);
+  letter-spacing: -.02em;
+}
+.renewal-material-slides {
+  top: 175px;
+}
+.renewal-material-books {
+  top: 263px;
+}
+.renewal-feedback.alert {
+  display: grid;
+  grid-template-columns: 32px minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+  border: 0;
+  border-radius: var(--cvedi-radius);
+  padding: 18px 24px;
+  background: var(--cvedi-yellow-400);
+  color: var(--cvedi-indigo-900);
+  box-shadow: none;
+  text-align: left;
+}
+.renewal-feedback > svg {
+  width: 32px;
+  height: 32px;
+  stroke: currentColor;
+  stroke-width: 2px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.slidev-layout .renewal-feedback h2 {
+  margin: 0 0 8px;
+  color: inherit;
+  font: 700 24px/1.2 var(--cvedi-font-display);
+  letter-spacing: -.02em;
+}
+.slidev-layout .renewal-feedback p {
+  margin: 0;
+  color: inherit;
+  font: 400 20px/1.45 var(--cvedi-font-display);
+}
+.slidev-layout .renewal-feedback strong {
+  color: inherit;
+}
+.renewal-slide .slide-footer {
+  color: var(--cvedi-indigo-100);
+}
+.renewal-slide ::selection {
+  background: var(--cvedi-yellow-400);
+  color: var(--cvedi-indigo-900);
+}
+/* Keep the superseded topic readable while the sticker announces its replacement. */
+.syllabus-retired {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+.syllabus-retired::after {
+  content: '';
+  position: absolute;
+  top: 53%;
+  left: -.035em;
+  right: -.035em;
+  height: 2px;
+  background: var(--cvedi-red-700);
+  transform: rotate(-.6deg);
+  clip-path: inset(0);
+}
+.syllabus-sticker.badge {
+  display: block;
+  width: 260px;
+  max-width: 100%;
+  height: auto;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+  background: transparent;
+  transform: rotate(-3deg);
+  transform-origin: 20% 50%;
+}
+.exercises-slide .speaker {
+  position: relative;
+}
+.exercises-slide .speaker > .syllabus-sticker {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.syllabus-sticker img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 /* NEXT ME extends the booklet palette with coordinated editorial illustrations. */
 .nextme-layout {
   display: grid;
@@ -241,8 +414,9 @@
 }
 /* Expressive slides retain their type scale and individual surfaces. */
 .slidev-layout.cover-slide {
+  isolation: isolate;
   padding: 50px 72px;
-  background: var(--cvedi-paper) url('/images/manuale-cover-pattern.png') center / cover no-repeat;
+  background: var(--cvedi-paper);
 }
 .slidev-layout.cover-slide::before {
   inset: 24% 0 22%;
