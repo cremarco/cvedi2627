@@ -19,6 +19,8 @@ I sei prototipi totem del 2024/25 si aprono in `progetti/totem.html`, sia dalla 
 
 `node scripts/check-projects.mjs` verifica i 14 progetti 2024/25 e 2025/26: adattamento dei totem su desktop, telefono e tablet, ingrandimento, percorsi di avvio, filtri e risorse locali delle 227 pagine HTML. Richiede un server statico su `http://127.0.0.1:4173/progetti/`; usare `PROJECTS_URL` per un altro indirizzo. Il rapporto JSON è in `reports/browser-2026-10-02/verification.json`, oppure nella cartella indicata da `PROJECTS_REPORT`.
 
+Per verificare tutti i 76 progetti e le 890 pagine HTML, usare `PROJECTS_ALL=1 node scripts/check-projects.mjs`. Il controllo include risorse locali, errori JavaScript e le 122 pagine elencate in `scripts/archive-layout-pages.json`, sulle quali erano stati individuati contenuti fuori margine. I totem sono verificati alle dimensioni native e adattati a desktop, telefono e tablet. `PROJECTS_RECHECK=1` ripete i controlli delle pagine fuori margine e delle pagine fallite nell’ultimo rapporto, conservando le verifiche già riuscite delle altre pagine.
+
 [Riepilogo della compressione e dei controlli](PUBBLICAZIONE.md).
 
 Ogni push sul ramo `main` pubblica automaticamente la build tramite `.github/workflows/pages.yml`. La build si arresta se il pacchetto supera 990 MB. Per un’altra sottocartella, impostare `PAGES_BASE=/nome-repository/`.

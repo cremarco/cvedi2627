@@ -37,3 +37,11 @@ Minificati HTML, CSS e JavaScript senza rinominare variabili né comprimere la l
 Restano sei collegamenti a due PDF storici di “Tu con noi” che erano già assenti dal materiale originale: `Tu-con-noi-bilancio-2019.pdf` e `La-casa-sulla-collina-presentazione.pdf`. Anche altri riferimenti a risorse già assenti negli elaborati di partenza non possono essere ricostruiti dai file disponibili.
 
 I dettagli dei confronti e le copie di recupero sono conservati localmente in `reports/pages-2026-09-30/` e `/tmp/cvedi-pages-before-compression`, esclusi dalla pubblicazione.
+
+## Correzioni dell’archivio · 2 ottobre 2026
+
+Dopo la verifica delle 890 pagine dei 76 progetti sono stati corretti percorsi di immagini, font e sfondi, icone mancanti, gallerie dinamiche e contenuti fuori margine. Le 122 pagine segnalate per larghezza rientrano ora nel proprio viewport. Il logo di Oceanus è ridimensionato; la mascotte di AstroVeggie non blocca più la scelta dell’ordine. I sei totem superano 12 verifiche su desktop e telefono, con controllo aggiuntivo dell’adattamento su tablet.
+
+31 foto e un video senza originale disponibile sono indicati esplicitamente nei rispettivi riquadri. I partner e il logo assenti di Tu con noi sono rappresentati con i loro nomi. Le mappe non disponibili di Cinergy offrono un collegamento alla posizione dell’evento. Il visualizzatore 360° conserva la modalità Basic e l’attribuzione del produttore; le sue due richieste facoltative della licenza commerciale sono registrate separatamente nel test.
+
+Build finale: **966.03 MB**. Rapporto locale in `reports/browser-fixes-2026-10-02/`; verifica riproducibile con `PROJECTS_ALL=1 node scripts/check-projects.mjs`.
