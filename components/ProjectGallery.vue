@@ -1,15 +1,13 @@
 <script setup lang="ts">
 import { nextTick, onBeforeUnmount, reactive, watch } from 'vue'
-import { useIsSlideActive, useNav } from '@slidev/client'
+import { useSlidePlayback } from '../composables/useSlidePlayback'
 import projectData from '../data/projects.json'
 import { publicAsset } from '../utils/public-asset'
 
 const projects = projectData.map(project => ({ ...project, image: publicAsset(project.image) }))
 const archiveIndex = import.meta.env.DEV ? '/progetti/index.html' : '../project/index.html'
 
-const { isPrintMode } = useNav()
-const isActive = useIsSlideActive()
-const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
+const { canAnimate } = useSlidePlayback()
 const tileOrder = [0, 5, 10, 3, 8, 1, 6, 11, 4, 9, 2, 7]
 const tiles = reactive(Array.from({ length: 12 }, (_, index) => ({
   current: index,
@@ -64,22 +62,15 @@ async function changeOneTile() {
 }
 
 function syncPlayback() {
-  const shouldPlay = isActive.value && !isPrintMode.value && !reducedMotion.matches && !document.hidden
-  if (shouldPlay) {
+  if (canAnimate.value) {
     if (!playback) playback = setInterval(changeOneTile, 1400)
   } else {
     stop()
   }
 }
 
-watch([isActive, isPrintMode], syncPlayback, { immediate: true })
-reducedMotion.addEventListener('change', syncPlayback)
-document.addEventListener('visibilitychange', syncPlayback)
-onBeforeUnmount(() => {
-  stop()
-  reducedMotion.removeEventListener('change', syncPlayback)
-  document.removeEventListener('visibilitychange', syncPlayback)
-})
+watch(canAnimate, syncPlayback, { immediate: true })
+onBeforeUnmount(stop)
 </script>
 
 <template>

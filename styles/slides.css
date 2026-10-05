@@ -339,7 +339,7 @@
   padding: 0;
   background: transparent;
   transform: rotate(-3deg);
-  transform-origin: 20% 50%;
+  transform-origin: 85% 85%;
 }
 .exercises-slide .speaker {
   position: relative;
@@ -411,6 +411,12 @@
 }
 .nextme-directions .cvedi-grid.three .cvedi-card {
   min-height: 0;
+}
+.slidev-layout.nextme-directions > .lead {
+  margin-bottom: var(--cvedi-space-card);
+}
+.nextme-directions .cvedi-card .card-body {
+  padding: 12px var(--cvedi-space-content);
 }
 /* Expressive slides retain their type scale and individual surfaces. */
 .slidev-layout.cover-slide {

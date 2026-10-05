@@ -3,7 +3,7 @@
   animation: cvedi-syllabus-strike 560ms var(--cvedi-ease-out) 300ms both;
 }
 .exercises-slide.is-active .syllabus-sticker {
-  animation: cvedi-syllabus-sticker 440ms var(--cvedi-ease-out) 880ms both;
+  animation: cvedi-syllabus-sticker 720ms var(--cvedi-ease-out) 880ms both;
 }
 @keyframes cvedi-syllabus-strike {
   from { clip-path: inset(0 100% 0 0); }
@@ -12,11 +12,19 @@
 @keyframes cvedi-syllabus-sticker {
   from {
     clip-path: inset(0 0 100% 0);
-    transform: translateY(-4px) rotate(-7deg);
+    transform: translate3d(16px, -28px, 0) rotate(-12deg) scale(1.12);
+  }
+  55% {
+    clip-path: inset(0);
+    transform: translate3d(0, 3px, 0) rotate(-1deg) scale(.97);
+  }
+  78% {
+    clip-path: inset(0);
+    transform: translate3d(0, -1px, 0) rotate(-4.5deg) scale(1.015);
   }
   to {
     clip-path: inset(0);
-    transform: rotate(-3deg);
+    transform: translate3d(0, 0, 0) rotate(-3deg) scale(1);
   }
 }
 .slidev-page.fade-enter-active {

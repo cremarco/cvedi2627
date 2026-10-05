@@ -1,6 +1,7 @@
 :root {
   /* Booklet chapter colors, with Tailwind indigo and yellow variants for the deck. */
   --cvedi-teal-500: #00bba7;
+  --cvedi-teal-200: #96f7e4;
   --cvedi-teal-700: #00786f;
   --cvedi-teal-800: #005f5a;
   --cvedi-pink-500: #f6339a;
@@ -10,6 +11,7 @@
   --cvedi-red-700: #c10007;
   --cvedi-red-800: #9f0712;
   --cvedi-orange-500: #ff6900;
+  --cvedi-orange-200: #ffd6a7;
   --cvedi-orange-700: #ca3500;
   --cvedi-orange-800: #9f2d00;
   --cvedi-yellow-400: #fdc700;
@@ -40,6 +42,7 @@
   --cvedi-paper: #ffffff;
   --cvedi-surface: #f7f8fb;
   --cvedi-rule: #d0dad8;
+  --cvedi-image-border: 1px;
 
   --cvedi-font-display: 'Inter', Arial, sans-serif;
   --cvedi-font-body: 'Merriweather', Georgia, serif;

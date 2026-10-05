@@ -1,0 +1,66 @@
+Use case: infographic-diagram.
+Asset type: print illustration for an Italian design booklet.
+Input image: /Users/marco/Sites/cvedi2627/assets/booklet/ux-ui-original-reference.png is the ORIGINAL COMPOSITION REFERENCE and the design to remake.
+Primary request: remake this original UX versus UI infographic using image generation. It must look recognizably similar to the original, preserving its visual concept and composition, while matching the clean editorial style of the booklet. Do not replace it with two lists or a grid of unrelated icons.
+
+Composition to preserve:
+- Large teal "UX" and "UI" letters prominently in the upper center, with a small dark ampersand between them.
+- Below UX, a concrete winding journey/path with a tiny walking person, a destination flag, location marker, and a few small landscape elements. Preserve the metaphor of an experience unfolding along a journey.
+- Below UI, overlapping browser/interface windows with an image thumbnail, a letter T, interface buttons and controls, teal color swatches, and small typographic lines. Preserve the recognizable window composition from the original.
+- A fine vertical rule separates the two central illustrations.
+- Five small circular line icons and text callouts along the far left, connected by thin teal elbow lines to the UX illustration.
+- Five small circular line icons and text callouts along the far right, connected by thin teal elbow lines to the UI illustration.
+- Preserve the callout order from the reference. Keep the side callouts peripheral and the two central illustrations prominent.
+
+Booklet style: uniform pure white #FFFFFF background, flat petrol teal #00786F, very pale teal #DAE9E6 and dark navy #030712. Very fine clean lines, minimal flat 2D editorial drawing. Geometric bold sans-serif headings resembling Geom and readable light serif explanations resembling Merriweather. Every fill should be perfectly flat. No grain, texture, shadows, gradients, photorealism or 3D. Restrained visual weight, generous white space and balanced book typography.
+
+Canvas: landscape-near-square ratio 363:316, high resolution. Adapt the original's horizontal composition to this slightly taller canvas while preserving the same relationships. The intended placed size is 363 by316 units. Keep all labels readable and fully inside the image; enlarge explanatory type as needed. The central route and interface windows must remain clearly visible, not hidden behind text. Use compact side callouts with brief explanations exactly as given below.
+
+Italian text, exactly:
+Small centered top line:
+"ESPERIENZA E INTERFACCIA"
+
+Large central title:
+"UX & UI"
+
+Under UX:
+"ESPERIENZA UTENTE"
+"Progettare esperienze e risolvere problemi delle persone."
+
+Under UI:
+"INTERFACCIA UTENTE"
+"Dare forma visiva alle interfacce dei prodotti digitali."
+
+LEFT CALLOUTS, top to bottom:
+"Interaction design"
+"Interazioni e flussi significativi"
+
+"Wireframe e prototipi"
+"Strutturare e verificare le idee"
+
+"Architettura dell’informazione"
+"Organizzare contenuti e percorsi"
+
+"Ricerca sugli utenti"
+"Comprendere bisogni e abitudini"
+
+"Scenari d’uso"
+"Mappare percorsi e casi d’uso"
+
+RIGHT CALLOUTS, top to bottom:
+"Design visivo"
+"Aspetto e percezione del prodotto"
+
+"Colori"
+"Abbinamenti e contrasti"
+
+"Elementi grafici"
+"Segni, icone e immagini"
+
+"Layout"
+"Chiarezza e coerenza visiva"
+
+"Tipografia"
+"Caratteri, tono e gerarchia"
+
+Constraints: all ten callouts must be present, in the same order and on the same sides as the original. Short text may wrap onto multiple lines for readability. Keep the original's UX path and UI windows as the main visual identity. No outer border, no footer, no caption, no page header or page number, no logo or watermark. Do not invent any extra words. This is a faithful remake of the supplied original composition, not a new layout.

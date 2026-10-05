@@ -1,0 +1,37 @@
+Raccolta approfondimenti CVeDI
+Ricerca effettuata il 4–5 ottobre 2026.
+
+89 file unici, 199 occorrenze verificate nelle fonti. Copie identiche unite tramite SHA-256. Revisioni, PDF compressi diversamente e formati differenti conservati.
+
+Contenuto per anno accademico (conteggio dei file, comprese revisioni e materiali collegati):
+2020-2021: 2 file. 2 materiale collegato 2 CFU
+2021-2022: 26 file. 22 approfondimento, 4 copia modificabile
+2022-2023: 14 file. 10 approfondimento, 1 copia modificabile, 2 materiale collegato 2 CFU, 1 originale compresso
+2023-2024: 8 file. 8 approfondimento
+2024-2025: 26 file. 25 approfondimento, 1 materiale collegato 2 CFU
+2025-2026: 13 file. 13 approfondimento
+2026-2027: 0 file.
+
+Come consultare la raccolta
+I percorsi del catalogo e dell’indice sono relativi a materiali/approfondimenti/; le cartelle degli anni hanno formato AAAA-AAAA. I nomi originali e i collegamenti alle fonti restano nei campi fonti del catalogo.
+indice.txt elenca i file e i riferimenti alle fonti. catalogo.json contiene tutti i nomi originali, i link alle copie e le impronte SHA-256. Gli originali su Drive, Gmail ed e-learning restano nelle loro posizioni.
+
+Metodo e copertura
+Verificati i corsi e-learning dal 2020–2021 al 2026–2027, incluse le attività nascoste agli studenti. Scaricate tutte le consegne disponibili degli appelli 2024–2025 (23 consegne) e 2025–2026 (12 consegne). Per il 2023–2024, il primo appello segnalava una consegna con tabella utenti vuota: il backup dell’attività ha consentito di recuperare Dossi-Gloria-899821.pdf. Gli altri quattro appelli mostrano zero consegne. Le edizioni 2020–2021, 2021–2022 e 2022–2023 non espongono attività Moodle di consegna degli approfondimenti; le consegne più vecchie sono state cercate negli archivi Drive. Nessuna consegna nell’edizione 2026–2027 al momento della ricerca.
+
+Esaminati gli archivi Drive del booklet, le cartelle per anno, approfondimenti da integrare, esempi, materiali dei corsi e cartelle delle risposte ai moduli di consegna. In particolare la cartella di risposte 22–23 riutilizza nel nome “AA21/22”: l’attribuzione segue la cartella del corso di origine. Eseguite ricerche globali per nome e cartelle, controllando tutte le pagine restituite.
+
+Su Gmail cercati allegati e conversazioni pertinenti, anche negli inoltri, nell’account universitario e personale. La ricerca con allegati e riferimenti al corso nell’account universitario ha restituito 397 messaggi in quattro pagine, letti integralmente. Incrociata con la ricerca “approfondimento/approfondimenti” fra i messaggi degli studenti (104 messaggi, due pagine), con i soggetti pertinenti e con l’account personale. I file aggiunti includono correzioni inviate da Faustini, Zani, Macrì, Poli e Preziosi e le consegne via email di Castano, Bianchimani e Canetta.
+
+Classificazione e materiali collegati
+Per le consegne regolari prevale l’anno del corso e della cartella di consegna, verificato tramite copie identiche e frontespizi. Le copie modificabili del booklet sono raccolte nelle sottocartelle copie-modificabili-booklet. I lavori collegati ai 2 CFU “altre attività” sono nelle sottocartelle materiali-collegati-2cfu: Celentano (2020–2021, due versioni), Calò (2022–2023), Radavelli (2022–2023, anno dedotto dalla condivisione del 21/10/2022, edizione del corso non dichiarata), Rinaldi (2024–2025). Questi non sono contati come consegne ordinarie d’esame. Il file ZIP di Padilla conserva il contenitore originale, con PDF disponibile separatamente.
+
+Verifica
+Alla raccolta iniziale, tutti i PDF sono stati aperti con il parser PDF ed è stata verificata l’integrità ZIP di DOCX, PPTX e archivio compresso. Il controllo del 5 ottobre 2026 conferma tutti gli 89 percorsi del catalogo: 88 file hanno dimensione e SHA-256 corrispondenti; per il file gestito da Git LFS, OID SHA-256 e dimensione corrispondono al puntatore locale. Nessun file candidato pertinente rimasto da scaricare. Esclusi documenti amministrativi, rapporti di valutazione, tesi, progetti ed esercizi di altri corsi. La ricerca non può attestare l’esistenza di file eliminati o non accessibili agli account collegati.
+
+Git LFS
+Il PDF indicato con git_lfs: true nel catalogo è archiviato con Git LFS. Un checkout che mostra un piccolo file di testo con le righe version, oid e size contiene il puntatore, non il PDF. Con Git LFS installato, eseguire dalla radice del repository:
+
+git lfs pull
+
+Il download deve corrispondere allo SHA-256 e alla dimensione in byte registrati nel catalogo. La regola per il percorso corrente è in .gitattributes.

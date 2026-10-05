@@ -1,4 +1,11 @@
 export default {
+  resolve: {
+    alias: {
+      // Slidev installs Twoslash even without code blocks. Keep ordinary tooltips
+      // without its incompatible FloatingVue Popper patch in this deck.
+      '@shikijs/vitepress-twoslash/client': 'floating-vue',
+    },
+  },
   server: {
     host: 'localhost',
     fs: {

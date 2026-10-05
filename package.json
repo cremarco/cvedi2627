@@ -10,12 +10,15 @@
   "scripts": {
     "css": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./styles/daisy.css -o ./styles/daisy-built.css",
     "css:projects": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./progetti/gallery.source.css -o ./progetti/gallery.css --minify",
-    "gallery": "node scripts/build-project-gallery.mjs",
+    "gallery": "node scripts/build/project-gallery.mjs",
     "dev": "node scripts/dev.mjs",
     "build": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs build",
-    "build:pages": "pnpm run css && pnpm run css:projects && node scripts/build-pages.mjs",
+    "build:pages": "pnpm run css && pnpm run css:projects && node scripts/build/pages.mjs",
     "export": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
-    "check": "node scripts/check-slides.mjs"
+    "check": "node scripts/check/slides.mjs",
+    "check:source": "node scripts/check/slide-source.mjs",
+    "check:projects": "node scripts/check/projects.mjs",
+    "check:links": "python3 scripts/check/site-links.py"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

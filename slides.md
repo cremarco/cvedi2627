@@ -10,6 +10,7 @@ transition: fade
 mdc: true
 layout: default
 class: cover-slide course-section
+routeAlias: presentazione-corso
 ---
 
 <ClosingMetro />
@@ -48,23 +49,24 @@ footer: "Un nuovo percorso"
 
 ---
 layout: default
-class: index-slide course-section
+class: index-slide course-section reading-slide
 footer: "Lezioni"
 ---
 
 # Indice delle lezioni
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
-  <button type="button" class="btn btn-lg index-button index-chapter-1" @click="$nav.go(5)"><span class="index-chapter-number">01</span><span>Introduzione</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-2" disabled><span class="index-chapter-number">02</span><span>Storia del graphic design e delle interfacce</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">03</span><span>Il processo UX attraverso il Design Thinking</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">04</span><span>La metodologia Lean UX</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">05</span><span>Conclusioni</span></button>
+  <button type="button" class="btn btn-lg index-button index-course" @click="$nav.go(7)"><span class="index-chapter-number">01</span><span>Presentazione del corso</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-1" @click="$nav.go('introduzione-teorica')"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del graphic design e delle interfacce</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">04</span><span>Il processo UX attraverso il Design Thinking</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">05</span><span>La metodologia Lean UX</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">06</span><span>Conclusioni</span></button>
 </div>
 
 ---
 layout: default
-class: content-slide shortcuts-slide course-section
+class: content-slide shortcuts-slide course-section reading-slide
 footer: "Navigazione"
 ---
 
@@ -126,13 +128,13 @@ class: chapter-slide course-section
 
 ---
 layout: default
-class: content-slide objectives-slide course-section
+class: content-slide objectives-slide course-section reading-slide
 footer: "Il percorso"
 ---
 
 # Gli obiettivi del corso
 
-<p class="lead">Conoscere gli aspetti teorici e progettuali del <strong>design delle interfacce</strong>, con attenzione alle dimensioni visive, di interazione, comunicazione ed <strong>esperienza delle persone</strong>.</p>
+<p class="lead">Conoscere gli aspetti teorici e progettuali del <strong>design delle interfacce</strong>, con attenzione alla comunicazione visiva, all’interazione e all’<strong>esperienza delle persone</strong>.</p>
 <div class="cvedi-grid four">
   <CvediCard title="01 · Lezioni teoriche" illustration="/images/flat/lesson-theory.svg">
     <p>Fondamenti e metodi.</p>
@@ -150,7 +152,7 @@ footer: "Il percorso"
 
 ---
 layout: default
-class: list-slide dense-slide course-section
+class: list-slide dense-slide course-section reading-slide
 footer: "Programma"
 ---
 
@@ -174,7 +176,7 @@ footer: "Programma"
 
 ---
 layout: default
-class: list-slide dense-slide exercises-slide course-section
+class: list-slide dense-slide exercises-slide course-section reading-slide
 footer: "Laboratorio"
 ---
 
@@ -196,7 +198,7 @@ footer: "Laboratorio"
 
 ---
 layout: default
-class: content-slide course-section
+class: content-slide course-section reading-slide
 footer: "Organizzazione"
 ---
 
@@ -221,7 +223,7 @@ footer: "Organizzazione"
 
 ---
 layout: default
-class: calendar-slide course-section
+class: calendar-slide course-section reading-slide
 footer: "2026/27"
 ---
 
@@ -231,7 +233,7 @@ footer: "2026/27"
 
 ---
 layout: default
-class: calendar-slide course-section
+class: calendar-slide course-section reading-slide
 footer: "2026/27"
 ---
 
@@ -241,7 +243,7 @@ footer: "2026/27"
 
 ---
 layout: default
-class: calendar-slide course-section
+class: calendar-slide course-section reading-slide
 footer: "2026/27"
 ---
 
@@ -260,7 +262,7 @@ footer: "Il corso"
 
 ---
 layout: default
-class: content-slide materials-slide course-section
+class: content-slide materials-slide course-section reading-slide
 footer: "Informazioni"
 ---
 
@@ -300,7 +302,7 @@ class: chapter-slide exam-section
 
 ---
 layout: default
-class: exam-slide exam-section
+class: exam-slide exam-section reading-slide
 footer: "Valutazione"
 ---
 
@@ -314,13 +316,13 @@ footer: "Valutazione"
     <p><strong>16 domande chiuse</strong> (1 punto ciascuna) e <strong>3 aperte</strong> (5 punti ciascuna). Argomenti delle lezioni, delle esercitazioni e della bibliografia. <strong>75 minuti</strong>; massimo <strong>31 punti</strong>.</p>
   </CvediCard>
   <CvediCard title="Esame orale" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
-    <p>Discussione sul voto del progetto e domande sulla <strong>bibliografia teorica</strong>. Massimo <strong>31 punti</strong>.</p>
+    <p>Domande sulla <strong>bibliografia teorica</strong> ed eventuale discussione del progetto, se richiesta. Massimo <strong>31 punti</strong>.</p>
   </CvediCard>
 </div>
 
 ---
 layout: default
-class: split-slide exam-section
+class: split-slide exam-section reading-slide
 footer: "Organizzazione"
 ---
 
@@ -338,7 +340,7 @@ footer: "Organizzazione"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Percorso di gruppo"
 ---
 
@@ -367,7 +369,7 @@ footer: "Percorso di gruppo"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Consegne"
 ---
 
@@ -386,7 +388,7 @@ footer: "Consegne"
 
 ---
 layout: default
-class: content-slide project-section nextme-slide nextme-intro
+class: content-slide project-section nextme-slide nextme-intro reading-slide
 footer: "WHAT IF? · Il brief"
 ---
 
@@ -412,7 +414,7 @@ Il progetto riguarda il concept, la comunicazione visiva, l’esperienza delle p
 
 ---
 layout: default
-class: content-slide project-section nextme-slide nextme-concept
+class: content-slide project-section nextme-slide nextme-concept reading-slide
 footer: "WHAT IF? · Il concept"
 ---
 
@@ -432,7 +434,7 @@ footer: "WHAT IF? · Il concept"
 
 ---
 layout: default
-class: content-slide project-section nextme-directions
+class: content-slide project-section nextme-directions reading-slide
 footer: "WHAT IF? · Direzioni da esplorare"
 ---
 
@@ -462,7 +464,7 @@ footer: "WHAT IF? · Direzioni da esplorare"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "WHAT IF? · Spunti"
 ---
 
@@ -486,7 +488,7 @@ footer: "WHAT IF? · Spunti"
 
 ---
 layout: default
-class: content-slide project-section nextme-slide nextme-website
+class: content-slide project-section nextme-slide nextme-website reading-slide
 footer: "WHAT IF? · Il sito web"
 ---
 
@@ -505,7 +507,7 @@ footer: "WHAT IF? · Il sito web"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide sequence-slide
 footer: "WHAT IF? · Funzionalità"
 ---
 
@@ -539,7 +541,7 @@ footer: "WHAT IF? · Funzionalità"
 
 ---
 layout: default
-class: list-slide project-section
+class: list-slide project-section reading-slide
 footer: "WHAT IF? · Requisiti"
 ---
 
@@ -550,7 +552,7 @@ footer: "WHAT IF? · Requisiti"
     <ul class="cvedi-list" role="list">
       <li><span>Conformità <strong>WCAG 2.2 AA</strong></span></li>
       <li><span>Contrasto elevato, font scalabili, <strong>focus visibile</strong></span></li>
-      <li><span>Etichette ARIA e <strong>navigazione da tastiera</strong></span></li>
+      <li><span>Etichette accessibili e <strong>navigazione da tastiera</strong></span></li>
     </ul>
   </CvediCard>
   <CvediCard title="Responsive e contenuti" illustration="/images/flat/devices.svg" illustration-variant="roomy">
@@ -572,7 +574,7 @@ footer: "WHAT IF? · Requisiti"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Percorso individuale"
 ---
 
@@ -583,7 +585,7 @@ footer: "Percorso individuale"
     <p>La valutazione dell’approfondimento è <strong>individuale</strong>.</p>
   </CvediCard>
   <CvediCard title="02 · Accesso all’orale" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
-    <p>La consegna dell’approfondimento <strong>non è obbligatoria</strong> per sostenere l’orale.</p>
+    <p>La consegna preventiva dell’approfondimento <strong>non è richiesta</strong> per sostenere l’orale.</p>
   </CvediCard>
   <CvediCard title="03 · Migliorie" illustration="/images/flat/sliders.svg" illustration-variant="roomy">
     <p>È possibile apportare migliorie all’approfondimento.</p>
@@ -610,7 +612,7 @@ Le quattro tappe riassumono il lavoro individuale per analizzare in dettaglio un
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Percorso individuale"
 ---
 
@@ -637,7 +639,7 @@ footer: "Valutazione"
 
 ---
 layout: default
-class: list-slide dense-slide project-section
+class: list-slide dense-slide project-section reading-slide
 footer: "Temi possibili"
 ---
 
@@ -667,7 +669,7 @@ Fonte: https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Consegne"
 ---
 
@@ -686,15 +688,15 @@ footer: "Consegne"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Esame"
 ---
 
 # Esame scritto in presenza
 
-<div class="cvedi-grid two">
+<div class="cvedi-grid two written-exam-cards">
   <CvediCard title="Struttura" illustration="/images/flat/document.svg" illustration-variant="roomy">
-    <p><strong>16 domande chiuse</strong> da 1 punto e <strong>3 domande aperte</strong> da 5 punti. Argomenti delle lezioni, delle esercitazioni e della bibliografia teorica.</p>
+    <p><strong>16 domande chiuse</strong> da 1 punto ciascuna e <strong>3 domande aperte</strong> da 5 punti ciascuna. Argomenti delle lezioni, delle esercitazioni e della bibliografia teorica.</p>
   </CvediCard>
   <CvediCard title="Durata e sede" illustration="/images/flat/clock.svg" illustration-variant="roomy">
     <p><strong>75 minuti</strong>. L’esame si svolge nei laboratori informatici tramite la piattaforma <strong>Esami-Online</strong>.</p>
@@ -704,7 +706,7 @@ footer: "Esame"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Esame"
 ---
 
@@ -718,13 +720,14 @@ footer: "Esame"
 
 ---
 layout: default
-class: book-slide exam-section
+class: book-slide exam-section reading-slide
 footer: "Letture"
 ---
 
 # Bibliografia
 
-<div class="book-layout booklet-cover-layout"><img src="/images/booklet/cover-metro-2026-27.png" alt="Copertina e retro del booklet Comunicazione visiva e design delle interfacce, con linee metro colorate su fondo scuro" />
+<div class="book-layout booklet-cover-layout">
+<BookletPreview />
 <CvediCard title="Comunicazione visiva e design delle interfacce">
   <p>Materiale teorico del corso e approfondimenti.</p>
   <p>Marco Cremaschi et al.</p>
@@ -734,15 +737,15 @@ footer: "Letture"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Esame"
 ---
 
-# Regole · 1–3
+# Regole d’esame
 
-<div class="cvedi-grid three">
+<div class="cvedi-grid rules-grid">
   <CvediCard title="01 · Progetto">
-    <p><strong>Non è obbligatorio</strong> consegnare il progetto o approfondimento per sostenere scritto e orale.</p>
+    <p><strong>Non è necessario aver consegnato</strong> il progetto o l’approfondimento per sostenere scritto e orale.</p>
   </CvediCard>
   <CvediCard title="02 · Scritto">
     <p>Il voto può essere rifiutato <strong>entro 24 ore</strong> dalla pubblicazione, tramite apposito form. Una volta accettato, <strong>non può più essere rifiutato</strong>.</p>
@@ -750,46 +753,42 @@ footer: "Esame"
   <CvediCard title="03 · Orale">
     <p>Per sostenere l’orale è obbligatorio <strong>aver superato lo scritto</strong>.</p>
   </CvediCard>
-</div>
-
----
-layout: default
-class: content-slide exam-section
-footer: "Esame"
----
-
-# Regole · 4–5
-
-<div class="cvedi-grid two">
   <CvediCard title="04 · Appelli">
     <p>Scritto e orale sono <strong>individuali</strong>; membri dello stesso gruppo possono iscriversi ad <strong>appelli differenti</strong>.</p>
   </CvediCard>
   <CvediCard title="05 · Discussione">
-    <p>Se richiesta una discussione del progetto, è necessaria la partecipazione di <strong>tutto il gruppo</strong>, anche in forma mista tra presenza e remoto.</p>
+    <p>Se è richiesta una discussione del progetto, deve partecipare <strong>tutto il gruppo</strong>, anche in forma mista tra presenza e remoto.</p>
   </CvediCard>
 </div>
 
 ---
 layout: default
-class: formula-slide exam-section
+class: formula-slide exam-section reading-slide
 footer: "Esame"
 ---
 
 # Votazione
 
-<p class="lead">Per superare l’esame serve una <strong>votazione sufficiente</strong> in <strong>tutte e tre le parti</strong>.</p>
-<div class="cvedi-grid two">
-  <CvediCard title="Primo punteggio">
-    <p class="formula">(scritto + progetto / approfondimento) ÷ 2</p>
+<p class="lead">Per completare l’esame è necessaria una <strong>votazione sufficiente</strong> in <strong>tutte e tre le parti</strong>.</p>
+<div class="cvedi-grid formula-flow">
+  <CvediCard title="1 · Punteggio intermedio">
+    <div class="grade-fraction" role="math" aria-label="Punteggio intermedio uguale alla somma del voto dello scritto e del voto del progetto, oppure dell’approfondimento, divisa per due.">
+      <div class="grade-numerator" aria-hidden="true"><span>Scritto</span><span>+</span><span class="grade-term">Progetto<span class="grade-alternative">oppure approfondimento</span></span></div>
+      <div class="grade-denominator" aria-hidden="true">2</div>
+    </div>
   </CvediCard>
-  <CvediCard title="Voto finale">
-    <p class="formula">(primo punteggio + orale) ÷ 2</p>
+  <svg class="formula-connector" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M4 20H34M24 10L34 20L24 30" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
+  <CvediCard title="2 · Voto finale">
+    <div class="grade-fraction" role="math" aria-label="Voto finale uguale alla somma del punteggio intermedio e del voto dell’orale, divisa per due.">
+      <div class="grade-numerator" aria-hidden="true"><span>Punteggio intermedio</span><span>+</span><span>Orale</span></div>
+      <div class="grade-denominator" aria-hidden="true">2</div>
+    </div>
   </CvediCard>
 </div>
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Appelli"
 ---
 
@@ -807,7 +806,7 @@ footer: "Appelli"
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · progetto e approfondimento"
 ---
 
@@ -822,7 +821,7 @@ Un voto per matricola in ogni registro; i valori sopra 30 sono nella fascia “3
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · orale"
 ---
 
@@ -837,7 +836,7 @@ Un voto per matricola in ogni registro; i valori sopra 30 sono nella fascia “3
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · scritto"
 ---
 
@@ -853,7 +852,7 @@ i valori sopra 30 sono nella fascia “30 o più”.
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · voto finale"
 ---
 
@@ -869,7 +868,7 @@ i valori sopra 30 sono nella fascia “30 o più”.
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · voto finale"
 ---
 
@@ -922,7 +921,7 @@ footer: "Confronto"
 
 ---
 layout: default
-class: content-slide archive-section
+class: content-slide archive-section reading-slide
 footer: "Comunicazioni"
 ---
 
@@ -932,6 +931,16 @@ footer: "Comunicazioni"
 <CvediCard title="Docenti" illustration="/images/flat/people.svg" illustration-variant="roomy">
   <p>Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti</p>
 </CvediCard>
+
+---
+layout: default
+src: ./lezioni/01-introduzione.md
+---
+
+---
+layout: default
+src: ./lezioni/03-storia-design.md
+---
 
 ---
 layout: default
