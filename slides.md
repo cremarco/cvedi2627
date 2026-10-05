@@ -3,11 +3,18 @@ theme: default
 title: Comunicazione visiva e design delle interfacce · CVeDI 2026/27
 routerMode: hash
 author: Marco Cremaschi
+lang: it
+htmlAttrs:
+  lang: it
 aspectRatio: 16/9
 canvasWidth: 1280
 colorSchema: light
 transition: fade
-mdc: true
+comark: true
+fonts:
+  provider: none
+export:
+  perSlide: true
 layout: default
 class: cover-slide course-section
 routeAlias: presentazione-corso

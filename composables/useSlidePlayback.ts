@@ -1,11 +1,12 @@
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
-import { useIsSlideActive, useNav } from '@slidev/client'
+import { useIsSlideActive, useNav, useSlideContext } from '@slidev/client'
 
 /** Playback conditions shared by animated slide components that remain mounted. */
 export function useSlidePlayback() {
   const isMounted = ref(false)
   const isActive = useIsSlideActive()
   const { isPrintMode } = useNav()
+  const { $renderContext } = useSlideContext()
   const motionQuery = typeof window === 'undefined'
     ? undefined
     : window.matchMedia('(prefers-reduced-motion: reduce)')
@@ -13,7 +14,8 @@ export function useSlidePlayback() {
   const isVisible = ref(typeof document === 'undefined' || !document.hidden)
 
   const canAnimate = computed(() =>
-    isMounted.value && isActive.value && !isPrintMode.value && !prefersReducedMotion.value && isVisible.value,
+    isMounted.value && isActive.value && ['slide', 'presenter'].includes($renderContext.value)
+      && !isPrintMode.value && !prefersReducedMotion.value && isVisible.value,
   )
 
   function syncMotion() {

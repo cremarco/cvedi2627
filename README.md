@@ -46,7 +46,7 @@ La Lezione 3, Storia del design, si apre alla [slide 103](http://localhost:3035/
 pnpm build
 pnpm check:source
 pnpm check
-pnpm export --output cvedi-2026-2027.pdf --per-slide
+pnpm export --output cvedi-2026-2027.pdf
 ```
 
 La parete dei progetti usa tutti gli `screenshot.webp` in `progetti/`. Dodici anteprime riempiono la slide e si alternano una alla volta finché sono passati tutti i progetti; la rotazione si ferma fuori dalla slide e con la preferenza “movimento ridotto”. Dopo aver aggiunto o rimosso un progetto, eseguire `pnpm gallery`: il comando aggiorna le 76 anteprime leggere in `public/images/project-gallery/` e l'elenco in `data/projects.json` (richiede macOS per `sips`).
@@ -59,7 +59,9 @@ I rapporti di verifica della precedente revisione della Lezione 3 sono in `repor
 
 La revisione dei layout è documentata in [layouts.md](docs/layouts.md). Le prove della precedente revisione in `reports/layout-review/final/` comprendono 154 slide desktop, 69 viste strette, 10 viste di stampa, due viste relatore e nove ingrandimenti. Le lezioni mantengono i colori del booklet; diagrammi, schermate e poster hanno più spazio e possono essere ingranditi cliccando sull’immagine.
 
-La build è in `dist/`. L’export PDF usa `--per-slide` per sincronizzare la barra globale con ciascuna pagina. `styles/daisy-built.css` è generato: non modificarlo direttamente.
+La build è in `dist/`. Il headmatter imposta `export.perSlide: true`, quindi l’export PDF sincronizza la barra globale con ciascuna pagina anche senza un flag aggiuntivo. Per esportare un PPTX modificabile, che non supporta questa opzione, usare `pnpm export --format pptx-editable --per-slide false`. `styles/daisy-built.css` è generato: non modificarlo direttamente.
+
+Il deck dichiara la lingua italiana nell’HTML iniziale e nel contesto del client. `comark: true` usa il nome corrente dell’opzione Markdown esteso; `fonts.provider: none` evita i font remoti del tema, perché Inter e Merriweather sono caricati localmente da `styles/index.ts`.
 
 Nella versione pubblicata online la barra dei comandi Slidev è nascosta. La navigazione con tastiera, gesti touch e collegamenti nelle slide resta disponibile. Il server Slidev e l’anteprima della build su localhost, indirizzi di loopback e rete locale mantengono la barra completa. `styles/index.ts` verifica sia la build di produzione sia il nome host; `styles/published.css` nasconde solo la barra del player, senza modificare i contenuti o la vista relatore.
 
@@ -166,7 +168,7 @@ Le illustrazioni si passano esplicitamente: `illustration="/images/flat/lesson-t
 
 I Markdown definiscono contenuti e ordine delle slide; evitano logica di stato e copie del markup delle immagini. Usare `CvediCard` per le card e `LessonFigure` per fotografie, diagrammi e pannelli ingrandibili. `LessonImageContent` è il rendering interno condiviso: caption, pulsanti e dialog restano responsabilità di `LessonFigure`.
 
-`useSlidePlayback` governa le condizioni delle animazioni di `BookletPreview` e `ProjectGallery`; ogni componente conserva il proprio intervallo e la propria sequenza. Slidev mantiene montate anche le slide inattive: fermare sempre timer e listener quando la slide non è attiva o viene smontata. La preferenza di movimento ridotto e la stampa devono mostrare contenuti completi e stabili.
+`useSlidePlayback` governa le condizioni delle animazioni di `BookletPreview` e `ProjectGallery`; ogni componente conserva il proprio intervallo e la propria sequenza. L’autoplay è attivo solo nel player e nella vista relatore; le copie in panoramica e nell’anteprima successiva restano ferme. Slidev mantiene montate anche le slide inattive: fermare sempre timer e listener quando la slide non è attiva o viene smontata. La preferenza di movimento ridotto e la stampa devono mostrare contenuti completi e stabili.
 
 Le palette restano in `styles/tokens.css` e `styles/lessons.css`. La barra riprende le classi di sezione della slide: un nuovo capitolo può usare la propria palette senza aggiungere condizioni in `global-top.vue`. Footer e barra usano entrambi `lessonPagination`.
 
