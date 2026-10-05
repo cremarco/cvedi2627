@@ -1136,9 +1136,9 @@ lessonMinutes: 4
 # Attività · UX, UI o usabilità?
 
 <div class="lesson-kicker">In coppia · 2 minuti, poi confronto</div><div class="cvedi-grid three">
-  <CvediCard title="A · Menu"><p>Cambiano le etichette e l’ordine dei controlli.</p></CvediCard>
-  <CvediCard title="B · Prenotazione"><p>La persona non trova il pulsante per prenotare.</p></CvediCard>
-  <CvediCard title="C · Servizio"><p>La visita ricevuta non rispetta le aspettative.</p></CvediCard>
+  <CvediCard title="A · Menu" illustration="/images/generated/ux-ui-usability/menu-v1.png" illustration-variant="roomy"><p>Cambiano le etichette e l’ordine dei controlli.</p></CvediCard>
+  <CvediCard title="B · Prenotazione" illustration="/images/generated/ux-ui-usability/booking-v1.png" illustration-variant="roomy"><p>La persona non trova il pulsante per prenotare.</p></CvediCard>
+  <CvediCard title="C · Servizio" illustration="/images/generated/ux-ui-usability/service-v1.png" illustration-variant="roomy"><p>La visita ricevuta non rispetta le aspettative.</p></CvediCard>
 </div><p class="aside">Quale aspetto emerge in ogni caso? Spiegate anche come gli aspetti sono collegati.</p>
 
 <!--

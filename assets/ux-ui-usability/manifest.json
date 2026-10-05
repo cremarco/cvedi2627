@@ -1,0 +1,13 @@
+{
+  "mode": "built-in image_gen",
+  "created": "2026-10-05",
+  "slide": 94,
+  "usage": "Illustrazioni decorative delle card Menu, Prenotazione e Servizio",
+  "transparent": true,
+  "modifications": "Prompt incorporati nei metadati PNG; pixel originali conservati",
+  "assets": [
+    { "card": "A · Menu", "image": "../../public/images/generated/ux-ui-usability/menu-v1.png", "prompt": "menu-v1.prompt.txt" },
+    { "card": "B · Prenotazione", "image": "../../public/images/generated/ux-ui-usability/booking-v1.png", "prompt": "booking-v1.prompt.txt" },
+    { "card": "C · Servizio", "image": "../../public/images/generated/ux-ui-usability/service-v1.png", "prompt": "service-v1.prompt.txt" }
+  ]
+}

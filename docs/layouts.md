@@ -124,7 +124,7 @@ Le 165 slide condividono palette del booklet, font, margini e footer. La struttu
 | 91 | LEGO · aiutare anche a smontare | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
 | 92 | Un menu può ostacolare un compito | Figura dominante e testo a sinistra |
 | 93 | Che cosa fa lo UX designer? | Confronto in colonne aperte |
-| 94 | Attività · UX, UI o usabilità? | 3 pannelli informativi |
+| 94 | Attività · UX, UI o usabilità? | 3 card con illustrazioni allineate in basso a destra |
 | 95 | Un processo, molte iterazioni | 3 pannelli informativi |
 | 96 | Quattordici fasi, cinque nuclei | Mappa illustrata: cinque stazioni, quattordici fasi e richiamo all’iterazione |
 | 97 | Il caso: fisioterapisti e clienti | Confronto in colonne aperte |
