@@ -59,29 +59,36 @@
   font-size: 18px;
 }
 .cvedi-card-illustrated {
+  --card-illustration-size: 80px;
+  position: relative;
   min-height: 188px;
   overflow: hidden;
 }
-.cvedi-card-illustrated .card-body {
-  position: relative;
-  z-index: 1;
+.cvedi-card-illustrated .card-body { position: static; }
+.cvedi-card-illustrated .card-body > :nth-last-child(2) {
+  margin-bottom: 0;
 }
-/* Longer notices reserve a clear lower corner for the same 140px artwork. */
-.materials-slide .cvedi-card-illustrated .card-body {
-  padding-bottom: 104px;
+.card-decoration {
+  position: static;
+  align-self: flex-end;
+  flex-shrink: 0;
+  margin-top: auto;
+  width: var(--card-illustration-size);
+  height: calc(var(--card-illustration-size) * .8 + var(--cvedi-space-card));
 }
 .card-illustration {
   position: absolute;
-  right: -10px;
-  bottom: -22px;
-  width: 140px;
-  opacity: .48;
+  right: 12px;
+  bottom: 12px;
+  display: block;
+  width: var(--card-illustration-size);
+  height: calc(var(--card-illustration-size) * .8);
+  object-fit: contain;
+  object-position: right bottom;
   pointer-events: none;
 }
-/* Reserve a quiet corner below the copy; dense grids use smaller artwork. */
-.cvedi-card-roomy .card-body { padding-bottom: 96px; }
-.cvedi-card-compact .card-body { padding-bottom: 56px; }
-.cvedi-card-compact .card-illustration { width: 90px; right: -6px; bottom: -18px; }
+.cvedi-card-roomy { --card-illustration-size: 104px; }
+.cvedi-card-compact { --card-illustration-size: 64px; }
 .index-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -111,11 +118,33 @@
   outline: 3px solid var(--index-color);
   outline-offset: 4px;
 }
+.index-course:not(:disabled):hover {
+  background: var(--cvedi-indigo-800);
+}
 .index-chapter-1:not(:disabled):hover {
   background: var(--cvedi-teal-800);
 }
 .index-chapter-2:not(:disabled):hover {
   background: var(--cvedi-pink-800);
+}
+.index-course {
+  --index-color: var(--cvedi-indigo-700);
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+}
+.index-course::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: inherit;
+  background-image: linear-gradient(90deg, var(--index-color), transparent 75%), url('/images/generated/index/course-background-v1.webp');
+  background-position: center, right center;
+  background-size: 100% 100%, auto 100%;
+  background-repeat: no-repeat;
+  opacity: .9;
+  pointer-events: none;
 }
 .index-chapter-1 {
   --index-color: var(--cvedi-teal-700);
@@ -132,7 +161,6 @@
 .index-chapter-5 {
   --index-color: var(--cvedi-yellow-500);
   --index-foreground: var(--cvedi-gray-950);
-  grid-column: 1 / -1;
 }
 .index-chapter-number {
   flex: none;

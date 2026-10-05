@@ -18,7 +18,7 @@ PALETTE = {
     'pale-blue': '#C4D6EF', 'pale-yellow': '#F5F4D7', 'gray': '#D1D5DB',
 }
 
-source = np.asarray(Image.open(ROOT / 'public/images/manuale-cover-pattern.png').convert('RGB'), dtype=np.int32)
+source = np.asarray(Image.open(ROOT / 'assets/metro-map/reference-cover.png').convert('RGB'), dtype=np.int32)
 colors = np.array([tuple(bytes.fromhex(c[1:])) for c in PALETTE.values()], dtype=np.int32)
 best = np.full(source.shape[:2], np.inf)
 indices = np.zeros(source.shape[:2], dtype=np.uint8)

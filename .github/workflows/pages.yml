@@ -30,6 +30,8 @@ jobs:
         env:
           PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
       - uses: actions/configure-pages@v6.0.0
+      - name: Check slide sources and local images
+        run: pnpm check:source
       - name: Build slides and project archive
         run: pnpm build:pages
         env:

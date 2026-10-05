@@ -1,18 +1,44 @@
-/* Chapter hues are the booklet's C01 teal and C02 pink; neutral reading surfaces stay shared. */
+/* Booklet chapter hues identify each lesson; complementary accents mark details. */
 .lesson-slide.introduction-section,
 .presentation-progress-rail.introduction-section {
   --lesson-color: var(--cvedi-teal-700);
   --lesson-color-deep: var(--cvedi-teal-800);
+  --lesson-accent: var(--cvedi-orange-700);
+  --lesson-accent-on-color: var(--cvedi-orange-200);
 }
 .lesson-slide.history-section,
 .presentation-progress-rail.history-section {
   --lesson-color: var(--cvedi-pink-700);
   --lesson-color-deep: var(--cvedi-pink-800);
+  --lesson-accent: var(--cvedi-teal-700);
+  --lesson-accent-on-color: var(--cvedi-teal-200);
+}
+/* Palettes ready for the remaining chapters listed in the course index. */
+.lesson-slide.design-thinking-section,
+.presentation-progress-rail.design-thinking-section {
+  --lesson-color: var(--cvedi-red-700);
+  --lesson-color-deep: var(--cvedi-red-800);
+  --lesson-accent: var(--cvedi-indigo-700);
+  --lesson-accent-on-color: var(--cvedi-indigo-200);
+}
+.lesson-slide.lean-ux-section,
+.presentation-progress-rail.lean-ux-section {
+  --lesson-color: var(--cvedi-orange-700);
+  --lesson-color-deep: var(--cvedi-orange-800);
+  --lesson-accent: var(--cvedi-teal-700);
+  --lesson-accent-on-color: var(--cvedi-teal-200);
+}
+.lesson-slide.conclusions-section,
+.presentation-progress-rail.conclusions-section {
+  --lesson-color: var(--cvedi-yellow-700);
+  --lesson-color-deep: var(--cvedi-yellow-800);
+  --lesson-accent: var(--cvedi-indigo-700);
+  --lesson-accent-on-color: var(--cvedi-indigo-200);
 }
 .slidev-layout.lesson-slide {
   --slide-accent: var(--lesson-color);
   --slide-subtitle: var(--lesson-color-deep);
-  --slide-detail-accent: var(--lesson-color);
+  --slide-detail-accent: var(--lesson-accent);
   --slide-stripe: var(--lesson-color);
   --slide-surface: var(--cvedi-gray-50);
   --slide-surface-alt: var(--cvedi-gray-50);
@@ -21,8 +47,8 @@
   --chapter-mid: var(--cvedi-gray-50);
   --color-secondary: var(--lesson-color-deep);
   --color-secondary-content: var(--cvedi-paper);
-  --color-accent: var(--lesson-color);
-  --color-accent-content: var(--cvedi-paper);
+  --color-accent: var(--lesson-accent-on-color);
+  --color-accent-content: var(--cvedi-gray-950);
 }
 .lesson-slide .slide-label { color: var(--lesson-color); }
 .lesson-slide.chapter-slide .slide-label { color: inherit; }
@@ -30,13 +56,13 @@
 .slidev-layout.lesson-slide .chapter-metro-route {
   --metro-track-color: var(--lesson-color-deep);
 }
-.lesson-slide .metro-train { stroke: var(--cvedi-paper); }
+.lesson-slide .metro-train { stroke: var(--lesson-accent-on-color); }
 .lesson-slide ::selection {
   background: var(--lesson-color);
   color: var(--cvedi-paper);
 }
 .presentation-progress-rail.lesson-progress { background: var(--cvedi-gray-50); }
-.lesson-progress .presentation-progress-fill { background: var(--lesson-color); }
+.lesson-progress .presentation-progress-fill { background: var(--lesson-accent); }
 
 /* Teaching layouts use the same fixed canvas and type roles as the course. */
 .lesson-columns {
@@ -56,6 +82,16 @@
   margin-top: 12px;
   color: var(--cvedi-muted);
   font: 400 var(--cvedi-type-label)/1.4 var(--cvedi-font-display);
+}
+.lesson-caption {
+  flex: 0 0 auto;
+  width: 100%;
+  min-width: 0;
+  padding-bottom: 3px;
+  border-bottom: .5px solid currentColor;
+  color: var(--slide-accent);
+  font: italic 300 var(--cvedi-type-label)/1.7 var(--cvedi-font-body);
+  text-align: right;
 }
 .lesson-statement {
   max-width: 1000px;

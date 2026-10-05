@@ -8,9 +8,11 @@ defineProps<{ title: string; illustration?: string; illustrationVariant?: 'roomy
     <div class="card-body">
       <div class="card-heading">
         <h2 class="card-title">{{ title }}</h2>
-        <img v-if="illustration" class="card-illustration" :src="publicAsset(illustration)" alt="" aria-hidden="true" />
       </div>
       <slot />
+      <div v-if="illustration" class="card-decoration" aria-hidden="true">
+        <img class="card-illustration" :src="publicAsset(illustration)" alt="" />
+      </div>
     </div>
   </article>
 </template>

@@ -1,0 +1,214 @@
+.booklet-preview {
+  width: 100%;
+  min-width: 0;
+}
+
+.booklet-stage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1918 / 1282;
+  perspective: 4000px;
+  isolation: isolate;
+  box-shadow: 0 8px 18px rgb(23 33 43 / .13);
+}
+
+.booklet-page,
+.booklet-page-face {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  background: var(--cvedi-paper);
+}
+
+.booklet-page {
+  width: 50%;
+}
+
+.booklet-page-left { left: 0; }
+.booklet-page-right { left: 50%; }
+
+.booklet-stage img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  object-fit: fill;
+  user-select: none;
+}
+
+.booklet-stage .booklet-cover-left img,
+.booklet-stage .booklet-cover-right img {
+  width: 200%;
+  object-fit: contain;
+}
+
+.booklet-cover-right img {
+  transform: translateX(-50%);
+}
+
+.booklet-stage::after {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 calc(50% - 10px);
+  width: 20px;
+  background: linear-gradient(90deg, transparent, rgb(0 0 0 / .13) 48%, rgb(0 0 0 / .07) 52%, transparent);
+  pointer-events: none;
+  z-index: 2;
+}
+
+.booklet-turning-leaf {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  transform-style: preserve-3d;
+  z-index: 3;
+  animation-duration: 850ms;
+  animation-timing-function: cubic-bezier(.4, 0, .2, 1);
+  animation-fill-mode: both;
+}
+
+.booklet-turn-forward {
+  left: 50%;
+  transform-origin: left center;
+  animation-name: cvedi-booklet-forward;
+}
+
+.booklet-turn-backward {
+  left: 0;
+  transform-origin: right center;
+  animation-name: cvedi-booklet-backward;
+}
+
+.booklet-page-face {
+  width: 100%;
+  backface-visibility: hidden;
+  box-shadow: 0 5px 14px rgb(23 33 43 / .16);
+}
+
+.booklet-page-back { transform: rotateY(180deg); }
+
+.booklet-page-face::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgb(0 0 0 / .13), transparent 25%);
+  pointer-events: none;
+}
+
+.booklet-turn-backward .booklet-page-face::after {
+  transform: scaleX(-1);
+}
+
+.booklet-page-button.btn {
+  position: absolute;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background: transparent;
+  z-index: 4;
+}
+
+.booklet-hit-left { left: 0; }
+.booklet-hit-right { left: 50%; }
+.booklet-page-button.btn:hover,
+.booklet-page-button.btn:active { background: transparent; transform: none; }
+.booklet-page-button.btn:disabled { opacity: 1; }
+
+.booklet-controls {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--cvedi-space-card);
+  margin-top: 12px;
+  font-family: var(--cvedi-font-display);
+}
+
+.booklet-controls .btn {
+  height: 36px;
+  min-height: 36px;
+  padding-inline: 12px;
+  border: 0;
+  font-size: var(--cvedi-type-label);
+  font-weight: 600;
+  color: var(--slide-accent, var(--cvedi-indigo));
+}
+
+.booklet-controls .btn[aria-disabled='true'] {
+  opacity: .4;
+  cursor: default;
+}
+
+.booklet-controls svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.booklet-preview .btn:focus-visible {
+  outline: 3px solid var(--slide-accent, var(--cvedi-indigo));
+  outline-offset: 3px;
+}
+
+.booklet-page-button.btn:focus-visible { outline-offset: -4px; }
+
+.booklet-page-label {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  color: var(--cvedi-body);
+  font-size: var(--cvedi-type-label);
+  font-weight: 600;
+}
+
+.booklet-playback {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.booklet-position {
+  color: var(--cvedi-muted);
+  font-weight: 400;
+  font-variant-numeric: tabular-nums;
+}
+
+.book-layout .booklet-source {
+  margin-top: var(--cvedi-space-card);
+  font-family: var(--cvedi-font-display);
+  font-size: var(--cvedi-type-label);
+  line-height: 1.45;
+}
+
+@keyframes cvedi-booklet-forward {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(-180deg); }
+}
+
+@keyframes cvedi-booklet-backward {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(180deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .booklet-turning-leaf { animation-duration: 1ms; }
+}
+
+@media print {
+  .booklet-turning-leaf,
+  .booklet-controls,
+  .booklet-page-button { display: none; }
+  .booklet-stage { box-shadow: none; }
+}
