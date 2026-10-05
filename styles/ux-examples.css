@@ -1,12 +1,5 @@
-.ux-examples-slide > .ux-examples { display: flex; flex-direction: column; flex: 1 1 0; min-height: 0; width: 100%; }
-.ux-example-copy h2 { margin: 0 0 20px; color: var(--slide-accent); font: 700 30px/1.2 var(--cvedi-font-display); text-wrap: balance; }
+.ux-examples-slide > .ux-example { display: flex; flex: 1 1 0; min-height: 0; width: 100%; }
 .ux-example-copy .lead { font-size: 27px; }
 .ux-example-source { color: var(--slide-accent); font: 400 16px/1.4 var(--cvedi-font-display); text-decoration: underline; text-underline-offset: .2em; }
-.ux-example-controls { display: flex; flex: 0 0 auto; align-items: center; justify-content: space-between; gap: 24px; margin-top: 16px; }
-.ux-example-controls .btn { min-height: 44px; height: 44px; padding-inline: 12px; color: var(--slide-accent); background: transparent; border: 0; box-shadow: none; font: 600 17px/1.2 var(--cvedi-font-display); }
-.ux-example-controls svg { width: 24px; height: 24px; }
-.ux-example-controls .select { width: 420px; min-height: 44px; height: 44px; padding-inline-start: 16px; border: 1px solid var(--slide-rule); border-radius: var(--cvedi-radius); background-color: var(--cvedi-paper); color: var(--slide-accent); font: 500 17px/1.4 var(--cvedi-font-display); }
-.ux-example-controls .btn:disabled { opacity: .45; cursor: default; }
-.ux-example-controls :is(.btn, .select):focus-visible { outline: 3px solid var(--slide-accent); outline-offset: 3px; }
-@media (hover: hover) { .ux-example-controls .btn:not(:disabled):hover { background: var(--slide-surface); } }
-@media print { .ux-example-controls, .ux-example-source { display: none; } }
+.ux-example-source:focus-visible { outline: 3px solid var(--slide-accent); outline-offset: 3px; }
+@media print { .ux-example-source { display: none; } }

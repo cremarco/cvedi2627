@@ -1,11 +1,19 @@
 import { chromium } from 'playwright-chromium'
-import { readFile, mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, writeFile } from 'node:fs/promises'
 import assert from 'node:assert/strict'
 import { checkSlideSources } from './slide-source.mjs'
 
-const { deck, total, lesson, history, course, projects } = await checkSlideSources()
+const { deck, total, lesson, history, course, projects, uxExamples, uxSlides } = await checkSlideSources()
 const baseURL = process.env.SLIDEV_URL || 'http://localhost:3035'
 const output = process.env.SLIDEV_SCREENSHOTS
+const pageNumber = slide => slide.index + 1
+const introductionStart = pageNumber(lesson[0])
+const historyStart = pageNumber(history[0])
+// Preserve the coverage of existing fixtures after replacing one UX slide with 13.
+const previousPage = number => number > pageNumber(uxSlides[0]) ? number + uxSlides.length - 1 : number
+const uxPages = uxSlides.map(pageNumber)
+const introductionDiscussion = lesson.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
+const historyDiscussion = history.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
 if (output) await mkdir(output, { recursive: true })
 const browser = await chromium.launch()
 const reports = []
@@ -18,12 +26,12 @@ try {
   })
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
   await page.getByRole('button', { name: /02.*Introduzione a UX e UI/ }).click()
-  await page.locator('.slidev-page-53 .slidev-layout').waitFor()
-  assert.equal(await page.locator('.slidev-page-53 h1').textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
+  await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
+  assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
   await page.getByRole('button', { name: /03.*Storia del graphic design/ }).click()
-  await page.locator('.slidev-page-103 .slidev-layout').waitFor()
-  assert.equal(await page.locator('.slidev-page-103 h1').textContent(), 'Storia del design', 'index opens history chapter')
+  await page.locator(`.slidev-page-${historyStart} .slidev-layout`).waitFor()
+  assert.equal(await page.locator(`.slidev-page-${historyStart} h1`).textContent(), 'Storia del design', 'index opens history chapter')
   async function inspect(number, narrow = false, print = false) {
     await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
     const slide = page.locator(`.slidev-page-${number} .slidev-layout`)
@@ -113,7 +121,7 @@ try {
       assert.ok(figure.width > 0 && figure.height > 0, `slide ${number}: visible figure`)
       assert.ok(['contain', 'cover'].includes(figure.fit), `slide ${number}: preserved image proportions`)
     }
-    if (number === 84) assert.equal(await slide.locator('.ux-process-map li').count(), 14, 'all fourteen UX phases are rendered')
+    if (current.content.includes('<UxProcessMap')) assert.equal(await slide.locator('.ux-process-map li').count(), 14, 'all fourteen UX phases are rendered')
     if (report.archiveWall) {
       assert.ok(projects.length >= 12, 'archive: enough project screenshots to cycle')
       assert.equal(report.galleryImages, 12, 'archive: twelve full-screen image windows')
@@ -122,25 +130,20 @@ try {
     if (output) await page.screenshot({ path: `${output}/${print ? 'print-' : narrow ? 'narrow-' : ''}${number}.png` })
   }
   for (let number = 1; number <= total; number++) await inspect(number)
-  const uxExamples = JSON.parse(await readFile(new URL('../../data/ux-examples.json', import.meta.url), 'utf8'))
-  const uxPage = deck.slides.find(slide => slide.content.includes('<UxExamples />')).index + 1
-  await page.goto(`${baseURL.replace(/\/$/, '')}/#/${uxPage}`, { waitUntil: 'networkidle' })
-  const uxSelector = page.getByRole('combobox', { name: 'Scegli un esempio' })
-  assert.equal(await uxSelector.locator('option').count(), uxExamples.length, 'all UX examples can be selected')
   for (const [index, example] of uxExamples.entries()) {
-    await uxSelector.selectOption(String(index))
-    await page.waitForFunction(src => {
-      const img = document.querySelector('.ux-examples .lesson-image-button img')
+    const number = uxPages[index]
+    await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
+    const slide = page.locator(`.slidev-page-${number} .slidev-layout`)
+    await slide.waitFor()
+    await page.waitForFunction(({ number, src }) => {
+      const img = document.querySelector(`.slidev-page-${number} .lesson-image-button img`)
       return img?.getAttribute('src')?.endsWith(src) && img.complete && img.naturalWidth > 0
-    }, example.src)
-    assert.equal(await page.locator('.ux-examples h2').textContent(), example.title, 'example text follows its photo')
+    }, { number, src: example.src })
+    assert.equal(await slide.locator('h1').textContent(), example.title, `UX example ${example.id}: heading`)
+    assert.equal(await slide.locator('.lesson-image-button img').count(), 1, `UX example ${example.id}: one photo`)
+    assert.equal(await slide.locator('.lesson-image-button img').getAttribute('alt'), example.alt, `UX example ${example.id}: image description`)
+    assert.equal(await slide.locator('select, .ux-example-controls').count(), 0, `UX example ${example.id}: no selector or carousel controls`)
   }
-  assert.equal(await page.getByRole('button', { name: 'Successivo', exact: true }).isEnabled(), false, 'last example has no next item')
-  await page.getByRole('button', { name: 'Precedente', exact: true }).click()
-  assert.equal(await uxSelector.inputValue(), String(uxExamples.length - 2), 'previous example works')
-  await page.getByRole('button', { name: 'Successivo', exact: true }).click()
-  assert.equal(await uxSelector.inputValue(), String(uxExamples.length - 1), 'next example works')
-  assert.equal(new URL(page.url()).hash.split('?')[0], `#/${uxPage}`, 'example navigation stays on its slide')
   async function inspectEnlargement(number, narrow = false) {
     await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
     const imageButton = page.locator(`.slidev-page-${number} .lesson-image-button`).first()
@@ -183,39 +186,43 @@ try {
     await page.locator('dialog[open]').waitFor()
     await page.locator('dialog[open]').getByRole('button', { name: 'Chiudi', exact: true }).click()
   }
-  for (const number of [61, 89, 123, 129, 150]) await inspectEnlargement(number)
+  for (const number of [...[61, 89, 123, 129, 150].map(previousPage), uxPages[0], uxPages[9]]) await inspectEnlargement(number)
   await page.setViewportSize({ width: 636, height: 778 })
   const narrowNumbers = new Set([
     2, 3, 4, 8, 12, 19,
     // Chapter opening, comparisons, images, six cards, process maps and activities.
-    53, 56, 59, 61, 63, 65, 68, 71, 74, 76, 79, 82, 84, 89, 91, 92, 93, 96, 100, 102,
+    ...[53, 56, 59, 61, 63, 65, 68, 71, 74, 76, 79, 82, 84, 89, 91, 92, 93, 96, 100, 102].map(previousPage),
     // New chapter: opening, timeline, images, paired posters, cards, activities and long titles.
-    103, 104, 107, 108, 112, 114, 122, 123, 124, 125, 126, 129, 131, 133, 136, 137, 138, 141, 144, 146, 149, 150, 152, total,
+    ...[103, 104, 107, 108, 112, 114, 122, 123, 124, 125, 126, 129, 131, 133, 136, 137, 138, 141, 144, 146, 149, 150, 152].map(previousPage),
+    ...uxPages, total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
-  for (const number of [61, 89, 129, 150]) await inspectEnlargement(number, true)
+  for (const number of [...[61, 89, 129, 150].map(previousPage), uxPages[9]]) await inspectEnlargement(number, true)
   // Check print styles without generating a PDF. Slidev's full print route
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })
   await page.setViewportSize({ width: 1280, height: 720 })
-  for (const number of [53, 84, 93, 102, 103, 123, 137, 150, 152, total]) await inspect(number, false, true)
+  for (const number of new Set([...[53, 84, 93, 102, 103, 123, 137, 150, 152].map(previousPage), ...uxPages, total])) await inspect(number, false, true)
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()
   // Open each presenter entry in a fresh page: dev notes are fetched separately
   // and Slidev keeps a per-page note cache when changing between player routes.
-  for (const number of [93, 150]) {
+  for (const discussion of [introductionDiscussion, historyDiscussion]) {
+    assert.ok(discussion, 'each chapter has a third classroom activity')
+    const number = pageNumber(discussion)
+    const isHistory = discussion.frontmatter.lesson === 'storia-design'
     const presenter = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'reduce' })
     presenter.on('pageerror', error => {
       if (error.message !== 'Wake Lock permission request denied') errors.push(error.message)
     })
     await presenter.goto(`${baseURL.replace(/\/$/, '')}/#/presenter/${number}`, { waitUntil: 'networkidle' })
-    await presenter.locator('.note').filter({ hasText: number === 150 ? /Slide 48 del capitolo/ : /slide 93 del deck/ }).waitFor()
+    await presenter.locator('.note').filter({ hasText: new RegExp(`Slide ${discussion.frontmatter.lessonSlide} del capitolo`) }).waitFor()
     const note = await presenter.locator('.note').innerText()
     assert.match(note, /Terza attività/, `presenter ${number}: discussion instructions`)
-    assert.match(note, number === 150 ? /Booklet:.*p\. 51/ : /Booklet:.*p\. 15/, `presenter ${number}: booklet pages`)
-    if (number === 150) assert.match(note, /Lezione 05, pp\. 91–94/, 'history presenter includes PDF pages')
+    assert.match(note, isHistory ? /Booklet:.*p\. 51/ : /Booklet:.*p\. 15/, `presenter ${number}: booklet pages`)
+    if (isHistory) assert.match(note, /Lezione 05, pp\. 91–94/, 'history presenter includes PDF pages')
     await presenter.waitForFunction(number => [...document.querySelectorAll(`.slidev-page-${number} img`)].every(img => img.complete && img.naturalWidth), number)
     if (output) await presenter.screenshot({ path: `${output}/presenter-${number}.png` })
     await presenter.close()
