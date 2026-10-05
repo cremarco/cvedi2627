@@ -1329,7 +1329,7 @@ lessonMinutes: 3
 
 <div class="lesson-columns">
   <div><p class="lead">Mettere in relazione <strong>azioni, pensieri, emozioni e punti di contatto</strong>.</p><p>La customer journey descrive l’esperienza; lo user flow dettaglia un percorso nel sistema.</p></div>
-  <LessonFigure src="/images/generated/customer-journey/journey-v1.png" alt="Customer journey illustrativa di una prenotazione aerea: preparare, cercare, scegliere, pagare e confermare. Azioni, punti di contatto, pensieri e opportunità per ogni fase; l’entusiasmo iniziale lascia spazio a confusione e tensione, poi al sollievo della conferma." caption="Customer journey · prenotare un volo" />
+  <LessonFigure src="/images/generated/customer-journey/journey-v1.png" alt="Customer journey illustrativa di una prenotazione aerea: preparare, cercare, scegliere, pagare e confermare. Azioni, punti di contatto, pensieri e opportunità per ogni fase; l’entusiasmo iniziale lascia spazio a confusione e tensione, poi al sollievo della conferma." caption="Customer journey · prenotare un volo" :bordered="false" />
 </div>
 
 <!--

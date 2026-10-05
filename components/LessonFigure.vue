@@ -7,9 +7,10 @@ withDefaults(defineProps<{
   src: string
   alt: string
   caption?: string
+  bordered?: boolean
   panels?: number
   panelAspectRatio?: string
-}>(), { panels: 1, panelAspectRatio: '4 / 3' })
+}>(), { bordered: true, panels: 1, panelAspectRatio: '4 / 3' })
 
 const captionWidth = ref<string>()
 function matchCaptionWidth(size: { width: number }) {
@@ -29,7 +30,7 @@ function openImage(event: MouseEvent) {
 </script>
 
 <template>
-  <figure class="lesson-figure" :style="{ '--lesson-image-width': captionWidth }">
+  <figure class="lesson-figure" :style="{ '--lesson-image-width': captionWidth, '--cvedi-image-border': bordered ? undefined : '0px' }">
     <button
       type="button"
       class="lesson-image-button"
@@ -57,7 +58,7 @@ function openImage(event: MouseEvent) {
       ref="dialog"
       class="modal lesson-image-dialog"
       :aria-labelledby="`${dialogId}-title`"
-      :style="{ '--image-accent': accent }"
+      :style="{ '--image-accent': accent, '--cvedi-image-border': bordered ? undefined : '0px' }"
       @keydown.stop
     >
       <div class="modal-box">
