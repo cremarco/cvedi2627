@@ -117,7 +117,7 @@ Gli script si eseguono dalla radice del repository. [Guida agli strumenti](scrip
 | `styles/booklet.css` | Libro a doppia pagina, rotazione sul dorso, comandi di consultazione e pausa, movimento ridotto e stampa |
 | `styles/compositions.css` | Famiglie di impaginazione, titoli stabili, confronti aperti, proporzioni delle figure e ingrandimenti |
 | `docs/layouts.md` | Struttura scelta per tutte le 165 slide e regole per le modifiche successive |
-| `components/UxProcessMap.vue` | Mappa delle 14 fasi UX, raccolte in cinque nuclei con card del sistema esistente |
+| `components/UxProcessMap.vue` | Mappa delle 14 fasi UX, raccolte in cinque stazioni illustrate con testo nativo |
 | `components/NextMeIllustration.vue` | Illustrazioni coordinate del brief WHAT IF?, con percorsi compatibili con la pubblicazione |
 | `components/ProcessTimeline.vue` | Percorsi metro a quattro tappe per progetto e approfondimento, con etichetta accessibile specifica |
 | `components/CourseCalendar.vue` | Tabella del calendario con badge di stato |

@@ -112,19 +112,6 @@
 .lesson-six .cvedi-card .card-body { padding: 20px 24px; }
 .lesson-six .card-title { margin-bottom: 8px; }
 .lesson-six.cvedi-grid.three .cvedi-card { min-height: 0; }
-.ux-process-map {
-  display: grid;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
-  gap: 16px;
-}
-.ux-process-map .cvedi-card { grid-column: span 2; }
-.ux-process-map .cvedi-card:nth-child(n + 4) { grid-column: span 3; }
-.ux-process-map .card-body { padding: 20px; }
-.ux-process-map .card-title { display: flex; align-items: center; gap: 12px; font-size: 22px; margin-bottom: 12px; }
-.ux-process-map .card-title .badge { flex: 0 0 30px; height: 30px; margin: 0; font-size: 17px; }
-.ux-process-map ol { margin: 0; padding-left: 28px; display: grid; gap: 5px; }
-.slidev-layout .ux-process-map li { padding-left: 2px; font: 400 19px/1.35 var(--cvedi-font-display); }
-.ux-process-map li::marker { color: var(--slide-detail-accent); font-weight: 700; }
 .lesson-steps.steps {
   width: 100%;
   margin: 16px 0 28px;
