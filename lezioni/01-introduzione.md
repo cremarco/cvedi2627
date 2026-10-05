@@ -1460,7 +1460,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide reading-slide concept-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 54

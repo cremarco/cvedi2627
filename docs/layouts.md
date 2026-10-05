@@ -136,7 +136,7 @@ Le 165 slide condividono palette del booklet, font, margini e footer. La struttu
 | 103 | 4 · Strutturare il sistema | Figura dominante e testo a sinistra |
 | 104 | Il wireframe organizza la schermata | Figura dominante e testo a sinistra |
 | 105 | 5 · Verificare con un prototipo | 3 pannelli informativi |
-| 106 | Correggere, dare forma, verificare ancora | Confronto in colonne aperte |
+| 106 | Correggere, dare forma, verificare ancora | 3 card informative |
 | 107 | Design Thinking: una cornice di lavoro | Titolo stabile, tesi centrale e spiegazione |
 | 108 | Cinque modalità del Design Thinking | Sequenza di passi collegati |
 | 109 | Empathize e Define | Confronto in colonne aperte |
