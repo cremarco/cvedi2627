@@ -35,12 +35,12 @@ I nove PDF originali sono conservati in `../../materiali/lezioni/2025-2026/`. Le
 | 20 / 169 | Quando il design persuade | [35 / C02 015](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 2.75 |
 | 21 / 170 | Due strategie di persuasione | [35 / C02 015](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 2.75 |
 | 22 / 171 | Attività · Leggere la persuasione | [35 / C02 015](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 5 |
-| 23 / 172 | Bauhaus: arte, tecnica, progetto | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2.75 |
-| 24 / 173 | Moholy-Nagy: comporre relazioni | [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2 |
-| 25 / 174 | Albers: il colore si legge in relazione | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | L06: 66–74 e 77 | Tematica | 2 |
-| 26 / 175 | Art Déco: dare forma alla modernità | [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2 |
+| 23 / 172 | Bauhaus: arte, tecnica, progetto | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515), [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2.75 |
+| 24 / 173 | Moholy-Nagy: comporre relazioni | [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2 |
+| 25 / 174 | Albers: il colore si legge in relazione | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515), [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | L06: 66–74 e 77 | Tematica | 2 |
+| 26 / 175 | Art Déco: dare forma alla modernità | [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2 |
 | 27 / 176 | Paul Rand: costruire un’idea visiva | [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2532) | — | Booklet | 2 |
-| 28 / 177 | La rivista come ritmo di lettura | [39 / C02 019](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256) | — | Booklet | 2 |
+| 28 / 177 | La rivista come ritmo di lettura | [42 / C02 022](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256) | — | Booklet | 2 |
 | 29 / 178 | La tipografia diventa immagine | [40 / C02 020](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2595) | L07: 14 | Tematica | 2 |
 | 30 / 179 | Comporre il testo e stampare | [28 / C02 008](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2456), [41 / C02 021](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206) | L07: 9–12 | Tematica | 2 |
 | 31 / 180 | Il tavolo di lavoro diventa software | [41 / C02 021](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206) | L07: 12 | Tematica | 2.75 |
@@ -80,7 +80,7 @@ Ogni WebP contiene l’origine nei metadati XMP, conservata anche nel JSON assoc
 | `mucha.webp` | Figma [198:2501](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2501) | 19 |
 | `gipkens.webp` | Figma [198:2162](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162) | 21 |
 | `flagg.webp` | Figma [198:2162](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162) | 21 |
-| `moholy-nagy.webp` | Figma [198:2184](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | 24 |
+| `moholy-nagy.webp` | Importazione precedente di Figma [198:2184](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184); la figura live è stata sostituita | 24 |
 | `paul-rand.webp` | Figma [198:2532](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2532) | 27 |
 | `brodovitch.webp` | Figma [198:2256](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256) | 28 |
 | `avant-garde.webp` | Figma [198:2595](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2595) | 29 |
@@ -131,3 +131,5 @@ Gli approfondimenti su Gestalt, teoria del colore, tipografia applicata e access
 ## Ritmo della lezione
 
 I tempi delle note sommano a 120 minuti. Le attività sono alle slide 22 (5 min), 38 (4 min) e 50 (6 min); la verifica finale occupa 5,75 minuti. Si possono ridurre gli esempi della parte storica se la discussione richiede più tempo. Tutti i riferimenti sono consultabili nella vista relatore; l’indice apre il capitolo tramite l’alias stabile `storia-design`.
+
+La verifica del booklet corrente del 5 ottobre aggiunge brevi richiami ad Arts and Crafts e Morris (slide 18), Nuova Tipografia e Tschichold (24), stile svizzero e Müller-Brockmann (28), senza modificare il conteggio o i tempi. Le fonti di verifica sono [V&A](https://www.vam.ac.uk/articles/william-morris-text), [MoMA](https://www.moma.org/explore/inside_out/2010/02/12/rediscovering-the-new-typography/) e [la curatrice del Museum für Gestaltung Zürich](https://www.aboutswitzerland.eda.admin.ch/en/swiss-style-forever-the-story-of-a-graphic-design-tradition). I numeri delle tre istanze verificate sono quelli stampati nel Figma corrente; gli altri riferimenti descrivono l’importazione documentata. La composizione astratta di Moholy-Nagy resta quella già importata, con didascalia riferita all’asset mostrato; il booklet corrente mostra invece il fotomontaggio *Structure of the World*, circa 1925.

@@ -93,7 +93,7 @@
 .lesson-image-hint svg { width: 18px; height: 18px; flex-shrink: 0; }
 .lesson-image-hint:focus-visible { outline: 3px solid var(--slide-accent); outline-offset: 3px; }
 .lesson-image-hint.btn:active { background: var(--slide-subtitle); color: var(--cvedi-paper); border-color: var(--slide-subtitle); }
-.lesson-figure-panels { display: grid; grid-template-columns: repeat(var(--figure-panels), minmax(0, 1fr)); align-items: center; gap: 24px; width: 100%; height: 100%; }
+.lesson-figure-panels { display: grid; grid-template-columns: repeat(var(--figure-panels), max-content); align-items: center; justify-content: center; gap: 24px; width: 100%; height: 100%; min-height: 0; }
 .lesson-figure-panels img { box-sizing: border-box; width: 100%; height: auto; aspect-ratio: var(--figure-panel-ratio); object-fit: cover; border: var(--cvedi-image-border) solid var(--image-accent, var(--slide-accent, var(--cvedi-indigo-700))); }
 .lesson-image-dialog[open] { background: rgb(3 7 18 / .82); }
 .lesson-image-dialog .modal-box {
@@ -115,7 +115,7 @@
 .lesson-image-dialog .btn { min-height: 44px; padding-inline: 16px; border: 1px solid var(--cvedi-rule); background: var(--cvedi-paper); color: var(--cvedi-ink); box-shadow: none; }
 .lesson-image-dialog .btn:focus-visible { outline: 3px solid var(--image-accent); outline-offset: 3px; }
 .lesson-image-dialog .lesson-image-content { flex: 1 1 0; min-height: 0; height: 0; }
-.lesson-image-dialog .lesson-figure-panels { flex: 1 1 0; min-height: 0; align-self: center; max-width: calc((100dvh - 168px) * var(--figure-panel-ratio) * var(--figure-panels)); }
+.lesson-image-dialog .lesson-figure-panels { flex: 1 1 0; min-height: 0; height: 0; }
 @media (hover: hover) {
   .lesson-image-button:hover + figcaption .lesson-image-hint { border-color: var(--slide-accent); }
   .lesson-image-hint.btn:hover { background: var(--slide-accent); border-color: var(--slide-accent); color: var(--cvedi-paper); }

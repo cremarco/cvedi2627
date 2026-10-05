@@ -484,16 +484,18 @@ lessonMinutes: 2
   <CvediCard title="Immagine"><p>Figure e motivi ornamentali si intrecciano.</p></CvediCard>
   <CvediCard title="Lettere"><p>Il testo partecipa alla composizione visiva.</p></CvediCard>
 </div>
+<p class="aside">Arts and Crafts: William Morris progetta il libro come un insieme di caratteri, margini, carta e illustrazioni. Kelmscott Press, 1891.</p>
 
 <!--
 Tempo previsto: 2 min. Slide 18 del capitolo (slide 167 del deck).
 
-Inquadrare l’Art Nouveau alla fine dell’Ottocento, come movimento che attraversa grafica, architettura e oggetti. Il booklet richiama le campiture e i contorni delle stampe giapponesi. Non presentare queste influenze come una spiegazione unica. Evidenziare l’integrazione fra testo, figura e ornamento; la leggibilità dipende dal ruolo dell’artefatto e dalla sua distanza di osservazione.
+Inquadrare l’Art Nouveau alla fine dell’Ottocento, come movimento che attraversa grafica, architettura e oggetti. Il booklet richiama le campiture e i contorni delle stampe giapponesi. Non presentare queste influenze come una spiegazione unica. Evidenziare l’integrazione fra testo, figura e ornamento; la leggibilità dipende dal ruolo dell’artefatto e dalla sua distanza di osservazione. Il booklet aggiornato richiama anche Arts and Crafts: distinguere la qualità artigianale e la progettazione unitaria del libro di Morris dal repertorio ornamentale dell’Art Nouveau.
 
 Booklet: p. 33 (C02 013), nodo 198:2140; p. 34 (C02 014), nodo 198:2501.
 Contenuto aggiunto dal booklet; nessuna corrispondenza diretta nei PDF.
 Corrispondenza: Booklet.
 Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2140
+Verifica su fonte primaria: https://www.vam.ac.uk/articles/william-morris-text
 -->
 
 ---
@@ -627,7 +629,7 @@ Tempo previsto: 165 s. Slide 23 del capitolo (slide 172 del deck).
 
 Il booklet presenta il Bauhaus di Walter Gropius e il progressivo orientamento funzionalista. Non descrivere tutti i suoi anni come uno stile uniforme: la scuola cambia sedi, docenti e impostazioni. Nel manifesto di Schmidt, verificato nell’archivio Bauhaus, osservare diagonale, lettere e forme geometriche. Identificare anche le informazioni operative: che cosa accade, dove e quando.
 
-Booklet: p. 36 (C02 016), nodo 198:2515; p. 37 (C02 017), nodo 198:2184.
+Booklet: p. 36 (C02 016), nodo 198:2515; p. 38 (C02 018), nodo 198:2184.
 Contenuto aggiunto dal booklet; nessuna corrispondenza diretta nei PDF.
 Corrispondenza: Booklet.
 Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515
@@ -646,19 +648,20 @@ lessonMinutes: 2
 # Moholy-Nagy: comporre relazioni
 
 <div class="lesson-columns">
-  <div><p class="lead">Testo, fotografia e geometria possono diventare un sistema.</p><p>La composizione orienta il percorso dello sguardo.</p></div>
-  <LessonFigure src="/images/storia-design/moholy-nagy.webp" alt="Composizione astratta di Moholy-Nagy con diagonali, cerchi e forme geometriche" caption="László Moholy-Nagy · Composizione A XXI · 1925, secondo il booklet" />
+  <div><p class="lead">Testo, fotografia e geometria possono diventare un sistema.</p><p>La Nuova Tipografia valorizza asimmetria e gerarchie. Tschichold ne sistematizza i principi in <em>Die neue Typographie</em> (1928).</p></div>
+  <LessonFigure src="/images/storia-design/moholy-nagy.webp" alt="Composizione astratta di Moholy-Nagy con diagonali, cerchi e forme geometriche" caption="László Moholy-Nagy · Composizione A XXI · 1925" />
 </div>
 
 <!--
 Tempo previsto: 2 min. Slide 24 del capitolo (slide 173 del deck).
 
-Il booklet associa Moholy-Nagy alla tipografia funzionale e all’uso del fotomontaggio. La figura mostrata è una composizione astratta, non un fotomontaggio: dirlo esplicitamente. Usarla per leggere peso, diagonali e rapporti fra forme. Poi spiegare come l’accostamento di elementi fotografici possa costruire un significato nuovo. L’interpretazione del percorso dello sguardo è un esercizio didattico, non una dichiarazione dell’artista.
+Il booklet associa Moholy-Nagy alla tipografia funzionale e all’uso del fotomontaggio. La figura mostrata è la composizione astratta importata nella revisione precedente; il booklet corrente mostra invece Structure of the World, circa 1925. Non descrivere questa figura come un fotomontaggio. Usarla per leggere peso, diagonali e rapporti fra forme. Collegare la sperimentazione modernista alla sistematizzazione di Tschichold, senza attribuirgli tutta l’origine della Nuova Tipografia. L’interpretazione del percorso dello sguardo è un esercizio didattico, non una dichiarazione dell’artista.
 
-Booklet: p. 37 (C02 017), nodo 198:2184.
+Booklet: p. 38 (C02 018), nodo 198:2184.
 Contenuto aggiunto dal booklet; nessuna corrispondenza diretta nei PDF.
 Corrispondenza: Booklet.
 Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184
+Verifica su fonte primaria: https://www.moma.org/explore/inside_out/2010/02/12/rediscovering-the-new-typography/
 -->
 
 ---
@@ -686,7 +689,7 @@ Tempo previsto: 2 min. Slide 25 del capitolo (slide 174 del deck).
 Recuperare Albers e il confronto percettivo presente nella lezione sul colore. Prima osservare i due campioni, poi rivelare che il codice del quadrato centrale è identico. È un esercizio didattico originale realizzato con elementi HTML, non una riproduzione di una tavola di Albers. La percezione può cambiare secondo colori adiacenti e condizioni di osservazione: non promettere che ogni partecipante vedrà la stessa differenza. Interaction of Color, pubblicato nel 1963, propone esercizi di osservazione e confronto. Collegare il lavoro sperimentale della scuola al successivo uso del colore nel progetto; questo ponte non sostituisce la lezione specialistica sul colore.
 Fonti primarie: https://www.albersfoundation.org/alberses/teaching/interaction-of-color e https://www.albersfoundation.org/learning/workshops/one-color-becomes-two.
 
-Booklet: p. 36, nodo 198:2515; p. 37, nodo 198:2184.
+Booklet: p. 36, nodo 198:2515; p. 38, nodo 198:2184.
 PDF 2025/26: Lezione 06, pp. 66–74 e 77.
 Corrispondenza: tematica / esercizio percettivo ridisegnato.
 Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184
@@ -714,7 +717,7 @@ Tempo previsto: 2 min. Slide 26 del capitolo (slide 175 del deck).
 
 Il booklet mette in relazione Art Déco e Streamline Moderne, distinguibili ma accomunati nel testo dall’immaginario tecnologico. Non confonderli con il Bauhaus: gli obiettivi e gli usi dell’ornamento differiscono. Rileggere le tre card come repertorio formale, non regole che caratterizzano ogni opera. Il punto è vedere come una stessa idea di modernità possa produrre linguaggi diversi.
 
-Booklet: p. 37 (C02 017), nodo 198:2184.
+Booklet: p. 38 (C02 018), nodo 198:2184.
 Contenuto aggiunto dal booklet; nessuna corrispondenza diretta nei PDF.
 Corrispondenza: Booklet.
 Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184
@@ -760,19 +763,20 @@ lessonMinutes: 2
 # La rivista come ritmo di lettura
 
 <div class="lesson-columns">
-  <div><p class="lead">La sequenza delle pagine conta quanto la singola pagina.</p><p>Spazio bianco, immagini e testo costruiscono alternanza e movimento.</p></div>
+  <div><p class="lead">La sequenza delle pagine conta quanto la singola pagina.</p><p>Brodovitch varia la composizione. Lo stile svizzero di Müller-Brockmann cerca coerenza con griglie, asimmetria e caratteri senza grazie.</p></div>
   <LessonFigure :panels="3" panel-aspect-ratio="415 / 314" src="/images/storia-design/brodovitch.webp" alt="Tre aperture di Harper’s Bazaar con fotografie e testi disposti in modo variabile" caption="Harper’s Bazaar · pagine sotto la direzione di Alexey Brodovitch" />
 </div>
 
 <!--
 Tempo previsto: 2 min. Slide 28 del capitolo (slide 177 del deck).
 
-Il booklet richiama la direzione artistica di Brodovitch e il rapporto con la fotografia. Osservare le aperture, la variazione della densità e la posizione del testo. Rielaborare la sua influenza come progettazione di una sequenza, senza attribuire all’immagine date non documentate. Collegare alle interfacce che organizzano percorsi: una schermata isolata non esaurisce l’esperienza.
+Il booklet richiama la direzione artistica di Brodovitch e il rapporto con la fotografia. Osservare le aperture, la variazione della densità e la posizione del testo. Rielaborare la sua influenza come progettazione di una sequenza, senza attribuire all’immagine date non documentate. Il booklet aggiornato richiama anche lo stile svizzero degli anni Cinquanta e Sessanta: Müller-Brockmann è un protagonista, non l’inventore della griglia. Distinguere questo richiamo dalle aperture di Brodovitch mostrate. Collegare alle interfacce che organizzano percorsi: una schermata isolata non esaurisce l’esperienza.
 
-Booklet: p. 39 (C02 019), nodo 198:2256.
+Booklet: p. 42 (C02 022), nodo 198:2256.
 Contenuto aggiunto dal booklet; nessuna corrispondenza diretta nei PDF.
 Corrispondenza: Booklet.
 Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256
+Verifica su fonte primaria: https://www.aboutswitzerland.eda.admin.ch/en/swiss-style-forever-the-story-of-a-graphic-design-tradition
 -->
 
 ---

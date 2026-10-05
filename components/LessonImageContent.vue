@@ -19,7 +19,20 @@ function syncImageSize() {
   const frame = container.value
   if (!frame || !frame.clientWidth || !frame.clientHeight) return
   if (props.panels > 1) {
-    emit('sizeChange', { width: frame.clientWidth, height: frame.clientHeight })
+    const gap = parseFloat(getComputedStyle(frame).columnGap) || 0
+    const [ratioWidth, ratioHeight = 1] = props.panelAspectRatio.split('/').map(Number)
+    const ratio = ratioWidth > 0 && ratioHeight > 0 && Number.isFinite(ratioWidth / ratioHeight)
+      ? ratioWidth / ratioHeight
+      : 4 / 3
+    const totalGap = gap * (props.panels - 1)
+    const width = Math.min(
+      Math.max(0, frame.clientWidth - totalGap) / props.panels,
+      frame.clientHeight * ratio,
+    )
+    const height = width / ratio
+    // Fit the bordered panels on both axes; only their occupied width belongs to the caption.
+    imageSize.value = { width: `${width}px`, height: `${height}px` }
+    emit('sizeChange', { width: width * props.panels + totalGap, height })
     return
   }
 
@@ -61,7 +74,7 @@ watch(() => [props.panels, props.panelAspectRatio], syncImageSize, { flush: 'pos
         :src="publicAsset(src)"
         :alt="panel === 1 ? alt : ''"
         :aria-hidden="panel > 1 ? true : undefined"
-        :style="{ objectPosition: `center ${(panel - 1) / (panels - 1) * 100}%` }"
+        :style="{ ...imageSize, objectPosition: `center ${(panel - 1) / (panels - 1) * 100}%` }"
         @load="syncImageSize"
       />
     </template>
