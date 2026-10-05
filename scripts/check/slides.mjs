@@ -3,14 +3,97 @@ import { mkdir, writeFile } from 'node:fs/promises'
 import assert from 'node:assert/strict'
 import { checkSlideSources } from './slide-source.mjs'
 
-const { deck, total, lesson, history, course, projects, uxExamples, uxSlides } = await checkSlideSources()
+const { deck, total, lesson, history, course, projects, uxExamples, uxSlides, audit } = await checkSlideSources()
 const baseURL = process.env.SLIDEV_URL || 'http://localhost:3035'
 const output = process.env.SLIDEV_SCREENSHOTS
 const pageNumber = slide => slide.index + 1
 const introductionStart = pageNumber(lesson[0])
 const historyStart = pageNumber(history[0])
-// Preserve the coverage of existing fixtures after replacing one UX slide with 15.
-const previousPage = number => number > pageNumber(uxSlides[0]) ? number + uxSlides.length - 1 : number
+// Fixtures follow slide identity, so insertions do not silently change their coverage.
+function resolveFixture(lesson, title) {
+  const matches = deck.slides.filter(slide => slide.frontmatter.lesson === lesson && slide.title === title)
+  assert.equal(matches.length, 1, `unique fixture: ${lesson} / ${title}`)
+  return pageNumber(matches[0])
+}
+const fixtures = {
+  enlargement: [
+    ["introduzione", "Oggetti che comunicano"],
+    ["introduzione", "3 · Organizzare l’esperienza"],
+    ["storia-design", "Due strategie di persuasione"],
+    ["storia-design", "La rivista come ritmo di lettura"],
+    ["storia-design", "Attività · Un controllo è riconoscibile?"],
+  ],
+  narrowIntroduction: [
+    ["introduzione", "Introduzione a UX e UI"],
+    ["introduzione", "Design e società"],
+    ["introduzione", "Una forma può cambiare significato"],
+    ["introduzione", "Oggetti che comunicano"],
+    ["introduzione", "Come riconoscere un buon design"],
+    ["introduzione", "Attività · Leggere una porta"],
+    ["introduzione", "Istruzioni che guidano l’azione"],
+    ["introduzione", "Dal bisogno alla risposta"],
+    ["introduzione", "L’esperienza attraversa il servizio"],
+    ["introduzione", "La UI è parte della UX"],
+    ["introduzione", "Dove finisce il pavimento?"],
+    ["introduzione", "Attività · UX, UI o usabilità?"],
+    ["introduzione", "Quattordici fasi, cinque nuclei"],
+    ["introduzione", "3 · Organizzare l’esperienza"],
+    ["introduzione", "4 · Strutturare il sistema"],
+    ["introduzione", "Il wireframe organizza la schermata"],
+    ["introduzione", "5 · Verificare con un prototipo"],
+    ["introduzione", "Cinque modalità del Design Thinking"],
+    ["introduzione", "UX e Design Thinking si incontrano"],
+    ["introduzione", "Verifica finale · Spiegare una scelta"],
+  ],
+  narrowHistory: [
+    ["storia-design", "Storia del design"],
+    ["storia-design", "Cosa impareremo"],
+    ["storia-design", "Un percorso, molte continuità"],
+    ["storia-design", "Prima della pagina"],
+    ["storia-design", "Cina: riprodurre e ricomporre"],
+    ["storia-design", "Il carattere progetta la lettura"],
+    ["storia-design", "Quando il design persuade"],
+    ["storia-design", "Due strategie di persuasione"],
+    ["storia-design", "Attività · Leggere la persuasione"],
+    ["storia-design", "Bauhaus: arte, tecnica, progetto"],
+    ["storia-design", "Moholy-Nagy: comporre relazioni"],
+    ["storia-design", "La rivista come ritmo di lettura"],
+    ["storia-design", "Il tavolo di lavoro diventa software"],
+    ["storia-design", "Dal leggere all’interagire"],
+    ["storia-design", "Xerox: oggetti sullo schermo"],
+    ["storia-design", "WIMP: quattro elementi coordinati"],
+    ["storia-design", "Attività · La metafora della scrivania"],
+    ["storia-design", "Scheumorfismo: riconoscere una funzione"],
+    ["storia-design", "Neumorfismo: oggetti dalla superficie"],
+    ["storia-design", "Minimalismo: scegliere che cosa resta"],
+    ["storia-design", "Brutalismo web e neobrutalismo"],
+    ["storia-design", "Attività · Un controllo è riconoscibile?"],
+    ["storia-design", "Verifica finale · Motivare uno stile"],
+  ],
+  narrowEnlargement: [
+    ["introduzione", "Oggetti che comunicano"],
+    ["introduzione", "3 · Organizzare l’esperienza"],
+    ["storia-design", "La rivista come ritmo di lettura"],
+    ["storia-design", "Attività · Un controllo è riconoscibile?"],
+  ],
+  print: [
+    ["introduzione", "Introduzione a UX e UI"],
+    ["introduzione", "Quattordici fasi, cinque nuclei"],
+    ["introduzione", "5 · Verificare con un prototipo"],
+    ["introduzione", "Verifica finale · Spiegare una scelta"],
+    ["storia-design", "Storia del design"],
+    ["storia-design", "Due strategie di persuasione"],
+    ["storia-design", "WIMP: quattro elementi coordinati"],
+    ["storia-design", "Attività · Un controllo è riconoscibile?"],
+    ["storia-design", "Verifica finale · Motivare uno stile"],
+  ],
+}
+const fixturePages = name => fixtures[name].map(([lesson, title]) => resolveFixture(lesson, title))
+const recoveredPages = audit.integratedSlides.map(entry => {
+  const slide = deck.slides.find(slide => slide.frontmatter.routeAlias === entry.alias)
+  assert.ok(slide, `recovered fixture: ${entry.alias}`)
+  return pageNumber(slide)
+})
 const uxPages = uxSlides.map(pageNumber)
 const introductionDiscussion = lesson.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
 const historyDiscussion = history.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
@@ -186,24 +269,24 @@ try {
     await page.locator('dialog[open]').waitFor()
     await page.locator('dialog[open]').getByRole('button', { name: 'Chiudi', exact: true }).click()
   }
-  for (const number of [...[61, 89, 123, 129, 150].map(previousPage), uxPages[0], uxPages[9]]) await inspectEnlargement(number)
+  for (const number of [...fixturePages('enlargement'), uxPages[0], uxPages[9]]) await inspectEnlargement(number)
   await page.setViewportSize({ width: 636, height: 778 })
   const narrowNumbers = new Set([
     2, 3, 4, 8, 12, 19,
     // Chapter opening, comparisons, images, six cards, process maps and activities.
-    ...[53, 56, 59, 61, 63, 65, 68, 71, 74, 76, 79, 82, 84, 89, 91, 92, 93, 96, 100, 102].map(previousPage),
-    // New chapter: opening, timeline, images, paired posters, cards, activities and long titles.
-    ...[103, 104, 107, 108, 112, 114, 122, 123, 124, 125, 126, 129, 131, 133, 136, 137, 138, 141, 144, 146, 149, 150, 152].map(previousPage),
-    ...uxPages, total,
+    ...fixturePages('narrowIntroduction'),
+    // History: opening, timeline, images, paired posters, cards, activities and long titles.
+    ...fixturePages('narrowHistory'),
+    ...uxPages, ...recoveredPages, total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
-  for (const number of [...[61, 89, 129, 150].map(previousPage), uxPages[9]]) await inspectEnlargement(number, true)
+  for (const number of [...fixturePages('narrowEnlargement'), uxPages[9]]) await inspectEnlargement(number, true)
   // Check print styles without generating a PDF. Slidev's full print route
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })
   await page.setViewportSize({ width: 1280, height: 720 })
-  for (const number of new Set([...[53, 84, 93, 102, 103, 123, 137, 150, 152].map(previousPage), ...uxPages, total])) await inspect(number, false, true)
+  for (const number of new Set([...fixturePages('print'), ...uxPages, ...recoveredPages, total])) await inspect(number, false, true)
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()

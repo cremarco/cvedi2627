@@ -18,8 +18,8 @@ export async function checkSlideSources() {
   const lesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'introduzione')
   const history = deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
-  assert.equal(total, 167, 'resolved deck: 167 slides, including imports')
-  assert.equal(lesson.length, 64, 'introduction: 64 slides')
+  assert.equal(total, 187, 'resolved deck: 187 slides, including imports')
+  assert.equal(lesson.length, 82, 'introduction: 82 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
   assert.deepEqual(lesson.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: lesson.length }, (_, i) => i + 1), 'lesson sequence')
@@ -28,7 +28,7 @@ export async function checkSlideSources() {
   assert.equal(deck.slides.at(-1).title, 'Domande?', 'original closing follows the teaching chapters')
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
-  assert.equal(history.length, 50, 'history: 50 slides')
+  assert.equal(history.length, 52, 'history: 52 slides')
   assert.equal(course.length, 53, 'course presentation: 53 slides, including closing')
   assert.ok(Math.abs(lessonMinutes(history) - 120) < 1e-6, 'history: 120 minutes')
   assert.deepEqual(history.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: history.length }, (_, i) => i + 1), 'history sequence')
@@ -49,10 +49,26 @@ export async function checkSlideSources() {
     assert.match(slide.note, /Booklet:.*nodo 198:/, `lesson ${slide.frontmatter.lessonSlide}: booklet reference`)
     assert.match(slide.note, /(?:PDF 2025\/26:|nessuna corrispondenza diretta)/, `lesson ${slide.frontmatter.lessonSlide}: source relation`)
   }
-  const sourceMap = await readFile(new URL('../../docs/fonti/01-introduzione.md', import.meta.url), 'utf8')
-  assert.equal((sourceMap.match(/^\| \d+ \/ \d+ \|/gm) || []).length, lesson.length, 'source map: one entry per lesson slide')
-  const historySources = await readFile(new URL('../../docs/fonti/03-storia-design.md', import.meta.url), 'utf8')
-  assert.equal((historySources.match(/^\| \d+ \/ \d+ \|/gm) || []).length, history.length, 'history source map: one entry per slide')
+  async function checkSourceMap(file, slides) {
+    const sourceMap = await readFile(new URL(`../../docs/fonti/${file}`, import.meta.url), 'utf8')
+    const rows = [...sourceMap.matchAll(/^\| (\d+) \/ (\d+) \| ([^|]+) \|.*\| ([\d.]+) \|$/gm)]
+    assert.deepEqual(rows.map(row => ({ lessonSlide: Number(row[1]), page: Number(row[2]), title: row[3].trim(), minutes: Number(row[4]) })),
+      slides.map(slide => ({ lessonSlide: slide.frontmatter.lessonSlide, page: slide.index + 1, title: slide.title, minutes: slide.frontmatter.lessonMinutes })),
+      `${file}: one matching source-map entry per slide, including duration`)
+  }
+  await checkSourceMap('01-introduzione.md', lesson)
+  await checkSourceMap('03-storia-design.md', history)
+  const audit = JSON.parse(await readFile(new URL('../../assets/slide-audit/2025-2026.json', import.meta.url), 'utf8'))
+  assert.equal(audit.sources.length, 9, 'previous academic year: nine source PDFs')
+  assert.equal(audit.sources.reduce((sum, source) => sum + source.pages, 0), 982, 'previous academic year: 982 reviewed pages')
+  assert.equal(audit.integratedSlides.length, 20, 'previous academic year: twenty recovered slides')
+  assert.equal(new Set(audit.integratedSlides.map(slide => slide.alias)).size, audit.integratedSlides.length, 'distinct recovered aliases')
+  assert.deepEqual(audit.integratedSlides.map(entry => {
+    const slide = deck.slides.find(slide => slide.frontmatter.routeAlias === entry.alias)
+    assert.ok(slide, `recovered alias: ${entry.alias}`)
+    return { alias: entry.alias, lesson: slide.frontmatter.lesson, lessonSlide: slide.frontmatter.lessonSlide, deckSlide: slide.index + 1, title: slide.title }
+  }), audit.integratedSlides.map(({ alias, lesson, lessonSlide, deckSlide, title }) => ({ alias, lesson, lessonSlide, deckSlide, title })),
+  'recovery audit agrees with resolved slides')
   const summary = JSON.parse(await readFile(new URL('../../data/grade-summary.json', import.meta.url), 'utf8'))
   const projects = JSON.parse(await readFile(new URL('../../data/projects.json', import.meta.url), 'utf8'))
   for (const [category, data] of Object.entries(summary.categories)) {
@@ -64,7 +80,7 @@ export async function checkSlideSources() {
   const aliases = deck.slides.map(slide => slide.frontmatter.routeAlias).filter(Boolean)
   assert.equal(new Set(aliases).size, aliases.length, 'unique slide aliases')
   const uxExamples = JSON.parse(await readFile(path.join(root, 'data/ux-examples.json'), 'utf8'))
-  assert.equal(uxExamples.length, 15, 'fifteen UX examples')
+  assert.equal(uxExamples.length, 16, 'sixteen UX examples')
   for (const example of uxExamples) {
     for (const field of ['id', 'src', 'title', 'description', 'question', 'alt'])
       assert.ok(typeof example[field] === 'string' && example[field].trim(), `UX example: ${field}`)
@@ -115,8 +131,8 @@ export async function checkSlideSources() {
   }
   const report = { slides: total, course: course.length, introduction: lesson.length, history: history.length,
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
-    publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length }
-  return { deck, total, lesson, history, course, projects, uxExamples, uxSlides, report }
+    publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length, recoveredSlides: audit.integratedSlides.length }
+  return { deck, total, lesson, history, course, projects, uxExamples, uxSlides, audit, report }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
