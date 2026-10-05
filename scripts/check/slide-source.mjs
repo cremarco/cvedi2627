@@ -66,8 +66,10 @@ export async function checkSlideSources() {
   const uxExamples = JSON.parse(await readFile(path.join(root, 'data/ux-examples.json'), 'utf8'))
   assert.equal(uxExamples.length, 13, 'thirteen UX examples')
   for (const example of uxExamples) {
-    for (const field of ['id', 'src', 'title', 'description', 'question', 'alt', 'caption'])
+    for (const field of ['id', 'src', 'title', 'description', 'question', 'alt'])
       assert.ok(typeof example[field] === 'string' && example[field].trim(), `UX example: ${field}`)
+    if (example.caption !== undefined)
+      assert.ok(typeof example.caption === 'string' && example.caption.trim(), 'UX example: optional caption')
     assert.equal(example.id, path.basename(example.src, path.extname(example.src)), 'stable UX example ID follows its image basename')
   }
   for (const field of ['id', 'src', 'title'])

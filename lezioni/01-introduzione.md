@@ -348,7 +348,7 @@ lessonMinutes: 2
   <li><span>Quali elementi della <strong>forma</strong> suggeriscono l’azione?</span></li>
   <li><span>Quale <strong>vincolo</strong> o informazione manca?</span></li>
 </ul></div>
-  <LessonFigure src="/images/introduzione/porte.webp" alt="Due porte con maniglioni simili: una richiede di spingere, l’altra di tirare" caption="Esempio della lezione 3" />
+  <LessonFigure src="/images/introduzione/porte.webp" alt="Due porte con maniglioni simili: una richiede di spingere, l’altra di tirare" />
 </div>
 
 <!--
@@ -1082,7 +1082,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Scegliere il Paese dovrebbe essere un passaggio semplice.</p><p>Ordine, etichette e quantità di opzioni influenzano la ricerca.</p><p class="aside">L’aspetto del controllo va valutato insieme al suo uso.</p></div>
-  <LessonFigure src="/images/introduzione/menu-paesi.webp" alt="Menu di selezione del Paese con numerose voci in una schermata di accesso" caption="Esempio della lezione 3" />
+  <LessonFigure src="/images/introduzione/menu-paesi.webp" alt="Menu di selezione del Paese con numerose voci in una schermata di accesso" />
 </div>
 
 <!--
@@ -1329,7 +1329,7 @@ lessonMinutes: 3
 
 <div class="lesson-columns">
   <div><p class="lead">Mettere in relazione <strong>azioni, pensieri, emozioni e punti di contatto</strong>.</p><p>La customer journey descrive l’esperienza; lo user flow dettaglia un percorso nel sistema.</p></div>
-  <LessonFigure src="/images/introduzione/customer-journey.webp" alt="Customer journey originale con fasi, touchpoint e andamento dell’esperienza" caption="Esempio di customer journey · Lezione 4" />
+  <LessonFigure src="/images/introduzione/customer-journey.webp" alt="Customer journey originale con fasi, touchpoint e andamento dell’esperienza" caption="Esempio di customer journey" />
 </div>
 
 <!--
@@ -1384,7 +1384,7 @@ lessonMinutes: 3
 
 <div class="lesson-columns">
   <div><p class="lead">L’architettura dell’informazione definisce <strong>gerarchie e relazioni</strong>.</p><p>Contenuti e percorsi diventano una struttura navigabile.</p></div>
-  <LessonFigure src="/images/introduzione/architettura-informazione.webp" alt="Alberatura originale con pagine collegate e gerarchie di un prodotto" caption="Architettura dell’informazione · Lezione 5" />
+  <LessonFigure src="/images/introduzione/architettura-informazione.webp" alt="Alberatura originale con pagine collegate e gerarchie di un prodotto" caption="Architettura dell’informazione" />
 </div>
 
 <!--
@@ -1415,7 +1415,7 @@ lessonMinutes: 2
   <li><span>Quale gerarchia guida la lettura?</span></li>
   <li><span>Quali azioni sono disponibili?</span></li>
 </ul></div>
-  <LessonFigure src="/images/introduzione/wireframe.webp" alt="Sei schermate disegnate a mano con contenuti e controlli senza grafica finale" caption="Wireframe originale · Lezione 5" />
+  <LessonFigure src="/images/introduzione/wireframe.webp" alt="Sei schermate disegnate a mano con contenuti e controlli senza grafica finale" caption="Wireframe" />
 </div>
 
 <!--

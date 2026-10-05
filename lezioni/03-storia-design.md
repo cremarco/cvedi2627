@@ -1005,7 +1005,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">La struttura del documento è visibile: titoli, immagini e link.</p><p>I vincoli tecnici incidono sull’impaginazione e sulla navigazione.</p></div>
-  <LessonFigure src="/images/storia-design/web-origini.webp" alt="Sito GeoCities con testo centrato, immagini, separatori e numerosi collegamenti" caption="GeoCities · esempio storico dalla Lezione 5, p. 76" />
+  <LessonFigure src="/images/storia-design/web-origini.webp" alt="Sito GeoCities con testo centrato, immagini, separatori e numerosi collegamenti" caption="GeoCities · esempio storico" />
 </div>
 
 <!--
@@ -1032,7 +1032,7 @@ lessonMinutes: 3
 
 <div class="lesson-columns">
   <div><p class="lead">Il web partecipativo si accompagna a un repertorio visivo riconoscibile.</p><p>Gradienti, ombre, bordi arrotondati e pulsanti in evidenza.</p></div>
-  <LessonFigure src="/images/storia-design/web-due.webp" alt="Homepage ICQ con pulsante di download, pannelli arrotondati e gradienti" caption="ICQ · esempio conservato nella Lezione 5, p. 79" />
+  <LessonFigure src="/images/storia-design/web-due.webp" alt="Homepage ICQ con pulsante di download, pannelli arrotondati e gradienti" caption="ICQ" />
 </div>
 
 <!--
@@ -1059,7 +1059,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Una forma digitale richiama materiali o oggetti familiari.</p><p>Bloc-notes, microfono, scaffale: l’aspetto suggerisce un possibile uso.</p></div>
-  <LessonFigure src="/images/storia-design/scheumorfismo.webp" alt="Tre schermate di iOS con bloc-notes, richiesta di download e microfono realistico" caption="Esempi iOS · Lezione 5, p. 84" />
+  <LessonFigure src="/images/storia-design/scheumorfismo.webp" alt="Tre schermate di iOS con bloc-notes, richiesta di download e microfono realistico" caption="Esempi iOS" />
 </div>
 
 <!--
@@ -1086,7 +1086,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Forme bidimensionali e gerarchie essenziali sostituiscono molti effetti realistici.</p><p>Colore, tipografia e spazio assumono un ruolo più evidente.</p></div>
-  <LessonFigure src="/images/storia-design/flat.webp" alt="Pagina di Windows Phone con grandi campiture, tipografia e immagini del prodotto" caption="Windows Phone · esempio flat dalla Lezione 5, p. 87" />
+  <LessonFigure src="/images/storia-design/flat.webp" alt="Pagina di Windows Phone con grandi campiture, tipografia e immagini del prodotto" caption="Windows Phone · esempio flat" />
 </div>
 
 <!--
@@ -1141,7 +1141,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Ombre e luci suggeriscono elementi che emergono dal fondo.</p><p>Il materiale sembra continuo; i bordi dei controlli possono diventare poco evidenti.</p></div>
-  <LessonFigure src="/images/storia-design/neumorfismo.webp" alt="Interfaccia con pannelli morbidi e ombre su fondo scuro" caption="Esempio neumorfico · Lezione 5, p. 92" />
+  <LessonFigure src="/images/storia-design/neumorfismo.webp" alt="Interfaccia con pannelli morbidi e ombre su fondo scuro" caption="Esempio neumorfico" />
 </div>
 
 <!--
@@ -1168,7 +1168,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Sfocature e trasparenze suggeriscono superfici sovrapposte.</p><p>La leggibilità dipende anche dallo sfondo dietro il testo.</p></div>
-  <LessonFigure src="/images/storia-design/vetro-ios.webp" alt="Due iPhone con pannelli semitrasparenti su uno sfondo colorato" caption="Esempio iOS · Lezione 5, p. 96" />
+  <LessonFigure src="/images/storia-design/vetro-ios.webp" alt="Due iPhone con pannelli semitrasparenti su uno sfondo colorato" caption="Esempio iOS" />
 </div>
 
 <!--
@@ -1195,7 +1195,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Ridurre gli elementi richiede una gerarchia chiara.</p><p>Spazio negativo, pochi accenti e tipografia guidano l’attenzione.</p></div>
-  <LessonFigure src="/images/storia-design/minimalismo.webp" alt="Homepage Studio Yoke con grandi scritte bianche e poche immagini su fondo nero" caption="Studio Yoke · esempio dalla Lezione 5, p. 105" />
+  <LessonFigure src="/images/storia-design/minimalismo.webp" alt="Homepage Studio Yoke con grandi scritte bianche e poche immagini su fondo nero" caption="Studio Yoke" />
 </div>
 
 <!--
@@ -1222,7 +1222,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Gradienti, effetti luminosi e caratteri futuristici richiamano gli anni Duemila.</p><p>Una tendenza può tornare con <strong>usi e significati diversi</strong>.</p></div>
-  <LessonFigure src="/images/storia-design/y2k.webp" alt="Pagina Girls Who Code Girls con logotipo futuristico ed effetti luminosi" caption="Esempio Y2K · Lezione 5, p. 108" />
+  <LessonFigure src="/images/storia-design/y2k.webp" alt="Pagina Girls Who Code Girls con logotipo futuristico ed effetti luminosi" caption="Esempio Y2K" />
 </div>
 
 <!--
@@ -1249,7 +1249,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Molti elementi possono convivere se i rapporti restano leggibili.</p><p>Colori, immagini e font creano una composizione ricca e intenzionale.</p></div>
-  <LessonFigure src="/images/storia-design/massimalismo.webp" alt="Homepage con numerosi elementi, scritte nere e accenti verdi per l’evento OneAll" caption="OneAll · esempio massimalista dalla Lezione 5, p. 113" />
+  <LessonFigure src="/images/storia-design/massimalismo.webp" alt="Homepage con numerosi elementi, scritte nere e accenti verdi per l’evento OneAll" caption="OneAll · esempio massimalista" />
 </div>
 
 <!--
@@ -1276,7 +1276,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">L’essenzialità tecnica può diventare un linguaggio visivo dichiarato.</p><p>Struttura esposta, contrasti forti e convenzioni messe in discussione.</p></div>
-  <LessonFigure src="/images/storia-design/brutalismo.webp" alt="Collage di siti essenziali con testo, finestre e impaginazioni non convenzionali" caption="Esempi dal PDF · Lezione 5, p. 119" />
+  <LessonFigure src="/images/storia-design/brutalismo.webp" alt="Collage di siti essenziali con testo, finestre e impaginazioni non convenzionali" />
 </div>
 
 <!--
@@ -1308,7 +1308,7 @@ lessonMinutes: 6
   <li><span>Quale controllo sembra attivo?</span></li>
   <li><span>Che cosa osservereste in un test?</span></li>
 </ul></div>
-  <LessonFigure src="/images/storia-design/neumorfismo-controlli.webp" alt="Tre esempi di controlli chiari in rilievo morbido su uno sfondo dello stesso colore" caption="Controlli neumorfici · Lezione 5, p. 94" />
+  <LessonFigure src="/images/storia-design/neumorfismo-controlli.webp" alt="Tre esempi di controlli chiari in rilievo morbido su uno sfondo dello stesso colore" caption="Controlli neumorfici" />
 </div>
 
 <!--
