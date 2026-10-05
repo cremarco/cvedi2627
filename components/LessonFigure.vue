@@ -49,7 +49,12 @@ function openImage(event: MouseEvent) {
     </button>
     <figcaption>
       <span v-if="caption" class="lesson-caption">{{ caption }}</span>
-      <button type="button" class="btn btn-ghost lesson-image-hint" aria-haspopup="dialog" :aria-controls="dialogId" @click="openImage">Ingrandisci</button>
+      <button type="button" class="btn btn-outline lesson-image-hint" aria-haspopup="dialog" :aria-controls="dialogId" @click="openImage">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5" />
+        </svg>
+        <span>Ingrandisci</span>
+      </button>
     </figcaption>
   </figure>
   <Teleport to="body">
