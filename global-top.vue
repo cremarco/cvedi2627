@@ -34,11 +34,16 @@ onBeforeUnmount(() => {
   reducedMotion.removeEventListener('change', finishProgress)
 })
 const gallery = computed(() => String(currentSlideRoute.value.meta.slide.frontmatter.class ?? '').includes('archive-wall-slide'))
+const lesson = computed(() => String(currentSlideRoute.value.meta.slide.frontmatter.lesson ?? ''))
 const progressWidth = computed(() => `${Math.min(100, Math.max(0, displayedPage.value / (total.value || 1) * 100))}%`)
 </script>
 
 <template>
-  <div v-show="!gallery" class="presentation-progress-rail">
+  <div v-show="!gallery" class="presentation-progress-rail" :class="{
+    'lesson-progress': !!lesson,
+    'introduction-section': lesson === 'introduzione',
+    'history-section': lesson === 'storia-design',
+  }">
     <progress
       class="progress sr-only"
       :value="displayedPage"

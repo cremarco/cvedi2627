@@ -55,8 +55,8 @@ footer: "Lezioni"
 # Indice delle lezioni
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
-  <button type="button" class="btn btn-lg index-button index-chapter-1" @click="$nav.go(5)"><span class="index-chapter-number">01</span><span>Introduzione</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-2" disabled><span class="index-chapter-number">02</span><span>Storia del graphic design e delle interfacce</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-1" @click="$nav.go('introduzione-teorica')"><span class="index-chapter-number">01</span><span>Introduzione</span></button>
+  <button type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">02</span><span>Storia del graphic design e delle interfacce</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">03</span><span>Il processo UX attraverso il Design Thinking</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">04</span><span>La metodologia Lean UX</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">05</span><span>Conclusioni</span></button>
@@ -932,6 +932,16 @@ footer: "Comunicazioni"
 <CvediCard title="Docenti" illustration="/images/flat/people.svg" illustration-variant="roomy">
   <p>Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti</p>
 </CvediCard>
+
+---
+layout: default
+src: ./lezioni/01-introduzione.md
+---
+
+---
+layout: default
+src: ./lezioni/03-storia-design.md
+---
 
 ---
 layout: default
