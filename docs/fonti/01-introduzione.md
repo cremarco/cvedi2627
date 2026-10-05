@@ -81,7 +81,7 @@ Le pagine PDF sono numerate da 1, compresa la prima pagina. Le pagine del bookle
 | 67 / 119 | 4 · Strutturare il sistema | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 9, 11–12 | Diretta | 2.25 |
 | 68 / 120 | Il wireframe organizza la schermata | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 19–26 | Diretta | 1.5 |
 | 69 / 121 | Dal foglio ai controlli | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 21–25; scopo del wireframe pp. 19–20 | Tematica | 1 |
-| 70 / 122 | Un test moderato ha tre elementi | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L08: 42–44, 52–60 | Tematica | 1.5 |
+| 70 / 122 | Un test moderato ha tre elementi | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L08: 42–44, 52–60 e 86 | Tematica | 1.5 |
 | 71 / 123 | Un obiettivo, senza suggerire il percorso | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L08: 56–58, 72–77; L04: 51–54, 59 | Tematica | 1.5 |
 | 72 / 124 | 5 · Verificare con un prototipo | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L06: 8–9; L08: 44, 48–49 | Diretta | 3 |
 | 73 / 125 | Dall’osservazione alla prossima verifica | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L06: 9; L08: 79–84 | Tematica | 1 |

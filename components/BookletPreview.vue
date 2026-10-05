@@ -79,10 +79,14 @@ function flip(direction: 'forward' | 'backward', manual = true) {
   }
   turn.value = { target, direction }
 }
-function finishTurn(event: AnimationEvent) {
-  if (event.target !== event.currentTarget || !turn.value) return
+function completeTurn() {
+  if (!turn.value) return
   index.value = turn.value.target
   turn.value = null
+}
+function finishTurn(event: AnimationEvent) {
+  if (event.target !== event.currentTarget || !turn.value) return
+  completeTurn()
   scheduleNext()
 }
 function toggleAutoplay() {
@@ -101,17 +105,18 @@ watch(isActive, (active, _previous, onCleanup) => {
 }, { immediate: true })
 watch(canAnimate, canPlay => {
   if (canPlay) scheduleNext(900)
-  else cancelAuto()
+  else {
+    cancelAuto()
+    // Print and hidden views must not depend on a pending animationend event.
+    completeTurn()
+  }
 })
 watch(prefersReducedMotion, reduced => {
   if (!reduced) return
   autoplay.value = false
   cancelAuto()
   // Reduced-motion CSS removes the animation, so finish any pending turn here.
-  if (turn.value) {
-    index.value = turn.value.target
-    turn.value = null
-  }
+  completeTurn()
 })
 </script>
 

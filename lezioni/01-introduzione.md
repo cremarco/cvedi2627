@@ -660,7 +660,7 @@ lessonMinutes: 2
 <!--
 Tempo previsto: 2 min. Slide 24 del capitolo (slide 76 del deck).
 
-Introdurre Viola come protagonista del caso didattico delle slide precedenti: manager che lavora fino a tardi e desidera un professionista a domicilio dopo le 20. La sequenza è una rielaborazione del caso, non una ricerca realmente condotta. La UX riguarda anche aspettative e servizio effettivamente ricevuto: una prenotazione facile non compensa da sola un servizio incoerente.
+Introdurre Viola come protagonista del caso didattico del materiale 2025/26: manager che lavora fino a tardi e desidera un professionista a domicilio dopo le 20. La sequenza è una rielaborazione del caso, non una ricerca realmente condotta. La UX riguarda anche aspettative e servizio effettivamente ricevuto: una prenotazione facile non compensa da sola un servizio incoerente.
 Riscontro generale: https://www.nngroup.com/articles/definition-user-experience/
 
 Booklet: p. 11, nodo 198:1785; p. 12, nodo 198:1889; p. 14, nodo 198:1929.
@@ -1859,7 +1859,7 @@ routeAlias: ux-moodboard
 <!--
 Tempo previsto: 90 s. Slide 66 del capitolo (slide 118 del deck).
 
-La moodboard è il collage di riferimenti che permette di discutere un'atmosfera prima della schermata finale. L'esempio Bobò proviene dalla lezione precedente e riguarda un altro brand, non l'app di fisioterapia. Palette, materia e tono sono osservazioni didattiche sugli elementi visibili, non informazioni verificabili sulle intenzioni dell'autore o sulla risposta del pubblico. La board raccoglie riferimenti; il mockup mostra l'organizzazione di una schermata e il benchmark confronta soluzioni. Le tre attività hanno esiti diversi e possono essere usate insieme. Una moodboard può evolvere mentre si precisano concept e vincoli.
+La moodboard è il collage di riferimenti che permette di discutere un'atmosfera prima della schermata finale. L'esempio Bobò proviene dalla lezione 04 del 2025/26 e riguarda un altro brand, non l'app di fisioterapia. Palette, materia e tono sono osservazioni didattiche sugli elementi visibili, non informazioni verificabili sulle intenzioni dell'autore o sulla risposta del pubblico. La board raccoglie riferimenti; il mockup mostra l'organizzazione di una schermata e il benchmark confronta soluzioni. Le tre attività hanno esiti diversi e possono essere usate insieme. Una moodboard può evolvere mentre si precisano concept e vincoli.
 
 Provenienza della figura: assets/introduzione/recuperi-2025/manifest.json.
 

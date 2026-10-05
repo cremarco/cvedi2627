@@ -10,16 +10,25 @@ export function useSlidePlayback() {
   const motionQuery = typeof window === 'undefined'
     ? undefined
     : window.matchMedia('(prefers-reduced-motion: reduce)')
+  // Slidev's print state covers its export route, not native browser printing.
+  const printQuery = typeof window === 'undefined'
+    ? undefined
+    : window.matchMedia('print')
   const prefersReducedMotion = ref(motionQuery?.matches ?? false)
+  const isPrinting = ref(printQuery?.matches ?? false)
   const isVisible = ref(typeof document === 'undefined' || !document.hidden)
 
   const canAnimate = computed(() =>
     isMounted.value && isActive.value && ['slide', 'presenter'].includes($renderContext.value)
-      && !isPrintMode.value && !prefersReducedMotion.value && isVisible.value,
+      && !isPrintMode.value && !isPrinting.value && !prefersReducedMotion.value && isVisible.value,
   )
 
   function syncMotion() {
     prefersReducedMotion.value = motionQuery?.matches ?? false
+  }
+
+  function syncPrint() {
+    isPrinting.value = printQuery?.matches ?? false
   }
 
   function syncVisibility() {
@@ -28,14 +37,17 @@ export function useSlidePlayback() {
 
   onMounted(() => {
     motionQuery?.addEventListener('change', syncMotion)
+    printQuery?.addEventListener('change', syncPrint)
     document.addEventListener('visibilitychange', syncVisibility)
     syncMotion()
+    syncPrint()
     syncVisibility()
     isMounted.value = true
   })
   onBeforeUnmount(() => {
     isMounted.value = false
     motionQuery?.removeEventListener('change', syncMotion)
+    printQuery?.removeEventListener('change', syncPrint)
     document.removeEventListener('visibilitychange', syncVisibility)
   })
 
