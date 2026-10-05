@@ -26,7 +26,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Percorso"
 lesson: storia-design
 lessonSlide: 2
@@ -54,7 +54,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide statement-slide
 footer: "Storia del design · Percorso"
 lesson: storia-design
 lessonSlide: 3
@@ -78,7 +78,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Percorso"
 lesson: storia-design
 lessonSlide: 4
@@ -106,7 +106,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Percorso"
 lesson: storia-design
 lessonSlide: 5
@@ -136,7 +136,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Segni e libri"
 lesson: storia-design
 lessonSlide: 6
@@ -163,7 +163,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Segni e libri"
 lesson: storia-design
 lessonSlide: 7
@@ -191,7 +191,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Segni e libri"
 lesson: storia-design
 lessonSlide: 8
@@ -218,7 +218,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Segni e libri"
 lesson: storia-design
 lessonSlide: 9
@@ -246,7 +246,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Segni e libri"
 lesson: storia-design
 lessonSlide: 10
@@ -274,7 +274,7 @@ Verifica su fonte primaria: https://blogs.loc.gov/international-collections/2021
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Segni e libri"
 lesson: storia-design
 lessonSlide: 11
@@ -303,7 +303,7 @@ Verifica su fonte primaria: https://guides.loc.gov/gutenberg/bibliography
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Segni e libri"
 lesson: storia-design
 lessonSlide: 12
@@ -330,7 +330,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Stampa e pubblico"
 lesson: storia-design
 lessonSlide: 13
@@ -358,7 +358,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Stampa e pubblico"
 lesson: storia-design
 lessonSlide: 14
@@ -386,7 +386,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Stampa e pubblico"
 lesson: storia-design
 lessonSlide: 15
@@ -414,7 +414,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Manifesti"
 lesson: storia-design
 lessonSlide: 16
@@ -443,7 +443,7 @@ Verifica su fonte primaria: https://www.metmuseum.org/essays/lithography-in-the-
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Manifesti"
 lesson: storia-design
 lessonSlide: 17
@@ -470,7 +470,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Manifesti"
 lesson: storia-design
 lessonSlide: 18
@@ -498,7 +498,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Manifesti"
 lesson: storia-design
 lessonSlide: 19
@@ -525,7 +525,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Manifesti"
 lesson: storia-design
 lessonSlide: 20
@@ -553,7 +553,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Storia del design · Manifesti"
 lesson: storia-design
 lessonSlide: 21
@@ -580,7 +580,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide lesson-activity
+class: content-slide history-section lesson-slide lesson-activity reading-slide
 footer: "Storia del design · Manifesti"
 lesson: storia-design
 lessonSlide: 22
@@ -608,7 +608,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
 lessonSlide: 23
@@ -636,7 +636,7 @@ Verifica su fonte primaria: https://bauhauskooperation.de/wissen/artikel/artikel
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
 lessonSlide: 24
@@ -663,7 +663,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
 lessonSlide: 25
@@ -691,7 +691,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
 lessonSlide: 26
@@ -719,7 +719,7 @@ Verifica su fonte primaria: https://www.moma.org/collection/works/8188
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide image-panels
 footer: "Storia del design · Novecento"
 lesson: storia-design
 lessonSlide: 27
@@ -730,7 +730,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">La sequenza delle pagine conta quanto la singola pagina.</p><p>Spazio bianco, immagini e testo costruiscono alternanza e movimento.</p></div>
-  <LessonFigure src="/images/storia-design/brodovitch.webp" alt="Tre aperture di Harper’s Bazaar con fotografie e testi disposti in modo variabile" caption="Harper’s Bazaar · pagine sotto la direzione di Alexey Brodovitch" />
+  <LessonFigure :panels="3" panel-aspect-ratio="415 / 314" src="/images/storia-design/brodovitch.webp" alt="Tre aperture di Harper’s Bazaar con fotografie e testi disposti in modo variabile" caption="Harper’s Bazaar · pagine sotto la direzione di Alexey Brodovitch" />
 </div>
 
 <!--
@@ -746,7 +746,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
 lessonSlide: 28
@@ -773,7 +773,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Dal software al web"
 lesson: storia-design
 lessonSlide: 29
@@ -801,7 +801,7 @@ Verifica su fonte primaria: https://computerhistory.org/blog/macpaint-and-quickd
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Dal software al web"
 lesson: storia-design
 lessonSlide: 30
@@ -828,7 +828,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Dal software al web"
 lesson: storia-design
 lessonSlide: 31
@@ -856,7 +856,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide statement-slide
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
 lessonSlide: 32
@@ -880,7 +880,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
 lessonSlide: 33
@@ -909,7 +909,7 @@ Verifica su fonte primaria: https://www.dougengelbart.org/mousesite/1968Demo.htm
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
 lessonSlide: 34
@@ -937,7 +937,7 @@ Verifica su fonte primaria: https://www.computerhistory.org/timeline/1973/
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
 lessonSlide: 35
@@ -966,7 +966,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide lesson-activity
+class: content-slide history-section lesson-slide lesson-activity reading-slide
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
 lessonSlide: 36
@@ -994,7 +994,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 37
@@ -1021,7 +1021,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 38
@@ -1048,7 +1048,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 39
@@ -1075,7 +1075,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 40
@@ -1102,7 +1102,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 41
@@ -1130,7 +1130,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 42
@@ -1157,7 +1157,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 43
@@ -1184,7 +1184,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 44
@@ -1211,7 +1211,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 45
@@ -1238,7 +1238,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 46
@@ -1265,7 +1265,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
 lessonSlide: 47
@@ -1293,7 +1293,7 @@ Verifica su fonte primaria: https://brutalistwebsites.com/amdouglas.uk/
 
 ---
 layout: default
-class: content-slide history-section lesson-slide lesson-activity
+class: content-slide history-section lesson-slide lesson-activity reading-slide figure-slide figure-dominant
 footer: "Storia del design · Verifica"
 lesson: storia-design
 lessonSlide: 48
@@ -1324,7 +1324,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Verifica"
 lesson: storia-design
 lessonSlide: 49
@@ -1352,7 +1352,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide history-section lesson-slide
+class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Verifica"
 lesson: storia-design
 lessonSlide: 50

@@ -48,9 +48,11 @@ pnpm export --output cvedi-2026-2027.pdf --per-slide
 
 La parete dei progetti usa tutti gli `screenshot.webp` in `progetti/`. Dodici anteprime riempiono la slide e si alternano una alla volta finché sono passati tutti i progetti; la rotazione si ferma fuori dalla slide e con la preferenza “movimento ridotto”. Dopo aver aggiunto o rimosso un progetto, eseguire `pnpm gallery`: il comando aggiorna le 76 anteprime leggere in `public/images/project-gallery/` e l'elenco in `data/projects.json` (richiede macOS per `sips`).
 
-`check` richiede il server attivo su `http://localhost:3035`. Controlla tutte le slide, numerazione, immagini, contenuti fuori margine, superfici delle card, totali dei dati e una selezione di slide nel viewport stretto. Per un altro server: `SLIDEV_URL=http://localhost:3030 pnpm check`. Per salvare anche screenshot: `SLIDEV_SCREENSHOTS=/tmp/cvedi-check pnpm check`.
+`check` richiede il server attivo su `http://localhost:3035`. Controlla tutte le slide, numerazione, immagini, contenuti fuori margine, superfici delle card, totali dei dati e una selezione di slide nel viewport stretto. Verifica anche l’allineamento dei titoli, gli ingrandimenti con mouse e tastiera, la chiusura con Esc e il ritorno del focus. Per un altro server: `SLIDEV_URL=http://localhost:3030 pnpm check`. Per salvare anche screenshot: `SLIDEV_SCREENSHOTS=/tmp/cvedi-check pnpm check`. Per una verifica indipendente dalle schede Slidev aperte, usare una build servita da un server statico.
 
 I rapporti di verifica della Lezione 3 sono in `reports/storia-design/report.json` per il server di sviluppo e `reports/storia-design-static/report.json` per la build statica: ciascuno copre 154 slide e 229 rendering, comprese 65 viste strette e 10 viste di stampa, senza errori o contenuti fuori margine.
+
+La revisione dei layout è documentata in [LAYOUTS.md](LAYOUTS.md). Le prove in `reports/layout-review/final/` comprendono 154 slide desktop, 69 viste strette, 10 viste di stampa, due viste relatore e nove ingrandimenti. Le lezioni mantengono i colori del booklet; diagrammi, schermate e poster hanno più spazio e possono essere ingranditi cliccando sull’immagine.
 
 La build è in `dist/`. L’export PDF usa `--per-slide` per sincronizzare la barra globale con ciascuna pagina. `styles/daisy-built.css` è generato: non modificarlo direttamente.
 
@@ -69,7 +71,9 @@ Nella versione pubblicata online la barra dei comandi Slidev è nascosta. La nav
 | `public/images/storia-design/` | 27 immagini WebP locali della Lezione 3, con origine nei metadati XMP e nei file JSON associati |
 | `layouts/default.vue` | Canvas comune, stato attivo e numerazione automatica |
 | `components/CvediCard.vue` | Card DaisyUI, titolo, contenuto e illustrazione opzionale |
-| `components/LessonFigure.vue` | Figure dei capitoli teorici con testo alternativo, didascalia e percorsi compatibili con la pubblicazione |
+| `components/LessonFigure.vue` | Figure complete, regioni affiancate e ingrandimento accessibile dei capitoli teorici |
+| `styles/compositions.css` | Famiglie di impaginazione, titoli stabili, confronti aperti, proporzioni delle figure e ingrandimenti |
+| `LAYOUTS.md` | Struttura scelta per tutte le 154 slide e regole per le modifiche successive |
 | `components/UxProcessMap.vue` | Mappa delle 14 fasi UX, raccolte in cinque nuclei con card del sistema esistente |
 | `components/NextMeIllustration.vue` | Illustrazioni coordinate del brief WHAT IF?, con percorsi compatibili con la pubblicazione |
 | `components/ProcessTimeline.vue` | Percorsi metro a quattro tappe per progetto e approfondimento, con etichetta accessibile specifica |

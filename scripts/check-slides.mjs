@@ -73,6 +73,12 @@ try {
     const slide = page.locator(`.slidev-page-${number} .slidev-layout`)
     await slide.waitFor()
     await page.evaluate(() => document.fonts.ready)
+    await page.waitForFunction(number => [...document.querySelectorAll(`.slidev-page-${number} img`)].every(img => img.complete && img.naturalWidth), number)
+    // A capture must show the settled slide, including outgoing player transitions.
+    await page.evaluate(async () => {
+      await Promise.all(document.getAnimations().filter(animation => Number.isFinite(animation.effect?.getComputedTiming().endTime)).map(animation => animation.finished.catch(() => {})))
+      await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))
+    })
     if (print) {
       // The player toolbar fades independently of slide transitions.
       await page.mouse.move(1, 1)
@@ -109,6 +115,11 @@ try {
       }
       const backgrounds = [...new Set([...root.querySelectorAll('.cvedi-card')].map(card => getComputedStyle(card).backgroundColor))]
       const title = root.querySelector('h1')
+      const figures = [...root.querySelectorAll('.lesson-figure img')].map(img => {
+        const rect = img.getBoundingClientRect()
+        const fit = Math.min(rect.width / img.naturalWidth, rect.height / img.naturalHeight)
+        return { src: img.getAttribute('src'), width: Math.round(rect.width / scale), height: Math.round(rect.height / scale), visibleWidth: Math.round(img.naturalWidth * fit / scale), visibleHeight: Math.round(img.naturalHeight * fit / scale), fit: getComputedStyle(img).objectFit }
+      })
       return {
         page: expected,
         title: title?.textContent.trim(),
@@ -122,6 +133,8 @@ try {
         galleryImages: root.querySelectorAll('.project-gallery img').length,
         archiveWall: root.classList.contains('archive-wall-slide'),
         projectSection: root.classList.contains('project-section'),
+        reading: root.classList.contains('reading-slide'),
+        figures,
       }
     }, number)
     assert.equal(report.headings, 1, `slide ${number}: heading`)
@@ -129,6 +142,11 @@ try {
     assert.equal(report.codeBlocks, 0, `slide ${number}: unintended code block`)
     assert.equal(report.brokenImages.length, 0, `slide ${number}: missing images`)
     assert.ok(report.backgrounds.length <= 1, `slide ${number}: inconsistent card surfaces`)
+    if (report.reading) assert.equal(report.titleTop, 64, `slide ${number}: stable reading title anchor`)
+    for (const figure of report.figures) {
+      assert.ok(figure.width > 0 && figure.height > 0, `slide ${number}: visible figure`)
+      assert.ok(['contain', 'cover'].includes(figure.fit), `slide ${number}: preserved image proportions`)
+    }
     if (number === 85) assert.equal(await slide.locator('.ux-process-map li').count(), 14, 'all fourteen UX phases are rendered')
     if (report.archiveWall) {
       assert.ok(projects.length >= 12, 'archive: enough project screenshots to cycle')
@@ -138,16 +156,51 @@ try {
     if (output) await page.screenshot({ path: `${output}/${print ? 'print-' : narrow ? 'narrow-' : ''}${number}.png` })
   }
   for (let number = 1; number <= total; number++) await inspect(number)
+  async function inspectEnlargement(number, narrow = false) {
+    await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
+    const imageButton = page.locator(`.slidev-page-${number} .lesson-image-button`).first()
+    await imageButton.focus()
+    await page.keyboard.press('Enter')
+    const dialog = page.locator('dialog[open]')
+    await dialog.waitFor()
+    await dialog.evaluate(async root => {
+      await Promise.all(root.getAnimations({ subtree: true }).map(animation => animation.finished.catch(() => {})))
+      await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))
+    })
+    assert.equal(await dialog.count(), 1, `slide ${number}: one image enlargement`)
+    const route = page.url()
+    await page.keyboard.press('ArrowRight')
+    await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))))
+    assert.equal(page.url(), route, `slide ${number}: image dialog keeps slide shortcuts out`)
+    await page.waitForFunction(() => [...document.querySelectorAll('dialog[open] img')].every(img => img.complete && img.naturalWidth))
+    const visible = await dialog.evaluate(root => {
+      const box = root.querySelector('.modal-box').getBoundingClientRect()
+      return [...root.querySelectorAll('img, header')].every(el => {
+        const rect = el.getBoundingClientRect()
+        return rect.left >= box.left && rect.right <= box.right + 1 && rect.top >= box.top && rect.bottom <= box.bottom + 1
+      })
+    })
+    assert.ok(visible, `slide ${number}: enlarged image and close action fit the viewport`)
+    if (output) await page.screenshot({ path: `${output}/${narrow ? 'narrow-' : ''}enlarged-${number}.png` })
+    await page.keyboard.press('Escape')
+    await dialog.waitFor({ state: 'hidden' })
+    assert.ok(await imageButton.evaluate(button => document.activeElement === button), `slide ${number}: closing enlargement restores keyboard focus`)
+    await imageButton.click()
+    await page.locator('dialog[open]').getByRole('button', { name: 'Chiudi', exact: true }).click()
+    assert.equal(await page.locator('dialog[open]').count(), 0, `slide ${number}: visible close action works`)
+  }
+  for (const number of [62, 90, 124, 130, 151]) await inspectEnlargement(number)
   await page.setViewportSize({ width: 636, height: 778 })
   const narrowNumbers = new Set([
     2, 3, 4, 8, 12, 19,
     // Chapter opening, comparisons, images, six cards, process maps and activities.
-    54, 57, 60, 64, 66, 69, 75, 77, 80, 83, 85, 90, 93, 94, 97, 101, 103,
+    54, 57, 60, 62, 64, 66, 69, 72, 75, 77, 80, 83, 85, 90, 92, 93, 94, 97, 101, 103,
     // New chapter: opening, timeline, images, paired posters, cards, activities and long titles.
-    104, 105, 108, 109, 113, 115, 123, 124, 125, 126, 127, 132, 134, 137, 138, 139, 142, 145, 147, 150, 151, 153, total,
+    104, 105, 108, 109, 113, 115, 123, 124, 125, 126, 127, 130, 132, 134, 137, 138, 139, 142, 145, 147, 150, 151, 153, total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
+  for (const number of [62, 90, 130, 151]) await inspectEnlargement(number, true)
   // Check print styles without generating a PDF. Slidev's full print route
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })

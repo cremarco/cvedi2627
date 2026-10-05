@@ -5,9 +5,11 @@ defineProps<{ title: string; illustration?: string; illustrationVariant?: 'roomy
 
 <template>
   <article class="card cvedi-card" :class="{ 'cvedi-card-illustrated': illustration, 'cvedi-card-roomy': illustration && illustrationVariant === 'roomy', 'cvedi-card-compact': illustration && illustrationVariant === 'compact' }">
-    <img v-if="illustration" class="card-illustration" :src="publicAsset(illustration)" alt="" aria-hidden="true" />
     <div class="card-body">
-      <h2 class="card-title">{{ title }}</h2>
+      <div class="card-heading">
+        <h2 class="card-title">{{ title }}</h2>
+        <img v-if="illustration" class="card-illustration" :src="publicAsset(illustration)" alt="" aria-hidden="true" />
+      </div>
       <slot />
     </div>
   </article>

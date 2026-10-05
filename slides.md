@@ -48,7 +48,7 @@ footer: "Un nuovo percorso"
 
 ---
 layout: default
-class: index-slide course-section
+class: index-slide course-section reading-slide
 footer: "Lezioni"
 ---
 
@@ -64,7 +64,7 @@ footer: "Lezioni"
 
 ---
 layout: default
-class: content-slide shortcuts-slide course-section
+class: content-slide shortcuts-slide course-section reading-slide
 footer: "Navigazione"
 ---
 
@@ -126,7 +126,7 @@ class: chapter-slide course-section
 
 ---
 layout: default
-class: content-slide objectives-slide course-section
+class: content-slide objectives-slide course-section reading-slide
 footer: "Il percorso"
 ---
 
@@ -150,7 +150,7 @@ footer: "Il percorso"
 
 ---
 layout: default
-class: list-slide dense-slide course-section
+class: list-slide dense-slide course-section reading-slide
 footer: "Programma"
 ---
 
@@ -174,7 +174,7 @@ footer: "Programma"
 
 ---
 layout: default
-class: list-slide dense-slide exercises-slide course-section
+class: list-slide dense-slide exercises-slide course-section reading-slide
 footer: "Laboratorio"
 ---
 
@@ -196,7 +196,7 @@ footer: "Laboratorio"
 
 ---
 layout: default
-class: content-slide course-section
+class: content-slide course-section reading-slide
 footer: "Organizzazione"
 ---
 
@@ -221,7 +221,7 @@ footer: "Organizzazione"
 
 ---
 layout: default
-class: calendar-slide course-section
+class: calendar-slide course-section reading-slide
 footer: "2026/27"
 ---
 
@@ -231,7 +231,7 @@ footer: "2026/27"
 
 ---
 layout: default
-class: calendar-slide course-section
+class: calendar-slide course-section reading-slide
 footer: "2026/27"
 ---
 
@@ -241,7 +241,7 @@ footer: "2026/27"
 
 ---
 layout: default
-class: calendar-slide course-section
+class: calendar-slide course-section reading-slide
 footer: "2026/27"
 ---
 
@@ -260,7 +260,7 @@ footer: "Il corso"
 
 ---
 layout: default
-class: content-slide materials-slide course-section
+class: content-slide materials-slide course-section reading-slide
 footer: "Informazioni"
 ---
 
@@ -300,7 +300,7 @@ class: chapter-slide exam-section
 
 ---
 layout: default
-class: exam-slide exam-section
+class: exam-slide exam-section reading-slide
 footer: "Valutazione"
 ---
 
@@ -320,7 +320,7 @@ footer: "Valutazione"
 
 ---
 layout: default
-class: split-slide exam-section
+class: split-slide exam-section reading-slide
 footer: "Organizzazione"
 ---
 
@@ -338,7 +338,7 @@ footer: "Organizzazione"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Percorso di gruppo"
 ---
 
@@ -367,7 +367,7 @@ footer: "Percorso di gruppo"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Consegne"
 ---
 
@@ -386,7 +386,7 @@ footer: "Consegne"
 
 ---
 layout: default
-class: content-slide project-section nextme-slide nextme-intro
+class: content-slide project-section nextme-slide nextme-intro reading-slide
 footer: "WHAT IF? · Il brief"
 ---
 
@@ -412,7 +412,7 @@ Il progetto riguarda il concept, la comunicazione visiva, l’esperienza delle p
 
 ---
 layout: default
-class: content-slide project-section nextme-slide nextme-concept
+class: content-slide project-section nextme-slide nextme-concept reading-slide
 footer: "WHAT IF? · Il concept"
 ---
 
@@ -432,7 +432,7 @@ footer: "WHAT IF? · Il concept"
 
 ---
 layout: default
-class: content-slide project-section nextme-directions
+class: content-slide project-section nextme-directions reading-slide
 footer: "WHAT IF? · Direzioni da esplorare"
 ---
 
@@ -462,7 +462,7 @@ footer: "WHAT IF? · Direzioni da esplorare"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "WHAT IF? · Spunti"
 ---
 
@@ -486,7 +486,7 @@ footer: "WHAT IF? · Spunti"
 
 ---
 layout: default
-class: content-slide project-section nextme-slide nextme-website
+class: content-slide project-section nextme-slide nextme-website reading-slide
 footer: "WHAT IF? · Il sito web"
 ---
 
@@ -505,7 +505,7 @@ footer: "WHAT IF? · Il sito web"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide sequence-slide
 footer: "WHAT IF? · Funzionalità"
 ---
 
@@ -539,7 +539,7 @@ footer: "WHAT IF? · Funzionalità"
 
 ---
 layout: default
-class: list-slide project-section
+class: list-slide project-section reading-slide
 footer: "WHAT IF? · Requisiti"
 ---
 
@@ -572,7 +572,7 @@ footer: "WHAT IF? · Requisiti"
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Percorso individuale"
 ---
 
@@ -610,7 +610,7 @@ Le quattro tappe riassumono il lavoro individuale per analizzare in dettaglio un
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Percorso individuale"
 ---
 
@@ -637,7 +637,7 @@ footer: "Valutazione"
 
 ---
 layout: default
-class: list-slide dense-slide project-section
+class: list-slide dense-slide project-section reading-slide
 footer: "Temi possibili"
 ---
 
@@ -667,7 +667,7 @@ Fonte: https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-
 
 ---
 layout: default
-class: content-slide project-section
+class: content-slide project-section reading-slide
 footer: "Consegne"
 ---
 
@@ -686,7 +686,7 @@ footer: "Consegne"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Esame"
 ---
 
@@ -704,7 +704,7 @@ footer: "Esame"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Esame"
 ---
 
@@ -718,7 +718,7 @@ footer: "Esame"
 
 ---
 layout: default
-class: book-slide exam-section
+class: book-slide exam-section reading-slide
 footer: "Letture"
 ---
 
@@ -734,7 +734,7 @@ footer: "Letture"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Esame"
 ---
 
@@ -754,7 +754,7 @@ footer: "Esame"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Esame"
 ---
 
@@ -771,17 +771,18 @@ footer: "Esame"
 
 ---
 layout: default
-class: formula-slide exam-section
+class: formula-slide exam-section reading-slide
 footer: "Esame"
 ---
 
 # Votazione
 
 <p class="lead">Per superare l’esame serve una <strong>votazione sufficiente</strong> in <strong>tutte e tre le parti</strong>.</p>
-<div class="cvedi-grid two">
+<div class="cvedi-grid formula-flow">
   <CvediCard title="Primo punteggio">
     <p class="formula">(scritto + progetto / approfondimento) ÷ 2</p>
   </CvediCard>
+  <svg class="formula-connector" viewBox="0 0 40 40" fill="none" aria-hidden="true"><path d="M4 20H34M24 10L34 20L24 30" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" /></svg>
   <CvediCard title="Voto finale">
     <p class="formula">(primo punteggio + orale) ÷ 2</p>
   </CvediCard>
@@ -789,7 +790,7 @@ footer: "Esame"
 
 ---
 layout: default
-class: content-slide exam-section
+class: content-slide exam-section reading-slide
 footer: "Appelli"
 ---
 
@@ -807,7 +808,7 @@ footer: "Appelli"
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · progetto e approfondimento"
 ---
 
@@ -822,7 +823,7 @@ Un voto per matricola in ogni registro; i valori sopra 30 sono nella fascia “3
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · orale"
 ---
 
@@ -837,7 +838,7 @@ Un voto per matricola in ogni registro; i valori sopra 30 sono nella fascia “3
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · scritto"
 ---
 
@@ -853,7 +854,7 @@ i valori sopra 30 sono nella fascia “30 o più”.
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · voto finale"
 ---
 
@@ -869,7 +870,7 @@ i valori sopra 30 sono nella fascia “30 o più”.
 
 ---
 layout: default
-class: grade-slide history-section
+class: grade-slide history-section reading-slide
 footer: "Dati storici · voto finale"
 ---
 
@@ -922,7 +923,7 @@ footer: "Confronto"
 
 ---
 layout: default
-class: content-slide archive-section
+class: content-slide archive-section reading-slide
 footer: "Comunicazioni"
 ---
 

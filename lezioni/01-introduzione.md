@@ -26,7 +26,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 2
@@ -54,7 +54,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 3
@@ -82,7 +82,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide statement-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 4
@@ -106,7 +106,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 5
@@ -135,7 +135,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 6
@@ -163,7 +163,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 7
@@ -190,7 +190,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 8
@@ -218,7 +218,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 9
@@ -229,7 +229,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <div><p class="lead">Una moneta unisce <strong>uso, immagine e identità</strong>.</p><p>Simboli e composizione rendono riconoscibile un oggetto destinato alla circolazione.</p></div>
-  <LessonFigure src="/images/introduzione/moneta-atene.webp" alt="Dritto e rovescio di una moneta ateniese, con un volto e una civetta" caption="La moneta ateniese riprodotta nel booklet" />
+  <LessonFigure :panels="2" panel-aspect-ratio="736 / 700" src="/images/introduzione/moneta-atene.webp" alt="Dritto e rovescio di una moneta ateniese, con un volto e una civetta" caption="La moneta ateniese riprodotta nel booklet" />
 </div>
 
 <!--
@@ -245,7 +245,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 10
@@ -274,7 +274,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 11
@@ -305,7 +305,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 12
@@ -333,7 +333,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide lesson-activity
+class: content-slide introduction-section lesson-slide lesson-activity reading-slide figure-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 13
@@ -364,7 +364,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide statement-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 14
@@ -388,7 +388,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 15
@@ -416,7 +416,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 16
@@ -447,7 +447,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 17
@@ -474,7 +474,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 18
@@ -501,7 +501,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 19
@@ -529,7 +529,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 20
@@ -556,7 +556,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide statement-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 21
@@ -581,7 +581,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 22
@@ -606,7 +606,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 23
@@ -634,7 +634,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 24
@@ -658,7 +658,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 25
@@ -686,7 +686,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 26
@@ -717,7 +717,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 27
@@ -744,7 +744,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 28
@@ -771,7 +771,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 29
@@ -799,7 +799,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide lesson-activity
+class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 30
@@ -827,7 +827,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 31
@@ -855,7 +855,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 32
@@ -879,7 +879,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 33
@@ -907,7 +907,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 34
@@ -935,7 +935,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 35
@@ -963,7 +963,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 36
@@ -991,7 +991,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 37
@@ -1018,7 +1018,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 38
@@ -1046,7 +1046,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 39
@@ -1073,7 +1073,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 40
@@ -1104,7 +1104,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide lesson-activity
+class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 41
@@ -1133,7 +1133,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
 lessonSlide: 42
@@ -1161,7 +1161,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide statement-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
 lessonSlide: 43
@@ -1185,7 +1185,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
 lessonSlide: 44
@@ -1210,7 +1210,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
 lessonSlide: 45
@@ -1238,7 +1238,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
 lessonSlide: 46
@@ -1267,7 +1267,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
 lessonSlide: 47
@@ -1295,7 +1295,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
 lessonSlide: 48
@@ -1319,7 +1319,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide
+class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Sintesi"
 lesson: introduzione
 lessonSlide: 49
@@ -1347,7 +1347,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide lesson-activity
+class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · Sintesi"
 lesson: introduzione
 lessonSlide: 50
