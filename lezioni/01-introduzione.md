@@ -1329,13 +1329,15 @@ lessonMinutes: 3
 
 <div class="lesson-columns">
   <div><p class="lead">Mettere in relazione <strong>azioni, pensieri, emozioni e punti di contatto</strong>.</p><p>La customer journey descrive l’esperienza; lo user flow dettaglia un percorso nel sistema.</p></div>
-  <LessonFigure src="/images/introduzione/customer-journey.webp" alt="Customer journey originale con fasi, touchpoint e andamento dell’esperienza" caption="Esempio di customer journey" />
+  <LessonFigure src="/images/generated/customer-journey/journey-v1.png" alt="Customer journey illustrativa di una prenotazione aerea: preparare, cercare, scegliere, pagare e confermare. Azioni, punti di contatto, pensieri e opportunità per ogni fase; l’entusiasmo iniziale lascia spazio a confusione e tensione, poi al sollievo della conferma." caption="Customer journey · prenotare un volo" />
 </div>
 
 <!--
 Tempo previsto: 3 min. Slide 49 del capitolo (slide 101 del deck).
 
-Distinguere journey e user flow: la prima amplia lo sguardo alle fasi e ai punti di contatto; il secondo rende esplicite azioni e decisioni nel prodotto. L’immagine della lezione 4 illustra lo strumento; non contiene i dati di Viola. Nel caso, ricostruire oralmente ricerca del servizio, scelta e prima prenotazione, indicando dove potrebbero emergere dubbi e opportunità. Non leggere il piccolo testo della figura: usare la sua struttura come esempio.
+Distinguere journey e user flow: la prima amplia lo sguardo alle fasi e ai punti di contatto; il secondo rende esplicite azioni e decisioni nel prodotto. La figura rielabora in italiano l’esempio di prenotazione aerea della lezione 4, raggruppando le nove microfasi in cinque fasi. È un esempio didattico illustrativo: la curva delle emozioni non rappresenta dati di ricerca e non descrive Viola. Leggere una colonna per mostrare la relazione tra azione, punto di contatto, pensiero, emozione e opportunità. Per il caso di fisioterapia, ricostruire oralmente ricerca del servizio, scelta e prima prenotazione, indicando dove potrebbero emergere dubbi e opportunità.
+
+Illustrazione generata con imagegen; prompt e riferimenti in assets/customer-journey/manifest.json. L’originale è conservato in public/images/introduzione/customer-journey.webp.
 
 Booklet: p. 14, nodo 198:1929.
 PDF 2025/26: Lezione 04, pp. 54, 71–75.

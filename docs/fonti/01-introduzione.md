@@ -90,11 +90,12 @@ Gli asset sono salvati in `public/images/introduzione/`. I file sono stati estra
 | porte.webp | L03 p. 7, prima immagine | Slide 13 / 65 |
 | scala.webp | L03 p. 9, seconda immagine | Riferimento della precedente revisione; sostituito dai JPEG originali nelle slide 27–39 / 79–91 |
 | menu-paesi.webp | L03 p. 18, seconda immagine | Slide 40 / 92 |
-| customer-journey.webp | L04 p. 74, prima immagine | Slide 49 / 101 |
+| customer-journey.webp | L04 p. 74, prima immagine | Originale conservato come riferimento della slide 49 / 101 |
+| ../generated/customer-journey/journey-v1.png | Rielaborazione illustrativa generata con imagegen a partire da L04 p. 74; cinque fasi in italiano. Prompt e riferimenti in `assets/customer-journey/manifest.json` | Slide 49 / 101 |
 | architettura-informazione.webp | L05 p. 11, prima immagine | Slide 51 / 103 |
 | wireframe.webp | L05 p. 26, prima immagine | Slide 52 / 104 |
 
-I diagrammi UX/UI e dei processi sono ridisegnati come elementi accessibili con i token del deck. Conservano le relazioni concettuali delle fonti. L’immagine di journey e la sitemap sono esempi generali: non rappresentano risultati di ricerca sull’app dei fisioterapisti.
+I diagrammi UX/UI e dei processi sono ridisegnati come elementi accessibili con i token del deck. Conservano le relazioni concettuali delle fonti. La customer journey della slide 101 raggruppa le nove microfasi dell’originale in cinque fasi: preparare, cercare, scegliere, pagare e confermare. Mantiene la matrice di azioni, punti di contatto e pensieri, la curva qualitativa delle emozioni e le opportunità; i testi sono sintetizzati in italiano e lo stile riprende petrolio, arancio e illustrazioni in carta della presentazione. Journey e sitemap sono esempi generali: non rappresentano risultati di ricerca sull’app dei fisioterapisti.
 
 ## Verifiche editoriali
 
