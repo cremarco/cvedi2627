@@ -1,8 +1,8 @@
 # CVeDI 2026/27 · Slidev
 
-Presentazione di **165 slide**, ricostruita dalla [lezione introduttiva CVeDI](https://docs.google.com/presentation/d/1caK7BBFHEfVcSZTLqgjCA0fV9BYIa9H4aLXxnLJP_W4/edit) con lo stile del [Manuale booklet](https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-id=198-1687) e ampliata con i capitoli teorici Introduzione e Storia del design (Lezione 3).
+Presentazione di **167 slide**, ricostruita dalla [lezione introduttiva CVeDI](https://docs.google.com/presentation/d/1caK7BBFHEfVcSZTLqgjCA0fV9BYIa9H4aLXxnLJP_W4/edit) con lo stile del [Manuale booklet](https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-id=198-1687) e ampliata con i capitoli teorici Introduzione e Storia del design (Lezione 3).
 
-Il numero nel footer e la barra di avanzamento sono riferiti al singolo set di slide: 53 per Presentazione del corso (compresa la chiusura finale), 62 per Introduzione e 50 per Storia del design. Il campo `lesson` raggruppa le slide teoriche; quelle senza questo campo appartengono alla Presentazione del corso. I totali e la posizione vengono calcolati automaticamente; gli URL Slidev conservano la numerazione complessiva.
+Il numero nel footer e la barra di avanzamento sono riferiti al singolo set di slide: 53 per Presentazione del corso (compresa la chiusura finale), 64 per Introduzione e 50 per Storia del design. Il campo `lesson` raggruppa le slide teoriche; quelle senza questo campo appartengono alla Presentazione del corso. I totali e la posizione vengono calcolati automaticamente; gli URL Slidev conservano la numerazione complessiva.
 
 ## Pubblicazione
 
@@ -40,7 +40,7 @@ Lo script avvia Slidev e aggiorna il CSS Tailwind/daisyUI quando cambiano slide 
 
 Il capitolo Introduzione si apre alla [slide 53](http://localhost:3035/#/53); le note del relatore sono nella [vista presenter](http://localhost:3035/#/presenter/53).
 
-La Lezione 3, Storia del design, si apre alla [slide 115](http://localhost:3035/#/115); le note del relatore sono nella [vista presenter](http://localhost:3035/#/presenter/115).
+La Lezione 3, Storia del design, si apre alla [slide 117](http://localhost:3035/#/117); le note del relatore sono nella [vista presenter](http://localhost:3035/#/presenter/117).
 
 ```sh
 pnpm build
@@ -51,7 +51,7 @@ pnpm export --output cvedi-2026-2027.pdf
 
 La parete dei progetti usa tutti gli `screenshot.webp` in `progetti/`. Dodici anteprime riempiono la slide e si alternano una alla volta finché sono passati tutti i progetti; la rotazione si ferma fuori dalla slide e con la preferenza “movimento ridotto”. Dopo aver aggiunto o rimosso un progetto, eseguire `pnpm gallery`: il comando aggiorna le 76 anteprime leggere in `public/images/project-gallery/` e l'elenco in `data/projects.json` (richiede macOS per `sips`).
 
-`check:source` verifica senza browser o server la struttura dei capitoli, le note, gli alias, i dati aggregati, i 13 esempi UX, le pagine del booklet e tutti i percorsi immagine locali. La stessa verifica precede la build su GitHub Actions.
+`check:source` verifica senza browser o server la struttura dei capitoli, le note, gli alias, i dati aggregati, i 15 esempi UX, le pagine del booklet e tutti i percorsi immagine locali. La stessa verifica precede la build su GitHub Actions.
 
 `check` richiede il server attivo su `http://localhost:3035`. Controlla tutte le slide, numerazione, immagini, contenuti fuori margine, superfici delle card, totali dei dati e una selezione di slide nel viewport stretto. Verifica anche l’allineamento dei titoli, gli ingrandimenti con mouse e tastiera, la chiusura con Esc e il ritorno del focus. Per un altro server: `SLIDEV_URL=http://localhost:3030 pnpm check`. Per salvare anche screenshot: `SLIDEV_SCREENSHOTS=/tmp/cvedi-check pnpm check`. Per una verifica indipendente dalle schede Slidev aperte, usare una build servita da un server statico.
 
@@ -97,7 +97,7 @@ Gli script si eseguono dalla radice del repository. [Guida agli strumenti](scrip
 | File o cartella | Responsabilità |
 | --- | --- |
 | `slides.md` | Testi, ordine, classe visiva e label del footer |
-| `lezioni/01-introduzione.md` | 62 slide del capitolo teorico Introduzione, tempi e note del relatore; importato da `slides.md` dopo Contatti |
+| `lezioni/01-introduzione.md` | 64 slide del capitolo teorico Introduzione, tempi e note del relatore; importato da `slides.md` dopo Contatti |
 | `docs/fonti/01-introduzione.md` | Corrispondenze con booklet e PDF, provenienza delle immagini e verifiche editoriali |
 | `public/images/introduzione/` | Immagini locali del capitolo e degli esempi UX; provenienza nei manifest e nei metadati associati |
 | `lezioni/03-storia-design.md` | 50 slide della Lezione 3, Storia del design, tempi e note del relatore; importato da `slides.md` dopo Introduzione e prima della chiusura |
@@ -116,7 +116,7 @@ Gli script si eseguono dalla radice del repository. [Guida agli strumenti](scrip
 | `public/images/booklet/preview/` | Dieci pagine WebP senza perdita per l’anteprima sfogliabile della slide 39 |
 | `styles/booklet.css` | Libro a doppia pagina, rotazione sul dorso, comandi di consultazione e pausa, movimento ridotto e stampa |
 | `styles/compositions.css` | Famiglie di impaginazione, titoli stabili, confronti aperti, proporzioni delle figure e ingrandimenti |
-| `docs/layouts.md` | Struttura scelta per tutte le 165 slide e regole per le modifiche successive |
+| `docs/layouts.md` | Struttura scelta per tutte le 167 slide e regole per le modifiche successive |
 | `components/UxProcessMap.vue` | Mappa delle 14 fasi UX, raccolte in cinque stazioni illustrate con testo nativo |
 | `components/NextMeIllustration.vue` | Illustrazioni coordinate del brief WHAT IF?, con percorsi compatibili con la pubblicazione |
 | `components/ProcessTimeline.vue` | Percorsi metro a quattro tappe per progetto e approfondimento, con etichetta accessibile specifica |
@@ -182,7 +182,7 @@ Dopo una modifica, eseguire `pnpm check:source` e `pnpm build`; per layout o int
 
 - [design.md](docs/design.md): palette e regole visive.
 - [dati.md](docs/dati.md): fonti e metodo di aggregazione dei voti.
-- [Mappa delle fonti di Introduzione](docs/fonti/01-introduzione.md): corrispondenze per tutte le 62 slide, riferimenti Figma e pagine dei PDF 2025/26 conservati in `materiali/lezioni/2025-2026/`.
+- [Mappa delle fonti di Introduzione](docs/fonti/01-introduzione.md): corrispondenze per tutte le 64 slide, riferimenti Figma e pagine dei PDF 2025/26 conservati in `materiali/lezioni/2025-2026/`.
 - [Mappa delle fonti di Storia del design](docs/fonti/03-storia-design.md): corrispondenze per tutte le 50 slide della Lezione 3 con il [capitolo C02 del booklet](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=204-8292), riferimenti alle pagine dei PDF 2025/26 e provenienza delle 27 immagini.
 - [Calendario CVeDI 2026/27](https://docs.google.com/spreadsheets/d/1QVVpKXtLz6C3KHJSRF7iA4GvdZtmf0rauWHFnpqt8Vo/edit): fonte del calendario; include incontri annullati, 35 ore di lezione e 36 di esercitazione.
 - `assets/slide-source/`: immagini della presentazione originale.
@@ -191,8 +191,8 @@ Le slide 24–30 contengono il brief **WHAT IF?** per il 2026/27: inventare un�
 
 Le lezioni adottano i colori del rispettivo capitolo del booklet: Introduzione (C01) usa il verde petrolio `#00786f`, Storia del design (C02) il rosa `#c6005c`. Titoli, aperture, card, diagrammi, indice e avanzamento condividono la stessa palette di capitolo, con superfici neutre `#f9fafb`.
 
-Il capitolo teorico Introduzione occupa le slide 53–114 e prevede 120 minuti, incluse le attività e la discussione. Gli esempi di UX oltre lo schermo occupano 13 slide consecutive (27–39 del capitolo, 79–91 del deck): una fotografia, una descrizione e una domanda per pagina, con la navigazione nativa della presentazione. Segue Contatti e precede Storia del design; la chiusura del deck è alla slide 165. Le note contengono tempi, indicazioni didattiche e fonti; la mappa delle fonti documenta anche gli esempi originali e la provenienza delle immagini.
+Il capitolo teorico Introduzione occupa le slide 53–116 e prevede 120 minuti, incluse le attività e la discussione. Gli esempi di UX oltre lo schermo occupano 15 slide consecutive (27–41 del capitolo, 79–93 del deck): una fotografia, una descrizione e una domanda per pagina, con la navigazione nativa della presentazione. Segue Contatti e precede Storia del design; la chiusura del deck è alla slide 167. Le note contengono tempi, indicazioni didattiche e fonti; la mappa delle fonti documenta anche gli esempi originali e la provenienza delle immagini.
 
-La Lezione 3, Storia del design, occupa le slide 115–164 e prevede 120 minuti, incluse le tre attività alle slide 22, 36 e 48 del capitolo (136, 150 e 162 del deck). Rielabora il capitolo C02 del booklet e i PDF 2025/26: “Lezione 3” è il nome didattico, e corrisponde alla voce 03 dell’indice. Le 27 immagini WebP in `public/images/storia-design/` provengono da Figma (16) e dai PDF (11); origine e trasformazioni sono documentate nei metadati XMP, nei file JSON associati e nella mappa delle fonti.
+La Lezione 3, Storia del design, occupa le slide 117–166 e prevede 120 minuti, incluse le tre attività alle slide 22, 36 e 48 del capitolo (138, 152 e 164 del deck). Rielabora il capitolo C02 del booklet e i PDF 2025/26: “Lezione 3” è il nome didattico, e corrisponde alla voce 03 dell’indice. Le 27 immagini WebP in `public/images/storia-design/` provengono da Figma (16) e dai PDF (11); origine e trasformazioni sono documentate nei metadati XMP, nei file JSON associati e nella mappa delle fonti.
 
-Appelli e scadenze non confermati restano esplicitamente indicati. Dopo la copertina, la slide 2 presenta il rinnovamento dei materiali e invita a segnalare eventuali errori nel forum del corso. Nell’indice delle lezioni sono attivi “01 Presentazione del corso”, in indaco e collegato alla slide 7, “02 Introduzione a UX e UI”, collegato all’alias `introduzione-teorica` (slide 53), e “03 Storia del graphic design e delle interfacce”, collegato all’alias `storia-design` (slide 115); gli altri tre pulsanti restano disabilitati. Le sei voci sono disposte su tre righe a due colonne.
+Appelli e scadenze non confermati restano esplicitamente indicati. Dopo la copertina, la slide 2 presenta il rinnovamento dei materiali e invita a segnalare eventuali errori nel forum del corso. Nell’indice delle lezioni sono attivi “01 Presentazione del corso”, in indaco e collegato alla slide 7, “02 Introduzione a UX e UI”, collegato all’alias `introduzione-teorica` (slide 53), e “03 Storia del graphic design e delle interfacce”, collegato all’alias `storia-design` (slide 117); gli altri tre pulsanti restano disabilitati. Le sei voci sono disposte su tre righe a due colonne.

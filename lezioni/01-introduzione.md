@@ -585,7 +585,7 @@ class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 22
-lessonMinutes: 3
+lessonMinutes: 2.5
 ---
 
 # L’esperienza attraversa il servizio
@@ -593,7 +593,7 @@ lessonMinutes: 3
 <p class="lead">Per Viola, prenotare una visita è solo una parte dell’esperienza.</p><ol class="steps steps-horizontal lesson-steps"><li class="step step-primary" data-content="1">Scoprire<span>Il servizio risponde al bisogno?</span></li><li class="step step-primary" data-content="2">Prenotare<span>Capisco disponibilità e condizioni?</span></li><li class="step step-primary" data-content="3">Ricevere<span>Il servizio mantiene la promessa?</span></li></ol><p class="aside">Aspettative, uso e risultato contribuiscono al giudizio complessivo.</p>
 
 <!--
-Tempo previsto: 3 min. Slide 22 del capitolo (slide 74 del deck).
+Tempo previsto: 2.5 min. Slide 22 del capitolo (slide 74 del deck).
 
 Introdurre Viola come protagonista del caso didattico delle slide precedenti: manager che lavora fino a tardi e desidera un professionista a domicilio dopo le 20. La sequenza è una rielaborazione del caso, non una ricerca realmente condotta. La UX riguarda anche aspettative e servizio effettivamente ricevuto: una prenotazione facile non compensa da sola un servizio incoerente.
 Riscontro generale: https://www.nngroup.com/articles/definition-user-experience/
@@ -691,7 +691,7 @@ class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
 lessonSlide: 26
-lessonMinutes: 2
+lessonMinutes: 1.5
 ---
 
 # La qualità dell’esperienza
@@ -706,7 +706,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 26 del capitolo (slide 78 del deck).
+Tempo previsto: 1.5 min. Slide 26 del capitolo (slide 78 del deck).
 
 Riprendere i fattori della pagina 11 del booklet. L’accessibilità è una dimensione progettuale da considerare fin dall’inizio; qui non si introducono standard o verifiche di conformità, che appartengono ad altri approfondimenti. Emozioni e aspettative dipendono dall’esperienza personale e dal contesto: una singola scelta grafica non garantisce una UX positiva.
 
@@ -1015,10 +1015,68 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
 lessonSlide: 38
+lessonMinutes: 0.75
+exampleId: fornelli-mapping
+routeAlias: ux-fornelli
+---
+
+# Quale manopola accende quel fornello?
+
+<UxExampleSlide example-id="fornelli-mapping" />
+
+<!--
+Tempo previsto: 45 s. Slide 38 del capitolo (slide 90 del deck).
+
+Confrontare la fila di manopole con la disposizione che riprende la geometria dei fornelli. Quale relazione spaziale aiuta a scegliere il comando?
+
+Fonte: Katie Sherwin, Nielsen Norman Group, 14 ottobre 2018, https://www.nngroup.com/articles/natural-mappings/.
+Provenienza delle immagini: assets/introduzione/ux-examples/manifest.json. Fotografia conservata senza ritagli o deformazioni.
+
+Booklet: p. 10, nodo 198:1980; p. 11, nodo 198:1785.
+PDF 2025/26: nessuna corrispondenza diretta; esempio aggiunto da una fonte esterna.
+Corrispondenza: tematica / rielaborazione didattica.
+Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980
+-->
+
+---
+layout: default
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant ux-examples-slide
+footer: "Introduzione · UX oltre lo schermo"
+lesson: introduzione
+lessonSlide: 39
+lessonMinutes: 0.75
+exampleId: biglietteria-tasti
+routeAlias: ux-biglietteria
+---
+
+# Premi 1, compare 6
+
+<UxExampleSlide example-id="biglietteria-tasti" />
+
+<!--
+Tempo previsto: 45 s. Slide 39 del capitolo (slide 91 del deck).
+
+Sherwin racconta che il tasto fisico 1, nella colonna destra, inserisce 6 sullo schermo. Separare l’etichetta del comando dalla cifra richiesta obbliga a una traduzione mentale.
+
+Fonte: Katie Sherwin, Nielsen Norman Group, 14 ottobre 2018, https://www.nngroup.com/articles/natural-mappings/.
+Provenienza delle immagini: assets/introduzione/ux-examples/manifest.json. Fotografia conservata senza ritagli o deformazioni.
+
+Booklet: p. 10, nodo 198:1980; p. 11, nodo 198:1785.
+PDF 2025/26: nessuna corrispondenza diretta; esempio aggiunto da una fonte esterna.
+Corrispondenza: tematica / rielaborazione didattica.
+Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980
+-->
+
+---
+layout: default
+class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
+footer: "Introduzione · UX oltre lo schermo"
+lesson: introduzione
+lessonSlide: 40
 lessonMinutes: 0.75
 exampleId: oxo-pelapatate
 ---
@@ -1028,7 +1086,7 @@ exampleId: oxo-pelapatate
 <UxExampleSlide example-id="oxo-pelapatate" />
 
 <!--
-Tempo previsto: 45 s. Slide 38 del capitolo (slide 90 del deck).
+Tempo previsto: 45 s. Slide 40 del capitolo (slide 92 del deck).
 
 Osservare un esempio alla volta. Che cosa cambia quando progetti l’impugnatura, oltre alla lama? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1046,7 +1104,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 39
+lessonSlide: 41
 lessonMinutes: 0.75
 exampleId: lego-separatore
 ---
@@ -1056,7 +1114,7 @@ exampleId: lego-separatore
 <UxExampleSlide example-id="lego-separatore" />
 
 <!--
-Tempo previsto: 45 s. Slide 39 del capitolo (slide 91 del deck).
+Tempo previsto: 45 s. Slide 41 del capitolo (slide 93 del deck).
 
 Osservare un esempio alla volta. Il progetto considera anche il gesto di disfare e ricominciare? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1074,7 +1132,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 40
+lessonSlide: 42
 lessonMinutes: 2
 ---
 
@@ -1086,7 +1144,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 40 del capitolo (slide 92 del deck).
+Tempo previsto: 2 min. Slide 42 del capitolo (slide 94 del deck).
 
 Usare lo screenshot originale come oggetto di osservazione. Non affermare che il servizio attuale presenti ancora il problema né attribuire performance misurate. Invitare a guardare ordine delle voci, ampiezza della lista e ruolo del campo nel compito. La difficoltà è una possibile ipotesi da verificare con utenti e compiti definiti, non una conclusione ottenuta soltanto dall’estetica.
 
@@ -1101,8 +1159,8 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 41
-lessonMinutes: 2
+lessonSlide: 43
+lessonMinutes: 1.5
 ---
 
 # Che cosa fa lo UX designer?
@@ -1114,7 +1172,7 @@ lessonMinutes: 2
 </div><p class="aside">Collabora con specialisti di ricerca, grafica, sviluppo e prodotto e con le parti interessate.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 41 del capitolo (slide 93 del deck).
+Tempo previsto: 1.5 min. Slide 43 del capitolo (slide 95 del deck).
 
 Il booklet e la lezione 3 definiscono lo UX designer attraverso la soluzione di problemi concreti, non l’espressione libera di una preferenza personale. Analisi, empatia e creatività si combinano. Esplicitare la natura multidisciplinare: il progetto coinvolge persone con competenze e responsabilità differenti. Nei team piccoli le attività possono essere distribuite diversamente; i titoli professionali non sostituiscono il lavoro da svolgere.
 
@@ -1129,7 +1187,7 @@ layout: default
 class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 42
+lessonSlide: 44
 lessonMinutes: 4
 ---
 
@@ -1142,7 +1200,7 @@ lessonMinutes: 4
 </div><p class="aside">Quale aspetto emerge in ogni caso? Spiegate anche come gli aspetti sono collegati.</p>
 
 <!--
-Tempo previsto: 4 min. Slide 42 del capitolo (slide 94 del deck).
+Tempo previsto: 4 min. Slide 44 del capitolo (slide 96 del deck).
 
 Seconda attività: due minuti in coppia e due di restituzione. Risposte attese: A riguarda una decisione UI che può influire sull’usabilità; B descrive un problema di usabilità con conseguenze sulla UX; C riguarda l’esperienza del servizio oltre lo schermo. Non valutare le categorie come caselle esclusive: accettare risposte motivate e far esplicitare il rapporto parte/insieme. I casi riprendono gli esempi già mostrati e il problema del pulsante nella lezione 6.
 
@@ -1157,7 +1215,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 43
+lessonSlide: 45
 lessonMinutes: 2
 ---
 
@@ -1170,7 +1228,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 43 del capitolo (slide 95 del deck).
+Tempo previsto: 2 min. Slide 45 del capitolo (slide 97 del deck).
 
 Il booklet e la lezione 3 concordano sulla natura iterativa e adattabile del processo. Il lavoro varia con natura del prodotto, obiettivi del committente, risorse e utenti. La mappa successiva organizza attività ricorrenti: non impone una sequenza irreversibile. Una verifica può far tornare alla ricerca o alla definizione del problema, non soltanto cambiare un pulsante.
 
@@ -1185,7 +1243,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 44
+lessonSlide: 46
 lessonMinutes: 2.5
 ---
 
@@ -1194,7 +1252,7 @@ lessonMinutes: 2.5
 <UxProcessMap />
 
 <!--
-Tempo previsto: 150 s. Slide 44 del capitolo (slide 96 del deck).
+Tempo previsto: 150 s. Slide 46 del capitolo (slide 98 del deck).
 
 Leggere prima i cinque nuclei e poi le attività contenute. Nel nucleo 5, il primo elemento comprende prototipazione low-fidelity e test di usabilità: resta una singola fase, come nell’elenco del booklet. Il numero totale è 14, ripartito 3+3+2+2+4. La numerazione è un riferimento alla mappa del corso, non una prescrizione lineare. Le lezioni 4–6 riprendono lo stesso elenco.
 
@@ -1209,7 +1267,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 45
+lessonSlide: 47
 lessonMinutes: 2
 ---
 
@@ -1222,7 +1280,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 45 del capitolo (slide 97 del deck).
+Tempo previsto: 2 min. Slide 47 del capitolo (slide 99 del deck).
 
 Riprendere il caso originale della lezione 4. Carlo e Giovanni sono committenti di un esempio didattico, non clienti reali documentati. Il primo lavoro consiste nel capire visione, conoscenza del target e competenza nel settore. Evitare di iniziare dalle schermate: l’app richiesta è una possibile soluzione, il problema deve ancora essere chiarito.
 
@@ -1237,7 +1295,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 46
+lessonSlide: 48
 lessonMinutes: 3
 ---
 
@@ -1250,7 +1308,7 @@ lessonMinutes: 3
 </div><p class="aside">Un’app per un centro di fisioterapia e una piattaforma di intermediazione richiedono scelte diverse.</p>
 
 <!--
-Tempo previsto: 3 min. Slide 46 del capitolo (slide 98 del deck).
+Tempo previsto: 3 min. Slide 48 del capitolo (slide 100 del deck).
 
 Il caso originale propone due obiettivi diversi: uno strumento per un centro di fisioterapia oppure un servizio che guadagna dalle prestazioni. Non equivalgono per modello operativo e target. L’analisi dei competitor serve a capire il contesto e le alternative, non a copiare l’aspetto dei prodotti esistenti. Esito del nucleo: una comprensione condivisa del progetto e dei vincoli.
 
@@ -1265,7 +1323,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 47
+lessonSlide: 49
 lessonMinutes: 3
 ---
 
@@ -1278,7 +1336,7 @@ lessonMinutes: 3
 </div><p class="aside">Le evidenze possono cambiare sia il problema sia il pubblico inizialmente ipotizzato.</p>
 
 <!--
-Tempo previsto: 3 min. Slide 47 del capitolo (slide 99 del deck).
+Tempo previsto: 3 min. Slide 49 del capitolo (slide 101 del deck).
 
 Presentare le tre attività del secondo nucleo. Il problema si precisa attraverso la ricerca: non è una definizione definitiva prima di ascoltare le persone. Interviste e sondaggi sono esempi dei materiali originali, ma nessun metodo è sempre il più economico o sufficiente. Evitare di trasferire le regole rigide dei vecchi PDF sulla durata o sul tipo di domande. Le personas devono sintetizzare ricerca, non stereotipi demografici.
 
@@ -1293,7 +1351,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 48
+lessonSlide: 50
 lessonMinutes: 2
 ---
 
@@ -1306,7 +1364,7 @@ lessonMinutes: 2
 </div><p class="aside">Il profilo di Viola rende visibili obiettivi e condizioni d’uso.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 48 del capitolo (slide 100 del deck).
+Tempo previsto: 2 min. Slide 50 del capitolo (slide 102 del deck).
 
 Viola è la persona fittizia dell’esempio originale, non il risultato di una ricerca realmente svolta nel nostro progetto. Il suo bisogno deve guidare decisioni concrete: disponibilità degli orari, servizio a domicilio e percorso di prenotazione. In un progetto reale, queste caratteristiche dovrebbero trovare riscontro nei dati. L’età da sola non spiega il comportamento.
 
@@ -1321,7 +1379,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 49
+lessonSlide: 51
 lessonMinutes: 3
 ---
 
@@ -1333,7 +1391,7 @@ lessonMinutes: 3
 </div>
 
 <!--
-Tempo previsto: 3 min. Slide 49 del capitolo (slide 101 del deck).
+Tempo previsto: 3 min. Slide 51 del capitolo (slide 103 del deck).
 
 Distinguere journey e user flow: la prima amplia lo sguardo alle fasi e ai punti di contatto; il secondo rende esplicite azioni e decisioni nel prodotto. La figura rielabora in italiano l’esempio di prenotazione aerea della lezione 4, raggruppando le nove microfasi in cinque fasi. È un esempio didattico illustrativo: la curva delle emozioni non rappresenta dati di ricerca e non descrive Viola. Leggere una colonna per mostrare la relazione tra azione, punto di contatto, pensiero, emozione e opportunità. Per il caso di fisioterapia, ricostruire oralmente ricerca del servizio, scelta e prima prenotazione, indicando dove potrebbero emergere dubbi e opportunità.
 
@@ -1350,7 +1408,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 50
+lessonSlide: 52
 lessonMinutes: 1.5
 ---
 
@@ -1363,7 +1421,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 50 del capitolo (slide 102 del deck).
+Tempo previsto: 90 s. Slide 52 del capitolo (slide 104 del deck).
 
 Il BRD conclude il terzo nucleo come documento di allineamento. La lezione 4 propone di inviare a Carlo e Giovanni un riepilogo di problema, target, concept e funzioni. Qui i gruppi sono una sintesi didattica, non uno standard di documentazione. Lo scopo è verificare comprensione e priorità condivise, non produrre un documento lungo come prova di avanzamento.
 
@@ -1378,7 +1436,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 51
+lessonSlide: 53
 lessonMinutes: 3
 ---
 
@@ -1390,7 +1448,7 @@ lessonMinutes: 3
 </div>
 
 <!--
-Tempo previsto: 3 min. Slide 51 del capitolo (slide 103 del deck).
+Tempo previsto: 3 min. Slide 53 del capitolo (slide 105 del deck).
 
 La pagina 9 della lezione 5 descrive l’alberatura da discutere con Carlo e Giovanni; la pagina 11 mostra una sitemap. Il diagramma recuperato è un esempio generale, non la sitemap della loro app. Nel caso, chiedere quali informazioni devono precedere una prenotazione. Distinguere organizzazione dei contenuti, navigazione e aspetto grafico finale. Non trasferire il testo sui prototipi della pagina 10 come definizione dell’architettura dell’informazione.
 
@@ -1405,7 +1463,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 52
+lessonSlide: 54
 lessonMinutes: 2
 ---
 
@@ -1421,7 +1479,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 52 del capitolo (slide 104 del deck).
+Tempo previsto: 2 min. Slide 54 del capitolo (slide 106 del deck).
 
 Il wireframe rappresenta l’impianto funzionale della schermata. L’esempio originale della pagina 26 rende visibili blocchi, controlli e passaggi con bassa fedeltà. Nel caso dell’app, le schermate vanno discusse prima di investire nella finitura. Non imporre le misure di griglia del vecchio PDF come standard universali. Wireframe e prototipo possono sovrapporsi: il primo descrive la struttura, il secondo permette di simulare e verificare l’interazione.
 
@@ -1436,7 +1494,7 @@ layout: default
 class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 53
+lessonSlide: 55
 lessonMinutes: 3
 ---
 
@@ -1449,7 +1507,7 @@ lessonMinutes: 3
 </div>
 
 <!--
-Tempo previsto: 3 min. Slide 53 del capitolo (slide 105 del deck).
+Tempo previsto: 3 min. Slide 55 del capitolo (slide 107 del deck).
 
 Terza attività: un minuto di ragionamento e due di confronto. I numeri provengono dall’esempio fittizio della lezione 6, non da una misura reale o da una regola sulla numerosità dei test. Risposte plausibili: etichetta, posizione, gerarchia o percorso non chiari. Il dato segnala un problema, non ne identifica automaticamente la causa. Nel test si osserva una persona mentre svolge un compito, evitando di indicarle il pulsante.
 Riscontro sul metodo: https://www.nngroup.com/articles/usability-testing-101/
@@ -1465,7 +1523,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 54
+lessonSlide: 56
 lessonMinutes: 2
 ---
 
@@ -1478,7 +1536,7 @@ lessonMinutes: 2
 </div><p class="aside">La verifica può riaprire qualsiasi decisione precedente.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 54 del capitolo (slide 106 del deck).
+Tempo previsto: 2 min. Slide 56 del capitolo (slide 108 del deck).
 
 Completare le quattro attività del quinto nucleo: prototipazione/test nella slide precedente, poi iterazioni, UI/mockup e test finale. Il mockup descrive la veste visiva; può essere inserito in un prototipo interattivo. Il booklet presenta una progressione dal prototipo alla finitura: chiarire che la verifica non smette dopo la grafica e può richiedere una nuova ricerca. Nel caso, il pulsante va corretto e il compito ripetuto.
 
@@ -1493,7 +1551,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide statement-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 55
+lessonSlide: 57
 lessonMinutes: 2
 ---
 
@@ -1502,7 +1560,7 @@ lessonMinutes: 2
 <div class="lesson-statement">Comprendere una situazione.<br>Immaginare alternative.<br>Verificarle nella pratica.</div><p class="lead">Un approccio centrato sulle persone per trasformare una condizione esistente.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 55 del capitolo (slide 107 del deck).
+Tempo previsto: 2 min. Slide 57 del capitolo (slide 109 del deck).
 
 Il booklet presenta il Design Thinking come cornice metodologica capace di tenere insieme osservazione, interpretazione, ideazione e verifica. La UX è l’orizzonte del progetto; il Design Thinking offre un modo per organizzare il lavoro. Non è l’unico approccio possibile né una formula che garantisce automaticamente buoni risultati. La collaborazione fra competenze diverse è parte del percorso.
 
@@ -1517,7 +1575,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 56
+lessonSlide: 58
 lessonMinutes: 3
 ---
 
@@ -1526,7 +1584,7 @@ lessonMinutes: 3
 <ol class="steps steps-horizontal lesson-steps"><li class="step step-primary" data-content="1">Empathize<span>Comprendere</span></li><li class="step step-primary" data-content="2">Define<span>Mettere a fuoco</span></li><li class="step step-primary" data-content="3">Ideate<span>Esplorare</span></li><li class="step step-primary" data-content="4">Prototype<span>Rendere concreto</span></li><li class="step step-primary" data-content="5">Test<span>Apprendere</span></li></ol><p class="lead">Sono momenti collegati e ripetibili: le evidenze possono farci tornare indietro.</p>
 
 <!--
-Tempo previsto: 3 min. Slide 56 del capitolo (slide 108 del deck).
+Tempo previsto: 3 min. Slide 58 del capitolo (slide 110 del deck).
 
 Usare i cinque termini del booklet, verificati sul modello descritto dal corso ME113 di Stanford. Si tratta di una versione del processo, non dell’unica formalizzazione universale. Il booklet menziona anche l’implementazione: spiegarla come traduzione e introduzione della soluzione, senza aggiungere una sesta fase alla mappa a cinque qui adottata. La disposizione orizzontale serve a leggere i nomi e non rappresenta una sequenza obbligatoria.
 Fonte primaria: https://web.stanford.edu/class/me113/d_thinking.html
@@ -1542,7 +1600,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 57
+lessonSlide: 59
 lessonMinutes: 3
 ---
 
@@ -1554,7 +1612,7 @@ lessonMinutes: 3
 </div><p class="aside">Nel caso di Viola: partire dalle condizioni della sua giornata prima di scegliere la soluzione.</p>
 
 <!--
-Tempo previsto: 3 min. Slide 57 del capitolo (slide 109 del deck).
+Tempo previsto: 3 min. Slide 59 del capitolo (slide 111 del deck).
 
 Nel caso, approfondire vincoli di tempo e aspettative invece di assumere che serva semplicemente un’app. Il passaggio alla definizione seleziona il problema su cui lavorare. Empatia non significa immaginare liberamente che cosa vuole l’utente: richiede osservazione e ascolto. Il legame con ricerca e personas è utile, ma non impone una corrispondenza uno a uno fra tutti gli strumenti UX e le cinque modalità.
 Riscontro: https://web.stanford.edu/class/me113/d_thinking.html
@@ -1570,7 +1628,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 58
+lessonSlide: 60
 lessonMinutes: 2
 ---
 
@@ -1583,7 +1641,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 58 del capitolo (slide 110 del deck).
+Tempo previsto: 2 min. Slide 60 del capitolo (slide 112 del deck).
 
 Il Design Thinking apre una fase di esplorazione. Collegarla alla domanda posta nel brief originale: la soluzione desiderata risolve davvero il problema? Non inventare nuove evidenze per il caso Viola. La scelta di un’app, di una funzione o di un flusso è un’ipotesi progettuale da confrontare con ricerca e fattibilità. La creatività è orientata da scopo e vincoli, come discusso all’inizio della lezione.
 Riscontro: https://web.stanford.edu/class/me113/d_thinking.html
@@ -1599,7 +1657,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 59
+lessonSlide: 61
 lessonMinutes: 2
 ---
 
@@ -1611,7 +1669,7 @@ lessonMinutes: 2
 </div><p class="aside">Il prototipo serve a imparare prima di investire nella soluzione completa.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 59 del capitolo (slide 111 del deck).
+Tempo previsto: 2 min. Slide 61 del capitolo (slide 113 del deck).
 
 Il booklet lega prototipazione e verifica continua. Il modello Stanford descrive il prototipo come modo di rendere tangibile un’idea e il test come occasione per apprendere. Riprendere il caso del pulsante: un test può far cambiare il controllo, il percorso o la comprensione del bisogno. La fedeltà dipende dalla domanda da verificare; non serve sempre un prototipo graficamente completo.
 Fonti: https://web.stanford.edu/class/me113/d_thinking.html e https://www.nngroup.com/articles/usability-testing-101/
@@ -1627,7 +1685,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 60
+lessonSlide: 62
 lessonMinutes: 2.5
 ---
 
@@ -1636,7 +1694,7 @@ lessonMinutes: 2.5
 <p class="lead">Condividono attenzione a <strong>persone, contesto, evidenze e iterazione</strong>.</p><div class="lesson-loop" aria-label="Comprendere, proporre, verificare e tornare a comprendere"><span>Comprendere</span><span class="loop-arrow" aria-hidden="true">→</span><span>Proporre</span><span class="loop-arrow" aria-hidden="true">→</span><span>Verificare</span><span class="loop-arrow" aria-hidden="true">↺</span></div><p class="aside">Le cinque modalità aiutano a leggere il processo UX, senza una corrispondenza rigida fra le fasi.</p>
 
 <!--
-Tempo previsto: 150 s. Slide 60 del capitolo (slide 112 del deck).
+Tempo previsto: 150 s. Slide 62 del capitolo (slide 114 del deck).
 
 Chiudere il rapporto fra le due cornici come fa il booklet: convergenza, non identità. I cinque nuclei UX raggruppano attività; le cinque modalità del Design Thinking descrivono modi di affrontare il problema. Il medesimo strumento può partecipare a più momenti. Ogni nuova evidenza può riformulare la domanda iniziale. Anticipare l’approfondimento delle fasi nelle lezioni successive.
 
@@ -1651,7 +1709,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Sintesi"
 lesson: introduzione
-lessonSlide: 61
+lessonSlide: 63
 lessonMinutes: 4
 ---
 
@@ -1664,7 +1722,7 @@ lessonMinutes: 4
 </div>
 
 <!--
-Tempo previsto: 4 min. Slide 61 del capitolo (slide 113 del deck).
+Tempo previsto: 4 min. Slide 63 del capitolo (slide 115 del deck).
 
 Usare quattro minuti per una sintesi dialogata. Per ogni idea riprendere un esempio: porta e vincoli; Viola e servizio; prototipo e pulsante. Invitare gli studenti a spiegare il collegamento anziché ripetere una definizione. Controllare che nessuno interpreti le 14 fasi come una lista da completare una sola volta.
 
@@ -1679,7 +1737,7 @@ layout: default
 class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · Sintesi"
 lesson: introduzione
-lessonSlide: 62
+lessonSlide: 64
 lessonMinutes: 6
 ---
 
@@ -1692,7 +1750,7 @@ lessonMinutes: 6
 </ul><p class="aside">Nelle prossime lezioni approfondiremo il processo e i suoi strumenti.</p>
 
 <!--
-Tempo previsto: 6 min. Slide 62 del capitolo (slide 114 del deck).
+Tempo previsto: 6 min. Slide 64 del capitolo (slide 116 del deck).
 
 Exit ticket: tre minuti di risposta individuale e tre di confronto. Accettare uno degli esempi della lezione. Criteri: relazione concreta fra scelta e bisogno; distinzione parte/insieme fra i concetti; verifica con compito, osservazione e possibile decisione da rivedere. Usare le risposte per individuare i punti da riprendere, non come nuova modalità d’esame. Terminare con il collegamento ai capitoli successivi e alla slide di chiusura.
 

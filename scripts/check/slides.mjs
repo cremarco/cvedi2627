@@ -9,7 +9,7 @@ const output = process.env.SLIDEV_SCREENSHOTS
 const pageNumber = slide => slide.index + 1
 const introductionStart = pageNumber(lesson[0])
 const historyStart = pageNumber(history[0])
-// Preserve the coverage of existing fixtures after replacing one UX slide with 13.
+// Preserve the coverage of existing fixtures after replacing one UX slide with 15.
 const previousPage = number => number > pageNumber(uxSlides[0]) ? number + uxSlides.length - 1 : number
 const uxPages = uxSlides.map(pageNumber)
 const introductionDiscussion = lesson.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
