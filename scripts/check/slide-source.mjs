@@ -18,18 +18,18 @@ export async function checkSlideSources() {
   const lesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'introduzione')
   const history = deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
-  assert.equal(total, 187, 'resolved deck: 187 slides, including imports')
+  assert.equal(total, 202, 'resolved deck: 202 slides, including imports')
   assert.equal(lesson.length, 82, 'introduction: 82 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
   assert.deepEqual(lesson.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: lesson.length }, (_, i) => i + 1), 'lesson sequence')
-  assert.equal(lesson[0].index, 52, 'introduction follows the original 52 slides')
-  assert.equal(deck.slides[51].title, 'Contatti', 'original contact slide precedes introduction')
+  assert.equal(lesson[0].index, 67, 'introduction follows the expanded course presentation')
+  assert.equal(deck.slides[lesson[0].index - 1].title, 'Contatti', 'contact slide precedes introduction')
   assert.equal(deck.slides.at(-1).title, 'Domande?', 'original closing follows the teaching chapters')
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 52, 'history: 52 slides')
-  assert.equal(course.length, 53, 'course presentation: 53 slides, including closing')
+  assert.equal(course.length, 68, 'course presentation: 68 slides, including closing')
   assert.ok(Math.abs(lessonMinutes(history) - 120) < 1e-6, 'history: 120 minutes')
   assert.deepEqual(history.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: history.length }, (_, i) => i + 1), 'history sequence')
   assert.equal(history[0].index, lesson.at(-1).index + 1, 'history immediately follows introduction')
@@ -58,6 +58,20 @@ export async function checkSlideSources() {
   }
   await checkSourceMap('01-introduzione.md', lesson)
   await checkSourceMap('03-storia-design.md', history)
+  const brief = deck.slides.filter(slide => slide.frontmatter.briefStep)
+  assert.equal(brief.length, 15, 'project brief: fifteen operational slides')
+  assert.deepEqual(brief.map(slide => slide.frontmatter.briefStep), Array.from({ length: 15 }, (_, i) => i + 1), 'project brief sequence')
+  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 15 }, (_, i) => 30 + i), 'project brief follows WHAT IF requirements')
+  assert.equal(brief[0].frontmatter.routeAlias, 'brief-progetto', 'stable project brief alias')
+  const briefMap = await readFile(new URL('../../docs/fonti/00-brief-progetto.md', import.meta.url), 'utf8')
+  const briefRows = [...briefMap.matchAll(/^\| (\d+) \/ (\d+) \| ([^|]+) \|/gm)]
+  assert.deepEqual(briefRows.map(row => ({ step: Number(row[1]), page: Number(row[2]), title: row[3].trim() })),
+    brief.map(slide => ({ step: slide.frontmatter.briefStep, page: slide.index + 1, title: slide.title })), 'project brief source map')
+  for (const slide of brief) {
+    assert.ok(!slide.frontmatter.lesson, 'project brief belongs to the course presentation')
+    assert.match(slide.note, /Fonte: CVeDI 2526 - Brief progetti, slide/, 'project brief source in presenter notes')
+    assert.ok(!/(ristorante|piatt[oi]|22 Ottobre|29 Ottobre|13 Novembre|26 Novembre|21 dicembre)/i.test(slide.content), 'project brief removes obsolete subject and dates')
+  }
   const audit = JSON.parse(await readFile(new URL('../../assets/slide-audit/2025-2026.json', import.meta.url), 'utf8'))
   assert.equal(audit.sources.length, 9, 'previous academic year: nine source PDFs')
   assert.equal(audit.sources.reduce((sum, source) => sum + source.pages, 0), 982, 'previous academic year: 982 reviewed pages')
@@ -131,7 +145,7 @@ export async function checkSlideSources() {
   }
   const report = { slides: total, course: course.length, introduction: lesson.length, history: history.length,
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
-    publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length, recoveredSlides: audit.integratedSlides.length }
+    publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length, recoveredSlides: audit.integratedSlides.length, projectBriefSlides: brief.length }
   return { deck, total, lesson, history, course, projects, uxExamples, uxSlides, audit, report }
 }
 

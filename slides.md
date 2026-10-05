@@ -580,6 +580,10 @@ footer: "WHAT IF? · Requisiti"
 <p class="aside">I comportamenti dell’AI e le disponibilità <strong>possono essere simulati</strong>. La valutazione riguarda concept, comunicazione visiva e usabilità del sito.</p>
 
 ---
+src: ./lezioni/00-brief-progetto.md
+---
+
+---
 layout: default
 class: content-slide project-section reading-slide
 footer: "Percorso individuale"

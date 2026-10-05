@@ -14,7 +14,7 @@ routeAlias: storia-design
 <p>Lezione 3 · Dalla pagina stampata alle interfacce digitali</p>
 
 <!--
-Tempo previsto: 1 min. Slide 1 del capitolo (slide 135 del deck).
+Tempo previsto: 1 min. Slide 1 del capitolo (slide 150 del deck).
 
 Aprire la terza lezione del corso, collocata qui dopo il capitolo Introduzione. Il nodo Figma fornito identifica C02, il capitolo Storia del graphic design e delle interfacce digitali. Il percorso dura due ore e collega tecnologie, forme e contesto; non richiede di memorizzare tutte le date. Le correnti sono strumenti di lettura, con confini sovrapposti.
 
@@ -42,7 +42,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 2 del capitolo (slide 136 del deck).
+Tempo previsto: 2 min. Slide 2 del capitolo (slide 151 del deck).
 
 Condividere tre risultati osservabili. Gli studenti dovranno leggere un artefatto attraverso il suo contesto, riconoscere ciò che le interfacce ereditano dalla grafica e motivare una scelta oltre il gusto personale. Anticipare tre attività: confronto fra manifesti, lettura della metafora desktop e verifica di un controllo neumorfico.
 
@@ -66,7 +66,7 @@ lessonMinutes: 2
 <div class="lesson-statement">Scopo, forma e contesto<br>cambiano insieme nel tempo.</div><p class="lead">Le tecnologie aprono possibilità. Le persone costruiscono convenzioni.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 3 del capitolo (slide 137 del deck).
+Tempo previsto: 2 min. Slide 3 del capitolo (slide 152 del deck).
 
 Riprendere la lezione precedente: il design risponde a bisogni e vincoli. Nella storia cambiano i supporti, la distribuzione e il pubblico, mentre resta necessario rendere comprensibile un messaggio. Il passaggio alla UI aggiunge azioni, stati e feedback. La relazione con la lezione 2 è tematica: quei materiali introducono le interfacce, senza ricostruirne l’intera storia.
 
@@ -94,7 +94,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 4 del capitolo (slide 138 del deck).
+Tempo previsto: 2 min. Slide 4 del capitolo (slide 153 del deck).
 
 Proporre una griglia di lettura didattica ricavata dai temi del booklet. Non è una tassonomia citata letteralmente. Per ogni esempio individuare mezzo, destinatario e funzione. Evitare una storia che presenti ogni stile come inevitabilmente migliore del precedente: una soluzione può funzionare in un contesto e creare difficoltà in un altro.
 
@@ -124,7 +124,7 @@ lessonMinutes: 2
 </ul><p class="lead">Ogni passaggio trasforma il rapporto fra contenuto, forma e uso.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 5 del capitolo (slide 139 del deck).
+Tempo previsto: 2 min. Slide 5 del capitolo (slide 154 del deck).
 
 Usare la progressione come mappa del percorso, non come cronologia esaustiva. Scrittura, stampa e interfacce convivono: il nuovo mezzo non elimina quello precedente. Invitare a cercare continuità, per esempio l’organizzazione della pagina e la gerarchia di uno schermo. I PDF contribuiscono con la tipografia e il passaggio fra stili web.
 
@@ -151,7 +151,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 6 del capitolo (slide 140 del deck).
+Tempo previsto: 2 min. Slide 6 del capitolo (slide 155 del deck).
 
 Osservare le figure, la sovrapposizione e il rapporto con il supporto. Il booklet collega la storia della grafica alla comunicazione visiva antica. Non retroproiettare la professione moderna di graphic designer su ogni immagine del passato. Non riportare il riferimento al III millennio a.C. associato alle origini preistoriche nel testo: mescola periodi differenti. L’immagine serve per discutere segno e narrazione, senza attribuire uno scopo rituale certo.
 
@@ -179,7 +179,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 7 del capitolo (slide 141 del deck).
+Tempo previsto: 2 min. Slide 7 del capitolo (slide 156 del deck).
 
 Il booklet introduce sistemi di scrittura antichi, tra cui cuneiforme e geroglifici. Concentrarsi sul cambio di funzione: registrare e amministrare informazioni. Non presentare una singola civiltà come origine universale di tutti i sistemi. Collegare questa organizzazione all’architettura dell’informazione incontrata nell’introduzione: la relazione è didattica, non una discendenza storica diretta.
 
@@ -206,7 +206,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 8 del capitolo (slide 142 del deck).
+Tempo previsto: 2 min. Slide 8 del capitolo (slide 157 del deck).
 
 Mettere in relazione codici miniati medievali e miniatura persiana. Sono tradizioni differenti: evitare di ridurle a un’unica evoluzione europea. Le decorazioni possono identificare una sezione, organizzare la pagina e attribuire valore al testo. Chiedere quale elemento si osserva per primo nell’immagine. La didascalia mantiene l’identificazione generale della fonte, senza aggiungere autore o data non verificati.
 
@@ -234,7 +234,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 9 del capitolo (slide 143 del deck).
+Tempo previsto: 2 min. Slide 9 del capitolo (slide 158 del deck).
 
 Il booklet propone gli stemmi araldici come antecedenti dei loghi. Rielaborare come confronto funzionale, senza sostenere che lo stemma sia il primo logo del mondo. La continuità riguarda identificazione e riconoscibilità; cambiano istituzioni, usi e sistemi di distribuzione. Collegare a un marchio contemporaneo, sottolineando che la somiglianza di funzione non rende gli oggetti storicamente equivalenti.
 
@@ -261,7 +261,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 10 del capitolo (slide 144 del deck).
+Tempo previsto: 2 min. Slide 10 del capitolo (slide 159 del deck).
 
 Distinguere la matrice che porta un’intera pagina dai tipi separati. La Library of Congress documenta la tecnica di Bi Sheng fra 1041 e 1048 e la permanenza della stampa a blocchi in Cina. I costi e la quantità di segni influiscono sull’adozione. Non descrivere una trasmissione lineare certa verso l’Europa. L’immagine del booklet è illustrativa: non identifica un reperto di Bi Sheng.
 
@@ -290,7 +290,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 11 del capitolo (slide 145 del deck).
+Tempo previsto: 2 min. Slide 11 del capitolo (slide 160 del deck).
 
 Il contributo di Gutenberg va collocato nell’Europa della metà del XV secolo, riconoscendo gli antecedenti asiatici della stampa. Spiegare la composizione di tipi, l’impressione e il riuso. I PDF descrivono questo passaggio ma il termine primo libro va qualificato: non è il primo libro stampato al mondo. Usare la fonte della Library of Congress per la Bibbia di Gutenberg e la cronologia occidentale.
 
@@ -318,7 +318,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 12 del capitolo (slide 146 del deck).
+Tempo previsto: 2 min. Slide 12 del capitolo (slide 161 del deck).
 
 Il booklet distingue Jenson, incisore del romano, da Francesco Griffo, che disegnò il corsivo per l’editore Aldo Manuzio. Correggere la semplificazione del PDF che attribuisce il disegno del corsivo al solo Manuzio. Spiegare il rapporto fra carattere, economia della pagina e portabilità. Non trasferire il primato assoluto del primo romano o l’invenzione di ogni caratteristica editoriale; il punto didattico è la lettura progettata.
 
@@ -346,7 +346,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 13 del capitolo (slide 147 del deck).
+Tempo previsto: 2 min. Slide 13 del capitolo (slide 162 del deck).
 
 Nel booklet marchi di stampa, gazzette e pubblicità segnano l’ampliamento del pubblico. Discutere la serialità: una testata riconoscibile e una struttura ricorrente facilitano l’orientamento. Non riportare la frase secondo cui l’industria della stampa avrebbe usato per prima i loghi: è un primato troppo ampio. Collegare la ricorrenza del layout alla coerenza di una UI contemporanea.
 
@@ -374,7 +374,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 14 del capitolo (slide 148 del deck).
+Tempo previsto: 2 min. Slide 14 del capitolo (slide 163 del deck).
 
 L’Encyclopédie di Diderot e d’Alembert, nel XVIII secolo, è l’esempio del booklet. Parlare di un progetto editoriale che organizza conoscenze e immagini. Evitare l’intervallo 1750–1781 senza distinguere edizione principale, supplementi e indici. La relazione con l’architettura dell’informazione è un confronto didattico: consultazione e gerarchia rendono il sapere accessibile, ma accesso sociale e alfabetizzazione restano vincoli.
 
@@ -402,7 +402,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 15 del capitolo (slide 149 del deck).
+Tempo previsto: 2 min. Slide 15 del capitolo (slide 164 del deck).
 
 Il booklet cita Caslon, Baskerville e Bodoni come esempi di evoluzione tipografica. Il PDF esplicita la doppia natura funzionale ed espressiva dei font. Qui introdurre i tre compiti, rimandando anatomia e classificazioni alla lezione dedicata. Non cambiare i font della presentazione per imitare ogni epoca: gli esempi storici sono nei contenuti, il sistema di lettura della lezione resta coerente.
 
@@ -430,7 +430,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 16 del capitolo (slide 150 del deck).
+Tempo previsto: 2 min. Slide 16 del capitolo (slide 165 del deck).
 
 Il Metropolitan Museum colloca l’invenzione di Senefelder intorno al 1796, correggendo il 1798 del booklet. Presentare la litografia come stampa planografica basata sul comportamento di acqua e sostanze grasse, senza una lezione tecnica completa. La cromolitografia coordina più passaggi di colore. Il PDF tratta la stampa a colori in generale: è una relazione tematica, non una descrizione della stessa tecnica.
 
@@ -458,7 +458,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 17 del capitolo (slide 151 del deck).
+Tempo previsto: 2 min. Slide 17 del capitolo (slide 166 del deck).
 
 Osservare il manifesto del booklet: rapporto fra immagine e titolo, contrasti e presenza nello spazio urbano. Il testo ricorda Chéret e la diffusione delle cromolitografie. La possibilità di disegnare il lettering nella composizione cambia il rapporto fra parola e figura. Non ridurre il manifesto a una decorazione: contiene un messaggio per un pubblico in movimento. La data e il titolo sono quelli della didascalia originale.
 
@@ -486,7 +486,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 18 del capitolo (slide 152 del deck).
+Tempo previsto: 2 min. Slide 18 del capitolo (slide 167 del deck).
 
 Inquadrare l’Art Nouveau alla fine dell’Ottocento, come movimento che attraversa grafica, architettura e oggetti. Il booklet richiama le campiture e i contorni delle stampe giapponesi. Non presentare queste influenze come una spiegazione unica. Evidenziare l’integrazione fra testo, figura e ornamento; la leggibilità dipende dal ruolo dell’artefatto e dalla sua distanza di osservazione.
 
@@ -513,7 +513,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 19 del capitolo (slide 153 del deck).
+Tempo previsto: 2 min. Slide 19 del capitolo (slide 168 del deck).
 
 Leggere l’immagine di Mucha senza attribuirle un titolo non verificato. Il booklet descrive un repertorio usato in manifesti, copertine, packaging e materiali pubblicitari. Chiedere quali tratti permettono di riconoscere una famiglia di opere. Collegare alla coerenza visiva di un sistema contemporaneo, chiarendo che non stiamo equiparando un artista a un design system.
 
@@ -541,7 +541,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 20 del capitolo (slide 154 del deck).
+Tempo previsto: 165 s. Slide 20 del capitolo (slide 169 del deck).
 
 Il booklet mostra la grafica politica della Prima guerra mondiale. Presentare gli esempi come documenti storici, contestualizzando committente e obiettivo. Correggere il riferimento ai manifesti dell’Asse nella Prima guerra mondiale: la categoria appartiene alla Seconda. Il termine qui non viene usato. Discussione: quale comportamento si vuole ottenere e quali elementi lo rendono desiderabile o doveroso?
 
@@ -568,7 +568,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 21 del capitolo (slide 155 del deck).
+Tempo previsto: 165 s. Slide 21 del capitolo (slide 170 del deck).
 
 Confrontare gli originali del booklet. Gipkens usa una sintesi grafica e la relazione fra figura e richiesta; Flagg usa un personaggio, uno sguardo diretto e un gesto verso il destinatario. Sono due artefatti specifici, non prove sufficienti per descrivere tutti i manifesti di due continenti. Identificare azione, destinatario e gerarchia. Evitare una valutazione morale o estetica implicita basata sulla sola semplificazione.
 
@@ -596,7 +596,7 @@ lessonMinutes: 5
 </ul><p class="aside">Motivate la risposta con elementi visibili, oltre al gusto personale.</p>
 
 <!--
-Tempo previsto: 5 min. Slide 22 del capitolo (slide 156 del deck).
+Tempo previsto: 5 min. Slide 22 del capitolo (slide 171 del deck).
 
 Prima attività: 2 minuti in coppia, 2 minuti per due risposte, 1 minuto per la restituzione. Risposta attesa: il gesto di Flagg interpella l’osservatore; l’immagine sintetica di Gipkens rende riconoscibile ciò che viene richiesto. Il titolo esplicita l’azione. Accettare letture diverse se sostenute da elementi visibili. Non chiedere di scegliere un manifesto migliore in assoluto; riportare sempre il giudizio alla funzione.
 
@@ -623,7 +623,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 23 del capitolo (slide 157 del deck).
+Tempo previsto: 165 s. Slide 23 del capitolo (slide 172 del deck).
 
 Il booklet presenta il Bauhaus di Walter Gropius e il progressivo orientamento funzionalista. Non descrivere tutti i suoi anni come uno stile uniforme: la scuola cambia sedi, docenti e impostazioni. Nel manifesto di Schmidt, verificato nell’archivio Bauhaus, osservare diagonale, lettere e forme geometriche. Identificare anche le informazioni operative: che cosa accade, dove e quando.
 
@@ -651,7 +651,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 24 del capitolo (slide 158 del deck).
+Tempo previsto: 2 min. Slide 24 del capitolo (slide 173 del deck).
 
 Il booklet associa Moholy-Nagy alla tipografia funzionale e all’uso del fotomontaggio. La figura mostrata è una composizione astratta, non un fotomontaggio: dirlo esplicitamente. Usarla per leggere peso, diagonali e rapporti fra forme. Poi spiegare come l’accostamento di elementi fotografici possa costruire un significato nuovo. L’interpretazione del percorso dello sguardo è un esercizio didattico, non una dichiarazione dell’artista.
 
@@ -681,7 +681,7 @@ routeAlias: storia-albers-colore
 <p v-click class="aside">Hanno lo stesso valore digitale: cambia il contesto in cui li osserviamo.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 25 del capitolo (slide 159 del deck).
+Tempo previsto: 2 min. Slide 25 del capitolo (slide 174 del deck).
 
 Recuperare Albers e il confronto percettivo presente nella lezione sul colore. Prima osservare i due campioni, poi rivelare che il codice del quadrato centrale è identico. È un esercizio didattico originale realizzato con elementi HTML, non una riproduzione di una tavola di Albers. La percezione può cambiare secondo colori adiacenti e condizioni di osservazione: non promettere che ogni partecipante vedrà la stessa differenza. Interaction of Color, pubblicato nel 1963, propone esercizi di osservazione e confronto. Collegare il lavoro sperimentale della scuola al successivo uso del colore nel progetto; questo ponte non sostituisce la lezione specialistica sul colore.
 Fonti primarie: https://www.albersfoundation.org/alberses/teaching/interaction-of-color e https://www.albersfoundation.org/learning/workshops/one-color-becomes-two.
@@ -710,7 +710,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 26 del capitolo (slide 160 del deck).
+Tempo previsto: 2 min. Slide 26 del capitolo (slide 175 del deck).
 
 Il booklet mette in relazione Art Déco e Streamline Moderne, distinguibili ma accomunati nel testo dall’immaginario tecnologico. Non confonderli con il Bauhaus: gli obiettivi e gli usi dell’ornamento differiscono. Rileggere le tre card come repertorio formale, non regole che caratterizzano ogni opera. Il punto è vedere come una stessa idea di modernità possa produrre linguaggi diversi.
 
@@ -737,7 +737,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 27 del capitolo (slide 161 del deck).
+Tempo previsto: 2 min. Slide 27 del capitolo (slide 176 del deck).
 
 La scheda MoMA conferma autore, titolo e data. Correggere la didascalia abbreviata del booklet: il manifesto promuove la pubblicità nella metropolitana, non la metropolitana come servizio. Leggere bersaglio e figura come relazione simbolica. Non usare l’etichetta padre del graphic design o attribuire a Rand ogni logo aziendale elencato nella fonte. La semplificazione funziona quando conserva un’idea riconoscibile.
 
@@ -765,7 +765,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 28 del capitolo (slide 162 del deck).
+Tempo previsto: 2 min. Slide 28 del capitolo (slide 177 del deck).
 
 Il booklet richiama la direzione artistica di Brodovitch e il rapporto con la fotografia. Osservare le aperture, la variazione della densità e la posizione del testo. Rielaborare la sua influenza come progettazione di una sequenza, senza attribuire all’immagine date non documentate. Collegare alle interfacce che organizzano percorsi: una schermata isolata non esaurisce l’esperienza.
 
@@ -792,7 +792,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 29 del capitolo (slide 163 del deck).
+Tempo previsto: 2 min. Slide 29 del capitolo (slide 178 del deck).
 
 Il booklet usa Lubalin per descrivere la sperimentazione resa possibile dalla fotocomposizione. Leggere il logotipo di Avant Garde: gli incastri producono un’immagine distintiva. Distinguere il disegno di un marchio dal font usato per un testo lungo. Il criterio di riconoscibilità di un titolo non coincide con la leggibilità continuativa. La doppia funzione della tipografia è esplicitata anche nella lezione 7.
 
@@ -822,7 +822,7 @@ routeAlias: storia-composizione-stampa
 <p class="lead mt-6!">Sono operazioni diverse: cambiare la tecnica di stampa non coincide con cambiare il modo di comporre.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 30 del capitolo (slide 164 del deck).
+Tempo previsto: 2 min. Slide 30 del capitolo (slide 179 del deck).
 
 La Linotype meccanizza composizione e fusione delle righe; non è una pressa. La Library of Congress documenta la prima applicazione commerciale nel 1886 e il funzionamento con matrici e fusione di una riga. Distinguere questa attività dal trasferimento dell’inchiostro sul supporto. Il National Museum of American History descrive presse meccaniche, cilindri e rotative, e documenta offset su carta all’inizio del Novecento. “Rotativa” e “offset” non sono categorie alternative: una pressa può essere rotativa e offset. Non riproporre la catena Linotype → offset → digitale come successione di tecniche equivalenti: nel PDF vengono confusi composizione e riproduzione. Non trasferire il 1881 come data certa di introduzione della Linotype. Il collegamento al software della slide successiva riguarda il modo di organizzare lettere e impaginazione.
 
@@ -853,7 +853,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 31 del capitolo (slide 165 del deck).
+Tempo previsto: 165 s. Slide 31 del capitolo (slide 180 del deck).
 
 Descrivere il passaggio dal montaggio manuale alla composizione digitale, senza la generalizzazione che entro gli anni Novanta ogni settore avesse completato la transizione. Il Computer History Museum conferma l’uscita di MacPaint nel gennaio 1984 e il contributo di Bill Atkinson e Susan Kare. Gli strumenti sono rappresentati da icone: il designer usa un’interfaccia per progettare altre forme di comunicazione. Il PDF collega stampa e file digitali.
 
@@ -881,7 +881,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 32 del capitolo (slide 166 del deck).
+Tempo previsto: 2 min. Slide 32 del capitolo (slide 181 del deck).
 
 Il booklet presenta Carson come esempio di sperimentazione editoriale. Osservare la copertina effettivamente recuperata: fotografia, texture e lettering frammentato. Non confonderla con il francobollo di Olmsted presente nella stessa pagina. Domanda rapida: quale tipo di pubblico e di lettura può accettare questa complessità? Un linguaggio espressivo non equivale a una buona soluzione per ogni compito.
 
@@ -909,7 +909,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 33 del capitolo (slide 167 del deck).
+Tempo previsto: 2 min. Slide 33 del capitolo (slide 182 del deck).
 
 Il booklet evidenzia la continuità fra stampa e web nell’uso di testo, immagini e colore. Aggiungere la specificità dell’interazione: clic, stati, feedback, percorsi alternativi. La pagina web non è semplicemente una pagina stampata più luminosa. La lezione 2 introduce la GUI e la costruzione dell’interfaccia; qui quella relazione serve da raccordo, senza attribuirle una storia che non contiene.
 
@@ -933,7 +933,7 @@ lessonMinutes: 2
 <div class="lesson-statement">Finestre, icone e menu<br>nascono da scelte di progetto.</div><p class="lead">Finestre, icone, menu e stili visivi hanno origini e conseguenze.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 34 del capitolo (slide 168 del deck).
+Tempo previsto: 2 min. Slide 34 del capitolo (slide 183 del deck).
 
 Aprire la seconda parte. Il booklet propone l’idea di ritorni e reinterpretazioni; non trasferire la citazione letterale di Adventure Time. Le correnti non formano una sequenza che si chiude per lasciare posto alla successiva: convivono e vengono adattate. Il riferimento al PDF è tematico, come apertura della storia degli stili web. Tenere separata la nascita delle GUI dalla successiva storia del web.
 
@@ -961,7 +961,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 35 del capitolo (slide 169 del deck).
+Tempo previsto: 2 min. Slide 35 del capitolo (slide 184 del deck).
 
 Il 9 dicembre 1968 Engelbart e il gruppo ARC di SRI mostrano NLS nella Mother of All Demos. La fonte dell’istituto documenta mouse, ipertesto e collaborazione con collegamento audio-video. Presentare un lavoro di gruppo e un sistema, non l’invenzione isolata di una persona. Il progetto mira ad aumentare la capacità di lavorare con informazioni: collegare il concetto all’esperienza e al compito.
 
@@ -989,7 +989,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 36 del capitolo (slide 170 del deck).
+Tempo previsto: 2 min. Slide 36 del capitolo (slide 185 del deck).
 
 Il Computer History Museum documenta Alto nel 1973 e la sua influenza su Lisa e Macintosh. Correggere l’espressione sistema operativo Alto: Alto è il sistema informatico, non il nome di un sistema operativo unico. Il booklet associa l’immagine ad Alto, ma l’identificazione esatta delle icone non è stata verificata: mantenerne la didascalia generica Xerox, senza attribuire la figura al sistema del 1973.
 
@@ -1019,7 +1019,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 37 del capitolo (slide 171 del deck).
+Tempo previsto: 165 s. Slide 37 del capitolo (slide 186 del deck).
 
 Esplicitare l’acronimo WIMP del booklet. Non chiamare mouse il puntatore: il dispositivo e il segnale sullo schermo sono distinti. La combinazione permette di riconoscere comandi e manipolare rappresentazioni visive, ma richiede apprendimento. Non sostenere che una GUI sia intuitiva per chiunque. Chiedere quali di questi elementi restano nei sistemi attuali e quali interazioni touch li trasformano.
 
@@ -1047,7 +1047,7 @@ lessonMinutes: 4
 </ul><p class="aside">La familiarità aiuta solo quando il comportamento è comprensibile.</p>
 
 <!--
-Tempo previsto: 4 min. Slide 38 del capitolo (slide 172 del deck).
+Tempo previsto: 4 min. Slide 38 del capitolo (slide 187 del deck).
 
 Seconda attività: 1 minuto individuale, 2 minuti di confronto, 1 minuto di restituzione. Possibili risposte: il cestino suggerisce eliminazione, ma nel digitale può conservare elementi recuperabili; svuotarlo modifica la possibilità di recupero. L’analogia non descrive tutte le regole. La risposta attesa collega metafora, azione e feedback, evitando di confondere somiglianza grafica con usabilità. Le domande sono un’aggiunta didattica.
 
@@ -1074,7 +1074,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 39 del capitolo (slide 173 del deck).
+Tempo previsto: 2 min. Slide 39 del capitolo (slide 188 del deck).
 
 Il booklet e i PDF mostrano siti dei primi anni del web. Eliminare l’affermazione nessuno pensava all’esperienza utente: le prime interfacce avevano comunque obiettivi di accesso e navigazione. Descrivere strumenti grafici e convenzioni meno consolidati rispetto a oggi. Osservare che la struttura HTML resta una componente semantica delle pagine attuali, anche quando la presentazione visiva è complessa.
 
@@ -1101,7 +1101,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 40 del capitolo (slide 174 del deck).
+Tempo previsto: 165 s. Slide 40 del capitolo (slide 189 del deck).
 
 Web 2.0 descrive una trasformazione dei servizi e della partecipazione, non soltanto uno stile grafico. Nei materiali, i gradienti e i volumi sono un repertorio associato al periodo. Leggere il pulsante Download e la gerarchia dei pannelli. Non giudicare il sito attuale di ICQ: l’immagine è un esempio storico. Le date 2000–2010 del booklet sono indicative, non un confine rigido.
 
@@ -1128,7 +1128,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 41 del capitolo (slide 175 del deck).
+Tempo previsto: 2 min. Slide 41 del capitolo (slide 190 del deck).
 
 Usare il termine italiano scheumorfismo, segnalando anche skeuomorphism nelle note per chi consulta altri testi. Il booklet usa la finestra 2010–2012, ma la pratica precede quel periodo e continua oltre: non trasferire una data di nascita e fine. Distinguere metafora funzionale e trattamento visivo realistico. La familiarità può aiutare a formulare un’aspettativa, ma non dimostra da sola che il compito sarà facile.
 
@@ -1155,7 +1155,7 @@ lessonMinutes: 1.75
 </div>
 
 <!--
-Tempo previsto: 105 s. Slide 42 del capitolo (slide 176 del deck).
+Tempo previsto: 105 s. Slide 42 del capitolo (slide 191 del deck).
 
 Leggere la riduzione degli effetti di profondità nell’immagine originale. Non presentare il flat come automaticamente più veloce, con codice più pulito o adatto a ogni dispositivo: dipende dall’implementazione. Il booklet e il PDF propongono questi vantaggi in modo assoluto; qui si conserva il repertorio formale. La riconoscibilità di pulsanti e altri controlli resta un problema da verificare.
 
@@ -1183,7 +1183,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 43 del capitolo (slide 177 del deck).
+Tempo previsto: 165 s. Slide 43 del capitolo (slide 192 del deck).
 
 Questa slide è una rielaborazione critica, non una citazione della fonte. Ridurre effetti e ornamenti può alleggerire la composizione, ma può anche cancellare indizi. Richiamare efficacia, efficienza e soddisfazione dalla lezione precedente. Chiedere come si potrebbe verificare un pulsante poco riconoscibile: osservare tentativi, esitazioni e risultato nel contesto d’uso. Non introdurre statistiche prive di riscontro.
 
@@ -1210,7 +1210,7 @@ lessonMinutes: 1.75
 </div>
 
 <!--
-Tempo previsto: 105 s. Slide 44 del capitolo (slide 178 del deck).
+Tempo previsto: 105 s. Slide 44 del capitolo (slide 193 del deck).
 
 Il booklet e il PDF descrivono il neumorfismo con rilievi morbidi, palette vicine al fondo e superfici continue. Non ripetere la previsione che sarebbe il prossimo passo inevitabile del design. Osservare forma, stato e contrasto. La possibile difficoltà nel distinguere un controllo è una domanda di verifica, non il risultato di un test condotto su questa schermata.
 
@@ -1237,7 +1237,7 @@ lessonMinutes: 1.75
 </div>
 
 <!--
-Tempo previsto: 105 s. Slide 45 del capitolo (slide 179 del deck).
+Tempo previsto: 105 s. Slide 45 del capitolo (slide 194 del deck).
 
 L’esempio iOS è un antecedente del repertorio chiamato glassmorfismo, non la prova di una data di invenzione. Non serve attribuire il primato del termine per leggere la UI. Osservare sfocatura, stratificazione e bordi. Spiegare che un pannello semitrasparente può cambiare contrasto al variare dello sfondo. La condizione va verificata sui contenuti e sugli stati reali.
 
@@ -1264,7 +1264,7 @@ lessonMinutes: 1.75
 </div>
 
 <!--
-Tempo previsto: 105 s. Slide 46 del capitolo (slide 180 del deck).
+Tempo previsto: 105 s. Slide 46 del capitolo (slide 195 del deck).
 
 Il booklet presenta il minimalismo come riduzione e funzionalità. Rielaborare la scelta come priorità: che cosa è necessario al pubblico e al compito? Un layout con pochi elementi non dimostra da solo chiarezza; può nascondere informazioni utili. Non riportare la citazione di Saint-Exupéry presente nel PDF, la cui formulazione e attribuzione non vengono qui approfondite.
 
@@ -1291,7 +1291,7 @@ lessonMinutes: 1.75
 </div>
 
 <!--
-Tempo previsto: 105 s. Slide 47 del capitolo (slide 181 del deck).
+Tempo previsto: 105 s. Slide 47 del capitolo (slide 196 del deck).
 
 Il frame del booklet è chiamato Massimalismo ma contiene il testo Y2K: la mappa segue il contenuto effettivo. Non ripetere nell’ultimo anno, che renderebbe attuale una frase dei vecchi materiali. Leggere la ripresa di un immaginario tramite luminosità, gradienti e forme dei caratteri. Lo stile non identifica una singola cronologia di tutti i siti web, e non va confuso con il problema informatico del cambio di millennio.
 
@@ -1318,7 +1318,7 @@ lessonMinutes: 1.75
 </div>
 
 <!--
-Tempo previsto: 105 s. Slide 48 del capitolo (slide 182 del deck).
+Tempo previsto: 105 s. Slide 48 del capitolo (slide 197 del deck).
 
 Il booklet descrive l’eccesso come repertorio espressivo. Sostituire il generico buon gusto con criteri osservabili: gerarchie, separazione delle funzioni, leggibilità delle azioni. Chiedere che cosa si vede per primo e che cosa è interattivo. Non sostenere che densità e usabilità si escludano: occorre verificare il compito e il pubblico. L’immagine conserva gli elementi del caso originario.
 
@@ -1345,7 +1345,7 @@ lessonMinutes: 1.75
 </div>
 
 <!--
-Tempo previsto: 105 s. Slide 49 del capitolo (slide 183 del deck).
+Tempo previsto: 105 s. Slide 49 del capitolo (slide 198 del deck).
 
 I materiali usano Neobrutalismo anche per esempi di brutalismo web: i due termini non sono sinonimi stabili in ogni uso. Presentare il campo e la variazione delle etichette, senza attribuire a Pascal Deville l’invenzione universale di un termine. La raccolta Brutalist Websites documenta un orientamento verso forme ruvide ed essenziali. Non trasformare CSS minimo, palette web-safe o assenza di regole in requisiti necessari.
 
@@ -1377,7 +1377,7 @@ lessonMinutes: 6
 </div>
 
 <!--
-Tempo previsto: 6 min. Slide 50 del capitolo (slide 184 del deck).
+Tempo previsto: 6 min. Slide 50 del capitolo (slide 199 del deck).
 
 Terza attività: 2 minuti in coppia, 2 minuti di raccolta, 2 minuti di restituzione. Non assumere che la schermata sia stata testata o che un esito sia noto. Gli studenti formulano un’ipotesi: un bordo o un’ombra poco evidente può rendere ambiguo il controllo. La verifica prevede un compito concreto e osserva dove si clicca, esitazioni ed errori. Possibili revisioni: etichetta più esplicita, contrasto, distinzione degli stati; mantenerne poi la coerenza.
 
@@ -1405,7 +1405,7 @@ lessonMinutes: 2.75
 </div>
 
 <!--
-Tempo previsto: 165 s. Slide 51 del capitolo (slide 185 del deck).
+Tempo previsto: 165 s. Slide 51 del capitolo (slide 200 del deck).
 
 Riprendere gli obiettivi iniziali. Per gerarchia usare un manifesto o una pagina editoriale; per convenzioni usare cartelle, icone e controlli; per contesto confrontare la partecipazione del web con la sola superficie grafica. Le correnti sono strumenti di lettura, non ricette universali. Invitare a motivare un’interpretazione attraverso elementi osservabili e a distinguere ciò che la fonte afferma dalle nostre ipotesi di uso.
 
@@ -1433,7 +1433,7 @@ lessonMinutes: 5.75
 </ul><p class="aside">Prossimo passaggio: trasformare bisogni e ipotesi in ricerca, prototipi e test.</p>
 
 <!--
-Tempo previsto: 345 s. Slide 52 del capitolo (slide 186 del deck).
+Tempo previsto: 345 s. Slide 52 del capitolo (slide 201 del deck).
 
 Riservare 2 minuti alla scelta individuale, 2 minuti a due risposte e 1 minuto e 45 secondi alla sintesi. Risposta attesa: una scelta formale motivata da informazioni, stati e azioni; un rischio specifico; un modo per osservarlo. Un esempio valido è mantenere la chiarezza del flat, verificando che il pulsante di prenotazione si distingua dal testo. Non c’è un’unica corrente corretta. Collegare il capitolo al successivo processo UX attraverso il Design Thinking, già introdotto ma da approfondire.
 
