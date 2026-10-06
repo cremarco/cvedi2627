@@ -1,0 +1,67 @@
+{
+  "prompt": "Original screenshot of a real implemented website/application or an explicitly dated official archive. Themesberg · Neumorphism UI, pagina About della demo eseguibile: superfici e controlli a rilievo. Source: https://demo.themesberg.com/neumorphism-ui/html/pages/about.html. Converted to lossless WebP for the Slidev lecture, preserving the complete original image and aspect ratio. No AI generation, no reconstruction.",
+  "createdAt": "2026-10-05T23:33:37.201465+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/reali/early/neumo-themesberg.png",
+  "sourceURLs": [
+    "https://demo.themesberg.com/neumorphism-ui/html/pages/about.html"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2326:399",
+  "bookletFolio": 64,
+  "bookletChapterOrdinal": 44,
+  "bookletSourceRole": "real-examples-masonry",
+  "caption": "Themesberg · Neumorphism UI, pagina About della demo eseguibile: superfici e controlli a rilievo.",
+  "kind": "implemented-ui-library-demo",
+  "style": "neumo",
+  "sourceSha256": "c677d4e24e0fed06e8e435f9ba78415939805941d2baa3813396a1b2d8f7dc4f",
+  "outputSha256": "60a2df08a100bf3ac69d0c4c1a64d9ad9c636c87b7e2d8d803aa7154b2c8c92f",
+  "sourceDimensions": {
+    "width": 1200,
+    "height": 760
+  },
+  "outputDimensions": {
+    "width": 1200,
+    "height": 760
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "maxEdge": 1600,
+    "resample": "Lanczos only when resizing is required",
+    "pixelRoundTripVerified": true
+  },
+  "originalMetadata": {
+    "id": "neumo-themesberg",
+    "name": "Themesberg · Neumorphism UI About",
+    "url": "https://demo.themesberg.com/neumorphism-ui/html/pages/about.html",
+    "captureUrl": "https://demo.themesberg.com/neumorphism-ui/html/pages/about.html",
+    "sourcePage": "https://demo.themesberg.com/neumorphism-ui/html/pages/about.html",
+    "caption": "Themesberg · Neumorphism UI, pagina About della demo eseguibile: superfici e controlli a rilievo.",
+    "date": "2026-10-06",
+    "capturedAt": "2026-10-05T22:57:52.123Z",
+    "kind": "implemented-ui-library-demo",
+    "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/neumo-themesberg.png",
+    "width": 1200,
+    "height": 760,
+    "viewport": {
+      "width": 1200,
+      "height": 900
+    },
+    "deviceScaleFactor": 1,
+    "crop": {
+      "x": 0,
+      "y": 0,
+      "width": 1200,
+      "height": 760
+    },
+    "authenticityNote": "Il produttore documenta codice HTML/CSS/JS disponibile e pagine implementate. Non è l’interfaccia di una società immaginata da ImageGen.",
+    "sha256": "c677d4e24e0fed06e8e435f9ba78415939805941d2baa3813396a1b2d8f7dc4f",
+    "qa": {
+      "httpStatus": 200,
+      "visualInspection": "passed",
+      "noAI": true,
+      "noPixelReconstruction": true,
+      "overlays": "none in selected capture area"
+    }
+  }
+}

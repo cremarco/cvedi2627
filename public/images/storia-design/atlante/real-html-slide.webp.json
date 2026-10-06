@@ -1,0 +1,62 @@
+{
+  "prompt": "Original screenshot of a real implemented website/application or an explicitly dated official archive. Warner Bros. · Space Jam, 1996. Sito originale mantenuto online. Source: https://www.spacejam.com/1996/. Converted to lossless WebP for the Slidev lecture, preserving the complete original image and aspect ratio. No AI generation, no reconstruction.",
+  "createdAt": "2026-10-05T23:33:37.201465+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/reali/early/html-spacejam.png",
+  "sourceURLs": [
+    "https://www.spacejam.com/1996/"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2326:254",
+  "bookletFolio": 54,
+  "bookletChapterOrdinal": 34,
+  "bookletSourceRole": "real-examples-masonry",
+  "caption": "Warner Bros. · Space Jam, 1996. Sito originale mantenuto online.",
+  "kind": "historical-site-preserved-live",
+  "style": "html",
+  "sourceSha256": "9ff39abb411968ab876c5224d06a40dc86563be7cf526550d38822c2ed2b7178",
+  "outputSha256": "b9800816390586ff946441f0ac981eba198d414aacc6ff9352b762e654fca9cf",
+  "sourceDimensions": {
+    "width": 1000,
+    "height": 900
+  },
+  "outputDimensions": {
+    "width": 1000,
+    "height": 900
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "maxEdge": 1600,
+    "resample": "Lanczos only when resizing is required",
+    "pixelRoundTripVerified": true
+  },
+  "originalMetadata": {
+    "id": "html-spacejam",
+    "name": "Warner Bros. · Space Jam, 1996",
+    "url": "https://www.spacejam.com/1996/",
+    "captureUrl": "https://www.spacejam.com/1996/",
+    "sourcePage": "https://www.spacejam.com/1996/",
+    "caption": "Warner Bros. · Space Jam, 1996. Sito originale mantenuto online.",
+    "date": "2026-10-06",
+    "capturedAt": "2026-10-05T22:52:57.754Z",
+    "kind": "historical-site-preserved-live",
+    "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/html-spacejam.png",
+    "width": 1000,
+    "height": 900,
+    "viewport": {
+      "width": 1000,
+      "height": 900
+    },
+    "deviceScaleFactor": 1,
+    "crop": null,
+    "authenticityNote": "Data 1996 attestata dal copyright sulla pagina ufficiale.",
+    "sha256": "9ff39abb411968ab876c5224d06a40dc86563be7cf526550d38822c2ed2b7178",
+    "qa": {
+      "httpStatus": 200,
+      "visualInspection": "passed",
+      "noAI": true,
+      "noPixelReconstruction": true,
+      "overlays": "none in selected capture area"
+    }
+  }
+}

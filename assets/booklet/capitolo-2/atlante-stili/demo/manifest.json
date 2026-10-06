@@ -1,0 +1,421 @@
+{
+  "generatedWith": "Built-in Imagegen",
+  "activeVersion": 2,
+  "date": "2026-10-06",
+  "canonical": "demo-flat-v2.png",
+  "theme": "CAFFÈ LUCE · neutral fictional café homepage",
+  "request": "Aggiornare anche le quattro immagini di ogni sito demo, per riflettere il suo stile.",
+  "invariants": [
+    "brand",
+    "navigation",
+    "hero heading",
+    "menu order and three items",
+    "food subjects and quantities",
+    "contact hours",
+    "footer",
+    "section order",
+    "UI visual language"
+  ],
+  "changed": [
+    "hero picture",
+    "menu coffee picture",
+    "menu croissant picture",
+    "menu tea picture"
+  ],
+  "previousVersion": "manifest-v1.json",
+  "images": [
+    {
+      "key": "html",
+      "input": "assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-6d8b7ab1-1507-42b2-90a8-489ec686fa4d.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png",
+      "prompt": "Use case: precise-object-edit / style-transfer.\nImage 1 is the EDIT TARGET: the existing 4:3 Caffè Luce HTML-era website screenshot. Edit ONLY the four pictures already inside this webpage, without altering any interface pixels, typography, line breaks, text, controls, borders, spacing, layout, palette or picture boundaries. Return ONE complete high-quality sharp 4:3 webpage screenshot at the same composition and aspect ratio; not a physical book, device, poster or browser window.\nCHANGE ALL FOUR PICTURES: (1) large upper-right hero with exactly one espresso cup and saucer at front-left, one croissant and plate at back-right, folded napkin at lower-right, the same café table and background; (2) lower-left menu espresso cup and saucer; (3) lower-center menu single croissant; (4) lower-right menu tea cup. Keep the identity, number, relative positions, silhouette and recognizable subject of every object. Keep each image precisely in its existing slot.\nNEW PICTURE TREATMENT ONLY: recognizably mid-1990s web GIF-like imagery, using an intentionally limited 16–32 color warm palette, coarse ordered dithering and crisp blocky raster/clip-art shading. In the hero, transform the natural photograph into a richly but clearly dithered low-color illustration while preserving composition. In each menu picture, make a sharp pixelated product clip-art version of the same cup/croissant/tea. Hard pixel edges are intentional inside these four illustrations; do NOT make the page text or controls pixelated, fuzzy, blurry, degraded or illegible. The UI stays the existing clean HTML-era black serif, white page, blue links, gray native button, thin table rules.\nLOCK ALL COPY VERBATIM, including accents, quantities and punctuation: CAFFÈ LUCE; Menu; Il locale; Contatti; Una pausa, ogni giorno.; Caffè, dolci e incontri.; Scopri il menu; Il nostro menu; Caffè; Espresso e cappuccino; Croissant; Ogni mattina; Tè; Una selezione di aromi; Ti aspettiamo; Lun–Sab · 7–19; In centro, ogni giorno.; CAFFÈ LUCE; Un luogo per una pausa. Preserve all original lettering and line breaks exactly, including the heading broken after Una pausa,. No added words, logos, objects, photos, decorative graphics or sections. Change ONLY these four image areas.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "15230ebad06c61c0e15bbccd71978261f38ff29e8a6f0d547b68686b9e0d102a",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "manualTextVerbatim": true,
+        "manualAllFourImagesRestyled": true,
+        "manualSubjectCompositionAndCountPreserved": true,
+        "manualLayoutFontPalettePreserved": true,
+        "manualRasterQuality": "Passed; deliberate GIF-like dithering inside pictures only, UI remains sharp.",
+        "allFourPictureRegionsChangedMeanAbsoluteRgbDifference": {
+          "hero": 28.029,
+          "menuCoffee": 14.905,
+          "menuCroissant": 26.555,
+          "menuTea": 25.841
+        },
+        "sameDimensionsAndFourByThreeAspectRatio": true,
+        "copiedGeneratedBytesUnmodified": true
+      }
+    },
+    {
+      "key": "web2",
+      "input": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-e10fddc9-66a0-497b-85f0-bf1aa9839fe6.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+      "prompt": "Use case: precise-object-edit / style-transfer.\nImage 1 is the EDIT TARGET: the existing 4:3 blue glossy Web 2.0 Caffè Luce website screenshot. Edit ONLY all four picture areas inside the webpage. Everything else is immutable: exact interface, blue/cyan palette, rounded glossy panels, bevels, soft shadows, font shapes and sizes, text, line breaks, spacing, borders, button and grid. Return ONE complete sharp high-quality 4:3 webpage screenshot with the same composition and aspect ratio. No device, book, browser chrome, perspective or external mockup.\nCHANGE ALL FOUR EXISTING PICTURES, visibly and consistently: (1) the upper-right hero scene with exactly one espresso cup and saucer at front-left, exactly one croissant and plate at back-right, the same folded napkin at lower-right, café table, chair and background in the same positions; (2) the menu espresso cup/saucer; (3) the menu single croissant; (4) the menu tea cup. Preserve each subject, object count, approximate silhouette, relative scale, viewpoint and placement. Keep all pictures precisely in their current slots. They must all clearly become illustrations, rather than leaving a natural photograph unchanged.\nNEW PICTURE TREATMENT ONLY: polished Web 2.0-era glossy 3D illustrations/product icons. Turn the hero into an unmistakably clean stylized CGI still-life of the same café objects and the same composition: rounded polished surfaces, broad smooth gradients, luminous specular highlights and gentle cool cyan/blue reflections consistent with the interface. Turn each menu product into a smooth glossy 3D cutout icon with the same subject and pose, a neat soft grounding shadow and bright polished highlights. The espresso ceramic remains white, croissant remains appetizing golden brown and tea remains amber; blue accents are reflections/lighting, not blue food. Do not add sparkles, extra objects, quantities, logos or decorative badges. No flat-vector, pixel-art or hand-drawn treatment. Distinct from the original natural photographs while still neutral café content.\nLOCK ALL COPY VERBATIM, accents, punctuation and quantities: CAFFÈ LUCE; Menu; Il locale; Contatti; Una pausa, ogni giorno.; Caffè, dolci e incontri.; Scopri il menu; Il nostro menu; Caffè; Espresso e cappuccino; Croissant; Ogni mattina; Tè; Una selezione di aromi; Ti aspettiamo; Lun–Sab · 7–19; In centro, ogni giorno.; CAFFÈ LUCE; Un luogo per una pausa. Preserve original line breaks, especially Una pausa, / ogni giorno. Keep text crisp and exactly intact. Change ONLY these four picture areas, keeping the already glossy blue interface unchanged.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "manualTextVerbatim": true,
+        "manualAllFourImagesRestyled": true,
+        "manualSubjectCompositionAndCountPreserved": true,
+        "manualLayoutFontPalettePreserved": true,
+        "manualRasterQuality": "Passed; all four pictures have polished CGI/gloss highlights; unchanged sharp blue Web 2.0 UI.",
+        "allFourPictureRegionsChangedMeanAbsoluteRgbDifference": {
+          "hero": 20.157,
+          "menuCoffee": 11.443,
+          "menuCroissant": 26.018,
+          "menuTea": 17.359
+        },
+        "sameDimensionsAndFourByThreeAspectRatio": true,
+        "copiedGeneratedBytesUnmodified": true
+      }
+    },
+    {
+      "key": "scheu",
+      "input": "assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-6a65854f-97f2-4b6c-9c01-7faf0d3cb072.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png",
+      "prompt": "Use case: precise-object-edit / style-transfer.\nImage 1 is the EDIT TARGET: the existing warm parchment-and-leather 4:3 Caffè Luce skeuomorphic website screenshot. Change ONLY the four picture areas inside it. Lock the interface completely: same parchment texture, narrow leather header and stitching, gold/brown rules, raised brown button, serif lettering, fonts and sizes, all wording and line breaks, picture positions, framed menu grid, contact strip and footer. Return ONE complete very sharp high-quality 4:3 screenshot at the same composition and aspect ratio. No physical book, device, browser frame, perspective, extra objects or external surroundings.\nRESTYLE ALL FOUR EXISTING PICTURES: (1) the large upper-right hero café still-life, with exactly one espresso cup and saucer at front-left, exactly one croissant and plate at back-right, folded napkin at lower-right, the same table, chair and background in the same composition; (2) the lower-left espresso cup and saucer; (3) the lower-center single croissant; (4) the lower-right tea cup. Preserve subjects, number of objects, viewpoint, relative scale and placement; keep each picture inside its existing slot. All four must visibly become matching illustrations instead of untouched camera photographs.\nNEW PICTURE TREATMENT ONLY: refined warm realistic illustrated café still-life in muted sepia, amber, ivory and brown, with delicate engraved/crosshatched linework, tactile paper grain and gentle traditional hand-rendered shading. Think an elegant vintage café menu illustration: tangible ceramic, flaky croissant, translucent tea, woven napkin and wood remain convincingly modeled but clearly engraved/illustrated. The hero is an illustrated version of the existing scene, not merely a sepia-tinted photograph. The three menu products use the same elegant engraved warm-paper treatment, retaining clear object silhouettes. Match the existing skeuomorphic paper-and-leather interface without changing the interface itself. No cartoon characters, modern flat vector, pixel-art, glossy blue CGI, new embellishments or added food/drinks.\nCOPY MUST REMAIN EXACT, accents, punctuation and quantities: CAFFÈ LUCE; Menu; Il locale; Contatti; Una pausa, ogni giorno.; Caffè, dolci e incontri.; Scopri il menu; Il nostro menu; Caffè; Espresso e cappuccino; Croissant; Ogni mattina; Tè; Una selezione di aromi; Ti aspettiamo; Lun–Sab · 7–19; In centro, ogni giorno.; CAFFÈ LUCE; Un luogo per una pausa. Keep the original line breaks and original sharp text. Do not distress, blur or regenerate lettering. Change ONLY the four image areas.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "89b76c34c0e24404d9527efafff73ced31899f98337fa726feaa3e69074d950c",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "manualTextVerbatim": true,
+        "manualAllFourImagesRestyled": true,
+        "manualSubjectCompositionAndCountPreserved": true,
+        "manualLayoutFontPalettePreserved": true,
+        "manualRasterQuality": "Passed; all four image areas are warm realistic engravings/crosshatched illustrations on paper; unchanged parchment/leather interface.",
+        "allFourPictureRegionsChangedMeanAbsoluteRgbDifference": {
+          "hero": 23.942,
+          "menuCoffee": 13.816,
+          "menuCroissant": 15.45,
+          "menuTea": 16.226
+        },
+        "sameDimensionsAndFourByThreeAspectRatio": true,
+        "copiedGeneratedBytesUnmodified": true
+      }
+    },
+    {
+      "key": "flat",
+      "input": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10c4b-7d51-78a2-af29-31202d562c30/exec-a299dac0-57ab-4df9-88ac-95e4810de82f.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "prompt": "Use case: style-transfer.\nImage 1 is the EDIT TARGET: an existing complete Caffè Luce website screenshot for a design textbook. Update ONLY the visual imagery WITHIN its four existing image regions: (1) hero picture on the right, (2) coffee menu image, (3) croissant menu image, (4) tea menu image. Change all four so their medium and palette visibly match this website's interface style.\nPreserve the exact website, aspect ratio 4:3, all layout/positions/sizes, navigation, all typography, UI backgrounds, colors, buttons, rules, section order and ALL written text. Do not redesign the UI. Do not add sections, labels, browser chrome, prices, objects or badges. Original photos must be replaced by styled images, not merely left untouched.\nHero invariant: one espresso cup with saucer, one croissant on its plate, folded napkin and table, in the same composition. Menu invariants: cup+ saucer, one croissant, one teacup, same object size and position within each menu panel.\nExact text, unchanged: \"CAFFÈ LUCE\"; \"Menu\"; \"Il locale\"; \"Contatti\"; \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; \"Caffè\" / \"Espresso e cappuccino\"; \"Croissant\" / \"Ogni mattina\"; \"Tè\" / \"Una selezione di aromi\"; \"Ti aspettiamo\"; \"Lun–Sab · 7–19\"; \"In centro, ogni giorno.\"; \"Un luogo per una pausa\".\nOutput one sharp complete high-resolution webpage screenshot, ideally >=1448x1086. All text and small labels crisp, not degraded. Only four content images change.\nSTYLE OF THE CONTENT IMAGES:\nFLAT DESIGN imagery: replace all photographs with clean two-dimensional vector-like illustrations. Hero has flat geometric espresso cup/saucer, croissant/plate and folded napkin on a simply drawn oak-toned table, with solid terracotta, navy, ivory and warm beige shapes. Menu images are matching flat illustrated cup, croissant and tea. No photorealism, gradients, 3D modeling, textures or shadows inside the new illustrations. Same geometry and subjects, instantly recognizable. The surrounding flat UI stays exactly as in Image1.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "fourImagesChanged": true,
+        "subjectsPreserved": true,
+        "copyVisuallyVerified": true,
+        "layoutPreserved": true,
+        "sharpness": "passed",
+        "style": "2D geometric illustrations"
+      }
+    },
+    {
+      "key": "material",
+      "input": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10c4b-7d51-78a2-af29-31202d562c30/exec-5eda4316-edb2-48d5-b899-bac1326aefc2.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+      "prompt": "Use case: style-transfer.\nImage 1 is the EDIT TARGET: an existing complete Caffè Luce website screenshot for a design textbook. Update ONLY the visual imagery WITHIN its four existing image regions: (1) hero picture on the right, (2) coffee menu image, (3) croissant menu image, (4) tea menu image. Change all four so their medium and palette visibly match this website's interface style.\nPreserve the exact website, aspect ratio 4:3, all layout/positions/sizes, navigation, all typography, UI backgrounds, colors, buttons, rules, section order and ALL written text. Do not redesign the UI. Do not add sections, labels, browser chrome, prices, objects or badges. Original photos must be replaced by styled images, not merely left untouched.\nHero invariant: one espresso cup with saucer, one croissant on its plate, folded napkin and table, in the same composition. Menu invariants: cup+ saucer, one croissant, one teacup, same object size and position within each menu panel.\nExact text, unchanged: \"CAFFÈ LUCE\"; \"Menu\"; \"Il locale\"; \"Contatti\"; \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; \"Caffè\" / \"Espresso e cappuccino\"; \"Croissant\" / \"Ogni mattina\"; \"Tè\" / \"Una selezione di aromi\"; \"Ti aspettiamo\"; \"Lun–Sab · 7–19\"; \"In centro, ogni giorno.\"; \"Un luogo per una pausa\".\nOutput one sharp complete high-resolution webpage screenshot, ideally >=1448x1086. All text and small labels crisp, not degraded. Only four content images change.\nSTYLE OF THE CONTENT IMAGES:\nMATERIAL DESIGN imagery: replace all four photographs with a coherent geometric paper-cut illustration system, using lavender, violet, cream, muted terracotta and coffee brown. Hero cup+croissant+plate+napkin/table are layered crisp paper-like shapes with restrained shallow elevation and subtle contact shadows. Menu cup, croissant and tea are matching paper-cut illustrations, gentle layered shapes and clear silhouettes. This is illustrative content that follows Material's paper/surface metaphor, not a natural photograph and not glossy 3D. Preserve all purple/white UI exactly.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "fourImagesChanged": true,
+        "subjectsPreserved": true,
+        "copyVisuallyVerified": true,
+        "layoutPreserved": true,
+        "sharpness": "passed",
+        "style": "layered paper-cut illustrations"
+      }
+    },
+    {
+      "key": "neumo",
+      "input": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-71c5ca5a-d28f-4db0-92bf-164622c7ca4c.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: contemporary NEUMORPHIC soft clay / tactile 3D product illustrations, not ordinary photographs. The espresso cup, saucer, croissant and tea cup become softly extruded, rounded, sculptural clay forms with pale cool gray and subtle warm food-color accents. Create a recognizable laminated croissant through restrained sculptural ridges, a dark amber espresso surface and amber tea. Diffuse studio light, paired soft white highlights and delicate slate shadows create gentle relief. The tabletop, folded napkin and image-field backgrounds become soft tonal gray sculptural surfaces that fit the source pale gray interface, without changing the interface. Menu objects must all look softly modeled and extruded, not retain their source realistic photo textures. Hero and all three menu visuals receive the same stylistic treatment.\nTargeted precision for this edit: ALL FOUR image fields must share a visibly non-photographic soft clay material. In particular, the TEA MENU IMAGE must NOT remain a transparent glass cup. Replace that photo with the same rounded tea-cup silhouette and handle modeled in opaque pale cool-gray soft clay, with softly extruded smooth rim and rounded handle; show the amber tea only at the top opening of the opaque cup. Add subtle paired white highlight / slate-gray cast shadows around it, creating the same gentle relief as the source neumorphic interface. This is the essential tea-image requirement. The espresso cup, saucer and napkin also have opaque soft-clay rendering; the two croissants have smooth sculptural warm-orange clay ridges without crisp flaky photographic texture. Preserve original UI, sharp source lettering, every text string, page dimensions, all field positions and quantities exactly. No extra elements outside the four image areas.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "fourImageFieldsChanged": true,
+        "subjectQuantityPreserved": true,
+        "originalCopySharpAndVerbatim": true,
+        "fullPage4x3": true,
+        "uiPaletteTypographyAndGridPreserved": true,
+        "visualInspection": true,
+        "complete": true,
+        "note": "Passed after targeted direct-v1 edit: tea cup now visibly opaque soft clay, amber tea at top opening; all four image fields share clay treatment.",
+        "imageFields": {
+          "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+          "coffee": "Visibly restyled; one cup and saucer retained",
+          "croissant": "Visibly restyled; one croissant retained",
+          "tea": "Visibly restyled; one tea cup with amber tea retained"
+        },
+        "copyVerified": [
+          "CAFFÈ LUCE",
+          "Menu",
+          "Il locale",
+          "Contatti",
+          "Una pausa, ogni giorno.",
+          "Caffè, dolci e incontri.",
+          "Scopri il menu",
+          "Il nostro menu",
+          "Caffè",
+          "Espresso e cappuccino",
+          "Croissant",
+          "Ogni mattina",
+          "Tè",
+          "Una selezione di aromi",
+          "Ti aspettiamo",
+          "Lun–Sab · 7–19",
+          "In centro, ogni giorno.",
+          "Un luogo per una pausa"
+        ]
+      }
+    },
+    {
+      "key": "glass",
+      "input": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-75b0d09a-0fe6-4ab5-b897-20ad01f0ed91.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: GLASSMORPHIC crisp sculptural 3D glass illustrations, not ordinary photographs. Keep the espresso cup and saucer, croissant and tea cup clearly recognizable, but render their forms as translucent/iridescent art glass with cyan and lavender reflections and refracted light. Amber coffee and amber tea remain visible within clear glass cups, one each. The croissant remains croissant-shaped with curved laminated ridges, using warm amber translucent glass plus cool iridescent edge reflections. Hero tabletop and the folded napkin become coherent pale translucent/perly stylized surfaces, with restrained refraction and delicate reflected color. The three menu objects get the same glass material and color treatment. Maintain visual readability and subject silhouettes against the unchanged source interface; reflections stay inside the four image fields. No abstract glass sphere substitute and no extra objects.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "fourImageFieldsChanged": true,
+        "subjectQuantityPreserved": true,
+        "originalCopySharpAndVerbatim": true,
+        "fullPage4x3": true,
+        "uiPaletteTypographyAndGridPreserved": true,
+        "visualInspection": true,
+        "complete": true,
+        "note": "Passed.",
+        "imageFields": {
+          "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+          "coffee": "Visibly restyled; one cup and saucer retained",
+          "croissant": "Visibly restyled; one croissant retained",
+          "tea": "Visibly restyled; one tea cup with amber tea retained"
+        },
+        "copyVerified": [
+          "CAFFÈ LUCE",
+          "Menu",
+          "Il locale",
+          "Contatti",
+          "Una pausa, ogni giorno.",
+          "Caffè, dolci e incontri.",
+          "Scopri il menu",
+          "Il nostro menu",
+          "Caffè",
+          "Espresso e cappuccino",
+          "Croissant",
+          "Ogni mattina",
+          "Tè",
+          "Una selezione di aromi",
+          "Ti aspettiamo",
+          "Lun–Sab · 7–19",
+          "In centro, ogni giorno.",
+          "Un luogo per una pausa"
+        ]
+      }
+    },
+    {
+      "key": "minimal",
+      "input": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e17-8f8f-76b2-a1c5-a943708ad8b5/exec-af3dab10-df55-4c3f-a0b2-d42aae2a09e5.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: complete website screenshot used as a controlled comparison in an Italian design textbook.\nImage 1 is the ONLY EDIT TARGET, not a loose reference. Preserve this exact full website screenshot, its aspect ratio, framing, grid, all UI, positions, margins, borders, lines, buttons, typography, palette outside the pictures, and every text character. Do not crop or reorganize the page.\nONLY edit the FOUR EXISTING PICTURES: (1) the hero upper right with one espresso cup and saucer at front left, one croissant on its plate at back right, a folded napkin at lower right and the table; (2) menu coffee cup and saucer; (3) menu croissant; (4) menu tea glass with handle and tea. Keep these same objects, quantities, relative sizes, positions, composition, and the exact rectangular picture regions. No new food, people, props, logos, text, stickers, or extra objects. All four pictures MUST visibly change medium/lighting/palette; do not leave the original color photographs in any of the four locations.\nINVARIANT UI AND VERBATIM COPY: \"CAFFÈ LUCE\" twice; navigation \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa,\" / \"ogni giorno.\"; \"Caffè, dolci e incontri.\"; button \"Scopri il menu\"; heading \"Il nostro menu\"; ordered items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"Un luogo per una pausa\". Every word, accent, punctuation, size and position must remain exact, sharp and readable. Never alter or style the UI to match a new image treatment; the original UI is locked.\nReturn ONE complete high-resolution landscape website screenshot, with only those four image regions edited, no browser chrome, watermark, outside scenery, or presentation mockup.\nPICTURE STYLE FOR ALL FOUR REGIONS: refined minimalist MONOCHROME black-and-white photographic still life. Completely replace the warm colored source photography with crisp, high-key editorial product photography, pure white and soft light-gray backgrounds, quiet simple geometry, natural soft diffuse studio light, controlled gray shadows, sharp clean detail. The hero must be visibly black-and-white and high-key: a pale white/gray table, the same espresso cup and croissant placement, folded napkin and plate; no warm oak color, orange food color or green plants retained. The three menu images must also become individually monochrome high-key product photographs on clean white/gray, matching the hero. Simplify light and backdrop while keeping the recognizability and quantities of all subjects. Keep the entire minimalist black/white website UI exactly as in Image 1; do not add any embellishments, textures, frames or decorations to the UI.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "result": "passed",
+        "visualInspection": "Both complete images viewed. All four picture regions inspected, including hero and three menu pictures.",
+        "fourImagesChanged": true,
+        "heroChanged": true,
+        "menuCoffeeChanged": true,
+        "menuCroissantChanged": true,
+        "menuTeaChanged": true,
+        "style": "High-key monochrome photographic still life and three matching clean product photographs; light gray/white scene.",
+        "objectsAndQuantitiesPreserved": true,
+        "compositionAndGridPreserved": true,
+        "verbatimTextPreserved": true,
+        "typographyAndUIPalettePreserved": true,
+        "crispText": true,
+        "invarianceAssessment": "Visual semantic/layout preservation; not a claim of byte-identical pixels outside the edited pictures.",
+        "originalRetained": true
+      }
+    },
+    {
+      "key": "y2k",
+      "input": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-65f4e762-2316-4256-bc07-cf3d9e73359a.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: Y2K metallic retrofuturist 3D illustrations, not ordinary photographs. Espresso cup and saucer, croissant and tea cup become pearlescent chrome sculptural objects, with electric blue/lilac reflective highlights, silver edges and restrained amber drink / pastry accents. Keep recognizable cup handles, saucer, espresso surface, crescent croissant layered ridges, and tea silhouette. Add small pixel-star glints inside the existing image fields, never outside them. The hero's tabletop/background hint becomes a reflective pearly futurist surface while preserving its spatial layout and the folded white napkin. All three menu images must also visibly become reflective chrome/perly 3D renderings. Source UI already has the correct chrome aesthetic; do not alter any chrome frame, button, star, text, grid or original page styling.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "fourImageFieldsChanged": true,
+        "subjectQuantityPreserved": true,
+        "originalCopySharpAndVerbatim": true,
+        "fullPage4x3": true,
+        "uiPaletteTypographyAndGridPreserved": true,
+        "visualInspection": true,
+        "complete": true,
+        "note": "Passed.",
+        "imageFields": {
+          "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+          "coffee": "Visibly restyled; one cup and saucer retained",
+          "croissant": "Visibly restyled; one croissant retained",
+          "tea": "Visibly restyled; one tea cup with amber tea retained"
+        },
+        "copyVerified": [
+          "CAFFÈ LUCE",
+          "Menu",
+          "Il locale",
+          "Contatti",
+          "Una pausa, ogni giorno.",
+          "Caffè, dolci e incontri.",
+          "Scopri il menu",
+          "Il nostro menu",
+          "Caffè",
+          "Espresso e cappuccino",
+          "Croissant",
+          "Ogni mattina",
+          "Tè",
+          "Una selezione di aromi",
+          "Ti aspettiamo",
+          "Lun–Sab · 7–19",
+          "In centro, ogni giorno.",
+          "Un luogo per una pausa"
+        ]
+      }
+    },
+    {
+      "key": "max",
+      "input": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-45b10ed7-30ca-4be4-9a71-ff9608c5ba0a.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+      "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: energetic MAXIMALIST saturated illustrative collage / layered paper-cut graphics, not ordinary photographs. Reinterpret the espresso cup with saucer, croissant and tea cup as crisp expressive cut-paper food illustrations with rich magenta, orange, lime and deep purple accents, hand-drawn texture, layered cutout edges and rhythmic graphic detail. Keep all food silhouettes unmistakable and preserve original subject positions and quantities. Hero still has one cup with espresso and saucer, one croissant on its plate, one folded white napkin and a tabletop suggestion, now in vivid collage form. Menu images all three must visibly change to the same saturated illustrative treatment. Image-field collage can include graphic rays, stippling and small decorative cut-paper shapes, confined to the image areas. Leave all surrounding already-maximalist interface graphics, typography and card backgrounds unchanged. Never obscure labels and captions.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "fourImageFieldsChanged": true,
+        "subjectQuantityPreserved": true,
+        "originalCopySharpAndVerbatim": true,
+        "fullPage4x3": true,
+        "uiPaletteTypographyAndGridPreserved": true,
+        "visualInspection": true,
+        "complete": true,
+        "note": "Passed.",
+        "imageFields": {
+          "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+          "coffee": "Visibly restyled; one cup and saucer retained",
+          "croissant": "Visibly restyled; one croissant retained",
+          "tea": "Visibly restyled; one tea cup with amber tea retained"
+        },
+        "copyVerified": [
+          "CAFFÈ LUCE",
+          "Menu",
+          "Il locale",
+          "Contatti",
+          "Una pausa, ogni giorno.",
+          "Caffè, dolci e incontri.",
+          "Scopri il menu",
+          "Il nostro menu",
+          "Caffè",
+          "Espresso e cappuccino",
+          "Croissant",
+          "Ogni mattina",
+          "Tè",
+          "Una selezione di aromi",
+          "Ti aspettiamo",
+          "Lun–Sab · 7–19",
+          "In centro, ogni giorno.",
+          "Un luogo per una pausa"
+        ]
+      }
+    },
+    {
+      "key": "neo",
+      "input": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v1.png",
+      "source": "/Users/marco/.codex/generated_images/01a10e17-8f8f-76b2-a1c5-a943708ad8b5/exec-7e7f94d2-63e3-4c89-978a-a532e8f6d4c5.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+      "prompt": "Use case: precise-object-edit.\nAsset type: complete website screenshot used as a controlled comparison in an Italian design textbook.\nImage 1 is the ONLY EDIT TARGET, not a loose reference. Preserve this exact full website screenshot, its aspect ratio, framing, grid, all UI, positions, margins, borders, lines, buttons, typography, palette outside the pictures, and every text character. Do not crop or reorganize the page.\nONLY edit the FOUR EXISTING PICTURES: (1) the hero upper right with one espresso cup and saucer at front left, one croissant on its plate at back right, a folded napkin at lower right and the table; (2) menu coffee cup and saucer; (3) menu croissant; (4) menu tea glass with handle and tea. Keep these same objects, quantities, relative sizes, positions, composition, and the exact rectangular picture regions. No new food, people, props, logos, text, stickers, or extra objects. All four pictures MUST visibly change medium/lighting/palette; do not leave the original color photographs in any of the four locations.\nINVARIANT UI AND VERBATIM COPY: \"CAFFÈ LUCE\" twice; navigation \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa,\" / \"ogni giorno.\"; \"Caffè, dolci e incontri.\"; button \"Scopri il menu\"; heading \"Il nostro menu\"; ordered items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"Un luogo per una pausa\". Every word, accent, punctuation, size and position must remain exact, sharp and readable. Never alter or style the UI to match a new image treatment; the original UI is locked.\nReturn ONE complete high-resolution landscape website screenshot, with only those four image regions edited, no browser chrome, watermark, outside scenery, or presentation mockup.\nPICTURE STYLE FOR ALL FOUR REGIONS: strongly flat, hand-drawn poster-like neobrutalist food illustrations, absolutely NOT photography, 3D rendering, glossy realism or a photo filter. Use only yellow, warm cream, solid black and restrained orange. Bold sharp black outlines, flat duotone or limited-color fills, hard graphic black shadows, squared cutout geometry, crisp illustrative details. The hero becomes a graphic illustration of the SAME espresso cup and saucer, croissant and plate, folded napkin and table in the SAME composition. The three menu pictures become separately drawn flat outlined illustrations of the SAME coffee cup, croissant and tea glass, with the same placement and sizes. All four must be unmistakably illustrated and visually coordinated with the yellow/cream/black/orange website. Preserve every existing yellow gutter, cream panel, thick black UI border, hard UI shadow, typeface, button, caption and word exactly unchanged. No extra doodles, captions, food, patterns or outlines outside the existing picture regions.",
+      "generatedWith": "Built-in Imagegen",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "sha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f",
+      "quality": "All four image regions inspected. Food subjects, copy, structure, aspect ratio and sharpness verified. Imagery follows the page style.",
+      "qa": {
+        "result": "passed",
+        "visualInspection": "Both complete images viewed. All four picture regions inspected, including hero and three menu pictures.",
+        "fourImagesChanged": true,
+        "heroChanged": true,
+        "menuCoffeeChanged": true,
+        "menuCroissantChanged": true,
+        "menuTeaChanged": true,
+        "style": "Flat limited-color yellow/cream/black/orange poster illustrations, strong outlines and hard graphic shadows in all four picture regions.",
+        "objectsAndQuantitiesPreserved": true,
+        "compositionAndGridPreserved": true,
+        "verbatimTextPreserved": true,
+        "typographyAndUIPalettePreserved": true,
+        "crispText": true,
+        "invarianceAssessment": "Visual semantic/layout preservation; not a claim of byte-identical pixels outside the edited pictures.",
+        "originalRetained": true
+      }
+    }
+  ]
+}

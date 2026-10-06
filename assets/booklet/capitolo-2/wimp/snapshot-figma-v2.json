@@ -1,0 +1,60 @@
+{
+  "image": {
+    "id": "2279:311",
+    "w": 417,
+    "h": 278,
+    "fills": [
+      {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "FIT",
+        "scalingFactor": 0.5,
+        "rotation": 0,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        "imageHash": "a7b191225962743faa63b2ca9e81fee46c5bfd53"
+      }
+    ]
+  },
+  "caption": {
+    "id": "2279:313",
+    "text": "Paradigma WIMP: finestre, icone, menu e puntatore.",
+    "w": 363,
+    "h": 12
+  },
+  "figure": {
+    "id": "2279:310",
+    "w": 417,
+    "h": 306.5,
+    "x": -27,
+    "y": 208
+  },
+  "archive": {
+    "id": "2370:249",
+    "visible": false,
+    "imageHash": "f274acbff582332c91b527bbe99e8ebd0b02db35"
+  },
+  "visualReview": "passed",
+  "date": "2026-10-06"
+}

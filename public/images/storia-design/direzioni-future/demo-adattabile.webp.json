@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "key": "adattabile",
+  "kind": "ai-generated-hypothetical-future-interface",
+  "prompt": "Use case: precise-object-edit / ui-mockup.\nImage 1 is the EDIT TARGET: the already successful Caffè Luce desktop/mobile adaptive comparison. Make ONLY a natural WIDER COMPOSITION for the same design: output LANDSCAPE 16:9, approximately 1600×900. The current input is 4:3; the output MUST become 16:9. This is an intentional aspect-ratio change. Do NOT simply crop, stretch or squash the original picture. Recompose the desktop and mobile interfaces naturally onto the wider landscape canvas, keeping every piece of content fully visible, readable and equally crisp.\nKeep the same classy opaque ivory, near-black and subtle deep-teal café brand, thin rules, illustrations/photos of espresso/croissant/tea, identical wordmark, and the same two interface states side by side. There must be no outer labels, annotations, title, caption, watermark, browser chrome or device hardware. Preserve all exact UI words. No extra words or numbers.\nThe desktop surface on the left should occupy approximately 65% width; the mobile surface on the right approximately 30%, with a small restrained gap. Both states use nearly the full canvas height and have LARGE type legible at 350px print width. Preserve the purposeful typography contrast: wider medium-weight sans-serif desktop headline vs more condensed heavier version of the same family on mobile. Preserve the stable hierarchy and same information, not different content or an automatic-personalization claim.\nDesktop keeps a slim CAFFÈ LUCE / Menu header, a prominent two-line Una pausa, ogni giorno. headline with the espresso/croissant hero scene beside it, then Caffè / Croissant / Tè in three columns with their clear product pictures. Mobile keeps the CAFFÈ LUCE / Menu header, the same strong condensed two-line headline, and the same three products reflowed as a vertical list with equally large readable labels. Fit the entire menu including Tè into the 16:9 output; do not truncate the third item or footer edges.\nEXACT COPY IN BOTH STATES: \"CAFFÈ LUCE\", \"Menu\", \"Una pausa, ogni giorno.\", \"Caffè\", \"Croissant\", \"Tè\". Each phrase appears once per state, with accents and punctuation intact. Keep the café neutral. No prices, stats, eco badges or new interface panels. Preserve the visual idea and readability while WIDENING and naturally arranging the interfaces into a true16:9 composition. Sharp high-quality bitmap, not a book page.",
+  "createdAt": "2026-10-06T09:06:49.079179+00:00",
+  "updatedAt": "2026-10-06T09:09:44.897381+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-89e3a158-6141-4070-a4f0-6c70e3d51b26.png",
+  "assetSourceFile": "assets/booklet/capitolo-2/direzioni-future/demo-adattabile-v1.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-295"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2258:295",
+  "sourceFigmaImageNode": "2358:253",
+  "bookletFolio": 76,
+  "bookletChapterOrdinal": 56,
+  "bookletSourceRole": "hypothetical-future-concept",
+  "caption": "Ipotesi progettuale · Caffè Luce · Imagegen, 2026",
+  "generationManifest": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+  "promptPointer": {
+    "manifest": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+    "pointer": "/images/0/prompt",
+    "key": "adattabile"
+  },
+  "generationQA": {
+    "manualExactCopyInBothStates": true,
+    "manualSameCafeSubjectsAndMenuItems": true,
+    "manualWideMediumVsCondensedHeavyTypography": true,
+    "manualThreeColumnsReflowToVerticalList": true,
+    "manualNoAutomaticOrMagicClaim": true,
+    "manualLegibleAt350pxPrintWidth": true,
+    "manualNoCroppingOfUIOrThirdMenuItem": true,
+    "manualRasterQuality": "Passed; sharp large type in both states, coherent ivory/near-black/teal palette, naturally recomposed 16:9.",
+    "copiedGeneratedBytesUnmodified": true,
+    "nativeWideAspectRatioVerified": true
+  },
+  "sourceSha256": "374daa7d93396943692e89e723616d74f8528a0327b3ac3592483289800b3aa8",
+  "outputSha256": "1b064945e133ba518d6948fd44c19cb439e70dc95c2738a7a8a77e61317d5f24",
+  "sourceDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "outputDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; complete source resolution retained",
+    "pixelRoundTripVerified": true
+  }
+}

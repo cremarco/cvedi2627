@@ -14,7 +14,7 @@ routeAlias: introduzione-teorica
 <p>Design, comunicazione visiva ed esperienza utente</p>
 
 <!--
-Tempo previsto: 1 min. Slide 1 del capitolo (slide 68 del deck).
+Tempo previsto: 1 min. Slide 1 del capitolo (slide 71 del deck).
 
 Presentare la lezione come il passaggio dalle informazioni sul corso ai contenuti teorici. Il capitolo 1 del booklet è il filo guida; i materiali dell’anno precedente offrono esempi da discutere. Anticipare il percorso: significato del design, qualità dell’esperienza e metodo di progetto.
 
@@ -42,7 +42,7 @@ lessonMinutes: 1
 </div>
 
 <!--
-Tempo previsto: 1 min. Slide 2 del capitolo (slide 69 del deck).
+Tempo previsto: 1 min. Slide 2 del capitolo (slide 72 del deck).
 
 Condividere gli obiettivi. Alla fine gli studenti dovranno spiegare perché una scelta formale dipende da un bisogno, distinguere interfaccia ed esperienza e descrivere come si verifica una proposta. Non è necessario imparare oggi tutti gli strumenti: le fasi saranno approfondite nelle lezioni successive.
 
@@ -70,7 +70,7 @@ lessonMinutes: 1.5
 </ul>
 
 <!--
-Tempo previsto: 90 s. Slide 3 del capitolo (slide 70 del deck).
+Tempo previsto: 90 s. Slide 3 del capitolo (slide 73 del deck).
 
 Raccogliere due interventi rapidi dalla classe senza anticipare giudizi estetici. Annotare verbalmente obiettivo, ostacolo e informazione mancante. Riprendere uno degli esempi nella distinzione UX/UI/usabilità. Le domande derivano dall’osservazione dei casi di uso difficile della lezione 3.
 
@@ -94,7 +94,7 @@ lessonMinutes: 1.5
 <div class="lesson-statement">Le forme raccontano una società.<br>Le scelte progettuali la trasformano.</div><p class="lead">Oggetti, immagini e servizi esprimono <strong>bisogni, valori e modi di vivere</strong>.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 4 del capitolo (slide 71 del deck).
+Tempo previsto: 90 s. Slide 4 del capitolo (slide 74 del deck).
 
 Il booklet apre con il legame fra arte, design e società. Rielaborare il passaggio in forma discorsiva: gli artefatti sono prodotti di un contesto culturale e contribuiscono a modificarlo. La frase attribuita a Ruskin nel booklet non viene riportata come citazione letterale: l’attribuzione esatta non è stata verificata. Evitare di confondere l’interpretazione introduttiva con una definizione universale.
 
@@ -123,7 +123,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 5 del capitolo (slide 72 del deck).
+Tempo previsto: 90 s. Slide 5 del capitolo (slide 75 del deck).
 
 Esplicitare le quattro funzioni indicate dal booklet. Un manifesto può persuadere e informare; un manuale può educare e identificare un marchio. Le funzioni non sono categorie esclusive. Collegare l’identità alla riconoscibilità delle interfacce, presente nella lezione 2. Chiedere un esempio senza aprire una quarta attività strutturata.
 
@@ -151,7 +151,7 @@ lessonMinutes: 1.5
 </div><p class="aside">Gerarchie, immagini e parole influiscono su ciò che comprendiamo e scegliamo.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 6 del capitolo (slide 73 del deck).
+Tempo previsto: 90 s. Slide 6 del capitolo (slide 76 del deck).
 
 Il booklet ricorda il potere persuasivo del design e cita propaganda e comunicazione politica. Tradurre questo punto in tre domande operative, senza attribuirle come elenco letterale all’autore. Collegare la gerarchia visiva agli esempi della lezione 2. Una scelta può facilitare un’azione oppure rendere meno visibili alternative: discuterne l’effetto, non soltanto l’aspetto.
 
@@ -178,7 +178,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 7 del capitolo (slide 74 del deck).
+Tempo previsto: 90 s. Slide 7 del capitolo (slide 77 del deck).
 
 Osservare l’immagine originale del booklet. Chiedere che cosa fa riconoscere una mano e che cosa rimane dell’utensile. Questo esempio permette di parlare del rapporto fra espressione e uso senza stabilire una separazione assoluta fra arte e design. Il designer deve rendere esplicito lo scopo del proprio intervento; la stessa forma può assumere funzioni differenti.
 
@@ -205,7 +205,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 8 del capitolo (slide 75 del deck).
+Tempo previsto: 90 s. Slide 8 del capitolo (slide 78 del deck).
 
 Parafrasare Design Q & A di Charles Eames: organizzazione degli elementi, scopo, riconoscimento del bisogno e lavoro entro i vincoli. Il testo originale è verificato nella trascrizione pubblicata da Vitra. Connettere questo punto alla creatività come soluzione di problemi, che riapparirà nel ruolo dello UX designer.
 Fonte primaria: https://www.vitra.com/en-un/magazine/details/what-is-your-definition-of-design-monsieur-eames
@@ -229,11 +229,11 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <div><p class="lead">Una moneta unisce <strong>uso, immagine e identità</strong>.</p><p>Simboli e composizione rendono riconoscibile un oggetto destinato alla circolazione.</p></div>
-  <LessonFigure :panels="2" panel-aspect-ratio="736 / 700" src="/images/introduzione/moneta-atene.webp" alt="Dritto e rovescio di una moneta ateniese, con un volto e una civetta" caption="La moneta ateniese riprodotta nel booklet" />
+  <LessonFigure :panels="2" panel-aspect-ratio="736 / 700" src="/images/introduzione/moneta-atene.webp" alt="Dritto e rovescio di una moneta ateniese, con un volto e una civetta" caption="Moneta ateniese · dritto e rovescio" />
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 9 del capitolo (slide 76 del deck).
+Tempo previsto: 90 s. Slide 9 del capitolo (slide 79 del deck).
 
 Usare la moneta come esempio storico di relazione fra funzione ed espressione visiva. Nel booklet compare nella discussione su equilibrio, armonia e simmetria. Non ripetere la datazione della didascalia né presentare una genealogia diretta della moneta moderna, non verificate. La nozione di design si estende nel tempo: qui basta osservare che un oggetto d’uso può comunicare anche appartenenza e valore.
 
@@ -261,7 +261,7 @@ lessonMinutes: 1.5
 </div><p class="aside">Una buona proposta mette in relazione tutti e tre.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 10 del capitolo (slide 77 del deck).
+Tempo previsto: 90 s. Slide 10 del capitolo (slide 80 del deck).
 
 Riprendere la prospettiva di Eames e la distinzione forma/contesto del booklet. Prezzo, dimensioni, resistenza e tempo sono esempi di vincoli, non una lista esaustiva. La funzione non determina automaticamente una sola forma: esistono alternative da valutare rispetto allo scopo. Il progettista rende espliciti i compromessi e verifica se il risultato è adeguato.
 Riscontro: https://www.vitra.com/en-un/magazine/details/what-is-your-definition-of-design-monsieur-eames
@@ -293,7 +293,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 11 del capitolo (slide 78 del deck).
+Tempo previsto: 90 s. Slide 11 del capitolo (slide 81 del deck).
 
 Questa è una sintesi didattica dei criteri del booklet, che richiama Rams e Conran: funzionamento, facilità d’uso, qualità estetica, rapporto qualità/prezzo, innovazione e durata. Non attribuire l’elenco come citazione letterale o come riproduzione dei dieci principi di Rams. L’innovazione non richiede novità a ogni costo. La coerenza visiva è una lettura operativa della qualità estetica.
 
@@ -321,7 +321,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 12 del capitolo (slide 79 del deck).
+Tempo previsto: 90 s. Slide 12 del capitolo (slide 82 del deck).
 
 Riprendere WHO, WHERE e WHAT della lezione 3. Un’interfaccia leggibile alla scrivania può risultare difficile in movimento o con una sola mano. Gli esempi servono a mostrare che il contesto modifica il giudizio; non sono nuovi casi di progetto da sostituire a quelli originali. Collegare le esigenze degli utenti a quelle del committente senza trattarle come necessariamente coincidenti.
 
@@ -352,7 +352,7 @@ lessonMinutes: 2
 </div>
 
 <!--
-Tempo previsto: 2 min. Slide 13 del capitolo (slide 80 del deck).
+Tempo previsto: 2 min. Slide 13 del capitolo (slide 83 del deck).
 
 Prima attività: assegnare un minuto alle coppie e un minuto al confronto. Risposte attese: attraversare la soglia; maniglione e cartello suggeriscono azioni; verso di apertura e comprensibilità del comando condizionano l’uso. La porta mostra un conflitto fra indizio formale e azione richiesta. Evitare di colpevolizzare l’utente: l’esitazione è un’informazione per il progetto.
 
@@ -376,7 +376,7 @@ lessonMinutes: 1.25
 <div class="lesson-statement">Parole e immagini danno forma<br>a un messaggio.</div><p class="lead">La composizione sostiene insieme <strong>informazione, significato ed emozione</strong>.</p>
 
 <!--
-Tempo previsto: 75 s. Slide 14 del capitolo (slide 81 del deck).
+Tempo previsto: 75 s. Slide 14 del capitolo (slide 84 del deck).
 
 Il booklet definisce la comunicazione visiva attraverso l’unione di linguaggio scritto e immagini, diretta al pubblico sul piano intellettuale ed emotivo. Ampliare oralmente: ordine, dimensioni, tipografia e relazione fra elementi sono parte del messaggio. Non presentare l’efficacia come sinonimo di sola gradevolezza. Nei materiali della lezione 2 questa relazione emerge nella gerarchia e nella riconoscibilità.
 
@@ -407,7 +407,7 @@ routeAlias: ux-immagini
 <p class="aside">La stessa immagine può svolgere più ruoli. Scegliamola in base al messaggio e al compito.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 15 del capitolo (slide 82 del deck).
+Tempo previsto: 90 s. Slide 15 del capitolo (slide 85 del deck).
 
 Chiedere quale immagine aiuterebbe Viola a capire il servizio e quale aiuterebbe a prenotarlo. Le tre funzioni non sono categorie esclusive: una fotografia può illustrare e, insieme, evocare. Nel PDF compare il termine “iconale”; qui è reso operativo come rappresentazione sintetica di una funzione. Un’icona non diventa universale perché è semplice: il suo significato va verificato nel contesto. Gli esempi del servizio sono illustrativi, non risultati di ricerca.
 
@@ -435,7 +435,7 @@ lessonMinutes: 1.5
 </div><p class="aside">Un simbolo familiare al designer può risultare ambiguo per il pubblico.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 16 del capitolo (slide 83 del deck).
+Tempo previsto: 90 s. Slide 16 del capitolo (slide 86 del deck).
 
 Il booklet richiede che mittente e destinatario condividano una lingua visiva. Parlare di convenzioni apprese e differenze culturali, evitando di dichiarare universali tutti i pittogrammi. L’efficacia va verificata con il pubblico di riferimento. Collegare al pittogramma culturale della lezione 3 e ai contesti culturali trattati nella lezione 8; questi ultimi saranno approfonditi altrove.
 
@@ -447,7 +447,7 @@ Riferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=1
 
 ---
 layout: default
-class: content-slide introduction-section lesson-slide reading-slide dense-slide
+class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonSlide: 17
@@ -457,21 +457,17 @@ routeAlias: ux-gerarchia
 
 # Stessi contenuti, priorità diverse
 
-<div class="cvedi-grid two">
-  <CvediCard title="A · Un peso uniforme">
-    <BookingFormExample id="ux-gerarchia-a" />
-  </CvediCard>
-  <CvediCard title="B · Una priorità riconoscibile">
-    <BookingFormExample id="ux-gerarchia-b" emphasized />
-  </CvediCard>
+<div class="lesson-columns">
+  <LessonFigure src="/images/introduzione/esempi/gerarchia-a.png" caption="A · Un peso uniforme" alt="Visita di fisioterapia, 45 minuti, 50 €, martedì alle 18:00, nome Viola e azione Prenota la visita: tutti gli elementi hanno un peso visivo simile." />
+  <LessonFigure src="/images/introduzione/esempi/gerarchia-b.png" caption="B · Una priorità riconoscibile" alt="Gli stessi contenuti della variante A; titolo e riepilogo sono in grassetto e l’azione Prenota la visita è evidenziata in indaco." />
 </div>
 
 <p class="aside">Esempi illustrativi non interattivi. Dove va lo sguardo? Quale azione emerge?</p>
 
 <!--
-Tempo previsto: 90 s. Slide 17 del capitolo (slide 84 del deck).
+Tempo previsto: 90 s. Slide 17 del capitolo (slide 87 del deck).
 
-I contenuti e l’ordine dei campi sono identici. Cambiano peso del titolo e del riepilogo, evidenza dell’azione principale e relazione fra gli elementi. I due form sono mockup didattici in sola lettura: non raccolgono dati né attivano una prenotazione. I pulsanti non hanno azioni e sono esclusi dalla sequenza di tabulazione, con stato aria-disabled esplicito. La schermata B rende intenzionalmente più visibile l’azione, ma non è il risultato di un test: chiedere quale ipotesi si dovrebbe verificare con utenti e compiti reali. Non riproporre la statistica degli otto secondi del vecchio materiale.
+I contenuti e l’ordine dei campi sono identici. Cambiano peso del titolo e del riepilogo, evidenza dell’azione principale e relazione fra gli elementi. I due esempi sono immagini statiche di mockup didattici: non contengono form HTML né raccolgono dati. Possono essere ingranditi per leggere i dettagli. La schermata B rende intenzionalmente più visibile l’azione, ma non è il risultato di un test: chiedere quale ipotesi si dovrebbe verificare con utenti e compiti reali. Non riproporre la statistica degli otto secondi del vecchio materiale.
 
 Booklet: p. 7, nodo 198:1772; p. 9, nodo 198:1964.
 PDF 2025/26: Lezione 02, pp. 106–107; principi di gerarchia pp. 39, 52.
@@ -496,11 +492,11 @@ lessonMinutes: 2.5
   <li><span>Quali errori sono anticipati?</span></li>
   <li><span>Che cosa bisogna già conoscere?</span></li>
 </ul></div>
-  <LessonFigure src="/images/introduzione/ikea-istruzioni-original.png" alt="Manuale IKEA aperto: strumenti necessari e azioni corrette e scorrette a sinistra, componenti e quantità a destra" caption="Manuale IKEA · immagine originale del booklet" />
+  <LessonFigure src="/images/introduzione/ikea-istruzioni-original.png" alt="Manuale IKEA aperto: strumenti necessari e azioni corrette e scorrette a sinistra, componenti e quantità a destra" caption="Manuale IKEA · istruzioni illustrate" />
 </div>
 
 <!--
-Tempo previsto: 150 s. Slide 18 del capitolo (slide 85 del deck).
+Tempo previsto: 150 s. Slide 18 del capitolo (slide 88 del deck).
 
 Dedicare due minuti e mezzo alla lettura guidata dell’immagine originale. Mostrare sequenze, divieti, strumenti e punti di attenzione. Il booklet cita anche i manuali Apple, ma l’immagine recuperata è IKEA: non inventare una seconda fonte visiva. Anche un manuale apparentemente privo di lingua richiede convenzioni e conoscenze; chiarezza e cultura vanno considerate insieme.
 
@@ -523,11 +519,11 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <div><p class="lead">Organizza informazioni e comandi fra <strong>persona e sistema</strong>.</p><p>Gerarchia, differenziazione e riconoscibilità aiutano a capire che cosa fare.</p></div>
-  <LessonFigure src="/images/introduzione/interfacce.webp" alt="Composizione di schermate digitali con dashboard, menu e controlli" caption="Esempio di interfacce dal booklet" />
+  <LessonFigure src="/images/introduzione/interfacce.webp" alt="Composizione di schermate digitali con dashboard, menu e controlli" caption="Interfacce digitali · schermate e controlli" />
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 19 del capitolo (slide 86 del deck).
+Tempo previsto: 90 s. Slide 19 del capitolo (slide 89 del deck).
 
 Connettere la centralità degli ambienti digitali del booklet alla definizione di interfaccia della lezione 2. I tre criteri richiamano gerarchia, differenziazione e memorabilità. L’immagine è documentaria: non attribuire al prodotto specifiche prestazioni o dati reali. Parlare di ciò che è osservabile nella composizione: gruppi, controlli e priorità.
 
@@ -554,7 +550,7 @@ lessonMinutes: 1.5
 </div><p class="aside">Il contesto cambia; le decisioni di progetto devono poter essere riviste.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 20 del capitolo (slide 87 del deck).
+Tempo previsto: 90 s. Slide 20 del capitolo (slide 90 del deck).
 
 Distinguere gli aspetti modellabili della forma dalle condizioni esterne del contesto. Il booklet sottolinea che le forze sono interdipendenti e in evoluzione. Il contesto non è totalmente controllabile dal designer, ma può essere investigato e considerato. Riportare questa distinzione ai bisogni delle persone e alla fattibilità del prodotto.
 
@@ -582,7 +578,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 21 del capitolo (slide 88 del deck).
+Tempo previsto: 90 s. Slide 21 del capitolo (slide 91 del deck).
 
 Riprendere il glossario BISOGNO e il passaggio sugli strumenti che consentono alle persone di creare esperienze. Un bisogno non coincide automaticamente con la richiesta di una funzione. Distinguere il risultato desiderato dalla soluzione immaginata: questa distinzione sarà applicata al brief dell’app per fisioterapisti. La partecipazione delle persone accompagna ricerca e verifica, non è un’aggiunta decorativa.
 
@@ -605,11 +601,11 @@ lessonMinutes: 1.25
 
 <div class="lesson-columns">
   <div><p class="lead">Componenti, tipografia e colori costruiscono un <strong>linguaggio riconoscibile</strong>.</p><p>La coerenza visiva aiuta; l’esperienza dipende anche da ciò che il sistema permette di fare.</p></div>
-  <LessonFigure src="/images/introduzione/design-system.webp" alt="Tavola di componenti, tipografia e colori di un’interfaccia" caption="Tavola visiva dal booklet" />
+  <LessonFigure src="/images/introduzione/design-system.webp" alt="Tavola di componenti, tipografia e colori di un’interfaccia" caption="Design system · componenti, tipografia e colori" />
 </div>
 
 <!--
-Tempo previsto: 75 s. Slide 22 del capitolo (slide 89 del deck).
+Tempo previsto: 75 s. Slide 22 del capitolo (slide 92 del deck).
 
 Chiudere il primo blocco mostrando la seconda tavola della pagina 9 del booklet. L’immagine dimostra un repertorio coerente di elementi; non introdurre ora la progettazione dettagliata di un design system. Il testo collega riconoscibilità e uso, preparando il passaggio alla UX. Chiedere mentalmente di distinguere ciò che si vede da ciò che si vive durante un’interazione.
 
@@ -633,7 +629,7 @@ lessonMinutes: 1.5
 <div class="lesson-statement">L’esperienza di una persona<br>nel rapporto con un sistema.</div><p class="lead">Percezioni, reazioni e sensazioni legate all’uso di un prodotto, un servizio o un’interfaccia.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 23 del capitolo (slide 90 del deck).
+Tempo previsto: 90 s. Slide 23 del capitolo (slide 93 del deck).
 
 Presentare la definizione rielaborata del booklet. La UX comprende il rapporto con il sistema e, nella definizione del Nielsen Norman Group, anche l’interazione con l’organizzazione e i suoi servizi. Non coincide con il solo schermo. Il risultato desiderato è un’esperienza utile, comprensibile e soddisfacente.
 Riscontro: https://www.nngroup.com/articles/definition-user-experience/
@@ -658,7 +654,7 @@ lessonMinutes: 2
 <p class="lead">Per Viola, prenotare una visita è solo una parte dell’esperienza.</p><ol class="steps steps-horizontal lesson-steps"><li class="step step-primary" data-content="1">Scoprire<span>Il servizio risponde al bisogno?</span></li><li class="step step-primary" data-content="2">Prenotare<span>Capisco disponibilità e condizioni?</span></li><li class="step step-primary" data-content="3">Ricevere<span>Il servizio mantiene la promessa?</span></li></ol><p class="aside">Aspettative, uso e risultato contribuiscono al giudizio complessivo.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 24 del capitolo (slide 91 del deck).
+Tempo previsto: 2 min. Slide 24 del capitolo (slide 94 del deck).
 
 Introdurre Viola come protagonista del caso didattico del materiale 2025/26: manager che lavora fino a tardi e desidera un professionista a domicilio dopo le 20. La sequenza è una rielaborazione del caso, non una ricerca realmente condotta. La UX riguarda anche aspettative e servizio effettivamente ricevuto: una prenotazione facile non compensa da sola un servizio incoerente.
 Riscontro generale: https://www.nngroup.com/articles/definition-user-experience/
@@ -687,7 +683,7 @@ lessonMinutes: 1.5
 </div><p class="aside">User Interface: gli elementi attraverso cui la persona interagisce con il sistema.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 25 del capitolo (slide 92 del deck).
+Tempo previsto: 90 s. Slide 25 del capitolo (slide 95 del deck).
 
 La UI comprende elementi visivi e interattivi; gli esempi principali sono quelli elencati nel booklet. Le risposte del sistema aggiungono una lettura funzionale agli elementi, collegata ai principi di feedback della lezione 8. Un pulsante ha forma ma anche stato e comportamento. Non ridurre il lavoro UI a una scelta di colori.
 
@@ -716,7 +712,7 @@ routeAlias: ux-interfacce-fisiche-vocali
 <p class="aside">Quali indizi aiutano a capire che cosa si può fare e se il comando è stato ricevuto?</p>
 
 <!--
-Tempo previsto: 1 min. Slide 26 del capitolo (slide 93 del deck).
+Tempo previsto: 1 min. Slide 26 del capitolo (slide 96 del deck).
 
 Recuperare il confronto concreto delle due pagine originali. La UI comprende i mezzi di interazione, non soltanto l’aspetto grafico di uno schermo. Un’interfaccia vocale può affiancare pulsanti e segnali luminosi; non definire il dispositivo come esclusivamente vocale. Chiedere come scoprire i comandi disponibili e riconoscere ascolto, elaborazione ed esito. Le foto documentano dispositivi del materiale precedente, non funzionalità verificate degli assistenti attuali.
 Fonte sul principio: https://www.nngroup.com/articles/audio-signifiers-voice-interaction/
@@ -741,7 +737,7 @@ lessonMinutes: 1.5
 <div class="experience-map"><h2>User Experience</h2><p>Bisogni, aspettative, contesto, uso e qualità del servizio.</p><div class="interface-area"><h2>User Interface</h2><p>Elementi e comportamenti che rendono possibile l’interazione.</p></div></div><p class="aside">Una buona interfaccia contribuisce all’esperienza; il progetto considera anche ciò che accade oltre lo schermo.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 27 del capitolo (slide 94 del deck).
+Tempo previsto: 90 s. Slide 27 del capitolo (slide 97 del deck).
 
 Ricostruire il rapporto concettuale mostrato nei diagrammi delle lezioni 3 e del booklet. La UI è rappresentata dentro il perimetro UX, non come sinonimo. Il diagramma è una sintesi didattica: non pretende di descrivere ogni disciplina coinvolta. Riprendere il caso Viola per identificare interfaccia di prenotazione e servizio a domicilio.
 
@@ -769,7 +765,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 28 del capitolo (slide 95 del deck).
+Tempo previsto: 90 s. Slide 28 del capitolo (slide 98 del deck).
 
 Il booklet distingue usabilità ed esperienza complessiva. La lezione 3 usa soprattutto il caso dei siti web; estendere qui la spiegazione a prodotti, prototipi e servizi senza restringere il concetto a una pagina. Non dichiarare che estetica ed emozioni siano irrilevanti: possono influenzare la percezione e l’uso, ma non sostituiscono la possibilità di completare il compito. La domanda introduttiva include riuscita del compito, sforzo richiesto e soddisfazione; è una rielaborazione didattica, non una citazione letterale.
 Riscontro: https://www.nngroup.com/articles/usability-101-introduction-to-usability/
@@ -801,7 +797,7 @@ lessonMinutes: 1.25
 </div>
 
 <!--
-Tempo previsto: 75 s. Slide 29 del capitolo (slide 96 del deck).
+Tempo previsto: 75 s. Slide 29 del capitolo (slide 99 del deck).
 
 Riprendere i fattori della pagina 11 del booklet. L’accessibilità è una dimensione progettuale da considerare fin dall’inizio; qui non si introducono standard o verifiche di conformità, che appartengono ad altri approfondimenti. Emozioni e aspettative dipendono dall’esperienza personale e dal contesto: una singola scelta grafica non garantisce una UX positiva.
 
@@ -831,7 +827,7 @@ routeAlias: ux-indizi-comandi-esiti
 <p class="aside">Che cosa posso fare? Quale comando scelgo? Qual è il risultato?</p>
 
 <!--
-Tempo previsto: 1 min. Slide 30 del capitolo (slide 97 del deck).
+Tempo previsto: 1 min. Slide 30 del capitolo (slide 100 del deck).
 
 Dare un nome ai fenomeni già osservati nelle foto. Il significante comunica una possibilità; non coincide con l’affordance, che riguarda le azioni possibili nella relazione fra persona e oggetto. Il mapping lega comando ed effetto; il feedback rende leggibile il risultato o lo stato. Non basta aggiungere un segnale qualunque: deve corrispondere al compito e al momento dell’interazione.
 Fonti primarie: https://jnd.org/signifiers-not-affordances/ e https://www.nngroup.com/articles/natural-mappings/.
@@ -857,7 +853,7 @@ exampleId: scala-bordi
 <UxExampleSlide example-id="scala-bordi" />
 
 <!--
-Tempo previsto: 30 s. Slide 31 del capitolo (slide 98 del deck).
+Tempo previsto: 30 s. Slide 31 del capitolo (slide 101 del deck).
 
 Osservare un esempio alla volta. Quali indizi distinguono un gradino da una superficie piana? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -884,7 +880,7 @@ exampleId: tappeto-scarpe
 <UxExampleSlide example-id="tappeto-scarpe" />
 
 <!--
-Tempo previsto: 30 s. Slide 32 del capitolo (slide 99 del deck).
+Tempo previsto: 30 s. Slide 32 del capitolo (slide 102 del deck).
 
 Osservare un esempio alla volta. È un invito a camminare in un certo modo o solo un motivo grafico? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -911,7 +907,7 @@ exampleId: scala-moquette
 <UxExampleSlide example-id="scala-moquette" />
 
 <!--
-Tempo previsto: 30 s. Slide 33 del capitolo (slide 100 del deck).
+Tempo previsto: 30 s. Slide 33 del capitolo (slide 103 del deck).
 
 Osservare un esempio alla volta. Quale elemento aiuta a riconoscere ogni cambio di livello? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -938,7 +934,7 @@ exampleId: scala-pattern
 <UxExampleSlide example-id="scala-pattern" />
 
 <!--
-Tempo previsto: 30 s. Slide 34 del capitolo (slide 101 del deck).
+Tempo previsto: 30 s. Slide 34 del capitolo (slide 104 del deck).
 
 Osservare un esempio alla volta. La decorazione aiuta a distinguere i gradini o compete con i loro bordi? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -965,7 +961,7 @@ exampleId: rampa-cancello
 <UxExampleSlide example-id="rampa-cancello" />
 
 <!--
-Tempo previsto: 30 s. Slide 35 del capitolo (slide 102 del deck).
+Tempo previsto: 30 s. Slide 35 del capitolo (slide 105 del deck).
 
 Osservare un esempio alla volta. Che cosa succede nel passaggio fra rampa, soglia e apertura? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -992,7 +988,7 @@ exampleId: rampa-pilastro
 <UxExampleSlide example-id="rampa-pilastro" />
 
 <!--
-Tempo previsto: 30 s. Slide 36 del capitolo (slide 103 del deck).
+Tempo previsto: 30 s. Slide 36 del capitolo (slide 106 del deck).
 
 Osservare un esempio alla volta. Lo spazio consente di passare e di cambiare direzione? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1019,7 +1015,7 @@ exampleId: rampa-gradini
 <UxExampleSlide example-id="rampa-gradini" />
 
 <!--
-Tempo previsto: 30 s. Slide 37 del capitolo (slide 104 del deck).
+Tempo previsto: 30 s. Slide 37 del capitolo (slide 107 del deck).
 
 Osservare un esempio alla volta. La soluzione funziona lungo tutto il tragitto, fino alla destinazione? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1046,7 +1042,7 @@ exampleId: scala-blu
 <UxExampleSlide example-id="scala-blu" />
 
 <!--
-Tempo previsto: 30 s. Slide 38 del capitolo (slide 105 del deck).
+Tempo previsto: 30 s. Slide 38 del capitolo (slide 108 del deck).
 
 Osservare un esempio alla volta. L’illuminazione rende leggibili anche il bordo e la profondità dei gradini? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1073,7 +1069,7 @@ exampleId: scala-rossa
 <UxExampleSlide example-id="scala-rossa" />
 
 <!--
-Tempo previsto: 30 s. Slide 39 del capitolo (slide 106 del deck).
+Tempo previsto: 30 s. Slide 39 del capitolo (slide 109 del deck).
 
 Osservare un esempio alla volta. Quali indizi permettono di capire dove appoggiare il piede? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1100,7 +1096,7 @@ exampleId: lidl-cassa
 <UxExampleSlide example-id="lidl-cassa" />
 
 <!--
-Tempo previsto: 45 s. Slide 40 del capitolo (slide 107 del deck).
+Tempo previsto: 45 s. Slide 40 del capitolo (slide 110 del deck).
 
 Osservare un esempio alla volta. Dove appoggi la spesa? I tempi del cliente e della cassa coincidono? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza. La foto documenta il materiale didattico 2025/26, non la configurazione attuale del prodotto o del punto vendita.
 
@@ -1128,7 +1124,7 @@ routeAlias: ux-cassa-appoggio
 <UxExampleSlide example-id="lidl-appoggio" />
 
 <!--
-Tempo previsto: 30 s. Slide 41 del capitolo (slide 108 del deck).
+Tempo previsto: 30 s. Slide 41 del capitolo (slide 111 del deck).
 
 Recuperare il controesempio della pagina 17, oggi assente: la cassa va letta anche attraverso spazio di appoggio e continuità dei gesti. Confrontare la fotografia con il caso Lidl precedente: dove viene posata la spesa, quali movimenti sono richiesti, quando si libera il passaggio? Le due fotografie mostrano allestimenti specifici e storici; non dimostrano la qualità generale del marchio né risultati misurati di usabilità.
 Provenienza: assets/introduzione/recuperi-2025/manifest.json.
@@ -1154,7 +1150,7 @@ exampleId: mouse-ricarica
 <UxExampleSlide example-id="mouse-ricarica" />
 
 <!--
-Tempo previsto: 45 s. Slide 42 del capitolo (slide 109 del deck).
+Tempo previsto: 45 s. Slide 42 del capitolo (slide 112 del deck).
 
 Osservare un esempio alla volta. Puoi continuare a usarlo durante la ricarica? Quale compromesso introduce la forma? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza. La foto documenta il materiale didattico 2025/26, non la configurazione attuale del prodotto o del punto vendita.
 
@@ -1182,7 +1178,7 @@ routeAlias: ux-fornelli
 <UxExampleSlide example-id="fornelli-mapping" />
 
 <!--
-Tempo previsto: 45 s. Slide 43 del capitolo (slide 110 del deck).
+Tempo previsto: 45 s. Slide 43 del capitolo (slide 113 del deck).
 
 Confrontare la fila di manopole con la disposizione che riprende la geometria dei fornelli. Quale relazione spaziale aiuta a scegliere il comando?
 
@@ -1211,7 +1207,7 @@ routeAlias: ux-biglietteria
 <UxExampleSlide example-id="biglietteria-tasti" />
 
 <!--
-Tempo previsto: 45 s. Slide 44 del capitolo (slide 111 del deck).
+Tempo previsto: 45 s. Slide 44 del capitolo (slide 114 del deck).
 
 Sherwin racconta che il tasto fisico 1, nella colonna destra, inserisce 6 sullo schermo. Separare l’etichetta del comando dalla cifra richiesta obbliga a una traduzione mentale.
 
@@ -1239,7 +1235,7 @@ exampleId: oxo-pelapatate
 <UxExampleSlide example-id="oxo-pelapatate" />
 
 <!--
-Tempo previsto: 45 s. Slide 45 del capitolo (slide 112 del deck).
+Tempo previsto: 45 s. Slide 45 del capitolo (slide 115 del deck).
 
 Osservare un esempio alla volta. Che cosa cambia quando progetti l’impugnatura, oltre alla lama? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1267,7 +1263,7 @@ exampleId: lego-separatore
 <UxExampleSlide example-id="lego-separatore" />
 
 <!--
-Tempo previsto: 45 s. Slide 46 del capitolo (slide 113 del deck).
+Tempo previsto: 45 s. Slide 46 del capitolo (slide 116 del deck).
 
 Osservare un esempio alla volta. Il progetto considera anche il gesto di disfare e ricominciare? Le domande sulle foto sono ipotesi di lettura, non documentazione di incidenti o misure di usabilità. Collegare indizi visivi, interpretazione e azione alla porta analizzata in precedenza.
 
@@ -1297,7 +1293,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 47 del capitolo (slide 114 del deck).
+Tempo previsto: 90 s. Slide 47 del capitolo (slide 117 del deck).
 
 Usare lo screenshot originale come oggetto di osservazione. Non affermare che il servizio attuale presenti ancora il problema né attribuire performance misurate. Invitare a guardare ordine delle voci, ampiezza della lista e ruolo del campo nel compito. La difficoltà è una possibile ipotesi da verificare con utenti e compiti definiti, non una conclusione ottenuta soltanto dall’estetica.
 
@@ -1326,7 +1322,7 @@ routeAlias: ux-promessa-attesa
 <p class="aside">Durante l’attesa, quali informazioni e alternative aiuterebbero a decidere come proseguire?</p>
 
 <!--
-Tempo previsto: 1 min. Slide 48 del capitolo (slide 115 del deck).
+Tempo previsto: 1 min. Slide 48 del capitolo (slide 118 del deck).
 
 I due screenshot sono artefatti storici già presenti nel PDF; non descrivono il servizio O2 attuale. L’invito comunica immediatezza, mentre la conversazione restituisce attesa senza un tempo o una possibilità di scelta visibili. Discutere una promessa coerente con lo stato del servizio, informazioni utili sull’attesa quando disponibili e un’alternativa pertinente. Non inventare un tempo stimato né giudicare l’intero servizio da questi screenshot. Le immagini sono estratte integralmente, senza riprodurre l’intera pagina della vecchia presentazione.
 
@@ -1354,7 +1350,7 @@ lessonMinutes: 1.25
 </div><p class="aside">Collabora con specialisti di ricerca, grafica, sviluppo e prodotto e con le parti interessate.</p>
 
 <!--
-Tempo previsto: 75 s. Slide 49 del capitolo (slide 116 del deck).
+Tempo previsto: 75 s. Slide 49 del capitolo (slide 119 del deck).
 
 Il booklet e la lezione 3 definiscono lo UX designer attraverso la soluzione di problemi concreti, non l’espressione libera di una preferenza personale. Analisi, empatia e creatività si combinano. Esplicitare la natura multidisciplinare: il progetto coinvolge persone con competenze e responsabilità differenti. Nei team piccoli le attività possono essere distribuite diversamente; i titoli professionali non sostituiscono il lavoro da svolgere.
 
@@ -1382,7 +1378,7 @@ lessonMinutes: 4
 </div><p class="aside">Quale aspetto emerge in ogni caso? Spiegate anche come gli aspetti sono collegati.</p>
 
 <!--
-Tempo previsto: 4 min. Slide 50 del capitolo (slide 117 del deck).
+Tempo previsto: 4 min. Slide 50 del capitolo (slide 120 del deck).
 
 Seconda attività: due minuti in coppia e due di restituzione. Risposte attese: A riguarda una decisione UI che può influire sull’usabilità; B descrive un problema di usabilità con conseguenze sulla UX; C riguarda l’esperienza del servizio oltre lo schermo. Non valutare le categorie come caselle esclusive: accettare risposte motivate e far esplicitare il rapporto parte/insieme. I casi riprendono gli esempi già mostrati e il problema del pulsante nella lezione 6.
 
@@ -1410,7 +1406,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 51 del capitolo (slide 118 del deck).
+Tempo previsto: 90 s. Slide 51 del capitolo (slide 121 del deck).
 
 Il booklet e la lezione 3 concordano sulla natura iterativa e adattabile del processo. Il lavoro varia con natura del prodotto, obiettivi del committente, risorse e utenti. La mappa successiva organizza attività ricorrenti: non impone una sequenza irreversibile. Una verifica può far tornare alla ricerca o alla definizione del problema, non soltanto cambiare un pulsante.
 
@@ -1434,7 +1430,7 @@ lessonMinutes: 2
 <UxProcessMap />
 
 <!--
-Tempo previsto: 2 min. Slide 52 del capitolo (slide 119 del deck).
+Tempo previsto: 2 min. Slide 52 del capitolo (slide 122 del deck).
 
 Leggere prima i cinque nuclei e poi le attività contenute. Nel nucleo 5, il primo elemento comprende prototipazione low-fidelity e test di usabilità: resta una singola fase, come nell’elenco del booklet. Il numero totale è 14, ripartito 3+3+2+2+4. La numerazione è un riferimento alla mappa del corso, non una prescrizione lineare. Le lezioni 4–6 riprendono lo stesso elenco.
 
@@ -1462,7 +1458,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 53 del capitolo (slide 120 del deck).
+Tempo previsto: 90 s. Slide 53 del capitolo (slide 123 del deck).
 
 Riprendere il caso originale della lezione 4. Carlo e Giovanni sono committenti di un esempio didattico, non clienti reali documentati. Il primo lavoro consiste nel capire visione, conoscenza del target e competenza nel settore. Evitare di iniziare dalle schermate: l’app richiesta è una possibile soluzione, il problema deve ancora essere chiarito.
 
@@ -1490,7 +1486,7 @@ lessonMinutes: 2.5
 </div><p class="aside">Un’app per un centro di fisioterapia e una piattaforma di intermediazione richiedono scelte diverse.</p>
 
 <!--
-Tempo previsto: 150 s. Slide 54 del capitolo (slide 121 del deck).
+Tempo previsto: 150 s. Slide 54 del capitolo (slide 124 del deck).
 
 Il caso originale propone due obiettivi diversi: uno strumento per un centro di fisioterapia oppure un servizio che guadagna dalle prestazioni. Non equivalgono per modello operativo e target. L’analisi dei competitor serve a capire il contesto e le alternative, non a copiare l’aspetto dei prodotti esistenti. Esito del nucleo: una comprensione condivisa del progetto e dei vincoli.
 
@@ -1524,7 +1520,7 @@ routeAlias: ux-obiettivi
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 55 del capitolo (slide 122 del deck).
+Tempo previsto: 90 s. Slide 55 del capitolo (slide 125 del deck).
 
 Il metodo SMART rende discutibile e verificabile un obiettivo. Qui si usa la variante Specific, Measurable, Achievable, Relevant, Time-bound, evitando l'incongruenza fra immagine e testo del PDF precedente. I valori 50% e 75% e le quattro settimane sono inventati per il caso didattico: non descrivono una ricerca svolta, non sono benchmark di settore e non garantiscono la fattibilità. Per un progetto reale definire compito, misura iniziale, reclutamento, condizioni di confronto e incertezza; verificare la fattibilità con risorse e vincoli. Un aumento della percentuale, da solo, non dimostra la causa del cambiamento.
 
@@ -1556,7 +1552,7 @@ routeAlias: ux-benchmark
 <p class="aside">Confronta ricerca, scelta dell’orario e chiarezza della conferma, con criteri espliciti.</p>
 
 <!--
-Tempo previsto: 1 min. Slide 56 del capitolo (slide 123 del deck).
+Tempo previsto: 1 min. Slide 56 del capitolo (slide 126 del deck).
 
 Recuperare il confronto di prodotti simili, alternative allo stesso problema e high-level concept delle pagine originali. Le tre categorie sono una sintesi didattica: non identificano aziende attuali o un mercato già analizzato. Per ogni soluzione annotare compito, pubblico, contesto, punti di forza e ostacoli. Un riferimento analogico può ispirare un'interazione, ma richiede verifica nel nuovo contesto: prenotare un tavolo e ricevere una prestazione sanitaria hanno vincoli diversi. Il confronto produce domande e ipotesi, non prova che copiare una schermata migliori la UX.
 
@@ -1584,7 +1580,7 @@ lessonMinutes: 2.5
 </div><p class="aside">Le evidenze possono cambiare sia il problema sia il pubblico inizialmente ipotizzato.</p>
 
 <!--
-Tempo previsto: 150 s. Slide 57 del capitolo (slide 124 del deck).
+Tempo previsto: 150 s. Slide 57 del capitolo (slide 127 del deck).
 
 Presentare le tre attività del secondo nucleo. Il problema si precisa attraverso la ricerca: non è una definizione definitiva prima di ascoltare le persone. Interviste e sondaggi sono esempi dei materiali originali, ma nessun metodo è sempre il più economico o sufficiente. Evitare di trasferire le regole rigide dei vecchi PDF sulla durata o sul tipo di domande. Le personas devono sintetizzare ricerca, non stereotipi demografici.
 
@@ -1615,7 +1611,7 @@ routeAlias: ux-ricerca
 <p class="aside">Una domanda alla volta, senza suggerire la risposta. Approfondisci gli episodi concreti.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 58 del capitolo (slide 125 del deck).
+Tempo previsto: 90 s. Slide 58 del capitolo (slide 128 del deck).
 
 Il metodo va scelto in funzione della domanda di ricerca, del contesto e delle risorse. Le interviste approfondiscono racconti e motivazioni; l'osservazione e i test mostrano comportamenti; i questionari raccolgono dati dichiarati comparabili, anche qualitativi quando includono risposte aperte. Nessun metodo è sempre il più economico o sufficiente. Le percentuali di un sondaggio descrivono il campione e richiedono attenzione a reclutamento e rappresentatività. La domanda visibile è un esempio neutrale per intervista: proporre oralmente il confronto con “Non è frustrante dover telefonare?”, che suggerisce il giudizio. Evitare domande doppie e pretestare il questionario; durata e dati richiesti dipendono dagli obiettivi, senza un limite universale di venti minuti.
 
@@ -1644,7 +1640,7 @@ lessonMinutes: 1.5
 </div><p class="aside">Il profilo di Viola rende visibili obiettivi e condizioni d’uso.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 59 del capitolo (slide 126 del deck).
+Tempo previsto: 90 s. Slide 59 del capitolo (slide 129 del deck).
 
 Viola è la persona fittizia dell’esempio originale, non il risultato di una ricerca realmente svolta nel nostro progetto. Il suo bisogno deve guidare decisioni concrete: disponibilità degli orari, servizio a domicilio e percorso di prenotazione. In un progetto reale, queste caratteristiche dovrebbero trovare riscontro nei dati. L’età da sola non spiega il comportamento.
 
@@ -1675,7 +1671,7 @@ routeAlias: ux-personas
 <p class="aside">Per ogni caratteristica del profilo, conserva il legame con la ricerca.</p>
 
 <!--
-Tempo previsto: 1 min. Slide 60 del capitolo (slide 127 del deck).
+Tempo previsto: 1 min. Slide 60 del capitolo (slide 130 del deck).
 
 Le personas sintetizzano comportamenti, motivazioni, obiettivi e difficoltà rilevanti per il progetto. Il nome e la biografia aiutano a ricordare il profilo, ma non sostituiscono le evidenze. Tutto il caso visibile è ipotetico: non sono state condotte interviste per l'app di Carlo e Giovanni. Se un profilo deriva da ipotesi del team, dichiararlo come proto-persona da verificare. Raggruppare gli utenti per caratteristiche utili alla decisione, evitando di assumere che la stessa età o professione implichi bisogni identici. Conservare note sulla provenienza delle caratteristiche e aggiornare il profilo quando emergono evidenze nuove.
 
@@ -1703,7 +1699,7 @@ lessonMinutes: 2.25
 </div>
 
 <!--
-Tempo previsto: 135 s. Slide 61 del capitolo (slide 128 del deck).
+Tempo previsto: 135 s. Slide 61 del capitolo (slide 131 del deck).
 
 Distinguere journey e user flow: la prima amplia lo sguardo alle fasi e ai punti di contatto; il secondo rende esplicite azioni e decisioni nel prodotto. La figura rielabora in italiano l’esempio di prenotazione aerea della lezione 4, raggruppando le nove microfasi in cinque fasi. È un esempio didattico illustrativo: la curva delle emozioni non rappresenta dati di ricerca e non descrive Viola. Leggere una colonna per mostrare la relazione tra azione, punto di contatto, pensiero, emozione e opportunità. Per il caso di fisioterapia, ricostruire oralmente ricerca del servizio, scelta e prima prenotazione, indicando dove potrebbero emergere dubbi e opportunità.
 
@@ -1734,7 +1730,7 @@ routeAlias: ux-flow
 <p class="aside">La stessa esperienza si legge a due livelli: servizio complessivo e percorso di un compito.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 62 del capitolo (slide 129 del deck).
+Tempo previsto: 90 s. Slide 62 del capitolo (slide 132 del deck).
 
 La journey segue l'esperienza della persona anche prima e dopo l'uso dell'app. Il flow rende esplicite azioni, decisioni ed esiti nel sistema. Il ramo negativo serve a progettare che cosa succede quando l'orario desiderato manca; una sequenza che mostra solo il successo non descrive tutto il compito. Questo è un flusso didattico ipotetico e semplificato, non un requisito già validato o un processo clinico. Nel progetto reale aggiungere stati necessari, errori, disponibilità cambiata e recupero, sulla base di ricerca e vincoli. La curva delle emozioni della journey precedente resta illustrativa: non sono dati raccolti su Viola.
 
@@ -1762,7 +1758,7 @@ lessonMinutes: 1.25
 </div>
 
 <!--
-Tempo previsto: 75 s. Slide 63 del capitolo (slide 130 del deck).
+Tempo previsto: 75 s. Slide 63 del capitolo (slide 133 del deck).
 
 Il BRD conclude il terzo nucleo come documento di allineamento. La lezione 4 propone di inviare a Carlo e Giovanni un riepilogo di problema, target, concept e funzioni. Qui i gruppi sono una sintesi didattica, non uno standard di documentazione. Lo scopo è verificare comprensione e priorità condivise, non produrre un documento lungo come prova di avanzamento.
 
@@ -1794,7 +1790,7 @@ routeAlias: ux-priorita
 <p class="aside">Le priorità valgono per il rilascio concordato e si rivedono quando cambiano bisogni e vincoli.</p>
 
 <!--
-Tempo previsto: 1 min. Slide 64 del capitolo (slide 131 del deck).
+Tempo previsto: 1 min. Slide 64 del capitolo (slide 134 del deck).
 
 MoSCoW distingue Must Have, Should Have, Could Have e Won't Have this time. La classificazione visibile è una proposta didattica per discuterne i criteri, non una prescrizione universale per ogni servizio sanitario. I Must costituiscono ciò senza cui il rilascio non raggiunge il suo scopo; gli Should sono importanti ma ammettono temporaneamente una soluzione alternativa; i Could sono desiderabili se le risorse lo consentono; i Won't esplicitano ciò che resta fuori dal periodo concordato. Non si rinviano requisiti obbligatori di sicurezza o accessibilità usando questa classificazione. Il gruppo concorda dipendenze e motivazioni e rivede le categorie. Si recupera il principio di priorità del PDF, omettendo le affermazioni inesatte su Agile/Scrum e la pretesa dimostrazione scientifica della matrice di Eisenhower.
 
@@ -1825,7 +1821,7 @@ routeAlias: ux-concept
 <p class="aside">Due ipotesi per lo stesso servizio: confrontarle con bisogni, contesto e vincoli.</p>
 
 <!--
-Tempo previsto: 1 min. Slide 65 del capitolo (slide 132 del deck).
+Tempo previsto: 1 min. Slide 65 del capitolo (slide 135 del deck).
 
 Il concept è una direzione progettuale che collega decisioni e scopo: non si esaurisce nel nome o nella scelta di un colore. Le due direzioni per il caso dei fisioterapisti sono ipotesi didattiche, non risultati di ricerca e non garanzie di fiducia o rapidità. Un medesimo bisogno può suggerire proposte diverse; verificare comprensibilità, tono e utilità prima di svilupparle. Colori, immagini e parole vanno scelti insieme a requisiti di leggibilità e accessibilità. Si recupera il principio del sistema di idee interrelate e del concept che evolve, senza trasferire l'aforisma sull'anima del prodotto o imporre un'unica direzione immutabile.
 
@@ -1857,7 +1853,7 @@ routeAlias: ux-moodboard
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 66 del capitolo (slide 133 del deck).
+Tempo previsto: 90 s. Slide 66 del capitolo (slide 136 del deck).
 
 La moodboard è il collage di riferimenti che permette di discutere un'atmosfera prima della schermata finale. L'esempio Bobò proviene dalla lezione 04 del 2025/26 e riguarda un altro brand, non l'app di fisioterapia. Palette, materia e tono sono osservazioni didattiche sugli elementi visibili, non informazioni verificabili sulle intenzioni dell'autore o sulla risposta del pubblico. La board raccoglie riferimenti; il mockup mostra l'organizzazione di una schermata e il benchmark confronta soluzioni. Le tre attività hanno esiti diversi e possono essere usate insieme. Una moodboard può evolvere mentre si precisano concept e vincoli.
 
@@ -1886,7 +1882,7 @@ lessonMinutes: 2.25
 </div>
 
 <!--
-Tempo previsto: 135 s. Slide 67 del capitolo (slide 134 del deck).
+Tempo previsto: 135 s. Slide 67 del capitolo (slide 137 del deck).
 
 La pagina 9 della lezione 5 descrive l’alberatura da discutere con Carlo e Giovanni; la pagina 11 mostra una sitemap. Il diagramma recuperato è un esempio generale, non la sitemap della loro app. Nel caso, chiedere quali informazioni devono precedere una prenotazione. Distinguere organizzazione dei contenuti, navigazione e aspetto grafico finale. Non trasferire il testo sui prototipi della pagina 10 come definizione dell’architettura dell’informazione.
 
@@ -1917,7 +1913,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 68 del capitolo (slide 135 del deck).
+Tempo previsto: 90 s. Slide 68 del capitolo (slide 138 del deck).
 
 Il wireframe rappresenta l’impianto funzionale della schermata. L’esempio originale della pagina 26 rende visibili blocchi, controlli e passaggi con bassa fedeltà. Nel caso dell’app, le schermate vanno discusse prima di investire nella finitura. Non imporre le misure di griglia del vecchio PDF come standard universali. Wireframe e prototipo possono sovrapporsi: il primo descrive la struttura, il secondo permette di simulare e verificare l’interazione.
 
@@ -1948,7 +1944,7 @@ routeAlias: ux-wireframe-passaggi
 <p class="aside">Un wireframe deve permettere di discutere il percorso, prima della finitura grafica.</p>
 
 <!--
-Tempo previsto: 1 min. Slide 69 del capitolo (slide 136 del deck).
+Tempo previsto: 1 min. Slide 69 del capitolo (slide 139 del deck).
 
 Il PDF presenta griglia, aree di contenuto, testi, elementi interattivi e valori in scala di grigi. La slide sintetizza la progressione in tre domande: quali zone servono, quali informazioni devono contenere, quali azioni e stati vanno rappresentati? Le scelte possono essere riviste insieme, non costituiscono una procedura rigida. Nel caso didattico, orari e condizioni devono essere comprensibili prima della conferma. Non trasferire 12/8/4 colonne, gutter o margini in pixel come standard universali: la griglia va scelta rispetto a contenuti, schermi e vincoli.
 
@@ -1979,7 +1975,7 @@ routeAlias: ux-test-elementi
 <p class="aside">Si valuta il prodotto attraverso ciò che le persone tentano di fare.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 70 del capitolo (slide 137 del deck).
+Tempo previsto: 90 s. Slide 70 del capitolo (slide 140 del deck).
 
 Collegare i tre elementi al caso della fisioterapia. Qui si presenta un test moderato: nei test non moderati il compito viene svolto senza un facilitatore presente. Viola è una persona fittizia che riassume bisogni e condizioni d’uso: non è una partecipante realmente intervistata. Per un test reale si reclutano persone con esigenze pertinenti al servizio. Invitare a spiegare ciò che cercano di fare e osservare i tentativi; mantenere neutrali le domande del facilitatore. Una conversazione sulle preferenze può integrare il test, ma non sostituisce l’osservazione del compito.
 Fonte primaria verificata: https://www.nngroup.com/articles/usability-testing-101/
@@ -2010,7 +2006,7 @@ routeAlias: ux-test-compito
 <p class="aside">Osserviamo se la persona trova una disponibilità compatibile e arriva alla conferma.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 71 del capitolo (slide 138 del deck).
+Tempo previsto: 90 s. Slide 71 del capitolo (slide 141 del deck).
 
 Confrontare le due istruzioni. La prima suggerisce l’etichetta da cercare; la seconda esprime l’obiettivo e lascia osservare il percorso scelto. Il compito riprende l’aspettativa di Viola già discussa, ma è una proposta didattica: professionisti, orari disponibili e schermate del prototipo sono ipotetici. Nel progetto reale, preparare dati di prova sufficienti a svolgerlo. Il criterio di riuscita è trovare una visita compatibile e arrivare alla conferma; annotare separatamente eventuale assistenza. Non indicare il pulsante né correggere la scelta durante il tentativo.
 Fonti primarie verificate: https://www.nngroup.com/articles/usability-testing-101/ e https://www.nngroup.com/articles/task-scenarios-usability-testing/
@@ -2039,7 +2035,7 @@ lessonMinutes: 3
 </div>
 
 <!--
-Tempo previsto: 3 min. Slide 72 del capitolo (slide 139 del deck).
+Tempo previsto: 3 min. Slide 72 del capitolo (slide 142 del deck).
 
 Terza attività: un minuto di ragionamento e due di confronto. I numeri provengono dall’esempio fittizio della lezione 6, non da una misura reale o da una regola sulla numerosità dei test. Risposte plausibili: etichetta, posizione, gerarchia o percorso non chiari. Il dato segnala un problema, non ne identifica automaticamente la causa. Nel test si osserva una persona mentre svolge un compito, evitando di indicarle il pulsante.
 Riscontro sul metodo: https://www.nngroup.com/articles/usability-testing-101/
@@ -2071,7 +2067,7 @@ routeAlias: ux-test-osservazioni
 <p class="aside">Il problema osservato orienta una decisione; la verifica successiva mette alla prova la spiegazione.</p>
 
 <!--
-Tempo previsto: 1 min. Slide 73 del capitolo (slide 140 del deck).
+Tempo previsto: 1 min. Slide 73 del capitolo (slide 143 del deck).
 
 Riprendere il numero dell’esempio fittizio della lezione 6: non descrive un esperimento condotto e non stima la frequenza del problema nell’intero pubblico. Separare ciò che sarebbe stato osservato dalle possibili cause. Nel resoconto conservare compito, tentativi, esito e assistenza ricevuta; dare priorità all’impatto sull’obiettivo. Scegliere un intervento motivato e definire il compito da ripetere. Una nuova verifica può smentire l’ipotesi e richiedere ulteriori modifiche. Evitare di trattare una preferenza espressa come una soluzione già validata.
 Fonte primaria verificata: https://www.nngroup.com/articles/usability-testing-101/
@@ -2100,7 +2096,7 @@ lessonMinutes: 1.5
 </div><p class="aside">La verifica può riaprire qualsiasi decisione precedente.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 74 del capitolo (slide 141 del deck).
+Tempo previsto: 90 s. Slide 74 del capitolo (slide 144 del deck).
 
 Completare le quattro attività del quinto nucleo: prototipazione/test nella slide precedente, poi iterazioni, UI/mockup e test finale. Il mockup descrive la veste visiva; può essere inserito in un prototipo interattivo. Il booklet presenta una progressione dal prototipo alla finitura: chiarire che la verifica non smette dopo la grafica e può richiedere una nuova ricerca. Nel caso, il pulsante va corretto e il compito ripetuto.
 
@@ -2124,7 +2120,7 @@ lessonMinutes: 1.5
 <div class="lesson-statement">Comprendere una situazione.<br>Immaginare alternative.<br>Verificarle nella pratica.</div><p class="lead">Un approccio centrato sulle persone per trasformare una condizione esistente.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 75 del capitolo (slide 142 del deck).
+Tempo previsto: 90 s. Slide 75 del capitolo (slide 145 del deck).
 
 Il booklet presenta il Design Thinking come cornice metodologica capace di tenere insieme osservazione, interpretazione, ideazione e verifica. La UX è l’orizzonte del progetto; il Design Thinking offre un modo per organizzare il lavoro. Non è l’unico approccio possibile né una formula che garantisce automaticamente buoni risultati. La collaborazione fra competenze diverse è parte del percorso.
 
@@ -2148,7 +2144,7 @@ lessonMinutes: 2.25
 <ol class="steps steps-horizontal lesson-steps"><li class="step step-primary" data-content="1">Empathize<span>Comprendere</span></li><li class="step step-primary" data-content="2">Define<span>Mettere a fuoco</span></li><li class="step step-primary" data-content="3">Ideate<span>Esplorare</span></li><li class="step step-primary" data-content="4">Prototype<span>Rendere concreto</span></li><li class="step step-primary" data-content="5">Test<span>Apprendere</span></li></ol><p class="lead">Sono momenti collegati e ripetibili: le evidenze possono farci tornare indietro.</p>
 
 <!--
-Tempo previsto: 135 s. Slide 76 del capitolo (slide 143 del deck).
+Tempo previsto: 135 s. Slide 76 del capitolo (slide 146 del deck).
 
 Usare i cinque termini del booklet, verificati sul modello descritto dal corso ME113 di Stanford. Si tratta di una versione del processo, non dell’unica formalizzazione universale. Il booklet menziona anche l’implementazione: spiegarla come traduzione e introduzione della soluzione, senza aggiungere una sesta fase alla mappa a cinque qui adottata. La disposizione orizzontale serve a leggere i nomi e non rappresenta una sequenza obbligatoria.
 Fonte primaria: https://web.stanford.edu/class/me113/d_thinking.html
@@ -2176,7 +2172,7 @@ lessonMinutes: 2.25
 </div><p class="aside">Nel caso di Viola: partire dalle condizioni della sua giornata prima di scegliere la soluzione.</p>
 
 <!--
-Tempo previsto: 135 s. Slide 77 del capitolo (slide 144 del deck).
+Tempo previsto: 135 s. Slide 77 del capitolo (slide 147 del deck).
 
 Nel caso, approfondire vincoli di tempo e aspettative invece di assumere che serva semplicemente un’app. Il passaggio alla definizione seleziona il problema su cui lavorare. Empatia non significa immaginare liberamente che cosa vuole l’utente: richiede osservazione e ascolto. Il legame con ricerca e personas è utile, ma non impone una corrispondenza uno a uno fra tutti gli strumenti UX e le cinque modalità.
 Riscontro: https://web.stanford.edu/class/me113/d_thinking.html
@@ -2205,7 +2201,7 @@ lessonMinutes: 1.5
 </div>
 
 <!--
-Tempo previsto: 90 s. Slide 78 del capitolo (slide 145 del deck).
+Tempo previsto: 90 s. Slide 78 del capitolo (slide 148 del deck).
 
 Il Design Thinking apre una fase di esplorazione. Collegarla alla domanda posta nel brief originale: la soluzione desiderata risolve davvero il problema? Non inventare nuove evidenze per il caso Viola. La scelta di un’app, di una funzione o di un flusso è un’ipotesi progettuale da confrontare con ricerca e fattibilità. La creatività è orientata da scopo e vincoli, come discusso all’inizio della lezione.
 Riscontro: https://web.stanford.edu/class/me113/d_thinking.html
@@ -2233,7 +2229,7 @@ lessonMinutes: 1.5
 </div><p class="aside">Il prototipo serve a imparare prima di investire nella soluzione completa.</p>
 
 <!--
-Tempo previsto: 90 s. Slide 79 del capitolo (slide 146 del deck).
+Tempo previsto: 90 s. Slide 79 del capitolo (slide 149 del deck).
 
 Il booklet lega prototipazione e verifica continua. Il modello Stanford descrive il prototipo come modo di rendere tangibile un’idea e il test come occasione per apprendere. Riprendere il caso del pulsante: un test può far cambiare il controllo, il percorso o la comprensione del bisogno. La fedeltà dipende dalla domanda da verificare; non serve sempre un prototipo graficamente completo.
 Fonti: https://web.stanford.edu/class/me113/d_thinking.html e https://www.nngroup.com/articles/usability-testing-101/
@@ -2258,7 +2254,7 @@ lessonMinutes: 2
 <p class="lead">Condividono attenzione a <strong>persone, contesto, evidenze e iterazione</strong>.</p><div class="lesson-loop" aria-label="Comprendere, proporre, verificare e tornare a comprendere"><span>Comprendere</span><span class="loop-arrow" aria-hidden="true">→</span><span>Proporre</span><span class="loop-arrow" aria-hidden="true">→</span><span>Verificare</span><span class="loop-arrow" aria-hidden="true">↺</span></div><p class="aside">Le cinque modalità aiutano a leggere il processo UX, senza una corrispondenza rigida fra le fasi.</p>
 
 <!--
-Tempo previsto: 2 min. Slide 80 del capitolo (slide 147 del deck).
+Tempo previsto: 2 min. Slide 80 del capitolo (slide 150 del deck).
 
 Chiudere il rapporto fra le due cornici come fa il booklet: convergenza, non identità. I cinque nuclei UX raggruppano attività; le cinque modalità del Design Thinking descrivono modi di affrontare il problema. Il medesimo strumento può partecipare a più momenti. Ogni nuova evidenza può riformulare la domanda iniziale. Anticipare l’approfondimento delle fasi nelle lezioni successive.
 
@@ -2286,7 +2282,7 @@ lessonMinutes: 3.25
 </div>
 
 <!--
-Tempo previsto: 195 s. Slide 81 del capitolo (slide 148 del deck).
+Tempo previsto: 195 s. Slide 81 del capitolo (slide 151 del deck).
 
 Usare 3 minuti e 15 secondi per una sintesi dialogata. Per ogni idea riprendere un esempio: porta e vincoli; Viola e servizio; prototipo e pulsante. Invitare gli studenti a spiegare il collegamento anziché ripetere una definizione. Controllare che nessuno interpreti le 14 fasi come una lista da completare una sola volta.
 
@@ -2314,7 +2310,7 @@ lessonMinutes: 6
 </ul><p class="aside">Nelle prossime lezioni approfondiremo il processo e i suoi strumenti.</p>
 
 <!--
-Tempo previsto: 6 min. Slide 82 del capitolo (slide 149 del deck).
+Tempo previsto: 6 min. Slide 82 del capitolo (slide 152 del deck).
 
 Exit ticket: tre minuti di risposta individuale e tre di confronto. Accettare uno degli esempi della lezione. Criteri: relazione concreta fra scelta e bisogno; distinzione parte/insieme fra i concetti; verifica con compito, osservazione e possibile decisione da rivedere. Usare le risposte per individuare i punti da riprendere, non come nuova modalità d’esame. Terminare con il collegamento ai capitoli successivi e alla slide di chiusura.
 

@@ -13,19 +13,19 @@
   margin: 0 0 25px;
 }
 .grade-range {
-  --grade-fill: var(--cvedi-indigo-700);
+  --grade-fill: var(--cvedi-red-700);
 }
 .grade-tone-low {
-  --grade-fill: var(--cvedi-indigo-200);
+  --grade-fill: var(--cvedi-red-200);
 }
 .grade-tone-mid {
-  --grade-fill: var(--cvedi-indigo-300);
+  --grade-fill: var(--cvedi-red-300);
 }
 .grade-tone-high {
-  --grade-fill: var(--cvedi-indigo-500);
+  --grade-fill: var(--cvedi-red-500);
 }
 .grade-tone-top {
-  --grade-fill: var(--cvedi-indigo-800);
+  --grade-fill: var(--cvedi-red-800);
 }
 .grade-range-head {
   display: flex;

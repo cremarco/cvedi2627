@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-06",
+  "result": "passed",
+  "scope": "4 future-direction examples only; existing style atlas retained",
+  "assets": [
+    {
+      "key": "adattabile",
+      "png": "assets/booklet/capitolo-2/direzioni-future/demo-adattabile-v1.png",
+      "webp": "public/images/storia-design/direzioni-future/demo-adattabile.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixelIdenticalLossless": true,
+      "webpSha256": "1b064945e133ba518d6948fd44c19cb439e70dc95c2738a7a8a77e61317d5f24",
+      "figmaImageHash": "1958ce37a44daf3d543e3784b94866dca2797376",
+      "productionBytesMatch": true
+    },
+    {
+      "key": "spaziale",
+      "png": "assets/booklet/capitolo-2/direzioni-future/demo-spaziale-v1.png",
+      "webp": "public/images/storia-design/direzioni-future/demo-spaziale.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixelIdenticalLossless": true,
+      "webpSha256": "dd2c1c1bf48540ddc957b7357212c4ca71cf0b284aedb8e113ad1e77a1f821c4",
+      "figmaImageHash": "433a7ac412d17901d9676299227b1118765038ce",
+      "productionBytesMatch": true
+    },
+    {
+      "key": "generativa",
+      "png": "assets/booklet/capitolo-2/direzioni-future/demo-generativa-v1.png",
+      "webp": "public/images/storia-design/direzioni-future/demo-generativa.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixelIdenticalLossless": true,
+      "webpSha256": "d51ef6f921965993fd854f35335867d86c1bfb0bfd7d7d4deb570ddc841f67ac",
+      "figmaImageHash": "4c9c675dc9496d6ed92b757f3e06901960334adc",
+      "productionBytesMatch": true
+    },
+    {
+      "key": "risorse",
+      "png": "assets/booklet/capitolo-2/direzioni-future/demo-risorse-v1.png",
+      "webp": "public/images/storia-design/direzioni-future/demo-risorse.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "pixelIdenticalLossless": true,
+      "webpSha256": "f6da53eec0b0cd9408d673efb83ddb89af3fb94acb199677adfd09966ac1c5e3",
+      "figmaImageHash": "222b7ca8ade077b7b7af886afc1ba2955f07831f",
+      "productionBytesMatch": true
+    }
+  ],
+  "figma": {
+    "printPageCount": 66,
+    "changedPages": [
+      "2258:295",
+      "2258:317",
+      "2258:352",
+      "2258:381"
+    ],
+    "conceptImages": 4,
+    "documentaryImagesRetained": 7,
+    "captionCount": 11,
+    "mainBodiesPreserved": true,
+    "mainBottomsWithin604": true,
+    "nativeTypographyPreserved": true,
+    "rawVisualReview": 4,
+    "finalBookletPagesVisualReview": 4
+  },
+  "verification": {
+    "sourceCheck": "passed",
+    "productionBuild": "passed",
+    "slideRuntime": "passed",
+    "gitDiffCheck": "passed",
+    "slideRuntimeReport": "reports/slides-c2-2026-10-06/future-concepts/qa.json",
+    "conversionReport": "reports/slides-c2-2026-10-06/future-concepts/asset-verification.json",
+    "resolvedSlides": 221,
+    "historySlides": 68,
+    "historyMinutes": 120,
+    "historyFigures": 57,
+    "runtimeSummary": {
+      "desktopSlides": 5,
+      "narrowSlides": 4,
+      "conceptZooms": 8,
+      "conceptResponseHashesVerified": 8,
+      "pageErrors": [],
+      "footerOverlap": 0
+    },
+    "rootSpotReview": [
+      "desktop-62.png",
+      "narrow-63.png"
+    ],
+    "visualInspection": {
+      "result": "passed",
+      "desktopReviewed": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "narrowReviewed": [
+        60,
+        62,
+        63,
+        64
+      ],
+      "desktopZoomReviewed": [
+        60,
+        62,
+        63,
+        64
+      ],
+      "narrowZoomReviewed": [
+        60,
+        62,
+        63,
+        64
+      ],
+      "observations": [
+        "Four concepts are explicit hypothetical Caffè Luce examples, with authentic references retained.",
+        "Spatial concept dominates the trio while window and volume references remain complete.",
+        "Captions and footers are readable and separated from the images.",
+        "All four concept images remain fully framed in desktop and mobile enlargement."
+      ]
+    },
+    "allRequiredChecks": "passed"
+  }
+}

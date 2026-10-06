@@ -1,0 +1,65 @@
+{
+  "prompt": "Use case: style-transfer.\nImage 1 is the EDIT TARGET: an existing complete Caffè Luce website screenshot for a design textbook. Update ONLY the visual imagery WITHIN its four existing image regions: (1) hero picture on the right, (2) coffee menu image, (3) croissant menu image, (4) tea menu image. Change all four so their medium and palette visibly match this website's interface style.\nPreserve the exact website, aspect ratio 4:3, all layout/positions/sizes, navigation, all typography, UI backgrounds, colors, buttons, rules, section order and ALL written text. Do not redesign the UI. Do not add sections, labels, browser chrome, prices, objects or badges. Original photos must be replaced by styled images, not merely left untouched.\nHero invariant: one espresso cup with saucer, one croissant on its plate, folded napkin and table, in the same composition. Menu invariants: cup+ saucer, one croissant, one teacup, same object size and position within each menu panel.\nExact text, unchanged: \"CAFFÈ LUCE\"; \"Menu\"; \"Il locale\"; \"Contatti\"; \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; \"Caffè\" / \"Espresso e cappuccino\"; \"Croissant\" / \"Ogni mattina\"; \"Tè\" / \"Una selezione di aromi\"; \"Ti aspettiamo\"; \"Lun–Sab · 7–19\"; \"In centro, ogni giorno.\"; \"Un luogo per una pausa\".\nOutput one sharp complete high-resolution webpage screenshot, ideally >=1448x1086. All text and small labels crisp, not degraded. Only four content images change.\nSTYLE OF THE CONTENT IMAGES:\nMATERIAL DESIGN imagery: replace all four photographs with a coherent geometric paper-cut illustration system, using lavender, violet, cream, muted terracotta and coffee brown. Hero cup+croissant+plate+napkin/table are layered crisp paper-like shapes with restrained shallow elevation and subtle contact shadows. Menu cup, croissant and tea are matching paper-cut illustrations, gentle layered shapes and clear silhouettes. This is illustrative content that follows Material's paper/surface metaphor, not a natural photograph and not glossy 3D. Preserve all purple/white UI exactly.",
+  "createdAt": "2026-10-06T07:50:08.138595+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2381"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2381",
+  "bookletFolio": 61,
+  "bookletChapterOrdinal": 41,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · Material Design · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "material",
+  "sourceSha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362",
+  "outputSha256": "e03e70cb8821901f0eb91a0556e2c9e737871c504cf5eb37c0040a7375fe4726",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10c4b-7d51-78a2-af29-31202d562c30/exec-5eda4316-edb2-48d5-b899-bac1326aefc2.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-root.json",
+  "generationQA": {
+    "fourImagesChanged": true,
+    "subjectsPreserved": true,
+    "copyVisuallyVerified": true,
+    "layoutPreserved": true,
+    "sharpness": "passed",
+    "style": "layered paper-cut illustrations"
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v1.png",
+      "sourceSha256": "d2d0469a42a05a060f80a330770e04132b284d0a923713fe220010a4637bc85a",
+      "outputSha256": "6619b44b4f8cea425a31f5248b06fcd74b3cc2062cbd53f0cfe67d0793bc2884",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nMATERIAL DESIGN. Roboto-like typography, restrained lavender and deep violet primary palette, clear raised paper surfaces and two subtle levels of elevation, rounded primary button with consistent shape, thin dividers and organized spacing. Same header/hero/menu/contact arrangement and photographs. Use shadows functionally to distinguish levels; no skeuomorphic textures, glass, hard comic shadows or excessive gradients. The whole site should look like a coherent Material system, with readable text and the same contents."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+      "sourceSha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362",
+      "outputSha256": "e03e70cb8821901f0eb91a0556e2c9e737871c504cf5eb37c0040a7375fe4726",
+      "createdAt": "2026-10-06T07:50:08.138595+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-root.json"
+    }
+  ]
+}

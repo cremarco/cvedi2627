@@ -84,6 +84,15 @@
         ],
         "createdAt": "2026-10-02T10:53:07.897Z",
         "reason": "Agent: DESIGN.md definisce Inter per l’archivio dei progetti; la vista totem.html riutilizza intenzionalmente gallery.css e i font locali per mantenerne la coerenza."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "styles/web-styles.css"
+        ],
+        "createdAt": "2026-10-05T22:42:59.125Z",
+        "reason": "Assistant decided: styles/web-styles.css:371 applies the pink rule only to the open text column of web-style-max, an intentional editorial demonstration of maximalism. The user requested that each style slide adopt the style it discusses; this is not a card or a generic application accent."
       }
     ]
   }

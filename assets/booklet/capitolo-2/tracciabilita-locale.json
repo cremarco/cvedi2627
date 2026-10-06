@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-05",
+  "scope": "Tracciabilità dei casi storici già ricercati per i soli capitoli 1 e 2. Nessuna proposta di nuove pagine e nessuna scrittura Figma.",
+  "manifestReviewed": "/Users/marco/Sites/cvedi2627/assets/booklet/integrazioni-capitoli-1-2.json",
+  "manifestState": "I cinque casi non risultano ancora fra le chiavi sources del manifesto letto; il manifesto documenta OXO, moodboard, utilità, Manuzio, Morris, Tschichold e stile svizzero.",
+  "cases": [
+    {
+      "key": "behrens_aeg",
+      "classification": "aggancio locale esplicito; dettagli verificati e precisati sul web",
+      "localSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2023-2024/dossi-gloria-899821.pdf",
+          "pdfPages": [
+            5
+          ],
+          "printedPage": null,
+          "section": "Un breve accenno di storia",
+          "evidence": "Peter Behrens è nominato e collegato al Design System di AEG; la pagina contiene anche manifesti AEG con didascalia 1910."
+        }
+      ],
+      "usableLocalConcept": "Coerenza fra tipografia, comunicazione e identità visiva industriale.",
+      "corrections": [
+        "Non riprendere il superlativo «primo Design System»: usare uno dei primi esempi di identità aziendale coordinata.",
+        "Distinguere l’incarico AEG del 1907 dalla data del singolo manifesto; la didascalia locale 1910 non può datare l’immagine A.E.G. Metallfadenlampe del 1907."
+      ],
+      "webExpansion": [
+        "Incarico di Behrens per AEG dal 1907; coordinamento fra marchio, pubblicità, prodotti e architettura."
+      ],
+      "primarySources": [
+        "https://search.smb.museum/object/obj-931917",
+        "https://www.moma.org/collection/works/5490"
+      ]
+    },
+    {
+      "key": "isotype",
+      "classification": "estensione web; nessun aggancio locale esplicito rilevato",
+      "localSources": [],
+      "note": "Isotype, Otto Neurath e Marie Neurath non sono nominati nei materiali leggibili già analizzati. La lezione 1 tratta convenzioni e lingua visiva, ma non questo caso storico; non attribuirne l’inclusione agli approfondimenti.",
+      "primarySources": [
+        "https://isotyperevisited.org/2012/08/society-and-economy.php",
+        "https://collections.reading.ac.uk/special-collections/collections/marie-neurath-collection/"
+      ]
+    },
+    {
+      "key": "harry_beck",
+      "classification": "estensione web; nessun aggancio locale esplicito rilevato",
+      "localSources": [],
+      "note": "Harry Beck non è nominato nei materiali leggibili già analizzati. La traccia della metro usata come motivo della copertina è un aggancio grafico del booklet, non una fonte storica negli approfondimenti.",
+      "primarySources": [
+        "https://library.ltmuseum.co.uk/portal/Default/en-GB/RecordView/Index/106",
+        "https://www.english-heritage.org.uk/visit/blue-plaques/harry-beck/"
+      ]
+    },
+    {
+      "key": "susan_kare",
+      "classification": "aggancio locale esplicito per tipografia bitmap; icone e sketchbook sono ampliamento web",
+      "localSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2025-2026/polandi-giulia-933652.pdf",
+          "pdfPages": [
+            24
+          ],
+          "printedPage": 23,
+          "section": "Il carattere tipografico, nella sezione Apple",
+          "evidence": "Susan Kare è nominata come autrice di font bitmap costruiti pixel per pixel; sono citati Chicago, London e Monaco."
+        }
+      ],
+      "usableLocalConcept": "La tipografia digitale come elemento funzionale di leggibilità e identità coerente nelle interfacce.",
+      "webExpansion": [
+        "Processo di disegno su carta quadrettata con un quadrato per pixel.",
+        "Icone Macintosh e metafore delle forbici e del cestino.",
+        "Schizzi grafici datati 1982–1983 conservati dal MoMA."
+      ],
+      "caution": "Non presentare il capitolo sulle icone come trascrizione dell’approfondimento locale: la parte locale riguarda soprattutto i caratteri tipografici.",
+      "primarySources": [
+        "https://www.moma.org/collection/works/188382",
+        "https://www.moma.org/collection/works/188386"
+      ]
+    },
+    {
+      "key": "cern_web",
+      "classification": "nascita del Web esplicita negli approfondimenti; caso CERN, date e immagine verificati sul web",
+      "localSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2024-2025/cigagna-filippo-905418.pdf",
+          "pdfPages": [
+            11
+          ],
+          "printedPage": 9,
+          "section": "7 Storia delle interfacce",
+          "evidence": "Nomina Tim Berners-Lee e la nascita del World Wide Web, poi tratta gli elementi HTML e l’evoluzione delle interfacce. Riporta erroneamente la data 1997."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/geraci-820772-algoritmi-google.pdf",
+          "pdfPages": [
+            3
+          ],
+          "printedPage": null,
+          "section": "Introduzione: i primi motori di ricerca",
+          "evidence": "Colloca la nascita del Web fra il 1989 e il 1991."
+        }
+      ],
+      "usableLocalConcept": "Passaggio dalle prime pagine collegate da link alla progettazione dell’esperienza di navigazione.",
+      "corrections": [
+        "Non utilizzare il 1997 presente in Cigagna: proposta del Web nel 1989, primo server/browser funzionante entro fine 1990, diffusione del software nel 1991.",
+        "Se si usa lo screenshot ufficiale di WorldWideWeb su NeXT, la caption deve indicare 1993; non datare quello screenshot 1990 o 1991."
+      ],
+      "webExpansion": [
+        "CERN come luogo di sviluppo, primo browser/editor, sito info.cern.ch e rilascio royalty-free del 30 aprile 1993."
+      ],
+      "primarySources": [
+        "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+        "https://info.cern.ch/NextBrowser1.html"
+      ]
+    }
+  ],
+  "lesson1": {
+    "path": "/Users/marco/Sites/cvedi2627/lezioni/01-introduzione.md",
+    "explicitCaseNamesFound": [],
+    "conceptualLink": {
+      "lessonSlide": 16,
+      "deckSlide": 68,
+      "title": "Condividere una lingua visiva",
+      "kind": "tematico, non caso storico",
+      "meaning": "Segni, immagini e convenzioni sono interpretati attraverso l’esperienza del pubblico; non sostiene una presunta universalità automatica dei pittogrammi."
+    }
+  },
+  "limits": [
+    "Le ricerche dei nomi riguardano i testi leggibili estratti dai PDF locali; l’assenza di una corrispondenza non prova l’assenza assoluta di immagini o riferimenti non estraibili.",
+    "Il file radavelli-marta-873872-un-viaggio-nel-graphic-design.pdf, dentro 2022-2023/materiali-collegati-2cfu, è soltanto un puntatore Git LFS e non è stato analizzato nel contenuto.",
+    "Le pagine sono sempre pagine PDF numerate da 1; il numero stampato è distinto quando diverso.",
+    "La verifica diretta di Polandi tramite pypdf conferma la pagina PDF 24 (stampata 23); la spaziatura lettera per lettera del PDF spiegava il mancato risultato della prima regex."
+  ]
+}

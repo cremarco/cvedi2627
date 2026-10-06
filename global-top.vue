@@ -3,7 +3,7 @@ import { computed, onBeforeUnmount, ref, watch } from 'vue'
 import { useNav } from '@slidev/client'
 import { lessonPagination } from './utils/lesson-pagination'
 
-const { currentSlideNo, slides, currentSlideRoute, isPrintMode } = useNav()
+const { currentSlideNo, slides, isPrintMode } = useNav()
 const pagination = computed(() => lessonPagination(slides.value, currentSlideNo.value))
 const displayedPage = ref(pagination.value.page)
 const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)')
@@ -37,16 +37,11 @@ onBeforeUnmount(() => {
   cancelAnimationFrame(frame)
   reducedMotion.removeEventListener('change', finishProgress)
 })
-const gallery = computed(() => String(currentSlideRoute.value.meta.slide.frontmatter.class ?? '').includes('archive-wall-slide'))
-const lesson = computed(() => String(currentSlideRoute.value.meta.slide.frontmatter.lesson ?? ''))
-// Reuse the slide's section classes, so future lessons inherit their CSS palette.
-const sectionClasses = computed(() => String(currentSlideRoute.value.meta.slide.frontmatter.class ?? '')
-  .split(/\s+/).filter(className => className.endsWith('-section')))
 const progressWidth = computed(() => `${Math.min(100, Math.max(0, displayedPage.value / (pagination.value.total || 1) * 100))}%`)
 </script>
 
 <template>
-  <div v-show="!gallery" class="presentation-progress-rail" :class="[sectionClasses, { 'lesson-progress': !!lesson }]">
+  <div class="presentation-progress-rail">
     <progress
       class="progress sr-only"
       :value="displayedPage"

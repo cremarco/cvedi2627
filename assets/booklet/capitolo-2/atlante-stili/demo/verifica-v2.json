@@ -1,0 +1,235 @@
+{
+  "date": "2026-10-06",
+  "version": 2,
+  "request": "Negli esempi del sito del bar aggiorna anche le immagini in modo che riprendano lo stile dei siti. Usa @imagegen",
+  "generatedWith": "Built-in Imagegen",
+  "allStyles": [
+    "html",
+    "web2",
+    "scheu",
+    "flat",
+    "material",
+    "neumo",
+    "glass",
+    "minimal",
+    "y2k",
+    "max",
+    "neo"
+  ],
+  "generatedFinals": 11,
+  "styledRegionsPerDemo": [
+    "hero",
+    "coffee menu image",
+    "croissant menu image",
+    "tea menu image"
+  ],
+  "styledRegionsTotal": 44,
+  "visual": {
+    "allElevenRawImagesReviewed": true,
+    "allElevenFigmaPagesReviewed": true,
+    "copyAndLayoutVisuallyPreserved": true,
+    "photoOrIllustrationSubjectsRetained": true,
+    "styleConsistency": "passed",
+    "sharpness": "passed",
+    "intentionallyPixelatedStyle": "Early HTML uses crisp dithering and limited-palette bitmap imagery; page text remains sharp."
+  },
+  "figma": {
+    "issues": [],
+    "demoCount": 11,
+    "demos": [
+      {
+        "style": "html",
+        "id": "2326:251",
+        "imageHash": "bdfd0276042a1ac8ad825690bd501591df2323a8",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "web2",
+        "id": "2326:280",
+        "imageHash": "ab73b236546c957278a59b5b7840ce3851118a98",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "scheu",
+        "id": "2326:309",
+        "imageHash": "e73869c8e6998f07d49a373f3803e71a2ad95a84",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "flat",
+        "id": "2326:338",
+        "imageHash": "0d9b074eea7a77a70b6baf221ba966df8eba1e36",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "material",
+        "id": "2326:367",
+        "imageHash": "7062f1c2424885d98bc4a938dab2079e678b6593",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "glass",
+        "id": "2326:425",
+        "imageHash": "2deec1a974b019fb995a8e174ea1dc6e7349a273",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "minimal",
+        "id": "2326:454",
+        "imageHash": "d0e6595596f3c3cca46662654559d07a3aaf58e6",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "y2k",
+        "id": "2326:483",
+        "imageHash": "940e7cd2a47aa87a292412442dd04c272ba40864",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "max",
+        "id": "2326:512",
+        "imageHash": "5327a85fc2255814f340bf0e1b1f72cb3aac0d1f",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "neo",
+        "id": "2326:541",
+        "imageHash": "e19b74ad8f1194f1f9dbad3be46364c09003b1a0",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      },
+      {
+        "style": "neumo",
+        "id": "2326:396",
+        "imageHash": "33c7ae2b5f56250725bdb2036453386a010e9851",
+        "width": 350,
+        "height": 262.5,
+        "fit": "FIT"
+      }
+    ],
+    "authenticScreenshotsVerifiedUnchanged": 44
+  },
+  "sourceManifest": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+  "slideAssets": "public/images/storia-design/atlante/demo-{style}.webp",
+  "productionBuild": "passed",
+  "publishedAssets": [
+    {
+      "style": "html",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png",
+      "public": "public/images/storia-design/atlante/demo-html.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "web2",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+      "public": "public/images/storia-design/atlante/demo-web2.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "scheu",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png",
+      "public": "public/images/storia-design/atlante/demo-scheu.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "flat",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "public": "public/images/storia-design/atlante/demo-flat.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "material",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+      "public": "public/images/storia-design/atlante/demo-material.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "neumo",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+      "public": "public/images/storia-design/atlante/demo-neumo.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "glass",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+      "public": "public/images/storia-design/atlante/demo-glass.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "minimal",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+      "public": "public/images/storia-design/atlante/demo-minimal.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "y2k",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+      "public": "public/images/storia-design/atlante/demo-y2k.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "max",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+      "public": "public/images/storia-design/atlante/demo-max.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    },
+    {
+      "style": "neo",
+      "source": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+      "public": "public/images/storia-design/atlante/demo-neo.webp",
+      "distSameBytes": true,
+      "losslessPixels": true,
+      "allFourPicturesStyled": true
+    }
+  ],
+  "sourceCheck": "passed",
+  "gitDiffCheck": "passed",
+  "slideRuntime": {
+    "result": "passed",
+    "styles": 11,
+    "imagesLoaded": 22,
+    "demoResponseHashesVerified": 11,
+    "enlargementsVerified": 11,
+    "pageErrors": [],
+    "report": "reports/slides-c2-2026-10-06/imagery-v2/qa.json"
+  }
+}

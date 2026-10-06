@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-05",
+  "request": "Rimuovere i box Percorsi/Apri percorso e far seguire all’intera pagina lo stile dell’interfaccia descritto.",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "scope": {
+    "chapter": 2,
+    "pages": [
+      {
+        "nodeId": "198:2319",
+        "style": "html",
+        "titleFont": [
+          "Noto Serif",
+          "Bold"
+        ],
+        "bodyFont": [
+          "Noto Serif",
+          "Regular"
+        ],
+        "captionFont": [
+          "Noto Serif",
+          "Regular"
+        ]
+      },
+      {
+        "nodeId": "198:2652",
+        "style": "web2",
+        "titleFont": [
+          "Nunito",
+          "ExtraBold"
+        ],
+        "bodyFont": [
+          "Roboto",
+          "Regular"
+        ],
+        "captionFont": [
+          "Roboto",
+          "Italic"
+        ]
+      },
+      {
+        "nodeId": "198:2345",
+        "style": "scheu",
+        "titleFont": [
+          "Lora",
+          "Bold"
+        ],
+        "bodyFont": [
+          "Lora",
+          "Regular"
+        ],
+        "captionFont": [
+          "Lora",
+          "Italic"
+        ]
+      },
+      {
+        "nodeId": "198:2675",
+        "style": "flat",
+        "titleFont": [
+          "Inter",
+          "Black"
+        ],
+        "bodyFont": [
+          "Inter",
+          "Regular"
+        ],
+        "captionFont": [
+          "Inter",
+          "Regular"
+        ]
+      },
+      {
+        "nodeId": "198:2381",
+        "style": "material",
+        "titleFont": [
+          "Roboto",
+          "Medium"
+        ],
+        "bodyFont": [
+          "Roboto",
+          "Regular"
+        ],
+        "captionFont": [
+          "Roboto",
+          "Regular"
+        ]
+      },
+      {
+        "nodeId": "198:2363",
+        "style": "neumo",
+        "titleFont": [
+          "Nunito",
+          "Bold"
+        ],
+        "bodyFont": [
+          "Nunito",
+          "Regular"
+        ],
+        "captionFont": [
+          "Nunito",
+          "Regular"
+        ]
+      },
+      {
+        "nodeId": "198:2688",
+        "style": "glass",
+        "titleFont": [
+          "Inter",
+          "Light"
+        ],
+        "bodyFont": [
+          "Inter",
+          "Regular"
+        ],
+        "captionFont": [
+          "Inter",
+          "Regular"
+        ]
+      },
+      {
+        "nodeId": "198:2701",
+        "style": "minimal",
+        "titleFont": [
+          "Inter",
+          "Light"
+        ],
+        "bodyFont": [
+          "Inter",
+          "Regular"
+        ],
+        "captionFont": [
+          "Inter",
+          "Regular"
+        ]
+      },
+      {
+        "nodeId": "198:2399",
+        "style": "y2k",
+        "titleFont": [
+          "Audiowide",
+          "Regular"
+        ],
+        "bodyFont": [
+          "Space Grotesk",
+          "Regular"
+        ],
+        "captionFont": [
+          "IBM Plex Mono",
+          "Regular"
+        ]
+      },
+      {
+        "nodeId": "198:2715",
+        "style": "max",
+        "titleFont": [
+          "Fraunces",
+          "Black"
+        ],
+        "bodyFont": [
+          "Space Grotesk",
+          "Regular"
+        ],
+        "captionFont": [
+          "IBM Plex Mono",
+          "Medium"
+        ]
+      },
+      {
+        "nodeId": "198:2418",
+        "style": "neo",
+        "titleFont": [
+          "Archivo Black",
+          "Regular"
+        ],
+        "bodyFont": [
+          "IBM Plex Mono",
+          "Regular"
+        ],
+        "captionFont": [
+          "IBM Plex Mono",
+          "Regular"
+        ]
+      }
+    ],
+    "pageCount": 11
+  },
+  "changes": {
+    "demonstrationModulesRemoved": 9,
+    "materialBoxDiagramRemoved": 1,
+    "contentTextPreserved": true,
+    "allPageTypographyRestyled": true,
+    "headerAndFolioRestyled": true,
+    "realImagesAndCaptionsPreserved": true,
+    "archiveNode": "2289:276",
+    "archivedNodeIds": [
+      "2262:307",
+      "2262:320",
+      "2262:334",
+      "2262:341",
+      "2262:351",
+      "2262:364",
+      "2262:377",
+      "2262:391",
+      "2262:404",
+      "2262:417"
+    ],
+    "acrylicRasterFormat": "PNG",
+    "acrylicImageHash": "df9e032c04a67ce516476305558426668bd0f58d"
+  },
+  "qa": {
+    "evidence": [
+      {
+        "id": "198:2319",
+        "key": "html",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 554,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2652",
+        "key": "web2",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 585,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2345",
+        "key": "scheu",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 541,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2675",
+        "key": "flat",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 538,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2381",
+        "key": "material",
+        "textCount": 7,
+        "imageCount": 0,
+        "captionCount": 0,
+        "bottom": 422,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2363",
+        "key": "neumo",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 536,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2688",
+        "key": "glass",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 563,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2701",
+        "key": "minimal",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 554,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2399",
+        "key": "y2k",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 582,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2715",
+        "key": "max",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 540,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      },
+      {
+        "id": "198:2418",
+        "key": "neo",
+        "textCount": 6,
+        "imageCount": 1,
+        "captionCount": 1,
+        "bottom": 587,
+        "overflow": [],
+        "overlaps": [],
+        "badFonts": [],
+        "leftover": []
+      }
+    ],
+    "issues": []
+  },
+  "latestLayoutRevision": "assets/booklet/revisione-layout-capitolo-2.json"
+}

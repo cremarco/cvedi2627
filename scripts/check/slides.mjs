@@ -3,12 +3,13 @@ import { mkdir, writeFile } from 'node:fs/promises'
 import assert from 'node:assert/strict'
 import { checkSlideSources } from './slide-source.mjs'
 
-const { deck, total, lesson, history, course, projects, uxExamples, uxSlides, audit } = await checkSlideSources()
+const { deck, total, lesson, history, brief, projects, uxExamples, uxSlides, audit } = await checkSlideSources()
 const baseURL = process.env.SLIDEV_URL || 'http://localhost:3035'
 const output = process.env.SLIDEV_SCREENSHOTS
 const pageNumber = slide => slide.index + 1
 const introductionStart = pageNumber(lesson[0])
-const historyStart = pageNumber(history[0])
+const briefStart = pageNumber(brief[0])
+const lessonOf = slide => String(slide.frontmatter.lesson ?? 'presentazione-corso')
 // Fixtures follow slide identity, so insertions do not silently change their coverage.
 function resolveFixture(lesson, title) {
   const matches = deck.slides.filter(slide => slide.frontmatter.lesson === lesson && slide.title === title)
@@ -60,12 +61,19 @@ const fixtures = {
     ["storia-design", "La rivista come ritmo di lettura"],
     ["storia-design", "Il tavolo di lavoro diventa software"],
     ["storia-design", "Dal leggere all’interagire"],
-    ["storia-design", "Xerox: oggetti sullo schermo"],
+    ["storia-design", "Xerox: ambienti grafici da sperimentare"],
     ["storia-design", "WIMP: quattro elementi coordinati"],
     ["storia-design", "Attività · La metafora della scrivania"],
+    ["storia-design", "Il primo web: testo e collegamenti"],
+    ["storia-design", "Web 2.0: partecipazione e volume"],
     ["storia-design", "Scheumorfismo: riconoscere una funzione"],
+    ["storia-design", "Flat design: ridurre il rilievo"],
+    ["storia-design", "Material Design: superfici e comportamento"],
     ["storia-design", "Neumorfismo: oggetti dalla superficie"],
+    ["storia-design", "Glassmorfismo: livelli e trasparenze"],
     ["storia-design", "Minimalismo: scegliere che cosa resta"],
+    ["storia-design", "Y2K: reinterpretare un immaginario"],
+    ["storia-design", "Massimalismo: coordinare la densità"],
     ["storia-design", "Brutalismo web e neobrutalismo"],
     ["storia-design", "Attività · Un controllo è riconoscibile?"],
     ["storia-design", "Verifica finale · Motivare uno stile"],
@@ -88,13 +96,29 @@ const fixtures = {
     ["storia-design", "Verifica finale · Motivare uno stile"],
   ],
 }
-const fixturePages = name => fixtures[name].map(([lesson, title]) => resolveFixture(lesson, title))
+const fixturePages = name => fixtures[name]
+  .filter(([lesson]) => lesson !== 'storia-design' || history.length)
+  .map(([lesson, title]) => resolveFixture(lesson, title))
+const webStyleFonts = {
+  html: ['Cvedi Noto Serif', 'Cvedi Noto Serif', 'Cvedi Noto Serif'],
+  web2: ['Cvedi Nunito', 'Cvedi Roboto', 'Cvedi Roboto'],
+  scheu: ['Cvedi Lora', 'Cvedi Lora', 'Cvedi Lora'],
+  flat: ['Inter', 'Inter', 'Inter'],
+  material: ['Cvedi Roboto', 'Cvedi Roboto', 'Cvedi Roboto'],
+  neumo: ['Cvedi Nunito', 'Cvedi Nunito', 'Cvedi Nunito'],
+  glass: ['Inter', 'Inter', 'Inter'],
+  minimal: ['Inter', 'Inter', 'Inter'],
+  y2k: ['Cvedi Audiowide', 'Cvedi Space Grotesk', 'Cvedi IBM Plex Mono'],
+  max: ['Cvedi Fraunces', 'Cvedi Space Grotesk', 'Cvedi IBM Plex Mono'],
+  neo: ['Cvedi Archivo Black', 'Cvedi IBM Plex Mono', 'Cvedi IBM Plex Mono'],
+}
 const recoveredPages = audit.integratedSlides.map(entry => {
   const slide = deck.slides.find(slide => slide.frontmatter.routeAlias === entry.alias)
   assert.ok(slide, `recovered fixture: ${entry.alias}`)
   return pageNumber(slide)
 })
 const uxPages = uxSlides.map(pageNumber)
+const briefPages = brief.map(pageNumber)
 const introductionDiscussion = lesson.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
 const historyDiscussion = history.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
 if (output) await mkdir(output, { recursive: true })
@@ -108,13 +132,15 @@ try {
     if (error.message !== 'Wake Lock permission request denied') errors.push(error.message)
   })
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  await page.getByRole('button', { name: /02.*Introduzione a UX e UI/ }).click()
+  await page.getByRole('button', { name: /Introduzione a UX e UI/ }).click()
   await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  await page.getByRole('button', { name: /03.*Storia del graphic design/ }).click()
-  await page.locator(`.slidev-page-${historyStart} .slidev-layout`).waitFor()
-  assert.equal(await page.locator(`.slidev-page-${historyStart} h1`).textContent(), 'Storia del design', 'index opens history chapter')
+  assert.equal(await page.locator('.slidev-page-3 .index-grid button').count(), 2, 'index shows only the two available lessons')
+  assert.equal(await page.getByRole('button', { name: /Storia del design/ }).count(), 0, 'history index entry stays hidden')
+  await page.locator('.slidev-page-3').getByRole('button', { name: /Brief/i }).click()
+  await page.locator(`.slidev-page-${briefStart} .slidev-layout`).waitFor()
+  assert.equal(await page.locator(`.slidev-page-${briefStart} h1`).textContent(), brief[0].title, 'index opens standalone project brief')
   async function inspect(number, narrow = false, print = false) {
     await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
     const slide = page.locator(`.slidev-page-${number} .slidev-layout`)
@@ -162,6 +188,12 @@ try {
       }
       const backgrounds = [...new Set([...root.querySelectorAll('.cvedi-card')].map(card => getComputedStyle(card).backgroundColor))]
       const title = root.querySelector('h1')
+      const webStyle = [...root.classList].find(name => name.startsWith('web-style-') && name !== 'web-style-slide')?.replace('web-style-', '')
+      const webTypography = webStyle ? [title, root.querySelector('p'), root.querySelector('.lesson-caption')].map(element => {
+        if (!element) return null
+        const family = getComputedStyle(element).fontFamily
+        return { family, loaded: document.fonts.check(`16px ${family.split(',')[0]}`) }
+      }) : null
       const figures = [...root.querySelectorAll('.lesson-figure img')].map(img => {
         const rect = img.getBoundingClientRect()
         const fit = Math.min(rect.width / img.naturalWidth, rect.height / img.naturalHeight)
@@ -183,10 +215,12 @@ try {
         projectSection: root.classList.contains('project-section'),
         reading: root.classList.contains('reading-slide'),
         figures,
+        webStyle,
+        webTypography,
       }
     }, number)
     const current = deck.slides[number - 1]
-    const set = current.frontmatter.lesson === 'introduzione' ? lesson : current.frontmatter.lesson === 'storia-design' ? history : course
+    const set = deck.slides.filter(slide => lessonOf(slide) === lessonOf(current))
     const lessonPage = set.indexOf(current) + 1
     const label = `Slide ${lessonPage} di ${set.length}`
     assert.equal(report.headings, 1, `slide ${number}: heading`)
@@ -199,7 +233,16 @@ try {
     assert.equal(report.codeBlocks, 0, `slide ${number}: unintended code block`)
     assert.equal(report.brokenImages.length, 0, `slide ${number}: missing images`)
     assert.ok(report.backgrounds.length <= 1, `slide ${number}: inconsistent card surfaces`)
-    if (report.reading) assert.equal(report.titleTop, 64, `slide ${number}: stable reading title anchor`)
+    if (report.reading) assert.equal(report.titleTop, 52, `slide ${number}: stable reading title anchor`)
+    if (report.webStyle) {
+      const expectedFonts = webStyleFonts[report.webStyle]
+      assert.ok(expectedFonts, `slide ${number}: known interface style`)
+      for (const [index, typography] of report.webTypography.entries()) {
+        if (!typography) continue
+        assert.ok(typography.family.includes(expectedFonts[index]), `slide ${number}: style typeface for role ${index}`)
+        assert.ok(typography.loaded, `slide ${number}: local style font loaded for role ${index}`)
+      }
+    }
     for (const figure of report.figures) {
       assert.ok(figure.width > 0 && figure.height > 0, `slide ${number}: visible figure`)
       assert.ok(['contain', 'cover'].includes(figure.fit), `slide ${number}: preserved image proportions`)
@@ -209,7 +252,7 @@ try {
       assert.ok(projects.length >= 12, 'archive: enough project screenshots to cycle')
       assert.equal(report.galleryImages, 12, 'archive: twelve full-screen image windows')
     }
-    reports.push({ ...report, narrow, print })
+    reports.push({ ...report, lesson: lessonOf(current), lessonPage, lessonTotal: set.length, narrow, print })
     if (output) await page.screenshot({ path: `${output}/${print ? 'print-' : narrow ? 'narrow-' : ''}${number}.png` })
   }
   for (let number = 1; number <= total; number++) await inspect(number)
@@ -277,7 +320,7 @@ try {
     ...fixturePages('narrowIntroduction'),
     // History: opening, timeline, images, paired posters, cards, activities and long titles.
     ...fixturePages('narrowHistory'),
-    ...uxPages, ...recoveredPages, total,
+    ...uxPages, ...recoveredPages, ...briefPages, total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
@@ -286,13 +329,13 @@ try {
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })
   await page.setViewportSize({ width: 1280, height: 720 })
-  for (const number of new Set([...fixturePages('print'), ...uxPages, ...recoveredPages, total])) await inspect(number, false, true)
+  for (const number of new Set([...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, total])) await inspect(number, false, true)
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()
   // Open each presenter entry in a fresh page: dev notes are fetched separately
   // and Slidev keeps a per-page note cache when changing between player routes.
-  for (const discussion of [introductionDiscussion, historyDiscussion]) {
+  for (const discussion of [introductionDiscussion, historyDiscussion].filter(Boolean)) {
     assert.ok(discussion, 'each chapter has a third classroom activity')
     const number = pageNumber(discussion)
     const isHistory = discussion.frontmatter.lesson === 'storia-design'
@@ -304,7 +347,9 @@ try {
     await presenter.locator('.note').filter({ hasText: new RegExp(`Slide ${discussion.frontmatter.lessonSlide} del capitolo`) }).waitFor()
     const note = await presenter.locator('.note').innerText()
     assert.match(note, /Terza attività/, `presenter ${number}: discussion instructions`)
-    assert.match(note, isHistory ? /Booklet:.*p\. 51/ : /Booklet:.*p\. 15/, `presenter ${number}: booklet pages`)
+    const bookletReference = discussion.note.match(/^Booklet:.*$/m)?.[0]
+    assert.ok(bookletReference, `presenter ${number}: booklet reference in source`)
+    assert.ok(note.includes(bookletReference), `presenter ${number}: current booklet reference is rendered`)
     if (isHistory) assert.match(note, /Lezione 05, pp\. 91–94/, 'history presenter includes PDF pages')
     await presenter.waitForFunction(number => [...document.querySelectorAll(`.slidev-page-${number} img`)].every(img => img.complete && img.naturalWidth), number)
     if (output) await presenter.screenshot({ path: `${output}/presenter-${number}.png` })

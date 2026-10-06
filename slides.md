@@ -17,10 +17,11 @@ export:
   perSlide: true
 layout: default
 class: cover-slide course-section
-routeAlias: presentazione-corso
+lesson: apertura
+routeAlias: apertura
 ---
 
-<ClosingMetro />
+<ClosingMetro original />
 
 # Comunicazione visiva e design delle interfacce
 
@@ -34,6 +35,7 @@ routeAlias: presentazione-corso
 ---
 layout: default
 class: renewal-slide course-section
+lesson: apertura
 footer: "Un nuovo percorso"
 ---
 
@@ -57,23 +59,26 @@ footer: "Un nuovo percorso"
 ---
 layout: default
 class: index-slide course-section reading-slide
+lesson: apertura
 footer: "Lezioni"
 ---
 
 # Indice delle lezioni
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
-  <button type="button" class="btn btn-lg index-button index-course" @click="$nav.go(7)"><span class="index-chapter-number">01</span><span>Presentazione del corso</span></button>
+  <button type="button" class="btn btn-lg index-button index-course" @click="$nav.go('presentazione-corso')"><span class="index-chapter-number">01</span><span>Il corso</span></button>
   <button type="button" class="btn btn-lg index-button index-chapter-1" @click="$nav.go('introduzione-teorica')"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del graphic design e delle interfacce</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">04</span><span>Il processo UX attraverso il Design Thinking</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">05</span><span>La metodologia Lean UX</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">06</span><span>Conclusioni</span></button>
+  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del design</span></button>
+  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">04</span><span>Il processo UX attraverso il Design Thinking</span></button>
+  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">05</span><span>La metodologia Lean UX</span></button>
+  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">06</span><span>Conclusioni</span></button>
 </div>
+<p class="aside"><SlideAction to="brief-progetto" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction></p>
 
 ---
 layout: default
 class: content-slide shortcuts-slide course-section reading-slide
+lesson: apertura
 footer: "Navigazione"
 ---
 
@@ -107,6 +112,7 @@ footer: "Navigazione"
 layout: default
 class: question-slide course-section
 footer: "Per iniziare"
+lesson: apertura
 ---
 
 # Come partecipare?
@@ -116,6 +122,7 @@ footer: "Per iniziare"
 ---
 layout: default
 class: question-slide course-section
+lesson: apertura
 ---
 
 # In una parola, come descriveresti l’ultimo semestre?
@@ -125,6 +132,7 @@ class: question-slide course-section
 ---
 layout: default
 class: chapter-slide course-section
+routeAlias: presentazione-corso
 ---
 
 <ChapterMetro section="course" />
@@ -362,7 +370,7 @@ footer: "Percorso di gruppo"
     <p>Le scadenze saranno confermate per il 2026/27. La consegna finale è prevista <strong>una settimana prima dell’appello scritto</strong>.</p>
   </CvediCard>
 </div>
-<p class="aside">Ogni gruppo inventa <strong>nome e identità</strong> della propria organizzazione.</p>
+<p class="aside"><SlideAction to="brief-progetto">Apri il brief di progetto</SlideAction></p>
 
 ---
 layout: default
@@ -392,196 +400,6 @@ footer: "Consegne"
     <p>Scadenze in aggiornamento.</p>
   </CvediCard>
 </div>
-
----
-layout: default
-class: content-slide project-section nextme-slide nextme-intro reading-slide
-footer: "WHAT IF? · Il brief"
----
-
-# WHAT IF?
-
-<div class="nextme-layout">
-  <div class="nextme-copy">
-    <p class="nextme-subtitle">Progettare i servizi del futuro con l’intelligenza artificiale</p>
-    <p>Siamo nel <strong>2050</strong>. L’evoluzione dell’AI apre nuove possibilità per imparare, creare, lavorare, comunicare e interagire con il mondo.</p>
-    <p>Inventate un’organizzazione che offra <strong>soluzioni, prodotti, servizi o esperienze innovative</strong> basati su queste possibilità.</p>
-    <p>Individuate un <strong>bisogno delle persone</strong> e progettate un’offerta originale, utile e comprensibile.</p>
-  </div>
-  <NextMeIllustration src="/images/generated/next-me/next-me-2050-v2.webp" />
-</div>
-<p class="aside nextme-statement">Realizzate il <strong>sito web responsive</strong> attraverso cui le persone scoprono, scelgono e utilizzano la vostra offerta.</p>
-
-<!--
-WHAT IF? è il titolo del progetto didattico: ogni gruppo inventa il nome e l’identità della propria organizzazione.
-L’ambientazione futura lascia spazio alla fantasia. Le proposte devono avere una logica comprensibile, destinatari riconoscibili e un’utilità concreta.
-Definite quali capacità dell’AI rendono possibile l’offerta, come funziona e quale ruolo hanno le persone.
-Il progetto riguarda il concept, la comunicazione visiva, l’esperienza delle persone e la realizzazione del sito web.
--->
-
----
-layout: default
-class: content-slide project-section nextme-slide nextme-concept reading-slide
-footer: "WHAT IF? · Il concept"
----
-
-# Dal bisogno al concept
-
-<p class="lead">Collegate persone, capacità dell’AI e valore del servizio.</p>
-<div class="nextme-layout">
-  <dl class="nextme-definition-list">
-    <div><dt>Destinatari</dt><dd>Definite persone, <strong>bisogno</strong> e <strong>contesto d’uso</strong>.</dd></div>
-    <div><dt>Offerta</dt><dd>Una soluzione principale, con servizi o varianti coerenti.</dd></div>
-    <div><dt>Ruolo dell’AI</dt><dd>Spiegate quale capacità rende possibile la vostra offerta.</dd></div>
-    <div><dt>Evoluzione</dt><dd>Distinguete ciò che esiste <strong>oggi</strong> da ciò che ipotizzate per il <strong>2050</strong>.</dd></div>
-    <div><dt>Scelte dell’utente</dt><dd>Chiarite cosa <strong>decide</strong>, fornisce, delega e <strong>può modificare</strong>.</dd></div>
-  </dl>
-  <NextMeIllustration src="/images/generated/next-me/next-me-concept-v2.webp" />
-</div>
-
----
-layout: default
-class: content-slide project-section nextme-directions reading-slide
-footer: "WHAT IF? · Direzioni da esplorare"
----
-
-# Potenzialità dell’AI
-
-<p class="lead">Sei direzioni per immaginare la vostra offerta.</p>
-<div class="cvedi-grid three">
-  <CvediCard title="Personalizzazione" illustration="/images/flat/sliders.svg" illustration-variant="compact">
-    <p>Servizi che si adattano a esigenze, conoscenze, preferenze e contesto.</p>
-  </CvediCard>
-  <CvediCard title="Collaborazione" illustration="/images/flat/people.svg" illustration-variant="compact">
-    <p>Persone e AI progettano, ricercano e creano insieme.</p>
-  </CvediCard>
-  <CvediCard title="Multimodalità" illustration="/images/flat/multimodal.svg" illustration-variant="compact">
-    <p>Linguaggio, immagini, suoni, movimento e dati ambientali dialogano.</p>
-  </CvediCard>
-  <CvediCard title="Simulazione" illustration="/images/flat/simulation.svg" illustration-variant="compact">
-    <p>Ambienti generati per imparare, sperimentare e prepararsi a situazioni nuove.</p>
-  </CvediCard>
-  <CvediCard title="Autonomia" illustration="/images/flat/check.svg" illustration-variant="compact">
-    <p>Attività articolate coordinate con livelli di delega scelti dall’utente.</p>
-  </CvediCard>
-  <CvediCard title="Mondo fisico" illustration="/images/flat/devices.svg" illustration-variant="compact">
-    <p>AI, oggetti, spazi e robotica si collegano in nuovi servizi.</p>
-  </CvediCard>
-</div>
-
----
-layout: default
-class: content-slide project-section reading-slide
-footer: "WHAT IF? · Spunti"
----
-
-# Spunti per partire
-
-<div class="cvedi-grid two">
-  <CvediCard title="Professioni da provare" illustration="/images/flat/person.svg" illustration-variant="compact">
-    <p>Un’agenzia di <strong>esperienze personalizzate</strong> per esplorare una giornata in professioni future.</p>
-  </CvediCard>
-  <CvediCard title="Oggetti che evolvono" illustration="/images/flat/sliders.svg" illustration-variant="compact">
-    <p>Un atelier di oggetti capaci di <strong>adattarsi nel tempo</strong> alle esigenze del proprietario.</p>
-  </CvediCard>
-  <CvediCard title="Ambienti narrativi" illustration="/images/flat/simulation.svg" illustration-variant="compact">
-    <p>Uno studio di luoghi e storie su misura, in cui <strong>le persone partecipano</strong> e cambiano l’esperienza.</p>
-  </CvediCard>
-  <CvediCard title="Ecosistemi domestici" illustration="/images/flat/plant.svg" illustration-variant="compact">
-    <p>Un servizio che coordina <strong>piante, spazi e risorse</strong> per creare piccoli ecosistemi.</p>
-  </CvediCard>
-</div>
-<p class="aside">Usate questi esempi come stimoli e sviluppate una <strong>proposta originale</strong>.</p>
-
----
-layout: default
-class: content-slide project-section nextme-slide nextme-website reading-slide
-footer: "WHAT IF? · Il sito web"
----
-
-# Dal concept al sito web
-
-<p class="lead">Un sito dove il servizio si capisce e si sceglie.</p>
-<div class="nextme-layout">
-  <dl class="nextme-definition-list">
-    <div><dt>Identità</dt><dd>Homepage, organizzazione, persone e contatti.</dd></div>
-    <div><dt>Offerta</dt><dd>Catalogo e <strong>schede dettagliate</strong> dei servizi.</dd></div>
-    <div><dt>Funzionamento</dt><dd>Come si usa il servizio e quale <strong>contributo</strong> dà l’AI.</dd></div>
-    <div><dt>Accesso al servizio</dt><dd>Richiesta, personalizzazione, prenotazione o attivazione.</dd></div>
-  </dl>
-  <NextMeIllustration src="/images/generated/next-me/next-me-web-v2.webp" />
-</div>
-
----
-layout: default
-class: content-slide project-section reading-slide sequence-slide
-footer: "WHAT IF? · Funzionalità"
----
-
-# Un percorso completo
-
-<p class="lead">Accompagnate le persone <strong>dalla scoperta all’attivazione</strong>.</p>
-
-<div class="cvedi-grid three">
-  <CvediCard title="Scoprire" illustration="/images/flat/search.svg" illustration-variant="roomy">
-    <ul class="cvedi-list" role="list">
-      <li><span>Esplorare l’offerta e trovare un <strong>servizio pertinente</strong>.</span></li>
-      <li><span>Capire <strong>benefici, requisiti e condizioni</strong>.</span></li>
-      <li><span><strong>Confrontare le opzioni</strong> quando serve.</span></li>
-    </ul>
-  </CvediCard>
-  <CvediCard title="Personalizzare" illustration="/images/flat/sliders.svg" illustration-variant="roomy">
-    <ul class="cvedi-list" role="list">
-      <li><span>Esprimere <strong>esigenze e preferenze</strong>.</span></li>
-      <li><span>Scegliere opzioni e <strong>livello di delega</strong> all’AI.</span></li>
-      <li><span>Capire quali <strong>dati</strong> fornire e quale <strong>risultato</strong> aspettarsi.</span></li>
-    </ul>
-  </CvediCard>
-  <CvediCard title="Attivare" illustration="/images/flat/check.svg" illustration-variant="roomy">
-    <ul class="cvedi-list" role="list">
-      <li><span>Completare una <strong>richiesta o prenotazione</strong>.</span></li>
-      <li><span>Verificare il <strong>riepilogo</strong> e ricevere una <strong>conferma</strong>.</span></li>
-      <li><span><strong>Correggere errori</strong> e <strong>modificare le proprie scelte</strong>.</span></li>
-    </ul>
-  </CvediCard>
-</div>
-
----
-layout: default
-class: list-slide project-section reading-slide
-footer: "WHAT IF? · Requisiti"
----
-
-# Progetto: requisiti
-
-<div class="cvedi-grid three">
-  <CvediCard title="Accessibilità" illustration="/images/flat/accessibility.svg" illustration-variant="roomy">
-    <ul class="cvedi-list" role="list">
-      <li><span>Conformità <strong>WCAG 2.2 AA</strong></span></li>
-      <li><span>Contrasto elevato, font scalabili, <strong>focus visibile</strong></span></li>
-      <li><span>Etichette accessibili e <strong>navigazione da tastiera</strong></span></li>
-    </ul>
-  </CvediCard>
-  <CvediCard title="Responsive e contenuti" illustration="/images/flat/devices.svg" illustration-variant="roomy">
-    <ul class="cvedi-list" role="list">
-      <li><span><strong>Desktop, tablet e smartphone</strong></span></li>
-      <li><span>Contenuti <strong>solo in italiano</strong>, con terminologia coerente</span></li>
-      <li><span><strong>URL leggibili</strong> e metadati della pagina</span></li>
-    </ul>
-  </CvediCard>
-  <CvediCard title="Fiducia e controllo" illustration="/images/flat/shield.svg" illustration-variant="roomy">
-    <ul class="cvedi-list" role="list">
-      <li><span>Spiegare il <strong>contributo dell’AI</strong></span></li>
-      <li><span>Chiarire <strong>dati richiesti</strong> e <strong>livelli di delega</strong></span></li>
-      <li><span>Consentire modifiche e <strong>recupero dagli errori</strong></span></li>
-    </ul>
-  </CvediCard>
-</div>
-<p class="aside">I comportamenti dell’AI e le disponibilità <strong>possono essere simulati</strong>. La valutazione riguarda concept, comunicazione visiva e usabilità del sito.</p>
-
----
-src: ./lezioni/00-brief-progetto.md
----
 
 ---
 layout: default
@@ -656,7 +474,7 @@ footer: "Temi possibili"
 
 # Approfondimenti: esempi
 
-<p class="lead">Nuovi temi o approfondimenti dei contenuti del booklet.</p>
+<p class="lead">Nuovi temi o approfondimenti dei contenuti del corso.</p>
 
 <ul class="cvedi-list" role="list">
   <li><span><strong>Storia del design</strong>: continuità e cambiamenti nelle UI contemporanee</span></li>
@@ -945,12 +763,18 @@ footer: "Comunicazioni"
 
 ---
 layout: default
+src: ./lezioni/00-brief-progetto.md
+---
+
+---
+layout: default
 src: ./lezioni/01-introduzione.md
 ---
 
 ---
 layout: default
 src: ./lezioni/03-storia-design.md
+disabled: true
 ---
 
 ---

@@ -1,0 +1,93 @@
+{
+  "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: Y2K metallic retrofuturist 3D illustrations, not ordinary photographs. Espresso cup and saucer, croissant and tea cup become pearlescent chrome sculptural objects, with electric blue/lilac reflective highlights, silver edges and restrained amber drink / pastry accents. Keep recognizable cup handles, saucer, espresso surface, crescent croissant layered ridges, and tea silhouette. Add small pixel-star glints inside the existing image fields, never outside them. The hero's tabletop/background hint becomes a reflective pearly futurist surface while preserving its spatial layout and the folded white napkin. All three menu images must also visibly become reflective chrome/perly 3D renderings. Source UI already has the correct chrome aesthetic; do not alter any chrome frame, button, star, text, grid or original page styling.",
+  "createdAt": "2026-10-06T07:52:47.514324+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2399"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2399",
+  "bookletFolio": 69,
+  "bookletChapterOrdinal": 49,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · Y2K · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "y2k",
+  "sourceSha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d",
+  "outputSha256": "461669877374be3ebb36601207228faddc0a49a727f56b28fb11e7d67c5eb9a1",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-65f4e762-2316-4256-bc07-cf3d9e73359a.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+  "generationQA": {
+    "fourImageFieldsChanged": true,
+    "subjectQuantityPreserved": true,
+    "originalCopySharpAndVerbatim": true,
+    "fullPage4x3": true,
+    "uiPaletteTypographyAndGridPreserved": true,
+    "visualInspection": true,
+    "complete": true,
+    "note": "Passed.",
+    "imageFields": {
+      "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+      "coffee": "Visibly restyled; one cup and saucer retained",
+      "croissant": "Visibly restyled; one croissant retained",
+      "tea": "Visibly restyled; one tea cup with amber tea retained"
+    },
+    "copyVerified": [
+      "CAFFÈ LUCE",
+      "Menu",
+      "Il locale",
+      "Contatti",
+      "Una pausa, ogni giorno.",
+      "Caffè, dolci e incontri.",
+      "Scopri il menu",
+      "Il nostro menu",
+      "Caffè",
+      "Espresso e cappuccino",
+      "Croissant",
+      "Ogni mattina",
+      "Tè",
+      "Una selezione di aromi",
+      "Ti aspettiamo",
+      "Lun–Sab · 7–19",
+      "In centro, ogni giorno.",
+      "Un luogo per una pausa"
+    ]
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v1.png",
+      "sourceSha256": "d8c16d489f98a1dad2808e2e9efac9f751acf30b9e2bea1828401a74fcc79cba",
+      "outputSha256": "5770ab1f5d9ed6ea263857041e23e39291023210f87d53afffbe66500514bc6c",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nY2K RETRO-FUTURIST WEB AESTHETIC. Make the UI unmistakably chrome/silver, lilac and electric blue, with an expansive futuristic Audiowide/Eurostile-like heading, metallic gradients in header/menu framing, reflective chrome accents and a compact glossy futuristic button. A few very restrained decorative stars or orbit details may occur only in otherwise blank interface margins, never covering text or photos. Do not add content or move sections. Preserve all words exactly, readable, and all photographs natural. This is the same café homepage, not a game, poster or technology site."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+      "sourceSha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d",
+      "outputSha256": "461669877374be3ebb36601207228faddc0a49a727f56b28fb11e7d67c5eb9a1",
+      "createdAt": "2026-10-06T07:52:47.514324+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json"
+    }
+  ]
+}

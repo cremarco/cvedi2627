@@ -1,0 +1,268 @@
+/* Graphic system copied from /Users/marco/Sites/Gestione web.
+   The fixed Slidev canvas and CVeDI content remain; only the metro grammar carries over. */
+:root {
+  --reference-primary: #4f46e5;
+  --reference-accent: #84cc16;
+  --reference-ink: #0f172a;
+  --reference-body: #334155;
+  --reference-bg: #f3f4f6;
+  --reference-cover: #002f5f;
+  --reference-font: 'Avenir Next', 'Nunito Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --reference-shadow: 0 14px 28px rgb(15 23 42 / 6%);
+  --cvedi-font-display: var(--reference-font);
+  --cvedi-font-body: var(--reference-font);
+  --cvedi-type-title: 47px;
+  --cvedi-type-lead: 25px;
+  --cvedi-type-body: 23px;
+  --cvedi-type-card-title: 24px;
+  --cvedi-type-card-body: 20px;
+  --cvedi-type-data: 18px;
+  --cvedi-type-label: 16px;
+  --cvedi-ink: var(--reference-ink);
+  --cvedi-body: var(--reference-body);
+  --cvedi-muted: #64748b;
+  --cvedi-surface: #ffffff;
+  --cvedi-rule: #e2e8f0;
+  --cvedi-radius: 16px;
+  --cvedi-slide-top: 52px;
+  --cvedi-slide-inline: 72px;
+  --cvedi-slide-bottom: 82px;
+  --cvedi-progress-color: var(--reference-primary);
+  --cvedi-progress-track: rgb(15 23 42 / 12%);
+  --cvedi-image-border: 0px;
+}
+
+.slidev-layout.default {
+  --slide-accent: var(--reference-primary);
+  --slide-subtitle: var(--reference-ink);
+  --slide-detail-accent: var(--reference-ink);
+  --slide-surface: #ffffff;
+  --slide-surface-alt: #f8fafc;
+  --slide-rule: #e2e8f0;
+  --color-primary: var(--reference-primary);
+  --color-primary-content: #ffffff;
+  --color-secondary: #4338ca;
+  --color-secondary-content: #ffffff;
+  --color-accent: var(--reference-accent);
+  --color-accent-content: var(--reference-ink);
+  --color-base-100: #ffffff;
+  --color-base-200: #ffffff;
+  --color-base-300: #e2e8f0;
+  --color-base-content: var(--reference-body);
+  background: var(--reference-bg);
+  color: var(--reference-ink);
+  font-family: var(--reference-font);
+}
+.slidev-layout.default::before { display: none; }
+.slidev-layout.default h1 {
+  color: var(--reference-ink);
+  font-family: var(--reference-font);
+  font-size: var(--cvedi-type-title);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 1.12;
+}
+.slidev-layout.default :is(p, li, h2, h3, .aside, .lead, .lesson-caption) { font-family: var(--reference-font); }
+.slidev-layout.default :is(p, li) { color: var(--reference-body); }
+.slidev-layout.default > h1 { margin-bottom: 24px; }
+.slidev-layout.default :is(h2, h3) { color: var(--reference-ink); }
+.slidev-layout.default strong { color: var(--reference-ink); font-weight: 600; }
+.slidev-layout.default a { color: var(--reference-primary); text-underline-offset: .08em; }
+.slidev-layout.default :is(.cvedi-list li::before, li::marker) { color: var(--reference-accent); }
+.slidev-layout.default ::selection { background: #d9f99d; color: var(--reference-ink); }
+.slidev-layout.default .slide-footer {
+  inset: auto 72px 30px;
+  padding: 0;
+  background: transparent;
+  color: var(--reference-body);
+  font-size: 14px;
+  font-weight: 600;
+}
+.slidev-layout.default .slide-label { color: inherit; font-weight: 600; letter-spacing: .06em; }
+.presentation-progress-rail {
+  inset: auto 18px 12px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--cvedi-progress-track);
+  overflow: hidden;
+}
+.presentation-progress-fill { border-radius: inherit; background: var(--reference-primary); }
+
+/* The reference's lesson ribbon is repeated on ordinary content slides. */
+.lesson-ribbon-wrap { position: absolute; top: 0; right: 0; width: 160px; height: 160px; overflow: hidden; z-index: 8; pointer-events: none; }
+.lesson-ribbon { position: absolute; top: 28px; right: -54px; width: 232px; padding: 8px 0; transform: rotate(45deg); background: #4338ca; color: white; text-align: center; text-transform: uppercase; letter-spacing: .16em; font: 800 12px/1.2 var(--reference-font); box-shadow: 0 10px 18px rgb(15 23 42 / 20%); }
+.introduction-section .lesson-ribbon { background: #0284c7; }
+.project-section .lesson-ribbon, .brief-section .lesson-ribbon { background: #92400e; }
+.history-section.lesson-slide .lesson-ribbon { background: #047857; }
+
+/* Opening cover restored to the original metro composition, at the user's request. */
+.slidev-layout.default.cover-slide {
+  --cvedi-font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  padding: 50px 72px;
+  background: white;
+  isolation: isolate;
+}
+.slidev-layout.default.cover-slide::before {
+  content: '';
+  display: block;
+  position: absolute;
+  inset: 24% 0 22%;
+  z-index: 0;
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: var(--cvedi-indigo-900);
+  filter: none;
+  opacity: 1;
+  animation: none;
+  pointer-events: none;
+}
+.slidev-layout.default.cover-slide::after { display: none; }
+.slidev-layout.default.cover-slide h1 { max-width: 1050px; margin-bottom: 26px; color: white; font: 700 66px/1.02 var(--cvedi-font-display); letter-spacing: -.035em; text-transform: uppercase; }
+.slidev-layout.default.cover-slide .cover-meta { margin-bottom: 32px; color: white; font: 700 22px/1.2 var(--cvedi-font-display); letter-spacing: .025em; }
+.slidev-layout.default.cover-slide .cover-people { max-width: 1010px; color: white; border-top: 2px solid white; padding-top: 20px; font: 600 16px/1.3 var(--cvedi-font-display); }
+.slidev-layout.default.cover-slide .cover-people small { font-size: 14px; font-weight: 400; }
+.slidev-layout.default.cover-slide .slide-footer { bottom: 176px; color: white; font-family: var(--cvedi-font-display); }
+.slidev-layout.default.cover-slide .closing-metro-map { z-index: -2; opacity: 1; }
+
+/* Lesson openings restored to the original left-aligned metro composition. */
+.slidev-layout.default.chapter-slide {
+  --cvedi-font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --cvedi-slide-inline: 68px;
+  --chapter-cover-color: var(--lesson-canvas, var(--cvedi-course-canvas));
+  --chapter-cover-track: var(--lesson-color-deep, var(--cvedi-course-deep));
+  --chapter-cover-accent: var(--lesson-accent-on-color, var(--cvedi-course-accent-light));
+  --chapter-ghost: var(--chapter-cover-track);
+  --chapter-mid: var(--chapter-cover-accent);
+  align-items: stretch;
+  justify-content: center;
+  padding: 64px 68px 88px;
+  background: var(--chapter-cover-color);
+  color: white;
+  text-align: left;
+  isolation: isolate;
+}
+.slidev-layout.default.chapter-slide::before,
+.slidev-layout.default.chapter-slide::after { display: none; }
+.slidev-layout.default.chapter-slide h1 { max-width: 1100px; margin: 0 0 32px; color: white; font: 700 96px/1.08 var(--cvedi-font-display); letter-spacing: -.035em; text-shadow: none; }
+.slidev-layout.default.chapter-slide > p { position: relative; z-index: 2; margin: 0; color: var(--chapter-cover-accent); font: 600 28px/1.3 var(--cvedi-font-display); }
+.slidev-layout.default.chapter-slide .chapter-metro-route { --metro-track-color: var(--chapter-cover-track); --metro-divider-color: var(--chapter-cover-color); position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; opacity: 1; }
+.slidev-layout.default.chapter-slide .slide-footer { inset: auto 68px 32px; color: white; font: 500 16px/1.2 var(--cvedi-font-display); }
+.slidev-layout.default.chapter-slide .slide-label { letter-spacing: .12em; font-weight: 700; }
+.slidev-layout.default.chapter-slide .slide-index { padding: 0; border-radius: 0; background: transparent; }
+
+/* White panels and discreet watermark icons, copied from CourseCard.vue. */
+.slidev-layout.default .cvedi-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-template-rows: none;
+  grid-row: auto;
+  min-width: 0;
+  border: 0;
+  border-radius: 16px;
+  background: white;
+  box-shadow: var(--reference-shadow);
+  overflow: hidden;
+}
+.slidev-layout.default .cvedi-card .card-body { position: relative; z-index: 1; display: flex; flex: 1; flex-direction: column; align-items: stretch; padding: 24px; gap: 0; }
+.slidev-layout.default .cvedi-card .card-heading { margin: 0 0 16px; padding: 0; border: 0; }
+.slidev-layout.default .cvedi-card .card-title { min-height: 0; margin: 0; color: var(--reference-ink); font: 600 24px/1.35 var(--reference-font); letter-spacing: -.01em; }
+.slidev-layout.default .cvedi-card :is(p, li) { color: var(--reference-body); font: 400 20px/1.5 var(--reference-font); }
+.slidev-layout.default .cvedi-card .card-watermark { position: absolute; top: -22px; right: -22px; width: 144px; height: 144px; color: #f97316; opacity: .08; transform: rotate(12deg); pointer-events: none; }
+.slidev-layout.default.concept-slide > .cvedi-grid { grid-template-rows: auto; gap: 24px; margin-block: 12px 0; }
+.slidev-layout.default .cvedi-grid { gap: 24px; }
+.slidev-layout.default .lesson-six .cvedi-card .card-body { padding: 16px 24px; }
+.slidev-layout.default .index-button.btn { border: 0; border-radius: 16px; background: white; box-shadow: var(--reference-shadow); color: var(--reference-ink); font: 600 27px/1.25 var(--reference-font); }
+.slidev-layout.default .index-button.btn:hover { background: #eef2ff; color: #4338ca; }
+.slidev-layout.default .index-button.btn:focus-visible { outline-color: var(--reference-primary); }
+.slidev-layout.default .index-chapter-number { color: var(--reference-primary); font-size: 19px; }
+.slidev-layout.default :is(.slide-action.btn, .lesson-image-hint.btn) { --action-color: var(--reference-primary); --action-deep: #4338ca; background: white; border-color: #c7d2fe; border-radius: 12px; color: #4338ca; box-shadow: 0 4px 12px rgb(15 23 42 / 4%); font-family: var(--reference-font); }
+.slidev-layout.default :is(.slide-action.btn, .lesson-image-hint.btn):hover { background: #4338ca; border-color: #4338ca; color: white; }
+.slidev-layout.default .lesson-caption { border-bottom: 0; color: #64748b; font: 400 16px/1.45 var(--reference-font); text-align: left; }
+/* One unframed image treatment, also for paired figures and enlarged views. */
+.slidev-layout.default img,
+.slidev-layout.default .lesson-figure img,
+.lesson-image-dialog img { border: 0; border-radius: 0; box-shadow: none; }
+.slidev-layout.default .booklet-stage { box-shadow: none; }
+/* Teleported dialogs live under body, so their shared theme is independent of the slide. */
+.lesson-image-dialog { --image-accent: var(--reference-primary); font-family: var(--reference-font); color: var(--reference-ink); }
+.lesson-image-dialog[open] { background: rgb(15 23 42 / 72%); }
+.lesson-image-dialog .modal-box { gap: 20px; padding: 24px; border: 0; border-radius: 16px; background: white; box-shadow: 0 20px 48px rgb(15 23 42 / 20%); }
+.lesson-image-dialog header { flex: 0 0 auto; gap: 20px; }
+.lesson-image-dialog header p { min-width: 0; overflow-wrap: anywhere; color: var(--reference-ink); font: 600 20px/1.4 var(--reference-font); letter-spacing: 0; }
+.lesson-image-dialog header form { flex: 0 0 auto; margin: 0; }
+.lesson-image-dialog .lesson-image-close.btn { height: 44px; min-height: 44px; padding-inline: 14px; gap: 8px; border: 1px solid #c7d2fe; border-radius: 12px; background: white; color: #4338ca; box-shadow: none; font: 600 16px/1.4 var(--reference-font); }
+.lesson-image-close svg { width: 18px; height: 18px; }
+.lesson-image-dialog .lesson-image-close.btn:hover { border-color: #4338ca; background: #4338ca; color: white; }
+.lesson-image-dialog .lesson-image-close.btn:focus-visible { outline: 3px solid var(--reference-primary); outline-offset: 3px; }
+
+/* Tables and data use the reference's white surfaces and slate headings. */
+.slidev-layout.default :is(.cvedi-calendar, .grade-year-table) { overflow: hidden; border-radius: 16px; background: white; box-shadow: var(--reference-shadow); }
+.slidev-layout.default :is(.cvedi-calendar thead, .grade-year-table thead) { background: linear-gradient(180deg, #334155, #1e293b); color: #f8fafc; }
+.slidev-layout.default :is(.cvedi-calendar thead th, .grade-year-table thead th) { color: #f8fafc; font-weight: 700; }
+.slidev-layout.default :is(.cvedi-calendar tbody tr:nth-child(even), .grade-year-table tbody tr:nth-child(even)) { background: #f8fafc; }
+.slidev-layout.default :is(.grade-summary-stats.stats, .experience-map, .interface-area) { border: 0; border-radius: 16px; background: white; box-shadow: var(--reference-shadow); }
+.slidev-layout.default :is(.grade-range-head strong, .stat-value, .sitemap-connections path) { color: var(--reference-primary); }
+.grade-tone-low { --grade-fill: #c7d2fe; }
+.grade-tone-mid { --grade-fill: #a5b4fc; }
+.grade-tone-high { --grade-fill: #6366f1; }
+.grade-tone-top { --grade-fill: #4338ca; }
+.slidev-layout.default .sitemap-card .card-body { padding: 12px 16px; justify-content: center; }
+.slidev-layout.default .cvedi-card.sitemap-card { position: absolute; }
+.slidev-layout.default .sitemap-card .card-heading { margin-bottom: 4px; }
+.slidev-layout.default .sitemap-card .card-title { font-size: 20px; line-height: 1.2; }
+.slidev-layout.default .sitemap-card p { margin: 0; font-size: 17px; line-height: 1.2; }
+.slidev-layout.default .sitemap-connections path { stroke: #94a3b8; }
+
+.reference-illustration { color: var(--reference-primary); }
+.reference-illustration svg { width: 100%; max-height: 360px; }
+.reference-icon-accent { fill: #ecfccb; stroke: #65a30d; }
+.slidev-layout.default .ux-process-overview { background: white; color: var(--reference-body); box-shadow: var(--reference-shadow); }
+.slidev-layout.default .ux-process-route { stroke: var(--reference-primary); }
+.slidev-layout.default .ux-process-art { display: flex; justify-content: center; align-items: center; color: var(--reference-primary); }
+.slidev-layout.default .ux-process-art svg { width: 76px; height: 76px; }
+.slidev-layout.default .ux-process-map .ux-nucleus-number { background: var(--reference-accent); color: var(--reference-ink); }
+.slidev-layout.default .ux-process-map .card-title { color: var(--reference-ink); font-weight: 600; }
+.slidev-layout.default .ux-process-map li { color: var(--reference-body); }
+.slidev-layout.default .ux-process-map li::marker { color: var(--reference-primary); }
+.slidev-layout.default .ux-process-iteration { color: var(--reference-body); }
+.slidev-layout.default .ux-process-iteration svg { color: var(--reference-primary); }
+
+/* Renewal and closing use the same reference surfaces rather than the old colored bands. */
+.slidev-layout.default.renewal-slide { background: var(--reference-bg); color: var(--reference-ink); }
+.slidev-layout.default.renewal-slide h1 { color: var(--reference-ink); font-size: 52px; font-weight: 400; }
+.slidev-layout.default.renewal-slide .renewal-copy p { color: var(--reference-body); font-size: 25px; }
+.slidev-layout.default.renewal-slide .renewal-copy strong { color: var(--reference-ink); }
+.slidev-layout.default.renewal-slide .renewal-feedback { background: white; color: var(--reference-body); border-radius: 16px; box-shadow: var(--reference-shadow); }
+.slidev-layout.default.renewal-slide .renewal-feedback h2 { color: var(--reference-ink); font-weight: 600; }
+.slidev-layout.default.renewal-slide :is(.renewal-year, .renewal-material) { color: var(--reference-ink); }
+.slidev-layout.default.renewal-slide { --cvedi-course-deep: #4338ca; --cvedi-course-light: #e0e7ff; --cvedi-course-accent-light: #d9f99d; }
+.renewal-materials { display: grid; gap: 8px; align-content: center; justify-items: center; min-height: 280px; }
+.renewal-materials-year { color: var(--reference-primary); font: 500 42px/1 var(--reference-font); }
+.renewal-materials-graphic { width: 100%; height: 228px; object-fit: cover; pointer-events: none; }
+.renewal-materials-caption { color: var(--reference-body); font: 500 20px/1.25 var(--reference-font); }
+.renewal-materials-caption > span { margin-inline: 8px; color: var(--reference-primary); }
+.slidev-layout.default.question-slide h1 { font-size: 78px; font-weight: 500; text-align: center; }
+.slidev-layout.default.question-slide > .lead { text-align: center; align-self: center; }
+.slidev-layout.default.closing-slide { align-items: center; background: var(--reference-bg); text-align: center; }
+.slidev-layout.default.closing-slide::before { display: none; }
+.slidev-layout.default.closing-slide h1 { color: var(--reference-ink); font-size: 92px; font-weight: 600; }
+.slidev-layout.default.closing-slide > p { color: var(--reference-body); font: 400 25px/1.4 var(--reference-font); }
+.slidev-layout.default.closing-slide .closing-metro-map { opacity: .08; }
+.slidev-layout.default.archive-wall-slide { background: #0f172a; }
+.slidev-layout.default.archive-wall-slide h1 { margin: 0; color: white; font-weight: 600; }
+.slidev-layout.default.archive-wall-slide .project-gallery-linkbar { background: #002f5f; border-radius: 16px; box-shadow: var(--reference-shadow); }
+.slidev-layout.default.archive-wall-slide .project-gallery-linkbar a { color: #d9f99d; }
+.slidev-layout.default.archive-wall-slide .slide-footer { color: white; }
+
+@keyframes reference-cover-light { from { transform: translate3d(0, 0, 0) scale(1); } to { transform: translate3d(32px, 20px, 0) scale(1.08); } }
+@media (prefers-reduced-motion: reduce) {
+  .slidev-layout.default:is(.cover-slide, .chapter-slide)::before,
+  .slidev-layout.default:is(.cover-slide, .chapter-slide)::after { animation: none; }
+}
+@media print {
+  .lesson-ribbon-wrap { display: none; }
+  .slidev-layout.default:is(.cover-slide, .chapter-slide)::before,
+  .slidev-layout.default:is(.cover-slide, .chapter-slide)::after { animation: none; }
+}

@@ -1,0 +1,63 @@
+{
+  "prompt": "Original screenshot of a real implemented website/application or an explicitly dated official archive. WordPress · Default/Kubrick, tema della serie 1.5–2.9. Demo operativa su wp-themes.com. Source: https://wp-themes.com/default/. Converted to lossless WebP for the Slidev lecture, preserving the complete original image and aspect ratio. No AI generation, no reconstruction.",
+  "createdAt": "2026-10-05T23:33:37.201465+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/reali/early/web2-wordpress.png",
+  "sourceURLs": [
+    "https://wp-themes.com/default/",
+    "https://wordpress.org/themes/default/"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2326:283",
+  "bookletFolio": 56,
+  "bookletChapterOrdinal": 36,
+  "bookletSourceRole": "real-examples-masonry",
+  "caption": "WordPress · Default/Kubrick, tema della serie 1.5–2.9. Demo operativa su wp-themes.com.",
+  "kind": "implemented-historical-theme-demo",
+  "style": "web2",
+  "sourceSha256": "9915bb524d7fbab56245a3ba037072d7c5de8e6ed4df89afc2fee719f9b2cc78",
+  "outputSha256": "e91239e69002648675b70663dfe2ad603871b5108d622403a7b24bd59e160244",
+  "sourceDimensions": {
+    "width": 1100,
+    "height": 900
+  },
+  "outputDimensions": {
+    "width": 1100,
+    "height": 900
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "maxEdge": 1600,
+    "resample": "Lanczos only when resizing is required",
+    "pixelRoundTripVerified": true
+  },
+  "originalMetadata": {
+    "id": "web2-wordpress",
+    "name": "WordPress · Default / Kubrick",
+    "url": "https://wordpress.org/themes/default/",
+    "captureUrl": "https://wp-themes.com/default/",
+    "sourcePage": "https://wp-themes.com/default/",
+    "caption": "WordPress · Default/Kubrick, tema della serie 1.5–2.9. Demo operativa su wp-themes.com.",
+    "date": "2026-10-06",
+    "capturedAt": "2026-10-05T22:57:49.501Z",
+    "kind": "implemented-historical-theme-demo",
+    "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/web2-wordpress.png",
+    "width": 1100,
+    "height": 900,
+    "viewport": {
+      "width": 1100,
+      "height": 900
+    },
+    "deviceScaleFactor": 1,
+    "crop": null,
+    "authenticityNote": "La fonte primaria WordPress.org documenta nome e impiego nelle versioni 1.5–2.9. Capture URL https://wp-themes.com/default/.",
+    "sha256": "9915bb524d7fbab56245a3ba037072d7c5de8e6ed4df89afc2fee719f9b2cc78",
+    "qa": {
+      "httpStatus": 200,
+      "visualInspection": "passed",
+      "noAI": true,
+      "noPixelReconstruction": true,
+      "overlays": "none in selected capture area"
+    }
+  }
+}

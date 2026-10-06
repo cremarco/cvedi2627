@@ -1,0 +1,93 @@
+{
+  "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: contemporary NEUMORPHIC soft clay / tactile 3D product illustrations, not ordinary photographs. The espresso cup, saucer, croissant and tea cup become softly extruded, rounded, sculptural clay forms with pale cool gray and subtle warm food-color accents. Create a recognizable laminated croissant through restrained sculptural ridges, a dark amber espresso surface and amber tea. Diffuse studio light, paired soft white highlights and delicate slate shadows create gentle relief. The tabletop, folded napkin and image-field backgrounds become soft tonal gray sculptural surfaces that fit the source pale gray interface, without changing the interface. Menu objects must all look softly modeled and extruded, not retain their source realistic photo textures. Hero and all three menu visuals receive the same stylistic treatment.\nTargeted precision for this edit: ALL FOUR image fields must share a visibly non-photographic soft clay material. In particular, the TEA MENU IMAGE must NOT remain a transparent glass cup. Replace that photo with the same rounded tea-cup silhouette and handle modeled in opaque pale cool-gray soft clay, with softly extruded smooth rim and rounded handle; show the amber tea only at the top opening of the opaque cup. Add subtle paired white highlight / slate-gray cast shadows around it, creating the same gentle relief as the source neumorphic interface. This is the essential tea-image requirement. The espresso cup, saucer and napkin also have opaque soft-clay rendering; the two croissants have smooth sculptural warm-orange clay ridges without crisp flaky photographic texture. Preserve original UI, sharp source lettering, every text string, page dimensions, all field positions and quantities exactly. No extra elements outside the four image areas.",
+  "createdAt": "2026-10-06T07:56:13.812213+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2363"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2363",
+  "bookletFolio": 63,
+  "bookletChapterOrdinal": 43,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · neumorfismo · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "neumo",
+  "sourceSha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f",
+  "outputSha256": "410268639dd5223dfaeaa6d999eadb0bfe692a14f16ce929a9e86fca72823755",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-71c5ca5a-d28f-4db0-92bf-164622c7ca4c.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+  "generationQA": {
+    "fourImageFieldsChanged": true,
+    "subjectQuantityPreserved": true,
+    "originalCopySharpAndVerbatim": true,
+    "fullPage4x3": true,
+    "uiPaletteTypographyAndGridPreserved": true,
+    "visualInspection": true,
+    "complete": true,
+    "note": "Passed after targeted direct-v1 edit: tea cup now visibly opaque soft clay, amber tea at top opening; all four image fields share clay treatment.",
+    "imageFields": {
+      "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+      "coffee": "Visibly restyled; one cup and saucer retained",
+      "croissant": "Visibly restyled; one croissant retained",
+      "tea": "Visibly restyled; one tea cup with amber tea retained"
+    },
+    "copyVerified": [
+      "CAFFÈ LUCE",
+      "Menu",
+      "Il locale",
+      "Contatti",
+      "Una pausa, ogni giorno.",
+      "Caffè, dolci e incontri.",
+      "Scopri il menu",
+      "Il nostro menu",
+      "Caffè",
+      "Espresso e cappuccino",
+      "Croissant",
+      "Ogni mattina",
+      "Tè",
+      "Una selezione di aromi",
+      "Ti aspettiamo",
+      "Lun–Sab · 7–19",
+      "In centro, ogni giorno.",
+      "Un luogo per una pausa"
+    ]
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v1.png",
+      "sourceSha256": "15d8a3fb01bf2dbcbbba508e5c140c4a0fbfd823a769a26c70493b47d876ec9a",
+      "outputSha256": "0d9ac7c73c140a341e7c43b0737e6dc4bb1f84e655bcd4be99de1a4b8a9af885",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nNEUMORPHISM. Very light cool-gray monolithic surface throughout the webpage, friendly readable rounded sans-serif, soft paired white highlight and slate shadow so the header and menu panels appear extruded from the same surface. A subtly inset and raised button, rounded corners, dark slate high-contrast text. Clear gentle material continuity, not flat design and not dark glossy cyberpunk. Preserve all four original photographic rectangles without reinterpreting their contents. Avoid washing out or embossing small text; crisp readable labels."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+      "sourceSha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f",
+      "outputSha256": "410268639dd5223dfaeaa6d999eadb0bfe692a14f16ce929a9e86fca72823755",
+      "createdAt": "2026-10-06T07:56:13.812213+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json"
+    }
+  ]
+}

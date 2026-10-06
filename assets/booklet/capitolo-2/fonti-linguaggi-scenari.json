@@ -1,0 +1,337 @@
+{
+  "title": "Capitolo 2 — stili del web e possibili direzioni future",
+  "researchedAt": "2026-10-05",
+  "scope": "Ricerca primaria; nessuna scrittura in Figma. Base capitolo letto da /tmp/booklet-integrazioni-current-c1-c2.json; nuova base indicata dal root /tmp/c2-current-authoritative.json.",
+  "editorialPrinciple": "Separare documentazione storica, linguaggi di design già disponibili ed eventuali direzioni future. I nomi delle tendenze non sono standard tecnici né garanzie di usabilità. Gli esempi didattici vanno dichiarati; le immagini ufficiali vanno attribuite.",
+  "corrections": [
+    {
+      "page": 29,
+      "issue": "Skeumorfico/skeumorfismo",
+      "replacement": "Scheumorfico/scheumorfismo",
+      "reason": "Forma italiana corrente da usare coerentemente; l'inglese resta skeuomorphism."
+    },
+    {
+      "page": 32,
+      "issue": "Glassmorfismo coniato nel 2020 da Malewicz",
+      "replacement": "Il termine glassmorphism è stato diffuso nel dibattito sul UI design da Michał Malewicz intorno al 2020; gli effetti traslucidi hanno precedenti più antichi.",
+      "reason": "Il testo del creatore attuale attesta la divulgazione, ma non prova una priorità universale di coniazione. Non confondere nome e invenzione dell'effetto."
+    },
+    {
+      "page": 37,
+      "issue": "Brutalismo e neobrutalismo sinonimi",
+      "replacement": "Mantenere distinzione tra sito grezzo/utilitario e reinterpretazione più colorata, ordinata, con bordi e ombre nette.",
+      "source": "https://www.nngroup.com/articles/neobrutalism/"
+    },
+    {
+      "page": 24,
+      "issue": "Citazione Nick Cave e legge della ciclicità",
+      "replacement": "Preferibile una tesi editoriale senza citazione: 'Gli stili si trasformano insieme alle tecnologie e alle abitudini di lettura. Alcuni caratteri riemergono, ma non seguono un ciclo prevedibile.'",
+      "reason": "Attribuzione specifica non verificata nella ricerca; non usare una citazione decorativa come prova storica."
+    }
+  ],
+  "existingStyles": [
+    {
+      "key": "scheumorfismo",
+      "page": 29,
+      "title": "Scheumorfismo",
+      "text": "Lo scheumorfismo trasferisce nel digitale forme riconoscibili del mondo fisico: una cartella, un cestino o le pagine di un taccuino. Può aiutare a intuire una funzione attraverso una metafora già nota. Quando diventa realismo decorativo, usa texture, rilievi e ombre per imitare materiali. La familiarità dipende però dall’esperienza della persona: una metafora poco conosciuta può risultare opaca.",
+      "cues": [
+        "metafore di oggetti",
+        "texture",
+        "rilievi",
+        "ombre"
+      ],
+      "tradeoff": "Distinguere la metafora funzionale dalla decorazione realistica; icone di cartelle possono essere scheumorfiche anche in una UI flat.",
+      "sources": [
+        "https://www.nngroup.com/articles/skeuomorphism/"
+      ],
+      "illustration": "Esempio didattico: app Note con righe e linguetta di carta, accompagnata da un confronto con la stessa funzione senza texture."
+    },
+    {
+      "key": "flat",
+      "page": 30,
+      "title": "Flat design",
+      "text": "Il flat design riduce texture e simulazioni di materiali, privilegiando forme bidimensionali, campiture e una tipografia chiara. Si diffuse nelle interfacce degli anni Dieci, ma la semplicità grafica non rende automaticamente semplice l’interazione. Pulsanti e link devono mantenere indizi visibili della loro funzione. Un’ombra misurata o una sottolineatura possono chiarire ciò che è cliccabile senza compromettere l’essenzialità della composizione.",
+      "cues": [
+        "campiture",
+        "forme semplici",
+        "pochi rilievi",
+        "gerarchia tipografica"
+      ],
+      "tradeoff": "Le prove di eyetracking NN/G riguardano la debolezza dei significanti, non dimostrano che qualsiasi flat design sia inefficiente.",
+      "sources": [
+        "https://www.nngroup.com/articles/flat-design-best-practices/",
+        "https://www.nngroup.com/articles/flat-ui-less-attention-cause-uncertainty/"
+      ],
+      "illustration": "Esempio didattico: stessa card con bottone riconoscibile e con testo d'azione indistinguibile dal corpo."
+    },
+    {
+      "key": "material",
+      "page": "Nuova pagina/riuso p33",
+      "title": "Material Design",
+      "text": "Presentato da Google nel 2014, Material Design organizza l’interfaccia come un sistema di superfici, livelli e movimenti. La carta è una metafora di partenza: ombre e sovrapposizioni indicano relazioni e possibilità d’azione. Il movimento spiega i passaggi tra stati. Non si tratta soltanto di uno stile di pulsanti: componenti, tipografia e regole condivise mirano a rendere coerenti le esperienze su dispositivi diversi.",
+      "cues": [
+        "superfici",
+        "elevazione",
+        "movimento informativo",
+        "componenti coerenti"
+      ],
+      "tradeoff": "Non attribuire qualunque ombra a Material; distinguere il linguaggio del 2014 dalle evoluzioni Material You e Material 3 Expressive.",
+      "sources": [
+        "https://developers.googleblog.com/en/this-is-material-design/",
+        "https://design.google/library/material-design-launch-2014"
+      ],
+      "illustration": "Esempio didattico: card, bottone primario e pannello sovrapposto, con annotazioni superficie/elevazione/movimento.",
+      "caption": "Material Design: superfici, elevazione e gerarchie. Esempio didattico basato sulle linee guida Google."
+    },
+    {
+      "key": "neumorfismo",
+      "page": 31,
+      "title": "Neumorfismo",
+      "text": "Il neumorfismo usa luci e ombre morbide per far apparire gli elementi come rilievi dello stesso materiale dello sfondo. La continuità cromatica produce un effetto delicato, quasi plastico. Proprio questa continuità può però indebolire il contrasto e nascondere lo stato dei controlli. L’effetto decorativo deve poter scomparire senza rendere ambiguo il comando: testo, icona, bordo e stato selezionato restano leggibili.",
+      "cues": [
+        "stesso colore del fondo",
+        "doppia ombra",
+        "rilievo morbido",
+        "incavo"
+      ],
+      "tradeoff": "Un controllo premuto segnalato soltanto da ombre interne può non essere riconoscibile. I requisiti WCAG si applicano alle informazioni necessarie a identificare controlli e stati, non a ogni ombra decorativa.",
+      "sources": [
+        "https://hype4.academy/articles/design/neumorphism-in-user-interfaces",
+        "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html"
+      ],
+      "illustration": "Esempio didattico: pulsanti in rilievo, uno selezionato solo con ombra e uno con contrasto/etichetta."
+    },
+    {
+      "key": "glass",
+      "page": 32,
+      "title": "Glassmorfismo",
+      "text": "Il glassmorfismo suggerisce superfici di vetro attraverso traslucenza, sfocatura e sovrapposizioni. Il fondo resta percepibile mentre il pannello occupa un livello distinto. Nei sistemi ufficiali questi effetti hanno ruoli specifici: Fluent usa Acrylic per superfici transitorie, come menu e popover. La trasparenza va verificata su fondi diversi; un pannello elegante può perdere leggibilità quando cambiano immagini, luminosità e colori sottostanti.",
+      "cues": [
+        "traslucenza",
+        "sfocatura",
+        "sovrapposizione",
+        "bordi sottili"
+      ],
+      "tradeoff": "Mica è opaco e tinto dallo sfondo del desktop: non definirlo come ulteriore vetro trasparente. Acrylic e Liquid Glass sono materiali di sistemi diversi.",
+      "sources": [
+        "https://fluent2.microsoft.design/material",
+        "https://hype4.academy/articles/design/glassmorphism-in-user-interfaces"
+      ],
+      "caption": "Acrylic in Fluent 2: un materiale semitrasparente destinato a menu e superfici transitorie. Fonte: Microsoft.",
+      "image": "https://fluent2websitecdn.azureedge.net/cdn/designlanguage-material-acrylic-01.B607uS6o.webp"
+    },
+    {
+      "key": "minimalismo",
+      "page": 34,
+      "title": "Minimalismo",
+      "text": "Il minimalismo riduce gli elementi che non sostengono il contenuto o il compito. Spazio negativo, palette contenuta e gerarchie tipografiche guidano l’attenzione. Riduzione non significa assenza di struttura: se spariscono etichette, navigazione o indizi d’interazione, la pagina può diventare più difficile da usare. La qualità del risultato si valuta attraverso ciò che consente di leggere e fare, oltre che attraverso ciò che elimina.",
+      "cues": [
+        "spazio negativo",
+        "palette contenuta",
+        "gerarchie nette",
+        "riduzione intenzionale"
+      ],
+      "tradeoff": "È una strategia compositiva, non una certificazione di leggibilità o accessibilità.",
+      "sources": [
+        "https://www.nngroup.com/articles/characteristics-minimalism/",
+        "https://design-system.service.gov.uk/styles/"
+      ],
+      "illustration": "Esempio didattico: pagina con un titolo, un testo breve, un'immagine e un'azione primaria."
+    },
+    {
+      "key": "y2k",
+      "page": 35,
+      "title": "Y2K e nostalgia digitale",
+      "text": "Con Y2K si indica una famiglia di richiami alla cultura visiva intorno al passaggio di millennio: cromature, bagliori, gradienti, pixel e finestre. Le reinterpretazioni contemporanee selezionano alcuni di questi caratteri senza riprodurre necessariamente una pagina storica. Per Spotify Wrapped 2023, il gruppo di design dichiarò un riferimento alle espressioni del primo internet, tradotte in un sistema attuale di layout stratificati e dinamici.",
+      "cues": [
+        "cromature",
+        "gradienti",
+        "pixel",
+        "finestre",
+        "nostalgia digitale"
+      ],
+      "tradeoff": "Non confondere revival Y2K con il Web 2.0, che descrive soprattutto pratiche partecipative e un periodo di evoluzione del web.",
+      "sources": [
+        "https://newsroom.spotify.com/2023-11-29/wrapped-design-marketing-brand-creative-inside-spotify/"
+      ],
+      "illustration": "Screenshot ufficiale Wrapped 2023 oppure esempio didattico chiaramente dichiarato; non spacciare una ricostruzione per pagina del 2000.",
+      "caption": "Spotify Wrapped 2023: un’identità contemporanea ispirata alle espressioni del primo internet. Fonte: Spotify."
+    },
+    {
+      "key": "neobrutalismo",
+      "page": 37,
+      "title": "Brutalismo e neobrutalismo",
+      "text": "Nel web, il brutalismo presenta spesso strutture esplicite, caratteri utilitari e un’apparenza poco rifinita. Il neobrutalismo ne rielabora la forza visiva con bordi spessi, ombre nette, grandi titoli e colori accesi. La homepage di Gumroad offre un esempio di questa seconda direzione. Un’identità marcata richiede comunque gerarchie, spazi e stati chiari: un contrasto cromatico vistoso non garantisce un contrasto sufficiente per leggere.",
+      "cues": [
+        "bordi spessi",
+        "ombre nette",
+        "tipografia grande",
+        "campiture accese"
+      ],
+      "tradeoff": "Mantenere distinzione tra i due termini; non usare la quantità di CSS o l'assenza di JS come criterio estetico o prova di qualità.",
+      "sources": [
+        "https://brutalistwebsites.com/",
+        "https://www.nngroup.com/articles/neobrutalism/",
+        "https://gumroad.com/"
+      ],
+      "caption": "Gumroad: titoli ampi, campiture e bordi evidenti. Esempio contemporaneo di neobrutalismo.",
+      "capturePage": "https://gumroad.com/"
+    }
+  ],
+  "optionalCurrentAddition": {
+    "title": "Massimalismo e composizioni modulari",
+    "text": "Il massimalismo combina tipografie, colori, pattern e immagini in una composizione densa e intenzionale. L’abbondanza richiede un percorso di lettura: il lettore deve distinguere messaggio principale, informazioni secondarie e azioni. Un layout a riquadri, spesso chiamato bento, può invece distribuire contenuti eterogenei in moduli di diversa dimensione. I due orientamenti possono convivere; la griglia organizza la complessità, ma non decide da sola la gerarchia.",
+    "status": "Sintesi editoriale; bento è un nome informale per una struttura modulare, non un sistema ufficiale o una corrente storica con un'origine verificata.",
+    "sources": [
+      "https://www.nngroup.com/articles/characteristics-minimalism/",
+      "https://www.w3.org/TR/css-grid-2/"
+    ],
+    "illustration": "Esempio didattico nativo: 6 riquadri con 3 dimensioni, ordine di lettura esplicito."
+  },
+  "futureIntro": {
+    "title": "Possibili direzioni future",
+    "text": "Il futuro delle interfacce non coincide con un unico nuovo stile. Gli esempi già disponibili suggeriscono direzioni diverse: tipografia più adattabile, materiali che comunicano profondità, strumenti generati su richiesta e pagine attente alle risorse. Sono punti di partenza, non previsioni certe. Una scelta visiva diventa significativa quando risponde a un contesto d’uso e può essere verificata: che cosa aiuta a capire, quale azione rende più chiara, quale costo o difficoltà introduce?",
+    "label": "Scenari progettuali, osservati a ottobre 2026",
+    "visualIdea": "Traccia metro del capitolo: quattro stazioni 'Adattare', 'Orientare', 'Generare', 'Alleggerire', con sottotitolo che dichiara scenari, non cronologia futura."
+  },
+  "futureThemes": [
+    {
+      "key": "expressive-adaptive-type",
+      "title": "Tipografia adattabile ed espressiva",
+      "text": "I caratteri variabili permettono di modificare peso, larghezza e altre qualità delle lettere entro gli assi previsti dal progetto. Roboto Flex mostra come una famiglia possa adattare titoli e testi a ruoli differenti. Material 3 Expressive combina invece forme, colore e movimento per dare maggiore identità alle interfacce. Una possibile direzione è un linguaggio visivo che cambia con lo spazio e le preferenze della persona, mantenendo gerarchie riconoscibili. L’espressività richiede misura: deformazioni e animazioni non devono ostacolare la lettura.",
+      "evidence": "Tecnologie e sistemi attuali: font variabili, CSS Fonts 4, Material 3 Expressive presentato nel 2025. L'estensione a esperienze sempre più adattabili è una direzione progettuale.",
+      "example": "Card didattica con lo stesso titolo in larghezze diverse, affiancata alle figure Google di Roboto Flex.",
+      "caption": "Roboto Flex: variazioni di forma entro una stessa famiglia. Figura dal laboratorio Google sui caratteri variabili.",
+      "sources": [
+        "https://www.w3.org/TR/css-fonts-4/",
+        "https://codelabs.developers.google.com/migrating-variable-fonts",
+        "https://design.google/library/expressive-material-design-google-research"
+      ],
+      "tradeoffs": [
+        "Controllare leggibilità e gerarchia alle dimensioni reali.",
+        "Non promettere che ogni font variabile sia sempre più leggero: dipende da assi e file caricati.",
+        "Ridurre movimento dove richiesto dall'utente."
+      ],
+      "images": [
+        {
+          "url": "https://codelabs.developers.google.com/static/migrating-variable-fonts/img/64c74a7d7844423.png",
+          "description": "Figura ufficiale assi caratteri variabili; URL ricavato da link immagine ufficiale e aperto."
+        },
+        {
+          "url": "https://codelabs.developers.google.com/static/migrating-variable-fonts/img/f646755b99db0161.png",
+          "description": "Figura ufficiale applicazione UI pianta; HTTP 200 e image/png verificati."
+        }
+      ],
+      "sourcesFooter": "W3C, CSS Fonts 4; Google, Migrating to Variable Fonts (2022); Google Design, Material 3 Expressive (2025).",
+      "wordCount": 79
+    },
+    {
+      "key": "spatial-fluid-materials",
+      "title": "Profondità e materiali dinamici",
+      "text": "La profondità può distinguere contenuti, strumenti e stati dell’interfaccia. Nelle linee guida di visionOS, finestre e volumi occupano uno spazio percepibile attraverso distanza, occlusione e ombre. Liquid Glass organizza invece controlli e navigazione sopra il contenuto con un materiale dinamico. Questi esempi aprono una possibile direzione: superfici capaci di adattarsi al contesto e comunicare relazioni. La tridimensionalità serve quando chiarisce il compito. Testi sospesi, livelli eccessivi o trasparenze indiscriminate possono aumentare fatica e ambiguità.",
+      "evidence": "visionOS e Liquid Glass sono esempi presenti, non stili universali del futuro né standard del web. Il trasferimento dei loro principi ad altri media è un'ipotesi di progetto.",
+      "example": "Figura ufficiale Notes in visionOS e confronto Liquid Glass sopra sfondo chiaro/scuro.",
+      "caption": "visionOS: una finestra per leggere e annotare in un ambiente spaziale. Fonte: Apple, Human Interface Guidelines.",
+      "sources": [
+        "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/",
+        "https://developer.apple.com/design/human-interface-guidelines/materials",
+        "https://developer.apple.com/documentation/technologyoverviews/liquid-glass"
+      ],
+      "tradeoffs": [
+        "Apple raccomanda profondità solo dove aggiunge valore.",
+        "Non applicare profondità al testo: può renderlo meno leggibile.",
+        "Liquid Glass va usato con misura nella navigazione e nei controlli; non come decorazione generalizzata del contenuto.",
+        "Verificare contrasto, riduzione trasparenza e preferenze di movimento."
+      ],
+      "images": [
+        {
+          "url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-spatial-layout-2d-window@2x.png",
+          "description": "Notes visionOS; riferimento ufficiale DocC recuperato dal JSON pubblico."
+        },
+        {
+          "url": "https://developer.apple.com/tutorials/images/com.apple.HIG/visionos-spatial-layout-3d-volume@2x.png",
+          "description": "Anteprima del volume 3D visionOS."
+        },
+        {
+          "url": "https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-liquid-glass-over-light@2x.png",
+          "description": "Liquid Glass variante regular su fondo chiaro; HTTP200, 248276byte verificati."
+        },
+        {
+          "url": "https://developer.apple.com/tutorials/images/com.apple.HIG/materials-ios-liquid-glass-over-dark@2x.png",
+          "description": "Liquid Glass variante regular su fondo scuro."
+        }
+      ],
+      "sourcesFooter": "Apple, Human Interface Guidelines: Spatial Layout e Materials, consultate il 5 ottobre 2026.",
+      "wordCount": 74
+    },
+    {
+      "key": "generative-ui",
+      "title": "Interfacce generate su richiesta",
+      "text": "Un’interfaccia generativa può costruire strumenti e visualizzazioni in risposta a una richiesta, invece di restituire soltanto testo. Gli esperimenti di Google Research mostrano pagine, giochi e simulazioni creati in funzione del compito. La possibile evoluzione riguarda anche lo stile: la stessa informazione potrebbe assumere forme diverse per una persona o un contesto. La ricerca segnala però tempi di generazione e inesattezze. Occorrono controlli stabili, indicazioni sulla provenienza dei contenuti e possibilità di correggere il risultato senza perdere orientamento.",
+      "evidence": "Google pubblica la ricerca il 18 novembre 2025 e definisce dynamic view/visual layout esperimenti. Non promettere disponibilità a tutti né affidabilità di ogni output.",
+      "example": "Tre esperimenti ufficiali: consigli di abbigliamento, esplorazione dei frattali e gioco di matematica.",
+      "caption": "Google Research, Generative UI: tre interfacce sperimentali prodotte per compiti diversi (2025).",
+      "sources": [
+        "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/",
+        "https://generativeui.github.io/",
+        "https://github.com/microsoft/Promptions"
+      ],
+      "tradeoffs": [
+        "Esperimenti e ricerca, non una sostituzione già dimostrata di tutte le interfacce.",
+        "L'articolo Google dichiara latenze anche di un minuto o più e inesattezze occasionali.",
+        "Indicazioni su controllo, orientamento e verifica sono raccomandazioni editoriali, non un risultato quantitativo del paper.",
+        "Non ripetere la preferenza utenti senza precisare che la valutazione escludeva la velocità di generazione."
+      ],
+      "images": [
+        {
+          "url": "https://storage.googleapis.com/gweb-research2023-media/images/GenUI-0b-Hero.width-1250.png",
+          "description": "Collage ufficiale di tre GenUI diversi."
+        },
+        {
+          "url": "https://storage.googleapis.com/gweb-research2023-media/images/GenUI-0-Hero.width-1250.png",
+          "description": "Tre risultati GenUI con uno stile verde coerente richiesto alla generazione."
+        }
+      ],
+      "sourcesFooter": "Google Research, Generative UI (2025); progetto e paper originali.",
+      "wordCount": 78
+    },
+    {
+      "key": "sustainable-accessible",
+      "title": "Un’estetica attenta alle risorse",
+      "text": "La leggerezza può diventare una scelta visiva oltre che tecnica: immagini selezionate, tipografia ottimizzata e movimento proporzionato rendono più intenzionale la pagina. Le Web Sustainability Guidelines collegano esperienza, sviluppo e infrastrutture; a ottobre 2026 sono ancora una bozza W3C. Low-tech Magazine offre un caso concreto: sito statico, immagini retinate e server alimentato dal sole. Non esiste però un’estetica automaticamente sostenibile. Vanno misurati risorse e risultati, mantenendo accessibilità e qualità del servizio; un sito solare può anche andare offline.",
+      "evidence": "WSG latest ufficiale: W3C Group Note Draft 24 settembre 2026, non Recommendation né documento approvato. Low-tech è un caso dei creatori, non prova che ogni sito debba usare immagini retinate o rinunciare alla continuità.",
+      "example": "Homepage Low-tech Magazine e diagramma didattico 'contenuti essenziali → risorse misurate → servizio accessibile'.",
+      "caption": "Low-tech Magazine: immagini retinate e un sito ospitato su un server solare. Fonte: il gruppo di progetto.",
+      "sources": [
+        "https://www.w3.org/TR/2026/DNOTE-web-sustainability-guidelines-20260924/",
+        "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/",
+        "https://solar.lowtechmagazine.com/about/",
+        "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+      ],
+      "tradeoffs": [
+        "Non usare conversioni arbitrarie byte/CO2 come prova di sostenibilità.",
+        "Ridurre immagini non deve togliere informazione necessaria.",
+        "Off-line solare è un compromesso dichiarato da Low-tech, non un modello obbligatorio.",
+        "WSG è work in progress."
+      ],
+      "capturePage": "https://solar.lowtechmagazine.com/",
+      "sourcesFooter": "W3C, Web Sustainability Guidelines, Group Note Draft 24/09/2026; Low-tech Magazine, How to Build a Low-tech Website? (2018).",
+      "wordCount": 78
+    }
+  ],
+  "accessibilitySidebar": {
+    "title": "Lo stile va verificato",
+    "text": "Per il web, WCAG 2.2 richiede al livello AA almeno 4,5:1 per il testo ordinario e 3:1 per il testo grande, con eccezioni definite. Le informazioni visive necessarie a riconoscere controlli e stati richiedono 3:1 rispetto ai colori adiacenti. La scelta di una corrente non sostituisce queste verifiche.",
+    "sources": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html"
+    ],
+    "caution": "Sono criteri per contenuti web; non chiamare automaticamente conforme WCAG la pagina stampata del booklet. Non ridurre tutti i controlli a una sola regola 3:1 senza eccezioni e contesto."
+  },
+  "imageUsage": "Immagini reperite presso fonte primaria per illustrazione e attribuzione nel capitolo. Non affermare che siano tutte liberamente riutilizzabili senza condizioni. Google Codelab è CC BY 4.0 salvo eccezioni dichiarate; Apple e Microsoft mantengono copyright. Per le figure native create dal root usare 'Esempio didattico'.",
+  "imageAvailability": {
+    "checkedAt": "2026-10-05",
+    "result": "All 8 future-theme image URLs returned HTTP 200 and image/png through curl HEAD; source URLs are direct official assets. File sizes were not measured."
+  }
+}

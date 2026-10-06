@@ -1,0 +1,74 @@
+{
+  "prompt": "Use case: precise-object-edit.\nAsset type: complete website screenshot used as a controlled comparison in an Italian design textbook.\nImage 1 is the ONLY EDIT TARGET, not a loose reference. Preserve this exact full website screenshot, its aspect ratio, framing, grid, all UI, positions, margins, borders, lines, buttons, typography, palette outside the pictures, and every text character. Do not crop or reorganize the page.\nONLY edit the FOUR EXISTING PICTURES: (1) the hero upper right with one espresso cup and saucer at front left, one croissant on its plate at back right, a folded napkin at lower right and the table; (2) menu coffee cup and saucer; (3) menu croissant; (4) menu tea glass with handle and tea. Keep these same objects, quantities, relative sizes, positions, composition, and the exact rectangular picture regions. No new food, people, props, logos, text, stickers, or extra objects. All four pictures MUST visibly change medium/lighting/palette; do not leave the original color photographs in any of the four locations.\nINVARIANT UI AND VERBATIM COPY: \"CAFFÈ LUCE\" twice; navigation \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa,\" / \"ogni giorno.\"; \"Caffè, dolci e incontri.\"; button \"Scopri il menu\"; heading \"Il nostro menu\"; ordered items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"Un luogo per una pausa\". Every word, accent, punctuation, size and position must remain exact, sharp and readable. Never alter or style the UI to match a new image treatment; the original UI is locked.\nReturn ONE complete high-resolution landscape website screenshot, with only those four image regions edited, no browser chrome, watermark, outside scenery, or presentation mockup.\nPICTURE STYLE FOR ALL FOUR REGIONS: strongly flat, hand-drawn poster-like neobrutalist food illustrations, absolutely NOT photography, 3D rendering, glossy realism or a photo filter. Use only yellow, warm cream, solid black and restrained orange. Bold sharp black outlines, flat duotone or limited-color fills, hard graphic black shadows, squared cutout geometry, crisp illustrative details. The hero becomes a graphic illustration of the SAME espresso cup and saucer, croissant and plate, folded napkin and table in the SAME composition. The three menu pictures become separately drawn flat outlined illustrations of the SAME coffee cup, croissant and tea glass, with the same placement and sizes. All four must be unmistakably illustrated and visually coordinated with the yellow/cream/black/orange website. Preserve every existing yellow gutter, cream panel, thick black UI border, hard UI shadow, typeface, button, caption and word exactly unchanged. No extra doodles, captions, food, patterns or outlines outside the existing picture regions.",
+  "createdAt": "2026-10-06T07:50:51.418302+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2418"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2418",
+  "bookletFolio": 73,
+  "bookletChapterOrdinal": 53,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · neobrutalismo · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "neo",
+  "sourceSha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f",
+  "outputSha256": "634569072b6aba77abf5536718ab7aded08a7f9597557454079caf4247b225e5",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e17-8f8f-76b2-a1c5-a943708ad8b5/exec-7e7f94d2-63e3-4c89-978a-a532e8f6d4c5.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-slides.json",
+  "generationQA": {
+    "result": "passed",
+    "visualInspection": "Both complete images viewed. All four picture regions inspected, including hero and three menu pictures.",
+    "fourImagesChanged": true,
+    "heroChanged": true,
+    "menuCoffeeChanged": true,
+    "menuCroissantChanged": true,
+    "menuTeaChanged": true,
+    "style": "Flat limited-color yellow/cream/black/orange poster illustrations, strong outlines and hard graphic shadows in all four picture regions.",
+    "objectsAndQuantitiesPreserved": true,
+    "compositionAndGridPreserved": true,
+    "verbatimTextPreserved": true,
+    "typographyAndUIPalettePreserved": true,
+    "crispText": true,
+    "invarianceAssessment": "Visual semantic/layout preservation; not a claim of byte-identical pixels outside the edited pictures.",
+    "originalRetained": true
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v1.png",
+      "sourceSha256": "5649bffbc8cfa4ef7fa4a2377d97d696299327ee48036d45ede5c98e902f232c",
+      "outputSha256": "88a7af2597f0c49a07ca12104eb16dbec7fcb3a87ce5aa85790546a7796ccfaa",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nNEOBRUTALIST WEB DESIGN. Strong black utilitarian typography with a very heavy Archivo Black-like headline and compact readable monospace supporting text; warm vivid yellow page with cream/white panels, thick clean black outlines, deliberately hard 6–10px offset black shadows, squared corners and decisive spacing. The source structure is unchanged. A hard outlined button, sharp menu tiles and explicit divisions. NO soft drop shadows, glossy gradients, rounded neumorphic edges or textures. Same four photos remain completely natural, sharp and unchanged. Preserve all exact copy including accents; not an abstract poster."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+      "sourceSha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f",
+      "outputSha256": "634569072b6aba77abf5536718ab7aded08a7f9597557454079caf4247b225e5",
+      "createdAt": "2026-10-06T07:50:51.418302+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-slides.json"
+    }
+  ]
+}

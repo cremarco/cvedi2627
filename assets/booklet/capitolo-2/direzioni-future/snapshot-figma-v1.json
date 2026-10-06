@@ -1,0 +1,582 @@
+{
+  "results": [
+    {
+      "key": "adattabile",
+      "id": "2258:295",
+      "main": "2358:249",
+      "mainBottom": 583.098388671875,
+      "counts": {
+        "FRAME": 8,
+        "INSTANCE": 2,
+        "RECTANGLE": 6,
+        "LINE": 1,
+        "TEXT": 9,
+        "ELLIPSE": 1
+      },
+      "texts": [
+        {
+          "id": "2258:300",
+          "text": "direzioni future",
+          "name": "Etichetta · storia delle interfacce digitali",
+          "role": "text",
+          "x": 74,
+          "y": 20,
+          "links": []
+        },
+        {
+          "id": "I2258:302;5:726",
+          "text": "2",
+          "name": "2",
+          "role": "text",
+          "x": 259,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2284:321",
+          "text": ".3",
+          "name": "Titolo · .3",
+          "role": "title",
+          "x": 275,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2258:304",
+          "text": "76",
+          "name": "Numero pagina · 76",
+          "role": "folio",
+          "x": 400.06,
+          "y": 621.64,
+          "links": []
+        },
+        {
+          "id": "2358:250",
+          "text": "Tipografia adattabile ed espressiva",
+          "name": "Titolo · Tipografia adattabile ed espressiva",
+          "role": "title",
+          "x": 74,
+          "y": 60,
+          "links": []
+        },
+        {
+          "id": "2358:251",
+          "text": "I caratteri variabili permettono di modificare peso, larghezza e altre qualità delle lettere entro gli assi previsti dal progetto. Roboto Flex mostra come una famiglia possa adattare titoli e testi a ruoli differenti. Material 3 Expressive combina invece forme, colore e movimento per dare maggiore identità alle interfacce. Una possibile direzione è un linguaggio visivo che cambia con lo spazio e le preferenze della persona, mantenendo gerarchie riconoscibili. L’espressività richiede misura: deformazioni e animazioni non devono ostacolare la lettura.",
+          "name": "Corpo testo · I caratteri variabili permettono di modificare peso, larghezza e altre",
+          "role": "text",
+          "x": 74,
+          "y": 92,
+          "links": []
+        },
+        {
+          "id": "2358:255",
+          "text": "Ipotesi progettuale · Caffè Luce. Schermo ampio e stretto: cambiano larghezza, peso e disposizione, restano i ruoli. Imagegen, 2026.",
+          "name": "Didascalia · Ipotesi progettuale · Caffè Luce. Schermo ampio e stretto: cambiano larghezza, peso e disposizione, restano i ruoli. Imagegen, 2026.",
+          "role": "caption",
+          "x": 74,
+          "y": 429.98,
+          "links": []
+        },
+        {
+          "id": "2358:261",
+          "text": "Assi di Roboto Flex.\nGoogle Developers.",
+          "name": "Didascalia · Assi di Roboto Flex. Google Developers.",
+          "role": "caption",
+          "x": 74,
+          "y": 559.1,
+          "links": [
+            {
+              "start": 0,
+              "end": 39,
+              "type": "URL",
+              "value": "https://codelabs.developers.google.com/migrating-variable-fonts"
+            }
+          ]
+        },
+        {
+          "id": "2358:262",
+          "text": "Una gerarchia stabile permette di adattare il carattere delle lettere senza disorientare. Espressività, deformazioni e movimento vanno dosati per proteggere la lettura.",
+          "name": "Nota di lettura · adattabile",
+          "role": "text",
+          "x": 202,
+          "y": 469.48,
+          "links": []
+        }
+      ],
+      "images": [
+        {
+          "id": "2358:253",
+          "w": 350,
+          "h": 196.9796600341797,
+          "imageHash": "1958ce37a44daf3d543e3784b94866dca2797376",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "2358:259",
+          "w": 110,
+          "h": 83.11872863769531,
+          "imageHash": "958d4558dc237f7ff97e1f9d735729b48979a054",
+          "scaleMode": "FIT"
+        }
+      ],
+      "bodyUnchanged": true,
+      "fonts": [
+        "Geom",
+        "Merriweather"
+      ]
+    },
+    {
+      "key": "spaziale",
+      "id": "2258:317",
+      "main": "2358:263",
+      "mainBottom": 567.9796752929688,
+      "counts": {
+        "FRAME": 11,
+        "INSTANCE": 2,
+        "RECTANGLE": 12,
+        "LINE": 1,
+        "TEXT": 11,
+        "ELLIPSE": 1
+      },
+      "texts": [
+        {
+          "id": "2258:322",
+          "text": "direzioni future",
+          "name": "Etichetta · storia delle interfacce digitali",
+          "role": "text",
+          "x": 60,
+          "y": 20,
+          "links": []
+        },
+        {
+          "id": "I2258:324;5:726",
+          "text": "2",
+          "name": "2",
+          "role": "text",
+          "x": 245,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2284:323",
+          "text": ".3",
+          "name": "Titolo · .3",
+          "role": "title",
+          "x": 261,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2258:326",
+          "text": "77",
+          "name": "Numero pagina · 77",
+          "role": "folio",
+          "x": 60,
+          "y": 621.64,
+          "links": []
+        },
+        {
+          "id": "2358:264",
+          "text": "Profondità e materiali dinamici",
+          "name": "Titolo · Profondità e materiali dinamici",
+          "role": "title",
+          "x": 60,
+          "y": 60,
+          "links": []
+        },
+        {
+          "id": "2358:265",
+          "text": "La profondità può distinguere contenuti, strumenti e stati dell’interfaccia. Nelle linee guida di visionOS, finestre e volumi occupano uno spazio percepibile attraverso distanza, occlusione e ombre. Liquid Glass organizza invece controlli e navigazione sopra il contenuto con un materiale dinamico. Questi esempi aprono una possibile direzione: superfici capaci di adattarsi al contesto e comunicare relazioni. La tridimensionalità serve quando chiarisce il compito. Testi sospesi, livelli eccessivi o trasparenze indiscriminate possono aumentare fatica e ambiguità.",
+          "name": "Corpo testo · La profondità può distinguere contenuti, strumenti e stati dell’interf",
+          "role": "text",
+          "x": 60,
+          "y": 92,
+          "links": []
+        },
+        {
+          "id": "2358:269",
+          "text": "Ipotesi progettuale · Caffè Luce. Comandi su un piano distinto, menu opaco e tazza come volume 3D. Imagegen, 2026.",
+          "name": "Didascalia · Ipotesi progettuale · Caffè Luce. Comandi su un piano distinto, menu opaco e tazza come volume 3D. Imagegen, 2026.",
+          "role": "caption",
+          "x": 60,
+          "y": 429.98,
+          "links": []
+        },
+        {
+          "id": "2358:275",
+          "text": "Liquid Glass, chiaro.\nApple HIG.",
+          "name": "Didascalia · Liquid Glass, chiaro. Apple HIG.",
+          "role": "caption",
+          "x": 60,
+          "y": 543.98,
+          "links": [
+            {
+              "start": 0,
+              "end": 32,
+              "type": "URL",
+              "value": "https://developer.apple.com/design/human-interface-guidelines/materials"
+            }
+          ]
+        },
+        {
+          "id": "2358:279",
+          "text": "Liquid Glass, scuro.\nApple HIG.",
+          "name": "Didascalia · Liquid Glass, scuro. Apple HIG.",
+          "role": "caption",
+          "x": 152.75,
+          "y": 543.98,
+          "links": [
+            {
+              "start": 0,
+              "end": 31,
+              "type": "URL",
+              "value": "https://developer.apple.com/design/human-interface-guidelines/materials"
+            }
+          ]
+        },
+        {
+          "id": "2358:283",
+          "text": "Finestra in visionOS.\nApple HIG.",
+          "name": "Didascalia · Finestra in visionOS. Apple HIG.",
+          "role": "caption",
+          "x": 245.5,
+          "y": 517.98,
+          "links": [
+            {
+              "start": 0,
+              "end": 32,
+              "type": "URL",
+              "value": "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/"
+            }
+          ]
+        },
+        {
+          "id": "2358:287",
+          "text": "Volume in visionOS.\nApple HIG.",
+          "name": "Didascalia · Volume in visionOS. Apple HIG.",
+          "role": "caption",
+          "x": 338.25,
+          "y": 517.98,
+          "links": [
+            {
+              "start": 0,
+              "end": 30,
+              "type": "URL",
+              "value": "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/"
+            }
+          ]
+        }
+      ],
+      "images": [
+        {
+          "id": "2358:267",
+          "w": 350,
+          "h": 196.9796600341797,
+          "imageHash": "433a7ac412d17901d9676299227b1118765038ce",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "2358:273",
+          "w": 80,
+          "h": 80,
+          "imageHash": "9b2f5e1b90212c772018b856f31d0c4216e6ba0b",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "2358:277",
+          "w": 80,
+          "h": 80,
+          "imageHash": "601a46e2ad29a1f670f19e04037c36281c570f61",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "2358:281",
+          "w": 84.75,
+          "h": 54,
+          "imageHash": "13f09d15c8f0b04d06df02ab528ed8eb5f606823",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "2358:285",
+          "w": 84.75,
+          "h": 54,
+          "imageHash": "5e6daf99edaa39d096ce11d9e81905adc915bff0",
+          "scaleMode": "FIT"
+        }
+      ],
+      "bodyUnchanged": true,
+      "fonts": [
+        "Geom",
+        "Merriweather"
+      ]
+    },
+    {
+      "key": "generativa",
+      "id": "2258:352",
+      "main": "2358:288",
+      "mainBottom": 551.0646667480469,
+      "counts": {
+        "FRAME": 8,
+        "INSTANCE": 2,
+        "RECTANGLE": 6,
+        "LINE": 1,
+        "TEXT": 9,
+        "ELLIPSE": 1
+      },
+      "texts": [
+        {
+          "id": "2258:357",
+          "text": "direzioni future",
+          "name": "Etichetta · storia delle interfacce digitali",
+          "role": "text",
+          "x": 74,
+          "y": 20,
+          "links": []
+        },
+        {
+          "id": "I2258:359;5:726",
+          "text": "2",
+          "name": "2",
+          "role": "text",
+          "x": 259,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2284:325",
+          "text": ".3",
+          "name": "Titolo · .3",
+          "role": "title",
+          "x": 275,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2258:361",
+          "text": "78",
+          "name": "Numero pagina · 78",
+          "role": "folio",
+          "x": 400.06,
+          "y": 621.64,
+          "links": []
+        },
+        {
+          "id": "2358:289",
+          "text": "Interfacce generate su richiesta",
+          "name": "Titolo · Interfacce generate su richiesta",
+          "role": "title",
+          "x": 74,
+          "y": 60,
+          "links": []
+        },
+        {
+          "id": "2358:290",
+          "text": "Un’interfaccia generativa può costruire strumenti e visualizzazioni in risposta a una richiesta, invece di restituire soltanto testo. Gli esperimenti di Google Research mostrano pagine, giochi e simulazioni creati in funzione del compito. La possibile evoluzione riguarda anche lo stile: la stessa informazione potrebbe assumere forme diverse per una persona o un contesto. La ricerca segnala però tempi di generazione e inesattezze. Occorrono controlli stabili, indicazioni sulla provenienza dei contenuti e possibilità di correggere il risultato senza perdere orientamento.",
+          "name": "Corpo testo · Un’interfaccia generativa può costruire strumenti e visualizzazioni in",
+          "role": "text",
+          "x": 74,
+          "y": 92,
+          "links": []
+        },
+        {
+          "id": "2358:294",
+          "text": "Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+          "name": "Didascalia · Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+          "role": "caption",
+          "x": 74,
+          "y": 429.98,
+          "links": []
+        },
+        {
+          "id": "2358:300",
+          "text": "Interfacce generative.\nGoogle Research, 2025.",
+          "name": "Didascalia · Interfacce generative. Google Research, 2025.",
+          "role": "caption",
+          "x": 74,
+          "y": 527.06,
+          "links": [
+            {
+              "start": 0,
+              "end": 45,
+              "type": "URL",
+              "value": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"
+            }
+          ]
+        },
+        {
+          "id": "2358:301",
+          "text": "La persona verifica e corregge la proposta prima di confermare. Stato, provenienza e recupero dagli errori devono restare leggibili; tempi di generazione ed errori richiedono attenzione.",
+          "name": "Nota di lettura · generativa",
+          "role": "text",
+          "x": 238,
+          "y": 469.48,
+          "links": []
+        }
+      ],
+      "images": [
+        {
+          "id": "2358:292",
+          "w": 350,
+          "h": 196.9796600341797,
+          "imageHash": "4c9c675dc9496d6ed92b757f3e06901960334adc",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "2358:298",
+          "w": 152,
+          "h": 51.084999084472656,
+          "imageHash": "60bcafc98c8a8f5fcf8be32b41ee20c949b74e7e",
+          "scaleMode": "FIT"
+        }
+      ],
+      "bodyUnchanged": true,
+      "fonts": [
+        "Geom",
+        "Merriweather"
+      ]
+    },
+    {
+      "key": "risorse",
+      "id": "2258:381",
+      "main": "2358:302",
+      "mainBottom": 586.6984252929688,
+      "counts": {
+        "FRAME": 8,
+        "INSTANCE": 2,
+        "RECTANGLE": 6,
+        "LINE": 1,
+        "TEXT": 9,
+        "ELLIPSE": 1
+      },
+      "texts": [
+        {
+          "id": "2258:386",
+          "text": "direzioni future",
+          "name": "Etichetta · storia delle interfacce digitali",
+          "role": "text",
+          "x": 60,
+          "y": 20,
+          "links": []
+        },
+        {
+          "id": "I2258:388;5:726",
+          "text": "2",
+          "name": "2",
+          "role": "text",
+          "x": 245,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2284:327",
+          "text": ".3",
+          "name": "Titolo · .3",
+          "role": "title",
+          "x": 261,
+          "y": 19,
+          "links": []
+        },
+        {
+          "id": "2258:390",
+          "text": "79",
+          "name": "Numero pagina · 79",
+          "role": "folio",
+          "x": 60,
+          "y": 621.64,
+          "links": []
+        },
+        {
+          "id": "2358:303",
+          "text": "Un’estetica attenta alle risorse",
+          "name": "Titolo · Un’estetica attenta alle risorse",
+          "role": "title",
+          "x": 60,
+          "y": 60,
+          "links": []
+        },
+        {
+          "id": "2358:304",
+          "text": "La leggerezza può diventare una scelta visiva oltre che tecnica: immagini selezionate, tipografia ottimizzata e movimento proporzionato rendono più intenzionale la pagina. Le Web Sustainability Guidelines collegano esperienza, sviluppo e infrastrutture; a ottobre 2026 sono ancora una bozza W3C. Low-tech Magazine offre un caso concreto: sito statico, immagini retinate e server alimentato dal sole. Non esiste però un’estetica automaticamente sostenibile. Vanno misurati risorse e risultati, mantenendo accessibilità e qualità del servizio; un sito solare può anche andare offline.",
+          "name": "Corpo testo · La leggerezza può diventare una scelta visiva oltre che tecnica: immag",
+          "role": "text",
+          "x": 60,
+          "y": 92,
+          "links": [
+            {
+              "start": 175,
+              "end": 204,
+              "type": "URL",
+              "value": "https://www.w3.org/TR/2026/DNOTE-web-sustainability-guidelines-20260924/"
+            }
+          ]
+        },
+        {
+          "id": "2358:308",
+          "text": "Ipotesi progettuale · Caffè Luce. Menu e orari subito disponibili, immagini facoltative. Imagegen, 2026.",
+          "name": "Didascalia · Ipotesi progettuale · Caffè Luce. Menu e orari subito disponibili, immagini facoltative. Imagegen, 2026.",
+          "role": "caption",
+          "x": 60,
+          "y": 429.98,
+          "links": []
+        },
+        {
+          "id": "2358:314",
+          "text": "Sito solare di Low-tech\nMagazine, ottobre 2026.",
+          "name": "Didascalia · Sito solare di Low-tech Magazine, ottobre 2026.",
+          "role": "caption",
+          "x": 60,
+          "y": 562.7,
+          "links": [
+            {
+              "start": 0,
+              "end": 47,
+              "type": "URL",
+              "value": "https://solar.lowtechmagazine.com/"
+            }
+          ]
+        },
+        {
+          "id": "2358:315",
+          "text": "Menu e orari restano disponibili senza caricare altre immagini. Il comando rende esplicita la scelta. Il risultato va verificato su connessioni lente e con tecnologie assistive, mantenendo qualità e disponibilità del servizio.",
+          "name": "Nota di lettura · risorse",
+          "role": "text",
+          "x": 247.5,
+          "y": 457.48,
+          "links": []
+        }
+      ],
+      "images": [
+        {
+          "id": "2358:306",
+          "w": 350,
+          "h": 196.9796600341797,
+          "imageHash": "222b7ca8ade077b7b7af886afc1ba2955f07831f",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "2358:312",
+          "w": 175.5,
+          "h": 98.71875,
+          "imageHash": "324a8b259e1f3be71222db18f9c05cdff763f7be",
+          "scaleMode": "FIT"
+        }
+      ],
+      "bodyUnchanged": true,
+      "fonts": [
+        "Geom",
+        "Merriweather"
+      ]
+    }
+  ],
+  "frameCountUnchanged": true,
+  "checkedAt": "2026-10-06",
+  "visualReview": {
+    "result": "passed",
+    "rawGeneratedImagesReviewed": 4,
+    "bookletPagesReviewed": 4,
+    "resourcesRecheckedAfterAnnotationChange": true
+  },
+  "documentaryImagesRetained": 7,
+  "conceptImages": 4,
+  "captionCount": 11
+}

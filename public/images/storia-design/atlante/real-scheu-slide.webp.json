@@ -1,0 +1,67 @@
+{
+  "prompt": "Original screenshot of a real implemented website/application or an explicitly dated official archive. Apple · GarageBand per Mac. Amplificatori e pedali virtuali, schermata prodotto ufficiale. Source: https://www.apple.com/mac/garageband/. Converted to lossless WebP for the Slidev lecture, preserving the complete original image and aspect ratio. No AI generation, no reconstruction.",
+  "createdAt": "2026-10-05T23:33:37.201465+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/reali/early/scheu-garageband.png",
+  "sourceURLs": [
+    "https://www.apple.com/mac/garageband/"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2326:312",
+  "bookletFolio": 58,
+  "bookletChapterOrdinal": 38,
+  "bookletSourceRole": "real-examples-masonry",
+  "caption": "Apple · GarageBand per Mac. Amplificatori e pedali virtuali, schermata prodotto ufficiale.",
+  "kind": "official-product-screenshot",
+  "style": "scheu",
+  "sourceSha256": "3c32e6b98f28b554246cdae327b8f538bd1b496b694656eb814357906b713b91",
+  "outputSha256": "ac05225af37f88b573c54d338e9578704ea88c4407eb4ad2409beb2a2e5421d5",
+  "sourceDimensions": {
+    "width": 1004,
+    "height": 586
+  },
+  "outputDimensions": {
+    "width": 1004,
+    "height": 586
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "maxEdge": 1600,
+    "resample": "Lanczos only when resizing is required",
+    "pixelRoundTripVerified": true
+  },
+  "originalMetadata": {
+    "id": "scheu-garageband",
+    "name": "Apple · GarageBand, amplificatori e pedali",
+    "url": "https://www.apple.com/mac/garageband/",
+    "captureUrl": "https://www.apple.com/v/mac/garageband/n/images/garageband/make_music_plug_it_in__c66ilq62szee_large.png",
+    "sourcePage": "https://www.apple.com/mac/garageband/",
+    "caption": "Apple · GarageBand per Mac. Amplificatori e pedali virtuali, schermata prodotto ufficiale.",
+    "date": "2026-10-06",
+    "capturedAt": "2026-10-05T22:56:27.064Z",
+    "kind": "official-product-screenshot",
+    "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/scheu-garageband.png",
+    "width": 1004,
+    "height": 586,
+    "viewport": {
+      "width": 1440,
+      "height": 1000
+    },
+    "deviceScaleFactor": 1,
+    "crop": {
+      "x": 218,
+      "y": 207,
+      "width": 1004,
+      "height": 586
+    },
+    "authenticityNote": "Immagine originale sul sito del produttore, senza ridisegno o generazione. L’esempio è un’applicazione, non una pagina web del prodotto.",
+    "sha256": "3c32e6b98f28b554246cdae327b8f538bd1b496b694656eb814357906b713b91",
+    "qa": {
+      "httpStatus": 200,
+      "visualInspection": "passed",
+      "noAI": true,
+      "noPixelReconstruction": true,
+      "overlays": "none in selected capture area"
+    }
+  }
+}

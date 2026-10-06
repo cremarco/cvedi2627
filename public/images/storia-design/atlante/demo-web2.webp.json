@@ -1,0 +1,72 @@
+{
+  "prompt": "Use case: precise-object-edit / style-transfer.\nImage 1 is the EDIT TARGET: the existing 4:3 blue glossy Web 2.0 Caffè Luce website screenshot. Edit ONLY all four picture areas inside the webpage. Everything else is immutable: exact interface, blue/cyan palette, rounded glossy panels, bevels, soft shadows, font shapes and sizes, text, line breaks, spacing, borders, button and grid. Return ONE complete sharp high-quality 4:3 webpage screenshot with the same composition and aspect ratio. No device, book, browser chrome, perspective or external mockup.\nCHANGE ALL FOUR EXISTING PICTURES, visibly and consistently: (1) the upper-right hero scene with exactly one espresso cup and saucer at front-left, exactly one croissant and plate at back-right, the same folded napkin at lower-right, café table, chair and background in the same positions; (2) the menu espresso cup/saucer; (3) the menu single croissant; (4) the menu tea cup. Preserve each subject, object count, approximate silhouette, relative scale, viewpoint and placement. Keep all pictures precisely in their current slots. They must all clearly become illustrations, rather than leaving a natural photograph unchanged.\nNEW PICTURE TREATMENT ONLY: polished Web 2.0-era glossy 3D illustrations/product icons. Turn the hero into an unmistakably clean stylized CGI still-life of the same café objects and the same composition: rounded polished surfaces, broad smooth gradients, luminous specular highlights and gentle cool cyan/blue reflections consistent with the interface. Turn each menu product into a smooth glossy 3D cutout icon with the same subject and pose, a neat soft grounding shadow and bright polished highlights. The espresso ceramic remains white, croissant remains appetizing golden brown and tea remains amber; blue accents are reflections/lighting, not blue food. Do not add sparkles, extra objects, quantities, logos or decorative badges. No flat-vector, pixel-art or hand-drawn treatment. Distinct from the original natural photographs while still neutral café content.\nLOCK ALL COPY VERBATIM, accents, punctuation and quantities: CAFFÈ LUCE; Menu; Il locale; Contatti; Una pausa, ogni giorno.; Caffè, dolci e incontri.; Scopri il menu; Il nostro menu; Caffè; Espresso e cappuccino; Croissant; Ogni mattina; Tè; Una selezione di aromi; Ti aspettiamo; Lun–Sab · 7–19; In centro, ogni giorno.; CAFFÈ LUCE; Un luogo per una pausa. Preserve original line breaks, especially Una pausa, / ogni giorno. Keep text crisp and exactly intact. Change ONLY these four picture areas, keeping the already glossy blue interface unchanged.",
+  "createdAt": "2026-10-06T07:51:45.904248+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2652"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2652",
+  "bookletFolio": 55,
+  "bookletChapterOrdinal": 35,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · Web 2.0 · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "web2",
+  "sourceSha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1",
+  "outputSha256": "ada3b307d169e40e450e6d73325900f70170427a204776e40c0fe3b81fd26d93",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-e10fddc9-66a0-497b-85f0-bf1aa9839fe6.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-early.json",
+  "generationQA": {
+    "manualTextVerbatim": true,
+    "manualAllFourImagesRestyled": true,
+    "manualSubjectCompositionAndCountPreserved": true,
+    "manualLayoutFontPalettePreserved": true,
+    "manualRasterQuality": "Passed; all four pictures have polished CGI/gloss highlights; unchanged sharp blue Web 2.0 UI.",
+    "allFourPictureRegionsChangedMeanAbsoluteRgbDifference": {
+      "hero": 20.157,
+      "menuCoffee": 11.443,
+      "menuCroissant": 26.018,
+      "menuTea": 17.359
+    },
+    "sameDimensionsAndFourByThreeAspectRatio": true,
+    "copiedGeneratedBytesUnmodified": true
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v1.png",
+      "sourceSha256": "21830be486145ddf5c5174e91ad077ada97037f07157ac528be6423f84c6bf44",
+      "outputSha256": "6c584a0303363d74acad82902152f34f3556481546ac7447d298da064f054510",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nWEB 2.0 INTERFACE VISUAL LANGUAGE, circa 2005. Friendly rounded sans serif titles like Nunito or Verdana; blue and light-cyan interface palette. Glossy beveled blue gradient button, softly rounded corners, restrained drop shadows and a polished gradient header. Menu tiles have light pale-blue surfaces and subtle bevels. High readability and distinct early-2000s glossy UI appearance. Keep all photos exactly natural and unchanged; no new objects, stars, ribbons, feature badges or extra words."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+      "sourceSha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1",
+      "outputSha256": "ada3b307d169e40e450e6d73325900f70170427a204776e40c0fe3b81fd26d93",
+      "createdAt": "2026-10-06T07:51:45.904248+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-early.json"
+    }
+  ]
+}

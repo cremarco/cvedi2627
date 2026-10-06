@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-06",
+  "source": "lezioni/03-storia-design.md",
+  "bookletSnapshot": "assets/booklet/capitolo-2/testo-figma-aggiornato.json",
+  "slideMapping": "assets/booklet/capitolo-2/slide-mapping.json",
+  "assetManifest": "assets/booklet/capitolo-2/slide-assets.json",
+  "styleFonts": "public/fonts/web-styles/manifest.json",
+  "bookletPreview": "assets/booklet-preview/manifest.json",
+  "historySlides": 68,
+  "addedSlides": 16,
+  "lessonMinutes": 120,
+  "styles": 11,
+  "captions": "All 58 LessonFigure instances include alt and caption; CSS diagram caption also verified.",
+  "verification": {
+    "sourceCheck": "passed (221 total, 68 history, 120 min, 66 booklet pages, 58 figures)",
+    "productionBuild": "passed",
+    "renderChecks": 388,
+    "runtimeErrors": 0,
+    "overflow": 0,
+    "report": "reports/slides-c2-2026-10-06/atlante/runtime-final.json",
+    "styleQA": "reports/slides-c2-2026-10-06/atlante/style-summary.json",
+    "demoImageryV2QA": "reports/slides-c2-2026-10-06/imagery-v2/qa.json",
+    "futureConceptQA": "reports/slides-c2-2026-10-06/future-concepts/qa.json",
+    "wimpQA": "reports/slides-c2-2026-10-06/wimp-v2/qa.json"
+  },
+  "bookletPages": 66,
+  "atlas": {
+    "styles": 11,
+    "generatedDemos": 11,
+    "authenticScreenshotsBooklet": 44,
+    "distinctCases": 33,
+    "styleSlideImages": 22,
+    "generatedImageTool": "built-in Imagegen",
+    "readingOrder": "assets/booklet/capitolo-2/atlante-stili/reading-order.json",
+    "demoPrompts": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+    "figureSources": "assets/booklet/capitolo-2/atlante-stili/reali/examples-combined.json",
+    "figmaVerification": "assets/booklet/capitolo-2/atlante-stili/verifica-finale.json",
+    "demoImageVersion": 2,
+    "styledRegionsInDemos": 44
+  },
+  "futureConcepts": {
+    "count": 4,
+    "slides": [
+      60,
+      62,
+      63,
+      64
+    ],
+    "generatedWith": "built-in Imagegen",
+    "bookletFolios": [
+      76,
+      77,
+      78,
+      79
+    ],
+    "authenticReferencesPreserved": true,
+    "qa": "passed",
+    "report": "reports/slides-c2-2026-10-06/future-concepts/qa.json",
+    "assetVerification": "reports/slides-c2-2026-10-06/future-concepts/asset-verification.json",
+    "manifest": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+    "desktopChecks": 5,
+    "narrowChecks": 4,
+    "enlargementChecks": 8,
+    "responseHashChecks": 8
+  },
+  "wimpIllustration": {
+    "lessonSlide": 43,
+    "generatedWith": "built-in Imagegen",
+    "palette": "#c6005c, white, pale pink, near black",
+    "bookletFolio": 51,
+    "manifest": "assets/booklet/capitolo-2/wimp/manifest-v2.json",
+    "originalFourDefinitionsPreservedInNotes": true,
+    "qa": "passed",
+    "report": "reports/slides-c2-2026-10-06/wimp-v2/qa.json",
+    "assetVerification": "reports/slides-c2-2026-10-06/wimp-v2/asset-verification.json",
+    "desktopChecks": 1,
+    "narrowChecks": 1,
+    "enlargementChecks": 2,
+    "responseHashChecks": 2
+  }
+}

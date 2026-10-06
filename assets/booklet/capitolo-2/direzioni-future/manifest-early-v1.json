@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-06",
+  "tool": "built-in image_gen.imagegen",
+  "images": [
+    {
+      "key": "risorse",
+      "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-f834d731-6e9d-450c-9f63-088262e0d8c5.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/direzioni-future/demo-risorse-v1.png",
+      "prompt": "Use case: ui-mockup / scientific-educational.\nCreate ONE fresh, extremely crisp lightweight menu-first webpage for the same fictional café CAFFÈ LUCE. This is a concrete educational future-direction example, not a whole book page. LANDSCAPE 16:9, approximately 1600×900, with all UI content inside the image. Compose for a 350px print-width reproduction: very few large readable words, simple hierarchy, compact meaningful content. No outside title, caption, annotation, version number, watermark, browser chrome, laptop/phone frame or external surroundings.\nBrand and visual direction: classy warm opaque ivory, near-black typography, restrained deep teal links and one teal action control. Quiet high-quality sans-serif typography, precise thin horizontal rules, flat opaque surfaces. The fictional café subjects remain ordinary espresso, croissant and tea; do not invent a new business or theme.\nDesign a real coherent page where useful menu information appears immediately and dominates the experience, rather than huge photographs. A slim top header carries \"CAFFÈ LUCE\". A large section heading \"Il nostro menu\" directly beneath it. The menu is three clear spacious lines or aligned columns, each with exactly one large label: \"Caffè\", \"Croissant\", \"Tè\". Keep each menu label equally prominent and legible.\nONLY ONE small illustration anywhere in this page: a sharp limited-color dithered illustration of one espresso cup and saucer, placed tastefully near the header or menu edge. It should occupy less than one sixth of the useful canvas area, with intentional crisp pixel/dither texture—not blur. No other product illustrations, no dominant hero photo, no decorative leaf/planet/eco symbol, no badges.\nBelow the menu, make the actual opening hours clearly readable: \"Lun–Sab · 7–19\". Include one simple clearly intentional outlined or solid deep-teal secondary control labeled \"Carica immagini\", for optional image loading; it must not overshadow the text menu. Its role is understandable from the UI, no technical implementation copy is needed.\nEXACT COPY AND ONLY THESE WORDS: \"CAFFÈ LUCE\", \"Il nostro menu\", \"Caffè\", \"Croissant\", \"Tè\", \"Lun–Sab · 7–19\", \"Carica immagini\". Each phrase appears once. All accents, punctuation and numbers exactly preserved. Do not invent prices, file sizes, performance scores, emissions values, green statistics, sustainability claims, tooltips or explanatory paragraphs. No card grid, meaningless decorative boxes or blank unfinished huge panels. A simple polished useful café menu that makes the priority of content and optional images visually evident.",
+      "tool": "built-in image_gen.imagegen",
+      "visualReference": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png (inspected; brand and subjects reference only, not edit target)",
+      "qa": {
+        "manualExactCopy": true,
+        "manualNoInventedStatisticsOrEcoClaims": true,
+        "manualMenuFirstHierarchy": true,
+        "manualSingleSmallDitheredCoffeeIllustration": true,
+        "manualLegibleAt350pxPrintWidth": true,
+        "manualRasterQuality": "Passed; sharp large type, one small cup, ivory/near-black/teal palette.",
+        "copiedGeneratedBytesUnmodified": true,
+        "nativeWideAspectRatioVerified": true
+      },
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sha256": "608dd774d172f81e66e0004cc27f4e5f25ab06cebaddb2ba625948cd436d274f"
+    },
+    {
+      "key": "adattabile",
+      "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-89e3a158-6141-4070-a4f0-6c70e3d51b26.png",
+      "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/direzioni-future/demo-adattabile-v1.png",
+      "prompt": "Use case: precise-object-edit / ui-mockup.\nImage 1 is the EDIT TARGET: the already successful Caffè Luce desktop/mobile adaptive comparison. Make ONLY a natural WIDER COMPOSITION for the same design: output LANDSCAPE 16:9, approximately 1600×900. The current input is 4:3; the output MUST become 16:9. This is an intentional aspect-ratio change. Do NOT simply crop, stretch or squash the original picture. Recompose the desktop and mobile interfaces naturally onto the wider landscape canvas, keeping every piece of content fully visible, readable and equally crisp.\nKeep the same classy opaque ivory, near-black and subtle deep-teal café brand, thin rules, illustrations/photos of espresso/croissant/tea, identical wordmark, and the same two interface states side by side. There must be no outer labels, annotations, title, caption, watermark, browser chrome or device hardware. Preserve all exact UI words. No extra words or numbers.\nThe desktop surface on the left should occupy approximately 65% width; the mobile surface on the right approximately 30%, with a small restrained gap. Both states use nearly the full canvas height and have LARGE type legible at 350px print width. Preserve the purposeful typography contrast: wider medium-weight sans-serif desktop headline vs more condensed heavier version of the same family on mobile. Preserve the stable hierarchy and same information, not different content or an automatic-personalization claim.\nDesktop keeps a slim CAFFÈ LUCE / Menu header, a prominent two-line Una pausa, ogni giorno. headline with the espresso/croissant hero scene beside it, then Caffè / Croissant / Tè in three columns with their clear product pictures. Mobile keeps the CAFFÈ LUCE / Menu header, the same strong condensed two-line headline, and the same three products reflowed as a vertical list with equally large readable labels. Fit the entire menu including Tè into the 16:9 output; do not truncate the third item or footer edges.\nEXACT COPY IN BOTH STATES: \"CAFFÈ LUCE\", \"Menu\", \"Una pausa, ogni giorno.\", \"Caffè\", \"Croissant\", \"Tè\". Each phrase appears once per state, with accents and punctuation intact. Keep the café neutral. No prices, stats, eco badges or new interface panels. Preserve the visual idea and readability while WIDENING and naturally arranging the interfaces into a true16:9 composition. Sharp high-quality bitmap, not a book page.",
+      "tool": "built-in image_gen.imagegen",
+      "visualReference": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png (inspected; visual/subject reference only)",
+      "generationHistory": [
+        {
+          "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-1e2dcac9-552a-4c4b-844a-139512ac4789.png",
+          "prompt": "Use case: ui-mockup / scientific-educational.\nInput image 1 is a VISUAL AND SUBJECT REFERENCE ONLY: the fictional CAFFÈ LUCE café. Create a FRESH compact educational web-interface example, not an edit of its original grid and not a book page. Output one extremely sharp landscape 4:3 bitmap around 1440×1080, suitable for reproducing at 350px print width. No outside title, annotations, labels, caption, watermark, browser chrome, laptop or phone hardware.\nShow TWO equally clear presentation states of the SAME café webpage side by side, directly as interface surfaces: a wider desktop layout on the left occupying about 60% width, and a narrow mobile layout on the right occupying about 35%, with a small neutral gap. Both contain exactly the same information and café subjects. Both states fill the useful height and must have large, equally legible typography. No microscopic text.\nBrand: understated high-quality café, opaque warm ivory, near-black typography and restrained deep teal accents. Precise quiet sans-serif variable-font-like family; clean thin rules; no gradients, glass, glossy controls, soft-UI blobs, promotional badges or meaningless decorative cards.\nThe design demonstrates deliberate VARIABLE TYPOGRAPHY AND RESPONSIVE REFLOW: desktop headline uses a wider medium-weight version of the same typeface; narrow mobile headline uses a slightly condensed stronger-weight version, intelligently wrapping to keep its hierarchy and visual prominence. Brand size and menu labels remain readable. It must look like two intentional designed states, with stable information hierarchy—not like magically changing content or automatic AI personalization. No arrows or technical labels explaining this inside the image.\nDESKTOP: CAFFÈ LUCE in a slim header, Menu as a readable navigation link; prominent headline Una pausa, ogni giorno. Below, a purposeful 3-column menu with simple tasteful small illustrations/cutouts of exactly one espresso cup and saucer, one croissant, and one tea cup, with their corresponding labels Caffè, Croissant, Tè. Keep pictures secondary to type.\nMOBILE: same header CAFFÈ LUCE and Menu; same headline Una pausa, ogni giorno. with compact wrapping and purposeful heavier condensed type; same three menu items reflow as a neat vertical list, each with the identical corresponding small cup/croissant/tea subject and its label. Do not remove any item or make the mobile text smaller than the desktop text.\nEXACT ALLOWED COPY, repeated as needed once per state: \"CAFFÈ LUCE\", \"Una pausa, ogni giorno.\", \"Menu\", \"Caffè\", \"Croissant\", \"Tè\". Preserve the accents and final period. No other text, numbers, prices, invented stats, file-weight or emissions figures, version labels, slogans or technical words. All text is genuinely readable and correctly spelled. The visual contrast between wider/medium desktop type and condensed/stronger mobile type should be unmistakable while remaining classy and consistent.",
+          "selected": false,
+          "reason": "First 4:3 composition was good but parent requested 16:9 to preserve space for the real-source band."
+        }
+      ],
+      "qa": {
+        "manualExactCopyInBothStates": true,
+        "manualSameCafeSubjectsAndMenuItems": true,
+        "manualWideMediumVsCondensedHeavyTypography": true,
+        "manualThreeColumnsReflowToVerticalList": true,
+        "manualNoAutomaticOrMagicClaim": true,
+        "manualLegibleAt350pxPrintWidth": true,
+        "manualNoCroppingOfUIOrThirdMenuItem": true,
+        "manualRasterQuality": "Passed; sharp large type in both states, coherent ivory/near-black/teal palette, naturally recomposed 16:9.",
+        "copiedGeneratedBytesUnmodified": true,
+        "nativeWideAspectRatioVerified": true
+      },
+      "dimensions": {
+        "width": 1672,
+        "height": 941
+      },
+      "sha256": "374daa7d93396943692e89e723616d74f8528a0327b3ac3592483289800b3aa8"
+    }
+  ],
+  "qaSummary": {
+    "assets": 2,
+    "bothFinalAssetsWide16By9Approx": true,
+    "noPostprocessCroppingOrStretching": true,
+    "allExactUIWordsManuallyVerified": true,
+    "nativePNGBytesVerified": true,
+    "noFigmaOrSharedManifestMutations": true
+  }
+}

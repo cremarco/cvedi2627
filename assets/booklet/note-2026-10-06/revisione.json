@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-06",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2002-1740",
+  "comments": [
+    { "number": 1, "chapter": "C01", "folio": 3, "frameNode": "198:1710", "change": "Attribuzione corretta a John Ruskin, cit. in Paul Rand; parafrasi italiana conservata; nota 1 e hyperlink alla fonte Rand aggiunti.", "screenshot": "c01-p03.png" },
+    { "number": 2, "chapter": "C01", "folio": 6, "frameNode": "198:1755", "change": "Aggiunti richiamo 2 e nota a Charles e Ray Eames, Design Q&A, 1972, con hyperlink Eames Office.", "screenshot": "c01-p06.png" },
+    { "number": 3, "chapter": "C01", "folio": 12, "frameNode": "198:1889", "change": "Aggiunti richiami 3 e 4 alle norme ISO 9241-11:2018 e ISO 9241-210:2019, con titoli, paragrafi e hyperlink; anno 2018 esplicitato nel testo.", "screenshot": "c01-p12.png" },
+    { "number": 4, "chapter": "C02", "folio": 23, "frameNode": "198:1993", "change": "Aggiunti richiamo 1 e nota a Ivan Chermayeff, cit. in Philip B. Meggs, Preface to the First Edition, con hyperlink al preview O’Reilly.", "screenshot": "c02-p23.png" },
+    { "number": 5, "chapter": "C02", "folio": 23, "frameNode": "198:1993", "change": "Riformulato il passaggio su Dwiggins secondo la nota: nel 1922 utilizzò l’espressione graphic design per descrivere attività di organizzazione degli elementi visivi nella stampa.", "screenshot": "c02-p23.png" },
+    { "number": 6, "chapter": "C02", "folio": 24, "frameNode": "198:2017", "change": "Citazione corretta a We shape our tools and thereafter they shape us; attribuzione John M. Culkin; aggiunti richiamo 2 e nota Saturday Review, 18 marzo 1967, pp. 51–53, 70–72, citazione a p. 70, con hyperlink alla scansione.", "screenshot": "c02-p24.png" },
+    { "number": 7, "chapter": "C02", "folio": 25, "frameNode": "198:2052", "change": "Rimosso underscore finale da Le origini.", "screenshot": "c02-p25.png" },
+    { "number": 8, "chapter": "C02", "folio": 25, "frameNode": "198:2052", "change": "Rimosso underscore finale da I manoscritti miniati medievali.", "screenshot": "c02-p25.png" },
+    { "number": 9, "chapter": "C02", "folio": 29, "frameNode": "198:2097", "change": "Normalizzati tre ritorni manuali nel blocco di testo sull’Illuminismo; conservata la separazione dei paragrafi.", "screenshot": "c02-p29.png" },
+    { "number": 10, "chapter": "C02", "folio": 29, "frameNode": "198:2097", "change": "Nascosto il vecchio separatore duplicato della didascalia Gazzetta di Mantova; conservato il filetto corrente.", "screenshot": "c02-p29.png" },
+    { "number": 11, "chapter": "C02", "folio": 30, "frameNode": "198:2471", "change": "Nascosto il vecchio separatore che attraversava la didascalia Encyclopédie; conservato il filetto corrente e la sua spaziatura.", "screenshot": "c02-p30.png" }
+  ],
+  "createdNodeIds": ["2375:355", "2375:356", "2375:357", "2375:358", "2375:359", "2375:360", "2375:361", "2375:362", "2375:363", "2375:364", "2375:365", "2375:366", "2375:367", "2375:368", "2375:369", "2375:370"],
+  "mutatedExistingNodeIds": ["2104:249", "198:1765", "198:1908", "198:1710", "198:1755", "198:1889", "198:2005", "198:2034", "198:2035", "198:2036", "198:1993", "198:2017", "198:2071", "198:2067", "198:2109", "198:2111", "198:2483"],
+  "verification": {
+    "visualReview": "passed",
+    "affectedFolios": [3, 6, 12, 23, 24, 25, 29, 30],
+    "sourceLinksVerified": true,
+    "textAndFoliosDoNotOverlap": true,
+    "commentsResolved": 11,
+    "unresolvedCommentsVisibleAfterResolution": 0,
+    "commentResolutionMethod": "Figma desktop Comments panel; final empty panel verified"
+  }
+}

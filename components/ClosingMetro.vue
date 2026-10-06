@@ -2,9 +2,21 @@
 import { useId } from 'vue'
 import geometry from '../assets/metro-map/geometric-animation.json'
 
+defineProps<{ original?: boolean }>()
+
 const maskId = `closing-map-${useId()}`
 const backgrounds = geometry.lanes.filter(lane => lane.family === 'blue')
 const routes = geometry.lanes.filter(lane => lane.family !== 'blue')
+
+const routeTone: Record<string, string> = {
+  red: 'primary',
+  yellow: 'accent',
+  orange: 'light',
+  indigo: 'primary',
+  pink: 'accent',
+  teal: 'light',
+  violet: 'primary',
+}
 </script>
 
 <template>
@@ -16,14 +28,36 @@ const routes = geometry.lanes.filter(lane => lane.family !== 'blue')
           pathLength="1" fill="none" stroke="white" stroke-linecap="round" />
       </mask>
     </defs>
-    <rect width="1741" height="903" fill="white" />
+    <rect v-if="original" width="1741" height="903" fill="white" />
     <g class="closing-metro-details">
-      <path v-for="field in backgrounds" :key="field.id" :d="field.fillD" :fill="field.color" />
-      <rect x="340" y="215" width="405" height="370" rx="22" fill="#F5F3D7" />
+      <path v-for="field in backgrounds" :key="field.id" :class="{ 'closing-metro-field': !original }" :d="field.fillD" :fill="original ? field.color : undefined" />
+      <rect v-if="original" x="340" y="215" width="405" height="370" rx="22" fill="#F5F3D7" />
     </g>
-    <path v-for="route in routes" :key="route.id" :d="route.fillD" :fill="route.color" :mask="`url(#${maskId}-${route.id})`" />
-    <g fill="#F0B100">
+    <path v-for="route in routes" :key="route.id" class="closing-metro-route" :class="original ? undefined : `closing-metro-route--${routeTone[route.family]}`" :fill="original ? route.color : undefined" :d="route.fillD" :mask="`url(#${maskId}-${route.id})`" />
+    <g :class="{ 'closing-metro-stations': !original }" :fill="original ? '#F0B100' : undefined">
       <circle v-for="dot in geometry.dots" :key="dot.id" class="closing-metro-dot" :cx="dot.cx" :cy="dot.cy" r="3.5" :style="{ '--dot-delay': dot.delay }" />
     </g>
   </svg>
 </template>
+
+<style scoped>
+.closing-metro-field {
+  fill: color-mix(in srgb, var(--reference-primary, #4f46e5) 18%, transparent);
+}
+
+.closing-metro-route--primary {
+  fill: color-mix(in srgb, var(--reference-primary, #4f46e5) 78%, transparent);
+}
+
+.closing-metro-route--accent {
+  fill: color-mix(in srgb, var(--reference-accent, #84cc16) 74%, transparent);
+}
+
+.closing-metro-route--light {
+  fill: rgb(255 255 255 / 64%);
+}
+
+.closing-metro-stations {
+  fill: var(--reference-accent, #84cc16);
+}
+</style>

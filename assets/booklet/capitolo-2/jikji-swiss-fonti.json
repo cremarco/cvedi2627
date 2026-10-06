@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-05",
+  "scope": "Due immagini storiche supplementari autentiche per capitolo 2, senza modifiche a Figma.",
+  "items": [
+    {
+      "key": "jikji_1377",
+      "purpose": "Sostituire la cassa tipografica europea generica usata nella pagina sulle origini asiatiche della stampa.",
+      "title": "Jikji, secondo volume, 1377",
+      "sourcePage": "https://www.bnf.fr/en/jikji-treasure-world-printing",
+      "catalogueLink": "https://gallica.bnf.fr/ark:/12148/btv1b10527116j",
+      "imageUrl": "https://gallica.bnf.fr/iiif/ark:/12148/btv1b10527116j/f37/full/1200,/0/native.jpg",
+      "localPath": "/tmp/c2-history-assets/jikji-1377-iiif-f37.jpg",
+      "caption": "Pagine del Jikji, stampato con caratteri mobili metallici a Cheongju, Corea, nel 1377. BnF, département des Manuscrits, Coréen 109. Fonte: Gallica.",
+      "shortCaption": "Jikji, Corea, 1377. BnF, Manuscrits, Coréen 109 — Gallica.",
+      "draft": "La stampa a caratteri mobili metallici era già praticata in Corea prima di Gutenberg. Il Jikji, stampato nel 1377 nel tempio Heungdeok-sa di Cheongju, è il più antico libro oggi conosciuto realizzato con questo procedimento. Il secondo volume è conservato alla Bibliothèque nationale de France. Questo esempio amplia la storia della tipografia oltre l’Europa e distingue l’uso dei caratteri mobili dalle innovazioni che ne favorirono la diffusione europea.",
+      "verifiedFacts": [
+        "Data 1377, stampa nel tempio Heungdeok-sa di Cheongju, attuale Repubblica di Corea.",
+        "Più antico libro conosciuto stampato con caratteri mobili metallici; evitare 'primo libro stampato' assoluto.",
+        "Il documento BnF è il secondo volume, segnatura Coréen 109.",
+        "La riproduzione IIIF corrisponde alla vista digitale f37; non chiamarla folio 37 senza controllare la numerazione originale.",
+        "La foto mostra effettivamente una doppia pagina con testo in caratteri sinografici, non una cassa tipografica."
+      ],
+      "rights": "L’articolo BnF dichiara digitizzazioni consultabili e scaricabili gratuitamente. Ciò non equivale a una licenza CC generale. Conservare credito BnF/Gallica e riferimento alla segnatura.",
+      "visualVerified": true,
+      "authenticArtifact": true,
+      "articleImages": [
+        {
+          "url": "https://www.bnf.fr/sites/default/files/2023-03/btv1b10527116j_f37.jpg",
+          "note": "Riproduzione della stessa vista nel testo dell’articolo. Il dominio www.bnf.fr non risolveva con curl nel nostro ambiente; il servizio Gallica IIIF funziona."
+        },
+        {
+          "url": "https://www.bnf.fr/sites/default/files/2023-03/BNF_2023_151396.jpg",
+          "note": "Fotografia del volume aperto, prima immagine dell’articolo. Non scaricata né verificata visivamente."
+        }
+      ],
+      "size": [
+        1200,
+        928
+      ]
+    },
+    {
+      "key": "muller_brockmann_musica_viva_1957",
+      "purpose": "Affiancare alla sezione sullo stile svizzero un autentico manifesto, anziché affidare l’illustrazione soltanto alle pagine di Brodovitch.",
+      "title": "Josef Müller-Brockmann, Musica Viva, 1957",
+      "sourcePage": "https://www.moma.org/collection/works/4885",
+      "imageUrl": "https://www.moma.org/media/W1siZiIsIjIxMDE0NSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=65d8a5b671ce5e0e",
+      "localPath": "/tmp/c2-history-assets/muller-brockmann-musica-viva-1957.jpg",
+      "caption": "Josef Müller-Brockmann, Musica Viva, 1957. Fotolitografia. MoMA, dono dell’artista.",
+      "shortCaption": "Josef Müller-Brockmann, Musica Viva, 1957. MoMA.",
+      "draft": "Nel manifesto Musica Viva del 1957, Müller-Brockmann dispone le informazioni in colonne e usa caratteri senza grazie. La composizione lascia un ampio spazio libero tra il testo e le fasce diagonali, creando un rapporto netto tra informazione e forma. Il manifesto mostra che la griglia può sostenere il ritmo della pagina: gli allineamenti organizzano il programma, mentre la geometria dà al concerto un’identità riconoscibile.",
+      "verifiedFacts": [
+        "Autore Josef Müller-Brockmann, titolo Musica Viva, anno 1957.",
+        "Tecnica Photolithograph nella scheda MoMA; stampatore Bollman AG, Zürich.",
+        "Dimensioni originali 127,6 × 90,2 cm; MoMA object number 58.1960.",
+        "Il manifesto selezionato riporta la data 28 febbraio 1957, visibile nella riproduzione.",
+        "Lettura della griglia, dello spazio e del ritmo è analisi visiva editoriale, non una dichiarazione storica attribuita al museo.",
+        "Non confondere questo manifesto con la versione del 1958 a grandi cerchi."
+      ],
+      "rights": "La scheda MoMA rinvia ad Art Resource/Scala per licenze di riproduzione; nessuna licenza aperta dichiarata.",
+      "visualVerified": true,
+      "authenticArtifact": true,
+      "size": [
+        1420,
+        2000
+      ]
+    }
+  ]
+}

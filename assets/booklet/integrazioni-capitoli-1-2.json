@@ -1,0 +1,563 @@
+{
+  "date": "2026-10-05",
+  "scope": "Solo capitoli 1 e 2",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "figmaURL": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=2002-1740",
+  "editorialCriteria": "Integrazioni verificate per i capitoli1 e2, prosa concisa, grassetti selettivi, immagini pertinenti e didascalie. Capitolo2 esteso a54pagine; numerazione del libro aggiornata.",
+  "style": {
+    "body": "Merriweather Light 10, interlinea 15",
+    "bold": "Merriweather Bold 10",
+    "heading": "Geom Bold 16",
+    "colors": "Petrolio C1, magenta C2",
+    "nativeText": true
+  },
+  "sources": {
+    "oxo": {
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2025-2026/liso-roberta-933726.pdf",
+          "pages": [
+            5,
+            8
+          ]
+        },
+        {
+          "path": "lezioni/01-introduzione.md",
+          "slides": [
+            26,
+            38
+          ]
+        }
+      ],
+      "primary": [
+        "https://www.oxo.com/blog/behind-the-scenes/behind-design-oxos-iconic-good-grips-handles",
+        "https://inclusive.microsoft.design/"
+      ],
+      "note": "Le fonti locali motivano l’inclusione; i dettagli del caso sono confermati dal produttore."
+    },
+    "moodboard": {
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2023-2024/rinaldi-donato-maria-906127.pdf",
+          "pages": [
+            3,
+            12,
+            13,
+            14,
+            15,
+            16
+          ]
+        }
+      ],
+      "primary": [
+        "https://www.nngroup.com/articles/mood-boards/"
+      ]
+    },
+    "utility": {
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2025-2026/lo-faro-giacomo-870336.pdf",
+          "pages": [
+            3,
+            4
+          ]
+        },
+        {
+          "path": "lezioni/01-introduzione.md",
+          "slides": [
+            25,
+            26
+          ]
+        }
+      ],
+      "primary": [
+        "https://www.nngroup.com/articles/usability-101-introduction-to-usability/",
+        "https://www.iso.org/obp/ui/#iso:std:iso:9241:-11:ed-2:v1:en"
+      ],
+      "note": "Definizione ISO riformulata come misura contestuale; distinto il requisito funzionale dalla qualità dell’uso."
+    },
+    "manuzio": {
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2025-2026/lamonaca-francesca-925719.pdf",
+          "pages": [
+            4,
+            5
+          ]
+        },
+        {
+          "path": "materiali/approfondimenti/2025-2026/teston-sara-925568.pdf",
+          "pages": [
+            4,
+            5
+          ]
+        }
+      ],
+      "primary": [
+        "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/",
+        "https://www.cabinet.ox.ac.uk/node/4175"
+      ],
+      "note": "Il corsivo compare già in un breve inserto del 1500; il Virgilio del 1501 è l’esempio editoriale sviluppato. Oxford verificato dal collaboratore; riapertura root 502, Marciana conferma il corsivo e la serie di volumi in ottavo."
+    },
+    "morris": {
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2021-2022/poli-beatrice-876546.pdf",
+          "pages": [
+            6,
+            7,
+            8
+          ]
+        }
+      ],
+      "primary": [
+        "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction",
+        "https://www.vam.ac.uk/articles/william-morris-text"
+      ]
+    },
+    "tschichold": {
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2025-2026/zani-chiara-916740.pdf",
+          "pages": [
+            5
+          ]
+        },
+        {
+          "path": "materiali/approfondimenti/2025-2026/polandi-giulia-933652.pdf",
+          "pages": [
+            10
+          ]
+        }
+      ],
+      "primary": [
+        "https://www.moma.org/calendar/exhibitions/1013"
+      ],
+      "note": "Il collegamento storico con Tschichold e il 1928 è un ampliamento verificato con MoMA dei temi locali sul Modernismo."
+    },
+    "swiss": {
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2023-2024/dossi-gloria-899821.pdf",
+          "pages": [
+            5,
+            7,
+            8
+          ]
+        },
+        {
+          "path": "materiali/approfondimenti/2021-2022/poli-beatrice-876546.pdf",
+          "pages": [
+            13
+          ]
+        }
+      ],
+      "primary": [
+        "https://www.aboutswitzerland.eda.admin.ch/en/swiss-style-forever-the-story-of-a-graphic-design-tradition"
+      ],
+      "note": "Nessuna attribuzione dell’invenzione della griglia; evitata la data errata 1968 del volume Grid Systems."
+    }
+  },
+  "rewrittenParagraphs": [
+    {
+      "chapter": "C01",
+      "frame": "198:1980",
+      "page": 10,
+      "id": "198:1988",
+      "after": "La moodboard della pagina precedente raccoglie immagini, caratteri e colori per rendere visibile una direzione progettuale. Aiuta il gruppo di lavoro a condividere il tono del prodotto prima di definire l’interfaccia. I riferimenti vengono poi tradotti in scelte coerenti per schermate e componenti. La raccolta resta rivedibile: orienta il linguaggio visivo, ma non dimostra da sola che la soluzione risponda ai bisogni delle persone.\n\nLa forma comprende gli aspetti che i designer possono modellare: le qualità di ambienti, oggetti e messaggi, ma anche il carattere di storie e conversazioni. Il contesto include le condizioni fisiche, sociali, tecnologiche ed economiche in cui il progetto prende forma. Non è interamente controllabile e cambia nel tempo, ma tenerne conto permette di interpretare le esigenze delle persone e valutare le conseguenze delle scelte progettuali.\n\nIl coinvolgimento delle persone nello sviluppo e nella personalizzazione del design sposta l’attenzione dal singolo artefatto a strumenti e sistemi che consentono di costruire le proprie esperienze. Il designer progetta quindi anche i comportamenti che sostengono l’interazione con informazioni e tecnologie. La forma non è arbitraria: deve rispondere ai bisogni delle persone e alle situazioni in cui il prodotto viene usato.",
+      "extraBold": [
+        "moodboard",
+        "forma",
+        "contesto",
+        "coinvolgimento delle persone",
+        "comportamenti"
+      ],
+      "before": "La forma include gli aspetti che i designer possono modellare, come le qualità fisiche degli ambienti, degli oggetti e dei messaggi, così come il carattere delle storie e delle conversazioni. Il contesto comprende le condizioni fisiche, sociali, tecnologiche ed economiche dell’ambiente circostante. Sebbene non sia interamente controllabile, è possibile decidere quanto tenerne conto nelle scelte relative alla forma. Il contesto è un elemento in continua evoluzione, con forze interdipendenti che influenzano il modo in cui i designer affrontano le sfide contemporanee, i metodi utilizzati per comprenderle e la loro visione delle persone che beneficiano del loro lavoro, guidando così l’interpretazione della forma su strade di volta in volta differenti.\n\nUn maggiore coinvolgimento delle persone nello sviluppo e nella personalizzazione del design sposta il lavoro dei designer dalla progettazione di singoli artefatti o display informativi alla creazione di strumenti e sistemi che consentono agli utenti di creare le proprie esperienze. In questo nuovo panorama, il compito del designer non è più limitato a progettare l’aspetto dell’interazione, ma si estende alla progettazione dei comportamenti che supportano le motivazioni per cui le persone interagiscono con informazioni e tecnologie. In questo contesto, la forma non è arbitraria; essa sottende esperienze che soddisfano in modo specifico i bisogni degli utenti."
+    },
+    {
+      "chapter": "C01",
+      "frame": "198:1889",
+      "page": 12,
+      "id": "198:1908",
+      "after": "L’usabilità è collegata alla UX, ma non coincide con essa. La norma ISO 9241-11 la definisce come la misura in cui utenti specifici possono raggiungere obiettivi specifici con efficacia, efficienza e soddisfazione in un determinato contesto d’uso. L’utilità riguarda invece la presenza di funzioni che rispondono a un bisogno. Un’app può essere facile da usare, ma priva della funzione necessaria. Il progetto deve verificare entrambe: che cosa permette di fare e quanto sia semplice farlo. La UX comprende anche aspettative, percezioni ed emozioni prima, durante e dopo l’interazione.",
+      "extraBold": [
+        "usabilità",
+        "efficacia, efficienza e soddisfazione",
+        "utilità"
+      ],
+      "before": "L’usabilità è collegata alla UX, ma non coincide con essa. La norma ISO 9241-11 la definisce in relazione alla possibilità, per utenti specifici, di raggiungere obiettivi specifici con efficacia, efficienza e soddisfazione in un determinato contesto d’uso. L’efficacia riguarda il raggiungimento degli obiettivi; l’efficienza le risorse impiegate; la soddisfazione la risposta all’esperienza d’uso. La UX comprende anche aspettative, percezioni ed emozioni prima, durante e dopo l’interazione. Un prodotto visivamente attraente può dunque presentare problemi di usabilità, mentre un sistema efficiente può non soddisfare tutte le aspettative dell’utente."
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2456",
+      "page": 8,
+      "id": "198:2466",
+      "after": "Nei primi anni della stampa europea, molti caratteri riprendevano la scrittura gotico-textura degli amanuensi. Nel 1470 Nicolas Jenson incise a Venezia un carattere romano divenuto un riferimento per la tipografia.\n\nNel 1501, il Virgilio pubblicato da Aldo Manuzio unì il formato in ottavo al corsivo inciso da Francesco Griffo, ispirato alla scrittura umanistica. Formato e carattere favorirono la portabilità del libro. Manuzio contribuì anche a sistematizzare la punteggiatura: l’innovazione riguardava la stampa e il modo di leggere.",
+      "extraBold": [
+        "Nicolas Jenson",
+        "formato in ottavo",
+        "corsivo",
+        "portabilità"
+      ],
+      "before": "Nei primi anni della stampa come la conosciamo, il disegno dei caratteri si basava sulla scrittura gotico-textura, utilizzata dagli amanuensi tedeschi. Nel 1470 Nicolas Jenson incise a Venezia un carattere romano divenuto un riferimento per la tipografia. \n\nIl primo carattere corsivo, invece, risale al 1501, quando Francesco Griffo, su commissione di Aldo Manuzio, introdusse lo stile inclinato ispirato alla scrittura rinascimentale italiana. Manuzio promosse inoltre edizioni di piccolo formato e contribuì a sistematizzare la punteggiatura, consolidando la modernità dell’editoria."
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2140",
+      "page": 13,
+      "id": "198:2150",
+      "after": "La cromolitografia rese le immagini a colori più diffuse e accessibili. Scatole di latta, confezioni e biglietti da visita adottarono cromie vivaci e tipografie ornamentali. Si diffusero anche gli scrap: figurine stampate con uccelli, fiori e altri soggetti, raccolte soprattutto dai bambini.",
+      "extraBold": [
+        "cromolitografia"
+      ],
+      "before": "La cromolitografia contribuì a rendere le immagini a colori più diffuse e accessibili nelle case di un pubblico ampio. I designer elaborarono progetti per prodotti confezionati destinati al grande pubblico, presentati in scatole di latta decorate con immagini iconiche, cromie vivaci e tipografie ornamentali. Alla loro produzione si affiancavano biglietti da visita e i cosiddetti scrap: raccolte di figurine stampate raffiguranti uccelli, fiori e altri soggetti, molto amate dai bambini."
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2140",
+      "page": 13,
+      "id": "198:2151",
+      "after": "Riviste, giornali e libri raggiunsero un pubblico più ampio grazie anche alla composizione tipografica meccanizzata. La Linotype di Ottmar Mergenthaler, introdotta commercialmente nel 1886, accelerò la produzione delle pagine.",
+      "extraBold": [
+        "Linotype"
+      ],
+      "before": "Con il procedere del secolo, il design grafico si diffuse capillarmente attraverso riviste, giornali e libri. \nA rendere questi mezzi di comunicazione più accessibili contribuì in modo determinante l'automazione della composizione tipografica, resa possibile dalla macchina Linotype, introdotta commercialmente negli Stati Uniti nel 1886 da Ottmar Mergenthaler."
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2184",
+      "page": 17,
+      "id": "198:2195",
+      "after": "Art Déco e Streamline Moderne si svilupparono tra gli anni Venti e Quaranta nell’arte, nell’architettura e nel design. Nel progetto grafico, zigzag, raggiere solari e linee geometriche ricorrevano in caratteri, manifesti e packaging, evocando lo spirito della nuova era tecnologica.",
+      "extraBold": [
+        "Art Déco",
+        "Streamline Moderne"
+      ],
+      "before": "La geometria fu la disciplina di riferimento di molti designer per esprimere lo spirito moderno dell’era della macchina. Art Déco e Streamline Moderne sono termini che designano una tendenza stilistica dalla fisionomia sfumata, sviluppatasi tra gli anni Venti e Quaranta del Novecento nell'arte, nell'architettura e nel design, accomunata dall'uso di motivi decorativi e geometrici. Dai grattacieli ai mobili fino, nel campo del design grafico, al packaging cosmetico, ai manifesti e ai caratteri tipografici, forme a zigzag, raggiere solari e linee geometriche eleganti venivano impiegate per evocare lo spirito di una nuova era tecnologica."
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2256",
+      "page": 19,
+      "id": "198:2266",
+      "after": "Alexey Brodovitch, direttore artistico di «Harper’s Bazaar» dal 1934 al 1958, costruì un ritmo di lettura alternando layout articolati e ampi spazi bianchi, anche attraverso il lavoro di Richard Avedon.\n\nNel dopoguerra, Henry Wolf e Otto Storch integrarono concetto, testo, immagine e tipografia. Televisione e cinema aprirono nuovi spazi alla grafica animata.",
+      "extraBold": [
+        "Alexey Brodovitch",
+        "spazi bianchi",
+        "grafica animata"
+      ],
+      "before": "Nel mondo dell’editoria, Alexey Brodovitch, direttore artistico di «Harper's Bazaar» dal 1934 al 1958, rivoluzionò il design delle riviste elaborando un'esperienza visiva fluida per il lettore: alternava layout articolati a pagine essenziali e ampie campiture di bianco, imprimendo alla lettura un senso di movimento ritmico. La sua visione trovava ulteriore slancio nella collaborazione con fotografi come Richard Avedon. \n\nIl periodo postbellico fu definito un'età dell'oro per il design editoriale, con direttori artistici come Henry Wolf (Esquire, Harper's Bazaar) e Otto Storch (McCall's) capaci di fondere concetto, testo, immagine e tipografia in un tutto organico.\n\nCon l'affermarsi della televisione, il ruolo dei media a stampa e del design grafico cominciò a trasformarsi, aprendo nuovi spazi alla grafica animata nei titoli cinematografici e negli spot pubblicitari."
+    }
+  ],
+  "addedSections": [
+    {
+      "chapter": "C01",
+      "frame": "198:1755",
+      "page": 6,
+      "key": "oxo",
+      "title": "Il caso OXO",
+      "body": "Il pelapatate OXO Good Grips nacque dalle difficoltà di Betsey Farber, che aveva l’artrite. L’impugnatura ampia, morbida e antiscivolo fu studiata per facilitare la presa anche con le mani bagnate. Un bisogno specifico guidò così la forma, suggerendo una soluzione utile a più persone.",
+      "bold": [
+        "OXO Good Grips",
+        "impugnatura",
+        "bisogno specifico"
+      ]
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2140",
+      "page": 13,
+      "key": "morris",
+      "title": "Arts and Crafts",
+      "body": "Alla crescita dell’industria si affiancò il movimento Arts and Crafts, che difendeva la qualità dei materiali e del lavoro artigianale. William Morris fondò la Kelmscott Press nel 1891: caratteri, margini, carta e illustrazioni erano progettati come un insieme, collegando leggibilità e qualità dell’oggetto libro.",
+      "bold": [
+        "William Morris",
+        "Kelmscott Press",
+        "insieme"
+      ]
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2184",
+      "page": 17,
+      "key": "tschichold",
+      "title": "La Nuova Tipografia",
+      "body": "Negli anni Venti, la Nuova Tipografia valorizzò asimmetria, gerarchie e integrazione fra testo e immagini. Jan Tschichold ne sistematizzò i principi in Die neue Typographie (1928), diffondendo un linguaggio funzionale in manifesti, libri e materiali commerciali.",
+      "bold": [
+        "asimmetria",
+        "Jan Tschichold"
+      ]
+    },
+    {
+      "chapter": "C02",
+      "frame": "198:2256",
+      "page": 19,
+      "key": "swiss",
+      "title": "Lo stile svizzero",
+      "body": "Negli anni Cinquanta e Sessanta, lo stile tipografico svizzero privilegiò caratteri senza grazie, composizioni asimmetriche e griglie. Josef Müller-Brockmann ne fu un protagonista. La griglia organizzava testo e immagini secondo relazioni ripetibili, sostenendo la coerenza tra pagine, manifesti e sistemi informativi.",
+      "bold": [
+        "griglie",
+        "Josef Müller-Brockmann",
+        "coerenza"
+      ]
+    }
+  ],
+  "writes": {
+    "C01": {
+      "createdNodeIds": [
+        "2234:131",
+        "2234:132",
+        "2234:133",
+        "2234:134"
+      ],
+      "mutatedNodeIds": [
+        "198:1988",
+        "198:1908",
+        "2234:133",
+        "2234:134"
+      ],
+      "removedNodeIds": [],
+      "evidence": [
+        {
+          "id": "198:1988",
+          "height": 300,
+          "width": 363,
+          "fontFamily": [
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather"
+          ],
+          "match": true
+        },
+        {
+          "id": "198:1908",
+          "height": 135,
+          "width": 356,
+          "fontFamily": [
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather",
+            "Merriweather"
+          ],
+          "match": true
+        },
+        {
+          "key": "OXO",
+          "id": "2234:131",
+          "box": [
+            74,
+            408,
+            171,
+            159
+          ],
+          "bottom": 567,
+          "body": [
+            74,
+            432,
+            171,
+            135
+          ],
+          "fit": true
+        }
+      ]
+    },
+    "C02": {
+      "createdNodeIds": [
+        "2235:331",
+        "2235:332",
+        "2235:333",
+        "2235:334",
+        "2235:335",
+        "2235:336",
+        "2235:337",
+        "2235:338",
+        "2235:339",
+        "2235:340",
+        "2235:341",
+        "2235:342",
+        "2235:343",
+        "2235:344",
+        "2235:345"
+      ],
+      "mutatedNodeIds": [
+        "198:2466",
+        "198:2150",
+        "198:2151",
+        "198:2195",
+        "198:2266",
+        "2235:333",
+        "2235:334",
+        "2235:337",
+        "2235:338",
+        "198:2196",
+        "2235:344",
+        "2235:345"
+      ],
+      "removedNodeIds": [
+        "198:2197",
+        "198:2149",
+        "198:2194",
+        "198:2265"
+      ],
+      "evidence": [
+        {
+          "frame": "198:2456",
+          "key": "Manuzio",
+          "id": "198:2466",
+          "box": [
+            74,
+            294,
+            172,
+            270
+          ],
+          "fit": true
+        },
+        {
+          "frame": "198:2140",
+          "key": "Morris",
+          "id": "2235:331",
+          "box": [
+            60,
+            60,
+            363,
+            243
+          ],
+          "gapToArtNouveau": 38,
+          "fit": true
+        },
+        {
+          "frame": "198:2184",
+          "key": "Tschichold",
+          "id": "2235:335",
+          "box": [
+            60,
+            380,
+            363,
+            180
+          ],
+          "bottom": 560,
+          "fit": true,
+          "paragraphs": [
+            {
+              "id": "2235:338",
+              "height": 60
+            },
+            {
+              "id": "198:2195",
+              "height": 60
+            }
+          ]
+        },
+        {
+          "frame": "198:2256",
+          "key": "Stile svizzero",
+          "id": "2235:342",
+          "box": [
+            61,
+            121,
+            171,
+            393
+          ],
+          "bottom": 514,
+          "fit": true
+        },
+        {
+          "id": "198:2466",
+          "match": true
+        },
+        {
+          "id": "198:2150",
+          "match": true
+        },
+        {
+          "id": "198:2151",
+          "match": true
+        },
+        {
+          "id": "198:2195",
+          "match": true
+        },
+        {
+          "id": "198:2266",
+          "match": true
+        }
+      ],
+      "touched": [
+        {
+          "frame": "198:2456",
+          "textCount": 5,
+          "fontFamilies": [
+            "Merriweather",
+            "Geom"
+          ],
+          "nativeText": true
+        },
+        {
+          "frame": "198:2140",
+          "textCount": 11,
+          "fontFamilies": [
+            "Merriweather",
+            "Geom"
+          ],
+          "nativeText": true
+        },
+        {
+          "frame": "198:2184",
+          "textCount": 10,
+          "fontFamilies": [
+            "Merriweather",
+            "Geom"
+          ],
+          "nativeText": true
+        },
+        {
+          "frame": "198:2256",
+          "textCount": 8,
+          "fontFamilies": [
+            "Merriweather",
+            "Geom"
+          ],
+          "nativeText": true
+        }
+      ]
+    }
+  },
+  "visualQA": {
+    "passedFrames": [
+      "198:1755",
+      "198:1980",
+      "198:1889",
+      "198:2456",
+      "198:2140",
+      "198:2184",
+      "198:2256"
+    ],
+    "notes": "Testi naturali a corpo invariato, nessuna sovrapposizione, margini e didascalie preservati.",
+    "captionAdjustment": {
+      "textNode": "2150:1358",
+      "container": "2150:1357",
+      "rightMargin": 4,
+      "width": 167
+    }
+  },
+  "unreadableMaterial": [
+    "materiali/approfondimenti/2022-2023/materiali-collegati-2cfu/radavelli-marta-873872-un-viaggio-nel-graphic-design.pdf (puntatore Git LFS, contenuto non presente localmente)"
+  ],
+  "latestRevision": {
+    "date": "2026-10-05",
+    "report": "revisione-capitoli-1-2.json",
+    "chapter2Pages": 54,
+    "additionalChapter1Topic": "Interfaccia multimodale"
+  }
+}

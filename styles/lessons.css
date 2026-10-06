@@ -1,42 +1,49 @@
-/* Booklet chapter hues identify each lesson; complementary accents mark details. */
-.lesson-slide.introduction-section,
-.presentation-progress-rail.introduction-section {
-  --lesson-color: var(--cvedi-teal-700);
-  --lesson-color-deep: var(--cvedi-teal-800);
-  --lesson-accent: var(--cvedi-orange-700);
-  --lesson-accent-on-color: var(--cvedi-orange-200);
+/* Shared Tailwind palettes with separate ink and full-canvas roles. */
+.lesson-slide.brief-section {
+  --lesson-color: var(--cvedi-brief-base);
+  --lesson-canvas: var(--cvedi-brief-canvas);
+  --lesson-color-deep: var(--cvedi-brief-deep);
+  --lesson-accent: var(--cvedi-brief-accent);
+  --lesson-accent-on-color: var(--cvedi-brief-accent-light);
 }
-.lesson-slide.history-section,
-.presentation-progress-rail.history-section {
-  --lesson-color: var(--cvedi-pink-700);
-  --lesson-color-deep: var(--cvedi-pink-800);
-  --lesson-accent: var(--cvedi-teal-700);
-  --lesson-accent-on-color: var(--cvedi-teal-200);
+.lesson-slide.introduction-section {
+  --lesson-color: var(--cvedi-introduction-base);
+  --lesson-canvas: var(--cvedi-introduction-canvas);
+  --lesson-color-deep: var(--cvedi-introduction-deep);
+  --lesson-accent: var(--cvedi-introduction-accent);
+  --lesson-accent-on-color: var(--cvedi-introduction-accent-light);
 }
-/* Palettes ready for the remaining chapters listed in the course index. */
-.lesson-slide.design-thinking-section,
-.presentation-progress-rail.design-thinking-section {
-  --lesson-color: var(--cvedi-red-700);
-  --lesson-color-deep: var(--cvedi-red-800);
-  --lesson-accent: var(--cvedi-indigo-700);
-  --lesson-accent-on-color: var(--cvedi-indigo-200);
+.lesson-slide.history-section {
+  --lesson-color: var(--cvedi-history-base);
+  --lesson-canvas: var(--cvedi-history-canvas);
+  --lesson-color-deep: var(--cvedi-history-deep);
+  --lesson-accent: var(--cvedi-history-accent);
+  --lesson-accent-on-color: var(--cvedi-history-accent-light);
 }
-.lesson-slide.lean-ux-section,
-.presentation-progress-rail.lean-ux-section {
-  --lesson-color: var(--cvedi-orange-700);
-  --lesson-color-deep: var(--cvedi-orange-800);
-  --lesson-accent: var(--cvedi-teal-700);
-  --lesson-accent-on-color: var(--cvedi-teal-200);
+.lesson-slide.design-thinking-section {
+  --lesson-color: var(--cvedi-design-thinking-base);
+  --lesson-canvas: var(--cvedi-design-thinking-canvas);
+  --lesson-color-deep: var(--cvedi-design-thinking-deep);
+  --lesson-accent: var(--cvedi-design-thinking-accent);
+  --lesson-accent-on-color: var(--cvedi-design-thinking-accent-light);
 }
-.lesson-slide.conclusions-section,
-.presentation-progress-rail.conclusions-section {
-  --lesson-color: var(--cvedi-yellow-700);
-  --lesson-color-deep: var(--cvedi-yellow-800);
-  --lesson-accent: var(--cvedi-indigo-700);
-  --lesson-accent-on-color: var(--cvedi-indigo-200);
+.lesson-slide.lean-ux-section {
+  --lesson-color: var(--cvedi-lean-ux-base);
+  --lesson-canvas: var(--cvedi-lean-ux-canvas);
+  --lesson-color-deep: var(--cvedi-lean-ux-deep);
+  --lesson-accent: var(--cvedi-lean-ux-accent);
+  --lesson-accent-on-color: var(--cvedi-lean-ux-accent-light);
+}
+.lesson-slide.conclusions-section {
+  --lesson-color: var(--cvedi-conclusions-base);
+  --lesson-canvas: var(--cvedi-conclusions-canvas);
+  --lesson-color-deep: var(--cvedi-conclusions-deep);
+  --lesson-accent: var(--cvedi-conclusions-accent);
+  --lesson-accent-on-color: var(--cvedi-conclusions-accent-light);
 }
 .slidev-layout.lesson-slide {
   --slide-accent: var(--lesson-color);
+  --slide-canvas: var(--lesson-canvas);
   --slide-subtitle: var(--lesson-color-deep);
   --slide-detail-accent: var(--lesson-accent);
   --slide-stripe: var(--lesson-color);
@@ -52,7 +59,7 @@
 }
 .lesson-slide .slide-label { color: var(--lesson-color); }
 .lesson-slide.chapter-slide .slide-label { color: inherit; }
-.slidev-layout.lesson-slide.chapter-slide > p { color: var(--cvedi-paper); }
+.slidev-layout.lesson-slide.chapter-slide > p { color: var(--lesson-accent-on-color); }
 .slidev-layout.lesson-slide .chapter-metro-route {
   --metro-track-color: var(--lesson-color-deep);
 }
@@ -61,8 +68,6 @@
   background: var(--lesson-color);
   color: var(--cvedi-paper);
 }
-.presentation-progress-rail.lesson-progress { background: var(--cvedi-gray-50); }
-.lesson-progress .presentation-progress-fill { background: var(--lesson-accent); }
 
 /* Teaching layouts use the same fixed canvas and type roles as the course. */
 .lesson-columns {
@@ -93,6 +98,8 @@
   font: italic 300 var(--cvedi-type-label)/1.7 var(--cvedi-font-body);
   text-align: right;
 }
+.lesson-albers-figure { margin: 0; }
+.lesson-albers-figure > .lesson-caption { display: block; margin-top: 12px; }
 .lesson-statement {
   max-width: 1000px;
   margin: 0;

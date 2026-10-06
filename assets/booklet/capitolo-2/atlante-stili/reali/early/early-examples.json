@@ -1,0 +1,803 @@
+{
+  "date": "2026-10-06",
+  "scope": "C2 · Atlante stili · esempi reali, prime sei doppie pagine",
+  "captures": 24,
+  "styles": [
+    {
+      "style": "html",
+      "examples": [
+        {
+          "id": "html-cern",
+          "name": "CERN · The World Wide Web project",
+          "url": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+          "captureUrl": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+          "sourcePage": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+          "caption": "CERN · il primo sito Web, nella versione conservata online. Cattura attuale.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T23:02:51.703Z",
+          "kind": "historical-site-preserved-live",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/html-cern.png",
+          "width": 1100,
+          "height": 540,
+          "viewport": {
+            "width": 1100,
+            "height": 540
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Il contenuto HTML è originale conservato da CERN; la rasterizzazione è del browser attuale.",
+          "sha256": "a00576ed5890445dc1aef82312685e508f41fd0f99bb77d90a74bd90640fb8de",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "html-cern-mobile",
+          "name": "CERN · viewport stretto",
+          "url": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+          "captureUrl": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+          "sourcePage": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+          "caption": "CERN · lo stesso documento su viewport stretto; il testo rifluisce senza una ricostruzione.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T23:02:51.701Z",
+          "kind": "historical-site-preserved-live",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/html-cern-mobile.png",
+          "width": 480,
+          "height": 660,
+          "viewport": {
+            "width": 480,
+            "height": 660
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Seconda vista dello stesso caso CERN, acquisita a 480 px.",
+          "sha256": "ee8008ded9395f1a718e2637525ce78d7dd518c0e5a38634c269f0cc031cfaee",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "html-spacejam",
+          "name": "Warner Bros. · Space Jam, 1996",
+          "url": "https://www.spacejam.com/1996/",
+          "captureUrl": "https://www.spacejam.com/1996/",
+          "sourcePage": "https://www.spacejam.com/1996/",
+          "caption": "Warner Bros. · Space Jam, 1996. Sito originale mantenuto online.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:52:57.754Z",
+          "kind": "historical-site-preserved-live",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/html-spacejam.png",
+          "width": 1000,
+          "height": 900,
+          "viewport": {
+            "width": 1000,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Data 1996 attestata dal copyright sulla pagina ufficiale.",
+          "sha256": "9ff39abb411968ab876c5224d06a40dc86563be7cf526550d38822c2ed2b7178",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "html-berkshire",
+          "name": "Berkshire Hathaway · homepage",
+          "url": "https://www.berkshirehathaway.com/",
+          "captureUrl": "https://www.berkshirehathaway.com/",
+          "sourcePage": "https://www.berkshirehathaway.com/",
+          "caption": "Berkshire Hathaway · homepage attuale, con struttura HTML essenziale e link testuali.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:53:00.455Z",
+          "kind": "current-production-website",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/html-berkshire.png",
+          "width": 1440,
+          "height": 760,
+          "viewport": {
+            "width": 1440,
+            "height": 760
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Esempio attuale di linguaggio documentale; non viene attribuito al 1991.",
+          "sha256": "8fc87fa642372c0d688ee7ca3f794ee036d7bd4fc36f725c5ecda19e56ff6b2c",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        }
+      ]
+    },
+    {
+      "style": "web2",
+      "examples": [
+        {
+          "id": "web2-jquery-ui",
+          "name": "OpenJS · jQuery UI ThemeRoller",
+          "url": "https://jqueryui.com/themeroller/",
+          "captureUrl": "https://jqueryui.com/themeroller/",
+          "sourcePage": "https://jqueryui.com/themeroller/",
+          "caption": "OpenJS · jQuery UI ThemeRoller. Demo eseguibile di temi e controlli.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:53:01.700Z",
+          "kind": "implemented-ui-library-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/web2-jquery-ui.png",
+          "width": 1440,
+          "height": 1000,
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Il sito conserva sfumature, bordi e controlli; non è la schermata di un servizio commerciale del 2005.",
+          "sha256": "019fa675f8c54ec14c7dbe9cdf9b263f430d8c94af73764f266d2f58f5658b16",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "web2-jquery-mobile",
+          "name": "OpenJS · jQuery Mobile Classic",
+          "url": "https://demos.jquerymobile.com/1.4.5/theme-classic/",
+          "captureUrl": "https://demos.jquerymobile.com/1.4.5/theme-classic/",
+          "sourcePage": "https://demos.jquerymobile.com/1.4.5/theme-classic/",
+          "caption": "OpenJS · jQuery Mobile Classic: sfumature, rilievi e liste. Demo eseguibile del tema storico.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:57:47.668Z",
+          "kind": "implemented-historical-theme-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/web2-jquery-mobile.png",
+          "width": 480,
+          "height": 900,
+          "viewport": {
+            "width": 480,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "La documentazione dichiara che la demo imita il vecchio tema predefinito; qui si mostra la sezione dei controlli.",
+          "sha256": "b439bb5820d500281a979d2b10fd8ac8319eba9555d66a203fda7e94387c45f8",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "web2-wordpress",
+          "name": "WordPress · Default / Kubrick",
+          "url": "https://wordpress.org/themes/default/",
+          "captureUrl": "https://wp-themes.com/default/",
+          "sourcePage": "https://wp-themes.com/default/",
+          "caption": "WordPress · Default/Kubrick, tema della serie 1.5–2.9. Demo operativa su wp-themes.com.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:57:49.501Z",
+          "kind": "implemented-historical-theme-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/web2-wordpress.png",
+          "width": 1100,
+          "height": 900,
+          "viewport": {
+            "width": 1100,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "La fonte primaria WordPress.org documenta nome e impiego nelle versioni 1.5–2.9. Capture URL https://wp-themes.com/default/.",
+          "sha256": "9915bb524d7fbab56245a3ba037072d7c5de8e6ed4df89afc2fee719f9b2cc78",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "web2-jquery-mobile-132",
+          "name": "OpenJS · jQuery Mobile 1.3.2",
+          "url": "https://demos.jquerymobile.com/1.3.2/",
+          "captureUrl": "https://demos.jquerymobile.com/1.3.2/",
+          "sourcePage": "https://demos.jquerymobile.com/1.3.2/",
+          "caption": "OpenJS · jQuery Mobile 1.3.2, archivio ufficiale delle demo. Seconda vista del caso jQuery Mobile.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:55:51.098Z",
+          "kind": "official-versioned-demo-archive",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/web2-jquery-mobile-132.png",
+          "width": 480,
+          "height": 900,
+          "viewport": {
+            "width": 480,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Libreria concretamente implementata, archivio consultato oggi; versione esplicita, senza inventare la data della cattura.",
+          "sha256": "fb7044c5dce249c25772ecc1e0b2df6fa7775732a9b1c10794147f388d414045",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        }
+      ]
+    },
+    {
+      "style": "scheu",
+      "examples": [
+        {
+          "id": "scheu-webamp",
+          "name": "Jordan Eldredge · Webamp",
+          "url": "https://webamp.org/",
+          "captureUrl": "https://webamp.org/",
+          "sourcePage": "https://webamp.org/",
+          "caption": "Webamp · reimplementazione funzionante di Winamp 2 nel browser; controlli del lettore ed equalizzatore.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:59:57.370Z",
+          "kind": "implemented-browser-app",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/scheu-webamp.png",
+          "width": 560,
+          "height": 936,
+          "viewport": {
+            "width": 900,
+            "height": 740
+          },
+          "deviceScaleFactor": 2,
+          "crop": {
+            "x": 86,
+            "y": 136,
+            "width": 280,
+            "height": 468
+          },
+          "authenticityNote": "Il repository ufficiale https://github.com/captbaritone/webamp documenta la reimplementazione. Milkdrop è stato chiuso con il controllo previsto.",
+          "sha256": "f40fff9fb8deae0f62870411d92de2743bef3bf70b5eda9d36a85b67e3ca87dd",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "scheu-garageband",
+          "name": "Apple · GarageBand, amplificatori e pedali",
+          "url": "https://www.apple.com/mac/garageband/",
+          "captureUrl": "https://www.apple.com/v/mac/garageband/n/images/garageband/make_music_plug_it_in__c66ilq62szee_large.png",
+          "sourcePage": "https://www.apple.com/mac/garageband/",
+          "caption": "Apple · GarageBand per Mac. Amplificatori e pedali virtuali, schermata prodotto ufficiale.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:56:27.064Z",
+          "kind": "official-product-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/scheu-garageband.png",
+          "width": 1004,
+          "height": 586,
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "deviceScaleFactor": 1,
+          "crop": {
+            "x": 218,
+            "y": 207,
+            "width": 1004,
+            "height": 586
+          },
+          "authenticityNote": "Immagine originale sul sito del produttore, senza ridisegno o generazione. L’esempio è un’applicazione, non una pagina web del prodotto.",
+          "sha256": "3c32e6b98f28b554246cdae327b8f538bd1b496b694656eb814357906b713b91",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "scheu-reason",
+          "name": "Reason Studios · rack virtuale",
+          "url": "https://www.reasonstudios.com/",
+          "captureUrl": "https://cdn.prod.website-files.com/69c69501dc43e0c4ece0791d/6a04d67d36f1e9a3886c2d38_rack2.webp",
+          "sourcePage": "https://www.reasonstudios.com/",
+          "caption": "Reason Studios · rack virtuale. Manopole, pannelli e dispositivi nella schermata prodotto ufficiale.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:59:57.153Z",
+          "kind": "official-product-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/scheu-reason.png",
+          "width": 1320,
+          "height": 976,
+          "viewport": {
+            "width": 1400,
+            "height": 1600
+          },
+          "deviceScaleFactor": 1,
+          "crop": {
+            "x": 40,
+            "y": 312,
+            "width": 1320,
+            "height": 976
+          },
+          "authenticityNote": "Immagine originale ufficiale del rack, non rendering creato per il booklet. Esempio di applicazione musicale.",
+          "sha256": "1033f072451dfed0835d231db058a0f8ff803c000cf06fa9b0b247a5f7591f13",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "scheu-garageband-guitar",
+          "name": "Apple · GarageBand Smart Guitar",
+          "url": "https://www.apple.com/ios/garageband/",
+          "captureUrl": "https://www.apple.com/v/ios/garageband/i/images/overview/smart_guitar__c535q7nhgv2a_large.png",
+          "sourcePage": "https://www.apple.com/ios/garageband/",
+          "caption": "Apple · GarageBand per iOS. Smart Guitar, schermata prodotto ufficiale: corde e materiali simulati.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:56:27.022Z",
+          "kind": "official-product-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/scheu-garageband-guitar.png",
+          "width": 728,
+          "height": 360,
+          "viewport": {
+            "width": 1200,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": {
+            "x": 236.5,
+            "y": 270,
+            "width": 727,
+            "height": 360
+          },
+          "authenticityNote": "Seconda schermata del caso GarageBand; l’immagine originale pubblicata da Apple incorpora la cornice del telefono.",
+          "sha256": "0b2b8ab27156588f4d320db655beccb3ed3d70421c28b83e2a3fa574552b7f0a",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        }
+      ]
+    },
+    {
+      "style": "flat",
+      "examples": [
+        {
+          "id": "flat-designmodo",
+          "name": "Designmodo · Flat UI",
+          "url": "https://designmodo.github.io/Flat-UI/",
+          "captureUrl": "https://designmodo.github.io/Flat-UI/",
+          "sourcePage": "https://designmodo.github.io/Flat-UI/",
+          "caption": "Designmodo · Flat UI. Componenti eseguibili: campiture piene e pulsanti senza sfumature.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:53:09.493Z",
+          "kind": "implemented-ui-library-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/flat-designmodo.png",
+          "width": 1200,
+          "height": 900,
+          "viewport": {
+            "width": 1200,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "La documentazione primaria dichiara esplicitamente assenza di gradienti e ombre.",
+          "sha256": "ea5985e87f749a9ab32910cc5a069b08ce0d5aabf8aff5cd2a5c547ee3f6337b",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "flat-designmodo-mobile",
+          "name": "Designmodo · Flat UI, modulo di accesso",
+          "url": "https://designmodo.github.io/Flat-UI/",
+          "captureUrl": "https://designmodo.github.io/Flat-UI/",
+          "sourcePage": "https://designmodo.github.io/Flat-UI/",
+          "caption": "Designmodo · Flat UI. Modulo di accesso implementato: seconda vista della stessa libreria.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T23:02:52.126Z",
+          "kind": "implemented-ui-library-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/flat-designmodo-mobile.png",
+          "width": 718,
+          "height": 502,
+          "viewport": {
+            "width": 1200,
+            "height": 900
+          },
+          "deviceScaleFactor": 2,
+          "crop": {
+            "x": 474,
+            "y": 6154.578125,
+            "width": 359,
+            "height": 250.375
+          },
+          "authenticityNote": "Regione .login-form della demo ufficiale, catturata integra a DPR 2. Il suffisso mobile dell’ID è solo ereditato dalla prima acquisizione scartata; questa è una vista del modulo su viewport desktop.",
+          "sha256": "ff38cd00344cea7c50d94aa8e7fe157b983d4bb0bc8d4da2c9eab13bb95e03ef",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "flat-metro",
+          "name": "Serhii Pimenov · Metro UI Tiles",
+          "url": "https://v4.metroui.org.ua/tiles.html",
+          "captureUrl": "https://v4.metroui.org.ua/tiles.html",
+          "sourcePage": "https://v4.metroui.org.ua/tiles.html",
+          "caption": "Serhii Pimenov · Metro UI Tiles. Demo eseguibile di tessere ispirate a Windows 8/10.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:55:44.161Z",
+          "kind": "implemented-ui-library-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/flat-metro.png",
+          "width": 320,
+          "height": 471,
+          "viewport": {
+            "width": 1100,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": {
+            "x": 44,
+            "y": 7799.375,
+            "width": 320,
+            "height": 470
+          },
+          "authenticityNote": "Ritaglio della demo ufficiale .tiles-grid.tiles-group, con pixel originali del browser; non una ricostruzione di Windows.",
+          "sha256": "81ffb3464e1958f3ae27f52d66b2a5417aea045f1761aca5a3c4d33a8da69b5d",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "flat-govuk",
+          "name": "Government Digital Service · GOV.UK",
+          "url": "https://www.gov.uk/",
+          "captureUrl": "https://www.gov.uk/",
+          "sourcePage": "https://www.gov.uk/",
+          "caption": "Government Digital Service · GOV.UK. Campiture, tipografia e link nella homepage attuale.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:55:43.035Z",
+          "kind": "current-production-website",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/flat-govuk.png",
+          "width": 1440,
+          "height": 760,
+          "viewport": {
+            "width": 1440,
+            "height": 760
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Attribuzione GDS confermata dalla pagina ufficiale dell’organizzazione. Banner cookie rifiutato e messaggio chiuso tramite UI.",
+          "sha256": "6c1a61b0c9a33bb7de2e20e2c17a7f1b1ca934126eb370ad52f0e8e1f8151888",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        }
+      ]
+    },
+    {
+      "style": "material",
+      "examples": [
+        {
+          "id": "material-google",
+          "name": "Google · Material Design 3",
+          "url": "https://m3.material.io/",
+          "captureUrl": "https://m3.material.io/",
+          "sourcePage": "https://m3.material.io/",
+          "caption": "Google · Material Design 3. Sito ufficiale del sistema, cattura desktop.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:55:39.946Z",
+          "kind": "current-official-design-system-website",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/material-google.png",
+          "width": 1440,
+          "height": 840,
+          "viewport": {
+            "width": 1440,
+            "height": 840
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Il sito stesso usa Material Design. Il collage di interfacce è contenuto del sito; si cita il sito, non si spaccia ogni schermata per un servizio in produzione.",
+          "sha256": "afc9b33fc2b12d89045f9ce377462da800e9516678f08ebcf5f6b485dcefd6b0",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "material-google-mobile",
+          "name": "Google · Material Design 3 mobile",
+          "url": "https://m3.material.io/",
+          "captureUrl": "https://m3.material.io/",
+          "sourcePage": "https://m3.material.io/",
+          "caption": "Google · Material Design 3, versione mobile dello stesso sito ufficiale.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:55:39.722Z",
+          "kind": "current-official-design-system-website",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/material-google-mobile.png",
+          "width": 480,
+          "height": 900,
+          "viewport": {
+            "width": 480,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Seconda vista dello stesso sito Google, acquisita a 480 px. Avviso cookie chiuso tramite UI.",
+          "sha256": "3bb10bb6f96a1dd15915e1808f21c6eec2f43fe598c6f92b2e089779109934ba",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "material-materialize",
+          "name": "Materialize · homepage",
+          "url": "https://materializecss.com/",
+          "captureUrl": "https://materializecss.com/",
+          "sourcePage": "https://materializecss.com/",
+          "caption": "Materialize · sito della libreria web basata sui principi di Material Design.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:53:17.487Z",
+          "kind": "implemented-ui-library-website",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/material-materialize.png",
+          "width": 1200,
+          "height": 900,
+          "viewport": {
+            "width": 1200,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "La fonte primaria descrive esplicitamente il legame con Material Design e l’implementazione HTML/CSS/JS.",
+          "sha256": "be0e0ce5fd66bfff381305d1ac4cf2f510dc4aa9df5546a77e82fa9b6ef1daff",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "material-dashboard",
+          "name": "Creative Tim · Material Dashboard 3",
+          "url": "https://demos.creative-tim.com/material-dashboard-free/pages/dashboard",
+          "captureUrl": "https://demos.creative-tim.com/material-dashboard-free/pages/dashboard",
+          "sourcePage": "https://demos.creative-tim.com/material-dashboard-free/pages/dashboard",
+          "caption": "Creative Tim · Material Dashboard 3. Dashboard dimostrativa implementata, ispirata a Material Design 2.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:57:55.025Z",
+          "kind": "implemented-dashboard-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/material-dashboard.png",
+          "width": 1440,
+          "height": 686,
+          "viewport": {
+            "width": 1440,
+            "height": 760
+          },
+          "deviceScaleFactor": 1,
+          "crop": {
+            "x": 0,
+            "y": 74,
+            "width": 1440,
+            "height": 686
+          },
+          "authenticityNote": "Il sito del produttore https://www.creative-tim.com/product/material-dashboard conferma componenti interamente codificati e ispirazione Material Design 2. Catturata area dell’app sotto il banner promozionale.",
+          "sha256": "9141543f38644d39345958fc47c9fa99cc0461a1735efb258d1f400e6f6df69a",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        }
+      ]
+    },
+    {
+      "style": "neumo",
+      "examples": [
+        {
+          "id": "neumo-generator",
+          "name": "Adam Giebl · Neumorphism.io",
+          "url": "https://neumorphism.io/",
+          "captureUrl": "https://neumorphism.io/#e0e0e0",
+          "sourcePage": "https://neumorphism.io/#e0e0e0",
+          "caption": "Adam Giebl · Neumorphism.io. Generatore CSS funzionante con rilievo e doppia ombra.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:53:21.994Z",
+          "kind": "current-production-web-tool",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/neumo-generator.png",
+          "width": 1200,
+          "height": 900,
+          "viewport": {
+            "width": 1200,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Generatore reale, non una schermata concettuale; valori e anteprima prodotti dalla normale applicazione.",
+          "sha256": "07098e7a795468a16589c07def837b4e75838cf113b0ced910ca45c3ebfdfa14",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "neumo-generator-mobile",
+          "name": "Adam Giebl · Neumorphism.io mobile",
+          "url": "https://neumorphism.io/",
+          "captureUrl": "https://neumorphism.io/#e0e0e0",
+          "sourcePage": "https://neumorphism.io/#e0e0e0",
+          "caption": "Neumorphism.io · generatore su viewport stretto. Seconda vista dello stesso strumento reale.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:53:23.544Z",
+          "kind": "current-production-web-tool",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/neumo-generator-mobile.png",
+          "width": 480,
+          "height": 900,
+          "viewport": {
+            "width": 480,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Seconda vista dello stesso caso Neumorphism.io, acquisita a 480 px.",
+          "sha256": "3ecb96ab714291fdd638d20a60732b89cfccdbc922ca716b3055838af03f023a",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "neumo-themesberg",
+          "name": "Themesberg · Neumorphism UI About",
+          "url": "https://demo.themesberg.com/neumorphism-ui/html/pages/about.html",
+          "captureUrl": "https://demo.themesberg.com/neumorphism-ui/html/pages/about.html",
+          "sourcePage": "https://demo.themesberg.com/neumorphism-ui/html/pages/about.html",
+          "caption": "Themesberg · Neumorphism UI, pagina About della demo eseguibile: superfici e controlli a rilievo.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:57:52.123Z",
+          "kind": "implemented-ui-library-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/neumo-themesberg.png",
+          "width": 1200,
+          "height": 760,
+          "viewport": {
+            "width": 1200,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": {
+            "x": 0,
+            "y": 0,
+            "width": 1200,
+            "height": 760
+          },
+          "authenticityNote": "Il produttore documenta codice HTML/CSS/JS disponibile e pagine implementate. Non è l’interfaccia di una società immaginata da ImageGen.",
+          "sha256": "c677d4e24e0fed06e8e435f9ba78415939805941d2baa3813396a1b2d8f7dc4f",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        },
+        {
+          "id": "neumo-ui-react",
+          "name": "AKAspanion · UI Neumorphism",
+          "url": "https://akaspanion.github.io/ui-neumorphism/",
+          "captureUrl": "https://akaspanion.github.io/ui-neumorphism/",
+          "sourcePage": "https://akaspanion.github.io/ui-neumorphism/",
+          "caption": "AKAspanion · UI Neumorphism. Demo React eseguibile, con controlli e pannelli a doppia ombra.",
+          "date": "2026-10-06",
+          "capturedAt": "2026-10-05T22:57:48.900Z",
+          "kind": "implemented-ui-library-demo",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/neumo-ui-react.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "deviceScaleFactor": 1,
+          "crop": null,
+          "authenticityNote": "Il repository primario https://github.com/AKAspanion/ui-neumorphism documenta la libreria e collega la demo. I dati fitness sono contenuti dimostrativi, non un’app commerciale.",
+          "sha256": "2d6f490491e96289fed7f3b754c050fd74ab709f87f3cac88642d8dfc9161ea8",
+          "qa": {
+            "httpStatus": 200,
+            "visualInspection": "passed",
+            "noAI": true,
+            "noPixelReconstruction": true,
+            "overlays": "none in selected capture area"
+          }
+        }
+      ]
+    }
+  ],
+  "editorialNotes": [
+    "Gli esempi sono screenshot autentici di siti, strumenti o applicazioni; nessuna immagine generata entra nella galleria dei casi reali.",
+    "Per i kit e le librerie si usa la dicitura demo implementata; non si dichiara che il contenuto dimostrativo sia un servizio commerciale in produzione.",
+    "CERN e Space Jam sono siti storici conservati. La data di cattura attuale è distinta dall’epoca del progetto.",
+    "GarageBand e Reason sono esempi di applicazioni, identificati come tali e ricavati dalle schermate prodotto originali dei rispettivi produttori.",
+    "Le viste duplicate sono dichiarate nelle didascalie. Ogni stile documenta tre casi/progetti distinti; jQuery Mobile Classic e 1.3.2 sono due viste del medesimo caso, affiancato a jQuery UI e WordPress.",
+    "Diritti delle interfacce, marchi e immagini restano ai rispettivi titolari; non si attribuisce indiscriminatamente la licenza MIT delle librerie alle fotografie o ai marchi."
+  ],
+  "excluded": [
+    {
+      "id": "web2-jquery-classic-desktop",
+      "reason": "403/404, interfaccia in errore, esempio divenuto troppo generico, o vista ridondante non selezionata",
+      "archivePath": "/private/tmp/early-capture-scarts/web2-jquery-classic-desktop.png"
+    },
+    {
+      "id": "web2-phpbb",
+      "reason": "403/404, interfaccia in errore, esempio divenuto troppo generico, o vista ridondante non selezionata",
+      "archivePath": "/private/tmp/early-capture-scarts/web2-phpbb.png"
+    },
+    {
+      "id": "neumo-soft-dashboard",
+      "reason": "403/404, interfaccia in errore, esempio divenuto troppo generico, o vista ridondante non selezionata",
+      "archivePath": "/private/tmp/early-capture-scarts/neumo-soft-dashboard.png"
+    },
+    {
+      "id": "web2-sencha",
+      "reason": "403/404, interfaccia in errore, esempio divenuto troppo generico, o vista ridondante non selezionata",
+      "archivePath": "/private/tmp/early-capture-scarts/web2-sencha.png"
+    }
+  ]
+}

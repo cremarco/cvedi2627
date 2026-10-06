@@ -1,0 +1,2001 @@
+{
+  "date": "2026-10-05",
+  "scope": "Contenuti dei soli capitoli 1 e 2; aggiornata la numerazione successiva per le sedici pagine aggiunte al capitolo 2.",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "figmaURL": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=2008-1740",
+  "chapter1": {
+    "page": "2002:1740",
+    "newIntegration": "Interfaccia multimodale",
+    "textNode": "198:1900",
+    "layout": "2261:131",
+    "relatedRevisedNode": "198:1904",
+    "sourceEvidence": "Mickel e Sanguedolce; lezione 1; W3C Multimodal Interaction Requirements e documentazione Google Home."
+  },
+  "chapter2": {
+    "page": "2008:1740",
+    "wrapper": "204:8292",
+    "originalPageCount": 38,
+    "finalPageCount": 54,
+    "addedPages": 16,
+    "folios": [
+      21,
+      74
+    ],
+    "readingOrder": [
+      {
+        "id": "198:2006",
+        "name": "C02 · 001 · SX — Storia del design",
+        "x": 48,
+        "y": 96,
+        "parent": "2186:1905",
+        "textCount": 2,
+        "imageCount": 0,
+        "key": "old-1",
+        "oldIndex": 1,
+        "title": "Storia del design",
+        "ordinal": 1,
+        "folio": 21,
+        "side": "SX",
+        "section": "intro"
+      },
+      {
+        "id": "198:2037",
+        "name": "C02 · 002 · DX — Storia del design",
+        "x": 544.06298828125,
+        "y": 96,
+        "parent": "2186:1905",
+        "textCount": 2,
+        "imageCount": 0,
+        "key": "old-2",
+        "oldIndex": 2,
+        "title": "Storia del design",
+        "ordinal": 2,
+        "folio": 22,
+        "side": "DX",
+        "section": "intro"
+      },
+      {
+        "id": "198:1993",
+        "name": "C02 · 003 · SX — Storia del graphic design: correnti e movimenti",
+        "x": 1104.1259765625,
+        "y": 96,
+        "parent": "2186:1905",
+        "textCount": 3,
+        "imageCount": 0,
+        "key": "old-3",
+        "oldIndex": 3,
+        "title": "Storia del graphic design: correnti e movimenti",
+        "ordinal": 3,
+        "folio": 23,
+        "side": "SX",
+        "section": "intro"
+      },
+      {
+        "id": "198:2017",
+        "name": "C02 · 004 · DX — Storia del graphic design: correnti e movimenti",
+        "x": 1600.18896484375,
+        "y": 96,
+        "parent": "2186:1905",
+        "textCount": 7,
+        "imageCount": 0,
+        "key": "old-4",
+        "oldIndex": 4,
+        "title": "Storia del graphic design: correnti e movimenti",
+        "ordinal": 4,
+        "folio": 24,
+        "side": "DX",
+        "section": "intro"
+      },
+      {
+        "id": "198:2052",
+        "name": "C02 · 005 · SX — I manoscritti miniati medievali",
+        "x": 48,
+        "y": 96,
+        "parent": "2186:1906",
+        "textCount": 9,
+        "imageCount": 1,
+        "key": "old-5",
+        "oldIndex": 5,
+        "title": "I manoscritti miniati medievali",
+        "ordinal": 5,
+        "folio": 25,
+        "side": "SX",
+        "section": "origins"
+      },
+      {
+        "id": "198:2437",
+        "name": "C02 · 006 · DX — La miniatura islamica e persiana",
+        "x": 544.06298828125,
+        "y": 96,
+        "parent": "2186:1906",
+        "textCount": 5,
+        "imageCount": 1,
+        "key": "old-6",
+        "oldIndex": 6,
+        "title": "La miniatura islamica e persiana",
+        "ordinal": 6,
+        "folio": 26,
+        "side": "DX",
+        "section": "origins"
+      },
+      {
+        "id": "198:2077",
+        "name": "C02 · 007 · SX — Cina, le radici della stampa",
+        "x": 1104.1259765625,
+        "y": 96,
+        "parent": "2186:1906",
+        "textCount": 8,
+        "imageCount": 1,
+        "key": "old-7",
+        "oldIndex": 7,
+        "title": "Cina, le radici della stampa",
+        "ordinal": 7,
+        "folio": 27,
+        "side": "SX",
+        "section": "origins"
+      },
+      {
+        "id": "198:2456",
+        "name": "C02 · 008 · DX — Il Rinascimento e l'invenzione di Gutenberg",
+        "x": 1600.18896484375,
+        "y": 96,
+        "parent": "2186:1906",
+        "textCount": 5,
+        "imageCount": 1,
+        "key": "old-8",
+        "oldIndex": 8,
+        "title": "Il Rinascimento e l'invenzione di Gutenberg",
+        "ordinal": 8,
+        "folio": 28,
+        "side": "DX",
+        "section": "origins"
+      },
+      {
+        "id": "198:2097",
+        "name": "C02 · 009 · SX — Illuminismo, tipografia e nuovi caratteri",
+        "x": 2160.251953125,
+        "y": 96,
+        "parent": "2186:1906",
+        "textCount": 8,
+        "imageCount": 1,
+        "key": "old-9",
+        "oldIndex": 9,
+        "title": "Illuminismo, tipografia e nuovi caratteri",
+        "ordinal": 9,
+        "folio": 29,
+        "side": "SX",
+        "section": "origins"
+      },
+      {
+        "id": "198:2471",
+        "name": "C02 · 010 · DX — Illuminismo, tipografia e nuovi caratteri",
+        "x": 2656.31494140625,
+        "y": 96,
+        "parent": "2186:1906",
+        "textCount": 3,
+        "imageCount": 1,
+        "key": "old-10",
+        "oldIndex": 10,
+        "title": "Illuminismo, tipografia e nuovi caratteri",
+        "ordinal": 10,
+        "folio": 30,
+        "side": "DX",
+        "section": "origins"
+      },
+      {
+        "id": "198:2120",
+        "name": "C02 · 011 · SX — L'era moderna: il manifesto e la litografia",
+        "x": 48,
+        "y": 96,
+        "parent": "2186:1907",
+        "textCount": 8,
+        "imageCount": 0,
+        "key": "old-11",
+        "oldIndex": 11,
+        "title": "Industria, pubblicità e nuovi linguaggi",
+        "ordinal": 11,
+        "folio": 31,
+        "side": "SX",
+        "section": "industry"
+      },
+      {
+        "id": "198:2487",
+        "name": "C02 · 012 · DX — Manifesti e cromolitografia",
+        "x": 544.06298828125,
+        "y": 96,
+        "parent": "2186:1907",
+        "textCount": 4,
+        "imageCount": 1,
+        "key": "old-12",
+        "oldIndex": 12,
+        "title": "Manifesti e cromolitografia",
+        "ordinal": 12,
+        "folio": 32,
+        "side": "DX",
+        "section": "industry"
+      },
+      {
+        "id": "198:2140",
+        "name": "C02 · 013 · SX — L'Art Nouveau",
+        "x": 1104.1259765625,
+        "y": 96,
+        "parent": "2186:1907",
+        "textCount": 11,
+        "imageCount": 0,
+        "key": "old-13",
+        "oldIndex": 13,
+        "title": "L'Art Nouveau",
+        "ordinal": 13,
+        "folio": 33,
+        "side": "SX",
+        "section": "industry"
+      },
+      {
+        "id": "198:2501",
+        "name": "C02 · 014 · DX — L'Art Nouveau",
+        "x": 1600.18896484375,
+        "y": 96,
+        "parent": "2186:1907",
+        "textCount": 4,
+        "imageCount": 1,
+        "key": "old-14",
+        "oldIndex": 14,
+        "title": "L'Art Nouveau",
+        "ordinal": 14,
+        "folio": 34,
+        "side": "DX",
+        "section": "industry"
+      },
+      {
+        "key": "behrens_aeg",
+        "id": "2257:229",
+        "title": "Un’identità per l’industria",
+        "ordinal": 15,
+        "folio": 35,
+        "side": "SX",
+        "section": "industry"
+      },
+      {
+        "id": "198:2162",
+        "name": "C02 · 015 · SX — La grafica politica e la Prima Guerra Mondiale",
+        "x": 2160.251953125,
+        "y": 96,
+        "parent": "2186:1907",
+        "textCount": 9,
+        "imageCount": 2,
+        "key": "old-15",
+        "oldIndex": 15,
+        "title": "La grafica politica e la Prima Guerra Mondiale",
+        "ordinal": 16,
+        "folio": 36,
+        "side": "DX",
+        "section": "industry"
+      },
+      {
+        "id": "198:2515",
+        "name": "C02 · 016 · DX — Il Bauhaus",
+        "x": 2656.31494140625,
+        "y": 96,
+        "parent": "2186:1907",
+        "textCount": 5,
+        "imageCount": 1,
+        "key": "old-16",
+        "oldIndex": 16,
+        "title": "Il Bauhaus",
+        "ordinal": 17,
+        "folio": 37,
+        "side": "SX",
+        "section": "industry"
+      },
+      {
+        "id": "198:2184",
+        "name": "C02 · 017 · SX — Anni ‘20",
+        "x": 48,
+        "y": 817.6378173828125,
+        "parent": "2186:1907",
+        "textCount": 10,
+        "imageCount": 1,
+        "key": "old-17",
+        "oldIndex": 17,
+        "title": "Anni ‘20",
+        "ordinal": 18,
+        "folio": 38,
+        "side": "DX",
+        "section": "industry"
+      },
+      {
+        "key": "isotype",
+        "id": "2257:247",
+        "title": "Isotype: rendere confrontabili i dati",
+        "ordinal": 19,
+        "folio": 39,
+        "side": "SX",
+        "section": "systems"
+      },
+      {
+        "key": "beck",
+        "id": "2257:265",
+        "title": "La mappa come sistema di relazioni",
+        "ordinal": 20,
+        "folio": 40,
+        "side": "DX",
+        "section": "systems"
+      },
+      {
+        "id": "198:2532",
+        "name": "C02 · 018 · DX — Anni ‘40",
+        "x": 544.06298828125,
+        "y": 817.6378173828125,
+        "parent": "2186:1907",
+        "textCount": 6,
+        "imageCount": 1,
+        "key": "old-18",
+        "oldIndex": 18,
+        "title": "Anni ‘40",
+        "ordinal": 21,
+        "folio": 41,
+        "side": "SX",
+        "section": "systems"
+      },
+      {
+        "id": "198:2256",
+        "name": "C02 · 022 · DX — Design editoriale e griglie",
+        "x": 48,
+        "y": 96,
+        "parent": "2186:1908",
+        "textCount": 8,
+        "imageCount": 1,
+        "key": "old-19",
+        "oldIndex": 19,
+        "title": "Design editoriale e griglie",
+        "ordinal": 22,
+        "folio": 42,
+        "side": "DX",
+        "section": "systems"
+      },
+      {
+        "id": "198:2595",
+        "name": "C02 · 020 · DX — Anni ‘60",
+        "x": 544.06298828125,
+        "y": 96,
+        "parent": "2186:1908",
+        "textCount": 6,
+        "imageCount": 2,
+        "key": "old-20",
+        "oldIndex": 20,
+        "title": "Anni ‘60",
+        "ordinal": 23,
+        "folio": 43,
+        "side": "SX",
+        "section": "systems"
+      },
+      {
+        "id": "198:2206",
+        "name": "C02 · 021 · SX — Anni ‘80 e la nascita dei software",
+        "x": 1104.1259765625,
+        "y": 96,
+        "parent": "2186:1908",
+        "textCount": 7,
+        "imageCount": 1,
+        "key": "old-21",
+        "oldIndex": 21,
+        "title": "Anni ‘80 e la nascita dei software",
+        "ordinal": 24,
+        "folio": 44,
+        "side": "DX",
+        "section": "systems"
+      },
+      {
+        "id": "198:2552",
+        "name": "C02 · 025 · SX — Tipografia espressiva e montaggio digitale",
+        "x": 1600.18896484375,
+        "y": 96,
+        "parent": "2186:1908",
+        "textCount": 5,
+        "imageCount": 2,
+        "key": "old-22",
+        "oldIndex": 22,
+        "title": "Tipografia espressiva e montaggio digitale",
+        "ordinal": 25,
+        "folio": 45,
+        "side": "SX",
+        "section": "systems"
+      },
+      {
+        "id": "198:2229",
+        "name": "C02 · 023 · SX — Grafica e rivoluzione digitale",
+        "x": 2160.251953125,
+        "y": 96,
+        "parent": "2186:1908",
+        "textCount": 2,
+        "imageCount": 0,
+        "key": "old-23",
+        "oldIndex": 23,
+        "title": "Grafica e rivoluzione digitale",
+        "ordinal": 26,
+        "folio": 46,
+        "side": "DX",
+        "section": "systems"
+      },
+      {
+        "key": "cern",
+        "id": "2257:301",
+        "title": "Il web: documenti e collegamenti",
+        "ordinal": 27,
+        "folio": 47,
+        "side": "SX",
+        "section": "systems"
+      },
+      {
+        "key": "history-bridge",
+        "id": "2266:300",
+        "title": "Dall’artefatto al sistema",
+        "ordinal": 28,
+        "folio": 48,
+        "side": "DX",
+        "section": "systems"
+      },
+      {
+        "id": "198:2575",
+        "name": "C02 · 024 · DX — Storia delle interfacce digitali",
+        "x": 2656.31494140625,
+        "y": 96,
+        "parent": "2186:1908",
+        "textCount": 7,
+        "imageCount": 0,
+        "key": "old-24",
+        "oldIndex": 24,
+        "title": "Storia delle interfacce digitali",
+        "ordinal": 29,
+        "folio": 49,
+        "side": "SX",
+        "section": "interfaces"
+      },
+      {
+        "id": "198:2290",
+        "name": "C02 · 025 · SX — Le origini",
+        "x": 48,
+        "y": 96,
+        "parent": "2186:1909",
+        "textCount": 8,
+        "imageCount": 1,
+        "key": "old-25",
+        "oldIndex": 25,
+        "title": "Le origini",
+        "ordinal": 30,
+        "folio": 50,
+        "side": "DX",
+        "section": "interfaces"
+      },
+      {
+        "id": "198:2627",
+        "name": "C02 · 026 · DX — Il paradigma WIMP",
+        "x": 544.06298828125,
+        "y": 96,
+        "parent": "2186:1909",
+        "textCount": 4,
+        "imageCount": 1,
+        "key": "old-26",
+        "oldIndex": 26,
+        "title": "Il paradigma WIMP",
+        "ordinal": 31,
+        "folio": 51,
+        "side": "SX",
+        "section": "interfaces"
+      },
+      {
+        "key": "kare",
+        "id": "2257:283",
+        "title": "Un linguaggio di pochi pixel",
+        "ordinal": 32,
+        "folio": 52,
+        "side": "DX",
+        "section": "interfaces"
+      },
+      {
+        "id": "198:2319",
+        "name": "C02 · 027 · SX — Interfacce senza grafica (1995–2000)",
+        "x": 1104.1259765625,
+        "y": 96,
+        "parent": "2186:1909",
+        "textCount": 7,
+        "imageCount": 1,
+        "key": "old-27",
+        "oldIndex": 27,
+        "title": "Il primo web (anni Novanta)",
+        "ordinal": 33,
+        "folio": 53,
+        "side": "SX",
+        "section": "interfaces"
+      },
+      {
+        "id": "198:2652",
+        "name": "C02 · 028 · DX — Interfacce del web 2.0 (2000-2010)",
+        "x": 1600.18896484375,
+        "y": 96,
+        "parent": "2186:1909",
+        "textCount": 4,
+        "imageCount": 1,
+        "key": "old-28",
+        "oldIndex": 28,
+        "title": "Interfacce del web 2.0 (anni Duemila)",
+        "ordinal": 34,
+        "folio": 54,
+        "side": "DX",
+        "section": "interfaces"
+      },
+      {
+        "id": "198:2345",
+        "name": "C02 · 029 · SX — Design scheumorfico (2010-2012)",
+        "x": 48,
+        "y": 96,
+        "parent": "2186:1910",
+        "textCount": 7,
+        "imageCount": 1,
+        "key": "old-29",
+        "oldIndex": 29,
+        "title": "Design scheumorfico",
+        "ordinal": 35,
+        "folio": 55,
+        "side": "SX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2675",
+        "name": "C02 · 030 · DX — Design flat (2012-?)",
+        "x": 544.06298828125,
+        "y": 96,
+        "parent": "2186:1910",
+        "textCount": 4,
+        "imageCount": 1,
+        "key": "old-30",
+        "oldIndex": 30,
+        "title": "Flat design",
+        "ordinal": 36,
+        "folio": 56,
+        "side": "DX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2381",
+        "name": "C02 · 033 · SX — Glassmorfismo · caratteristiche",
+        "x": 2160.251953125,
+        "y": 96,
+        "parent": "2186:1910",
+        "textCount": 7,
+        "imageCount": 1,
+        "key": "old-33",
+        "oldIndex": 33,
+        "title": "Material Design",
+        "ordinal": 37,
+        "folio": 57,
+        "side": "SX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2363",
+        "name": "C02 · 031 · SX — Design neumorfico",
+        "x": 1104.1259765625,
+        "y": 96,
+        "parent": "2186:1910",
+        "textCount": 7,
+        "imageCount": 1,
+        "key": "old-31",
+        "oldIndex": 31,
+        "title": "Design neumorfico",
+        "ordinal": 38,
+        "folio": 58,
+        "side": "DX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2688",
+        "name": "C02 · 032 · DX — Glassmorfismo",
+        "x": 1600.18896484375,
+        "y": 96,
+        "parent": "2186:1910",
+        "textCount": 4,
+        "imageCount": 1,
+        "key": "old-32",
+        "oldIndex": 32,
+        "title": "Glassmorfismo",
+        "ordinal": 39,
+        "folio": 59,
+        "side": "SX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2701",
+        "name": "C02 · 034 · DX — Minimalismo",
+        "x": 2656.31494140625,
+        "y": 96,
+        "parent": "2186:1910",
+        "textCount": 5,
+        "imageCount": 1,
+        "key": "old-34",
+        "oldIndex": 34,
+        "title": "Minimalismo",
+        "ordinal": 40,
+        "folio": 60,
+        "side": "DX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2399",
+        "name": "C02 · 035 · SX — Y2K",
+        "x": 48,
+        "y": 817.6378173828125,
+        "parent": "2186:1910",
+        "textCount": 8,
+        "imageCount": 1,
+        "key": "old-35",
+        "oldIndex": 35,
+        "title": "Y2K: un ritorno visivo",
+        "ordinal": 41,
+        "folio": 61,
+        "side": "SX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2715",
+        "name": "C02 · 036 · DX — Massimalismo",
+        "x": 544.06298828125,
+        "y": 817.6378173828125,
+        "parent": "2186:1910",
+        "textCount": 4,
+        "imageCount": 1,
+        "key": "old-36",
+        "oldIndex": 36,
+        "title": "Massimalismo",
+        "ordinal": 42,
+        "folio": 62,
+        "side": "DX",
+        "section": "styles"
+      },
+      {
+        "id": "198:2418",
+        "name": "C02 · 037 · SX — Neobrutalismo",
+        "x": 1104.1259765625,
+        "y": 817.6378173828125,
+        "parent": "2186:1910",
+        "textCount": 8,
+        "imageCount": 1,
+        "key": "old-37",
+        "oldIndex": 37,
+        "title": "Brutalismo e neobrutalismo",
+        "ordinal": 43,
+        "folio": 63,
+        "side": "SX",
+        "section": "styles"
+      },
+      {
+        "key": "future-intro",
+        "id": "2258:259",
+        "title": "Possibili direzioni future",
+        "ordinal": 44,
+        "folio": 64,
+        "side": "DX",
+        "section": "future"
+      },
+      {
+        "key": "expressive-adaptive-type",
+        "id": "2258:295",
+        "title": "Tipografia adattabile ed espressiva",
+        "ordinal": 45,
+        "folio": 65,
+        "side": "SX",
+        "section": "future"
+      },
+      {
+        "key": "spatial-fluid-materials",
+        "id": "2258:317",
+        "title": "Profondità e materiali dinamici",
+        "ordinal": 46,
+        "folio": 66,
+        "side": "DX",
+        "section": "future"
+      },
+      {
+        "key": "generative-ui",
+        "id": "2258:352",
+        "title": "Interfacce generate su richiesta",
+        "ordinal": 47,
+        "folio": 67,
+        "side": "SX",
+        "section": "future"
+      },
+      {
+        "key": "sustainable-accessible",
+        "id": "2258:381",
+        "title": "Un’estetica attenta alle risorse",
+        "ordinal": 48,
+        "folio": 68,
+        "side": "DX",
+        "section": "future"
+      },
+      {
+        "key": "synthesis",
+        "id": "2258:403",
+        "title": "Una scelta, non una moda",
+        "ordinal": 49,
+        "folio": 69,
+        "side": "SX",
+        "section": "future"
+      },
+      {
+        "key": "history-sources",
+        "id": "2263:284",
+        "title": "Fonti · Storia della grafica",
+        "ordinal": 50,
+        "folio": 70,
+        "side": "DX",
+        "section": "refs"
+      },
+      {
+        "key": "computer-sources",
+        "id": "2263:328",
+        "title": "Fonti · Computer e interfacce",
+        "ordinal": 51,
+        "folio": 71,
+        "side": "SX",
+        "section": "refs"
+      },
+      {
+        "key": "future-sources",
+        "id": "2263:372",
+        "title": "Fonti · Linguaggi e direzioni",
+        "ordinal": 52,
+        "folio": 72,
+        "side": "DX",
+        "section": "refs"
+      },
+      {
+        "key": "course-sources",
+        "id": "2266:335",
+        "title": "Fonti · Materiali del corso",
+        "ordinal": 53,
+        "folio": 73,
+        "side": "SX",
+        "section": "refs"
+      },
+      {
+        "id": "198:2728",
+        "name": "C02 · 038 · DX — Spazio appunti",
+        "x": 1600.18896484375,
+        "y": 817.6378173828125,
+        "parent": "2186:1910",
+        "textCount": 2,
+        "imageCount": 1,
+        "key": "old-38",
+        "oldIndex": 38,
+        "title": "Spazio appunti",
+        "ordinal": 54,
+        "folio": 74,
+        "side": "DX",
+        "section": "notes"
+      }
+    ],
+    "sections": {
+      "intro": {
+        "id": "2186:1905",
+        "name": "C02 · 01 · Apertura"
+      },
+      "origins": {
+        "id": "2186:1906",
+        "name": "C02 · 02 · Origini e stampa"
+      },
+      "industry": {
+        "id": "2186:1907",
+        "name": "C02 · 03 · Industria e nuovi linguaggi"
+      },
+      "systems": {
+        "id": "2186:1908",
+        "name": "C02 · 04 · Identità, dati e rivoluzione digitale"
+      },
+      "interfaces": {
+        "id": "2186:1909",
+        "name": "C02 · 05 · Le interfacce digitali"
+      },
+      "styles": {
+        "id": "2186:1910",
+        "name": "C02 · 06 · Linguaggi visivi"
+      },
+      "future": {
+        "id": "2258:258",
+        "name": "C02 · 07 · Direzioni future"
+      },
+      "refs": {
+        "id": "2263:283",
+        "name": "C02 · 08 · Fonti e crediti"
+      },
+      "notes": {
+        "id": "2263:283",
+        "name": "C02 · 08 · Fonti e crediti"
+      }
+    },
+    "nativeBodyFont": "Merriweather Light/Bold 10, interlinea 15",
+    "headingFont": "Geom Bold 16",
+    "captionFont": "Merriweather Light Italic 7, interlinea 12",
+    "newHistoricalCases": [
+      {
+        "key": "behrens_aeg",
+        "title": "Un’identità per l’industria"
+      },
+      {
+        "key": "isotype",
+        "title": "Isotype: rendere confrontabili i dati"
+      },
+      {
+        "key": "beck",
+        "title": "La mappa come sistema di relazioni"
+      },
+      {
+        "key": "kare",
+        "title": "Un linguaggio di pochi pixel"
+      },
+      {
+        "key": "cern",
+        "title": "Il web: documenti e collegamenti"
+      }
+    ],
+    "futureThemes": [
+      {
+        "key": "future-intro",
+        "title": "Possibili direzioni future"
+      },
+      {
+        "key": "expressive-adaptive-type",
+        "title": "Tipografia adattabile ed espressiva"
+      },
+      {
+        "key": "spatial-fluid-materials",
+        "title": "Profondità e materiali dinamici"
+      },
+      {
+        "key": "generative-ui",
+        "title": "Interfacce generate su richiesta"
+      },
+      {
+        "key": "sustainable-accessible",
+        "title": "Un’estetica attenta alle risorse"
+      },
+      {
+        "key": "synthesis",
+        "title": "Una scelta, non una moda"
+      }
+    ],
+    "stylesUpdated": [
+      {
+        "id": "198:2319",
+        "key": "html",
+        "title": "Il primo web (anni Novanta)"
+      },
+      {
+        "id": "198:2652",
+        "key": "web2",
+        "title": "Interfacce del web 2.0 (anni Duemila)"
+      },
+      {
+        "id": "198:2345",
+        "key": "scheu",
+        "title": "Design scheumorfico"
+      },
+      {
+        "id": "198:2675",
+        "key": "flat",
+        "title": "Flat design"
+      },
+      {
+        "id": "198:2381",
+        "key": "material",
+        "title": "Material Design"
+      },
+      {
+        "id": "198:2363",
+        "key": "neumo",
+        "title": "Design neumorfico"
+      },
+      {
+        "id": "198:2688",
+        "key": "glass",
+        "title": "Glassmorfismo"
+      },
+      {
+        "id": "198:2701",
+        "key": "minimal",
+        "title": "Minimalismo"
+      },
+      {
+        "id": "198:2399",
+        "key": "y2k",
+        "title": "Y2K: un ritorno visivo"
+      },
+      {
+        "id": "198:2715",
+        "key": "max",
+        "title": "Massimalismo"
+      },
+      {
+        "id": "198:2418",
+        "key": "neo",
+        "title": "Brutalismo e neobrutalismo"
+      }
+    ],
+    "archivedResourceBank": {
+      "id": "2250:228",
+      "assetCount": 19,
+      "visible": false,
+      "allAssetsRetained": true
+    }
+  },
+  "editorialChanges": [
+    {
+      "id": "198:2005",
+      "after": "Come disse Ivan Chermayeff, il design \ndella storia è la storia del design.\n\nOgni epoca ha il suo spirito, un complesso intreccio di idee, valori e sensibilità che i tedeschi chiamano Zeitgeist. Tra le tante forme di espressione umana, il graphic design ha una straordinaria capacità di catturare questo spirito, grazie al suo legame diretto con la vita sociale, politica ed economica di una cultura. \n\nDalle pitture rupestri agli schermi digitali, l’umanità ha sempre cercato modi per trasformare idee in immagini e dare ordine al caos dell’informazione. Gli scribi sumeri che inventarono la scrittura, gli artigiani egiziani, i tipografi rinascimentali: ciascuno ha aggiunto un tassello a una storia che ci appartiene ancora oggi. Nel 1922, William Addison Dwiggins usò l’espressione graphic design in un articolo sulla stampa, ma le sue radici affondano in un passato che unisce arte e funzione in un equilibrio tanto antico quanto essenziale. \n\nIl design, in tutte le sue forme – architettura, moda, grafica – può ridare coesione alla nostra esperienza di vita, intrecciando estetica e utilità in un nuovo dialogo tra l’uomo e il suo ambiente.",
+      "extraBold": []
+    },
+    {
+      "id": "198:2086",
+      "after": "La stampa permise di riprodurre testi e immagini in più copie, trasformando la circolazione delle informazioni. In Cina, la stampa xilografica si sviluppò intorno al VII secolo: si inchiostrava una matrice di legno incisa in rilievo e la si premeva sulla carta. La disponibilità della carta favorì questa produzione. Le radici della stampa precedono quindi di molti secoli il suo sviluppo nell’Europa del Rinascimento.",
+      "extraBold": [
+        "stampa xilografica",
+        "matrice"
+      ]
+    },
+    {
+      "id": "198:2087",
+      "after": "Tra il 1041 e il 1048, Bi Sheng sperimentò in Cina la stampa con caratteri mobili. In Corea, il Jikji del 1377 è il più antico libro conservato stampato con caratteri mobili metallici. Xilografia e caratteri mobili continuarono a coesistere: la scelta del procedimento dipendeva da testi, risorse e pratiche produttive. La stampa europea ebbe un proprio sviluppo tecnico e commerciale; non va presentata come l’origine mondiale dei caratteri mobili.",
+      "extraBold": [
+        "Bi Sheng",
+        "Jikji del 1377",
+        "caratteri mobili metallici"
+      ]
+    },
+    {
+      "id": "198:2216",
+      "after": "Prima del desktop publishing, molti layout venivano tracciati a mano. Testi composti separatamente, bozze e riproduzioni fotografiche delle immagini erano assemblati su carta o cartoncino per preparare la stampa. Gli strumenti digitali modificarono questo processo, riunendo sempre più operazioni sullo schermo.\n\nNel 1984, MacPaint, programmato da Bill Atkinson con il contributo progettuale di Susan Kare, mise a disposizione strumenti grafici azionati attraverso icone e mouse. PostScript, sviluppato da Adobe, descriveva testo e immagini per la stampa. Nel 1985, PageMaker e la stampante LaserWriter contribuirono alla diffusione del desktop publishing sul Macintosh.\n\nIl cambiamento riguardava il flusso di lavoro: il designer poteva modificare impaginazione e caratteri, confrontare varianti e preparare materiali digitali per la produzione. Le nuove possibilità alimentavano anche la sperimentazione: sovrapposizioni, frammentazioni e variazioni tipografiche diventavano parte del tono della pagina.",
+      "extraBold": [
+        "desktop publishing",
+        "MacPaint",
+        "PostScript",
+        "PageMaker"
+      ]
+    },
+    {
+      "id": "198:2561",
+      "after": "Il software ampliò le possibilità di montaggio: trasparenze, distorsioni e sovrapposizioni collegavano testo e immagini in composizioni complesse. Nel 1999, il servizio postale statunitense emise un francobollo dedicato a Frederick Law Olmsted, progettato da Ethel Kessler. Il montaggio di ritratto, paesaggio e disegni richiama le diverse componenti del lavoro del paesaggista.",
+      "extraBold": [
+        "montaggio",
+        "1999",
+        "Ethel Kessler"
+      ]
+    },
+    {
+      "id": "2150:1659",
+      "after": "Ethel Kessler, francobollo commemorativo Frederick Law Olmsted, USPS, 1999.",
+      "extraBold": []
+    },
+    {
+      "id": "198:2563",
+      "after": "Negli anni Novanta, David Carson portò una tipografia fortemente espressiva in riviste come Beach Culture e Ray Gun. Sovrapposizioni, frammentazione e contrasti trasformavano la pagina in parte del tono editoriale.",
+      "extraBold": [
+        "David Carson",
+        "tipografia",
+        "tono editoriale"
+      ]
+    },
+    {
+      "id": "198:2239",
+      "after": "Il World Wide Web si sviluppò su Internet, una rete già esistente. Documenti collegati tra loro e accessibili attraverso un browser crearono un nuovo ambiente per la comunicazione visiva. Il caso del CERN, nella pagina successiva, permette di distinguere l’infrastruttura di rete dal sistema di pubblicazione e navigazione.\n\nIl web design condivide con la stampa testo, immagini e colore, ma introduce condizioni diverse: dimensioni dello schermo variabili, collegamenti ipertestuali, navigazione e contenuti che possono cambiare. Il progettista deve organizzare informazioni e azioni, considerando anche tempi di caricamento e strumenti di accesso.\n\nLa pagina non è più soltanto un oggetto concluso: entra in relazione con altre pagine e con i comportamenti delle persone. La funzione del designer si amplia alla costruzione di sistemi coerenti, mantenendo un compito centrale: dare forma e chiarezza alla comunicazione.",
+      "extraBold": [
+        "World Wide Web",
+        "Internet",
+        "condizioni diverse",
+        "sistemi coerenti"
+      ]
+    },
+    {
+      "id": "198:2299",
+      "after": "Il 9 dicembre 1968, Douglas Engelbart e il suo gruppo presentarono NLS (oN-Line System). La dimostrazione, poi nota come “The Mother of All Demos”, mostrava mouse, collegamenti ipertestuali, elaborazione di testi e lavoro collaborativo con comunicazione audio e video. Il computer veniva proposto come strumento per organizzare conoscenza e cooperare. Molte convenzioni attuali maturarono da esperimenti diversi: questa dimostrazione è una tappa decisiva del percorso, non l’origine unica di tutte le interfacce grafiche.",
+      "extraBold": [
+        "Douglas Engelbart",
+        "NLS",
+        "lavoro collaborativo"
+      ]
+    },
+    {
+      "id": "198:2300",
+      "after": "Lo Xerox Alto, realizzato al PARC nel 1973, era un sistema di ricerca con schermo grafico, mouse e rete. L’interfaccia dipendeva dai programmi: Bravo lavorava sui documenti, Gypsy sul taglia e incolla, Smalltalk su finestre e strumenti grafici. Queste esperienze contribuirono alle convenzioni sviluppate nelle interfacce successive.",
+      "extraBold": [
+        "Xerox Alto",
+        "sistema di ricerca",
+        "programmi"
+      ]
+    },
+    {
+      "id": "2150:1651",
+      "after": "Smalltalk-80: finestre e strumenti grafici, circa 1980. PARC Library, Computer History Museum.",
+      "extraBold": []
+    },
+    {
+      "id": "198:2638",
+      "after": "Il paradigma WIMP riunisce Windows, Icons, Menus e Pointer: finestre, icone, menu e puntatore. Questi elementi organizzano un linguaggio di interazione riconoscibile. Le metafore di scrivania, cartella e cestino offrono punti di riferimento, ma richiedono apprendimento e familiarità.\n\nL’azione può essere collegata a un oggetto visibile e il risultato mostrato sullo schermo. Questo rapporto fra comando e feedback resta importante anche nelle interfacce touch, dove cambiano i gesti e le dimensioni dei controlli.",
+      "extraBold": [
+        "WIMP",
+        "apprendimento",
+        "feedback"
+      ]
+    },
+    {
+      "id": "198:2664",
+      "after": "Negli anni Duemila, servizi partecipativi come blog, social network e piattaforme di condivisione ampliarono il ruolo degli utenti. Nello stesso periodo, molte interfacce adottarono gradienti, ombre, pulsanti lucidi e angoli arrotondati.\n\nQueste scelte visive non definiscono il Web 2.0: un modello di partecipazione e uno stile grafico sono aspetti diversi. La possibilità di pubblicare, commentare o collaborare riguarda il funzionamento del servizio, oltre al suo aspetto.",
+      "extraBold": [
+        "servizi partecipativi",
+        "Web 2.0",
+        "stile grafico"
+      ]
+    },
+    {
+      "id": "198:2357",
+      "after": "Lo scheumorfismo trasferisce nel digitale forme riconoscibili del mondo fisico: una cartella, un cestino o le pagine di un taccuino. Può aiutare a intuire una funzione attraverso una metafora già nota. Quando diventa realismo decorativo, usa texture, rilievi e ombre per imitare materiali. La familiarità dipende però dall’esperienza della persona: una metafora poco conosciuta può risultare opaca.",
+      "extraBold": [
+        "metafore di oggetti",
+        "Scheumorfismo"
+      ]
+    },
+    {
+      "id": "198:2686",
+      "after": "Il flat design riduce texture e simulazioni di materiali, privilegiando forme bidimensionali, campiture e una tipografia chiara. Si diffuse nelle interfacce degli anni Dieci, ma la semplicità grafica non rende automaticamente semplice l’interazione. Pulsanti e link devono mantenere indizi visibili della loro funzione. Un’ombra misurata o una sottolineatura possono chiarire ciò che è cliccabile senza compromettere l’essenzialità della composizione.",
+      "extraBold": [
+        "campiture",
+        "Flat design"
+      ]
+    },
+    {
+      "id": "198:2375",
+      "after": "Il neumorfismo usa luci e ombre morbide per far apparire gli elementi come rilievi dello stesso materiale dello sfondo. La continuità cromatica produce un effetto delicato, quasi plastico. Proprio questa continuità può però indebolire il contrasto e nascondere lo stato dei controlli. L’effetto decorativo deve poter scomparire senza rendere ambiguo il comando: testo, icona, bordo e stato selezionato restano leggibili.",
+      "extraBold": [
+        "stesso colore del fondo",
+        "Neumorfismo"
+      ]
+    },
+    {
+      "id": "198:2699",
+      "after": "Il glassmorfismo suggerisce superfici di vetro attraverso traslucenza, sfocatura e sovrapposizioni. Il fondo resta percepibile mentre il pannello occupa un livello distinto. Nei sistemi ufficiali questi effetti hanno ruoli specifici: Fluent usa Acrylic per superfici transitorie, come menu e popover. La trasparenza va verificata su fondi diversi; un pannello elegante può perdere leggibilità quando cambiano immagini, luminosità e colori sottostanti.",
+      "extraBold": [
+        "traslucenza",
+        "Acrylic"
+      ]
+    },
+    {
+      "id": "198:2713",
+      "after": "Il minimalismo riduce gli elementi che non sostengono il contenuto o il compito. Spazio negativo, palette contenuta e gerarchie tipografiche guidano l’attenzione. Riduzione non significa assenza di struttura: se spariscono etichette, navigazione o indizi d’interazione, la pagina può diventare più difficile da usare. La qualità del risultato si valuta attraverso ciò che consente di leggere e fare, oltre che attraverso ciò che elimina.",
+      "extraBold": [
+        "spazio negativo",
+        "Minimalismo"
+      ]
+    },
+    {
+      "id": "198:2411",
+      "after": "Con Y2K si indica una famiglia di richiami alla cultura visiva intorno al passaggio di millennio: cromature, bagliori, gradienti, pixel e finestre. Le reinterpretazioni contemporanee selezionano alcuni di questi caratteri senza riprodurre necessariamente una pagina storica. Per Spotify Wrapped 2023, il gruppo di design dichiarò un riferimento alle espressioni del primo internet, tradotte in un sistema attuale di layout stratificati e dinamici.",
+      "extraBold": [
+        "cromature",
+        "Spotify Wrapped 2023"
+      ]
+    },
+    {
+      "id": "198:2430",
+      "after": "Nel web, il brutalismo presenta spesso strutture esplicite, caratteri utilitari e un’apparenza poco rifinita. Il neobrutalismo ne rielabora la forza visiva con bordi spessi, ombre nette, grandi titoli e colori accesi. La homepage di Gumroad offre un esempio di questa seconda direzione. Un’identità marcata richiede comunque gerarchie, spazi e stati chiari: un contrasto cromatico vistoso non garantisce un contrasto sufficiente per leggere.",
+      "extraBold": [
+        "bordi spessi",
+        "neobrutalismo"
+      ]
+    },
+    {
+      "id": "198:2726",
+      "after": "Il massimalismo combina densità visiva, colori, motivi, immagini e caratteri differenti. Per trasformare questa ricchezza in un sistema leggibile, il progetto rende riconoscibili gerarchie e percorsi di lettura.\n\nLa quantità di elementi diventa una scelta espressiva, da mettere in relazione con contenuto, pubblico e compito. Anche una composizione ricca richiede pause e punti di riferimento: il lettore deve distinguere il messaggio principale dalle informazioni secondarie.",
+      "extraBold": [
+        "massimalismo",
+        "gerarchie",
+        "pause"
+      ]
+    },
+    {
+      "id": "198:2355",
+      "after": "Design scheumorfico",
+      "extraBold": []
+    },
+    {
+      "id": "2139:595",
+      "after": "Design scheumorfico nelle interfacce e nelle icone iOS.",
+      "extraBold": []
+    },
+    {
+      "nodeId": "198:2544",
+      "topic": "Paul Rand",
+      "change": "Sostituita una citazione non documentata con una sintesi editoriale e il riferimento a Thoughts on Design (1947).",
+      "source": "https://www.paulrand.design/writing/books/thoughts-on-design-1st-edition.html"
+    },
+    {
+      "nodeId": "2263:296",
+      "topic": "Fonti e crediti",
+      "change": "Rimosso un riferimento allo strumento di impaginazione; aggiunta la fonte di Paul Rand nel registro storico."
+    }
+  ],
+  "qa": {
+    "pages": 54,
+    "texts": 531,
+    "images": 47,
+    "captionsDetected": 53,
+    "issues": [],
+    "summary": [
+      {
+        "id": "198:2006",
+        "n": 1,
+        "section": "intro",
+        "texts": 2,
+        "images": 0,
+        "captions": 0,
+        "bottom": 492,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2037",
+        "n": 2,
+        "section": "intro",
+        "texts": 2,
+        "images": 0,
+        "captions": 0,
+        "bottom": 0,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": [],
+        "intentionalDisplayOverlap": [
+          [
+            "198:2049",
+            "198:2051"
+          ]
+        ]
+      },
+      {
+        "id": "198:1993",
+        "n": 3,
+        "section": "intro",
+        "texts": 3,
+        "images": 0,
+        "captions": 0,
+        "bottom": 584,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2017",
+        "n": 4,
+        "section": "intro",
+        "texts": 7,
+        "images": 0,
+        "captions": 0,
+        "bottom": 584,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2052",
+        "n": 5,
+        "section": "origins",
+        "texts": 9,
+        "images": 1,
+        "captions": 1,
+        "bottom": 579,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2437",
+        "n": 6,
+        "section": "origins",
+        "texts": 8,
+        "images": 1,
+        "captions": 1,
+        "bottom": 551.6,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2077",
+        "n": 7,
+        "section": "origins",
+        "texts": 17,
+        "images": 1,
+        "captions": 2,
+        "bottom": 578,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2456",
+        "n": 8,
+        "section": "origins",
+        "texts": 8,
+        "images": 1,
+        "captions": 1,
+        "bottom": 564,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2097",
+        "n": 9,
+        "section": "origins",
+        "texts": 8,
+        "images": 1,
+        "captions": 1,
+        "bottom": 584,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2471",
+        "n": 10,
+        "section": "origins",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 588,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2120",
+        "n": 11,
+        "section": "industry",
+        "texts": 14,
+        "images": 0,
+        "captions": 1,
+        "bottom": 560,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2487",
+        "n": 12,
+        "section": "industry",
+        "texts": 8,
+        "images": 1,
+        "captions": 1,
+        "bottom": 584,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2140",
+        "n": 13,
+        "section": "industry",
+        "texts": 11,
+        "images": 0,
+        "captions": 1,
+        "bottom": 575,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2501",
+        "n": 14,
+        "section": "industry",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 547,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2257:229",
+        "n": 15,
+        "section": "industry",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 581,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2162",
+        "n": 16,
+        "section": "industry",
+        "texts": 9,
+        "images": 2,
+        "captions": 2,
+        "bottom": 583,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2515",
+        "n": 17,
+        "section": "industry",
+        "texts": 8,
+        "images": 1,
+        "captions": 1,
+        "bottom": 569,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2184",
+        "n": 18,
+        "section": "industry",
+        "texts": 10,
+        "images": 1,
+        "captions": 1,
+        "bottom": 560,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2257:247",
+        "n": 19,
+        "section": "systems",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 556,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2257:265",
+        "n": 20,
+        "section": "systems",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 551.6,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2532",
+        "n": 21,
+        "section": "systems",
+        "texts": 9,
+        "images": 1,
+        "captions": 1,
+        "bottom": 586,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2256",
+        "n": 22,
+        "section": "systems",
+        "texts": 10,
+        "images": 4,
+        "captions": 2,
+        "bottom": 580,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2595",
+        "n": 23,
+        "section": "systems",
+        "texts": 9,
+        "images": 2,
+        "captions": 2,
+        "bottom": 572,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2206",
+        "n": 24,
+        "section": "systems",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 582.8,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2552",
+        "n": 25,
+        "section": "systems",
+        "texts": 10,
+        "images": 2,
+        "captions": 2,
+        "bottom": 561,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2229",
+        "n": 26,
+        "section": "systems",
+        "texts": 13,
+        "images": 0,
+        "captions": 1,
+        "bottom": 580,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2257:301",
+        "n": 27,
+        "section": "systems",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 569.8,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2266:300",
+        "n": 28,
+        "section": "systems",
+        "texts": 15,
+        "images": 0,
+        "captions": 1,
+        "bottom": 554,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2575",
+        "n": 29,
+        "section": "interfaces",
+        "texts": 7,
+        "images": 0,
+        "captions": 0,
+        "bottom": 544,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2290",
+        "n": 30,
+        "section": "interfaces",
+        "texts": 15,
+        "images": 1,
+        "captions": 2,
+        "bottom": 580,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2627",
+        "n": 31,
+        "section": "interfaces",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 570,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2257:283",
+        "n": 32,
+        "section": "interfaces",
+        "texts": 7,
+        "images": 1,
+        "captions": 1,
+        "bottom": 557.9,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2319",
+        "n": 33,
+        "section": "interfaces",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 566,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2652",
+        "n": 34,
+        "section": "interfaces",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 585,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2345",
+        "n": 35,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 554.1,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2675",
+        "n": 36,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 555.4,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2381",
+        "n": 37,
+        "section": "styles",
+        "texts": 11,
+        "images": 0,
+        "captions": 1,
+        "bottom": 574,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2363",
+        "n": 38,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 558.4,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2688",
+        "n": 39,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 552.8,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2701",
+        "n": 40,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 561.2,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2399",
+        "n": 41,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 577.7,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2715",
+        "n": 42,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 578.7,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2418",
+        "n": 43,
+        "section": "styles",
+        "texts": 6,
+        "images": 1,
+        "captions": 1,
+        "bottom": 564.4,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2258:259",
+        "n": 44,
+        "section": "future",
+        "texts": 16,
+        "images": 0,
+        "captions": 1,
+        "bottom": 573,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2258:295",
+        "n": 45,
+        "section": "future",
+        "texts": 9,
+        "images": 1,
+        "captions": 1,
+        "bottom": 569.5,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2258:317",
+        "n": 46,
+        "section": "future",
+        "texts": 10,
+        "images": 4,
+        "captions": 4,
+        "bottom": 555.5,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2258:352",
+        "n": 47,
+        "section": "future",
+        "texts": 13,
+        "images": 1,
+        "captions": 2,
+        "bottom": 571.5,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2258:381",
+        "n": 48,
+        "section": "future",
+        "texts": 9,
+        "images": 1,
+        "captions": 1,
+        "bottom": 576.5,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2258:403",
+        "n": 49,
+        "section": "future",
+        "texts": 17,
+        "images": 0,
+        "captions": 0,
+        "bottom": 578.5,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2263:284",
+        "n": 50,
+        "section": "refs",
+        "texts": 31,
+        "images": 0,
+        "captions": 0,
+        "bottom": 575,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2263:328",
+        "n": 51,
+        "section": "refs",
+        "texts": 26,
+        "images": 0,
+        "captions": 0,
+        "bottom": 575,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2263:372",
+        "n": 52,
+        "section": "refs",
+        "texts": 28,
+        "images": 0,
+        "captions": 0,
+        "bottom": 578,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "2266:335",
+        "n": 53,
+        "section": "refs",
+        "texts": 25,
+        "images": 0,
+        "captions": 0,
+        "bottom": 577,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      },
+      {
+        "id": "198:2728",
+        "n": 54,
+        "section": "notes",
+        "texts": 2,
+        "images": 1,
+        "captions": 0,
+        "bottom": 80,
+        "overflow": [],
+        "overlaps": [],
+        "textImage": [],
+        "badFonts": [],
+        "leftovers": [],
+        "missingCaps": []
+      }
+    ],
+    "intentionalWhitespace": [
+      "Doppia pagina di apertura",
+      "Aperture delle sezioni",
+      "Spazio appunti"
+    ],
+    "nativeEditable": true,
+    "visualChecks": "Eight chapter sections and targeted page compositions verified."
+  },
+  "qaNotes": [
+    "Nessuna sovrapposizione o eccedenza nei testi dopo la verifica strutturale e visiva.",
+    "Ogni immagine informativa ha una didascalia; lo sfondo dello spazio appunti è decorativo.",
+    "Inter del titolo di apertura è un elemento preesistente del sistema editoriale.",
+    "Tutti i testi, diagrammi e impaginati restano nativi e modificabili.",
+    "La prosa sul futuro separa funzionalità documentate, esperimenti e scenari."
+  ],
+  "laterFolios": [
+    {
+      "page": "2008:1741",
+      "count": 250,
+      "min": 77,
+      "max": 326,
+      "onlyPageNumbers": true
+    },
+    {
+      "page": "2008:1742",
+      "count": 8,
+      "min": 329,
+      "max": 336,
+      "onlyPageNumbers": true
+    },
+    {
+      "page": "2008:1743",
+      "count": 6,
+      "min": 339,
+      "max": 344,
+      "onlyPageNumbers": true
+    }
+  ],
+  "rollbackSnapshot": "capitolo-2/disposizione-prima-riordino.json",
+  "styleRevision": {
+    "report": "assets/booklet/revisione-stili-interfacce.json",
+    "date": "2026-10-05",
+    "pageCount": 11,
+    "demonstrationBoxesRemoved": 10,
+    "request": "Rimuovere i box Percorsi/Apri percorso e far seguire all’intera pagina lo stile dell’interfaccia descritto."
+  },
+  "layoutRevision": {
+    "report": "assets/booklet/revisione-layout-capitolo-2.json",
+    "date": "2026-10-05",
+    "pagesReviewed": 54,
+    "pagesModified": 50
+  }
+}

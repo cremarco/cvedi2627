@@ -1,17 +1,21 @@
 /* Slidev scales this 1280 × 720 canvas; viewport breakpoints must not reflow it. */
 .slidev-layout {
-  --slide-accent: var(--cvedi-indigo-700);
-  --slide-subtitle: var(--cvedi-indigo-800);
-  --slide-detail-accent: var(--cvedi-detail-accent);
-  --slide-stripe: var(--cvedi-indigo-700);
-  --slide-surface: var(--cvedi-indigo-50);
-  --slide-surface-alt: var(--cvedi-indigo-100);
-  --slide-rule: var(--cvedi-indigo-200);
-  --chapter-ghost: #5944db;
-  --chapter-mid: var(--cvedi-indigo-200);
+  --slide-accent: var(--cvedi-course-base);
+  --slide-canvas: var(--cvedi-course-canvas);
+  --slide-subtitle: var(--cvedi-course-deep);
+  --slide-detail-accent: var(--cvedi-course-accent);
+  --slide-stripe: var(--cvedi-course-base);
+  --slide-surface: var(--cvedi-course-surface);
+  --slide-surface-alt: var(--cvedi-course-light);
+  --slide-rule: var(--cvedi-course-light);
+  --chapter-ghost: var(--cvedi-course-deep);
+  --chapter-mid: var(--cvedi-course-light);
   --color-primary: var(--slide-accent);
-  --color-secondary: var(--cvedi-indigo-500);
-  --color-accent: var(--cvedi-yellow-400);
+  --color-primary-content: var(--cvedi-paper);
+  --color-secondary: var(--slide-subtitle);
+  --color-secondary-content: var(--cvedi-paper);
+  --color-accent: var(--slide-detail-accent);
+  --color-accent-content: var(--cvedi-paper);
   --color-base-100: var(--cvedi-paper);
   --color-base-200: var(--slide-surface);
   --color-base-300: var(--slide-rule);
@@ -36,17 +40,8 @@
 .slidev-layout > :nth-last-child(2) {
   margin-bottom: 0;
 }
-.slidev-layout:is(.exam-section, .history-section) {
-  --slide-accent: var(--cvedi-indigo-800);
-  --slide-subtitle: var(--cvedi-indigo-700);
-  --chapter-ghost: #4734ab;
-}
-.slidev-layout:is(.project-section, .archive-section) {
-  --slide-stripe: var(--cvedi-indigo-500);
-}
-.slidev-layout.history-section {
-  --slide-stripe: var(--cvedi-indigo-800);
-}
+/* Exam, grade history, project and archive pages inherit the course palette;
+   teaching chapters override it through their lesson classes. */
 .slidev-layout::before {
   content: '';
   position: absolute;
@@ -94,6 +89,12 @@
   color: inherit;
   text-decoration: underline;
   text-underline-offset: .14em;
+}
+.slidev-layout:not(.lesson-slide) a {
+  color: var(--slide-detail-accent);
+}
+.slidev-layout:is(.cover-slide, .chapter-slide, .closing-slide, .renewal-slide, .archive-wall-slide):not(.lesson-slide) a {
+  color: var(--cvedi-course-accent-light);
 }
 .slidev-layout a:focus-visible {
   outline: 3px solid var(--slide-accent);
@@ -185,14 +186,24 @@
 .dense-slide .lead {
   font-size: 24px;
 }
-/* The course renewal joins the cover's metro grammar without a new visual system. */
+/* The opening pair uses indigo with a soft amber accent. */
+.slidev-layout.course-section:is(.cover-slide, .renewal-slide) {
+  --cvedi-course-base: var(--cvedi-indigo-800);
+  --cvedi-course-canvas: var(--cvedi-indigo-900);
+  --cvedi-course-deep: var(--cvedi-indigo-950);
+  --cvedi-course-light: var(--cvedi-indigo-100);
+  --cvedi-course-surface: var(--cvedi-indigo-50);
+  --cvedi-course-accent: var(--cvedi-amber-800);
+  --cvedi-course-accent-light: var(--cvedi-amber-100);
+}
+/* The renewal illustration pairs a slide deck with an open bibliography. */
 .slidev-layout.renewal-slide {
   --color-base-content: var(--cvedi-paper);
-  background: var(--cvedi-indigo-700);
+  background: var(--slide-canvas);
   color: var(--cvedi-paper);
 }
 .renewal-slide::before {
-  background: var(--cvedi-yellow-400);
+  background: var(--cvedi-course-base);
 }
 .slidev-layout.renewal-slide h1 {
   margin-bottom: 24px;
@@ -208,7 +219,7 @@
 }
 .slidev-layout .renewal-copy p {
   margin-bottom: 24px;
-  color: var(--cvedi-indigo-100);
+  color: var(--cvedi-course-light);
   font-size: 25px;
   line-height: 1.48;
 }
@@ -228,46 +239,62 @@
   inset: 0;
   width: 100%;
   height: 100%;
-  overflow: visible;
+  overflow: hidden;
 }
-.renewal-track {
-  stroke: var(--cvedi-indigo-500);
-  stroke-width: 30px;
-}
-.renewal-divider {
-  stroke: var(--cvedi-indigo-700);
+.renewal-paper,
+.renewal-book-left {
+  fill: var(--cvedi-paper);
+  stroke: var(--cvedi-course-deep);
   stroke-width: 4px;
+}
+.renewal-book-left,
+.renewal-sheet-middle {
+  fill: var(--cvedi-course-light);
+}
+.renewal-sheet-back,
+.renewal-sheet-middle {
+  stroke: var(--cvedi-course-light);
+  stroke-width: 4px;
+}
+.renewal-sheet-back {
+  fill: var(--cvedi-course-deep);
+}
+.renewal-mint {
+  fill: var(--cvedi-course-accent-light);
+}
+.renewal-ink-fill {
+  fill: var(--cvedi-course-deep);
+}
+.renewal-ink-line {
+  stroke: var(--cvedi-course-deep);
+  stroke-width: 4px;
+}
+.renewal-bookmark {
+  fill: var(--cvedi-course-accent-light);
+  stroke: var(--cvedi-course-deep);
+  stroke-width: 3px;
 }
 .renewal-year {
   position: absolute;
   top: 0;
-  left: 0;
-  color: var(--cvedi-yellow-400);
-  font: 700 96px/1 var(--cvedi-font-display);
-  letter-spacing: -.04em;
-}
-.renewal-stop {
-  stroke: var(--cvedi-paper);
-  stroke-width: 4px;
-}
-.renewal-stop-slides {
-  fill: var(--cvedi-teal-500);
-}
-.renewal-stop-books {
-  fill: var(--cvedi-pink-500);
+  left: 12px;
+  color: var(--cvedi-paper);
+  font: 700 46px/1 var(--cvedi-font-display);
+  letter-spacing: -.03em;
 }
 .renewal-material {
   position: absolute;
-  left: 104px;
   color: var(--cvedi-paper);
-  font: 700 28px/1.2 var(--cvedi-font-display);
+  font: 700 25px/1.2 var(--cvedi-font-display);
   letter-spacing: -.02em;
 }
 .renewal-material-slides {
-  top: 175px;
+  top: 246px;
+  left: 16px;
 }
 .renewal-material-books {
-  top: 263px;
+  top: 286px;
+  left: 204px;
 }
 .renewal-feedback.alert {
   display: grid;
@@ -277,8 +304,8 @@
   border: 0;
   border-radius: var(--cvedi-radius);
   padding: 18px 24px;
-  background: var(--cvedi-yellow-400);
-  color: var(--cvedi-indigo-900);
+  background: var(--cvedi-course-accent-light);
+  color: var(--cvedi-course-deep);
   box-shadow: none;
   text-align: left;
 }
@@ -305,11 +332,11 @@
   color: inherit;
 }
 .renewal-slide .slide-footer {
-  color: var(--cvedi-indigo-100);
+  color: var(--cvedi-paper);
 }
 .renewal-slide ::selection {
-  background: var(--cvedi-yellow-400);
-  color: var(--cvedi-indigo-900);
+  background: var(--cvedi-course-accent-light);
+  color: var(--cvedi-course-deep);
 }
 /* Keep the superseded topic readable while the sticker announces its replacement. */
 .syllabus-retired {
@@ -428,7 +455,7 @@
   inset: 24% 0 22%;
   z-index: 0;
   height: auto;
-  background: var(--cvedi-indigo);
+  background: var(--slide-canvas);
 }
 .slidev-layout.cover-slide h1 {
   max-width: 1050px;
@@ -465,7 +492,7 @@
   font-weight: 400;
 }
 .slidev-layout:is(.chapter-slide, .closing-slide) {
-  background: var(--slide-accent);
+  background: var(--slide-canvas);
 }
 .slidev-layout:is(.chapter-slide, .closing-slide)::before {
   display: none;
@@ -476,7 +503,7 @@
   font-size: 96px;
 }
 .slidev-layout:is(.chapter-slide, .closing-slide) p {
-  color: var(--cvedi-detail-accent-on-indigo);
+  color: var(--lesson-accent-on-color, var(--cvedi-course-accent-light));
   font: 600 28px/1.3 var(--cvedi-font-display);
 }
 :is(.cover-slide, .chapter-slide, .closing-slide) .slide-footer {
@@ -491,7 +518,7 @@
   inset: 224px 0 auto;
   z-index: -1;
   height: 272px;
-  background: var(--cvedi-indigo);
+  background: var(--slide-canvas);
 }
 .closing-metro-map {
   position: absolute;
@@ -512,7 +539,7 @@
 .closing-slide .slide-footer {
   inset: auto 32px 32px auto;
   padding: 10px 14px;
-  background: var(--cvedi-indigo);
+  background: var(--slide-accent);
 }
 .cover-slide .slide-footer {
   bottom: 176px;
@@ -554,7 +581,7 @@
 /* The archive becomes a full-bleed set of independently changing windows. */
 .slidev-layout.archive-wall-slide {
   padding: 0;
-  background: var(--cvedi-indigo-700);
+  background: var(--slide-accent);
 }
 .slidev-layout.archive-wall-slide::before {
   display: none;
@@ -566,7 +593,7 @@
   grid-template-columns: repeat(4, minmax(0, 1fr));
   grid-template-rows: repeat(3, minmax(0, 1fr));
   gap: 0;
-  background: var(--cvedi-indigo-700);
+  background: var(--slide-accent);
 }
 .gallery-tile {
   position: relative;
@@ -613,16 +640,16 @@
   width: 520px;
   height: 150px;
   padding: 0 24px 20px;
-  background: var(--cvedi-indigo-700);
+  background: var(--slide-accent);
 }
 .project-gallery-linkbar .link {
-  color: var(--cvedi-detail-accent-on-indigo);
+  color: var(--cvedi-course-accent-light);
   font: 600 26px/1.2 var(--cvedi-font-display);
   text-underline-offset: .2em;
 }
 .archive-wall-slide .slide-footer {
   inset: auto 32px 32px auto;
   padding: 14px 16px;
-  background: var(--cvedi-indigo-700);
+  background: var(--slide-accent);
   color: white;
 }

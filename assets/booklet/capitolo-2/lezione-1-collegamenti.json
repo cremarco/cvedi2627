@@ -1,0 +1,175 @@
+{
+  "auditedAt": "2026-10-05",
+  "scope": "Audit locale mirato per capitoli 1 e 2; nessuna scrittura in Figma.",
+  "comparedWith": "assets/booklet/integrazioni-capitoli-1-2.json",
+  "lessonFiles": [
+    {
+      "path": "materiali/lezioni/2026-2027/01-presentazione-corso.pdf",
+      "pages": 52,
+      "genre": "Presentazione del corso e brief; non una lezione teorica su UX/UI."
+    },
+    {
+      "path": "materiali/lezioni/2025-2026/01-introduzione-corso-esame.pdf",
+      "pages": 55,
+      "genre": "Presentazione del corso, esame e brief; non una lezione teorica su UX/UI."
+    }
+  ],
+  "nonDuplicateConcepts": [
+    {
+      "chapter": 1,
+      "title": "Dal singolo schermo al servizio",
+      "local": [
+        {
+          "path": "materiali/lezioni/2025-2026/01-introduzione-corso-esame.pdf",
+          "pages": [
+            25,
+            26,
+            27
+          ]
+        },
+        {
+          "path": "materiali/lezioni/2026-2027/01-presentazione-corso.pdf",
+          "pages": [
+            28,
+            29,
+            30
+          ]
+        }
+      ],
+      "rationale": "Il registro introduce OXO, moodboard e utilità/usabilità, ma non un esempio completo di servizio: scoperta, scelta, richiesta, conferma, modifica. I capitoli esistenti definiscono UX in generale; questa piccola integrazione rende concreta la continuità tra le fasi dell'esperienza.",
+      "draft": "L’esperienza di un servizio attraversa più momenti e schermate. In un sito di ristorante, una persona deve capire l’offerta, consultare ingredienti e allergeni, scegliere un tavolo, ricevere una conferma e poter modificare la prenotazione. La qualità non dipende soltanto dalla singola pagina: informazioni, comandi e risposte devono restare coerenti lungo il percorso, su dispositivi diversi e per persone con differenti esigenze.",
+      "caution": "È un esempio derivato dal brief didattico. Non trasferire nel capitolo gli elementi fantastici presenti nelle slide 2025–26, né norme per allergeni o affermazioni mediche."
+    },
+    {
+      "chapter": 1,
+      "title": "Fiducia e controllo nei sistemi intelligenti",
+      "local": [
+        {
+          "path": "materiali/lezioni/2026-2027/01-presentazione-corso.pdf",
+          "pages": [
+            25,
+            29,
+            30
+          ]
+        }
+      ],
+      "rationale": "Nuovo concetto sostanziale: rendere esplicito il rapporto tra decisione della persona e delega a un sistema, oltre all'estetica, alla funzione e alla semplice facilità d'uso. Nel registro non è già coperto.",
+      "draft": "Quando un servizio usa l’intelligenza artificiale, il progetto deve chiarire quale contributo offre il sistema e quali scelte restano alla persona. Occorre spiegare i dati richiesti, il risultato atteso e il livello di delega. Riepiloghi, conferme e possibilità di correggere gli errori aiutano a mantenere il controllo dell’esperienza e a valutare consapevolmente ciò che il servizio propone.",
+      "caution": "Le slide usano il 2050 come scenario progettuale. Presentare questo contenuto come criterio di progetto, senza affermare che servizi immaginati esistano già o che questi siano standard sufficienti per una AI sicura."
+    }
+  ],
+  "localStyleHooks": [
+    {
+      "topic": "Material Design",
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2025-2026/eleonora-faustini-910466.pdf",
+          "pages": [
+            14
+          ]
+        },
+        {
+          "path": "materiali/approfondimenti/2025-2026/eleonora-faustini-910466-7.pdf",
+          "pages": [
+            15
+          ]
+        },
+        {
+          "path": "materiali/approfondimenti/2025-2026/lo-faro-giacomo-870336.pdf",
+          "pages": [
+            9
+          ]
+        }
+      ],
+      "substance": "Faustini collega sistemi di design come Material e HIG alla coerenza tra piattaforme; Lo Faro cita dimensionamento dei target Material. È un aggancio diretto per una breve aggiunta C2 tra flat e materiali traslucidi.",
+      "verificationAlreadyAvailable": [
+        "https://developers.googleblog.com/en/this-is-material-design/",
+        "https://design.google/library/material-design-launch-2014"
+      ],
+      "limitation": "Il testo locale non documenta la cronologia del 2014 o tutti i principi di Material. Non riprendere le affermazioni di garanzia universale di intuitività o il dato sul 43% senza ricerca specifica."
+    },
+    {
+      "topic": "Tipografia variabile e adattabilità",
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2024-2025/palumbo-anna-916306.pdf",
+          "pages": [
+            12,
+            13
+          ]
+        }
+      ],
+      "substance": "La sezione 5.5 tratta webfont, fallback, coerenza e performance; le prospettive future parlano di font generati e interfacce personalizzate. È un aggancio per l'idea di tipografia adattabile; l'esempio Roboto Flex va aggiunto da documentazione Google.",
+      "verificationAlreadyAvailable": [
+        "https://codelabs.developers.google.com/migrating-variable-fonts",
+        "https://www.w3.org/TR/css-fonts-4/"
+      ],
+      "limitation": "La frase locale secondo cui tutti i Google Fonts supportano font variabili è errata e va esclusa. Non affermare che qualsiasi font variabile migliori sempre la performance."
+    },
+    {
+      "topic": "Creatività, omologazione e generazione",
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2024-2025/macri-silvia-886653-versione-40f1240b.pdf",
+          "pages": [
+            16,
+            17
+          ]
+        },
+        {
+          "path": "materiali/lezioni/2026-2027/01-presentazione-corso.pdf",
+          "pages": [
+            24,
+            25,
+            26,
+            30
+          ]
+        }
+      ],
+      "substance": "Macrì pone come domanda aperta il rischio di uniformità nei risultati generativi; le slide distinguono capacità già esistenti e ipotesi, personalizzazione, multimodalità e delega. Una integrazione C2 può contrapporre possibilità espressive e bisogno di controllo senza dichiarare una tendenza inevitabile.",
+      "verificationAlreadyAvailable": [
+        "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"
+      ],
+      "limitation": "Non convertire le riflessioni locali in risultati empirici sull'impatto dell'AI, né classificare il brief 2050 come previsione."
+    },
+    {
+      "topic": "Oltre WIMP: interfacce spaziali",
+      "local": [
+        {
+          "path": "materiali/approfondimenti/2023-2024/speziali-carolina-889372.pdf",
+          "pages": [
+            6,
+            7,
+            8,
+            9
+          ]
+        },
+        {
+          "path": "materiali/approfondimenti/2024-2025/macri-silvia-886653-versione-40f1240b.pdf",
+          "pages": [
+            17
+          ]
+        },
+        {
+          "path": "materiali/lezioni/2025-2026/01-introduzione-corso-esame.pdf",
+          "pages": [
+            31
+          ]
+        }
+      ],
+      "substance": "Speziali descrive il passaggio da documenti/finestre a oggetti 3D, relazione tra azione e presenza, menu nello spazio, widget, voce e gesti. Offre un collegamento solido dalla storia WIMP di C2 a nuovi ambiti; Apple visionOS è un esempio attuale verificabile.",
+      "verificationAlreadyAvailable": [
+        "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/"
+      ],
+      "limitation": "Le UI 2D possono convivere con lo spazio: non riprendere l'assoluto locale che WIMP sia sempre inefficace per tutti gli oggetti 3D. Evitare claim di 'naturale' o 'intuitivo' automatici."
+    },
+    {
+      "topic": "Sostenibilità ambientale del web",
+      "local": [],
+      "substance": "Non trovato un aggancio ambientale diretto pertinente nei testi recenti analizzati. 'Sostenibile' viene spesso usato per il carico cognitivo o per altri settori.",
+      "limitation": "WSG e Low-tech Magazine restano ampliamenti web autonomi; non attribuirli agli approfondimenti 2023–2026. La sostenibilità del fashion VR in Speziali p17 non prova quella di un sito web."
+    }
+  ],
+  "prioritization": "Se si vuole una sola nuova integrazione C1, scegliere fiducia/controllo perché aggiunge un criterio non già espresso dalle definizioni UX. Per C2 il ponte Material Design è il più diretto; post-WIMP spaziale è il secondo aggancio locale più solido.",
+  "filesScreened": "PDF nelle cartelle approfondimenti 2023-2024, 2024-2025 e 2025-2026, includendo le versioni. Gli estratti di ricerca sono in /tmp/c2-local-future-hooks.json."
+}

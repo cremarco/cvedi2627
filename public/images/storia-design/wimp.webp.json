@@ -1,0 +1,56 @@
+{
+  "version": 2,
+  "kind": "ai-generated-didactic-illustration",
+  "prompt": "Use case: scientific-educational.\nAsset type: editorial WIMP illustration inside an Italian printed design booklet; not a whole booklet page.\nInput images: Image 1 is the existing teal WIMP illustration, a CONCEPT AND COMPOSITION REFERENCE. Image 2 is the surrounding chapter page, a STYLE AND PALETTE REFERENCE. Redraw the illustration itself; do not reproduce the book page, its paragraph, header, folio or external caption.\nPrimary request: replace the teal WIMP graphic with a much cleaner, precise flat editorial illustration that follows Chapter 2. Preserve the original understandable desktop metaphor and the four accurately identified elements: Windows, Icons, Menus, Pointer.\nFormat: LANDSCAPE 3:2, ideally 1536×1024 or similar. Fill the useful canvas with the diagram; compact balanced composition, clear enough when printed only 417px wide. Sharp high quality, crisp lettering and lines.\nPalette: strict Chapter 2 palette — raspberry/magenta #C6005C for accents and labels, very pale pink #FCEBF3 sparingly for selected surfaces, white #FFFFFF background, near-black #030712 for readable body copy and cursor. NO teal, green, blue, gold, warm beige, photographic texture or gradients.\nTypography: bold geometric sans-serif headings resembling Geom; short explanation text in a readable book serif resembling Merriweather. Large clear labels, careful line spacing and alignment. Keep typography purposeful and elegant, not futuristic.\nComposition: one simple stylized desktop interface in the central area: THREE overlapping rectangular document windows with restrained white surfaces, thin near-black/magenta outlines, flat pale-pink title bars. Windows visibly overlap. The front window has a minimal image placeholder and short text rules; no detailed chart or tiny fake paragraphs. Near its top-left a visibly OPEN menu dropdown contains exactly \"Apri\", \"Salva\", \"Chiudi\". Along the bottom of the central desktop, show THREE clear conventional file/folder/trash icons, with no tiny labels. Show exactly ONE near-black conventional ARROW CURSOR near a selected file icon, clearly a cursor on the screen, NOT a mouse device.\nFour balanced editorial callouts around the desktop, closely following the original arrangement: M at upper left points to the actual open dropdown; I at lower left points to the row of file icons; W at upper right points to a window title bar; P at lower right points to the arrow cursor. Each uses a solid magenta circular badge with its white letter, followed by its magenta uppercase English term and the short near-black explanation. Fine magenta orthogonal connector lines with small circular endpoints recall the booklet's metro-map motif. Every connector must terminate on the CORRECT element; do not cross label text or make arbitrary decorative routes.\nExact callout copy:\n\"M\" \"MENUS\"\n\"I comandi sono raccolti in elenchi.\"\n\"I\" \"ICONS\"\n\"File e cartelle hanno rappresentazioni visive.\"\n\"W\" \"WINDOWS\"\n\"I documenti aperti occupano finestre sovrapposte.\"\n\"P\" \"POINTER\"\n\"Il cursore indica dove si agisce.\"\nAt top, one restrained magenta heading: \"PARADIGMA WIMP\".\nAt bottom, a single compact thin magenta path with four stations illustrates the action-feedback relation. Its four exact short labels are \"VEDI\", \"PUNTA\", \"CLICCA\", \"RISULTATO\". Small simple flat pictograms may accompany the stations but must not compete with the main four components.\nText accuracy: render only the words quoted above, perfectly spelled. No invented app names, tiny lorem ipsum, extra title, outer caption, page number, external source line, watermark or device hardware. No glossy cards, heavy shadows, 3D renders, glow, abstract blobs or photographic background. The result should feel like a clear book illustration made with consistent strokes and measured white space, preserving the explanatory substance while replacing the original teal styling with the chapter's magenta editorial language.\n",
+  "createdAt": "2026-10-06T09:38:14.201612+00:00",
+  "updatedAt": "2026-10-06T09:41:14.123581+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/wimp/wimp-v2.png",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10c4b-7d51-78a2-af29-31202d562c30/exec-409084bb-a6e1-422e-9fcf-930075482100.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2279-310"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2627",
+  "sourceFigmaImageNode": "2279:311",
+  "sourceFigmaFigureNode": "2279:310",
+  "bookletFolio": 51,
+  "bookletChapterOrdinal": 31,
+  "caption": "Paradigma WIMP: finestre, icone, menu e puntatore. Illustrazione didattica · Imagegen, 2026.",
+  "generationTool": "built-in image_gen.imagegen",
+  "generationManifest": "assets/booklet/capitolo-2/wimp/manifest-v2.json",
+  "promptPointer": {
+    "manifest": "assets/booklet/capitolo-2/wimp/manifest-v2.json",
+    "pointer": "/prompt"
+  },
+  "sourceSha256": "a4ae96b76dc7bd7df9a5399322763d291c87b66f194f4fa6cb279b1177798da1",
+  "outputSha256": "6c81f9bedcb6ba263ffffbe5a6d1e39ee7a6ebe3f93fef1f79160b363a338eb5",
+  "sourceDimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "outputDimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; complete source resolution retained",
+    "pixelRoundTripVerified": true
+  },
+  "originalFigmaBinding": {
+    "imageHash": "f274acbff582332c91b527bbe99e8ebd0b02db35",
+    "archiveNode": "2370:249"
+  },
+  "qa": {
+    "rawVisualReview": "passed",
+    "fourWimpConcepts": "Windows, Icons, Menus, Pointer",
+    "pointerIsCursorNotMouseDevice": true,
+    "calloutsIdentifyCorrectElements": true,
+    "copyChecked": true,
+    "chapterPalette": "magenta, pale pink, white, near black; no teal",
+    "copiedGeneratedBytesUnmodified": true
+  },
+  "sourceFigmaImageHash": "a7b191225962743faa63b2ca9e81fee46c5bfd53",
+  "figmaVerification": "assets/booklet/capitolo-2/wimp/snapshot-figma-v2.json"
+}

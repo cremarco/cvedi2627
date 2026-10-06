@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "key": "risorse",
+  "kind": "ai-generated-hypothetical-future-interface",
+  "prompt": "Use case: ui-mockup / scientific-educational.\nCreate ONE fresh, extremely crisp lightweight menu-first webpage for the same fictional café CAFFÈ LUCE. This is a concrete educational future-direction example, not a whole book page. LANDSCAPE 16:9, approximately 1600×900, with all UI content inside the image. Compose for a 350px print-width reproduction: very few large readable words, simple hierarchy, compact meaningful content. No outside title, caption, annotation, version number, watermark, browser chrome, laptop/phone frame or external surroundings.\nBrand and visual direction: classy warm opaque ivory, near-black typography, restrained deep teal links and one teal action control. Quiet high-quality sans-serif typography, precise thin horizontal rules, flat opaque surfaces. The fictional café subjects remain ordinary espresso, croissant and tea; do not invent a new business or theme.\nDesign a real coherent page where useful menu information appears immediately and dominates the experience, rather than huge photographs. A slim top header carries \"CAFFÈ LUCE\". A large section heading \"Il nostro menu\" directly beneath it. The menu is three clear spacious lines or aligned columns, each with exactly one large label: \"Caffè\", \"Croissant\", \"Tè\". Keep each menu label equally prominent and legible.\nONLY ONE small illustration anywhere in this page: a sharp limited-color dithered illustration of one espresso cup and saucer, placed tastefully near the header or menu edge. It should occupy less than one sixth of the useful canvas area, with intentional crisp pixel/dither texture—not blur. No other product illustrations, no dominant hero photo, no decorative leaf/planet/eco symbol, no badges.\nBelow the menu, make the actual opening hours clearly readable: \"Lun–Sab · 7–19\". Include one simple clearly intentional outlined or solid deep-teal secondary control labeled \"Carica immagini\", for optional image loading; it must not overshadow the text menu. Its role is understandable from the UI, no technical implementation copy is needed.\nEXACT COPY AND ONLY THESE WORDS: \"CAFFÈ LUCE\", \"Il nostro menu\", \"Caffè\", \"Croissant\", \"Tè\", \"Lun–Sab · 7–19\", \"Carica immagini\". Each phrase appears once. All accents, punctuation and numbers exactly preserved. Do not invent prices, file sizes, performance scores, emissions values, green statistics, sustainability claims, tooltips or explanatory paragraphs. No card grid, meaningless decorative boxes or blank unfinished huge panels. A simple polished useful café menu that makes the priority of content and optional images visually evident.",
+  "createdAt": "2026-10-06T09:04:59.046276+00:00",
+  "updatedAt": "2026-10-06T09:09:44.897381+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-2b6a-7353-a6ec-855b6bcc657b/exec-f834d731-6e9d-450c-9f63-088262e0d8c5.png",
+  "assetSourceFile": "assets/booklet/capitolo-2/direzioni-future/demo-risorse-v1.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-381"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2258:381",
+  "sourceFigmaImageNode": "2358:306",
+  "bookletFolio": 79,
+  "bookletChapterOrdinal": 59,
+  "bookletSourceRole": "hypothetical-future-concept",
+  "caption": "Ipotesi progettuale · Caffè Luce · Imagegen, 2026",
+  "generationManifest": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+  "promptPointer": {
+    "manifest": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+    "pointer": "/images/3/prompt",
+    "key": "risorse"
+  },
+  "generationQA": {
+    "manualExactCopy": true,
+    "manualNoInventedStatisticsOrEcoClaims": true,
+    "manualMenuFirstHierarchy": true,
+    "manualSingleSmallDitheredCoffeeIllustration": true,
+    "manualLegibleAt350pxPrintWidth": true,
+    "manualRasterQuality": "Passed; sharp large type, one small cup, ivory/near-black/teal palette.",
+    "copiedGeneratedBytesUnmodified": true,
+    "nativeWideAspectRatioVerified": true
+  },
+  "sourceSha256": "608dd774d172f81e66e0004cc27f4e5f25ab06cebaddb2ba625948cd436d274f",
+  "outputSha256": "f6da53eec0b0cd9408d673efb83ddb89af3fb94acb199677adfd09966ac1c5e3",
+  "sourceDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "outputDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; complete source resolution retained",
+    "pixelRoundTripVerified": true
+  }
+}

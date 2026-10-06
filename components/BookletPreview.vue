@@ -10,7 +10,7 @@ type Turn = { target: number; direction: 'forward' | 'backward' }
 
 const cover = manifest.cover.src
 const spreads: Spread[] = [{
-  left: { src: cover, alt: 'Retro del booklet', coverSide: 'left' },
+  left: { src: cover, alt: 'Retro della copertina', coverSide: 'left' },
   right: { src: cover, alt: 'Copertina di Comunicazione visiva e design delle interfacce', coverSide: 'right' },
   label: 'Copertina',
 }]
@@ -122,7 +122,7 @@ watch(prefersReducedMotion, reduced => {
 
 <template>
   <div class="booklet-preview" @keydown.left.stop.prevent="flip('backward')" @keydown.right.stop.prevent="flip('forward')" @pointerdown.stop @pointerup.stop @touchstart.stop @touchend.stop>
-    <div class="booklet-stage" role="group" aria-label="Anteprima sfogliabile del booklet" :aria-busy="!!turn">
+    <div class="booklet-stage" role="group" aria-label="Anteprima sfogliabile del materiale didattico" :aria-busy="!!turn">
       <div v-for="(page, side) in underPages" :key="side" class="booklet-page" :class="[side ? 'booklet-page-right' : 'booklet-page-left', page.coverSide ? `booklet-cover-${page.coverSide}` : '']">
         <img :src="publicAsset(page.src)" :alt="page.alt" width="959" height="1282" draggable="false" />
       </div>
@@ -134,7 +134,7 @@ watch(prefersReducedMotion, reduced => {
       <button class="btn btn-ghost booklet-page-button booklet-hit-left" type="button" aria-label="Sfoglia la pagina a sinistra" :disabled="index === 0 || !!turn" @click.stop="flip('backward')" />
       <button class="btn btn-ghost booklet-page-button booklet-hit-right" type="button" aria-label="Sfoglia la pagina a destra" :disabled="index === spreads.length - 1 || !!turn" @click.stop="flip('forward')" />
     </div>
-    <nav class="booklet-controls" aria-label="Sfoglia il booklet" @click.stop>
+    <nav class="booklet-controls" aria-label="Sfoglia le pagine" @click.stop>
       <button class="btn btn-sm btn-ghost" type="button" :aria-disabled="index === 0 || !!turn" @click="flip('backward')">
         <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" /></svg>
         Indietro

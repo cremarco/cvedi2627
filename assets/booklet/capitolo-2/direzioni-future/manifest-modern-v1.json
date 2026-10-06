@@ -1,0 +1,94 @@
+[
+  {
+    "key": "spaziale",
+    "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/direzioni-future/demo-spaziale-v1.png",
+    "prompt": "Use case: precise-object-edit.\nEdit target: the attached wide 16:9 CAFFÈ LUCE spatial UI illustration.\nPreserve the current readable large typography, all eight exact labels (\"CAFFÈ LUCE\", \"Il nostro menu\", \"Caffè\", \"Croissant\", \"Tè\", \"Menu\", \"Il locale\", \"Contatti\"), the quiet teal/ivory/wood café palette, the image format and balanced arrangement.\nTargeted correction: the large cream menu MUST clearly be a floating DIGITAL SPATIAL INTERFACE WINDOW, not a physical wooden sign. REMOVE ITS WOODEN PICTURE FRAME COMPLETELY. Keep an OPAQUE IVORY rounded rectangular content surface, with crisp dark-teal text, an extremely fine pale digital edge, and a clearly visible gap below it above the café counter. It hovers in its own middle/back plane, not attached to anything. Do not make this content translucent and do not blur any label.\nThe translucent glass navigation toolbar in the foreground must likewise be visibly hovering ABOVE the counter, separated from the opaque menu in a FRONT plane. Maintain its three exact large labels, restrained glass refraction and existing clear selected Menu control. Add only a subtle separate shadow below the toolbar to communicate the gap; NO arrows or diagram text.\nThe single espresso cup at right must read as an independent smooth, deliberately modeled 3D spatial volume adjacent to the window, with amber coffee and no extra cup. Lift the cup and saucer slightly above the counter, with a restrained teal edge around its virtual display footprint and a separated soft shadow. It is not a photograph of a cup glued to a wooden sign.\nRemove the duplicate lettering and branding from the cup and the blurred rear wall; make those background regions quiet plain material / a restrained leaf motif without words. Keep ONLY the eight specified UI labels. Keep daylight and warm wood subtle, no cyberpunk, no neon environment, no invented metrics, no watermark. The result should unmistakeably show independent digital content, foreground digital controls, and a 3D object in one restrained spatial café context. All labels large and readable at 350×197 display, full 16:9 composition inside frame, no cropping.",
+    "sourceGen": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-53680547-8bc2-4f02-9bad-4bf3fe2d4f60.png",
+    "builtInTool": "image_gen.imagegen",
+    "mode": "edit",
+    "requestedFormat": "16:9",
+    "qa": {
+      "complete": true,
+      "copyChecked": true,
+      "controlsContentSeparated": true,
+      "opaqueLegibleContent": true,
+      "frontTranslucentToolbar": true,
+      "independent3DVolume": true,
+      "restrainedCafeSetting": true,
+      "noInventedMetrics": true,
+      "note": "Passed after targeted edit: wooden frame removed, menu and toolbar visibly hover in separate planes, coffee volume floats adjacent, duplicate background branding removed.",
+      "labels": [
+        "CAFFÈ LUCE",
+        "Il nostro menu",
+        "Caffè",
+        "Croissant",
+        "Tè",
+        "Menu",
+        "Il locale",
+        "Contatti"
+      ]
+    },
+    "previousGeneration": {
+      "sourceGen": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-9d35559d-8f74-4678-b326-3ab5cafdf3d6.png",
+      "prompt": "Use case: ui-mockup.\nAsset type: compact 16:9 landscape educational UI illustration for a printed design booklet. Render a fresh concrete future-direction example for the neutral Italian café CAFFÈ LUCE. This is NOT a whole booklet page or a browser screenshot with tiny text.\nComposition: restrained believable spatial café setting with soft daylight, ivory and warm wood, muted teal accents. Show one large upright OPAQUE IVORY MENU CONTENT PANEL in the middle/background plane. Its text must remain dark teal, crisp, high contrast and fully legible, with NO transparency or blurred lettering. Show a clearly SEPARATE TRANSLUCENT FLOATING NAVIGATION TOOLBAR in a distinct FRONT plane, lower left/center, visibly in front of the content panel but not covering any menu text. Depth is communicated through controlled perspective, separated positions, shadows and restrained glass refraction ONLY on this toolbar. Add exactly ONE clearly modeled 3D espresso cup with amber coffee, adjacent to the menu panel at the right, as an independent spatial volume, fully inside the composition. The café setting is subtle and restrained so that the two UI layers and cup are unmistakable.\nContent panel exact labels, with spacious alignment:\n\"CAFFÈ LUCE\"\n\"Il nostro menu\"\n\"Caffè\"\n\"Croissant\"\n\"Tè\"\nFloating front toolbar exact labels:\n\"Menu\"   \"Il locale\"   \"Contatti\"\nTypography: very large clear rounded humanist sans-serif, generous weight and spacing. Design for every label to remain readable when this whole image is displayed only 350 pixels wide; use few large words rather than small detailed UI. All Italian accents must be perfect: C A F F È; T È. Keep the labels exactly as written. Sparse compact UI, no prices, no additional prose, no footer, no captions outside the UI.\nStyle: calm professionally composed spatial-interface illustration, ivory content, dark teal lettering, glass controls, one matte ceramic/3D cup, warm wooden background, controlled natural depth. Large balanced elements occupying most of the 16:9 image. No cyberpunk, no sci-fi HUD, no neon blue environment, no abstract diagram arrows, no invented metrics, no watermark. Output landscape 16:9, ideally 1600×900, sharp high-quality raster.\nUse a WIDE 16:9 frame. The entire compact composition must be legible in a 350×197 printed demonstration image; make labels unusually large, remove any nonessential surrounding padding, and avoid a distant device mockup. Keep every label inside the frame.",
+      "discarded": true,
+      "reason": "Menu looked like a physical wooden café placard."
+    },
+    "dimensions": {
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "requested": "16:9",
+      "printDisplay": {
+        "width": 350,
+        "height": 197
+      }
+    },
+    "sha256": "ea65f0e70819b0fa4ffe5c1a45f65384aded786c137120618311ab5a2e698f3d"
+  },
+  {
+    "key": "generativa",
+    "destination": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/direzioni-future/demo-generativa-v1.png",
+    "prompt": "Use case: ui-mockup.\nAsset type: compact 16:9 landscape educational UI illustration for a printed design booklet. Render a fresh concrete future-direction example for the neutral Italian café CAFFÈ LUCE. A calm ivory-and-teal desktop interface demonstrates a task-specific structured proposal with visible human control, NOT a chat conversation or a whole booklet page.\nComposition: one clean compact application panel, mostly filling the 16:9 frame, with generous spacing and very large readable dark-teal typography. A thin restrained teal header carries the brand \"CAFFÈ LUCE\". Under it show the explicit user request \"Una pausa per due\" as a large single request line, not a speech bubble. Main heading \"La tua pausa\". A small but clearly legible source strip labeled \"Menu del locale\" identifies grounding. Under the heading show THREE distinct useful product rows with small crisp simple café product illustrations at left, large exact labels in the middle and simple editable quantity controls at right. Each quantity control is visibly a minus button, a number, and a plus button, not an action that has already executed.\nRow labels and sensible editable quantities:\n\"Caffè\"    − 1 +\n\"Croissant\"    − 2 +\n\"Tè\"    − 1 +\nCoffee illustration is one espresso cup with saucer, croissant one recognizable pastry, tea one cup of amber tea. Keep illustrations compact; labels and controls are the dominant useful content.\nBelow the rows show exact clear status \"Proposta da verificare\". At bottom show TWO large actions side by side: \"Modifica\" as an outlined teal button and \"Conferma\" as a filled teal button. The composition visibly remains a proposal awaiting a person's review, not a purchase confirmation. There is no total, no prices, no invented arithmetic, no score or AI performance metrics.\nExact sparse copy ONLY: \"CAFFÈ LUCE\", \"Una pausa per due\", \"La tua pausa\", \"Menu del locale\", \"Caffè\", \"Croissant\", \"Tè\", \"Proposta da verificare\", \"Modifica\", \"Conferma\". Preserve spelling, capitalization and accents perfectly.\nTypography: clear large rounded humanist sans-serif, dark teal on opaque ivory. Design so EVERY label remains readable when the WHOLE image is shown at only 350 pixels wide; avoid small notes, tiny browser chrome or lots of dense extra controls. Large simple row labels, quantity digits and button labels, consistent calm hierarchy. No speech bubbles, no chatbot avatar, no decoration that competes with content, no extra copy, no footer, no captions outside the UI, no watermark. Output landscape 16:9, ideally 1600×900, sharp high-quality raster.\nUse a WIDE 16:9 frame. The entire compact composition must be legible in a 350×197 printed demonstration image; make labels unusually large, remove any nonessential surrounding padding, and avoid a distant device mockup. Keep every label inside the frame.",
+    "sourceGen": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-791c09dc-dfdb-4705-95b7-d285899ec137.png",
+    "builtInTool": "image_gen.imagegen",
+    "mode": "generate",
+    "requestedFormat": "16:9",
+    "qa": {
+      "complete": true,
+      "copyChecked": true,
+      "taskSpecificStructuredProposal": true,
+      "threeProductRows": true,
+      "editableQuantityControls": true,
+      "groundingSourceStrip": true,
+      "humanReviewStatus": true,
+      "editAndConfirmActions": true,
+      "noPricesOrTotals": true,
+      "notAChatConversation": true,
+      "labels": [
+        "CAFFÈ LUCE",
+        "Una pausa per due",
+        "La tua pausa",
+        "Menu del locale",
+        "Caffè",
+        "Croissant",
+        "Tè",
+        "Proposta da verificare",
+        "Modifica",
+        "Conferma"
+      ],
+      "note": "Passed: quantity controls show Caffè 1, Croissant 2, Tè 1; review status precedes Modifica/Conferma. Large readable labels."
+    },
+    "dimensions": {
+      "width": 1672,
+      "height": 941,
+      "aspectRatio": 1.7768331562167907,
+      "requested": "16:9",
+      "printDisplay": {
+        "width": 350,
+        "height": 197
+      }
+    },
+    "sha256": "3274b0146cfe35625ce90d6a55a28875f921da7b04e1fa32d5438e915479fe75"
+  }
+]

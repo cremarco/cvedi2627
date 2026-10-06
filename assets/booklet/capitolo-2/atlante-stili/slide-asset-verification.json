@@ -1,0 +1,670 @@
+{
+  "createdAt": "2026-10-05T23:33:37.201465+00:00",
+  "planFile": "/tmp/c2-slide-atlas-assets.json",
+  "figmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "chapterPages": 66,
+  "conversions": [
+    {
+      "key": "demo-html",
+      "path": "public/images/storia-design/atlante/demo-html.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-html.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "7a49bf8d34a27568e290b515068fef94fcbd24aec3e2777c8139c68de9868825",
+      "sourceFigmaNode": "198:2319",
+      "bookletFolio": 53,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png",
+      "sourceSha256": "15230ebad06c61c0e15bbccd71978261f38ff29e8a6f0d547b68686b9e0d102a",
+      "createdAt": "2026-10-06T07:50:02.262200+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-early.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-html-slide",
+      "path": "public/images/storia-design/atlante/real-html-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-html-slide.webp.json",
+      "sourceDimensions": [
+        1000,
+        900
+      ],
+      "outputDimensions": [
+        1000,
+        900
+      ],
+      "outputSha256": "b9800816390586ff946441f0ac981eba198d414aacc6ff9352b762e654fca9cf",
+      "sourceFigmaNode": "2326:254",
+      "bookletFolio": 54,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-web2",
+      "path": "public/images/storia-design/atlante/demo-web2.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-web2.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "ada3b307d169e40e450e6d73325900f70170427a204776e40c0fe3b81fd26d93",
+      "sourceFigmaNode": "198:2652",
+      "bookletFolio": 55,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+      "sourceSha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1",
+      "createdAt": "2026-10-06T07:51:45.904248+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-early.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-web2-slide",
+      "path": "public/images/storia-design/atlante/real-web2-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-web2-slide.webp.json",
+      "sourceDimensions": [
+        1100,
+        900
+      ],
+      "outputDimensions": [
+        1100,
+        900
+      ],
+      "outputSha256": "e91239e69002648675b70663dfe2ad603871b5108d622403a7b24bd59e160244",
+      "sourceFigmaNode": "2326:283",
+      "bookletFolio": 56,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-scheu",
+      "path": "public/images/storia-design/atlante/demo-scheu.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-scheu.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "4f60d9ff656790e7c6dd656884589d005f00085d18699497f8997dda2425559f",
+      "sourceFigmaNode": "198:2345",
+      "bookletFolio": 57,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png",
+      "sourceSha256": "89b76c34c0e24404d9527efafff73ced31899f98337fa726feaa3e69074d950c",
+      "createdAt": "2026-10-06T07:53:54.047835+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-early.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-scheu-slide",
+      "path": "public/images/storia-design/atlante/real-scheu-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-scheu-slide.webp.json",
+      "sourceDimensions": [
+        1004,
+        586
+      ],
+      "outputDimensions": [
+        1004,
+        586
+      ],
+      "outputSha256": "ac05225af37f88b573c54d338e9578704ea88c4407eb4ad2409beb2a2e5421d5",
+      "sourceFigmaNode": "2326:312",
+      "bookletFolio": 58,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-flat",
+      "path": "public/images/storia-design/atlante/demo-flat.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-flat.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "a9aae7594e4461b47357d1095044e8e67dceda3350b623e84e14b4a9cb3d7980",
+      "sourceFigmaNode": "198:2675",
+      "bookletFolio": 59,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "sourceSha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755",
+      "createdAt": "2026-10-06T07:50:42.541083+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-root.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-flat-slide",
+      "path": "public/images/storia-design/atlante/real-flat-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-flat-slide.webp.json",
+      "sourceDimensions": [
+        1200,
+        900
+      ],
+      "outputDimensions": [
+        1200,
+        900
+      ],
+      "outputSha256": "a9a88cc941021bf2b75df96392a40ac10626d1e262bb226eb3f57a58624ed887",
+      "sourceFigmaNode": "2326:341",
+      "bookletFolio": 60,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-material",
+      "path": "public/images/storia-design/atlante/demo-material.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-material.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "e03e70cb8821901f0eb91a0556e2c9e737871c504cf5eb37c0040a7375fe4726",
+      "sourceFigmaNode": "198:2381",
+      "bookletFolio": 61,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+      "sourceSha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362",
+      "createdAt": "2026-10-06T07:50:08.138595+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-root.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-material-slide",
+      "path": "public/images/storia-design/atlante/real-material-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-material-slide.webp.json",
+      "sourceDimensions": [
+        1440,
+        840
+      ],
+      "outputDimensions": [
+        1440,
+        840
+      ],
+      "outputSha256": "621f9a5a27b62fff272fd0407bd0219fa36df7dfa6859e6c6a28d657d00aaa32",
+      "sourceFigmaNode": "2326:370",
+      "bookletFolio": 62,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-neumo",
+      "path": "public/images/storia-design/atlante/demo-neumo.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-neumo.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "410268639dd5223dfaeaa6d999eadb0bfe692a14f16ce929a9e86fca72823755",
+      "sourceFigmaNode": "198:2363",
+      "bookletFolio": 63,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+      "sourceSha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f",
+      "createdAt": "2026-10-06T07:56:13.812213+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-neumo-slide",
+      "path": "public/images/storia-design/atlante/real-neumo-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-neumo-slide.webp.json",
+      "sourceDimensions": [
+        1200,
+        760
+      ],
+      "outputDimensions": [
+        1200,
+        760
+      ],
+      "outputSha256": "60a2df08a100bf3ac69d0c4c1a64d9ad9c636c87b7e2d8d803aa7154b2c8c92f",
+      "sourceFigmaNode": "2326:399",
+      "bookletFolio": 64,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-glass",
+      "path": "public/images/storia-design/atlante/demo-glass.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-glass.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "022d36b31c331dff9cdf3b14270c93d0877e18e0c03f80e11c2149cba7ba537f",
+      "sourceFigmaNode": "198:2688",
+      "bookletFolio": 65,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+      "sourceSha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f",
+      "createdAt": "2026-10-06T07:52:47.513777+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-glass-slide",
+      "path": "public/images/storia-design/atlante/real-glass-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-glass-slide.webp.json",
+      "sourceDimensions": [
+        4000,
+        2500
+      ],
+      "outputDimensions": [
+        1600,
+        1000
+      ],
+      "outputSha256": "5e6fa372284493a8a6c9f67c93f47cb7a64d47c52716dcad4632ddea57f71500",
+      "sourceFigmaNode": "2326:428",
+      "bookletFolio": 66,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-minimal",
+      "path": "public/images/storia-design/atlante/demo-minimal.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-minimal.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "8a7ed773f8cf6d9963e32b54f56fc5147f7087a31ca8f1f0f0fc6697abe99eda",
+      "sourceFigmaNode": "198:2701",
+      "bookletFolio": 67,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+      "sourceSha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12",
+      "createdAt": "2026-10-06T07:50:10.150314+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-slides.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-minimal-slide",
+      "path": "public/images/storia-design/atlante/real-minimal-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-minimal-slide.webp.json",
+      "sourceDimensions": [
+        1440,
+        900
+      ],
+      "outputDimensions": [
+        1440,
+        900
+      ],
+      "outputSha256": "5ba9fcc639fb6f4d7436885df80adc5bcb640623a7b19d3baaf184d340ed7899",
+      "sourceFigmaNode": "2326:457",
+      "bookletFolio": 68,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-y2k",
+      "path": "public/images/storia-design/atlante/demo-y2k.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-y2k.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "461669877374be3ebb36601207228faddc0a49a727f56b28fb11e7d67c5eb9a1",
+      "sourceFigmaNode": "198:2399",
+      "bookletFolio": 69,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+      "sourceSha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d",
+      "createdAt": "2026-10-06T07:52:47.514324+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-y2k-slide",
+      "path": "public/images/storia-design/atlante/real-y2k-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-y2k-slide.webp.json",
+      "sourceDimensions": [
+        1800,
+        952
+      ],
+      "outputDimensions": [
+        1600,
+        846
+      ],
+      "outputSha256": "92b31a44106e13f59e47c0e119484ec44b1ec9ee298f1bc683aa94027ff79186",
+      "sourceFigmaNode": "2326:486",
+      "bookletFolio": 70,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-max",
+      "path": "public/images/storia-design/atlante/demo-max.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-max.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "c40d60604a873dc4c022c814089f46574fa3bb76d4cba6cf48cf7f0766980d38",
+      "sourceFigmaNode": "198:2715",
+      "bookletFolio": 71,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+      "sourceSha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3",
+      "createdAt": "2026-10-06T07:54:20.302280+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-max-slide",
+      "path": "public/images/storia-design/atlante/real-max-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-max-slide.webp.json",
+      "sourceDimensions": [
+        1440,
+        900
+      ],
+      "outputDimensions": [
+        1440,
+        900
+      ],
+      "outputSha256": "9777880aa0cb629e7d6d07a2635b2344197de363d6f0420c2e49032a93f313ef",
+      "sourceFigmaNode": "2326:515",
+      "bookletFolio": 72,
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-neo",
+      "path": "public/images/storia-design/atlante/demo-neo.webp",
+      "sidecar": "public/images/storia-design/atlante/demo-neo.webp.json",
+      "sourceDimensions": [
+        1448,
+        1086
+      ],
+      "outputDimensions": [
+        1448,
+        1086
+      ],
+      "outputSha256": "634569072b6aba77abf5536718ab7aded08a7f9597557454079caf4247b225e5",
+      "sourceFigmaNode": "198:2418",
+      "bookletFolio": 73,
+      "pixelRoundTripVerified": true,
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+      "sourceSha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f",
+      "createdAt": "2026-10-06T07:50:51.418302+00:00",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "resample": "none; exact source dimensions retained",
+      "generationManifest": "/tmp/c2-demo-images-v2-slides.json",
+      "generationTool": "built-in image_gen.imagegen"
+    },
+    {
+      "key": "real-neo-slide",
+      "path": "public/images/storia-design/atlante/real-neo-slide.webp",
+      "sidecar": "public/images/storia-design/atlante/real-neo-slide.webp.json",
+      "sourceDimensions": [
+        1440,
+        900
+      ],
+      "outputDimensions": [
+        1440,
+        900
+      ],
+      "outputSha256": "74f167f9c3ee04cea7113a50559cfbeb0d725e4dbe126626804a0073dcc9602e",
+      "sourceFigmaNode": "2326:544",
+      "bookletFolio": 74,
+      "pixelRoundTripVerified": true
+    }
+  ],
+  "existingMetadataUpdates": [
+    {
+      "path": "public/images/storia-design/apple-liquid-glass-dark.webp.json",
+      "sourceFigmaNode": "2258:317",
+      "beforeFolio": 66,
+      "afterFolio": 77,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/apple-spatial-window.webp.json",
+      "sourceFigmaNode": "2258:317",
+      "beforeFolio": 66,
+      "afterFolio": 77,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/gumroad-2026.webp.json",
+      "sourceFigmaNode": "198:2418",
+      "beforeFolio": 63,
+      "afterFolio": 73,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/apple-liquid-glass-light.webp.json",
+      "sourceFigmaNode": "2258:317",
+      "beforeFolio": 66,
+      "afterFolio": 77,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/fluent-acrylic.webp.json",
+      "sourceFigmaNode": "198:2688",
+      "beforeFolio": 59,
+      "afterFolio": 65,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/google-variable-font.webp.json",
+      "sourceFigmaNode": "2258:295",
+      "beforeFolio": 65,
+      "afterFolio": 76,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/lowtech-magazine-2026.webp.json",
+      "sourceFigmaNode": "2258:381",
+      "beforeFolio": 68,
+      "afterFolio": 79,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/apple-spatial-volume.webp.json",
+      "sourceFigmaNode": "2258:317",
+      "beforeFolio": 66,
+      "afterFolio": 77,
+      "sourcePreserved": true
+    },
+    {
+      "path": "public/images/storia-design/google-generative-ui.webp.json",
+      "sourceFigmaNode": "2258:352",
+      "beforeFolio": 67,
+      "afterFolio": 78,
+      "sourcePreserved": true
+    }
+  ],
+  "originalsUnmodified": true,
+  "versionUpdates": [
+    {
+      "key": "demo-html",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png",
+      "sourceSha256": "15230ebad06c61c0e15bbccd71978261f38ff29e8a6f0d547b68686b9e0d102a",
+      "outputSha256": "7a49bf8d34a27568e290b515068fef94fcbd24aec3e2777c8139c68de9868825",
+      "createdAt": "2026-10-06T07:50:02.262200+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-early.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-web2",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+      "sourceSha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1",
+      "outputSha256": "ada3b307d169e40e450e6d73325900f70170427a204776e40c0fe3b81fd26d93",
+      "createdAt": "2026-10-06T07:51:45.904248+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-early.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-scheu",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png",
+      "sourceSha256": "89b76c34c0e24404d9527efafff73ced31899f98337fa726feaa3e69074d950c",
+      "outputSha256": "4f60d9ff656790e7c6dd656884589d005f00085d18699497f8997dda2425559f",
+      "createdAt": "2026-10-06T07:53:54.047835+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-early.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-flat",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "sourceSha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755",
+      "outputSha256": "a9aae7594e4461b47357d1095044e8e67dceda3350b623e84e14b4a9cb3d7980",
+      "createdAt": "2026-10-06T07:50:42.541083+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-root.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-material",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+      "sourceSha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362",
+      "outputSha256": "e03e70cb8821901f0eb91a0556e2c9e737871c504cf5eb37c0040a7375fe4726",
+      "createdAt": "2026-10-06T07:50:08.138595+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-root.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-neumo",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+      "sourceSha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f",
+      "outputSha256": "410268639dd5223dfaeaa6d999eadb0bfe692a14f16ce929a9e86fca72823755",
+      "createdAt": "2026-10-06T07:56:13.812213+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-glass",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+      "sourceSha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f",
+      "outputSha256": "022d36b31c331dff9cdf3b14270c93d0877e18e0c03f80e11c2149cba7ba537f",
+      "createdAt": "2026-10-06T07:52:47.513777+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-minimal",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+      "sourceSha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12",
+      "outputSha256": "8a7ed773f8cf6d9963e32b54f56fc5147f7087a31ca8f1f0f0fc6697abe99eda",
+      "createdAt": "2026-10-06T07:50:10.150314+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-slides.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-y2k",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+      "sourceSha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d",
+      "outputSha256": "461669877374be3ebb36601207228faddc0a49a727f56b28fb11e7d67c5eb9a1",
+      "createdAt": "2026-10-06T07:52:47.514324+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-max",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+      "sourceSha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3",
+      "outputSha256": "c40d60604a873dc4c022c814089f46574fa3bb76d4cba6cf48cf7f0766980d38",
+      "createdAt": "2026-10-06T07:54:20.302280+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    },
+    {
+      "key": "demo-neo",
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+      "sourceSha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f",
+      "outputSha256": "634569072b6aba77abf5536718ab7aded08a7f9597557454079caf4247b225e5",
+      "createdAt": "2026-10-06T07:50:51.418302+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-slides.json",
+      "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+      "pixelRoundTripVerified": true
+    }
+  ]
+}

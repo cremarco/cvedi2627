@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-06",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2008:1740",
+  "case": "Caffè Luce",
+  "method": "Concept illustrations generated with built-in Imagegen; native editable booklet text and captions; authentic source images retained separately",
+  "pageCount": 66,
+  "pages": [
+    {
+      "key": "adattabile",
+      "page": "2258:295",
+      "oldMain": "2258:305",
+      "title": "2258:306",
+      "body": "2258:307",
+      "cap": "2258:311",
+      "x": 74,
+      "folio": 76,
+      "caption": "Ipotesi progettuale · Caffè Luce. Schermo ampio e stretto: cambiano larghezza, peso e disposizione, restano i ruoli. Imagegen, 2026.",
+      "note": "Una gerarchia stabile permette di adattare il carattere delle lettere senza disorientare. Espressività, deformazioni e movimento vanno dosati per proteggere la lettura.",
+      "sources": [
+        {
+          "id": "2258:309",
+          "cap": "2258:311",
+          "w": 110,
+          "h": 83.11872863769531,
+          "caption": "Assi di Roboto Flex.\nGoogle Developers.",
+          "url": "https://codelabs.developers.google.com/migrating-variable-fonts"
+        }
+      ],
+      "draftDescription": "I caratteri variabili modificano peso, larghezza e altri assi previsti dal progetto. Roboto Flex ne mostra le possibilità; Material 3 Expressive combina forme, colore e movimento. Nell’ipotesi per Caffè Luce, il titolo si adatta allo spazio mentre menu e comandi mantengono una gerarchia riconoscibile.",
+      "description": "I caratteri variabili permettono di modificare peso, larghezza e altre qualità delle lettere entro gli assi previsti dal progetto. Roboto Flex mostra come una famiglia possa adattare titoli e testi a ruoli differenti. Material 3 Expressive combina invece forme, colore e movimento per dare maggiore identità alle interfacce. Una possibile direzione è un linguaggio visivo che cambia con lo spazio e le preferenze della persona, mantenendo gerarchie riconoscibili. L’espressività richiede misura: deformazioni e animazioni non devono ostacolare la lettura.",
+      "draftBold": [
+        "caratteri variabili",
+        "Roboto Flex",
+        "gerarchia riconoscibile"
+      ],
+      "nativeBodyFormatting": "Original Merriweather regular/bold ranges preserved"
+    },
+    {
+      "key": "spaziale",
+      "page": "2258:317",
+      "oldMain": "2258:327",
+      "title": "2258:328",
+      "body": "2258:329",
+      "cap": "2258:334",
+      "x": 60,
+      "folio": 77,
+      "caption": "Ipotesi progettuale · Caffè Luce. Comandi su un piano distinto, menu opaco e tazza come volume 3D. Imagegen, 2026.",
+      "sources": [
+        {
+          "id": "2258:332",
+          "cap": "2258:334",
+          "w": 80,
+          "h": 80,
+          "caption": "Liquid Glass, chiaro.\nApple HIG.",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/materials"
+        },
+        {
+          "id": "2258:337",
+          "cap": "2258:339",
+          "w": 80,
+          "h": 80,
+          "caption": "Liquid Glass, scuro.\nApple HIG.",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/materials"
+        },
+        {
+          "id": "2258:343",
+          "cap": "2258:345",
+          "w": 84.75,
+          "h": 54,
+          "caption": "Finestra in visionOS.\nApple HIG.",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/"
+        },
+        {
+          "id": "2258:348",
+          "cap": "2258:350",
+          "w": 84.75,
+          "h": 54,
+          "caption": "Volume in visionOS.\nApple HIG.",
+          "url": "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/"
+        }
+      ],
+      "draftDescription": "Profondità e materiali possono distinguere contenuti e strumenti. visionOS colloca finestre e volumi nello spazio; Liquid Glass separa controlli e navigazione dal contenuto. Nell’ipotesi per Caffè Luce, i comandi occupano un livello distinto e il menu resta leggibile. Trasparenze e livelli richiedono misura.",
+      "description": "La profondità può distinguere contenuti, strumenti e stati dell’interfaccia. Nelle linee guida di visionOS, finestre e volumi occupano uno spazio percepibile attraverso distanza, occlusione e ombre. Liquid Glass organizza invece controlli e navigazione sopra il contenuto con un materiale dinamico. Questi esempi aprono una possibile direzione: superfici capaci di adattarsi al contesto e comunicare relazioni. La tridimensionalità serve quando chiarisce il compito. Testi sospesi, livelli eccessivi o trasparenze indiscriminate possono aumentare fatica e ambiguità.",
+      "draftBold": [
+        "Profondità",
+        "visionOS",
+        "Liquid Glass",
+        "livello distinto"
+      ],
+      "nativeBodyFormatting": "Original Merriweather regular/bold ranges preserved"
+    },
+    {
+      "key": "generativa",
+      "page": "2258:352",
+      "oldMain": "2258:362",
+      "title": "2258:363",
+      "body": "2258:364",
+      "cap": "2258:368",
+      "x": 74,
+      "folio": 78,
+      "caption": "Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+      "note": "La persona verifica e corregge la proposta prima di confermare. Stato, provenienza e recupero dagli errori devono restare leggibili; tempi di generazione ed errori richiedono attenzione.",
+      "sources": [
+        {
+          "id": "2258:366",
+          "cap": "2258:368",
+          "w": 152,
+          "h": 51.084999084472656,
+          "caption": "Interfacce generative.\nGoogle Research, 2025.",
+          "url": "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"
+        }
+      ],
+      "draftDescription": "Un’interfaccia generativa può proporre strumenti in risposta a una richiesta. Google Research sperimenta pagine, giochi e simulazioni. Nell’ipotesi per Caffè Luce, «Una pausa per due» diventa una proposta modificabile: quantità, provenienza e conferma restano visibili.",
+      "description": "Un’interfaccia generativa può costruire strumenti e visualizzazioni in risposta a una richiesta, invece di restituire soltanto testo. Gli esperimenti di Google Research mostrano pagine, giochi e simulazioni creati in funzione del compito. La possibile evoluzione riguarda anche lo stile: la stessa informazione potrebbe assumere forme diverse per una persona o un contesto. La ricerca segnala però tempi di generazione e inesattezze. Occorrono controlli stabili, indicazioni sulla provenienza dei contenuti e possibilità di correggere il risultato senza perdere orientamento.",
+      "draftBold": [
+        "interfaccia generativa",
+        "Google Research",
+        "proposta modificabile"
+      ],
+      "nativeBodyFormatting": "Original Merriweather regular/bold ranges preserved"
+    },
+    {
+      "key": "risorse",
+      "page": "2258:381",
+      "oldMain": "2258:391",
+      "title": "2258:392",
+      "body": "2258:393",
+      "cap": "2258:397",
+      "x": 60,
+      "folio": 79,
+      "caption": "Ipotesi progettuale · Caffè Luce. Menu e orari subito disponibili, immagini facoltative. Imagegen, 2026.",
+      "note": "Menu e orari restano disponibili senza caricare altre immagini. Il comando rende esplicita la scelta. Il risultato va verificato su connessioni lente e con tecnologie assistive, mantenendo qualità e disponibilità del servizio.",
+      "sources": [
+        {
+          "id": "2258:395",
+          "cap": "2258:397",
+          "w": 175.5,
+          "h": 98.71875,
+          "caption": "Sito solare di Low-tech\nMagazine, ottobre 2026.",
+          "url": "https://solar.lowtechmagazine.com/"
+        }
+      ],
+      "draftDescription": "La leggerezza può orientare immagini, tipografia e movimento. Low-tech Magazine mostra un sito statico con immagini retinate e server solare. Nell’ipotesi per Caffè Luce, menu e orari hanno priorità; le immagini si caricano su richiesta. Risorse, accessibilità e qualità del servizio vanno misurate.",
+      "description": "La leggerezza può diventare una scelta visiva oltre che tecnica: immagini selezionate, tipografia ottimizzata e movimento proporzionato rendono più intenzionale la pagina. Le Web Sustainability Guidelines collegano esperienza, sviluppo e infrastrutture; a ottobre 2026 sono ancora una bozza W3C. Low-tech Magazine offre un caso concreto: sito statico, immagini retinate e server alimentato dal sole. Non esiste però un’estetica automaticamente sostenibile. Vanno misurati risorse e risultati, mantenendo accessibilità e qualità del servizio; un sito solare può anche andare offline.",
+      "draftBold": [
+        "leggerezza",
+        "Low-tech Magazine",
+        "su richiesta",
+        "vanno misurate"
+      ],
+      "nativeBodyFormatting": "Original Merriweather regular/bold ranges preserved"
+    }
+  ],
+  "layout": {
+    "contentWidth": 363,
+    "demoWidth": 350,
+    "demoHeight": 196.97966,
+    "nativeTypography": [
+      "Geom Bold",
+      "Merriweather Light / Bold / Light Italic"
+    ],
+    "mainBottoms": {
+      "adattabile": 583.098388671875,
+      "spaziale": 567.9796752929688,
+      "generativa": 551.0646667480469,
+      "risorse": 586.6984252929688
+    },
+    "result": "passed"
+  }
+}

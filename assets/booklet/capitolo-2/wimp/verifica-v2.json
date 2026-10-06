@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-06",
+  "result": "passed",
+  "generator": "built-in image_gen.imagegen",
+  "source": "assets/booklet/capitolo-2/wimp/wimp-v2.png",
+  "figmaPage": "198:2627",
+  "figmaImage": "2279:311",
+  "originalArchive": "2370:249",
+  "chapterAccent": "#c6005c",
+  "imageDimensions": [
+    1536,
+    1024
+  ],
+  "nativeImageDimensions": [
+    417,
+    278
+  ],
+  "captionPreserved": true,
+  "nativePageVisualReview": "passed",
+  "generatedImageVisualReview": "passed",
+  "losslessWebpRoundTrip": true,
+  "productionBytesMatch": true,
+  "slideRuntime": {
+    "desktopSlides": 1,
+    "narrowSlides": 1,
+    "conceptZooms": 2,
+    "conceptResponseHashesVerified": 2,
+    "pageErrors": [],
+    "footerOverlap": 0
+  },
+  "report": "reports/slides-c2-2026-10-06/wimp-v2/qa.json",
+  "sourceCheck": "passed",
+  "build": "passed",
+  "rootSlideSpotReview": "desktop-43.png"
+}

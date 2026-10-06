@@ -1,0 +1,487 @@
+{
+  "createdAt": "2026-10-05T23:01:17.227774+00:00",
+  "accessDate": "2026-10-06",
+  "timezone": "Europe/Rome",
+  "scope": "Authentic example assets only; no Figma or slide mutations.",
+  "styles": [
+    {
+      "style": "glass",
+      "title": "Glassmorfismo",
+      "examples": [
+        {
+          "style": "glass",
+          "caseId": "windows11-start",
+          "name": "Windows 11 · Start",
+          "url": "https://blogs.windows.com/windowsexperience/2021/06/24/introducing-windows-11/",
+          "caption": "Windows 11, menu Start, 2021. Screenshot ufficiale Microsoft: pannello traslucido sopra il desktop.",
+          "date": "2026-10-06",
+          "kind": "official-press-interface-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/glass-windows11-start-2021.png",
+          "width": 4000,
+          "height": 2500,
+          "viewport": null,
+          "captureDate": null,
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "publishedDate": "2021-06-24",
+          "assetUrl": "https://blogs.windows.com/wp-content/uploads/prod/sites/2/2021/06/WIN_Start_GenZ_Light_16x10_en-US.png"
+        },
+        {
+          "style": "glass",
+          "caseId": "visionos-appstore",
+          "name": "visionOS · App Store",
+          "url": "https://www.apple.com/apple-vision-pro/",
+          "caption": "App Store in visionOS. Immagine ufficiale Apple: finestra, controlli e navigazione separati dall’ambiente.",
+          "date": "2026-10-06",
+          "kind": "official-product-interface-image",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/glass-visionos-app-store.jpg",
+          "width": 820,
+          "height": 530,
+          "viewport": null,
+          "captureDate": null,
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "assetUrl": "https://www.apple.com/v/apple-vision-pro/l/images/overview/experiences/apps/drawer/app_store__ge30nsef8xui_large.jpg"
+        },
+        {
+          "style": "glass",
+          "caseId": "apple-music",
+          "name": "Apple Music · desktop",
+          "url": "https://music.apple.com/us/new",
+          "caption": "Apple Music sul web, vista desktop. Il player flottante sfoca e lascia percepire il contenuto sottostante. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/glass-apple-music-clean-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:54:56.932Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        },
+        {
+          "style": "glass",
+          "caseId": "apple-music",
+          "name": "Apple Music · finestra verticale",
+          "url": "https://music.apple.com/us/new",
+          "caption": "Apple Music sul web, finestra verticale. Il materiale del player cambia aspetto secondo il fondo. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/glass-apple-music-tablet-tablet.png",
+          "width": 1000,
+          "height": 1250,
+          "viewport": {
+            "width": 1000,
+            "height": 1250
+          },
+          "captureDate": "2026-10-05T22:57:54.015Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        }
+      ]
+    },
+    {
+      "style": "minimal",
+      "title": "Minimalismo",
+      "examples": [
+        {
+          "style": "minimal",
+          "caseId": "studio-yoke",
+          "name": "Studio Yoke · desktop",
+          "url": "https://www.studioyoke.co.uk/",
+          "caption": "Studio Yoke, homepage desktop. Palette binaria, tipografia e spazio negativo costruiscono la gerarchia. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/minimal-studio-yoke-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:52:14.885Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        },
+        {
+          "style": "minimal",
+          "caseId": "studio-yoke",
+          "name": "Studio Yoke · mobile",
+          "url": "https://www.studioyoke.co.uk/",
+          "caption": "Studio Yoke, homepage mobile. Il logotipo cambia orientamento, mantenendo la composizione essenziale. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/minimal-studio-yoke-mobile.png",
+          "width": 480,
+          "height": 760,
+          "viewport": {
+            "width": 480,
+            "height": 760
+          },
+          "captureDate": "2026-10-05T22:52:20.968Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        },
+        {
+          "style": "minimal",
+          "caseId": "apple",
+          "name": "Apple · homepage",
+          "url": "https://www.apple.com/",
+          "caption": "Apple, homepage. Il prodotto domina una sezione con pochi messaggi e due azioni principali. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/minimal-apple-clean-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:56:35.207Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        },
+        {
+          "style": "minimal",
+          "caseId": "kinfolk",
+          "name": "Kinfolk · homepage",
+          "url": "https://www.kinfolk.com/",
+          "caption": "Kinfolk, homepage. Margini ampi, una copertina e gerarchie tipografiche limitano gli elementi concorrenti. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/minimal-kinfolk-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:54:18.381Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        }
+      ]
+    },
+    {
+      "style": "y2k",
+      "title": "Y2K e revival retro-web",
+      "examples": [
+        {
+          "style": "y2k",
+          "caseId": "girls-who-code-girls",
+          "name": "Girls Who Code Girls · campagna 2022",
+          "url": "https://www.girlswhocodegirls.com/",
+          "caption": "Girls Who Code Girls, campagna avviata nel 2022. Screenshot dell’interfaccia dal materiale didattico: cromature e futurismo pop.",
+          "date": "2026-10-06",
+          "kind": "archived-live-interface-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/y2k-girls-who-code-2022-archival.webp",
+          "width": 1800,
+          "height": 952,
+          "viewport": null,
+          "captureDate": null,
+          "verified": true,
+          "verification": "Primary site remains live; official 2022 annual report confirms released desktop/mobile coding experience. 2022 is the campaign launch year, not an asserted screenshot capture date. Screenshot extracted from course PDF, not newly generated.",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "campaignLaunchYear": 2022,
+          "extractedFrom": "materiali/lezioni/2025-2026/05-processo-ux-gestalt-storia-interfacce.pdf",
+          "pdfPage": 108,
+          "primaryVerificationUrl": "https://girlswhocode.com/2022report/downloads/GWC_2022_Annual_Report.pdf"
+        },
+        {
+          "style": "y2k",
+          "caseId": "bratz",
+          "name": "Bratz · desktop",
+          "url": "https://www.bratz.com/",
+          "caption": "Bratz, homepage desktop. Immaginario pop digitale, colori freddi e tipografia espansa. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/y2k-bratz-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:58:48.990Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "cookieAction": "Submit all preferences; optional Functional and Advertising cookies set to No (site defaults)"
+        },
+        {
+          "style": "y2k",
+          "caseId": "bratz",
+          "name": "Bratz · mobile",
+          "url": "https://www.bratz.com/",
+          "caption": "Bratz, homepage mobile. Lo stesso immaginario pop si adatta a uno schermo verticale. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/y2k-bratz-mobile.png",
+          "width": 480,
+          "height": 760,
+          "viewport": {
+            "width": 480,
+            "height": 760
+          },
+          "captureDate": "2026-10-05T22:58:55.949Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "cookieAction": "Submit all preferences; optional Functional and Advertising cookies set to No (site defaults)"
+        },
+        {
+          "style": "y2k",
+          "caseId": "camerons-world",
+          "name": "Cameron’s World · collage",
+          "url": "https://www.cameronsworld.net/",
+          "caption": "Cameron’s World. Collage di materiali GeoCities del 1994–2009: GIF, pixel e decorazione digitale. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/y2k-camerons-world-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:52:50.256Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "contextNote": "Contesto del revival retro-web: nostalgia delle pagine personali, distinta dal futurismo cromato Y2K. Non presentare questo sito contemporaneo come pagina originale del 2000."
+        }
+      ]
+    },
+    {
+      "style": "max",
+      "title": "Massimalismo",
+      "examples": [
+        {
+          "style": "max",
+          "caseId": "one-all",
+          "name": "ONE&ALL · 2019",
+          "url": "https://www.obergine.com/news-and-blog/2019/november-2019/maximalist-web-design",
+          "caption": "ONE&ALL, homepage del festival, 2019. Screenshot storico: pattern, lettere giganti e blocchi sovrapposti.",
+          "date": "2026-10-06",
+          "kind": "archived-live-interface-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/max-one-all-2019-archival.webp",
+          "width": 1284,
+          "height": 798,
+          "viewport": null,
+          "captureDate": null,
+          "verified": true,
+          "verification": "Authentic 2019 site screenshot extracted from course PDF; corroborated by contemporaneous Obergine article (8 November 2019). Original domain unavailable, no designer attribution asserted.",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "screenVersionYear": 2019,
+          "originalUrl": "http://oneandall.io/",
+          "extractedFrom": "materiali/lezioni/2025-2026/05-processo-ux-gestalt-storia-interfacce.pdf",
+          "pdfPage": 113
+        },
+        {
+          "style": "max",
+          "caseId": "toiletpaper",
+          "name": "TOILETPAPER · desktop",
+          "url": "https://www.toiletpapermagazine.org/",
+          "caption": "TOILETPAPER, homepage desktop. Fotomontaggio, colori saturi e sovrapposizioni danno ritmo alla pagina. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/max-toiletpaper-clean-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:54:38.553Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "cookieAction": "Reject"
+        },
+        {
+          "style": "max",
+          "caseId": "toiletpaper",
+          "name": "TOILETPAPER · mobile",
+          "url": "https://www.toiletpapermagazine.org/",
+          "caption": "TOILETPAPER, homepage mobile. Il collage visivo continua nella colonna verticale. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/max-toiletpaper-mobile-clean-mobile.png",
+          "width": 480,
+          "height": 760,
+          "viewport": {
+            "width": 480,
+            "height": 760
+          },
+          "captureDate": "2026-10-05T22:56:23.455Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "cookieAction": "Reject"
+        },
+        {
+          "style": "max",
+          "caseId": "arngren",
+          "name": "Arngren · catalogo",
+          "url": "https://www.arngren.net/",
+          "caption": "Arngren, catalogo online. Immagini, prezzi e collegamenti si accumulano con alta densità. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/max-arngren-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:56:16.235Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "contextNote": "Caso limite di accumulazione visiva per confronto, non prova che la densità garantisca qualità o usabilità; nessuna attribuzione intenzionale del termine massimalismo all’autore."
+        }
+      ]
+    },
+    {
+      "style": "neo",
+      "title": "Neobrutalismo",
+      "examples": [
+        {
+          "style": "neo",
+          "caseId": "gumroad",
+          "name": "Gumroad · desktop",
+          "url": "https://gumroad.com/",
+          "caption": "Gumroad, homepage desktop. Contorni netti e illustrazioni a campiture piatte. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/neo-gumroad-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:51:52.005Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        },
+        {
+          "style": "neo",
+          "caseId": "gumroad",
+          "name": "Gumroad · mobile",
+          "url": "https://gumroad.com/",
+          "caption": "Gumroad, homepage mobile. Titolo, azioni e bordi si adattano a una colonna. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/neo-gumroad-mobile.png",
+          "width": 480,
+          "height": 760,
+          "viewport": {
+            "width": 480,
+            "height": 760
+          },
+          "captureDate": "2026-10-05T22:51:57.720Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        },
+        {
+          "style": "neo",
+          "caseId": "panda-css",
+          "name": "Panda CSS · homepage",
+          "url": "https://panda-css.com/",
+          "caption": "Panda CSS, homepage. Giallo saturo, caratteri molto grandi e controlli delineati. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/neo-panda-css-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:52:03.311Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio."
+        },
+        {
+          "style": "neo",
+          "caseId": "neobrutalism-components",
+          "name": "Neobrutalism components · sito implementato",
+          "url": "https://www.neobrutalism.dev/",
+          "caption": "Neobrutalism components, homepage. Griglia esposta, bordi neri e ombre dure spostate. Screenshot: 6 ottobre 2026.",
+          "date": "2026-10-06",
+          "kind": "live-site-screenshot",
+          "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/neo-neobrutalism-components-desktop.png",
+          "width": 1440,
+          "height": 900,
+          "viewport": {
+            "width": 1440,
+            "height": 900
+          },
+          "captureDate": "2026-10-05T22:52:09.235Z",
+          "verified": true,
+          "verification": "Primary site browsed; image visually inspected",
+          "visualAttribution": "Interpretazione dei tratti visivi presenti, non dichiarazione dello stile da parte del marchio.",
+          "contextNote": "Screenshot dell’interfaccia del sito realmente implementato di una libreria open source; non screenshot di un mockup o di un componente inventato."
+        }
+      ]
+    }
+  ],
+  "qualityChecks": {
+    "selectedImages": 20,
+    "styles": 5,
+    "minimumDistinctCasesPerStyle": 3,
+    "allImagesVisuallyInspected": true,
+    "allImagesOriginalOrLiveCapture": true,
+    "noAiImages": true,
+    "noSiteStyleModifications": true
+  },
+  "excluded": [
+    "LINGsCARS: anti-bot 403, excluded",
+    "Bear Blog: browser 404, excluded",
+    "MUJI: HTTP/2 failure, excluded",
+    "Girls Who Code current intro partial frames: excluded; use authenticated archived full interface screenshot",
+    "PIN–UP: current composition has weak fit to maximalism; excluded from final selection",
+    "Bratz captures with cookie banner: overwritten using optional cookies No defaults, then re-inspected"
+  ],
+  "alternatives": [
+    {
+      "name": "Poolsuite",
+      "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/y2k-poolsuite-desktop.png",
+      "url": "https://poolsuite.net/",
+      "note": "Actual retro GUI/music interface, but 1980s/1990s desktop nostalgia is not the same as metallic Y2K futurism; not selected for the Y2K spread."
+    },
+    {
+      "name": "Fluent Acrylic",
+      "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/glass-fluent-acrylic-official.png",
+      "url": "https://fluent2.microsoft.design/material",
+      "note": "Official material usage example; label official example rather than actual application screenshot."
+    },
+    {
+      "name": "Windows Widgets",
+      "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/glass-windows11-widgets-2021.png",
+      "url": "https://blogs.windows.com/windowsexperience/2021/06/24/introducing-windows-11/",
+      "note": "Official implemented system interface image, 2021."
+    },
+    {
+      "name": "macOS Liquid Glass",
+      "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/modern/glass-macos-liquid-glass-2025.jpg",
+      "url": "https://www.apple.com/newsroom/2025/06/apple-introduces-a-delightful-and-elegant-new-software-design/",
+      "note": "Official implemented operating-system interface, 2025."
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "date": "2026-10-05",
+  "scope": "Estensione storico-critica del solo capitolo 2; nessuna scrittura Figma effettuata da questo agente",
+  "selection": "Tre lacune storiche (identità coordinata, informazione per immagini, orientamento urbano) e tre approfondimenti delle sezioni digitali già presenti. Le implicazioni progettuali sono interpretazioni editoriali, distinte dai fatti documentati.",
+  "cases": [
+    {
+      "key": "behrens_aeg",
+      "title": "Un’identità per l’industria",
+      "placement": "Prima della grafica politica della Prima Guerra Mondiale: nuovo esempio dopo Art Nouveau, prima del Bauhaus.",
+      "draft": "Nel 1907 AEG nominò Peter Behrens consulente artistico. Il suo lavoro collegava logo, pubblicità, packaging, prodotti e architettura: l’immagine dell’impresa prendeva forma attraverso molti punti di contatto. Il manifesto per le lampade a filamento metallico unisce il nome dell’azienda a una composizione concentrata sulla luce e sul prodotto. I Musei di Berlino considerano questo lavoro uno dei primi esempi di corporate design. Il caso mostra un cambiamento di scala: il designer non compone soltanto un singolo messaggio, ma costruisce relazioni riconoscibili tra artefatti diversi. La coerenza diventa una qualità del sistema.",
+      "bold": [
+        "Peter Behrens",
+        "punti di contatto",
+        "corporate design",
+        "coerenza"
+      ],
+      "facts": [
+        "1907: nomina di Behrens a Künstlerischer Beirat presso AEG.",
+        "Ambiti documentati: logo, pubblicità, packaging, bollitori e fabbrica di turbine.",
+        "Uno dei primi esempi di corporate design, non 'il primo' e non 'inventore esclusivo'.",
+        "Manifesto del 1907, Behrens; stampa Hollerbaum & Schmidt."
+      ],
+      "sources": [
+        {
+          "institution": "Staatliche Museen zu Berlin, Kunstbibliothek",
+          "title": "Allgemeine Elektricitäts-Gesellschaft AEG, obj-931917",
+          "url": "https://search.smb.museum/object/obj-931917",
+          "supports": "Data, autore, committente, printer e ambiti dell’incarico; interpretazione corporate design."
+        },
+        {
+          "institution": "Museum of Modern Art",
+          "title": "A.E.G.- Metallfadenlampe, 1907",
+          "url": "https://www.moma.org/collection/works/5490",
+          "supports": "Attribuzione e identificazione specifica del manifesto."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://search.smb.museum/media/images/originals/005/006/6005162.931917.jpg",
+          "localPath": "/tmp/c2-history-assets/behrens-aeg-1907.jpg",
+          "size": [
+            2709,
+            3500
+          ],
+          "caption": "Peter Behrens, manifesto AEG-Metallfadenlampe, 1907. Staatliche Museen zu Berlin, Kunstbibliothek. Foto: Dietmar Katz.",
+          "rights": "Public Domain Mark 1.0 dichiarato dalla scheda SMB per questa fotografia.",
+          "sourcePage": "https://search.smb.museum/object/obj-931917",
+          "visualVerified": true,
+          "artifact": true
+        }
+      ],
+      "wordCount": 91
+    },
+    {
+      "key": "isotype",
+      "title": "Isotype: rendere confrontabili i dati",
+      "placement": "Nuovo esempio dopo Nuova Tipografia e prima della grafica degli anni Quaranta.",
+      "draft": "Nella Vienna degli anni Venti, Otto Neurath e il suo gruppo svilupparono un metodo per comunicare fatti sociali ed economici attraverso immagini. Marie Neurath trasformava dati e concetti in strutture comprensibili; Gerd Arntz disegnava i pittogrammi. Nel sistema poi chiamato Isotype, una quantità maggiore era rappresentata ripetendo unità uguali, anziché ingrandendo arbitrariamente una figura. Nell’atlante Gesellschaft und Wirtschaft del 1930, ogni automobile del grafico riprodotto indica 2,5 milioni di veicoli. Immagini, disposizione e legenda lavorano insieme: la semplificazione orienta il confronto, mentre il valore delle unità resta esplicito. È un precedente importante della visualizzazione dei dati.",
+      "bold": [
+        "Marie Neurath",
+        "Gerd Arntz",
+        "Isotype",
+        "unità uguali",
+        "legenda"
+      ],
+      "facts": [
+        "Metodo di Vienna sviluppato negli anni Venti; non presentare 'Isotype' come nome già fissato nel 1924.",
+        "Marie Neurath era la principale transformer: analizzava informazioni e organizzava la traduzione visiva.",
+        "Arntz disegnava pittogrammi e diresse creativamente l’atlante del 1930.",
+        "Regola della ripetizione delle unità vs ridimensionamento.",
+        "Grafico 56, Kraftwagenbestand der Erde: ogni icona-auto = 2.500.000 veicoli; dati 1914, 1920, 1928.",
+        "L’aspirazione di superare barriere linguistiche non dimostra comprensione universale di ogni pittogramma."
+      ],
+      "sources": [
+        {
+          "institution": "University of Reading, Isotype Revisited",
+          "title": "Society and economy",
+          "url": "https://isotyperevisited.org/2012/08/society-and-economy.php",
+          "supports": "Origine del metodo, ruolo di Arntz nel 1930, unità del grafico automobilistico."
+        },
+        {
+          "institution": "University of Reading, Special Collections",
+          "title": "Marie Neurath Collection",
+          "url": "https://collections.reading.ac.uk/special-collections/collections/marie-neurath-collection/",
+          "supports": "Ruolo di Marie Neurath come transformer."
+        },
+        {
+          "institution": "Gerd Arntz Web Archive, con Gemeentemuseum Den Haag",
+          "title": "Gerd Arntz",
+          "url": "https://gerdarntz.org/content/gerd-arntz.html",
+          "supports": "Autori, collaborazione, standardizzazione e regola delle quantità."
+        },
+        {
+          "institution": "Gerd Arntz Web Archive",
+          "title": "Car ownership in the world",
+          "url": "https://gerdarntz.org/node/706/index.html",
+          "supports": "Scheda del grafico, atlante1930; letta dal HTML ufficiale con curl perché web.run dava cache miss."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://gerdarntz.org/sites/gerdarntz.org/files/GMDH02_50003.jpg",
+          "localPath": "/tmp/c2-history-assets/isotype-car-1930.jpg",
+          "size": [
+            590,
+            390
+          ],
+          "caption": "Kraftwagenbestand der Erde, da Gesellschaft und Wirtschaft, 1930. Otto Neurath e Gerd Arntz. Ogni automobile rappresenta 2,5 milioni di veicoli. Gerd Arntz Web Archive.",
+          "rights": "© Gerd Arntz; diritti riservati. La pagina copyright richiede permesso della Estate per uso delle immagini; nessuna licenza aperta dichiarata.",
+          "rightsPage": "https://gerdarntz.org/content/copyright.html",
+          "sourcePage": "https://gerdarntz.org/node/706/index.html",
+          "visualVerified": true,
+          "artifact": true
+        },
+        {
+          "url": "https://isotyperevisited.org/Look-inside-main.jpg",
+          "caption": "Marie Neurath, If you could see inside, 1948. Otto and Marie Neurath Isotype Collection, University of Reading.",
+          "rights": "© Isotype Revisited; nessuna licenza aperta verificata.",
+          "sourcePage": "https://isotyperevisited.org/",
+          "visualVerified": false,
+          "artifact": true,
+          "optional": true
+        }
+      ],
+      "wordCount": 96
+    },
+    {
+      "key": "beck",
+      "title": "La mappa come sistema di relazioni",
+      "placement": "Nuova pagina di esempio accanto a Isotype; raccordo alla traccia della metro usata nel booklet.",
+      "draft": "Harry Beck elaborò il suo primo diagramma della metropolitana londinese nel 1931; la mappa fu pubblicata nel 1933. Sostituì il tracciato geografico con linee orizzontali, verticali e diagonali a 45 gradi, distribuendo le stazioni con spazi più regolari. Colori e simboli rendevano leggibili i percorsi e gli interscambi. La scelta privilegiava le relazioni utili al viaggio rispetto alla somiglianza con il territorio. Il caso chiarisce una funzione del design dell’informazione: selezionare ciò che serve a un compito. Una rappresentazione efficace può semplificare la realtà, purché il lettore sappia quali relazioni conserva e quali distanze altera.",
+      "bold": [
+        "Harry Beck",
+        "diagramma",
+        "relazioni",
+        "design dell’informazione"
+      ],
+      "facts": [
+        "Primo progetto1931; prima emissione1933.",
+        "Orizzontali, verticali e45gradi; stazioni a spazi regolari rispetto alla mappa geografica.",
+        "Non dire che fosse la prima mappa metropolitana: è la prima versione diagrammatica di Beck.",
+        "Raccordo con sistema di relazioni e task è interpretazione progettuale della scelta documentata.",
+        "L’immagine LTM shop è una riproduzione ufficiale di una mappa1933, non la prima pocket edition gennaio1933."
+      ],
+      "sources": [
+        {
+          "institution": "London Transport Museum Library",
+          "title": "Who designed the diagrammatic Tube map?",
+          "url": "https://library.ltmuseum.co.uk/portal/Default/en-GB/RecordView/Index/106",
+          "supports": "Date, geometria, spaziatura, fortuna del diagramma."
+        },
+        {
+          "institution": "English Heritage",
+          "title": "Harry Beck",
+          "url": "https://www.english-heritage.org.uk/visit/blue-plaques/harry-beck/",
+          "supports": "1931 e1933, lettura della semplificazione, credito TfL/LTM per l’immagine."
+        },
+        {
+          "institution": "London Transport Museum",
+          "title": "Harry Beck Underground Map, 1933",
+          "url": "https://shop.ltmuseum.co.uk/products/harry-beck-underground-map-1933",
+          "supports": "Identificazione della riproduzione ufficiale utilizzabile in alta risoluzione."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://shop.ltmuseum.co.uk/cdn/shop/files/ug_map_beck109796.jpg?v=1768216172",
+          "localPath": "/tmp/c2-history-assets/beck-map-1933-ltm.jpg",
+          "size": [
+            1783,
+            1200
+          ],
+          "caption": "Harry Beck, diagramma della metropolitana di Londra, 1933. Riproduzione ufficiale del London Transport Museum.",
+          "rights": "© TfL/London Transport Museum; nessuna licenza aperta dichiarata.",
+          "sourcePage": "https://shop.ltmuseum.co.uk/products/harry-beck-underground-map-1933",
+          "visualVerified": true,
+          "artifact": true,
+          "preferred": true
+        },
+        {
+          "url": "https://www.english-heritage.org.uk/siteassets/home/visit/blue-plaques/find-a-plaque/blue-plaques-a-e/london-underground-map-1933.jpg",
+          "localPath": "/tmp/c2-history-assets/beck-map-1933.jpg",
+          "size": [
+            540,
+            425
+          ],
+          "caption": "Harry Beck, mappa della metropolitana di Londra, 1933. © TfL, London Transport Museum Collection.",
+          "rights": "© TfL; credito esplicito EnglishHeritage.",
+          "sourcePage": "https://www.english-heritage.org.uk/visit/blue-plaques/harry-beck/",
+          "visualVerified": true,
+          "artifact": true,
+          "optional": true
+        }
+      ],
+      "wordCount": 95
+    },
+    {
+      "key": "kare",
+      "title": "Un linguaggio di pochi pixel",
+      "placement": "Approfondimento della sezioneMacPaint oppure nuovo raccordo fra WIMP e stili web. Evitare di ripetere il paragrafo già presente suMacPaint.",
+      "draft": "Le icone del Macintosh mostrano come i limiti tecnici possano diventare materia del progetto. Susan Kare lavorava anche su carta quadrettata: ogni quadrato corrispondeva a un pixel. Nelle icone del sistema, le forbici suggerivano il taglio del testo e il cestino la cancellazione dei file. La figura non decorava soltanto lo schermo: traduceva un’azione in un segno riconoscibile. Kare contribuì anche al progetto di MacPaint; Bill Atkinson racconta che osservarla usare il programma gli suggeriva modifiche e nuove funzioni. Il linguaggio visivo e il comportamento dell’interfaccia crescevano quindi insieme, attraverso il confronto con un’utilizzatrice reale.",
+      "bold": [
+        "Susan Kare",
+        "pixel",
+        "azione",
+        "linguaggio visivo"
+      ],
+      "facts": [
+        "QuadernoMoMA1982; singolo Graphic icon sketch1982–1983.",
+        "Processo un quadretto=unpixel e metafore forbici/cestino documentati daMoMA.",
+        "BillAtkinson accredita Kare co-designerMacPaint e utente osservata; evitare di ridurre il suo contributo a decorazione.",
+        "Lo studio188386 mostra lepre/tartaruga. Non attribuire questa foto a forbici/cestino, né specificare la funzione delle due sagome senza fonte."
+      ],
+      "sources": [
+        {
+          "institution": "Museum of Modern Art",
+          "title": "Apple Macintosh OS icon sketchbook,1982",
+          "url": "https://www.moma.org/collection/works/188382",
+          "supports": "Processo, iconografia e metafore del primoMacintosh."
+        },
+        {
+          "institution": "Museum of Modern Art",
+          "title": "Graphic icon sketch,1982–1983",
+          "url": "https://www.moma.org/collection/works/188386",
+          "supports": "Data, materiale, attribuzione della foto selezionata."
+        },
+        {
+          "institution": "Computer History Museum",
+          "title": "MacPaint interview and demonstration with BillAtkinson and AndyHertzfeld,2015, p.9",
+          "url": "https://archive.computerhistory.org/resources/access/text/2015/12/102743021-05-01-acc.pdf",
+          "supports": "Testimonianza diretta diAtkinson eHertzfeld sul ruolo progettuale diKare e sull’osservazione dell’uso."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://www.moma.org/media/W1siZiIsIjMxMDQ2NyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=b740da246ce6f490",
+          "localPath": "/tmp/c2-history-assets/kare-icon-sketch-1982-1983.jpg",
+          "size": [
+            2000,
+            1318
+          ],
+          "caption": "Susan Kare, Graphic icon sketch, 1982–1983. Matita e inchiostro su carta quadrettata. MoMA e SFMOMA, dono della designer.",
+          "rights": "© Susan Kare. La scheda MoMA riporta Used by permission, riferito alla riproduzione del museo; non è una licenza aperta.",
+          "sourcePage": "https://www.moma.org/collection/works/188386",
+          "visualVerified": true,
+          "artifact": true,
+          "preferred": true
+        },
+        {
+          "url": "https://www.moma.org/media/W1siZiIsIjMxMDM3MCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=d6eee05590d8907e",
+          "localPath": "/tmp/c2-history-assets/kare-sketchbook-1982.jpg",
+          "size": [
+            2000,
+            1473
+          ],
+          "caption": "Susan Kare, copertina dell’Apple Macintosh OS icon sketchbook,1982. MoMA eSFMOMA.",
+          "rights": "© Susan Kare; non licenza aperta.",
+          "sourcePage": "https://www.moma.org/collection/works/188382",
+          "visualVerified": true,
+          "artifact": true,
+          "optional": true,
+          "note": "Questa foto mostra la copertina, non la pagina conicone."
+        }
+      ],
+      "wordCount": 95
+    },
+    {
+      "key": "alto",
+      "title": "Dallo schermo alla pagina",
+      "placement": "Estendere la paginaLeOrigini e il raccordoWIMP con un vero screenshotSmalltalk-80; eventuale nuova pagina suAlto traEngelbart eMacintosh.",
+      "draft": "Lo Xerox Alto, realizzato al PARC nel 1973, era un sistema di ricerca. Riuniva schermo grafico, mouse, rete e strumenti per lavorare con testi e immagini. L’interfaccia dipendeva dai programmi: Bravo mostrava documenti con caratteri e impaginazione vicini al risultato stampato; Gypsy sperimentava il taglia e incolla; Smalltalk sviluppava un ambiente con finestre sovrapposte e strumenti grafici. Questi esempi aiutano a distinguere la macchina dalle convenzioni che maturavano nel suo ecosistema. L’utente poteva intervenire su oggetti visibili e controllare gli effetti delle azioni, anziché affidarsi soltanto a sequenze di comandi. Le interfacce successive avrebbero sviluppato queste possibilità.",
+      "bold": [
+        "sistema di ricerca",
+        "interfaccia",
+        "finestre sovrapposte",
+        "oggetti visibili"
+      ],
+      "facts": [
+        "Alto, 1973: sistema di ricerca, non un personal computer venduto sul mercato di massa.",
+        "Applicazioni differenti avevano interfacce differenti: non attribuire al modello del 1973 una GUI identica al Macintosh del 1984.",
+        "Bravo WYSIWYG, Gypsy con taglia e incolla, e le finestre di Smalltalk sono descritti dal Computer History Museum.",
+        "Lo screenshot selezionato di Smalltalk-80 è datato circa 1980, non 1973.",
+        "CHM data circa 1974 l’immagine di Bravo del record 1856; il documento visibile contiene però riferimenti successivi. Non usarla per provare l’aspetto di una GUI del 1974 senza qualificazioni."
+      ],
+      "sources": [
+        {
+          "institution": "Computer History Museum",
+          "title": "Xerox Alto",
+          "url": "https://www.computerhistory.org/revolution/input-output/14/347",
+          "supports": "Sistema di ricerca, software differenziati,Bravo,Gypsy,Smalltalk."
+        },
+        {
+          "institution": "Computer History Museum",
+          "title": "The Xerox Alto",
+          "url": "https://www.computerhistory.org/revolution/networking/19/381/2183",
+          "supports": "1973circa, rete evisionedelprogetto."
+        },
+        {
+          "institution": "Computer History Museum",
+          "title": "A Smalltalk-80 graphical user interface (GUI)",
+          "url": "https://www.computerhistory.org/revolution/input-output/14/347/1859",
+          "supports": "Identificazione dello screenshot,circa1980,creditoPARCLibrary."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://images.computerhistory.org/revonline/images/500004472-03-01.jpg?w=600",
+          "localPath": "/tmp/c2-history-assets/smalltalk-80-1980.jpg",
+          "size": [
+            600,
+            705
+          ],
+          "caption": "Interfaccia di Smalltalk-80: finestre sovrapposte, menu e strumenti grafici. Circa 1980. PARC Library, Computer History Museum.",
+          "rights": "© PARC (Palo Alto Research Center, Incorporated).",
+          "sourcePage": "https://www.computerhistory.org/revolution/input-output/14/347/1859",
+          "visualVerified": true,
+          "artifact": true,
+          "preferred": true
+        },
+        {
+          "url": "https://images.computerhistory.org/revonline/images/500004659-03-01.jpg?w=600",
+          "localPath": "/tmp/c2-history-assets/bravo-1974.jpg",
+          "size": [
+            600,
+            782
+          ],
+          "caption": "Due documenti visualizzati in Bravo, con testo e impaginazione. © PARC, Computer History Museum.",
+          "rights": "© PARC.",
+          "sourcePage": "https://www.computerhistory.org/revolution/input-output/14/347/1856",
+          "visualVerified": true,
+          "artifact": true,
+          "optional": true,
+          "note": "Nonraccomandatocomeimmagineprincipale: sembrarapporto; datacatalogo1974circa dubbia perdocumentovisibile successivo. Nonassegnare1974altestovisibile."
+        }
+      ],
+      "wordCount": 97
+    },
+    {
+      "key": "cern",
+      "title": "Il web: documenti e collegamenti",
+      "placement": "ConsolidareIlprimoWeb, conBrowser1993autentico e brevecasoCERN. GeoCitiespuòrimanerecomesecondoesempio, distinguendooriginedall’esplosionecommerciale.",
+      "draft": "Il web nacque al CERN per facilitare la condivisione di informazioni tra ricercatori. Tim Berners-Lee propose il progetto nel 1989; alla fine del 1990 erano in funzione il primo server e il browser. Nel 1991 il software venne diffuso oltre il laboratorio. La pagina del progetto collegava descrizioni, istruzioni e risorse: l’ipertesto trasformava il documento in un punto di accesso a una rete di contenuti. Il browser originale permetteva anche di modificare le pagine. Nel 1993 CERN rese il software disponibile senza royalty. Questo caso ricorda che l’evoluzione del web riguarda insieme navigazione, produzione dei contenuti e apertura degli strumenti.",
+      "bold": [
+        "condivisione",
+        "ipertesto",
+        "modificare le pagine",
+        "apertura"
+      ],
+      "facts": [
+        "Proposta di marzo 1989; server e browser in funzione alla fine del 1990; diffusione del software nel 1991.",
+        "Non dire che Internet iniziò nel 1991: il web si sviluppò su Internet, che esisteva già.",
+        "Primo sito info.cern.ch; pagina TheProject collegata a documentazione e risorse.",
+        "Il browser originale NeXT permetteva anche di modificare le pagine.",
+        "Software reso disponibile senza royalty il 30 aprile 1993.",
+        "Screenshot autentico datato 1993, non 1991. La pagina moderna info.cern.ch con la scritta home of first website non è la pagina iniziale originale."
+      ],
+      "sources": [
+        {
+          "institution": "CERN",
+          "title": "A short history of theWeb",
+          "url": "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/",
+          "supports": "Date,scopi,browser-editor,rilascio1993."
+        },
+        {
+          "institution": "CERN",
+          "title": "WorldWideWeb project",
+          "url": "https://info.cern.ch/hypertext/WWW/TheProject.html",
+          "supports": "Organizzazionedellapaginaarchiviataattraversocollegamentiadocumentazioneerisorse."
+        },
+        {
+          "institution": "CERN",
+          "title": "Tim Berners-Lee’s originalWorldWideWebbrowserin1993",
+          "url": "https://info.cern.ch/NextBrowser1.html",
+          "supports": "Dataeidentificazionedelloscreenshotautentico."
+        }
+      ],
+      "images": [
+        {
+          "url": "https://info.cern.ch/images/screensnap2_24c.gif",
+          "localPath": "/tmp/c2-history-assets/cern-worldwideweb-1993.gif",
+          "size": [
+            1144,
+            844
+          ],
+          "caption": "Il browser WorldWideWeb di Tim Berners-Lee su un computer NeXT. Screenshot del 1993. Fonte: CERN.",
+          "rights": "Copyright CERN. I termini ufficiali consentono uso didattico e informativo gratuito con credito CERN. Non è una licenza CC.",
+          "rightsPage": "https://copyright.web.cern.ch/",
+          "sourcePage": "https://info.cern.ch/NextBrowser1.html",
+          "visualVerified": true,
+          "artifact": true,
+          "preferred": true
+        }
+      ],
+      "wordCount": 100
+    }
+  ],
+  "editorialNotes": [
+    "La sezione storica deve mostrare perché ciascun caso importa: identità di sistema, comparabilità, orientamento, metafore, feedback, ipertesto. Non soltanto una sequenza di date.",
+    "Le nuove figure autentiche vanno mantenute intatte, con didascalie che separano opera originale, riproduzione e immagine dello schermo.",
+    "Usare riferimenti numerati nel capitolo e pagine finali di fonti e crediti. Includere anche V&A, MoMA e la fonte ufficiale sullo stile svizzero delle precedenti integrazioni.",
+    "Preservare corpo Merriweather 10/15 e titoli Geom 16. Usare nuove pagine per la leggibilità, senza comprimere indiscriminatamente il materiale.",
+    "La formulazione attuale sul contributo di Kare a MacPaint è legittima: la testimonianza diretta di Atkinson la accredita come co-designer. È utile specificare i ruoli, senza presentare la formulazione precedente come errore."
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "key": "spaziale",
+  "kind": "ai-generated-hypothetical-future-interface",
+  "prompt": "Use case: precise-object-edit.\nEdit target: the attached wide 16:9 CAFFÈ LUCE spatial UI illustration.\nPreserve the current readable large typography, all eight exact labels (\"CAFFÈ LUCE\", \"Il nostro menu\", \"Caffè\", \"Croissant\", \"Tè\", \"Menu\", \"Il locale\", \"Contatti\"), the quiet teal/ivory/wood café palette, the image format and balanced arrangement.\nTargeted correction: the large cream menu MUST clearly be a floating DIGITAL SPATIAL INTERFACE WINDOW, not a physical wooden sign. REMOVE ITS WOODEN PICTURE FRAME COMPLETELY. Keep an OPAQUE IVORY rounded rectangular content surface, with crisp dark-teal text, an extremely fine pale digital edge, and a clearly visible gap below it above the café counter. It hovers in its own middle/back plane, not attached to anything. Do not make this content translucent and do not blur any label.\nThe translucent glass navigation toolbar in the foreground must likewise be visibly hovering ABOVE the counter, separated from the opaque menu in a FRONT plane. Maintain its three exact large labels, restrained glass refraction and existing clear selected Menu control. Add only a subtle separate shadow below the toolbar to communicate the gap; NO arrows or diagram text.\nThe single espresso cup at right must read as an independent smooth, deliberately modeled 3D spatial volume adjacent to the window, with amber coffee and no extra cup. Lift the cup and saucer slightly above the counter, with a restrained teal edge around its virtual display footprint and a separated soft shadow. It is not a photograph of a cup glued to a wooden sign.\nRemove the duplicate lettering and branding from the cup and the blurred rear wall; make those background regions quiet plain material / a restrained leaf motif without words. Keep ONLY the eight specified UI labels. Keep daylight and warm wood subtle, no cyberpunk, no neon environment, no invented metrics, no watermark. The result should unmistakeably show independent digital content, foreground digital controls, and a 3D object in one restrained spatial café context. All labels large and readable at 350×197 display, full 16:9 composition inside frame, no cropping.",
+  "createdAt": "2026-10-06T09:07:55.958292+00:00",
+  "updatedAt": "2026-10-06T09:09:44.897381+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-53680547-8bc2-4f02-9bad-4bf3fe2d4f60.png",
+  "assetSourceFile": "assets/booklet/capitolo-2/direzioni-future/demo-spaziale-v1.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-317"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2258:317",
+  "sourceFigmaImageNode": "2358:267",
+  "bookletFolio": 77,
+  "bookletChapterOrdinal": 57,
+  "bookletSourceRole": "hypothetical-future-concept",
+  "caption": "Ipotesi progettuale · Caffè Luce · Imagegen, 2026",
+  "generationManifest": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+  "promptPointer": {
+    "manifest": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+    "pointer": "/images/1/prompt",
+    "key": "spaziale"
+  },
+  "generationQA": {
+    "complete": true,
+    "copyChecked": true,
+    "controlsContentSeparated": true,
+    "opaqueLegibleContent": true,
+    "frontTranslucentToolbar": true,
+    "independent3DVolume": true,
+    "restrainedCafeSetting": true,
+    "noInventedMetrics": true,
+    "note": "Passed after targeted edit: wooden frame removed, menu and toolbar visibly hover in separate planes, coffee volume floats adjacent, duplicate background branding removed.",
+    "labels": [
+      "CAFFÈ LUCE",
+      "Il nostro menu",
+      "Caffè",
+      "Croissant",
+      "Tè",
+      "Menu",
+      "Il locale",
+      "Contatti"
+    ]
+  },
+  "sourceSha256": "ea65f0e70819b0fa4ffe5c1a45f65384aded786c137120618311ab5a2e698f3d",
+  "outputSha256": "dd2c1c1bf48540ddc957b7357212c4ca71cf0b284aedb8e113ad1e77a1f821c4",
+  "sourceDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "outputDimensions": {
+    "width": 1672,
+    "height": 941
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; complete source resolution retained",
+    "pixelRoundTripVerified": true
+  }
+}

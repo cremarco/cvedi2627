@@ -1,7 +1,9 @@
 import '@fontsource/inter/latin-400.css'
+import '@fontsource/inter/latin-300.css'
 import '@fontsource/inter/latin-500.css'
 import '@fontsource/inter/latin-600.css'
 import '@fontsource/inter/latin-700.css'
+import '@fontsource/inter/latin-900.css'
 import '@fontsource/merriweather/latin-400.css'
 import '@fontsource/merriweather/latin-300-italic.css'
 import '@fontsource/merriweather/latin-700.css'
@@ -13,11 +15,13 @@ import './components.css'
 import './booklet.css'
 import './lessons.css'
 import './compositions.css'
+import './web-styles.css'
 import './ux-examples.css'
 import './ux-process.css'
 import './grades.css'
 import './motion.css'
 import './published.css'
+import './reference.css'
 
 // A production build can also be previewed locally. Hide only on online hosts.
 if (typeof window !== 'undefined') {

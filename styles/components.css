@@ -99,10 +99,10 @@
   gap: 16px;
   min-height: 112px;
   padding: 24px 30px;
-  border: 0;
+  border: 1px solid var(--index-rule);
   border-radius: var(--cvedi-radius);
-  background: var(--index-color);
-  color: var(--index-foreground, white);
+  background: var(--index-surface);
+  color: var(--index-color);
   font: 700 25px/1.25 var(--cvedi-font-display);
   text-align: left;
   opacity: 1;
@@ -110,57 +110,47 @@
   cursor: pointer;
 }
 .index-button.btn:disabled {
-  background: color-mix(in srgb, var(--index-color) 10%, var(--cvedi-paper));
-  color: var(--cvedi-body);
+  background: var(--index-surface);
+  color: var(--index-color);
   cursor: not-allowed;
 }
 .index-button.btn:focus-visible {
   outline: 3px solid var(--index-color);
   outline-offset: 4px;
 }
-.index-course:not(:disabled):hover {
-  background: var(--cvedi-indigo-800);
-}
-.index-chapter-1:not(:disabled):hover {
-  background: var(--cvedi-teal-800);
-}
-.index-chapter-2:not(:disabled):hover {
-  background: var(--cvedi-pink-800);
+.index-button:not(:disabled):hover {
+  background: var(--index-rule);
+  border-color: var(--index-color);
 }
 .index-course {
-  --index-color: var(--cvedi-indigo-700);
-  position: relative;
-  isolation: isolate;
-  overflow: hidden;
-}
-.index-course::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  border-radius: inherit;
-  background-image: linear-gradient(90deg, var(--index-color), transparent 75%), url('/images/generated/index/course-background-v1.webp');
-  background-position: center, right center;
-  background-size: 100% 100%, auto 100%;
-  background-repeat: no-repeat;
-  opacity: .9;
-  pointer-events: none;
+  --index-color: var(--cvedi-course-base);
+  --index-surface: var(--cvedi-course-surface);
+  --index-rule: var(--cvedi-course-light);
 }
 .index-chapter-1 {
-  --index-color: var(--cvedi-teal-700);
+  --index-color: var(--cvedi-introduction-base);
+  --index-surface: var(--cvedi-introduction-surface);
+  --index-rule: var(--cvedi-introduction-light);
 }
 .index-chapter-2 {
-  --index-color: var(--cvedi-pink-700);
+  --index-color: var(--cvedi-history-base);
+  --index-surface: var(--cvedi-history-surface);
+  --index-rule: var(--cvedi-history-light);
 }
 .index-chapter-3 {
-  --index-color: var(--cvedi-red-700);
+  --index-color: var(--cvedi-design-thinking-base);
+  --index-surface: var(--cvedi-design-thinking-surface);
+  --index-rule: var(--cvedi-design-thinking-light);
 }
 .index-chapter-4 {
-  --index-color: var(--cvedi-orange-700);
+  --index-color: var(--cvedi-lean-ux-base);
+  --index-surface: var(--cvedi-lean-ux-surface);
+  --index-rule: var(--cvedi-lean-ux-light);
 }
 .index-chapter-5 {
-  --index-color: var(--cvedi-yellow-500);
-  --index-foreground: var(--cvedi-gray-950);
+  --index-color: var(--cvedi-conclusions-base);
+  --index-surface: var(--cvedi-conclusions-surface);
+  --index-rule: var(--cvedi-conclusions-light);
 }
 .index-chapter-number {
   flex: none;
@@ -207,8 +197,8 @@
   background: color-mix(in srgb, var(--cvedi-red-700) 10%, var(--cvedi-paper));
 }
 .cvedi-calendar tr.esercitazione .badge {
-  color: var(--cvedi-teal-800);
-  background: color-mix(in srgb, var(--cvedi-teal-700) 10%, var(--cvedi-paper));
+  color: var(--slide-detail-accent);
+  background: color-mix(in srgb, var(--slide-detail-accent) 10%, var(--cvedi-paper));
 }
 .cvedi-calendar .badge {
   font-size: 14px;
@@ -241,21 +231,21 @@
   stroke-width: calc(2 * var(--cvedi-metro-lane) + var(--cvedi-metro-divider));
 }
 .metro-track {
-  stroke: var(--metro-track-color, var(--cvedi-indigo));
+  stroke: var(--metro-track-color, var(--slide-accent));
 }
 .metro-divider {
   stroke: var(--metro-divider-color, var(--cvedi-paper));
   stroke-width: var(--cvedi-metro-divider);
 }
 .slidev-layout .chapter-metro-route {
-  --metro-track-color: var(--cvedi-indigo-500);
+  --metro-track-color: var(--slide-subtitle);
   --metro-divider-color: var(--slide-accent);
   inset: 0;
   width: 100%;
   height: 100%;
 }
 .metro-train {
-  stroke: var(--cvedi-yellow-400);
+  stroke: var(--lesson-accent-on-color, var(--cvedi-course-accent-light));
   stroke-dasharray: .085 1.1;
   stroke-dashoffset: .1;
   opacity: 0;
@@ -294,7 +284,7 @@
   content: '';
   position: absolute;
   inset: -4px;
-  border: 2px solid var(--cvedi-yellow-400);
+  border: 2px solid var(--slide-detail-accent);
   border-radius: inherit;
   opacity: 0;
   pointer-events: none;
@@ -334,20 +324,20 @@
   z-index: 30;
   inset: auto 0 0;
   display: block;
-  width: 100%;
+  width: auto;
   height: 10px;
   overflow: hidden;
-  background: var(--cvedi-indigo-200);
+  background: var(--cvedi-progress-track);
   pointer-events: none;
 }
 .presentation-progress-fill {
   display: block;
   height: 100%;
-  background: var(--cvedi-yellow-400);
+  background: var(--cvedi-progress-color);
 }
 
 /* Keyboard reference: native daisyUI keys, aligned with the slide typography. */
-.shortcuts-slide h2 { margin: 0 0 12px; font: 700 24px/1.25 var(--cvedi-font-display); color: var(--cvedi-detail-accent); }
+.shortcuts-slide h2 { margin: 0 0 12px; font: 700 24px/1.25 var(--cvedi-font-display); color: var(--slide-detail-accent); }
 .shortcut-table { font: 500 18px/1.35 var(--cvedi-font-display); }
 .shortcut-table :is(th, td) { padding: 10px 0; vertical-align: middle; }
 .shortcut-table th { width: 43%; padding-right: 12px; font-weight: 500; }

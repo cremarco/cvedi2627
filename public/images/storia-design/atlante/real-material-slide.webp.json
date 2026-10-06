@@ -1,0 +1,62 @@
+{
+  "prompt": "Original screenshot of a real implemented website/application or an explicitly dated official archive. Google · Material Design 3. Sito ufficiale del sistema, cattura desktop. Source: https://m3.material.io/. Converted to lossless WebP for the Slidev lecture, preserving the complete original image and aspect ratio. No AI generation, no reconstruction.",
+  "createdAt": "2026-10-05T23:33:37.201465+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/reali/early/material-google.png",
+  "sourceURLs": [
+    "https://m3.material.io/"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "2326:370",
+  "bookletFolio": 62,
+  "bookletChapterOrdinal": 42,
+  "bookletSourceRole": "real-examples-masonry",
+  "caption": "Google · Material Design 3. Sito ufficiale del sistema, cattura desktop.",
+  "kind": "current-official-design-system-website",
+  "style": "material",
+  "sourceSha256": "afc9b33fc2b12d89045f9ce377462da800e9516678f08ebcf5f6b485dcefd6b0",
+  "outputSha256": "621f9a5a27b62fff272fd0407bd0219fa36df7dfa6859e6c6a28d657d00aaa32",
+  "sourceDimensions": {
+    "width": 1440,
+    "height": 840
+  },
+  "outputDimensions": {
+    "width": 1440,
+    "height": 840
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "maxEdge": 1600,
+    "resample": "Lanczos only when resizing is required",
+    "pixelRoundTripVerified": true
+  },
+  "originalMetadata": {
+    "id": "material-google",
+    "name": "Google · Material Design 3",
+    "url": "https://m3.material.io/",
+    "captureUrl": "https://m3.material.io/",
+    "sourcePage": "https://m3.material.io/",
+    "caption": "Google · Material Design 3. Sito ufficiale del sistema, cattura desktop.",
+    "date": "2026-10-06",
+    "capturedAt": "2026-10-05T22:55:39.946Z",
+    "kind": "current-official-design-system-website",
+    "capturePath": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/atlante-stili/reali/early/material-google.png",
+    "width": 1440,
+    "height": 840,
+    "viewport": {
+      "width": 1440,
+      "height": 840
+    },
+    "deviceScaleFactor": 1,
+    "crop": null,
+    "authenticityNote": "Il sito stesso usa Material Design. Il collage di interfacce è contenuto del sito; si cita il sito, non si spaccia ogni schermata per un servizio in produzione.",
+    "sha256": "afc9b33fc2b12d89045f9ce377462da800e9516678f08ebcf5f6b485dcefd6b0",
+    "qa": {
+      "httpStatus": 200,
+      "visualInspection": "passed",
+      "noAI": true,
+      "noPixelReconstruction": true,
+      "overlays": "none in selected capture area"
+    }
+  }
+}
