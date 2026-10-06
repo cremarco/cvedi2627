@@ -151,6 +151,8 @@
 .slidev-layout.default.chapter-slide .slide-footer { inset: auto 68px 32px; color: white; font: 500 16px/1.2 var(--cvedi-font-display); }
 .slidev-layout.default.chapter-slide .slide-label { letter-spacing: .12em; font-weight: 700; }
 .slidev-layout.default.chapter-slide .slide-index { padding: 0; border-radius: 0; background: transparent; }
+.slidev-layout.default.chapter-slide a { color: var(--chapter-cover-accent); }
+.slidev-layout.default.chapter-slide a:focus-visible { outline-color: var(--chapter-cover-accent); }
 
 /* White panels and discreet watermark icons, copied from CourseCard.vue. */
 .slidev-layout.default .cvedi-card {
