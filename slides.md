@@ -11,6 +11,7 @@ canvasWidth: 1280
 colorSchema: light
 transition: fade
 comark: true
+presenter: false
 fonts:
   provider: none
 export:
@@ -46,7 +47,7 @@ footer: "Un nuovo percorso"
     <p>Per l’A.A. <strong>2026/27</strong> stiamo rinnovando il corso per offrirvi <strong>contenuti il più possibile aggiornati</strong>.</p>
     <p><strong>Slide e materiale bibliografico sono completamente nuovi</strong> e in corso di aggiornamento.</p>
   </div>
-  <RenewalMetro />
+  <RenewalMaterials />
 </div>
 <div role="note" class="alert alert-soft renewal-feedback">
   <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 5h20a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H13l-7 5v-5a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3Z"/><path d="M10 12h12M10 17h8"/></svg>
@@ -425,10 +426,6 @@ footer: "Percorso individuale"
   </CvediCard>
 </div>
 
-<!--
-Indicazioni della sorgente segnalate “in aggiornamento”.
--->
-
 ---
 layout: default
 class: process-slide project-section
@@ -438,10 +435,6 @@ footer: "Percorso individuale"
 # Approfondimento: fasi
 
 <ProcessTimeline label="Fasi dell’approfondimento" :steps="['Scelta dell’argomento', 'Ricerca e analisi delle fonti', 'Stesura del documento', 'Consegna finale']" />
-
-<!--
-Le quattro tappe riassumono il lavoro individuale per analizzare in dettaglio un argomento e presentarlo in un documento.
--->
 
 ---
 layout: default
@@ -489,11 +482,6 @@ footer: "Temi possibili"
   <li><span><strong>A18–A20 · Strumenti di lavoro</strong><br>Tabelle, command palette e documenti.</span></li>
 </ul>
 <p class="aside"><SlideAction to="approfondimenti">Esplora le 20 tracce</SlideAction></p>
-
-<!--
-Fonte: https://elearning.unimib.it/mod/choicegroup/view.php?id=1680625
-Tracce ufficiali A01–A20, lette il 6 ottobre 2026. Una traccia per studente e un solo studente per traccia. L’elaborato è un PDF individuale; date e scadenze sono da confermare. La sezione autonoma dopo il brief contiene una slide per ciascuna traccia.
--->
 
 ---
 layout: default
@@ -642,11 +630,6 @@ footer: "Dati storici · progetto e approfondimento"
 
 <GradeDistribution category="project" />
 
-<!--
-Nota metodologica: questa categoria unisce progetti e approfondimenti, come nei registri del corso.
-Un voto per matricola in ogni registro; i valori sopra 30 sono nella fascia “30 o più”.
--->
-
 ---
 layout: default
 class: grade-slide history-section reading-slide
@@ -657,11 +640,6 @@ footer: "Dati storici · orale"
 
 <GradeDistribution category="oral" />
 
-<!--
-Nota metodologica: le valutazioni con mezzi punti sono assegnate alla fascia corrispondente.
-Un voto per matricola in ogni registro; i valori sopra 30 sono nella fascia “30 o più”.
--->
-
 ---
 layout: default
 class: grade-slide history-section reading-slide
@@ -671,12 +649,6 @@ footer: "Dati storici · scritto"
 # Prove scritte
 
 <GradeDistribution category="written" />
-
-<!--
-Nota metodologica: per il 2022/23 è considerato l’ultimo voto numerico disponibile tra gli appelli.
-Assenze e ritiri sono esclusi. Un voto per matricola in ogni registro;
-i valori sopra 30 sono nella fascia “30 o più”.
--->
 
 ---
 layout: default
@@ -689,11 +661,6 @@ footer: "Dati storici · voto finale"
 <GradeDistribution category="final" />
 <p class="grade-note">La distribuzione dei voti <strong>non indica il tasso di superamento</strong> dell’esame.</p>
 
-<!--
-Nota metodologica: sono inclusi solo i voti finali. Un voto per matricola in ogni registro;
-i valori sopra 30 sono nella fascia “30 o più”.
--->
-
 ---
 layout: default
 class: grade-slide history-section reading-slide
@@ -704,12 +671,6 @@ footer: "Dati storici · voto finale"
 
 <p class="grade-intro">Distribuzione percentuale dei voti finali per <strong>anno accademico</strong>.</p>
 <GradeYearTable />
-
-<!--
-Nota metodologica: le percentuali sono calcolate separatamente per ogni anno.
-Il registro 2025/26 è fotografato al 29 settembre 2026;
-i registri possono includere esami di studenti iscritti in anni precedenti.
--->
 
 ---
 layout: default

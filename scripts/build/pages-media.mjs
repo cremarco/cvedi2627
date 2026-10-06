@@ -36,7 +36,7 @@ export async function optimizePagesMedia(directory, targetBytes = 980_000_000) {
   const optimized = []
   if (bytes <= targetBytes) return { originalBytes, bytes, optimized }
   const ffmpeg = process.env.PAGES_FFMPEG || 'ffmpeg'
-  const videos = files.filter(file => /\.mp4$/i.test(file.location) && file.bytes >= 2_000_000)
+  const videos = files.filter(file => /\.mp4$/i.test(file.location) && file.bytes >= 500_000)
     .sort((a, b) => b.bytes - a.bytes)
 
   for (const video of videos) {

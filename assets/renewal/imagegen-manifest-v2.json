@@ -1,9 +1,0 @@
-{
-  "tool": "built-in image_gen",
-  "date": "2026-10-06",
-  "editPrompt": "Edit this illustration. Keep the object shapes, composition, colors indigo and lime, and all details unchanged. Remove the entire purple glow, every aura, bloom, backdrop, cast shadow and every pixel outside the object outlines. The only nontransparent pixels should be the crisp objects themselves, with antialiased edges. Completely transparent empty background, no diffuse colored light. Flatten object shading into clean solid vector-like fills, no gradients. No new text or elements.",
-  "assets": {
-    "slides": "public/images/generated/renewal/slides-v2.png",
-    "books": "public/images/generated/renewal/bibliografia-v2.png"
-  }
-}

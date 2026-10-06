@@ -9,7 +9,7 @@ const props = withDefaults(defineProps<{
   panelAspectRatio?: string
 }>(), { panels: 1, panelAspectRatio: '4 / 3' })
 
-const emit = defineEmits<{ sizeChange: [size: { width: number; height: number }] }>()
+const emit = defineEmits<{ sizeChange: [size: { width: number; height: number; emptySpaceY: number }] }>()
 const container = ref<HTMLSpanElement>()
 const image = ref<HTMLImageElement>()
 const imageSize = ref<{ width: string; height: string }>()
@@ -30,26 +30,23 @@ function syncImageSize() {
       frame.clientHeight * ratio,
     )
     const height = width / ratio
-    // Fit the bordered panels on both axes; only their occupied width belongs to the caption.
+    // Fit both axes; only the occupied width belongs to the caption.
     imageSize.value = { width: `${width}px`, height: `${height}px` }
-    emit('sizeChange', { width: width * props.panels + totalGap, height })
+    emit('sizeChange', { width: width * props.panels + totalGap, height, emptySpaceY: Math.max(0, frame.clientHeight - height) })
     return
   }
 
   const element = image.value
   if (!element?.naturalWidth || !element.naturalHeight) return
-  const style = getComputedStyle(element)
-  const borderX = parseFloat(style.borderLeftWidth) + parseFloat(style.borderRightWidth)
-  const borderY = parseFloat(style.borderTopWidth) + parseFloat(style.borderBottomWidth)
   const scale = Math.min(
-    Math.max(0, frame.clientWidth - borderX) / element.naturalWidth,
-    Math.max(0, frame.clientHeight - borderY) / element.naturalHeight,
+    frame.clientWidth / element.naturalWidth,
+    frame.clientHeight / element.naturalHeight,
   )
   const width = element.naturalWidth * scale
   const height = element.naturalHeight * scale
-  // The image keeps its native ratio; the border sits outside its actual pixels.
+  // Single figures retain the original ratio without an added frame.
   imageSize.value = { width: `${width}px`, height: `${height}px` }
-  emit('sizeChange', { width: width + borderX, height: height + borderY })
+  emit('sizeChange', { width, height, emptySpaceY: Math.max(0, frame.clientHeight - height) })
 }
 
 onMounted(() => {

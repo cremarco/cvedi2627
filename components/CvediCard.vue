@@ -1,16 +1,13 @@
 <script setup lang="ts">
 import { computed, useId } from 'vue'
-import { useSlideContext } from '@slidev/client'
+import { useSlideSet } from '../composables/use-slide-set'
 import { cardArtwork } from '../utils/card-artwork'
 import { publicAsset } from '../utils/public-asset'
 
-const props = defineProps<{ title: string; illustration?: string; illustrationVariant?: 'roomy' | 'compact' }>()
+const props = defineProps<{ title: string }>()
 const titleId = useId()
-const { $page, $nav } = useSlideContext()
-const background = computed(() => {
-  const slide = $nav.value.slides.find(slide => slide.no === $page.value)
-  return cardArtwork(String(slide?.meta.slide.frontmatter.lesson ?? 'presentazione-corso'), props.title)
-})
+const { set } = useSlideSet()
+const background = computed(() => cardArtwork(set.value.id, props.title))
 </script>
 
 <template>
@@ -20,7 +17,7 @@ const background = computed(() => {
       <div class="card-heading">
         <h2 :id="titleId" class="card-title">{{ title }}</h2>
       </div>
-      <slot />
+      <div class="card-copy"><slot /></div>
     </div>
   </article>
 </template>

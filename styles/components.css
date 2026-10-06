@@ -58,37 +58,6 @@
 .dense-slide .cvedi-card :is(p, li) {
   font-size: 18px;
 }
-.cvedi-card-illustrated {
-  --card-illustration-size: 80px;
-  position: relative;
-  min-height: 188px;
-  overflow: hidden;
-}
-.cvedi-card-illustrated .card-body { position: static; }
-.cvedi-card-illustrated .card-body > :nth-last-child(2) {
-  margin-bottom: 0;
-}
-.card-decoration {
-  position: static;
-  align-self: flex-end;
-  flex-shrink: 0;
-  margin-top: auto;
-  width: var(--card-illustration-size);
-  height: calc(var(--card-illustration-size) * .8 + var(--cvedi-space-card));
-}
-.card-illustration {
-  position: absolute;
-  right: 12px;
-  bottom: 12px;
-  display: block;
-  width: var(--card-illustration-size);
-  height: calc(var(--card-illustration-size) * .8);
-  object-fit: contain;
-  object-position: right bottom;
-  pointer-events: none;
-}
-.cvedi-card-roomy { --card-illustration-size: 104px; }
-.cvedi-card-compact { --card-illustration-size: 64px; }
 .index-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -330,22 +299,6 @@
   color: var(--cvedi-body);
   font: 700 32px/1.2 var(--cvedi-font-display);
   font-variant-numeric: tabular-nums;
-}
-.presentation-progress-rail {
-  position: absolute;
-  z-index: 30;
-  inset: auto 0 0;
-  display: block;
-  width: auto;
-  height: 10px;
-  overflow: hidden;
-  background: var(--cvedi-progress-track);
-  pointer-events: none;
-}
-.presentation-progress-fill {
-  display: block;
-  height: 100%;
-  background: var(--cvedi-progress-color);
 }
 
 /* Keyboard reference: native daisyUI keys, aligned with the slide typography. */

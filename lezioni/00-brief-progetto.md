@@ -12,11 +12,6 @@ footer: "Brief di progetto · A.A. 2026/27"
 <ChapterMetro section="course" />
 <p>WHAT IF? · Progettare i servizi del 2050</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 1–4. Copertina del set autonomo, adattata al tema WHAT IF? 2026/27 e al sistema visivo della presentazione corrente.
-Il modulo può essere consultato separatamente dalla presentazione del corso. Presentare il tema, il percorso e i materiali di lavoro; i dettagli amministrativi aggiornati saranno comunicati su eLearning.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -46,46 +41,33 @@ footer: "WHAT IF? · Obiettivo e percorso"
   <SlideAction to="brief-consegna">Consegna</SlideAction>
 </p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 3–7. Obiettivo human-centered, atomic design, libertà creativa e prodotti del progetto adattati a WHAT IF?.
-La creatività riguarda concept e contenuti: mantenere comprensibili bisogno, funzionamento e scelte della persona. L’AI del servizio può essere simulata; il sito deve offrire percorsi completi. I tre collegamenti funzionano come indice del set, con alias stabili.
--->
-
 ---
 layout: default
 lesson: brief-progetto
 lessonSlide: 3
-class: content-slide project-section nextme-slide nextme-intro reading-slide lesson-slide brief-section
+class: content-slide project-section brief-slide brief-intro reading-slide lesson-slide brief-section
 routeAlias: brief-tema
 footer: "WHAT IF? · Il brief"
 ---
 
 # WHAT IF?
 
-<div class="nextme-layout">
-  <div class="nextme-copy">
-    <p class="nextme-subtitle">Progettare i servizi del futuro con l’intelligenza artificiale</p>
+<div class="brief-layout">
+  <div class="brief-copy">
+    <p class="brief-subtitle">Progettare i servizi del futuro con l’intelligenza artificiale</p>
     <p>Siamo nel <strong>2050</strong>. L’evoluzione dell’AI apre nuove possibilità per imparare, creare, lavorare, comunicare e interagire con il mondo.</p>
     <p>Inventate un’organizzazione che offra <strong>soluzioni, prodotti, servizi o esperienze innovative</strong> basati su queste possibilità.</p>
     <p>Individuate un <strong>bisogno delle persone</strong> e progettate un’offerta originale, utile e comprensibile.</p>
   </div>
-  <NextMeIllustration src="/images/generated/theme-2026/figures/brief-scene-future-v1.webp" />
+  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-future-v1.webp" />
 </div>
-<p class="aside nextme-statement">Realizzate il <strong>sito web responsive</strong> attraverso cui le persone scoprono, scelgono e utilizzano la vostra offerta.</p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 26–27. Adattamento al tema WHAT IF? 2026/27: servizi del 2050 basati sulle potenzialità future dell’AI, sito in italiano e controllo delle persone.
-WHAT IF? è il titolo del progetto didattico: ogni gruppo inventa il nome e l’identità della propria organizzazione.
-L’ambientazione futura lascia spazio alla fantasia. Le proposte devono avere una logica comprensibile, destinatari riconoscibili e un’utilità concreta.
-Definite quali capacità dell’AI rendono possibile l’offerta, come funziona e quale ruolo hanno le persone.
-Il progetto riguarda il concept, la comunicazione visiva, l’esperienza delle persone e la realizzazione del sito web.
--->
+<p class="aside brief-statement">Realizzate il <strong>sito web responsive</strong> attraverso cui le persone scoprono, scelgono e utilizzano la vostra offerta.</p>
 
 ---
 layout: default
 lesson: brief-progetto
 lessonSlide: 4
-class: content-slide project-section nextme-slide nextme-concept reading-slide lesson-slide brief-section
+class: content-slide project-section brief-slide brief-concept reading-slide lesson-slide brief-section
 routeAlias: brief-concept
 footer: "WHAT IF? · Il concept"
 ---
@@ -93,26 +75,22 @@ footer: "WHAT IF? · Il concept"
 # Dal bisogno al concept
 
 <p class="lead">Collegate persone, capacità dell’AI e valore del servizio.</p>
-<div class="nextme-layout">
-  <dl class="nextme-definition-list">
+<div class="brief-layout">
+  <dl class="brief-definition-list">
     <div><dt>Destinatari</dt><dd>Definite persone, <strong>bisogno</strong> e <strong>contesto d’uso</strong>.</dd></div>
     <div><dt>Offerta</dt><dd>Una soluzione principale, con servizi o varianti coerenti.</dd></div>
     <div><dt>Ruolo dell’AI</dt><dd>Spiegate quale capacità rende possibile la vostra offerta.</dd></div>
     <div><dt>Evoluzione</dt><dd>Distinguete ciò che esiste <strong>oggi</strong> da ciò che ipotizzate per il <strong>2050</strong>.</dd></div>
     <div><dt>Scelte dell’utente</dt><dd>Chiarite cosa <strong>decide</strong>, fornisce, delega e <strong>può modificare</strong>.</dd></div>
   </dl>
-  <NextMeIllustration src="/images/generated/theme-2026/figures/brief-scene-concept-v1.webp" />
+  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-concept-v1.webp" />
 </div>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 4–6. Adattamento al tema WHAT IF? 2026/27: servizi del 2050 basati sulle potenzialità future dell’AI, sito in italiano e controllo delle persone.
--->
 
 ---
 layout: default
 lesson: brief-progetto
 lessonSlide: 5
-class: content-slide project-section nextme-directions reading-slide lesson-slide brief-section
+class: content-slide project-section brief-directions reading-slide lesson-slide brief-section
 routeAlias: brief-ai
 footer: "WHAT IF? · Direzioni da esplorare"
 ---
@@ -141,10 +119,6 @@ footer: "WHAT IF? · Direzioni da esplorare"
   </CvediCard>
 </div>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 6. Adattamento al tema WHAT IF? 2026/27: servizi del 2050 basati sulle potenzialità future dell’AI, sito in italiano e controllo delle persone.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -172,15 +146,11 @@ footer: "WHAT IF? · Spunti"
 </div>
 <p class="aside">Usate questi esempi come stimoli e sviluppate una <strong>proposta originale</strong>.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 6. Adattamento al tema WHAT IF? 2026/27: servizi del 2050 basati sulle potenzialità future dell’AI, sito in italiano e controllo delle persone.
--->
-
 ---
 layout: default
 lesson: brief-progetto
 lessonSlide: 7
-class: content-slide project-section nextme-slide nextme-website reading-slide lesson-slide brief-section
+class: content-slide project-section brief-slide brief-website reading-slide lesson-slide brief-section
 routeAlias: brief-sito
 footer: "WHAT IF? · Il sito web"
 ---
@@ -188,19 +158,15 @@ footer: "WHAT IF? · Il sito web"
 # Dal concept al sito web
 
 <p class="lead">Un sito dove il servizio si capisce e si sceglie.</p>
-<div class="nextme-layout">
-  <dl class="nextme-definition-list">
+<div class="brief-layout">
+  <dl class="brief-definition-list">
     <div><dt>Identità</dt><dd>Homepage, organizzazione, persone e contatti.</dd></div>
     <div><dt>Offerta</dt><dd>Catalogo e <strong>schede dettagliate</strong> dei servizi.</dd></div>
     <div><dt>Funzionamento</dt><dd>Come si usa il servizio e quale <strong>contributo</strong> dà l’AI.</dd></div>
     <div><dt>Accesso al servizio</dt><dd>Richiesta, personalizzazione, prenotazione o attivazione.</dd></div>
   </dl>
-  <NextMeIllustration src="/images/generated/theme-2026/figures/brief-scene-responsive-v1.webp" />
+  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-responsive-v1.webp" />
 </div>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 4, 26–29. Adattamento al tema WHAT IF? 2026/27: servizi del 2050 basati sulle potenzialità future dell’AI, sito in italiano e controllo delle persone.
--->
 
 ---
 layout: default
@@ -239,10 +205,6 @@ footer: "WHAT IF? · Funzionalità"
   </CvediCard>
 </div>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 27. Adattamento al tema WHAT IF? 2026/27: servizi del 2050 basati sulle potenzialità future dell’AI, sito in italiano e controllo delle persone.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -279,10 +241,6 @@ footer: "WHAT IF? · Requisiti"
 </div>
 <p class="aside">I comportamenti dell’AI e le disponibilità <strong>possono essere simulati</strong>. La valutazione riguarda concept, comunicazione visiva e usabilità del sito.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 28. Adattamento al tema WHAT IF? 2026/27: servizi del 2050 basati sulle potenzialità future dell’AI, sito in italiano e controllo delle persone.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -310,11 +268,6 @@ footer: "WHAT IF? · Dal brief al progetto"
   </CvediCard>
 </div>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 4–7. Adattamento al brief WHAT IF? 2026/27 delle slide precedenti.
-Invitare ogni gruppo a sintetizzare in una pagina bisogno, destinatari, proposta, capacità dell’AI, scelte dell’utente e vincoli. Il formato è uno strumento di lavoro, non una nuova consegna separata. Le ipotesi sul 2050 devono essere dichiarate; non presentare scenari inventati come risultati di ricerca.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -338,11 +291,6 @@ footer: "WHAT IF? · Ricerca e riferimenti"
   </CvediCard>
 </div>
 <p class="aside">Una pagina A4 di analisi per ciascun caso: <strong>immagine ed osservazioni</strong>, con la fonte.</p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 8–10. Recuperati i due insiemi di tre analisi, distinguendo comparabili e riferimenti.
-Non è necessario trovare un concorrente identico al servizio del 2050. Un servizio odierno può offrire un modello utile per un compito analogo. Descrivere ciò che si osserva, evitando di attribuire intenzioni agli autori o problemi a tutti gli utenti senza evidenze. Conservare la fonte degli screenshot.
--->
 
 ---
 layout: default
@@ -369,11 +317,6 @@ footer: "WHAT IF? · Persone e contesto"
 </div>
 <p class="aside">Distinguete <strong>osservazioni raccolte</strong>, ipotesi sui destinatari e scenari immaginati per il 2050.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 8 e 11; L04 2025/26, pp. 51–63.
-Tre profili devono differire per bisogni o contesti utili al progetto, non solo per età e nome. Una proto-persona sintetizza ipotesi iniziali; non va presentata come una persona emersa da ricerca già svolta. Non raccogliere dati personali sensibili per rendere credibile lo scenario futuro. Collegare ogni profilo a un compito che il sito deve sostenere.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -399,16 +342,11 @@ footer: "WHAT IF? · Concept e moodboard"
 </div>
 <p class="aside">La direzione può evolvere: conservate le versioni e annotate <strong>che cosa cambia e perché</strong>.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 8 e 12. La moodboard precede il design system definitivo.
-Non scegliere uno stile futuristico solo perché il tema è il 2050: motivare il rapporto con il bisogno e l’esperienza proposta. Per immagini generate, conservare strumento e prompt; per immagini raccolte, conservare autore e fonte. Nessun obbligo aggiuntivo di utilizzare immagini AI.
--->
-
 ---
 layout: default
 lesson: brief-progetto
 lessonSlide: 14
-class: content-slide project-section nextme-directions reading-slide lesson-slide brief-section
+class: content-slide project-section brief-directions reading-slide lesson-slide brief-section
 routeAlias: brief-architettura
 footer: "WHAT IF? · Architettura dell’informazione"
 ---
@@ -430,11 +368,6 @@ footer: "WHAT IF? · Architettura dell’informazione"
   ]"
 />
 <p class="aside">Almeno <strong>3 schede complete</strong>: benefici, funzionamento, dati e condizioni. Indicate nella mappa i <strong>nomi dei file</strong>.</p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 20 e 29; adattamento dell’architettura del ristorante al nuovo tema.
-Recuperato il minimo di tre pagine di dettaglio, ora riferite a tre servizi o varianti coerenti con l’offerta. La homepage resta index.html; gli altri nomi devono descrivere i contenuti. Non imporre nomi come ristorante.html o piatto-1.html. Le linee della mappa indicano relazioni gerarchiche: le tre schede dipendono dal catalogo, non sono sezioni parallele. Il sito può avere ulteriori pagine pertinenti; la struttura proposta non obbliga a duplicare contenuti né a implementare un backend.
--->
 
 ---
 layout: default
@@ -459,11 +392,6 @@ footer: "WHAT IF? · Wireframe e user flow"
   </CvediCard>
 </div>
 <p class="aside">Confrontate i due formati: cambia la disposizione, resta riconoscibile <strong>lo stesso compito</strong>.</p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 13–14.
-Distinguere user flow, che descrive il percorso nel sistema, e storyboard, che può mostrare una situazione d’uso più ampia. Il wireframe non è un mockup a colori: le scelte visive arriveranno dopo, senza usare testi segnaposto che impediscono di valutare la struttura.
--->
 
 ---
 layout: default
@@ -490,11 +418,6 @@ footer: "WHAT IF? · Un compito completo"
 </div>
 <p class="aside">Se il servizio non è disponibile, proponete un’alternativa. Prima della conferma, consentite di <strong>correggere i dati</strong>.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 13–14 e 27. Nuovo esempio illustrativo coerente con WHAT IF?.
-I comportamenti del servizio possono essere simulati. Mostrare almeno un punto in cui la persona può correggere una scelta senza ricominciare. Dopo l’attivazione, rendere reperibili stato e modifica o annullamento, quando pertinenti. Non richiedere pagamenti reali, invio di messaggi o capacità AI operative.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -520,11 +443,6 @@ footer: "WHAT IF? · Look & feel"
 </div>
 <p class="aside">L’identità dell’organizzazione deve restare riconoscibile in <strong>tutte le pagine e i formati</strong>.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 3, 15 e 22.
-Collegare atomic design a elementi e combinazioni riusabili, senza ridurre il design system a una raccolta di schermate. Le varianti devono risolvere esigenze reali. Il focus visibile, gli errori dei form e gli stati di caricamento o conferma fanno parte dell’interfaccia, non sono dettagli da aggiungere alla fine.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -549,11 +467,6 @@ footer: "WHAT IF? · Mockup e verifica"
   </CvediCard>
 </div>
 <p class="aside">Provate i compiti principali con altre persone e usate ciò che osservate per <strong>migliorare il progetto</strong>.</p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 15–16; adattamento alle funzioni e ai requisiti WHAT IF?.
-La verifica è un’attività di progetto: non inventare un numero minimo di partecipanti né una nuova consegna amministrativa. Conservare compiti, osservazioni e modifiche. Un prototipo permette di verificare le scelte prima dello sviluppo; il sito realizzato va controllato di nuovo.
--->
 
 ---
 layout: default
@@ -582,11 +495,6 @@ footer: "WHAT IF? · Revisioni"
 </div>
 <p class="aside">Preparate <strong>un PDF per fase, massimo 10 MB</strong>. Revisioni con l’intero gruppo; date e modalità su eLearning.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 7–8 e 13–17.
-Recuperati la progressione delle revisioni, la partecipazione dell’intero gruppo e il PDF per fase con il limite di 10 MB della fonte. Nessuna data 2025/26 è riportata. Le condizioni amministrative e l’eventuale obbligatorietà della revisione plenaria saranno indicate nel calendario aggiornato; non ricavare nuovi appuntamenti dal vecchio deck. Conservare i materiali intermedi per la documentazione finale.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -610,11 +518,6 @@ footer: "WHAT IF? · Consegna finale"
   </CvediCard>
 </div>
 <p class="aside"><strong>Massimo 10 MB per file.</strong> Consegna una settimana prima dello scritto; form e date saranno comunicati su eLearning.</p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 18–23. Ripresa la struttura dei tre materiali e il limite di 10 MB, già presente nelle consegne 2025/26. La scadenza relativa coincide con la slide Progetto del set attuale; form e date 2026/27 restano da pubblicare.
-Il repository deve essere accessibile ai docenti; il file TXT deve indicare come avviare il progetto quando necessario. Non pubblicare credenziali o dati personali. Distinguere il design system finale dal racconto del processo. Non imporre codici o nomi dei file di consegna non presenti nella fonte.
--->
 
 ---
 layout: default
@@ -642,11 +545,6 @@ footer: "WHAT IF? · Sviluppo front-end"
   </CvediCard>
 </div>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 20–21 e 25; requisiti responsive e accessibili del brief attuale.
-La validazione HTML non dimostra da sola la conformità WCAG: vanno verificati anche contrasto, etichette, focus e utilizzo da tastiera. Il naming inglese riguarda codice e identificatori, mentre l’interfaccia resta in italiano. I comportamenti AI possono essere simulati; il percorso deve comunque fornire feedback e consentire di correggere errori.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -671,11 +569,6 @@ footer: "WHAT IF? · Design system finale"
   </CvediCard>
 </div>
 <p class="aside">Nel PDF presentate le regole visive e d’uso. <strong>Il codice si consegna insieme al sito.</strong></p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 22 e 25.
-Il deck precedente richiede look & feel e atomi/molecole, senza codice nel PDF. Chiarire il significato attraverso componenti del sito realizzato. Il documento finale deve coincidere con la versione consegnata, non con scelte abbandonate. Le regole devono permettere a un’altra persona di costruire una nuova pagina coerente.
--->
 
 ---
 layout: default
@@ -702,11 +595,6 @@ footer: "WHAT IF? · Documentazione"
   </CvediCard>
 </div>
 <p class="aside">Selezionate prove, schemi e confronti significativi. <strong>La documentazione spiega il percorso progettuale.</strong></p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 7, 17 e 23.
-Il design system descrive il sistema finale; la documentazione descrive il processo e le ragioni delle decisioni. Non duplicare due PDF identici. Usare confronti prima/dopo quando utili, indicare le fonti e dichiarare quali funzioni del servizio sono simulate. Non inventare feedback dei docenti o risultati di test.
--->
 
 ---
 layout: default
@@ -735,11 +623,6 @@ footer: "WHAT IF? · Criteri di valutazione"
 </div>
 <p class="aside"><strong>Correttezza, completezza, originalità e approfondimento</strong> guidano la valutazione del lavoro.</p>
 
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 24–25. Criteri rielaborati sul tema WHAT IF?, senza introdurre pesi o soglie nuovi.
-Il valore dell’idea non sostituisce la realizzazione dei percorsi richiesti. Per il nuovo tema considerare esplicito il contributo dell’AI e il controllo dell’utente, già richiesti nella slide Requisiti. La presentazione qui è un criterio comunicativo generale: l’eventuale discussione d’esame segue le regole del set attuale e sarà comunicata ai gruppi interessati.
--->
-
 ---
 layout: default
 lesson: brief-progetto
@@ -763,8 +646,3 @@ footer: "WHAT IF? · Controllo finale"
   </CvediCard>
 </div>
 <p class="aside">Presentate materiali leggibili e coerenti con la <strong>versione finale del progetto</strong>.</p>
-
-<!--
-Fonte: CVeDI 2526 - Brief progetti, slide 24 e 30. Chiusura autonoma: rispetto dei requisiti, controllo dei materiali e comunicazioni tramite il forum.
-Le date del vecchio anno non sono riutilizzate. Per consegne e revisioni fare riferimento alle comunicazioni 2026/27, senza introdurre nuovi obblighi o deroghe amministrative. La qualità del progetto comprende anche il rispetto dei vincoli e la chiarezza dei materiali.
--->

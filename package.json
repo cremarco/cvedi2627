@@ -8,6 +8,7 @@
     "node": ">=22.12.0"
   },
   "scripts": {
+    "clean": "node scripts/clean.mjs",
     "css": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./styles/daisy.css -o ./styles/daisy-built.css",
     "css:projects": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./progetti/gallery.source.css -o ./progetti/gallery.css --minify",
     "gallery": "node scripts/build/project-gallery.mjs",
@@ -17,12 +18,15 @@
     "export": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
     "check": "node scripts/check/slides.mjs",
     "check:source": "node scripts/check/slide-source.mjs",
+    "check:progress": "node scripts/check/progress.mjs",
+    "check:motion": "node scripts/check/motion.mjs",
+    "check:typography": "node scripts/check/typography.mjs",
+    "check:layout": "node scripts/check/layout.mjs",
     "check:projects": "node scripts/check/projects.mjs",
     "check:links": "python3 scripts/check/site-links.py"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
-    "@fontsource/merriweather": "^5.2.8",
     "@slidev/cli": "^53.0.0",
     "@slidev/theme-default": "^0.25.0",
     "vue": "^3.5.0"

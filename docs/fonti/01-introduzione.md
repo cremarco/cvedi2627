@@ -111,7 +111,7 @@ Gli asset sono salvati in `public/images/introduzione/`. Le versioni WebP sono e
 | scala.webp | L03 p. 9, seconda immagine | Riferimento della precedente revisione; sostituito dai JPEG originali nelle slide 31–46 / 98–113 |
 | menu-paesi.webp | L03 p. 18, seconda immagine | Slide 47 / 114 |
 | customer-journey.webp | L04 p. 74, prima immagine | Originale conservato come riferimento della slide 61 / 128 |
-| ../generated/customer-journey/journey-v1.png | Rielaborazione illustrativa generata con imagegen a partire da L04 p. 74; cinque fasi in italiano. Prompt e riferimenti in `assets/customer-journey/manifest.json` | Slide 61 / 128 |
+| ../generated/theme-2026/figures/intro-customer-journey-v1.webp | Rielaborazione illustrativa generata con imagegen a partire da L04 p. 74; cinque fasi in italiano. Prompt e riferimenti nel manifest corrente `assets/theme-imagegen/manifest-v1.json` | Slide 61 / 128 |
 | architettura-informazione.webp | L05 p. 11, prima immagine | Slide 67 / 134 |
 | wireframe.webp | L05 p. 26, prima immagine | Slide 68 / 135 |
 | recuperi-2025/lidl-appoggio.jpg | L03 p. 17, immagine 0 originale senza ritaglio o ricampionamento | Slide 41 / 108 |

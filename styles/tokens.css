@@ -191,6 +191,16 @@
   --cvedi-rose-950: oklch(27.1% 0.105 12.094);
 
   /* Tailwind roles: ink 800, large canvases 900, details 950, soft accents 100. */
+  --cvedi-opening-base: var(--cvedi-indigo-800);
+  --cvedi-opening-canvas: var(--cvedi-indigo-900);
+  --cvedi-opening-deep: var(--cvedi-indigo-950);
+  --cvedi-opening-accent: var(--cvedi-lime-800);
+  --cvedi-opening-accent-light: var(--cvedi-lime-100);
+  --cvedi-research-base: var(--cvedi-opening-base);
+  --cvedi-research-canvas: var(--cvedi-opening-canvas);
+  --cvedi-research-deep: var(--cvedi-opening-deep);
+  --cvedi-research-accent: var(--cvedi-opening-accent);
+  --cvedi-research-accent-light: var(--cvedi-opening-accent-light);
   --cvedi-course-base: var(--cvedi-red-800);
   --cvedi-course-canvas: var(--cvedi-red-900);
   --cvedi-course-deep: var(--cvedi-red-950);
@@ -241,9 +251,7 @@
   --cvedi-conclusions-accent: var(--cvedi-rose-800);
   --cvedi-conclusions-accent-light: var(--cvedi-rose-100);
 
-  /* One independent progress color for every slide and section. */
-  --cvedi-progress-color: var(--cvedi-indigo-700);
-  --cvedi-progress-track: var(--cvedi-gray-200);
+  /* Default for standalone consumers; the active slide set overrides this role. */
 
   --cvedi-indigo: var(--cvedi-indigo-700);
   --cvedi-detail-accent: var(--cvedi-course-accent);
@@ -256,17 +264,7 @@
   --cvedi-paper: #ffffff;
   --cvedi-surface: var(--cvedi-gray-50);
   --cvedi-rule: var(--cvedi-gray-200);
-  --cvedi-image-border: 1px;
 
-  --cvedi-font-display: 'Inter', Arial, sans-serif;
-  --cvedi-font-body: 'Merriweather', Georgia, serif;
-  --cvedi-type-title: 55px;
-  --cvedi-type-lead: 27px;
-  --cvedi-type-body: 21px;
-  --cvedi-type-card-title: 24px;
-  --cvedi-type-card-body: 19px;
-  --cvedi-type-data: 17px;
-  --cvedi-type-label: 15px;
 
   --cvedi-slide-top: 64px;
   --cvedi-slide-inline: 68px;
@@ -277,7 +275,7 @@
   /* About 14 px per colored lane in the cover's pattern on this canvas. */
   --cvedi-metro-lane: 14px;
   --cvedi-metro-divider: 2px;
-  --cvedi-motion-metro: 2300ms;
+  --cvedi-motion-metro: 800ms;
 
   --cvedi-space-card: 16px;
   --cvedi-space-content: 24px;

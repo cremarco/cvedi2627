@@ -1,0 +1,36 @@
+{
+  "createdAt": "2026-10-06",
+  "slideAlias": "ux-indizi-comandi-esiti",
+  "assets": [
+    "intro-example-signifier",
+    "intro-example-mapping",
+    "intro-example-feedback"
+  ],
+  "sourceCheck": "passed",
+  "slidevBuild": "passed",
+  "desktop": {
+    "loadedImages": 3,
+    "equalImageFrameHeights": 200,
+    "cardsAligned": true,
+    "contentAboveFooter": true
+  },
+  "narrow": {
+    "viewport": [
+      636,
+      778
+    ],
+    "loadedImages": 3,
+    "imagesInsideSlide": true,
+    "contentAboveFooter": true
+  },
+  "enlargement": {
+    "opens": true,
+    "imageLoads": true,
+    "escapeCloses": true,
+    "focusReturnsToTrigger": true
+  },
+  "conversion": {
+    "lossless": true,
+    "rgbaPixelsAndAlphaPreserved": true
+  }
+}

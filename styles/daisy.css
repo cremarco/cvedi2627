@@ -1,4 +1,4 @@
-@import "tailwindcss";
+@import "tailwindcss" source(none);
 @source "../slides.md";
 @source "../lezioni";
 @source "../components";
@@ -23,12 +23,12 @@
   --color-secondary-content: #ffffff;
   --color-accent: var(--cvedi-course-accent-light);
   --color-accent-content: var(--cvedi-gray-950);
-  --color-info: var(--cvedi-course-base);
+  --color-info: var(--cvedi-blue-700);
   --color-info-content: #ffffff;
-  --color-success: var(--cvedi-course-base);
+  --color-success: var(--cvedi-green-700);
   --color-success-content: #ffffff;
-  --color-warning: var(--cvedi-course-base);
+  --color-warning: var(--cvedi-amber-700);
   --color-warning-content: #ffffff;
-  --color-error: var(--cvedi-course-base);
+  --color-error: var(--cvedi-red-700);
   --color-error-content: #ffffff;
 }

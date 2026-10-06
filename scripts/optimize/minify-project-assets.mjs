@@ -9,7 +9,7 @@ const { minify: minifyHtml } = require('html-minifier-terser')
 const { minify: minifyJs } = require('terser')
 const CleanCSS = require('clean-css')
 const root = path.resolve(process.argv[2] || 'progetti/a.a.2025_2026')
-const reports = path.resolve(process.argv[3] || 'reports/progetti-extra-2026-09-30')
+const reports = path.resolve(process.argv[3] || 'reports/minification')
 const backup = path.join(reports, 'before-minification')
 const css = new CleanCSS({
   rebase: false,

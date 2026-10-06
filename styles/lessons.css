@@ -1,53 +1,4 @@
-/* Shared Tailwind palettes with separate ink and full-canvas roles. */
-.lesson-slide.research-section {
-  --lesson-color: var(--cvedi-indigo-800);
-  --lesson-canvas: var(--cvedi-indigo-900);
-  --lesson-color-deep: var(--cvedi-indigo-950);
-  --lesson-accent: var(--cvedi-lime-800);
-  --lesson-accent-on-color: var(--cvedi-lime-100);
-}
-.lesson-slide.brief-section {
-  --lesson-color: var(--cvedi-brief-base);
-  --lesson-canvas: var(--cvedi-brief-canvas);
-  --lesson-color-deep: var(--cvedi-brief-deep);
-  --lesson-accent: var(--cvedi-brief-accent);
-  --lesson-accent-on-color: var(--cvedi-brief-accent-light);
-}
-.lesson-slide.introduction-section {
-  --lesson-color: var(--cvedi-introduction-base);
-  --lesson-canvas: var(--cvedi-introduction-canvas);
-  --lesson-color-deep: var(--cvedi-introduction-deep);
-  --lesson-accent: var(--cvedi-introduction-accent);
-  --lesson-accent-on-color: var(--cvedi-introduction-accent-light);
-}
-.lesson-slide.history-section {
-  --lesson-color: var(--cvedi-history-base);
-  --lesson-canvas: var(--cvedi-history-canvas);
-  --lesson-color-deep: var(--cvedi-history-deep);
-  --lesson-accent: var(--cvedi-history-accent);
-  --lesson-accent-on-color: var(--cvedi-history-accent-light);
-}
-.lesson-slide.design-thinking-section {
-  --lesson-color: var(--cvedi-design-thinking-base);
-  --lesson-canvas: var(--cvedi-design-thinking-canvas);
-  --lesson-color-deep: var(--cvedi-design-thinking-deep);
-  --lesson-accent: var(--cvedi-design-thinking-accent);
-  --lesson-accent-on-color: var(--cvedi-design-thinking-accent-light);
-}
-.lesson-slide.lean-ux-section {
-  --lesson-color: var(--cvedi-lean-ux-base);
-  --lesson-canvas: var(--cvedi-lean-ux-canvas);
-  --lesson-color-deep: var(--cvedi-lean-ux-deep);
-  --lesson-accent: var(--cvedi-lean-ux-accent);
-  --lesson-accent-on-color: var(--cvedi-lean-ux-accent-light);
-}
-.lesson-slide.conclusions-section {
-  --lesson-color: var(--cvedi-conclusions-base);
-  --lesson-canvas: var(--cvedi-conclusions-canvas);
-  --lesson-color-deep: var(--cvedi-conclusions-deep);
-  --lesson-accent: var(--cvedi-conclusions-accent);
-  --lesson-accent-on-color: var(--cvedi-conclusions-accent-light);
-}
+/* Palette roles are supplied by useSlideSet; this sheet owns lesson layouts. */
 .slidev-layout.lesson-slide {
   --slide-accent: var(--lesson-color);
   --slide-canvas: var(--lesson-canvas);
@@ -139,15 +90,6 @@
   font: 700 24px/1.3 var(--cvedi-font-display);
 }
 .lesson-steps .step span { display: block; margin-top: 6px; color: var(--cvedi-body); font-size: 19px; font-weight: 400; }
-.experience-map {
-  padding: 26px 32px;
-  border: 3px solid var(--slide-accent);
-  border-radius: var(--cvedi-radius);
-  background: var(--slide-surface);
-}
-.slidev-layout .experience-map h2 { margin-bottom: 10px; color: var(--slide-accent); font: 700 28px/1.2 var(--cvedi-font-display); }
-.experience-map .interface-area { margin-top: 18px; padding: 20px 24px; background: var(--cvedi-paper); border-radius: var(--cvedi-radius); }
-.experience-map .interface-area p, .experience-map > p { margin-bottom: 0; }
 .lesson-loop {
   display: flex;
   justify-content: space-between;

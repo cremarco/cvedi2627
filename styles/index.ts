@@ -3,10 +3,6 @@ import '@fontsource/inter/latin-300.css'
 import '@fontsource/inter/latin-500.css'
 import '@fontsource/inter/latin-600.css'
 import '@fontsource/inter/latin-700.css'
-import '@fontsource/inter/latin-900.css'
-import '@fontsource/merriweather/latin-400.css'
-import '@fontsource/merriweather/latin-300-italic.css'
-import '@fontsource/merriweather/latin-700.css'
 
 import './daisy-built.css'
 import './tokens.css'
@@ -21,7 +17,9 @@ import './ux-process.css'
 import './grades.css'
 import './motion.css'
 import './published.css'
-import './reference.css'
+import './theme.css'
+import './typography.css'
+import './layout.css'
 
 // A production build can also be previewed locally. Hide only on online hosts.
 if (typeof window !== 'undefined') {

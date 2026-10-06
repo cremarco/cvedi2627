@@ -1,210 +1,133 @@
-/* Motion follows Slidev lifecycle state, including revisits and presenter view. */
-.exercises-slide.is-active .syllabus-retired::after {
-  animation: cvedi-syllabus-strike 560ms var(--cvedi-ease-out) 300ms both;
-}
-.exercises-slide.is-active .syllabus-sticker {
-  animation: cvedi-syllabus-sticker 720ms var(--cvedi-ease-out) 880ms both;
-}
-@keyframes cvedi-syllabus-strike {
-  from { clip-path: inset(0 100% 0 0); }
-  to { clip-path: inset(0); }
-}
-@keyframes cvedi-syllabus-sticker {
-  from {
-    clip-path: inset(0 0 100% 0);
-    transform: translate3d(16px, -28px, 0) rotate(-12deg) scale(1.12);
-  }
-  55% {
-    clip-path: inset(0);
-    transform: translate3d(0, 3px, 0) rotate(-1deg) scale(.97);
-  }
-  78% {
-    clip-path: inset(0);
-    transform: translate3d(0, -1px, 0) rotate(-4.5deg) scale(1.015);
-  }
-  to {
-    clip-path: inset(0);
-    transform: translate3d(0, 0, 0) rotate(-3deg) scale(1);
-  }
-}
+/* One finite entrance per active slide. The shared playback guard also covers
+   presenter previews, hidden tabs and Slidev exports (which use screen media).
+   Static styles are the complete, readable result; motion is opt-in. */
 .slidev-page.fade-enter-active {
-  transition-duration: 260ms;
+  transition-duration: 240ms;
   transition-timing-function: var(--cvedi-ease-out);
 }
 .slidev-page.fade-leave-active {
-  transition-duration: 150ms;
+  transition-duration: 140ms;
   transition-timing-function: ease-out;
 }
-.chapter-slide.is-active h1 {
+
+/* The small section-colored mark acknowledges navigation; titles stay fixed. */
+.slidev-layout.default.fixed-title-slide.motion-enabled > h1::after {
   transform-origin: left center;
-  animation: cvedi-title-focus 760ms var(--cvedi-ease-out) both;
+  animation: cvedi-heading-mark 360ms var(--cvedi-ease-out) both;
 }
-.chapter-slide.is-active > p {
-  animation: cvedi-subtitle-reveal 540ms var(--cvedi-ease-out) 230ms both;
+@keyframes cvedi-heading-mark {
+  from { transform: scaleX(.2); }
+  to { transform: scaleX(1); }
 }
-.grade-slide.is-active .progress {
-  animation: cvedi-grade-reveal var(--cvedi-motion-data) var(--cvedi-ease-out) calc(120ms + var(--grade-order, 0) * 85ms) both;
+
+/* The map is the authored entrance. Type and the central band remain readable. */
+:is(.cover-slide, .closing-slide).motion-enabled .closing-metro-reveal {
+  animation: cvedi-map-route var(--route-duration) var(--cvedi-ease-out) var(--route-delay) both;
 }
-/* Follow the calendar chronologically; the complete sequence stays under 800 ms. */
-.calendar-slide.is-active .cvedi-calendar tbody tr {
-  animation: cvedi-calendar-row 360ms var(--cvedi-ease-out) calc(60ms + var(--calendar-order, 0) * 28ms) both;
+:is(.cover-slide, .closing-slide).motion-enabled .closing-metro-details {
+  animation: cvedi-map-detail 420ms ease-out both;
 }
-/* One metro journey on entry; labels and the full route remain visible. */
-:is(.process-slide, .chapter-slide).is-active .metro-train {
-  animation: cvedi-metro-journey var(--cvedi-motion-metro) linear 100ms both;
+:is(.cover-slide, .closing-slide).motion-enabled .closing-metro-dot {
+  animation: cvedi-map-detail 120ms ease-out var(--dot-delay) both;
 }
-.chapter-slide.is-active .metro-train {
-  animation-delay: 520ms;
+@keyframes cvedi-map-route {
+  from { stroke-dashoffset: 1; }
+  to { stroke-dashoffset: 0; }
 }
-.process-slide.is-active .metro-station::after {
-  animation: cvedi-metro-arrival 480ms var(--cvedi-ease-out) calc(500ms + var(--station-order, 0) * 450ms) both;
+@keyframes cvedi-map-detail {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
-/* Build the vector map lane by lane; staggered routes settle after 10.5 s. */
-:is(.cover-slide, .closing-slide).is-active .closing-metro-reveal {
-  animation: cvedi-closing-route var(--route-duration) cubic-bezier(.4, 0, .2, 1) var(--route-delay) both;
+
+/* A single journey explains the route and its sequence, without looping. */
+:is(.process-slide, .chapter-slide).motion-enabled .metro-train {
+  animation: cvedi-metro-journey var(--cvedi-motion-metro) linear both;
 }
-:is(.cover-slide, .closing-slide).is-active .closing-metro-details {
-  animation: cvedi-closing-details 4s ease-out 2s both;
+.chapter-slide.motion-enabled .metro-train {
+  animation-duration: 720ms;
+  animation-delay: 40ms;
 }
-:is(.cover-slide, .closing-slide).is-active .closing-metro-dot {
-  animation: cvedi-closing-details 180ms ease-out var(--dot-delay) both;
+.chapter-slide.motion-enabled > p {
+  animation: cvedi-reading-focus 420ms ease-out 100ms both;
 }
-@keyframes cvedi-closing-route {
-  from {
-    stroke-dashoffset: 1;
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-@keyframes cvedi-closing-details {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+.process-slide.motion-enabled .metro-station::after {
+  animation: cvedi-metro-arrival 200ms var(--cvedi-ease-out) calc(120ms + var(--station-order, 0) * 160ms) both;
 }
 @keyframes cvedi-metro-journey {
-  0% {
-    stroke-dashoffset: .1;
-    opacity: 0;
-  }
-  5%, 92% {
-    opacity: 1;
-  }
-  100% {
-    stroke-dashoffset: -1.1;
-    opacity: 0;
-  }
+  0% { stroke-dashoffset: .1; opacity: 0; }
+  5%, 92% { opacity: 1; }
+  100% { stroke-dashoffset: -1.1; opacity: 0; }
 }
 @keyframes cvedi-metro-arrival {
-  from {
-    opacity: 0;
-    transform: scale(1);
-  }
-  18% {
-    opacity: .8;
-  }
-  to {
-    opacity: 0;
-    transform: scale(1.4);
-  }
+  from { opacity: 0; transform: scale(1); }
+  25% { opacity: .65; }
+  to { opacity: 0; transform: scale(1.2); }
+}
+
+/* List order carries information. Staggers end within 800 ms. */
+.calendar-slide.motion-enabled .cvedi-calendar tbody tr {
+  animation: cvedi-calendar-row 360ms var(--cvedi-ease-out) calc(40ms + var(--calendar-order, 0) * 28ms) both;
+}
+.grade-slide.motion-enabled .progress {
+  animation: cvedi-grade-reveal 440ms var(--cvedi-ease-out) calc(40ms + var(--grade-order, 0) * 55ms) both;
 }
 @keyframes cvedi-calendar-row {
-  from {
-    opacity: .2;
-    transform: translateY(-6px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-@keyframes cvedi-title-focus {
-  0% {
-    color: var(--chapter-ghost);
-    transform: scale(1.34);
-    filter: blur(10px);
-  }
-  48% {
-    color: var(--chapter-mid);
-    filter: blur(1px);
-  }
-  100% {
-    color: white;
-    transform: scale(1);
-    filter: blur(0);
-  }
-}
-@keyframes cvedi-subtitle-reveal {
-  from {
-    opacity: 0;
-    clip-path: inset(0 100% 0 0);
-  }
-  to {
-    opacity: 1;
-    clip-path: inset(0 0 0 0);
-  }
+  from { opacity: .65; transform: translateY(-3px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 @keyframes cvedi-grade-reveal {
-  from {
-    clip-path: inset(0 100% 0 0);
-  }
-  to {
-    clip-path: inset(0 0 0 0);
-  }
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0); }
 }
-@keyframes cvedi-title-color {
-  from {
-    color: var(--chapter-mid);
-  }
-  to {
-    color: white;
-  }
+
+/* Comparison images gain emphasis in reading order, with labels always visible.
+   Photographs, body copy and decorative card backgrounds remain steady. */
+.figure-pair.motion-enabled .lesson-columns > .lesson-figure .lesson-figure-media,
+.motion-enabled .interaction-examples .lesson-figure-media {
+  animation: cvedi-reading-focus 400ms ease-out both;
 }
+.figure-pair.motion-enabled .lesson-columns > .lesson-figure:nth-child(2) .lesson-figure-media,
+.motion-enabled .interaction-examples .cvedi-card:nth-child(2) .lesson-figure-media {
+  animation-delay: 100ms;
+}
+.motion-enabled .interaction-examples .cvedi-card:nth-child(3) .lesson-figure-media {
+  animation-delay: 200ms;
+}
+@keyframes cvedi-reading-focus {
+  from { opacity: .72; }
+  to { opacity: 1; }
+}
+
+/* Replace the outdated item, then settle the announcement without a bounce. */
+.exercises-slide.motion-enabled .syllabus-retired::after {
+  animation: cvedi-grade-reveal 360ms var(--cvedi-ease-out) 80ms both;
+}
+.exercises-slide.motion-enabled .syllabus-sticker {
+  animation: cvedi-syllabus-sticker 440ms var(--cvedi-ease-out) 300ms both;
+}
+@keyframes cvedi-syllabus-sticker {
+  from { clip-path: inset(0 0 100% 0); transform: translateY(-8px) rotate(-3deg); }
+  to { clip-path: inset(0); transform: translateY(0) rotate(-3deg); }
+}
+
+/* Native dialog retains focus, Esc and immediate close. Opening carries depth. */
+.lesson-image-dialog[open] .modal-box {
+  animation: cvedi-image-expand 300ms var(--cvedi-ease-out) both;
+}
+@keyframes cvedi-image-expand {
+  from { opacity: .7; transform: scale(.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+.slide-action svg { transition: transform 160ms var(--cvedi-ease-out); }
+.slide-action:is(:hover, :focus-visible) svg { transform: translateX(3px); }
+
+/* Keep meaningful feedback, without spatial motion, for system preferences. */
 @media (prefers-reduced-motion: reduce) {
-  .exercises-slide.is-active .syllabus-retired::after,
-  .exercises-slide.is-active .syllabus-sticker {
-    animation: none;
-  }
-  .gallery-tile img {
-    transition: none;
-  }
-  .slidev-page:is(.fade-enter-active, .fade-leave-active) {
-    transition-duration: 80ms;
-  }
-  .chapter-slide.is-active h1 {
-    animation: cvedi-title-color 180ms ease-out both;
-  }
-  .chapter-slide.is-active > p,
-  .grade-slide.is-active .progress,
-  .calendar-slide.is-active .cvedi-calendar tbody tr,
-  :is(.process-slide, .chapter-slide).is-active .metro-train,
-  .process-slide.is-active .metro-station::after {
-    animation: none;
-  }
-  :is(.cover-slide, .closing-slide).is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
-    animation: none;
-  }
+  .slidev-page:is(.fade-enter-active, .fade-leave-active) { transition-duration: 80ms; }
+  .lesson-image-dialog[open] .modal-box { animation: cvedi-reading-focus 100ms ease-out both; }
+  .slide-action svg { transition: none; transform: none; }
+  .gallery-tile img { transition: none; }
 }
 @media print {
-  .exercises-slide.is-active .syllabus-retired::after,
-  .exercises-slide.is-active .syllabus-sticker {
-    animation: none;
-  }
-  .gallery-tile img {
-    transition: none;
-  }
-  .chapter-slide.is-active h1,
-  .chapter-slide.is-active > p,
-  .grade-slide.is-active .progress,
-  .calendar-slide.is-active .cvedi-calendar tbody tr,
-  :is(.process-slide, .chapter-slide).is-active .metro-train,
-  .process-slide.is-active .metro-station::after {
-    animation: none;
-  }
-  :is(.cover-slide, .closing-slide).is-active :is(.closing-metro-reveal, .closing-metro-details, .closing-metro-dot) {
-    animation: none;
-  }
+  .lesson-image-dialog .modal-box, .gallery-tile img { animation: none; transition: none; }
 }

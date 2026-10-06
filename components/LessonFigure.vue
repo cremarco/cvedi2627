@@ -2,21 +2,25 @@
 import { ref, useId, watch } from 'vue'
 import { useIsSlideActive } from '@slidev/client'
 import LessonImageContent from './LessonImageContent.vue'
+import { useSlideSet } from '../composables/use-slide-set'
+
+const { setStyle } = useSlideSet()
 
 withDefaults(defineProps<{
   src: string
   alt: string
   caption?: string
-  bordered?: boolean
   panels?: number
   panelAspectRatio?: string
-}>(), { bordered: true, panels: 1, panelAspectRatio: '4 / 3' })
+}>(), { panels: 1, panelAspectRatio: '4 / 3' })
 
 const captionWidth = ref<string>()
 const imageHeight = ref<string>()
-function matchImageSize(size: { width: number; height: number }) {
+const imageEmptySpace = ref<string>()
+function matchImageSize(size: { width: number; height: number; emptySpaceY: number }) {
   if (size.width > 0) captionWidth.value = `${size.width}px`
   if (size.height > 0) imageHeight.value = `${size.height}px`
+  imageEmptySpace.value = `${size.emptySpaceY}px`
 }
 
 const dialog = ref<HTMLDialogElement>()
@@ -30,7 +34,7 @@ function openImage() {
 </script>
 
 <template>
-  <figure class="lesson-figure" :style="{ '--lesson-image-width': captionWidth, '--lesson-image-height': imageHeight, '--cvedi-image-border': bordered ? undefined : '0px' }">
+  <figure class="lesson-figure" :style="{ '--lesson-image-width': captionWidth, '--lesson-image-height': imageHeight, '--lesson-image-empty-space': imageEmptySpace }">
     <div class="lesson-figure-media relative">
       <button
         type="button"
@@ -65,7 +69,7 @@ function openImage() {
       ref="dialog"
       class="modal lesson-image-dialog"
       :aria-labelledby="`${dialogId}-title`"
-      :style="{ '--cvedi-image-border': bordered ? undefined : '0px' }"
+      :style="setStyle"
       @keydown.stop
     >
       <div class="modal-box">

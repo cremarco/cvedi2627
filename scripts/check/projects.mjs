@@ -5,7 +5,7 @@ import { chromium } from 'playwright-chromium'
 
 const archive = path.resolve('progetti')
 const base = new URL(process.env.PROJECTS_URL || 'http://127.0.0.1:4173/progetti/')
-const output = path.resolve(process.env.PROJECTS_REPORT || 'reports/browser-2026-10-02')
+const output = path.resolve(process.env.PROJECTS_REPORT || 'reports/projects')
 const allProjects = process.env.PROJECTS_ALL === '1'
 const projects = JSON.parse(await readFile(path.join(archive, 'gallery-data.json'), 'utf8')).photos
   .filter(project => allProjects || ['2024-2025', '2025-2026'].includes(project['A.A.']))

@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-06",
+  "mode": "built-in image_gen",
+  "slide": "ux-indizi-comandi-esiti",
+  "assets": [
+    {
+      "id": "intro-example-signifier",
+      "subject": "Subject: A close-up illustration of a door with a flat vertical rectangular push plate and an open hand pressing against that plate. The door is slightly ajar, with a small visible gap at its edge, opening away from the hand. A single short directional arrow at the contact shows pushing inward. The flat plate has NO graspable pull handle, knob or rail. Keep the door and push plate dominant and unmistakable, the fingers anatomically natural. The image must demonstrate that the plate communicates where and how to push. No text, letters or numbers.",
+      "kind": "teaching-figure",
+      "palette": "introduction",
+      "original": "assets/theme-imagegen/originals/intro-example-signifier-v1.png",
+      "web": "public/images/generated/theme-2026/figures/intro-example-signifier-v1.webp",
+      "status": "complete",
+      "prompt": "Use case: scientific-educational. Asset type: one standalone example illustration on a university slide explaining signifier, mapping and feedback. Input image is a STYLE REFERENCE ONLY: reuse the precise editorial 2D contours, simplified forms, matte fills and pale green palette. Do not reuse people, tables, lettering or composition from the reference.\nLandscape about 4:3; complete compact composition, generous transparent margins, readable when displayed at 250 x 180 px. Palette: Tailwind lime-950 #192E03 fine outlines, lime-800 #3C6300 structural details, lime-100 #ECFCCA and green-100 #DCFCE7 pale fills, opaque white functional surfaces, one lime-300 #BBF451 selection. Natural pale skin tone if a hand is present. Real alpha transparency outside the drawn objects. Clean flat fills, no texture, glow, shadows, 3D rendering, outer card, ornamental foliage, invented decorations, logos or watermark. Exact intentional geometry is important; objects must be fully visible.\nSubject: A close-up illustration of a door with a flat vertical rectangular push plate and an open hand pressing against that plate. The door is slightly ajar, with a small visible gap at its edge, opening away from the hand. A single short directional arrow at the contact shows pushing inward. The flat plate has NO graspable pull handle, knob or rail. Keep the door and push plate dominant and unmistakable, the fingers anatomically natural. The image must demonstrate that the plate communicates where and how to push. No text, letters or numbers.",
+      "styleReference": "assets/theme-imagegen/originals/introduction-research-v1.png",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-57fb1717-febf-4866-921b-229af1d95bc7.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "webBytes": 347532,
+      "sha256": "13eddecb91f33d4d28ff46bc568f27831334f83ac053949d143ad6272a5a2ee4",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "intro-example-mapping",
+      "subject": "Subject: A precise top-down educational comparison within ONE image: on the left a simple cooktop with EXACTLY FOUR circular burners arranged in a 2 x 2 square; beside it on the right EXACTLY FOUR rotary control knobs in the SAME 2 x 2 square arrangement and SAME orientation. Both grids have four equally separated positions. The LOWER-LEFT burner is highlighted by a solid pale lime disc; the LOWER-LEFT knob is highlighted in the same lime and appears selected. The other three burners and three knobs remain neutral white. A single thin bent connector joins the selected lower-left knob to the corresponding lower-left burner without obscuring the other objects. This is a spatial mapping diagram: knob positions reproduce burner positions. No extra controls, burners, flames, people or decorative objects. No words, letters or numbers. Make the two corresponding grids unambiguous, broad and readable.",
+      "kind": "teaching-figure",
+      "palette": "introduction",
+      "original": "assets/theme-imagegen/originals/intro-example-mapping-v1.png",
+      "web": "public/images/generated/theme-2026/figures/intro-example-mapping-v1.webp",
+      "status": "complete",
+      "prompt": "Edit target: this generated spatial-mapping diagram. Remove ONLY the horizontal green connector bar that runs across the lower burners and controls. Restore the underlying white/pale surfaces and the lower-right burner ring completely. Preserve the canvas size, exact four burners in a 2 x 2 grid, exact four knobs in the same 2 x 2 orientation, positions, dimensions, outlines, green palette, lower-left burner and lower-left knob highlights, and genuine transparency outside the subjects. The matching positions and the shared highlight are sufficient to explain spatial mapping. Do not add a replacement connector, arrow, text, extra burner or knob. No other changes.",
+      "styleReference": "assets/theme-imagegen/originals/introduction-research-v1.png",
+      "initialPrompt": "Use case: scientific-educational. Asset type: one standalone example illustration on a university slide explaining signifier, mapping and feedback. Input image is a STYLE REFERENCE ONLY: reuse the precise editorial 2D contours, simplified forms, matte fills and pale green palette. Do not reuse people, tables, lettering or composition from the reference.\nLandscape about 4:3; complete compact composition, generous transparent margins, readable when displayed at 250 x 180 px. Palette: Tailwind lime-950 #192E03 fine outlines, lime-800 #3C6300 structural details, lime-100 #ECFCCA and green-100 #DCFCE7 pale fills, opaque white functional surfaces, one lime-300 #BBF451 selection. Natural pale skin tone if a hand is present. Real alpha transparency outside the drawn objects. Clean flat fills, no texture, glow, shadows, 3D rendering, outer card, ornamental foliage, invented decorations, logos or watermark. Exact intentional geometry is important; objects must be fully visible.\nSubject: A precise top-down educational comparison within ONE image: on the left a simple cooktop with EXACTLY FOUR circular burners arranged in a 2 x 2 square; beside it on the right EXACTLY FOUR rotary control knobs in the SAME 2 x 2 square arrangement and SAME orientation. Both grids have four equally separated positions. The LOWER-LEFT burner is highlighted by a solid pale lime disc; the LOWER-LEFT knob is highlighted in the same lime and appears selected. The other three burners and three knobs remain neutral white. A single thin bent connector joins the selected lower-left knob to the corresponding lower-left burner without obscuring the other objects. This is a spatial mapping diagram: knob positions reproduce burner positions. No extra controls, burners, flames, people or decorative objects. No words, letters or numbers. Make the two corresponding grids unambiguous, broad and readable.",
+      "editSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-5028ab77-8f44-47a7-b120-a60f07f2995a.png",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-d6bc3bae-c6d7-4180-85ca-8f3e717bd52a.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "webBytes": 554092,
+      "sha256": "1398d1ae3cf9bfb05af525eda784a8f415a2b64f1e74d37b092f5b16b61e3d8c",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "intro-example-feedback",
+      "subject": "Subject: A front-facing, large, simple booking-confirmation interface panel, with a prominent green check mark and a small calendar illustration. This is the success state AFTER a booking has been sent. The result is clearly communicated, rather than asking for another confirmation. Exact Italian text, and ONLY this text: \"Prenotazione\" on one line and \"ricevuta\" on the next. Use a crisp bold dark-green sans-serif font resembling Inter, very large so the words remain readable at 250 px image display width. The check and text take most of the functional white surface. The panel can have a slim browser top strip with three tiny neutral dots but no other content. No primary action button, no unfinished form, no loading spinner, no error warning or additional text. No surrounding device, hand, person or room; focus entirely on the visible confirmation.",
+      "kind": "teaching-figure",
+      "palette": "introduction",
+      "original": "assets/theme-imagegen/originals/intro-example-feedback-v1.png",
+      "web": "public/images/generated/theme-2026/figures/intro-example-feedback-v1.webp",
+      "status": "complete",
+      "prompt": "Use case: scientific-educational. Asset type: one standalone example illustration on a university slide explaining signifier, mapping and feedback. Input image is a STYLE REFERENCE ONLY: reuse the precise editorial 2D contours, simplified forms, matte fills and pale green palette. Do not reuse people, tables, lettering or composition from the reference.\nLandscape about 4:3; complete compact composition, generous transparent margins, readable when displayed at 250 x 180 px. Palette: Tailwind lime-950 #192E03 fine outlines, lime-800 #3C6300 structural details, lime-100 #ECFCCA and green-100 #DCFCE7 pale fills, opaque white functional surfaces, one lime-300 #BBF451 selection. Natural pale skin tone if a hand is present. Real alpha transparency outside the drawn objects. Clean flat fills, no texture, glow, shadows, 3D rendering, outer card, ornamental foliage, invented decorations, logos or watermark. Exact intentional geometry is important; objects must be fully visible.\nSubject: A front-facing, large, simple booking-confirmation interface panel, with a prominent green check mark and a small calendar illustration. This is the success state AFTER a booking has been sent. The result is clearly communicated, rather than asking for another confirmation. Exact Italian text, and ONLY this text: \"Prenotazione\" on one line and \"ricevuta\" on the next. Use a crisp bold dark-green sans-serif font resembling Inter, very large so the words remain readable at 250 px image display width. The check and text take most of the functional white surface. The panel can have a slim browser top strip with three tiny neutral dots but no other content. No primary action button, no unfinished form, no loading spinner, no error warning or additional text. No surrounding device, hand, person or room; focus entirely on the visible confirmation.",
+      "styleReference": "assets/theme-imagegen/originals/introduction-research-v1.png",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-4185c677-b9ab-470d-afa1-064ac425dfdf.png",
+      "dimensions": [
+        1448,
+        1086
+      ],
+      "webBytes": 447626,
+      "sha256": "99c599f761a06626b84fb64ffc794afcf624874cde204d35fd07270011a07b9a",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    }
+  ]
+}

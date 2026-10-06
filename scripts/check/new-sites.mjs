@@ -3,7 +3,7 @@ import { readdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
 const yearDirectory = path.resolve(process.argv[2] || 'progetti/a.a.2025_2026')
-const reportPath = path.resolve(process.argv[3] || 'reports/progetti-extra-2026-09-30/new-sites-browser.json')
+const reportPath = path.resolve(process.argv[3] || 'reports/archive-pages.json')
 const baseUrl = process.argv[4] || 'http://127.0.0.1:8877'
 
 async function htmlFiles(directory) {

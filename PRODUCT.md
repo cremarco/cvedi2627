@@ -8,7 +8,7 @@ web
 
 ## Product Purpose
 
-Presentazione didattica del corso Comunicazione visiva e design delle interfacce, con informazioni sul corso, brief di progetto, approfondimenti individuali e lezioni teoriche. I contenuti, le note del relatore e gli esempi devono restare leggibili durante la presentazione e consultabili autonomamente.
+Presentazione didattica del corso Comunicazione visiva e design delle interfacce, con informazioni sul corso, brief di progetto, approfondimenti individuali e lezioni teoriche. I contenuti e gli esempi devono restare leggibili durante la presentazione e consultabili autonomamente.
 
 ## Operating Context
 
@@ -24,9 +24,17 @@ L’utente ha richiesto di copiare la grafica delle slide locali in `/Users/marc
 
 ## Evidence on Hand
 
-`slides.md`, `lezioni/`, note del relatore, mappe delle fonti in `docs/fonti/`, materiali e figure in `assets/` e `public/`. Il riferimento grafico è un progetto Slidev esistente e ispezionabile.
+`slides.md`, `lezioni/`, mappe delle fonti in `docs/fonti/`, materiali e figure in `assets/` e `public/`. Il riferimento grafico è un progetto Slidev esistente e ispezionabile.
 
 
 ## Approfondimenti individuali
 
 Dopo il brief, il set autonomo `approfondimenti` contiene una copertina e una slide per ciascuna delle 20 tracce A01–A20 pubblicate su eLearning. Titoli e domande ufficiali sono conservati; ogni tema ha un’immagine originale ImageGen nella palette indaco/lime. La fonte e i prompt sono registrati in `assets/approfondimenti/`.
+
+## Manutenzione
+
+Il deck non contiene note del relatore e disabilita presenter. Conservare i materiali attivi, le attribuzioni e le licenze; rapporti temporanei e output riproducibili restano fuori dalla documentazione.
+
+## Riferimento per le nuove slide
+
+`DESIGN.md` nella radice è il contratto grafico; deve essere letto prima di aggiungere o modificare slide. `AGENTS.md` indica la procedura di lavoro e le verifiche.

@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto'
 import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
+import { normalizeTitle } from '../../utils/normalize-title.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 
@@ -22,6 +23,8 @@ export async function checkSlideSources() {
   const reviewSource = source.replace(/(src: \.\/lezioni\/03-storia-design\.md)\s*\ndisabled: true\b/, '$1')
   const deck = await load(options, entry, { [entry]: reviewSource })
   for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
+  assert.equal(deck.slides[0].frontmatter.presenter, false, 'presenter mode is disabled')
+  assert.ok(deck.slides.every(slide => !slide.note?.trim()), 'presenter notes are absent, including hidden chapters')
   const total = deck.slides.length
   const lesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'introduzione')
   const history = deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
@@ -77,13 +80,6 @@ export async function checkSlideSources() {
     const minutes = slide.frontmatter.lessonMinutes
     assert.ok(typeof minutes === 'number' && Number.isFinite(minutes) && minutes > 0,
       `lesson ${slide.frontmatter.lessonSlide}: positive duration`)
-    const timing = slide.note.match(/Tempo previsto: (\d+(?:[.,]\d+)?)\s+(min|s|sec(?:ondi)?)(?=[\s.])/)
-    assert.ok(timing, `lesson ${slide.frontmatter.lessonSlide}: timing in presenter notes`)
-    const noteSeconds = Number(timing[1].replace(',', '.')) * (timing[2] === 'min' ? 60 : 1)
-    assert.ok(Math.abs(noteSeconds - minutes * 60) < 1e-6,
-      `lesson ${slide.frontmatter.lessonSlide}: note duration agrees with frontmatter`)
-    assert.match(slide.note, /Booklet:.*nodo \d+:\d+/, `lesson ${slide.frontmatter.lessonSlide}: booklet reference`)
-    assert.match(slide.note, /(?:PDF 2025\/26:|nessuna corrispondenza diretta)/, `lesson ${slide.frontmatter.lessonSlide}: source relation`)
   }
   async function checkSourceMap(file, slides) {
     const sourceMap = await readFile(new URL(`../../docs/fonti/${file}`, import.meta.url), 'utf8')
@@ -105,18 +101,6 @@ export async function checkSlideSources() {
   assert.deepEqual(chapterSnapshot.pages.map(page => page.folio), Array.from({ length: 66 }, (_, i) => i + 21), 'current history booklet: folio sequence')
   const chapterPages = new Map(chapterSnapshot.pages.map(page => [page.id, page]))
   assert.equal(chapterPages.size, 66, 'current history booklet: distinct page identities')
-  for (const slide of history) {
-    const referenceLine = slide.note.match(/^Booklet:.*$/m)?.[0]
-    const references = [...referenceLine.matchAll(/nodo (\d+:\d+)/g)]
-    assert.ok(references.length > 0, `history ${slide.frontmatter.lessonSlide}: booklet page reference`)
-    for (const reference of references)
-      assert.ok(chapterPages.has(reference[1]), `history ${slide.frontmatter.lessonSlide}: current booklet node ${reference[1]}`)
-    for (const reference of referenceLine.matchAll(/p\. (\d+) \(C02 (\d+)\), nodo (\d+:\d+)/g)) {
-      const page = chapterPages.get(reference[3])
-      assert.equal(Number(reference[1]), page.folio, `history ${slide.frontmatter.lessonSlide}: booklet folio for ${page.id}`)
-      assert.equal(Number(reference[2]), page.ordinal, `history ${slide.frontmatter.lessonSlide}: booklet frame for ${page.id}`)
-    }
-  }
 
   // These eleven slides demonstrate their subject through the whole page.
   // An explicit class keeps this coverage stable when lesson slides move.
@@ -180,8 +164,6 @@ export async function checkSlideSources() {
     assert.ok(String(slide.frontmatter.class).split(/\s+/).includes('project-section'), 'project brief shares the project section palette')
     assert.ok(!/(ristorante|piatt[oi]|22 Ottobre|29 Ottobre|13 Novembre|26 Novembre|21 dicembre)/i.test(slide.content), 'project brief removes obsolete subject and dates')
   }
-  for (const slide of brief.slice(9, 24))
-    assert.match(slide.note, /Fonte: CVeDI 2526 - Brief progetti, slide/, 'operational project brief source in presenter notes')
   const audit = JSON.parse(await readFile(new URL('../../assets/slide-audit/2025-2026.json', import.meta.url), 'utf8'))
   assert.equal(audit.sources.length, 9, 'previous academic year: nine source PDFs')
   assert.equal(audit.sources.reduce((sum, source) => sum + source.pages, 0), 982, 'previous academic year: 982 reviewed pages')
@@ -236,7 +218,7 @@ export async function checkSlideSources() {
 
   const artwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork.json'), 'utf8'))
   const generations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-v1.json'), 'utf8'))
-  assert.equal(generations.jobs.length, 95, 'complete shared illustration family')
+  assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(Object.keys(artwork.assets).length, 67, 'semantic card backgrounds')
   for (const generation of generations.jobs) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
@@ -249,7 +231,7 @@ export async function checkSlideSources() {
   let illustratedCards = 0
   for (const slide of visibleDeck.slides) {
     for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
-      const title = card[1].normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[’']/g, '').replace(/^(?:\d+|[a-z])\s*[·.]\s*/i, '').trim().toLowerCase()
+      const title = normalizeTitle(card[1])
       const family = palette[slide.frontmatter.lesson ?? 'presentazione-corso']
       const id = artwork.mappings[family]?.[title]
       assert.ok(id && artwork.assets[id], `card ${card[1]}: thematic background`)

@@ -2,6 +2,7 @@ import { chromium } from 'playwright-chromium'
 import { mkdir, writeFile } from 'node:fs/promises'
 import assert from 'node:assert/strict'
 import { checkSlideSources } from './slide-source.mjs'
+import { openSlide } from './browser.mjs'
 
 const { deck, total, lesson, history, brief, approfondimenti, projects, uxExamples, uxSlides, audit } = await checkSlideSources()
 const baseURL = process.env.SLIDEV_URL || 'http://localhost:3035'
@@ -120,8 +121,6 @@ const recoveredPages = audit.integratedSlides.map(entry => {
 const uxPages = uxSlides.map(pageNumber)
 const briefPages = brief.map(pageNumber)
 const topicPages = approfondimenti.map(pageNumber)
-const introductionDiscussion = lesson.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
-const historyDiscussion = history.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
 if (output) await mkdir(output, { recursive: true })
 const browser = await chromium.launch()
 const reports = []
@@ -147,16 +146,7 @@ try {
   await page.locator(`.slidev-page-${topicPages[0]} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${topicPages[0]} h1`).textContent(), 'Approfondimenti', 'index opens the official topic section')
   async function inspect(number, narrow = false, print = false) {
-    await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
-    const slide = page.locator(`.slidev-page-${number} .slidev-layout`)
-    await slide.waitFor()
-    await page.evaluate(() => document.fonts.ready)
-    await page.waitForFunction(number => [...document.querySelectorAll(`.slidev-page-${number} img`)].every(img => img.complete && img.naturalWidth), number)
-    // A capture must show the settled slide, including outgoing player transitions.
-    await page.evaluate(async () => {
-      await Promise.all(document.getAnimations().filter(animation => Number.isFinite(animation.effect?.getComputedTiming().endTime)).map(animation => animation.finished.catch(() => {})))
-      await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))
-    })
+    const slide = await openSlide(page, baseURL, number, { settle: true })
     if (print) {
       // The player toolbar fades independently of slide transitions.
       await page.mouse.move(1, 1)
@@ -220,6 +210,14 @@ try {
         const fit = Math.min(rect.width / img.naturalWidth, rect.height / img.naturalHeight)
         return { src: img.getAttribute('src'), width: Math.round(rect.width / scale), height: Math.round(rect.height / scale), visibleWidth: Math.round(img.naturalWidth * fit / scale), visibleHeight: Math.round(img.naturalHeight * fit / scale), fit: getComputedStyle(img).objectFit }
       })
+      const ribbon = root.querySelector('.lesson-ribbon')
+      const progressFill = document.querySelector('.presentation-progress-fill')
+      const marker = title && !root.classList.contains('archive-wall-slide') && !root.classList.contains('closing-slide')
+        ? getComputedStyle(title, '::after').backgroundColor : null
+      const type = element => {
+        const style = getComputedStyle(element)
+        return { family: style.fontFamily, size: parseFloat(style.fontSize), weight: style.fontWeight, leading: parseFloat(style.lineHeight), numeric: style.fontVariantNumeric }
+      }
       return {
         page: expected,
         title: title?.textContent.trim(),
@@ -241,6 +239,20 @@ try {
         figures,
         webStyle,
         webTypography,
+        typography: {
+          title: type(title),
+          dense: root.classList.contains('dense-slide'),
+          cards: [...root.querySelectorAll('.cvedi-card .card-title')].map(type),
+          captions: [...root.querySelectorAll('.lesson-caption')].map(type),
+          statistics: [...root.querySelectorAll('.stat-value')].map(type),
+          synthesis: getComputedStyle(root).fontSynthesis,
+          readingFaceLoaded: [...document.fonts].some(face => face.family === 'Nunito Sans' && face.style === 'normal' && face.status === 'loaded'),
+        },
+        colors: {
+          ribbon: ribbon ? getComputedStyle(ribbon).backgroundColor : null,
+          titleMarker: marker === 'rgba(0, 0, 0, 0)' ? null : marker,
+          progress: progressFill ? getComputedStyle(progressFill).backgroundColor : null,
+        },
       }
     }, number)
     const current = deck.slides[number - 1]
@@ -257,9 +269,28 @@ try {
     assert.equal(report.codeBlocks, 0, `slide ${number}: unintended code block`)
     assert.equal(report.brokenImages.length, 0, `slide ${number}: missing images`)
     assert.ok(report.backgrounds.length <= 1, `slide ${number}: inconsistent card surfaces`)
+    if (report.colors.ribbon) assert.equal(report.colors.ribbon, report.colors.progress, `slide ${number}: ribbon and progress use the same set color`)
+    if (report.colors.titleMarker && !report.cover) assert.equal(report.colors.titleMarker, report.colors.progress, `slide ${number}: title marker follows the current set`)
     if (!report.cover) {
       assert.equal(report.titleTop, 52, `slide ${number}: stable title top`)
       assert.equal(report.titleLeft, 72, `slide ${number}: stable title left`)
+    }
+    if (!report.webStyle) {
+      const t = report.typography
+      assert.ok(t.title.family.includes(report.cover ? 'Inter' : 'Nunito Sans'), `slide ${number}: delivered title face`)
+      assert.equal(t.synthesis, 'none', `slide ${number}: real font weights and styles`)
+      if (!report.cover) {
+        assert.ok(t.readingFaceLoaded, `slide ${number}: local reading face loaded`)
+        assert.equal(t.title.size, 47, `slide ${number}: common title scale`)
+        assert.equal(t.title.weight, '500', `slide ${number}: common title weight`)
+      }
+      for (const card of t.cards) {
+        assert.ok(card.family.includes('Nunito Sans'), `slide ${number}: shared card face`)
+        assert.equal(card.weight, '600', `slide ${number}: card heading weight`)
+        assert.ok([22, 24].includes(card.size), `slide ${number}: standard or compact card heading`)
+      }
+      for (const caption of t.captions) assert.equal(caption.size, 18, `slide ${number}: readable caption scale`)
+      for (const stat of t.statistics) assert.ok(stat.numeric.includes('tabular-nums'), `slide ${number}: aligned statistical numerals`)
     }
     if (report.contentCenterError !== null)
       assert.ok(report.contentCenterError <= 1, `slide ${number}: vertically centered content (${report.contentCenterError.toFixed(2)}px offset)`)
@@ -362,33 +393,14 @@ try {
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()
-  // Open each presenter entry in a fresh page: dev notes are fetched separately
-  // and Slidev keeps a per-page note cache when changing between player routes.
-  for (const discussion of [introductionDiscussion, historyDiscussion].filter(Boolean)) {
-    assert.ok(discussion, 'each chapter has a third classroom activity')
-    const number = pageNumber(discussion)
-    const isHistory = discussion.frontmatter.lesson === 'storia-design'
-    const presenter = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'reduce' })
-    presenter.on('pageerror', error => {
-      if (error.message !== 'Wake Lock permission request denied') errors.push(error.message)
-    })
-    await presenter.goto(`${baseURL.replace(/\/$/, '')}/#/presenter/${number}`, { waitUntil: 'networkidle' })
-    await presenter.locator('.note').filter({ hasText: new RegExp(`Slide ${discussion.frontmatter.lessonSlide} del capitolo`) }).waitFor()
-    const note = await presenter.locator('.note').innerText()
-    assert.match(note, /Terza attività/, `presenter ${number}: discussion instructions`)
-    const bookletReference = discussion.note.match(/^Booklet:.*$/m)?.[0]
-    assert.ok(bookletReference, `presenter ${number}: booklet reference in source`)
-    assert.ok(note.includes(bookletReference), `presenter ${number}: current booklet reference is rendered`)
-    if (isHistory) assert.match(note, /Lezione 05, pp\. 91–94/, 'history presenter includes PDF pages')
-    await presenter.waitForFunction(number => [...document.querySelectorAll(`.slidev-page-${number} img`)].every(img => img.complete && img.naturalWidth), number)
-    if (output) await presenter.screenshot({ path: `${output}/presenter-${number}.png` })
-    await presenter.close()
-  }
   const overset = reports.filter(report => report.violations.length)
   console.log(JSON.stringify({ slides: total, renders: reports.length, errors, overset, reports }, null, 2))
   if (output) await writeFile(`${output}/report.json`, JSON.stringify(reports, null, 2))
   assert.deepEqual(errors, [], 'browser runtime errors')
   assert.equal(overset.length, 0, 'text must remain above the footer safety zone')
+} catch (error) {
+  console.error(JSON.stringify({ failure: error.message, errors, completedRenders: reports.length, lastRender: reports.at(-1)?.page }, null, 2))
+  throw error
 } finally {
   await browser.close()
 }

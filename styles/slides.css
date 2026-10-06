@@ -186,16 +186,6 @@
 .dense-slide .lead {
   font-size: 24px;
 }
-/* The opening pair uses the same indigo/lime pair as its generated artwork. */
-.slidev-layout.course-section:is(.cover-slide, .renewal-slide) {
-  --cvedi-course-base: var(--cvedi-indigo-800);
-  --cvedi-course-canvas: var(--cvedi-indigo-900);
-  --cvedi-course-deep: var(--cvedi-indigo-950);
-  --cvedi-course-light: var(--cvedi-indigo-100);
-  --cvedi-course-surface: var(--cvedi-indigo-50);
-  --cvedi-course-accent: var(--cvedi-lime-800);
-  --cvedi-course-accent-light: var(--cvedi-lime-100);
-}
 /* The renewal illustration pairs a slide deck with an open bibliography. */
 .slidev-layout.renewal-slide {
   --color-base-content: var(--cvedi-paper);
@@ -228,73 +218,6 @@
 }
 .slidev-layout .renewal-copy strong {
   color: var(--cvedi-paper);
-}
-.renewal-metro {
-  position: relative;
-  width: 400px;
-  height: 316px;
-}
-.renewal-metro svg {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-.renewal-paper,
-.renewal-book-left {
-  fill: var(--cvedi-paper);
-  stroke: var(--cvedi-course-deep);
-  stroke-width: 4px;
-}
-.renewal-book-left,
-.renewal-sheet-middle {
-  fill: var(--cvedi-course-light);
-}
-.renewal-sheet-back,
-.renewal-sheet-middle {
-  stroke: var(--cvedi-course-light);
-  stroke-width: 4px;
-}
-.renewal-sheet-back {
-  fill: var(--cvedi-course-deep);
-}
-.renewal-mint {
-  fill: var(--cvedi-course-accent-light);
-}
-.renewal-ink-fill {
-  fill: var(--cvedi-course-deep);
-}
-.renewal-ink-line {
-  stroke: var(--cvedi-course-deep);
-  stroke-width: 4px;
-}
-.renewal-bookmark {
-  fill: var(--cvedi-course-accent-light);
-  stroke: var(--cvedi-course-deep);
-  stroke-width: 3px;
-}
-.renewal-year {
-  position: absolute;
-  top: 0;
-  left: 12px;
-  color: var(--cvedi-paper);
-  font: 700 46px/1 var(--cvedi-font-display);
-  letter-spacing: -.03em;
-}
-.renewal-material {
-  position: absolute;
-  color: var(--cvedi-paper);
-  font: 700 25px/1.2 var(--cvedi-font-display);
-  letter-spacing: -.02em;
-}
-.renewal-material-slides {
-  top: 246px;
-  left: 16px;
-}
-.renewal-material-books {
-  top: 286px;
-  left: 204px;
 }
 .renewal-slide .slide-footer {
   color: var(--cvedi-paper);
@@ -347,67 +270,67 @@
   height: auto;
 }
 /* WHAT IF? uses coordinated editorial images in the brief's amber/yellow palette. */
-.nextme-layout {
+.brief-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);
   align-items: center;
   gap: var(--cvedi-space-section);
   width: 100%;
 }
-.nextme-copy > :last-child {
+.brief-copy > :last-child {
   margin-bottom: 0;
 }
-.slidev-layout .nextme-subtitle {
+.slidev-layout .brief-subtitle {
   margin-bottom: var(--cvedi-space-content);
   color: var(--slide-subtitle);
   font: 700 32px/1.2 var(--cvedi-font-display);
   letter-spacing: -.025em;
   text-wrap: balance;
 }
-.nextme-illustration {
+.slide-illustration {
   display: flex;
   align-items: center;
   justify-content: center;
   min-width: 0;
   margin: 0;
 }
-.nextme-illustration img {
+.slide-illustration img {
   display: block;
   width: 100%;
   max-height: 360px;
   object-fit: contain;
 }
-.nextme-concept .nextme-illustration img {
+.brief-concept .slide-illustration img {
   max-height: 380px;
 }
-.nextme-definition-list {
+.brief-definition-list {
   display: grid;
   gap: var(--cvedi-space-card);
   margin: 0;
 }
-.nextme-definition-list dt {
+.brief-definition-list dt {
   margin: 0 0 4px;
   color: var(--slide-detail-accent);
   font: 700 var(--cvedi-type-card-title)/1.25 var(--cvedi-font-display);
   letter-spacing: -.025em;
 }
-.nextme-definition-list dd {
+.brief-definition-list dd {
   margin: 0;
   color: var(--cvedi-body);
   font: 400 var(--cvedi-type-card-body)/1.45 var(--cvedi-font-body);
 }
-.slidev-layout .nextme-statement {
+.slidev-layout .brief-statement {
   max-width: 980px;
   color: var(--slide-subtitle);
   font: 600 var(--cvedi-type-card-body)/1.45 var(--cvedi-font-display);
 }
-.nextme-directions .cvedi-grid.three .cvedi-card {
+.brief-directions .cvedi-grid.three .cvedi-card {
   min-height: 0;
 }
-.slidev-layout.nextme-directions > .lead {
+.slidev-layout.brief-directions > .lead {
   margin-bottom: var(--cvedi-space-card);
 }
-.nextme-directions .cvedi-card .card-body {
+.brief-directions .cvedi-card .card-body {
   padding: 12px var(--cvedi-space-content);
 }
 /* Expressive slides retain their type scale and individual surfaces. */

@@ -1,0 +1,91 @@
+/* Read mode: one delivered reading face, a stable role scale, and Inter for
+   the restored metro covers. The documented historical examples keep theirs. */
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('/fonts/deck/nunito-sans-latin-wght-normal.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Nunito Sans';
+  src: url('/fonts/deck/nunito-sans-latin-wght-italic.woff2') format('woff2');
+  font-style: italic;
+  font-weight: 200 900;
+  font-display: swap;
+}
+:root {
+  --cvedi-font-reading: 'Nunito Sans', 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --cvedi-type-title: 47px;
+  --cvedi-type-lead: 27px;
+  --cvedi-type-body: 23px;
+  --cvedi-type-card-title: 24px;
+  --cvedi-type-card-body: 20px;
+  --cvedi-type-compact-title: 22px;
+  --cvedi-type-note: 18px;
+  --cvedi-type-caption: 18px;
+  --cvedi-type-data: 18px;
+  --cvedi-type-stat: 32px;
+  --cvedi-type-label: 16px;
+  --cvedi-type-footer: 14px;
+  --cvedi-type-ribbon: 12px;
+}
+.slidev-layout.default,
+.lesson-image-dialog {
+  font-synthesis: none;
+  font-kerning: normal;
+}
+.slidev-layout.default:not(.web-style-slide) :is(p, li) {
+  letter-spacing: 0;
+}
+.slidev-layout.default:not(.web-style-slide):not(.chapter-slide):not(.cover-slide) > p:not(.lead):not(.aside) {
+  max-width: min(100%, 65ch);
+  line-height: 1.48;
+}
+.slidev-layout.default:not(.web-style-slide):not(.chapter-slide):not(.cover-slide) .lead {
+  max-width: min(100%, 70ch);
+  font-size: var(--cvedi-type-lead);
+  font-weight: 500;
+  line-height: 1.4;
+  text-wrap: pretty;
+}
+.slidev-layout.default:not(.web-style-slide) .aside {
+  font-size: var(--cvedi-type-note);
+  line-height: 1.45;
+}
+/* Explicit density is meaningful in the source, rather than lost in cascade. */
+.slidev-layout.default.dense-slide .cvedi-card .card-title {
+  font-size: var(--cvedi-type-compact-title);
+  line-height: 1.3;
+}
+.slidev-layout.default.dense-slide .cvedi-card :is(p, li) {
+  font-size: var(--cvedi-type-note);
+  line-height: 1.45;
+}
+.slidev-layout.default.dense-slide .cvedi-card .card-note {
+  font-size: var(--cvedi-type-label);
+}
+.slidev-layout.default :is(.cvedi-calendar, .grade-year-table) {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.slidev-layout.default :is(.stat-value, .grade-range-head strong, .grade-table-value, .grade-table-median, .slide-index, .index-chapter-number, .metro-station) {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.slidev-layout.default .grade-summary-stats .stat-value {
+  font-size: var(--cvedi-type-stat);
+}
+.slidev-layout.default .grade-year-table thead th,
+.slidev-layout.default .grade-year-table tbody th small,
+.slidev-layout.default .grade-summary-stats .stat-desc {
+  font-size: var(--cvedi-type-label);
+}
+.slidev-layout.default .grade-table-value {
+  font-size: var(--cvedi-type-data);
+}
+/* These teaching pages demonstrate different typefaces, so their actual faces
+   are content. Only shared captions, controls and position use the deck rules. */
+.slidev-layout.default.web-style-slide { --theme-font: var(--web-style-body); }
+.slidev-layout.default.web-style-slide h1 {
+  font-family: var(--web-style-display);
+  font-weight: var(--web-style-title-weight);
+}

@@ -1,0 +1,31 @@
+{
+  "createdAt": "2026-10-06",
+  "asset": "intro-ui-within-ux",
+  "slideAlias": "ux-ui-esperienza",
+  "sourceCheck": "passed",
+  "slidevBuild": "passed",
+  "desktop": {
+    "imageLoaded": true,
+    "contentFits": true,
+    "textsVisuallyVerified": true
+  },
+  "narrow": {
+    "viewport": [
+      636,
+      778
+    ],
+    "imageLoaded": true,
+    "imageInsideSlide": true,
+    "contentAboveFooter": true
+  },
+  "enlargement": {
+    "opens": true,
+    "imageLoads": true,
+    "escapeCloses": true,
+    "focusReturnsToTrigger": true
+  },
+  "conversion": {
+    "lossless": true,
+    "rgbaPixelsAndAlphaPreserved": true
+  }
+}
