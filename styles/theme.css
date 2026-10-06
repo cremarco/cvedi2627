@@ -10,6 +10,7 @@
   --theme-cover: var(--cvedi-indigo-900);
   --theme-font: var(--cvedi-font-reading);
   --theme-shadow: 0 8px 24px rgb(15 23 42 / 5%);
+  --theme-ribbon-shadow: 0 4px 6px color-mix(in srgb, var(--theme-ink) 18%, transparent);
   --cvedi-font-display: var(--theme-font);
   --cvedi-font-body: var(--theme-font);
   --cvedi-ink: var(--theme-ink);
@@ -106,7 +107,7 @@
 .slidev-layout.default .alert p { margin: 0; color: var(--theme-body); font: 400 var(--cvedi-type-card-body)/1.45 var(--theme-font); }
 .slidev-layout.default .alert :is(strong, a) { color: var(--notice-tone); }
 
-/* Opening cover restored to the original metro composition, at the user's request. */
+/* The multicolored opening map frames a clear, opaque text band. */
 .slidev-layout.default.cover-slide {
   --cvedi-font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
   padding: 50px 72px;
@@ -129,25 +130,25 @@
   pointer-events: none;
 }
 .slidev-layout.default.cover-slide::after { display: none; }
-.slidev-layout.default.cover-slide h1 { max-width: 1050px; margin-bottom: 26px; color: white; font: 700 66px/1.02 var(--cvedi-font-display); letter-spacing: -.035em; text-transform: uppercase; }
-.slidev-layout.default.cover-slide .cover-meta { margin-bottom: 32px; color: white; font: 700 22px/1.2 var(--cvedi-font-display); letter-spacing: .025em; }
-.slidev-layout.default.cover-slide .cover-people { max-width: 1010px; color: white; border-top: 2px solid white; padding-top: 20px; font: 600 16px/1.3 var(--cvedi-font-display); }
+.slidev-layout.default.cover-slide h1 { max-width: 1090px; margin-bottom: 24px; color: white; font: 700 72px/1.02 var(--cvedi-font-display); letter-spacing: -.035em; text-transform: uppercase; }
+.slidev-layout.default.cover-slide .cover-meta { margin-bottom: 28px; color: white; font: 600 20px/1.2 var(--cvedi-font-display); letter-spacing: .025em; }
+.slidev-layout.default.cover-slide .cover-people { max-width: 1090px; color: white; border-top: 1px solid color-mix(in srgb, white 45%, transparent); padding-top: 20px; font: 600 16px/1.3 var(--cvedi-font-display); }
 .slidev-layout.default.cover-slide .cover-people small { font-size: 14px; font-weight: 400; }
 .slidev-layout.default.cover-slide .slide-footer { bottom: 176px; color: white; font-family: var(--cvedi-font-display); }
-.slidev-layout.default.cover-slide .closing-metro-map { z-index: -2; opacity: 1; }
+.slidev-layout.default.cover-slide .closing-metro-map { --chapter-cover-color: white; --chapter-cover-accent: var(--section-primary); z-index: -2; opacity: 1; }
 
-/* Lesson openings restored to the original left-aligned metro composition. */
+/* Each opening has its own peripheral routes, with an uninterrupted text area. */
 .slidev-layout.default.chapter-slide {
   --cvedi-font-display: 'Inter', ui-sans-serif, system-ui, sans-serif;
   --cvedi-slide-inline: 68px;
   --chapter-cover-color: var(--section-primary);
   --chapter-cover-track: var(--section-track);
-  --chapter-cover-accent: var(--lesson-accent-on-color, var(--cvedi-course-accent-light));
+  --chapter-cover-accent: var(--section-accent-on-dark);
   --chapter-ghost: var(--chapter-cover-track);
   --chapter-mid: var(--chapter-cover-accent);
   align-items: stretch;
   justify-content: center;
-  padding: 64px 68px 88px;
+  padding: 144px 68px 200px;
   background: var(--chapter-cover-color);
   color: white;
   text-align: left;
@@ -155,17 +156,29 @@
 }
 .slidev-layout.default.chapter-slide::before,
 .slidev-layout.default.chapter-slide::after { display: none; }
-.slidev-layout.default.chapter-slide h1 { max-width: 1100px; margin: 0 0 32px; color: white; font: 700 96px/1.08 var(--cvedi-font-display); letter-spacing: -.035em; text-shadow: none; }
-.slidev-layout.default.chapter-slide .chapter-lesson-number { top: 64px; left: var(--cvedi-slide-inline); z-index: 2; color: var(--chapter-cover-accent); font: 600 20px/1.2 var(--cvedi-font-display); letter-spacing: .08em; text-transform: uppercase; }
-.slidev-layout.default.chapter-slide > p { position: relative; z-index: 2; margin: 0; color: var(--chapter-cover-accent); font: 600 28px/1.3 var(--cvedi-font-display); }
-.slidev-layout.default.chapter-slide .chapter-metro-route { --metro-track-color: var(--chapter-cover-track); --metro-divider-color: var(--chapter-cover-color); position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; opacity: 1; }
+.slidev-layout.default.chapter-slide h1 { max-width: 1016px; margin: 0 0 28px; color: white; font: 700 92px/1.06 var(--cvedi-font-display); letter-spacing: -.035em; text-shadow: none; }
+.slidev-layout.default.chapter-slide .chapter-lesson-number { top: 64px; left: var(--cvedi-slide-inline); z-index: 2; color: var(--color-primary-content); font: 600 20px/1.2 var(--cvedi-font-display); letter-spacing: .08em; text-transform: uppercase; }
+.slidev-layout.default.chapter-slide > p { position: relative; z-index: 2; max-width: 1016px; margin: 0; color: var(--color-primary-content); font: 500 28px/1.3 var(--cvedi-font-display); }
+.slidev-layout.default.chapter-slide > p + p { margin-top: 8px; }
+.slidev-layout.default :is(.chapter-metro-route, .chapter-metro-route .cvedi-metro-route) { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+.slidev-layout.default .chapter-metro-route { --cvedi-metro-lane: 12px; --cvedi-metro-divider: 2px; --metro-track-color: var(--chapter-cover-track); --metro-divider-color: var(--chapter-cover-color); }
+.slidev-layout.default .chapter-metro-line--accent { --cvedi-metro-lane: 3px; --cvedi-metro-divider: 0px; --metro-track-color: var(--chapter-cover-accent); }
+.chapter-metro-route .metro-route-reveal { stroke-width: calc(2 * var(--cvedi-metro-lane) + var(--cvedi-metro-divider) + 2px); stroke-dasharray: 1 1; stroke-dashoffset: 0; }
+.metro-cover-station { transform-box: fill-box; transform-origin: center; }
+.metro-station-disc { fill: var(--chapter-cover-color); stroke: var(--chapter-cover-accent); stroke-width: 3px; }
+.metro-station-core { fill: var(--chapter-cover-accent); stroke: none; }
+.metro-stop-disc { fill: var(--chapter-cover-accent); stroke: white; stroke-width: 4px; }
+.metro-stop-core { fill: var(--chapter-cover-color); stroke: none; }
+.metro-stop-arrival { fill: none; stroke: var(--chapter-cover-accent); stroke-width: 2px; opacity: 0; transform-box: fill-box; transform-origin: center; }
+:is(.cvedi-metro-route, .closing-metro-map) .metro-cover-train { stroke: var(--chapter-cover-accent); stroke-width: 8px; stroke-dasharray: .06 1.1; stroke-dashoffset: .06; }
 .slidev-layout.default.chapter-slide .slide-footer { inset: auto 68px 32px; color: white; font: 500 16px/1.2 var(--cvedi-font-display); }
 .slidev-layout.default.chapter-slide .slide-label { letter-spacing: .12em; font-weight: 700; }
 .slidev-layout.default.chapter-slide .slide-index { padding: 0; border-radius: 0; background: transparent; }
-.slidev-layout.default.chapter-slide a { color: var(--chapter-cover-accent); }
+.slidev-layout.default.chapter-slide a { color: var(--color-primary-content); }
 .slidev-layout.default.chapter-slide a:focus-visible { outline-color: var(--chapter-cover-accent); }
+.slidev-layout.default.closing-slide { --chapter-cover-color: var(--theme-bg); --chapter-cover-track: var(--section-primary); --chapter-cover-accent: var(--section-accent); background: var(--theme-bg); }
 
-/* White panels with semantic generated artwork behind the native text. */
+/* Selected flat motifs occupy their own cropped corner, clear of the copy. */
 .slidev-layout.default .cvedi-card {
   position: relative;
   display: flex;
@@ -183,9 +196,10 @@
 .slidev-layout.default .cvedi-card .card-heading { margin: 0 0 16px; padding: 0; border: 0; }
 .slidev-layout.default .cvedi-card .card-title { min-height: 0; margin: 0; color: var(--section-primary-deep); font: 600 var(--cvedi-type-card-title)/1.35 var(--theme-font); letter-spacing: -.015em; }
 .slidev-layout.default .cvedi-card :is(p, li) { color: var(--theme-body); font: 400 var(--cvedi-type-card-body)/1.5 var(--theme-font); }
-.slidev-layout.default .cvedi-card .card-background { position: absolute; right: 8px; bottom: 8px; z-index: 0; width: 64%; max-width: 240px; height: 78%; object-fit: contain; object-position: right bottom; opacity: .085; pointer-events: none; }
+.slidev-layout.default .cvedi-card .card-background { display: none; position: absolute; right: -24px; bottom: -24px; z-index: 0; width: 168px; height: 168px; object-fit: contain; opacity: .6; pointer-events: none; }
+.slidev-layout.default .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-body { min-height: 168px; padding-inline-end: 176px; }
+.slidev-layout.default .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-background { display: block; }
 .slidev-layout.default .cvedi-card .card-note { color: #475569; font: 400 var(--cvedi-type-note)/1.45 var(--theme-font); }
-.slidev-layout.default .sitemap-card .card-background { opacity: .045; }
 .slidev-layout.default.concept-slide > .cvedi-grid { grid-template-rows: auto; gap: 24px; margin-block: 12px 0; }
 .slidev-layout.default .cvedi-grid { gap: 24px; }
 .slidev-layout.default .lesson-six .cvedi-card .card-body { padding: 16px 24px; }
@@ -197,11 +211,12 @@
 .slidev-layout.default .slide-action.btn { --action-color: var(--action-set-color, var(--section-primary)); --action-deep: var(--action-set-deep, var(--section-primary-deep)); background: white; border-color: var(--action-color); border-radius: 12px; color: var(--action-color); box-shadow: 0 4px 12px rgb(15 23 42 / 4%); font-family: var(--theme-font); }
 .slidev-layout.default .brief-navigation .slide-action.btn { --action-color: #000; --action-deep: #000; }
 .slidev-layout.default .slide-action.btn:is(:hover, :active) { background: var(--action-deep); border-color: var(--action-deep); color: white; }
-.slidev-layout.default.index-slide :is(.index-section-actions, .index-split) .slide-action.btn { background: var(--action-color); color: white; }
-.slidev-layout.default.index-slide :is(.index-section-actions, .index-split) .slide-action.btn:is(:hover, :active) { background: var(--action-deep); border-color: var(--action-deep); }
-.slidev-layout.default .index-split { display: grid; grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 2px; height: 112px; border-radius: 16px; box-shadow: var(--theme-shadow); }
-.slidev-layout.default .index-split .index-button.btn { width: 100%; height: 100%; min-height: 44px; margin: 0; padding: 8px 30px; border-radius: 16px 16px 0 0; box-shadow: none; font-size: 22px; }
-.slidev-layout.default .index-split .slide-action.btn { justify-content: flex-start; width: 100%; height: 100%; min-height: 44px; margin: 0; padding: 8px 30px 8px 80px; border: 0; border-radius: 0 0 16px 16px; box-shadow: none; font-size: 18px; }
+.slidev-layout.default.index-slide .index-split .slide-action.btn { background: var(--action-color); color: white; }
+.slidev-layout.default.index-slide .index-split .slide-action.btn:is(:hover, :active) { background: var(--action-deep); border-color: var(--action-deep); }
+.slidev-layout.default .index-split { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2px; min-height: 192px; border-radius: 16px; box-shadow: var(--theme-shadow); }
+.slidev-layout.default .index-split .btn { flex-direction: column; align-items: flex-start; justify-content: center; width: 100%; height: 100%; min-width: 0; min-height: 44px; margin: 0; padding: 24px; gap: 16px; border: 0; border-radius: 0; box-shadow: none; font-size: var(--cvedi-type-compact-title); line-height: 1.35; text-align: left; white-space: normal; text-wrap: balance; }
+.slidev-layout.default .index-split .join-item:first-child { border-radius: 16px 0 0 16px; }
+.slidev-layout.default .index-split .join-item:last-child { border-radius: 0 16px 16px 0; }
 .slidev-layout.default .index-split .index-chapter-number { flex-basis: 30px; width: 30px; height: 30px; border-radius: 6px; font-size: 16px; }
 /* The zoom affordance sits on the actual image, including portrait and paired figures. */
 .slidev-layout.default .lesson-figure-media .lesson-image-hint.btn { width: 44px; min-width: 44px; height: 44px; min-height: 44px; margin: 0; padding: 0; border: 0; border-radius: 8px; background: transparent; color: var(--section-primary); box-shadow: none; }
@@ -324,4 +339,3 @@
 .slidev-layout.default .topic-points { gap: 12px; }
 .slidev-layout.default .topic-points li { font: 400 var(--cvedi-type-card-body)/1.4 var(--theme-font); }
 .slidev-layout.default .topic-output { margin: 20px 0 0; font: 400 var(--cvedi-type-card-body)/1.4 var(--theme-font); }
-.index-section-actions { display: flex; flex-wrap: wrap; gap: 16px; }

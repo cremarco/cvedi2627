@@ -2,7 +2,7 @@
 
 Questo è il riferimento normativo per aggiungere o modificare slide, componenti e immagini. Leggerlo prima di iniziare. Le regole descrivono il sistema implementato; modifiche intenzionali al sistema devono aggiornare codice e documento insieme. Le istruzioni esplicite dell’utente hanno precedenza.
 
-Modalità Read, grafica del riferimento Gestione web e canvas 1280×720. Il player scala la composizione senza riordinarla. Titoli ordinari a top 52 / left 72 px, corpo centrato sopra il footer. Copertine metro originali, contenuti, asset, palette e terza lezione nascosta sono vincoli del progetto.
+Modalità Read, grafica del riferimento Gestione web e canvas 1280×720. Il player scala la composizione senza riordinarla. Titoli ordinari a top 52 / left 72 px, corpo centrato sopra il footer. Linguaggio delle copertine metro, contenuti, asset, palette e terza lezione nascosta sono vincoli del progetto.
 
 ## Responsabilità
 
@@ -25,21 +25,75 @@ I componenti usano card, alert, btn, table, badge, progress e modal daisyUI. Il 
 
 ## Palette
 
-| Identità `lesson` | Famiglia primaria / accento | Numero |
+Le famiglie primarie seguono esattamente l’ordine della [pagina dei colori Tailwind](https://tailwindcss.com/docs/colors), inclusi i neutri e le nuove famiglie taupe, mauve, mist e olive. La sequenza cromatica segue l’ordine dei gruppi nell’indice, includendo i set senza numero: Il corso red, Introduzione orange, Brief amber, Approfondimenti yellow. Le lezioni successive continuano con lime, green, emerald e teal. La numerazione delle lezioni conserva il proprio significato e non viene usata come indice della palette. Ogni famiglia riceve un accento vivace esclusivo: 26 accenti con tonalità differenti, senza riutilizzi nel catalogo. I primari sono Tailwind 800; gli accenti sono personalizzati in OKLCH. Indigo conserva l’abbinamento con lime-400 nella copertina generale e nelle pagine preliminari.
+
+[Adobe Color](https://color.adobe.com/create/color-wheel) è stato verificato esplorando armonie complementari divise su red, orange, yellow, green, blue e indigo. Il catalogo finale è una scelta progettuale in OKLCH, non un’esportazione automatica del tool: le direzioni cromatiche guidano gli abbinamenti, mentre luminosità e saturazione sono adattate alle superfici effettive delle slide. Le tonalità degli accenti occupano 26 posizioni distinte sulla ruota cromatica; quelle dei neutri sono scelte per distinguere i set. La saturazione rimane vicina al limite sRGB, ridotta nei ruoli di testo e nelle superfici chiare.
+
+### Catalogo per le slide presenti e future
+
+| Ordine Tailwind | Primario | Accento grafico esclusivo | Anteprima sRGB |
+| --- | --- | --- | --- |
+| 1 | red-800 | Menta | `#11CE7E` |
+| 2 | orange-800 | Ciano | `#11BFF1` |
+| 3 | amber-800 | Blu elettrico | `#8CACFE` |
+| 4 | yellow-800 | Indaco | `#A6AAFE` |
+| 5 | lime-800 | Magenta | `#F087FE` |
+| 6 | green-800 | Corallo | `#FE935E` |
+| 7 | emerald-800 | Rosa fragola | `#FE7DBE` |
+| 8 | teal-800 | Mandarino | `#FC8E0E` |
+| 9 | cyan-800 | Vermiglio | `#FE8E78` |
+| 10 | sky-800 | Ambra | `#F9C213` |
+| 11 | blue-800 | Giallo limone | `#E3CD13` |
+| 12 | indigo-800 | Lime | `#9AE600` |
+| 13 | violet-800 | Cedro | `#C8D713` |
+| 14 | purple-800 | Verde prato | `#11D217` |
+| 15 | fuchsia-800 | Giada | `#12CBA0` |
+| 16 | pink-800 | Turchese | `#11C8B8` |
+| 17 | rose-800 | Azzurro | `#11C3DD` |
+| 18 | slate-800 | Rosso vivo | `#FE6270` |
+| 19 | gray-800 | Blu cielo | `#47B9FE` |
+| 20 | zinc-800 | Orchidea | `#C373FE` |
+| 21 | neutral-800 | Rosa acceso | `#FE3ADB` |
+| 22 | stone-800 | Acqua | `#12C6CB` |
+| 23 | taupe-800 | Pervinca | `#4FA1FE` |
+| 24 | mauve-800 | Albicocca | `#FEBD60` |
+| 25 | mist-800 | Ciliegia | `#FE5C8F` |
+| 26 | olive-800 | Lavanda | `#A884FE` |
+
+Il catalogo è implementato in `styles/tokens.css`: le scale dei primari conservano i valori ufficiali Tailwind, mentre `--cvedi-{famiglia}-accent`, `-accent-light` e `-accent-vivid` definiscono le tre varianti dell’accento proprietario. Tutte conservano la stessa direzione cromatica; indigo riusa i token lime originali. I codici sRGB della tabella sono anteprime arrotondate: i valori OKLCH nei token sono il riferimento. L’ordine del catalogo è quello della documentazione Tailwind, anche quando l’ordine interno del pacchetto è diverso.
+
+### Assegnazione ai set
+
+| Identità `lesson` | Primario / accento grafico sulle superfici scure | Numero |
 | --- | --- | --- |
-| `apertura` | indigo / lime | Nessuno |
-| `presentazione-corso` | red / amber | 01 |
-| `brief-progetto` | amber / yellow | Nessuno |
-| `approfondimenti` | indigo / lime | Nessuno |
-| `introduzione` | lime / green | 02 |
-| `storia-design` | emerald / teal | 03, nascosta |
-| `design-thinking` | cyan / sky | 04, non pubblicata |
-| `lean-ux` | blue / sky | 05, non pubblicata |
-| `conclusioni` | violet / rose | 06, non pubblicata |
+| `apertura` | indigo-800 / lime-400 | Nessuno; identità generale |
+| `presentazione-corso` | red-800 / Menta | 01 |
+| `introduzione` | orange-800 / Ciano | 02 |
+| `brief-progetto` | amber-800 / Blu elettrico | Nessuno |
+| `approfondimenti` | yellow-800 / Indaco | Nessuno |
+| `storia-design` | lime-800 / Magenta | 03, nascosta |
+| `design-thinking` | green-800 / Corallo | 04, non pubblicata |
+| `lean-ux` | emerald-800 / Rosa fragola | 05, non pubblicata |
+| `conclusioni` | teal-800 / Mandarino | 06, non pubblicata |
 
-La fonte dei set è `utils/slide-sets.ts`; i valori Tailwind sono in `styles/tokens.css`. Usare i ruoli `--section-primary` (800), `--section-primary-deep` (900), `--section-track` (950), `--section-accent` (800) e `--section-accent-soft` (100). Non assegnare colori in base al numero globale della slide.
+Le identità sono registrate in `utils/slide-sets.ts`; gli alias cromatici del set sono in `styles/tokens.css` e rimandano al catalogo della famiglia. L’apertura è l’identità generale. Brief e approfondimenti occupano le posizioni 3 e 4 della sequenza cromatica dell’indice: le lezioni 03–06 usano quindi le famiglie successive lime, green, emerald e teal. Ogni set didattico ha una coppia distinta. Per il prossimo set usare cyan, poi sky, blue, indigo e così via. Conservare la numerazione reale e la visibilità prevista: non aggiungere lezioni o voci dell’indice per rendere visibile il catalogo.
 
-Indice, ribbon, avanzamento, controlli, alert e diagrammi devono appartenere alla stessa coppia. I tre collegamenti locali di Obiettivo e percorso restano neri; la copertina generale conserva la metro multicolore. Un nuovo set va registrato prima di usare colori propri. Le pagine esistenti del corso omettono `lesson` e vengono assegnate al set predefinito `presentazione-corso`: mantenere questa convenzione quando si estende il file del corso.
+I ruoli distinguono la superficie:
+
+- `--section-primary`: primario 800 per copertine, ribbon, titoli locali e collegamenti.
+- `--section-primary-deep` e `--section-track`: primario 900 e 950 per gerarchia e tracce della metro.
+- `--section-accent`: variante scura dell’accento per testo, indicatori e avanzamento sulle pagine chiare. Non usare l’accento brillante come testo su bianco.
+- `--section-accent-soft`: variante chiara dell’accento per selezione, badge e riquadri leggeri.
+- `--section-accent-on-dark`: accento vivace esclusivo per stazioni, linee, indicatori e avanzamento su superfici scure. I segni e i controlli mantengono almeno 3:1 rispetto alla superficie effettiva.
+- Sulle copertine, sottotitoli, metadati e collegamenti usano `--color-primary-content` bianco: il testo conserva almeno 4,5:1. La saturazione degli accenti non deve imporre tinte pastello né ridurre la leggibilità delle etichette.
+
+Le superfici ordinarie restano slate-50 e bianco, con testo slate-900/slate-700. I colori semantici rimangono disponibili per errori, stati ed eventi annullati. I grafici dei voti usano la scala sequenziale red-200/300/500/800 del corso, mantenendo categorie, etichette e dati.
+
+Indice, ribbon, avanzamento, controlli, alert e diagrammi appartengono alla coppia del set. I tre collegamenti locali di Obiettivo e percorso restano neri; la copertina generale conserva la metro originale multicolore. I raster già pubblicati conservano colori, originali e attribuzioni: la palette riguarda il tema dell’interfaccia; per nuove illustrazioni usare la coppia del set e registrarla nel manifest. Non applicare filtri cromatici a fotografie o artefatti didattici.
+
+Un nuovo set va registrato prima di usare colori propri, seguendo il catalogo e verificando il contrasto su chiaro e scuro. Le pagine esistenti del corso omettono `lesson` e vengono assegnate al set predefinito `presentazione-corso`: mantenere questa convenzione quando si estende il file del corso.
+
+L’indice mantiene Il corso a sinistra; il gruppo a destra contiene tre sezioni affiancate, divise verticalmente: Introduzione a UX e UI, Brief di progetto e Approfondimenti individuali. Ogni collegamento conserva la palette e l’alias del set di destinazione. La composizione rimane fissa durante il ridimensionamento del player e in stampa.
 
 ## Tipografia e spazi
 
@@ -54,7 +108,7 @@ Nunito Sans variabile locale, normale e corsivo; Inter nelle copertine e come fa
 | Metadati / etichetta footer / ribbon | 16 / 14 / 12 px |
 | Numero di pagina | Nunito Sans 16 px / 600, cifre tabulari |
 | Valori statistici | 32 px / 700, cifre tabulari |
-| Copertina generale / lezione | Inter 66 / 96 px, 700 |
+| Copertina generale / lezione | Inter 72 / 92 px, 700 |
 
 Prosa entro 65ch e lead entro 70ch, limitati dal contenitore. Interlinea 1,48 nella prosa e 1,5 nelle card. Spazi: 12 px fra raster e didascalia, 16 fra parti correlate, 24 fra elementi equivalenti, 48 fra testo e figura.
 
@@ -70,17 +124,17 @@ Ingrandisci è un'icona sopra l'immagine, in basso a destra: opacità 45%, 100% 
 
 ## Movimento e dati
 
-La metro è il momento principale delle aperture: sequenze finite entro 900 ms, titoli fermi. Calendari e voti seguono l'ordine di lettura. motion-enabled deriva dallo stato Slidev; uscita, scheda nascosta, anteprima, export e movimento ridotto mostrano il risultato statico. Il listener del browser è condiviso.
+La metro è il momento principale delle aperture: sequenze finite entro 900 ms, titoli e sottotitoli fermi. Le copertine di lezione e la chiusura hanno due percorsi disegnati con maschere SVG e tempi/direzioni dedicati; le stazioni si assestano dopo il passaggio. Una fermata principale di 56 px riprende i cerchi della timeline: un segmento percorre la traccia, raggiunge il cerchio e svanisce; all’arrivo il bordo emette un solo impulso di 200 ms. La copertina generale conserva la coreografia della mappa multicolore, senza il cerchio principale e il segmento aggiunti sulla traversa inferiore. Calendari e voti seguono l'ordine di lettura. motion-enabled deriva dallo stato Slidev; uscita, scheda nascosta, anteprima, export e movimento ridotto mostrano il risultato statico. Le fermate delle copertine di lezione restano visibili. Il listener del browser è condiviso.
 
 L'avanzamento usa progress accessibile e trasformazione decorativa. Cambio set e stampa evitano transizioni improprie; l'export mostra la metro completa anche con media screen.
 
-La barra usa l’accento Tailwind 800 del set su una traccia chiara tinta al 10%. Sulle copertine di lezione e nell’archivio scuro usa l’accento 100; la traccia miscela primario e accento chiaro all’88/12%. La copertina generale conserva questa barra su fondo bianco. Ribbon e segno del titolo restano nel primario: stessa coppia cromatica, ruoli distinti.
+La barra usa la variante scura dell’accento del set su una traccia chiara tinta al 10%. Sulle copertine di lezione e nell’archivio scuro usa `--section-accent-on-dark` (variante vivace); la traccia miscela primario profondo 900 e accento brillante all’88/12%. La copertina generale conserva questa barra su fondo bianco. Ribbon e segno del titolo restano nel primario: stessa coppia cromatica, ruoli distinti.
 
 I contenuti sono in Markdown o data; i componenti gestiscono presentazione e interazione. La normalizzazione dei titoli delle immagini è condivisa fra runtime e controlli. Le note del relatore sono assenti e presenter è disabilitato.
 
 ## Verifica
 
-check:source include sorgenti nascosti, durate di frontmatter, fonti e asset selezionati. check misura titoli, centraggio, footer, immagini e ingrandimenti su desktop, viewport stretto e stampa. I controlli dedicati coprono geometria, movimento, avanzamento e font. Il helper browser aspetta contenuti e risorse renderizzati, senza affidarsi all'inattività della rete.
+check:source include sorgenti nascosti, durate di frontmatter, fonti e asset selezionati. check misura titoli, centraggio, footer, immagini e ingrandimenti su desktop, viewport stretto e stampa. check:covers verifica percorsi unici, assenza di sovrapposizioni e almeno 16 px di distanza fra tracce e testo su tutti e tre i formati. I controlli dedicati coprono geometria, movimento, avanzamento e font. Il helper browser aspetta contenuti e risorse renderizzati, senza affidarsi all'inattività della rete.
 
 Rapporti cronologici e screenshot non appartengono alla documentazione: rigenerarli in reports o in una cartella temporanea. Conservare attribuzioni, licenze e originali attivi.
 
@@ -101,17 +155,19 @@ Rapporti cronologici e screenshot non appartengono alla documentazione: rigenera
 
 ### Copertine
 
-La copertina generale usa `ClosingMetro original` e la composizione multicolore ripristinata. Le copertine di lezione usano `chapter-slide`, `ChapterMetro`, fondo primario del set, Inter, titolo bianco allineato a sinistra e numero della lezione. Mantengono margine sinistro 68 px e il numero in alto a 64 px. Brief e Approfondimenti non ricevono numeri di lezione inventati. Non sostituire le copertine con titoli centrati, badge circolari o nuovi effetti di luce.
+La copertina generale usa `ClosingMetro original`, mappa multicolore e fascia indaco opaca che protegge titolo, metadati e attribuzioni. La mappa conserva i tracciati originali senza una fermata circolare principale sovrapposta. Le copertine di lezione usano `chapter-slide`, `ChapterMetro`, fondo primario del set, Inter, titolo bianco allineato a sinistra e numero della lezione. Mantengono margine sinistro 68 px e il numero in alto a 64 px; il testo occupa al massimo 1016 px, con padding verticale 144 / 200 px e 28 px fra titolo e sottotitolo. Brief e Approfondimenti non ricevono numeri di lezione inventati.
+
+I percorsi in `data/cover-routes.ts` sono distinti per corso, esame, archivio, brief, approfondimenti, introduzione, storia e chiusura. Le linee occupano la fascia inferiore e il margine destro, lasciando libera l’area del testo (x 68–1084, y 176–472) e il footer. `MetroTrack` condivide maschere e segmento mobile; `ChapterMetro` sceglie i dati tramite `section` e dispone le stazioni sopra entrambe le linee. `MetroStop` disegna la fermata principale, con la geometria del cerchio della timeline e un punto centrale senza nuovi numeri o testi. `stopProgress` registra la posizione sulla traccia: il controllo del movimento verifica che il segmento la raggiunga. La chiusura mantiene il layout ordinario su fondo chiaro e un proprio percorso in uscita. La lezione di storia resta nascosta. Non sostituire i titoli delle copertine con badge circolari o nuovi effetti di luce.
 
 ### Superfici, gerarchia e accessibilità
 
 - Fondo ordinario slate-50, testo principale slate-900, prosa slate-700; usare i token del tema, non nuovi valori isolati.
-- Card bianche, raggio 16 px, ombra condivisa `--theme-shadow` (0 8px 24px al 5%). Nessun bordo aggiuntivo per dare una seconda elevazione. Gli sfondi semantici delle card restano contenuti in basso a destra: opacità 8,5%, larghezza 64% con massimo 240 px, altezza 78% e rientri di 8 px.
+- Card bianche, raggio 16 px, ombra condivisa `--theme-shadow` (0 8px 24px al 5%). Nessun bordo aggiuntivo per dare una seconda elevazione. Le illustrazioni sono selettive: pochi motivi piatti e stilizzati, nella palette del set, solo quando aiutano a riconoscere il concetto. Nei gruppi di due card equivalenti occupano l’angolo in basso a destra: 168 × 168 px, opacità 60%, rientro di −24 px su entrambi i lati e ritaglio tramite overflow hidden della card. Il corpo riserva 176 px a destra, così il testo non passa sopra l’immagine. Nei gruppi compatti, nelle formule e nelle card isolate l’immagine è omessa e il testo usa tutta la larghezza. La composizione si scala insieme al canvas senza riordinare i contenuti.
 - Alert quieti nel primario del set: tinta di fondo 4%, bordo completo 1 px al 18%, raggio 12 px. Non usare barre laterali colorate o trattamenti da errore per una nota informativa.
 - Didascalie e testo secondario devono conservare contrasto; gli sfondi delle card sono decorativi, a bassa opacità e fuori dall’albero accessibile.
 - Testo corrente almeno 4,5:1 e testo grande almeno 3:1. Etichette, focus e ordine del DOM devono spiegare l’interazione anche da tastiera.
 - Font reali locali, senza grassetto o corsivo artificiali. Il titolo lungo si bilancia senza tracking più stretto di −0,04 em.
-- Il ribbon è il segnalibro condiviso in alto a destra; non ripristinare il ribbon diagonale o collocarlo nel footer.
+- Il ribbon è il segnalibro condiviso in alto a destra, con ombra morbida verso il basso (`--theme-ribbon-shadow`: 0 4px 6px, colore del testo al 18%). Applicare il drop-shadow al contenitore per seguire anche l’angolo tagliato; non ripristinare il ribbon diagonale o collocarlo nel footer. In stampa rimane nascosto.
 
 ## Componenti da scegliere
 
@@ -127,7 +183,7 @@ La copertina generale usa `ClosingMetro original` e la composizione multicolore 
 | Esempio UX da catalogo | `UxExampleSlide`, con dati in `data/ux-examples.json` |
 | Materiali, copertine e chiusura | `RenewalMaterials`, `ChapterMetro`, `ClosingMetro` |
 
-L’API delle card contiene il titolo e lo slot dei contenuti; la vecchia proprietà illustration è assente. Le figure non accettano più la proprietà bordered. Una nuova card richiede una corrispondenza semantica in `data/card-artwork.json`: registrare il titolo normalizzato e l’asset corretto, senza assegnare un’immagine estranea solo per superare il controllo.
+L’API delle card contiene il titolo e lo slot dei contenuti; la vecchia proprietà illustration è assente. Le figure non accettano più la proprietà bordered. Per ogni card registrare il titolo normalizzato in `data/card-artwork.json`: un asset semanticamente pertinente solo se utile, altrimenti `null`. Non assegnare un’immagine per riempire la card. `thematicAssets` conserva separatamente le figure della mappa UX; non alimenta gli sfondi delle card. PNG, prompt e WebP della nuova famiglia sono registrati in `assets/theme-imagegen/manifest-cards-v2.json`; gli originali precedenti restano conservati.
 
 Per un’immagine nuova: produrre il raster con ImageGen quando richiesto dal contenuto, nella famiglia editoriale 2D del set; niente cornici o testo decorativo inutile. Conservare PNG originale, licenza/provenienza e manifest; il WebP selezionato deve mantenere pixel e trasparenza. Per i percorsi pubblici riutilizzare `publicAsset`, così la risorsa funziona anche in `/cvedi2627/slides/`.
 

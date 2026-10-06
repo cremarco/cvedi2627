@@ -16,7 +16,7 @@ Slidev e Vue su canvas 1280 × 720, navigazione da tastiera e indice. Numerazion
 
 ## Capabilities and Constraints
 
-Il deck attuale contiene 174 slide visibili; i sorgenti conservano 242 slide. La lezione 3 è sospesa tramite `disabled: true`, e le voci 03–06 dell’indice sono nascoste. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
+Il deck attuale contiene 173 slide visibili; i sorgenti conservano 241 slide. La lezione 3 è sospesa tramite `disabled: true`, e le voci 03–06 dell’indice sono nascoste. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
 
 ## Brand Commitments
 

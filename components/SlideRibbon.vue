@@ -15,6 +15,7 @@ defineProps<{ label: string }>()
   right: 72px;
   z-index: 8;
   pointer-events: none;
+  filter: drop-shadow(var(--theme-ribbon-shadow));
 }
 .lesson-ribbon.badge {
   display: flex;

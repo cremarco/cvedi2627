@@ -60,9 +60,10 @@
 }
 .index-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
   gap: var(--cvedi-space-card);
 }
+.index-grid > .index-button { height: 100%; }
 .index-button.btn {
   justify-content: flex-start;
   gap: 16px;

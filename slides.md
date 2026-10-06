@@ -68,16 +68,16 @@ footer: "Lezioni"
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
   <button type="button" class="btn btn-lg index-button index-course" @click="$nav.go('presentazione-corso')"><span class="index-chapter-number">01</span><span>Il corso</span></button>
-  <div class="join join-vertical index-split" role="group" aria-label="Lezione 2 e brief di progetto">
+  <div class="join join-horizontal index-split" role="group" aria-label="Lezione 2, brief di progetto e approfondimenti individuali">
     <button type="button" class="btn btn-lg join-item index-button index-chapter-1" @click="$nav.go('introduzione-teorica')"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></button>
     <SlideAction to="brief-progetto" class="join-item" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction>
+    <SlideAction to="approfondimenti" class="join-item" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction>
   </div>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del design</span></button>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">04</span><span>Il processo UX attraverso il Design Thinking</span></button>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">05</span><span>La metodologia Lean UX</span></button>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">06</span><span>Conclusioni</span></button>
 </div>
-<p class="aside index-section-actions"><SlideAction to="approfondimenti" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction></p>
 
 ---
 layout: default
@@ -674,14 +674,6 @@ footer: "Dati storici · voto finale"
 
 ---
 layout: default
-class: question-slide exam-section
-footer: "Valutazione"
----
-
-# Domande?
-
----
-layout: default
 class: chapter-slide archive-section
 ---
 
@@ -717,9 +709,6 @@ footer: "Comunicazioni"
 # Contatti
 
 <p class="lead">Utilizzate il <strong>forum della piattaforma del corso</strong>: le risposte a quesiti di interesse comune possono essere utili a tutta la classe.</p>
-<CvediCard title="Docenti">
-  <p>Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti</p>
-</CvediCard>
 
 ---
 layout: default

@@ -10,6 +10,8 @@ Eseguire dalla radice; i comandi abituali sono nel README principale.
 
 I controlli browser usano Chromium di `playwright-chromium`. `SLIDEV_URL` cambia l'anteprima; eseguire le suite una alla volta. `SLIDEV_SCREENSHOTS` salva render in `reports/` o in una cartella temporanea.
 
+`check:covers` verifica tutte le aperture e la chiusura su desktop, viewport stretto e stampa: geometrie distinte, testo nel canvas, percorsi completi e almeno 16 px di distanza oltre lo spessore della linea.
+
 Per l'archivio: `PROJECTS_URL` cambia il server, `PROJECTS_ALL=1 pnpm check:projects` controlla tutti i siti. `check:links` richiede Python e Beautiful Soup; `check/project-assets.py` controlla risorse locali e `check/navigation.py` l'output Pages.
 
 `gallery` usa `sips` su macOS. `build/project-screenshots.mjs` richiede Chromium, `cwebp` e un server dell'archivio. Pages richiede FFmpeg nel PATH o in `PAGES_FFMPEG`; l'ottimizzazione riguarda solo le copie esportate. Non modificare i materiali originali senza verificarne scopo e risultato.

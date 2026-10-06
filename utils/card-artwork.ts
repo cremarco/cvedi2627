@@ -2,10 +2,14 @@ import artwork from '../data/card-artwork.json'
 import { slideSet } from './slide-sets'
 import { normalizeTitle } from './normalize-title.mjs'
 
-const catalog = artwork as { mappings: Record<string, Record<string, string>>; assets: Record<string, string> }
+const catalog = artwork as {
+  mappings: Record<string, Record<string, string | null>>
+  assets: Record<string, string>
+  thematicAssets: Record<string, string>
+}
 
 export function thematicArtwork(id: string) {
-  return catalog.assets[id]
+  return catalog.thematicAssets[id]
 }
 
 export function cardArtwork(lesson: string, title: string) {

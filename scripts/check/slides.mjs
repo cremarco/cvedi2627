@@ -260,7 +260,7 @@ try {
         },
         colors: {
           primary: color(sectionStyle.getPropertyValue('--section-primary')),
-          progressAccent: color(sectionStyle.getPropertyValue(darkProgress ? '--section-accent-soft' : '--section-accent')),
+          progressAccent: color(sectionStyle.getPropertyValue(darkProgress ? '--section-accent-on-dark' : '--section-accent')),
           ribbon: ribbon ? color(getComputedStyle(ribbon).backgroundColor) : null,
           titleMarker: marker === 'rgba(0, 0, 0, 0)' ? null : color(marker),
           progress: progressFill ? color(getComputedStyle(progressFill).backgroundColor) : null,

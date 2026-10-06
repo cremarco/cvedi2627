@@ -61,8 +61,8 @@ const label = computed(() => `Slide ${state.value.page} di ${state.value.total}`
   pointer-events: none;
 }
 .presentation-progress-rail[data-on-dark="true"] {
-  --progress-fill: var(--section-accent-soft);
-  --progress-track: color-mix(in oklch, var(--section-primary) 88%, var(--section-accent-soft));
+  --progress-fill: var(--section-accent-on-dark);
+  --progress-track: color-mix(in oklch, var(--section-primary-deep) 88%, var(--section-accent-on-dark));
 }
 .presentation-progress-fill {
   display: block;

@@ -11,7 +11,7 @@ routeAlias: storia-design
 
 # Storia del design
 
-<ChapterMetro section="course" />
+<ChapterMetro section="history" />
 <p>Dalla pagina stampata alle interfacce digitali</p>
 
 ---

@@ -9,7 +9,7 @@ footer: "Brief di progetto · A.A. 2026/27"
 
 # Brief di progetto
 
-<ChapterMetro section="course" />
+<ChapterMetro section="brief" />
 <p>WHAT IF? · Progettare i servizi del 2050</p>
 
 ---

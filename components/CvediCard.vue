@@ -11,7 +11,7 @@ const background = computed(() => cardArtwork(set.value.id, props.title))
 </script>
 
 <template>
-  <article class="card cvedi-card" :aria-labelledby="titleId">
+  <article class="card cvedi-card" :class="{ 'has-card-artwork': background }" :aria-labelledby="titleId">
     <img v-if="background" class="card-background" :src="publicAsset(background)" alt="" aria-hidden="true" decoding="async" />
     <div class="card-body">
       <div class="card-heading">

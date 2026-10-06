@@ -32,11 +32,12 @@ export function slideSetStyle(set: SlideSet) {
     '--section-track': token('deep'),
     '--section-accent': token('accent'),
     '--section-accent-soft': token('accent-light'),
+    '--section-accent-on-dark': token('accent-vivid'),
     // Compatibility roles for existing geometric components and lesson layouts.
     '--lesson-color': token('base'),
     '--lesson-canvas': token('canvas'),
     '--lesson-color-deep': token('deep'),
     '--lesson-accent': token('accent'),
-    '--lesson-accent-on-color': token('accent-light'),
+    '--lesson-accent-on-color': token('accent-vivid'),
   }
 }

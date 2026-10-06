@@ -1,8 +1,8 @@
 import assert from 'node:assert/strict'
 import { chromium } from 'playwright-chromium'
-import { checkSlideSources } from './slide-source.mjs'
+import { loadSlideDeck } from './deck.mjs'
 
-const { deck } = await checkSlideSources()
+const deck = await loadSlideDeck()
 const base = (process.env.SLIDEV_URL || 'http://localhost:3035').replace(/\/$/, '')
 const browser = await chromium.launch()
 const checks = []
@@ -29,6 +29,30 @@ try {
     await page.goto(`${base}/#/${alias}`)
     await active().waitFor()
   }
+  async function assertStopArrival() {
+    const report = await active().evaluate(async root => {
+      const journey = root.getAnimations({ subtree: true }).find(animation => animation.animationName === 'cvedi-cover-journey')
+      if (!journey) return { missingJourney: true }
+      const timing = journey.effect.getTiming()
+      journey.pause()
+      journey.currentTime = timing.delay + timing.duration * .85
+      await new Promise(resolve => requestAnimationFrame(resolve))
+      const train = root.querySelector('.metro-cover-train')
+      const style = getComputedStyle(train)
+      const head = train.getPointAtLength((parseFloat(style.strokeDasharray) - parseFloat(style.strokeDashoffset)) * train.getTotalLength()).matrixTransform(train.getScreenCTM())
+      const stop = root.querySelector('.metro-stop-disc')
+      const box = stop.getBoundingClientRect(), scale = root.getBoundingClientRect().width / 1280
+      const error = Math.hypot(head.x - (box.left + box.right) / 2, head.y - (box.top + box.bottom) / 2) / scale
+      const diameter = box.width / scale + parseFloat(getComputedStyle(stop).strokeWidth) * stop.getScreenCTM().a / scale
+      const visible = Number(style.opacity) > .9
+      journey.play()
+      return { missingJourney: false, error, diameter, visible, stops: root.querySelectorAll('.metro-cover-stop').length }
+    })
+    assert.equal(report.missingJourney, false, 'a segment travels to the main stop')
+    assert.equal(report.stops, 1, 'one main stop per cover')
+    assert.ok(report.visible && report.error < 1, `the visible segment reaches the stop (${report.error}px)`)
+    assert.ok(Math.abs(report.diameter - 56) < 1, `the stop matches the timeline's 56px circle (${report.diameter}px)`)
+  }
   async function assertStaticMap() {
     assert.equal(await active().evaluate(root => root.classList.contains('motion-enabled')), false)
     assert.equal((await animations()).length, 0)
@@ -45,6 +69,7 @@ try {
   const cover = await animations()
   assert.ok(cover.some(animation => animation.name === 'cvedi-map-route'))
   assert.ok(cover.every(animation => animation.iterations === 1 && animation.duration + animation.delay <= 900), 'cover choreography is finite and settles within 900 ms')
+  assert.equal(await active().locator('.metro-cover-stop, .metro-cover-train').count(), 0, 'the original opening map has no added main stop or journey')
   await settle()
   const firstStart = (await animations()).find(animation => animation.name === 'cvedi-map-route').start
   await page.keyboard.press('ArrowRight')
@@ -60,10 +85,39 @@ try {
 
   await go('presentazione-corso')
   const chapter = await animations()
-  assert.ok(chapter.some(animation => animation.name === 'cvedi-metro-journey'))
+  assert.equal(chapter.filter(animation => animation.name === 'cvedi-cover-route').length, 2)
+  assert.ok(chapter.some(animation => animation.name === 'cvedi-cover-station'))
+  assert.ok(chapter.every(animation => animation.iterations === 1 && animation.duration + animation.delay <= 900))
   const heading = await active().locator('h1').evaluate(h1 => ({ transform: getComputedStyle(h1).transform, filter: getComputedStyle(h1).filter }))
   assert.deepEqual(heading, { transform: 'none', filter: 'none' }, 'chapter title remains stable and readable')
-  checks.push('chapter journey preserves title position and sharpness')
+  checks.push('two finite cover routes and station arrivals preserve title position and sharpness')
+
+  const routeCovers = deck.slides.filter(slide => /\b(?:chapter-slide|closing-slide)\b/.test(slide.frontmatter.class ?? ''))
+  for (const fixture of routeCovers) {
+    await go(fixture.frontmatter.routeAlias || fixture.index + 1)
+    const entries = await animations()
+    assert.equal(entries.filter(animation => animation.name === 'cvedi-cover-route').length, 2)
+    assert.equal(entries.filter(animation => animation.name === 'cvedi-cover-journey').length, 1)
+    assert.equal(entries.filter(animation => animation.name === 'cvedi-metro-arrival').length, 1)
+    assert.ok(entries.every(animation => animation.iterations === 1 && animation.duration + animation.delay <= 900), `${fixture.title}: bounded cover entrance`)
+    await assertStopArrival()
+    await settle()
+    await page.emulateMedia({ reducedMotion: 'reduce' })
+    await page.waitForFunction(() => !document.querySelector('.slidev-layout.is-active')?.classList.contains('motion-enabled'))
+    const staticCover = await active().evaluate(root => ({
+      enabled: root.classList.contains('motion-enabled'),
+      offsets: [...root.querySelectorAll('.metro-route-reveal')].map(path => getComputedStyle(path).strokeDashoffset),
+      stations: [...root.querySelectorAll('.metro-cover-station')].map(dot => getComputedStyle(dot).opacity),
+      stopVisible: getComputedStyle(root.querySelector('.metro-stop-disc')).opacity,
+      trainHidden: getComputedStyle(root.querySelector('.metro-cover-train')).opacity,
+    }))
+    assert.equal(staticCover.enabled, false)
+    assert.ok(staticCover.offsets.every(offset => offset === '0px') && staticCover.stations.every(opacity => opacity === '1'), `${fixture.title}: complete reduced-motion composition`)
+    assert.equal(staticCover.stopVisible, '1')
+    assert.equal(staticCover.trainHidden, '0')
+    await page.emulateMedia({ reducedMotion: 'no-preference' })
+  }
+  checks.push('chapter and closing cover segments reach their 56px stops, with one arrival pulse and a complete reduced-motion alternative')
 
   for (const [className, name] of [['process-slide', 'cvedi-metro-journey'], ['calendar-slide', 'cvedi-calendar-row'], ['grade-slide', 'cvedi-grade-reveal']]) {
     const fixture = deck.slides.find(slide => String(slide.frontmatter.class).split(/\s+/).includes(className))

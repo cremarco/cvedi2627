@@ -35,20 +35,44 @@
   to { stroke-dashoffset: 0; }
 }
 @keyframes cvedi-map-detail {
-  from { opacity: 0; }
+  from { opacity: .45; }
   to { opacity: 1; }
 }
 
-/* A single journey explains the route and its sequence, without looping. */
-:is(.process-slide, .chapter-slide).motion-enabled .metro-train {
+/* Each cover draws its own two routes, then settles its stations. */
+:is(.chapter-slide, .closing-slide).motion-enabled .metro-route-reveal {
+  animation: cvedi-cover-route var(--cover-route-duration) var(--cvedi-ease-out) var(--cover-route-delay) both;
+}
+:is(.chapter-slide, .closing-slide).motion-enabled .metro-cover-station {
+  animation: cvedi-cover-station 140ms var(--cvedi-ease-out) var(--station-delay) both;
+}
+@keyframes cvedi-cover-route {
+  from { stroke-dashoffset: var(--metro-reveal-from, 1); }
+  to { stroke-dashoffset: 0; }
+}
+@keyframes cvedi-cover-station {
+  from { opacity: .45; transform: scale(.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+/* The same moving segment and arrival ring as the four-step timeline,
+   with the segment's head stopping at the cover's main station. */
+:is(.cover-slide, .chapter-slide, .closing-slide).motion-enabled .metro-cover-train {
+  animation: cvedi-cover-journey 680ms linear calc(40ms + var(--cover-route-delay, 0ms)) both;
+}
+:is(.cover-slide, .chapter-slide, .closing-slide).motion-enabled .metro-stop-arrival {
+  animation: cvedi-metro-arrival 200ms var(--cvedi-ease-out) var(--stop-arrival-delay) both;
+}
+@keyframes cvedi-cover-journey {
+  0% { stroke-dashoffset: .06; opacity: 0; }
+  6% { opacity: 1; }
+  85%, 92% { stroke-dashoffset: var(--metro-stop-offset); opacity: 1; }
+  100% { stroke-dashoffset: var(--metro-stop-offset); opacity: 0; }
+}
+
+/* Process timelines retain their single finite journey. */
+.process-slide.motion-enabled .metro-train {
   animation: cvedi-metro-journey var(--cvedi-motion-metro) linear both;
-}
-.chapter-slide.motion-enabled .metro-train {
-  animation-duration: 720ms;
-  animation-delay: 40ms;
-}
-.chapter-slide.motion-enabled > p {
-  animation: cvedi-reading-focus 420ms ease-out 100ms both;
 }
 .process-slide.motion-enabled .metro-station::after {
   animation: cvedi-metro-arrival 200ms var(--cvedi-ease-out) calc(120ms + var(--station-order, 0) * 160ms) both;

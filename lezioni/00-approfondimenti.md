@@ -9,7 +9,7 @@ footer: "Approfondimento individuale"
 
 # Approfondimenti
 
-<ChapterMetro section="course" />
+<ChapterMetro section="research" />
 <p>20 tracce · Un elaborato individuale in PDF</p>
 <p>Una traccia per studente</p>
 <p><a href="https://elearning.unimib.it/mod/choicegroup/view.php?id=1680625" target="_blank" rel="noopener noreferrer">Scelta del tema su eLearning</a></p>

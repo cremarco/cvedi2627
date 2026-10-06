@@ -32,6 +32,16 @@ try {
         return (figure.querySelector('figcaption').getBoundingClientRect().top - bottom) / scale
       })
       const topic = root.querySelector('.topic-layout')
+      const cardMotifs = [...root.querySelectorAll('.cvedi-card:has(.card-background)')].map(card => {
+        const image = card.querySelector('.card-background')
+        const visible = getComputedStyle(image).display !== 'none'
+        if (!visible) return { visible, width: parseFloat(getComputedStyle(card).width) }
+        const box = card.getBoundingClientRect()
+        const art = image.getBoundingClientRect()
+        const copyRight = Math.max(...[...card.querySelectorAll('.card-heading, .card-copy')].map(el => el.getBoundingClientRect().right))
+        return { visible, copyClear: copyRight <= art.left, cropped: art.right > box.right && art.bottom > box.bottom,
+          overflow: getComputedStyle(card).overflow, decorative: image.alt === '' && image.getAttribute('aria-hidden') === 'true' }
+      })
       const formula = root.querySelector('.formula-flow')
       let formulaAlignment = null
       if (formula) {
@@ -51,10 +61,15 @@ try {
           copyFits: topic.querySelector('.topic-copy').getBoundingClientRect().bottom <= columns.getBoundingClientRect().bottom + 1,
         }
       }
-      return { rows, captions, readingOrder, formulaAlignment }
+      return { rows, captions, readingOrder, formulaAlignment, cardMotifs }
     })
     for (const delta of report.rows) assert.ok(delta < 1, `slide ${slide.index + 1}: explanations start on a common row (${delta}px)`)
     for (const gap of report.captions) assert.ok(Math.abs(gap - 12) <= 2, `slide ${slide.index + 1}: caption follows actual image (${gap}px)`)
+    for (const motif of report.cardMotifs) {
+      if (motif.visible) assert.ok(motif.copyClear && motif.cropped && motif.overflow === 'hidden' && motif.decorative,
+        `slide ${slide.index + 1}: decorative corner is cropped and separate from text`)
+      else assert.ok(motif.width < 420, `slide ${slide.index + 1}: compact card omits its motif`)
+    }
     if (report.formulaAlignment !== null) assert.ok(report.formulaAlignment < 1, 'formula connector remains centered across both card rows')
     if (report.readingOrder) {
       assert.ok(report.readingOrder.questionBeforeBody && report.readingOrder.resultAfterBody && report.readingOrder.copyFits, `slide ${slide.index + 1}: topic groups fit in reading order`)

@@ -1,5 +1,5 @@
 :root {
-  /* Official Tailwind values; family order: https://tailwindcss.com/docs/colors. */
+  /* Official Tailwind values, in documentation order: https://tailwindcss.com/docs/colors. */
   --cvedi-red-50: oklch(97.1% 0.013 17.38);
   --cvedi-red-100: oklch(93.6% 0.032 17.717);
   --cvedi-red-200: oklch(88.5% 0.062 18.334);
@@ -11,6 +11,7 @@
   --cvedi-red-800: oklch(44.4% 0.177 26.899);
   --cvedi-red-900: oklch(39.6% 0.141 25.723);
   --cvedi-red-950: oklch(25.8% 0.092 26.042);
+
   --cvedi-orange-50: oklch(98% 0.016 73.684);
   --cvedi-orange-100: oklch(95.4% 0.038 75.164);
   --cvedi-orange-200: oklch(90.1% 0.076 70.697);
@@ -22,6 +23,7 @@
   --cvedi-orange-800: oklch(47% 0.157 37.304);
   --cvedi-orange-900: oklch(40.8% 0.123 38.172);
   --cvedi-orange-950: oklch(26.6% 0.079 36.259);
+
   --cvedi-amber-50: oklch(98.7% 0.022 95.277);
   --cvedi-amber-100: oklch(96.2% 0.059 95.617);
   --cvedi-amber-200: oklch(92.4% 0.12 95.746);
@@ -33,6 +35,7 @@
   --cvedi-amber-800: oklch(47.3% 0.137 46.201);
   --cvedi-amber-900: oklch(41.4% 0.112 45.904);
   --cvedi-amber-950: oklch(27.9% 0.077 45.635);
+
   --cvedi-yellow-50: oklch(98.7% 0.026 102.212);
   --cvedi-yellow-100: oklch(97.3% 0.071 103.193);
   --cvedi-yellow-200: oklch(94.5% 0.129 101.54);
@@ -44,6 +47,7 @@
   --cvedi-yellow-800: oklch(47.6% 0.114 61.907);
   --cvedi-yellow-900: oklch(42.1% 0.095 57.708);
   --cvedi-yellow-950: oklch(28.6% 0.066 53.813);
+
   --cvedi-lime-50: oklch(98.6% 0.031 120.757);
   --cvedi-lime-100: oklch(96.7% 0.067 122.328);
   --cvedi-lime-200: oklch(93.8% 0.127 124.321);
@@ -55,6 +59,7 @@
   --cvedi-lime-800: oklch(45.3% 0.124 130.933);
   --cvedi-lime-900: oklch(40.5% 0.101 131.063);
   --cvedi-lime-950: oklch(27.4% 0.072 132.109);
+
   --cvedi-green-50: oklch(98.2% 0.018 155.826);
   --cvedi-green-100: oklch(96.2% 0.044 156.743);
   --cvedi-green-200: oklch(92.5% 0.084 155.995);
@@ -66,6 +71,7 @@
   --cvedi-green-800: oklch(44.8% 0.119 151.328);
   --cvedi-green-900: oklch(39.3% 0.095 152.535);
   --cvedi-green-950: oklch(26.6% 0.065 152.934);
+
   --cvedi-emerald-50: oklch(97.9% 0.021 166.113);
   --cvedi-emerald-100: oklch(95% 0.052 163.051);
   --cvedi-emerald-200: oklch(90.5% 0.093 164.15);
@@ -77,6 +83,7 @@
   --cvedi-emerald-800: oklch(43.2% 0.095 166.913);
   --cvedi-emerald-900: oklch(37.8% 0.077 168.94);
   --cvedi-emerald-950: oklch(26.2% 0.051 172.552);
+
   --cvedi-teal-50: oklch(98.4% 0.014 180.72);
   --cvedi-teal-100: oklch(95.3% 0.051 180.801);
   --cvedi-teal-200: oklch(91% 0.096 180.426);
@@ -88,6 +95,7 @@
   --cvedi-teal-800: oklch(43.7% 0.078 188.216);
   --cvedi-teal-900: oklch(38.6% 0.063 188.416);
   --cvedi-teal-950: oklch(27.7% 0.046 192.524);
+
   --cvedi-cyan-50: oklch(98.4% 0.019 200.873);
   --cvedi-cyan-100: oklch(95.6% 0.045 203.388);
   --cvedi-cyan-200: oklch(91.7% 0.08 205.041);
@@ -99,6 +107,7 @@
   --cvedi-cyan-800: oklch(45% 0.085 224.283);
   --cvedi-cyan-900: oklch(39.8% 0.07 227.392);
   --cvedi-cyan-950: oklch(30.2% 0.056 229.695);
+
   --cvedi-sky-50: oklch(97.7% 0.013 236.62);
   --cvedi-sky-100: oklch(95.1% 0.026 236.824);
   --cvedi-sky-200: oklch(90.1% 0.058 230.902);
@@ -110,6 +119,7 @@
   --cvedi-sky-800: oklch(44.3% 0.11 240.79);
   --cvedi-sky-900: oklch(39.1% 0.09 240.876);
   --cvedi-sky-950: oklch(29.3% 0.066 243.157);
+
   --cvedi-blue-50: oklch(97% 0.014 254.604);
   --cvedi-blue-100: oklch(93.2% 0.032 255.585);
   --cvedi-blue-200: oklch(88.2% 0.059 254.128);
@@ -121,6 +131,7 @@
   --cvedi-blue-800: oklch(42.4% 0.199 265.638);
   --cvedi-blue-900: oklch(37.9% 0.146 265.522);
   --cvedi-blue-950: oklch(28.2% 0.091 267.935);
+
   --cvedi-indigo-50: oklch(96.2% 0.018 272.314);
   --cvedi-indigo-100: oklch(93% 0.034 272.788);
   --cvedi-indigo-200: oklch(87% 0.065 274.039);
@@ -132,6 +143,7 @@
   --cvedi-indigo-800: oklch(39.8% 0.195 277.366);
   --cvedi-indigo-900: oklch(35.9% 0.144 278.697);
   --cvedi-indigo-950: oklch(25.7% 0.09 281.288);
+
   --cvedi-violet-50: oklch(96.9% 0.016 293.756);
   --cvedi-violet-100: oklch(94.3% 0.029 294.588);
   --cvedi-violet-200: oklch(89.4% 0.057 293.283);
@@ -143,6 +155,7 @@
   --cvedi-violet-800: oklch(43.2% 0.232 292.759);
   --cvedi-violet-900: oklch(38% 0.189 293.745);
   --cvedi-violet-950: oklch(28.3% 0.141 291.089);
+
   --cvedi-purple-50: oklch(97.7% 0.014 308.299);
   --cvedi-purple-100: oklch(94.6% 0.033 307.174);
   --cvedi-purple-200: oklch(90.2% 0.063 306.703);
@@ -154,17 +167,18 @@
   --cvedi-purple-800: oklch(43.8% 0.218 303.724);
   --cvedi-purple-900: oklch(38.1% 0.176 304.987);
   --cvedi-purple-950: oklch(29.1% 0.149 302.717);
-  --cvedi-gray-50: oklch(98.5% 0.002 247.839);
-  --cvedi-gray-100: oklch(96.7% 0.003 264.542);
-  --cvedi-gray-200: oklch(92.8% 0.006 264.531);
-  --cvedi-gray-300: oklch(87.2% 0.01 258.338);
-  --cvedi-gray-400: oklch(70.7% 0.022 261.325);
-  --cvedi-gray-500: oklch(55.1% 0.027 264.364);
-  --cvedi-gray-600: oklch(44.6% 0.03 256.802);
-  --cvedi-gray-700: oklch(37.3% 0.034 259.733);
-  --cvedi-gray-800: oklch(27.8% 0.033 256.848);
-  --cvedi-gray-900: oklch(21% 0.034 264.665);
-  --cvedi-gray-950: oklch(13% 0.028 261.692);
+
+  --cvedi-fuchsia-50: oklch(97.7% 0.017 320.058);
+  --cvedi-fuchsia-100: oklch(95.2% 0.037 318.852);
+  --cvedi-fuchsia-200: oklch(90.3% 0.076 319.62);
+  --cvedi-fuchsia-300: oklch(83.3% 0.145 321.434);
+  --cvedi-fuchsia-400: oklch(74% 0.238 322.16);
+  --cvedi-fuchsia-500: oklch(66.7% 0.295 322.15);
+  --cvedi-fuchsia-600: oklch(59.1% 0.293 322.896);
+  --cvedi-fuchsia-700: oklch(51.8% 0.253 323.949);
+  --cvedi-fuchsia-800: oklch(45.2% 0.211 324.591);
+  --cvedi-fuchsia-900: oklch(40.1% 0.17 325.612);
+  --cvedi-fuchsia-950: oklch(29.3% 0.136 325.661);
 
   --cvedi-pink-50: oklch(97.1% 0.014 343.198);
   --cvedi-pink-100: oklch(94.8% 0.028 342.258);
@@ -190,72 +204,333 @@
   --cvedi-rose-900: oklch(41% 0.159 10.272);
   --cvedi-rose-950: oklch(27.1% 0.105 12.094);
 
-  /* Tailwind roles: ink 800, large canvases 900, details 950, soft accents 100. */
+  --cvedi-slate-50: oklch(98.4% 0.003 247.858);
+  --cvedi-slate-100: oklch(96.8% 0.007 247.896);
+  --cvedi-slate-200: oklch(92.9% 0.013 255.508);
+  --cvedi-slate-300: oklch(86.9% 0.022 252.894);
+  --cvedi-slate-400: oklch(70.4% 0.04 256.788);
+  --cvedi-slate-500: oklch(55.4% 0.046 257.417);
+  --cvedi-slate-600: oklch(44.6% 0.043 257.281);
+  --cvedi-slate-700: oklch(37.2% 0.044 257.287);
+  --cvedi-slate-800: oklch(27.9% 0.041 260.031);
+  --cvedi-slate-900: oklch(20.8% 0.042 265.755);
+  --cvedi-slate-950: oklch(12.9% 0.042 264.695);
+
+  --cvedi-gray-50: oklch(98.5% 0.002 247.839);
+  --cvedi-gray-100: oklch(96.7% 0.003 264.542);
+  --cvedi-gray-200: oklch(92.8% 0.006 264.531);
+  --cvedi-gray-300: oklch(87.2% 0.01 258.338);
+  --cvedi-gray-400: oklch(70.7% 0.022 261.325);
+  --cvedi-gray-500: oklch(55.1% 0.027 264.364);
+  --cvedi-gray-600: oklch(44.6% 0.03 256.802);
+  --cvedi-gray-700: oklch(37.3% 0.034 259.733);
+  --cvedi-gray-800: oklch(27.8% 0.033 256.848);
+  --cvedi-gray-900: oklch(21% 0.034 264.665);
+  --cvedi-gray-950: oklch(13% 0.028 261.692);
+
+  --cvedi-zinc-50: oklch(98.5% 0 none);
+  --cvedi-zinc-100: oklch(96.7% 0.001 286.375);
+  --cvedi-zinc-200: oklch(92% 0.004 286.32);
+  --cvedi-zinc-300: oklch(87.1% 0.006 286.286);
+  --cvedi-zinc-400: oklch(70.5% 0.015 286.067);
+  --cvedi-zinc-500: oklch(55.2% 0.016 285.938);
+  --cvedi-zinc-600: oklch(44.2% 0.017 285.786);
+  --cvedi-zinc-700: oklch(37% 0.013 285.805);
+  --cvedi-zinc-800: oklch(27.4% 0.006 286.033);
+  --cvedi-zinc-900: oklch(21% 0.006 285.885);
+  --cvedi-zinc-950: oklch(14.1% 0.005 285.823);
+
+  --cvedi-neutral-50: oklch(98.5% 0 none);
+  --cvedi-neutral-100: oklch(97% 0 none);
+  --cvedi-neutral-200: oklch(92.2% 0 none);
+  --cvedi-neutral-300: oklch(87% 0 none);
+  --cvedi-neutral-400: oklch(70.8% 0 none);
+  --cvedi-neutral-500: oklch(55.6% 0 none);
+  --cvedi-neutral-600: oklch(43.9% 0 none);
+  --cvedi-neutral-700: oklch(37.1% 0 none);
+  --cvedi-neutral-800: oklch(26.9% 0 none);
+  --cvedi-neutral-900: oklch(20.5% 0 none);
+  --cvedi-neutral-950: oklch(14.5% 0 none);
+
+  --cvedi-stone-50: oklch(98.5% 0.001 106.423);
+  --cvedi-stone-100: oklch(97% 0.001 106.424);
+  --cvedi-stone-200: oklch(92.3% 0.003 48.717);
+  --cvedi-stone-300: oklch(86.9% 0.005 56.366);
+  --cvedi-stone-400: oklch(70.9% 0.01 56.259);
+  --cvedi-stone-500: oklch(55.3% 0.013 58.071);
+  --cvedi-stone-600: oklch(44.4% 0.011 73.639);
+  --cvedi-stone-700: oklch(37.4% 0.01 67.558);
+  --cvedi-stone-800: oklch(26.8% 0.007 34.298);
+  --cvedi-stone-900: oklch(21.6% 0.006 56.043);
+  --cvedi-stone-950: oklch(14.7% 0.004 49.25);
+
+  --cvedi-taupe-50: oklch(98.6% 0.002 67.8);
+  --cvedi-taupe-100: oklch(96% 0.002 17.2);
+  --cvedi-taupe-200: oklch(92.2% 0.005 34.3);
+  --cvedi-taupe-300: oklch(86.8% 0.007 39.5);
+  --cvedi-taupe-400: oklch(71.4% 0.014 41.2);
+  --cvedi-taupe-500: oklch(54.7% 0.021 43.1);
+  --cvedi-taupe-600: oklch(43.8% 0.017 39.3);
+  --cvedi-taupe-700: oklch(36.7% 0.016 35.7);
+  --cvedi-taupe-800: oklch(26.8% 0.011 36.5);
+  --cvedi-taupe-900: oklch(21.4% 0.009 43.1);
+  --cvedi-taupe-950: oklch(14.7% 0.004 49.3);
+
+  --cvedi-mauve-50: oklch(98.5% 0 none);
+  --cvedi-mauve-100: oklch(96% 0.003 325.6);
+  --cvedi-mauve-200: oklch(92.2% 0.005 325.62);
+  --cvedi-mauve-300: oklch(86.5% 0.012 325.68);
+  --cvedi-mauve-400: oklch(71.1% 0.019 323.02);
+  --cvedi-mauve-500: oklch(54.2% 0.034 322.5);
+  --cvedi-mauve-600: oklch(43.5% 0.029 321.78);
+  --cvedi-mauve-700: oklch(36.4% 0.029 323.89);
+  --cvedi-mauve-800: oklch(26.3% 0.024 320.12);
+  --cvedi-mauve-900: oklch(21.2% 0.019 322.12);
+  --cvedi-mauve-950: oklch(14.5% 0.008 326);
+
+  --cvedi-mist-50: oklch(98.7% 0.002 197.1);
+  --cvedi-mist-100: oklch(96.3% 0.002 197.1);
+  --cvedi-mist-200: oklch(92.5% 0.005 214.3);
+  --cvedi-mist-300: oklch(87.2% 0.007 219.6);
+  --cvedi-mist-400: oklch(72.3% 0.014 214.4);
+  --cvedi-mist-500: oklch(56% 0.021 213.5);
+  --cvedi-mist-600: oklch(45% 0.017 213.2);
+  --cvedi-mist-700: oklch(37.8% 0.015 216);
+  --cvedi-mist-800: oklch(27.5% 0.011 216.9);
+  --cvedi-mist-900: oklch(21.8% 0.008 223.9);
+  --cvedi-mist-950: oklch(14.8% 0.004 228.8);
+
+  --cvedi-olive-50: oklch(98.8% 0.003 106.5);
+  --cvedi-olive-100: oklch(96.6% 0.005 106.5);
+  --cvedi-olive-200: oklch(93% 0.007 106.5);
+  --cvedi-olive-300: oklch(88% 0.011 106.6);
+  --cvedi-olive-400: oklch(73.7% 0.021 106.9);
+  --cvedi-olive-500: oklch(58% 0.031 107.3);
+  --cvedi-olive-600: oklch(46.6% 0.025 107.3);
+  --cvedi-olive-700: oklch(39.4% 0.023 107.4);
+  --cvedi-olive-800: oklch(28.6% 0.016 107.4);
+  --cvedi-olive-900: oklch(22.8% 0.013 107.4);
+  --cvedi-olive-950: oklch(15.3% 0.006 107.1);
+
+  /* Ordered catalogue: 26 distinct vivid accents, in OKLCH.
+     Ink and soft surfaces share their accent hue. Indigo preserves Tailwind lime. */
+  /* red: Menta — unique hue 156.542°. */
+  --cvedi-red-accent: oklch(43.00% 0.0888 156.542);
+  --cvedi-red-accent-light: oklch(97.00% 0.0319 156.542);
+  --cvedi-red-accent-vivid: oklch(75.00% 0.1774 156.542);
+
+  /* orange: Ciano — unique hue 225.773°. */
+  --cvedi-orange-accent: oklch(43.00% 0.0706 225.773);
+  --cvedi-orange-accent-light: oklch(97.00% 0.0132 225.773);
+  --cvedi-orange-accent-vivid: oklch(75.00% 0.1410 225.773);
+
+  /* amber: Blu elettrico — unique hue 267.312°. */
+  --cvedi-amber-accent: oklch(43.00% 0.1400 267.312);
+  --cvedi-amber-accent-light: oklch(97.00% 0.0098 267.312);
+  --cvedi-amber-accent-vivid: oklch(75.40% 0.1235 267.312);
+
+  /* yellow: Indaco — unique hue 281.158°. */
+  --cvedi-yellow-accent: oklch(43.00% 0.1400 281.158);
+  --cvedi-yellow-accent-light: oklch(97.00% 0.0101 281.158);
+  --cvedi-yellow-accent-vivid: oklch(76.80% 0.1193 281.158);
+
+  /* lime: Magenta — unique hue 322.696°. */
+  --cvedi-lime-accent: oklch(43.00% 0.1400 322.696);
+  --cvedi-lime-accent-light: oklch(97.00% 0.0171 322.696);
+  --cvedi-lime-accent-vivid: oklch(77.80% 0.1942 322.696);
+
+  /* green: Corallo — unique hue 45.773°. */
+  --cvedi-green-accent: oklch(43.00% 0.1044 45.773);
+  --cvedi-green-accent-light: oklch(97.00% 0.0112 45.773);
+  --cvedi-green-accent-vivid: oklch(76.60% 0.1462 45.773);
+
+  /* emerald: Rosa fragola — unique hue 350.388°. */
+  --cvedi-emerald-accent: oklch(43.00% 0.1400 350.388);
+  --cvedi-emerald-accent-light: oklch(97.00% 0.0121 350.388);
+  --cvedi-emerald-accent-vivid: oklch(75.60% 0.1717 350.388);
+
+  /* teal: Mandarino — unique hue 59.619°. */
+  --cvedi-teal-accent: oklch(43.00% 0.0871 59.619);
+  --cvedi-teal-accent-light: oklch(97.00% 0.0129 59.619);
+  --cvedi-teal-accent-vivid: oklch(75.00% 0.1739 59.619);
+
+  /* cyan: Vermiglio — unique hue 31.927°. */
+  --cvedi-cyan-accent: oklch(43.00% 0.1400 31.927);
+  --cvedi-cyan-accent-light: oklch(97.00% 0.0104 31.927);
+  --cvedi-cyan-accent-vivid: oklch(76.20% 0.1406 31.927);
+
+  /* sky: Ambra — unique hue 87.312°. */
+  --cvedi-sky-accent: oklch(43.00% 0.0756 87.312);
+  --cvedi-sky-accent-light: oklch(97.00% 0.0240 87.312);
+  --cvedi-sky-accent-vivid: oklch(84.00% 0.1692 87.312);
+
+  /* blue: Giallo limone — unique hue 101.158°. */
+  --cvedi-blue-accent: oklch(43.00% 0.0772 101.158);
+  --cvedi-blue-accent-light: oklch(97.00% 0.0350 101.158);
+  --cvedi-blue-accent-vivid: oklch(84.00% 0.1727 101.158);
+
+  /* indigo: Lime — unique hue 128.85°. */
+  --cvedi-indigo-accent: var(--cvedi-lime-800);
+  --cvedi-indigo-accent-light: var(--cvedi-lime-100);
+  --cvedi-indigo-accent-vivid: var(--cvedi-lime-400);
+
+  /* violet: Cedro — unique hue 115.004°. */
+  --cvedi-violet-accent: oklch(43.00% 0.0838 115.004);
+  --cvedi-violet-accent-light: oklch(97.00% 0.0350 115.004);
+  --cvedi-violet-accent-vivid: oklch(84.00% 0.1875 115.004);
+
+  /* purple: Verde prato — unique hue 142.696°. */
+  --cvedi-purple-accent: oklch(43.00% 0.1250 142.696);
+  --cvedi-purple-accent-light: oklch(97.00% 0.0350 142.696);
+  --cvedi-purple-accent-vivid: oklch(75.00% 0.2497 142.696);
+
+  /* fuchsia: Giada — unique hue 170.388°. */
+  --cvedi-fuchsia-accent: oklch(43.00% 0.0729 170.388);
+  --cvedi-fuchsia-accent-light: oklch(97.00% 0.0296 170.388);
+  --cvedi-fuchsia-accent-vivid: oklch(75.00% 0.1456 170.388);
+
+  /* pink: Turchese — unique hue 184.235°. */
+  --cvedi-pink-accent: oklch(43.00% 0.0654 184.235);
+  --cvedi-pink-accent-light: oklch(97.00% 0.0294 184.235);
+  --cvedi-pink-accent-vivid: oklch(75.00% 0.1307 184.235);
+
+  /* rose: Azzurro — unique hue 211.927°. */
+  --cvedi-rose-accent: oklch(43.00% 0.0644 211.927);
+  --cvedi-rose-accent-light: oklch(97.00% 0.0175 211.927);
+  --cvedi-rose-accent-vivid: oklch(75.00% 0.1287 211.927);
+
+  /* slate: Rosso vivo — unique hue 18.081°. */
+  --cvedi-slate-accent: oklch(43.00% 0.1400 18.081);
+  --cvedi-slate-accent-light: oklch(97.00% 0.0103 18.081);
+  --cvedi-slate-accent-vivid: oklch(70.00% 0.1893 18.081);
+
+  /* gray: Blu cielo — unique hue 239.619°. */
+  --cvedi-gray-accent: oklch(43.00% 0.0842 239.619);
+  --cvedi-gray-accent-light: oklch(97.00% 0.0111 239.619);
+  --cvedi-gray-accent-vivid: oklch(75.00% 0.1420 239.619);
+
+  /* zinc: Orchidea — unique hue 308.85°. */
+  --cvedi-zinc-accent: oklch(43.00% 0.1400 308.850);
+  --cvedi-zinc-accent-light: oklch(97.00% 0.0130 308.850);
+  --cvedi-zinc-accent-vivid: oklch(70.00% 0.2060 308.850);
+
+  /* neutral: Rosa acceso — unique hue 336.542°. */
+  --cvedi-neutral-accent: oklch(43.00% 0.1400 336.542);
+  --cvedi-neutral-accent-light: oklch(97.00% 0.0147 336.542);
+  --cvedi-neutral-accent-vivid: oklch(70.00% 0.2736 336.542);
+
+  /* stone: Acqua — unique hue 198.081°. */
+  --cvedi-stone-accent: oklch(43.00% 0.0629 198.081);
+  --cvedi-stone-accent-light: oklch(97.00% 0.0284 198.081);
+  --cvedi-stone-accent-vivid: oklch(75.00% 0.1256 198.081);
+
+  /* taupe: Pervinca — unique hue 253.465°. */
+  --cvedi-taupe-accent: oklch(43.00% 0.1157 253.465);
+  --cvedi-taupe-accent-light: oklch(97.00% 0.0101 253.465);
+  --cvedi-taupe-accent-vivid: oklch(70.00% 0.1584 253.465);
+
+  /* mauve: Albicocca — unique hue 73.465°. */
+  --cvedi-mauve-accent: oklch(43.00% 0.0786 73.465);
+  --cvedi-mauve-accent-light: oklch(97.00% 0.0163 73.465);
+  --cvedi-mauve-accent-vivid: oklch(84.00% 0.1324 73.465);
+
+  /* mist: Ciliegia — unique hue 4.235°. */
+  --cvedi-mist-accent: oklch(43.00% 0.1400 4.235);
+  --cvedi-mist-accent-light: oklch(97.00% 0.0108 4.235);
+  --cvedi-mist-accent-vivid: oklch(70.00% 0.2004 4.235);
+
+  /* olive: Lavanda — unique hue 295.004°. */
+  --cvedi-olive-accent: oklch(43.00% 0.1400 295.004);
+  --cvedi-olive-accent-light: oklch(97.00% 0.0110 295.004);
+  --cvedi-olive-accent-vivid: oklch(70.00% 0.1740 295.004);
+
+  /* Index groups follow Tailwind order: course, introduction, brief, research, then future lessons. */
   --cvedi-opening-base: var(--cvedi-indigo-800);
   --cvedi-opening-canvas: var(--cvedi-indigo-900);
   --cvedi-opening-deep: var(--cvedi-indigo-950);
-  --cvedi-opening-accent: var(--cvedi-lime-800);
-  --cvedi-opening-accent-light: var(--cvedi-lime-100);
-  --cvedi-research-base: var(--cvedi-opening-base);
-  --cvedi-research-canvas: var(--cvedi-opening-canvas);
-  --cvedi-research-deep: var(--cvedi-opening-deep);
-  --cvedi-research-accent: var(--cvedi-opening-accent);
-  --cvedi-research-accent-light: var(--cvedi-opening-accent-light);
+  --cvedi-opening-light: var(--cvedi-indigo-100);
+  --cvedi-opening-surface: var(--cvedi-indigo-50);
+  --cvedi-opening-accent: var(--cvedi-indigo-accent);
+  --cvedi-opening-accent-light: var(--cvedi-indigo-accent-light);
+  --cvedi-opening-accent-vivid: var(--cvedi-indigo-accent-vivid);
+
   --cvedi-course-base: var(--cvedi-red-800);
   --cvedi-course-canvas: var(--cvedi-red-900);
   --cvedi-course-deep: var(--cvedi-red-950);
   --cvedi-course-light: var(--cvedi-red-100);
   --cvedi-course-surface: var(--cvedi-red-50);
-  --cvedi-course-accent: var(--cvedi-amber-800);
-  --cvedi-course-accent-light: var(--cvedi-amber-100);
+  --cvedi-course-accent: var(--cvedi-red-accent);
+  --cvedi-course-accent-light: var(--cvedi-red-accent-light);
+  --cvedi-course-accent-vivid: var(--cvedi-red-accent-vivid);
+
   --cvedi-brief-base: var(--cvedi-amber-800);
   --cvedi-brief-canvas: var(--cvedi-amber-900);
   --cvedi-brief-deep: var(--cvedi-amber-950);
   --cvedi-brief-light: var(--cvedi-amber-100);
   --cvedi-brief-surface: var(--cvedi-amber-50);
-  --cvedi-brief-accent: var(--cvedi-yellow-800);
-  --cvedi-brief-accent-light: var(--cvedi-yellow-100);
-  --cvedi-introduction-base: var(--cvedi-lime-800);
-  --cvedi-introduction-canvas: var(--cvedi-lime-900);
-  --cvedi-introduction-deep: var(--cvedi-lime-950);
-  --cvedi-introduction-light: var(--cvedi-lime-100);
-  --cvedi-introduction-surface: var(--cvedi-lime-50);
-  --cvedi-introduction-accent: var(--cvedi-green-800);
-  --cvedi-introduction-accent-light: var(--cvedi-green-100);
-  --cvedi-history-base: var(--cvedi-emerald-800);
-  --cvedi-history-canvas: var(--cvedi-emerald-900);
-  --cvedi-history-deep: var(--cvedi-emerald-950);
-  --cvedi-history-light: var(--cvedi-emerald-100);
-  --cvedi-history-surface: var(--cvedi-emerald-50);
-  --cvedi-history-accent: var(--cvedi-teal-800);
-  --cvedi-history-accent-light: var(--cvedi-teal-100);
-  --cvedi-design-thinking-base: var(--cvedi-cyan-800);
-  --cvedi-design-thinking-canvas: var(--cvedi-cyan-900);
-  --cvedi-design-thinking-deep: var(--cvedi-cyan-950);
-  --cvedi-design-thinking-light: var(--cvedi-cyan-100);
-  --cvedi-design-thinking-surface: var(--cvedi-cyan-50);
-  --cvedi-design-thinking-accent: var(--cvedi-sky-800);
-  --cvedi-design-thinking-accent-light: var(--cvedi-sky-100);
-  --cvedi-lean-ux-base: var(--cvedi-blue-800);
-  --cvedi-lean-ux-canvas: var(--cvedi-blue-900);
-  --cvedi-lean-ux-deep: var(--cvedi-blue-950);
-  --cvedi-lean-ux-light: var(--cvedi-blue-100);
-  --cvedi-lean-ux-surface: var(--cvedi-blue-50);
-  --cvedi-lean-ux-accent: var(--cvedi-sky-800);
-  --cvedi-lean-ux-accent-light: var(--cvedi-sky-100);
-  --cvedi-conclusions-base: var(--cvedi-violet-800);
-  --cvedi-conclusions-canvas: var(--cvedi-violet-900);
-  --cvedi-conclusions-deep: var(--cvedi-violet-950);
-  --cvedi-conclusions-light: var(--cvedi-violet-100);
-  --cvedi-conclusions-surface: var(--cvedi-violet-50);
-  --cvedi-conclusions-accent: var(--cvedi-rose-800);
-  --cvedi-conclusions-accent-light: var(--cvedi-rose-100);
+  --cvedi-brief-accent: var(--cvedi-amber-accent);
+  --cvedi-brief-accent-light: var(--cvedi-amber-accent-light);
+  --cvedi-brief-accent-vivid: var(--cvedi-amber-accent-vivid);
+
+  --cvedi-research-base: var(--cvedi-yellow-800);
+  --cvedi-research-canvas: var(--cvedi-yellow-900);
+  --cvedi-research-deep: var(--cvedi-yellow-950);
+  --cvedi-research-light: var(--cvedi-yellow-100);
+  --cvedi-research-surface: var(--cvedi-yellow-50);
+  --cvedi-research-accent: var(--cvedi-yellow-accent);
+  --cvedi-research-accent-light: var(--cvedi-yellow-accent-light);
+  --cvedi-research-accent-vivid: var(--cvedi-yellow-accent-vivid);
+
+  --cvedi-introduction-base: var(--cvedi-orange-800);
+  --cvedi-introduction-canvas: var(--cvedi-orange-900);
+  --cvedi-introduction-deep: var(--cvedi-orange-950);
+  --cvedi-introduction-light: var(--cvedi-orange-100);
+  --cvedi-introduction-surface: var(--cvedi-orange-50);
+  --cvedi-introduction-accent: var(--cvedi-orange-accent);
+  --cvedi-introduction-accent-light: var(--cvedi-orange-accent-light);
+  --cvedi-introduction-accent-vivid: var(--cvedi-orange-accent-vivid);
+
+  --cvedi-history-base: var(--cvedi-lime-800);
+  --cvedi-history-canvas: var(--cvedi-lime-900);
+  --cvedi-history-deep: var(--cvedi-lime-950);
+  --cvedi-history-light: var(--cvedi-lime-100);
+  --cvedi-history-surface: var(--cvedi-lime-50);
+  --cvedi-history-accent: var(--cvedi-lime-accent);
+  --cvedi-history-accent-light: var(--cvedi-lime-accent-light);
+  --cvedi-history-accent-vivid: var(--cvedi-lime-accent-vivid);
+
+  --cvedi-design-thinking-base: var(--cvedi-green-800);
+  --cvedi-design-thinking-canvas: var(--cvedi-green-900);
+  --cvedi-design-thinking-deep: var(--cvedi-green-950);
+  --cvedi-design-thinking-light: var(--cvedi-green-100);
+  --cvedi-design-thinking-surface: var(--cvedi-green-50);
+  --cvedi-design-thinking-accent: var(--cvedi-green-accent);
+  --cvedi-design-thinking-accent-light: var(--cvedi-green-accent-light);
+  --cvedi-design-thinking-accent-vivid: var(--cvedi-green-accent-vivid);
+
+  --cvedi-lean-ux-base: var(--cvedi-emerald-800);
+  --cvedi-lean-ux-canvas: var(--cvedi-emerald-900);
+  --cvedi-lean-ux-deep: var(--cvedi-emerald-950);
+  --cvedi-lean-ux-light: var(--cvedi-emerald-100);
+  --cvedi-lean-ux-surface: var(--cvedi-emerald-50);
+  --cvedi-lean-ux-accent: var(--cvedi-emerald-accent);
+  --cvedi-lean-ux-accent-light: var(--cvedi-emerald-accent-light);
+  --cvedi-lean-ux-accent-vivid: var(--cvedi-emerald-accent-vivid);
+
+  --cvedi-conclusions-base: var(--cvedi-teal-800);
+  --cvedi-conclusions-canvas: var(--cvedi-teal-900);
+  --cvedi-conclusions-deep: var(--cvedi-teal-950);
+  --cvedi-conclusions-light: var(--cvedi-teal-100);
+  --cvedi-conclusions-surface: var(--cvedi-teal-50);
+  --cvedi-conclusions-accent: var(--cvedi-teal-accent);
+  --cvedi-conclusions-accent-light: var(--cvedi-teal-accent-light);
+  --cvedi-conclusions-accent-vivid: var(--cvedi-teal-accent-vivid);
 
   /* Default for standalone consumers; the active slide set overrides this role. */
 
   --cvedi-indigo: var(--cvedi-indigo-700);
   --cvedi-detail-accent: var(--cvedi-course-accent);
-  --cvedi-detail-accent-on-indigo: var(--cvedi-course-accent-light);
+  --cvedi-detail-accent-on-indigo: var(--cvedi-course-accent-vivid);
 
   /* Reading surfaces and hierarchy */
   --cvedi-ink: var(--cvedi-gray-900);

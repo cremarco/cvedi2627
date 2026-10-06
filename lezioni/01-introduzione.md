@@ -11,7 +11,7 @@ routeAlias: introduzione-teorica
 
 # Introduzione a UX e UI
 
-<ChapterMetro section="course" />
+<ChapterMetro section="introduction" />
 <p>Design, comunicazione visiva ed esperienza utente</p>
 
 ---

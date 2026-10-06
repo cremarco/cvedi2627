@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 174 slide visibili, 68 della terza lezione conservate ma disattivate. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 173 slide visibili, 68 della terza lezione conservate ma disattivate. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 

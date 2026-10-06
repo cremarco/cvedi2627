@@ -1,0 +1,181 @@
+{
+  "version": "2026-10-06-v2",
+  "mode": "built-in image_gen",
+  "style": "simple flat editorial motifs",
+  "rights": "Original illustrations generated for this course with OpenAI ImageGen; original PNGs and prompts retained.",
+  "jobs": [
+    {
+      "id": "course-calendar",
+      "palette": "course",
+      "subject": "One simple calendar with two broad binding tabs and one large highlighted circular date.",
+      "colors": "deep red #9F0712, pale reds #FFE2E2 and #FFC9C9, one small amber #FEE685 date",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a11301-b7a9-7da2-9613-3bc3db4915e6/exec-e902bc78-7f5d-4068-b017-fd3fb122422d.png",
+      "prompt": "Use case: stylized-concept.\nAsset type: a small decorative editorial illustration for a university Slidev card, replacing an overly detailed background picture.\nSubject: a single calendar seen straight on, slightly turned only in silhouette, with two broad binding tabs and ONE large circular highlighted date; no tiny grid of numbers. Maximum 5 or 6 deliberately drawn broad shapes.\nStyle: exceptionally simple stylized flat cut-paper illustration, crisp smooth silhouettes, bold quiet geometry, solid matte color fills, no outline strokes, no people, no scene, no realism or 3D, no shadows, no texture, no gradients, no lettering or numbers. This is a modern editorial spot illustration, not a detailed UI or screenshot.\nPalette: deep red #9F0712, pale red #FFC9C9 and #FFE2E2, with one small amber #FEE685 accent; all opaque subject fills, actual transparent alpha background. Do not substitute black or gray.\nComposition: one compact square motif filling about 85% of the transparent square canvas, readable at 130 pixels. The real UI will clip a small portion of its right and bottom edges inside the lower-right corner of a card. Keep the central sign recognizable with that crop; keep silhouette broad and spare. No surrounding frame, badge, circular background, cloud or ornament.\nConstraints: only the calendar motif, no text, letters, numerals, watermark, additional objects, people, hands or desk. Genuine transparent background, not a checkerboard baked into the pixels.",
+      "original": "assets/theme-imagegen/originals/course-calendar-v2.png",
+      "web": "public/images/generated/theme-2026/cards/course-calendar-v2.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "webBytes": 503126,
+      "sha256": "3a688564b8c9eb5330ca4d5eec6759b803551b04052f07f14d3177d5c3703239",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "course-collaboration",
+      "palette": "course",
+      "subject": "Three simplified rounded human bust silhouettes grouped around ONE shared central amber shape. Show a team with three broad circles and connected rounded shoulders, with no faces, clothing detail or gestures.",
+      "colors": "deep red #9F0712, pale reds #FFE2E2 and #FFC9C9, one small amber #FEE685 shared shape",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a11301-b7a9-7da2-9613-3bc3db4915e6/exec-72f08843-ddec-4c06-9a7d-b415e12249de.png",
+      "prompt": "Use case: stylized-concept. Asset type: a small decorative illustration in a university teaching card, intentionally much simpler than a narrative scene. Style: crisp stylized flat cut-paper editorial motif, maximum 5 to 8 broad smooth opaque shapes, no outline strokes, no shading, no gradient, no texture, no 3D, no tiny details. No lettering, digits, text, watermark, surrounding frame, colored cloud, enclosing badge, ornament, hands, desk or detailed environment. Genuine transparent alpha background, never draw a checkerboard. Square compact motif filling 85% of the canvas, exceptionally clear at 130px. Real UI will crop its right and bottom edges in a card's lower-right corner; the core subject must remain recognizable. \nSubject: Three simplified rounded human bust silhouettes grouped around ONE shared central amber shape. Show a team with three broad circles and connected rounded shoulders, with no faces, clothing detail or gestures.\nPalette: deep red #9F0712, pale reds #FFE2E2 and #FFC9C9, one small amber #FEE685 shared shape. No black, gray or unrelated colors.",
+      "original": "assets/theme-imagegen/originals/course-collaboration-v2.png",
+      "web": "public/images/generated/theme-2026/cards/course-collaboration-v2.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "webBytes": 405834,
+      "sha256": "885830c4583a5baa6af86720955f253241da83eb776c61e9541f06cb974a3888",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "brief-devices",
+      "palette": "brief",
+      "subject": "One broad desktop screen and one smaller upright phone overlapping its lower-right side. Each screen contains only ONE simple pale inset rectangle and ONE broad yellow block. No interface details, buttons, labels or fine bezels.",
+      "colors": "deep amber #973C00, pale amber #FEE685 and #FEF3C6, one small yellow #FDF08B emphasis",
+      "prompt": "Use case: stylized-concept. Asset type: a small decorative illustration in a university teaching card, intentionally much simpler than a narrative scene. Style: crisp stylized flat cut-paper editorial motif, maximum 5 to 8 broad smooth opaque shapes, no outline strokes, no shading, no gradient, no texture, no 3D, no tiny details. No lettering, digits, text, watermark, surrounding frame, colored cloud, enclosing badge, ornament, hands, desk or detailed environment. Genuine transparent alpha background, never draw a checkerboard. Square compact motif filling 85% of the canvas, exceptionally clear at 130px. Real UI will crop its right and bottom edges in a card's lower-right corner; the core subject must remain recognizable. \nSubject: One broad desktop screen and one smaller upright phone overlapping its lower-right side. Each screen contains only ONE simple pale inset rectangle and ONE broad yellow block. No interface details, buttons, labels or fine bezels.\nPalette: deep amber #973C00, pale amber #FEE685 and #FEF3C6, one small yellow #FDF08B emphasis. No black, gray or unrelated colors.",
+      "original": "assets/theme-imagegen/originals/brief-devices-v2.png",
+      "web": "public/images/generated/theme-2026/cards/brief-devices-v2.webp",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a11301-b7a9-7da2-9613-3bc3db4915e6/exec-cf6d135a-1812-4513-a5a1-d090f78f7469.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "webBytes": 455706,
+      "sha256": "d51b78e59d66de7f773c56e8a8ed5c2b667651b8f862480426f0b5ca58c2428f",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "brief-workflow",
+      "palette": "brief",
+      "subject": "Three simple broad rounded square steps joined by one thick angular bent path, ending in one clear arrowhead. One step pale amber, the second yellow, the final deep amber. No chart background, no text, no many nodes, no tiny arrow details.",
+      "colors": "deep amber #973C00, pale amber #FEE685 and #FEF3C6, yellow #FDF08B",
+      "prompt": "Use case: stylized-concept. Asset type: a small decorative illustration in a university teaching card, intentionally much simpler than a narrative scene. Style: crisp stylized flat cut-paper editorial motif, maximum 5 to 8 broad smooth opaque shapes, no outline strokes, no shading, no gradient, no texture, no 3D, no tiny details. No lettering, digits, text, watermark, surrounding frame, colored cloud, enclosing badge, ornament, hands, desk or detailed environment. Genuine transparent alpha background, never draw a checkerboard. Square compact motif filling 85% of the canvas, exceptionally clear at 130px. Real UI will crop its right and bottom edges in a card's lower-right corner; the core subject must remain recognizable. \nSubject: Three simple broad rounded square steps joined by one thick angular bent path, ending in one clear arrowhead. One step pale amber, the second yellow, the final deep amber. No chart background, no text, no many nodes, no tiny arrow details.\nPalette: deep amber #973C00, pale amber #FEE685 and #FEF3C6, yellow #FDF08B. No black, gray or unrelated colors.",
+      "original": "assets/theme-imagegen/originals/brief-workflow-v2.png",
+      "web": "public/images/generated/theme-2026/cards/brief-workflow-v2.webp",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a11301-b7a9-7da2-9613-3bc3db4915e6/exec-89669857-2526-457f-ae1d-637dd46db89d.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "webBytes": 187906,
+      "sha256": "ba969fd782815217097020b0e447a0e035b183f8400b497b94d9f70820f3c27a",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "introduction-prototype",
+      "palette": "introduction",
+      "subject": "Two blank overlapping broad layout panels, one pale panel behind a larger deep-green panel, with just two large pale inset rectangles and one lime small block inside. Convey a rough prototype using six broad flat shapes total, with no detailed UI controls or lines.",
+      "colors": "deep lime green #3C6300, pale lime #D8F999 and #ECFCCA, small leaf-green #A7F3D0 accent",
+      "prompt": "Use case: stylized-concept. Asset type: a small decorative illustration in a university teaching card, intentionally much simpler than a narrative scene. Style: crisp stylized flat cut-paper editorial motif, maximum 5 to 8 broad smooth opaque shapes, no outline strokes, no shading, no gradient, no texture, no 3D, no tiny details. No lettering, digits, text, watermark, surrounding frame, colored cloud, enclosing badge, ornament, hands, desk or detailed environment. Genuine transparent alpha background, never draw a checkerboard. Square compact motif filling 85% of the canvas, exceptionally clear at 130px. Real UI will crop its right and bottom edges in a card's lower-right corner; the core subject must remain recognizable. \nSubject: Two blank overlapping broad layout panels, one pale panel behind a larger deep-green panel, with just two large pale inset rectangles and one lime small block inside. Convey a rough prototype using six broad flat shapes total, with no detailed UI controls or lines.\nPalette: deep lime green #3C6300, pale lime #D8F999 and #ECFCCA, small leaf-green #A7F3D0 accent. No black, gray or unrelated colors.",
+      "original": "assets/theme-imagegen/originals/introduction-prototype-v2.png",
+      "web": "public/images/generated/theme-2026/cards/introduction-prototype-v2.webp",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a11301-b7a9-7da2-9613-3bc3db4915e6/exec-22e27df4-65ba-48f0-a7e9-578839961628.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "webBytes": 526576,
+      "sha256": "f9792333cb2637650c21df717d7a24ad05073ecbd15b8541362f1c82a7f2551b",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "introduction-research",
+      "palette": "introduction",
+      "subject": "One broad magnifying lens tilted diagonally across ONE pale rounded square with a single green dot. A bold simple handle, circular ring and transparent lens opening. Four or five chunky flat shapes, no microscope, people or detailed documents.",
+      "colors": "deep lime green #3C6300, pale lime #D8F999 and #ECFCCA, small leaf-green #A7F3D0 accent",
+      "prompt": "Use case: stylized-concept. Asset type: a small decorative illustration in a university teaching card, intentionally much simpler than a narrative scene. Style: crisp stylized flat cut-paper editorial motif, maximum 5 to 8 broad smooth opaque shapes, no outline strokes, no shading, no gradient, no texture, no 3D, no tiny details. No lettering, digits, text, watermark, surrounding frame, colored cloud, enclosing badge, ornament, hands, desk or detailed environment. Genuine transparent alpha background, never draw a checkerboard. Square compact motif filling 85% of the canvas, exceptionally clear at 130px. Real UI will crop its right and bottom edges in a card's lower-right corner; the core subject must remain recognizable. \nSubject: One broad magnifying lens tilted diagonally across ONE pale rounded square with a single green dot. A bold simple handle, circular ring and transparent lens opening. Four or five chunky flat shapes, no microscope, people or detailed documents.\nPalette: deep lime green #3C6300, pale lime #D8F999 and #ECFCCA, small leaf-green #A7F3D0 accent. No black, gray or unrelated colors.",
+      "original": "assets/theme-imagegen/originals/introduction-research-v2.png",
+      "web": "public/images/generated/theme-2026/cards/introduction-research-v2.webp",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a11301-b7a9-7da2-9613-3bc3db4915e6/exec-987511b8-476a-46c9-9479-731d837402ab.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "webBytes": 395932,
+      "sha256": "4ec549a3cc43f7c5e29edbd461266be90e873980ed1a2d93f4850916aed8ab1c",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "introduction-testing",
+      "palette": "introduction",
+      "subject": "One broad pale square card with a single giant deep-lime check mark and ONE small pale green secondary overlapping sheet behind it. Three or four broad shapes. No lines, list rows, text, pencils, person or extra objects.",
+      "colors": "deep lime green #3C6300, pale lime #D8F999 and #ECFCCA, leaf-green #A7F3D0 accent",
+      "prompt": "Use case: stylized-concept. Asset type: a small decorative illustration in a university teaching card, intentionally much simpler than a narrative scene. Style: crisp stylized flat cut-paper editorial motif, maximum 5 to 8 broad smooth opaque shapes, no outline strokes, no shading, no gradient, no texture, no 3D, no tiny details. No lettering, digits, text, watermark, surrounding frame, colored cloud, enclosing badge, ornament, hands, desk or detailed environment. Genuine transparent alpha background, never draw a checkerboard. Square compact motif filling 85% of the canvas, exceptionally clear at 130px. Real UI will crop its right and bottom edges in a card's lower-right corner; the core subject must remain recognizable. \nSubject: One broad pale square card with a single giant deep-lime check mark and ONE small pale green secondary overlapping sheet behind it. Three or four broad shapes. No lines, list rows, text, pencils, person or extra objects.\nPalette: deep lime green #3C6300, pale lime #D8F999 and #ECFCCA, leaf-green #A7F3D0 accent. No black, gray or unrelated colors.",
+      "original": "assets/theme-imagegen/originals/introduction-testing-v2.png",
+      "web": "public/images/generated/theme-2026/cards/introduction-testing-v2.webp",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a11301-b7a9-7da2-9613-3bc3db4915e6/exec-5c2ec635-8b9a-476d-b071-fc576223b1db.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "webBytes": 520362,
+      "sha256": "5d6a9c036a22e2859f732d6117e308952207f31f48d17c29dda33ed21cb83549",
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    }
+  ],
+  "counts": {
+    "images": 7,
+    "totalDirectCards": 223,
+    "directCardUses": 12
+  }
+}

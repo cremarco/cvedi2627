@@ -33,7 +33,7 @@ export async function checkSlideSources() {
   const topicSource = JSON.parse(await readFile(path.join(root, 'assets/approfondimenti/source-elearning.json'), 'utf8'))
   const addedSlides = topicSource.topics.length + 1
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
-  assert.equal(total, 221 + addedSlides, 'resolved deck includes the new topic section')
+  assert.equal(total, 220 + addedSlides, 'resolved deck includes the topic section and omits the removed evaluation question slide')
   assert.equal(lesson.length, 82, 'introduction: 82 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
@@ -64,7 +64,7 @@ export async function checkSlideSources() {
     assert.ok(visibleDeck.slides.every(slide => slide.frontmatter.lesson !== 'storia-design'), 'history is absent from navigation and overview')
     assert.equal(visibleDeck.slides.at(-2).title, lesson.at(-1).title, 'introduction leads directly to closing')
   }
-  assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
+  assert.equal(course.length, 39, 'course presentation: 39 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
   assert.equal(course[0].frontmatter.routeAlias, 'presentazione-corso', 'course alias opens its first slide')
   assert.deepEqual(deck.slides.filter(slide => slide.frontmatter.lesson === 'apertura').map(slide => slide.index),
@@ -150,7 +150,7 @@ export async function checkSlideSources() {
   ]
   assert.equal(brief.length, 25, 'standalone project brief: twenty-five slides')
   assert.deepEqual(brief.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: 25 }, (_, i) => i + 1), 'project brief lesson sequence')
-  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 45 + i), 'project brief: consecutive slides 46–70')
+  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 44 + i), 'project brief: consecutive slides 45–69')
   assert.deepEqual(brief.map(slide => slide.frontmatter.routeAlias), briefAliases, 'project brief: stable aliases in lesson order')
   assert.equal(deck.slides[brief[0].index - 1].title, 'Contatti', 'course contacts precede project brief')
   assert.equal(brief.at(-1).index + 1, approfondimenti[0].index, 'topic section immediately follows project brief')
@@ -218,27 +218,38 @@ export async function checkSlideSources() {
 
   const artwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork.json'), 'utf8'))
   const generations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-v1.json'), 'utf8'))
+  const cardGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-cards-v2.json'), 'utf8'))
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
-  assert.equal(Object.keys(artwork.assets).length, 67, 'semantic card backgrounds')
-  for (const generation of generations.jobs) {
+  assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length, 'only refreshed motifs populate the card catalog')
+  for (const generation of [...generations.jobs, ...cardGenerations.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
     const publicImage = await readFile(path.join(root, generation.web))
     assert.equal(createHash('sha256').update(publicImage).digest('hex'), generation.sha256, `generated asset ${generation.id}: selected public pixels`)
     assert.ok((await stat(path.join(root, generation.original))).isFile(), `generated asset ${generation.id}: original PNG retained`)
   }
+  for (const generation of cardGenerations.jobs)
+    assert.equal(artwork.assets[generation.id], '/' + generation.web.replace(/^public\//, ''), `card motif ${generation.id}: registered public path`)
+  for (const [id, src] of Object.entries(artwork.thematicAssets))
+    assert.ok(generations.jobs.some(job => job.id === id && '/' + job.web.replace(/^public\//, '') === src), `retained thematic figure ${id}: original provenance`)
   const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction' }
   let illustratedCards = 0
+  let directCards = 0
   for (const slide of visibleDeck.slides) {
     for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
       const title = normalizeTitle(card[1])
       const family = palette[slide.frontmatter.lesson ?? 'presentazione-corso']
       const id = artwork.mappings[family]?.[title]
-      assert.ok(id && artwork.assets[id], `card ${card[1]}: thematic background`)
-      illustratedCards++
+      assert.ok(Object.hasOwn(artwork.mappings[family] ?? {}, title), `card ${card[1]}: explicit illustration decision`)
+      assert.ok(id === null || (artwork.assets[id] && id.startsWith(`${family}-`)), `card ${card[1]}: intentionally plain or illustrated in the owning palette`)
+      directCards++
+      if (id) illustratedCards++
     }
   }
-  assert.equal(illustratedCards, generations.counts.directCardUses, 'all direct cards have semantic images')
+  assert.equal(directCards, cardGenerations.counts.totalDirectCards, 'complete card inventory')
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses, 'selected direct cards have semantic motifs')
+  assert.ok(illustratedCards > 0 && illustratedCards < directCards / 4, 'illustrations remain selective')
 
   // Check literal public image paths in slide content, components and data.
   const files = [...Object.values(deck.markdownFiles).map(file => file.filepath)]
