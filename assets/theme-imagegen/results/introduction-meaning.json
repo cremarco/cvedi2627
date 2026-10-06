@@ -1,0 +1,51 @@
+{
+  "id": "introduction-meaning",
+  "palette": "introduction",
+  "theme": "meaning",
+  "subject": "A familiar everyday object is shown beside two different contextual interpretations through small simple surrounding scenes. Explain signs, meaning, representation and interpretation without text.",
+  "cards": [
+    {
+      "title": "Interpretazione",
+      "body": "Quale significato viene costruito?"
+    },
+    {
+      "title": "Evocare",
+      "body": "Costruire un’atmosfera e suggerire un tono.  Una fotografia ambientale racconta come potrebbe sentirsi chi usa il servizio."
+    },
+    {
+      "title": "Quali segni",
+      "body": "Sceglie parole, immagini e convenzioni."
+    },
+    {
+      "title": "Chi interpreta",
+      "body": "Legge i segni attraverso la propria esperienza."
+    },
+    {
+      "title": "Significato",
+      "body": "Ha valore per la persona."
+    },
+    {
+      "title": "Significante",
+      "body": "Un indizio comunica  dove e come agire .  La piastra sulla porta suggerisce di spingere."
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/introduction-meaning-v1.png",
+  "web": "public/images/generated/theme-2026/cards/introduction-meaning-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-03be4cc7-026b-4f23-9534-60e9db89afb4.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind lime/green: lime-950 #192E03 fine outlines, lime-800 #3C6300 selected structural details, lime-100 #ECFCCA and green-100 #DCFCE7 light fills, white papers; one tiny lime-300 #BBF451 selection.\nSubject: A familiar everyday object is shown beside two different contextual interpretations through small simple surrounding scenes. Explain signs, meaning, representation and interpretation without text.\nActual card contexts (content remains live text, do not draw lettering): Interpretazione: Quale significato viene costruito? | Evocare: Costruire un’atmosfera e suggerire un tono.  Una fotografia ambientale racconta come potrebbe sentirsi chi usa il servizio. | Quali segni: Sceglie parole, immagini e convenzioni. | Chi interpreta: Legge i segni attraverso la propria esperienza. | Significato: Ha valore per la persona. | Significante: Un indizio comunica  dove e come agire .  La piastra sulla porta suggerisce di spingere.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-d6d7809a-7cf4-42d5-bf45-27704451c0b9.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 664504,
+  "sha256": "0d09400336fad8b88afa890f1ee3d36a1e39767f40f94f4ae659b1bf6b34cd00",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

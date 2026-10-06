@@ -3,6 +3,7 @@ layout: default
 class: content-slide introduction-section lesson-slide chapter-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
+lessonNumber: 2
 lessonSlide: 1
 lessonMinutes: 1
 routeAlias: introduzione-teorica
@@ -458,8 +459,8 @@ routeAlias: ux-gerarchia
 # Stessi contenuti, priorità diverse
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/introduzione/esempi/gerarchia-a.png" caption="A · Un peso uniforme" alt="Visita di fisioterapia, 45 minuti, 50 €, martedì alle 18:00, nome Viola e azione Prenota la visita: tutti gli elementi hanno un peso visivo simile." />
-  <LessonFigure src="/images/introduzione/esempi/gerarchia-b.png" caption="B · Una priorità riconoscibile" alt="Gli stessi contenuti della variante A; titolo e riepilogo sono in grassetto e l’azione Prenota la visita è evidenziata in indaco." />
+  <LessonFigure src="/images/generated/theme-2026/figures/intro-hierarchy-uniform-v2.webp" caption="A · Un peso uniforme" alt="Visita di fisioterapia, 45 minuti, 50 €, martedì alle 18:00, nome Viola e azione Prenota la visita: tutti gli elementi hanno un peso visivo simile." />
+  <LessonFigure src="/images/generated/theme-2026/figures/intro-hierarchy-priority-v2.webp" caption="B · Una priorità riconoscibile" alt="Gli stessi contenuti della variante A; titolo e riepilogo sono in grassetto e l’azione Prenota la visita è evidenziata in verde lime." />
 </div>
 
 <p class="aside">Esempi illustrativi non interattivi. Dove va lo sguardo? Quale azione emerge?</p>
@@ -1372,9 +1373,9 @@ lessonMinutes: 4
 # Attività · UX, UI o usabilità?
 
 <div class="lesson-kicker">In coppia · 2 minuti, poi confronto</div><div class="cvedi-grid three">
-  <CvediCard title="A · Menu" illustration="/images/generated/ux-ui-usability/menu-v1.png" illustration-variant="roomy"><p>Cambiano le etichette e l’ordine dei controlli.</p></CvediCard>
-  <CvediCard title="B · Prenotazione" illustration="/images/generated/ux-ui-usability/booking-v1.png" illustration-variant="roomy"><p>La persona non trova il pulsante per prenotare.</p></CvediCard>
-  <CvediCard title="C · Servizio" illustration="/images/generated/ux-ui-usability/service-v1.png" illustration-variant="roomy"><p>La visita ricevuta non rispetta le aspettative.</p></CvediCard>
+  <CvediCard title="A · Menu"><p>Cambiano le etichette e l’ordine dei controlli.</p></CvediCard>
+  <CvediCard title="B · Prenotazione"><p>La persona non trova il pulsante per prenotare.</p></CvediCard>
+  <CvediCard title="C · Servizio"><p>La visita ricevuta non rispetta le aspettative.</p></CvediCard>
 </div><p class="aside">Quale aspetto emerge in ogni caso? Spiegate anche come gli aspetti sono collegati.</p>
 
 <!--
@@ -1695,7 +1696,7 @@ lessonMinutes: 2.25
 
 <div class="lesson-columns">
   <div><p class="lead">Mettere in relazione <strong>azioni, pensieri, emozioni e punti di contatto</strong>.</p><p>La customer journey descrive l’esperienza; lo user flow dettaglia un percorso nel sistema.</p></div>
-  <LessonFigure src="/images/generated/customer-journey/journey-v1.png" alt="Customer journey illustrativa di una prenotazione aerea: preparare, cercare, scegliere, pagare e confermare. Azioni, punti di contatto, pensieri e opportunità per ogni fase; l’entusiasmo iniziale lascia spazio a confusione e tensione, poi al sollievo della conferma." caption="Customer journey · prenotare un volo" :bordered="false" />
+  <LessonFigure src="/images/generated/theme-2026/figures/intro-customer-journey-v1.webp" alt="Customer journey illustrativa di una prenotazione aerea: preparare, cercare, scegliere, pagare e confermare. Azioni, punti di contatto, pensieri e opportunità per ogni fase; l’entusiasmo iniziale lascia spazio a confusione e tensione, poi al sollievo della conferma." caption="Customer journey · prenotare un volo" :bordered="false" />
 </div>
 
 <!--

@@ -124,31 +124,43 @@
 }
 .index-course {
   --index-color: var(--cvedi-course-base);
+  --index-deep: var(--cvedi-course-canvas);
+  --index-accent: var(--cvedi-course-accent-light);
   --index-surface: var(--cvedi-course-surface);
   --index-rule: var(--cvedi-course-light);
 }
 .index-chapter-1 {
   --index-color: var(--cvedi-introduction-base);
+  --index-deep: var(--cvedi-introduction-canvas);
+  --index-accent: var(--cvedi-introduction-accent-light);
   --index-surface: var(--cvedi-introduction-surface);
   --index-rule: var(--cvedi-introduction-light);
 }
 .index-chapter-2 {
   --index-color: var(--cvedi-history-base);
+  --index-deep: var(--cvedi-history-canvas);
+  --index-accent: var(--cvedi-history-accent-light);
   --index-surface: var(--cvedi-history-surface);
   --index-rule: var(--cvedi-history-light);
 }
 .index-chapter-3 {
   --index-color: var(--cvedi-design-thinking-base);
+  --index-deep: var(--cvedi-design-thinking-canvas);
+  --index-accent: var(--cvedi-design-thinking-accent-light);
   --index-surface: var(--cvedi-design-thinking-surface);
   --index-rule: var(--cvedi-design-thinking-light);
 }
 .index-chapter-4 {
   --index-color: var(--cvedi-lean-ux-base);
+  --index-deep: var(--cvedi-lean-ux-canvas);
+  --index-accent: var(--cvedi-lean-ux-accent-light);
   --index-surface: var(--cvedi-lean-ux-surface);
   --index-rule: var(--cvedi-lean-ux-light);
 }
 .index-chapter-5 {
   --index-color: var(--cvedi-conclusions-base);
+  --index-deep: var(--cvedi-conclusions-canvas);
+  --index-accent: var(--cvedi-conclusions-accent-light);
   --index-surface: var(--cvedi-conclusions-surface);
   --index-rule: var(--cvedi-conclusions-light);
 }

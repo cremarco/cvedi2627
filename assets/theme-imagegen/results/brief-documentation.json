@@ -1,0 +1,51 @@
+{
+  "id": "brief-documentation",
+  "palette": "brief",
+  "theme": "documentation",
+  "subject": "A small complete documentation scene: an open report, two annotated diagrams and one orderly folder of supporting materials. Explain documenting decisions and delivering a coherent report.",
+  "cards": [
+    {
+      "title": "Un progetto documentato",
+      "body": "Consegnate  sito, design system e documentazione , motivando le scelte e l’evoluzione del lavoro."
+    },
+    {
+      "title": "Motivazione",
+      "body": "Spiegate come le scelte comunicano il concept e favoriscono  leggibilità e fiducia ."
+    },
+    {
+      "title": "03 · Documentazione",
+      "body": "Un  PDF  che racconta ricerca, decisioni, revisioni ed evoluzione del progetto."
+    },
+    {
+      "title": "Contenuti e risorse",
+      "body": "Testi in italiano, immagini proporzionate e ottimizzate,  nessun collegamento interrotto . \n     Controllate il sito nei formati richiesti."
+    },
+    {
+      "title": "Documentazione e presentazione",
+      "body": "Ricerca e motivazioni, evoluzione delle scelte e capacità di  spiegare il progetto ."
+    },
+    {
+      "title": "Rispettare il brief",
+      "body": "Verificate concept, contenuti, pagine e percorsi, adattamento ai dispositivi e  controllo delle scelte dell’utente ."
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/brief-documentation-v1.png",
+  "web": "public/images/generated/theme-2026/cards/brief-documentation-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-e7841702-4f02-40c0-9af7-4d59c3daead4.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind amber/yellow: amber-950 #461901 outlines, amber-800 #973C00 selected structural details, amber-100 #FEF3C6 and yellow-100 #FEF9C2 light fills, white papers; one tiny yellow-400 #FDC700 selection.\nSubject: A small complete documentation scene: an open report, two annotated diagrams and one orderly folder of supporting materials. Explain documenting decisions and delivering a coherent report.\nActual card contexts (content remains live text, do not draw lettering): Un progetto documentato: Consegnate  sito, design system e documentazione , motivando le scelte e l’evoluzione del lavoro. | Motivazione: Spiegate come le scelte comunicano il concept e favoriscono  leggibilità e fiducia . | 03 · Documentazione: Un  PDF  che racconta ricerca, decisioni, revisioni ed evoluzione del progetto. | Contenuti e risorse: Testi in italiano, immagini proporzionate e ottimizzate,  nessun collegamento interrotto . \n     Controllate il sito nei formati richiesti. | Documentazione e presentazione: Ricerca e motivazioni, evoluzione delle scelte e capacità di  spiegare il progetto . | Rispettare il brief: Verificate concept, contenuti, pagine e percorsi, adattamento ai dispositivi e  controllo delle scelte dell’utente .",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-354d6b8c-3736-4586-ae80-99cf56135956.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 679212,
+  "sha256": "536026226f7f4978e475c87989d0db8d9553fbd5fc930e8c3267bb6a6bc3ab47",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

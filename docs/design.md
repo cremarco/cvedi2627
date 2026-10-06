@@ -1,5 +1,37 @@
 # Sistema visivo CVeDI
 
+## Immagini attive · 6 ottobre 2026
+
+La famiglia corrente contiene 95 immagini generate con ImageGen integrato: 67 sfondi semantici per le card e 28 figure didattiche. I prompt, le immagini selezionate, i riferimenti stilistici e la verifica della conversione sono in `assets/theme-imagegen/manifest-v1.json`; i PNG originali sono in `assets/theme-imagegen/originals/` e i WebP pubblici in `public/images/generated/theme-2026/`. La conversione è lossless, con pixel RGBA e trasparenza conservati esattamente.
+
+La direzione è editoriale 2D, con figure semplici, contorni precisi, campiture chiare e margini trasparenti. Ogni scena è scelta in relazione al contenuto della card. Il corso usa rosso/ambra, il brief ambra/giallo, Introduzione lime/verde e Approfondimenti indaco/lime. Le 224 card scritte nei sorgenti, le 8 card dinamiche della mappa del sito e le 5 stazioni UX ricevono immagini di questa famiglia attraverso `data/card-artwork.json`. Gli sfondi sono decorativi, dietro al testo nativo, a bassa opacità; le precedenti icone outline delle card e dei nuclei UX sono rimosse.
+
+Sono rigenerate le venti immagini di Approfondimenti, le tre scene del brief, il rinnovo dei materiali, il bollino di aggiornamento, il customer journey e le due interfacce di gerarchia. Le interfacce A e B mostrano gli stessi contenuti e la stessa disposizione; cambia l’enfasi di titolo, riepilogo e azione. Le fotografie documentarie, le opere, gli screenshot autentici e gli artefatti progettuali mantengono la loro identità. Le copertine metro ripristinate e i diagrammi geometrici nativi restano conservati. La terza lezione resta nascosta.
+
+Queste indicazioni sostituiscono le descrizioni storiche delle immagini e delle icone nelle sezioni successive.
+
+## Colori coordinati delle sezioni
+
+Il secondo elemento dell’indice è un gruppo daisyUI `join-vertical` diviso in due aree cliccabili: Introduzione a UX e UI sopra, Brief di progetto sotto. Le due metà mantengono i colori dei rispettivi set e condividono l’altezza di 112 px del pulsante del corso. Il brief compare una sola volta nell’indice; Approfondimenti conserva il proprio collegamento separato. Ogni metà è un pulsante indipendente, senza pulsanti annidati e senza tagliare i contorni di focus.
+
+I pulsanti dell’indice sono campiture nel primario 800 del set di destinazione: corso rosso, introduzione lime, brief ambra e approfondimenti indaco. Le etichette sono bianche e i numeri delle lezioni usano l’accento chiaro della rispettiva coppia. Hover e pressione passano alla tonalità 900; il focus mantiene un contorno visibile dello stesso primario. I collegamenti alle lezioni sospese restano nascosti.
+
+La revisione dei colori del 6 ottobre 2026 assegna la stessa coppia Tailwind a copertina, ribbon, collegamenti, controlli e diagrammi di ciascun set. `tokens.css` definisce le famiglie; `reference.css` le applica attraverso i ruoli `--section-primary`, `--section-primary-deep`, `--section-accent` e `--section-accent-soft`. Il layout espone `data-lesson` per distinguere l’apertura dalle pagine del corso senza affidarsi alla posizione della slide.
+
+| Set | Primario | Accento |
+| --- | --- | --- |
+| Apertura | indigo | lime |
+| Lezione 1 · Il corso | red | amber |
+| Brief di progetto | amber | yellow |
+| Approfondimenti | indigo | lime |
+| Lezione 2 · Introduzione | lime | green |
+| Lezione 3 · Storia, ancora nascosta | emerald | teal |
+| Design Thinking, ancora nascosto | cyan | sky |
+| Lean UX, ancora nascosto | blue | sky |
+| Conclusioni, ancora nascoste | violet | rose |
+
+Le copertine usano lo stesso primario 800 dell’indice e del ribbon, con metro 950 e accenti 100; link, testo colorato e controlli usano 800 per restare leggibili sulle superfici chiare. Le aperture delle lezioni mostrano «Lezione 01», «Lezione 02» e «Lezione 03» in una posizione comune in alto a sinistra, attraverso il campo `lessonNumber`; la terza resta nascosta. Brief e Approfondimenti sono set autonomi senza numero di lezione. I numeri dell’indice riprendono il colore della lezione di destinazione. Le icone decorative delle card seguono il primario del set; gli elenchi usano l’accento scuro. La scala dei voti è rossa, coerente con il set del corso. La barra di avanzamento resta indaco per tutti i set e la modale immagini conserva il tema condiviso indaco. La composizione multicolore originale della copertina generale resta invariata. Queste regole sostituiscono le precedenti assegnazioni dei colori descritte nelle sezioni storiche seguenti.
+
 Il 6 ottobre 2026 l’utente ha richiesto di copiare la grafica del progetto locale `/Users/marco/Sites/Gestione web`, conservando del precedente sistema soltanto il formalismo dei tracciati della metro. Questo riferimento sostituisce la precedente scelta di coppie BASE + ACCENTO e la tipografia Inter/Merriweather. La modalità della presentazione è **Read**: i contenuti didattici e le note devono essere leggibili durante la lezione e nella consultazione autonoma.
 
 ## Riferimento e implementazione
@@ -26,11 +58,15 @@ La famiglia sans è quella del riferimento: `Avenir Next`, poi `Nunito Sans`, co
 
 ## Componenti e superfici
 
-Le card riprendono i pannelli bianchi del riferimento, con ombra tenue, titoli sans semibold e grande icona outline decorativa molto chiara nell’angolo superiore destro. Le precedenti immagini flat e la riserva inferiore di spazio sono state rimosse da `CvediCard`; l’API dei contenuti resta la stessa. Le composizioni di concept tornano a pannelli bianchi disposti sotto il titolo, eliminando il vecchio sistema di subgrid trasparenti e filetti.
+Gli alert condividono un trattamento distinto dalle card: fondo al 4% del primario della sezione, bordo completo di 1 px al 18%, raggio 12 px e nessuna ombra. L’icona outline occupa un’area di 44 px su una campitura dello stesso colore al 10%; titolo e parole evidenziate usano il primario scuro, mentre il testo resta slate. Titoli da 24 px e testo da 20 px mantengono la gerarchia comune alle slide, con 20 px fra icona e contenuto. Il richiamo al forum resta una nota statica (`role="note"`), senza annunci da errore o urgenza. Le regole sono applicate a `.alert` in `reference.css`, senza eccezioni per la slide del rinnovo.
+
+Le card riprendono i pannelli bianchi del riferimento, con ombra tenue e titoli sans semibold. Gli sfondi generati della famiglia corrente sostituiscono le precedenti icone outline; il testo nativo e l’API dei contenuti restano conservati. Le composizioni di concept tornano a pannelli bianchi disposti sotto il titolo, eliminando il vecchio sistema di subgrid trasparenti e filetti.
 
 Le tabelle hanno superficie bianca, bordi sottili, intestazione slate scura e righe alternate. Le barre dei voti usano una scala indaco. Figure e didascalie hanno cornici neutre e controlli chiari. La mappa del sito conserva la gerarchia dei contenuti e i collegamenti, con pannelli bianchi. Rinnovo del corso, domande e chiusura adottano gli stessi fondi chiari e la stessa tipografia.
 
 ## Metro e movimento
+
+Le timeline delle fasi ereditano esplicitamente la coppia del set: tracciato nel primario, separatore bianco, stazioni e tratto animato nell’accento chiaro, numeri nel primario scuro e anello nell’accento. I percorsi di gruppo e individuale della lezione 1 usano quindi rosso/ambra, attraverso gli stessi ruoli `--section-*` delle copertine e del ribbon.
 
 Le geometrie di `MetroTrack`, `ChapterMetro` e `ClosingMetro` sono conservate. Le tracce e le stazioni usano i colori del riferimento; le precedenti campiture crema/oro della copertina sono state rimosse. La metro appare come traccia discreta dietro alle aperture e alla copertina, integrata con le luci morbide del riferimento. Le vecchie animazioni di scala e blur dei titoli di capitolo sono disattivate; le luci delle aperture rispettano movimento ridotto e stampa.
 
@@ -61,6 +97,10 @@ La slide dell'archivio usa 76 schermate reali dei siti in `progetti/`, ottimizza
 Gli elenchi mantengono la struttura semantica HTML. Ogni voce usa un punto nell’ACCENTO 700 del set e una colonna di testo con rientro sospeso: le righe lunghe restano allineate all'inizio del testo. Tra le voci ci sono 24 px nelle slide e 16 px nelle card; gli elenchi ampi sono disposti su due colonne.
 
 ## Brief WHAT IF?
+
+Nella slide «Obiettivo e percorso», i tre collegamenti Tema e requisiti, Metodo di progetto e Consegna usano testo, frecce, bordo e focus neri. Hover e pressione hanno fondo nero e testo bianco, attraverso la classe locale `brief-navigation`.
+
+Le tre illustrazioni attive sono la versione `v3`, generata con ImageGen integrato il 6 ottobre 2026 nella palette Tailwind amber/yellow del brief. Le scene mostrano progettazione dei servizi futuri, scelta del concept e sito responsive, con figure umane, tratti ambra, campiture crema/giallo e fondo trasparente. Non contengono testo o cornici; `NextMeIllustration` carica i raster effettivi attraverso `publicAsset`, anche in sottocartelle. Gli originali PNG sono in `assets/next-me/` e le versioni WebP pubbliche mantengono esattamente tutti i pixel RGBA e la trasparenza. Prompt, passaggio di pulizia e provenienza sono in `assets/next-me/imagegen-manifest-v3.json`. Questa versione sostituisce le immagini indaco e le precedenti icone SVG; le generazioni precedenti restano archiviate.
 
 Le slide 48–54, nel set autonomo Brief di progetto, presentano il progetto di un sito web solo in italiano per un’organizzazione che offre servizi del 2050 basati sull’evoluzione dell’AI. Usano la coppia `amber` + `blue`, conservando scala tipografica, margini e linguaggio geometrico del booklet. Tre illustrazioni raster editoriali generate con imagegen accompagnano il brief, la definizione del concept e il passaggio al sito. La seconda versione riprende il linguaggio geometrico del booklet: figure astratte, forme nette, binari doppi e nodi circolari collegano persone, servizi e scelte. Indaco, lavanda e giallo su bianco sono i colori incorporati nei raster originali, senza testo incorporato.
 
@@ -133,6 +173,8 @@ Ripristinata anche la composizione precedente delle aperture: titoli Inter 96 px
 ## Immagini senza cornice
 
 Tutte le immagini delle slide e degli ingrandimenti usano un trattamento uniforme senza bordo, arrotondamenti né ombra applicata all’immagine. Il token `--cvedi-image-border` è 0 px. Le coppie di figure mantengono le proporzioni e la spaziatura; i pulsanti e le didascalie restano separati.
+
+Il comando di ingrandimento è una sola icona a quattro angoli, sovrapposta in basso a destra ai pixel effettivi dell’immagine, anche per figure verticali e pannelli affiancati. Non occupa una riga sopra la figura e non mostra testo, bordo o superficie del pulsante. L’opacità passa da 45% a 100% quando il puntatore è sull’immagine o quando il controllo riceve focus; su dispositivi senza hover resta al 70%. Il tratto bianco sotto l’icona ne mantiene la leggibilità su fotografie e diagrammi. L’area cliccabile resta 44 × 44 px, con nome accessibile «Ingrandisci», focus visibile e apertura tramite tastiera. La misura comunicata da `LessonImageContent` mantiene icona e didascalia allineate alle proporzioni reali della figura. Questa regola sostituisce i precedenti posizionamenti del pulsante descritti nelle note storiche.
 
 
 ## Modale immagini

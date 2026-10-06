@@ -48,7 +48,7 @@ footer: "Un nuovo percorso"
   </div>
   <RenewalMetro />
 </div>
-<div role="note" class="alert renewal-feedback">
+<div role="note" class="alert alert-soft renewal-feedback">
   <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 5h20a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H13l-7 5v-5a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3Z"/><path d="M10 12h12M10 17h8"/></svg>
   <div>
     <h2>Ci aiutate a migliorare?</h2>
@@ -67,13 +67,16 @@ footer: "Lezioni"
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
   <button type="button" class="btn btn-lg index-button index-course" @click="$nav.go('presentazione-corso')"><span class="index-chapter-number">01</span><span>Il corso</span></button>
-  <button type="button" class="btn btn-lg index-button index-chapter-1" @click="$nav.go('introduzione-teorica')"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></button>
+  <div class="join join-vertical index-split" role="group" aria-label="Lezione 2 e brief di progetto">
+    <button type="button" class="btn btn-lg join-item index-button index-chapter-1" @click="$nav.go('introduzione-teorica')"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></button>
+    <SlideAction to="brief-progetto" class="join-item" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction>
+  </div>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del design</span></button>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">04</span><span>Il processo UX attraverso il Design Thinking</span></button>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">05</span><span>La metodologia Lean UX</span></button>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">06</span><span>Conclusioni</span></button>
 </div>
-<p class="aside index-section-actions"><SlideAction to="brief-progetto" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction><SlideAction to="approfondimenti" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction></p>
+<p class="aside index-section-actions"><SlideAction to="approfondimenti" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction></p>
 
 ---
 layout: default
@@ -133,6 +136,7 @@ lesson: apertura
 layout: default
 class: chapter-slide course-section
 routeAlias: presentazione-corso
+lessonNumber: 1
 ---
 
 <ChapterMetro section="course" />
@@ -151,16 +155,16 @@ footer: "Il percorso"
 
 <p class="lead">Conoscere gli aspetti teorici e progettuali del <strong>design delle interfacce</strong>, con attenzione alla comunicazione visiva, all’interazione e all’<strong>esperienza delle persone</strong>.</p>
 <div class="cvedi-grid four">
-  <CvediCard title="01 · Lezioni teoriche" illustration="/images/flat/lesson-theory.svg">
+  <CvediCard title="01 · Lezioni teoriche">
     <p>Fondamenti e metodi.</p>
   </CvediCard>
-  <CvediCard title="02 · Seminari" illustration="/images/flat/lesson-seminars.svg">
+  <CvediCard title="02 · Seminari">
     <p>Contributi e casi studio.</p>
   </CvediCard>
-  <CvediCard title="03 · Workshop" illustration="/images/flat/lesson-workshops.svg">
+  <CvediCard title="03 · Workshop">
     <p>Revisioni progettuali.</p>
   </CvediCard>
-  <CvediCard title="04 · Esercitazioni" illustration="/images/flat/lesson-exercises.svg">
+  <CvediCard title="04 · Esercitazioni">
     <p>Laboratorio informatico.</p>
   </CvediCard>
 </div>
@@ -284,13 +288,13 @@ footer: "Informazioni"
 # Slide e video
 
 <div class="cvedi-grid three">
-  <CvediCard title="Materiali" illustration="/images/flat/lesson-theory.svg">
+  <CvediCard title="Materiali">
     <p>Le slide saranno caricate <strong>dopo ogni lezione o esercitazione</strong>. In linea di massima non verranno pubblicate in anticipo.</p>
   </CvediCard>
-  <CvediCard title="Partecipazione" illustration="/images/flat/lesson-seminars.svg">
+  <CvediCard title="Partecipazione">
     <p>Il corso prevede <strong>workshop</strong>, <strong>lavoro di gruppo</strong>, interventi degli studenti e altre attività in aula.</p>
   </CvediCard>
-  <CvediCard title="Registrazioni" illustration="/images/flat/recording-off.svg">
+  <CvediCard title="Registrazioni">
     <p>Per motivi di privacy <strong>non è possibile</strong> effettuare registrazioni.<sup>*</sup></p>
     <p class="card-note">* Saranno rese disponibili alcune registrazioni, alle condizioni che verranno comunicate dal docente.</p>
   </CvediCard>
@@ -324,13 +328,13 @@ footer: "Valutazione"
 # Tre parti dell’esame
 
 <div class="cvedi-grid three">
-  <CvediCard title="Progetto o approfondimento" illustration="/images/flat/lesson-workshops.svg" illustration-variant="roomy">
+  <CvediCard title="Progetto o approfondimento">
     <p><strong>Progetto di gruppo</strong> secondo il brief, con attività metaprogettuali, oppure <strong>approfondimento individuale</strong>. Massimo <strong>31 punti</strong> (30 e lode).</p>
   </CvediCard>
-  <CvediCard title="Esame scritto" illustration="/images/flat/document.svg" illustration-variant="roomy">
+  <CvediCard title="Esame scritto">
     <p><strong>16 domande chiuse</strong> (1 punto ciascuna) e <strong>3 aperte</strong> (5 punti ciascuna). Argomenti delle lezioni, delle esercitazioni e della bibliografia. <strong>75 minuti</strong>; massimo <strong>31 punti</strong>.</p>
   </CvediCard>
-  <CvediCard title="Esame orale" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
+  <CvediCard title="Esame orale">
     <p>Domande sulla <strong>bibliografia teorica</strong> ed eventuale discussione del progetto, se richiesta. Massimo <strong>31 punti</strong>.</p>
   </CvediCard>
 </div>
@@ -344,10 +348,10 @@ footer: "Organizzazione"
 # Individuale e di gruppo
 
 <div class="cvedi-grid two">
-  <CvediCard title="Il gruppo" illustration="/images/flat/people.svg" illustration-variant="roomy">
+  <CvediCard title="Il gruppo">
     <p>Il progetto è valutato <strong>per gruppo</strong>. I gruppi sono composti da <strong>6 persone</strong> con competenze eterogenee; eventuali deroghe si discutono con il docente.</p>
   </CvediCard>
-  <CvediCard title="La persona" illustration="/images/flat/person.svg" illustration-variant="roomy">
+  <CvediCard title="La persona">
     <p>Scritto e orale sono <strong>individuali</strong>. I membri dello stesso gruppo possono iscriversi ad <strong>appelli diversi</strong>. Un’insufficienza nello scritto o nell’orale <strong>non richiede un nuovo progetto o approfondimento</strong>.</p>
   </CvediCard>
 </div>
@@ -363,10 +367,10 @@ footer: "Percorso di gruppo"
 
 <p class="lead">Attività di gruppo: <strong>6 studenti</strong>, salvo eventuali adattamenti in base agli iscritti.</p>
 <div class="cvedi-grid two">
-  <CvediCard title="Obiettivo · WHAT IF?" illustration="/images/flat/idea.svg" illustration-variant="roomy">
+  <CvediCard title="Obiettivo · WHAT IF?">
     <p>Inventare un <strong>servizio del 2050</strong> basato sulle potenzialità future dell’AI e progettare il <strong>sito web responsive</strong> dell’organizzazione che lo offre.</p>
   </CvediCard>
-  <CvediCard title="Scadenze" illustration="/images/flat/calendar.svg" illustration-variant="roomy">
+  <CvediCard title="Scadenze">
     <p>Le scadenze saranno confermate per il 2026/27. La consegna finale è prevista <strong>una settimana prima dell’appello scritto</strong>.</p>
   </CvediCard>
 </div>
@@ -392,10 +396,10 @@ footer: "Consegne"
 
 <p class="lead">Il form di consegna e le scadenze dei singoli appelli saranno <strong>pubblicati durante il corso</strong>.</p>
 <div class="cvedi-grid two">
-  <CvediCard title="Form di consegna" illustration="/images/flat/delivery.svg" illustration-variant="roomy">
+  <CvediCard title="Form di consegna">
     <p>Il collegamento verrà comunicato dal docente e <strong>inserito in questa presentazione</strong>.</p>
   </CvediCard>
-  <CvediCard title="Appelli" illustration="/images/flat/calendar.svg" illustration-variant="roomy">
+  <CvediCard title="Appelli">
     <p>1 · 2 · 3 · 4 · 5 · 6</p>
     <p>Scadenze in aggiornamento.</p>
   </CvediCard>
@@ -410,13 +414,13 @@ footer: "Percorso individuale"
 # Approfondimento
 
 <div class="cvedi-grid three">
-  <CvediCard title="01 · Valutazione" illustration="/images/flat/document.svg" illustration-variant="roomy">
+  <CvediCard title="01 · Valutazione">
     <p>La valutazione dell’approfondimento è <strong>individuale</strong>.</p>
   </CvediCard>
-  <CvediCard title="02 · Accesso all’orale" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
+  <CvediCard title="02 · Accesso all’orale">
     <p>La consegna preventiva dell’approfondimento <strong>non è richiesta</strong> per sostenere l’orale.</p>
   </CvediCard>
-  <CvediCard title="03 · Migliorie" illustration="/images/flat/sliders.svg" illustration-variant="roomy">
+  <CvediCard title="03 · Migliorie">
     <p>È possibile apportare migliorie all’approfondimento.</p>
   </CvediCard>
 </div>
@@ -448,10 +452,10 @@ footer: "Percorso individuale"
 # Approfondimento: attività
 
 <div class="cvedi-grid two">
-  <CvediCard title="Obiettivo" illustration="/images/flat/document.svg" illustration-variant="roomy">
+  <CvediCard title="Obiettivo">
     <p>Stendere un documento che <strong>analizzi in dettaglio</strong> un argomento scelto.</p>
   </CvediCard>
-  <CvediCard title="Consegna" illustration="/images/flat/delivery.svg" illustration-variant="roomy">
+  <CvediCard title="Consegna">
     <p>Prevista <strong>due settimane prima dell’appello scritto</strong>. Brief e richiesta dell’argomento sono <strong>in aggiornamento</strong> per il 2026/27.</p>
   </CvediCard>
 </div>
@@ -501,10 +505,10 @@ footer: "Consegne"
 
 <p class="lead">Il form di consegna e le scadenze dei singoli appelli saranno <strong>pubblicati durante il corso</strong>.</p>
 <div class="cvedi-grid two">
-  <CvediCard title="Form di consegna" illustration="/images/flat/delivery.svg" illustration-variant="roomy">
+  <CvediCard title="Form di consegna">
     <p>Il collegamento verrà comunicato dal docente e <strong>inserito in questa presentazione</strong>.</p>
   </CvediCard>
-  <CvediCard title="Appelli" illustration="/images/flat/calendar.svg" illustration-variant="roomy">
+  <CvediCard title="Appelli">
     <p>1 · 2 · 3 · 4 · 5 · 6</p>
     <p>Scadenze in aggiornamento.</p>
   </CvediCard>
@@ -519,10 +523,10 @@ footer: "Esame"
 # Esame scritto in presenza
 
 <div class="cvedi-grid two written-exam-cards">
-  <CvediCard title="Struttura" illustration="/images/flat/document.svg" illustration-variant="roomy">
+  <CvediCard title="Struttura">
     <p><strong>16 domande chiuse</strong> da 1 punto ciascuna e <strong>3 domande aperte</strong> da 5 punti ciascuna. Argomenti delle lezioni, delle esercitazioni e della bibliografia teorica.</p>
   </CvediCard>
-  <CvediCard title="Durata e sede" illustration="/images/flat/clock.svg" illustration-variant="roomy">
+  <CvediCard title="Durata e sede">
     <p><strong>75 minuti</strong>. L’esame si svolge nei laboratori informatici tramite la piattaforma <strong>Esami-Online</strong>.</p>
   </CvediCard>
 </div>
@@ -537,7 +541,7 @@ footer: "Esame"
 # Esame orale
 
 <p class="lead">Domande sulla <strong>bibliografia teorica</strong>.</p>
-<CvediCard title="Eventuale discussione del progetto" illustration="/images/flat/lesson-seminars.svg" illustration-variant="roomy">
+<CvediCard title="Eventuale discussione del progetto">
   <p>Se emergono criticità (o servono chiarimenti specifici), potrà essere richiesta <strong>dal gruppo o dai docenti</strong> una discussione sul progetto. Sarà comunicata <strong>con preavviso</strong> e fissata per consentire la presenza di <strong>tutto il gruppo</strong>.</p>
 </CvediCard>
 <p class="aside">Punteggio massimo: <strong>31 (30 e lode)</strong>.</p>
@@ -752,7 +756,7 @@ footer: "Comunicazioni"
 # Contatti
 
 <p class="lead">Utilizzate il <strong>forum della piattaforma del corso</strong>: le risposte a quesiti di interesse comune possono essere utili a tutta la classe.</p>
-<CvediCard title="Docenti" illustration="/images/flat/people.svg" illustration-variant="roomy">
+<CvediCard title="Docenti">
   <p>Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti</p>
 </CvediCard>
 

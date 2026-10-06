@@ -3,6 +3,7 @@ layout: default
 class: content-slide history-section lesson-slide chapter-slide
 footer: "Storia del design · Percorso"
 lesson: storia-design
+lessonNumber: 3
 lessonSlide: 1
 lessonMinutes: 1
 routeAlias: storia-design
@@ -11,7 +12,7 @@ routeAlias: storia-design
 # Storia del design
 
 <ChapterMetro section="course" />
-<p>Lezione 3 · Dalla pagina stampata alle interfacce digitali</p>
+<p>Dalla pagina stampata alle interfacce digitali</p>
 
 <!--
 Tempo previsto: 1 min. Slide 1 del capitolo (68 slide, 120 min).

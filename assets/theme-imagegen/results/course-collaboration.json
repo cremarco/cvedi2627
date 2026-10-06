@@ -1,0 +1,39 @@
+{
+  "id": "course-collaboration",
+  "palette": "course",
+  "theme": "collaboration",
+  "subject": "Three anonymous people working together around a shared tabletop with one agreed plan. Explain participation, teams and shared work.",
+  "cards": [
+    {
+      "title": "Partecipazione",
+      "body": "Il corso prevede  workshop ,  lavoro di gruppo , interventi degli studenti e altre attività in aula."
+    },
+    {
+      "title": "Il gruppo",
+      "body": "Il progetto è valutato  per gruppo . I gruppi sono composti da  6 persone  con competenze eterogenee; eventuali deroghe si discutono con il docente."
+    },
+    {
+      "title": "Docenti",
+      "body": "Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti"
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/course-collaboration-v1.png",
+  "web": "public/images/generated/theme-2026/cards/course-collaboration-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-473e4fac-cd63-4d85-a7a2-37753f56b244.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind red: deep red-950 #460809 fine outlines, red-800 #9F0712 selected structural details, pale red-100 #FFE2E2 and red-200 #FFC9C9 for light fills, white papers; one tiny amber-200 #FEE685 emphasis.\nSubject: Three anonymous people working together around a shared tabletop with one agreed plan. Explain participation, teams and shared work.\nActual card contexts (content remains live text, do not draw lettering): Partecipazione: Il corso prevede  workshop ,  lavoro di gruppo , interventi degli studenti e altre attività in aula. | Il gruppo: Il progetto è valutato  per gruppo . I gruppi sono composti da  6 persone  con competenze eterogenee; eventuali deroghe si discutono con il docente. | Docenti: Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-9e1af26c-bed0-4e10-b81e-ada932e9bf4b.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 686256,
+  "sha256": "db89626be22ab0e79ff76e10a45f4412b7d4ca5836e7eba997cb715c07cdf62e",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

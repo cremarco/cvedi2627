@@ -1,0 +1,39 @@
+{
+  "id": "course-study",
+  "palette": "course",
+  "theme": "study",
+  "subject": "A person reading an open book at a small desk, with organized notes and one learning diagram. Explain studying, theory and course materials.",
+  "cards": [
+    {
+      "title": "01 · Lezioni teoriche",
+      "body": "Fondamenti e metodi."
+    },
+    {
+      "title": "Materiali",
+      "body": "Le slide saranno caricate  dopo ogni lezione o esercitazione . In linea di massima non verranno pubblicate in anticipo."
+    },
+    {
+      "title": "Comunicazione visiva e design delle interfacce",
+      "body": "Materiale teorico del corso e approfondimenti. \n   Marco Cremaschi et al. \n   In riscrittura"
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/course-study-v1.png",
+  "web": "public/images/generated/theme-2026/cards/course-study-v1.webp",
+  "status": "complete",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-473e4fac-cd63-4d85-a7a2-37753f56b244.png",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-473e4fac-cd63-4d85-a7a2-37753f56b244.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind red: deep red-950 #460809 fine outlines, red-800 #9F0712 selected structural details, pale red-100 #FFE2E2 and red-200 #FFC9C9 for light fills, white papers; one tiny amber-200 #FEE685 emphasis.\nSubject: A person reading an open book at a small desk, with organized notes and one learning diagram. Explain studying, theory and course materials.\nActual card contexts (content remains live text, do not draw lettering): 01 · Lezioni teoriche: Fondamenti e metodi. | Materiali: Le slide saranno caricate  dopo ogni lezione o esercitazione . In linea di massima non verranno pubblicate in anticipo. | Comunicazione visiva e design delle interfacce: Materiale teorico del corso e approfondimenti. \n   Marco Cremaschi et al. \n   In riscrittura",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 570598,
+  "sha256": "ed209eb3959bceec76e243aa93f00477b1d284bb122e35187543a3d34c46036c",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

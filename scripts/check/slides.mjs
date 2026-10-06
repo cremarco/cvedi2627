@@ -137,7 +137,7 @@ try {
   await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  assert.equal(await page.locator('.slidev-page-3 .index-grid button').count(), 2, 'index shows only the two available lessons')
+  assert.equal(await page.locator('.slidev-page-3 .index-grid .index-button').count(), 2, 'index shows only the two available lessons')
   assert.equal(await page.getByRole('button', { name: /Storia del design/ }).count(), 0, 'history index entry stays hidden')
   await page.locator('.slidev-page-3').getByRole('button', { name: /Brief/i }).click()
   await page.locator(`.slidev-page-${briefStart} .slidev-layout`).waitFor()

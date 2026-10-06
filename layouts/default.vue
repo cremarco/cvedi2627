@@ -12,6 +12,10 @@ const slideMatter = computed(() => props.frontmatter ?? $nav.value.slides.find(s
 const isChapter = computed(() => String(slideMatter.value.class ?? '').split(/\s+/).includes('chapter-slide'))
 const isCover = computed(() => String(slideMatter.value.class ?? '').split(/\s+/).some(name => name === 'cover-slide' || name === 'chapter-slide'))
 const isArchiveWall = computed(() => String(slideMatter.value.class ?? '').split(/\s+/).includes('archive-wall-slide'))
+const lessonNumber = computed(() => {
+  const value = Number(slideMatter.value.lessonNumber)
+  return Number.isInteger(value) && value > 0 ? value : null
+})
 const lessonLabel = computed(() => ({
   'presentazione-corso': 'Lezione 1',
   introduzione: 'Lezione 2',
@@ -22,10 +26,11 @@ const lessonLabel = computed(() => ({
 </script>
 
 <template>
-  <div class="slidev-layout default" :class="{ 'is-active': isActive, 'fixed-title-slide': !isCover, 'centered-content-slide': !isCover && !isArchiveWall }">
+  <div class="slidev-layout default" :data-lesson="pagination.lesson" :class="{ 'is-active': isActive, 'fixed-title-slide': !isCover, 'centered-content-slide': !isCover && !isArchiveWall }">
     <div v-if="!isChapter && pagination.lesson !== 'apertura'" class="lesson-ribbon-wrap" aria-hidden="true">
       <span class="lesson-ribbon">{{ lessonLabel }}</span>
     </div>
+    <span v-if="isChapter && lessonNumber" class="chapter-lesson-number absolute">Lezione {{ String(lessonNumber).padStart(2, '0') }}</span>
     <slot />
     <footer class="slide-footer">
       <span v-if="footer" class="slide-label">{{ footer }}</span>

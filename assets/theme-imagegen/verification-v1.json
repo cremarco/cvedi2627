@@ -1,0 +1,20 @@
+{
+  "createdAt": "2026-10-06",
+  "sourceCheck": "passed",
+  "slidevBuild": "passed",
+  "renderCheck": {
+    "renders": 375,
+    "layoutViolations": 0,
+    "brokenImages": 0,
+    "narrowRenders": 117,
+    "printRenders": 84
+  },
+  "pagesExport": {
+    "status": "passed",
+    "bytes": 987882908,
+    "all95SelectedImagesPresent": true,
+    "referencedPublicImagePaths": 76,
+    "missingReferencedImages": []
+  },
+  "scope": "Current visible deck; original documentary examples and disabled lesson retained in the source tree."
+}

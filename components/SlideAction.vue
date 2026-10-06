@@ -6,7 +6,7 @@ const { go } = useNav()
 </script>
 
 <template>
-  <button type="button" class="btn btn-outline slide-action" :class="{ 'slide-action-brief': typeof to === 'string' && to.startsWith('brief-') }" @click="go(to)" @keydown.enter.stop @keydown.space.stop>
+  <button type="button" class="btn btn-outline slide-action" :class="{ 'slide-action-brief': typeof to === 'string' && to.startsWith('brief-'), 'slide-action-research': typeof to === 'string' && (to === 'approfondimenti' || to.startsWith('approfondimento-')) }" @click="go(to)" @keydown.enter.stop @keydown.space.stop>
     <slot />
     <svg v-if="showArrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
       <path d="M5 12h14m-6-6 6 6-6 6" />

@@ -1,0 +1,43 @@
+{
+  "id": "introduction-context",
+  "palette": "introduction",
+  "theme": "context",
+  "subject": "A person uses a service in a concrete everyday setting, with a device, an available time cue and a surrounding workspace. Explain situation, context and constraints.",
+  "cards": [
+    {
+      "title": "Vincoli",
+      "body": "Con quali risorse, tempi e condizioni d’uso?"
+    },
+    {
+      "title": "Situazione",
+      "body": "Ambiente, strumenti e condizioni."
+    },
+    {
+      "title": "Il contesto",
+      "body": "Che cosa rende il servizio fattibile?"
+    },
+    {
+      "title": "Situazione",
+      "body": "Manager di 35 anni, finisce tardi di lavorare."
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/introduction-context-v1.png",
+  "web": "public/images/generated/theme-2026/cards/introduction-context-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-03be4cc7-026b-4f23-9534-60e9db89afb4.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind lime/green: lime-950 #192E03 fine outlines, lime-800 #3C6300 selected structural details, lime-100 #ECFCCA and green-100 #DCFCE7 light fills, white papers; one tiny lime-300 #BBF451 selection.\nSubject: A person uses a service in a concrete everyday setting, with a device, an available time cue and a surrounding workspace. Explain situation, context and constraints.\nActual card contexts (content remains live text, do not draw lettering): Vincoli: Con quali risorse, tempi e condizioni d’uso? | Situazione: Ambiente, strumenti e condizioni. | Il contesto: Che cosa rende il servizio fattibile? | Situazione: Manager di 35 anni, finisce tardi di lavorare.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-a8398ab0-1192-4da5-8aa2-2ecd05f29eac.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 681500,
+  "sha256": "5df519974cb52a42719da1f865a0caae0fdd001313db842d7724b58978859212",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

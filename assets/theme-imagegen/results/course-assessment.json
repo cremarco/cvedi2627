@@ -1,0 +1,47 @@
+{
+  "id": "course-assessment",
+  "palette": "course",
+  "theme": "assessment",
+  "subject": "A person reviews a completed paper with several answer areas and a small progress scale. Explain written assessment and combining scores, with no grades or text.",
+  "cards": [
+    {
+      "title": "Esame scritto",
+      "body": "16 domande chiuse  (1 punto ciascuna) e  3 aperte  (5 punti ciascuna). Argomenti delle lezioni, delle esercitazioni e della bibliografia.  75 minuti ; massimo  31 punti ."
+    },
+    {
+      "title": "01 · Valutazione",
+      "body": "La valutazione dell’approfondimento è  individuale ."
+    },
+    {
+      "title": "02 · Scritto",
+      "body": "Il voto può essere rifiutato  entro 24 ore  dalla pubblicazione, tramite apposito form. Una volta accettato,  non può più essere rifiutato ."
+    },
+    {
+      "title": "1 · Punteggio intermedio",
+      "body": "Scritto  +  Progetto oppure approfondimento   \n       2"
+    },
+    {
+      "title": "2 · Voto finale",
+      "body": "Punteggio intermedio  +  Orale  \n       2"
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/course-assessment-v1.png",
+  "web": "public/images/generated/theme-2026/cards/course-assessment-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-473e4fac-cd63-4d85-a7a2-37753f56b244.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind red: deep red-950 #460809 fine outlines, red-800 #9F0712 selected structural details, pale red-100 #FFE2E2 and red-200 #FFC9C9 for light fills, white papers; one tiny amber-200 #FEE685 emphasis.\nSubject: A person reviews a completed paper with several answer areas and a small progress scale. Explain written assessment and combining scores, with no grades or text.\nActual card contexts (content remains live text, do not draw lettering): Esame scritto: 16 domande chiuse  (1 punto ciascuna) e  3 aperte  (5 punti ciascuna). Argomenti delle lezioni, delle esercitazioni e della bibliografia.  75 minuti ; massimo  31 punti . | 01 · Valutazione: La valutazione dell’approfondimento è  individuale . | 02 · Scritto: Il voto può essere rifiutato  entro 24 ore  dalla pubblicazione, tramite apposito form. Una volta accettato,  non può più essere rifiutato . | 1 · Punteggio intermedio: Scritto  +  Progetto oppure approfondimento   \n       2 | 2 · Voto finale: Punteggio intermedio  +  Orale  \n       2",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-25877744-d849-4eaa-a557-6e914d916065.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 550392,
+  "sha256": "d33874f58505d54e9ab952699d4a162de2a75e36c809f219b639995a590a8f2a",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

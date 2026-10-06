@@ -13,8 +13,10 @@ withDefaults(defineProps<{
 }>(), { bordered: true, panels: 1, panelAspectRatio: '4 / 3' })
 
 const captionWidth = ref<string>()
-function matchCaptionWidth(size: { width: number }) {
+const imageHeight = ref<string>()
+function matchImageSize(size: { width: number; height: number }) {
   if (size.width > 0) captionWidth.value = `${size.width}px`
+  if (size.height > 0) imageHeight.value = `${size.height}px`
 }
 
 const dialog = ref<HTMLDialogElement>()
@@ -28,31 +30,31 @@ function openImage() {
 </script>
 
 <template>
-  <figure class="lesson-figure" :style="{ '--lesson-image-width': captionWidth, '--cvedi-image-border': bordered ? undefined : '0px' }">
-    <div class="lesson-figure-actions">
-      <button type="button" class="btn btn-outline lesson-image-hint" aria-haspopup="dialog" :aria-controls="dialogId" @click="openImage">
+  <figure class="lesson-figure" :style="{ '--lesson-image-width': captionWidth, '--lesson-image-height': imageHeight, '--cvedi-image-border': bordered ? undefined : '0px' }">
+    <div class="lesson-figure-media relative">
+      <button
+        type="button"
+        class="lesson-image-button"
+        :aria-label="`Ingrandisci: ${alt}`"
+        aria-haspopup="dialog"
+        :aria-controls="dialogId"
+        @click="openImage"
+      >
+        <LessonImageContent
+          :src="src"
+          :alt="alt"
+          :panels="panels"
+          :panel-aspect-ratio="panelAspectRatio"
+          @size-change="matchImageSize"
+        />
+      </button>
+      <button type="button" class="btn btn-ghost btn-square lesson-image-hint" :aria-label="`Ingrandisci: ${alt}`" title="Ingrandisci" aria-haspopup="dialog" :aria-controls="dialogId" @click="openImage">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <path class="lesson-image-hint-outline" d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5" />
           <path d="M8 3H3v5m13-5h5v5M3 16v5h5m13-5v5h-5" />
         </svg>
-        <span>Ingrandisci</span>
       </button>
     </div>
-    <button
-      type="button"
-      class="lesson-image-button"
-      :aria-label="`Ingrandisci: ${alt}`"
-      aria-haspopup="dialog"
-      :aria-controls="dialogId"
-      @click="openImage"
-    >
-      <LessonImageContent
-        :src="src"
-        :alt="alt"
-        :panels="panels"
-        :panel-aspect-ratio="panelAspectRatio"
-        @size-change="matchCaptionWidth"
-      />
-    </button>
     <figcaption v-if="caption">
       <span class="lesson-caption">{{ caption }}</span>
     </figcaption>

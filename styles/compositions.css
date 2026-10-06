@@ -55,11 +55,13 @@
 .image-panels .lesson-columns > div p { margin: 0; font-size: 24px; }
 .image-panels .lesson-figure { flex: 1 1 0; }
 .lesson-figure { display: flex; flex-direction: column; min-height: 0; height: 100%; }
+.lesson-figure-media { flex: 1 1 0; min-height: 0; width: 100%; }
 .lesson-image-button {
   display: block;
   flex: 1 1 0;
   min-height: 0;
   width: 100%;
+  height: 100%;
   padding: 0;
   border: 0;
   background: transparent;
@@ -74,30 +76,31 @@
   border: var(--cvedi-image-border) solid var(--image-accent, var(--slide-accent, var(--cvedi-indigo-700)));
 }
 .lesson-figure figcaption { display: flex; flex-direction: column; align-items: stretch; align-self: center; width: var(--lesson-image-width, 100%); max-width: 100%; gap: 0; flex: 0 0 auto; }
-.lesson-figure-actions { display: flex; justify-content: flex-end; align-self: center; width: var(--lesson-image-width, 100%); max-width: 100%; flex: 0 0 auto; }
 .lesson-image-hint.btn {
-  align-self: flex-end;
-  flex-shrink: 0;
+  position: absolute;
+  right: calc((100% - var(--lesson-image-width, 100%)) / 2 + 4px);
+  bottom: calc((100% - var(--lesson-image-height, 100%)) / 2 + 4px);
+  z-index: 2;
   box-sizing: border-box;
-  min-width: 0;
-  max-width: 100%;
+  min-width: 44px;
+  width: 44px;
   min-height: 44px;
   height: 44px;
-  margin: 0 0 8px;
-  padding-inline: 12px;
-  gap: 8px;
-  border: 1px solid color-mix(in srgb, var(--slide-accent) 30%, var(--cvedi-paper));
-  border-radius: var(--cvedi-radius);
-  background: color-mix(in srgb, var(--slide-accent) 6%, var(--cvedi-paper));
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
   box-shadow: none;
   color: var(--slide-accent);
-  font: 600 var(--cvedi-type-label)/1.4 var(--cvedi-font-display);
-  text-decoration: none;
-  transition: background-color 160ms, border-color 160ms, color 160ms;
+  opacity: .45;
+  cursor: zoom-in;
+  transition: opacity 160ms ease-out;
 }
-.lesson-image-hint svg { width: 18px; height: 18px; flex-shrink: 0; }
+.lesson-image-hint svg { width: 20px; height: 20px; flex-shrink: 0; }
+.lesson-image-hint-outline { stroke: var(--cvedi-paper); stroke-width: 4.5; }
 .lesson-image-hint:focus-visible { outline: 3px solid var(--slide-accent); outline-offset: 3px; }
-.lesson-image-hint.btn:active { background: var(--slide-subtitle); color: var(--cvedi-paper); border-color: var(--slide-subtitle); }
+.lesson-figure-media:focus-within .lesson-image-hint.btn { opacity: 1; }
 .lesson-figure-panels { display: grid; grid-template-columns: repeat(var(--figure-panels), max-content); align-items: center; justify-content: center; gap: 24px; width: 100%; height: 100%; min-height: 0; }
 .lesson-figure-panels img { box-sizing: border-box; width: 100%; height: auto; aspect-ratio: var(--figure-panel-ratio); object-fit: cover; border: var(--cvedi-image-border) solid var(--image-accent, var(--slide-accent, var(--cvedi-indigo-700))); }
 .lesson-image-dialog[open] { background: rgb(3 7 18 / .82); }
@@ -122,14 +125,15 @@
 .lesson-image-dialog .lesson-image-content { flex: 1 1 0; min-height: 0; height: 0; }
 .lesson-image-dialog .lesson-figure-panels { flex: 1 1 0; min-height: 0; height: 0; }
 @media (hover: hover) {
-  .lesson-figure:has(.lesson-image-button:hover) .lesson-image-hint { border-color: var(--slide-accent); }
-  .lesson-image-hint.btn:hover { background: var(--slide-accent); border-color: var(--slide-accent); color: var(--cvedi-paper); }
+  .lesson-figure-media:has(.lesson-image-button:hover) .lesson-image-hint.btn,
+  .lesson-image-hint.btn:hover { opacity: 1; }
   .lesson-image-dialog .btn:hover { color: var(--image-accent); border-color: var(--image-accent); }
 }
+@media (hover: none) { .lesson-image-hint.btn { opacity: .7; } }
 @media (prefers-reduced-motion: reduce) {
   .lesson-image-dialog, .lesson-image-dialog .modal-box { transition: none; }
   .lesson-image-hint.btn { transition: none; }
 }
 @media print {
-  .lesson-figure-actions, .lesson-image-hint, .lesson-image-dialog { display: none !important; }
+  .lesson-image-hint, .lesson-image-dialog { display: none !important; }
 }

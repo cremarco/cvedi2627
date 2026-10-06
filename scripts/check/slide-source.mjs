@@ -1,5 +1,6 @@
 import { readFile, realpath, readdir, stat } from 'node:fs/promises'
 import assert from 'node:assert/strict'
+import { createHash } from 'node:crypto'
 import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
@@ -232,6 +233,30 @@ export async function checkSlideSources() {
   assert.equal(booklet.pages.length % 2, 0, 'booklet pages form complete spreads')
   assert.deepEqual(booklet.pages.map(page => page.number),
     Array.from({ length: booklet.pages.length }, (_, i) => booklet.pages[0].number + i), 'booklet page sequence')
+
+  const artwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork.json'), 'utf8'))
+  const generations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-v1.json'), 'utf8'))
+  assert.equal(generations.jobs.length, 95, 'complete shared illustration family')
+  assert.equal(Object.keys(artwork.assets).length, 67, 'semantic card backgrounds')
+  for (const generation of generations.jobs) {
+    assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
+    assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
+    const publicImage = await readFile(path.join(root, generation.web))
+    assert.equal(createHash('sha256').update(publicImage).digest('hex'), generation.sha256, `generated asset ${generation.id}: selected public pixels`)
+    assert.ok((await stat(path.join(root, generation.original))).isFile(), `generated asset ${generation.id}: original PNG retained`)
+  }
+  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction' }
+  let illustratedCards = 0
+  for (const slide of visibleDeck.slides) {
+    for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
+      const title = card[1].normalize('NFKD').replace(/[\u0300-\u036f]/g, '').replace(/[’']/g, '').replace(/^(?:\d+|[a-z])\s*[·.]\s*/i, '').trim().toLowerCase()
+      const family = palette[slide.frontmatter.lesson ?? 'presentazione-corso']
+      const id = artwork.mappings[family]?.[title]
+      assert.ok(id && artwork.assets[id], `card ${card[1]}: thematic background`)
+      illustratedCards++
+    }
+  }
+  assert.equal(illustratedCards, generations.counts.directCardUses, 'all direct cards have semantic images')
 
   // Check literal public image paths in slide content, components and data.
   const files = [...Object.values(deck.markdownFiles).map(file => file.filepath)]

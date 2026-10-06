@@ -1,0 +1,35 @@
+{
+  "id": "brief-research",
+  "palette": "brief",
+  "theme": "research",
+  "subject": "A researcher listens to an anonymous participant beside a notebook with organized evidence cards. Their attentive gestures and the evidence connect experience to a design decision.",
+  "cards": [
+    {
+      "title": "Ricerca e concept",
+      "body": "Analisi dei riferimenti, proposta di valore,  proto-personas e moodboard ."
+    },
+    {
+      "title": "Da dove partite",
+      "body": "Bisogno, destinatari, analisi dei riferimenti,  ipotesi e prime proposte ."
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/brief-research-v1.png",
+  "web": "public/images/generated/theme-2026/cards/brief-research-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-e7841702-4f02-40c0-9af7-4d59c3daead4.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind amber/yellow: amber-950 #461901 outlines, amber-800 #973C00 selected structural details, amber-100 #FEF3C6 and yellow-100 #FEF9C2 light fills, white papers; one tiny yellow-400 #FDC700 selection.\nSubject: A researcher listens to an anonymous participant beside a notebook with organized evidence cards. Their attentive gestures and the evidence connect experience to a design decision.\nActual card contexts (content remains live text, do not draw lettering): Ricerca e concept: Analisi dei riferimenti, proposta di valore,  proto-personas e moodboard . | Da dove partite: Bisogno, destinatari, analisi dei riferimenti,  ipotesi e prime proposte .",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-80f30c2e-b10e-40bf-82d3-81a384eb3206.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 705150,
+  "sha256": "e591e7fcdc09ae05ce07c7b1ed70da083c32c011290cbe596adc6ae46310f094",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

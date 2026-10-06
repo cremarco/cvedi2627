@@ -1,0 +1,25 @@
+{
+  "id": "intro-hierarchy-uniform",
+  "palette": "introduction",
+  "subject": "A sharp static teaching UI image, front-facing landscape 3:2 with opaque white interface surface and modest margins, no outer card, border or shadow. This is an intentional weak UNIFORM typographic hierarchy: every text element has the same regular sans-serif size and weight, no larger or bold heading. Stack the following elements in exactly this order and spell the Italian text precisely: \"Visita di fisioterapia\"; \"45 minuti · 50 €\"; label \"Orario\"; a faint gray read-only field containing \"Martedì · 18:00\"; label \"Nome\"; a faint gray read-only field containing \"Viola\"; a full-width white action with a thin dark green outline containing \"Prenota la visita\". All text is large and clear, dark slate #334155. No people, devices, pictures, extra fields or words. The exact words are a deliberate exception to the no-lettering rule. Do not improve the hierarchy; its uniform visual weight is essential.",
+  "kind": "teaching-figure",
+  "original": "assets/theme-imagegen/originals/intro-hierarchy-uniform-v2.png",
+  "web": "public/images/generated/theme-2026/figures/intro-hierarchy-uniform-v2.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-03be4cc7-026b-4f23-9534-60e9db89afb4.png",
+  "prompt": "Use case: ui-mockup. Generate a NEW plain flat UI image for a university teaching comparison. This image intentionally shows WEAK UNIFORM visual hierarchy.\nCanvas: landscape 3:2, opaque pure white #FFFFFF background. Fill most of the canvas with the interface, with about 6% padding. UI ONLY. No outside border, rounded outer card, frame, scene, plant, ball, mat, person, object, desk, devices, pictures, shadows, glow, texture or gradients.\nTypography is absolutely UNIFORM: every line, heading, summary, label, field value and action has the SAME regular-weight sans-serif type, approximately 46 px on a 1536 px wide canvas. No bold, no larger heading, no color emphasis. Dark slate #334155 text. Clean modern sans-serif resembling Inter.\nStack exactly these seven parts in this order, preserving Italian spelling:\n1. \"Visita di fisioterapia\"\n2. \"45 minuti · 50 €\"\n3. Label \"Orario\", above a simple light gray rectangular read-only input containing \"Martedì · 18:00\"\n4. Label \"Nome\", above a matching read-only input containing \"Viola\"\n5. One full-width white action with a thin dark slate outline containing \"Prenota la visita\".\nMake spacing calm and consistent; fields and action have equal width. All words must be crystal clear. This is a deliberately unprioritized interface for teaching, so DO NOT enlarge or bold the heading or summary. No extra words, letters, numbers, artwork, icons, card enclosure or title other than those exact lines.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-e319443e-c74d-4002-a3a0-89000bf98da7.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "webBytes": 544856,
+  "sha256": "f4e8fb313e76cd34c14c4c42f31e1e28c2f7c6c1d04fbd0920a9f5d6b4c386db",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  },
+  "opaqueSurface": true
+}

@@ -1,0 +1,51 @@
+{
+  "id": "course-communication",
+  "palette": "course",
+  "theme": "communication",
+  "subject": "Two people discussing a simple document at a small desk. One listens while the other points to the subject being explained. Explain seminars, presentations and discussion.",
+  "cards": [
+    {
+      "title": "02 · Seminari",
+      "body": "Contributi e casi studio."
+    },
+    {
+      "title": "Esame orale",
+      "body": "Domande sulla  bibliografia teorica  ed eventuale discussione del progetto, se richiesta. Massimo  31 punti ."
+    },
+    {
+      "title": "02 · Accesso all’orale",
+      "body": "La consegna preventiva dell’approfondimento  non è richiesta  per sostenere l’orale."
+    },
+    {
+      "title": "Eventuale discussione del progetto",
+      "body": "Se emergono criticità (o servono chiarimenti specifici), potrà essere richiesta  dal gruppo o dai docenti  una discussione sul progetto. Sarà comunicata  con preavviso  e fissata per consentire la presenza di  tutto il gruppo ."
+    },
+    {
+      "title": "03 · Orale",
+      "body": "Per sostenere l’orale è obbligatorio  aver superato lo scritto ."
+    },
+    {
+      "title": "05 · Discussione",
+      "body": "Se è richiesta una discussione del progetto, deve partecipare  tutto il gruppo , anche in forma mista tra presenza e remoto."
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/course-communication-v1.png",
+  "web": "public/images/generated/theme-2026/cards/course-communication-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-473e4fac-cd63-4d85-a7a2-37753f56b244.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind red: deep red-950 #460809 fine outlines, red-800 #9F0712 selected structural details, pale red-100 #FFE2E2 and red-200 #FFC9C9 for light fills, white papers; one tiny amber-200 #FEE685 emphasis.\nSubject: Two people discussing a simple document at a small desk. One listens while the other points to the subject being explained. Explain seminars, presentations and discussion.\nActual card contexts (content remains live text, do not draw lettering): 02 · Seminari: Contributi e casi studio. | Esame orale: Domande sulla  bibliografia teorica  ed eventuale discussione del progetto, se richiesta. Massimo  31 punti . | 02 · Accesso all’orale: La consegna preventiva dell’approfondimento  non è richiesta  per sostenere l’orale. | Eventuale discussione del progetto: Se emergono criticità (o servono chiarimenti specifici), potrà essere richiesta  dal gruppo o dai docenti  una discussione sul progetto. Sarà comunicata  con preavviso  e fissata per consentire la presenza di  tutto il gruppo . | 03 · Orale: Per sostenere l’orale è obbligatorio  aver superato lo scritto . | 05 · Discussione: Se è richiesta una discussione del progetto, deve partecipare  tutto il gruppo , anche in forma mista tra presenza e remoto.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-27e45d04-7429-474d-81dc-2402baafd428.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 623270,
+  "sha256": "be22a6899da9da561cb2315f30ab1cf0dd1e8414621ae3689990f8b90738b507",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

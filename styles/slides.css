@@ -186,15 +186,15 @@
 .dense-slide .lead {
   font-size: 24px;
 }
-/* The opening pair uses indigo with a soft amber accent. */
+/* The opening pair uses the same indigo/lime pair as its generated artwork. */
 .slidev-layout.course-section:is(.cover-slide, .renewal-slide) {
   --cvedi-course-base: var(--cvedi-indigo-800);
   --cvedi-course-canvas: var(--cvedi-indigo-900);
   --cvedi-course-deep: var(--cvedi-indigo-950);
   --cvedi-course-light: var(--cvedi-indigo-100);
   --cvedi-course-surface: var(--cvedi-indigo-50);
-  --cvedi-course-accent: var(--cvedi-amber-800);
-  --cvedi-course-accent-light: var(--cvedi-amber-100);
+  --cvedi-course-accent: var(--cvedi-lime-800);
+  --cvedi-course-accent-light: var(--cvedi-lime-100);
 }
 /* The renewal illustration pairs a slide deck with an open bibliography. */
 .slidev-layout.renewal-slide {
@@ -296,41 +296,6 @@
   top: 286px;
   left: 204px;
 }
-.renewal-feedback.alert {
-  display: grid;
-  grid-template-columns: 32px minmax(0, 1fr);
-  gap: 20px;
-  align-items: start;
-  border: 0;
-  border-radius: var(--cvedi-radius);
-  padding: 18px 24px;
-  background: var(--cvedi-course-accent-light);
-  color: var(--cvedi-course-deep);
-  box-shadow: none;
-  text-align: left;
-}
-.renewal-feedback > svg {
-  width: 32px;
-  height: 32px;
-  stroke: currentColor;
-  stroke-width: 2px;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
-.slidev-layout .renewal-feedback h2 {
-  margin: 0 0 8px;
-  color: inherit;
-  font: 700 24px/1.2 var(--cvedi-font-display);
-  letter-spacing: -.02em;
-}
-.slidev-layout .renewal-feedback p {
-  margin: 0;
-  color: inherit;
-  font: 400 20px/1.45 var(--cvedi-font-display);
-}
-.slidev-layout .renewal-feedback strong {
-  color: inherit;
-}
 .renewal-slide .slide-footer {
   color: var(--cvedi-paper);
 }
@@ -381,7 +346,7 @@
   width: 100%;
   height: auto;
 }
-/* NEXT ME extends the booklet palette with coordinated editorial illustrations. */
+/* WHAT IF? uses coordinated editorial images in the brief's amber/yellow palette. */
 .nextme-layout {
   display: grid;
   grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr);

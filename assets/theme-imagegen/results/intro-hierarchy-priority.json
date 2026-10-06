@@ -1,0 +1,24 @@
+{
+  "id": "intro-hierarchy-priority",
+  "kind": "teaching-figure",
+  "palette": "introduction",
+  "original": "assets/theme-imagegen/originals/intro-hierarchy-priority-v2.png",
+  "web": "public/images/generated/theme-2026/figures/intro-hierarchy-priority-v2.webp",
+  "status": "complete",
+  "dependsOn": "intro-hierarchy-uniform",
+  "prompt": "Use case: ui-mockup. EDIT TARGET: the supplied plain physiotherapy booking UI. Produce the prioritized version for a before/after visual hierarchy comparison. Preserve every word, value, element location, spacing, field dimensions, button shape, canvas size, white surface and margins. Change ONLY emphasis: make \"Visita di fisioterapia\" larger and bold dark slate #0F172A; make \"45 minuti · 50 €\" semibold dark slate. Keep labels and values regular. Fill ONLY the final \"Prenota la visita\" action with Tailwind lime-800 #3C6300 and white semibold text. The interface must show exactly: \"Visita di fisioterapia\", \"45 minuti · 50 €\", \"Orario\", \"Martedì · 18:00\", \"Nome\", \"Viola\", \"Prenota la visita\". No extra content, outer border, frame, card enclosure, shadow, device, picture, icon, texture or decoration. Keep the entire canvas opaque pure white. Crisp flat teaching example.",
+  "opaqueSurface": true,
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-f6e5d5f2-24d8-4ee4-8a23-3c4b962b0256.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "webBytes": 607486,
+  "sha256": "aaf1e86835a406b2682ae61c72da5d59f4afe46ed95bbf99ea8a083a5f13dbb2",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

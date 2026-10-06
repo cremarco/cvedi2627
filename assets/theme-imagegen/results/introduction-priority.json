@@ -1,0 +1,51 @@
+{
+  "id": "introduction-priority",
+  "palette": "introduction",
+  "theme": "priority",
+  "subject": "Several possible tasks are arranged in a deliberate hierarchy; one is selected, two are deferred and one is set aside. Explain visual priority, prioritization and choosing among alternatives.",
+  "cards": [
+    {
+      "title": "Attenzione",
+      "body": "Che cosa emerge per primo?"
+    },
+    {
+      "title": "Must",
+      "body": "Essenziale: cercare un orario e ricevere la conferma."
+    },
+    {
+      "title": "Should",
+      "body": "Importante: ricevere un promemoria dell’appuntamento."
+    },
+    {
+      "title": "Could",
+      "body": "Utile: salvare un professionista fra i preferiti."
+    },
+    {
+      "title": "Won’t",
+      "body": "Rinviato: introdurre la videochiamata in questo rilascio."
+    },
+    {
+      "title": "Selezionare",
+      "body": "Scegliere un’ipotesi da rendere testabile."
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/introduction-priority-v1.png",
+  "web": "public/images/generated/theme-2026/cards/introduction-priority-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-03be4cc7-026b-4f23-9534-60e9db89afb4.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind lime/green: lime-950 #192E03 fine outlines, lime-800 #3C6300 selected structural details, lime-100 #ECFCCA and green-100 #DCFCE7 light fills, white papers; one tiny lime-300 #BBF451 selection.\nSubject: Several possible tasks are arranged in a deliberate hierarchy; one is selected, two are deferred and one is set aside. Explain visual priority, prioritization and choosing among alternatives.\nActual card contexts (content remains live text, do not draw lettering): Attenzione: Che cosa emerge per primo? | Must: Essenziale: cercare un orario e ricevere la conferma. | Should: Importante: ricevere un promemoria dell’appuntamento. | Could: Utile: salvare un professionista fra i preferiti. | Won’t: Rinviato: introdurre la videochiamata in questo rilascio. | Selezionare: Scegliere un’ipotesi da rendere testabile.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-b29ae9da-812c-494e-80f8-c5a12be9fceb.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 614422,
+  "sha256": "52020f14a4d272cf8b91f1b059bc6480870b0d71dc9dd5d7dbc4bda3bff48e9f",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

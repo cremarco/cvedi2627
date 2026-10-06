@@ -1,0 +1,63 @@
+{
+  "id": "brief-visual-system",
+  "palette": "brief",
+  "theme": "visualSystem",
+  "subject": "A design workbench shows shared color swatches, a few typography bars and modular interface pieces assembled consistently into one screen. Explain visual foundations, components, coherence and a design system.",
+  "cards": [
+    {
+      "title": "Un sistema coerente",
+      "body": "Definite identità, regole ed  elementi riutilizzabili : dai fondamenti visivi ai componenti delle pagine."
+    },
+    {
+      "title": "Linguaggio visivo",
+      "body": "Raccogliete  palette preliminare, font, icone e immagini , indicando le fonti."
+    },
+    {
+      "title": "Fondamenti",
+      "body": "Colori, tipografia, spaziature, griglia, icone e immagini:  scelte motivate  e coerenti."
+    },
+    {
+      "title": "Componenti",
+      "body": "Pulsanti, campi, card e navigazione, con  varianti e stati  necessari."
+    },
+    {
+      "title": "Look & feel",
+      "body": "Fondamenti visivi, componenti e primi  mockup ad alta fedeltà ."
+    },
+    {
+      "title": "02 · Design system",
+      "body": "Un  PDF  con identità visiva, fondamenti, componenti e loro applicazione finale."
+    },
+    {
+      "title": "Atomi e molecole",
+      "body": "Elementi e combinazioni:  anatomia, varianti e stati , con etichette e comportamento."
+    },
+    {
+      "title": "Visual e interface design",
+      "body": "Originalità e utilità del concept, gerarchia, comunicazione e  qualità dell’interazione ."
+    },
+    {
+      "title": "Design system",
+      "body": "Correttezza, coerenza e chiarezza delle regole per  sviluppare e mantenere  il sito."
+    }
+  ],
+  "kind": "card-background",
+  "original": "assets/theme-imagegen/originals/brief-visual-system-v1.png",
+  "web": "public/images/generated/theme-2026/cards/brief-visual-system-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-e7841702-4f02-40c0-9af7-4d59c3daead4.png",
+  "prompt": "Use case: stylized-concept.\nAsset type: a generated editorial raster illustration used as a quiet background inside a university teaching card. The card's real title and paragraphs are rendered separately.\nStyle family: precise contemporary 2D editorial cut-paper illustration. Clean contours, broad simple matte flat shapes, softly rounded corners, controlled geometric perspective, overlap for depth, no light or shaded 3D. Objects and human gestures are concrete and explanatory. This is a small narrative scene, not an isolated icon, symbol, badge, logo, or geometric outline.\nComposition: a compact complete scene, centered on a square canvas with generous transparent margins. Make the silhouette readable at 180 pixels wide. All subjects fully visible. The consuming card will position the scene behind its text at low opacity, so avoid fine detail and lettering.\nBackground: genuine alpha transparency outside actual drawn subjects and intentionally enclosed surfaces. Fully opaque fills within objects. No rectangular background, colored cloud, vignette, blur, glow, shadows, floor shadow or enclosing card.\nConstraints: no letters, words, numbers, logos or watermark. No gradients, grain, texture, photorealism, sketch marks, decorative sparkles, floating speech bubbles, ornamental foliage, or generic AI robots/brains. Few deliberate forms; keep the whole visual family restrained and consistent.\nInput image: a STYLE REFERENCE ONLY. Reuse its precise editorial drawing language, contour weight and matte shapes; draw the NEW subject below. Do not copy its people, objects or composition unless they are explicitly part of the new subject.\nPalette: Tailwind amber/yellow: amber-950 #461901 outlines, amber-800 #973C00 selected structural details, amber-100 #FEF3C6 and yellow-100 #FEF9C2 light fills, white papers; one tiny yellow-400 #FDC700 selection.\nSubject: A design workbench shows shared color swatches, a few typography bars and modular interface pieces assembled consistently into one screen. Explain visual foundations, components, coherence and a design system.\nActual card contexts (content remains live text, do not draw lettering): Un sistema coerente: Definite identità, regole ed  elementi riutilizzabili : dai fondamenti visivi ai componenti delle pagine. | Linguaggio visivo: Raccogliete  palette preliminare, font, icone e immagini , indicando le fonti. | Fondamenti: Colori, tipografia, spaziature, griglia, icone e immagini:  scelte motivate  e coerenti. | Componenti: Pulsanti, campi, card e navigazione, con  varianti e stati  necessari. | Look & feel: Fondamenti visivi, componenti e primi  mockup ad alta fedeltà . | 02 · Design system: Un  PDF  con identità visiva, fondamenti, componenti e loro applicazione finale. | Atomi e molecole: Elementi e combinazioni:  anatomia, varianti e stati , con etichette e comportamento. | Visual e interface design: Originalità e utilità del concept, gerarchia, comunicazione e  qualità dell’interazione . | Design system: Correttezza, coerenza e chiarezza delle regole per  sviluppare e mantenere  il sito.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-f6d6f074-70ef-4ee6-8863-6d77fa03f363.png",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "webBytes": 673682,
+  "sha256": "8b1ab9eab4b4088ea8366e34c3a71490274f66c93b535fa43bb32aa4bc8f2581",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}

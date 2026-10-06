@@ -1,0 +1,26 @@
+{
+  "id": "topics-a10",
+  "kind": "teaching-figure",
+  "palette": "research",
+  "topicCode": "A10",
+  "subject": "A shared editing workspace has two clearly distinct anonymous cursors and small avatar circles, indigo and lime, editing the same content card. Two competing card versions lead to a review-and-merge area, with a small visible version history. Communicate simultaneous collaboration and conflict resolution, not a generic group of people.",
+  "alt": "Due persone modificano lo stesso contenuto; versioni concorrenti vengono confrontate e ricomposte.",
+  "original": "assets/theme-imagegen/originals/topics-a10-v1.png",
+  "web": "public/images/generated/theme-2026/figures/topics-a10-v1.webp",
+  "status": "complete",
+  "styleReference": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-03be4cc7-026b-4f23-9534-60e9db89afb4.png",
+  "prompt": "Use case: scientific-educational.\nAsset type: a finished raster teaching illustration for a university Slidev deck, displayed beside native text. It must make the concept understandable.\nStyle family: the provided image is a STYLE REFERENCE ONLY. Match its clean contemporary 2D editorial contours, simple matte fills, rounded corners, restrained geometric perspective and natural simplified figures. Use overlap for depth. Draw a NEW composition suited to the specified teaching concept. Do not copy the reference's people, table or objects unless requested.\nComposition: a complete airy landscape scene, approximately 3:2. Large readable shapes and clear relationships, generous margins, no cropping. Diagrams use precise geometry and clean connectors, with no unnecessary characters. Avoid tiny details.\nBackground: genuine alpha transparency outside the actual illustration. Opaque white can appear within papers, interfaces and intentional bounded diagram surfaces. No full-canvas colored backdrop, clouds, vignette, blur, glow, drop shadows, outer border or enclosing card.\nConstraints: no grain, textures, shaded 3D, gradients, photorealism, sketches, decorative sparks or ornamental foliage. No lettering, words or numbers except the exact text explicitly requested in the subject. Keep the image calm, explanatory and coordinated with the reference.\nPalette: Tailwind indigo/lime: indigo-950 #1E1A4D fine outlines, indigo-800 #372AAC structural details, indigo-100 #E0E7FF and lime-100 #ECFCCA light fills, white paper/interface surfaces; small lime-300 #BBF451 selected details. No amber, red, orange or blue outside this indigo family.\nSubject and semantic invariants: A shared editing workspace has two clearly distinct anonymous cursors and small avatar circles, indigo and lime, editing the same content card. Two competing card versions lead to a review-and-merge area, with a small visible version history. Communicate simultaneous collaboration and conflict resolution, not a generic group of people.\nThe teaching caption, not to draw: Due persone modificano lo stesso contenuto; versioni concorrenti vengono confrontate e ricomposte.\nThe relationships and the specific comparison matter more than decorative appeal.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a110fb-adfa-7c52-927b-a222d3963c4a/exec-58a1fe84-079b-4939-b38e-f35cec137ef8.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "webBytes": 752544,
+  "sha256": "47fec4641e4969a8b77b998962a8a1c743c0f0a56bfb289ce9f09b221ebb6a2f",
+  "publicationEncoding": {
+    "format": "WebP",
+    "lossless": true,
+    "pixelPreserved": true,
+    "alphaPreserved": true
+  }
+}
