@@ -1,4 +1,11 @@
 /* Shared Tailwind palettes with separate ink and full-canvas roles. */
+.lesson-slide.research-section {
+  --lesson-color: var(--cvedi-indigo-800);
+  --lesson-canvas: var(--cvedi-indigo-900);
+  --lesson-color-deep: var(--cvedi-indigo-950);
+  --lesson-accent: var(--cvedi-lime-800);
+  --lesson-accent-on-color: var(--cvedi-lime-100);
+}
 .lesson-slide.brief-section {
   --lesson-color: var(--cvedi-brief-base);
   --lesson-canvas: var(--cvedi-brief-canvas);

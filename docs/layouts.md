@@ -1,11 +1,11 @@
 # Composizioni delle slide
 
-Le 221 slide condividono palette del booklet, font, margini e footer. La struttura varia secondo il contenuto: confrontare, seguire un percorso, leggere una tesi o osservare un artefatto. Le classi sono dichiarate nel frontmatter, senza selettori basati sul numero della pagina.
+Le 174 slide visibili e le 68 conservate condividono il sistema visivo documentato in `docs/design.md`, margini e footer. La struttura varia secondo il contenuto: confrontare, seguire un percorso, leggere una tesi o osservare un artefatto. Le classi sono dichiarate nel frontmatter, senza selettori basati sul numero della pagina.
 
 ## Regole comuni
 
-- Canvas 1280 × 720, margini laterali 68 px e titolo delle slide di lettura a 64 px dal bordo superiore. Almeno 12 px separano il contenuto dal footer.
-- Aperture, domande e percorsi metro conservano il proprio centro compositivo. Le affermazioni delle lezioni mantengono il titolo comune e una tesi centrale.
+- Canvas 1280 × 720: i titoli delle slide di contenuto sono sempre a 52 px dall’alto e 72 px da sinistra. Il contenuto è centrato verticalmente, come un unico gruppo, nello spazio fra titolo e area del footer. Almeno 12 px separano il contenuto dal footer.
+- Le copertine generali e delle lezioni conservano le composizioni ripristinate. Domande, affermazioni, tabelle e diagrammi condividono l’ancoraggio del titolo e il centraggio del contenuto.
 - Confronti brevi: colonne aperte con filetto neutro e intestazioni allineate. Matrici, casi di esercitazione e informazioni amministrative: card del sistema esistente.
 - Figure complete e proporzionate. Le interfacce e i diagrammi occupano circa il 70% della regione; i poster usano l’altezza disponibile. Le didascalie restano separate. Il comando «Ingrandisci» si trova sopra la figura, allineato al suo bordo destro; la didascalia resta sotto.
 - Le immagini composite 76 e 177 mostrano tutte le regioni originali affiancate mediante CSS. File locali e metadati di provenienza restano identici.
@@ -101,157 +101,157 @@ Le 221 slide condividono palette del booklet, font, margini e footer. La struttu
 | 68 | Documentare l’evoluzione | 3 card illustrate: punto di partenza, modifiche ed esito |
 | 69 | Come verrà letto il progetto | Matrice di 4 card: criteri di valutazione del progetto |
 | 70 | Prima della consegna | 3 card illustrate: requisiti, materiali e comunicazioni |
-| 71 | Introduzione a UX e UI | Apertura di capitolo con percorso metro |
-| 72 | Cosa impareremo | Confronto in colonne aperte |
-| 73 | Quale oggetto vi ha messo in difficoltà? | Spiegazione e domande aperte |
-| 74 | Design e società | Titolo stabile, tesi centrale e spiegazione |
-| 75 | Quattro funzioni del design | Matrice di 4 elementi |
-| 76 | Comunicare significa orientare | 3 pannelli informativi |
-| 77 | Una forma può cambiare significato | Figura dominante e testo a sinistra |
-| 78 | Progettare per uno scopo | Figura completa in altezza e testo a sinistra |
-| 79 | Oggetti che comunicano | Dritto e rovescio affiancati e commento a sinistra |
-| 80 | Funzione, forma, vincoli | Confronto in colonne aperte |
-| 81 | Come riconoscere un buon design | Matrice di 6 elementi |
-| 82 | La qualità dipende dal contesto | 3 pannelli informativi |
-| 83 | Attività · Leggere una porta | Figura completa in altezza e testo a sinistra |
-| 84 | Comunicazione visiva | Titolo stabile, tesi centrale e spiegazione |
-| 85 | Che cosa deve fare un’immagine? | 3 card: funzioni dell’immagine e applicazione illustrativa |
-| 86 | Condividere una lingua visiva | Confronto in colonne aperte |
-| 87 | Stessi contenuti, priorità diverse | Due form daisyUI in sola lettura con gli stessi contenuti e gerarchie diverse |
-| 88 | Istruzioni che guidano l’azione | Figura dominante e testo a sinistra |
-| 89 | L’interfaccia rende possibile un dialogo | Figura dominante e testo a sinistra |
-| 90 | La forma incontra il contesto | 2 pannelli informativi |
-| 91 | Dal bisogno alla risposta | Confronto in colonne aperte |
-| 92 | Dare coerenza agli elementi | Figura dominante e testo a sinistra |
-| 93 | Che cos’è la User Experience? | Titolo stabile, tesi centrale e spiegazione |
-| 94 | L’esperienza attraversa il servizio | Sequenza di passi collegati |
-| 95 | La UI dà forma all’interazione | Confronto in colonne aperte |
-| 96 | La UI si tocca, si vede, si ascolta | Due figure storiche affiancate e confronto dei controlli |
-| 97 | La UI è parte della UX | Relazione di inclusione UX/UI |
-| 98 | Usabilità: riuscire a fare | Confronto in colonne aperte |
-| 99 | La qualità dell’esperienza | Matrice di 6 elementi |
-| 100 | Indizi, comandi, esiti | 3 card: indizio, comando e feedback |
-| 101 | Dove finisce il pavimento? | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 102 | Una decorazione, tanti indizi | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 103 | Il bordo deve farsi leggere | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 104 | Quando il pattern prende il sopravvento | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 105 | Il percorso è una sequenza | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 106 | Progettare anche il passaggio | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 107 | Un accesso va seguito fino in fondo | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 108 | La luce come istruzione | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 109 | Forma, luce, orientamento | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 110 | Lidl · anche la cassa è un’interfaccia | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 111 | La cassa continua dopo il pagamento | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 112 | Ricaricare o continuare a lavorare? | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 113 | Quale manopola accende quel fornello? | Esempio UX con figura orizzontale dominante, descrizione e domanda |
-| 114 | Premi 1, compare 6 | Esempio UX con figura orizzontale dominante, descrizione e domanda |
-| 115 | OXO · progettare la presa | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 116 | LEGO · aiutare anche a smontare | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
-| 117 | Un menu può ostacolare un compito | Figura dominante e testo a sinistra |
-| 118 | Quando l’attesa smentisce la promessa | Messaggio storico di attesa ingrandibile e commento separato |
-| 119 | Che cosa fa lo UX designer? | Confronto in colonne aperte |
-| 120 | Attività · UX, UI o usabilità? | 3 card con illustrazioni allineate in basso a destra |
-| 121 | Un processo, molte iterazioni | 3 pannelli informativi |
-| 122 | Quattordici fasi, cinque nuclei | Mappa illustrata: cinque stazioni, quattordici fasi e richiamo all’iterazione |
-| 123 | Il caso: fisioterapisti e clienti | Confronto in colonne aperte |
-| 124 | 1 · Impostare il progetto | Confronto in colonne aperte |
-| 125 | Un obiettivo che possiamo verificare | Matrice di card: obiettivo illustrativo e criteri SMART |
-| 126 | Confrontare alternative e riferimenti | 3 card per distinguere concorrenti, alternative e riferimenti |
-| 127 | 2 · Comprendere problemi e persone | Confronto in colonne aperte |
-| 128 | La domanda guida il metodo | 3 card: domande di ricerca e metodi |
-| 129 | Viola: dal profilo al bisogno | Confronto in colonne aperte |
-| 130 | Dalle evidenze alle personas | 3 card: evidenze, profilo e bisogno |
-| 131 | 3 · Organizzare l’esperienza | Figura dominante e testo a sinistra |
-| 132 | Dal viaggio alle decisioni nel sistema | 2 card: journey del servizio e flow con decisione esplicita |
-| 133 | Condividere ciò che il prodotto deve fare | Confronto in colonne aperte |
-| 134 | Concordare le priorità: MoSCoW | 4 card: priorità MoSCoW e requisiti illustrativi |
-| 135 | Il concept orienta le scelte | 2 card: ipotesi di concept per lo stesso servizio |
-| 136 | La moodboard rende visibile un’atmosfera | Moodboard originale ingrandibile e spiegazione separata |
-| 137 | 4 · Strutturare il sistema | Figura dominante e testo a sinistra |
-| 138 | Il wireframe organizza la schermata | Figura dominante e testo a sinistra |
-| 139 | Dal foglio ai controlli | 3 card: progressione da zone a contenuti e controlli |
-| 140 | Un test moderato ha tre elementi | 3 card: partecipante, compito e facilitatore |
-| 141 | Un obiettivo, senza suggerire il percorso | 2 card: obiettivo e consegna senza suggerire il percorso |
-| 142 | 5 · Verificare con un prototipo | 3 pannelli informativi |
-| 143 | Dall’osservazione alla prossima verifica | 3 card: osservazione, ipotesi e prossima verifica |
-| 144 | Correggere, dare forma, verificare ancora | 3 card informative |
-| 145 | Design Thinking: una cornice di lavoro | Titolo stabile, tesi centrale e spiegazione |
-| 146 | Cinque modalità del Design Thinking | Sequenza di passi collegati |
-| 147 | Empathize e Define | Confronto in colonne aperte |
-| 148 | Ideate: esplorare prima di scegliere | 3 pannelli informativi |
-| 149 | Prototype e Test: imparare facendo | Confronto in colonne aperte |
-| 150 | UX e Design Thinking si incontrano | Ciclo di iterazione |
-| 151 | Tre idee da portare con voi | Confronto in colonne aperte |
-| 152 | Verifica finale · Spiegare una scelta | Spiegazione e domande aperte |
-| 153 | Storia del design | Apertura di capitolo con percorso metro |
-| 154 | Cosa impareremo | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 155 | Dall’introduzione alla storia | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 156 | Come leggere un artefatto | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 157 | Un percorso, molte continuità | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 158 | Prima della pagina | Figura o confronto documentato con didascalia e ingrandimento |
-| 159 | Scrivere significa organizzare | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 160 | Parola e immagine nel manoscritto | Figura o confronto documentato con didascalia e ingrandimento |
-| 161 | Segni per riconoscere | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 162 | Cina: riprodurre e ricomporre | Figura o confronto documentato con didascalia e ingrandimento |
-| 163 | Prima di Gutenberg: il Jikji | Figura o confronto documentato con didascalia e ingrandimento |
-| 164 | Gutenberg: un sistema di produzione | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 165 | Il carattere progetta la lettura | Figura o confronto documentato con didascalia e ingrandimento |
-| 166 | Dalla bottega al pubblico | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 167 | Organizzare il sapere | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 168 | Tipografia: funzione ed espressione | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 169 | La litografia apre nuove possibilità | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 170 | Il manifesto entra nella città | Figura o confronto documentato con didascalia e ingrandimento |
-| 171 | Art Nouveau: un linguaggio integrato | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 172 | Mucha: riconoscere un repertorio | Figura o confronto documentato con didascalia e ingrandimento |
-| 173 | Behrens e AEG: un’identità coordinata | Figura o confronto documentato con didascalia e ingrandimento |
-| 174 | Quando il design persuade | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 175 | Due strategie di persuasione | Figura o confronto documentato con didascalia e ingrandimento |
-| 176 | Attività · Leggere la persuasione | Attività e domande aperte |
-| 177 | Bauhaus: arte, tecnica, progetto | Figura o confronto documentato con didascalia e ingrandimento |
-| 178 | Moholy-Nagy: comporre relazioni | Figura o confronto documentato con didascalia e ingrandimento |
-| 179 | Albers: il colore si legge in relazione | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 180 | Art Déco: dare forma alla modernità | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 181 | Isotype: rendere confrontabili i dati | Figura o confronto documentato con didascalia e ingrandimento |
-| 182 | Beck: una mappa per il viaggio | Figura o confronto documentato con didascalia e ingrandimento |
-| 183 | Paul Rand: costruire un’idea visiva | Figura o confronto documentato con didascalia e ingrandimento |
-| 184 | La rivista come ritmo di lettura | Figura o confronto documentato con didascalia e ingrandimento |
-| 185 | La griglia rende visibili le relazioni | Figura o confronto documentato con didascalia e ingrandimento |
-| 186 | La tipografia diventa immagine | Figura o confronto documentato con didascalia e ingrandimento |
-| 187 | Comporre il testo e stampare | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 188 | Il tavolo di lavoro diventa software | Figura o confronto documentato con didascalia e ingrandimento |
-| 189 | Sperimentare cambia la lettura | Figura o confronto documentato con didascalia e ingrandimento |
-| 190 | Dal leggere all’interagire | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 191 | CERN: il Web collega documenti | Figura o confronto documentato con didascalia e ingrandimento |
-| 192 | Dall’artefatto al sistema | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 193 | 1968: il computer come collaborazione | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 194 | Xerox: ambienti grafici da sperimentare | Figura o confronto documentato con didascalia e ingrandimento |
-| 195 | WIMP: quattro elementi coordinati | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 196 | Susan Kare: un linguaggio di pochi pixel | Figura o confronto documentato con didascalia e ingrandimento |
-| 197 | Attività · La metafora della scrivania | Attività e domande aperte |
-| 198 | Il primo web: testo e collegamenti | Pagina nello stile html · figura completa e testo aperto |
-| 199 | Web 2.0: partecipazione e volume | Pagina nello stile web2 · figura completa e testo aperto |
-| 200 | Scheumorfismo: riconoscere una funzione | Pagina nello stile scheu · figura completa e testo aperto |
-| 201 | Flat design: ridurre il rilievo | Pagina nello stile flat · figura completa e testo aperto |
-| 202 | Material Design: superfici e comportamento | Pagina nello stile material · figura completa e testo aperto |
-| 203 | Semplice non significa sempre usabile | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 204 | Neumorfismo: oggetti dalla superficie | Pagina nello stile neumo · figura completa e testo aperto |
-| 205 | Glassmorfismo: livelli e trasparenze | Pagina nello stile glass · figura completa e testo aperto |
-| 206 | Minimalismo: scegliere che cosa resta | Pagina nello stile minimal · figura completa e testo aperto |
-| 207 | Y2K: reinterpretare un immaginario | Pagina nello stile y2k · figura completa e testo aperto |
-| 208 | Massimalismo: coordinare la densità | Pagina nello stile max · figura completa e testo aperto |
-| 209 | Brutalismo web e neobrutalismo | Pagina nello stile neo · figura completa e testo aperto |
-| 210 | Attività · Un controllo è riconoscibile? | Figura o confronto documentato con didascalia e ingrandimento |
-| 211 | Possibili direzioni: quattro domande | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 212 | Tipografia adattabile ed espressiva | Figura o confronto documentato con didascalia e ingrandimento |
-| 213 | Liquid Glass: dare un ruolo al materiale | Figura o confronto documentato con didascalia e ingrandimento |
-| 214 | Interfacce spaziali: finestre e volumi | Figura o confronto documentato con didascalia e ingrandimento |
-| 215 | Interfacce generate su richiesta | Figura o confronto documentato con didascalia e ingrandimento |
-| 216 | Un’estetica attenta alle risorse | Figura o confronto documentato con didascalia e ingrandimento |
-| 217 | Lo stile va verificato | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 218 | Tre eredità da riconoscere | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 219 | Fonti per continuare | Testo e confronti aperti, con richiami al percorso del capitolo |
-| 220 | Verifica finale · Motivare uno stile | Attività e domande aperte |
-| 221 | Domande? | Mappa a pieno canvas e fascia di testo |
+| 92 | Introduzione a UX e UI | Apertura di capitolo con percorso metro |
+| 93 | Cosa impareremo | Confronto in colonne aperte |
+| 94 | Quale oggetto vi ha messo in difficoltà? | Spiegazione e domande aperte |
+| 95 | Design e società | Titolo stabile, tesi centrale e spiegazione |
+| 96 | Quattro funzioni del design | Matrice di 4 elementi |
+| 97 | Comunicare significa orientare | 3 pannelli informativi |
+| 98 | Una forma può cambiare significato | Figura dominante e testo a sinistra |
+| 99 | Progettare per uno scopo | Figura completa in altezza e testo a sinistra |
+| 100 | Oggetti che comunicano | Dritto e rovescio affiancati e commento a sinistra |
+| 101 | Funzione, forma, vincoli | Confronto in colonne aperte |
+| 102 | Come riconoscere un buon design | Matrice di 6 elementi |
+| 103 | La qualità dipende dal contesto | 3 pannelli informativi |
+| 104 | Attività · Leggere una porta | Figura completa in altezza e testo a sinistra |
+| 105 | Comunicazione visiva | Titolo stabile, tesi centrale e spiegazione |
+| 106 | Che cosa deve fare un’immagine? | 3 card: funzioni dell’immagine e applicazione illustrativa |
+| 107 | Condividere una lingua visiva | Confronto in colonne aperte |
+| 108 | Stessi contenuti, priorità diverse | Due form daisyUI in sola lettura con gli stessi contenuti e gerarchie diverse |
+| 109 | Istruzioni che guidano l’azione | Figura dominante e testo a sinistra |
+| 110 | L’interfaccia rende possibile un dialogo | Figura dominante e testo a sinistra |
+| 111 | La forma incontra il contesto | 2 pannelli informativi |
+| 112 | Dal bisogno alla risposta | Confronto in colonne aperte |
+| 113 | Dare coerenza agli elementi | Figura dominante e testo a sinistra |
+| 114 | Che cos’è la User Experience? | Titolo stabile, tesi centrale e spiegazione |
+| 115 | L’esperienza attraversa il servizio | Sequenza di passi collegati |
+| 116 | La UI dà forma all’interazione | Confronto in colonne aperte |
+| 117 | La UI si tocca, si vede, si ascolta | Due figure storiche affiancate e confronto dei controlli |
+| 118 | La UI è parte della UX | Relazione di inclusione UX/UI |
+| 119 | Usabilità: riuscire a fare | Confronto in colonne aperte |
+| 120 | La qualità dell’esperienza | Matrice di 6 elementi |
+| 121 | Indizi, comandi, esiti | 3 card: indizio, comando e feedback |
+| 122 | Dove finisce il pavimento? | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 123 | Una decorazione, tanti indizi | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 124 | Il bordo deve farsi leggere | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 125 | Quando il pattern prende il sopravvento | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 126 | Il percorso è una sequenza | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 127 | Progettare anche il passaggio | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 128 | Un accesso va seguito fino in fondo | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 129 | La luce come istruzione | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 130 | Forma, luce, orientamento | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 131 | Lidl · anche la cassa è un’interfaccia | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 132 | La cassa continua dopo il pagamento | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 133 | Ricaricare o continuare a lavorare? | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 134 | Quale manopola accende quel fornello? | Esempio UX con figura orizzontale dominante, descrizione e domanda |
+| 135 | Premi 1, compare 6 | Esempio UX con figura orizzontale dominante, descrizione e domanda |
+| 136 | OXO · progettare la presa | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 137 | LEGO · aiutare anche a smontare | Esempio UX con descrizione, domanda e immagine completa ingrandibile |
+| 138 | Un menu può ostacolare un compito | Figura dominante e testo a sinistra |
+| 139 | Quando l’attesa smentisce la promessa | Messaggio storico di attesa ingrandibile e commento separato |
+| 140 | Che cosa fa lo UX designer? | Confronto in colonne aperte |
+| 141 | Attività · UX, UI o usabilità? | 3 card con illustrazioni allineate in basso a destra |
+| 142 | Un processo, molte iterazioni | 3 pannelli informativi |
+| 143 | Quattordici fasi, cinque nuclei | Mappa illustrata: cinque stazioni, quattordici fasi e richiamo all’iterazione |
+| 144 | Il caso: fisioterapisti e clienti | Confronto in colonne aperte |
+| 145 | 1 · Impostare il progetto | Confronto in colonne aperte |
+| 146 | Un obiettivo che possiamo verificare | Matrice di card: obiettivo illustrativo e criteri SMART |
+| 147 | Confrontare alternative e riferimenti | 3 card per distinguere concorrenti, alternative e riferimenti |
+| 148 | 2 · Comprendere problemi e persone | Confronto in colonne aperte |
+| 149 | La domanda guida il metodo | 3 card: domande di ricerca e metodi |
+| 150 | Viola: dal profilo al bisogno | Confronto in colonne aperte |
+| 151 | Dalle evidenze alle personas | 3 card: evidenze, profilo e bisogno |
+| 152 | 3 · Organizzare l’esperienza | Figura dominante e testo a sinistra |
+| 153 | Dal viaggio alle decisioni nel sistema | 2 card: journey del servizio e flow con decisione esplicita |
+| 154 | Condividere ciò che il prodotto deve fare | Confronto in colonne aperte |
+| 155 | Concordare le priorità: MoSCoW | 4 card: priorità MoSCoW e requisiti illustrativi |
+| 156 | Il concept orienta le scelte | 2 card: ipotesi di concept per lo stesso servizio |
+| 157 | La moodboard rende visibile un’atmosfera | Moodboard originale ingrandibile e spiegazione separata |
+| 158 | 4 · Strutturare il sistema | Figura dominante e testo a sinistra |
+| 159 | Il wireframe organizza la schermata | Figura dominante e testo a sinistra |
+| 160 | Dal foglio ai controlli | 3 card: progressione da zone a contenuti e controlli |
+| 161 | Un test moderato ha tre elementi | 3 card: partecipante, compito e facilitatore |
+| 162 | Un obiettivo, senza suggerire il percorso | 2 card: obiettivo e consegna senza suggerire il percorso |
+| 163 | 5 · Verificare con un prototipo | 3 pannelli informativi |
+| 164 | Dall’osservazione alla prossima verifica | 3 card: osservazione, ipotesi e prossima verifica |
+| 165 | Correggere, dare forma, verificare ancora | 3 card informative |
+| 166 | Design Thinking: una cornice di lavoro | Titolo stabile, tesi centrale e spiegazione |
+| 167 | Cinque modalità del Design Thinking | Sequenza di passi collegati |
+| 168 | Empathize e Define | Confronto in colonne aperte |
+| 169 | Ideate: esplorare prima di scegliere | 3 pannelli informativi |
+| 170 | Prototype e Test: imparare facendo | Confronto in colonne aperte |
+| 171 | UX e Design Thinking si incontrano | Ciclo di iterazione |
+| 172 | Tre idee da portare con voi | Confronto in colonne aperte |
+| 173 | Verifica finale · Spiegare una scelta | Spiegazione e domande aperte |
+| 174 | Storia del design | Apertura di capitolo con percorso metro |
+| 175 | Cosa impareremo | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 176 | Dall’introduzione alla storia | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 177 | Come leggere un artefatto | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 178 | Un percorso, molte continuità | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 179 | Prima della pagina | Figura o confronto documentato con didascalia e ingrandimento |
+| 180 | Scrivere significa organizzare | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 181 | Parola e immagine nel manoscritto | Figura o confronto documentato con didascalia e ingrandimento |
+| 182 | Segni per riconoscere | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 183 | Cina: riprodurre e ricomporre | Figura o confronto documentato con didascalia e ingrandimento |
+| 184 | Prima di Gutenberg: il Jikji | Figura o confronto documentato con didascalia e ingrandimento |
+| 185 | Gutenberg: un sistema di produzione | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 186 | Il carattere progetta la lettura | Figura o confronto documentato con didascalia e ingrandimento |
+| 187 | Dalla bottega al pubblico | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 188 | Organizzare il sapere | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 189 | Tipografia: funzione ed espressione | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 190 | La litografia apre nuove possibilità | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 191 | Il manifesto entra nella città | Figura o confronto documentato con didascalia e ingrandimento |
+| 192 | Art Nouveau: un linguaggio integrato | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 193 | Mucha: riconoscere un repertorio | Figura o confronto documentato con didascalia e ingrandimento |
+| 194 | Behrens e AEG: un’identità coordinata | Figura o confronto documentato con didascalia e ingrandimento |
+| 195 | Quando il design persuade | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 196 | Due strategie di persuasione | Figura o confronto documentato con didascalia e ingrandimento |
+| 197 | Attività · Leggere la persuasione | Attività e domande aperte |
+| 198 | Bauhaus: arte, tecnica, progetto | Figura o confronto documentato con didascalia e ingrandimento |
+| 199 | Moholy-Nagy: comporre relazioni | Figura o confronto documentato con didascalia e ingrandimento |
+| 200 | Albers: il colore si legge in relazione | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 201 | Art Déco: dare forma alla modernità | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 202 | Isotype: rendere confrontabili i dati | Figura o confronto documentato con didascalia e ingrandimento |
+| 203 | Beck: una mappa per il viaggio | Figura o confronto documentato con didascalia e ingrandimento |
+| 204 | Paul Rand: costruire un’idea visiva | Figura o confronto documentato con didascalia e ingrandimento |
+| 205 | La rivista come ritmo di lettura | Figura o confronto documentato con didascalia e ingrandimento |
+| 206 | La griglia rende visibili le relazioni | Figura o confronto documentato con didascalia e ingrandimento |
+| 207 | La tipografia diventa immagine | Figura o confronto documentato con didascalia e ingrandimento |
+| 208 | Comporre il testo e stampare | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 209 | Il tavolo di lavoro diventa software | Figura o confronto documentato con didascalia e ingrandimento |
+| 210 | Sperimentare cambia la lettura | Figura o confronto documentato con didascalia e ingrandimento |
+| 211 | Dal leggere all’interagire | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 212 | CERN: il Web collega documenti | Figura o confronto documentato con didascalia e ingrandimento |
+| 213 | Dall’artefatto al sistema | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 214 | 1968: il computer come collaborazione | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 215 | Xerox: ambienti grafici da sperimentare | Figura o confronto documentato con didascalia e ingrandimento |
+| 216 | WIMP: quattro elementi coordinati | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 217 | Susan Kare: un linguaggio di pochi pixel | Figura o confronto documentato con didascalia e ingrandimento |
+| 218 | Attività · La metafora della scrivania | Attività e domande aperte |
+| 219 | Il primo web: testo e collegamenti | Pagina nello stile html · figura completa e testo aperto |
+| 220 | Web 2.0: partecipazione e volume | Pagina nello stile web2 · figura completa e testo aperto |
+| 221 | Scheumorfismo: riconoscere una funzione | Pagina nello stile scheu · figura completa e testo aperto |
+| 222 | Flat design: ridurre il rilievo | Pagina nello stile flat · figura completa e testo aperto |
+| 223 | Material Design: superfici e comportamento | Pagina nello stile material · figura completa e testo aperto |
+| 224 | Semplice non significa sempre usabile | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 225 | Neumorfismo: oggetti dalla superficie | Pagina nello stile neumo · figura completa e testo aperto |
+| 226 | Glassmorfismo: livelli e trasparenze | Pagina nello stile glass · figura completa e testo aperto |
+| 227 | Minimalismo: scegliere che cosa resta | Pagina nello stile minimal · figura completa e testo aperto |
+| 228 | Y2K: reinterpretare un immaginario | Pagina nello stile y2k · figura completa e testo aperto |
+| 229 | Massimalismo: coordinare la densità | Pagina nello stile max · figura completa e testo aperto |
+| 230 | Brutalismo web e neobrutalismo | Pagina nello stile neo · figura completa e testo aperto |
+| 231 | Attività · Un controllo è riconoscibile? | Figura o confronto documentato con didascalia e ingrandimento |
+| 232 | Possibili direzioni: quattro domande | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 233 | Tipografia adattabile ed espressiva | Figura o confronto documentato con didascalia e ingrandimento |
+| 234 | Liquid Glass: dare un ruolo al materiale | Figura o confronto documentato con didascalia e ingrandimento |
+| 235 | Interfacce spaziali: finestre e volumi | Figura o confronto documentato con didascalia e ingrandimento |
+| 236 | Interfacce generate su richiesta | Figura o confronto documentato con didascalia e ingrandimento |
+| 237 | Un’estetica attenta alle risorse | Figura o confronto documentato con didascalia e ingrandimento |
+| 238 | Lo stile va verificato | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 239 | Tre eredità da riconoscere | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 240 | Fonti per continuare | Testo e confronti aperti, con richiami al percorso del capitolo |
+| 241 | Verifica finale · Motivare uno stile | Attività e domande aperte |
+| 242 | Domande? | Mappa a pieno canvas e fascia di testo |
 
 ## Verifica
 

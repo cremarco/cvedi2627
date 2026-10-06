@@ -1,0 +1,131 @@
+{
+  "source": "https://elearning.unimib.it/mod/choicegroup/view.php?id=1680625",
+  "capturedAt": "2026-10-06",
+  "instructions": {
+    "choice": "Una traccia per studente. Un solo studente per traccia.",
+    "deliverable": "PDF individuale; impaginazione libera; immagini e schemi con didascalie e fonti.",
+    "deadlines": "Date e scadenze da confermare."
+  },
+  "topics": [
+    {
+      "code": "A01",
+      "title": "Personas basate su evidenze",
+      "question": "Come distinguere dati, ipotesi e stereotipi nelle personas?",
+      "development": "Confronta interviste, osservazione e questionari. Proponi una checklist per valutare le evidenze e un esempio annotato che colleghi dati raccolti, persona e decisioni d’interfaccia."
+    },
+    {
+      "code": "A02",
+      "title": "Service blueprint e backstage",
+      "question": "Come collegare l’esperienza dell’utente al lavoro che rende possibile il servizio?",
+      "development": "Costruisci il blueprint di un servizio fra web, mobile e contatto fisico. Mostra frontstage, backstage, punti di contatto e dipendenze; confronta la mappa con journey e user flow."
+    },
+    {
+      "code": "A03",
+      "title": "Architettura dell’informazione",
+      "question": "Come organizzare i contenuti per renderli facili da trovare?",
+      "development": "Analizza tassonomie, etichette e strutture di navigazione. Presenta un caso prima/dopo con mappa dei contenuti, motivando le scelte e mostrando come cambia la trovabilità."
+    },
+    {
+      "code": "A04",
+      "title": "UX writing e messaggi di errore",
+      "question": "Come guidare le azioni con microtesti chiari?",
+      "development": "Confronta etichette, istruzioni, conferme, stati vuoti e messaggi di errore in un flusso reale. Proponi riscritture motivate, distinguendo comprensibilità e tono di voce; includi un esercizio commentato."
+    },
+    {
+      "code": "A05",
+      "title": "Design tokens e design system",
+      "question": "Come mantenere coerente un’interfaccia mentre il prodotto cambia?",
+      "development": "Analizza token semantici, varianti, documentazione e versioni. Presenta un piccolo sistema di componenti e un esempio di aggiornamento che colleghi le scelte di design al codice."
+    },
+    {
+      "code": "A06",
+      "title": "Prototipi e livelli di fedeltà",
+      "question": "Quale prototipo serve a ciascuna domanda progettuale?",
+      "development": "Confronta carta, wireframe interattivi, mockup e simulazioni Wizard of Oz. Costruisci una matrice domanda/tipo di prototipo; spiega che cosa ogni soluzione permette di verificare, quali evidenze produce e quali limiti ha."
+    },
+    {
+      "code": "A07",
+      "title": "Interfacce per connessioni lente e offline",
+      "question": "Come comunicare attesa, assenza di rete e recupero?",
+      "development": "Studia caricamento, stati offline, salvataggi locali e tentativi di ripristino. Presenta uno schema degli stati e una sequenza illustrata, con pattern efficaci e controesempi."
+    },
+    {
+      "code": "A08",
+      "title": "Interfacce AI e controllo umano",
+      "question": "Come rendere comprensibili e controllabili risposte e azioni di un sistema AI?",
+      "development": "Analizza incertezza, provenienza delle informazioni, conferme, annullamento e correzione. Confronta casi annotati e proponi un repertorio di pattern, distinguendo capacità reali e comportamenti simulati."
+    },
+    {
+      "code": "A09",
+      "title": "Visualizzare l’incertezza nei dati",
+      "question": "Come mostrare dati incerti senza suggerire una precisione che non hanno?",
+      "development": "Confronta rappresentazioni dello stesso insieme di dati: stime, intervalli, dati mancanti e qualità dei dati. Analizza scelte visive e interattive in grafici o dashboard, proponi alternative motivate e un esercizio di lettura commentato."
+    },
+    {
+      "code": "A10",
+      "title": "Interfacce per il lavoro collaborativo",
+      "question": "Come gestire un’interfaccia usata contemporaneamente da più persone?",
+      "development": "Studia presenza, ruoli, permessi, commenti e versioni in editor o lavagne condivise. Presenta una mappa di ruoli e una sequenza di conflitto di modifica, confrontando le alternative di interazione e i loro limiti."
+    },
+    {
+      "code": "A11",
+      "title": "Notifiche e gestione dell’attenzione",
+      "question": "Quando una notifica aiuta e quando interrompe il compito?",
+      "development": "Confronta avvisi immediati, riepiloghi, badge e centri notifiche. Costruisci una matrice evento/priorità/canale e analizza frequenza, urgenza, contesto e controllo dell’utente, includendo sequenze utili e interruzioni superflue."
+    },
+    {
+      "code": "A12",
+      "title": "Onboarding e primo utilizzo",
+      "question": "Come portare un nuovo utente al primo risultato utile?",
+      "development": "Confronta visite guidate, esempi, contenuti iniziali e aiuto contestuale. Presenta una sequenza di primo utilizzo annotata; spiega che cosa va richiesto subito e che cosa può attendere."
+    },
+    {
+      "code": "A13",
+      "title": "Privacy e permessi nelle interfacce",
+      "question": "Come spiegare dati richiesti, permessi e possibilità di controllo?",
+      "development": "Confronta richieste di permessi e impostazioni. Disegna un flusso richiesta/spiegazione/controllo/revoca, indicando quali dati servono e per quale funzione; valuta la comprensibilità dell’interazione."
+    },
+    {
+      "code": "A14",
+      "title": "Calendari e prenotazioni",
+      "question": "Come prenotare senza ambiguità su disponibilità e tempo?",
+      "development": "Analizza selezione di data e ora, fusi orari, ricorrenze, conflitti, modifica e cancellazione. Confronta calendario, lista di disponibilità e riepilogo; presenta una sequenza di prenotazione con casi limite e vincoli temporali."
+    },
+    {
+      "code": "A15",
+      "title": "Moduli complessi e compilazione",
+      "question": "Come organizzare una compilazione lunga o condizionale?",
+      "development": "Confronta moduli in una pagina e a più passaggi. Presenta un flusso con validazione, riepilogo, salvataggio e ripresa; analizza stati incompleti ed errori e motiva le scelte."
+    },
+    {
+      "code": "A16",
+      "title": "Filtri a faccette e cataloghi",
+      "question": "Come restringere un catalogo senza perdere il contesto?",
+      "development": "Studia combinazioni di filtri, conteggi, selezioni attive, ordinamento e azzeramento. Presenta uno schema degli stati, includendo risultati vuoti; confronta soluzioni che distinguano navigazione e filtraggio."
+    },
+    {
+      "code": "A17",
+      "title": "Annullamento e recupero degli errori",
+      "question": "Come correggere un’azione senza perdere lavoro o contesto?",
+      "development": "Confronta conferme preventive, annullamento, cestino, cronologia e ripristino. Costruisci una mappa azione/rischio/recupero, distinguendo operazioni reversibili e irreversibili, e illustra sequenze di errore e correzione."
+    },
+    {
+      "code": "A18",
+      "title": "Tabelle interattive",
+      "question": "Come leggere e modificare una tabella densa di dati?",
+      "development": "Analizza ordinamento, colonne, scorrimento, selezioni e modifica inline. Confronta tabelle sullo stesso insieme di dati e illustra un’operazione su più righe, mostrando stati, feedback e conservazione del contesto."
+    },
+    {
+      "code": "A19",
+      "title": "Command palette e comandi rapidi",
+      "question": "Come rendere i comandi rapidi facili da scoprire e imparare?",
+      "development": "Confronta command palette, menu e scorciatoie. Presenta una mappa dei comandi e analizza ricerca, suggerimenti e nomi ambigui, distinguendo primo utilizzo e uso frequente."
+    },
+    {
+      "code": "A20",
+      "title": "Lettura e annotazione di documenti",
+      "question": "Come annotare un documento e ritrovare il punto di lettura?",
+      "development": "Confronta indice, ricerca, segnalibri, evidenziazioni, annotazioni e rimandi alla fonte. Illustra il flusso lettura/annotazione/ritorno al riferimento in strumenti documentali, con esempi di orientamento e perdita di contesto."
+    }
+  ]
+}

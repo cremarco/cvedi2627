@@ -138,3 +138,13 @@ Tutte le immagini delle slide e degli ingrandimenti usano un trattamento uniform
 ## Modale immagini
 
 La modale ha un tema autonomo comune perché viene teletrasportata sotto `body`: fondo bianco, raggio 16 px, ombra morbida, titolo Avenir e comando Chiudi indaco con icona. L’accento non viene ereditato dalla lezione. Immagini singole e coppie restano senza cornice; apertura, chiusura con Esc e ritorno del focus usano il dialog nativo condiviso.
+
+
+## Titoli e centraggio del contenuto
+
+Le slide ordinarie mantengono il titolo a 52 px dall’alto e 72 px da sinistra; lo spazio libero sopra e sotto il contenuto è distribuito in modo uniforme, senza cambiare l’ordine di lettura. Le copertine ripristinate restano indipendenti. Anche l’archivio a tutta pagina usa l’ancoraggio comune del titolo, su una superficie leggibile. La suite misura entrambe le coordinate del titolo e lo scarto del centro del gruppo di contenuto.
+
+
+## Approfondimenti A01–A20
+
+Il set di 21 slide segue il brief e mantiene gli ancoraggi comuni di titolo, contenuti, footer e ingrandimenti. Ogni traccia combina domanda ufficiale, tre aspetti da sviluppare, un esito e una figura. La sezione usa indaco con accento lime; venti immagini ImageGen spiegano relazioni e stati specifici, senza mockup HTML interattivi. Titoli e domande sono verificati contro il testo eLearning registrato il 6 ottobre 2026.

@@ -73,7 +73,7 @@ footer: "Lezioni"
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">05</span><span>La metodologia Lean UX</span></button>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">06</span><span>Conclusioni</span></button>
 </div>
-<p class="aside"><SlideAction to="brief-progetto" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction></p>
+<p class="aside index-section-actions"><SlideAction to="brief-progetto" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction><SlideAction to="approfondimenti" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction></p>
 
 ---
 layout: default
@@ -474,26 +474,21 @@ footer: "Temi possibili"
 
 # Approfondimenti: esempi
 
-<p class="lead">Nuovi temi o approfondimenti dei contenuti del corso.</p>
+<p class="lead">Le <strong>20 tracce</strong> per l’elaborato individuale sono disponibili su eLearning.</p>
 
 <ul class="cvedi-list" role="list">
-  <li><span><strong>Storia del design</strong>: continuità e cambiamenti nelle UI contemporanee</span></li>
-  <li><span><strong>Design interculturale</strong>: simboli e convenzioni a confronto</span></li>
-  <li><span><strong>Gestalt e gerarchia visiva</strong> nelle interfacce ricche di informazioni</span></li>
-  <li><span><strong>Colore e tipografia</strong> per accessibilità e leggibilità</span></li>
-  <li><span><strong>Griglie responsive</strong>: coerenza tra dispositivi ed ecosistemi</span></li>
-  <li><span><strong>UI dei videogiochi</strong>: elementi diegetici e non diegetici a confronto</span></li>
-  <li><span><strong>Test di usabilità</strong>: confronto tra metodi, risultati e limiti</span></li>
-  <li><span><strong>Design Thinking e Lean UX</strong>: MVP, iterazioni e apprendimento</span></li>
+  <li><span><strong>A01–A03 · Ricerca e struttura</strong><br>Personas, service blueprint e architettura dell’informazione.</span></li>
+  <li><span><strong>A04–A06 · Linguaggio e progettazione</strong><br>UX writing, design tokens e prototipi.</span></li>
+  <li><span><strong>A07–A10 · Robustezza e complessità</strong><br>Offline, AI, incertezza e collaborazione.</span></li>
+  <li><span><strong>A11–A13 · Relazione con l’utente</strong><br>Notifiche, onboarding, privacy e permessi.</span></li>
+  <li><span><strong>A14–A17 · Percorsi e recupero</strong><br>Calendari, moduli, filtri e annullamento.</span></li>
+  <li><span><strong>A18–A20 · Strumenti di lavoro</strong><br>Tabelle, command palette e documenti.</span></li>
 </ul>
+<p class="aside"><SlideAction to="approfondimenti">Esplora le 20 tracce</SlideAction></p>
 
 <!--
-Proposte di approfondimento derivate dai capitoli del Manuale_booklet:
-C02 — Storia del graphic design e delle interfacce;
-C03 — Empathize, percezione e linguaggio visivo, composizione e gerarchia,
-colore, tipografia, griglie e responsive, videogiochi, test e usabilità;
-C04 — Integrazione di Design Thinking, Lean e UX, MVP e cicli iterativi.
-Fonte: https://www.figma.com/design/zcQ2n1HxQ3ll5LMzX6HMIs/Manuale_booklet?node-id=198-1687
+Fonte: https://elearning.unimib.it/mod/choicegroup/view.php?id=1680625
+Tracce ufficiali A01–A20, lette il 6 ottobre 2026. Una traccia per studente e un solo studente per traccia. L’elaborato è un PDF individuale; date e scadenze sono da confermare. La sezione autonoma dopo il brief contiene una slide per ciascuna traccia.
 -->
 
 ---
@@ -764,6 +759,11 @@ footer: "Comunicazioni"
 ---
 layout: default
 src: ./lezioni/00-brief-progetto.md
+---
+
+---
+layout: default
+src: ./lezioni/00-approfondimenti.md
 ---
 
 ---

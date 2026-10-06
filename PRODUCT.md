@@ -8,7 +8,7 @@ web
 
 ## Product Purpose
 
-Presentazione didattica del corso Comunicazione visiva e design delle interfacce, con informazioni sul corso, brief di progetto e lezioni teoriche. I contenuti, le note del relatore e gli esempi devono restare leggibili durante la presentazione e consultabili autonomamente.
+Presentazione didattica del corso Comunicazione visiva e design delle interfacce, con informazioni sul corso, brief di progetto, approfondimenti individuali e lezioni teoriche. I contenuti, le note del relatore e gli esempi devono restare leggibili durante la presentazione e consultabili autonomamente.
 
 ## Operating Context
 
@@ -16,7 +16,7 @@ Slidev e Vue su canvas 1280 × 720, navigazione da tastiera e indice. Numerazion
 
 ## Capabilities and Constraints
 
-Il deck attuale contiene 153 slide visibili; i sorgenti conservano 221 slide. La lezione 3 è sospesa tramite `disabled: true`, e le voci 03–06 dell’indice sono nascoste. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
+Il deck attuale contiene 174 slide visibili; i sorgenti conservano 242 slide. La lezione 3 è sospesa tramite `disabled: true`, e le voci 03–06 dell’indice sono nascoste. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
 
 ## Brand Commitments
 
@@ -25,3 +25,8 @@ L’utente ha richiesto di copiare la grafica delle slide locali in `/Users/marc
 ## Evidence on Hand
 
 `slides.md`, `lezioni/`, note del relatore, mappe delle fonti in `docs/fonti/`, materiali e figure in `assets/` e `public/`. Il riferimento grafico è un progetto Slidev esistente e ispezionabile.
+
+
+## Approfondimenti individuali
+
+Dopo il brief, il set autonomo `approfondimenti` contiene una copertina e una slide per ciascuna delle 20 tracce A01–A20 pubblicate su eLearning. Titoli e domande ufficiali sono conservati; ogni tema ha un’immagine originale ImageGen nella palette indaco/lime. La fonte e i prompt sono registrati in `assets/approfondimenti/`.

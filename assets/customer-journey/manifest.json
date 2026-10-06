@@ -7,19 +7,58 @@
   "height": 948,
   "sha256": "ca1fd405db73849fe9d70b5a9404adb4202f68143bf16fc58895ce0506311293",
   "transparent": false,
-  "usage": "Customer journey illustrativa, slide 131 del deck / 61 del capitolo Introduzione",
+  "usage": "Customer journey illustrativa, slide 152 del deck / 61 del capitolo Introduzione",
   "modifications": "Copia integrale del PNG generato; pixel e metadati originali conservati",
   "references": [
-    { "role": "composition and flight-booking example", "path": "../../public/images/introduzione/customer-journey.webp", "origin": "Lezione 04, 2025/26, p. 74" },
-    { "role": "current presentation illustration style", "path": "../../public/images/generated/ux-process/illustrations-v1.png" },
-    { "role": "booklet typography and palette", "path": "../booklet/ux-ui-imagegen.png" }
+    {
+      "role": "composition and flight-booking example",
+      "path": "../../public/images/introduzione/customer-journey.webp",
+      "origin": "Lezione 04, 2025/26, p. 74"
+    },
+    {
+      "role": "current presentation illustration style",
+      "path": "../../public/images/generated/ux-process/illustrations-v1.png"
+    },
+    {
+      "role": "booklet typography and palette",
+      "path": "../booklet/ux-ui-imagegen.png"
+    }
   ],
   "phaseGroups": [
-    { "label": "Preparare", "originalStages": ["Idea for a trip", "Start preparing"] },
-    { "label": "Cercare", "originalStages": ["Research", "Start search"] },
-    { "label": "Scegliere", "originalStages": ["Select flight", "Select fare", "Select seats / Add extras"] },
-    { "label": "Pagare", "originalStages": ["User data / Payment"] },
-    { "label": "Confermare", "originalStages": ["Confirmation"] }
+    {
+      "label": "Preparare",
+      "originalStages": [
+        "Idea for a trip",
+        "Start preparing"
+      ]
+    },
+    {
+      "label": "Cercare",
+      "originalStages": [
+        "Research",
+        "Start search"
+      ]
+    },
+    {
+      "label": "Scegliere",
+      "originalStages": [
+        "Select flight",
+        "Select fare",
+        "Select seats / Add extras"
+      ]
+    },
+    {
+      "label": "Pagare",
+      "originalStages": [
+        "User data / Payment"
+      ]
+    },
+    {
+      "label": "Confermare",
+      "originalStages": [
+        "Confirmation"
+      ]
+    }
   ],
   "interpretation": "Sintesi didattica in italiano. Emozioni e opportunità sono illustrative, non risultati di ricerca; l'esempio non descrive Viola."
 }

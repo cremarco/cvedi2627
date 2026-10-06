@@ -25,14 +25,32 @@ export async function checkSlideSources() {
   const lesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'introduzione')
   const history = deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
   const brief = deck.slides.filter(slide => slide.frontmatter.lesson === 'brief-progetto')
+  const approfondimenti = deck.slides.filter(slide => slide.frontmatter.lesson === 'approfondimenti')
+  const topicSource = JSON.parse(await readFile(path.join(root, 'assets/approfondimenti/source-elearning.json'), 'utf8'))
+  const addedSlides = topicSource.topics.length + 1
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
-  assert.equal(total, 221, 'resolved deck: 221 slides, including imports')
+  assert.equal(total, 221 + addedSlides, 'resolved deck includes the new topic section')
   assert.equal(lesson.length, 82, 'introduction: 82 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
   assert.deepEqual(lesson.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: lesson.length }, (_, i) => i + 1), 'lesson sequence')
-  assert.equal(lesson[0].index, 70, 'introduction follows the standalone project brief')
-  assert.equal(deck.slides[lesson[0].index - 1].title, 'Prima della consegna', 'project brief verification precedes introduction')
+  assert.equal(topicSource.topics.length, 20, 'eLearning: twenty official topics')
+  assert.equal(approfondimenti.length, addedSlides, 'topic section: cover and one slide per topic')
+  assert.equal(approfondimenti[0].index, brief.at(-1).index + 1, 'topics immediately follow the brief')
+  assert.equal(approfondimenti[0].frontmatter.routeAlias, 'approfondimenti', 'stable topic section alias')
+  assert.deepEqual(approfondimenti.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: addedSlides }, (_, i) => i + 1), 'topic section sequence')
+  const topicImages = new Set()
+  for (const [index, topic] of topicSource.topics.entries()) {
+    const slide = approfondimenti[index + 1]
+    assert.equal(slide.frontmatter.topicCode, topic.code, `official topic ${topic.code}: identity`)
+    assert.equal(slide.title, `${topic.code} · ${topic.title}`, `official topic ${topic.code}: title`)
+    assert.ok(slide.content.includes(topic.question), `official topic ${topic.code}: original question`)
+    const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)]
+    assert.equal(figures.length, 1, `official topic ${topic.code}: one illustration`)
+    topicImages.add(figures[0][1])
+  }
+  assert.equal(topicImages.size, topicSource.topics.length, 'each official topic has its own image')
+  assert.equal(lesson[0].index, approfondimenti.at(-1).index + 1, 'introduction follows the topic section')
   assert.equal(deck.slides.at(-1).title, 'Domande?', 'original closing follows the teaching chapters')
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
@@ -150,7 +168,7 @@ export async function checkSlideSources() {
   assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 45 + i), 'project brief: consecutive slides 46–70')
   assert.deepEqual(brief.map(slide => slide.frontmatter.routeAlias), briefAliases, 'project brief: stable aliases in lesson order')
   assert.equal(deck.slides[brief[0].index - 1].title, 'Contatti', 'course contacts precede project brief')
-  assert.equal(brief.at(-1).index + 1, lesson[0].index, 'introduction immediately follows project brief')
+  assert.equal(brief.at(-1).index + 1, approfondimenti[0].index, 'topic section immediately follows project brief')
   assert.match(deck.slides[2].content, /<SlideAction\s+to=["']brief-progetto["']/, 'course index opens the standalone project brief')
   assert.ok(deck.slides.every(slide => !('briefStep' in slide.frontmatter)), 'project brief uses lessonSlide instead of obsolete briefStep')
   const briefMap = await readFile(new URL('../../docs/fonti/00-brief-progetto.md', import.meta.url), 'utf8')
@@ -240,8 +258,8 @@ export async function checkSlideSources() {
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
     publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length,
     historyBookletPages: chapterPages.size, historyStyles: historyStyleSlides.length, historyFigures: historyFigures.length,
-    recoveredSlides: audit.integratedSlides.length, projectBriefSlides: brief.length }
-  return { deck: visibleDeck, total: visibleDeck.slides.length, lesson, history: visibleHistory, brief, course,
+    recoveredSlides: audit.integratedSlides.length, projectBriefSlides: brief.length, approfondimentiSlides: approfondimenti.length, officialTopics: topicSource.topics.length }
+  return { deck: visibleDeck, total: visibleDeck.slides.length, lesson, history: visibleHistory, brief, course, approfondimenti, topicSource,
     projects, uxExamples, uxSlides, audit: { ...audit, integratedSlides: audit.integratedSlides.filter(entry =>
       visibleDeck.slides.some(slide => slide.frontmatter.routeAlias === entry.alias)) }, report }
 }

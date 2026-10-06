@@ -3,7 +3,7 @@ import { mkdir, writeFile } from 'node:fs/promises'
 import assert from 'node:assert/strict'
 import { checkSlideSources } from './slide-source.mjs'
 
-const { deck, total, lesson, history, brief, projects, uxExamples, uxSlides, audit } = await checkSlideSources()
+const { deck, total, lesson, history, brief, approfondimenti, projects, uxExamples, uxSlides, audit } = await checkSlideSources()
 const baseURL = process.env.SLIDEV_URL || 'http://localhost:3035'
 const output = process.env.SLIDEV_SCREENSHOTS
 const pageNumber = slide => slide.index + 1
@@ -119,6 +119,7 @@ const recoveredPages = audit.integratedSlides.map(entry => {
 })
 const uxPages = uxSlides.map(pageNumber)
 const briefPages = brief.map(pageNumber)
+const topicPages = approfondimenti.map(pageNumber)
 const introductionDiscussion = lesson.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
 const historyDiscussion = history.filter(slide => String(slide.frontmatter.class).includes('lesson-activity'))[2]
 if (output) await mkdir(output, { recursive: true })
@@ -141,6 +142,10 @@ try {
   await page.locator('.slidev-page-3').getByRole('button', { name: /Brief/i }).click()
   await page.locator(`.slidev-page-${briefStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${briefStart} h1`).textContent(), brief[0].title, 'index opens standalone project brief')
+  await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
+  await page.getByRole('button', { name: /Approfondimenti individuali/ }).click()
+  await page.locator(`.slidev-page-${topicPages[0]} .slidev-layout`).waitFor()
+  assert.equal(await page.locator(`.slidev-page-${topicPages[0]} h1`).textContent(), 'Approfondimenti', 'index opens the official topic section')
   async function inspect(number, narrow = false, print = false) {
     await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
     const slide = page.locator(`.slidev-page-${number} .slidev-layout`)
@@ -188,6 +193,22 @@ try {
       }
       const backgrounds = [...new Set([...root.querySelectorAll('.cvedi-card')].map(card => getComputedStyle(card).backgroundColor))]
       const title = root.querySelector('h1')
+      let contentCenterError = null
+      if (root.classList.contains('centered-content-slide')) {
+        const content = [...root.children].filter(element => {
+          const style = getComputedStyle(element)
+          return element !== title && !element.classList.contains('slide-footer')
+            && !['absolute', 'fixed'].includes(style.position) && style.display !== 'none'
+        }).map(element => element.getBoundingClientRect()).filter(rect => rect.width && rect.height)
+        if (content.length) {
+          const titleBox = title.getBoundingClientRect()
+          const areaTop = titleBox.bottom + parseFloat(getComputedStyle(title).marginBottom) * scale
+          const areaBottom = box.bottom - parseFloat(getComputedStyle(root).paddingBottom) * scale
+          const contentTop = Math.min(...content.map(rect => rect.top))
+          const contentBottom = Math.max(...content.map(rect => rect.bottom))
+          contentCenterError = Math.abs((contentTop + contentBottom - areaTop - areaBottom) / (2 * scale))
+        }
+      }
       const webStyle = [...root.classList].find(name => name.startsWith('web-style-') && name !== 'web-style-slide')?.replace('web-style-', '')
       const webTypography = webStyle ? [title, root.querySelector('p'), root.querySelector('.lesson-caption')].map(element => {
         if (!element) return null
@@ -203,6 +224,9 @@ try {
         page: expected,
         title: title?.textContent.trim(),
         titleTop: Math.round((title.getBoundingClientRect().top - box.top) / scale),
+        titleLeft: Math.round((title.getBoundingClientRect().left - box.left) / scale),
+        cover: root.classList.contains('cover-slide') || root.classList.contains('chapter-slide'),
+        contentCenterError,
         footer: root.querySelector('.slide-index')?.textContent.trim(),
         footerLabel: root.querySelector('.slide-index')?.getAttribute('aria-label'),
         headings: root.querySelectorAll('h1').length,
@@ -233,7 +257,12 @@ try {
     assert.equal(report.codeBlocks, 0, `slide ${number}: unintended code block`)
     assert.equal(report.brokenImages.length, 0, `slide ${number}: missing images`)
     assert.ok(report.backgrounds.length <= 1, `slide ${number}: inconsistent card surfaces`)
-    if (report.reading) assert.equal(report.titleTop, 52, `slide ${number}: stable reading title anchor`)
+    if (!report.cover) {
+      assert.equal(report.titleTop, 52, `slide ${number}: stable title top`)
+      assert.equal(report.titleLeft, 72, `slide ${number}: stable title left`)
+    }
+    if (report.contentCenterError !== null)
+      assert.ok(report.contentCenterError <= 1, `slide ${number}: vertically centered content (${report.contentCenterError.toFixed(2)}px offset)`)
     if (report.webStyle) {
       const expectedFonts = webStyleFonts[report.webStyle]
       assert.ok(expectedFonts, `slide ${number}: known interface style`)
@@ -312,7 +341,7 @@ try {
     await page.locator('dialog[open]').waitFor()
     await page.locator('dialog[open]').getByRole('button', { name: 'Chiudi', exact: true }).click()
   }
-  for (const number of [...fixturePages('enlargement'), uxPages[0], uxPages[9]]) await inspectEnlargement(number)
+  for (const number of [...fixturePages('enlargement'), uxPages[0], uxPages[9], topicPages[1], topicPages[9], topicPages.at(-1)]) await inspectEnlargement(number)
   await page.setViewportSize({ width: 636, height: 778 })
   const narrowNumbers = new Set([
     2, 3, 4, 8, 12, 19,
@@ -320,16 +349,16 @@ try {
     ...fixturePages('narrowIntroduction'),
     // History: opening, timeline, images, paired posters, cards, activities and long titles.
     ...fixturePages('narrowHistory'),
-    ...uxPages, ...recoveredPages, ...briefPages, total,
+    ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
-  for (const number of [...fixturePages('narrowEnlargement'), uxPages[9]]) await inspectEnlargement(number, true)
+  for (const number of [...fixturePages('narrowEnlargement'), uxPages[9], topicPages[9], topicPages.at(-1)]) await inspectEnlargement(number, true)
   // Check print styles without generating a PDF. Slidev's full print route
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })
   await page.setViewportSize({ width: 1280, height: 720 })
-  for (const number of new Set([...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, total])) await inspect(number, false, true)
+  for (const number of new Set([...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, total])) await inspect(number, false, true)
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()

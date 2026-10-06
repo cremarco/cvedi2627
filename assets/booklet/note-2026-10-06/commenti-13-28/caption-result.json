@@ -1,0 +1,2394 @@
+{
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2008:1740",
+  "comments": [
+    16,
+    18,
+    22
+  ],
+  "folios": [
+    54,
+    56,
+    58
+  ],
+  "status": "applied-and-visually-verified",
+  "createdNodeIds": [
+    "2396:247",
+    "2396:248",
+    "2396:249",
+    "2396:250",
+    "2396:251",
+    "2396:252",
+    "2396:253",
+    "2396:254",
+    "2396:255",
+    "2396:256",
+    "2396:257",
+    "2396:258"
+  ],
+  "mutatedNodeIds": [
+    "2326:258",
+    "2326:259",
+    "2326:261",
+    "2396:247",
+    "2326:262",
+    "2326:264",
+    "2396:248",
+    "2326:260",
+    "2326:263",
+    "2326:265",
+    "2326:266",
+    "2326:268",
+    "2396:249",
+    "2326:269",
+    "2326:271",
+    "2396:250",
+    "2326:267",
+    "2326:270",
+    "2326:287",
+    "2326:288",
+    "2326:290",
+    "2396:251",
+    "2326:291",
+    "2326:293",
+    "2396:252",
+    "2326:289",
+    "2326:292",
+    "2326:294",
+    "2326:295",
+    "2326:297",
+    "2396:253",
+    "2326:298",
+    "2326:300",
+    "2396:254",
+    "2326:296",
+    "2326:299",
+    "2326:316",
+    "2326:317",
+    "2326:319",
+    "2396:255",
+    "2326:320",
+    "2326:322",
+    "2396:256",
+    "2326:318",
+    "2326:321",
+    "2326:323",
+    "2326:324",
+    "2326:326",
+    "2396:257",
+    "2326:327",
+    "2326:329",
+    "2396:258",
+    "2326:325",
+    "2326:328"
+  ],
+  "summary": "Twelve captions now use 7 px Merriweather Light /10 px leading inside221×32px neutral caption bands with6px inset,7px image-caption spacing and16px figure spacing. All original caption characters/font families and image fills/hashes retained. Illustrations scaled uniformly by about6.78% and centered, preserving original crops and aspect ratios. Each of the6 columns and3 panels remains534px high, clears footer y604 by10px.",
+  "beforeSnapshots": [
+    {
+      "comment": 16,
+      "folio": 54,
+      "pageId": "2326:254",
+      "panelId": "2326:257",
+      "panel": {
+        "id": "2326:257",
+        "name": "Masonry · quattro screenshot autentici · html",
+        "type": "FRAME",
+        "parentId": "2326:254",
+        "index": 2,
+        "x": 22,
+        "y": 60,
+        "width": 452,
+        "height": 534,
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "opacity": 1,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutPositioning": "AUTO",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "itemSpacing": 10,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "clipsContent": false
+      },
+      "columns": [
+        {
+          "original": {
+            "id": "2326:258",
+            "name": "Colonna masonry · 1",
+            "type": "FRAME",
+            "parentId": "2326:257",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 221,
+            "height": 534,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "opacity": 1,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "layoutPositioning": "AUTO",
+            "layoutMode": "VERTICAL",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "itemSpacing": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "clipsContent": false
+          },
+          "cards": [
+            {
+              "original": {
+                "id": "2326:259",
+                "name": "Figura reale · CERN · viewport stretto",
+                "type": "FRAME",
+                "parentId": "2326:258",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 372.8197326660156,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:260",
+                "name": "Screenshot originale · real-html-2",
+                "type": "RECTANGLE",
+                "parentId": "2326:259",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 347.8197326660156,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "CROP",
+                    "scalingFactor": 1,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        0.8736565709114075,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "90fb9bee84780f35cfb02c71b5852d5ab5c2331e"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:261",
+                "name": "Didascalia · CERN · viewport stretto\narchivio / tema storico · info.cern.",
+                "type": "TEXT",
+                "parentId": "2326:259",
+                "index": 1,
+                "x": 0,
+                "y": 351.8197326660156,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "CERN · viewport stretto\narchivio / tema storico · info.cern.ch",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            },
+            {
+              "original": {
+                "id": "2326:262",
+                "name": "Figura reale · CERN · The World Wide Web project",
+                "type": "FRAME",
+                "parentId": "2326:258",
+                "index": 1,
+                "x": 0,
+                "y": 384.8197326660156,
+                "width": 221,
+                "height": 149.18026733398438,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:263",
+                "name": "Screenshot originale · real-html-1",
+                "type": "RECTANGLE",
+                "parentId": "2326:262",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 124.18026733398438,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "CROP",
+                    "scalingFactor": 1,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        0.8736565709114075,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "2906c9e3e8a7841e97b62457db2720d1b3b18530"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:264",
+                "name": "Didascalia · CERN · The World Wide Web project\narchivio / tema storico · ",
+                "type": "TEXT",
+                "parentId": "2326:262",
+                "index": 1,
+                "x": 0,
+                "y": 128.18026733398438,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "CERN · The World Wide Web project\narchivio / tema storico · info.cern.ch",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            }
+          ]
+        },
+        {
+          "original": {
+            "id": "2326:265",
+            "name": "Colonna masonry · 2",
+            "type": "FRAME",
+            "parentId": "2326:257",
+            "index": 1,
+            "x": 231,
+            "y": 0,
+            "width": 221,
+            "height": 534,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "opacity": 1,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "layoutPositioning": "AUTO",
+            "layoutMode": "VERTICAL",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "itemSpacing": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "clipsContent": false
+          },
+          "cards": [
+            {
+              "original": {
+                "id": "2326:266",
+                "name": "Figura reale · Berkshire Hathaway · homepage",
+                "type": "FRAME",
+                "parentId": "2326:265",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 199.47470092773438,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:267",
+                "name": "Screenshot originale · real-html-4",
+                "type": "RECTANGLE",
+                "parentId": "2326:266",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 174.47470092773438,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "609909d1a0859786874e7e0fe4185f2aa32e44d3"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:268",
+                "name": "Didascalia · Berkshire Hathaway · homepage\nfonte ufficiale · berkshirehat",
+                "type": "TEXT",
+                "parentId": "2326:266",
+                "index": 1,
+                "x": 0,
+                "y": 178.47470092773438,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "Berkshire Hathaway · homepage\nfonte ufficiale · berkshirehathaway.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            },
+            {
+              "original": {
+                "id": "2326:269",
+                "name": "Figura reale · Warner Bros. · Space Jam, 1996",
+                "type": "FRAME",
+                "parentId": "2326:265",
+                "index": 1,
+                "x": 0,
+                "y": 211.47470092773438,
+                "width": 221,
+                "height": 322.5252990722656,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:270",
+                "name": "Screenshot originale · real-html-3",
+                "type": "RECTANGLE",
+                "parentId": "2326:269",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 297.5252990722656,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "0dd31686a81f58f471b172ab7224d0c0e965d93c"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:271",
+                "name": "Didascalia · Warner Bros. · Space Jam, 1996\narchivio / tema storico · spa",
+                "type": "TEXT",
+                "parentId": "2326:269",
+                "index": 1,
+                "x": 0,
+                "y": 301.5252990722656,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "Warner Bros. · Space Jam, 1996\narchivio / tema storico · spacejam.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": 18,
+      "folio": 56,
+      "pageId": "2326:283",
+      "panelId": "2326:286",
+      "panel": {
+        "id": "2326:286",
+        "name": "Masonry · quattro screenshot autentici · web2",
+        "type": "FRAME",
+        "parentId": "2326:283",
+        "index": 2,
+        "x": 22,
+        "y": 60,
+        "width": 452,
+        "height": 534,
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "opacity": 1,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutPositioning": "AUTO",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "itemSpacing": 10,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "clipsContent": false
+      },
+      "columns": [
+        {
+          "original": {
+            "id": "2326:287",
+            "name": "Colonna masonry · 1",
+            "type": "FRAME",
+            "parentId": "2326:286",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 221,
+            "height": 534,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "opacity": 1,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "layoutPositioning": "AUTO",
+            "layoutMode": "VERTICAL",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "itemSpacing": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "clipsContent": false
+          },
+          "cards": [
+            {
+              "original": {
+                "id": "2326:288",
+                "name": "Figura reale · OpenJS · jQuery Mobile Classic",
+                "type": "FRAME",
+                "parentId": "2326:287",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 369.43243408203125,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:289",
+                "name": "Screenshot originale · real-web2-2",
+                "type": "RECTANGLE",
+                "parentId": "2326:288",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 344.43243408203125,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "d4987f3eb6b8a6e20d079096dfddcdb9ddfed9e8"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:290",
+                "name": "Didascalia · OpenJS · jQuery Mobile Classic\narchivio / tema storico · dem",
+                "type": "TEXT",
+                "parentId": "2326:288",
+                "index": 1,
+                "x": 0,
+                "y": 348.43243408203125,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "OpenJS · jQuery Mobile Classic\narchivio / tema storico · demos.jquerymobile.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            },
+            {
+              "original": {
+                "id": "2326:291",
+                "name": "Figura reale · OpenJS · jQuery UI ThemeRoller",
+                "type": "FRAME",
+                "parentId": "2326:287",
+                "index": 1,
+                "x": 0,
+                "y": 381.43243408203125,
+                "width": 221,
+                "height": 152.56756591796875,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:292",
+                "name": "Screenshot originale · real-web2-1",
+                "type": "RECTANGLE",
+                "parentId": "2326:291",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 127.56756591796875,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "58707b04aa4db6cb35d6a044eaa551f4f4cf7725"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:293",
+                "name": "Didascalia · OpenJS · jQuery UI ThemeRoller\ndemo eseguibile · jqueryui.co",
+                "type": "TEXT",
+                "parentId": "2326:291",
+                "index": 1,
+                "x": 0,
+                "y": 131.56756591796875,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "OpenJS · jQuery UI ThemeRoller\ndemo eseguibile · jqueryui.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            }
+          ]
+        },
+        {
+          "original": {
+            "id": "2326:294",
+            "name": "Colonna masonry · 2",
+            "type": "FRAME",
+            "parentId": "2326:286",
+            "index": 1,
+            "x": 231,
+            "y": 0,
+            "width": 221,
+            "height": 534,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "opacity": 1,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "layoutPositioning": "AUTO",
+            "layoutMode": "VERTICAL",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "itemSpacing": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "clipsContent": false
+          },
+          "cards": [
+            {
+              "original": {
+                "id": "2326:295",
+                "name": "Figura reale · WordPress · Default / Kubrick",
+                "type": "FRAME",
+                "parentId": "2326:294",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 168.3924102783203,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:296",
+                "name": "Screenshot originale · real-web2-3",
+                "type": "RECTANGLE",
+                "parentId": "2326:295",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 143.3924102783203,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "ac5f4c7e00ca0ef90a3e5fce354cd37def78f65d"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:297",
+                "name": "Didascalia · WordPress · Default / Kubrick\narchivio / tema storico · word",
+                "type": "TEXT",
+                "parentId": "2326:295",
+                "index": 1,
+                "x": 0,
+                "y": 147.3924102783203,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "WordPress · Default / Kubrick\narchivio / tema storico · wordpress.org",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            },
+            {
+              "original": {
+                "id": "2326:298",
+                "name": "Figura reale · OpenJS · jQuery Mobile 1.3.2",
+                "type": "FRAME",
+                "parentId": "2326:294",
+                "index": 1,
+                "x": 0,
+                "y": 180.3924102783203,
+                "width": 221,
+                "height": 353.60760498046875,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:299",
+                "name": "Screenshot originale · real-web2-4",
+                "type": "RECTANGLE",
+                "parentId": "2326:298",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 328.60760498046875,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "fd13a56703df8d4613129ff8f08ebb2e2c9c9323"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:300",
+                "name": "Didascalia · OpenJS · jQuery Mobile 1.3.2\narchivio / tema storico · demos",
+                "type": "TEXT",
+                "parentId": "2326:298",
+                "index": 1,
+                "x": 0,
+                "y": 332.60760498046875,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "OpenJS · jQuery Mobile 1.3.2\narchivio / tema storico · demos.jquerymobile.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "comment": 22,
+      "folio": 58,
+      "pageId": "2326:312",
+      "panelId": "2326:315",
+      "panel": {
+        "id": "2326:315",
+        "name": "Masonry · quattro screenshot autentici · scheu",
+        "type": "FRAME",
+        "parentId": "2326:312",
+        "index": 2,
+        "x": 22,
+        "y": 60,
+        "width": 452,
+        "height": 534,
+        "fills": [],
+        "strokes": [],
+        "strokeWeight": 1,
+        "opacity": 1,
+        "layoutSizingHorizontal": "FIXED",
+        "layoutSizingVertical": "HUG",
+        "layoutPositioning": "AUTO",
+        "layoutMode": "HORIZONTAL",
+        "primaryAxisSizingMode": "FIXED",
+        "counterAxisSizingMode": "AUTO",
+        "primaryAxisAlignItems": "MIN",
+        "counterAxisAlignItems": "MIN",
+        "itemSpacing": 10,
+        "paddingTop": 0,
+        "paddingBottom": 0,
+        "paddingLeft": 0,
+        "paddingRight": 0,
+        "clipsContent": false
+      },
+      "columns": [
+        {
+          "original": {
+            "id": "2326:316",
+            "name": "Colonna masonry · 1",
+            "type": "FRAME",
+            "parentId": "2326:315",
+            "index": 0,
+            "x": 0,
+            "y": 0,
+            "width": 221,
+            "height": 534,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "opacity": 1,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "layoutPositioning": "AUTO",
+            "layoutMode": "VERTICAL",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "itemSpacing": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "clipsContent": false
+          },
+          "cards": [
+            {
+              "original": {
+                "id": "2326:317",
+                "name": "Figura reale · Jordan Eldredge · Webamp",
+                "type": "FRAME",
+                "parentId": "2326:316",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 389.2374572753906,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:318",
+                "name": "Screenshot originale · real-scheu-1",
+                "type": "RECTANGLE",
+                "parentId": "2326:317",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 364.2374572753906,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "3f35109385bec9f637d170d1bacc8b061fca6524"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:319",
+                "name": "Didascalia · Jordan Eldredge · Webamp\nsito attuale · webamp.org",
+                "type": "TEXT",
+                "parentId": "2326:317",
+                "index": 1,
+                "x": 0,
+                "y": 368.2374572753906,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "Jordan Eldredge · Webamp\nsito attuale · webamp.org",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            },
+            {
+              "original": {
+                "id": "2326:320",
+                "name": "Figura reale · Apple · GarageBand Smart Guitar",
+                "type": "FRAME",
+                "parentId": "2326:316",
+                "index": 1,
+                "x": 0,
+                "y": 401.2374572753906,
+                "width": 221,
+                "height": 132.76255798339844,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:321",
+                "name": "Screenshot originale · real-scheu-4",
+                "type": "RECTANGLE",
+                "parentId": "2326:320",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 107.76255798339844,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "5e17456a689b17c19f8cbf0b3b7f6ca0f254c1c3"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:322",
+                "name": "Didascalia · Apple · GarageBand Smart Guitar\nfonte ufficiale · apple.com",
+                "type": "TEXT",
+                "parentId": "2326:320",
+                "index": 1,
+                "x": 0,
+                "y": 111.76255798339844,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "Apple · GarageBand Smart Guitar\nfonte ufficiale · apple.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            }
+          ]
+        },
+        {
+          "original": {
+            "id": "2326:323",
+            "name": "Colonna masonry · 2",
+            "type": "FRAME",
+            "parentId": "2326:315",
+            "index": 1,
+            "x": 231,
+            "y": 0,
+            "width": 221,
+            "height": 534,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "opacity": 1,
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "layoutPositioning": "AUTO",
+            "layoutMode": "VERTICAL",
+            "primaryAxisSizingMode": "AUTO",
+            "counterAxisSizingMode": "FIXED",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "MIN",
+            "itemSpacing": 12,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "paddingRight": 0,
+            "clipsContent": false
+          },
+          "cards": [
+            {
+              "original": {
+                "id": "2326:324",
+                "name": "Figura reale · Apple · GarageBand, amplificatori e pedali",
+                "type": "FRAME",
+                "parentId": "2326:323",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 233.2220001220703,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:325",
+                "name": "Screenshot originale · real-scheu-2",
+                "type": "RECTANGLE",
+                "parentId": "2326:324",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 208.2220001220703,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "aea53dec161f1eadc9b4386385628e115f1f70f5"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:326",
+                "name": "Didascalia · Apple · GarageBand, amplificatori e pedali\nfonte ufficiale ·",
+                "type": "TEXT",
+                "parentId": "2326:324",
+                "index": 1,
+                "x": 0,
+                "y": 212.2220001220703,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "Apple · GarageBand, amplificatori e pedali\nfonte ufficiale · apple.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            },
+            {
+              "original": {
+                "id": "2326:327",
+                "name": "Figura reale · Reason Studios · rack virtuale",
+                "type": "FRAME",
+                "parentId": "2326:323",
+                "index": 1,
+                "x": 0,
+                "y": 245.2220001220703,
+                "width": 221,
+                "height": 288.77801513671875,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "layoutMode": "VERTICAL",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "itemSpacing": 4,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "clipsContent": false
+              },
+              "image": {
+                "id": "2326:328",
+                "name": "Screenshot originale · real-scheu-3",
+                "type": "RECTANGLE",
+                "parentId": "2326:327",
+                "index": 0,
+                "x": 0,
+                "y": 0,
+                "width": 221,
+                "height": 263.77801513671875,
+                "fills": [
+                  {
+                    "type": "IMAGE",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "scaleMode": "FILL",
+                    "scalingFactor": 1,
+                    "rotation": 0,
+                    "filters": {
+                      "exposure": 0,
+                      "contrast": 0,
+                      "saturation": 0,
+                      "temperature": 0,
+                      "tint": 0,
+                      "highlights": 0,
+                      "shadows": 0
+                    },
+                    "imageTransform": [
+                      [
+                        1,
+                        0,
+                        0
+                      ],
+                      [
+                        0,
+                        1,
+                        0
+                      ]
+                    ],
+                    "imageHash": "b039ba0aa58c4b05ccf6d7bfaee9d95ed7aa2dda"
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "layoutPositioning": "AUTO"
+              },
+              "caption": {
+                "id": "2326:329",
+                "name": "Didascalia · Reason Studios · rack virtuale\nfonte ufficiale · reasonstudi",
+                "type": "TEXT",
+                "parentId": "2326:327",
+                "index": 1,
+                "x": 0,
+                "y": 267.77801513671875,
+                "width": 221,
+                "height": 21,
+                "fills": [
+                  {
+                    "type": "SOLID",
+                    "visible": true,
+                    "opacity": 1,
+                    "blendMode": "NORMAL",
+                    "color": {
+                      "r": 0.0117647061124444,
+                      "g": 0.027450980618596077,
+                      "b": 0.07058823853731155
+                    },
+                    "boundVariables": {}
+                  }
+                ],
+                "strokes": [],
+                "strokeWeight": 1,
+                "opacity": 1,
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "HUG",
+                "layoutPositioning": "AUTO",
+                "characters": "Reason Studios · rack virtuale\nfonte ufficiale · reasonstudios.com",
+                "fontSize": 7.25,
+                "fontName": {
+                  "family": "Merriweather",
+                  "style": "Light",
+                  "variationSettings": {
+                    "wght": 300,
+                    "wdth": 100
+                  }
+                },
+                "lineHeight": {
+                  "unit": "PIXELS",
+                  "value": 10.5
+                },
+                "letterSpacing": {
+                  "unit": "PIXELS",
+                  "value": 0
+                },
+                "textAutoResize": "HEIGHT",
+                "textAlignHorizontal": "LEFT",
+                "textAlignVertical": "TOP",
+                "textStyleId": ""
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "initialCaptionChecks": [
+    {
+      "cardId": "2326:259",
+      "imageId": "2326:260",
+      "imageHeight": 324.2387390136719,
+      "captionId": "2326:261",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:247",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "cardId": "2326:262",
+      "imageId": "2326:263",
+      "imageHeight": 115.76126861572266,
+      "captionId": "2326:264",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:248",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "columnId": "2326:258",
+      "height": 534,
+      "target": 534,
+      "withinHeight": true
+    },
+    {
+      "cardId": "2326:266",
+      "imageId": "2326:267",
+      "imageHeight": 162.64590454101562,
+      "captionId": "2326:268",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:249",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "cardId": "2326:269",
+      "imageId": "2326:270",
+      "imageHeight": 277.3540954589844,
+      "captionId": "2326:271",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:250",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "columnId": "2326:265",
+      "height": 534,
+      "target": 534,
+      "withinHeight": true
+    },
+    {
+      "panelId": "2326:257",
+      "height": 534,
+      "endsBeforeFooter": true
+    },
+    {
+      "cardId": "2326:288",
+      "imageId": "2326:289",
+      "imageHeight": 321.0810852050781,
+      "captionId": "2326:290",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:251",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "cardId": "2326:291",
+      "imageId": "2326:292",
+      "imageHeight": 118.91891479492188,
+      "captionId": "2326:293",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:252",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "columnId": "2326:287",
+      "height": 534,
+      "target": 534,
+      "withinHeight": true
+    },
+    {
+      "cardId": "2326:295",
+      "imageId": "2326:296",
+      "imageHeight": 133.67088317871094,
+      "captionId": "2326:297",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:253",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "cardId": "2326:298",
+      "imageId": "2326:299",
+      "imageHeight": 306.3291015625,
+      "captionId": "2326:300",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:254",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "columnId": "2326:294",
+      "height": 534,
+      "target": 534,
+      "withinHeight": true
+    },
+    {
+      "panelId": "2326:286",
+      "height": 534,
+      "endsBeforeFooter": true
+    },
+    {
+      "cardId": "2326:317",
+      "imageId": "2326:318",
+      "imageHeight": 339.54339599609375,
+      "captionId": "2326:319",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:255",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "cardId": "2326:320",
+      "imageId": "2326:321",
+      "imageHeight": 100.45661926269531,
+      "captionId": "2326:322",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:256",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "columnId": "2326:316",
+      "height": 534,
+      "target": 534,
+      "withinHeight": true
+    },
+    {
+      "cardId": "2326:324",
+      "imageId": "2326:325",
+      "imageHeight": 194.10525512695312,
+      "captionId": "2326:326",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:257",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "cardId": "2326:327",
+      "imageId": "2326:328",
+      "imageHeight": 245.89474487304688,
+      "captionId": "2326:329",
+      "captionWidth": 209,
+      "captionHeight": 20,
+      "captionBandId": "2396:258",
+      "captionBandHeight": 32,
+      "imageFillsUnchanged": true,
+      "captionTextUnchanged": true,
+      "gap": 7,
+      "bandFits": true
+    },
+    {
+      "columnId": "2326:323",
+      "height": 534,
+      "target": 534,
+      "withinHeight": true
+    },
+    {
+      "panelId": "2326:315",
+      "height": 534,
+      "endsBeforeFooter": true
+    }
+  ],
+  "finalCropAndImageBoundsChecks": [
+    {
+      "folio": 54,
+      "imageId": "2326:260",
+      "cardId": "2326:259",
+      "width": 206.01695251464844,
+      "height": 324.2387390136719,
+      "originalAspect": 0.6353866076143794,
+      "currentAspect": 0.6353866078475019,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 54,
+      "imageId": "2326:263",
+      "cardId": "2326:262",
+      "width": 206.01695251464844,
+      "height": 115.76126861572266,
+      "originalAspect": 1.779670834542639,
+      "currentAspect": 1.7796708258142506,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 54,
+      "imageId": "2326:267",
+      "cardId": "2326:266",
+      "width": 206.01695251464844,
+      "height": 162.64590454101562,
+      "originalAspect": 1.266659285414313,
+      "currentAspect": 1.2666593302550426,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 54,
+      "imageId": "2326:270",
+      "cardId": "2326:269",
+      "width": 206.01695251464844,
+      "height": 277.3540954589844,
+      "originalAspect": 0.7427939764756661,
+      "currentAspect": 0.7427939802861667,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 56,
+      "imageId": "2326:289",
+      "cardId": "2326:288",
+      "width": 206.01695251464844,
+      "height": 321.0810852050781,
+      "originalAspect": 0.641635276274144,
+      "currentAspect": 0.6416352815771227,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 56,
+      "imageId": "2326:292",
+      "cardId": "2326:291",
+      "width": 206.01693725585938,
+      "height": 118.91891479492188,
+      "originalAspect": 1.732415276639457,
+      "currentAspect": 1.732415214275541,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 56,
+      "imageId": "2326:296",
+      "cardId": "2326:295",
+      "width": 206.01693725585938,
+      "height": 133.67088317871094,
+      "originalAspect": 1.5412252264331543,
+      "currentAspect": 1.5412252268912263,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 56,
+      "imageId": "2326:299",
+      "cardId": "2326:298",
+      "width": 206.01693725585938,
+      "height": 306.3291015625,
+      "originalAspect": 0.6725346481653565,
+      "currentAspect": 0.6725346570241743,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 58,
+      "imageId": "2326:318",
+      "cardId": "2326:317",
+      "width": 206.01695251464844,
+      "height": 339.54339599609375,
+      "originalAspect": 0.6067470425835626,
+      "currentAspect": 0.6067470460153451,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 58,
+      "imageId": "2326:321",
+      "cardId": "2326:320",
+      "width": 206.01693725585938,
+      "height": 100.45661926269531,
+      "originalAspect": 2.050805067508202,
+      "currentAspect": 2.050805001879692,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 58,
+      "imageId": "2326:325",
+      "cardId": "2326:324",
+      "width": 206.01695251464844,
+      "height": 194.10525512695312,
+      "originalAspect": 1.0613671940065823,
+      "currentAspect": 1.0613672070851692,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    },
+    {
+      "folio": 58,
+      "imageId": "2326:328",
+      "cardId": "2326:327",
+      "width": 206.01693725585938,
+      "height": 245.89474487304688,
+      "originalAspect": 0.8378256993307555,
+      "currentAspect": 0.8378257020589194,
+      "aspectPreserved": true,
+      "imageFillsUnchanged": true,
+      "withinCard": true
+    }
+  ],
+  "visualVerification": {
+    "passed": true,
+    "folios": {
+      "54": "Caption bands clearly separated from white early-web screenshots; footer and folio intact, no caption crop.",
+      "56": "After preserving original image aspect ratios, all previously visible headings remain visible. Caption bands and both columns fit cleanly.",
+      "58": "Winamp, GarageBand and Reason images keep original crops and proportions; all4 caption bands readable, clear and contained."
+    },
+    "screenshots": [
+      {
+        "folio": 54,
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/note-2026-10-06/commenti-13-28/folio-54.png"
+      },
+      {
+        "folio": 56,
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/note-2026-10-06/commenti-13-28/folio-56.png"
+      },
+      {
+        "folio": 58,
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/note-2026-10-06/commenti-13-28/folio-58.png"
+      }
+    ]
+  },
+  "recovery": "Restore beforeSnapshots properties and original caption parents/order, then remove createdNodeIds. Fonts must be loaded before restoring/reparenting any caption text.",
+  "idempotentApplicationScript": "/private/tmp/figma-caption-apply-final.js"
+}

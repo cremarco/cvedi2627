@@ -94,6 +94,7 @@
 .introduction-section .lesson-ribbon { background: #0284c7; }
 .project-section .lesson-ribbon, .brief-section .lesson-ribbon { background: #92400e; }
 .history-section.lesson-slide .lesson-ribbon { background: #047857; }
+.research-section .lesson-ribbon { background: #4338ca; }
 
 /* Opening cover restored to the original metro composition, at the user's request. */
 .slidev-layout.default.cover-slide {
@@ -266,3 +267,30 @@
   .slidev-layout.default:is(.cover-slide, .chapter-slide)::before,
   .slidev-layout.default:is(.cover-slide, .chapter-slide)::after { animation: none; }
 }
+
+/* Keep the heading fixed; equal free space above and below centers the content as one group. */
+.slidev-layout.default.centered-content-slide {
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 52px 72px 82px;
+}
+.slidev-layout.default.fixed-title-slide > h1 {
+  max-width: none;
+  margin: 0 0 24px;
+  font-size: var(--cvedi-type-title);
+  font-weight: 400;
+  line-height: 1.12;
+  text-align: left;
+}
+.slidev-layout.default.centered-content-slide > h1 + :not(.slide-footer) { margin-top: auto; }
+.slidev-layout.default.centered-content-slide > :nth-last-child(2):not(h1) { margin-bottom: auto; }
+.slidev-layout.default.archive-wall-slide.fixed-title-slide > h1 { inset: 52px auto auto 72px; }
+.slidev-layout.default.archive-wall-slide .project-gallery-linkbar { inset: 28px auto auto 48px; height: 144px; }
+
+.slidev-layout.default.topic-slide .lesson-columns { grid-template-columns: minmax(0, .95fr) minmax(0, 1.05fr); gap: 44px; }
+.slidev-layout.default .topic-question.lead { margin-bottom: 24px; font-size: 25px; line-height: 1.35; }
+.slidev-layout.default .topic-heading { margin: 0 0 12px; font: 600 22px/1.35 var(--reference-font); }
+.slidev-layout.default .topic-points { gap: 12px; }
+.slidev-layout.default .topic-points li { font: 400 20px/1.4 var(--reference-font); }
+.slidev-layout.default .topic-output { margin: 20px 0 0; font: 400 20px/1.4 var(--reference-font); }
+.index-section-actions { display: flex; flex-wrap: wrap; gap: 16px; }

@@ -1,0 +1,1257 @@
+{
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2008:1740",
+  "scope": "Comment #27 only, native editable calculator inside 2358:291; preserve old bitmap hidden.",
+  "status": "complete",
+  "discovery": {
+    "codeConnect": "Parent searched rg: no *.figma.* files found.",
+    "existingInstances": 0,
+    "localVariables": [],
+    "libraries": {
+      "libraries_added_to_file": [],
+      "libraries_available_to_add": [
+        {
+          "name": "Material 3 Design Kit",
+          "libraryKey": "lk-5a31d104cabc6a74d4edf6425e7bc6575e9c0f18cda7efb746193aef4d915b077d115c985e6cf49d36d97d455a17d5127a2cbbfbc618b8a70a38669dccb61462",
+          "source": "community"
+        },
+        {
+          "name": "Simple Design System",
+          "libraryKey": "lk-e0ffcff14368019c4f30f45401cd233d6cbc5f869988484192d04cbbef801fb0064ef68feaa8a2775ee4f1f05d9a4af1a6d07b2658eac4aefb7afb18728c4066",
+          "source": "community"
+        },
+        {
+          "name": "iOS and iPadOS 26",
+          "libraryKey": "lk-a5b98decf0fb24381005421a2986b813149fcf20f37a1169316d44e2802c483494c6fc98ab8e083540a73bd5e45cf892a38123ee61981aee097d5f4eb8487a17",
+          "source": "community"
+        },
+        {
+          "name": "watchOS 26",
+          "libraryKey": "lk-32bda072ec15e732e76d56aa8bd25314051f296f8519a8d868031b46eaabb5ade1290829d0d7deca926b5388f760e9e94aa76d56bfe2ead33d78adeeeb7d15fb",
+          "source": "community"
+        },
+        {
+          "name": "visionOS 26",
+          "libraryKey": "lk-4f44e69da5f723deffc1c2461604f793251559fb3fb0f1f6af7c4fffaa12c05a33c40283401af5f2edf0db0639d516ccef9b73ae6aadff7e6588df60cbd36dd4",
+          "source": "community"
+        },
+        {
+          "name": "macOS 26",
+          "libraryKey": "lk-52492a50a550123b626cdfcd7639929209dc66307681f3f8cf9937770a714f2d76ade248aff2d8a0e42da17e343a440cebc0a04f1800ad34ae6d86e1a7f7aa9a",
+          "source": "community"
+        },
+        {
+          "name": "iOS and iPadOS 27",
+          "libraryKey": "lk-3167e7e1386e96621fc3b20782e2ec1b199754eeceff2ef04bf90d28a124be6414b67982dc8fb71ea1896b0310c316f54d7b9f0ac598cb3111748728c039a567",
+          "source": "community"
+        },
+        {
+          "name": "macOS 27",
+          "libraryKey": "lk-9b6046629e11db2bbe15e5a3fa0443ecd557a34812bc69997a2b8598852d86fb806d4036ca6c146521c7e1cf898a1e3d46dda55a15bf1f86579794b29480aa80",
+          "source": "community"
+        }
+      ],
+      "libraries_available_to_add_next_offset": null
+    },
+    "search": {
+      "results": [
+        {
+          "entity": "component",
+          "query": "quantity",
+          "components": []
+        },
+        {
+          "entity": "variable",
+          "query": "TEAL_700",
+          "variables": [
+            {
+              "name": "teal/700",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "91979ad5ff1de415a70d26de3f61f89bbf02550a",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/700"
+            },
+            {
+              "name": "teal/50",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "41a77161185251d4c3db721abffb78e99643f00f",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/50"
+            },
+            {
+              "name": "700",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "FLOAT",
+              "variableSetKey": "709457e486d0fc08f993f5fd067bf10864ee8388",
+              "key": "5c3328e8032cfbed324f22253b812201ff55784e",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "tokens",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/tokens/float/700"
+            },
+            {
+              "name": "teal/400",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "b22e3677074dafd60e6afcc2137de954241a8343",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/400"
+            },
+            {
+              "name": "teal/800",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "3084816ee53d868d748dd81fb06173dfe7bc3128",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/800"
+            },
+            {
+              "name": "teal/600",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "6a7d6ed02dc26b82bd8e9413a3f60819e8980341",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/600"
+            },
+            {
+              "name": "teal/950",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "31bbdfcdab5b7d3f7d882010b3e4e12fda43cb2b",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/950"
+            },
+            {
+              "name": "teal/300",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "f5d859c0eec7dcc1d85963111514a5e5510e7655",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/300"
+            },
+            {
+              "name": "teal/900",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "ee1d5660c810f7150eec2d1f845d786c89123c5a",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/900"
+            },
+            {
+              "name": "teal/500",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "8842b064a85370604f98299a1edf55cccb854980",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/500"
+            },
+            {
+              "name": "teal/200",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "cff297fc2d92efc3caaa757a0a996aac956eccee",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/200"
+            },
+            {
+              "name": "teal/100",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "ed753bb870304377a3f5eb122c98c8f34fb4e6fe",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/teal/100"
+            },
+            {
+              "name": "red/700",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "4a5ee88003a254758bfe557d1a78ead8ac97af68",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/red/700"
+            },
+            {
+              "name": "sky/700",
+              "libraryName": "APM X Shadcn | Design System",
+              "libraryKey": "lk-2f1010fb8402e122ac95f07c6112864dbc4ab1d7c7af78215b7fb705a80c3b8e0a1439d5dc5449173860f8d51bd5ce4d2ea7de8f907e99235e8c8519af8e1bfc",
+              "variableType": "COLOR",
+              "variableSetKey": "cf2730ee22cb4d03c848764e0be73060c60ec524",
+              "key": "3a94cb82903790bc84a6ab79097b747e21994458",
+              "scopes": [
+                "ALL_SCOPES"
+              ],
+              "variableCollectionName": "colors",
+              "filePath": "design_systems/APM X Shadcn  Design System/variables/colors/color/sky/700"
+            }
+          ]
+        },
+        {
+          "entity": "variable",
+          "query": "spacing",
+          "variables": []
+        },
+        {
+          "entity": "style",
+          "query": "H3",
+          "styles": []
+        }
+      ]
+    },
+    "reuse": "Local Geom and booklet paint/text styles; unrelated remote Shadcn variables not compatible."
+  },
+  "before": {
+    "before": {
+      "id": "2358:291",
+      "type": "FRAME",
+      "name": "Figura · Ipotesi progettuale Caffè Luce · generativa",
+      "x": 0,
+      "y": 164,
+      "width": 363,
+      "height": 233.4796600341797,
+      "visible": true,
+      "fills": [],
+      "layoutMode": "VERTICAL",
+      "clipsContent": false,
+      "children": [
+        {
+          "id": "2358:292",
+          "type": "RECTANGLE",
+          "name": "Immagine · Caffè Luce · generativa · Imagegen",
+          "x": 6.5,
+          "y": 0,
+          "width": 350,
+          "height": 196.9796600341797,
+          "visible": true,
+          "fills": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "FIT",
+              "scalingFactor": 0.5,
+              "rotation": 0,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ]
+              ],
+              "imageHash": "4c9c675dc9496d6ed92b757f3e06901960334adc"
+            }
+          ]
+        },
+        {
+          "id": "2358:293",
+          "type": "RECTANGLE",
+          "name": "Regola editoriale · didascalia",
+          "x": 0,
+          "y": 199.9796600341797,
+          "width": 363,
+          "height": 3,
+          "visible": true,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7777568101882935,
+                "g": 0,
+                "b": 0.35892292857170105
+              },
+              "boundVariables": {}
+            }
+          ]
+        },
+        {
+          "id": "2358:294",
+          "type": "TEXT",
+          "name": "Didascalia · Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+          "x": 0,
+          "y": 205.9796600341797,
+          "width": 363,
+          "height": 24,
+          "visible": true,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7777568101882935,
+                "g": 0,
+                "b": 0.35892292857170105
+              },
+              "boundVariables": {}
+            }
+          ],
+          "text": "Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+          "textAutoResize": "HEIGHT"
+        },
+        {
+          "id": "2358:295",
+          "type": "RECTANGLE",
+          "name": "Regola editoriale · didascalia",
+          "x": 0,
+          "y": 232.9796600341797,
+          "width": 363,
+          "height": 0.5,
+          "visible": true,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7777568101882935,
+                "g": 0,
+                "b": 0.35892292857170105
+              },
+              "boundVariables": {}
+            }
+          ]
+        }
+      ]
+    },
+    "folio": {
+      "id": "2358:288",
+      "type": "FRAME",
+      "name": "Testo e figure · Interfacce generate su richiesta · esempio futuro",
+      "x": 74,
+      "y": 60,
+      "width": 363,
+      "height": 491.0646667480469,
+      "visible": true,
+      "fills": [],
+      "layoutMode": "VERTICAL",
+      "clipsContent": false,
+      "children": [
+        {
+          "id": "2358:289",
+          "type": "TEXT",
+          "name": "Titolo · Interfacce generate su richiesta",
+          "x": 0,
+          "y": 0,
+          "width": 363,
+          "height": 20,
+          "visible": true,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.7777568101882935,
+                "g": 0,
+                "b": 0.35892292857170105
+              },
+              "boundVariables": {}
+            }
+          ],
+          "text": "Interfacce generate su richiesta",
+          "textAutoResize": "HEIGHT"
+        },
+        {
+          "id": "2358:290",
+          "type": "TEXT",
+          "name": "Corpo testo · Un’interfaccia generativa può costruire strumenti e visualizzazioni in",
+          "x": 0,
+          "y": 32,
+          "width": 363,
+          "height": 120,
+          "visible": true,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.0117647061124444,
+                "g": 0.027450980618596077,
+                "b": 0.07058823853731155
+              },
+              "boundVariables": {}
+            }
+          ],
+          "text": "Un’interfaccia generativa può costruire strumenti e visualizzazioni in risposta a una richiesta, invece di restituire soltanto testo. Gli esperimenti di Google Research mostrano pagine, giochi e simulazioni creati in funzione del compito. La possibile evoluzione riguarda anche lo stile: la stessa informazione potrebbe assumere forme diverse per una persona o un contesto. La ricerca segnala però tempi di generazione e inesattezze. Occorrono controlli stabili, indicazioni sulla provenienza dei contenuti e possibilità di correggere il risultato senza perdere orientamento.",
+          "textAutoResize": "HEIGHT"
+        },
+        {
+          "id": "2358:291",
+          "type": "FRAME",
+          "name": "Figura · Ipotesi progettuale Caffè Luce · generativa",
+          "x": 0,
+          "y": 164,
+          "width": 363,
+          "height": 233.4796600341797,
+          "visible": true,
+          "fills": [],
+          "layoutMode": "VERTICAL",
+          "clipsContent": false,
+          "children": [
+            {
+              "id": "2358:292",
+              "type": "RECTANGLE",
+              "name": "Immagine · Caffè Luce · generativa · Imagegen",
+              "x": 6.5,
+              "y": 0,
+              "width": 350,
+              "height": 196.9796600341797,
+              "visible": true,
+              "fills": [
+                {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "4c9c675dc9496d6ed92b757f3e06901960334adc"
+                }
+              ]
+            },
+            {
+              "id": "2358:293",
+              "type": "RECTANGLE",
+              "name": "Regola editoriale · didascalia",
+              "x": 0,
+              "y": 199.9796600341797,
+              "width": 363,
+              "height": 3,
+              "visible": true,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7777568101882935,
+                    "g": 0,
+                    "b": 0.35892292857170105
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            },
+            {
+              "id": "2358:294",
+              "type": "TEXT",
+              "name": "Didascalia · Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+              "x": 0,
+              "y": 205.9796600341797,
+              "width": 363,
+              "height": 24,
+              "visible": true,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7777568101882935,
+                    "g": 0,
+                    "b": 0.35892292857170105
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "text": "Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+              "textAutoResize": "HEIGHT"
+            },
+            {
+              "id": "2358:295",
+              "type": "RECTANGLE",
+              "name": "Regola editoriale · didascalia",
+              "x": 0,
+              "y": 232.9796600341797,
+              "width": 363,
+              "height": 0.5,
+              "visible": true,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.7777568101882935,
+                    "g": 0,
+                    "b": 0.35892292857170105
+                  },
+                  "boundVariables": {}
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "2358:296",
+          "type": "FRAME",
+          "name": "Riferimenti documentari · generativa",
+          "x": 0,
+          "y": 409.47967529296875,
+          "width": 363,
+          "height": 81.58499908447266,
+          "visible": true,
+          "fills": [],
+          "layoutMode": "HORIZONTAL",
+          "clipsContent": false,
+          "children": [
+            {
+              "id": "2358:297",
+              "type": "FRAME",
+              "name": "Figura · Interfacce generative. Google Research, 2025.",
+              "x": 0,
+              "y": 0,
+              "width": 152,
+              "height": 81.58499908447266,
+              "visible": true,
+              "fills": [],
+              "layoutMode": "VERTICAL",
+              "clipsContent": false,
+              "children": [
+                {
+                  "id": "2358:298",
+                  "type": "RECTANGLE",
+                  "name": "Immagine documentaria · Interfacce generative. Google Research, 2025.",
+                  "x": 0,
+                  "y": 0,
+                  "width": 152,
+                  "height": 51.084999084472656,
+                  "visible": true,
+                  "fills": [
+                    {
+                      "type": "IMAGE",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendMode": "NORMAL",
+                      "scaleMode": "FIT",
+                      "scalingFactor": 1,
+                      "rotation": 0,
+                      "filters": {
+                        "exposure": 0,
+                        "contrast": 0,
+                        "saturation": 0,
+                        "temperature": 0,
+                        "tint": 0,
+                        "highlights": 0,
+                        "shadows": 0
+                      },
+                      "imageTransform": [
+                        [
+                          1,
+                          0,
+                          0
+                        ],
+                        [
+                          0,
+                          1,
+                          0
+                        ]
+                      ],
+                      "imageHash": "60bcafc98c8a8f5fcf8be32b41ee20c949b74e7e"
+                    }
+                  ]
+                },
+                {
+                  "id": "2358:299",
+                  "type": "RECTANGLE",
+                  "name": "Regola editoriale · didascalia",
+                  "x": 0,
+                  "y": 54.084999084472656,
+                  "width": 152,
+                  "height": 0.5,
+                  "visible": true,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendMode": "NORMAL",
+                      "color": {
+                        "r": 0.7777568101882935,
+                        "g": 0,
+                        "b": 0.35892292857170105
+                      },
+                      "boundVariables": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "2358:300",
+                  "type": "TEXT",
+                  "name": "Didascalia · Interfacce generative. Google Research, 2025.",
+                  "x": 0,
+                  "y": 57.584999084472656,
+                  "width": 152,
+                  "height": 24,
+                  "visible": true,
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendMode": "NORMAL",
+                      "color": {
+                        "r": 0.7777568101882935,
+                        "g": 0,
+                        "b": 0.35892292857170105
+                      },
+                      "boundVariables": {}
+                    }
+                  ],
+                  "text": "Interfacce generative.\nGoogle Research, 2025.",
+                  "textAutoResize": "HEIGHT"
+                }
+              ]
+            },
+            {
+              "id": "2358:301",
+              "type": "TEXT",
+              "name": "Nota di lettura · generativa",
+              "x": 164,
+              "y": 0,
+              "width": 199,
+              "height": 75,
+              "visible": true,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.0117647061124444,
+                    "g": 0.027450980618596077,
+                    "b": 0.07058823853731155
+                  },
+                  "boundVariables": {}
+                }
+              ],
+              "text": "La persona verifica e corregge la proposta prima di confermare. Stato, provenienza e recupero dagli errori devono restare leggibili; tempi di generazione ed errori richiedono attenzione.",
+              "textAutoResize": "HEIGHT"
+            }
+          ]
+        }
+      ]
+    },
+    "localPaints": [
+      {
+        "id": "S:33efcfa752650ba73875491491d18a6ac527baf2,",
+        "name": "TEAL_700",
+        "paints": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.47058823704719543,
+              "b": 0.43529412150382996
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "S:63e150bb6bc3bb7300fc68ed16f499b3b66f6e9c,",
+        "name": "TEAL_800",
+        "paints": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.37254902720451355,
+              "b": 0.3529411852359772
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "S:93c09f1eb7f0308ee413aec811d65fc5209ca3ff,",
+        "name": "GRAY_50",
+        "paints": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.9764705896377563,
+              "g": 0.9803921580314636,
+              "b": 0.9843137264251709
+            },
+            "boundVariables": {}
+          }
+        ]
+      },
+      {
+        "id": "S:c7e1f1d0566777123ebb13b9e790b322c865c627,",
+        "name": "GRAY_950",
+        "paints": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0.0117647061124444,
+              "g": 0.027450980618596077,
+              "b": 0.07058823853731155
+            },
+            "boundVariables": {}
+          }
+        ]
+      }
+    ],
+    "textStyles": [
+      {
+        "id": "S:82e18457c3bb127316d9c222bb33c21eb5310558,",
+        "name": "H3",
+        "fontName": {
+          "family": "Geom",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 16,
+        "lineHeight": {
+          "unit": "AUTO"
+        }
+      },
+      {
+        "id": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+        "name": "Body_copy",
+        "fontName": {
+          "family": "Merriweather",
+          "style": "Light",
+          "variationSettings": {
+            "wght": 300,
+            "wdth": 100
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 15
+        }
+      },
+      {
+        "id": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+        "name": "Didascalie",
+        "fontName": {
+          "family": "Merriweather",
+          "style": "Light Italic",
+          "variationSettings": {
+            "wght": 300,
+            "wdth": 100
+          }
+        },
+        "fontSize": 7,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 12
+        }
+      }
+    ],
+    "availableGeom": [
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Black"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Black Italic"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Bold"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Bold Italic"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "ExtraBold"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "ExtraBold Italic"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Italic"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Light"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Light Italic"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Medium"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Medium Italic"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "Regular"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "SemiBold"
+        }
+      },
+      {
+        "fontName": {
+          "family": "Geom",
+          "style": "SemiBold Italic"
+        }
+      }
+    ],
+    "instances": 0,
+    "localVars": []
+  },
+"changes": [
+  {
+    "nodeId": "2358:292",
+    "property": "visible",
+    "before": true,
+    "after": false
+  },
+  {
+    "nodeId": "2358:294",
+    "property": "characters",
+    "before": "Ipotesi progettuale · Caffè Luce. Dalla richiesta a una proposta strutturata, da modificare e confermare. Imagegen, 2026.",
+    "after": "Caffè Luce · dalla richiesta al calcolatore: cambiando le quantità, cambia il totale. Esempio didattico · prezzi fittizi."
+  },
+  {
+    "nodeId": "2396:259",
+    "property": "created",
+    "after": "Editable native calculator350×228.7, quantities1/2/0 total5,50."
+  }
+],
+"result": {
+  "createdNodeIds": [
+    "2396:259",
+    "2396:260",
+    "2396:261",
+    "2396:262",
+    "2396:263",
+    "2396:264",
+    "2396:265",
+    "2396:266",
+    "2396:267",
+    "2396:268",
+    "2396:269",
+    "2396:270",
+    "2396:271",
+    "2396:272",
+    "2396:273",
+    "2396:274",
+    "2396:275",
+    "2396:276",
+    "2396:277",
+    "2396:278",
+    "2396:279",
+    "2396:280",
+    "2396:281",
+    "I2396:281;2396:276",
+    "I2396:281;2396:277",
+    "I2396:281;2396:280",
+    "I2396:281;2396:278",
+    "I2396:281;2396:279",
+    "2396:287",
+    "I2396:287;2396:276",
+    "I2396:287;2396:277",
+    "I2396:287;2396:280",
+    "I2396:287;2396:278",
+    "I2396:287;2396:279",
+    "2396:293",
+    "I2396:293;2396:276",
+    "I2396:293;2396:277",
+    "I2396:293;2396:280",
+    "I2396:293;2396:278",
+    "I2396:293;2396:279",
+    "2396:299",
+    "2396:300",
+    "2396:301",
+    "2396:302",
+    "2396:303"
+  ],
+  "mutatedNodeIds": [
+    "2358:291",
+    "2358:292",
+    "2358:294"
+  ],
+  "panelId": "2396:259",
+  "mainComponentId": "2396:275",
+  "quantityInstanceIds": [
+    "2396:281",
+    "2396:287",
+    "2396:293"
+  ],
+  "quantityProperty": "Valore#2396:0",
+  "panelBounds": {
+    "x": 6.5,
+    "y": 0,
+    "width": 350,
+    "height": 228.6999969482422
+  },
+  "figureBounds": {
+    "width": 363,
+    "height": 253.1999969482422
+  },
+  "caption": {
+    "id": "2358:294",
+    "text": "Caffè Luce · dalla richiesta al calcolatore: cambiando le quantità, cambia il totale. Esempio didattico · prezzi fittizi.",
+    "height": 12
+  },
+  "counts": {
+    "FRAME": 12,
+    "TEXT": 23,
+    "INSTANCE": 3
+  },
+  "totalDescendants": 38,
+  "imageNodes": [],
+  "fonts": [
+    "Geom"
+  ],
+  "oldBitmapVisible": false,
+  "mainComponentVisible": false
+},
+"fix": {
+  "mutatedNodeIds": [
+    "2396:261",
+    "2396:262",
+    "2396:263",
+    "2396:264",
+    "2396:265",
+    "2396:268",
+    "2396:269",
+    "2396:271",
+    "2396:272",
+    "2396:274",
+    "I2396:281;2396:277",
+    "I2396:281;2396:280",
+    "I2396:281;2396:279",
+    "I2396:287;2396:277",
+    "I2396:287;2396:280",
+    "I2396:287;2396:279",
+    "I2396:293;2396:277",
+    "I2396:293;2396:280",
+    "I2396:293;2396:279",
+    "2396:300",
+    "2396:301",
+    "2396:302",
+    "2396:303",
+    "2396:277",
+    "2396:280",
+    "2396:279",
+    "2396:267",
+    "2396:270"
+  ],
+  "panelBounds": {
+    "width": 350,
+    "height": 231.1999969482422
+  },
+  "products": 72,
+  "prices": 72,
+  "figureHeight": 255.6999969482422
+},
+"validation": {
+  "folioId": "2258:352",
+  "panelId": "2396:259",
+  "panelHeight": 231.1999969482422,
+  "fonts": [
+    "Geom"
+  ],
+  "allTexts": [
+    {
+      "id": "2396:261",
+      "characters": "CAFFÈ LUCE",
+      "textAutoResize": "HEIGHT",
+      "height": 12
+    },
+    {
+      "id": "2396:262",
+      "characters": "STRUMENTO GENERATO",
+      "textAutoResize": "HEIGHT",
+      "height": 12
+    },
+    {
+      "id": "2396:263",
+      "characters": "«Quanto mi costa la colazione al Caffè Luce?»",
+      "textAutoResize": "HEIGHT",
+      "height": 12
+    },
+    {
+      "id": "2396:264",
+      "characters": "Calcola la colazione",
+      "textAutoResize": "HEIGHT",
+      "height": 17
+    },
+    {
+      "id": "2396:265",
+      "characters": "Creato per la tua richiesta · modifica le quantità",
+      "textAutoResize": "HEIGHT",
+      "height": 11
+    },
+    {
+      "id": "2396:268",
+      "characters": "PRODOTTO",
+      "textAutoResize": "HEIGHT",
+      "height": 10
+    },
+    {
+      "id": "2396:269",
+      "characters": "Caffè\nCroissant\nTè",
+      "textAutoResize": "HEIGHT",
+      "height": 72
+    },
+    {
+      "id": "2396:271",
+      "characters": "PREZZO UNIT.",
+      "textAutoResize": "HEIGHT",
+      "height": 10
+    },
+    {
+      "id": "2396:272",
+      "characters": "1,50 €\n2,00 €\n2,50 €",
+      "textAutoResize": "HEIGHT",
+      "height": 72
+    },
+    {
+      "id": "2396:274",
+      "characters": "QUANTITÀ",
+      "textAutoResize": "HEIGHT",
+      "height": 10
+    },
+    {
+      "id": "I2396:281;2396:277",
+      "characters": "−",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:281;2396:280",
+      "characters": "1",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:281;2396:279",
+      "characters": "+",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:287;2396:277",
+      "characters": "−",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:287;2396:280",
+      "characters": "2",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:287;2396:279",
+      "characters": "+",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:293;2396:277",
+      "characters": "−",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:293;2396:280",
+      "characters": "0",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "I2396:293;2396:279",
+      "characters": "+",
+      "textAutoResize": "HEIGHT",
+      "height": 16
+    },
+    {
+      "id": "2396:300",
+      "characters": "Totale aggiornato",
+      "textAutoResize": "HEIGHT",
+      "height": 24
+    },
+    {
+      "id": "2396:301",
+      "characters": "5,50 €",
+      "textAutoResize": "HEIGHT",
+      "height": 24
+    },
+    {
+      "id": "2396:302",
+      "characters": "1 croissant: 3,50 €  →  2 croissant: 5,50 €",
+      "textAutoResize": "HEIGHT",
+      "height": 12
+    },
+    {
+      "id": "2396:303",
+      "characters": "Menu Caffè Luce · esempio didattico · prezzi fittizi",
+      "textAutoResize": "HEIGHT",
+      "height": 10
+    }
+  ],
+  "contentBottom": 573.2849731445312,
+  "visualCheck": "Passed: all product labels, prices, quantities and totals readable; native editable layers; full folio78 fits with content bottom573.28 under657.64 page height. Preexisting draft watermark unchanged."
+}
+}

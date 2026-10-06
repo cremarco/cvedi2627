@@ -1,0 +1,202 @@
+{
+  "A01": {
+    "bullets": [
+      "Confrontare interviste, osservazione e questionari.",
+      "Distinguere dati raccolti, ipotesi e stereotipi.",
+      "Collegare le evidenze alle decisioni d’interfaccia."
+    ],
+    "output": "Checklist delle evidenze e persona annotata.",
+    "image": "Three distinct evidence sources—interview speech bubbles, observation checklist, survey chart—feed an anonymous persona profile card, which connects to one UI design decision on a small screen. Solid links indicate evidence; one faint dashed unsupported assumption branches away. Make the evidence-to-persona-to-design chain unmistakable.",
+    "alt": "Interviste, osservazione e questionari collegati a una persona e a una decisione di interfaccia."
+  },
+  "A02": {
+    "bullets": [
+      "Mappare web, mobile e contatto fisico.",
+      "Mostrare frontstage, backstage e dipendenze.",
+      "Confrontare blueprint, journey e user flow."
+    ],
+    "output": "Blueprint di un servizio con collegamenti tra i livelli.",
+    "image": "A two-level service blueprint. Top row: a browser screen, phone, physical service desk connected into a customer journey. Bottom row: staff task cards, processing gear and database. A clear horizontal boundary separates visible frontstage from backstage, with vertical dependency links at each touchpoint. No labels needed: the front/back relationship must read visually.",
+    "alt": "Punti di contatto visibili collegati ai processi e alle attività di backstage del servizio."
+  },
+  "A03": {
+    "bullets": [
+      "Analizzare tassonomie ed etichette.",
+      "Confrontare strutture di navigazione.",
+      "Motivare un caso prima/dopo sulla trovabilità."
+    ],
+    "output": "Mappa dei contenuti e confronto prima/dopo.",
+    "image": "The exact same set of content cards appears in two contrasting arrangements: on the left a scattered confusing cluster, on the right an ordered hierarchical navigation tree with distinct groups. A magnifying glass finds one lime-highlighted target card in the ordered tree. Clear before/after information organization, not a decorative icon.",
+    "alt": "Lo stesso insieme di contenuti passa da un gruppo disordinato a una struttura gerarchica navigabile."
+  },
+  "A04": {
+    "bullets": [
+      "Confrontare etichette, istruzioni e messaggi.",
+      "Riscrivere errori, conferme e stati vuoti.",
+      "Distinguere comprensibilità e tono di voce."
+    ],
+    "output": "Riscritture motivate e un esercizio commentato.",
+    "image": "Two comparable email entry UI examples. Left: a vague warning bubble saying exactly 'Errore', no indication of how to recover. Right: the same field with a clearly connected helpful message saying exactly 'Controlla l’indirizzo email', and a highlighted correction point with a small forward arrow. Only these two short Italian texts; no other words. Show how microcopy makes recovery understandable.",
+    "alt": "Un messaggio generico di errore confrontato con un’indicazione che aiuta a correggere l’indirizzo email."
+  },
+  "A05": {
+    "bullets": [
+      "Studiare token semantici e varianti.",
+      "Considerare documentazione e versioni.",
+      "Collegare un aggiornamento visivo al codice."
+    ],
+    "output": "Piccolo sistema di componenti con un aggiornamento documentato.",
+    "image": "Semantic design tokens shown as a color swatch pair, typography sample bars and a corner-radius token on the left. Thin connections distribute those shared values to a coherent family of buttons, fields and small interface panels on the right. One lime update signal propagates consistently across three components. Communicate shared decisions and controlled change; no code text.",
+    "alt": "Token condivisi collegati a una famiglia di componenti che si aggiorna in modo coerente."
+  },
+  "A06": {
+    "bullets": [
+      "Confrontare carta, wireframe e mockup.",
+      "Includere simulazioni Wizard of Oz.",
+      "Esplicitare evidenze ottenibili e limiti."
+    ],
+    "output": "Matrice tra domande progettuali e tipi di prototipo.",
+    "image": "A central question symbol is connected equally to four distinct prototype representations: a paper layout, a clean low-fidelity wireframe, a polished screen mockup and a simulated interface with a small human operator visible behind it. Each is equally prominent, arranged around the question. Do NOT depict a ladder of better and worse fidelity or a linear progression: the concept is choosing a prototype for a question.",
+    "alt": "Quattro tipi di prototipo collegati alla domanda progettuale da verificare, senza una gerarchia di valore."
+  },
+  "A07": {
+    "bullets": [
+      "Studiare caricamento e stati offline.",
+      "Mostrare salvataggi locali e ripristino.",
+      "Confrontare pattern efficaci e controesempi."
+    ],
+    "output": "Schema degli stati e sequenza illustrata.",
+    "image": "Three connected phone screen states: waiting with a small progress indicator; offline with a crossed network/cloud symbol but a locally saved document still present; connection restored with a synchronization arrow and lime confirmation. The same document survives in all three states. Make continuity of user work through lost connectivity the central story.",
+    "alt": "Un documento viene mantenuto durante attesa, assenza di rete e successiva sincronizzazione."
+  },
+  "A08": {
+    "bullets": [
+      "Rendere visibili incertezza e provenienza.",
+      "Studiare conferma, annullamento e correzione.",
+      "Separare capacità reali e azioni simulate."
+    ],
+    "output": "Casi annotati e repertorio di pattern di controllo.",
+    "image": "An AI-generated suggestion card with a dotted uncertain confidence cue feeds a HUMAN review point. A human hand cursor chooses between accepting and correcting; a visible curved undo arrow leads back from the action. Highlight the human review control in lime. No robot character and no autonomous action bypassing the person. Clearly communicate proposal, human decision and reversible correction.",
+    "alt": "Una proposta AI viene sottoposta al controllo della persona, con conferma, correzione e annullamento."
+  },
+  "A09": {
+    "bullets": [
+      "Confrontare stime e intervalli.",
+      "Esplicitare dati mancanti e qualità.",
+      "Proporre alternative e un esercizio di lettura."
+    ],
+    "output": "Grafici comparabili dello stesso insieme di dati.",
+    "image": "A clear data chart comparing an apparent precise thin estimate line with a more honest representation: central estimate surrounded by a pale indigo uncertainty band and visible interval whiskers. Include a gap with a dashed bridge showing missing data. Lime highlights one interval to encourage reading its range. Synthetic unlabelled data, no real-world claim, no numeric statistics.",
+    "alt": "Una stima puntuale confrontata con intervalli di incertezza e un’interruzione per i dati mancanti."
+  },
+  "A10": {
+    "bullets": [
+      "Analizzare presenza, ruoli e permessi.",
+      "Studiare commenti e versioni.",
+      "Confrontare soluzioni a un conflitto di modifica."
+    ],
+    "output": "Mappa dei ruoli e sequenza di modifica concorrente.",
+    "image": "A shared editing workspace has two clearly distinct anonymous cursors and small avatar circles, indigo and lime, editing the same content card. Two competing card versions lead to a review-and-merge area, with a small visible version history. Communicate simultaneous collaboration and conflict resolution, not a generic group of people.",
+    "alt": "Due persone modificano lo stesso contenuto; versioni concorrenti vengono confrontate e ricomposte."
+  },
+  "A11": {
+    "bullets": [
+      "Confrontare avvisi, riepiloghi e badge.",
+      "Valutare urgenza, frequenza e contesto.",
+      "Considerare il controllo dell’utente."
+    ],
+    "output": "Matrice evento/priorità/canale con esempi utili e superflui.",
+    "image": "A person’s active document task is central. On one side multiple bell popups interrupt and obscure it; on the other notifications are collected in a tidy digest tray while the task remains unobstructed. A small user-controlled priority slider selects one genuinely important lime alert. Use visual contrast between interruption and managed attention.",
+    "alt": "Notifiche che interrompono il lavoro confrontate con un riepilogo e un controllo delle priorità."
+  },
+  "A12": {
+    "bullets": [
+      "Confrontare guide, esempi e aiuto contestuale.",
+      "Distinguere richieste immediate e rimandabili.",
+      "Annotare il primo risultato utile."
+    ],
+    "output": "Sequenza di primo utilizzo motivata.",
+    "image": "Three stages of first use of the same interface: an empty unfamiliar workspace; one concise contextual hint pointing to the next meaningful action; a completed useful result card with a lime confirmation. A short clear path connects them. Avoid a long tour or a wall of introductory dialogs. Show the transition to first value.",
+    "alt": "Dalla schermata iniziale, un aiuto contestuale conduce al primo risultato utile."
+  },
+  "A13": {
+    "bullets": [
+      "Confrontare richieste e impostazioni.",
+      "Spiegare quali dati servono e perché.",
+      "Mostrare controllo e revoca del permesso."
+    ],
+    "output": "Flusso richiesta/spiegazione/controllo/revoca.",
+    "image": "A permission control journey: a phone request with a camera/location-style data icon, a clear explanation bubble linking permission to a specific function, then a settings panel with an easily reversible toggle. A curved return arrow visibly turns the permission off and disconnects the data flow. Both choices are equally respectful; no misleading green accept-only emphasis. No legal text.",
+    "alt": "Un permesso è collegato a una funzione, controllato nelle impostazioni e successivamente revocato."
+  },
+  "A14": {
+    "bullets": [
+      "Studiare disponibilità e vincoli temporali.",
+      "Considerare fusi, ricorrenze e conflitti.",
+      "Confrontare calendario, lista e riepilogo."
+    ],
+    "output": "Sequenza di prenotazione con casi limite.",
+    "image": "A booking sequence links a calendar with unavailable gray slots and one lime available date, a matching time-selection list with the same selected slot, and a clear booking summary with a clock and confirmation. Include a small conflicting slot crossed out to illustrate availability constraints. Keep date/time selection consistent across the three panels; no actual dates or text.",
+    "alt": "Calendario, disponibilità e riepilogo mostrano una selezione coerente ed escludono un orario in conflitto."
+  },
+  "A15": {
+    "bullets": [
+      "Confrontare pagina unica e più passaggi.",
+      "Gestire validazione e stati incompleti.",
+      "Mostrare riepilogo, salvataggio e ripresa."
+    ],
+    "output": "Flusso di compilazione con scelte motivate.",
+    "image": "A multi-step form journey with three visible step nodes, one conditional branch and a saved-progress bookmark. Show an incomplete input with an attention mark, then corrected validation and a concise final summary. The saved draft reconnects to the correct step rather than restarting. Clear logical flow, no real field text or personal information.",
+    "alt": "Un modulo articolato in passaggi gestisce una diramazione, la validazione e il recupero della bozza."
+  },
+  "A16": {
+    "bullets": [
+      "Studiare combinazioni e selezioni attive.",
+      "Considerare conteggi, ordinamento e azzeramento.",
+      "Includere risultati vuoti e contesto di navigazione."
+    ],
+    "output": "Schema degli stati e confronto tra soluzioni di catalogo.",
+    "image": "The same product catalog shown before and after applying faceted filters. Left is a full grid of twelve simple product cards; right preserves context while a sidebar with two active lime filter chips reduces the visible selection to four matching cards. Include a small reset arrow and count indicator made of dots rather than text. Communicate narrowing a catalog and understanding active criteria.",
+    "alt": "Filtri attivi restringono un catalogo mantenendo visibili criteri, risultati e possibilità di azzeramento."
+  },
+  "A17": {
+    "bullets": [
+      "Confrontare conferme, annullamento e cestino.",
+      "Distinguere azioni reversibili e irreversibili.",
+      "Illustrare errore, correzione e ripristino."
+    ],
+    "output": "Mappa azione/rischio/recupero con sequenze.",
+    "image": "A document is accidentally removed from a workspace into a recoverable bin; a prominent curved undo arrow returns the SAME document to its original location, where a lime confirmation and a small history timeline preserve context. A separate faint irreversible path stops at a barrier to distinguish operations that cannot be recovered. Show a specific recovery sequence.",
+    "alt": "Un documento eliminato viene recuperato con annullamento; un percorso distinto segnala un’azione irreversibile."
+  },
+  "A18": {
+    "bullets": [
+      "Analizzare ordinamento, colonne e selezioni.",
+      "Studiare scorrimento e modifica inline.",
+      "Mostrare un’operazione su più righe e il feedback."
+    ],
+    "output": "Confronto sullo stesso dataset e operazione annotata.",
+    "image": "A dense interactive data table with clear row and column structure, a header sort arrow, three lime-selected rows, one inline editable cell indicated by a pen and a compact bulk-action toolbar. A small completion feedback links to the selected rows without moving the context. Keep all table values as neutral placeholder bars, no actual dataset or numbers.",
+    "alt": "Una tabella mantiene il contesto durante ordinamento, selezione di più righe e modifica di una cella."
+  },
+  "A19": {
+    "bullets": [
+      "Confrontare palette, menu e scorciatoie.",
+      "Studiare ricerca, suggerimenti e nomi ambigui.",
+      "Distinguere scoperta iniziale e uso frequente."
+    ],
+    "output": "Mappa dei comandi e analisi dell’apprendimento.",
+    "image": "A command palette overlay above a neutral editing workspace. A search field at the top reveals a short command list, one lime-highlighted matched command, and a keyboard shortcut represented by two clean keycaps reading exactly 'Ctrl' and 'K'. A small conventional menu nearby connects to the SAME highlighted command. Show discoverability and faster access; no other text.",
+    "alt": "Una command palette collega ricerca, suggerimento di un comando e scorciatoia Ctrl K."
+  },
+  "A20": {
+    "bullets": [
+      "Confrontare ricerca, indice e segnalibri.",
+      "Studiare evidenziazioni, note e rimandi.",
+      "Analizzare orientamento e perdita di contesto."
+    ],
+    "output": "Flusso lettura/annotazione/ritorno al riferimento.",
+    "image": "A document reading workspace with a small index sidebar, one lime-highlighted passage, a bookmark marking the reading position and a margin annotation connected to that passage. A visible return arrow from the annotation restores the SAME highlighted passage and reading location. Use placeholder text lines, no actual prose; demonstrate annotation and returning to a source.",
+    "alt": "Un’annotazione e un segnalibro consentono di tornare al passaggio evidenziato senza perdere il punto di lettura."
+  }
+}
