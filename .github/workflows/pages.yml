@@ -32,6 +32,8 @@ jobs:
       - uses: actions/configure-pages@v6.0.0
       - name: Check slide sources and local images
         run: pnpm check:source
+      - name: Install FFmpeg for Pages media optimization
+        run: sudo apt-get update && sudo apt-get install --yes --no-install-recommends ffmpeg
       - name: Build slides and project archive
         run: pnpm build:pages
         env:

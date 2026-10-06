@@ -42,7 +42,7 @@ footer: "Approfondimento individuale · A01"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Checklist delle evidenze e persona annotata.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a01.png" alt="Interviste, osservazione e questionari collegati a una persona e a una decisione di interfaccia." caption="Illustrazione del tema · A01" />
+  <LessonFigure src="/images/generated/approfondimenti/a01.webp" alt="Interviste, osservazione e questionari collegati a una persona e a una decisione di interfaccia." caption="Illustrazione del tema · A01" />
 </div>
 
 <!--
@@ -76,7 +76,7 @@ footer: "Approfondimento individuale · A02"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Blueprint di un servizio con collegamenti tra i livelli.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a02.png" alt="Punti di contatto visibili collegati ai processi e alle attività di backstage del servizio." caption="Illustrazione del tema · A02" />
+  <LessonFigure src="/images/generated/approfondimenti/a02.webp" alt="Punti di contatto visibili collegati ai processi e alle attività di backstage del servizio." caption="Illustrazione del tema · A02" />
 </div>
 
 <!--
@@ -110,7 +110,7 @@ footer: "Approfondimento individuale · A03"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Mappa dei contenuti e confronto prima/dopo.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a03.png" alt="Lo stesso insieme di contenuti passa da un gruppo disordinato a una struttura gerarchica navigabile." caption="Illustrazione del tema · A03" />
+  <LessonFigure src="/images/generated/approfondimenti/a03.webp" alt="Lo stesso insieme di contenuti passa da un gruppo disordinato a una struttura gerarchica navigabile." caption="Illustrazione del tema · A03" />
 </div>
 
 <!--
@@ -144,7 +144,7 @@ footer: "Approfondimento individuale · A04"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Riscritture motivate e un esercizio commentato.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a04.png" alt="Un messaggio generico di errore confrontato con un’indicazione che aiuta a correggere l’indirizzo email." caption="Illustrazione del tema · A04" />
+  <LessonFigure src="/images/generated/approfondimenti/a04.webp" alt="Un messaggio generico di errore confrontato con un’indicazione che aiuta a correggere l’indirizzo email." caption="Illustrazione del tema · A04" />
 </div>
 
 <!--
@@ -178,7 +178,7 @@ footer: "Approfondimento individuale · A05"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Piccolo sistema di componenti con un aggiornamento documentato.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a05.png" alt="Token condivisi collegati a una famiglia di componenti che si aggiorna in modo coerente." caption="Illustrazione del tema · A05" />
+  <LessonFigure src="/images/generated/approfondimenti/a05.webp" alt="Token condivisi collegati a una famiglia di componenti che si aggiorna in modo coerente." caption="Illustrazione del tema · A05" />
 </div>
 
 <!--
@@ -212,7 +212,7 @@ footer: "Approfondimento individuale · A06"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Matrice tra domande progettuali e tipi di prototipo.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a06.png" alt="Quattro tipi di prototipo collegati alla domanda progettuale da verificare, senza una gerarchia di valore." caption="Illustrazione del tema · A06" />
+  <LessonFigure src="/images/generated/approfondimenti/a06.webp" alt="Quattro tipi di prototipo collegati alla domanda progettuale da verificare, senza una gerarchia di valore." caption="Illustrazione del tema · A06" />
 </div>
 
 <!--
@@ -246,7 +246,7 @@ footer: "Approfondimento individuale · A07"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Schema degli stati e sequenza illustrata.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a07.png" alt="Un documento viene mantenuto durante attesa, assenza di rete e successiva sincronizzazione." caption="Illustrazione del tema · A07" />
+  <LessonFigure src="/images/generated/approfondimenti/a07.webp" alt="Un documento viene mantenuto durante attesa, assenza di rete e successiva sincronizzazione." caption="Illustrazione del tema · A07" />
 </div>
 
 <!--
@@ -280,7 +280,7 @@ footer: "Approfondimento individuale · A08"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Casi annotati e repertorio di pattern di controllo.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a08.png" alt="Una proposta AI viene sottoposta al controllo della persona, con conferma, correzione e annullamento." caption="Illustrazione del tema · A08" />
+  <LessonFigure src="/images/generated/approfondimenti/a08.webp" alt="Una proposta AI viene sottoposta al controllo della persona, con conferma, correzione e annullamento." caption="Illustrazione del tema · A08" />
 </div>
 
 <!--
@@ -314,7 +314,7 @@ footer: "Approfondimento individuale · A09"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Grafici comparabili dello stesso insieme di dati.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a09.png" alt="Una stima puntuale confrontata con intervalli di incertezza e un’interruzione per i dati mancanti." caption="Illustrazione del tema · A09" />
+  <LessonFigure src="/images/generated/approfondimenti/a09.webp" alt="Una stima puntuale confrontata con intervalli di incertezza e un’interruzione per i dati mancanti." caption="Illustrazione del tema · A09" />
 </div>
 
 <!--
@@ -348,7 +348,7 @@ footer: "Approfondimento individuale · A10"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Mappa dei ruoli e sequenza di modifica concorrente.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a10.png" alt="Due persone modificano lo stesso contenuto; versioni concorrenti vengono confrontate e ricomposte." caption="Illustrazione del tema · A10" />
+  <LessonFigure src="/images/generated/approfondimenti/a10.webp" alt="Due persone modificano lo stesso contenuto; versioni concorrenti vengono confrontate e ricomposte." caption="Illustrazione del tema · A10" />
 </div>
 
 <!--
@@ -382,7 +382,7 @@ footer: "Approfondimento individuale · A11"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Matrice evento/priorità/canale con esempi utili e superflui.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a11.png" alt="Notifiche che interrompono il lavoro confrontate con un riepilogo e un controllo delle priorità." caption="Illustrazione del tema · A11" />
+  <LessonFigure src="/images/generated/approfondimenti/a11.webp" alt="Notifiche che interrompono il lavoro confrontate con un riepilogo e un controllo delle priorità." caption="Illustrazione del tema · A11" />
 </div>
 
 <!--
@@ -416,7 +416,7 @@ footer: "Approfondimento individuale · A12"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Sequenza di primo utilizzo motivata.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a12.png" alt="Dalla schermata iniziale, un aiuto contestuale conduce al primo risultato utile." caption="Illustrazione del tema · A12" />
+  <LessonFigure src="/images/generated/approfondimenti/a12.webp" alt="Dalla schermata iniziale, un aiuto contestuale conduce al primo risultato utile." caption="Illustrazione del tema · A12" />
 </div>
 
 <!--
@@ -450,7 +450,7 @@ footer: "Approfondimento individuale · A13"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Flusso richiesta/spiegazione/controllo/revoca.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a13.png" alt="Un permesso è collegato a una funzione, controllato nelle impostazioni e successivamente revocato." caption="Illustrazione del tema · A13" />
+  <LessonFigure src="/images/generated/approfondimenti/a13.webp" alt="Un permesso è collegato a una funzione, controllato nelle impostazioni e successivamente revocato." caption="Illustrazione del tema · A13" />
 </div>
 
 <!--
@@ -484,7 +484,7 @@ footer: "Approfondimento individuale · A14"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Sequenza di prenotazione con casi limite.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a14.png" alt="Calendario, disponibilità e riepilogo mostrano una selezione coerente ed escludono un orario in conflitto." caption="Illustrazione del tema · A14" />
+  <LessonFigure src="/images/generated/approfondimenti/a14.webp" alt="Calendario, disponibilità e riepilogo mostrano una selezione coerente ed escludono un orario in conflitto." caption="Illustrazione del tema · A14" />
 </div>
 
 <!--
@@ -518,7 +518,7 @@ footer: "Approfondimento individuale · A15"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Flusso di compilazione con scelte motivate.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a15.png" alt="Un modulo articolato in passaggi gestisce una diramazione, la validazione e il recupero della bozza." caption="Illustrazione del tema · A15" />
+  <LessonFigure src="/images/generated/approfondimenti/a15.webp" alt="Un modulo articolato in passaggi gestisce una diramazione, la validazione e il recupero della bozza." caption="Illustrazione del tema · A15" />
 </div>
 
 <!--
@@ -552,7 +552,7 @@ footer: "Approfondimento individuale · A16"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Schema degli stati e confronto tra soluzioni di catalogo.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a16.png" alt="Filtri attivi restringono un catalogo mantenendo visibili criteri, risultati e possibilità di azzeramento." caption="Illustrazione del tema · A16" />
+  <LessonFigure src="/images/generated/approfondimenti/a16.webp" alt="Filtri attivi restringono un catalogo mantenendo visibili criteri, risultati e possibilità di azzeramento." caption="Illustrazione del tema · A16" />
 </div>
 
 <!--
@@ -586,7 +586,7 @@ footer: "Approfondimento individuale · A17"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Mappa azione/rischio/recupero con sequenze.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a17.png" alt="Un documento eliminato viene recuperato con annullamento; un percorso distinto segnala un’azione irreversibile." caption="Illustrazione del tema · A17" />
+  <LessonFigure src="/images/generated/approfondimenti/a17.webp" alt="Un documento eliminato viene recuperato con annullamento; un percorso distinto segnala un’azione irreversibile." caption="Illustrazione del tema · A17" />
 </div>
 
 <!--
@@ -620,7 +620,7 @@ footer: "Approfondimento individuale · A18"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Confronto sullo stesso dataset e operazione annotata.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a18.png" alt="Una tabella mantiene il contesto durante ordinamento, selezione di più righe e modifica di una cella." caption="Illustrazione del tema · A18" />
+  <LessonFigure src="/images/generated/approfondimenti/a18.webp" alt="Una tabella mantiene il contesto durante ordinamento, selezione di più righe e modifica di una cella." caption="Illustrazione del tema · A18" />
 </div>
 
 <!--
@@ -654,7 +654,7 @@ footer: "Approfondimento individuale · A19"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Mappa dei comandi e analisi dell’apprendimento.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a19.png" alt="Una command palette collega ricerca, suggerimento di un comando e scorciatoia Ctrl K." caption="Illustrazione del tema · A19" />
+  <LessonFigure src="/images/generated/approfondimenti/a19.webp" alt="Una command palette collega ricerca, suggerimento di un comando e scorciatoia Ctrl K." caption="Illustrazione del tema · A19" />
 </div>
 
 <!--
@@ -688,7 +688,7 @@ footer: "Approfondimento individuale · A20"
     </ul>
     <p class="topic-output"><strong>Esito:</strong> Flusso lettura/annotazione/ritorno al riferimento.</p>
   </div>
-  <LessonFigure src="/images/generated/approfondimenti/a20.png" alt="Un’annotazione e un segnalibro consentono di tornare al passaggio evidenziato senza perdere il punto di lettura." caption="Illustrazione del tema · A20" />
+  <LessonFigure src="/images/generated/approfondimenti/a20.webp" alt="Un’annotazione e un segnalibro consentono di tornare al passaggio evidenziato senza perdere il punto di lettura." caption="Illustrazione del tema · A20" />
 </div>
 
 <!--

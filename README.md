@@ -228,3 +228,10 @@ Dopo il brief di progetto è inserito `lezioni/00-approfondimenti.md`: copertina
 La fonte è [Scelta tema · Approfondimento individuale](https://elearning.unimib.it/mod/choicegroup/view.php?id=1680625), letta il 6 ottobre 2026. Ogni slide mantiene titolo e domanda ufficiali e sintetizza gli aspetti da sviluppare e l’esito. I testi originali sono in `assets/approfondimenti/source-elearning.json`; la mappa è in `docs/fonti/00-approfondimenti.md`.
 
 Le venti immagini originali sono generate con ImageGen nella palette indaco/lime, salvate in `public/images/generated/approfondimenti/` e visualizzate con `LessonFigure`. Prompt e provenienza sono in `assets/approfondimenti/imagegen-manifest.json`. Le illustrazioni spiegano i concetti e rappresentano situazioni esemplificative. La scelta della traccia e la consegna del PDF individuale avvengono su eLearning; date e scadenze restano da confermare.
+
+
+## Budget della pubblicazione Pages
+
+La build mantiene l’archivio completo e deve restare sotto 990 MB. Richiede FFmpeg nel PATH, oppure il percorso del binario in `PAGES_FFMPEG`, per ottimizzare soltanto le copie MP4 esportate quando il sito supera il budget operativo. Conserva durata, audio, frequenza dei fotogrammi e proporzioni; i video sorgenti nel repository restano integrali. Il workflow installa FFmpeg prima della build.
+
+Le nuove illustrazioni degli approfondimenti vengono caricate come WebP lossless, verificati pixel per pixel contro gli originali PNG. Gli originali e le varianti grafiche archiviate restano nel repository; la build pubblica solo le varianti effettivamente referenziate. `media-optimization.json` documenta le ottimizzazioni della copia pubblicata; `build-info.json` identifica il commit distribuito per la verifica del sito.
