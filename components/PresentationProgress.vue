@@ -7,7 +7,8 @@ const props = withDefaults(defineProps<{
   page: number
   total: number
   instant?: boolean
-}>(), { instant: false })
+  onDark?: boolean
+}>(), { instant: false, onDark: false })
 
 const state = computed(() => {
   const total = Number.isFinite(props.total) ? Math.max(0, Math.floor(props.total)) : 0
@@ -25,6 +26,7 @@ const label = computed(() => `Slide ${state.value.page} di ${state.value.total}`
     class="presentation-progress-rail"
     :data-lesson="set.id"
     :data-instant="instant"
+    :data-on-dark="onDark"
     :style="setStyle"
   >
     <progress
@@ -47,21 +49,27 @@ const label = computed(() => `Slide ${state.value.page} di ${state.value.total}`
 
 <style scoped>
 .presentation-progress-rail {
+  --progress-fill: var(--section-accent);
+  --progress-track: color-mix(in oklch, var(--section-accent) 10%, white);
   position: absolute;
   z-index: 30;
   inset: auto 72px 14px;
   height: 3px;
   border-radius: 999px;
-  background: color-mix(in oklch, var(--section-primary) 12%, white);
+  background: var(--progress-track);
   overflow: hidden;
   pointer-events: none;
+}
+.presentation-progress-rail[data-on-dark="true"] {
+  --progress-fill: var(--section-accent-soft);
+  --progress-track: color-mix(in oklch, var(--section-primary) 88%, var(--section-accent-soft));
 }
 .presentation-progress-fill {
   display: block;
   width: 100%;
   height: 100%;
   border-radius: inherit;
-  background: var(--section-primary);
+  background: var(--progress-fill);
   transform-origin: left center;
   transition: transform var(--cvedi-motion-data, 520ms) var(--cvedi-ease-out, cubic-bezier(.16, 1, .3, 1));
 }

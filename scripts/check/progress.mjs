@@ -6,6 +6,7 @@ const { deck, course, lesson } = await checkSlideSources()
 const base = (process.env.SLIDEV_URL || 'http://localhost:3035').replace(/\/$/, '')
 const browser = await chromium.launch()
 const checks = []
+const colors = []
 try {
   const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'no-preference' })
   async function sample() {
@@ -92,7 +93,40 @@ try {
   await page.setViewportSize({ width: 636, height: 778 })
   assert.ok((await sample()).centered)
   checks.push('narrow viewport retains alignment')
-  console.log(JSON.stringify({ status: 'passed', checks }, null, 2))
+
+  await page.setViewportSize({ width: 1280, height: 720 })
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  const fixtures = deck.slides.filter(slide => String(slide.frontmatter.class).split(/\s+/).some(name => ['chapter-slide', 'cover-slide', 'archive-wall-slide'].includes(name)))
+  fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione'].map(lesson =>
+    deck.slides.find(slide => (slide.frontmatter.lesson ?? 'presentazione-corso') === lesson && !String(slide.frontmatter.class).split(/\s+/).includes('chapter-slide') && !String(slide.frontmatter.class).split(/\s+/).includes('cover-slide'))))
+  for (const slide of fixtures) {
+    assert.ok(slide, 'each visible set has a progress color fixture')
+    await page.goto(`${base}/#/${slide.index + 1}`, { waitUntil: 'domcontentloaded' })
+    const root = page.locator(`.slidev-page-${slide.index + 1} .slidev-layout`)
+    await root.waitFor({ state: 'visible' })
+    const result = await page.locator('.presentation-progress-rail').evaluate(rail => {
+      const context = document.createElement('canvas').getContext('2d')
+      const rgb = color => {
+        context.fillStyle = color
+        context.fillRect(0, 0, 1, 1)
+        return [...context.getImageData(0, 0, 1, 1).data].slice(0, 3)
+      }
+      const luminance = rgb => rgb.map(value => {
+        const c = value / 255
+        return c <= .04045 ? c / 12.92 : ((c + .055) / 1.055) ** 2.4
+      }).reduce((sum, value, index) => sum + value * [.2126, .7152, .0722][index], 0)
+      const fill = rgb(getComputedStyle(rail.querySelector('.presentation-progress-fill')).backgroundColor)
+      const track = rgb(getComputedStyle(rail).backgroundColor)
+      const [low, high] = [luminance(fill), luminance(track)].sort((a, b) => a - b)
+      return { lesson: rail.dataset.lesson, onDark: rail.dataset.onDark, fill, track, contrast: (high + .05) / (low + .05) }
+    })
+    const classes = String(slide.frontmatter.class).split(/\s+/)
+    assert.equal(result.onDark, String(classes.includes('chapter-slide') || classes.includes('archive-wall-slide')))
+    assert.ok(result.contrast >= 3, `slide ${slide.index + 1}: progress contrast ${result.contrast.toFixed(2)}:1`)
+    colors.push({ page: slide.index + 1, ...result })
+  }
+  checks.push('owning-set accents remain distinguishable at 3:1 or better on light slides and dark covers')
+  console.log(JSON.stringify({ status: 'passed', checks, colors }, null, 2))
 } finally {
   await browser.close()
 }

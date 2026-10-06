@@ -28,6 +28,7 @@
   --cvedi-type-stat: 32px;
   --cvedi-type-label: 16px;
   --cvedi-type-footer: 14px;
+  --cvedi-type-page-number: 16px;
   --cvedi-type-ribbon: 12px;
 }
 .slidev-layout.default,
@@ -70,6 +71,13 @@
 }
 .slidev-layout.default :is(.stat-value, .grade-range-head strong, .grade-table-value, .grade-table-median, .slide-index, .index-chapter-number, .metro-station) {
   font-variant-numeric: lining-nums tabular-nums;
+}
+/* Pagination is shared navigation, including on covers and historical examples.
+   Its type does not inherit the decorative footer treatments of those pages. */
+.slidev-layout.default .slide-footer .slide-index {
+  font: 600 var(--cvedi-type-page-number)/1.2 var(--cvedi-font-reading);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: .04em;
 }
 .slidev-layout.default .grade-summary-stats .stat-value {
   font-size: var(--cvedi-type-stat);

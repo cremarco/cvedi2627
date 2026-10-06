@@ -36,6 +36,7 @@
   .slidev-layout.default .formula-flow > .formula-connector { grid-row: span 2; }
 }
 .slidev-layout.default .lesson-columns { column-gap: var(--cvedi-space-columns); }
+.slidev-layout.default .lesson-columns .aside { margin-top: var(--cvedi-space-related); }
 .slidev-layout.default .lesson-figure figcaption {
   margin-top: var(--cvedi-space-copy);
   /* Captions follow the actual pixels, including landscape art in tall cells. */

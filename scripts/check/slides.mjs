@@ -212,6 +212,16 @@ try {
       })
       const ribbon = root.querySelector('.lesson-ribbon')
       const progressFill = document.querySelector('.presentation-progress-fill')
+      const sectionStyle = getComputedStyle(root)
+      const darkProgress = root.classList.contains('chapter-slide') || root.classList.contains('archive-wall-slide')
+      const colorContext = document.createElement('canvas').getContext('2d')
+      const color = value => {
+        if (!value) return null
+        colorContext.clearRect(0, 0, 1, 1)
+        colorContext.fillStyle = value
+        colorContext.fillRect(0, 0, 1, 1)
+        return [...colorContext.getImageData(0, 0, 1, 1).data].join(',')
+      }
       const marker = title && !root.classList.contains('archive-wall-slide') && !root.classList.contains('closing-slide')
         ? getComputedStyle(title, '::after').backgroundColor : null
       const type = element => {
@@ -249,9 +259,11 @@ try {
           readingFaceLoaded: [...document.fonts].some(face => face.family === 'Nunito Sans' && face.style === 'normal' && face.status === 'loaded'),
         },
         colors: {
-          ribbon: ribbon ? getComputedStyle(ribbon).backgroundColor : null,
-          titleMarker: marker === 'rgba(0, 0, 0, 0)' ? null : marker,
-          progress: progressFill ? getComputedStyle(progressFill).backgroundColor : null,
+          primary: color(sectionStyle.getPropertyValue('--section-primary')),
+          progressAccent: color(sectionStyle.getPropertyValue(darkProgress ? '--section-accent-soft' : '--section-accent')),
+          ribbon: ribbon ? color(getComputedStyle(ribbon).backgroundColor) : null,
+          titleMarker: marker === 'rgba(0, 0, 0, 0)' ? null : color(marker),
+          progress: progressFill ? color(getComputedStyle(progressFill).backgroundColor) : null,
         },
       }
     }, number)
@@ -269,8 +281,9 @@ try {
     assert.equal(report.codeBlocks, 0, `slide ${number}: unintended code block`)
     assert.equal(report.brokenImages.length, 0, `slide ${number}: missing images`)
     assert.ok(report.backgrounds.length <= 1, `slide ${number}: inconsistent card surfaces`)
-    if (report.colors.ribbon) assert.equal(report.colors.ribbon, report.colors.progress, `slide ${number}: ribbon and progress use the same set color`)
-    if (report.colors.titleMarker && !report.cover) assert.equal(report.colors.titleMarker, report.colors.progress, `slide ${number}: title marker follows the current set`)
+    assert.equal(report.colors.progress, report.colors.progressAccent, `slide ${number}: progress uses the owning set accent and surface variant`)
+    if (report.colors.ribbon) assert.equal(report.colors.ribbon, report.colors.primary, `slide ${number}: ribbon uses the owning set primary`)
+    if (report.colors.titleMarker && !report.cover) assert.equal(report.colors.titleMarker, report.colors.primary, `slide ${number}: title marker uses the owning set primary`)
     if (!report.cover) {
       assert.equal(report.titleTop, 52, `slide ${number}: stable title top`)
       assert.equal(report.titleLeft, 72, `slide ${number}: stable title left`)

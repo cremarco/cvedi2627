@@ -51,11 +51,14 @@ Nunito Sans variabile locale, normale e corsivo; Inter nelle copertine e come fa
 | Lead / prosa | 27 / 23 px |
 | Titolo card / compatto | 24 / 22 px, 600 |
 | Testo card / note e didascalie | 20 / 18 px |
-| Metadati / footer / ribbon | 16 / 14 / 12 px |
+| Metadati / etichetta footer / ribbon | 16 / 14 / 12 px |
+| Numero di pagina | Nunito Sans 16 px / 600, cifre tabulari |
 | Valori statistici | 32 px / 700, cifre tabulari |
 | Copertina generale / lezione | Inter 66 / 96 px, 700 |
 
 Prosa entro 65ch e lead entro 70ch, limitati dal contenitore. Interlinea 1,48 nella prosa e 1,5 nelle card. Spazi: 12 px fra raster e didascalia, 16 fra parti correlate, 24 fra elementi equivalenti, 48 fra testo e figura.
+
+La numerazione ha un unico stile in tutti i set, comprese copertine ed esempi storici: Nunito Sans, 16 px, peso 600, interlinea 1,2 e spaziatura 0,04 em. Mantiene il formato `01 / 82` e il colore del footer; non eredita font o dimensioni dalle varianti decorative.
 
 Le card equivalenti usano subgrid per allineare le spiegazioni sotto il titolo più lungo; il flusso normale resta il fallback. Gli approfondimenti seguono domanda, aspetti e figura, esito; il frame può ridursi per titoli lunghi senza imporre altezze al testo.
 
@@ -70,6 +73,8 @@ Ingrandisci è un'icona sopra l'immagine, in basso a destra: opacità 45%, 100% 
 La metro è il momento principale delle aperture: sequenze finite entro 900 ms, titoli fermi. Calendari e voti seguono l'ordine di lettura. motion-enabled deriva dallo stato Slidev; uscita, scheda nascosta, anteprima, export e movimento ridotto mostrano il risultato statico. Il listener del browser è condiviso.
 
 L'avanzamento usa progress accessibile e trasformazione decorativa. Cambio set e stampa evitano transizioni improprie; l'export mostra la metro completa anche con media screen.
+
+La barra usa l’accento Tailwind 800 del set su una traccia chiara tinta al 10%. Sulle copertine di lezione e nell’archivio scuro usa l’accento 100; la traccia miscela primario e accento chiaro all’88/12%. La copertina generale conserva questa barra su fondo bianco. Ribbon e segno del titolo restano nel primario: stessa coppia cromatica, ruoli distinti.
 
 I contenuti sono in Markdown o data; i componenti gestiscono presentazione e interazione. La normalizzazione dei titoli delle immagini è condivisa fra runtime e controlli. Le note del relatore sono assenti e presenter è disabilitato.
 
