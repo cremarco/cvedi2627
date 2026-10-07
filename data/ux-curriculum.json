@@ -1,0 +1,121 @@
+{
+  "source": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2008:1741",
+    "chapter": "C03 · Processo UX",
+    "pages": 260,
+    "snapshot": "assets/booklet/capitolo-3/testo-figma-aggiornato.json"
+  },
+  "lessonMinutes": 120,
+  "lessons": [
+    {
+      "number": 4,
+      "id": "ricerca-inclusiva",
+      "title": "Ricerca, contesto e inclusione",
+      "subtitle": "Dalle persone al problema progettuale",
+      "file": "lezioni/04-ricerca-inclusiva.md",
+      "palette": "lime",
+      "sourceRange": [
+        1,
+        58
+      ],
+      "sections": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "slideCount": 48,
+      "paletteAlias": "ux-research"
+    },
+    {
+      "number": 5,
+      "id": "percezione-gerarchia",
+      "title": "Percezione e gerarchia visiva",
+      "subtitle": "Gestalt, linguaggio visivo e composizione",
+      "file": "lezioni/05-percezione-gerarchia.md",
+      "palette": "green",
+      "sourceRange": [
+        59,
+        124
+      ],
+      "sections": [
+        5,
+        6
+      ],
+      "slideCount": 51,
+      "paletteAlias": "ux-perception"
+    },
+    {
+      "number": 6,
+      "id": "colore",
+      "title": "Colore e significato",
+      "subtitle": "Relazioni cromatiche, contesto e accessibilità",
+      "file": "lezioni/06-colore.md",
+      "palette": "emerald",
+      "sourceRange": [
+        125,
+        156
+      ],
+      "sections": [
+        7
+      ],
+      "slideCount": 32,
+      "paletteAlias": "ux-color"
+    },
+    {
+      "number": 7,
+      "id": "tipografia-griglie",
+      "title": "Tipografia, griglie e interfacce",
+      "subtitle": "Dalla leggibilità alla struttura responsive",
+      "file": "lezioni/07-tipografia-griglie.md",
+      "palette": "teal",
+      "sourceRange": [
+        157,
+        200
+      ],
+      "sections": [
+        8,
+        9
+      ],
+      "slideCount": 45,
+      "paletteAlias": "ux-type"
+    },
+    {
+      "number": 8,
+      "id": "prototipi-interfacce",
+      "title": "Prototipi e videogiochi",
+      "subtitle": "Flussi, stati e interfacce per l’azione",
+      "file": "lezioni/08-prototipi-interfacce.md",
+      "palette": "cyan",
+      "sourceRange": [
+        201,
+        234
+      ],
+      "sections": [
+        10,
+        11
+      ],
+      "slideCount": 37,
+      "paletteAlias": "ux-prototype"
+    },
+    {
+      "number": 9,
+      "id": "test-implementazione",
+      "title": "Test e implementazione",
+      "subtitle": "Osservare l’uso, migliorare e consegnare",
+      "file": "lezioni/09-test-implementazione.md",
+      "palette": "sky",
+      "sourceRange": [
+        235,
+        260
+      ],
+      "sections": [
+        12,
+        13
+      ],
+      "slideCount": 37,
+      "paletteAlias": "ux-test"
+    }
+  ]
+}

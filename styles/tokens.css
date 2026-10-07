@@ -490,14 +490,14 @@
   --cvedi-introduction-accent-light: var(--cvedi-orange-accent-light);
   --cvedi-introduction-accent-vivid: var(--cvedi-orange-accent-vivid);
 
-  --cvedi-history-base: var(--cvedi-lime-800);
-  --cvedi-history-canvas: var(--cvedi-lime-900);
-  --cvedi-history-deep: var(--cvedi-lime-950);
-  --cvedi-history-light: var(--cvedi-lime-100);
-  --cvedi-history-surface: var(--cvedi-lime-50);
-  --cvedi-history-accent: var(--cvedi-lime-accent);
-  --cvedi-history-accent-light: var(--cvedi-lime-accent-light);
-  --cvedi-history-accent-vivid: var(--cvedi-lime-accent-vivid);
+  --cvedi-history-base: var(--cvedi-blue-800);
+  --cvedi-history-canvas: var(--cvedi-blue-900);
+  --cvedi-history-deep: var(--cvedi-blue-950);
+  --cvedi-history-light: var(--cvedi-blue-100);
+  --cvedi-history-surface: var(--cvedi-blue-50);
+  --cvedi-history-accent: var(--cvedi-blue-accent);
+  --cvedi-history-accent-light: var(--cvedi-blue-accent-light);
+  --cvedi-history-accent-vivid: var(--cvedi-blue-accent-vivid);
 
   --cvedi-design-thinking-base: var(--cvedi-green-800);
   --cvedi-design-thinking-canvas: var(--cvedi-green-900);
@@ -525,6 +525,61 @@
   --cvedi-conclusions-accent: var(--cvedi-teal-accent);
   --cvedi-conclusions-accent-light: var(--cvedi-teal-accent-light);
   --cvedi-conclusions-accent-vivid: var(--cvedi-teal-accent-vivid);
+
+  /* Published UX lessons continue the index sequence after yellow. */
+  --cvedi-ux-research-base: var(--cvedi-lime-800);
+  --cvedi-ux-research-canvas: var(--cvedi-lime-900);
+  --cvedi-ux-research-deep: var(--cvedi-lime-950);
+  --cvedi-ux-research-light: var(--cvedi-lime-100);
+  --cvedi-ux-research-surface: var(--cvedi-lime-50);
+  --cvedi-ux-research-accent: var(--cvedi-lime-accent);
+  --cvedi-ux-research-accent-light: var(--cvedi-lime-accent-light);
+  --cvedi-ux-research-accent-vivid: var(--cvedi-lime-accent-vivid);
+
+  --cvedi-ux-perception-base: var(--cvedi-green-800);
+  --cvedi-ux-perception-canvas: var(--cvedi-green-900);
+  --cvedi-ux-perception-deep: var(--cvedi-green-950);
+  --cvedi-ux-perception-light: var(--cvedi-green-100);
+  --cvedi-ux-perception-surface: var(--cvedi-green-50);
+  --cvedi-ux-perception-accent: var(--cvedi-green-accent);
+  --cvedi-ux-perception-accent-light: var(--cvedi-green-accent-light);
+  --cvedi-ux-perception-accent-vivid: var(--cvedi-green-accent-vivid);
+
+  --cvedi-ux-color-base: var(--cvedi-emerald-800);
+  --cvedi-ux-color-canvas: var(--cvedi-emerald-900);
+  --cvedi-ux-color-deep: var(--cvedi-emerald-950);
+  --cvedi-ux-color-light: var(--cvedi-emerald-100);
+  --cvedi-ux-color-surface: var(--cvedi-emerald-50);
+  --cvedi-ux-color-accent: var(--cvedi-emerald-accent);
+  --cvedi-ux-color-accent-light: var(--cvedi-emerald-accent-light);
+  --cvedi-ux-color-accent-vivid: var(--cvedi-emerald-accent-vivid);
+
+  --cvedi-ux-type-base: var(--cvedi-teal-800);
+  --cvedi-ux-type-canvas: var(--cvedi-teal-900);
+  --cvedi-ux-type-deep: var(--cvedi-teal-950);
+  --cvedi-ux-type-light: var(--cvedi-teal-100);
+  --cvedi-ux-type-surface: var(--cvedi-teal-50);
+  --cvedi-ux-type-accent: var(--cvedi-teal-accent);
+  --cvedi-ux-type-accent-light: var(--cvedi-teal-accent-light);
+  --cvedi-ux-type-accent-vivid: var(--cvedi-teal-accent-vivid);
+
+  --cvedi-ux-prototype-base: var(--cvedi-cyan-800);
+  --cvedi-ux-prototype-canvas: var(--cvedi-cyan-900);
+  --cvedi-ux-prototype-deep: var(--cvedi-cyan-950);
+  --cvedi-ux-prototype-light: var(--cvedi-cyan-100);
+  --cvedi-ux-prototype-surface: var(--cvedi-cyan-50);
+  --cvedi-ux-prototype-accent: var(--cvedi-cyan-accent);
+  --cvedi-ux-prototype-accent-light: var(--cvedi-cyan-accent-light);
+  --cvedi-ux-prototype-accent-vivid: var(--cvedi-cyan-accent-vivid);
+
+  --cvedi-ux-test-base: var(--cvedi-sky-800);
+  --cvedi-ux-test-canvas: var(--cvedi-sky-900);
+  --cvedi-ux-test-deep: var(--cvedi-sky-950);
+  --cvedi-ux-test-light: var(--cvedi-sky-100);
+  --cvedi-ux-test-surface: var(--cvedi-sky-50);
+  --cvedi-ux-test-accent: var(--cvedi-sky-accent);
+  --cvedi-ux-test-accent-light: var(--cvedi-sky-accent-light);
+  --cvedi-ux-test-accent-vivid: var(--cvedi-sky-accent-vivid);
 
   /* Default for standalone consumers; the active slide set overrides this role. */
 

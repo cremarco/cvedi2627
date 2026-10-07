@@ -35,7 +35,7 @@ try {
       const cardMotifs = [...root.querySelectorAll('.cvedi-card:has(.card-background)')].map(card => {
         const image = card.querySelector('.card-background')
         const visible = getComputedStyle(image).display !== 'none'
-        if (!visible) return { visible, width: parseFloat(getComputedStyle(card).width) }
+        if (!visible) return { visible, width: parseFloat(getComputedStyle(card).width), equivalentPair: card.parentElement.children.length === 2 && [...card.parentElement.children].every(child => child.classList.contains('cvedi-card')), interactionExample: Boolean(card.closest('.interaction-examples')) }
         const box = card.getBoundingClientRect()
         const art = image.getBoundingClientRect()
         const copyRight = Math.max(...[...card.querySelectorAll('.card-heading, .card-copy')].map(el => el.getBoundingClientRect().right))
@@ -68,7 +68,7 @@ try {
     for (const motif of report.cardMotifs) {
       if (motif.visible) assert.ok(motif.copyClear && motif.cropped && motif.overflow === 'hidden' && motif.decorative,
         `slide ${slide.index + 1}: decorative corner is cropped and separate from text`)
-      else assert.ok(motif.width < 420, `slide ${slide.index + 1}: compact card omits its motif`)
+      else assert.ok(motif.width < 420 || !motif.equivalentPair || motif.interactionExample, `slide ${slide.index + 1}: compact and non-pair compositions omit motifs`)
     }
     if (report.formulaAlignment !== null) assert.ok(report.formulaAlignment < 1, 'formula connector remains centered across both card rows')
     if (report.readingOrder) {

@@ -2,7 +2,7 @@ import assert from 'node:assert/strict'
 import { chromium } from 'playwright-chromium'
 import { checkSlideSources } from './slide-source.mjs'
 
-const { deck, course, lesson } = await checkSlideSources()
+const { deck, course, lesson, curriculum } = await checkSlideSources()
 const base = (process.env.SLIDEV_URL || 'http://localhost:3035').replace(/\/$/, '')
 const browser = await chromium.launch()
 const checks = []
@@ -97,7 +97,7 @@ try {
   await page.setViewportSize({ width: 1280, height: 720 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const fixtures = deck.slides.filter(slide => String(slide.frontmatter.class).split(/\s+/).some(name => ['chapter-slide', 'cover-slide', 'archive-wall-slide'].includes(name)))
-  fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione'].map(lesson =>
+  fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione', ...curriculum.lessons.map(lesson => lesson.id)].map(lesson =>
     deck.slides.find(slide => (slide.frontmatter.lesson ?? 'presentazione-corso') === lesson && !String(slide.frontmatter.class).split(/\s+/).includes('chapter-slide') && !String(slide.frontmatter.class).split(/\s+/).includes('cover-slide'))))
   for (const slide of fixtures) {
     assert.ok(slide, 'each visible set has a progress color fixture')

@@ -5,6 +5,7 @@ import { createRequire } from 'node:module'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { normalizeTitle } from '../../utils/normalize-title.mjs'
+import { checkPublication } from './publication.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 
@@ -32,8 +33,11 @@ export async function checkSlideSources() {
   const approfondimenti = deck.slides.filter(slide => slide.frontmatter.lesson === 'approfondimenti')
   const topicSource = JSON.parse(await readFile(path.join(root, 'assets/approfondimenti/source-elearning.json'), 'utf8'))
   const addedSlides = topicSource.topics.length + 1
+  const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
+  const uxLessonIds = new Set(curriculum.lessons.map(lesson => lesson.id))
+  const addedUxSlides = curriculum.lessons.reduce((sum, lesson) => sum + lesson.slideCount, 0)
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
-  assert.equal(total, 220 + addedSlides, 'resolved deck includes the topic section and omits the removed evaluation question slide')
+  assert.equal(total, 220 + addedSlides + addedUxSlides, 'resolved deck includes the topics and six new UX lessons')
   assert.equal(lesson.length, 82, 'introduction: 82 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
@@ -62,7 +66,7 @@ export async function checkSlideSources() {
   assert.equal(visibleDeck.slides.length, total - (historyDisabled ? history.length : 0), 'visible deck excludes the suspended chapter')
   if (historyDisabled) {
     assert.ok(visibleDeck.slides.every(slide => slide.frontmatter.lesson !== 'storia-design'), 'history is absent from navigation and overview')
-    assert.equal(visibleDeck.slides.at(-2).title, lesson.at(-1).title, 'introduction leads directly to closing')
+    assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
   }
   assert.equal(course.length, 39, 'course presentation: 39 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
@@ -72,7 +76,7 @@ export async function checkSlideSources() {
   assert.ok(Math.abs(lessonMinutes(history) - 120) < 1e-6, 'history: 120 minutes')
   assert.deepEqual(history.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: history.length }, (_, i) => i + 1), 'history sequence')
   assert.equal(history[0].index, lesson.at(-1).index + 1, 'history immediately follows introduction')
-  assert.equal(history.at(-1).index, total - 2, 'history immediately precedes closing')
+  assert.equal(history.at(-1).index, total - addedUxSlides - 2, 'the preserved history chapter precedes the added UX course')
   assert.equal(history[0].frontmatter.routeAlias, 'storia-design', 'stable history alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'storia-design').length, 1, 'unique history alias')
   assert.equal(history.filter(slide => slide.frontmatter.class.includes('lesson-activity')).length, 3, 'history: three classroom activities')
@@ -90,6 +94,53 @@ export async function checkSlideSources() {
   }
   await checkSourceMap('01-introduzione.md', lesson)
   await checkSourceMap('03-storia-design.md', history)
+
+  const uxSource = JSON.parse(await readFile(path.join(root, curriculum.source.snapshot), 'utf8'))
+  const uxMapping = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/slide-mapping.json'), 'utf8'))
+  const uxAssets = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/slide-assets.json'), 'utf8'))
+  assert.equal(uxSource.fileKey, 'WLdDzbdqP3P5rpYbK1OxYC', 'new lessons use the requested Figma file')
+  assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
+  assert.deepEqual(uxSource.pages.map(page => page.ordinal), Array.from({ length: 260 }, (_, i) => i + 1), 'all 260 source pages are preserved')
+  assert.deepEqual(curriculum.lessons.map(lesson => lesson.number), [4, 5, 6, 7, 8, 9], 'the UX chapter is split into six lessons')
+  assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['lime', 'green', 'emerald', 'teal', 'cyan', 'sky'], 'new index colors continue Tailwind order')
+  const sourcePages = new Map(uxSource.pages.map(page => [page.ordinal, page]))
+  const assetRegistry = new Map(uxAssets.assets.map(asset => [asset.id, asset]))
+  const coveredPages = new Set()
+  const usedAssets = new Set()
+  for (const specification of curriculum.lessons) {
+    const slides = deck.slides.filter(slide => slide.frontmatter.lesson === specification.id)
+    const mapping = uxMapping.lessons.filter(slide => slide.lesson === specification.id)
+    assert.equal(slides.length, specification.slideCount, `${specification.id}: declared slide count`)
+    assert.deepEqual(slides.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: slides.length }, (_, i) => i + 1), `${specification.id}: complete pagination`)
+    assert.equal(slides[0].title, specification.title, `${specification.id}: chapter title`)
+    assert.equal(slides[0].frontmatter.lessonNumber, specification.number, `${specification.id}: real lesson number`)
+    assert.equal(slides[0].frontmatter.routeAlias, specification.id, `${specification.id}: stable index target`)
+    assert.ok(Math.abs(lessonMinutes(slides) - curriculum.lessonMinutes) < 1e-6, `${specification.id}: planned lecture duration`)
+    assert.equal(mapping.length, slides.length, `${specification.id}: every slide has a source mapping`)
+    for (const [index, slide] of slides.entries()) {
+      const entry = mapping[index]
+      assert.equal(slide.title, entry.title, `${specification.id}/${index + 1}: source map title`)
+      assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, `${specification.id}/${index + 1}: source page identities`)
+      assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page)?.id), `${specification.id}/${index + 1}: genuine Figma nodes`)
+      assert.ok(entry.sourcePages.length > 0, `${specification.id}/${index + 1}: content has a source`)
+      entry.sourcePages.forEach(page => { assert.ok(sourcePages.has(page), `known source page ${page}`); coveredPages.add(page) })
+      const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
+      const declared = entry.assets.map(id => { usedAssets.add(id); assert.ok(assetRegistry.has(id), `registered figure ${id}`); return assetRegistry.get(id).web })
+      assert.deepEqual(figures, declared, `${specification.id}/${index + 1}: correct original figure callsites`)
+      assert.ok(!/<(?:input|select|textarea)\b/.test(slide.content), `${specification.id}/${index + 1}: UI examples are images`)
+    }
+  }
+  assert.deepEqual([...coveredPages].sort((a, b) => a - b), Array.from({ length: 260 }, (_, i) => i + 1), 'the new course covers every source page')
+  assert.equal(usedAssets.size, assetRegistry.size, 'all original figures and supplementary examples are used')
+  for (const asset of uxAssets.assets) {
+    const original = await readFile(path.join(root, asset.original))
+    assert.equal(createHash('sha256').update(original).digest('hex'), asset.sha256, `${asset.id}: original export preserved`)
+    assert.ok(asset.caption.trim() && asset.nodeId, `${asset.id}: attribution and Figma provenance`)
+    assert.ok(asset.encoding.lossless && asset.encoding.exactAlpha, `${asset.id}: lossless publication`)
+    if (asset.publicationSource) assert.equal(createHash('sha256').update(await readFile(path.join(root, asset.publicationSource))).digest('hex'), asset.publicationSourceSha256, `${asset.id}: publication uses an unchanged Figma original`)
+    assert.ok((await stat(path.join(root, 'public', asset.web.replace(/^\//, '')))).size > 0, `${asset.id}: visible WebP exists`)
+    for (const file of asset.retainedSources) assert.ok((await stat(path.join(root, file))).size > 0, `${asset.id}: source file retained`)
+  }
 
   // The history lesson cites the current 66-page chapter, rather than the
   // original 38-frame import. Check page identities so a reordered chapter
@@ -219,10 +270,13 @@ export async function checkSlideSources() {
   const artwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork.json'), 'utf8'))
   const generations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-v1.json'), 'utf8'))
   const cardGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-cards-v2.json'), 'utf8'))
+  const outlineGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-outline-v3.json'), 'utf8'))
+  assert.equal(outlineGenerations.jobs.length, outlineGenerations.counts.images, 'complete outline restyling inventory')
+  const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
   assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length, 'only refreshed motifs populate the card catalog')
-  for (const generation of [...generations.jobs, ...cardGenerations.jobs]) {
+  for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
     const publicImage = await readFile(path.join(root, generation.web))
@@ -230,12 +284,18 @@ export async function checkSlideSources() {
     assert.ok((await stat(path.join(root, generation.original))).isFile(), `generated asset ${generation.id}: original PNG retained`)
   }
   for (const generation of cardGenerations.jobs)
-    assert.equal(artwork.assets[generation.id], '/' + generation.web.replace(/^public\//, ''), `card motif ${generation.id}: registered public path`)
+    assert.equal(artwork.assets[generation.id], '/' + (activeOutline.find(job => job.group === 'card' && job.key === generation.id) ?? generation).web.replace(/^public\//, ''), `card motif ${generation.id}: registered public path`)
   for (const [id, src] of Object.entries(artwork.thematicAssets))
-    assert.ok(generations.jobs.some(job => job.id === id && '/' + job.web.replace(/^public\//, '') === src), `retained thematic figure ${id}: original provenance`)
-  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction' }
+    assert.ok([...generations.jobs, ...activeOutline.filter(job => job.group === 'thematic')].some(job => (job.key ?? job.id) === id && '/' + job.web.replace(/^public\//, '') === src), `retained thematic figure ${id}: original provenance`)
+  for (const generation of activeOutline) {
+    assert.equal(generation.visualReview.status, 'accepted', `outline illustration ${generation.id}: visually reviewed before publication`)
+    assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved, `outline illustration ${generation.id}: lossless publication`)
+    assert.ok(generation.owners.length > 0, `outline illustration ${generation.id}: owning slide recorded`)
+  }
+  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction', ...Object.fromEntries(curriculum.lessons.map(lesson => [lesson.id, lesson.id])) }
   let illustratedCards = 0
   let directCards = 0
+  let addedCards = 0
   for (const slide of visibleDeck.slides) {
     for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
       const title = normalizeTitle(card[1])
@@ -244,10 +304,11 @@ export async function checkSlideSources() {
       assert.ok(Object.hasOwn(artwork.mappings[family] ?? {}, title), `card ${card[1]}: explicit illustration decision`)
       assert.ok(id === null || (artwork.assets[id] && id.startsWith(`${family}-`)), `card ${card[1]}: intentionally plain or illustrated in the owning palette`)
       directCards++
+      if (uxLessonIds.has(slide.frontmatter.lesson)) addedCards++
       if (id) illustratedCards++
     }
   }
-  assert.equal(directCards, cardGenerations.counts.totalDirectCards, 'complete card inventory')
+  assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
   assert.equal(illustratedCards, cardGenerations.counts.directCardUses, 'selected direct cards have semantic motifs')
   assert.ok(illustratedCards > 0 && illustratedCards < directCards / 4, 'illustrations remain selective')
 
@@ -271,14 +332,17 @@ export async function checkSlideSources() {
     assert.ok((await stat(location)).size > 0, `nonempty asset: ${asset}`)
   }
   const visibleHistory = visibleDeck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
+  const publication = await checkPublication()
   const report = { slides: visibleDeck.slides.length, sourceSlides: total, course: course.length, introduction: lesson.length,
+    publication,
     history: visibleHistory.length, preservedHistory: history.length,
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
     publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length,
     historyBookletPages: chapterPages.size, historyStyles: historyStyleSlides.length, historyFigures: historyFigures.length,
-    recoveredSlides: audit.integratedSlides.length, projectBriefSlides: brief.length, approfondimentiSlides: approfondimenti.length, officialTopics: topicSource.topics.length }
+    recoveredSlides: audit.integratedSlides.length, projectBriefSlides: brief.length, approfondimentiSlides: approfondimenti.length, officialTopics: topicSource.topics.length,
+    uxCourse: curriculum.lessons.map(spec => ({ lesson: spec.id, slides: spec.slideCount, minutes: curriculum.lessonMinutes })), uxSourcePages: coveredPages.size, uxFigures: usedAssets.size }
   return { deck: visibleDeck, total: visibleDeck.slides.length, lesson, history: visibleHistory, brief, course, approfondimenti, topicSource,
-    projects, uxExamples, uxSlides, audit: { ...audit, integratedSlides: audit.integratedSlides.filter(entry =>
+    projects, uxExamples, uxSlides, curriculum, audit: { ...audit, integratedSlides: audit.integratedSlides.filter(entry =>
       visibleDeck.slides.some(slide => slide.frontmatter.routeAlias === entry.alias)) }, report }
 }
 

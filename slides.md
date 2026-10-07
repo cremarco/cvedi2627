@@ -74,9 +74,16 @@ footer: "Lezioni"
     <SlideAction to="approfondimenti" class="join-item" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction>
   </div>
   <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del design</span></button>
-  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-3" disabled><span class="index-chapter-number">04</span><span>Il processo UX attraverso il Design Thinking</span></button>
-  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-4" disabled><span class="index-chapter-number">05</span><span>La metodologia Lean UX</span></button>
-  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-5" disabled><span class="index-chapter-number">06</span><span>Conclusioni</span></button>
+  <LocalOnly>
+  <div class="index-ux-lessons" role="group" aria-label="Lezioni sul processo UX">
+    <SlideAction to="ricerca-inclusiva" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
+    <SlideAction to="percezione-gerarchia" :show-arrow="false"><span class="index-chapter-number">05</span><span>Percezione e gerarchia visiva</span></SlideAction>
+    <SlideAction to="colore" :show-arrow="false"><span class="index-chapter-number">06</span><span>Colore e significato</span></SlideAction>
+    <SlideAction to="tipografia-griglie" :show-arrow="false"><span class="index-chapter-number">07</span><span>Tipografia, griglie e interfacce</span></SlideAction>
+    <SlideAction to="prototipi-interfacce" :show-arrow="false"><span class="index-chapter-number">08</span><span>Prototipi e videogiochi</span></SlideAction>
+    <SlideAction to="test-implementazione" :show-arrow="false"><span class="index-chapter-number">09</span><span>Test e implementazione</span></SlideAction>
+  </div>
+  </LocalOnly>
 </div>
 
 ---
@@ -729,6 +736,42 @@ src: ./lezioni/01-introduzione.md
 layout: default
 src: ./lezioni/03-storia-design.md
 disabled: true
+---
+
+---
+layout: default
+src: ./lezioni/04-ricerca-inclusiva.md
+localOnly: true
+---
+
+---
+layout: default
+src: ./lezioni/05-percezione-gerarchia.md
+localOnly: true
+---
+
+---
+layout: default
+src: ./lezioni/06-colore.md
+localOnly: true
+---
+
+---
+layout: default
+src: ./lezioni/07-tipografia-griglie.md
+localOnly: true
+---
+
+---
+layout: default
+src: ./lezioni/08-prototipi-interfacce.md
+localOnly: true
+---
+
+---
+layout: default
+src: ./lezioni/09-test-implementazione.md
+localOnly: true
 ---
 
 ---

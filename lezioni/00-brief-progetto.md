@@ -59,7 +59,7 @@ footer: "WHAT IF? · Il brief"
     <p>Inventate un’organizzazione che offra <strong>soluzioni, prodotti, servizi o esperienze innovative</strong> basati su queste possibilità.</p>
     <p>Individuate un <strong>bisogno delle persone</strong> e progettate un’offerta originale, utile e comprensibile.</p>
   </div>
-  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-future-v1.webp" />
+  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-future-v3.webp" />
 </div>
 <p class="aside brief-statement">Realizzate il <strong>sito web responsive</strong> attraverso cui le persone scoprono, scelgono e utilizzano la vostra offerta.</p>
 
@@ -83,7 +83,7 @@ footer: "WHAT IF? · Il concept"
     <div><dt>Evoluzione</dt><dd>Distinguete ciò che esiste <strong>oggi</strong> da ciò che ipotizzate per il <strong>2050</strong>.</dd></div>
     <div><dt>Scelte dell’utente</dt><dd>Chiarite cosa <strong>decide</strong>, fornisce, delega e <strong>può modificare</strong>.</dd></div>
   </dl>
-  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-concept-v1.webp" />
+  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-concept-v3.webp" />
 </div>
 
 ---
@@ -165,7 +165,7 @@ footer: "WHAT IF? · Il sito web"
     <div><dt>Funzionamento</dt><dd>Come si usa il servizio e quale <strong>contributo</strong> dà l’AI.</dd></div>
     <div><dt>Accesso al servizio</dt><dd>Richiesta, personalizzazione, prenotazione o attivazione.</dd></div>
   </dl>
-  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-responsive-v1.webp" />
+  <SlideIllustration src="/images/generated/theme-2026/figures/brief-scene-responsive-v3-r2.webp" />
 </div>
 
 ---

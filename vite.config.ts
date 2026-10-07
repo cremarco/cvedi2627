@@ -1,4 +1,24 @@
+import { rm } from 'node:fs/promises'
+import path from 'node:path'
+import { localAssetDirectories } from './utils/publication.mjs'
+
+function localAssetsPlugin() {
+  let outputDirectory: string
+  return {
+    name: 'cvedi-local-assets',
+    apply: 'build' as const,
+    configResolved(config: { root: string; build: { outDir: string } }) {
+      outputDirectory = path.resolve(config.root, config.build.outDir)
+    },
+    async closeBundle() {
+      for (const directory of localAssetDirectories)
+        await rm(path.join(outputDirectory, directory), { recursive: true, force: true })
+    },
+  }
+}
+
 export default {
+  plugins: [localAssetsPlugin()],
   resolve: {
     alias: {
       // Slidev installs Twoslash even without code blocks. Keep ordinary tooltips

@@ -4,13 +4,15 @@ import assert from 'node:assert/strict'
 import { checkSlideSources } from './slide-source.mjs'
 import { openSlide } from './browser.mjs'
 
-const { deck, total, lesson, history, brief, approfondimenti, projects, uxExamples, uxSlides, audit } = await checkSlideSources()
+const { deck, total, lesson, history, brief, approfondimenti, projects, uxExamples, uxSlides, audit, curriculum } = await checkSlideSources()
 const baseURL = process.env.SLIDEV_URL || 'http://localhost:3035'
 const output = process.env.SLIDEV_SCREENSHOTS
 const pageNumber = slide => slide.index + 1
 const introductionStart = pageNumber(lesson[0])
 const briefStart = pageNumber(brief[0])
 const lessonOf = slide => String(slide.frontmatter.lesson ?? 'presentazione-corso')
+const uxCourseIds = new Set(curriculum.lessons.map(lesson => lesson.id))
+const uxCoursePages = deck.slides.filter(slide => uxCourseIds.has(slide.frontmatter.lesson)).map(pageNumber)
 // Fixtures follow slide identity, so insertions do not silently change their coverage.
 function resolveFixture(lesson, title) {
   const matches = deck.slides.filter(slide => slide.frontmatter.lesson === lesson && slide.title === title)
@@ -136,7 +138,8 @@ try {
   await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  assert.equal(await page.locator('.slidev-page-3 .index-grid .index-button').count(), 2, 'index shows only the two available lessons')
+  assert.equal(await page.locator('.slidev-page-3 .index-grid .index-button').count(), 2, 'index preserves the two original lesson buttons')
+  assert.equal(await page.locator('.slidev-page-3 .index-ux-lessons .slide-action').count(), 6, 'index publishes the six new UX lessons')
   assert.equal(await page.getByRole('button', { name: /Storia del design/ }).count(), 0, 'history index entry stays hidden')
   await page.locator('.slidev-page-3').getByRole('button', { name: /Brief/i }).click()
   await page.locator(`.slidev-page-${briefStart} .slidev-layout`).waitFor()
@@ -145,6 +148,13 @@ try {
   await page.getByRole('button', { name: /Approfondimenti individuali/ }).click()
   await page.locator(`.slidev-page-${topicPages[0]} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${topicPages[0]} h1`).textContent(), 'Approfondimenti', 'index opens the official topic section')
+  for (const specification of curriculum.lessons) {
+    await openSlide(page, baseURL, 3)
+    await page.locator('.slidev-page-3 .index-ux-lessons').getByRole('button', { name: new RegExp(specification.title) }).click()
+    const destination = deck.slides.find(slide => slide.frontmatter.routeAlias === specification.id)
+    await page.locator(`.slidev-page-${destination.index + 1} .slidev-layout`).waitFor({ state: 'visible' })
+    assert.equal(await page.locator(`.slidev-page-${destination.index + 1} h1`).textContent(), specification.title, `${specification.id}: index opens the real chapter`)
+  }
   async function inspect(number, narrow = false, print = false) {
     const slide = await openSlide(page, baseURL, number, { settle: true })
     if (print) {
@@ -393,7 +403,7 @@ try {
     ...fixturePages('narrowIntroduction'),
     // History: opening, timeline, images, paired posters, cards, activities and long titles.
     ...fixturePages('narrowHistory'),
-    ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, total,
+    ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
@@ -402,7 +412,7 @@ try {
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })
   await page.setViewportSize({ width: 1280, height: 720 })
-  for (const number of new Set([...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, total])) await inspect(number, false, true)
+  for (const number of new Set([3, ...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, total])) await inspect(number, false, true)
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()

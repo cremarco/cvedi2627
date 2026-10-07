@@ -1,0 +1,5631 @@
+{
+  "source": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2008:1741",
+    "chapter": "C03 · Processo UX",
+    "pages": 260,
+    "snapshot": "assets/booklet/capitolo-3/testo-figma-aggiornato.json"
+  },
+  "lessons": [
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 1,
+      "title": "Ricerca, contesto e inclusione",
+      "minutes": 1,
+      "sourcePages": [
+        1
+      ],
+      "sourceNodes": [
+        "198:2876"
+      ],
+      "assets": [],
+      "kind": "cover"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 2,
+      "title": "Cosa impareremo",
+      "minutes": 2.0,
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceNodes": [
+        "198:2876",
+        "198:3020",
+        "198:2739",
+        "198:2908"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 3,
+      "title": "Una cornice per il processo UX",
+      "minutes": 2.5,
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "sourceNodes": [
+        "198:2876",
+        "198:3020",
+        "198:2739",
+        "198:2908"
+      ],
+      "assets": [
+        "c03-004-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 4,
+      "title": "Un processo che torna sui propri passi",
+      "minutes": 1.5,
+      "sourcePages": [
+        3,
+        4
+      ],
+      "sourceNodes": [
+        "198:2739",
+        "198:2908"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 5,
+      "title": "La ricerca parte dalle domande",
+      "minutes": 2.0,
+      "sourcePages": [
+        5
+      ],
+      "sourceNodes": [
+        "198:3065"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 6,
+      "title": "Intervistare e osservare",
+      "minutes": 2.0,
+      "sourcePages": [
+        6
+      ],
+      "sourceNodes": [
+        "2460:1099"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 7,
+      "title": "Chiedere un episodio concreto",
+      "minutes": 2.0,
+      "sourcePages": [
+        6
+      ],
+      "sourceNodes": [
+        "2460:1099"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 8,
+      "title": "Osservazione, interpretazione, ipotesi",
+      "minutes": 2.0,
+      "sourcePages": [
+        7
+      ],
+      "sourceNodes": [
+        "2460:1123"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 9,
+      "title": "Rendere rintracciabili le evidenze",
+      "minutes": 2.0,
+      "sourcePages": [
+        7
+      ],
+      "sourceNodes": [
+        "2460:1123"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 10,
+      "title": "Il contesto culturale orienta le domande",
+      "minutes": 2.5,
+      "sourcePages": [
+        8
+      ],
+      "sourceNodes": [
+        "198:3529"
+      ],
+      "assets": [
+        "c03-008-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 11,
+      "title": "Distanza dal potere",
+      "minutes": 2.0,
+      "sourcePages": [
+        9,
+        10
+      ],
+      "sourceNodes": [
+        "198:3945",
+        "198:4586"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 12,
+      "title": "Due comunicazioni universitarie",
+      "minutes": 2.5,
+      "sourcePages": [
+        11,
+        12
+      ],
+      "sourceNodes": [
+        "198:4418",
+        "198:4973"
+      ],
+      "assets": [
+        "c03-011-01",
+        "c03-012-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 13,
+      "title": "Individualismo e appartenenza",
+      "minutes": 2.0,
+      "sourcePages": [
+        13,
+        14
+      ],
+      "sourceNodes": [
+        "198:4402",
+        "198:4960"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 14,
+      "title": "Il viaggio e il servizio alla comunità",
+      "minutes": 2.5,
+      "sourcePages": [
+        15,
+        16
+      ],
+      "sourceNodes": [
+        "198:4575",
+        "198:5105"
+      ],
+      "assets": [
+        "c03-015-01",
+        "c03-016-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 15,
+      "title": "Competizione e cooperazione",
+      "minutes": 2.0,
+      "sourcePages": [
+        17,
+        18
+      ],
+      "sourceNodes": [
+        "198:4386",
+        "198:4947"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 16,
+      "title": "Leggere i messaggi istituzionali",
+      "minutes": 2.5,
+      "sourcePages": [
+        19,
+        20
+      ],
+      "sourceNodes": [
+        "198:4564",
+        "198:5094"
+      ],
+      "assets": [
+        "c03-019-01",
+        "c03-020-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 17,
+      "title": "Rifiuto dell’incertezza",
+      "minutes": 2.0,
+      "sourcePages": [
+        21,
+        22
+      ],
+      "sourceNodes": [
+        "198:4370",
+        "198:4934"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 18,
+      "title": "Prezzi espliciti o invito a esplorare?",
+      "minutes": 2.5,
+      "sourcePages": [
+        23,
+        24
+      ],
+      "sourceNodes": [
+        "198:4553",
+        "198:5083"
+      ],
+      "assets": [
+        "c03-023-01",
+        "c03-024-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 19,
+      "title": "L’orizzonte temporale del messaggio",
+      "minutes": 2.0,
+      "sourcePages": [
+        25,
+        26
+      ],
+      "sourceNodes": [
+        "198:4354",
+        "198:4921"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 20,
+      "title": "Impegni futuri e promozioni attuali",
+      "minutes": 2.5,
+      "sourcePages": [
+        27,
+        28
+      ],
+      "sourceNodes": [
+        "198:4429",
+        "198:4984"
+      ],
+      "assets": [
+        "c03-027-01",
+        "c03-028-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 21,
+      "title": "Un’identità, mercati diversi",
+      "minutes": 2.5,
+      "sourcePages": [
+        29,
+        30
+      ],
+      "sourceNodes": [
+        "198:4440",
+        "198:4995"
+      ],
+      "assets": [
+        "c03-029-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 22,
+      "title": "McDonald’s: guidare ed esplorare",
+      "minutes": 2.5,
+      "sourcePages": [
+        31,
+        32
+      ],
+      "sourceNodes": [
+        "198:4458",
+        "198:5017"
+      ],
+      "assets": [
+        "c03-032-01",
+        "c03-032-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 23,
+      "title": "McDonald’s: singolo e partecipazione",
+      "minutes": 2.5,
+      "sourcePages": [
+        33,
+        34
+      ],
+      "sourceNodes": [
+        "198:4475",
+        "198:5028"
+      ],
+      "assets": [
+        "c03-034-01",
+        "c03-034-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 24,
+      "title": "McDonald’s: premi e tempo libero",
+      "minutes": 2.5,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
+        "c03-036-01",
+        "c03-036-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 25,
+      "title": "McDonald’s: ridurre l’ambiguità",
+      "minutes": 2.5,
+      "sourcePages": [
+        37,
+        38
+      ],
+      "sourceNodes": [
+        "198:4536",
+        "198:5072"
+      ],
+      "assets": [
+        "c03-038-01",
+        "c03-038-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 26,
+      "title": "McDonald’s: continuità e servizi",
+      "minutes": 2.5,
+      "sourcePages": [
+        39,
+        40
+      ],
+      "sourceNodes": [
+        "198:4509",
+        "198:5050"
+      ],
+      "assets": [
+        "c03-040-01",
+        "c03-040-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 27,
+      "title": "Dal confronto all’ipotesi di ricerca",
+      "minutes": 8,
+      "sourcePages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "sourceNodes": [
+        "198:3529",
+        "198:3945",
+        "198:4586",
+        "198:4418",
+        "198:4973",
+        "198:4402",
+        "198:4960",
+        "198:4575",
+        "198:5105",
+        "198:4386",
+        "198:4947",
+        "198:4564",
+        "198:5094",
+        "198:4370",
+        "198:4934",
+        "198:4553",
+        "198:5083",
+        "198:4354",
+        "198:4921",
+        "198:4429",
+        "198:4984",
+        "198:4440",
+        "198:4995",
+        "198:4458",
+        "198:5017",
+        "198:4475",
+        "198:5028",
+        "198:4492",
+        "198:5039",
+        "198:4536",
+        "198:5072",
+        "198:4509",
+        "198:5050"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 28,
+      "title": "Progettare per la pluralità",
+      "minutes": 1.5,
+      "sourcePages": [
+        41,
+        42
+      ],
+      "sourceNodes": [
+        "198:3435",
+        "198:3877"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 29,
+      "title": "Design universale e design inclusivo",
+      "minutes": 2.0,
+      "sourcePages": [
+        43
+      ],
+      "sourceNodes": [
+        "198:3446"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 30,
+      "title": "Due approcci all’accesso",
+      "minutes": 2.0,
+      "sourcePages": [
+        43,
+        44
+      ],
+      "sourceNodes": [
+        "198:3446",
+        "198:3892"
+      ],
+      "assets": [
+        "c03-044-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 31,
+      "title": "Il Persona Spectrum",
+      "minutes": 2.0,
+      "sourcePages": [
+        45,
+        46
+      ],
+      "sourceNodes": [
+        "198:3464",
+        "198:3903"
+      ],
+      "assets": [
+        "c03-046-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 32,
+      "title": "Quattro principi di accessibilità",
+      "minutes": 2.0,
+      "sourcePages": [
+        47
+      ],
+      "sourceNodes": [
+        "198:3498"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 33,
+      "title": "Dai principi ai criteri WCAG",
+      "minutes": 2.0,
+      "sourcePages": [
+        47,
+        48
+      ],
+      "sourceNodes": [
+        "198:3498",
+        "198:3924"
+      ],
+      "assets": [
+        "c03-048-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 34,
+      "title": "Livelli di conformità WCAG",
+      "minutes": 2.0,
+      "sourcePages": [
+        47
+      ],
+      "sourceNodes": [
+        "198:3498"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 35,
+      "title": "Contrasto del testo: i rapporti AA",
+      "minutes": 2.0,
+      "sourcePages": [
+        49
+      ],
+      "sourceNodes": [
+        "198:3481"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 36,
+      "title": "Il colore non basta da solo",
+      "minutes": 2.0,
+      "sourcePages": [
+        49,
+        50
+      ],
+      "sourceNodes": [
+        "198:3481",
+        "198:3913"
+      ],
+      "assets": [
+        "c03-050-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 37,
+      "title": "Priorità per l’accessibilità",
+      "minutes": 2.0,
+      "sourcePages": [
+        51
+      ],
+      "sourceNodes": [
+        "198:3515"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 38,
+      "title": "Verificare l’inclusione",
+      "minutes": 2.0,
+      "sourcePages": [
+        52
+      ],
+      "sourceNodes": [
+        "198:3934"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 39,
+      "title": "Dalle evidenze al problema",
+      "minutes": 1.5,
+      "sourcePages": [
+        53
+      ],
+      "sourceNodes": [
+        "198:3420"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 40,
+      "title": "Una persona fondata sulla ricerca",
+      "minutes": 2.0,
+      "sourcePages": [
+        54
+      ],
+      "sourceNodes": [
+        "2460:1145"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 41,
+      "title": "Dal bisogno alla verifica",
+      "minutes": 2.0,
+      "sourcePages": [
+        55
+      ],
+      "sourceNodes": [
+        "2460:1174"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 42,
+      "title": "Una domanda aperta",
+      "minutes": 2.0,
+      "sourcePages": [
+        57
+      ],
+      "sourceNodes": [
+        "198:3961"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 43,
+      "title": "La moodboard è ricerca visiva",
+      "minutes": 2.0,
+      "sourcePages": [
+        56,
+        57
+      ],
+      "sourceNodes": [
+        "198:3862",
+        "198:3961"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 44,
+      "title": "Moodboard fisica e digitale",
+      "minutes": 2.0,
+      "sourcePages": [
+        58
+      ],
+      "sourceNodes": [
+        "198:4599"
+      ],
+      "assets": [
+        "c03-058-01",
+        "c03-058-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 45,
+      "title": "Dal caso alla domanda progettuale",
+      "minutes": 12,
+      "sourcePages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "sourceNodes": [
+        "198:3420",
+        "2460:1145",
+        "2460:1174",
+        "198:3862",
+        "198:3961",
+        "198:4599"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 46,
+      "title": "Confrontare le proposte",
+      "minutes": 6,
+      "sourcePages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "sourceNodes": [
+        "198:3420",
+        "2460:1145",
+        "2460:1174",
+        "198:3862",
+        "198:3961",
+        "198:4599"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 47,
+      "title": "Tre idee da portare nel progetto",
+      "minutes": 2.0,
+      "sourcePages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "sourceNodes": [
+        "198:3065",
+        "2460:1099",
+        "2460:1123",
+        "198:3529",
+        "198:3945",
+        "198:4586",
+        "198:4418",
+        "198:4973",
+        "198:4402",
+        "198:4960",
+        "198:4575",
+        "198:5105",
+        "198:4386",
+        "198:4947",
+        "198:4564",
+        "198:5094",
+        "198:4370",
+        "198:4934",
+        "198:4553",
+        "198:5083",
+        "198:4354",
+        "198:4921",
+        "198:4429",
+        "198:4984",
+        "198:4440",
+        "198:4995",
+        "198:4458",
+        "198:5017",
+        "198:4475",
+        "198:5028",
+        "198:4492",
+        "198:5039",
+        "198:4536",
+        "198:5072",
+        "198:4509",
+        "198:5050",
+        "198:3435",
+        "198:3877",
+        "198:3446",
+        "198:3892",
+        "198:3464",
+        "198:3903",
+        "198:3498",
+        "198:3924",
+        "198:3481",
+        "198:3913",
+        "198:3515",
+        "198:3934",
+        "198:3420",
+        "2460:1145",
+        "2460:1174",
+        "198:3862",
+        "198:3961",
+        "198:4599"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 48,
+      "title": "Prima della prossima lezione",
+      "minutes": 2.0,
+      "sourcePages": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59
+      ],
+      "sourceNodes": [
+        "198:3420",
+        "2460:1145",
+        "2460:1174",
+        "198:3862",
+        "198:3961",
+        "198:4599",
+        "198:3080"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 1,
+      "title": "Percezione e gerarchia visiva",
+      "minutes": 1,
+      "sourcePages": [
+        59
+      ],
+      "sourceNodes": [
+        "198:3080"
+      ],
+      "assets": [],
+      "kind": "cover"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 2,
+      "title": "Cosa impareremo",
+      "minutes": 2.0,
+      "sourcePages": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "sourceNodes": [
+        "198:3080",
+        "198:3543",
+        "198:4344",
+        "198:4912",
+        "198:3972",
+        "198:4616"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 3,
+      "title": "Ideate: aprire le alternative",
+      "minutes": 1.5,
+      "sourcePages": [
+        59
+      ],
+      "sourceNodes": [
+        "198:3080"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 4,
+      "title": "Dalle parti alla configurazione",
+      "minutes": 2.0,
+      "sourcePages": [
+        60,
+        61
+      ],
+      "sourceNodes": [
+        "198:3543",
+        "198:4344"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 5,
+      "title": "Che cosa riconosci per primo?",
+      "minutes": 2.0,
+      "sourcePages": [
+        61,
+        62
+      ],
+      "sourceNodes": [
+        "198:4344",
+        "198:4912"
+      ],
+      "assets": [
+        "c03-062-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 6,
+      "title": "Principi per organizzare gli stimoli",
+      "minutes": 2.0,
+      "sourcePages": [
+        63,
+        64
+      ],
+      "sourceNodes": [
+        "198:3972",
+        "198:4616"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 7,
+      "title": "Vicinanza",
+      "minutes": 2.0,
+      "sourcePages": [
+        65
+      ],
+      "sourceNodes": [
+        "198:4238"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 8,
+      "title": "Vicinanza: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        65,
+        66
+      ],
+      "sourceNodes": [
+        "198:4238",
+        "198:4830"
+      ],
+      "assets": [
+        "c03-065-01",
+        "c03-066-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 9,
+      "title": "Somiglianza",
+      "minutes": 2.0,
+      "sourcePages": [
+        67
+      ],
+      "sourceNodes": [
+        "198:4250"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 10,
+      "title": "Somiglianza: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        67,
+        68
+      ],
+      "sourceNodes": [
+        "198:4250",
+        "198:4839"
+      ],
+      "assets": [
+        "c03-067-01",
+        "c03-068-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 11,
+      "title": "Destino comune",
+      "minutes": 2.0,
+      "sourcePages": [
+        69
+      ],
+      "sourceNodes": [
+        "198:4261"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 12,
+      "title": "Destino comune: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        69,
+        70
+      ],
+      "sourceNodes": [
+        "198:4261",
+        "198:4848"
+      ],
+      "assets": [
+        "c03-069-01",
+        "c03-070-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 13,
+      "title": "Buona continuazione",
+      "minutes": 2.0,
+      "sourcePages": [
+        71
+      ],
+      "sourceNodes": [
+        "198:4273"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 14,
+      "title": "Buona continuazione: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        71,
+        72
+      ],
+      "sourceNodes": [
+        "198:4273",
+        "198:4857"
+      ],
+      "assets": [
+        "c03-071-01",
+        "c03-072-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 15,
+      "title": "Chiusura",
+      "minutes": 2.0,
+      "sourcePages": [
+        73
+      ],
+      "sourceNodes": [
+        "198:4285"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 16,
+      "title": "Chiusura: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        73,
+        74
+      ],
+      "sourceNodes": [
+        "198:4285",
+        "198:4866"
+      ],
+      "assets": [
+        "c03-073-01",
+        "c03-074-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 17,
+      "title": "Simmetria",
+      "minutes": 2.0,
+      "sourcePages": [
+        75
+      ],
+      "sourceNodes": [
+        "198:4297"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 18,
+      "title": "Simmetria: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        75,
+        76
+      ],
+      "sourceNodes": [
+        "198:4297",
+        "198:4875"
+      ],
+      "assets": [
+        "c03-075-01",
+        "c03-076-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 19,
+      "title": "Regione comune",
+      "minutes": 2.0,
+      "sourcePages": [
+        77
+      ],
+      "sourceNodes": [
+        "198:4309"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 20,
+      "title": "Regione comune: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        77,
+        78
+      ],
+      "sourceNodes": [
+        "198:4309",
+        "198:4884"
+      ],
+      "assets": [
+        "c03-077-01",
+        "c03-078-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 21,
+      "title": "Figura e sfondo",
+      "minutes": 2.0,
+      "sourcePages": [
+        79
+      ],
+      "sourceNodes": [
+        "198:4321"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 22,
+      "title": "Figura e sfondo: leggere l’esempio",
+      "minutes": 2.0,
+      "sourcePages": [
+        79,
+        80
+      ],
+      "sourceNodes": [
+        "198:4321",
+        "198:4893"
+      ],
+      "assets": [
+        "c03-079-01",
+        "c03-080-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 23,
+      "title": "Esperienza passata e riconoscimento",
+      "minutes": 2.0,
+      "sourcePages": [
+        81,
+        82
+      ],
+      "sourceNodes": [
+        "198:4333",
+        "198:4902"
+      ],
+      "assets": [
+        "c03-082-extra-17"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 24,
+      "title": "Quali principi collaborano?",
+      "minutes": 8,
+      "sourcePages": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82
+      ],
+      "sourceNodes": [
+        "198:4238",
+        "198:4830",
+        "198:4250",
+        "198:4839",
+        "198:4261",
+        "198:4848",
+        "198:4273",
+        "198:4857",
+        "198:4285",
+        "198:4866",
+        "198:4297",
+        "198:4875",
+        "198:4309",
+        "198:4884",
+        "198:4321",
+        "198:4893",
+        "198:4333",
+        "198:4902"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 25,
+      "title": "Quattro elementi del linguaggio visivo",
+      "minutes": 2.0,
+      "sourcePages": [
+        83
+      ],
+      "sourceNodes": [
+        "198:4131"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 26,
+      "title": "Quadrato e cerchio nei marchi",
+      "minutes": 2.0,
+      "sourcePages": [
+        84
+      ],
+      "sourceNodes": [
+        "198:4758"
+      ],
+      "assets": [
+        "c03-084-01",
+        "c03-084-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 27,
+      "title": "Triangolo ed esagono",
+      "minutes": 2.0,
+      "sourcePages": [
+        85
+      ],
+      "sourceNodes": [
+        "198:4150"
+      ],
+      "assets": [
+        "c03-085-01",
+        "c03-085-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 28,
+      "title": "Takete e Maluma",
+      "minutes": 2.0,
+      "sourcePages": [
+        86
+      ],
+      "sourceNodes": [
+        "198:4775"
+      ],
+      "assets": [
+        "c03-086-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 29,
+      "title": "Forme naturali come riferimento",
+      "minutes": 2.0,
+      "sourcePages": [
+        87,
+        88
+      ],
+      "sourceNodes": [
+        "198:4222",
+        "198:4819"
+      ],
+      "assets": [
+        "c03-088-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 30,
+      "title": "Il colore nella composizione",
+      "minutes": 2.0,
+      "sourcePages": [
+        89,
+        90
+      ],
+      "sourceNodes": [
+        "198:4171",
+        "198:4786"
+      ],
+      "assets": [
+        "c03-090-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 31,
+      "title": "Immagini: illustrare ed evocare",
+      "minutes": 2.0,
+      "sourcePages": [
+        91,
+        92
+      ],
+      "sourceNodes": [
+        "198:4205",
+        "198:4807"
+      ],
+      "assets": [
+        "c03-092-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 32,
+      "title": "Spazio, sguardo e direzione",
+      "minutes": 2.0,
+      "sourcePages": [
+        93,
+        94
+      ],
+      "sourceNodes": [
+        "198:4188",
+        "198:4796"
+      ],
+      "assets": [
+        "c03-094-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 33,
+      "title": "La gerarchia parte dal contenuto",
+      "minutes": 1.5,
+      "sourcePages": [
+        95,
+        96
+      ],
+      "sourceNodes": [
+        "198:4122",
+        "198:4748"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 34,
+      "title": "Dimensione e scala",
+      "minutes": 2.0,
+      "sourcePages": [
+        97,
+        98
+      ],
+      "sourceNodes": [
+        "198:3981",
+        "198:4626"
+      ],
+      "assets": [
+        "c03-098-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 35,
+      "title": "Colore e contrasto",
+      "minutes": 2.0,
+      "sourcePages": [
+        99,
+        100
+      ],
+      "sourceNodes": [
+        "198:4111",
+        "198:4738"
+      ],
+      "assets": [
+        "c03-100-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 36,
+      "title": "Gerarchia tipografica",
+      "minutes": 2.0,
+      "sourcePages": [
+        101,
+        102
+      ],
+      "sourceNodes": [
+        "198:4100",
+        "198:4729"
+      ],
+      "assets": [
+        "c03-102-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 37,
+      "title": "Spaziatura e percorso a Z",
+      "minutes": 2.0,
+      "sourcePages": [
+        103,
+        104
+      ],
+      "sourceNodes": [
+        "198:4089",
+        "198:4719"
+      ],
+      "assets": [
+        "c03-104-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 38,
+      "title": "Scansione a F e priorità",
+      "minutes": 2.0,
+      "sourcePages": [
+        105,
+        106
+      ],
+      "sourceNodes": [
+        "198:4079",
+        "198:4708"
+      ],
+      "assets": [
+        "c03-106-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 39,
+      "title": "Prossimità e pareidolia",
+      "minutes": 2.0,
+      "sourcePages": [
+        107,
+        108
+      ],
+      "sourceNodes": [
+        "198:4068",
+        "198:4699"
+      ],
+      "assets": [
+        "c03-108-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 40,
+      "title": "Spazio negativo come messaggio",
+      "minutes": 2.0,
+      "sourcePages": [
+        109,
+        110
+      ],
+      "sourceNodes": [
+        "198:4057",
+        "198:4690"
+      ],
+      "assets": [
+        "c03-110-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 41,
+      "title": "Allineare per creare relazioni",
+      "minutes": 2.0,
+      "sourcePages": [
+        111,
+        112
+      ],
+      "sourceNodes": [
+        "198:3992",
+        "198:4636"
+      ],
+      "assets": [
+        "c03-112-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 42,
+      "title": "La regola dei dispari",
+      "minutes": 2.0,
+      "sourcePages": [
+        113,
+        114
+      ],
+      "sourceNodes": [
+        "198:4003",
+        "198:4645"
+      ],
+      "assets": [
+        "c03-114-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 43,
+      "title": "Ripetizione e riconoscimento",
+      "minutes": 2.0,
+      "sourcePages": [
+        115,
+        116
+      ],
+      "sourceNodes": [
+        "198:4014",
+        "198:4654"
+      ],
+      "assets": [
+        "c03-116-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 44,
+      "title": "Linee e movimento implicito",
+      "minutes": 2.0,
+      "sourcePages": [
+        117,
+        118
+      ],
+      "sourceNodes": [
+        "198:4025",
+        "198:4663"
+      ],
+      "assets": [
+        "c03-118-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 45,
+      "title": "La griglia sostiene la composizione",
+      "minutes": 2.0,
+      "sourcePages": [
+        119,
+        120
+      ],
+      "sourceNodes": [
+        "198:4036",
+        "198:4672"
+      ],
+      "assets": [
+        "c03-120-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 46,
+      "title": "Due manifesti su una struttura modulare",
+      "minutes": 2.0,
+      "sourcePages": [
+        121,
+        122
+      ],
+      "sourceNodes": [
+        "198:5116",
+        "198:5125"
+      ],
+      "assets": [
+        "c03-121-01",
+        "c03-122-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 47,
+      "title": "Prospettiva e profondità",
+      "minutes": 2.0,
+      "sourcePages": [
+        123,
+        124
+      ],
+      "sourceNodes": [
+        "198:4047",
+        "198:4681"
+      ],
+      "assets": [
+        "c03-124-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 48,
+      "title": "Ridisegnare una gerarchia",
+      "minutes": 12,
+      "sourcePages": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "sourceNodes": [
+        "198:4122",
+        "198:4748",
+        "198:3981",
+        "198:4626",
+        "198:4111",
+        "198:4738",
+        "198:4100",
+        "198:4729",
+        "198:4089",
+        "198:4719",
+        "198:4079",
+        "198:4708",
+        "198:4068",
+        "198:4699",
+        "198:4057",
+        "198:4690",
+        "198:3992",
+        "198:4636",
+        "198:4003",
+        "198:4645",
+        "198:4014",
+        "198:4654",
+        "198:4025",
+        "198:4663",
+        "198:4036",
+        "198:4672",
+        "198:5116",
+        "198:5125",
+        "198:4047",
+        "198:4681"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 49,
+      "title": "Confronto tra le composizioni",
+      "minutes": 6,
+      "sourcePages": [
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "sourceNodes": [
+        "198:4122",
+        "198:4748",
+        "198:3981",
+        "198:4626",
+        "198:4111",
+        "198:4738",
+        "198:4100",
+        "198:4729",
+        "198:4089",
+        "198:4719",
+        "198:4079",
+        "198:4708",
+        "198:4068",
+        "198:4699",
+        "198:4057",
+        "198:4690",
+        "198:3992",
+        "198:4636",
+        "198:4003",
+        "198:4645",
+        "198:4014",
+        "198:4654",
+        "198:4025",
+        "198:4663",
+        "198:4036",
+        "198:4672",
+        "198:5116",
+        "198:5125",
+        "198:4047",
+        "198:4681"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 50,
+      "title": "Tre idee da portare nel progetto",
+      "minutes": 2.0,
+      "sourcePages": [
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "sourceNodes": [
+        "198:3080",
+        "198:3543",
+        "198:4344",
+        "198:4912",
+        "198:3972",
+        "198:4616",
+        "198:4238",
+        "198:4830",
+        "198:4250",
+        "198:4839",
+        "198:4261",
+        "198:4848",
+        "198:4273",
+        "198:4857",
+        "198:4285",
+        "198:4866",
+        "198:4297",
+        "198:4875",
+        "198:4309",
+        "198:4884",
+        "198:4321",
+        "198:4893",
+        "198:4333",
+        "198:4902",
+        "198:4131",
+        "198:4758",
+        "198:4150",
+        "198:4775",
+        "198:4222",
+        "198:4819",
+        "198:4171",
+        "198:4786",
+        "198:4205",
+        "198:4807",
+        "198:4188",
+        "198:4796",
+        "198:4122",
+        "198:4748",
+        "198:3981",
+        "198:4626",
+        "198:4111",
+        "198:4738",
+        "198:4100",
+        "198:4729",
+        "198:4089",
+        "198:4719",
+        "198:4079",
+        "198:4708",
+        "198:4068",
+        "198:4699",
+        "198:4057",
+        "198:4690",
+        "198:3992",
+        "198:4636",
+        "198:4003",
+        "198:4645",
+        "198:4014",
+        "198:4654",
+        "198:4025",
+        "198:4663",
+        "198:4036",
+        "198:4672",
+        "198:5116",
+        "198:5125",
+        "198:4047",
+        "198:4681"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonNumber": 5,
+      "lessonSlide": 51,
+      "title": "Prima della lezione sul colore",
+      "minutes": 2.0,
+      "sourcePages": [
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "sourceNodes": [
+        "198:4171",
+        "198:4786",
+        "198:4205",
+        "198:4807",
+        "198:4188",
+        "198:4796",
+        "198:4122",
+        "198:4748",
+        "198:3981",
+        "198:4626",
+        "198:4111",
+        "198:4738",
+        "198:4100",
+        "198:4729",
+        "198:4089",
+        "198:4719",
+        "198:4079",
+        "198:4708",
+        "198:4068",
+        "198:4699",
+        "198:4057",
+        "198:4690",
+        "198:3992",
+        "198:4636",
+        "198:4003",
+        "198:4645",
+        "198:4014",
+        "198:4654",
+        "198:4025",
+        "198:4663",
+        "198:4036",
+        "198:4672",
+        "198:5116",
+        "198:5125",
+        "198:4047",
+        "198:4681"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 1,
+      "title": "Colore e significato",
+      "minutes": 1,
+      "sourcePages": [
+        125
+      ],
+      "sourceNodes": [
+        "198:5134"
+      ],
+      "assets": [],
+      "kind": "cover"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 2,
+      "title": "Cosa impareremo",
+      "minutes": 2.5,
+      "sourcePages": [
+        125,
+        126
+      ],
+      "sourceNodes": [
+        "198:5134",
+        "198:5153"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 3,
+      "title": "Il colore non ha un significato fisso",
+      "minutes": 2.0,
+      "sourcePages": [
+        125
+      ],
+      "sourceNodes": [
+        "198:5134"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 4,
+      "title": "Caldo e freddo sono relazioni",
+      "minutes": 3.5,
+      "sourcePages": [
+        126
+      ],
+      "sourceNodes": [
+        "198:5153"
+      ],
+      "assets": [
+        "c03-126-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 5,
+      "title": "Rosso: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        127
+      ],
+      "sourceNodes": [
+        "198:5166"
+      ],
+      "assets": [
+        "c03-127-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 6,
+      "title": "Arancio: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        128
+      ],
+      "sourceNodes": [
+        "198:5238"
+      ],
+      "assets": [
+        "c03-128-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 7,
+      "title": "Giallo: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        129
+      ],
+      "sourceNodes": [
+        "198:5181"
+      ],
+      "assets": [
+        "c03-129-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 8,
+      "title": "Verde: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        130
+      ],
+      "sourceNodes": [
+        "198:5253"
+      ],
+      "assets": [
+        "c03-130-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 9,
+      "title": "Blu: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        131
+      ],
+      "sourceNodes": [
+        "198:5196"
+      ],
+      "assets": [
+        "c03-131-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 10,
+      "title": "Marrone: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        132
+      ],
+      "sourceNodes": [
+        "198:5268"
+      ],
+      "assets": [
+        "c03-132-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 11,
+      "title": "Rosa: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        133
+      ],
+      "sourceNodes": [
+        "198:5223"
+      ],
+      "assets": [
+        "c03-133-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 12,
+      "title": "Viola: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        134
+      ],
+      "sourceNodes": [
+        "198:5296"
+      ],
+      "assets": [
+        "c03-134-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 13,
+      "title": "Bianco: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        135
+      ],
+      "sourceNodes": [
+        "198:5211"
+      ],
+      "assets": [
+        "c03-135-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 14,
+      "title": "Nero: leggere l’identità",
+      "minutes": 3.5,
+      "sourcePages": [
+        136
+      ],
+      "sourceNodes": [
+        "198:5283"
+      ],
+      "assets": [
+        "c03-136-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 15,
+      "title": "Tre domande sul significato del colore",
+      "minutes": 2.5,
+      "sourcePages": [
+        137,
+        138
+      ],
+      "sourceNodes": [
+        "198:5311",
+        "198:5419"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 16,
+      "title": "Josef Albers: imparare osservando",
+      "minutes": 3.5,
+      "sourcePages": [
+        139,
+        140
+      ],
+      "sourceNodes": [
+        "198:5321",
+        "198:5429"
+      ],
+      "assets": [
+        "c03-140-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 17,
+      "title": "Un colore cambia con ciò che lo circonda",
+      "minutes": 2.0,
+      "sourcePages": [
+        140
+      ],
+      "sourceNodes": [
+        "198:5429"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 18,
+      "title": "La relatività del colore",
+      "minutes": 3.5,
+      "sourcePages": [
+        141,
+        142
+      ],
+      "sourceNodes": [
+        "198:5335",
+        "198:5441"
+      ],
+      "assets": [
+        "c03-142-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 19,
+      "title": "Gli sfondi invertiti",
+      "minutes": 3.5,
+      "sourcePages": [
+        143,
+        144
+      ],
+      "sourceNodes": [
+        "198:5355",
+        "198:5453"
+      ],
+      "assets": [
+        "c03-144-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 20,
+      "title": "La sottrazione del colore",
+      "minutes": 3.5,
+      "sourcePages": [
+        145,
+        146
+      ],
+      "sourceNodes": [
+        "198:5371",
+        "198:5462"
+      ],
+      "assets": [
+        "c03-146-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 21,
+      "title": "Il contrasto successivo",
+      "minutes": 3.5,
+      "sourcePages": [
+        147,
+        148
+      ],
+      "sourceNodes": [
+        "198:5403",
+        "198:5480"
+      ],
+      "assets": [
+        "c03-148-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 22,
+      "title": "L’effetto Bezold",
+      "minutes": 3.5,
+      "sourcePages": [
+        149,
+        150
+      ],
+      "sourceNodes": [
+        "198:5387",
+        "198:5471"
+      ],
+      "assets": [
+        "c03-150-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 23,
+      "title": "Confrontare gli accostamenti",
+      "minutes": 8,
+      "sourcePages": [
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150
+      ],
+      "sourceNodes": [
+        "198:5335",
+        "198:5441",
+        "198:5355",
+        "198:5453",
+        "198:5371",
+        "198:5462",
+        "198:5403",
+        "198:5480",
+        "198:5387",
+        "198:5471"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 24,
+      "title": "Dominante, secondario e accento",
+      "minutes": 3.5,
+      "sourcePages": [
+        151
+      ],
+      "sourceNodes": [
+        "198:5489"
+      ],
+      "assets": [
+        "c03-151-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 25,
+      "title": "Ricavare una palette dai riferimenti",
+      "minutes": 3.5,
+      "sourcePages": [
+        152
+      ],
+      "sourceNodes": [
+        "198:5526"
+      ],
+      "assets": [
+        "c03-152-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 26,
+      "title": "Nero, grigio e contesto di lettura",
+      "minutes": 3.5,
+      "sourcePages": [
+        153
+      ],
+      "sourceNodes": [
+        "198:5504"
+      ],
+      "assets": [
+        "c03-153-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 27,
+      "title": "Ombre e luci nella palette",
+      "minutes": 3.0,
+      "sourcePages": [
+        154
+      ],
+      "sourceNodes": [
+        "198:5541"
+      ],
+      "assets": [
+        "c03-154-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 28,
+      "title": "Grigi neutri e tonalizzati",
+      "minutes": 3.0,
+      "sourcePages": [
+        155,
+        156
+      ],
+      "sourceNodes": [
+        "198:5515",
+        "198:5553"
+      ],
+      "assets": [
+        "c03-155-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 29,
+      "title": "Una palette con ruoli chiari",
+      "minutes": 15,
+      "sourcePages": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "sourceNodes": [
+        "198:5134",
+        "198:5153",
+        "198:5166",
+        "198:5238",
+        "198:5181",
+        "198:5253",
+        "198:5196",
+        "198:5268",
+        "198:5223",
+        "198:5296",
+        "198:5211",
+        "198:5283",
+        "198:5311",
+        "198:5419",
+        "198:5321",
+        "198:5429",
+        "198:5335",
+        "198:5441",
+        "198:5355",
+        "198:5453",
+        "198:5371",
+        "198:5462",
+        "198:5403",
+        "198:5480",
+        "198:5387",
+        "198:5471",
+        "198:5489",
+        "198:5526",
+        "198:5504",
+        "198:5541",
+        "198:5515",
+        "198:5553"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 30,
+      "title": "Presentare e verificare la palette",
+      "minutes": 6,
+      "sourcePages": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "sourceNodes": [
+        "198:5489",
+        "198:5526",
+        "198:5504",
+        "198:5541",
+        "198:5515",
+        "198:5553"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 31,
+      "title": "Tre idee da portare nel progetto",
+      "minutes": 2.5,
+      "sourcePages": [
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "sourceNodes": [
+        "198:5134",
+        "198:5153",
+        "198:5166",
+        "198:5238",
+        "198:5181",
+        "198:5253",
+        "198:5196",
+        "198:5268",
+        "198:5223",
+        "198:5296",
+        "198:5211",
+        "198:5283",
+        "198:5311",
+        "198:5419",
+        "198:5321",
+        "198:5429",
+        "198:5335",
+        "198:5441",
+        "198:5355",
+        "198:5453",
+        "198:5371",
+        "198:5462",
+        "198:5403",
+        "198:5480",
+        "198:5387",
+        "198:5471",
+        "198:5489",
+        "198:5526",
+        "198:5504",
+        "198:5541",
+        "198:5515",
+        "198:5553"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 6,
+      "lessonSlide": 32,
+      "title": "Prima della lezione su tipografia e griglie",
+      "minutes": 2.5,
+      "sourcePages": [
+        151,
+        152,
+        153,
+        154,
+        155,
+        156
+      ],
+      "sourceNodes": [
+        "198:5489",
+        "198:5526",
+        "198:5504",
+        "198:5541",
+        "198:5515",
+        "198:5553"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 1,
+      "title": "Tipografia, griglie e interfacce",
+      "minutes": 1,
+      "sourcePages": [
+        157
+      ],
+      "sourceNodes": [
+        "198:3095"
+      ],
+      "assets": [],
+      "kind": "cover"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 2,
+      "title": "Cosa impareremo",
+      "minutes": 2.0,
+      "sourcePages": [
+        157,
+        158
+      ],
+      "sourceNodes": [
+        "198:3095",
+        "198:3563"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 3,
+      "title": "Il prototipo rende concrete le idee",
+      "minutes": 1.5,
+      "sourcePages": [
+        157
+      ],
+      "sourceNodes": [
+        "198:3095"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 4,
+      "title": "Tipografia: lettere e relazioni",
+      "minutes": 2.0,
+      "sourcePages": [
+        158
+      ],
+      "sourceNodes": [
+        "198:3563"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 5,
+      "title": "Dai caratteri mobili al corsivo",
+      "minutes": 2.0,
+      "sourcePages": [
+        159
+      ],
+      "sourceNodes": [
+        "198:5602"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 6,
+      "title": "Composizione e stampa: due processi",
+      "minutes": 2.0,
+      "sourcePages": [
+        159,
+        160
+      ],
+      "sourceNodes": [
+        "198:5602",
+        "198:5650"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 7,
+      "title": "Dalla Linotype ai sistemi digitali",
+      "minutes": 2.5,
+      "sourcePages": [
+        160
+      ],
+      "sourceNodes": [
+        "198:5650"
+      ],
+      "assets": [
+        "c03-160-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 8,
+      "title": "L’anatomia dei caratteri",
+      "minutes": 2.5,
+      "sourcePages": [
+        161,
+        162
+      ],
+      "sourceNodes": [
+        "198:5563",
+        "198:5621"
+      ],
+      "assets": [
+        "c03-162-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 9,
+      "title": "Typeface, font e glifo",
+      "minutes": 2.0,
+      "sourcePages": [
+        163
+      ],
+      "sourceNodes": [
+        "198:5591"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 10,
+      "title": "Famiglie tipografiche a confronto",
+      "minutes": 2.5,
+      "sourcePages": [
+        163,
+        164
+      ],
+      "sourceNodes": [
+        "198:5591",
+        "198:5641"
+      ],
+      "assets": [
+        "c03-164-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 11,
+      "title": "Legibility e readability",
+      "minutes": 2.0,
+      "sourcePages": [
+        165
+      ],
+      "sourceNodes": [
+        "198:5574"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 12,
+      "title": "Dalla lettera al testo",
+      "minutes": 2.5,
+      "sourcePages": [
+        165,
+        166
+      ],
+      "sourceNodes": [
+        "198:5574",
+        "198:5630"
+      ],
+      "assets": [
+        "c03-166-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 13,
+      "title": "Il ritmo verticale",
+      "minutes": 2.0,
+      "sourcePages": [
+        167
+      ],
+      "sourceNodes": [
+        "198:5662"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 14,
+      "title": "Il ritmo orizzontale",
+      "minutes": 2.5,
+      "sourcePages": [
+        168
+      ],
+      "sourceNodes": [
+        "198:5687"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 15,
+      "title": "Scegliere il tono del carattere",
+      "minutes": 2.0,
+      "sourcePages": [
+        169,
+        170
+      ],
+      "sourceNodes": [
+        "198:5678",
+        "198:5697"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 16,
+      "title": "Il peso nella famiglia tipografica",
+      "minutes": 2.5,
+      "sourcePages": [
+        171,
+        172
+      ],
+      "sourceNodes": [
+        "198:5830",
+        "198:5851"
+      ],
+      "assets": [
+        "c03-172-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 17,
+      "title": "X-height: proporzioni delle minuscole",
+      "minutes": 2.5,
+      "sourcePages": [
+        173
+      ],
+      "sourceNodes": [
+        "198:5712"
+      ],
+      "assets": [
+        "c03-173-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 18,
+      "title": "Con grazie, senza grazie, forme ibride",
+      "minutes": 2.5,
+      "sourcePages": [
+        174
+      ],
+      "sourceNodes": [
+        "198:5766"
+      ],
+      "assets": [
+        "c03-174-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 19,
+      "title": "Contrasto tra i tratti",
+      "minutes": 2.5,
+      "sourcePages": [
+        175
+      ],
+      "sourceNodes": [
+        "198:5755"
+      ],
+      "assets": [
+        "c03-175-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 20,
+      "title": "Terminali e arrotondamenti",
+      "minutes": 2.5,
+      "sourcePages": [
+        176
+      ],
+      "sourceNodes": [
+        "198:5799"
+      ],
+      "assets": [
+        "c03-176-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 21,
+      "title": "Moderni, script e display",
+      "minutes": 2.0,
+      "sourcePages": [
+        177
+      ],
+      "sourceNodes": [
+        "198:5723"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 22,
+      "title": "Tre registri tipografici",
+      "minutes": 2.5,
+      "sourcePages": [
+        177,
+        178
+      ],
+      "sourceNodes": [
+        "198:5723",
+        "198:5777"
+      ],
+      "assets": [
+        "c03-178-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 23,
+      "title": "Conservare il disegno del carattere",
+      "minutes": 2.0,
+      "sourcePages": [
+        179
+      ],
+      "sourceNodes": [
+        "198:5743"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 24,
+      "title": "Allineamento e gerarchia",
+      "minutes": 2.0,
+      "sourcePages": [
+        180,
+        181
+      ],
+      "sourceNodes": [
+        "198:5789",
+        "198:5810"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 25,
+      "title": "Contrasto e link riconoscibili",
+      "minutes": 2.0,
+      "sourcePages": [
+        182
+      ],
+      "sourceNodes": [
+        "198:5820"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 26,
+      "title": "Mettere alla prova il sistema tipografico",
+      "minutes": 10,
+      "sourcePages": [
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182
+      ],
+      "sourceNodes": [
+        "198:5563",
+        "198:5621",
+        "198:5591",
+        "198:5641",
+        "198:5574",
+        "198:5630",
+        "198:5662",
+        "198:5687",
+        "198:5678",
+        "198:5697",
+        "198:5830",
+        "198:5851",
+        "198:5712",
+        "198:5766",
+        "198:5755",
+        "198:5799",
+        "198:5723",
+        "198:5777",
+        "198:5743",
+        "198:5789",
+        "198:5810",
+        "198:5820"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 27,
+      "title": "Anatomia della griglia",
+      "minutes": 2.5,
+      "sourcePages": [
+        183,
+        184
+      ],
+      "sourceNodes": [
+        "198:3122",
+        "198:3604"
+      ],
+      "assets": [
+        "c03-184-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 28,
+      "title": "La griglia editoriale",
+      "minutes": 2.5,
+      "sourcePages": [
+        185
+      ],
+      "sourceNodes": [
+        "198:3367"
+      ],
+      "assets": [
+        "c03-185-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 29,
+      "title": "La griglia nel web",
+      "minutes": 2.5,
+      "sourcePages": [
+        186
+      ],
+      "sourceNodes": [
+        "198:3830"
+      ],
+      "assets": [
+        "c03-186-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 30,
+      "title": "Responsive e adaptive",
+      "minutes": 2.5,
+      "sourcePages": [
+        187,
+        188
+      ],
+      "sourceNodes": [
+        "198:3403",
+        "198:3853"
+      ],
+      "assets": [
+        "c03-188-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 31,
+      "title": "Canoni compositivi",
+      "minutes": 2.0,
+      "sourcePages": [
+        189
+      ],
+      "sourceNodes": [
+        "198:3385"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 32,
+      "title": "Distribuire il peso nella composizione",
+      "minutes": 2.5,
+      "sourcePages": [
+        189,
+        190
+      ],
+      "sourceNodes": [
+        "198:3385",
+        "198:3842"
+      ],
+      "assets": [
+        "c03-190-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 33,
+      "title": "Un’interfaccia collega persona e prodotto",
+      "minutes": 1.5,
+      "sourcePages": [
+        191,
+        192
+      ],
+      "sourceNodes": [
+        "198:3162",
+        "198:3629"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 34,
+      "title": "Riconoscere un’identità visiva",
+      "minutes": 2.5,
+      "sourcePages": [
+        193
+      ],
+      "sourceNodes": [
+        "198:3293"
+      ],
+      "assets": [
+        "c03-193-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 35,
+      "title": "Gerarchie per il pagamento",
+      "minutes": 2.5,
+      "sourcePages": [
+        194
+      ],
+      "sourceNodes": [
+        "198:3787"
+      ],
+      "assets": [
+        "c03-194-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 36,
+      "title": "Stesso contenuto, interpretazioni diverse",
+      "minutes": 2.5,
+      "sourcePages": [
+        195
+      ],
+      "sourceNodes": [
+        "198:3312"
+      ],
+      "assets": [
+        "c03-195-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 37,
+      "title": "Memorabilità e forma",
+      "minutes": 2.5,
+      "sourcePages": [
+        196
+      ],
+      "sourceNodes": [
+        "198:3798"
+      ],
+      "assets": [
+        "c03-196-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 38,
+      "title": "Architettura dell’interfaccia",
+      "minutes": 2.0,
+      "sourcePages": [
+        197
+      ],
+      "sourceNodes": [
+        "198:3331"
+      ],
+      "assets": [
+        "c03-197-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 39,
+      "title": "Sistemi di identità",
+      "minutes": 2.0,
+      "sourcePages": [
+        198
+      ],
+      "sourceNodes": [
+        "198:3808"
+      ],
+      "assets": [
+        "c03-198-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 40,
+      "title": "Look and feel",
+      "minutes": 2.0,
+      "sourcePages": [
+        199
+      ],
+      "sourceNodes": [
+        "198:3349"
+      ],
+      "assets": [
+        "c03-199-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 41,
+      "title": "Menu, pulsanti e controlli",
+      "minutes": 2.0,
+      "sourcePages": [
+        200
+      ],
+      "sourceNodes": [
+        "198:3819"
+      ],
+      "assets": [
+        "c03-200-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 42,
+      "title": "Dal testo alla griglia",
+      "minutes": 12,
+      "sourcePages": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "sourceNodes": [
+        "198:3122",
+        "198:3604",
+        "198:3367",
+        "198:3830",
+        "198:3403",
+        "198:3853",
+        "198:3385",
+        "198:3842",
+        "198:3162",
+        "198:3629",
+        "198:3293",
+        "198:3787",
+        "198:3312",
+        "198:3798",
+        "198:3331",
+        "198:3808",
+        "198:3349",
+        "198:3819"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 43,
+      "title": "Confrontare le strutture",
+      "minutes": 6,
+      "sourcePages": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "sourceNodes": [
+        "198:3122",
+        "198:3604",
+        "198:3367",
+        "198:3830",
+        "198:3403",
+        "198:3853",
+        "198:3385",
+        "198:3842",
+        "198:3162",
+        "198:3629",
+        "198:3293",
+        "198:3787",
+        "198:3312",
+        "198:3798",
+        "198:3331",
+        "198:3808",
+        "198:3349",
+        "198:3819"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 44,
+      "title": "Tre idee da portare nel progetto",
+      "minutes": 2.0,
+      "sourcePages": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "sourceNodes": [
+        "198:3095",
+        "198:3563",
+        "198:5602",
+        "198:5650",
+        "198:5563",
+        "198:5621",
+        "198:5591",
+        "198:5641",
+        "198:5574",
+        "198:5630",
+        "198:5662",
+        "198:5687",
+        "198:5678",
+        "198:5697",
+        "198:5830",
+        "198:5851",
+        "198:5712",
+        "198:5766",
+        "198:5755",
+        "198:5799",
+        "198:5723",
+        "198:5777",
+        "198:5743",
+        "198:5789",
+        "198:5810",
+        "198:5820",
+        "198:3122",
+        "198:3604",
+        "198:3367",
+        "198:3830",
+        "198:3403",
+        "198:3853",
+        "198:3385",
+        "198:3842",
+        "198:3162",
+        "198:3629",
+        "198:3293",
+        "198:3787",
+        "198:3312",
+        "198:3798",
+        "198:3331",
+        "198:3808",
+        "198:3349",
+        "198:3819"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 7,
+      "lessonSlide": 45,
+      "title": "Prima della lezione sui prototipi",
+      "minutes": 2.0,
+      "sourcePages": [
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "sourceNodes": [
+        "198:3095",
+        "198:3563",
+        "198:5602",
+        "198:5650",
+        "198:5563",
+        "198:5621",
+        "198:5591",
+        "198:5641",
+        "198:5574",
+        "198:5630",
+        "198:5662",
+        "198:5687",
+        "198:5678",
+        "198:5697",
+        "198:5830",
+        "198:5851",
+        "198:5712",
+        "198:5766",
+        "198:5755",
+        "198:5799",
+        "198:5723",
+        "198:5777",
+        "198:5743",
+        "198:5789",
+        "198:5810",
+        "198:5820",
+        "198:3122",
+        "198:3604",
+        "198:3367",
+        "198:3830",
+        "198:3403",
+        "198:3853",
+        "198:3385",
+        "198:3842",
+        "198:3162",
+        "198:3629",
+        "198:3293",
+        "198:3787",
+        "198:3312",
+        "198:3798",
+        "198:3331",
+        "198:3808",
+        "198:3349",
+        "198:3819"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 1,
+      "title": "Prototipi e videogiochi",
+      "minutes": 1,
+      "sourcePages": [
+        201
+      ],
+      "sourceNodes": [
+        "198:3171"
+      ],
+      "assets": [],
+      "kind": "cover"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 2,
+      "title": "Cosa impareremo",
+      "minutes": 2.5,
+      "sourcePages": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214
+      ],
+      "sourceNodes": [
+        "198:3171",
+        "2460:1203",
+        "2460:1242",
+        "198:3650",
+        "198:5860",
+        "198:6041",
+        "198:6006",
+        "198:6196",
+        "198:6024",
+        "2456:1429",
+        "2456:1456",
+        "198:6207",
+        "198:3284",
+        "198:3767"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 3,
+      "title": "Il wireframe mette a fuoco la struttura",
+      "minutes": 2.5,
+      "sourcePages": [
+        201,
+        202,
+        203,
+        204
+      ],
+      "sourceNodes": [
+        "198:3171",
+        "2460:1203",
+        "2460:1242",
+        "198:3650"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 4,
+      "title": "La journey supera le schermate",
+      "minutes": 3.5,
+      "sourcePages": [
+        202
+      ],
+      "sourceNodes": [
+        "2460:1203"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 5,
+      "title": "Dal compito al wireflow",
+      "minutes": 3.5,
+      "sourcePages": [
+        203
+      ],
+      "sourceNodes": [
+        "2460:1242"
+      ],
+      "assets": [
+        "c03-203-extra-14"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 6,
+      "title": "Quattro priorità per il wireframe",
+      "minutes": 2.5,
+      "sourcePages": [
+        205
+      ],
+      "sourceNodes": [
+        "198:5860"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 7,
+      "title": "Prototipi a bassa fedeltà",
+      "minutes": 2.5,
+      "sourcePages": [
+        206
+      ],
+      "sourceNodes": [
+        "198:6041"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 8,
+      "title": "Iterare a partire dall’uso",
+      "minutes": 3.5,
+      "sourcePages": [
+        207
+      ],
+      "sourceNodes": [
+        "198:6006"
+      ],
+      "assets": [
+        "c03-207-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 9,
+      "title": "Wireframe, prototipo e mockup",
+      "minutes": 2.5,
+      "sourcePages": [
+        204,
+        205,
+        206,
+        207,
+        208,
+        209
+      ],
+      "sourceNodes": [
+        "198:3650",
+        "198:5860",
+        "198:6041",
+        "198:6006",
+        "198:6196",
+        "198:6024"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 10,
+      "title": "La UI traduce una proposta coerente",
+      "minutes": 2.5,
+      "sourcePages": [
+        208
+      ],
+      "sourceNodes": [
+        "198:6196"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 11,
+      "title": "Tre criteri per il mockup",
+      "minutes": 2.5,
+      "sourcePages": [
+        209
+      ],
+      "sourceNodes": [
+        "198:6024"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 12,
+      "title": "Progettare anche gli stati",
+      "minutes": 3.5,
+      "sourcePages": [
+        210
+      ],
+      "sourceNodes": [
+        "2456:1429"
+      ],
+      "assets": [
+        "c03-210-extra-15"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 13,
+      "title": "Errore di input e stato del servizio",
+      "minutes": 2.5,
+      "sourcePages": [
+        210,
+        211
+      ],
+      "sourceNodes": [
+        "2456:1429",
+        "2456:1456"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 14,
+      "title": "Aiutare a correggere e confermare",
+      "minutes": 3.5,
+      "sourcePages": [
+        211
+      ],
+      "sourceNodes": [
+        "2456:1456"
+      ],
+      "assets": [
+        "c03-211-extra-16"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 15,
+      "title": "Dal wireframe al mockup",
+      "minutes": 3.5,
+      "sourcePages": [
+        212
+      ],
+      "sourceNodes": [
+        "198:6207"
+      ],
+      "assets": [
+        "c03-212-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 16,
+      "title": "Un percorso con possibilità di recupero",
+      "minutes": 12,
+      "sourcePages": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
+      ],
+      "sourceNodes": [
+        "198:3171",
+        "2460:1203",
+        "2460:1242",
+        "198:3650",
+        "198:5860",
+        "198:6041",
+        "198:6006",
+        "198:6196",
+        "198:6024",
+        "2456:1429",
+        "2456:1456",
+        "198:6207"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 17,
+      "title": "Player e gioco si influenzano",
+      "minutes": 2.0,
+      "sourcePages": [
+        213,
+        214,
+        215
+      ],
+      "sourceNodes": [
+        "198:3284",
+        "198:3767",
+        "198:5878"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 18,
+      "title": "Coinvolgimento, immersività e presenza",
+      "minutes": 2.5,
+      "sourcePages": [
+        216
+      ],
+      "sourceNodes": [
+        "198:6052"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 19,
+      "title": "Un’esperienza può unire più contesti",
+      "minutes": 2.5,
+      "sourcePages": [
+        216
+      ],
+      "sourceNodes": [
+        "198:6052"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 20,
+      "title": "Il realismo percepito",
+      "minutes": 3.0,
+      "sourcePages": [
+        217
+      ],
+      "sourceNodes": [
+        "198:5889"
+      ],
+      "assets": [
+        "c03-217-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 21,
+      "title": "Divertimento ed esperienza di flow",
+      "minutes": 2.5,
+      "sourcePages": [
+        218
+      ],
+      "sourceNodes": [
+        "198:6070"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 22,
+      "title": "Calibrare la sfida",
+      "minutes": 3.0,
+      "sourcePages": [
+        218,
+        219
+      ],
+      "sourceNodes": [
+        "198:6070",
+        "198:5904"
+      ],
+      "assets": [
+        "c03-219-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 23,
+      "title": "Tecniche di input",
+      "minutes": 3.0,
+      "sourcePages": [
+        220
+      ],
+      "sourceNodes": [
+        "198:6082"
+      ],
+      "assets": [
+        "c03-220-extra-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 24,
+      "title": "Camera point of view",
+      "minutes": 3.0,
+      "sourcePages": [
+        221,
+        222
+      ],
+      "sourceNodes": [
+        "198:5916",
+        "198:6096"
+      ],
+      "assets": [
+        "c03-222-extra-02",
+        "c03-222-extra-03"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 25,
+      "title": "Output oltre l’immagine",
+      "minutes": 2.5,
+      "sourcePages": [
+        221
+      ],
+      "sourceNodes": [
+        "198:5916"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 26,
+      "title": "La narrativa come parte del sistema",
+      "minutes": 3.0,
+      "sourcePages": [
+        223
+      ],
+      "sourceNodes": [
+        "198:5927"
+      ],
+      "assets": [
+        "c03-223-extra-04"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 27,
+      "title": "Azione e reazione",
+      "minutes": 3.0,
+      "sourcePages": [
+        224
+      ],
+      "sourceNodes": [
+        "198:6111"
+      ],
+      "assets": [
+        "c03-224-extra-05"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 28,
+      "title": "Due criteri per leggere la UI del gioco",
+      "minutes": 3.0,
+      "sourcePages": [
+        225
+      ],
+      "sourceNodes": [
+        "198:5942"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 29,
+      "title": "UI non diegetica",
+      "minutes": 3.0,
+      "sourcePages": [
+        226
+      ],
+      "sourceNodes": [
+        "198:6125"
+      ],
+      "assets": [
+        "c03-226-extra-06"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 30,
+      "title": "UI diegetica",
+      "minutes": 3.0,
+      "sourcePages": [
+        227,
+        228
+      ],
+      "sourceNodes": [
+        "198:5958",
+        "198:6139"
+      ],
+      "assets": [
+        "c03-228-extra-07",
+        "c03-228-extra-08"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 31,
+      "title": "UI spaziale",
+      "minutes": 3.0,
+      "sourcePages": [
+        229,
+        230
+      ],
+      "sourceNodes": [
+        "198:5982",
+        "198:6169"
+      ],
+      "assets": [
+        "c03-230-extra-09"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 32,
+      "title": "Meta e meta-perception",
+      "minutes": 3.0,
+      "sourcePages": [
+        231,
+        232
+      ],
+      "sourceNodes": [
+        "198:5970",
+        "198:6154"
+      ],
+      "assets": [
+        "c03-232-extra-11",
+        "c03-232-extra-10"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 33,
+      "title": "Il ruolo dell’heads-up display",
+      "minutes": 3.0,
+      "sourcePages": [
+        233,
+        234
+      ],
+      "sourceNodes": [
+        "198:5994",
+        "198:6181"
+      ],
+      "assets": [
+        "c03-234-extra-12",
+        "c03-234-extra-13"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 34,
+      "title": "Classificare e motivare una scelta",
+      "minutes": 8,
+      "sourcePages": [
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "sourceNodes": [
+        "198:5942",
+        "198:6125",
+        "198:5958",
+        "198:6139",
+        "198:5982",
+        "198:6169",
+        "198:5970",
+        "198:6154",
+        "198:5994",
+        "198:6181"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 35,
+      "title": "Confronto tra le classificazioni",
+      "minutes": 5,
+      "sourcePages": [
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "sourceNodes": [
+        "198:5942",
+        "198:6125",
+        "198:5958",
+        "198:6139",
+        "198:5982",
+        "198:6169",
+        "198:5970",
+        "198:6154",
+        "198:5994",
+        "198:6181"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 36,
+      "title": "Tre idee da portare nel progetto",
+      "minutes": 2.5,
+      "sourcePages": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "sourceNodes": [
+        "198:3171",
+        "2460:1203",
+        "2460:1242",
+        "198:3650",
+        "198:5860",
+        "198:6041",
+        "198:6006",
+        "198:6196",
+        "198:6024",
+        "2456:1429",
+        "2456:1456",
+        "198:6207",
+        "198:3284",
+        "198:3767",
+        "198:5878",
+        "198:6052",
+        "198:5889",
+        "198:6070",
+        "198:5904",
+        "198:6082",
+        "198:5916",
+        "198:6096",
+        "198:5927",
+        "198:6111",
+        "198:5942",
+        "198:6125",
+        "198:5958",
+        "198:6139",
+        "198:5982",
+        "198:6169",
+        "198:5970",
+        "198:6154",
+        "198:5994",
+        "198:6181"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "prototipi-interfacce",
+      "lessonNumber": 8,
+      "lessonSlide": 37,
+      "title": "Prima della lezione sui test",
+      "minutes": 2.5,
+      "sourcePages": [
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234
+      ],
+      "sourceNodes": [
+        "198:3171",
+        "2460:1203",
+        "2460:1242",
+        "198:3650",
+        "198:5860",
+        "198:6041",
+        "198:6006",
+        "198:6196",
+        "198:6024",
+        "2456:1429",
+        "2456:1456",
+        "198:6207",
+        "198:3284",
+        "198:3767",
+        "198:5878",
+        "198:6052",
+        "198:5889",
+        "198:6070",
+        "198:5904",
+        "198:6082",
+        "198:5916",
+        "198:6096",
+        "198:5927",
+        "198:6111",
+        "198:5942",
+        "198:6125",
+        "198:5958",
+        "198:6139",
+        "198:5982",
+        "198:6169",
+        "198:5970",
+        "198:6154",
+        "198:5994",
+        "198:6181"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 1,
+      "title": "Test e implementazione",
+      "minutes": 1,
+      "sourcePages": [
+        235
+      ],
+      "sourceNodes": [
+        "198:6217"
+      ],
+      "assets": [],
+      "kind": "cover"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 2,
+      "title": "Cosa impareremo",
+      "minutes": 3.0,
+      "sourcePages": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "sourceNodes": [
+        "198:6217",
+        "198:6242",
+        "198:3142",
+        "198:3616",
+        "198:3180",
+        "198:3671",
+        "198:3198",
+        "198:3681",
+        "198:3208",
+        "198:3691",
+        "198:3219",
+        "198:3701",
+        "198:3232",
+        "198:3711",
+        "198:3243",
+        "198:3721",
+        "198:3254",
+        "198:3730",
+        "198:3265",
+        "198:3750",
+        "198:3275",
+        "198:3759",
+        "198:3111",
+        "198:3588",
+        "198:6232",
+        "198:6252"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 3,
+      "title": "Usabilità nel contesto",
+      "minutes": 3.0,
+      "sourcePages": [
+        235
+      ],
+      "sourceNodes": [
+        "198:6217"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 4,
+      "title": "Osservare risultati e comportamenti",
+      "minutes": 3.0,
+      "sourcePages": [
+        236
+      ],
+      "sourceNodes": [
+        "198:6242"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 5,
+      "title": "Testare lungo il processo",
+      "minutes": 2.0,
+      "sourcePages": [
+        236,
+        237
+      ],
+      "sourceNodes": [
+        "198:6242",
+        "198:3142"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 6,
+      "title": "Valutazione euristica e test con utenti",
+      "minutes": 3.0,
+      "sourcePages": [
+        238
+      ],
+      "sourceNodes": [
+        "198:3616"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 7,
+      "title": "Quattro scelte indipendenti",
+      "minutes": 3.5,
+      "sourcePages": [
+        238
+      ],
+      "sourceNodes": [
+        "198:3616"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 8,
+      "title": "Focus group e test di usabilità",
+      "minutes": 3.0,
+      "sourcePages": [
+        239
+      ],
+      "sourceNodes": [
+        "198:3180"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 9,
+      "title": "Il team conosce troppo il proprio prodotto",
+      "minutes": 2.5,
+      "sourcePages": [
+        239,
+        240
+      ],
+      "sourceNodes": [
+        "198:3180",
+        "198:3671"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 10,
+      "title": "Il modello operativo di Steve Krug",
+      "minutes": 2.5,
+      "sourcePages": [
+        241,
+        242
+      ],
+      "sourceNodes": [
+        "198:3198",
+        "198:3681"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 11,
+      "title": "Quanti partecipanti servono?",
+      "minutes": 2.5,
+      "sourcePages": [
+        243
+      ],
+      "sourceNodes": [
+        "198:3208"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 12,
+      "title": "Reclutare persone pertinenti",
+      "minutes": 2.5,
+      "sourcePages": [
+        244
+      ],
+      "sourceNodes": [
+        "198:3691"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 13,
+      "title": "Preparare un contesto adeguato",
+      "minutes": 2.5,
+      "sourcePages": [
+        245
+      ],
+      "sourceNodes": [
+        "198:3219"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 14,
+      "title": "Il ruolo del facilitatore",
+      "minutes": 2.5,
+      "sourcePages": [
+        245
+      ],
+      "sourceNodes": [
+        "198:3219"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 15,
+      "title": "Il ruolo degli osservatori",
+      "minutes": 2.5,
+      "sourcePages": [
+        246
+      ],
+      "sourceNodes": [
+        "198:3701"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 16,
+      "title": "Che cosa testare e quando",
+      "minutes": 2.5,
+      "sourcePages": [
+        247
+      ],
+      "sourceNodes": [
+        "198:3232"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 17,
+      "title": "Una consegna orientata al compito",
+      "minutes": 2.5,
+      "sourcePages": [
+        248
+      ],
+      "sourceNodes": [
+        "198:3711"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 18,
+      "title": "Verificare il protocollo",
+      "minutes": 2.5,
+      "sourcePages": [
+        248
+      ],
+      "sourceNodes": [
+        "198:3711"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 19,
+      "title": "Una sessione, passo per passo",
+      "minutes": 3.5,
+      "sourcePages": [
+        249,
+        250
+      ],
+      "sourceNodes": [
+        "198:3243",
+        "198:3721"
+      ],
+      "assets": [
+        "c03-250-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 20,
+      "title": "Tre problemi da riconoscere",
+      "minutes": 2.5,
+      "sourcePages": [
+        251
+      ],
+      "sourceNodes": [
+        "198:3254"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 21,
+      "title": "Il piano di un test",
+      "minutes": 3.5,
+      "sourcePages": [
+        252
+      ],
+      "sourceNodes": [
+        "198:3730"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 22,
+      "title": "Preparare un test sul prototipo",
+      "minutes": 10,
+      "sourcePages": [
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "sourceNodes": [
+        "198:3691",
+        "198:3219",
+        "198:3701",
+        "198:3232",
+        "198:3711",
+        "198:3243",
+        "198:3721",
+        "198:3254",
+        "198:3730"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 23,
+      "title": "Osservare una sessione didattica",
+      "minutes": 12,
+      "sourcePages": [
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "sourceNodes": [
+        "198:3219",
+        "198:3701",
+        "198:3232",
+        "198:3711",
+        "198:3243",
+        "198:3721",
+        "198:3254",
+        "198:3730"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 24,
+      "title": "Dal test alle decisioni",
+      "minutes": 2.5,
+      "sourcePages": [
+        253
+      ],
+      "sourceNodes": [
+        "198:3265"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 25,
+      "title": "Dare priorità con criteri chiari",
+      "minutes": 2.5,
+      "sourcePages": [
+        253,
+        254
+      ],
+      "sourceNodes": [
+        "198:3265",
+        "198:3750"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 26,
+      "title": "Fatto, interpretazione e decisione",
+      "minutes": 2.5,
+      "sourcePages": [
+        253
+      ],
+      "sourceNodes": [
+        "198:3265"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 27,
+      "title": "Debriefing e prossimo ciclo",
+      "minutes": 8,
+      "sourcePages": [
+        253,
+        254
+      ],
+      "sourceNodes": [
+        "198:3265",
+        "198:3750"
+      ],
+      "assets": [],
+      "kind": "activity"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 28,
+      "title": "Test da remoto",
+      "minutes": 2.5,
+      "sourcePages": [
+        255
+      ],
+      "sourceNodes": [
+        "198:3275"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 29,
+      "title": "Card sorting e tree testing",
+      "minutes": 2.5,
+      "sourcePages": [
+        256
+      ],
+      "sourceNodes": [
+        "198:3759"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 30,
+      "title": "Metodi diversi, domande diverse",
+      "minutes": 3.5,
+      "sourcePages": [
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256
+      ],
+      "sourceNodes": [
+        "198:3616",
+        "198:3180",
+        "198:3671",
+        "198:3198",
+        "198:3681",
+        "198:3208",
+        "198:3691",
+        "198:3219",
+        "198:3701",
+        "198:3232",
+        "198:3711",
+        "198:3243",
+        "198:3721",
+        "198:3254",
+        "198:3730",
+        "198:3265",
+        "198:3750",
+        "198:3275",
+        "198:3759"
+      ],
+      "assets": [],
+      "kind": "table"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 31,
+      "title": "Implementare continua il progetto",
+      "minutes": 2.0,
+      "sourcePages": [
+        257,
+        258
+      ],
+      "sourceNodes": [
+        "198:3111",
+        "198:3588"
+      ],
+      "assets": [],
+      "kind": "statement"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 32,
+      "title": "Verifiche durante lo sviluppo",
+      "minutes": 2.5,
+      "sourcePages": [
+        259
+      ],
+      "sourceNodes": [
+        "198:6232"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 33,
+      "title": "Sviluppo e sicurezza nel ciclo di vita",
+      "minutes": 3.5,
+      "sourcePages": [
+        259,
+        260
+      ],
+      "sourceNodes": [
+        "198:6232",
+        "198:6252"
+      ],
+      "assets": [
+        "c03-260-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 34,
+      "title": "Misurare e migliorare dopo il rilascio",
+      "minutes": 2.5,
+      "sourcePages": [
+        259
+      ],
+      "sourceNodes": [
+        "198:6232"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 35,
+      "title": "Documentare la consegna",
+      "minutes": 2.5,
+      "sourcePages": [
+        258,
+        259,
+        260
+      ],
+      "sourceNodes": [
+        "198:3588",
+        "198:6232",
+        "198:6252"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 36,
+      "title": "Il percorso resta aperto",
+      "minutes": 2.5,
+      "sourcePages": [
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "sourceNodes": [
+        "198:6217",
+        "198:6242",
+        "198:3142",
+        "198:3616",
+        "198:3180",
+        "198:3671",
+        "198:3198",
+        "198:3681",
+        "198:3208",
+        "198:3691",
+        "198:3219",
+        "198:3701",
+        "198:3232",
+        "198:3711",
+        "198:3243",
+        "198:3721",
+        "198:3254",
+        "198:3730",
+        "198:3265",
+        "198:3750",
+        "198:3275",
+        "198:3759",
+        "198:3111",
+        "198:3588",
+        "198:6232",
+        "198:6252"
+      ],
+      "assets": [],
+      "kind": "cards"
+    },
+    {
+      "lesson": "test-implementazione",
+      "lessonNumber": 9,
+      "lessonSlide": 37,
+      "title": "Un prossimo passo per il progetto",
+      "minutes": 2.5,
+      "sourcePages": [
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260
+      ],
+      "sourceNodes": [
+        "198:3265",
+        "198:3750",
+        "198:3275",
+        "198:3759",
+        "198:3111",
+        "198:3588",
+        "198:6232",
+        "198:6252"
+      ],
+      "assets": [],
+      "kind": "concept"
+    }
+  ]
+}

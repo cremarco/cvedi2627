@@ -14,9 +14,12 @@ export const slideSets: Record<string, SlideSet> = {
   approfondimenti: { id: 'approfondimenti', label: 'Approfondimenti', palette: 'research' },
   introduzione: { id: 'introduzione', label: 'Lezione 02', palette: 'introduction', lessonNumber: 2, artworkPalette: 'introduction' },
   'storia-design': { id: 'storia-design', label: 'Lezione 03', palette: 'history', lessonNumber: 3 },
-  'design-thinking': { id: 'design-thinking', label: 'Design Thinking', palette: 'design-thinking', lessonNumber: 4 },
-  'lean-ux': { id: 'lean-ux', label: 'Lean UX', palette: 'lean-ux', lessonNumber: 5 },
-  conclusioni: { id: 'conclusioni', label: 'Conclusioni', palette: 'conclusions', lessonNumber: 6 },
+  'ricerca-inclusiva': { id: 'ricerca-inclusiva', label: 'Lezione 04', palette: 'ux-research', lessonNumber: 4, artworkPalette: 'ricerca-inclusiva' },
+  'percezione-gerarchia': { id: 'percezione-gerarchia', label: 'Lezione 05', palette: 'ux-perception', lessonNumber: 5, artworkPalette: 'percezione-gerarchia' },
+  colore: { id: 'colore', label: 'Lezione 06', palette: 'ux-color', lessonNumber: 6, artworkPalette: 'colore' },
+  'tipografia-griglie': { id: 'tipografia-griglie', label: 'Lezione 07', palette: 'ux-type', lessonNumber: 7, artworkPalette: 'tipografia-griglie' },
+  'prototipi-interfacce': { id: 'prototipi-interfacce', label: 'Lezione 08', palette: 'ux-prototype', lessonNumber: 8, artworkPalette: 'prototipi-interfacce' },
+  'test-implementazione': { id: 'test-implementazione', label: 'Lezione 09', palette: 'ux-test', lessonNumber: 9, artworkPalette: 'test-implementazione' },
 }
 
 export function slideSet(lesson: unknown): SlideSet {

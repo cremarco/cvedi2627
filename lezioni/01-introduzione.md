@@ -281,8 +281,8 @@ routeAlias: ux-gerarchia
 # Stessi contenuti, priorità diverse
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/generated/theme-2026/figures/intro-hierarchy-uniform-v2.webp" caption="A · Un peso uniforme" alt="Visita di fisioterapia, 45 minuti, 50 €, martedì alle 18:00, nome Viola e azione Prenota la visita: tutti gli elementi hanno un peso visivo simile." />
-  <LessonFigure src="/images/generated/theme-2026/figures/intro-hierarchy-priority-v2.webp" caption="B · Una priorità riconoscibile" alt="Gli stessi contenuti della variante A; titolo e riepilogo sono in grassetto e l’azione Prenota la visita è evidenziata in verde lime." />
+  <LessonFigure src="/images/generated/theme-2026/figures/intro-hierarchy-uniform-v3.webp" caption="A · Un peso uniforme" alt="Visita di fisioterapia, 45 minuti, 50 €, martedì alle 18:00, nome Viola e azione Prenota la visita: tutti gli elementi hanno un peso visivo simile." />
+  <LessonFigure src="/images/generated/theme-2026/figures/intro-hierarchy-priority-v3.webp" caption="B · Una priorità riconoscibile" alt="Gli stessi contenuti della variante A; titolo e riepilogo sono in grassetto e l’azione Prenota la visita è evidenziata in ciano." />
 </div>
 
 <p class="aside">Esempi illustrativi non interattivi. Dove va lo sguardo? Quale azione emerge?</p>
@@ -446,7 +446,7 @@ routeAlias: ux-ui-esperienza
 # La UI è parte della UX
 
 <div class="ux-ui-relationship">
-  <LessonFigure src="/images/generated/theme-2026/figures/intro-ui-within-ux-v1.webp" alt="La User Interface è contenuta nella User Experience. La UX comprende bisogni, aspettative, contesto, uso e qualità del servizio. La UI comprende gli elementi e i comportamenti che rendono possibile l’interazione: una prenotazione sul telefono. Il servizio ricevuto, rappresentato da un incontro di fisioterapia, appartiene alla UX e si svolge oltre l’interfaccia." />
+  <LessonFigure src="/images/generated/theme-2026/figures/intro-ui-within-ux-v3.webp" alt="La User Interface è contenuta nella User Experience. La UX comprende bisogni, aspettative, contesto, uso e qualità del servizio. La UI comprende gli elementi e i comportamenti che rendono possibile l’interazione: una prenotazione sul telefono. Il servizio ricevuto, rappresentato da un incontro di fisioterapia, appartiene alla UX e si svolge oltre l’interfaccia." />
 </div>
 <p class="aside">Una buona interfaccia contribuisce all’esperienza; il progetto considera anche ciò che accade oltre lo schermo.</p>
 
@@ -503,17 +503,17 @@ routeAlias: ux-indizi-comandi-esiti
   <CvediCard title="Significante">
     <p>Un indizio comunica <strong>dove e come agire</strong>.</p>
     <p class="card-note">La piastra sulla porta suggerisce di spingere.</p>
-    <div class="interaction-example-figure"><LessonFigure src="/images/generated/theme-2026/figures/intro-example-signifier-v1.webp" alt="Una mano aperta preme la piastra piatta di una porta, che si apre nella direzione della spinta." /></div>
+    <div class="interaction-example-figure"><LessonFigure src="/images/generated/theme-2026/figures/intro-example-signifier-v3-r2.webp" alt="Una mano aperta preme la piastra piatta di una porta, che si apre nella direzione della spinta." /></div>
   </CvediCard>
   <CvediCard title="Mapping">
     <p>Una relazione collega il <strong>comando al suo effetto</strong>.</p>
     <p class="card-note">Le manopole riprendono la disposizione dei fuochi.</p>
-    <div class="interaction-example-figure"><LessonFigure src="/images/generated/theme-2026/figures/intro-example-mapping-v1.webp" alt="Quattro fuochi e quattro manopole condividono la disposizione due per due. Sono evidenziati il fuoco e la manopola in basso a sinistra." /></div>
+    <div class="interaction-example-figure"><LessonFigure src="/images/generated/theme-2026/figures/intro-example-mapping-v3.webp" alt="Quattro fuochi e quattro manopole condividono la disposizione due per due. Sono evidenziati il fuoco e la manopola in basso a sinistra." /></div>
   </CvediCard>
   <CvediCard title="Feedback">
     <p>Un segnale rende percepibile <strong>che cosa è successo</strong>.</p>
     <p class="card-note">Una conferma mostra che la prenotazione è stata ricevuta.</p>
-    <div class="interaction-example-figure"><LessonFigure src="/images/generated/theme-2026/figures/intro-example-feedback-v1.webp" alt="Una schermata mostra un segno di spunta, un calendario e il messaggio Prenotazione ricevuta." /></div>
+    <div class="interaction-example-figure"><LessonFigure src="/images/generated/theme-2026/figures/intro-example-feedback-v3.webp" alt="Una schermata mostra un segno di spunta, un calendario e il messaggio Prenotazione ricevuta." /></div>
   </CvediCard>
 </div>
 <p class="aside">Che cosa posso fare? Quale comando scelgo? Qual è il risultato?</p>
@@ -1007,7 +1007,7 @@ lessonMinutes: 2.25
 
 <div class="lesson-columns">
   <div><p class="lead">Mettere in relazione <strong>azioni, pensieri, emozioni e punti di contatto</strong>.</p><p>La customer journey descrive l’esperienza; lo user flow dettaglia un percorso nel sistema.</p></div>
-  <LessonFigure src="/images/generated/theme-2026/figures/intro-customer-journey-v1.webp" alt="Customer journey illustrativa di una prenotazione aerea: preparare, cercare, scegliere, pagare e confermare. Azioni, punti di contatto, pensieri e opportunità per ogni fase; l’entusiasmo iniziale lascia spazio a confusione e tensione, poi al sollievo della conferma." caption="Customer journey · prenotare un volo" />
+  <LessonFigure src="/images/generated/theme-2026/figures/intro-customer-journey-v3-r2.webp" alt="Customer journey illustrativa di una prenotazione aerea: preparare, cercare, scegliere, pagare e confermare. Azioni, punti di contatto, pensieri e opportunità per ogni fase; l’entusiasmo iniziale lascia spazio a confusione e tensione, poi al sollievo della conferma." caption="Customer journey · prenotare un volo" />
 </div>
 
 ---

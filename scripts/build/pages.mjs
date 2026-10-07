@@ -4,6 +4,7 @@ import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promi
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { optimizePagesMedia } from './pages-media.mjs'
+import { checkPublishedBuild } from '../check/publication.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const output = path.join(root, '_site')
@@ -17,6 +18,7 @@ const build = spawnSync(process.execPath, [
   '--base', `${base}slides/`, '--out', '_site/slides',
 ], { cwd: root, stdio: 'inherit' })
 if (build.status !== 0) process.exit(build.status ?? 1)
+await checkPublishedBuild(path.join(output, 'slides'))
 
 await cp(path.join(root, 'progetti'), path.join(output, 'project'), {
   recursive: true,

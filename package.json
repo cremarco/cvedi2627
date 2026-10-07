@@ -18,13 +18,16 @@
     "export": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
     "check": "node scripts/check/slides.mjs",
     "check:source": "node scripts/check/slide-source.mjs",
+    "check:publication": "node scripts/check/publication.mjs",
+    "check:publication:browser": "node scripts/check/publication-browser.mjs",
     "check:progress": "node scripts/check/progress.mjs",
     "check:motion": "node scripts/check/motion.mjs",
     "check:covers": "node scripts/check/covers.mjs",
     "check:typography": "node scripts/check/typography.mjs",
     "check:layout": "node scripts/check/layout.mjs",
     "check:projects": "node scripts/check/projects.mjs",
-    "check:links": "python3 scripts/check/site-links.py"
+    "check:links": "python3 scripts/check/site-links.py",
+    "check:ux-course": "node scripts/check/ux-course.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

@@ -16,7 +16,7 @@ Slidev e Vue su canvas 1280 × 720, navigazione da tastiera e indice. Numerazion
 
 ## Capabilities and Constraints
 
-Il deck attuale contiene 173 slide visibili; i sorgenti conservano 241 slide. La lezione 3 è sospesa tramite `disabled: true`, e le voci 03–06 dell’indice sono nascoste. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
+Il deck contiene 173 slide online e 423 nell’anteprima locale; i sorgenti conservano 491 slide. Le lezioni 04–09 sono escluse dalle build pubblicate tramite gli import `localOnly: true`; anche le loro voci dell’indice e immagini esclusive sono escluse. La lezione 3 è sospesa tramite `disabled: true`, e la voce 03 dell’indice è nascosta in entrambe le modalità. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
 
 ## Brand Commitments
 
@@ -29,7 +29,11 @@ L’utente ha richiesto di copiare la grafica delle slide locali in `/Users/marc
 
 ## Approfondimenti individuali
 
-Dopo il brief, il set autonomo `approfondimenti` contiene una copertina e una slide per ciascuna delle 20 tracce A01–A20 pubblicate su eLearning. Titoli e domande ufficiali sono conservati; ogni tema ha un’immagine originale ImageGen nella palette indaco/lime. La fonte e i prompt sono registrati in `assets/approfondimenti/`.
+Dopo il brief, il set autonomo `approfondimenti` contiene una copertina e una slide per ciascuna delle 20 tracce A01–A20 pubblicate su eLearning. Titoli e domande ufficiali sono conservati; ogni tema ha un’immagine originale ImageGen nella palette giallo/indaco assegnata da `DESIGN.md`. La fonte ufficiale resta in `assets/approfondimenti/`; prompt, raster e verifiche della famiglia a contorni arrotondati sono registrati in `assets/theme-imagegen/manifest-outline-v3.json`.
+
+## Processo UX · lezioni 04–09
+
+Il capitolo C03 del booklet Figma (`WLdDzbdqP3P5rpYbK1OxYC`, pagina `2008:1741`) è articolato in sei lezioni da 120 minuti: ricerca e inclusione; percezione e gerarchia; colore; tipografia e griglie; prototipi e videogiochi; test e implementazione. Le 250 nuove slide coprono 260 tavole e usano 138 asset originali. La fonte, le figure e le corrispondenze sono conservate in `assets/booklet/capitolo-3/`; il piano è in `data/ux-curriculum.json` e le mappe in `docs/fonti/04–09`. Le nuove voci dell’indice sono attive soltanto in locale; la lezione 03 di storia resta sospesa.
 
 ## Manutenzione
 
