@@ -18,11 +18,8 @@ export async function checkSlideSources() {
   const entry = path.join(root, 'slides.md')
   const options = { roots: [root], userRoot: root, allowedRoots: [root] }
   const source = await readFile(entry, 'utf8')
-  const historyDisabled = /src: \.\/lezioni\/03-storia-design\.md\s*\ndisabled: true\b/.test(source)
   const visibleDeck = await load(options, entry)
-  // Validate the preserved chapter too, without enabling it in the real deck.
-  const reviewSource = source.replace(/(src: \.\/lezioni\/03-storia-design\.md)\s*\ndisabled: true\b/, '$1')
-  const deck = await load(options, entry, { [entry]: reviewSource })
+  const deck = visibleDeck
   for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
   assert.equal(deck.slides[0].frontmatter.presenter, false, 'presenter mode is disabled')
   assert.ok(deck.slides.every(slide => !slide.note?.trim()), 'presenter notes are absent, including hidden chapters')
@@ -63,11 +60,8 @@ export async function checkSlideSources() {
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 68, 'history: 68 slides')
-  assert.equal(visibleDeck.slides.length, total - (historyDisabled ? history.length : 0), 'visible deck excludes the suspended chapter')
-  if (historyDisabled) {
-    assert.ok(visibleDeck.slides.every(slide => slide.frontmatter.lesson !== 'storia-design'), 'history is absent from navigation and overview')
-    assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
-  }
+  assert.equal(visibleDeck.slides.length, 491, 'all teaching chapters are available locally')
+  assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
   assert.equal(course.length, 39, 'course presentation: 39 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
   assert.equal(course[0].frontmatter.routeAlias, 'presentazione-corso', 'course alias opens its first slide')
@@ -292,7 +286,7 @@ export async function checkSlideSources() {
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved, `outline illustration ${generation.id}: lossless publication`)
     assert.ok(generation.owners.length > 0, `outline illustration ${generation.id}: owning slide recorded`)
   }
-  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction', ...Object.fromEntries(curriculum.lessons.map(lesson => [lesson.id, lesson.id])) }
+  const palette = { 'presentazione-corso': 'course', 'brief-progetto': 'brief', introduzione: 'introduction', 'storia-design': 'history', ...Object.fromEntries(curriculum.lessons.map(lesson => [lesson.id, lesson.id])) }
   let illustratedCards = 0
   let directCards = 0
   let addedCards = 0
@@ -304,7 +298,7 @@ export async function checkSlideSources() {
       assert.ok(Object.hasOwn(artwork.mappings[family] ?? {}, title), `card ${card[1]}: explicit illustration decision`)
       assert.ok(id === null || (artwork.assets[id] && id.startsWith(`${family}-`)), `card ${card[1]}: intentionally plain or illustrated in the owning palette`)
       directCards++
-      if (uxLessonIds.has(slide.frontmatter.lesson)) addedCards++
+      if (uxLessonIds.has(slide.frontmatter.lesson) || slide.frontmatter.lesson === 'storia-design') addedCards++
       if (id) illustratedCards++
     }
   }

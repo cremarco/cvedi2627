@@ -73,7 +73,6 @@ footer: "Lezioni"
     <SlideAction to="brief-progetto" class="join-item" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction>
     <SlideAction to="approfondimenti" class="join-item" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction>
   </div>
-  <button v-if="false" type="button" class="btn btn-lg index-button index-chapter-2" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del design</span></button>
   <LocalOnly>
   <div class="index-ux-lessons" role="group" aria-label="Lezioni sul processo UX">
     <SlideAction to="ricerca-inclusiva" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
@@ -84,6 +83,7 @@ footer: "Lezioni"
     <SlideAction to="test-implementazione" :show-arrow="false"><span class="index-chapter-number">09</span><span>Test e implementazione</span></SlideAction>
   </div>
   </LocalOnly>
+  <button type="button" class="btn btn-lg index-button index-chapter-2 index-history" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del design</span></button>
 </div>
 
 ---
@@ -735,7 +735,6 @@ src: ./lezioni/01-introduzione.md
 ---
 layout: default
 src: ./lezioni/03-storia-design.md
-disabled: true
 ---
 
 ---

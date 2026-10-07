@@ -22,8 +22,13 @@ export async function checkPublication() {
     const localSlides = local.slides.filter(slide => localIds.has(slide.frontmatter.lesson))
     assert.equal(localSlides.length, 250, 'all six lessons remain available locally')
     assert.ok(localSlides.every(slide => slide.frontmatter.localOnly === true), 'every local lesson import is explicitly marked')
-    assert.equal(local.slides.length, 423, 'complete local deck')
-    assert.equal(published.slides.length, 173, 'published deck preserves the original active sets')
+    assert.equal(local.slides.length, 491, 'complete local deck')
+    assert.equal(published.slides.length, 241, 'published deck includes lesson 03')
+    for (const deck of [local, published]) {
+      assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 68, 'lesson 03 is available locally and online')
+      assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
+      assert.ok(deck.slides.find(slide => slide.title === 'Indice delle lezioni').content.includes("$nav.go('storia-design')"), 'lesson 03 is linked from both indexes')
+    }
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')
     assert.deepEqual(published.slides.map(slide => slide.title), local.slides.filter(slide => !localIds.has(slide.frontmatter.lesson)).map(slide => slide.title), 'published content order is preserved')
     const localIndex = local.slides.find(slide => slide.title === 'Indice delle lezioni').content

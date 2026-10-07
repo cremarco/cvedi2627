@@ -6,7 +6,9 @@ export function publicationExtensions(mode) {
     name: 'cvedi-publication',
     async transformSlide(content, frontmatter) {
       if (frontmatter.localOnly === true) frontmatter.disabled = true
-      return content.replace(/<LocalOnly>\s*[\s\S]*?<\/LocalOnly>/g, '')
+      // Consume the entire block line so Markdown does not wrap the following
+      // grid item in a paragraph when the local-only content is removed.
+      return content.replace(/^[ \t]*<LocalOnly>[\s\S]*?<\/LocalOnly>[ \t]*(?:\r?\n|$)/gm, '')
     },
   }]
 }

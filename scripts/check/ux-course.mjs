@@ -27,10 +27,10 @@ try {
     return [...root.querySelectorAll('.index-grid button')].map((button, index) => ({
       text: button.textContent.trim(),
       actual: rgb(getComputedStyle(button).backgroundColor),
-      expected: rgb(style.getPropertyValue(`--cvedi-${['red','orange','amber','yellow','lime','green','emerald','teal','cyan','sky'][index]}-800`)),
+      expected: rgb(style.getPropertyValue(`--cvedi-${['red','orange','amber','yellow','lime','green','emerald','teal','cyan','sky','blue'][index]}-800`)),
     }))
   })
-  assert.equal(colors.length, 10, 'all local index groups are available')
+  assert.equal(colors.length, 11, 'all local index groups are available')
   for (const color of colors) assert.deepEqual(color.actual, color.expected, `${color.text}: Tailwind order in the rendered index`)
 
   for (const slide of slides) {

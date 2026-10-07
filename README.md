@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 173 slide online e 423 nell’anteprima locale. Le lezioni 04–09 sono disponibili soltanto in locale; le 68 slide della terza lezione restano disattivate. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 241 slide online e 491 nell’anteprima locale. Le lezioni 04–09 sono disponibili soltanto in locale; le 68 slide della terza lezione sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 
@@ -17,7 +17,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 
 | Comando | Risultato |
 | --- | --- |
-| `pnpm build` | SPA pubblicabile, 173 slide in `dist/` |
+| `pnpm build` | SPA pubblicabile, 241 slide in `dist/` |
 | `pnpm build:pages` | Slide pubblicabili e archivio in `_site/` |
 | `pnpm export` | Export Slidev, soltanto quando richiesto |
 | `pnpm clean` | Elimina output, cache Slidev e rapporti locali |
@@ -32,7 +32,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:projects` | Archivio dei siti |
 | `pnpm check:links` | Collegamenti locali |
 
-I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 423 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
+I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 491 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
 
 ## Struttura
 

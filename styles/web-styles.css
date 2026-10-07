@@ -121,7 +121,8 @@
   color: var(--web-style-ink);
   isolation: isolate;
 }
-.slidev-layout.web-style-slide > :not(.slide-footer) { position: relative; z-index: 1; }
+/* Shared heading, footer and ribbon keep their native layout positions. */
+.slidev-layout.web-style-slide > :not(.slide-footer, .lesson-ribbon-wrap, h1) { position: relative; z-index: 1; }
 .slidev-layout.web-style-slide > h1 {
   margin-bottom: 28px;
   font: var(--web-style-title-weight) var(--web-style-title-size)/1.12 var(--web-style-display);

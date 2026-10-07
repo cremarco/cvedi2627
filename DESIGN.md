@@ -2,7 +2,7 @@
 
 Questo è il riferimento normativo per aggiungere o modificare slide, componenti e immagini. Leggerlo prima di iniziare. Le regole descrivono il sistema implementato; modifiche intenzionali al sistema devono aggiornare codice e documento insieme. Le istruzioni esplicite dell’utente hanno precedenza.
 
-Modalità Read, grafica del riferimento Gestione web e canvas 1280×720. Il player scala la composizione senza riordinarla. Titoli ordinari a top 52 / left 72 px, corpo centrato sopra il footer. Linguaggio delle copertine metro, contenuti, asset, palette e terza lezione nascosta sono vincoli del progetto.
+Modalità Read, grafica del riferimento Gestione web e canvas 1280×720. Il player scala la composizione senza riordinarla. Titoli ordinari a top 52 / left 72 px, corpo centrato sopra il footer. Linguaggio delle copertine metro, contenuti, asset, palette e visibilità dei set sono vincoli del progetto.
 
 ## Responsabilità
 
@@ -77,9 +77,9 @@ Il catalogo è implementato in `styles/tokens.css`: le scale dei primari conserv
 | `tipografia-griglie` | teal-800 / Mandarino | 07 |
 | `prototipi-interfacce` | cyan-800 / Vermiglio | 08 |
 | `test-implementazione` | sky-800 / Ambra | 09 |
-| `storia-design` | blue-800 / Giallo limone | 03, nascosta |
+| `storia-design` | blue-800 / Giallo limone | 03, locale e online |
 
-Le identità sono registrate in `utils/slide-sets.ts`; gli alias cromatici rimandano al catalogo della famiglia. La sequenza segue i gruppi nell’indice locale: dopo i quattro set iniziali, le lezioni 04–09 proseguono con lime, green, emerald, teal, cyan e sky. La storia conserva il numero 03 e lo stato sospeso; la sua coppia blue è distinta dalle lezioni attive. L’apertura usa l’identità generale indigo/lime. Numeri e ordine cromatico hanno ruoli separati.
+Le identità sono registrate in `utils/slide-sets.ts`; gli alias cromatici rimandano al catalogo della famiglia. La sequenza segue i gruppi nell’indice locale: dopo i quattro set iniziali, le lezioni 04–09 proseguono con lime, green, emerald, teal, cyan e sky. La storia conserva il numero 03 e la coppia blue; il suo collegamento segue le sei lezioni locali nell’indice per conservare l’ordine cromatico Tailwind. Online segue i quattro gruppi iniziali. L’apertura usa l’identità generale indigo/lime. Numeri e ordine cromatico hanno ruoli separati.
 
 I ruoli distinguono la superficie:
 
@@ -96,7 +96,7 @@ Indice, ribbon, avanzamento, controlli, alert e diagrammi appartengono alla copp
 
 Un nuovo set va registrato prima di usare colori propri, seguendo il catalogo e verificando il contrasto su chiaro e scuro. Le pagine esistenti del corso omettono `lesson` e vengono assegnate al set predefinito `presentazione-corso`: mantenere questa convenzione quando si estende il file del corso.
 
-L’indice mantiene Il corso a sinistra; il gruppo a destra contiene tre sezioni affiancate, divise verticalmente: Introduzione a UX e UI, Brief di progetto e Approfondimenti individuali. Nell’anteprima locale le sei lezioni sul processo UX occupano due righe di tre collegamenti sotto i gruppi iniziali, con numeri reali e titoli. Le lezioni 04–09 dichiarano `localOnly: true` sugli import; il preparser Slidev le esclude dalle build. Il contenitore `LocalOnly` rimuove i loro collegamenti prima della compilazione, conservando online soltanto i quattro gruppi iniziali. Le immagini esclusive in `images/processo-ux` sono escluse dall’output; gli originali e l’anteprima locale restano completi. Ogni collegamento conserva la palette e l’alias del set di destinazione. La composizione rimane fissa durante il ridimensionamento del player e in stampa.
+L’indice mantiene Il corso a sinistra; il gruppo a destra contiene tre sezioni affiancate, divise verticalmente: Introduzione a UX e UI, Brief di progetto e Approfondimenti individuali. Nell’anteprima locale le sei lezioni sul processo UX occupano due righe di tre collegamenti sotto i gruppi iniziali, con numeri reali e titoli. Le lezioni 04–09 dichiarano `localOnly: true` sugli import; il preparser Slidev le esclude dalle build. Il contenitore `LocalOnly` rimuove i loro collegamenti prima della compilazione, conservando online i quattro gruppi iniziali e la lezione 03 di storia. Le immagini esclusive in `images/processo-ux` sono escluse dall’output; gli originali e l’anteprima locale restano completi. Il collegamento 03 occupa una riga a tutta larghezza. L’altezza minima dei gruppi iniziali è 160 px, delle voci locali 100 px e della riga storia 76 px, per mantenere il corpo dell’indice entro il canvas. Ogni collegamento conserva la palette e l’alias del set di destinazione. La composizione rimane fissa durante il ridimensionamento del player e in stampa.
 
 ## Tipografia e spazi
 
@@ -160,7 +160,7 @@ Rapporti cronologici e screenshot non appartengono alla documentazione: rigenera
 
 La copertina generale usa `ClosingMetro original`, mappa multicolore e fascia indaco opaca che protegge titolo, metadati e attribuzioni. La mappa conserva i tracciati originali senza una fermata circolare principale sovrapposta. Le copertine di lezione usano `chapter-slide`, `ChapterMetro`, fondo primario del set, Inter, titolo bianco allineato a sinistra e numero della lezione. Mantengono margine sinistro 68 px e il numero in alto a 64 px; il testo occupa al massimo 1016 px, con padding verticale 144 / 200 px e 28 px fra titolo e sottotitolo. Brief e Approfondimenti non ricevono numeri di lezione inventati.
 
-I percorsi in `data/cover-routes.ts` sono distinti per corso, esame, archivio, brief, approfondimenti, introduzione, storia, le sei lezioni sul processo UX e chiusura. Le linee occupano la fascia inferiore e il margine destro, lasciando libera l’area del testo (x 68–1084, y 176–472) e il footer. `MetroTrack` condivide maschere e segmento mobile; `ChapterMetro` sceglie i dati tramite `section` e dispone le stazioni sopra entrambe le linee. `MetroStop` disegna la fermata principale, con la geometria del cerchio della timeline e un punto centrale senza nuovi numeri o testi. `stopProgress` registra la posizione sulla traccia: il controllo del movimento verifica che il segmento la raggiunga. La chiusura mantiene il layout ordinario su fondo chiaro e un proprio percorso in uscita. La lezione di storia resta nascosta. Non sostituire i titoli delle copertine con badge circolari o nuovi effetti di luce.
+I percorsi in `data/cover-routes.ts` sono distinti per corso, esame, archivio, brief, approfondimenti, introduzione, storia, le sei lezioni sul processo UX e chiusura. Le linee occupano la fascia inferiore e il margine destro, lasciando libera l’area del testo (x 68–1084, y 176–472) e il footer. `MetroTrack` condivide maschere e segmento mobile; `ChapterMetro` sceglie i dati tramite `section` e dispone le stazioni sopra entrambe le linee. `MetroStop` disegna la fermata principale, con la geometria del cerchio della timeline e un punto centrale senza nuovi numeri o testi. `stopProgress` registra la posizione sulla traccia: il controllo del movimento verifica che il segmento la raggiunga. La chiusura mantiene il layout ordinario su fondo chiaro e un proprio percorso in uscita. La lezione di storia è attiva in locale e online. Non sostituire i titoli delle copertine con badge circolari o nuovi effetti di luce.
 
 ### Superfici, gerarchia e accessibilità
 

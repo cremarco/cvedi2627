@@ -12,8 +12,8 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 423, buttons: 10 },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 173, buttons: 4 },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 491, buttons: 11 },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 241, buttons: 5 },
   ]) {
     const page = await browser.newPage({ reducedMotion: 'reduce' })
     page.on('pageerror', error => {
@@ -39,13 +39,15 @@ try {
         })
       })
       assert.ok(geometry, `${profile.name} ${mode}: index remains inside the canvas`)
+      assert.ok(await index.evaluate(root => Math.abs(root.querySelector('.index-history').getBoundingClientRect().width - root.querySelector('.index-grid').getBoundingClientRect().width) < 1), `${profile.name} ${mode}: history link spans its row`)
       const nav = await page.evaluate(() => {
         const nav = document.querySelector('#app').__vue_app__._context.provides['$$slidev-context'].nav
         const slides = nav.slides.value ?? nav.slides
         return { total: nav.total.value ?? nav.total, slides: slides.map(slide => ({ lesson: slide.meta.slide.frontmatter.lesson, alias: slide.meta.slide.frontmatter.routeAlias })) }
       })
       assert.equal(nav.total, profile.total, `${profile.name}: actual runtime total`)
-      assert.ok(nav.slides.every(slide => slide.lesson !== 'storia-design'), 'lesson 03 stays suspended')
+      assert.equal(nav.slides.filter(slide => slide.lesson === 'storia-design').length, 68, 'lesson 03 is available locally and online')
+      assert.ok(nav.slides.some(slide => slide.alias === 'storia-design'), 'lesson 03 retains its alias')
       for (const lesson of curriculum.lessons) {
         const owned = nav.slides.filter(slide => slide.lesson === lesson.id)
         assert.equal(owned.length, profile.name === 'local' ? lesson.slideCount : 0, `${profile.name}: ${lesson.id} navigation and overview`)
@@ -56,6 +58,11 @@ try {
     }
     await page.emulateMedia({ media: 'screen' })
     await page.setViewportSize({ width: 1280, height: 720 })
+    const index = await openSlide(page, profile.base, 3, { settle: true })
+    await index.locator('.index-history').click()
+    await page.locator('.slidev-layout.is-active h1').filter({ hasText: 'Storia del design' }).waitFor({ state: 'visible' })
+    const progress = page.locator('.presentation-progress-rail progress')
+    assert.equal(await progress.getAttribute('max'), '68', 'history progress counts the complete lesson')
     if (profile.name === 'local') {
       for (const lesson of curriculum.lessons) {
         const index = await openSlide(page, profile.base, 3, { settle: true })

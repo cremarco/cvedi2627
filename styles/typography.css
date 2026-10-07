@@ -97,3 +97,6 @@
   font-family: var(--web-style-display);
   font-weight: var(--web-style-title-weight);
 }
+.slidev-layout.default.web-style-slide .lesson-caption {
+  font-family: var(--web-style-caption);
+}
