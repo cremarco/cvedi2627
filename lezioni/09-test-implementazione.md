@@ -4,7 +4,7 @@ class: content-slide ux-process-lesson lesson-slide chapter-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
 lessonSlide: 1
-lessonMinutes: 1
+lessonMinutes: 0.5
 routeAlias: test-implementazione
 lessonNumber: 9
 bookletPages: [235]
@@ -16,11 +16,26 @@ bookletPages: [235]
 <p class="lead">Osservare l’uso, migliorare e consegnare</p>
 
 ---
+layout: summary
+class: content-slide ux-process-lesson lesson-slide reading-slide
+footer: "Test e implementazione"
+lesson: test-implementazione
+lessonSlide: 2
+lessonMinutes: 0.5
+routeAlias: test-implementazione-sintesi
+summaryStatement: "Osservare l’uso trasforma il progetto e accompagna la vita del prodotto."
+summarySupport: "Domande, persone e compiti orientano la verifica; le evidenze guidano priorità e modifiche, anche dopo il rilascio."
+bookletPages: [235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
+---
+
+# Dall’uso al miglioramento
+
+---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 3.0
 routeAlias: test-implementazione-02
 bookletPages: [235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
@@ -36,7 +51,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 3
+lessonSlide: 4
 lessonMinutes: 3.0
 routeAlias: test-implementazione-03
 bookletPages: [235]
@@ -52,7 +67,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 4
+lessonSlide: 5
 lessonMinutes: 3.0
 routeAlias: test-implementazione-04
 bookletPages: [236]
@@ -68,7 +83,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 5
+lessonSlide: 6
 lessonMinutes: 2.0
 routeAlias: test-implementazione-05
 bookletPages: [236, 237]
@@ -84,7 +99,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 6
+lessonSlide: 7
 lessonMinutes: 3.0
 routeAlias: test-implementazione-06
 bookletPages: [238]
@@ -100,7 +115,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 7
+lessonSlide: 8
 lessonMinutes: 3.5
 routeAlias: test-implementazione-07
 bookletPages: [238]
@@ -116,7 +131,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 8
+lessonSlide: 9
 lessonMinutes: 3.0
 routeAlias: test-implementazione-08
 bookletPages: [239]
@@ -132,7 +147,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 9
+lessonSlide: 10
 lessonMinutes: 2.5
 routeAlias: test-implementazione-09
 bookletPages: [239, 240]
@@ -148,7 +163,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 10
+lessonSlide: 11
 lessonMinutes: 2.5
 routeAlias: test-implementazione-10
 bookletPages: [241, 242]
@@ -164,7 +179,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 11
+lessonSlide: 12
 lessonMinutes: 2.5
 routeAlias: test-implementazione-11
 bookletPages: [243]
@@ -180,7 +195,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 12
+lessonSlide: 13
 lessonMinutes: 2.5
 routeAlias: test-implementazione-12
 bookletPages: [244]
@@ -196,7 +211,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 13
+lessonSlide: 14
 lessonMinutes: 2.5
 routeAlias: test-implementazione-13
 bookletPages: [245]
@@ -212,7 +227,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 14
+lessonSlide: 15
 lessonMinutes: 2.5
 routeAlias: test-implementazione-14
 bookletPages: [245]
@@ -228,7 +243,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 15
+lessonSlide: 16
 lessonMinutes: 2.5
 routeAlias: test-implementazione-15
 bookletPages: [246]
@@ -244,7 +259,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 16
+lessonSlide: 17
 lessonMinutes: 2.5
 routeAlias: test-implementazione-16
 bookletPages: [247]
@@ -260,7 +275,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 17
+lessonSlide: 18
 lessonMinutes: 2.5
 routeAlias: test-implementazione-17
 bookletPages: [248]
@@ -276,7 +291,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 18
+lessonSlide: 19
 lessonMinutes: 2.5
 routeAlias: test-implementazione-18
 bookletPages: [248]
@@ -292,7 +307,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant image-panels
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 19
+lessonSlide: 20
 lessonMinutes: 3.5
 routeAlias: test-implementazione-19
 bookletPages: [249, 250]
@@ -309,7 +324,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 20
+lessonSlide: 21
 lessonMinutes: 2.5
 routeAlias: test-implementazione-20
 bookletPages: [251]
@@ -325,7 +340,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 21
+lessonSlide: 22
 lessonMinutes: 3.5
 routeAlias: test-implementazione-21
 bookletPages: [252]
@@ -341,7 +356,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 22
+lessonSlide: 23
 lessonMinutes: 10
 routeAlias: test-implementazione-22
 bookletPages: [244, 245, 246, 247, 248, 249, 250, 251, 252]
@@ -358,7 +373,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 23
+lessonSlide: 24
 lessonMinutes: 12
 routeAlias: test-implementazione-23
 bookletPages: [245, 246, 247, 248, 249, 250, 251, 252]
@@ -375,7 +390,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 24
+lessonSlide: 25
 lessonMinutes: 2.5
 routeAlias: test-implementazione-24
 bookletPages: [253]
@@ -391,7 +406,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 25
+lessonSlide: 26
 lessonMinutes: 2.5
 routeAlias: test-implementazione-25
 bookletPages: [253, 254]
@@ -407,7 +422,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 26
+lessonSlide: 27
 lessonMinutes: 2.5
 routeAlias: test-implementazione-26
 bookletPages: [253]
@@ -423,7 +438,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 27
+lessonSlide: 28
 lessonMinutes: 8
 routeAlias: test-implementazione-27
 bookletPages: [253, 254]
@@ -440,7 +455,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 28
+lessonSlide: 29
 lessonMinutes: 2.5
 routeAlias: test-implementazione-28
 bookletPages: [255]
@@ -456,7 +471,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 29
+lessonSlide: 30
 lessonMinutes: 2.5
 routeAlias: test-implementazione-29
 bookletPages: [256]
@@ -472,7 +487,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 30
+lessonSlide: 31
 lessonMinutes: 3.5
 routeAlias: test-implementazione-30
 bookletPages: [238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256]
@@ -488,7 +503,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 31
+lessonSlide: 32
 lessonMinutes: 2.0
 routeAlias: test-implementazione-31
 bookletPages: [257, 258]
@@ -504,7 +519,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 32
+lessonSlide: 33
 lessonMinutes: 2.5
 routeAlias: test-implementazione-32
 bookletPages: [259]
@@ -520,7 +535,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 33
+lessonSlide: 34
 lessonMinutes: 3.5
 routeAlias: test-implementazione-33
 bookletPages: [259, 260]
@@ -536,7 +551,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 34
+lessonSlide: 35
 lessonMinutes: 2.5
 routeAlias: test-implementazione-34
 bookletPages: [259]
@@ -552,7 +567,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 35
+lessonSlide: 36
 lessonMinutes: 2.5
 routeAlias: test-implementazione-35
 bookletPages: [258, 259, 260]
@@ -568,7 +583,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 36
+lessonSlide: 37
 lessonMinutes: 2.5
 routeAlias: test-implementazione-36
 bookletPages: [235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260]
@@ -584,7 +599,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Test e implementazione"
 lesson: test-implementazione
-lessonSlide: 37
+lessonSlide: 38
 lessonMinutes: 2.5
 routeAlias: test-implementazione-37
 bookletPages: [253, 254, 255, 256, 257, 258, 259, 260]

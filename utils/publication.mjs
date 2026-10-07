@@ -15,4 +15,4 @@ export function publicationExtensions(mode) {
 
 // This subtree contains only figures belonging to lessons 04–09. Originals
 // and local public assets remain in the repository; remove only build copies.
-export const localAssetDirectories = ['images/processo-ux']
+export const localAssetDirectories = ['images/processo-ux', 'images/generated/theme-2026/chapters/local']

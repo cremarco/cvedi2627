@@ -20,19 +20,30 @@ export async function checkPublication() {
     for (const deck of [local, published])
       for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
     const localSlides = local.slides.filter(slide => localIds.has(slide.frontmatter.lesson))
-    assert.equal(localSlides.length, 250, 'all six lessons remain available locally')
+    assert.equal(localSlides.length, 256, 'all six lessons remain available locally')
     assert.ok(localSlides.every(slide => slide.frontmatter.localOnly === true), 'every local lesson import is explicitly marked')
-    assert.equal(local.slides.length, 491, 'complete local deck')
-    assert.equal(published.slides.length, 241, 'published deck includes lesson 03')
+    assert.equal(local.slides.length, 499, 'complete local deck')
+    assert.equal(published.slides.length, 243, 'published deck includes lesson 03')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 68, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
-      assert.ok(deck.slides.find(slide => slide.title === 'Indice delle lezioni').content.includes("$nav.go('storia-design')"), 'lesson 03 is linked from both indexes')
+      assert.match(deck.slides.find(slide => slide.title === 'Indice delle lezioni').content, /<SlideAction\s+to=["']storia-design["']/, 'lesson 03 is linked from both indexes')
     }
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')
     assert.deepEqual(published.slides.map(slide => slide.title), local.slides.filter(slide => !localIds.has(slide.frontmatter.lesson)).map(slide => slide.title), 'published content order is preserved')
     const localIndex = local.slides.find(slide => slide.title === 'Indice delle lezioni').content
     const publicIndex = published.slides.find(slide => slide.title === 'Indice delle lezioni').content
+    const publicTargets = ['presentazione-corso', 'introduzione-teorica', 'storia-design']
+    const supplementalTargets = ['brief-progetto', 'approfondimenti']
+    const indexTargets = content => [...content.matchAll(/<SlideAction\s+to=["']([^"']+)["']/g)].map(match => match[1])
+    const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, publicTargets[2]]
+    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...curriculum.lessons.map(lesson => lesson.id)], 'local index groups lesson 02 materials before continuing in lesson number order')
+    assert.deepEqual(indexTargets(publicIndex), groupedPublicTargets, 'published index preserves available destinations in reading order')
+    for (const content of [localIndex, publicIndex]) {
+      const lessonTwo = content.match(/<div\s+class="join join-horizontal index-lesson-two"[^>]*>([\s\S]*?)<\/div>/)?.[1]
+      assert.ok(lessonTwo, 'lesson 02 has one accessible group')
+      assert.deepEqual(indexTargets(lessonTwo), ['introduzione-teorica', ...supplementalTargets], 'lesson 02 contains exactly its three destinations')
+    }
     assert.ok(localIndex.includes('index-ux-lessons'), 'local lesson index remains available')
     assert.ok(!publicIndex.includes('LocalOnly') && !publicIndex.includes('index-ux-lessons'), 'local index is removed before compilation')
     for (const lesson of curriculum.lessons) {
@@ -51,7 +62,8 @@ export async function checkPublishedBuild(directory) {
   const assets = path.join(output, 'assets')
   const references = (await Promise.all((await readdir(assets)).filter(file => /\.(js|css)$/.test(file))
     .map(file => readFile(path.join(assets, file), 'utf8')))).join('\n')
-  assert.ok(!references.includes('/images/processo-ux/'), 'no published code references local figures')
+  for (const directory of localAssetDirectories)
+    assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
   return { output, localAssetsExcluded: true }
 }
 

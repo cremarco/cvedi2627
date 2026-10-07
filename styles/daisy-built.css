@@ -2122,34 +2122,6 @@
       border-block-end-width: calc(var(--border, 1px) * var(--join-h));
     }
   }
-  @layer daisyui.l1.l2 {
-    .steps-horizontal {
-      grid-auto-columns: 1fr;
-      display: inline-grid;
-      grid-auto-flow: column;
-      overflow: hidden;
-      overflow-x: auto;
-    }
-    .steps-horizontal .step {
-      display: grid;
-      grid-template-columns: repeat(1, minmax(0, 1fr));
-      grid-template-columns: auto;
-      grid-template-rows: repeat(2, minmax(0, 1fr));
-      grid-template-rows: 40px 1fr;
-      place-items: center;
-      text-align: center;
-      min-width: 4rem;
-    }
-    .steps-horizontal .step:before {
-      height: calc(0.25rem * 2);
-      width: 100%;
-      translate: 0;
-      margin-inline-start: -100%;
-    }
-    [dir="rtl"] :is(.steps-horizontal .step):before {
-      translate: 0;
-    }
-  }
   .mt-6\! {
     margin-top: calc(var(--spacing) * 6) !important;
   }
@@ -2546,23 +2518,6 @@
     transition-duration: var(--tw-duration, var(--default-transition-duration));
   }
   @layer daisyui.l1.l2 {
-    .steps .step-primary + .step-primary:before {
-      --step-bg: var(--color-primary);
-      --step-fg: var(--color-primary-content);
-    }
-    .steps .step-primary:after {
-      --step-bg: var(--color-primary);
-      --step-fg: var(--color-primary-content);
-    }
-    .steps .step-primary > .step-icon {
-      --step-bg: var(--color-primary);
-      --step-fg: var(--color-primary-content);
-    }
-    .btn-lg {
-      --fontsize: 1.125rem;
-      --btn-p: 1.25rem;
-      --size: calc(var(--size-field, 0.25rem) * 12);
-    }
     .btn-sm {
       --fontsize: 0.75rem;
       --btn-p: 0.75rem;

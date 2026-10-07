@@ -122,6 +122,7 @@ const recoveredPages = audit.integratedSlides.map(entry => {
 })
 const uxPages = uxSlides.map(pageNumber)
 const briefPages = brief.map(pageNumber)
+const summaryPages = deck.slides.filter(slide => slide.frontmatter.layout === 'summary').map(pageNumber)
 const topicPages = approfondimenti.map(pageNumber)
 if (output) await mkdir(output, { recursive: true })
 const browser = await chromium.launch()
@@ -138,7 +139,7 @@ try {
   await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  assert.equal(await page.locator('.slidev-page-3 .index-grid .index-button').count(), 3, 'index includes all three published lessons')
+  assert.equal(await page.locator('.slidev-page-3 .index-grid > .index-lesson, .slidev-page-3 .index-lesson-two > .index-lesson').count(), 3, 'index includes all three published lessons')
   assert.equal(await page.locator('.slidev-page-3 .index-ux-lessons .slide-action').count(), 6, 'local index includes the six UX lessons')
   assert.equal(await page.getByRole('button', { name: /Storia del design/ }).count(), 1, 'history index entry is active')
   await page.getByRole('button', { name: /Storia del design/ }).click()
@@ -201,12 +202,17 @@ try {
         const content = [...root.children].filter(element => {
           const style = getComputedStyle(element)
           return element !== title && !element.classList.contains('slide-footer')
+            && !element.classList.contains('cvedi-notice')
             && !['absolute', 'fixed'].includes(style.position) && style.display !== 'none'
         }).map(element => element.getBoundingClientRect()).filter(rect => rect.width && rect.height)
         if (content.length) {
           const titleBox = title.getBoundingClientRect()
           const areaTop = titleBox.bottom + parseFloat(getComputedStyle(title).marginBottom) * scale
-          const areaBottom = box.bottom - parseFloat(getComputedStyle(root).paddingBottom) * scale
+          const notice = root.querySelector(':scope > .cvedi-notice')
+          const bodyLast = [...root.children].filter(el => el !== title && el !== notice && !el.classList.contains('slide-footer') && !['absolute', 'fixed'].includes(getComputedStyle(el).position)).at(-1)
+          const areaBottom = notice
+            ? notice.getBoundingClientRect().top - parseFloat(getComputedStyle(bodyLast).marginBottom) * scale
+            : box.bottom - parseFloat(getComputedStyle(root).paddingBottom) * scale
           const contentTop = Math.min(...content.map(rect => rect.top))
           const contentBottom = Math.max(...content.map(rect => rect.bottom))
           contentCenterError = Math.abs((contentTop + contentBottom - areaTop - areaBottom) / (2 * scale))
@@ -250,8 +256,27 @@ try {
         contentCenterError,
         footer: root.querySelector('.slide-index')?.textContent.trim(),
         footerLabel: root.querySelector('.slide-index')?.getAttribute('aria-label'),
+        notices: [...root.querySelectorAll('.cvedi-notice')].map(notice => {
+          const rect = notice.getBoundingClientRect()
+          const icon = notice.querySelector('.cvedi-notice-icon')
+          const art = icon.getBoundingClientRect()
+          const copy = notice.querySelector('.cvedi-notice-copy').getBoundingClientRect()
+          return { bottom: (box.bottom - rect.bottom) / scale,
+            bodyGap: (rect.top - notice.previousElementSibling.getBoundingClientRect().bottom) / scale,
+            clear: copy.right <= art.left, clipped: art.top < rect.top && art.right > rect.right,
+            overflow: getComputedStyle(notice).overflow, role: notice.getAttribute('role'),
+            decorative: icon.getAttribute('aria-hidden'), kind: notice.dataset.kind }
+        }),
         headings: root.querySelectorAll('h1').length,
         codeBlocks: root.querySelectorAll('pre').length,
+        summary: root.querySelector('.lesson-summary-body') ? {
+          statement: root.querySelector('.lesson-summary-statement').textContent,
+          support: root.querySelector('.lesson-summary-support').textContent,
+          statementSize: parseFloat(getComputedStyle(root.querySelector('.lesson-summary-statement')).fontSize),
+          supportSize: parseFloat(getComputedStyle(root.querySelector('.lesson-summary-support')).fontSize),
+          primary: color(getComputedStyle(root.querySelector('.lesson-summary-statement')).color),
+          gap: parseFloat(getComputedStyle(root.querySelector('.lesson-summary-body')).gap),
+        } : null,
         violations,
         brokenImages,
         backgrounds,
@@ -285,8 +310,26 @@ try {
     const lessonPage = set.indexOf(current) + 1
     const label = `Slide ${lessonPage} di ${set.length}`
     assert.equal(report.headings, 1, `slide ${number}: heading`)
-    assert.equal(report.footer, `${String(lessonPage).padStart(2, '0')} / ${set.length}`, `slide ${number}: lesson footer`)
-    assert.equal(report.footerLabel, label, `slide ${number}: accessible lesson footer`)
+    if (current.frontmatter.layout === 'summary') {
+      assert.ok(report.summary, `slide ${number}: summary layout renders its contents`)
+      assert.equal(report.summary.statement, current.frontmatter.summaryStatement)
+      assert.equal(report.summary.support, current.frontmatter.summarySupport)
+      assert.equal(report.summary.statementSize, 40)
+      assert.equal(report.summary.supportSize, 27)
+      assert.equal(report.summary.gap, 32)
+      assert.equal(report.summary.primary, report.colors.primary, `slide ${number}: summary follows its set palette`)
+    }
+    const generalCover = String(current.frontmatter.class).split(/\s+/).includes('cover-slide')
+    assert.equal(report.footer, generalCover ? undefined : `${String(lessonPage).padStart(2, '0')} / ${set.length}`, `slide ${number}: lesson footer`)
+    assert.equal(report.footerLabel, generalCover ? undefined : label, `slide ${number}: accessible lesson footer`)
+    for (const notice of report.notices) {
+      assert.ok(notice.bodyGap >= 24 - 1, `slide ${number}: notice clears the preceding body`)
+      assert.ok(Math.abs(notice.bottom - 82) <= 1, `slide ${number}: teaching notice aligns above the footer`)
+      assert.ok(notice.clear && notice.clipped && notice.overflow === 'hidden', `slide ${number}: notice icon is cropped without covering copy`)
+      assert.equal(notice.role, 'note')
+      assert.equal(notice.decorative, 'true')
+      assert.ok(['question', 'request', 'explore', 'curiosity'].includes(notice.kind))
+    }
     const progress = page.locator('.presentation-progress-rail progress')
     assert.equal(await progress.getAttribute('max'), String(set.length), `slide ${number}: lesson progress total`)
     assert.equal(await progress.getAttribute('value'), String(lessonPage), `slide ${number}: lesson progress position`)
@@ -406,7 +449,7 @@ try {
     ...fixturePages('narrowIntroduction'),
     // History: opening, timeline, images, paired posters, cards, activities and long titles.
     ...fixturePages('narrowHistory'),
-    ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, total,
+    ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, ...summaryPages, ...deck.slides.filter(slide => slide.content.includes('<CvediNotice')).map(pageNumber), total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
@@ -415,7 +458,7 @@ try {
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })
   await page.setViewportSize({ width: 1280, height: 720 })
-  for (const number of new Set([3, ...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, total])) await inspect(number, false, true)
+  for (const number of new Set([3, ...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, ...summaryPages, ...deck.slides.filter(slide => slide.content.includes('<CvediNotice')).map(pageNumber), total])) await inspect(number, false, true)
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()

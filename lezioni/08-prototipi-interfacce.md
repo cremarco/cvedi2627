@@ -4,7 +4,7 @@ class: content-slide ux-process-lesson lesson-slide chapter-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
 lessonSlide: 1
-lessonMinutes: 1
+lessonMinutes: 0.5
 routeAlias: prototipi-interfacce
 lessonNumber: 8
 bookletPages: [201]
@@ -16,11 +16,26 @@ bookletPages: [201]
 <p class="lead">Flussi, stati e interfacce per l’azione</p>
 
 ---
+layout: summary
+class: content-slide ux-process-lesson lesson-slide reading-slide
+footer: "Prototipi e videogiochi"
+lesson: prototipi-interfacce
+lessonSlide: 2
+lessonMinutes: 0.5
+routeAlias: prototipi-interfacce-sintesi
+summaryStatement: "Un prototipo collega azioni, stati e feedback in un’esperienza osservabile."
+summarySupport: "Wireframe, prototipi e mockup rendono discutibili le scelte; nei servizi e nei giochi, informazione e azione devono sostenersi."
+bookletPages: [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214]
+---
+
+# Dai flussi all’azione
+
+---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-02
 bookletPages: [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214]
@@ -36,7 +51,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 3
+lessonSlide: 4
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-03
 bookletPages: [201, 202, 203, 204]
@@ -52,7 +67,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 4
+lessonSlide: 5
 lessonMinutes: 3.5
 routeAlias: prototipi-interfacce-04
 bookletPages: [202]
@@ -68,7 +83,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 5
+lessonSlide: 6
 lessonMinutes: 3.5
 routeAlias: prototipi-interfacce-05
 bookletPages: [203]
@@ -84,7 +99,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 6
+lessonSlide: 7
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-06
 bookletPages: [205]
@@ -100,7 +115,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 7
+lessonSlide: 8
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-07
 bookletPages: [206]
@@ -116,7 +131,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 8
+lessonSlide: 9
 lessonMinutes: 3.5
 routeAlias: prototipi-interfacce-08
 bookletPages: [207]
@@ -132,7 +147,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 9
+lessonSlide: 10
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-09
 bookletPages: [204, 205, 206, 207, 208, 209]
@@ -148,7 +163,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 10
+lessonSlide: 11
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-10
 bookletPages: [208]
@@ -164,7 +179,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 11
+lessonSlide: 12
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-11
 bookletPages: [209]
@@ -180,7 +195,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 12
+lessonSlide: 13
 lessonMinutes: 3.5
 routeAlias: prototipi-interfacce-12
 bookletPages: [210]
@@ -196,7 +211,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 13
+lessonSlide: 14
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-13
 bookletPages: [210, 211]
@@ -212,7 +227,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 14
+lessonSlide: 15
 lessonMinutes: 3.5
 routeAlias: prototipi-interfacce-14
 bookletPages: [211]
@@ -228,7 +243,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 15
+lessonSlide: 16
 lessonMinutes: 3.5
 routeAlias: prototipi-interfacce-15
 bookletPages: [212]
@@ -244,7 +259,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 16
+lessonSlide: 17
 lessonMinutes: 12
 routeAlias: prototipi-interfacce-16
 bookletPages: [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212]
@@ -261,7 +276,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 17
+lessonSlide: 18
 lessonMinutes: 2.0
 routeAlias: prototipi-interfacce-17
 bookletPages: [213, 214, 215]
@@ -277,7 +292,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 18
+lessonSlide: 19
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-18
 bookletPages: [216]
@@ -293,7 +308,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 19
+lessonSlide: 20
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-19
 bookletPages: [216]
@@ -309,7 +324,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 20
+lessonSlide: 21
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-20
 bookletPages: [217]
@@ -325,7 +340,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 21
+lessonSlide: 22
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-21
 bookletPages: [218]
@@ -341,7 +356,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 22
+lessonSlide: 23
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-22
 bookletPages: [218, 219]
@@ -357,7 +372,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 23
+lessonSlide: 24
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-23
 bookletPages: [220]
@@ -373,7 +388,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 24
+lessonSlide: 25
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-24
 bookletPages: [221, 222]
@@ -391,7 +406,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 25
+lessonSlide: 26
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-25
 bookletPages: [221]
@@ -407,7 +422,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 26
+lessonSlide: 27
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-26
 bookletPages: [223]
@@ -423,7 +438,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 27
+lessonSlide: 28
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-27
 bookletPages: [224]
@@ -439,7 +454,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 28
+lessonSlide: 29
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-28
 bookletPages: [225]
@@ -455,7 +470,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 29
+lessonSlide: 30
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-29
 bookletPages: [226]
@@ -471,7 +486,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 30
+lessonSlide: 31
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-30
 bookletPages: [227, 228]
@@ -489,7 +504,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 31
+lessonSlide: 32
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-31
 bookletPages: [229, 230]
@@ -505,7 +520,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 32
+lessonSlide: 33
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-32
 bookletPages: [231, 232]
@@ -523,7 +538,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 33
+lessonSlide: 34
 lessonMinutes: 3.0
 routeAlias: prototipi-interfacce-33
 bookletPages: [233, 234]
@@ -541,7 +556,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 34
+lessonSlide: 35
 lessonMinutes: 8
 routeAlias: prototipi-interfacce-34
 bookletPages: [225, 226, 227, 228, 229, 230, 231, 232, 233, 234]
@@ -558,7 +573,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 35
+lessonSlide: 36
 lessonMinutes: 5
 routeAlias: prototipi-interfacce-35
 bookletPages: [225, 226, 227, 228, 229, 230, 231, 232, 233, 234]
@@ -575,7 +590,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 36
+lessonSlide: 37
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-36
 bookletPages: [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234]
@@ -591,7 +606,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Prototipi e videogiochi"
 lesson: prototipi-interfacce
-lessonSlide: 37
+lessonSlide: 38
 lessonMinutes: 2.5
 routeAlias: prototipi-interfacce-37
 bookletPages: [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212, 213, 214, 215, 216, 217, 218, 219, 220, 221, 222, 223, 224, 225, 226, 227, 228, 229, 230, 231, 232, 233, 234]

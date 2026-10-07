@@ -1,0 +1,642 @@
+{
+  "version": "chapters-v1",
+  "mode": "built-in image_gen",
+  "rights": "Original illustrations generated for CVeDI with OpenAI ImageGen. PNG originals, prompts and generated source paths retained.",
+  "style": "Rounded dark colored contours, broad pale faces, restrained set accent, transparent background.",
+  "paletteAuthority": "DESIGN.md and styles/tokens.css",
+  "counts": {
+    "images": 13
+  },
+  "jobs": [
+    {
+      "id": "course",
+      "title": "Il corso",
+      "family": "red",
+      "palette": {
+        "800": "#9F0712",
+        "950": "#460809",
+        "100": "#FFE2E2",
+        "200": "#FFC9C9",
+        "accent-vivid": "#12CE7E"
+      },
+      "subject": "An upright presentation board with three broad diagram blocks, paired with one open study book. A compact coherent teaching-materials composition.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-course-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-course-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/chapter-course-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Il corso (context only, never draw the title).\nSubject: An upright presentation board with three broad diagram blocks, paired with one open study book. A compact coherent teaching-materials composition.\nAuthoritative palette: primary #9F0712; outline #460809; pale faces #FFE2E2 and #FFC9C9; vivid accent #12CE7E; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-8c9e0aa0-83ca-4992-a83f-6d28f353f869.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "633fff17a2482004d01cec4191f3ff1c664ff4bb670a90d9a241160efc8693e2",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": {
+          "status": "accepted",
+          "notes": "Presentation board and open book, rounded colored contours and pale faces, legible silhouette."
+        }
+      },
+      "alpha": {
+        "transparent": 723277,
+        "opaque": 2624,
+        "partial": 846615
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "exam",
+      "title": "Modalità d’esame",
+      "family": "red",
+      "palette": {
+        "800": "#9F0712",
+        "950": "#460809",
+        "100": "#FFE2E2",
+        "200": "#FFC9C9",
+        "accent-vivid": "#12CE7E"
+      },
+      "subject": "One upright assessment clipboard with three broad checklist rows, a large selected check and one simple pen crossing its lower edge.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-exam-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-exam-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/chapter-exam-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Modalità d’esame (context only, never draw the title).\nSubject: One upright assessment clipboard with three broad checklist rows, a large selected check and one simple pen crossing its lower edge.\nAuthoritative palette: primary #9F0712; outline #460809; pale faces #FFE2E2 and #FFC9C9; vivid accent #12CE7E; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-0962851f-19d2-4b4d-b214-835d8be6ec20.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "f42721f82f08cd82614b65e79dbcd5bb570dd20b9f413c7213b1072b290e42f8",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": {
+          "status": "accepted",
+          "notes": "Checklist clipboard and pen, clear assessment meaning, clean colored outlines and restrained accent."
+        }
+      },
+      "alpha": {
+        "transparent": 724124,
+        "opaque": 795,
+        "partial": 847597
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "archive",
+      "title": "Archivio progetti",
+      "family": "red",
+      "palette": {
+        "800": "#9F0712",
+        "950": "#460809",
+        "100": "#FFE2E2",
+        "200": "#FFC9C9",
+        "accent-vivid": "#12CE7E"
+      },
+      "subject": "An open archive folder holding three overlapping miniature browser-page sheets, each showing only broad header and content blocks, with one selected page highlighted.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-archive-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-archive-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/chapter-archive-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Archivio progetti (context only, never draw the title).\nSubject: An open archive folder holding three overlapping miniature browser-page sheets, each showing only broad header and content blocks, with one selected page highlighted.\nAuthoritative palette: primary #9F0712; outline #460809; pale faces #FFE2E2 and #FFC9C9; vivid accent #12CE7E; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "status": "complete",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-e7a1d0e4-97c9-4c02-b0c1-20262fe6f000.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "1db058bf428dfc937b0c009f97fd8638b187908f058fb29b93aceeb748ac3e43",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": {
+          "status": "accepted",
+          "notes": "Three browser pages in archive folder, no text, rounded colored contours and transparent background."
+        }
+      },
+      "alpha": {
+        "transparent": 707762,
+        "opaque": 1811,
+        "partial": 862943
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "introduction",
+      "title": "Introduzione a UX e UI",
+      "family": "orange",
+      "palette": {
+        "800": "#9F2D00",
+        "950": "#441306",
+        "100": "#FFEDD4",
+        "200": "#FFD6A7",
+        "accent-vivid": "#11BFF1"
+      },
+      "subject": "One desktop browser interface with three broad wireframe blocks, overlapping a compact route card with three connected stations. Make interface and user journey one coherent composition.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-introduction-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-introduction-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/chapter-introduction-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Introduzione a UX e UI (context only, never draw the title).\nSubject: One desktop browser interface with three broad wireframe blocks, overlapping a compact route card with three connected stations. Make interface and user journey one coherent composition.\nAuthoritative palette: primary #9F2D00; outline #441306; pale faces #FFEDD4 and #FFD6A7; vivid accent #11BFF1; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-4f47-79a3-baaf-6934c9f384c0/exec-a5d4648e-35cd-489a-9a3b-0c9f87ba412b.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "736bb2de9a5b2a153763ac9824e23f0954bd2c3dbb28477b5336abe4814389fd",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Browser wireframe and three-station journey form one legible composition. Rounded dark contours and pale orange/cyan palette match the approved family. No text or detached background. Full silhouette inside margins."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 693866,
+        "opaquePixels": 1605,
+        "partialPixels": 877045,
+        "transparentFraction": 0.4412457488508861,
+        "extrema": [
+          0,
+          255
+        ],
+        "bounds": [
+          75,
+          158,
+          1180,
+          1093
+        ],
+        "nearOpaquePixels": 865613,
+        "visibleBoundsAlphaOver16": [
+          78,
+          161,
+          1177,
+          1090
+        ]
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "history",
+      "title": "Storia del design",
+      "family": "blue",
+      "palette": {
+        "800": "#193CB8",
+        "950": "#162456",
+        "100": "#DBEAFE",
+        "200": "#BEDBFF",
+        "accent-vivid": "#E3CD13"
+      },
+      "subject": "One upright poster sheet with a bold geometric composition, a small printing roller at its lower edge, and an overlapping compact browser-page sheet. Convey the passage from printed communication to digital interfaces without words.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-history-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-history-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/chapter-history-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Storia del design (context only, never draw the title).\nSubject: One upright poster sheet with a bold geometric composition, a small printing roller at its lower edge, and an overlapping compact browser-page sheet. Convey the passage from printed communication to digital interfaces without words.\nAuthoritative palette: primary #193CB8; outline #162456; pale faces #DBEAFE and #BEDBFF; vivid accent #E3CD13; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-4f47-79a3-baaf-6934c9f384c0/exec-0d70f565-9e39-41e3-986d-f22f5c3b1a92.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "d5c73c98dd2a29124475b6dc77b7b1e7786db074b0c6c3e390a618acbe6f096c",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Poster and browser share bold geometric shapes, with printing roller showing the transition between print and digital. Rounded dark blue contours, pale blue/white surfaces and yellow accent match approved family. No text or background shapes, complete silhouette inside margins."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 802508,
+        "opaquePixels": 2051,
+        "partialPixels": 767957,
+        "transparentFraction": 0.5103337581302829,
+        "extrema": [
+          0,
+          255
+        ],
+        "bounds": [
+          41,
+          48,
+          1140,
+          1230
+        ],
+        "nearOpaquePixels": 753238,
+        "visibleBoundsAlphaOver16": [
+          115,
+          91,
+          1135,
+          1166
+        ]
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "brief",
+      "title": "Brief di progetto",
+      "family": "amber",
+      "palette": {
+        "800": "#973C00",
+        "950": "#461901",
+        "100": "#FEF3C6",
+        "200": "#FEE685",
+        "accent-vivid": "#8CACFE"
+      },
+      "subject": "One open design sketchbook with a simple service concept drawing, a bold pencil crossing its edge, and a small lightbulb behind it. A clear project-brief composition.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-brief-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-brief-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/chapter-brief-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Brief di progetto (context only, never draw the title).\nSubject: One open design sketchbook with a simple service concept drawing, a bold pencil crossing its edge, and a small lightbulb behind it. A clear project-brief composition.\nAuthoritative palette: primary #973C00; outline #461901; pale faces #FEF3C6 and #FEE685; vivid accent #8CACFE; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-4f47-79a3-baaf-6934c9f384c0/exec-02a09656-6e69-48ae-9493-93a0c85dbdff.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "444f2b65db4103fa123b9d8c306d43ac7ae491c1f5bc8ceccd4fb6f77b8c0d72",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Open sketchbook contains a simple service concept diagram, accompanied by a large pencil and lightbulb. Rounded dark brown contours, pale amber/white surfaces and blue accent match approved family. No text or detached decorative background. Complete silhouette inside margins."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "transparentPixels": 805383,
+        "opaquePixels": 2463,
+        "partialPixels": 764670,
+        "transparentFraction": 0.5121620384148714,
+        "extrema": [
+          0,
+          255
+        ],
+        "bounds": [
+          36,
+          53,
+          1215,
+          1254
+        ],
+        "nearOpaquePixels": 747807,
+        "visibleBoundsAlphaOver16": [
+          40,
+          55,
+          1212,
+          1165
+        ]
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "research",
+      "title": "Approfondimenti individuali",
+      "family": "yellow",
+      "palette": {
+        "800": "#894B00",
+        "950": "#432004",
+        "100": "#FEF9C2",
+        "200": "#FFF085",
+        "accent-vivid": "#A6AAFE"
+      },
+      "subject": "One open reference book with a magnifying glass over a page and two slim source sheets behind it. A compact research-and-deep-study composition.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-research-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-research-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/chapter-research-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Approfondimenti individuali (context only, never draw the title).\nSubject: One open reference book with a magnifying glass over a page and two slim source sheets behind it. A compact research-and-deep-study composition.\nAuthoritative palette: primary #894B00; outline #432004; pale faces #FEF9C2 and #FFF085; vivid accent #A6AAFE; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-8514-7eb0-a10f-e1057b7bb8b2/exec-41c77adc-599b-492a-98d2-2a742b738a26.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "95086410452cef63dc010d06defaeab1435cd5a528abc41b5ce51835479824ac",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Ispezionata: libro aperto, lente indaco e due fogli chiaramente riconoscibili; contorni marroni arrotondati, campiture giallo chiaro e trasparenza esterna. Piccolo segno di vetro sulla lente coerente con la famiglia di riferimento, nessun testo o cornice."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 755594,
+        "opaquePixels": 2258,
+        "partialAlphaPixels": 814664,
+        "transparentFraction": 0.48050003942726177,
+        "opaqueFraction": 0.0014359154374263918,
+        "nearlyOpaquePixels": 801827
+      },
+      "pixelIdenticalLossless": true,
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "ux-research",
+      "title": "Ricerca, contesto e inclusione",
+      "family": "lime",
+      "palette": {
+        "800": "#3C6300",
+        "950": "#192E03",
+        "100": "#ECFCCA",
+        "200": "#D8F999",
+        "accent-vivid": "#F087FE"
+      },
+      "subject": "One large magnifying glass focusing on three simple different user-profile silhouettes shown together on one research board, with one broad observation note. The silhouettes are symbolic, no realistic faces.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-ux-research-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-ux-research-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/local/chapter-ux-research-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Ricerca, contesto e inclusione (context only, never draw the title).\nSubject: One large magnifying glass focusing on three simple different user-profile silhouettes shown together on one research board, with one broad observation note. The silhouettes are symbolic, no realistic faces.\nAuthoritative palette: primary #3C6300; outline #192E03; pale faces #ECFCCA and #D8F999; vivid accent #F087FE; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-8514-7eb0-a10f-e1057b7bb8b2/exec-24780b96-0145-46d7-b890-d1cc29df366f.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "a421fe451e66cc996eee8dc7e92474750817f38672ca2061f4cb811425eac286",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Ispezionata: lavagna e grande lente con tre profili simbolici, uno evidenziato magenta; nota di osservazione e contorni verdi arrotondati. Composizione completa, semplice e priva di testo; superfici visivamente opache, esterno trasparente."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 714274,
+        "opaquePixels": 2361,
+        "partialAlphaPixels": 855881,
+        "transparentFraction": 0.45422367721536694,
+        "opaqueFraction": 0.0015014155658829545,
+        "nearlyOpaquePixels": 839606
+      },
+      "pixelIdenticalLossless": true,
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "ux-perception",
+      "title": "Percezione e gerarchia visiva",
+      "family": "green",
+      "palette": {
+        "800": "#016630",
+        "950": "#032E15",
+        "100": "#DCFCE7",
+        "200": "#B9F8CF",
+        "accent-vivid": "#FE935E"
+      },
+      "subject": "Three overlapping visual-composition panels with one large dominant circle, smaller subordinate shapes and purposeful aligned spacing; a small eye symbol integrated beside the panels. Show perceptual hierarchy through broad shapes without any text.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-ux-perception-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-ux-perception-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/local/chapter-ux-perception-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Percezione e gerarchia visiva (context only, never draw the title).\nSubject: Three overlapping visual-composition panels with one large dominant circle, smaller subordinate shapes and purposeful aligned spacing; a small eye symbol integrated beside the panels. Show perceptual hierarchy through broad shapes without any text.\nAuthoritative palette: primary #016630; outline #032E15; pale faces #DCFCE7 and #B9F8CF; vivid accent #FE935E; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-8514-7eb0-a10f-e1057b7bb8b2/exec-381eb713-826f-422a-9945-f02abc8f4e24.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "6f1d4a54c039c0e15f263993eb30ecd63390e85d8b21d911ba556a2ef07a917f",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Ispezionata: tre pannelli ordinati con forme di dimensione gerarchica e un occhio in primo piano, accento corallo e campiture verde pallido/bianco. Contorni arrotondati, nessun testo, composizione intera con trasparenza esterna."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 722610,
+        "opaquePixels": 1834,
+        "partialAlphaPixels": 848072,
+        "transparentFraction": 0.4595247361553078,
+        "opaqueFraction": 0.0011662838406731632,
+        "nearlyOpaquePixels": 834579
+      },
+      "pixelIdenticalLossless": true,
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "ux-color",
+      "title": "Colore e significato",
+      "family": "emerald",
+      "palette": {
+        "800": "#006045",
+        "950": "#002C22",
+        "100": "#D0FAE5",
+        "200": "#A4F4CF",
+        "accent-vivid": "#FE7DBE"
+      },
+      "subject": "One fan of four broad color swatches and a circular color-selection dial; all swatches constrained to the chapter pale green and pink palette. One vivid pink swatch is selected.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-ux-color-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-ux-color-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/local/chapter-ux-color-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Colore e significato (context only, never draw the title).\nSubject: One fan of four broad color swatches and a circular color-selection dial; all swatches constrained to the chapter pale green and pink palette. One vivid pink swatch is selected.\nAuthoritative palette: primary #006045; outline #002C22; pale faces #D0FAE5 and #A4F4CF; vivid accent #FE7DBE; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-8514-7eb0-a10f-e1057b7bb8b2/exec-a74b628b-3335-4d8b-8a91-60e069b08424.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "eb98bf19176fc6ebf574fba211eb6a8861b6955103595a67c6d9e7e5f1fccc13",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Ispezionata: ventaglio di quattro campionari e selettore circolare, rosa selezionato con un indicatore. Palette verde smeraldo chiaro/rosa, contorni arrotondati scuri, nessun testo e sfondo esterno realmente trasparente. Composizione riconoscibile in formato piccolo."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "min": 0,
+        "max": 255,
+        "transparentPixels": 769481,
+        "opaquePixels": 1627,
+        "partialAlphaPixels": 801408,
+        "transparentFraction": 0.48933111014450725,
+        "opaqueFraction": 0.0010346476601827898,
+        "nearlyOpaquePixels": 789306
+      },
+      "pixelIdenticalLossless": true,
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "ux-type",
+      "title": "Tipografia, griglie e interfacce",
+      "family": "teal",
+      "palette": {
+        "800": "#005F5A",
+        "950": "#022F2E",
+        "100": "#CBFBF1",
+        "200": "#96F7E4",
+        "accent-vivid": "#FC8E0E"
+      },
+      "subject": "One upright page layout with broad typographic line bars of two weights and a visible orderly column grid, paired with a short ruler and a compact browser card. No letters or numerals.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-ux-type-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-ux-type-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/local/chapter-ux-type-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Tipografia, griglie e interfacce (context only, never draw the title).\nSubject: One upright page layout with broad typographic line bars of two weights and a visible orderly column grid, paired with a short ruler and a compact browser card. No letters or numerals.\nAuthoritative palette: primary #005F5A; outline #022F2E; pale faces #CBFBF1 and #96F7E4; vivid accent #FC8E0E; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-b3a4-7043-90d0-bbc5774f64f2/exec-d0d19fbc-7209-498c-a2ee-53193a4be4b7.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "7a9937521e89c125e71f9de01949f73b5ab6682acfdfd69c63ea32167b653c3f",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Pagina con griglia e gerarchie di barre, piccolo browser e righello: soggetto coerente, contorni arrotondati teal scuro, superfici chiare e accento mandarino, senza testo né sfondo. Tutto il motivo è intero con margini."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "minimum": 0,
+        "maximum": 255,
+        "transparentPixels": 650406,
+        "opaquePixels": 2584,
+        "partialPixels": 919526,
+        "transparentRatio": 0.41360851018368017,
+        "opaqueRatio": 0.0016432265236092987
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "ux-prototype",
+      "title": "Prototipi e videogiochi",
+      "family": "cyan",
+      "palette": {
+        "800": "#005F78",
+        "950": "#053345",
+        "100": "#CEFAFE",
+        "200": "#A2F4FD",
+        "accent-vivid": "#FE8E78"
+      },
+      "subject": "A coherent grouping of one mobile wireframe device, a compact desktop prototype screen and a simple game controller, with a single broad connector between the screens. Devices have only broad interface blocks, no text.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-ux-prototype-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-ux-prototype-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/local/chapter-ux-prototype-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Prototipi e videogiochi (context only, never draw the title).\nSubject: A coherent grouping of one mobile wireframe device, a compact desktop prototype screen and a simple game controller, with a single broad connector between the screens. Devices have only broad interface blocks, no text.\nAuthoritative palette: primary #005F78; outline #053345; pale faces #CEFAFE and #A2F4FD; vivid accent #FE8E78; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-b3a4-7043-90d0-bbc5774f64f2/exec-77c915f5-0633-4190-8a4f-a4da9f201fac.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "7c3d08a7afaa00f96b40e1a8acc969cab1f9448442b21c643043e6ad8528390d",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Smartphone e schermo collegati con un cavo ampio, controller ben riconoscibile. Contorni arrotondati cyan scuro, campiture chiare, accento corallo e nessuna scritta. Composizione compatta intera con margini; trasparenza conservata."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "minimum": 0,
+        "maximum": 255,
+        "transparentPixels": 768495,
+        "opaquePixels": 2676,
+        "partialPixels": 801345,
+        "transparentRatio": 0.48870408949734057,
+        "opaqueRatio": 0.0017017314927161313
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "ux-test",
+      "title": "Test e implementazione",
+      "family": "sky",
+      "palette": {
+        "800": "#00598A",
+        "950": "#052F4A",
+        "100": "#DFF2FE",
+        "200": "#B8E6FE",
+        "accent-vivid": "#F9C212"
+      },
+      "subject": "One browser screen with a large confirmed check, a compact checklist sheet and one small cursor pointer selecting a control. Express usability testing leading to a working implementation, no code or words.",
+      "promptFile": "assets/theme-imagegen/prompts/chapter-ux-test-v1.txt",
+      "original": "assets/theme-imagegen/originals/chapter-ux-test-v1.png",
+      "web": "public/images/generated/theme-2026/chapters/local/chapter-ux-test-v1.webp",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone thematic illustration for a CVeDI chapter opening, consistent with the existing rounded-outline 2D educational illustration family.\nStyle: confident thick rounded dark colored contours, broad clean pale opaque color faces, white functional surfaces, conventional recognizable proportions, at most one slim offset rear edge. Flat matte fills. Restrained, legible composition of 2–3 relevant objects. The primary pale family dominates; one vivid accent highlights the subject. No glossy highlights, no gradients, no cast shadow, no texture, no realistic 3D, no decorative stars, no extra background shapes, no surrounding card or frame.\nComposition: compact square composition, whole silhouette fully visible with about 8% clear outer margins; readable at 240 pixels. No text, letters, digits, logo or watermark, including on screens or pages. Broad purposeful geometry instead of tiny details. Genuine transparent alpha background around the motif, not a checkerboard or opaque white backdrop; every actual object surface must remain opaque.\nChapter: Test e implementazione (context only, never draw the title).\nSubject: One browser screen with a large confirmed check, a compact checklist sheet and one small cursor pointer selecting a control. Express usability testing leading to a working implementation, no code or words.\nAuthoritative palette: primary #00598A; outline #052F4A; pale faces #DFF2FE and #B8E6FE; vivid accent #F9C212; opaque white can fill functional papers and panels. No unrelated colors, no neutral black or gray.\nGenerate only this one asset.\n",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1169b-b3a4-7043-90d0-bbc5774f64f2/exec-12827fad-88c1-45ec-bcfd-a1b60a827b94.png",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254
+      },
+      "sha256": "8eefc5a88663173142a3b40cd4658dce3b551ce458514eea2ac5cd2e2d743458",
+      "status": "complete",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed against the existing rounded-outline family on the contact sheet: subject, palette, no text and transparent silhouette accepted.",
+        "generationReview": "Browser con spunta di conferma, lista di controllo e puntatore sul comando: semantica immediata, campiture sky chiare e accento ambra, contorni arrotondati scuri. Nessun testo; motivo intero e sfondo trasparente."
+      },
+      "alpha": {
+        "mode": "RGBA",
+        "minimum": 0,
+        "maximum": 255,
+        "transparentPixels": 776905,
+        "opaquePixels": 2229,
+        "partialPixels": 793382,
+        "transparentRatio": 0.4940522067819978,
+        "opaqueRatio": 0.0014174736536861946
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    }
+  ],
+  "usage": "Retained assets; not displayed on presentation covers."
+}

@@ -49,13 +49,9 @@ footer: "Un nuovo percorso"
   </div>
   <RenewalMaterials />
 </div>
-<div role="note" class="alert alert-soft renewal-feedback">
-  <svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M6 5h20a3 3 0 0 1 3 3v12a3 3 0 0 1-3 3H13l-7 5v-5a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3Z"/><path d="M10 12h12M10 17h8"/></svg>
-  <div>
-    <h2>Ci aiutate a migliorare?</h2>
-    <p>Potrebbero esserci errori, refusi o passaggi poco chiari. Vi chiediamo di <strong>segnalarceli nel forum del corso</strong>. Grazie per il vostro aiuto!</p>
-  </div>
-</div>
+<CvediNotice kind="request" title="Ci aiutate a migliorare?">
+  <p>Potrebbero esserci errori, refusi o passaggi poco chiari. Vi chiediamo di <strong>segnalarceli nel forum del corso</strong>. Grazie per il vostro aiuto!</p>
+</CvediNotice>
 
 ---
 layout: default
@@ -67,23 +63,23 @@ footer: "Lezioni"
 # Indice delle lezioni
 
 <div class="index-grid" aria-label="Capitoli delle lezioni">
-  <button type="button" class="btn btn-lg index-button index-course" @click="$nav.go('presentazione-corso')"><span class="index-chapter-number">01</span><span>Il corso</span></button>
-  <div class="join join-horizontal index-split" role="group" aria-label="Lezione 2, brief di progetto e approfondimenti individuali">
-    <button type="button" class="btn btn-lg join-item index-button index-chapter-1" @click="$nav.go('introduzione-teorica')"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></button>
-    <SlideAction to="brief-progetto" class="join-item" :show-arrow="false">Brief di progetto · WHAT IF? 2050</SlideAction>
-    <SlideAction to="approfondimenti" class="join-item" :show-arrow="false">Approfondimenti individuali · 20 tracce</SlideAction>
+  <SlideAction to="presentazione-corso" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Il corso</span></SlideAction>
+  <div class="join join-horizontal index-lesson-two" role="group" aria-label="Lezione 02 · Introduzione, brief e approfondimenti">
+    <SlideAction to="introduzione-teorica" class="join-item index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Introduzione a UX e UI</span></SlideAction>
+    <SlideAction to="brief-progetto" class="join-item index-button" :show-arrow="false"><span>Brief di progetto · WHAT IF? 2050</span></SlideAction>
+    <SlideAction to="approfondimenti" class="join-item index-button" :show-arrow="false"><span>Approfondimenti individuali · 20 tracce</span></SlideAction>
   </div>
+  <SlideAction to="storia-design" class="index-button index-lesson index-history" :show-arrow="false"><span class="index-chapter-number">03</span><span>Storia del design</span></SlideAction>
   <LocalOnly>
   <div class="index-ux-lessons" role="group" aria-label="Lezioni sul processo UX">
-    <SlideAction to="ricerca-inclusiva" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
-    <SlideAction to="percezione-gerarchia" :show-arrow="false"><span class="index-chapter-number">05</span><span>Percezione e gerarchia visiva</span></SlideAction>
-    <SlideAction to="colore" :show-arrow="false"><span class="index-chapter-number">06</span><span>Colore e significato</span></SlideAction>
-    <SlideAction to="tipografia-griglie" :show-arrow="false"><span class="index-chapter-number">07</span><span>Tipografia, griglie e interfacce</span></SlideAction>
-    <SlideAction to="prototipi-interfacce" :show-arrow="false"><span class="index-chapter-number">08</span><span>Prototipi e videogiochi</span></SlideAction>
-    <SlideAction to="test-implementazione" :show-arrow="false"><span class="index-chapter-number">09</span><span>Test e implementazione</span></SlideAction>
+    <SlideAction to="ricerca-inclusiva" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
+    <SlideAction to="percezione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Percezione e gerarchia visiva</span></SlideAction>
+    <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Colore e significato</span></SlideAction>
+    <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Tipografia, griglie e interfacce</span></SlideAction>
+    <SlideAction to="prototipi-interfacce" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Prototipi e videogiochi</span></SlideAction>
+    <SlideAction to="test-implementazione" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">09</span><span>Test e implementazione</span></SlideAction>
   </div>
   </LocalOnly>
-  <button type="button" class="btn btn-lg index-button index-chapter-2 index-history" @click="$nav.go('storia-design')"><span class="index-chapter-number">03</span><span>Storia del design</span></button>
 </div>
 
 ---
@@ -154,6 +150,17 @@ lessonNumber: 1
 <p>Obiettivi, metodo e calendario</p>
 
 ---
+layout: summary
+class: content-slide course-section reading-slide
+footer: "Il percorso"
+routeAlias: presentazione-corso-sintesi
+summaryStatement: "Il progetto mette in relazione comunicazione visiva, interazione ed esperienza delle persone."
+summarySupport: "Fondamenti, casi studio, revisioni e laboratorio collegano gli aspetti teorici alle scelte progettuali."
+---
+
+# Dalla teoria al progetto
+
+---
 layout: default
 class: content-slide objectives-slide course-section reading-slide
 footer: "Il percorso"
@@ -221,7 +228,7 @@ footer: "Laboratorio"
   <li><span>Cenni di <strong>Git</strong></span></li>
   <li><span>Cenni di <strong>JavaScript</strong> per i componenti di <s class="syllabus-retired">Bootstrap</s></span></li>
 </ul>
-<p class="aside">Per esercitarsi in autonomia: <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>.</p>
+<CvediNotice kind="explore"><p>Per esercitarsi in autonomia: <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>.</p></CvediNotice>
 
 ---
 layout: default
@@ -728,47 +735,39 @@ src: ./lezioni/00-approfondimenti.md
 ---
 
 ---
-layout: default
 src: ./lezioni/01-introduzione.md
 ---
 
 ---
-layout: default
 src: ./lezioni/03-storia-design.md
 ---
 
 ---
-layout: default
 src: ./lezioni/04-ricerca-inclusiva.md
 localOnly: true
 ---
 
 ---
-layout: default
 src: ./lezioni/05-percezione-gerarchia.md
 localOnly: true
 ---
 
 ---
-layout: default
 src: ./lezioni/06-colore.md
 localOnly: true
 ---
 
 ---
-layout: default
 src: ./lezioni/07-tipografia-griglie.md
 localOnly: true
 ---
 
 ---
-layout: default
 src: ./lezioni/08-prototipi-interfacce.md
 localOnly: true
 ---
 
 ---
-layout: default
 src: ./lezioni/09-test-implementazione.md
 localOnly: true
 ---

@@ -144,7 +144,7 @@ footer: "WHAT IF? · Spunti"
     <p>Un servizio che coordina <strong>piante, spazi e risorse</strong> per creare piccoli ecosistemi.</p>
   </CvediCard>
 </div>
-<p class="aside">Usate questi esempi come stimoli e sviluppate una <strong>proposta originale</strong>.</p>
+<CvediNotice kind="request"><p>Usate questi esempi come stimoli e sviluppate una <strong>proposta originale</strong>.</p></CvediNotice>
 
 ---
 layout: default
@@ -290,7 +290,7 @@ footer: "WHAT IF? · Ricerca e riferimenti"
     <p>Spiegate che cosa vi ispira e come lo adattereste al vostro concept.</p>
   </CvediCard>
 </div>
-<p class="aside">Una pagina A4 di analisi per ciascun caso: <strong>immagine ed osservazioni</strong>, con la fonte.</p>
+<CvediNotice kind="request"><p>Una pagina A4 di analisi per ciascun caso: <strong>immagine ed osservazioni</strong>, con la fonte.</p></CvediNotice>
 
 ---
 layout: default
@@ -315,7 +315,7 @@ footer: "WHAT IF? · Persone e contesto"
     <p>Quali dati è disposta a fornire? Che cosa vuole <strong>controllare o decidere</strong> personalmente?</p>
   </CvediCard>
 </div>
-<p class="aside">Distinguete <strong>osservazioni raccolte</strong>, ipotesi sui destinatari e scenari immaginati per il 2050.</p>
+<CvediNotice kind="request"><p>Distinguete <strong>osservazioni raccolte</strong>, ipotesi sui destinatari e scenari immaginati per il 2050.</p></CvediNotice>
 
 ---
 layout: default
@@ -340,7 +340,7 @@ footer: "WHAT IF? · Concept e moodboard"
     <p>Spiegate come le scelte comunicano il concept e favoriscono <strong>leggibilità e fiducia</strong>.</p>
   </CvediCard>
 </div>
-<p class="aside">La direzione può evolvere: conservate le versioni e annotate <strong>che cosa cambia e perché</strong>.</p>
+<CvediNotice kind="request"><p>La direzione può evolvere: conservate le versioni e annotate <strong>che cosa cambia e perché</strong>.</p></CvediNotice>
 
 ---
 layout: default
@@ -367,7 +367,7 @@ footer: "WHAT IF? · Architettura dell’informazione"
     { title: 'Supporto', detail: 'Informazioni e aiuto' },
   ]"
 />
-<p class="aside">Almeno <strong>3 schede complete</strong>: benefici, funzionamento, dati e condizioni. Indicate nella mappa i <strong>nomi dei file</strong>.</p>
+<CvediNotice kind="request"><p>Almeno <strong>3 schede complete</strong>: benefici, funzionamento, dati e condizioni. Indicate nella mappa i <strong>nomi dei file</strong>.</p></CvediNotice>
 
 ---
 layout: default
@@ -391,7 +391,7 @@ footer: "WHAT IF? · Wireframe e user flow"
     <p>Rappresentate nello storyboard <strong>contesto, azioni e risposte</strong> lungo il percorso.</p>
   </CvediCard>
 </div>
-<p class="aside">Confrontate i due formati: cambia la disposizione, resta riconoscibile <strong>lo stesso compito</strong>.</p>
+<CvediNotice kind="request"><p>Confrontate i due formati: cambia la disposizione, resta riconoscibile <strong>lo stesso compito</strong>.</p></CvediNotice>
 
 ---
 layout: default
@@ -416,7 +416,7 @@ footer: "WHAT IF? · Un compito completo"
     <p>Controllare il riepilogo, correggere le scelte e ricevere una <strong>conferma comprensibile</strong>.</p>
   </CvediCard>
 </div>
-<p class="aside">Se il servizio non è disponibile, proponete un’alternativa. Prima della conferma, consentite di <strong>correggere i dati</strong>.</p>
+<CvediNotice kind="request"><p>Se il servizio non è disponibile, proponete un’alternativa. Prima della conferma, consentite di <strong>correggere i dati</strong>.</p></CvediNotice>
 
 ---
 layout: default
@@ -441,7 +441,7 @@ footer: "WHAT IF? · Look & feel"
     <p>Applicate le regole ai wireframe e costruite i primi <strong>mockup ad alta fedeltà</strong>.</p>
   </CvediCard>
 </div>
-<p class="aside">L’identità dell’organizzazione deve restare riconoscibile in <strong>tutte le pagine e i formati</strong>.</p>
+<CvediNotice kind="request"><p>L’identità dell’organizzazione deve restare riconoscibile in <strong>tutte le pagine e i formati</strong>.</p></CvediNotice>
 
 ---
 layout: default
@@ -466,7 +466,7 @@ footer: "WHAT IF? · Mockup e verifica"
     <p>Documentate selezione, focus, errore, indisponibilità e <strong>conferma dell’azione</strong>.</p>
   </CvediCard>
 </div>
-<p class="aside">Provate i compiti principali con altre persone e usate ciò che osservate per <strong>migliorare il progetto</strong>.</p>
+<CvediNotice kind="request"><p>Provate i compiti principali con altre persone e usate ciò che osservate per <strong>migliorare il progetto</strong>.</p></CvediNotice>
 
 ---
 layout: default
@@ -493,7 +493,7 @@ footer: "WHAT IF? · Revisioni"
     <p>Pagine e stati significativi sui diversi dispositivi, con <strong>scelte ed evoluzione</strong> del progetto.</p>
   </CvediCard>
 </div>
-<p class="aside">Preparate <strong>un PDF per fase, massimo 10 MB</strong>. Revisioni con l’intero gruppo; date e modalità su eLearning.</p>
+<CvediNotice kind="request"><p>Preparate <strong>un PDF per fase, massimo 10 MB</strong>. Revisioni con l’intero gruppo; date e modalità su eLearning.</p></CvediNotice>
 
 ---
 layout: default
@@ -568,7 +568,7 @@ footer: "WHAT IF? · Design system finale"
     <p>Mostrate come i componenti costruiscono <strong>pagine e percorsi coerenti</strong> nei diversi formati.</p>
   </CvediCard>
 </div>
-<p class="aside">Nel PDF presentate le regole visive e d’uso. <strong>Il codice si consegna insieme al sito.</strong></p>
+<CvediNotice kind="request"><p>Nel PDF presentate le regole visive e d’uso. <strong>Il codice si consegna insieme al sito.</strong></p></CvediNotice>
 
 ---
 layout: default
@@ -594,7 +594,7 @@ footer: "WHAT IF? · Documentazione"
     <p>Esito delle revisioni e verifiche, decisioni finali e <strong>limiti della simulazione</strong>.</p>
   </CvediCard>
 </div>
-<p class="aside">Selezionate prove, schemi e confronti significativi. <strong>La documentazione spiega il percorso progettuale.</strong></p>
+<CvediNotice kind="request"><p>Selezionate prove, schemi e confronti significativi. <strong>La documentazione spiega il percorso progettuale.</strong></p></CvediNotice>
 
 ---
 layout: default
@@ -645,4 +645,4 @@ footer: "WHAT IF? · Controllo finale"
     <p>Leggete calendario, scadenze e modalità aggiornate. Per dubbi e chiarimenti, utilizzate il <strong>forum del corso</strong>.</p>
   </CvediCard>
 </div>
-<p class="aside">Presentate materiali leggibili e coerenti con la <strong>versione finale del progetto</strong>.</p>
+<CvediNotice kind="request"><p>Presentate materiali leggibili e coerenti con la <strong>versione finale del progetto</strong>.</p></CvediNotice>

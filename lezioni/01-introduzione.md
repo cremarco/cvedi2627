@@ -5,7 +5,7 @@ footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
 lessonNumber: 2
 lessonSlide: 1
-lessonMinutes: 1
+lessonMinutes: 0.5
 routeAlias: introduzione-teorica
 ---
 
@@ -15,11 +15,25 @@ routeAlias: introduzione-teorica
 <p>Design, comunicazione visiva ed esperienza utente</p>
 
 ---
+layout: summary
+class: content-slide introduction-section lesson-slide reading-slide
+footer: "Introduzione · Design e comunicazione"
+lesson: introduzione
+lessonSlide: 2
+lessonMinutes: 0.5
+routeAlias: introduzione-sintesi
+summaryStatement: "Il design collega scopo, forma e contesto alle esperienze delle persone."
+summarySupport: "UX, UI e usabilità aiutano a leggere le scelte progettuali; ricerca, prototipi e verifica danno loro un metodo."
+---
+
+# Dal design all’esperienza
+
+---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 1
 ---
 
@@ -36,7 +50,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 3
+lessonSlide: 4
 lessonMinutes: 1.5
 ---
 
@@ -53,7 +67,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide statement-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 4
+lessonSlide: 5
 lessonMinutes: 1.5
 ---
 
@@ -66,7 +80,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 5
+lessonSlide: 6
 lessonMinutes: 1.5
 ---
 
@@ -84,7 +98,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 6
+lessonSlide: 7
 lessonMinutes: 1.5
 ---
 
@@ -101,7 +115,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 7
+lessonSlide: 8
 lessonMinutes: 1.5
 ---
 
@@ -117,7 +131,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 8
+lessonSlide: 9
 lessonMinutes: 1.5
 ---
 
@@ -133,7 +147,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 9
+lessonSlide: 10
 lessonMinutes: 1.5
 ---
 
@@ -149,7 +163,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 10
+lessonSlide: 11
 lessonMinutes: 1.5
 ---
 
@@ -166,7 +180,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 11
+lessonSlide: 12
 lessonMinutes: 1.5
 ---
 
@@ -186,7 +200,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 12
+lessonSlide: 13
 lessonMinutes: 1.5
 ---
 
@@ -203,7 +217,7 @@ layout: default
 class: content-slide introduction-section lesson-slide lesson-activity reading-slide figure-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 13
+lessonSlide: 14
 lessonMinutes: 2
 ---
 
@@ -223,7 +237,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide statement-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 14
+lessonSlide: 15
 lessonMinutes: 1.25
 ---
 
@@ -236,7 +250,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 15
+lessonSlide: 16
 lessonMinutes: 1.5
 routeAlias: ux-immagini
 ---
@@ -249,14 +263,14 @@ routeAlias: ux-immagini
   <CvediCard title="Rappresentare"><p>Richiamare una funzione attraverso un segno riconoscibile.</p><p class="card-note">Un’icona del calendario suggerisce la scelta di una data.</p></CvediCard>
 </div>
 
-<p class="aside">La stessa immagine può svolgere più ruoli. Scegliamola in base al messaggio e al compito.</p>
+<CvediNotice kind="request"><p>La stessa immagine può svolgere più ruoli. Scegliamola in base al messaggio e al compito.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 16
+lessonSlide: 17
 lessonMinutes: 1.5
 ---
 
@@ -273,7 +287,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 17
+lessonSlide: 18
 lessonMinutes: 1.5
 routeAlias: ux-gerarchia
 ---
@@ -285,14 +299,14 @@ routeAlias: ux-gerarchia
   <LessonFigure src="/images/generated/theme-2026/figures/intro-hierarchy-priority-v3.webp" caption="B · Una priorità riconoscibile" alt="Gli stessi contenuti della variante A; titolo e riepilogo sono in grassetto e l’azione Prenota la visita è evidenziata in ciano." />
 </div>
 
-<p class="aside">Esempi illustrativi non interattivi. Dove va lo sguardo? Quale azione emerge?</p>
+<CvediNotice kind="question"><p>Esempi illustrativi non interattivi. Dove va lo sguardo? Quale azione emerge?</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 18
+lessonSlide: 19
 lessonMinutes: 2.5
 ---
 
@@ -312,7 +326,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 19
+lessonSlide: 20
 lessonMinutes: 1.5
 ---
 
@@ -328,7 +342,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 20
+lessonSlide: 21
 lessonMinutes: 1.5
 ---
 
@@ -344,7 +358,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 21
+lessonSlide: 22
 lessonMinutes: 1.5
 ---
 
@@ -361,7 +375,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Design e comunicazione"
 lesson: introduzione
-lessonSlide: 22
+lessonSlide: 23
 lessonMinutes: 1.25
 ---
 
@@ -377,7 +391,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide statement-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 23
+lessonSlide: 24
 lessonMinutes: 1.5
 ---
 
@@ -390,20 +404,22 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 24
+lessonSlide: 25
 lessonMinutes: 2
 ---
 
 # L’esperienza attraversa il servizio
 
-<p class="lead">Per Viola, prenotare una visita è solo una parte dell’esperienza.</p><ol class="steps steps-horizontal lesson-steps"><li class="step step-primary" data-content="1">Scoprire<span>Il servizio risponde al bisogno?</span></li><li class="step step-primary" data-content="2">Prenotare<span>Capisco disponibilità e condizioni?</span></li><li class="step step-primary" data-content="3">Ricevere<span>Il servizio mantiene la promessa?</span></li></ol><p class="aside">Aspettative, uso e risultato contribuiscono al giudizio complessivo.</p>
+<p class="lead">Per Viola, prenotare una visita è solo una parte dell’esperienza.</p>
+<ProcessTimeline label="Momenti dell’esperienza del servizio" :steps="[{ title: 'Scoprire', detail: 'Il servizio risponde al bisogno?' }, { title: 'Prenotare', detail: 'Capisco disponibilità e condizioni?' }, { title: 'Ricevere', detail: 'Il servizio mantiene la promessa?' }]" />
+<p class="aside">Aspettative, uso e risultato contribuiscono al giudizio complessivo.</p>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 25
+lessonSlide: 26
 lessonMinutes: 1.5
 ---
 
@@ -420,7 +436,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 26
+lessonSlide: 27
 lessonMinutes: 1
 routeAlias: ux-interfacce-fisiche-vocali
 ---
@@ -431,14 +447,14 @@ routeAlias: ux-interfacce-fisiche-vocali
   <LessonFigure src="/images/introduzione/recuperi-2025/telefono-disco.jpg" alt="Telefono a disco con cornetta e selettore numerato" caption="Comandi fisici · scegliere un numero con un gesto" />
   <LessonFigure src="/images/introduzione/recuperi-2025/smart-speaker.jpg" alt="Smart speaker cilindrico con pulsanti e anello luminoso" caption="Voce e segnali · parlare, ascoltare, riconoscere uno stato" />
 </div>
-<p class="aside">Quali indizi aiutano a capire che cosa si può fare e se il comando è stato ricevuto?</p>
+<CvediNotice kind="question"><p>Quali indizi aiutano a capire che cosa si può fare e se il comando è stato ricevuto?</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 27
+lessonSlide: 28
 lessonMinutes: 1.5
 routeAlias: ux-ui-esperienza
 ---
@@ -455,7 +471,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 28
+lessonSlide: 29
 lessonMinutes: 1.5
 ---
 
@@ -472,7 +488,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 29
+lessonSlide: 30
 lessonMinutes: 1.25
 ---
 
@@ -492,7 +508,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 30
+lessonSlide: 31
 lessonMinutes: 1
 routeAlias: ux-indizi-comandi-esiti
 ---
@@ -516,14 +532,14 @@ routeAlias: ux-indizi-comandi-esiti
     <div class="interaction-example-figure"><LessonFigure src="/images/generated/theme-2026/figures/intro-example-feedback-v3.webp" alt="Una schermata mostra un segno di spunta, un calendario e il messaggio Prenotazione ricevuta." /></div>
   </CvediCard>
 </div>
-<p class="aside">Che cosa posso fare? Quale comando scelgo? Qual è il risultato?</p>
+<CvediNotice kind="question"><p>Che cosa posso fare? Quale comando scelgo? Qual è il risultato?</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 31
+lessonSlide: 32
 lessonMinutes: 0.5
 exampleId: scala-bordi
 ---
@@ -537,7 +553,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 32
+lessonSlide: 33
 lessonMinutes: 0.5
 exampleId: tappeto-scarpe
 ---
@@ -551,7 +567,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 33
+lessonSlide: 34
 lessonMinutes: 0.5
 exampleId: scala-moquette
 ---
@@ -565,7 +581,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 34
+lessonSlide: 35
 lessonMinutes: 0.5
 exampleId: scala-pattern
 ---
@@ -579,7 +595,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 35
+lessonSlide: 36
 lessonMinutes: 0.5
 exampleId: rampa-cancello
 ---
@@ -593,7 +609,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 36
+lessonSlide: 37
 lessonMinutes: 0.5
 exampleId: rampa-pilastro
 ---
@@ -607,7 +623,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 37
+lessonSlide: 38
 lessonMinutes: 0.5
 exampleId: rampa-gradini
 ---
@@ -621,7 +637,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 38
+lessonSlide: 39
 lessonMinutes: 0.5
 exampleId: scala-blu
 ---
@@ -635,7 +651,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 39
+lessonSlide: 40
 lessonMinutes: 0.5
 exampleId: scala-rossa
 ---
@@ -649,7 +665,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 40
+lessonSlide: 41
 lessonMinutes: 0.75
 exampleId: lidl-cassa
 ---
@@ -663,7 +679,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 41
+lessonSlide: 42
 lessonMinutes: 0.5
 exampleId: lidl-appoggio
 routeAlias: ux-cassa-appoggio
@@ -678,7 +694,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 42
+lessonSlide: 43
 lessonMinutes: 0.75
 exampleId: mouse-ricarica
 ---
@@ -692,7 +708,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 43
+lessonSlide: 44
 lessonMinutes: 0.75
 exampleId: fornelli-mapping
 routeAlias: ux-fornelli
@@ -707,7 +723,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 44
+lessonSlide: 45
 lessonMinutes: 0.75
 exampleId: biglietteria-tasti
 routeAlias: ux-biglietteria
@@ -722,7 +738,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 45
+lessonSlide: 46
 lessonMinutes: 0.75
 exampleId: oxo-pelapatate
 ---
@@ -736,7 +752,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide ux-examples-slide
 footer: "Introduzione · UX oltre lo schermo"
 lesson: introduzione
-lessonSlide: 46
+lessonSlide: 47
 lessonMinutes: 0.75
 exampleId: lego-separatore
 ---
@@ -750,7 +766,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 47
+lessonSlide: 48
 lessonMinutes: 1.5
 ---
 
@@ -766,7 +782,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 48
+lessonSlide: 49
 lessonMinutes: 1
 routeAlias: ux-promessa-attesa
 ---
@@ -777,14 +793,14 @@ routeAlias: ux-promessa-attesa
   <LessonFigure src="/images/introduzione/recuperi-2025/chat-promessa.jpg" alt="Invito della chat O2 con le scritte Advisor now e Chat now" caption="La promessa · parlare subito con un operatore" />
   <LessonFigure src="/images/introduzione/recuperi-2025/chat-attesa.jpg" alt="Chat O2 con messaggi ripetuti che invitano ad attendere perché gli operatori sono occupati" caption="Lo stato · messaggi di attesa ripetuti" />
 </div>
-<p class="aside">Durante l’attesa, quali informazioni e alternative aiuterebbero a decidere come proseguire?</p>
+<CvediNotice kind="question"><p>Durante l’attesa, quali informazioni e alternative aiuterebbero a decidere come proseguire?</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 49
+lessonSlide: 50
 lessonMinutes: 1.25
 ---
 
@@ -801,7 +817,7 @@ layout: default
 class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · UX, UI e usabilità"
 lesson: introduzione
-lessonSlide: 50
+lessonSlide: 51
 lessonMinutes: 4
 ---
 
@@ -811,14 +827,14 @@ lessonMinutes: 4
   <CvediCard title="A · Menu"><p>Cambiano le etichette e l’ordine dei controlli.</p></CvediCard>
   <CvediCard title="B · Prenotazione"><p>La persona non trova il pulsante per prenotare.</p></CvediCard>
   <CvediCard title="C · Servizio"><p>La visita ricevuta non rispetta le aspettative.</p></CvediCard>
-</div><p class="aside">Quale aspetto emerge in ogni caso? Spiegate anche come gli aspetti sono collegati.</p>
+</div><CvediNotice kind="question"><p>Quale aspetto emerge in ogni caso? Spiegate anche come gli aspetti sono collegati.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 51
+lessonSlide: 52
 lessonMinutes: 1.5
 ---
 
@@ -835,7 +851,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 52
+lessonSlide: 53
 lessonMinutes: 2
 ---
 
@@ -848,7 +864,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 53
+lessonSlide: 54
 lessonMinutes: 1.5
 ---
 
@@ -865,7 +881,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 54
+lessonSlide: 55
 lessonMinutes: 2.5
 ---
 
@@ -882,7 +898,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 55
+lessonSlide: 56
 lessonMinutes: 1.5
 routeAlias: ux-obiettivi
 ---
@@ -905,7 +921,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 56
+lessonSlide: 57
 lessonMinutes: 1
 routeAlias: ux-benchmark
 ---
@@ -918,14 +934,14 @@ routeAlias: ux-benchmark
   <CvediCard title="Alternativa indiretta"><p>Telefonare al centro per trovare un appuntamento.</p><p class="card-note">Stesso bisogno, soluzione diversa.</p></CvediCard>
   <CvediCard title="Riferimento analogico"><p>Un sistema di prenotazione dei ristoranti.</p><p class="card-note">Un’interazione utile da studiare.</p></CvediCard>
 </div>
-<p class="aside">Confronta ricerca, scelta dell’orario e chiarezza della conferma, con criteri espliciti.</p>
+<CvediNotice kind="request"><p>Confronta ricerca, scelta dell’orario e chiarezza della conferma, con criteri espliciti.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 57
+lessonSlide: 58
 lessonMinutes: 2.5
 ---
 
@@ -942,7 +958,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 58
+lessonSlide: 59
 lessonMinutes: 1.5
 routeAlias: ux-ricerca
 ---
@@ -955,14 +971,14 @@ routeAlias: ux-ricerca
   <CvediCard title="Sondaggi"><p>Raccogliere risposte comparabili su esperienze e difficoltà dichiarate.</p></CvediCard>
 </div>
 <p class="lead mt-6!">«Raccontami l’ultima volta che hai prenotato una visita.»</p>
-<p class="aside">Una domanda alla volta, senza suggerire la risposta. Approfondisci gli episodi concreti.</p>
+<CvediNotice kind="request"><p>Una domanda alla volta, senza suggerire la risposta. Approfondisci gli episodi concreti.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 59
+lessonSlide: 60
 lessonMinutes: 1.5
 ---
 
@@ -979,7 +995,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 60
+lessonSlide: 61
 lessonMinutes: 1
 routeAlias: ux-personas
 ---
@@ -992,14 +1008,14 @@ routeAlias: ux-personas
   <CvediCard title="Sintetizzare"><p>Orari rigidi, poco tempo e bisogno di ricevere il servizio a domicilio.</p></CvediCard>
   <CvediCard title="Progettare"><p>Rendere visibili disponibilità serali e condizioni della visita a casa.</p></CvediCard>
 </div>
-<p class="aside">Per ogni caratteristica del profilo, conserva il legame con la ricerca.</p>
+<CvediNotice kind="request"><p>Per ogni caratteristica del profilo, conserva il legame con la ricerca.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 61
+lessonSlide: 62
 lessonMinutes: 2.25
 ---
 
@@ -1015,7 +1031,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 62
+lessonSlide: 63
 lessonMinutes: 1.5
 routeAlias: ux-flow
 ---
@@ -1033,7 +1049,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 63
+lessonSlide: 64
 lessonMinutes: 1.25
 ---
 
@@ -1050,7 +1066,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 64
+lessonSlide: 65
 lessonMinutes: 1
 routeAlias: ux-priorita
 ---
@@ -1071,7 +1087,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 65
+lessonSlide: 66
 lessonMinutes: 1
 routeAlias: ux-concept
 ---
@@ -1090,7 +1106,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 66
+lessonSlide: 67
 lessonMinutes: 1.5
 routeAlias: ux-moodboard
 ---
@@ -1111,7 +1127,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 67
+lessonSlide: 68
 lessonMinutes: 2.25
 ---
 
@@ -1127,7 +1143,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 68
+lessonSlide: 69
 lessonMinutes: 1.5
 ---
 
@@ -1147,7 +1163,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide sequence-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 69
+lessonSlide: 70
 lessonMinutes: 1
 routeAlias: ux-wireframe-passaggi
 ---
@@ -1167,7 +1183,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 70
+lessonSlide: 71
 lessonMinutes: 1.5
 routeAlias: ux-test-elementi
 ---
@@ -1187,7 +1203,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 71
+lessonSlide: 72
 lessonMinutes: 1.5
 routeAlias: ux-test-compito
 ---
@@ -1206,7 +1222,7 @@ layout: default
 class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 72
+lessonSlide: 73
 lessonMinutes: 3
 ---
 
@@ -1223,7 +1239,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 73
+lessonSlide: 74
 lessonMinutes: 1
 routeAlias: ux-test-osservazioni
 ---
@@ -1243,7 +1259,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Processo UX"
 lesson: introduzione
-lessonSlide: 74
+lessonSlide: 75
 lessonMinutes: 1.5
 ---
 
@@ -1260,7 +1276,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide statement-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 75
+lessonSlide: 76
 lessonMinutes: 1.5
 ---
 
@@ -1273,20 +1289,21 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 76
+lessonSlide: 77
 lessonMinutes: 2.25
 ---
 
 # Cinque modalità del Design Thinking
 
-<ol class="steps steps-horizontal lesson-steps"><li class="step step-primary" data-content="1">Empathize<span>Comprendere</span></li><li class="step step-primary" data-content="2">Define<span>Mettere a fuoco</span></li><li class="step step-primary" data-content="3">Ideate<span>Esplorare</span></li><li class="step step-primary" data-content="4">Prototype<span>Rendere concreto</span></li><li class="step step-primary" data-content="5">Test<span>Apprendere</span></li></ol><p class="lead">Sono momenti collegati e ripetibili: le evidenze possono farci tornare indietro.</p>
+<ProcessTimeline label="Cinque modalità del Design Thinking" :steps="[{ title: 'Empathize', detail: 'Comprendere' }, { title: 'Define', detail: 'Mettere a fuoco' }, { title: 'Ideate', detail: 'Esplorare' }, { title: 'Prototype', detail: 'Rendere concreto' }, { title: 'Test', detail: 'Apprendere' }]" />
+<p class="lead">Sono momenti collegati e ripetibili: le evidenze possono farci tornare indietro.</p>
 
 ---
 layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 77
+lessonSlide: 78
 lessonMinutes: 2.25
 ---
 
@@ -1302,7 +1319,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 78
+lessonSlide: 79
 lessonMinutes: 1.5
 ---
 
@@ -1319,7 +1336,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 79
+lessonSlide: 80
 lessonMinutes: 1.5
 ---
 
@@ -1335,7 +1352,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide
 footer: "Introduzione · Design Thinking"
 lesson: introduzione
-lessonSlide: 80
+lessonSlide: 81
 lessonMinutes: 2
 ---
 
@@ -1348,7 +1365,7 @@ layout: default
 class: content-slide introduction-section lesson-slide reading-slide concept-slide
 footer: "Introduzione · Sintesi"
 lesson: introduzione
-lessonSlide: 81
+lessonSlide: 82
 lessonMinutes: 3.25
 ---
 
@@ -1365,7 +1382,7 @@ layout: default
 class: content-slide introduction-section lesson-slide lesson-activity reading-slide
 footer: "Introduzione · Sintesi"
 lesson: introduzione
-lessonSlide: 82
+lessonSlide: 83
 lessonMinutes: 6
 ---
 
@@ -1375,4 +1392,4 @@ lessonMinutes: 6
   <li><span>Indicate una scelta di <strong>forma</strong> e il bisogno a cui risponde.</span></li>
   <li><span>Spiegate la relazione fra <strong>UI, usabilità e UX</strong> usando un esempio.</span></li>
   <li><span>Proponete una <strong>verifica</strong> che potrebbe far cambiare la scelta.</span></li>
-</ul><p class="aside">Nelle prossime lezioni approfondiremo il processo e i suoi strumenti.</p>
+</ul><CvediNotice kind="explore"><p>Nelle prossime lezioni approfondiremo il processo e i suoi strumenti.</p></CvediNotice>

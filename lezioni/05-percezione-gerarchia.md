@@ -4,7 +4,7 @@ class: content-slide ux-process-lesson lesson-slide chapter-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
 lessonSlide: 1
-lessonMinutes: 1
+lessonMinutes: 0.5
 routeAlias: percezione-gerarchia
 lessonNumber: 5
 bookletPages: [59]
@@ -16,11 +16,26 @@ bookletPages: [59]
 <p class="lead">Gestalt, linguaggio visivo e composizione</p>
 
 ---
+layout: summary
+class: content-slide ux-process-lesson lesson-slide reading-slide
+footer: "Percezione e gerarchia visiva"
+lesson: percezione-gerarchia
+lessonSlide: 2
+lessonMinutes: 0.5
+routeAlias: percezione-gerarchia-sintesi
+summaryStatement: "Le relazioni tra gli elementi guidano ciò che vediamo e ciò che conta."
+summarySupport: "Forma, colore, immagine e spazio collaborano al messaggio; la gerarchia rende riconoscibili le priorità del contenuto e del compito."
+bookletPages: [59, 60, 61, 62, 63, 64]
+---
+
+# Dalla forma alla priorità
+
+---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-02
 bookletPages: [59, 60, 61, 62, 63, 64]
@@ -36,7 +51,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 3
+lessonSlide: 4
 lessonMinutes: 1.5
 routeAlias: percezione-gerarchia-03
 bookletPages: [59]
@@ -52,7 +67,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 4
+lessonSlide: 5
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-04
 bookletPages: [60, 61]
@@ -68,7 +83,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 5
+lessonSlide: 6
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-05
 bookletPages: [61, 62]
@@ -84,7 +99,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 6
+lessonSlide: 7
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-06
 bookletPages: [63, 64]
@@ -100,7 +115,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 7
+lessonSlide: 8
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-07
 bookletPages: [65]
@@ -116,7 +131,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 8
+lessonSlide: 9
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-08
 bookletPages: [65, 66]
@@ -134,7 +149,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 9
+lessonSlide: 10
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-09
 bookletPages: [67]
@@ -150,7 +165,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 10
+lessonSlide: 11
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-10
 bookletPages: [67, 68]
@@ -168,7 +183,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 11
+lessonSlide: 12
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-11
 bookletPages: [69]
@@ -184,7 +199,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 12
+lessonSlide: 13
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-12
 bookletPages: [69, 70]
@@ -202,7 +217,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 13
+lessonSlide: 14
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-13
 bookletPages: [71]
@@ -218,7 +233,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 14
+lessonSlide: 15
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-14
 bookletPages: [71, 72]
@@ -236,7 +251,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 15
+lessonSlide: 16
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-15
 bookletPages: [73]
@@ -252,7 +267,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 16
+lessonSlide: 17
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-16
 bookletPages: [73, 74]
@@ -270,7 +285,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 17
+lessonSlide: 18
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-17
 bookletPages: [75]
@@ -286,7 +301,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 18
+lessonSlide: 19
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-18
 bookletPages: [75, 76]
@@ -304,7 +319,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 19
+lessonSlide: 20
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-19
 bookletPages: [77]
@@ -320,7 +335,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 20
+lessonSlide: 21
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-20
 bookletPages: [77, 78]
@@ -338,7 +353,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 21
+lessonSlide: 22
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-21
 bookletPages: [79]
@@ -354,7 +369,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 22
+lessonSlide: 23
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-22
 bookletPages: [79, 80]
@@ -372,7 +387,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 23
+lessonSlide: 24
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-23
 bookletPages: [81, 82]
@@ -388,7 +403,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 24
+lessonSlide: 25
 lessonMinutes: 8
 routeAlias: percezione-gerarchia-24
 bookletPages: [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82]
@@ -405,7 +420,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 25
+lessonSlide: 26
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-25
 bookletPages: [83]
@@ -421,7 +436,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 26
+lessonSlide: 27
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-26
 bookletPages: [84]
@@ -439,7 +454,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 27
+lessonSlide: 28
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-27
 bookletPages: [85]
@@ -450,14 +465,14 @@ bookletAssets: ["c03-085-01", "c03-085-02"]
 
 <p class="lead">Orientamento, simmetria e ripetizione modificano il peso visivo delle forme.</p>
 <div class="lesson-columns"><LessonFigure src="/images/processo-ux/c03-085-01.webp" alt="Il triangolo come struttura geometrica nei marchi." caption="Il triangolo come struttura geometrica nei marchi." /><LessonFigure src="/images/processo-ux/c03-085-02.webp" alt="L’esagono come struttura geometrica nei marchi." caption="L’esagono come struttura geometrica nei marchi." /></div>
-<p class="aside">Un triangolo su un vertice può apparire meno stabile di uno appoggiato su un lato.</p>
+<CvediNotice kind="curiosity"><p>Un triangolo su un vertice può apparire meno stabile di uno appoggiato su un lato.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 28
+lessonSlide: 29
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-28
 bookletPages: [86]
@@ -473,7 +488,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 29
+lessonSlide: 30
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-29
 bookletPages: [87, 88]
@@ -489,7 +504,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 30
+lessonSlide: 31
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-30
 bookletPages: [89, 90]
@@ -505,7 +520,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 31
+lessonSlide: 32
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-31
 bookletPages: [91, 92]
@@ -521,7 +536,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 32
+lessonSlide: 33
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-32
 bookletPages: [93, 94]
@@ -537,7 +552,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 33
+lessonSlide: 34
 lessonMinutes: 1.5
 routeAlias: percezione-gerarchia-33
 bookletPages: [95, 96]
@@ -553,7 +568,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 34
+lessonSlide: 35
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-34
 bookletPages: [97, 98]
@@ -569,7 +584,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 35
+lessonSlide: 36
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-35
 bookletPages: [99, 100]
@@ -585,7 +600,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 36
+lessonSlide: 37
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-36
 bookletPages: [101, 102]
@@ -601,7 +616,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 37
+lessonSlide: 38
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-37
 bookletPages: [103, 104]
@@ -617,7 +632,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 38
+lessonSlide: 39
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-38
 bookletPages: [105, 106]
@@ -633,7 +648,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 39
+lessonSlide: 40
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-39
 bookletPages: [107, 108]
@@ -649,7 +664,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 40
+lessonSlide: 41
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-40
 bookletPages: [109, 110]
@@ -665,7 +680,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 41
+lessonSlide: 42
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-41
 bookletPages: [111, 112]
@@ -681,7 +696,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 42
+lessonSlide: 43
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-42
 bookletPages: [113, 114]
@@ -697,7 +712,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 43
+lessonSlide: 44
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-43
 bookletPages: [115, 116]
@@ -713,7 +728,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 44
+lessonSlide: 45
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-44
 bookletPages: [117, 118]
@@ -729,7 +744,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 45
+lessonSlide: 46
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-45
 bookletPages: [119, 120]
@@ -745,7 +760,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 46
+lessonSlide: 47
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-46
 bookletPages: [121, 122]
@@ -763,7 +778,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 47
+lessonSlide: 48
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-47
 bookletPages: [123, 124]
@@ -779,7 +794,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 48
+lessonSlide: 49
 lessonMinutes: 12
 routeAlias: percezione-gerarchia-48
 bookletPages: [95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124]
@@ -796,7 +811,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 49
+lessonSlide: 50
 lessonMinutes: 6
 routeAlias: percezione-gerarchia-49
 bookletPages: [95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124]
@@ -813,7 +828,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 50
+lessonSlide: 51
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-50
 bookletPages: [59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124]
@@ -829,7 +844,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Percezione e gerarchia visiva"
 lesson: percezione-gerarchia
-lessonSlide: 51
+lessonSlide: 52
 lessonMinutes: 2.0
 routeAlias: percezione-gerarchia-51
 bookletPages: [89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124]

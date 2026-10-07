@@ -1,6 +1,6 @@
 # Introduzione · Mappa delle fonti
 
-Il capitolo contiene 82 slide (71–152 del deck), per 120 minuti. È seguito dalla lezione 3, Storia del design (153–220); la chiusura è alla slide 221.
+Il capitolo contiene 83 slide (92–174 del deck), per 120 minuti. È seguito dalla lezione 3, Storia del design (175–242); la chiusura è alla slide 499 nell’anteprima locale (243 online).
 La guida è il [capitolo Introduzione del booklet](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=204-8291). I PDF 2025/26 sono in `../../materiali/lezioni/2025-2026/`.
 Le pagine PDF sono numerate da 1, compresa la prima pagina. Le pagine del booklet corrispondono ai frame C01 001–020.
 
@@ -12,88 +12,89 @@ Le pagine PDF sono numerate da 1, compresa la prima pagina. Le pagine del bookle
 
 | Capitolo / deck | Titolo | Booklet e nodo Figma | PDF o fonte dell’esempio | Relazione | Minuti |
 | --- | --- | --- | --- | --- | ---: |
-| 1 / 91 | Introduzione a UX e UI | [1](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1688), [2](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1699) | — | Booklet | 1 |
-| 2 / 92 | Cosa impareremo | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 29, 40, 52–53 | Tematica | 1 |
-| 3 / 93 | Quale oggetto vi ha messo in difficoltà? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 7–16, 22–23 | Tematica | 1.5 |
-| 4 / 94 | Design e società | [3](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1710), [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724) | — | Booklet | 1.5 |
-| 5 / 95 | Quattro funzioni del design | [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724) | L02: 82–105 | Tematica | 1.5 |
-| 6 / 96 | Comunicare significa orientare | [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724), [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772) | L02: 106–110 | Tematica | 1.5 |
-| 7 / 97 | Una forma può cambiare significato | [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724), [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755) | — | Booklet | 1.5 |
-| 8 / 98 | Progettare per uno scopo | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755) | L03: 26 | Tematica | 1.5 |
-| 9 / 99 | Oggetti che comunicano | [5](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1737) | — | Booklet | 1.5 |
-| 10 / 100 | Funzione, forma, vincoli | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L03: 26, 29 | Tematica | 1.5 |
-| 11 / 101 | Come riconoscere un buon design | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755) | — | Booklet | 1.5 |
-| 12 / 102 | La qualità dipende dal contesto | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 29 | Diretta | 1.5 |
-| 13 / 103 | Attività · Leggere una porta | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 6–7 | Tematica | 2 |
-| 14 / 104 | Comunicazione visiva | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772) | L02: 82, 106–110 | Tematica | 1.25 |
-| 15 / 105 | Che cosa deve fare un’immagine? | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [8](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1865) | L02: 41–44 | Tematica | 1.5 |
-| 16 / 106 | Condividere una lingua visiva | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [8](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1865), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L03: 30; L08: 126–129 | Tematica | 1.5 |
-| 17 / 107 | Stessi contenuti, priorità diverse | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [9](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1964) | L02: 106–107; principi di gerarchia pp. 39, 52 | Tematica | 1.5 |
-| 18 / 108 | Istruzioni che guidano l’azione | [8](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1865) | — | Booklet | 2.5 |
-| 19 / 109 | L’interfaccia rende possibile un dialogo | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [9](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1964) | L02: 80–82, 111–116 | Diretta | 1.5 |
-| 20 / 110 | La forma incontra il contesto | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L03: 29; L04: 8 | Diretta | 1.5 |
-| 21 / 111 | Dal bisogno alla risposta | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L04: 12, 37 | Diretta | 1.5 |
-| 22 / 112 | Dare coerenza agli elementi | [9](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1964), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L02: 111–116; L03: 40 | Tematica | 1.25 |
-| 23 / 113 | Che cos’è la User Experience? | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 3–5, 31 | Diretta | 1.5 |
-| 24 / 114 | L’esperienza attraversa il servizio | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889), [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L03: 31–32; L04: 53–54, 72–73 | Tematica | 2 |
-| 25 / 115 | La UI dà forma all’interazione | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 35, 40; L08: 24–25 | Diretta | 1.5 |
-| 26 / 116 | La UI si tocca, si vede, si ascolta | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 36–37 | Tematica | 1 |
-| 27 / 117 | La UI è parte della UX | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889), [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829) | L03: 34–40 | Diretta | 1.5 |
-| 28 / 118 | Usabilità: riuscire a fare | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 45–46; L08: 9–10 | Diretta | 1.5 |
-| 29 / 119 | La qualità dell’esperienza | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 31, 45–46 | Diretta | 1.25 |
-| 30 / 120 | Indizi, comandi, esiti | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L08: 14–27 | Tematica | 1 |
-| 31 / 121 | Dove finisce il pavimento? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 9 | Tematica | 0.5 |
-| 32 / 122 | Una decorazione, tanti indizi | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 9 | Tematica | 0.5 |
-| 33 / 123 | Il bordo deve farsi leggere | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 10 | Tematica | 0.5 |
-| 34 / 124 | Quando il pattern prende il sopravvento | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 10 | Tematica | 0.5 |
-| 35 / 125 | Il percorso è una sequenza | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 11 | Tematica | 0.5 |
-| 36 / 126 | Progettare anche il passaggio | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 11 | Tematica | 0.5 |
-| 37 / 127 | Un accesso va seguito fino in fondo | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 11 | Tematica | 0.5 |
-| 38 / 128 | La luce come istruzione | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 12 | Tematica | 0.5 |
-| 39 / 129 | Forma, luce, orientamento | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 12 | Tematica | 0.5 |
-| 40 / 130 | Lidl · anche la cassa è un’interfaccia | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 13 | Tematica | 0.75 |
-| 41 / 131 | La cassa continua dopo il pagamento | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 13 e 17 | Tematica | 0.5 |
-| 42 / 132 | Ricaricare o continuare a lavorare? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 14 | Tematica | 0.75 |
-| 43 / 133 | Quale manopola accende quel fornello? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [Katie Sherwin · NN/G (2018)](https://www.nngroup.com/articles/natural-mappings/) | Tematica | 0.75 |
-| 44 / 134 | Premi 1, compare 6 | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [Katie Sherwin · NN/G (2018)](https://www.nngroup.com/articles/natural-mappings/) | Tematica | 0.75 |
-| 45 / 135 | OXO · progettare la presa | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [OXO](https://www.oxo.com/more-oxo/swivel-peeler-349.html) | Tematica | 0.75 |
-| 46 / 136 | LEGO · aiutare anche a smontare | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [LEGO · prodotto](https://www.lego.com/en-us/product/brick-separator-630), [istruzioni](https://www.lego.com/en-us/service/help-topics/article/lego-classic-brick-separator) | Tematica | 0.75 |
-| 47 / 137 | Un menu può ostacolare un compito | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 18–20, 45 | Tematica | 1.5 |
-| 48 / 138 | Quando l’attesa smentisce la promessa | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 20 | Tematica | 1 |
-| 49 / 139 | Che cosa fa lo UX designer? | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 26, 29, 32–33, 48 | Diretta | 1.25 |
-| 50 / 140 | Attività · UX, UI o usabilità? | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 40, 45–46; L06: 9 | Tematica | 4 |
-| 51 / 141 | Un processo, molte iterazioni | [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L03: 50–53 | Diretta | 1.5 |
-| 52 / 142 | Quattordici fasi, cinque nuclei | [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829), [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929), [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L04: 3–6; L05: 3–6; L06: 3–6 | Diretta | 2 |
-| 53 / 143 | Il caso: fisioterapisti e clienti | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 10, 12 | Diretta | 1.5 |
-| 54 / 144 | 1 · Impostare il progetto | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 8–14, 17–35 | Diretta | 2.5 |
-| 55 / 145 | Un obiettivo che possiamo verificare | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 15–22 | Tematica | 1.5 |
-| 56 / 146 | Confrontare alternative e riferimenti | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 26–29; esempi pp. 30–33 | Tematica | 1 |
-| 57 / 147 | 2 · Comprendere problemi e persone | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 37, 41–43, 50–59 | Diretta | 2.5 |
-| 58 / 148 | La domanda guida il metodo | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 40–49 | Tematica | 1.5 |
-| 59 / 149 | Viola: dal profilo al bisogno | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 51–54, 59 | Diretta | 1.5 |
-| 60 / 150 | Dalle evidenze alle personas | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 51–63; esempi pp. 64–69 | Tematica | 1 |
-| 61 / 151 | 3 · Organizzare l’esperienza | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 54, 71–75 | Diretta | 2.25 |
-| 62 / 152 | Dal viaggio alle decisioni nel sistema | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 54, pp. 72–74 | Tematica | 1.5 |
-| 63 / 153 | Condividere ciò che il prodotto deve fare | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 76 | Diretta | 1.25 |
-| 64 / 154 | Concordare le priorità: MoSCoW | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 81–88, in particolare pp. 87–88 | Tematica | 1 |
-| 65 / 155 | Il concept orienta le scelte | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929), [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L04: 90–99 | Tematica | 1 |
-| 66 / 156 | La moodboard rende visibile un’atmosfera | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929), [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L04: 102–109; figura p. 105 | Tematica | 1.5 |
-| 67 / 157 | 4 · Strutturare il sistema | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 9, 11–12 | Diretta | 2.25 |
-| 68 / 158 | Il wireframe organizza la schermata | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 19–26 | Diretta | 1.5 |
-| 69 / 159 | Dal foglio ai controlli | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 21–25; scopo del wireframe pp. 19–20 | Tematica | 1 |
-| 70 / 160 | Un test moderato ha tre elementi | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L08: 42–44, 52–60 e 86 | Tematica | 1.5 |
-| 71 / 161 | Un obiettivo, senza suggerire il percorso | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L08: 56–58, 72–77; L04: 51–54, 59 | Tematica | 1.5 |
-| 72 / 162 | 5 · Verificare con un prototipo | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L06: 8–9; L08: 44, 48–49 | Diretta | 3 |
-| 73 / 163 | Dall’osservazione alla prossima verifica | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L06: 9; L08: 79–84 | Tematica | 1 |
-| 74 / 164 | Correggere, dare forma, verificare ancora | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L06: 8–13; L08: 49 | Diretta | 1.5 |
-| 75 / 165 | Design Thinking: una cornice di lavoro | [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947), [17](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1799), [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | — | Booklet | 1.5 |
-| 76 / 166 | Cinque modalità del Design Thinking | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | — | Booklet | 2.25 |
-| 77 / 167 | Empathize e Define | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L04: 37, 41–43, 53 | Tematica | 2.25 |
-| 78 / 168 | Ideate: esplorare prima di scegliere | [17](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1799), [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | L04: 12, 14 | Tematica | 1.5 |
-| 79 / 169 | Prototype e Test: imparare facendo | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | L06: 8–9; L08: 44, 48–49 | Tematica | 1.5 |
-| 80 / 170 | UX e Design Thinking si incontrano | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 52–53; L08: 49 | Tematica | 2 |
-| 81 / 171 | Tre idee da portare con voi | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889), [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829), [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 26, 40, 45–46, 52–53; L06: 9 | Tematica | 3.25 |
-| 82 / 172 | Verifica finale · Spiegare una scelta | [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 29, 40, 45–46, 53 | Tematica | 6 |
+| 1 / 92 | Introduzione a UX e UI | [1](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1688), [2](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1699) | — | Booklet | 0.5 |
+| 2 / 93 | Dal design all’esperienza | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 29, 40, 52–53 | Tematica | 0.5 |
+| 3 / 94 | Cosa impareremo | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 29, 40, 52–53 | Tematica | 1 |
+| 4 / 95 | Quale oggetto vi ha messo in difficoltà? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 7–16, 22–23 | Tematica | 1.5 |
+| 5 / 96 | Design e società | [3](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1710), [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724) | — | Booklet | 1.5 |
+| 6 / 97 | Quattro funzioni del design | [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724) | L02: 82–105 | Tematica | 1.5 |
+| 7 / 98 | Comunicare significa orientare | [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724), [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772) | L02: 106–110 | Tematica | 1.5 |
+| 8 / 99 | Una forma può cambiare significato | [4](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1724), [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755) | — | Booklet | 1.5 |
+| 9 / 100 | Progettare per uno scopo | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755) | L03: 26 | Tematica | 1.5 |
+| 10 / 101 | Oggetti che comunicano | [5](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1737) | — | Booklet | 1.5 |
+| 11 / 102 | Funzione, forma, vincoli | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L03: 26, 29 | Tematica | 1.5 |
+| 12 / 103 | Come riconoscere un buon design | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755) | — | Booklet | 1.5 |
+| 13 / 104 | La qualità dipende dal contesto | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 29 | Diretta | 1.5 |
+| 14 / 105 | Attività · Leggere una porta | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 6–7 | Tematica | 2 |
+| 15 / 106 | Comunicazione visiva | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772) | L02: 82, 106–110 | Tematica | 1.25 |
+| 16 / 107 | Che cosa deve fare un’immagine? | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [8](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1865) | L02: 41–44 | Tematica | 1.5 |
+| 17 / 108 | Condividere una lingua visiva | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [8](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1865), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L03: 30; L08: 126–129 | Tematica | 1.5 |
+| 18 / 109 | Stessi contenuti, priorità diverse | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [9](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1964) | L02: 106–107; principi di gerarchia pp. 39, 52 | Tematica | 1.5 |
+| 19 / 110 | Istruzioni che guidano l’azione | [8](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1865) | — | Booklet | 2.5 |
+| 20 / 111 | L’interfaccia rende possibile un dialogo | [7](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1772), [9](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1964) | L02: 80–82, 111–116 | Diretta | 1.5 |
+| 21 / 112 | La forma incontra il contesto | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L03: 29; L04: 8 | Diretta | 1.5 |
+| 22 / 113 | Dal bisogno alla risposta | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980) | L04: 12, 37 | Diretta | 1.5 |
+| 23 / 114 | Dare coerenza agli elementi | [9](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1964), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L02: 111–116; L03: 40 | Tematica | 1.25 |
+| 24 / 115 | Che cos’è la User Experience? | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 3–5, 31 | Diretta | 1.5 |
+| 25 / 116 | L’esperienza attraversa il servizio | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889), [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L03: 31–32; L04: 53–54, 72–73 | Tematica | 2 |
+| 26 / 117 | La UI dà forma all’interazione | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 35, 40; L08: 24–25 | Diretta | 1.5 |
+| 27 / 118 | La UI si tocca, si vede, si ascolta | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 36–37 | Tematica | 1 |
+| 28 / 119 | La UI è parte della UX | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889), [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829) | L03: 34–40 | Diretta | 1.5 |
+| 29 / 120 | Usabilità: riuscire a fare | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 45–46; L08: 9–10 | Diretta | 1.5 |
+| 30 / 121 | La qualità dell’esperienza | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 31, 45–46 | Diretta | 1.25 |
+| 31 / 122 | Indizi, comandi, esiti | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L08: 14–27 | Tematica | 1 |
+| 32 / 123 | Dove finisce il pavimento? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 9 | Tematica | 0.5 |
+| 33 / 124 | Una decorazione, tanti indizi | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 9 | Tematica | 0.5 |
+| 34 / 125 | Il bordo deve farsi leggere | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 10 | Tematica | 0.5 |
+| 35 / 126 | Quando il pattern prende il sopravvento | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 10 | Tematica | 0.5 |
+| 36 / 127 | Il percorso è una sequenza | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 11 | Tematica | 0.5 |
+| 37 / 128 | Progettare anche il passaggio | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 11 | Tematica | 0.5 |
+| 38 / 129 | Un accesso va seguito fino in fondo | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 11 | Tematica | 0.5 |
+| 39 / 130 | La luce come istruzione | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 12 | Tematica | 0.5 |
+| 40 / 131 | Forma, luce, orientamento | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 12 | Tematica | 0.5 |
+| 41 / 132 | Lidl · anche la cassa è un’interfaccia | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 13 | Tematica | 0.75 |
+| 42 / 133 | La cassa continua dopo il pagamento | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 13 e 17 | Tematica | 0.5 |
+| 43 / 134 | Ricaricare o continuare a lavorare? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | L03: 14 | Tematica | 0.75 |
+| 44 / 135 | Quale manopola accende quel fornello? | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [Katie Sherwin · NN/G (2018)](https://www.nngroup.com/articles/natural-mappings/) | Tematica | 0.75 |
+| 45 / 136 | Premi 1, compare 6 | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [Katie Sherwin · NN/G (2018)](https://www.nngroup.com/articles/natural-mappings/) | Tematica | 0.75 |
+| 46 / 137 | OXO · progettare la presa | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [OXO](https://www.oxo.com/more-oxo/swivel-peeler-349.html) | Tematica | 0.75 |
+| 47 / 138 | LEGO · aiutare anche a smontare | [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785) | [LEGO · prodotto](https://www.lego.com/en-us/product/brick-separator-630), [istruzioni](https://www.lego.com/en-us/service/help-topics/article/lego-classic-brick-separator) | Tematica | 0.75 |
+| 48 / 139 | Un menu può ostacolare un compito | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 18–20, 45 | Tematica | 1.5 |
+| 49 / 140 | Quando l’attesa smentisce la promessa | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 20 | Tematica | 1 |
+| 50 / 141 | Che cosa fa lo UX designer? | [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 26, 29, 32–33, 48 | Diretta | 1.25 |
+| 51 / 142 | Attività · UX, UI o usabilità? | [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889) | L03: 40, 45–46; L06: 9 | Tematica | 4 |
+| 52 / 143 | Un processo, molte iterazioni | [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L03: 50–53 | Diretta | 1.5 |
+| 53 / 144 | Quattordici fasi, cinque nuclei | [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829), [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929), [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L04: 3–6; L05: 3–6; L06: 3–6 | Diretta | 2 |
+| 54 / 145 | Il caso: fisioterapisti e clienti | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 10, 12 | Diretta | 1.5 |
+| 55 / 146 | 1 · Impostare il progetto | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 8–14, 17–35 | Diretta | 2.5 |
+| 56 / 147 | Un obiettivo che possiamo verificare | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 15–22 | Tematica | 1.5 |
+| 57 / 148 | Confrontare alternative e riferimenti | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 26–29; esempi pp. 30–33 | Tematica | 1 |
+| 58 / 149 | 2 · Comprendere problemi e persone | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 37, 41–43, 50–59 | Diretta | 2.5 |
+| 59 / 150 | La domanda guida il metodo | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 40–49 | Tematica | 1.5 |
+| 60 / 151 | Viola: dal profilo al bisogno | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 51–54, 59 | Diretta | 1.5 |
+| 61 / 152 | Dalle evidenze alle personas | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 51–63; esempi pp. 64–69 | Tematica | 1 |
+| 62 / 153 | 3 · Organizzare l’esperienza | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 54, 71–75 | Diretta | 2.25 |
+| 63 / 154 | Dal viaggio alle decisioni nel sistema | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 54, pp. 72–74 | Tematica | 1.5 |
+| 64 / 155 | Condividere ciò che il prodotto deve fare | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 76 | Diretta | 1.25 |
+| 65 / 156 | Concordare le priorità: MoSCoW | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L04: 81–88, in particolare pp. 87–88 | Tematica | 1 |
+| 66 / 157 | Il concept orienta le scelte | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929), [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L04: 90–99 | Tematica | 1 |
+| 67 / 158 | La moodboard rende visibile un’atmosfera | [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929), [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L04: 102–109; figura p. 105 | Tematica | 1.5 |
+| 68 / 159 | 4 · Strutturare il sistema | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 9, 11–12 | Diretta | 2.25 |
+| 69 / 160 | Il wireframe organizza la schermata | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 19–26 | Diretta | 1.5 |
+| 70 / 161 | Dal foglio ai controlli | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L05: 21–25; scopo del wireframe pp. 19–20 | Tematica | 1 |
+| 71 / 162 | Un test moderato ha tre elementi | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L08: 42–44, 52–60 e 86 | Tematica | 1.5 |
+| 72 / 163 | Un obiettivo, senza suggerire il percorso | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [14](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1929) | L08: 56–58, 72–77; L04: 51–54, 59 | Tematica | 1.5 |
+| 73 / 164 | 5 · Verificare con un prototipo | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845) | L06: 8–9; L08: 44, 48–49 | Diretta | 3 |
+| 74 / 165 | Dall’osservazione alla prossima verifica | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L06: 9; L08: 79–84 | Tematica | 1 |
+| 75 / 166 | Correggere, dare forma, verificare ancora | [15](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1845), [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947) | L06: 8–13; L08: 49 | Diretta | 1.5 |
+| 76 / 167 | Design Thinking: una cornice di lavoro | [16](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1947), [17](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1799), [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | — | Booklet | 1.5 |
+| 77 / 168 | Cinque modalità del Design Thinking | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | — | Booklet | 2.25 |
+| 78 / 169 | Empathize e Define | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L04: 37, 41–43, 53 | Tematica | 2.25 |
+| 79 / 170 | Ideate: esplorare prima di scegliere | [17](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1799), [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | L04: 12, 14 | Tematica | 1.5 |
+| 80 / 171 | Prototype e Test: imparare facendo | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910) | L06: 8–9; L08: 44, 48–49 | Tematica | 1.5 |
+| 81 / 172 | UX e Design Thinking si incontrano | [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 52–53; L08: 49 | Tematica | 2 |
+| 82 / 173 | Tre idee da portare con voi | [6](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1755), [10](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1980), [11](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1785), [12](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1889), [13](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1829), [18](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1910), [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 26, 40, 45–46, 52–53; L06: 9 | Tematica | 3.25 |
+| 83 / 174 | Verifica finale · Spiegare una scelta | [19](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1813) | L03: 29, 40, 45–46, 53 | Tematica | 6 |
 
 ## Asset recuperati
 
@@ -101,27 +102,27 @@ Gli asset sono salvati in `public/images/introduzione/`. Le versioni WebP sono e
 
 | File | Origine | Uso |
 | --- | --- | --- |
-| munari-forchette.webp | Booklet p. 4, immagine `I198:1734;3:133` | Slide 7 / 74 |
-| moneta-atene.webp | Booklet p. 5, immagine `I198:1748;3:132` | Slide 9 / 76 |
-| charles-eames.webp | Booklet p. 6, immagine `I198:1767;3:132` | Slide 8 / 75 |
-| ikea-istruzioni-original.png | Raster originale del Booklet p. 8, immagine `I198:1874;3:133`, 2048 × 1508 px; copia integrale senza ritaglio, ribaltamento o deformazione del riempimento Figma | Slide 18 / 85 |
-| interfacce.webp | Booklet p. 9, immagine `I198:1972;3:133` | Slide 19 / 86 |
-| design-system.webp | Booklet p. 9, immagine `I198:1973;3:133` | Slide 22 / 89 |
-| porte.webp | L03 p. 7, prima immagine | Slide 13 / 80 |
-| scala.webp | L03 p. 9, seconda immagine | Riferimento della precedente revisione; sostituito dai JPEG originali nelle slide 31–46 / 98–113 |
-| menu-paesi.webp | L03 p. 18, seconda immagine | Slide 47 / 114 |
-| customer-journey.webp | L04 p. 74, prima immagine | Originale conservato come riferimento della slide 61 / 128 |
-| ../generated/theme-2026/figures/intro-customer-journey-v1.webp | Rielaborazione illustrativa generata con imagegen a partire da L04 p. 74; cinque fasi in italiano. Prompt e riferimenti nel manifest corrente `assets/theme-imagegen/manifest-v1.json` | Slide 61 / 128 |
-| architettura-informazione.webp | L05 p. 11, prima immagine | Slide 67 / 134 |
-| wireframe.webp | L05 p. 26, prima immagine | Slide 68 / 135 |
-| recuperi-2025/lidl-appoggio.jpg | L03 p. 17, immagine 0 originale senza ritaglio o ricampionamento | Slide 41 / 108 |
-| recuperi-2025/chat-promessa.jpg | L03 p. 20, immagine 0 originale senza ritaglio o ricampionamento | Slide 48 / 115 |
-| recuperi-2025/chat-attesa.jpg | L03 p. 20, immagine 1 originale senza ritaglio o ricampionamento | Slide 48 / 115 |
-| recuperi-2025/telefono-disco.jpg | L03 p. 36, immagine 0 originale senza ritaglio o ricampionamento | Slide 26 / 93 |
-| recuperi-2025/smart-speaker.jpg | L03 p. 37, immagine 0 originale senza ritaglio o ricampionamento | Slide 26 / 93 |
-| recuperi-2025/moodboard-bobo.png | L04 p. 105, immagine 1 decodificata con PDFium in scala nativa e maschera alfa | Slide 66 / 133 |
+| munari-forchette.webp | Booklet p. 4, immagine `I198:1734;3:133` | Slide 8 / 99 |
+| moneta-atene.webp | Booklet p. 5, immagine `I198:1748;3:132` | Slide 10 / 101 |
+| charles-eames.webp | Booklet p. 6, immagine `I198:1767;3:132` | Slide 9 / 100 |
+| ikea-istruzioni-original.png | Raster originale del Booklet p. 8, immagine `I198:1874;3:133`, 2048 × 1508 px; copia integrale senza ritaglio, ribaltamento o deformazione del riempimento Figma | Slide 19 / 110 |
+| interfacce.webp | Booklet p. 9, immagine `I198:1972;3:133` | Slide 20 / 111 |
+| design-system.webp | Booklet p. 9, immagine `I198:1973;3:133` | Slide 23 / 114 |
+| porte.webp | L03 p. 7, prima immagine | Slide 14 / 105 |
+| scala.webp | L03 p. 9, seconda immagine | Riferimento della precedente revisione; sostituito dai JPEG originali nelle slide 32–47 / 123–138 |
+| menu-paesi.webp | L03 p. 18, seconda immagine | Slide 48 / 139 |
+| customer-journey.webp | L04 p. 74, prima immagine | Originale conservato come riferimento della Slide 62 / 153 |
+| ../generated/theme-2026/figures/intro-customer-journey-v1.webp | Rielaborazione illustrativa generata con imagegen a partire da L04 p. 74; cinque fasi in italiano. Prompt e riferimenti nel manifest corrente `assets/theme-imagegen/manifest-v1.json` | Slide 62 / 153 |
+| architettura-informazione.webp | L05 p. 11, prima immagine | Slide 68 / 159 |
+| wireframe.webp | L05 p. 26, prima immagine | Slide 69 / 160 |
+| recuperi-2025/lidl-appoggio.jpg | L03 p. 17, immagine 0 originale senza ritaglio o ricampionamento | Slide 42 / 133 |
+| recuperi-2025/chat-promessa.jpg | L03 p. 20, immagine 0 originale senza ritaglio o ricampionamento | Slide 49 / 140 |
+| recuperi-2025/chat-attesa.jpg | L03 p. 20, immagine 1 originale senza ritaglio o ricampionamento | Slide 49 / 140 |
+| recuperi-2025/telefono-disco.jpg | L03 p. 36, immagine 0 originale senza ritaglio o ricampionamento | Slide 27 / 118 |
+| recuperi-2025/smart-speaker.jpg | L03 p. 37, immagine 0 originale senza ritaglio o ricampionamento | Slide 27 / 118 |
+| recuperi-2025/moodboard-bobo.png | L04 p. 105, immagine 1 decodificata con PDFium in scala nativa e maschera alfa | Slide 67 / 158 |
 
-I diagrammi UX/UI e dei processi sono ridisegnati come elementi accessibili con i token del deck. Conservano le relazioni concettuali delle fonti. La customer journey della slide 128 raggruppa le nove microfasi dell’originale in cinque fasi: preparare, cercare, scegliere, pagare e confermare. Mantiene la matrice di azioni, punti di contatto e pensieri, la curva qualitativa delle emozioni e le opportunità; i testi sono sintetizzati in italiano e lo stile riprende petrolio, arancio e illustrazioni in carta della presentazione. Journey e sitemap sono esempi generali: non rappresentano risultati di ricerca sull’app dei fisioterapisti.
+I diagrammi UX/UI e dei processi sono ridisegnati come elementi accessibili con i token del deck. Conservano le relazioni concettuali delle fonti. La customer journey della slide 153 raggruppa le nove microfasi dell’originale in cinque fasi: preparare, cercare, scegliere, pagare e confermare. Mantiene la matrice di azioni, punti di contatto e pensieri, la curva qualitativa delle emozioni e le opportunità; i testi sono sintetizzati in italiano e lo stile riprende petrolio, arancio e illustrazioni in carta della presentazione. Journey e sitemap sono esempi generali: non rappresentano risultati di ricerca sull’app dei fisioterapisti.
 
 ## Recuperi dal materiale 2025/26
 
@@ -158,7 +159,7 @@ Visual design e composizione, Gestalt, teoria del colore, tipografia applicata, 
 
 I tempi includono discussione e restituzione; le note del relatore specificano obiettivi, risposte attese e cautele interpretative. I valori frazionari sono minuti: 0.5 = 30 secondi, 0.75 = 45 secondi, 1.5 = 90 secondi e 2.5 = 150 secondi.
 
-### Esempi di UX oltre lo schermo — slide 31–46 / 98–113
+### Esempi di UX oltre lo schermo — slide 32–47 / 123–138
 
 Dodici JPEG originali della lezione 03, pp. 9–14 e 17, estratti senza ritagli o ricampionamento: scale, tappeto, rampe, cassa Lidl e mouse in ricarica. Esclusi i loghi e la copia duplicata della scala con moquette. Le osservazioni proposte sono domande didattiche; le fotografie restano datate al materiale 2025/26. Ogni esempio occupa una slide autonoma con il proprio titolo, fotografia, descrizione e domanda, tramite `UxExampleSlide` e il suo `example-id`; la navigazione è quella nativa di Slidev. La sequenza dura 9,5 minuti: 30 secondi per le nove fotografie iniziali e per la cassa dopo il pagamento; 45 secondi per gli altri sei esempi. I riferimenti al booklet indicano la cornice concettuale; la colonna della fonte identifica la fotografia o il prodotto effettivamente mostrato.
 

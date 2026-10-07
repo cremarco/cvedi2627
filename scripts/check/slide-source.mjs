@@ -34,8 +34,22 @@ export async function checkSlideSources() {
   const uxLessonIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const addedUxSlides = curriculum.lessons.reduce((sum, lesson) => sum + lesson.slideCount, 0)
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
-  assert.equal(total, 220 + addedSlides + addedUxSlides, 'resolved deck includes the topics and six new UX lessons')
-  assert.equal(lesson.length, 82, 'introduction: 82 slides')
+
+  const summaryLessonIds = ['presentazione-corso', 'introduzione', 'storia-design', ...curriculum.lessons.map(spec => spec.id)]
+  const summaries = deck.slides.filter(slide => slide.frontmatter.layout === 'summary')
+  assert.equal(summaries.length, summaryLessonIds.length, 'one opening summary for each numbered lesson')
+  for (const id of summaryLessonIds) {
+    const slides = deck.slides.filter(slide => (slide.frontmatter.lesson ?? 'presentazione-corso') === id)
+    const summary = slides[1]
+    assert.equal(slides.filter(slide => slide.frontmatter.layout === 'summary').length, 1, id + ': one summary')
+    assert.ok(String(slides[0].frontmatter.class).split(/\s+/).includes('chapter-slide'), id + ': chapter cover opens the lesson')
+    assert.equal(summary?.frontmatter.layout, 'summary', id + ': summary immediately follows the cover')
+    assert.ok(summary.frontmatter.summaryStatement?.trim(), id + ': summary statement is present')
+    assert.ok(summary.frontmatter.summarySupport?.trim(), id + ': summary support is present')
+    assert.match(summary.content.trim(), /^# [^\n]+$/, id + ': summary content remains one Markdown heading')
+  }
+  assert.equal(total, 222 + addedSlides + addedUxSlides, 'resolved deck includes the topics and six new UX lessons')
+  assert.equal(lesson.length, 83, 'introduction: 83 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
   assert.deepEqual(lesson.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: lesson.length }, (_, i) => i + 1), 'lesson sequence')
@@ -60,9 +74,9 @@ export async function checkSlideSources() {
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 68, 'history: 68 slides')
-  assert.equal(visibleDeck.slides.length, 491, 'all teaching chapters are available locally')
+  assert.equal(visibleDeck.slides.length, 499, 'all teaching chapters are available locally')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
-  assert.equal(course.length, 39, 'course presentation: 39 slides, including closing')
+  assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
   assert.equal(course[0].frontmatter.routeAlias, 'presentazione-corso', 'course alias opens its first slide')
   assert.deepEqual(deck.slides.filter(slide => slide.frontmatter.lesson === 'apertura').map(slide => slide.index),
@@ -195,7 +209,7 @@ export async function checkSlideSources() {
   ]
   assert.equal(brief.length, 25, 'standalone project brief: twenty-five slides')
   assert.deepEqual(brief.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: 25 }, (_, i) => i + 1), 'project brief lesson sequence')
-  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 44 + i), 'project brief: consecutive slides 45–69')
+  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 45 + i), 'project brief: consecutive slides 46–70')
   assert.deepEqual(brief.map(slide => slide.frontmatter.routeAlias), briefAliases, 'project brief: stable aliases in lesson order')
   assert.equal(deck.slides[brief[0].index - 1].title, 'Contatti', 'course contacts precede project brief')
   assert.equal(brief.at(-1).index + 1, approfondimenti[0].index, 'topic section immediately follows project brief')
@@ -265,12 +279,21 @@ export async function checkSlideSources() {
   const generations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-v1.json'), 'utf8'))
   const cardGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-cards-v2.json'), 'utf8'))
   const outlineGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-outline-v3.json'), 'utf8'))
+  const chapterGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-chapters-v1.json'), 'utf8'))
+  const chapterArtwork = { ...JSON.parse(await readFile(path.join(root, 'data/chapter-artwork.json'), 'utf8')), ...JSON.parse(await readFile(path.join(root, 'data/chapter-artwork-local.json'), 'utf8')) }
+  assert.equal(chapterGenerations.jobs.length, 13, 'all thirteen generated chapter illustrations are retained')
+  assert.equal(Object.keys(chapterArtwork).length, chapterGenerations.jobs.length, 'all retained chapter illustrations are catalogued')
+  for (const job of chapterGenerations.jobs) {
+    assert.equal(chapterArtwork[job.id], '/' + job.web.replace(/^public\//, ''), `${job.id}: chapter image is registered`)
+    assert.equal(job.visualReview.status, 'accepted', `${job.id}: chapter image visually reviewed`)
+    assert.ok(job.publicationEncoding.pixelPreserved && job.publicationEncoding.alphaPreserved, `${job.id}: chapter image keeps RGBA pixels`)
+  }
   assert.equal(outlineGenerations.jobs.length, outlineGenerations.counts.images, 'complete outline restyling inventory')
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
   assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length, 'only refreshed motifs populate the card catalog')
-  for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline]) {
+  for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
     const publicImage = await readFile(path.join(root, generation.web))

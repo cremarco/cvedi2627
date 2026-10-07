@@ -4,7 +4,7 @@ class: content-slide ux-process-lesson lesson-slide chapter-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
 lessonSlide: 1
-lessonMinutes: 1
+lessonMinutes: 0.5
 routeAlias: tipografia-griglie
 lessonNumber: 7
 bookletPages: [157]
@@ -16,11 +16,26 @@ bookletPages: [157]
 <p class="lead">Dalla leggibilità alla struttura responsive</p>
 
 ---
+layout: summary
+class: content-slide ux-process-lesson lesson-slide reading-slide
+footer: "Tipografia, griglie e interfacce"
+lesson: tipografia-griglie
+lessonSlide: 2
+lessonMinutes: 0.5
+routeAlias: tipografia-griglie-sintesi
+summaryStatement: "Testo, spazio e gerarchia guidano la lettura e l’azione."
+summarySupport: "Tipografia, griglie e componenti collegano leggibilità, identità e comportamento nei diversi formati."
+bookletPages: [157, 158]
+---
+
+# Dal testo alla struttura
+
+---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-02
 bookletPages: [157, 158]
@@ -36,7 +51,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 3
+lessonSlide: 4
 lessonMinutes: 1.5
 routeAlias: tipografia-griglie-03
 bookletPages: [157]
@@ -52,7 +67,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 4
+lessonSlide: 5
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-04
 bookletPages: [158]
@@ -68,7 +83,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 5
+lessonSlide: 6
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-05
 bookletPages: [159]
@@ -84,7 +99,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 6
+lessonSlide: 7
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-06
 bookletPages: [159, 160]
@@ -100,7 +115,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 7
+lessonSlide: 8
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-07
 bookletPages: [160]
@@ -116,7 +131,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 8
+lessonSlide: 9
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-08
 bookletPages: [161, 162]
@@ -132,7 +147,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 9
+lessonSlide: 10
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-09
 bookletPages: [163]
@@ -148,7 +163,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 10
+lessonSlide: 11
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-10
 bookletPages: [163, 164]
@@ -164,7 +179,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 11
+lessonSlide: 12
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-11
 bookletPages: [165]
@@ -180,7 +195,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 12
+lessonSlide: 13
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-12
 bookletPages: [165, 166]
@@ -196,7 +211,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 13
+lessonSlide: 14
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-13
 bookletPages: [167]
@@ -212,7 +227,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 14
+lessonSlide: 15
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-14
 bookletPages: [168]
@@ -228,7 +243,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 15
+lessonSlide: 16
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-15
 bookletPages: [169, 170]
@@ -244,7 +259,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 16
+lessonSlide: 17
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-16
 bookletPages: [171, 172]
@@ -260,7 +275,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 17
+lessonSlide: 18
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-17
 bookletPages: [173]
@@ -276,7 +291,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 18
+lessonSlide: 19
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-18
 bookletPages: [174]
@@ -292,7 +307,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 19
+lessonSlide: 20
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-19
 bookletPages: [175]
@@ -308,7 +323,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 20
+lessonSlide: 21
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-20
 bookletPages: [176]
@@ -324,7 +339,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 21
+lessonSlide: 22
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-21
 bookletPages: [177]
@@ -340,7 +355,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 22
+lessonSlide: 23
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-22
 bookletPages: [177, 178]
@@ -356,7 +371,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 23
+lessonSlide: 24
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-23
 bookletPages: [179]
@@ -372,7 +387,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 24
+lessonSlide: 25
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-24
 bookletPages: [180, 181]
@@ -388,7 +403,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 25
+lessonSlide: 26
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-25
 bookletPages: [182]
@@ -404,7 +419,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 26
+lessonSlide: 27
 lessonMinutes: 10
 routeAlias: tipografia-griglie-26
 bookletPages: [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182]
@@ -421,7 +436,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 27
+lessonSlide: 28
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-27
 bookletPages: [183, 184]
@@ -437,7 +452,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 28
+lessonSlide: 29
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-28
 bookletPages: [185]
@@ -453,7 +468,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 29
+lessonSlide: 30
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-29
 bookletPages: [186]
@@ -469,7 +484,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 30
+lessonSlide: 31
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-30
 bookletPages: [187, 188]
@@ -485,7 +500,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 31
+lessonSlide: 32
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-31
 bookletPages: [189]
@@ -501,7 +516,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 32
+lessonSlide: 33
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-32
 bookletPages: [189, 190]
@@ -517,7 +532,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 33
+lessonSlide: 34
 lessonMinutes: 1.5
 routeAlias: tipografia-griglie-33
 bookletPages: [191, 192]
@@ -533,7 +548,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 34
+lessonSlide: 35
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-34
 bookletPages: [193]
@@ -549,7 +564,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 35
+lessonSlide: 36
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-35
 bookletPages: [194]
@@ -565,7 +580,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 36
+lessonSlide: 37
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-36
 bookletPages: [195]
@@ -581,7 +596,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 37
+lessonSlide: 38
 lessonMinutes: 2.5
 routeAlias: tipografia-griglie-37
 bookletPages: [196]
@@ -597,7 +612,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 38
+lessonSlide: 39
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-38
 bookletPages: [197]
@@ -613,7 +628,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 39
+lessonSlide: 40
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-39
 bookletPages: [198]
@@ -629,7 +644,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 40
+lessonSlide: 41
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-40
 bookletPages: [199]
@@ -645,7 +660,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 41
+lessonSlide: 42
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-41
 bookletPages: [200]
@@ -661,7 +676,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 42
+lessonSlide: 43
 lessonMinutes: 12
 routeAlias: tipografia-griglie-42
 bookletPages: [183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]
@@ -678,7 +693,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 43
+lessonSlide: 44
 lessonMinutes: 6
 routeAlias: tipografia-griglie-43
 bookletPages: [183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]
@@ -695,7 +710,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 44
+lessonSlide: 45
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-44
 bookletPages: [157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]
@@ -711,7 +726,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia, griglie e interfacce"
 lesson: tipografia-griglie
-lessonSlide: 45
+lessonSlide: 46
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-45
 bookletPages: [157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]

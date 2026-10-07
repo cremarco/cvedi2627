@@ -8,6 +8,8 @@ import { loadSlideDeck } from './deck.mjs'
 // does not change which compositions are inspected.
 const deck = await loadSlideDeck()
 const fixtures = deck.slides.filter(slide => /\b(?:cover-slide|chapter-slide|closing-slide)\b/.test(slide.frontmatter.class ?? ''))
+const chapterCovers = fixtures.filter(slide => /\bchapter-slide\b/.test(slide.frontmatter.class ?? ''))
+assert.equal(chapterCovers.length, 13, 'all thirteen chapter openings remain present')
 const base = process.env.SLIDEV_URL || 'http://localhost:3035'
 const output = process.env.SLIDEV_SCREENSHOTS
 if (output) await mkdir(output, { recursive: true })
@@ -59,6 +61,8 @@ try {
           const rect = dot.getBoundingClientRect(), gap = 16 * scale
           if (text.some(text => rect.right + gap > text.left && rect.left - gap < text.right && rect.bottom + gap > text.top && rect.top - gap < text.bottom)) collisions.push({ station: true })
         }
+        const chapter = root.classList.contains('chapter-slide')
+        const images = root.querySelectorAll('img, svg image, .chapter-illustration').length
         const original = root.classList.contains('cover-slide')
         const band = original ? getComputedStyle(root, '::before') : null
         const bandTop = band ? box.top + parseFloat(band.top) * scale : 0
@@ -67,7 +71,7 @@ try {
           title: root.querySelector('h1').textContent.trim(),
           route: root.querySelector('[data-cover-route]')?.dataset.coverRoute ?? 'opening-map',
           signature: tracks.map(path => path.getAttribute('d')).join('|'),
-          collisions, overset, original,
+          collisions, overset, original, chapter, images,
           bandProtectsText: !original || text.every(rect => rect.top >= bandTop && rect.bottom <= bandBottom),
           bandColor: band?.backgroundColor,
           offsets: [...root.querySelectorAll('.metro-route-reveal, .closing-metro-reveal')].map(path => getComputedStyle(path).strokeDashoffset),
@@ -81,6 +85,7 @@ try {
       })
       assert.deepEqual(report.collisions, [], `${mode}/${report.title}: routes leave 16px clear around text`)
       assert.deepEqual(report.overset, [], `${mode}/${report.title}: all text fits the canvas`)
+      assert.equal(report.images, 0, `${mode}/${report.title}: covers use typography and metro without images`)
       assert.ok(report.bandProtectsText, 'the opening band protects every line of text and attribution')
       assert.ok(report.offsets.length && report.offsets.every(offset => offset === '0px'), `${mode}/${report.title}: complete static paths`)
       assert.ok(report.stationsVisible, `${mode}/${report.title}: static stations visible`)
@@ -98,7 +103,7 @@ try {
   }
   assert.deepEqual(errors, [])
   if (output) await writeFile(`${output}/covers.json`, JSON.stringify(reports, null, 2))
-  console.log(JSON.stringify({ status: 'passed', covers: fixtures.length, renders: reports.length, textClearance: '16px beyond the stroke', pageErrors: errors }, null, 2))
+  console.log(JSON.stringify({ status: 'passed', covers: fixtures.length, chapterCovers: chapterCovers.length, coverImages: 0, renders: reports.length, textClearance: '16px beyond the stroke', pageErrors: errors }, null, 2))
 } finally {
   await browser.close()
 }

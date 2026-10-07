@@ -4,7 +4,7 @@ class: content-slide ux-process-lesson lesson-slide chapter-slide
 footer: "Colore e significato"
 lesson: colore
 lessonSlide: 1
-lessonMinutes: 1
+lessonMinutes: 0.5
 routeAlias: colore
 lessonNumber: 6
 bookletPages: [125]
@@ -16,11 +16,26 @@ bookletPages: [125]
 <p class="lead">Relazioni cromatiche, contesto e accessibilità</p>
 
 ---
+layout: summary
+class: content-slide ux-process-lesson lesson-slide reading-slide
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 2
+lessonMinutes: 0.5
+routeAlias: colore-sintesi
+summaryStatement: "Il colore costruisce relazioni, comunica ruoli e rende riconoscibili le priorità."
+summarySupport: "Contesto, accostamenti e contrasto guidano una palette coerente e leggibile, senza affidarsi al solo colore."
+bookletPages: [125, 126]
+---
+
+# Dal colore alla funzione
+
+---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 2.5
 routeAlias: colore-02
 bookletPages: [125, 126]
@@ -36,7 +51,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 3
+lessonSlide: 4
 lessonMinutes: 2.0
 routeAlias: colore-03
 bookletPages: [125]
@@ -52,7 +67,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 4
+lessonSlide: 5
 lessonMinutes: 3.5
 routeAlias: colore-04
 bookletPages: [126]
@@ -68,7 +83,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 5
+lessonSlide: 6
 lessonMinutes: 3.5
 routeAlias: colore-05
 bookletPages: [127]
@@ -84,7 +99,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 6
+lessonSlide: 7
 lessonMinutes: 3.5
 routeAlias: colore-06
 bookletPages: [128]
@@ -100,7 +115,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 7
+lessonSlide: 8
 lessonMinutes: 3.5
 routeAlias: colore-07
 bookletPages: [129]
@@ -116,7 +131,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 8
+lessonSlide: 9
 lessonMinutes: 3.5
 routeAlias: colore-08
 bookletPages: [130]
@@ -132,7 +147,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 9
+lessonSlide: 10
 lessonMinutes: 3.5
 routeAlias: colore-09
 bookletPages: [131]
@@ -148,7 +163,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 10
+lessonSlide: 11
 lessonMinutes: 3.5
 routeAlias: colore-10
 bookletPages: [132]
@@ -164,7 +179,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 11
+lessonSlide: 12
 lessonMinutes: 3.5
 routeAlias: colore-11
 bookletPages: [133]
@@ -180,7 +195,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 12
+lessonSlide: 13
 lessonMinutes: 3.5
 routeAlias: colore-12
 bookletPages: [134]
@@ -196,7 +211,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 13
+lessonSlide: 14
 lessonMinutes: 3.5
 routeAlias: colore-13
 bookletPages: [135]
@@ -212,7 +227,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 14
+lessonSlide: 15
 lessonMinutes: 3.5
 routeAlias: colore-14
 bookletPages: [136]
@@ -228,7 +243,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 15
+lessonSlide: 16
 lessonMinutes: 2.5
 routeAlias: colore-15
 bookletPages: [137, 138]
@@ -244,7 +259,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 16
+lessonSlide: 17
 lessonMinutes: 3.5
 routeAlias: colore-16
 bookletPages: [139, 140]
@@ -260,7 +275,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 17
+lessonSlide: 18
 lessonMinutes: 2.0
 routeAlias: colore-17
 bookletPages: [140]
@@ -276,7 +291,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 18
+lessonSlide: 19
 lessonMinutes: 3.5
 routeAlias: colore-18
 bookletPages: [141, 142]
@@ -292,7 +307,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 19
+lessonSlide: 20
 lessonMinutes: 3.5
 routeAlias: colore-19
 bookletPages: [143, 144]
@@ -308,7 +323,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 20
+lessonSlide: 21
 lessonMinutes: 3.5
 routeAlias: colore-20
 bookletPages: [145, 146]
@@ -324,7 +339,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 21
+lessonSlide: 22
 lessonMinutes: 3.5
 routeAlias: colore-21
 bookletPages: [147, 148]
@@ -340,7 +355,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 22
+lessonSlide: 23
 lessonMinutes: 3.5
 routeAlias: colore-22
 bookletPages: [149, 150]
@@ -356,7 +371,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 23
+lessonSlide: 24
 lessonMinutes: 8
 routeAlias: colore-23
 bookletPages: [141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
@@ -373,7 +388,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 24
+lessonSlide: 25
 lessonMinutes: 3.5
 routeAlias: colore-24
 bookletPages: [151]
@@ -389,7 +404,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 25
+lessonSlide: 26
 lessonMinutes: 3.5
 routeAlias: colore-25
 bookletPages: [152]
@@ -405,7 +420,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 26
+lessonSlide: 27
 lessonMinutes: 3.5
 routeAlias: colore-26
 bookletPages: [153]
@@ -421,7 +436,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 27
+lessonSlide: 28
 lessonMinutes: 3.0
 routeAlias: colore-27
 bookletPages: [154]
@@ -437,7 +452,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 28
+lessonSlide: 29
 lessonMinutes: 3.0
 routeAlias: colore-28
 bookletPages: [155, 156]
@@ -453,7 +468,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 29
+lessonSlide: 30
 lessonMinutes: 15
 routeAlias: colore-29
 bookletPages: [125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156]
@@ -470,7 +485,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 30
+lessonSlide: 31
 lessonMinutes: 6
 routeAlias: colore-30
 bookletPages: [151, 152, 153, 154, 155, 156]
@@ -487,7 +502,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 31
+lessonSlide: 32
 lessonMinutes: 2.5
 routeAlias: colore-31
 bookletPages: [125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156]
@@ -503,7 +518,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 32
+lessonSlide: 33
 lessonMinutes: 2.5
 routeAlias: colore-32
 bookletPages: [151, 152, 153, 154, 155, 156]

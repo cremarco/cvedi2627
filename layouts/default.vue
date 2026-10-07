@@ -27,7 +27,7 @@ const lessonNumber = computed(() => {
     <slot />
     <footer class="slide-footer">
       <span v-if="footer" class="slide-label">{{ footer }}</span>
-      <span class="slide-index" :aria-label="`Slide ${pagination.page} di ${pagination.total}`">
+      <span v-if="!classes.has('cover-slide')" class="slide-index" :aria-label="`Slide ${pagination.page} di ${pagination.total}`">
         {{ String(pagination.page).padStart(2, '0') }} / {{ pagination.total }}
       </span>
     </footer>

@@ -71,11 +71,11 @@
 }
 
 /* Process timelines retain their single finite journey. */
-.process-slide.motion-enabled .metro-train {
+.motion-enabled .cvedi-metro-timeline .metro-train {
   animation: cvedi-metro-journey var(--cvedi-motion-metro) linear both;
 }
-.process-slide.motion-enabled .metro-station::after {
-  animation: cvedi-metro-arrival 200ms var(--cvedi-ease-out) calc(120ms + var(--station-order, 0) * 160ms) both;
+.motion-enabled .cvedi-metro-timeline .metro-station::after {
+  animation: cvedi-metro-arrival 200ms var(--cvedi-ease-out) var(--station-arrival-delay, 0ms) both;
 }
 @keyframes cvedi-metro-journey {
   0% { stroke-dashoffset: .1; opacity: 0; }

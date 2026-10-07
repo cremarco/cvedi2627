@@ -4,7 +4,7 @@ class: content-slide ux-process-lesson lesson-slide chapter-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
 lessonSlide: 1
-lessonMinutes: 1
+lessonMinutes: 0.5
 routeAlias: ricerca-inclusiva
 lessonNumber: 4
 bookletPages: [1]
@@ -16,11 +16,26 @@ bookletPages: [1]
 <p class="lead">Dalle persone al problema progettuale</p>
 
 ---
+layout: summary
+class: content-slide ux-process-lesson lesson-slide reading-slide
+footer: "Ricerca, contesto e inclusione"
+lesson: ricerca-inclusiva
+lessonSlide: 2
+lessonMinutes: 0.5
+routeAlias: ricerca-inclusiva-sintesi
+summaryStatement: "Prima della soluzione, comprendiamo persone, contesti e barriere."
+summarySupport: "La ricerca collega evidenze, bisogni e requisiti; l’inclusione riconosce capacità e modi d’uso differenti fin dall’inizio."
+bookletPages: [1, 2, 3, 4]
+---
+
+# Dalle persone al problema
+
+---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-02
 bookletPages: [1, 2, 3, 4]
@@ -36,7 +51,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 3
+lessonSlide: 4
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-03
 bookletPages: [1, 2, 3, 4]
@@ -52,7 +67,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 4
+lessonSlide: 5
 lessonMinutes: 1.5
 routeAlias: ricerca-inclusiva-04
 bookletPages: [3, 4]
@@ -68,7 +83,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 5
+lessonSlide: 6
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-05
 bookletPages: [5]
@@ -84,7 +99,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 6
+lessonSlide: 7
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-06
 bookletPages: [6]
@@ -100,7 +115,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 7
+lessonSlide: 8
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-07
 bookletPages: [6]
@@ -116,7 +131,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 8
+lessonSlide: 9
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-08
 bookletPages: [7]
@@ -132,7 +147,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 9
+lessonSlide: 10
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-09
 bookletPages: [7]
@@ -148,7 +163,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 10
+lessonSlide: 11
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-10
 bookletPages: [8]
@@ -164,7 +179,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 11
+lessonSlide: 12
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-11
 bookletPages: [9, 10]
@@ -180,7 +195,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 12
+lessonSlide: 13
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-12
 bookletPages: [11, 12]
@@ -198,7 +213,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 13
+lessonSlide: 14
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-13
 bookletPages: [13, 14]
@@ -214,7 +229,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 14
+lessonSlide: 15
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-14
 bookletPages: [15, 16]
@@ -232,7 +247,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 15
+lessonSlide: 16
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-15
 bookletPages: [17, 18]
@@ -248,7 +263,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 16
+lessonSlide: 17
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-16
 bookletPages: [19, 20]
@@ -266,7 +281,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 17
+lessonSlide: 18
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-17
 bookletPages: [21, 22]
@@ -282,7 +297,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 18
+lessonSlide: 19
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-18
 bookletPages: [23, 24]
@@ -300,7 +315,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 19
+lessonSlide: 20
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-19
 bookletPages: [25, 26]
@@ -316,7 +331,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 20
+lessonSlide: 21
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-20
 bookletPages: [27, 28]
@@ -327,14 +342,14 @@ bookletAssets: ["c03-027-01", "c03-028-01"]
 
 <p class="lead">Le schermate Kinder per Cina e Stati Uniti mettono in evidenza contenuti differenti.</p>
 <div class="lesson-columns"><LessonFigure src="/images/processo-ux/c03-027-01.webp" alt="Homepage di Kinder per il mercato cinese." caption="Homepage di Kinder per il mercato cinese." /><LessonFigure src="/images/processo-ux/c03-028-01.webp" alt="Homepage di Kinder per il mercato statunitense." caption="Homepage di Kinder per il mercato statunitense." /></div>
-<p class="aside">Leggi le campagne mostrate nel loro contesto, senza dedurne tutte le preferenze del pubblico.</p>
+<CvediNotice kind="request"><p>Leggi le campagne mostrate nel loro contesto, senza dedurne tutte le preferenze del pubblico.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 21
+lessonSlide: 22
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-21
 bookletPages: [29, 30]
@@ -350,7 +365,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 22
+lessonSlide: 23
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-22
 bookletPages: [31, 32]
@@ -361,14 +376,14 @@ bookletAssets: ["c03-032-01", "c03-032-02"]
 
 <p class="lead">Cina: mosaico ricco di contenuti. Paesi Bassi: selezione più contenuta e spazio alle immagini.</p>
 <div class="lesson-columns"><LessonFigure src="/images/processo-ux/c03-032-01.webp" alt="Homepage di McDonald’s in Cina." caption="Homepage di McDonald’s in Cina." /><LessonFigure src="/images/processo-ux/c03-032-02.webp" alt="Homepage di McDonald’s nei Paesi Bassi." caption="Homepage di McDonald’s nei Paesi Bassi." /></div>
-<p class="aside">Per capire l’efficacia, osserva come le persone trovano informazioni e svolgono compiti.</p>
+<CvediNotice kind="request"><p>Per capire l’efficacia, osserva come le persone trovano informazioni e svolgono compiti.</p></CvediNotice>
 
 ---
 layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 23
+lessonSlide: 24
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-23
 bookletPages: [33, 34]
@@ -386,7 +401,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 24
+lessonSlide: 25
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-24
 bookletPages: [35, 36]
@@ -404,7 +419,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 25
+lessonSlide: 26
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-25
 bookletPages: [37, 38]
@@ -422,7 +437,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 26
+lessonSlide: 27
 lessonMinutes: 2.5
 routeAlias: ricerca-inclusiva-26
 bookletPages: [39, 40]
@@ -440,7 +455,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 27
+lessonSlide: 28
 lessonMinutes: 8
 routeAlias: ricerca-inclusiva-27
 bookletPages: [8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40]
@@ -457,7 +472,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 28
+lessonSlide: 29
 lessonMinutes: 1.5
 routeAlias: ricerca-inclusiva-28
 bookletPages: [41, 42]
@@ -473,7 +488,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 29
+lessonSlide: 30
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-29
 bookletPages: [43]
@@ -489,7 +504,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 30
+lessonSlide: 31
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-30
 bookletPages: [43, 44]
@@ -505,7 +520,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 31
+lessonSlide: 32
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-31
 bookletPages: [45, 46]
@@ -521,7 +536,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 32
+lessonSlide: 33
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-32
 bookletPages: [47]
@@ -537,7 +552,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 33
+lessonSlide: 34
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-33
 bookletPages: [47, 48]
@@ -553,7 +568,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 34
+lessonSlide: 35
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-34
 bookletPages: [47]
@@ -569,7 +584,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 35
+lessonSlide: 36
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-35
 bookletPages: [49]
@@ -585,7 +600,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 36
+lessonSlide: 37
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-36
 bookletPages: [49, 50]
@@ -601,7 +616,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 37
+lessonSlide: 38
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-37
 bookletPages: [51]
@@ -617,7 +632,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 38
+lessonSlide: 39
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-38
 bookletPages: [52]
@@ -633,7 +648,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 39
+lessonSlide: 40
 lessonMinutes: 1.5
 routeAlias: ricerca-inclusiva-39
 bookletPages: [53]
@@ -649,7 +664,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 40
+lessonSlide: 41
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-40
 bookletPages: [54]
@@ -665,7 +680,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 41
+lessonSlide: 42
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-41
 bookletPages: [55]
@@ -681,7 +696,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 42
+lessonSlide: 43
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-42
 bookletPages: [57]
@@ -697,7 +712,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 43
+lessonSlide: 44
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-43
 bookletPages: [56, 57]
@@ -713,7 +728,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 44
+lessonSlide: 45
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-44
 bookletPages: [58]
@@ -731,7 +746,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 45
+lessonSlide: 46
 lessonMinutes: 12
 routeAlias: ricerca-inclusiva-45
 bookletPages: [53, 54, 55, 56, 57, 58]
@@ -748,7 +763,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 46
+lessonSlide: 47
 lessonMinutes: 6
 routeAlias: ricerca-inclusiva-46
 bookletPages: [53, 54, 55, 56, 57, 58]
@@ -765,7 +780,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 47
+lessonSlide: 48
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-47
 bookletPages: [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58]
@@ -781,7 +796,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Ricerca, contesto e inclusione"
 lesson: ricerca-inclusiva
-lessonSlide: 48
+lessonSlide: 49
 lessonMinutes: 2.0
 routeAlias: ricerca-inclusiva-48
 bookletPages: [53, 54, 55, 56, 57, 58, 59]

@@ -2,47 +2,48 @@
 
 Fonte: [Booklet CVeDI · C03 Processo UX](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2008-1741). Tavole 235–260; contenuti visibili estratti il 7 ottobre 2026.
 
-37 slide, 120 minuti. Testi adattati per la presentazione; esempi, qualificazioni e figure conservano il riferimento al booklet. Le attività sono adattamenti didattici.
+38 slide, 120 minuti. Testi adattati per la presentazione; esempi, qualificazioni e figure conservano il riferimento al booklet. Le attività sono adattamenti didattici.
 
 | Slide | Titolo | Tavole C03 | Minuti |
 | --- | --- | --- | --- |
-| 1 | Test e implementazione | 235 | 1 |
-| 2 | Cosa impareremo | 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260 | 3.0 |
-| 3 | Usabilità nel contesto | 235 | 3.0 |
-| 4 | Osservare risultati e comportamenti | 236 | 3.0 |
-| 5 | Testare lungo il processo | 236, 237 | 2.0 |
-| 6 | Valutazione euristica e test con utenti | 238 | 3.0 |
-| 7 | Quattro scelte indipendenti | 238 | 3.5 |
-| 8 | Focus group e test di usabilità | 239 | 3.0 |
-| 9 | Il team conosce troppo il proprio prodotto | 239, 240 | 2.5 |
-| 10 | Il modello operativo di Steve Krug | 241, 242 | 2.5 |
-| 11 | Quanti partecipanti servono? | 243 | 2.5 |
-| 12 | Reclutare persone pertinenti | 244 | 2.5 |
-| 13 | Preparare un contesto adeguato | 245 | 2.5 |
-| 14 | Il ruolo del facilitatore | 245 | 2.5 |
-| 15 | Il ruolo degli osservatori | 246 | 2.5 |
-| 16 | Che cosa testare e quando | 247 | 2.5 |
-| 17 | Una consegna orientata al compito | 248 | 2.5 |
-| 18 | Verificare il protocollo | 248 | 2.5 |
-| 19 | Una sessione, passo per passo | 249, 250 | 3.5 |
-| 20 | Tre problemi da riconoscere | 251 | 2.5 |
-| 21 | Il piano di un test | 252 | 3.5 |
-| 22 | Preparare un test sul prototipo | 244, 245, 246, 247, 248, 249, 250, 251, 252 | 10 |
-| 23 | Osservare una sessione didattica | 245, 246, 247, 248, 249, 250, 251, 252 | 12 |
-| 24 | Dal test alle decisioni | 253 | 2.5 |
-| 25 | Dare priorità con criteri chiari | 253, 254 | 2.5 |
-| 26 | Fatto, interpretazione e decisione | 253 | 2.5 |
-| 27 | Debriefing e prossimo ciclo | 253, 254 | 8 |
-| 28 | Test da remoto | 255 | 2.5 |
-| 29 | Card sorting e tree testing | 256 | 2.5 |
-| 30 | Metodi diversi, domande diverse | 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256 | 3.5 |
-| 31 | Implementare continua il progetto | 257, 258 | 2.0 |
-| 32 | Verifiche durante lo sviluppo | 259 | 2.5 |
-| 33 | Sviluppo e sicurezza nel ciclo di vita | 259, 260 | 3.5 |
-| 34 | Misurare e migliorare dopo il rilascio | 259 | 2.5 |
-| 35 | Documentare la consegna | 258, 259, 260 | 2.5 |
-| 36 | Il percorso resta aperto | 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260 | 2.5 |
-| 37 | Un prossimo passo per il progetto | 253, 254, 255, 256, 257, 258, 259, 260 | 2.5 |
+| 1 | Test e implementazione | 235 | 0.5 |
+| 2 | Dall’uso al miglioramento | 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260 | 0.5 |
+| 3 | Cosa impareremo | 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260 | 3 |
+| 4 | Usabilità nel contesto | 235 | 3 |
+| 5 | Osservare risultati e comportamenti | 236 | 3 |
+| 6 | Testare lungo il processo | 236, 237 | 2 |
+| 7 | Valutazione euristica e test con utenti | 238 | 3 |
+| 8 | Quattro scelte indipendenti | 238 | 3.5 |
+| 9 | Focus group e test di usabilità | 239 | 3 |
+| 10 | Il team conosce troppo il proprio prodotto | 239, 240 | 2.5 |
+| 11 | Il modello operativo di Steve Krug | 241, 242 | 2.5 |
+| 12 | Quanti partecipanti servono? | 243 | 2.5 |
+| 13 | Reclutare persone pertinenti | 244 | 2.5 |
+| 14 | Preparare un contesto adeguato | 245 | 2.5 |
+| 15 | Il ruolo del facilitatore | 245 | 2.5 |
+| 16 | Il ruolo degli osservatori | 246 | 2.5 |
+| 17 | Che cosa testare e quando | 247 | 2.5 |
+| 18 | Una consegna orientata al compito | 248 | 2.5 |
+| 19 | Verificare il protocollo | 248 | 2.5 |
+| 20 | Una sessione, passo per passo | 249, 250 | 3.5 |
+| 21 | Tre problemi da riconoscere | 251 | 2.5 |
+| 22 | Il piano di un test | 252 | 3.5 |
+| 23 | Preparare un test sul prototipo | 244, 245, 246, 247, 248, 249, 250, 251, 252 | 10 |
+| 24 | Osservare una sessione didattica | 245, 246, 247, 248, 249, 250, 251, 252 | 12 |
+| 25 | Dal test alle decisioni | 253 | 2.5 |
+| 26 | Dare priorità con criteri chiari | 253, 254 | 2.5 |
+| 27 | Fatto, interpretazione e decisione | 253 | 2.5 |
+| 28 | Debriefing e prossimo ciclo | 253, 254 | 8 |
+| 29 | Test da remoto | 255 | 2.5 |
+| 30 | Card sorting e tree testing | 256 | 2.5 |
+| 31 | Metodi diversi, domande diverse | 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256 | 3.5 |
+| 32 | Implementare continua il progetto | 257, 258 | 2 |
+| 33 | Verifiche durante lo sviluppo | 259 | 2.5 |
+| 34 | Sviluppo e sicurezza nel ciclo di vita | 259, 260 | 3.5 |
+| 35 | Misurare e migliorare dopo il rilascio | 259 | 2.5 |
+| 36 | Documentare la consegna | 258, 259, 260 | 2.5 |
+| 37 | Il percorso resta aperto | 235, 236, 237, 238, 239, 240, 241, 242, 243, 244, 245, 246, 247, 248, 249, 250, 251, 252, 253, 254, 255, 256, 257, 258, 259, 260 | 2.5 |
+| 38 | Un prossimo passo per il progetto | 253, 254, 255, 256, 257, 258, 259, 260 | 2.5 |
 
 ## Crediti e riferimenti nel booklet
 

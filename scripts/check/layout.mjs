@@ -10,8 +10,8 @@ const reports = []
 try {
   const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'reduce' })
   const fixtures = deck.slides.filter(slide => (slide.content.match(/<CvediCard\b/g) || []).length > 1
-    || slide.content.includes('<LessonFigure') || slide.frontmatter.exampleId || slide.frontmatter.topicCode)
-  for (const slide of fixtures) {
+    || slide.content.includes('<ProcessTimeline') || slide.content.includes('<LessonFigure') || slide.frontmatter.exampleId || slide.frontmatter.topicCode)
+  async function inspectSlide(slide, mode = "desktop") {
     const root = await openSlide(page, base, slide.index + 1, { settle: true })
     const report = await root.evaluate(root => {
       const scale = root.getBoundingClientRect().width / 1280
@@ -61,8 +61,22 @@ try {
           copyFits: topic.querySelector('.topic-copy').getBoundingClientRect().bottom <= columns.getBoundingClientRect().bottom + 1,
         }
       }
-      return { rows, captions, readingOrder, formulaAlignment, cardMotifs }
+      const timelines = [...root.querySelectorAll('.cvedi-metro-timeline')].map(timeline => {
+        const canvas = root.getBoundingClientRect(), footer = root.querySelector('.slide-footer').getBoundingClientRect()
+        const boxes = [...timeline.querySelectorAll('.cvedi-process-timeline li')].map(li => li.getBoundingClientRect())
+        const circles = [...timeline.querySelectorAll('.metro-station')].map(el => el.getBoundingClientRect())
+        const copies = [...timeline.querySelectorAll('.timeline-end')].map(el => el.getBoundingClientRect())
+        return { count: circles.length, circles: circles.map(rect => ({ width: rect.width / scale, height: rect.height / scale, y: (rect.top + rect.bottom) / (2 * scale) })),
+          equalColumns: boxes.every(box => Math.abs(box.width - boxes[0].width) / scale < 1),
+          fits: copies.every((rect, i) => rect.left >= boxes[i].left - 1 && rect.right <= boxes[i].right + 1 && rect.top >= circles[i].bottom && rect.bottom <= footer.top - 12 * scale + 1 && rect.left >= canvas.left && rect.right <= canvas.right + 1),
+          label: timeline.querySelector('ul').getAttribute('aria-label') }
+      })
+      return { rows, captions, readingOrder, formulaAlignment, cardMotifs, timelines }
     })
+    for (const timeline of report.timelines) {
+      assert.ok(timeline.count >= 3 && timeline.count <= 5 && timeline.equalColumns && timeline.fits && timeline.label, `slide ${slide.index + 1}: timeline columns and copy fit`)
+      assert.ok(timeline.circles.every(circle => Math.abs(circle.width - 56) < 1 && Math.abs(circle.height - 56) < 1 && Math.abs(circle.y - timeline.circles[0].y) < 1), `slide ${slide.index + 1}: shared 56px station baseline`)
+    }
     for (const delta of report.rows) assert.ok(delta < 1, `slide ${slide.index + 1}: explanations start on a common row (${delta}px)`)
     for (const gap of report.captions) assert.ok(Math.abs(gap - 12) <= 2, `slide ${slide.index + 1}: caption follows actual image (${gap}px)`)
     for (const motif of report.cardMotifs) {
@@ -75,8 +89,19 @@ try {
       assert.ok(report.readingOrder.questionBeforeBody && report.readingOrder.resultAfterBody && report.readingOrder.copyFits, `slide ${slide.index + 1}: topic groups fit in reading order`)
       assert.deepEqual(report.readingOrder.dom, ['lead topic-question', 'lesson-columns', 'topic-output'])
     }
-    reports.push({ page: slide.index + 1, ...report })
+    reports.push({ page: slide.index + 1, mode, ...report })
   }
+  for (const slide of fixtures) await inspectSlide(slide)
+  const timelineFixtures = fixtures.filter(slide => slide.content.includes('<ProcessTimeline'))
+  for (const [mode, viewport, media] of [
+    ['narrow', { width: 636, height: 778 }, 'screen'],
+    ['print', { width: 1280, height: 720 }, 'print'],
+  ]) {
+    await page.setViewportSize(viewport)
+    await page.emulateMedia({ media })
+    for (const slide of timelineFixtures) await inspectSlide(slide, mode)
+  }
+  await page.emulateMedia({ media: 'screen' })
   await page.setViewportSize({ width: 844, height: 390 })
   await page.goto(`${base}/#/ux-indizi-comandi-esiti`, { waitUntil: 'networkidle' })
   const opener = page.locator('.is-active .lesson-image-hint').first()

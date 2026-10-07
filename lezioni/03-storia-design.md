@@ -15,11 +15,25 @@ routeAlias: storia-design
 <p>Dalla pagina stampata alle interfacce digitali</p>
 
 ---
+layout: summary
+class: content-slide history-section lesson-slide reading-slide
+footer: "Storia del design · Percorso"
+lesson: storia-design
+lessonSlide: 2
+lessonMinutes: 1.5
+routeAlias: storia-design-sintesi
+summaryStatement: "Scopo, forma e contesto\ncambiano insieme nel tempo."
+summarySupport: "Le tecnologie aprono possibilità. Le persone costruiscono convenzioni."
+---
+
+# Dall’introduzione alla storia
+
+---
 layout: default
 class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Percorso"
 lesson: storia-design
-lessonSlide: 2
+lessonSlide: 3
 lessonMinutes: 1.5
 ---
 
@@ -30,19 +44,6 @@ lessonMinutes: 1.5
   <CvediCard title="Riconoscere le eredità"><p>Individuare nella UI <strong>metafore, gerarchie e convenzioni</strong>.</p></CvediCard>
   <CvediCard title="Motivare una scelta"><p>Valutare uno stile in relazione a <strong>compito e contesto</strong>.</p></CvediCard>
 </div>
-
----
-layout: default
-class: content-slide history-section lesson-slide reading-slide statement-slide
-footer: "Storia del design · Percorso"
-lesson: storia-design
-lessonSlide: 3
-lessonMinutes: 1.5
----
-
-# Dall’introduzione alla storia
-
-<div class="lesson-statement">Scopo, forma e contesto<br>cambiano insieme nel tempo.</div><p class="lead">Le tecnologie aprono possibilità. Le persone costruiscono convenzioni.</p>
 
 ---
 layout: default
@@ -72,13 +73,8 @@ lessonMinutes: 1.5
 
 # Un percorso, molte continuità
 
-<ul class="steps lesson-steps" aria-label="Cinque passaggi della lezione">
-  <li class="step step-primary">Segni<span>Registrare</span></li>
-  <li class="step step-primary">Stampa<span>Riprodurre</span></li>
-  <li class="step step-primary">Manifesti<span>Persuadere</span></li>
-  <li class="step step-primary">Software<span>Comporre</span></li>
-  <li class="step step-primary">Interfacce<span>Interagire</span></li>
-</ul><p class="lead">Ogni passaggio trasforma il rapporto fra contenuto, forma e uso.</p>
+<ProcessTimeline label="Cinque passaggi della lezione" :steps="[{ title: 'Segni', detail: 'Registrare' }, { title: 'Stampa', detail: 'Riprodurre' }, { title: 'Manifesti', detail: 'Persuadere' }, { title: 'Software', detail: 'Comporre' }, { title: 'Interfacce', detail: 'Interagire' }]" />
+<p class="lead">Ogni passaggio trasforma il rapporto fra contenuto, forma e uso.</p>
 
 ---
 layout: default
@@ -387,7 +383,7 @@ lessonMinutes: 5
   <li><span>Quale <strong>azione</strong> richiede e a quale pubblico?</span></li>
   <li><span>Quale elemento vedete <strong>per primo</strong>?</span></li>
   <li><span>Come cambia il messaggio se eliminate <strong>figura o titolo</strong>?</span></li>
-</ul><p class="aside">Motivate la risposta con elementi visibili, oltre al gusto personale.</p>
+</ul><CvediNotice kind="request"><p>Motivate la risposta con elementi visibili, oltre al gusto personale.</p></CvediNotice>
 
 ---
 layout: default
@@ -969,12 +965,7 @@ lessonMinutes: 1.5
 # Possibili direzioni: quattro domande
 
 <p class="lead">Scenari progettuali osservati a <strong>ottobre 2026</strong>.</p>
-<ul class="steps lesson-steps" aria-label="Quattro direzioni progettuali">
-  <li class="step step-primary">Adattare<span>Tipografia e gerarchie</span></li>
-  <li class="step step-primary">Orientare<span>Spazio e materiali</span></li>
-  <li class="step step-primary">Generare<span>Strumenti su richiesta</span></li>
-  <li class="step step-primary">Alleggerire<span>Risorse e servizio</span></li>
-</ul>
+<ProcessTimeline label="Quattro direzioni progettuali" :steps="[{ title: 'Adattare', detail: 'Tipografia e gerarchie' }, { title: 'Orientare', detail: 'Spazio e materiali' }, { title: 'Generare', detail: 'Strumenti su richiesta' }, { title: 'Alleggerire', detail: 'Risorse e servizio' }]" />
 <p>Che cosa rende più chiaro il compito? Quale costo o difficoltà introduce?</p>
 
 ---
