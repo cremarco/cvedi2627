@@ -1,0 +1,290 @@
+{
+  "data_verifica": "2026-10-07",
+  "ambito": "Sei nuove tavole storiche di C02",
+  "origini": {
+    "data": "2026-10-07",
+    "purpose": "Una doppia pagina C02 Origini e stampa: Stampa e finitura a mano / Xilografie e caratteri mobili.",
+    "assets": [
+      {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/gutenberg-loc-3a51868-original.tif",
+        "name": "gutenberg-loc-3a51868-original.tif",
+        "source_url": "https://cdn.loc.gov/master/pnp/cph/3a50000/3a51000/3a51800/3a51868u.tif",
+        "catalog_url": "https://www.loc.gov/pictures/item/2006680004/",
+        "license": "No known restrictions on publication",
+        "license_evidence_url": "https://www.loc.gov/pictures/item/2006680004/",
+        "attribution": "Library of Congress, Prints and Photographs Division, LC-USZ62-51844.",
+        "role": "originale",
+        "width": 1102,
+        "height": 1536,
+        "mode": "L",
+        "bytes": 1694882,
+        "sha256": "ce1783882eb2719b1c60492ad9222d9769397e7f9ceaac3c9c426d8991888c25",
+        "downloaded_on": "2026-10-07",
+        "authentic_historical_artifact": true,
+        "ai_generated": false
+      },
+      {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/gutenberg-loc-3a51868-original.png",
+        "name": "gutenberg-loc-3a51868-original.png",
+        "source_url": "https://cdn.loc.gov/master/pnp/cph/3a50000/3a51000/3a51800/3a51868u.tif",
+        "catalog_url": "https://www.loc.gov/pictures/item/2006680004/",
+        "license": "No known restrictions on publication",
+        "license_evidence_url": "https://www.loc.gov/pictures/item/2006680004/",
+        "attribution": "Library of Congress, Prints and Photographs Division, LC-USZ62-51844.",
+        "role": "derivato PNG dal TIFF: sola conversione di formato",
+        "width": 1102,
+        "height": 1536,
+        "mode": "L",
+        "bytes": 998005,
+        "sha256": "6bf2cfd780ebd6525fbbf7ddea5d9844642f13583b1d94d49441b533fe3c6827",
+        "downloaded_on": "2026-10-07",
+        "authentic_historical_artifact": true,
+        "ai_generated": false
+      },
+      {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/schedel-dance-death-1493-met-2018-839-160-original.jpg",
+        "name": "schedel-dance-death-1493-met-2018-839-160-original.jpg",
+        "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP880247.jpg",
+        "catalog_url": "https://www.metmuseum.org/art/collection/search/390220",
+        "license": "Public Domain / Creative Commons Zero (CC0)",
+        "license_evidence_url": "https://www.metmuseum.org/hubs/open-access",
+        "attribution": "Michael Wolgemut, Dance of Death, leaf from The Nuremberg Chronicle, 1493. The Metropolitan Museum of Art, 2018.839.160, Bequest of Herbert Mitchell, 2008.",
+        "role": "originale",
+        "width": 2576,
+        "height": 3678,
+        "mode": "RGB",
+        "bytes": 3528573,
+        "sha256": "8273736b4eed6a56afc2c642fed408fe91efff2d7430c1a79e8eecff0b65176f",
+        "downloaded_on": "2026-10-07",
+        "authentic_historical_artifact": true,
+        "ai_generated": false
+      }
+    ],
+    "validation": {
+      "selected_total_bytes": 6221460,
+      "each_below_10MB": true,
+      "total_below_10MB": true,
+      "loc_conversion_pixel_identical": true,
+      "visual_inspection": "passed: iniziali e ornamento LOC; testo letterpress e xilografia entrambi visibili nel foglio Met."
+    },
+    "unselected_candidates": "Conservati fuori dagli asset attivi in /tmp/origini-candidati-non-selezionati: NGA Creator xilografia piena, Met aperture Norimberga con veduta e poco testo.",
+    "source_licenses": [
+      {
+        "url": "https://www.loc.gov/pictures/item/2006680004/",
+        "claim": "Rights Advisory: No known restrictions on publication."
+      },
+      {
+        "url": "https://www.metmuseum.org/art/collection/search/390220",
+        "claim": "Public Domain; medium Woodcut and letterpress text."
+      },
+      {
+        "url": "https://www.metmuseum.org/hubs/open-access",
+        "claim": "Immagini di opere in pubblico dominio messe a disposizione con CC0."
+      }
+    ]
+  },
+  "industria": {
+    "assets": [
+      {
+        "filename": "el-lissitzky-wendingen-nga-1995-77-4.jpg",
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/el-lissitzky-wendingen-nga-1995-77-4.jpg",
+        "sourcePage": "https://www.nga.gov/artworks/93943-wendingen",
+        "imageUrl": "https://api.nga.gov/iiif/f5b758cb-7d21-4327-bc2f-f869b7317731/full/full/0/default.jpg?attachment_filename=wendingen_1995.77.4.jpg",
+        "license": "CC0 1.0; museo dichiara media Public Domain",
+        "rightsUrl": "https://www.nga.gov/terms-and-notices",
+        "credit": "Courtesy National Gallery of Art, Washington. Gift of Frank R. and Jeannette H. Eyerly.",
+        "bytes": 1426221,
+        "width": 4096,
+        "height": 2051,
+        "sha256": "b9a8d864cdc4945fc8521013c1d77cd104df1d18c560ccada95c214cd683c52b",
+        "downloaded": true,
+        "visualVerified": true,
+        "modified": false
+      },
+      {
+        "filename": "el-lissitzky-dlia-golosa-risd-2006-92-1.jpg",
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/el-lissitzky-dlia-golosa-risd-2006-92-1.jpg",
+        "sourcePage": "https://risdmuseum.org/art-design/collection/dlia-golosa-voice-2006921",
+        "imageUrl": "https://risdmuseum.cdn.picturepark.com/v/PktjNav2/",
+        "license": "CC0 1.0 Universal Public Domain Dedication dichiarata dall’oggettoRISD",
+        "rightsUrl": "https://risdmuseum.org/art-design/collection/dlia-golosa-voice-2006921#image-use",
+        "credit": "RISD Museum, Mary B. Jackson Fund,2006.92.1.",
+        "bytes": 64220,
+        "width": 900,
+        "height": 675,
+        "sha256": "ec456d2898d3f5f19a1135294eb690354745cb4df735c82413e53c434b49c727",
+        "downloaded": true,
+        "visualVerified": true,
+        "modified": false,
+        "visibleSubject": "Apertura con composizione a nave per Left March, tipografia rosso/nero e tacche/indice sul margine destro.",
+        "quality": "File museale900×675: usare una figura singola entro363px nel booklet; originale conservato. Per forte ingrandimento servirebbe una riproduzione museale maggiore."
+      }
+    ],
+    "fonti": [
+      {
+        "id": "moma-constructivism",
+        "title": "Constructivism",
+        "url": "https://www.moma.org/collection/terms/constructivism",
+        "supports": [
+          "Contesto della rivoluzione1917",
+          "Artista come costruttore/ingegnere e finalità sociale"
+        ]
+      },
+      {
+        "id": "moma-collective",
+        "title": "A Collective Construction",
+        "url": "https://www.moma.org/calendar/galleries/5948",
+        "supports": [
+          "Circolazione transnazionale delle strategie d’avanguardia attraverso libri, riviste, mostre e viaggi",
+          "Rapporti con la didattica del Bauhaus"
+        ],
+        "note": "Fonte curatoriale corrente, usata per la spiegazione storica, non per lo stato dell’allestimento."
+      },
+      {
+        "id": "nga-wendingen",
+        "title": "El Lissitzky, Wendingen",
+        "url": "https://www.nga.gov/artworks/93943-wendingen",
+        "supports": [
+          "Autore",
+          "1921, pubblicato1923",
+          "Litografia a colori per la copertina",
+          "Inventario1995.77.4",
+          "Public Domain/OpenAccess"
+        ]
+      },
+      {
+        "id": "risd-dlia",
+        "title": "El Lissitzky, Dlia golosa (For the Voice)",
+        "url": "https://risdmuseum.org/art-design/collection/dlia-golosa-voice-2006921",
+        "supports": [
+          "1923/Berlino",
+          "Tredici poesie",
+          "Lettura ad alta voce",
+          "Lettere/filetti/segni tipografici standard",
+          "Rosso e nero",
+          "Inventario2006.92.1",
+          "CC0"
+        ],
+        "evidence": "Catalogo e label copy2012/2024; note bibliografiche e image-use sullo stesso oggetto."
+      },
+      {
+        "id": "nga-au-voice",
+        "title": "Victory Over the Sun",
+        "url": "https://nga.gov.au/exhibitions/victory-over-the-sun/",
+        "supports": [
+          "Indice a tacche simile a una rubrica",
+          "Black/red printing",
+          "Pubblicazione a Berlino1923"
+        ],
+        "verification": "Testo indicizzato del sito ufficiale NGA Australia recuperato dal web; apertura diretta403. Riscontro aggiuntivo nel catalogo MoMA14473 indicato dal coordinatore."
+      }
+    ]
+  },
+  "identita": {
+    "rappresentazioni": "Schemi analitici originali in Figma, esplicitamente dichiarati nelle didascalie",
+    "immagini_storiche_riprodotte": false,
+    "fonti": [
+      {
+        "id": "LHF",
+        "title": "Lufthansa — The crane through the ages",
+        "url": "https://www.lufthansa.com/de/en/100-years/crane",
+        "facts": "Otto Firle/DLR 1918; progetto 1400/E5/Ulm 1962; proporzioni, colori e regole per aerei, biglietti, bagagli e architettura.",
+        "sections": [
+          "The birth of a trademark",
+          "From decorative bird to modern figurative trademark"
+        ],
+        "supports": [
+          "A"
+        ]
+      },
+      {
+        "id": "HFG",
+        "title": "HfG-Archiv/Museum Ulm — The bequest of Otl Aicher",
+        "url": "https://hfg-archiv.museumulm.de/en/bequests/the-bequest-of-otl-aicher/",
+        "facts": "Il gruppo E5 elaborò l’identità di Lufthansa alla HfG; lavoro collettivo e archivio del progettista.",
+        "supports": [
+          "A"
+        ]
+      },
+      {
+        "id": "IDZ-TEAM",
+        "title": "Mark Holt / IDZ — Design as a team sport",
+        "url": "https://www.otlaicher.de/en/articles/design-as-a-team-sport/",
+        "facts": "Dipartimento XI; Gerhard Joksch: pittogrammi sportivi e manifesti; Alfred Kern: informazione, pittogrammi informativi e segnaletica.",
+        "sections": [
+          "Design as a team sport",
+          "Elenco responsabilità dei responsabili di progetto"
+        ],
+        "supports": [
+          "B"
+        ]
+      },
+      {
+        "id": "IDZ-KINSHIP",
+        "title": "Mark Holt / IDZ — The Rainbow Games",
+        "url": "https://www.otlaicher.de/en/articles/the-rainbow-games/",
+        "facts": "Elementi variabili e parentela visiva; coerenza con flessibilità; colori, tipografia, impaginazione, segni.",
+        "sections": [
+          "Guidelines, directives and visual tools",
+          "The kinship approach: unity within diversity"
+        ],
+        "supports": [
+          "B"
+        ]
+      },
+      {
+        "id": "PIK",
+        "title": "otl aicher pictograms — History",
+        "url": "https://www.piktogramm.de/en/history",
+        "facts": "Intento di un linguaggio internazionale; palette, pittogrammi, caratteri, formati e griglia come elementi comuni.",
+        "supports": [
+          "B"
+        ]
+      }
+    ]
+  },
+  "tavole_figma": [
+    {
+      "key": "origini_01",
+      "title": "Stampa e finitura a mano",
+      "frameId": "2532:263",
+      "sectionId": "2186:1906",
+      "asset": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/gutenberg-loc-3a51868-original.png"
+    },
+    {
+      "key": "origini_02",
+      "title": "Xilografie e caratteri mobili",
+      "frameId": "2532:285",
+      "sectionId": "2186:1906",
+      "asset": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/schedel-dance-death-1493-met-2018-839-160-original.jpg"
+    },
+    {
+      "key": "industria_01",
+      "title": "Il Costruttivismo",
+      "frameId": "2532:307",
+      "sectionId": "2186:1907",
+      "asset": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/el-lissitzky-wendingen-nga-1995-77-4.jpg"
+    },
+    {
+      "key": "industria_02",
+      "title": "Il libro come strumento",
+      "frameId": "2532:329",
+      "sectionId": "2186:1907",
+      "asset": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/el-lissitzky-dlia-golosa-risd-2006-92-1.jpg"
+    },
+    {
+      "key": "identita_01",
+      "title": "L’identità come programma",
+      "frameId": "2532:351",
+      "sectionId": "2186:1908",
+      "asset": null
+    },
+    {
+      "key": "identita_02",
+      "title": "Una famiglia per orientarsi",
+      "frameId": "2532:402",
+      "sectionId": "2186:1908",
+      "asset": null
+    }
+  ]
+}

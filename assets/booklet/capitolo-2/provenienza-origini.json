@@ -1,0 +1,82 @@
+{
+  "data": "2026-10-07",
+  "purpose": "Una doppia pagina C02 Origini e stampa: Stampa e finitura a mano / Xilografie e caratteri mobili.",
+  "assets": [
+    {
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/gutenberg-loc-3a51868-original.tif",
+      "name": "gutenberg-loc-3a51868-original.tif",
+      "source_url": "https://cdn.loc.gov/master/pnp/cph/3a50000/3a51000/3a51800/3a51868u.tif",
+      "catalog_url": "https://www.loc.gov/pictures/item/2006680004/",
+      "license": "No known restrictions on publication",
+      "license_evidence_url": "https://www.loc.gov/pictures/item/2006680004/",
+      "attribution": "Library of Congress, Prints and Photographs Division, LC-USZ62-51844.",
+      "role": "originale",
+      "width": 1102,
+      "height": 1536,
+      "mode": "L",
+      "bytes": 1694882,
+      "sha256": "ce1783882eb2719b1c60492ad9222d9769397e7f9ceaac3c9c426d8991888c25",
+      "downloaded_on": "2026-10-07",
+      "authentic_historical_artifact": true,
+      "ai_generated": false
+    },
+    {
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/gutenberg-loc-3a51868-original.png",
+      "name": "gutenberg-loc-3a51868-original.png",
+      "source_url": "https://cdn.loc.gov/master/pnp/cph/3a50000/3a51000/3a51800/3a51868u.tif",
+      "catalog_url": "https://www.loc.gov/pictures/item/2006680004/",
+      "license": "No known restrictions on publication",
+      "license_evidence_url": "https://www.loc.gov/pictures/item/2006680004/",
+      "attribution": "Library of Congress, Prints and Photographs Division, LC-USZ62-51844.",
+      "role": "derivato PNG dal TIFF: sola conversione di formato",
+      "width": 1102,
+      "height": 1536,
+      "mode": "L",
+      "bytes": 998005,
+      "sha256": "6bf2cfd780ebd6525fbbf7ddea5d9844642f13583b1d94d49441b533fe3c6827",
+      "downloaded_on": "2026-10-07",
+      "authentic_historical_artifact": true,
+      "ai_generated": false
+    },
+    {
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/capitolo-2/schedel-dance-death-1493-met-2018-839-160-original.jpg",
+      "name": "schedel-dance-death-1493-met-2018-839-160-original.jpg",
+      "source_url": "https://images.metmuseum.org/CRDImages/dp/original/DP880247.jpg",
+      "catalog_url": "https://www.metmuseum.org/art/collection/search/390220",
+      "license": "Public Domain / Creative Commons Zero (CC0)",
+      "license_evidence_url": "https://www.metmuseum.org/hubs/open-access",
+      "attribution": "Michael Wolgemut, Dance of Death, leaf from The Nuremberg Chronicle, 1493. The Metropolitan Museum of Art, 2018.839.160, Bequest of Herbert Mitchell, 2008.",
+      "role": "originale",
+      "width": 2576,
+      "height": 3678,
+      "mode": "RGB",
+      "bytes": 3528573,
+      "sha256": "8273736b4eed6a56afc2c642fed408fe91efff2d7430c1a79e8eecff0b65176f",
+      "downloaded_on": "2026-10-07",
+      "authentic_historical_artifact": true,
+      "ai_generated": false
+    }
+  ],
+  "validation": {
+    "selected_total_bytes": 6221460,
+    "each_below_10MB": true,
+    "total_below_10MB": true,
+    "loc_conversion_pixel_identical": true,
+    "visual_inspection": "passed: iniziali e ornamento LOC; testo letterpress e xilografia entrambi visibili nel foglio Met."
+  },
+  "unselected_candidates": "Conservati fuori dagli asset attivi in /tmp/origini-candidati-non-selezionati: NGA Creator xilografia piena, Met aperture Norimberga con veduta e poco testo.",
+  "source_licenses": [
+    {
+      "url": "https://www.loc.gov/pictures/item/2006680004/",
+      "claim": "Rights Advisory: No known restrictions on publication."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/390220",
+      "claim": "Public Domain; medium Woodcut and letterpress text."
+    },
+    {
+      "url": "https://www.metmuseum.org/hubs/open-access",
+      "claim": "Immagini di opere in pubblico dominio messe a disposizione con CC0."
+    }
+  ]
+}
