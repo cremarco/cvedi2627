@@ -1,0 +1,39 @@
+{
+  "id": "olografica-v2",
+  "title": "Caffè Luce · olografica-v2",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "ipotesi progettuale originale",
+  "provenance": "Original synthetic scene generated specifically for the offline educational Caffè Luce example; no external reference images were used.",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "useCase": "photorealistic-natural",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-82838688-7657-418a-abab-c049efc80d7e.png",
+  "sourceReference": null,
+  "inputReferences": [],
+  "prompt": "Use case: photorealistic-natural.\nAsset type: a single landscape hero image for an offline educational café website, presenting a speculative future product concept. One independent complete scene, never a contact sheet.\nPrimary request: clearly show a customer using a tabletop volumetric holographic menu in a real café. The interaction must be immediately understandable.\nScene/backdrop: a credible contemporary Italian café, a real wood café table, espresso machine and café counter softly visible behind, warm neutral materials and modest evening ambience.\nSubject: a seated adult customer seen at a three-quarter angle, natural clothing, reaching with one complete visible hand and extended index finger to select a luminous three-dimensional croissant floating above a small credible tabletop projector. The projector is a compact solid low circular device, with an optical aperture, standing fully visible on the table and visibly emitting soft upward projection rays. Suspended directly above this device are three separate detailed luminous volumetric menu objects: a small espresso cup with saucer, a golden croissant, and a handled glass of amber tea. Each replica has visible thickness, spatial depth and translucent cyan/violet iridescent edges. Their luminous bodies remain recognizable as food and drink. The extended fingertip touches the luminous croissant and a restrained small luminous ring indicates selection. Near the projector are the corresponding REAL tangible white ceramic espresso cup and saucer, golden croissant on white plate, and handled amber tea glass, with believable physical textures and ordinary shadows. The real objects are clearly distinct from the luminous floating replicas.\nStyle/medium: high-quality cinematic editorial photography of a speculative product design, believable skin, ceramic, pastry and glass textures, no illustration or cartoon.\nComposition/framing: horizontal landscape around 16:10, three-quarter camera, medium-wide view. The projector, holographic products, entire selecting hand and real food are arranged together at the CENTER and all completely inside the image, leaving at least 8 percent safe margins around the functional scene. The whole projector and optical aperture must be visible. The person's visible arm connects naturally to the body; the face can be secondary. Camera at table height slightly above the table, enough separation to show depth. A single continuous scene.\nLighting/mood: natural café lighting, real objects warm and opaque; the hologram is moderately luminous pale cyan and violet with restrained iridescence. Subtle projection rays connect the hologram to its source. Clear readable silhouettes and controlled contrast, never dark to the point of obscuring use.\nText: none. No words, labels, letters, numbers, menus, logo, watermark or any raster typography.\nConstraints: the menu exists as volumetric food replicas in free space above a physical projector; no flat rectangular screen, smartphone, tablet, wearable visor, head-mounted display, physical glass panel, contact sheet, collage, decorative frame, browser UI, graphic border or extra fingers. Nothing overlaid on the photograph. Keep real espresso, pastry and tea appetizing and anatomically recognizable.",
+  "transparentBackground": false,
+  "file": "olografica-v2.png",
+  "sha256": "5754689e9fad2061bb9fc3785771d8727b4222e81816db163d2b1c9f0d78d021",
+  "dimensions": {
+    "width": 1586,
+    "height": 992
+  },
+  "bytes": 2328395,
+  "runtime": {
+    "file": "olografica-v2.webp",
+    "sha256": "efd4a3034339b492fb54ff15f110d1ade527fdef72c042e1a0c0af59b262397c",
+    "dimensions": {
+      "width": 1586,
+      "height": 992
+    },
+    "bytes": 262112,
+    "conversion": "sharp.webp({quality:90}), full original dimensions, no crop or image edits",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "confirmed using view_image after generation",
+    "subjects": "Customer selects luminous volumetric croissant; compact tabletop projector, espresso/croissant/tea replicas and real food all clearly visible.",
+    "composition": "Single complete scene; all functional objects and selecting hand fully visible; no typography or decorative frame.",
+    "note": "Speculative product concept; free-space volumetric rendering intentionally illustrates a future design hypothesis."
+  }
+}

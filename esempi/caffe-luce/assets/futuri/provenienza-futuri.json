@@ -1,0 +1,271 @@
+{
+  "title": "Caffè Luce · Sei ipotesi visive future",
+  "createdDate": "2026-10-07",
+  "provenance": "Asset sintetici originali generati per questo esempio didattico, non esempi documentari di siti esistenti né previsioni storiche.",
+  "sourceReference": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png, usata solo per riconoscibilità dei soggetti del bar",
+  "layout": {
+    "columns": 2,
+    "rows": 2,
+    "panelAspectRatio": "3:2",
+    "quadrants": {
+      "hero": "top left",
+      "espresso": "top right",
+      "croissant": "bottom left",
+      "te": "bottom right"
+    }
+  },
+  "assets": [
+    {
+      "id": "adattabile",
+      "file": "adattabile.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-070c661b-e7b6-4182-8a6b-aa84aff1bc45.png",
+      "generationTool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: stylized-concept. Asset type: original four-panel illustration sprite for an offline educational café website. Create a LANDSCAPE contact sheet, 1536 by 1024 pixels or the same 3:2 overall ratio. The image consists of EXACTLY FOUR equal rectangular panels arranged in an exact 2 by 2 grid, meeting at x=50% and y=50%. No gutters, divider lines, borders, rounded outer corners, interface, lettering, labels, words, numbers, logo, watermark or type of any kind. Each panel must be a complete independent scene, with all of its objects wholly inside that panel and a safe margin of at least 8% from its edges. The attached image is ONLY a reference for which café objects to depict; ignore its typography, webpage arrangement, UI, and quantity outside the four described panels.\nCANONICAL SUBJECTS AND ORDER: Top left: café table scene at a three-quarter overhead angle with exactly ONE white espresso cup containing dark brown coffee and its white saucer in the front left, exactly ONE plain golden croissant on a plain white plate at the back right, and one neatly folded ivory napkin at the lower right. Keep the whole cup and handle, saucer, croissant, plate and napkin visible. No other food, mugs or cups, people or hands. Top right: exactly ONE white espresso cup containing dark brown coffee, visible handle at right, on its white saucer, centered at a three-quarter angle. Bottom left: exactly ONE plain golden croissant, centered, without additional food. Bottom right: exactly ONE translucent amber tea cup with a visible handle at right, containing amber tea, centered, without any other cup or food. The three individual product panels have quiet consistent backgrounds and generous negative space; keep their object scale comparable. This is the same café across four panels, with the same clear, recognizable real-world anatomy of cup handles, cup rims, saucers and croissant lamination. Do not turn food or cups into abstract symbols.\nStyle: sophisticated fresh expressive editorial illustration, large confident flat vector-like color fields with slight modeled volume. Palette: deep navy blue, crisp mint green, warm white, with golden brown preserved in pastry and coffee. Clean sculptural silhouettes, blue and mint background geometry, airy modern rhythm. The white ceramic cups and golden croissant stay naturally recognizable. No extra objects.",
+      "inputReference": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "transparentBackground": false,
+      "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244 as /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-070c661b-e7b6-4182-8a6b-aa84aff1bc45.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "synthetic": true,
+      "status": "ipotesi progettuale originale",
+      "slots": [
+        "hero",
+        "espresso",
+        "croissant",
+        "te"
+      ],
+      "qa": {
+        "panels": "griglia 2×2, pannelli uguali, nessun gutter",
+        "subjects": "una scena hero + un espresso + un croissant + una tazza di tè",
+        "typography": "nessun testo, marchio, watermark o UI",
+        "visualInspection": "confermata su tutte le sei immagini",
+        "note": "La porzione di tovagliolo della scena hero arriva al bordo destro; i prodotti e i manici restano interamente visibili."
+      },
+      "sha256": "e32fcc19b55044caac335a84312000f04b11629539ef20a042dbbf1aea7d0c66",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 1720585,
+      "runtime": {
+        "file": "adattabile.webp",
+        "dimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "bytes": 149860,
+        "sha256": "1dca0b0ebcad56356eac114de641522a39785e293731360e96798653a8574aba",
+        "conversion": "cwebp -q 94 -m 6",
+        "originalRetained": true
+      }
+    },
+    {
+      "id": "spaziale",
+      "file": "spaziale.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-01b8fce3-9608-4bcd-b3a6-53e3d2f8e01c.png",
+      "generationTool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: stylized-concept. Asset type: original four-panel illustration sprite for an offline educational café website. Create a LANDSCAPE contact sheet, 1536 by 1024 pixels or the same 3:2 overall ratio. The image consists of EXACTLY FOUR equal rectangular panels arranged in an exact 2 by 2 grid, meeting at x=50% and y=50%. No gutters, divider lines, borders, rounded outer corners, interface, lettering, labels, words, numbers, logo, watermark or type of any kind. Each panel must be a complete independent scene, with all of its objects wholly inside that panel and a safe margin of at least 8% from its edges. The attached image is ONLY a reference for which café objects to depict; ignore its typography, webpage arrangement, UI, and quantity outside the four described panels.\nCANONICAL SUBJECTS AND ORDER: Top left: café table scene at a three-quarter overhead angle with exactly ONE white espresso cup containing dark brown coffee and its white saucer in the front left, exactly ONE plain golden croissant on a plain white plate at the back right, and one neatly folded ivory napkin at the lower right. Keep the whole cup and handle, saucer, croissant, plate and napkin visible. No other food, mugs or cups, people or hands. Top right: exactly ONE white espresso cup containing dark brown coffee, visible handle at right, on its white saucer, centered at a three-quarter angle. Bottom left: exactly ONE plain golden croissant, centered, without additional food. Bottom right: exactly ONE translucent amber tea cup with a visible handle at right, containing amber tea, centered, without any other cup or food. The three individual product panels have quiet consistent backgrounds and generous negative space; keep their object scale comparable. This is the same café across four panels, with the same clear, recognizable real-world anatomy of cup handles, cup rims, saucers and croissant lamination. Do not turn food or cups into abstract symbols.\nStyle: polished spatial-design 3D studio render with softly lit real ceramic and softly translucent background planes. Palette: white and pale lavender, with tiny subtle cool-blue reflections. Strong readable natural objects with restrained smooth volume, delicate physical shadows and clear surfaces; white ceramic cup remains visibly white, tea amber and croissant golden. Minimal white/lavender tabletop and light studio backgrounds. No glowing text or futuristic gadgets.",
+      "inputReference": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "transparentBackground": false,
+      "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244 as /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-01b8fce3-9608-4bcd-b3a6-53e3d2f8e01c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "synthetic": true,
+      "status": "ipotesi progettuale originale",
+      "slots": [
+        "hero",
+        "espresso",
+        "croissant",
+        "te"
+      ],
+      "qa": {
+        "panels": "griglia 2×2, pannelli uguali, nessun gutter",
+        "subjects": "una scena hero + un espresso + un croissant + una tazza di tè",
+        "typography": "nessun testo, marchio, watermark o UI",
+        "visualInspection": "confermata su tutte le sei immagini",
+        "note": "La porzione di tovagliolo della scena hero arriva al bordo destro; i prodotti e i manici restano interamente visibili."
+      },
+      "sha256": "df37f58c8150a36411292cf1ef48c13030864152d6a8ee21466c319eaeaa89eb",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 1822471,
+      "runtime": {
+        "file": "spaziale.webp",
+        "dimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "bytes": 145428,
+        "sha256": "941c2228384e5bd1b7f3893f3743287bd70cef5e067c85d02cd3d11bf9903b15",
+        "conversion": "cwebp -q 94 -m 6",
+        "originalRetained": true
+      }
+    },
+    {
+      "id": "generativa",
+      "file": "generativa.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-e9ef210c-1794-4b27-a41a-a3782ff4be11.png",
+      "generationTool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: stylized-concept. Asset type: original four-panel illustration sprite for an offline educational café website. Create a LANDSCAPE contact sheet, 1536 by 1024 pixels or the same 3:2 overall ratio. The image consists of EXACTLY FOUR equal rectangular panels arranged in an exact 2 by 2 grid, meeting at x=50% and y=50%. No gutters, divider lines, borders, rounded outer corners, interface, lettering, labels, words, numbers, logo, watermark or type of any kind. Each panel must be a complete independent scene, with all of its objects wholly inside that panel and a safe margin of at least 8% from its edges. The attached image is ONLY a reference for which café objects to depict; ignore its typography, webpage arrangement, UI, and quantity outside the four described panels.\nCANONICAL SUBJECTS AND ORDER: Top left: café table scene at a three-quarter overhead angle with exactly ONE white espresso cup containing dark brown coffee and its white saucer in the front left, exactly ONE plain golden croissant on a plain white plate at the back right, and one neatly folded ivory napkin at the lower right. Keep the whole cup and handle, saucer, croissant, plate and napkin visible. No other food, mugs or cups, people or hands. Top right: exactly ONE white espresso cup containing dark brown coffee, visible handle at right, on its white saucer, centered at a three-quarter angle. Bottom left: exactly ONE plain golden croissant, centered, without additional food. Bottom right: exactly ONE translucent amber tea cup with a visible handle at right, containing amber tea, centered, without any other cup or food. The three individual product panels have quiet consistent backgrounds and generous negative space; keep their object scale comparable. This is the same café across four panels, with the same clear, recognizable real-world anatomy of cup handles, cup rims, saucers and croissant lamination. Do not turn food or cups into abstract symbols.\nStyle: precise clean modular editorial collage combining refined cut-paper silhouettes with small naturally dimensional render details. Palette: teal and violet on warm white, while white cups, brown coffee, golden croissant and amber tea preserve recognizability. Use repeated simple rectangular or circular background modules contained inside each panel, like recombinable composition units. Crisp modularity and organized variation; no symbols, diagrams, interface controls or lettering.",
+      "inputReference": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "transparentBackground": false,
+      "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244 as /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-e9ef210c-1794-4b27-a41a-a3782ff4be11.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "synthetic": true,
+      "status": "ipotesi progettuale originale",
+      "slots": [
+        "hero",
+        "espresso",
+        "croissant",
+        "te"
+      ],
+      "qa": {
+        "panels": "griglia 2×2, pannelli uguali, nessun gutter",
+        "subjects": "una scena hero + un espresso + un croissant + una tazza di tè",
+        "typography": "nessun testo, marchio, watermark o UI",
+        "visualInspection": "confermata su tutte le sei immagini",
+        "note": "La porzione di tovagliolo della scena hero arriva al bordo destro; i prodotti e i manici restano interamente visibili."
+      },
+      "sha256": "3817c76996b81b2eacb7d3f84aedfd84470715cbfb00f322794d3885d9b6f8e1",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 2139263,
+      "runtime": {
+        "file": "generativa.webp",
+        "dimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "bytes": 209336,
+        "sha256": "be0c656b83ddc2ed848a42ee80450d61948399b3c5a9b31c809f3ffca8a374f0",
+        "conversion": "cwebp -q 94 -m 6",
+        "originalRetained": true
+      }
+    },
+    {
+      "id": "risorse",
+      "file": "risorse.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-512ef6d0-3b6b-41df-bf24-a3f288651cf3.png",
+      "generationTool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: stylized-concept. Asset type: original four-panel illustration sprite for an offline educational café website. Create a LANDSCAPE contact sheet, 1536 by 1024 pixels or the same 3:2 overall ratio. The image consists of EXACTLY FOUR equal rectangular panels arranged in an exact 2 by 2 grid, meeting at x=50% and y=50%. No gutters, divider lines, borders, rounded outer corners, interface, lettering, labels, words, numbers, logo, watermark or type of any kind. Each panel must be a complete independent scene, with all of its objects wholly inside that panel and a safe margin of at least 8% from its edges. The attached image is ONLY a reference for which café objects to depict; ignore its typography, webpage arrangement, UI, and quantity outside the four described panels.\nCANONICAL SUBJECTS AND ORDER: Top left: café table scene at a three-quarter overhead angle with exactly ONE white espresso cup containing dark brown coffee and its white saucer in the front left, exactly ONE plain golden croissant on a plain white plate at the back right, and one neatly folded ivory napkin at the lower right. Keep the whole cup and handle, saucer, croissant, plate and napkin visible. No other food, mugs or cups, people or hands. Top right: exactly ONE white espresso cup containing dark brown coffee, visible handle at right, on its white saucer, centered at a three-quarter angle. Bottom left: exactly ONE plain golden croissant, centered, without additional food. Bottom right: exactly ONE translucent amber tea cup with a visible handle at right, containing amber tea, centered, without any other cup or food. The three individual product panels have quiet consistent backgrounds and generous negative space; keep their object scale comparable. This is the same café across four panels, with the same clear, recognizable real-world anatomy of cup handles, cup rims, saucers and croissant lamination. Do not turn food or cups into abstract symbols.\nStyle: sophisticated lightweight two-color engraved/dithered print illustration, natural café subjects translated into clean charcoal linework and restrained ordered halftone dots on ivory. Exactly charcoal and ivory with no extra color. High contrast, nuanced visible shading via dots and hatching, compact calm composition. Coffee and tea distinguishable by cups and value; espresso uses ceramic cup, tea uses clear glass handled cup. No environmental claims, icons, recycling symbols, text or labels.",
+      "inputReference": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "transparentBackground": false,
+      "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244 as /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-512ef6d0-3b6b-41df-bf24-a3f288651cf3.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "synthetic": true,
+      "status": "ipotesi progettuale originale",
+      "slots": [
+        "hero",
+        "espresso",
+        "croissant",
+        "te"
+      ],
+      "qa": {
+        "panels": "griglia 2×2, pannelli uguali, nessun gutter",
+        "subjects": "una scena hero + un espresso + un croissant + una tazza di tè",
+        "typography": "nessun testo, marchio, watermark o UI",
+        "visualInspection": "confermata su tutte le sei immagini",
+        "note": "La porzione di tovagliolo della scena hero arriva al bordo destro; i prodotti e i manici restano interamente visibili."
+      },
+      "sha256": "e7d9114f50791577de0d97c95f276147f4b1f5bd55572686156c7a00b885e7f8",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 3059628,
+      "runtime": {
+        "file": "risorse.webp",
+        "dimensions": {
+          "width": 960,
+          "height": 640
+        },
+        "bytes": 113298,
+        "sha256": "4140afcde6b27699ee30cd72fc7a94d9100cf003767311a2a015659777f3b47e",
+        "conversion": "cwebp -q 85 -resize 960 640 -m 6",
+        "originalRetained": true
+      }
+    },
+    {
+      "id": "organica",
+      "file": "organica.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-09ac98b2-6d61-41ca-bffc-fb52d687ca49.png",
+      "generationTool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: stylized-concept. Asset type: original four-panel illustration sprite for an offline educational café website. Create a LANDSCAPE contact sheet, 1536 by 1024 pixels or the same 3:2 overall ratio. The image consists of EXACTLY FOUR equal rectangular panels arranged in an exact 2 by 2 grid, meeting at x=50% and y=50%. No gutters, divider lines, borders, rounded outer corners, interface, lettering, labels, words, numbers, logo, watermark or type of any kind. Each panel must be a complete independent scene, with all of its objects wholly inside that panel and a safe margin of at least 8% from its edges. The attached image is ONLY a reference for which café objects to depict; ignore its typography, webpage arrangement, UI, and quantity outside the four described panels.\nCANONICAL SUBJECTS AND ORDER: Top left: café table scene at a three-quarter overhead angle with exactly ONE white espresso cup containing dark brown coffee and its white saucer in the front left, exactly ONE plain golden croissant on a plain white plate at the back right, and one neatly folded ivory napkin at the lower right. Keep the whole cup and handle, saucer, croissant, plate and napkin visible. No other food, mugs or cups, people or hands. Top right: exactly ONE white espresso cup containing dark brown coffee, visible handle at right, on its white saucer, centered at a three-quarter angle. Bottom left: exactly ONE plain golden croissant, centered, without additional food. Bottom right: exactly ONE translucent amber tea cup with a visible handle at right, containing amber tea, centered, without any other cup or food. The three individual product panels have quiet consistent backgrounds and generous negative space; keep their object scale comparable. This is the same café across four panels, with the same clear, recognizable real-world anatomy of cup handles, cup rims, saucers and croissant lamination. Do not turn food or cups into abstract symbols.\nStyle: sophisticated organic computational editorial illustration. Smooth biomorphic relief surfaces and subtle botanical-inspired rhythms as abstract background texture only, with fine paper-cut layering and a little natural matte volume. Palette: olive green, coral and warm ivory, retaining warm brown coffee and golden croissant. Cups, saucers and pastries retain normal anatomy, clean food-product silhouettes and appetizing recognizability. No actual added leaves, fruit, flowers, plants or extra food. Refined natural shapes rather than cartoon faces or characters.",
+      "inputReference": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "transparentBackground": false,
+      "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244 as /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-09ac98b2-6d61-41ca-bffc-fb52d687ca49.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "synthetic": true,
+      "status": "ipotesi progettuale originale",
+      "slots": [
+        "hero",
+        "espresso",
+        "croissant",
+        "te"
+      ],
+      "qa": {
+        "panels": "griglia 2×2, pannelli uguali, nessun gutter",
+        "subjects": "una scena hero + un espresso + un croissant + una tazza di tè",
+        "typography": "nessun testo, marchio, watermark o UI",
+        "visualInspection": "confermata su tutte le sei immagini",
+        "note": "La porzione di tovagliolo della scena hero arriva al bordo destro; i prodotti e i manici restano interamente visibili."
+      },
+      "sha256": "bccb6a3edbd027f73ba4d47b0766099eae15a1c6002defe7af1b96ebf910ae1e",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 2399839,
+      "runtime": {
+        "file": "organica.webp",
+        "dimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "bytes": 295104,
+        "sha256": "13ad49ab56c9fe41c623a7fa0d6f4cd7c7d9cdd33e3f0efa0882c0b4bb8eabc2",
+        "conversion": "cwebp -q 94 -m 6",
+        "originalRetained": true
+      }
+    },
+    {
+      "id": "olografica",
+      "file": "olografica.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-99fb049f-4026-4660-89f1-1741a0f29a87.png",
+      "generationTool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: stylized-concept. Asset type: original four-panel illustration sprite for an offline educational café website. Create a LANDSCAPE contact sheet, 1536 by 1024 pixels or the same 3:2 overall ratio. The image consists of EXACTLY FOUR equal rectangular panels arranged in an exact 2 by 2 grid, meeting at x=50% and y=50%. No gutters, divider lines, borders, rounded outer corners, interface, lettering, labels, words, numbers, logo, watermark or type of any kind. Each panel must be a complete independent scene, with all of its objects wholly inside that panel and a safe margin of at least 8% from its edges. The attached image is ONLY a reference for which café objects to depict; ignore its typography, webpage arrangement, UI, and quantity outside the four described panels.\nCANONICAL SUBJECTS AND ORDER: Top left: café table scene at a three-quarter overhead angle with exactly ONE white espresso cup containing dark brown coffee and its white saucer in the front left, exactly ONE plain golden croissant on a plain white plate at the back right, and one neatly folded ivory napkin at the lower right. Keep the whole cup and handle, saucer, croissant, plate and napkin visible. No other food, mugs or cups, people or hands. Top right: exactly ONE white espresso cup containing dark brown coffee, visible handle at right, on its white saucer, centered at a three-quarter angle. Bottom left: exactly ONE plain golden croissant, centered, without additional food. Bottom right: exactly ONE translucent amber tea cup with a visible handle at right, containing amber tea, centered, without any other cup or food. The three individual product panels have quiet consistent backgrounds and generous negative space; keep their object scale comparable. This is the same café across four panels, with the same clear, recognizable real-world anatomy of cup handles, cup rims, saucers and croissant lamination. Do not turn food or cups into abstract symbols.\nStyle: refined ambient holographic 3D illustration with subtle cyan/violet iridescent spectral material edges, on a deep navy background. Every subject is readable with clear physically plausible silhouettes and restrained luminous rim light; preserve cups as pearl white ceramic rather than transparent empty wireframes, croissant golden brown, espresso brown and tea amber. Holographic light on the table and object reflections, no tech gadgets or interface symbols. Bright enough to read, not overexposed, no intense lens flare.",
+      "inputReference": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "transparentBackground": false,
+      "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244 as /Users/marco/.codex/generated_images/01a11820-01de-7411-bcdf-d4ddde6da244/exec-99fb049f-4026-4660-89f1-1741a0f29a87.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+      "synthetic": true,
+      "status": "ipotesi progettuale originale",
+      "slots": [
+        "hero",
+        "espresso",
+        "croissant",
+        "te"
+      ],
+      "qa": {
+        "panels": "griglia 2×2, pannelli uguali, nessun gutter",
+        "subjects": "una scena hero + un espresso + un croissant + una tazza di tè",
+        "typography": "nessun testo, marchio, watermark o UI",
+        "visualInspection": "confermata su tutte le sei immagini",
+        "note": "La porzione di tovagliolo della scena hero arriva al bordo destro; i prodotti e i manici restano interamente visibili."
+      },
+      "sha256": "e8b6322f1a5569db0992b928eac4c0682f5265e03afb7f536bbc00b0cdda5aa1",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "bytes": 2007044,
+      "runtime": {
+        "file": "olografica.webp",
+        "dimensions": {
+          "width": 1536,
+          "height": 1024
+        },
+        "bytes": 241676,
+        "sha256": "aee338aed29851b654c4a10d52a8d926fb0334efa8eddffb935600b71c434f5c",
+        "conversion": "cwebp -q 94 -m 6",
+        "originalRetained": true
+      }
+    }
+  ]
+}

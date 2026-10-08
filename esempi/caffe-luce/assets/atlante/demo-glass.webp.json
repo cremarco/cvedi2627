@@ -1,0 +1,93 @@
+{
+  "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: GLASSMORPHIC crisp sculptural 3D glass illustrations, not ordinary photographs. Keep the espresso cup and saucer, croissant and tea cup clearly recognizable, but render their forms as translucent/iridescent art glass with cyan and lavender reflections and refracted light. Amber coffee and amber tea remain visible within clear glass cups, one each. The croissant remains croissant-shaped with curved laminated ridges, using warm amber translucent glass plus cool iridescent edge reflections. Hero tabletop and the folded napkin become coherent pale translucent/perly stylized surfaces, with restrained refraction and delicate reflected color. The three menu objects get the same glass material and color treatment. Maintain visual readability and subject silhouettes against the unchanged source interface; reflections stay inside the four image fields. No abstract glass sphere substitute and no extra objects.",
+  "createdAt": "2026-10-06T07:52:47.513777+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2688"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2688",
+  "bookletFolio": 65,
+  "bookletChapterOrdinal": 45,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · glassmorfismo · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "glass",
+  "sourceSha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f",
+  "outputSha256": "022d36b31c331dff9cdf3b14270c93d0877e18e0c03f80e11c2149cba7ba537f",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-75b0d09a-0fe6-4ab5-b897-20ad01f0ed91.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+  "generationQA": {
+    "fourImageFieldsChanged": true,
+    "subjectQuantityPreserved": true,
+    "originalCopySharpAndVerbatim": true,
+    "fullPage4x3": true,
+    "uiPaletteTypographyAndGridPreserved": true,
+    "visualInspection": true,
+    "complete": true,
+    "note": "Passed.",
+    "imageFields": {
+      "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+      "coffee": "Visibly restyled; one cup and saucer retained",
+      "croissant": "Visibly restyled; one croissant retained",
+      "tea": "Visibly restyled; one tea cup with amber tea retained"
+    },
+    "copyVerified": [
+      "CAFFÈ LUCE",
+      "Menu",
+      "Il locale",
+      "Contatti",
+      "Una pausa, ogni giorno.",
+      "Caffè, dolci e incontri.",
+      "Scopri il menu",
+      "Il nostro menu",
+      "Caffè",
+      "Espresso e cappuccino",
+      "Croissant",
+      "Ogni mattina",
+      "Tè",
+      "Una selezione di aromi",
+      "Ti aspettiamo",
+      "Lun–Sab · 7–19",
+      "In centro, ogni giorno.",
+      "Un luogo per una pausa"
+    ]
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v1.png",
+      "sourceSha256": "75a97d634619dd445e172eb99e0ce0c105ad887294b2961f10c7720bba4a7917",
+      "outputSha256": "03d70e2d7b40aa1ac19bf9fa7ca02bddafb6670818394103beefc52ac2e0dcb9",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nGLASSMORPHISM. A restrained pale blue, cyan and lavender gradient page background, with clearly frosted translucent glass header, hero text surface, menu panels and contact strip. The background remains visible through the UI surfaces; fine luminous white edges, soft diffusion, mild depth. Use dark navy readable clean sans-serif text; thin/regular headings and vivid violet-blue button. Light, airy glass presentation rather than skeuomorphic paper or chunky neumorphic shadows. Photographs remain sharp and exactly natural, not blurred or tinted."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+      "sourceSha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f",
+      "outputSha256": "022d36b31c331dff9cdf3b14270c93d0877e18e0c03f80e11c2149cba7ba537f",
+      "createdAt": "2026-10-06T07:52:47.513777+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json"
+    }
+  ]
+}

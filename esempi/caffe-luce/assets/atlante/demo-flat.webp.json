@@ -1,0 +1,65 @@
+{
+  "prompt": "Use case: style-transfer.\nImage 1 is the EDIT TARGET: an existing complete Caffè Luce website screenshot for a design textbook. Update ONLY the visual imagery WITHIN its four existing image regions: (1) hero picture on the right, (2) coffee menu image, (3) croissant menu image, (4) tea menu image. Change all four so their medium and palette visibly match this website's interface style.\nPreserve the exact website, aspect ratio 4:3, all layout/positions/sizes, navigation, all typography, UI backgrounds, colors, buttons, rules, section order and ALL written text. Do not redesign the UI. Do not add sections, labels, browser chrome, prices, objects or badges. Original photos must be replaced by styled images, not merely left untouched.\nHero invariant: one espresso cup with saucer, one croissant on its plate, folded napkin and table, in the same composition. Menu invariants: cup+ saucer, one croissant, one teacup, same object size and position within each menu panel.\nExact text, unchanged: \"CAFFÈ LUCE\"; \"Menu\"; \"Il locale\"; \"Contatti\"; \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; \"Caffè\" / \"Espresso e cappuccino\"; \"Croissant\" / \"Ogni mattina\"; \"Tè\" / \"Una selezione di aromi\"; \"Ti aspettiamo\"; \"Lun–Sab · 7–19\"; \"In centro, ogni giorno.\"; \"Un luogo per una pausa\".\nOutput one sharp complete high-resolution webpage screenshot, ideally >=1448x1086. All text and small labels crisp, not degraded. Only four content images change.\nSTYLE OF THE CONTENT IMAGES:\nFLAT DESIGN imagery: replace all photographs with clean two-dimensional vector-like illustrations. Hero has flat geometric espresso cup/saucer, croissant/plate and folded napkin on a simply drawn oak-toned table, with solid terracotta, navy, ivory and warm beige shapes. Menu images are matching flat illustrated cup, croissant and tea. No photorealism, gradients, 3D modeling, textures or shadows inside the new illustrations. Same geometry and subjects, instantly recognizable. The surrounding flat UI stays exactly as in Image1.",
+  "createdAt": "2026-10-06T07:50:42.541083+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2675"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2675",
+  "bookletFolio": 59,
+  "bookletChapterOrdinal": 39,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · flat design · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "flat",
+  "sourceSha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755",
+  "outputSha256": "a9aae7594e4461b47357d1095044e8e67dceda3350b623e84e14b4a9cb3d7980",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10c4b-7d51-78a2-af29-31202d562c30/exec-a299dac0-57ab-4df9-88ac-95e4810de82f.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-root.json",
+  "generationQA": {
+    "fourImagesChanged": true,
+    "subjectsPreserved": true,
+    "copyVisuallyVerified": true,
+    "layoutPreserved": true,
+    "sharpness": "passed",
+    "style": "2D geometric illustrations"
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v1.png",
+      "sourceSha256": "015f03502d49140b2041445c669f1bd88794cbe5dac32589b05763b6e81baf0b",
+      "outputSha256": "68c4251cebd0bf24653a7029984534d8128597e13c33a523fec126e376ccc4f6",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Create one exceptionally crisp high-resolution desktop WEBSITE SCREENSHOT, landscape 4:3, ideally 1536 x 1152 or higher. It is the canonical neutral demo for an Italian design textbook. NO browser chrome, device, mockup, perspective, hands, surroundings, watermarks, invented badges or lorem ipsum. Show a complete compact homepage from header to footer, all within the image, with clean readable Italian typography and generous but not excessive spacing.\nThe fictional local café is called \"CAFFÈ LUCE\". This exact homepage and all its contents will be restyled later. Establish a straightforward fixed structure:\n1. Slim top header: the wordmark \"CAFFÈ LUCE\" left; exactly three nav links right: \"Menu\", \"Il locale\", \"Contatti\".\n2. Large two-column hero: LEFT the exact two-line heading \"Una pausa,\\nogni giorno.\" and one short line \"Caffè, dolci e incontri.\" and button \"Scopri il menu\". RIGHT a rectangular warm photograph of one white espresso cup with visible crema, one croissant and a folded white napkin on a light oak café table, photographed from slightly above. Soft natural daylight, no people, no logos in the photograph.\n3. Section heading \"Il nostro menu\". Three equal horizontal menu tiles in one row, in this exact order: \"Caffè\" / \"Croissant\" / \"Tè\". Each has a small simple isolated beverage or croissant photograph and one short line respectively: \"Espresso e cappuccino\", \"Ogni mattina\", \"Una selezione di aromi\". Do NOT add prices, products or extra sections.\n4. Compact contact strip: heading \"Ti aspettiamo\", then \"Lun–Sab · 7–19\" and \"In centro, ogni giorno.\".\n5. Slim footer: left \"CAFFÈ LUCE\", right \"Un luogo per una pausa\".\nKeep the four photos distinct and natural. Strong image/text separation, no collage overlap. Hero approximately 40% of image height, menu approximately 23%, contact/footer approximately 14%.\nSTYLE FOR THIS CANONICAL IMAGE: refined FLAT DESIGN. Pure two-dimensional warm ivory/white surfaces, dark navy sans-serif text, restrained terracotta orange accents, precise geometric shapes, solid-color simple button, no material simulation, bevels, glossy gradients or shadows. The café theme stays neutral and welcoming. Readable typography (Inter-like), clear hierarchy. All text must be spelled exactly as specified. Render ONE website, not a page of multiple variations. Make the layout clean and sharp enough for textbook print reproduction."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "sourceSha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755",
+      "outputSha256": "a9aae7594e4461b47357d1095044e8e67dceda3350b623e84e14b4a9cb3d7980",
+      "createdAt": "2026-10-06T07:50:42.541083+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-root.json"
+    }
+  ]
+}

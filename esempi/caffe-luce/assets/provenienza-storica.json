@@ -1,0 +1,310 @@
+{
+  "case": "CAFFÈ LUCE",
+  "type": "Elaborazioni didattiche sintetiche; il café è fittizio.",
+  "created": "2026-10-07",
+  "repositoryOrigin": "CVeDI 2026:2027",
+  "sourceManifestOrigin": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+  "sourceManifestPortableCopy": "assets/atlante/manifest-v2.json",
+  "layoutPromptPortableCopy": "assets/atlante/manifest-v1.json",
+  "activeImageVersion": 2,
+  "invariants": [
+    "brand",
+    "navigation",
+    "hero heading",
+    "menu order and three items",
+    "food subjects and quantities",
+    "contact hours",
+    "footer",
+    "section order"
+  ],
+  "imagePolicy": "Nessuna modifica ai raster. Il sito visualizza regioni pulite delle immagini originali attraverso crop CSS a runtime. I testi vengono renderizzati semanticamente in HTML.",
+  "cropCoordinates": "[x,y,width,height] in pixel sorgente; dati in stili.js; regioni escludono testo, titoli, didascalie e cornici.",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2008:1740",
+    "updatedRepoTranscript": "assets/booklet/capitolo-2/testo-figma-aggiornato.json",
+    "sourceCatalogueNode": "2328:245"
+  },
+  "images": [
+    {
+      "id": "html",
+      "originRepoPath": "public/images/storia-design/atlante/demo-html.webp",
+      "file": "assets/atlante/demo-html.webp",
+      "sha256": "7a49bf8d34a27568e290b515068fef94fcbd24aec3e2777c8139c68de9868825",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-html.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "html"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "html"
+      }
+    },
+    {
+      "id": "web2",
+      "originRepoPath": "public/images/storia-design/atlante/demo-web2.webp",
+      "file": "assets/atlante/demo-web2.webp",
+      "sha256": "ada3b307d169e40e450e6d73325900f70170427a204776e40c0fe3b81fd26d93",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-web2.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "web2"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "web2"
+      }
+    },
+    {
+      "id": "scheu",
+      "originRepoPath": "public/images/storia-design/atlante/demo-scheu.webp",
+      "file": "assets/atlante/demo-scheu.webp",
+      "sha256": "4f60d9ff656790e7c6dd656884589d005f00085d18699497f8997dda2425559f",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-scheu.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "scheu"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "scheu"
+      }
+    },
+    {
+      "id": "flat",
+      "originRepoPath": "public/images/storia-design/atlante/demo-flat.webp",
+      "file": "assets/atlante/demo-flat.webp",
+      "sha256": "a9aae7594e4461b47357d1095044e8e67dceda3350b623e84e14b4a9cb3d7980",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-flat.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "flat"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "flat"
+      }
+    },
+    {
+      "id": "material",
+      "originRepoPath": "public/images/storia-design/atlante/demo-material.webp",
+      "file": "assets/atlante/demo-material.webp",
+      "sha256": "e03e70cb8821901f0eb91a0556e2c9e737871c504cf5eb37c0040a7375fe4726",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-material.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "material"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "material"
+      }
+    },
+    {
+      "id": "neumo",
+      "originRepoPath": "public/images/storia-design/atlante/demo-neumo.webp",
+      "file": "assets/atlante/demo-neumo.webp",
+      "sha256": "410268639dd5223dfaeaa6d999eadb0bfe692a14f16ce929a9e86fca72823755",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-neumo.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "neumo"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "neumo"
+      }
+    },
+    {
+      "id": "glass",
+      "originRepoPath": "public/images/storia-design/atlante/demo-glass.webp",
+      "file": "assets/atlante/demo-glass.webp",
+      "sha256": "022d36b31c331dff9cdf3b14270c93d0877e18e0c03f80e11c2149cba7ba537f",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-glass.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "glass"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "glass"
+      }
+    },
+    {
+      "id": "minimal",
+      "originRepoPath": "public/images/storia-design/atlante/demo-minimal.webp",
+      "file": "assets/atlante/demo-minimal.webp",
+      "sha256": "8a7ed773f8cf6d9963e32b54f56fc5147f7087a31ca8f1f0f0fc6697abe99eda",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-minimal.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "minimal"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "minimal"
+      }
+    },
+    {
+      "id": "y2k",
+      "originRepoPath": "public/images/storia-design/atlante/demo-y2k.webp",
+      "file": "assets/atlante/demo-y2k.webp",
+      "sha256": "461669877374be3ebb36601207228faddc0a49a727f56b28fb11e7d67c5eb9a1",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-y2k.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "y2k"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "y2k"
+      }
+    },
+    {
+      "id": "max",
+      "originRepoPath": "public/images/storia-design/atlante/demo-max.webp",
+      "file": "assets/atlante/demo-max.webp",
+      "sha256": "c40d60604a873dc4c022c814089f46574fa3bb76d4cba6cf48cf7f0766980d38",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-max.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "max"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "max"
+      }
+    },
+    {
+      "id": "neo",
+      "originRepoPath": "public/images/storia-design/atlante/demo-neo.webp",
+      "file": "assets/atlante/demo-neo.webp",
+      "sha256": "634569072b6aba77abf5536718ab7aded08a7f9597557454079caf4247b225e5",
+      "byteIdenticalToRepoSource": true,
+      "sourceSidecar": "assets/atlante/demo-neo.webp.json",
+      "imagegenOriginal": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+      "promptRecord": {
+        "file": "assets/atlante/manifest-v2.json",
+        "imageKey": "neo"
+      },
+      "uiConstructionPromptRecord": {
+        "file": "assets/atlante/manifest-v1.json",
+        "imageKey": "neo"
+      }
+    }
+  ],
+  "fonts": [
+    {
+      "originRepoPath": "public/fonts/web-styles/archivo-black.woff2",
+      "file": "assets/fonts/archivo-black.woff2",
+      "sha256": "4eca2abdbbc1998c3a286e2e83a2256be5263ccb801aa93b00c64fea891efd3a",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/audiowide.woff2",
+      "file": "assets/fonts/audiowide.woff2",
+      "sha256": "2da113c9964a66eeab098d816dd4c13af85d902a733a4df30493f454151b9180",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/fraunces.woff2",
+      "file": "assets/fonts/fraunces.woff2",
+      "sha256": "88e17be075f1be50ab67b057b99e3701b828f44ed28f9452df6c02645bb0cba9",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/ibm-plex-mono-bold.woff2",
+      "file": "assets/fonts/ibm-plex-mono-bold.woff2",
+      "sha256": "9e1455e6e9c5866f607e464fffb7855486dcf575b7e69b83a3d234e587fce41b",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/ibm-plex-mono-regular.woff2",
+      "file": "assets/fonts/ibm-plex-mono-regular.woff2",
+      "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/lora.woff2",
+      "file": "assets/fonts/lora.woff2",
+      "sha256": "6b102ab35aa1f2b315788bb4853434ed1e52137603bf7a3da71a682276748d45",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/noto-serif.woff2",
+      "file": "assets/fonts/noto-serif.woff2",
+      "sha256": "9f36107f7918309d0ffcc7d12ba636a247af36ba337f91f836173dab66a3b27e",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/nunito.woff2",
+      "file": "assets/fonts/nunito.woff2",
+      "sha256": "20fc9b6fc618e7c3c68d3ac750a2a5dfbceb8521675458d2cea580b5693e4798",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/roboto.woff2",
+      "file": "assets/fonts/roboto.woff2",
+      "sha256": "0a44e0bb6ba5c8537e8814c148ef7755f1bce12112361231f595ecc584a18d7a",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/web-styles/space-grotesk.woff2",
+      "file": "assets/fonts/space-grotesk.woff2",
+      "sha256": "a0d054c4af557de20afd6ca59f47ab353bcaec49c63ff04b6c9d39d0f8910557",
+      "licenseFamilyManifest": "assets/licenses/web-styles/manifest.json"
+    },
+    {
+      "originRepoPath": "public/fonts/deck/nunito-sans-latin-wght-normal.woff2",
+      "file": "assets/fonts/nunito-sans.woff2",
+      "sha256": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d",
+      "license": "assets/licenses/deck/OFL-NunitoSans.txt"
+    },
+    {
+      "originRepoPath": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2",
+      "file": "assets/fonts/inter-400.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "license": "assets/licenses/Inter-LICENSE.txt"
+    },
+    {
+      "originRepoPath": "node_modules/@fontsource/inter/files/inter-latin-500-normal.woff2",
+      "file": "assets/fonts/inter-500.woff2",
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f",
+      "license": "assets/licenses/Inter-LICENSE.txt"
+    },
+    {
+      "originRepoPath": "node_modules/@fontsource/inter/files/inter-latin-600-normal.woff2",
+      "file": "assets/fonts/inter-600.woff2",
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a",
+      "license": "assets/licenses/Inter-LICENSE.txt"
+    },
+    {
+      "originRepoPath": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2",
+      "file": "assets/fonts/inter-700.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "license": "assets/licenses/Inter-LICENSE.txt"
+    }
+  ],
+  "futureImages": "Documentate separatamente in assets/futuri; quattro direzioni del booklet e due scenari originali dichiarati sperimentali."
+}

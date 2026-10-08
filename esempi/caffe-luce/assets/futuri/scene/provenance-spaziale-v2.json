@@ -1,0 +1,39 @@
+{
+  "id": "spaziale-v2",
+  "title": "Caffè Luce · spaziale-v2",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "ipotesi progettuale originale",
+  "provenance": "Original synthetic scene generated specifically for the offline educational Caffè Luce example; no external reference images were used.",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "useCase": "photorealistic-natural",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-00561dcd-7937-47a7-94ad-8356a8b6b7b3.png",
+  "sourceReference": null,
+  "inputReferences": [],
+  "prompt": "Use case: photorealistic-natural.\nAsset type: a single landscape hero image for an offline educational café website, presenting a speculative future spatial interface. One independent complete scene, never a contact sheet.\nPrimary request: clearly show a person using a light wearable augmented reality visor to choose café products through spatial panels near a real café counter. The wearable device is the source of the interface, no tabletop projector.\nScene/backdrop: a bright contemporary Italian café during the day, real espresso machine and pastry counter, white walls and pale warm materials, soft daylight. Tangible real products on the counter: white ceramic espresso cup and saucer, golden croissant on a white plate, and a handled glass of amber tea. Show a café environment clearly.\nSubject: one adult customer viewed in three-quarter profile wearing a slim lightweight transparent-lens AR visor with small electronics along the temples, believable near-future design. The customer's one complete visible hand reaches into the open space and the index finger selects the closest virtual product panel, with a subtle selection glow around the finger. Show three translucent thin spatial panels hovering between customer and café counter at three visibly DIFFERENT depths and angles, staggered in an oblique arrangement. Each panel contains only a large clear three-dimensional café product preview: espresso cup, croissant, or amber tea glass, one product per panel. Each product preview has its own visible modeled depth extending slightly beyond the panel plane, so the interface is spatial, not a flat screen. The panels are lightly frosted pale lavender translucent surfaces with understated delicate edges and tiny abstract circular controls, without text. Their overlap, perspective and decreasing apparent size make distance in space unmistakable. A subtle line of sight from visor direction to panels ties the interaction to the wearable; avoid beams, lasers or tabletop projection.\nStyle/medium: polished believable editorial product concept photography with natural skin, clothing, ceramic, pastry and glass texture. The panels are a clearly rendered AR visualization seen in the same scene, restrained and understandable. No illustration or cartoon.\nComposition/framing: horizontal landscape around 16:10, medium-wide three-quarter view. Keep the whole visor, complete selecting hand, panels and tangible products centered together inside the frame with at least 8 percent safe margins around the functional objects. Show enough of the customer's arm and face to make the gesture natural. Camera near shoulder level slightly looking toward the café counter, strong perspective and separation between foreground panel, middle panel and rear panel. One continuous scene.\nLighting/mood: luminous soft daytime light, airy white and pale lavender palette, realistic warm brown pastry and amber tea. Interface transparent enough to reveal the real counter through it, yet clearly readable. No strong lens flare or darkness.\nText: none. No lettering, labels, words, numbers, logos, branding, menus, watermark or raster typography anywhere.\nConstraints: wearable AR system, human gesture interaction, real café context, perceptible depth. No tabletop projector, no free-floating volumetric holographic replicas without panel surfaces, no desktop monitor, smartphone, tablet, opaque rectangular screen, contact sheet, collage, decorative frame, browser UI or extra fingers. No text or explanatory overlay on the photograph.",
+  "transparentBackground": false,
+  "file": "spaziale-v2.png",
+  "sha256": "d5c37bcf7f6f1799252d8e8395cfab13616a302959e3f66c5bc14a27aafd588b",
+  "dimensions": {
+    "width": 1586,
+    "height": 992
+  },
+  "bytes": 2344101,
+  "runtime": {
+    "file": "spaziale-v2.webp",
+    "sha256": "44e842a728589ffea047d87c1ebec4dc4cdd95c890d954e3a41965c347de5886",
+    "dimensions": {
+      "width": 1586,
+      "height": 992
+    },
+    "bytes": 238652,
+    "conversion": "sharp.webp({quality:90}), full original dimensions, no crop or image edits",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "confirmed using view_image after generation",
+    "subjects": "Customer with transparent lightweight visor selects pastry panel; three translucent panels show espresso/croissant/tea previews; real products present at counter.",
+    "composition": "Single complete bright café scene; visor, selecting hand and panels fully visible; oblique panels and scale differences express depth; no typography.",
+    "note": "Speculative AR visualization. Panels visualize what the wearer sees; this is an educational concept, not documentary hardware photography."
+  }
+}

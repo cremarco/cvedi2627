@@ -1,0 +1,68 @@
+{
+  "brand": "Caffè TTC",
+  "tagline": "Tempo. Tazza. Conversazione.",
+  "demo": "Esempio didattico: Caffè TTC è un bar immaginario. Menu, prezzi e contatti sono dimostrativi.",
+  "address": "Via dei Tigli 18",
+  "city": "Bologna · Quartiere Centro",
+  "email": "ciao@caffettc.example",
+  "hours": [
+    { "days": "Lunedì–Venerdì", "short": "Lun–Ven", "time": "7:30–19:00" },
+    { "days": "Sabato", "short": "Sab", "time": "8:00–20:00" },
+    { "days": "Domenica", "short": "Dom", "time": "8:00–13:00" }
+  ],
+  "week": [
+    { "day": "Lun", "time": "7:30–19:00" },
+    { "day": "Mar", "time": "7:30–19:00" },
+    { "day": "Mer", "time": "7:30–19:00" },
+    { "day": "Gio", "time": "7:30–19:00" },
+    { "day": "Ven", "time": "7:30–19:00" },
+    { "day": "Sab", "time": "8:00–20:00" },
+    { "day": "Dom", "time": "8:00–13:00" }
+  ],
+  "menu": [
+    {
+      "id": "coffee", "name": "La caffetteria", "picture": "coffee",
+      "intro": "Dal primo espresso a una tazza da sorseggiare con calma.",
+      "items": [
+        { "name": "Espresso", "detail": "Una tazza corta, note di cacao e nocciola.", "price": 2 },
+        { "name": "Espresso doppio", "detail": "Lo stesso carattere, in una tazza più lunga.", "price": 3 },
+        { "name": "Cappuccino TTC", "detail": "Espresso, latte montato e una superficie di crema.", "price": 3.5 },
+        { "name": "Caffè filtro", "detail": "Preparato al momento, una tazza da esplorare.", "price": 4.5 }
+      ]
+    },
+    {
+      "id": "croissant", "name": "Dal forno", "picture": "croissant",
+      "intro": "Sfoglie, impasti e una fetta da condividere.",
+      "items": [
+        { "name": "Croissant al burro", "detail": "Sfoglia dorata, servito semplice.", "price": 2.8 },
+        { "name": "Pain au chocolat", "detail": "Sfoglia al burro e cioccolato fondente.", "price": 3.2 },
+        { "name": "Girella alla cannella", "detail": "Impasto morbido, cannella e glassa leggera.", "price": 3.5 },
+        { "name": "Crostata del giorno", "detail": "Frolla e confettura, una fetta alla volta.", "price": 4.8 }
+      ]
+    },
+    {
+      "id": "tea", "name": "Tè e freschi", "picture": "tea",
+      "intro": "Una pausa calda oppure qualcosa di fresco.",
+      "items": [
+        { "name": "Tè e infusi", "detail": "Tè nero, verde o un infuso: scegli al banco.", "price": 3.5 },
+        { "name": "Matcha latte", "detail": "Tè matcha e latte, caldo o con ghiaccio.", "price": 4.5 },
+        { "name": "Spremuta d’arancia", "detail": "Preparata quando la ordini.", "price": 4 },
+        { "name": "Limonata TTC", "detail": "Limone, acqua e una nota di menta.", "price": 3.5 }
+      ]
+    },
+    {
+      "id": "salato", "name": "La pausa salata", "picture": null,
+      "intro": "Per restare ancora un po’, anche dopo la colazione.",
+      "items": [
+        { "name": "Focaccia dell’orto", "detail": "Focaccia, verdure arrostite e ricotta.", "price": 5.5 },
+        { "name": "Toast TTC", "detail": "Pane tostato, formaggio e prosciutto cotto.", "price": 6.5 },
+        { "name": "Yogurt e frutta", "detail": "Yogurt, frutta di stagione e granola.", "price": 5 }
+      ]
+    }
+  ],
+  "highlights": [
+    { "id": "coffee", "title": "Caffè", "detail": "Espresso e cappuccino", "story": "Un espresso prima di partire, un cappuccino per restare.", "price": "Da 2,00 €" },
+    { "id": "croissant", "title": "Croissant", "detail": "Dal forno, ogni mattina", "story": "Una sfoglia dorata e il tempo di una colazione.", "price": "2,80 €" },
+    { "id": "tea", "title": "Tè", "detail": "Una selezione di aromi", "story": "Scegli la tua tazza, calda o da bere con calma.", "price": "3,50 €" }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "prompt": "Use case: precise-object-edit.\nAsset type: complete website screenshot used as a controlled comparison in an Italian design textbook.\nImage 1 is the ONLY EDIT TARGET, not a loose reference. Preserve this exact full website screenshot, its aspect ratio, framing, grid, all UI, positions, margins, borders, lines, buttons, typography, palette outside the pictures, and every text character. Do not crop or reorganize the page.\nONLY edit the FOUR EXISTING PICTURES: (1) the hero upper right with one espresso cup and saucer at front left, one croissant on its plate at back right, a folded napkin at lower right and the table; (2) menu coffee cup and saucer; (3) menu croissant; (4) menu tea glass with handle and tea. Keep these same objects, quantities, relative sizes, positions, composition, and the exact rectangular picture regions. No new food, people, props, logos, text, stickers, or extra objects. All four pictures MUST visibly change medium/lighting/palette; do not leave the original color photographs in any of the four locations.\nINVARIANT UI AND VERBATIM COPY: \"CAFFÈ LUCE\" twice; navigation \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa,\" / \"ogni giorno.\"; \"Caffè, dolci e incontri.\"; button \"Scopri il menu\"; heading \"Il nostro menu\"; ordered items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"Un luogo per una pausa\". Every word, accent, punctuation, size and position must remain exact, sharp and readable. Never alter or style the UI to match a new image treatment; the original UI is locked.\nReturn ONE complete high-resolution landscape website screenshot, with only those four image regions edited, no browser chrome, watermark, outside scenery, or presentation mockup.\nPICTURE STYLE FOR ALL FOUR REGIONS: refined minimalist MONOCHROME black-and-white photographic still life. Completely replace the warm colored source photography with crisp, high-key editorial product photography, pure white and soft light-gray backgrounds, quiet simple geometry, natural soft diffuse studio light, controlled gray shadows, sharp clean detail. The hero must be visibly black-and-white and high-key: a pale white/gray table, the same espresso cup and croissant placement, folded napkin and plate; no warm oak color, orange food color or green plants retained. The three menu images must also become individually monochrome high-key product photographs on clean white/gray, matching the hero. Simplify light and backdrop while keeping the recognizability and quantities of all subjects. Keep the entire minimalist black/white website UI exactly as in Image 1; do not add any embellishments, textures, frames or decorations to the UI.",
+  "createdAt": "2026-10-06T07:50:10.150314+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2701"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2701",
+  "bookletFolio": 67,
+  "bookletChapterOrdinal": 47,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · minimalismo · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "minimal",
+  "sourceSha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12",
+  "outputSha256": "8a7ed773f8cf6d9963e32b54f56fc5147f7087a31ca8f1f0f0fc6697abe99eda",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e17-8f8f-76b2-a1c5-a943708ad8b5/exec-af3dab10-df55-4c3f-a0b2-d42aae2a09e5.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-slides.json",
+  "generationQA": {
+    "result": "passed",
+    "visualInspection": "Both complete images viewed. All four picture regions inspected, including hero and three menu pictures.",
+    "fourImagesChanged": true,
+    "heroChanged": true,
+    "menuCoffeeChanged": true,
+    "menuCroissantChanged": true,
+    "menuTeaChanged": true,
+    "style": "High-key monochrome photographic still life and three matching clean product photographs; light gray/white scene.",
+    "objectsAndQuantitiesPreserved": true,
+    "compositionAndGridPreserved": true,
+    "verbatimTextPreserved": true,
+    "typographyAndUIPalettePreserved": true,
+    "crispText": true,
+    "invarianceAssessment": "Visual semantic/layout preservation; not a claim of byte-identical pixels outside the edited pictures.",
+    "originalRetained": true
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v1.png",
+      "sourceSha256": "70c3932243b19eefba01dd5cbafecf4c0a87678b38690259e860debded11488a",
+      "outputSha256": "560c64f42d8c9e6d0c60894c82154dacdbef7ca488dad717bb49ced63112c464",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nMINIMALIST WEB DESIGN. Pure white paper, black and charcoal type, a very restrained light-weight Helvetica/Inter-like headline, thin hairline dividers, subtle typographic hierarchy and intentional negative space. Remove all colored blocks, bevels, glossy effects and interface shadows. Use a simple black outline button. Keep the source grid, all text and photos in the same positions; preserve the complete menu and contact/footer. Quiet, editorial and focused, not empty or unfinished."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+      "sourceSha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12",
+      "outputSha256": "8a7ed773f8cf6d9963e32b54f56fc5147f7087a31ca8f1f0f0fc6697abe99eda",
+      "createdAt": "2026-10-06T07:50:10.150314+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-slides.json"
+    }
+  ]
+}
