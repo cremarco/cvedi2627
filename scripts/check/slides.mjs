@@ -123,6 +123,7 @@ const recoveredPages = audit.integratedSlides.map(entry => {
 const uxPages = uxSlides.map(pageNumber)
 const briefPages = brief.map(pageNumber)
 const summaryPages = deck.slides.filter(slide => slide.frontmatter.layout === 'summary').map(pageNumber)
+const historyIconPages = history.filter(slide => slide.content.includes('<CvediCard')).map(pageNumber)
 const topicPages = approfondimenti.map(pageNumber)
 if (output) await mkdir(output, { recursive: true })
 const browser = await chromium.launch()
@@ -449,7 +450,7 @@ try {
     ...fixturePages('narrowIntroduction'),
     // History: opening, timeline, images, paired posters, cards, activities and long titles.
     ...fixturePages('narrowHistory'),
-    ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, ...summaryPages, ...deck.slides.filter(slide => slide.content.includes('<CvediNotice')).map(pageNumber), total,
+    ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, ...summaryPages, ...historyIconPages, ...deck.slides.filter(slide => slide.content.includes('<CvediNotice')).map(pageNumber), total,
     ...reports.filter(report => report.projectSection || report.archiveWall || ['Progetti e approfondimenti', 'Voti finali: sei anni a confronto'].includes(report.title)).map(report => report.page),
   ])
   for (const number of narrowNumbers) await inspect(number, true)
@@ -458,7 +459,7 @@ try {
   // is enabled only for export/download builds.
   await page.emulateMedia({ media: 'print' })
   await page.setViewportSize({ width: 1280, height: 720 })
-  for (const number of new Set([3, ...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, ...summaryPages, ...deck.slides.filter(slide => slide.content.includes('<CvediNotice')).map(pageNumber), total])) await inspect(number, false, true)
+  for (const number of new Set([3, ...fixturePages('print'), ...uxPages, ...recoveredPages, ...briefPages, ...topicPages, ...uxCoursePages, ...summaryPages, ...historyIconPages, ...deck.slides.filter(slide => slide.content.includes('<CvediNotice')).map(pageNumber), total])) await inspect(number, false, true)
   assert.equal(await page.getByText('Tempo previsto:', { exact: false }).count(), 0, 'presenter notes are not printed as content')
   await page.emulateMedia({ media: 'screen' })
   await page.close()

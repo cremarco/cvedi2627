@@ -35,11 +35,13 @@ try {
       const cardMotifs = [...root.querySelectorAll('.cvedi-card:has(.card-background)')].map(card => {
         const image = card.querySelector('.card-background')
         const visible = getComputedStyle(image).display !== 'none'
-        if (!visible) return { visible, width: parseFloat(getComputedStyle(card).width), equivalentPair: card.parentElement.children.length === 2 && [...card.parentElement.children].every(child => child.classList.contains('cvedi-card')), interactionExample: Boolean(card.closest('.interaction-examples')) }
+        const expectedHistory = root.dataset.lesson === 'storia-design' && !card.closest('.lesson-albers-figure')
+        if (!visible) return { visible, expectedHistory, width: parseFloat(getComputedStyle(card).width), equivalentPair: card.parentElement.children.length === 2 && [...card.parentElement.children].every(child => child.classList.contains('cvedi-card')), interactionExample: Boolean(card.closest('.interaction-examples')) }
         const box = card.getBoundingClientRect()
         const art = image.getBoundingClientRect()
-        const copyRight = Math.max(...[...card.querySelectorAll('.card-heading, .card-copy')].map(el => el.getBoundingClientRect().right))
-        return { visible, copyClear: copyRight <= art.left, cropped: art.right > box.right && art.bottom > box.bottom,
+        const copyBoxes = [...card.querySelectorAll('.card-heading, .card-copy')].map(el => el.getBoundingClientRect())
+        const copyClear = copyBoxes.every(copy => copy.right <= art.left || copy.bottom <= art.top)
+        return { visible, expectedHistory, copyClear, cropped: art.right > box.right && art.bottom > box.bottom,
           overflow: getComputedStyle(card).overflow, decorative: image.alt === '' && image.getAttribute('aria-hidden') === 'true' }
       })
       const formula = root.querySelector('.formula-flow')
@@ -80,6 +82,7 @@ try {
     for (const delta of report.rows) assert.ok(delta < 1, `slide ${slide.index + 1}: explanations start on a common row (${delta}px)`)
     for (const gap of report.captions) assert.ok(Math.abs(gap - 12) <= 2, `slide ${slide.index + 1}: caption follows actual image (${gap}px)`)
     for (const motif of report.cardMotifs) {
+      if (motif.expectedHistory) assert.ok(motif.visible, `slide ${slide.index + 1}: history card has its icon`)
       if (motif.visible) assert.ok(motif.copyClear && motif.cropped && motif.overflow === 'hidden' && motif.decorative,
         `slide ${slide.index + 1}: decorative corner is cropped and separate from text`)
       else assert.ok(motif.width < 420 || !motif.equivalentPair || motif.interactionExample, `slide ${slide.index + 1}: compact and non-pair compositions omit motifs`)

@@ -1,0 +1,923 @@
+{
+  "version": "history-icons-v1",
+  "mode": "built-in image_gen",
+  "rights": "Original decorative illustrations generated for CVeDI with OpenAI ImageGen. Prompts, PNG originals and source paths retained.",
+  "paletteAuthority": "DESIGN.md and styles/tokens.css",
+  "paletteColors": {
+    "primary": "#193CB8",
+    "outline": "#162456",
+    "light": "#DBEAFE",
+    "mid": "#BEDBFF",
+    "accent": "#E3CD13"
+  },
+  "style": "Rounded dark-blue contours, pale functional faces, restrained yellow accent, transparent background.",
+  "counts": {
+    "images": 12,
+    "titleMappings": 53,
+    "directCardUses": 56,
+    "owningSlides": 19
+  },
+  "jobs": [
+    {
+      "id": "history-book",
+      "subject": "One open reference book with three broad reading lines on each page and one small yellow bookmark. No letters.",
+      "group": "card",
+      "key": "history-book",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-book-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-book-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-book-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One open reference book with three broad reading lines on each page and one small yellow bookmark. No letters.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Leggere un’epoca",
+        "Riconoscere le eredità",
+        "Leggere",
+        "Pagina",
+        "Artefatti e contesto"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-f10ef143-4c68-4989-8f58-8c6793cf2153.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "fbc9350a1cf9104172ee1396ce310c360b139c1d38f4737950eab95d2c2884b5",
+      "alpha": {
+        "transparent": 883679,
+        "partial": 687446,
+        "opaque": 1391
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 177,
+          "title": "Cosa impareremo",
+          "lesson": "storia-design",
+          "card": "Leggere un’epoca",
+          "key": "leggere unepoca"
+        },
+        {
+          "page": 177,
+          "title": "Cosa impareremo",
+          "lesson": "storia-design",
+          "card": "Riconoscere le eredità",
+          "key": "riconoscere le eredita"
+        },
+        {
+          "page": 190,
+          "title": "Tipografia: funzione ed espressione",
+          "lesson": "storia-design",
+          "card": "Leggere",
+          "key": "leggere"
+        },
+        {
+          "page": 212,
+          "title": "Dal leggere all’interagire",
+          "lesson": "storia-design",
+          "card": "Pagina",
+          "key": "pagina"
+        },
+        {
+          "page": 239,
+          "title": "Lo stile va verificato",
+          "lesson": "storia-design",
+          "card": "Leggere",
+          "key": "leggere"
+        },
+        {
+          "page": 241,
+          "title": "Fonti per continuare",
+          "lesson": "storia-design",
+          "card": "Artefatti e contesto",
+          "key": "artefatti e contesto"
+        }
+      ]
+    },
+    {
+      "id": "history-research",
+      "subject": "One tilted magnifying glass over one evidence sheet, with one broad yellow evidence dot. No fine detail.",
+      "group": "card",
+      "key": "history-research",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-research-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-research-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-research-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One tilted magnifying glass over one evidence sheet, with one broad yellow evidence dot. No fine detail.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Con che cosa?",
+        "Comprendere",
+        "Contesto",
+        "Ritrovare"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-6ef88bdc-6886-4648-ae39-f30fa5b97cb1.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "3e0aed8756d31d00eea67995e2c415615b961a5d27a8953fb45123b5ed96c210",
+      "alpha": {
+        "transparent": 914875,
+        "partial": 656486,
+        "opaque": 1155
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 178,
+          "title": "Come leggere un artefatto",
+          "lesson": "storia-design",
+          "card": "Con che cosa?",
+          "key": "con che cosa?"
+        },
+        {
+          "page": 189,
+          "title": "Organizzare il sapere",
+          "lesson": "storia-design",
+          "card": "Ritrovare",
+          "key": "ritrovare"
+        },
+        {
+          "page": 225,
+          "title": "Semplice non significa sempre usabile",
+          "lesson": "storia-design",
+          "card": "Comprendere",
+          "key": "comprendere"
+        },
+        {
+          "page": 240,
+          "title": "Tre eredità da riconoscere",
+          "lesson": "storia-design",
+          "card": "Contesto",
+          "key": "contesto"
+        }
+      ]
+    },
+    {
+      "id": "history-identity",
+      "subject": "One recognizable round seal attached to a simple identity card. The card has a broad emblem circle and two line bars, no person or lettering.",
+      "group": "card",
+      "key": "history-identity",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-identity-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-identity-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-identity-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One recognizable round seal attached to a simple identity card. The card has a broad emblem circle and two line bars, no person or lettering.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Identità",
+        "Riconoscibilità",
+        "Autenticità",
+        "Riconoscere",
+        "Per chi?",
+        "Marchi tipografici"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-58b76d14-8d3b-4622-bea9-b3be825215b3.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "9048896bace33bb233516ef2ac17259a1f94ef7db8196e61b7be751b01876952",
+      "alpha": {
+        "transparent": 882639,
+        "partial": 687754,
+        "opaque": 2123
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 178,
+          "title": "Come leggere un artefatto",
+          "lesson": "storia-design",
+          "card": "Per chi?",
+          "key": "per chi?"
+        },
+        {
+          "page": 183,
+          "title": "Segni per riconoscere",
+          "lesson": "storia-design",
+          "card": "Identità",
+          "key": "identita"
+        },
+        {
+          "page": 183,
+          "title": "Segni per riconoscere",
+          "lesson": "storia-design",
+          "card": "Riconoscibilità",
+          "key": "riconoscibilita"
+        },
+        {
+          "page": 183,
+          "title": "Segni per riconoscere",
+          "lesson": "storia-design",
+          "card": "Autenticità",
+          "key": "autenticita"
+        },
+        {
+          "page": 188,
+          "title": "Dalla bottega al pubblico",
+          "lesson": "storia-design",
+          "card": "Marchi tipografici",
+          "key": "marchi tipografici"
+        },
+        {
+          "page": 190,
+          "title": "Tipografia: funzione ed espressione",
+          "lesson": "storia-design",
+          "card": "Riconoscere",
+          "key": "riconoscere"
+        },
+        {
+          "page": 239,
+          "title": "Lo stile va verificato",
+          "lesson": "storia-design",
+          "card": "Riconoscere",
+          "key": "riconoscere"
+        }
+      ]
+    },
+    {
+      "id": "history-print",
+      "subject": "One compact printing roller above one printed sheet and a simple rectangular printing block. No historical machine reproduction, just a printing concept.",
+      "group": "card",
+      "key": "history-print",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-print-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-print-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-print-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One compact printing roller above one printed sheet and a simple rectangular printing block. No historical machine reproduction, just a printing concept.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Tipi in metallo",
+        "Processo coordinato",
+        "Riprodurre",
+        "Stampa"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-9396c96e-78fe-409a-8903-91b086116ab1.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "47d9767a8276e6e889e7ef9e7c69a1d1ce254a5568668f5822f5ce2c31d3c4ba",
+      "alpha": {
+        "transparent": 1000098,
+        "partial": 569202,
+        "opaque": 3216
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 186,
+          "title": "Gutenberg: un sistema di produzione",
+          "lesson": "storia-design",
+          "card": "Tipi in metallo",
+          "key": "tipi in metallo"
+        },
+        {
+          "page": 186,
+          "title": "Gutenberg: un sistema di produzione",
+          "lesson": "storia-design",
+          "card": "Processo coordinato",
+          "key": "processo coordinato"
+        },
+        {
+          "page": 191,
+          "title": "La litografia apre nuove possibilità",
+          "lesson": "storia-design",
+          "card": "Riprodurre",
+          "key": "riprodurre"
+        },
+        {
+          "page": 209,
+          "title": "Comporre il testo e stampare",
+          "lesson": "storia-design",
+          "card": "Stampa",
+          "key": "stampa"
+        }
+      ]
+    },
+    {
+      "id": "history-distribution",
+      "subject": "Three paper sheets spread as a fan, with one bold small outgoing arrow. Broad line bars only, no letters.",
+      "group": "card",
+      "key": "history-distribution",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-distribution-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-distribution-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-distribution-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: Three paper sheets spread as a fan, with one bold small outgoing arrow. Broad line bars only, no letters.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Diffusione",
+        "Gazzette",
+        "Velocità"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-1ad3b6c7-4a3f-4447-84b9-b21c7ca68113.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "c365b4b0c42ade2990d5cb7e7e5d300b77cde1d8dc75136162990f189f03405a",
+      "alpha": {
+        "transparent": 901411,
+        "partial": 669600,
+        "opaque": 1505
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 186,
+          "title": "Gutenberg: un sistema di produzione",
+          "lesson": "storia-design",
+          "card": "Diffusione",
+          "key": "diffusione"
+        },
+        {
+          "page": 188,
+          "title": "Dalla bottega al pubblico",
+          "lesson": "storia-design",
+          "card": "Gazzette",
+          "key": "gazzette"
+        },
+        {
+          "page": 202,
+          "title": "Art Déco: dare forma alla modernità",
+          "lesson": "storia-design",
+          "card": "Velocità",
+          "key": "velocita"
+        },
+        {
+          "page": 202,
+          "title": "Art Déco: dare forma alla modernità",
+          "lesson": "storia-design",
+          "card": "Diffusione",
+          "key": "diffusione"
+        }
+      ]
+    },
+    {
+      "id": "history-layout",
+      "subject": "One upright layout page with a bold header block and a simple two-column grid, with a short ruler alongside. No numerals or letters.",
+      "group": "card",
+      "key": "history-layout",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-layout-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-layout-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-layout-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One upright layout page with a bold header block and a simple two-column grid, with a short ruler alongside. No numerals or letters.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Ordinare",
+        "Classificare",
+        "Spiegare",
+        "Percorrere",
+        "Geometria",
+        "Composizione",
+        "Gerarchia"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-9ad151d4-6e5b-47ff-9ec3-1ecc70771ba3.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "61349d45d80a52f3710bfd5de6b5417be9591a1d0621a1a79e2198b8d0af5c26",
+      "alpha": {
+        "transparent": 725424,
+        "partial": 845490,
+        "opaque": 1602
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 181,
+          "title": "Scrivere significa organizzare",
+          "lesson": "storia-design",
+          "card": "Ordinare",
+          "key": "ordinare"
+        },
+        {
+          "page": 189,
+          "title": "Organizzare il sapere",
+          "lesson": "storia-design",
+          "card": "Classificare",
+          "key": "classificare"
+        },
+        {
+          "page": 189,
+          "title": "Organizzare il sapere",
+          "lesson": "storia-design",
+          "card": "Spiegare",
+          "key": "spiegare"
+        },
+        {
+          "page": 190,
+          "title": "Tipografia: funzione ed espressione",
+          "lesson": "storia-design",
+          "card": "Percorrere",
+          "key": "percorrere"
+        },
+        {
+          "page": 202,
+          "title": "Art Déco: dare forma alla modernità",
+          "lesson": "storia-design",
+          "card": "Geometria",
+          "key": "geometria"
+        },
+        {
+          "page": 209,
+          "title": "Comporre il testo e stampare",
+          "lesson": "storia-design",
+          "card": "Composizione",
+          "key": "composizione"
+        },
+        {
+          "page": 240,
+          "title": "Tre eredità da riconoscere",
+          "lesson": "storia-design",
+          "card": "Gerarchia",
+          "key": "gerarchia"
+        }
+      ]
+    },
+    {
+      "id": "history-pen",
+      "subject": "One familiar fountain-pen nib overlapping a sheet with one simple curved drawn stroke. No lettering.",
+      "group": "card",
+      "key": "history-pen",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-pen-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-pen-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-pen-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One familiar fountain-pen nib overlapping a sheet with one simple curved drawn stroke. No lettering.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Registrare",
+        "Disegnare",
+        "Linea",
+        "Lettere"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-5ab1dce3-aaa3-4545-b3ef-9feaece8277e.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "38464fc6c2da35d7bc3cde48cdc53ed262854f56f355b6d9ca94c1f8b99e4b87",
+      "alpha": {
+        "transparent": 997056,
+        "partial": 574441,
+        "opaque": 1019
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 181,
+          "title": "Scrivere significa organizzare",
+          "lesson": "storia-design",
+          "card": "Registrare",
+          "key": "registrare"
+        },
+        {
+          "page": 191,
+          "title": "La litografia apre nuove possibilità",
+          "lesson": "storia-design",
+          "card": "Disegnare",
+          "key": "disegnare"
+        },
+        {
+          "page": 193,
+          "title": "Art Nouveau: un linguaggio integrato",
+          "lesson": "storia-design",
+          "card": "Linea",
+          "key": "linea"
+        },
+        {
+          "page": 193,
+          "title": "Art Nouveau: un linguaggio integrato",
+          "lesson": "storia-design",
+          "card": "Lettere",
+          "key": "lettere"
+        }
+      ]
+    },
+    {
+      "id": "history-palette",
+      "subject": "One compact fan of three broad color swatches in pale blue, deeper blue and yellow, with one small yellow selection dot.",
+      "group": "card",
+      "key": "history-palette",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-palette-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-palette-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-palette-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One compact fan of three broad color swatches in pale blue, deeper blue and yellow, with one small yellow selection dot.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Colorare"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-fd4902c0-7abb-42c0-a3e0-ad953c11e255.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "9bb22f6cc180dd148ce4e37d19b49bf5e2b02c46dc775becef0892938ed99d0b",
+      "alpha": {
+        "transparent": 1044586,
+        "partial": 526966,
+        "opaque": 964
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 191,
+          "title": "La litografia apre nuove possibilità",
+          "lesson": "storia-design",
+          "card": "Colorare",
+          "key": "colorare"
+        }
+      ]
+    },
+    {
+      "id": "history-screen",
+      "subject": "One compact browser window with a single broad button and a simple cursor arrow selecting it. Two broad content blocks, no lettering.",
+      "group": "card",
+      "key": "history-screen",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-screen-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-screen-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-screen-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One compact browser window with a single broad button and a simple cursor arrow selecting it. Two broad content blocks, no lettering.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Per fare che cosa?",
+        "Indicare un’azione",
+        "Schermo",
+        "Mouse",
+        "Distinguere",
+        "Agire",
+        "Convenzioni"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-8388b8c2-f7c1-4c59-b93a-214ddd614cc1.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "65c2d8ef438b14f4f9ce265403210ead39b4c32838dfdfb39a49e617996049da",
+      "alpha": {
+        "transparent": 718138,
+        "partial": 852454,
+        "opaque": 1924
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 178,
+          "title": "Come leggere un artefatto",
+          "lesson": "storia-design",
+          "card": "Per fare che cosa?",
+          "key": "per fare che cosa?"
+        },
+        {
+          "page": 196,
+          "title": "Quando il design persuade",
+          "lesson": "storia-design",
+          "card": "Indicare un’azione",
+          "key": "indicare unazione"
+        },
+        {
+          "page": 212,
+          "title": "Dal leggere all’interagire",
+          "lesson": "storia-design",
+          "card": "Schermo",
+          "key": "schermo"
+        },
+        {
+          "page": 215,
+          "title": "1968: il computer come collaborazione",
+          "lesson": "storia-design",
+          "card": "Mouse",
+          "key": "mouse"
+        },
+        {
+          "page": 225,
+          "title": "Semplice non significa sempre usabile",
+          "lesson": "storia-design",
+          "card": "Distinguere",
+          "key": "distinguere"
+        },
+        {
+          "page": 239,
+          "title": "Lo stile va verificato",
+          "lesson": "storia-design",
+          "card": "Agire",
+          "key": "agire"
+        },
+        {
+          "page": 240,
+          "title": "Tre eredità da riconoscere",
+          "lesson": "storia-design",
+          "card": "Convenzioni",
+          "key": "convenzioni"
+        }
+      ]
+    },
+    {
+      "id": "history-network",
+      "subject": "Three small page panels joined by two broad connecting lines. One yellow central page indicates a shared connection. No people or text.",
+      "group": "card",
+      "key": "history-network",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-network-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-network-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-network-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: Three small page panels joined by two broad connecting lines. One yellow central page indicates a shared connection. No people or text.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Condividere",
+        "Rete",
+        "Ipertesto",
+        "Lavoro condiviso",
+        "Sistemi e tecnologie"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-89266fb2-8991-4904-bcdf-60b73418decf.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "a09694a6a6f1bfaf9d0ac514804758447690067f5ac46edee5110fd1d84ac7ff",
+      "alpha": {
+        "transparent": 1133205,
+        "partial": 438072,
+        "opaque": 1239
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 181,
+          "title": "Scrivere significa organizzare",
+          "lesson": "storia-design",
+          "card": "Condividere",
+          "key": "condividere"
+        },
+        {
+          "page": 212,
+          "title": "Dal leggere all’interagire",
+          "lesson": "storia-design",
+          "card": "Rete",
+          "key": "rete"
+        },
+        {
+          "page": 215,
+          "title": "1968: il computer come collaborazione",
+          "lesson": "storia-design",
+          "card": "Ipertesto",
+          "key": "ipertesto"
+        },
+        {
+          "page": 215,
+          "title": "1968: il computer come collaborazione",
+          "lesson": "storia-design",
+          "card": "Lavoro condiviso",
+          "key": "lavoro condiviso"
+        },
+        {
+          "page": 241,
+          "title": "Fonti per continuare",
+          "lesson": "storia-design",
+          "card": "Sistemi e tecnologie",
+          "key": "sistemi e tecnologie"
+        }
+      ]
+    },
+    {
+      "id": "history-testing",
+      "subject": "One familiar small checklist clipboard with two broad check marks and one yellow selected check, no words or tiny rows.",
+      "group": "card",
+      "key": "history-testing",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-testing-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-testing-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-testing-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One familiar small checklist clipboard with two broad check marks and one yellow selected check, no words or tiny rows.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Motivare una scelta",
+        "Verificare",
+        "Criteri di progetto"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-bc5e4857-df37-4efb-8520-ff20569c8955.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "bfa9c40964cebbe3435b110148336a8e0376d901e92116e766dc848962bd43fe",
+      "alpha": {
+        "transparent": 822379,
+        "partial": 748822,
+        "opaque": 1315
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 177,
+          "title": "Cosa impareremo",
+          "lesson": "storia-design",
+          "card": "Motivare una scelta",
+          "key": "motivare una scelta"
+        },
+        {
+          "page": 225,
+          "title": "Semplice non significa sempre usabile",
+          "lesson": "storia-design",
+          "card": "Verificare",
+          "key": "verificare"
+        },
+        {
+          "page": 241,
+          "title": "Fonti per continuare",
+          "lesson": "storia-design",
+          "card": "Criteri di progetto",
+          "key": "criteri di progetto"
+        }
+      ]
+    },
+    {
+      "id": "history-message",
+      "subject": "One simple megaphone overlapping one small upright poster sheet, with a bold circle and one diagonal mark as the poster composition. No lettering.",
+      "group": "card",
+      "key": "history-message",
+      "palette": "history",
+      "original": "assets/theme-imagegen/originals/history-message-v1.png",
+      "web": "public/images/generated/theme-2026/cards/history-message-v1.webp",
+      "promptFile": "assets/theme-imagegen/prompts/history-message-v1.txt",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative editorial card motif for CVeDI lesson 03, matching the existing educational iconography of lessons 01–02.\nStyle: confident thick dark colored rounded contours, broad white and pale opaque functional surfaces, flat matte fills, very restrained illustrated depth (one slim offset rear edge only). Familiar object proportions and a compact clean silhouette. No texture, sketching, realistic 3D, glossy highlights, white shine streaks, glow, cast shadows, decorative stars, outer badge or frame.\nAuthoritative palette: blue primary #193CB8, dark-blue outlines #162456, pale faces #DBEAFE and #BEDBFF, one restrained yellow #E3CD13 accent; opaque white functional paper/panel surfaces permitted. No black or gray outlines, no unrelated color families.\nComposition: one compact centered square motif, about 80% of the canvas, at least 8% transparent margin on every side. Keep the essential clue inside the central 60% because the UI uses the image at 96–168 pixels and clips the lower-right corner. Use broad forms and minimal details.\nBackground: genuine transparent alpha around the motif, no baked checkerboard or solid background; functional filled object surfaces must remain opaque. No text, letters, digits, logo or watermark.\nSubject: One simple megaphone overlapping one small upright poster sheet, with a bold circle and one diagonal mark as the poster composition. No lettering.\nGenerate exactly this one asset, not a sheet or variants.\n",
+      "titles": [
+        "Annunci",
+        "Rendere urgente",
+        "Dare una cornice",
+        "Immagine"
+      ],
+      "status": "complete",
+      "published": true,
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1162d-f635-7013-ba0a-a5e715f4d5d8/exec-c86c7f9b-5fb9-4151-b598-cc7bd2a43287.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "785d55dcacdb4269250117bc18d5d90d4d872b75a2fe1547558c655b6ca6a9d9",
+      "alpha": {
+        "transparent": 985186,
+        "partial": 585465,
+        "opaque": 1865
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed standalone: relevant broad motif, rounded blue contours, pale faces, yellow accent and genuine transparency; no text."
+      },
+      "owners": [
+        {
+          "page": 188,
+          "title": "Dalla bottega al pubblico",
+          "lesson": "storia-design",
+          "card": "Annunci",
+          "key": "annunci"
+        },
+        {
+          "page": 193,
+          "title": "Art Nouveau: un linguaggio integrato",
+          "lesson": "storia-design",
+          "card": "Immagine",
+          "key": "immagine"
+        },
+        {
+          "page": 196,
+          "title": "Quando il design persuade",
+          "lesson": "storia-design",
+          "card": "Rendere urgente",
+          "key": "rendere urgente"
+        },
+        {
+          "page": 196,
+          "title": "Quando il design persuade",
+          "lesson": "storia-design",
+          "card": "Dare una cornice",
+          "key": "dare una cornice"
+        }
+      ]
+    }
+  ]
+}

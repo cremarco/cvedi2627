@@ -280,6 +280,8 @@ export async function checkSlideSources() {
   const cardGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-cards-v2.json'), 'utf8'))
   const outlineGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-outline-v3.json'), 'utf8'))
   const chapterGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-chapters-v1.json'), 'utf8'))
+  const historyIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-history-icons-v1.json'), 'utf8'))
+  assert.equal(historyIcons.jobs.length, historyIcons.counts.images, 'complete history icon family')
   const chapterArtwork = { ...JSON.parse(await readFile(path.join(root, 'data/chapter-artwork.json'), 'utf8')), ...JSON.parse(await readFile(path.join(root, 'data/chapter-artwork-local.json'), 'utf8')) }
   assert.equal(chapterGenerations.jobs.length, 13, 'all thirteen generated chapter illustrations are retained')
   assert.equal(Object.keys(chapterArtwork).length, chapterGenerations.jobs.length, 'all retained chapter illustrations are catalogued')
@@ -292,8 +294,8 @@ export async function checkSlideSources() {
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
-  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length, 'only refreshed motifs populate the card catalog')
-  for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs]) {
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length, 'only registered motifs populate the card catalog')
+  for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs, ...historyIcons.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
     const publicImage = await readFile(path.join(root, generation.web))
@@ -302,6 +304,12 @@ export async function checkSlideSources() {
   }
   for (const generation of cardGenerations.jobs)
     assert.equal(artwork.assets[generation.id], '/' + (activeOutline.find(job => job.group === 'card' && job.key === generation.id) ?? generation).web.replace(/^public\//, ''), `card motif ${generation.id}: registered public path`)
+  for (const generation of historyIcons.jobs) {
+    assert.equal(artwork.assets[generation.id], '/' + generation.web.replace(/^public\//, ''), `${generation.id}: history icon registered`)
+    assert.equal(generation.visualReview.status, 'accepted')
+    assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved)
+    assert.ok(generation.owners.length > 0)
+  }
   for (const [id, src] of Object.entries(artwork.thematicAssets))
     assert.ok([...generations.jobs, ...activeOutline.filter(job => job.group === 'thematic')].some(job => (job.key ?? job.id) === id && '/' + job.web.replace(/^public\//, '') === src), `retained thematic figure ${id}: original provenance`)
   for (const generation of activeOutline) {
@@ -326,7 +334,7 @@ export async function checkSlideSources() {
     }
   }
   assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
-  assert.equal(illustratedCards, cardGenerations.counts.directCardUses, 'selected direct cards have semantic motifs')
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses, 'selected direct cards have semantic motifs')
   assert.ok(illustratedCards > 0 && illustratedCards < directCards / 4, 'illustrations remain selective')
 
   // Check literal public image paths in slide content, components and data.
