@@ -1,6 +1,6 @@
 # Introduzione · Mappa delle fonti
 
-Il capitolo contiene 83 slide (92–174 del deck), per 120 minuti. È seguito dalla lezione 3, Storia del design (175–242); la chiusura è alla slide 499 nell’anteprima locale (243 online).
+Il capitolo contiene 83 slide (92–174 del deck), per 120 minuti. È seguito dalla lezione 3, Storia del design (175–241); la chiusura è alla slide 498 nell’anteprima locale (242 online).
 La guida è il [capitolo Introduzione del booklet](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=204-8291). I PDF 2025/26 sono in `../../materiali/lezioni/2025-2026/`.
 Le pagine PDF sono numerate da 1, compresa la prima pagina. Le pagine del booklet corrispondono ai frame C01 001–020.
 

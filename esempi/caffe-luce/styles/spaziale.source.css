@@ -1,0 +1,45 @@
+/* Caffè TTC · spaziale */
+@import "./common/base-01.source.css";
+@import "./common/base-02.source.css";
+@import "./common/base-03.source.css";
+@import "./common/base-04.source.css";
+@import "./common/base-05.source.css";
+@import "./common/base-06.source.css";
+@import "./common/base-07.source.css";
+@import "./common/base-08.source.css";
+@import "./common/base-09.source.css";
+@import "./common/base-10.source.css";
+@import "./common/historical-01.source.css";
+@import "./common/historical-02.source.css";
+@import "./common/historical-03.source.css";
+@import "./common/historical-04.source.css";
+@import "./common/historical-05.source.css";
+@import "./common/historical-06.source.css";
+@import "./common/historical-07.source.css";
+@import "./common/experiences-01.source.css";
+@import "./common/experiences-02.source.css";
+@import "./common/experiences-03.source.css";
+@import "./common/experiences-04.source.css";
+@import "./common/experiences-05.source.css";
+@import "./common/content-01.source.css";
+@import "./common/content-02.source.css";
+@import "./common/extra-01.source.css";
+@import "./common/extra-02.source.css";
+@import "./common/extra-03.source.css";
+@import "./common/extra-04.source.css";
+@import "./common/extra-05.source.css";
+@import "./common/extra-06.source.css";
+@import "./common/extra-07.source.css";
+@import "./common/brand-01.source.css";
+@import "./common/brand-02.source.css";
+
+:root[data-style="spaziale"], .cafe[data-style="spaziale"] { --cafe-paper:#13231e; --cafe-surface:#f8faf7; --cafe-ink:#fff; --cafe-primary:#214b39; --cafe-font:'Inter',sans-serif; }
+.cafe[data-style="spaziale"] { min-height:100svh; background:#13231e; }
+.cafe[data-style="spaziale"] > :not(.cafe-header,.ar-stage) { display:none !important; }
+.cafe[data-style="spaziale"] .cafe-header { position:relative; display:flex; justify-content:center; height:82px; padding:8px 16px; background:#f4f6f1; color:#173329; box-shadow:none; }
+.cafe[data-style="spaziale"] .cafe-header > :not(.style-control,.load-error) { display:none; }
+.cafe[data-style="spaziale"] .style-control { width:min(420px,100%); }
+.cafe[data-style="spaziale"] .style-control .select { color:#173329; background-color:#fff; --select-fill:linear-gradient(#fff,#fff); }
+.cafe[data-style="spaziale"] .ar-stage { display:grid; place-items:center; padding:0; min-height:calc(100svh - 82px); background:#13231e; }
+.ar-site-image { display:block; width:100%; height:calc(100svh - 82px); object-fit:contain; border:0; border-radius:0; box-shadow:none; }
+@media print { .cafe[data-style="spaziale"] .cafe-header { display:none; } .ar-site-image { height:auto; width:100%; } .cafe[data-style="spaziale"] .ar-stage { min-height:0; } }

@@ -8,6 +8,8 @@ Eseguire dalla radice; i comandi abituali sono nel README principale.
 - `check/`: controlli riproducibili; `slide-source.mjs` usa il parser installato, `browser.mjs` condivide l'attesa del rendering.
 - `optimize/`: utilità generiche per immagini, video e archivio.
 
+`build/web-design-examples.mjs` esporta le quattro pagine di Caffè TTC, i 21 CSS e le risorse usate, con licenze e metadati degli asset. Il plugin in `utils/web-design-examples.mjs` espone `/web-design-examples/` durante lo sviluppo; Pages copia il sito nella radice del progetto. `pnpm check:web-examples` verifica varianti, risorse, query e navigazione in dev, nella build e sotto `/cvedi2627/`; `SLIDEV_URL` sceglie l'anteprima isolata, `WEB_EXAMPLES_REPORT` la cartella del rapporto.
+
 Per le illustrazioni: `build/illustration-restyle.mjs` prepara una sola volta il censimento; `build/illustration-prompts.mjs` prepara i job ancora pendenti. Lo strumento integrato ImageGen produce i raster. `build/illustration-ingest.py ID PNG` conserva l’originale e verifica la conversione lossless; `--repair` crea una variante senza sovrascrivere la precedente. `build/illustration-publish.mjs` aggiorna solo gli asset accettati visivamente. `check/illustration-files.py --complete` verifica i 44 asset e le revisioni; `check/illustrations.mjs` verifica tutti i loro usi nelle tre modalità, con eventuali numeri di slide per un controllo mirato. I rapporti restano in `reports/outline-v3/`.
 
 I controlli browser usano Chromium di `playwright-chromium`. `SLIDEV_URL` cambia l'anteprima; eseguire le suite una alla volta. `SLIDEV_SCREENSHOTS` salva render in `reports/` o in una cartella temporanea.
@@ -16,7 +18,7 @@ I controlli browser usano Chromium di `playwright-chromium`. `SLIDEV_URL` cambia
 
 `check:ux-course` verifica l’ordine cromatico degli undici gruppi locali, le proporzioni e l’assenza di cornici delle 138 figure originali, il corpo delle tabelle e l’ingrandimento da tastiera delle lezioni 04–09 su desktop e viewport stretto.
 
-`check:publication` verifica 499 slide locali e 243 online, assenza delle lezioni 04–09 dai file importati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
+`check:publication` verifica 498 slide locali e 242 online, assenza delle lezioni 04–09 dai file importati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
 
 `check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle sei lezioni locali.
 

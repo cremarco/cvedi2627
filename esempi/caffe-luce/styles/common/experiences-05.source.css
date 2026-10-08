@@ -1,0 +1,33 @@
+@media (prefers-reduced-motion: reduce) {
+  :root[data-style] .cafe[data-future="true"] *, :root[data-style] .cafe[data-future="true"] *::before, :root[data-style] .cafe[data-future="true"] *::after { animation: none; transition: none; }
+}
+@media print {
+  .cafe[data-future="true"] { --experience-space: 24px; }
+  .cafe[data-future="true"] .future-experience { display: grid; grid-template-columns: 1fr 1fr; padding: 12px 24px; gap: 8px 24px; break-inside: avoid; border-radius: 0; }
+  .future-controls, .future-status, .future-disclosure { display: none; }
+  .future-heading { font-size: 18px; }
+  .future-description { font-size: 12px; line-height: 1.45; }
+  .future-result { font-size: 12px; transform: none !important; padding: 8px 0 !important; }
+  .future-result p { font-size: 12px; }
+  .future-output-title { font-size: 16px; }
+  .future-scene { margin: 4px 0; }
+  .future-scene img { max-height: 160px; }
+  .cafe[data-future="true"] .cafe-hero { display: grid; grid-template-columns: 40% 60%; height: 260px; }
+  .cafe[data-content="ttc"][data-future="true"] :is(.cafe-hero,.locale-hero) { height: auto; min-height: 0; }
+  .cafe[data-content="ttc"][data-future="true"] .hero-copy > * { flex-shrink: 0; }
+  .cafe[data-content="ttc"][data-future="true"] .hero-picture { height: 280px; min-height: 0; }
+  .cafe[data-future="true"] .hero-copy { min-height: 0; padding: 20px 24px; }
+  .cafe[data-future="true"] #cafe-title { font-size: 34px; line-height: 1.1; }
+  .cafe[data-future="true"] .hero-lead { font-size: 16px; margin: 12px 0; }
+  .cafe[data-future="true"] .cafe-menu { padding: 16px 24px; min-height: 0; }
+  .cafe[data-future="true"] .section-title { margin-bottom: 12px; font-size: 24px; }
+  .cafe[data-future="true"] .menu-item { min-height: 0; height: auto; padding: 12px 8px; transform: none !important; box-shadow: none; }
+  .cafe[data-future="true"] .menu-picture { height: 95px; }
+  .cafe[data-future="true"] .menu-item :is(h2,h3) { height: auto; font-size: 21px; }
+  .cafe[data-future="true"] .menu-item p { font-size: 12px; line-height: 1.5; }
+  .cafe[data-future="true"] .menu-page-products .menu-item { min-height: 0; }
+  .cafe[data-future="true"] .menu-page-products .menu-picture { height: 110px; }
+  .cafe[data-future="true"] .page-intro { padding: 16px 24px; min-height: 0; }
+  .cafe[data-future="true"] .locale-story { min-height: 0; padding: 16px 24px; }
+  .cafe[data-future="true"] .locale-story h2 { font-size: 24px; line-height: 1.2; }
+}

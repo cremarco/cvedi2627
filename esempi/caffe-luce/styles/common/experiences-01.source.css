@@ -1,0 +1,72 @@
+/* Six working café scenarios: each direction owns its reading and interaction. */
+.cafe[data-future="true"] {
+  --experience-space: clamp(24px, 4vw, 64px);
+  --reading-scale: 1;
+  --reading-width: 100;
+  --reading-weight: 650;
+  --reading-opsz: 18;
+}
+.future-experience[hidden] { display: none; }
+.future-experience {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 12px 48px;
+  padding: 28px var(--experience-space); background: var(--cafe-surface); color: var(--cafe-ink);
+}
+.future-heading { margin: 0; font-family: var(--cafe-display); font-size: 28px; font-weight: var(--cafe-weight); line-height: 1.2; letter-spacing: -.025em; text-wrap: balance; }
+.future-intro { display: flex; flex-direction: column; gap: 8px; }
+.future-description { margin: 0; max-width: 56ch; font-size: 15px; line-height: 1.6; }
+.future-controls { grid-column: 2; grid-row: 1 / span 2; display: flex; flex-direction: column; justify-content: center; gap: 12px; min-width: 0; }
+.future-choice-group { display: flex; flex-wrap: wrap; gap: 8px; }
+.future-choice.btn, .future-submit.btn, .future-load-images.btn {
+  min-height: 44px; height: auto; padding: 10px 16px; border: 1px solid var(--cafe-rule); border-radius: var(--cafe-radius);
+  color: var(--cafe-ink); background: var(--cafe-paper); font-family: var(--cafe-font); font-size: 14px; font-weight: 600; line-height: 1.4; box-shadow: none;
+  white-space: normal;
+}
+.future-choice.btn[aria-pressed="true"], .future-submit.btn { border-color: var(--cafe-primary); background: var(--cafe-primary); color: var(--cafe-on-primary); }
+.future-choice.btn:hover, .future-submit.btn:hover { border-color: var(--cafe-primary); filter: brightness(.97); }
+.future-choice.btn:focus-visible, .future-submit.btn:focus-visible, .future-prompt:focus-visible, .future-reading-range:focus-visible { outline: 3px solid var(--cafe-primary); outline-offset: 4px; }
+.future-experience label { display: block; font-size: 14px; line-height: 1.5; }
+.future-reading-range { width: 100%; --range-bg: var(--cafe-paper); --range-fill: 0; color: var(--cafe-primary); height: 24px; }
+.future-result { grid-column: 1 / -1; min-width: 0; font-size: 17px; line-height: 1.6; }
+.future-result:empty, .future-status:empty { display: none; }
+.future-result p, .future-status, .future-disclosure { height: auto; margin: 0; font-size: 14px; line-height: 1.6; }
+.future-output-title { margin: 0 0 8px; font-size: 23px; font-weight: 700; line-height: 1.3; }
+.future-status, .future-disclosure { grid-column: 1 / -1; }
+.future-disclosure { color: var(--cafe-muted); font-size: 12px; }
+.future-result a { color: var(--cafe-primary); font-weight: 600; }
+.future-prompt-form { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px; }
+.future-prompt-form label { grid-column: 1 / -1; }
+.future-prompt.input { width: 100%; max-width: none; height: 48px; min-width: 0; padding: 0 14px; border: 1px solid var(--cafe-rule); border-radius: var(--cafe-radius); color: var(--cafe-ink); background: var(--cafe-paper); font-family: var(--cafe-font); font-size: 16px; }
+.future-prompt::placeholder { color: var(--cafe-muted); opacity: 1; }
+.future-product-list { display: flex; flex-wrap: wrap; gap: 12px 32px; margin: 0; padding: 0; list-style: none; }
+.future-product-list li { min-width: 160px; }
+.future-product-list strong { display: block; font-size: 20px; }
+.future-product-list { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(220px,100%),1fr)); }
+.future-recipe-list { margin: 12px 0; }
+.future-recipe { display: flex; justify-content: space-between; gap: 16px; padding: 8px 0; border-bottom: 1px solid var(--cafe-rule); font-size: 14px; line-height: 1.5; }
+.future-recipe-price { margin: 0; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.future-suggestions, .future-product-requests { display: flex; flex-wrap: wrap; gap: 8px; }
+.future-range-field { display: grid; grid-template-columns: 1fr auto; gap: 8px 16px; }
+.future-range-field .range { grid-column: 1 / -1; }
+.future-range-value { font-size: 14px; font-variant-numeric: tabular-nums; }
+.future-reading-sample { font-variation-settings: inherit; font-size: calc(20px * var(--reading-scale)); }
+.future-reading-sample .future-output-title { font-size: calc(24px * var(--reading-scale)); }
+.future-reading-sample .future-output-description { font-size: calc(16px * var(--reading-scale)); }
+.future-hours { font-size: 24px; font-variant-numeric: tabular-nums; }
+.future-scene { grid-column: 1 / -1; margin: 16px 0 0; }
+.future-scene img { display: block; width: 100%; max-height: 520px; height: auto; object-fit: contain; border: 0; border-radius: 0; box-shadow: none; }
+.cafe[data-future="true"] :is(#cafe-title, .hero-lead, .locale-tagline, .section-title, .menu-item p, .contact-copy h2, .contact-copy p, .locale-story h2) { height: auto; }
+.cafe[data-future="true"] #cafe-title { font-size: clamp(42px, 5.4vw, 80px); line-height: 1.1; text-wrap: balance; }
+.cafe[data-future="true"] #cafe-title span { white-space: normal; }
+.cafe[data-future="true"] .hero-lead { margin: 18px 0 24px; white-space: normal; }
+.cafe[data-future="true"] .hero-copy { padding: 48px var(--experience-space); }
+.cafe[data-future="true"] .cafe-hero { height: 470px; }
+.cafe[data-future="true"] .cafe-menu { height: auto; min-height: 330px; padding: 32px var(--experience-space) 40px; }
+.cafe[data-future="true"] .section-title { margin: 0 0 24px; text-align: left; line-height: 1.2; }
+.cafe[data-future="true"] .menu-item { height: auto; min-height: 248px; padding: 20px 16px; }
+.cafe[data-future="true"] .menu-picture { height: 150px; }
+.cafe[data-future="true"] .menu-item p { white-space: normal; }
+.cafe[data-future="true"] .page-intro { height: auto; min-height: 240px; padding: 40px var(--experience-space); }
+.cafe[data-future="true"] .page-intro #cafe-title span { display: inline; }
+.cafe[data-future="true"] .menu-page-products .menu-item { min-height: 350px; }
+.cafe[data-future="true"] .menu-page-products .menu-picture { height: 240px; }
+.cafe[data-future="true"] .locale-story { height: auto; min-height: 180px; }

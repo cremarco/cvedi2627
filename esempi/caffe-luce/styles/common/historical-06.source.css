@@ -1,0 +1,2 @@
+/* Display faces need their complete ascenders/descenders at every size. */
+.cafe[data-page]:is([data-style="html"],[data-style="web2"],[data-style="scheu"],[data-style="flat"],[data-style="material"],[data-style="neumo"],[data-style="glass"],[data-style="minimal"],[data-style="y2k"],[data-style="max"],[data-style="neo"]) #cafe-title { line-height: 1.22; }

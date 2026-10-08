@@ -1,0 +1,6 @@
+@media screen and (max-width: 1000px) {
+  .cafe[data-future="true"] .future-experience { gap: 16px 24px; }
+  .cafe[data-future="true"] .cafe-hero { grid-template-columns: 42% 58%; }
+  .cafe[data-future="true"] .hero-copy { padding-inline: 24px; }
+  .cafe[data-future="true"] #cafe-title { font-size: 46px; }
+}

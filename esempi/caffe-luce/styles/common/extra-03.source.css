@@ -1,0 +1,8 @@
+@media screen and (max-width: 1100px) {
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) { --extra-space: 28px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-header { min-height: 150px; display: grid; grid-template-columns: 1fr 288px; grid-template-rows: auto auto; gap: 12px 24px; padding: 20px 28px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-nav { grid-column: 1; grid-row: 2; justify-self: start; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .style-control { display: block; width: 288px; grid-column: 2; grid-row: 1 / 3; align-self: center; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-feature { gap: 32px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list { gap: 36px 32px; }
+}

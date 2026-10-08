@@ -419,32 +419,10 @@ lessonMinutes: 2
 
 ---
 layout: default
-class: content-slide history-section lesson-slide reading-slide
-footer: "Storia del design · Colore e percezione"
-lesson: storia-design
-routeAlias: storia-albers-colore
-lessonSlide: 27
-lessonMinutes: 1.5
----
-
-# Albers: il colore si legge in relazione
-
-<figure class="lesson-albers-figure">
-<div class="cvedi-grid two">
-  <CvediCard title="Un fondo scuro"><div class="grid place-items-center h-48" style="background:#183f45" role="img" aria-label="Quadrato color corallo su fondo petrolio scuro"><div class="w-24 h-24" style="background:#dd8066"></div></div></CvediCard>
-  <CvediCard title="Un fondo chiaro"><div class="grid place-items-center h-48" style="background:#f5ddcf" role="img" aria-label="Lo stesso quadrato color corallo su fondo rosa molto chiaro"><div class="w-24 h-24" style="background:#dd8066"></div></div></CvediCard>
-</div>
-<figcaption class="lesson-caption">Esempio didattico di contrasto simultaneo: stesso colore, due sfondi.</figcaption>
-</figure>
-<p class="lead mt-6!">I quadrati centrali vi sembrano dello stesso colore?</p>
-<p v-click class="aside">Hanno lo stesso valore digitale: cambia il contesto in cui li osserviamo.</p>
-
----
-layout: default
 class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
-lessonSlide: 28
+lessonSlide: 27
 lessonMinutes: 1.5
 ---
 
@@ -461,7 +439,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Identità e sistemi"
 lesson: storia-design
-lessonSlide: 29
+lessonSlide: 28
 lessonMinutes: 2
 ---
 
@@ -474,7 +452,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Identità e sistemi"
 lesson: storia-design
-lessonSlide: 30
+lessonSlide: 29
 lessonMinutes: 2
 ---
 
@@ -487,7 +465,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
-lessonSlide: 31
+lessonSlide: 30
 lessonMinutes: 1.5
 ---
 
@@ -503,7 +481,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide image-panels
 footer: "Storia del design · Novecento"
 lesson: storia-design
-lessonSlide: 32
+lessonSlide: 31
 lessonMinutes: 1.5
 ---
 
@@ -519,7 +497,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Identità e sistemi"
 lesson: storia-design
-lessonSlide: 33
+lessonSlide: 32
 lessonMinutes: 1.5
 ---
 
@@ -532,7 +510,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Novecento"
 lesson: storia-design
-lessonSlide: 34
+lessonSlide: 33
 lessonMinutes: 1.5
 ---
 
@@ -549,7 +527,7 @@ class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Produzione e lettura"
 lesson: storia-design
 routeAlias: storia-composizione-stampa
-lessonSlide: 35
+lessonSlide: 34
 lessonMinutes: 1.5
 ---
 
@@ -567,7 +545,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Dal software al web"
 lesson: storia-design
-lessonSlide: 36
+lessonSlide: 35
 lessonMinutes: 2
 ---
 
@@ -583,7 +561,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide
 footer: "Storia del design · Dal software al web"
 lesson: storia-design
-lessonSlide: 37
+lessonSlide: 36
 lessonMinutes: 1.5
 ---
 
@@ -599,7 +577,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Dal software al web"
 lesson: storia-design
-lessonSlide: 38
+lessonSlide: 37
 lessonMinutes: 1.5
 ---
 
@@ -617,7 +595,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Rivoluzione digitale"
 lesson: storia-design
-lessonSlide: 39
+lessonSlide: 38
 lessonMinutes: 1.5
 ---
 
@@ -630,7 +608,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide statement-slide statement-slide
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
-lessonSlide: 40
+lessonSlide: 39
 lessonMinutes: 1.5
 ---
 
@@ -644,7 +622,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
-lessonSlide: 41
+lessonSlide: 40
 lessonMinutes: 1.5
 ---
 
@@ -661,7 +639,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
-lessonSlide: 42
+lessonSlide: 41
 lessonMinutes: 1.5
 ---
 
@@ -677,7 +655,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide image-panels
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
-lessonSlide: 43
+lessonSlide: 42
 lessonMinutes: 2
 ---
 
@@ -693,7 +671,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-dominant
 footer: "Storia del design · Interfacce digitali"
 lesson: storia-design
-lessonSlide: 44
+lessonSlide: 43
 lessonMinutes: 1.5
 ---
 
@@ -706,7 +684,7 @@ layout: default
 class: content-slide history-section lesson-slide lesson-activity reading-slide
 footer: "Storia del design · Origini delle GUI"
 lesson: storia-design
-lessonSlide: 45
+lessonSlide: 44
 lessonMinutes: 4
 ---
 
@@ -723,7 +701,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-html figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 46
+lessonSlide: 45
 lessonMinutes: 1.5
 ---
 
@@ -741,7 +719,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-web2 figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 47
+lessonSlide: 46
 lessonMinutes: 1.5
 ---
 
@@ -759,7 +737,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-scheu figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 48
+lessonSlide: 47
 lessonMinutes: 1.5
 ---
 
@@ -777,7 +755,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-flat figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 49
+lessonSlide: 48
 lessonMinutes: 1.5
 ---
 
@@ -795,7 +773,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide  web-style-slide web-style-material figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 50
+lessonSlide: 49
 lessonMinutes: 2
 ---
 
@@ -813,7 +791,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 51
+lessonSlide: 50
 lessonMinutes: 1.5
 ---
 
@@ -830,7 +808,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-neumo figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 52
+lessonSlide: 51
 lessonMinutes: 1.5
 ---
 
@@ -848,7 +826,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-glass figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 53
+lessonSlide: 52
 lessonMinutes: 1.5
 ---
 
@@ -866,7 +844,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-minimal figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 54
+lessonSlide: 53
 lessonMinutes: 1.5
 ---
 
@@ -884,7 +862,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-y2k figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 55
+lessonSlide: 54
 lessonMinutes: 1.5
 ---
 
@@ -902,7 +880,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-max figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 56
+lessonSlide: 55
 lessonMinutes: 1.5
 ---
 
@@ -920,7 +898,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide web-style-slide web-style-neo figure-slide figure-pair
 footer: "Storia del design · Stili delle interfacce"
 lesson: storia-design
-lessonSlide: 57
+lessonSlide: 56
 lessonMinutes: 1.5
 ---
 
@@ -938,7 +916,7 @@ layout: default
 class: content-slide history-section lesson-slide lesson-activity reading-slide figure-slide figure-dominant
 footer: "Storia del design · Verifica"
 lesson: storia-design
-lessonSlide: 58
+lessonSlide: 57
 lessonMinutes: 6
 ---
 
@@ -958,7 +936,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Direzioni possibili"
 lesson: storia-design
-lessonSlide: 59
+lessonSlide: 58
 lessonMinutes: 1.5
 ---
 
@@ -973,7 +951,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Storia del design · Direzioni possibili"
 lesson: storia-design
-lessonSlide: 60
+lessonSlide: 59
 lessonMinutes: 1.5
 ---
 
@@ -990,7 +968,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Storia del design · Direzioni possibili"
 lesson: storia-design
-lessonSlide: 61
+lessonSlide: 60
 lessonMinutes: 1.5
 ---
 
@@ -1007,7 +985,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-trio
 footer: "Storia del design · Direzioni possibili"
 lesson: storia-design
-lessonSlide: 62
+lessonSlide: 61
 lessonMinutes: 1.5
 ---
 
@@ -1025,7 +1003,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Storia del design · Direzioni possibili"
 lesson: storia-design
-lessonSlide: 63
+lessonSlide: 62
 lessonMinutes: 2
 ---
 
@@ -1042,7 +1020,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide figure-slide figure-pair
 footer: "Storia del design · Direzioni possibili"
 lesson: storia-design
-lessonSlide: 64
+lessonSlide: 63
 lessonMinutes: 1.5
 ---
 
@@ -1059,7 +1037,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Verifica"
 lesson: storia-design
-lessonSlide: 65
+lessonSlide: 64
 lessonMinutes: 1.5
 ---
 
@@ -1076,7 +1054,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Verifica"
 lesson: storia-design
-lessonSlide: 66
+lessonSlide: 65
 lessonMinutes: 1.5
 ---
 
@@ -1093,7 +1071,7 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide concept-slide
 footer: "Storia del design · Fonti"
 lesson: storia-design
-lessonSlide: 67
+lessonSlide: 66
 lessonMinutes: 0.75
 ---
 
@@ -1110,8 +1088,8 @@ layout: default
 class: content-slide history-section lesson-slide reading-slide
 footer: "Storia del design · Verifica"
 lesson: storia-design
-lessonSlide: 68
-lessonMinutes: 5.75
+lessonSlide: 67
+lessonMinutes: 7.25
 ---
 
 # Verifica finale · Motivare uno stile

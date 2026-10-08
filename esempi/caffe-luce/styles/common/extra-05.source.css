@@ -1,0 +1,31 @@
+@media screen and (max-width: 720px) {
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) { --extra-space: 24px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-header { display: flex; flex-direction: column; min-height: 204px; padding: 22px 24px; gap: 14px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-nav { justify-content: space-between; gap: 8px; width: 100%; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-nav a { padding-inline: 8px; font-size: 14px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .style-control { width: 100%; align-self: stretch; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .brand-name { font-size: 23px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-hero { display: grid; grid-template-columns: 1fr; grid-template-rows: auto 270px; min-height: 0; height: auto; padding: 0; gap: 0; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .hero-copy { min-height: 310px; padding: 40px 24px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) #cafe-title { font-size: clamp(36px,11vw,56px); line-height: 1.25; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .hero-lead { font-size: 18px; margin: 20px 0 26px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .hero-picture { min-height: 0; height: 270px; margin: 0; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-menu { height: auto; padding: 36px 24px 44px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .section-title { font-size: 29px; margin-bottom: 26px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-grid { grid-template-columns: 1fr; gap: 28px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-item { min-height: 0; height: auto; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-picture { height: 194px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list { grid-template-columns: 1fr; gap: 36px; margin-top: 38px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) :is(.cafe-feature,.cafe-values,.locale-story,.contact-layout) { grid-template-columns: 1fr; gap: 32px; padding: 40px 24px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-feature h2 { font-size: 34px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-feature p { font-size: 18px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .feature-picture { min-height: 244px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .value-grid { grid-template-columns: 1fr; gap: 28px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .locale-story h2 { font-size: 36px; line-height: 1.35; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-contacts { height: auto; min-height: 200px; padding: 40px 24px; display: block; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .visit-hours { margin-top: 32px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-copy { width: 100%; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-rule { display: none; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-footer { height: auto; min-height: 120px; padding: 26px 24px; flex-direction: column; justify-content: center; gap: 16px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .page-intro { height: auto; min-height: 0; padding: 40px 24px; }
+}

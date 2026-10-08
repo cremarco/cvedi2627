@@ -35,7 +35,7 @@ try {
       const cardMotifs = [...root.querySelectorAll('.cvedi-card:has(.card-background)')].map(card => {
         const image = card.querySelector('.card-background')
         const visible = getComputedStyle(image).display !== 'none'
-        const expectedHistory = root.dataset.lesson === 'storia-design' && !card.closest('.lesson-albers-figure')
+        const expectedHistory = root.dataset.lesson === 'storia-design'
         if (!visible) return { visible, expectedHistory, width: parseFloat(getComputedStyle(card).width), equivalentPair: card.parentElement.children.length === 2 && [...card.parentElement.children].every(child => child.classList.contains('cvedi-card')), interactionExample: Boolean(card.closest('.interaction-examples')) }
         const box = card.getBoundingClientRect()
         const art = image.getBoundingClientRect()

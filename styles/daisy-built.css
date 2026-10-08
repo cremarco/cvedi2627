@@ -2334,9 +2334,6 @@
   .flex {
     display: flex;
   }
-  .grid {
-    display: grid;
-  }
   .hidden {
     display: none;
   }
@@ -2349,15 +2346,6 @@
       width: var(--size);
       height: var(--size);
     }
-  }
-  .h-24 {
-    height: calc(var(--spacing) * 24);
-  }
-  .h-48 {
-    height: calc(var(--spacing) * 48);
-  }
-  .w-24 {
-    width: calc(var(--spacing) * 24);
   }
   .transform {
     transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
@@ -2403,9 +2391,6 @@
     flex-direction: row;
     --join-v: 0;
     --join-h: 1;
-  }
-  .place-items-center {
-    place-items: center;
   }
   .overflow-x-auto {
     overflow-x: auto;

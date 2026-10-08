@@ -1,0 +1,106 @@
+/* Shared educational notes: a viewport dock, independent of every page skin. */
+.design-notes.collapse {
+  --cafe-notes-paper:#fff;
+  --cafe-notes-ink:#0f172a;
+  --cafe-notes-muted:#475569;
+  --cafe-notes-rule:#cbd5e1;
+  --cafe-notes-focus:#1e40af;
+  position:fixed;
+  z-index:1000;
+  top:50%;
+  right:0;
+  width:0;
+  min-height:0;
+  overflow:visible;
+  display:block;
+  translate:0 -50%;
+  border-radius:0;
+  background:transparent;
+  color:var(--cafe-notes-ink);
+  font-family:'Inter',Arial,sans-serif;
+  font-size:15px;
+  font-weight:400;
+  font-style:normal;
+  font-variation-settings:normal;
+  line-height:1.55;
+  letter-spacing:normal;
+  font-synthesis:none;
+  view-transition-name:cafe-design-notes;
+}
+.design-notes[open] { width:min(360px,calc(100vw - 56px)); }
+.design-notes > .design-notes-tab.collapse-title {
+  position:absolute;
+  top:50%;
+  right:100%;
+  translate:0 -50%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  width:44px;
+  min-height:124px;
+  padding:14px 8px;
+  list-style:none;
+  border:1px solid var(--cafe-notes-rule);
+  border-right:0;
+  border-radius:10px 0 0 10px;
+  background:var(--cafe-notes-paper);
+  color:var(--cafe-notes-ink);
+  box-shadow:-4px 3px 16px #0f172a14;
+  cursor:pointer;
+  user-select:none;
+}
+.design-notes-tab::-webkit-details-marker { display:none; }
+.design-notes-tab::after,.design-notes-tab::before { content:none; }
+.design-notes-tab span { writing-mode:vertical-rl; rotate:180deg; font-size:13px; font-weight:500; line-height:1; letter-spacing:.02em; }
+.design-notes svg { display:block; width:20px; height:20px; flex:none; fill:none; stroke:currentColor; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; }
+.design-notes > .design-notes-panel.collapse-content {
+  display:block;
+  visibility:visible;
+  min-height:0;
+  max-height:calc(100svh - 40px);
+  overflow:auto;
+  padding:24px;
+  border:0;
+  border-radius:12px 0 0 12px;
+  background:var(--cafe-notes-paper);
+  color:var(--cafe-notes-ink);
+  box-shadow:-12px 8px 32px #0f172a1a;
+  scrollbar-color:var(--cafe-notes-muted) var(--cafe-notes-paper);
+}
+.design-notes:not([open]) > .design-notes-panel { display:none; }
+.design-notes-heading { display:flex; gap:16px; justify-content:space-between; align-items:start; }
+.design-notes h2 { font-family:inherit; margin:0; font-size:24px; font-weight:500; line-height:1.2; letter-spacing:-.02em; text-wrap:balance; }
+.design-notes .design-notes-close.btn {
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:44px;
+  height:44px;
+  min-height:44px;
+  margin:-10px -10px 0 0;
+  padding:0;
+  border:0;
+  border-radius:8px;
+  background:transparent;
+  color:var(--cafe-notes-ink);
+  box-shadow:none;
+}
+.design-notes .design-notes-close[hidden] { display:none; }
+.design-notes .design-notes-close:hover { background:#f1f5f9; }
+.design-notes-years { margin:8px 0 20px; font-size:12px; line-height:1.5; color:var(--cafe-notes-muted); font-variant-numeric:tabular-nums; }
+.design-notes-intro { margin:0 0 24px; font-size:15px; line-height:1.65; }
+.design-notes-features { display:grid; gap:18px; margin:0; }
+.design-notes-features dt { font-size:13px; font-weight:600; line-height:1.4; margin:0 0 5px; }
+.design-notes-features dd { margin:0; color:var(--cafe-notes-muted); font-size:14px; line-height:1.6; }
+.design-notes-reference { display:block; margin-top:24px; color:var(--cafe-notes-focus); font-size:12px; line-height:1.5; text-decoration:underline; text-underline-offset:.2em; }
+.design-notes-reference[hidden] { display:none; }
+.design-notes :is(summary,button,a):focus-visible { outline:3px solid var(--cafe-notes-focus); outline-offset:3px; }
+.design-notes[open] .design-notes-panel { animation:design-notes-enter 220ms cubic-bezier(.16,1,.3,1); }
+@keyframes design-notes-enter { from { opacity:.4; translate:16px 0; } to { opacity:1; translate:0; } }
+::view-transition-group(cafe-design-notes) { animation-duration:180ms; }
+::view-transition-old(cafe-design-notes),::view-transition-new(cafe-design-notes) { animation-duration:180ms; }
+@media (max-width:480px) { .design-notes > .design-notes-panel.collapse-content { padding:20px; max-height:calc(100svh - 24px); } .design-notes h2 { font-size:22px; } .design-notes-intro { font-size:14px; } }
+@media (prefers-reduced-motion:reduce) { .design-notes[open] .design-notes-panel { animation:none; } .design-notes { view-transition-name:none; } }
+@media print { .design-notes.collapse { display:none !important; } }

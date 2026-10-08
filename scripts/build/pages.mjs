@@ -5,6 +5,8 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { optimizePagesMedia } from './pages-media.mjs'
 import { checkPublishedBuild } from '../check/publication.mjs'
+import { copyWebDesignExamples } from './web-design-examples.mjs'
+import { webDesignExamplesDirectory } from '../../utils/web-design-examples.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const output = path.join(root, '_site')
@@ -19,6 +21,7 @@ const build = spawnSync(process.execPath, [
 ], { cwd: root, stdio: 'inherit' })
 if (build.status !== 0) process.exit(build.status ?? 1)
 await checkPublishedBuild(path.join(output, 'slides'))
+await copyWebDesignExamples(path.join(output, webDesignExamplesDirectory))
 
 await cp(path.join(root, 'progetti'), path.join(output, 'project'), {
   recursive: true,

@@ -1,0 +1,5 @@
+@media screen and (max-width: 1000px) and (min-width: 721px) {
+  body:not([data-layout="legacy"]) {
+  .cafe[data-style="html"] #cafe-title, .cafe[data-style="scheu"] #cafe-title, .cafe[data-style="risorse"] #cafe-title, .cafe[data-style="organica"] #cafe-title { font-size: 4.6vw; }
+  }
+}

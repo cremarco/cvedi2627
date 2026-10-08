@@ -309,21 +309,23 @@
       "lessonSlide": 27,
       "deckSlide": 201,
       "title": "Albers: il colore si legge in relazione",
-      "sourceNote": "p. 37, nodo 198:2515; p. 38, nodo 198:2184.\nPDF 2025/26: Lezione 06, pp. 66–74 e 77.\nCorrispondenza: tematica / esercizio percettivo ridisegnato.\nRiferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184"
+      "sourceNote": "p. 37, nodo 198:2515; p. 38, nodo 198:2184.\nPDF 2025/26: Lezione 06, pp. 66–74 e 77.\nCorrispondenza: tematica / esercizio percettivo ridisegnato.\nRiferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184",
+      "status": "removed",
+      "reason": "Slide rimossa dalla lezione 3 su richiesta esplicita dell’utente; fonti e recupero originale conservati."
     },
     {
       "alias": "storia-composizione-stampa",
       "lesson": "storia-design",
-      "lessonSlide": 35,
-      "deckSlide": 209,
+      "lessonSlide": 34,
+      "deckSlide": 208,
       "title": "Comporre il testo e stampare",
       "sourceNote": "p. 28 (C02 008), nodo 198:2456; p. 44 (C02 024), nodo 198:2206.\nPDF 2025/26: Lezione 07, pp. 9–12.\nCorrispondenza: tematica / recupero storico con correzione delle operazioni.\nRiferimento Figma: https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206\nVerifica su fonti primarie:\nhttps://blogs.loc.gov/headlinesandheroes/2022/06/the-linotype-the-machine-that-revolutionized-movable-type/\nhttps://americanhistory.si.edu/collections/object-groups/printing-presses/printing-machines\nhttps://americanhistory.si.edu/collections/object-groups/printing-presses/lithographic-presses"
     }
   ],
   "assetManifest": "assets/introduzione/recuperi-2025/manifest.json",
   "latestDeckRevision": {
-    "date": "2026-10-06",
-    "historySlides": 68,
+    "date": "2026-10-08",
+    "historySlides": 67,
     "addedFromRevisedBooklet": 16,
     "source": "assets/booklet/capitolo-2/testo-figma-aggiornato.json"
   }

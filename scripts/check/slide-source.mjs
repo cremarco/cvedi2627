@@ -48,7 +48,7 @@ export async function checkSlideSources() {
     assert.ok(summary.frontmatter.summarySupport?.trim(), id + ': summary support is present')
     assert.match(summary.content.trim(), /^# [^\n]+$/, id + ': summary content remains one Markdown heading')
   }
-  assert.equal(total, 222 + addedSlides + addedUxSlides, 'resolved deck includes the topics and six new UX lessons')
+  assert.equal(total, 221 + addedSlides + addedUxSlides, 'resolved deck includes the topics and six new UX lessons')
   assert.equal(lesson.length, 83, 'introduction: 83 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
@@ -73,8 +73,8 @@ export async function checkSlideSources() {
   assert.equal(deck.slides.at(-1).title, 'Domande?', 'original closing follows the teaching chapters')
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
-  assert.equal(history.length, 68, 'history: 68 slides')
-  assert.equal(visibleDeck.slides.length, 499, 'all teaching chapters are available locally')
+  assert.equal(history.length, 67, 'history: 67 slides')
+  assert.equal(visibleDeck.slides.length, 498, 'all teaching chapters are available locally')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
@@ -227,12 +227,14 @@ export async function checkSlideSources() {
   assert.equal(audit.sources.length, 9, 'previous academic year: nine source PDFs')
   assert.equal(audit.sources.reduce((sum, source) => sum + source.pages, 0), 982, 'previous academic year: 982 reviewed pages')
   assert.equal(audit.integratedSlides.length, 20, 'previous academic year: twenty recovered slides')
-  assert.equal(new Set(audit.integratedSlides.map(slide => slide.alias)).size, audit.integratedSlides.length, 'distinct recovered aliases')
-  assert.deepEqual(audit.integratedSlides.map(entry => {
+  const recoveredSlides = audit.integratedSlides.filter(entry => entry.status !== 'removed')
+  assert.equal(recoveredSlides.length, 19, 'nineteen recovered slides remain after the requested removal')
+  assert.equal(new Set(recoveredSlides.map(slide => slide.alias)).size, recoveredSlides.length, 'distinct recovered aliases')
+  assert.deepEqual(recoveredSlides.map(entry => {
     const slide = deck.slides.find(slide => slide.frontmatter.routeAlias === entry.alias)
     assert.ok(slide, `recovered alias: ${entry.alias}`)
     return { alias: entry.alias, lesson: slide.frontmatter.lesson, lessonSlide: slide.frontmatter.lessonSlide, deckSlide: slide.index + 1, title: slide.title }
-  }), audit.integratedSlides.map(({ alias, lesson, lessonSlide, deckSlide, title }) => ({ alias, lesson, lessonSlide, deckSlide, title })),
+  }), recoveredSlides.map(({ alias, lesson, lessonSlide, deckSlide, title }) => ({ alias, lesson, lessonSlide, deckSlide, title })),
   'recovery audit agrees with resolved slides')
   const summary = JSON.parse(await readFile(new URL('../../data/grade-summary.json', import.meta.url), 'utf8'))
   const projects = JSON.parse(await readFile(new URL('../../data/projects.json', import.meta.url), 'utf8'))
@@ -364,7 +366,7 @@ export async function checkSlideSources() {
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
     publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length,
     historyBookletPages: chapterPages.size, historyStyles: historyStyleSlides.length, historyFigures: historyFigures.length,
-    recoveredSlides: audit.integratedSlides.length, projectBriefSlides: brief.length, approfondimentiSlides: approfondimenti.length, officialTopics: topicSource.topics.length,
+    recoveredSlides: recoveredSlides.length, projectBriefSlides: brief.length, approfondimentiSlides: approfondimenti.length, officialTopics: topicSource.topics.length,
     uxCourse: curriculum.lessons.map(spec => ({ lesson: spec.id, slides: spec.slideCount, minutes: curriculum.lessonMinutes })), uxSourcePages: coveredPages.size, uxFigures: usedAssets.size }
   return { deck: visibleDeck, total: visibleDeck.slides.length, lesson, history: visibleHistory, brief, course, approfondimenti, topicSource,
     projects, uxExamples, uxSlides, curriculum, audit: { ...audit, integratedSlides: audit.integratedSlides.filter(entry =>

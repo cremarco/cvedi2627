@@ -1,0 +1,47 @@
+@media print {
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) { --extra-space: 22px; min-width: 0; padding: 0; display: block; background: var(--cafe-paper); }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-header { display: flex; height: auto; min-height: 60px; padding: 12px 22px; gap: 12px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .brand-name { font-size: 19px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .brand-symbol { width: 36px; height: 36px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .brand-kicker { font-size: 12px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .style-control { display: none; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-nav { gap: 8px; display: flex; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-nav a { font-family: var(--cafe-font); font-size: 12px; padding: 4px 6px; min-height: 30px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-hero { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: auto; height: auto; min-height: 220px; gap: 0; padding: 0; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .hero-copy { min-height: 0; height: auto; padding: 24px 22px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) #cafe-title { font-size: 34px; line-height: 1.3; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .hero-lead { margin: 14px 0 18px; font-size: 15px; line-height: 1.5; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .hero-picture { min-height: 220px; height: 220px; margin: 0; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-cta.btn { min-width: 0; min-height: 38px; padding: 8px 16px; font-size: 12px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-menu { padding: 24px 22px; height: auto; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .section-title { font-size: 26px; margin-bottom: 20px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: 16px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-item { display: block; padding: 12px 8px; height: auto; min-height: 0; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-item :is(h2,h3) { font-size: 20px; line-height: 1.4; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-picture { height: 88px; margin: 10px 0; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-item p { font-size: 12px; line-height: 1.5; margin-top: 8px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list { grid-template-columns: repeat(2,minmax(0,1fr)); gap: 28px; margin-top: 30px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list :is(h2,h3) { font-size: 23px; margin-bottom: 14px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list dl > div { padding-block: 9px; gap: 3px 14px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list :is(dt,dd,.menu-description,.item-description) { font-size: 12px; line-height: 1.5; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list .menu-item-name { font-size: 14px; line-height: 1.5; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list .menu-item-price { font-size: 12px; line-height: 1.5; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) :is(.menu-filters,.filter-bar) { display: none; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) :is(.cafe-feature,.cafe-values,.locale-story,.contact-layout,.cafe-contacts,.page-intro) { height: auto; min-height: 0; padding: 26px 22px; margin: 0; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-feature { grid-template-columns: 1fr 1fr; gap: 26px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-feature :is(h2,h3) { font-size: 26px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-feature p { font-size: 13px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .feature-picture { min-height: 180px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .value-grid { grid-template-columns: repeat(3,minmax(0,1fr)); gap: 20px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .value-item :is(h2,h3) { font-size: 20px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-values > div h2 { font-size: 20px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .value-item p { font-size: 12px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .locale-story h2 { font-size: 29px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-copy h2 { font-size: 24px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-copy p { font-size: 12px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-layout { gap: 28px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-layout :is(h2,h3) { font-size: 24px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-layout :is(label,p,input,textarea) { font-size: 12px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-footer { height: auto; min-height: 64px; padding: 18px 22px; gap: 16px; }
+  .cafe:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .cafe-footer p { font-size: 12px; }
+}

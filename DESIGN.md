@@ -1,3 +1,352 @@
+---
+name: "CVeDI 2026/27"
+description: "Token cafe-* dell’esempio autonomo Caffè TTC; il sistema Slidev resta definito nel corpo del documento."
+colors:
+  cafe-notes-paper: "#fff"
+  cafe-notes-ink: "#0f172a"
+  cafe-notes-muted: "#475569"
+  cafe-notes-rule: "#cbd5e1"
+  cafe-notes-focus: "#1e40af"
+  cafe-text-paper: "#fff"
+  cafe-text-surface: "#fff"
+  cafe-text-ink: "#000"
+  cafe-text-muted: "#000"
+  cafe-text-primary: "#0000ee"
+  cafe-text-on-primary: "#fff"
+  cafe-text-rule: "#777"
+  cafe-html-paper: "#ffffdf"
+  cafe-html-surface: "#ffffdf"
+  cafe-html-ink: "#000"
+  cafe-html-muted: "#222"
+  cafe-html-primary: "#0000ee"
+  cafe-html-rule: "#888"
+  cafe-web2-paper: "#f3f5e9"
+  cafe-web2-surface: "#dfeffc"
+  cafe-web2-ink: "#11335a"
+  cafe-web2-muted: "#284963"
+  cafe-web2-primary: "#0c4d98"
+  cafe-web2-rule: "#81add0"
+  cafe-scheu-paper: "#f7edda"
+  cafe-scheu-surface: "#efe0bf"
+  cafe-scheu-ink: "#362015"
+  cafe-scheu-muted: "#573c28"
+  cafe-scheu-primary: "#75421f"
+  cafe-scheu-rule: "#b69b70"
+  cafe-scheu-on-primary: "#fff5dd"
+  cafe-scheu-menu-open-ink: "#2c1808"
+  cafe-scheu-filter-status-ink: "#fff8e7"
+  cafe-scheu-filter-status-surface: "rgb(32 17 8 / .82)"
+  cafe-flat-paper: "#fffcf7"
+  cafe-flat-surface: "#fcf0e3"
+  cafe-flat-ink: "#071b40"
+  cafe-flat-muted: "#27394f"
+  cafe-flat-primary: "#bc420e"
+  cafe-flat-on-primary: "#fff"
+  cafe-flat-rule: "#d8cbbb"
+  cafe-material-paper: "#fafafa"
+  cafe-material-surface: "#fff"
+  cafe-material-ink: "#212121"
+  cafe-material-muted: "#616161"
+  cafe-material-primary: "#673ab7"
+  cafe-material-rule: "#bdbdbd"
+  cafe-material2-paper: "#faf9f7"
+  cafe-material2-surface: "#fff"
+  cafe-material2-ink: "#302c29"
+  cafe-material2-muted: "#625a54"
+  cafe-material2-primary: "#a83910"
+  cafe-material2-on-primary: "#fff"
+  cafe-material2-rule: "#bbb2ab"
+  cafe-material3-paper: "#f7faf1"
+  cafe-material3-surface: "#eaf0e3"
+  cafe-material3-ink: "#1b2119"
+  cafe-material3-muted: "#444d40"
+  cafe-material3-primary: "#416837"
+  cafe-material3-on-primary: "#fff"
+  cafe-material3-rule: "#747e6d"
+  cafe-material3-primary-container: "#c2efae"
+  cafe-material3-on-primary-container: "#0f2b08"
+  cafe-material3-surface-container: "#eaf0e3"
+  cafe-material3-surface-container-high: "#e4eadd"
+  cafe-material3-secondary-container: "#d8e7cd"
+  cafe-neumo-paper: "#e6edf4"
+  cafe-neumo-surface: "#e6edf4"
+  cafe-neumo-ink: "#0c254a"
+  cafe-neumo-muted: "#314b69"
+  cafe-neumo-primary: "#a53e17"
+  cafe-neumo-rule: "#a6b3c4"
+  cafe-glass-paper: "#e9eafb"
+  cafe-glass-surface: "#ffffffbc"
+  cafe-glass-ink: "#17253c"
+  cafe-glass-muted: "#364961"
+  cafe-glass-primary: "#343889"
+  cafe-glass-rule: "#7387a1"
+  cafe-glass-on-primary: "#fff"
+  cafe-liquid-paper: "#f6f7f5"
+  cafe-liquid-surface: "#fff"
+  cafe-liquid-ink: "#162e28"
+  cafe-liquid-muted: "#435d53"
+  cafe-liquid-primary: "#246345"
+  cafe-liquid-on-primary: "#fff"
+  cafe-liquid-rule: "#8fa99d"
+  cafe-minimal-paper: "#fff"
+  cafe-minimal-surface: "#fff"
+  cafe-minimal-ink: "#171717"
+  cafe-minimal-muted: "#454545"
+  cafe-minimal-primary: "#171717"
+  cafe-minimal-rule: "#9b9b9b"
+  cafe-y2k-paper: "#e7e9ff"
+  cafe-y2k-surface: "#e4e6fb"
+  cafe-y2k-ink: "#14186c"
+  cafe-y2k-muted: "#303f78"
+  cafe-y2k-primary: "#202381"
+  cafe-y2k-rule: "#7079b8"
+  cafe-max-paper: "#fff4dc"
+  cafe-max-surface: "#ffb4d9"
+  cafe-max-ink: "#380643"
+  cafe-max-muted: "#572052"
+  cafe-max-primary: "#590961"
+  cafe-max-rule: "#590961"
+  cafe-max-on-primary: "#fff4dc"
+  cafe-neo-paper: "#fffdf2"
+  cafe-neo-surface: "#fffdf2"
+  cafe-neo-ink: "#111"
+  cafe-neo-muted: "#343434"
+  cafe-neo-primary: "#ac390a"
+  cafe-neo-rule: "#111"
+  cafe-pixel-paper: "#fbf5de"
+  cafe-pixel-surface: "#e6eac9"
+  cafe-pixel-ink: "#1c2a26"
+  cafe-pixel-muted: "#425548"
+  cafe-pixel-primary: "#315942"
+  cafe-pixel-on-primary: "#fffceb"
+  cafe-pixel-rule: "#21352a"
+  cafe-bento-paper: "#f3f4f1"
+  cafe-bento-surface: "#fff"
+  cafe-bento-ink: "#17261f"
+  cafe-bento-muted: "#465649"
+  cafe-bento-primary: "#2e533f"
+  cafe-bento-on-primary: "#fff"
+  cafe-bento-rule: "#9aa99b"
+  cafe-adattabile-paper: "#f6f8f2"
+  cafe-adattabile-surface: "#e7eddc"
+  cafe-adattabile-ink: "#203416"
+  cafe-adattabile-muted: "#445538"
+  cafe-adattabile-primary: "#365a22"
+  cafe-adattabile-on-primary: "#fff"
+  cafe-adattabile-rule: "#869478"
+  cafe-spaziale-paper: "#13231e"
+  cafe-spaziale-surface: "#f8faf7"
+  cafe-spaziale-ink: "#fff"
+  cafe-spaziale-primary: "#214b39"
+  cafe-generativa-paper: "#f5f3ee"
+  cafe-generativa-surface: "#fff"
+  cafe-generativa-ink: "#172d24"
+  cafe-generativa-muted: "#415a4d"
+  cafe-generativa-primary: "#265e46"
+  cafe-generativa-on-primary: "#fff"
+  cafe-olografica-paper: "#191c20"
+  cafe-olografica-surface: "#22262b"
+  cafe-olografica-ink: "#f7f3eb"
+  cafe-olografica-muted: "#b7bdc4"
+  cafe-olografica-primary: "#d4eea0"
+  cafe-olografica-on-primary: "#18200f"
+  cafe-olografica-primary-hover: "#e2f6bf"
+  cafe-olografica-rule: "#434a51"
+  cafe-max-lime: "#d9ff00"
+  cafe-max-pink: "#ff66aa"
+  cafe-max-orange: "#ff6c24"
+  cafe-neo-yellow: "#ffea00"
+  cafe-neo-mint: "#daf3dc"
+  cafe-neo-pink: "#ffe1ee"
+  cafe-holo-space: "#050607"
+  cafe-holo-scan-light: "#a6f4ff"
+  cafe-holo-base-light: "#303941"
+  cafe-holo-base-deep: "#11171c"
+  cafe-holo-base-rule: "#65747f"
+  cafe-holo-text-rule: "#a6f4ff38"
+  cafe-holo-text-tint: "#a6f4ff0d"
+  cafe-holo-text-scan-start: "#d5fcffb3"
+  cafe-holo-text-scan-end: "#a6f4ff80"
+typography:
+  cafe-text-body:
+    fontFamily: "'Times New Roman', Times, serif"
+  cafe-text-display:
+    fontFamily: "'Times New Roman', Times, serif"
+    fontSize: "32px"
+  cafe-html-body:
+    fontFamily: "'Times New Roman',Times,serif"
+  cafe-html-display:
+    fontFamily: "'Times New Roman',Times,serif"
+    fontSize: "36px"
+  cafe-web2-body:
+    fontFamily: "'Trebuchet MS',Tahoma,Arial,sans-serif"
+  cafe-web2-display:
+    fontFamily: "'Trebuchet MS',Tahoma,Arial,sans-serif"
+    fontSize: "48px"
+  cafe-scheu-body:
+    fontFamily: "'Lora',Georgia,serif"
+  cafe-scheu-display:
+    fontFamily: "'Lora',Georgia,serif"
+    fontSize: "54px"
+  cafe-flat-body:
+    fontFamily: "'Inter',sans-serif"
+  cafe-flat-display:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "clamp(46px,5.2vw,72px)"
+  cafe-material-body:
+    fontFamily: "'Roboto',sans-serif"
+  cafe-material-display:
+    fontFamily: "'Roboto',sans-serif"
+    fontSize: "64px"
+  cafe-material2-body:
+    fontFamily: "'Roboto',sans-serif"
+  cafe-material2-display:
+    fontFamily: "'Roboto',sans-serif"
+    fontSize: "clamp(38px,5.3vw,72px)"
+  cafe-material3-body:
+    fontFamily: "'Roboto',sans-serif"
+  cafe-material3-display:
+    fontFamily: "'Roboto',sans-serif"
+    fontSize: "clamp(38px,5.3vw,68px)"
+  cafe-neumo-body:
+    fontFamily: "'Nunito',sans-serif"
+  cafe-neumo-display:
+    fontFamily: "'Nunito',sans-serif"
+    fontSize: "66px"
+  cafe-glass-body:
+    fontFamily: "'Inter',sans-serif"
+  cafe-glass-display:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "clamp(40px,4.6vw,64px)"
+    lineHeight: 1.2
+  cafe-liquid-body:
+    fontFamily: "'Inter',sans-serif"
+  cafe-liquid-display:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "clamp(38px,5.3vw,68px)"
+  cafe-minimal-body:
+    fontFamily: "'Inter',sans-serif"
+  cafe-minimal-display:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "clamp(44px,5.8vw,88px)"
+    lineHeight: 1.1
+  cafe-y2k-body:
+    fontFamily: "'Space Grotesk',sans-serif"
+  cafe-y2k-display:
+    fontFamily: "'Audiowide',sans-serif"
+    fontSize: "54px"
+  cafe-max-body:
+    fontFamily: "'Space Grotesk',sans-serif"
+  cafe-max-display:
+    fontFamily: "'Fraunces',serif"
+    fontSize: "clamp(48px,6.3vw,92px)"
+    lineHeight: 1.06
+  cafe-neo-body:
+    fontFamily: "'Space Grotesk',sans-serif"
+  cafe-neo-display:
+    fontFamily: "'Archivo Black',sans-serif"
+    fontSize: "clamp(42px,4.7vw,72px)"
+    lineHeight: 1.06
+  cafe-pixel-body:
+    fontFamily: "'Space Grotesk',sans-serif"
+  cafe-pixel-display:
+    fontFamily: "'Press Start 2P',monospace"
+    fontSize: "clamp(24px,2.7vw,38px)"
+    lineHeight: 1.75
+  cafe-bento-body:
+    fontFamily: "'Inter',sans-serif"
+  cafe-bento-display:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "clamp(42px,5vw,72px)"
+    lineHeight: 1.12
+  cafe-adattabile-body:
+    fontFamily: "'Roboto Flex',sans-serif"
+  cafe-adattabile-display:
+    fontFamily: "'Roboto Flex',sans-serif"
+    fontSize: "calc(clamp(40px,4vw,60px) * var(--reading-scale,1))"
+    lineHeight: 1.2
+  cafe-spaziale-body:
+    fontFamily: "'Inter',sans-serif"
+  cafe-generativa-body:
+    fontFamily: "'Inter',sans-serif"
+  cafe-generativa-display:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "clamp(36px,4vw,56px)"
+    lineHeight: 1.1
+  cafe-olografica-body:
+    fontFamily: "'Space Grotesk',sans-serif"
+  cafe-olografica-display:
+    fontFamily: "'Space Grotesk',sans-serif"
+    fontSize: "clamp(48px,5.4vw,78px)"
+    fontWeight: 500
+    lineHeight: 1.06
+    letterSpacing: "-.04em"
+  cafe-olografica-lead:
+    fontFamily: "'Space Grotesk',sans-serif"
+    fontSize: "18px"
+    lineHeight: 1.7
+rounded:
+  cafe-0: "0px"
+  cafe-2: "2px"
+  cafe-3: "3px"
+  cafe-4: "4px"
+  cafe-12: "12px"
+  cafe-16: "16px"
+  cafe-20: "20px"
+  cafe-24: "24px"
+  cafe-28: "28px"
+  cafe-olografica-field: "6px"
+spacing:
+  cafe-8: "8px"
+  cafe-16: "16px"
+  cafe-24: "24px"
+  cafe-32: "32px"
+  cafe-40: "40px"
+  cafe-48: "48px"
+  cafe-64: "64px"
+components:
+  cafe-scheu-menu-open:
+    textColor: "{colors.cafe-scheu-menu-open-ink}"
+    rounded: "{rounded.cafe-4}"
+    padding: "10px 23px"
+  cafe-scheu-filter-status:
+    backgroundColor: "{colors.cafe-scheu-filter-status-surface}"
+    textColor: "{colors.cafe-scheu-filter-status-ink}"
+    rounded: "{rounded.cafe-3}"
+    padding: "6px 12px"
+  cafe-material-button:
+    backgroundColor: "{colors.cafe-material-primary}"
+    textColor: "#ffffff"
+    rounded: "{rounded.cafe-2}"
+  cafe-material3-button:
+    backgroundColor: "{colors.cafe-material3-primary}"
+    textColor: "{colors.cafe-material3-on-primary}"
+    rounded: "{rounded.cafe-28}"
+  cafe-generativa-filter:
+    backgroundColor: "{colors.cafe-generativa-surface}"
+    textColor: "#173329"
+    rounded: "{rounded.cafe-20}"
+    padding: "8px 12px"
+  cafe-generativa-filter-active:
+    backgroundColor: "{colors.cafe-generativa-primary}"
+    textColor: "{colors.cafe-generativa-on-primary}"
+    rounded: "{rounded.cafe-20}"
+    padding: "8px 12px"
+  cafe-olografica-button:
+    backgroundColor: "{colors.cafe-olografica-primary}"
+    textColor: "{colors.cafe-olografica-on-primary}"
+    rounded: "{rounded.cafe-4}"
+    padding: "15px 24px"
+  cafe-olografica-button-hover:
+    backgroundColor: "{colors.cafe-olografica-primary-hover}"
+  cafe-holo-replay:
+    textColor: "{colors.cafe-olografica-ink}"
+    rounded: "{rounded.cafe-4}"
+    padding: "10px 16px"
+  cafe-holo-text-plane:
+    textColor: "{colors.cafe-olografica-ink}"
+    rounded: "{rounded.cafe-2}"
+---
 # DESIGN · CVeDI 2026/27
 
 Questo è il riferimento normativo per aggiungere o modificare slide, componenti e immagini. Leggerlo prima di iniziare. Le regole descrivono il sistema implementato; modifiche intenzionali al sistema devono aggiornare codice e documento insieme. Le istruzioni esplicite dell’utente hanno precedenza.
@@ -173,7 +522,7 @@ I percorsi in `data/cover-routes.ts` sono distinti per corso, esame, archivio, b
 ### Superfici, gerarchia e accessibilità
 
 - Fondo ordinario slate-50, testo principale slate-900, prosa slate-700; usare i token del tema, non nuovi valori isolati.
-- Card bianche, raggio 16 px, ombra condivisa `--theme-shadow` (0 8px 24px al 5%). Nessun bordo aggiuntivo per dare una seconda elevazione. Le illustrazioni sono selettive: pochi motivi con contorni scuri arrotondati e campiture chiare, nella palette del set, solo quando aiutano a riconoscere il concetto. Nei gruppi di due card equivalenti occupano l’angolo in basso a destra: 168 × 168 px, opacità 60%, rientro di −24 px su entrambi i lati e ritaglio tramite overflow hidden della card. Il corpo riserva 176 px a destra, così il testo non passa sopra l’immagine. Nei gruppi compatti, nelle formule e nelle card isolate l’immagine è omessa e il testo usa tutta la larghezza. La lezione 03 uniforma anche le card concettuali a tre colonne con motivi compatti da 96 × 96 px, ritagliati di 16 px in basso a destra, sempre al 60% di opacità: il corpo riserva 112 px in basso, conservando tutta la larghezza del testo. Il confronto cromatico di Albers resta privo di motivi decorativi; opere e fotografie autentiche conservano le proprie figure e attribuzioni. La composizione si scala insieme al canvas senza riordinare i contenuti.
+- Card bianche, raggio 16 px, ombra condivisa `--theme-shadow` (0 8px 24px al 5%). Nessun bordo aggiuntivo per dare una seconda elevazione. Le illustrazioni sono selettive: pochi motivi con contorni scuri arrotondati e campiture chiare, nella palette del set, solo quando aiutano a riconoscere il concetto. Nei gruppi di due card equivalenti occupano l’angolo in basso a destra: 168 × 168 px, opacità 60%, rientro di −24 px su entrambi i lati e ritaglio tramite overflow hidden della card. Il corpo riserva 176 px a destra, così il testo non passa sopra l’immagine. Nei gruppi compatti, nelle formule e nelle card isolate l’immagine è omessa e il testo usa tutta la larghezza. La lezione 03 uniforma anche le card concettuali a tre colonne con motivi compatti da 96 × 96 px, ritagliati di 16 px in basso a destra, sempre al 60% di opacità: il corpo riserva 112 px in basso, conservando tutta la larghezza del testo. Opere e fotografie autentiche conservano le proprie figure e attribuzioni. La composizione si scala insieme al canvas senza riordinare i contenuti.
 - Domande, richieste didattiche, inviti ad approfondire e curiosità usano `CvediNotice` (`kind`: `question`, `request`, `explore`, `curiosity`), basato su `alert alert-soft` daisyUI. Stesso stile in tutti i set: tinta del primario al 4%, bordo completo 1 px al 18%, raggio 12 px, titolo facoltativo 22 px e corpo 18 px (token titolo compatto e nota). L’icona cambia per tipo (domanda, scrittura, libro, lampadina), è decorativa, 96 × 96 px al 12% e tagliata di 16 px in alto a destra; il testo riserva 112 px sul lato destro. Collocare il componente come ultimo contenuto diretto della slide: bordo inferiore a 82 px dal fondo del canvas, sopra footer e avanzamento, con almeno 24 px di separazione dal contenuto precedente e corpo principale centrato nello spazio residuo. Nelle card `interaction-examples` con un box finale, le figure usano un’altezza di 176 px per riservare questo spazio, conservando le proporzioni. Conservare i testi; didascalie, tempi delle attività, regole di valutazione e risultati strutturati dei temi mantengono i propri componenti. Non usare barre laterali colorate o trattamenti da errore per una nota informativa.
 - Didascalie e testo secondario devono conservare contrasto; gli sfondi delle card sono decorativi, a bassa opacità e fuori dall’albero accessibile.
 - Testo corrente almeno 4,5:1 e testo grande almeno 3:1. Etichette, focus e ordine del DOM devono spiegare l’interazione anche da tastiera.
@@ -258,79 +607,139 @@ L’architettura deve mantenere separate informazione e presentazione: Markdown 
 
 ## Esempio autonomo · Caffè TTC
 
-Questa sezione riguarda soltanto `esempi/caffe-luce/`. Il percorso tecnico resta invariato; il bar fittizio è Caffè TTC. Il sistema Slidev, le sue palette e la regola sugli esempi HTML nelle slide conservano il proprio ambito.
+Questa sezione riguarda soltanto `esempi/caffe-luce/`, sorgente del sito autonomo esposto in `/web-design-examples/` e in `/cvedi2627/web-design-examples/` su Pages. Il bar fittizio è Caffè TTC. I token di frontmatter con prefisso `cafe-` appartengono esclusivamente a questo esempio. Il sistema Slidev, le sue palette e la regola sugli esempi HTML nelle slide conservano il proprio ambito.
 
 ### Overview
 
-Il sito autonomo occupa tutta la viewport, senza cornice o barra didattica esterna. Quattro pagine — Home, Menu, Il locale, Contatti — condividono dati e funzioni; 22 grammatiche cambiano composizione, materiali, tipografia, immagini, marchio e controlli. Le prime 16 sono interpretazioni di repertori e tradizioni grafiche, le altre sei scenari dichiarati. La tabella delle fonti e delle scelte è nel [README](esempi/caffe-luce/README.md).
+**Creative North Star: "Stesso bar, ventuno grammatiche"**
 
-Il marchio Banco TTC mantiene due T e una C che richiama il banco. Le sue variazioni di superficie seguono lo stile della pagina; il simbolo SVG resta decorativo accanto al nome accessibile. I tre concetti vettoriali originali e le prove rimangono in `assets/brand/concepts/`; il sito usa Banco senza trasformare la proposta in un kit di identità definitivo.
+Home, Menu, Il locale e Contatti condividono i dati del bar. Ventuno varianti cambiano integralmente composizione, materiali, tipografia, immagini, marchio e controlli. Gli intervalli di riferimento si sovrappongono: Retro 8 bit (1983–1995) indica una matrice estetica; Olografica (2030–2040) è un’ipotesi dichiarata. Il catalogo autorevole è `stili.json`, da cui il generatore produce `stili.js`; anni e nomi compaiono insieme nel selettore. Fonti primarie e scelte didattiche sono nel [README](esempi/caffe-luce/README.md).
+
+Ogni grammatica possiede la sua rappresentazione. Primissimo web è testo e collegamenti; AR sostituisce la pagina con una sola immagine del sito nello spazio; Generativa sostituisce la pagina con una conversazione che costruisce contenuti specifici della destinazione. Le quattro pagine restano consultabili nelle rappresentazioni previste dal catalogo. Le altre varianti usano il sito ordinario. In Olografica un piano grafite delimitato e fisso nella viewport sostiene testi e prodotti che scorrono davanti, oltrepassano i bordi e avanzano verso lo spettatore: la proiezione luminosa e la ricomposizione dei prodotti definiscono l’esperienza.
+
+Il marchio Banco TTC mantiene due T e una C che richiama il banco. I suoi materiali seguono lo stile della pagina; dove appare, il simbolo SVG è decorativo e il nome rimane accessibile. I tre concetti vettoriali originali e le prove restano in `assets/brand/concepts/`; Banco è la proposta usata dal sito.
+
+**Key Characteristics:**
+
+- Dati comuni e linguaggi integralmente distinti.
+- Materiali e immagini originali, con provenienza conservata.
+- Rappresentazioni storiche, contemporanee e speculative dichiarate.
+- Tastiera, movimento ridotto e stampa propri di ogni rappresentazione.
 
 ### Colors
 
-Il tema dell’esempio usa `.cafe[data-style]` e `:root[data-style]`. `--cafe-paper/surface/ink/muted/primary/on-primary/rule` distinguono carta, pannelli, testo, secondario, azione, testo dell’azione e separatori. Le famiglie sono autonome rispetto alle palette del deck.
+`--cafe-paper`, `--cafe-surface`, `--cafe-ink`, `--cafe-muted`, `--cafe-primary`, `--cafe-on-primary` e `--cafe-rule` distinguono fondo, pannelli, testo, secondario, azione, testo dell’azione e separatori. I CSS li assegnano a `.cafe[data-style]` e `:root[data-style]` e li collegano ai ruoli daisyUI. Nel frontmatter ogni valore è prefissato `cafe-<id>-`; la sintassi cromatica è quella dei sorgenti.
 
-| Variante | Primario / carta | Titoli / corpo |
+| Variante / ID | Azione e fondo | Titoli / corpo |
 | --- | --- | --- |
-| Primo web | #0000a0 / #ffffff | Times New Roman, Times |
-| Web 2.0 | #075ca6 / #f5fcff | Trebuchet MS, Arial |
-| Scheumorfismo | #714526 / #f8efdc | Lora |
-| Flat | #bc420e / #fffcf7 | Inter |
-| Material 1 | #673ab7 / #fafafa | Roboto |
-| Neumorfismo | #a53e17 / #e6edf4 | Nunito |
-| Glassmorfismo | #4541b9 / #eff1ff | Inter |
-| Minimalismo | #171717 / #ffffff | Inter |
-| Y2K | #202381 / #e7e9ff | Audiowide / Space Grotesk |
-| Massimalismo | #ad2809 / #fff4dc | Fraunces / Space Grotesk |
-| Neobrutalismo | #ac390a / #fffdf2 | Archivo Black / Space Grotesk |
-| Brutalismo web | #aa1720 / #ffffff | Space Grotesk / Roboto |
-| Internazionale | #b22419 / #f5f5f0 | Inter |
-| Pixel | #315942 / #fbf5de | Press Start 2P / Space Grotesk |
-| Bento | #2e533f / #ecefe8 | Inter |
-| Art Déco | #6c4e1b / #f3ecdb | Limelight / Lora |
-| Adattabile | #154d83 / #f7fbff | Roboto Flex |
-| Spaziale | #43514b / #f9f8f5 | Inter |
-| Generativa | #65401b / #fffdf7 | Space Grotesk |
-| Risorse | #35513f / #f6f3e8 | Georgia, Times |
-| Organica | #7b3525 / #fff6e9 | Lora |
-| Olografica | #b9ecdc / #152023 | Space Grotesk |
+| Primissimo web `text` | Link blu su bianco | Times New Roman, Times |
+| Primo web `html` | Link blu su carta giallo chiaro; nome bordeaux | Times New Roman, Times |
+| Web 2.0 `web2` | Blu XP, azzurro e avorio | Trebuchet MS, Tahoma, Arial |
+| Scheumorfismo `scheu` | Marrone, cuoio e carta avorio | Lora / Lora |
+| Flat design `flat` | Terracotta su avorio, testo navy | Inter / Inter |
+| Material 1 `material` | Viola su carta neutra; FAB giallo | Roboto / Roboto |
+| Material 2 `material2` | Terracotta su bianco caldo | Roboto / Roboto |
+| Material 3 `material3` | Salvia e container verdi tonali | Roboto / Roboto |
+| Neumorfismo `neumo` | Terracotta su base azzurra continua | Nunito / Nunito |
+| Glassmorfismo `glass` | Indaco, bianco traslucido e fotografia | Inter / Inter |
+| Liquid Glass `liquid` | Verde e controlli di vetro su fotografia | Inter / Inter |
+| Minimalista `minimal` | Nero e bianco | Inter / Inter |
+| Y2K `y2k` | Indaco, lilla e cromature | Audiowide / Space Grotesk |
+| Massimalismo `max` | Viola, rosa, lime e arancio | Fraunces / Space Grotesk |
+| Neobrutalismo `neo` | Nero, giallo, rosa e menta | Archivo Black / Space Grotesk |
+| Retro 8 bit `pixel` | Verde scuro e quattro campi chiari | Press Start 2P / Space Grotesk |
+| Bento `bento` | Verde, bianco e fotografie a pieno modulo | Inter / Inter |
+| Adattabile `adattabile` | Verde su carta e pannelli chiari | Roboto Flex / Roboto Flex |
+| AR `spaziale` | Scena su campo verde scuro | Inter nel selettore |
+| Generativa `generativa` | Verde, carta e chat chiara | Inter / Inter |
+| Olografica · ipotesi `olografica` | Verde chiaro, testo avorio e base grafite nel nero | Space Grotesk / Space Grotesk |
+
+Material 3 distingue primario/testo sul primario, primary container/testo sul container, surface container, surface container high e secondary container. I token aggiuntivi `cafe-material3-*` registrano questi ruoli effettivi: la palette statica salvia interpreta Material 3 senza estrarre colori dal dispositivo. Glass e Liquid conservano testo e superfici di lettura più opache del livello degli strumenti.
+
+Olografica assegna `cafe-holo-space` al campo esterno, `cafe-olografica-paper` al centro della sfumatura della base e `cafe-olografica-surface` ai campi del modulo. Testo e prodotti conservano avorio e colori naturali; l’azzurro `cafe-holo-scan-light` appartiene alla luce, alle scansioni e ai piani trasparenti che proiettano i blocchi di testo. `cafe-holo-text-rule` e `cafe-holo-text-tint` registrano il filetto e la velatura alpha di questi piani; i prodotti conservano i propri colori. L’azione principale e i prezzi usano il verde chiaro; il testo secondario rimane grigio.
+
+**The Grammar Rule.** Palette e materiali appartengono alla variante: preservare la loro differenza nelle quattro pagine e nei rispettivi stati.
 
 ### Typography
 
-Le famiglie del sito sono locali o di sistema. Titoli, prosa e nome del bar seguono i token della variante; IBM Plex Mono serve ai metadati neobrutalisti. Press Start 2P è riservato alla voce espressiva del revival a pixel; il corpo resta Space Grotesk. Limelight e Lora distinguono insegna e lettura nella rilettura Art Déco. Nessun servizio font esterno al runtime.
+Le famiglie sono locali o di sistema; nessun font viene richiesto in rete dal runtime. Times e Trebuchet/Tahoma sono parte delle ricostruzioni storiche. Roboto distingue le tre generazioni Material; Press Start 2P caratterizza i titoli e i controlli del revival a pixel, mentre il testo corrente rimane Space Grotesk. Archivo Black, Fraunces e Audiowide hanno un ruolo espressivo delimitato; IBM Plex Mono accompagna prezzi e metadati neobrutalisti. Limelight e i font dei mondi rimossi restano conservati con le licenze nell’archivio.
 
-Adattabile usa gli assi reali `opsz`, `wght`, `wdth` di Roboto Flex: tre scelte di lettura variano scala, peso e dimensione ottica; un cursore porta la larghezza da 75 a 125%. La preferenza esplicita si conserva nella sessione. I titoli e le descrizioni hanno altezza naturale, senza slot che taglino righe o glifi.
+I ruoli display e corpo sono registrati nel frontmatter per variante. Le dimensioni effettive del display includono i clamp e le relazioni con la scelta di lettura; le dimensioni di titoli di sezione, prosa e metadati rimangono governate dai rispettivi CSS. Minimalista combina display ampio, sezioni leggere e prosa aperta; Massimalismo usa display pesante, corsivi, nastri e collage; Retro 8 bit aumenta l’interlinea dei titoli a matrice. Titoli e descrizioni crescono naturalmente e conservano righe e glifi interi.
+
+Olografica usa Space Grotesk locale, display di peso 500, interlinea 1,06 e tracking −0,04em. Il lead misura 18 px/1,7 e resta entro 35ch su desktop; i titoli prodotto misurano 34 px. Entro 600 px il display usa `clamp(38px,10.3vw,58px)`, interlinea 1,08 e tracking −0,035em, con lead di 16 px. Il titolo emerge dalla base attraverso posizione e ombra distaccata.
+
+Adattabile usa Roboto Flex locale e i suoi assi reali. Tre distanze avviano il confronto: Da vicino usa corpo 16 px/peso 400, Comoda 20 px/500, Da lontano 24 px/650. I cursori separano dimensione (16–26 px), peso (350–750) e larghezza delle lettere (75–125%). L’asse `wdth` segue il cursore; `font-weight` mantiene il peso del corpo distinto da quello dei titoli, mentre `font-optical-sizing:auto` adatta `opsz` alla dimensione effettiva di ogni ruolo. Etichette, navigazione e controlli conservano dimensioni e assi stabili.
+
+Il campione live cambia realmente dimensione, peso e larghezza; il riferimento rimane a corpo 18 px/peso 400/larghezza 100%. Entrambi mostrano la stessa frase e metadati del testo corrente. Il display misura `clamp(28px,2.8vw,42px)` moltiplicato per la scala di lettura, con peso del corpo +100, massimo 800; il corpo usa 1,65 di interlinea. Entro 720 px il display parte da 30 px e il campione live precede le regolazioni, con il riferimento dopo i controlli. La scala influenza anche i contenuti del bar. «Testo in primo piano» nasconde le immagini; preset, regolazioni manuali e composizione si conservano nella sessione. Ripristina torna alla lettura Comoda e al sito completo. `future.js` possiede l’intero laboratorio, le preferenze e il cleanup al cambio stile.
 
 ### Layout
 
-Le varianti possiedono le proprie relazioni spaziali: documento sequenziale per Primo web, masthead/tab per Web 2.0 e Material, campiture per Flat, campi aperti per Minimalismo, griglia asimmetrica per Internazionale, mosaico dell’intera pagina per Bento, simmetria per Art Déco, listino diretto per Brutalismo. Dati e funzione dei collegamenti rimangono comuni.
+Primissimo web segue il flusso di un documento. Primo web combina fotografie JPEG e GIF in un’impaginazione da sito personale; Web 2.0 usa densità, cornice XP, gradienti e tab; Scheumorfismo usa tavolo, dorso, pelle e cuciture. Flat privilegia campiture e forme bidimensionali. Material 1 usa app bar, tab e carta; Material 2 una barra chiara, card di forma alternata e azione estesa; Material 3 aggiunge la rail desktop e container tonali. Minimalista apre la griglia; Max e Neo conservano pattern e composizioni espressive; Bento usa un mosaico dell’intera pagina con fotografie a copertura dei moduli.
 
-Primo web, Web 2.0, scheumorfismo e Y2K mantengono su schermo almeno 1024 px, con scorrimento orizzontale sotto soglia. È una scelta delle ricostruzioni, non una cronologia tecnologica universale. Le altre 18 varianti riordinano il contenuto tra tablet e mobile. Le griglie comuni dei valori usano due colonne tra 721 e 1000 px e la terza voce a tutta larghezza, dove la composizione specifica non richiede una propria griglia; fino a 720 px il contenuto responsive segue una colonna. Menu, storie, riepiloghi e footer crescono naturalmente con il contenuto; note e sezioni successive iniziano dopo il listino. La stampa adatta tutte le varianti all’A4, mostra l’intero menu anche con un filtro attivo, tiene insieme identità e dichiarazione del footer e restituisce la pagina al posto della proiezione. Introduzione e nota del modulo restano unite; la nota del menu conserva titolo e testo insieme. Massimalismo usa due colonne in A4. Gli hero delle sei esperienze crescono con il testo in stampa, senza restringere i figli e sovrapporre le righe; la paginazione multipagina rimane ammessa.
+Primo web, Web 2.0, Scheumorfismo e Y2K mantengono una soglia nominale di 1024 px con scorrimento orizzontale sui viewport stretti; cornice XP e tavolo possono aggiungere pochi pixel esterni. È una scelta delle ricostruzioni, non una cronologia tecnologica universale. Le altre 17 varianti si adattano allo schermo. Le regole comuni distinguono fino a 720 px, da 721 a 1000 px e oltre 1000 px; le composizioni specifiche mantengono le proprie griglie e, dove necessario, una soglia aggiuntiva a 1100 px. Il ritmo usa i valori locali `cafe-8`–`cafe-64`; Minimalista usa anche spazio fluido tra 24 e 80 px. Menu, storie, riepiloghi e footer crescono nel flusso con i dati.
 
-Nel Menu Risorse, titolo, introduzione e immagine occupano la colonna sinistra e il listino la colonna destra più ampia, anche per Salato senza immagine. Mobile e stampa riportano le liste a tutta larghezza. Nel Menu Spaziale mobile la prospettiva è locale alle card e parte dal bordo superiore: il primo piano non invade i filtri, anche nello stato vicino. Nei flussi verticali di Brutalismo e delle cinque varianti aggiuntive, visita e orari restano separati da 32 px; in Contatti il titolo del gruppo successivo conserva 28 px sopra e 16 px sotto.
+AR mostra soltanto la scena sintetica da una strada cittadina: la persona consulta il sito e il menu prima di raggiungere il locale. L’immagine è contenuta nell’altezza della viewport sotto il selettore. Generativa affianca chat e anteprima su desktop e le impila su mobile; i componenti generati seguono una sequenza specifica per Home, Menu, Il locale o Contatti.
+
+Olografica ha un piano grafite rettangolare con quattro angoli visibili, senza raggio o ombra, fisso nella viewport mentre i contenuti scorrono davanti. Lo pseudo-elemento della base è posizionato a `left:47%`, largo `min(1000px,74vw)`, alto 68svh (massimo 820 px) e posizionato a `top:14svh`. La sfumatura neutra a 145° va da `cafe-holo-base-light` attraverso `cafe-olografica-paper` al 58% fino a `cafe-holo-base-deep`; il filetto misura 1 px e usa `cafe-holo-base-rule`. Entro 800 px il piano misura 74vw × 66svh, a top 15svh; entro 600 px misura `calc(100vw - 108px)` × 64svh, a top 16svh. La prospettiva resta visibile anche su mobile.
+
+La struttura dei contenuti rimane nel flusso, larga `calc(100% - 240px)` e al massimo 1080 px; i blocchi di testo rimangono frontali davanti a piani trasparenti leggermente ruotati. L’hero desktop usa colonne 56%/44%, margini laterali −76 px e un’altezza minima di 590 px; titolo, cappuccino e croissant oltrepassano il piano. I prodotti restano liberi da card opache e cornici. Le soglie di 1100 e 800 px regolano larghezza e tipografia del contenuto; entro 600 px il contenitore misura `calc(100% - 48px)`, hero e prodotti si dispongono in colonna, con debordi contenuti e prospettiva locale del cappuccino di 700 px.
+
+La stampa è una composizione A4 autonoma e può occupare più pagine. Il menu torna completo anche con un filtro attivo e i contenuti informativi restano nel flusso. Glass e Liquid perdono fotografia di fondo, blur e ombre; Olografica usa carta bianca, testo scuro e immagini ferme, senza scansioni, fasci, ombre o profondità. I dettagli espandibili di Olografica si aprono per la stampa e ritornano allo stato precedente dopo. Generativa completa la conversazione prima della stampa e mantiene insieme nome, prezzo e descrizione di ogni voce. AR stampa l’immagine della scena. Il padding e le parole intere restano requisiti anche a 1032 px.
 
 ### Elevation & Depth
 
-La profondità appartiene alla grammatica: Material 1 conserva elevazioni misurate e raggio 2 px; Neumorfismo usa coppie di ombre morbide; Neobrutalismo contorni e ombre nette; Flat, Minimalismo, Brutalismo e Internazionale affidano la gerarchia a campiture, testo e griglia. Glass applica un solo blur all’header, con contenuti e alimenti opachi. Spaziale e Olografica usano piani CSS prospettici per la simulazione dichiarata.
+La profondità deriva dal materiale della variante. Flat e Minimalista affidano la gerarchia a campiture, testo, spazio e filetti. Material 1 distingue carta, app bar, pulsante e FAB con elevazioni misurate e ripple finito; Material 2 conserva ombre più leggere e forme legate al prodotto; Material 3 differenzia i container soprattutto con tonalità. Le azioni Material occupano una riga dedicata nel flusso e conservano lo spazio dei contenuti.
+
+Neumorfismo usa `--neumo-up` e `--neumo-down`: coppie di luce e ombra rendono convessi gli strumenti e incavati campi o selezioni, con bordi e testo indipendenti dal rilievo. Glass rivela una fotografia del locale dietro header, hero e pannelli sfocati; i piani di lettura sono più opachi. Liquid concentra vetro, rim e riflessi nei controlli e nella navigazione, distinti dal contenuto. I fallback per ridotta trasparenza, forced colors e stampa appartengono ai CSS della variante.
+
+Neo usa contorni e ombre nette coerenti con la stampa grafica; Pixel usa riscontri a gradini. In Olografica il piano di fondo usa `perspective(1200px) rotateX(20deg) rotateY(-18deg) rotateZ(-6deg)`, con origine centrale e `translateX(-50%)` per il centraggio. Entro 800 px usa prospettiva 900 px e rotazioni X 16°, Y −18°, Z −5°; entro 600 px conserva la prospettiva di 900 px con X 12°, Y −20°, Z −5°. Le tre rotazioni e i quattro angoli del piano ne rendono leggibile l’orientamento nello spazio. La prospettiva dei contenuti appartiene all’hero: 1300 px, origine 60%/60%, con testo a 0 px, cappuccino a 190 px e croissant in primo piano a 250 px. Fra 601 e 1240 px il cappuccino passa a 120 px e il croissant resta a 250 px. Entro 600 px il canvas luminoso arretra a −200 px e il croissant si colloca a 60 px, mantenendo luce e ombre dietro ai prodotti. L’hero usa `transform-style:flat`: ogni prodotto e la propria ombra si compongono come un livello indivisibile, mantenendo prospettiva e trasformazioni locali. L’ordine `z-index` è campo luminoso 0, testo 2, cappuccino 3, croissant 4; l’ombra della tazza resta dietro al croissant anche durante la rotazione, senza intersecare il suo piano. Le ombre distaccate seguono l’alpha delle fotografie; il campo WebGL della Home disegna sette fasci, aperture ellittiche e una scansione dietro i prodotti. Il renderer passa a una luce CSS quando WebGL non è disponibile o perde il contesto, e ripristina WebGL quando possibile.
+
+I blocchi `.holo-text` conservano caratteri frontali a Z 0, senza rotazione o scala: soltanto il piano luminoso dietro ogni blocco è inclinato. Il piano ha inset −12/−16 px, filetto azzurro di 1 px, raggio 2 px e `linear-gradient(125deg,#a6f4ff0d,transparent 58%)`; usa `translate(8px,14px) perspective(900px) translateZ(-24px) rotateY(-8deg) rotateX(4deg) rotateZ(-.6deg)`. L’ombra `16px 30px 28px #0005` lo separa dalla base. I caratteri usano `text-shadow:.35px 0 #a6f4ff30,8px 18px 12px #000b`; il titolo principale usa `.5px 0 #a6f4ff40,12px 24px 16px #000b`. Campi e pulsanti non ereditano l’ombra dei caratteri. Entro 800 px i blocchi di testo omettono anche la traslazione del puntatore; il piano luminoso usa inset −8/−6 px e `translate(3px,10px) perspective(900px) translateZ(-16px) rotateY(-5deg) rotateX(3deg) rotateZ(-.4deg)`.
+
+La ricomposizione `holo-materialize` dura 2,2 s: il prodotto parte ridotto e sfocato a −340 px, si rivela dal basso e avanza verso lo spettatore prima di assestarsi. Il croissant segue con 180 ms di ritardo; i blocchi di testo si materializzano in 1,6 s al loro ingresso nella viewport, da opacità 0,16, blur 4 px, spostamento verticale 28 px e ritaglio al 95% fino allo stato completo. La loro scansione decorativa è una linea di 2 px con ciclo di 8 s, distinta dalla scansione alpha dei prodotti. Una scansione stretta dell’immagine alpha ricorre ogni 6 s; il movimento di profondità alterna un sollevamento di 22 px e una rotazione sull’asse Y, con cicli di 8 e 9 s. La parallasse è secondaria: il puntatore fine alimenta coordinate limitate a ±16 px, moltiplicate per 0,2 sui blocchi di testo, 0,45 sul testo dell’hero, 1,8 sul cappuccino e 2,5 sul croissant desktop. Ombre, tempi e comportamenti sono registrati in `.impeccable/design.json`; CSS e WebGL simulano la proiezione senza ricostruire un fronte d’onda olografico.
 
 ### Shapes
 
-Raggi, sagome, filetti e materiali sono dati dalle varianti, senza normalizzare tutto in card equivalenti. La forma del monogramma rimane riconoscibile: la versione Pixel sostituisce le curve con gradini; Art Déco e Olografica lo rendono a contorno; Y2K usa il trattamento cromato. Le immagini non ricevono cornici, ombre o angoli aggiunti: crop centrati e proporzioni provengono dai manifest.
+Raggi, sagome, filetti e materiali restano propri della variante. Material 1 usa raggi piccoli; Material 2 alterna gli angoli delle card (24/4/24/4 px); Material 3 usa card ampie e bottoni a pillola. Scheumorfismo conserva cuciture e pelle; Y2K cromature e pannelli tecnici; Max sticker, nastri e lettering; Neo scacchiere, retini e diagonali; Pixel bordi e sagome a matrice. Il raggio del modulo Bento appartiene al mosaico che contiene la foto.
+
+Il monogramma conserva due T e la C: Pixel ne mostra la geometria a gradini, Y2K il trattamento cromato e Neo contorno e campiture. Primissimo web e Primo web usano il nome testuale nella composizione. Olografica usa il segno pieno avorio sulla base grafite; CTA, select e Riproietta hanno raggio 4 px, mentre il token generale dei campi è 6 px.
+
+**The Image Frame Rule.** Conservare il crop registrato e la proporzione della regione dell’asset. Le immagini restano senza cornici aggiunte; la sagoma del contenitore di un modulo appartiene alla composizione della variante. In Bento la fotografia copre l’intera card e il campo scuro locale sostiene il testo sovrapposto.
+
+I tre prodotti Olografica sono immagini fotografiche sintetiche originali ImageGen con fondo trasparente, colori naturali e visualizzazione `object-fit:contain`. `assets/redesign/holographic/manifest.json` conserva prompt, provenienza, PNG originali e derivati WebP con alpha; la scansione è una copia decorativa separata e non modifica il raster sorgente.
 
 ### Components
 
-Header, navigazione, select dello stile, filtri, campi e azioni assumono integralmente la variante. Il select mantiene etichetta e comportamento nativo; il select Argomento mostra una freccia, nativa in Primo web e Brutalismo e disegnata negli altri stili, conservando il materiale del campo. Minimalismo e Bento distinguono il bordo dei campi dai separatori decorativi, con contrasto di almeno 3:1 sulle superfici effettive. Focus visibile, skip link, stati premuti ed etichette dei campi conservano l’uso da tastiera. `?stile=` persiste fra pagine, Indietro e ricaricamento.
+Header, navigazione, select dello stile, filtri, campi e azioni assumono la grammatica scelta. Il select mantiene etichetta e comportamento nativo e mostra anni prima del nome; `?stile=` persiste fra pagine, Indietro e ricaricamento. Il select Argomento mantiene una freccia visibile anche su un materiale personalizzato. Focus, skip link, etichette e stati premuti conservano l’uso da tastiera; campi e controlli sono riconoscibili indipendentemente dalle ombre.
 
-Il Menu contiene 15 articoli in quattro categorie. Il modulo Contatti prepara una bozza scaricabile/apribile nella posta, senza invio o conservazione dei dati. Dopo una modifica a qualsiasi campo o all’argomento, revoca la bozza precedente, rimuove le sue azioni e invita a prepararla di nuovo; la preparazione successiva usa i valori aggiornati. Identità, prezzi, orari, indirizzo e contatti sono contenuti di un bar immaginario, dichiarati nella pagina; l’email usa `.example`.
+La tab **Design** è un controllo didattico comune, richiesto dall’utente su tutte le rappresentazioni e sulle quattro pagine. Rimane collegata al bordo destro della viewport, al centro in altezza, anche durante lo scorrimento dei layout storici. Apre un piccolo pannello non modale: nome, periodo, introduzione, quattro caratteristiche della variante corrente e una fonte di approfondimento. Se cambia stile mentre è aperto, il contenuto si aggiorna. È un’eccezione esplicita anche per Primissimo web e AR.
 
-Le sei esperienze modificano il risultato: assi tipografici, piani selezionabili, composizione deterministica da richieste, caricamento facoltativo, contorni reattivi, proiezione. Generativa riconosce i nomi canonici delle categorie e dei 15 articoli, insieme ad alias espliciti come forno, infusi e girella; bevande e da bere selezionano soltanto Caffè e Tè, salvo aggiunte richieste. Risorse non assegna sorgenti bitmap prima del pulsante nella prima apertura: WebP condiviso di 384 × 576 px e 84.790 byte. Questo dato non certifica sostenibilità.
+Il pannello usa `details` nativo e il componente daisyUI `collapse`, fuori da `#cafe`. Ha carta bianca, testo ardesia e Inter indipendenti dalla grammatica del bar; i token `cafe-notes-*` registrano questa superficie di lettura. La tab misura 44 × 124 px; il pannello è largo al massimo 360 px, conserva 56 px liberi sul viewport stretto e scorre internamente se l’altezza non basta. Chiusura, Escape e click esterno richiudono la scheda; il selettore mantiene aperta la spiegazione. Chiudere da un controllo interno riporta il focus alla tab. L’ingresso dura 220 ms con `cubic-bezier(.16,1,.3,1)` e viene omesso con movimento ridotto; la scheda non compare in stampa.
 
-`Proietta il sito` sfuma la pagina e apre un dialog nativo con quattro viste, tutti i 15 articoli e gli stessi orari. Vista frontale/laterale cambia la prospettiva; pulsante ed Esc chiudono e ripristinano il focus. Le transizioni sono finite; con movimento ridotto il reset prevale anche sulle regole specifiche di piani, prodotti e contorni, mantenendo statici Spaziale, Organica e Olografica. Le scene con visore AR e proiettore sono ipotesi illustrate: il browser non attiva hardware olografico o AR, e Generativa non chiama un modello AI.
+Scheumorfismo mantiene la placca oro del comando di apertura con un testo marrone scuro; lo stato del filtro usa testo avorio su una piccola superficie marrone traslucida. I token `cafe-scheu-menu-open-*` e `cafe-scheu-filter-status-*` registrano questi due trattamenti e il relativo padding; il materiale circostante conserva i propri valori.
+
+Le varianti site mantengono il Menu di 15 articoli in quattro categorie e il modulo Contatti, che prepara una bozza locale scaricabile o apribile nella posta. Una modifica a qualsiasi campo o argomento revoca la bozza precedente; la preparazione successiva usa i dati aggiornati. Primissimo web conserva testo, menu intero e collegamenti ordinari, con il selettore didattico come eccezione; non mostra modulo, immagini o pulsanti del bar. Identità, prezzi, orari, indirizzo e contatti rimangono dimostrativi e l’email usa `.example`.
+
+Generativa rende visibili tre richieste, tre risposte e tre pezzi di pagina. Il listino generato riusa i 15 articoli e filtri funzionanti; Pausa, Riprendi, Ricomincia e Mostra tutto gestiscono la sequenza. Con movimento ridotto la composizione è completa subito. AR mostra una sola immagine con testo alternativo; il selettore consente di cambiare rappresentazione. Adattabile rende confrontabili le scelte di lettura. Max e Pixel permettono di fermare la propria animazione continua. GIF storiche mostrano PNG fermi con movimento ridotto e in stampa.
+
+Olografica offre **Riproietta** e **Ferma il movimento / Riattiva il movimento** con stato `aria-pressed`; la pausa ferma CSS, WebGL e parallasse e disabilita Riproietta. Movimento ridotto mostra la composizione completa e ferma, omettendo scansioni e controlli del movimento. Il renderer e le animazioni continue dei prodotti si sospendono fuori viewport e nelle schede nascoste. `holographic-projection.js` possiede il canvas della Home e libera le risorse al cambio stile; `directions-scenarios.js` gestisce ricomposizione, scansioni alpha, controlli e cleanup. Assegna `.holo-text` a hero, testi delle sezioni, valori, riepiloghi, informazioni di contatto e liste del menu; un `IntersectionObserver` con soglia 0,12 ne aggiorna `data-holo-inview`. Riproietta riavvia gli ingressi visibili; la pausa arresta anche materializzazione e scansione dei testi. Con movimento ridotto i blocchi sono completi e senza scansione; in stampa spariscono piani luminosi, ombre e trasformazioni. Il cambio stile rimuove classe, stato e observer dei testi. La CTA è alta almeno 52 px (48 px su mobile), con focus verde di 2 px e offset 6 px; hover la solleva di 3 px.
+
+**The Representation Rule.** `presentation: text/site/scene/conversation` stabilisce quale rappresentazione è visibile: AR e Generativa sostituiscono il sito ordinario. Conservare cleanup e caricamento coerenti quando cambia lo stile.
+
+### Transizioni fra mondi grafici e pagine
+
+Il cambio di stile rivela il nuovo mondo da destra verso sinistra in 620 ms, con `cubic-bezier(.16,1,.3,1)` e una lieve uscita del precedente. Il selettore resta riconoscibile mentre cambia posizione e materiale; il pannello Design ha un nome di transizione separato e rimane sul bordo della viewport. Prima della cattura vengono preparati CSS e bitmap; il nuovo stato aspetta anche font e composizioni. `page-transitions.js` coordina View Transitions, interruzioni e fallback senza clonare i campi o perdere bozze e focus.
+
+La navigazione fra le quattro pagine usa una tendina nel primario corrente: chiusura di 160 ms, apertura di 440 ms quando la destinazione è pronta. Un handoff temporaneo nella sessione attiva la copertura nel head prima del primo paint; un limite di 6 secondi evita schermate bloccate in caso di script mancanti. Link modificati, download, mailto, hash e collegamenti esterni mantengono il comportamento nativo.
+
+`styles/transitions.source.css` è il foglio comune, compilato in `styles/transitions.css`. Movimento ridotto, stampa e scheda nascosta omettono la sequenza spaziale; BFCache ripristina la pagina scoperta. La transizione rimane finita e non introduce movimento durante la prima apertura o un semplice reload.
+
 
 ### Do's and Don'ts
 
-- **Do** mantenere la separazione: `contenuti.json` possiede i dati, il generatore produce HTML e `contenuti.js`; `stili.js` possiede catalogo e fonti; i manifest producono `immagini.js`; gli script gestiscono navigazione e interazioni; i CSS sorgente possiedono la presentazione.
-- **Do** conservare in `assets/ttc-v3/` tavole PNG originali, runtime WebP e provenienza di ogni stile: prompt esatti, riferimenti, dimensioni, crop, byte e hash. Le scene d’uso aggiuntive e la loro provenienza sono in `assets/futuri/scene/`. Conservare anche l’atlante precedente, i master del marchio e le licenze dei font.
-- **Do** mantenere leggibilità e contrasto AA indipendenti dalla decorazione, immagini senza cornice, focus, movimento ridotto e stampa. Rigenerare con `pnpm build:caffe-ttc` e verificare con `pnpm check:caffe-luce`; il percorso dei risultati è configurabile con `CAFFE_REPORT`. Il [rapporto conclusivo](reports/caffe-ttc-review-final/verification.json) e la [sintesi delle 22 versioni](reports/tmp/ttc-review-current/review.md) documentano verifica automatica, conferme visive e paginazione residua.
-- **Don't** modificare manualmente `styles.css`, presentare immagini sintetiche come documenti storici o attribuire proprietà fisiche alle simulazioni CSS.
-- **Don't** estendere il sistema grafico del café al deck o rinominare il percorso tecnico come effetto collaterale.
+- **Do** mantenere la separazione: `contenuti.json` possiede i dati; `stili.json` possiede catalogo, anni, modalità e fonti; `design-notes.json` possiede le spiegazioni; i manifest possiedono asset e crop; i generatori producono HTML, dati browser e CSS compilati.
+- **Do** mantenere i 21 sorgenti attivi `styles/<stile>.source.css` e l’ordine degli import condivisi. `directions-historical.js`, `directions-materials.js`, `directions-expressive.js` e `directions-scenarios.js` possiedono e ripuliscono le rispettive composizioni; il selettore attiva il CSS solo dopo il caricamento, con Flat come fallback delle pagine statiche.
+- **Do** conservare PNG originali, WebP/JPEG/GIF di runtime, prompt, riferimenti, crop, dimensioni, byte, hash e licenze. `assets/redesign/manifest.json` e `assets/redesign/historical/gif-provenance.json` documentano i nuovi asset; `assets/ttc-v3/`, `assets/futuri/scene/`, l’atlante e i concetti del marchio restano archiviati con le attribuzioni.
+- **Do** preservare contenuti, contrasto, tastiera, movimento ridotto e stampa della rappresentazione. Rigenerare con `pnpm build:caffe-ttc` e verificare con `pnpm check:caffe-luce`, scegliendo il percorso tramite `CAFFE_REPORT`. Ricerca, catture, PDF e revisione corrente sono in `reports/ttc-redesign/`; la [revisione](reports/ttc-redesign/review/review.md) e il [README](esempi/caffe-luce/README.md) indicano le prove e il loro ambito.
+- **Don't** modificare manualmente CSS o cataloghi compilati, presentare immagini sintetiche come documenti storici o attribuire AR, AI remota e olografia fisica alle simulazioni locali.
+- **Don't** riattivare `brutal`, `swiss`, `deco`, `risorse` o `organica` dal solo archivio né trasferire palette e grammatiche del café al deck.

@@ -4,14 +4,14 @@
 (function () {
   'use strict';
 
-  const FUTURES = new Set(['adattabile', 'spaziale', 'generativa', 'risorse', 'organica', 'olografica']);
+  const FUTURES = new Set(['adattabile']);
   const STORAGE_KEY = 'caffe-luce-future-v2';
   const CONTENT = window.CAFFE_CONTENT;
   const PRODUCTS = CONTENT.highlights.map(function (product) { return { id: product.id, name: product.title, detail: product.detail }; });
   const READINGS = [
-    { id: 'vicino', label: 'Da vicino', scale: 1, weight: 500, optical: 14 },
-    { id: 'comoda', label: 'Lettura comoda', scale: 1.12, weight: 650, optical: 18 },
-    { id: 'lontano', label: 'Da lontano', scale: 1.24, weight: 750, optical: 24 }
+    { id: 'vicino', label: 'Da vicino', size: 16, weight: 400 },
+    { id: 'comoda', label: 'Comoda', size: 20, weight: 500 },
+    { id: 'lontano', label: 'Da lontano', size: 24, weight: 650 }
   ];
   let preferences = readPreferences();
   let cafe;
@@ -141,53 +141,154 @@
     cafe.querySelector('.cafe-header').insertAdjacentElement('afterend', section);
   }
 
-  function applyReading(reading, width) {
-    cafe.style.setProperty('--reading-scale', reading.scale);
+  function applyReading(reading, width, mode) {
+    cafe.style.setProperty('--reading-scale', reading.size / 18);
+    cafe.style.setProperty('--reading-size', reading.size);
     cafe.style.setProperty('--reading-width', width);
     cafe.style.setProperty('--reading-weight', reading.weight);
-    cafe.style.setProperty('--reading-opsz', reading.optical);
+    cafe.style.setProperty('--reading-opsz', reading.size);
     cafe.dataset.reading = reading.id;
+    cafe.dataset.readingMode = mode;
   }
 
   function adaptable() {
-    heading.textContent = 'Il menu, alla tua distanza';
-    description.textContent = 'Scegli come leggere: cambiano dimensione, peso e larghezza delle lettere.';
-    let reading = READINGS.find(function (item) { return item.id === preferences.reading; }) || READINGS[1];
-    let width = Number(preferences.readingWidth);
-    if (!Number.isFinite(width) || width < 75 || width > 125) width = 100;
-    applyReading(reading, width);
-    controls.append(choiceGroup('Distanza di lettura', READINGS.map(function (item) {
+    heading.textContent = 'Un carattere. Più modi di leggere.';
+    description.textContent = 'Scegli una distanza o regola dimensione, peso e larghezza. Il confronto cambia subito; la pagina segue la tua lettura.';
+    const profile = READINGS.find(function (item) { return item.id === preferences.reading; }) || READINGS[1];
+    function validNumber(value, min, max, step, fallback) {
+      const number = Number(value);
+      return Number.isInteger(number) && number >= min && number <= max && (number - min) % step === 0 ? number : fallback;
+    }
+    const reading = {
+      id: profile.id,
+      size: validNumber(preferences.readingSize, 16, 26, 1, profile.size),
+      weight: validNumber(preferences.readingWeight, 350, 750, 25, profile.weight)
+    };
+    if (preferences.reading === 'custom' || reading.size !== profile.size || reading.weight !== profile.weight) reading.id = 'custom';
+    let width = validNumber(preferences.readingWidth, 75, 125, 1, 100);
+    let mode = preferences.readingMode === 'text' ? 'text' : 'full';
+    const fields = [];
+    const modes = [];
+    const comparison = element('div', 'reading-comparison');
+    let liveSettings;
+    ['base', 'live'].forEach(function (side) {
+      const panel = element('section', 'reading-' + side);
+      const settings = element('p', 'reading-settings', side === 'base' ? '18 px · peso 400 · larghezza 100%' : '');
+      panel.append(
+        element('h3', '', side === 'base' ? 'Riferimento' : 'La tua lettura'),
+        element('p', 'reading-sample', 'Un buon caffè. Un po’ di tempo.'),
+        element('p', 'reading-detail', 'Al banco se vai di fretta. Al tavolo se hai voglia di fermarti.'),
+        settings
+      );
+      if (side === 'live') liveSettings = settings;
+      comparison.append(panel);
+    });
+    result.append(comparison, element('p', 'reading-optical-note', 'Roboto Flex: il disegno delle lettere segue anche la loro dimensione.'));
+
+    function persist() {
+      Object.assign(preferences, {
+        reading: reading.id,
+        readingSize: reading.size,
+        readingWeight: reading.weight,
+        readingWidth: width,
+        readingMode: mode
+      });
+      try {
+        window.sessionStorage.setItem(STORAGE_KEY, JSON.stringify(preferences));
+      } catch (reason) {
+        // Le regolazioni restano disponibili anche senza sessionStorage.
+      }
+    }
+    function sync() {
+      applyReading(reading, width, mode);
+      presets.querySelectorAll('button').forEach(function (button) {
+        button.setAttribute('aria-pressed', String(button.dataset.value === reading.id));
+      });
+      fields.forEach(function (field) {
+        const value = field.key === 'width' ? width : reading[field.key];
+        field.slider.value = String(value);
+        field.output.textContent = field.display(value);
+        field.slider.setAttribute('aria-valuetext', field.spoken(value));
+      });
+      modes.forEach(function (button) { button.setAttribute('aria-pressed', String(button.dataset.mode === mode)); });
+      liveSettings.textContent = reading.size + ' px · peso ' + reading.weight + ' · larghezza ' + width + '%';
+      persist();
+    }
+
+    const presets = element('div', 'reading-presets');
+    presets.append(element('p', 'reading-control-label', 'Distanza di lettura'));
+    presets.append(choiceGroup('Distanza di lettura', READINGS.map(function (item) {
       return { id: item.id, label: item.label };
     }), reading.id, function (id) {
-      reading = READINGS.find(function (item) { return item.id === id; });
-      savePreference('reading', id);
-      applyReading(reading, width);
-      announce(reading.label + ': il testo si adatta alla tua scelta.');
+      const selected = READINGS.find(function (item) { return item.id === id; });
+      Object.assign(reading, { id: selected.id, size: selected.size, weight: selected.weight });
+      sync();
+      announce(selected.label + ': ' + reading.size + ' pixel, peso ' + reading.weight + ', larghezza ' + width + ' per cento.');
     }));
-    const field = element('div', 'future-range-field');
-    const label = element('label', 'future-field-label', 'Larghezza delle lettere');
-    label.htmlFor = 'future-reading-width';
-    const value = element('output', 'future-range-value', width + '%');
-    value.setAttribute('for', 'future-reading-width');
-    const slider = element('input', 'range future-reading-range');
-    slider.id = 'future-reading-width';
-    slider.type = 'range';
-    slider.min = '75';
-    slider.max = '125';
-    slider.step = '1';
-    slider.value = String(width);
-    slider.setAttribute('aria-valuetext', width + ' per cento');
-    slider.addEventListener('input', function () {
-      width = Number(slider.value);
-      value.textContent = width + '%';
-      slider.setAttribute('aria-valuetext', width + ' per cento');
-      applyReading(reading, width);
-      savePreference('readingWidth', width);
+    controls.append(presets);
+
+    const adjustments = element('div', 'reading-adjustments');
+    [
+      { key: 'size', id: 'future-reading-size', className: 'reading-size-range', label: 'Dimensione del testo', min: 16, max: 26, step: 1, display: function (value) { return value + ' px'; }, spoken: function (value) { return value + ' pixel'; } },
+      { key: 'weight', id: 'future-reading-weight', className: 'reading-weight-range', label: 'Peso del carattere', min: 350, max: 750, step: 25, display: function (value) { return String(value); }, spoken: function (value) { return 'peso ' + value; } },
+      { key: 'width', id: 'future-reading-width', className: 'future-reading-range', label: 'Larghezza delle lettere', min: 75, max: 125, step: 1, display: function (value) { return value + '%'; }, spoken: function (value) { return value + ' per cento'; } }
+    ].forEach(function (config) {
+      const field = element('div', 'future-range-field');
+      const label = element('label', 'future-field-label', config.label);
+      label.htmlFor = config.id;
+      const output = element('output', 'future-range-value');
+      output.setAttribute('for', config.id);
+      const slider = element('input', 'range ' + config.className);
+      slider.id = config.id;
+      slider.type = 'range';
+      slider.min = String(config.min);
+      slider.max = String(config.max);
+      slider.step = String(config.step);
+      slider.addEventListener('input', function () {
+        if (config.key === 'width') width = Number(slider.value);
+        else {
+          reading[config.key] = Number(slider.value);
+          reading.id = 'custom';
+        }
+        sync();
+      });
+      slider.addEventListener('change', function () { announce(config.label + ': ' + config.spoken(Number(slider.value)) + '.'); });
+      const limits = element('small', 'reading-range-limits');
+      limits.setAttribute('aria-hidden', 'true');
+      limits.append(element('span', '', config.display(config.min)), element('span', '', config.display(config.max)));
+      field.append(label, output, slider, limits);
+      fields.push({ key: config.key, slider: slider, output: output, display: config.display, spoken: config.spoken });
+      adjustments.append(field);
     });
-    slider.addEventListener('change', function () { announce('Larghezza delle lettere: ' + width + '%.'); });
-    field.append(label, value, slider);
-    controls.append(field);
-    result.append(titledOutput('Tempo. Tazza. Conversazione.', 'Un buon caffè. Un po’ di tempo.', 'future-reading-sample'));
+    controls.append(adjustments);
+
+    const modeControl = element('div', 'reading-mode-control');
+    modeControl.setAttribute('role', 'group');
+    modeControl.setAttribute('aria-label', 'Composizione della lettura');
+    [{ id: 'full', label: 'Sito completo' }, { id: 'text', label: 'Testo in primo piano' }].forEach(function (choice) {
+      const button = element('button', 'btn', choice.label);
+      button.type = 'button';
+      button.dataset.mode = choice.id;
+      button.addEventListener('click', function () {
+        mode = choice.id;
+        sync();
+        announce(choice.id === 'text' ? 'Testo in primo piano: le immagini sono nascoste.' : 'Sito completo: testo e immagini sono visibili.');
+      });
+      modes.push(button);
+      modeControl.append(button);
+    });
+    const reset = element('button', 'btn reading-reset', 'Ripristina');
+    reset.type = 'button';
+    reset.addEventListener('click', function () {
+      Object.assign(reading, { id: READINGS[1].id, size: READINGS[1].size, weight: READINGS[1].weight });
+      width = 100;
+      mode = 'full';
+      sync();
+      announce('Lettura ripristinata: 20 pixel, peso 500, larghezza 100 per cento. Sito completo.');
+    });
+    modeControl.append(reset);
+    controls.append(modeControl);
+    sync();
     announce('La tua preferenza di lettura si conserva fra le pagine.');
   }
 
@@ -459,7 +560,12 @@
     section.hidden = !FUTURES.has(id);
     cafe.querySelectorAll('.menu-item').forEach(function (item) { delete item.dataset.futureSelected; });
     section.querySelectorAll('.future-scene').forEach(function (scene) { scene.remove(); });
-    if (!FUTURES.has(id)) return Promise.resolve();
+    if (!FUTURES.has(id)) {
+      delete cafe.dataset.reading;
+      delete cafe.dataset.readingMode;
+      ['scale', 'size', 'weight', 'width', 'opsz'].forEach(function (axis) { cafe.style.removeProperty('--reading-' + axis); });
+      return Promise.resolve();
+    }
     activeStyle = typeof style === 'string' ? { id: style } : style;
     section.dataset.future = id;
     controls.replaceChildren();

@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px) {
+  .cafe[data-style="spaziale"] .menu-grid, .cafe[data-style="olografica"] .menu-grid { gap: 20px; padding-inline: 0; }
+  .future-prompt-form { grid-template-columns: 1fr; }
+}
+@media screen and (max-width: 720px) {
+  .cafe[data-future="true"] .future-experience { display: flex; flex-direction: column; gap: 12px; padding: 24px; }
+  .future-heading { font-size: 25px; }
+  .future-controls { margin-top: 8px; }
+  .future-choice.btn, .future-submit.btn { font-size: 14px; }
+  .future-result { margin-top: 8px; }
+  .future-scene img { max-height: none; }
+  .cafe[data-future="true"] .cafe-hero { display: flex; flex-direction: column; height: auto; }
+  .cafe[data-future="true"] .hero-copy { min-height: 300px; padding: 32px 24px; }
+  .cafe[data-future="true"] .hero-picture { height: 270px; flex: none; }
+  .cafe[data-future="true"] #cafe-title { font-size: 44px; }
+}

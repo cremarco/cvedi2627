@@ -1,0 +1,3 @@
+@media print {
+  .cafe[data-style="html"][data-page] .cafe-cta.btn,.cafe[data-style="minimal"][data-page] .cafe-cta.btn { width: auto; }
+}

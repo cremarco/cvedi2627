@@ -1,0 +1,4 @@
+/* Four-page TTC markup: category definition lists, direct value columns and
+ * the separate message form retain their semantic roles in every direction. */
+.cafe[data-content="ttc"]:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-list { display: block; margin-top: 22px; }
+.cafe[data-content="ttc"]:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-message :is(.input,.select,.textarea) { min-height: 48px; border-radius: var(--cafe-radius); background-color: var(--cafe-paper); color: var(--cafe-ink); border-color: var(--cafe-rule); }

@@ -1,0 +1,3 @@
+@media print {
+  .cafe[data-style="glass"] :is(.cafe-header, .hero-copy, .cafe-menu, .cafe-contacts, .cafe-footer), .cafe[data-style="spaziale"] :is(.cafe-header, .cafe-footer) { backdrop-filter: none; }
+}

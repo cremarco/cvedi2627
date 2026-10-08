@@ -50,7 +50,7 @@ export async function optimizePagesMedia(directory, targetBytes = 980_000_000) {
         '-hide_banner', '-loglevel', 'error', '-nostdin', '-y', '-i', video.location,
         '-map', '0:v:0', '-map', '0:a?', '-map_metadata', '0',
         '-vf', "scale=w='min(1280,iw)':h=-2", '-c:v', 'libx264', '-preset', 'slow',
-        '-crf', '24', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-movflags', '+faststart', temporary,
+        '-crf', '26', '-pix_fmt', 'yuv420p', '-c:a', 'copy', '-movflags', '+faststart', temporary,
       ], { encoding: 'utf8' })
       if (result.error || result.status !== 0)
         throw new Error(`Pages video encoding failed: ${result.error?.message || result.stderr}`)

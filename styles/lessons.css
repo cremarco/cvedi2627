@@ -56,8 +56,6 @@
   font: italic 300 var(--cvedi-type-label)/1.7 var(--cvedi-font-body);
   text-align: right;
 }
-.lesson-albers-figure { margin: 0; }
-.lesson-albers-figure > .lesson-caption { display: block; margin-top: 12px; }
 .lesson-statement {
   max-width: 1000px;
   margin: 0;

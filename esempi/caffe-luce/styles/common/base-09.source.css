@@ -1,0 +1,4 @@
+@media print {
+  .cafe[data-style="html"] #cafe-title, .cafe[data-style="scheu"] #cafe-title, .cafe[data-style="risorse"] #cafe-title, .cafe[data-style="organica"] #cafe-title { font-size: 32px; }
+  .cafe[data-style="y2k"] .section-title, .cafe[data-style="olografica"] .section-title { font-size: 24px; }
+}

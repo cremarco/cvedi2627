@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 243 slide online e 499 nell’anteprima locale. Le lezioni 04–09 sono disponibili soltanto in locale; le 68 slide della terza lezione sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 242 slide online e 498 nell’anteprima locale. Le lezioni 04–09 sono disponibili soltanto in locale; le 67 slide della terza lezione sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 
@@ -17,7 +17,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 
 | Comando | Risultato |
 | --- | --- |
-| `pnpm build` | SPA pubblicabile, 243 slide in `dist/` |
+| `pnpm build` | SPA pubblicabile, 242 slide in `dist/` |
 | `pnpm build:pages` | Slide pubblicabili e archivio in `_site/` |
 | `pnpm export` | Export Slidev, soltanto quando richiesto |
 | `pnpm clean` | Elimina output, cache Slidev e rapporti locali |
@@ -32,7 +32,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:projects` | Archivio dei siti |
 | `pnpm check:links` | Collegamenti locali |
 
-I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 499 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
+I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 498 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
 
 ## Struttura
 
@@ -51,6 +51,8 @@ Il CSS compilato deriva da `styles/daisy.css`: non modificarlo manualmente. L'ar
 ## Pubblicazione
 
 GitHub Actions pubblica `main` con `pnpm build:pages` nel percorso `/cvedi2627/`. La build include l'archivio e verifica il budget di 990 MB. FFmpeg deve essere nel PATH o in `PAGES_FFMPEG`: ottimizza soltanto le copie dei video esportate, preservando i sorgenti. `build-info.json` identifica il commit distribuito e `media-optimization.json` il trattamento dei media.
+
+Caffè TTC è consultabile separatamente dalle slide in `/web-design-examples/`: durante `pnpm dev` apre le quattro pagine e il selettore dei 21 stili. `pnpm build` prepara lo stesso percorso in `dist/`; Pages lo pubblica in `/cvedi2627/web-design-examples/`. Gli URL delle varianti usano `?stile=`, per esempio `web-design-examples/menu.html?stile=y2k`. Le build rigenerano gli esempi e copiano le risorse usate dal sito, con licenze e provenienza; originali e varianti archiviate restano in `esempi/caffe-luce/`.
 
 Gli import delle lezioni 04–09 dichiarano `localOnly: true`. Il preparser Slidev li disabilita durante ogni build e rimuove il blocco `LocalOnly` dall’indice prima della compilazione. Slide, alias e panoramica online non contengono queste lezioni; le immagini esclusive in `images/processo-ux` sono escluse dall’output. `pnpm dev` conserva le sei lezioni e i collegamenti. I controlli delle sorgenti verificano entrambe le modalità.
 

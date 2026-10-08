@@ -1,0 +1,8 @@
+@media screen and (max-width: 720px) {
+  .cafe[data-future="true"] .cafe-menu { padding: 28px 24px; }
+  .cafe[data-future="true"] .menu-grid { gap: 24px; }
+  .cafe[data-future="true"] .menu-item { min-height: 240px; }
+  .cafe[data-future="true"] .menu-page-products .menu-item { min-height: 300px; }
+  .cafe[data-future="true"] .menu-page-products .menu-picture { height: 200px; }
+  .cafe[data-style="spaziale"] .menu-grid, .cafe[data-style="olografica"] .menu-grid { padding: 12px 8px 24px; }
+}

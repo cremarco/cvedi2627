@@ -1,0 +1,45 @@
+{
+  "author": "Original artwork generated for the Caffè TTC didactic example",
+  "source": "build-gifs.py",
+  "historicalStatus": "Contemporary early-web revival; not a historical artifact",
+  "externalArtwork": false,
+  "motion": "Animated GIF89a; corresponding still PNG under reduced motion and print",
+  "assets": [
+    {
+      "file": "coffee-steam.gif",
+      "width": 104,
+      "height": 58,
+      "frames": 8,
+      "format": "GIF",
+      "bytes": 4485,
+      "sha256": "66cf5770e1815b213ac87aef249692a9742a2d873e21e4d73e7063a8088f53a6"
+    },
+    {
+      "file": "coffee-still.png",
+      "width": 104,
+      "height": 58,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 1620,
+      "sha256": "541bf44cad9e47efbf57c1ea43edf47ef6a9d208d6f9b7e14b62ede6014f709e"
+    },
+    {
+      "file": "new.gif",
+      "width": 54,
+      "height": 24,
+      "frames": 6,
+      "format": "GIF",
+      "bytes": 3742,
+      "sha256": "8f5298154305c7236d051983d3f1d55d3fad2d7af6edcca729638f2f9f76d38b"
+    },
+    {
+      "file": "new-still.png",
+      "width": 54,
+      "height": 24,
+      "frames": 1,
+      "format": "PNG",
+      "bytes": 804,
+      "sha256": "ce464012acb043bee3c5d87fa1e01262caff1b4a253d640fa967356de925cc0e"
+    }
+  ]
+}

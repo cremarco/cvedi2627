@@ -21,8 +21,8 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 499, buttons: 11 },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 243, buttons: 5 },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 498, buttons: 11 },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 242, buttons: 5 },
   ]) {
     const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, publicLessons[2], ...(profile.name === 'local' ? curriculum.lessons : [])]
     const page = await browser.newPage({ reducedMotion: 'reduce' })
@@ -99,7 +99,7 @@ try {
         return { total: nav.total.value ?? nav.total, slides: slides.map(slide => ({ lesson: slide.meta.slide.frontmatter.lesson, alias: slide.meta.slide.frontmatter.routeAlias })) }
       })
       assert.equal(nav.total, profile.total, `${profile.name}: actual runtime total`)
-      assert.equal(nav.slides.filter(slide => slide.lesson === 'storia-design').length, 68, 'lesson 03 is available locally and online')
+      assert.equal(nav.slides.filter(slide => slide.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(nav.slides.some(slide => slide.alias === 'storia-design'), 'lesson 03 retains its alias')
       for (const lesson of curriculum.lessons) {
         const owned = nav.slides.filter(slide => slide.lesson === lesson.id)
@@ -125,7 +125,7 @@ try {
       if (destination.number) assert.ok((await cover.innerText()).includes(String(destination.number).padStart(2, '0')), `${profile.name}: cover preserves lesson ${destination.number}`)
       if (destination.id === 'storia-design') {
         const progress = page.locator('.presentation-progress-rail progress')
-        assert.equal(await progress.getAttribute('max'), '68', 'history progress counts the complete lesson')
+        assert.equal(await progress.getAttribute('max'), '67', 'history progress counts the complete lesson')
       }
     }
     const closing = await openSlide(page, profile.base, profile.total, { settle: true })

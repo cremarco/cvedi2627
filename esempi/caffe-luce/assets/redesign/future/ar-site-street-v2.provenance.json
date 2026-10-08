@@ -1,0 +1,20 @@
+{
+  "key": "ar_scene_street_v2",
+  "generator": "built-in image_gen",
+  "intent": "compositing/background replacement",
+  "prompt": "Edit this AR image for a fictional Caffè TTC website. Change the real-world setting from inside the cafe to OUTSIDE on a pleasant Italian city street or small neighborhood square, so a person is discovering the cafe's website and menu BEFORE arriving there. The first-person visitor is standing or walking on the pavement under open daylight, with warm-colored buildings and porticoes, a few trees, natural street perspective and a clear pedestrian setting. No Caffè TTC premises immediately around the visitor, no cafe interior, no restaurant table, no physical cup, no physical croissant, no physical vase in the foreground. Remove those real-world tabletop objects and replace them with the street scene. Preserve the three floating AR glass website panels, their arrangement, their photographs INSIDE the panels and ALL existing text, prices and opening time exactly: Caffè TTC; Tempo. Tazza. Conversazione.; Menu; Espresso €2,00; Cappuccino TTC €3,50; Croissant al burro €2,80; Orari; 7:30–19:00. Preserve the first-person hand pointing naturally at the menu; adjust its relation to the new standing outdoor viewpoint if needed while keeping it realistic. The browser panels remain large, sharp, readable and floating in the visitor's field of view, with subtle glass reflections consistent with daylight. Photorealistic environment and hand, elegant clear spatial composition. Preserve the wide 1586x992 composition and panel placement. No new interface widgets, no map, no additional words, no watermarks or borders. Change only the surrounding scene and the physical foreground required by this outdoor context; website content stays unchanged.",
+  "source": "/Users/marco/.codex/generated_images/01a11abf-928f-7191-ab33-91c7cb5b852a/exec-d02787e3-e90c-4d39-9911-b7b512065319.png",
+  "referenceImage": "assets/redesign/future/ar-site.png",
+  "created": "2026-10-08",
+  "provenance": "Generated speculative first-person AR illustration, discovering fictional Caffè TTC from a city street before arrival; preserves website panels and canonical data.",
+  "original": "assets/redesign/future/ar-site-street-v2.png",
+  "originalSha256": "3c8cb3ba9e39ce735697590d88d02d24cce8961093e660a6a62d3ca83d7e7394",
+  "runtime": {
+    "src": "assets/redesign/future/ar-site-street-v2.webp",
+    "width": 1586,
+    "height": 992,
+    "bytes": 1451730,
+    "sha256": "762442b783b4eddd2da62d4450158bebc4653a95efb4f56a9eb53482fcc564d2",
+    "operation": "Lossless WebP encoding; pixels preserved."
+  }
+}

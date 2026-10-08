@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "collection": "Caffè TTC — prodotti fotografici per il piano olografico",
+  "generatedAt": "2026-10-08",
+  "generator": "OpenAI built-in image_gen.imagegen",
+  "runtimeEncoding": "WebP quality 94, alphaQuality 100, effort 6; max 1100×1100; original PNG alpha preserved",
+  "assets": [
+    {
+      "id": "coffee",
+      "title": "Cappuccino in tazza avorio",
+      "generator": "OpenAI built-in image_gen.imagegen",
+      "generationDate": "2026-10-08",
+      "generationMode": "generate",
+      "transparentBackgroundRequested": true,
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11b4e-ae67-7d82-870d-83da2019b700/exec-e1103565-8734-4402-b970-ddf6fba30410.png",
+      "prompt": "Use case: product-mockup. Asset type: photorealistic transparent foreground product cutout for a sophisticated dark Caffè TTC website.\nPrimary request: a real warm ivory ceramic cappuccino cup containing caramel crema and a crisp white latte-art rosetta, sitting on its matching sculptural ceramic saucer.\nStyle/medium: extremely detailed high-end editorial product photography, tactile real matte ceramic, natural coffee foam.\nComposition/framing: square image, entire cup and saucer visible, centered with generous transparent margins. Three-quarter overhead camera angle, handle points right. Beautiful dimensional angle showing the opening and outside of the cup and saucer.\nLighting/mood: soft natural warm directional light from upper left, elegant soft photographic shading, bright readable edges for compositing against a nearly black webpage.\nScene/backdrop: truly transparent alpha background, no surface or surroundings. Subject fully isolated.\nConstraints: realistic warm product colors, no holographic appearance, no blue tint, no neon, no glow, no graphics, no text, no logo, no watermark, no extra objects, no cropped edges. Do not render a fake checkerboard. Generate genuine alpha transparency.",
+      "referenceImages": [],
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "provenance": "Original AI-generated product image for the fictional Caffè TTC. Not a photograph of a real café product.",
+      "rights": "Generated for this project; no third-party source asset or third-party license claim. Original output retained with embedded provenance metadata.",
+      "variants": [
+        {
+          "path": "esempi/caffe-luce/assets/redesign/holographic/coffee.png",
+          "width": 1254,
+          "height": 1254,
+          "format": "png",
+          "hasAlpha": true,
+          "bytes": 1557490,
+          "sha256": "76ff511126a6cf0d4b77f41fc4a4caa7170195b1b9025d779262567e891e6bd0",
+          "alpha": {
+            "transparentPixels": 781850,
+            "translucentPixels": 790225,
+            "opaquePixels": 441,
+            "totalPixels": 1572516
+          }
+        },
+        {
+          "path": "esempi/caffe-luce/assets/redesign/holographic/coffee.webp",
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "hasAlpha": true,
+          "bytes": 205912,
+          "sha256": "535529db5a32af18c310837c1db3e54dc0a77b5f97cd43943398cb51d8ede767",
+          "alpha": {
+            "transparentPixels": 601541,
+            "translucentPixels": 607618,
+            "opaquePixels": 841,
+            "totalPixels": 1210000
+          }
+        }
+      ]
+    },
+    {
+      "id": "croissant",
+      "title": "Croissant al burro",
+      "generator": "OpenAI built-in image_gen.imagegen",
+      "generationDate": "2026-10-08",
+      "generationMode": "generate",
+      "transparentBackgroundRequested": true,
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11b4e-ae67-7d82-870d-83da2019b700/exec-0e28509b-34e7-487e-8907-95d334c404af.png",
+      "prompt": "Use case: product-mockup. Asset type: photorealistic transparent foreground product cutout for a sophisticated dark Caffè TTC website.\nPrimary request: one beautiful golden butter croissant, real artisanal bakery pastry with crisp layered flaky crust, distinct airy folds, delicate toasted caramel ridges.\nStyle/medium: extremely detailed high-end editorial food photography, natural appetizing butter-gold and warm toasted colors.\nComposition/framing: square image, the entire croissant visible and centered with generous transparent margins, three-quarter camera angle looking slightly down, broad crescent silhouette facing viewer, dimensional sculptural form.\nLighting/mood: soft natural warm directional light from upper left, elegant soft photographic shading, bright readable edges for compositing against a nearly black webpage.\nScene/backdrop: truly transparent alpha background, no plate, no table, no surroundings. Subject fully isolated.\nConstraints: no holographic appearance, no blue tint, no neon, no glow, no graphics, no text, no logo, no watermark, no extra objects, no cropped edges. Do not render a fake checkerboard. Generate genuine alpha transparency.",
+      "referenceImages": [],
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "provenance": "Original AI-generated product image for the fictional Caffè TTC. Not a photograph of a real café product.",
+      "rights": "Generated for this project; no third-party source asset or third-party license claim. Original output retained with embedded provenance metadata.",
+      "variants": [
+        {
+          "path": "esempi/caffe-luce/assets/redesign/holographic/croissant.png",
+          "width": 1254,
+          "height": 1254,
+          "format": "png",
+          "hasAlpha": true,
+          "bytes": 1684929,
+          "sha256": "e6a5243c0cdd6770d8d701e436c96a39911d242f49d25c432e51cee7bf9a9dde",
+          "alpha": {
+            "transparentPixels": 942490,
+            "translucentPixels": 629863,
+            "opaquePixels": 163,
+            "totalPixels": 1572516
+          }
+        },
+        {
+          "path": "esempi/caffe-luce/assets/redesign/holographic/croissant.webp",
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "hasAlpha": true,
+          "bytes": 344410,
+          "sha256": "90de300f49926d368651aaf74628a2eb08083e7c5dc792ee4e0342350db560d2",
+          "alpha": {
+            "transparentPixels": 725244,
+            "translucentPixels": 484377,
+            "opaquePixels": 379,
+            "totalPixels": 1210000
+          }
+        }
+      ]
+    },
+    {
+      "id": "tea",
+      "title": "Tè ambrato in tazza di vetro",
+      "generator": "OpenAI built-in image_gen.imagegen",
+      "generationDate": "2026-10-08",
+      "generationMode": "generate",
+      "transparentBackgroundRequested": true,
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11b4e-ae67-7d82-870d-83da2019b700/exec-f19e9ed2-ff7e-4c0e-a673-7c5f72071809.png",
+      "prompt": "Use case: product-mockup. Asset type: photorealistic transparent foreground product cutout for a sophisticated dark Caffè TTC website.\nPrimary request: a refined transparent glass teacup filled with rich amber tea, resting on a small clear glass saucer; elegant fine clear handle pointing right.\nStyle/medium: extremely detailed high-end editorial product photography, convincing clear transparent glass with delicate bright warm reflections and deep rich amber liquid.\nComposition/framing: square image, entire glass teacup and saucer visible, centered with generous transparent margins. Three-quarter camera angle slightly above cup, dimensional perspective showing the tea surface and cup body.\nLighting/mood: soft natural warm directional light from upper left, clean glass edge highlights suitable for compositing against a nearly black webpage.\nScene/backdrop: truly transparent alpha background, no surface or surroundings, preserve translucent edges and empty handle hole. Subject fully isolated.\nConstraints: realistic warm product colors, no holographic appearance, no blue tint, no neon, no glow, no graphics, no text, no logo, no watermark, no extra objects, no cropped edges. Do not render a fake checkerboard. Generate genuine alpha transparency.",
+      "referenceImages": [],
+      "crop": {
+        "x": 0,
+        "y": 0,
+        "width": 1,
+        "height": 1
+      },
+      "provenance": "Original AI-generated product image for the fictional Caffè TTC. Not a photograph of a real café product.",
+      "rights": "Generated for this project; no third-party source asset or third-party license claim. Original output retained with embedded provenance metadata.",
+      "variants": [
+        {
+          "path": "esempi/caffe-luce/assets/redesign/holographic/tea.png",
+          "width": 1254,
+          "height": 1254,
+          "format": "png",
+          "hasAlpha": true,
+          "bytes": 1376395,
+          "sha256": "7a53d43cb420f351733a0095f207f93b111de525e3083ca29f3618345c9ac873",
+          "alpha": {
+            "transparentPixels": 898085,
+            "translucentPixels": 674143,
+            "opaquePixels": 288,
+            "totalPixels": 1572516
+          }
+        },
+        {
+          "path": "esempi/caffe-luce/assets/redesign/holographic/tea.webp",
+          "width": 1100,
+          "height": 1100,
+          "format": "webp",
+          "hasAlpha": true,
+          "bytes": 223726,
+          "sha256": "490c58a681446ce73531e5e7176669d5c88142b0f392192b26db29197dc449f6",
+          "alpha": {
+            "transparentPixels": 691423,
+            "translucentPixels": 518044,
+            "opaquePixels": 533,
+            "totalPixels": 1210000
+          }
+        }
+      ]
+    }
+  ]
+}

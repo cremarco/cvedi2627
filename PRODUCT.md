@@ -16,7 +16,9 @@ Slidev e Vue su canvas 1280 × 720, navigazione da tastiera e indice. Numerazion
 
 ## Capabilities and Constraints
 
-Il deck contiene 243 slide online e 499 nell’anteprima locale; i sorgenti conservano 499 slide. Le lezioni 04–09 sono escluse dalle build pubblicate tramite gli import `localOnly: true`; anche le loro voci dell’indice e immagini esclusive sono escluse. La lezione 3 di storia del design e la voce 03 dell’indice sono attive in entrambe le modalità. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
+Il deck contiene 242 slide online e 498 nell’anteprima locale; i sorgenti conservano 498 slide. Le lezioni 04–09 sono escluse dalle build pubblicate tramite gli import `localOnly: true`; anche le loro voci dell’indice e immagini esclusive sono escluse. La lezione 3 di storia del design e la voce 03 dell’indice sono attive in entrambe le modalità. Queste scelte, i contenuti e le destinazioni dei collegamenti devono essere conservati nel restyling.
+
+Gli esempi autonomi di Caffè TTC hanno il percorso `/web-design-examples/`, con quattro pagine e 21 stili selezionabili. Su GitHub Pages appartengono alla radice del progetto, `/cvedi2627/web-design-examples/`; i contenuti delle slide continuano a usare le proprie figure didattiche. I sorgenti degli esempi restano in `esempi/caffe-luce/`.
 
 ## Brand Commitments
 

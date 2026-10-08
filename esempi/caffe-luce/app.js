@@ -17,10 +17,15 @@
     ['sperimentale', 'Scenari futuri · esperimenti']
   ];
   let current;
+  let currentStylesheet = document.getElementById('cafe-stylesheet');
   let revision = 0;
   const future = window.CAFFE_FUTURE;
+  const transitions = window.CAFFE_TRANSITIONS;
+  const directions = [window.CAFFE_HISTORICAL, window.CAFFE_MATERIALS, window.CAFFE_EXPRESSIVE, window.CAFFE_SCENARIOS].filter(Boolean);
 
   function pictureSource(frame) {
+    const picture = current.pictures && current.pictures[frame.dataset.picture];
+    if (picture) return { ...picture, region: picture.region || [0, 0, picture.width, picture.height] };
     if (current.scene && frame.classList.contains('hero-picture')) {
       return { src: current.scene.src, width: current.scene.width, height: current.scene.height, region: [0, 0, current.scene.width, current.scene.height], alt: current.scene.alt };
     }
@@ -42,14 +47,14 @@
     styles.filter(function (style) { return style.group === group[0]; }).forEach(function (style) {
       const option = document.createElement('option');
       option.value = style.id;
-      option.textContent = style.label;
+      option.textContent = style.years + ' · ' + style.label;
       optgroup.appendChild(option);
     });
     if (optgroup.children.length) select.appendChild(optgroup);
   });
 
   function positionPictures() {
-    if (!current) return;
+    if (!current || !current.image) return;
     frames.forEach(function (frame) {
       const image = frame.querySelector('img');
       const source = pictureSource(frame);
@@ -74,6 +79,7 @@
   }
 
   if (future) future.init(cafe, loadCurrentPictures);
+  directions.forEach(function (direction) { direction.init(cafe); });
 
   function loadImage(image, source) {
     return new Promise(function (resolve, reject) {
@@ -118,47 +124,122 @@
     }
   }
 
+  function loadStylesheet(style) {
+    if (currentStylesheet.dataset.style === style.id && currentStylesheet.sheet) {
+      return Promise.resolve(currentStylesheet);
+    }
+    return new Promise(function (resolve, reject) {
+      const link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = 'styles/' + style.id + '.css';
+      link.dataset.style = style.id;
+      link.media = 'not all';
+      link.addEventListener('load', function () { resolve(link); }, { once: true });
+      link.addEventListener('error', function () {
+        link.remove();
+        reject(new Error('Stylesheet unavailable: ' + link.href));
+      }, { once: true });
+      document.head.appendChild(link);
+    });
+  }
+
+  async function prepareStylePictures(style, stylesheet) {
+    const sources = new Set();
+    if (!['text', 'scene', 'conversation'].includes(style.presentation) && style.image) sources.add(style.image.src);
+    if (style.pictures) Object.values(style.pictures).forEach(function (picture) { sources.add(picture.src); });
+    if (style.presentation === 'scene' && style.scene) sources.add(style.scene.src);
+    if (style.presentation === 'conversation' && window.CAFFE_IMAGES?.material) sources.add(window.CAFFE_IMAGES.material.src);
+    try {
+      function backgrounds(rules) {
+        Array.from(rules).forEach(function (rule) {
+          if (rule.cssRules) backgrounds(rule.cssRules);
+          if (!rule.style) return;
+          for (const match of rule.style.cssText.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)) {
+            const source = match[1].trim();
+            if (/\.(png|webp|jpe?g|gif|avif)([?#]|$)/i.test(source)) sources.add(new URL(source, stylesheet.href).href);
+          }
+        });
+      }
+      backgrounds(stylesheet.sheet.cssRules);
+    } catch (reason) { /* Some file:// browsers restrict CSS rule inspection. */ }
+    await Promise.all(Array.from(sources).map(function (source) { return loadImage(new Image(), source); }));
+  }
+
   async function changeStyle(id) {
     const style = styles.find(function (entry) { return entry.id === id; }) || styles.find(function (entry) { return entry.id === 'flat'; }) || styles[0];
     const activeRevision = ++revision;
-    current = style;
+    const animate = Boolean(current && current.id !== style.id);
+    if (transitions) transitions.cancelStyle();
     select.value = style.id;
-    cafe.dataset.style = style.id;
-    cafe.dataset.future = style.group === 'atlante' ? 'false' : 'true';
-    document.documentElement.dataset.style = style.id;
-    document.body.dataset.style = style.id;
-    const layout = style.layout === 'legacy' ? 'legacy' : 'responsive';
-    cafe.dataset.layout = layout;
-    document.documentElement.dataset.layout = layout;
-    document.body.dataset.layout = layout;
-    preserveStyleInLinks(style.id);
-    const futureReady = future ? future.activate(style) : Promise.resolve();
     cafe.dataset.ready = 'false';
     cafe.setAttribute('aria-busy', 'true');
     error.hidden = true;
-    positionPictures();
 
+    let stylesheet;
     try {
-      const wantPictures = !future || future.wantsImages(style);
-      if (!wantPictures) frames.forEach(function (frame) { frame.querySelector('img').removeAttribute('src'); });
-      const imagePromises = wantPictures ? [loadCurrentPictures(), futureReady] : [futureReady];
-      const fontPromises = document.fonts ? [cafe, select, document.getElementById('cafe-title')].map(function (element) {
-        const computed = getComputedStyle(element);
-        const font = [computed.fontStyle, computed.fontWeight, computed.fontSize, computed.fontFamily].join(' ');
-        return document.fonts.load(font, element.textContent);
-      }) : [];
-      await Promise.all(imagePromises.concat(fontPromises));
-      if (document.fonts) await document.fonts.ready;
-      if (activeRevision !== revision) return;
-      positionPictures();
-      cafe.dataset.ready = 'true';
+      stylesheet = await loadStylesheet(style);
+      if (activeRevision !== revision) {
+        if (stylesheet !== currentStylesheet) stylesheet.remove();
+        return;
+      }
+      if (animate) await prepareStylePictures(style, stylesheet);
+      if (activeRevision !== revision) {
+        if (stylesheet !== currentStylesheet) stylesheet.remove();
+        return;
+      }
+      const update = async function () {
+        if (activeRevision !== revision) return;
+        if (stylesheet !== currentStylesheet) {
+          stylesheet.media = 'all';
+          currentStylesheet.remove();
+          stylesheet.id = 'cafe-stylesheet';
+          currentStylesheet = stylesheet;
+        }
+        current = style;
+        cafe.dataset.style = style.id;
+        cafe.dataset.future = style.group === 'atlante' ? 'false' : 'true';
+        cafe.dataset.presentation = style.presentation || 'site';
+        document.documentElement.dataset.style = style.id;
+        document.body.dataset.style = style.id;
+        const layout = style.layout === 'legacy' ? 'legacy' : 'responsive';
+        cafe.dataset.layout = layout;
+        document.documentElement.dataset.layout = layout;
+        document.body.dataset.layout = layout;
+        preserveStyleInLinks(style.id);
+        const futureReady = future ? future.activate(style) : Promise.resolve();
+        const directionReady = directions.map(function (direction) { return direction.activate(style); });
+        positionPictures();
+        const wantPictures = !['text', 'scene', 'conversation'].includes(style.presentation) && (!future || future.wantsImages(style));
+        if (!wantPictures) frames.forEach(function (frame) { frame.querySelector('img').removeAttribute('src'); });
+        const imagePromises = (wantPictures ? [loadCurrentPictures(), futureReady] : [futureReady]).concat(directionReady);
+        const fontPromises = document.fonts ? [cafe, select, document.getElementById('cafe-title')].map(function (element) {
+          const computed = getComputedStyle(element);
+          const font = [computed.fontStyle, computed.fontWeight, computed.fontSize, computed.fontFamily].join(' ');
+          return document.fonts.load(font, element.textContent);
+        }) : [];
+        await Promise.all(imagePromises.concat(fontPromises));
+        if (document.fonts) await document.fonts.ready;
+        if (activeRevision !== revision) return;
+        positionPictures();
+        await Promise.all(directions.map(function (direction) { return direction.afterReady ? direction.afterReady(style) : undefined; }));
+        if (activeRevision !== revision) return;
+        cafe.dataset.ready = 'true';
+      };
+      if (transitions) await transitions.styleChange(update, function () { return activeRevision === revision; }, animate);
+      else await update();
     } catch (reason) {
+      if (stylesheet && stylesheet !== currentStylesheet) stylesheet.remove();
       if (activeRevision !== revision) return;
+      if (transitions) transitions.cancelStyle();
       cafe.dataset.ready = 'error';
-      error.textContent = 'Una risorsa dello stile non è disponibile. Controlla che la cartella assets sia accanto alla pagina, oppure scegli un altro stile.';
+      select.value = current ? current.id : currentStylesheet.dataset.style;
+      error.textContent = 'Una risorsa dello stile non è disponibile. Controlla che le cartelle styles e assets siano accanto alla pagina, oppure scegli un altro stile.';
       error.hidden = false;
     } finally {
-      if (activeRevision === revision) cafe.setAttribute('aria-busy', 'false');
+      if (activeRevision === revision) {
+        cafe.setAttribute('aria-busy', 'false');
+        if (transitions) transitions.arrivalReady();
+      }
     }
   }
 

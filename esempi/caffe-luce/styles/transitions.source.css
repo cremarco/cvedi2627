@@ -1,0 +1,21 @@
+/* One shared gesture: a new visual world replaces the previous one. */
+:root { --cafe-world-duration: 620ms; --cafe-world-ease: cubic-bezier(.16,1,.3,1); }
+.cafe-header > .style-control { view-transition-name: cafe-style-control; }
+::view-transition { pointer-events:none; }
+:root[data-cafe-motion="style"]::view-transition-group(root),
+::view-transition-group(cafe-style-control) { animation-duration:var(--cafe-world-duration); animation-timing-function:var(--cafe-world-ease); }
+:root[data-cafe-motion="style"]::view-transition-old(root) { animation:cafe-world-retreat var(--cafe-world-duration) var(--cafe-world-ease) both; mix-blend-mode:normal; }
+:root[data-cafe-motion="style"]::view-transition-new(root) { animation:cafe-world-reveal var(--cafe-world-duration) var(--cafe-world-ease) both; mix-blend-mode:normal; }
+::view-transition-old(cafe-style-control),::view-transition-new(cafe-style-control) { animation-duration:180ms; }
+@keyframes cafe-world-retreat { 0% { opacity:1; transform:none; } 65% { opacity:1; } 100% { opacity:0; transform:scale(.985); } }
+@keyframes cafe-world-reveal { from { clip-path:inset(0 0 0 100%); transform:translateX(18px); } to { clip-path:inset(0); transform:none; } }
+:root[data-cafe-navigation]::after { content:''; position:fixed; z-index:2147483000; inset:0; background:var(--cafe-transition-color,var(--cafe-primary,#1648ac)); pointer-events:none; }
+:root[data-cafe-navigation="leaving"]::after,
+:root[data-cafe-navigation="style-cover"]::after { animation:cafe-curtain-close 160ms ease-in both; }
+:root[data-cafe-navigation="arriving"]::after { clip-path:inset(0); }
+:root[data-cafe-navigation="revealing"]::after,
+:root[data-cafe-navigation="style-reveal"]::after { animation:cafe-curtain-open 440ms var(--cafe-world-ease) both; }
+@keyframes cafe-curtain-close { from { clip-path:inset(0 0 0 100%); } to { clip-path:inset(0); } }
+@keyframes cafe-curtain-open { from { clip-path:inset(0); } to { clip-path:inset(0 100% 0 0); } }
+@media (prefers-reduced-motion:reduce) { .cafe-header > .style-control { view-transition-name:none; } ::view-transition-group(*),::view-transition-old(*),::view-transition-new(*) { animation:none !important; } :root[data-cafe-navigation]::after { display:none; } }
+@media print { :root[data-cafe-navigation]::after { display:none; } .cafe-header > .style-control { view-transition-name:none; } }

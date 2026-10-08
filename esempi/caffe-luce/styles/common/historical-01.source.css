@@ -1,0 +1,21 @@
+/* Eleven complete historical interpretations. Content and crop geometry remain
+ * in HTML/stili.js; this module owns composition, surfaces, controls and states.
+ * Sources: CERN TheProject; WordPress Kubrick / jQuery UI ThemeRoller;
+ * Apple GarageBand; Designmodo Flat UI; Google's original Material spec;
+ * Plyuto / Neumorphism; Microsoft Acrylic; Studio Yoke; Makemepulse;
+ * TOILETPAPER; Neobrutalism Components. These are interpretations, not replicas.
+ */
+
+/* Historical layouts use natural text height; a heading never fills a slot. */
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) {
+  --history-space: clamp(28px, 4vw, 72px);
+}
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) :is(#cafe-title, .hero-lead, .locale-tagline, .section-title, .menu-item h2, .menu-item h3, .menu-item p, .contact-copy h2, .contact-copy p, .locale-story h2) {
+  height: auto; min-height: 0; white-space: normal;
+}
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) #cafe-title { max-width: 100%; line-height: 1.08; }
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) .hero-lead { margin: 22px 0 26px; line-height: 1.5; }
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) .section-title { margin-bottom: 28px; line-height: 1.2; }
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) .locale-tagline { margin: 0 0 28px; line-height: 1.5; }
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) .cafe-footer { height: auto; min-height: 88px; }
+.cafe[data-page]:is([data-style="html"], [data-style="web2"], [data-style="scheu"], [data-style="flat"], [data-style="material"], [data-style="neumo"], [data-style="glass"], [data-style="minimal"], [data-style="y2k"], [data-style="max"], [data-style="neo"]) .style-control .select:disabled { opacity: .65; box-shadow: none; }

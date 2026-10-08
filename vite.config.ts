@@ -1,6 +1,7 @@
 import { rm } from 'node:fs/promises'
 import path from 'node:path'
 import { localAssetDirectories } from './utils/publication.mjs'
+import { webDesignExamplesPlugin } from './utils/web-design-examples.mjs'
 
 function localAssetsPlugin() {
   let outputDirectory: string
@@ -18,7 +19,7 @@ function localAssetsPlugin() {
 }
 
 export default {
-  plugins: [localAssetsPlugin()],
+  plugins: [localAssetsPlugin(), webDesignExamplesPlugin()],
   resolve: {
     alias: {
       // Slidev installs Twoslash even without code blocks. Keep ordinary tooltips

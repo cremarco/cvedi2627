@@ -1,0 +1,4 @@
+@media (prefers-reduced-motion: reduce) {
+  :root { scroll-behavior: auto; }
+  .cafe *, .cafe[data-style="material"] .cafe-cta { transition: none; animation: none; }
+}

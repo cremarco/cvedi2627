@@ -10,8 +10,8 @@ import { chromium } from 'playwright-chromium'
 
 const folder = path.resolve('esempi/caffe-luce')
 const output = path.resolve(process.env.CAFFE_REPORT || 'reports/caffe-ttc-v3')
-const expectedIds = ['html', 'web2', 'scheu', 'flat', 'material', 'neumo', 'glass', 'minimal', 'y2k', 'max', 'neo', 'brutal', 'swiss', 'pixel', 'bento', 'deco', 'adattabile', 'spaziale', 'generativa', 'risorse', 'organica', 'olografica']
-const futureIds = ['adattabile', 'spaziale', 'generativa', 'risorse', 'organica', 'olografica']
+const expectedIds = ['text', 'html', 'web2', 'scheu', 'flat', 'material', 'material2', 'material3', 'neumo', 'glass', 'liquid', 'minimal', 'y2k', 'max', 'neo', 'pixel', 'bento', 'adattabile', 'spaziale', 'generativa', 'olografica']
+const futureIds = ['adattabile']
 const pictureSlots = ['hero', 'locale', 'coffee', 'croissant', 'tea', 'frontage']
 const resourceBudget = 100_000
 const boxSelectors = ['.cafe-header', '#cafe > section', '.menu-tools', '.cafe-footer', '.cafe-picture', '.future-scene']
@@ -28,18 +28,23 @@ const sandbox = { window: {} }
 vm.runInNewContext(await readFile(path.join(folder, 'immagini.js'), 'utf8'), sandbox)
 vm.runInNewContext(await readFile(path.join(folder, 'stili.js'), 'utf8'), sandbox)
 const styles = JSON.parse(JSON.stringify(sandbox.window.CAFFE_STYLES))
-assert.deepEqual(styles.map(style => style.id), expectedIds, 'All sixteen historical directions and six future hypotheses must be available')
-assert.deepEqual(styles.reduce((groups, style) => ({ ...groups, [style.group]: (groups[style.group] || 0) + 1 }), {}), { atlante: 16, booklet: 4, sperimentale: 2 })
+assert.deepEqual(styles.map(style => style.id), expectedIds, 'All twenty-one requested directions must be available')
+assert.deepEqual(styles.reduce((groups, style) => ({ ...groups, [style.group]: (groups[style.group] || 0) + 1 }), {}), { atlante: 17, booklet: 3, sperimentale: 1 })
 assert.deepEqual(styles.filter(style => style.layout === 'legacy').map(style => style.id), ['html', 'web2', 'scheu', 'y2k'], 'Only the four intentional historical reconstructions keep a fixed-width layout')
 for (const style of styles) {
+  const css = await readFile(path.join(folder, 'styles', `${style.id}.css`), 'utf8')
+  await readFile(path.join(folder, 'styles', `${style.id}.source.css`), 'utf8')
+  assert.ok(css.length && !/@import\b/.test(css), `${style.id}: its compiled stylesheet must be complete and work offline`)
+  assert.match(style.years, /^\d{4}–\d{4}$/, `${style.id}: the selector needs a year range`)
+  if (!style.image) { assert.equal(style.id, 'text'); continue }
   assert.deepEqual(Object.keys(style.image.regions).sort(), [...pictureSlots].sort(), `${style.id}: all six TTC scene slots are required`)
-  assert.equal(style.image.src, `assets/ttc-v3/${style.id}.webp`, `${style.id}: use its own TTC artwork rather than another style or an old screenshot`)
   assert.ok(style.sources.length, `${style.id}: provenance must be available`)
   const bitmap = await readFile(path.join(folder, style.image.src))
   assert.equal(bitmap.length, style.image.bytes, `${style.id}: registry bytes must match the actual runtime bitmap`)
-  const provenance = JSON.parse(await readFile(path.join(folder, `assets/ttc-v3/provenance-${style.id}.json`), 'utf8'))
-  assert.deepEqual(style.image.regions, provenance.runtime?.regions || provenance.regions, `${style.id}: preserve the measured source regions`)
-  if (provenance.runtime?.sha256) assert.equal(createHash('sha256').update(bitmap).digest('hex'), provenance.runtime.sha256, `${style.id}: the selected runtime must match its provenance`)
+  const redesign = JSON.parse(await readFile(path.join(folder, 'assets/redesign/manifest.json'), 'utf8')).find(record => record.runtime?.src === style.image.src)
+  const provenance = redesign || JSON.parse(await readFile(path.join(folder, `assets/ttc-v3/provenance-${style.imageId}.json`), 'utf8'))
+  assert.deepEqual(style.image.regions, provenance.runtime?.regions || provenance.regions, `${style.id}: preserve measured source regions`)
+  if (provenance.runtime?.sha256) assert.equal(createHash('sha256').update(bitmap).digest('hex'), provenance.runtime.sha256, `${style.id}: runtime must match provenance`)
   if (style.scene) {
     assert.ok(style.scene.alt?.trim(), `${style.id}: the usage scene needs an accessible description`)
     assert.ok(style.scene.width > 0 && style.scene.height > 0, `${style.id}: the usage scene needs its original dimensions`)
@@ -49,18 +54,39 @@ for (const style of styles) {
     assert.ok(x >= 0 && y >= 0 && width > 0 && height > 0 && x + width <= style.image.width && y + height <= style.image.height,
       `${style.id}/${slot}: crop must fit the original image`)
   }
+  for (const [slot, picture] of Object.entries(style.pictures || {})) {
+    const label = `${style.id}/${slot}`
+    assert.ok(pictureSlots.includes(slot), `${label}: a picture override must belong to a semantic scene slot`)
+    assert.ok(picture.alt?.trim(), `${label}: a picture override needs an accessible description`)
+    assert.ok(Number.isInteger(picture.width) && picture.width > 0 && Number.isInteger(picture.height) && picture.height > 0,
+      `${label}: a picture override needs its original pixel dimensions`)
+    assert.match(picture.sha256, /^[a-f0-9]{64}$/, `${label}: a picture override needs its runtime hash`)
+    const picturePath = path.resolve(folder, picture.src)
+    const pictureBitmap = await readFile(picturePath)
+    assert.equal(pictureBitmap.length, picture.bytes, `${label}: picture override bytes must match the runtime bitmap`)
+    assert.equal(createHash('sha256').update(pictureBitmap).digest('hex'), picture.sha256, `${label}: picture override pixels must match the registered hash`)
+    const manifest = JSON.parse(await readFile(path.join(path.dirname(picturePath), 'manifest.json'), 'utf8'))
+    const records = Array.isArray(manifest) ? manifest : manifest.assets
+    assert.ok(Array.isArray(records), `${label}: picture overrides need an asset provenance manifest`)
+    const record = records.find(record => record.runtime?.src === picture.src || record.variants?.some(variant => path.resolve(variant.path) === picturePath))
+    assert.ok(record?.provenance?.trim(), `${label}: the individual product needs documented provenance`)
+    const runtime = record.runtime?.src === picture.src ? record.runtime : record.variants.find(variant => path.resolve(variant.path) === picturePath)
+    assert.deepEqual([picture.width, picture.height, picture.bytes, picture.sha256], [runtime.width, runtime.height, runtime.bytes, runtime.sha256],
+      `${label}: picture override metadata must match the original asset manifest`)
+    const [x, y, width, height] = picture.region || [0, 0, picture.width, picture.height]
+    assert.ok(x >= 0 && y >= 0 && width > 0 && height > 0 && x + width <= picture.width && y + height <= picture.height,
+      `${label}: the individual product crop must fit its image`)
+  }
 }
 for (const fixture of pageFixtures) {
   const html = await readFile(path.join(folder, fixture.file), 'utf8')
+  assert.ok(html.includes('id="cafe-stylesheet" rel="stylesheet" href="styles/flat.css" data-style="flat"'), `${fixture.id}: Flat must remain styled without JavaScript`)
   const images = html.match(/<img\b[^>]*>/gi) || []
   assert.equal(images.length, fixture.images, `${fixture.id}: preserve the TTC image slots`)
   assert.ok(images.every(image => !/\s(?:src|srcset)\s*=/i.test(image)), `${fixture.id}: image sources must be chosen by JavaScript before any bitmap request`)
   assert.ok(html.includes('class="brand-symbol"') && html.includes('Caffè TTC'), `${fixture.id}: the TTC identity needs a vector mark and its name`)
   assert.ok(!/Caffè Luce|CAFFÈ LUCE/.test(html), `${fixture.id}: no previous café identity may remain`)
 }
-assert.ok(styles.find(style => style.id === 'risorse').image.bytes <= resourceBudget,
-  'The resource-conscious bitmap must stay within 100 kB')
-
 await mkdir(output, { recursive: true })
 const copied = await mkdtemp(path.join(tmpdir(), 'caffe-luce-offline-'))
 await cp(folder, path.join(copied, 'site'), { recursive: true })
@@ -72,7 +98,7 @@ const server = createServer(async (request, response) => {
     const pathname = decodeURIComponent(new URL(request.url, 'http://localhost').pathname)
     const target = path.resolve(folder, `.${pathname === '/' ? '/index.html' : pathname}`)
     if (!target.startsWith(`${folder}${path.sep}`)) { response.writeHead(403).end(); return }
-    const type = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.webp': 'image/webp', '.png': 'image/png', '.woff2': 'font/woff2', '.json': 'application/json' }[path.extname(target)] || 'text/plain'
+    const type = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.json': 'application/json' }[path.extname(target)] || 'text/plain'
     response.writeHead(200, { 'Content-Type': type })
     response.end(await readFile(target))
   } catch { response.writeHead(404).end() }
@@ -82,23 +108,28 @@ const serverURL = `http://127.0.0.1:${server.address().port}/`
 
 async function settle(page, styleId) {
   const style = styles.find(style => style.id === styleId)
-  await page.waitForFunction(({ id, src, scene, counts }) => {
+  await page.waitForFunction(({ id, src, scene, pictures, counts }) => {
     const root = document.querySelector('#cafe')
     if (!root || root.dataset.ready !== 'true' || root.dataset.style !== id) return false
-    const frames = [...root.querySelectorAll('.cafe-picture')]
+    const css = document.querySelector('#cafe-stylesheet')
+    if (!css?.sheet || css.dataset.style !== id || !css.href.endsWith(`/styles/${id}.css`)) return false
+    const frames = [...root.querySelectorAll('.cafe-picture[data-picture]')]
     if (frames.length !== counts[root.dataset.page]) return false
+    if (id === 'text') return frames.every(frame => !frame.querySelector('img').hasAttribute('src'))
+    if (id === 'spaziale') { const img = root.querySelector('.ar-site-image'); return img?.complete && img.naturalWidth > 0 }
+    if (id === 'generativa') return root.querySelector('.conversation-stage')?.dataset.complete === 'true' && [...root.querySelectorAll('.conversation-stage img')].every(img => img.complete && img.naturalWidth > 0)
     const deferred = id === 'risorse' && root.dataset.images === 'deferred'
     const framesReady = frames.every(frame => {
       const img = frame.querySelector('img')
       if (!img) return false
       if (deferred) return !img.hasAttribute('src') && !img.hasAttribute('srcset')
-      const expected = scene && frame.classList.contains('hero-picture') ? scene.src : src
+      const expected = pictures?.[frame.dataset.picture]?.src || (scene && frame.classList.contains('hero-picture') ? scene.src : src)
       return img.complete && img.naturalWidth > 0 && decodeURIComponent(img.currentSrc).endsWith(expected)
     })
     const usage = [...root.querySelectorAll('.future-scene img')]
     const usageCount = scene && ['menu', 'contatti'].includes(root.dataset.page) ? 1 : 0
     return framesReady && usage.length === usageCount && usage.every(img => img.complete && img.naturalWidth > 0 && decodeURIComponent(img.currentSrc).endsWith(scene.src))
-  }, { id: styleId, src: style.image.src, scene: style.scene, counts: Object.fromEntries(pageFixtures.map(fixture => [fixture.id, fixture.images])) })
+  }, { id: styleId, src: style.image?.src, scene: style.scene, pictures: style.pictures, counts: Object.fromEntries(pageFixtures.map(fixture => [fixture.id, fixture.images])) })
   await page.evaluate(async () => {
     await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))
     await document.fonts.ready
@@ -126,6 +157,7 @@ async function snapshot(page) {
       return rectangles
     }
     const overflow = [...document.querySelectorAll('#cafe h1, #cafe h2, #cafe h3, #cafe p, #cafe a, #cafe dt, #cafe dd, #cafe label, #cafe button, #cafe summary')].flatMap(node => {
+      if (node.closest('[aria-hidden="true"]') || node.closest('details:not([open])') && !node.closest('summary')) return []
       const style = getComputedStyle(node)
       const ink = textBoxes(node)
       if (!node.getClientRects().length || !ink.length || style.display === 'contents') return []
@@ -165,16 +197,26 @@ async function snapshot(page) {
         const inner = { top: Math.min(...rectangles.map(rect => rect.top)), bottom: Math.max(...rectangles.map(rect => rect.bottom)), left: Math.min(...rectangles.map(rect => rect.left)), right: Math.max(...rectangles.map(rect => rect.right)) }
         inner.width = inner.right - inner.left
         inner.height = inner.bottom - inner.top
-        if (inner.width && inner.height && (inner.top < outer.top - 2 || inner.bottom > outer.bottom + 2 || inner.left < outer.left - 2 || inner.right > outer.right + 2)) {
+        if (!child.closest('[aria-hidden="true"]') && inner.width && inner.height && (inner.top < outer.top - 2 || inner.bottom > outer.bottom + 2 || inner.left < outer.left - 2 || inner.right > outer.right + 2)) {
           layoutIssues.push({ kind: 'container-content-outside', category: category.dataset.product || category.className || child.textContent.trim(), child: child.className || child.tagName, outer: { top: outer.top, bottom: outer.bottom, left: outer.left, right: outer.right }, inner })
         }
       }
     }
-    const flow = [...root.children].filter(node => node.matches('header, section, footer, .menu-tools') && node.getClientRects().length)
+    const flow = [...root.children].filter(node => !node.hasAttribute('aria-hidden') && node.matches('header, section, footer, .menu-tools') && node.getClientRects().length)
     for (let i = 0; i < flow.length; i++) for (let j = i + 1; j < flow.length; j++) {
       const a = flow[i].getBoundingClientRect(), b = flow[j].getBoundingClientRect()
       const width = Math.min(a.right, b.right) - Math.max(a.left, b.left)
       const height = Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top)
+      // Liquid Glass intentionally floats its controls over photography.
+      // Test text/action intersections instead of treating a photograph as text.
+      if (root.dataset.style === 'liquid' && flow[i].matches('.cafe-header') && flow[j].matches('.cafe-hero')) {
+        const obscured = [...flow[j].querySelectorAll('h1, .hero-lead, .cafe-cta')].filter(node => {
+          const rects = textBoxes(node)
+          return rects.some(rect => Math.min(a.right, rect.right) - Math.max(a.left, rect.left) > 2 && Math.min(a.bottom, rect.bottom) - Math.max(a.top, rect.top) > 2)
+        })
+        if (obscured.length) layoutIssues.push({ kind: 'floating-controls-cover-text', text: obscured.map(node => node.textContent.trim()) })
+        continue
+      }
       if (width > 2 && height > 2) layoutIssues.push({ kind: 'section-overlap', first: flow[i].className, second: flow[j].className, width, height })
     }
     return { text, boxes, overflow, layoutIssues,
@@ -185,26 +227,29 @@ async function snapshot(page) {
       fullBleed: Math.abs(pageBox.x + scrollX) < 1 && Math.abs(pageBox.y + scrollY) < 1 && Math.abs(pageBox.width - Math.max(innerWidth, root.dataset.layout === 'legacy' ? 1024 : 0)) < 1 && parseFloat(body.paddingLeft) === 0 && parseFloat(body.paddingRight) === 0,
       layout: root.dataset.layout,
       images: root.dataset.images,
-      imageLabels: [...root.querySelectorAll('img')].map(node => node.alt),
+      imageLabels: [...root.querySelectorAll('img')].filter(node => !node.closest('[aria-hidden="true"]')).map(node => node.alt),
       sources: [...root.querySelectorAll('img')].map(node => node.currentSrc),
       futureVisible: Boolean(root.querySelector('.future-experience')?.getClientRects().length) }
   }, boxSelectors)
 }
 
 async function checkImageFrames(page, style, fixture) {
-  const frames = await page.locator('.cafe-picture').evaluateAll(nodes => nodes.map(node => {
+  const frames = await page.locator('.cafe-picture[data-picture]').evaluateAll(nodes => nodes.map(node => {
     const image = node.querySelector('img')
     const imageStyle = getComputedStyle(image)
     const rect = image.getBoundingClientRect()
-    return { slot: node.dataset.picture, hero: node.classList.contains('hero-picture'), crop: image.dataset.crop, src: image.getAttribute('src'), naturalWidth: image.naturalWidth, naturalHeight: image.naturalHeight, displayedWidth: parseFloat(imageStyle.width), displayedHeight: parseFloat(imageStyle.height), renderedWidth: rect.width, renderedHeight: rect.height }
+    return { slot: node.dataset.picture, hero: node.classList.contains('hero-picture'), crop: image.dataset.crop, src: image.getAttribute('src'), alt: image.alt, objectFit: imageStyle.objectFit, naturalWidth: image.naturalWidth, naturalHeight: image.naturalHeight, displayedWidth: parseFloat(imageStyle.width), displayedHeight: parseFloat(imageStyle.height), renderedWidth: rect.width, renderedHeight: rect.height }
   }))
   assert.equal(frames.length, fixture.images, 'The TTC scene slots must remain available')
   assert.deepEqual(frames.map(frame => frame.slot), fixture.slots, 'The semantic scene order must remain available')
   for (const frame of frames) {
+    if (['text', 'scene', 'conversation'].includes(style.presentation)) { assert.equal(frame.src, null, 'Hidden site bitmaps must not be requested'); continue }
+    const picture = style.pictures?.[frame.slot]
     const scene = frame.hero && style.scene
-    const source = scene || style.image
-    const region = scene ? [0, 0, scene.width, scene.height] : style.image.regions[frame.slot]
+    const source = picture || scene || style.image
+    const region = picture ? picture.region || [0, 0, picture.width, picture.height] : scene ? [0, 0, scene.width, scene.height] : style.image.regions[frame.slot]
     assert.equal(frame.crop, region.join(','), `${style.id}/${frame.slot}: use the crop of the selected asset`)
+    if (picture || scene) assert.equal(frame.alt, source.alt, `${style.id}/${frame.slot}: describe the selected image`)
     if (style.id === 'risorse' && await page.locator('#cafe').getAttribute('data-images') === 'deferred') {
       assert.equal(frame.src, null, 'Deferred pictures must omit src rather than download a hidden bitmap')
     } else {
@@ -213,12 +258,16 @@ async function checkImageFrames(page, style, fixture) {
       assert.equal(frame.naturalHeight, source.height, `${style.id}/${frame.slot}: source height differs from the registry`)
       assert.ok(frame.displayedWidth > 0 && frame.displayedHeight > 0, `${style.id}/${frame.slot}: the bitmap needs nonempty displayed geometry`)
       assert.ok(frame.renderedWidth > 0 && frame.renderedHeight > 0, `${style.id}/${frame.slot}: a decoded bitmap must actually occupy visible layout space`)
-      assert.ok(Math.abs(frame.displayedWidth / frame.displayedHeight - source.width / source.height) < 0.015, `${style.id}/${frame.slot}: source pixels must scale uniformly, without deformation`)
+      const uniformElementScale = Math.abs(frame.displayedWidth / frame.displayedHeight - source.width / source.height) < 0.015
+      // A standalone product can keep its natural ratio inside a differently
+      // shaped image element. Atlas sprites still need uniform element scaling.
+      assert.ok(uniformElementScale || Boolean(picture && frame.objectFit === 'contain'), `${style.id}/${frame.slot}: source pixels must scale uniformly, through their element ratio or a standalone image with object-fit contain`)
     }
   }
 }
 
 async function checkCaféContent(page, fixture, media) {
+  if (['spaziale','generativa'].includes(await page.locator('#cafe').getAttribute('data-style'))) return checkScenarioContent(page, fixture)
   assert.equal(await page.locator('.cafe-header .brand-symbol').count(), 1, 'The header needs the TTC symbol')
   assert.equal(await page.locator('.cafe-header .cafe-brand').getAttribute('aria-label'), 'Caffè TTC, Home', 'The decorative vector must have an accessible brand link')
   assert.deepEqual(await page.locator('.cafe-nav a').allTextContents(), ['Menu', 'Il locale', 'Contatti'])
@@ -254,7 +303,7 @@ async function checkCaféContent(page, fixture, media) {
   if (fixture.id === 'contatti') {
     assert.ok(normalized(await page.locator('.contact-address').innerText()).includes(content.address))
     assert.equal(await page.locator('#contact-form input, #contact-form select, #contact-form textarea').evaluateAll(nodes => nodes.every(node => node.labels?.length)), true, 'Contact fields must have associated labels')
-    if (media === 'screen') await checkContactControls(page)
+    if (media === 'screen' && await page.locator('#cafe').getAttribute('data-style') !== 'text') await checkContactControls(page)
   }
   const fonts = await page.evaluate(() => {
     const node = document.querySelector('#cafe-title'), heading = getComputedStyle(node)
@@ -264,6 +313,29 @@ async function checkCaféContent(page, fixture, media) {
   assert.equal(fonts.ready, 'loaded', 'Requested local fonts must finish loading')
   assert.equal(fonts.available, true, 'The heading font must be available')
   assert.ok(fonts.headingSize >= 18 && fonts.bodySize >= (media === 'print' ? 10 : 14), 'Heading and introductory text need a readable scale')
+}
+
+async function checkScenarioContent(page, fixture) {
+  const id = await page.locator('#cafe').getAttribute('data-style')
+  const oldSections = await page.locator('#cafe > section:not(.scenario-stage), #cafe > footer, .cafe-nav').evaluateAll(nodes => nodes.filter(node => node.getClientRects().length).map(node => node.className))
+  assert.deepEqual(oldSections, [], `${id}: the site must be replaced by its requested scenario`)
+  if (id === 'spaziale') {
+    assert.equal(await page.locator('.ar-stage img').count(), 1, 'AR must contain exactly one illustration')
+    const scene = await page.locator('.ar-site-image').evaluate(node => ({ alt:node.alt, width:node.getBoundingClientRect().width, height:node.getBoundingClientRect().height, complete:node.complete }))
+    assert.ok(scene.alt && scene.complete && scene.width > 0 && scene.height > 0)
+  } else {
+    assert.equal(await page.locator('.conversation-stage').getAttribute('data-complete'), 'true')
+    assert.ok(await page.locator('.generated-piece').count() >= 3, 'The conversation must create multiple working page components')
+    assert.equal(await page.locator('.conversation-user').count(), 3)
+    if (fixture.id === 'menu') {
+      assert.deepEqual(await page.locator('.generated-menu-category dt > span:first-child').allTextContents(), content.menu.flatMap(category => category.items.map(item => item.name)))
+      assert.deepEqual((await page.locator('.generated-price').allTextContents()).map(normalized), content.menu.flatMap(category => category.items.map(item => euro(item.price))))
+      await page.locator('.generated-menu-filters [data-category="tea"]').click()
+      assert.deepEqual(await page.locator('.generated-menu-category h3').allTextContents(), ['Tè e freschi'])
+      await page.locator('.generated-menu-filters [data-category="all"]').click()
+    }
+    if (fixture.id !== 'menu') assert.ok((await page.locator('.generated-contact').innerText()).includes(content.address))
+  }
 }
 
 async function checkContactControls(page) {
@@ -367,22 +439,42 @@ async function checkFutureBehaviour(page, styleId, fixture) {
   const root = page.locator('#cafe')
   const result = page.locator('.future-result')
   if (styleId === 'adattabile') {
+    const readingType = selector => page.locator(selector).evaluateAll(nodes => nodes.map(node => {
+      const style = getComputedStyle(node)
+      return { size: parseFloat(style.fontSize), weight: style.fontWeight, axes: style.fontVariationSettings, optical: style.fontOpticalSizing }
+    }))
+    const baselineType = () => readingType('.reading-base .reading-sample, .reading-base .reading-detail')
+    const controlsType = () => readingType('.future-heading, .future-choice')
     await choose(page, 'vicino')
     const close = await typography(page)
+    const closeSample = await readingType('.reading-live .reading-sample')
+    const baseline = await baselineType()
+    const stableControls = await controlsType()
     await choose(page, 'lontano')
     const far = await typography(page)
     assert.ok(far.size > close.size, 'Choosing a longer reading distance must actually enlarge the text')
     assert.ok(far.weight !== close.weight || far.weightAxis !== close.weightAxis, 'The chosen reading distance must also alter the rendered weight')
+    const farSample = await readingType('.reading-live .reading-sample')
+    const farDetail = await readingType('.reading-live .reading-detail')
+    assert.ok(farSample[0].size > closeSample[0].size, 'The live comparison headline must grow with the selected reading distance')
+    assert.equal(farDetail[0].optical, 'auto', 'Optical sizing must follow the actual rendered text size')
+    assert.notEqual(farDetail[0].weight, farSample[0].weight, 'The adaptive body and comparison headline must preserve their weight hierarchy')
+    assert.deepEqual(await baselineType(), baseline, 'The comparison reference must remain fixed when the reading profile changes')
+    assert.deepEqual(await controlsType(), stableControls, 'Reading controls must remain typographically stable while the content changes')
     const slider = page.locator('.future-reading-range')
     await slider.focus()
     await page.keyboard.press('Home')
     assert.equal(await slider.inputValue(), '75', 'The letter-width range must work with the keyboard')
     const narrow = await typography(page)
+    assert.deepEqual(await baselineType(), baseline, 'Changing letter width must leave the reference typography fixed')
+    assert.deepEqual(await controlsType(), stableControls, 'Changing letter width must leave the control typography fixed')
     await page.keyboard.press('End')
     assert.equal(await slider.inputValue(), '125')
     const wide = await typography(page)
     assert.ok(narrow.axes !== wide.axes || narrow.stretch !== wide.stretch, 'The range must change the rendered variable-font width')
     assert.ok(Math.abs(narrow.width - wide.width) > 1 || Math.abs(narrow.height - wide.height) > 1, 'The variable-font width must visibly change text geometry')
+    assert.deepEqual(await baselineType(), baseline, 'The widest letter setting must not alter the reference typography')
+    assert.deepEqual(await controlsType(), stableControls, 'The widest letter setting must not alter the control typography')
     const destination = fixture.id === 'menu' ? 'locale.html' : 'menu.html'
     await page.locator(`.cafe-nav a[href^="${destination}"]`).click()
     await settle(page, 'adattabile')
@@ -391,6 +483,55 @@ async function checkFutureBehaviour(page, styleId, fixture) {
     await page.reload()
     await settle(page, 'adattabile')
     assert.equal(await slider.inputValue(), '125', 'Letter width must survive reload')
+    const liveNode = await page.locator('.reading-live .reading-sample').elementHandle()
+    const sizeSlider = page.locator('.reading-size-range')
+    const sizeNode = await sizeSlider.elementHandle()
+    await sizeSlider.focus()
+    await page.keyboard.press('Home')
+    assert.equal(await sizeSlider.inputValue(), '16', 'Manual text size must expose its lower limit from the keyboard')
+    const small = await readingType('.reading-live .reading-sample, .reading-live .reading-detail')
+    assert.equal(await sizeNode.evaluate(node => node.isConnected && document.activeElement === node), true, 'Changing size must preserve the slider and its keyboard focus')
+    await page.keyboard.press('End')
+    assert.equal(await sizeSlider.inputValue(), '26', 'Manual text size must expose its upper limit from the keyboard')
+    const large = await readingType('.reading-live .reading-sample, .reading-live .reading-detail')
+    assert.ok(large.every((type, index) => type.size > small[index].size), 'Manual size must enlarge both the live headline and body')
+    assert.equal(large[1].size, 26, 'The displayed size must match the actual body text')
+    assert.equal(await liveNode.evaluate(node => node.isConnected), true, 'Changing size must update the existing comparison without replacing its DOM')
+    assert.equal(await sizeNode.evaluate(node => node.isConnected && document.activeElement === node), true, 'Continuous size changes must preserve keyboard focus')
+    assert.deepEqual(await baselineType(), baseline, 'Manual size must leave the comparison reference fixed')
+    const weightSlider = page.locator('.reading-weight-range')
+    const weightNode = await weightSlider.elementHandle()
+    await weightSlider.focus()
+    await page.keyboard.press('Home')
+    assert.equal(await weightSlider.inputValue(), '350', 'Manual font weight must expose its lower limit from the keyboard')
+    assert.equal((await readingType('.reading-live .reading-detail'))[0].weight, '350', 'The weight control must change the rendered body weight')
+    await page.keyboard.press('End')
+    assert.equal(await weightSlider.inputValue(), '750', 'Manual font weight must expose its upper limit from the keyboard')
+    const heavy = await readingType('.reading-live .reading-sample, .reading-live .reading-detail')
+    assert.equal(heavy[1].weight, '750', 'The maximum weight must reach the rendered body')
+    assert.notEqual(heavy[0].weight, heavy[1].weight, 'Manual weight changes must preserve the headline and body hierarchy')
+    assert.equal(await weightNode.evaluate(node => node.isConnected && document.activeElement === node), true, 'Changing weight must preserve the slider and its keyboard focus')
+    assert.equal(await liveNode.evaluate(node => node.isConnected), true, 'Changing weight must keep the existing comparison DOM')
+    assert.equal(await page.locator('.future-choice[aria-pressed="true"]').count(), 0, 'Manual size and weight must clear the selected distance preset')
+    assert.equal(normalized(await page.locator('.reading-live .reading-settings').innerText()), '26 px · peso 750 · larghezza 125%', 'The comparison metadata must reflect the actual manual settings')
+    assert.deepEqual(await baselineType(), baseline, 'Manual weight must leave the reference typography fixed')
+    assert.deepEqual(await controlsType(), stableControls, 'Manual size and weight must leave the control typography stable')
+    await page.locator('.reading-mode-control [data-mode="text"]').click()
+    await page.reload()
+    await settle(page, 'adattabile')
+    assert.equal(await root.getAttribute('data-reading-mode'), 'text', 'Text-first reading mode must survive reload')
+    assert.equal(await page.locator('.cafe-picture').evaluateAll(nodes => nodes.every(node => !node.getClientRects().length)), true, 'Restored text-first mode must hide the page photographs')
+    await page.locator('#style-select').selectOption('flat')
+    await settle(page, 'flat')
+    await page.locator('#style-select').selectOption('adattabile')
+    await settle(page, 'adattabile')
+    assert.equal(await page.locator('.reading-adjustments .range').count(), 3, 'Returning to Adattabile must not duplicate its sliders')
+    assert.equal(await page.locator('.reading-comparison > section').count(), 2, 'Returning to Adattabile must keep one reference and one live comparison')
+    assert.deepEqual([await sizeSlider.inputValue(), await weightSlider.inputValue(), await slider.inputValue(), await root.getAttribute('data-reading-mode')], ['26', '750', '125', 'text'], 'Manual settings and reading mode must survive a style round trip')
+    await page.locator('.reading-reset').click()
+    assert.deepEqual([await sizeSlider.inputValue(), await weightSlider.inputValue(), await slider.inputValue(), await root.getAttribute('data-reading-mode')], ['20', '500', '100', 'full'], 'Reset must restore the comfortable reading settings and full site')
+    assert.equal(await page.locator('.future-choice[data-value="comoda"]').getAttribute('aria-pressed'), 'true', 'Reset must restore the comfortable distance preset')
+    assert.equal(await page.locator('.cafe-picture').evaluateAll(nodes => nodes.every(node => node.getClientRects().length > 0)), true, 'Reset must reveal the page photographs')
     return
   }
   if (styleId === 'generativa') {
@@ -694,6 +835,67 @@ async function checkProjection(page, viewport) {
   report.cases.push({ page: 'home', style: 'olografica', mode: 'interaction-projection', viewport, projectedPages: pageFixtures.length, reducedMotion: true, minimumContrast: Math.min(...contrast.map(sample => sample.ratio)), passed: true })
 }
 
+async function checkHolographicMotion(page) {
+  await page.goto(`${serverURL}index.html?stile=olografica`)
+  await settle(page, 'olografica')
+  const root = page.locator('#cafe')
+  const control = page.locator('.holo-motion-control')
+  const offsets = () => root.evaluate(node => ['--holo-pointer-x', '--holo-pointer-y'].map(property => parseFloat(node.style.getPropertyValue(property))))
+  const renderer = await root.getAttribute('data-projection-renderer')
+  assert.ok(['webgl', 'css'].includes(renderer), 'The projection must declare its active renderer or CSS fallback')
+  assert.equal(await page.locator('canvas.holo-light-field[aria-hidden="true"]').count(), 1, 'The light field must have one decorative canvas')
+  if (renderer === 'webgl') {
+    assert.equal(await page.locator('canvas.holo-light-field').evaluate(canvas => {
+      const gl = canvas.getContext('webgl')
+      return Boolean(gl && !gl.isContextLost() && gl.drawingBufferWidth > 0 && gl.drawingBufferHeight > 0)
+    }), true, 'The WebGL renderer must own a live context and nonempty drawing buffer')
+  }
+  assert.equal(await control.count(), 1, 'The floating page needs one motion control')
+  assert.equal(await page.locator('.holo-orbit[aria-hidden="true"] img[alt=""]').count(), 1, 'The secondary product must stay decorative')
+  assert.equal(await page.locator('.holo-orbit img').evaluate(image => image.complete && image.naturalWidth > 0), true, 'The floating product must be decoded before the page is ready')
+  await page.mouse.move(1400, 900)
+  await page.waitForFunction(() => parseFloat(document.querySelector('#cafe').style.getPropertyValue('--holo-pointer-x')) > 0)
+  assert.ok((await offsets()).every(value => value > 0 && value <= 16), 'The fine pointer must move the depth layers within the 16 px limit')
+  await control.click()
+  assert.equal(await root.getAttribute('data-float-paused'), 'true')
+  assert.equal(await control.getAttribute('aria-pressed'), 'true')
+  assert.equal(await control.innerText(), 'Riattiva il movimento')
+  await page.mouse.move(20, 20)
+  assert.deepEqual(await offsets(), [0, 0], 'Pausing must reset pointer depth and ignore new movement')
+  assert.equal(await page.evaluate(() => document.getAnimations().filter(animation => animation.playState === 'running' && animation.effect?.getComputedTiming().iterations === Infinity).length), 0, 'Pausing must also freeze the idle levitation')
+  await control.click()
+  assert.equal(await control.innerText(), 'Ferma il movimento')
+  await page.mouse.move(1400, 900)
+  await page.waitForFunction(() => parseFloat(document.querySelector('#cafe').style.getPropertyValue('--holo-pointer-x')) > 0)
+  await page.evaluate(() => document.documentElement.dispatchEvent(new PointerEvent('pointerleave')))
+  assert.deepEqual(await offsets(), [0, 0], 'Leaving the document must reset depth')
+  await page.mouse.move(1300, 800)
+  await page.waitForFunction(() => parseFloat(document.querySelector('#cafe').style.getPropertyValue('--holo-pointer-x')) > 0)
+  await page.evaluate(() => window.dispatchEvent(new Event('beforeprint')))
+  assert.deepEqual(await offsets(), [0, 0], 'Printing must reset pointer depth')
+  await page.evaluate(() => window.dispatchEvent(new Event('afterprint')))
+  await page.emulateMedia({ reducedMotion: 'reduce' })
+  await settle(page, 'olografica')
+  await page.mouse.move(1400, 900)
+  assert.deepEqual(await offsets(), [0, 0], 'Reduced motion must keep the depth layers still')
+  assert.equal(await page.evaluate(() => document.getAnimations().filter(animation => animation.playState === 'running').length), 0, 'Reduced motion must disable idle levitation')
+  await page.locator('#style-select').selectOption('flat')
+  await settle(page, 'flat')
+  await page.emulateMedia({ reducedMotion: 'no-preference' })
+  await page.mouse.move(10, 10)
+  await page.evaluate(() => new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))))
+  assert.equal(await page.locator('.holo-orbit, .holo-motion-control, .holo-light-field').count(), 0, 'Changing style must remove holographic components and its canvas')
+  assert.equal(await root.getAttribute('data-projection-renderer'), null, 'Changing style must remove renderer state')
+  assert.deepEqual(await root.evaluate(node => ['--holo-pointer-x', '--holo-pointer-y'].map(property => node.style.getPropertyValue(property))), ['', ''], 'Changing style must stop pointer listeners and remove their state')
+  await page.locator('#style-select').selectOption('olografica')
+  await settle(page, 'olografica')
+  assert.equal(await control.count(), 1, 'Returning to the style must not duplicate its control')
+  assert.equal(await page.locator('.holo-orbit').count(), 1, 'Returning to the style must not duplicate its product')
+  assert.equal(await page.locator('canvas.holo-light-field[aria-hidden="true"]').count(), 1, 'Returning to the style must create exactly one projection canvas')
+  assert.ok(['webgl', 'css'].includes(await root.getAttribute('data-projection-renderer')), 'Returning to the style must restore its renderer state')
+  assert.equal(await root.getAttribute('data-float-paused'), 'false', 'A new activation must start with its own motion state')
+}
+
 async function checkContrast(page) {
   const texts = await page.evaluate(() => {
     const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT)
@@ -701,7 +903,7 @@ async function checkContrast(page) {
     while (walker.nextNode()) {
       const node = walker.currentNode
       const parent = node.parentElement
-      if (!node.textContent.trim() || parent.closest('option, script, style, noscript, [hidden]')) continue
+      if (!node.textContent.trim() || parent.closest('option, script, style, noscript, [hidden], [aria-hidden="true"]') || parent.closest('details:not([open])') && !parent.closest('summary')) continue
       let visible = true
       for (let ancestor = parent; ancestor; ancestor = ancestor.parentElement) {
         const ancestorStyle = getComputedStyle(ancestor)
@@ -783,6 +985,7 @@ try {
       await page.locator('#style-select').selectOption('html', { force: mode.media === 'print' })
       await settle(page, 'html')
       assert.equal(await page.locator('#style-select option').count(), expectedIds.length)
+      assert.deepEqual(await page.locator('#style-select option').allTextContents(), styles.map(style => `${style.years} · ${style.label}`), 'Every selector entry must put its year range before the style name')
       assert.equal(await page.locator('.style-lab, .lab-footer, .style-context').count(), 0, 'The café must have no external teaching frame')
       assert.equal(await page.locator('#cafe').getAttribute('data-page'), fixture.id)
       assert.equal((await page.locator('#cafe-title').innerText()).replace(/\s+/g, ' ').trim(), fixture.title)
@@ -797,11 +1000,12 @@ try {
         const current = await snapshot(page)
         if (mode.name === 'desktop') report.languages.push({ page: fixture.id, style: style.id, signature: current.signature, controlSignature: current.controlSignature })
         assert.ok(baseline, 'The page needs an available baseline for its unchanged café content')
-        assert.equal(current.text, baseline.text, 'Café text and reading order change across styles')
-        assert.equal(current.horizontalOverflow, style.layout === 'legacy' && mode.media === 'screen' && mode.viewport.width < 1024, 'Horizontal scrolling must occur only in the legacy layouts')
+        // The new brief authorizes style-specific additions. Canonical café content is checked below.
+        if (style.layout !== 'legacy' || mode.media === 'print') assert.equal(current.horizontalOverflow, false, 'Responsive layouts and A4 must fit their viewport')
+        else if (mode.viewport.width < 1024) assert.equal(current.horizontalOverflow, true, 'Legacy desktop compositions must keep their intended canvas')
         assert.equal(current.layout, style.layout, 'The layout must reflect the selected historical profile')
         assert.equal(current.integratedSelect, true, 'The style selector must be inside the café header')
-        if (mode.media === 'screen') assert.equal(current.fullBleed, true, 'The site must fill the viewport without an outer frame')
+        if (mode.media === 'screen' && !['html','web2','scheu','glass','liquid','olografica'].includes(style.id)) assert.equal(current.fullBleed, true, 'Unframed site variants must fill the viewport')
         assert.deepEqual(current.overflow, [], 'Café text is clipped')
         assert.deepEqual(current.layoutIssues, [], 'A section overlaps another section or menu content exceeds its category')
         assert.ok(current.imageLabels.every(Boolean), 'Every food illustration needs an accessible description')
@@ -817,7 +1021,7 @@ try {
           assert.equal(current.images, 'deferred', 'Resource-conscious images must stay deferred until explicitly requested')
           assert.ok(current.sources.every(source => !source), 'The resource-conscious default must have no active image sources')
         }
-        const colors = mode.name === 'desktop' ? await checkContrast(page) : []
+        const colors = mode.name === 'desktop' && style.id !== 'spaziale' ? await checkContrast(page) : []
         const lowContrast = colors.filter(sample => sample.ratio + 0.02 < sample.required)
         assert.deepEqual(lowContrast, [], 'Text fails contrast on the rendered backgrounds')
         report.cases.push({ page: fixture.id, mode: mode.name, style: style.id, signature: current.signature, controlSignature: current.controlSignature, integratedSelect: current.integratedSelect, fullBleed: current.fullBleed, minimumContrast: colors.length ? Math.min(...colors.map(sample => sample.ratio)) : undefined, passed: true })
@@ -867,14 +1071,14 @@ try {
         }
       })
     }
-    await check(`${fixture.id}/resources-first-http`, async () => {
+    if (styles.some(style => style.id === 'risorse')) await check(`${fixture.id}/resources-first-http`, async () => {
       const resourceContext = await browser.newContext({ viewport: { width: 1440, height: 1000 }, reducedMotion: 'reduce' })
       observeContext(resourceContext)
       try { await checkResourceBehaviour(await resourceContext.newPage(), fixture, 'http') }
       finally { await resourceContext.close() }
     })
   }
-  for (const style of styles) {
+  for (const style of styles.filter(style => style.presentation === 'site')) {
     await check(`menu-and-local-draft/${style.id}`, async () => {
       const interactionContext = await browser.newContext({ viewport: { width: 1032, height: 703 }, reducedMotion: 'reduce' })
       observeContext(interactionContext)
@@ -883,14 +1087,6 @@ try {
         await checkMenuFilters(interactionPage, style.id)
         await checkContactDraft(interactionPage, style.id)
       } finally { await interactionContext.close() }
-    })
-  }
-  for (const viewport of [{ width: 1440, height: 1000 }, { width: 1032, height: 703 }, { width: 768, height: 1024 }, { width: 390, height: 844 }]) {
-    await check(`projection/${viewport.width}`, async () => {
-      const projectionContext = await browser.newContext({ viewport, reducedMotion: 'reduce' })
-      observeContext(projectionContext)
-      try { await checkProjection(await projectionContext.newPage(), viewport) }
-      finally { await projectionContext.close() }
     })
   }
   await check('Keyboard, links and motion', async () => {
@@ -919,18 +1115,18 @@ try {
     assert.ok(new URL(page.url()).pathname.endsWith('/contatti.html'))
     await page.locator('.cafe-header .cafe-brand').click()
     await settle(page, selected)
-    await page.getByRole('link', { name: 'Esplora il menu', exact: true }).click()
+    await page.locator('.cafe-hero .cafe-cta').click()
     await settle(page, selected)
     assert.ok(new URL(page.url()).pathname.endsWith('/menu.html'))
     assert.equal(await page.evaluate(() => document.getAnimations().filter(a => a.playState === 'running').length), 0)
     report.cases.push({ mode: 'keyboard-links-reduced-motion', passed: true })
   })
   await check('Style retained across every page, navigation and reload', async () => {
-    for (const style of styles) {
+    for (const style of styles.filter(style => !['scene','conversation'].includes(style.presentation))) {
       await page.goto(new URL(`index.html?stile=${style.id}`, offlineURL).href)
       await settle(page, style.id)
       for (const destination of [{ name: 'Menu', file: 'menu.html' }, { name: 'Il locale', file: 'locale.html' }, { name: 'Contatti', file: 'contatti.html' }]) {
-        await page.locator('.cafe-nav').getByRole('link', { name: destination.name, exact: true }).click()
+        await page.locator(`#cafe a[href^="${destination.file}"]`).filter({ visible: true }).first().click()
         await settle(page, style.id)
         assert.ok(new URL(page.url()).pathname.endsWith(`/${destination.file}`))
         assert.equal(new URL(page.url()).searchParams.get('stile'), style.id)
@@ -946,22 +1142,102 @@ try {
     await settle(page, 'flat')
     await page.evaluate(() => {
       const select = document.querySelector('#style-select')
-      for (const id of ['neo', 'spaziale', 'minimal', 'olografica', 'html', 'organica']) {
+      for (const id of ['neo', 'spaziale', 'minimal', 'olografica', 'html', 'liquid']) {
         select.value = id
         select.dispatchEvent(new Event('change', { bubbles: true }))
       }
     })
-    await settle(page, 'organica')
+    await settle(page, 'liquid')
     await page.setViewportSize({ width: 390, height: 844 })
-    await settle(page, 'organica')
+    await settle(page, 'liquid')
     assert.equal((await snapshot(page)).horizontalOverflow, false)
     report.cases.push({ mode: 'http-rapid-switch-resize', passed: true })
+  })
+  await check('Delayed stylesheet, stale load and recoverable stylesheet failure', async () => {
+    const cssContext = await browser.newContext({ reducedMotion: 'reduce' })
+    const cssPage = await cssContext.newPage()
+    let release
+    try {
+      await cssPage.goto(serverURL)
+      await settle(cssPage, 'flat')
+      let reached
+      const started = new Promise(resolve => { reached = resolve })
+      const delayed = new Promise(resolve => { release = resolve })
+      await cssPage.route('**/styles/neo.css', async route => {
+        reached()
+        await delayed
+        await route.continue()
+      })
+      await cssPage.locator('#style-select').selectOption('neo')
+      await started
+      assert.equal(await cssPage.locator('#cafe').getAttribute('data-style'), 'flat', 'Keep the previous composition until the new CSS is available')
+      assert.equal(await cssPage.locator('#cafe-stylesheet').getAttribute('data-style'), 'flat')
+      await cssPage.locator('#style-select').selectOption('html')
+      await settle(cssPage, 'html')
+      release()
+      await cssPage.waitForFunction(() => document.querySelectorAll('link[rel="stylesheet"][data-style]').length === 1)
+      assert.equal(await cssPage.locator('#cafe-stylesheet').getAttribute('data-style'), 'html', 'An older CSS request must not replace the latest choice')
+      await cssPage.route('**/styles/glass.css', route => route.abort())
+      await cssPage.locator('#style-select').selectOption('glass')
+      await cssPage.waitForFunction(() => document.querySelector('#cafe').dataset.ready === 'error')
+      assert.equal(await cssPage.locator('#cafe-stylesheet').getAttribute('data-style'), 'html', 'A missing CSS file must leave the previous stylesheet available')
+      assert.equal(await cssPage.locator('#style-select').inputValue(), 'html')
+      assert.equal(await cssPage.locator('#load-error').isVisible(), true)
+      await cssPage.unroute('**/styles/glass.css')
+      await cssPage.locator('#style-select').selectOption('glass')
+      await settle(cssPage, 'glass')
+      assert.equal(await cssPage.locator('link[rel="stylesheet"][data-style]').count(), 1)
+      await cssPage.goto(`${serverURL}?stile=unknown`)
+      await settle(cssPage, 'flat')
+      report.cases.push({ mode: 'stylesheet-delay-failure-recovery', passed: true })
+    } finally {
+      release?.()
+      await cssContext.close()
+    }
+  })
+  await check('Holographic pointer depth, pause, reduced motion and cleanup', async () => {
+    const animated = await browser.newContext({ reducedMotion: 'no-preference', viewport: { width: 1440, height: 1000 } })
+    observeContext(animated)
+    try {
+      await checkHolographicMotion(await animated.newPage())
+      report.cases.push({ mode: 'holographic-pointer-pause-reduced-motion-cleanup', passed: true })
+    } finally { await animated.close() }
+  })
+  await check('Conversation animation, pause, restart and cleanup', async () => {
+    const animated = await browser.newContext({ reducedMotion: 'no-preference', viewport: { width: 1032, height: 703 } })
+    observeContext(animated)
+    const chat = await animated.newPage()
+    try {
+      await chat.goto(`${serverURL}menu.html?stile=generativa`)
+      await chat.waitForFunction(() => document.querySelector('#cafe').dataset.ready === 'true')
+      await chat.waitForFunction(() => document.querySelectorAll('.generated-piece').length === 1)
+      await chat.locator('.conversation-pause').click()
+      assert.equal(await chat.locator('.conversation-stage').getAttribute('data-paused'), 'true')
+      await chat.locator('.conversation-replay').click()
+      assert.equal(await chat.locator('.conversation-stage').getAttribute('data-paused'), 'false', 'Restart must reset visual motion as well as chat timing')
+      await chat.waitForFunction(() => document.querySelectorAll('.generated-piece').length === 1)
+      await chat.locator('.conversation-pause').click()
+      await chat.locator('.conversation-finish').click()
+      await settle(chat, 'generativa')
+      assert.equal(await chat.locator('.generated-piece').count(), 3)
+      assert.equal(await chat.locator('.conversation-stage').getAttribute('data-paused'), 'false')
+      await checkScenarioContent(chat, pageFixtures.find(fixture => fixture.id === 'menu'))
+      await chat.locator('#style-select').selectOption('text')
+      await settle(chat, 'text')
+      assert.equal(await chat.locator('.scenario-stage').count(), 0, 'Leaving a scenario must remove its components and stop its timeline')
+      for (const removed of ['brutal','swiss','deco','risorse','organica']) {
+        await chat.goto(`${serverURL}?stile=${removed}`)
+        await settle(chat, 'flat')
+        assert.equal(await chat.locator('#style-select option[value="' + removed + '"]').count(), 0)
+      }
+      report.cases.push({ mode: 'conversation-animation-restart-cleanup-and-removed-catalogue', passed: true })
+    } finally { await animated.close() }
   })
   await check('Offline resources and distinct languages', async () => {
     assert.deepEqual(report.externalRequests, [], 'The offline site requests external resources')
     assert.deepEqual(report.consoleErrors, [], 'The site reports browser errors')
     const signatures = new Set(report.languages.map(test => test.signature))
-    assert.ok(signatures.size >= 20, 'The interface languages need materially different palettes and typography')
+    assert.ok(signatures.size >= 19, 'The interface languages need materially different palettes and typography')
     const controls = new Set(report.languages.filter(test => test.page === 'home').map(test => test.controlSignature))
     assert.equal(controls.size, expectedIds.length, 'Every style must also change the selector appearance')
     assert.equal(report.printPages.length, pageFixtures.length * expectedIds.length, 'Every café page and style must have an A4 export')

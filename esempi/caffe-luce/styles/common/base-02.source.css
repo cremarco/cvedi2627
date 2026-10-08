@@ -1,0 +1,19 @@
+@media screen and (max-width: 1000px) and (min-width: 721px) {
+  body:not([data-layout="legacy"]) {
+  .cafe-header, .cafe-footer { padding-inline: 24px; }
+  .cafe-header { grid-template-columns: minmax(0, 1fr) auto; grid-template-rows: 44px 44px; gap: 4px 24px; height: 112px; padding-block: 10px; }
+  .style-control { grid-column: 1 / -1; justify-self: end; display: grid; grid-template-columns: 1fr 288px; align-items: center; gap: 12px; width: 420px; }
+  .style-control label { margin: 0; }
+  .hero-copy { padding-left: 24px; padding-right: 16px; }
+  #cafe-title { font-size: min(5.2vw, var(--cafe-title-size)); }
+  .hero-lead { font-size: 21px; }
+  .cafe-menu { padding-inline: 24px; }
+  .menu-page-products.cafe-menu { padding-inline: 24px; }
+  .menu-page-products .menu-item { padding-inline: 6px; }
+  .menu-item p { font-size: 15px; }
+  .cafe-nav { gap: 14px; }
+  .cafe-nav a { font-size: 15px; }
+  .cafe-brand { font-size: 22px; }
+  .cafe[data-style="y2k"] #cafe-title, .cafe[data-style="olografica"] #cafe-title { font-size: 4.2vw; }
+  }
+}

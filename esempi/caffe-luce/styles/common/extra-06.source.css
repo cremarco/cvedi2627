@@ -1,0 +1,5 @@
+@media screen and (max-width: 720px) {
+  .cafe[data-content="ttc"]:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .menu-page-products .menu-grid { grid-template-columns: 1fr; }
+  .cafe[data-content="ttc"]:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) .contact-message { grid-template-columns: 1fr; gap: 28px; padding: 40px 24px; }
+  .cafe[data-content="ttc"]:is([data-style="brutal"],[data-style="swiss"],[data-style="pixel"],[data-style="bento"],[data-style="deco"]) #contact-form { grid-template-columns: 1fr; }
+}

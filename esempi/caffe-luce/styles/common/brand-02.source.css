@@ -1,0 +1,4 @@
+.projection-identity .brand-pixel { display: none; }
+.projection-identity .brand-symbol { flex-basis: 40px; }
+@media (max-width: 720px) { body:not([data-layout="legacy"]) .brand-symbol { width: 36px; height: 36px; flex-basis: 36px; } }
+@media print { .cafe .brand-symbol { width: 28px; height: 28px; flex-basis: 28px; filter: none; transform: none; } }
