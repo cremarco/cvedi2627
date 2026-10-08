@@ -1,0 +1,188 @@
+{
+  "brand": "Caffè TTC",
+  "status": "Tre concetti da scegliere, nessun kit definitivo",
+  "assumptions": [
+    "Caffetteria fittizia per un esempio didattico web",
+    "Tono accogliente, quotidiano, riconoscibile; qualità del caffè senza lusso artificiale",
+    "Il marchio deve attraversare 21 linguaggi di interfaccia e funzionare a una tinta",
+    "Il nome resta Caffè TTC; TTC non riceve una nuova espansione inventata"
+  ],
+  "category_research": {
+    "reference_library": "/Users/marco/.codex/skills/logo-design/assets/library",
+    "queries": [
+      "coffee",
+      "lettermark",
+      "negative-space"
+    ],
+    "studied": [
+      "coffeescript.svg",
+      "caffe2.svg",
+      "kotlin-icon.svg",
+      "framer.svg",
+      "ibm.svg"
+    ],
+    "use": "Studio delle convenzioni e della costruzione, nessun tracciamento o copia",
+    "avoided": [
+      "Tazza clipart",
+      "Chicco standard",
+      "Vapore decorativo",
+      "Sigillo vintage generico"
+    ]
+  },
+  "word_map": {
+    "name": [
+      "T",
+      "T",
+      "C",
+      "ripetizione",
+      "apertura"
+    ],
+    "offer": [
+      "pausa",
+      "banco",
+      "tavolo",
+      "ritrovo"
+    ],
+    "attitude": [
+      "vicinanza",
+      "semplicità",
+      "buon lavoro"
+    ],
+    "intersections": [
+      "T + T sopra un banco a C",
+      "Due profili intorno allo stesso tavolo",
+      "C come soglia aperta"
+    ]
+  },
+  "longlist": [
+    {
+      "idea": "Banco TTC: due T sopra una C che diventa il banco",
+      "score": 23,
+      "selected": true
+    },
+    {
+      "idea": "Incontro: due profili aperti condividono il tavolo centrale",
+      "score": 22,
+      "selected": true
+    },
+    {
+      "idea": "Soglia: C aperta con due inviti interni a entrare",
+      "score": 21,
+      "selected": true
+    },
+    {
+      "idea": "Tre posti: tre sedute costruiscono una corona incompleta",
+      "score": 17
+    },
+    {
+      "idea": "Accento: la grave di Caffè diventa una falda protettiva",
+      "score": 16
+    },
+    {
+      "idea": "Filo: TT come doppio gancio su una linea a C",
+      "score": 18
+    },
+    {
+      "idea": "Scontrino: C ricavata da una piega e due tacche TT",
+      "score": 14
+    },
+    {
+      "idea": "Portico: le due T diventano colonne di un ingresso",
+      "score": 18
+    },
+    {
+      "idea": "Ritmo: TT ripetute con una terza battuta aperta",
+      "score": 17
+    },
+    {
+      "idea": "Passaggio: curva a C interrotta da due estremità a T",
+      "score": 18
+    }
+  ],
+  "score_basis": "Chiarezza, distinzione, semplicità, pertinenza, tenuta in piccolo: 1–5 ciascuno; giudizio progettuale",
+  "concepts": [
+    {
+      "id": "banco",
+      "name": "Banco TTC",
+      "type": "Monogramma",
+      "construction": "Modulo 8; due T con aste 32; C di raggio esterno 64 e interno 32. Apertura fra T e C almeno 16. Spostamento ottico +4 x, -12 y.",
+      "recommendation": "Il nome rimane leggibile nel simbolo e il disegno accetta bene curve, spigoli, campiture e contorni.",
+      "risk": "Il peso geometrico può apparire industriale; le versioni calde possono addolcire le estremità senza cambiare struttura."
+    },
+    {
+      "id": "incontro",
+      "name": "Incontro",
+      "type": "Simbolo astratto",
+      "construction": "Due C speculari su raggi 80/48, apertura centrale 32; tavolo circolare di raggio 24. Centro 128/128.",
+      "risk": "Il significato umano è meno esplicito; senza il nome può richiamare un occhio o un simbolo di trasmissione."
+    },
+    {
+      "id": "soglia",
+      "name": "Soglia",
+      "type": "Lettera/simbolo",
+      "construction": "C su modulo 8 con spessore 40; terminali a 45 gradi; due aste interne 32 separate da 16. Spostamento ottico -4/-4.",
+      "risk": "Può essere letta come una E o come un marchio architettonico; il nome completo sostiene il settore caffè."
+    }
+  ],
+  "provenance": {
+    "symbols": "Geometrie originali disegnate in SVG per questo incarico",
+    "wordmarks": "CAFFÈ e TTC sono letterforme geometriche originali a tracciati; nessun font incorporato o dipendenza tipografica",
+    "rasters": "Esportazioni locali rsvg-convert dei vettori originali",
+    "source": "build-concepts.py",
+    "third_party_assets_in_masters": false
+  },
+  "tests": {
+    "iterations": 2,
+    "v1_symbols_audit": [
+      98,
+      100,
+      99
+    ],
+    "v2_symbols_audit": [
+      99,
+      100,
+      99
+    ],
+    "v2_lockups_audit": [
+      100,
+      100,
+      100
+    ],
+    "svg_audit_limit": "Punteggio euristico, non certificazione",
+    "rendered_and_inspected": [
+      "concepts-v1.png",
+      "concepts.png",
+      "tests-v2.png",
+      "pixel-test-v2.png"
+    ],
+    "visual_checks": [
+      "Nero su bianco",
+      "Bianco su nero",
+      "Specchio",
+      "Rotazione 180°",
+      "64/32/16 px",
+      "16 px raster ingrandito senza interpolazione",
+      "Curve e giunzioni"
+    ],
+    "refinements": [
+      "Banco: eliminato il quasi contatto fra prima T e C",
+      "Banco e Soglia: centraggio ottico sopra il centro geometrico"
+    ],
+    "limitations": [
+      "preview-v1.html e preview-v2.html generati; il renderer Chrome non ha prodotto screenshot. Le verifiche di forma sono state eseguite sui PNG SVG equivalenti.",
+      "Nessuna verifica marchi: concetti per esempio didattico fittizio.",
+      "Mockup, colori finali e varianti di produzione appartengono al kit successivo alla scelta."
+    ]
+  },
+  "files": {
+    "overview": "concepts.png",
+    "masters": [
+      "banco-symbol.svg",
+      "banco-lockup.svg",
+      "incontro-symbol.svg",
+      "incontro-lockup.svg",
+      "soglia-symbol.svg",
+      "soglia-lockup.svg"
+    ]
+  }
+}

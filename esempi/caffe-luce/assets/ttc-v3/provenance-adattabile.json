@@ -1,0 +1,150 @@
+{
+  "id": "adattabile",
+  "title": "Caffè TTC · adattabile · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original illustrations of a fictional café",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-0c799bcf-c232-43ff-b392-f3516fc1d9bb.png",
+  "prompt": "Use case: precise-object-edit.\nEdit ONLY the BOTTOM-RIGHT square frontage cell at x512..1023,y1024..1535 in this1024×1536portrait six-cell illustration sheet. Preserve the other five cells exactly, and preserve the same illustrated muted teal/walnut café, white ceramic products, light and style. Keep the exact six512×512cells, no resizing the sheet.\nCorrect the frontage patio to show EXACTLY TWO distinct small outdoor tables, with TWO separate round tabletop surfaces and TWO separate bases: one small table on the left side of the entrance and another small table on the right side. They must read as two independent tables, never two chairs at one shared table. Reframe the frontage within its existing square if necessary so both whole tables, the whole doorway, completely blank sign above, and one pot plant are fully visible with safe margins. Maintain teal-painted wooden door/window framing and warm walnut table tops, light wood chairs. Keep the sign fully blank.\nNo lettering, logo, address, words, numbers, watermark, border, grid lines, interface, new food or any change to the other five cells.",
+  "initialPrompt": "Use case: illustration-story.\nMANDATORY STYLE: all six cells are crisp sophisticated warm FLAT EDITORIAL ILLUSTRATIONS, opaque blue and green geometric color fields, clean vector-like silhouettes, very restrained solid modeled shapes and no shiny surfaces. Café walls remain muted teal, walnut tables appear warm brown, white ceramics and golden pastry remain recognizable. Blue/green accents make this feel fresh and adjustable. Simplified human figures and tidy rounded geometry, not photographic skin, no cartoon faces. No type, no drawn UI or typographic sample.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, soft muted teal-green painted walls, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and simple understated drawn café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, appetizing clear layered pastry silhouettes; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by muted teal-painted wood, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: six512×512pixelcells. Toprow y0..511, middlerow y512..1023, bottomrow y1024..1535. No drinking straws or grid lines. Every product group occupies at most70percent of its square cell's width; complete cups, handles, saucers, glass bases and whole tray with both pastries fully visible.",
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: illustration-story.\nMANDATORY STYLE: all six cells are crisp sophisticated warm FLAT EDITORIAL ILLUSTRATIONS, opaque blue and green geometric color fields, clean vector-like silhouettes, very restrained solid modeled shapes and no shiny surfaces. Café walls remain muted teal, walnut tables appear warm brown, white ceramics and golden pastry remain recognizable. Blue/green accents make this feel fresh and adjustable. Simplified human figures and tidy rounded geometry, not photographic skin, no cartoon faces. No type, no drawn UI or typographic sample.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, soft muted teal-green painted walls, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and simple understated drawn café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, appetizing clear layered pastry silhouettes; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by muted teal-painted wood, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: six512×512pixelcells. Toprow y0..511, middlerow y512..1023, bottomrow y1024..1535. No drinking straws or grid lines. Every product group occupies at most70percent of its square cell's width; complete cups, handles, saucers, glass bases and whole tray with both pastries fully visible.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-be4b1bdc-f8e9-43e0-ac82-83ae3b20ec8a.png",
+      "file": "adattabile-source.png",
+      "sha256": "b9bbe3b227e5f9a463967a2952820c66bd36518a0bbfee39a4b3a490654f786d"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: precise-object-edit.\nEdit ONLY the BOTTOM-RIGHT square frontage cell at x512..1023,y1024..1535 in this1024×1536portrait six-cell illustration sheet. Preserve the other five cells exactly, and preserve the same illustrated muted teal/walnut café, white ceramic products, light and style. Keep the exact six512×512cells, no resizing the sheet.\nCorrect the frontage patio to show EXACTLY TWO distinct small outdoor tables, with TWO separate round tabletop surfaces and TWO separate bases: one small table on the left side of the entrance and another small table on the right side. They must read as two independent tables, never two chairs at one shared table. Reframe the frontage within its existing square if necessary so both whole tables, the whole doorway, completely blank sign above, and one pot plant are fully visible with safe margins. Maintain teal-painted wooden door/window framing and warm walnut table tops, light wood chairs. Keep the sign fully blank.\nNo lettering, logo, address, words, numbers, watermark, border, grid lines, interface, new food or any change to the other five cells.",
+      "inputFile": "adattabile-source.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-0c799bcf-c232-43ff-b392-f3516fc1d9bb.png",
+      "file": "adattabile.png",
+      "sha256": "de417a55a62b15252e9a863c9f52af8311a1a68cfc5dec9143c79803d467c777"
+    }
+  ],
+  "inputReferences": [
+    "adattabile-source.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c as /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-0c799bcf-c232-43ff-b392-f3516fc1d9bb.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "adattabile.png",
+  "sha256": "de417a55a62b15252e9a863c9f52af8311a1a68cfc5dec9143c79803d467c777",
+  "bytes": 2016376,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "panelAspectRatio": "1:1",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "tea": [
+      0,
+      1024,
+      512,
+      512
+    ],
+    "frontage": [
+      512,
+      1024,
+      512,
+      512
+    ]
+  },
+  "runtime": {
+    "file": "adattabile.webp",
+    "sha256": "9ef13b33856b0688c78127e4af35bc032c2ec31cfb4f5eec7ed339e2bb407dce",
+    "bytes": 245182,
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "regions": {
+      "hero": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "locale": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "coffee": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "croissant": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "tea": [
+        0,
+        1024,
+        512,
+        512
+      ],
+      "frontage": [
+        512,
+        1024,
+        512,
+        512
+      ]
+    },
+    "quality": 90,
+    "conversion": "sharp.webp({quality:90}), complete original canvas, no resizing or semantic crop",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "Inspected generated full sheet and local PNG with view_image after every targeted edit",
+    "subjects": "Home espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll; tea and iced orange juice; blank-sign frontage with pot plant and two distinct tables",
+    "primaryObjects": "Recognizable complete primary objects inside their nominal square cells; full handles, saucers, glass bases, pastries and whole tray visible",
+    "typography": "No raster logo, words, address, prices or UI labels; physical frontage sign blank",
+    "continuity": "Teal walls/façade, walnut furniture, brass lighting and white ceramics repeat across scenes"
+  }
+}

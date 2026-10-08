@@ -1,0 +1,115 @@
+{
+  "id": "pixel",
+  "title": "Caffè TTC · pixel · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original scenes of a fictional café, created for educational comparison of interface styles",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-bc23a370-c9dc-4806-81c9-fe6e27143d50.png",
+  "prompt": "Use case: style-transfer. Edit the supplied six-cell café contact sheet. KEEP the exact two-column/three-row composition, all six scene identities, teal walls/door, walnut bar and tables, brass lamps, white ceramics, whole espresso/cappuccino, croissant+cinnamon-roll on whole tray, tea+orange juice, empty frontage sign and exactly two outdoor tables. Change ONLY the rendering language: REDRAW EVERY PIXEL OF ALL SIX CELLS as authentic low-resolution 8-bit game PIXEL ART. Make each square look like it was drawn at 128 by 128 pixels then enlarged exactly 4× by nearest-neighbor to 512 by 512. A strict palette of only 16 opaque flat colors across the whole sheet. Intentional chunky 4×4 pixel blocks and careful stepped silhouette clusters. NO antialiasing anywhere; NO blurred photographic backgrounds; NO smooth photographic gradients, lighting, depth-of-field, realistic wood texture or 3D shading. Background people, windows, walls and furniture are deliberately simplified pixel clusters as much as the foreground food. Food is recognizable but simplified sprites made of large flat pixel clusters with just a few solid pixel highlight/shadow colors. Keep every primary cup, handle, saucer, pastry, tray, glass and façade completely within its tile with generous safe margins. Preserve all subjects and locations but replace the entire image medium with consistent crisp pixel illustration. Output exactly 1024×1536 portrait, six touching 512×512 square tiles. No text, lettering, numbers, game HUD, symbols, frames, labels or new objects.",
+  "initialPrompt": "Use case: illustration-story. Mandatory medium: ACTUAL CRISP 8-BIT PIXEL ART in every cell, including people, food and architecture. All objects drawn on a clear low-resolution square pixel grid and enlarged with nearest-neighbor hard edges. Deliberate pixel clusters, limited 16-color palette, solid stepped silhouettes, a few purposeful pixel shadows; NO smooth edges, antialiasing, blur, gradients, realistic photographic texture, vector curves, painterly strokes or 3D rendering. Warm cream white cups, amber tea/orange juice, golden pastry pixels, walnut brown wood, dark teal architecture, brass-yellow lights. The foods are recognizable natural foods rendered as pixel art, not fantastical game potions. Whole tray, handles and vessels fully visible. Distinct small pixel people with ordinary clothes in hero/interior only. No game HUD, icons, numbers, letters, borders, CRT scanlines or interface.\nAsset type: six original café website scenes delivered as ONE PORTRAIT CONTACT SHEET. Canvas exactly 1024 by 1536 pixels, portrait 2:3. EXACTLY TWO equal columns and THREE equal rows: six touching independent SQUARE cells, each 512 by 512 pixels. Cell boundaries x=512, y=512 and y=1024. No gutters, divider lines, frames, captions, outer margins, rounded corners or borders. Fill the entire canvas edge to edge.\nContinuity: the SAME imaginary welcoming Italian neighborhood café in all six scenes: deep muted teal-green painted walls and door/window frames, walnut tables and wood counter, brass pendant lamps, light wood chairs, plain white ceramic cups. Ordinary contemporary adults and a friendly barista where requested. Warm approachable café, not an empty futuristic showroom.\nEXACT SIX SCENES AND ORDER:\nTOP LEFT / hero: one complete white espresso cup on its saucer and one whole golden croissant on a white plate on a walnut table. Three-quarter view. Cozy teal-walled café behind, a few natural patrons in the background. Whole food, handles, saucer and plate comfortably inside this square.\nTOP RIGHT / locale: wider view of the same café interior, teal walls, walnut bar counter, brass lamps, light wood chairs, a friendly barista and a few patrons. Show the architecture and welcoming inhabited space.\nMIDDLE LEFT / coffee: one small espresso and one larger cappuccino side by side, plain white ceramic cups with full saucers and handles, cappuccino with natural foam. Both complete, on a quiet café surface.\nMIDDLE RIGHT / croissant: one whole golden croissant and one whole cinnamon roll together on a plain serving tray. THE ENTIRE TRAY must be inside the square cell. Keep both pastries whole and recognizable.\nBOTTOM LEFT / tea: one handled clear glass vessel of amber tea and one taller clear glass of orange juice together. Complete handles, rims and bases visible, both centered; no drinking straws.\nBOTTOM RIGHT / frontage: complete entrance and large window of the café, teal-painted wood framing, one physically BLANK empty sign above the doorway, one pot plant and EXACTLY TWO small outdoor café tables. Both complete tables, door, blank sign and plant fit inside this square.\nFraming: leave at least 8 percent safe background margin around every primary food group, cup, glass, tray and façade composition. Primary subjects cannot touch a cell boundary or cross between cells. Every tile must be usable alone as a complete square scene. Architecture may fill the background.\nText: ABSOLUTELY NONE. No words, letters, numbers, logo, brand, typography, watermark, address, price, menu labels, interface controls or diagrams. The physical frontage sign is completely empty. No picture frames, decorative borders, webpage composition or UI. Do not crop any cup, handle, plate, pastry, glass base, serving tray, doorway or outdoor table.",
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: illustration-story. Mandatory medium: ACTUAL CRISP 8-BIT PIXEL ART in every cell, including people, food and architecture. All objects drawn on a clear low-resolution square pixel grid and enlarged with nearest-neighbor hard edges. Deliberate pixel clusters, limited 16-color palette, solid stepped silhouettes, a few purposeful pixel shadows; NO smooth edges, antialiasing, blur, gradients, realistic photographic texture, vector curves, painterly strokes or 3D rendering. Warm cream white cups, amber tea/orange juice, golden pastry pixels, walnut brown wood, dark teal architecture, brass-yellow lights. The foods are recognizable natural foods rendered as pixel art, not fantastical game potions. Whole tray, handles and vessels fully visible. Distinct small pixel people with ordinary clothes in hero/interior only. No game HUD, icons, numbers, letters, borders, CRT scanlines or interface.\nAsset type: six original café website scenes delivered as ONE PORTRAIT CONTACT SHEET. Canvas exactly 1024 by 1536 pixels, portrait 2:3. EXACTLY TWO equal columns and THREE equal rows: six touching independent SQUARE cells, each 512 by 512 pixels. Cell boundaries x=512, y=512 and y=1024. No gutters, divider lines, frames, captions, outer margins, rounded corners or borders. Fill the entire canvas edge to edge.\nContinuity: the SAME imaginary welcoming Italian neighborhood café in all six scenes: deep muted teal-green painted walls and door/window frames, walnut tables and wood counter, brass pendant lamps, light wood chairs, plain white ceramic cups. Ordinary contemporary adults and a friendly barista where requested. Warm approachable café, not an empty futuristic showroom.\nEXACT SIX SCENES AND ORDER:\nTOP LEFT / hero: one complete white espresso cup on its saucer and one whole golden croissant on a white plate on a walnut table. Three-quarter view. Cozy teal-walled café behind, a few natural patrons in the background. Whole food, handles, saucer and plate comfortably inside this square.\nTOP RIGHT / locale: wider view of the same café interior, teal walls, walnut bar counter, brass lamps, light wood chairs, a friendly barista and a few patrons. Show the architecture and welcoming inhabited space.\nMIDDLE LEFT / coffee: one small espresso and one larger cappuccino side by side, plain white ceramic cups with full saucers and handles, cappuccino with natural foam. Both complete, on a quiet café surface.\nMIDDLE RIGHT / croissant: one whole golden croissant and one whole cinnamon roll together on a plain serving tray. THE ENTIRE TRAY must be inside the square cell. Keep both pastries whole and recognizable.\nBOTTOM LEFT / tea: one handled clear glass vessel of amber tea and one taller clear glass of orange juice together. Complete handles, rims and bases visible, both centered; no drinking straws.\nBOTTOM RIGHT / frontage: complete entrance and large window of the café, teal-painted wood framing, one physically BLANK empty sign above the doorway, one pot plant and EXACTLY TWO small outdoor café tables. Both complete tables, door, blank sign and plant fit inside this square.\nFraming: leave at least 8 percent safe background margin around every primary food group, cup, glass, tray and façade composition. Primary subjects cannot touch a cell boundary or cross between cells. Every tile must be usable alone as a complete square scene. Architecture may fill the background.\nText: ABSOLUTELY NONE. No words, letters, numbers, logo, brand, typography, watermark, address, price, menu labels, interface controls or diagrams. The physical frontage sign is completely empty. No picture frames, decorative borders, webpage composition or UI. Do not crop any cup, handle, plate, pastry, glass base, serving tray, doorway or outdoor table.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-cb89fd28-2bea-424e-a9c6-e0e7f54d7855.png",
+      "file": "pixel-source.png",
+      "sha256": "f34471b3e5d6bbef6c69d1c53fa070188e9c90e0a994e8ef9d04225338ac86f2"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: style-transfer. Edit the supplied six-cell café contact sheet. KEEP the exact two-column/three-row composition, all six scene identities, teal walls/door, walnut bar and tables, brass lamps, white ceramics, whole espresso/cappuccino, croissant+cinnamon-roll on whole tray, tea+orange juice, empty frontage sign and exactly two outdoor tables. Change ONLY the rendering language: REDRAW EVERY PIXEL OF ALL SIX CELLS as authentic low-resolution 8-bit game PIXEL ART. Make each square look like it was drawn at 128 by 128 pixels then enlarged exactly 4× by nearest-neighbor to 512 by 512. A strict palette of only 16 opaque flat colors across the whole sheet. Intentional chunky 4×4 pixel blocks and careful stepped silhouette clusters. NO antialiasing anywhere; NO blurred photographic backgrounds; NO smooth photographic gradients, lighting, depth-of-field, realistic wood texture or 3D shading. Background people, windows, walls and furniture are deliberately simplified pixel clusters as much as the foreground food. Food is recognizable but simplified sprites made of large flat pixel clusters with just a few solid pixel highlight/shadow colors. Keep every primary cup, handle, saucer, pastry, tray, glass and façade completely within its tile with generous safe margins. Preserve all subjects and locations but replace the entire image medium with consistent crisp pixel illustration. Output exactly 1024×1536 portrait, six touching 512×512 square tiles. No text, lettering, numbers, game HUD, symbols, frames, labels or new objects.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-bc23a370-c9dc-4806-81c9-fe6e27143d50.png",
+      "file": "pixel.png",
+      "sha256": "039c0b4c3f32c0770312f7f24ca830907a03c4abf8db8e0ce73571920c3bef4c",
+      "inputReferences": [
+        "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-cb89fd28-2bea-424e-a9c6-e0e7f54d7855.png"
+      ]
+    }
+  ],
+  "inputReferences": [
+    "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-cb89fd28-2bea-424e-a9c6-e0e7f54d7855.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de as /Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-bc23a370-c9dc-4806-81c9-fe6e27143d50.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "pixel.png",
+  "sha256": "039c0b4c3f32c0770312f7f24ca830907a03c4abf8db8e0ce73571920c3bef4c",
+  "bytes": 1714751,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "panelAspectRatio": "1:1",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "tea": [
+      0,
+      1024,
+      512,
+      512
+    ],
+    "frontage": [
+      512,
+      1024,
+      512,
+      512
+    ]
+  },
+  "runtime": {
+    "file": "pixel.webp",
+    "sha256": "e58ec3d9f7eebcbab31ac1bc833b686918924f0801a61dc35bbb2de120b7b1de",
+    "bytes": 240206,
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "conversion": "sharp.webp({quality:90}), complete original canvas, no resizing or semantic crop",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "Generated original/final full sheets inspected; pastry-panel extracts checked locally with view_image. Pixel/deco medium corrected once; brutal/bento complete tray framing corrected once.",
+    "subjects": "Hero espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll on complete tray; amber tea and orange juice; blank-sign frontage with plant and two outdoor tables",
+    "primaryObjects": "All food groups, cup handles, saucers, glasses, bases and entire pastry tray fit their selected panel; no primary product crosses a crop boundary",
+    "typography": "No words, logos, address, prices or UI in the raster; façade sign blank",
+    "continuity": "Deep teal walls/door, walnut furniture, brass lighting, white ceramics and recognizable natural foods repeat",
+    "regions": "Nominal cell boundaries x=512, y=512/y=1024 match the generated sheet. A one-pixel transitional edge is background only.",
+    "style": "Crisp stepped pixel drawing in all six cells; photographic blur removed."
+  }
+}

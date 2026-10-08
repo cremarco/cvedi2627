@@ -1,0 +1,111 @@
+{
+  "id": "web2",
+  "title": "Caffè TTC · web2 · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original illustrations of a fictional café, created for educational comparison of interface styles",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-33cd1a1a-949b-42ee-b9da-9bb25038ae8c.png",
+  "prompt": "Use case: style-transfer.\nTransform this entire six-cell contact sheet into a clearly DRAWN, POLISHED VECTOR ILLUSTRATION in an early Web 2.0 promotional visual style. Preserve the exact 1024×1536 two-column three-row layout and the same six scene subjects and positions. The final image must visibly look like an illustration created in vector drawing software, not photography and not a realistic 3D render.\nUse smooth simplified outlined shapes, very clean curved silhouettes, selectively bold brown or dark-teal contour lines, rounded friendly stylized people with minimal drawn faces, simple cell-shaded cups and pastries, softly graduated two-tone vector fills with controlled shiny highlights. Simplify wood into a few long graphic bands; remove all realistic wood grain and photo texture. Simplify pastries into graceful curved contour lines and warm golden shapes. Keep physical café objects familiar and opaque. Light blue accents on highlights and pale background shapes, teal wall, walnut brown, cream and golden pastry. Keep every subject, menu product and blank frontage sign without letters. No interface shapes, badges, buttons or text.\nIn the middle-right pastry cell, fit the entire tray and both pastries well within the cell, with at least 40 pixels of background around its left, right, top and bottom edges. Keep the complete croissant and cinnamon roll. Keep all other scene compositions, the complete cups, handles, glass bases, café entrance and two outdoor tables. No white gutter, divider strokes, outer border or decorative frame.",
+  "initialPrompt": "Use case: illustration-story.\nSTYLE IS MANDATORY THROUGHOUT: a polished early-2000s friendly VECTOR ILLUSTRATION, with smooth simplified stylized drawn people, clean drawn outlines, solid rounded silhouettes and gentle vector gradients. Café surfaces have simplified geometry and very light blue highlight accents. This is a clearly illustrated semi-realistic promotional drawing; there is NO photographic realism, no lens bokeh, no pore detail, no photo texture. White ceramics, golden pastries, warm walnut brown, cream and muted teal café walls. Subtle glossy highlights on ceramic and brass fit early Web 2.0 visual culture, never neon. All six cells use this exact same visibly illustrated style.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, soft muted teal-green painted walls, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and simplified softly drawn café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, appetizing recognizable pastry textures; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by muted teal-painted wood, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: every cell is 512×512 pixels. Top row y=0..511, middle row y=512..1023, bottom row y=1024..1535. Do not drift the row boundaries. No drinking straws. The serving tray and both pastries fit wholly within their cell with a safe margin, never crop the tray. No UI, buttons, badge or capsule graphics.",
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: illustration-story.\nSTYLE IS MANDATORY THROUGHOUT: a polished early-2000s friendly VECTOR ILLUSTRATION, with smooth simplified stylized drawn people, clean drawn outlines, solid rounded silhouettes and gentle vector gradients. Café surfaces have simplified geometry and very light blue highlight accents. This is a clearly illustrated semi-realistic promotional drawing; there is NO photographic realism, no lens bokeh, no pore detail, no photo texture. White ceramics, golden pastries, warm walnut brown, cream and muted teal café walls. Subtle glossy highlights on ceramic and brass fit early Web 2.0 visual culture, never neon. All six cells use this exact same visibly illustrated style.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, soft muted teal-green painted walls, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and simplified softly drawn café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, appetizing recognizable pastry textures; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by muted teal-painted wood, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: every cell is 512×512 pixels. Top row y=0..511, middle row y=512..1023, bottom row y=1024..1535. Do not drift the row boundaries. No drinking straws. The serving tray and both pastries fit wholly within their cell with a safe margin, never crop the tray. No UI, buttons, badge or capsule graphics.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-b01beb41-d734-4f77-9fff-9dcb174f0544.png",
+      "file": "web2-source.png",
+      "sha256": "552421bf4ca513c63ae0f4953c279cfc864c1336cc117b37b5fa9e08badfd77b"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: style-transfer.\nTransform this entire six-cell contact sheet into a clearly DRAWN, POLISHED VECTOR ILLUSTRATION in an early Web 2.0 promotional visual style. Preserve the exact 1024×1536 two-column three-row layout and the same six scene subjects and positions. The final image must visibly look like an illustration created in vector drawing software, not photography and not a realistic 3D render.\nUse smooth simplified outlined shapes, very clean curved silhouettes, selectively bold brown or dark-teal contour lines, rounded friendly stylized people with minimal drawn faces, simple cell-shaded cups and pastries, softly graduated two-tone vector fills with controlled shiny highlights. Simplify wood into a few long graphic bands; remove all realistic wood grain and photo texture. Simplify pastries into graceful curved contour lines and warm golden shapes. Keep physical café objects familiar and opaque. Light blue accents on highlights and pale background shapes, teal wall, walnut brown, cream and golden pastry. Keep every subject, menu product and blank frontage sign without letters. No interface shapes, badges, buttons or text.\nIn the middle-right pastry cell, fit the entire tray and both pastries well within the cell, with at least 40 pixels of background around its left, right, top and bottom edges. Keep the complete croissant and cinnamon roll. Keep all other scene compositions, the complete cups, handles, glass bases, café entrance and two outdoor tables. No white gutter, divider strokes, outer border or decorative frame.",
+      "inputFile": "web2-source.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-33cd1a1a-949b-42ee-b9da-9bb25038ae8c.png",
+      "file": "web2.png",
+      "sha256": "b88756523314dbec12454a46b6616de33f0d31d848fbb0ba19dc898de2a8b2a0"
+    }
+  ],
+  "inputReferences": [
+    "web2-source.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c as /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-33cd1a1a-949b-42ee-b9da-9bb25038ae8c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "web2.png",
+  "sha256": "b88756523314dbec12454a46b6616de33f0d31d848fbb0ba19dc898de2a8b2a0",
+  "bytes": 2129337,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "panelAspectRatio": "1:1",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "tea": [
+      0,
+      1024,
+      512,
+      512
+    ],
+    "frontage": [
+      512,
+      1024,
+      512,
+      512
+    ]
+  },
+  "runtime": {
+    "file": "web2.webp",
+    "sha256": "e1c45746c24a81c52498b3030d37d85772457e6356d561c8ee0530bced896c01",
+    "bytes": 302264,
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "conversion": "sharp.webp({quality:90}), complete original canvas, no resizing or semantic crop",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "Inspected generated full sheet and local PNG with view_image",
+    "subjects": "Home espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll; tea and orange juice; blank-sign frontage with plant and two tables",
+    "primaryObjects": "All six nominal cells contain complete recognizable primary products; cup handles, saucers, glass bases, pastries and serving tray visible; no subject crosses a nominal cell boundary",
+    "typography": "No raster logo, words, address, prices or interface labels; physical frontage sign blank",
+    "continuity": "Teal walls and façade, walnut furniture, brass lighting and white ceramics repeat across scenes"
+  }
+}

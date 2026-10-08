@@ -1,0 +1,112 @@
+{
+  "id": "material",
+  "title": "Caffè TTC · material · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original illustrations of a fictional café, created for educational comparison of interface styles",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-489738a9-5d88-469e-aa83-9c669532a8fc.png",
+  "prompt": "Use case: precise-object-edit.\nEdit ONLY the middle-right square cell of this existing 1024×1536 portrait six-cell photographic contact sheet: the pastry scene at x=512..1023, y=512..1023. Keep all other five cells, their content, their style, exact row and column boundaries, their lighting and objects unchanged. Preserve professional authentic daylight photography.\nInside the middle-right cell, reframe the serving tray with the croissant and cinnamon roll together slightly smaller and centered, so the ENTIRE rectangular metal tray, every corner and every rim, both pastries and the complete paper liner are visible with at least 48 pixels of plain walnut table surrounding the whole tray on all four sides. In particular, the left edge and front-left corner of the tray must be completely visible well inside the cell; no part may touch or extend beyond x=512 or the cell's other edges. Preserve exactly one croissant and one cinnamon roll, appetizing real golden pastry textures. Do not add any objects.\nNo crop, scale or layout change to the whole contact sheet. Preserve all six cells. Keep the blank sign blank and every other cell untouched. No text, logo, watermark, borders, white divider lines or gutters.",
+  "initialPrompt": "Use case: photorealistic-natural.\nMANDATORY STYLE: all six cells are authentic professional editorial DAYLIGHT PHOTOGRAPHY of the same realistic café. Generous restrained framing, natural materials and accurate real-world anatomy. White ceramics, warm appetizing golden pastry, amber tea, orange juice, neutral light surfaces. Muted teal café walls and walnut furniture establish continuity; a very small restrained purple fabric accent can appear in the café background, without altering food colors. Soft balanced natural window lighting, genuine skin and physical textures, crisp but never exaggerated depth of field. Premium credible food and hospitality photography used alongside Material Design 1 (2014), not a screenshot of Material UI. No fake paper panels, no floating cards, no illustration, no 3D rendering.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, soft muted teal-green painted walls, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and softly indistinct café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, appetizing recognizable pastry textures; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by muted teal-painted wood, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: every cell is 512×512 pixels. Top row y=0..511, middle row y=512..1023, bottom row y=1024..1535. The six photographic scenes touch with no white borders or gutters. No drinking straws. Frame the product pairs and pastry tray slightly wider so the whole handles, saucers, bases and entire tray fit safely within their own cell. The frontage shows the complete blank sign, entire entrance, one pot plant and both outdoor tables, with safe margins.",
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: photorealistic-natural.\nMANDATORY STYLE: all six cells are authentic professional editorial DAYLIGHT PHOTOGRAPHY of the same realistic café. Generous restrained framing, natural materials and accurate real-world anatomy. White ceramics, warm appetizing golden pastry, amber tea, orange juice, neutral light surfaces. Muted teal café walls and walnut furniture establish continuity; a very small restrained purple fabric accent can appear in the café background, without altering food colors. Soft balanced natural window lighting, genuine skin and physical textures, crisp but never exaggerated depth of field. Premium credible food and hospitality photography used alongside Material Design 1 (2014), not a screenshot of Material UI. No fake paper panels, no floating cards, no illustration, no 3D rendering.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, soft muted teal-green painted walls, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and softly indistinct café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, appetizing recognizable pastry textures; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by muted teal-painted wood, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: every cell is 512×512 pixels. Top row y=0..511, middle row y=512..1023, bottom row y=1024..1535. The six photographic scenes touch with no white borders or gutters. No drinking straws. Frame the product pairs and pastry tray slightly wider so the whole handles, saucers, bases and entire tray fit safely within their own cell. The frontage shows the complete blank sign, entire entrance, one pot plant and both outdoor tables, with safe margins.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-2c13e04e-7856-463a-be2d-38b49348d173.png",
+      "file": "material-source.png",
+      "sha256": "c17b47deed3e4058be8719f42e5bf6d4633f80ef6ea07c7c7db2159996430267"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: precise-object-edit.\nEdit ONLY the middle-right square cell of this existing 1024×1536 portrait six-cell photographic contact sheet: the pastry scene at x=512..1023, y=512..1023. Keep all other five cells, their content, their style, exact row and column boundaries, their lighting and objects unchanged. Preserve professional authentic daylight photography.\nInside the middle-right cell, reframe the serving tray with the croissant and cinnamon roll together slightly smaller and centered, so the ENTIRE rectangular metal tray, every corner and every rim, both pastries and the complete paper liner are visible with at least 48 pixels of plain walnut table surrounding the whole tray on all four sides. In particular, the left edge and front-left corner of the tray must be completely visible well inside the cell; no part may touch or extend beyond x=512 or the cell's other edges. Preserve exactly one croissant and one cinnamon roll, appetizing real golden pastry textures. Do not add any objects.\nNo crop, scale or layout change to the whole contact sheet. Preserve all six cells. Keep the blank sign blank and every other cell untouched. No text, logo, watermark, borders, white divider lines or gutters.",
+      "inputFile": "material-source.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-489738a9-5d88-469e-aa83-9c669532a8fc.png",
+      "file": "material.png",
+      "sha256": "f4bf5a7ed4b2f4f9d891032a8fbf1e9311a031a0c466f2685f63820e78e06fba"
+    }
+  ],
+  "inputReferences": [
+    "material-source.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c as /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-489738a9-5d88-469e-aa83-9c669532a8fc.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "material.png",
+  "sha256": "f4bf5a7ed4b2f4f9d891032a8fbf1e9311a031a0c466f2685f63820e78e06fba",
+  "bytes": 2381609,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "panelAspectRatio": "1:1",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "tea": [
+      0,
+      1024,
+      512,
+      512
+    ],
+    "frontage": [
+      512,
+      1024,
+      512,
+      512
+    ]
+  },
+  "runtime": {
+    "file": "material.webp",
+    "sha256": "7d670dc95eb4c25ea8d5a7c98c10254fcdfb7e9ed02c62929c11d4be847ea371",
+    "bytes": 297858,
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "conversion": "sharp.webp({quality:90}), complete original canvas, no resizing or semantic crop",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "Inspected generated full sheet and local PNG with view_image",
+    "subjects": "Home espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll; tea and orange juice; blank-sign frontage with plant and two tables",
+    "primaryObjects": "All six nominal cells contain complete recognizable primary products; cup handles, saucers, glass bases, pastries and serving tray visible; no subject crosses a nominal cell boundary",
+    "typography": "No raster logo, words, address, prices or interface labels; physical frontage sign blank",
+    "continuity": "Teal walls and façade, walnut furniture, brass lighting and white ceramics repeat across scenes",
+    "materialTray": "Tray scene corrected with built-in image edit, complete tray safely inset within its tile"
+  }
+}

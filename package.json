@@ -11,6 +11,8 @@
     "clean": "node scripts/clean.mjs",
     "css": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./styles/daisy.css -o ./styles/daisy-built.css",
     "css:projects": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./progetti/gallery.source.css -o ./progetti/gallery.css --minify",
+    "css:caffe-luce": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./esempi/caffe-luce/styles.source.css -o ./esempi/caffe-luce/styles.css --minify",
+    "build:caffe-ttc": "node scripts/build/caffe-ttc-assets.mjs && node scripts/build/caffe-ttc.mjs && pnpm css:caffe-luce",
     "gallery": "node scripts/build/project-gallery.mjs",
     "dev": "node scripts/dev.mjs",
     "build": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs build",
@@ -26,6 +28,7 @@
     "check:typography": "node scripts/check/typography.mjs",
     "check:layout": "node scripts/check/layout.mjs",
     "check:projects": "node scripts/check/projects.mjs",
+    "check:caffe-luce": "node scripts/check/caffe-luce.mjs",
     "check:links": "python3 scripts/check/site-links.py",
     "check:ux-course": "node scripts/check/ux-course.mjs"
   },

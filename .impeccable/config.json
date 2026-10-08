@@ -93,6 +93,197 @@
         ],
         "createdAt": "2026-10-05T22:42:59.125Z",
         "reason": "Assistant decided: styles/web-styles.css:371 applies the pink rule only to the open text column of web-style-max, an intentional editorial demonstration of maximalism. The user requested that each style slide adopt the style it discusses; this is not a card or a generic application accent."
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "esempi/caffe-luce/index.html",
+          "esempi/caffe-luce/styles.source.css"
+        ],
+        "createdAt": "2026-10-07T21:00:30.953Z",
+        "reason": "Agent: il piano approvato richiede i linguaggi storici del booklet; questi font locali sono le famiglie gia documentate in styles/web-styles.css e riutilizzate nei rispettivi esempi, non una nuova scelta generica."
+      },
+      {
+        "rule": "overused-font",
+        "value": "roboto",
+        "files": [
+          "esempi/caffe-luce/index.html",
+          "esempi/caffe-luce/styles.source.css"
+        ],
+        "createdAt": "2026-10-07T21:00:31.018Z",
+        "reason": "Agent: il piano approvato richiede i linguaggi storici del booklet; questi font locali sono le famiglie gia documentate in styles/web-styles.css e riutilizzate nei rispettivi esempi, non una nuova scelta generica."
+      },
+      {
+        "rule": "overused-font",
+        "value": "fraunces",
+        "files": [
+          "esempi/caffe-luce/index.html",
+          "esempi/caffe-luce/styles.source.css"
+        ],
+        "createdAt": "2026-10-07T21:00:31.078Z",
+        "reason": "Agent: il piano approvato richiede i linguaggi storici del booklet; questi font locali sono le famiglie gia documentate in styles/web-styles.css e riutilizzate nei rispettivi esempi, non una nuova scelta generica."
+      },
+      {
+        "rule": "overused-font",
+        "value": "space grotesk",
+        "files": [
+          "esempi/caffe-luce/index.html",
+          "esempi/caffe-luce/styles.source.css"
+        ],
+        "createdAt": "2026-10-07T21:00:31.141Z",
+        "reason": "Agent: il piano approvato richiede i linguaggi storici del booklet; questi font locali sono le famiglie gia documentate in styles/web-styles.css e riutilizzate nei rispettivi esempi, non una nuova scelta generica."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/index.html",
+          "esempi/caffe-luce/styles.source.css"
+        ],
+        "createdAt": "2026-10-07T21:00:31.202Z",
+        "reason": "Agent: confronto didattico con 17 skin isolate data-style. I filetti vivaci appartengono soltanto al massimalismo del riferimento; la sfumatura ciano e il rilievo blu appartengono alle skin chiare glass e web2, mentre il rilevatore le attribuisce alla skin scura olografica inattiva. Screenshot di tutte le varianti verificati; geometria e leggibilita restano controllate."
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/index.html"
+        ],
+        "createdAt": "2026-10-07T21:00:31.262Z",
+        "reason": "Agent: confronto didattico con 17 skin isolate data-style. I filetti vivaci appartengono soltanto al massimalismo del riferimento; la sfumatura ciano e il rilievo blu appartengono alle skin chiare glass e web2, mentre il rilevatore le attribuisce alla skin scura olografica inattiva. Screenshot di tutte le varianti verificati; geometria e leggibilita restano controllate."
+      },
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/index.html"
+        ],
+        "createdAt": "2026-10-07T21:00:31.323Z",
+        "reason": "Agent: confronto didattico con 17 skin isolate data-style. I filetti vivaci appartengono soltanto al massimalismo del riferimento; la sfumatura ciano e il rilievo blu appartengono alle skin chiare glass e web2, mentre il rilevatore le attribuisce alla skin scura olografica inattiva. Screenshot di tutte le varianti verificati; geometria e leggibilita restano controllate."
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "esempi/caffe-luce/locale.html",
+          "esempi/caffe-luce/menu.html"
+        ],
+        "createdAt": "2026-10-07T21:55:15.520Z",
+        "reason": "Agent: i tre documenti condividono gli stili didattici approvati; Inter appartiene alla variante Flat/Minimal documentata, le famiglie storiche e future sono verificate con fonti primarie nel README."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/locale.html",
+          "esempi/caffe-luce/menu.html"
+        ],
+        "createdAt": "2026-10-07T21:55:15.609Z",
+        "reason": "Agent: le tre pagine condividono 17 skin isolate. Il massimalismo richiede accenti grafici nei propri spazi; il rilievo blu e il campo ciano appartengono a Web2 e Glass chiare, erroneamente attribuiti alla skin scura dal rilevatore. Fonte primaria e scelta approvata nel README; contrasto e layout verificati dal browser."
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/locale.html",
+          "esempi/caffe-luce/menu.html"
+        ],
+        "createdAt": "2026-10-07T21:55:15.752Z",
+        "reason": "Agent: le tre pagine condividono 17 skin isolate. Il massimalismo richiede accenti grafici nei propri spazi; il rilievo blu e il campo ciano appartengono a Web2 e Glass chiare, erroneamente attribuiti alla skin scura dal rilevatore. Fonte primaria e scelta approvata nel README; contrasto e layout verificati dal browser."
+      },
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/locale.html",
+          "esempi/caffe-luce/menu.html"
+        ],
+        "createdAt": "2026-10-07T21:55:15.819Z",
+        "reason": "Agent: le tre pagine condividono 17 skin isolate. Il massimalismo richiede accenti grafici nei propri spazi; il rilievo blu e il campo ciano appartengono a Web2 e Glass chiare, erroneamente attribuiti alla skin scura dal rilevatore. Fonte primaria e scelta approvata nel README; contrasto e layout verificati dal browser."
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/index.html",
+          "esempi/caffe-luce/locale.html",
+          "esempi/caffe-luce/menu.html"
+        ],
+        "createdAt": "2026-10-07T23:29:54.334Z",
+        "reason": "Agent: the three generated templates deliberately omit initial image src; app.js assigns each selected style its own verified local asset. Reports/caffe-ttc-v3-final/verification.json passes 540 cases with nonempty loaded image geometry. Risorse must make zero bitmap requests until the explicit image action, so a default src would break the documented behavior."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/historical.source.css"
+        ],
+        "createdAt": "2026-10-07T23:29:54.406Z",
+        "reason": "Agent: all eight findings are documented style demonstration details: Web 2.0 masthead bevel at line 63; Y2K chrome relief at 322; maximalist header, hero, CTA, visit, select and intro accents at 342, 348, 352, 362, 366, 367. The user requested historically distinct whole-site grammars; README and DESIGN specify these materials and palettes. Final browser and independent visual reviews passed."
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/future.source.css"
+        ],
+        "createdAt": "2026-10-07T23:29:54.480Z",
+        "reason": "Agent: the only finding at line 170 selects the holographic product with a 3px bottom rule. The same style explicitly sets menu-item border-radius:0 at line 167, so this is not an accent on a rounded card. CSS selectors are merged incorrectly by the static detector; selection and projected views passed final runtime checks."
+      },
+      {
+        "rule": "overused-font",
+        "value": "space grotesk",
+        "files": [
+          "esempi/caffe-luce/projection.source.css"
+        ],
+        "createdAt": "2026-10-07T23:29:54.549Z",
+        "reason": "Agent: Space Grotesk is the documented Olografica type family in DESIGN and README; the full-screen projection preserves the selected site style and Banco TTC identity as requested. The local font loads and projection is readable in four verified viewport cases."
+      },
+      {
+        "rule": "broken-image",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/contatti.html"
+        ],
+        "createdAt": "2026-10-07T23:49:14.886Z",
+        "reason": "Agent: Contatti uses the same deferred TTC image template as the three verified pages; app.js chooses the selected style asset before assigning src. Previous full verification passed all22 Contatti versions with valid image geometry. Risorse genuinely makes zero bitmap requests before the explicit action, as documented in DESIGN."
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "esempi/caffe-luce/contatti.html"
+        ],
+        "createdAt": "2026-10-07T23:49:14.956Z",
+        "reason": "Agent: Inter is the documented family for the Flat/default and selected historical grammars. This user-authorized comparison of22 styles preserves each own typeface rather than replacing the default family across the study."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/contatti.html"
+        ],
+        "createdAt": "2026-10-07T23:49:15.051Z",
+        "reason": "Agent: the Contatti static scan merges mutually exclusive data-style rules; the flagged Web2 bevel, Y2K chrome and Max bands are deliberate documented materials. Three independent current reviews of all22 styles and all four pages confirmed those grammars, with no unwanted tab accent on other active styles."
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/contatti.html"
+        ],
+        "createdAt": "2026-10-07T23:49:15.128Z",
+        "reason": "Agent: flagged #064e76 shadow belongs to the light-blue Web2 masthead, not the dark holographic Contatti. The detector merges mutually exclusive CSS styles; all22 Contatti screenshots and current visual review confirm each style surface separately."
+      },
+      {
+        "rule": "radial-halo",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/contatti.html"
+        ],
+        "createdAt": "2026-10-07T23:49:15.203Z",
+        "reason": "Agent: #79d7e7 radial field is the documented cyan/lavender Glass material environment on its light surface. The static Contatti detector incorrectly treats this mutually exclusive style as the dark holographic page. The user requested a whole-site Glass interpretation; typography and products remain opaque and readable in the reviewed screenshots."
       }
     ]
   }

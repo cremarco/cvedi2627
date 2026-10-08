@@ -255,3 +255,82 @@ Aggiungere al frontmatter le classi `figure-slide` e, quando la figura è primar
 7. La pagina è pronta quando titolo e corpo rispettano gli ancoraggi, non c’è contenuto fuori margine, gli asset reali sono caricati, i colori appartengono al set e la tastiera mantiene un percorso completo.
 
 L’architettura deve mantenere separate informazione e presentazione: Markdown e `data/` descrivono contenuti; Vue gestisce visualizzazione e interazione; CSS condiviso possiede i ruoli. Estendere il modulo proprietario quando manca una regola riusabile, senza introdurre copie locali nei singoli Markdown.
+
+## Esempio autonomo · Caffè TTC
+
+Questa sezione riguarda soltanto `esempi/caffe-luce/`. Il percorso tecnico resta invariato; il bar fittizio è Caffè TTC. Il sistema Slidev, le sue palette e la regola sugli esempi HTML nelle slide conservano il proprio ambito.
+
+### Overview
+
+Il sito autonomo occupa tutta la viewport, senza cornice o barra didattica esterna. Quattro pagine — Home, Menu, Il locale, Contatti — condividono dati e funzioni; 22 grammatiche cambiano composizione, materiali, tipografia, immagini, marchio e controlli. Le prime 16 sono interpretazioni di repertori e tradizioni grafiche, le altre sei scenari dichiarati. La tabella delle fonti e delle scelte è nel [README](esempi/caffe-luce/README.md).
+
+Il marchio Banco TTC mantiene due T e una C che richiama il banco. Le sue variazioni di superficie seguono lo stile della pagina; il simbolo SVG resta decorativo accanto al nome accessibile. I tre concetti vettoriali originali e le prove rimangono in `assets/brand/concepts/`; il sito usa Banco senza trasformare la proposta in un kit di identità definitivo.
+
+### Colors
+
+Il tema dell’esempio usa `.cafe[data-style]` e `:root[data-style]`. `--cafe-paper/surface/ink/muted/primary/on-primary/rule` distinguono carta, pannelli, testo, secondario, azione, testo dell’azione e separatori. Le famiglie sono autonome rispetto alle palette del deck.
+
+| Variante | Primario / carta | Titoli / corpo |
+| --- | --- | --- |
+| Primo web | #0000a0 / #ffffff | Times New Roman, Times |
+| Web 2.0 | #075ca6 / #f5fcff | Trebuchet MS, Arial |
+| Scheumorfismo | #714526 / #f8efdc | Lora |
+| Flat | #bc420e / #fffcf7 | Inter |
+| Material 1 | #673ab7 / #fafafa | Roboto |
+| Neumorfismo | #a53e17 / #e6edf4 | Nunito |
+| Glassmorfismo | #4541b9 / #eff1ff | Inter |
+| Minimalismo | #171717 / #ffffff | Inter |
+| Y2K | #202381 / #e7e9ff | Audiowide / Space Grotesk |
+| Massimalismo | #ad2809 / #fff4dc | Fraunces / Space Grotesk |
+| Neobrutalismo | #ac390a / #fffdf2 | Archivo Black / Space Grotesk |
+| Brutalismo web | #aa1720 / #ffffff | Space Grotesk / Roboto |
+| Internazionale | #b22419 / #f5f5f0 | Inter |
+| Pixel | #315942 / #fbf5de | Press Start 2P / Space Grotesk |
+| Bento | #2e533f / #ecefe8 | Inter |
+| Art Déco | #6c4e1b / #f3ecdb | Limelight / Lora |
+| Adattabile | #154d83 / #f7fbff | Roboto Flex |
+| Spaziale | #43514b / #f9f8f5 | Inter |
+| Generativa | #65401b / #fffdf7 | Space Grotesk |
+| Risorse | #35513f / #f6f3e8 | Georgia, Times |
+| Organica | #7b3525 / #fff6e9 | Lora |
+| Olografica | #b9ecdc / #152023 | Space Grotesk |
+
+### Typography
+
+Le famiglie del sito sono locali o di sistema. Titoli, prosa e nome del bar seguono i token della variante; IBM Plex Mono serve ai metadati neobrutalisti. Press Start 2P è riservato alla voce espressiva del revival a pixel; il corpo resta Space Grotesk. Limelight e Lora distinguono insegna e lettura nella rilettura Art Déco. Nessun servizio font esterno al runtime.
+
+Adattabile usa gli assi reali `opsz`, `wght`, `wdth` di Roboto Flex: tre scelte di lettura variano scala, peso e dimensione ottica; un cursore porta la larghezza da 75 a 125%. La preferenza esplicita si conserva nella sessione. I titoli e le descrizioni hanno altezza naturale, senza slot che taglino righe o glifi.
+
+### Layout
+
+Le varianti possiedono le proprie relazioni spaziali: documento sequenziale per Primo web, masthead/tab per Web 2.0 e Material, campiture per Flat, campi aperti per Minimalismo, griglia asimmetrica per Internazionale, mosaico dell’intera pagina per Bento, simmetria per Art Déco, listino diretto per Brutalismo. Dati e funzione dei collegamenti rimangono comuni.
+
+Primo web, Web 2.0, scheumorfismo e Y2K mantengono su schermo almeno 1024 px, con scorrimento orizzontale sotto soglia. È una scelta delle ricostruzioni, non una cronologia tecnologica universale. Le altre 18 varianti riordinano il contenuto tra tablet e mobile. Le griglie comuni dei valori usano due colonne tra 721 e 1000 px e la terza voce a tutta larghezza, dove la composizione specifica non richiede una propria griglia; fino a 720 px il contenuto responsive segue una colonna. Menu, storie, riepiloghi e footer crescono naturalmente con il contenuto; note e sezioni successive iniziano dopo il listino. La stampa adatta tutte le varianti all’A4, mostra l’intero menu anche con un filtro attivo, tiene insieme identità e dichiarazione del footer e restituisce la pagina al posto della proiezione. Introduzione e nota del modulo restano unite; la nota del menu conserva titolo e testo insieme. Massimalismo usa due colonne in A4. Gli hero delle sei esperienze crescono con il testo in stampa, senza restringere i figli e sovrapporre le righe; la paginazione multipagina rimane ammessa.
+
+Nel Menu Risorse, titolo, introduzione e immagine occupano la colonna sinistra e il listino la colonna destra più ampia, anche per Salato senza immagine. Mobile e stampa riportano le liste a tutta larghezza. Nel Menu Spaziale mobile la prospettiva è locale alle card e parte dal bordo superiore: il primo piano non invade i filtri, anche nello stato vicino. Nei flussi verticali di Brutalismo e delle cinque varianti aggiuntive, visita e orari restano separati da 32 px; in Contatti il titolo del gruppo successivo conserva 28 px sopra e 16 px sotto.
+
+### Elevation & Depth
+
+La profondità appartiene alla grammatica: Material 1 conserva elevazioni misurate e raggio 2 px; Neumorfismo usa coppie di ombre morbide; Neobrutalismo contorni e ombre nette; Flat, Minimalismo, Brutalismo e Internazionale affidano la gerarchia a campiture, testo e griglia. Glass applica un solo blur all’header, con contenuti e alimenti opachi. Spaziale e Olografica usano piani CSS prospettici per la simulazione dichiarata.
+
+### Shapes
+
+Raggi, sagome, filetti e materiali sono dati dalle varianti, senza normalizzare tutto in card equivalenti. La forma del monogramma rimane riconoscibile: la versione Pixel sostituisce le curve con gradini; Art Déco e Olografica lo rendono a contorno; Y2K usa il trattamento cromato. Le immagini non ricevono cornici, ombre o angoli aggiunti: crop centrati e proporzioni provengono dai manifest.
+
+### Components
+
+Header, navigazione, select dello stile, filtri, campi e azioni assumono integralmente la variante. Il select mantiene etichetta e comportamento nativo; il select Argomento mostra una freccia, nativa in Primo web e Brutalismo e disegnata negli altri stili, conservando il materiale del campo. Minimalismo e Bento distinguono il bordo dei campi dai separatori decorativi, con contrasto di almeno 3:1 sulle superfici effettive. Focus visibile, skip link, stati premuti ed etichette dei campi conservano l’uso da tastiera. `?stile=` persiste fra pagine, Indietro e ricaricamento.
+
+Il Menu contiene 15 articoli in quattro categorie. Il modulo Contatti prepara una bozza scaricabile/apribile nella posta, senza invio o conservazione dei dati. Dopo una modifica a qualsiasi campo o all’argomento, revoca la bozza precedente, rimuove le sue azioni e invita a prepararla di nuovo; la preparazione successiva usa i valori aggiornati. Identità, prezzi, orari, indirizzo e contatti sono contenuti di un bar immaginario, dichiarati nella pagina; l’email usa `.example`.
+
+Le sei esperienze modificano il risultato: assi tipografici, piani selezionabili, composizione deterministica da richieste, caricamento facoltativo, contorni reattivi, proiezione. Generativa riconosce i nomi canonici delle categorie e dei 15 articoli, insieme ad alias espliciti come forno, infusi e girella; bevande e da bere selezionano soltanto Caffè e Tè, salvo aggiunte richieste. Risorse non assegna sorgenti bitmap prima del pulsante nella prima apertura: WebP condiviso di 384 × 576 px e 84.790 byte. Questo dato non certifica sostenibilità.
+
+`Proietta il sito` sfuma la pagina e apre un dialog nativo con quattro viste, tutti i 15 articoli e gli stessi orari. Vista frontale/laterale cambia la prospettiva; pulsante ed Esc chiudono e ripristinano il focus. Le transizioni sono finite; con movimento ridotto il reset prevale anche sulle regole specifiche di piani, prodotti e contorni, mantenendo statici Spaziale, Organica e Olografica. Le scene con visore AR e proiettore sono ipotesi illustrate: il browser non attiva hardware olografico o AR, e Generativa non chiama un modello AI.
+
+### Do's and Don'ts
+
+- **Do** mantenere la separazione: `contenuti.json` possiede i dati, il generatore produce HTML e `contenuti.js`; `stili.js` possiede catalogo e fonti; i manifest producono `immagini.js`; gli script gestiscono navigazione e interazioni; i CSS sorgente possiedono la presentazione.
+- **Do** conservare in `assets/ttc-v3/` tavole PNG originali, runtime WebP e provenienza di ogni stile: prompt esatti, riferimenti, dimensioni, crop, byte e hash. Le scene d’uso aggiuntive e la loro provenienza sono in `assets/futuri/scene/`. Conservare anche l’atlante precedente, i master del marchio e le licenze dei font.
+- **Do** mantenere leggibilità e contrasto AA indipendenti dalla decorazione, immagini senza cornice, focus, movimento ridotto e stampa. Rigenerare con `pnpm build:caffe-ttc` e verificare con `pnpm check:caffe-luce`; il percorso dei risultati è configurabile con `CAFFE_REPORT`. Il [rapporto conclusivo](reports/caffe-ttc-review-final/verification.json) e la [sintesi delle 22 versioni](reports/tmp/ttc-review-current/review.md) documentano verifica automatica, conferme visive e paginazione residua.
+- **Don't** modificare manualmente `styles.css`, presentare immagini sintetiche come documenti storici o attribuire proprietà fisiche alle simulazioni CSS.
+- **Don't** estendere il sistema grafico del café al deck o rinominare il percorso tecnico come effetto collaterale.

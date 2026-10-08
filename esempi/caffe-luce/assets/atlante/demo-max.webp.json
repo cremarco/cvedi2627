@@ -1,0 +1,93 @@
+{
+  "prompt": "Use case: precise-object-edit.\nEdit target: the attached 4:3 full-page Caffè Luce website demo. Edit this exact input, not a new website.\nChange ONLY the imagery in FOUR existing image fields: (1) hero image upper right, (2) coffee image in lower-left menu card, (3) croissant image in center menu card, (4) tea image in lower-right menu card. All four fields must visibly change from photographs into the requested stylistic illustrations.\nKeep everything else unchanged: original complete page, 4:3 output, all existing text perfectly sharp and verbatim, identical typography, letter shapes, interface palette, buttons, title positions, navigation, grid, card borders, spacings, footer and ornaments. Do not crop the page or alter image-field positions or dimensions. Leave source typography and pixels outside the four image areas faithfully intact.\nKeep subjects and composition consistent: hero has exactly one espresso cup and saucer in foreground left, one croissant and plate to its upper right, a folded white napkin at lower right and a subtle tabletop/background hint. Menu has one espresso cup with saucer, one croissant, and one tea cup with amber tea. Preserve original positions, quantities and relative scale. No extra food, text, people, logos or advertising inside the images.\nExact existing copy to preserve, including all accents: \"CAFFÈ LUCE\", \"Menu\", \"Il locale\", \"Contatti\", \"Una pausa, ogni giorno.\", \"Caffè, dolci e incontri.\", \"Scopri il menu\", \"Il nostro menu\", \"Caffè\", \"Espresso e cappuccino\", \"Croissant\", \"Ogni mattina\", \"Tè\", \"Una selezione di aromi\", \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\", \"Un luogo per una pausa\". Retain source line breaks, boldness and exact display font of this particular image.\nStyle change ONLY inside those four image fields: energetic MAXIMALIST saturated illustrative collage / layered paper-cut graphics, not ordinary photographs. Reinterpret the espresso cup with saucer, croissant and tea cup as crisp expressive cut-paper food illustrations with rich magenta, orange, lime and deep purple accents, hand-drawn texture, layered cutout edges and rhythmic graphic detail. Keep all food silhouettes unmistakable and preserve original subject positions and quantities. Hero still has one cup with espresso and saucer, one croissant on its plate, one folded white napkin and a tabletop suggestion, now in vivid collage form. Menu images all three must visibly change to the same saturated illustrative treatment. Image-field collage can include graphic rays, stippling and small decorative cut-paper shapes, confined to the image areas. Leave all surrounding already-maximalist interface graphics, typography and card backgrounds unchanged. Never obscure labels and captions.",
+  "createdAt": "2026-10-06T07:54:20.302280+00:00",
+  "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+  "sourceURLs": [
+    "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=198-2715"
+  ],
+  "sourceFigmaFile": "WLdDzbdqP3P5rpYbK1OxYC",
+  "sourceFigmaNode": "198:2715",
+  "bookletFolio": 71,
+  "bookletChapterOrdinal": 51,
+  "bookletSourceRole": "description-and-generated-demo",
+  "caption": "Caffè Luce · massimalismo · variante didattica generata con Imagegen.",
+  "kind": "ai-generated-controlled-didactic-demo",
+  "style": "max",
+  "sourceSha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3",
+  "outputSha256": "c40d60604a873dc4c022c814089f46574fa3bb76d4cba6cf48cf7f0766980d38",
+  "sourceDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "outputDimensions": {
+    "width": 1448,
+    "height": 1086
+  },
+  "conversion": {
+    "format": "WebP",
+    "lossless": true,
+    "resample": "none; exact source dimensions retained",
+    "pixelRoundTripVerified": true,
+    "fullSourceResolutionRetained": true
+  },
+  "version": 2,
+  "updatedAt": "2026-10-06T07:57:42.547460+00:00",
+  "generationTool": "built-in image_gen.imagegen",
+  "sourceGenerated": "/Users/marco/.codex/generated_images/01a10e42-7f58-7512-839c-0acc84b55918/exec-45b10ed7-30ca-4be4-9a71-ff9608c5ba0a.png",
+  "generationManifest": "/tmp/c2-demo-images-v2-modern.json",
+  "generationQA": {
+    "fourImageFieldsChanged": true,
+    "subjectQuantityPreserved": true,
+    "originalCopySharpAndVerbatim": true,
+    "fullPage4x3": true,
+    "uiPaletteTypographyAndGridPreserved": true,
+    "visualInspection": true,
+    "complete": true,
+    "note": "Passed.",
+    "imageFields": {
+      "hero": "Visibly restyled; one espresso cup + one croissant + napkin/table retained",
+      "coffee": "Visibly restyled; one cup and saucer retained",
+      "croissant": "Visibly restyled; one croissant retained",
+      "tea": "Visibly restyled; one tea cup with amber tea retained"
+    },
+    "copyVerified": [
+      "CAFFÈ LUCE",
+      "Menu",
+      "Il locale",
+      "Contatti",
+      "Una pausa, ogni giorno.",
+      "Caffè, dolci e incontri.",
+      "Scopri il menu",
+      "Il nostro menu",
+      "Caffè",
+      "Espresso e cappuccino",
+      "Croissant",
+      "Ogni mattina",
+      "Tè",
+      "Una selezione di aromi",
+      "Ti aspettiamo",
+      "Lun–Sab · 7–19",
+      "In centro, ogni giorno.",
+      "Un luogo per una pausa"
+    ]
+  },
+  "versionHistory": [
+    {
+      "version": 1,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v1.png",
+      "sourceSha256": "36ce517d176c4e1b73937a056160338fb028570f2c2568540ecafcf3cb1266a2",
+      "outputSha256": "ed5f9d859ca69f5cff252bc77a99f4a2154c3b1b40211e6006b84b945e10ec2d",
+      "createdAt": "2026-10-05T23:33:37.201465+00:00",
+      "prompt": "Image 1 is the EDIT TARGET and canonical source. Restyle THIS exact fictional café homepage for a textbook comparison. Keep the entire layout, aspect ratio, photo positions and actual photographed content, section order, all words, punctuation, quantities and menu items identical. Do NOT replace, regenerate or stylize the four photographs. Do NOT add or remove sections, nav links, text, people, products, decorative logos or browser chrome. Output ONE complete sharp high-resolution website screenshot, ideally 1536x1152 or larger. The text must remain crisp and correctly spelled, never blurred, degraded, distorted or illegible.\nExact invariant copy: \"CAFFÈ LUCE\"; nav \"Menu\", \"Il locale\", \"Contatti\"; hero \"Una pausa, ogni giorno.\"; \"Caffè, dolci e incontri.\"; \"Scopri il menu\"; \"Il nostro menu\"; items \"Caffè\" / \"Espresso e cappuccino\", \"Croissant\" / \"Ogni mattina\", \"Tè\" / \"Una selezione di aromi\"; contact \"Ti aspettiamo\", \"Lun–Sab · 7–19\", \"In centro, ogni giorno.\"; footer \"CAFFÈ LUCE\", \"Un luogo per una pausa\". Preserve the SAME site and information; change only its presentation language.\nONLY STYLE CHANGE:\nEXPRESSIVE MAXIMALIST WEB DESIGN. Bold chunky expressive serif headline akin Fraunces Black; vivid magenta, deep purple, bright orange and acid lime framing around the SAME layout; varied but coherent typographic hierarchy, thicker expressive rules and offset decorative graphic accents. Rich patterned or layered details only in the interface margins and panel edges, not inside the photographs or behind unreadable text. Keep the source structure and four pictures in place, preserve every word exactly. Dense, joyful and purposeful, without new slogans, badges, objects or illegible lettering."
+    },
+    {
+      "version": 2,
+      "assetSourceFile": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+      "sourceSha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3",
+      "outputSha256": "c40d60604a873dc4c022c814089f46574fa3bb76d4cba6cf48cf7f0766980d38",
+      "createdAt": "2026-10-06T07:54:20.302280+00:00",
+      "tool": "built-in image_gen.imagegen",
+      "manifestSource": "/tmp/c2-demo-images-v2-modern.json"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "id": "risorse",
+  "title": "Caffè TTC · risorse · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original illustrations of a fictional café",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-842dd409-4445-4a2c-9ddc-f86a76069d11.png",
+  "prompt": "Use case: style-transfer.\nPreserve this entire1024×1536six-square-cell contact sheet and all six scene compositions and objects exactly. Make the print genuinely DUOTONE: ONLY dark forest-green ink on warm off-white paper. Remove ALL ochre, orange, amber, brown, yellow, colored washes and extra color from the whole sheet. In particular, the tall iced orange juice glass in the BOTTOM-LEFT cell must use OFF-WHITE paper for its liquid area and ice, with DARK-GREEN fine contour lines and restrained hatching to distinguish juice from tea. NO orange or beige colored fill in the beverage. The cinnamon roll, croissant and every other food likewise use only off-white and dark-green engraved shading.\nMaintain readable recognizable vessel anatomy, handled tea glass, iced juice tall glass, white espresso/cappuccino cup shapes, whole saucers, croissant and cinnamon roll on the complete tray, café people, interior and blank-sign frontage with two whole outdoor tables. Retain engraved lines and modest ordered halftone texture; simplify overly dense noise into a little sparse hatching if necessary. No full-canvas crop, scale, rearrangement, added items or changing the6cell boundaries. No lettering, logo, text, watermark, gutter, white border or interface elements. Exactly ONE ink color, dark green, plus the paper color off-white.",
+  "initialPrompt": "Use case: illustration-story.\nMANDATORY STYLE: a genuinely TWO-COLOR engraved print illustration, ONLY very dark forest green ink and warm off-white paper. Absolutely no other color, no brown, no orange, no teal wash, no gray gradients, no photographic shading. Draw all tone with SPARSE simple coarse hatching and ordered halftone dots. Low-resolution economical strong silhouettes, deliberately modest detail and generous flat off-white areas, clean engraving lines, charming readable people and café interior. Food must remain distinguishable through shape: white handled espresso and cappuccino cups, croissant and cinnamon roll, handled tea glass and tall iced juice glass. This is a restrained economical printed illustration set, designed to compress well. Avoid fine dense noise, paper texture, heavy all-over linework, glossy light or photographic rendering.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, café walls identified by sparse dark-green hatching, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and simple engraved café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, clear engraved pastry shapes; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by wood identified through dark-green contours, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: six512×512pixelcells. Toprow y0..511, middlerow y512..1023, bottomrow y1024..1535. No drinking straws, grid lines or gutters. Whole pastry tray centered within60percent of cellwidth with clear margins. Bottomright TWO DISTINCT whole outdoor tables, one on EACH side of the entrance, blank sign, pot plant. Dark-green and off-white ONLY.",
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: illustration-story.\nMANDATORY STYLE: a genuinely TWO-COLOR engraved print illustration, ONLY very dark forest green ink and warm off-white paper. Absolutely no other color, no brown, no orange, no teal wash, no gray gradients, no photographic shading. Draw all tone with SPARSE simple coarse hatching and ordered halftone dots. Low-resolution economical strong silhouettes, deliberately modest detail and generous flat off-white areas, clean engraving lines, charming readable people and café interior. Food must remain distinguishable through shape: white handled espresso and cappuccino cups, croissant and cinnamon roll, handled tea glass and tall iced juice glass. This is a restrained economical printed illustration set, designed to compress well. Avoid fine dense noise, paper texture, heavy all-over linework, glossy light or photographic rendering.\nAsset type: six original café illustrations for a website, delivered as ONE PORTRAIT CONTACT SHEET. Strict canvas 1024 by 1536 pixels, aspect ratio 2:3. EXACTLY TWO equal columns and THREE equal rows: SIX independent SQUARE cells of equal size. Every cell fills its own area, meeting at x=50%, y=one-third and y=two-thirds. No gutters, divider lines, grid borders, margins around the sheet, rounded corners or captions.\nContinuity across all six cells: the same imaginary welcoming neighborhood Italian café, café walls identified by sparse dark-green hatching, walnut wood tables and counter, brass pendant lights, light wood chairs, plain white ceramic cups. Contemporary adults in natural ordinary clothes, warm welcoming atmosphere. Consistent architecture and recognizable products across the cells.\nSIX SCENES IN THIS EXACT ORDER:\nTOP LEFT (home): one whole white espresso cup with saucer and one whole golden croissant on a white plate, fully visible on a walnut café table, with soft teal-green wall and simple engraved café people behind. Three-quarter angle, products centered, safe negative space.\nTOP RIGHT (locale): wide interior view of this cozy neighborhood café, teal wall, walnut bar, brass pendant lights and light wood chairs, a friendly barista and a few welcoming patrons. Focus on the coherent café space.\nMIDDLE LEFT (coffee): one small espresso and one larger cappuccino together in plain white ceramic cups with their saucers, cappuccino with natural foam, full cup handles and saucers visible, centered on a quiet café surface.\nMIDDLE RIGHT (pastry): one golden croissant and one cinnamon roll together on a plain serving tray, clear engraved pastry shapes; the whole tray and both pastries fully inside the cell.\nBOTTOM LEFT (tea): two vessels together: one handled clear glass filled with amber tea and one taller clear glass of iced orange juice, whole vessels including handles and bases fully visible, centered on a quiet café surface.\nBOTTOM RIGHT (frontage): the café's entrance and large window framed by wood identified through dark-green contours, a physically blank empty sign above the entrance, one pot plant and exactly two small outdoor tables, inviting neighborhood setting. Keep the complete entrance, blank sign, plant and both tables within the square cell.\nFraming: product groups, the tray, cups, glasses, handles, pastries and other primary subjects entirely inside their own cell with at least 8 percent safe margin. No object or person may cross from one cell to another. Background architecture can fill the cell. All six cells must be complete independent images and remain clear when extracted as square tiles.\nText: absolutely none: no words, letters, numbers, logo, sign lettering, brand, watermark, address, price, menu, typography or UI. The frontage sign must stay a completely empty plain surface. No webpage elements, button shapes, decorative frames or interface graphics.\nExact layout: six512×512pixelcells. Toprow y0..511, middlerow y512..1023, bottomrow y1024..1535. No drinking straws, grid lines or gutters. Whole pastry tray centered within60percent of cellwidth with clear margins. Bottomright TWO DISTINCT whole outdoor tables, one on EACH side of the entrance, blank sign, pot plant. Dark-green and off-white ONLY.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-c5ea31e7-7f9c-432f-a775-eaaa6e5cc959.png",
+      "file": "risorse-source.png",
+      "sha256": "20f8fe86fc86f0a1652e6b746fe44ef95cee51f58805d8a7ed121267b619d10a"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: style-transfer.\nPreserve this entire1024×1536six-square-cell contact sheet and all six scene compositions and objects exactly. Make the print genuinely DUOTONE: ONLY dark forest-green ink on warm off-white paper. Remove ALL ochre, orange, amber, brown, yellow, colored washes and extra color from the whole sheet. In particular, the tall iced orange juice glass in the BOTTOM-LEFT cell must use OFF-WHITE paper for its liquid area and ice, with DARK-GREEN fine contour lines and restrained hatching to distinguish juice from tea. NO orange or beige colored fill in the beverage. The cinnamon roll, croissant and every other food likewise use only off-white and dark-green engraved shading.\nMaintain readable recognizable vessel anatomy, handled tea glass, iced juice tall glass, white espresso/cappuccino cup shapes, whole saucers, croissant and cinnamon roll on the complete tray, café people, interior and blank-sign frontage with two whole outdoor tables. Retain engraved lines and modest ordered halftone texture; simplify overly dense noise into a little sparse hatching if necessary. No full-canvas crop, scale, rearrangement, added items or changing the6cell boundaries. No lettering, logo, text, watermark, gutter, white border or interface elements. Exactly ONE ink color, dark green, plus the paper color off-white.",
+      "inputFile": "risorse-source.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-842dd409-4445-4a2c-9ddc-f86a76069d11.png",
+      "file": "risorse.png",
+      "sha256": "ac8579e0defe2b147b489f9729440484600d3f8c16f9aa3a3acb36e35cd8d7c3"
+    }
+  ],
+  "inputReferences": [
+    "risorse-source.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c as /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-842dd409-4445-4a2c-9ddc-f86a76069d11.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "risorse.png",
+  "sha256": "ac8579e0defe2b147b489f9729440484600d3f8c16f9aa3a3acb36e35cd8d7c3",
+  "bytes": 4146441,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "panelAspectRatio": "1:1",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "tea": [
+      0,
+      1024,
+      512,
+      512
+    ],
+    "frontage": [
+      512,
+      1024,
+      512,
+      512
+    ]
+  },
+  "runtime": {
+    "file": "risorse.webp",
+    "sha256": "90791a77c07fe86b82cc00a55475084da436f909d4cfdcf93a992fcdd0cc0bd7",
+    "bytes": 84790,
+    "dimensions": {
+      "width": 384,
+      "height": 576
+    },
+    "regions": {
+      "hero": [
+        0,
+        0,
+        192,
+        192
+      ],
+      "locale": [
+        192,
+        0,
+        192,
+        192
+      ],
+      "coffee": [
+        0,
+        192,
+        192,
+        192
+      ],
+      "croissant": [
+        192,
+        192,
+        192,
+        192
+      ],
+      "tea": [
+        0,
+        384,
+        192,
+        192
+      ],
+      "frontage": [
+        192,
+        384,
+        192,
+        192
+      ]
+    },
+    "quality": 80,
+    "conversion": "sharp.resize({width:384}).webp({quality:80}), complete canvas, no semantic crop",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "Inspected generated full sheet and local PNG with view_image after every targeted edit",
+    "subjects": "Home espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll; tea and iced orange juice; blank-sign frontage with pot plant and two distinct tables",
+    "primaryObjects": "Recognizable complete primary objects inside their nominal square cells; full handles, saucers, glass bases, pastries and whole tray visible",
+    "typography": "No raster logo, words, address, prices or UI labels; physical frontage sign blank",
+    "continuity": "Teal walls/façade, walnut furniture, brass lighting and white ceramics repeat across scenes",
+    "resourceBudget": "Duotone dark-green/off-white engraving; whole canvas resized and compressed at q80 below100000bytes"
+  }
+}

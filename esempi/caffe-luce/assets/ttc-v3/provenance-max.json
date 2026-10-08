@@ -1,0 +1,151 @@
+{
+  "id": "max",
+  "title": "Caffè TTC · max · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original artwork of a fictional café, created for educational comparison of interface styles",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c/exec-3e89bf66-0a67-490d-8f2b-85a2bd85923e.png",
+  "initialGeneratedOriginal": "/Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c/exec-c22b4317-2eb6-4fc0-9b1e-2d77f814ff31.png",
+  "prompt": "Use case: style-transfer.\nThe attached image is the EDIT TARGET: preserve the same exuberant pink, lime and orange authored graphic collage style and photographed REAL naturally golden food, opaque white coffee ceramics, amber tea and orange juice, muted teal and walnut café architecture.\nChange only these composition corrections:\n1. Make the canvas exactly portrait 1024 x 1536. The sheet MUST have six EXACTLY SQUARE 512 x 512 tiles, TWO columns and THREE equal rows. Tile edges are x=512, y=512 and y=1024, not y=980. NO white gutters, divider lines, borders, labels or UI.\n2. Keep the original six scene subjects and exact order: top-left espresso+croissant; top-right café interior; middle-left espresso+cappuccino; middle-right croissant+cinnamon roll on complete tray; bottom-left amber tea+orange juice; bottom-right frontage. Preserve all subject recognizability and the coloured paper collage design.\n3. Put ALL primary objects, complete cups/saucers, complete pastry serving tray, complete glasses and food, comfortably inside their own square with at least 8% margin. No plate/tray/food/glass cuts at a tile edge and no decoration crossing between tiles.\n4. In the bottom-right frontage, show TWO distinct complete small outdoor café tables, one on either side of the muted teal doorway, with the potted plant and blank empty sign. Use a wider frontal view so doorway, window, plant and both tables are fully visible.\nNo text, logos, marks, letters, numbers, labels, captions or website elements anywhere. Keep photographed real food with natural appetizing colours, not stylized fake food.",
+  "initialPrompt": "Use case: photorealistic-natural.\nAsset type: source artwork contact sheet for a fictional neighbourhood café website, six independent square images, never a website screenshot.\nPrimary request: one portrait bitmap, exactly 1024 x 1536 pixels, arranged as a precise TWO COLUMNS by THREE ROWS grid. Each tile is a 512 x 512 square. Tiles meet edge to edge with NO gutters, borders, dividers, frames, captions, labels or interface elements. Keep every subject completely within its own tile; no object, decoration or person crosses a tile edge.\nThe six scenes belong to the SAME fictional welcoming café: muted teal painted walls, walnut wood bar and tables, warm brass pendant lamps, simple walnut chairs, white solid opaque ceramic cups, honest food and everyday hospitality.\nTile order and content:\nTOP LEFT: close editorial still life of a WHOLE white ceramic espresso cup and saucer beside ONE WHOLE golden croissant on a walnut café table, with cosy teal wall and a hint of the café softly visible behind. Leave margin around complete food, cup and saucer.\nTOP RIGHT: wider view of the same cosy café interior, walnut bar, brass lamps, teal wall, wooden chairs and two or three naturally posed patrons. Clear cafe spatial atmosphere, no writing anywhere.\nMIDDLE LEFT: a WHOLE white opaque ceramic espresso cup and saucer plus a WHOLE larger white opaque ceramic cappuccino cup and saucer, cappuccino with simple latte art. Both cups completely visible.\nMIDDLE RIGHT: a WHOLE golden croissant and a WHOLE cinnamon roll on a simple complete serving tray. The two pastries retain unmistakable real food shape and texture.\nBOTTOM LEFT: a WHOLE clear glass of amber tea and a WHOLE clear glass of fresh orange juice, complete glasses visible with comfortable margin, warm drink tea and vivid orange juice distinct.\nBOTTOM RIGHT: the exterior frontage of the same café, entire doorway and window in muted teal painted wood, a completely BLANK EMPTY sign panel with no characters or symbols, one potted leafy plant and two outdoor bistro tables. Keep the doorway and tables recognisable in the tile.\nComposition: six complete crop-safe scene photographs or illustrations, one subject group per square. Enough distance to prevent plate, cup, pastry or glass being clipped. Maintain the exact 2-by-3 grid.\nText: none. Completely blank sign. No letters, numbers, pseudo-writing, logos, marks, watermarks, menu boards, labels or typography. No UI, controls, cards, screen frames, app chrome, browser chrome or website layout.\n\nStyle/medium: exuberant authored graphic collage with editorial photographed REAL food cutouts, vivid PINK, LIME and ORANGE shapes, dense layered paper-cut compositions and intentional decorative rhythm. Each tile is a richly composed independent editorial collage, bold overlapping shapes inside the tile only; no decoration spans tile boundaries. Use sharply cut realistic golden croissant, cinnamon roll, ceramic coffee and transparent drink photographs that remain unmistakably food, with photographic café interior/frontage fragments and vivid graphic surroundings. Maximum energy without typography or UI. No generic icon food, no abstract pastry blobs.",
+  "inputReferences": [
+    "/Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c/exec-c22b4317-2eb6-4fc0-9b1e-2d77f814ff31.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c as /Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c/exec-3e89bf66-0a67-490d-8f2b-85a2bd85923e.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "max.png",
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      466
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      466
+    ],
+    "tea": [
+      0,
+      982,
+      512,
+      554
+    ],
+    "frontage": [
+      512,
+      982,
+      512,
+      554
+    ]
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "nominalPanelAspectRatio": "1:1",
+    "actualPanelAspectRatio": "Source row heights vary; actual regions recorded without resizing or distortion",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "qa": {
+    "visualInspection": "Inspected generated full sheet and copied local PNG with view_image",
+    "subjects": "Espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll; tea and orange juice; blank-sign frontage with plant and two outdoor tables",
+    "primaryObjects": "Whole recognizable primary food, cups, handles, saucers and drink glasses are inside their own scene; no primary food group crosses between scenes",
+    "typography": "No words, letters, logos, prices, address, captions or user interface labels; frontage sign blank",
+    "continuity": "Teal walls and frontage, walnut furniture, brass lighting and white solid ceramics repeat across scenes",
+    "boundaryPolicy": "Use these recorded actual regions rather than a mathematically assumed 512-pixel grid; no creative processing or source deformation",
+    "knownLimitations": "After targeted ImageGen refinement, two outdoor tables and complete pastry tray are present; the generated middle row remains shorter and bottom row taller, recorded in regions"
+  },
+  "sha256": "135533aeff01a5a53391469bc579172d60bd3a665b272a572d3c17a7c38e63f0",
+  "bytes": 3064939,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "runtime": {
+    "file": "max.webp",
+    "sha256": "3cdd3bacd8d622c9436406353ae7027d7c06861f4a31c5945d146343fec5bca5",
+    "bytes": 523900,
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "regions": {
+      "hero": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "locale": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "coffee": [
+        0,
+        512,
+        512,
+        466
+      ],
+      "croissant": [
+        512,
+        512,
+        512,
+        466
+      ],
+      "tea": [
+        0,
+        982,
+        512,
+        554
+      ],
+      "frontage": [
+        512,
+        982,
+        512,
+        554
+      ]
+    },
+    "conversion": "sharp.webp({quality:90}), complete original canvas, no resizing, rearrangement or semantic crop",
+    "originalRetained": true
+  },
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: source artwork contact sheet for a fictional neighbourhood café website, six independent square images, never a website screenshot.\nPrimary request: one portrait bitmap, exactly 1024 x 1536 pixels, arranged as a precise TWO COLUMNS by THREE ROWS grid. Each tile is a 512 x 512 square. Tiles meet edge to edge with NO gutters, borders, dividers, frames, captions, labels or interface elements. Keep every subject completely within its own tile; no object, decoration or person crosses a tile edge.\nThe six scenes belong to the SAME fictional welcoming café: muted teal painted walls, walnut wood bar and tables, warm brass pendant lamps, simple walnut chairs, white solid opaque ceramic cups, honest food and everyday hospitality.\nTile order and content:\nTOP LEFT: close editorial still life of a WHOLE white ceramic espresso cup and saucer beside ONE WHOLE golden croissant on a walnut café table, with cosy teal wall and a hint of the café softly visible behind. Leave margin around complete food, cup and saucer.\nTOP RIGHT: wider view of the same cosy café interior, walnut bar, brass lamps, teal wall, wooden chairs and two or three naturally posed patrons. Clear cafe spatial atmosphere, no writing anywhere.\nMIDDLE LEFT: a WHOLE white opaque ceramic espresso cup and saucer plus a WHOLE larger white opaque ceramic cappuccino cup and saucer, cappuccino with simple latte art. Both cups completely visible.\nMIDDLE RIGHT: a WHOLE golden croissant and a WHOLE cinnamon roll on a simple complete serving tray. The two pastries retain unmistakable real food shape and texture.\nBOTTOM LEFT: a WHOLE clear glass of amber tea and a WHOLE clear glass of fresh orange juice, complete glasses visible with comfortable margin, warm drink tea and vivid orange juice distinct.\nBOTTOM RIGHT: the exterior frontage of the same café, entire doorway and window in muted teal painted wood, a completely BLANK EMPTY sign panel with no characters or symbols, one potted leafy plant and two outdoor bistro tables. Keep the doorway and tables recognisable in the tile.\nComposition: six complete crop-safe scene photographs or illustrations, one subject group per square. Enough distance to prevent plate, cup, pastry or glass being clipped. Maintain the exact 2-by-3 grid.\nText: none. Completely blank sign. No letters, numbers, pseudo-writing, logos, marks, watermarks, menu boards, labels or typography. No UI, controls, cards, screen frames, app chrome, browser chrome or website layout.\n\nStyle/medium: exuberant authored graphic collage with editorial photographed REAL food cutouts, vivid PINK, LIME and ORANGE shapes, dense layered paper-cut compositions and intentional decorative rhythm. Each tile is a richly composed independent editorial collage, bold overlapping shapes inside the tile only; no decoration spans tile boundaries. Use sharply cut realistic golden croissant, cinnamon roll, ceramic coffee and transparent drink photographs that remain unmistakably food, with photographic café interior/frontage fragments and vivid graphic surroundings. Maximum energy without typography or UI. No generic icon food, no abstract pastry blobs.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c/exec-c22b4317-2eb6-4fc0-9b1e-2d77f814ff31.png",
+      "sha256": "02634e2843825fc4b2e058ecf5fdc3d0faeb2d36647ddb00efff601e981c02fb"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: style-transfer.\nThe attached image is the EDIT TARGET: preserve the same exuberant pink, lime and orange authored graphic collage style and photographed REAL naturally golden food, opaque white coffee ceramics, amber tea and orange juice, muted teal and walnut café architecture.\nChange only these composition corrections:\n1. Make the canvas exactly portrait 1024 x 1536. The sheet MUST have six EXACTLY SQUARE 512 x 512 tiles, TWO columns and THREE equal rows. Tile edges are x=512, y=512 and y=1024, not y=980. NO white gutters, divider lines, borders, labels or UI.\n2. Keep the original six scene subjects and exact order: top-left espresso+croissant; top-right café interior; middle-left espresso+cappuccino; middle-right croissant+cinnamon roll on complete tray; bottom-left amber tea+orange juice; bottom-right frontage. Preserve all subject recognizability and the coloured paper collage design.\n3. Put ALL primary objects, complete cups/saucers, complete pastry serving tray, complete glasses and food, comfortably inside their own square with at least 8% margin. No plate/tray/food/glass cuts at a tile edge and no decoration crossing between tiles.\n4. In the bottom-right frontage, show TWO distinct complete small outdoor café tables, one on either side of the muted teal doorway, with the potted plant and blank empty sign. Use a wider frontal view so doorway, window, plant and both tables are fully visible.\nNo text, logos, marks, letters, numbers, labels, captions or website elements anywhere. Keep photographed real food with natural appetizing colours, not stylized fake food.",
+      "inputReference": "/Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c/exec-c22b4317-2eb6-4fc0-9b1e-2d77f814ff31.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11880-15e7-79d3-a69a-bd1fc69f524c/exec-3e89bf66-0a67-490d-8f2b-85a2bd85923e.png",
+      "sha256": "135533aeff01a5a53391469bc579172d60bd3a665b272a572d3c17a7c38e63f0"
+    }
+  ]
+}

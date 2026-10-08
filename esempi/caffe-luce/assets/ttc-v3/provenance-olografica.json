@@ -1,0 +1,151 @@
+{
+  "id": "olografica",
+  "title": "Caffè TTC · olografica · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original speculative product concept",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-b59f9d8b-c9da-40b0-ae73-e406e0b65382.png",
+  "prompt": "Use case: precise-object-edit.\nPreserve all six photos, exact object positions, projection devices, volumetric food replicas, café people, realistic doorway, blank sign and two outdoor tables in this1024×1536six-cell contact sheet. Make ONLY ONE precise correction: completely REMOVE the thin white divider lines between the cells at x512,y512,y1024. Inpaint each thin white line with the adjacent natural scene content so each photograph fills its own512×512square edge-to-edge, and the six scenes TOUCH directly with absolutely NO white stroke, gutter or border. Maintain EXACT image dimensions and the same2column3row grid boundaries, do not move, crop or resize the photos or their subjects. Keep all existing lighting, textures, white cups, amber beverages and warm walnut café materials unchanged. No lettering, logo, watermark, UI or extra object. Only remove the unwanted thin white cell separators.",
+  "initialPrompt": "Use case: photorealistic-natural.\nAsset type: original speculative product photography for a café website, ONE PORTRAIT contact sheet, exactly1024×1536pixels, TWOcolumns and THREErows of exactly SIX512×512SQUAREcells. Cells touch edge-to-edge at x512,y512,y1024, no gutters, divider lines, frame, captions, letters, words, numbers, logo or UI.\nContinuity: same welcoming neighborhood Italian café across all cells, muted teal-green walls, walnut tables and bar, brass pendant lights, light wood chairs, ordinary patrons in contemporary clothing. The physical café stays realistic and warm, never a neon sci-fi chamber. Calm real cafe materials and moderate luminous cyan/violet projection light.\nSIX INDEPENDENT SCENES IN EXACT ORDER:\nTOPLEFT (home): real walnut café table, an entire compact low cylindrical physical tabletop projector clearly visible, emitting subtle rays upward to one white espresso cup with saucer and one golden croissant as luminous translucent VOLUMETRIC REPLICAS floating directly above it. Whole cup handle, saucer and pastry visible, normal recognizable anatomy. Real café people and soft teal wall behind. Replicas show appetizing real food forms and restrained iridescent edges, not empty wireframes.\nTOPRIGHT (locale): wide credible photographic view of the cozy café interior, teal wall, walnut bar, brass lights, light wood chairs, friendly barista and a few welcoming patrons. Subtle small projector on a table can echo the product idea, but architecture and people remain physical realistic café subjects.\nMIDDLELEFT (coffee): ONE whole compact physical projector base on walnut table, projecting TWO detailed luminous volumetric cup replicas above it: small espresso cup and larger cappuccino cup, both plain white ceramic forms with full handles and complete saucers, believable coffee and milk foam. Visible projection rays, no flat screens.\nMIDDLERIGHT (pastry): ONE whole compact physical projector base on walnut table, projecting ONE croissant and ONE cinnamon roll with a complete small serving tray as luminous volumetric replicas. Normal appetizing pastry silhouettes and lamination, true cinnamon spiral. Entire tray, pastries and device safely inset, never touching the tile edge.\nBOTTOMLEFT (tea): ONE whole physical projector base on walnut table, projecting TWO whole volumetric vessel replicas above it: handled clear glass of amber tea and taller clear glass of iced orange juice. Whole handles, rims and bases visible, normal readable beverage colors. Subtle luminous edges and clear projection source.\nBOTTOMRIGHT (frontage): authentic realistic photograph of this café entrance and large window, teal-painted wood, a completely EMPTY physically blank sign over entrance, one pot plant, TWO DISTINCT whole outdoor tables, one on each side of doorway. Two clearly separate tabletops, complete doorway and blank sign. No futuristic architecture, neon or lettering.\nFraming: every primary group, projector and its floating replicas fits wholly within its own square cell with at least10percent safe margin. Center each food group using no more than70percent of its cell width and height, so the entire projector base and all cup handles/saucers/glassbases/traycorners are visible. No object crosses a cell boundary.\nMedium: polished believable cinematic editorial photographs of speculative volumetric projector concepts in a real café. Skin, timber and food remain naturally textured, projection light moderate and pale, warm natural café ambience. No intense flare, darkness, neon chrome, cyberpunk plastic, screen rectangles, holographic text, labels, wearable visor, phone, tablet, diagram, decorative borders or added captions.",
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: original speculative product photography for a café website, ONE PORTRAIT contact sheet, exactly1024×1536pixels, TWOcolumns and THREErows of exactly SIX512×512SQUAREcells. Cells touch edge-to-edge at x512,y512,y1024, no gutters, divider lines, frame, captions, letters, words, numbers, logo or UI.\nContinuity: same welcoming neighborhood Italian café across all cells, muted teal-green walls, walnut tables and bar, brass pendant lights, light wood chairs, ordinary patrons in contemporary clothing. The physical café stays realistic and warm, never a neon sci-fi chamber. Calm real cafe materials and moderate luminous cyan/violet projection light.\nSIX INDEPENDENT SCENES IN EXACT ORDER:\nTOPLEFT (home): real walnut café table, an entire compact low cylindrical physical tabletop projector clearly visible, emitting subtle rays upward to one white espresso cup with saucer and one golden croissant as luminous translucent VOLUMETRIC REPLICAS floating directly above it. Whole cup handle, saucer and pastry visible, normal recognizable anatomy. Real café people and soft teal wall behind. Replicas show appetizing real food forms and restrained iridescent edges, not empty wireframes.\nTOPRIGHT (locale): wide credible photographic view of the cozy café interior, teal wall, walnut bar, brass lights, light wood chairs, friendly barista and a few welcoming patrons. Subtle small projector on a table can echo the product idea, but architecture and people remain physical realistic café subjects.\nMIDDLELEFT (coffee): ONE whole compact physical projector base on walnut table, projecting TWO detailed luminous volumetric cup replicas above it: small espresso cup and larger cappuccino cup, both plain white ceramic forms with full handles and complete saucers, believable coffee and milk foam. Visible projection rays, no flat screens.\nMIDDLERIGHT (pastry): ONE whole compact physical projector base on walnut table, projecting ONE croissant and ONE cinnamon roll with a complete small serving tray as luminous volumetric replicas. Normal appetizing pastry silhouettes and lamination, true cinnamon spiral. Entire tray, pastries and device safely inset, never touching the tile edge.\nBOTTOMLEFT (tea): ONE whole physical projector base on walnut table, projecting TWO whole volumetric vessel replicas above it: handled clear glass of amber tea and taller clear glass of iced orange juice. Whole handles, rims and bases visible, normal readable beverage colors. Subtle luminous edges and clear projection source.\nBOTTOMRIGHT (frontage): authentic realistic photograph of this café entrance and large window, teal-painted wood, a completely EMPTY physically blank sign over entrance, one pot plant, TWO DISTINCT whole outdoor tables, one on each side of doorway. Two clearly separate tabletops, complete doorway and blank sign. No futuristic architecture, neon or lettering.\nFraming: every primary group, projector and its floating replicas fits wholly within its own square cell with at least10percent safe margin. Center each food group using no more than70percent of its cell width and height, so the entire projector base and all cup handles/saucers/glassbases/traycorners are visible. No object crosses a cell boundary.\nMedium: polished believable cinematic editorial photographs of speculative volumetric projector concepts in a real café. Skin, timber and food remain naturally textured, projection light moderate and pale, warm natural café ambience. No intense flare, darkness, neon chrome, cyberpunk plastic, screen rectangles, holographic text, labels, wearable visor, phone, tablet, diagram, decorative borders or added captions.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-6312ec17-1ba2-4d47-8294-816418209dcc.png",
+      "file": "olografica-source.png",
+      "sha256": "2248c60bb738e0f61a45bf11f60e887d18f8589a1ba69e4f9781ccac637853ad"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: precise-object-edit.\nPreserve all six photos, exact object positions, projection devices, volumetric food replicas, café people, realistic doorway, blank sign and two outdoor tables in this1024×1536six-cell contact sheet. Make ONLY ONE precise correction: completely REMOVE the thin white divider lines between the cells at x512,y512,y1024. Inpaint each thin white line with the adjacent natural scene content so each photograph fills its own512×512square edge-to-edge, and the six scenes TOUCH directly with absolutely NO white stroke, gutter or border. Maintain EXACT image dimensions and the same2column3row grid boundaries, do not move, crop or resize the photos or their subjects. Keep all existing lighting, textures, white cups, amber beverages and warm walnut café materials unchanged. No lettering, logo, watermark, UI or extra object. Only remove the unwanted thin white cell separators.",
+      "inputFile": "olografica-source.png",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-b59f9d8b-c9da-40b0-ae73-e406e0b65382.png",
+      "file": "olografica.png",
+      "sha256": "73b3152a07c82a4abead72d46015cad9e049c47b67d542077808f365830c51b1"
+    }
+  ],
+  "inputReferences": [
+    "olografica-source.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c as /Users/marco/.codex/generated_images/01a11872-a391-7491-b750-409ec665514c/exec-b59f9d8b-c9da-40b0-ae73-e406e0b65382.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "olografica.png",
+  "sha256": "73b3152a07c82a4abead72d46015cad9e049c47b67d542077808f365830c51b1",
+  "bytes": 2290283,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "panelAspectRatio": "1:1",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "tea": [
+      0,
+      1024,
+      512,
+      512
+    ],
+    "frontage": [
+      512,
+      1024,
+      512,
+      512
+    ]
+  },
+  "runtime": {
+    "file": "olografica.webp",
+    "sha256": "4e00d75775f7cf0904af7aba5f44963185fc5738c27ef40779e41f7f820794d2",
+    "bytes": 277532,
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "regions": {
+      "hero": [
+        0,
+        0,
+        512,
+        512
+      ],
+      "locale": [
+        512,
+        0,
+        512,
+        512
+      ],
+      "coffee": [
+        0,
+        512,
+        512,
+        512
+      ],
+      "croissant": [
+        512,
+        512,
+        512,
+        512
+      ],
+      "tea": [
+        0,
+        1024,
+        512,
+        512
+      ],
+      "frontage": [
+        512,
+        1024,
+        512,
+        512
+      ]
+    },
+    "quality": 90,
+    "conversion": "sharp.webp({quality:90}), complete original canvas, no resizing or semantic crop",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "Inspected generated full sheet and local PNG with view_image after every targeted edit",
+    "subjects": "Home espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll; tea and iced orange juice; blank-sign frontage with pot plant and two distinct tables",
+    "primaryObjects": "Recognizable complete primary objects inside their nominal square cells; full handles, saucers, glass bases, pastries and whole tray visible",
+    "typography": "No raster logo, words, address, prices or UI labels; physical frontage sign blank",
+    "continuity": "Teal walls/façade, walnut furniture, brass lighting and white ceramics repeat across scenes",
+    "projection": "Luminous volumetric food/vessel replicas visibly emitted from physical tabletop projectors; frontage physical realistic"
+  }
+}

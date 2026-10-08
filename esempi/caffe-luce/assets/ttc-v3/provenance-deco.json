@@ -1,0 +1,115 @@
+{
+  "id": "deco",
+  "title": "Caffè TTC · deco · six original scenes",
+  "createdDate": "2026-10-08",
+  "synthetic": true,
+  "status": "Original scenes of a fictional café, created for educational comparison of interface styles",
+  "generationTool": "image_gen.imagegen (built-in)",
+  "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-1fcdd962-a914-4a01-bf58-0c7568062442.png",
+  "prompt": "Use case: style-transfer. Edit the supplied six-cell café contact sheet. KEEP exact two columns and three rows, all six scenes, objects, whole foods and tray, teal café identity, walnut counter/tables, brass lamps, plain ivory cups, amber tea and orange juice, blank façade sign, one plant and exactly two outdoor tables. Change ONLY the rendering medium: REDRAW ALL SIX PANELS as elegant 1930s Art Déco LITHOGRAPHIC POSTER ILLUSTRATIONS, not photorealism or painterly photo filters. Strong simplified opaque ivory/black/brass/deep-teal printed shapes, stepped architectural geometry, deliberately drawn stylized people, flattened perspective, crisp graphic contours, no photographic depth-of-field or realistic texture. Natural food identity remains clear but rendered in deliberate stylized lithographic SHAPES: croissant pastry is a small number of golden curved segments, cinnamon roll is a clear printed spiral, coffee and ceramics use spare drawn tonal planes. Limit modelling to two or three tonal planes per object. Fine authentic ink print texture may occur inside large shapes, never as heavy overlay. Think sophisticated printed period illustration, not a photograph, cinematic render, 3D artwork, oil painting, sepia filter, Y2K chrome or Art Nouveau ornament. Maintain framing and complete primary objects with generous safe margins inside each tile. Exact1024×1536 portrait with six touching512×512 cells, no gutters. Absolutely no words, logos, labels, numbers, decorative frames or border ornament. Frontage sign stays completely blank.",
+  "initialPrompt": "Use case: illustration-story. Mandatory medium: sophisticated 1930s ART DÉCO LITHOGRAPHIC-STYLE ILLUSTRATION in all six cells. Architectural geometry, elegant stepped forms, poised stylized people, deliberate flat-and-tonal printed shape modeling with a refined restrained ivory/black/brass palette plus deep muted teal architecture. Stylize natural food without changing what it is: golden butter croissant, cinnamon roll, brown espresso, pale cappuccino, amber tea, bright natural orange juice; white/ivory plain ceramics. Fine lithographic tonal texture may belong to the illustrated scene, not an overlay or outer sheet decoration. Symmetrical calm architectural accents and graceful proportions, not Art Nouveau vines, chrome Y2K, neon, holography, generic watercolor or photographic collage. No posters, lettering, logos, ornamental frames or ornamental borders.\nAsset type: six original café website scenes delivered as ONE PORTRAIT CONTACT SHEET. Canvas exactly 1024 by 1536 pixels, portrait 2:3. EXACTLY TWO equal columns and THREE equal rows: six touching independent SQUARE cells, each 512 by 512 pixels. Cell boundaries x=512, y=512 and y=1024. No gutters, divider lines, frames, captions, outer margins, rounded corners or borders. Fill the entire canvas edge to edge.\nContinuity: the SAME imaginary welcoming Italian neighborhood café in all six scenes: deep muted teal-green painted walls and door/window frames, walnut tables and wood counter, brass pendant lamps, light wood chairs, plain white ceramic cups. Ordinary contemporary adults and a friendly barista where requested. Warm approachable café, not an empty futuristic showroom.\nEXACT SIX SCENES AND ORDER:\nTOP LEFT / hero: one complete white espresso cup on its saucer and one whole golden croissant on a white plate on a walnut table. Three-quarter view. Cozy teal-walled café behind, a few natural patrons in the background. Whole food, handles, saucer and plate comfortably inside this square.\nTOP RIGHT / locale: wider view of the same café interior, teal walls, walnut bar counter, brass lamps, light wood chairs, a friendly barista and a few patrons. Show the architecture and welcoming inhabited space.\nMIDDLE LEFT / coffee: one small espresso and one larger cappuccino side by side, plain white ceramic cups with full saucers and handles, cappuccino with natural foam. Both complete, on a quiet café surface.\nMIDDLE RIGHT / croissant: one whole golden croissant and one whole cinnamon roll together on a plain serving tray. THE ENTIRE TRAY must be inside the square cell. Keep both pastries whole and recognizable.\nBOTTOM LEFT / tea: one handled clear glass vessel of amber tea and one taller clear glass of orange juice together. Complete handles, rims and bases visible, both centered; no drinking straws.\nBOTTOM RIGHT / frontage: complete entrance and large window of the café, teal-painted wood framing, one physically BLANK empty sign above the doorway, one pot plant and EXACTLY TWO small outdoor café tables. Both complete tables, door, blank sign and plant fit inside this square.\nFraming: leave at least 8 percent safe background margin around every primary food group, cup, glass, tray and façade composition. Primary subjects cannot touch a cell boundary or cross between cells. Every tile must be usable alone as a complete square scene. Architecture may fill the background.\nText: ABSOLUTELY NONE. No words, letters, numbers, logo, brand, typography, watermark, address, price, menu labels, interface controls or diagrams. The physical frontage sign is completely empty. No picture frames, decorative borders, webpage composition or UI. Do not crop any cup, handle, plate, pastry, glass base, serving tray, doorway or outdoor table.",
+  "generationSteps": [
+    {
+      "mode": "generate",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: illustration-story. Mandatory medium: sophisticated 1930s ART DÉCO LITHOGRAPHIC-STYLE ILLUSTRATION in all six cells. Architectural geometry, elegant stepped forms, poised stylized people, deliberate flat-and-tonal printed shape modeling with a refined restrained ivory/black/brass palette plus deep muted teal architecture. Stylize natural food without changing what it is: golden butter croissant, cinnamon roll, brown espresso, pale cappuccino, amber tea, bright natural orange juice; white/ivory plain ceramics. Fine lithographic tonal texture may belong to the illustrated scene, not an overlay or outer sheet decoration. Symmetrical calm architectural accents and graceful proportions, not Art Nouveau vines, chrome Y2K, neon, holography, generic watercolor or photographic collage. No posters, lettering, logos, ornamental frames or ornamental borders.\nAsset type: six original café website scenes delivered as ONE PORTRAIT CONTACT SHEET. Canvas exactly 1024 by 1536 pixels, portrait 2:3. EXACTLY TWO equal columns and THREE equal rows: six touching independent SQUARE cells, each 512 by 512 pixels. Cell boundaries x=512, y=512 and y=1024. No gutters, divider lines, frames, captions, outer margins, rounded corners or borders. Fill the entire canvas edge to edge.\nContinuity: the SAME imaginary welcoming Italian neighborhood café in all six scenes: deep muted teal-green painted walls and door/window frames, walnut tables and wood counter, brass pendant lamps, light wood chairs, plain white ceramic cups. Ordinary contemporary adults and a friendly barista where requested. Warm approachable café, not an empty futuristic showroom.\nEXACT SIX SCENES AND ORDER:\nTOP LEFT / hero: one complete white espresso cup on its saucer and one whole golden croissant on a white plate on a walnut table. Three-quarter view. Cozy teal-walled café behind, a few natural patrons in the background. Whole food, handles, saucer and plate comfortably inside this square.\nTOP RIGHT / locale: wider view of the same café interior, teal walls, walnut bar counter, brass lamps, light wood chairs, a friendly barista and a few patrons. Show the architecture and welcoming inhabited space.\nMIDDLE LEFT / coffee: one small espresso and one larger cappuccino side by side, plain white ceramic cups with full saucers and handles, cappuccino with natural foam. Both complete, on a quiet café surface.\nMIDDLE RIGHT / croissant: one whole golden croissant and one whole cinnamon roll together on a plain serving tray. THE ENTIRE TRAY must be inside the square cell. Keep both pastries whole and recognizable.\nBOTTOM LEFT / tea: one handled clear glass vessel of amber tea and one taller clear glass of orange juice together. Complete handles, rims and bases visible, both centered; no drinking straws.\nBOTTOM RIGHT / frontage: complete entrance and large window of the café, teal-painted wood framing, one physically BLANK empty sign above the doorway, one pot plant and EXACTLY TWO small outdoor café tables. Both complete tables, door, blank sign and plant fit inside this square.\nFraming: leave at least 8 percent safe background margin around every primary food group, cup, glass, tray and façade composition. Primary subjects cannot touch a cell boundary or cross between cells. Every tile must be usable alone as a complete square scene. Architecture may fill the background.\nText: ABSOLUTELY NONE. No words, letters, numbers, logo, brand, typography, watermark, address, price, menu labels, interface controls or diagrams. The physical frontage sign is completely empty. No picture frames, decorative borders, webpage composition or UI. Do not crop any cup, handle, plate, pastry, glass base, serving tray, doorway or outdoor table.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-eb66b5be-5e74-466c-a380-e20abb51afb0.png",
+      "file": "deco-source.png",
+      "sha256": "1ce20c9f2872c604aa8de669a1ff8e86b547dcede69895c94563fdfaf7a7d466"
+    },
+    {
+      "mode": "edit",
+      "tool": "image_gen.imagegen (built-in)",
+      "prompt": "Use case: style-transfer. Edit the supplied six-cell café contact sheet. KEEP exact two columns and three rows, all six scenes, objects, whole foods and tray, teal café identity, walnut counter/tables, brass lamps, plain ivory cups, amber tea and orange juice, blank façade sign, one plant and exactly two outdoor tables. Change ONLY the rendering medium: REDRAW ALL SIX PANELS as elegant 1930s Art Déco LITHOGRAPHIC POSTER ILLUSTRATIONS, not photorealism or painterly photo filters. Strong simplified opaque ivory/black/brass/deep-teal printed shapes, stepped architectural geometry, deliberately drawn stylized people, flattened perspective, crisp graphic contours, no photographic depth-of-field or realistic texture. Natural food identity remains clear but rendered in deliberate stylized lithographic SHAPES: croissant pastry is a small number of golden curved segments, cinnamon roll is a clear printed spiral, coffee and ceramics use spare drawn tonal planes. Limit modelling to two or three tonal planes per object. Fine authentic ink print texture may occur inside large shapes, never as heavy overlay. Think sophisticated printed period illustration, not a photograph, cinematic render, 3D artwork, oil painting, sepia filter, Y2K chrome or Art Nouveau ornament. Maintain framing and complete primary objects with generous safe margins inside each tile. Exact1024×1536 portrait with six touching512×512 cells, no gutters. Absolutely no words, logos, labels, numbers, decorative frames or border ornament. Frontage sign stays completely blank.",
+      "generatedOriginal": "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-1fcdd962-a914-4a01-bf58-0c7568062442.png",
+      "file": "deco.png",
+      "sha256": "0b035fd4a712e31c8549f7cef921ee6521bb4096b1c5990c7be9cc61bb759ed7",
+      "inputReferences": [
+        "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-eb66b5be-5e74-466c-a380-e20abb51afb0.png"
+      ]
+    }
+  ],
+  "inputReferences": [
+    "/Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-eb66b5be-5e74-466c-a380-e20abb51afb0.png"
+  ],
+  "transparentBackground": false,
+  "toolOutputHint": "Generated images are saved to /Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de as /Users/marco/.codex/generated_images/01a11872-6912-7533-8c6a-8fff5da1e0de/exec-1fcdd962-a914-4a01-bf58-0c7568062442.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link.",
+  "file": "deco.png",
+  "sha256": "0b035fd4a712e31c8549f7cef921ee6521bb4096b1c5990c7be9cc61bb759ed7",
+  "bytes": 2730600,
+  "dimensions": {
+    "width": 1024,
+    "height": 1536
+  },
+  "layout": {
+    "columns": 2,
+    "rows": 3,
+    "panelAspectRatio": "1:1",
+    "order": [
+      "hero",
+      "locale",
+      "coffee",
+      "croissant",
+      "tea",
+      "frontage"
+    ]
+  },
+  "regions": {
+    "hero": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "locale": [
+      512,
+      0,
+      512,
+      512
+    ],
+    "coffee": [
+      0,
+      512,
+      512,
+      512
+    ],
+    "croissant": [
+      512,
+      512,
+      512,
+      512
+    ],
+    "tea": [
+      0,
+      1024,
+      512,
+      512
+    ],
+    "frontage": [
+      512,
+      1024,
+      512,
+      512
+    ]
+  },
+  "runtime": {
+    "file": "deco.webp",
+    "sha256": "0df7e822e0d521fc007324e6705cbc5be0ae5b54ec0d89fce45095bc1c5c9674",
+    "bytes": 420458,
+    "dimensions": {
+      "width": 1024,
+      "height": 1536
+    },
+    "conversion": "sharp.webp({quality:90}), complete original canvas, no resizing or semantic crop",
+    "originalRetained": true
+  },
+  "qa": {
+    "visualInspection": "Generated original/final full sheets inspected; pastry-panel extracts checked locally with view_image. Pixel/deco medium corrected once; brutal/bento complete tray framing corrected once.",
+    "subjects": "Hero espresso and croissant; café interior; espresso and cappuccino; croissant and cinnamon roll on complete tray; amber tea and orange juice; blank-sign frontage with plant and two outdoor tables",
+    "primaryObjects": "All food groups, cup handles, saucers, glasses, bases and entire pastry tray fit their selected panel; no primary product crosses a crop boundary",
+    "typography": "No words, logos, address, prices or UI in the raster; façade sign blank",
+    "continuity": "Deep teal walls/door, walnut furniture, brass lighting, white ceramics and recognizable natural foods repeat",
+    "regions": "Nominal cell boundaries x=512, y=512/y=1024 match the generated sheet. A one-pixel transitional edge is background only.",
+    "style": "Stylized Art Déco printed illustration across food, people and architecture."
+  }
+}
