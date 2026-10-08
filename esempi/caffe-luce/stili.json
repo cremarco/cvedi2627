@@ -309,11 +309,15 @@
       "years": "2025–2026",
       "group": "atlante",
       "summary": "Il contenuto dietro il vetro rimane presente e cambia la superficie.",
-      "detail": "Interpretazione web di Liquid Glass introdotto da Apple nel 2025: controlli su un piano di vetro distinto dai contenuti.",
+      "detail": "Interpretazione web di Liquid Glass introdotto da Apple nel 2025: controlli su un piano di vetro distinto dai contenuti, con rifrazione dello sfondo ottenuta dalla libreria locale ccl125/liquid-glass.",
       "sources": [
         {
           "label": "Apple · Liquid Glass",
           "url": "https://developer.apple.com/documentation/technologyoverviews/liquid-glass"
+        },
+        {
+          "label": "ccl125 · libreria liquid-glass (MIT)",
+          "url": "https://github.com/ccl125/liquid-glass/tree/8bfc4a3f457ed33c32c26e2c2ccf3db5cf932978"
         }
       ],
       "imageId": "glass",

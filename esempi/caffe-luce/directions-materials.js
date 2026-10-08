@@ -38,6 +38,74 @@
     own.splice(0).forEach(function (element) { element.remove(); });
   }
 
+  function liquidOptics(style) {
+    const lens = window.CAFFE_LIQUID_GLASS;
+    if (style.id !== 'liquid' || !lens) return;
+    teardown.push(lens.injectLiquidGlassFilter({ scales: [-58, -56, -54], saturate: 1.08 }));
+
+    // A native select keeps its semantics; its separate glass shell owns optics.
+    const select = cafe.querySelector('#style-select');
+    const shell = document.createElement('div');
+    shell.className = 'liquid-select-lens';
+    select.before(shell);
+    shell.appendChild(select);
+    teardown.push(function () { shell.replaceWith(select); });
+
+    const hero = cafe.querySelector('.cafe-hero,.page-intro');
+    const mirrors = [];
+    const surfaces = cafe.querySelectorAll('.cafe-nav,.liquid-select-lens,.cafe-cta,.menu-filter');
+    surfaces.forEach(function (surface) {
+      surface.classList.add('liquid-glass');
+      teardown.push(function () { surface.classList.remove('liquid-glass', 'liquid-mirrored'); });
+      Array.from(surface.childNodes).filter(function (node) {
+        return node.nodeType === Node.TEXT_NODE && node.textContent.trim();
+      }).forEach(function (text) {
+        const label = document.createElement('span');
+        label.className = 'liquid-glass-label';
+        text.before(label);
+        label.appendChild(text);
+        teardown.push(function () { label.replaceWith(text); });
+      });
+      if (!surface.closest('.cafe-header,.cafe-hero')) return;
+      surface.classList.add('liquid-mirrored');
+      const scene = document.createElement('span');
+      scene.className = 'liquid-glass-scene';
+      scene.setAttribute('aria-hidden', 'true');
+      surface.prepend(scene);
+      mirrors.push({ surface, scene });
+      own.push(scene);
+    });
+
+    let frame = 0;
+    function sync() {
+      frame = 0;
+      const background = hero.getBoundingClientRect();
+      const scale = Math.max(background.width / 1672, background.height / 941);
+      const width = 1672 * scale, height = 941 * scale;
+      const photoX = background.left + (background.width - width) / 2;
+      const photoY = background.top + (background.height - height) / 2;
+      mirrors.forEach(function ({ surface, scene }) {
+        const box = surface.getBoundingClientRect();
+        // Sample a 24px buffer around the lens, keeping the filtered area small.
+        scene.style.backgroundSize = 'auto,' + width + 'px ' + height + 'px';
+        scene.style.backgroundPosition = '0 0,' + (photoX - box.left + 24) + 'px ' + (photoY - box.top + 24) + 'px';
+      });
+    }
+    function schedule() {
+      if (!frame) frame = requestAnimationFrame(sync);
+    }
+    const observer = new ResizeObserver(schedule);
+    observer.observe(hero);
+    mirrors.forEach(function ({ surface }) { observer.observe(surface); });
+    window.addEventListener('resize', schedule, { passive: true });
+    sync();
+    teardown.push(function () {
+      observer.disconnect();
+      window.removeEventListener('resize', schedule);
+      cancelAnimationFrame(frame);
+    });
+  }
+
   // Light follows deliberate pointer movement on the small control plane only.
   function liquidLight(style) {
     const reduceEffects = window.matchMedia('(prefers-reduced-motion: reduce), (prefers-reduced-transparency: reduce), (prefers-contrast: more), (forced-colors: active)');
@@ -128,6 +196,7 @@
         link.appendChild(icon('arrow', 'materials-action-icon'));
       });
       floatingAction(style);
+      liquidOptics(style);
       liquidLight(style);
     },
   };

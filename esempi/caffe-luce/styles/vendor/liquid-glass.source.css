@@ -1,0 +1,61 @@
+/*!
+MIT License
+
+Copyright (c) 2026 ccl125
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+*/
+
+/**
+ * liquid-glass.css
+ *
+ * Base styles for the liquid glass effect. The fallback is a frosted-glass
+ * blur; browsers that support SVG filter references in backdrop-filter
+ * (Chromium) are upgraded to a pure refraction lens — no blur, crisper.
+ *
+ * The class is intentionally minimal: no border-radius, no layout rules.
+ * Override `background`, `box-shadow`, etc. in your own stylesheet.
+ */
+
+.liquid-glass {
+  /* Semi-transparent white tint. Override to taste (e.g. rgba(0,0,0,0.2)
+     on dark themes). Keep it translucent or the backdrop won't show. */
+  background: rgba(255, 255, 255, 0.15);
+
+  /* Fallback: frosted glass (Safari, Firefox). */
+  backdrop-filter: blur(12px) saturate(1.5);
+  -webkit-backdrop-filter: blur(12px) saturate(1.5);
+
+  /* Inset white highlights fake the reflection on a curved glass edge;
+     the soft outer drop shadow gives a floating feel. */
+  box-shadow:
+    inset 0 1px 1px rgba(255, 255, 255, 0.6),
+    inset 0 -1px 1px rgba(255, 255, 255, 0.25),
+    0 2px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Chromium only: replace the blur with the refraction lens filter.
+   The saturate boost is baked into the SVG filter itself (see core.js). */
+@supports (backdrop-filter: url("#liquid-glass")) {
+  .liquid-glass {
+    backdrop-filter: url("#liquid-glass");
+    /* Safari never enters this block; keep the prefixed fallback for it. */
+    -webkit-backdrop-filter: blur(12px) saturate(1.5);
+  }
+}

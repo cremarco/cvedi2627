@@ -36,15 +36,16 @@
 /* Liquid Glass: independent floating tools, quiet content, no glass inside glass.
  * Web interpretation of Apple WWDC25/219; sources in reports/liquid-glass/research.md. */
 @import "./common/materials-layout.source.css";
+@import "./vendor/liquid-glass.source.css";
 
 :root[data-style="liquid"], .cafe[data-style="liquid"] {
  --cafe-paper: #f6f7f5; --cafe-surface: #fff; --cafe-ink: #162e28;
  --cafe-muted: #435d53; --cafe-primary: #246345; --cafe-on-primary: #fff; --cafe-rule: #8fa99d;
  --cafe-display: 'Inter',sans-serif; --cafe-font: 'Inter',sans-serif;
  --cafe-weight: 600; --cafe-title-size: 76px; --cafe-radius: 28px;
- --liquid-glass: rgb(248 252 249 / .68); --liquid-action: rgb(220 242 222 / .9);
+ --liquid-glass: rgb(255 255 255 / .14); --liquid-action: rgb(220 242 222 / .28);
  --liquid-rim: inset 0 1.5px 1px rgb(255 255 255 / .95),inset 1px 0 1px rgb(255 255 255 / .65),inset 0 -1.5px 2px rgb(22 46 40 / .22),0 8px 24px rgb(9 32 25 / .14);
- --liquid-sheen: radial-gradient(ellipse at var(--liquid-light-x,25%) var(--liquid-light-y,0%),rgb(255 255 255 / .4),transparent 65%);
+ --liquid-sheen: radial-gradient(ellipse at var(--liquid-light-x,25%) var(--liquid-light-y,0%),rgb(255 255 255 / .12),transparent 65%);
 }
 
 @media screen {
@@ -66,7 +67,6 @@
    position: relative; border: 0; border-radius: 999px;
    background-color: var(--liquid-glass); background-image: var(--liquid-sheen);
    color: var(--cafe-ink); box-shadow: var(--liquid-rim);
-   -webkit-backdrop-filter: blur(12px) saturate(135%); backdrop-filter: blur(12px) saturate(135%);
   }
   .cafe-nav { padding: 6px; gap: 2px; align-self: center; }
   .cafe-nav a { min-height: 46px; padding: 0 16px; gap: 8px; border-radius: 999px; font-size: 14px; font-weight: 600; text-decoration: none; transition: background-color 180ms ease-out; }
@@ -267,5 +267,66 @@
   .contact-message { display: block; padding: 24px; }
   .cafe-footer { padding: 16px 24px; min-height: 0; }
   :is(.cafe-nav,.style-control .select,.cafe-cta.btn,.menu-filter.btn) { -webkit-backdrop-filter: none; backdrop-filter: none; }
+ }
+}
+
+/* The vendored SVG lens filters a correctly aligned photograph in all engines.
+ * CSS-only backdrop refraction is retained over the lighter content in Chromium. */
+@media screen {
+ .cafe[data-style="liquid"][data-content="ttc"][data-page] {
+  .liquid-glass { background-image: var(--liquid-sheen); }
+  .liquid-mirrored { overflow: hidden; isolation: isolate; backdrop-filter: none; -webkit-backdrop-filter: none; }
+  .liquid-mirrored::before {
+   content: ''; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+   border-radius: inherit; background: inherit; box-shadow: var(--liquid-rim);
+  }
+  .liquid-mirrored > :not(.liquid-glass-scene), .liquid-glass-label { position: relative; z-index: 2; }
+  .liquid-glass-scene {
+   position: absolute; inset: -24px; z-index: 0; pointer-events: none;
+   background-image: linear-gradient(rgb(7 30 25 / .72),rgb(7 30 25 / .72)),url('../assets/redesign/materials/cafe-background.webp');
+   background-repeat: no-repeat; filter: url('#liquid-glass');
+  }
+  .cafe-nav { color: var(--cafe-on-primary); background-color: rgb(255 255 255 / .14); }
+  .cafe-nav a[aria-current="page"] { color: var(--cafe-on-primary); background: rgb(7 30 25 / .35); }
+  .cafe-nav a:hover { background: rgb(255 255 255 / .06); }
+  .cafe-nav a:focus-visible { outline-color: var(--cafe-on-primary); }
+  .liquid-select-lens {
+   position: relative; border-radius: 999px; background-color: rgb(255 255 255 / .14);
+   box-shadow: var(--liquid-rim); color: var(--cafe-on-primary);
+  }
+  .liquid-select-lens:focus-within { outline: 3px solid var(--cafe-on-primary); outline-offset: 5px; }
+  .style-control .liquid-select-lens .select {
+   --select-fill: linear-gradient(transparent,transparent); --select-ink: var(--cafe-on-primary);
+   position: relative; color: var(--cafe-on-primary); background-color: transparent; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none;
+  }
+  .style-control .liquid-select-lens .select:focus-visible { outline: none; }
+  .cafe-hero .cafe-cta.btn { color: var(--cafe-on-primary); background-color: rgb(255 255 255 / .14); }
+  .cafe-hero .cafe-cta.btn:hover { background-color: rgb(255 255 255 / .22); }
+  .menu-filter.btn { background-color: rgb(255 255 255 / .55); }
+  .menu-filter[aria-pressed="true"] { background-color: var(--cafe-primary); }
+ }
+}
+@media (prefers-reduced-transparency: reduce), (prefers-contrast: more), (forced-colors: active) {
+ .cafe[data-style="liquid"][data-content="ttc"][data-page] {
+  .liquid-glass-scene,.liquid-mirrored::before { display: none; }
+  .liquid-glass, .liquid-select-lens { backdrop-filter: none; -webkit-backdrop-filter: none; background-image: none; }
+  .cafe-nav, .liquid-select-lens, .cafe-hero .cafe-cta.btn, .cafe-hero .cafe-cta.btn:is(:hover,:active) { color: var(--cafe-ink); background-color: var(--cafe-surface); }
+  .cafe-nav a[aria-current="page"] { color: var(--cafe-primary); background: #e8eee6; }
+  .cafe-nav a:focus-visible { outline-color: var(--cafe-primary); }
+  .style-control .liquid-select-lens .select { --select-ink: var(--cafe-ink); color: var(--cafe-ink); }
+  .liquid-select-lens { border: 1px solid var(--cafe-rule); }
+ }
+}
+@media (forced-colors: active) {
+ .cafe[data-style="liquid"][data-content="ttc"][data-page] {
+  .liquid-select-lens { border: 1px solid ButtonText; background: ButtonFace; color: ButtonText; box-shadow: none; }
+  .cafe-nav a[aria-current="page"] { color: Highlight; background: Canvas; }
+  .cafe-nav a:focus-visible,.liquid-select-lens:focus-within { outline-color: Highlight; }
+ }
+}
+@media print {
+ .cafe[data-style="liquid"][data-content="ttc"][data-page] {
+  .liquid-glass-scene,.liquid-mirrored::before { display: none; }
+  .liquid-glass { backdrop-filter: none; -webkit-backdrop-filter: none; }
  }
 }

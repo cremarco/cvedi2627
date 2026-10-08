@@ -1,0 +1,50 @@
+{
+  "name": "liquid-glass",
+  "version": "0.1.0",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2026 ccl125",
+  "repository": "https://github.com/ccl125/liquid-glass",
+  "commit": "8bfc4a3f457ed33c32c26e2c2ccf3db5cf932978",
+  "retrievedOn": "2026-10-08",
+  "licenseFile": "assets/licenses/liquid-glass-MIT.txt",
+  "files": [
+    {
+      "upstreamPath": "src/liquid-glass.css",
+      "localPath": "styles/vendor/liquid-glass.source.css",
+      "source": "https://raw.githubusercontent.com/ccl125/liquid-glass/8bfc4a3f457ed33c32c26e2c2ccf3db5cf932978/src/liquid-glass.css",
+      "upstreamSha256": "ae02f1eb46822e0dfe909e1e0a5f515ad55ec9e6e3f5e224310808752dcdbb79",
+      "localSha256": "e629988f35c1a9c6ddf0d2f09eb3e8bba1751c88bcf7eb77a6460f378de3b3a7",
+      "upstreamBytes": 1428,
+      "localBytes": 2499,
+      "modification": "Full MIT license comment prepended; upstream CSS body unchanged."
+    },
+    {
+      "upstreamPath": "src/core.js",
+      "localPath": "vendor/liquid-glass/core.js",
+      "source": "https://raw.githubusercontent.com/ccl125/liquid-glass/8bfc4a3f457ed33c32c26e2c2ccf3db5cf932978/src/core.js",
+      "upstreamSha256": "a2d5acf911d3e240da60bd7743010ef5f91997f09701320b15d24a84ee1c58c6",
+      "localSha256": "a2d5acf911d3e240da60bd7743010ef5f91997f09701320b15d24a84ee1c58c6",
+      "upstreamBytes": 4600,
+      "localBytes": 4600
+    },
+    {
+      "upstreamPath": "src/map.js",
+      "localPath": "vendor/liquid-glass/map.js",
+      "source": "https://raw.githubusercontent.com/ccl125/liquid-glass/8bfc4a3f457ed33c32c26e2c2ccf3db5cf932978/src/map.js",
+      "upstreamSha256": "29d7c2a75e00b773d9f479cbef68e8081d287cda4ac01ffe17366b1321f737f9",
+      "localSha256": "29d7c2a75e00b773d9f479cbef68e8081d287cda4ac01ffe17366b1321f737f9",
+      "upstreamBytes": 5040,
+      "localBytes": 5040
+    },
+    {
+      "upstreamPath": "LICENSE",
+      "localPath": "assets/licenses/liquid-glass-MIT.txt",
+      "source": "https://raw.githubusercontent.com/ccl125/liquid-glass/8bfc4a3f457ed33c32c26e2c2ccf3db5cf932978/LICENSE",
+      "upstreamSha256": "5dd5466f381885513ccc0419885dc9fbf58d9c8bf254a13327cc58a5163e472c",
+      "localSha256": "5dd5466f381885513ccc0419885dc9fbf58d9c8bf254a13327cc58a5163e472c",
+      "upstreamBytes": 1063,
+      "localBytes": 1063
+    }
+  ],
+  "integration": "Upstream ES module sources are preserved. Project adapters and generated bundles are maintained separately."
+}

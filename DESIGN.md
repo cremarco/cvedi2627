@@ -88,8 +88,11 @@ colors:
   cafe-liquid-primary: "#246345"
   cafe-liquid-on-primary: "#fff"
   cafe-liquid-rule: "#8fa99d"
-  cafe-liquid-glass: "rgb(248 252 249 / .68)"
-  cafe-liquid-action: "rgb(220 242 222 / .9)"
+  cafe-liquid-glass: "rgb(255 255 255 / .14)"
+  cafe-liquid-action: "rgb(220 242 222 / .28)"
+  cafe-liquid-nav-current: "rgb(7 30 25 / .35)"
+  cafe-liquid-nav-hover: "rgb(255 255 255 / .06)"
+  cafe-liquid-filter: "rgb(255 255 255 / .55)"
   cafe-minimal-paper: "#fff"
   cafe-minimal-surface: "#fff"
   cafe-minimal-ink: "#171717"
@@ -377,19 +380,34 @@ components:
     rounded: "{rounded.cafe-28}"
   cafe-liquid-navigation:
     backgroundColor: "{colors.cafe-liquid-glass}"
-    textColor: "{colors.cafe-liquid-ink}"
+    textColor: "{colors.cafe-liquid-on-primary}"
     rounded: "{rounded.cafe-liquid-pill}"
     padding: "6px"
+  cafe-liquid-navigation-current:
+    backgroundColor: "{colors.cafe-liquid-nav-current}"
+    textColor: "{colors.cafe-liquid-on-primary}"
+  cafe-liquid-navigation-hover:
+    backgroundColor: "{colors.cafe-liquid-nav-hover}"
   cafe-liquid-style-select:
     backgroundColor: "{colors.cafe-liquid-glass}"
-    textColor: "{colors.cafe-liquid-ink}"
+    textColor: "{colors.cafe-liquid-on-primary}"
     rounded: "{rounded.cafe-liquid-pill}"
     height: "46px"
+  cafe-liquid-hero-action:
+    backgroundColor: "{colors.cafe-liquid-glass}"
+    textColor: "{colors.cafe-liquid-on-primary}"
+    rounded: "{rounded.cafe-liquid-pill}"
+    padding: "16px 24px"
   cafe-liquid-action:
     backgroundColor: "{colors.cafe-liquid-action}"
     textColor: "{colors.cafe-liquid-ink}"
     rounded: "{rounded.cafe-liquid-pill}"
     padding: "16px 24px"
+  cafe-liquid-filter:
+    backgroundColor: "{colors.cafe-liquid-filter}"
+    textColor: "{colors.cafe-liquid-ink}"
+    rounded: "{rounded.cafe-liquid-pill}"
+    padding: "12px 22px"
   cafe-liquid-field:
     backgroundColor: "{colors.cafe-liquid-surface}"
     textColor: "{colors.cafe-liquid-ink}"
@@ -728,7 +746,7 @@ Il marchio mostra una tazzina di espresso con manico circolare, piattino e due r
 
 Material 3 distingue primario/testo sul primario, primary container/testo sul container, surface container, surface container high e secondary container. I token aggiuntivi `cafe-material3-*` registrano questi ruoli effettivi: la palette statica salvia interpreta Material 3 senza estrarre colori dal dispositivo. Glass e Liquid conservano testo e superfici di lettura più opache del livello degli strumenti.
 
-Liquid assegna `cafe-liquid-glass` agli strumenti sospesi e `cafe-liquid-action` alla CTA principale. Contenuti, listini e campi mantengono carta e bianco opachi. La fotografia dell’hero conserva una sfumatura verde scuro per sostenere il titolo bianco e lasciare leggibili i controlli chiari.
+Liquid assegna `cafe-liquid-glass` a navigazione, selettore e CTA dell’hero: velatura bianca al 14% e testo bianco lasciano visibile la rifrazione della fotografia. La pagina corrente usa `cafe-liquid-nav-current`, verde scuro al 35%, mentre hover usa `cafe-liquid-nav-hover`, bianco al 6%. Le CTA nei contenuti usano `cafe-liquid-action`, verde chiaro al 28%; i filtri mantengono la velatura bianca al 55% `cafe-liquid-filter` e la selezione verde primaria. Contenuti, listini e campi mantengono carta e bianco opachi. La fotografia dell’hero conserva una sfumatura verde scuro per sostenere il titolo bianco.
 
 AR distingue il vetro chiaro del pannello informativo (`cafe-spaziale-glass`) dal campo verde scuro dei controlli e del prodotto. Testo verde scuro e secondario desaturato rimangono leggibili davanti allo sfondo; il verde chiaro `cafe-spaziale-action` segnala Sposta e il prodotto selezionato. La fotografia riempie la scena senza contenere interfacce disegnate nel raster.
 
@@ -780,7 +798,7 @@ La profondità deriva dal materiale della variante. Flat e Minimalista affidano 
 
 Neumorfismo usa `--neumo-up` e `--neumo-down`: coppie di luce e ombra rendono convessi gli strumenti e incavati campi o selezioni, con bordi e testo indipendenti dal rilievo. Glass rivela una fotografia del locale dietro header, hero e pannelli sfocati; i piani di lettura sono più opachi. I fallback per ridotta trasparenza, forced colors e stampa appartengono ai CSS della variante.
 
-Liquid concentra vetro, rim e riflessi in navigazione, selettore, CTA e filtri. La velatura chiara è `--liquid-glass`; il blur statico di 12 px con saturazione 135% e `--liquid-rim` definiscono il bordo e l’elevazione degli strumenti. Il rim combina tre luci/ombre interne e un’ombra esterna di 8/24 px; il valore esatto e il gradiente `--liquid-sheen` sono nel sidecar. La separazione fra strumenti sospesi e contenuto segue [Apple · Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219/). La [ricerca](reports/liquid-glass/research.md) registra fonti e limiti dell’interpretazione web: riflessi CSS e blur statico accompagnano il materiale, senza riprodurne la rifrazione o l’adattività native.
+Liquid concentra vetro, rim e riflessi in navigazione, selettore, CTA e filtri. La libreria locale [ccl125 · liquid-glass](https://github.com/ccl125/liquid-glass/tree/8bfc4a3f457ed33c32c26e2c2ccf3db5cf932978), con licenza MIT, fornisce il CSS e il filtro SVG di rifrazione. Navigazione, selettore e CTA dell’hero filtrano una copia allineata della fotografia attraverso tre `feDisplacementMap` RGB con scale −58/−56/−54 e saturazione 1,08: la lente deforma realmente il campione fotografico e introduce una dispersione cromatica contenuta. Il campione conserva un buffer di 24 px intorno al controllo; testo e pittogrammi rimangono su un livello nitido. Gli altri strumenti usano il filtro come backdrop nei browser compatibili, con fallback della libreria a blur 12 px e saturazione 1,5. `--liquid-rim` combina tre luci/ombre interne e un’ombra esterna di 8/24 px; il valore esatto e il gradiente `--liquid-sheen`, con luce bianca al 12%, sono nel sidecar. La separazione fra strumenti sospesi e contenuto segue [Apple · Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219/). La [ricerca](reports/liquid-glass/research.md) registra fonti e integrazione: il filtro SVG simula la lente sul web e conserva le immagini originali; l’adattività del materiale nativo Apple resta il riferimento.
 
 **The Liquid Control Plane Rule.** In Liquid il vetro appartiene a navigazione, selettore, CTA e filtri. L’header resta trasparente; contenuti, listini e campi restano opachi. Gli stati interni della navigazione usano una velatura senza un secondo blur o rim.
 
@@ -808,9 +826,11 @@ I tre prodotti condivisi da Olografica e AR sono immagini fotografiche sintetich
 
 Header, navigazione, select dello stile, filtri, campi e azioni assumono la grammatica scelta. Il select mantiene etichetta e comportamento nativo e mostra anni prima del nome; `?stile=` persiste fra pagine, Indietro e ricaricamento. Il select Argomento mantiene una freccia visibile anche su un materiale personalizzato. Focus, skip link, etichette e stati premuti conservano l’uso da tastiera; campi e controlli sono riconoscibili indipendentemente dalle ombre.
 
-In Liquid navigazione, selettore e filtri hanno forma a pillola; i collegamenti e il selettore sono alti almeno 46 px. La CTA verde chiaro è alta almeno 54 px, 52 px su mobile: hover la solleva di 2 px, pressione la riduce a 0,98; `transform` dura 220 ms con `cubic-bezier(.16,1,.3,1)` e il colore 180 ms ease-out. La navigazione cambia velatura in 180 ms. Il riflesso segue il puntatore soltanto su navigazione, CTA e filtri con hover e puntatore fine, senza ciclo continuo; movimento o trasparenza ridotti, contrasto aumentato e forced colors lo disabilitano anche quando la preferenza cambia durante la visita. `directions-materials.js` rimuove listener, frame pendenti e coordinate al cambio stile.
+In Liquid navigazione, selettore e filtri hanno forma a pillola; i collegamenti e il selettore sono alti almeno 46 px. La CTA è alta almeno 54 px, 52 px su mobile: hover la solleva di 2 px, pressione la riduce a 0,98; `transform` dura 220 ms con `cubic-bezier(.16,1,.3,1)` e il colore 180 ms ease-out. La CTA dell’hero mantiene testo bianco e vetro trasparente, con velatura bianca al 22% durante hover. La navigazione cambia velatura in 180 ms. Il riflesso segue il puntatore soltanto su navigazione, CTA e filtri con hover e puntatore fine, senza ciclo continuo; movimento o trasparenza ridotti, contrasto aumentato e forced colors lo disabilitano anche quando la preferenza cambia durante la visita.
 
-I campi Liquid sono bianchi con bordo di 1 px `cafe-liquid-rule` e raggio 12 px. Il focus rimane un outline visibile di 3 px; la navigazione usa il verde primario e l’hero il bianco. Trasparenza ridotta, contrasto aumentato e assenza di backdrop-filter rendono opachi gli strumenti; forced colors conserva bordi, outline e selezioni con i colori di sistema. Movimento ridotto elimina transizioni e trasformazioni dei controlli anche durante hover e pressione. La stampa resta una composizione opaca autonoma, senza fotografia di fondo, blur, rim o riflessi, con menu completo.
+`directions-materials.js` possiede l’integrazione ottica: conserva il select nativo dentro un involucro decorativo e allinea il campione della fotografia a hero e strumenti. `ResizeObserver` e un solo frame programmato al ridimensionamento aggiornano il campione, senza animazione continua. Il cambio stile rimuove SVG, classi, involucro del select, etichette decorative, immagini duplicate, observer, listener, frame pendenti e coordinate del riflesso. `styles/vendor/liquid-glass.source.css` conserva il CSS della libreria con licenza MIT; `vendor/liquid-glass/UPSTREAM.json` registra commit, fonti e hash. La build genera `liquid-glass.js` dai moduli originali conservati in `vendor/liquid-glass/`, mantenendo il commento di licenza e correggendo nell’adattatore la maiuscola degli attributi SVG. La copia fotografica usa `filter`, evitando la limitazione del filtro SVG in `backdrop-filter` di Safari; CSS, mappa e filtro sono locali e funzionano anche nell’apertura `file://`.
+
+I campi Liquid sono bianchi con bordo di 1 px `cafe-liquid-rule` e raggio 12 px. Il focus rimane un outline visibile di 3 px, bianco sugli strumenti dell’hero; il select mantiene la semantica nativa e il suo involucro mostra il focus. Trasparenza ridotta e contrasto aumentato nascondono la lente e rendono opachi gli strumenti; forced colors conserva bordi, outline e selezioni con i colori di sistema. L’assenza di backdrop-filter mantiene un fallback opaco per gli strumenti che lo richiedono. Movimento ridotto elimina transizioni e trasformazioni dei controlli anche durante hover e pressione. La stampa resta una composizione opaca autonoma, senza fotografia di fondo, lente, blur, rim o riflessi, con menu completo.
 
 La tab **Design** è un controllo didattico comune, richiesto dall’utente su tutte le rappresentazioni e sulle quattro pagine. Rimane collegata al bordo destro della viewport, al centro in altezza, anche durante lo scorrimento dei layout storici. Apre un piccolo pannello non modale: nome, periodo, introduzione, quattro caratteristiche della variante corrente e una fonte di approfondimento. Se cambia stile mentre è aperto, il contenuto si aggiorna. È un’eccezione esplicita anche per Primissimo web e AR.
 
