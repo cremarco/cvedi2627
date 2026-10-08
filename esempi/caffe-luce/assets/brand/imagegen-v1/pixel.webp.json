@@ -1,0 +1,41 @@
+{
+  "id": "pixel",
+  "styles": [
+    "pixel"
+  ],
+  "prompt": "Use case: logo-brand.\nAsset type: one transparent café LOGO SYMBOL for the pixel visual style of Caffè TTC.\nInput image 1 is the identity reference. Preserve its recognizable little espresso cup with big circular handle on right, shallow saucer and TWO curling plumes of steam. This iconic coffee-bar subject is mandatory. Reinterpret its shape and material in the requested style:\nAuthentic 8-bit pixel art café emblem: dark green #1c2a26 cup and wide saucer with light ivory transparent-cutout highlights, dark coffee surface and two short steam curls. Rebuild the WHOLE silhouette including cup, round handle, saucer and vapor in a coarse square pixel grid with clear stepped curves and uniform square pixels. Thick readable forms, monochrome, no smooth edges, no 3D, no soft shading, no gradients.\nComposition: ONE near-square emblem, cup in three-quarter view with coffee visible from above, centered, complete steam and saucer with at least 8% clear margin. Fill most of the canvas, maintain readability at 54 pixels.\nText: NONE. Absolutely no TTC or other letters; “Caffè TTC” will be real typography beside the emblem.\nConstraints: no frame, no rectangular background, no other objects, no enclosure, no words, no mockup, no photograph, no watermark. A single visually strong bar/café identity, not a full scene.\nScene/backdrop: genuinely transparent alpha, no fake checkerboard. Preserve real transparency.",
+  "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-7fcd3eee-d4e9-4fe6-b9a4-e2fd8bc1049c.png",
+  "generationMode": "generate-from-reference",
+  "referenceImages": [
+    "essential-original.png"
+  ],
+  "transparentBackgroundRequested": true,
+  "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+  "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+  "original": {
+    "src": "assets/brand/imagegen-v1/pixel-original.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 581630,
+    "sha256": "15e1946c5b678bd28dd5ab30d8d662748c6983ad77c6cb95a8d44f7ef1c100c7",
+    "hasAlpha": true,
+    "alpha": {
+      "transparentPixels": 1042091,
+      "opaquePixels": 8547,
+      "translucentPixels": 521878
+    }
+  },
+  "runtime": {
+    "src": "assets/brand/imagegen-v1/pixel.webp",
+    "width": 320,
+    "height": 320,
+    "bytes": 31878,
+    "sha256": "43b722cae8ca64a509d88ec3b2a1497832d4910f895112140bd821ae44862913",
+    "hasAlpha": true,
+    "alpha": {
+      "transparentPixels": 67869,
+      "opaquePixels": 524,
+      "translucentPixels": 34007
+    }
+  }
+}

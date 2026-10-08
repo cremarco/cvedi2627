@@ -16,6 +16,25 @@
     ['booklet', 'Scenari futuri · interpretazioni'],
     ['sperimentale', 'Scenari futuri · esperimenti']
   ];
+  // Literal runtime paths are also the publication dependency graph.
+  const brandAssets = {
+    essential: 'assets/brand/imagegen-v1/essential.webp',
+    classic: 'assets/brand/imagegen-v1/classic.webp',
+    chrome: 'assets/brand/imagegen-v1/chrome.webp',
+    glass: 'assets/brand/imagegen-v1/glass.webp',
+    pop: 'assets/brand/imagegen-v1/pop.webp',
+    pixel: 'assets/brand/imagegen-v1/pixel.webp'
+  };
+  function brandSource(style) {
+    if (['text', 'html'].includes(style.id)) return null;
+    const family = { scheu: 'classic', web2: 'chrome', y2k: 'chrome', glass: 'glass', liquid: 'glass', neumo: 'glass', spaziale: 'glass', max: 'pop', neo: 'pop', pixel: 'pixel' }[style.id] || 'essential';
+    return brandAssets[family];
+  }
+  function loadBrand(style) {
+    const source = brandSource(style);
+    // The one-color essential also serves print and forced-colors mode.
+    return source ? Promise.all([...new Set([source, brandAssets.essential])].map(function (path) { return loadImage(new Image(), path); })) : Promise.resolve();
+  }
   let current;
   let currentStylesheet = document.getElementById('cafe-stylesheet');
   let revision = 0;
@@ -145,6 +164,8 @@
 
   async function prepareStylePictures(style, stylesheet) {
     const sources = new Set();
+    const logo = brandSource(style);
+    if (logo) { sources.add(logo); sources.add(brandAssets.essential); }
     if (!['text', 'scene', 'conversation'].includes(style.presentation) && style.image) sources.add(style.image.src);
     if (style.pictures) Object.values(style.pictures).forEach(function (picture) { sources.add(picture.src); });
     if (style.presentation === 'scene' && style.scene) sources.add(style.scene.src);
@@ -156,6 +177,7 @@
           if (!rule.style) return;
           for (const match of rule.style.cssText.matchAll(/url\(\s*['"]?([^'")]+)['"]?\s*\)/g)) {
             const source = match[1].trim();
+            if (source.includes('/assets/brand/imagegen-v1/')) continue;
             if (/\.(png|webp|jpe?g|gif|avif)([?#]|$)/i.test(source)) sources.add(new URL(source, stylesheet.href).href);
           }
         });
@@ -211,7 +233,7 @@
         positionPictures();
         const wantPictures = !['text', 'scene', 'conversation'].includes(style.presentation) && (!future || future.wantsImages(style));
         if (!wantPictures) frames.forEach(function (frame) { frame.querySelector('img').removeAttribute('src'); });
-        const imagePromises = (wantPictures ? [loadCurrentPictures(), futureReady] : [futureReady]).concat(directionReady);
+        const imagePromises = (wantPictures ? [loadCurrentPictures(), futureReady] : [futureReady]).concat(directionReady, loadBrand(style));
         const fontPromises = document.fonts ? [cafe, select, document.getElementById('cafe-title')].map(function (element) {
           const computed = getComputedStyle(element);
           const font = [computed.fontStyle, computed.fontWeight, computed.fontSize, computed.fontFamily].join(' ');

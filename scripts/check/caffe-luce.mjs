@@ -84,7 +84,7 @@ for (const fixture of pageFixtures) {
   const images = html.match(/<img\b[^>]*>/gi) || []
   assert.equal(images.length, fixture.images, `${fixture.id}: preserve the TTC image slots`)
   assert.ok(images.every(image => !/\s(?:src|srcset)\s*=/i.test(image)), `${fixture.id}: image sources must be chosen by JavaScript before any bitmap request`)
-  assert.ok(html.includes('class="brand-symbol"') && html.includes('Caffè TTC'), `${fixture.id}: the TTC identity needs a vector mark and its name`)
+  assert.ok(html.includes('class="brand-symbol brand-image" aria-hidden="true"') && html.includes('Caffè TTC'), `${fixture.id}: the TTC identity needs a decorative generated mark and its accessible name`)
   assert.ok(!/Caffè Luce|CAFFÈ LUCE/.test(html), `${fixture.id}: no previous café identity may remain`)
 }
 await mkdir(output, { recursive: true })
@@ -278,7 +278,26 @@ async function checkImageFrames(page, style, fixture) {
 async function checkCaféContent(page, fixture, media) {
   if (['spaziale','generativa'].includes(await page.locator('#cafe').getAttribute('data-style'))) return checkScenarioContent(page, fixture)
   assert.equal(await page.locator('.cafe-header .brand-symbol').count(), 1, 'The header needs the TTC symbol')
-  assert.equal(await page.locator('.cafe-header .cafe-brand').getAttribute('aria-label'), 'Caffè TTC, Home', 'The decorative vector must have an accessible brand link')
+  assert.equal(await page.locator('.cafe-header .cafe-brand').getAttribute('aria-label'), 'Caffè TTC, Home', 'The decorative generated logo must have an accessible brand link')
+  const logo = await page.locator('.cafe-header .brand-symbol').evaluate(node => {
+    const css = getComputedStyle(node);
+    const maskEquals = name => {
+      const uri = css.getPropertyValue(name).match(/data:image\/webp;base64,[A-Za-z0-9+/=]+/)?.[0];
+      return Boolean(uri && css.maskImage.includes(uri));
+    };
+    return { hidden: css.display === 'none', source: css.backgroundImage, essentialMask: maskEquals('--brand-essential-mask'), pixelMask: maskEquals('--brand-pixel-mask'), width: node.getBoundingClientRect().width, height: node.getBoundingClientRect().height, decorative: node.getAttribute('aria-hidden') };
+  })
+  const logoStyle = await page.locator('#cafe').getAttribute('data-style')
+  assert.equal(normalized(await page.locator('.cafe-header .brand-name').innerText()), content.brand, 'The complete café name must remain live, visible text')
+  assert.equal(logo.decorative, 'true', 'The generated café symbol is decorative beside the accessible full name')
+  if (['text', 'html'].includes(logoStyle)) {
+    assert.equal(logo.hidden, true, `${logoStyle}: historical identity must remain live text`)
+  } else {
+    const family = media === 'print' ? 'essential' : ({ scheu: 'classic', web2: 'chrome', y2k: 'chrome', glass: 'glass', liquid: 'glass', neumo: 'glass', max: 'pop', neo: 'pop', pixel: 'pixel' }[logoStyle] || 'essential')
+    const usesFamily = family === 'essential' ? logo.essentialMask : family === 'pixel' ? logo.pixelMask : logo.source.includes(`/assets/brand/imagegen-v1/${family}.webp`)
+    assert.ok(usesFamily, `${logoStyle}: the current family must render using its exact generated asset, including an offline-safe alpha mask where needed`)
+    assert.ok(!logo.hidden && Math.abs(logo.width - logo.height) < 1 && logo.height >= 28, `${logoStyle}: the café symbol needs legible square geometry`)
+  }
   assert.deepEqual(await page.locator('.cafe-nav a').allTextContents(), ['Menu', 'Il locale', 'Contatti'])
   assert.deepEqual(await page.locator('.hours-list dt').allTextContents(), content.hours.map(row => row.days), 'Opening days must match the café data')
   assert.deepEqual(await page.locator('.hours-list dd').allTextContents(), content.hours.map(row => row.time), 'Opening hours must match the café data')
@@ -326,6 +345,10 @@ async function checkCaféContent(page, fixture, media) {
 
 async function checkScenarioContent(page, fixture) {
   const id = await page.locator('#cafe').getAttribute('data-style')
+  const identity = page.locator(id === 'spaziale' ? '.ar-title' : '.generated-identity .brand-lockup')
+  assert.equal(await identity.getAttribute('aria-label'), content.brand, `${id}: the scenario identity needs the full accessible café name`)
+  assert.equal(normalized(await identity.locator('.brand-name').innerText()), content.brand, `${id}: the full brand remains visible beside its café symbol`)
+  assert.equal(await identity.locator('.brand-symbol[aria-hidden="true"]').count(), 1, `${id}: the scenario must use the shared decorative café symbol`)
   const oldSections = await page.locator('#cafe > section:not(.scenario-stage), #cafe > footer, .cafe-nav').evaluateAll(nodes => nodes.filter(node => node.getClientRects().length).map(node => node.className))
   assert.deepEqual(oldSections, [], `${id}: the site must be replaced by its requested scenario`)
   if (id === 'spaziale') {

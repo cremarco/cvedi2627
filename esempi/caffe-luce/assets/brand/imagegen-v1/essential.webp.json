@@ -1,0 +1,47 @@
+{
+  "id": "essential",
+  "styles": [
+    "flat",
+    "material",
+    "material2",
+    "material3",
+    "minimal",
+    "bento",
+    "adattabile",
+    "generativa",
+    "olografica"
+  ],
+  "prompt": "Use case: logo-brand.\nAsset type: the PRIMARY pictorial logo symbol of Caffè TTC, a warm Italian neighborhood espresso bar. This must unmistakably evoke an Italian BAR, not be a plain typography exercise.\nPrimary request: design a characterful, elegant iconic little ESPRESSO CUP resting on a shallow SAUCER, seen slightly from above and front so the dark coffee crema is visible. A generously round C-shaped handle at right. TWO beautifully drawn short curling plumes of aromatic STEAM rise from the cup, bringing energy and warmth. The cup and saucer together form one compact memorable silhouette. A confident custom-designed café sign, inviting rather than corporate. Exaggerate the round handle and broad little saucer, with a slight jaunty inclination of the cup to give this bar its own personality. The empty space between the steam curls resembles a tiny conversation, very subtle; the espresso cup must be obvious first.\nStyle: refined graphic café branding, flat vector-like silhouette with hand-tuned curves, stout balanced shapes and clear open negative spaces. ONE SOLID dark navy #071b40 ink. Bold and reductive, strong readable silhouette at 48 pixels, not clipart, not a detailed illustration, no fine outlines. The espresso surface is an oval cutout framed by the thick rim.\nComposition: one centered near-square compact icon filling 80% of canvas, clean margin, no frame or enclosing badge. Cup+handle+saucer+two curls ONLY.\nText: absolutely NO text, letters, TTC or wordmark; the words “Caffè TTC” will be added in the website as real typography.\nConstraints: no coffee beans floating outside the cup, no leaves, no extra objects, no mockups, no gradient, no shadows, no bevel, no texture, no photographic realism, no watermark.\nScene/backdrop: genuinely transparent alpha background, no fake checkerboard, no white rectangular background.",
+  "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-4d5af4de-b507-42ac-a670-6661b29dc78b.png",
+  "generationMode": "generate",
+  "referenceImages": [],
+  "transparentBackgroundRequested": true,
+  "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+  "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+  "original": {
+    "src": "assets/brand/imagegen-v1/essential-original.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 565054,
+    "sha256": "4b2b1941748305dfbb00814e0983123898df954301f59a825936fd553a5a4bb4",
+    "hasAlpha": true,
+    "alpha": {
+      "transparentPixels": 1136565,
+      "opaquePixels": 5489,
+      "translucentPixels": 430462
+    }
+  },
+  "runtime": {
+    "src": "assets/brand/imagegen-v1/essential.webp",
+    "width": 320,
+    "height": 320,
+    "bytes": 30804,
+    "sha256": "499d0cd0d76a3d645970f61146494ba36f7e529e8f80f37a713ecf217d794a01",
+    "hasAlpha": true,
+    "alpha": {
+      "transparentPixels": 71312,
+      "opaquePixels": 2465,
+      "translucentPixels": 28623
+    }
+  }
+}

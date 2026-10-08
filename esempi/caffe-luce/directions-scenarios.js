@@ -131,7 +131,13 @@
     const status = node('p', 'conversation-status', 'La pagina sta prendendo forma…'); status.setAttribute('role','status');
     toolbar.append(pause,finish,replay); chat.append(log,toolbar,status);
     const preview = node('div', 'conversation-preview');
-    const identity = node('header', 'generated-identity', content.brand); preview.append(identity);
+    const identity = node('header', 'generated-identity');
+    const lockup = node('span', 'brand-lockup');
+    lockup.setAttribute('role', 'img'); lockup.setAttribute('aria-label', content.brand);
+    const sourceBrand = cafe.querySelector('.cafe-header .cafe-brand');
+    if (sourceBrand) Array.from(sourceBrand.childNodes).forEach(function (child) { lockup.append(child.cloneNode(true)); });
+    else lockup.textContent = content.brand;
+    identity.append(lockup); preview.append(identity);
     body.append(chat,preview); stage.append(intro,body,node('p','scenario-disclosure',content.demo)); cafe.append(stage);
     const scripts = {
       home:[['Vorrei una colazione al TTC.','Partiamo da una buona tazza.',hero],['Aggiungi qualcosa dal forno e un tè.','Tre modi di fare una pausa.',highlights],['E dimmi quando posso passare.','Ecco indirizzo e orari.',contact]],

@@ -1,7 +1,5 @@
-/* Banco TTC: retain the two Ts and the counter-shaped C across interpretations.
- * The concept master remains unchanged in assets/brand/concepts/. */
-.brand-symbol { display: block; width: 44px; height: 44px; flex: 0 0 44px; fill: currentColor; overflow: visible; }
-.brand-pixel { display: none; }
+/* ImageGen café symbols use the existing display voice for the live name.
+ * The original Banco SVG concepts remain archived in assets/brand/concepts/. */
 .brand-name { font-family: var(--cafe-display); font-weight: var(--cafe-weight); }
 .brand-name strong { font-weight: inherit; }
 .cafe[data-content="ttc"] .form-field .select { min-height: 56px; }

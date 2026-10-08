@@ -17,4 +17,12 @@ for (const file of await readdir(directory)) {
     regions: provenance.runtime?.regions || provenance.regions || { hero: [0,0,w,h], locale: [w,0,w,h], coffee: [0,h,w,h], croissant: [w,h,w,h], tea: [0,2*h,w,h], frontage: [w,2*h,w,h] } }
 }
 await writeFile(path.join(folder, 'immagini.js'), `window.CAFFE_IMAGES = ${JSON.stringify(images, null, 2)};\n`)
-console.log(`Metadati immagini TTC: ${Object.keys(images).length} serie.`)
+// CSS masks fetched from file:// are blocked by Chromium's CORS policy.
+// Embed only the two alpha masks; their originals and external runtime files
+// retain the same manifest and are still used by explicit image readiness.
+const masks = await Promise.all(['essential', 'pixel'].map(async name => {
+  const bitmap = await readFile(path.join(folder, `assets/brand/imagegen-v1/${name}.webp`))
+  return `  --brand-${name}-mask: url("data:image/webp;base64,${bitmap.toString('base64')}");`
+}))
+await writeFile(path.join(folder, 'styles/common/brand-masks.css'), `/* Generated from the original TTC WebP alpha masks; do not edit. */\n:root {\n${masks.join('\n')}\n}\n`)
+console.log(`Metadati immagini TTC: ${Object.keys(images).length} serie; due maschere logo offline.`)

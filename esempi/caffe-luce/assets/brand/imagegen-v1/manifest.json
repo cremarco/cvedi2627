@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "collection": "Caffè TTC — tazzina, piattino e vapore",
+  "generatedAt": "2026-10-08",
+  "generator": "OpenAI built-in image_gen.imagegen",
+  "runtimeEncoding": "WebP lossless, 320 × 320, alpha preserved; resize only, no visual edits. Pixel uses nearest-neighbor sampling.",
+  "assets": [
+    {
+      "id": "essential",
+      "styles": [
+        "flat",
+        "material",
+        "material2",
+        "material3",
+        "minimal",
+        "bento",
+        "adattabile",
+        "generativa",
+        "olografica"
+      ],
+      "prompt": "Use case: logo-brand.\nAsset type: the PRIMARY pictorial logo symbol of Caffè TTC, a warm Italian neighborhood espresso bar. This must unmistakably evoke an Italian BAR, not be a plain typography exercise.\nPrimary request: design a characterful, elegant iconic little ESPRESSO CUP resting on a shallow SAUCER, seen slightly from above and front so the dark coffee crema is visible. A generously round C-shaped handle at right. TWO beautifully drawn short curling plumes of aromatic STEAM rise from the cup, bringing energy and warmth. The cup and saucer together form one compact memorable silhouette. A confident custom-designed café sign, inviting rather than corporate. Exaggerate the round handle and broad little saucer, with a slight jaunty inclination of the cup to give this bar its own personality. The empty space between the steam curls resembles a tiny conversation, very subtle; the espresso cup must be obvious first.\nStyle: refined graphic café branding, flat vector-like silhouette with hand-tuned curves, stout balanced shapes and clear open negative spaces. ONE SOLID dark navy #071b40 ink. Bold and reductive, strong readable silhouette at 48 pixels, not clipart, not a detailed illustration, no fine outlines. The espresso surface is an oval cutout framed by the thick rim.\nComposition: one centered near-square compact icon filling 80% of canvas, clean margin, no frame or enclosing badge. Cup+handle+saucer+two curls ONLY.\nText: absolutely NO text, letters, TTC or wordmark; the words “Caffè TTC” will be added in the website as real typography.\nConstraints: no coffee beans floating outside the cup, no leaves, no extra objects, no mockups, no gradient, no shadows, no bevel, no texture, no photographic realism, no watermark.\nScene/backdrop: genuinely transparent alpha background, no fake checkerboard, no white rectangular background.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-4d5af4de-b507-42ac-a670-6661b29dc78b.png",
+      "generationMode": "generate",
+      "referenceImages": [],
+      "transparentBackgroundRequested": true,
+      "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+      "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+      "original": {
+        "src": "assets/brand/imagegen-v1/essential-original.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 565054,
+        "sha256": "4b2b1941748305dfbb00814e0983123898df954301f59a825936fd553a5a4bb4",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 1136565,
+          "opaquePixels": 5489,
+          "translucentPixels": 430462
+        }
+      },
+      "runtime": {
+        "src": "assets/brand/imagegen-v1/essential.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 30804,
+        "sha256": "499d0cd0d76a3d645970f61146494ba36f7e529e8f80f37a713ecf217d794a01",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 71312,
+          "opaquePixels": 2465,
+          "translucentPixels": 28623
+        }
+      }
+    },
+    {
+      "id": "classic",
+      "styles": [
+        "scheu"
+      ],
+      "prompt": "Use case: logo-brand.\nAsset type: one transparent café LOGO SYMBOL for the classic visual style of Caffè TTC.\nInput image 1 is the identity reference. Preserve its recognizable little espresso cup with big circular handle on right, shallow saucer and TWO curling plumes of steam. This iconic coffee-bar subject is mandatory. Reinterpret its shape and material in the requested style:\nClassic Italian café sign: stout refined engraved lines and rounded silhouette, warm espresso-brown body #362015 with restrained antique brass #b69b70 rim, handle and saucer accents, warm cream highlights. Physical embossed sign appearance, subtle rich material, not a product photograph. Ensure dark enough body for an ivory background.\nComposition: ONE near-square emblem, cup in three-quarter view with coffee visible from above, centered, complete steam and saucer with at least 8% clear margin. Fill most of the canvas, maintain readability at 54 pixels.\nText: NONE. Absolutely no TTC or other letters; “Caffè TTC” will be real typography beside the emblem.\nConstraints: no frame, no rectangular background, no other objects, no enclosure, no words, no mockup, no photograph, no watermark. A single visually strong bar/café identity, not a full scene.\nScene/backdrop: genuinely transparent alpha, no fake checkerboard. Preserve real transparency.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-491a3ce2-5b4e-44cd-bd47-ca9f6545c933.png",
+      "generationMode": "generate-from-reference",
+      "referenceImages": [
+        "essential-original.png"
+      ],
+      "transparentBackgroundRequested": true,
+      "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+      "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+      "original": {
+        "src": "assets/brand/imagegen-v1/classic-original.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1124641,
+        "sha256": "d6ed603e5291eb30a54b07db1e5c3b80e9bc9bcf76e90b402e75f0e909bdaa5a",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 969241,
+          "opaquePixels": 1791,
+          "translucentPixels": 601484
+        }
+      },
+      "runtime": {
+        "src": "assets/brand/imagegen-v1/classic.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 62604,
+        "sha256": "4a1e0f65f637e56524b61fb71833b5498b860c2c359fd0b52ab2c09dd79e354e",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 62037,
+          "opaquePixels": 1034,
+          "translucentPixels": 39329
+        }
+      }
+    },
+    {
+      "id": "chrome",
+      "styles": [
+        "web2",
+        "y2k"
+      ],
+      "prompt": "Use case: logo-brand.\nAsset type: one transparent café LOGO SYMBOL for the chrome visual style of Caffè TTC.\nInput image 1 is the identity reference. Preserve its recognizable little espresso cup with big circular handle on right, shallow saucer and TWO curling plumes of steam. This iconic coffee-bar subject is mandatory. Reinterpret its shape and material in the requested style:\nY2K sculptural chrome café emblem: highly polished silver metallic cup, deep indigo #14186c edges and coffee surface, bright sharp reflections and subtle lilac chrome on handle, saucer and both steam curls. Bold thick defined forms, not a product photograph. No additional rings or stars.\nComposition: ONE near-square emblem, cup in three-quarter view with coffee visible from above, centered, complete steam and saucer with at least 8% clear margin. Fill most of the canvas, maintain readability at 54 pixels.\nText: NONE. Absolutely no TTC or other letters; “Caffè TTC” will be real typography beside the emblem.\nConstraints: no frame, no rectangular background, no other objects, no enclosure, no words, no mockup, no photograph, no watermark. A single visually strong bar/café identity, not a full scene.\nScene/backdrop: genuinely transparent alpha, no fake checkerboard. Preserve real transparency.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-65d180de-e33b-48e5-b617-599e519c4677.png",
+      "generationMode": "generate-from-reference",
+      "referenceImages": [
+        "essential-original.png"
+      ],
+      "transparentBackgroundRequested": true,
+      "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+      "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+      "original": {
+        "src": "assets/brand/imagegen-v1/chrome-original.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1169593,
+        "sha256": "d3fbd583b7093f66f0c10c5baaca27097961757534a516b8daf6a4b8bce58f03",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 979775,
+          "opaquePixels": 1844,
+          "translucentPixels": 590897
+        }
+      },
+      "runtime": {
+        "src": "assets/brand/imagegen-v1/chrome.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 70664,
+        "sha256": "8469c733a635e3c5147f9badb97bc2125f9e81fdb9b5356bd41f12e5dec3bd64",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 62938,
+          "opaquePixels": 1131,
+          "translucentPixels": 38331
+        }
+      }
+    },
+    {
+      "id": "glass",
+      "styles": [
+        "neumo",
+        "glass",
+        "liquid",
+        "spaziale"
+      ],
+      "prompt": "Use case: logo-brand.\nAsset type: one transparent café LOGO SYMBOL for the glass visual style of Caffè TTC.\nInput image 1 is the identity reference. Preserve its recognizable little espresso cup with big circular handle on right, shallow saucer and TWO curling plumes of steam. This iconic coffee-bar subject is mandatory. Reinterpret its shape and material in the requested style:\nLiquid-glass café emblem: a deeply colored petrol-green #162e28 glass cup and saucer, glossy translucent emerald edges and restrained bright rim reflections, two smooth green glass steam curls, visible dark coffee oval. Solid substantial form and large dark surfaces ensure legibility on light backgrounds. Not a product photograph.\nComposition: ONE near-square emblem, cup in three-quarter view with coffee visible from above, centered, complete steam and saucer with at least 8% clear margin. Fill most of the canvas, maintain readability at 54 pixels.\nText: NONE. Absolutely no TTC or other letters; “Caffè TTC” will be real typography beside the emblem.\nConstraints: no frame, no rectangular background, no other objects, no enclosure, no words, no mockup, no photograph, no watermark. A single visually strong bar/café identity, not a full scene.\nScene/backdrop: genuinely transparent alpha, no fake checkerboard. Preserve real transparency.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-25c9975b-b144-4e34-a1d3-20d6d8c84503.png",
+      "generationMode": "generate-from-reference",
+      "referenceImages": [
+        "essential-original.png"
+      ],
+      "transparentBackgroundRequested": true,
+      "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+      "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+      "original": {
+        "src": "assets/brand/imagegen-v1/glass-original.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1158778,
+        "sha256": "72bf3eaa1e975be2b35735933c7fbdc126c9aaebfcd706e3761c8ac0f6f93729",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 920682,
+          "opaquePixels": 1032,
+          "translucentPixels": 650802
+        }
+      },
+      "runtime": {
+        "src": "assets/brand/imagegen-v1/glass.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 69636,
+        "sha256": "aa3de4e05522670a831f6b07245612190f2d23cfe4958dc723d3cd06c35018ea",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 59063,
+          "opaquePixels": 1105,
+          "translucentPixels": 42232
+        }
+      }
+    },
+    {
+      "id": "pop",
+      "styles": [
+        "max",
+        "neo"
+      ],
+      "prompt": "Use case: logo-brand.\nAsset type: one transparent café LOGO SYMBOL for the pop visual style of Caffè TTC.\nInput image 1 is the identity reference. Preserve its recognizable little espresso cup with big circular handle on right, shallow saucer and TWO curling plumes of steam. This iconic coffee-bar subject is mandatory. Reinterpret its shape and material in the requested style:\nExpressive pop café emblem: a warm pink #ff66aa cup with thick dark plum #380643 outlines, a flat acid-lime #d9ff00 coffee surface and broad saucer, two chunky playful lime steam curls with plum edges. Exaggerated rounded handle, jaunty handmade graphic shape, short crisp plum offset shadow. Bold beautifully drawn editorial illustration, not corporate clipart, no badge.\nComposition: ONE near-square emblem, cup in three-quarter view with coffee visible from above, centered, complete steam and saucer with at least 8% clear margin. Fill most of the canvas, maintain readability at 54 pixels.\nText: NONE. Absolutely no TTC or other letters; “Caffè TTC” will be real typography beside the emblem.\nConstraints: no frame, no rectangular background, no other objects, no enclosure, no words, no mockup, no photograph, no watermark. A single visually strong bar/café identity, not a full scene.\nScene/backdrop: genuinely transparent alpha, no fake checkerboard. Preserve real transparency.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-07aa3590-ffe7-4d36-88da-2d75c91a016e.png",
+      "generationMode": "generate-from-reference",
+      "referenceImages": [
+        "essential-original.png"
+      ],
+      "transparentBackgroundRequested": true,
+      "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+      "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+      "original": {
+        "src": "assets/brand/imagegen-v1/pop-original.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 913230,
+        "sha256": "802bc7f38bdb946406c31de470dc491f773eba2758f9be30b2346b5fdf65931d",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 891295,
+          "opaquePixels": 3027,
+          "translucentPixels": 678194
+        }
+      },
+      "runtime": {
+        "src": "assets/brand/imagegen-v1/pop.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 63144,
+        "sha256": "170ec855702fd7086771604e46ebcee697cf1ea19eb2cb9f3d57103d7a8b8b5f",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 56515,
+          "opaquePixels": 1138,
+          "translucentPixels": 44747
+        }
+      }
+    },
+    {
+      "id": "pixel",
+      "styles": [
+        "pixel"
+      ],
+      "prompt": "Use case: logo-brand.\nAsset type: one transparent café LOGO SYMBOL for the pixel visual style of Caffè TTC.\nInput image 1 is the identity reference. Preserve its recognizable little espresso cup with big circular handle on right, shallow saucer and TWO curling plumes of steam. This iconic coffee-bar subject is mandatory. Reinterpret its shape and material in the requested style:\nAuthentic 8-bit pixel art café emblem: dark green #1c2a26 cup and wide saucer with light ivory transparent-cutout highlights, dark coffee surface and two short steam curls. Rebuild the WHOLE silhouette including cup, round handle, saucer and vapor in a coarse square pixel grid with clear stepped curves and uniform square pixels. Thick readable forms, monochrome, no smooth edges, no 3D, no soft shading, no gradients.\nComposition: ONE near-square emblem, cup in three-quarter view with coffee visible from above, centered, complete steam and saucer with at least 8% clear margin. Fill most of the canvas, maintain readability at 54 pixels.\nText: NONE. Absolutely no TTC or other letters; “Caffè TTC” will be real typography beside the emblem.\nConstraints: no frame, no rectangular background, no other objects, no enclosure, no words, no mockup, no photograph, no watermark. A single visually strong bar/café identity, not a full scene.\nScene/backdrop: genuinely transparent alpha, no fake checkerboard. Preserve real transparency.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-7fcd3eee-d4e9-4fe6-b9a4-e2fd8bc1049c.png",
+      "generationMode": "generate-from-reference",
+      "referenceImages": [
+        "essential-original.png"
+      ],
+      "transparentBackgroundRequested": true,
+      "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+      "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+      "original": {
+        "src": "assets/brand/imagegen-v1/pixel-original.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 581630,
+        "sha256": "15e1946c5b678bd28dd5ab30d8d662748c6983ad77c6cb95a8d44f7ef1c100c7",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 1042091,
+          "opaquePixels": 8547,
+          "translucentPixels": 521878
+        }
+      },
+      "runtime": {
+        "src": "assets/brand/imagegen-v1/pixel.webp",
+        "width": 320,
+        "height": 320,
+        "bytes": 31878,
+        "sha256": "43b722cae8ca64a509d88ec3b2a1497832d4910f895112140bd821ae44862913",
+        "hasAlpha": true,
+        "alpha": {
+          "transparentPixels": 67869,
+          "opaquePixels": 524,
+          "translucentPixels": 34007
+        }
+      }
+    }
+  ]
+}

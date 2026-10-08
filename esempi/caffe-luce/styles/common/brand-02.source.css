@@ -1,4 +1,74 @@
-.projection-identity .brand-pixel { display: none; }
-.projection-identity .brand-symbol { flex-basis: 40px; }
-@media (max-width: 720px) { body:not([data-layout="legacy"]) .brand-symbol { width: 36px; height: 36px; flex-basis: 36px; } }
-@media print { .cafe .brand-symbol { width: 28px; height: 28px; flex-basis: 28px; filter: none; transform: none; } }
+@import "./brand-masks.css";
+
+/* Keep this family in the shared source. URLs resolve from the compiled styles/ directory. */
+.cafe[data-content="ttc"][data-style] {
+  --brand-art: url("../assets/brand/imagegen-v1/essential.webp");
+  --brand-mask: var(--brand-essential-mask);
+  --brand-background: none;
+  --brand-height: 54px;
+  --brand-width: 54px;
+}
+.cafe[data-content="ttc"][data-style="scheu"] { --brand-art: url("../assets/brand/imagegen-v1/classic.webp"); }
+.cafe[data-content="ttc"]:is([data-style="web2"],[data-style="y2k"]) { --brand-art: url("../assets/brand/imagegen-v1/chrome.webp"); }
+.cafe[data-content="ttc"]:is([data-style="glass"],[data-style="liquid"],[data-style="neumo"],[data-style="spaziale"]) { --brand-art: url("../assets/brand/imagegen-v1/glass.webp"); }
+.cafe[data-content="ttc"]:is([data-style="max"],[data-style="neo"]) { --brand-art: url("../assets/brand/imagegen-v1/pop.webp"); }
+.cafe[data-content="ttc"][data-style="pixel"] { --brand-art: url("../assets/brand/imagegen-v1/pixel.webp"); --brand-mask: var(--brand-pixel-mask); }
+.cafe[data-content="ttc"]:is([data-style="scheu"],[data-style="web2"],[data-style="y2k"],[data-style="glass"],[data-style="liquid"],[data-style="neumo"],[data-style="spaziale"],[data-style="max"],[data-style="neo"]) {
+  --brand-mask: none;
+  --brand-background: var(--brand-art);
+}
+.cafe[data-content="ttc"][data-style] .brand-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+.cafe[data-content="ttc"][data-style] .brand-lockup .brand-symbol.brand-image {
+  display: block;
+  width: var(--brand-width);
+  height: var(--brand-height);
+  flex: 0 0 var(--brand-width);
+  color: inherit;
+  background-color: currentColor;
+  background-image: var(--brand-background);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  mask-image: var(--brand-mask);
+  mask-position: center;
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  filter: none;
+  transform: none;
+  overflow: visible;
+}
+.cafe[data-content="ttc"]:is([data-style="scheu"],[data-style="web2"],[data-style="y2k"],[data-style="glass"],[data-style="liquid"],[data-style="neumo"],[data-style="spaziale"],[data-style="max"],[data-style="neo"]) .brand-lockup .brand-symbol.brand-image { background-color: transparent; }
+.cafe[data-content="ttc"][data-style="pixel"] .brand-image { image-rendering: pixelated; }
+.cafe[data-content="ttc"][data-style] .cafe-footer .brand-lockup { --brand-width: 44px; --brand-height: 44px; }
+.cafe[data-content="ttc"]:is([data-style="text"],[data-style="html"]) .brand-lockup { display: inline; }
+.cafe[data-content="ttc"]:is([data-style="text"],[data-style="html"]) .brand-lockup .brand-symbol.brand-image { display: none; background-image: none; mask-image: none; }
+@media (max-width: 720px) {
+  .cafe[data-content="ttc"][data-style] .brand-lockup { --brand-width: 44px; --brand-height: 44px; gap: 7px; }
+}
+@media (forced-colors: active) {
+  .cafe[data-content="ttc"][data-style] .brand-lockup .brand-symbol.brand-image {
+    background-color: CanvasText;
+    background-image: none;
+    mask-image: var(--brand-essential-mask);
+    forced-color-adjust: none;
+  }
+}
+@media print {
+  .cafe[data-content="ttc"][data-style] .brand-lockup { --brand-width: 32px; --brand-height: 32px; color: #000; }
+  .cafe[data-content="ttc"][data-style] .brand-lockup .brand-symbol.brand-image {
+    width: 32px;
+    height: 32px;
+    flex-basis: 32px;
+    background-color: #000;
+    background-image: none;
+    mask-image: var(--brand-essential-mask);
+    filter: none;
+    transform: none;
+    print-color-adjust: exact;
+  }
+}

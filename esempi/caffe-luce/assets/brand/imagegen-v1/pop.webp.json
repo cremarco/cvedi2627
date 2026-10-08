@@ -1,0 +1,42 @@
+{
+  "id": "pop",
+  "styles": [
+    "max",
+    "neo"
+  ],
+  "prompt": "Use case: logo-brand.\nAsset type: one transparent café LOGO SYMBOL for the pop visual style of Caffè TTC.\nInput image 1 is the identity reference. Preserve its recognizable little espresso cup with big circular handle on right, shallow saucer and TWO curling plumes of steam. This iconic coffee-bar subject is mandatory. Reinterpret its shape and material in the requested style:\nExpressive pop café emblem: a warm pink #ff66aa cup with thick dark plum #380643 outlines, a flat acid-lime #d9ff00 coffee surface and broad saucer, two chunky playful lime steam curls with plum edges. Exaggerated rounded handle, jaunty handmade graphic shape, short crisp plum offset shadow. Bold beautifully drawn editorial illustration, not corporate clipart, no badge.\nComposition: ONE near-square emblem, cup in three-quarter view with coffee visible from above, centered, complete steam and saucer with at least 8% clear margin. Fill most of the canvas, maintain readability at 54 pixels.\nText: NONE. Absolutely no TTC or other letters; “Caffè TTC” will be real typography beside the emblem.\nConstraints: no frame, no rectangular background, no other objects, no enclosure, no words, no mockup, no photograph, no watermark. A single visually strong bar/café identity, not a full scene.\nScene/backdrop: genuinely transparent alpha, no fake checkerboard. Preserve real transparency.",
+  "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bdd-5b97-7542-9cf1-30c0fbda068a/exec-07aa3590-ffe7-4d36-88da-2d75c91a016e.png",
+  "generationMode": "generate-from-reference",
+  "referenceImages": [
+    "essential-original.png"
+  ],
+  "transparentBackgroundRequested": true,
+  "provenance": "Original AI-generated café emblem created for the fictional Caffè TTC; not a historical artifact or third-party logo.",
+  "rights": "Generated for this project. No third-party source artwork or third-party license claim. Original PNG retained.",
+  "original": {
+    "src": "assets/brand/imagegen-v1/pop-original.png",
+    "width": 1254,
+    "height": 1254,
+    "bytes": 913230,
+    "sha256": "802bc7f38bdb946406c31de470dc491f773eba2758f9be30b2346b5fdf65931d",
+    "hasAlpha": true,
+    "alpha": {
+      "transparentPixels": 891295,
+      "opaquePixels": 3027,
+      "translucentPixels": 678194
+    }
+  },
+  "runtime": {
+    "src": "assets/brand/imagegen-v1/pop.webp",
+    "width": 320,
+    "height": 320,
+    "bytes": 63144,
+    "sha256": "170ec855702fd7086771604e46ebcee697cf1ea19eb2cb9f3d57103d7a8b8b5f",
+    "hasAlpha": true,
+    "alpha": {
+      "transparentPixels": 56515,
+      "opaquePixels": 1138,
+      "translucentPixels": 44747
+    }
+  }
+}

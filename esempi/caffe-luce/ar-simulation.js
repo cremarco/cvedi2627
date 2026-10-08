@@ -85,7 +85,11 @@
     const panel = node('section', 'ar-panel');
     panel.setAttribute('aria-labelledby', 'ar-title');
     const brand = node('header', 'ar-brand');
-    const title = node('h1', 'ar-title', content.brand);
+    const title = node('h1', 'ar-title brand-lockup');
+    title.setAttribute('aria-label', content.brand);
+    const sourceBrand = cafe.querySelector('.cafe-header .cafe-brand');
+    if (sourceBrand) Array.from(sourceBrand.childNodes).forEach(function (child) { title.append(child.cloneNode(true)); });
+    else title.textContent = content.brand;
     title.id = 'ar-title';
     title.tabIndex = -1;
     brand.append(title, node('p', 'ar-tagline', content.tagline));
