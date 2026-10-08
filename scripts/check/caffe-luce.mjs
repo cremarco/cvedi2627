@@ -218,7 +218,7 @@ async function snapshot(page) {
       const height = Math.min(a.bottom, b.bottom) - Math.max(a.top, b.top)
       // Liquid Glass intentionally floats its controls over photography.
       // Test text/action intersections instead of treating a photograph as text.
-      if (root.dataset.style === 'liquid' && flow[i].matches('.cafe-header') && flow[j].matches('.cafe-hero')) {
+      if (root.dataset.style === 'liquid' && flow[i].matches('.cafe-header') && flow[j].matches('.cafe-hero, .page-intro')) {
         const obscured = [...flow[j].querySelectorAll('h1, .hero-lead, .cafe-cta')].filter(node => {
           const rects = textBoxes(node)
           return rects.some(rect => Math.min(a.right, rect.right) - Math.max(a.left, rect.left) > 2 && Math.min(a.bottom, rect.bottom) - Math.max(a.top, rect.top) > 2)

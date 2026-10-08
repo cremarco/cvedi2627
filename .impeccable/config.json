@@ -284,6 +284,71 @@
         ],
         "createdAt": "2026-10-07T23:49:15.203Z",
         "reason": "Agent: #79d7e7 radial field is the documented cyan/lavender Glass material environment on its light surface. The static Contatti detector incorrectly treats this mutually exclusive style as the dark holographic page. The user requested a whole-site Glass interpretation; typography and products remain opaque and readable in the reviewed screenshots."
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/styles/web2.source.css"
+        ],
+        "createdAt": "2026-10-08T11:11:09.878Z",
+        "reason": "Agent: the finding at line152 is the orange selected-state border of rounded navigation tabs, not a generic card. The user explicitly requested Windows XP/Web2 visual details; Luna tabs and their selected accent are intentional in this teaching example, documented in research-historical.md and verified in the independent review."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/styles/web2.source.css"
+        ],
+        "createdAt": "2026-10-08T11:11:09.940Z",
+        "reason": "Agent: line47 is an inset top highlight on the glossy Web2 masthead, not a colored side strip on a card. The explicit user brief asks for Windows XP and heavier gradients; this bevel is an intentional historical material, documented in DESIGN.md/research-historical.md and retained by the independent visual review."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/styles/scheu.source.css"
+        ],
+        "createdAt": "2026-10-08T11:11:09.995Z",
+        "reason": "Agent: lines171/182 depict the leather menu spine and stacked paper edges with inset shadows; they are physical book-binding details, not generic card accents. The user explicitly requested a real-looking leather menu with stitching and realistic bar objects. These two details implement that brief and were validated in the independent review."
+      },
+      {
+        "rule": "overused-font",
+        "value": "space grotesk",
+        "files": [
+          "esempi/caffe-luce/styles/max.source.css",
+          "esempi/caffe-luce/styles/pixel.source.css",
+          "esempi/caffe-luce/styles/y2k.source.css"
+        ],
+        "createdAt": "2026-10-08T14:43:25.299Z",
+        "reason": "Agent: DESIGN.md explicitly assigns Space Grotesk as the body font of the Y2K, Max and Pixel teaching variants; preserve the documented typography."
+      },
+      {
+        "rule": "overused-font",
+        "value": "fraunces",
+        "files": [
+          "esempi/caffe-luce/styles/max.source.css"
+        ],
+        "createdAt": "2026-10-08T14:43:25.356Z",
+        "reason": "Agent: DESIGN.md explicitly assigns Fraunces to the expressive Max display role and preserves its italic and collage typography."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/styles/y2k.source.css"
+        ],
+        "createdAt": "2026-10-08T14:43:25.413Z",
+        "reason": "Agent: reviewed the existing bottom inset on menu-item; it is the chrome bevel of the Y2K technical panels explicitly preserved by DESIGN.md."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/caffe-luce/styles/max.source.css"
+        ],
+        "createdAt": "2026-10-08T14:43:25.469Z",
+        "reason": "Agent: reviewed the seven existing inset stripes on hero, header, contacts, introduction and controls; their pink, orange and lime ribbons are the Max teaching variant grammar explicitly preserved by DESIGN.md."
       }
     ]
   }

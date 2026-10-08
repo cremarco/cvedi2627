@@ -1,0 +1,42 @@
+/* Reading rhythm shared by the six material studies. Each study owns its surface. */
+@media screen {
+  .cafe[data-content="ttc"][data-page][data-style] {
+    --layout-section-gap: clamp(32px,4vw,64px);
+    --layout-group-gap: 24px;
+
+    :is(.product-price,.menu-item-price,.hours-list) { font-variant-numeric: tabular-nums; }
+    :is(.menu-item-name,.contact-information a,.contact-result a) { overflow-wrap: anywhere; }
+    :is(.hero-lead,.feature-copy p,.locale-story p,.contact-message p) { text-wrap: pretty; }
+    :is(.menu-list,.contact-information,#contact-form) { min-width: 0; }
+    .menu-list dt { gap: var(--layout-group-gap); }
+    .menu-item-price { flex: none; }
+    .menu-list dd { max-width: 52ch; }
+    .contact-message { align-items: start; }
+    #contact-form .cafe-cta { justify-self: start; }
+    a { text-underline-offset: .2em; }
+    ::selection { color: var(--cafe-on-primary); background: var(--cafe-primary); }
+  }
+}
+
+@media screen and (min-width: 1001px) {
+  .cafe[data-content="ttc"][data-page][data-style] {
+    .page-intro { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); align-items: end; gap: var(--layout-section-gap); text-align: left; }
+    .page-intro #cafe-title { max-width: 14ch; }
+    .page-intro .hero-lead { max-width: 44ch; margin: 0; padding-bottom: 4px; }
+    .contact-message { grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr); gap: var(--layout-section-gap); }
+    .contact-message > div > p { max-width: 38ch; }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .cafe[data-content="ttc"][data-page][data-style] {
+    .page-intro { display: block; }
+    .page-intro .hero-lead { margin-bottom: 0; }
+    .contact-message { gap: 32px; }
+    .menu-list dt { gap: 16px; }
+    .menu-tools { gap: 8px; }
+    .menu-filter.btn { flex-grow: 1; text-align: center; }
+    .cafe-footer { gap: 16px; }
+    .footer-links { gap: 8px 24px; }
+  }
+}

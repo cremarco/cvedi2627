@@ -319,3 +319,62 @@
 @media screen and (min-width: 721px) and (max-width: 1100px) {
   .cafe[data-style="bento"][data-content="ttc"][data-page="locale"] .cafe-values h2 { font-size: 24px; }
 }
+
+/* The mosaic has a reading rhythm: image-led entries, compact lists and visit tiles. */
+@media screen {
+  .cafe[data-style="bento"][data-content="ttc"][data-page] { --bento-gap: 24px; gap: var(--bento-gap); }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .cafe-header { margin-bottom: 0; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .cafe-hero { min-height: 528px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .hero-copy { min-height: 528px; padding: 56px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .section-heading { padding-top: 16px; margin-block: 0; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .section-title { font-size: 28px; line-height: 1.3; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .home-highlights .menu-item { min-height: 432px; padding: 32px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .home-highlights .menu-item :is(h2,h3) { font-size: clamp(28px,2.4vw,36px); margin-bottom: 12px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .cafe-values { padding: 40px 32px; gap: 32px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .cafe-values h2 { margin-bottom: 12px; font-size: 28px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .cafe-values p { font-size: 16px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .page-intro { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 48px; align-items: end; min-height: 224px; padding: 40px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .page-intro .hero-lead { margin: 0 0 8px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .menu-tools { padding-block: 0; gap: 12px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category { padding: 36px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category > h2 { font-size: clamp(32px,3vw,40px); margin-bottom: 12px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category .category-intro { margin-bottom: 96px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category:has(.menu-picture)::after { background: linear-gradient(0deg,#061710fc 0%,#061710ed 48%,#061710a8 100%); }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category:not(:has(.menu-picture)) .category-intro { margin-bottom: 32px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category .menu-list > div { padding-block: 20px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .visit-summary { padding: 40px; gap: 64px; align-items: start; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .contact-layout { min-height: 624px; padding: 40px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .contact-information { width: 54%; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .contact-message { padding: 40px; gap: 64px; }
+}
+@media screen and (max-width:1000px) {
+  .cafe[data-style="bento"][data-content="ttc"][data-page] { --bento-gap: 20px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .hero-copy { padding: 40px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .home-highlights .menu-item { padding: 24px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .contact-information { width: 68%; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .contact-message { gap: 40px; }
+}
+@media screen and (min-width:721px) and (max-width:1100px) {
+  .cafe[data-style="bento"][data-content="ttc"][data-page][data-page="locale"] > :is(.locale-story,.cafe-values) { grid-column: span 6; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page][data-page="locale"] > .cafe-values { grid-template-columns: 1fr; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page][data-page="locale"] .cafe-values > div { grid-column: auto; }
+}
+@media screen and (max-width:720px) {
+  .cafe[data-style="bento"][data-content="ttc"][data-page] { --bento-gap: 16px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .cafe-hero { min-height: 520px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .hero-copy { min-height: 520px; padding: 32px 24px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .section-heading { display: flex; align-items: baseline; gap: 16px; padding-top: 16px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .section-title { font-size: 24px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .section-heading .text-link { flex: none; font-size: 14px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .home-highlights .menu-item { min-height: 384px; padding: 28px 24px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .home-highlights .menu-item :is(h2,h3) { font-size: 32px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .cafe-values { padding: 32px 24px; gap: 28px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .cafe-feature { min-height: 560px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page][data-page="locale"] > .cafe-feature { min-height: 560px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] > .page-intro { grid-template-columns: 1fr; gap: 24px; min-height: 0; padding: 32px 24px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .page-intro .hero-lead { margin: 0; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category .category-intro { margin-bottom: 80px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .menu-category .menu-list > div { padding-block: 16px; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] .contact-information { width: 100%; }
+  .cafe[data-style="bento"][data-content="ttc"][data-page] :is(.visit-summary,.contact-layout,.contact-message) { padding: 32px 24px; gap: 32px; }
+}

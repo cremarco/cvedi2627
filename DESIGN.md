@@ -88,6 +88,8 @@ colors:
   cafe-liquid-primary: "#246345"
   cafe-liquid-on-primary: "#fff"
   cafe-liquid-rule: "#8fa99d"
+  cafe-liquid-glass: "rgb(248 252 249 / .68)"
+  cafe-liquid-action: "rgb(220 242 222 / .9)"
   cafe-minimal-paper: "#fff"
   cafe-minimal-surface: "#fff"
   cafe-minimal-ink: "#171717"
@@ -231,7 +233,14 @@ typography:
     fontFamily: "'Inter',sans-serif"
   cafe-liquid-display:
     fontFamily: "'Inter',sans-serif"
-    fontSize: "clamp(38px,5.3vw,68px)"
+    fontSize: "clamp(42px,5vw,76px)"
+    fontWeight: 600
+    lineHeight: 1.08
+    letterSpacing: "-.035em"
+  cafe-liquid-lead:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "19px"
+    lineHeight: 1.7
   cafe-minimal-body:
     fontFamily: "'Inter',sans-serif"
   cafe-minimal-display:
@@ -269,10 +278,14 @@ typography:
     lineHeight: 1.12
   cafe-adattabile-body:
     fontFamily: "'Roboto Flex',sans-serif"
+    fontSize: "calc(18px * var(--reading-scale,1))"
+    fontWeight: "var(--reading-weight,500)"
+    lineHeight: 1.7
   cafe-adattabile-display:
     fontFamily: "'Roboto Flex',sans-serif"
     fontSize: "calc(clamp(40px,4vw,60px) * var(--reading-scale,1))"
-    lineHeight: 1.2
+    fontWeight: "min(800,calc(var(--reading-weight,500) + 150))"
+    lineHeight: 1.18
   cafe-spaziale-body:
     fontFamily: "'Inter',sans-serif"
     fontSize: "15px"
@@ -314,6 +327,7 @@ rounded:
   cafe-20: "20px"
   cafe-24: "24px"
   cafe-28: "28px"
+  cafe-liquid-pill: "999px"
   cafe-olografica-field: "6px"
 spacing:
   cafe-8: "8px"
@@ -361,6 +375,25 @@ components:
     backgroundColor: "{colors.cafe-material3-primary}"
     textColor: "{colors.cafe-material3-on-primary}"
     rounded: "{rounded.cafe-28}"
+  cafe-liquid-navigation:
+    backgroundColor: "{colors.cafe-liquid-glass}"
+    textColor: "{colors.cafe-liquid-ink}"
+    rounded: "{rounded.cafe-liquid-pill}"
+    padding: "6px"
+  cafe-liquid-style-select:
+    backgroundColor: "{colors.cafe-liquid-glass}"
+    textColor: "{colors.cafe-liquid-ink}"
+    rounded: "{rounded.cafe-liquid-pill}"
+    height: "46px"
+  cafe-liquid-action:
+    backgroundColor: "{colors.cafe-liquid-action}"
+    textColor: "{colors.cafe-liquid-ink}"
+    rounded: "{rounded.cafe-liquid-pill}"
+    padding: "16px 24px"
+  cafe-liquid-field:
+    backgroundColor: "{colors.cafe-liquid-surface}"
+    textColor: "{colors.cafe-liquid-ink}"
+    rounded: "{rounded.cafe-12}"
   cafe-generativa-filter:
     backgroundColor: "{colors.cafe-generativa-surface}"
     textColor: "#173329"
@@ -695,6 +728,8 @@ Il marchio mostra una tazzina di espresso con manico circolare, piattino e due r
 
 Material 3 distingue primario/testo sul primario, primary container/testo sul container, surface container, surface container high e secondary container. I token aggiuntivi `cafe-material3-*` registrano questi ruoli effettivi: la palette statica salvia interpreta Material 3 senza estrarre colori dal dispositivo. Glass e Liquid conservano testo e superfici di lettura più opache del livello degli strumenti.
 
+Liquid assegna `cafe-liquid-glass` agli strumenti sospesi e `cafe-liquid-action` alla CTA principale. Contenuti, listini e campi mantengono carta e bianco opachi. La fotografia dell’hero conserva una sfumatura verde scuro per sostenere il titolo bianco e lasciare leggibili i controlli chiari.
+
 AR distingue il vetro chiaro del pannello informativo (`cafe-spaziale-glass`) dal campo verde scuro dei controlli e del prodotto. Testo verde scuro e secondario desaturato rimangono leggibili davanti allo sfondo; il verde chiaro `cafe-spaziale-action` segnala Sposta e il prodotto selezionato. La fotografia riempie la scena senza contenere interfacce disegnate nel raster.
 
 Olografica assegna `cafe-holo-space` al campo esterno, `cafe-olografica-paper` al centro della sfumatura della base e `cafe-olografica-surface` ai campi del modulo. Testo e prodotti conservano avorio e colori naturali; l’azzurro `cafe-holo-scan-light` appartiene alla luce, alle scansioni e ai piani trasparenti che proiettano i blocchi di testo. `cafe-holo-text-rule` e `cafe-holo-text-tint` registrano il filetto e la velatura alpha di questi piani; i prodotti conservano i propri colori. L’azione principale e i prezzi usano il verde chiaro; il testo secondario rimane grigio.
@@ -706,6 +741,8 @@ Olografica assegna `cafe-holo-space` al campo esterno, `cafe-olografica-paper` a
 Le famiglie sono locali o di sistema; nessun font viene richiesto in rete dal runtime. Times e Trebuchet/Tahoma sono parte delle ricostruzioni storiche. Roboto distingue le tre generazioni Material; Press Start 2P caratterizza i titoli e i controlli del revival a pixel, mentre il testo corrente rimane Space Grotesk. Archivo Black, Fraunces e Audiowide hanno un ruolo espressivo delimitato; IBM Plex Mono accompagna prezzi e metadati neobrutalisti. Limelight e i font dei mondi rimossi restano conservati con le licenze nell’archivio.
 
 I ruoli display e corpo sono registrati nel frontmatter per variante. Le dimensioni effettive del display includono i clamp e le relazioni con la scelta di lettura; le dimensioni di titoli di sezione, prosa e metadati rimangono governate dai rispettivi CSS. Minimalista combina display ampio, sezioni leggere e prosa aperta; Massimalismo usa display pesante, corsivi, nastri e collage; Retro 8 bit aumenta l’interlinea dei titoli a matrice. Titoli e descrizioni crescono naturalmente e conservano righe e glifi interi.
+
+Liquid usa Inter locale, display `clamp(42px,5vw,76px)` di peso 600, interlinea 1,08 e tracking −0,035em. Entro 1100 px il display usa `clamp(42px,5.2vw,62px)`; entro 720 px usa `clamp(40px,10.5vw,58px)` e interlinea 1,12. Il lead misura 19 px/1,7 su desktop, 18 px entro 1100 px e 17 px entro 720 px, con larghezza massima di 36ch nell’hero e 40ch nelle introduzioni. Navigazione e selettore restano compatti e distinti dal titolo.
 
 AR usa Inter locale nei pannelli, nei prodotti e nei controlli. Il nome del bar misura 34 px e scende a 28 px entro 760 px; titoli dei pannelli a 25/23 px, prosa a 15 px con interlinea 1,7 e descrizioni del menu a 13 px con interlinea 1,6 separano informazioni e azioni. Prezzi e orari usano cifre tabulari.
 
@@ -721,6 +758,8 @@ Primissimo web segue il flusso di un documento. Primo web combina fotografie JPE
 
 Primo web, Web 2.0, Scheumorfismo e Y2K mantengono una soglia nominale di 1024 px con scorrimento orizzontale sui viewport stretti; cornice XP e tavolo possono aggiungere pochi pixel esterni. È una scelta delle ricostruzioni, non una cronologia tecnologica universale. Le altre 17 varianti si adattano allo schermo. Le regole comuni distinguono fino a 720 px, da 721 a 1000 px e oltre 1000 px; le composizioni specifiche mantengono le proprie griglie e, dove necessario, una soglia aggiuntiva a 1100 px. Il ritmo usa i valori locali `cafe-8`–`cafe-64`; Minimalista usa anche spazio fluido tra 24 e 80 px. Menu, storie, riepiloghi e footer crescono nel flusso con i dati.
 
+Liquid sovrappone header trasparente e hero nella stessa riga CSS Grid. Il campo raggiunge 1280 px; i margini partono da 48 px, scendono a 32 px entro 1100 px e a 24 px entro 720 px. Marchio, navigazione e selettore sono gruppi indipendenti; entro 1100 px la navigazione occupa la seconda riga. Su mobile marchio e selettore restano affiancati sopra i tre collegamenti, con header largo `calc(100% - 32px)` e spazio riservato di 176 px prima del contenuto. L’hero desktop affianca testo e fotografia con intervallo di 64 px e altezza minima di 720 px; su mobile si impila e cresce nel flusso. Le categorie del menu sono righe aperte: introduzione e fotografia nella colonna 0,75fr, listino in quella 1,25fr, intervallo di 64 px (40 px entro 1100 px); entro 720 px seguono una colonna. Fotografie e testi mantengono proporzioni e flusso senza card di vetro.
+
 AR colloca la persona in una strada cittadina prima dell’arrivo al bar. Sotto il selettore, una fotografia sintetica continua sostiene un pannello informativo e un prodotto scontornato su livelli CSS 3D distinti. Il mondo occupa la larghezza disponibile fino a 1010 px, con colonne riducibili da 610 e 330 px e intervallo di 70 px; da 1500 px cresce a 1120 px. La griglia ammette il restringimento del mondo anche sui viewport intermedi. L’altezza del pannello segue la viewport fra 440 e 650 px, lasciando spazio ai controlli; il corpo scorre internamente. Entro 760 px il prodotto, con nome, prezzo e descrizione, precede il pannello alto 490 px. La barra dei controlli mobile rimane nel flusso, subito dopo le istruzioni e prima della scena; segue poi il testo dimostrativo. Fino a 1200 px la scena limita spostamento, rotazione e scala per mantenere consultabili i contenuti. Il filtro del menu affianca etichetta e select nella stessa riga. Generativa affianca chat e anteprima su desktop e le impila su mobile; i componenti generati seguono una sequenza specifica per Home, Menu, Il locale o Contatti.
 
 Olografica ha un piano grafite rettangolare con quattro angoli visibili, senza raggio o ombra, fisso nella viewport mentre i contenuti scorrono davanti. Lo pseudo-elemento della base è posizionato a `left:47%`, largo `min(1000px,74vw)`, alto 68svh (massimo 820 px) e posizionato a `top:14svh`. La sfumatura neutra a 145° va da `cafe-holo-base-light` attraverso `cafe-olografica-paper` al 58% fino a `cafe-holo-base-deep`; il filetto misura 1 px e usa `cafe-holo-base-rule`. Entro 800 px il piano misura 74vw × 66svh, a top 15svh; entro 600 px misura `calc(100vw - 108px)` × 64svh, a top 16svh. La prospettiva resta visibile anche su mobile.
@@ -729,11 +768,21 @@ La struttura dei contenuti rimane nel flusso, larga `calc(100% - 240px)` e al ma
 
 La stampa è una composizione A4 autonoma e può occupare più pagine. Il menu torna completo anche con un filtro attivo e i contenuti informativi restano nel flusso. Glass e Liquid perdono fotografia di fondo, blur e ombre; Olografica usa carta bianca, testo scuro e immagini ferme, senza scansioni, fasci, ombre o profondità. I dettagli espandibili di Olografica si aprono per la stampa e ritornano allo stato precedente dopo. Generativa completa la conversazione prima della stampa e mantiene insieme nome, prezzo e descrizione di ogni voce. AR mostra in stampa tutti e quattro i pannelli informativi e tutte le categorie del menu, con il prodotto selezionato, su carta bianca; nasconde sfondo, controlli, blur e trasformazioni e ripristina tab e filtro al termine. Il padding e le parole intere restano requisiti anche a 1032 px.
 
+Per Material 1, Material 2, Material 3, Neumorfismo e Glass, `styles/common/materials-layout.source.css` coordina il ritmo di lettura senza assegnare materiali: sui desktop sopra 1000 px Menu e Contatti affiancano titolo e introduzione, con intervalli fluidi da 32 a 64 px; i listini mantengono prezzi non comprimibili e cifre tabulari. Material 1 dispone la descrizione sotto la coppia nome/fotografia; Material 2, sopra 1100 px, dedica una colonna al caffè e affianca croissant e tè su due righe. Material 3 separa le informazioni aperte dai listini tonali; Neumorfismo concentra l’incavo sul listino lasciando liberi titolo e fotografia. Glass riunisce i prodotti in un unico piano di lettura e dispone ogni categoria su due colonne. Su mobile categorie e moduli seguono una colonna, con gruppi distanziati di 24–32 px. Le immagini conservano regioni e proporzioni registrate, senza nuove cornici.
+
+Minimalista presenta le categorie come sequenze editoriali: titolo, introduzione e immagine a sinistra, listino a destra; sullo schermo stretto torna il flusso naturale. Y2K mantiene il canvas minimo da 1024 px e distingue l’intestazione dei pannelli dalle righe del listino. Max e Neo articolano il testo del locale su due colonne e riuniscono descrizioni e prezzi dei prodotti. I segni decorativi Neo occupano il margine superiore senza restringere il modulo contatti. Retro 8 bit riduce la barra decorativa e dispone i tre collegamenti su una riga nei viewport stretti. Bento mantiene fotografie a copertura dei moduli, accorcia hero e tessere su mobile e separa con lo spazio l’immagine dalle righe di menu.
+
+Adattabile allinea laboratorio e contenuti ai margini di 48/32/24 px: la larghezza minima delle colonne cresce con la scala di lettura, così aumentare il testo riduce il numero di colonne; il menu mantiene al massimo due colonne. Generativa usa un campo massimo di 1408 px, una conversazione da 360 px e un’anteprima flessibile con intervallo di 48 px; sotto 1000 px l’intervallo scende a 24 px e sotto 760 px i due flussi si impilano. L’anteprima affianca fotografia quadrata e testo e presenta le proposte come righe con immagine e descrizione. AR raggruppa nome e prezzo del prodotto e mantiene bersagli di almeno 44 px per selezione e zoom. In Olografica il listino occupa una categoria per riga, con titolo e immagine a sinistra e voci a destra; sotto 800 px torna in colonna. La proiezione dell’hero conserva la propria composizione; gli orari usano l’avorio primario e i moduli di contatto di Adattabile e Olografica si impilano sotto 1100 px.
+
 ### Elevation & Depth
 
 La profondità deriva dal materiale della variante. Flat e Minimalista affidano la gerarchia a campiture, testo, spazio e filetti. Material 1 distingue carta, app bar, pulsante e FAB con elevazioni misurate e ripple finito; Material 2 conserva ombre più leggere e forme legate al prodotto; Material 3 differenzia i container soprattutto con tonalità. Le azioni Material occupano una riga dedicata nel flusso e conservano lo spazio dei contenuti.
 
-Neumorfismo usa `--neumo-up` e `--neumo-down`: coppie di luce e ombra rendono convessi gli strumenti e incavati campi o selezioni, con bordi e testo indipendenti dal rilievo. Glass rivela una fotografia del locale dietro header, hero e pannelli sfocati; i piani di lettura sono più opachi. Liquid concentra vetro, rim e riflessi nei controlli e nella navigazione, distinti dal contenuto. I fallback per ridotta trasparenza, forced colors e stampa appartengono ai CSS della variante.
+Neumorfismo usa `--neumo-up` e `--neumo-down`: coppie di luce e ombra rendono convessi gli strumenti e incavati campi o selezioni, con bordi e testo indipendenti dal rilievo. Glass rivela una fotografia del locale dietro header, hero e pannelli sfocati; i piani di lettura sono più opachi. I fallback per ridotta trasparenza, forced colors e stampa appartengono ai CSS della variante.
+
+Liquid concentra vetro, rim e riflessi in navigazione, selettore, CTA e filtri. La velatura chiara è `--liquid-glass`; il blur statico di 12 px con saturazione 135% e `--liquid-rim` definiscono il bordo e l’elevazione degli strumenti. Il rim combina tre luci/ombre interne e un’ombra esterna di 8/24 px; il valore esatto e il gradiente `--liquid-sheen` sono nel sidecar. La separazione fra strumenti sospesi e contenuto segue [Apple · Meet Liquid Glass](https://developer.apple.com/videos/play/wwdc2025/219/). La [ricerca](reports/liquid-glass/research.md) registra fonti e limiti dell’interpretazione web: riflessi CSS e blur statico accompagnano il materiale, senza riprodurne la rifrazione o l’adattività native.
+
+**The Liquid Control Plane Rule.** In Liquid il vetro appartiene a navigazione, selettore, CTA e filtri. L’header resta trasparente; contenuti, listini e campi restano opachi. Gli stati interni della navigazione usano una velatura senza un secondo blur o rim.
 
 AR usa una prospettiva di 1800 px, che diventa 2200 px entro 760 px. Il pannello ruota di 6° sull’asse Y (3° su mobile); il prodotto avanza di 105 px e ruota di −9°, mentre su mobile avanza di 25 px. Il vetro usa blur di 26 px e saturazione 0,85; ombre morbide separano pannello e sagoma fotografica dallo sfondo. Il trascinamento dello sfondo e le frecce modificano l’orientamento della scena; l’orientamento cambia soltanto in risposta all’interazione. L’ingresso del pannello dura 650 ms, con spostamento di 22 px e blur di 2 px; il movimento ridotto omette ingresso e transizioni. Ombre, tempi e soglie sono registrati nel sidecar.
 
@@ -758,6 +807,10 @@ I tre prodotti condivisi da Olografica e AR sono immagini fotografiche sintetich
 ### Components
 
 Header, navigazione, select dello stile, filtri, campi e azioni assumono la grammatica scelta. Il select mantiene etichetta e comportamento nativo e mostra anni prima del nome; `?stile=` persiste fra pagine, Indietro e ricaricamento. Il select Argomento mantiene una freccia visibile anche su un materiale personalizzato. Focus, skip link, etichette e stati premuti conservano l’uso da tastiera; campi e controlli sono riconoscibili indipendentemente dalle ombre.
+
+In Liquid navigazione, selettore e filtri hanno forma a pillola; i collegamenti e il selettore sono alti almeno 46 px. La CTA verde chiaro è alta almeno 54 px, 52 px su mobile: hover la solleva di 2 px, pressione la riduce a 0,98; `transform` dura 220 ms con `cubic-bezier(.16,1,.3,1)` e il colore 180 ms ease-out. La navigazione cambia velatura in 180 ms. Il riflesso segue il puntatore soltanto su navigazione, CTA e filtri con hover e puntatore fine, senza ciclo continuo; movimento o trasparenza ridotti, contrasto aumentato e forced colors lo disabilitano anche quando la preferenza cambia durante la visita. `directions-materials.js` rimuove listener, frame pendenti e coordinate al cambio stile.
+
+I campi Liquid sono bianchi con bordo di 1 px `cafe-liquid-rule` e raggio 12 px. Il focus rimane un outline visibile di 3 px; la navigazione usa il verde primario e l’hero il bianco. Trasparenza ridotta, contrasto aumentato e assenza di backdrop-filter rendono opachi gli strumenti; forced colors conserva bordi, outline e selezioni con i colori di sistema. Movimento ridotto elimina transizioni e trasformazioni dei controlli anche durante hover e pressione. La stampa resta una composizione opaca autonoma, senza fotografia di fondo, blur, rim o riflessi, con menu completo.
 
 La tab **Design** è un controllo didattico comune, richiesto dall’utente su tutte le rappresentazioni e sulle quattro pagine. Rimane collegata al bordo destro della viewport, al centro in altezza, anche durante lo scorrimento dei layout storici. Apre un piccolo pannello non modale: nome, periodo, introduzione, quattro caratteristiche della variante corrente e una fonte di approfondimento. Se cambia stile mentre è aperto, il contenuto si aggiorna. È un’eccezione esplicita anche per Primissimo web e AR.
 

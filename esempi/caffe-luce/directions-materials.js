@@ -3,6 +3,7 @@
 
   let cafe;
   const own = [];
+  const teardown = [];
   const supported = ['flat', 'material', 'material2', 'material3', 'neumo', 'glass', 'liquid'];
   // Original TTC pictograms: geometric filled silhouettes, never emoji or raster icons.
   const paths = {
@@ -33,7 +34,48 @@
   }
 
   function clean() {
+    teardown.splice(0).forEach(function (dispose) { dispose(); });
     own.splice(0).forEach(function (element) { element.remove(); });
+  }
+
+  // Light follows deliberate pointer movement on the small control plane only.
+  function liquidLight(style) {
+    const reduceEffects = window.matchMedia('(prefers-reduced-motion: reduce), (prefers-reduced-transparency: reduce), (prefers-contrast: more), (forced-colors: active)');
+    if (style.id !== 'liquid' || !window.matchMedia('(hover: hover) and (pointer: fine)').matches ||
+        reduceEffects.matches) return;
+    cafe.querySelectorAll('.cafe-nav,.cafe-cta,.menu-filter').forEach(function (control) {
+      let frame = 0;
+      let x = 25;
+      let y = 0;
+      function move(event) {
+        if (reduceEffects.matches) { reset(); return; }
+        const bounds = control.getBoundingClientRect();
+        x = Math.max(0, Math.min(100, (event.clientX - bounds.left) / bounds.width * 100));
+        y = Math.max(0, Math.min(100, (event.clientY - bounds.top) / bounds.height * 100));
+        if (frame) return;
+        frame = requestAnimationFrame(function () {
+          if (reduceEffects.matches) { reset(); return; }
+          control.style.setProperty('--liquid-light-x', x.toFixed(1) + '%');
+          control.style.setProperty('--liquid-light-y', y.toFixed(1) + '%');
+          frame = 0;
+        });
+      }
+      function reset() {
+        cancelAnimationFrame(frame);
+        frame = 0;
+        control.style.removeProperty('--liquid-light-x');
+        control.style.removeProperty('--liquid-light-y');
+      }
+      control.addEventListener('pointermove', move, { passive: true });
+      control.addEventListener('pointerleave', reset);
+      reduceEffects.addEventListener('change', reset);
+      teardown.push(function () {
+        control.removeEventListener('pointermove', move);
+        control.removeEventListener('pointerleave', reset);
+        reduceEffects.removeEventListener('change', reset);
+        reset();
+      });
+    });
   }
 
   function decorateNavigation(style) {
@@ -86,6 +128,7 @@
         link.appendChild(icon('arrow', 'materials-action-icon'));
       });
       floatingAction(style);
+      liquidLight(style);
     },
   };
 })();

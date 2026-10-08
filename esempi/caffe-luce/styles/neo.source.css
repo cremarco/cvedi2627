@@ -193,3 +193,55 @@
 @media print {
   .cafe[data-style="neo"][data-content="ttc"][data-page] :is(.neo-pattern-band,.neo-print-mark) { display: none; }
 }
+
+/* Printshop grids keep the mark in the margin and the information on a clear rail. */
+@media screen {
+  .cafe[data-style="neo"][data-content="ttc"][data-page] { --neo-space: clamp(24px,4vw,64px); --neo-gap: 32px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .cafe-hero { height: auto; grid-template-rows: auto; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .hero-picture { width: 100%; height: auto; min-height: 0; aspect-ratio: var(--crop-width,1) / var(--crop-height,1); align-self: center; flex: none; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .hero-copy { padding: 64px var(--neo-space); }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .hero-lead { max-width: 36ch; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .cafe-menu { padding: 48px var(--neo-space) 64px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .section-heading { margin-bottom: 32px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .menu-grid { gap: var(--neo-gap); align-items: stretch; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .menu-item { padding: 28px; text-align: left; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .menu-picture { height: 240px; margin-block: 24px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .product-story { margin-inline: 0; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .product-price { border-top: 2px solid var(--cafe-rule); margin-top: 20px; padding-top: 16px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .page-intro { display: grid; grid-template-columns: minmax(0,1.15fr) minmax(0,1fr); gap: 48px; align-items: end; min-height: 256px; padding: 48px var(--neo-space); }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .page-intro .hero-lead { margin: 0 0 8px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .menu-tools { padding-block: 24px; gap: 12px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .menu-page-products .menu-grid { gap: 40px; align-items: start; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .menu-item.menu-category { padding: 32px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .menu-category .menu-picture { height: 280px; margin-block: 24px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] :is(.cafe-values,.locale-story,.menu-note,.contact-message) { padding-inline: var(--neo-space); padding-block: 48px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .neo-print-mark { right: var(--neo-space); top: 16px; width: 32px; height: 32px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .cafe-values { gap: 40px; padding-top: 64px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .locale-story > div { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1.1fr); gap: 0 64px; max-width: none; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .locale-story h2 { grid-row: 1 / 3; max-width: 18ch; font-size: clamp(32px,3.5vw,48px); }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .contact-layout { grid-template-columns: minmax(0,1fr) minmax(0,1.1fr); gap: 48px; padding-block: 48px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .contact-picture { height: 100%; min-height: 480px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .contact-message { gap: 64px; grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr); }
+}
+@media screen and (max-width:1000px) {
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .menu-item { padding: 24px 20px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .menu-item :is(h2,h3) { font-size: 24px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .locale-story > div { gap: 0 32px; }
+}
+@media screen and (max-width:720px) {
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .hero-copy { padding: 40px 24px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .cafe-menu { padding-block: 32px 48px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .menu-item { padding: 28px 24px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .home-highlights .menu-item :is(h2,h3) { font-size: 30px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .page-intro { grid-template-columns: 1fr; gap: 24px; min-height: 0; padding-block: 40px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .page-intro .hero-lead { margin: 0; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .menu-page-products .menu-grid { gap: 32px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .menu-item.menu-category { padding: 28px 24px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .menu-category .menu-picture { height: 240px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] :is(.cafe-values,.locale-story,.menu-note,.contact-message) { padding-block: 56px 32px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .neo-print-mark { top: 16px; bottom: auto; width: 24px; height: 24px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .locale-story > div { display: block; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .contact-layout { grid-template-columns: 1fr; padding-block: 32px; gap: 32px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .contact-picture { min-height: 360px; height: 360px; }
+  .cafe[data-style="neo"][data-content="ttc"][data-page] .contact-message { grid-template-columns: 1fr; gap: 32px; }
+}
