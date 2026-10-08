@@ -29,6 +29,7 @@
     "check:layout": "node scripts/check/layout.mjs",
     "check:projects": "node scripts/check/projects.mjs",
     "check:caffe-luce": "node scripts/check/caffe-luce.mjs",
+    "check:caffe-motion": "node scripts/check/caffe-ttc-motion.mjs",
     "check:caffe-notes": "node scripts/check/caffe-ttc-notes.mjs",
     "check:web-examples": "node scripts/check/web-design-examples.mjs",
     "check:links": "python3 scripts/check/site-links.py",

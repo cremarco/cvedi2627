@@ -773,11 +773,11 @@ Olografica offre **Riproietta** e **Ferma il movimento / Riattiva il movimento**
 
 **The Representation Rule.** `presentation: text/site/scene/conversation` stabilisce quale rappresentazione è visibile: AR e Generativa sostituiscono il sito ordinario. Conservare cleanup e caricamento coerenti quando cambia lo stile.
 
-### Transizioni fra mondi grafici e pagine
+### Transizioni fra mondi grafici
 
 Il cambio di stile rivela il nuovo mondo da destra verso sinistra in 620 ms, con `cubic-bezier(.16,1,.3,1)` e una lieve uscita del precedente. Il selettore resta riconoscibile mentre cambia posizione e materiale; il pannello Design ha un nome di transizione separato e rimane sul bordo della viewport. Prima della cattura vengono preparati CSS e bitmap; il nuovo stato aspetta anche font e composizioni. `page-transitions.js` coordina View Transitions, interruzioni e fallback senza clonare i campi o perdere bozze e focus.
 
-La navigazione fra le quattro pagine usa una tendina nel primario corrente: chiusura di 160 ms, apertura di 440 ms quando la destinazione è pronta. Un handoff temporaneo nella sessione attiva la copertura nel head prima del primo paint; un limite di 6 secondi evita schermate bloccate in caso di script mancanti. Link modificati, download, mailto, hash e collegamenti esterni mantengono il comportamento nativo.
+La navigazione fra Home, Menu, Il locale e Contatti nello stesso stile è immediata e mantiene il comportamento nativo, senza tendina né ritardi aggiunti. Solo un collegamento che cambia anche stile usa la tendina nel primario corrente: chiusura di 160 ms, apertura di 440 ms quando la destinazione è pronta. Un handoff temporaneo registra stile di partenza e destinazione e attiva la copertura nel head prima del primo paint solo quando sono diversi; gli handoff precedenti senza questi dati vengono scartati. Un limite di 6 secondi evita schermate bloccate in caso di script mancanti. Link modificati, download, mailto, hash e collegamenti esterni mantengono il comportamento nativo.
 
 `styles/transitions.source.css` è il foglio comune, compilato in `styles/transitions.css`. Movimento ridotto, stampa e scheda nascosta omettono la sequenza spaziale; BFCache ripristina la pagina scoperta. La transizione rimane finita e non introduce movimento durante la prima apertura o un semplice reload.
 

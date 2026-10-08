@@ -30,13 +30,15 @@
     arrivalTimer = setTimeout(clearCover, 460);
   }
 
-  // A handoff exists only after a real link click, and expires quickly.
+  // A handoff exists only after a link changes style, and expires quickly.
   // Reload, direct URLs and restricted storage retain ordinary page behaviour.
   try {
     const handoff = JSON.parse(sessionStorage.getItem(storageKey) || 'null');
     sessionStorage.removeItem(storageKey);
     const here = new URL(location.href); here.hash = '';
-    if (handoff && handoff.to === here.href && Date.now() - handoff.created < 10000 && canAnimate()) {
+    if (handoff && typeof handoff.fromStyle === 'string' && typeof handoff.toStyle === 'string'
+      && handoff.fromStyle !== handoff.toStyle && handoff.to === here.href
+      && Date.now() - handoff.created < 10000 && canAnimate()) {
       if (CSS.supports('color', handoff.color)) root.style.setProperty('--cafe-transition-color', handoff.color);
       root.dataset.cafeNavigation = 'arriving';
       arrivalTimer = setTimeout(clearCover, 6000);
@@ -90,9 +92,16 @@
     const folder = here.pathname.slice(0, here.pathname.lastIndexOf('/') + 1);
     if (target.origin !== here.origin || target.pathname.slice(0, target.pathname.lastIndexOf('/') + 1) !== folder || !/\/(index|menu|locale|contatti)\.html$/.test(target.pathname)) return;
     if (target.pathname === here.pathname && target.search === here.search) return;
+    const styles = window.CAFFE_STYLES;
+    if (!Array.isArray(styles) || !styles.length) return;
+    const requested = target.searchParams.get('stile');
+    const toStyle = styles.some(function (style) { return style.id === requested; }) ? requested : 'flat';
+    const fromStyle = root.dataset.style;
+    // Ordinary navigation within the current visual world stays native.
+    if (fromStyle === toStyle) return;
     if (navigating) { event.preventDefault(); return; }
     const color = colorOfStyle(), destination = new URL(target.href); destination.hash = '';
-    try { sessionStorage.setItem(storageKey, JSON.stringify({ to: destination.href, color: color, created: Date.now() })); }
+    try { sessionStorage.setItem(storageKey, JSON.stringify({ to: destination.href, fromStyle: fromStyle, toStyle: toStyle, color: color, created: Date.now() })); }
     catch (reason) { return; }
     event.preventDefault();
     cancelStyle();
