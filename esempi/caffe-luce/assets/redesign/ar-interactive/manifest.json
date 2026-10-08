@@ -1,0 +1,43 @@
+{
+  "key": "ar_interactive_street_background_v1",
+  "title": "Caffè TTC · sfondo per simulazione AR interattiva",
+  "generator": "built-in image_gen",
+  "intent": "precise-object-edit",
+  "created": "2026-10-08",
+  "prompt": "Use case: precise-object-edit.\nAsset type: clean photographic background for an interactive educational AR café simulation.\nInput images: Image 1 is the edit target, the existing synthetic Italian street scene.\nPrimary request: remove ALL three floating glass website panels, every interface element, all lettering embedded in those panels, and the foreground hand and sleeve. Reconstruct only the natural street architecture, pavement and scenery behind them. The final image is exclusively a clean photorealistic pedestrian street background, with no interface drawn into it.\nScene/backdrop: preserve the warm Italian neighborhood square, cobblestone pedestrian pavement, ochre buildings, right-side porticoes, trees, planters and the distant church. Keep the same inviting natural daylight, camera viewpoint, depth and warm color character. Keep the center and foreground clear and quietly open for separate interactive HTML panels that will be added later; do not generate those panels. Small distant pedestrians may remain naturally integrated near the sides.\nComposition/framing: wide landscape 16:10, about 1920 by 1200 pixels. Preserve the architectural composition and original perspective. Continuous full-bleed photographic scene, no border.\nConstraints: no hands, no close foreground people, no physical cup or food in the foreground, no UI, no glass panels, no text, no letters, no numbers, no signs with lettering, no logos, no watermark, no cartoon, no artificial blur layer. Natural street detail and realistic soft daylight shadows. Keep the background opaque.",
+  "correctionPrompt": "Use case: precise-object-edit.\nInput image: the clean synthetic Italian pedestrian street is the edit target.\nChange only the wall signs and menu boards under the porticoes on the RIGHT SIDE of the image: remove the narrow white rectangular menu board with tiny lettering on the far right wall, remove any other small wall sign bearing letters, and remove the dark freestanding board at the extreme lower right. Fill their places naturally with the matching ochre wall or pavement and café furniture behind. The result must contain no legible or fake text, letters, numbers, printed menu cards, sign panels or logos anywhere.\nPreserve absolutely everything else: the entire architectural composition, warm Italian street, cobblestones, people, foliage, tables, porticoes, church, photographic lighting, camera perspective, width and height. No UI, no virtual panels, no hand, no border. Opaque photorealistic background only.",
+  "referenceImage": "assets/redesign/future/ar-site-street-v2.png",
+  "referenceProvenance": "assets/redesign/future/ar-site-street-v2.provenance.json",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a11bb6-6e7f-78f2-9191-9473e3e3eeb0/exec-236aa14b-999e-47da-bd7c-ac7b00ece9bd.png",
+  "initialGeneration": "/Users/marco/.codex/generated_images/01a11bb6-6e7f-78f2-9191-9473e3e3eeb0/exec-8943dcd7-8860-4999-aec6-3bf6abe14ec4.png",
+  "provenance": "Original synthetic photographic illustration generated with OpenAI ImageGen for the fictional Caffè TTC educational website. An edit of the existing generated Italian street scene removes its raster UI and hand; a second edit removes wall lettering and menu boards. This is a constructed street background for a local interactive simulation, not documentary photography or a hardware capture.",
+  "license": "Generated asset for this project using OpenAI ImageGen; no third-party photograph or external stock license.",
+  "original": "assets/redesign/ar-interactive/street-background-v1.png",
+  "runtime": {
+    "src": "assets/redesign/ar-interactive/street-background-v1.webp",
+    "width": 1586,
+    "height": 992,
+    "bytes": 1974428,
+    "sha256": "d61ab86f27f98508be628b49615f09aff115edc77fae5e02f9fd8e47dd42e700",
+    "operation": "Lossless WebP encoding; original dimensions and pixels preserved."
+  },
+  "crop": {
+    "x": 0,
+    "y": 0,
+    "width": 1,
+    "height": 1,
+    "objectPosition": "center center"
+  },
+  "alt": "Strada pedonale italiana con pavé, portici color ocra, alberi e tavolini all’aperto in luce naturale.",
+  "validation": {
+    "ui": false,
+    "hands": false,
+    "text": false,
+    "borders": false,
+    "transparent": false,
+    "visualReview": "Verified: continuous street without raster panels, foreground hand or fabricated menu lettering; central pavement remains open for HTML interaction.",
+    "pixelMatch": true
+  },
+  "originalSha256": "b718288b102a8a57b354d399c6ad8952125f1cd85c87d43afe616dc226759a3b",
+  "originalBytes": 2843428
+}

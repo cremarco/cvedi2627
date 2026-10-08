@@ -459,13 +459,15 @@ body[data-style="olografica"] { overflow-x:clip; }
     text-shadow:.5px 0 #a6f4ff40,12px 24px 16px #000b;
   }
   .cafe[data-style="olografica"][data-content="ttc"] .holo-text :is(.btn,input,textarea,select) { text-shadow:none; }
-  .cafe[data-style="olografica"][data-content="ttc"].holo-projecting .holo-text[data-holo-inview="true"] {
+  /* Keep the observed box stable; clipping it would restart its own entrance. */
+  .cafe[data-style="olografica"][data-content="ttc"].holo-projecting .holo-text { animation:none; }
+  .cafe[data-style="olografica"][data-content="ttc"].holo-projecting .holo-text[data-holo-inview="true"] > * {
     animation:holo-text-materialize 1.6s cubic-bezier(.16,1,.3,1) both;
   }
   .cafe[data-style="olografica"][data-content="ttc"].holo-projecting .holo-text[data-holo-inview="true"]::after {
     animation:holo-text-scan 8s linear infinite;
   }
-  .cafe[data-style="olografica"][data-content="ttc"][data-float-paused="true"] .holo-text,
+  .cafe[data-style="olografica"][data-content="ttc"][data-float-paused="true"] .holo-text > *,
   .cafe[data-style="olografica"][data-content="ttc"][data-float-paused="true"] .holo-text::after { animation-play-state:paused !important; }
 }
 @keyframes holo-text-materialize {
@@ -486,6 +488,7 @@ body[data-style="olografica"] { overflow-x:clip; }
 }
 @media (prefers-reduced-motion:reduce) {
   .cafe[data-style="olografica"][data-content="ttc"] .holo-text { animation:none !important; transition:none; translate:none; filter:none; clip-path:none; }
+  .cafe[data-style="olografica"][data-content="ttc"] .holo-text > * { animation:none !important; translate:none; filter:none; clip-path:none; }
   .cafe[data-style="olografica"][data-content="ttc"] .holo-text::after { display:none; }
 }
 @media print {

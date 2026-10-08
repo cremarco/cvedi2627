@@ -116,7 +116,10 @@ async function settle(page, styleId) {
     const frames = [...root.querySelectorAll('.cafe-picture[data-picture]')]
     if (frames.length !== counts[root.dataset.page]) return false
     if (id === 'text') return frames.every(frame => !frame.querySelector('img').hasAttribute('src'))
-    if (id === 'spaziale') { const img = root.querySelector('.ar-site-image'); return img?.complete && img.naturalWidth > 0 }
+    if (id === 'spaziale') {
+      const stage = root.querySelector('.ar-stage')
+      return stage?.dataset.ready === 'true' && [...stage.querySelectorAll('img')].every(img => img.complete && img.naturalWidth > 0)
+    }
     if (id === 'generativa') return root.querySelector('.conversation-stage')?.dataset.complete === 'true' && [...root.querySelectorAll('.conversation-stage img')].every(img => img.complete && img.naturalWidth > 0)
     const deferred = id === 'risorse' && root.dataset.images === 'deferred'
     const framesReady = frames.every(frame => {
@@ -162,6 +165,8 @@ async function snapshot(page) {
       const ink = textBoxes(node)
       if (!node.getClientRects().length || !ink.length || style.display === 'contents') return []
       const box = node.getBoundingClientRect()
+      const spatialScroller = root.dataset.style === 'spaziale' && node.closest('.ar-panel-body')
+      const scrollsVertically = spatialScroller && ['auto', 'scroll'].includes(getComputedStyle(spatialScroller).overflowY) && spatialScroller.scrollHeight > spatialScroller.clientHeight
       let reason = box.height <= 1 ? 'zero-text-layout-height' : ''
       let clippingAncestor
       for (let ancestor = node; !reason && ancestor; ancestor = ancestor.parentElement) {
@@ -169,7 +174,11 @@ async function snapshot(page) {
         const clipsX = ['hidden', 'clip'].includes(css.overflowX), clipsY = ['hidden', 'clip'].includes(css.overflowY)
         if (!clipsX && !clipsY) continue
         const left = rect.left + ancestor.clientLeft, top = rect.top + ancestor.clientTop
-        if (ink.some(glyph => (clipsX && (glyph.left < left - 2 || glyph.right > left + ancestor.clientWidth + 2)) || (clipsY && (glyph.top < top - 2 || glyph.bottom > top + ancestor.clientHeight + 2)))) {
+        // The AR menu deliberately scrolls within a bounded panel. Preserve
+        // horizontal and inner text clipping checks without flagging rows
+        // that are reachable below that vertical scrolling viewport.
+        const scrollClipsY = scrollsVertically && ancestor.contains(spatialScroller)
+        if (ink.some(glyph => (clipsX && (glyph.left < left - 2 || glyph.right > left + ancestor.clientWidth + 2)) || (clipsY && !scrollClipsY && (glyph.top < top - 2 || glyph.bottom > top + ancestor.clientHeight + 2)))) {
           reason = 'text-cut-by-overflow'
           clippingAncestor = ancestor.id || ancestor.className || ancestor.tagName
         }
@@ -320,9 +329,15 @@ async function checkScenarioContent(page, fixture) {
   const oldSections = await page.locator('#cafe > section:not(.scenario-stage), #cafe > footer, .cafe-nav').evaluateAll(nodes => nodes.filter(node => node.getClientRects().length).map(node => node.className))
   assert.deepEqual(oldSections, [], `${id}: the site must be replaced by its requested scenario`)
   if (id === 'spaziale') {
-    assert.equal(await page.locator('.ar-stage img').count(), 1, 'AR must contain exactly one illustration')
-    const scene = await page.locator('.ar-site-image').evaluate(node => ({ alt:node.alt, width:node.getBoundingClientRect().width, height:node.getBoundingClientRect().height, complete:node.complete }))
+    assert.equal(await page.locator('.ar-stage').getAttribute('data-ready'), 'true', 'The AR scene and product images must be ready')
+    const scene = await page.locator('.ar-environment').evaluate(node => ({ alt:node.alt, width:node.naturalWidth, height:node.naturalHeight, complete:node.complete }))
     assert.ok(scene.alt && scene.complete && scene.width > 0 && scene.height > 0)
+    assert.equal(await page.locator('.ar-tabs [role="tab"]').count(), 4, 'AR needs navigable menu, locale, hours and contact panels')
+    assert.equal(await page.locator('.ar-tab-content[role="tabpanel"]').count(), 4)
+    assert.deepEqual(await page.locator('.ar-menu-name').allTextContents(), content.menu.flatMap(category => category.items.map(item => item.name)), 'The spatial menu must preserve every product')
+    assert.deepEqual((await page.locator('.ar-menu-price').allTextContents()).map(normalized), content.menu.flatMap(category => category.items.map(item => euro(item.price))), 'The spatial menu must preserve every price')
+    assert.deepEqual(await page.locator('.ar-menu-description').allTextContents(), content.menu.flatMap(category => category.items.map(item => item.detail)))
+    assert.equal(await page.locator('.ar-product-choice').count(), 3, 'AR needs working choices for the three photographic products')
   } else {
     assert.equal(await page.locator('.conversation-stage').getAttribute('data-complete'), 'true')
     assert.ok(await page.locator('.generated-piece').count() >= 3, 'The conversation must create multiple working page components')

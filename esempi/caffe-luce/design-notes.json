@@ -379,23 +379,23 @@
       ]
     },
     "spaziale": {
-      "intro": "Una scena in prima persona immagina il sito in realtà aumentata: la persona consulta il bar dalla strada, prima di raggiungere il locale.",
+      "intro": "Pannelli interattivi e prodotti fotografici si dispongono davanti a una strada cittadina. La persona esplora il bar e cambia il punto di vista prima di raggiungere il locale.",
       "features": [
         {
           "label": "Ambiente",
-          "text": "Una strada cittadina con portici e alberi sostituisce il fondo della pagina; il bar non è ancora raggiunto."
+          "text": "Una fotografia sintetica della strada riempie lo sfondo; pannelli e prodotti restano elementi separati, con prospettiva e ombre proprie."
         },
         {
-          "label": "Piani",
-          "text": "Il sito, il menu e gli orari appaiono come pannelli sospesi davanti all’ambiente, con dimensioni e posizioni differenti."
+          "label": "Contenuti",
+          "text": "Menu, locale, orari e contatti sono consultabili nelle tab. Il listino filtra le categorie e tre pulsanti cambiano il prodotto fotografico."
+        },
+        {
+          "label": "Interazione",
+          "text": "Trascinamento e frecce cambiano il punto di vista. Sposta riposiziona i contenuti, −/+ ne regolano la scala e Reimposta ripristina la scena."
         },
         {
           "label": "Materiali",
-          "text": "Superfici traslucide, riflessi e ombre separano le informazioni digitali dalla scena, lasciando intravedere ciò che si trova dietro."
-        },
-        {
-          "label": "Rappresentazione",
-          "text": "Una mano suggerisce il gesto di selezione; la scena è una singola immagine illustrativa, senza controlli AR interattivi."
+          "text": "Vetro chiaro, testo verde scuro e prodotti scontornati distinguono i piani. È una simulazione nel browser, senza fotocamera o rilevamento dell’ambiente."
         }
       ]
     },

@@ -136,8 +136,16 @@ colors:
   cafe-adattabile-rule: "#869478"
   cafe-spaziale-paper: "#13231e"
   cafe-spaziale-surface: "#f8faf7"
-  cafe-spaziale-ink: "#fff"
+  cafe-spaziale-ink: "#173329"
   cafe-spaziale-primary: "#214b39"
+  cafe-spaziale-on-primary: "#fff"
+  cafe-spaziale-muted: "#426054"
+  cafe-spaziale-rule: "#b6c3b7"
+  cafe-spaziale-glass: "rgb(248 250 247 / .87)"
+  cafe-spaziale-action: "#dcebc9"
+  cafe-spaziale-product-surface: "rgb(19 35 30 / .88)"
+  cafe-spaziale-toolbar-surface: "rgb(19 35 30 / .93)"
+  cafe-spaziale-action-hover: "#edf7e1"
   cafe-generativa-paper: "#f5f3ee"
   cafe-generativa-surface: "#fff"
   cafe-generativa-ink: "#172d24"
@@ -267,6 +275,14 @@ typography:
     lineHeight: 1.2
   cafe-spaziale-body:
     fontFamily: "'Inter',sans-serif"
+    fontSize: "15px"
+    lineHeight: 1.7
+  cafe-spaziale-display:
+    fontFamily: "'Inter',sans-serif"
+    fontSize: "34px"
+    fontWeight: 500
+    lineHeight: 1.2
+    letterSpacing: "-.035em"
   cafe-generativa-body:
     fontFamily: "'Inter',sans-serif"
   cafe-generativa-display:
@@ -290,7 +306,10 @@ rounded:
   cafe-2: "2px"
   cafe-3: "3px"
   cafe-4: "4px"
+  cafe-8: "8px"
+  cafe-10: "10px"
   cafe-12: "12px"
+  cafe-14: "14px"
   cafe-16: "16px"
   cafe-20: "20px"
   cafe-24: "24px"
@@ -305,6 +324,26 @@ spacing:
   cafe-48: "48px"
   cafe-64: "64px"
 components:
+  cafe-spaziale-product:
+    backgroundColor: "{colors.cafe-spaziale-product-surface}"
+    textColor: "{colors.cafe-spaziale-surface}"
+    rounded: "{rounded.cafe-12}"
+  cafe-spaziale-toolbar:
+    backgroundColor: "{colors.cafe-spaziale-toolbar-surface}"
+    textColor: "{colors.cafe-spaziale-on-primary}"
+    rounded: "{rounded.cafe-14}"
+    padding: "8px"
+  cafe-spaziale-panel:
+    backgroundColor: "{colors.cafe-spaziale-glass}"
+    textColor: "{colors.cafe-spaziale-ink}"
+    rounded: "{rounded.cafe-16}"
+  cafe-spaziale-place:
+    backgroundColor: "{colors.cafe-spaziale-action}"
+    textColor: "{colors.cafe-spaziale-ink}"
+    rounded: "{rounded.cafe-8}"
+    padding: "10px 14px"
+  cafe-spaziale-place-hover:
+    backgroundColor: "{colors.cafe-spaziale-action-hover}"
   cafe-scheu-menu-open:
     textColor: "{colors.cafe-scheu-menu-open-ink}"
     rounded: "{rounded.cafe-4}"
@@ -615,7 +654,7 @@ Questa sezione riguarda soltanto `esempi/caffe-luce/`, sorgente del sito autonom
 
 Home, Menu, Il locale e Contatti condividono i dati del bar. Ventuno varianti cambiano integralmente composizione, materiali, tipografia, immagini, marchio e controlli. Gli intervalli di riferimento si sovrappongono: Retro 8 bit (1983–1995) indica una matrice estetica; Olografica (2030–2040) è un’ipotesi dichiarata. Il catalogo autorevole è `stili.json`, da cui il generatore produce `stili.js`; anni e nomi compaiono insieme nel selettore. Fonti primarie e scelte didattiche sono nel [README](esempi/caffe-luce/README.md).
 
-Ogni grammatica possiede la sua rappresentazione. Primissimo web è testo e collegamenti; AR sostituisce la pagina con una sola immagine del sito nello spazio; Generativa sostituisce la pagina con una conversazione che costruisce contenuti specifici della destinazione. Le quattro pagine restano consultabili nelle rappresentazioni previste dal catalogo. Le altre varianti usano il sito ordinario. In Olografica un piano grafite delimitato e fisso nella viewport sostiene testi e prodotti che scorrono davanti, oltrepassano i bordi e avanzano verso lo spettatore: la proiezione luminosa e la ricomposizione dei prodotti definiscono l’esperienza.
+Ogni grammatica possiede la sua rappresentazione. Primissimo web è testo e collegamenti; AR sostituisce la pagina con pannelli interattivi e prodotti fotografici davanti a una strada sintetica; Generativa sostituisce la pagina con una conversazione che costruisce contenuti specifici della destinazione. Le quattro pagine restano consultabili nelle rappresentazioni previste dal catalogo. Le altre varianti usano il sito ordinario. In Olografica un piano grafite delimitato e fisso nella viewport sostiene testi e prodotti che scorrono davanti, oltrepassano i bordi e avanzano verso lo spettatore: la proiezione luminosa e la ricomposizione dei prodotti definiscono l’esperienza.
 
 Il marchio Banco TTC mantiene due T e una C che richiama il banco. I suoi materiali seguono lo stile della pagina; dove appare, il simbolo SVG è decorativo e il nome rimane accessibile. I tre concetti vettoriali originali e le prove restano in `assets/brand/concepts/`; Banco è la proposta usata dal sito.
 
@@ -650,11 +689,13 @@ Il marchio Banco TTC mantiene due T e una C che richiama il banco. I suoi materi
 | Retro 8 bit `pixel` | Verde scuro e quattro campi chiari | Press Start 2P / Space Grotesk |
 | Bento `bento` | Verde, bianco e fotografie a pieno modulo | Inter / Inter |
 | Adattabile `adattabile` | Verde su carta e pannelli chiari | Roboto Flex / Roboto Flex |
-| AR `spaziale` | Scena su campo verde scuro | Inter nel selettore |
+| AR `spaziale` | Vetro chiaro e verde scuro davanti alla strada | Inter / Inter |
 | Generativa `generativa` | Verde, carta e chat chiara | Inter / Inter |
 | Olografica · ipotesi `olografica` | Verde chiaro, testo avorio e base grafite nel nero | Space Grotesk / Space Grotesk |
 
 Material 3 distingue primario/testo sul primario, primary container/testo sul container, surface container, surface container high e secondary container. I token aggiuntivi `cafe-material3-*` registrano questi ruoli effettivi: la palette statica salvia interpreta Material 3 senza estrarre colori dal dispositivo. Glass e Liquid conservano testo e superfici di lettura più opache del livello degli strumenti.
+
+AR distingue il vetro chiaro del pannello informativo (`cafe-spaziale-glass`) dal campo verde scuro dei controlli e del prodotto. Testo verde scuro e secondario desaturato rimangono leggibili davanti allo sfondo; il verde chiaro `cafe-spaziale-action` segnala Sposta e il prodotto selezionato. La fotografia riempie la scena senza contenere interfacce disegnate nel raster.
 
 Olografica assegna `cafe-holo-space` al campo esterno, `cafe-olografica-paper` al centro della sfumatura della base e `cafe-olografica-surface` ai campi del modulo. Testo e prodotti conservano avorio e colori naturali; l’azzurro `cafe-holo-scan-light` appartiene alla luce, alle scansioni e ai piani trasparenti che proiettano i blocchi di testo. `cafe-holo-text-rule` e `cafe-holo-text-tint` registrano il filetto e la velatura alpha di questi piani; i prodotti conservano i propri colori. L’azione principale e i prezzi usano il verde chiaro; il testo secondario rimane grigio.
 
@@ -665,6 +706,8 @@ Olografica assegna `cafe-holo-space` al campo esterno, `cafe-olografica-paper` a
 Le famiglie sono locali o di sistema; nessun font viene richiesto in rete dal runtime. Times e Trebuchet/Tahoma sono parte delle ricostruzioni storiche. Roboto distingue le tre generazioni Material; Press Start 2P caratterizza i titoli e i controlli del revival a pixel, mentre il testo corrente rimane Space Grotesk. Archivo Black, Fraunces e Audiowide hanno un ruolo espressivo delimitato; IBM Plex Mono accompagna prezzi e metadati neobrutalisti. Limelight e i font dei mondi rimossi restano conservati con le licenze nell’archivio.
 
 I ruoli display e corpo sono registrati nel frontmatter per variante. Le dimensioni effettive del display includono i clamp e le relazioni con la scelta di lettura; le dimensioni di titoli di sezione, prosa e metadati rimangono governate dai rispettivi CSS. Minimalista combina display ampio, sezioni leggere e prosa aperta; Massimalismo usa display pesante, corsivi, nastri e collage; Retro 8 bit aumenta l’interlinea dei titoli a matrice. Titoli e descrizioni crescono naturalmente e conservano righe e glifi interi.
+
+AR usa Inter locale nei pannelli, nei prodotti e nei controlli. Il nome del bar misura 34 px e scende a 28 px entro 760 px; titoli dei pannelli a 25/23 px, prosa a 15 px con interlinea 1,7 e descrizioni del menu a 13 px con interlinea 1,6 separano informazioni e azioni. Prezzi e orari usano cifre tabulari.
 
 Olografica usa Space Grotesk locale, display di peso 500, interlinea 1,06 e tracking −0,04em. Il lead misura 18 px/1,7 e resta entro 35ch su desktop; i titoli prodotto misurano 34 px. Entro 600 px il display usa `clamp(38px,10.3vw,58px)`, interlinea 1,08 e tracking −0,035em, con lead di 16 px. Il titolo emerge dalla base attraverso posizione e ombra distaccata.
 
@@ -678,19 +721,21 @@ Primissimo web segue il flusso di un documento. Primo web combina fotografie JPE
 
 Primo web, Web 2.0, Scheumorfismo e Y2K mantengono una soglia nominale di 1024 px con scorrimento orizzontale sui viewport stretti; cornice XP e tavolo possono aggiungere pochi pixel esterni. È una scelta delle ricostruzioni, non una cronologia tecnologica universale. Le altre 17 varianti si adattano allo schermo. Le regole comuni distinguono fino a 720 px, da 721 a 1000 px e oltre 1000 px; le composizioni specifiche mantengono le proprie griglie e, dove necessario, una soglia aggiuntiva a 1100 px. Il ritmo usa i valori locali `cafe-8`–`cafe-64`; Minimalista usa anche spazio fluido tra 24 e 80 px. Menu, storie, riepiloghi e footer crescono nel flusso con i dati.
 
-AR mostra soltanto la scena sintetica da una strada cittadina: la persona consulta il sito e il menu prima di raggiungere il locale. L’immagine è contenuta nell’altezza della viewport sotto il selettore. Generativa affianca chat e anteprima su desktop e le impila su mobile; i componenti generati seguono una sequenza specifica per Home, Menu, Il locale o Contatti.
+AR colloca la persona in una strada cittadina prima dell’arrivo al bar. Sotto il selettore, una fotografia sintetica continua sostiene un pannello informativo e un prodotto scontornato su livelli CSS 3D distinti. Il mondo occupa la larghezza disponibile fino a 1010 px, con colonne riducibili da 610 e 330 px e intervallo di 70 px; da 1500 px cresce a 1120 px. La griglia ammette il restringimento del mondo anche sui viewport intermedi. L’altezza del pannello segue la viewport fra 440 e 650 px, lasciando spazio ai controlli; il corpo scorre internamente. Entro 760 px il prodotto, con nome, prezzo e descrizione, precede il pannello alto 490 px. La barra dei controlli mobile rimane nel flusso, subito dopo le istruzioni e prima della scena; segue poi il testo dimostrativo. Fino a 1200 px la scena limita spostamento, rotazione e scala per mantenere consultabili i contenuti. Il filtro del menu affianca etichetta e select nella stessa riga. Generativa affianca chat e anteprima su desktop e le impila su mobile; i componenti generati seguono una sequenza specifica per Home, Menu, Il locale o Contatti.
 
 Olografica ha un piano grafite rettangolare con quattro angoli visibili, senza raggio o ombra, fisso nella viewport mentre i contenuti scorrono davanti. Lo pseudo-elemento della base è posizionato a `left:47%`, largo `min(1000px,74vw)`, alto 68svh (massimo 820 px) e posizionato a `top:14svh`. La sfumatura neutra a 145° va da `cafe-holo-base-light` attraverso `cafe-olografica-paper` al 58% fino a `cafe-holo-base-deep`; il filetto misura 1 px e usa `cafe-holo-base-rule`. Entro 800 px il piano misura 74vw × 66svh, a top 15svh; entro 600 px misura `calc(100vw - 108px)` × 64svh, a top 16svh. La prospettiva resta visibile anche su mobile.
 
 La struttura dei contenuti rimane nel flusso, larga `calc(100% - 240px)` e al massimo 1080 px; i blocchi di testo rimangono frontali davanti a piani trasparenti leggermente ruotati. L’hero desktop usa colonne 56%/44%, margini laterali −76 px e un’altezza minima di 590 px; titolo, cappuccino e croissant oltrepassano il piano. I prodotti restano liberi da card opache e cornici. Le soglie di 1100 e 800 px regolano larghezza e tipografia del contenuto; entro 600 px il contenitore misura `calc(100% - 48px)`, hero e prodotti si dispongono in colonna, con debordi contenuti e prospettiva locale del cappuccino di 700 px.
 
-La stampa è una composizione A4 autonoma e può occupare più pagine. Il menu torna completo anche con un filtro attivo e i contenuti informativi restano nel flusso. Glass e Liquid perdono fotografia di fondo, blur e ombre; Olografica usa carta bianca, testo scuro e immagini ferme, senza scansioni, fasci, ombre o profondità. I dettagli espandibili di Olografica si aprono per la stampa e ritornano allo stato precedente dopo. Generativa completa la conversazione prima della stampa e mantiene insieme nome, prezzo e descrizione di ogni voce. AR stampa l’immagine della scena. Il padding e le parole intere restano requisiti anche a 1032 px.
+La stampa è una composizione A4 autonoma e può occupare più pagine. Il menu torna completo anche con un filtro attivo e i contenuti informativi restano nel flusso. Glass e Liquid perdono fotografia di fondo, blur e ombre; Olografica usa carta bianca, testo scuro e immagini ferme, senza scansioni, fasci, ombre o profondità. I dettagli espandibili di Olografica si aprono per la stampa e ritornano allo stato precedente dopo. Generativa completa la conversazione prima della stampa e mantiene insieme nome, prezzo e descrizione di ogni voce. AR mostra in stampa tutti e quattro i pannelli informativi e tutte le categorie del menu, con il prodotto selezionato, su carta bianca; nasconde sfondo, controlli, blur e trasformazioni e ripristina tab e filtro al termine. Il padding e le parole intere restano requisiti anche a 1032 px.
 
 ### Elevation & Depth
 
 La profondità deriva dal materiale della variante. Flat e Minimalista affidano la gerarchia a campiture, testo, spazio e filetti. Material 1 distingue carta, app bar, pulsante e FAB con elevazioni misurate e ripple finito; Material 2 conserva ombre più leggere e forme legate al prodotto; Material 3 differenzia i container soprattutto con tonalità. Le azioni Material occupano una riga dedicata nel flusso e conservano lo spazio dei contenuti.
 
 Neumorfismo usa `--neumo-up` e `--neumo-down`: coppie di luce e ombra rendono convessi gli strumenti e incavati campi o selezioni, con bordi e testo indipendenti dal rilievo. Glass rivela una fotografia del locale dietro header, hero e pannelli sfocati; i piani di lettura sono più opachi. Liquid concentra vetro, rim e riflessi nei controlli e nella navigazione, distinti dal contenuto. I fallback per ridotta trasparenza, forced colors e stampa appartengono ai CSS della variante.
+
+AR usa una prospettiva di 1800 px, che diventa 2200 px entro 760 px. Il pannello ruota di 6° sull’asse Y (3° su mobile); il prodotto avanza di 105 px e ruota di −9°, mentre su mobile avanza di 25 px. Il vetro usa blur di 26 px e saturazione 0,85; ombre morbide separano pannello e sagoma fotografica dallo sfondo. Il trascinamento dello sfondo e le frecce modificano l’orientamento della scena; l’orientamento cambia soltanto in risposta all’interazione. L’ingresso del pannello dura 650 ms, con spostamento di 22 px e blur di 2 px; il movimento ridotto omette ingresso e transizioni. Ombre, tempi e soglie sono registrati nel sidecar.
 
 Neo usa contorni e ombre nette coerenti con la stampa grafica; Pixel usa riscontri a gradini. In Olografica il piano di fondo usa `perspective(1200px) rotateX(20deg) rotateY(-18deg) rotateZ(-6deg)`, con origine centrale e `translateX(-50%)` per il centraggio. Entro 800 px usa prospettiva 900 px e rotazioni X 16°, Y −18°, Z −5°; entro 600 px conserva la prospettiva di 900 px con X 12°, Y −20°, Z −5°. Le tre rotazioni e i quattro angoli del piano ne rendono leggibile l’orientamento nello spazio. La prospettiva dei contenuti appartiene all’hero: 1300 px, origine 60%/60%, con testo a 0 px, cappuccino a 190 px e croissant in primo piano a 250 px. Fra 601 e 1240 px il cappuccino passa a 120 px e il croissant resta a 250 px. Entro 600 px il canvas luminoso arretra a −200 px e il croissant si colloca a 60 px, mantenendo luce e ombre dietro ai prodotti. L’hero usa `transform-style:flat`: ogni prodotto e la propria ombra si compongono come un livello indivisibile, mantenendo prospettiva e trasformazioni locali. L’ordine `z-index` è campo luminoso 0, testo 2, cappuccino 3, croissant 4; l’ombra della tazza resta dietro al croissant anche durante la rotazione, senza intersecare il suo piano. Le ombre distaccate seguono l’alpha delle fotografie; il campo WebGL della Home disegna sette fasci, aperture ellittiche e una scansione dietro i prodotti. Il renderer passa a una luce CSS quando WebGL non è disponibile o perde il contesto, e ripristina WebGL quando possibile.
 
@@ -702,11 +747,13 @@ La ricomposizione `holo-materialize` dura 2,2 s: il prodotto parte ridotto e sfo
 
 Raggi, sagome, filetti e materiali restano propri della variante. Material 1 usa raggi piccoli; Material 2 alterna gli angoli delle card (24/4/24/4 px); Material 3 usa card ampie e bottoni a pillola. Scheumorfismo conserva cuciture e pelle; Y2K cromature e pannelli tecnici; Max sticker, nastri e lettering; Neo scacchiere, retini e diagonali; Pixel bordi e sagome a matrice. Il raggio del modulo Bento appartiene al mosaico che contiene la foto.
 
+AR usa un pannello dai bordi morbidi (16 px), controlli di 8 px e una superficie prodotto di 12 px. Il cerchio prospettico sul terreno è un riferimento grafico della posizione scelta nella simulazione. La fotografia della strada e i tre prodotti rimangono senza cornici.
+
 Il monogramma conserva due T e la C: Pixel ne mostra la geometria a gradini, Y2K il trattamento cromato e Neo contorno e campiture. Primissimo web e Primo web usano il nome testuale nella composizione. Olografica usa il segno pieno avorio sulla base grafite; CTA, select e Riproietta hanno raggio 4 px, mentre il token generale dei campi è 6 px.
 
 **The Image Frame Rule.** Conservare il crop registrato e la proporzione della regione dell’asset. Le immagini restano senza cornici aggiunte; la sagoma del contenitore di un modulo appartiene alla composizione della variante. In Bento la fotografia copre l’intera card e il campo scuro locale sostiene il testo sovrapposto.
 
-I tre prodotti Olografica sono immagini fotografiche sintetiche originali ImageGen con fondo trasparente, colori naturali e visualizzazione `object-fit:contain`. `assets/redesign/holographic/manifest.json` conserva prompt, provenienza, PNG originali e derivati WebP con alpha; la scansione è una copia decorativa separata e non modifica il raster sorgente.
+I tre prodotti condivisi da Olografica e AR sono immagini fotografiche sintetiche originali ImageGen con fondo trasparente, colori naturali e visualizzazione `object-fit:contain`. `assets/redesign/holographic/manifest.json` conserva prompt, provenienza, PNG originali e derivati WebP con alpha; la scansione Olografica è una copia decorativa separata e non modifica il raster sorgente. AR usa gli stessi WebP di cappuccino, croissant e tè; `assets/redesign/ar-interactive/manifest.json` conserva prompt, provenienza, originale PNG e derivato WebP del fondo stradale privo di pannelli e mano. Le scene statiche precedenti conservano i propri originali e manifest.
 
 ### Components
 
@@ -720,9 +767,9 @@ Scheumorfismo mantiene la placca oro del comando di apertura con un testo marron
 
 Le varianti site mantengono il Menu di 15 articoli in quattro categorie e il modulo Contatti, che prepara una bozza locale scaricabile o apribile nella posta. Una modifica a qualsiasi campo o argomento revoca la bozza precedente; la preparazione successiva usa i dati aggiornati. Primissimo web conserva testo, menu intero e collegamenti ordinari, con il selettore didattico come eccezione; non mostra modulo, immagini o pulsanti del bar. Identità, prezzi, orari, indirizzo e contatti rimangono dimostrativi e l’email usa `.example`.
 
-Generativa rende visibili tre richieste, tre risposte e tre pezzi di pagina. Il listino generato riusa i 15 articoli e filtri funzionanti; Pausa, Riprendi, Ricomincia e Mostra tutto gestiscono la sequenza. Con movimento ridotto la composizione è completa subito. AR mostra una sola immagine con testo alternativo; il selettore consente di cambiare rappresentazione. Adattabile rende confrontabili le scelte di lettura. Max e Pixel permettono di fermare la propria animazione continua. GIF storiche mostrano PNG fermi con movimento ridotto e in stampa.
+Generativa rende visibili tre richieste, tre risposte e tre pezzi di pagina. Il listino generato riusa i 15 articoli e filtri funzionanti; Pausa, Riprendi, Ricomincia e Mostra tutto gestiscono la sequenza. Con movimento ridotto la composizione è completa subito. AR offre tab Menu, Il locale, Orari e Contatti: Home e Menu aprono Menu, le altre pagine la tab corrispondente. Il listino riusa tutti i 15 articoli di `contenuti.json` e filtra le quattro categorie; nomi, prezzi, descrizioni e orari provengono dai dati comuni. Cappuccino, Croissant e Tè cambiano realmente prodotto, immagine e descrizione. Le tab supportano frecce sinistra/destra, Home ed End; la scena focalizzata usa le frecce per cambiare punto di vista. **Sposta** attiva il posizionamento con click sullo sfondo o frecce, **Conferma posizione** o Invio lo conferma ed Escape lo annulla. I controlli −/+ variano la scala a passi del 5%, tra 80% e 115% oltre 1200 px e tra 80% e 100% fino a 1200 px. **Reimposta** ripristina punto di vista, posizione, scala, tab iniziale, menu completo e cappuccino. Focus visibile, stato annunciato e skip link accompagnano l’interazione. `ar-simulation.js` possiede scena, stato, preload e cleanup; `directions-scenarios.js` ne gestisce l’attivazione. È una simulazione locale CSS 3D: non richiede fotocamera, WebXR o rilevamento dell’ambiente. Il selettore consente di cambiare rappresentazione. Adattabile rende confrontabili le scelte di lettura. Max e Pixel permettono di fermare la propria animazione continua. GIF storiche mostrano PNG fermi con movimento ridotto e in stampa.
 
-Olografica offre **Riproietta** e **Ferma il movimento / Riattiva il movimento** con stato `aria-pressed`; la pausa ferma CSS, WebGL e parallasse e disabilita Riproietta. Movimento ridotto mostra la composizione completa e ferma, omettendo scansioni e controlli del movimento. Il renderer e le animazioni continue dei prodotti si sospendono fuori viewport e nelle schede nascoste. `holographic-projection.js` possiede il canvas della Home e libera le risorse al cambio stile; `directions-scenarios.js` gestisce ricomposizione, scansioni alpha, controlli e cleanup. Assegna `.holo-text` a hero, testi delle sezioni, valori, riepiloghi, informazioni di contatto e liste del menu; un `IntersectionObserver` con soglia 0,12 ne aggiorna `data-holo-inview`. Riproietta riavvia gli ingressi visibili; la pausa arresta anche materializzazione e scansione dei testi. Con movimento ridotto i blocchi sono completi e senza scansione; in stampa spariscono piani luminosi, ombre e trasformazioni. Il cambio stile rimuove classe, stato e observer dei testi. La CTA è alta almeno 52 px (48 px su mobile), con focus verde di 2 px e offset 6 px; hover la solleva di 3 px.
+Olografica offre **Riproietta** e **Ferma il movimento / Riattiva il movimento** con stato `aria-pressed`; la pausa ferma CSS, WebGL e parallasse e disabilita Riproietta. Movimento ridotto mostra la composizione completa e ferma, omettendo scansioni e controlli del movimento. Il renderer e le animazioni continue dei prodotti si sospendono fuori viewport e nelle schede nascoste. `holographic-projection.js` possiede il canvas della Home e libera le risorse al cambio stile; `directions-scenarios.js` gestisce ricomposizione, scansioni alpha, controlli e cleanup. Assegna `.holo-text` a hero, testi delle sezioni, valori, riepiloghi, informazioni di contatto e liste del menu; un `IntersectionObserver` con soglia 0,12 ne aggiorna `data-holo-inview`. Il contenitore osservato conserva `animation:none` e una geometria stabile: `holo-text-materialize` anima soltanto i figli diretti di `.holo-text[data-holo-inview="true"]`, così il ritaglio non innesca nuove entrate dell’observer. Pausa e movimento ridotto agiscono anche sui figli; la scansione rimane sullo pseudo-elemento `::after`. Riproietta riavvia gli ingressi visibili; la pausa arresta anche materializzazione e scansione dei testi. Con movimento ridotto i blocchi sono completi e senza scansione; in stampa spariscono piani luminosi, ombre e trasformazioni. Il cambio stile rimuove classe, stato e observer dei testi. La CTA è alta almeno 52 px (48 px su mobile), con focus verde di 2 px e offset 6 px; hover la solleva di 3 px.
 
 **The Representation Rule.** `presentation: text/site/scene/conversation` stabilisce quale rappresentazione è visibile: AR e Generativa sostituiscono il sito ordinario. Conservare cleanup e caricamento coerenti quando cambia lo stile.
 

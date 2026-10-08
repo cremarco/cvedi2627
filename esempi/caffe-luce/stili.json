@@ -473,7 +473,7 @@
       "years": "2023–2026",
       "group": "booklet",
       "summary": "Scoprire Caffè TTC in AR prima di raggiungerlo.",
-      "detail": "Da una strada cittadina, la persona consulta il sito e il menu del Caffè TTC in AR per decidere dove fermarsi. La rappresentazione resta una singola illustrazione speculativa.",
+      "detail": "Da una strada cittadina, la persona consulta il sito e il menu del Caffè TTC in AR per decidere dove fermarsi. La simulazione usa pannelli interattivi: si può cambiare punto di vista, riposizionare il sito, esplorare il menu e selezionare i prodotti. Lo sfondo è sintetico e non viene usata la fotocamera.",
       "sources": [
         {
           "label": "Booklet · esempio e descrizione",
@@ -496,10 +496,10 @@
       "layout": "responsive",
       "presentation": "scene",
       "scene": {
-        "src": "assets/redesign/future/ar-site-street-v2.webp",
+        "src": "assets/redesign/ar-interactive/street-background-v1.webp",
         "width": 1586,
         "height": 992,
-        "alt": "Vista in prima persona da una strada cittadina con portici e alberi: una mano consulta i pannelli AR del sito Caffè TTC, con menu e orari, prima di raggiungere il locale."
+        "alt": "Strada italiana immaginaria con portici, alberi e tavolini: ambiente sintetico della simulazione AR del Caffè TTC."
       }
     },
     {

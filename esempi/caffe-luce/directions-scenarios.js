@@ -2,7 +2,7 @@
   'use strict';
   const content = window.CAFFE_CONTENT;
   const euro = function (price) { return price.toLocaleString('it-IT', { style: 'currency', currency: 'EUR' }); };
-  let cafe, stage, revision = 0, timer, continuation, paused = false, floatingCleanup;
+  let cafe, stage, revision = 0, timer, continuation, paused = false, floatingCleanup, arCleanup;
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
 
   function node(tag, className, text) {
@@ -21,6 +21,8 @@
     clearTimeout(timer);
     continuation = undefined;
     paused = false;
+    if (arCleanup) arCleanup();
+    arCleanup = undefined;
     if (floatingCleanup) floatingCleanup();
     floatingCleanup = undefined;
     if (stage) stage.remove();
@@ -292,9 +294,10 @@
     if(style.id==='adattabile')return;
     if(style.id==='olografica')return floating();
     if(style.id!=='spaziale')return;
-    stage=node('section','scenario-stage ar-stage');stage.setAttribute('aria-label','Il sito Caffè TTC visto in realtà aumentata');
-    const image=node('img','ar-site-image');image.alt=style.scene.alt;image.width=style.scene.width;image.height=style.scene.height;image.src=style.scene.src;stage.append(image);cafe.append(stage);
-    return image.decode ? image.decode() : undefined;
+    const simulation = window.CAFFE_AR.create(cafe, style);
+    stage = simulation.stage;
+    arCleanup = simulation.destroy;
+    return simulation.ready;
   }
   window.CAFFE_SCENARIOS={init:function(root){cafe=root;window.addEventListener('beforeprint',function(){if(cafe.dataset.style==='generativa')cafe.querySelector('.conversation-finish')?.click();});reduced.addEventListener('change',function(){if(reduced.matches&&cafe.dataset.style==='generativa')cafe.querySelector('.conversation-finish')?.click();});},activate:activate};
 })();
