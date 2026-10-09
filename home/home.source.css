@@ -113,17 +113,17 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
 .station-nav a:is(:hover,:focus-visible) .station-label { text-decoration: underline; text-underline-offset: .2em; }
 .station-dot { position: relative; width: 15px; height: 15px; border: 3px solid var(--home-ink); border-radius: 50%; background: white; transition: background-color 180ms ease-out; }
 .station-nav a:is(:hover,:focus-visible) .station-dot { background: var(--home-lime); }
-.destinations { padding-top: 102px; padding-bottom: 84px; }
+.destinations { --home-reading-ink: var(--cvedi-slate-900); --home-reading-muted: var(--cvedi-slate-600); --home-reading-rule: var(--cvedi-slate-200); color: var(--home-reading-ink); padding-top: 102px; padding-bottom: 84px; }
 .destinations h2 { margin: 0 0 52px; font-size: clamp(32px,3.7vw,54px); font-weight: 700; line-height: 1.1; letter-spacing: -.035em; }
-.destination { display: grid; grid-template-columns: 48px 1fr 48px; align-items: center; gap: 28px; padding-block: 38px; border-top: 1px solid var(--home-rule); text-decoration: none; color: var(--home-ink); }
-.destination:last-child { border-bottom: 1px solid var(--home-rule); }
+.destination { display: grid; grid-template-columns: 48px 1fr 48px; align-items: center; gap: 28px; padding-block: 38px; border-top: 1px solid var(--home-reading-rule); text-decoration: none; color: var(--home-reading-ink); }
+.destination:last-child { border-bottom: 1px solid var(--home-reading-rule); }
 .destination-station { position: relative; width: 26px; height: 26px; border: 6px solid var(--route-color); border-radius: 50%; transition: background-color 180ms ease-out; }
 .destination-copy { display: flex; flex-direction: column; gap: 12px; }
 .destination-copy strong { font-size: clamp(32px,3.6vw,52px); font-weight: 700; line-height: 1.15; letter-spacing: -.035em; }
-.destination-copy > span { font-size: 16px; color: var(--home-muted); line-height: 1.5; }
+.destination-copy > span { font-size: 16px; color: var(--home-reading-muted); line-height: 1.5; }
 .destination > svg { width: 40px; height: 40px; transition: transform 240ms var(--home-ease); }
 .destination-pending { grid-template-columns: 48px 1fr auto; }
-.availability { color: var(--home-muted); font-size: 13px; }
+.availability { color: var(--home-reading-muted); font-size: 13px; }
 .destination:hover .destination-copy strong { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .13em; }
 .destination:hover .destination-station { background: var(--route-color); }
 .destination:hover > svg { transform: translateX(6px); }

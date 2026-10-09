@@ -14,6 +14,9 @@ colors:
   home-cream: "#F5F3D7"
   home-blue-field: "#C8D9EF"
   home-gold: "#F0B100"
+  home-reading-ink: "oklch(20.8% 0.042 265.755)"
+  home-reading-muted: "oklch(44.6% 0.043 257.281)"
+  home-reading-rule: "oklch(92.9% 0.013 255.508)"
   cafe-notes-paper: "#fff"
   cafe-notes-ink: "#0f172a"
   cafe-notes-muted: "#475569"
@@ -757,9 +760,9 @@ La home riprende la prima copertina metro: mappa geometrica multicolore a tutta 
 
 ### Colors
 
-La home importa `styles/tokens.css` e riusa direttamente i colori delle slide: `home-indigo` e `home-ink` sono alias di `--cvedi-opening-canvas` (indigo-900), `home-lime` di `--cvedi-opening-accent-vivid` (lime-400). Le destinazioni usano orange-800, teal-800 e pink-800; testo secondario e separatori ereditano indigo-700 e indigo-200. Il frontmatter conserva i valori OKLCH di questa fonte condivisa; il CSS mantiene gli alias ai token originali.
+La home importa `styles/tokens.css` e riusa direttamente i colori delle slide: `home-indigo` e `home-ink` sono alias di `--cvedi-opening-canvas` (indigo-900), `home-lime` di `--cvedi-opening-accent-vivid` (lime-400). Nella sola sezione `#percorsi`, titoli e frecce usano `home-reading-ink` (slate-900, nero tonalizzato), descrizioni e disponibilità `home-reading-muted` (slate-600), separatori `home-reading-rule` (slate-200). Le fermate conservano indaco, orange-800, teal-800 e pink-800; il footer mantiene indigo-700. Il frontmatter conserva i valori OKLCH della fonte condivisa; il CSS mantiene gli alias ai token originali.
 
-Bianco sostiene la mappa, l’intestazione, la navigazione metro e le destinazioni; indaco forma la fascia del titolo e il testo sui campi chiari. Il pannello dell’anno usa `home-cream`; i campi azzurri originali e il percorso punteggiato usano `home-blue-field` e `home-gold`. Lime identifica la parola «visiva», l’azione principale e i riscontri delle fermate. Il tema daisyUI `course-home` usa gli stessi alias per primario, secondario e rispettivi testi. Le tracce conservano i colori registrati nei dati della mappa. Il nome breve, il controllo del movimento e le etichette delle fermate hanno superfici bianche opache, così i tracciati sottostanti non modificano il contrasto.
+Bianco sostiene la mappa, l’intestazione, la navigazione metro e le destinazioni; indaco forma la fascia del titolo e i metadati della copertina, mentre nero tonalizzato e grigio slate guidano la lettura dei percorsi. Il pannello dell’anno usa `home-cream`; i campi azzurri originali e il percorso punteggiato usano `home-blue-field` e `home-gold`. Lime identifica la parola «visiva», l’azione principale e i riscontri delle fermate. Il tema daisyUI `course-home` usa gli stessi alias per primario, secondario e rispettivi testi. Le tracce conservano i colori registrati nei dati della mappa. Il nome breve, il controllo del movimento e le etichette delle fermate hanno superfici bianche opache, così i tracciati sottostanti non modificano il contrasto.
 
 ### Typography
 
