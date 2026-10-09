@@ -110,25 +110,25 @@ try {
       assert.equal(await page.locator('.academic-year').isVisible(), true)
       const metrics = await page.evaluate(() => {
         const title = document.querySelector('h1')
-        const nav = document.querySelector('.station-nav')
+        const opening = document.querySelector('.course-opening')
         const rectangle = element => { const { left, right, top, bottom } = element.getBoundingClientRect(); return { left, right, top, bottom } }
         return { scrollWidth: document.documentElement.scrollWidth, width: innerWidth,
           titleRight: title.getBoundingClientRect().right, titleLeft: title.getBoundingClientRect().left, fontSize: getComputedStyle(title).fontSize,
           titleLines: [...title.children].map(rectangle), year: rectangle(document.querySelector('.academic-year')),
-          textBlocks: [...document.querySelectorAll('.opening-bottom p,.slide-action,.station-label')].map(rectangle),
+          textBlocks: [...document.querySelectorAll('.opening-bottom p,.slide-action')].map(rectangle),
           scene: rectangle(document.querySelector('.metro-scene')),
-          navBottom: nav.getBoundingClientRect().bottom, motion: document.documentElement.dataset.motion }
+          openingBottom: opening.getBoundingClientRect().bottom, motion: document.documentElement.dataset.motion }
       })
       assert.ok(metrics.scrollWidth <= width + 1, `no horizontal overflow at ${width}`)
       assert.ok(metrics.titleLeft >= 0 && metrics.titleRight <= width, 'title fits the viewport')
       assert.ok(metrics.year.left >= 0 && metrics.year.right <= width, 'academic year fits the viewport')
       assert.ok(metrics.scene.left <= 0 && metrics.scene.right >= width, 'the geometric scene spans the opening width')
       for (const line of metrics.titleLines) {
-        assert.ok(!overlaps(line, metrics.year), 'the annual panel does not overlap the course title')
-        assert.ok(metrics.textBlocks.every(block => !overlaps(line, block)), 'title lines do not overlap introductory copy, action or station labels')
+        assert.ok(!overlaps(line, metrics.year), 'academic year does not overlap the course title')
+        assert.ok(metrics.textBlocks.every(block => !overlaps(line, block)), 'title lines do not overlap introductory copy or action')
       }
       assert.equal(metrics.motion, 'static')
-      const contrasts = await page.locator('.academic-year,.station-label').evaluateAll(elements => {
+      const contrasts = await page.locator('.academic-year').evaluateAll(elements => {
         const context = new OffscreenCanvas(1, 1).getContext('2d', { willReadFrequently: true })
         const color = value => {
           context.clearRect(0, 0, 1, 1)
@@ -150,7 +150,7 @@ try {
         })
       })
       for (const contrast of contrasts) {
-        assert.equal(contrast.backgroundAlpha, 255, 'route labels have an opaque reading surface')
+        assert.equal(contrast.backgroundAlpha, 255, 'academic year has an opaque reading surface')
         assert.ok(contrast.ratio >= 4.5, `${contrast.text}: small text stays readable over the animated tracks`)
       }
       assert.equal(await page.locator('.motion-toggle').isVisible(), false)
@@ -238,7 +238,6 @@ try {
   record('offscreen suspension, onscreen resume and persistent user pause')
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const families = ['red', 'orange', 'teal']
-  assert.deepEqual(await page.locator('.station-nav a[data-route-family]').evaluateAll(elements => elements.map(element => element.dataset.routeFamily)), families)
   assert.deepEqual(await page.locator('.destination[data-route-family][href]').evaluateAll(elements => elements.map(element => element.dataset.routeFamily)), families)
   const assertSelectedFamily = async family => {
     await page.waitForFunction(expected => document.documentElement.dataset.routeFamily === expected, family)
@@ -247,22 +246,20 @@ try {
     assert.ok(opacities.filter(element => element.family !== family).every(element => element.opacity < selected), 'hover and focus visibly emphasize the selected route family')
   }
   for (const family of families) {
-    const navLink = page.locator(`.station-nav a[data-route-family="${family}"]`)
+    const destinationLink = page.locator(`.destination[data-route-family="${family}"]`)
     await page.locator('.course-wordmark').focus()
-    await navLink.hover()
+    await destinationLink.hover()
     await assertSelectedFamily(family)
     await page.mouse.move(0, 0)
     await page.waitForFunction(() => !document.documentElement.dataset.routeFamily)
-    await navLink.focus()
+    await destinationLink.focus()
     await assertSelectedFamily(family)
     await page.locator('.course-wordmark').focus()
     await page.waitForFunction(() => !document.documentElement.dataset.routeFamily)
-    await page.locator(`.destination[data-route-family="${family}"]`).focus()
-    await assertSelectedFamily(family)
   }
   await page.locator('.course-wordmark').focus()
   await page.waitForFunction(() => !document.documentElement.dataset.routeFamily)
-  record('route family selection by station hover and keyboard focus')
+  record('route family selection by destination hover and keyboard focus')
   await page.keyboard.press('Tab')
   await page.goto(base + '/')
   await page.keyboard.press('Tab')

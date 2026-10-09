@@ -61,7 +61,7 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 .page-width { width: calc(100% - 112px); max-width: 1568px; margin-inline: auto; }
 .skip-link { position: fixed; top: 12px; left: 16px; z-index: 10; padding: 14px 20px; background: white; color: var(--home-ink); transform: translateY(-160%); }
 .skip-link:focus { transform: none; }
-.course-opening { position: relative; isolation: isolate; overflow: clip; background: white; }
+.course-opening { position: relative; isolation: isolate; overflow: clip; background: white; padding-bottom: 160px; }
 .course-header { position: relative; z-index: 2; display: flex; justify-content: space-between; align-items: center; gap: 24px; padding-block: 26px 76px; }
 .course-wordmark { position: relative; display: flex; align-items: center; gap: 13px; color: var(--home-ink); background: white; padding: 8px 12px; margin-left: -12px; font-size: 28px; font-weight: 700; text-decoration: none; letter-spacing: -.03em; }
 .wordmark-station { width: 12px; height: 12px; border: 3px solid var(--home-lime); border-radius: 50%; }
@@ -104,14 +104,6 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
 @keyframes metro-arrive { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
 @keyframes metro-connect { from { opacity: .15; } to { opacity: 1; } }
 @keyframes metro-travel { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -1000; } }
-.station-nav { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4,1fr); margin-top: 72px; padding-block: 26px 32px; }
-.station-nav::before { content: ''; position: absolute; top: 32px; inset-inline: 6px; height: 2px; background: var(--home-ink); }
-.station-nav :is(a,.station-pending) { display: flex; flex-direction: column; align-items: start; gap: 16px; width: fit-content; min-width: 100px; min-height: 54px; color: var(--home-ink); font-size: 17px; font-weight: 700; text-decoration: none; }
-.station-pending small { margin-left: 8px; font-size: 11px; font-weight: 400; }
-.station-label { color: var(--home-ink); background: white; padding: 4px 8px; margin-inline-start: -8px; }
-.station-nav a:is(:hover,:focus-visible) .station-label { text-decoration: underline; text-underline-offset: .2em; }
-.station-dot { position: relative; width: 15px; height: 15px; border: 3px solid var(--home-ink); border-radius: 50%; background: white; transition: background-color 180ms ease-out; }
-.station-nav a:is(:hover,:focus-visible) .station-dot { background: var(--home-lime); }
 .destinations { --home-reading-ink: var(--cvedi-slate-900); --home-reading-muted: var(--cvedi-slate-600); --home-reading-rule: var(--cvedi-slate-200); color: var(--home-reading-ink); padding-top: 102px; padding-bottom: 84px; }
 .destinations h2 { margin: 0 0 52px; font-size: clamp(32px,3.7vw,54px); font-weight: 700; line-height: 1.1; letter-spacing: -.035em; }
 .destination { display: grid; grid-template-columns: 48px 1fr 48px; align-items: center; gap: 28px; padding-block: 38px; border-top: 1px solid var(--home-reading-rule); text-decoration: none; color: var(--home-reading-ink); }
@@ -142,6 +134,7 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
 }
 @media (max-width: 650px) {
   .page-width { width: calc(100% - 40px); }
+  .course-opening { padding-bottom: 140px; }
   .course-header { padding-block: 22px 66px; align-items: center; gap: 12px; }
   .course-wordmark { font-size: 24px; }
   .header-actions { gap: 0; }
@@ -157,10 +150,6 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
   .opening-bottom p { font-size: 15px; }
   .slide-action.btn { min-height: 54px; padding: 12px 20px; font-size: 16px; gap: 32px; }
   .metro-scene svg { width: 170%; margin-left: -35%; }
-  .station-nav { margin-top: 76px; padding-block: 20px 28px; }
-  .station-nav::before { top: 26px; }
-  .station-nav :is(a,.station-pending) { min-width: auto; font-size: 13px; gap: 12px; min-height: 50px; }
-  .station-pending small { display: block; margin: 4px 0 0; font-size: 10px; }
   .destinations { padding-top: 54px; padding-bottom: 52px; }
   .destinations h2 { margin-bottom: 30px; font-size: 32px; max-width: 12ch; }
   .destination { grid-template-columns: 20px 1fr 28px; gap: 16px; padding-block: 28px; }
@@ -178,18 +167,18 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
   .metro-field, .metro-route, .metro-dot, .metro-packet { animation: none !important; }
   .metro-packet { display: none; }
   .motion-toggle.btn { display: none; }
-  .slide-action svg, .destination > svg, .destination-station, .station-dot, .metro-family { transition: none; transform: none !important; }
+  .slide-action svg, .destination > svg, .destination-station, .metro-family { transition: none; transform: none !important; }
 }
 @media (forced-colors: active) {
+  .course-opening { padding-bottom: 0; }
   .metro-scene { display: none; }
-  .station-dot, .destination-station { border-color: LinkText; background: Canvas; }
-  .station-nav::before { background: LinkText; }
+  .destination-station { border-color: LinkText; background: Canvas; }
   .slide-action.btn, .motion-toggle.btn { border: 1px solid ButtonText; }
 }
 @media print {
   :root { scroll-behavior: auto; }
   .page-width { width: 100%; }
-  .course-opening { color: black; background: white; }
+  .course-opening { color: black; background: white; padding-bottom: 0; }
   .opening-content::before { display: none; }
   .course-header { padding-block: 0 24px; }
   .course-wordmark { color: black; }
@@ -199,7 +188,7 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
   h1 { font-size: 48px; }
   h1 span, h1 em, .opening-bottom p { color: black; background: white; }
   .opening-bottom { margin-top: 16px; }
-  .metro-scene, .station-nav, .motion-toggle.btn, .slide-action { display: none; }
+  .metro-scene, .motion-toggle.btn, .slide-action { display: none; }
   .destinations { padding-block: 28px; }
   .destinations h2 { font-size: 26px; margin-bottom: 20px; }
   .destination { padding-block: 18px; break-inside: avoid; }
