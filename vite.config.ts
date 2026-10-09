@@ -2,6 +2,7 @@ import { rm } from 'node:fs/promises'
 import path from 'node:path'
 import { localAssetDirectories } from './utils/publication.mjs'
 import { webDesignExamplesPlugin } from './utils/web-design-examples.mjs'
+import { preventIndexingHTML } from './utils/indexing.mjs'
 
 function localAssetsPlugin() {
   let outputDirectory: string
@@ -19,7 +20,11 @@ function localAssetsPlugin() {
 }
 
 export default {
-  plugins: [localAssetsPlugin(), webDesignExamplesPlugin()],
+  plugins: [
+    localAssetsPlugin(),
+    webDesignExamplesPlugin(),
+    { name: 'cvedi-noindex', transformIndexHtml: preventIndexingHTML },
+  ],
   resolve: {
     alias: {
       // Slidev installs Twoslash even without code blocks. Keep ordinary tooltips

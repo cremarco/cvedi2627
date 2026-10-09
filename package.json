@@ -16,7 +16,7 @@
     "build:caffe-ttc": "node scripts/build/caffe-ttc-assets.mjs && node scripts/build/caffe-ttc-catalogue.mjs && node scripts/build/caffe-ttc-notes.mjs && node scripts/build/caffe-ttc.mjs && pnpm css:caffe-luce",
     "gallery": "node scripts/build/project-gallery.mjs",
     "dev": "pnpm build:caffe-ttc && node scripts/dev.mjs",
-    "build": "pnpm build:caffe-ttc && pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs build && node scripts/build/web-design-examples.mjs dist",
+    "build": "pnpm build:caffe-ttc && pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs build && node scripts/build/web-design-examples.mjs dist && node scripts/build/noindex.mjs dist",
     "build:pages": "pnpm build:caffe-ttc && pnpm run css && pnpm run css:projects && pnpm run css:home && node scripts/build/pages.mjs",
     "export": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
     "check": "node scripts/check/slides.mjs",
@@ -34,6 +34,7 @@
     "check:caffe-notes": "node scripts/check/caffe-ttc-notes.mjs",
     "check:web-examples": "node scripts/check/web-design-examples.mjs",
     "check:home": "node scripts/check/course-home.mjs",
+    "check:indexing": "node --test scripts/check/indexing.test.mjs && node scripts/check/indexing.mjs",
     "check:links": "python3 scripts/check/site-links.py",
     "check:ux-course": "node scripts/check/ux-course.mjs"
   },

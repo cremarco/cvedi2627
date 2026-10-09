@@ -8,6 +8,7 @@ import { checkPublishedBuild } from '../check/publication.mjs'
 import { copyWebDesignExamples } from './web-design-examples.mjs'
 import { webDesignExamplesDirectory } from '../../utils/web-design-examples.mjs'
 import { copyCourseHome } from './course-home.mjs'
+import { preventSiteIndexing } from './noindex.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const output = path.join(root, '_site')
@@ -48,6 +49,7 @@ if (existsSync(pdf))
   await cp(pdf, path.join(output, 'slides/cvedi-2026-2027.pdf'))
 await writeFile(path.join(output, '.nojekyll'), '')
 await copyCourseHome(output)
+await preventSiteIndexing(output)
 // Publish only images used by the visible deck. Hidden chapters and older
 // variants stay in the source tree and return automatically when referenced.
 const slideAssets = path.join(output, 'slides/assets')
