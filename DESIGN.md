@@ -357,7 +357,6 @@ typography:
     lineHeight: 1.7
 rounded:
   home-action: "4px"
-  home-motion: "999px"
   cafe-0: "0px"
   cafe-2: "2px"
   cafe-3: "3px"
@@ -386,10 +385,6 @@ components:
     textColor: "{colors.home-ink}"
     rounded: "{rounded.home-action}"
     padding: "16px 24px"
-  home-motion-toggle:
-    backgroundColor: "{colors.home-paper}"
-    textColor: "{colors.home-ink}"
-    rounded: "{rounded.home-motion}"
   home-academic-year:
     backgroundColor: "{colors.home-indigo}"
     textColor: "{colors.home-paper}"
@@ -760,7 +755,7 @@ La home riprende la prima copertina metro: mappa geometrica multicolore a tutta 
 
 La home importa `styles/tokens.css` e riusa direttamente i colori delle slide: `home-indigo` e `home-ink` sono alias di `--cvedi-opening-canvas` (indigo-900), `home-lime` di `--cvedi-opening-accent-vivid` (lime-400). Nella sola sezione `#percorsi`, titoli e frecce usano `home-reading-ink` (slate-900, nero tonalizzato), descrizioni e disponibilità `home-reading-muted` (slate-600), separatori `home-reading-rule` (slate-200). Le fermate conservano indaco, orange-800, teal-800 e pink-800; il footer mantiene indigo-700. Il frontmatter conserva i valori OKLCH della fonte condivisa; il CSS mantiene gli alias ai token originali.
 
-Bianco sostiene la mappa, l’intestazione e le destinazioni; indaco forma la fascia del titolo, con metadati bianchi, mentre nero tonalizzato e grigio slate guidano la lettura dei percorsi. Il campo crema originale della mappa usa `home-cream`; i campi azzurri e il percorso punteggiato usano `home-blue-field` e `home-gold`. Lime identifica la parola «visiva» e l’azione principale. Il tema daisyUI `course-home` usa gli stessi alias per primario, secondario e rispettivi testi. Le tracce conservano i colori registrati nei dati della mappa. Il nome breve e il controllo del movimento hanno superfici bianche opache, così i tracciati sottostanti non modificano il contrasto.
+Bianco sostiene la mappa, l’intestazione e le destinazioni; indaco forma la fascia del titolo, con metadati bianchi, mentre nero tonalizzato e grigio slate guidano la lettura dei percorsi. Il campo crema originale della mappa usa `home-cream`; i campi azzurri e il percorso punteggiato usano `home-blue-field` e `home-gold`. Lime identifica la parola «visiva» e l’azione principale. Il tema daisyUI `course-home` usa gli stessi alias per primario, secondario e rispettivi testi. Le tracce conservano i colori registrati nei dati della mappa. Il nome breve ha una superficie bianca opaca, così i tracciati sottostanti non modificano il contrasto.
 
 ### Typography
 
@@ -768,7 +763,7 @@ Inter locale, pesi 400 e 700, con `font-display: swap` e sintesi disabilitata. I
 
 ### Layout
 
-Il contenitore misura al massimo 1568 px con margini laterali di 56 px, ridotti a 32 px entro 1100 px e 20 px entro 650 px. La mappa occupa tutta l’apertura ed è ritagliata al suo perimetro. L’intestazione bianca contiene nome breve e controllo del movimento; una fascia indaco a tutta larghezza dispone il titolo su tre righe a sinistra, la riga dell’anno 24 px più sotto, quindi introduzione e azione. Su telefono l’anno mantiene la stessa posizione nel flusso, con distanza di 20 px; introduzione e azione si impilano. Sotto la fascia restano 160 px di mappa decorativa, ridotti a 140 px su telefono, senza linea di navigazione, cerchi o etichette aggiunti. La sezione chiara presenta destinazioni aperte, separate da filetti, con fermata, titolo, descrizione e freccia. Il footer conserva informazioni e attribuzioni del corso.
+Il contenitore misura al massimo 1568 px con margini laterali di 56 px, ridotti a 32 px entro 1100 px e 20 px entro 650 px. La mappa occupa tutta l’apertura ed è ritagliata al suo perimetro. L’intestazione bianca contiene il nome breve; una fascia indaco a tutta larghezza dispone il titolo su tre righe a sinistra, la riga dell’anno 24 px più sotto, quindi introduzione e azione. Su telefono l’anno mantiene la stessa posizione nel flusso, con distanza di 20 px; introduzione e azione si impilano. Sotto la fascia restano 160 px di mappa decorativa, ridotti a 140 px su telefono, senza linea di navigazione, cerchi o etichette aggiunti. La sezione chiara presenta destinazioni aperte, separate da filetti, con fermata, titolo, descrizione e freccia. Il footer conserva informazioni e attribuzioni del corso.
 
 ### Elevation & Depth
 
@@ -776,15 +771,15 @@ Nessuna ombra. La profondità deriva dall’ordine dei piani: mappa sul fondo bi
 
 ### Shapes
 
-Fermate ad anello e percorsi con estremità e giunzioni arrotondate. La mappa mantiene il canvas 1741×903, due campi azzurri larghi 72 px, il rettangolo crema a x 340 / y 215, largo 405 px e alto 370 px con raggio 22 px, e 147 punti oro di diametro 7 px e passo 12 px. Le 23 tracce colorate sono larghe 18 px e conservano i 4 px liberi fra le bande parallele. L’azione Slide usa `home-action`; il controllo del movimento usa `home-motion`. La riga dell’anno non ha bordo, outline, raggio o padding. Le righe delle destinazioni non hanno contenitori a card.
+Fermate ad anello e percorsi con estremità e giunzioni arrotondate. La mappa mantiene il canvas 1741×903, due campi azzurri larghi 72 px, il rettangolo crema a x 340 / y 215, largo 405 px e alto 370 px con raggio 22 px, e 147 punti oro di diametro 7 px e passo 12 px. Le 23 tracce colorate sono larghe 18 px e conservano i 4 px liberi fra le bande parallele. L’azione Slide usa `home-action`. La riga dell’anno non ha bordo, outline, raggio o padding. Le righe delle destinazioni non hanno contenitori a card.
 
 ### Components
 
-L’azione «Apri le slide» riusa `btn btn-primary`, con altezza minima 62 px su desktop e 54 px su telefono. Il controllo «Ferma l’animazione / Riprendi l’animazione» usa `btn`, altezza minima 44 px e stato `aria-pressed`. Link e pulsanti hanno outline di 3 px con offset di 7 px; uno skip link porta ai materiali. Il passaggio del puntatore o il focus sui collegamenti evidenzia nella mappa la famiglia della destinazione: rosso per le slide, arancio per l’archivio e teal per Caffè TTC, attenuando le altre famiglie. iLMeteo rimane una fermata e una riga informative senza `href`, con stato «In arrivo» fino alla disponibilità del sito riprogettato.
+L’azione «Apri le slide» riusa `btn btn-primary`, con altezza minima 62 px su desktop e 54 px su telefono. Il pulsante di pausa è rimosso su richiesta dell’utente: la scena iniziale termina automaticamente entro 4500 ms. I link hanno outline di 3 px con offset di 7 px; uno skip link porta ai materiali. Il passaggio del puntatore o il focus sui collegamenti evidenzia nella mappa la famiglia della destinazione: rosso per le slide, arancio per l’archivio e teal per Caffè TTC, attenuando le altre famiglie. iLMeteo rimane una riga informativa senza `href`, con stato «In arrivo» fino alla disponibilità del sito riprogettato.
 
-Il generatore conserva `assets/metro-map/geometric-animation.json`: due campi `blue` in `.metro-field`, rettangolo crema originale, 23 tracce nelle sette `.metro-family` e 147 `.metro-dot` nel percorso punteggiato. La composizione dei campi dura 600 ms con ritardi 0, 80 e 160 ms; l’arrivo delle tracce comprime durate e ritardi originali in una coreografia finita che termina a 1100 ms. I punti si rivelano in sequenza entro lo stesso intervallo. Otto segmenti bianchi percorrono una traccia ogni tre in loop CSS lineari. `home.js` misura la lunghezza di ogni percorso e la scala effettiva del canvas nella viewport, anche con ritaglio `slice`, e normalizza il viaggio a 75 px/s; `ResizeObserver` aggiorna le durate quando la scena cambia dimensione.
+Il generatore conserva `assets/metro-map/geometric-animation.json`: due campi `blue` in `.metro-field`, rettangolo crema originale, 23 tracce nelle sette `.metro-family` e 147 `.metro-dot` nel percorso punteggiato. La composizione dei campi dura 600 ms con ritardi 0, 80 e 160 ms; l’arrivo delle tracce comprime durate e ritardi originali in una coreografia finita che termina a 1100 ms. I punti si rivelano in sequenza entro lo stesso intervallo. Otto segmenti bianchi percorrono le tracce soltanto durante l’introduzione. `home.js` misura la lunghezza di ogni percorso e la scala effettiva del canvas nella viewport, anche con ritaglio `slice`, e normalizza il viaggio a 75 px/s; `ResizeObserver` aggiorna le durate quando la scena cambia dimensione. Dopo 4500 ms lo stato diventa statico, i segmenti sono omessi e nessuna animazione decorativa continua.
 
-Pausa e ripresa governano campi, tracce, punti e segmenti insieme. `IntersectionObserver` sospende il movimento quando l’apertura esce dalla viewport; anche la scheda nascosta sospende la scena. Senza JavaScript la geometria completa è statica e i segmenti sono omessi; con movimento ridotto restano la mappa completa e le destinazioni, senza segmenti e controllo del movimento. Forced colors omette la mappa e lo spazio della sua fascia inferiore; la stampa presenta testo, anno accademico e destinazioni su bianco senza scena o controlli del movimento.
+`IntersectionObserver` sospende il movimento quando l’apertura esce dalla viewport; anche la scheda nascosta sospende la scena. Il termine automatico dell’introduzione è definitivo per quella visita. Senza JavaScript la geometria completa è statica e i segmenti sono omessi; con movimento ridotto restano subito la mappa completa e le destinazioni, senza segmenti. Forced colors omette la mappa e lo spazio della sua fascia inferiore; la stampa presenta testo, anno accademico e destinazioni su bianco senza scena.
 
 | Modulo | Responsabilità |
 | --- | --- |

@@ -1,18 +1,13 @@
 (() => {
   const root = document.documentElement;
-  const toggle = document.querySelector('.motion-toggle');
-  const label = toggle.querySelector('span');
   const opening = document.querySelector('.course-opening');
   const scene = document.querySelector('.metro-scene svg');
   const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
-  let paused = false;
+  let finished = false;
   let inView = true;
   function sync() {
-    const stopped = paused || reduced.matches || document.hidden || !inView;
-    root.dataset.motion = reduced.matches ? 'static' : stopped ? 'paused' : 'running';
-    toggle.hidden = reduced.matches;
-    toggle.setAttribute('aria-pressed', String(paused));
-    label.textContent = paused ? 'Riprendi l’animazione' : 'Ferma l’animazione';
+    const stopped = document.hidden || !inView;
+    root.dataset.motion = finished || reduced.matches ? 'static' : stopped ? 'paused' : 'running';
   }
   function sizeJourneys() {
     const bounds = scene.getBoundingClientRect();
@@ -39,9 +34,10 @@
     new IntersectionObserver(([entry]) => { inView = entry.isIntersecting; sync(); }).observe(opening);
   }
   if ('ResizeObserver' in window) new ResizeObserver(sizeJourneys).observe(scene);
-  toggle.addEventListener('click', () => { paused = !paused; sync(); });
   reduced.addEventListener('change', sync);
   document.addEventListener('visibilitychange', sync);
   sizeJourneys();
   sync();
+  // A short entrance needs no persistent pause control or continuing loop.
+  window.setTimeout(() => { finished = true; sync(); }, 4500);
 })();
