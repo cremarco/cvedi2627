@@ -2,6 +2,7 @@ import { readFile, readdir, rm } from 'node:fs/promises'
 import path from 'node:path'
 import { localAssetDirectories, sharedLessonAssetDirectories } from './utils/publication.mjs'
 import { webDesignExamplesPlugin } from './utils/web-design-examples.mjs'
+import { ilmeteoPlugin } from './utils/ilmeteo.mjs'
 import { preventIndexingHTML } from './utils/indexing.mjs'
 
 function localAssetsPlugin() {
@@ -34,6 +35,7 @@ export default {
   plugins: [
     localAssetsPlugin(),
     webDesignExamplesPlugin(),
+    ilmeteoPlugin(),
     { name: 'cvedi-noindex', transformIndexHtml: preventIndexingHTML },
   ],
   resolve: {

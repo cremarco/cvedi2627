@@ -13,6 +13,10 @@ const results=[];
 for(const width of [1440,390,320])for(const version of ['originale','redesign'])for(const file of ['index','milano','domani']){
  await page.setViewportSize({width,height:900});
  const response=await page.goto(`${base}${version}/${file}.html`);await page.waitForLoadState('load');
+ if(version==='redesign') {
+  const overflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
+  if(overflow>2)throw Error(`Redesign page overflow: ${file} ${width}: ${overflow}px`);
+ }
  const nav=page.locator('#ilmeteo-version-nav');
  const box=await nav.boundingBox();
  const overflow=await nav.evaluate(el=>el.scrollWidth>el.clientWidth);
@@ -42,6 +46,11 @@ for(const width of [1440,390,320])for(const version of ['originale','redesign'])
 await page.emulateMedia({reducedMotion:'reduce'});await page.goto(`${base}originale/milano.html`);
 await Promise.all([page.waitForURL(`${base}redesign/milano.html`),page.locator('[data-version-switch]').click()]);
 if(await page.evaluate(()=>document.documentElement.dataset.versionDirection))throw Error('Reduced motion not respected');
+await page.goto(`${base}redesign/index.html`);
+await page.getByLabel('Cerca località', {exact:true}).fill('Milano');
+const popup=await page.locator('.navbar-search-item .search_bar__dropdown').boundingBox();
+if(!popup||popup.x<0||popup.x+popup.width>await page.evaluate(()=>innerWidth))throw Error('Search popup is clipped');
+await Promise.all([page.waitForURL(`${base}redesign/milano.html`),page.getByLabel('Cerca località', {exact:true}).press('Enter')]);
 // Existing source anchors must now stay inside the same local version.
 for(const file of ['index','milano','domani']){
  await page.goto(`${base}originale/${file}.html`);

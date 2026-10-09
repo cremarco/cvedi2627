@@ -1,4 +1,3 @@
-import {switchIcon} from './redesign-icons.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -7,7 +6,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const pages = [['index', 'Home'], ['milano', 'Milano'], ['domani', 'Domani']];
 export function versionNavigation(version, page) {
   const other = version === 'originale' ? 'redesign' : 'originale';
-  return `<aside id="ilmeteo-version-nav" data-theme="ilmeteo" aria-label="Confronto delle versioni"><a class="lab-btn version-switch" href="../${other}/${page}.html" data-version-switch="${other}" aria-label="Passa alla versione ${other === 'redesign' ? 'nuova' : 'originale'}: ${pages.find(([file]) => file === page)[1]}">${version==='redesign'?switchIcon:'<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 8h15m-4-4 4 4-4 4M20 16H5m4-4-4 4 4 4"/></svg>'}<span>Passa ${other === 'redesign' ? 'al nuovo sito' : 'all’originale'}</span></a></aside>`;
+  const icon = '<svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 8h15m-4-4 4 4-4 4M20 16H5m4-4-4 4 4 4"/></svg>';
+  return `<aside id="ilmeteo-version-nav" data-theme="ilmeteo" aria-label="Confronto delle versioni"><a class="lab-btn version-switch" href="../${other}/${page}.html" data-version-switch="${other}" aria-label="Passa alla versione ${other === 'redesign' ? 'nuova' : 'precedente'}: ${pages.find(([file]) => file === page)[1]}">${icon}<span>Passa ${other === 'redesign' ? 'al nuovo sito' : 'all’originale'}</span></a></aside>`;
 }
 export function enhancePage(html, version, page) {
   html = html.replace(/<aside id="ilmeteo-version-nav"[\s\S]*?<\/aside>/g, '')

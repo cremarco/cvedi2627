@@ -10,6 +10,8 @@ import { webDesignExamplesDirectory } from '../../utils/web-design-examples.mjs'
 import { copyCourseHome } from './course-home.mjs'
 import { preventSiteIndexing } from './noindex.mjs'
 import { copyProjectArchiveRedirects } from './project-archive-redirects.mjs'
+import { copyIlmeteo } from './ilmeteo.mjs'
+import { ilmeteoDirectory } from '../../utils/ilmeteo.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const output = path.join(root, '_site')
@@ -25,6 +27,7 @@ const build = spawnSync(process.execPath, [
 if (build.status !== 0) process.exit(build.status ?? 1)
 await checkPublishedBuild(path.join(output, 'slides'))
 await copyWebDesignExamples(path.join(output, webDesignExamplesDirectory))
+await copyIlmeteo(path.join(output, ilmeteoDirectory))
 
 // The PDF is generated manually at the end and is optional for publication.
 const pdf = path.join(root, 'cvedi-2026-2027.pdf')

@@ -89,6 +89,7 @@ html:is([data-motion="running"],[data-motion="paused"]) .metro-packet { display:
 html[data-motion="paused"] :is(.metro-field,.metro-route,.metro-dot,.metro-packet) { animation-play-state: paused; }
 html[data-route-family="red"] .metro-family:not([data-family="red"]),
 html[data-route-family="orange"] .metro-family:not([data-family="orange"]),
+html[data-route-family="pink"] .metro-family:not([data-family="pink"]),
 html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity: .18; }
 @keyframes metro-compose { from { opacity: .2; transform: translateY(18px) scale(.97); } to { opacity: 1; transform: none; } }
 @keyframes metro-arrive { from { stroke-dashoffset: 1000; } to { stroke-dashoffset: 0; } }
@@ -103,8 +104,6 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
 .destination-copy h3 { margin: 0; font-size: clamp(28px,2.75vw,40px); font-weight: 700; line-height: 1.15; letter-spacing: -.03em; }
 .destination-copy > span { font-size: 16px; color: var(--home-reading-muted); line-height: 1.5; }
 .destination > svg { width: 40px; height: 40px; transition: transform 240ms var(--home-ease); }
-.destination-pending { grid-template-columns: 32px 1fr auto; }
-.availability { color: var(--home-reading-muted); font-size: 13px; }
 a.destination:focus-visible { background: var(--home-reading-hover); }
 a.destination:focus-visible h3 { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: .13em; }
 a.destination:focus-visible .destination-station { background: var(--route-color); }

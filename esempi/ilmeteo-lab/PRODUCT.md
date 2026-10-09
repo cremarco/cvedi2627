@@ -1,24 +1,22 @@
-# iLMeteo · laboratorio di riprogettazione
+# iLMeteo · confronto di interfacce
 
 ## Platform
 web
 
 ## Product Purpose
-Esercitazione locale di Comunicazione visiva e design delle interfacce: confrontare tre pagine autentiche di iLMeteo con una riprogettazione motivata e verificabile.
+Esempio didattico CVeDI: confrontare la versione acquisita di iLMeteo e il redesign costruito dall’utente attraverso modifiche successive alla copia originale.
 
 ## Operating Context
-L’ingresso del laboratorio apre direttamente la Home originale acquisita, senza pagina introduttiva. La pagina di analisi è conservata ma non è collegata nella navigazione del laboratorio.
-
-Home, previsioni di Milano e previsioni nazionali di domani. Bologna è conservata nell’archivio e le sue vecchie pagine reindirizzano a Milano. Consultazione breve per scegliere luogo e data, leggere condizioni e dettagli, poi approfondire. Desktop, smartphone, tastiera, ingrandimento e stampa. Home e Italia conservano l’acquisizione dell’8 ottobre 2026; Milano usa la propria acquisizione del 9 ottobre 2026. Le date sono distinte nell’interfaccia. Nessuna copia è aggiornata in tempo reale.
+L’ingresso apre il nuovo redesign. Home, Milano e Meteo domani sono disponibili in entrambe le versioni. Una tab laterale passa alla pagina corrispondente con la transizione a tendina esistente. La home del corso collega `ilmeteo/redesign/index.html`.
 
 ## Capabilities and Constraints
-Tre copie originali fedeli, tre pagine riprogettate, analisi delle criticità e confronto tra le versioni. Le pagine funzionano localmente senza servizi remoti necessari. Ricerca e selezioni operano sul contenuto acquisito; altri luoghi e servizi sono collegamenti espliciti al sito ufficiale oppure stati chiaramente non disponibili nella copia. I dati, le unità, le attribuzioni e i testi di fonte sono conservati. Nessuna previsione o allerta inventata. Riorganizzazione, etichette e sintesi derivate dai dati possono migliorare la comprensione. Pubblicazione esterna esclusa dal compito.
+Dati congelati: Home e Italia sono acquisiti l’8 ottobre 2026, Milano il 9 ottobre. I controlli locali riusano esclusivamente contenuti acquisiti; servizi assenti mostrano lo stato locale esistente. La mappa radar del redesign è un segnaposto illustrativo richiesto dall’utente, senza dati meteorologici reali. Le copie precedenti, fonti, attribuzioni e licenze restano conservate. Pubblicazione su GitHub Pages autorizzata esplicitamente dall’utente il 9 ottobre 2026.
 
 ## Brand Commitments
-Conservare il nome iLMeteo e il legame con blu e arancio. Su richiesta dell’utente, il redesign usa il nuovo logo didattico `redesign/assets/brand/ilmeteo-modern-v1.png`, generato con ImageGen: monogramma iL blu, sole arancio come punto della i e lettering Meteo sans-serif. Le copie originali conservano il logo autentico e la sua provenienza. Su richiesta dell’utente, il redesign usa anche una famiglia di icone ImageGen per condizioni meteo, ricerca e cambio versione; codici e testi meteorologici restano quelli acquisiti e, su successiva richiesta dell’utente, la mappa nazionale principale è ridisegnata con lo stesso linguaggio grafico. È indicata come grafica ridisegnata e collega la mappa acquisita per confronto; le altre mappe conservano l’artwork originale. La nuova interfaccia possiede un sistema autonomo; non applicare il linguaggio delle slide né quello di Caffè TTC. Usare daisyUI e Tailwind già presenti, separando contenuti, dati e presentazione.
+Navbar navy, marchio bianco con sole arancio, ricerca integrata, ticker arancio con testo bianco ripetuto e punti equidistanti, schede dei giorni piatte e testo introduttivo in paragrafi. Conservare l’aspetto costruito dall’utente. Non applicare la grafica delle slide o del Caffè TTC.
 
 ## Evidence on Hand
-HTML grezzo in sources/, copie consultabili in originale/, inventario degli asset e hash in assets/manifest.json, contenuti congelati in data/capture.json. Evidenze e controlli in reports/ilmeteo-lab/ nella radice del repository.
+`originale/` conserva le pagine precedenti; `sources/`, `data/` e `assets/manifest.json` conservano acquisizioni e provenienza. `assets/brand/` contiene il logo didattico ImageGen e il suo prompt; `assets/placeholder-manifest.json` descrive il segnaposto. Gli asset attivi riusano licenze e font locali. Il vecchio redesign sostituito è recuperabile dalla storia Git.
 
 ## Definition of Done
-Originali acquisiti con provenienza; analisi indipendente di design e tecnica; sistema scelto e documentato; sei pagine navigabili; contenuti verificati; risorse locali; ricerca, filtri e navigazione testati; layout desktop/mobile/200% e stampa controllati; revisione finale indipendente completata. La qualità è dimostrata dai controlli e da prove di utilizzo, senza promettere perfezione universale.
+Sei pagine navigabili, confronto animato bidirezionale, tastiera, movimento ridotto e stampa verificati. Il nuovo collegamento della home funziona nella build Pages anche sotto `/cvedi2627/`. Pubblicazione dei soli file di runtime e asset locali; codice sorgente, CSS compilati e controlli separati.

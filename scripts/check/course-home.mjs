@@ -162,9 +162,9 @@ try {
         await assertOriginalGeometry(page)
         await assertSharedSlidePalette(page)
       }
-      assert.equal(await page.locator('.destination[href]').count(), 3)
-      assert.match(await page.locator('.destination-pending').innerText(), /iLMeteo[\s\S]*in preparazione/)
-      for (const href of ['slides/', projectArchiveURL, 'web-design-examples/index.html?stile=liquid']) {
+      assert.equal(await page.locator('.destination[href]').count(), 4)
+      assert.equal(await page.locator('.destination-pending').count(), 0)
+      for (const href of ['slides/', projectArchiveURL, 'web-design-examples/index.html?stile=liquid', 'ilmeteo/redesign/index.html']) {
         assert.ok(await page.locator(`.destination[href="${href}"]`).isVisible())
         if (href === projectArchiveURL) continue // External archive is verified separately.
         const target = new URL(href, base + prefix)
@@ -230,7 +230,7 @@ try {
   await page.waitForFunction(() => document.documentElement.dataset.motion === 'static')
   await assertStaticScene(page)
   record('offscreen suspension, onscreen resume and live reduced-motion preference')
-  const families = ['red', 'orange', 'teal']
+  const families = ['red', 'orange', 'teal', 'pink']
   assert.deepEqual(await page.locator('.destination[data-route-family][href]').evaluateAll(elements => elements.map(element => element.dataset.routeFamily)), families)
   const assertSelectedFamily = async family => {
     await page.waitForFunction(expected => document.documentElement.dataset.routeFamily === expected, family)
@@ -266,7 +266,7 @@ try {
   await page.emulateMedia({ forcedColors: 'none', media: 'print' })
   await page.goto(base + '/')
   assert.equal(await page.locator('.metro-scene').isVisible(), false)
-  assert.equal(await page.locator('.destination[href]').count(), 3)
+  assert.equal(await page.locator('.destination[href]').count(), 4)
   await page.screenshot({ path: `${output}/home-print.png`, fullPage: true })
   await page.pdf({ path: `${output}/home-print.pdf`, format: 'A4', printBackground: true })
   record('print')
@@ -275,7 +275,7 @@ try {
   await noScript.goto(base + '/')
   assert.equal(await noScript.locator('h1').isVisible(), true)
   assert.equal(await noScript.locator('.motion-toggle').count(), 0)
-  assert.equal(await noScript.locator('.destination[href]').count(), 3)
+  assert.equal(await noScript.locator('.destination[href]').count(), 4)
   assert.equal(await noScript.locator('.metro-field').count(), 3)
   assert.equal(await noScript.locator('.metro-dot').count(), 147)
   await assertStaticScene(noScript)
