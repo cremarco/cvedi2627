@@ -349,6 +349,24 @@
         ],
         "createdAt": "2026-10-08T14:43:25.469Z",
         "reason": "Agent: reviewed the seven existing inset stripes on hero, header, contacts, introduction and controls; their pink, orange and lime ribbons are the Max teaching variant grammar explicitly preserved by DESIGN.md."
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "home/index.html"
+        ],
+        "createdAt": "2026-10-09T08:56:46.263Z",
+        "reason": "Assistant decided: home/index.html is a build template whose generated home-assets/home.css is absent beside the source; the detector reports all roles as 16px. The built page loads this CSS and reports/course-home/verification.json verifies h1 105.84px versus body 18px at 1440px, and h1 37.05px versus body 15px at 390px. The built-page scan does not report flat type hierarchy."
+      },
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "files": [
+          "home/home.source.css"
+        ],
+        "createdAt": "2026-10-09T08:56:46.325Z",
+        "reason": "Assistant decided: DESIGN.md explicitly assigns locally hosted Inter 400/700 to the CVeDI metro covers and course homepage. The two declarations preserve the documented course identity; the independent visual review approved this intentional typography."
       }
     ]
   }

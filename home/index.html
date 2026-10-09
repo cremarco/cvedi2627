@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#3730a3">
+  <meta name="theme-color" content="#312e81">
   <meta name="description" content="Comunicazione visiva e design delle interfacce, A.A. 2026/27. Slide, progetti degli anni precedenti e laboratori di interfacce.">
   <title>Comunicazione visiva e design delle interfacce · A.A. 2026/27</title>
   <link rel="preload" href="home-assets/fonts/inter-700.woff2" as="font" type="font/woff2" crossorigin>
@@ -18,42 +18,44 @@
       <header class="course-header page-width">
         <a class="link course-wordmark" href="./" aria-label="CVeDI, pagina iniziale">CVeDI<span class="wordmark-station" aria-hidden="true"></span></a>
         <div class="header-actions">
-          <span class="academic-year">A.A. <strong>2026/27</strong></span>
           <button class="btn motion-toggle" type="button" aria-pressed="false" hidden>
             <svg class="pause-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14M16 5v14"/></svg>
             <svg class="play-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 5 11 7-11 7Z"/></svg>
-            <span>Ferma le tracce</span>
+            <span>Ferma l’animazione</span>
           </button>
         </div>
       </header>
       <div class="opening-content page-width">
-        <h1 id="course-title"><span>Comunicazione</span><span><em>visiva</em> e design</span><span>delle interfacce</span></h1>
+        <div class="opening-heading">
+          <h1 id="course-title"><span>Comunicazione</span><span><em>visiva</em> e design</span><span>delle interfacce</span></h1>
+          <div class="academic-year"><span>A.A.</span><strong>2026/27</strong><span class="edition-credit">8 CFU</span></div>
+        </div>
         <div class="opening-bottom">
-          <p>Un corso, molte connessioni.<br>Materiali, progetti e interfacce da esplorare.</p>
-          <a class="btn btn-primary slide-action" href="slides/">Apri le slide<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16h22M18 7l9 9-9 9"/></svg></a>
+          <p>Un corso, molte connessioni.<br>Esplora le slide, i progetti e gli stili del web.</p>
+          <a class="btn btn-primary slide-action" href="slides/" data-route-family="red">Apri le slide<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16h22M18 7l9 9-9 9"/></svg></a>
         </div>
       </div>
       <nav class="station-nav page-width" aria-label="Materiali del corso">
-        <a class="link" href="slides/"><span class="station-dot" aria-hidden="true"></span><span class="station-label">Slide</span></a>
-        <a class="link" href="project/"><span class="station-dot" aria-hidden="true"></span><span class="station-label">Progetti</span></a>
-        <a class="link" href="web-design-examples/index.html?stile=liquid"><span class="station-dot" aria-hidden="true"></span><span class="station-label">Caffè TTC</span></a>
+        <a class="link" href="slides/" data-route-family="red"><span class="station-dot" aria-hidden="true"></span><span class="station-label">Slide</span></a>
+        <a class="link" href="project/" data-route-family="orange"><span class="station-dot" aria-hidden="true"></span><span class="station-label">Progetti</span></a>
+        <a class="link" href="web-design-examples/index.html?stile=liquid" data-route-family="teal"><span class="station-dot" aria-hidden="true"></span><span class="station-label">Caffè TTC</span></a>
         <span class="station-pending"><span class="station-dot" aria-hidden="true"></span><span class="station-label">iLMeteo <small>In arrivo</small></span></span>
       </nav>
     </section>
     <section class="destinations page-width" id="percorsi" aria-labelledby="destinations-title">
       <h2 id="destinations-title">Scegli il tuo percorso.</h2>
       <div class="destination-list">
-        <a class="link destination" href="slides/" style="--route-color:var(--home-indigo)">
+        <a class="link destination" href="slides/" data-route-family="red" style="--route-color:var(--home-indigo)">
           <span class="destination-station" aria-hidden="true"></span>
           <span class="destination-copy"><strong>Le slide del corso</strong><span>Lezioni, brief di progetto e approfondimenti · A.A. 2026/27</span></span>
           <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16h22M18 7l9 9-9 9"/></svg>
         </a>
-        <a class="link destination" href="project/" style="--route-color:var(--home-orange)">
+        <a class="link destination" href="project/" data-route-family="orange" style="--route-color:var(--home-orange)">
           <span class="destination-station" aria-hidden="true"></span>
           <span class="destination-copy"><strong>Progetti degli studenti</strong><span>L’archivio dei lavori degli anni accademici precedenti</span></span>
           <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16h22M18 7l9 9-9 9"/></svg>
         </a>
-        <a class="link destination" href="web-design-examples/index.html?stile=liquid" style="--route-color:var(--home-teal)">
+        <a class="link destination" href="web-design-examples/index.html?stile=liquid" data-route-family="teal" style="--route-color:var(--home-teal)">
           <span class="destination-station" aria-hidden="true"></span>
           <span class="destination-copy"><strong>Caffè TTC</strong><span>Lo stesso sito attraverso 21 linguaggi del web</span></span>
           <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 16h22M18 7l9 9-9 9"/></svg>
