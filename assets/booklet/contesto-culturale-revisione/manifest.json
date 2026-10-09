@@ -834,7 +834,7 @@
     },
     "historicalCaseStudies": "2024 complete case-study content unchanged",
     "coverComponentFamilyId": "2695:3901",
-    "coverDataSeparation": "Each native bipolar concept cover is followed immediately by a separate current-data native diagram; original source diagrams remain historical.",
+    "coverDataSeparation": "Each full-page artistic ImageGen cover with editable native labels is followed immediately by its unchanged current-data native diagram; original source diagrams remain historical.",
     "dimensionVisualCoverRevision": {
       "updatedOn": "2026-10-09",
       "addedGraphBoardCount": 6,
@@ -881,7 +881,8 @@
           "coverOrdinal": 40,
           "graphOrdinal": 41
         }
-      ]
+      ],
+      "role": "Historical native-component cover revision; current covers are described by generatedFullPageCovers."
     },
     "historicalRestoration": {
       "restoredOn": "2026-10-09",
@@ -915,6 +916,113 @@
         }
       ],
       "evidence": "Root Figma restoration receipt and confirmed node IDs; see native dimension manifest for source audit"
-    }
+    },
+    "coverComponentFamilyStatus": "Previous native cover master family preserved outside active booklet; see generatedFullPageCovers for current artwork."
+  },
+  "generatedFullPageCovers": {
+    "updatedOn": "2026-10-09",
+    "generator": "ImageGen",
+    "manifest": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json",
+    "coverCount": 6,
+    "representation": "Original artistic bitmap fills the whole 496.063 × 657.638 Figma board; code, title, pole labels and image attribution remain editable native Figma text.",
+    "covers": [
+      {
+        "code": "PDI",
+        "boardId": "198:3945",
+        "folio": 15,
+        "printedPage": 107,
+        "imageNodeId": "2702:3941",
+        "imageHash": "b04d7ae730f4a46df8313fc131836be48b25b07e",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 496.06298828125,
+          "height": 657.6378173828125
+        }
+      },
+      {
+        "code": "IDV",
+        "boardId": "198:4402",
+        "folio": 20,
+        "printedPage": 112,
+        "imageNodeId": "2702:3950",
+        "imageHash": "6b711a0ace10fcfffafd95a0527c265af7d4f0f9",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 496.06298828125,
+          "height": 657.6378173828125
+        }
+      },
+      {
+        "code": "MAS",
+        "boardId": "198:4386",
+        "folio": 25,
+        "printedPage": 117,
+        "imageNodeId": "2702:3959",
+        "imageHash": "b37d8e7d94d79dc83c9e0c9011913e824eff6f7b",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 496.06298828125,
+          "height": 657.6378173828125
+        }
+      },
+      {
+        "code": "UAI",
+        "boardId": "198:4370",
+        "folio": 30,
+        "printedPage": 122,
+        "imageNodeId": "2702:3968",
+        "imageHash": "8616319e8fca043c11d4027e33cc7fe654fe0742",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 496.06298828125,
+          "height": 657.6378173828125
+        }
+      },
+      {
+        "code": "LTO",
+        "boardId": "198:4354",
+        "folio": 35,
+        "printedPage": 127,
+        "imageNodeId": "2702:3977",
+        "imageHash": "da9cfaa58e7d8c8e1888a118ec7eda265bb3f3d4",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 496.06298828125,
+          "height": 657.6378173828125
+        }
+      },
+      {
+        "code": "IVR",
+        "boardId": "198:4429",
+        "folio": 40,
+        "printedPage": 132,
+        "imageNodeId": "2702:3986",
+        "imageHash": "d64d262417c8439eb481fee03e4c7591de9f7fe4",
+        "rect": {
+          "x": 0,
+          "y": 0,
+          "width": 496.06298828125,
+          "height": 657.6378173828125
+        }
+      }
+    ],
+    "dataDiagramsUnchanged": true,
+    "graphOrdinals": [
+      16,
+      21,
+      26,
+      31,
+      36,
+      41
+    ],
+    "previousNativeCoverComponentFamilyId": "2695:3901",
+    "previousNativeCoverDisposition": "Master family retained outside the active booklet; active cover instances replaced by generated full-page artwork.",
+    "verification": "reports/contesto-culturale/copertine-imagegen/verifica.json",
+    "historicalCaseContentUnchanged": true
   }
 }

@@ -3,7 +3,7 @@ import { createRequire } from 'node:module'
 import { readFile, realpath, readdir, access } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
-import { publicationExtensions, localAssetDirectories } from '../../utils/publication.mjs'
+import { publicationExtensions, localAssetDirectories, sharedLessonAssetDirectories } from '../../utils/publication.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 
@@ -11,7 +11,8 @@ export async function checkPublication() {
   const require = createRequire(await realpath(path.join(root, 'node_modules/@slidev/cli/package.json')))
   const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
-  const localIds = new Set(curriculum.lessons.map(lesson => lesson.id))
+  const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
+  const localIds = new Set(curriculum.lessons.filter(lesson => lesson.number >= 5).map(lesson => lesson.id))
   const options = { roots: [root], userRoot: root, allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
   try {
@@ -19,25 +20,27 @@ export async function checkPublication() {
     const published = await load(options, path.join(root, 'slides.md'), undefined, 'build')
     for (const deck of [local, published])
       for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
-    const localSlides = local.slides.filter(slide => localIds.has(slide.frontmatter.lesson))
+    const localSlides = local.slides.filter(slide => uxIds.has(slide.frontmatter.lesson))
     assert.equal(localSlides.length, 316, 'all six lessons remain available locally')
-    assert.ok(localSlides.every(slide => slide.frontmatter.localOnly === true), 'every local lesson import is explicitly marked')
+    assert.ok(localSlides.filter(slide => localIds.has(slide.frontmatter.lesson)).every(slide => slide.frontmatter.localOnly === true), 'unpublished lesson imports remain explicitly marked')
     assert.equal(local.slides.length, 558, 'complete local deck')
-    assert.equal(published.slides.length, 242, 'published deck includes lesson 03')
+    assert.equal(published.slides.length, 351, 'published deck includes lessons 03 and 04')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
       assert.match(deck.slides.find(slide => slide.title === 'Indice delle lezioni').content, /<SlideAction\s+to=["']storia-design["']/, 'lesson 03 is linked from both indexes')
+      assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'ricerca-inclusiva').length, 109, 'all 109 lesson 04 slides are available locally and online')
+      assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'ricerca-inclusiva'), 'lesson 04 retains its destination alias')
     }
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')
     assert.deepEqual(published.slides.map(slide => slide.title), local.slides.filter(slide => !localIds.has(slide.frontmatter.lesson)).map(slide => slide.title), 'published content order is preserved')
     const localIndex = local.slides.find(slide => slide.title === 'Indice delle lezioni').content
     const publicIndex = published.slides.find(slide => slide.title === 'Indice delle lezioni').content
-    const publicTargets = ['presentazione-corso', 'introduzione-teorica', 'storia-design']
+    const publicTargets = ['presentazione-corso', 'introduzione-teorica', 'storia-design', 'ricerca-inclusiva']
     const supplementalTargets = ['brief-progetto', 'approfondimenti']
     const indexTargets = content => [...content.matchAll(/<SlideAction\s+to=["']([^"']+)["']/g)].map(match => match[1])
-    const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, publicTargets[2]]
-    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...curriculum.lessons.map(lesson => lesson.id)], 'local index groups lesson 02 materials before continuing in lesson number order')
+    const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, ...publicTargets.slice(2)]
+    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...localIds], 'local index groups lesson 02 materials before continuing in lesson number order')
     assert.deepEqual(indexTargets(publicIndex), groupedPublicTargets, 'published index preserves available destinations in reading order')
     for (const content of [localIndex, publicIndex]) {
       const lessonTwo = content.match(/<div\s+class="join join-horizontal index-lesson-two"[^>]*>([\s\S]*?)<\/div>/)?.[1]
@@ -48,6 +51,11 @@ export async function checkPublication() {
     assert.ok(!publicIndex.includes('LocalOnly') && !publicIndex.includes('index-ux-lessons'), 'local index is removed before compilation')
     for (const lesson of curriculum.lessons) {
       assert.ok(localIndex.includes(`to="${lesson.id}"`), `${lesson.id}: local destination exists`)
+      if (!localIds.has(lesson.id)) {
+        assert.ok(publicIndex.includes(`to="${lesson.id}"`), `${lesson.id}: published destination exists`)
+        assert.ok(Object.keys(published.markdownFiles).includes(path.join(root, lesson.file)), `${lesson.id}: published source is imported`)
+        continue
+      }
       assert.ok(!publicIndex.includes(`to="${lesson.id}"`), `${lesson.id}: unpublished destination is absent`)
       assert.ok(!Object.keys(published.markdownFiles).includes(path.join(root, lesson.file)), `${lesson.id}: the source is never imported into the published bundle`)
     }
@@ -64,6 +72,12 @@ export async function checkPublishedBuild(directory) {
     .map(file => readFile(path.join(assets, file), 'utf8')))).join('\n')
   for (const directory of localAssetDirectories)
     assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
+  for (const directory of sharedLessonAssetDirectories) {
+    const expected = [...new Set([...references.matchAll(new RegExp('/' + directory + '/[^"\'\\s<>`)]+', 'g'))].map(match => match[0]))].sort()
+    assert.ok(expected.length > 0, 'published lesson 04 retains its shared figures')
+    const actual = (await readdir(path.join(output, directory))).map(file => '/' + directory + '/' + file).sort()
+    assert.deepEqual(actual, expected, 'only figures referenced by published lessons are exported')
+  }
   return { output, localAssetsExcluded: true }
 }
 

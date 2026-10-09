@@ -15,7 +15,8 @@
   "counts": {
     "images": 31,
     "cardTitles": 36,
-    "directCardUses": 37
+    "directCardUses": 37,
+    "cardSlides": 15
   },
   "jobs": [
     {
@@ -28,7 +29,7 @@
       ],
       "subject": "Two simple head-and-shoulder silhouettes facing each other, with one broad magnifying glass between them: learning about people through research. No faces or clothing details.",
       "original": "assets/theme-imagegen/originals/ux-research-people-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-people-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-people-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-people-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Two simple head-and-shoulder silhouettes facing each other, with one broad magnifying glass between them: learning about people through research. No faces or clothing details.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -54,7 +55,33 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 244,
+          "title": "Cosa impareremo",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-02",
+          "card": "Comprendere le persone",
+          "key": "comprendere le persone"
+        },
+        {
+          "page": 340,
+          "title": "Verificare l’inclusione",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-38",
+          "card": "Ricercare",
+          "key": "ricercare"
+        },
+        {
+          "page": 349,
+          "title": "Tre idee da portare nel progetto",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-47",
+          "card": "Ricerca",
+          "key": "ricerca"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-barriers",
@@ -64,7 +91,7 @@
       ],
       "subject": "One broad low barrier across a simple path, with a magenta arrow taking a clear alternative route around it. A concrete barrier and an accessible way past it, with no lock or prohibition symbol.",
       "original": "assets/theme-imagegen/originals/ux-research-barriers-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-barriers-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-barriers-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-barriers-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad low barrier across a simple path, with a magenta arrow taking a clear alternative route around it. A concrete barrier and an accessible way past it, with no lock or prohibition symbol.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -90,7 +117,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 244,
+          "title": "Cosa impareremo",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-02",
+          "card": "Riconoscere le barriere",
+          "key": "riconoscere le barriere"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-define",
@@ -101,7 +138,7 @@
       ],
       "subject": "Two broad evidence slips converging through a small funnel into one clearly outlined target circle: defining a focused problem from evidence. No letters, tiny lists or numbers.",
       "original": "assets/theme-imagegen/originals/ux-research-define-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-define-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-define-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-define-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Two broad evidence slips converging through a small funnel into one clearly outlined target circle: defining a focused problem from evidence. No letters, tiny lists or numbers.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -127,7 +164,25 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 244,
+          "title": "Cosa impareremo",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-02",
+          "card": "Definire il problema",
+          "key": "definire il problema"
+        },
+        {
+          "page": 349,
+          "title": "Tre idee da portare nel progetto",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-47",
+          "card": "Define",
+          "key": "define"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-interview",
@@ -137,7 +192,7 @@
       ],
       "subject": "Two overlapping rounded conversation bubbles, one pale lime and one white, with one simple magenta dot in the front bubble. Clean dialogue motif; no text or punctuation.",
       "original": "assets/theme-imagegen/originals/ux-research-interview-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-interview-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-interview-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-interview-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Two overlapping rounded conversation bubbles, one pale lime and one white, with one simple magenta dot in the front bubble. Clean dialogue motif; no text or punctuation.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -163,7 +218,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 248,
+          "title": "Intervistare e osservare",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-06",
+          "card": "Intervista",
+          "key": "intervista"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-observation",
@@ -174,7 +239,7 @@
       ],
       "subject": "One magnifying glass over a broad blank evidence sheet, with one magenta observation dot under the lens. Rounded recognizable shapes and very few broad marks.",
       "original": "assets/theme-imagegen/originals/ux-research-observation-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-observation-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-observation-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-observation-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One magnifying glass over a broad blank evidence sheet, with one magenta observation dot under the lens. Rounded recognizable shapes and very few broad marks.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -200,7 +265,33 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 248,
+          "title": "Intervistare e osservare",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-06",
+          "card": "Osservazione",
+          "key": "osservazione"
+        },
+        {
+          "page": 250,
+          "title": "Osservazione, interpretazione, ipotesi",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-08",
+          "card": "Osservazione",
+          "key": "osservazione"
+        },
+        {
+          "page": 340,
+          "title": "Verificare l’inclusione",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-38",
+          "card": "Osservare",
+          "key": "osservare"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-interpretation",
@@ -210,7 +301,7 @@
       ],
       "subject": "One evidence sheet branching into two broad thought bubbles of equal importance, one pale lime and one pale magenta, to suggest alternative interpretations. No punctuation or words.",
       "original": "assets/theme-imagegen/originals/ux-research-interpretation-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-interpretation-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-interpretation-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-interpretation-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One evidence sheet branching into two broad thought bubbles of equal importance, one pale lime and one pale magenta, to suggest alternative interpretations. No punctuation or words.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -236,7 +327,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 250,
+          "title": "Osservazione, interpretazione, ipotesi",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-08",
+          "card": "Interpretazione",
+          "key": "interpretazione"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-hypothesis",
@@ -246,7 +347,7 @@
       ],
       "subject": "One simple lightbulb next to one small evidence slip with a broad magenta check, suggesting a proposed idea to test. No rays, decorative sparkles or text.",
       "original": "assets/theme-imagegen/originals/ux-research-hypothesis-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-hypothesis-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-hypothesis-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-hypothesis-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One simple lightbulb next to one small evidence slip with a broad magenta check, suggesting a proposed idea to test. No rays, decorative sparkles or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -272,7 +373,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 250,
+          "title": "Osservazione, interpretazione, ipotesi",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-08",
+          "card": "Ipotesi",
+          "key": "ipotesi"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-authority",
@@ -282,7 +393,7 @@
       ],
       "subject": "One clear organizational hierarchy: one head-and-shoulders silhouette at the top connected to two equal smaller silhouettes below, with a small magenta connection junction. No crown, flags or country symbols.",
       "original": "assets/theme-imagegen/originals/ux-research-authority-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-authority-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-authority-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-authority-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One clear organizational hierarchy: one head-and-shoulders silhouette at the top connected to two equal smaller silhouettes below, with a small magenta connection junction. No crown, flags or country symbols.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -308,7 +419,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 253,
+          "title": "Distanza dal potere",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-11",
+          "card": "Gerarchia e autorevolezza",
+          "key": "gerarchia e autorevolezza"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-participation",
@@ -318,7 +439,7 @@
       ],
       "subject": "Three equal rounded head-and-shoulders silhouettes arranged around one shared small magenta center, connected at the same level. Shared participation with no dominant person.",
       "original": "assets/theme-imagegen/originals/ux-research-participation-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-participation-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-participation-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-participation-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Three equal rounded head-and-shoulders silhouettes arranged around one shared small magenta center, connected at the same level. Shared participation with no dominant person.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -344,7 +465,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 253,
+          "title": "Distanza dal potere",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-11",
+          "card": "Autonomia e partecipazione",
+          "key": "autonomia e partecipazione"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-personal-choice",
@@ -354,7 +485,7 @@
       ],
       "subject": "One simple head-and-shoulders silhouette choosing between two broad option tiles, with a single magenta check on one tile. No labels, devices or personal characteristics.",
       "original": "assets/theme-imagegen/originals/ux-research-personal-choice-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-personal-choice-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-personal-choice-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-personal-choice-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One simple head-and-shoulders silhouette choosing between two broad option tiles, with a single magenta check on one tile. No labels, devices or personal characteristics.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -380,7 +511,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 261,
+          "title": "Individualismo e appartenenza",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-13",
+          "card": "Scelte personali",
+          "key": "scelte personali"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-community",
@@ -390,7 +531,7 @@
       ],
       "subject": "Three equal head-and-shoulders silhouettes linked by one simple curved connecting line, with a small magenta shared link. Community and mutual connection; no faces or cultural markers.",
       "original": "assets/theme-imagegen/originals/ux-research-community-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-community-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-community-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-community-v1.txt",
       "status": "complete",
       "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Three equal head-and-shoulders silhouettes linked by one simple curved connecting line, with a small magenta shared link. Community and mutual connection; no faces or cultural markers.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
@@ -416,7 +557,17 @@
       "visualReview": {
         "status": "accepted",
         "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
-      }
+      },
+      "owners": [
+        {
+          "page": 261,
+          "title": "Individualismo e appartenenza",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-13",
+          "card": "Relazioni e comunità",
+          "key": "relazioni e comunita"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-achievement",
@@ -426,10 +577,43 @@
       ],
       "subject": "One modest trophy cup on a broad small plinth, with one magenta medallion on the cup. Simple recognizable achievement motif, no numerals, stars or wording.",
       "original": "assets/theme-imagegen/originals/ux-research-achievement-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-achievement-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-achievement-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-achievement-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One modest trophy cup on a broad small plinth, with one magenta medallion on the cup. Simple recognizable achievement motif, no numerals, stars or wording.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One modest trophy cup on a broad small plinth, with one magenta medallion on the cup. Simple recognizable achievement motif, no numerals, stars or wording.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-75a61add-39c4-4371-a460-15cf1ce8e34c.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "c99e9be2826d5f428e966999c23854e9376ccdde322760671a9cf8580d30d0f5",
+      "publicationSha256": "e601e7b387a8df2962127374930bfa62ccc897817d3e14aa8598806f53e0d5dd",
+      "alpha": {
+        "transparent": 950751,
+        "partial": 618940,
+        "opaque": 2825
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 270,
+          "title": "Competizione e cooperazione",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-15",
+          "card": "Risultati e riconoscimento",
+          "key": "risultati e riconoscimento"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-care",
@@ -439,10 +623,43 @@
       ],
       "subject": "Two simple cupped hands supporting one pale-lime heart with a small magenta center. A clear broad silhouette representing care and shared well-being, with no detailed fingers.",
       "original": "assets/theme-imagegen/originals/ux-research-care-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-care-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-care-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-care-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Two simple cupped hands supporting one pale-lime heart with a small magenta center. A clear broad silhouette representing care and shared well-being, with no detailed fingers.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Two simple cupped hands supporting one pale-lime heart with a small magenta center. A clear broad silhouette representing care and shared well-being, with no detailed fingers.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-41c235cf-7b71-4120-b06f-ea868786baf0.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "59026295d5cfbcf30429b1702054363d01020a54f43d93a9c27e2e51927bd831",
+      "publicationSha256": "3504deca25972497186f574add6be41f94f20d92f2638bfa0a5e920aa3bcec93",
+      "alpha": {
+        "transparent": 908702,
+        "partial": 662140,
+        "opaque": 1674
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 270,
+          "title": "Competizione e cooperazione",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-15",
+          "card": "Cura e qualità della vita",
+          "key": "cura e qualita della vita"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-predictable",
@@ -452,10 +669,43 @@
       ],
       "subject": "One broad vertical checklist with exactly three large rounded rows and magenta checks, all contained in a simple pale-lime sheet. No lettering, numbers or tiny marks.",
       "original": "assets/theme-imagegen/originals/ux-research-predictable-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-predictable-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-predictable-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-predictable-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad vertical checklist with exactly three large rounded rows and magenta checks, all contained in a simple pale-lime sheet. No lettering, numbers or tiny marks.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad vertical checklist with exactly three large rounded rows and magenta checks, all contained in a simple pale-lime sheet. No lettering, numbers or tiny marks.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-3f1cc56d-e4f0-45ef-8a3c-a4260c631e74.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "41fdd64104dc8bd1444213da1531c23e4fa70f311bd980c6815cde3bdef71edf",
+      "publicationSha256": "c3b0b693917edb4afe308ffcf27a265034853b63030a1e32a81c14aa1e0ca988",
+      "alpha": {
+        "transparent": 636218,
+        "partial": 934639,
+        "opaque": 1659
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 278,
+          "title": "Rifiuto dell’incertezza",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-17",
+          "card": "Riferimenti prevedibili",
+          "key": "riferimenti prevedibili"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-exploration",
@@ -465,10 +715,43 @@
       ],
       "subject": "One broad path that forks into two curved alternatives and includes one short return arrow in magenta. Keep the fork clear and directions legible without a map, text or extra nodes.",
       "original": "assets/theme-imagegen/originals/ux-research-exploration-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-exploration-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-exploration-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-exploration-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad path that forks into two curved alternatives and includes one short return arrow in magenta. Keep the fork clear and directions legible without a map, text or extra nodes.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad path that forks into two curved alternatives and includes one short return arrow in magenta. Keep the fork clear and directions legible without a map, text or extra nodes.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-7f91c5d7-8a76-4ed8-a50b-49dd1bf5a3ba.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "aefb2f5b461125597b39593c5818b176abbc1894dda1113539c6919f9042a209",
+      "publicationSha256": "f0c710cbd4bd21e066ea66c12eacc670f3162255b690c586eb2e896925f7fab6",
+      "alpha": {
+        "transparent": 1045240,
+        "partial": 525696,
+        "opaque": 1580
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 278,
+          "title": "Rifiuto dell’incertezza",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-17",
+          "card": "Percorsi esplorativi",
+          "key": "percorsi esplorativi"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-long-term",
@@ -478,10 +761,43 @@
       ],
       "subject": "One small seedling with two broad leaves rising from a low planter, beside a short gently ascending path ending in one magenta goal dot. Growth and sustained progress, with no chart labels.",
       "original": "assets/theme-imagegen/originals/ux-research-long-term-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-long-term-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-long-term-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-long-term-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One small seedling with two broad leaves rising from a low planter, beside a short gently ascending path ending in one magenta goal dot. Growth and sustained progress, with no chart labels.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One small seedling with two broad leaves rising from a low planter, beside a short gently ascending path ending in one magenta goal dot. Growth and sustained progress, with no chart labels.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-63fea472-6d0b-45d4-aee5-4e5cb3926912.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "63158062be47532f562498b2007bd3922db20d228ccbaf5cf8f012d07ef1086c",
+      "publicationSha256": "274537e9342d973641821f70cc54fc576d293a5cb16ae8bd7a8aaa75b18b6db6",
+      "alpha": {
+        "transparent": 1185881,
+        "partial": 384844,
+        "opaque": 1791
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 287,
+          "title": "L’orizzonte temporale del messaggio",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-19",
+          "card": "Lungo termine",
+          "key": "lungo termine"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-short-term",
@@ -491,10 +807,43 @@
       ],
       "subject": "One small calendar with a single broad magenta selected date and a compact clock in front of it, symbolizing an immediate time horizon. No numbers, weekday letters or text.",
       "original": "assets/theme-imagegen/originals/ux-research-short-term-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-short-term-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-short-term-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-short-term-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One small calendar with a single broad magenta selected date and a compact clock in front of it, symbolizing an immediate time horizon. No numbers, weekday letters or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One small calendar with a single broad magenta selected date and a compact clock in front of it, symbolizing an immediate time horizon. No numbers, weekday letters or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-77b34837-671b-41db-8538-1fcedd6923a9.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "407394214e09ff3e4a042011d890c81cffd1ddcc3267d60047315d99004d1213",
+      "publicationSha256": "92f00085482b94d9be42944e9f615edf6413c0b0ba3fc75663cfadec479399ae",
+      "alpha": {
+        "transparent": 845233,
+        "partial": 725739,
+        "opaque": 1544
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 287,
+          "title": "L’orizzonte temporale del messaggio",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-19",
+          "card": "Breve termine",
+          "key": "breve termine"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-indulgence",
@@ -504,10 +853,43 @@
       ],
       "subject": "One simple open fan of three play and leisure objects: a broad small music note, a rounded game-controller silhouette and a magenta balloon. Compact friendly personal leisure motif, no faces or food brands.",
       "original": "assets/theme-imagegen/originals/ux-research-indulgence-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-indulgence-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-indulgence-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-indulgence-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One simple open fan of three play and leisure objects: a broad small music note, a rounded game-controller silhouette and a magenta balloon. Compact friendly personal leisure motif, no faces or food brands.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One simple open fan of three play and leisure objects: a broad small music note, a rounded game-controller silhouette and a magenta balloon. Compact friendly personal leisure motif, no faces or food brands.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-fdcac879-d632-4541-a7b9-237eaf06cf89.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "7dfff880e996a039ba1770041a03cc53bae23a344b005dc58028150c2b7bf68b",
+      "publicationSha256": "ec3861e159c42298d44d4c538b76212b58c56853dd4e36a90c18b70c2d48cfae",
+      "alpha": {
+        "transparent": 908608,
+        "partial": 661836,
+        "opaque": 2072
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 297,
+          "title": "Indulgenza e restrizione",
+          "lesson": "ricerca-inclusiva",
+          "alias": "hofstede-ivr",
+          "card": "Indulgenza",
+          "key": "indulgenza"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-restraint",
@@ -517,10 +899,43 @@
       ],
       "subject": "One clear pale-lime rule sheet with two broad rows, beside a simple clock with magenta hands, representing gratification governed by social expectations and schedules. No padlock, prison bars, punishment symbols, words or numbers.",
       "original": "assets/theme-imagegen/originals/ux-research-restraint-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-restraint-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-restraint-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-restraint-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One clear pale-lime rule sheet with two broad rows, beside a simple clock with magenta hands, representing gratification governed by social expectations and schedules. No padlock, prison bars, punishment symbols, words or numbers.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One clear pale-lime rule sheet with two broad rows, beside a simple clock with magenta hands, representing gratification governed by social expectations and schedules. No padlock, prison bars, punishment symbols, words or numbers.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-1134e0cb-aa17-4fa2-b4c1-504b762aff03.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "d7b82d13474e4a7267514b7cb2a2a78e079ce778fb0b3b7e4d14594e83c08712",
+      "publicationSha256": "be8dd92f47e2ad8e0c67ff8c0510681f009cee4a8d41796fa74ff6fd674a169f",
+      "alpha": {
+        "transparent": 911983,
+        "partial": 659753,
+        "opaque": 780
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 297,
+          "title": "Indulgenza e restrizione",
+          "lesson": "ricerca-inclusiva",
+          "alias": "hofstede-ivr",
+          "card": "Restrizione",
+          "key": "restrizione"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-universal",
@@ -530,10 +945,43 @@
       ],
       "subject": "One broad gently sloping ramp leading to an open doorway. A single shared accessible entrance, recognizable at tiny size, with a small magenta direction arrow and no people or wheelchair badge.",
       "original": "assets/theme-imagegen/originals/ux-research-universal-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-universal-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-universal-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-universal-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad gently sloping ramp leading to an open doorway. A single shared accessible entrance, recognizable at tiny size, with a small magenta direction arrow and no people or wheelchair badge.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad gently sloping ramp leading to an open doorway. A single shared accessible entrance, recognizable at tiny size, with a small magenta direction arrow and no people or wheelchair badge.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-e9d30afe-2bde-4492-baf6-db1b3121584b.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "fa8f436b8384449d3df027ee4761a96339233bad7c2aaba7b0901a5bd6512790",
+      "publicationSha256": "775760702ac997ec4fbedbff32d797248fe25ca10d6d5d8a5e7edaa6612966ad",
+      "alpha": {
+        "transparent": 1051904,
+        "partial": 518448,
+        "opaque": 2164
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 331,
+          "title": "Design universale e design inclusivo",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-29",
+          "card": "Design universale",
+          "key": "design universale"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-inclusive",
@@ -544,10 +992,51 @@
       ],
       "subject": "Three distinct simple input shapes—a circle, rounded square and triangle—each with its own broad path converging into one shared magenta center. Equivalent ways to participate, no enclosing badge or puzzle.",
       "original": "assets/theme-imagegen/originals/ux-research-inclusive-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-inclusive-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-inclusive-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-inclusive-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Three distinct simple input shapes—a circle, rounded square and triangle—each with its own broad path converging into one shared magenta center. Equivalent ways to participate, no enclosing badge or puzzle.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Three distinct simple input shapes—a circle, rounded square and triangle—each with its own broad path converging into one shared magenta center. Equivalent ways to participate, no enclosing badge or puzzle.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-cbf88ea0-8cd8-423a-a08d-19640dda67a8.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "961ab20d7c9d8820d4242588da53ffca1197ff35c3493d7253515cba251dda1d",
+      "publicationSha256": "b10df83a4479b1bcdf051a4a5c01752af190f6ea1e5ddce61119601e858f76e4",
+      "alpha": {
+        "transparent": 1156318,
+        "partial": 414363,
+        "opaque": 1835
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 331,
+          "title": "Design universale e design inclusivo",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-29",
+          "card": "Design inclusivo",
+          "key": "design inclusivo"
+        },
+        {
+          "page": 349,
+          "title": "Tre idee da portare nel progetto",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-47",
+          "card": "Inclusione",
+          "key": "inclusione"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-perceivable",
@@ -557,10 +1046,43 @@
       ],
       "subject": "One simple eye and one ear linked by a short broad line to the same magenta information dot. Equivalent sensory channels, with conventional recognizable anatomy and no tiny detail.",
       "original": "assets/theme-imagegen/originals/ux-research-perceivable-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-perceivable-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-perceivable-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-perceivable-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One simple eye and one ear linked by a short broad line to the same magenta information dot. Equivalent sensory channels, with conventional recognizable anatomy and no tiny detail.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One simple eye and one ear linked by a short broad line to the same magenta information dot. Equivalent sensory channels, with conventional recognizable anatomy and no tiny detail.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-a57e2358-4e6c-48e2-af75-baf120b0d301.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "d6c08ba7d8cd08b4d99e4b2125f6326ad8d52e4d21ee645a110cf8065c480848",
+      "publicationSha256": "7ad7c7ce7cd51538e971db926dd95908a8c826fc608b7b47fdf13738ca565017",
+      "alpha": {
+        "transparent": 1140533,
+        "partial": 430813,
+        "opaque": 1170
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 334,
+          "title": "Quattro principi di accessibilità",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-32",
+          "card": "Percepibile",
+          "key": "percepibile"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-operable",
@@ -570,10 +1092,43 @@
       ],
       "subject": "One compact keyboard with just six broad keys and a single magenta selected key, paired with one simple pointer arrow. Keyboard control motif with no key lettering or digits.",
       "original": "assets/theme-imagegen/originals/ux-research-operable-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-operable-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-operable-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-operable-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One compact keyboard with just six broad keys and a single magenta selected key, paired with one simple pointer arrow. Keyboard control motif with no key lettering or digits.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One compact keyboard with just six broad keys and a single magenta selected key, paired with one simple pointer arrow. Keyboard control motif with no key lettering or digits.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-36c9a532-04c8-4717-952b-0a284945afef.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "d1a87a0f5875de7e0a28ffb80316501c2dcaa38e135150a998ef7c4b0b188c34",
+      "publicationSha256": "b91cbd08e55d762c279f0a4c92f4db42f80e0ddc0a1141aa3ae25f80c1add332",
+      "alpha": {
+        "transparent": 797670,
+        "partial": 773302,
+        "opaque": 1544
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 334,
+          "title": "Quattro principi di accessibilità",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-32",
+          "card": "Utilizzabile",
+          "key": "utilizzabile"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-understandable",
@@ -583,10 +1138,43 @@
       ],
       "subject": "One open small guidebook with two broad empty lines on each page and one magenta check, conveying clear instructions. No actual text, punctuation or letters.",
       "original": "assets/theme-imagegen/originals/ux-research-understandable-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-understandable-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-understandable-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-understandable-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One open small guidebook with two broad empty lines on each page and one magenta check, conveying clear instructions. No actual text, punctuation or letters.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One open small guidebook with two broad empty lines on each page and one magenta check, conveying clear instructions. No actual text, punctuation or letters.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-88d1efbc-56b2-4674-9ff7-48cab24ff707.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "f30b853a6a721fa54a8b960bbbb1b6895044deeaf11d996ed0cba41ffdf77741",
+      "publicationSha256": "c9977734fbb28e48fb0893143859d8e51944394572e027901216724204d54511",
+      "alpha": {
+        "transparent": 806443,
+        "partial": 764029,
+        "opaque": 2044
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 334,
+          "title": "Quattro principi di accessibilità",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-32",
+          "card": "Comprensibile",
+          "key": "comprensibile"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-robust",
@@ -596,10 +1184,43 @@
       ],
       "subject": "One broad connector linking a simple desktop monitor to a small mobile device, with a magenta shared connection point. Compatibility across tools, without interface text or logos.",
       "original": "assets/theme-imagegen/originals/ux-research-robust-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-robust-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-robust-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-robust-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad connector linking a simple desktop monitor to a small mobile device, with a magenta shared connection point. Compatibility across tools, without interface text or logos.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad connector linking a simple desktop monitor to a small mobile device, with a magenta shared connection point. Compatibility across tools, without interface text or logos.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-7ec27d04-3cec-4f10-b229-397cf95319ef.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "95291cc8ed6cbf03aa21ee3bfade6dd0bf20b4295ddf6ad40452af38ebf2e188",
+      "publicationSha256": "557b64a27e7946b4e8e9c6f0ad86d0e9ffd1d45d33c21716a420db50640772b5",
+      "alpha": {
+        "transparent": 990020,
+        "partial": 580282,
+        "opaque": 2214
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 334,
+          "title": "Quattro principi di accessibilità",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-32",
+          "card": "Robusto",
+          "key": "robusto"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-wcag-a",
@@ -609,10 +1230,43 @@
       ],
       "subject": "A three-step staircase seen in a clean flat side view, with a small magenta marker on the FIRST lowest step; the other two steps stay pale lime. One cumulative stage reached, no letters, digits or text.",
       "original": "assets/theme-imagegen/originals/ux-research-wcag-a-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-wcag-a-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-wcag-a-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-wcag-a-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: A three-step staircase seen in a clean flat side view, with a small magenta marker on the FIRST lowest step; the other two steps stay pale lime. One cumulative stage reached, no letters, digits or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: A three-step staircase seen in a clean flat side view, with a small magenta marker on the FIRST lowest step; the other two steps stay pale lime. One cumulative stage reached, no letters, digits or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-2056ee27-5e7f-43f1-b7fd-c39450924f9c.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "aa35a8228c8cf579d4cd33e0d1d859758c16a155533b8f6677b782df252156f9",
+      "publicationSha256": "2f00503bc16fb753e867e6b481444f97295c353d01bcb3083196ebbc398668d5",
+      "alpha": {
+        "transparent": 1060119,
+        "partial": 510990,
+        "opaque": 1407
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      },
+      "owners": [
+        {
+          "page": 336,
+          "title": "Livelli di conformità WCAG",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-34",
+          "card": "Livello A",
+          "key": "livello a"
+        }
+      ]
     },
     {
       "id": "ricerca-inclusiva-wcag-aa",
@@ -622,10 +1276,43 @@
       ],
       "subject": "A three-step staircase seen in a clean flat side view, with the first TWO steps filled stronger lime and a small magenta marker on the SECOND middle step; the highest step stays pale. Two cumulative stages reached, no letters, digits or text.",
       "original": "assets/theme-imagegen/originals/ux-research-wcag-aa-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-wcag-aa-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-wcag-aa-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-wcag-aa-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: A three-step staircase seen in a clean flat side view, with the first TWO steps filled stronger lime and a small magenta marker on the SECOND middle step; the highest step stays pale. Two cumulative stages reached, no letters, digits or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: A three-step staircase seen in a clean flat side view, with the first TWO steps filled stronger lime and a small magenta marker on the SECOND middle step; the highest step stays pale. Two cumulative stages reached, no letters, digits or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "owners": [
+        {
+          "page": 336,
+          "title": "Livelli di conformità WCAG",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-34",
+          "card": "Livello AA",
+          "key": "livello aa"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-3afd8f23-e76a-4cd1-acbb-acdcd9b77c6b.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "4453cca823e645d2f972e3277a7ba743dc4612267d8024cb086da61494de7245",
+      "publicationSha256": "b9528340db92d5bf27aa2598126a18114b43a3fa4e2795a675a6894bb240cf42",
+      "alpha": {
+        "transparent": 1126464,
+        "partial": 443864,
+        "opaque": 2188
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      }
     },
     {
       "id": "ricerca-inclusiva-wcag-aaa",
@@ -635,10 +1322,43 @@
       ],
       "subject": "A three-step staircase seen in a clean flat side view, with ALL THREE steps filled stronger lime and a small magenta marker on the THIRD highest step. All cumulative stages reached, no letters, digits or text.",
       "original": "assets/theme-imagegen/originals/ux-research-wcag-aaa-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-wcag-aaa-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-wcag-aaa-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-wcag-aaa-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: A three-step staircase seen in a clean flat side view, with ALL THREE steps filled stronger lime and a small magenta marker on the THIRD highest step. All cumulative stages reached, no letters, digits or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: A three-step staircase seen in a clean flat side view, with ALL THREE steps filled stronger lime and a small magenta marker on the THIRD highest step. All cumulative stages reached, no letters, digits or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "owners": [
+        {
+          "page": 336,
+          "title": "Livelli di conformità WCAG",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-34",
+          "card": "Livello AAA",
+          "key": "livello aaa"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-280c0a9b-d5f7-4379-8de8-2ad6ddcf956f.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "29e4b6946a5416c4cdcf33ff189420972d3b5b20787503006eff0f49f5dad33d",
+      "publicationSha256": "845e49e52e1bc8c4b1dee0a3b12d638b33aefa6d00f001293c329e03bfdd681a",
+      "alpha": {
+        "transparent": 1009318,
+        "partial": 561780,
+        "opaque": 1418
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      }
     },
     {
       "id": "ricerca-inclusiva-verification",
@@ -648,10 +1368,43 @@
       ],
       "subject": "One broad evidence sheet overlapped by a magnifying glass containing one magenta check. Human observation and criteria checked together, no seal, certification badge, wording or numerals.",
       "original": "assets/theme-imagegen/originals/ux-research-verification-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-verification-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-verification-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-verification-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad evidence sheet overlapped by a magnifying glass containing one magenta check. Human observation and criteria checked together, no seal, certification badge, wording or numerals.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One broad evidence sheet overlapped by a magnifying glass containing one magenta check. Human observation and criteria checked together, no seal, certification badge, wording or numerals.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "owners": [
+        {
+          "page": 340,
+          "title": "Verificare l’inclusione",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-38",
+          "card": "Verificare",
+          "key": "verificare"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-711aa6fa-9481-410f-a842-394916d9e1d9.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "434fe183051ae3d87bd23220805b7827fdba17e4d0e6c033b10d20cf5e905e02",
+      "publicationSha256": "3f929fd95ec7616a646e3315bac874042937d59a25b4ec55f12137979cc6c58a",
+      "alpha": {
+        "transparent": 846178,
+        "partial": 725082,
+        "opaque": 1256
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      }
     },
     {
       "id": "ricerca-inclusiva-profile",
@@ -661,10 +1414,43 @@
       ],
       "subject": "One rounded profile sheet bearing one simple head-and-shoulders silhouette and two broad blank lines, with a small magenta source dot at the lower corner. A fictional research profile, no name or text.",
       "original": "assets/theme-imagegen/originals/ux-research-profile-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-profile-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-profile-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-profile-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One rounded profile sheet bearing one simple head-and-shoulders silhouette and two broad blank lines, with a small magenta source dot at the lower corner. A fictional research profile, no name or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: One rounded profile sheet bearing one simple head-and-shoulders silhouette and two broad blank lines, with a small magenta source dot at the lower corner. A fictional research profile, no name or text.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "owners": [
+        {
+          "page": 342,
+          "title": "Una persona fondata sulla ricerca",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-40",
+          "card": "Il profilo",
+          "key": "il profilo"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-1cd6d1ab-6079-4f4f-bf9c-918ac7075a1d.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "7cfd6924b1041f1ba978077ef963faaa330746a7baae06c9e338b39dc65d9347",
+      "publicationSha256": "72e3fc7ec4dce38a39f5b6d7b07cc6a5e7e03adbdf9394c4e1355a66dc13a3c3",
+      "alpha": {
+        "transparent": 768036,
+        "partial": 803236,
+        "opaque": 1244
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      }
     },
     {
       "id": "ricerca-inclusiva-evidence",
@@ -674,10 +1460,43 @@
       ],
       "subject": "Two broad source sheets linked to one magenta evidence dot by short clear lines. Documented traceable sources, no lettering, fake citations, numbers or fine detail.",
       "original": "assets/theme-imagegen/originals/ux-research-evidence-v1.png",
-      "web": "public/images/generated/theme-2026/cards/local/ux-research-evidence-v1.webp",
+      "web": "public/images/generated/theme-2026/cards/ux-research-evidence-v1.webp",
       "promptFile": "assets/theme-imagegen/prompts/ux-research-evidence-v1.txt",
-      "status": "pending",
-      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Two broad source sheets linked to one magenta evidence dot by short clear lines. Documented traceable sources, no lettering, fake citations, numbers or fine detail.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives."
+      "status": "complete",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for CVeDI lesson 04, consistent with the existing rounded-contour educational illustration family.\nSubject: Two broad source sheets linked to one magenta evidence dot by short clear lines. Documented traceable sources, no lettering, fake citations, numbers or fine detail.\nStyle/medium: polished 2D illustration with confident thick rounded dark-lime contours, broad matte pale filled surfaces and at most one slim offset rear edge. Keep the subject simple and readable at 96–168 pixels. No texture, gradients, glossy highlights, white shine streaks, glow, shadows or realistic 3D.\nAuthoritative palette from DESIGN.md: lime primary #3C6300, very dark lime outline #192E03, pale faces #ECFCCA and #D8F999; one restrained magenta #F087FE accent, pale magenta #FCEDFF. White may fill functional sheets or object surfaces. No neutral black, gray or unrelated colors.\nComposition/framing: a compact centered square motif occupying about 80% of the canvas, with at least 8% genuinely transparent margin on every side. Keep the essential clue in the central 60%; the card clips a small part of the bottom-right corner.\nBackground: genuinely transparent alpha around the motif; interiors of the drawn objects must be opaque. No background rectangle, checkerboard, frame, enclosing badge or ornament.\nConstraints: no text, letters, numerals, labels, logos, watermark or flags. Generate exactly ONE motif, not a contact sheet or alternatives.",
+      "owners": [
+        {
+          "page": 342,
+          "title": "Una persona fondata sulla ricerca",
+          "lesson": "ricerca-inclusiva",
+          "alias": "ricerca-inclusiva-40",
+          "card": "Le evidenze",
+          "key": "le evidenze"
+        }
+      ],
+      "generatedSource": "/Users/marco/.codex/generated_images/01a1201b-ab40-7b21-8144-f3db77e18e8e/exec-acc64e5e-3dc7-4b33-931a-c0121ba4a1f2.png",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "c2c31f41139c7d270d6974c2e9b45d627e5ab3004f6eecb4e5cffcd1cdfeff55",
+      "publicationSha256": "5a3fb9eb4b6df4b4b1b9af3be39a4e426025befc4e3ceb9c3076bedc06882b1a",
+      "alpha": {
+        "transparent": 949495,
+        "partial": 621070,
+        "opaque": 1951
+      },
+      "publicationEncoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed generated image: relevant broad motif, rounded lime contours, pale fills, magenta accent, no text and transparent exterior."
+      }
     }
   ]
 }

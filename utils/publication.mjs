@@ -13,6 +13,7 @@ export function publicationExtensions(mode) {
   }]
 }
 
-// This subtree contains only figures belonging to lessons 04–09. Originals
-// and local public assets remain in the repository; remove only build copies.
-export const localAssetDirectories = ['images/processo-ux', 'images/generated/theme-2026/chapters/local']
+// Unpublished illustration families remain local. The shared UX figures are
+// filtered against the compiled bundle so lesson 04 can retain its own assets.
+export const localAssetDirectories = ['images/generated/theme-2026/chapters/local']
+export const sharedLessonAssetDirectories = ['images/processo-ux']

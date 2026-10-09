@@ -289,6 +289,9 @@ export async function checkSlideSources() {
   const outlineGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-outline-v3.json'), 'utf8'))
   const chapterGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-chapters-v1.json'), 'utf8'))
   const historyIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-history-icons-v1.json'), 'utf8'))
+  const researchIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-lesson-04-cards-v1.json'), 'utf8'))
+  assert.equal(researchIcons.jobs.length, researchIcons.counts.images, 'complete lesson 04 icon family')
+  assert.equal(Object.keys(artwork.mappings['ricerca-inclusiva']).length, researchIcons.counts.cardTitles, 'all lesson 04 card titles have artwork')
   assert.equal(historyIcons.jobs.length, historyIcons.counts.images, 'complete history icon family')
   const chapterArtwork = { ...JSON.parse(await readFile(path.join(root, 'data/chapter-artwork.json'), 'utf8')), ...JSON.parse(await readFile(path.join(root, 'data/chapter-artwork-local.json'), 'utf8')) }
   assert.equal(chapterGenerations.jobs.length, 13, 'all thirteen generated chapter illustrations are retained')
@@ -302,7 +305,7 @@ export async function checkSlideSources() {
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
-  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length, 'only registered motifs populate the card catalog')
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length, 'only registered motifs populate the card catalog')
   for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs, ...historyIcons.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
@@ -318,6 +321,16 @@ export async function checkSlideSources() {
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved)
     assert.ok(generation.owners.length > 0)
   }
+  for (const generation of researchIcons.jobs) {
+    assert.equal(generation.status, 'complete', generation.id + ': generated artwork selected')
+    assert.equal(artwork.assets[generation.id], '/' + generation.web.replace(/^public\//, ''), generation.id + ': card icon registered')
+    assert.equal(generation.visualReview.status, 'accepted', generation.id + ': visually reviewed')
+    assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved, generation.id + ': RGBA pixels preserved')
+    assert.ok(generation.owners.length > 0, generation.id + ': owning cards recorded')
+    assert.equal(createHash('sha256').update(await readFile(path.join(root, generation.original))).digest('hex'), generation.sha256, generation.id + ': original PNG retained')
+    assert.equal(createHash('sha256').update(await readFile(path.join(root, generation.web))).digest('hex'), generation.publicationSha256, generation.id + ': selected public pixels')
+    assert.equal((await readFile(path.join(root, generation.promptFile), 'utf8')).trim(), generation.prompt.trim(), generation.id + ': exact prompt retained')
+  }
   for (const [id, src] of Object.entries(artwork.thematicAssets))
     assert.ok([...generations.jobs, ...activeOutline.filter(job => job.group === 'thematic')].some(job => (job.key ?? job.id) === id && '/' + job.web.replace(/^public\//, '') === src), `retained thematic figure ${id}: original provenance`)
   for (const generation of activeOutline) {
@@ -329,6 +342,7 @@ export async function checkSlideSources() {
   let illustratedCards = 0
   let directCards = 0
   let addedCards = 0
+  let researchCardUses = 0
   for (const slide of visibleDeck.slides) {
     for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
       const title = normalizeTitle(card[1])
@@ -339,11 +353,16 @@ export async function checkSlideSources() {
       directCards++
       if (uxLessonIds.has(slide.frontmatter.lesson) || slide.frontmatter.lesson === 'storia-design') addedCards++
       if (id) illustratedCards++
+      if (slide.frontmatter.lesson === 'ricerca-inclusiva') {
+        assert.ok(id, card[1] + ': lesson 04 card has a semantic motif')
+        researchCardUses++
+      }
     }
   }
   assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
-  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses, 'selected direct cards have semantic motifs')
-  assert.ok(illustratedCards > 0 && illustratedCards < directCards / 4, 'illustrations remain selective')
+  assert.equal(researchCardUses, researchIcons.counts.directCardUses, 'all lesson 04 card uses have their requested illustrations')
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses, 'selected direct cards have semantic motifs')
+  assert.ok(illustratedCards - researchCardUses > 0 && illustratedCards - researchCardUses < (directCards - researchCardUses) / 4, 'illustrations in the other lessons remain selective')
 
   // Check literal public image paths in slide content, components and data.
   const files = [...Object.values(deck.markdownFiles).map(file => file.filepath)]

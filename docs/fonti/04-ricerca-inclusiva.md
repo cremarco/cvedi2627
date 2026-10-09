@@ -159,3 +159,5 @@ Riferimenti collegati dalla fonte:
 - [Riferimento originale](mailto:marco.cremaschi@unimib.it)
 
 Verifica normativa: [W3C · WCAG 2.2, Contrast Minimum](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), consultato il 7 ottobre 2026.
+
+Le illustrazioni decorative delle card sono originali generati con OpenAI ImageGen per questa lezione. I 31 PNG, i prompt esatti, gli hash e le copie WebP lossless sono registrati in `assets/theme-imagegen/manifest-lesson-04-cards-v1.json`; coprono tutti i 36 titoli delle 37 card. Sono distinti dalle figure documentarie del booklet e dalle catture dei siti ufficiali.

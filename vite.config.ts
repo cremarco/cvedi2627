@@ -1,6 +1,6 @@
-import { rm } from 'node:fs/promises'
+import { readFile, readdir, rm } from 'node:fs/promises'
 import path from 'node:path'
-import { localAssetDirectories } from './utils/publication.mjs'
+import { localAssetDirectories, sharedLessonAssetDirectories } from './utils/publication.mjs'
 import { webDesignExamplesPlugin } from './utils/web-design-examples.mjs'
 import { preventIndexingHTML } from './utils/indexing.mjs'
 
@@ -15,6 +15,17 @@ function localAssetsPlugin() {
     async closeBundle() {
       for (const directory of localAssetDirectories)
         await rm(path.join(outputDirectory, directory), { recursive: true, force: true })
+      const bundle = path.join(outputDirectory, 'assets')
+      const references = (await Promise.all((await readdir(bundle)).filter(file => /\.(?:js|css)$/.test(file))
+        .map(file => readFile(path.join(bundle, file), 'utf8')))).join('\n')
+      async function prune(directory: string) {
+        for (const entry of await readdir(path.join(outputDirectory, directory), { withFileTypes: true })) {
+          const asset = path.posix.join(directory, entry.name)
+          if (entry.isDirectory()) await prune(asset)
+          else if (!references.includes('/' + asset)) await rm(path.join(outputDirectory, asset))
+        }
+      }
+      for (const directory of sharedLessonAssetDirectories) await prune(directory)
     },
   }
 }

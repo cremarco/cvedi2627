@@ -70,9 +70,9 @@ footer: "Lezioni"
     <SlideAction to="approfondimenti" class="join-item index-button" :show-arrow="false"><span>Approfondimenti individuali · 20 tracce</span></SlideAction>
   </div>
   <SlideAction to="storia-design" class="index-button index-lesson index-history" :show-arrow="false"><span class="index-chapter-number">03</span><span>Storia del design</span></SlideAction>
+  <SlideAction to="ricerca-inclusiva" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
   <LocalOnly>
   <div class="index-ux-lessons" role="group" aria-label="Lezioni sul processo UX">
-    <SlideAction to="ricerca-inclusiva" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
     <SlideAction to="percezione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Percezione e gerarchia visiva</span></SlideAction>
     <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Colore e significato</span></SlideAction>
     <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Tipografia, griglie e interfacce</span></SlideAction>
@@ -744,7 +744,6 @@ src: ./lezioni/03-storia-design.md
 
 ---
 src: ./lezioni/04-ricerca-inclusiva.md
-localOnly: true
 ---
 
 ---

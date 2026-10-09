@@ -56,75 +56,81 @@
   "boards": [
     {
       "code": "PDI",
-      "id": "198:3945",
-      "folio": 15,
-      "printedPage": 107,
+      "id": "2695:3902",
+      "folio": 16,
+      "printedPage": 108,
       "componentId": "2679:434",
-      "instanceId": "2679:813",
+      "instanceId": "2695:3919",
       "chartId": "2685:631",
       "figureId": "2685:633",
       "height": 463,
-      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/pdi-artistico.png"
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/pdi-artistico.png",
+      "precedingCoverId": "198:3945"
     },
     {
       "code": "IDV",
-      "id": "198:4402",
-      "folio": 19,
-      "printedPage": 111,
+      "id": "2695:4373",
+      "folio": 21,
+      "printedPage": 113,
       "componentId": "2679:497",
-      "instanceId": "2679:876",
+      "instanceId": "2695:4390",
       "chartId": "2685:1051",
       "figureId": "2685:1053",
       "height": 478,
-      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/idv-artistico.png"
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/idv-artistico.png",
+      "precedingCoverId": "198:4402"
     },
     {
       "code": "MAS",
-      "id": "198:4386",
-      "folio": 23,
-      "printedPage": 115,
+      "id": "2695:4538",
+      "folio": 26,
+      "printedPage": 118,
       "componentId": "2679:560",
-      "instanceId": "2679:939",
+      "instanceId": "2695:4555",
       "chartId": "2685:1165",
       "figureId": "2685:1167",
       "height": 478,
-      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/mas-artistico.png"
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/mas-artistico.png",
+      "precedingCoverId": "198:4386"
     },
     {
       "code": "UAI",
-      "id": "198:4370",
-      "folio": 27,
-      "printedPage": 119,
+      "id": "2695:4702",
+      "folio": 31,
+      "printedPage": 123,
       "componentId": "2679:623",
-      "instanceId": "2679:1002",
+      "instanceId": "2695:4719",
       "chartId": "2685:1276",
       "figureId": "2685:1278",
       "height": 493,
-      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/uai-artistico.png"
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/uai-artistico.png",
+      "precedingCoverId": "198:4370"
     },
     {
       "code": "LTO",
-      "id": "198:4354",
-      "folio": 31,
-      "printedPage": 123,
+      "id": "2695:5057",
+      "folio": 36,
+      "printedPage": 128,
       "componentId": "2679:686",
-      "instanceId": "2679:1065",
+      "instanceId": "2695:5074",
       "chartId": "2685:1574",
       "figureId": "2685:1576",
       "height": 478,
-      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/lto-artistico.png"
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/lto-artistico.png",
+      "precedingCoverId": "198:4354"
     },
     {
       "code": "IVR",
-      "id": "198:4429",
-      "folio": 35,
-      "printedPage": 127,
+      "id": "2695:5389",
+      "folio": 41,
+      "printedPage": 133,
       "componentId": "2679:749",
-      "instanceId": "2679:1128",
+      "instanceId": "2695:5398",
       "chartId": "2685:1858",
       "figureId": "2685:1860",
       "height": 478,
-      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/ivr-artistico.png"
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/ivr-artistico.png",
+      "precedingCoverId": "198:4429"
     }
   ],
   "diagrams": [
@@ -900,14 +906,22 @@
   "archive": {
     "previousBoardCompositions": "2679:268",
     "rejectedBarCharts": "2682:630",
-    "pageId": "2186:3831"
+    "pageId": "2186:3831",
+    "previousNativeBipolarOpenersComponentSetId": "2695:3901"
   },
   "verification": {
     "report": "../../../reports/contesto-culturale/dimensioni-native/verifica.json",
     "dataReport": "../../../reports/contesto-culturale/dimensioni-native/verifica-dati.json",
-    "cultureBoardCount": 53,
-    "chapterBoardCount": 283,
-    "lastPrintedPage": 393,
-    "addedBookBoards": 0
-  }
+    "cultureBoardCount": 59,
+    "chapterBoardCount": 289,
+    "lastPrintedPage": 399,
+    "addedBookBoards": 6
+  },
+  "coverArtworksManifest": "copertine/imagegen/manifest.json",
+  "currentBookState": {
+    "cultureBoards": 59,
+    "chapterBoards": 289,
+    "lastPrintedPage": 399
+  },
+  "coverStyle": "Immagini ImageGen full bleed; codice, titolo e poli modificabili in Figma."
 }
