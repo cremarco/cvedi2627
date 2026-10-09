@@ -1,7 +1,16 @@
 ---
 name: "CVeDI 2026/27"
-description: "Token cafe-* dell’esempio autonomo Caffè TTC; il sistema Slidev resta definito nel corpo del documento."
+description: "Token home-* della home e cafe-* dell’esempio autonomo Caffè TTC; il sistema Slidev resta definito nel corpo del documento."
 colors:
+  home-indigo: "#3730a3"
+  home-ink: "#312e81"
+  home-lime: "#a3e635"
+  home-orange: "#c2410c"
+  home-teal: "#0f766e"
+  home-pink: "#be185d"
+  home-muted: "#5d5b86"
+  home-rule: "#c7d2fe"
+  home-paper: "#ffffff"
   cafe-notes-paper: "#fff"
   cafe-notes-ink: "#0f172a"
   cafe-notes-muted: "#475569"
@@ -181,6 +190,23 @@ colors:
   cafe-holo-text-scan-start: "#d5fcffb3"
   cafe-holo-text-scan-end: "#a6f4ff80"
 typography:
+  home-display:
+    fontFamily: "Inter,sans-serif"
+    fontSize: "clamp(68px,7.35vw,126px)"
+    fontWeight: 700
+    lineHeight: 1.04
+    letterSpacing: "-.04em"
+  home-body:
+    fontFamily: "Inter,sans-serif"
+    fontSize: "18px"
+    fontWeight: 400
+    lineHeight: 1.6
+  home-destination:
+    fontFamily: "Inter,sans-serif"
+    fontSize: "clamp(32px,3.6vw,52px)"
+    fontWeight: 700
+    lineHeight: 1.15
+    letterSpacing: "-.035em"
   cafe-text-body:
     fontFamily: "'Times New Roman', Times, serif"
   cafe-text-display:
@@ -318,6 +344,8 @@ typography:
     fontSize: "18px"
     lineHeight: 1.7
 rounded:
+  home-action: "4px"
+  home-motion: "999px"
   cafe-0: "0px"
   cafe-2: "2px"
   cafe-3: "3px"
@@ -341,6 +369,15 @@ spacing:
   cafe-48: "48px"
   cafe-64: "64px"
 components:
+  home-slide-action:
+    backgroundColor: "{colors.home-lime}"
+    textColor: "{colors.home-ink}"
+    rounded: "{rounded.home-action}"
+    padding: "16px 24px"
+  home-motion-toggle:
+    backgroundColor: "{colors.home-indigo}"
+    textColor: "{colors.home-paper}"
+    rounded: "{rounded.home-motion}"
   cafe-spaziale-product:
     backgroundColor: "{colors.cafe-spaziale-product-surface}"
     textColor: "{colors.cafe-spaziale-surface}"
@@ -694,6 +731,54 @@ Aggiungere al frontmatter le classi `figure-slide` e, quando la figura è primar
 7. La pagina è pronta quando titolo e corpo rispettano gli ancoraggi, non c’è contenuto fuori margine, gli asset reali sono caricati, i colori appartengono al set e la tastiera mantiene un percorso completo.
 
 L’architettura deve mantenere separate informazione e presentazione: Markdown e `data/` descrivono contenuti; Vue gestisce visualizzazione e interazione; CSS condiviso possiede i ruoli. Estendere il modulo proprietario quando manca una regola riusabile, senza introdurre copie locali nei singoli Markdown.
+
+## Home del corso · Pages
+
+Questa sezione riguarda `home/` e la pagina d’ingresso Pages. I token `home-*` sono locali alla home; le regole del canvas Slidev e i token `cafe-*` mantengono il proprio ambito. Il contratto della superficie è `.impeccable/surfaces/course-home.md`.
+
+### Overview
+
+La home riprende le copertine metro: campo indaco, titolo ampio, parola «visiva» e azione Slide in lime, mappa geometrica originale. Quattro fermate e quattro righe di destinazione rendono riconoscibile la rete dei materiali. Titolo, introduzione, anno accademico e nomi delle fermate rimangono fermi e protetti da campi indaco opachi, che conservano il contrasto sopra i tracciati; in stampa l’anno accademico usa il fondo bianco. La mappa occupa la fascia destra e inferiore senza nuovi raster.
+
+### Colors
+
+Indaco sostiene l’apertura, bianco la lettura delle destinazioni e indaco profondo il testo. Lime identifica l’azione principale e i riscontri delle fermate. Arancio, teal e rosa distinguono rispettivamente archivio, Caffè TTC e iLMeteo; testo secondario e separatori usano i ruoli dedicati del frontmatter. Il tema daisyUI `course-home` assegna lime al primario e indaco al secondario. Le tracce conservano i colori registrati nei dati della mappa.
+
+### Typography
+
+Inter locale, pesi 400 e 700, con `font-display: swap` e sintesi disabilitata. Il titolo segue `home-display` su desktop; entro 1100 px usa `clamp(58px,7.5vw,82px)`, entro 650 px `clamp(30px,9.5vw,62px)` e interlinea 1,1. La prosa introduttiva resta entro 36ch e scende a 15 px su telefono. I titoli delle destinazioni seguono `home-destination`, poi 28 px su telefono; le descrizioni usano 16 px, poi 14 px. Il build copia i due WOFF2 da `@fontsource/inter` e la relativa licenza OFL in `home-assets/fonts/`.
+
+### Layout
+
+Il contenitore misura al massimo 1568 px con margini laterali di 56 px, ridotti a 32 px entro 1100 px e 20 px entro 650 px. L’apertura dispone il titolo su tre righe a sinistra, introduzione e azione sotto, quattro fermate sul bordo inferiore. Su telefono introduzione e azione si impilano, le tracce passano nella fascia inferiore e le fermate restano su una riga. La sezione chiara presenta destinazioni aperte, separate da filetti, con fermata, titolo, descrizione e freccia. Il footer conserva informazioni e attribuzioni del corso.
+
+### Elevation & Depth
+
+Nessuna ombra. La profondità deriva dall’ordine dei piani: mappa sul fondo, campi opachi dietro i testi e controlli in primo piano. La scena viene ritagliata nell’apertura; le immagini didattiche delle altre superfici conservano le proprie regole.
+
+### Shapes
+
+Fermate ad anello e percorsi con estremità e giunzioni arrotondate. L’azione Slide usa `home-action`; il controllo del movimento usa `home-motion`. Le righe delle destinazioni non hanno contenitori a card.
+
+### Components
+
+L’azione «Apri le slide» riusa `btn btn-primary`, con altezza minima 62 px su desktop e 54 px su telefono. Il controllo «Ferma le tracce / Riprendi le tracce» usa `btn`, altezza minima 44 px e stato `aria-pressed`. Link e pulsanti hanno outline di 3 px con offset di 7 px; uno skip link porta ai materiali. iLMeteo rimane una fermata e una riga informative senza `href`, con stato «In arrivo» fino alla disponibilità del sito riprogettato.
+
+Il generatore conserva la geometria in `assets/metro-map/geometric-animation.json` e seleziona le 23 tracce delle famiglie diverse da `blue`. L’arrivo delle linee dura 1800 ms, con ritardi di 45 ms; segmenti bianchi percorrono una traccia ogni tre in cicli da 12 a 19 secondi. `home.js` gestisce pausa, ripresa, preferenza di movimento ridotto e sospensione nella scheda nascosta. Senza JavaScript la scena è statica; con movimento ridotto i segmenti e il controllo sono omessi. Forced colors omette la mappa; la stampa presenta testo e destinazioni su bianco senza scena, navigazione metro o controlli del movimento.
+
+| Modulo | Responsabilità |
+| --- | --- |
+| `home/index.html` | Contenuti, destinazioni e struttura accessibile |
+| `home/home.source.css` | Tema daisyUI, token, composizione, responsive e stampa |
+| `home/home.js` | Stato del movimento e preferenze del browser |
+| `scripts/build/course-home.mjs` | SVG dai dati originali e copia di home, font e licenza |
+| `scripts/build/pages.mjs` | Composizione della home e delle destinazioni nella build Pages |
+
+### Do's and Don'ts
+
+- **Do** conservare geometria, contenuti, attribuzioni e licenza dei font; aggiornare la home nel suo modulo proprietario.
+- **Do** compilare `home/home.source.css` con `pnpm css:home`, comporre il sito con `pnpm build:pages` e verificare con `pnpm check:home`: desktop, viewport stretto, entrambe le basi URL, movimento, tastiera, forced colors, stampa e pagina senza JavaScript. Il controllo usa un server e un browser isolati; rapporti in `reports/course-home/` o nel percorso scelto tramite `COURSE_HOME_REPORT`.
+- **Don't** modificare `home/home.css` manualmente, alterare i percorsi metro o attivare la destinazione iLMeteo prima che il sito riprogettato sia pronto.
 
 ## Esempio autonomo · Caffè TTC
 

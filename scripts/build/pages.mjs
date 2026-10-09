@@ -7,6 +7,7 @@ import { optimizePagesMedia } from './pages-media.mjs'
 import { checkPublishedBuild } from '../check/publication.mjs'
 import { copyWebDesignExamples } from './web-design-examples.mjs'
 import { webDesignExamplesDirectory } from '../../utils/web-design-examples.mjs'
+import { copyCourseHome } from './course-home.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const output = path.join(root, '_site')
@@ -46,7 +47,7 @@ const pdf = path.join(root, 'cvedi-2026-2027.pdf')
 if (existsSync(pdf))
   await cp(pdf, path.join(output, 'slides/cvedi-2026-2027.pdf'))
 await writeFile(path.join(output, '.nojekyll'), '')
-await writeFile(path.join(output, 'index.html'), '<!doctype html><html lang="it"><meta charset="utf-8"><meta http-equiv="refresh" content="0;url=slides/"><title>CVeDI 2026/27</title><body><a class="link" href="slides/">Presentazione CVeDI 2026/27</a> · <a class="link" href="project/">Progetti</a></body></html>\n')
+await copyCourseHome(output)
 // Publish only images used by the visible deck. Hidden chapters and older
 // variants stay in the source tree and return automatically when referenced.
 const slideAssets = path.join(output, 'slides/assets')

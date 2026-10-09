@@ -24,6 +24,12 @@ Gli esempi autonomi di Caffè TTC hanno il percorso `/web-design-examples/`, con
 
 L’utente ha richiesto di copiare la grafica delle slide locali in `/Users/marco/Sites/Gestione web`. Del precedente sistema CVeDI può restare il formalismo dei tracciati della metro. Le immagini e gli artefatti didattici conservano il loro contenuto.
 
+## Home del corso · Pages
+
+La radice GitHub Pages `/cvedi2627/` è la home del corso, con nome ufficiale, A.A. 2026/27, 8 CFU e docenti Marco Cremaschi, Elia Guarnieri e Andrea Primo Pierotti, allineati alle slide. La scena metro animata introduce quattro destinazioni: slide in `slides/`, archivio degli studenti in `project/`, Caffè TTC in `web-design-examples/index.html?stile=liquid` e iLMeteo. I collegamenti relativi funzionano anche servendo la build dalla radice `/`.
+
+iLMeteo è esplicitamente «In arrivo»: l’utente ha scelto il sito riprogettato quando sarà pronto. Fino ad allora la quarta destinazione resta visibile e priva di collegamento. Le tre destinazioni disponibili sono consultabili anche senza JavaScript; la home offre pausa e ripresa delle tracce e rispetta movimento ridotto, scheda nascosta e stampa. Il deck e gli esempi conservano i propri sistemi e sorgenti.
+
 ## Evidence on Hand
 
 `slides.md`, `lezioni/`, mappe delle fonti in `docs/fonti/`, materiali e figure in `assets/` e `public/`. Il riferimento grafico è un progetto Slidev esistente e ispezionabile.

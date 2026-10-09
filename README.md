@@ -18,7 +18,8 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | Comando | Risultato |
 | --- | --- |
 | `pnpm build` | SPA pubblicabile, 242 slide in `dist/` |
-| `pnpm build:pages` | Slide pubblicabili e archivio in `_site/` |
+| `pnpm build:pages` | Home, slide, archivio ed esempi autonomi pubblicabili in `_site/` |
+| `pnpm css:home` | Compila `home/home.source.css` in `home/home.css` |
 | `pnpm export` | Export Slidev, soltanto quando richiesto |
 | `pnpm clean` | Elimina output, cache Slidev e rapporti locali |
 | `pnpm gallery` | Rigenera galleria e anteprime su macOS |
@@ -30,9 +31,12 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:progress` | Contatore e avanzamento per set |
 | `pnpm check:typography` | Font locali, cifre tabulari e fallback |
 | `pnpm check:projects` | Archivio dei siti |
+| `pnpm check:home` | Home Pages: URL, layout, movimento, tastiera e stampa |
 | `pnpm check:links` | Collegamenti locali |
 
 I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 498 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
+
+`pnpm check:home` serve la build `_site/` con un server temporaneo e un browser isolato. Verifica la home alle basi `/` e `/cvedi2627/`, da 320 a 1440 px, pausa e ripresa, movimento ridotto, skip link, forced colors, stampa e funzionamento senza JavaScript. `COURSE_HOME_SITE` sceglie una build diversa; `COURSE_HOME_REPORT` sceglie il percorso di rapporti, screenshot e PDF, predefinito `reports/course-home/`.
 
 ## Struttura
 
@@ -41,16 +45,19 @@ I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra 
 - `utils/slide-sets.ts`: registro di palette, etichette e numeri delle lezioni.
 - `data/`: calendari, voti aggregati, progetti ed esempi UX.
 - `styles/`: tema daisyUI, token, strutture, tipografia e movimento.
+- `home/`: contenuti, CSS sorgente e controllo del movimento della home Pages.
 - `public/`: immagini e font caricati dal sito.
 - `assets/`: originali selezionati, provenienza e fonti.
 - `progetti/`: archivio dei 76 siti; `materiali/`: materiali didattici originali.
 - `scripts/`: build e controlli riproducibili.
 
-Il CSS compilato deriva da `styles/daisy.css`: non modificarlo manualmente. L'archivio ha un tema indipendente in `progetti/gallery.source.css`. [Sistema visivo](DESIGN.md), [dati dei voti](docs/dati.md) e `docs/fonti/` documentano le sole regole e fonti correnti.
+Il CSS compilato deriva da `styles/daisy.css`: non modificarlo manualmente. L'archivio ha un tema indipendente in `progetti/gallery.source.css`; la home usa `home/home.source.css`, compilato con `pnpm css:home`. [Sistema visivo](DESIGN.md), [dati dei voti](docs/dati.md) e `docs/fonti/` documentano le sole regole e fonti correnti.
 
 ## Pubblicazione
 
 GitHub Actions pubblica `main` con `pnpm build:pages` nel percorso `/cvedi2627/`. La build include l'archivio e verifica il budget di 990 MB. FFmpeg deve essere nel PATH o in `PAGES_FFMPEG`: ottimizza soltanto le copie dei video esportate, preservando i sorgenti. `build-info.json` identifica il commit distribuito e `media-optimization.json` il trattamento dei media.
+
+La radice `/cvedi2627/` apre la home del corso. Le destinazioni attive sono `/cvedi2627/slides/`, `/cvedi2627/project/` e `/cvedi2627/web-design-examples/index.html?stile=liquid`; iLMeteo rimane «In arrivo» senza link finché il sito riprogettato sarà pronto. `scripts/build/course-home.mjs` inserisce l’SVG dai tracciati originali di `assets/metro-map/geometric-animation.json` e copia CSS, JavaScript, Inter locale nei pesi 400/700 e licenza OFL in `_site/home-assets/`. `scripts/build/pages.mjs` compone il sito completo; `pnpm build:pages` compila anche il CSS della home.
 
 Caffè TTC è consultabile separatamente dalle slide in `/web-design-examples/`: durante `pnpm dev` apre le quattro pagine e il selettore dei 21 stili. `pnpm build` prepara lo stesso percorso in `dist/`; Pages lo pubblica in `/cvedi2627/web-design-examples/`. Gli URL delle varianti usano `?stile=`, per esempio `web-design-examples/menu.html?stile=y2k`. Le build rigenerano gli esempi e copiano le risorse usate dal sito, con licenze e provenienza; originali e varianti archiviate restano in `esempi/caffe-luce/`.
 
