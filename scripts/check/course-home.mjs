@@ -216,7 +216,8 @@ try {
     record(width === 1440 ? 'automatic motion completion without a pause control' : 'narrow scenic entrance completes automatically', { width })
     await motionPage.close()
   }
-  const page = await browser.newPage({ viewport: { width: 1440, height: 900 } })
+  // Leave enough scroll range to move the compact opening fully offscreen.
+  const page = await browser.newPage({ viewport: { width: 1440, height: 600 } })
   await page.goto(base + '/cvedi2627/')
   await page.evaluate(() => document.fonts.ready)
   await page.waitForFunction(() => document.documentElement.dataset.motion === 'running')
