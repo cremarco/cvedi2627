@@ -1,0 +1,905 @@
+{
+  "theoryIds": [
+    "198:3065",
+    "2460:1099",
+    "2460:1123",
+    "198:3529",
+    "198:3945",
+    "198:4586",
+    "198:4418",
+    "198:4973",
+    "198:4402",
+    "198:4960",
+    "198:4575",
+    "198:5105",
+    "198:4386",
+    "198:4947",
+    "198:4564",
+    "198:5094",
+    "198:4370",
+    "198:4934",
+    "198:4553",
+    "198:5083",
+    "198:4354",
+    "198:4921",
+    "2648:196",
+    "2648:218",
+    "198:4429",
+    "198:4984",
+    "198:4475",
+    "198:5028",
+    "198:4492",
+    "198:5039",
+    "198:4536"
+  ],
+  "bridge": {
+    "case": "bridge",
+    "sourcePage": null,
+    "id": null,
+    "title": "Dai modelli ai casi studio",
+    "tokens": [
+      {
+        "type": "text",
+        "role": "title",
+        "text": "Dai modelli ai casi studio"
+      },
+      {
+        "type": "text",
+        "role": "body",
+        "text": "Le pagine seguenti riprendono integralmente i casi McDonald’s e Alibaba dal booklet precedente, con i testi e le schermate della stessa versione. Li usiamo per discutere come leggere un’interfaccia alla luce delle dimensioni culturali."
+      },
+      {
+        "type": "text",
+        "role": "heading",
+        "text": "Descrivere ciò che vediamo"
+      },
+      {
+        "type": "text",
+        "role": "body",
+        "text": "Quali contenuti, immagini, etichette e percorsi sono presenti? Che cosa permette di fare il servizio?"
+      },
+      {
+        "type": "text",
+        "role": "heading",
+        "text": "Leggere le interpretazioni"
+      },
+      {
+        "type": "text",
+        "role": "body",
+        "text": "I testi originali propongono letture culturali delle schermate. Confrontale con i limiti dei modelli discussi nel capitolo e con altre possibili spiegazioni."
+      },
+      {
+        "type": "text",
+        "role": "heading",
+        "text": "Formulare una verifica"
+      },
+      {
+        "type": "text",
+        "role": "body",
+        "text": "Quale domanda porresti alle persone che usano quel servizio? Quali osservazioni potrebbero sostenere o mettere in discussione l’interpretazione?"
+      },
+      {
+        "type": "text",
+        "role": "body",
+        "text": "Dati, prodotti e campagne sono quelli documentati nel booklet precedente."
+      }
+    ],
+    "sourceFoot": "Casi originali: Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · pp.172–187."
+  },
+  "boards": [
+    {
+      "case": "mcdonald",
+      "sourcePage": 172,
+      "id": "198:4440",
+      "title": "Case study McDonald’s",
+      "tokens": [
+        {
+          "type": "image",
+          "asset": "mcdonald-logo",
+          "width": 363,
+          "height": 317.9275
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.172.",
+      "cover": "mcdonald"
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 173,
+      "id": "198:4995",
+      "title": "Case study McDonald’s",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Case study McDonald’s",
+          "sourceBlock": "mcdonald:173:0",
+          "height": 25
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "McDonald’s è la più grande catena di fast food al mondo: serve ogni giorno più di 64 milioni di clienti e i suoi ristoranti sono presenti in più di 100 Paesi. Rappresentando l’emblema della globalizzazione, McDonald’s fonda il suo successo sull’apertura di punti vendita in tutto il mondo. Nel contesto digitale, dunque, è possibile analizzare la sua presenza online e comprendere come questa azienda sia riuscita a incontrare le differenze culturali dei propri clienti, adattando la propria identità senza mai snaturarsi.",
+          "sourceBlock": "mcdonald:173:1",
+          "height": 105
+        },
+        {
+          "type": "text",
+          "role": "heading",
+          "text": "Distanza dal potere: Olanda vs Cina",
+          "sourceBlock": "mcdonald:173:2",
+          "height": 16
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "I siti Web di culture con una bassa distanza dal potere offrono agli utenti informazioni obiettive e dettagliate affinché essi possano sviluppare una propria idea personale in merito ai contenuti che leggono. La comunicazione è informale, diretta e partecipativa, volta a conquistare la fiducia degli utenti. Al contrario, gli utenti di società con un'alta distanza dal potere sono abituati alle autorità e alle strutture consolidate: per questo motivo non amano avere troppa responsabilità poiché prendono l’azienda come fonte autorevole e affidabile di cui fidarsi.",
+          "sourceBlock": "mcdonald:173:3",
+          "height": 120
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.173."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 174,
+      "id": "198:4458",
+      "title": "Alta distanza dal potere: McDonald's Cina",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Alta distanza dal potere: McDonald's Cina",
+          "sourceBlock": "mcdonald:174:0",
+          "height": 50
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "La cultura cinese, abituata alle disuguaglianze di potere tra autorità e subordinati, accetta - e si aspetta - che sia l’azienda a decidere i prodotti e i contenuti destinati ai suoi clienti. La ricchezza delle informazioni visualizzate è inversamente proporzionale alla libertà di scelta e navigazione: il layout a mosaico offre in modo strutturato la maggior parte delle informazioni, presentando all'utente tutto ciò di cui può aver bisogno senza dover consultare altre sezioni del sito.",
+          "sourceBlock": "mcdonald:174:1",
+          "height": 105
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-174-completo",
+          "width": 342.23473282442745,
+          "height": 339
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.174."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 175,
+      "id": "198:5017",
+      "title": "Bassa distanza dal potere: McDonald's Olanda",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Bassa distanza dal potere: McDonald's Olanda",
+          "sourceBlock": "mcdonald:175:0",
+          "height": 50
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "L’homepage di McDonald's in Olanda risulta molto leggera e mostra all’utente contenuti essenziali come i prodotti, i servizi offerti e il funzionamento dell'azienda. La cultura olandese tende a prendere le proprie decisioni d’acquisto in base alle informazioni che autonomamente trova sul Web, perciò il design di questo sito ha una struttura ordinata e informativa, con la possibilità per gli utenti di navigare liberamente tra le varie sezioni.",
+          "sourceBlock": "mcdonald:175:1",
+          "height": 90
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-175-completo",
+          "width": 293.425431711146,
+          "height": 354
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.175."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 176,
+      "id": "2648:240",
+      "title": "Individualismo: Stati uniti vs Turchia",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Individualismo: Stati uniti vs Turchia",
+          "sourceBlock": "mcdonald:176:0",
+          "height": 25
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Nelle società individualistiche gli utenti agiscono secondo i propri obiettivi personali e prendono le decisioni in modo autonomo in base a ciò che più soddisfa le necessità del momento. Al contrario, gli utenti di culture collettive tendono a prendere le decisioni basandosi sull’opinione altrui e su ciò che è comune o popolare. A livello di contenuti, le società individualistiche parlano al singolo mentre quelle collettive all'intera community.",
+          "sourceBlock": "mcdonald:176:1",
+          "height": 90
+        },
+        {
+          "type": "text",
+          "role": "heading",
+          "text": "Individualismo: McDonald's Stati Uniti",
+          "sourceBlock": "mcdonald:176:2",
+          "height": 16
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Il sito americano presenta come prima immagine la fotografia di un panino, dando enfasi all'elemento singolo piuttosto che a un gruppo. Inoltre, la sezione “My rewards” sottolinea in modo diretto ed esplicito l'importanza delle ricompense materiali - e la gratificazione personale che ne deriva - tipiche delle culture individualistiche. Le CTA - “Earn Points”, “Order in the App”, “Order McDelivery Now”, “Get the app deals” - suggeriscono all'utente azioni legate alla soddisfazione dei propri bisogni - fame e voglia di mangiare - o all'ottenimento di premi e vantaggi.",
+          "sourceBlock": "mcdonald:176:3",
+          "height": 120
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.176."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 176,
+      "id": null,
+      "title": "Individualismo: McDonald's Stati Uniti · schermata completa",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Individualismo: McDonald's Stati Uniti · schermata completa",
+          "sourceBlock": null
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-176-completo",
+          "width": 363.0,
+          "height": 283.8940936863544
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.176.",
+      "continuation": true
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 177,
+      "id": "2648:267",
+      "title": "Collettivismo: McDonald's Turchia",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Collettivismo: McDonald's Turchia",
+          "sourceBlock": "mcdonald:177:0",
+          "height": 25
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Il sito turco, diversamente da quello americano, si apre con la fotografia di diversi prodotti presentati tutti insieme e anche nelle immagini che scorrono gli elementi non sono mai presentati da soli. Un esempio, che evidenzia ulteriormente questa tendenza, è la fotografia di una squadra di pallavoliste utilizzata per una campagna. Le sezioni sottostanti mostrano contenuti destinati a diverse fasce d’età, come l'Happy Meal per i bambini o l'Applicazione per gli adulti.L'importanza del gruppo e delle relazioni interpersonali è infine sottolineata dai link ai canali social che sono invece assenti sul sito americano.",
+          "sourceBlock": "mcdonald:177:1",
+          "height": 135
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-177-completo",
+          "width": 363.0,
+          "height": 319.3952772073922
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.177."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 178,
+      "id": "2648:298",
+      "title": "Mascolinità: Slovacchia vs Slovenia",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Mascolinità: Slovacchia vs Slovenia",
+          "sourceBlock": "mcdonald:178:0",
+          "height": 25
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Le persone cresciute in una società mascolina tendono a rincorrere il successo, mettendosi alla prova e cercando di diventare i migliori in ciò che fanno. Nel Web design ciò si riflette in utenti critici, che si aspettano un’alta qualità dei contenuti e delle informazioni offerte. Inoltre, competizioni e incentivi possono catturare la loro attenzione. Gli utenti di una società femminile, al contrario, non desiderano farsi riconoscere e vogliono evitare i conflitti: per questo l’esperienza generale su un sito sarà più importante dei dettagli tecnici. L'utente di una cultura femminile è cooperativo e tende a dare feedback.",
+          "sourceBlock": "mcdonald:178:1",
+          "height": 135
+        },
+        {
+          "type": "text",
+          "role": "heading",
+          "text": "Mascolinità: McDonald's Slovacchia",
+          "sourceBlock": "mcdonald:178:2",
+          "height": 16
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Il sito slovacco, dopo il carosello di fotografie in primo piano, pone l’attenzione su aspetti dell’azienda che vanno oltre i prodotti alimentari. La tendenza al successo e l'importanza dei risultati sono concetti che si ritrovano nella sezione che racconta gli obiettivi raggiunti da McHappy Day, un'iniziativa volta a sostenere le famiglie con bambini in cura lontano da casa. Ma non solo: il sito offre informazioni pratiche per lavorare in McDonald’s e ottenere dei panini gratis. Avendo a che fare con utenti provenienti da culture tendenzialmente attente alla qualità di ciò che gli viene presentato, McDonald’s sottolinea più volte la qualità delle materie prime e la provenienza dei prodotti proposti",
+          "sourceBlock": "mcdonald:178:3",
+          "height": 150
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.178."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 178,
+      "id": null,
+      "title": "Mascolinità: McDonald's Slovacchia · schermata completa",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Mascolinità: McDonald's Slovacchia · schermata completa",
+          "sourceBlock": null
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-178-completo",
+          "width": 363.0,
+          "height": 239.94334277620396
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.178.",
+      "continuation": true
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 179,
+      "id": "2648:325",
+      "title": "Femminilità: McDonald's Slovenia",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Femminilità: McDonald's Slovenia",
+          "sourceBlock": "mcdonald:179:0",
+          "height": 25
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "La prima cosa che appare sul sito sloveno è la presentazione di una coppia di nuovi panini, Don Juan e Doña Sofia. E’ possibile vedere un cuore sopra a due hamburger e la scritta “Dolce novembre” accanto a un donut. Altri testi in linea con questa tendenza sono “Buongiorno, buona giornata!” e “La vita è dolce”. Infine, incontrando la cooperazione dei propri utenti, McDonald's chiede ai visitatori un feedback, sottolineando l'importanza della loro opinione.",
+          "sourceBlock": "mcdonald:179:1",
+          "height": 105
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-179-completo",
+          "width": 326.8639705882353,
+          "height": 364
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.179."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 180,
+      "id": "2648:356",
+      "title": "Rifiuto dell’incertezza: Russia vs India",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Rifiuto dell’incertezza: Russia vs India",
+          "sourceBlock": "mcdonald:180:0",
+          "height": 50
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Nelle società con un alto rifiuto dell’incertezza le persone preferiscono approcci deduttivi piuttosto che induttivi. A questi utenti piace analizzare ciò che si trovano davanti e basare le proprie scelte e azioni su una valutazione sistematica di tutti gli aspetti più rilevanti. Inoltre, preferiscono ciò che è familiare a ciò che non lo è. È necessario dunque presentare le informazioni importanti nella maniera più chiara e strutturata possibile, in quanto gli utenti di questo tipo hanno bisogno di confrontare differenti opzioni per prendere delle decisioni. Le persone con un basso rifiuto dell’incertezza, al contrario, sono più aperte alle idee inaspettate e alle novità di ciò che non conoscono. Questi utenti sono più tolleranti verso tutto ciò che è nuovo e diverso da loro, sono spontanei e pensano in modo pratico, adattandosi a nuove situazioni. Sul Web, le tecnologie e i trend del momento offrono nuove possibilità ogni giorno e le società con un basso rifiuto dell'incertezza sono quelle che possono accoglierle meglio.",
+          "sourceBlock": "mcdonald:180:1",
+          "height": 210
+        },
+        {
+          "type": "text",
+          "role": "heading",
+          "text": "Alto rifiuto dell'incertezza: McDonald's Russia",
+          "sourceBlock": "mcdonald:180:2",
+          "height": 16
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "L’homepage russa propone agli utenti una ricca navigazione del menu, come le proposte del McCafè, quelle per genitori e figli, le promozioni del momento e la qualità dei prodotti. Tra le immagini che scorrono, e anche più sotto, sono presentati diversi panini con accanto il loro prezzo, dando dunque agli utenti la possibilità di fare una scelta ponderata attraverso le informazioni che L’utente trova nella homepage la maggior parte delle cose di cui ha bisogno grazie ad un layout familiare e regolare, dotato di un secondo sistema di navigazione per filtrare i prodotti visibili.",
+          "sourceBlock": "mcdonald:180:3",
+          "height": 120
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.180.",
+      "editorialNote": "Nota della fonte: la frase dopo «informazioni che» è tronca nell’originale."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 180,
+      "id": null,
+      "title": "Alto rifiuto dell'incertezza: McDonald's Russia · schermata completa",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Alto rifiuto dell'incertezza: McDonald's Russia · schermata completa",
+          "sourceBlock": null
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-180-completo",
+          "width": 363.0,
+          "height": 301.63747454175154
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.180.",
+      "continuation": true
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 181,
+      "id": "2648:383",
+      "title": "Basso rifiuto dell'incertezza: McDonald's India",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Basso rifiuto dell'incertezza: McDonald's India",
+          "sourceBlock": "mcdonald:181:0",
+          "height": 50
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Il sito indiano è più dirompente e innovativo: ciò si rispecchia nella maggior parte degli elementi del sito, a partire dal cursore a forma di McFlurry e dalla barra di caricamento a forma di patatine fritte. Il layout è irregolare, asimmetrico, con elementi animati e testi a comparsa. A differenza del sito russo, gli utenti possono navigare tra una serie di contenuti anche molto diversi tra loro, tanto che i prodotti passano quasi in secondo piano. La prima immagine che appare annuncia l’arrivo di una new entry nel menu, incontrando la tendenza di questa cultura ad accogliere le novità. Dal punto di vista della navigazione, McDonald’s invita gli utenti ad allontanarsi dall’homepage per scoprire altri contenuti.",
+          "sourceBlock": "mcdonald:181:1",
+          "height": 150
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-181-completo",
+          "width": 300.041095890411,
+          "height": 294
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.181."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 182,
+      "id": "2648:414",
+      "title": "Orientamento a lungo termine: Cina vs Portogallo",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Orientamento a lungo termine: Cina vs Portogallo",
+          "sourceBlock": "mcdonald:182:0",
+          "height": 50
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Le persone con una visione a breve termine vivono più nel presente e nel passato piuttosto che nel futuro. Ciò che conta sono i risultati veloci, in linea con i valori e le tradizioni note. Sul Web è necessario offrire delle scorciatoie per far compiere azioni immediate agli utenti ed è possibile catturare la loro attenzione attraverso qualcosa che è loro familiare. Al contrario, le società a lungo termine si aspettano di trovare informazioni dettagliate che li convincano della validità dei prodotti offerti. I consumatori che rientrano nel dominio culturale orientato al futuro amano prendersi il loro tempo nel formulare le proprie valutazioni. Ad esempio, apprezzano tutti gli strumenti che consentono loro di salvare prodotti e informazioni per il futuro, come in una lista dei desideri. I consumatori orientati al presente, al contrario, sono più propensi a preferire decisioni rapide e rischiose. Per questo motivo sono inclini a scegliere grandi pulsanti di call-to-action che li spingano a fare acquisti in modo più deciso.",
+          "sourceBlock": "mcdonald:182:1",
+          "height": 210
+        },
+        {
+          "type": "text",
+          "role": "heading",
+          "text": "Orientamento a breve termine: McDonald's Portogallo",
+          "sourceBlock": "mcdonald:182:2",
+          "height": 16
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Nel sito portoghese sono presenti numerose call-to-action che portano l’utente ad agire nell’immediato, incluso un pop up che invita a saperne di più riguardo a una campagna fraudolenta. Le immagini sono essenziali, legate al contesto del sito",
+          "sourceBlock": "mcdonald:182:3",
+          "height": 60
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.182."
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 182,
+      "id": null,
+      "title": "Orientamento a breve termine: McDonald's Portogallo · schermata completa",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Orientamento a breve termine: McDonald's Portogallo · schermata completa",
+          "sourceBlock": null
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-182-completo",
+          "width": 363.0,
+          "height": 437.3809523809524
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.182.",
+      "continuation": true
+    },
+    {
+      "case": "mcdonald",
+      "sourcePage": 183,
+      "id": "2648:441",
+      "title": "Orientamento a lungo termine: McDonald's Cina",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Orientamento a lungo termine: McDonald's Cina",
+          "sourceBlock": "mcdonald:183:0",
+          "height": 50
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Sul sito cinese, agli utenti è presentata una serie di informazioni che vanno oltre i prodotti offerti dalla catena di ristoranti. L’attenzione degli utenti è focalizzata su aspetti a lungo termine come la costruzione di nuovi edifici, le campagne a favore dell’ambiente, l’apertura di nuovi punti vendita e la gestione delle fattorie da cui arrivano le materie prime.",
+          "sourceBlock": "mcdonald:183:1",
+          "height": 75
+        },
+        {
+          "type": "image",
+          "asset": "mcdonald-183-completo",
+          "width": 296.2878200155159,
+          "height": 369
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.183."
+    },
+    {
+      "case": "alibaba",
+      "sourcePage": 184,
+      "id": null,
+      "title": "Copertina Alibaba",
+      "tokens": [
+        {
+          "type": "image",
+          "asset": "alibaba-logo",
+          "width": 496.062988,
+          "height": 498.0083330509804
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.184.",
+      "cover": "alibaba",
+      "coverColor": [
+        255,
+        102,
+        0
+      ]
+    },
+    {
+      "case": "alibaba",
+      "sourcePage": 185,
+      "id": "198:4509",
+      "title": "Case study: Alibaba / Lingua",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Case study: Alibaba",
+          "sourceBlock": "alibaba:185:0",
+          "height": 25
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Alibaba è nata alla fine degli anni '90 come piattaforma di e-commerce B2B per mettere in contatto i fornitori cinesi con gli acquirenti di tutto il mondo. A 22 anni dalla sua nascita, quotata in borsa e con un fatturato di oltre 90 miliardi di euro, l'azienda è diventata un colosso del mercato internazionale. Tuttavia, analizzando il suo sito principale è possibile notare una serie di elementi che fanno pensare ad una scarsa attenzione verso gli utenti di culture e provenienze diverse da quella cinese.",
+          "sourceBlock": "alibaba:185:1",
+          "height": 105
+        },
+        {
+          "type": "text",
+          "role": "heading",
+          "text": "Lingua",
+          "sourceBlock": "alibaba:185:2",
+          "height": 16
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Alibaba offre la possibilità di selezionare la lingua e la valuta che gli utenti preferiscono, tuttavia la traduzione italiana appare sommaria e peggiora drasticamente nelle schede dei prodotti, dove l'articolazione delle frasi rende difficile la comprensione dei testi. Inoltre, tra le immagini che scorrono nell'homepage alcune di esse sono rimaste in inglese e come per una frase nel footer.",
+          "sourceBlock": "alibaba:185:3",
+          "height": 90
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.185."
+    },
+    {
+      "case": "alibaba",
+      "sourcePage": 186,
+      "id": "198:5050",
+      "title": "Espansione del testo.",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Espansione del testo.",
+          "sourceBlock": "alibaba:186:0",
+          "height": 25
+        },
+        {
+          "type": "image",
+          "asset": "alibaba-186-homepage",
+          "width": 363,
+          "height": 211.8716814159292
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "La lingua italiana occupa molto più spazio di quella cinese eppure, in più sezioni del sito, è chiaro che non sia stata presa in considerazione questa variabile: i pulsanti, le CTA e le schede prodotto mostrano in modo evidente le lacune della progettazione poiché il testo non compare nella sua interezza e vengono mostrati dei punti di sospensione.",
+          "sourceBlock": "alibaba:186:1",
+          "height": 75
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Anche nelle schede prodotto si riscontra il medesimo problema, con testi che vengono interrotti improvvisamente perché troppo lunghi. Il testo in alcune card va addirittura a coprire la grafica, rendendo difficile la lettura e dando un aspetto poco professionale all’insieme.",
+          "sourceBlock": "alibaba:186:2",
+          "height": 60
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.186."
+    },
+    {
+      "case": "alibaba",
+      "sourcePage": 186,
+      "id": null,
+      "title": "Espansione del testo · esempi",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "Espansione del testo · esempi",
+          "sourceBlock": null
+        },
+        {
+          "type": "image",
+          "asset": "alibaba-186-espansione",
+          "width": 363,
+          "height": 347.9969758064516
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.186.",
+      "continuation": true
+    },
+    {
+      "case": "alibaba",
+      "sourcePage": 187,
+      "id": null,
+      "title": "CSS e stile",
+      "tokens": [
+        {
+          "type": "text",
+          "role": "title",
+          "text": "CSS e stile",
+          "sourceBlock": "alibaba:187:0",
+          "height": 25
+        },
+        {
+          "type": "text",
+          "role": "body",
+          "text": "Navigando in sezioni del sito diverse dall’homepage è possibile notare una forte incongruenza tra la pagina principale e quelle secondarie. Spostandosi per esempio nelle sezioni delle categorie il testo dell’intero sito da Sans Serif diventa Times New Roman.",
+          "sourceBlock": "alibaba:187:1",
+          "height": 60
+        },
+        {
+          "type": "image",
+          "asset": "alibaba-187-css-1",
+          "width": 363,
+          "height": 196.9739217652959
+        },
+        {
+          "type": "image",
+          "asset": "alibaba-187-css-2",
+          "width": 363,
+          "height": 182.59337349397592
+        }
+      ],
+      "sourceFoot": "Marco Cremaschi & Giulia Rosemary Avis · CVeDI, A.A.23/24 · booklet precedente, p.187."
+    }
+  ],
+  "assets": [
+    {
+      "key": "mcdonald-logo",
+      "case": "mcdonald",
+      "sourcePage": 172,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-172-image-01.png",
+      "size": [
+        1200,
+        1051
+      ],
+      "sha256": "8511e396956e3e84f283a7cc2d9e14a01c2e4d3a79a83966992ddd1e90663c00"
+    },
+    {
+      "key": "mcdonald-174-completo",
+      "case": "mcdonald",
+      "sourcePage": 174,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-174-completo.png",
+      "size": [
+        1058,
+        1048
+      ],
+      "sha256": "16bddcaf78b2d08745b296227799bcc81eac573eefa15f6f37361eb43c929a16"
+    },
+    {
+      "key": "mcdonald-175-completo",
+      "case": "mcdonald",
+      "sourcePage": 175,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-175-completo.png",
+      "size": [
+        1056,
+        1274
+      ],
+      "sha256": "1ac3f790a445a17e9e085e2413c6d49fc104d30a15bc80ad8a139be87fd4067c"
+    },
+    {
+      "key": "mcdonald-176-completo",
+      "case": "mcdonald",
+      "sourcePage": 176,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-176-completo.png",
+      "size": [
+        982,
+        768
+      ],
+      "sha256": "d0d3a9d6fa28d2eb4916a682ba101afa350d545bd885e22a6e7fa88625561097"
+    },
+    {
+      "key": "mcdonald-177-completo",
+      "case": "mcdonald",
+      "sourcePage": 177,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-177-completo.png",
+      "size": [
+        974,
+        857
+      ],
+      "sha256": "ac3d3e9a09b3d06d9eae7120a8e2fc53ab785a17cc648bd67c909e645e6a442f"
+    },
+    {
+      "key": "mcdonald-178-completo",
+      "case": "mcdonald",
+      "sourcePage": 178,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-178-completo.png",
+      "size": [
+        1059,
+        700
+      ],
+      "sha256": "a42a59cd75159e96786c48a46995cc189ab55a69d2eea3e56732afa23cfddc73"
+    },
+    {
+      "key": "mcdonald-179-completo",
+      "case": "mcdonald",
+      "sourcePage": 179,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-179-completo.png",
+      "size": [
+        977,
+        1088
+      ],
+      "sha256": "2c3d799dac46a33010851c0a544e471d6f68fa4a6f6987fbb1e1264cd03e02cc"
+    },
+    {
+      "key": "mcdonald-180-completo",
+      "case": "mcdonald",
+      "sourcePage": 180,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-180-completo.png",
+      "size": [
+        982,
+        816
+      ],
+      "sha256": "e4baccea34fb6e9c94c26880d67a0d271e564a48245d8c2a7edce01bd6a201f7"
+    },
+    {
+      "key": "mcdonald-181-completo",
+      "case": "mcdonald",
+      "sourcePage": 181,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-181-completo.png",
+      "size": [
+        1043,
+        1022
+      ],
+      "sha256": "265e656aabe1a2e35db89d5f30a3c21db4dfb76764236cfe1b502dc19547d792"
+    },
+    {
+      "key": "mcdonald-182-completo",
+      "case": "mcdonald",
+      "sourcePage": 182,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-182-completo.png",
+      "size": [
+        693,
+        835
+      ],
+      "sha256": "597d4ed0c3483e448ee70bc9d0c1d520e82a9f4f5a708cecac88c9c7e0eb3e65"
+    },
+    {
+      "key": "mcdonald-183-completo",
+      "case": "mcdonald",
+      "sourcePage": 183,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-183-completo.png",
+      "size": [
+        1035,
+        1289
+      ],
+      "sha256": "457d2dad8c484822c2e5edf48aeeaccba14179b86e5419598a782b94fcf8a24a"
+    },
+    {
+      "key": "alibaba-logo",
+      "case": "alibaba",
+      "sourcePage": 184,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p184-I444.png",
+      "size": [
+        510,
+        512
+      ],
+      "sha256": "a45977085c93bc1d4103525fb05f5915f370799a137c8f059d4afb9b565bd9a2"
+    },
+    {
+      "key": "alibaba-186-homepage",
+      "case": "alibaba",
+      "sourcePage": 186,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I450.jpg",
+      "size": [
+        2486,
+        1451
+      ],
+      "sha256": "ef6d7a18a933e63552065a0a8c11ebd032581e950e84c8fa46db1ae7ed9c1c40"
+    },
+    {
+      "key": "alibaba-186-espansione",
+      "case": "alibaba",
+      "sourcePage": 186,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I449.jpg",
+      "size": [
+        992,
+        951
+      ],
+      "sha256": "f8bd8d09e6a754fedfaca4908d69d43abcae9ca17a4b48d7afb8dba8e301f11e"
+    },
+    {
+      "key": "alibaba-187-css-1",
+      "case": "alibaba",
+      "sourcePage": 187,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I451.jpg",
+      "size": [
+        997,
+        541
+      ],
+      "sha256": "e2bf70d8ac8dff354898d5ffbd9fc18eb9d447f295d7ef86a0fe89d23a7de885"
+    },
+    {
+      "key": "alibaba-187-css-2",
+      "case": "alibaba",
+      "sourcePage": 187,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I452.jpg",
+      "size": [
+        996,
+        501
+      ],
+      "sha256": "18bfc318a0f38384af12b87451ddacd9735785a6feb1d817c1f158dac41f821d"
+    }
+  ],
+  "oldCaseIds": [
+    "198:4440",
+    "198:4995",
+    "198:4458",
+    "198:5017",
+    "2648:240",
+    "2648:267",
+    "2648:298",
+    "2648:325",
+    "2648:356",
+    "2648:383",
+    "2648:414",
+    "2648:441",
+    "198:4509",
+    "198:5050"
+  ],
+  "startOrdinal": 11,
+  "sourceBlockCount": 41,
+  "expectedCultureCount": 53,
+  "expectedChapterCount": 283,
+  "expectedLastPrintedPage": 393
+}

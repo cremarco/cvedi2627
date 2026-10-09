@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 242 slide online e 498 nell’anteprima locale. Le lezioni 04–09 sono disponibili soltanto in locale; le 67 slide della terza lezione sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 242 slide online e 558 nell’anteprima locale. Le lezioni 04–09 sono disponibili soltanto in locale; le 67 slide della terza lezione sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 
@@ -33,7 +33,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:home` | Home Pages: URL, layout, movimento, tastiera e stampa |
 | `pnpm check:archive` | Collegamenti all’archivio, reindirizzamenti e anteprime locali |
 
-I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 498 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
+I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 558 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
 
 `pnpm check:home` serve la build `_site/` con un server temporaneo e un browser isolato. Verifica la home alle basi `/` e `/cvedi2627/`, da 320 a 1440 px, termine automatico dell’animazione entro cinque secondi, movimento ridotto, skip link, forced colors, stampa e funzionamento senza JavaScript. `COURSE_HOME_SITE` sceglie una build diversa; `COURSE_HOME_REPORT` sceglie il percorso di rapporti, screenshot e PDF, predefinito `reports/course-home/`.
 

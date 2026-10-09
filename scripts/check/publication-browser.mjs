@@ -21,7 +21,7 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 498, buttons: 11 },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 558, buttons: 11 },
     { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 242, buttons: 5 },
   ]) {
     const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, publicLessons[2], ...(profile.name === 'local' ? curriculum.lessons : [])]

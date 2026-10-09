@@ -44,6 +44,18 @@
   /* Captions follow the actual pixels, including landscape art in tall cells. */
   transform: translateY(calc(var(--lesson-image-empty-space, 0px) / -2));
 }
+/* Documentary screenshots lead the slide. One image fills the space between
+   the common title and footer; explanation and attribution stay in its caption. */
+.slidev-layout.default.screenshot-slide > .lesson-figure {
+  flex: 1 1 0;
+  height: 0;
+  width: 100%;
+  margin-block: 0;
+}
+.slidev-layout.default.screenshot-slide > .lesson-figure figcaption {
+  width: 100%;
+  align-self: stretch;
+}
 /* Question → development and supporting figure → expected result. The frame
    can shrink for two-line titles; text is never assigned a fixed height. */
 .slidev-layout.default.topic-slide > .topic-layout {

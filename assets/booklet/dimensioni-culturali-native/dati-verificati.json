@@ -1,0 +1,1099 @@
+{
+  "schema": "cvedi-cultural-dimensions-data-review/1",
+  "retrievedOn": "2026-10-09",
+  "retrievedAtUtc": "2026-10-09T11:00:23Z",
+  "readOnly": true,
+  "sources": [
+    {
+      "role": "current",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "localHtml": "/private/tmp/cvedi-culturefactor-current.html",
+      "sha256": "08c327afb12cc17987299cf2cf737abdd0553c6535915705efdfaf35ecea5a2a"
+    },
+    {
+      "role": "faq",
+      "url": "https://www.theculturefactor.com/frequently-asked-questions",
+      "localHtml": "/private/tmp/cvedi-culturefactor-faq.html",
+      "sha256": "7735bebb10655d675c92fc2158a5e768bf30db9faf6305ed229bb057b68ce40d"
+    },
+    {
+      "role": "legacy",
+      "url": "https://www.theculturefactor.com/country-comparison-legacy",
+      "localHtml": "/private/tmp/cvedi-culturefactor-legacy.html",
+      "sha256": "5c992cbe603f1787c5387d92623e89cf899f5a101b6fbbcdc6d248398a913856"
+    }
+  ],
+  "extraction": {
+    "method": "119 country overview blocks in primary-source HTML; exact values from six native numeric spans, each selected value independently corroborated in its country narrative. No screenshot OCR, imputation or recalculation.",
+    "countryRecords": 119,
+    "nonMissingScoresByDimension": {
+      "PDI": 119,
+      "IDV": 119,
+      "MAS": 119,
+      "UAI": 119,
+      "LTO": 109,
+      "IVR": 100
+    },
+    "fullCurrentDataset": "/private/tmp/cvedi-culturefactor-full-dataset.json",
+    "fullLegacyDataset": "/private/tmp/cvedi-culturefactor-legacy-dataset.json"
+  },
+  "selectionRule": "Tre esempi bassi e tre alti per dimensione, scelti per rendere leggibile il confronto; non presentare la selezione come classifica dei tre estremi assoluti. Per UAI si conservano le sei nazioni del grafico indicato dall’utente. Il tool tratta anche aree campionate separatamente, come Hong Kong e Taiwan.",
+  "scale": {
+    "currentDisplayedRange": [
+      0,
+      100
+    ],
+    "midLevelReference": 50,
+    "unit": "indice comparativo, non percentuale",
+    "source": "FAQ: What is the range of scores?",
+    "zeroIsNotMissing": true,
+    "missingValuesAreNull": true,
+    "note": "Per questa revisione usare la scala e i punteggi della fonte attuale. La pagina corrente contiene una frase residuale nel profilo PDI della Slovacchia che menziona la possibilità storica di valori sopra100, pur mostrando100; FAQ e tutte119serie correnti sono entro0–100."
+  },
+  "dimensions": [
+    {
+      "officialName": "Power Distance",
+      "labelIt": "Distanza dal potere",
+      "lowLabel": "Minore accettazione della distanza gerarchica",
+      "highLabel": "Maggiore accettazione della distanza gerarchica",
+      "definitionIt": "Quanto i membri meno potenti di istituzioni e organizzazioni si aspettano e accettano una distribuzione diseguale del potere.",
+      "code": "PDI",
+      "low": [
+        {
+          "country": "Austria",
+          "countryIt": "Austria",
+          "slug": "austria",
+          "value": 11,
+          "legacyValue": 11,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"austria\"] span.power-distance",
+          "htmlLine": 1751,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Denmark",
+          "countryIt": "Danimarca",
+          "slug": "denmark",
+          "value": 18,
+          "legacyValue": 18,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"denmark\"] span.power-distance",
+          "htmlLine": 2628,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "New zealand",
+          "countryIt": "Nuova Zelanda",
+          "slug": "new zealand",
+          "value": 22,
+          "legacyValue": 22,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"new zealand\"] span.power-distance",
+          "htmlLine": 4840,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "high": [
+        {
+          "country": "Guatemala",
+          "countryIt": "Guatemala",
+          "slug": "guatemala",
+          "value": 95,
+          "legacyValue": 95,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"guatemala\"] span.power-distance",
+          "htmlLine": 3273,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Malaysia",
+          "countryIt": "Malesia",
+          "slug": "malaysia",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"malaysia\"] span.power-distance",
+          "htmlLine": 4380,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Slovakia",
+          "countryIt": "Slovacchia",
+          "slug": "slovakia",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"slovakia\"] span.power-distance",
+          "htmlLine": 5807,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "selectedcountries": [
+        {
+          "country": "Austria",
+          "countryIt": "Austria",
+          "slug": "austria",
+          "value": 11,
+          "legacyValue": 11,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"austria\"] span.power-distance",
+          "htmlLine": 1751,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 11,
+          "name": "Austria",
+          "group": "low"
+        },
+        {
+          "country": "Denmark",
+          "countryIt": "Danimarca",
+          "slug": "denmark",
+          "value": 18,
+          "legacyValue": 18,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"denmark\"] span.power-distance",
+          "htmlLine": 2628,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 18,
+          "name": "Danimarca",
+          "group": "low"
+        },
+        {
+          "country": "New zealand",
+          "countryIt": "Nuova Zelanda",
+          "slug": "new zealand",
+          "value": 22,
+          "legacyValue": 22,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"new zealand\"] span.power-distance",
+          "htmlLine": 4840,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 22,
+          "name": "Nuova Zelanda",
+          "group": "low"
+        },
+        {
+          "country": "Guatemala",
+          "countryIt": "Guatemala",
+          "slug": "guatemala",
+          "value": 95,
+          "legacyValue": 95,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"guatemala\"] span.power-distance",
+          "htmlLine": 3273,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 95,
+          "name": "Guatemala",
+          "group": "high"
+        },
+        {
+          "country": "Malaysia",
+          "countryIt": "Malesia",
+          "slug": "malaysia",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"malaysia\"] span.power-distance",
+          "htmlLine": 4380,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 100,
+          "name": "Malesia",
+          "group": "high"
+        },
+        {
+          "country": "Slovakia",
+          "countryIt": "Slovacchia",
+          "slug": "slovakia",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"slovakia\"] span.power-distance",
+          "htmlLine": 5807,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 100,
+          "name": "Slovacchia",
+          "group": "high"
+        }
+      ]
+    },
+    {
+      "officialName": "Individualism",
+      "labelIt": "Individualismo",
+      "lowLabel": "Legami e lealtà verso il gruppo",
+      "highLabel": "Autonomia e legami sociali più sciolti",
+      "definitionIt": "La forza dei legami tra le persone e i gruppi: sul polo collettivista contano appartenenza e lealtà verso gruppi coesi, sul polo individualista indipendenza e autonomia.",
+      "code": "IDV",
+      "low": [
+        {
+          "country": "Nigeria",
+          "countryIt": "Nigeria",
+          "slug": "nigeria",
+          "value": 0,
+          "legacyValue": 30,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"nigeria\"] span.individualism",
+          "htmlLine": 4888,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Kenya",
+          "countryIt": "Kenya",
+          "slug": "kenya",
+          "value": 4,
+          "legacyValue": 25,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"kenya\"] span.individualism",
+          "htmlLine": 4012,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Bangladesh",
+          "countryIt": "Bangladesh",
+          "slug": "bangladesh",
+          "value": 5,
+          "legacyValue": 20,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"bangladesh\"] span.individualism",
+          "htmlLine": 1845,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "high": [
+        {
+          "country": "Sweden",
+          "countryIt": "Svezia",
+          "slug": "sweden",
+          "value": 87,
+          "legacyValue": 71,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"sweden\"] span.individualism",
+          "htmlLine": 6132,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Denmark",
+          "countryIt": "Danimarca",
+          "slug": "denmark",
+          "value": 89,
+          "legacyValue": 74,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"denmark\"] span.individualism",
+          "htmlLine": 2630,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Netherlands",
+          "countryIt": "Paesi Bassi",
+          "slug": "netherlands",
+          "value": 100,
+          "legacyValue": 80,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"netherlands\"] span.individualism",
+          "htmlLine": 4796,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "selectedcountries": [
+        {
+          "country": "Nigeria",
+          "countryIt": "Nigeria",
+          "slug": "nigeria",
+          "value": 0,
+          "legacyValue": 30,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"nigeria\"] span.individualism",
+          "htmlLine": 4888,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 0,
+          "name": "Nigeria",
+          "group": "low"
+        },
+        {
+          "country": "Kenya",
+          "countryIt": "Kenya",
+          "slug": "kenya",
+          "value": 4,
+          "legacyValue": 25,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"kenya\"] span.individualism",
+          "htmlLine": 4012,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 4,
+          "name": "Kenya",
+          "group": "low"
+        },
+        {
+          "country": "Bangladesh",
+          "countryIt": "Bangladesh",
+          "slug": "bangladesh",
+          "value": 5,
+          "legacyValue": 20,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"bangladesh\"] span.individualism",
+          "htmlLine": 1845,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 5,
+          "name": "Bangladesh",
+          "group": "low"
+        },
+        {
+          "country": "Sweden",
+          "countryIt": "Svezia",
+          "slug": "sweden",
+          "value": 87,
+          "legacyValue": 71,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"sweden\"] span.individualism",
+          "htmlLine": 6132,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 87,
+          "name": "Svezia",
+          "group": "high"
+        },
+        {
+          "country": "Denmark",
+          "countryIt": "Danimarca",
+          "slug": "denmark",
+          "value": 89,
+          "legacyValue": 74,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"denmark\"] span.individualism",
+          "htmlLine": 2630,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 89,
+          "name": "Danimarca",
+          "group": "high"
+        },
+        {
+          "country": "Netherlands",
+          "countryIt": "Paesi Bassi",
+          "slug": "netherlands",
+          "value": 100,
+          "legacyValue": 80,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"netherlands\"] span.individualism",
+          "htmlLine": 4796,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 100,
+          "name": "Paesi Bassi",
+          "group": "high"
+        }
+      ]
+    },
+    {
+      "officialName": "Motivation towards Achievement and Success",
+      "labelIt": "Orientamento al successo e ai risultati",
+      "historicalName": "Mascolinità/femminilità (MAS)",
+      "lowLabel": "Cooperazione e qualità della vita",
+      "highLabel": "Competizione e riconoscimento dei risultati",
+      "definitionIt": "Preferenza relativa per cooperazione, modestia, cura e qualità della vita oppure per competizione, assertività, risultati e riconoscimenti materiali.",
+      "code": "MAS",
+      "low": [
+        {
+          "country": "Sweden",
+          "countryIt": "Svezia",
+          "slug": "sweden",
+          "value": 5,
+          "legacyValue": 5,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"sweden\"] span.motivation",
+          "htmlLine": 6134,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Norway",
+          "countryIt": "Norvegia",
+          "slug": "norway",
+          "value": 8,
+          "legacyValue": 8,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"norway\"] span.motivation",
+          "htmlLine": 4982,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Latvia",
+          "countryIt": "Lettonia",
+          "slug": "latvia",
+          "value": 9,
+          "legacyValue": 9,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"latvia\"] span.motivation",
+          "htmlLine": 4106,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "high": [
+        {
+          "country": "Hungary",
+          "countryIt": "Ungheria",
+          "slug": "hungary",
+          "value": 88,
+          "legacyValue": 88,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"hungary\"] span.motivation",
+          "htmlLine": 3415,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Japan",
+          "countryIt": "Giappone",
+          "slug": "japan",
+          "value": 95,
+          "legacyValue": 95,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"japan\"] span.motivation",
+          "htmlLine": 3876,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Slovakia",
+          "countryIt": "Slovacchia",
+          "slug": "slovakia",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"slovakia\"] span.motivation",
+          "htmlLine": 5811,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "selectedcountries": [
+        {
+          "country": "Sweden",
+          "countryIt": "Svezia",
+          "slug": "sweden",
+          "value": 5,
+          "legacyValue": 5,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"sweden\"] span.motivation",
+          "htmlLine": 6134,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 5,
+          "name": "Svezia",
+          "group": "low"
+        },
+        {
+          "country": "Norway",
+          "countryIt": "Norvegia",
+          "slug": "norway",
+          "value": 8,
+          "legacyValue": 8,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"norway\"] span.motivation",
+          "htmlLine": 4982,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 8,
+          "name": "Norvegia",
+          "group": "low"
+        },
+        {
+          "country": "Latvia",
+          "countryIt": "Lettonia",
+          "slug": "latvia",
+          "value": 9,
+          "legacyValue": 9,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"latvia\"] span.motivation",
+          "htmlLine": 4106,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 9,
+          "name": "Lettonia",
+          "group": "low"
+        },
+        {
+          "country": "Hungary",
+          "countryIt": "Ungheria",
+          "slug": "hungary",
+          "value": 88,
+          "legacyValue": 88,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"hungary\"] span.motivation",
+          "htmlLine": 3415,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 88,
+          "name": "Ungheria",
+          "group": "high"
+        },
+        {
+          "country": "Japan",
+          "countryIt": "Giappone",
+          "slug": "japan",
+          "value": 95,
+          "legacyValue": 95,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"japan\"] span.motivation",
+          "htmlLine": 3876,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 95,
+          "name": "Giappone",
+          "group": "high"
+        },
+        {
+          "country": "Slovakia",
+          "countryIt": "Slovacchia",
+          "slug": "slovakia",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"slovakia\"] span.motivation",
+          "htmlLine": 5811,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 100,
+          "name": "Slovacchia",
+          "group": "high"
+        }
+      ]
+    },
+    {
+      "officialName": "Uncertainty Avoidance",
+      "labelIt": "Rifiuto dell’incertezza",
+      "lowLabel": "Maggiore tolleranza dell’ambiguità",
+      "highLabel": "Maggiore bisogno di ridurre l’ambiguità",
+      "definitionIt": "Quanto situazioni ambigue o sconosciute sono vissute come minacciose e danno luogo a credenze e istituzioni per affrontarle.",
+      "code": "UAI",
+      "low": [
+        {
+          "country": "Singapore",
+          "countryIt": "Singapore",
+          "slug": "singapore",
+          "value": 8,
+          "legacyValue": 8,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"singapore\"] span.uncertainty-avoidance",
+          "htmlLine": 5767,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Denmark",
+          "countryIt": "Danimarca",
+          "slug": "denmark",
+          "value": 23,
+          "legacyValue": 23,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"denmark\"] span.uncertainty-avoidance",
+          "htmlLine": 2634,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Sweden",
+          "countryIt": "Svezia",
+          "slug": "sweden",
+          "value": 29,
+          "legacyValue": 29,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"sweden\"] span.uncertainty-avoidance",
+          "htmlLine": 6136,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "high": [
+        {
+          "country": "Uruguay",
+          "countryIt": "Uruguay",
+          "slug": "uruguay",
+          "value": 98,
+          "legacyValue": 98,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"uruguay\"] span.uncertainty-avoidance",
+          "htmlLine": 6741,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Portugal",
+          "countryIt": "Portogallo",
+          "slug": "portugal",
+          "value": 99,
+          "legacyValue": 99,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"portugal\"] span.uncertainty-avoidance",
+          "htmlLine": 5306,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Greece",
+          "countryIt": "Grecia",
+          "slug": "greece",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"greece\"] span.uncertainty-avoidance",
+          "htmlLine": 3233,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "selectedcountries": [
+        {
+          "country": "Singapore",
+          "countryIt": "Singapore",
+          "slug": "singapore",
+          "value": 8,
+          "legacyValue": 8,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"singapore\"] span.uncertainty-avoidance",
+          "htmlLine": 5767,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 8,
+          "name": "Singapore",
+          "group": "low"
+        },
+        {
+          "country": "Denmark",
+          "countryIt": "Danimarca",
+          "slug": "denmark",
+          "value": 23,
+          "legacyValue": 23,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"denmark\"] span.uncertainty-avoidance",
+          "htmlLine": 2634,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 23,
+          "name": "Danimarca",
+          "group": "low"
+        },
+        {
+          "country": "Sweden",
+          "countryIt": "Svezia",
+          "slug": "sweden",
+          "value": 29,
+          "legacyValue": 29,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"sweden\"] span.uncertainty-avoidance",
+          "htmlLine": 6136,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 29,
+          "name": "Svezia",
+          "group": "low"
+        },
+        {
+          "country": "Uruguay",
+          "countryIt": "Uruguay",
+          "slug": "uruguay",
+          "value": 98,
+          "legacyValue": 98,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"uruguay\"] span.uncertainty-avoidance",
+          "htmlLine": 6741,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 98,
+          "name": "Uruguay",
+          "group": "high"
+        },
+        {
+          "country": "Portugal",
+          "countryIt": "Portogallo",
+          "slug": "portugal",
+          "value": 99,
+          "legacyValue": 99,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"portugal\"] span.uncertainty-avoidance",
+          "htmlLine": 5306,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 99,
+          "name": "Portogallo",
+          "group": "high"
+        },
+        {
+          "country": "Greece",
+          "countryIt": "Grecia",
+          "slug": "greece",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"greece\"] span.uncertainty-avoidance",
+          "htmlLine": 3233,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 100,
+          "name": "Grecia",
+          "group": "high"
+        }
+      ]
+    },
+    {
+      "officialName": "Long Term Orientation",
+      "labelIt": "Orientamento a lungo termine",
+      "lowLabel": "Orientamento normativo e tradizioni",
+      "highLabel": "Orientamento pragmatico verso il futuro",
+      "definitionIt": "Come una società bilancia legami con il passato e preparazione del futuro: orientamento normativo e tradizioni oppure adattamento pragmatico, perseveranza e investimento per il futuro.",
+      "code": "LTO",
+      "low": [
+        {
+          "country": "Venezuela",
+          "countryIt": "Venezuela",
+          "slug": "venezuela",
+          "value": 0,
+          "legacyValue": 16,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"venezuela\"] span.long-term-orientation",
+          "htmlLine": 6789,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Ghana",
+          "countryIt": "Ghana",
+          "slug": "ghana",
+          "value": 1,
+          "legacyValue": 4,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"ghana\"] span.long-term-orientation",
+          "htmlLine": 3189,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Peru",
+          "countryIt": "Perù",
+          "slug": "peru",
+          "value": 5,
+          "legacyValue": 25,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"peru\"] span.long-term-orientation",
+          "htmlLine": 5170,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "high": [
+        {
+          "country": "Taiwan",
+          "countryIt": "Taiwan",
+          "slug": "taiwan",
+          "value": 87,
+          "legacyValue": 93,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"taiwan\"] span.long-term-orientation",
+          "htmlLine": 6277,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Hong kong",
+          "countryIt": "Hong Kong",
+          "slug": "hong kong",
+          "value": 93,
+          "legacyValue": 61,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"hong kong\"] span.long-term-orientation",
+          "htmlLine": 3373,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Japan",
+          "countryIt": "Giappone",
+          "slug": "japan",
+          "value": 100,
+          "legacyValue": 88,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"japan\"] span.long-term-orientation",
+          "htmlLine": 3880,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "selectedcountries": [
+        {
+          "country": "Venezuela",
+          "countryIt": "Venezuela",
+          "slug": "venezuela",
+          "value": 0,
+          "legacyValue": 16,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"venezuela\"] span.long-term-orientation",
+          "htmlLine": 6789,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 0,
+          "name": "Venezuela",
+          "group": "low"
+        },
+        {
+          "country": "Ghana",
+          "countryIt": "Ghana",
+          "slug": "ghana",
+          "value": 1,
+          "legacyValue": 4,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"ghana\"] span.long-term-orientation",
+          "htmlLine": 3189,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 1,
+          "name": "Ghana",
+          "group": "low"
+        },
+        {
+          "country": "Peru",
+          "countryIt": "Perù",
+          "slug": "peru",
+          "value": 5,
+          "legacyValue": 25,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"peru\"] span.long-term-orientation",
+          "htmlLine": 5170,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 5,
+          "name": "Perù",
+          "group": "low"
+        },
+        {
+          "country": "Taiwan",
+          "countryIt": "Taiwan",
+          "slug": "taiwan",
+          "value": 87,
+          "legacyValue": 93,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"taiwan\"] span.long-term-orientation",
+          "htmlLine": 6277,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 87,
+          "name": "Taiwan",
+          "group": "high"
+        },
+        {
+          "country": "Hong kong",
+          "countryIt": "Hong Kong",
+          "slug": "hong kong",
+          "value": 93,
+          "legacyValue": 61,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"hong kong\"] span.long-term-orientation",
+          "htmlLine": 3373,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 93,
+          "name": "Hong Kong",
+          "group": "high"
+        },
+        {
+          "country": "Japan",
+          "countryIt": "Giappone",
+          "slug": "japan",
+          "value": 100,
+          "legacyValue": 88,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"japan\"] span.long-term-orientation",
+          "htmlLine": 3880,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 100,
+          "name": "Giappone",
+          "group": "high"
+        }
+      ]
+    },
+    {
+      "officialName": "Indulgence",
+      "labelIt": "Indulgenza e restrizione",
+      "lowLabel": "Restrizione attraverso norme sociali",
+      "highLabel": "Maggiore spazio per godere la vita",
+      "definitionIt": "Grado relativo di regolazione sociale della gratificazione di desideri e impulsi, dal maggiore controllo normativo alla maggiore libertà di godere la vita.",
+      "code": "IVR",
+      "low": [
+        {
+          "country": "Egypt",
+          "countryIt": "Egitto",
+          "slug": "egypt",
+          "value": 0,
+          "legacyValue": 0,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"egypt\"] span.indulgence",
+          "htmlLine": 2776,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Pakistan",
+          "countryIt": "Pakistan",
+          "slug": "pakistan",
+          "value": 0,
+          "legacyValue": 0,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"pakistan\"] span.indulgence",
+          "htmlLine": 5034,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Lebanon",
+          "countryIt": "Libano",
+          "slug": "lebanon",
+          "value": 10,
+          "legacyValue": 10,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"lebanon\"] span.indulgence",
+          "htmlLine": 4158,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "high": [
+        {
+          "country": "Puerto rico",
+          "countryIt": "Portorico",
+          "slug": "puerto rico",
+          "value": 90,
+          "legacyValue": 90,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"puerto rico\"] span.indulgence",
+          "htmlLine": 5356,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Mexico",
+          "countryIt": "Messico",
+          "slug": "mexico",
+          "value": 97,
+          "legacyValue": 97,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"mexico\"] span.indulgence",
+          "htmlLine": 4482,
+          "countryNarrativeAlsoConfirmsValue": true
+        },
+        {
+          "country": "Venezuela",
+          "countryIt": "Venezuela",
+          "slug": "venezuela",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"venezuela\"] span.indulgence",
+          "htmlLine": 6791,
+          "countryNarrativeAlsoConfirmsValue": true
+        }
+      ],
+      "selectedcountries": [
+        {
+          "country": "Egypt",
+          "countryIt": "Egitto",
+          "slug": "egypt",
+          "value": 0,
+          "legacyValue": 0,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"egypt\"] span.indulgence",
+          "htmlLine": 2776,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 0,
+          "name": "Egitto",
+          "group": "low"
+        },
+        {
+          "country": "Pakistan",
+          "countryIt": "Pakistan",
+          "slug": "pakistan",
+          "value": 0,
+          "legacyValue": 0,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"pakistan\"] span.indulgence",
+          "htmlLine": 5034,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 0,
+          "name": "Pakistan",
+          "group": "low"
+        },
+        {
+          "country": "Lebanon",
+          "countryIt": "Libano",
+          "slug": "lebanon",
+          "value": 10,
+          "legacyValue": 10,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"lebanon\"] span.indulgence",
+          "htmlLine": 4158,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 10,
+          "name": "Libano",
+          "group": "low"
+        },
+        {
+          "country": "Puerto rico",
+          "countryIt": "Portorico",
+          "slug": "puerto rico",
+          "value": 90,
+          "legacyValue": 90,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"puerto rico\"] span.indulgence",
+          "htmlLine": 5356,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 90,
+          "name": "Portorico",
+          "group": "high"
+        },
+        {
+          "country": "Mexico",
+          "countryIt": "Messico",
+          "slug": "mexico",
+          "value": 97,
+          "legacyValue": 97,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"mexico\"] span.indulgence",
+          "htmlLine": 4482,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 97,
+          "name": "Messico",
+          "group": "high"
+        },
+        {
+          "country": "Venezuela",
+          "countryIt": "Venezuela",
+          "slug": "venezuela",
+          "value": 100,
+          "legacyValue": 100,
+          "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+          "sourceLocator": "div.c-overview[data-country=\"venezuela\"] span.indulgence",
+          "htmlLine": 6791,
+          "countryNarrativeAlsoConfirmsValue": true,
+          "score": 100,
+          "name": "Venezuela",
+          "group": "high"
+        }
+      ]
+    }
+  ],
+  "uaiUserGraphicCheck": [
+    {
+      "country": "Singapore",
+      "userGraphicValue": 8,
+      "currentValue": 8,
+      "status": "confirmed"
+    },
+    {
+      "country": "Denmark",
+      "userGraphicValue": [
+        23,
+        24
+      ],
+      "currentValue": 23,
+      "status": "use23;24notconfirmed"
+    },
+    {
+      "country": "Sweden",
+      "userGraphicValue": 29,
+      "currentValue": 29,
+      "status": "confirmed"
+    },
+    {
+      "country": "Uruguay",
+      "userGraphicValue": 100,
+      "currentValue": 98,
+      "status": "update"
+    },
+    {
+      "country": "Portugal",
+      "userGraphicValue": 104,
+      "currentValue": 99,
+      "status": "update"
+    },
+    {
+      "country": "Greece",
+      "userGraphicValue": 112,
+      "currentValue": 100,
+      "status": "update"
+    }
+  ],
+  "methodologicalNotes": [
+    "Consultazione2026 non significa nuova misurazione2026: i dati derivano da anni e progetti diversi. FAQ dichiara16ottobre2023 come ultimo aggiornamento IDV/LTO, studi2015–16 e successive estensioni.",
+    "La FAQ spiega che IDV e LTO sono stati rivisti nel2023. legacyValue è il valore attualmente consultabile nel tool ufficiale Legacy, non una ricostruzione storica di una specifica schermata o edizione del booklet.",
+    "Lo scarto UAI dal grafico utente non prova un cambiamento culturale tra due date: non è disponibile una nota datata che attribuisca quei tre scarti a una nuova raccolta dati. Anche il tool Legacy attuale mostra98/99/100.",
+    "Il nome corrente MAS è Motivation towards Achievement and Success. La FAQ descrive la rinomina come cambiamento di nome, senza reinterpretazione della dimensione o cambiamento dei punteggi.",
+    "Sono punteggi aggregati e relativi tra popolazioni, non profili psicologici individuali, giudizi di valore, percentuali di persone o regole automatiche per scegliere layout.",
+    "Le6scale descrivono aspetti distinti: non confrontare direttamente un numero IDV con uno UAI né calcolarne un totale culturale.",
+    "Il valore50 è un riferimento euristico della fonte; sotto/sopra non costituiscono categorie naturali o prescrizioni progettuali."
+  ],
+  "reuse": "La pagina ufficiale permette uso dei dati per scopi non commerciali o senza profitto; registrare The Culture Factor, URL e data di consultazione nelle tavole e nel manifest.",
+  "validation": {
+    "selectedScoreCount": 36,
+    "allSelectedValuesConfirmedInNumericSpans": true,
+    "allSelectedValuesCorroboratedInCountryNarratives": true,
+    "allLowExamplesBelow50": true,
+    "allHighExamplesAbove50": true,
+    "figmaOrRepositoryFilesWritten": false
+  }
+}

@@ -12,6 +12,9 @@ withDefaults(defineProps<{
   caption?: string
   panels?: number
   panelAspectRatio?: string
+  verticalRange?: [number, number]
+  maxScale?: number
+  zoomFullImage?: boolean
 }>(), { panels: 1, panelAspectRatio: '4 / 3' })
 
 const captionWidth = ref<string>()
@@ -49,6 +52,8 @@ function openImage() {
           :alt="alt"
           :panels="panels"
           :panel-aspect-ratio="panelAspectRatio"
+          :vertical-range="verticalRange"
+          :max-scale="maxScale"
           @size-change="matchImageSize"
         />
       </button>
@@ -82,7 +87,7 @@ function openImage() {
             </button>
           </form>
         </header>
-        <LessonImageContent :src="src" :alt="alt" :panels="panels" :panel-aspect-ratio="panelAspectRatio" />
+        <LessonImageContent :src="src" :alt="alt" :panels="panels" :panel-aspect-ratio="panelAspectRatio" :vertical-range="zoomFullImage ? undefined : verticalRange" :max-scale="maxScale" />
       </div>
       <form method="dialog" class="modal-backdrop"><button type="submit">Chiudi immagine</button></form>
     </dialog>

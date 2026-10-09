@@ -1,0 +1,350 @@
+{
+  "schema": "cvedi-legacy-cultural-ux-candidates/1",
+  "created": "2026-10-09",
+  "scope": "Read-only audit of legacy material; candidates only; no active deck or Figma edits.",
+  "sources_preflight": [
+    {
+      "schema": "pdf_read_preflight/1",
+      "verdict": "PASS",
+      "file": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sha256": "3d627dcf3d5aec9ad2a5953417303b4f990344deb0ae91a74df6c73e6664dd9b",
+      "declared_page_count": 349,
+      "enumerated_page_count": 349,
+      "reader_page_count": 349,
+      "warnings": [],
+      "generated_at": "2026-10-09T08:34:31.807805+00:00",
+      "tool": "pdf_read_preflight/1.0.0"
+    },
+    {
+      "schema": "pdf_read_preflight/1",
+      "verdict": "PASS",
+      "file": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+      "sha256": "0aafcfaf2ad1cc5755444c08e81c214eb16a8af03ae731915f3ccd9942e9877a",
+      "declared_page_count": 172,
+      "enumerated_page_count": 172,
+      "reader_page_count": 172,
+      "warnings": [],
+      "generated_at": "2026-10-09T08:34:35.880174+00:00",
+      "tool": "pdf_read_preflight/1.0.0"
+    },
+    {
+      "schema": "pdf_read_preflight/1",
+      "verdict": "PASS",
+      "file": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/03-ux-ui-processo-ux.pdf",
+      "sha256": "5f6f7acb8dae6809974bcbc40e8d74ea6f29c77129c91a5b7e5593e203eb9bb4",
+      "declared_page_count": 55,
+      "enumerated_page_count": 55,
+      "reader_page_count": 55,
+      "warnings": [],
+      "generated_at": "2026-10-09T08:34:36.388336+00:00",
+      "tool": "pdf_read_preflight/1.0.0"
+    },
+    {
+      "schema": "pdf_read_preflight/1",
+      "verdict": "PASS",
+      "file": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/04-processo-ux-concept-moodboard.pdf",
+      "sha256": "829f72ff3648bca4152db0fca0cbf6c4e254d10adcadc6e2aca8b8b18657ca70",
+      "declared_page_count": 145,
+      "enumerated_page_count": 145,
+      "reader_page_count": 145,
+      "warnings": [],
+      "generated_at": "2026-10-09T08:34:36.648678+00:00",
+      "tool": "pdf_read_preflight/1.0.0"
+    },
+    {
+      "schema": "pdf_read_preflight/1",
+      "verdict": "PASS",
+      "file": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2022-2023/corleta-883215-brand-identity-ikea.pdf",
+      "sha256": "14ba72cc5993a2be85e436ea8162db470f118023204268f9662bcb26b0f8b095",
+      "declared_page_count": 18,
+      "enumerated_page_count": 18,
+      "reader_page_count": 18,
+      "warnings": [],
+      "generated_at": "2026-10-09T08:35:47.252155+00:00",
+      "tool": "pdf_read_preflight/1.0.0"
+    }
+  ],
+  "candidates": [
+    {
+      "id": "alibaba-lingua",
+      "title": "Traduzioni e lingua mista",
+      "priority": "recommended",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-lingua.jpg",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-lingua.jpg",
+          "source_image_name": "Image110.jpg",
+          "source_image_index_zero_based": 0,
+          "width_px": 987,
+          "height_px": 990,
+          "sha256": "c2fa4192122dc95a51d72c2255cd6d6ccb52005d1e047016ea619d70bb0fb636",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+      "pdf_page_one_based": 168,
+      "booklet_parallel_page_one_based": 185,
+      "attribution_visible": "Logo Alibaba e porzioni dell’interfaccia; nessun credito fotografico nella figura.",
+      "recommended_credit": "Dal corso CVeDI, Marco Cremaschi, lezione 8, 2025–26; screenshot storico del sito Alibaba.",
+      "purpose": "Confrontare lingua del selettore, banner, footer e titolo prodotto: la localizzazione copre anche immagini e microtesti.",
+      "limitations": "Composito storico già presente nella slide. Non dimostra lo stato attuale di Alibaba né che ogni testo provenga da una traduzione automatica.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    },
+    {
+      "id": "alibaba-espansione-testo",
+      "title": "Spazio per testi localizzati",
+      "priority": "recommended",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-espansione-testo.jpg",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-espansione-testo.jpg",
+          "source_image_name": "Image111.jpg",
+          "source_image_index_zero_based": 0,
+          "width_px": 992,
+          "height_px": 951,
+          "sha256": "47cac030f65619383377a175b3815a0c596656b96e5469341196e9cd9b3a0fa3",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+      "pdf_page_one_based": 169,
+      "booklet_parallel_page_one_based": 186,
+      "attribution_visible": "Elementi Alibaba; nessun credito fotografico nella figura.",
+      "recommended_credit": "Dal corso CVeDI, Marco Cremaschi, lezione 8, 2025–26; screenshot storico del sito Alibaba.",
+      "purpose": "Mostrare etichette interrotte, testo a capo e sovrapposizione con l’immagine; introdurre prove su stringhe e viewport reali.",
+      "limitations": "Lo screenshot dimostra clipping osservabile, non la regola universale “italiano sempre più lungo del cinese”; manca uno screenshot cinese equivalente e non sono documentati browser o viewport.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    },
+    {
+      "id": "ikea-arabia-rtl",
+      "title": "Direzione di lettura e interfaccia RTL",
+      "priority": "recommended",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-arabia-rtl.jpg",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-arabia-rtl.jpg",
+          "source_image_name": "Image25.jpg",
+          "source_image_index_zero_based": 0,
+          "width_px": 954,
+          "height_px": 622,
+          "sha256": "7b377c084aae0030846ea8f743548ba18c6a2f87bae5ab5f3dcffb38aa4dd503",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2022-2023/corleta-883215-brand-identity-ikea.pdf",
+      "pdf_page_one_based": 3,
+      "booklet_parallel_page_one_based": null,
+      "attribution_visible": "Didascalia originale: “Fig. 1. IKEA Arabia Saudita”; logo IKEA. Studio firmato Sarah Corleta in p.1.",
+      "recommended_credit": "IKEA; da Sarah Corleta, Brand identity e design cross-culturale, CVeDI 2022–23.",
+      "purpose": "Osservare logo/menu a destra, strumenti account a sinistra e freccia verso sinistra, distinguendo testo, navigazione e immagini.",
+      "limitations": "Screenshot storico: non usare come prova che tutti gli elementi si debbano specchiare, né che ogni utente segua un F-pattern inverso. Data esatta della cattura non indicata.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    },
+    {
+      "id": "ikea-cina-accesso",
+      "title": "Accesso e servizi disponibili",
+      "priority": "recommended",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-cina-accesso.png",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-cina-accesso.png",
+          "source_image_name": "Image75.png",
+          "source_image_index_zero_based": 0,
+          "width_px": 920,
+          "height_px": 528,
+          "sha256": "b543f13e53312386d5281fe24302eca2381524cff4ad645a24144e8373cde51d",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2022-2023/corleta-883215-brand-identity-ikea.pdf",
+      "pdf_page_one_based": 16,
+      "booklet_parallel_page_one_based": null,
+      "attribution_visible": "Didascalia originale: “Fig. 18 IKEA Cina, schermata di login al profilo personale”; logo IKEA; studio di Sarah Corleta.",
+      "recommended_credit": "IKEA; da Sarah Corleta, Brand identity e design cross-culturale, CVeDI 2022–23.",
+      "purpose": "Osservare accesso tramite telefono/codice e opzione WeChat come adattamento delle funzioni all’ecosistema di servizi.",
+      "limitations": "La presenza del metodo non misura la preferenza di tutti gli utenti cinesi. Testi minuti: usare ingrandimento; mantenere screenshot storico e fonte.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    },
+    {
+      "id": "ikea-cina-qr-app",
+      "title": "Passaggio da desktop ad app",
+      "priority": "recommended",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-cina-qr-app.png",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-cina-qr-app.png",
+          "source_image_name": "Image76.png",
+          "source_image_index_zero_based": 1,
+          "width_px": 393,
+          "height_px": 157,
+          "sha256": "a180afb3543afa54f3b1f58024fea666091b95c5a009c046e282323cbcebfe18",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2022-2023/corleta-883215-brand-identity-ikea.pdf",
+      "pdf_page_one_based": 16,
+      "booklet_parallel_page_one_based": null,
+      "attribution_visible": "Didascalia originale: “Fig. 19 IKEA Cina, pop up nella home con QRcode per scaricare l’applicazione”; studio di Sarah Corleta.",
+      "recommended_credit": "IKEA; da Sarah Corleta, Brand identity e design cross-culturale, CVeDI 2022–23.",
+      "purpose": "Esempio compatto di percorso fra dispositivi: istruzione in cinese e QR per accedere all’app.",
+      "limitations": "Raster originale 393×157 px: non ingrandire eccessivamente. QR conservato come documento storico; destinazione non verificata. Non dimostra da solo una preferenza nazionale per il mobile.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    },
+    {
+      "id": "mcdonalds-cina",
+      "title": "Confronto di homepage: mosaico promozionale",
+      "priority": "recommended",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/mcdonalds-cina.jpg",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/mcdonalds-cina.jpg",
+          "source_image_name": "Image98.jpg",
+          "source_image_index_zero_based": 0,
+          "width_px": 1310,
+          "height_px": 1039,
+          "sha256": "e934da1c642361782eb93854b3bac4e1ddc483f56c7c6582ff6a33989413cf98",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+      "pdf_page_one_based": 142,
+      "booklet_parallel_page_one_based": 174,
+      "attribution_visible": "Marchio McDonald’s incorporato; nessun credito fotografico nella figura.",
+      "recommended_credit": "Dal corso CVeDI, Marco Cremaschi, lezione 8, 2025–26; screenshot storico del sito McDonald’s.",
+      "purpose": "Da affiancare alla homepage olandese per descrivere densità, QR, categorie e contenuti visibili, mantenendo l’identità comune.",
+      "limitations": "Screenshot storico, data di acquisizione non indicata. Non attribuire causalmente il layout a distanza dal potere, nazionalità o minore libertà dell’utente; campagne, periodo e obiettivi sono confondenti.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    },
+    {
+      "id": "mcdonalds-paesi-bassi",
+      "title": "Confronto di homepage: hero e sezioni",
+      "priority": "recommended",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/mcdonalds-paesi-bassi.jpg",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/mcdonalds-paesi-bassi.jpg",
+          "source_image_name": "Image99.jpg",
+          "source_image_index_zero_based": 0,
+          "width_px": 909,
+          "height_px": 1392,
+          "sha256": "6e1acdec640eeadfdb9722005e177b035dc428294859a98a5be5e4e8caf6064a",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+      "pdf_page_one_based": 144,
+      "booklet_parallel_page_one_based": 175,
+      "attribution_visible": "Marchio McDonald’s incorporato; nessun credito fotografico nella figura.",
+      "recommended_credit": "Dal corso CVeDI, Marco Cremaschi, lezione 8, 2025–26; screenshot storico del sito McDonald’s.",
+      "purpose": "Da affiancare alla homepage cinese: osservare gerarchia, hero, promozioni, CTA e struttura delle sezioni.",
+      "limitations": "Stessi limiti della controparte cinese. Non presentare la maggiore aria nel layout come prova di autonomia decisionale della popolazione.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    },
+    {
+      "id": "alibaba-coerenza-tipografica",
+      "title": "Coerenza tra pagine localizzate",
+      "priority": "reserve",
+      "files": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-coerenza-tipografica-1.jpg",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-coerenza-tipografica-1.jpg",
+          "source_image_name": "Image112.jpg",
+          "source_image_index_zero_based": 0,
+          "width_px": 996,
+          "height_px": 501,
+          "sha256": "c1b0f99d9cb33fc330a2ff32ce7e5eb4216f60d717336ec74ffe649a64c234ce",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-coerenza-tipografica-2.jpg",
+          "relative_path": "assets/booklet/contesto-culturale-revisione/legacy-candidates/alibaba-coerenza-tipografica-2.jpg",
+          "source_image_name": "Image113.jpg",
+          "source_image_index_zero_based": 1,
+          "width_px": 997,
+          "height_px": 541,
+          "sha256": "b3a34127bf7dd62866520f8156d9faaa9bbcce04aa322fa9622098940279bf48",
+          "method": "Embedded raster extracted using pypdf; no resizing, cropping, recoloring, or generative changes."
+        }
+      ],
+      "source_pdf": "/Users/marco/Sites/cvedi2627/materiali/lezioni/2025-2026/08-usability-testing-contesto-culturale.pdf",
+      "pdf_page_one_based": 171,
+      "booklet_parallel_page_one_based": 187,
+      "attribution_visible": "Logo Alibaba su uno screenshot; nessun credito fotografico nella figura.",
+      "recommended_credit": "Dal corso CVeDI, Marco Cremaschi, lezione 8, 2025–26; screenshot storico del sito Alibaba.",
+      "purpose": "Riserva: confronto tra due schermate storiche per chiedere cosa verrebbe verificato nel QA di font, traduzioni e componenti.",
+      "limitations": "Non basta a diagnosticare un problema culturale: potrebbe dipendere da CSS non caricato, fallback o pagine con implementazioni differenti. Il serif osservabile non consente di identificare con certezza il font.",
+      "license": "No explicit reusable image license found on inspected source pages. Preserve source document and attribution; no license inferred.",
+      "capture_date": "Not stated in inspected source; document/course year is not capture date."
+    }
+  ],
+  "content_audit": [
+    {
+      "topic": "Hofstede dimensionality",
+      "anchors": [
+        "booklet p156",
+        "lesson08 p96–97"
+      ],
+      "finding": "Text says five dimensions but the following diagram includes six (including indulgence/restraint). Correct the historical/model version distinction rather than silently retaining this mismatch."
+    },
+    {
+      "topic": "National score to individual/interface inference",
+      "anchors": [
+        "booklet pp173–183",
+        "lesson08 pp141–165"
+      ],
+      "finding": "The materials infer user motivations and design causes from country scores and screenshots without comparative user data. Present model as aggregate interpretive lens, not user persona or UI prescription."
+    },
+    {
+      "topic": "Single hamburger and collectivism",
+      "anchors": [
+        "booklet pp176–177",
+        "lesson08 pp147–150"
+      ],
+      "finding": "Single/group product photos and presence of social links are described as evidence of individualism/collectivism. These images establish observed composition only; campaign, product and commercial goals provide alternative explanations."
+    },
+    {
+      "topic": "Gendered dimension labels",
+      "anchors": [
+        "booklet pp178–179",
+        "lesson08 pp151–155"
+      ],
+      "finding": "Source describes users from feminine cultures as cooperative and feedback-giving and users from masculine cultures as quality-demanding. Do not reproduce as individual traits, sex/gender claims, or causal usability rules."
+    },
+    {
+      "topic": "Uncertainty and universal usability",
+      "anchors": [
+        "booklet pp167–168,180–181",
+        "lesson08 pp156–161"
+      ],
+      "finding": "Clarity, error prevention and navigation indicators should not be withdrawn from users assigned low national uncertainty avoidance. Current source converts aggregate labels into prescriptions without task-level evidence."
+    },
+    {
+      "topic": "RTL",
+      "anchors": [
+        "Sarah Corleta PDF p3"
+      ],
+      "finding": "Source asserts entire interface mirrors and ties this to a reversed F-pattern. Use screenshot to observe actual controls; avoid all-elements mirroring or deterministic gaze-rule claims."
+    },
+    {
+      "topic": "IKEA and national traits",
+      "anchors": [
+        "Sarah Corleta PDF pp10–16"
+      ],
+      "finding": "Preserve concrete observations (campaign, login, QR, menu) while removing unsupported inference that product grouping, navigation or colour establishes national personalities."
+    },
+    {
+      "topic": "Research continuity",
+      "anchors": [
+        "lesson04 pp40–43,59–61"
+      ],
+      "finding": "Earlier course already teaches checking initial assumptions with surveys/interviews and revising personas from evidence. Use this empirical loop to connect cultural hypotheses to local user research."
+    }
+  ]
+}

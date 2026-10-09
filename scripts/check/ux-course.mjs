@@ -40,8 +40,17 @@ try {
       const asset = assets.get(geometry.src)
       assert.ok(asset, `slide ${slide.index + 1}: original image is registered`)
       assert.ok(geometry.naturalWidth > 0 && geometry.naturalHeight > 0 && geometry.width > 0 && geometry.height > 0, 'real pixels occupy the figure slot')
-      assert.ok(Math.abs(geometry.width / geometry.height - geometry.naturalWidth / geometry.naturalHeight) < .01, `${asset.id}: original proportions`)
-      assert.equal(geometry.fit, 'contain', `${asset.id}: original is never cropped to the slide`)
+      const detail = slide.content.match(/:vertical-range="(\[[^\"]+\])"/)
+      const range = detail ? JSON.parse(detail[1]) : [0, 1]
+      assert.ok(range.length === 2 && range.every(Number.isFinite) && range[0] >= 0 && range[1] <= 1 && range[0] < range[1], `${asset.id}: an explicit valid detail range`)
+      const span = range[1] - range[0]
+      assert.ok(Math.abs(geometry.width / geometry.height - geometry.naturalWidth / (geometry.naturalHeight * span)) < .01, `${asset.id}: original or declared detail proportions`)
+      assert.equal(geometry.fit, detail ? 'cover' : 'contain', `${asset.id}: only declared details use a cropped viewport`)
+      if (detail) {
+        assert.ok(slide.frontmatter.class.includes('screenshot-slide'), 'details use the full screenshot layout')
+        assert.ok(slide.content.includes(':zoom-full-image="true"') || slides.some(overview => overview.frontmatter.lesson === slide.frontmatter.lesson && overview.content.includes(`src="${geometry.src}"`) && !overview.content.includes(':vertical-range')), `${asset.id}: the full original is available in the lesson or its explicit full-image dialog`)
+      }
+      if (slide.content.includes(':max-scale="1"')) assert.ok(geometry.width <= geometry.naturalWidth + .01, `${asset.id}: native pixels are never enlarged`)
       assert.equal(geometry.border, 'none', `${asset.id}: image has no added frame`)
       figures++
     }

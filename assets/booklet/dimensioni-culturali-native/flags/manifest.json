@@ -1,0 +1,761 @@
+{
+  "schema": "cvedi-cultural-dimensions-flags/1",
+  "retrievedOn": "2026-10-09",
+  "retrievedAtUtc": "2026-10-09T11:12:31.017623+00:00",
+  "purpose": "Originali SVG delle 29 bandiere selezionate per importazione come vettori nativi nei grafici culturali Figma. I segnaposti circolari sono composti successivamente in Figma; gli SVG originali restano senza modifiche.",
+  "sourceRepository": "https://github.com/lipis/flag-icons",
+  "upstreamCommit": "086f7e97d657358203916dbe84f61c2bccaa81eb",
+  "upstreamCommitDate": "2026-04-07T18:11:53Z",
+  "variant": "flags/4x3",
+  "license": {
+    "id": "MIT",
+    "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/LICENSE",
+    "path": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+    "sha256": "8f1195d55a2fd315a07d812328470ca9ba2abb78c8d317ff19619d5125e00cea",
+    "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+  },
+  "flagCount": 29,
+  "assets": [
+    {
+      "isoAlpha2": "at",
+      "country": "Austria",
+      "countryIt": "Austria",
+      "usedInDimensions": [
+        "PDI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/at.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/at.svg",
+      "upstreamPath": "flags/4x3/at.svg",
+      "sha256": "c0e5cb3c1d59fd002afd6e2b0dd03787677ca3c9e7b2321f4af6d9e28256ebcd",
+      "bytes": 195,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-at",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "dk",
+      "country": "Denmark",
+      "countryIt": "Danimarca",
+      "usedInDimensions": [
+        "IDV",
+        "PDI",
+        "UAI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/dk.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/dk.svg",
+      "upstreamPath": "flags/4x3/dk.svg",
+      "sha256": "d2847c0bd7a1fb97977ee51f2f618c5ebc5898dd66ef9804f187613c27bdca1a",
+      "bytes": 236,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-dk",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "nz",
+      "country": "New zealand",
+      "countryIt": "Nuova Zelanda",
+      "usedInDimensions": [
+        "PDI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/nz.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nz.svg",
+      "upstreamPath": "flags/4x3/nz.svg",
+      "sha256": "794a2c8c09796090ab748a74bc35aed825e701eaddc46b138f300401ac9a25cd",
+      "bytes": 2172,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-nz",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "gt",
+      "country": "Guatemala",
+      "countryIt": "Guatemala",
+      "usedInDimensions": [
+        "PDI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/gt.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gt.svg",
+      "upstreamPath": "flags/4x3/gt.svg",
+      "sha256": "a20814d011af90ab2e80ea88eae9928cfce824cb9b50edf7b74ce2a98a159059",
+      "bytes": 31352,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-gt",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "my",
+      "country": "Malaysia",
+      "countryIt": "Malesia",
+      "usedInDimensions": [
+        "PDI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/my.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/my.svg",
+      "upstreamPath": "flags/4x3/my.svg",
+      "sha256": "bb30e84a099d2d9dc286ab091bdd40ae7a8e332eb49827f2df4f11803e613667",
+      "bytes": 1378,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-my",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "sk",
+      "country": "Slovakia",
+      "countryIt": "Slovacchia",
+      "usedInDimensions": [
+        "MAS",
+        "PDI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/sk.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sk.svg",
+      "upstreamPath": "flags/4x3/sk.svg",
+      "sha256": "578d0693bc95214334248b47c5719dd01cfc9839bd909a726df045d499fabbb6",
+      "bytes": 1182,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-sk",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "ng",
+      "country": "Nigeria",
+      "countryIt": "Nigeria",
+      "usedInDimensions": [
+        "IDV"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/ng.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ng.svg",
+      "upstreamPath": "flags/4x3/ng.svg",
+      "sha256": "b7a2a45a6499095efce41592428ff558ec5bd83d2751858dfe5fa4589334b66f",
+      "bytes": 257,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-ng",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "ke",
+      "country": "Kenya",
+      "countryIt": "Kenya",
+      "usedInDimensions": [
+        "IDV"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/ke.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ke.svg",
+      "upstreamPath": "flags/4x3/ke.svg",
+      "sha256": "699163d87382eb969d8a26d4ce1a99a00264e8b7b95276abf585476506f46e82",
+      "bytes": 1421,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-ke",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "bd",
+      "country": "Bangladesh",
+      "countryIt": "Bangladesh",
+      "usedInDimensions": [
+        "IDV"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/bd.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/bd.svg",
+      "upstreamPath": "flags/4x3/bd.svg",
+      "sha256": "1aabb4a772651fb9a673660233d5bc6f3d78dfc71df09d567769bc97b9eb554f",
+      "bytes": 187,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-bd",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "se",
+      "country": "Sweden",
+      "countryIt": "Svezia",
+      "usedInDimensions": [
+        "IDV",
+        "MAS",
+        "UAI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/se.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/se.svg",
+      "upstreamPath": "flags/4x3/se.svg",
+      "sha256": "b3b5071e6c1d4a0e3db828bab5c7dfd68d0e90fcf3b25b15e9a2c4f96c1f79c9",
+      "bytes": 209,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-se",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "no",
+      "country": "Norway",
+      "countryIt": "Norvegia",
+      "usedInDimensions": [
+        "MAS"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/no.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/no.svg",
+      "upstreamPath": "flags/4x3/no.svg",
+      "sha256": "ceea17af051dceefd5759a824213eb40ac8a8095aa88a6874a7bbc8de637357a",
+      "bytes": 318,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-no",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "lv",
+      "country": "Latvia",
+      "countryIt": "Lettonia",
+      "usedInDimensions": [
+        "MAS"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/lv.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/lv.svg",
+      "upstreamPath": "flags/4x3/lv.svg",
+      "sha256": "d0d1ac1c0e301f808be3db32bcd7cdbc8986b6ec15574f557f440caed8b7bb31",
+      "bytes": 263,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-lv",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "hu",
+      "country": "Hungary",
+      "countryIt": "Ungheria",
+      "usedInDimensions": [
+        "MAS"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/hu.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hu.svg",
+      "upstreamPath": "flags/4x3/hu.svg",
+      "sha256": "4891ce591bf29b5b68609c29d973a30f1ef109032d8dab369208d0d5f615bc74",
+      "bytes": 264,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-hu",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "jp",
+      "country": "Japan",
+      "countryIt": "Giappone",
+      "usedInDimensions": [
+        "LTO",
+        "MAS"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/jp.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/jp.svg",
+      "upstreamPath": "flags/4x3/jp.svg",
+      "sha256": "bfea80baf9989383dc4bf7ca594ed95be0df0ff125bfc88d0bfa878eb0198022",
+      "bytes": 470,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-jp",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "sg",
+      "country": "Singapore",
+      "countryIt": "Singapore",
+      "usedInDimensions": [
+        "UAI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/sg.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/sg.svg",
+      "upstreamPath": "flags/4x3/sg.svg",
+      "sha256": "25de9044c2e2775f7ccf9c1df02dd02342f915715b22c43248452b7ae24079a5",
+      "bytes": 889,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-sg",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "uy",
+      "country": "Uruguay",
+      "countryIt": "Uruguay",
+      "usedInDimensions": [
+        "UAI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/uy.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/uy.svg",
+      "upstreamPath": "flags/4x3/uy.svg",
+      "sha256": "47656c0bf4961a1f7233841eb78756cd45d074e7d4061b8a1217bba7754a30fe",
+      "bytes": 1724,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-uy",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "pt",
+      "country": "Portugal",
+      "countryIt": "Portogallo",
+      "usedInDimensions": [
+        "UAI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/pt.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pt.svg",
+      "upstreamPath": "flags/4x3/pt.svg",
+      "sha256": "a7a2cf0b44aaaaf4f3bdc0ee0fa308ec7085bdfedd3f72da1473d43fd2a569fb",
+      "bytes": 8001,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-pt",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "gr",
+      "country": "Greece",
+      "countryIt": "Grecia",
+      "usedInDimensions": [
+        "UAI"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/gr.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gr.svg",
+      "upstreamPath": "flags/4x3/gr.svg",
+      "sha256": "a184070f7678b06777be8ac38cb05ba41829591a6dac9b64b2b72db66aec82f5",
+      "bytes": 868,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-gr",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "ve",
+      "country": "Venezuela",
+      "countryIt": "Venezuela",
+      "usedInDimensions": [
+        "IVR",
+        "LTO"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/ve.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/ve.svg",
+      "upstreamPath": "flags/4x3/ve.svg",
+      "sha256": "5712f1c63ba0bfa25a853c100cdebfd6698cce98fc2e0ba8d3fab35df541efa1",
+      "bytes": 1206,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-ve",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "gh",
+      "country": "Ghana",
+      "countryIt": "Ghana",
+      "usedInDimensions": [
+        "LTO"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/gh.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/gh.svg",
+      "upstreamPath": "flags/4x3/gh.svg",
+      "sha256": "53c55ca455293bceecfe6a5d6b12dc0bb670734c50bfd95cb21dc4ef12197405",
+      "bytes": 293,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-gh",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "pe",
+      "country": "Peru",
+      "countryIt": "Perù",
+      "usedInDimensions": [
+        "LTO"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/pe.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pe.svg",
+      "upstreamPath": "flags/4x3/pe.svg",
+      "sha256": "e9dd299d453d9c173203e60f69623ef2148dbee24b2a1763328e94d4dfece05f",
+      "bytes": 186,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-pe",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "tw",
+      "country": "Taiwan",
+      "countryIt": "Taiwan",
+      "usedInDimensions": [
+        "LTO"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/tw.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/tw.svg",
+      "upstreamPath": "flags/4x3/tw.svg",
+      "sha256": "931757f06b9ee751fd1a0cc8dd7cf862e21fdcaf894d10ed7bcc68dabcca59ad",
+      "bytes": 2499,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-tw",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "hk",
+      "country": "Hong kong",
+      "countryIt": "Hong Kong",
+      "usedInDimensions": [
+        "LTO"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/hk.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/hk.svg",
+      "upstreamPath": "flags/4x3/hk.svg",
+      "sha256": "d9d142b2b97ec3b8190bff3802072c1b4f15573a679eead89a0ce59986dcad0c",
+      "bytes": 727,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-hk",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "eg",
+      "country": "Egypt",
+      "countryIt": "Egitto",
+      "usedInDimensions": [
+        "IVR"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/eg.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/eg.svg",
+      "upstreamPath": "flags/4x3/eg.svg",
+      "sha256": "3f85d1d2bdb03692ad68f84efff36be2f5b1b5b7438b7b7be50def3837bf532f",
+      "bytes": 8726,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-eg",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "pk",
+      "country": "Pakistan",
+      "countryIt": "Pakistan",
+      "usedInDimensions": [
+        "IVR"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/pk.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pk.svg",
+      "upstreamPath": "flags/4x3/pk.svg",
+      "sha256": "89e851c0d541d8166b297e13bed97e0cb500bdb4ae48fd83a86b606a078352a8",
+      "bytes": 725,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-pk",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "lb",
+      "country": "Lebanon",
+      "countryIt": "Libano",
+      "usedInDimensions": [
+        "IVR"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/lb.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/lb.svg",
+      "upstreamPath": "flags/4x3/lb.svg",
+      "sha256": "94b12b3f1dc43809f93516592f07bb4eb85dabbfdd6010b736f467fa64283e7f",
+      "bytes": 2770,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-lb",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "pr",
+      "country": "Puerto rico",
+      "countryIt": "Portorico",
+      "usedInDimensions": [
+        "IVR"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/pr.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/pr.svg",
+      "upstreamPath": "flags/4x3/pr.svg",
+      "sha256": "968c343f7074f4312871383337f26454040aaa84f304460d518da549b2549f8d",
+      "bytes": 625,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-pr",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "mx",
+      "country": "Mexico",
+      "countryIt": "Messico",
+      "usedInDimensions": [
+        "IVR"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/mx.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/mx.svg",
+      "upstreamPath": "flags/4x3/mx.svg",
+      "sha256": "9dbc8ad8b35e52ce7cb686d5cd93bd95e4c0dd8505c184186a740148ffd34901",
+      "bytes": 84753,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-mx",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    },
+    {
+      "isoAlpha2": "nl",
+      "country": "Netherlands",
+      "countryIt": "Paesi Bassi",
+      "usedInDimensions": [
+        "IDV"
+      ],
+      "path": "assets/booklet/dimensioni-culturali-native/flags/originals/nl.svg",
+      "sourceUrl": "https://raw.githubusercontent.com/lipis/flag-icons/086f7e97d657358203916dbe84f61c2bccaa81eb/flags/4x3/nl.svg",
+      "upstreamPath": "flags/4x3/nl.svg",
+      "sha256": "8f691f17fe70894537af8e92f2ca47761d353639b0defc15cbe561eb503ab010",
+      "bytes": 225,
+      "mimeType": "image/svg+xml",
+      "viewBox": "0 0 640 480",
+      "rootAttributes": {
+        "id": "flag-icons-nl",
+        "viewBox": "0 0 640 480"
+      },
+      "originalUnmodified": true,
+      "containsRasterImages": false,
+      "containsExternalReferences": false,
+      "license": "MIT",
+      "licensePath": "assets/booklet/dimensioni-culturali-native/flags/originals/LICENSE",
+      "copyright": "Copyright (c) 2013 Panayiotis Lipiridis"
+    }
+  ],
+  "validation": {
+    "all29SelectedCountriesCovered": true,
+    "allFilesParseAsSvg": true,
+    "allFilesAreUnmodifiedDownloads": true,
+    "containsRasterImages": false,
+    "containsExternalReferences": false,
+    "generatedByImageGen": false,
+    "figmaModified": false
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "pageId": "2008:1741",
+  "sectionId": "204:8294",
+  "boardCount": 10,
+  "updatedOn": "2026-10-09",
+  "visibleOnly": true,
+  "boards": [
+    {
+      "id": "198:2876",
+      "name": "C03 · 001 · SX — Apertura e metodo",
+      "ordinal": 1,
+      "printedPage": null,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "I198:2886;6:824",
+          "text": "Cornici e iterazione nel processo UX\nRicerca, contesto culturale e inclusione\nProblema progettuale e moodboard\nPercezione, gerarchia e colore\nTipografia, griglie e interfacce\nWireframe, mockup e videogiochi\nTest di usabilità e implementazione",
+          "links": []
+        },
+        {
+          "id": "I198:2886;6:825",
+          "text": "Argomenti del capitolo",
+          "links": []
+        },
+        {
+          "id": "2386:1316",
+          "text": "TUTTI I DIRITTI RISERVATI",
+          "links": []
+        },
+        {
+          "id": "2386:1317",
+          "text": "Salvi gli utilizzi consentiti dalla legge, è vietato condividere, distribuire, stampare, riprodurre o modificare questo libro, in tutto o in parte, senza la preventiva autorizzazione scritta dell’autore.",
+          "links": []
+        },
+        {
+          "id": "2386:1319",
+          "text": "Per richiedere l’autorizzazione:",
+          "links": []
+        },
+        {
+          "id": "2386:1320",
+          "text": "marco.cremaschi@unimib.it",
+          "links": [
+            "mailto:marco.cremaschi@unimib.it"
+          ]
+        },
+        {
+          "id": "2386:1321",
+          "text": "Restano salvi i diritti e le licenze applicabili ai materiali di terzi.",
+          "links": []
+        },
+        {
+          "id": "2386:1322",
+          "text": "L. 22 aprile 1941, n. 633 e successive modificazioni, artt. 13, 16, 17 e 18.",
+          "links": [
+            "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1941-04-22;633"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198:3020",
+      "name": "C03 · 002 · DX — Apertura e metodo",
+      "ordinal": 2,
+      "printedPage": null,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "198:3032",
+          "text": "03",
+          "links": []
+        },
+        {
+          "id": "198:3034",
+          "text": "IL PROCESSO UX ATTRAVERSO IL DESIGN\nTHINKING",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "2655:315",
+      "name": "C03 · 003 · SX — Il Design Thinking come cornice",
+      "ordinal": 3,
+      "printedPage": 95,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "I2655:327;3:164",
+          "text": "3",
+          "links": []
+        },
+        {
+          "id": "2655:328",
+          "text": "Il Design Thinking è una possibile cornice per orientarsi nel processo di progettazione. Offre una struttura per affrontare le diverse attività del progetto e prendere decisioni consapevoli.\n\nPone l’essere umano al centro del processo creativo e valorizza l’osservazione, la collaborazione, l’apprendimento rapido, la visualizzazione delle idee e la prototipazione dei concetti. L’analisi di business accompagna queste attività: insieme, contribuiscono all’innovazione e orientano le scelte strategiche aziendali.\n\nL’obiettivo è coinvolgere gli attori della filiera — consumatori, designer e imprenditori — in un percorso condiviso che integri prospettive diverse. Questa cornice può essere applicata alla progettazione di prodotti e servizi, ma anche alla costruzione di modelli di business.\n\nIl Design Thinking può aiutare a immaginare scenari futuri e dare forma a proposte di valore per il mercato. L’espressione indica l’applicazione della sensibilità e dei metodi del designer alla risoluzione di problemi di varia natura.",
+          "links": []
+        },
+        {
+          "id": "2655:329",
+          "text": "95",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "2655:335",
+      "name": "C03 · 004 · DX — Dal metodo alla pratica progettuale",
+      "ordinal": 4,
+      "printedPage": 96,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "2655:345",
+          "text": "Il Design Thinking non sostituisce il design professionale né le tecniche artistiche. È inteso come un metodo di innovazione e, al tempo stesso, uno strumento di emancipazione.\n\nÈ un processo dinamico: osservazione, analisi, creatività e verifica si intrecciano per dare forma a prodotti e servizi funzionali, accessibili e significativi.",
+          "links": []
+        },
+        {
+          "id": "2655:350",
+          "text": "96",
+          "links": []
+        },
+        {
+          "id": "2655:357",
+          "text": "Cinque modalità del Design Thinking e implementazione: i ritorni nel processo.",
+          "links": []
+        },
+        {
+          "id": "2655:360",
+          "text": "La d.school è l’Hasso Plattner Institute of Design dell’Università di Stanford, che ha contribuito a diffondere il Design Thinking. Il modello introduttivo propone cinque modalità; qui l’implementazione è un’aggiunta didattica del capitolo.",
+          "links": []
+        },
+        {
+          "id": "2655:362",
+          "text": "1. Empathize\n2. Define\n3. Ideate",
+          "links": []
+        },
+        {
+          "id": "2655:363",
+          "text": "4. Prototype\n5. Test\n→ Implementare",
+          "links": []
+        },
+        {
+          "id": "2655:364",
+          "text": "Questa cornice orienta gli strumenti di progettazione. Le modalità possono ripetersi e intrecciarsi: un test può cambiare la definizione del problema e richiedere nuova ricerca.",
+          "links": [
+            "https://dschool.stanford.edu/stories/lets-stop-talking-about-the-design-process"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198:2739",
+      "name": "C03 · 005 · SX — Progettare l’esperienza",
+      "ordinal": 5,
+      "printedPage": 97,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "210:1841",
+          "text": "97",
+          "links": []
+        },
+        {
+          "id": "2634:43",
+          "text": "Progettare l’esperienza",
+          "links": []
+        },
+        {
+          "id": "2634:44",
+          "text": "Progettare per le persone vuol dire capire cosa vogliono fare, come lo fanno e cosa le ostacola. L’esperienza non si esaurisce nell’interfaccia: include ciò che ci si aspetta, ciò che si percepisce e come si reagisce, prima, durante e dopo l’uso.",
+          "links": []
+        },
+        {
+          "id": "2634:46",
+          "text": "Persone e contesto",
+          "links": []
+        },
+        {
+          "id": "2634:47",
+          "text": "Chi usa il servizio? In quali situazioni, con quali capacità, conoscenze, lingue e strumenti? La ricerca rende visibili differenze e bisogni.",
+          "links": []
+        },
+        {
+          "id": "2634:49",
+          "text": "Obiettivi e vincoli",
+          "links": []
+        },
+        {
+          "id": "2634:50",
+          "text": "Quale problema conta per le persone e per l’organizzazione? Quali condizioni tecniche, operative e sociali deve rispettare la proposta?",
+          "links": []
+        },
+        {
+          "id": "2634:52",
+          "text": "Ipotesi e alternative",
+          "links": []
+        },
+        {
+          "id": "2634:53",
+          "text": "Trasforma le assunzioni in domande. Esplora più soluzioni e rendi esplicito il motivo delle scelte, invece di difendere subito la prima idea.",
+          "links": []
+        },
+        {
+          "id": "2634:55",
+          "text": "Evidenze e decisioni",
+          "links": []
+        },
+        {
+          "id": "2634:56",
+          "text": "Osservazioni e valutazioni aiutano a scegliere che cosa mantenere, modificare o approfondire. La qualità del processo si vede anche nella capacità di rivedere il progetto.",
+          "links": []
+        },
+        {
+          "id": "2634:57",
+          "text": "ISO 9241-210 offre principi e attività di progettazione centrata sull’essere umano.* Il Design Thinking è una cornice utile per organizzare il lavoro, da adattare al problema.",
+          "links": []
+        },
+        {
+          "id": "2634:59",
+          "text": "* ISO 9241-210:2019 · progettazione centrata sull’essere umano",
+          "links": [
+            "https://www.iso.org/standard/77520.html"
+          ]
+        },
+        {
+          "id": "2634:60",
+          "text": "GOV.UK · partire dalla ricerca sui bisogni",
+          "links": [
+            "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "198:2908",
+      "name": "C03 · 006 · DX — Le cinque modalità della d.school",
+      "ordinal": 6,
+      "printedPage": 98,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "210:1842",
+          "text": "98",
+          "links": []
+        },
+        {
+          "id": "2634:62",
+          "text": "Le cinque modalità della d.school",
+          "links": []
+        },
+        {
+          "id": "2634:63",
+          "text": "Le attività possono combinarsi e ripetersi: non impongono una ricetta lineare valida per ogni progetto.",
+          "links": []
+        },
+        {
+          "id": "2634:65",
+          "text": "Empathize · comprendere",
+          "links": []
+        },
+        {
+          "id": "2634:66",
+          "text": "Ascoltare le persone e osservare attività e contesti, distinguendo ciò che emerge dalle interpretazioni del team.",
+          "links": []
+        },
+        {
+          "id": "2634:68",
+          "text": "Define · focalizzare",
+          "links": []
+        },
+        {
+          "id": "2634:69",
+          "text": "Dare senso alle evidenze e formulare il problema, i bisogni e le domande che guideranno le scelte.",
+          "links": []
+        },
+        {
+          "id": "2634:71",
+          "text": "Ideate · esplorare",
+          "links": []
+        },
+        {
+          "id": "2634:72",
+          "text": "Generare e confrontare alternative, cercando possibilità diverse prima di scegliere una direzione.",
+          "links": []
+        },
+        {
+          "id": "2634:74",
+          "text": "Prototype · rendere verificabile",
+          "links": []
+        },
+        {
+          "id": "2634:75",
+          "text": "Costruire una rappresentazione della proposta adatta alla domanda da esplorare, con il livello di dettaglio necessario.",
+          "links": []
+        },
+        {
+          "id": "2634:77",
+          "text": "Test · imparare dall’uso",
+          "links": []
+        },
+        {
+          "id": "2634:78",
+          "text": "Osservare come le persone interpretano e usano la proposta. I risultati possono suggerire nuove idee, una revisione del problema o altra ricerca.",
+          "links": []
+        },
+        {
+          "id": "2634:79",
+          "text": "Nel capitolo l’implementazione è un ponte aggiunto verso il prodotto reale: non è una sesta modalità del modello Stanford.",
+          "links": []
+        },
+        {
+          "id": "2634:81",
+          "text": "Stanford d.school · Design Thinking Bootleg · cinque modalità",
+          "links": [
+            "https://dschool.stanford.edu/tools/design-thinking-bootleg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2634:82",
+      "name": "C03 · 007 · SX — Il Double Diamond",
+      "ordinal": 7,
+      "printedPage": 99,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "2634:87",
+          "text": "99",
+          "links": []
+        },
+        {
+          "id": "2634:89",
+          "text": "Il Double Diamond",
+          "links": []
+        },
+        {
+          "id": "2634:90",
+          "text": "Il Double Diamond è un modello di progettazione presentato nel 2004 dal Design Council britannico. Il nome deriva da due rombi affiancati: in ognuno la divergenza amplia informazioni e idee, mentre la convergenza focalizza le scelte.*\n\nIl primo diamante riguarda il problema: lo si osserva da più punti di vista e si decide quale affrontare. Il secondo riguarda la soluzione: si generano più risposte, le si prova e si sceglie quella più adatta.\n\nSeparare comprensione del problema e progettazione della soluzione aiuta a evitare un errore frequente: costruire una buona soluzione per il problema sbagliato.",
+          "links": []
+        },
+        {
+          "id": "2634:99",
+          "text": "Discover",
+          "links": []
+        },
+        {
+          "id": "2634:100",
+          "text": "Esplorare il problema.",
+          "links": []
+        },
+        {
+          "id": "2634:102",
+          "text": "Define",
+          "links": []
+        },
+        {
+          "id": "2634:103",
+          "text": "Focalizzare la sfida.",
+          "links": []
+        },
+        {
+          "id": "2634:105",
+          "text": "Develop",
+          "links": []
+        },
+        {
+          "id": "2634:106",
+          "text": "Generare alternative.",
+          "links": []
+        },
+        {
+          "id": "2634:108",
+          "text": "Deliver",
+          "links": []
+        },
+        {
+          "id": "2634:109",
+          "text": "Testare e migliorare.",
+          "links": []
+        },
+        {
+          "id": "2634:111",
+          "text": "Tre cornici complementari",
+          "links": []
+        },
+        {
+          "id": "2634:112",
+          "text": "Lo standard ISO indica i principi e le attività di una progettazione centrata sulle persone. Il modello della d.school distingue diverse modalità di lavoro. Il Double Diamond mostra come si alterni tra l’aprirsi a nuove possibilità e il fare delle scelte. Sono tre visioni diverse dello stesso processo, non tre elenchi di fasi da far coincidere una per una.",
+          "links": []
+        },
+        {
+          "id": "2634:113",
+          "text": "Il lavoro non procede in linea retta. Le prove possono far cambiare la domanda di partenza: allora si torna a esplorare, si confrontano nuove alternative e si migliora la proposta, anche dopo che è stata rilasciata.",
+          "links": []
+        },
+        {
+          "id": "2634:115",
+          "text": "* Design Council · History of the Double Diamond (2004)",
+          "links": [
+            "https://www.designcouncil.org.uk/resources/the-double-diamond/history-of-the-double-diamond/"
+          ]
+        },
+        {
+          "id": "2655:368",
+          "text": "Design Council · Double Diamond · adattamento didattico, CC BY 4.0",
+          "links": [
+            "https://www.designcouncil.org.uk/resources/framework-for-innovation/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2634:116",
+      "name": "C03 · 008 · DX — Dalle ipotesi alle decisioni",
+      "ordinal": 8,
+      "printedPage": 100,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "2634:121",
+          "text": "100",
+          "links": []
+        },
+        {
+          "id": "2634:123",
+          "text": "Dalle ipotesi alle decisioni",
+          "links": []
+        },
+        {
+          "id": "2634:124",
+          "text": "Un esempio rende concreta l’iterazione. Il caso della prenotazione usato nel corso è uno scenario didattico: dati e situazioni sono simulati.",
+          "links": []
+        },
+        {
+          "id": "2634:126",
+          "text": "Un segnale nello scenario",
+          "links": []
+        },
+        {
+          "id": "2634:127",
+          "text": "Sara torna al calendario prima di confermare la modifica. Il comportamento descritto non spiega da solo il motivo.",
+          "links": []
+        },
+        {
+          "id": "2634:129",
+          "text": "Una domanda aperta",
+          "links": []
+        },
+        {
+          "id": "2634:130",
+          "text": "Sta ricontrollando giorno o orario? Quali informazioni cerca? Evitiamo di concludere subito che basti ingrandire il pulsante.",
+          "links": []
+        },
+        {
+          "id": "2634:132",
+          "text": "Una prova adatta alla domanda",
+          "links": []
+        },
+        {
+          "id": "2634:133",
+          "text": "Confrontiamo due riepiloghi sullo stesso compito, con persone del pubblico previsto. Osserviamo comprensione, azioni, difficoltà e richieste di aiuto.",
+          "links": []
+        },
+        {
+          "id": "2634:135",
+          "text": "Una decisione motivata",
+          "links": []
+        },
+        {
+          "id": "2634:136",
+          "text": "Colleghiamo la scelta alle evidenze, dichiarando anche ciò che resta incerto. Se il problema cambia, rivediamo requisiti e prototipo oppure torniamo alla ricerca.",
+          "links": []
+        },
+        {
+          "id": "2634:137",
+          "text": "La domanda guida la prova; la prova sostiene una decisione. Un risultato favorevole in un contesto non garantisce l’efficacia in tutte le situazioni.",
+          "links": []
+        },
+        {
+          "id": "2634:139",
+          "text": "GOV.UK · bisogni basati sulla ricerca e prototipi per imparare",
+          "links": [
+            "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs"
+          ]
+        },
+        {
+          "id": "2634:140",
+          "text": "Caso simulato della prenotazione · Ricerca e contesto",
+          "links": [
+            "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1109"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2634:141",
+      "name": "C03 · 009 · SX — Che cosa impariamo e produciamo",
+      "ordinal": 9,
+      "printedPage": 101,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "2634:146",
+          "text": "101",
+          "links": []
+        },
+        {
+          "id": "2634:148",
+          "text": "Che cosa impariamo e produciamo",
+          "links": []
+        },
+        {
+          "id": "2634:149",
+          "text": "Gli artefatti rendono visibile il ragionamento. La loro presenza, da sola, non dimostra la qualità del progetto: conta la decisione che permettono di prendere.",
+          "links": []
+        },
+        {
+          "id": "2634:152",
+          "text": "Imparare",
+          "links": []
+        },
+        {
+          "id": "2634:153",
+          "text": "▸ Formulare domande sui bisogni.\n▸ Leggere evidenze e limiti.\n▸ Motivare gerarchie e scelte visive.\n▸ Confrontare alternative.\n▸ Rivedere il progetto in modo documentato.",
+          "links": []
+        },
+        {
+          "id": "2634:155",
+          "text": "Produrre",
+          "links": []
+        },
+        {
+          "id": "2634:156",
+          "text": "▸ Sintesi della ricerca e requisiti.\n▸ Moodboard e direzioni visive.\n▸ Gerarchie, griglie e tipografia.\n▸ Flussi e prototipi.\n▸ Resoconto dei test e indicazioni per lo sviluppo.",
+          "links": []
+        },
+        {
+          "id": "2634:157",
+          "text": "Per ogni materiale chiediti: quale domanda affronta, quali evidenze contiene e quale scelta sostiene?",
+          "links": []
+        }
+      ]
+    },
+    {
+      "id": "2634:162",
+      "name": "C03 · 010 · DX — Dal prototipo al servizio reale",
+      "ordinal": 10,
+      "printedPage": 102,
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "texts": [
+        {
+          "id": "2634:167",
+          "text": "102",
+          "links": []
+        },
+        {
+          "id": "2634:169",
+          "text": "Dal prototipo al servizio reale",
+          "links": []
+        },
+        {
+          "id": "2634:170",
+          "text": "Il prototipo serve a esplorare una proposta e a raccogliere indicazioni per migliorarla. Il servizio reale, invece, deve funzionare con dati veri, con le persone che lo useranno e nelle condizioni d’uso effettive. Per passare dall’uno all’altro servono la collaborazione tra i diversi ruoli coinvolti (progettisti, sviluppatori, responsabili del servizio) e ulteriori verifiche.",
+          "links": []
+        },
+        {
+          "id": "2634:173",
+          "text": "Comportamenti e stati",
+          "links": []
+        },
+        {
+          "id": "2634:174",
+          "text": "Gestire dati, caricamenti, conferme, errori e recupero. Collegare ogni stato al compito della persona.",
+          "links": []
+        },
+        {
+          "id": "2634:176",
+          "text": "Accesso e contenuti",
+          "links": []
+        },
+        {
+          "id": "2634:177",
+          "text": "Verificare accessibilità, linguaggio e percorsi su dispositivi e situazioni diversi, includendo chi incontra barriere.",
+          "links": []
+        },
+        {
+          "id": "2634:180",
+          "text": "Affidabilità e responsabilità",
+          "links": []
+        },
+        {
+          "id": "2634:181",
+          "text": "Confrontarsi con sviluppo e gestione del servizio su prestazioni, protezione dei dati e manutenzione.",
+          "links": []
+        },
+        {
+          "id": "2634:183",
+          "text": "Dopo il rilascio",
+          "links": []
+        },
+        {
+          "id": "2634:184",
+          "text": "Ascoltare le segnalazioni, osservare l’uso e riesaminare le scelte. Ricerca e valutazione continuano nel ciclo di vita.",
+          "links": []
+        },
+        {
+          "id": "2634:185",
+          "text": "Prima di passare alla ricerca: scegli un servizio quotidiano. Quale bisogno vuoi capire e quale evidenza vorresti raccogliere prima di proporre una soluzione?",
+          "links": []
+        },
+        {
+          "id": "2634:187",
+          "text": "GOV.UK · Making prototypes · prototipo e produzione",
+          "links": [
+            "https://www.gov.uk/service-manual/design/making-prototypes"
+          ]
+        },
+        {
+          "id": "2634:188",
+          "text": "ISO 9241-210:2019 · coinvolgimento, valutazione e iterazione",
+          "links": [
+            "https://www.iso.org/standard/77520.html"
+          ]
+        }
+      ]
+    }
+  ],
+  "commentRevision": {
+    "date": "2026-10-09",
+    "report": "reports/apertura-ux/revisione-e-chiusura-commenti.json",
+    "visibleCourseReferencesRemoved": true
+  }
+}

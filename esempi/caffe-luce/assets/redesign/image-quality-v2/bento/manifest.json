@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "collection": "Caffè TTC · bento · image quality v2",
+  "assets": [
+    {
+      "id": "hero",
+      "style": "bento",
+      "generator": "OpenAI built-in image_gen.imagegen",
+      "generationMode": "generate",
+      "created": "2026-10-08",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one independent full-resolution landscape photograph for the Bento version of the fictional Caffè TTC website, replacing an enlarged 512px crop. Single image, large native 3:2 landscape composition.\nScene/backdrop: a welcoming Italian neighborhood cafe with deep muted teal-green walls, walnut tables and a walnut counter, light wood chairs, green plants and brass pendant lamps. Calm ordinary daylight and natural realistic colors.\nSubject: one complete plain white ceramic espresso cup, its entire handle and saucer, beside one whole golden butter croissant on a complete small white plate, on a walnut table.\nComposition/framing: pull the camera well back. This complete breakfast group is small and compact around 55% of image width and 50% of image height. Every part of cup, saucer, handle, plate and pastry must fit inside the central 35% of image width and central 35% of image height. Generous real empty tabletop and cafe background on every side, especially quiet left side. This is essential: the same image must survive extremely wide and narrow centered website crops. No product near the bottom or side edges. Three-quarter slightly elevated camera view, coherent real perspective. The cafe behind may have two distant ordinary patrons, unobtrusive and gently softer than the sharp food.\nStyle/medium: convincing high-end editorial FOOD PHOTOGRAPHY, crisp real pastry layers, real ceramic surface, natural wood grain, moderate depth of field and very detailed sharp foreground. Natural lens rendering.\nLighting/mood: soft window light, warm approachable place, realistic soft shadows and appetizing food.\nConstraints: create one photograph only, no contact sheet, no grid, no collage, no split panels, no decorative border, no UI or webpage, no lettering, logo, sign text, price, watermark, no illustration, no painted texture, no exaggerated blur, no CGI look. Preserve the complete small compact breakfast group in the central safe area. Largest available native landscape output; do not simulate resolution with an enlarged low-resolution texture.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bb2-9cf2-7320-8536-1d8ff8b45ff0/exec-b9d49e46-c68b-491a-b31d-f05591b495d8.png",
+      "provenance": "Original AI-generated imagery for the fictional Caffè TTC; not a documentary photograph or historical artifact.",
+      "alt": "Espresso in una tazza bianca e croissant al burro su un tavolo di noce, nel Caffè TTC dalla parete verde.",
+      "original": {
+        "src": "assets/redesign/image-quality-v2/bento/hero.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2314214,
+        "sha256": "0fc0956fe7c3db24aff00e7aaa3c02b3d529a92fa63d142bdd7140770148183a"
+      },
+      "runtime": {
+        "src": "assets/redesign/image-quality-v2/bento/hero.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1552694,
+        "sha256": "97a80db7972440fdfae9d60efc1f7ba0ff0f46fb088bdf60520b80567c0b25b3",
+        "operation": "Lossless WebP encoding at original native dimensions; no enlargement, sharpening or creative pixel edits."
+      }
+    },
+    {
+      "id": "locale",
+      "style": "bento",
+      "generator": "OpenAI built-in image_gen.imagegen",
+      "generationMode": "generate",
+      "created": "2026-10-08",
+      "prompt": "Use case: photorealistic-natural.\nAsset type: one independent full-resolution 3:2 landscape interior photograph for a large Bento website module, no collage.\nPrimary request: an inhabited, welcoming fictional Italian neighborhood cafe, photographed naturally in beautiful soft daylight.\nScene/backdrop: deep muted teal-green painted walls and window frames, a complete walnut bar counter at the center, a real espresso machine and plain white ceramic cups, brass pendant lamps, potted green plants, light wood stools and a few walnut tables by large windows.\nComposition/framing: wide architectural editorial photograph at natural eye level. The entire important counter and its barista area sit around the center with generous surrounding room, so a central portrait crop still clearly shows the bar while a wide landscape crop remains balanced. Window seating and walnut furniture are visible at the sides. A friendly barista and two ordinary distant patrons may appear, natural unobtrusive expressions; no prominent foreground hands or people blocking the space. Keep vertical architecture straight and furniture plausible.\nStyle/medium: photorealistic high-detail interior photography; sharply resolved walnut grain, brass, ceramics and architecture, moderate natural depth of field. Natural greens, warm walnut and cream, realistic everyday wear.\nLighting/mood: soft window daylight, welcoming neighborhood place, no neon or artificial fantasy color.\nConstraints: single continuous photograph, large native landscape output. No split panels, contact sheet, grid, border, rounded frame, interface, text, menus, logos, lettering, signs with words, watermark, illustration, brush strokes, painted textures or CGI look. No exaggerated blur.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11bb2-9cf2-7320-8536-1d8ff8b45ff0/exec-1dd7bcfb-8d8c-4d67-a2c4-9a2f15e9772a.png",
+      "provenance": "Original AI-generated imagery for the fictional Caffè TTC; not a documentary photograph or historical artifact.",
+      "alt": "Il bancone in noce del Caffè TTC, con un barista, lampade in ottone e tavoli vicino alle finestre.",
+      "original": {
+        "src": "assets/redesign/image-quality-v2/bento/locale.png",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 2465666,
+        "sha256": "7d78de9f9432e2e16933cf2ca3cea907fa48a7dba8bdfe3d648661a10812d35b"
+      },
+      "runtime": {
+        "src": "assets/redesign/image-quality-v2/bento/locale.webp",
+        "width": 1536,
+        "height": 1024,
+        "bytes": 1685028,
+        "sha256": "dc84eec1b704dbfdb88321ce77b6f60c0e34797afd2944bb9a0a930bf29d620c",
+        "operation": "Lossless WebP encoding at original native dimensions; no enlargement, sharpening or creative pixel edits."
+      }
+    }
+  ]
+}

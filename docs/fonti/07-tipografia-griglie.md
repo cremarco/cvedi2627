@@ -1,6 +1,8 @@
 # Lezione 07 · Tipografia, griglie e interfacce
 
-Fonte: [Booklet CVeDI · C03 Processo UX](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2008-1741). Tavole 157–200; contenuti visibili estratti il 7 ottobre 2026.
+Fonte: Booklet CVeDI · C03 Processo UX, pagine Figma [C03.08 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1115) e [C03.09 · Griglie e interfacce](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1116). Tavole 157–200; contenuti visibili estratti il 7 ottobre 2026.
+
+Numerazione delle fonti: le tabelle conservano gli ordinali dello snapshot storico del 7 ottobre 2026 (260 tavole). Il capitolo Figma corrente conta 289 tavole, con 10 tavole di apertura e 59 nella sezione culturale. Le sei aperture delle dimensioni separano i due poli con immagini concettuali; ciascuna è seguita da una tavola distinta con il grafico nativo e i dati The Culture Factor consultati il 9 ottobre 2026. Le tavole teoriche occupano ora le posizioni 11–47, seguite dalla tavola ponte 48; i casi completi McDonald’s 49–64 e Alibaba 65–69 conservano testi e immagini delle pagine PDF 172–187 dell’edizione 2024. Le posizioni correnti delle fonti teoriche sono registrate in figmaPages.sourceOrdinalMap e la mappa dei casi in currentIntegralCaseRevision, nel registro assets/booklet/capitolo-3/testo-figma-aggiornato.json. Agli ordinali storici 41–260 si aggiunge 29; nelle tavole precedenti lo spostamento è progressivo per le sei inserzioni e va letto nella mappa. Le tabelle delle slide, i minuti, i conteggi e lo snapshot storico non sono rinumerati dalla revisione Figma.
 
 46 slide, 120 minuti. Testi adattati per la presentazione; esempi, qualificazioni e figure conservano il riferimento al booklet. Le attività sono adattamenti didattici.
 

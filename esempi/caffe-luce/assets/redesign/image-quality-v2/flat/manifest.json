@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "collection": "Caffè TTC · flat · image quality v2",
+  "assets": [
+    {
+      "id": "hero",
+      "style": "flat",
+      "generator": "OpenAI built-in image_gen.imagegen",
+      "generationMode": "generate",
+      "created": "2026-10-08",
+      "prompt": "Use case: illustration-story. Make a STRICT FLAT VECTOR CLIPART illustration rendered as a high resolution square bitmap. A FRONT-FACING simple ivory espresso cup with a circular handle, one brown coffee oval, a thin flat ivory saucer shape, and a terracotta croissant made from one silhouette with three ochre stripes. Put them together on a simple rectangular terracotta tabletop against a completely uniform navy #071b40 background. A small green plant silhouette may sit to one side. Frontal graphic elevation, like pictograms arranged in a poster, ABSOLUTELY NO perspective or visible object thickness. ONLY 5 UNIFORM SOLID COLORS: navy #071b40, ivory #fffcf7, terracotta #bc420e, green #365a22, ochre. No gradients, no shading, no shadows, no rim light, no ambient occlusion, no 3D rendering, no grain, no texture, no sketch or painting. Keep every object complete and central with broad margins. Crisp uniform fills bounded by sharp smooth curves. No text, logos, frames, panels or watermark. One single illustration, not an atlas.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11abf-928f-7191-ab33-91c7cb5b852a/exec-ddb0d4c1-fa9e-44e6-bddd-85224cc564b6.png",
+      "provenance": "Original AI-generated imagery for the fictional Caffè TTC; not a documentary photograph or historical artifact.",
+      "alt": "Espresso e croissant rappresentati con sagome piatte, in blu, avorio e terracotta.",
+      "original": {
+        "src": "assets/redesign/image-quality-v2/flat/hero.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1228156,
+        "sha256": "e16352cf1353fdde31bcd438d9ab74d9e7cf7941f2ae2db301893d8c5bdaf3e6"
+      },
+      "runtime": {
+        "src": "assets/redesign/image-quality-v2/flat/hero.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 718396,
+        "sha256": "efe0f6bd9dad5353cc094eb0c09c6d327c117ded493d16928c6ade401b647b72",
+        "operation": "Lossless WebP encoding at original native dimensions; no enlargement, sharpening or creative pixel edits."
+      }
+    },
+    {
+      "id": "locale",
+      "style": "flat",
+      "generator": "OpenAI built-in image_gen.imagegen",
+      "generationMode": "generate",
+      "created": "2026-10-08",
+      "prompt": "Use case: illustration-story. Make a STRICT FLAT VECTOR CLIPART illustration rendered as a high resolution square bitmap. A cafe interior drawn as a FRONT-FACING GRAPHIC ELEVATION: one rectangular terracotta counter, a navy rectangular espresso machine with three ivory circles, two simple navy stool silhouettes, an ivory arched window and a few green plant silhouettes. ONLY 5 UNIFORM SOLID COLORS: navy #071b40, ivory #fffcf7, terracotta #bc420e, green #365a22, ochre. Background is completely uniform green; floor is one uniform ivory rectangle. ABSOLUTELY NO perspective, no visible object thickness, no gradients, no shading, no shadows, no highlights, no grain or texture, no wood grain, no 3D volume, no painting. Describe the cafe with simple flat rectangles, circles and smooth silhouettes, like pictograms in a polished flat design poster. Main scene fully visible with generous margins. No text, logos, borders, panels or watermark. One image, never an atlas.",
+      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a11abf-928f-7191-ab33-91c7cb5b852a/exec-3f0a9a90-2c4d-47d7-93a8-ef91852bb8c9.png",
+      "provenance": "Original AI-generated imagery for the fictional Caffè TTC; not a documentary photograph or historical artifact.",
+      "alt": "Bancone e sgabelli del Caffè TTC in una composizione frontale a campiture piatte.",
+      "original": {
+        "src": "assets/redesign/image-quality-v2/flat/locale.png",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 1231703,
+        "sha256": "9313538828ce5eee98c2cc10810c7ada43ccd0f68af3eb17abcc6ea9cbc9ec36"
+      },
+      "runtime": {
+        "src": "assets/redesign/image-quality-v2/flat/locale.webp",
+        "width": 1254,
+        "height": 1254,
+        "bytes": 756508,
+        "sha256": "168de81b36ede05248277d032be0d92ec3e375ae641d57255411a2bf16ca6817",
+        "operation": "Lossless WebP encoding at original native dimensions; no enlargement, sharpening or creative pixel edits."
+      }
+    }
+  ]
+}

@@ -202,14 +202,14 @@ try {
   checks.push('chapter and closing cover segments reach their 56px stops, with one arrival pulse and a complete reduced-motion alternative')
 
   const timelineFixtures = deck.slides.filter(slide => slide.content.includes('<ProcessTimeline'))
-  const timelineCounts = [4, 4, 3, 5, 5, 4]
-  assert.equal(timelineFixtures.length, timelineCounts.length, 'all six authored timelines use the shared component')
+  const timelineCounts = [4, 4, 3, 5, 5, 4, 5]
+  assert.equal(timelineFixtures.length, timelineCounts.length, 'all seven authored timelines use the shared component')
   for (const [index, fixture] of timelineFixtures.entries()) {
     await go(fixture.frontmatter.routeAlias || fixture.index + 1)
     await assertTimelineArrival(fixture, timelineCounts[index])
     await settle()
   }
-  checks.push('all six timelines preserve their 3–5 stations, keep labels fixed and synchronize every finite pulse to the segment head')
+  checks.push('all seven timelines preserve their 3–5 stations, keep labels fixed and synchronize every finite pulse to the segment head')
 
   for (const mode of [
     { name: 'reduced motion', reducedMotion: 'reduce', media: 'screen' },
@@ -225,7 +225,7 @@ try {
       } else await go(fixture.frontmatter.routeAlias || fixture.index + 1)
       await assertStaticTimeline(fixture, timelineCounts[index])
     }
-    checks.push(`${mode.name} keeps all six timelines complete and still`)
+    checks.push(`${mode.name} keeps all seven timelines complete and still`)
   }
 
   await page.emulateMedia({ reducedMotion: 'no-preference', media: 'screen' })

@@ -74,7 +74,7 @@ export async function checkSlideSources() {
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 67, 'history: 67 slides')
-  assert.equal(visibleDeck.slides.length, 498, 'all teaching chapters are available locally')
+  assert.equal(visibleDeck.slides.length, 558, 'all teaching chapters are available locally')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
@@ -143,10 +143,16 @@ export async function checkSlideSources() {
   for (const asset of uxAssets.assets) {
     const original = await readFile(path.join(root, asset.original))
     assert.equal(createHash('sha256').update(original).digest('hex'), asset.sha256, `${asset.id}: original export preserved`)
-    assert.ok(asset.caption.trim() && asset.nodeId, `${asset.id}: attribution and Figma provenance`)
+    assert.ok(asset.caption.trim() && asset.nodeId, `${asset.id}: attribution and source provenance`)
     assert.ok(asset.encoding.lossless && asset.encoding.exactAlpha, `${asset.id}: lossless publication`)
     if (asset.publicationSource) assert.equal(createHash('sha256').update(await readFile(path.join(root, asset.publicationSource))).digest('hex'), asset.publicationSourceSha256, `${asset.id}: publication uses an unchanged Figma original`)
     assert.ok((await stat(path.join(root, 'public', asset.web.replace(/^\//, '')))).size > 0, `${asset.id}: visible WebP exists`)
+    if (asset.publicationSha256) {
+      const published = await readFile(path.join(root, 'public', asset.web.replace(/^\//, '')))
+      assert.equal(createHash('sha256').update(published).digest('hex'), asset.publicationSha256, `${asset.id}: the selected public bitmap is unchanged`)
+      const cacheKey = asset.provenance?.kind === 'browser-screenshot' ? asset.sha256 : asset.publicationSha256
+      assert.ok(asset.web.includes(cacheKey.slice(0, 12)), `${asset.id}: a changed screenshot cannot reuse an old cached URL`)
+    }
     for (const file of asset.retainedSources) assert.ok((await stat(path.join(root, file))).size > 0, `${asset.id}: source file retained`)
   }
 

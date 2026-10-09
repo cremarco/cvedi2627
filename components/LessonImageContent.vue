@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { publicAsset } from '../utils/public-asset'
 
 const props = withDefaults(defineProps<{
@@ -7,13 +7,38 @@ const props = withDefaults(defineProps<{
   alt: string
   panels?: number
   panelAspectRatio?: string
-}>(), { panels: 1, panelAspectRatio: '4 / 3' })
+  verticalRange?: [number, number]
+  maxScale?: number
+}>(), { panels: 1, panelAspectRatio: '4 / 3', maxScale: Infinity })
 
 const emit = defineEmits<{ sizeChange: [size: { width: number; height: number; emptySpaceY: number }] }>()
 const container = ref<HTMLSpanElement>()
 const image = ref<HTMLImageElement>()
 const imageSize = ref<{ width: string; height: string }>()
+// A detail is an explicit viewport on the original screenshot. Its overview
+// remains a separate figure; the source bitmap is never resampled or rewritten.
+const range = computed(() => {
+  const [start, end] = props.verticalRange ?? [0, 1]
+  return Number.isFinite(start) && Number.isFinite(end) && start >= 0 && end <= 1 && start < end
+    ? [start, end] : [0, 1]
+})
+const detailStyle = computed(() => {
+  const [start, end] = range.value
+  const span = end - start
+  return span < 1 ? { objectFit: 'cover', objectPosition: `center ${start / (1 - span) * 100}%` } : undefined
+})
 let observer: ResizeObserver | undefined
+let resizeFrame: number | undefined
+
+function scheduleImageSize() {
+  if (resizeFrame !== undefined) return
+  // Updating the caption can resize the observed image slot. Measure on the
+  // next frame so this feedback does not mutate layout inside ResizeObserver.
+  resizeFrame = requestAnimationFrame(() => {
+    resizeFrame = undefined
+    syncImageSize()
+  })
+}
 
 function syncImageSize() {
   const frame = container.value
@@ -39,23 +64,27 @@ function syncImageSize() {
   const element = image.value
   if (!element?.naturalWidth || !element.naturalHeight) return
   const scale = Math.min(
+    props.maxScale > 0 ? props.maxScale : Infinity,
     frame.clientWidth / element.naturalWidth,
-    frame.clientHeight / element.naturalHeight,
+    frame.clientHeight / (element.naturalHeight * (range.value[1] - range.value[0])),
   )
   const width = element.naturalWidth * scale
-  const height = element.naturalHeight * scale
+  const height = element.naturalHeight * (range.value[1] - range.value[0]) * scale
   // Single figures retain the original ratio without an added frame.
   imageSize.value = { width: `${width}px`, height: `${height}px` }
   emit('sizeChange', { width, height, emptySpaceY: Math.max(0, frame.clientHeight - height) })
 }
 
 onMounted(() => {
-  observer = new ResizeObserver(syncImageSize)
+  observer = new ResizeObserver(scheduleImageSize)
   if (container.value) observer.observe(container.value)
   syncImageSize()
 })
-onBeforeUnmount(() => observer?.disconnect())
-watch(() => [props.panels, props.panelAspectRatio], syncImageSize, { flush: 'post' })
+onBeforeUnmount(() => {
+  observer?.disconnect()
+  if (resizeFrame !== undefined) cancelAnimationFrame(resizeFrame)
+})
+watch(() => [props.src, props.panels, props.panelAspectRatio, props.maxScale, ...range.value], syncImageSize, { flush: 'post' })
 </script>
 
 <template>
@@ -75,6 +104,6 @@ watch(() => [props.panels, props.panelAspectRatio], syncImageSize, { flush: 'pos
         @load="syncImageSize"
       />
     </template>
-    <img v-else ref="image" :src="publicAsset(src)" :alt="alt" :style="imageSize" @load="syncImageSize" />
+    <img v-else ref="image" :src="publicAsset(src)" :alt="alt" :style="{ ...imageSize, ...detailStyle }" @load="syncImageSize" />
   </span>
 </template>

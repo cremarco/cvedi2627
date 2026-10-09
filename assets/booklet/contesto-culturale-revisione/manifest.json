@@ -1,0 +1,920 @@
+{
+  "schema": "cvedi-cultural-ux-revision/1",
+  "revisedOn": "2026-10-09",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1109",
+    "sectionId": "204:8295",
+    "archivePageId": "2186:3831",
+    "archiveSectionId": "2619:207",
+    "boardCount": 59,
+    "range": [
+      11,
+      69
+    ],
+    "sourceRange": [
+      5,
+      40
+    ],
+    "originalSourceBoardsCovered": 24,
+    "restoredBoardCount": 2,
+    "extensionBoardCount": 23,
+    "restoredOriginalDiagramId": "2648:472",
+    "originalSourceCoverageScope": "24 corrispondenze teoriche della fonte storica; i casi correnti derivano dal PDF 2024, con mapping separato.",
+    "extensionCountScope": "Differenza netta tra le 59 tavole correnti e le 36 della sezione storica; non indica immutabilità o provenienza di tutte le tavole.",
+    "theoreticalBoardCount": 37,
+    "bridgeBoardCount": 1,
+    "integralCaseBoardCount": 21,
+    "preservedTheoreticalBoardIds": [
+      "198:3065",
+      "2460:1099",
+      "2460:1123",
+      "198:3529",
+      "198:3945",
+      "198:4586",
+      "198:4418",
+      "198:4973",
+      "198:4402",
+      "198:4960",
+      "198:4575",
+      "198:5105",
+      "198:4386",
+      "198:4947",
+      "198:4564",
+      "198:5094",
+      "198:4370",
+      "198:4934",
+      "198:4553",
+      "198:5083",
+      "198:4354",
+      "198:4921",
+      "2648:196",
+      "2648:218",
+      "198:4429",
+      "198:4984",
+      "198:4475",
+      "198:5028",
+      "198:4492",
+      "198:5039",
+      "198:4536"
+    ],
+    "boardSequence": [
+      "198:3065",
+      "2460:1099",
+      "2460:1123",
+      "198:3529",
+      "198:3945",
+      "2695:3902",
+      "198:4586",
+      "198:4418",
+      "198:4973",
+      "198:4402",
+      "2695:4373",
+      "198:4960",
+      "198:4575",
+      "198:5105",
+      "198:4386",
+      "2695:4538",
+      "198:4947",
+      "198:4564",
+      "198:5094",
+      "198:4370",
+      "2695:4702",
+      "198:4934",
+      "198:4553",
+      "198:5083",
+      "198:4354",
+      "2695:5057",
+      "198:4921",
+      "2648:196",
+      "2648:218",
+      "198:4429",
+      "2695:5389",
+      "198:4984",
+      "198:4475",
+      "198:5028",
+      "198:4492",
+      "198:5039",
+      "198:4536",
+      "2668:238",
+      "198:4440",
+      "198:4995",
+      "198:4458",
+      "198:5017",
+      "2648:240",
+      "2668:250",
+      "2648:267",
+      "2648:298",
+      "2668:262",
+      "2648:325",
+      "2648:356",
+      "2668:274",
+      "2648:383",
+      "2648:414",
+      "2668:286",
+      "2648:441",
+      "2668:298",
+      "198:4509",
+      "198:5050",
+      "2668:310",
+      "2668:322"
+    ],
+    "previousCurrentBoardIdsRetained": true,
+    "previousCaseContentsPreservedInArchive": true,
+    "sourceRangeScope": "Intervallo della sezione nello snapshot storico del 7 ottobre 2026; non implica che tutte le 36 tavole abbiano contenuto immutato nel percorso corrente.",
+    "addedDimensionDataBoardIds": [
+      "2695:3902",
+      "2695:4373",
+      "2695:4538",
+      "2695:4702",
+      "2695:5057",
+      "2695:5389"
+    ]
+  },
+  "legacySourceManifest": "legacy-candidates/manifest.json",
+  "paper": {
+    "path": "/Users/marco/Sites/cv/documents/publications/2025_BIT_Guiding-AI.pdf",
+    "doi": "10.1080/0144929X.2025.2581258",
+    "sha256": "179afd9f2d1325bf225aaea9b16d617f18ff5fff11b7ac70fa4451d8df240479",
+    "locators": [
+      "§2.5",
+      "§5",
+      "Table 2",
+      "§7"
+    ],
+    "scope": "Metodo, risultati dichiarati e limiti del paper; i framework alternativi non sono stati sperimentati."
+  },
+  "selectedAssets": [
+    {
+      "key": "ikea-cina-accesso",
+      "folio": 28,
+      "nodeId": "2620:252",
+      "imageHash": "4f1eaefa6caa7793eeab83b04058f1ee532a5b16",
+      "path": "legacy-candidates/ikea-cina-accesso.png",
+      "sha256": "b543f13e53312386d5281fe24302eca2381524cff4ad645a24144e8373cde51d",
+      "sourceOrdinal": 28,
+      "currentFigmaOrdinal": 42,
+      "status": "active"
+    },
+    {
+      "key": "ikea-arabia-rtl",
+      "folio": 34,
+      "nodeId": "2620:280",
+      "imageHash": "18e2e8818682b8011c596dd2a7a03329c1f3b23f",
+      "path": "legacy-candidates/ikea-arabia-rtl.jpg",
+      "sha256": "7b377c084aae0030846ea8f743548ba18c6a2f87bae5ab5f3dcffb38aa4dd503",
+      "sourceOrdinal": 34,
+      "currentFigmaOrdinal": 44,
+      "status": "active"
+    },
+    {
+      "key": "wvs-2023",
+      "folio": 37,
+      "nodeId": "2620:333",
+      "imageHash": "b33591e81d532c8641035a27cc1538bcc73105db",
+      "path": "official/wvs-wave7-2023.png",
+      "sha256": "5f76bf8b9b42f37a5b3525cabb18f2057278a56de089000de2add54d9120be0e",
+      "sourceOrdinal": 37,
+      "currentFigmaOrdinal": 47,
+      "status": "active"
+    },
+    {
+      "key": "alibaba-lingua",
+      "folio": 39,
+      "nodeId": "2620:360",
+      "imageHash": "e50913421da474f87565648724d79542c2f0b70e",
+      "path": "legacy-candidates/alibaba-lingua.jpg",
+      "sha256": "c2fa4192122dc95a51d72c2255cd6d6ccb52005d1e047016ea619d70bb0fb636",
+      "sourceOrdinal": 39,
+      "status": "archived",
+      "previousCurrentFigmaOrdinal": 54,
+      "archivePageId": "2186:3831",
+      "archiveSectionId": "2665:278",
+      "archiveBoardId": "2665:408",
+      "currentCaseAssetsManifest": "assets/booklet/casi-studio-integrali/manifest.json"
+    },
+    {
+      "key": "alibaba-espansione-testo",
+      "folio": 40,
+      "nodeId": "2620:369",
+      "imageHash": "5cba498d52098ccf81b6e6ef164218a905349557",
+      "path": "legacy-candidates/alibaba-espansione-testo.jpg",
+      "sha256": "47cac030f65619383377a175b3815a0c596656b96e5469341196e9cd9b3a0fa3",
+      "sourceOrdinal": 40,
+      "status": "archived",
+      "previousCurrentFigmaOrdinal": 55,
+      "archivePageId": "2186:3831",
+      "archiveSectionId": "2665:278",
+      "archiveBoardId": "2665:426",
+      "currentCaseAssetsManifest": "assets/booklet/casi-studio-integrali/manifest.json"
+    }
+  ],
+  "officialMap": {
+    "originalPdf": "official/wvs-wave7-2023.pdf",
+    "render": "official/wvs-wave7-2023.png",
+    "downloadedFrom": "https://www.iffs.se/media/23872/wvs-wave7-2023.pdf",
+    "primaryExplanation": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Findings",
+    "attribution": "The Inglehart–Welzel World Cultural Map — World Values Survey 7 (2023). Source: World Values Survey & European Values Study (2005–2022).",
+    "conversion": "Prima pagina renderizzata integralmente con Poppler a 1800 px; grafica e colori originali conservati.",
+    "rights": "Attribuzione secondo la pagina WVSA Findings & Insights; nessuna licenza generale aggiunta o dedotta."
+  },
+  "content": "figma-text.json",
+  "verification": "reports/contesto-culturale/casi-integrali/verifica.json",
+  "frameworks": [
+    "Hofstede 6D",
+    "Hall: contesto comunicativo",
+    "Schwartz: valori personali e orientamenti societari",
+    "GLOBE: pratiche percepite e valori desiderati",
+    "Inglehart–Welzel / WVS"
+  ],
+  "newBoardsAdded": 8,
+  "numberingUpdatedOn": "2026-10-09",
+  "restorationReceipt": "reports/contesto-culturale/ripristino/receipt.json",
+  "restorationVerification": "reports/contesto-culturale/ripristino.json",
+  "restoredOn": "2026-10-09",
+  "restoredBoards": [
+    {
+      "id": "2648:196",
+      "archiveId": "2619:607",
+      "sourceOrdinal": 27,
+      "title": "Kinder Cina",
+      "sourceId": "198:4429",
+      "ordinal": 38,
+      "printedPage": 130
+    },
+    {
+      "id": "2648:218",
+      "archiveId": "2619:626",
+      "sourceOrdinal": 28,
+      "title": "Kinder Stati Uniti",
+      "sourceId": "198:4984",
+      "ordinal": 39,
+      "printedPage": 131
+    }
+  ],
+  "retainedAddedBoardCount": 7,
+  "excludedBoards": [
+    {
+      "id": "198:5072",
+      "title": "Personas AI: che cosa sappiamo",
+      "previousOrdinal": 52,
+      "previousPrintedPage": 144,
+      "archivePageId": "2186:3831",
+      "reason": "Annotazione utente: togli",
+      "excludedOn": "2026-10-09",
+      "archiveSectionId": "2656:747",
+      "archiveSectionName": "Contenuti esclusi · Personas AI"
+    }
+  ],
+  "paperCurrentUse": {
+    "livePersonaBoard": false,
+    "role": "Il paper resta una fonte di provenienza della revisione precedente; la tavola sulle personas AI è esclusa dalla sezione corrente e conservata in archivio.",
+    "archivedBoardId": "198:5072"
+  },
+  "exclusionVerification": "reports/contesto-culturale/rimozione-personas-ai.json",
+  "previousComposition": {
+    "asOf": "2026-10-09 · prima dell’importazione integrale dei casi 2024",
+    "figma": {
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "pageId": "2613:1109",
+      "sectionId": "204:8295",
+      "archivePageId": "2186:3831",
+      "archiveSectionId": "2619:207",
+      "boardCount": 45,
+      "range": [
+        11,
+        55
+      ],
+      "originalBoardIdsPreserved": true,
+      "sourceRange": [
+        5,
+        40
+      ],
+      "originalSourceBoardsCovered": 36,
+      "restoredBoardCount": 10,
+      "extensionBoardCount": 9,
+      "restoredOriginalDiagramId": "2648:472"
+    },
+    "newBoardsAdded": 10,
+    "retainedAddedBoardCount": 9,
+    "restoredBoards": [
+      {
+        "id": "2648:196",
+        "archiveId": "2619:607",
+        "sourceOrdinal": 27,
+        "title": "Kinder Cina",
+        "sourceId": "198:4429",
+        "ordinal": 33,
+        "printedPage": 125
+      },
+      {
+        "id": "2648:218",
+        "archiveId": "2619:626",
+        "sourceOrdinal": 28,
+        "title": "Kinder Stati Uniti",
+        "sourceId": "198:4984",
+        "ordinal": 34,
+        "printedPage": 126
+      },
+      {
+        "id": "2648:240",
+        "archiveId": "2619:721",
+        "sourceOrdinal": 33,
+        "title": "McDonald’s · Italia e Turchia",
+        "sourceId": "198:4475",
+        "ordinal": 41,
+        "printedPage": 133
+      },
+      {
+        "id": "2648:267",
+        "archiveId": "2619:740",
+        "sourceOrdinal": 34,
+        "title": "McDonald’s · Italia e Turchia · schermate",
+        "sourceId": "198:5028",
+        "ordinal": 42,
+        "printedPage": 134
+      },
+      {
+        "id": "2648:298",
+        "archiveId": "2619:767",
+        "sourceOrdinal": 35,
+        "title": "McDonald’s · Slovacchia e Slovenia",
+        "sourceId": "198:4492",
+        "ordinal": 43,
+        "printedPage": 135
+      },
+      {
+        "id": "2648:325",
+        "archiveId": "2619:786",
+        "sourceOrdinal": 36,
+        "title": "McDonald’s · Slovacchia e Slovenia · schermate",
+        "sourceId": "198:5039",
+        "ordinal": 44,
+        "printedPage": 136
+      },
+      {
+        "id": "2648:356",
+        "archiveId": "2619:813",
+        "sourceOrdinal": 37,
+        "title": "McDonald’s · Giappone e India",
+        "sourceId": "198:4536",
+        "ordinal": 45,
+        "printedPage": 137
+      },
+      {
+        "id": "2648:383",
+        "archiveId": "2619:832",
+        "sourceOrdinal": 38,
+        "title": "McDonald’s · Giappone e India · schermate",
+        "sourceId": "198:5072",
+        "ordinal": 46,
+        "printedPage": 138
+      },
+      {
+        "id": "2648:414",
+        "archiveId": "2619:859",
+        "sourceOrdinal": 39,
+        "title": "McDonald’s · Cina e Australia",
+        "sourceId": "198:4509",
+        "ordinal": 47,
+        "printedPage": 139
+      },
+      {
+        "id": "2648:441",
+        "archiveId": "2619:878",
+        "sourceOrdinal": 40,
+        "title": "McDonald’s · Cina e Australia · schermate",
+        "sourceId": "198:5050",
+        "ordinal": 48,
+        "printedPage": 140
+      }
+    ],
+    "selectedAssets": [
+      {
+        "key": "ikea-cina-accesso",
+        "folio": 28,
+        "nodeId": "2620:252",
+        "imageHash": "4f1eaefa6caa7793eeab83b04058f1ee532a5b16",
+        "path": "legacy-candidates/ikea-cina-accesso.png",
+        "sha256": "b543f13e53312386d5281fe24302eca2381524cff4ad645a24144e8373cde51d",
+        "sourceOrdinal": 28,
+        "currentFigmaOrdinal": 36
+      },
+      {
+        "key": "ikea-arabia-rtl",
+        "folio": 34,
+        "nodeId": "2620:280",
+        "imageHash": "18e2e8818682b8011c596dd2a7a03329c1f3b23f",
+        "path": "legacy-candidates/ikea-arabia-rtl.jpg",
+        "sha256": "7b377c084aae0030846ea8f743548ba18c6a2f87bae5ab5f3dcffb38aa4dd503",
+        "sourceOrdinal": 34,
+        "currentFigmaOrdinal": 50
+      },
+      {
+        "key": "wvs-2023",
+        "folio": 37,
+        "nodeId": "2620:333",
+        "imageHash": "b33591e81d532c8641035a27cc1538bcc73105db",
+        "path": "official/wvs-wave7-2023.png",
+        "sha256": "5f76bf8b9b42f37a5b3525cabb18f2057278a56de089000de2add54d9120be0e",
+        "sourceOrdinal": 37,
+        "currentFigmaOrdinal": 53
+      },
+      {
+        "key": "alibaba-lingua",
+        "folio": 39,
+        "nodeId": "2620:360",
+        "imageHash": "e50913421da474f87565648724d79542c2f0b70e",
+        "path": "legacy-candidates/alibaba-lingua.jpg",
+        "sha256": "c2fa4192122dc95a51d72c2255cd6d6ccb52005d1e047016ea619d70bb0fb636",
+        "sourceOrdinal": 39,
+        "currentFigmaOrdinal": 54
+      },
+      {
+        "key": "alibaba-espansione-testo",
+        "folio": 40,
+        "nodeId": "2620:369",
+        "imageHash": "5cba498d52098ccf81b6e6ef164218a905349557",
+        "path": "legacy-candidates/alibaba-espansione-testo.jpg",
+        "sha256": "47cac030f65619383377a175b3815a0c596656b96e5469341196e9cd9b3a0fa3",
+        "sourceOrdinal": 40,
+        "currentFigmaOrdinal": 55
+      }
+    ],
+    "role": "Registro storico della composizione precedente; le 14 tavole dei casi sono archiviate e i loro frame riutilizzati per l’importazione integrale 2024.",
+    "archivePageId": "2186:3831",
+    "archiveSectionId": "2665:278",
+    "archiveBoardMap": {
+      "198:4440": "2665:279",
+      "198:4995": "2665:282",
+      "198:4458": "2665:288",
+      "198:5017": "2665:306",
+      "2648:240": "2665:312",
+      "2648:267": "2665:330",
+      "2648:298": "2665:336",
+      "2648:325": "2665:354",
+      "2648:356": "2665:360",
+      "2648:383": "2665:378",
+      "2648:414": "2665:384",
+      "2648:441": "2665:402",
+      "198:4509": "2665:408",
+      "198:5050": "2665:426"
+    }
+  },
+  "newBoardsAddedScope": "Frame creati nella revisione corrente: una tavola ponte, quattro continuazioni McDonald’s e tre tavole Alibaba.",
+  "currentRevisionCreatedBoardIds": [
+    "2668:238",
+    "2668:250",
+    "2668:262",
+    "2668:274",
+    "2668:286",
+    "2668:298",
+    "2668:310",
+    "2668:322"
+  ],
+  "integralCasesRevision": {
+    "updatedOn": "2026-10-09",
+    "manifest": "assets/booklet/casi-studio-integrali/manifest.json",
+    "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+    "sourcePdfPageRange": [
+      172,
+      187
+    ],
+    "theoryRange": [
+      11,
+      47
+    ],
+    "bridgeBoard": {
+      "id": "2668:238",
+      "ordinal": 48,
+      "printedPage": 140
+    },
+    "mcdonaldRange": [
+      49,
+      64
+    ],
+    "alibabaRange": [
+      65,
+      69
+    ],
+    "caseBoardSequence": [
+      "198:4440",
+      "198:4995",
+      "198:4458",
+      "198:5017",
+      "2648:240",
+      "2668:250",
+      "2648:267",
+      "2648:298",
+      "2668:262",
+      "2648:325",
+      "2648:356",
+      "2668:274",
+      "2648:383",
+      "2648:414",
+      "2668:286",
+      "2648:441",
+      "2668:298",
+      "198:4509",
+      "198:5050",
+      "2668:310",
+      "2668:322"
+    ],
+    "sourcePdfPageMap": [
+      {
+        "sourcePdfPage": 172,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "198:4440",
+            "ordinal": 49,
+            "printedPage": 141,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 173,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "198:4995",
+            "ordinal": 50,
+            "printedPage": 142,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 174,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "198:4458",
+            "ordinal": 51,
+            "printedPage": 143,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 175,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "198:5017",
+            "ordinal": 52,
+            "printedPage": 144,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 176,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:240",
+            "ordinal": 53,
+            "printedPage": 145,
+            "continuation": false
+          },
+          {
+            "id": "2668:250",
+            "ordinal": 54,
+            "printedPage": 146,
+            "continuation": true
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 177,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:267",
+            "ordinal": 55,
+            "printedPage": 147,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 178,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:298",
+            "ordinal": 56,
+            "printedPage": 148,
+            "continuation": false
+          },
+          {
+            "id": "2668:262",
+            "ordinal": 57,
+            "printedPage": 149,
+            "continuation": true
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 179,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:325",
+            "ordinal": 58,
+            "printedPage": 150,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 180,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:356",
+            "ordinal": 59,
+            "printedPage": 151,
+            "continuation": false
+          },
+          {
+            "id": "2668:274",
+            "ordinal": 60,
+            "printedPage": 152,
+            "continuation": true
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 181,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:383",
+            "ordinal": 61,
+            "printedPage": 153,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 182,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:414",
+            "ordinal": 62,
+            "printedPage": 154,
+            "continuation": false
+          },
+          {
+            "id": "2668:286",
+            "ordinal": 63,
+            "printedPage": 155,
+            "continuation": true
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 183,
+        "case": "mcdonald",
+        "boards": [
+          {
+            "id": "2648:441",
+            "ordinal": 64,
+            "printedPage": 156,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 184,
+        "case": "alibaba",
+        "boards": [
+          {
+            "id": "2668:298",
+            "ordinal": 65,
+            "printedPage": 157,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 185,
+        "case": "alibaba",
+        "boards": [
+          {
+            "id": "198:4509",
+            "ordinal": 66,
+            "printedPage": 158,
+            "continuation": false
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 186,
+        "case": "alibaba",
+        "boards": [
+          {
+            "id": "198:5050",
+            "ordinal": 67,
+            "printedPage": 159,
+            "continuation": false
+          },
+          {
+            "id": "2668:310",
+            "ordinal": 68,
+            "printedPage": 160,
+            "continuation": true
+          }
+        ]
+      },
+      {
+        "sourcePdfPage": 187,
+        "case": "alibaba",
+        "boards": [
+          {
+            "id": "2668:322",
+            "ordinal": 69,
+            "printedPage": 161,
+            "continuation": false
+          }
+        ]
+      }
+    ],
+    "archivedPreviousCaseBoardMap": {
+      "198:4440": "2665:279",
+      "198:4995": "2665:282",
+      "198:4458": "2665:288",
+      "198:5017": "2665:306",
+      "2648:240": "2665:312",
+      "2648:267": "2665:330",
+      "2648:298": "2665:336",
+      "2648:325": "2665:354",
+      "2648:356": "2665:360",
+      "2648:383": "2665:378",
+      "2648:414": "2665:384",
+      "2648:441": "2665:402",
+      "198:4509": "2665:408",
+      "198:5050": "2665:426"
+    },
+    "archivePageId": "2186:3831",
+    "archiveSectionId": "2665:278",
+    "verification": "reports/contesto-culturale/casi-integrali/verifica.json"
+  },
+  "nativeDimensionDiagrams": {
+    "manifest": "assets/booklet/dimensioni-culturali-native/manifest.json",
+    "consultedOn": "2026-10-09",
+    "activeSource": {
+      "title": "The Culture Factor — Country Comparison tool",
+      "url": "https://www.theculturefactor.com/country-comparison-tool",
+      "retrievedOn": "2026-10-09"
+    },
+    "diagrams": [
+      {
+        "code": "PDI",
+        "boardId": "2695:3902",
+        "folio": 16,
+        "printedPage": 108,
+        "coverBoardId": "198:3945",
+        "coverFolio": 15
+      },
+      {
+        "code": "IDV",
+        "boardId": "2695:4373",
+        "folio": 21,
+        "printedPage": 113,
+        "coverBoardId": "198:4402",
+        "coverFolio": 20
+      },
+      {
+        "code": "MAS",
+        "boardId": "2695:4538",
+        "folio": 26,
+        "printedPage": 118,
+        "coverBoardId": "198:4386",
+        "coverFolio": 25
+      },
+      {
+        "code": "UAI",
+        "boardId": "2695:4702",
+        "folio": 31,
+        "printedPage": 123,
+        "coverBoardId": "198:4370",
+        "coverFolio": 30
+      },
+      {
+        "code": "LTO",
+        "boardId": "2695:5057",
+        "folio": 36,
+        "printedPage": 128,
+        "coverBoardId": "198:4354",
+        "coverFolio": 35
+      },
+      {
+        "code": "IVR",
+        "boardId": "2695:5389",
+        "folio": 41,
+        "printedPage": 133,
+        "coverBoardId": "198:4429",
+        "coverFolio": 40
+      }
+    ],
+    "representation": "native editable Figma components, vector flags in white circular pins, curved dotted leaders to exact relative index positions on a 0–100 axis",
+    "componentFamilyId": "2679:812",
+    "countryPinFamilyId": "2685:630",
+    "countryPinVariantCount": 29,
+    "preservedOriginalDiagramArchiveId": "2679:268",
+    "previousBarVersionArchiveId": "2682:630",
+    "introductionOverview": {
+      "boardId": "198:3529",
+      "status": "Original five-dimension overview remains visible and explicitly historical"
+    },
+    "historicalCaseStudies": "2024 complete case-study content unchanged",
+    "coverComponentFamilyId": "2695:3901",
+    "coverDataSeparation": "Each native bipolar concept cover is followed immediately by a separate current-data native diagram; original source diagrams remain historical.",
+    "dimensionVisualCoverRevision": {
+      "updatedOn": "2026-10-09",
+      "addedGraphBoardCount": 6,
+      "pairs": [
+        {
+          "code": "PDI",
+          "coverId": "198:3945",
+          "graphId": "2695:3902",
+          "coverOrdinal": 15,
+          "graphOrdinal": 16
+        },
+        {
+          "code": "IDV",
+          "coverId": "198:4402",
+          "graphId": "2695:4373",
+          "coverOrdinal": 20,
+          "graphOrdinal": 21
+        },
+        {
+          "code": "MAS",
+          "coverId": "198:4386",
+          "graphId": "2695:4538",
+          "coverOrdinal": 25,
+          "graphOrdinal": 26
+        },
+        {
+          "code": "UAI",
+          "coverId": "198:4370",
+          "graphId": "2695:4702",
+          "coverOrdinal": 30,
+          "graphOrdinal": 31
+        },
+        {
+          "code": "LTO",
+          "coverId": "198:4354",
+          "graphId": "2695:5057",
+          "coverOrdinal": 35,
+          "graphOrdinal": 36
+        },
+        {
+          "code": "IVR",
+          "coverId": "198:4429",
+          "graphId": "2695:5389",
+          "coverOrdinal": 40,
+          "graphOrdinal": 41
+        }
+      ]
+    },
+    "historicalRestoration": {
+      "restoredOn": "2026-10-09",
+      "archivePageId": "2186:3831",
+      "scope": "Five original source image diagrams restored in historical archive, retaining credits and interpretive reservations",
+      "figures": [
+        {
+          "code": "PDI",
+          "archiveBoardId": "2619:290",
+          "imageNodeId": "2696:432"
+        },
+        {
+          "code": "IDV",
+          "archiveBoardId": "2619:361",
+          "imageNodeId": "2696:434"
+        },
+        {
+          "code": "MAS",
+          "archiveBoardId": "2619:432",
+          "imageNodeId": "2696:436"
+        },
+        {
+          "code": "UAI",
+          "archiveBoardId": "2619:503",
+          "imageNodeId": "2696:438"
+        },
+        {
+          "code": "LTO",
+          "archiveBoardId": "2619:574",
+          "imageNodeId": "2696:440"
+        }
+      ],
+      "evidence": "Root Figma restoration receipt and confirmed node IDs; see native dimension manifest for source audit"
+    }
+  }
+}

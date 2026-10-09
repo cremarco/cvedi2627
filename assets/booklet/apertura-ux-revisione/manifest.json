@@ -1,0 +1,236 @@
+{
+  "schema": "cvedi-ux-opening-revision/1",
+  "revisedOn": "2026-10-09",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2008:1741",
+    "sectionId": "204:8294",
+    "archivePageId": "2186:3831",
+    "archiveSectionId": "2632:150",
+    "sourceBoardCount": 4,
+    "boardCount": 10,
+    "range": [
+      1,
+      10
+    ],
+    "printedRange": [
+      95,
+      102
+    ],
+    "chapterBoardCount": 289,
+    "bookPrintedLastPage": 399,
+    "originalBoardIdsPreserved": true,
+    "restoredBoardCount": 2,
+    "extensionBoardCount": 6
+  },
+  "boards": [
+    {
+      "id": "198:2876",
+      "ordinal": 1,
+      "name": "C03 · 001 · SX — Apertura e metodo",
+      "printedPage": null
+    },
+    {
+      "id": "198:3020",
+      "ordinal": 2,
+      "name": "C03 · 002 · DX — Apertura e metodo",
+      "printedPage": null
+    },
+    {
+      "id": "2655:315",
+      "ordinal": 3,
+      "name": "C03 · 003 · SX — Il Design Thinking come cornice",
+      "printedPage": 95
+    },
+    {
+      "id": "2655:335",
+      "ordinal": 4,
+      "name": "C03 · 004 · DX — Dal metodo alla pratica progettuale",
+      "printedPage": 96
+    },
+    {
+      "id": "198:2739",
+      "ordinal": 5,
+      "name": "C03 · 005 · SX — Progettare l’esperienza",
+      "printedPage": 97
+    },
+    {
+      "id": "198:2908",
+      "ordinal": 6,
+      "name": "C03 · 006 · DX — Le cinque modalità della d.school",
+      "printedPage": 98
+    },
+    {
+      "id": "2634:82",
+      "ordinal": 7,
+      "name": "C03 · 007 · SX — Il Double Diamond",
+      "printedPage": 99
+    },
+    {
+      "id": "2634:116",
+      "ordinal": 8,
+      "name": "C03 · 008 · DX — Dalle ipotesi alle decisioni",
+      "printedPage": 100
+    },
+    {
+      "id": "2634:141",
+      "ordinal": 9,
+      "name": "C03 · 009 · SX — Che cosa impariamo e produciamo",
+      "printedPage": 101
+    },
+    {
+      "id": "2634:162",
+      "ordinal": 10,
+      "name": "C03 · 010 · DX — Dal prototipo al servizio reale",
+      "printedPage": 102
+    }
+  ],
+  "content": "figma-text.json",
+  "sources": [
+    {
+      "id": "stanford-bootleg",
+      "title": "Stanford d.school, Design Thinking Bootleg",
+      "url": "https://dschool.stanford.edu/tools/design-thinking-bootleg",
+      "verified": "The introductory toolkit identifies five modes: Empathize, Define, Ideate, Prototype, Test. Activities can start anywhere; cards may stem from more than one mode.",
+      "implication": "Label these as five modes rather than a universal linear recipe. Do not count implementation as Stanford's sixth mode.",
+      "assetUrl": "https://dschool.sfo3.digitaloceanspaces.com/documents/dschool_bootleg_deck_2018_final_sm2-6.pdf",
+      "license": "CC BY-NC-SA 4.0; official page explicitly states the license. Preserve authorship and adaptation credit if using a diagram."
+    },
+    {
+      "id": "stanford-carter",
+      "title": "Carissa Carter, Let's Stop Talking about THE Design Process",
+      "url": "https://dschool.stanford.edu/stories/lets-stop-talking-about-the-design-process",
+      "verified": "Stanford treats the familiar five-mode sequence as an introductory scaffold. Teaching should develop abilities and adapt methods to the challenge, constraints and learning goals.",
+      "dateNote": "Original article October 2016; current page has a 2025 posting header. Cite Carter (2016) for the original argument.",
+      "implication": "The opening can state what students should learn to do, not only which artifacts they should produce."
+    },
+    {
+      "id": "design-council-framework",
+      "title": "Design Council, Framework for Innovation",
+      "url": "https://www.designcouncil.org.uk/resources/framework-for-innovation/",
+      "verified": "Double Diamond describes divergent exploration followed by convergence across Discover, Define, Develop, Deliver. Discover examines the problem with affected people; Define focuses the challenge; Develop explores alternative answers; Deliver tests and improves candidate solutions. Iteration can return to earlier activities; prototypes can be used during discovery.",
+      "implication": "Explain it as another lens, not a relabeling of the five Stanford modes or an implementation lifecycle.",
+      "license": "CC BY 4.0; official page explicitly states the license."
+    },
+    {
+      "id": "design-council-double-diamond",
+      "title": "Design Council, The Double Diamond",
+      "url": "https://www.designcouncil.org.uk/resources/the-double-diamond/",
+      "verified": "Official diagram and attribution available from this page; it is a visual representation rather than a prescriptive instruction manual.",
+      "assetUrl": "https://www.designcouncil.org.uk/fileadmin/uploads/dc/Photos/banners/Double_Diamond.png",
+      "license": "CC BY 4.0; credit Design Council and indicate modifications if redrawn."
+    },
+    {
+      "id": "iso-9241-210-official",
+      "title": "ISO 9241-210:2019, Human-centred design for interactive systems",
+      "url": "https://www.iso.org/standard/77520.html",
+      "verified": "Standard provides requirements and recommendations for human-centred principles and activities throughout the interactive-system lifecycle. Official ISO record confirms the 2019 second edition remained current after its 2025 review."
+    },
+    {
+      "id": "iso-9241-210-preview",
+      "title": "ISO-authored 9241-210:2019 preview, hosted by iTeh",
+      "url": "https://cdn.standards.iteh.ai/samples/77520/8cac787a9e1549e1a7ffa0171dfa33e0/ISO-9241-210-2019.pdf",
+      "verified": "Clauses 5.1–5.5 specify understanding people/tasks/environments, involvement across development, evaluation with users, iteration, the whole UX, and multidisciplinary work. Table 1 names activities: understand context, specify requirements, produce solutions, evaluate against requirements. The standard complements varied development processes; it does not impose one process. Iteration revises requirements and designs as evidence emerges.",
+      "implication": "A small four-activity cycle is a useful authoritative foundation; paraphrase it as a course synthesis, without reproducing the ISO figure."
+    },
+    {
+      "id": "govuk-user-needs",
+      "title": "GOV.UK Service Manual, Learning about users and their needs",
+      "url": "https://www.gov.uk/service-manual/user-research/start-by-learning-user-needs",
+      "verified": "Research continues throughout development. Needs should be evidence-based and state a person's problem rather than prescribing a feature. Opinions unsupported by users are assumptions for research.",
+      "implication": "Show a traceable chain: observation, interpretation, research question, tentative requirement, prototype, evaluation."
+    },
+    {
+      "id": "govuk-prototypes",
+      "title": "GOV.UK Service Manual, Making prototypes",
+      "url": "https://www.gov.uk/service-manual/design/making-prototypes",
+      "verified": "Prototype fidelity should fit the question. Sketches support early exploration; realistic interactions may require code. Prototype code does not satisfy production requirements automatically; learning should continue after release.",
+      "implication": "Distinguish an artifact used to learn from a maintained live service. Passing a prototype test is evidence for a decision, not proof of universal success."
+    }
+  ],
+  "legacyReferences": [
+    {
+      "path": "materiali/lezioni/2025-2026/03-ux-ui-processo-ux.pdf",
+      "use": "Persone, contesto e carattere adattabile e iterativo del processo; definizioni aggiornate sulle fonti primarie."
+    },
+    {
+      "path": "materiali/lezioni/2025-2026/04-processo-ux-concept-moodboard.pdf",
+      "use": "Riferimento metodologico per ricerca e sintesi; il caso Sara è uno scenario simulato nel booklet corrente, non un risultato di queste slide."
+    },
+    {
+      "path": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "use": "Continuità del percorso formativo e delle parti del capitolo."
+    }
+  ],
+  "selectedAssets": [
+    {
+      "key": "double-diamond-adattamento",
+      "nodeId": "2638:49",
+      "boardId": "2634:82",
+      "path": "double-diamond-adattamento.svg",
+      "sha256": "b1b010cb909052091de2f38510e6039467e4c61e8c0e9e6b8ae0ef01f38588bb",
+      "originalPath": "originals/design-council-double-diamond.png",
+      "originalSha256": "96e8206d125a36f4a95f1512f95e10cba9953764b555c1b8036cff97b87199d7",
+      "downloadedFrom": "https://www.designcouncil.org.uk/fileadmin/uploads/dc/Photos/banners/Double_Diamond.png",
+      "sourcePage": "https://www.designcouncil.org.uk/resources/the-double-diamond/",
+      "attribution": "Design Council · Double Diamond · adattamento didattico, CC BY 4.0",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "changes": "Ridisegno vettoriale semplificato nei colori del booklet; etichette e spiegazioni editabili in Figma; freccia di iterazione aggiunta."
+    }
+  ],
+  "revisionNotes": [
+    "Recuperate dall’archivio le due pagine dell’apertura precedente, ora nelle tavole 003–004; conservate le copertine e tutte le sei tavole della revisione, ora 005–010.",
+    "Cinque modalità Stanford distinte dal ponte didattico verso l’implementazione.",
+    "ISO, d.school e Double Diamond presentati come cornici complementari, senza corrispondenza rigida uno a uno.",
+    "Caso simulato collega segnale, domanda, prova e decisione.",
+    "Obiettivi di apprendimento distinti dagli artefatti prodotti.",
+    "Rivisti i testi e i richiami alle fonti in risposta ai commenti 90–97; aggiunti gli asterischi delle note e rimosse le ripetizioni nella definizione della d.school.",
+    "Il diagramma Double Diamond conserva l’asset e l’attribuzione originali; scala 0,513825, credito leggibile e riferimento alla sua introduzione nel 2004.",
+    "Apertura estesa a 10 tavole; numerazione delle sezioni successive, foliazione C04/C05 e riferimenti dell’indice riallineati. C03 conta 275 tavole e il booklet termina a pagina 385; la tavola sulle personas AI resta esclusa dal percorso.",
+    "Copertine, nota sui diritti e copia archivistica dell’apertura precedente conservate.",
+    "I rimandi di navigazione sotto gli obiettivi sono omessi nell’impaginato, come richiesto dal commento 97; restano conservati nei livelli Figma."
+  ],
+  "verification": "../../../reports/apertura-ux/metadata-verification.json",
+  "restoredBoards": [
+    {
+      "id": "2655:315",
+      "archiveId": "2632:186",
+      "sourceId": "198:2739",
+      "sourceOrdinal": 3,
+      "ordinal": 3,
+      "printedPage": 95,
+      "title": "Il Design Thinking come cornice"
+    },
+    {
+      "id": "2655:335",
+      "archiveId": "2632:201",
+      "sourceId": "198:2908",
+      "sourceOrdinal": 4,
+      "ordinal": 4,
+      "printedPage": 96,
+      "title": "Dal metodo alla pratica progettuale"
+    }
+  ],
+  "restoredOn": "2026-10-09",
+  "restorationReceipt": "reports/apertura-ux/ripristino.json",
+  "metadataVerification": "reports/apertura-ux/metadata-verification.json",
+  "diagramPresentation": {
+    "nodeId": "2638:49",
+    "boardId": "2634:82",
+    "title": "Il Double Diamond",
+    "scale": 0.513825,
+    "creditNodeId": "2655:368",
+    "sourceHistoryYear": 2004
+  },
+  "reviewedComments": [
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97
+  ]
+}

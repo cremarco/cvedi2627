@@ -1,0 +1,485 @@
+{
+  "schema": "cvedi-complete-historical-case-source/1",
+  "case": "Alibaba",
+  "auditedOn": "2026-10-09",
+  "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+  "sourceSha256": "3d627dcf3d5aec9ad2a5953417303b4f990344deb0ae91a74df6c73e6664dd9b",
+  "sourceTotalPages": 349,
+  "sourcePageRange": [
+    184,
+    187
+  ],
+  "sectionPageCount": 4,
+  "logicalTextNormalization": "Removed PDF line wraps and discretionary line-break hyphens only; source wording and punctuation preserved in blocks, rawExtractedText also retained",
+  "sourceAuthorAttribution": "Comunicazione visiva e design delle interfacce — Marco Cremaschi & Giulia Rosemary Avis, materiale teorico del corso e approfondimenti, A.A. 23/24 (copertina, PDF p. 1). File denominato Booklet_CVDI_12_2024.pdf; il mese/anno nel filename non sostituisce l’anno accademico dichiarato in copertina.",
+  "pages": [
+    {
+      "pdfPage": 184,
+      "printedPage": 184,
+      "title": "Copertina Alibaba",
+      "rawExtractedText": "184\nCONTESTO CULTURALE NEL WEB DESIGN \n",
+      "blocks": [],
+      "figures": [
+        {
+          "indexZeroBased": 0,
+          "imageName": "I444.png",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p184-I444.png",
+          "widthPx": 510,
+          "heightPx": 512,
+          "sha256": "a45977085c93bc1d4103525fb05f5915f370799a137c8f059d4afb9b565bd9a2",
+          "byteCount": 14989,
+          "description": "Logo bianco Alibaba.com su fondo arancione; immagine principale della copertina",
+          "sourceRectPoints": {
+            "x0": -1.30798,
+            "x1": 596.5854199999999,
+            "top": 125.43299999999999,
+            "bottom": 725.67108,
+            "width": 597.8933999999999,
+            "height": 600.23808
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        },
+        {
+          "indexZeroBased": 1,
+          "imageName": "I445.png",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p184-I445.png",
+          "widthPx": 508,
+          "heightPx": 135,
+          "sha256": "2e9b670aeea440c16af7d50978c52eed05f7d9e4f8f38ce34d4010338d258f9a",
+          "byteCount": 560,
+          "description": "Fascia arancione superiore della copertina",
+          "sourceRectPoints": {
+            "x0": -1.4260300000000004,
+            "x1": 597.09957,
+            "top": 0.0,
+            "bottom": 158.2659,
+            "width": 598.5255999999999,
+            "height": 158.2659
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        },
+        {
+          "indexZeroBased": 2,
+          "imageName": "I446.png",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p184-I446.png",
+          "widthPx": 510,
+          "heightPx": 129,
+          "sha256": "319b4f196ddaabece01357b22871df663d38dccedd1c81d5287bc5ebef46f8de",
+          "byteCount": 539,
+          "description": "Fascia arancione inferiore della copertina",
+          "sourceRectPoints": {
+            "x0": -1.30798,
+            "x1": 596.5854199999999,
+            "top": 692.362,
+            "bottom": 843.59386,
+            "width": 597.8933999999999,
+            "height": 151.23185999999998
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        }
+      ],
+      "renderPath": "/private/tmp/cvedi-complete-cases/alibaba/page-184.png",
+      "visibleReferences": [],
+      "runningHeader": "CONTESTO CULTURALE NEL WEB DESIGN",
+      "notes": "Copertina piena: header e numero presenti come testo nel PDF ma coperti dal logo arancione nella resa visiva."
+    },
+    {
+      "pdfPage": 185,
+      "printedPage": 185,
+      "title": "Case study: Alibaba / Lingua",
+      "rawExtractedText": "CAPITOLO 7\n185\nCase study: Alibaba\nAlibaba è nata alla fine degli anni '90 come piattaforma di e-commerce B2B per mettere in con-\ntatto i fornitori cinesi con gli acquirenti di tutto il mondo. A 22 anni dalla sua nascita, quotata in \nborsa e con un fatturato di oltre 90 miliardi di euro, l'azienda è diventata un colosso del mercato \ninternazionale. Tuttavia, analizzando il suo sito principale è possibile notare una serie di ele-\nmenti che fanno pensare ad una scarsa attenzione verso gli utenti di culture e provenienze di-\nverse da quella cinese.\nLingua\nAlibaba offre la possibilità di selezionare la lingua e la valuta che gli utenti preferiscono, tuttavia la tra-\nduzione italiana appare sommaria e peggiora drasticamente nelle schede dei prodotti, dove l'articola-\nzione delle frasi rende difficile la comprensione dei testi. Inoltre, tra le immagini che scorrono \nnell'homepage alcune di esse sono rimaste in inglese e come per una frase nel footer.",
+      "blocks": [
+        {
+          "role": "title",
+          "text": "Case study: Alibaba"
+        },
+        {
+          "role": "paragraph",
+          "text": "Alibaba è nata alla fine degli anni '90 come piattaforma di e-commerce B2B per mettere in contatto i fornitori cinesi con gli acquirenti di tutto il mondo. A 22 anni dalla sua nascita, quotata in borsa e con un fatturato di oltre 90 miliardi di euro, l'azienda è diventata un colosso del mercato internazionale. Tuttavia, analizzando il suo sito principale è possibile notare una serie di elementi che fanno pensare ad una scarsa attenzione verso gli utenti di culture e provenienze diverse da quella cinese."
+        },
+        {
+          "role": "heading",
+          "text": "Lingua"
+        },
+        {
+          "role": "paragraph",
+          "text": "Alibaba offre la possibilità di selezionare la lingua e la valuta che gli utenti preferiscono, tuttavia la traduzione italiana appare sommaria e peggiora drasticamente nelle schede dei prodotti, dove l'articolazione delle frasi rende difficile la comprensione dei testi. Inoltre, tra le immagini che scorrono nell'homepage alcune di esse sono rimaste in inglese e come per una frase nel footer."
+        }
+      ],
+      "figures": [
+        {
+          "indexZeroBased": 0,
+          "imageName": "I447.png",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p185-I447.png",
+          "widthPx": 3,
+          "heightPx": 135,
+          "sha256": "8ca53373f4a2846645cd0237a5167b19807773bd568c6e902141f9c3f9e5d066",
+          "byteCount": 94,
+          "description": "Sottilissimo residuo arancione a bordo sinistro alto; elemento decorativo, non figura didattica",
+          "sourceRectPoints": {
+            "x0": -1.7104000000000497,
+            "x1": 1.82419999999995,
+            "top": 0.0,
+            "bottom": 158.2659,
+            "width": 3.5345999999999997,
+            "height": 158.2659
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        },
+        {
+          "indexZeroBased": 1,
+          "imageName": "I448.png",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p185-I448.png",
+          "widthPx": 4,
+          "heightPx": 129,
+          "sha256": "f9d67a6b735cdd1f57efa741a9cdc9fd7a9e7ea11492094e0fd56f8d58b3047a",
+          "byteCount": 106,
+          "description": "Sottilissimo residuo arancione a bordo sinistro basso; elemento decorativo, non figura didattica",
+          "sourceRectPoints": {
+            "x0": -2.207279999999969,
+            "x1": 2.482080000000031,
+            "top": 692.362,
+            "bottom": 843.59386,
+            "width": 4.68936,
+            "height": 151.23185999999998
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        }
+      ],
+      "renderPath": "/private/tmp/cvedi-complete-cases/alibaba/page-185.png",
+      "visibleReferences": [],
+      "runningHeader": "CAPITOLO 7",
+      "notes": null
+    },
+    {
+      "pdfPage": 186,
+      "printedPage": 186,
+      "title": "Espansione del testo.",
+      "rawExtractedText": "186\nCONTESTO CULTURALE NEL WEB DESIGN \nEspansione del testo.\nLa lingua italiana occupa molto più spazio di quella cinese eppure, in più sezioni del sito, è chiaro che \nnon sia stata presa in considerazione questa variabile: i pulsanti, le CTA e le schede prodotto mostrano \nin modo evidente le lacune della progettazione poiché il testo non compare nella sua interezza e vengo-\nno mostrati dei punti di sospensione.\nAnche nelle schede prodotto si riscontra il medesimo problema, con testi che vengono interrotti im-\nprovvisamente perché troppo lunghi. Il testo in alcune card va addirittura a coprire la grafica, rendendo \ndifficile la lettura e dando un aspetto poco professionale all’insieme.\n",
+      "blocks": [
+        {
+          "role": "heading",
+          "text": "Espansione del testo."
+        },
+        {
+          "role": "paragraph",
+          "text": "La lingua italiana occupa molto più spazio di quella cinese eppure, in più sezioni del sito, è chiaro che non sia stata presa in considerazione questa variabile: i pulsanti, le CTA e le schede prodotto mostrano in modo evidente le lacune della progettazione poiché il testo non compare nella sua interezza e vengono mostrati dei punti di sospensione."
+        },
+        {
+          "role": "paragraph",
+          "text": "Anche nelle schede prodotto si riscontra il medesimo problema, con testi che vengono interrotti improvvisamente perché troppo lunghi. Il testo in alcune card va addirittura a coprire la grafica, rendendo difficile la lettura e dando un aspetto poco professionale all’insieme."
+        }
+      ],
+      "figures": [
+        {
+          "indexZeroBased": 0,
+          "imageName": "I449.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I449.jpg",
+          "widthPx": 992,
+          "heightPx": 951,
+          "sha256": "f8bd8d09e6a754fedfaca4908d69d43abcae9ca17a4b48d7afb8dba8e301f11e",
+          "byteCount": 175538,
+          "description": "Composito storico: etichette italiane troncate, tre card, sovrapposizione testo/immagine",
+          "sourceRectPoints": {
+            "x0": 135.865,
+            "x1": 434.50164,
+            "top": 505.936,
+            "bottom": 792.229795,
+            "width": 298.63664,
+            "height": 286.293795
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        },
+        {
+          "indexZeroBased": 1,
+          "imageName": "I450.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I450.jpg",
+          "widthPx": 2486,
+          "heightPx": 1451,
+          "sha256": "ef6d7a18a933e63552065a0a8c11ebd032581e950e84c8fa46db1ae7ed9c1c40",
+          "byteCount": 781557,
+          "description": "Homepage storica in inglese con tre colonne: Top ranking, New arrivals, Savings spotlight",
+          "sourceRectPoints": {
+            "x0": 0.0,
+            "x1": 595.275186,
+            "top": 0.06799999999998363,
+            "bottom": 347.511401,
+            "width": 595.275186,
+            "height": 347.443401
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        }
+      ],
+      "renderPath": "/private/tmp/cvedi-complete-cases/alibaba/page-186.png",
+      "visibleReferences": [],
+      "runningHeader": "CONTESTO CULTURALE NEL WEB DESIGN",
+      "notes": null
+    },
+    {
+      "pdfPage": 187,
+      "printedPage": 187,
+      "title": "CSS e stile",
+      "rawExtractedText": "CAPITOLO 7\n187\nCSS e stile\nNavigando in sezioni del sito diverse dall’homepage è possibile notare una forte incongruenza tra la \npagina principale e quelle secondarie. Spostandosi per esempio nelle sezioni delle categorie il testo \ndell’intero sito da Sans Serif diventa Times New Roman.",
+      "blocks": [
+        {
+          "role": "heading",
+          "text": "CSS e stile"
+        },
+        {
+          "role": "paragraph",
+          "text": "Navigando in sezioni del sito diverse dall’homepage è possibile notare una forte incongruenza tra la pagina principale e quelle secondarie. Spostandosi per esempio nelle sezioni delle categorie il testo dell’intero sito da Sans Serif diventa Times New Roman."
+        }
+      ],
+      "figures": [
+        {
+          "indexZeroBased": 0,
+          "imageName": "I451.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I451.jpg",
+          "widthPx": 997,
+          "heightPx": 541,
+          "sha256": "e2bf70d8ac8dff354898d5ffbd9fc18eb9d447f295d7ef86a0fe89d23a7de885",
+          "byteCount": 191066,
+          "description": "Screenshot storico della categoria Fotocamera, foto e accessori con testo serif",
+          "sourceRectPoints": {
+            "x0": 34.0157,
+            "x1": 558.7368,
+            "top": 127.45899999999995,
+            "bottom": 412.18729999999994,
+            "width": 524.7211,
+            "height": 284.7283
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        },
+        {
+          "indexZeroBased": 1,
+          "imageName": "I452.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I452.jpg",
+          "widthPx": 996,
+          "heightPx": 501,
+          "sha256": "18bfc318a0f38384af12b87451ddacd9735785a6feb1d817c1f158dac41f821d",
+          "byteCount": 161726,
+          "description": "Screenshot storico categoria illuminazione, con banner e font serif nei menu",
+          "sourceRectPoints": {
+            "x0": 34.0157,
+            "x1": 558.102932,
+            "top": 430.866,
+            "bottom": 694.488192,
+            "width": 524.087232,
+            "height": 263.622192
+          },
+          "method": "Embedded image extracted byte-for-byte by pypdf; no image edits",
+          "attributionVisible": "Alibaba.com trademark; no figure-specific photographer credit or external source printed on source page",
+          "license": "No explicit reusable image license stated on source pages; preserve original source and attribution; no license inferred"
+        }
+      ],
+      "renderPath": "/private/tmp/cvedi-complete-cases/alibaba/page-187.png",
+      "visibleReferences": [],
+      "runningHeader": "CAPITOLO 7",
+      "notes": null
+    }
+  ],
+  "visualReadingOrder": [
+    {
+      "pdfPage": 184,
+      "order": [
+        "I445.png",
+        "I444.png",
+        "I446.png"
+      ]
+    },
+    {
+      "pdfPage": 185,
+      "order": [
+        "Case study: Alibaba",
+        "introduction",
+        "Lingua",
+        "language paragraph"
+      ]
+    },
+    {
+      "pdfPage": 186,
+      "order": [
+        "I450.jpg",
+        "Espansione del testo.",
+        "paragraph1",
+        "paragraph2",
+        "I449.jpg"
+      ]
+    },
+    {
+      "pdfPage": 187,
+      "order": [
+        "CSS e stile",
+        "paragraph",
+        "I451.jpg",
+        "I452.jpg"
+      ]
+    }
+  ],
+  "currentFigmaComparison": {
+    "snapshotRevisedOn": "2026-10-09",
+    "boards": [
+      {
+        "id": "198:4509",
+        "folio": 54,
+        "name": "C03 · 054 · DX — Localizzare tutti i contenuti",
+        "texts": [
+          {
+            "id": "198:4521",
+            "text": "il contesto culturale nel digital design",
+            "links": []
+          },
+          {
+            "id": "I198:4523;5:732",
+            "text": "3",
+            "links": []
+          },
+          {
+            "id": "I198:4524;183:1515",
+            "text": ".1",
+            "links": []
+          },
+          {
+            "id": "I198:4525;183:1515",
+            "text": ".1",
+            "links": []
+          },
+          {
+            "id": "210:1875",
+            "text": "146",
+            "links": []
+          },
+          {
+            "id": "2620:357",
+            "text": "Localizzare tutti i contenuti",
+            "links": []
+          },
+          {
+            "id": "2620:358",
+            "text": "La cattura storica di Alibaba mostra italiano nel selettore, ma inglese in banner e altri testi. È un’incoerenza della versione mostrata, non una misura della cultura degli utenti.",
+            "links": []
+          },
+          {
+            "id": "2620:361",
+            "text": "Alibaba · composito storico dal corso CVeDI, Marco Cremaschi, lezione 8, 2025–26, p. 168.",
+            "links": []
+          },
+          {
+            "id": "2620:362",
+            "text": "Controlla navigazione, microtesti, immagini con testo, errori, messaggi e condizioni. La scelta della lingua deve produrre un percorso comprensibile dall’inizio alla fine.",
+            "links": []
+          },
+          {
+            "id": "2620:364",
+            "text": "W3C Internationalization · adattamento a lingua e locale",
+            "links": [
+              "https://www.w3.org/International/questions/qa-i18n"
+            ]
+          }
+        ],
+        "printedPage": 146,
+        "origin": "aggiunta della revisione culturale",
+        "sourceOrdinal": null
+      },
+      {
+        "id": "198:5050",
+        "folio": 55,
+        "name": "C03 · 055 · SX — Le traduzioni cambiano lo spazio",
+        "texts": [
+          {
+            "id": "210:1876",
+            "text": "147",
+            "links": []
+          },
+          {
+            "id": "2620:366",
+            "text": "Le traduzioni cambiano lo spazio",
+            "links": []
+          },
+          {
+            "id": "2620:367",
+            "text": "Le traduzioni possono occupare più o meno spazio. Questa cattura storica mostra etichette troncate: il problema osservabile non identifica da solo la causa tecnica.",
+            "links": []
+          },
+          {
+            "id": "2620:370",
+            "text": "Alibaba · composito storico dal corso CVeDI, Marco Cremaschi, lezione 8, 2025–26, p. 169.",
+            "links": []
+          },
+          {
+            "id": "2620:371",
+            "text": "Prova stringhe reali in più lingue, contenuti bidirezionali, zoom e viewport diversi. Osserva se il compito viene completato, quali informazioni si perdono e quali problemi emergono. Aggiorna il progetto sulla base delle prove.",
+            "links": []
+          },
+          {
+            "id": "2620:373",
+            "text": "W3C · Text size in translation · layout flessibili e reflow",
+            "links": [
+              "https://www.w3.org/International/articles/article-text-size"
+            ]
+          }
+        ],
+        "printedPage": 147,
+        "origin": "aggiunta della revisione culturale",
+        "sourceOrdinal": null
+      }
+    ],
+    "coverage": "Current two boards use language and text-expansion lesson-2025/26 composites, rewritten short text. They omit original Alibaba full cover, original complete introduction, historical financial claim, 186 English homepage, 187 CSS paragraph and both typography screenshots.",
+    "existingLegacyCandidateFiles": "assets/booklet/contesto-culturale-revisione/legacy-candidates files are extracted from 2025/26 slides and hashes differ from booklet 2024; use the booklet-original extractions for this complete historical import.",
+    "recommendation": "Keep the two verified didactic additions as distinct, source-labelled companion boards, or merge their methodological annotations beneath the imported original cases without removing any original paragraph or figure. Avoid presenting the language composite from 2025/26 as a 2024 booklet figure."
+  },
+  "historicalCautionFlagsSeparateFromSource": [
+    {
+      "topic": "Historical timeframe",
+      "details": "A 22 anni dalla sua nascita and oltre 90 miliardi di euro are historical claims that implicitly refer around 2021, not a current 2026 fact. Import as dated source wording with a historical-case label."
+    },
+    {
+      "topic": "Text expansion",
+      "details": "The source sentence says Italian takes much more space than Chinese. Preserve under explicit full historical import, and distinguish it from a general invariant: measure actual strings and layout."
+    },
+    {
+      "topic": "CSS/font diagnosis",
+      "details": "The screenshot observes serif text but alone does not prove the exact font Times New Roman or cause (CSS/fallback); the current method annotations can retain that distinction."
+    },
+    {
+      "topic": "Cultural cause",
+      "details": "The source interprets low attention to non-Chinese users from localization/UI flaws. Preserve source material while treating those as observed localization issues, not proof of nationality-specific user traits."
+    }
+  ],
+  "sourceFidelity": {
+    "allFourRelevantPagesRendered": true,
+    "allFiguresExtracted": true,
+    "nativeContentImportPreferred": true,
+    "noSourceFactEdits": true,
+    "noFigmaMutations": true,
+    "frontMatterCheckedForCredits": true
+  },
+  "sourceCredits": {
+    "pdfPage": 3,
+    "impaginazioneECuraDelTesto": [
+      "AVIS GIULIA ROSEMARY",
+      "PIEROTTI ANDREA PRIMO",
+      "BELFI CHIARA",
+      "BISI MARTINA",
+      "CONTI KEVIN",
+      "GUARNIERI ELIA"
+    ],
+    "rightsNoticeExact": "Questo materiale didattico è ad uso esclusivo degli studenti del corso di Comunicazione Visiva e Design delle Interfacce e non può essere riprodotto, distribuito o condiviso in alcun modo."
+  }
+}

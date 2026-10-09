@@ -1,0 +1,913 @@
+{
+  "schema": "cvedi-figma-native-cultural-dimensions/1",
+  "updatedOn": "2026-10-09",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1109",
+  "sectionId": "204:8295",
+  "source": {
+    "scores": "https://www.theculturefactor.com/country-comparison-tool",
+    "methods": "https://www.theculturefactor.com/frequently-asked-questions",
+    "definitions": "https://www.theculturefactor.com/resources/research-the-6-d-model-maps-of-national-culture",
+    "consultedOn": "2026-10-09",
+    "meaning": "Indici relativi aggregati, non percentuali; anni di rilevazione diversi.",
+    "dataFile": "dati-verificati.json",
+    "datasetFile": "dataset-country-comparison.json",
+    "selectedObservationCount": 36
+  },
+  "design": {
+    "reference": "Screenshot fornito dall’utente: Uncertainty Avoidance con segnaposto e bandiere",
+    "implementation": "Componenti, testi e vettori Figma nativi; nessun raster nei grafici.",
+    "componentSetId": "2679:812",
+    "pinComponentSetId": "2685:630",
+    "pinCount": 29,
+    "vectorCount": 1030,
+    "figureWidth": 363,
+    "axis": {
+      "minimum": 0,
+      "maximum": 100,
+      "x0": 18,
+      "width": 327,
+      "y": 196,
+      "anchorFormula": "x = 18 + 327 * score / 100"
+    },
+    "calloutCenters": [
+      24,
+      80,
+      136,
+      227,
+      283,
+      339
+    ],
+    "leader": "Curva puntinata con estremità sulla posizione esatta; i segnaposto sono distanziati per la leggibilità.",
+    "font": {
+      "title": "Geom Bold, 20",
+      "body": "Merriweather Light, 10",
+      "country": "Geom Regular, 9",
+      "score": "Geom Bold, 16"
+    },
+    "accentRGB": {
+      "r": 0.7568846940994263,
+      "g": 0,
+      "b": 0.028754347935318947
+    },
+    "componentAreaId": "2679:433",
+    "pinAreaId": "2682:1009"
+  },
+  "boards": [
+    {
+      "code": "PDI",
+      "id": "198:3945",
+      "folio": 15,
+      "printedPage": 107,
+      "componentId": "2679:434",
+      "instanceId": "2679:813",
+      "chartId": "2685:631",
+      "figureId": "2685:633",
+      "height": 463,
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/pdi-artistico.png"
+    },
+    {
+      "code": "IDV",
+      "id": "198:4402",
+      "folio": 19,
+      "printedPage": 111,
+      "componentId": "2679:497",
+      "instanceId": "2679:876",
+      "chartId": "2685:1051",
+      "figureId": "2685:1053",
+      "height": 478,
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/idv-artistico.png"
+    },
+    {
+      "code": "MAS",
+      "id": "198:4386",
+      "folio": 23,
+      "printedPage": 115,
+      "componentId": "2679:560",
+      "instanceId": "2679:939",
+      "chartId": "2685:1165",
+      "figureId": "2685:1167",
+      "height": 478,
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/mas-artistico.png"
+    },
+    {
+      "code": "UAI",
+      "id": "198:4370",
+      "folio": 27,
+      "printedPage": 119,
+      "componentId": "2679:623",
+      "instanceId": "2679:1002",
+      "chartId": "2685:1276",
+      "figureId": "2685:1278",
+      "height": 493,
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/uai-artistico.png"
+    },
+    {
+      "code": "LTO",
+      "id": "198:4354",
+      "folio": 31,
+      "printedPage": 123,
+      "componentId": "2679:686",
+      "instanceId": "2679:1065",
+      "chartId": "2685:1574",
+      "figureId": "2685:1576",
+      "height": 478,
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/lto-artistico.png"
+    },
+    {
+      "code": "IVR",
+      "id": "198:4429",
+      "folio": 35,
+      "printedPage": 127,
+      "componentId": "2679:749",
+      "instanceId": "2679:1128",
+      "chartId": "2685:1858",
+      "figureId": "2685:1860",
+      "height": 478,
+      "screenshot": "../../../reports/contesto-culturale/dimensioni-native/ivr-artistico.png"
+    }
+  ],
+  "diagrams": [
+    {
+      "code": "PDI",
+      "componentId": "2679:434",
+      "chartId": "2685:631",
+      "figureId": "2685:633",
+      "height": 463,
+      "anchors": [
+        {
+          "country": "Austria",
+          "italianName": "Austria",
+          "score": 11,
+          "pinCenter": 24,
+          "targetX": 53.97,
+          "leaderId": "2685:634",
+          "calloutId": "2685:653",
+          "pinInstanceId": "2685:656",
+          "labelId": "2685:654",
+          "scoreId": "2685:655",
+          "dotId": "2685:664",
+          "labelLines": 1
+        },
+        {
+          "country": "Denmark",
+          "italianName": "Danimarca",
+          "score": 18,
+          "pinCenter": 80,
+          "targetX": 76.86,
+          "leaderId": "2685:635",
+          "calloutId": "2685:665",
+          "pinInstanceId": "2685:668",
+          "labelId": "2685:666",
+          "scoreId": "2685:667",
+          "dotId": "2685:677",
+          "labelLines": 1
+        },
+        {
+          "country": "New zealand",
+          "italianName": "Nuova Zelanda",
+          "score": 22,
+          "pinCenter": 136,
+          "targetX": 89.94,
+          "leaderId": "2685:636",
+          "calloutId": "2685:678",
+          "pinInstanceId": "2685:681",
+          "labelId": "2685:679",
+          "scoreId": "2685:680",
+          "dotId": "2685:825",
+          "labelLines": 1
+        },
+        {
+          "country": "Guatemala",
+          "italianName": "Guatemala",
+          "score": 95,
+          "pinCenter": 227,
+          "targetX": 328.65,
+          "leaderId": "2685:637",
+          "calloutId": "2685:826",
+          "pinInstanceId": "2685:829",
+          "labelId": "2685:827",
+          "scoreId": "2685:828",
+          "dotId": "2685:1001",
+          "labelLines": 1
+        },
+        {
+          "country": "Malaysia",
+          "italianName": "Malesia",
+          "score": 100,
+          "pinCenter": 283,
+          "targetX": 345,
+          "leaderId": "2685:638",
+          "calloutId": "2685:1002",
+          "pinInstanceId": "2685:1005",
+          "labelId": "2685:1003",
+          "scoreId": "2685:1004",
+          "dotId": "2685:1032",
+          "labelLines": 1
+        },
+        {
+          "country": "Slovakia",
+          "italianName": "Slovacchia",
+          "score": 100,
+          "pinCenter": 339,
+          "targetX": 345,
+          "leaderId": "2685:639",
+          "calloutId": "2685:1033",
+          "pinInstanceId": "2685:1036",
+          "labelId": "2685:1034",
+          "scoreId": "2685:1035",
+          "dotId": "2685:1049",
+          "labelLines": 1
+        }
+      ]
+    },
+    {
+      "code": "IDV",
+      "componentId": "2679:497",
+      "chartId": "2685:1051",
+      "figureId": "2685:1053",
+      "height": 478,
+      "anchors": [
+        {
+          "country": "Nigeria",
+          "italianName": "Nigeria",
+          "score": 0,
+          "pinCenter": 24,
+          "targetX": 18,
+          "leaderId": "2685:1054",
+          "calloutId": "2685:1073",
+          "pinInstanceId": "2685:1076",
+          "labelId": "2685:1074",
+          "scoreId": "2685:1075",
+          "dotId": "2685:1085",
+          "labelLines": 1
+        },
+        {
+          "country": "Kenya",
+          "italianName": "Kenya",
+          "score": 4,
+          "pinCenter": 80,
+          "targetX": 31.08,
+          "leaderId": "2685:1055",
+          "calloutId": "2685:1086",
+          "pinInstanceId": "2685:1089",
+          "labelId": "2685:1087",
+          "scoreId": "2685:1088",
+          "dotId": "2685:1113",
+          "labelLines": 1
+        },
+        {
+          "country": "Bangladesh",
+          "italianName": "Bangladesh",
+          "score": 5,
+          "pinCenter": 136,
+          "targetX": 34.35,
+          "leaderId": "2685:1056",
+          "calloutId": "2685:1114",
+          "pinInstanceId": "2685:1117",
+          "labelId": "2685:1115",
+          "scoreId": "2685:1116",
+          "dotId": "2685:1125",
+          "labelLines": 1
+        },
+        {
+          "country": "Sweden",
+          "italianName": "Svezia",
+          "score": 87,
+          "pinCenter": 227,
+          "targetX": 302.49,
+          "leaderId": "2685:1057",
+          "calloutId": "2685:1126",
+          "pinInstanceId": "2685:1129",
+          "labelId": "2685:1127",
+          "scoreId": "2685:1128",
+          "dotId": "2685:1137",
+          "labelLines": 1
+        },
+        {
+          "country": "Denmark",
+          "italianName": "Danimarca",
+          "score": 89,
+          "pinCenter": 283,
+          "targetX": 309.03,
+          "leaderId": "2685:1058",
+          "calloutId": "2685:1138",
+          "pinInstanceId": "2685:1141",
+          "labelId": "2685:1139",
+          "scoreId": "2685:1140",
+          "dotId": "2685:1150",
+          "labelLines": 1
+        },
+        {
+          "country": "Netherlands",
+          "italianName": "Paesi Bassi",
+          "score": 100,
+          "pinCenter": 339,
+          "targetX": 345,
+          "leaderId": "2685:1059",
+          "calloutId": "2685:1151",
+          "pinInstanceId": "2685:1154",
+          "labelId": "2685:1152",
+          "scoreId": "2685:1153",
+          "dotId": "2685:1163",
+          "labelLines": 1
+        }
+      ]
+    },
+    {
+      "code": "MAS",
+      "componentId": "2679:560",
+      "chartId": "2685:1165",
+      "figureId": "2685:1167",
+      "height": 478,
+      "anchors": [
+        {
+          "country": "Sweden",
+          "italianName": "Svezia",
+          "score": 5,
+          "pinCenter": 24,
+          "targetX": 34.35,
+          "leaderId": "2685:1168",
+          "calloutId": "2685:1187",
+          "pinInstanceId": "2685:1190",
+          "labelId": "2685:1188",
+          "scoreId": "2685:1189",
+          "dotId": "2685:1198",
+          "labelLines": 1
+        },
+        {
+          "country": "Norway",
+          "italianName": "Norvegia",
+          "score": 8,
+          "pinCenter": 80,
+          "targetX": 44.16,
+          "leaderId": "2685:1169",
+          "calloutId": "2685:1199",
+          "pinInstanceId": "2685:1202",
+          "labelId": "2685:1200",
+          "scoreId": "2685:1201",
+          "dotId": "2685:1213",
+          "labelLines": 1
+        },
+        {
+          "country": "Latvia",
+          "italianName": "Lettonia",
+          "score": 9,
+          "pinCenter": 136,
+          "targetX": 47.43,
+          "leaderId": "2685:1170",
+          "calloutId": "2685:1214",
+          "pinInstanceId": "2685:1217",
+          "labelId": "2685:1215",
+          "scoreId": "2685:1216",
+          "dotId": "2685:1227",
+          "labelLines": 1
+        },
+        {
+          "country": "Hungary",
+          "italianName": "Ungheria",
+          "score": 88,
+          "pinCenter": 227,
+          "targetX": 305.76,
+          "leaderId": "2685:1171",
+          "calloutId": "2685:1228",
+          "pinInstanceId": "2685:1231",
+          "labelId": "2685:1229",
+          "scoreId": "2685:1230",
+          "dotId": "2685:1241",
+          "labelLines": 1
+        },
+        {
+          "country": "Japan",
+          "italianName": "Giappone",
+          "score": 95,
+          "pinCenter": 283,
+          "targetX": 328.65,
+          "leaderId": "2685:1172",
+          "calloutId": "2685:1242",
+          "pinInstanceId": "2685:1245",
+          "labelId": "2685:1243",
+          "scoreId": "2685:1244",
+          "dotId": "2685:1257",
+          "labelLines": 1
+        },
+        {
+          "country": "Slovakia",
+          "italianName": "Slovacchia",
+          "score": 100,
+          "pinCenter": 339,
+          "targetX": 345,
+          "leaderId": "2685:1173",
+          "calloutId": "2685:1258",
+          "pinInstanceId": "2685:1261",
+          "labelId": "2685:1259",
+          "scoreId": "2685:1260",
+          "dotId": "2685:1274",
+          "labelLines": 1
+        }
+      ]
+    },
+    {
+      "code": "UAI",
+      "componentId": "2679:623",
+      "chartId": "2685:1276",
+      "figureId": "2685:1278",
+      "height": 493,
+      "anchors": [
+        {
+          "country": "Singapore",
+          "italianName": "Singapore",
+          "score": 8,
+          "pinCenter": 24,
+          "targetX": 44.16,
+          "leaderId": "2685:1279",
+          "calloutId": "2685:1298",
+          "pinInstanceId": "2685:1301",
+          "labelId": "2685:1299",
+          "scoreId": "2685:1300",
+          "dotId": "2685:1315",
+          "labelLines": 1
+        },
+        {
+          "country": "Denmark",
+          "italianName": "Danimarca",
+          "score": 23,
+          "pinCenter": 80,
+          "targetX": 93.21,
+          "leaderId": "2685:1280",
+          "calloutId": "2685:1316",
+          "pinInstanceId": "2685:1319",
+          "labelId": "2685:1317",
+          "scoreId": "2685:1318",
+          "dotId": "2685:1328",
+          "labelLines": 1
+        },
+        {
+          "country": "Sweden",
+          "italianName": "Svezia",
+          "score": 29,
+          "pinCenter": 136,
+          "targetX": 112.83,
+          "leaderId": "2685:1281",
+          "calloutId": "2685:1329",
+          "pinInstanceId": "2685:1332",
+          "labelId": "2685:1330",
+          "scoreId": "2685:1331",
+          "dotId": "2685:1340",
+          "labelLines": 1
+        },
+        {
+          "country": "Uruguay",
+          "italianName": "Uruguay",
+          "score": 98,
+          "pinCenter": 227,
+          "targetX": 338.46,
+          "leaderId": "2685:1282",
+          "calloutId": "2685:1341",
+          "pinInstanceId": "2685:1344",
+          "labelId": "2685:1342",
+          "scoreId": "2685:1343",
+          "dotId": "2685:1402",
+          "labelLines": 1
+        },
+        {
+          "country": "Portugal",
+          "italianName": "Portogallo",
+          "score": 99,
+          "pinCenter": 283,
+          "targetX": 341.73,
+          "leaderId": "2685:1283",
+          "calloutId": "2685:1403",
+          "pinInstanceId": "2685:1406",
+          "labelId": "2685:1404",
+          "scoreId": "2685:1405",
+          "dotId": "2685:1549",
+          "labelLines": 1
+        },
+        {
+          "country": "Greece",
+          "italianName": "Grecia",
+          "score": 100,
+          "pinCenter": 339,
+          "targetX": 345,
+          "leaderId": "2685:1284",
+          "calloutId": "2685:1550",
+          "pinInstanceId": "2685:1553",
+          "labelId": "2685:1551",
+          "scoreId": "2685:1552",
+          "dotId": "2685:1572",
+          "labelLines": 1
+        }
+      ]
+    },
+    {
+      "code": "LTO",
+      "componentId": "2679:686",
+      "chartId": "2685:1574",
+      "figureId": "2685:1576",
+      "height": 478,
+      "anchors": [
+        {
+          "country": "Venezuela",
+          "italianName": "Venezuela",
+          "score": 0,
+          "pinCenter": 24,
+          "targetX": 18,
+          "leaderId": "2685:1577",
+          "calloutId": "2685:1596",
+          "pinInstanceId": "2685:1599",
+          "labelId": "2685:1597",
+          "scoreId": "2685:1598",
+          "dotId": "2685:1758",
+          "labelLines": 1
+        },
+        {
+          "country": "Ghana",
+          "italianName": "Ghana",
+          "score": 1,
+          "pinCenter": 80,
+          "targetX": 21.27,
+          "leaderId": "2685:1578",
+          "calloutId": "2685:1759",
+          "pinInstanceId": "2685:1762",
+          "labelId": "2685:1760",
+          "scoreId": "2685:1761",
+          "dotId": "2685:1772",
+          "labelLines": 1
+        },
+        {
+          "country": "Peru",
+          "italianName": "Perù",
+          "score": 5,
+          "pinCenter": 136,
+          "targetX": 34.35,
+          "leaderId": "2685:1579",
+          "calloutId": "2685:1773",
+          "pinInstanceId": "2685:1776",
+          "labelId": "2685:1774",
+          "scoreId": "2685:1775",
+          "dotId": "2685:1784",
+          "labelLines": 1
+        },
+        {
+          "country": "Taiwan",
+          "italianName": "Taiwan",
+          "score": 87,
+          "pinCenter": 227,
+          "targetX": 302.49,
+          "leaderId": "2685:1580",
+          "calloutId": "2685:1785",
+          "pinInstanceId": "2685:1788",
+          "labelId": "2685:1786",
+          "scoreId": "2685:1787",
+          "dotId": "2685:1824",
+          "labelLines": 1
+        },
+        {
+          "country": "Hong kong",
+          "italianName": "Hong Kong",
+          "score": 93,
+          "pinCenter": 283,
+          "targetX": 322.11,
+          "leaderId": "2685:1581",
+          "calloutId": "2685:1825",
+          "pinInstanceId": "2685:1828",
+          "labelId": "2685:1826",
+          "scoreId": "2685:1827",
+          "dotId": "2685:1840",
+          "labelLines": 1
+        },
+        {
+          "country": "Japan",
+          "italianName": "Giappone",
+          "score": 100,
+          "pinCenter": 339,
+          "targetX": 345,
+          "leaderId": "2685:1582",
+          "calloutId": "2685:1841",
+          "pinInstanceId": "2685:1844",
+          "labelId": "2685:1842",
+          "scoreId": "2685:1843",
+          "dotId": "2685:1856",
+          "labelLines": 1
+        }
+      ]
+    },
+    {
+      "code": "IVR",
+      "componentId": "2679:749",
+      "chartId": "2685:1858",
+      "figureId": "2685:1860",
+      "height": 478,
+      "anchors": [
+        {
+          "country": "Egypt",
+          "italianName": "Egitto",
+          "score": 0,
+          "pinCenter": 24,
+          "targetX": 18,
+          "leaderId": "2685:1861",
+          "calloutId": "2685:1880",
+          "pinInstanceId": "2685:1883",
+          "labelId": "2685:1881",
+          "scoreId": "2685:1882",
+          "dotId": "2685:1924",
+          "labelLines": 1
+        },
+        {
+          "country": "Pakistan",
+          "italianName": "Pakistan",
+          "score": 0,
+          "pinCenter": 80,
+          "targetX": 18,
+          "leaderId": "2685:1862",
+          "calloutId": "2685:1925",
+          "pinInstanceId": "2685:1928",
+          "labelId": "2685:1926",
+          "scoreId": "2685:1927",
+          "dotId": "2685:1943",
+          "labelLines": 1
+        },
+        {
+          "country": "Lebanon",
+          "italianName": "Libano",
+          "score": 10,
+          "pinCenter": 136,
+          "targetX": 50.7,
+          "leaderId": "2685:1863",
+          "calloutId": "2685:1944",
+          "pinInstanceId": "2685:1947",
+          "labelId": "2685:1945",
+          "scoreId": "2685:1946",
+          "dotId": "2685:1962",
+          "labelLines": 1
+        },
+        {
+          "country": "Puerto rico",
+          "italianName": "Portorico",
+          "score": 90,
+          "pinCenter": 227,
+          "targetX": 312.3,
+          "leaderId": "2685:1864",
+          "calloutId": "2685:1963",
+          "pinInstanceId": "2685:1966",
+          "labelId": "2685:1964",
+          "scoreId": "2685:1965",
+          "dotId": "2685:1980",
+          "labelLines": 1
+        },
+        {
+          "country": "Mexico",
+          "italianName": "Messico",
+          "score": 97,
+          "pinCenter": 283,
+          "targetX": 335.19,
+          "leaderId": "2685:1865",
+          "calloutId": "2685:1981",
+          "pinInstanceId": "2685:1984",
+          "labelId": "2685:1982",
+          "scoreId": "2685:1983",
+          "dotId": "2685:2361",
+          "labelLines": 1
+        },
+        {
+          "country": "Venezuela",
+          "italianName": "Venezuela",
+          "score": 100,
+          "pinCenter": 339,
+          "targetX": 345,
+          "leaderId": "2685:1866",
+          "calloutId": "2685:2362",
+          "pinInstanceId": "2685:2365",
+          "labelId": "2685:2363",
+          "scoreId": "2685:2364",
+          "dotId": "2685:2524",
+          "labelLines": 1
+        }
+      ]
+    }
+  ],
+  "flags": {
+    "manifest": "flags/manifest.json",
+    "license": "flags/originals/LICENSE",
+    "sources": "SVG originali flag-icons fissati al commit 086f7e97d657358203916dbe84f61c2bccaa81eb.",
+    "mainComponents": [
+      {
+        "code": "at",
+        "country": "Austria",
+        "id": "2683:630",
+        "svgId": "2683:635",
+        "vectorCount": 2
+      },
+      {
+        "code": "dk",
+        "country": "Denmark",
+        "id": "2683:638",
+        "svgId": "2683:643",
+        "vectorCount": 3
+      },
+      {
+        "code": "nz",
+        "country": "New zealand",
+        "id": "2683:647",
+        "svgId": "2683:654",
+        "vectorCount": 86
+      },
+      {
+        "code": "gt",
+        "country": "Guatemala",
+        "id": "2683:793",
+        "svgId": "2683:798",
+        "vectorCount": 139
+      },
+      {
+        "code": "my",
+        "country": "Malaysia",
+        "id": "2683:965",
+        "svgId": "2683:970",
+        "vectorCount": 18
+      },
+      {
+        "code": "sk",
+        "country": "Slovakia",
+        "id": "2683:992",
+        "svgId": "2683:997",
+        "vectorCount": 7
+      },
+      {
+        "code": "ng",
+        "country": "Nigeria",
+        "id": "2683:1005",
+        "svgId": "2683:1010",
+        "vectorCount": 2
+      },
+      {
+        "code": "ke",
+        "country": "Kenya",
+        "id": "2683:1014",
+        "svgId": "2683:1020",
+        "vectorCount": 15
+      },
+      {
+        "code": "bd",
+        "country": "Bangladesh",
+        "id": "2683:1039",
+        "svgId": "2683:1044",
+        "vectorCount": 2
+      },
+      {
+        "code": "se",
+        "country": "Sweden",
+        "id": "2683:1047",
+        "svgId": "2683:1052",
+        "vectorCount": 2
+      },
+      {
+        "code": "no",
+        "country": "Norway",
+        "id": "2683:1055",
+        "svgId": "2683:1060",
+        "vectorCount": 5
+      },
+      {
+        "code": "lv",
+        "country": "Latvia",
+        "id": "2683:1066",
+        "svgId": "2683:1071",
+        "vectorCount": 3
+      },
+      {
+        "code": "hu",
+        "country": "Hungary",
+        "id": "2683:1076",
+        "svgId": "2683:1081",
+        "vectorCount": 3
+      },
+      {
+        "code": "jp",
+        "country": "Japan",
+        "id": "2683:1086",
+        "svgId": "2683:1091",
+        "vectorCount": 3
+      },
+      {
+        "code": "sg",
+        "country": "Singapore",
+        "id": "2683:1098",
+        "svgId": "2683:1103",
+        "vectorCount": 5
+      },
+      {
+        "code": "uy",
+        "country": "Uruguay",
+        "id": "2683:1112",
+        "svgId": "2683:1117",
+        "vectorCount": 34
+      },
+      {
+        "code": "pt",
+        "country": "Portugal",
+        "id": "2683:1170",
+        "svgId": "2683:1175",
+        "vectorCount": 121
+      },
+      {
+        "code": "gr",
+        "country": "Greece",
+        "id": "2683:1313",
+        "svgId": "2683:1318",
+        "vectorCount": 12
+      },
+      {
+        "code": "ve",
+        "country": "Venezuela",
+        "id": "2683:1332",
+        "svgId": "2683:1339",
+        "vectorCount": 83
+      },
+      {
+        "code": "gh",
+        "country": "Ghana",
+        "id": "2683:1493",
+        "svgId": "2683:1498",
+        "vectorCount": 4
+      },
+      {
+        "code": "pe",
+        "country": "Peru",
+        "id": "2683:1503",
+        "svgId": "2683:1508",
+        "vectorCount": 2
+      },
+      {
+        "code": "tw",
+        "country": "Taiwan",
+        "id": "2683:1511",
+        "svgId": "2683:1516",
+        "vectorCount": 26
+      },
+      {
+        "code": "hk",
+        "country": "Hong kong",
+        "id": "2683:1547",
+        "svgId": "2683:1552",
+        "vectorCount": 6
+      },
+      {
+        "code": "eg",
+        "country": "Egypt",
+        "id": "2683:1559",
+        "svgId": "2683:1564",
+        "vectorCount": 29
+      },
+      {
+        "code": "pk",
+        "country": "Pakistan",
+        "id": "2684:630",
+        "svgId": "2684:635",
+        "vectorCount": 5
+      },
+      {
+        "code": "lb",
+        "country": "Lebanon",
+        "id": "2684:645",
+        "svgId": "2684:650",
+        "vectorCount": 5
+      },
+      {
+        "code": "pr",
+        "country": "Puerto rico",
+        "id": "2684:660",
+        "svgId": "2684:665",
+        "vectorCount": 5
+      },
+      {
+        "code": "nl",
+        "country": "Netherlands",
+        "id": "2684:674",
+        "svgId": "2684:679",
+        "vectorCount": 3
+      },
+      {
+        "code": "mx",
+        "country": "Mexico",
+        "id": "2684:4516",
+        "svgId": "2684:683",
+        "vectorCount": 371
+      }
+    ]
+  },
+  "archive": {
+    "previousBoardCompositions": "2679:268",
+    "rejectedBarCharts": "2682:630",
+    "pageId": "2186:3831"
+  },
+  "verification": {
+    "report": "../../../reports/contesto-culturale/dimensioni-native/verifica.json",
+    "dataReport": "../../../reports/contesto-culturale/dimensioni-native/verifica-dati.json",
+    "cultureBoardCount": 53,
+    "chapterBoardCount": 283,
+    "lastPrintedPage": 393,
+    "addedBookBoards": 0
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "schema": "cvedi-integral-cultural-case-studies/1",
+  "importedOn": "2026-10-09",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1109",
+    "sectionId": "204:8295",
+    "chapterBoardCount": 289,
+    "sectionBoardCount": 59,
+    "sectionRange": [
+      11,
+      69
+    ],
+    "theoryRange": [
+      11,
+      47
+    ],
+    "bridgeOrdinal": 48,
+    "mcdonaldRange": [
+      49,
+      64
+    ],
+    "alibabaRange": [
+      65,
+      69
+    ],
+    "bookLastPrintedPage": 399,
+    "archivePageId": "2186:3831",
+    "archiveSectionId": "2665:278"
+  },
+  "sourcePdf": {
+    "path": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+    "sha256": "3d627dcf3d5aec9ad2a5953417303b4f990344deb0ae91a74df6c73e6664dd9b",
+    "title": "Comunicazione visiva e design delle interfacce · Materiale teorico del corso e approfondimenti",
+    "editionLabel": "A.A. 23/24, PDF datato dicembre 2024",
+    "authorsOnCover": [
+      "Marco Cremaschi",
+      "Giulia Rosemary Avis"
+    ],
+    "layoutAndTextCredits": [
+      "Avis Giulia Rosemary",
+      "Pierotti Andrea Primo",
+      "Belfi Chiara",
+      "Bisi Martina",
+      "Conti Kevin",
+      "Guarnieri Elia"
+    ],
+    "rightsNoticeSourcePage": 3,
+    "rightsNoticeExact": "Questo materiale didattico è ad uso esclusivo degli studenti del corso di Comunicazione Visiva e Design delle Interfacce e non può essere riprodotto, distribuito o condiviso in alcun modo.",
+    "figureRights": "Marchio, siti e immagini McDonald’s: diritti dei rispettivi titolari; nessuna licenza aperta attestata nella sezione.",
+    "sourceCaptureDate": "Data della cattura dei siti non attestata; materiale storico del booklet 2024."
+  },
+  "sourceRecords": {
+    "mcdonald": "mcdonald-source.json",
+    "alibaba": "alibaba-source.json"
+  },
+  "sourceCoverage": {
+    "sourcePdfPages": [
+      172,
+      187
+    ],
+    "mcdonaldPdfPages": [
+      172,
+      183
+    ],
+    "alibabaPdfPages": [
+      184,
+      187
+    ],
+    "mcdonaldCurrentBoards": 16,
+    "alibabaCurrentBoards": 5,
+    "originalNativeTextBlocks": 41,
+    "mcdonaldOriginalImages": 18,
+    "alibabaMeaningfulOriginalImages": 5,
+    "originalMeaningfulImagesTotal": 23,
+    "renderedImageNodes": 16,
+    "mcdonaldScreenshotPartsAllPresent": true,
+    "nonContentDecoration": "Original orange bands and thin edge artifacts retained in originals; Alibaba cover background reconstructed in its original color."
+  },
+  "layout": {
+    "ordinaryWidth": 363,
+    "ordinaryBodyFont": "Merriweather Light, 10px/15px",
+    "ordinaryTitleFont": "Geom Bold,20px/25px",
+    "continuations": "Image continuation boards for McDonald’s176/178/180/182 and Alibaba186 preserve full text and avoid shrinking dense figures."
+  },
+  "currentBoardMap": [
+    {
+      "id": "2668:238",
+      "specIndex": 0,
+      "case": "bridge",
+      "sourcePage": null,
+      "continuation": false,
+      "bodyId": "2668:334",
+      "ordinal": 48,
+      "printedPage": 140,
+      "bottom": 387
+    },
+    {
+      "id": "198:4440",
+      "specIndex": 1,
+      "case": "mcdonald",
+      "sourcePage": 172,
+      "continuation": false,
+      "bodyId": "2668:345",
+      "ordinal": 49,
+      "printedPage": 141,
+      "bottom": 497.927490234375
+    },
+    {
+      "id": "198:4995",
+      "specIndex": 2,
+      "case": "mcdonald",
+      "sourcePage": 173,
+      "continuation": false,
+      "bodyId": "2668:349",
+      "ordinal": 50,
+      "printedPage": 142,
+      "bottom": 380
+    },
+    {
+      "id": "198:4458",
+      "specIndex": 3,
+      "case": "mcdonald",
+      "sourcePage": 174,
+      "continuation": false,
+      "bodyId": "2668:355",
+      "ordinal": 51,
+      "printedPage": 143,
+      "bottom": 598
+    },
+    {
+      "id": "198:5017",
+      "specIndex": 4,
+      "case": "mcdonald",
+      "sourcePage": 175,
+      "continuation": false,
+      "bodyId": "2668:361",
+      "ordinal": 52,
+      "printedPage": 144,
+      "bottom": 598
+    },
+    {
+      "id": "2648:240",
+      "specIndex": 5,
+      "case": "mcdonald",
+      "sourcePage": 176,
+      "continuation": false,
+      "bodyId": "2668:367",
+      "ordinal": 53,
+      "printedPage": 145,
+      "bottom": 365
+    },
+    {
+      "id": "2668:250",
+      "specIndex": 6,
+      "case": "mcdonald",
+      "sourcePage": 176,
+      "continuation": true,
+      "bodyId": "2668:373",
+      "ordinal": 54,
+      "printedPage": 146,
+      "bottom": 427.89410400390625
+    },
+    {
+      "id": "2648:267",
+      "specIndex": 7,
+      "case": "mcdonald",
+      "sourcePage": 177,
+      "continuation": false,
+      "bodyId": "2668:378",
+      "ordinal": 55,
+      "printedPage": 147,
+      "bottom": 583.395263671875
+    },
+    {
+      "id": "2648:298",
+      "specIndex": 8,
+      "case": "mcdonald",
+      "sourcePage": 178,
+      "continuation": false,
+      "bodyId": "2668:384",
+      "ordinal": 56,
+      "printedPage": 148,
+      "bottom": 440
+    },
+    {
+      "id": "2668:262",
+      "specIndex": 9,
+      "case": "mcdonald",
+      "sourcePage": 178,
+      "continuation": true,
+      "bodyId": "2668:390",
+      "ordinal": 57,
+      "printedPage": 149,
+      "bottom": 383.943359375
+    },
+    {
+      "id": "2648:325",
+      "specIndex": 10,
+      "case": "mcdonald",
+      "sourcePage": 179,
+      "continuation": false,
+      "bodyId": "2668:395",
+      "ordinal": 58,
+      "printedPage": 150,
+      "bottom": 598
+    },
+    {
+      "id": "2648:356",
+      "specIndex": 11,
+      "case": "mcdonald",
+      "sourcePage": 180,
+      "continuation": false,
+      "bodyId": "2668:401",
+      "ordinal": 59,
+      "printedPage": 151,
+      "bottom": 530
+    },
+    {
+      "id": "2668:274",
+      "specIndex": 12,
+      "case": "mcdonald",
+      "sourcePage": 180,
+      "continuation": true,
+      "bodyId": "2668:408",
+      "ordinal": 60,
+      "printedPage": 152,
+      "bottom": 470.6374816894531
+    },
+    {
+      "id": "2648:383",
+      "specIndex": 13,
+      "case": "mcdonald",
+      "sourcePage": 181,
+      "continuation": false,
+      "bodyId": "2668:413",
+      "ordinal": 61,
+      "printedPage": 153,
+      "bottom": 598
+    },
+    {
+      "id": "2648:414",
+      "specIndex": 14,
+      "case": "mcdonald",
+      "sourcePage": 182,
+      "continuation": false,
+      "bodyId": "2668:419",
+      "ordinal": 62,
+      "printedPage": 154,
+      "bottom": 450
+    },
+    {
+      "id": "2668:286",
+      "specIndex": 15,
+      "case": "mcdonald",
+      "sourcePage": 182,
+      "continuation": true,
+      "bodyId": "2668:425",
+      "ordinal": 63,
+      "printedPage": 155,
+      "bottom": 606.3809814453125
+    },
+    {
+      "id": "2648:441",
+      "specIndex": 16,
+      "case": "mcdonald",
+      "sourcePage": 183,
+      "continuation": false,
+      "bodyId": "2668:430",
+      "ordinal": 64,
+      "printedPage": 156,
+      "bottom": 598
+    },
+    {
+      "id": "2668:298",
+      "specIndex": 17,
+      "case": "alibaba",
+      "sourcePage": 184,
+      "continuation": false,
+      "bodyId": "2668:436",
+      "ordinal": 65,
+      "printedPage": 157,
+      "bottom": 577.8230743408203
+    },
+    {
+      "id": "198:4509",
+      "specIndex": 18,
+      "case": "alibaba",
+      "sourcePage": 185,
+      "continuation": false,
+      "bodyId": "2668:439",
+      "ordinal": 66,
+      "printedPage": 158,
+      "bottom": 350
+    },
+    {
+      "id": "198:5050",
+      "specIndex": 19,
+      "case": "alibaba",
+      "sourcePage": 186,
+      "continuation": false,
+      "bodyId": "2668:445",
+      "ordinal": 67,
+      "printedPage": 159,
+      "bottom": 485.8717041015625
+    },
+    {
+      "id": "2668:310",
+      "specIndex": 20,
+      "case": "alibaba",
+      "sourcePage": 186,
+      "continuation": true,
+      "bodyId": "2668:452",
+      "ordinal": 68,
+      "printedPage": 160,
+      "bottom": 466.9969787597656
+    },
+    {
+      "id": "2668:322",
+      "specIndex": 21,
+      "case": "alibaba",
+      "sourcePage": 187,
+      "continuation": false,
+      "bodyId": "2668:457",
+      "ordinal": 69,
+      "printedPage": 161,
+      "bottom": 578.5672607421875
+    }
+  ],
+  "sourceBlockMap": [
+    {
+      "key": "mcdonald:173:0",
+      "id": "2668:350",
+      "board": "198:4995"
+    },
+    {
+      "key": "mcdonald:173:1",
+      "id": "2668:351",
+      "board": "198:4995"
+    },
+    {
+      "key": "mcdonald:173:2",
+      "id": "2668:352",
+      "board": "198:4995"
+    },
+    {
+      "key": "mcdonald:173:3",
+      "id": "2668:353",
+      "board": "198:4995"
+    },
+    {
+      "key": "mcdonald:174:0",
+      "id": "2668:356",
+      "board": "198:4458"
+    },
+    {
+      "key": "mcdonald:174:1",
+      "id": "2668:357",
+      "board": "198:4458"
+    },
+    {
+      "key": "mcdonald:175:0",
+      "id": "2668:362",
+      "board": "198:5017"
+    },
+    {
+      "key": "mcdonald:175:1",
+      "id": "2668:363",
+      "board": "198:5017"
+    },
+    {
+      "key": "mcdonald:176:0",
+      "id": "2668:368",
+      "board": "2648:240"
+    },
+    {
+      "key": "mcdonald:176:1",
+      "id": "2668:369",
+      "board": "2648:240"
+    },
+    {
+      "key": "mcdonald:176:2",
+      "id": "2668:370",
+      "board": "2648:240"
+    },
+    {
+      "key": "mcdonald:176:3",
+      "id": "2668:371",
+      "board": "2648:240"
+    },
+    {
+      "key": "mcdonald:177:0",
+      "id": "2668:379",
+      "board": "2648:267"
+    },
+    {
+      "key": "mcdonald:177:1",
+      "id": "2668:380",
+      "board": "2648:267"
+    },
+    {
+      "key": "mcdonald:178:0",
+      "id": "2668:385",
+      "board": "2648:298"
+    },
+    {
+      "key": "mcdonald:178:1",
+      "id": "2668:386",
+      "board": "2648:298"
+    },
+    {
+      "key": "mcdonald:178:2",
+      "id": "2668:387",
+      "board": "2648:298"
+    },
+    {
+      "key": "mcdonald:178:3",
+      "id": "2668:388",
+      "board": "2648:298"
+    },
+    {
+      "key": "mcdonald:179:0",
+      "id": "2668:396",
+      "board": "2648:325"
+    },
+    {
+      "key": "mcdonald:179:1",
+      "id": "2668:397",
+      "board": "2648:325"
+    },
+    {
+      "key": "mcdonald:180:0",
+      "id": "2668:402",
+      "board": "2648:356"
+    },
+    {
+      "key": "mcdonald:180:1",
+      "id": "2668:403",
+      "board": "2648:356"
+    },
+    {
+      "key": "mcdonald:180:2",
+      "id": "2668:404",
+      "board": "2648:356"
+    },
+    {
+      "key": "mcdonald:180:3",
+      "id": "2668:405",
+      "board": "2648:356"
+    },
+    {
+      "key": "mcdonald:181:0",
+      "id": "2668:414",
+      "board": "2648:383"
+    },
+    {
+      "key": "mcdonald:181:1",
+      "id": "2668:415",
+      "board": "2648:383"
+    },
+    {
+      "key": "mcdonald:182:0",
+      "id": "2668:420",
+      "board": "2648:414"
+    },
+    {
+      "key": "mcdonald:182:1",
+      "id": "2668:421",
+      "board": "2648:414"
+    },
+    {
+      "key": "mcdonald:182:2",
+      "id": "2668:422",
+      "board": "2648:414"
+    },
+    {
+      "key": "mcdonald:182:3",
+      "id": "2668:423",
+      "board": "2648:414"
+    },
+    {
+      "key": "mcdonald:183:0",
+      "id": "2668:431",
+      "board": "2648:441"
+    },
+    {
+      "key": "mcdonald:183:1",
+      "id": "2668:432",
+      "board": "2648:441"
+    },
+    {
+      "key": "alibaba:185:0",
+      "id": "2668:440",
+      "board": "198:4509"
+    },
+    {
+      "key": "alibaba:185:1",
+      "id": "2668:441",
+      "board": "198:4509"
+    },
+    {
+      "key": "alibaba:185:2",
+      "id": "2668:442",
+      "board": "198:4509"
+    },
+    {
+      "key": "alibaba:185:3",
+      "id": "2668:443",
+      "board": "198:4509"
+    },
+    {
+      "key": "alibaba:186:0",
+      "id": "2668:446",
+      "board": "198:5050"
+    },
+    {
+      "key": "alibaba:186:1",
+      "id": "2668:449",
+      "board": "198:5050"
+    },
+    {
+      "key": "alibaba:186:2",
+      "id": "2668:450",
+      "board": "198:5050"
+    },
+    {
+      "key": "alibaba:187:0",
+      "id": "2668:458",
+      "board": "2668:322"
+    },
+    {
+      "key": "alibaba:187:1",
+      "id": "2668:459",
+      "board": "2668:322"
+    }
+  ],
+  "selectedAssets": [
+    {
+      "key": "mcdonald-logo",
+      "case": "mcdonald",
+      "sourcePage": 172,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-172-image-01.png",
+      "size": [
+        1200,
+        1051
+      ],
+      "sha256": "8511e396956e3e84f283a7cc2d9e14a01c2e4d3a79a83966992ddd1e90663c00",
+      "nodeId": "2668:347",
+      "imageHash": "d6e024b5749a5157395d52582878bc7321caf23c"
+    },
+    {
+      "key": "mcdonald-174-completo",
+      "case": "mcdonald",
+      "sourcePage": 174,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-174-completo.png",
+      "size": [
+        1058,
+        1048
+      ],
+      "sha256": "16bddcaf78b2d08745b296227799bcc81eac573eefa15f6f37361eb43c929a16",
+      "nodeId": "2668:359",
+      "imageHash": "ed3bd5f310999baba72cb381f8ed5bff9fefb1cd"
+    },
+    {
+      "key": "mcdonald-175-completo",
+      "case": "mcdonald",
+      "sourcePage": 175,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-175-completo.png",
+      "size": [
+        1056,
+        1274
+      ],
+      "sha256": "1ac3f790a445a17e9e085e2413c6d49fc104d30a15bc80ad8a139be87fd4067c",
+      "nodeId": "2668:365",
+      "imageHash": "f3dc006b37a721c580522244ba67c059a3cde189"
+    },
+    {
+      "key": "mcdonald-176-completo",
+      "case": "mcdonald",
+      "sourcePage": 176,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-176-completo.png",
+      "size": [
+        982,
+        768
+      ],
+      "sha256": "d0d3a9d6fa28d2eb4916a682ba101afa350d545bd885e22a6e7fa88625561097",
+      "nodeId": "2668:376",
+      "imageHash": "5d8177483839f402c7d721f677e17499e1b9133b"
+    },
+    {
+      "key": "mcdonald-177-completo",
+      "case": "mcdonald",
+      "sourcePage": 177,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-177-completo.png",
+      "size": [
+        974,
+        857
+      ],
+      "sha256": "ac3d3e9a09b3d06d9eae7120a8e2fc53ab785a17cc648bd67c909e645e6a442f",
+      "nodeId": "2668:382",
+      "imageHash": "611a51ae18dce46fff921ea1cf4b80b0a445d544"
+    },
+    {
+      "key": "mcdonald-178-completo",
+      "case": "mcdonald",
+      "sourcePage": 178,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-178-completo.png",
+      "size": [
+        1059,
+        700
+      ],
+      "sha256": "a42a59cd75159e96786c48a46995cc189ab55a69d2eea3e56732afa23cfddc73",
+      "nodeId": "2668:393",
+      "imageHash": "cd8480ff6375ce02fb8afa99b5cc8a77a132c196"
+    },
+    {
+      "key": "mcdonald-179-completo",
+      "case": "mcdonald",
+      "sourcePage": 179,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-179-completo.png",
+      "size": [
+        977,
+        1088
+      ],
+      "sha256": "2c3d799dac46a33010851c0a544e471d6f68fa4a6f6987fbb1e1264cd03e02cc",
+      "nodeId": "2668:399",
+      "imageHash": "6ed71b6a2d341cda65b6f339ad3e836c880ebfec"
+    },
+    {
+      "key": "mcdonald-180-completo",
+      "case": "mcdonald",
+      "sourcePage": 180,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-180-completo.png",
+      "size": [
+        982,
+        816
+      ],
+      "sha256": "e4baccea34fb6e9c94c26880d67a0d271e564a48245d8c2a7edce01bd6a201f7",
+      "nodeId": "2668:411",
+      "imageHash": "ff7be09d84fa34600d22da32745854d61c5226cc"
+    },
+    {
+      "key": "mcdonald-181-completo",
+      "case": "mcdonald",
+      "sourcePage": 181,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-181-completo.png",
+      "size": [
+        1043,
+        1022
+      ],
+      "sha256": "265e656aabe1a2e35db89d5f30a3c21db4dfb76764236cfe1b502dc19547d792",
+      "nodeId": "2668:417",
+      "imageHash": "82407b645e8f034af030789e88fcb6c7813889f4"
+    },
+    {
+      "key": "mcdonald-182-completo",
+      "case": "mcdonald",
+      "sourcePage": 182,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-182-completo.png",
+      "size": [
+        693,
+        835
+      ],
+      "sha256": "597d4ed0c3483e448ee70bc9d0c1d520e82a9f4f5a708cecac88c9c7e0eb3e65",
+      "nodeId": "2668:428",
+      "imageHash": "e5b2e730f1f7d9b1356561c20a0b0e05d7256028"
+    },
+    {
+      "key": "mcdonald-183-completo",
+      "case": "mcdonald",
+      "sourcePage": 183,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-183-completo.png",
+      "size": [
+        1035,
+        1289
+      ],
+      "sha256": "457d2dad8c484822c2e5edf48aeeaccba14179b86e5419598a782b94fcf8a24a",
+      "nodeId": "2668:434",
+      "imageHash": "9f96b326e840d9ab31f12eff028a1347918cf126"
+    },
+    {
+      "key": "alibaba-logo",
+      "case": "alibaba",
+      "sourcePage": 184,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p184-I444.png",
+      "size": [
+        510,
+        512
+      ],
+      "sha256": "a45977085c93bc1d4103525fb05f5915f370799a137c8f059d4afb9b565bd9a2",
+      "nodeId": "2668:438",
+      "imageHash": "f2bf3d7249d5fc289ad8736f94af8883bce000e9"
+    },
+    {
+      "key": "alibaba-186-homepage",
+      "case": "alibaba",
+      "sourcePage": 186,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I450.jpg",
+      "size": [
+        2486,
+        1451
+      ],
+      "sha256": "ef6d7a18a933e63552065a0a8c11ebd032581e950e84c8fa46db1ae7ed9c1c40",
+      "nodeId": "2668:448",
+      "imageHash": "1ac02e1eee5a6376a5cf751fdecb6ec17dbf9900"
+    },
+    {
+      "key": "alibaba-186-espansione",
+      "case": "alibaba",
+      "sourcePage": 186,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I449.jpg",
+      "size": [
+        992,
+        951
+      ],
+      "sha256": "f8bd8d09e6a754fedfaca4908d69d43abcae9ca17a4b48d7afb8dba8e301f11e",
+      "nodeId": "2668:455",
+      "imageHash": "0e3574807bd3fbc6eda464efd18573d9b16cd08e"
+    },
+    {
+      "key": "alibaba-187-css-1",
+      "case": "alibaba",
+      "sourcePage": 187,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I451.jpg",
+      "size": [
+        997,
+        541
+      ],
+      "sha256": "e2bf70d8ac8dff354898d5ffbd9fc18eb9d447f295d7ef86a0fe89d23a7de885",
+      "nodeId": "2668:461",
+      "imageHash": "8e42ced296ba92908c204ec7137506396bd66c8f"
+    },
+    {
+      "key": "alibaba-187-css-2",
+      "case": "alibaba",
+      "sourcePage": 187,
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I452.jpg",
+      "size": [
+        996,
+        501
+      ],
+      "sha256": "18bfc318a0f38384af12b87451ddacd9735785a6feb1d817c1f158dac41f821d",
+      "nodeId": "2668:463",
+      "imageHash": "9660864c5a7f16358323ea879c572a2f0c50f124"
+    }
+  ],
+  "previousCases": [
+    {
+      "currentBoardId": "198:4440",
+      "archiveBoardId": "2665:279",
+      "name": "C03 · 037 · SX — Case study McDonald’s"
+    },
+    {
+      "currentBoardId": "198:4995",
+      "archiveBoardId": "2665:282",
+      "name": "C03 · 038 · DX — Case study McDonald’s"
+    },
+    {
+      "currentBoardId": "198:4458",
+      "archiveBoardId": "2665:288",
+      "name": "C03 · 039 · SX — Empathize · contesto e accessibilità"
+    },
+    {
+      "currentBoardId": "198:5017",
+      "archiveBoardId": "2665:306",
+      "name": "C03 · 040 · DX — Empathize · contesto e accessibilità"
+    },
+    {
+      "currentBoardId": "2648:240",
+      "archiveBoardId": "2665:312",
+      "name": "C03 · 041 · SX — McDonald’s · Italia e Turchia"
+    },
+    {
+      "currentBoardId": "2648:267",
+      "archiveBoardId": "2665:330",
+      "name": "C03 · 042 · DX — McDonald’s · Italia e Turchia · schermate"
+    },
+    {
+      "currentBoardId": "2648:298",
+      "archiveBoardId": "2665:336",
+      "name": "C03 · 043 · SX — McDonald’s · Slovacchia e Slovenia"
+    },
+    {
+      "currentBoardId": "2648:325",
+      "archiveBoardId": "2665:354",
+      "name": "C03 · 044 · DX — McDonald’s · Slovacchia e Slovenia · schermate"
+    },
+    {
+      "currentBoardId": "2648:356",
+      "archiveBoardId": "2665:360",
+      "name": "C03 · 045 · SX — McDonald’s · Giappone e India"
+    },
+    {
+      "currentBoardId": "2648:383",
+      "archiveBoardId": "2665:378",
+      "name": "C03 · 046 · DX — McDonald’s · Giappone e India · schermate"
+    },
+    {
+      "currentBoardId": "2648:414",
+      "archiveBoardId": "2665:384",
+      "name": "C03 · 047 · SX — McDonald’s · Cina e Australia"
+    },
+    {
+      "currentBoardId": "2648:441",
+      "archiveBoardId": "2665:402",
+      "name": "C03 · 048 · DX — McDonald’s · Cina e Australia · schermate"
+    },
+    {
+      "currentBoardId": "198:4509",
+      "archiveBoardId": "2665:408",
+      "name": "C03 · 054 · DX — Localizzare tutti i contenuti"
+    },
+    {
+      "currentBoardId": "198:5050",
+      "archiveBoardId": "2665:426",
+      "name": "C03 · 055 · SX — Le traduzioni cambiano lo spazio"
+    }
+  ],
+  "content": "figma-text.json",
+  "verification": "../../../reports/contesto-culturale/casi-integrali/verifica.json",
+  "sourceNotes": {
+    "wording": "Source wording preserved; only PDF wraps/discretionary line-break hyphens normalized.",
+    "historicalContext": "A.A.23/24 attribution and source-page footer; method bridge distinguishes descriptions, interpretations and verification.",
+    "incompleteSentence": "McDonald’s source180 contains a truncated sentence, preserved and marked with an editorial source note."
+  }
+}

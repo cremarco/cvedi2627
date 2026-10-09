@@ -48,7 +48,7 @@
       "lessonNumber": 4,
       "lessonSlide": 3,
       "title": "Cosa impareremo",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         1,
         2,
@@ -62,7 +62,7 @@
         "198:2908"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
@@ -102,14 +102,14 @@
         "198:2908"
       ],
       "assets": [],
-      "kind": "statement"
+      "kind": "process"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
       "lessonSlide": 6,
       "title": "La ricerca parte dalle domande",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         5
       ],
@@ -124,7 +124,7 @@
       "lessonNumber": 4,
       "lessonSlide": 7,
       "title": "Intervistare e osservare",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         6
       ],
@@ -132,14 +132,14 @@
         "2460:1099"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
       "lessonSlide": 8,
       "title": "Chiedere un episodio concreto",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         6
       ],
@@ -154,7 +154,7 @@
       "lessonNumber": 4,
       "lessonSlide": 9,
       "title": "Osservazione, interpretazione, ipotesi",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         7
       ],
@@ -162,14 +162,14 @@
         "2460:1123"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
       "lessonSlide": 10,
       "title": "Rendere rintracciabili le evidenze",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         7
       ],
@@ -201,7 +201,7 @@
       "lessonNumber": 4,
       "lessonSlide": 12,
       "title": "Distanza dal potere",
-      "minutes": 2,
+      "minutes": 1.2,
       "sourcePages": [
         9,
         10
@@ -211,25 +211,22 @@
         "198:4586"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
       "lessonSlide": 13,
-      "title": "Due comunicazioni universitarie",
-      "minutes": 2.5,
+      "title": "Mosca · sito attuale",
+      "minutes": 0.428571429,
       "sourcePages": [
-        11,
-        12
+        11
       ],
       "sourceNodes": [
-        "198:4418",
-        "198:4973"
+        "198:4418"
       ],
       "assets": [
-        "c03-011-01",
-        "c03-012-01"
+        "online-mosca-20261009"
       ],
       "kind": "figure"
     },
@@ -237,8 +234,110 @@
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
       "lessonSlide": 14,
+      "title": "Mosca · screenshot del libro",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        11
+      ],
+      "sourceNodes": [
+        "198:4418"
+      ],
+      "assets": [
+        "c03-011-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 15,
+      "title": "Amsterdam · sito attuale",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        12
+      ],
+      "sourceNodes": [
+        "198:4973"
+      ],
+      "assets": [
+        "online-amsterdam-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 16,
+      "title": "Amsterdam · screenshot del libro",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        12
+      ],
+      "sourceNodes": [
+        "198:4973"
+      ],
+      "assets": [
+        "c03-012-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 17,
+      "title": "Mosca · versione dal booklet 2024",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        11
+      ],
+      "sourceNodes": [
+        "198:4418"
+      ],
+      "assets": [
+        "hofstede-mosca-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 18,
+      "title": "Amsterdam · versione dal booklet 2024",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        12
+      ],
+      "sourceNodes": [
+        "198:4973"
+      ],
+      "assets": [
+        "hofstede-amsterdam-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 19,
+      "title": "Amsterdam · incontri e orientamento",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        12
+      ],
+      "sourceNodes": [
+        "198:4973"
+      ],
+      "assets": [
+        "hofstede-amsterdam-masterweek-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 20,
       "title": "Individualismo e appartenenza",
-      "minutes": 2,
+      "minutes": 1.2,
       "sourcePages": [
         13,
         14
@@ -248,24 +347,72 @@
         "198:4960"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 15,
-      "title": "Il viaggio e il servizio alla comunità",
-      "minutes": 2.5,
+      "lessonSlide": 21,
+      "title": "Greyhound · sito attuale",
+      "minutes": 0.375,
       "sourcePages": [
-        15,
+        15
+      ],
+      "sourceNodes": [
+        "198:4575"
+      ],
+      "assets": [
+        "online-greyhound-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 22,
+      "title": "Greyhound · screenshot del libro",
+      "minutes": 0.375,
+      "sourcePages": [
+        15
+      ],
+      "sourceNodes": [
+        "198:4575"
+      ],
+      "assets": [
+        "c03-015-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 23,
+      "title": "KMB · sito attuale",
+      "minutes": 0.375,
+      "sourcePages": [
         16
       ],
       "sourceNodes": [
-        "198:4575",
         "198:5105"
       ],
       "assets": [
-        "c03-015-01",
+        "online-kmb-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 24,
+      "title": "KMB · screenshot del libro",
+      "minutes": 0.375,
+      "sourcePages": [
+        16
+      ],
+      "sourceNodes": [
+        "198:5105"
+      ],
+      "assets": [
         "c03-016-01"
       ],
       "kind": "figure"
@@ -273,9 +420,77 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 16,
+      "lessonSlide": 25,
+      "title": "Greyhound · versione dal booklet 2024",
+      "minutes": 0.375,
+      "sourcePages": [
+        15
+      ],
+      "sourceNodes": [
+        "198:4575"
+      ],
+      "assets": [
+        "hofstede-greyhound-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 26,
+      "title": "Greyhound · il profilo personale",
+      "minutes": 0.375,
+      "sourcePages": [
+        15
+      ],
+      "sourceNodes": [
+        "198:4575"
+      ],
+      "assets": [
+        "hofstede-greyhound-road-rewards-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 27,
+      "title": "KMB · versione dal booklet 2024",
+      "minutes": 0.375,
+      "sourcePages": [
+        16
+      ],
+      "sourceNodes": [
+        "198:5105"
+      ],
+      "assets": [
+        "hofstede-kmb-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 28,
+      "title": "KMB · assistenza ai viaggiatori",
+      "minutes": 0.375,
+      "sourcePages": [
+        16
+      ],
+      "sourceNodes": [
+        "198:5105"
+      ],
+      "assets": [
+        "hofstede-kmb-assistenza-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 29,
       "title": "Competizione e cooperazione",
-      "minutes": 2,
+      "minutes": 1.2,
       "sourcePages": [
         17,
         18
@@ -285,24 +500,72 @@
         "198:4947"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 17,
-      "title": "Leggere i messaggi istituzionali",
-      "minutes": 2.5,
+      "lessonSlide": 30,
+      "title": "Giappone · sito attuale",
+      "minutes": 0.428571429,
       "sourcePages": [
-        19,
+        19
+      ],
+      "sourceNodes": [
+        "198:4564"
+      ],
+      "assets": [
+        "online-giappone-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 31,
+      "title": "Giappone · screenshot del libro",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        19
+      ],
+      "sourceNodes": [
+        "198:4564"
+      ],
+      "assets": [
+        "c03-019-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 32,
+      "title": "Svezia · sito attuale",
+      "minutes": 0.428571429,
+      "sourcePages": [
         20
       ],
       "sourceNodes": [
-        "198:4564",
         "198:5094"
       ],
       "assets": [
-        "c03-019-01",
+        "online-svezia-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 33,
+      "title": "Svezia · screenshot del libro",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        20
+      ],
+      "sourceNodes": [
+        "198:5094"
+      ],
+      "assets": [
         "c03-020-01"
       ],
       "kind": "figure"
@@ -310,9 +573,60 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 18,
+      "lessonSlide": 34,
+      "title": "Svezia · cura e benessere collettivo · contenuti",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        20
+      ],
+      "sourceNodes": [
+        "198:5094"
+      ],
+      "assets": [
+        "c03-020-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 35,
+      "title": "Giappone · versione dal booklet 2024",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        19
+      ],
+      "sourceNodes": [
+        "198:4564"
+      ],
+      "assets": [
+        "hofstede-giappone-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 36,
+      "title": "Norvegia · un altro esempio dal libro",
+      "minutes": 0.428571429,
+      "sourcePages": [
+        20
+      ],
+      "sourceNodes": [
+        "198:5094"
+      ],
+      "assets": [
+        "hofstede-norvegia-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 37,
       "title": "Rifiuto dell’incertezza",
-      "minutes": 2,
+      "minutes": 1.2,
       "sourcePages": [
         21,
         22
@@ -322,24 +636,89 @@
         "198:4934"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 19,
-      "title": "Prezzi espliciti o invito a esplorare?",
-      "minutes": 2.5,
+      "lessonSlide": 38,
+      "title": "KFC Bielorussia · sito attuale",
+      "minutes": 0.375,
       "sourcePages": [
-        23,
+        23
+      ],
+      "sourceNodes": [
+        "198:4553"
+      ],
+      "assets": [
+        "online-kfc-bielorussia-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 39,
+      "title": "KFC Bielorussia · screenshot del libro",
+      "minutes": 0.375,
+      "sourcePages": [
+        23
+      ],
+      "sourceNodes": [
+        "198:4553"
+      ],
+      "assets": [
+        "c03-023-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 40,
+      "title": "KFC Bielorussia · prezzi e prodotti · contenuti",
+      "minutes": 0.375,
+      "sourcePages": [
+        23
+      ],
+      "sourceNodes": [
+        "198:4553"
+      ],
+      "assets": [
+        "c03-023-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 41,
+      "title": "KFC Danimarca · sito attuale",
+      "minutes": 0.375,
+      "sourcePages": [
         24
       ],
       "sourceNodes": [
-        "198:4553",
         "198:5083"
       ],
       "assets": [
-        "c03-023-01",
+        "online-kfc-danimarca-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 42,
+      "title": "KFC Danimarca · screenshot del libro",
+      "minutes": 0.375,
+      "sourcePages": [
+        24
+      ],
+      "sourceNodes": [
+        "198:5083"
+      ],
+      "assets": [
         "c03-024-01"
       ],
       "kind": "figure"
@@ -347,9 +726,60 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 20,
+      "lessonSlide": 43,
+      "title": "KFC Russia · un altro mercato nel libro",
+      "minutes": 0.375,
+      "sourcePages": [
+        23
+      ],
+      "sourceNodes": [
+        "198:4553"
+      ],
+      "assets": [
+        "hofstede-kfc-russia-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 44,
+      "title": "KFC Russia · punti e prezzi",
+      "minutes": 0.375,
+      "sourcePages": [
+        23
+      ],
+      "sourceNodes": [
+        "198:4553"
+      ],
+      "assets": [
+        "hofstede-kfc-russia-punti-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 45,
+      "title": "KFC Danimarca · versione dal booklet 2024",
+      "minutes": 0.375,
+      "sourcePages": [
+        24
+      ],
+      "sourceNodes": [
+        "198:5083"
+      ],
+      "assets": [
+        "hofstede-kfc-danimarca-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 46,
       "title": "L’orizzonte temporale del messaggio",
-      "minutes": 2,
+      "minutes": 1.2,
       "sourcePages": [
         25,
         26
@@ -359,24 +789,89 @@
         "198:4921"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 21,
-      "title": "Impegni futuri e promozioni attuali",
-      "minutes": 2.5,
+      "lessonSlide": 47,
+      "title": "Kinder Cina · sito attuale",
+      "minutes": 0.333333333,
       "sourcePages": [
-        27,
+        27
+      ],
+      "sourceNodes": [
+        "198:4429"
+      ],
+      "assets": [
+        "online-kinder-cina-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 48,
+      "title": "Kinder Cina · screenshot del libro",
+      "minutes": 0.333333333,
+      "sourcePages": [
+        27
+      ],
+      "sourceNodes": [
+        "198:4429"
+      ],
+      "assets": [
+        "c03-027-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 49,
+      "title": "Kinder Cina · bambini e crescita · contenuti",
+      "minutes": 0.333333333,
+      "sourcePages": [
+        27
+      ],
+      "sourceNodes": [
+        "198:4429"
+      ],
+      "assets": [
+        "c03-027-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 50,
+      "title": "Kinder USA · sito attuale",
+      "minutes": 0.333333333,
+      "sourcePages": [
         28
       ],
       "sourceNodes": [
-        "198:4429",
         "198:4984"
       ],
       "assets": [
-        "c03-027-01",
+        "online-kinder-usa-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 51,
+      "title": "Kinder USA · screenshot del libro",
+      "minutes": 0.333333333,
+      "sourcePages": [
+        28
+      ],
+      "sourceNodes": [
+        "198:4984"
+      ],
+      "assets": [
         "c03-028-01"
       ],
       "kind": "figure"
@@ -384,7 +879,128 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 22,
+      "lessonSlide": 52,
+      "title": "Kinder USA · prodotti e novità · contenuti",
+      "minutes": 0.333333333,
+      "sourcePages": [
+        28
+      ],
+      "sourceNodes": [
+        "198:4984"
+      ],
+      "assets": [
+        "c03-028-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 53,
+      "title": "Kinder Cina · apertura nel booklet 2024",
+      "minutes": 0.333333333,
+      "sourcePages": [
+        27
+      ],
+      "sourceNodes": [
+        "198:4429"
+      ],
+      "assets": [
+        "hofstede-kinder-cina-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 54,
+      "title": "Kinder Cina · storie di crescita",
+      "minutes": 0.333333333,
+      "sourcePages": [
+        27
+      ],
+      "sourceNodes": [
+        "198:4429"
+      ],
+      "assets": [
+        "hofstede-kinder-cina-crescita-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 55,
+      "title": "Kinder USA · versione dal booklet 2024",
+      "minutes": 0.333333333,
+      "sourcePages": [
+        28
+      ],
+      "sourceNodes": [
+        "198:4984"
+      ],
+      "assets": [
+        "hofstede-kinder-usa-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 56,
+      "title": "Indulgenza e restrizione",
+      "minutes": 0.5,
+      "sourcePages": [
+        29
+      ],
+      "sourceNodes": [
+        "198:4440"
+      ],
+      "assets": [],
+      "kind": "concept"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 57,
+      "title": "IVR · osservare svago e piaceri",
+      "minutes": 0.5,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
+        "c03-036-02"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 58,
+      "title": "IVR · osservare regole e condizioni",
+      "minutes": 0.5,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
+        "c03-036-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 59,
       "title": "Un’identità, mercati diversi",
       "minutes": 2.5,
       "sourcePages": [
@@ -403,9 +1019,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 23,
-      "title": "McDonald’s: guidare ed esplorare",
-      "minutes": 2.5,
+      "lessonSlide": 60,
+      "title": "McDonald’s · Cina · sito attuale",
+      "minutes": 0.416666667,
       "sourcePages": [
         31,
         32
@@ -415,7 +1031,63 @@
         "198:5017"
       ],
       "assets": [
-        "c03-032-01",
+        "online-mcd-cina-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 61,
+      "title": "McDonald’s · Cina · screenshot del libro",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        31,
+        32
+      ],
+      "sourceNodes": [
+        "198:4458",
+        "198:5017"
+      ],
+      "assets": [
+        "c03-032-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 62,
+      "title": "McDonald’s · Paesi Bassi · sito attuale",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        31,
+        32
+      ],
+      "sourceNodes": [
+        "198:4458",
+        "198:5017"
+      ],
+      "assets": [
+        "online-mcd-paesi-bassi-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 63,
+      "title": "McDonald’s · Paesi Bassi · screenshot del libro",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        31,
+        32
+      ],
+      "sourceNodes": [
+        "198:4458",
+        "198:5017"
+      ],
+      "assets": [
         "c03-032-02"
       ],
       "kind": "figure"
@@ -423,9 +1095,47 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 24,
-      "title": "McDonald’s: singolo e partecipazione",
-      "minutes": 2.5,
+      "lessonSlide": 64,
+      "title": "McDonald’s Cina · booklet 2024",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        31,
+        32
+      ],
+      "sourceNodes": [
+        "198:4458",
+        "198:5017"
+      ],
+      "assets": [
+        "hofstede-mcd-cina-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 65,
+      "title": "McDonald’s Paesi Bassi · booklet 2024",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        31,
+        32
+      ],
+      "sourceNodes": [
+        "198:4458",
+        "198:5017"
+      ],
+      "assets": [
+        "hofstede-mcd-paesi-bassi-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 66,
+      "title": "McDonald’s · Italia · sito attuale",
+      "minutes": 0.416666667,
       "sourcePages": [
         33,
         34
@@ -435,7 +1145,63 @@
         "198:5028"
       ],
       "assets": [
-        "c03-034-01",
+        "online-mcd-italia-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 67,
+      "title": "McDonald’s · Italia · screenshot del libro",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        33,
+        34
+      ],
+      "sourceNodes": [
+        "198:4475",
+        "198:5028"
+      ],
+      "assets": [
+        "c03-034-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 68,
+      "title": "McDonald’s · Turchia · sito attuale",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        33,
+        34
+      ],
+      "sourceNodes": [
+        "198:4475",
+        "198:5028"
+      ],
+      "assets": [
+        "online-mcd-turchia-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 69,
+      "title": "McDonald’s · Turchia · screenshot del libro",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        33,
+        34
+      ],
+      "sourceNodes": [
+        "198:4475",
+        "198:5028"
+      ],
+      "assets": [
         "c03-034-02"
       ],
       "kind": "figure"
@@ -443,9 +1209,47 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 25,
-      "title": "McDonald’s: premi e tempo libero",
-      "minutes": 2.5,
+      "lessonSlide": 70,
+      "title": "McDonald’s Stati Uniti · booklet 2024",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        33,
+        34
+      ],
+      "sourceNodes": [
+        "198:4475",
+        "198:5028"
+      ],
+      "assets": [
+        "hofstede-mcd-usa-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 71,
+      "title": "McDonald’s Turchia · booklet 2024",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        33,
+        34
+      ],
+      "sourceNodes": [
+        "198:4475",
+        "198:5028"
+      ],
+      "assets": [
+        "hofstede-mcd-turchia-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 72,
+      "title": "McDonald’s · Slovacchia · sito attuale",
+      "minutes": 0.416666667,
       "sourcePages": [
         35,
         36
@@ -455,7 +1259,63 @@
         "198:5039"
       ],
       "assets": [
-        "c03-036-01",
+        "online-mcd-slovacchia-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 73,
+      "title": "McDonald’s · Slovacchia · screenshot del libro",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
+        "c03-036-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 74,
+      "title": "McDonald’s · Slovenia · sito attuale",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
+        "online-mcd-slovenia-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 75,
+      "title": "McDonald’s · Slovenia · screenshot del libro",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
         "c03-036-02"
       ],
       "kind": "figure"
@@ -463,9 +1323,47 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 26,
-      "title": "McDonald’s: ridurre l’ambiguità",
-      "minutes": 2.5,
+      "lessonSlide": 76,
+      "title": "McDonald’s Slovacchia · booklet 2024",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
+        "hofstede-mcd-slovacchia-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 77,
+      "title": "McDonald’s Slovenia · booklet 2024",
+      "minutes": 0.416666667,
+      "sourcePages": [
+        35,
+        36
+      ],
+      "sourceNodes": [
+        "198:4492",
+        "198:5039"
+      ],
+      "assets": [
+        "hofstede-mcd-slovenia-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 78,
+      "title": "McDonald’s · Giappone · sito attuale",
+      "minutes": 0.5,
       "sourcePages": [
         37,
         38
@@ -475,7 +1373,63 @@
         "198:5072"
       ],
       "assets": [
-        "c03-038-01",
+        "online-mcd-giappone-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 79,
+      "title": "McDonald’s · Giappone · screenshot del libro",
+      "minutes": 0.5,
+      "sourcePages": [
+        37,
+        38
+      ],
+      "sourceNodes": [
+        "198:4536",
+        "198:5072"
+      ],
+      "assets": [
+        "c03-038-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 80,
+      "title": "McDonald’s · India occidentale · sito attuale",
+      "minutes": 0.5,
+      "sourcePages": [
+        37,
+        38
+      ],
+      "sourceNodes": [
+        "198:4536",
+        "198:5072"
+      ],
+      "assets": [
+        "online-mcd-india-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 81,
+      "title": "McDonald’s · India occidentale · screenshot del libro",
+      "minutes": 0.5,
+      "sourcePages": [
+        37,
+        38
+      ],
+      "sourceNodes": [
+        "198:4536",
+        "198:5072"
+      ],
+      "assets": [
         "c03-038-02"
       ],
       "kind": "figure"
@@ -483,9 +1437,28 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 27,
-      "title": "McDonald’s: continuità e servizi",
-      "minutes": 2.5,
+      "lessonSlide": 82,
+      "title": "McDonald’s India · booklet 2024",
+      "minutes": 0.5,
+      "sourcePages": [
+        37,
+        38
+      ],
+      "sourceNodes": [
+        "198:4536",
+        "198:5072"
+      ],
+      "assets": [
+        "hofstede-mcd-india-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 83,
+      "title": "McDonald’s · Cina · sito attuale",
+      "minutes": 0.5,
       "sourcePages": [
         39,
         40
@@ -495,7 +1468,63 @@
         "198:5050"
       ],
       "assets": [
-        "c03-040-01",
+        "online-mcd-cina-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 84,
+      "title": "McDonald’s · Cina · screenshot del libro",
+      "minutes": 0.5,
+      "sourcePages": [
+        39,
+        40
+      ],
+      "sourceNodes": [
+        "198:4509",
+        "198:5050"
+      ],
+      "assets": [
+        "c03-040-01"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 85,
+      "title": "McDonald’s · Australia · sito attuale",
+      "minutes": 0.5,
+      "sourcePages": [
+        39,
+        40
+      ],
+      "sourceNodes": [
+        "198:4509",
+        "198:5050"
+      ],
+      "assets": [
+        "online-mcd-australia-20261009"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 86,
+      "title": "McDonald’s · Australia · screenshot del libro",
+      "minutes": 0.5,
+      "sourcePages": [
+        39,
+        40
+      ],
+      "sourceNodes": [
+        "198:4509",
+        "198:5050"
+      ],
+      "assets": [
         "c03-040-02"
       ],
       "kind": "figure"
@@ -503,9 +1532,28 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 28,
+      "lessonSlide": 87,
+      "title": "McDonald’s Portogallo · booklet 2024",
+      "minutes": 0.5,
+      "sourcePages": [
+        39,
+        40
+      ],
+      "sourceNodes": [
+        "198:4509",
+        "198:5050"
+      ],
+      "assets": [
+        "hofstede-mcd-portogallo-2024"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "ricerca-inclusiva",
+      "lessonNumber": 4,
+      "lessonSlide": 88,
       "title": "Dal confronto all’ipotesi di ricerca",
-      "minutes": 8,
+      "minutes": 8.0,
       "sourcePages": [
         8,
         9,
@@ -582,7 +1630,7 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 29,
+      "lessonSlide": 89,
       "title": "Progettare per la pluralità",
       "minutes": 1.5,
       "sourcePages": [
@@ -599,9 +1647,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 30,
+      "lessonSlide": 90,
       "title": "Design universale e design inclusivo",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         43
       ],
@@ -609,14 +1657,14 @@
         "198:3446"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 31,
+      "lessonSlide": 91,
       "title": "Due approcci all’accesso",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         43,
         44
@@ -633,9 +1681,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 32,
+      "lessonSlide": 92,
       "title": "Il Persona Spectrum",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         45,
         46
@@ -652,9 +1700,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 33,
+      "lessonSlide": 93,
       "title": "Quattro principi di accessibilità",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         47
       ],
@@ -662,14 +1710,14 @@
         "198:3498"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 34,
+      "lessonSlide": 94,
       "title": "Dai principi ai criteri WCAG",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         47,
         48
@@ -686,9 +1734,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 35,
+      "lessonSlide": 95,
       "title": "Livelli di conformità WCAG",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         47
       ],
@@ -696,14 +1744,14 @@
         "198:3498"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 36,
+      "lessonSlide": 96,
       "title": "Contrasto del testo: i rapporti AA",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         49
       ],
@@ -716,9 +1764,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 37,
+      "lessonSlide": 97,
       "title": "Il colore non basta da solo",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         49,
         50
@@ -735,9 +1783,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 38,
+      "lessonSlide": 98,
       "title": "Priorità per l’accessibilità",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         51
       ],
@@ -750,9 +1798,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 39,
+      "lessonSlide": 99,
       "title": "Verificare l’inclusione",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         52
       ],
@@ -760,12 +1808,12 @@
         "198:3934"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 40,
+      "lessonSlide": 100,
       "title": "Dalle evidenze al problema",
       "minutes": 1.5,
       "sourcePages": [
@@ -780,9 +1828,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 41,
+      "lessonSlide": 101,
       "title": "Una persona fondata sulla ricerca",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         54
       ],
@@ -790,14 +1838,14 @@
         "2460:1145"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 42,
+      "lessonSlide": 102,
       "title": "Dal bisogno alla verifica",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         55
       ],
@@ -810,9 +1858,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 43,
+      "lessonSlide": 103,
       "title": "Una domanda aperta",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         57
       ],
@@ -825,9 +1873,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 44,
+      "lessonSlide": 104,
       "title": "La moodboard è ricerca visiva",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         56,
         57
@@ -842,9 +1890,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 45,
+      "lessonSlide": 105,
       "title": "Moodboard fisica e digitale",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         58
       ],
@@ -860,9 +1908,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 46,
+      "lessonSlide": 106,
       "title": "Dal caso alla domanda progettuale",
-      "minutes": 12,
+      "minutes": 12.0,
       "sourcePages": [
         53,
         54,
@@ -885,9 +1933,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 47,
+      "lessonSlide": 107,
       "title": "Confrontare le proposte",
-      "minutes": 6,
+      "minutes": 6.0,
       "sourcePages": [
         53,
         54,
@@ -910,9 +1958,9 @@
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 48,
+      "lessonSlide": 108,
       "title": "Tre idee da portare nel progetto",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         5,
         6,
@@ -1026,14 +2074,14 @@
         "198:4599"
       ],
       "assets": [],
-      "kind": "cards"
+      "kind": "concept"
     },
     {
       "lesson": "ricerca-inclusiva",
       "lessonNumber": 4,
-      "lessonSlide": 49,
+      "lessonSlide": 109,
       "title": "Prima della prossima lezione",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         53,
         54,
