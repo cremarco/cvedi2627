@@ -66,9 +66,9 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 .course-wordmark { position: relative; display: flex; align-items: center; gap: 13px; color: var(--home-ink); background: white; padding: 8px 12px; margin-left: -12px; font-size: 28px; font-weight: 700; text-decoration: none; letter-spacing: -.03em; }
 .wordmark-station { width: 12px; height: 12px; border: 3px solid var(--home-lime); border-radius: 50%; }
 .header-actions { display: flex; align-items: center; gap: 36px; }
-.academic-year { display: flex; flex-direction: column; align-items: start; gap: 10px; width: 248px; padding: 24px; color: var(--home-ink); background: var(--home-cream); outline: 1px solid var(--home-cream); outline-offset: 10px; border-radius: 12px; font-size: 18px; white-space: nowrap; }
-.academic-year strong { font-size: 48px; line-height: 1; letter-spacing: -.035em; font-variant-numeric: tabular-nums; }
-.academic-year .edition-credit { font-size: 14px; margin-top: 30px; }
+.academic-year { display: flex; align-items: baseline; gap: 10px; width: fit-content; margin: 24px 0 0; padding: 0; color: white; background: var(--home-indigo); font-size: 16px; line-height: 1.4; white-space: nowrap; }
+.academic-year strong { font-size: 24px; line-height: 1.2; letter-spacing: -.015em; font-variant-numeric: tabular-nums; }
+.academic-year .edition-credit { font-size: 16px; }
 .motion-toggle.btn { padding-inline: 16px; min-height: 44px; background: white; color: var(--home-ink); border: 1px solid var(--home-ink); border-radius: 999px; box-shadow: none; font-size: 13px; }
 .motion-toggle svg { width: 18px; height: 18px; }
 .motion-toggle:hover { background: var(--home-cream); }
@@ -77,7 +77,6 @@ svg { fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; 
 .motion-toggle[aria-pressed="true"] .pause-icon { display: none; }
 .opening-content { position: relative; z-index: 1; padding-block: 48px 52px; color: white; }
 .opening-content::before { content: ''; position: absolute; z-index: -1; inset: 0 calc((100vw - 100%) / -2); background: var(--home-indigo); }
-.opening-heading { display: flex; align-items: start; justify-content: space-between; gap: 48px; }
 h1 { position: relative; width: max-content; max-width: 100%; margin: 0; font-size: clamp(68px,7.35vw,126px); font-weight: 700; line-height: 1.04; letter-spacing: -.04em; }
 h1 span { display: block; width: max-content; max-width: 100%; padding-bottom: 5px; }
 h1 em { color: var(--home-lime); font-style: normal; }
@@ -138,10 +137,6 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
   .page-width { width: calc(100% - 64px); }
   h1 { font-size: clamp(58px,7.5vw,82px); }
   .opening-content { padding-block: 42px; }
-  .opening-heading { gap: 32px; }
-  .academic-year { width: 180px; padding: 20px; font-size: 16px; }
-  .academic-year strong { font-size: 34px; }
-  .academic-year .edition-credit { margin-top: 20px; }
   .opening-bottom { gap: 28px; }
   .course-footer { flex-wrap: wrap; }
 }
@@ -150,10 +145,9 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
   .course-header { padding-block: 22px 66px; align-items: center; gap: 12px; }
   .course-wordmark { font-size: 24px; }
   .header-actions { gap: 0; }
-  .opening-heading { display: flex; flex-direction: column; gap: 28px; }
-  .academic-year { flex-direction: row; align-items: baseline; gap: 12px; width: 100%; padding: 12px 16px; outline-offset: 5px; border-radius: 8px; font-size: 14px; }
-  .academic-year strong { font-size: 27px; }
-  .academic-year .edition-credit { margin: 0 0 0 auto; font-size: 12px; }
+  .academic-year { margin-top: 20px; gap: 8px; font-size: 14px; }
+  .academic-year strong { font-size: 22px; }
+  .academic-year .edition-credit { font-size: 14px; }
   .motion-toggle.btn { min-height: 44px; padding-inline: 12px; font-size: 11px; }
   .motion-toggle svg { width: 14px; height: 14px; }
   .opening-content { padding-block: 36px; }
@@ -197,12 +191,10 @@ html[data-route-family="teal"] .metro-family:not([data-family="teal"]) { opacity
   .page-width { width: 100%; }
   .course-opening { color: black; background: white; }
   .opening-content::before { display: none; }
-  .opening-heading { display: block; }
   .course-header { padding-block: 0 24px; }
   .course-wordmark { color: black; }
-  .academic-year { flex-direction: row; align-items: baseline; gap: 12px; margin-top: 24px; padding: 0; width: auto; color: black; background: white; outline: none; }
+  .academic-year { color: black; background: white; }
   .academic-year strong { font-size: 22px; }
-  .academic-year .edition-credit { margin: 0; }
   .opening-content { padding-block: 24px; color: black; }
   h1 { font-size: 48px; }
   h1 span, h1 em, .opening-bottom p { color: black; background: white; }

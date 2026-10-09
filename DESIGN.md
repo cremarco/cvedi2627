@@ -215,10 +215,10 @@ typography:
     letterSpacing: "-.035em"
   home-year:
     fontFamily: "Inter,sans-serif"
-    fontSize: "48px"
+    fontSize: "24px"
     fontWeight: 700
-    lineHeight: 1
-    letterSpacing: "-.035em"
+    lineHeight: 1.2
+    letterSpacing: "-.015em"
   cafe-text-body:
     fontFamily: "'Times New Roman', Times, serif"
   cafe-text-display:
@@ -358,7 +358,6 @@ typography:
 rounded:
   home-action: "4px"
   home-motion: "999px"
-  home-edition: "12px"
   cafe-0: "0px"
   cafe-2: "2px"
   cafe-3: "3px"
@@ -392,10 +391,9 @@ components:
     textColor: "{colors.home-ink}"
     rounded: "{rounded.home-motion}"
   home-academic-year:
-    backgroundColor: "{colors.home-cream}"
-    textColor: "{colors.home-ink}"
-    rounded: "{rounded.home-edition}"
-    padding: "24px"
+    backgroundColor: "{colors.home-indigo}"
+    textColor: "{colors.home-paper}"
+    padding: "0px"
   cafe-spaziale-product:
     backgroundColor: "{colors.cafe-spaziale-product-surface}"
     textColor: "{colors.cafe-spaziale-surface}"
@@ -756,29 +754,29 @@ Questa sezione riguarda `home/` e la pagina d’ingresso Pages. I token `home-*`
 
 ### Overview
 
-La home riprende la prima copertina metro: mappa geometrica multicolore a tutta larghezza su bianco, fascia indaco opaca per il titolo ampio, parola «visiva» e azione Slide in lime. Il pannello crema incornicia A.A. 2026/27 e 8 CFU accanto al titolo. Quattro fermate e quattro righe di destinazione rendono riconoscibile la rete dei materiali. Titolo, introduzione, anno accademico e nomi delle fermate rimangono fermi e leggibili durante la coreografia della mappa. La scena usa soltanto geometrie originali, senza nuovi raster.
+La home riprende la prima copertina metro: mappa geometrica multicolore a tutta larghezza su bianco, fascia indaco opaca per il titolo ampio, parola «visiva» e azione Slide in lime. A.A. 2026/27 e 8 CFU formano una riga di metadati bianchi sotto il titolo, senza riquadro o cornice. Quattro fermate e quattro righe di destinazione rendono riconoscibile la rete dei materiali. Titolo, introduzione, anno accademico e nomi delle fermate rimangono fermi e leggibili durante la coreografia della mappa. La scena usa soltanto geometrie originali, senza nuovi raster.
 
 ### Colors
 
 La home importa `styles/tokens.css` e riusa direttamente i colori delle slide: `home-indigo` e `home-ink` sono alias di `--cvedi-opening-canvas` (indigo-900), `home-lime` di `--cvedi-opening-accent-vivid` (lime-400). Nella sola sezione `#percorsi`, titoli e frecce usano `home-reading-ink` (slate-900, nero tonalizzato), descrizioni e disponibilità `home-reading-muted` (slate-600), separatori `home-reading-rule` (slate-200). Le fermate conservano indaco, orange-800, teal-800 e pink-800; il footer mantiene indigo-700. Il frontmatter conserva i valori OKLCH della fonte condivisa; il CSS mantiene gli alias ai token originali.
 
-Bianco sostiene la mappa, l’intestazione, la navigazione metro e le destinazioni; indaco forma la fascia del titolo e i metadati della copertina, mentre nero tonalizzato e grigio slate guidano la lettura dei percorsi. Il pannello dell’anno usa `home-cream`; i campi azzurri originali e il percorso punteggiato usano `home-blue-field` e `home-gold`. Lime identifica la parola «visiva», l’azione principale e i riscontri delle fermate. Il tema daisyUI `course-home` usa gli stessi alias per primario, secondario e rispettivi testi. Le tracce conservano i colori registrati nei dati della mappa. Il nome breve, il controllo del movimento e le etichette delle fermate hanno superfici bianche opache, così i tracciati sottostanti non modificano il contrasto.
+Bianco sostiene la mappa, l’intestazione, la navigazione metro e le destinazioni; indaco forma la fascia del titolo, con metadati bianchi, mentre nero tonalizzato e grigio slate guidano la lettura dei percorsi. Il campo crema originale della mappa usa `home-cream`; i campi azzurri e il percorso punteggiato usano `home-blue-field` e `home-gold`. Lime identifica la parola «visiva», l’azione principale e i riscontri delle fermate. Il tema daisyUI `course-home` usa gli stessi alias per primario, secondario e rispettivi testi. Le tracce conservano i colori registrati nei dati della mappa. Il nome breve, il controllo del movimento e le etichette delle fermate hanno superfici bianche opache, così i tracciati sottostanti non modificano il contrasto.
 
 ### Typography
 
-Inter locale, pesi 400 e 700, con `font-display: swap` e sintesi disabilitata. Il titolo segue `home-display` su desktop; entro 1100 px usa `clamp(58px,7.5vw,82px)`, entro 650 px `clamp(30px,9.5vw,62px)` e interlinea 1,1. Il valore 2026/27 segue `home-year`: 48 px su desktop, 34 px entro 1100 px e 27 px entro 650 px, peso 700, interlinea 1 e cifre tabulari; A.A. e 8 CFU hanno una scala inferiore nello stesso pannello. La prosa introduttiva resta entro 36ch e scende a 15 px su telefono. I titoli delle destinazioni seguono `home-destination`, poi 28 px su telefono; le descrizioni usano 16 px, poi 14 px. Il build copia i due WOFF2 da `@fontsource/inter` e la relativa licenza OFL in `home-assets/fonts/`.
+Inter locale, pesi 400 e 700, con `font-display: swap` e sintesi disabilitata. Il titolo segue `home-display` su desktop; entro 1100 px usa `clamp(58px,7.5vw,82px)`, entro 650 px `clamp(30px,9.5vw,62px)` e interlinea 1,1. Il valore 2026/27 segue `home-year`: 24 px su desktop e tablet, 22 px entro 650 px, peso 700, interlinea 1,2 e cifre tabulari; A.A. e 8 CFU usano 16 px, poi 14 px su telefono, nella stessa riga. La prosa introduttiva resta entro 36ch e scende a 15 px su telefono. I titoli delle destinazioni seguono `home-destination`, poi 28 px su telefono; le descrizioni usano 16 px, poi 14 px. Il build copia i due WOFF2 da `@fontsource/inter` e la relativa licenza OFL in `home-assets/fonts/`.
 
 ### Layout
 
-Il contenitore misura al massimo 1568 px con margini laterali di 56 px, ridotti a 32 px entro 1100 px e 20 px entro 650 px. La mappa occupa tutta l’apertura ed è ritagliata al suo perimetro. L’intestazione bianca contiene nome breve e controllo del movimento; una fascia indaco a tutta larghezza dispone il titolo su tre righe a sinistra, il pannello dell’anno a destra, introduzione e azione sotto. Le quattro fermate occupano una riga bianca sotto la fascia. Su telefono il pannello dell’anno si dispone sotto il titolo, con A.A., 2026/27 e 8 CFU affiancati; introduzione e azione si impilano e le fermate restano su una riga. La sezione chiara presenta destinazioni aperte, separate da filetti, con fermata, titolo, descrizione e freccia. Il footer conserva informazioni e attribuzioni del corso.
+Il contenitore misura al massimo 1568 px con margini laterali di 56 px, ridotti a 32 px entro 1100 px e 20 px entro 650 px. La mappa occupa tutta l’apertura ed è ritagliata al suo perimetro. L’intestazione bianca contiene nome breve e controllo del movimento; una fascia indaco a tutta larghezza dispone il titolo su tre righe a sinistra, la riga dell’anno 24 px più sotto, quindi introduzione e azione. Su telefono l’anno mantiene la stessa posizione nel flusso, con distanza di 20 px; introduzione e azione si impilano. Le quattro fermate occupano una riga bianca sotto la fascia. La sezione chiara presenta destinazioni aperte, separate da filetti, con fermata, titolo, descrizione e freccia. Il footer conserva informazioni e attribuzioni del corso.
 
 ### Elevation & Depth
 
-Nessuna ombra. La profondità deriva dall’ordine dei piani: mappa sul fondo bianco, campi geometrici azzurri e crema, fascia indaco opaca, pannello dell’anno e controlli in primo piano. Il sottile contorno crema esterno al pannello richiama la geometria della copertina. La scena viene ritagliata nell’apertura; le immagini didattiche delle altre superfici conservano le proprie regole.
+Nessuna ombra. La profondità deriva dall’ordine dei piani: mappa sul fondo bianco, campi geometrici azzurri e crema, fascia indaco opaca, testi e controlli in primo piano. L’anno accademico è testo nella fascia, senza superficie distinta. La scena viene ritagliata nell’apertura; le immagini didattiche delle altre superfici conservano le proprie regole.
 
 ### Shapes
 
-Fermate ad anello e percorsi con estremità e giunzioni arrotondate. La mappa mantiene il canvas 1741×903, due campi azzurri larghi 72 px, il rettangolo crema a x 340 / y 215, largo 405 px e alto 370 px con raggio 22 px, e 147 punti oro di diametro 7 px e passo 12 px. Le 23 tracce colorate sono larghe 18 px e conservano i 4 px liberi fra le bande parallele. L’azione Slide usa `home-action`; il controllo del movimento usa `home-motion`. Il pannello dell’anno usa `home-edition`, un outline crema da 1 px distante 10 px e padding 24 px; su telefono il raggio scende a 8 px e l’outline dista 5 px. Le righe delle destinazioni non hanno contenitori a card.
+Fermate ad anello e percorsi con estremità e giunzioni arrotondate. La mappa mantiene il canvas 1741×903, due campi azzurri larghi 72 px, il rettangolo crema a x 340 / y 215, largo 405 px e alto 370 px con raggio 22 px, e 147 punti oro di diametro 7 px e passo 12 px. Le 23 tracce colorate sono larghe 18 px e conservano i 4 px liberi fra le bande parallele. L’azione Slide usa `home-action`; il controllo del movimento usa `home-motion`. La riga dell’anno non ha bordo, outline, raggio o padding. Le righe delle destinazioni non hanno contenitori a card.
 
 ### Components
 
