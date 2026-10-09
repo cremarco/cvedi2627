@@ -239,17 +239,17 @@ try {
   }
   for (const family of families) {
     const destinationLink = page.locator(`.destination[data-route-family="${family}"]`)
-    await page.locator('.course-wordmark').focus()
+    await page.locator('.skip-link').focus()
     await destinationLink.hover()
     await assertSelectedFamily(family)
     await page.mouse.move(0, 0)
     await page.waitForFunction(() => !document.documentElement.dataset.routeFamily)
     await destinationLink.focus()
     await assertSelectedFamily(family)
-    await page.locator('.course-wordmark').focus()
+    await page.locator('.skip-link').focus()
     await page.waitForFunction(() => !document.documentElement.dataset.routeFamily)
   }
-  await page.locator('.course-wordmark').focus()
+  await page.locator('.skip-link').focus()
   await page.waitForFunction(() => !document.documentElement.dataset.routeFamily)
   record('route family selection by destination hover and keyboard focus')
   await page.keyboard.press('Tab')
