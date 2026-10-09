@@ -4,7 +4,7 @@ Fonte: Booklet CVeDI · C03 Processo UX, pagine Figma [C03.01 · Apertura](https
 
 Numerazione delle fonti: le tabelle conservano gli ordinali dello snapshot storico del 7 ottobre 2026 (260 tavole). Il capitolo Figma corrente conta 289 tavole, con 10 tavole di apertura e 59 nella sezione culturale. Le sei aperture delle dimensioni separano i due poli con immagini concettuali; ciascuna è seguita da una tavola distinta con il grafico nativo e i dati The Culture Factor consultati il 9 ottobre 2026. Le tavole teoriche occupano ora le posizioni 11–47, seguite dalla tavola ponte 48; i casi completi McDonald’s 49–64 e Alibaba 65–69 conservano testi e immagini delle pagine PDF 172–187 dell’edizione 2024. Le posizioni correnti delle fonti teoriche sono registrate in figmaPages.sourceOrdinalMap e la mappa dei casi in currentIntegralCaseRevision, nel registro assets/booklet/capitolo-3/testo-figma-aggiornato.json. Agli ordinali storici 41–260 si aggiunge 29; nelle tavole precedenti lo spostamento è progressivo per le sei inserzioni e va letto nella mappa. Le tabelle delle slide, i minuti, i conteggi e lo snapshot storico non sono rinumerati dalla revisione Figma.
 
-109 slide, 120 minuti. Testi adattati per la presentazione; esempi, qualificazioni e figure conservano il riferimento al booklet. Le attività sono adattamenti didattici.
+86 slide, 56,5 minuti di contenuti pianificati. Le slide dalla 87 alla 109 sono rimosse dal set; le loro corrispondenze originali sono conservate in `assets/booklet/capitolo-3/lesson-04-removed-slides.json`. Testi adattati per la presentazione; esempi, qualificazioni e figure conservano il riferimento al booklet. Le attività sono adattamenti didattici.
 
 Il riepilogo distingue le cinque modalità della d.school dall’implementazione affiancata nel booklet. Il caso prenotazione conserva domanda di ricerca e natura simulata; i confronti culturali esplicitano i sei indici e i loro limiti. Le 23 figure delle tavole 1–40 e i 46 file sorgente sono stati confrontati con Figma: gli SHA-256 corrispondono agli originali conservati. La presentazione riusa timeline, card, richiami didattici e composizioni testo–figura condivisi dalle altre lezioni.
 
@@ -102,29 +102,6 @@ Le nuove catture online del 9 ottobre 2026 sono registrate in `assets/booklet/ca
 | 84 | McDonald’s · Cina · screenshot del libro | 39, 40 | 0.5 |
 | 85 | McDonald’s · Australia · sito attuale | 39, 40 | 0.5 |
 | 86 | McDonald’s · Australia · screenshot del libro | 39, 40 | 0.5 |
-| 87 | McDonald’s Portogallo · booklet 2024 | 39, 40 | 0.5 |
-| 88 | Dal confronto all’ipotesi di ricerca | 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40 | 8 |
-| 89 | Progettare per la pluralità | 41, 42 | 1.5 |
-| 90 | Design universale e design inclusivo | 43 | 2 |
-| 91 | Due approcci all’accesso | 43, 44 | 2 |
-| 92 | Il Persona Spectrum | 45, 46 | 2 |
-| 93 | Quattro principi di accessibilità | 47 | 2 |
-| 94 | Dai principi ai criteri WCAG | 47, 48 | 2 |
-| 95 | Livelli di conformità WCAG | 47 | 2 |
-| 96 | Contrasto del testo: i rapporti AA | 49 | 2 |
-| 97 | Il colore non basta da solo | 49, 50 | 2 |
-| 98 | Priorità per l’accessibilità | 51 | 2 |
-| 99 | Verificare l’inclusione | 52 | 2 |
-| 100 | Dalle evidenze al problema | 53 | 1.5 |
-| 101 | Una persona fondata sulla ricerca | 54 | 2 |
-| 102 | Dal bisogno alla verifica | 55 | 2 |
-| 103 | Una domanda aperta | 57 | 2 |
-| 104 | La moodboard è ricerca visiva | 56, 57 | 2 |
-| 105 | Moodboard fisica e digitale | 58 | 2 |
-| 106 | Dal caso alla domanda progettuale | 53, 54, 55, 56, 57, 58 | 12 |
-| 107 | Confrontare le proposte | 53, 54, 55, 56, 57, 58 | 6 |
-| 108 | Tre idee da portare nel progetto | 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58 | 2 |
-| 109 | Prima della prossima lezione | 53, 54, 55, 56, 57, 58, 59 | 2 |
 
 ## Crediti e riferimenti nel booklet
 
@@ -160,4 +137,4 @@ Riferimenti collegati dalla fonte:
 
 Verifica normativa: [W3C · WCAG 2.2, Contrast Minimum](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html), consultato il 7 ottobre 2026.
 
-Le illustrazioni decorative delle card sono originali generati con OpenAI ImageGen per questa lezione. I 31 PNG, i prompt esatti, gli hash e le copie WebP lossless sono registrati in `assets/theme-imagegen/manifest-lesson-04-cards-v1.json`; coprono tutti i 36 titoli delle 37 card. Sono distinti dalle figure documentarie del booklet e dalle catture dei siti ufficiali.
+Le illustrazioni decorative delle card sono originali generati con OpenAI ImageGen per questa lezione. I 31 PNG, i prompt esatti, gli hash e le copie WebP lossless sono registrati in `assets/theme-imagegen/manifest-lesson-04-cards-v1.json`; coprono i 36 titoli delle 37 card originali; nel set ridotto rimangono 20 card su 19 titoli. Sono distinti dalle figure documentarie del booklet e dalle catture dei siti ufficiali.

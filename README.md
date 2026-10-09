@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 351 slide online e 558 nell’anteprima locale. Le lezioni 05–09 sono disponibili soltanto in locale; le 67 slide della terza lezione e le 109 della quarta sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 328 slide online e 535 nell’anteprima locale. Le lezioni 05–09 sono disponibili soltanto in locale; le 67 slide della terza lezione e le 86 della quarta sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 
@@ -17,7 +17,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 
 | Comando | Risultato |
 | --- | --- |
-| `pnpm build` | SPA pubblicabile, 351 slide in `dist/` |
+| `pnpm build` | SPA pubblicabile, 328 slide in `dist/` |
 | `pnpm build:pages` | Home, slide, archivio ed esempi autonomi pubblicabili in `_site/` |
 | `pnpm css:home` | Compila `home/home.source.css` in `home/home.css` |
 | `pnpm export` | Export Slidev, soltanto quando richiesto |
@@ -33,7 +33,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:home` | Home Pages: URL, layout, movimento, tastiera e stampa |
 | `pnpm check:archive` | Collegamenti all’archivio, reindirizzamenti e anteprime locali |
 
-I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 558 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
+I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 535 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
 
 `pnpm check:home` serve la build `_site/` con un server temporaneo e un browser isolato. Verifica la home alle basi `/` e `/cvedi2627/`, da 320 a 1440 px, termine automatico dell’animazione entro cinque secondi, movimento ridotto, skip link, forced colors, stampa e funzionamento senza JavaScript. `COURSE_HOME_SITE` sceglie una build diversa; `COURSE_HOME_REPORT` sceglie il percorso di rapporti, screenshot e PDF, predefinito `reports/course-home/`.
 

@@ -74,7 +74,7 @@ export async function checkSlideSources() {
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 67, 'history: 67 slides')
-  assert.equal(visibleDeck.slides.length, 558, 'all teaching chapters are available locally')
+  assert.equal(visibleDeck.slides.length, 535, 'all retained teaching chapters are available locally')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
@@ -105,6 +105,7 @@ export async function checkSlideSources() {
 
   const uxSource = JSON.parse(await readFile(path.join(root, curriculum.source.snapshot), 'utf8'))
   const uxMapping = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/slide-mapping.json'), 'utf8'))
+  const removedMapping = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/lesson-04-removed-slides.json'), 'utf8'))
   const uxAssets = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/slide-assets.json'), 'utf8'))
   assert.equal(uxSource.fileKey, 'WLdDzbdqP3P5rpYbK1OxYC', 'new lessons use the requested Figma file')
   assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
@@ -123,7 +124,7 @@ export async function checkSlideSources() {
     assert.equal(slides[0].title, specification.title, `${specification.id}: chapter title`)
     assert.equal(slides[0].frontmatter.lessonNumber, specification.number, `${specification.id}: real lesson number`)
     assert.equal(slides[0].frontmatter.routeAlias, specification.id, `${specification.id}: stable index target`)
-    assert.ok(Math.abs(lessonMinutes(slides) - curriculum.lessonMinutes) < 1e-6, `${specification.id}: planned lecture duration`)
+    assert.ok(Math.abs(lessonMinutes(slides) - (specification.lessonMinutes ?? curriculum.lessonMinutes)) < 1e-6, `${specification.id}: planned lecture duration`)
     assert.equal(mapping.length, slides.length, `${specification.id}: every slide has a source mapping`)
     for (const [index, slide] of slides.entries()) {
       const entry = mapping[index]
@@ -138,8 +139,17 @@ export async function checkSlideSources() {
       assert.ok(!/<(?:input|select|textarea)\b/.test(slide.content), `${specification.id}/${index + 1}: UI examples are images`)
     }
   }
-  assert.deepEqual([...coveredPages].sort((a, b) => a - b), Array.from({ length: 260 }, (_, i) => i + 1), 'the new course covers every source page')
-  assert.equal(usedAssets.size, assetRegistry.size, 'all original figures and supplementary examples are used')
+  assert.deepEqual(removedMapping.lessons.map(slide => [slide.lesson, slide.lessonSlide]),
+    Array.from({ length: 23 }, (_, i) => ['ricerca-inclusiva', i + 87]), 'only requested lesson 04 slides are removed')
+  const preservedPages = new Set(coveredPages)
+  const preservedAssets = new Set(usedAssets)
+  for (const entry of removedMapping.lessons) {
+    entry.sourcePages.forEach(page => { assert.ok(sourcePages.has(page)); preservedPages.add(page) })
+    assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page).id), 'removed slides retain genuine source identities')
+    entry.assets.forEach(id => { assert.ok(assetRegistry.has(id)); preservedAssets.add(id) })
+  }
+  assert.deepEqual([...preservedPages].sort((a, b) => a - b), Array.from({ length: 260 }, (_, i) => i + 1), 'active and removed slide mappings preserve every source page')
+  assert.equal(preservedAssets.size, assetRegistry.size, 'all original figures and supplementary examples remain accounted for')
   for (const asset of uxAssets.assets) {
     const original = await readFile(path.join(root, asset.original))
     assert.equal(createHash('sha256').update(original).digest('hex'), asset.sha256, `${asset.id}: original export preserved`)
@@ -360,7 +370,7 @@ export async function checkSlideSources() {
     }
   }
   assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
-  assert.equal(researchCardUses, researchIcons.counts.directCardUses, 'all lesson 04 card uses have their requested illustrations')
+  assert.equal(researchCardUses, researchIcons.counts.activeDirectCardUses, 'all retained lesson 04 card uses have their requested illustrations')
   assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses, 'selected direct cards have semantic motifs')
   assert.ok(illustratedCards - researchCardUses > 0 && illustratedCards - researchCardUses < (directCards - researchCardUses) / 4, 'illustrations in the other lessons remain selective')
 
@@ -392,7 +402,7 @@ export async function checkSlideSources() {
     publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length,
     historyBookletPages: chapterPages.size, historyStyles: historyStyleSlides.length, historyFigures: historyFigures.length,
     recoveredSlides: recoveredSlides.length, projectBriefSlides: brief.length, approfondimentiSlides: approfondimenti.length, officialTopics: topicSource.topics.length,
-    uxCourse: curriculum.lessons.map(spec => ({ lesson: spec.id, slides: spec.slideCount, minutes: curriculum.lessonMinutes })), uxSourcePages: coveredPages.size, uxFigures: usedAssets.size }
+    uxCourse: curriculum.lessons.map(spec => ({ lesson: spec.id, slides: spec.slideCount, minutes: spec.lessonMinutes ?? curriculum.lessonMinutes })), uxSourcePages: coveredPages.size, uxFigures: usedAssets.size }
   return { deck: visibleDeck, total: visibleDeck.slides.length, lesson, history: visibleHistory, brief, course, approfondimenti, topicSource,
     projects, uxExamples, uxSlides, curriculum, audit: { ...audit, integratedSlides: audit.integratedSlides.filter(entry =>
       visibleDeck.slides.some(slide => slide.frontmatter.routeAlias === entry.alias)) }, report }

@@ -22,8 +22,8 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 558, buttons: 11 },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 351, buttons: 6 },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 535, buttons: 11 },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 328, buttons: 6 },
   ]) {
     const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? curriculum.lessons.filter(lesson => lesson.number >= 5) : [])]
     const page = await browser.newPage({ reducedMotion: 'reduce' })
@@ -133,7 +133,7 @@ try {
         assert.equal(await progress.getAttribute('max'), '67', 'history progress counts the complete lesson')
       }
       if (destination.id === 'ricerca-inclusiva') {
-        assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('max'), '109', 'research progress counts the complete lesson')
+        assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('max'), '86', 'research progress counts the retained lesson')
         await page.screenshot({ path: `${output}/${profile.name}-lesson-04.png` })
       }
     }
@@ -149,6 +149,8 @@ try {
         assert.ok(loaded.every(Boolean), `published lesson 04 slide ${number}: every image loads`)
         images += loaded.length
       }
+      assert.equal(research.length, 86, 'published lesson 04 contains exactly slides 1–86')
+      assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('aria-valuenow'), '86', 'the final retained slide reaches the end of its lesson')
       reports.push({ profile: profile.name, lesson: 4, checkedSlides: research.length, loadedImages: images })
     }
     const closing = await openSlide(page, profile.base, profile.total, { settle: true })
