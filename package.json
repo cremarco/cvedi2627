@@ -10,14 +10,13 @@
   "scripts": {
     "clean": "node scripts/clean.mjs",
     "css": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./styles/daisy.css -o ./styles/daisy-built.css",
-    "css:projects": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./progetti/gallery.source.css -o ./progetti/gallery.css --minify",
     "css:home": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./home/home.source.css -o ./home/home.css --minify",
     "css:caffe-luce": "node scripts/build/caffe-ttc-css.mjs",
     "build:caffe-ttc": "node scripts/build/caffe-ttc-assets.mjs && node scripts/build/caffe-ttc-catalogue.mjs && node scripts/build/caffe-ttc-notes.mjs && node scripts/build/caffe-ttc.mjs && pnpm css:caffe-luce",
     "gallery": "node scripts/build/project-gallery.mjs",
     "dev": "pnpm build:caffe-ttc && node scripts/dev.mjs",
     "build": "pnpm build:caffe-ttc && pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs build && node scripts/build/web-design-examples.mjs dist && node scripts/build/noindex.mjs dist",
-    "build:pages": "pnpm build:caffe-ttc && pnpm run css && pnpm run css:projects && pnpm run css:home && node scripts/build/pages.mjs",
+    "build:pages": "pnpm build:caffe-ttc && pnpm run css && pnpm run css:home && node scripts/build/pages.mjs",
     "export": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
     "check": "node scripts/check/slides.mjs",
     "check:source": "node scripts/check/slide-source.mjs",
@@ -28,15 +27,14 @@
     "check:covers": "node scripts/check/covers.mjs",
     "check:typography": "node scripts/check/typography.mjs",
     "check:layout": "node scripts/check/layout.mjs",
-    "check:projects": "node scripts/check/projects.mjs",
     "check:caffe-luce": "node scripts/check/caffe-luce.mjs",
     "check:caffe-motion": "node scripts/check/caffe-ttc-motion.mjs",
     "check:caffe-notes": "node scripts/check/caffe-ttc-notes.mjs",
     "check:web-examples": "node scripts/check/web-design-examples.mjs",
     "check:home": "node scripts/check/course-home.mjs",
     "check:indexing": "node --test scripts/check/indexing.test.mjs && node scripts/check/indexing.mjs",
-    "check:links": "python3 scripts/check/site-links.py",
-    "check:ux-course": "node scripts/check/ux-course.mjs"
+    "check:ux-course": "node scripts/check/ux-course.mjs",
+    "check:archive": "node scripts/check/project-archive.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

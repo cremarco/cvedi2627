@@ -9,6 +9,7 @@ import { copyWebDesignExamples } from './web-design-examples.mjs'
 import { webDesignExamplesDirectory } from '../../utils/web-design-examples.mjs'
 import { copyCourseHome } from './course-home.mjs'
 import { preventSiteIndexing } from './noindex.mjs'
+import { copyProjectArchiveRedirects } from './project-archive-redirects.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const output = path.join(root, '_site')
@@ -25,30 +26,13 @@ if (build.status !== 0) process.exit(build.status ?? 1)
 await checkPublishedBuild(path.join(output, 'slides'))
 await copyWebDesignExamples(path.join(output, webDesignExamplesDirectory))
 
-await cp(path.join(root, 'progetti'), path.join(output, 'project'), {
-  recursive: true,
-  filter: source => !['.ds_store', 'desktop.ini', 'thumbs.db', '.git', 'node_modules', '__pycache__'].includes(path.basename(source).toLowerCase())
-    && !path.basename(source).startsWith('._'),
-})
-// Legacy shared navigation uses archive-root URLs. Rewrite those for Pages.
-async function prefixArchiveURLs(directory) {
-  for (const entry of await readdir(directory, { withFileTypes: true })) {
-    const location = path.join(directory, entry.name)
-    if (entry.isDirectory()) await prefixArchiveURLs(location)
-    else if (/\.(?:html|htm|css|js)$/i.test(entry.name)) {
-      const original = await readFile(location, 'utf8')
-      const updated = original.replace(/(?<![\w./-])\/a\.a\./g, `${base}project/a.a.`)
-      if (updated !== original) await writeFile(location, updated)
-    }
-  }
-}
-await prefixArchiveURLs(path.join(output, 'project'))
 // The PDF is generated manually at the end and is optional for publication.
 const pdf = path.join(root, 'cvedi-2026-2027.pdf')
 if (existsSync(pdf))
   await cp(pdf, path.join(output, 'slides/cvedi-2026-2027.pdf'))
 await writeFile(path.join(output, '.nojekyll'), '')
 await copyCourseHome(output)
+await copyProjectArchiveRedirects(output, base)
 await preventSiteIndexing(output)
 // Publish only images used by the visible deck. Hidden chapters and older
 // variants stay in the source tree and return automatically when referenced.

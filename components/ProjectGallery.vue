@@ -3,9 +3,10 @@ import { nextTick, onBeforeUnmount, reactive, watch } from 'vue'
 import { useSlidePlayback } from '../composables/useSlidePlayback'
 import projectData from '../data/projects.json'
 import { publicAsset } from '../utils/public-asset'
+import { projectArchiveURL } from '../utils/project-archive.mjs'
 
 const projects = projectData.map(project => ({ ...project, image: publicAsset(project.image) }))
-const archiveIndex = import.meta.env.DEV ? '/progetti/index.html' : '../project/index.html'
+const archiveIndex = projectArchiveURL
 
 const { canAnimate } = useSlidePlayback()
 const tileOrder = [0, 5, 10, 3, 8, 1, 6, 11, 4, 9, 2, 7]

@@ -34,7 +34,7 @@ jobs:
         run: pnpm check:source
       - name: Install FFmpeg for Pages media optimization
         run: sudo apt-get update && sudo apt-get install --yes --no-install-recommends ffmpeg
-      - name: Build slides and project archive
+      - name: Build course home and slides
         run: pnpm build:pages
         env:
           PAGES_BASE: /${{ github.event.repository.name }}/

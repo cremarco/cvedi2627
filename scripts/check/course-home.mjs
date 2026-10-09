@@ -5,6 +5,7 @@ import { realpathSync } from 'node:fs'
 import { mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { chromium } from 'playwright-chromium'
+import { projectArchiveURL } from '../../utils/project-archive.mjs'
 
 const directory = path.resolve(process.env.COURSE_HOME_SITE || '_site')
 const output = process.env.COURSE_HOME_REPORT || 'reports/course-home'
@@ -163,8 +164,9 @@ try {
       }
       assert.equal(await page.locator('.destination[href]').count(), 3)
       assert.match(await page.locator('.destination-pending').innerText(), /iLMeteo[\s\S]*in preparazione/)
-      for (const href of ['slides/', 'project/', 'web-design-examples/index.html?stile=liquid']) {
+      for (const href of ['slides/', projectArchiveURL, 'web-design-examples/index.html?stile=liquid']) {
         assert.ok(await page.locator(`.destination[href="${href}"]`).isVisible())
+        if (href === projectArchiveURL) continue // External archive is verified separately.
         const target = new URL(href, base + prefix)
         assert.equal((await fetch(target)).status, 200, `destination ${target.pathname}`)
       }

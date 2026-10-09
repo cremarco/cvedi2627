@@ -1,1 +1,0 @@
-jQuery(function($){$(".dropdown > a").click(function(){location.href=this.href})});$(document).ready(function(){$("#scroller, .scroll_section").on("click",function(event){if(this.hash!==""){event.preventDefault();var hash=this.hash;$("body, html").animate({"scrollTop":$(hash).offset().top},800,function(){window.location.hash=hash})}})});

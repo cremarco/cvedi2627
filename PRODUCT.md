@@ -12,7 +12,7 @@ Presentazione didattica del corso Comunicazione visiva e design delle interfacce
 
 ## Operating Context
 
-Slidev e Vue su canvas 1280 × 720, navigazione da tastiera e indice. Numerazione e avanzamento sono autonomi per set. Il progetto conserva anche l’archivio dei lavori degli studenti.
+Slidev e Vue su canvas 1280 × 720, navigazione da tastiera e indice. Numerazione e avanzamento sono autonomi per set. Il progetto rimanda all’[archivio dei lavori degli studenti](https://cremarco.github.io/cvedi-progetti/), conservato nel repository autonomo `cremarco/cvedi-progetti`.
 
 ## Capabilities and Constraints
 
@@ -26,7 +26,7 @@ L’utente ha richiesto di copiare la grafica delle slide locali in `/Users/marc
 
 ## Home del corso · Pages
 
-La radice GitHub Pages `/cvedi2627/` è la home del corso, con nome ufficiale, A.A. 2026/27, 8 CFU e docenti Marco Cremaschi, Elia Guarnieri e Andrea Primo Pierotti, allineati alle slide. La scena metro animata introduce quattro destinazioni: slide in `slides/`, archivio degli studenti in `project/`, Caffè TTC in `web-design-examples/index.html?stile=liquid` e iLMeteo. I collegamenti relativi funzionano anche servendo la build dalla radice `/`.
+La radice GitHub Pages `/cvedi2627/` è la home del corso, con nome ufficiale, A.A. 2026/27, 8 CFU e docenti Marco Cremaschi, Elia Guarnieri e Andrea Primo Pierotti, allineati alle slide. La scena metro animata introduce quattro destinazioni: slide in `slides/`, archivio degli studenti in `https://cremarco.github.io/cvedi-progetti/`, Caffè TTC in `web-design-examples/index.html?stile=liquid` e iLMeteo. I collegamenti interni relativi funzionano anche servendo la build dalla radice `/`; l’archivio usa il proprio URL assoluto. Le anteprime locali delle slide restano in `public/images/project-gallery/`, con provenienza nel catalogo `data/projects.json`. I vecchi URL `project/` sono reindirizzati al nuovo archivio, conservando percorsi, query e frammenti tramite JavaScript.
 
 iLMeteo è esplicitamente «In arrivo»: l’utente ha scelto il sito riprogettato quando sarà pronto. Fino ad allora la quarta destinazione resta visibile e priva di collegamento. Le tre destinazioni disponibili sono consultabili anche senza JavaScript; la home offre pausa e ripresa delle tracce e rispetta movimento ridotto, scheda nascosta e stampa. Il deck e gli esempi conservano i propri sistemi e sorgenti.
 
