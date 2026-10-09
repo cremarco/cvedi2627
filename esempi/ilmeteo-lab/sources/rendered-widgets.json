@@ -1,0 +1,118 @@
+{
+  "map": "<div id=\"bigmap-div10\" style=\"position:absolute; z-index:4\">\n\n\n\n\n\n<link rel=\"stylesheet\" href=\"/maps2/assets/map.css?v=20260326_1400\">\n\n\n\n<div id=\"map-wrapper\">\n    <div id=\"map\" style=\"width: 425px; height: 460px; position: relative;\" class=\"map leaflet-container leaflet-touch leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom\" tabindex=\"0\"><div class=\"leaflet-pane leaflet-map-pane\" style=\"transform: translate3d(0px, 0px, 0px);\"><div class=\"leaflet-pane leaflet-tile-pane\"><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 1;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 19; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://tile.openstreetmap.org/5/16/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://tile.openstreetmap.org/5/17/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://tile.openstreetmap.org/5/16/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, 245px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://tile.openstreetmap.org/5/17/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, 245px, 0px); opacity: 1;\"></div></div></div><div class=\"leaflet-pane leaflet-overlay-pane\"></div><div class=\"leaflet-pane leaflet-shadow-pane\"></div><div class=\"leaflet-pane leaflet-marker-pane\"></div><div class=\"leaflet-pane leaflet-tooltip-pane\"></div><div class=\"leaflet-pane leaflet-popup-pane\"></div><div class=\"leaflet-proxy leaflet-zoom-animated\"></div><div class=\"leaflet-pane leaflet-ilmeteo_base-pane\" style=\"z-index: 200;\"></div><div class=\"leaflet-pane leaflet-ilmeteo_overlay-pane\" style=\"z-index: 400;\"><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 0.8; display: block;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/16/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/17/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/16/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, 245px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/17/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, 245px, 0px); opacity: 1;\"></div></div><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 0.8; display: none;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/16/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/17/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/16/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, 245px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/17/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, 245px, 0px); opacity: 1;\"></div></div><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 0.8; display: none;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/16/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/17/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/16/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, 245px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/17/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, 245px, 0px); opacity: 1;\"></div></div><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 0.8; display: none;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/16/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/17/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/16/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, 245px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/17/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, 245px, 0px); opacity: 1;\"></div></div><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 0.8; display: none;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/16/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/17/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/16/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, 245px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/17/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, 245px, 0px); opacity: 1;\"></div></div><div class=\"leaflet-layer \" style=\"z-index: 1; opacity: 0.8; display: none;\"><div class=\"leaflet-tile-container leaflet-zoom-animated\" style=\"z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/16/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/17/11.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, -11px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/16/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(-59px, 245px, 0px); opacity: 1;\"><img alt=\"\" src=\"https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/17/12.png\" class=\"leaflet-tile leaflet-tile-loaded\" style=\"width: 256px; height: 256px; transform: translate3d(197px, 245px, 0px); opacity: 1;\"></div></div></div></div><div class=\"leaflet-control-container\"><div class=\"leaflet-top leaflet-left\"><div class=\"leaflet-control-zoom leaflet-bar leaflet-control\"><a class=\"leaflet-control-zoom-in\" href=\"#\" title=\"Zoom in\" role=\"button\" aria-label=\"Zoom in\" aria-disabled=\"false\"><span aria-hidden=\"true\">+</span></a><a class=\"leaflet-control-zoom-out\" href=\"#\" title=\"Zoom out\" role=\"button\" aria-label=\"Zoom out\" aria-disabled=\"false\"><span aria-hidden=\"true\">−</span></a></div><div class=\"leaflet-control-fullscreen leaflet-bar leaflet-control\"><a class=\"leaflet-control-fullscreen-button leaflet-bar-part\" href=\"#\" title=\"View Fullscreen\"></a></div></div><div class=\"leaflet-top leaflet-right\"><div class=\"leaflet-control-layers leaflet-control-layers-expanded leaflet-control im-leaflet-control-v\" aria-haspopup=\"true\"><a class=\"leaflet-control-layers-toggle\" href=\"#\" title=\"Layers\" role=\"button\"></a><section class=\"leaflet-control-layers-list\"><div class=\"leaflet-control-layers-base\"><label><span><input type=\"radio\" class=\"leaflet-control-layers-selector\" name=\"leaflet-base-layers_45\" checked=\"checked\"><span> <span class=\"map-control-container\"><span class=\"map-control-icon\" id=\"ilmeteo_ilmeteo_precipitations\"></span><span class=\"map-control-label\" style=\"display: none;\">Radar (passato+futuro)</span></span></span></span></label></div><div class=\"leaflet-control-layers-separator\" style=\"display: none;\"></div><div class=\"leaflet-control-layers-overlays\"></div></section></div></div><div class=\"leaflet-bottom leaflet-left\"><div class=\"leaflet-bar leaflet-bar-horizontal leaflet-bar-timecontrol leaflet-control\"><a class=\"leaflet-control-timecontrol im-tctrl timecontrol-play pause\" href=\"#\" title=\"Play\"></a><a class=\"leaflet-control-timecontrol im-tctrl timecontrol-date\" href=\"#\" title=\"Date\">08/10/2026, 19:20:00</a><div class=\"leaflet-control-timecontrol im-tctrl timecontrol-slider timecontrol-dateslider\"><div class=\"slider\" id=\"slider\"><div class=\"ilmeteo-timeline-slider-knob knob main\" style=\"transform: translate3d(82px, 0px, 0px);\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 0%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 8.33333%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 16.6667%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 25%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 33.3333%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 41.6667%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 50%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 58.3333%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 66.6667%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 75%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 83.3333%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 91.6667%;\"></div><div class=\"slider-timestep\" style=\"width: 1px; left: 100%;\"></div><div class=\"slider-past\" style=\"width: 58.3333%;\"></div><div class=\"slider-future\" style=\"width: 41.6667%;\"></div><div class=\"slider-future label\" style=\"width: 41.6667%;\"><span>previsione</span></div></div></div></div></div><div class=\"leaflet-bottom leaflet-right\"><div class=\"leaflet-control-attribution leaflet-control\">iLMeteo.it <span aria-hidden=\"true\">|</span> © <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a></div></div></div></div>\n    \n<div class=\"clearfix\"></div>\n</div>\n\n\n\n\n\n\n    \n\n</div>",
+  "mapImages": [
+    {
+      "alt": "",
+      "src": "https://tile.openstreetmap.org/5/16/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://tile.openstreetmap.org/5/17/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://tile.openstreetmap.org/5/16/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://tile.openstreetmap.org/5/17/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/16/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/17/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/16/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1720/5/17/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/16/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/17/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/16/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1730/5/17/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/16/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/17/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/16/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1740___dc795c16/5/17/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/16/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/17/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/16/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1750___02d59cb8/5/17/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/16/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/17/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/16/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1800___c94ca5f7/5/17/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/16/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/17/11.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/16/12.png"
+    },
+    {
+      "alt": "",
+      "src": "https://maps-geoserver.ilmeteo.it/tiles/radar_precipitations/20261008_1810___145939f0/5/17/12.png"
+    }
+  ],
+  "news": "<div class=\"topnews-home\" id=\"news-topbox-masthead\" style=\"display: none;\">   <div id=\"box-special-title-masthead\">     <div class=\"specialboxcontainer\">         <div class=\"dot\"></div>     </div>     <span class=\"bluetitle\">News</span>     <span class=\"redtitle\">EXTRA</span>   </div>   <div id=\"news-topbox-left-masthead\"></div>   <div id=\"news-topbox-container-masthead\">     <div id=\"news-topbox-container2-masthead\">      <div class=\"singlenews\"><a href=\"https://www.ilmeteo.it/notizie/temporale-a-roma-piogge-intense-e-allagamenti-tra-montesacro-e-la-zona-portuense-video-133002\" title=\"8/10/2026 - Temporale a Roma: piogge intense e allagamenti tra Montesacro e la zona Portuense [Video]\"><img src=\"https://www.ilmeteo.it/portale/files/giornale/thumb_Roma-all-.JPEG\" align=\"left\" alt=\"Temporale a Roma: piogge intense e allagamenti...\">Temporale a Roma: piogge intense e allagamenti tra Montesacro e la zona Portuense [Video]</a></div>      <div class=\"singlenews\"><a href=\"https://www.ilmeteo.it/notizie/meteo-tornata-la-neve-sul-passo-dello-stelvio-paesaggio-imbiancato-video-160003\" title=\"8/10/2026 - Meteo: è tornata la neve sul Passo dello Stelvio: paesaggio imbiancato [Video]\"><img src=\"https://www.ilmeteo.it/portale/files/giornale/thumb_Stelv-neve.jpg\" align=\"left\" alt=\"Meteo: è tornata la neve sul Passo dello...\">Meteo: è tornata la neve sul Passo dello Stelvio: paesaggio imbiancato [Video]</a></div>      <div class=\"singlenews\"><a href=\"https://www.ilmeteo.it/notizie/riscaldamento-globale-le-conseguenze-sul-territorio-alpino-e-mediterraneo-video-160001\" title=\"8/10/2026 - Riscaldamento globale: le conseguenze sulle Alpi e le aree del Mediterraneo [Video]\"><img src=\"https://www.ilmeteo.it/portale/files/giornale/thumb_Tedi-frana-10.JPEG\" align=\"left\" alt=\"Riscaldamento globale: le conseguenze sulle Alpi...\">Riscaldamento globale: le conseguenze sulle Alpi e le aree del Mediterraneo [Video]</a></div>      <div class=\"singlenews\"><a href=\"https://www.ilmeteo.it/notizie/viareggio-maltempo-danni-alle-abitazioni-e-disagi-sulle-strade-video-150002\" title=\"8/10/2026 - Viareggio, maltempo: danni alle abitazioni e disagi sulle strade [Video]\"><img src=\"https://www.ilmeteo.it/portale/files/giornale/thumb_viaregg.jpg\" align=\"left\" alt=\"Viareggio, maltempo: danni alle abitazioni e...\">Viareggio, maltempo: danni alle abitazioni e disagi sulle strade [Video]</a></div>      </div>     </div>   <div id=\"news-topbox-right-masthead\"></div> </div>"
+}

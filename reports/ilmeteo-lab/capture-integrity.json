@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "pages": [
+    "home",
+    "bologna",
+    "domani"
+  ],
+  "sourceHashesVerified": true,
+  "assetHashesVerified": true,
+  "assetCount": 226,
+  "assetBytes": 4653240,
+  "failureCount": 0,
+  "failures": [],
+  "localResourceRequestCount": 317,
+  "externalResourceRequestCount": 0,
+  "missingLocalResourceRequests": [],
+  "presentationGaps": [],
+  "renderedWidgets": {
+    "mapCaptured": true,
+    "newsCaptured": true,
+    "source": "sources/rendered-widgets.json",
+    "tileCount": 28
+  },
+  "materializedRuntimeStates": {
+    "domaniBodyClass": "sito-standard",
+    "source": "sources/tomorrow-runtime-state.json",
+    "sourceSha256": "8727a38b57e9bf2f1b2defd1ef6c41687be5433b42d18fbc9a3d4b3e7b283cb9",
+    "servedClassVerified": true
+  },
+  "browserVerification": {
+    "status": "not_repeated_after_runtime_state_materialization",
+    "reason": "The Mac is locked, so CUA browser verification cannot continue. No terminal browser fallback was used for this final change."
+  },
+  "networkPolicy": "Rendered copies have CSP connect-src/frame-src none. All image, font and CSS presentation resources are local.",
+  "rawSourcesUnmodified": true,
+  "tables": {
+    "home": [],
+    "bologna": [
+      13
+    ],
+    "domani": []
+  },
+  "verificationScope": "Source acquisition, resource inventory, byte hashes, offline presentation URL rewriting. Browser visual equivalence and interactions are checked separately."
+}

@@ -1,0 +1,45 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css" source(none);
+@source "./scripts/version-navigation.mjs";
+@plugin "daisyui" { themes:false; include:button; prefix:lab-; logs:false; }
+
+@font-face{font-family:"Nunito Sans";src:url("redesign/fonts/nunito-sans.woff2") format("woff2");font-weight:200 900;font-display:swap}
+#ilmeteo-version-nav{
+  --color-base-100:#fff;--color-base-200:#eaf5fb;--color-base-300:#c9d9e9;--color-base-content:#092b60;
+  --color-primary:#064ec3;--color-secondary:#a93a00;--color-accent:#dc5700;
+  --radius-field:.5rem;--size-field:.25rem;--border:1px;--depth:0;
+  position:fixed;z-index:20;inset:50% 0 auto auto;transform:translateY(-50%);
+  width:44px;box-sizing:border-box;color:var(--color-base-content);
+  font:700 16px/1.4 "Nunito Sans",sans-serif;
+}
+#ilmeteo-version-nav *{box-sizing:border-box}
+#ilmeteo-version-nav .version-switch{
+  display:flex;flex-direction:column;justify-content:center;align-items:center;
+  width:44px;min-width:44px;height:auto;min-height:188px;gap:12px;padding:12px 8px;
+  border:1px solid var(--color-base-300);border-right:0;border-radius:.5rem 0 0 .5rem;
+  background:var(--color-base-200);color:var(--color-base-content);
+  font:700 16px/1.4 "Nunito Sans",sans-serif;box-shadow:none;text-decoration:none;float:none;
+}
+#ilmeteo-version-nav .version-switch>span:not(.ui-icon){writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap}
+#ilmeteo-version-nav .version-switch svg,#ilmeteo-version-nav .version-switch .ui-icon-switch{flex:none;transition:transform 300ms cubic-bezier(.16,1,.3,1)}
+#ilmeteo-version-nav .version-switch:hover{background:var(--color-base-300);color:var(--color-secondary)}
+#ilmeteo-version-nav .version-switch:hover svg,#ilmeteo-version-nav .version-switch:hover .ui-icon-switch{transform:rotate(180deg)}
+#ilmeteo-version-nav .version-switch:focus-visible{outline:3px solid var(--color-secondary);outline-offset:-4px}
+/* The redesigned reading surface reserves the tab's width. Original DOM/layout
+   stays faithful to the captured source. */
+@media screen{body[data-page] .page,body[data-page] .site-footer{padding-right:76px}}
+@media screen and (max-width:700px){body[data-page] .page,body[data-page] .site-footer{padding-right:64px}}
+#ilmeteo-version-nav .ui-icon-switch{display:block;width:22px;height:22px;background:url("redesign/assets/icons/utility-atlas-v1.png") no-repeat 100% 0;background-size:200% 100%}
+@media(forced-colors:active){#ilmeteo-version-nav .version-switch{border-color:ButtonText}}
+@view-transition{navigation:auto}
+html[data-version-direction="redesign"]::view-transition-new(root){animation:lab-reveal-new 520ms cubic-bezier(.16,1,.3,1) both}
+html[data-version-direction="originale"]::view-transition-new(root){animation:lab-reveal-original 520ms cubic-bezier(.16,1,.3,1) both}
+html[data-version-direction]::view-transition-old(root){animation:none}
+html[data-version-direction]::view-transition-new(root){mix-blend-mode:normal}
+@keyframes lab-reveal-new{from{clip-path:inset(0 100% 0 0)}to{clip-path:inset(0)}}
+@keyframes lab-reveal-original{from{clip-path:inset(0 0 0 100%)}to{clip-path:inset(0)}}
+@media(prefers-reduced-motion:reduce){
+  @view-transition{navigation:none}
+  #ilmeteo-version-nav .version-switch svg,#ilmeteo-version-nav .version-switch .ui-icon-switch{transition:none;transform:none}
+}
+@media print{#ilmeteo-version-nav{display:none!important}}

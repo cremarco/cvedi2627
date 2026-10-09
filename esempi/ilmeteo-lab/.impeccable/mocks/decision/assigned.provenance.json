@@ -1,0 +1,62 @@
+{
+  "role": "design preview; not evidence of original website",
+  "direction": "Bollettino a colpo d’occhio",
+  "tool": "native image_gen.imagegen",
+  "mode": "generation with brand and source-map references; one targeted native refinement",
+  "createdAt": "2026-10-08T18:29:02.854544+00:00",
+  "file": "esempi/ilmeteo-lab/.impeccable/mocks/decision/assigned.png",
+  "width": 1505,
+  "height": 1045,
+  "sha256": "3e078a5e183ec515b4a6bda45da61bb178abe6ab70daef4f2b8a5f0fb0494058",
+  "promptFiles": [
+    "assigned.prompt.txt",
+    "assigned.refinement.prompt.txt"
+  ],
+  "embeddedPrompt": "assigned.refinement.prompt.txt",
+  "references": [
+    {
+      "file": "reports/ilmeteo-lab/source/home-desktop.jpg",
+      "role": "original brand/logo evidence only; composition discarded"
+    },
+    {
+      "file": "esempi/ilmeteo-lab/assets/46252b4a8db8-logo_ilmeteo_search_65.png",
+      "role": "authentic logo reference"
+    },
+    {
+      "file": "esempi/ilmeteo-lab/assets/37a0f3d1e563-italybig1.jpg",
+      "role": "captured national Friday map reference"
+    }
+  ],
+  "nativeOutputs": [
+    "/Users/marco/.codex/generated_images/01a11cab-94d0-7500-8cc6-d999c066182c/exec-e3182146-4213-4660-acbc-b7628da85b66.png",
+    "/Users/marco/.codex/generated_images/01a11cab-94d0-7500-8cc6-d999c066182c/exec-248b801e-d59a-4d94-8754-3059f47ce9a4.png"
+  ],
+  "inspection": {
+    "place": "Bologna",
+    "date": "Giovedì 8 ottobre 2026",
+    "currentTime": "20:00 selected",
+    "currentTemperature": "21°C",
+    "condition": "Pioggia debole",
+    "hourly": [
+      "20:00 / 21°C / Pioggia debole",
+      "21:00 / 20,4°C / Assenti",
+      "22:00 / 19,8°C / Assenti",
+      "23:00 / 19,2°C / Assenti"
+    ],
+    "threeNavDestinations": true,
+    "editionNote": true,
+    "nationalTomorrowPanel": true,
+    "sourcedHeadlines": true,
+    "photographicNewsThumbnailsRemoved": true,
+    "glossyCloudRemoved": true,
+    "exactPromptEmbeddingVerified": true
+  },
+  "limitations": [
+    "Generative raster preview is not a pixel-exact copy of inserted logo or map. Production must reuse the original logo/map asset files, not crop this comp.",
+    "Image generation renders fine surface variation and approximate color values; implement the specified flat CSS tokens rather than sampling the raster noise.",
+    "This preview is a desktop composition and does not establish tested interactions, accessibility or responsive behavior."
+  ],
+  "finalImageSha256": "3e078a5e183ec515b4a6bda45da61bb178abe6ab70daef4f2b8a5f0fb0494058",
+  "finalBytes": 1540084,
+  "embeddedPromptVerified": true
+}

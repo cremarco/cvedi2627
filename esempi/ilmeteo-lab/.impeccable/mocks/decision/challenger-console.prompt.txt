@@ -1,0 +1,39 @@
+Use case: ui-mockup
+Asset type: ONE high-fidelity desktop decision comp for iLMeteo, direction "Cruscotto di consultazione".
+Create a polished straight-on screenshot of the interface itself, edge-to-edge, landscape approximately 1505 × 1045 pixels. No browser chrome, monitor, surrounding mockup, presentation-board annotations, or extra images.
+
+Input images:
+1. assigned.png: framing reference only. Match its desktop landscape frame and information scope, but DO NOT reuse its white background, hero card, large temperature display or composition.
+2. original iLMeteo logo PNG: original brand insert reference. Keep the orange square logo recognizable and small at top left; do not invent a new logo.
+3. original national tomorrow map JPEG: original content insert reference. Show this existing raster as the map in the right pane, preserving its geography, weather symbols, city temperature labels and orange footer. Do not generate additional forecast information.
+4. developer-console quality-bar board: material, typography discipline and hairline separation reference.
+5. developer-console hero: persistent left navigation, central work area, right information pane and precise data alignment reference. Adapt the working-console structure to weather consultation, not software development.
+
+Visual world: fully committed flat, dark working console. Graphite background #17212b, subtly lighter opaque panels #243441, crisp white #f6f8fa labels, restrained warm orange #fca95b used only for current selection and small active accents. Flat matte surfaces, no gradients anywhere in interface surfaces, no neon, no glow, no glass, no blur, no drop shadows, no texture, no 3D. Thin neutral hairlines between persistent panes, almost square corners. The supplied original raster map and logo keep their authentic colors. Typeface: clear compact contemporary sans-serif similar to the Lexend reference; figures use aligned tabular numbers. Human-readable Italian labels, comfortable spacing and large legible text. Avoid microscopic diagnostic text.
+
+Composition: narrow 170px left rail spanning full height with small original logo then vertical navigation "Home", "Bologna", "Domani". "Bologna" is selected using an orange text accent and a clearly distinguished opaque selection rectangle. At top of remaining area a compact, outlined search field contains "Bologna", with a magnifying-glass icon and simple clear affordance. Acquisition label is immediately visible at top: "Dati acquisiti l’8 ottobre 2026". Central workspace about 830px wide; right persistent national pane about 460px wide, with thin separator. The table is the primary visual content immediately visible in the first viewport, starting near the upper third rather than after a giant hero. Right map and all four table rows are visible simultaneously. No advertising or news grid.
+
+Central workspace:
+Heading "Bologna", then "Giovedì 8 ottobre 2026".
+Compact selected-hour header: "Ora selezionata" and "20:00"; weather summary "21°C" and "Pioggia debole" at moderate scale, no enormous display number.
+Table heading "Previsioni orarie". Plain aligned column labels "Ora", "Temperatura", "Precipitazioni".
+Exactly these four rows, transcribed faithfully, without adding extra measurements:
+20:00 | 21°C | Pioggia debole
+21:00 | 20,4°C | Assenti
+22:00 | 19,8°C | Assenti
+23:00 | 19,2°C | Assenti
+20:00 row is visibly selected using a quiet lighter panel fill and orange selection marker; do not use a glowing border.
+Below the table, keep a persistent detail pane titled "Dettagli delle 20:00". Two clearly labeled details:
+"Vento" — "Sud-sud-ovest · 8 km/h"
+"Raffiche" — "25 km/h"
+Use substantial readable labels and values, with thin lines separating them.
+
+Right pane:
+Heading "Italia · domani".
+Subheading "Venerdì 9 ottobre 2026".
+Use the supplied original national tomorrow raster map prominently, maintaining its aspect ratio. No added frame around the map; panel separation belongs to layout, not the image.
+Below it, exact factual summary:
+"Tempo instabile al Nordest e al Sud, soprattutto sul versante tirrenico. Rovesci alternati a schiarite. Venti moderati, mari mossi."
+A clear text link "Previsioni di domani" with simple arrow.
+
+Constraints: all four hours and table values must match exactly; preserve decimal commas and Italian accents. Do not invent rain probabilities, extra dates, weather warnings, forecasts, city data, accounts, live indicators, notification badges, current-location requests, status dots, AI explanations, charts, or marketing claims. No developer labels, terminal code, pipeline controls or software metrics. This is a weather consultation surface whose layout has the care and legibility of a working console. It must feel substantially different from the supplied light assigned comp, with persistent pane geometry and disciplined dark typography.

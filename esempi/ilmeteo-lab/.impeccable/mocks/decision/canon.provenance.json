@@ -1,0 +1,62 @@
+{
+  "role": "design preview; not evidence of original website",
+  "direction": "Struttura convenzionale",
+  "tool": "native image_gen.imagegen",
+  "mode": "generation with original logo/map references; one generation and one visual inspection",
+  "createdAt": "2026-10-08T18:34:54.155866+00:00",
+  "file": "esempi/ilmeteo-lab/.impeccable/mocks/decision/canon.png",
+  "width": 1505,
+  "height": 1045,
+  "sha256": "13285379418549092b8feefce9f6b6fa9cc6df798c70cb95fa46847b3e32ccda",
+  "promptFile": "canon.prompt.txt",
+  "promptSha256": "ebc37048d8c7fc306c2f8ea2b3ca528442834225d871b29e50caa4c3e02aeaff",
+  "exactPromptEmbeddingVerified": true,
+  "references": [
+    {
+      "file": "esempi/ilmeteo-lab/assets/46252b4a8db8-logo_ilmeteo_search_65.png",
+      "role": "authentic logo reference"
+    },
+    {
+      "file": "esempi/ilmeteo-lab/assets/37a0f3d1e563-italybig1.jpg",
+      "role": "captured national Friday map reference"
+    }
+  ],
+  "nativeOutput": "/Users/marco/.codex/generated_images/01a11cab-94d0-7500-8cc6-d999c066182c/exec-2c7bd74f-09ef-4bb9-a6b7-82afe9bd577a.png",
+  "inspection": {
+    "place": "Bologna",
+    "date": "Giovedì 8 ottobre 2026",
+    "currentTime": "Ore 20:00",
+    "currentTemperature": "21°C",
+    "condition": "Pioggia debole",
+    "hourly": [
+      "20:00 / 21°C / Pioggia debole",
+      "21:00 / 20,4°C / Assenti",
+      "22:00 / 19,8°C / Assenti",
+      "23:00 / 19,2°C / Assenti"
+    ],
+    "daily": [
+      "Gio 8:17°/25°",
+      "Ven 9:16°/21°",
+      "Sab 10:15°/21°",
+      "Dom 11:13°/22°",
+      "Lun 12:15°/21°",
+      "Mar 13:11°/22°",
+      "Mer 14:10°/22°"
+    ],
+    "threeNavDestinations": true,
+    "editionNote": true,
+    "nationalTomorrowPanel": true,
+    "sourcedHeadlines": true,
+    "noGeneratedNewsPhotos": true,
+    "noInventedProbabilities": true,
+    "hourlyAvailabilityNote": "Dettagli orari acquisiti per oggi."
+  },
+  "limitations": [
+    "Generative raster preview is not a pixel-exact copy of inserted logo/map; production must use the actual source asset files, not crop this comp.",
+    "Minor raster color/surface variation is generated; production must use the exact flat palette tokens.",
+    "The desktop comp does not establish tested interactions, accessibility or responsive behavior."
+  ],
+  "finalImageSha256": "13285379418549092b8feefce9f6b6fa9cc6df798c70cb95fa46847b3e32ccda",
+  "finalBytes": 1573629,
+  "embeddedPromptVerified": true
+}

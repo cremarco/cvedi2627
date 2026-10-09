@@ -1,0 +1,18 @@
+{
+  "prompt": "Edit the supplied iLMeteo UI composition. Preserve every left-column word, exact value, table, timeline, title and alignment unchanged. Preserve overall1505x1045 white/navy/orange flat working interface. Only modify the right national column: reduce the authentic Italy map from its current giant size to a SMALL standalone figure about240px wide and260px tall, centered in the right column beneath Italia · domani / Venerdì9ottobre. The map must occupy no more than16% of full canvas width; leave generous white space on both sides rather than stretching it to the column. All source map details are just a factual insert reference, no invented forecast labels. Put a native-looking text link Ingrandisci mappa immediately below. Replace the mockup-caption with Fonte iLMeteo ·9ottobre2026. Move the existing short national paragraph directly below the compact map, keep the same correct text. Keep Previsioni di domani action under that paragraph. This compact authentic map is necessary to preserve source resolution, not to change the world. Also reduce the selected-hour cloud pictogram to a small48px flat glyph with consistent navy stroke, no shine/3D, without moving or altering21°C /Pioggia debole. Never add hours14-19, fake conditions Sereno, new news headlines, or different tomorrow values: preserve16°C minimum/21°C maximum/Attendibilità49% exactly. No new decorative assets. Make a polished exact composition refinement, not a poster.",
+  "approved": true,
+  "approval": {
+    "kind": "user-delegated-direction-and-composition",
+    "userText": "sceti tu e prosegui",
+    "date": "2026-10-09"
+  },
+  "frame": {
+    "width": 1200,
+    "height": 833
+  },
+  "normalization": "Uniform technical viewport resampling; composition unchanged. Source images in production retain authentic pixels and resolution.",
+  "productionExceptions": [
+    "Authentic source map/logo instead of generated approximations.",
+    "Small geometric weather glyph, no generative factual picture."
+  ]
+}

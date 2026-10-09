@@ -1,0 +1,71 @@
+{
+  "role": "design decision preview; never source evidence or live forecast",
+  "direction": "Previsioni lungo la giornata",
+  "tool": "native image_gen.imagegen",
+  "mode": "one generation with original logo/map references",
+  "createdAt": "2026-10-08T18:34:46.653061+00:00",
+  "file": "esempi/ilmeteo-lab/.impeccable/mocks/decision/model-pick.png",
+  "width": 1505,
+  "height": 1045,
+  "sha256": "4d04ca956fc9047d72a594a6ce4688d820e234ef4a23dfa827ddfdd899ee4021",
+  "nativeOutput": "/Users/marco/.codex/generated_images/01a11caf-b707-7823-b2a8-e347c6862085/exec-2381a347-37f6-4339-9751-83439a120cc4.png",
+  "nativeOutputSha256": "be7458bd06ab5c3f4fc4dd5b41a203579ec97a519a3453a21921b2ccad2b5b19",
+  "promptFile": "model-pick.prompt.json",
+  "embeddedPrompt": {
+    "key": "impeccable:prompt",
+    "pngChunk": "iTXt",
+    "exactTextVerified": true
+  },
+  "references": [
+    {
+      "file": "esempi/ilmeteo-lab/assets/46252b4a8db8-logo_ilmeteo_search_65.png",
+      "role": "authentic original logo reference; brand only",
+      "sha256": "86a4830008d569a9bf1f7f050b92b92c6e9089f0aec906f8d360b6f1d2352445"
+    },
+    {
+      "file": "esempi/ilmeteo-lab/assets/37a0f3d1e563-italybig1.jpg",
+      "role": "captured Friday9October national map reference; generated preview approximation",
+      "sha256": "c49e0ecf0dade44ab254b9759813d51e41fa12d51286b4c399deea9201ad9276"
+    }
+  ],
+  "assignedCompInspected": "esempi/ilmeteo-lab/.impeccable/mocks/decision/assigned.png",
+  "assignedCompUsedAsGenerationReference": false,
+  "inspection": {
+    "place": "Bologna",
+    "date": "Giovedì 8 ottobre 2026",
+    "currentTime": "20:00 selected",
+    "currentTemperature": "21°C medium",
+    "condition": "Pioggia debole",
+    "hourly": [
+      "20:00 /21°C /Pioggia debole",
+      "21:00 /20,4°C /Assenti",
+      "22:00 /19,8°C /Assenti",
+      "23:00 /19,2°C /Assenti"
+    ],
+    "cityTomorrow": {
+      "date": "Venerdì9ottobre",
+      "min": "16°C",
+      "max": "21°C",
+      "reliability": "Attendibilità49%"
+    },
+    "threeNavDestinations": true,
+    "editionNote": true,
+    "whiteContinuousTimetable": true,
+    "dominantHourTimeline": true,
+    "nationalMapApproximationCaptionVisible": true,
+    "sourceGroundedNationalSummary": true,
+    "invariantTextAndNumbersObserved": true,
+    "singleInspection": true
+  },
+  "limitations": [
+    "Generative raster preview approximates logo/map pixels and typography. Production must reuse original source logo and map asset files, not crop this comp.",
+    "Map is visibly labelled Mappa in anteprima: ricostruzione grafica and is never factual source evidence.",
+    "Colors and tiny surface variation are approximate; production must implement solid #15354f/#eaf2f7/#c75a00 CSS tokens rather than sample generated pixels.",
+    "Desktop design preview does not demonstrate working interactions, responsive behavior, accessibility or forecast accuracy."
+  ],
+  "bytes": 1566522,
+  "prompt": "Use case: ui-mockup\nAsset type: one high-fidelity desktop website design-decision image for the card “Previsioni lungo la giornata”, local iLMeteo CVeDI exercise. This is a newly generated design preview, never evidence of the original website.\nPrimary request: Render a complete landscape first viewport, approximately 1505 × 1045 pixels, as a flat professional public-service timetable on white. Make chronology and practical reading the visual center. No browser chrome, device frame or presentation board.\n\nInput images and roles: Image 1 is the original small iLMeteo logo, a brand reference only; retain its recognizable authentic mark in the header. Image 2 is the acquired original national Italy weather map for Friday 9 October 2026, a factual-map reference only; fit the complete map at its original proportions inside the right national forecast panel. Do not use either input as a layout template. Reproduce the source map as faithfully as possible, without inventing additional forecast symbols or numbers. Because this generative image is a visual preview and may approximate source pixels, include the visible caption “Mappa in anteprima: ricostruzione grafica” under the map. Production will reuse the unchanged original logo and map assets.\n\nVisual world: clean white continuous working surface, matte navy #15354f text, cool blue #eaf2f7 for quiet row/section backgrounds, orange #c75a00 for the selected hour. Strong readable compact humanist sans serif with open letterforms, genuine tabular numerals, labels around 20–24px, table numbers 28–34px. Thin crisp horizontal 1px rules, precise alignment, generous but useful whitespace. No giant hero metric: the selected current temperature is a medium 21°C, approximately 48px, integrated in a factual sentence. Content is arranged as a timetable, not a dashboard of boxed metric cards.\n\nStructure: white header roughly 90px high. Small authentic logo at upper left, one clear wide search field showing “Bologna”, then simple top navigation “Home”, “Bologna”, “Domani”; Bologna is selected with a restrained flat orange underline. Beneath the header, small but clearly legible edition note exactly “Dati acquisiti l’8 ottobre 2026”. Main content uses a wide left local timetable column, about two thirds of the page, and a narrower right national column, about one third. All relationships are established through typography and 1px rules, not heavy borders or floating cards.\n\nLeft local timetable:\nTitle “Bologna” at left, then exact date “Giovedì 8 ottobre 2026”. Under it a strong horizontal hour-selection timeline spanning the left column: “20:00”, “21:00”, “22:00”, “23:00” in sequence with evenly aligned anchors; only 20:00 is selected, marked by a solid orange underline or a flat subtle orange chip. The timeline should be the most distinctive part of the composition.\nImmediately below, a compact current-hour summary on white or cool blue, with the labels “Ore 20:00”, medium “21°C”, and “Pioggia debole”. No enormous temperature hero, no oversized decorative weather illustration. A small flat two-dimensional line weather glyph is optional; text remains primary.\n\nBelow the summary, a large continuous chronological table titled “Le prossime ore”, with aligned column headers “Ora”, “Temperatura”, “Precipitazioni”. Four spacious readable rows; exact data, decimal comma and units:\n“20:00” — “21°C” — “Pioggia debole”\n“21:00” — “20,4°C” — “Assenti”\n“22:00” — “19,8°C” — “Assenti”\n“23:00” — “19,2°C” — “Assenti”\nThe first row can have a very pale cool blue full-row background. Use thin horizontal separators only, no orange side rail above 1px. Keep hours vertically aligned and all temperature values in the same numeric column. This table and timeline must dominate the left surface.\n\nUseful continuation below the table, still visible near the lower left: a restrained section titled “Bologna · domani”, date “Venerdì 9 ottobre”, then a single typographic row “Minima 16°C” and “Massima 21°C” and a separate clearly named “Attendibilità 49%”. Treat 49% ONLY as forecast reliability, never as rainfall probability. No invented explanation of the percentage. Include one simple text action “Consulta domani”. Continue the shared horizontal rules rather than creating a card grid.\n\nRight national panel:\nTitle “Italia · domani”, date “Venerdì 9 ottobre”. Fit the complete original Italy map from Image 2 below, approximately 350–380px wide, fully visible without cropping, retaining its source color/rendering only within that map. Map must not overpower the left hourly timeline. Under it the visible caption “Mappa in anteprima: ricostruzione grafica”.\nBelow the map, a short source-grounded regional/national forecast summary in readable typography: “Tempo instabile al Nordest e al Sud, soprattutto sul versante tirrenico. Rovesci alternati a schiarite. Venti moderati, mari mossi.” This is the national forecast and must not be presented as a Bologna warning. Finish with the clear text link “Previsioni di domani”.\n\nInvariants: exact Italian text, dates, four hourly values, source-derived tomorrow min/max and reliability. No additional forecast values, alerts, rain probabilities, fabricated locations, unprovided totals, claims or news. The frozen edition note is visible. Three navigation destinations remain distinct. Render an informative UI first viewport, with thoughtful near-production hierarchy, not a marketing landing page.\n\nAvoid: giant navy hero rectangle, giant temperature, glass, gradients outside the original tiny brand logo and original map, transparency effects, shine, blur, shadows, 3D, volumetric weather art, photographic backgrounds, decorative textures, paper, neon, emoji, metric-card grid, rounded floating cards, thick side borders, invented weather, unreadably small text, watermarks, ornamental arrows, commercial claims.",
+  "approved": false,
+  "kind": "decision-preview",
+  "embeddedPromptVerified": true
+}

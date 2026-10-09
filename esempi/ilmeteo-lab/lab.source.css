@@ -1,0 +1,96 @@
+@import "tailwindcss" source(none);
+@source "./index.html";
+@source "./analisi.html";
+@plugin "daisyui" {
+  themes: false;
+  include: button, table, link;
+  logs: false;
+}
+@plugin "daisyui/theme" {
+  name: "ilmeteo-lab";
+  default: true;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: #ffffff;
+  --color-base-200: #f3f6f8;
+  --color-base-300: #ccd8e0;
+  --color-base-content: #17364e;
+  --color-primary: #174d73;
+  --color-primary-content: #ffffff;
+  --color-secondary: #b64f00;
+  --color-secondary-content: #ffffff;
+  --color-accent: #ffb764;
+  --color-accent-content: #17364e;
+  --color-neutral: #17364e;
+  --color-neutral-content: #ffffff;
+  --color-info: #174d73;
+  --color-info-content: #ffffff;
+  --color-success: #256541;
+  --color-success-content: #ffffff;
+  --color-warning: #ffcb72;
+  --color-warning-content: #17364e;
+  --color-error: #a62e35;
+  --color-error-content: #ffffff;
+  --radius-selector: .25rem;
+  --radius-field: .5rem;
+  --radius-box: .75rem;
+  --size-selector: .25rem;
+  --size-field: .25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+html { scroll-behavior:smooth; }
+body { margin:0; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; font-size:18px; line-height:1.6; }
+::selection { background:var(--color-accent); color:var(--color-base-content); }
+:focus-visible { outline:3px solid var(--color-primary); outline-offset:4px; }
+a { text-underline-offset:.2em; }
+.lab-nav,.lab-footer,main { width:min(1180px,calc(100% - 64px)); margin-inline:auto; }
+.lab-nav { display:flex; flex-wrap:wrap; justify-content:space-between; gap:16px; padding-block:24px; border-bottom:1px solid var(--color-base-300); }
+.lab-nav nav { display:flex; flex-wrap:wrap; gap:24px; }
+.lab-nav a { display:inline-flex; align-items:center; min-height:44px; }
+main { padding-block:48px 72px; }
+h1 { max-width:28ch; font-size:clamp(32px,4vw,48px); font-weight:650; line-height:1.15; letter-spacing:-.02em; text-wrap:balance; margin:0 0 24px; }
+h2 { font-size:28px; font-weight:650; line-height:1.3; margin:56px 0 20px; text-wrap:balance; }
+h3 { font-size:23px; font-weight:650; line-height:1.35; margin:40px 0 16px; }
+p { max-width:74ch; margin:16px 0; }
+.lead { font-size:22px; line-height:1.5; max-width:60ch; }
+.edition { padding:16px 20px; background:var(--color-base-200); border-radius:var(--radius-field); }
+.report-table { overflow-x:auto; overscroll-behavior-inline:contain; margin-block:24px; }
+.table { font-size:16px; line-height:1.5; font-variant-numeric:tabular-nums; }
+.table th { color:var(--color-base-content); font-weight:650; }
+.table td,.table th { padding:16px; vertical-align:top; min-width:12ch; border-color:var(--color-base-300); }
+.table thead { background:var(--color-base-200); }
+.page-table .btn { white-space:nowrap; }
+.page-table { min-width:740px; }
+.pending { color:var(--color-base-content); }
+.actions { display:flex; gap:16px; flex-wrap:wrap; margin-top:24px; }
+.btn { font-size:16px; min-height:48px; font-weight:600; }
+.report ul,.report ol { margin:16px 0; padding-left:28px; max-width:78ch; }
+.report li { margin-block:12px; }
+.report code { padding:2px 5px; background:var(--color-base-200); font-size:.92em; overflow-wrap:anywhere; }
+.lab-footer { border-top:1px solid var(--color-base-300); padding-block:24px 40px; font-size:16px; }
+.skip-link { position:fixed; top:8px; left:8px; transform:translateY(-160%); background:var(--color-base-100); padding:12px 20px; z-index:10; }
+.skip-link:focus { transform:none; }
+@media(max-width:600px) {
+  .lab-nav,.lab-footer,main { width:calc(100% - 32px); }
+  main { padding-block:32px 48px; }
+  .lab-nav nav { gap:16px; }
+  .lead { font-size:20px; }
+  h2 { font-size:25px; margin-top:40px; }
+}
+@media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+@media print {
+  .lab-nav,.actions,.btn,.skip-link { display:none; }
+  main,.lab-footer { width:100%; padding:0; }
+  body { font-size:11pt; color:#17364e; background:#fff; }
+  h1 { font-size:26pt; }
+  h2 { font-size:18pt; }
+  .report-table { overflow:visible; }
+  .table { font-size:9pt; table-layout:fixed; width:100%; }
+  .table td,.table th { min-width:0; padding:6pt; overflow-wrap:anywhere; }
+  thead { display:table-header-group; }
+  tr { break-inside:avoid; }
+  h2,h3 { break-after:avoid; }
+  .page-table { min-width:0; }
+}

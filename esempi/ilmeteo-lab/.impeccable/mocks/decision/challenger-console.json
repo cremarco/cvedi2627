@@ -1,0 +1,99 @@
+{
+  "direction": "challenger-console",
+  "label": "Cruscotto di consultazione",
+  "tool": "image_gen.imagegen (native built-in)",
+  "intent": "ui-mockup",
+  "generatedAtUTC": "2026-10-08T18:34:59.655301+00:00",
+  "sourceGeneratedImage": "/Users/marco/.codex/generated_images/01a11caf-ec7a-7472-b63b-0d809506a97a/exec-ae32acd4-170b-428f-ad37-d386b6102136.png",
+  "savedImage": "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/.impeccable/mocks/decision/challenger-console.png",
+  "dimensions": {
+    "width": 1505,
+    "height": 1045
+  },
+  "bytes": 1601233,
+  "sha256": "958bcea3add6640e8f32f012f3b64adef3be8df015fb7860896db0fc63c685b6",
+  "promptFile": "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/.impeccable/mocks/decision/challenger-console.prompt.txt",
+  "promptSha256": "4956c99321204ede381698be026f507334121231f2d74d49705e401347641873",
+  "prompt": "Use case: ui-mockup\nAsset type: ONE high-fidelity desktop decision comp for iLMeteo, direction \"Cruscotto di consultazione\".\nCreate a polished straight-on screenshot of the interface itself, edge-to-edge, landscape approximately 1505 × 1045 pixels. No browser chrome, monitor, surrounding mockup, presentation-board annotations, or extra images.\n\nInput images:\n1. assigned.png: framing reference only. Match its desktop landscape frame and information scope, but DO NOT reuse its white background, hero card, large temperature display or composition.\n2. original iLMeteo logo PNG: original brand insert reference. Keep the orange square logo recognizable and small at top left; do not invent a new logo.\n3. original national tomorrow map JPEG: original content insert reference. Show this existing raster as the map in the right pane, preserving its geography, weather symbols, city temperature labels and orange footer. Do not generate additional forecast information.\n4. developer-console quality-bar board: material, typography discipline and hairline separation reference.\n5. developer-console hero: persistent left navigation, central work area, right information pane and precise data alignment reference. Adapt the working-console structure to weather consultation, not software development.\n\nVisual world: fully committed flat, dark working console. Graphite background #17212b, subtly lighter opaque panels #243441, crisp white #f6f8fa labels, restrained warm orange #fca95b used only for current selection and small active accents. Flat matte surfaces, no gradients anywhere in interface surfaces, no neon, no glow, no glass, no blur, no drop shadows, no texture, no 3D. Thin neutral hairlines between persistent panes, almost square corners. The supplied original raster map and logo keep their authentic colors. Typeface: clear compact contemporary sans-serif similar to the Lexend reference; figures use aligned tabular numbers. Human-readable Italian labels, comfortable spacing and large legible text. Avoid microscopic diagnostic text.\n\nComposition: narrow 170px left rail spanning full height with small original logo then vertical navigation \"Home\", \"Bologna\", \"Domani\". \"Bologna\" is selected using an orange text accent and a clearly distinguished opaque selection rectangle. At top of remaining area a compact, outlined search field contains \"Bologna\", with a magnifying-glass icon and simple clear affordance. Acquisition label is immediately visible at top: \"Dati acquisiti l’8 ottobre 2026\". Central workspace about 830px wide; right persistent national pane about 460px wide, with thin separator. The table is the primary visual content immediately visible in the first viewport, starting near the upper third rather than after a giant hero. Right map and all four table rows are visible simultaneously. No advertising or news grid.\n\nCentral workspace:\nHeading \"Bologna\", then \"Giovedì 8 ottobre 2026\".\nCompact selected-hour header: \"Ora selezionata\" and \"20:00\"; weather summary \"21°C\" and \"Pioggia debole\" at moderate scale, no enormous display number.\nTable heading \"Previsioni orarie\". Plain aligned column labels \"Ora\", \"Temperatura\", \"Precipitazioni\".\nExactly these four rows, transcribed faithfully, without adding extra measurements:\n20:00 | 21°C | Pioggia debole\n21:00 | 20,4°C | Assenti\n22:00 | 19,8°C | Assenti\n23:00 | 19,2°C | Assenti\n20:00 row is visibly selected using a quiet lighter panel fill and orange selection marker; do not use a glowing border.\nBelow the table, keep a persistent detail pane titled \"Dettagli delle 20:00\". Two clearly labeled details:\n\"Vento\" — \"Sud-sud-ovest · 8 km/h\"\n\"Raffiche\" — \"25 km/h\"\nUse substantial readable labels and values, with thin lines separating them.\n\nRight pane:\nHeading \"Italia · domani\".\nSubheading \"Venerdì 9 ottobre 2026\".\nUse the supplied original national tomorrow raster map prominently, maintaining its aspect ratio. No added frame around the map; panel separation belongs to layout, not the image.\nBelow it, exact factual summary:\n\"Tempo instabile al Nordest e al Sud, soprattutto sul versante tirrenico. Rovesci alternati a schiarite. Venti moderati, mari mossi.\"\nA clear text link \"Previsioni di domani\" with simple arrow.\n\nConstraints: all four hours and table values must match exactly; preserve decimal commas and Italian accents. Do not invent rain probabilities, extra dates, weather warnings, forecasts, city data, accounts, live indicators, notification badges, current-location requests, status dots, AI explanations, charts, or marketing claims. No developer labels, terminal code, pipeline controls or software metrics. This is a weather consultation surface whose layout has the care and legibility of a working console. It must feel substantially different from the supplied light assigned comp, with persistent pane geometry and disciplined dark typography.\n",
+  "toolArguments": {
+    "transparent_background": false,
+    "referenced_image_paths": [
+      "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/.impeccable/mocks/decision/assigned.png",
+      "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/assets/06d2c5cd914d-logo_ilmeteo_search_48.png",
+      "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/assets/37a0f3d1e563-italybig1.jpg",
+      "/private/tmp/ilmeteo-console-board.webp",
+      "/private/tmp/ilmeteo-console-hero.webp"
+    ]
+  },
+  "references": [
+    {
+      "role": "frame-only",
+      "path": "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/.impeccable/mocks/decision/assigned.png",
+      "url": null,
+      "sha256": "3e078a5e183ec515b4a6bda45da61bb178abe6ab70daef4f2b8a5f0fb0494058"
+    },
+    {
+      "role": "original-brand-insert",
+      "path": "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/assets/06d2c5cd914d-logo_ilmeteo_search_48.png",
+      "url": null,
+      "sha256": "ab07e039b05460eb62ff2d65c701cd1982c8c50d542fda9fb9db17aaf3af0af4"
+    },
+    {
+      "role": "original-map-insert",
+      "path": "/Users/marco/Sites/cvedi2627/esempi/ilmeteo-lab/assets/37a0f3d1e563-italybig1.jpg",
+      "url": null,
+      "sha256": "c49e0ecf0dade44ab254b9759813d51e41fa12d51286b4c399deea9201ad9276"
+    },
+    {
+      "role": "quality-bar-board",
+      "path": "/private/tmp/ilmeteo-console-board.webp",
+      "url": "https://impeccable.style/worlds/cards/digital-design-canon-dark-first-developer-console.webp",
+      "sha256": "4fe067cfa317ca474f916607ca760c7e9517d6cfb99af87dc9f0d379c85a0c32"
+    },
+    {
+      "role": "quality-bar-hero",
+      "path": "/private/tmp/ilmeteo-console-hero.webp",
+      "url": "https://impeccable.style/worlds/cards/digital-design-canon-dark-first-developer-console-hero.webp",
+      "sha256": "d651f9b1027d251b8ee34448031c3b2c536dbdbe947fd8628d2d5f7f0afde4f8"
+    }
+  ],
+  "embeddedMetadata": {},
+  "pngChunks": [
+    {
+      "type": "IHDR",
+      "bytes": 13,
+      "sha256": "33f5971346d8a594ec8b4c1638ce08a658a9fbe172e543995b45941028ff25cd"
+    },
+    {
+      "type": "caBX",
+      "bytes": 23654,
+      "sha256": "70d4ccc30754e31502af4d19085c88977b7d0de185a213cda9c2329f55185375"
+    },
+    {
+      "type": "IDAT",
+      "bytes": 1572598,
+      "sha256": "520161ade195bf99f59e272d5e35db858eff64a49627024a179b7fca81d08801"
+    },
+    {
+      "type": "IEND",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "copyPreservesOriginalPNGBytes": false,
+  "inspection": {
+    "passes": 1,
+    "method": "Native image-generation output visual inspection",
+    "content": "All four table hours, temperatures, precipitation labels, 20:00 wind and gust values, acquisition label and dates visibly correct; left navigation, primary table and right national pane visible simultaneously.",
+    "limitations": [
+      "Synthetic decision comp, not a browser screenshot or implementation.",
+      "Generated map/logo rendering is a visual reference; production must use original local logo and map bytes and verified source data.",
+      "Palette and surface values are approximate raster output; subtle tonal variation remains despite the flat-surface prompt.",
+      "No responsive, keyboard, focus, interaction, contrast or print validation is implied."
+    ]
+  },
+  "productionSourcePolicy": "Preserve originals, licenses, attribution and data. Never promote generative map labels or weather symbols to factual evidence.",
+  "approved": false,
+  "kind": "decision-preview",
+  "embeddedPromptVerified": true
+}

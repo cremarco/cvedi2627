@@ -1,0 +1,84 @@
+{
+  "pages": {
+    "home": {
+      "url": "https://www.ilmeteo.it/",
+      "requestedUrl": "https://www.ilmeteo.it/",
+      "status": 200,
+      "capturedAt": "2026-10-08T18:04:02.592456+00:00",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 18:04:02 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "x-do-esi": "1",
+        "request-uri": "/",
+        "Cache-Control": "public, max-age=1800, s-maxage=300",
+        "vary": "Accept-Encoding",
+        "link": "</jquery-3.6.3.full.custom.min.js?v=202410041700>; as=script; rel=preload, <https://micro.rubiconproject.com/prebid/dynamic/10653.js>; as=script; rel=preload, <https://fundingchoicesmessages.google.com>; rel=preconnect, <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; as=script; rel=preload, <https://events.newsroom.bi>; rel=preconnect, <https://sdk.mrf.io>; rel=preconnect, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Regular.woff2>; as=font; crossorigin; rel=preload, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Bold.woff2>; as=font; crossorigin; rel=preload",
+        "via": "1.1 google",
+        "Age": "84",
+        "last-modified": "Thu, 08 Oct 2026 18:02:37 GMT",
+        "cf-cache-status": "HIT",
+        "CF-RAY": "a47710d40e1dbaf3-MXP"
+      },
+      "file": "sources/home.html",
+      "sha256": "e616cfff374b3b0ae8f2c98aa1e0b550b27ea802568a3fd6aef45537707f7d93",
+      "bytes": 421577
+    },
+    "bologna": {
+      "url": "https://www.ilmeteo.it/meteo/bologna",
+      "requestedUrl": "https://www.ilmeteo.it/meteo/bologna",
+      "status": 200,
+      "capturedAt": "2026-10-08T18:04:02.635228+00:00",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 18:04:02 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "x-do-esi": "1",
+        "request-uri": "/meteo/bologna",
+        "vary": "Accept-Encoding",
+        "Cache-Control": "public, max-age=900, s-maxage=300",
+        "last-modified": "Thu, 08 Oct 2026 17:29:05 GMT",
+        "expires": "Thu, 08 Oct 2026 18:14:05 GMT",
+        "link": "</jquery-3.6.3.full.custom.min.js?v=202410041700>; as=script; rel=preload, <https://micro.rubiconproject.com/prebid/dynamic/10653.js>; as=script; rel=preload, <https://fundingchoicesmessages.google.com>; rel=preconnect, <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; as=script; rel=preload, <https://events.newsroom.bi>; rel=preconnect, <https://sdk.mrf.io>; rel=preconnect, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Regular.woff2>; as=font; crossorigin; rel=preload, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Bold.woff2>; as=font; crossorigin; rel=preload",
+        "via": "1.1 google",
+        "Age": "296",
+        "cf-cache-status": "HIT",
+        "CF-RAY": "a47710d45e76ed2c-MXP"
+      },
+      "file": "sources/bologna.html",
+      "sha256": "af3e38f4043700e615d6ba2916d119c32b9054f00c6d7180ecbddaed29ea54fa",
+      "bytes": 427196
+    },
+    "domani": {
+      "url": "https://www.ilmeteo.it/portale/meteo-domani",
+      "requestedUrl": "https://www.ilmeteo.it/portale/meteo-domani",
+      "status": 200,
+      "capturedAt": "2026-10-08T18:04:02.688921+00:00",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 18:04:02 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "x-do-esi": "1",
+        "request-uri": "/portale/meteo-domani",
+        "Cache-Control": "max-age=1800",
+        "expires": "Thu, 08 Oct 2026 18:01:55 GMT",
+        "vary": "Accept-Encoding",
+        "link": "</jquery-3.6.3.full.custom.min.js?v=202410041700>; as=script; rel=preload, <https://micro.rubiconproject.com/prebid/dynamic/10653.js>; as=script; rel=preload, <https://fundingchoicesmessages.google.com>; rel=preconnect, <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; as=script; rel=preload, <https://events.newsroom.bi>; rel=preconnect, <https://sdk.mrf.io>; rel=preconnect, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Regular.woff2>; as=font; crossorigin; rel=preload, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Bold.woff2>; as=font; crossorigin; rel=preload",
+        "via": "1.1 google",
+        "Age": "1027",
+        "last-modified": "Thu, 08 Oct 2026 17:46:55 GMT",
+        "cf-cache-status": "HIT",
+        "CF-RAY": "a47710d4accdee80-MXP"
+      },
+      "file": "sources/domani.html",
+      "sha256": "4db87dde98e0d9eac88a1b62c24dd97909d53b7b290bff00d93ef6d5f0bddbcd",
+      "bytes": 235912
+    }
+  }
+}

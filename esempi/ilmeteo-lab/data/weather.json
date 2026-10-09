@@ -1,0 +1,558 @@
+{
+  "schemaVersion": 1,
+  "city": "Bologna",
+  "editionDate": "2026-10-08",
+  "sourcePages": {
+    "home": {
+      "url": "https://www.ilmeteo.it/",
+      "requestedUrl": "https://www.ilmeteo.it/",
+      "status": 200,
+      "capturedAt": "2026-10-08T18:04:02.592456+00:00",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 18:04:02 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "x-do-esi": "1",
+        "request-uri": "/",
+        "Cache-Control": "public, max-age=1800, s-maxage=300",
+        "vary": "Accept-Encoding",
+        "link": "</jquery-3.6.3.full.custom.min.js?v=202410041700>; as=script; rel=preload, <https://micro.rubiconproject.com/prebid/dynamic/10653.js>; as=script; rel=preload, <https://fundingchoicesmessages.google.com>; rel=preconnect, <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; as=script; rel=preload, <https://events.newsroom.bi>; rel=preconnect, <https://sdk.mrf.io>; rel=preconnect, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Regular.woff2>; as=font; crossorigin; rel=preload, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Bold.woff2>; as=font; crossorigin; rel=preload",
+        "via": "1.1 google",
+        "Age": "84",
+        "last-modified": "Thu, 08 Oct 2026 18:02:37 GMT",
+        "cf-cache-status": "HIT",
+        "CF-RAY": "a47710d40e1dbaf3-MXP"
+      },
+      "file": "sources/home.html",
+      "sha256": "e616cfff374b3b0ae8f2c98aa1e0b550b27ea802568a3fd6aef45537707f7d93",
+      "bytes": 421577
+    },
+    "bologna": {
+      "url": "https://www.ilmeteo.it/meteo/bologna",
+      "requestedUrl": "https://www.ilmeteo.it/meteo/bologna",
+      "status": 200,
+      "capturedAt": "2026-10-08T18:04:02.635228+00:00",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 18:04:02 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "x-do-esi": "1",
+        "request-uri": "/meteo/bologna",
+        "vary": "Accept-Encoding",
+        "Cache-Control": "public, max-age=900, s-maxage=300",
+        "last-modified": "Thu, 08 Oct 2026 17:29:05 GMT",
+        "expires": "Thu, 08 Oct 2026 18:14:05 GMT",
+        "link": "</jquery-3.6.3.full.custom.min.js?v=202410041700>; as=script; rel=preload, <https://micro.rubiconproject.com/prebid/dynamic/10653.js>; as=script; rel=preload, <https://fundingchoicesmessages.google.com>; rel=preconnect, <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; as=script; rel=preload, <https://events.newsroom.bi>; rel=preconnect, <https://sdk.mrf.io>; rel=preconnect, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Regular.woff2>; as=font; crossorigin; rel=preload, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Bold.woff2>; as=font; crossorigin; rel=preload",
+        "via": "1.1 google",
+        "Age": "296",
+        "cf-cache-status": "HIT",
+        "CF-RAY": "a47710d45e76ed2c-MXP"
+      },
+      "file": "sources/bologna.html",
+      "sha256": "af3e38f4043700e615d6ba2916d119c32b9054f00c6d7180ecbddaed29ea54fa",
+      "bytes": 427196
+    },
+    "domani": {
+      "url": "https://www.ilmeteo.it/portale/meteo-domani",
+      "requestedUrl": "https://www.ilmeteo.it/portale/meteo-domani",
+      "status": 200,
+      "capturedAt": "2026-10-08T18:04:02.688921+00:00",
+      "headers": {
+        "Date": "Thu, 08 Oct 2026 18:04:02 GMT",
+        "Content-Type": "text/html; charset=utf-8",
+        "Transfer-Encoding": "chunked",
+        "Connection": "close",
+        "Server": "cloudflare",
+        "x-do-esi": "1",
+        "request-uri": "/portale/meteo-domani",
+        "Cache-Control": "max-age=1800",
+        "expires": "Thu, 08 Oct 2026 18:01:55 GMT",
+        "vary": "Accept-Encoding",
+        "link": "</jquery-3.6.3.full.custom.min.js?v=202410041700>; as=script; rel=preload, <https://micro.rubiconproject.com/prebid/dynamic/10653.js>; as=script; rel=preload, <https://fundingchoicesmessages.google.com>; rel=preconnect, <https://securepubads.g.doubleclick.net/tag/js/gpt.js>; as=script; rel=preload, <https://events.newsroom.bi>; rel=preconnect, <https://sdk.mrf.io>; rel=preconnect, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Regular.woff2>; as=font; crossorigin; rel=preload, </portale/themes/ilmeteo10/fonts2/OpenSansHebrewCondensed-Bold.woff2>; as=font; crossorigin; rel=preload",
+        "via": "1.1 google",
+        "Age": "1027",
+        "last-modified": "Thu, 08 Oct 2026 17:46:55 GMT",
+        "cf-cache-status": "HIT",
+        "CF-RAY": "a47710d4accdee80-MXP"
+      },
+      "file": "sources/domani.html",
+      "sha256": "4db87dde98e0d9eac88a1b62c24dd97909d53b7b290bff00d93ef6d5f0bddbcd",
+      "bytes": 235912
+    }
+  },
+  "update": "aggiornamento del 8/10 ore 19:59",
+  "author": "Meteorologo: Mattia Gussoni",
+  "daily": [
+    {
+      "label": "Gio 8",
+      "sourceUrl": "https://www.ilmeteo.it/meteo/bologna",
+      "timestamp": "1791410400",
+      "minimum": "17°",
+      "maximum": "25°",
+      "symbol": "104",
+      "reliability": "50%",
+      "hourlyAvailable": true
+    },
+    {
+      "label": "Ven 9",
+      "sourceUrl": "https://www.ilmeteo.it/meteo/bologna/domani",
+      "timestamp": "1791496800",
+      "minimum": "16°",
+      "maximum": "21°",
+      "symbol": "4",
+      "reliability": "49%",
+      "hourlyAvailable": false
+    },
+    {
+      "label": "Sab 10",
+      "sourceUrl": "https://www.ilmeteo.it/meteo/bologna/dopodomani",
+      "timestamp": "1791583200",
+      "minimum": "15°",
+      "maximum": "21°",
+      "symbol": "4",
+      "reliability": "",
+      "hourlyAvailable": false
+    },
+    {
+      "label": "Dom 11",
+      "sourceUrl": "https://www.ilmeteo.it/meteo/bologna/3",
+      "timestamp": "1791669600",
+      "minimum": "13°",
+      "maximum": "22°",
+      "symbol": "4",
+      "reliability": "",
+      "hourlyAvailable": false
+    },
+    {
+      "label": "Lun 12",
+      "sourceUrl": "https://www.ilmeteo.it/meteo/bologna/4",
+      "timestamp": "1791756000",
+      "minimum": "15°",
+      "maximum": "21°",
+      "symbol": "4",
+      "reliability": "",
+      "hourlyAvailable": false
+    },
+    {
+      "label": "Mar 13",
+      "sourceUrl": "https://www.ilmeteo.it/meteo/bologna/5",
+      "timestamp": "1791842400",
+      "minimum": "11°",
+      "maximum": "22°",
+      "symbol": "3",
+      "reliability": "",
+      "hourlyAvailable": false
+    },
+    {
+      "label": "Mer 14",
+      "sourceUrl": "https://www.ilmeteo.it/meteo/bologna/6",
+      "timestamp": "1791928800",
+      "minimum": "10°",
+      "maximum": "22°",
+      "symbol": "3",
+      "reliability": "",
+      "hourlyAvailable": false
+    }
+  ],
+  "hourly": [
+    {
+      "hour": "20",
+      "timestamp": "1791475200",
+      "intervalHours": 1,
+      "temperature": "21",
+      "precipitation": "pioggia debole",
+      "symbol": "109",
+      "wind": "SSW 825",
+      "windDirection": "SSW",
+      "windSpeed": "8",
+      "gustSpeed": "25",
+      "hail": "3%",
+      "feelsLike": "21.3",
+      "pressure": "1010",
+      "humidity": "71",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 158 | PM10: 6 | NO2: 14.1",
+      "uv": "0",
+      "freezingLevel": "3300mneve a 3000m"
+    },
+    {
+      "hour": "21",
+      "timestamp": "1791478800",
+      "intervalHours": 1,
+      "temperature": "20.4",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SW 721",
+      "windDirection": "SW",
+      "windSpeed": "7",
+      "gustSpeed": "21",
+      "hail": "0%",
+      "feelsLike": "20.8",
+      "pressure": "1011",
+      "humidity": "73",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 159 | PM10: 7 | NO2: 17.2",
+      "uv": "0",
+      "freezingLevel": "3280m"
+    },
+    {
+      "hour": "22",
+      "timestamp": "1791482400",
+      "intervalHours": 1,
+      "temperature": "19.8",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SW 615",
+      "windDirection": "SW",
+      "windSpeed": "6",
+      "gustSpeed": "15",
+      "hail": "0%",
+      "feelsLike": "20.4",
+      "pressure": "1011",
+      "humidity": "76",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 168 | PM10: 9 | NO2: 17.8",
+      "uv": "0",
+      "freezingLevel": "3250m"
+    },
+    {
+      "hour": "23",
+      "timestamp": "1791486000",
+      "intervalHours": 1,
+      "temperature": "19.2",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SW 615",
+      "windDirection": "SW",
+      "windSpeed": "6",
+      "gustSpeed": "15",
+      "hail": "0%",
+      "feelsLike": "19.8",
+      "pressure": "1012",
+      "humidity": "79",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 162 | PM10: 9 | NO2: 17",
+      "uv": "0",
+      "freezingLevel": "3230m"
+    },
+    {
+      "hour": "24",
+      "timestamp": "1791489600",
+      "intervalHours": 1,
+      "temperature": "18.7",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SW 616",
+      "windDirection": "SW",
+      "windSpeed": "6",
+      "gustSpeed": "16",
+      "hail": "0%",
+      "feelsLike": "19.2",
+      "pressure": "1012",
+      "humidity": "79",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 165 | PM10: 9 | NO2: 17.8",
+      "uv": "0",
+      "freezingLevel": "3210m"
+    },
+    {
+      "hour": "1",
+      "timestamp": "1791493200",
+      "intervalHours": 1,
+      "temperature": "18.2",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "WSW 718",
+      "windDirection": "WSW",
+      "windSpeed": "7",
+      "gustSpeed": "18",
+      "hail": "0%",
+      "feelsLike": "18.5",
+      "pressure": "1013",
+      "humidity": "82",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 165 | PM10: 11 | NO2: 15.2",
+      "uv": "0",
+      "freezingLevel": "3210m"
+    },
+    {
+      "hour": "2",
+      "timestamp": "1791496800",
+      "intervalHours": 1,
+      "temperature": "17.7",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SW 616",
+      "windDirection": "SW",
+      "windSpeed": "6",
+      "gustSpeed": "16",
+      "hail": "0%",
+      "feelsLike": "18.3",
+      "pressure": "1013",
+      "humidity": "85",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 163 | PM10: 12 | NO2: 12.5",
+      "uv": "0",
+      "freezingLevel": "3180m"
+    },
+    {
+      "hour": "20",
+      "timestamp": "1791475200",
+      "intervalHours": 3,
+      "temperature": "21",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SW 1229",
+      "windDirection": "SW",
+      "windSpeed": "12",
+      "gustSpeed": "29",
+      "hail": "0%",
+      "feelsLike": "21",
+      "pressure": "1010",
+      "humidity": "70",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 158 | PM10: 6 | NO2: 14.1",
+      "uv": "0",
+      "freezingLevel": "3310m"
+    },
+    {
+      "hour": "23",
+      "timestamp": "1791486000",
+      "intervalHours": 3,
+      "temperature": "19.2",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SSW 621",
+      "windDirection": "SSW",
+      "windSpeed": "6",
+      "gustSpeed": "21",
+      "hail": "0%",
+      "feelsLike": "19.6",
+      "pressure": "1011",
+      "humidity": "77",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 162 | PM10: 9 | NO2: 17",
+      "uv": "0",
+      "freezingLevel": "3250m"
+    },
+    {
+      "hour": "2",
+      "timestamp": "1791496800",
+      "intervalHours": 3,
+      "temperature": "17.7",
+      "precipitation": "- assenti -",
+      "symbol": "104",
+      "wind": "SW 717",
+      "windDirection": "SW",
+      "windSpeed": "7",
+      "gustSpeed": "17",
+      "hail": "0%",
+      "feelsLike": "18",
+      "pressure": "1013",
+      "humidity": "84",
+      "visibility": ">10kmbuona",
+      "airQuality": "CO: 163 | PM10: 12 | NO2: 12.5",
+      "uv": "0",
+      "freezingLevel": "3190m"
+    }
+  ],
+  "realtime": [
+    {
+      "time": "19:50",
+      "temperature": "21.1",
+      "wind": "SSW 925",
+      "symbol": "109",
+      "hail": "2%",
+      "feelsLike": "21.1",
+      "pressure": "1010",
+      "humidity": "67",
+      "visibility": ">10kmbuona",
+      "uv": "0",
+      "freezingLevel": "3320mneve a 3020m"
+    }
+  ],
+  "forecastSummary": [],
+  "homeSummary": "Perturbazione in transito sull'Italia. Venerdì e WEEKEND: un fronte perturbato sospinto da intensi venti di Libeccio e Scirocco attraverserà l'Italia interessando il Nord e le regioni tirreniche. Sabato e Domenica le piogge interesseranno il versante Adriatico centro meridionale e localmente il resto del Sud, tornerà il bel tempo al Nord. PROSSIMA SETTIMANA: lunedì, piogge al Nordovest. Da martedì ingresso di forti venti di Grecale e maltempo su medio e basso Adriatico, sole pieno al Nord e sulle Tirreniche.",
+  "tomorrowSummary": "APPROFONDIMENTO Una perturbazione interessa il Paese. La giornata sarà contrassegnata da condizioni di tempo instabile o molto instabile al Nordest e al Sud, specie sul lato tirrenico. Attesi rovesci di pioggia localmente alternati a schiarite o pause asciutte. Non mancheranno dei temporali, specie al Sud. Piovaschi e schiarite soleggiate sul resto delle regioni. Venti moderati, mari mossi.",
+  "regions": [
+    {
+      "title": "Meteo domani - NORD",
+      "text": "La pressione è bassa sulle nostre regioni. La giornata sarà contraddistinta da un cielo molto nuvoloso o localmente coperto. Sono attese piogge che interesseranno maggiormente il Nordest, saranno alternate a schiarite in Lombardia, maggiori spazi soleggiati in Piemonte e sul Trentino Alto Adige. Venti meridionali, mar Ligure molto mosso. Temperature stazionarie.",
+      "temperatures": "Temperature Valori massimi attesi tra i 19 e i 21°C gradi su tutte le città."
+    },
+    {
+      "title": "Meteo domani - CENTRO e SARDEGNA",
+      "text": "Sulle nostre regioni la pressione si è abbassata per il transito di una perturbazione. La giornata sarà contraddistinta da un tempo spiccatamente instabile, infatti la nuvolosità ben presente potrà provocare delle precipitazioni irregolari su molte regioni, più forti sul Lazio. I venti soffieranno da Libeccio sul Tirreno e da Scirocco sull'Adriatico. I mari risulteranno mossi.",
+      "temperatures": "Temperature Valori massimi compresi tra i 19-20°C di L'Aquila e Campobasso e i 23-24°C di Ancona e Pescara"
+    },
+    {
+      "title": "Meteo domani - SUD e SICILIA",
+      "text": "Una perturbazione atlantica interessa le nostre regioni, pertanto la giornata sarà contraddistinta da un cielo spesso coperto o molto nuvoloso. Sono previste delle piogge localmente intense in Campania e distribuite in forma irregolare e generalmente modeste sul resto delle regioni. Entro sera peggiora diffusamente in Sicilia. Venti meridionali, mar Ionio molto mosso, mossi i restanti bacini.",
+      "temperatures": "Temperature Valori massimi attesi tra i 18°C di Potenza e i 25-26°C di Bari e Palermo e Catanzaro"
+    }
+  ],
+  "news": [
+    {
+      "title": "Temporale a Roma: piogge intense e allagamenti tra Montesacro e la zona Portuense [Video]",
+      "url": "https://www.ilmeteo.it/notizie/temporale-a-roma-piogge-intense-e-allagamenti-tra-montesacro-e-la-zona-portuense-video-133002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_Roma-all-.JPEG",
+      "context": "Temporale a Roma: piogge intense e allagamenti tra Montesacro e la zona Portuense [Video]",
+      "sourceTitle": "8/10/2026 - Temporale a Roma: piogge intense e allagamenti tra Montesacro e la zona Portuense [Video]",
+      "localImage": "assets/73f1f7357579-thumb_Roma-all-.jpeg"
+    },
+    {
+      "title": "Meteo: è tornata la neve sul Passo dello Stelvio: paesaggio imbiancato [Video]",
+      "url": "https://www.ilmeteo.it/notizie/meteo-tornata-la-neve-sul-passo-dello-stelvio-paesaggio-imbiancato-video-160003",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_Stelv-neve.jpg",
+      "context": "Meteo: è tornata la neve sul Passo dello Stelvio: paesaggio imbiancato [Video]",
+      "sourceTitle": "8/10/2026 - Meteo: è tornata la neve sul Passo dello Stelvio: paesaggio imbiancato [Video]",
+      "localImage": "assets/c9f4df470a7c-thumb_Stelv-neve.jpg"
+    },
+    {
+      "title": "Riscaldamento globale: le conseguenze sulle Alpi e le aree del Mediterraneo [Video]",
+      "url": "https://www.ilmeteo.it/notizie/riscaldamento-globale-le-conseguenze-sul-territorio-alpino-e-mediterraneo-video-160001",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_Tedi-frana-10.JPEG",
+      "context": "Riscaldamento globale: le conseguenze sulle Alpi e le aree del Mediterraneo [Video]",
+      "sourceTitle": "8/10/2026 - Riscaldamento globale: le conseguenze sulle Alpi e le aree del Mediterraneo [Video]",
+      "localImage": "assets/ee7065900dd6-thumb_Tedi-frana-10.jpeg"
+    },
+    {
+      "title": "Viareggio, maltempo: danni alle abitazioni e disagi sulle strade [Video]",
+      "url": "https://www.ilmeteo.it/notizie/viareggio-maltempo-danni-alle-abitazioni-e-disagi-sulle-strade-video-150002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_viaregg.jpg",
+      "context": "Viareggio, maltempo: danni alle abitazioni e disagi sulle strade [Video]",
+      "sourceTitle": "8/10/2026 - Viareggio, maltempo: danni alle abitazioni e disagi sulle strade [Video]",
+      "localImage": "assets/6c22b58522ce-thumb_viaregg.jpg"
+    },
+    {
+      "title": "PRIMA PAGINA ore 19:56 Meteo weekend: Sabato ancora piogge localmente battenti al Centro-Sud, Domenica più stabile. Le previsioni",
+      "url": "https://www.ilmeteo.it/notizie/meteo-weekend-sabato-ancora-piogge-localmente-battenti-al-centrosud-domenica-pi-stabile-le-previsioni-113003",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_wee-cop-81026_0.jpg",
+      "context": "PRIMA PAGINA ore 19:56 Meteo weekend: Sabato ancora piogge localmente battenti al Centro-Sud, Domenica più stabile. Le previsioni",
+      "sourceTitle": "",
+      "localImage": "assets/40470128651c-thumb_wee-cop-81026_0.jpg"
+    },
+    {
+      "title": "Protezione Civile Nazionale: allerta meteo arancione in Campania e Lazio, gialla in 14 regioni. Il bollettino",
+      "url": "https://www.ilmeteo.it/notizie/protezione-civile-nazionale-allerta-meteo-arancione-in-campania-e-lazio-gialla-in-14-regioni-il-bollettino-173002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_allertarancio-081026.jpeg",
+      "context": "Protezione Civile Nazionale: allerta meteo arancione in Campania e Lazio, gialla in 14 regioni. Il bollettino",
+      "sourceTitle": "",
+      "localImage": "assets/266bfa5ec358-thumb_allertarancio-081026.jpeg"
+    },
+    {
+      "title": "Meteo prossima settimana: avvio ancora con piogge e vento, dal 15 Ottobre temporanea alta pressione. Tendenza",
+      "url": "https://www.ilmeteo.it/notizie/meteo-prossima-settimana-avvio-ancora-con-piogge-e-vento-dal-15-ottobre-temporanea-alta-pressione-tendenza-144001",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_pro-cop-81012.jpg",
+      "context": "Meteo prossima settimana: avvio ancora con piogge e vento, dal 15 Ottobre temporanea alta pressione. Tendenza",
+      "sourceTitle": "",
+      "localImage": "assets/55edfd82cd65-thumb_pro-cop-81012.jpg"
+    },
+    {
+      "title": "Meteo: calo termico in atto, Venerdì 9 Ottobre ulteriore diminuzione di 5-6°C al Centro-Sud [mappa]",
+      "url": "https://www.ilmeteo.it/notizie/meteo-calo-termico-in-atto-venerd-9-ottobre-ulteriore-diminuzione-di-56c-al-centrosud-mappa-105002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_diff_temp_giove_vene_081026_0.png.jpg",
+      "context": "Meteo: calo termico in atto, Venerdì 9 Ottobre ulteriore diminuzione di 5-6°C al Centro-Sud [mappa]",
+      "sourceTitle": "",
+      "localImage": "assets/0b53561d22db-thumb_diff_temp_giove_vene_081026_0.png.jpg"
+    },
+    {
+      "title": "Meteo: da metà Ottobre blocco atmosferico in Europa; instabile su Adriatiche e Sud, mite al Nord. Proiezioni",
+      "url": "https://www.ilmeteo.it/notizie/meteo-da-met-ottobre-blocco-atmosferico-in-europa-instabile-su-adriatiche-e-sud-mite-al-nord-proiezioni-153002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_cop-ott-81012.jpg",
+      "context": "Meteo: da metà Ottobre blocco atmosferico in Europa; instabile su Adriatiche e Sud, mite al Nord. Proiezioni",
+      "sourceTitle": "",
+      "localImage": "assets/ccfd0d2e219c-thumb_cop-ott-81012.jpg"
+    },
+    {
+      "title": "Meteo, perturbazioni in transito: piogge e locali temporali, calo termico, migliora da Domenica [parla Tedici]",
+      "url": "https://www.ilmeteo.it/notizie/meteo-perturbazioni-in-transito-piogge-e-locali-temporali-calo-termico-migliora-da-domenica-parla-tedici-210003",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_Ed-2026107.jpg",
+      "context": "Meteo, perturbazioni in transito: piogge e locali temporali, calo termico, migliora da Domenica [parla Tedici]",
+      "sourceTitle": "",
+      "localImage": "assets/e67f92cd7624-thumb_Ed-2026107.jpg"
+    },
+    {
+      "title": "Meteo: prima fase ventosa autunnale tra l'8 e il 9 Ottobre con raffiche a 80-90 km/h e mareggiate [mappe]",
+      "url": "https://www.ilmeteo.it/notizie/meteo-prima-fase-ventosa-autunnale-tra-l8-e-il-9-ottobre-con-raffiche-a-8090-kmh-e-mareggiate-mappe-112558",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_ventiok-071026.jpg",
+      "context": "Meteo: prima fase ventosa autunnale tra l'8 e il 9 Ottobre con raffiche a 80-90 km/h e mareggiate [mappe]",
+      "sourceTitle": "",
+      "localImage": "assets/c9f8d4b8e82b-thumb_ventiok-071026.jpg"
+    },
+    {
+      "title": "Ora solare 2026: quando torna, l'impatto sul meteo e il punto sull'abolizione",
+      "url": "https://www.ilmeteo.it/notizie/ora-solare-2026-quando-torna-limpatto-sul-meteo-e-il-punto-sullabolizione-150001",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_ora-solare-021026.jpg",
+      "context": "Ora solare 2026: quando torna, l'impatto sul meteo e il punto sull'abolizione",
+      "sourceTitle": "",
+      "localImage": "assets/bb31e7beea25-thumb_ora-solare-021026.jpg"
+    },
+    {
+      "title": "Forti piogge e temporali a Napoli: traffico in tilt in diverse zone della città [Video]",
+      "url": "https://www.ilmeteo.it/notizie/forti-piogge-e-temporali-a-napoli-traffico-in-tilt-in-diverse-zone-della-citt-video-140004",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_napoli-081026.jpg",
+      "context": "Forti piogge e temporali a Napoli: traffico in tilt in diverse zone della città [Video] 8/10/2026 ore 18:40",
+      "sourceTitle": "",
+      "localImage": "assets/b088f74dd0b0-thumb_napoli-081026.jpg"
+    },
+    {
+      "title": "iLMeteo.it Cambia Rotta: Addio al 'Meteo Spettacolo', Nasce il Patto di Trasparenza con i Lettori",
+      "url": "https://www.ilmeteo.it/notizie/ilmeteoit-cambia-rotta-addio-al-meteo-spettacolo-nasce-il-patto-di-trasparenza-con-i-lettori-173002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_IMG_0798.jpeg",
+      "context": "iLMeteo.it Cambia Rotta: Addio al 'Meteo Spettacolo', Nasce il Patto di Trasparenza con i Lettori 8/10/2026 ore 18:28",
+      "sourceTitle": "",
+      "localImage": "assets/f43d0d5729a9-thumb_IMG_0798.jpeg"
+    },
+    {
+      "title": "Meteo: Valencia, temporali e allagamenti a Moncada: oltre 110 mm di pioggia e trasporti in tilt [Video]",
+      "url": "https://www.ilmeteo.it/notizie/meteo-valencia-temporali-e-allagamenti-a-moncada-oltre-110-mm-di-pioggia-e-trasporti-in-tilt-video-133002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_valencia-oggi-021026.jpg",
+      "context": "Meteo: Valencia, temporali e allagamenti a Moncada: oltre 110 mm di pioggia e trasporti in tilt [Video] 8/10/2026 ore 18:26",
+      "sourceTitle": "",
+      "localImage": "assets/c0d204840704-thumb_valencia-oggi-021026.jpg"
+    },
+    {
+      "title": "Livorno, un grande capodoglio spunta a pochi metri dal porticciolo [Video]",
+      "url": "https://www.ilmeteo.it/notizie/livorno-un-grande-capodoglio-spunta-a-pochi-metri-dal-porticciolo-video-183002",
+      "image": "https://www.ilmeteo.it/portale/files/giornale/thumb_capodoglio-061026.jpg",
+      "context": "Livorno, un grande capodoglio spunta a pochi metri dal porticciolo [Video] 8/10/2026 ore 18:20",
+      "sourceTitle": "",
+      "localImage": "assets/4c9e44ed0847-thumb_capodoglio-061026.jpg"
+    }
+  ],
+  "details": [
+    {
+      "title": "Dati solari totali",
+      "text": "Dati solari totali 3000 Wh/mq Impianto 3kW produzione energia 7.2 kWh"
+    },
+    {
+      "title": "Precipitazioni totali",
+      "text": "Precipitazioni totali Pioggia: 2.9 mm Neve: -"
+    },
+    {
+      "title": "",
+      "text": "Medie climatiche di OttobreTemperature: 10°C / 19°CVento: 4 km/hPrecipitazioni: 72 mmUmidità: 76%Medie climatiche dettagliate Ieri, Mercoledì 7 Ottobre 2026 Poco nuvoloso Temperature: 14°C / 24°C Umidità: 74% Archivio storico meteo"
+    }
+  ],
+  "limits": {
+    "acquiredCity": "Bologna",
+    "hourlyDates": [
+      "2026-10-08",
+      "2026-10-09"
+    ],
+    "dailySummaryOnly": [
+      "Ven 9",
+      "Sab 10",
+      "Dom 11",
+      "Lun 12",
+      "Mar 13",
+      "Mer 14"
+    ],
+    "liveData": false
+  }
+}

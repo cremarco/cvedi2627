@@ -1,0 +1,26 @@
+Use case: ui-mockup
+Asset type: one full fidelity desktop website design decision comp, named “Bollettino a colpo d’occhio”, for a local iLMeteo classroom redesign.
+Primary request: Generate a flat, production-quality screenshot of a complete first viewport, landscape around 1440 × 1000 pixels, showing the weather product already doing its job. This is a design preview, never a source screenshot. No browser chrome, device frame or presentation board.
+
+Input images and roles: Image 1 is the original iLMeteo homepage screenshot, used ONLY as evidence of the authentic logo and recognizable blue/orange brand; absolutely do not preserve its advertising, clutter, composition, background or hierarchy. Image 2 is the authentic 65px iLMeteo logo, to retain accurately in the header. Image 3 is the captured original Italy map for Friday 9 October 2026: place this image unchanged as a sourced inset in the national tomorrow panel. Do not redraw its weather symbols, tiny labels, temperature values, coastline or date. Treat all input images as references or inserts, not edit targets.
+
+Visual world: an ordered meteorological working surface for rapid lookup by place and time, like a clearly typeset service timetable. Build the weather numbers into one continuous surface with strong row/column relationships, not a generic dashboard of metric cards. Matte navy #123553, white #ffffff, cool light background #f4f7fa, orange #d86d00 used sparingly for the selected time and primary focus. All fields solid, precise and crisp. Contemporary readable sans serif with tabular numerals. Labels 18–22px, table values 24–30px, dominant current temperature about 110–140px. Thin quiet rules and deliberate alignment. Moderate corners on native controls only; no tiled card dashboard or decorative oversized rounded boxes.
+
+Structure: compact white brand/search header about 84px high; authentic logo small at left; an unmistakable place search field showing “Bologna”; three distinct navigation destinations “Home”, “Bologna”, “Domani”. Beneath, a short factual edition note: “Dati acquisiti l’8 ottobre 2026”. The content is two adjacent columns, with the local weather working surface taking about two thirds and the national tomorrow panel taking one third.
+
+Local working surface: one generous matte navy rectangular field with white typography. Title “Bologna”. Date exactly “Giovedì 8 ottobre 2026”. A clearly labelled selected time “Ore 20:00”, followed by a dominant “21°C” and plain-language condition “Pioggia debole”. A compact ordered time selector “20:00”, “21:00”, “22:00”, “23:00” runs along the bottom of this surface; only 20:00 is selected, using a solid orange underline or flat indicator. This must feel like choosing an hour in a working bulletin, not a marketing hero. Do not add unprovided observations, totals, locations, alerts, percentages or explanatory claims.
+
+Immediately below it, a white hourly timetable headed “Le prossime ore”. Three clearly aligned columns “Ora”, “Temperatura”, “Precipitazioni”. Four rows, exact data and no invented values:
+“20:00” — “21°C” — “Pioggia debole”
+“21:00” — “20,4°C” — “Assenti”
+“22:00” — “19,8°C” — “Assenti”
+“23:00” — “19,2°C” — “Assenti”
+Use legible horizontal row separation, a restrained marker for the currently selected first row, and typography that makes hours and units instantly identifiable.
+
+Adjacent national panel: white or cool light surface, title “Italia · domani”, date exactly “Venerdì 9 ottobre”. Include the captured Italy map from Image 3 at the correct proportions, fitted rather than cropped, with its original information unchanged. Below or beside the map place this source-grounded national forecast summary, readable in a few lines: “Tempo instabile al Nordest e al Sud, soprattutto sul versante tirrenico. Rovesci alternati a schiarite. Venti moderati, mari mossi.” Provide a clear textual link “Previsioni di domani”. Do not transfer this national summary into a Bologna-specific warning.
+
+Coherent continuation below: the lower edge of the first viewport begins a quiet, readable news section headed “Notizie meteo”, using sourced headlines as text, not invented journalism or promotional cards. Include the exact headline “Meteo weekend: Sabato ancora piogge localmente battenti al Centro-Sud, Domenica più stabile. Le previsioni”. Another source headline may be “Meteo prossima settimana: avvio ancora con piogge e vento, dal 15 Ottobre temporanea alta pressione. Tendenza”. Keep the weather lookup visually primary; news follows it.
+
+Invariants: reproduce all quoted Italian text and all four hourly numbers accurately, with good spacing and diacritics. Logo remains authentic. Preview clearly communicates place and time lookup. Data is frozen on 8 October 2026. Use only the supplied forecast facts. If a percentage appears at all, the only permitted interpretation is “Attendibilità 49%”; do not include it unless necessary, and never present it as probability of rainfall.
+
+Avoid: neon, gradients, glass, blur, 3D, textures, paper, photographic atmosphere, dramatic weather photography, commercial claims, city alerts, chance-of-rain percentages, invented forecast data, metric-card mosaics, marketing slogans, browser chrome, device mockup frames, watermarks, decorative arrows, unreadably small navigation or labels.

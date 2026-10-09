@@ -1,0 +1,69 @@
+{
+  "role": "design decision preview; never source evidence or live forecast",
+  "direction": "Previsioni lungo la giornata",
+  "tool": "native image_gen.imagegen",
+  "mode": "one generation with original logo/map references",
+  "createdAt": "2026-10-08T18:34:46.653061+00:00",
+  "file": "esempi/ilmeteo-lab/.impeccable/mocks/decision/model-pick.png",
+  "width": 1505,
+  "height": 1045,
+  "sha256": "e3f08478f6d1884ce9086d245a9fe1068c2b27401246499283b1eab5f507bfc1",
+  "nativeOutput": "/Users/marco/.codex/generated_images/01a11caf-b707-7823-b2a8-e347c6862085/exec-2381a347-37f6-4339-9751-83439a120cc4.png",
+  "nativeOutputSha256": "be7458bd06ab5c3f4fc4dd5b41a203579ec97a519a3453a21921b2ccad2b5b19",
+  "promptFile": "model-pick.prompt.json",
+  "embeddedPrompt": {
+    "key": "impeccable:prompt",
+    "pngChunk": "iTXt",
+    "exactTextVerified": true
+  },
+  "references": [
+    {
+      "file": "esempi/ilmeteo-lab/assets/46252b4a8db8-logo_ilmeteo_search_65.png",
+      "role": "authentic original logo reference; brand only",
+      "sha256": "86a4830008d569a9bf1f7f050b92b92c6e9089f0aec906f8d360b6f1d2352445"
+    },
+    {
+      "file": "esempi/ilmeteo-lab/assets/37a0f3d1e563-italybig1.jpg",
+      "role": "captured Friday9October national map reference; generated preview approximation",
+      "sha256": "c49e0ecf0dade44ab254b9759813d51e41fa12d51286b4c399deea9201ad9276"
+    }
+  ],
+  "assignedCompInspected": "esempi/ilmeteo-lab/.impeccable/mocks/decision/assigned.png",
+  "assignedCompUsedAsGenerationReference": false,
+  "inspection": {
+    "place": "Bologna",
+    "date": "Giovedì 8 ottobre 2026",
+    "currentTime": "20:00 selected",
+    "currentTemperature": "21°C medium",
+    "condition": "Pioggia debole",
+    "hourly": [
+      "20:00 /21°C /Pioggia debole",
+      "21:00 /20,4°C /Assenti",
+      "22:00 /19,8°C /Assenti",
+      "23:00 /19,2°C /Assenti"
+    ],
+    "cityTomorrow": {
+      "date": "Venerdì9ottobre",
+      "min": "16°C",
+      "max": "21°C",
+      "reliability": "Attendibilità49%"
+    },
+    "threeNavDestinations": true,
+    "editionNote": true,
+    "whiteContinuousTimetable": true,
+    "dominantHourTimeline": true,
+    "nationalMapApproximationCaptionVisible": true,
+    "sourceGroundedNationalSummary": true,
+    "invariantTextAndNumbersObserved": true,
+    "singleInspection": true
+  },
+  "limitations": [
+    "Generative raster preview approximates logo/map pixels and typography. Production must reuse original source logo and map asset files, not crop this comp.",
+    "Map is visibly labelled Mappa in anteprima: ricostruzione grafica and is never factual source evidence.",
+    "Colors and tiny surface variation are approximate; production must implement solid #15354f/#eaf2f7/#c75a00 CSS tokens rather than sample generated pixels.",
+    "Desktop design preview does not demonstrate working interactions, responsive behavior, accessibility or forecast accuracy."
+  ],
+  "finalImageSha256": "4d04ca956fc9047d72a594a6ce4688d820e234ef4a23dfa827ddfdd899ee4021",
+  "finalBytes": 1566522,
+  "embeddedPromptVerified": true
+}

@@ -1,0 +1,39 @@
+Use case: ui-mockup
+Asset type: one finished desktop website decision comp titled “Struttura convenzionale” for a local iLMeteo classroom redesign.
+Primary request: Create one polished, familiar weather portal interface, as a flat complete desktop screenshot with approximately 1505 × 1045 pixels. It must be a distinct conventional alternative to an immersive dark scoreboard and to a transit-style timeline. Use the straightforward portal structure: compact header, city summary, seven-day forecast strip, hourly table, national forecast in a secondary column, news below. No browser chrome, device frame, design-board labels or watermarks. This is a design preview, never a screenshot used as original-site evidence.
+
+Input images and roles: Image 1 is the authentic small iLMeteo logo: reproduce it accurately in the header, not as a newly designed logo. Image 2 is the actual captured original national forecast map for Friday 9 October 2026: use it as an unchanged inset in the right-hand national forecast column. Preserve its proportions, date, symbols, labels and source values; do not invent or redraw its facts. References are brand and source-map inserts, not targets whose old website layout must be kept.
+
+Visual world: a mainstream weather portal at full professional finish. White #ffffff working surfaces, navy #123553 typography and compact header accents, cool light #f4f7fa page background, restrained orange #d86d00 selected-state indicators. Strictly solid flat fills. Crisp readable sans serif, restrained conventional hierarchy and tabular numerical figures. A clear content grid with quiet horizontal rules, generous readable spacing, and compact native controls. Avoid dramatic temperature displays, dark scoreboard surfaces, itinerary lines, connected nodes, showy signature metaphors or decorative weather scenes. No glossy icons, 3D, gradients, paper, glass, neon, textures or heavy shadows. No decorative side borders.
+
+Layout: compact white header about 84px high, genuine logo on the left, a prominent place search field showing “Bologna”, and three clear ordinary navigation destinations “Home”, “Bologna”, “Domani”. Show the factual edition note “Dati acquisiti l’8 ottobre 2026” directly below the header. Main content is a conventional two-column portal: local city forecast occupies around two thirds; a national tomorrow panel occupies the remaining third. All elements stay aligned to a consistent grid with enough room for labels.
+
+City summary: white surface, clear heading “Meteo Bologna”, date exactly “Giovedì 8 ottobre 2026”, modest current temperature “21°C”, selected observation time “Ore 20:00”, and plain text condition “Pioggia debole”. Show a restrained small flat weather glyph only if necessary; never a glossy cloud scene. No invented alert, claim, rainfall probability or extra observation.
+
+Immediately following: a horizontal seven-day strip headed “Riepiloghi giornalieri”. Seven equal columns with these EXACT original dates and minimum/maximum values, clearly labelled “Min / Max”. Date “Gio 8” is selected with a quiet orange underline. Do not add unprovided future-day condition names or daily icons, and do not imply future hourly details are available.
+“Gio 8” — “17° / 25°”
+“Ven 9” — “16° / 21°”
+“Sab 10” — “15° / 21°”
+“Dom 11” — “13° / 22°”
+“Lun 12” — “15° / 21°”
+“Mar 13” — “11° / 22°”
+“Mer 14” — “10° / 22°”
+Use clear date and number separation, and a small factual line beneath the strip: “Dettagli orari acquisiti per oggi.” The strip is not a timeline or a train station graphic; use conventional weather forecast navigation.
+
+Below: concise hourly forecast table headed “Le prossime ore”, with aligned columns “Ora”, “Temperatura”, “Precipitazioni”. Exactly four rows, preserving comma decimals and units:
+“20:00” — “21°C” — “Pioggia debole”
+“21:00” — “20,4°C” — “Assenti”
+“22:00” — “19,8°C” — “Assenti”
+“23:00” — “19,2°C” — “Assenti”
+Use thin horizontal row rules and readable 22–26px values. No new values or probability columns.
+
+National tomorrow column: white surface titled “Italia · domani”, date exactly “Venerdì 9 ottobre”. Display the actual captured map from Image 2, uncropped and at correct proportions. Under it include only the source-grounded summary: “Tempo instabile al Nordest e al Sud, soprattutto sul versante tirrenico. Rovesci alternati a schiarite. Venti moderati, mari mossi.” Provide an ordinary textual link “Previsioni di domani”. The national forecast is separate from Bologna; do not turn it into a city warning.
+
+Lower continuation visible in the screenshot: quiet news section headed “Notizie meteo”, ordinary text rows or two clean editorial columns, without photos or imagery generated as factual news. Use these exact source headlines:
+“Meteo weekend: Sabato ancora piogge localmente battenti al Centro-Sud, Domenica più stabile. Le previsioni”
+“Meteo prossima settimana: avvio ancora con piogge e vento, dal 15 Ottobre temporanea alta pressione. Tendenza”
+News follows the forecast and does not compete with search or the local forecast summary.
+
+Invariants: all text and weather facts specified above are literal source-based data. Preserve the genuine blue/orange iLMeteo identity, the 8 October 2026 snapshot label, the four hourly rows, all seven minimum/maximum pairs, and the national date 9 October. Percentages are unnecessary; never add a chance-of-rain percentage, risk score, city alert, invented statistic or commercial claim. Do not reinterpret source forecast reliability as rainfall probability. No extra functional promises for uncaptured future hourly forecasts.
+
+Avoid: immersive dark scoreboard; transit timeline; giant temperature hero; decorative weather photography; generated factual news photos; large atmospheric illustrations; glossy 3D cloud; gradients; neon; glass; blur; textures; fake metric-card dashboard; side borders; invented temperatures; invented precipitation; additional cities; promotional claims; unreadable tiny labels; browser/device chrome; watermarks.

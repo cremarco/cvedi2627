@@ -1,0 +1,11 @@
+{
+  "source": "sources/rendered-widgets.json",
+  "widgetSha256": "02324ba5d4b4881848f9626b293311ed2de603a2aed58aa823c027a42a13e622",
+  "mapAttribution": "iLMeteo.it | © OpenStreetMap",
+  "mapAttributionSource": "http://www.openstreetmap.org/copyright",
+  "tiles": {
+    "base": "https://tile.openstreetmap.org/",
+    "radar": "https://maps-geoserver.ilmeteo.it/"
+  },
+  "mode": "DOM e tile originali acquisiti tramite browser CUA, congelati al timestamp mostrato. Riproduzione, zoom e trascinamento live disattivati."
+}
