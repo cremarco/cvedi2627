@@ -1,4 +1,5 @@
 import { cp, mkdir, readFile, writeFile } from 'node:fs/promises'
+import { createHash } from 'node:crypto'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
@@ -27,11 +28,16 @@ export async function copyCourseHome(destination) {
   const dotEnd = Math.max(...geometry.dots.map(dot => parseFloat(dot.delay)))
   const dots = geometry.dots.map(dot => `<circle class="metro-dot" cx="${dot.cx}" cy="${dot.cy}" r="3.5" fill="#F0B100" stroke="none" style="--dot-delay:${Math.round(parseFloat(dot.delay) * 1020 / dotEnd)}ms"/>`).join('')
   const map = `<svg class="metro-map" viewBox="0 0 1741 903" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false"><rect class="metro-paper" width="1741" height="903" fill="white" stroke="none"/><g class="metro-fields">${backgrounds}</g><g stroke-linecap="round" stroke-linejoin="round">${families}</g><g class="metro-dots">${dots}</g></svg>`
-  const html = (await readFile(path.join(root, 'home/index.html'), 'utf8')).replace('<!-- metro-map -->', map)
+  let html = (await readFile(path.join(root, 'home/index.html'), 'utf8')).replace('<!-- metro-map -->', map)
   const assets = path.join(destination, 'home-assets')
   await mkdir(path.join(assets, 'fonts'), { recursive: true })
+  for (const file of ['home.css', 'home.js']) {
+    const content = await readFile(path.join(root, 'home', file))
+    const version = createHash('sha256').update(content).digest('hex').slice(0, 12)
+    html = html.replace(`home-assets/${file}`, `home-assets/${file}?v=${version}`)
+    await writeFile(path.join(assets, file), content)
+  }
   await writeFile(path.join(destination, 'index.html'), html)
-  for (const file of ['home.css', 'home.js']) await cp(path.join(root, 'home', file), path.join(assets, file))
   for (const weight of [400, 700]) await cp(path.join(root, 'node_modules/@fontsource/inter/files', `inter-latin-${weight}-normal.woff2`), path.join(assets, 'fonts', `inter-${weight}.woff2`))
   await cp(path.join(root, 'node_modules/@fontsource/inter/LICENSE'), path.join(assets, 'fonts/INTER-LICENSE.txt'))
   console.log('Course home: original metro geometry, local fonts and four destinations.')
