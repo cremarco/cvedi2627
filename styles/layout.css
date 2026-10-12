@@ -58,7 +58,8 @@
 }
 /* Parallel teaching comparisons keep their explanatory captions in the full
    column, so wrapping does not shrink the measured image slot recursively. */
-.slidev-layout.default.figure-comparison .lesson-figure figcaption {
+.slidev-layout.default.figure-comparison .lesson-figure figcaption,
+.slidev-layout.default.figure-pair .figure-triptych .lesson-figure figcaption {
   width: 100%;
   align-self: stretch;
 }

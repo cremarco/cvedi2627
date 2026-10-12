@@ -1,0 +1,841 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "useCase": "scientific-educational",
+  "tool": "built-in image_gen",
+  "scope": "12 figures, Persona Spectrum · Tocco / Vista / Udito / Parlato, lesson slides 10–13",
+  "palette": {
+    "outline": "#002C22",
+    "primary": "#005F46",
+    "light": "#D0FAE5",
+    "light2": "#A4F4CF",
+    "accent": "#FE7DBE",
+    "paper": "#FFFFFF"
+  },
+  "references": [
+    "assets/theme-imagegen/lesson-05-icons/originals/inclusione-v1.png",
+    "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+    "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png"
+  ],
+  "rights": "Original illustrations generated with ImageGen for this project; Persona Spectrum conceptual source Microsoft Inclusive Design. Previous atlas, prompts, credits and images retained. No third-party logo or documentary photograph replaced.",
+  "jobs": [
+    {
+      "id": "l05-persona-0-0",
+      "label": "Permanente · Un solo braccio",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-0-v1.txt",
+      "subject": "One calm adult with exactly ONE complete arm and hand. The other upper limb is absent beyond a short rounded upper-arm/sleeve termination; there is no second forearm or hidden second hand. Both legs and feet visible. Pale emerald simple shirt, white trousers, dark emerald simple hair, a small pink clothing detail. No prosthesis, cane, sling, wound or blood. Preserve the permanent one-arm situation from the first cell of the subject reference.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-0-imagegen-8cb549454b79.webp",
+      "sha256": "8f245ded0db694d4aeb3ab9e273a6d147223333df8289ceb4a6c790ac05f9257",
+      "publicationSha256": "8cb549454b79fc1b4ffbac51bc4adfca363a8df27fdc417c31fec0dbf2058853",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-0-1",
+      "label": "Temporaneo · Braccio infortunato",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-1-v1.txt",
+      "subject": "One adult with an injured forearm resting in a clear pink arm sling across the chest, secured by a shoulder strap. Other arm rests naturally at the side; both legs and feet visible. Simple pale emerald clothing, white skin, dark emerald hair. Non-graphic temporary injury, no wound or blood.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-1-imagegen-8c4c92019654.webp",
+      "sha256": "d1cef9d106dac01254d8842ee4c73e22fea72b39e236167bb138fe5f3c105308",
+      "publicationSha256": "8c4c92019654c6348f515ff480746f98784f74b5309a65fdd267dd4898001d86",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-0-2",
+      "label": "Situazionale · Neo-genitore",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-2-v1.txt",
+      "subject": "One new parent holding a small swaddled newborn securely against the chest. Pink swaddle, pale emerald parent clothing, dark emerald hair, white opaque face and limbs. One hand supports the baby’s head/upper body and the other supports the lower body; the infant stays recognizably a newborn. Both adult legs/feet visible. No stroller, toy, extra adult or background.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-2-imagegen-8bf0c6926a73.webp",
+      "sha256": "f8afa960ef11a3888ea918694d60c9e9a8861fd0c149ecb7e74fa3b9ee0e9ee8",
+      "publicationSha256": "8bf0c6926a73b3c1890cd8ad6a2468084db68ad8c889e4743bd2d49bfd976c64",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-1-0",
+      "label": "Permanente · Cecità",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-0-v1.txt",
+      "subject": "One calm adult using a recognizable white mobility cane with a small pink tip/segment. The cane is held naturally and reaches slightly ahead of the feet; both legs/feet visible. Dark emerald simple sunglasses and hair, pale emerald shirt and white trousers. Cane communicates the visual-access situation without distress. No eye bandage, guide dog or extra scene.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-0-imagegen-d3dad31eb86b.webp",
+      "sha256": "d9f552db9a18e2d248774a5e9e102c1c7ffc1c604e89e0fd4672f0d4de394430",
+      "publicationSha256": "d3dad31eb86b2819b2b2d2bb32571d237502cf27f34c9a82b8b89e7753cd7255",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-1-1",
+      "label": "Temporaneo · Cataratta",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-1-v1.txt",
+      "subject": "One calm adult whose reduced vision due to cataract is represented by a small educational enlarged-eye detail adjacent to the face, with a pale clouded crystalline lens. It is a clean stylized visual-access cue, not a medical photograph or surgical scene. Pale emerald clothes, dark emerald hair, a small pink accent at the eye detail. No blindfold, injury, walking cane or opaque eye patch. Both legs and feet visible.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-1-imagegen-2de33dca5731.webp",
+      "sha256": "f026c2bf2124211f7eff3d193c19583da73c9270b935e66d95c150c4f7944652",
+      "publicationSha256": "2de33dca5731fad37637fcbc38316823145441a36514e492a3530d5dc725e1c9",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-1-2",
+      "label": "Situazionale · Guida: sguardo altrove",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-2-v1.txt",
+      "subject": "One adult driver in a seated posture, hands holding a recognizable steering wheel and a diagonal seat belt across the torso. Their head/gaze is oriented toward the road away from a screen: visual attention is occupied by driving. Simplified front/three-quarter view with a minimal implied car seat only; pale emerald clothes and wheel, small pink belt or clothing accent. No phone in hand, no logos, no full vehicle or background scene.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-2-imagegen-611943b89ebd.webp",
+      "sha256": "dbc298c6f9440dcc5e7ada6175ece3f18a2be36005538f7e1753e20c0b44586b",
+      "publicationSha256": "611943b89ebd53b1f7f74605d37e317790f669ad4a58e07542d437d25952583c",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-2-0",
+      "label": "Permanente · Sordità",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-0-v1.txt",
+      "subject": "One calm adult with one simplified hand raised gently near an ear, conveying a hearing-access limitation. A small clean ear-shaped detail is visible beside the head; no sound-wave arcs. Pale emerald shirt, white opaque face/limbs, dark emerald hair, small pink sleeve detail. Both legs/feet visible. No red cross, headphones, speech text or distressed expression.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-0-imagegen-0acc002bacce.webp",
+      "sha256": "78026fcd728fa0a8fa2cb7bf721da1262aa9fe270a885f0944886e0163abfcb8",
+      "publicationSha256": "0acc002bacce8c52f1d99e6e272e81c8cc3b4e264b7388ed7903a47e45283adc",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-2-1",
+      "label": "Temporaneo · Infezione all’orecchio",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-1-v1.txt",
+      "subject": "One calm adult with a visible simplified ear and a small pink localized emphasis around that ear to communicate temporary ear inflammation; their hand rests gently nearby. Pale emerald clothing, white opaque face/limbs, dark emerald hair. Both legs/feet visible. No medical instrument, bandage, gore, crossed-out icon or large alarm symbols.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-1-imagegen-586abe2e3f03.webp",
+      "sha256": "78b783df91adc6cfcaba01512d71f61cfb2daeaae3bcc08792c14fd722b6573b",
+      "publicationSha256": "586abe2e3f03b4d54881485279ee5e76a28b250b38d85a691835e032f580d861",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-2-2",
+      "label": "Situazionale · Bar affollato",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-2-v1.txt",
+      "subject": "One adult bar worker in a pale emerald apron holding a plain small bottle and a drinking cup, inspired by the corresponding original cell. Two small sets of pink curved sound-wave arcs near the ears suggest crowded-bar ambient noise. Rounded simple geometry, dark emerald outlines, white opaque skin. Both legs/feet visible. No brand, extra people, furniture, full bar scene or labels.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-2-imagegen-8aef3c7fad76.webp",
+      "sha256": "bd88b716df761cb966ed1ec672891d0164c2d4865ba5a9e2206b8953028d4bed",
+      "publicationSha256": "8aef3c7fad76b6e72ea89bd9a5d015d11aaa2c7b10c04ce03328f822f1c5e7a8",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-3-0",
+      "label": "Permanente · Persona non verbale",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-0-v1.txt",
+      "subject": "One non-speaking adult holding an augmentative/alternative communication tablet at chest height with BOTH hands. The screen shows four simple visual communication tiles using only geometric pictograms (circle, heart, cup, person), NO letters or words. Pink tablet edge, pale emerald clothing, white opaque face/limbs, dark emerald hair; both legs/feet visible. Communication remains possible; no crossed-out mouth, tape or gag.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-3-0-imagegen-904b722505b0.webp",
+      "sha256": "c55a26a66eef63c2670ba9c8ba211b03ad2721b40b7af938c651318f97eeda6b",
+      "publicationSha256": "904b722505b03c123318075c8767afe872a467168a270a5308f0dd210fb4b8a4",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-3-1",
+      "label": "Temporaneo · Laringite",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-1-v2.txt",
+      "subject": "One calm adult wearing a loose pink scarf draped openly over the shoulders, with two free ends resting down the chest. Both arms hang naturally at the sides with both hands visible. Simple white and pale emerald clothing, dark emerald hair, faceless geometric head; both legs and feet visible. This ordinary scarf is the visual cue for temporary voice difficulty (laryngitis). Neutral relaxed posture. No other accessory or scene.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-1-v2.png",
+      "web": "/images/processo-ux/l05-persona-3-1-imagegen-4e7a60273aa2.webp",
+      "sha256": "95ac5982b517fcd12e68459e9b429b21d1a100166ff4d379bf6776db7495597a",
+      "publicationSha256": "4e7a60273aa2fa0ac24c154124a4078e297c4c026bba69bf87f8d85f5d084a16",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    },
+    {
+      "id": "l05-persona-3-2",
+      "label": "Situazionale · Accento non riconosciuto",
+      "prompt": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-2-v1.txt",
+      "subject": "One calm adult speaking toward a small plain microphone on a slim stand. A few smooth pink sound-wave curves between mouth and microphone communicate speech; a small simple speech-recognition device beside the microphone has a blank pale screen and one pink unrecognized-signal waveform, without letters or error glyphs. Pale emerald clothes, dark emerald hair, white opaque face/limbs; both legs/feet visible. This is a mismatch with speech recognition, not a medical condition. No national flag, ethnic costume, written language, crossed-out mouth or distressed expression.",
+      "status": "generated",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-3-2-imagegen-a21a143a9e87.webp",
+      "sha256": "d66b620b18d430f7d15efd58cc9fad571b2176e561dd86dbbe3c2b49a4e71603",
+      "publicationSha256": "a21a143a9e87ec8448fb1a9b92cd2f0de7a4bbb48cc394a20f4409826dfd9e3e",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "review": {
+        "status": "accepted",
+        "palette": "emerald / strawberry pink",
+        "subjectAndStyleChecked": true,
+        "textInImage": false,
+        "transparentBackground": true
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "l05-persona-0-0",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-0-imagegen-8cb549454b79.webp",
+      "nodeId": "3126:796",
+      "caption": "Un solo braccio · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "8f245ded0db694d4aeb3ab9e273a6d147223333df8289ceb4a6c790ac05f9257",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-0-0-8ee41a6663a0.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-0-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-0-0-8ee41a6663a0.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-0-v1.webp",
+      "publicationSourceSha256": "8cb549454b79fc1b4ffbac51bc4adfca363a8df27fdc417c31fec0dbf2058853",
+      "publicationSha256": "8cb549454b79fc1b4ffbac51bc4adfca363a8df27fdc417c31fec0dbf2058853"
+    },
+    {
+      "id": "l05-persona-0-1",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-1-imagegen-8c4c92019654.webp",
+      "nodeId": "3126:799",
+      "caption": "Braccio infortunato · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "d1cef9d106dac01254d8842ee4c73e22fea72b39e236167bb138fe5f3c105308",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-0-1-adc3d3b9e67e.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-1-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-1-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-1-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-1-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-0-1-adc3d3b9e67e.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-1-v1.webp",
+      "publicationSourceSha256": "8c4c92019654c6348f515ff480746f98784f74b5309a65fdd267dd4898001d86",
+      "publicationSha256": "8c4c92019654c6348f515ff480746f98784f74b5309a65fdd267dd4898001d86"
+    },
+    {
+      "id": "l05-persona-0-2",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-2-imagegen-8bf0c6926a73.webp",
+      "nodeId": "3126:802",
+      "caption": "Neo-genitore · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "f8afa960ef11a3888ea918694d60c9e9a8861fd0c149ecb7e74fa3b9ee0e9ee8",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-0-2-be9e44b20ef4.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-2-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-0-2-be9e44b20ef4.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-2-v1.webp",
+      "publicationSourceSha256": "8bf0c6926a73b3c1890cd8ad6a2468084db68ad8c889e4743bd2d49bfd976c64",
+      "publicationSha256": "8bf0c6926a73b3c1890cd8ad6a2468084db68ad8c889e4743bd2d49bfd976c64"
+    },
+    {
+      "id": "l05-persona-1-0",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-0-imagegen-d3dad31eb86b.webp",
+      "nodeId": "3126:807",
+      "caption": "Cecità · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "d9f552db9a18e2d248774a5e9e102c1c7ffc1c604e89e0fd4672f0d4de394430",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-1-0-69a87b2e0a41.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-0-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-1-0-69a87b2e0a41.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-0-v1.webp",
+      "publicationSourceSha256": "d3dad31eb86b2819b2b2d2bb32571d237502cf27f34c9a82b8b89e7753cd7255",
+      "publicationSha256": "d3dad31eb86b2819b2b2d2bb32571d237502cf27f34c9a82b8b89e7753cd7255"
+    },
+    {
+      "id": "l05-persona-1-1",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-1-imagegen-2de33dca5731.webp",
+      "nodeId": "3126:810",
+      "caption": "Cataratta · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "f026c2bf2124211f7eff3d193c19583da73c9270b935e66d95c150c4f7944652",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-1-1-58d7fae27e81.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-1-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-1-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-1-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-1-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-1-1-58d7fae27e81.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-1-v1.webp",
+      "publicationSourceSha256": "2de33dca5731fad37637fcbc38316823145441a36514e492a3530d5dc725e1c9",
+      "publicationSha256": "2de33dca5731fad37637fcbc38316823145441a36514e492a3530d5dc725e1c9"
+    },
+    {
+      "id": "l05-persona-1-2",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-2-imagegen-611943b89ebd.webp",
+      "nodeId": "3126:813",
+      "caption": "Guida: sguardo altrove · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "dbc298c6f9440dcc5e7ada6175ece3f18a2be36005538f7e1753e20c0b44586b",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-1-2-8bfd13dce01d.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-2-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-1-2-8bfd13dce01d.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-2-v1.webp",
+      "publicationSourceSha256": "611943b89ebd53b1f7f74605d37e317790f669ad4a58e07542d437d25952583c",
+      "publicationSha256": "611943b89ebd53b1f7f74605d37e317790f669ad4a58e07542d437d25952583c"
+    },
+    {
+      "id": "l05-persona-2-0",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-0-imagegen-0acc002bacce.webp",
+      "nodeId": "3126:818",
+      "caption": "Sordità · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "78026fcd728fa0a8fa2cb7bf721da1262aa9fe270a885f0944886e0163abfcb8",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-2-0-38d7f97a8728.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-0-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-2-0-38d7f97a8728.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-0-v1.webp",
+      "publicationSourceSha256": "0acc002bacce8c52f1d99e6e272e81c8cc3b4e264b7388ed7903a47e45283adc",
+      "publicationSha256": "0acc002bacce8c52f1d99e6e272e81c8cc3b4e264b7388ed7903a47e45283adc"
+    },
+    {
+      "id": "l05-persona-2-1",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-1-imagegen-586abe2e3f03.webp",
+      "nodeId": "3126:821",
+      "caption": "Infezione all’orecchio · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "78b783df91adc6cfcaba01512d71f61cfb2daeaae3bcc08792c14fd722b6573b",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-2-1-663dbe2849bc.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-1-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-1-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-1-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-1-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-2-1-663dbe2849bc.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-1-v1.webp",
+      "publicationSourceSha256": "586abe2e3f03b4d54881485279ee5e76a28b250b38d85a691835e032f580d861",
+      "publicationSha256": "586abe2e3f03b4d54881485279ee5e76a28b250b38d85a691835e032f580d861"
+    },
+    {
+      "id": "l05-persona-2-2",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-2-imagegen-8aef3c7fad76.webp",
+      "nodeId": "3126:824",
+      "caption": "Bar affollato · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "bd88b716df761cb966ed1ec672891d0164c2d4865ba5a9e2206b8953028d4bed",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-2-2-2e2a51a48550.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-2-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-2-2-2e2a51a48550.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-2-v1.webp",
+      "publicationSourceSha256": "8aef3c7fad76b6e72ea89bd9a5d015d11aaa2c7b10c04ce03328f822f1c5e7a8",
+      "publicationSha256": "8aef3c7fad76b6e72ea89bd9a5d015d11aaa2c7b10c04ce03328f822f1c5e7a8"
+    },
+    {
+      "id": "l05-persona-3-0",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-3-0-imagegen-904b722505b0.webp",
+      "nodeId": "3126:829",
+      "caption": "Persona non verbale · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "c55a26a66eef63c2670ba9c8ba211b03ad2721b40b7af938c651318f97eeda6b",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-3-0-94ea05cf9557.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-0-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-3-0-94ea05cf9557.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-0-v1.webp",
+      "publicationSourceSha256": "904b722505b03c123318075c8767afe872a467168a270a5308f0dd210fb4b8a4",
+      "publicationSha256": "904b722505b03c123318075c8767afe872a467168a270a5308f0dd210fb4b8a4"
+    },
+    {
+      "id": "l05-persona-3-1",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-1-v2.png",
+      "web": "/images/processo-ux/l05-persona-3-1-imagegen-4e7a60273aa2.webp",
+      "nodeId": "3126:832",
+      "caption": "Laringite · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "95ac5982b517fcd12e68459e9b429b21d1a100166ff4d379bf6776db7495597a",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-3-1-03f44a4dcbc3.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-1-v2.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-1-v2.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-1-v2.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-1-v2.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-3-1-03f44a4dcbc3.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-1-v2.webp",
+      "publicationSourceSha256": "4e7a60273aa2fa0ac24c154124a4078e297c4c026bba69bf87f8d85f5d084a16",
+      "publicationSha256": "4e7a60273aa2fa0ac24c154124a4078e297c4c026bba69bf87f8d85f5d084a16"
+    },
+    {
+      "id": "l05-persona-3-2",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-3-2-imagegen-a21a143a9e87.webp",
+      "nodeId": "3126:835",
+      "caption": "Accento non riconosciuto · Persona Spectrum, rielaborazione italiana del booklet.",
+      "sha256": "d66b620b18d430f7d15efd58cc9fad571b2176e561dd86dbbe3c2b49a4e71603",
+      "dimensions": [
+        1086,
+        1448
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-3-2-4a8961d21a6f.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-2-v1.webp"
+      ],
+      "provenance": {
+        "kind": "imagegen-restyle",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-3-2-4a8961d21a6f.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-2-v1.webp",
+      "publicationSourceSha256": "a21a143a9e87ec8448fb1a9b92cd2f0de7a4bbb48cc394a20f4409826dfd9e3e",
+      "publicationSha256": "a21a143a9e87ec8448fb1a9b92cd2f0de7a4bbb48cc394a20f4409826dfd9e3e"
+    }
+  ]
+}

@@ -46,11 +46,26 @@ for a in examples['assets']:
             [original,f'{examples_root}/manifest.json',f'{examples_root}/prompts.json',f'{examples_root}/RIGHTS.txt'])
 
 atlas='assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png'
+persona_manifest=ROOT/'assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json'
+persona_assets={a['id']:a for a in json.loads(persona_manifest.read_text())['assets']} if persona_manifest.exists() else {}
+if persona_assets:
+    assert set(persona_assets)=={f'l05-persona-{row}-{col}' for row in range(4) for col in range(3)}, 'complete Persona Spectrum selection'
 im=Image.open(ROOT/atlas); w,h=im.size
 labels=[['Un solo braccio','Braccio infortunato','Neo-genitore'],['Cecità','Cataratta','Guida: sguardo altrove'],['Sordità','Infezione all’orecchio','Bar affollato'],['Persona non verbale','Laringite','Accento non riconosciuto']]
 node_ids=[['3126:796','3126:799','3126:802'],['3126:807','3126:810','3126:813'],['3126:818','3126:821','3126:824'],['3126:829','3126:832','3126:835']]
 for row in range(4):
     for col in range(3):
+        selected=persona_assets.get(f'l05-persona-{row}-{col}')
+        if selected:
+            # Explicit ImageGen restyling survives a re-import of the booklet.
+            assert sha(ROOT/selected['original'])==selected['sha256']
+            assert sha(ROOT/selected['publicationSource'])==selected['publicationSourceSha256']
+            destination=ROOT/'public'/selected['web'].lstrip('/')
+            destination.write_bytes((ROOT/selected['publicationSource']).read_bytes())
+            with Image.open(ROOT/selected['original']) as original, Image.open(destination) as published:
+                assert original.convert('RGBA').tobytes()==published.convert('RGBA').tobytes()
+            registry['assets'].append(selected); records.append(selected)
+            continue
         # The Figma fills select 21% × 20.5% of the original atlas.
         x=.075+.325*col; y=.04+.24*row
         import_image(f'persona-{row}-{col}',atlas,node_ids[row][col],labels[row][col]+' · Persona Spectrum, rielaborazione italiana del booklet.',

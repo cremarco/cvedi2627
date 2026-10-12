@@ -1333,14 +1333,14 @@
     },
     {
       "id": "l05-persona-0-0",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-0-0-8ee41a6663a0.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-0-imagegen-8cb549454b79.webp",
       "nodeId": "3126:796",
       "caption": "Un solo braccio · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "8f245ded0db694d4aeb3ab9e273a6d147223333df8289ceb4a6c790ac05f9257",
       "dimensions": [
-        229,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1348,36 +1348,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-0-0-8ee41a6663a0.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-0-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          81,
-          58,
-          310,
-          355
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-0-0-8ee41a6663a0.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-0-v1.webp",
+      "publicationSourceSha256": "8cb549454b79fc1b4ffbac51bc4adfca363a8df27fdc417c31fec0dbf2058853",
+      "publicationSha256": "8cb549454b79fc1b4ffbac51bc4adfca363a8df27fdc417c31fec0dbf2058853"
     },
     {
       "id": "l05-persona-0-1",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-0-1-adc3d3b9e67e.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-1-imagegen-8c4c92019654.webp",
       "nodeId": "3126:799",
       "caption": "Braccio infortunato · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "d1cef9d106dac01254d8842ee4c73e22fea72b39e236167bb138fe5f3c105308",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1385,36 +1394,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-0-1-adc3d3b9e67e.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-1-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-1-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-1-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          434,
-          58,
-          662,
-          355
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-1-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-0-1-adc3d3b9e67e.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-1-v1.webp",
+      "publicationSourceSha256": "8c4c92019654c6348f515ff480746f98784f74b5309a65fdd267dd4898001d86",
+      "publicationSha256": "8c4c92019654c6348f515ff480746f98784f74b5309a65fdd267dd4898001d86"
     },
     {
       "id": "l05-persona-0-2",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-0-2-be9e44b20ef4.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-0-2-imagegen-8bf0c6926a73.webp",
       "nodeId": "3126:802",
       "caption": "Neo-genitore · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "f8afa960ef11a3888ea918694d60c9e9a8861fd0c149ecb7e74fa3b9ee0e9ee8",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1422,36 +1440,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-0-2-be9e44b20ef4.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-2-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          787,
-          58,
-          1015,
-          355
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-0-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-0-2-be9e44b20ef4.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-0-2-v1.webp",
+      "publicationSourceSha256": "8bf0c6926a73b3c1890cd8ad6a2468084db68ad8c889e4743bd2d49bfd976c64",
+      "publicationSha256": "8bf0c6926a73b3c1890cd8ad6a2468084db68ad8c889e4743bd2d49bfd976c64"
     },
     {
       "id": "l05-persona-1-0",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-1-0-69a87b2e0a41.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-0-imagegen-d3dad31eb86b.webp",
       "nodeId": "3126:807",
       "caption": "Cecità · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "d9f552db9a18e2d248774a5e9e102c1c7ffc1c604e89e0fd4672f0d4de394430",
       "dimensions": [
-        229,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1459,36 +1486,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-1-0-69a87b2e0a41.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-0-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          81,
-          405,
-          310,
-          702
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-1-0-69a87b2e0a41.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-0-v1.webp",
+      "publicationSourceSha256": "d3dad31eb86b2819b2b2d2bb32571d237502cf27f34c9a82b8b89e7753cd7255",
+      "publicationSha256": "d3dad31eb86b2819b2b2d2bb32571d237502cf27f34c9a82b8b89e7753cd7255"
     },
     {
       "id": "l05-persona-1-1",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-1-1-58d7fae27e81.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-1-imagegen-2de33dca5731.webp",
       "nodeId": "3126:810",
       "caption": "Cataratta · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "f026c2bf2124211f7eff3d193c19583da73c9270b935e66d95c150c4f7944652",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1496,36 +1532,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-1-1-58d7fae27e81.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-1-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-1-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-1-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          434,
-          405,
-          662,
-          702
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-1-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-1-1-58d7fae27e81.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-1-v1.webp",
+      "publicationSourceSha256": "2de33dca5731fad37637fcbc38316823145441a36514e492a3530d5dc725e1c9",
+      "publicationSha256": "2de33dca5731fad37637fcbc38316823145441a36514e492a3530d5dc725e1c9"
     },
     {
       "id": "l05-persona-1-2",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-1-2-8bfd13dce01d.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-1-2-imagegen-611943b89ebd.webp",
       "nodeId": "3126:813",
       "caption": "Guida: sguardo altrove · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "dbc298c6f9440dcc5e7ada6175ece3f18a2be36005538f7e1753e20c0b44586b",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1533,36 +1578,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-1-2-8bfd13dce01d.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-1-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-2-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          787,
-          405,
-          1015,
-          702
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-1-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-1-2-8bfd13dce01d.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-1-2-v1.webp",
+      "publicationSourceSha256": "611943b89ebd53b1f7f74605d37e317790f669ad4a58e07542d437d25952583c",
+      "publicationSha256": "611943b89ebd53b1f7f74605d37e317790f669ad4a58e07542d437d25952583c"
     },
     {
       "id": "l05-persona-2-0",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-2-0-38d7f97a8728.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-0-imagegen-0acc002bacce.webp",
       "nodeId": "3126:818",
       "caption": "Sordità · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "78026fcd728fa0a8fa2cb7bf721da1262aa9fe270a885f0944886e0163abfcb8",
       "dimensions": [
-        229,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1570,36 +1624,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-2-0-38d7f97a8728.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-0-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          81,
-          753,
-          310,
-          1050
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-2-0-38d7f97a8728.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-0-v1.webp",
+      "publicationSourceSha256": "0acc002bacce8c52f1d99e6e272e81c8cc3b4e264b7388ed7903a47e45283adc",
+      "publicationSha256": "0acc002bacce8c52f1d99e6e272e81c8cc3b4e264b7388ed7903a47e45283adc"
     },
     {
       "id": "l05-persona-2-1",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-2-1-663dbe2849bc.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-1-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-1-imagegen-586abe2e3f03.webp",
       "nodeId": "3126:821",
       "caption": "Infezione all’orecchio · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "78b783df91adc6cfcaba01512d71f61cfb2daeaae3bcc08792c14fd722b6573b",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1607,36 +1670,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-2-1-663dbe2849bc.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-1-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-1-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-1-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          434,
-          753,
-          662,
-          1050
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-1-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-2-1-663dbe2849bc.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-1-v1.webp",
+      "publicationSourceSha256": "586abe2e3f03b4d54881485279ee5e76a28b250b38d85a691835e032f580d861",
+      "publicationSha256": "586abe2e3f03b4d54881485279ee5e76a28b250b38d85a691835e032f580d861"
     },
     {
       "id": "l05-persona-2-2",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-2-2-2e2a51a48550.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-2-2-imagegen-8aef3c7fad76.webp",
       "nodeId": "3126:824",
       "caption": "Bar affollato · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "bd88b716df761cb966ed1ec672891d0164c2d4865ba5a9e2206b8953028d4bed",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1644,36 +1716,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-2-2-2e2a51a48550.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-2-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-2-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          787,
-          753,
-          1015,
-          1050
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-2-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-2-2-2e2a51a48550.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-2-2-v1.webp",
+      "publicationSourceSha256": "8aef3c7fad76b6e72ea89bd9a5d015d11aaa2c7b10c04ce03328f822f1c5e7a8",
+      "publicationSha256": "8aef3c7fad76b6e72ea89bd9a5d015d11aaa2c7b10c04ce03328f822f1c5e7a8"
     },
     {
       "id": "l05-persona-3-0",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-3-0-94ea05cf9557.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-0-v1.png",
+      "web": "/images/processo-ux/l05-persona-3-0-imagegen-904b722505b0.webp",
       "nodeId": "3126:829",
       "caption": "Persona non verbale · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "c55a26a66eef63c2670ba9c8ba211b03ad2721b40b7af938c651318f97eeda6b",
       "dimensions": [
-        229,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1681,36 +1762,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-3-0-94ea05cf9557.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-0-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-0-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-0-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          81,
-          1100,
-          310,
-          1397
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-0-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-3-0-94ea05cf9557.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-0-v1.webp",
+      "publicationSourceSha256": "904b722505b03c123318075c8767afe872a467168a270a5308f0dd210fb4b8a4",
+      "publicationSha256": "904b722505b03c123318075c8767afe872a467168a270a5308f0dd210fb4b8a4"
     },
     {
       "id": "l05-persona-3-1",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-3-1-03f44a4dcbc3.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-1-v2.png",
+      "web": "/images/processo-ux/l05-persona-3-1-imagegen-4e7a60273aa2.webp",
       "nodeId": "3126:832",
       "caption": "Laringite · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "95ac5982b517fcd12e68459e9b429b21d1a100166ff4d379bf6776db7495597a",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1718,36 +1808,45 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-3-1-03f44a4dcbc3.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-1-v2.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-1-v2.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-1-v2.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          434,
-          1100,
-          662,
-          1397
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-1-v2.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-3-1-03f44a4dcbc3.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-1-v2.webp",
+      "publicationSourceSha256": "4e7a60273aa2fa0ac24c154124a4078e297c4c026bba69bf87f8d85f5d084a16",
+      "publicationSha256": "4e7a60273aa2fa0ac24c154124a4078e297c4c026bba69bf87f8d85f5d084a16"
     },
     {
       "id": "l05-persona-3-2",
-      "original": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-      "web": "/images/processo-ux/l05-persona-3-2-4a8961d21a6f.webp",
+      "original": "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-2-v1.png",
+      "web": "/images/processo-ux/l05-persona-3-2-imagegen-a21a143a9e87.webp",
       "nodeId": "3126:835",
       "caption": "Accento non riconosciuto · Persona Spectrum, rielaborazione italiana del booklet.",
-      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "sha256": "d66b620b18d430f7d15efd58cc9fad571b2176e561dd86dbbe3c2b49a4e71603",
       "dimensions": [
-        228,
-        297
+        1086,
+        1448
       ],
       "encoding": {
         "lossless": true,
@@ -1755,25 +1854,34 @@
       },
       "retainedSources": [
         "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
-        "assets/booklet/accessibilita-commenti-2026-10/manifest.json"
+        "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+        "public/images/processo-ux/l05-persona-3-2-4a8961d21a6f.webp",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/previous-image-manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/manifest.json",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-2-v1.txt",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-3-2-v1.png",
+        "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-2-v1.webp"
       ],
       "provenance": {
-        "kind": "figma-import",
+        "kind": "imagegen-restyle",
         "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
         "pageId": "2613:1110",
         "importedOn": "2026-10-12",
         "credit": "Modello Microsoft Inclusive Design / Persona Spectrum; illustrazioni originali ImageGen del progetto.",
-        "cropPixels": [
-          787,
-          1100,
-          1015,
-          1397
-        ]
+        "cropPixels": null,
+        "generatedOn": "2026-10-12",
+        "tool": "built-in image_gen",
+        "promptFile": "assets/theme-imagegen/lesson-05-persona-spectrum/prompts/persona-3-2-v1.txt",
+        "previousWeb": "/images/processo-ux/l05-persona-3-2-4a8961d21a6f.webp",
+        "sourceAtlas": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png"
       },
       "publicationEncoding": {
         "pixelPreserved": true,
         "alphaPreserved": true
-      }
+      },
+      "publicationSource": "assets/theme-imagegen/lesson-05-persona-spectrum/web/persona-3-2-v1.webp",
+      "publicationSourceSha256": "a21a143a9e87ec8448fb1a9b92cd2f0de7a4bbb48cc394a20f4409826dfd9e3e",
+      "publicationSha256": "a21a143a9e87ec8448fb1a9b92cd2f0de7a4bbb48cc394a20f4409826dfd9e3e"
     },
     {
       "id": "l05-screen-reader",

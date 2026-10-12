@@ -185,7 +185,7 @@ lessonSlide: 10
 # Persona Spectrum · Tocco
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-0-0-8ee41a6663a0.webp" alt="Un solo braccio · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Un solo braccio" /><LessonFigure src="/images/processo-ux/l05-persona-0-1-adc3d3b9e67e.webp" alt="Braccio infortunato · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Braccio infortunato" /><LessonFigure src="/images/processo-ux/l05-persona-0-2-be9e44b20ef4.webp" alt="Neo-genitore · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Neo-genitore" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-0-0-imagegen-8cb549454b79.webp" alt="Un solo braccio · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Un solo braccio" /><LessonFigure src="/images/processo-ux/l05-persona-0-1-imagegen-8c4c92019654.webp" alt="Braccio infortunato · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Braccio infortunato" /><LessonFigure src="/images/processo-ux/l05-persona-0-2-imagegen-8bf0c6926a73.webp" alt="Neo-genitore · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Neo-genitore" /></div>
 
 ---
 layout: "default"
@@ -204,7 +204,7 @@ lessonSlide: 11
 # Persona Spectrum · Vista
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-1-0-69a87b2e0a41.webp" alt="Cecità · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Cecità" /><LessonFigure src="/images/processo-ux/l05-persona-1-1-58d7fae27e81.webp" alt="Cataratta · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Cataratta" /><LessonFigure src="/images/processo-ux/l05-persona-1-2-8bfd13dce01d.webp" alt="Guida: sguardo altrove · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Guida: sguardo altrove" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-1-0-imagegen-d3dad31eb86b.webp" alt="Cecità · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Cecità" /><LessonFigure src="/images/processo-ux/l05-persona-1-1-imagegen-2de33dca5731.webp" alt="Cataratta · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Cataratta" /><LessonFigure src="/images/processo-ux/l05-persona-1-2-imagegen-611943b89ebd.webp" alt="Guida: sguardo altrove · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Guida: sguardo altrove" /></div>
 
 ---
 layout: "default"
@@ -223,7 +223,7 @@ lessonSlide: 12
 # Persona Spectrum · Udito
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-2-0-38d7f97a8728.webp" alt="Sordità · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Sordità" /><LessonFigure src="/images/processo-ux/l05-persona-2-1-663dbe2849bc.webp" alt="Infezione all’orecchio · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Infezione all’orecchio" /><LessonFigure src="/images/processo-ux/l05-persona-2-2-2e2a51a48550.webp" alt="Bar affollato · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Bar affollato" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-2-0-imagegen-0acc002bacce.webp" alt="Sordità · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Sordità" /><LessonFigure src="/images/processo-ux/l05-persona-2-1-imagegen-586abe2e3f03.webp" alt="Infezione all’orecchio · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Infezione all’orecchio" /><LessonFigure src="/images/processo-ux/l05-persona-2-2-imagegen-8aef3c7fad76.webp" alt="Bar affollato · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Bar affollato" /></div>
 
 ---
 layout: "default"
@@ -242,7 +242,7 @@ lessonSlide: 13
 # Persona Spectrum · Parlato
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-3-0-94ea05cf9557.webp" alt="Persona non verbale · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Persona non verbale" /><LessonFigure src="/images/processo-ux/l05-persona-3-1-03f44a4dcbc3.webp" alt="Laringite · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Laringite" /><LessonFigure src="/images/processo-ux/l05-persona-3-2-4a8961d21a6f.webp" alt="Accento non riconosciuto · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Accento non riconosciuto" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-3-0-imagegen-904b722505b0.webp" alt="Persona non verbale · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Persona non verbale" /><LessonFigure src="/images/processo-ux/l05-persona-3-1-imagegen-4e7a60273aa2.webp" alt="Laringite · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Laringite" /><LessonFigure src="/images/processo-ux/l05-persona-3-2-imagegen-a21a143a9e87.webp" alt="Accento non riconosciuto · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Accento non riconosciuto" /></div>
 <CvediNotice kind="explore" title="Da tenere presente"><p>L’accento può creare un disallineamento con il riconoscimento vocale. Una barriera situazionale non equivale a una diagnosi.</p></CvediNotice>
 
 ---
@@ -453,8 +453,8 @@ lessonSlide: 24
 
 # Leggere un appuntamento
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-contrasto-testo-barriere-56e772d7e36d.webp" alt="Leggere un appuntamento · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Un messaggio poco contrastato diventa difficile da leggere; il solo rosso non spiega quale dato richiede attenzione." /><LessonFigure src="/images/processo-ux/l05-contrasto-testo-scelte-75327a1ebc4a.webp" alt="Leggere un appuntamento · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Il testo ha contrasto verificato e l’errore è indicato anche con parole: «Orario non disponibile»." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Misura il contrasto sul fondo effettivo e controlla che stato ed errore restino comprensibili senza colore.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-contrasto-testo-barriere-56e772d7e36d.webp" alt="Leggere un appuntamento · Barriera. Mockup originale, esempio simulato." caption="Barriera · Un messaggio poco contrastato diventa difficile da leggere; il solo rosso non spiega quale dato richiede attenzione." /><LessonFigure src="/images/processo-ux/l05-contrasto-testo-scelte-75327a1ebc4a.webp" alt="Leggere un appuntamento · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Il testo ha contrasto verificato e l’errore è indicato anche con parole: «Orario non disponibile»." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Misura il contrasto sul fondo effettivo e controlla che stato ed errore restino comprensibili senza colore.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -548,8 +548,8 @@ lessonSlide: 29
 
 # Riconoscere una casella
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-contrasto-controlli-barriere-aa19a07df12b.webp" alt="Riconoscere una casella · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Il bordo troppo tenue è l’unico segnale della casella: l’utente può non individuare dove agire." /><LessonFigure src="/images/processo-ux/l05-contrasto-controlli-scelte-9a40a846b95a.webp" alt="Riconoscere una casella · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Un bordo distinguibile identifica la casella; la spunta comunica la selezione insieme allo stato esposto al software." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Verifica i segnali necessari rispetto ai colori adiacenti; per questi segnali, la soglia AA è 3:1.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-contrasto-controlli-barriere-aa19a07df12b.webp" alt="Riconoscere una casella · Barriera. Mockup originale, esempio simulato." caption="Barriera · Il bordo troppo tenue è l’unico segnale della casella: l’utente può non individuare dove agire." /><LessonFigure src="/images/processo-ux/l05-contrasto-controlli-scelte-9a40a846b95a.webp" alt="Riconoscere una casella · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Un bordo distinguibile identifica la casella; la spunta comunica la selezione insieme allo stato esposto al software." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Verifica i segnali necessari rispetto ai colori adiacenti; per questi segnali, la soglia AA è 3:1.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -624,8 +624,8 @@ lessonSlide: 33
 
 # Ingrandire una prenotazione
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-adattamento-barriere-b9b95dfb3a08.webp" alt="Ingrandire una prenotazione · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Una riga rigida nasconde l’ora e il comando quando la vista si restringe o il testo cresce." /><LessonFigure src="/images/processo-ux/l05-adattamento-scelte-8b3f83186d17.webp" alt="Ingrandire una prenotazione · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Il riepilogo si ridistribuisce e il comando resta raggiungibile. Le informazioni conservano ordine e significato." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Prova il testo al 200%, il reflow a 320 CSS px e gli override di spaziatura come verifiche distinte.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-adattamento-barriere-b9b95dfb3a08.webp" alt="Ingrandire una prenotazione · Barriera. Mockup originale, esempio simulato." caption="Barriera · Una riga rigida nasconde l’ora e il comando quando la vista si restringe o il testo cresce." /><LessonFigure src="/images/processo-ux/l05-adattamento-scelte-8b3f83186d17.webp" alt="Ingrandire una prenotazione · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Il riepilogo si ridistribuisce e il comando resta raggiungibile. Le informazioni conservano ordine e significato." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Prova il testo al 200%, il reflow a 320 CSS px e gli override di spaziatura come verifiche distinte.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -701,7 +701,7 @@ lessonSlide: 37
 # Scegliere un prodotto
 
 <p class="lead">Nome del colore e segno di selezione affiancano il campione cromatico.</p>
-<LessonFigure src="/images/processo-ux/l05-scenario-colore-df0020fcbfd7.webp" alt="Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale ImageGen." caption="Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale ImageGen." />
+<LessonFigure src="/images/processo-ux/l05-scenario-colore-df0020fcbfd7.webp" alt="Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale." caption="Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale." />
 
 ---
 layout: "default"
@@ -720,7 +720,7 @@ lessonSlide: 38
 # Completare un modulo
 
 <p class="lead">Focus visibile, controlli raggiungibili e azioni da tastiera mantengono continuo il compito.</p>
-<LessonFigure src="/images/processo-ux/l05-scenario-tastiera-cf63c6654b4d.webp" alt="Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale ImageGen." caption="Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale ImageGen." />
+<LessonFigure src="/images/processo-ux/l05-scenario-tastiera-cf63c6654b4d.webp" alt="Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale." caption="Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale." />
 
 ---
 layout: "default"
@@ -739,7 +739,7 @@ lessonSlide: 39
 # Seguire una lezione
 
 <p class="lead">Sottotitoli corretti includono il parlato e i suoni significativi.</p>
-<LessonFigure src="/images/processo-ux/l05-scenario-media-b20cbc958bd1.webp" alt="Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale ImageGen." caption="Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale ImageGen." />
+<LessonFigure src="/images/processo-ux/l05-scenario-media-b20cbc958bd1.webp" alt="Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale." caption="Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale." />
 
 ---
 layout: "default"
@@ -795,8 +795,8 @@ lessonSlide: 42
 
 # Inviare un modulo senza mouse
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-tastiera-barriere-f4bc52141f20.webp" alt="Inviare un modulo senza mouse · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Il menu del corso risponde soltanto al mouse; l’utente raggiunge il campo ma non può completare la scelta." /><LessonFigure src="/images/processo-ux/l05-tastiera-scelte-4ce1a174a5ce.webp" alt="Inviare un modulo senza mouse · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Tasti previsti dal componente, focus visibile e ordine coerente consentono scelta, invio e ritorno alla pagina." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Percorri il modulo con la tastiera. Apri e chiudi il menu, controllando sempre dove si trova il focus.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-tastiera-barriere-f4bc52141f20.webp" alt="Inviare un modulo senza mouse · Barriera. Mockup originale, esempio simulato." caption="Barriera · Il menu del corso risponde soltanto al mouse; l’utente raggiunge il campo ma non può completare la scelta." /><LessonFigure src="/images/processo-ux/l05-tastiera-scelte-4ce1a174a5ce.webp" alt="Inviare un modulo senza mouse · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Tasti previsti dal componente, focus visibile e ordine coerente consentono scelta, invio e ritorno alla pagina." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Percorri il modulo con la tastiera. Apri e chiudi il menu, controllando sempre dove si trova il focus.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -872,8 +872,8 @@ lessonSlide: 46
 
 # Riordinare senza trascinare
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-puntamento-barriere-9b41c526dc39.webp" alt="Riordinare senza trascinare · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · La lista offre soltanto un’impugnatura da trascinare; precisione e movimento continuo diventano requisiti impliciti." /><LessonFigure src="/images/processo-ux/l05-puntamento-scelte-2f1ceb4d5ac3.webp" alt="Riordinare senza trascinare · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · «Sposta su» e «Sposta giù» permettono lo stesso riordino con un puntatore singolo senza trascinamento." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Verifica l’alternativa a puntatore e, separatamente, l’uso da tastiera e i bersagli. Le eccezioni dipendono dal criterio.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-puntamento-barriere-9b41c526dc39.webp" alt="Riordinare senza trascinare · Barriera. Mockup originale, esempio simulato." caption="Barriera · La lista offre soltanto un’impugnatura da trascinare; precisione e movimento continuo diventano requisiti impliciti." /><LessonFigure src="/images/processo-ux/l05-puntamento-scelte-2f1ceb4d5ac3.webp" alt="Riordinare senza trascinare · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · «Sposta su» e «Sposta giù» permettono lo stesso riordino con un puntatore singolo senza trascinamento." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Verifica l’alternativa a puntatore e, separatamente, l’uso da tastiera e i bersagli. Le eccezioni dipendono dal criterio.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -948,8 +948,8 @@ lessonSlide: 50
 
 # Descrivere ciò che serve
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-immagini-barriere-2ddf8acb0403.webp" alt="Descrivere ciò che serve · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Il nome del file non descrive il prodotto; chi non vede l’immagine perde l’informazione necessaria a confrontarlo." /><LessonFigure src="/images/processo-ux/l05-immagini-scelte-59b07f120e0d.webp" alt="Descrivere ciò che serve · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · L’alternativa restituisce il dettaglio pertinente. Un’icona funzionale comunica l’azione; una decorazione può avere alternativa vuota." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Leggi la pagina senza immagini e verifica se resta possibile comprendere il contenuto o completare il compito.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-immagini-barriere-2ddf8acb0403.webp" alt="Descrivere ciò che serve · Barriera. Mockup originale, esempio simulato." caption="Barriera · Il nome del file non descrive il prodotto; chi non vede l’immagine perde l’informazione necessaria a confrontarlo." /><LessonFigure src="/images/processo-ux/l05-immagini-scelte-59b07f120e0d.webp" alt="Descrivere ciò che serve · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · L’alternativa restituisce il dettaglio pertinente. Un’icona funzionale comunica l’azione; una decorazione può avere alternativa vuota." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Leggi la pagina senza immagini e verifica se resta possibile comprendere il contenuto o completare il compito.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1025,8 +1025,8 @@ lessonSlide: 54
 
 # Seguire un video su più canali
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-media-barriere-6ca0dd6b3ac5.webp" alt="Seguire un video su più canali · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Il parlato è disponibile soltanto nell’audio; una freccia mostrata dal docente non viene spiegata a voce." /><LessonFigure src="/images/processo-ux/l05-media-scelte-8b8053b50340.webp" alt="Seguire un video su più canali · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Sottotitoli corretti rendono disponibile l’audio. Le informazioni visive essenziali sono descritte anche nella traccia audio o con audiodescrizione." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Controlla le alternative e il player da tastiera. Una trascrizione da sola non sostituisce automaticamente l’audiodescrizione AA.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-media-barriere-6ca0dd6b3ac5.webp" alt="Seguire un video su più canali · Barriera. Mockup originale, esempio simulato." caption="Barriera · Il parlato è disponibile soltanto nell’audio; una freccia mostrata dal docente non viene spiegata a voce." /><LessonFigure src="/images/processo-ux/l05-media-scelte-8b8053b50340.webp" alt="Seguire un video su più canali · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Sottotitoli corretti rendono disponibile l’audio. Le informazioni visive essenziali sono descritte anche nella traccia audio o con audiodescrizione." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Controlla le alternative e il player da tastiera. Una trascrizione da sola non sostituisce automaticamente l’audiodescrizione AA.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1101,8 +1101,8 @@ lessonSlide: 58
 
 # Aprire i dettagli di consegna
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-semantica-barriere-da66924f086e.webp" alt="Aprire i dettagli di consegna · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Il testo sembra cliccabile, ma il software non riconosce il pulsante o non riceve il suo stato." /><LessonFigure src="/images/processo-ux/l05-semantica-scelte-2f21374ead38.webp" alt="Aprire i dettagli di consegna · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Nome «Dettagli consegna», ruolo pulsante e stato espanso/compresso consentono di capire l’azione e il cambiamento." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Attiva il controllo con la tastiera e verifica nome, ruolo e stato con la tecnologia assistiva pertinente.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-semantica-barriere-da66924f086e.webp" alt="Aprire i dettagli di consegna · Barriera. Mockup originale, esempio simulato." caption="Barriera · Il testo sembra cliccabile, ma il software non riconosce il pulsante o non riceve il suo stato." /><LessonFigure src="/images/processo-ux/l05-semantica-scelte-2f21374ead38.webp" alt="Aprire i dettagli di consegna · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Nome «Dettagli consegna», ruolo pulsante e stato espanso/compresso consentono di capire l’azione e il cambiamento." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Attiva il controllo con la tastiera e verifica nome, ruolo e stato con la tecnologia assistiva pertinente.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1158,8 +1158,8 @@ lessonSlide: 61
 
 # Capire che il salvataggio è riuscito
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-feedback-barriere-b10cf8cb3b1b.webp" alt="Capire che il salvataggio è riuscito · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Un messaggio appare lontano dal pulsante; chi usa uno screen reader può continuare senza sapere che cosa è successo." /><LessonFigure src="/images/processo-ux/l05-feedback-scelte-5b5d758bd107.webp" alt="Capire che il salvataggio è riuscito · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Il messaggio di stato è identificabile programmaticamente. L’esito viene presentato senza spostare il focus dal compito." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Dopo «Salva», verifica che il messaggio sia percepito e che l’utente possa continuare dal punto in cui si trova.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-feedback-barriere-b10cf8cb3b1b.webp" alt="Capire che il salvataggio è riuscito · Barriera. Mockup originale, esempio simulato." caption="Barriera · Un messaggio appare lontano dal pulsante; chi usa uno screen reader può continuare senza sapere che cosa è successo." /><LessonFigure src="/images/processo-ux/l05-feedback-scelte-5b5d758bd107.webp" alt="Capire che il salvataggio è riuscito · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Il messaggio di stato è identificabile programmaticamente. L’esito viene presentato senza spostare il focus dal compito." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Dopo «Salva», verifica che il messaggio sia percepito e che l’utente possa continuare dal punto in cui si trova.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1235,8 +1235,8 @@ lessonSlide: 65
 
 # Prenotare con il contesto visibile
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-cognitiva-barriere-f60a88428cce.webp" alt="Prenotare con il contesto visibile · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · La conferma richiede di ricordare data e ora inserite nella schermata precedente; correggerle significa ricominciare." /><LessonFigure src="/images/processo-ux/l05-cognitiva-scelte-71950a71ca08.webp" alt="Prenotare con il contesto visibile · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Il riepilogo conserva i dati e distingue «Modifica» da «Conferma». Parole comuni e passi visibili sostengono il compito." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Osserva una prenotazione completa. Queste indicazioni COGA integrano le WCAG e non sono da sole una prova di conformità.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-cognitiva-barriere-f60a88428cce.webp" alt="Prenotare con il contesto visibile · Barriera. Mockup originale, esempio simulato." caption="Barriera · La conferma richiede di ricordare data e ora inserite nella schermata precedente; correggerle significa ricominciare." /><LessonFigure src="/images/processo-ux/l05-cognitiva-scelte-71950a71ca08.webp" alt="Prenotare con il contesto visibile · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Il riepilogo conserva i dati e distingue «Modifica» da «Conferma». Parole comuni e passi visibili sostengono il compito." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Osserva una prenotazione completa. Queste indicazioni COGA integrano le WCAG e non sono da sole una prova di conformità.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1349,8 +1349,8 @@ lessonSlide: 71
 
 # Fermare e riprendere la lettura
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-movimento-barriere-5db1b2822575.webp" alt="Fermare e riprendere la lettura · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Le notizie scorrono e si aggiornano mentre l’utente legge; una distrazione può fargli perdere il punto." /><LessonFigure src="/images/processo-ux/l05-movimento-scelte-ef47dff1355f.webp" alt="Fermare e riprendere la lettura · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Il controllo previsto ferma gli aggiornamenti e rende possibile riprendere. Le impostazioni di movimento ridotto agiscono sugli effetti pertinenti." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Distingui movimento, aggiornamenti, limiti di tempo e flash: sono verifiche con condizioni ed eccezioni diverse.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-movimento-barriere-5db1b2822575.webp" alt="Fermare e riprendere la lettura · Barriera. Mockup originale, esempio simulato." caption="Barriera · Le notizie scorrono e si aggiornano mentre l’utente legge; una distrazione può fargli perdere il punto." /><LessonFigure src="/images/processo-ux/l05-movimento-scelte-ef47dff1355f.webp" alt="Fermare e riprendere la lettura · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Il controllo previsto ferma gli aggiornamenti e rende possibile riprendere. Le impostazioni di movimento ridotto agiscono sugli effetti pertinenti." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Distingui movimento, aggiornamenti, limiti di tempo e flash: sono verifiche con condizioni ed eccezioni diverse.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1425,8 +1425,8 @@ lessonSlide: 75
 
 # Correggere una data
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-moduli-barriere-43a9e0eaae29.webp" alt="Correggere una data · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Un campo diventa rosso con un generico «Errore»; l’utente deve indovinare che cosa modificare." /><LessonFigure src="/images/processo-ux/l05-moduli-scelte-57c18c3540f1.webp" alt="Correggere una data · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · L’etichetta resta visibile e il messaggio associato al campo spiega il formato GG/MM/AAAA e la correzione necessaria." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Invia un dato errato e verifica messaggio, collegamento al campo, focus e conservazione delle altre informazioni.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-moduli-barriere-43a9e0eaae29.webp" alt="Correggere una data · Barriera. Mockup originale, esempio simulato." caption="Barriera · Un campo diventa rosso con un generico «Errore»; l’utente deve indovinare che cosa modificare." /><LessonFigure src="/images/processo-ux/l05-moduli-scelte-57c18c3540f1.webp" alt="Correggere una data · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · L’etichetta resta visibile e il messaggio associato al campo spiega il formato GG/MM/AAAA e la correzione necessaria." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Invia un dato errato e verifica messaggio, collegamento al campo, focus e conservazione delle altre informazioni.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1501,8 +1501,8 @@ lessonSlide: 79
 
 # Accedere con gli strumenti abituali
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-autenticazione-barriere-032dc7d57fda.webp" alt="Accedere con gli strumenti abituali · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Il servizio blocca l’incolla e obbliga a ricordare o trascrivere la password, anche quando un gestore può fornirla." /><LessonFigure src="/images/processo-ux/l05-autenticazione-scelte-64e2d8666bc3.webp" alt="Accedere con gli strumenti abituali · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · L’incolla e la compatibilità con il gestore riducono memoria e trascrizione. L’assistenza continua anche nel recupero e nei passaggi successivi." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Valuta il percorso completo rispetto al criterio 3.3.8 AA, comprese le sue condizioni ed eccezioni.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-autenticazione-barriere-032dc7d57fda.webp" alt="Accedere con gli strumenti abituali · Barriera. Mockup originale, esempio simulato." caption="Barriera · Il servizio blocca l’incolla e obbliga a ricordare o trascrivere la password, anche quando un gestore può fornirla." /><LessonFigure src="/images/processo-ux/l05-autenticazione-scelte-64e2d8666bc3.webp" alt="Accedere con gli strumenti abituali · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · L’incolla e la compatibilità con il gestore riducono memoria e trascrizione. L’assistenza continua anche nel recupero e nei passaggi successivi." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Valuta il percorso completo rispetto al criterio 3.3.8 AA, comprese le sue condizioni ed eccezioni.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1577,8 +1577,8 @@ lessonSlide: 83
 
 # Adattare la lettura
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-personalizzazione-barriere-164ed73dc428.webp" alt="Adattare la lettura · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Testo, movimento e densità hanno una sola configurazione; adattare il compito richiede aggirare l’interfaccia." /><LessonFigure src="/images/processo-ux/l05-personalizzazione-scelte-860e63010d6f.webp" alt="Adattare la lettura · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Opzioni reperibili spiegano l’effetto e consentono di ripristinare la scelta. I contenuti essenziali restano disponibili." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Verifica le opzioni con le impostazioni del browser e con le persone. La personalizzazione COGA non sostituisce i requisiti WCAG.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-personalizzazione-barriere-164ed73dc428.webp" alt="Adattare la lettura · Barriera. Mockup originale, esempio simulato." caption="Barriera · Testo, movimento e densità hanno una sola configurazione; adattare il compito richiede aggirare l’interfaccia." /><LessonFigure src="/images/processo-ux/l05-personalizzazione-scelte-860e63010d6f.webp" alt="Adattare la lettura · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Opzioni reperibili spiegano l’effetto e consentono di ripristinare la scelta. I contenuti essenziali restano disponibili." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Verifica le opzioni con le impostazioni del browser e con le persone. La personalizzazione COGA non sostituisce i requisiti WCAG.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1634,8 +1634,8 @@ lessonSlide: 86
 
 # Riconoscere nomi e lingue
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-lingua-barriere-1d47788d7075.webp" alt="Riconoscere nomi e lingue · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Un campo impone una sola convenzione su parti del nome e caratteri, escludendo combinazioni valide in altri contesti." /><LessonFigure src="/images/processo-ux/l05-lingua-scelte-7ba821bbdc9d.webp" alt="Riconoscere nomi e lingue · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · I requisiti sono spiegati e motivati dal servizio; il modulo gestisce i nomi effettivi. La lingua dei contenuti è dichiarata correttamente." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Prova nomi e lingue pertinenti al servizio, senza dedurre capacità o bisogni dall’origine o dall’aspetto delle persone.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-lingua-barriere-1d47788d7075.webp" alt="Riconoscere nomi e lingue · Barriera. Mockup originale, esempio simulato." caption="Barriera · Un campo impone una sola convenzione su parti del nome e caratteri, escludendo combinazioni valide in altri contesti." /><LessonFigure src="/images/processo-ux/l05-lingua-scelte-7ba821bbdc9d.webp" alt="Riconoscere nomi e lingue · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · I requisiti sono spiegati e motivati dal servizio; il modulo gestisce i nomi effettivi. La lingua dei contenuti è dichiarata correttamente." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Prova nomi e lingue pertinenti al servizio, senza dedurre capacità o bisogni dall’origine o dall’aspetto delle persone.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1730,8 +1730,8 @@ lessonSlide: 91
 
 # Verificare un percorso completo
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-verifica-wcag-barriere-d52036d6f2c2.webp" alt="Verificare un percorso completo · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · L’audit si ferma alla pagina di accesso; gli errori e la conferma della prenotazione rimangono fuori dall’ambito." /><LessonFigure src="/images/processo-ux/l05-verifica-wcag-scelte-83fa30dc641f.webp" alt="Verificare un percorso completo · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · La verifica considera tutte le pagine e i passaggi del processo. Versione, livello, metodi, data e limiti sono dichiarati." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Usa i criteri pertinenti su ogni passaggio. Il conteggio degli errori automatici non è una percentuale universale di accessibilità.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-verifica-wcag-barriere-d52036d6f2c2.webp" alt="Verificare un percorso completo · Barriera. Mockup originale, esempio simulato." caption="Barriera · L’audit si ferma alla pagina di accesso; gli errori e la conferma della prenotazione rimangono fuori dall’ambito." /><LessonFigure src="/images/processo-ux/l05-verifica-wcag-scelte-83fa30dc641f.webp" alt="Verificare un percorso completo · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · La verifica considera tutte le pagine e i passaggi del processo. Versione, livello, metodi, data e limiti sono dichiarati." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Usa i criteri pertinenti su ogni passaggio. Il conteggio degli errori automatici non è una percentuale universale di accessibilità.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -1844,8 +1844,8 @@ lessonSlide: 97
 
 # Dall’ostacolo alla nuova prova
 
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-valutazione-barriere-26b552ed7ae5.webp" alt="Dall’ostacolo alla nuova prova · Barriera. Mockup originale ImageGen, esempio simulato." caption="Barriera · Una nota generica non permette di ricostruire dove il compito si interrompe o quale modifica serva." /><LessonFigure src="/images/processo-ux/l05-valutazione-scelte-8991f8bb333e.webp" alt="Dall’ostacolo alla nuova prova · Scelta di progetto. Mockup originale ImageGen, esempio simulato." caption="Scelta di progetto · Il registro distingue osservazioni e ipotesi e indica la conseguenza. Dopo la correzione, lo stesso percorso viene verificato di nuovo." /></div>
-<CvediNotice kind="explore" title="Come verificare · esempio simulato ImageGen"><p>Concorda compiti, supporti e consenso comprensibile. Il registro qui mostrato è illustrativo e non documenta un test svolto.</p></CvediNotice>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-valutazione-barriere-26b552ed7ae5.webp" alt="Dall’ostacolo alla nuova prova · Barriera. Mockup originale, esempio simulato." caption="Barriera · Una nota generica non permette di ricostruire dove il compito si interrompe o quale modifica serva." /><LessonFigure src="/images/processo-ux/l05-valutazione-scelte-8991f8bb333e.webp" alt="Dall’ostacolo alla nuova prova · Scelta di progetto. Mockup originale, esempio simulato." caption="Scelta di progetto · Il registro distingue osservazioni e ipotesi e indica la conseguenza. Dopo la correzione, lo stesso percorso viene verificato di nuovo." /></div>
+<CvediNotice kind="explore" title="Come verificare · esempio simulato"><p>Concorda compiti, supporti e consenso comprensibile. Il registro qui mostrato è illustrativo e non documenta un test svolto.</p></CvediNotice>
 
 ---
 layout: "default"
