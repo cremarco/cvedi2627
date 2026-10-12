@@ -21,6 +21,7 @@
     "export": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
     "check": "node scripts/check/slides.mjs",
     "check:source": "node scripts/check/slide-source.mjs",
+    "check:pagination": "node --test scripts/check/lesson-pagination.test.mjs",
     "check:publication": "node scripts/check/publication.mjs",
     "check:publication:browser": "node scripts/check/publication-browser.mjs",
     "check:progress": "node scripts/check/progress.mjs",

@@ -1,13 +1,9 @@
 /* Presentation theme: section palettes, reading surfaces and restored covers.
    Structural rules live in the layout sheets; typography has its own scale. */
 :root {
-  --theme-primary: var(--cvedi-indigo-600);
-  --theme-primary-deep: var(--cvedi-indigo-800);
-  --theme-accent: var(--cvedi-lime-500);
   --theme-ink: #0f172a;
   --theme-body: #334155;
   --theme-bg: #f8fafc;
-  --theme-cover: var(--cvedi-indigo-900);
   --theme-font: var(--cvedi-font-reading);
   --theme-shadow: 0 8px 24px rgb(15 23 42 / 5%);
   --theme-ribbon-shadow: 0 4px 6px color-mix(in srgb, var(--theme-ink) 18%, transparent);
@@ -200,13 +196,16 @@
 .slidev-layout.default .cvedi-card .card-background { display: none; position: absolute; right: -24px; bottom: -24px; z-index: 0; width: 168px; height: 168px; object-fit: contain; opacity: .6; pointer-events: none; }
 .slidev-layout.default .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-body { min-height: 168px; padding-inline-end: 176px; }
 .slidev-layout.default .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-background { display: block; }
-.slidev-layout.default[data-lesson="storia-design"] .cvedi-grid.three > .has-card-artwork .card-body { padding-bottom: 112px; }
-.slidev-layout.default[data-lesson="storia-design"] .cvedi-grid.three > .has-card-artwork .card-background { display: block; width: 96px; height: 96px; right: -16px; bottom: -16px; }
-.slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-body { padding-bottom: 112px; }
-.slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-background { display: block; width: 96px; height: 96px; right: -16px; bottom: -16px; }
+.slidev-layout.default[data-lesson="storia-design"] .cvedi-grid.three > .has-card-artwork .card-body,
+.slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-body,
+.slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-body { padding-bottom: 112px; }
+.slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-body,
+.slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-body { min-height: 0; padding-inline-end: 24px; }
+.slidev-layout.default[data-lesson="storia-design"] .cvedi-grid.three > .has-card-artwork .card-background,
+.slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-background,
+.slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-background { display: block; width: 96px; height: 96px; right: -16px; bottom: -16px; }
 .slidev-layout.default .cvedi-card .card-note { color: #475569; font: 400 var(--cvedi-type-note)/1.45 var(--theme-font); }
 .slidev-layout.default.concept-slide > .cvedi-grid { grid-template-rows: auto; gap: 24px; margin-block: 12px 0; }
-.slidev-layout.default .cvedi-grid { gap: 24px; }
 .slidev-layout.default .lesson-six .cvedi-card .card-body { padding: 16px 24px; }
 .slidev-layout.default .index-button.btn { border: 0; border-radius: 16px; background: var(--index-color); box-shadow: var(--theme-shadow); color: white; font: 600 27px/1.25 var(--theme-font); }
 .slidev-layout.default .index-button.btn:is(:hover, :active) { background: var(--index-deep); color: white; }
@@ -311,10 +310,6 @@
 .slidev-layout.default :is(.cvedi-calendar tbody tr:nth-child(even), .grade-year-table tbody tr:nth-child(even)) { background: color-mix(in oklch, var(--section-primary) 3%, white); }
 .slidev-layout.default :is(.grade-summary-stats.stats) { border: 0; border-radius: 16px; background: white; box-shadow: var(--theme-shadow); }
 .slidev-layout.default :is(.grade-range-head strong, .stat-value, .sitemap-connections path) { color: var(--section-primary); }
-.grade-tone-low { --grade-fill: var(--cvedi-red-200); }
-.grade-tone-mid { --grade-fill: var(--cvedi-red-300); }
-.grade-tone-high { --grade-fill: var(--cvedi-red-500); }
-.grade-tone-top { --grade-fill: var(--cvedi-red-800); }
 .slidev-layout.default .sitemap-card .card-body { padding: 12px 16px; justify-content: center; }
 .slidev-layout.default .cvedi-card.sitemap-card { position: absolute; }
 .slidev-layout.default .sitemap-card .card-heading { margin-bottom: 4px; }

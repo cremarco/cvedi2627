@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useSlidePlayback } from '../composables/useSlidePlayback'
-import { lessonPagination } from '../utils/lesson-pagination'
+import { useLessonPagination } from '../composables/use-lesson-pagination'
 import { useSlideSet } from '../composables/use-slide-set'
 import SlideRibbon from '../components/SlideRibbon.vue'
 
@@ -9,7 +9,7 @@ const props = defineProps<{ footer?: string; frontmatter?: Record<string, unknow
 
 const { matter, set, setStyle, page, nav } = useSlideSet(() => props.frontmatter)
 const { isActive, canAnimate } = useSlidePlayback()
-const pagination = computed(() => lessonPagination(nav.value.slides, page.value))
+const pagination = useLessonPagination(() => nav.value.slides, page)
 const classes = computed(() => new Set(String(matter.value.class ?? '').split(/\s+/)))
 const isChapter = computed(() => classes.value.has('chapter-slide'))
 const isCover = computed(() => isChapter.value || classes.value.has('cover-slide'))

@@ -491,6 +491,8 @@ Questo è il riferimento normativo per aggiungere o modificare slide, componenti
 
 Modalità Read, grafica del riferimento Gestione web e canvas 1280×720. Il player scala la composizione senza riordinarla. Titoli ordinari a top 52 / left 72 px, corpo centrato sopra il footer. Linguaggio delle copertine metro, contenuti, asset, palette e visibilità dei set sono vincoli del progetto.
 
+Le icone dell'interfaccia e i pittogrammi editoriali usano esclusivamente [Heroicons](https://heroicons.com), attraverso gli SVG ufficiali e componenti riutilizzabili. Nel deck `HeroIcon` condivide la variante outline da 24 unità, con catalogo in `data/heroicons.ts`; SVG originali, versione, fonti e licenza MIT sono conservati in `assets/icons/heroicons/`. La regola comprende controlli, simboli di sezione e richiami del booklet. Colore e dimensione seguono i token del contesto; mantenere coerente la variante grafica nello stesso gruppo. Conservare la licenza MIT degli asset importati. Le illustrazioni, le opere e le icone incorporate negli screenshot documentari mantengono il contenuto originale.
+
 ## Responsabilità
 
 | Modulo | Responsabilità |
@@ -505,7 +507,7 @@ Modalità Read, grafica del riferimento Gestione web e canvas 1280×720. Il play
 | `motion.css` | Entrate finite e riscontri |
 | `web-styles.css` | Linguaggi storici didattici |
 | `slide-sets.ts`, `use-slide-set.ts` | Identità e palette del set proprietario |
-| `lesson-pagination.ts` | Numerazione per set, compresa la chiusura non contigua |
+| `lesson-pagination.ts`, `use-lesson-pagination.ts` | Indice reattivo condiviso della numerazione per set, compresa la chiusura non contigua |
 | `useSlidePlayback.ts` | Attivazione, visibilità, stampa e movimento ridotto |
 
 I componenti usano card, alert, btn, table, badge, progress e modal daisyUI. Il CSS specifico serve al canvas e alle composizioni didattiche. Palette e numerazione appartengono al set, non all'indice globale. I dialog teletrasportati ricevono il tema della slide proprietaria.
@@ -618,7 +620,7 @@ LessonImageContent conserva proporzioni e dimensioni occupate. LessonFigure alli
 
 Nel booklet Figma, i sei schemi delle dimensioni culturali sono composizioni native modificabili: titoli Geom Bold 20 px, corpo Merriweather Light 10 px, nomi dei Paesi 9 px e punteggi 16 px, con il rosso esistente del booklet (circa `#C10007`). Cerchi bianchi ospitano bandiere vettoriali native e puntatori; curve puntinate collegano ciascun Paese al suo valore proporzionale sull’asse 0–100. La posizione illustrativa dei cerchi non sostituisce la scala: l’ancoraggio sull’asse rappresenta il punteggio. Fonte, data di consultazione e natura comparativa degli indici restano leggibili nella tavola. Ogni dimensione ha una copertina artistica distinta: sfondo raster originale ImageGen a tutta pagina, con codice, titolo e nomi dei due poli come testo nativo modificabile in Figma. Il testo mantiene un contrasto leggibile sull’immagine e l’impaginazione non aggiunge cornici. La tavola immediatamente successiva conserva il grafico nativo, le bandiere e la scala quantitativa 0–100, così immagine introduttiva e dati mantengono una propria gerarchia. PNG originali, prompt, hash e provenienza sono conservati nel manifest degli asset; le copertine precedenti restano in archivio.
 
-Ingrandisci è un'icona sopra l'immagine, in basso a destra: opacità 45%, 100% su hover/focus, bersaglio 44×44 px. Il dialog nativo gestisce Esc e ritorno del focus; nei viewport bassi può scorrere. SlideIllustration serve agli asset decorativi, RenewalMaterials al grafico del rinnovo.
+Ingrandisci è un'icona sopra l'immagine, in basso a destra: opacità 45%, 100% su hover/focus, bersaglio 44×44 px. Il dialog nativo gestisce Esc e ritorno del focus; nei viewport bassi può scorrere. Il contenuto dell'ingrandimento viene montato soltanto all'apertura e rimosso alla chiusura, evitando immagini e osservatori di ridimensionamento nei dialog inattivi. SlideIllustration serve agli asset decorativi, RenewalMaterials al grafico del rinnovo.
 
 ## Movimento e dati
 
@@ -634,7 +636,7 @@ I contenuti sono in Markdown o data; i componenti gestiscono presentazione e int
 
 ## Verifica
 
-check:source include sorgenti nascosti, durate di frontmatter, fonti e asset selezionati. check misura titoli, centraggio, footer, immagini e ingrandimenti su desktop, viewport stretto e stampa. check:covers verifica percorsi unici, assenza di sovrapposizioni e almeno 16 px di distanza fra tracce e testo su tutti e tre i formati. I controlli dedicati coprono geometria, movimento, avanzamento e font. Il helper browser aspetta contenuti e risorse renderizzati, senza affidarsi all'inattività della rete.
+check:source include sorgenti nascosti, durate di frontmatter, fonti e asset selezionati. check misura titoli, centraggio, footer, immagini e ingrandimenti su desktop, viewport stretto e stampa. check:pagination verifica numerazione e invalidazione dell'indice condiviso quando cambiano slide o metadati. check:covers verifica percorsi unici, assenza di sovrapposizioni e almeno 16 px di distanza fra tracce e testo su tutti e tre i formati. I controlli dedicati coprono geometria, movimento, avanzamento e font. Il helper browser aspetta contenuti e risorse renderizzati, senza affidarsi all'inattività della rete.
 
 Rapporti cronologici e screenshot non appartengono alla documentazione: rigenerarli in reports o in una cartella temporanea. Conservare attribuzioni, licenze e originali attivi.
 

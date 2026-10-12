@@ -401,7 +401,8 @@ try {
     assert.equal(await slide.locator('select, .ux-example-controls').count(), 0, `UX example ${example.id}: no selector or carousel controls`)
   }
   async function inspectEnlargement(number, narrow = false) {
-    await page.goto(`${baseURL.replace(/\/$/, '')}/#/${number}`, { waitUntil: 'networkidle' })
+    await openSlide(page, baseURL, number)
+    assert.equal(await page.locator('.lesson-image-dialog img').count(), 0, `slide ${number}: closed dialogs do not mount image content`)
     const imageButton = page.locator(`.slidev-page-${number} .lesson-image-button`).first()
     await imageButton.focus()
     await page.keyboard.press('Enter')
@@ -428,6 +429,7 @@ try {
     if (output) await page.screenshot({ path: `${output}/${narrow ? 'narrow-' : ''}enlarged-${number}.png` })
     await page.keyboard.press('Escape')
     await dialog.waitFor({ state: 'hidden' })
+    await page.waitForFunction(() => !document.querySelector('.lesson-image-dialog img'))
     assert.ok(await imageButton.evaluate(button => document.activeElement === button), `slide ${number}: closing enlargement restores keyboard focus`)
     await imageButton.click()
     await page.locator('dialog[open]').getByRole('button', { name: 'Chiudi', exact: true }).click()

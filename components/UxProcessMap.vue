@@ -2,6 +2,7 @@
 import { useId } from 'vue'
 import { thematicArtwork } from '../utils/card-artwork'
 import { publicAsset } from '../utils/public-asset'
+import HeroIcon from './HeroIcon.vue'
 
 const nuclei = [
   { title: 'Impostare', phases: ['Brief con gli stakeholder', 'Obiettivi di business', 'Analisi dei competitor'] },
@@ -38,7 +39,7 @@ const groups = nuclei.map(nucleus => {
       </section>
     </div>
     <p class="ux-process-iteration">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7h-5m5 0V2m0 5a8 8 0 0 0-14-1M4 17h5m-5 0v5m0-5a8 8 0 0 0 14 1" /></svg>
+      <HeroIcon name="arrow-path" stroke-width="1.8" />
       <span>Le evidenze possono riportare a qualsiasi nucleo.</span>
     </p>
   </div>

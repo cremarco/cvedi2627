@@ -35,13 +35,20 @@ try {
       const cardMotifs = [...root.querySelectorAll('.cvedi-card:has(.card-background)')].map(card => {
         const image = card.querySelector('.card-background')
         const visible = getComputedStyle(image).display !== 'none'
-        const expectedHistory = ['storia-design', 'ricerca-inclusiva'].includes(root.dataset.lesson)
-        if (!visible) return { visible, expectedHistory, width: parseFloat(getComputedStyle(card).width), equivalentPair: card.parentElement.children.length === 2 && [...card.parentElement.children].every(child => child.classList.contains('cvedi-card')), interactionExample: Boolean(card.closest('.interaction-examples')) }
+        const expectedHistory = ['storia-design', 'ricerca-inclusiva', 'percezione-gerarchia'].includes(root.dataset.lesson)
+        const siblings = [...card.parentElement.children]
+        const compactAccessibility = root.dataset.lesson === 'percezione-gerarchia'
+          && card.parentElement.classList.contains('cvedi-grid')
+          && siblings.length >= 2 && siblings.length <= 4
+          && siblings.every(child => child.classList.contains('cvedi-card'))
+        if (!visible) return { visible, expectedHistory, compactAccessibility, width: parseFloat(getComputedStyle(card).width), equivalentPair: siblings.length === 2 && siblings.every(child => child.classList.contains('cvedi-card')), interactionExample: Boolean(card.closest('.interaction-examples')) }
         const box = card.getBoundingClientRect()
         const art = image.getBoundingClientRect()
+        const body = getComputedStyle(card.querySelector('.card-body'))
         const copyBoxes = [...card.querySelectorAll('.card-heading, .card-copy')].map(el => el.getBoundingClientRect())
         const copyClear = copyBoxes.every(copy => copy.right <= art.left || copy.bottom <= art.top)
-        return { visible, expectedHistory, copyClear, cropped: art.right > box.right && art.bottom > box.bottom,
+        return { visible, expectedHistory, compactAccessibility, paddingEnd: parseFloat(body.paddingInlineEnd), paddingBottom: parseFloat(body.paddingBottom), artworkWidth: art.width / scale, artworkHeight: art.height / scale,
+          copyClear, cropped: art.right > box.right && art.bottom > box.bottom,
           overflow: getComputedStyle(card).overflow, decorative: image.alt === '' && image.getAttribute('aria-hidden') === 'true' }
       })
       const formula = root.querySelector('.formula-flow')
@@ -83,6 +90,10 @@ try {
     for (const gap of report.captions) assert.ok(Math.abs(gap - 12) <= 2, `slide ${slide.index + 1}: caption follows actual image (${gap}px)`)
     for (const motif of report.cardMotifs) {
       if (motif.expectedHistory) assert.ok(motif.visible, `slide ${slide.index + 1}: illustrated lesson card has its icon`)
+      if (motif.compactAccessibility) assert.ok(motif.visible
+        && Math.abs(motif.paddingEnd - 24) < 1 && Math.abs(motif.paddingBottom - 112) < 1
+        && Math.abs(motif.artworkWidth - 96) < 1 && Math.abs(motif.artworkHeight - 96) < 1,
+        `slide ${slide.index + 1}: accessibility card keeps full text width above its compact icon`)
       if (motif.visible) assert.ok(motif.copyClear && motif.cropped && motif.overflow === 'hidden' && motif.decorative,
         `slide ${slide.index + 1}: decorative corner is cropped and separate from text`)
       else assert.ok(motif.width < 420 || !motif.equivalentPair || motif.interactionExample, `slide ${slide.index + 1}: compact and non-pair compositions omit motifs`)
@@ -96,13 +107,17 @@ try {
   }
   for (const slide of fixtures) await inspectSlide(slide)
   const timelineFixtures = fixtures.filter(slide => slide.content.includes('<ProcessTimeline'))
+  const compactCardFixtures = [2, 3, 4].map(count => fixtures.find(slide =>
+    slide.frontmatter.lesson === 'percezione-gerarchia'
+      && (slide.content.match(/<CvediCard\b/g) || []).length === count,
+  )).filter(Boolean)
   for (const [mode, viewport, media] of [
     ['narrow', { width: 636, height: 778 }, 'screen'],
     ['print', { width: 1280, height: 720 }, 'print'],
   ]) {
     await page.setViewportSize(viewport)
     await page.emulateMedia({ media })
-    for (const slide of timelineFixtures) await inspectSlide(slide, mode)
+    for (const slide of new Set([...timelineFixtures, ...compactCardFixtures])) await inspectSlide(slide, mode)
   }
   await page.emulateMedia({ media: 'screen' })
   await page.setViewportSize({ width: 844, height: 390 })

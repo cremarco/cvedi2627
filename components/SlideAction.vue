@@ -3,6 +3,7 @@ import { useNav } from '@slidev/client'
 import { computed } from 'vue'
 import { useSlideSet } from '../composables/use-slide-set'
 import { slideSet } from '../utils/slide-sets'
+import HeroIcon from './HeroIcon.vue'
 
 const props = withDefaults(defineProps<{ to: string | number; showArrow?: boolean }>(), { showArrow: true })
 const { go } = useNav()
@@ -22,9 +23,7 @@ const actionStyle = computed(() => {
 <template>
   <button type="button" class="btn btn-outline slide-action" :style="actionStyle" @click="go(to)" @keydown.enter.stop @keydown.space.stop>
     <slot />
-    <svg v-if="showArrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
-      <path d="M5 12h14m-6-6 6 6-6 6" />
-    </svg>
+    <HeroIcon v-if="showArrow" name="arrow-right" stroke-width="1.8" />
   </button>
 </template>
 

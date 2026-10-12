@@ -283,10 +283,19 @@ try {
   const dialog = page.locator('.lesson-image-dialog[open]')
   await dialog.waitFor()
   assert.equal(await dialog.locator('.modal-box').evaluate(box => getComputedStyle(box).animationName), 'cvedi-image-expand')
+  const reopened = await dialog.evaluate(async element => {
+    const closed = new Promise(resolve => element.addEventListener('close', resolve, { once: true }))
+    element.close()
+    element.showModal()
+    await closed
+    await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)))
+    return { open: element.open, images: element.querySelectorAll('img').length }
+  })
+  assert.ok(reopened.open && reopened.images > 0, 'a queued close event preserves the image when the native dialog has already reopened')
   await page.keyboard.press('Escape')
   await dialog.waitFor({ state: 'hidden' })
   assert.ok(await zoom.evaluate(button => document.activeElement === button), 'native dialog restores keyboard focus')
-  checks.push('comparison and example images retain reading order; narrow keyboard zoom opens and restores focus')
+  checks.push('comparison and example images retain reading order; narrow keyboard zoom opens, survives immediate reopening, and restores focus')
 
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await go('apertura')

@@ -3,6 +3,7 @@ import { computed, ref, watch } from 'vue'
 import { useSlidePlayback } from '../composables/useSlidePlayback'
 import manifest from '../assets/booklet-preview/manifest.json'
 import { publicAsset } from '../utils/public-asset'
+import HeroIcon from './HeroIcon.vue'
 
 type Page = { src: string; alt: string; coverSide?: 'left' | 'right' }
 type Spread = { left: Page; right: Page; label: string }
@@ -136,19 +137,19 @@ watch(prefersReducedMotion, reduced => {
     </div>
     <nav class="booklet-controls" aria-label="Sfoglia le pagine" @click.stop>
       <button class="btn btn-sm btn-ghost" type="button" :aria-disabled="index === 0 || !!turn" @click="flip('backward')">
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14 6-6 6 6 6" /></svg>
+        <HeroIcon name="chevron-left" />
         Indietro
       </button>
       <div class="booklet-playback">
         <span class="booklet-page-label" role="status" :aria-live="autoplay ? 'off' : 'polite'" aria-atomic="true">{{ spread.label }}<span class="booklet-position">{{ index + 1 }} / {{ spreads.length }}</span></span>
         <button class="btn btn-sm btn-ghost" type="button" :aria-label="autoplay ? 'Metti in pausa lo sfogliamento automatico' : 'Avvia lo sfogliamento automatico'" @click="toggleAutoplay">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path v-if="autoplay" d="M8 5v14M16 5v14" /><path v-else d="m8 5 11 7-11 7Z" /></svg>
+          <HeroIcon :name="autoplay ? 'pause' : 'play'" />
           {{ autoplay ? 'Pausa' : 'Auto' }}
         </button>
       </div>
       <button class="btn btn-sm btn-ghost" type="button" :aria-disabled="index === spreads.length - 1 || !!turn" @click="flip('forward')">
         {{ index === 0 ? 'Sfoglia' : 'Avanti' }}
-        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m10 6 6 6-6 6" /></svg>
+        <HeroIcon name="chevron-right" />
       </button>
     </nav>
     <div hidden aria-hidden="true"><img v-for="page in manifest.pages" :key="page.number" :src="publicAsset(page.src)" alt="" /></div>
