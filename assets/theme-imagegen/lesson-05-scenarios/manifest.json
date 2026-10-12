@@ -1,0 +1,304 @@
+{
+  "version": 1,
+  "date": "2026-10-12",
+  "tool": "built-in image_gen",
+  "useCase": "style-transfer / scientific-educational",
+  "scope": "Tre scenari d’uso · lezione 05, slide 37–39: prodotto, tastiera e media",
+  "palette": {
+    "outline": "#002C22",
+    "primary": "#005F46",
+    "light": "#D0FAE5",
+    "light2": "#A4F4CF",
+    "accent": "#FE7DBE",
+    "background": "#F8FAFC"
+  },
+  "references": [
+    "assets/booklet/accessibilita-commenti-2026-10/scenario-colore.png",
+    "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png",
+    "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera-v2.png",
+    "assets/booklet/accessibilita-commenti-2026-10/scenario-sottotitoli.png",
+    "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-colore-v1.png"
+  ],
+  "prompt": "assets/theme-imagegen/lesson-05-scenarios/prompts/scenario-colore-v1.txt",
+  "rights": "Original illustration generated for this project using the built-in image tool. Previous illustration and provenance preserved; no documentary image or third-party logo replaced.",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a131e5-ae51-70e1-b8b1-b9cf9e14099f/exec-61d02713-81a4-44fa-a690-7fc182ed59b7.png",
+  "previousAssets": [
+    {
+      "id": "l05-scenario-colore",
+      "original": "assets/booklet/accessibilita-commenti-2026-10/scenario-colore.png",
+      "web": "/images/processo-ux/l05-scenario-colore-df0020fcbfd7.webp",
+      "nodeId": "3124:878",
+      "caption": "Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale ImageGen.",
+      "sha256": "1be4403398e1ae079fd3621ce12c732677e8b00aa8db516bca20220875e492a8",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/scenario-colore.png"
+      ],
+      "provenance": {
+        "kind": "figma-import",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Originale ImageGen del progetto; scenario ispirato a WAI Stories of Web Users.",
+        "cropPixels": null
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "l05-scenario-tastiera",
+      "original": "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera-v2.png",
+      "web": "/images/processo-ux/l05-scenario-tastiera-cf63c6654b4d.webp",
+      "nodeId": "3124:883",
+      "caption": "Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale ImageGen.",
+      "sha256": "07cd3815700d2f58aaeb091b897498e718bea0f4229db276f4654132b71dd367",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera-v2.png"
+      ],
+      "provenance": {
+        "kind": "figma-import",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Originale ImageGen del progetto; scenario ispirato a WAI Stories of Web Users.",
+        "cropPixels": null
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    },
+    {
+      "id": "l05-scenario-media",
+      "original": "assets/booklet/accessibilita-commenti-2026-10/scenario-sottotitoli.png",
+      "web": "/images/processo-ux/l05-scenario-media-b20cbc958bd1.webp",
+      "nodeId": "3124:888",
+      "caption": "Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale ImageGen.",
+      "sha256": "a9a08a01e4582fa99ac79b90e26538040b6ea4c4c06d6bba2fdafe91691775eb",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/booklet/accessibilita-commenti-2026-10/scenario-sottotitoli.png"
+      ],
+      "provenance": {
+        "kind": "figma-import",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Originale ImageGen del progetto; scenario ispirato a WAI Stories of Web Users.",
+        "cropPixels": null
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      }
+    }
+  ],
+  "assets": [
+    {
+      "id": "l05-scenario-colore",
+      "original": "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-colore-v1.png",
+      "web": "/images/processo-ux/l05-scenario-colore-emerald-859c0becb61a.webp",
+      "nodeId": "3124:878",
+      "caption": "Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale.",
+      "sha256": "b0d0fbad003e26dfbe97e18530938fd4dd854ed1effd080313756a9a834f3773",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-colore-v1.png",
+        "assets/theme-imagegen/lesson-05-scenarios/prompts/scenario-colore-v1.txt",
+        "assets/theme-imagegen/lesson-05-scenarios/manifest.json",
+        "assets/booklet/accessibilita-commenti-2026-10/scenario-colore.png",
+        "public/images/processo-ux/l05-scenario-colore-df0020fcbfd7.webp"
+      ],
+      "provenance": {
+        "kind": "project-illustration",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Illustrazione originale del progetto, rielaborata su richiesta; scenario ispirato a WAI Stories of Web Users. Fonte precedente, prompt e provenienza conservati nel manifest.",
+        "cropPixels": null,
+        "createdOn": "2026-10-12"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "alt": "Una persona sceglie una maglietta rosa. Le opzioni Rosa, Verde e Bianco hanno nomi e campioni cromatici; Rosa è selezionata con una spunta.",
+      "publicationSource": "assets/theme-imagegen/lesson-05-scenarios/scenario-colore-v1.webp",
+      "publicationSourceSha256": "859c0becb61a694aedc7442f466607c6e37c025836b31ddd38a41956b6b55131"
+    },
+    {
+      "id": "l05-scenario-tastiera",
+      "original": "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-tastiera-v1.png",
+      "web": "/images/processo-ux/l05-scenario-tastiera-emerald-db95cb5923b2.webp",
+      "nodeId": "3124:883",
+      "caption": "Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale.",
+      "sha256": "09d928f7971a7da4f10cb52721e6b91cb45f07e1ca1371aecafc6b3264633003",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-tastiera-v1.png",
+        "assets/theme-imagegen/lesson-05-scenarios/prompts/scenario-tastiera-v1.txt",
+        "assets/theme-imagegen/lesson-05-scenarios/manifest.json",
+        "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera-v2.png",
+        "public/images/processo-ux/l05-scenario-tastiera-cf63c6654b4d.webp"
+      ],
+      "provenance": {
+        "kind": "project-illustration",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Illustrazione originale del progetto, rielaborata su richiesta; scenario ispirato a WAI Stories of Web Users. Fonte precedente, prompt e provenienza conservati nel manifest.",
+        "cropPixels": null,
+        "createdOn": "2026-10-12"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "alt": "Una persona usa la tastiera del portatile per compilare un modulo. Il menu Corso ha il focus evidenziato in rosa e mostra Design e Comunicazione; sotto c’è il pulsante Invia.",
+      "publicationSource": "assets/theme-imagegen/lesson-05-scenarios/scenario-tastiera-v1.webp",
+      "publicationSourceSha256": "db95cb5923b2ae8782db5609f78a7e8e49717f9230dc86919372c70901943564"
+    },
+    {
+      "id": "l05-scenario-media",
+      "original": "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-media-v1.png",
+      "web": "/images/processo-ux/l05-scenario-media-emerald-ce4339a8cbee.webp",
+      "nodeId": "3124:888",
+      "caption": "Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale.",
+      "sha256": "93c6bd36421366a000b055e6afd1177864cff255d947bb8cbf3d2094685129ad",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "encoding": {
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "retainedSources": [
+        "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-media-v1.png",
+        "assets/theme-imagegen/lesson-05-scenarios/prompts/scenario-media-v1.txt",
+        "assets/theme-imagegen/lesson-05-scenarios/manifest.json",
+        "assets/booklet/accessibilita-commenti-2026-10/scenario-sottotitoli.png",
+        "public/images/processo-ux/l05-scenario-media-b20cbc958bd1.webp"
+      ],
+      "provenance": {
+        "kind": "project-illustration",
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "pageId": "2613:1110",
+        "importedOn": "2026-10-12",
+        "credit": "Illustrazione originale del progetto, rielaborata su richiesta; scenario ispirato a WAI Stories of Web Users. Fonte precedente, prompt e provenienza conservati nel manifest.",
+        "cropPixels": null,
+        "createdOn": "2026-10-12"
+      },
+      "publicationEncoding": {
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "alt": "Una persona segue un video con audio disattivato. Il docente indica un triangolo; i sottotitoli riportano «Docente: Questo è un triangolo.» e «[suono di notifica]».",
+      "publicationSource": "assets/theme-imagegen/lesson-05-scenarios/scenario-media-v1.webp",
+      "publicationSourceSha256": "ce4339a8cbee402994fb33d25bb1b877b36d0fc38bf44b0e6e53cd0b94c425cd"
+    }
+  ],
+  "reviews": {
+    "l05-scenario-colore": {
+      "status": "accepted",
+      "style": "rounded dark emerald contours, pale emerald fills and strawberry-pink accent",
+      "subjectPreserved": true,
+      "labels": [
+        "Rosa",
+        "Verde",
+        "Bianco"
+      ],
+      "selectedColor": "Rosa",
+      "selectionCheckmark": true,
+      "transparentBackground": false
+    },
+    "l05-scenario-tastiera": {
+      "status": "accepted",
+      "style": "matches approved product scene, rounded emerald contours and pale emerald fills with strawberry-pink accents",
+      "subjectPreserved": true,
+      "labels": [
+        "Email",
+        "Corso",
+        "Design",
+        "Comunicazione",
+        "Invia",
+        "Tab",
+        "Invio"
+      ],
+      "transparentBackground": false
+    },
+    "l05-scenario-media": {
+      "status": "accepted",
+      "style": "matches approved product scene, rounded emerald contours and pale emerald fills with strawberry-pink accents",
+      "subjectPreserved": true,
+      "labels": [
+        "Docente: Questo è un triangolo.",
+        "[suono di notifica]"
+      ],
+      "transparentBackground": false
+    }
+  },
+  "prompts": {
+    "l05-scenario-colore": "assets/theme-imagegen/lesson-05-scenarios/prompts/scenario-colore-v1.txt",
+    "l05-scenario-tastiera": "assets/theme-imagegen/lesson-05-scenarios/prompts/scenario-tastiera-v1.txt",
+    "l05-scenario-media": "assets/theme-imagegen/lesson-05-scenarios/prompts/scenario-media-v1.txt"
+  },
+  "generatedSources": {
+    "l05-scenario-colore": "/Users/marco/.codex/generated_images/01a131e5-ae51-70e1-b8b1-b9cf9e14099f/exec-61d02713-81a4-44fa-a690-7fc182ed59b7.png",
+    "l05-scenario-tastiera": "/Users/marco/.codex/generated_images/01a131e5-ae51-70e1-b8b1-b9cf9e14099f/exec-2a7ada88-5fac-42a3-a983-42bed3e37839.png",
+    "l05-scenario-media": "/Users/marco/.codex/generated_images/01a131e5-ae51-70e1-b8b1-b9cf9e14099f/exec-24daa48d-6848-4234-803a-98f577413085.png"
+  },
+  "styleReference": "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-colore-v1.png",
+  "referencesByAsset": {
+    "l05-scenario-tastiera": [
+      "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera-v2.png",
+      "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-colore-v1.png"
+    ],
+    "l05-scenario-media": [
+      "assets/booklet/accessibilita-commenti-2026-10/scenario-sottotitoli.png",
+      "assets/theme-imagegen/lesson-05-scenarios/originals/scenario-colore-v1.png"
+    ],
+    "l05-scenario-colore": [
+      "assets/booklet/accessibilita-commenti-2026-10/scenario-colore.png",
+      "assets/theme-imagegen/lesson-05-persona-spectrum/originals/persona-0-0-v1.png"
+    ]
+  }
+}

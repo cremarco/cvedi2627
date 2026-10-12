@@ -700,7 +700,7 @@ lessonSlide: 37
 # Scegliere un prodotto
 
 <p class="lead">Nome del colore e segno di selezione affiancano il campione cromatico.</p>
-<LessonFigure src="/images/processo-ux/l05-scenario-colore-df0020fcbfd7.webp" alt="Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale." caption="Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale." />
+<LessonFigure src="/images/processo-ux/l05-scenario-colore-emerald-859c0becb61a.webp" alt="Una persona sceglie una maglietta rosa. Le opzioni Rosa, Verde e Bianco hanno nomi e campioni cromatici; Rosa è selezionata con una spunta." caption="Scegliere un prodotto: nome del colore e selezione visibile. Scenario illustrativo originale." />
 
 ---
 layout: "default"
@@ -719,7 +719,7 @@ lessonSlide: 38
 # Completare un modulo
 
 <p class="lead">Focus visibile, controlli raggiungibili e azioni da tastiera mantengono continuo il compito.</p>
-<LessonFigure src="/images/processo-ux/l05-scenario-tastiera-cf63c6654b4d.webp" alt="Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale." caption="Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale." />
+<LessonFigure src="/images/processo-ux/l05-scenario-tastiera-emerald-db95cb5923b2.webp" alt="Una persona usa la tastiera del portatile per compilare un modulo. Il menu Corso ha il focus evidenziato in rosa e mostra Design e Comunicazione; sotto c’è il pulsante Invia." caption="Completare un modulo: controlli e focus da tastiera. Scenario illustrativo originale." />
 
 ---
 layout: "default"
@@ -738,7 +738,7 @@ lessonSlide: 39
 # Seguire una lezione
 
 <p class="lead">Sottotitoli corretti includono il parlato e i suoni significativi.</p>
-<LessonFigure src="/images/processo-ux/l05-scenario-media-b20cbc958bd1.webp" alt="Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale." caption="Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale." />
+<LessonFigure src="/images/processo-ux/l05-scenario-media-emerald-ce4339a8cbee.webp" alt="Una persona segue un video con audio disattivato. Il docente indica un triangolo; i sottotitoli riportano «Docente: Questo è un triangolo.» e «[suono di notifica]»." caption="Seguire una lezione: sottotitoli e informazioni visive. Scenario illustrativo originale." />
 
 ---
 layout: "default"

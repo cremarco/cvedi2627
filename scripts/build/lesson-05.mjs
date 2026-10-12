@@ -15,7 +15,9 @@ const demoInstructionsSource = readFileSync(new URL('data/accessibility-demos.ts
 const demoInstructions = Object.fromEntries([...demoInstructionsSource.matchAll(/^\s*(?:'([^']+)'|(\w+)): '([^']+)',/gm)].map(m => [m[1] || m[2], m[3]]))
 const title = 'Accessibilità e design inclusivo'
 const escape = s => String(s).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
-const figure = (asset, caption) => `<LessonFigure src="${asset.web}" alt="${escape(asset.caption)}" caption="${escape(caption || asset.caption)}" />`
+// Generation metadata stays in the manifests, outside presented figure copy.
+const presentationText = value => String(value).replace(/\s*\b(?:Imagen|ImageGen)\b/gi, '').replace(/\s+([.,;:!?])/g, '$1').trim()
+const figure = (asset, caption) => `<LessonFigure src="${asset.web}" alt="${escape(presentationText(asset.alt || asset.caption))}" caption="${escape(presentationText(caption || asset.caption))}" />`
 const sourceRows = new Map(source.frames.map((f, i) => [f.id, { ...f, folio: Number(f.texts.find(t => t.name.startsWith('Numero pagina'))?.text || (168 + i)) }]))
 const added = []
 for (const frame of source.frames) {
@@ -44,7 +46,7 @@ for (const frame of source.frames) {
       const figures = spec.images.map(i => { const a = assets.get(i.asset); if (!a) throw new Error(i.asset); return figure(a, i.caption && (spec.triptych ? i.caption + ' · ' + a.caption.split(' · ')[0] : i.caption)) })
       body += spec.images.length === 1 ? figures[0] + '\n' : `<div class="${spec.triptych ? 'lesson-columns figure-triptych' : 'lesson-columns'}">${figures.join('')}</div>\n`
     }
-    if (spec.notice) body += `<CvediNotice kind="explore" title="${spec.simulated ? 'Come verificare · esempio simulato ImageGen' : 'Da tenere presente'}"><p>${escape(spec.notice)}</p></CvediNotice>\n`
+    if (spec.notice) body += `<CvediNotice kind="explore" title="${spec.simulated ? 'Come verificare · esempio simulato' : 'Da tenere presente'}"><p>${escape(spec.notice)}</p></CvediNotice>\n`
     const frontmatter = { layout: 'default', class: classes.join(' '), footer: title, lesson: 'percezione-gerarchia', lessonMinutes: spec.simulated ? 1.5 : 1,
       lessonSection: 'accessibility', routeAlias: spec.alias || `accessibilita-${frame.id.replace(':', '-')}-${index + 1}`, bookletNodes: spec.sourceNodes,
       bookletFolios: spec.sourceNodes.map(id => sourceRows.get(id).folio), bookletAssets: imageIds }

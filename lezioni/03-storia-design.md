@@ -662,7 +662,7 @@ lessonMinutes: 2
 
 <p class="lead"><strong>Finestre, icone, menu e puntatore</strong>: un linguaggio comune.</p>
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/wimp.webp" alt="Illustrazione didattica WIMP in magenta: finestre sovrapposte, icone di file e cartelle, menu aperto e puntatore a freccia" caption="Paradigma WIMP: finestre, icone, menu e puntatore. Illustrazione didattica · Imagegen, 2026." />
+  <LessonFigure src="/images/storia-design/wimp.webp" alt="Illustrazione didattica WIMP in magenta: finestre sovrapposte, icone di file e cartelle, menu aperto e puntatore a freccia" caption="Paradigma WIMP: finestre, icone, menu e puntatore. Illustrazione didattica · 2026." />
 </div>
 
 ---
@@ -709,7 +709,7 @@ lessonMinutes: 1.5
 <p class="lead">Testi e collegamenti espongono la struttura del documento; i vincoli tecnici influenzano la navigazione.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-html.webp" alt="Homepage fittizia Caffè Luce nella variante html, elaborazione didattica generata con Imagegen" caption="Caffè Luce · primo Web · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-html.webp" alt="Homepage fittizia Caffè Luce nella variante html, elaborazione didattica" caption="Caffè Luce · primo Web · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-html-slide.webp" alt="Warner Bros. · Space Jam, 1996 — screenshot documentato dell’interfaccia" caption="Warner Bros. · Space Jam, 1996. Sito originale mantenuto online." />
 </div>
 
@@ -727,7 +727,7 @@ lessonMinutes: 1.5
 <p class="lead">Gradienti, volume e angoli arrotondati caratterizzano un repertorio visivo. Il Web 2.0 riguarda anche la partecipazione.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-web2.webp" alt="Homepage fittizia Caffè Luce nella variante web2, elaborazione didattica generata con Imagegen" caption="Caffè Luce · Web 2.0 · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-web2.webp" alt="Homepage fittizia Caffè Luce nella variante web2, elaborazione didattica" caption="Caffè Luce · Web 2.0 · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-web2-slide.webp" alt="WordPress · Default / Kubrick — screenshot documentato dell’interfaccia" caption="WordPress · Default/Kubrick, tema della serie 1.5–2.9. Demo operativa su wp-themes.com." />
 </div>
 
@@ -745,7 +745,7 @@ lessonMinutes: 1.5
 <p class="lead">Oggetti e materiali familiari suggeriscono una funzione; la metafora deve essere comprensibile al pubblico.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-scheu.webp" alt="Homepage fittizia Caffè Luce nella variante scheu, elaborazione didattica generata con Imagegen" caption="Caffè Luce · scheumorfismo · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-scheu.webp" alt="Homepage fittizia Caffè Luce nella variante scheu, elaborazione didattica" caption="Caffè Luce · scheumorfismo · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-scheu-slide.webp" alt="Apple · GarageBand, amplificatori e pedali — screenshot documentato dell’interfaccia" caption="Apple · GarageBand per Mac. Amplificatori e pedali virtuali, schermata prodotto ufficiale." />
 </div>
 
@@ -763,7 +763,7 @@ lessonMinutes: 1.5
 <p class="lead">Campiture e tipografia riducono il rilievo. Pulsanti e link devono conservare indizi visibili della loro funzione.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-flat.webp" alt="Homepage fittizia Caffè Luce nella variante flat, elaborazione didattica generata con Imagegen" caption="Caffè Luce · flat design · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-flat.webp" alt="Homepage fittizia Caffè Luce nella variante flat, elaborazione didattica" caption="Caffè Luce · flat design · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-flat-slide.webp" alt="Designmodo · Flat UI — screenshot documentato dell’interfaccia" caption="Designmodo · Flat UI. Componenti eseguibili: campiture piene e pulsanti senza sfumature." />
 </div>
 
@@ -781,7 +781,7 @@ lessonMinutes: 2
 <p class="lead">Superfici, livelli e movimento appartengono a regole condivise: la coerenza riguarda forma e comportamento.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-material.webp" alt="Homepage fittizia Caffè Luce nella variante material, elaborazione didattica generata con Imagegen" caption="Caffè Luce · Material Design · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-material.webp" alt="Homepage fittizia Caffè Luce nella variante material, elaborazione didattica" caption="Caffè Luce · Material Design · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-material-slide.webp" alt="Google · Material Design 3 — screenshot documentato dell’interfaccia" caption="Google · Material Design 3. Sito ufficiale del sistema, screenshot desktop." />
 </div>
 
@@ -816,7 +816,7 @@ lessonMinutes: 1.5
 <p class="lead">Luci e ombre morbide suggeriscono rilievi continui; contrasto e stato dei controlli restano da verificare.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-neumo.webp" alt="Homepage fittizia Caffè Luce nella variante neumo, elaborazione didattica generata con Imagegen" caption="Caffè Luce · neumorfismo · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-neumo.webp" alt="Homepage fittizia Caffè Luce nella variante neumo, elaborazione didattica" caption="Caffè Luce · neumorfismo · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-neumo-slide.webp" alt="Themesberg · Neumorphism UI About — screenshot documentato dell’interfaccia" caption="Themesberg · Neumorphism UI, pagina About della demo eseguibile: superfici e controlli a rilievo." />
 </div>
 
@@ -834,7 +834,7 @@ lessonMinutes: 1.5
 <p class="lead">Traslucenza e sfocatura distinguono livelli. La leggibilità cambia con lo sfondo dietro il testo.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-glass.webp" alt="Homepage fittizia Caffè Luce nella variante glass, elaborazione didattica generata con Imagegen" caption="Caffè Luce · glassmorfismo · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-glass.webp" alt="Homepage fittizia Caffè Luce nella variante glass, elaborazione didattica" caption="Caffè Luce · glassmorfismo · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-glass-slide.webp" alt="Windows 11 · Start — screenshot documentato dell’interfaccia" caption="Windows 11, menu Start, 2021. Screenshot ufficiale Microsoft: pannello traslucido sopra il desktop." />
 </div>
 
@@ -852,7 +852,7 @@ lessonMinutes: 1.5
 <p class="lead">Ridurre gli elementi richiede una gerarchia chiara: ciò che resta deve sostenere contenuto e compito.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-minimal.webp" alt="Homepage fittizia Caffè Luce nella variante minimal, elaborazione didattica generata con Imagegen" caption="Caffè Luce · minimalismo · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-minimal.webp" alt="Homepage fittizia Caffè Luce nella variante minimal, elaborazione didattica" caption="Caffè Luce · minimalismo · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-minimal-slide.webp" alt="Studio Yoke · desktop — screenshot documentato dell’interfaccia" caption="Studio Yoke, homepage desktop. Palette binaria, tipografia e spazio negativo costruiscono la gerarchia. Screenshot: 6 ottobre 2026." />
 </div>
 
@@ -870,7 +870,7 @@ lessonMinutes: 1.5
 <p class="lead">Cromature, bagliori e forme futuristiche reinterpretano un immaginario: il revival non coincide con il Web 2.0.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-y2k.webp" alt="Homepage fittizia Caffè Luce nella variante y2k, elaborazione didattica generata con Imagegen" caption="Caffè Luce · Y2K · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-y2k.webp" alt="Homepage fittizia Caffè Luce nella variante y2k, elaborazione didattica" caption="Caffè Luce · Y2K · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-y2k-slide.webp" alt="Girls Who Code Girls · campagna 2022 — screenshot documentato dell’interfaccia" caption="Girls Who Code Girls, campagna avviata nel 2022. Screenshot dell’interfaccia dal materiale didattico: cromature e futurismo pop." />
 </div>
 
@@ -888,7 +888,7 @@ lessonMinutes: 1.5
 <p class="lead">Colori, pattern e immagini costruiscono una densità intenzionale; pause e gerarchie rendono riconoscibile il percorso.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-max.webp" alt="Homepage fittizia Caffè Luce nella variante max, elaborazione didattica generata con Imagegen" caption="Caffè Luce · massimalismo · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-max.webp" alt="Homepage fittizia Caffè Luce nella variante max, elaborazione didattica" caption="Caffè Luce · massimalismo · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-max-slide.webp" alt="TOILETPAPER · desktop — screenshot documentato dell’interfaccia" caption="TOILETPAPER, homepage desktop. Fotomontaggio, colori saturi e sovrapposizioni danno ritmo alla pagina. Screenshot: 6 ottobre 2026." />
 </div>
 
@@ -906,7 +906,7 @@ lessonMinutes: 1.5
 <p class="lead">Bordi spessi, ombre nette e campiture danno forza visiva; azioni, stati e testi devono restare chiari.</p>
 
 <div class="lesson-columns">
-  <LessonFigure src="/images/storia-design/atlante/demo-neo.webp" alt="Homepage fittizia Caffè Luce nella variante neo, elaborazione didattica generata con Imagegen" caption="Caffè Luce · neobrutalismo · variante didattica generata con Imagegen." />
+  <LessonFigure src="/images/storia-design/atlante/demo-neo.webp" alt="Homepage fittizia Caffè Luce nella variante neo, elaborazione didattica" caption="Caffè Luce · neobrutalismo · variante didattica." />
   <LessonFigure src="/images/storia-design/atlante/real-neo-slide.webp" alt="Gumroad · desktop — screenshot documentato dell’interfaccia" caption="Gumroad, homepage desktop. Contorni netti e illustrazioni a campiture piatte. Screenshot: 6 ottobre 2026." />
 </div>
 
@@ -958,7 +958,7 @@ lessonMinutes: 1.5
 
 <p class="lead">Stesso titolo, spazi diversi: cambiano peso e larghezza, restano i <strong>ruoli di testo e comandi</strong>.</p>
 <div class="lesson-columns">
-<LessonFigure src="/images/storia-design/direzioni-future/demo-adattabile.webp" alt="Concept Caffè Luce con tipografia e densità adattabili, ipotesi progettuale generata con Imagegen" caption="Ipotesi progettuale · Caffè Luce · Imagegen, 2026" />
+<LessonFigure src="/images/storia-design/direzioni-future/demo-adattabile.webp" alt="Concept Caffè Luce con tipografia e densità adattabili, ipotesi progettuale" caption="Ipotesi progettuale · Caffè Luce · 2026" />
 <LessonFigure src="/images/storia-design/google-variable-font.webp" alt="Figura Google che mostra variazioni entro una famiglia di caratteri variabili" caption="Roboto Flex · assi di un carattere variabile · Google Codelabs." />
 </div>
 
@@ -992,7 +992,7 @@ lessonMinutes: 1.5
 
 <p class="lead">Contenuto e strumenti su piani distinti: la profondità deve <strong>orientare il compito</strong>.</p>
 <div class="lesson-columns">
-<LessonFigure src="/images/storia-design/direzioni-future/demo-spaziale.webp" alt="Concept spaziale Caffè Luce con contenuti e strumenti organizzati in profondità, generato con Imagegen" caption="Ipotesi progettuale · Caffè Luce · Imagegen, 2026" />
+<LessonFigure src="/images/storia-design/direzioni-future/demo-spaziale.webp" alt="Concept spaziale Caffè Luce con contenuti e strumenti organizzati in profondità, ipotesi progettuale" caption="Ipotesi progettuale · Caffè Luce · 2026" />
 <LessonFigure src="/images/storia-design/apple-spatial-window.webp" alt="Finestra bidimensionale di Notes in un ambiente spaziale visionOS" caption="visionOS · finestra 2D · Apple HIG, Spatial layout." />
 <LessonFigure src="/images/storia-design/apple-spatial-volume.webp" alt="Volume tridimensionale visualizzato nell’ambiente visionOS" caption="visionOS · volume 3D · Apple HIG, Spatial layout." />
 </div>
@@ -1010,7 +1010,7 @@ lessonMinutes: 2
 
 <p class="lead">«Una pausa per due»: il sistema propone, la persona <strong>modifica e conferma</strong>.</p>
 <div class="lesson-columns">
-<LessonFigure src="/images/storia-design/direzioni-future/demo-generativa.webp" alt="Concept Caffè Luce con una proposta visiva generata in risposta a una richiesta, ipotesi prodotta con Imagegen" caption="Ipotesi progettuale · Caffè Luce · Imagegen, 2026" />
+<LessonFigure src="/images/storia-design/direzioni-future/demo-generativa.webp" alt="Concept Caffè Luce con una proposta visiva generata in risposta a una richiesta, ipotesi progettuale" caption="Ipotesi progettuale · Caffè Luce · 2026" />
 <LessonFigure src="/images/storia-design/google-generative-ui.webp" alt="Collage di tre interfacce sperimentali Google prodotte per compiti differenti" caption="Google Research · Generative UI · tre esperimenti · 2025." />
 </div>
 
@@ -1027,7 +1027,7 @@ lessonMinutes: 1.5
 
 <p class="lead">Menu e orari subito, immagini su richiesta: alleggerire il servizio richiede <strong>misure e verifiche</strong>.</p>
 <div class="lesson-columns">
-<LessonFigure src="/images/storia-design/direzioni-future/demo-risorse.webp" alt="Concept Caffè Luce con contenuti essenziali e immagini leggere, ipotesi progettuale generata con Imagegen" caption="Ipotesi progettuale · Caffè Luce · Imagegen, 2026" />
+<LessonFigure src="/images/storia-design/direzioni-future/demo-risorse.webp" alt="Concept Caffè Luce con contenuti essenziali e immagini leggere, ipotesi progettuale" caption="Ipotesi progettuale · Caffè Luce · 2026" />
 <LessonFigure src="/images/storia-design/lowtech-magazine-2026.webp" alt="Homepage Low-tech Magazine con immagini retinate e indicazione del server alimentato a energia solare" caption="Low-tech Magazine · sito solare · homepage del 5 ottobre 2026." />
 </div>
 

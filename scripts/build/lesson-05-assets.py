@@ -73,6 +73,8 @@ for row in range(4):
             [round(x*w),round(y*h),round((x+.21)*w),round((y+.205)*h)],
             [atlas,'assets/booklet/accessibilita-commenti-2026-10/manifest.json'])
 
+scenario_manifest=ROOT/'assets/theme-imagegen/lesson-05-scenarios/manifest.json'
+scenario_assets={a['id']:a for a in json.loads(scenario_manifest.read_text())['assets']} if scenario_manifest.exists() else {}
 for key,file,node,caption,credit in [
  ('screen-reader','assets/booklet/accessibilita-commenti-2026-10/screen-reader-mobile.jpg','3124:748','Screen reader su smartphone · esplorazione con gesti e sintesi vocale. ©2016 W3C®, CC BY 3.0 US.','©2016 W3C®, CC BY 3.0 US; fonte WebAIM Introduction.'),
  ('puntatore','assets/booklet/accessibilita-commenti-2026-10/puntatore-bocca.jpg','3124:750','Puntatore a bocca per azionare i tasti. ©2016 W3C®, CC BY 3.0 US.','©2016 W3C®, CC BY 3.0 US; fonte WebAIM Introduction.'),
@@ -83,7 +85,18 @@ for key,file,node,caption,credit in [
  ('tlou-contrasto','assets/booklet/accessibilita-estensione/tlou-high-contrast.png','2811:963','The Last of Us Part II · presentazione ad alto contrasto. Screenshot ufficiale PlayStation / Naughty Dog, acquisito l’11 ottobre 2026.','PlayStation / Naughty Dog; immagine documentaria, diritti dei rispettivi titolari.'),
  ('adobe-contrasto','assets/booklet/lezione-05-accessibilita/originals/adobe-contrasto.png','I198:3922;15:2761','Adobe Color · verifica del contrasto; immagine conservata dalla tavola 178 del booklet.','Screenshot Adobe Color nel booklet; diritti dei rispettivi titolari.'),
  ('adobe-visione','assets/booklet/lezione-05-accessibilita/originals/adobe-color-vision.png','I198:3923;15:2761','Adobe Color · simulazione della visione dei colori; immagine conservata dalla tavola 178 del booklet.','Screenshot Adobe Color nel booklet; diritti dei rispettivi titolari.')]:
-    import_image(key,file,node,caption,credit)
+    selected=scenario_assets.get('l05-'+key)
+    if selected:
+        assert selected['nodeId']==node
+        assert sha(ROOT/selected['original'])==selected['sha256']
+        assert sha(ROOT/selected['publicationSource'])==selected['publicationSourceSha256']
+        destination=ROOT/'public'/selected['web'].lstrip('/')
+        destination.write_bytes((ROOT/selected['publicationSource']).read_bytes())
+        with Image.open(ROOT/selected['original']) as original, Image.open(destination) as published:
+            assert original.convert('RGBA').tobytes()==published.convert('RGBA').tobytes()
+        registry['assets'].append(selected); records.append(selected)
+    else:
+        import_image(key,file,node,caption,credit)
 REGISTRY.write_text(json.dumps(registry,ensure_ascii=False,indent=2)+'\n')
 (BASE/'image-manifest.json').write_text(json.dumps(dict(date=SOURCE['date'],fileKey=SOURCE['fileKey'],sectionId=SOURCE['sectionId'],
     source='figma-source.json',rights='Credits and rights remain in each source manifest; imports preserve colours, proportions and original files.',assets=records),ensure_ascii=False,indent=2)+'\n')

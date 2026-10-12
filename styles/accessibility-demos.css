@@ -3,21 +3,25 @@
 .slidev-layout.default .a11y-demo { display: flex; flex-direction: column; gap: 16px; width: 100%; min-height: 0; }
 .slidev-layout.default.interactive-example-slide > .a11y-demo { flex: 1 1 0; height: 0; }
 .a11y-demo-toolbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.slidev-layout.default .a11y-demo-toolbar > p { margin: 0; font-size: 18px; }
+.slidev-layout.default .a11y-demo-toolbar > p { flex: 1; margin: 0; font-size: 18px; }
+.a11y-reset { flex: 0 0 auto; }
 .a11y-demo-comparison { display: grid; flex: 1 1 0; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: minmax(0, 1fr); gap: 32px; min-height: 0; }
 .a11y-scenario { display: flex; flex-direction: column; min-width: 0; min-height: 0; }
-.slidev-layout.default .a11y-scenario > h2 { margin: 0 0 12px; color: var(--section-primary); font: 600 24px/1.3 var(--cvedi-font-body); }
-.slidev-layout.default .a11y-scenario.is-bad > h2 { color: var(--cvedi-muted); }
+.a11y-scenario-heading { min-height: 70px; margin-bottom: 12px; }
+.slidev-layout.default .a11y-scenario-heading > h2 { margin: 0 0 4px; color: var(--section-primary); font: 600 24px/1.3 var(--cvedi-font-body); }
+.slidev-layout.default .a11y-scenario.is-bad .a11y-scenario-heading > h2 { color: var(--cvedi-muted); }
+.slidev-layout.default .a11y-demo .a11y-scenario-summary { color: var(--cvedi-body); font-size: 18px; }
 .a11y-ui { display: flex; flex: 1 1 0; flex-direction: column; gap: 12px; min-width: 0; min-height: 0; padding: 16px 20px; overflow: auto; scrollbar-width: thin; scrollbar-color: var(--section-primary) var(--cvedi-gray-50); background: var(--cvedi-paper); border: 1px solid var(--cvedi-rule); border-radius: 12px; }
 .slidev-layout.default .a11y-demo :is(p, label, input, select, textarea, li, span) { color: var(--cvedi-body); font: 400 18px/1.4 var(--cvedi-font-body); }
 .slidev-layout.default .a11y-demo p { margin: 0; }
 .slidev-layout.default .a11y-demo h3 { margin: 0 0 8px; color: var(--cvedi-ink); font: 600 20px/1.35 var(--cvedi-font-body); }
-.slidev-layout.default .a11y-demo .btn { min-height: 40px; height: auto; margin: 0; padding: 8px 14px; color: var(--section-primary-deep); background: var(--section-accent-soft); border-color: transparent; border-radius: 8px; font: 600 18px/1.3 var(--cvedi-font-body); text-transform: none; box-shadow: none; }
+.slidev-layout.default .a11y-demo .btn { min-height: 44px; height: auto; margin: 0; padding: 8px 14px; color: var(--section-primary-deep); background: var(--section-accent-soft); border: 1px solid transparent; border-radius: 8px; font: 600 18px/1.3 var(--cvedi-font-body); text-transform: none; box-shadow: none; }
 .slidev-layout.default .a11y-demo .btn-outline { background: var(--cvedi-paper); border-color: var(--section-primary); }
 .slidev-layout.default .a11y-demo .btn-ghost { background: transparent; }
 .slidev-layout.default .a11y-demo .btn:disabled { color: var(--cvedi-muted); background: var(--cvedi-gray-100); border-color: var(--cvedi-rule); opacity: .6; }
 .slidev-layout.default .a11y-demo .btn:not(:disabled):hover { background: var(--section-accent-soft); }
-.a11y-demo :is(button, input, select):focus-visible { outline: 3px solid var(--section-primary); outline-offset: 3px; }
+.slidev-layout.default .a11y-scenario.is-good .btn-outline[aria-pressed="true"] { color: var(--cvedi-paper); background: var(--section-primary); }
+.a11y-demo :is(button, input, select, summary):focus-visible { outline: 3px solid var(--section-primary); outline-offset: 3px; }
 .a11y-demo :is(input, select) { caret-color: var(--section-primary); }
 .a11y-demo ::selection { color: var(--section-primary-deep); background: var(--section-accent-soft); }
 .slidev-layout.default .a11y-demo :is(.input, .select) { width: 100%; min-width: 0; height: 36px; min-height: 36px; padding: 4px 10px; background: var(--cvedi-paper); border: 1px solid var(--section-primary); border-radius: 6px; box-shadow: none; }
@@ -29,8 +33,18 @@
 .a11y-check-row { display: flex; align-items: center; gap: 10px; }
 .a11y-check-row .checkbox { flex: 0 0 28px; width: 28px; height: 28px; border: 2px solid var(--section-primary); color: var(--section-primary); background-color: var(--cvedi-paper); border-radius: 4px; }
 .slidev-layout.default .a11y-demo .a11y-check-row .checkbox:checked { color: var(--cvedi-paper); background-color: var(--section-primary); }
-.slidev-layout.default .a11y-demo .a11y-small, .slidev-layout.default .a11y-demo-verification { color: var(--cvedi-muted); font-size: 18px; line-height: 1.35; }
-.slidev-layout.default .a11y-demo-verification { padding-top: 4px; }
+.slidev-layout.default .a11y-demo .a11y-small { color: var(--cvedi-muted); font-size: 18px; line-height: 1.35; }
+.a11y-demo-takeaway { display: grid; gap: 4px; }
+.slidev-layout.default .a11y-demo .a11y-demo-observe { font-size: 18px; line-height: 1.35; }
+.a11y-demo-verification.collapse { min-height: 0; border-radius: 0; overflow: visible; transition: none; }
+.a11y-demo-verification > .collapse-title { min-height: 0; padding: 2px 32px 2px 0; color: var(--section-primary); font: 600 18px/1.35 var(--cvedi-font-body); }
+.a11y-demo-verification > .collapse-title::after { top: 12px; right: 12px; }
+.a11y-demo-verification > summary { list-style: none; }
+.a11y-demo-verification > summary::-webkit-details-marker { display: none; }
+.a11y-demo-verification > .collapse-content { padding: 0; }
+.a11y-demo-verification:not([open]) > .collapse-content { display: none; }
+.a11y-demo-verification[open] > .collapse-content { padding-top: 8px; }
+.slidev-layout.default .a11y-demo-verification .collapse-content p { color: var(--cvedi-muted); font-size: 18px; line-height: 1.35; }
 .a11y-appointment { display: flex; flex-direction: column; gap: 12px; padding: 12px; border: 2px solid transparent; }
 .a11y-scenario.is-bad .low-contrast :is(h3, p) { color: #cbd5e1; }
 .a11y-color-signal { display: block; width: 28px; height: 28px; background: var(--cvedi-green-800); }
@@ -54,12 +68,19 @@
 .a11y-city-list .a11y-actions { margin: 0; }
 .a11y-drag-handle { cursor: grab; }
 .a11y-product-frame { width: 180px; max-width: 100%; aspect-ratio: 726 / 500; overflow: hidden; align-self: center; }
-.a11y-product-frame img { display: block; width: 100%; height: auto; border: 0; border-radius: 0; box-shadow: none; }
+/* Show only the product (top 500 px of the preserved 726 px-wide mockup),
+   keeping its embedded explanatory label outside the live comparison. */
+.a11y-product-frame img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; border: 0; border-radius: 0; box-shadow: none; }
 .a11y-alt-preview { display: grid; align-items: center; min-height: 100px; }
 .a11y-media-stage { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 8px 12px; background: var(--cvedi-gray-50); }
 .a11y-media-stage svg { flex: 0 1 220px; height: 58px; color: var(--section-primary); }
 .a11y-media-stage p { flex: 1; }
+.a11y-media-ui { gap: 8px; }
+.a11y-media-ui .a11y-actions { margin: 0; }
+.a11y-media-ui .a11y-media-stage svg { height: 42px; }
+.a11y-media-ui :is(.a11y-captions, .a11y-description) { padding: 6px 10px; }
 .a11y-captions { padding: 8px 12px; background: var(--section-primary-deep); color: var(--cvedi-paper) !important; }
+.a11y-description { padding: 8px 12px; background: var(--cvedi-gray-50); }
 .a11y-fake-link { color: var(--section-primary); text-decoration: underline; cursor: pointer; }
 .a11y-delivery { margin-top: 16px; }
 .a11y-feedback-form { position: relative; padding-bottom: 48px; }
@@ -70,12 +91,21 @@
 .slidev-layout.default .a11y-demo .a11y-reader p { color: inherit; font-size: var(--reading-size); }
 .a11y-reader.high-contrast { color: var(--cvedi-paper); background: var(--section-primary-deep); }
 .a11y-reader .btn { margin-top: 8px; }
-.a11y-audit-steps { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 0; margin: 0 0 12px; list-style: none; }
+.a11y-audit-steps { display: flex; flex-wrap: wrap; gap: 8px 24px; padding: 0; margin: 0 0 12px; list-style: none; }
+.a11y-audit-steps li { display: flex; flex-direction: column; }
+.a11y-booking-steps.steps { width: 100%; padding: 0; margin: 0; }
+.slidev-layout.default .a11y-demo .a11y-booking-steps .step { min-width: 0; font-size: 18px; --step-bg: var(--cvedi-gray-100); --step-fg: var(--cvedi-body); }
+.slidev-layout.default .a11y-demo .a11y-booking-steps .step-primary { --step-bg: var(--section-primary); --step-fg: var(--cvedi-paper); }
+.a11y-observation-start, .a11y-observation-review, .a11y-original-task { display: flex; flex-direction: column; align-items: start; gap: 12px; }
+.a11y-original-task { padding-bottom: 16px; border-bottom: 1px solid var(--cvedi-rule); }
+.a11y-original-task .a11y-mouse-select { width: 100%; }
 .a11y-observation { grid-template-columns: 150px minmax(0, 1fr); align-items: center; gap: 8px; }
 .a11y-observation > p, .a11y-observation > .btn { grid-column: 1 / -1; }
 .a11y-ui [role="alert"] { color: var(--cvedi-red-800); }
 @media print {
   .a11y-demo-toolbar { display: none; }
+  .a11y-demo-verification > .collapse-title { display: none; }
+  .a11y-demo-verification > .collapse-content { padding-top: 0; }
   /* Preserve the same geometric mark; the library's print glyph is clipped
      by the compact native input used by the teaching comparisons. */
   .a11y-demo .checkbox:checked::before {
