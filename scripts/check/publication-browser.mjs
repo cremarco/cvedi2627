@@ -9,6 +9,7 @@ const publicLessons = [
   { id: 'introduzione-teorica', number: 2, title: 'Introduzione a UX e UI' },
   { id: 'storia-design', number: 3, title: 'Storia del design' },
   { id: 'ricerca-inclusiva', number: 4, title: 'Ricerca, contesto e inclusione' },
+  { id: 'percezione-gerarchia', number: 5, title: 'Accessibilità e design inclusivo' },
 ]
 const supplementalMaterials = [
   { id: 'brief-progetto', title: 'Brief di progetto', label: 'Brief di progetto · WHAT IF? 2050' },
@@ -22,10 +23,10 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 535, buttons: 11 },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 328, buttons: 6 },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 588, buttons: 11 },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 433, buttons: 7 },
   ]) {
-    const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? curriculum.lessons.filter(lesson => lesson.number >= 5) : [])]
+    const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? curriculum.lessons.filter(lesson => lesson.number >= 6) : [])]
     const page = await browser.newPage({ reducedMotion: 'reduce' })
     page.on('pageerror', error => {
       // Headless Chromium denies Slidev's Wake Lock when leaving print media.
@@ -107,7 +108,7 @@ try {
       assert.ok(nav.slides.some(slide => slide.alias === 'storia-design'), 'lesson 03 retains its alias')
       for (const lesson of curriculum.lessons) {
         const owned = nav.slides.filter(slide => slide.lesson === lesson.id)
-        const available = profile.name === 'local' || lesson.number === 4
+        const available = profile.name === 'local' || lesson.number <= 5
         assert.equal(owned.length, available ? lesson.slideCount : 0, `${profile.name}: ${lesson.id} navigation and overview`)
         assert.equal(nav.slides.some(slide => slide.alias === lesson.id), available, `${profile.name}: ${lesson.id} alias`)
       }
@@ -127,6 +128,9 @@ try {
       }, destination.id)
       const cover = page.locator('.slidev-layout.is-active')
       await assert.doesNotReject(() => cover.locator('h1').filter({ hasText: destination.title }).waitFor({ state: 'visible' }))
+      await page.evaluate(() => Promise.all(document.getAnimations()
+        .filter(animation => Number.isFinite(animation.effect?.getComputedTiming().endTime))
+        .map(animation => animation.finished.catch(() => {}))))
       if (destination.number) assert.ok((await cover.innerText()).includes(String(destination.number).padStart(2, '0')), `${profile.name}: cover preserves lesson ${destination.number}`)
       if (destination.id === 'storia-design') {
         const progress = page.locator('.presentation-progress-rail progress')
@@ -136,22 +140,28 @@ try {
         assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('max'), '86', 'research progress counts the retained lesson')
         await page.screenshot({ path: `${output}/${profile.name}-lesson-04.png` })
       }
+      if (destination.id === 'percezione-gerarchia') {
+        assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('max'), '105', 'accessibility progress counts the complete lesson')
+        await page.screenshot({ path: `${output}/${profile.name}-lesson-05.png` })
+      }
     }
     if (profile.name === 'published') {
-      const research = await page.evaluate(() => {
-        const nav = document.querySelector('#app').__vue_app__._context.provides['$$slidev-context'].nav
-        return (nav.slides.value ?? nav.slides).filter(slide => slide.meta.slide.frontmatter.lesson === 'ricerca-inclusiva').map(slide => slide.no)
-      })
-      let images = 0
-      for (const number of research) {
-        const slide = await openSlide(page, profile.base, number, { settle: true })
-        const loaded = await slide.locator('img').evaluateAll(elements => elements.map(image => image.complete && image.naturalWidth > 0))
-        assert.ok(loaded.every(Boolean), `published lesson 04 slide ${number}: every image loads`)
-        images += loaded.length
+      for (const lesson of curriculum.lessons.filter(lesson => lesson.number <= 5)) {
+        const ownedPages = await page.evaluate(id => {
+          const nav = document.querySelector('#app').__vue_app__._context.provides['$$slidev-context'].nav
+          return (nav.slides.value ?? nav.slides).filter(slide => slide.meta.slide.frontmatter.lesson === id).map(slide => slide.no)
+        }, lesson.id)
+        let images = 0
+        for (const number of ownedPages) {
+          const slide = await openSlide(page, profile.base, number, { settle: true })
+          const loaded = await slide.locator('img').evaluateAll(elements => elements.map(image => image.complete && image.naturalWidth > 0))
+          assert.ok(loaded.every(Boolean), `published lesson ${lesson.number} slide ${number}: every image loads`)
+          images += loaded.length
+        }
+        assert.equal(ownedPages.length, lesson.slideCount, `published lesson ${lesson.number} is complete`)
+        assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('aria-valuenow'), String(lesson.slideCount), 'the final retained slide reaches the end of its lesson')
+        reports.push({ profile: profile.name, lesson: lesson.number, checkedSlides: ownedPages.length, loadedImages: images })
       }
-      assert.equal(research.length, 86, 'published lesson 04 contains exactly slides 1–86')
-      assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('aria-valuenow'), '86', 'the final retained slide reaches the end of its lesson')
-      reports.push({ profile: profile.name, lesson: 4, checkedSlides: research.length, loadedImages: images })
     }
     const closing = await openSlide(page, profile.base, profile.total, { settle: true })
     assert.equal(await closing.locator('h1').innerText(), 'Domande?', `${profile.name}: original closing remains reachable`)

@@ -5,8 +5,8 @@ import { normalizeTitle } from './normalize-title.mjs'
 
 const catalog = {
   ...artwork,
-  assets: { ...artwork.assets, ...(import.meta.env.DEV ? localArtwork.assets : {}) },
-  mappings: { ...artwork.mappings, ...(import.meta.env.DEV ? localArtwork.mappings : {}) },
+  assets: { ...artwork.assets, ...localArtwork.assets },
+  mappings: { ...artwork.mappings, ...localArtwork.mappings },
 } as {
   mappings: Record<string, Record<string, string | null>>
   assets: Record<string, string>
