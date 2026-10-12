@@ -56,5 +56,5 @@ export function useSlidePlayback() {
     releaseEnvironment()
   })
 
-  return { isActive, canAnimate, prefersReducedMotion }
+  return { isActive, canAnimate, prefersReducedMotion, isVisible, isPrinting }
 }

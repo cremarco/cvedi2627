@@ -1,0 +1,771 @@
+{
+  "date": "2026-10-12",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1110",
+  "comment": 203,
+  "generator": "OpenAI ImageGen built-in",
+  "items": [
+    {
+      "key": "contrasto-testo",
+      "title": "Leggere un appuntamento",
+      "pageId": "3122:539",
+      "boardName": "C03 · 081 · DX — Leggere un appuntamento",
+      "filename": "contrasto-testo-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3122:584",
+          "parent": "3122:582",
+          "name": "Schema simulato · text · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 224.5
+        },
+        {
+          "id": "3122:590",
+          "parent": "3122:588",
+          "name": "Schema simulato · text · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Appuntamento. Left: same appointment card, very pale gray text on pure white; a red outline around the unavailable time conveys the problem only through color, with no error explanation. Right: dark readable text, same red outline and the explicit error message «Orario non disponibile». UI text verbatim: «Il tuo appuntamento», «14 ottobre», «10:00» on both; «Orario non disponibile» only on right. Do not add checkmarks or red/green correctness coding.\nLearning intent (reference only; do not print as image text): left — Un messaggio poco contrastato diventa difficile da leggere; il solo rosso non spiega quale dato richiede attenzione. Right — Il testo ha contrasto verificato e l’errore è indicato anche con parole: «Orario non disponibile».",
+      "revisions": []
+    },
+    {
+      "key": "contrasto-controlli",
+      "title": "Riconoscere una casella",
+      "pageId": "3122:598",
+      "boardName": "C03 · 084 · SX — Riconoscere una casella",
+      "filename": "contrasto-controlli-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3122:661",
+          "parent": "3122:659",
+          "name": "Schema simulato · checkbox · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 60,
+          "y": 224.5
+        },
+        {
+          "id": "3122:668",
+          "parent": "3122:666",
+          "name": "Schema simulato · checkbox · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 251.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Newsletter checkbox. Left: a faint pale-gray empty checkbox next to dark readable «Ricevi aggiornamenti»; the control boundary is hard to identify. Right: same label, a clearly defined red square checkbox with a dark checkmark and «Selezionata» as visible state. Do not claim measured contrast ratios.\nLearning intent (reference only; do not print as image text): left — Il bordo troppo tenue è l’unico segnale della casella: l’utente può non individuare dove agire. Right — Un bordo distinguibile identifica la casella; la spunta comunica la selezione insieme allo stato esposto al software.",
+      "revisions": []
+    },
+    {
+      "key": "adattamento",
+      "title": "Ingrandire una prenotazione",
+      "pageId": "3122:679",
+      "boardName": "C03 · 086 · SX — Ingrandire una prenotazione",
+      "filename": "adattamento-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3122:742",
+          "parent": "3122:740",
+          "name": "Schema simulato · reflow · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 60,
+          "y": 224.5
+        },
+        {
+          "id": "3122:752",
+          "parent": "3122:750",
+          "name": "Schema simulato · reflow · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 251.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Appointment reflow. Left: a narrow white viewport, one rigid horizontal row «Riepilogo · 14 ottobre · 10:00» and a «Conferma» button that are visibly cut off at the viewport's right edge. Right: same narrow viewport, stacked «Riepilogo», «14 ottobre», «10:00» and a completely visible «Conferma» button. Show only left clipping as deliberate error. No numeric pixel dimensions.\nLearning intent (reference only; do not print as image text): left — Una riga rigida nasconde l’ora e il comando quando la vista si restringe o il testo cresce. Right — Il riepilogo si ridistribuisce e il comando resta raggiungibile. Le informazioni conservano ordine e significato.",
+      "revisions": []
+    },
+    {
+      "key": "tastiera",
+      "title": "Inviare un modulo senza mouse",
+      "pageId": "3122:764",
+      "boardName": "C03 · 091 · DX — Inviare un modulo senza mouse",
+      "filename": "tastiera-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3122:809",
+          "parent": "3122:807",
+          "name": "Schema simulato · keyboard · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 224.5
+        },
+        {
+          "id": "3122:818",
+          "parent": "3122:816",
+          "name": "Schema simulato · keyboard · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Keyboard navigation of course form. Left: fields «Email», «Corso», and «Invia»; course selector is closed and mouse-only, small mouse icon at that selector, no keyboard route onward. Right: same fields with visible dark/red focus outline on expanded «Corso» selector; options «Design», «Comunicazione»; small keyboard Tab symbol and step numbers 1, 2, 3 aligned to fields convey continuous order. No pointer obscuring text. Selected option «Design» and «Invia» remain visible.\nLearning intent (reference only; do not print as image text): left — Il menu del corso risponde soltanto al mouse; l’utente raggiunge il campo ma non può completare la scelta. Right — Tasti previsti dal componente, focus visibile e ordine coerente consentono scelta, invio e ritorno alla pagina.",
+      "revisions": []
+    },
+    {
+      "key": "puntamento",
+      "title": "Riordinare senza trascinare",
+      "pageId": "3122:829",
+      "boardName": "C03 · 093 · DX — Riordinare senza trascinare",
+      "filename": "puntamento-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3122:874",
+          "parent": "3122:872",
+          "name": "Schema simulato · list · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 217
+        },
+        {
+          "id": "3122:885",
+          "parent": "3122:883",
+          "name": "Schema simulato · list · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 217
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Reordering a list. Left: three rows «Roma», «Milano», «Torino», each with a drag handle only. Right: same list, with clear separate up-arrow and down-arrow buttons beside the «Milano» row, labeled compactly «Su» and «Giù». Make equivalent order adjustment clearly possible without dragging. No crossed-out controls or invented outcome.\nLearning intent (reference only; do not print as image text): left — La lista offre soltanto un’impugnatura da trascinare; precisione e movimento continuo diventano requisiti impliciti. Right — «Sposta su» e «Sposta giù» permettono lo stesso riordino con un puntatore singolo senza trascinamento.",
+      "revisions": []
+    },
+    {
+      "key": "immagini",
+      "title": "Descrivere ciò che serve",
+      "pageId": "3123:6602",
+      "boardName": "C03 · 095 · DX — Descrivere ciò che serve",
+      "filename": "immagini-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:6647",
+          "parent": "3123:6645",
+          "name": "Schema simulato · image · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 224.5
+        },
+        {
+          "id": "3123:6657",
+          "parent": "3123:6655",
+          "name": "Schema simulato · image · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 155
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 155
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Alternative text for a product image. Show the same simple original red backpack, with two front pockets, in each panel, facing forward. Beneath left: an interface text alternative preview «foto_018.jpg». Beneath right: «Zaino rosso, due tasche frontali». The backpack remains exactly the same in both panels; the improvement is the meaningful text alternative. Flat original illustration rather than photograph. Text needs ample width to wrap correctly.\nLearning intent (reference only; do not print as image text): left — Il nome del file non descrive il prodotto; chi non vede l’immagine perde l’informazione necessaria a confrontarlo. Right — L’alternativa restituisce il dettaglio pertinente. Un’icona funzionale comunica l’azione; una decorazione può avere alternativa vuota.",
+      "revisions": [
+        {
+          "prompt": "Edit this original educational interface comparison. Change only both red backpacks from photorealistic product photographs into the SAME crisp flat original illustration: solid chapter red #C10007, black #030712 contours, two distinct front pockets, no photographic texture, realistic lighting, gloss or shadow. Remove the large outer decorative frames around the two panels; retain the interface alternative-text areas. Preserve the exact Italian text foto_018.jpg on the left and Zaino rosso, due tasche frontali on the right, every other word and the two-column alignment. Keep all content within x1%–46.5% for left and x53.5%–99% for right, and y20%–80% of1536×1024 canvas, with pure white margins and gutter. No green/blue/yellow. Change nothing else.",
+          "inputFile": "",
+          "outputFile": "immagini-comparison-v3.png",
+          "sha256": "e667740e75279cfcbe8e581b9d468264fb222da6ea5e811e7afbaf9d5dd07860"
+        }
+      ]
+    },
+    {
+      "key": "media",
+      "title": "Seguire un video su più canali",
+      "pageId": "3123:6669",
+      "boardName": "C03 · 097 · DX — Seguire un video su più canali",
+      "filename": "media-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:6714",
+          "parent": "3123:6712",
+          "name": "Schema simulato · video · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 209.5
+        },
+        {
+          "id": "3123:6722",
+          "parent": "3123:6720",
+          "name": "Schema simulato · video · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 209.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Accessible video. Both panels show the same minimal lecture video frame: a teacher points right along a simple path arrow. Left player shows «Audio soltanto», a small speaker icon, no subtitles. Right player displays a legible dark subtitle strip: «Docente: il percorso è a destra» and below «[suono di notifica]»; visible small CC and audio-description controls marked «CC» and «AD». No claim that CC alone covers all visual information. Player controls are identical except alternatives.\nLearning intent (reference only; do not print as image text): left — Il parlato è disponibile soltanto nell’audio; una freccia mostrata dal docente non viene spiegata a voce. Right — Sottotitoli corretti rendono disponibile l’audio. Le informazioni visive essenziali sono descritte anche nella traccia audio o con audiodescrizione.",
+      "revisions": [
+        {
+          "prompt": "Edit this original educational two-panel video comparison. Add only the exact label Audio soltanto to the left player and remove invented time counters0:12 and1:00 from both players, leaving neutral minimal player-control marks. Preserve the same lecturer/path, the right Italian subtitles Docente: il percorso è a destra and [suono di notifica], CC and AD controls, original two-column layout, font sizes and all other details. Use only chapter red #C10007, black, neutral gray and white; no new text, no green/blue/yellow. Keep every essential element inside the central y20%–80% band of1536×1024 and within its existing half. No other changes.",
+          "inputFile": "media-comparison-v2.png",
+          "outputFile": "media-comparison-v3.png",
+          "sha256": "41839d672b43c62c3be094feb72d365df42f2df4fc5d8e86fe0d372856fec1f8"
+        },
+        {
+          "prompt": "Edit only the colors of the lecturer in this original educational two-panel video UI comparison. Replace every peach, tan, orange or pink skin tone with pure white #FFFFFF, preserving black facial contours and the exact same lecturer pose and gesture in both panels. Replace any other non-red chromatic tint with neutral grayscale. The only colors must be chapter red #C10007, black #030712, neutral grays and pure white. Preserve every exact Italian word, Audio soltanto, Docente: il percorso è a destra, [suono di notifica], CC, AD, the absence of timers, all controls, positions, two columns, 1536×1024 canvas, white margins. No other changes.",
+          "inputFile": "media-comparison-v3.png",
+          "outputFile": "media-comparison-v4.png",
+          "sha256": "ad937876a1fe52f6a165a321293946eb2433275c5d0713976b0926c222abca6c"
+        }
+      ]
+    },
+    {
+      "key": "semantica",
+      "title": "Aprire i dettagli di consegna",
+      "pageId": "3123:6734",
+      "boardName": "C03 · 099 · DX — Aprire i dettagli di consegna",
+      "filename": "semantica-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:6779",
+          "parent": "3123:6777",
+          "name": "Schema simulato · disclosure · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 224.5
+        },
+        {
+          "id": "3123:6786",
+          "parent": "3123:6784",
+          "name": "Schema simulato · disclosure · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Disclosure semantics. Left: a plain clickable-looking red text «Dettagli consegna» with a small accessibility-inspection card below reading «Ruolo non indicato» and «Stato non indicato». Right: an actual bordered disclosure button «Dettagli consegna» with downward chevron; expanded detail «Consegna: 16 ottobre» and an accessibility-inspection card with short lines «Nome: Dettagli consegna», «Ruolo: pulsante», «Stato: espanso». Make it clear that the small inspection card is explanatory, not a user-facing UI message.\nLearning intent (reference only; do not print as image text): left — Il testo sembra cliccabile, ma il software non riconosce il pulsante o non riceve il suo stato. Right — Nome «Dettagli consegna», ruolo pulsante e stato espanso/compresso consentono di capire l’azione e il cambiamento.",
+      "revisions": []
+    },
+    {
+      "key": "feedback",
+      "title": "Capire che il salvataggio è riuscito",
+      "pageId": "3123:6795",
+      "boardName": "C03 · 101 · DX — Capire che il salvataggio è riuscito",
+      "filename": "feedback-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:6840",
+          "parent": "3123:6838",
+          "name": "Schema simulato · status · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 217
+        },
+        {
+          "id": "3123:6847",
+          "parent": "3123:6845",
+          "name": "Schema simulato · status · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 217
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Save status. Both panels show a small white editing form with a «Salva» button and the focus outline remaining on this button. Left: a faint small «Salvataggio completato» message appears far above the button and is not announced; a small neutral accessibility note reads «Nessun annuncio». Right: a clearly readable message «Salvataggio completato» plus a small speech/status icon indicating an announced status while the button focus is unchanged. No numeric counter or repositioned focus.\nLearning intent (reference only; do not print as image text): left — Un messaggio appare lontano dal pulsante; chi usa uno screen reader può continuare senza sapere che cosa è successo. Right — Il messaggio di stato è identificabile programmaticamente. L’esito viene presentato senza spostare il focus dal compito.",
+      "revisions": [
+        {
+          "prompt": "Edit this original educational save-status comparison. Recolor every blue focus outline and every green announcement icon to chapter red #C10007. Remove unrequested words Titolo and Descrizione, replacing only those two strings with neutral gray skeleton lines. Preserve Salva, Salvataggio completato, Nessun annuncio, all other essential Italian words, both panels, the focused Salva control and the announcement distinction. Pure white background; only red/black/gray/white, no green/blue/yellow. Keep all essential content within central y20%–80% band of1536×1024. No other changes.",
+          "inputFile": "feedback-comparison-v2.png",
+          "outputFile": "feedback-comparison-v3.png",
+          "sha256": "8f8b6b4ebe82cd841d807f8f227d9eb929eab23ec6ef7602bbd2b76af14b5b48"
+        }
+      ]
+    },
+    {
+      "key": "cognitiva",
+      "title": "Prenotare con il contesto visibile",
+      "pageId": "3123:6857",
+      "boardName": "C03 · 104 · SX — Prenotare con il contesto visibile",
+      "filename": "cognitiva-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:6920",
+          "parent": "3123:6918",
+          "name": "Schema simulato · summary · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 60,
+          "y": 224.5
+        },
+        {
+          "id": "3123:6925",
+          "parent": "3123:6923",
+          "name": "Schema simulato · summary · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 251.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Cognitive context at confirmation. Left: a sparse confirmation screen «Confermi?» and one «Conferma» button, with no date or time shown. Right: a clear summary «Data: 14 ottobre», «Ora: 10:00» followed by separate buttons «Modifica» and «Conferma». Both are the same appointment task. The improvement is information remaining visible and editable, not more decoration.\nLearning intent (reference only; do not print as image text): left — La conferma richiede di ricordare data e ora inserite nella schermata precedente; correggerle significa ricominciare. Right — Il riepilogo conserva i dati e distingue «Modifica» da «Conferma». Parole comuni e passi visibili sostengono il compito.",
+      "revisions": []
+    },
+    {
+      "key": "movimento",
+      "title": "Fermare e riprendere la lettura",
+      "pageId": "3123:6936",
+      "boardName": "C03 · 107 · DX — Fermare e riprendere la lettura",
+      "filename": "movimento-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:6981",
+          "parent": "3123:6979",
+          "name": "Schema simulato · motion · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 209.5
+        },
+        {
+          "id": "3123:6992",
+          "parent": "3123:6990",
+          "name": "Schema simulato · motion · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 209.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Controlling news updates. Left: three brief article rows with small repeated motion arrows and the label «Aggiornamento automatico», no pause control. Right: the same news rows still and readable, with a visible «Pausa aggiornamenti» control and a separate «Riprendi» action. UI article lines verbatim: «Aula aperta», «Nuovi orari», «Avviso del corso». Do not animate; show direction arrows only on the left, no decorative speed effects.\nLearning intent (reference only; do not print as image text): left — Le notizie scorrono e si aggiornano mentre l’utente legge; una distrazione può fargli perdere il punto. Right — Il controllo previsto ferma gli aggiornamenti e rende possibile riprendere. Le impostazioni di movimento ridotto agiscono sugli effetti pertinenti.",
+      "revisions": []
+    },
+    {
+      "key": "moduli",
+      "title": "Correggere una data",
+      "pageId": "3123:7005",
+      "boardName": "C03 · 109 · DX — Correggere una data",
+      "filename": "moduli-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:7050",
+          "parent": "3123:7048",
+          "name": "Schema simulato · form · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 224.5
+        },
+        {
+          "id": "3123:7058",
+          "parent": "3123:7056",
+          "name": "Schema simulato · form · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Form error repair. Left: label «Data», value «14/10/26», red input border and generic message «Errore». Right: label «Data dell’appuntamento», same invalid value «14/10/26», red input border and the helpful associated message «Usa l’anno di quattro cifre» with format hint «GG/MM/AAAA». Keep the same invalid value on both panels: this comparison concerns the explanation needed to correct it, not an already fixed value.\nLearning intent (reference only; do not print as image text): left — Un campo diventa rosso con un generico «Errore»; l’utente deve indovinare che cosa modificare. Right — L’etichetta resta visibile e il messaggio associato al campo spiega il formato GG/MM/AAAA e la correzione necessaria.",
+      "revisions": []
+    },
+    {
+      "key": "autenticazione",
+      "title": "Accedere con gli strumenti abituali",
+      "pageId": "3123:7068",
+      "boardName": "C03 · 111 · DX — Accedere con gli strumenti abituali",
+      "filename": "autenticazione-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:7113",
+          "parent": "3123:7111",
+          "name": "Schema simulato · password · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 217
+        },
+        {
+          "id": "3123:7120",
+          "parent": "3123:7118",
+          "name": "Schema simulato · password · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 217
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Password assistance. Left: password field «Password» with masked bullet characters; a small contextual paste menu «Incolla» is disabled and a note reads «Incolla disabilitato». Right: same masked field; contextual «Incolla» is active and a clearly recognizable password-manager key icon appears beside the field; note «Incolla consentito». No real password, no security claim, no account brand.\nLearning intent (reference only; do not print as image text): left — Il servizio blocca l’incolla e obbliga a ricordare o trascrivere la password, anche quando un gestore può fornirla. Right — L’incolla e la compatibilità con il gestore riducono memoria e trascrizione. L’assistenza continua anche nel recupero e nei passaggi successivi.",
+      "revisions": [
+        {
+          "prompt": "Edit this original simulated password-interface comparison. Change ONLY the green color on the right-hand circular check indicator and the words «Incolla consentito» to the same chapter red #C10007 used on the left; keep the white checkmark. Preserve all shapes, every Italian word, spacing, masked passwords, disabled/active paste controls, password-manager key icon, pure white background, canvas size 1536×1024 and two equal columns. No other changes. No green, blue or yellow anywhere.",
+          "inputFile": "autenticazione-comparison-v2.png",
+          "outputFile": "autenticazione-comparison-v3.png",
+          "sha256": "923506cd845b83f252c2869f5ecd20f94dc73b5b61de5f9358b03f92fdf3cc8f"
+        }
+      ]
+    },
+    {
+      "key": "personalizzazione",
+      "title": "Adattare la lettura",
+      "pageId": "3123:7129",
+      "boardName": "C03 · 113 · DX — Adattare la lettura",
+      "filename": "personalizzazione-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:7174",
+          "parent": "3123:7172",
+          "name": "Schema simulato · reader · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 224.5
+        },
+        {
+          "id": "3123:7180",
+          "parent": "3123:7178",
+          "name": "Schema simulato · reader · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 224.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Reading preferences. Left: a small static article with «Una sola vista», small dark text and no preferences. Right: the same article with clear controls «Testo», «− Aa +», checkbox «Movimento ridotto», and action «Ripristina»; show readable larger text without removing article content. Article content verbatim: «Orari della biblioteca» and «Apertura dalle 9 alle 18». No simulated live animation.\nLearning intent (reference only; do not print as image text): left — Testo, movimento e densità hanno una sola configurazione; adattare il compito richiede aggirare l’interfaccia. Right — Opzioni reperibili spiegano l’effetto e consentono di ripristinare la scelta. I contenuti essenziali restano disponibili.",
+      "revisions": [],
+      "integrationCropRightOverride": [
+        [
+          0.5,
+          0,
+          0.47999998927116394
+        ],
+        [
+          0,
+          0.6559766530990601,
+          0.17201165854930878
+        ]
+      ]
+    },
+    {
+      "key": "lingua",
+      "title": "Riconoscere nomi e lingue",
+      "pageId": "3123:7188",
+      "boardName": "C03 · 115 · DX — Riconoscere nomi e lingue",
+      "filename": "lingua-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:7233",
+          "parent": "3123:7231",
+          "name": "Schema simulato · form · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 209.5
+        },
+        {
+          "id": "3123:7240",
+          "parent": "3123:7238",
+          "name": "Schema simulato · form · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 209.5
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Names and language. Left: a field labeled «Cognome», attempted value «O’Neill», red error «Solo lettere A–Z». Right: field «Nome completo» accepts the complete example «Ana María O’Neill», with neutral state and a small «Italiano» language selector. Preserve exactly accents and apostrophe; no flags, portraits, ethnicity cues or stereotyping. The service on this page accepts the complete name.\nLearning intent (reference only; do not print as image text): left — Un campo impone una sola convenzione su parti del nome e caratteri, escludendo combinazioni valide in altri contesti. Right — I requisiti sono spiegati e motivati dal servizio; il modulo gestisce i nomi effettivi. La lingua dei contenuti è dichiarata correttamente.",
+      "revisions": []
+    },
+    {
+      "key": "verifica-wcag",
+      "title": "Verificare un percorso completo",
+      "pageId": "3123:7249",
+      "boardName": "C03 · 118 · SX — Verificare un percorso completo",
+      "filename": "verifica-wcag-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:7312",
+          "parent": "3123:7310",
+          "name": "Schema simulato · flow · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 60,
+          "y": 217
+        },
+        {
+          "id": "3123:7322",
+          "parent": "3123:7320",
+          "name": "Schema simulato · flow · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 251.5,
+          "y": 217
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 190
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 190
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Checking an entire process. Left: three clear page/step thumbnails arranged vertically with «Accesso ✓», «Modulo ?», «Conferma ?»; the bottom two are not checked. Right: identical steps «Accesso ✓», «Modulo ✓», «Conferma ✓», connected as one continuous process. Use black checkmarks and red neutral connecting lines; no percentage scores, certifications or complete-accessibility claims.\nLearning intent (reference only; do not print as image text): left — L’audit si ferma alla pagina di accesso; gli errori e la conferma della prenotazione rimangono fuori dall’ambito. Right — La verifica considera tutte le pagine e i passaggi del processo. Versione, livello, metodi, data e limiti sono dichiarati.\nStrict palette: no green, no blue, no yellow. Checkmarks, if present, must be dark black. Use chapter red only as the accent color.",
+      "revisions": []
+    },
+    {
+      "key": "valutazione",
+      "title": "Dall’ostacolo alla nuova prova",
+      "pageId": "3123:7334",
+      "boardName": "C03 · 121 · DX — Dall’ostacolo alla nuova prova",
+      "filename": "valutazione-comparison-v2.png",
+      "targets": [
+        {
+          "id": "3123:7379",
+          "parent": "3123:7377",
+          "name": "Schema simulato · audit · barriera",
+          "w": 171.5,
+          "h": 150,
+          "x": 74,
+          "y": 217
+        },
+        {
+          "id": "3123:7386",
+          "parent": "3123:7384",
+          "name": "Schema simulato · audit · scelta",
+          "w": 171.5,
+          "h": 150,
+          "x": 265.5,
+          "y": 217
+        }
+      ],
+      "renderedPairBounds": {
+        "width": 363,
+        "height": 150
+      },
+      "renderedPanelBounds": {
+        "width": 171.5,
+        "height": 150
+      },
+      "generationCanvas": {
+        "width": 1536,
+        "height": 1024
+      },
+      "integration": "Una sola immagine originale per confronto, riutilizzata nei due slot con crop nativo Figma. Gli schemi esistenti rimangono nascosti nei livelli delle stesse tavole; testo, etichette e fonti restano nativi.",
+      "prompt": "Use case: ui-mockup / scientific-educational. Asset type: original simulated interface comparison for an Italian educational booklet about accessibility.\nCreate one raster image in landscape 1536×1024. Exactly two equal columns: left is the barrier and right is the design choice, matching the request below. Keep every element inside the central vertical band from 20% to 80% of canvas height. The top 20% and bottom 20% are empty pure white margins for cropping. Leave a clean white center gutter 5.5% of total width. Left content stays in x=1%..46.5%; right content in x=53.5%..99%. Both panels align vertically.\nStyle: precise flat print UI mockups, clear simple contemporary sans-serif lettering, dark black ink #030712, chapter red #C10007, restrained gray #6B7280 and pale gray, pure white #FFFFFF background. Large essential UI words and controls, no fine-print text. Borders belong only to depicted UI controls. No external frame around the illustration, no device hardware, no photograph, no marketing decoration, no gradients, no shadows, no paper texture, no brand logos or watermarks.\nNo outer headings «Barriera», «Scelta di progetto», «Prima», «Dopo», no explanatory prose outside the depicted controls: those labels and paragraphs remain native in Figma. Render only the exact short Italian UI strings specified below; do not invent additional text, footnotes, compliance labels or WCAG numeric measurements.\n\nComparison: Recording an observed obstacle. Left: one vague note card «Il sito non funziona». Right: a structured observation sheet with «Compito: prenotare», «Ostacolo: menu inaccessibile», «Modifica: uso da tastiera», «Nuova prova: stesso percorso». Both are illustrative note interfaces. No participant names, statistics, real test data or claim that an actual test happened.\nLearning intent (reference only; do not print as image text): left — Una nota generica non permette di ricostruire dove il compito si interrompe o quale modifica serva. Right — Il registro distingue osservazioni e ipotesi e indica la conseguenza. Dopo la correzione, lo stesso percorso viene verificato di nuovo.\nStrict palette: no green, no blue, no yellow. Checkmarks, if present, must be dark black. Use chapter red only as the accent color.",
+      "revisions": []
+    }
+  ],
+  "initialGenerationCalls": 17,
+  "targetedEditCalls": 5
+}

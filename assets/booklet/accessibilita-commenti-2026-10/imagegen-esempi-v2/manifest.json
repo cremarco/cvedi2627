@@ -1,0 +1,2131 @@
+{
+  "schema": "cvedi-accessibility-imagegen-examples/2",
+  "date": "2026-10-12",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1110",
+  "comment": 203,
+  "status": "verified_all17_comparisons",
+  "generator": "OpenAI ImageGen built-in",
+  "initialGenerationCalls": 17,
+  "targetedEditCalls": 5,
+  "selectedAssetCount": 17,
+  "originalPNGCount": 22,
+  "preservedPreviousVariantCount": 5,
+  "promptFile": "prompts.json",
+  "rightsFile": "RIGHTS.txt",
+  "palette": [
+    "#C10007",
+    "#030712",
+    "grigi neutri",
+    "#FFFFFF"
+  ],
+  "assetType": "Mockup UI didattici originali; confronti simulati, non catture di prodotti documentati.",
+  "body": {
+    "family": "Merriweather",
+    "fontSize": 10,
+    "lineHeight": 15,
+    "contentChanged": false
+  },
+  "sourceNotesChanged": false,
+  "preservation": {
+    "nativeOriginalFigureNodes": 34,
+    "originalsRemainInSameBoards": true,
+    "allOriginalsHidden": true,
+    "allPNGVariantsPreserved": true,
+    "documentaryImagesUnchanged": true,
+    "existingThreeImageGenScenariosUnchanged": true,
+    "additionalNativeOriginalWidgetsPreservedHidden": 2
+  },
+  "activeNewImagePlacements": 34,
+  "totalActiveImagePlacements": 57,
+  "uniqueNewImageHashes": 17,
+  "assets": [
+    {
+      "key": "contrasto-testo",
+      "title": "Leggere un appuntamento",
+      "pageId": "3122:539",
+      "filename": "contrasto-testo-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "ee1397544b793e943410a3f7f14efb3345a3c1d707c4e3a762f016e996b02770",
+      "bytes": 989413,
+      "qa": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Testi esatti; barriera poco contrastata a sinistra; messaggio Orario non disponibile solo a destra."
+        ]
+      },
+      "sourceRecord": "results-typography.json",
+      "figma": {
+        "key": "contrasto-testo",
+        "board": "3122:539",
+        "imageHash": "87838573fc1428c0d514d79167164d362cfa1ce8",
+        "activeNodes": [
+          "3175:1157",
+          "3175:1158"
+        ],
+        "originalNodes": [
+          "3122:584",
+          "3122:590"
+        ],
+        "originalsHidden": true,
+        "captionId": "3122:597",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Testi esatti; barriera poco contrastata a sinistra; messaggio Orario non disponibile solo a destra."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "contrasto-testo",
+      "provenanceReport": "results-typography.json"
+    },
+    {
+      "key": "contrasto-controlli",
+      "title": "Riconoscere una casella",
+      "pageId": "3122:598",
+      "filename": "contrasto-controlli-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "2d1a93831e3d1db422bc43325f899c9e3b63af2a76ebd38caaf7e81c4fba3723",
+      "bytes": 841970,
+      "qa": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Casella sinistra tenue, destra con spunta e stato Selezionata."
+        ]
+      },
+      "sourceRecord": "results-typography.json",
+      "figma": {
+        "key": "contrasto-controlli",
+        "board": "3122:598",
+        "imageHash": "e20f90ebad266e8a14e4878d26bc215e695df504",
+        "activeNodes": [
+          "3175:1159",
+          "3175:1160"
+        ],
+        "originalNodes": [
+          "3122:661",
+          "3122:668"
+        ],
+        "originalsHidden": true,
+        "captionId": "3122:678",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Casella sinistra tenue, destra con spunta e stato Selezionata."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "contrasto-controlli",
+      "provenanceReport": "results-typography.json"
+    },
+    {
+      "key": "adattamento",
+      "title": "Ingrandire una prenotazione",
+      "pageId": "3122:679",
+      "filename": "adattamento-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "bafc095fb0ecd317ab966c350d6240d1229c062473348f2232e8140753adfda2",
+      "bytes": 1040999,
+      "qa": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "left deliberate; right none",
+        "notes": [
+          "Solo il pannello sinistro taglia intenzionalmente orario e comando; destra completa."
+        ]
+      },
+      "sourceRecord": "results-typography.json",
+      "figma": {
+        "key": "adattamento",
+        "board": "3122:679",
+        "imageHash": "a5283980ca379cf7cc4ee8c53da64c0658b57fcf",
+        "activeNodes": [
+          "3175:1161",
+          "3175:1162"
+        ],
+        "originalNodes": [
+          "3122:742",
+          "3122:752"
+        ],
+        "originalsHidden": true,
+        "captionId": "3122:763",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "left deliberate; right none",
+        "notes": [
+          "Solo il pannello sinistro taglia intenzionalmente orario e comando; destra completa."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "adattamento",
+      "provenanceReport": "results-typography.json"
+    },
+    {
+      "key": "tastiera",
+      "title": "Inviare un modulo senza mouse",
+      "pageId": "3122:764",
+      "filename": "tastiera-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "7657353d1275a0bfe4c291198edf20d1b83e4e36da20eabe2938ef99f06f194e",
+      "bytes": 1059355,
+      "qa": {
+        "status": "passed-with-crop-note",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Focus sul Corso aperto, Design e Comunicazione corretti; percorso Tab1–3 continuo.",
+          "La fascia grigia del separatore centrale si estende oltre la banda20–80%; il crop dei due pannelli previsto la esclude."
+        ]
+      },
+      "sourceRecord": "results-typography.json",
+      "figma": {
+        "key": "tastiera",
+        "board": "3122:764",
+        "imageHash": "a9e04296881604871964b203de7eaf4b6e196cea",
+        "activeNodes": [
+          "3175:1163",
+          "3175:1164"
+        ],
+        "originalNodes": [
+          "3122:809",
+          "3122:818"
+        ],
+        "originalsHidden": true,
+        "captionId": "3122:828",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "passed-with-crop-note",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Focus sul Corso aperto, Design e Comunicazione corretti; percorso Tab1–3 continuo.",
+          "La fascia grigia del separatore centrale si estende oltre la banda20–80%; il crop dei due pannelli previsto la esclude."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "tastiera",
+      "provenanceReport": "results-typography.json"
+    },
+    {
+      "key": "puntamento",
+      "title": "Riordinare senza trascinare",
+      "pageId": "3122:829",
+      "filename": "puntamento-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "b2100b69d8f32c6054c640c03f6f96a440d0e716bf7313db9bc927622d8978a0",
+      "bytes": 977858,
+      "qa": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Stesso ordine Roma, Milano, Torino in entrambi; Su e Giù a destra su Milano."
+        ]
+      },
+      "sourceRecord": "results-typography.json",
+      "figma": {
+        "key": "puntamento",
+        "board": "3122:829",
+        "imageHash": "e5346eee46dcc665cfbaee54dba0d50610914564",
+        "activeNodes": [
+          "3175:1165",
+          "3175:1166"
+        ],
+        "originalNodes": [
+          "3122:874",
+          "3122:885"
+        ],
+        "originalsHidden": true,
+        "captionId": "3122:897",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 156,
+          "h": 382,
+          "bottom": 538
+        }
+      },
+      "generatedQA": {
+        "status": "passed",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "clipping": "none",
+        "notes": [
+          "Stesso ordine Roma, Milano, Torino in entrambi; Su e Giù a destra su Milano."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "puntamento",
+      "provenanceReport": "results-typography.json"
+    },
+    {
+      "key": "immagini",
+      "title": "Descrivere ciò che serve",
+      "pageId": "3123:6602",
+      "filename": "immagini-comparison-v3.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "e667740e75279cfcbe8e581b9d468264fb222da6ea5e811e7afbaf9d5dd07860",
+      "bytes": 1056261,
+      "qa": {
+        "status": "passed-with-crop-note",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "style": "flat illustration; large external frames removed",
+        "notes": [
+          "Identiche illustrazioni dello zaino con due tasche frontali e contorni neri; testo alternativo esatto.",
+          "La sommità del manico è circa y194, leggermente sopra il limite20% (y205); verificare il crop nativo evitando di tagliarla.",
+          "Nessun verde, blu o giallo; aree di testo alternative conservate, nessuna modifica manuale ai pixel."
+        ]
+      },
+      "sourceRecord": "results-typography.json",
+      "figma": {
+        "key": "immagini",
+        "board": "3123:6602",
+        "imageHash": "0c842f40b35d946fd772a395cb9e7bc082f9d490",
+        "activeNodes": [
+          "3175:1167",
+          "3175:1168"
+        ],
+        "originalNodes": [
+          "3123:6647",
+          "3123:6657"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:6668",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.640495867768595,
+          "y": 0.1797520661157025
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 155
+        },
+        "mainBounds": {
+          "y": 146,
+          "h": 402,
+          "bottom": 548
+        }
+      },
+      "generatedQA": {
+        "status": "passed-with-crop-note",
+        "italianText": "passed",
+        "semantics": "passed",
+        "palette": "passed",
+        "style": "flat illustration; large external frames removed",
+        "notes": [
+          "Identiche illustrazioni dello zaino con due tasche frontali e contorni neri; testo alternativo esatto.",
+          "La sommità del manico è circa y194, leggermente sopra il limite20% (y205); verificare il crop nativo evitando di tagliarla.",
+          "Nessun verde, blu o giallo; aree di testo alternative conservate, nessuna modifica manuale ai pixel."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "immagini",
+      "provenanceReport": "results-typography.json"
+    },
+    {
+      "key": "media",
+      "title": "Seguire un video su più canali",
+      "pageId": "3123:6669",
+      "filename": "media-comparison-v4.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "ad937876a1fe52f6a165a321293946eb2433275c5d0713976b0926c222abca6c",
+      "bytes": 1498830,
+      "qa": {
+        "status": "reviewed",
+        "italian": "Audio soltanto, sottotitoli, CC e AD corretti; nessun timer.",
+        "semantics": "Stesso docente e gesto, alternative accessibili a destra, distinzione mantenuta.",
+        "palette": "Carnagione resa bianca, contorni neri e colori limitati a rosso, nero, grigi e bianco.",
+        "issues": [
+          "Lieve sfumatura nelle campiture grigie/rosse conservata, come richiesto di preservare gli altri dettagli."
+        ]
+      },
+      "sourceRecord": "results-design-constraints.json",
+      "figma": {
+        "key": "media",
+        "board": "3123:6669",
+        "imageHash": "d74296bca005d82ff30367b2536d40ff8cd9381d",
+        "activeNodes": [
+          "3175:1169",
+          "3175:1170"
+        ],
+        "originalNodes": [
+          "3123:6714",
+          "3123:6722"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:6733",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "reviewed",
+        "italian": "Audio soltanto, sottotitoli, CC e AD corretti; nessun timer.",
+        "semantics": "Stesso docente e gesto, alternative accessibili a destra, distinzione mantenuta.",
+        "palette": "Carnagione resa bianca, contorni neri e colori limitati a rosso, nero, grigi e bianco.",
+        "issues": [
+          "Lieve sfumatura nelle campiture grigie/rosse conservata, come richiesto di preservare gli altri dettagli."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "media",
+      "provenanceReport": "results-design-constraints.json"
+    },
+    {
+      "key": "semantica",
+      "title": "Aprire i dettagli di consegna",
+      "pageId": "3123:6734",
+      "filename": "semantica-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "58f67304fb4b17c16079217b4fea2b41d190c64b42a35fae2dcb9edb6b2ef8f8",
+      "bytes": 1097977,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe richieste presenti e corrette.",
+        "semantics": "Nome, ruolo e stato espanso sono distinti e l’inspection card è riconoscibile.",
+        "issues": [
+          "Campiture grigie leggermente sfumate anziché completamente piatte."
+        ]
+      },
+      "sourceRecord": "results-design-constraints.json",
+      "figma": {
+        "key": "semantica",
+        "board": "3123:6734",
+        "imageHash": "f3be3b6f48cd0716081a30b0ccd8d19213cdad09",
+        "activeNodes": [
+          "3175:1171",
+          "3175:1172"
+        ],
+        "originalNodes": [
+          "3123:6779",
+          "3123:6786"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:6794",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe richieste presenti e corrette.",
+        "semantics": "Nome, ruolo e stato espanso sono distinti e l’inspection card è riconoscibile.",
+        "issues": [
+          "Campiture grigie leggermente sfumate anziché completamente piatte."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "semantica",
+      "provenanceReport": "results-design-constraints.json"
+    },
+    {
+      "key": "feedback",
+      "title": "Capire che il salvataggio è riuscito",
+      "pageId": "3123:6795",
+      "filename": "feedback-comparison-v3.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "8f8b6b4ebe82cd841d807f8f227d9eb929eab23ec6ef7602bbd2b76af14b5b48",
+      "bytes": 1002703,
+      "qa": {
+        "status": "reviewed",
+        "italian": "Salva, Salvataggio completato e Nessun annuncio corretti; Titolo/Descrizione sostituiti con skeleton.",
+        "semantics": "Focus sul pulsante mantenuto e annuncio distinto, senza spostarlo.",
+        "issues": [
+          "Lieve sfumatura nelle campiture rosse/grigie conservata."
+        ],
+        "notes": [
+          "Ritaglio Figma allargato per mostrare interamente i bordi dei due mockup; proporzioni conservate."
+        ]
+      },
+      "sourceRecord": "results-design-constraints.json",
+      "figma": {
+        "key": "feedback",
+        "board": "3123:6795",
+        "imageHash": "17f9cfc2f8a99311cdbbee85d960f10cf2cd2b78",
+        "activeNodes": [
+          "3175:1173",
+          "3175:1174"
+        ],
+        "originalNodes": [
+          "3123:6840",
+          "3123:6847"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:6856",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.49,
+          "h": 0.6428571428571429,
+          "y": 0.17857142857142855
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 156,
+          "h": 382,
+          "bottom": 538
+        }
+      },
+      "generatedQA": {
+        "status": "reviewed",
+        "italian": "Salva, Salvataggio completato e Nessun annuncio corretti; Titolo/Descrizione sostituiti con skeleton.",
+        "semantics": "Focus sul pulsante mantenuto e annuncio distinto, senza spostarlo.",
+        "issues": [
+          "Lieve sfumatura nelle campiture rosse/grigie conservata."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "feedback",
+      "provenanceReport": "results-design-constraints.json"
+    },
+    {
+      "key": "cognitiva",
+      "title": "Prenotare con il contesto visibile",
+      "pageId": "3123:6857",
+      "filename": "cognitiva-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "fd035b0e60c9e98a82ae537de862566224d1f9b77024845d984b1bee22321d22",
+      "bytes": 1041413,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Confermi?, Conferma, Data:14ottobre, Ora:10:00 e Modifica corretti.",
+        "semantics": "Dati assenti a sinistra, visibili e modificabili a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordi delle superfici pallide superano leggermente la fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "sourceRecord": "results-design-constraints.json",
+      "figma": {
+        "key": "cognitiva",
+        "board": "3123:6857",
+        "imageHash": "9f0f89d1e48f358e0e7cf5ae9705486dab950368",
+        "activeNodes": [
+          "3175:1175",
+          "3175:1176"
+        ],
+        "originalNodes": [
+          "3123:6920",
+          "3123:6925"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:6935",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Confermi?, Conferma, Data:14ottobre, Ora:10:00 e Modifica corretti.",
+        "semantics": "Dati assenti a sinistra, visibili e modificabili a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordi delle superfici pallide superano leggermente la fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "cognitiva",
+      "provenanceReport": "results-design-constraints.json"
+    },
+    {
+      "key": "movimento",
+      "title": "Fermare e riprendere la lettura",
+      "pageId": "3123:6936",
+      "filename": "movimento-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "315b3ffc69d6989b74aaa152ccc038c4b0ef30b459ec2fedad4c5753f6114183",
+      "bytes": 1113062,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe degli articoli e dei comandi corrette.",
+        "semantics": "Frecce solo a sinistra, Pausaaggiornamenti e Riprendi separati a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordo esterno delle superfici sfiora i limiti della fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "sourceRecord": "results-design-constraints.json",
+      "figma": {
+        "key": "movimento",
+        "board": "3123:6936",
+        "imageHash": "4e33d99aeb768ed6b306cb8018d4ff5c2850aec9",
+        "activeNodes": [
+          "3175:1177",
+          "3175:1178"
+        ],
+        "originalNodes": [
+          "3123:6981",
+          "3123:6992"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:7004",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe degli articoli e dei comandi corrette.",
+        "semantics": "Frecce solo a sinistra, Pausaaggiornamenti e Riprendi separati a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordo esterno delle superfici sfiora i limiti della fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "movimento",
+      "provenanceReport": "results-design-constraints.json"
+    },
+    {
+      "key": "moduli",
+      "title": "Correggere una data",
+      "pageId": "3123:7005",
+      "filename": "moduli-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "17c67dea5c1b34f4b3e966979befd52d7656ac92aab33c2770ea140c8ea579cf",
+      "bytes": 1014409,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Data, Data dell’appuntamento, Usa l’anno di quattro cifre, GG/MM/AAAA e14/10/26 corretti.",
+        "semantics": "Stesso valore invalido su entrambi i pannelli; correzione spiegata solo a destra.",
+        "issues": [
+          "Campiture leggermente sfumate; nessun problema di testo o semantica individuato."
+        ]
+      },
+      "sourceRecord": "results-design-constraints.json",
+      "figma": {
+        "key": "moduli",
+        "board": "3123:7005",
+        "imageHash": "6ae3c294d5f3ea71f4aa02a83c15ec73143eadcf",
+        "activeNodes": [
+          "3175:1179",
+          "3175:1180"
+        ],
+        "originalNodes": [
+          "3123:7050",
+          "3123:7058"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:7067",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Data, Data dell’appuntamento, Usa l’anno di quattro cifre, GG/MM/AAAA e14/10/26 corretti.",
+        "semantics": "Stesso valore invalido su entrambi i pannelli; correzione spiegata solo a destra.",
+        "issues": [
+          "Campiture leggermente sfumate; nessun problema di testo o semantica individuato."
+        ]
+      },
+      "renderedQA": "passed",
+      "promptKey": "moduli",
+      "provenanceReport": "results-design-constraints.json"
+    },
+    {
+      "key": "autenticazione",
+      "title": "Accedere con gli strumenti abituali",
+      "pageId": "3123:7068",
+      "filename": "autenticazione-comparison-v3.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "923506cd845b83f252c2869f5ecd20f94dc73b5b61de5f9358b03f92fdf3cc8f",
+      "bytes": 1490921,
+      "qa": "passed",
+      "sourceRecord": "results-accessibility.json",
+      "figma": {
+        "key": "autenticazione",
+        "board": "3123:7068",
+        "imageHash": "b89c84e70013c24f8f5ec0635c7d4e346ddea123",
+        "activeNodes": [
+          "3175:1181",
+          "3175:1182"
+        ],
+        "originalNodes": [
+          "3123:7113",
+          "3123:7120"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:7128",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 141,
+          "h": 412,
+          "bottom": 553
+        }
+      },
+      "generatedQA": "passed",
+      "renderedQA": "passed",
+      "promptKey": "autenticazione",
+      "provenanceReport": "results-accessibility.json"
+    },
+    {
+      "key": "personalizzazione",
+      "title": "Adattare la lettura",
+      "pageId": "3123:7129",
+      "filename": "personalizzazione-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "ef1aa0261867d75e9b765df0327974175ed45f5872f0ee24ae5f71ee9731f169",
+      "bytes": 1026954,
+      "qa": "passed",
+      "sourceRecord": "results-accessibility.json",
+      "figma": {
+        "key": "personalizzazione",
+        "board": "3123:7129",
+        "imageHash": "973821b9e6c00677be77e6ebcd47a8aa53d803a3",
+        "activeNodes": [
+          "3175:1183",
+          "3175:1184"
+        ],
+        "originalNodes": [
+          "3123:7174",
+          "3123:7180"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:7187",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        },
+        "cropRightOverride": [
+          [
+            0.5,
+            0,
+            0.47999998927116394
+          ],
+          [
+            0,
+            0.6559766530990601,
+            0.17201165854930878
+          ]
+        ],
+        "cropFixNodeId": "3175:1184"
+      },
+      "generatedQA": "passed",
+      "renderedQA": "passed",
+      "promptKey": "personalizzazione",
+      "provenanceReport": "results-accessibility.json"
+    },
+    {
+      "key": "lingua",
+      "title": "Riconoscere nomi e lingue",
+      "pageId": "3123:7188",
+      "filename": "lingua-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "dac5fa604a32ea2275e723d84088beb0e26a4888cfc9d68a3e35c315d94422ce",
+      "bytes": 968373,
+      "qa": "passed",
+      "sourceRecord": "results-accessibility.json",
+      "figma": {
+        "key": "lingua",
+        "board": "3123:7188",
+        "imageHash": "510780447812afbf20a53c646710c3a1b8ecd371",
+        "activeNodes": [
+          "3175:1185",
+          "3175:1186"
+        ],
+        "originalNodes": [
+          "3123:7233",
+          "3123:7240"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:7248",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 148.5,
+          "h": 397,
+          "bottom": 545.5
+        }
+      },
+      "generatedQA": "passed",
+      "renderedQA": "passed",
+      "promptKey": "lingua",
+      "provenanceReport": "results-accessibility.json"
+    },
+    {
+      "key": "verifica-wcag",
+      "title": "Verificare un percorso completo",
+      "pageId": "3123:7249",
+      "filename": "verifica-wcag-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "2dba284b834eb790a24292226e82f7d8753f697dee44dce6468ccf4bc30593e5",
+      "bytes": 1013811,
+      "qa": "passed",
+      "sourceRecord": "results-accessibility.json",
+      "figma": {
+        "key": "verifica-wcag",
+        "board": "3123:7249",
+        "imageHash": "dbe3c5d31df97ffc1b30d281e52d35f93d7161b9",
+        "activeNodes": [
+          "3175:1187",
+          "3175:1188"
+        ],
+        "originalNodes": [
+          "3123:7312",
+          "3123:7322"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:7333",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.7851239669421487,
+          "y": 0.10743801652892565
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 190
+        },
+        "mainBounds": {
+          "y": 136,
+          "h": 422,
+          "bottom": 558
+        }
+      },
+      "generatedQA": "passed",
+      "renderedQA": "passed",
+      "promptKey": "verifica-wcag",
+      "provenanceReport": "results-accessibility.json"
+    },
+    {
+      "key": "valutazione",
+      "title": "Dall’ostacolo alla nuova prova",
+      "pageId": "3123:7334",
+      "filename": "valutazione-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "d7d19a0edbc4fa3d80dc959225cedcd992e084dceb939be23a58c93f18ae4750",
+      "bytes": 1037312,
+      "qa": "passed",
+      "sourceRecord": "results-accessibility.json",
+      "figma": {
+        "key": "valutazione",
+        "board": "3123:7334",
+        "imageHash": "15e1f8a9b908a0debc9ac06fbe5d65fdaa42bcb1",
+        "activeNodes": [
+          "3175:1189",
+          "3175:1190"
+        ],
+        "originalNodes": [
+          "3123:7379",
+          "3123:7386"
+        ],
+        "originalsHidden": true,
+        "captionId": "3123:7394",
+        "caption": "Esempio simulato · mockup originale. Le quote CSS descrivono il contenuto digitale e non la scala di stampa.",
+        "crop": {
+          "w": 0.4724517906336088,
+          "h": 0.6198347107438017,
+          "y": 0.19008264462809915
+        },
+        "imageBounds": {
+          "w": 171.5,
+          "h": 150
+        },
+        "mainBounds": {
+          "y": 156,
+          "h": 382,
+          "bottom": 538
+        }
+      },
+      "generatedQA": "passed",
+      "renderedQA": "passed",
+      "promptKey": "valutazione",
+      "provenanceReport": "results-accessibility.json"
+    }
+  ],
+  "pngFiles": [
+    {
+      "filename": "adattamento-comparison-v2.png",
+      "sha256": "bafc095fb0ecd317ab966c350d6240d1229c062473348f2232e8140753adfda2",
+      "bytes": 1040999,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "autenticazione-comparison-v2.png",
+      "sha256": "ea13d2e0b559223c5846ceb17c90b849792785e2d5f2f049461cd70c84afe031",
+      "bytes": 1000709,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "autenticazione-comparison-v3.png",
+      "sha256": "923506cd845b83f252c2869f5ecd20f94dc73b5b61de5f9358b03f92fdf3cc8f",
+      "bytes": 1490921,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "cognitiva-comparison-v2.png",
+      "sha256": "fd035b0e60c9e98a82ae537de862566224d1f9b77024845d984b1bee22321d22",
+      "bytes": 1041413,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "contrasto-controlli-comparison-v2.png",
+      "sha256": "2d1a93831e3d1db422bc43325f899c9e3b63af2a76ebd38caaf7e81c4fba3723",
+      "bytes": 841970,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "contrasto-testo-comparison-v2.png",
+      "sha256": "ee1397544b793e943410a3f7f14efb3345a3c1d707c4e3a762f016e996b02770",
+      "bytes": 989413,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "feedback-comparison-v2.png",
+      "sha256": "c801b40f1193f91e47ed1719d2f22bcf92e397ad11c2271be46e35ed09428706",
+      "bytes": 1019086,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "feedback-comparison-v3.png",
+      "sha256": "8f8b6b4ebe82cd841d807f8f227d9eb929eab23ec6ef7602bbd2b76af14b5b48",
+      "bytes": 1002703,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "immagini-comparison-v2.png",
+      "sha256": "d9050b6800bfb3b85c7e0437eebcbffee0d9c0e64e776be1c28ebd34cc1131b2",
+      "bytes": 1310586,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "immagini-comparison-v3.png",
+      "sha256": "e667740e75279cfcbe8e581b9d468264fb222da6ea5e811e7afbaf9d5dd07860",
+      "bytes": 1056261,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "lingua-comparison-v2.png",
+      "sha256": "dac5fa604a32ea2275e723d84088beb0e26a4888cfc9d68a3e35c315d94422ce",
+      "bytes": 968373,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "media-comparison-v2.png",
+      "sha256": "f04dc360b57339b2f8b8f15a7e8828e71c9cccd3f19c4985241f8538f08381f2",
+      "bytes": 1130793,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "media-comparison-v3.png",
+      "sha256": "41839d672b43c62c3be094feb72d365df42f2df4fc5d8e86fe0d372856fec1f8",
+      "bytes": 1479820,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "media-comparison-v4.png",
+      "sha256": "ad937876a1fe52f6a165a321293946eb2433275c5d0713976b0926c222abca6c",
+      "bytes": 1498830,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "moduli-comparison-v2.png",
+      "sha256": "17c67dea5c1b34f4b3e966979befd52d7656ac92aab33c2770ea140c8ea579cf",
+      "bytes": 1014409,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "movimento-comparison-v2.png",
+      "sha256": "315b3ffc69d6989b74aaa152ccc038c4b0ef30b459ec2fedad4c5753f6114183",
+      "bytes": 1113062,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "personalizzazione-comparison-v2.png",
+      "sha256": "ef1aa0261867d75e9b765df0327974175ed45f5872f0ee24ae5f71ee9731f169",
+      "bytes": 1026954,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "puntamento-comparison-v2.png",
+      "sha256": "b2100b69d8f32c6054c640c03f6f96a440d0e716bf7313db9bc927622d8978a0",
+      "bytes": 977858,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "semantica-comparison-v2.png",
+      "sha256": "58f67304fb4b17c16079217b4fea2b41d190c64b42a35fae2dcb9edb6b2ef8f8",
+      "bytes": 1097977,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "tastiera-comparison-v2.png",
+      "sha256": "7657353d1275a0bfe4c291198edf20d1b83e4e36da20eabe2938ef99f06f194e",
+      "bytes": 1059355,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "valutazione-comparison-v2.png",
+      "sha256": "d7d19a0edbc4fa3d80dc959225cedcd992e084dceb939be23a58c93f18ae4750",
+      "bytes": 1037312,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "filename": "verifica-wcag-comparison-v2.png",
+      "sha256": "2dba284b834eb790a24292226e82f7d8753f697dee44dce6468ccf4bc30593e5",
+      "bytes": 1013811,
+      "dimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "structuralVerification": {
+    "rows": [
+      {
+        "key": "contrasto-testo",
+        "board": "3122:539",
+        "imageHashes": [
+          "87838573fc1428c0d514d79167164d362cfa1ce8",
+          "87838573fc1428c0d514d79167164d362cfa1ce8"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "contrasto-controlli",
+        "board": "3122:598",
+        "imageHashes": [
+          "e20f90ebad266e8a14e4878d26bc215e695df504",
+          "e20f90ebad266e8a14e4878d26bc215e695df504"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html"
+        ],
+        "bodyCount": 5,
+        "bodyFonts": [
+          "Geom",
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":14}",
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "adattamento",
+        "board": "3122:679",
+        "imageHashes": [
+          "a5283980ca379cf7cc4ee8c53da64c0658b57fcf",
+          "a5283980ca379cf7cc4ee8c53da64c0658b57fcf"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+        ],
+        "bodyCount": 5,
+        "bodyFonts": [
+          "Geom",
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":14}",
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "tastiera",
+        "board": "3122:764",
+        "imageHashes": [
+          "a9e04296881604871964b203de7eaf4b6e196cea",
+          "a9e04296881604871964b203de7eaf4b6e196cea"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "puntamento",
+        "board": "3122:829",
+        "imageHashes": [
+          "e5346eee46dcc665cfbaee54dba0d50610914564",
+          "e5346eee46dcc665cfbaee54dba0d50610914564"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 538,
+        "sourceTop": 600
+      },
+      {
+        "key": "immagini",
+        "board": "3123:6602",
+        "imageHashes": [
+          "0c842f40b35d946fd772a395cb9e7bc082f9d490",
+          "0c842f40b35d946fd772a395cb9e7bc082f9d490"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/tutorials/images/"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 548,
+        "sourceTop": 600
+      },
+      {
+        "key": "media",
+        "board": "3123:6669",
+        "imageHashes": [
+          "d74296bca005d82ff30367b2536d40ff8cd9381d",
+          "d74296bca005d82ff30367b2536d40ff8cd9381d"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "semantica",
+        "board": "3123:6734",
+        "imageHashes": [
+          "f3be3b6f48cd0716081a30b0ccd8d19213cdad09",
+          "f3be3b6f48cd0716081a30b0ccd8d19213cdad09"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "feedback",
+        "board": "3123:6795",
+        "imageHashes": [
+          "17f9cfc2f8a99311cdbbee85d960f10cf2cd2b78",
+          "17f9cfc2f8a99311cdbbee85d960f10cf2cd2b78"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 538,
+        "sourceTop": 600
+      },
+      {
+        "key": "cognitiva",
+        "board": "3123:6857",
+        "imageHashes": [
+          "9f0f89d1e48f358e0e7cf5ae9705486dab950368",
+          "9f0f89d1e48f358e0e7cf5ae9705486dab950368"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/"
+        ],
+        "bodyCount": 5,
+        "bodyFonts": [
+          "Geom",
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":14}",
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "movimento",
+        "board": "3123:6936",
+        "imageHashes": [
+          "4e33d99aeb768ed6b306cb8018d4ff5c2850aec9",
+          "4e33d99aeb768ed6b306cb8018d4ff5c2850aec9"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "moduli",
+        "board": "3123:7005",
+        "imageHashes": [
+          "6ae3c294d5f3ea71f4aa02a83c15ec73143eadcf",
+          "6ae3c294d5f3ea71f4aa02a83c15ec73143eadcf"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/tutorials/forms/labels/"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "autenticazione",
+        "board": "3123:7068",
+        "imageHashes": [
+          "b89c84e70013c24f8f5ec0635c7d4e346ddea123",
+          "b89c84e70013c24f8f5ec0635c7d4e346ddea123"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 553,
+        "sourceTop": 600
+      },
+      {
+        "key": "personalizzazione",
+        "board": "3123:7129",
+        "imageHashes": [
+          "973821b9e6c00677be77e6ebcd47a8aa53d803a3",
+          "973821b9e6c00677be77e6ebcd47a8aa53d803a3"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "lingua",
+        "board": "3123:7188",
+        "imageHashes": [
+          "510780447812afbf20a53c646710c3a1b8ecd371",
+          "510780447812afbf20a53c646710c3a1b8ecd371"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/International/questions/qa-personal-names"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 545.5,
+        "sourceTop": 600
+      },
+      {
+        "key": "verifica-wcag",
+        "board": "3123:7249",
+        "imageHashes": [
+          "dbe3c5d31df97ffc1b30d281e52d35f93d7161b9",
+          "dbe3c5d31df97ffc1b30d281e52d35f93d7161b9"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/WCAG22/Understanding/conformance"
+        ],
+        "bodyCount": 5,
+        "bodyFonts": [
+          "Geom",
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":14}",
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 558,
+        "sourceTop": 600
+      },
+      {
+        "key": "valutazione",
+        "board": "3123:7334",
+        "imageHashes": [
+          "15e1f8a9b908a0debc9ac06fbe5d65fdaa42bcb1",
+          "15e1f8a9b908a0debc9ac06fbe5d65fdaa42bcb1"
+        ],
+        "activeImages": true,
+        "originalsPreservedHidden": true,
+        "captionHasImageGen": false,
+        "sourceLinks": [
+          "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        ],
+        "bodyCount": 4,
+        "bodyFonts": [
+          "Merriweather"
+        ],
+        "bodyLineHeights": [
+          "{\"unit\":\"PIXELS\",\"value\":15}"
+        ],
+        "captionBottom": 538,
+        "sourceTop": 600
+      }
+    ],
+    "issues": [],
+    "boardCount": 56,
+    "activeImagePlacementCount": 55,
+    "newImagePlacements": 34,
+    "uniqueNewImageHashes": 17
+  },
+  "contentVerification": {
+    "rows": [
+      {
+        "key": "contrasto-testo",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "contrasto-controlli",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "adattamento",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "tastiera",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "puntamento",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "immagini",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "media",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "semantica",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "feedback",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "cognitiva",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "movimento",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "moduli",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "autenticazione",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "personalizzazione",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "lingua",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "verifica-wcag",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      },
+      {
+        "key": "valutazione",
+        "bodyCount": 4,
+        "contentsPreserved": true,
+        "bodyStylePreserved": true
+      }
+    ],
+    "issues": []
+  },
+  "provenanceReports": [
+    "results-typography.json",
+    "results-design-constraints.json",
+    "results-accessibility.json"
+  ],
+  "visualVerification": {
+    "passed": true,
+    "rootPassed": [
+      "3122:764",
+      "3122:598",
+      "3122:829",
+      "3123:6734",
+      "3123:6795",
+      "3123:6857",
+      "3123:6936",
+      "3123:7068",
+      "3123:7188",
+      "3123:7334"
+    ],
+    "accessibilityAgentPassed": [
+      "3122:539",
+      "3122:679",
+      "3123:6602",
+      "3123:6669",
+      "3123:7005",
+      "3123:7249"
+    ],
+    "postFixPassed": [
+      "3123:7129"
+    ],
+    "allBoardsVerified": 17
+  },
+  "targetedCropFix": {
+    "createdNodeIds": [],
+    "mutatedNodeIds": [
+      "3175:1184"
+    ],
+    "board": "3123:7129",
+    "before": [
+      {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "CROP",
+        "scalingFactor": 1,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            0.472451776266098,
+            0,
+            0.5275481939315796
+          ],
+          [
+            0,
+            0.6198347210884094,
+            0.1900826394557953
+          ]
+        ],
+        "imageHash": "973821b9e6c00677be77e6ebcd47a8aa53d803a3"
+      }
+    ],
+    "after": [
+      {
+        "type": "IMAGE",
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "NORMAL",
+        "scaleMode": "CROP",
+        "scalingFactor": 1,
+        "filters": {
+          "exposure": 0,
+          "contrast": 0,
+          "saturation": 0,
+          "temperature": 0,
+          "tint": 0,
+          "highlights": 0,
+          "shadows": 0
+        },
+        "imageTransform": [
+          [
+            0.5,
+            0,
+            0.47999998927116394
+          ],
+          [
+            0,
+            0.6559766530990601,
+            0.17201165854930878
+          ]
+        ],
+        "imageHash": "973821b9e6c00677be77e6ebcd47a8aa53d803a3"
+      }
+    ],
+    "bounds": {
+      "w": 171.5,
+      "h": 150
+    },
+    "aspectPreserved": 1.1433333333333333,
+    "targetAspect": 1.1433333333333333
+  },
+  "targetedCropFixes": [
+    {
+      "date": "2026-10-12",
+      "board": "3123:6795",
+      "mutatedNodeIds": [
+        "3175:1173",
+        "3175:1174"
+      ],
+      "placements": [
+        {
+          "id": "3175:1173",
+          "before": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "CROP",
+              "scalingFactor": 1,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  0.472451776266098,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0.6198347210884094,
+                  0.1900826394557953
+                ]
+              ],
+              "imageHash": "17f9cfc2f8a99311cdbbee85d960f10cf2cd2b78"
+            }
+          ],
+          "after": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "CROP",
+              "scalingFactor": 1,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  0.49000000953674316,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  0.6428571343421936,
+                  0.1785714328289032
+                ]
+              ],
+              "imageHash": "17f9cfc2f8a99311cdbbee85d960f10cf2cd2b78"
+            }
+          ]
+        },
+        {
+          "id": "3175:1174",
+          "before": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "CROP",
+              "scalingFactor": 1,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  0.472451776266098,
+                  0,
+                  0.5275481939315796
+                ],
+                [
+                  0,
+                  0.6198347210884094,
+                  0.1900826394557953
+                ]
+              ],
+              "imageHash": "17f9cfc2f8a99311cdbbee85d960f10cf2cd2b78"
+            }
+          ],
+          "after": [
+            {
+              "type": "IMAGE",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "scaleMode": "CROP",
+              "scalingFactor": 1,
+              "filters": {
+                "exposure": 0,
+                "contrast": 0,
+                "saturation": 0,
+                "temperature": 0,
+                "tint": 0,
+                "highlights": 0,
+                "shadows": 0
+              },
+              "imageTransform": [
+                [
+                  0.49000000953674316,
+                  0,
+                  0.5099999904632568
+                ],
+                [
+                  0,
+                  0.6428571343421936,
+                  0.1785714328289032
+                ]
+              ],
+              "imageHash": "17f9cfc2f8a99311cdbbee85d960f10cf2cd2b78"
+            }
+          ]
+        }
+      ],
+      "crop": {
+        "w": 0.49,
+        "h": 0.6428571428571429,
+        "y": 0.17857142857142855
+      },
+      "screenshot": "reports/accessibilita-commenti/imagegen-esempi/feedback.png",
+      "passed": true
+    }
+  ],
+  "commentStatus": "resolved",
+  "commentProof": "reports/accessibilita-commenti/esempi-imagegen-commento-risolto.png",
+  "additionalReusedPlacements": [
+    {
+      "comment": 225,
+      "boardId": "2825:288",
+      "folio": 183,
+      "assetKey": "adattamento",
+      "asset": "imagegen-esempi-v2/adattamento-comparison-v2.png",
+      "newGenerationCalls": 0,
+      "placements": [
+        {
+          "nodeId": "3222:1030",
+          "oldNodeId": "2835:256",
+          "label": "Deborda",
+          "imageHash": "a5283980ca379cf7cc4ee8c53da64c0658b57fcf",
+          "width": 104,
+          "height": 96,
+          "crop": [
+            [
+              0.37109375,
+              0,
+              0.08333333333333333
+            ],
+            [
+              0,
+              0.5138221153846154,
+              0.2177734375
+            ]
+          ]
+        },
+        {
+          "nodeId": "3222:1031",
+          "oldNodeId": "2835:264",
+          "label": "Si ridistribuisce",
+          "imageHash": "a5283980ca379cf7cc4ee8c53da64c0658b57fcf",
+          "width": 104,
+          "height": 96,
+          "crop": [
+            [
+              0.37109375,
+              0,
+              0.546875
+            ],
+            [
+              0,
+              0.5138221153846154,
+              0.2177734375
+            ]
+          ]
+        }
+      ],
+      "originalsHidden": [
+        "2835:256",
+        "2835:264"
+      ],
+      "verification": "reports/figma-comments-2026-10-12/imagegen225.json",
+      "status": "verified_then_preserved_hidden_after248",
+      "active": false,
+      "preservedHidden": true,
+      "hiddenAfterComment": 248
+    }
+  ],
+  "imageAttributionPolicy": {
+    "date": "2026-10-12",
+    "generatorCreditsVisible": false,
+    "technicalProvenancePreserved": true,
+    "verificationReport": "reports/booklet/attribuzioni/verifica.json"
+  },
+  "placementCountSnapshot": {
+    "date": "2026-10-12",
+    "recordedTotalActivePlacements": 57,
+    "scope": "Historical census after225, before248 hid its two reused placements. Generation and17-comparison counts are retained; no new image census was performed for the link audit."
+  }
+}

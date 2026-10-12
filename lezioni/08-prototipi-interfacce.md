@@ -13,7 +13,6 @@ bookletPages: [201]
 # Prototipi e videogiochi
 
 <ChapterMetro section="ux-prototype" />
-<p class="lead">Flussi, stati e interfacce per l’azione</p>
 
 ---
 layout: summary

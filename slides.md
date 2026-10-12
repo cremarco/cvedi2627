@@ -73,7 +73,7 @@ footer: "Lezioni"
   <SlideAction to="ricerca-inclusiva" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
   <LocalOnly>
   <div class="index-ux-lessons" role="group" aria-label="Lezioni sul processo UX">
-    <SlideAction to="percezione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Percezione e gerarchia visiva</span></SlideAction>
+    <SlideAction to="percezione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Accessibilità e design inclusivo</span></SlideAction>
     <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Colore e significato</span></SlideAction>
     <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Tipografia, griglie e interfacce</span></SlideAction>
     <SlideAction to="prototipi-interfacce" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Prototipi e videogiochi</span></SlideAction>
@@ -147,7 +147,6 @@ lessonNumber: 1
 
 # Il corso
 
-<p>Obiettivi, metodo e calendario</p>
 
 ---
 layout: summary
@@ -332,7 +331,6 @@ class: chapter-slide exam-section
 
 # Modalità d’esame
 
-<p>Progetto o approfondimento · scritto · orale</p>
 
 ---
 layout: default
@@ -695,7 +693,6 @@ class: chapter-slide archive-section
 
 # Archivio progetti
 
-<p>Esplora il lavoro degli anni precedenti</p>
 
 ---
 layout: default

@@ -1,0 +1,93 @@
+{
+  "schema": "cvedi-accessibility-web-image/1",
+  "date": "2026-10-12",
+  "comment": 240,
+  "status": "verified",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1110",
+  "boardId": "198:3892",
+  "folio": 171,
+  "title": "Clearing a Path",
+  "creator": "Michael F. Giangreco",
+  "illustrator": "Kevin Ruelle",
+  "catalogueDate": "2000",
+  "sourcePage": "https://digitalcollections.uvm.edu/view/33650/clearing-a-path",
+  "sourceImage": "https://digitalcollections.uvm.edu/iiif/2/187709/full/full/0/default.jpg",
+  "sourceIIIFManifest": "https://digitalcollections.uvm.edu/iiif/collection/object/33650",
+  "originalFile": "clearing-a-path-uvm-original.jpg",
+  "sha256": "d682c0568d18e1089fdfcaecd5731986e8c8f6026e227462121e6509503496b7",
+  "bytes": 460827,
+  "dimensions": [
+    1808,
+    1999
+  ],
+  "rights": {
+    "label": "In Copyright - Non-Commercial Use Permitted",
+    "source": "https://digitalcollections.uvm.edu/view/33650/clearing-a-path",
+    "generalRightsPage": "https://digitalcollections.uvm.edu/about/rights",
+    "catalogueCopyright": "Copyright 2000 Michael F. Giangreco",
+    "copyrightVisibleInRaster": "©2002 Michael F. Giangreco; illustration by Kevin Ruelle",
+    "commercialPermissionAssumed": false,
+    "translationMade": false,
+    "rasterAltered": false,
+    "nativeItalianParaphrase": true
+  },
+  "rasterPresentation": {
+    "nodeId": "3244:15600",
+    "imageHash": "e23bbca6f84ea6bf12fc70b7cf955a7fc31389d2",
+    "scaleMode": "FIT",
+    "width": 200,
+    "height": 221.12831115722656,
+    "fullOriginal": true,
+    "noExtraFrame": true,
+    "proportionsPreserved": true
+  },
+  "nativeItalianExplanation": [
+    {
+      "id": "3244:15602",
+      "text": "Lo studente chiede di liberare la rampa. Il custode vuole finire prima le scale. Lo studente fa notare che la rampa libera permette l’ingresso a tutti.",
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "height": 90
+    },
+    {
+      "id": "3244:15603",
+      "text": "Il bisogno segnalato avvia l’ascolto: un passo del processo inclusivo. La rampa comune rappresenta il beneficio universale.",
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 15
+      },
+      "height": 75
+    }
+  ],
+  "activeApproachLabels": [
+    "3241:18234",
+    "3241:18235"
+  ],
+  "approachLabelsBelowSharedFigure": true,
+  "nativeOriginalsPreservedHidden": [
+    "3126:750",
+    "3126:753",
+    "3126:763",
+    "2141:1353"
+  ],
+  "concurrentIllustrationPreservedHidden": {
+    "imageId": "3241:18236",
+    "imageHash": "cc7a7d2b74511d454044d6824ef6b76daf1a3e98",
+    "creditId": "3126:777",
+    "credit": "Illustrazione originale · riferimento: Microsoft, Inclusive 101.",
+    "hidden": true,
+    "active": false
+  },
+  "existingProsePreserved": true,
+  "existingCEUDMicrosoftNotePreserved": true,
+  "creditNodeId": "3244:15604",
+  "rootVisualQA": "passed",
+  "screenshot": "reports/figma-comments-2026-10-12/accessibility240-final.png",
+  "report": "reports/figma-comments-2026-10-12/accessibility240.json",
+  "active": true
+}

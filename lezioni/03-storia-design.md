@@ -12,7 +12,6 @@ routeAlias: storia-design
 # Storia del design
 
 <ChapterMetro section="history" />
-<p>Dalla pagina stampata alle interfacce digitali</p>
 
 ---
 layout: summary
@@ -711,7 +710,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-html.webp" alt="Homepage fittizia Caffè Luce nella variante html, elaborazione didattica generata con Imagegen" caption="Caffè Luce · primo Web · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-html-slide.webp" alt="Warner Bros. · Space Jam, 1996 — cattura documentata dell’interfaccia" caption="Warner Bros. · Space Jam, 1996. Sito originale mantenuto online." />
+  <LessonFigure src="/images/storia-design/atlante/real-html-slide.webp" alt="Warner Bros. · Space Jam, 1996 — screenshot documentato dell’interfaccia" caption="Warner Bros. · Space Jam, 1996. Sito originale mantenuto online." />
 </div>
 
 ---
@@ -729,7 +728,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-web2.webp" alt="Homepage fittizia Caffè Luce nella variante web2, elaborazione didattica generata con Imagegen" caption="Caffè Luce · Web 2.0 · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-web2-slide.webp" alt="WordPress · Default / Kubrick — cattura documentata dell’interfaccia" caption="WordPress · Default/Kubrick, tema della serie 1.5–2.9. Demo operativa su wp-themes.com." />
+  <LessonFigure src="/images/storia-design/atlante/real-web2-slide.webp" alt="WordPress · Default / Kubrick — screenshot documentato dell’interfaccia" caption="WordPress · Default/Kubrick, tema della serie 1.5–2.9. Demo operativa su wp-themes.com." />
 </div>
 
 ---
@@ -747,7 +746,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-scheu.webp" alt="Homepage fittizia Caffè Luce nella variante scheu, elaborazione didattica generata con Imagegen" caption="Caffè Luce · scheumorfismo · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-scheu-slide.webp" alt="Apple · GarageBand, amplificatori e pedali — cattura documentata dell’interfaccia" caption="Apple · GarageBand per Mac. Amplificatori e pedali virtuali, schermata prodotto ufficiale." />
+  <LessonFigure src="/images/storia-design/atlante/real-scheu-slide.webp" alt="Apple · GarageBand, amplificatori e pedali — screenshot documentato dell’interfaccia" caption="Apple · GarageBand per Mac. Amplificatori e pedali virtuali, schermata prodotto ufficiale." />
 </div>
 
 ---
@@ -765,7 +764,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-flat.webp" alt="Homepage fittizia Caffè Luce nella variante flat, elaborazione didattica generata con Imagegen" caption="Caffè Luce · flat design · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-flat-slide.webp" alt="Designmodo · Flat UI — cattura documentata dell’interfaccia" caption="Designmodo · Flat UI. Componenti eseguibili: campiture piene e pulsanti senza sfumature." />
+  <LessonFigure src="/images/storia-design/atlante/real-flat-slide.webp" alt="Designmodo · Flat UI — screenshot documentato dell’interfaccia" caption="Designmodo · Flat UI. Componenti eseguibili: campiture piene e pulsanti senza sfumature." />
 </div>
 
 ---
@@ -783,7 +782,7 @@ lessonMinutes: 2
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-material.webp" alt="Homepage fittizia Caffè Luce nella variante material, elaborazione didattica generata con Imagegen" caption="Caffè Luce · Material Design · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-material-slide.webp" alt="Google · Material Design 3 — cattura documentata dell’interfaccia" caption="Google · Material Design 3. Sito ufficiale del sistema, cattura desktop." />
+  <LessonFigure src="/images/storia-design/atlante/real-material-slide.webp" alt="Google · Material Design 3 — screenshot documentato dell’interfaccia" caption="Google · Material Design 3. Sito ufficiale del sistema, screenshot desktop." />
 </div>
 
 ---
@@ -818,7 +817,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-neumo.webp" alt="Homepage fittizia Caffè Luce nella variante neumo, elaborazione didattica generata con Imagegen" caption="Caffè Luce · neumorfismo · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-neumo-slide.webp" alt="Themesberg · Neumorphism UI About — cattura documentata dell’interfaccia" caption="Themesberg · Neumorphism UI, pagina About della demo eseguibile: superfici e controlli a rilievo." />
+  <LessonFigure src="/images/storia-design/atlante/real-neumo-slide.webp" alt="Themesberg · Neumorphism UI About — screenshot documentato dell’interfaccia" caption="Themesberg · Neumorphism UI, pagina About della demo eseguibile: superfici e controlli a rilievo." />
 </div>
 
 ---
@@ -836,7 +835,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-glass.webp" alt="Homepage fittizia Caffè Luce nella variante glass, elaborazione didattica generata con Imagegen" caption="Caffè Luce · glassmorfismo · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-glass-slide.webp" alt="Windows 11 · Start — cattura documentata dell’interfaccia" caption="Windows 11, menu Start, 2021. Screenshot ufficiale Microsoft: pannello traslucido sopra il desktop." />
+  <LessonFigure src="/images/storia-design/atlante/real-glass-slide.webp" alt="Windows 11 · Start — screenshot documentato dell’interfaccia" caption="Windows 11, menu Start, 2021. Screenshot ufficiale Microsoft: pannello traslucido sopra il desktop." />
 </div>
 
 ---
@@ -854,7 +853,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-minimal.webp" alt="Homepage fittizia Caffè Luce nella variante minimal, elaborazione didattica generata con Imagegen" caption="Caffè Luce · minimalismo · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-minimal-slide.webp" alt="Studio Yoke · desktop — cattura documentata dell’interfaccia" caption="Studio Yoke, homepage desktop. Palette binaria, tipografia e spazio negativo costruiscono la gerarchia. Screenshot: 6 ottobre 2026." />
+  <LessonFigure src="/images/storia-design/atlante/real-minimal-slide.webp" alt="Studio Yoke · desktop — screenshot documentato dell’interfaccia" caption="Studio Yoke, homepage desktop. Palette binaria, tipografia e spazio negativo costruiscono la gerarchia. Screenshot: 6 ottobre 2026." />
 </div>
 
 ---
@@ -872,7 +871,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-y2k.webp" alt="Homepage fittizia Caffè Luce nella variante y2k, elaborazione didattica generata con Imagegen" caption="Caffè Luce · Y2K · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-y2k-slide.webp" alt="Girls Who Code Girls · campagna 2022 — cattura documentata dell’interfaccia" caption="Girls Who Code Girls, campagna avviata nel 2022. Screenshot dell’interfaccia dal materiale didattico: cromature e futurismo pop." />
+  <LessonFigure src="/images/storia-design/atlante/real-y2k-slide.webp" alt="Girls Who Code Girls · campagna 2022 — screenshot documentato dell’interfaccia" caption="Girls Who Code Girls, campagna avviata nel 2022. Screenshot dell’interfaccia dal materiale didattico: cromature e futurismo pop." />
 </div>
 
 ---
@@ -890,7 +889,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-max.webp" alt="Homepage fittizia Caffè Luce nella variante max, elaborazione didattica generata con Imagegen" caption="Caffè Luce · massimalismo · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-max-slide.webp" alt="TOILETPAPER · desktop — cattura documentata dell’interfaccia" caption="TOILETPAPER, homepage desktop. Fotomontaggio, colori saturi e sovrapposizioni danno ritmo alla pagina. Screenshot: 6 ottobre 2026." />
+  <LessonFigure src="/images/storia-design/atlante/real-max-slide.webp" alt="TOILETPAPER · desktop — screenshot documentato dell’interfaccia" caption="TOILETPAPER, homepage desktop. Fotomontaggio, colori saturi e sovrapposizioni danno ritmo alla pagina. Screenshot: 6 ottobre 2026." />
 </div>
 
 ---
@@ -908,7 +907,7 @@ lessonMinutes: 1.5
 
 <div class="lesson-columns">
   <LessonFigure src="/images/storia-design/atlante/demo-neo.webp" alt="Homepage fittizia Caffè Luce nella variante neo, elaborazione didattica generata con Imagegen" caption="Caffè Luce · neobrutalismo · variante didattica generata con Imagegen." />
-  <LessonFigure src="/images/storia-design/atlante/real-neo-slide.webp" alt="Gumroad · desktop — cattura documentata dell’interfaccia" caption="Gumroad, homepage desktop. Contorni netti e illustrazioni a campiture piatte. Screenshot: 6 ottobre 2026." />
+  <LessonFigure src="/images/storia-design/atlante/real-neo-slide.webp" alt="Gumroad · desktop — screenshot documentato dell’interfaccia" caption="Gumroad, homepage desktop. Contorni netti e illustrazioni a campiture piatte. Screenshot: 6 ottobre 2026." />
 </div>
 
 ---

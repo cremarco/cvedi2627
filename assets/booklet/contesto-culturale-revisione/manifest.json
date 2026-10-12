@@ -1023,6 +1023,212 @@
     "previousNativeCoverComponentFamilyId": "2695:3901",
     "previousNativeCoverDisposition": "Master family retained outside the active booklet; active cover instances replaced by generated full-page artwork.",
     "verification": "reports/contesto-culturale/copertine-imagegen/verifica.json",
-    "historicalCaseContentUnchanged": true
+    "historicalCaseContentUnchanged": false,
+    "historicalCaseContentScope": "I testi attivi dei casi sono revisionati il12ottobre2026. Grafica delle copertine, figure, dati e originali delle fonti restano conservati; vedere activeNarrativeRevision e il relativo report."
+  },
+  "authorLabelDisplay": {
+    "printedNamesOmitted": true,
+    "pageId": "2613:1109",
+    "hiddenSignatureNodeIds": [
+      "2668:344",
+      "2668:348",
+      "2668:354",
+      "2668:360",
+      "2668:366",
+      "2668:372",
+      "2668:377",
+      "2668:383",
+      "2668:389",
+      "2668:394",
+      "2668:400",
+      "2668:406",
+      "2668:412",
+      "2668:418",
+      "2668:424",
+      "2668:429",
+      "2668:435",
+      "2668:444",
+      "2668:451",
+      "2668:456",
+      "2668:464"
+    ],
+    "sourceReferenceShortenedNodeId": "2761:3807",
+    "provenancePreserved": true,
+    "verificationReport": "reports/booklet-author-labels/verification.json",
+    "sourceReferenceHiddenNodeId": "2761:3807",
+    "sourceReferenceHiddenByComment": 219
+  },
+  "contentScope": "Snapshot storico della revisione culturale del9ottobre2026; i casi attivi hanno una successiva revisione narrativa descritta da activeNarrativeRevision.",
+  "activeNarrativeRevision": {
+    "updatedOn": "2026-10-12",
+    "comments": [
+      208,
+      213,
+      214,
+      215,
+      216,
+      217,
+      218,
+      219,
+      220,
+      221,
+      222,
+      223,
+      224,
+      230,
+      231,
+      232,
+      233,
+      234,
+      235,
+      236,
+      237,
+      238,
+      239,
+      250,
+      252,
+      255,
+      264
+    ],
+    "manifest": "assets/booklet/casi-studio-integrali/manifest.json",
+    "report": "reports/figma-comments-2026-10-12/research-208.json",
+    "scope": "Testi nativi delle tavole correnti C03.053–075: ponte, casi McDonald’s e Alibaba.",
+    "coverGraphicsPreserved": true,
+    "sourceImagesAndPixelsPreserved": true,
+    "culturalDataPreserved": true,
+    "originalImportedTextBlocksPreserved": 41,
+    "activeCaseWordingUnchanged": false,
+    "structuralCountsUpdated": false,
+    "exactUserTexts": [
+      213,
+      214,
+      216,
+      217,
+      220,
+      223,
+      224,
+      230,
+      232,
+      233,
+      236,
+      237,
+      238,
+      239,
+      250,
+      255,
+      264
+    ],
+    "sourceNoteVisibility": {
+      "nodeId": "2761:3807",
+      "hiddenByComment": 219,
+      "textPreserved": true,
+      "provenancePreservedInSourcesAndManifest": true
+    },
+    "supersededComment235": 236,
+    "mcdonaldProportionalReflow": [
+      {
+        "id": "2668:359",
+        "boardId": "198:4458",
+        "originalWidth": 319.0152893066406,
+        "originalHeight": 316,
+        "width": 311.948486328125,
+        "height": 309,
+        "ratioPreserved": true,
+        "paintUnchanged": true,
+        "captionBottom": 584
+      },
+      {
+        "id": "2668:382",
+        "boardId": "2648:267",
+        "originalWidth": 342.0933532714844,
+        "originalHeight": 301,
+        "width": 334.1376953125,
+        "height": 294,
+        "ratioPreserved": true,
+        "paintUnchanged": true,
+        "captionBottom": 584
+      },
+      {
+        "id": "2668:399",
+        "boardId": "2648:325",
+        "originalWidth": 270.2913818359375,
+        "originalHeight": 301,
+        "width": 264.0055236816406,
+        "height": 294,
+        "ratioPreserved": true,
+        "paintUnchanged": true,
+        "captionBottom": 584
+      }
+    ],
+    "followupReports": [
+      "reports/figma-comments-2026-10-12/research250-255.json"
+    ],
+    "comment252EvidenceCorrection": {
+      "countryAssignmentsCorrected": true,
+      "detail": "Scambiare solo «La versione cinese»→«La versione portoghese» e «quella portoghese»→«quella cinese» nel testo252; resto ed enfasi conservati.",
+      "authorization": "Commento264 e preferenza dell’utente già espressa nella sessione per riferimenti corretti alle figure.",
+      "remainingTextAndBoldPreserved": true
+    },
+    "comment250Normalization": "del2024 -> del 2024",
+    "latestMcDonaldRevision": {
+      "comments": [
+        250,
+        252,
+        255,
+        264
+      ],
+      "report": "reports/figma-comments-2026-10-12/research250-255.json",
+      "textNodeIds": [
+        "2668:415",
+        "2668:421",
+        "2668:423",
+        "2668:432"
+      ],
+      "bodyFont": "10/15",
+      "requestedBoldPreserved": true,
+      "captionFont": "7/12",
+      "activeVisualFrameReflow": [
+        {
+          "boardId": "2648:383",
+          "imageId": "I3242:17950;3165:593;3242:17964",
+          "visualFrameId": "I3242:17950;3165:593;3242:17963",
+          "before": {
+            "w": 300.0411071777344,
+            "h": 294,
+            "bodyBottom": 643.5
+          },
+          "after": {
+            "w": 300.0411071777344,
+            "h": 234.5,
+            "bodyBottom": 584
+          },
+          "ratioPreserved": true,
+          "paintUnchanged": true
+        },
+        {
+          "boardId": "2648:441",
+          "imageId": "I3242:18004;3165:593;3242:18018",
+          "visualFrameId": "I3242:18004;3165:593;3242:18017",
+          "before": {
+            "w": 253.7315673828125,
+            "h": 316,
+            "bodyBottom": 605.5
+          },
+          "after": {
+            "w": 253.7315673828125,
+            "h": 294.5,
+            "bodyBottom": 584
+          },
+          "ratioPreserved": true,
+          "paintUnchanged": true
+        }
+      ],
+      "allCaptionsWithin584": true,
+      "sourcePaintAndRasterPixelsPreserved": true,
+      "originalImportedTextBlocksPreserved": 41,
+      "createdBoards": 0,
+      "structuralCountsUpdated": false,
+      "rootScreenshotQAPassed": true
+    }
   }
 }

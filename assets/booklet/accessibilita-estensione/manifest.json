@@ -1,0 +1,399 @@
+{
+  "schema": "cvedi-accessibility-extension/1",
+  "updatedOn": "2026-10-11",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1110",
+    "sectionId": "2188:1088",
+    "url": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=2188-1088",
+    "boardCount": 36,
+    "range": [
+      70,
+      105
+    ],
+    "printedRange": [
+      168,
+      203
+    ],
+    "addedBoardCount": 24,
+    "addedBoardSequence": [
+      "2825:233",
+      "2825:288",
+      "2811:133",
+      "2811:177",
+      "2811:218",
+      "2811:262",
+      "2811:301",
+      "2811:345",
+      "2825:328",
+      "2825:372",
+      "2811:384",
+      "2811:429",
+      "2811:470",
+      "2811:516",
+      "2811:556",
+      "2811:600",
+      "2811:639",
+      "2811:685",
+      "2811:725",
+      "2811:773",
+      "2811:812",
+      "2811:857",
+      "2811:897",
+      "2811:937"
+    ],
+    "originalBoardIdsPreserved": [
+      "198:3435",
+      "198:3877",
+      "198:3446",
+      "198:3892",
+      "198:3464",
+      "198:3903",
+      "198:3498",
+      "198:3924",
+      "198:3481",
+      "198:3913",
+      "198:3515",
+      "198:3934"
+    ],
+    "closingBoardIds": [
+      "198:3515",
+      "198:3934"
+    ],
+    "chapter3BoardCount": 313,
+    "printedChapter3LastPage": 411,
+    "printedLastPage": 429,
+    "boardSequence": [
+      "198:3435",
+      "198:3877",
+      "198:3446",
+      "198:3892",
+      "198:3464",
+      "198:3903",
+      "198:3498",
+      "198:3924",
+      "198:3481",
+      "198:3913",
+      "2825:233",
+      "2825:288",
+      "2811:133",
+      "2811:177",
+      "2811:218",
+      "2811:262",
+      "2811:301",
+      "2811:345",
+      "2825:328",
+      "2825:372",
+      "2811:384",
+      "2811:429",
+      "2811:470",
+      "2811:516",
+      "2811:556",
+      "2811:600",
+      "2811:639",
+      "2811:685",
+      "2811:725",
+      "2811:773",
+      "2811:812",
+      "2811:857",
+      "2811:897",
+      "2811:937",
+      "198:3515",
+      "198:3934"
+    ]
+  },
+  "content": "contenuti.json",
+  "sources": "fonti.json",
+  "sourceCount": 55,
+  "nativeSourceHyperlinkCount": 74,
+  "sourcesVerifiedBeforeInsertion": true,
+  "assets": [
+    {
+      "path": "assets/booklet/accessibilita-estensione/tlou-controller-remap.png",
+      "sourceUrl": "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-accessibility-controller-remap-en-12jan21?wid=1920&fmt=png",
+      "contextUrl": "https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/",
+      "retrievedOn": "2026-10-11",
+      "sha256": "e5956afd7e0302c39c4f941565462e7ced910ae1c07d831c62d1197152e65510",
+      "bytes": 549926,
+      "width": 1920,
+      "height": 1080,
+      "figmaImageHash": "4018deb2065e8bf15238b7f1a83685ae3ad41c13",
+      "rights": "Screenshot ufficiale PlayStation/Naughty Dog, contenuto di terzi protetto da copyright. Non è stato identificato come asset con licenza aperta. Fonte e attribuzione conservate; uso documentario didattico nel booklet."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/tlou-high-contrast.png",
+      "sourceUrl": "https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-ii-accessibility-high-contrast-mode-en-12jan21?wid=1920&fmt=png",
+      "contextUrl": "https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/",
+      "retrievedOn": "2026-10-11",
+      "sha256": "256e0b93a7e3bffc0d5872c8b5c8b2e17bb3d7fa26d3ef0b46148ce1342a5f28",
+      "bytes": 1348900,
+      "width": 1920,
+      "height": 1080,
+      "figmaImageHash": "8d4909fea7bc7c8fef79d2aab384e92207cbbbeb",
+      "rights": "Screenshot ufficiale PlayStation/Naughty Dog, contenuto di terzi protetto da copyright. Non è stato identificato come asset con licenza aperta. Fonte e attribuzione conservate; uso documentario didattico nel booklet."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.pdf",
+      "sha256": "7baa8e455ed5d1e074aeaa217e4b226ea6c585e1439a8596c3e731160b7a352f",
+      "bytes": 1368488,
+      "sourceUrl": "https://intopia.digital/wp-content/uploads/2024/05/Italian-WCAG-2.2-Map-by-Intopia.pdf",
+      "contextUrl": "https://intopia.digital/articles/intopias-wcag-2-2-maps/",
+      "retrievedOn": "2026-10-11",
+      "rights": "Intopia e Sketch Group; traduzione di Roberto Scano. Creative Commons Attribution-ShareAlike4.0 International.",
+      "role": "PDF ufficiale originale completo, conservato senza modifiche."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.png",
+      "sha256": "a0d3210696852e24926c762a37f64b10fbceb9a6564b799e2ab8c173164f1b35",
+      "bytes": 2405873,
+      "derivedFrom": "assets/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.pdf",
+      "width": 2573,
+      "height": 3638,
+      "rendering": "pdftoppm,220dpi, pagina completa senza ritaglio o filtri.",
+      "figmaImageHash": "e6655df663864989dc0411505448a1c621e6d086",
+      "figmaNodeId": "2825:418",
+      "rights": "Intopia e Sketch Group; traduzione di Roberto Scano. CC BY-SA4.0.",
+      "role": "Raster della mappa completa usato in Figma."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/wcag-mappa-precedente-1.jpeg",
+      "sha256": "944520a1e941955a57881dc411e2d6005dac1f9d8e69acbbcc1cd116d482791b",
+      "bytes": 780123,
+      "width": 1140,
+      "height": 1551,
+      "role": "Originale precedente conservato, sostituito nel percorso attivo.",
+      "sourceFigmaImageHash": "f62fcbfc8da5694501b0e404b77c71afe9d0755c",
+      "rights": "Asset preesistente esportato da Figma; provenienza esterna e diritti non ulteriormente determinati."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/wcag-mappa-precedente-2.jpeg",
+      "sha256": "aa82c0c0a27694ac8a6c294eec2f2a112e81aff8226cfc1bef11f2daec45ff4a",
+      "bytes": 87325,
+      "width": 285,
+      "height": 388,
+      "role": "Secondo raster della figura precedente conservato con l’esportazione originale.",
+      "rights": "Asset preesistente esportato da Figma; provenienza esterna e diritti non ulteriormente determinati."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/figura-reflow.svg",
+      "sha256": "19dae969aab74469b829d5b0214959d23a1d9719a1234a249351682b842bfd82",
+      "bytes": 3968,
+      "width": 363,
+      "height": 112,
+      "sourceUrl": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "figmaNodeId": "2835:252",
+      "rights": "Figure originali native create per il booklet. Nessun raster di terzi importato; riferimenti W3C dei concetti conservati.",
+      "role": "Originale vettoriale della figura nativa, con testo conservato come SVG text."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/figura-target-size.svg",
+      "sha256": "679efdb76a4036ba7256909e0b55e4e9d9d9a78c45cc08a63f479500deff1afd",
+      "bytes": 4747,
+      "width": 363,
+      "height": 110,
+      "sourceUrl": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "figmaNodeId": "2835:269",
+      "rights": "Figure originali native create per il booklet. Nessun raster di terzi importato; riferimenti W3C dei concetti conservati.",
+      "role": "Originale vettoriale della figura nativa, con testo conservato come SVG text."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/figura-name-role-state.svg",
+      "sha256": "4b9230da665e035b41a49b1330781db566d6f90294c1460a17c1741cf62ef9a2",
+      "bytes": 4701,
+      "width": 363,
+      "height": 144,
+      "sourceUrl": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",
+      "figmaNodeId": "2835:294",
+      "rights": "Figure originali native create per il booklet. Nessun raster di terzi importato; riferimenti W3C dei concetti conservati.",
+      "role": "Originale vettoriale della figura nativa, con testo conservato come SVG text."
+    },
+    {
+      "path": "assets/booklet/accessibilita-estensione/figura-form-errors.svg",
+      "sha256": "51c31cec2781dbec463efabc7cf040ca72d93d76b1a8972053e9a9ed2469c43c",
+      "bytes": 3695,
+      "width": 363,
+      "height": 90,
+      "sourceUrl": "https://www.w3.org/WAI/tutorials/forms/notifications/",
+      "figmaNodeId": "2835:314",
+      "rights": "Figure originali native create per il booklet. Nessun raster di terzi importato; riferimenti W3C dei concetti conservati.",
+      "role": "Originale vettoriale della figura nativa, con testo conservato come SVG text."
+    }
+  ],
+  "verification": {
+    "textPreservation": "Contenuti precedenti conservati salvo le correzioni e integrazioni autorizzate. Le due modifiche alle12tavole iniziali riguardano la formulazione introduttiva e la didascalia della mappa sostituita.",
+    "originalTextChanges": [
+      {
+        "key": "intro-precision",
+        "nodeId": "198:3891",
+        "before": "Nella progettazione di prodotti e servizi digitali esiste il rischio, spesso implicito, di assumere come riferimento una presunta “persona media”. \n\nQuesto approccio, apparentemente orientato a raggiungere il maggior numero possibile di utenti, finisce in realtà per escludere tutti coloro che non rientrano in tale modello astratto. La diversità umana non costituisce un’eccezione da gestire a posteriori, ma una condizione di partenza del progetto. \n\nPer questa ragione, parlare di accessibilità e design inclusivo significa affrontare una questione non marginale, bensì strutturale: progettare esperienze che possano essere comprese, percepite e utilizzate da persone con caratteristiche, abilità, condizioni e contesti differenti.\n\nIn questo quadro è utile distinguere due concetti spesso avvicinati ma non coincidenti: universal design e inclusive design.",
+        "after": "Nella progettazione di prodotti e servizi digitali esiste il rischio, spesso implicito, di assumere come riferimento una presunta “persona media”. \n\nQuesto approccio, apparentemente orientato a raggiungere il maggior numero possibile di utenti, può escludere persone con bisogni non considerati. La diversità umana non costituisce un’eccezione da gestire a posteriori, ma una condizione di partenza del progetto. \n\nPer questa ragione, parlare di accessibilità e design inclusivo significa affrontare una questione non marginale, bensì strutturale: progettare esperienze che possano essere comprese, percepite e utilizzate da persone con caratteristiche, abilità, condizioni e contesti differenti.\n\nIn questo quadro è utile distinguere due concetti spesso avvicinati ma non coincidenti: universal design e inclusive design."
+      },
+      {
+        "key": "map-caption",
+        "nodeId": "2141:1360",
+        "before": "Mappa dei principi e dei criteri delle Web Content Accessibility Guidelines (WCAG) 2.2.",
+        "after": "Mappa completa WCAG 2.2. Intopia e Sketch Group; traduzione di Roberto Scano. CC BY-SA 4.0."
+      }
+    ],
+    "outsideBodyMargins": [],
+    "fonts": [
+      "Geom",
+      "Merriweather"
+    ],
+    "newNodeTypeCounts": {
+      "SLICE": 20,
+      "INSTANCE": 50,
+      "RECTANGLE": 20,
+      "LINE": 20,
+      "FRAME": 120,
+      "TEXT": 291,
+      "ELLIPSE": 30
+    },
+    "composition": "reports/accessibilita-estensione/figure-native-composizione.png",
+    "structuralReport": "reports/accessibilita-estensione/figure-native-verifica.json",
+    "numberingReport": "reports/accessibilita-estensione/numerazione.json",
+    "visualReview": "Quattro tavole controllate al formato della pagina. Nessuna sovrapposizione con fonti o folio; nessun font mancante. Il ritaglio nel pannello sinistro del reflow è intenzionale e dichiara l’esempio di un layout che deborda.",
+    "sourceCheck": "pnpm check:source: PASS",
+    "build": "pnpm build: PASS",
+    "bodyOutsideMarginsCount": 0,
+    "originalTextChangeCount": 2,
+    "printExport": "Quattro esportazioni PDF native riuscite per le tavole con nuove figure; controllo visivo delle catture Figma.",
+    "printReport": "reports/accessibilita-estensione/figure-native-verifica.json",
+    "practicalVerification": "reports/accessibilita-estensione/integrazioni-pratiche-verifica.json",
+    "currentNodeTypeCounts": {
+      "FRAME": 246,
+      "SLICE": 36,
+      "INSTANCE": 96,
+      "RECTANGLE": 62,
+      "LINE": 36,
+      "TEXT": 451,
+      "GROUP": 14,
+      "ELLIPSE": 56,
+      "VECTOR": 11
+    },
+    "registryConsistency": "24 pagine aggiunte,55 fonti registrate,36 tavole,313 tavole C03 e ultima pagina429; quattro figure native senza inserire nuove tavole.",
+    "nativeFigureVerification": "reports/accessibilita-estensione/figure-native-verifica.json"
+  },
+  "numbering": {
+    "insertedBeforeOriginalPrintedPage": 178,
+    "shift": 24,
+    "observedPreviousPrintedLastPage": 405,
+    "previousDocumentationPrintedLastPage": 399,
+    "note": "Numerazione aggiornata alle24pagine aggiunte complessivamente, con le ultime quattro collocate in due coppie per conservare il latoSX/DX delle tavole precedenti. La base iniziale terminava al folio405, rilevato in Figma rispetto al399 indicato dalla documentazione precedente.",
+    "practicalShift": 4
+  },
+  "practicalRevision": {
+    "data": "integrazioni-pratiche.json",
+    "script": "integra-pratiche-figma.js",
+    "topics": [
+      "Contrasto dei controlli",
+      "Ingrandimento e adattamento",
+      "Nome/ruolo/stato e feedback dinamico"
+    ],
+    "addedBoards": [
+      {
+        "key": "contrasto-controlli",
+        "id": "2825:233",
+        "title": "Contrasto dei controlli",
+        "insertBefore": "2811:133",
+        "contentHeight": 447,
+        "ordinal": 80,
+        "folio": 178
+      },
+      {
+        "key": "zoom-adattamento",
+        "id": "2825:288",
+        "title": "Ingrandimento e adattamento",
+        "insertBefore": "2811:133",
+        "contentHeight": 421,
+        "ordinal": 81,
+        "folio": 179
+      },
+      {
+        "key": "controlli-semantici",
+        "id": "2825:328",
+        "title": "Nome, ruolo e stato dei controlli",
+        "insertBefore": "2811:384",
+        "contentHeight": 453,
+        "ordinal": 88,
+        "folio": 186
+      },
+      {
+        "key": "feedback-dinamico",
+        "id": "2825:372",
+        "title": "Feedback e messaggi di stato",
+        "insertBefore": "2811:384",
+        "contentHeight": 411,
+        "ordinal": 89,
+        "folio": 187
+      }
+    ],
+    "briefPassages": [
+      "Aiuto facile da trovare",
+      "Consenso comprensibile alla ricerca"
+    ],
+    "authorizedCorrections": [
+      "intro-precision",
+      "keyboard-precision",
+      "drag-source",
+      "map"
+    ],
+    "sourceVerificationBeforeInsertion": true,
+    "receipt": "reports/accessibilita-estensione/integrazioni-pratiche-inserimento.json",
+    "numbering": "reports/accessibilita-estensione/integrazioni-pratiche-numerazione.json",
+    "verification": "reports/accessibilita-estensione/integrazioni-pratiche-verifica.json",
+    "diagram": {
+      "boardId": "2825:233",
+      "type": "Figura nativa modificabile, esempio simulato con due caselle",
+      "colors": [
+        "#AAAAAA",
+        "#666666",
+        "#FFFFFF"
+      ],
+      "contrasts": [
+        2.3231230535045992,
+        5.741836481454148
+      ],
+      "scope": "Contrasto del bordo rispetto al bianco; non valutazione completa del componente."
+    }
+  },
+  "nativeFigures": {
+    "data": "figure-native.json",
+    "script": "inserisci-figure-native-figma.js",
+    "count": 4,
+    "folios": [
+      179,
+      183,
+      186,
+      192
+    ],
+    "figures": [
+      {
+        "key": "reflow",
+        "boardId": "2825:288",
+        "nodeId": "2835:252",
+        "svg": "assets/booklet/accessibilita-estensione/figura-reflow.svg"
+      },
+      {
+        "key": "target-size",
+        "boardId": "2811:262",
+        "nodeId": "2835:269",
+        "svg": "assets/booklet/accessibilita-estensione/figura-target-size.svg"
+      },
+      {
+        "key": "name-role-state",
+        "boardId": "2825:328",
+        "nodeId": "2835:294",
+        "svg": "assets/booklet/accessibilita-estensione/figura-name-role-state.svg"
+      },
+      {
+        "key": "form-errors",
+        "boardId": "2811:556",
+        "nodeId": "2835:314",
+        "svg": "assets/booklet/accessibilita-estensione/figura-form-errors.svg"
+      }
+    ],
+    "receipt": "reports/accessibilita-estensione/figure-native-inserimento.json",
+    "verification": "reports/accessibilita-estensione/figure-native-verifica.json"
+  }
+}

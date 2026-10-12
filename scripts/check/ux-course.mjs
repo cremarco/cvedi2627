@@ -27,11 +27,24 @@ try {
     return [...root.querySelectorAll('.index-grid button')].map((button, index) => ({
       text: button.textContent.trim(),
       actual: rgb(getComputedStyle(button).backgroundColor),
-      expected: rgb(style.getPropertyValue(`--cvedi-${['red','orange','amber','yellow','blue','lime','green','emerald','teal','cyan','sky'][index]}-800`)),
+      expected: rgb(style.getPropertyValue(`--cvedi-${['red','orange','amber','yellow','lime','green','emerald','teal','cyan','sky','blue'][index]}-800`)),
     }))
   })
   assert.equal(colors.length, 11, 'all local index groups are available')
-  for (const color of colors) assert.deepEqual(color.actual, color.expected, `${color.text}: destination palette in the ordered index`)
+  for (const color of colors) assert.deepEqual(color.actual, color.expected, `${color.text}: Tailwind palette order in the index`)
+
+  const destinations = ['presentazione-corso', 'introduzione-teorica', 'brief-progetto', 'approfondimenti',
+    'storia-design', 'ricerca-inclusiva', 'percezione-gerarchia', 'colore', 'tipografia-griglie', 'prototipi-interfacce', 'test-implementazione']
+  for (const [index, alias] of destinations.entries()) {
+    const cover = await openSlide(page, base, alias, { settle: true })
+    const background = await cover.evaluate(root => {
+      const context = document.createElement('canvas').getContext('2d')
+      context.fillStyle = getComputedStyle(root).backgroundColor
+      context.fillRect(0, 0, 1, 1)
+      return [...context.getImageData(0, 0, 1, 1).data].slice(0, 3)
+    })
+    assert.deepEqual(background, colors[index].actual, `${alias}: cover uses the same primary as its index button`)
+  }
 
   for (const slide of slides) {
     const root = await openSlide(page, base, slide.index + 1, { settle: true })

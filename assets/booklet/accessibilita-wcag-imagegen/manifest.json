@@ -1,0 +1,100 @@
+{
+  "schema": "cvedi-wcag-imagegen-restoration/1",
+  "updatedOn": "2026-10-12",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1110",
+    "boardId": "198:3924",
+    "imageNodeId": "3242:1093",
+    "imageHash": "3f9c38af16d96a86993f068f922f7f9a74c7ab65",
+    "printedFolio": 176,
+    "url": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=198-3924"
+  },
+  "asset": {
+    "path": "assets/booklet/accessibilita-wcag-imagegen/mappa-wcag-2.2-booklet-v1.png",
+    "width": 1054,
+    "height": 1492,
+    "bytes": 1875098,
+    "sha256": "4f7015fabb341a84e53cd30eadbb0858f29d315fef5f60cec18d7defe46af521",
+    "role": "Mappa WCAG 2.2 completa rielaborata nello stile rosso/nero del booklet; visuale attiva in Figma."
+  },
+  "generation": {
+    "mode": "built-in image_gen",
+    "prompt": "assets/booklet/accessibilita-wcag-imagegen/prompt-v1.txt",
+    "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a130c8-70ab-7663-a027-d845ee44d40c/exec-04c656ac-7ee8-495c-bc1e-95d819606cb6.png",
+    "references": [
+      {
+        "path": "assets/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.png",
+        "role": "Contenuti e struttura della mappa originale completa."
+      },
+      {
+        "path": "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera-v2.png",
+        "role": "Riferimento per palette e stile illustrativo."
+      }
+    ],
+    "palette": [
+      "#C10007",
+      "#030712",
+      "#FFFFFF",
+      "grigi neutri"
+    ],
+    "intent": "Ripristino della mappa completa su richiesta; la conferma dell’utente identifica la mappa WCAG."
+  },
+  "content": {
+    "principles": 4,
+    "guidelines": 13,
+    "activeCriteria": 86,
+    "historicalRemovedCriterion": "4.1.1",
+    "successLevels": [
+      "A",
+      "AA",
+      "AAA"
+    ],
+    "newCriteria": [
+      "2.4.11",
+      "2.4.12",
+      "2.4.13",
+      "2.5.7",
+      "2.5.8",
+      "3.2.6",
+      "3.3.7",
+      "3.3.8",
+      "3.3.9"
+    ]
+  },
+  "sources": [
+    {
+      "title": "WCAG 2.2 Map · Italian",
+      "authors": [
+        "Intopia",
+        "Sketch Group"
+      ],
+      "translator": "Roberto Scano",
+      "url": "https://intopia.digital/wp-content/uploads/2024/05/Italian-WCAG-2.2-Map-by-Intopia.pdf",
+      "contextUrl": "https://intopia.digital/articles/intopias-wcag-2-2-maps/",
+      "localOriginalPdf": "assets/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.pdf",
+      "localOriginalRaster": "assets/booklet/accessibilita-estensione/wcag-2.2-mappa-italiana.png",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "title": "W3C · WCAG 2.2",
+      "url": "https://www.w3.org/TR/WCAG22/",
+      "quickReference": "https://www.w3.org/WAI/WCAG22/quickref/",
+      "verifiedOn": "2026-10-12"
+    }
+  ],
+  "rights": {
+    "license": "CC BY-SA 4.0",
+    "attribution": "Intopia e Sketch Group; traduzione di Roberto Scano; rielaborazione con ImageGen.",
+    "changes": "Palette e illustrazioni rielaborate; organizzazione radiale, principi, linee guida, criteri e livelli conservati. 4.1.1 indicato come rimosso."
+  },
+  "preserved": {
+    "nativeOverviewFrameId": "3126:846",
+    "nativeTitleId": "3126:839",
+    "previousCompleteMapArchiveFrameId": "2141:1363",
+    "previousCompleteMapImageId": "2825:418",
+    "state": "Composizioni precedenti conservate nascoste nella stessa tavola; originali sul filesystem invariati."
+  },
+  "figmaState": "assets/booklet/accessibilita-wcag-imagegen/stato-figma.json",
+  "verification": "reports/accessibilita-wcag-imagegen/verifica.json"
+}

@@ -1,0 +1,503 @@
+{
+  "schema": "cvedi-booklet-sources/1",
+  "verifiedOn": "2026-10-11",
+  "verificationScope": "Controllo dei requisiti e delle raccomandazioni delle24tavole aggiunte prima dell’inserimento, comprese le quattro integrazioni pratiche; nessun audit di conformità dei prodotti citati.",
+  "sources": [
+    {
+      "id": "abilities",
+      "label": "WAI · Abilities and barriers",
+      "url": "https://www.w3.org/WAI/people-use-web/abilities-barriers/",
+      "support": "Modalità d’uso, tecnologie assistive e barriere.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "users",
+      "label": "WAI · Involving Users in Evaluation",
+      "url": "https://www.w3.org/WAI/test-evaluate/involving-users/",
+      "support": "Compiti concreti; integrare utenti e verifica dei criteri; limiti del campione.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "stories",
+      "label": "WAI · Stories of Web Users",
+      "url": "https://www.w3.org/WAI/people-use-web/user-stories/",
+      "support": "Scenari illustrativi; non risultati di una ricerca svolta nel booklet.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "keyboard",
+      "label": "WCAG 2.2 · 2.1.1 / 2.1.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+      "support": "Uso da tastiera e distinzione dal percorso del movimento.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "focus-order",
+      "label": "WCAG 2.2 · 2.4.3 / 2.4.7",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html",
+      "support": "Ordine del focus; indicatore visibile verificato su focus-visible.html.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "dialog",
+      "label": "WAI-ARIA APG · Dialog (Modal)",
+      "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/",
+      "support": "Focus contenuto nel dialogo e restituzione appropriata alla chiusura.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "target",
+      "label": "WCAG 2.2 · 2.5.8 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "support": "24×24 CSS px ed eccezioni, compresa spaziatura.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "drag",
+      "label": "WCAG 2.2 · 2.5.7 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+      "support": "Alternativa con puntatore singolo senza trascinamento.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "target-enhanced",
+      "label": "WCAG 2.2 · 2.5.5 AAA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html",
+      "support": "44×44 CSS px; eccezioni distinte dal criterio AA.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "images",
+      "label": "WAI · Images Tutorial",
+      "url": "https://www.w3.org/WAI/tutorials/images/",
+      "support": "Alternativa informativa, funzionale o vuota per decorazioni.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "complex-images",
+      "label": "WAI · Complex Images",
+      "url": "https://www.w3.org/WAI/tutorials/images/complex/",
+      "support": "Descrizione breve e equivalente completo per contenuti complessi.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "structure",
+      "label": "WAI · Page Structure",
+      "url": "https://www.w3.org/WAI/tutorials/page-structure/",
+      "support": "Gerarchie e relazioni semantiche.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "captions",
+      "label": "WCAG 2.2 · 1.2.2 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html",
+      "support": "Sottotitoli: parlato, parlanti, audio significativo ed eccezione.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "audio-description",
+      "label": "WCAG 2.2 · 1.2.5 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html",
+      "support": "Informazioni visive rilevanti, già comunicabili nella traccia audio.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "media-planning",
+      "label": "WAI · Planning Audio and Video",
+      "url": "https://www.w3.org/WAI/media/av/planning/",
+      "support": "Pianificare alternative durante produzione e scelta del player.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "cognitive",
+      "label": "WAI · Cognitive and Learning",
+      "url": "https://www.w3.org/WAI/people-use-web/abilities-barriers/cognitive/",
+      "support": "Diversità dei bisogni cognitivi; non inferire profilo dalla diagnosi.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "supplemental",
+      "label": "WAI · Supplemental Guidance",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/about/",
+      "support": "COGA supplementare, distinta dai requisiti di conformità.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "clear-words",
+      "label": "COGA · Clear Words",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p01-clear-words/",
+      "support": "Parole comuni e gergo spiegato.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "steps",
+      "label": "COGA · Step-by-step Instructions",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p07-step-instructions/",
+      "support": "Istruzioni in passaggi brevi prima dell’azione.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "memory",
+      "label": "COGA · Reduce Memory Demands",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/",
+      "support": "Informazioni disponibili al punto d’uso e riepiloghi.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "task",
+      "label": "COGA · Task Expectations",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p04-task-expectations/",
+      "support": "Risorse, tempo, panoramica passi e avanzamento.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "pause",
+      "label": "WCAG 2.2 · 2.2.2 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "support": "Movimento automatico oltre5secondi in parallelo; condizioni degli aggiornamenti distinte.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "animation",
+      "label": "WCAG 2.2 · 2.3.3 AAA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "support": "Movimento attivato da interazione disabilitabile, salvo essenzialità.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "interruptions",
+      "label": "COGA · Limit Interruptions",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p01-minimal-interruptions/",
+      "support": "Controllo di notifiche e distrazioni.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "data-loss",
+      "label": "COGA · Avoid Data Loss",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p09-data-loss/",
+      "support": "Salvataggio, limiti e ripresa; raccomandazione più ampia del minimoWCAG.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "timing",
+      "label": "WCAG 2.2 · 2.2.1 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",
+      "support": "Disattivazione, regolazione o estensione con relative condizioni ed eccezioni.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "redundant",
+      "label": "WCAG 2.2 · 3.3.7 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html",
+      "support": "Stesso processo, precompilazione o selezione, eccezioni.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "labels",
+      "label": "WAI · Labels and Instructions",
+      "url": "https://www.w3.org/WAI/tutorials/forms/labels/",
+      "support": "Etichette associate e visibili; placeholder insufficiente.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "errors",
+      "label": "WCAG 2.2 · 3.3.1 / 3.3.3",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html",
+      "support": "Identificazione in testo e suggerimenti verificati su error-suggestion.html.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "error-prevention",
+      "label": "WCAG 2.2 · 3.3.4 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html",
+      "support": "Reversibilità, verifica/correzione o conferma per operazioni previste.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "authentication",
+      "label": "WCAG 2.2 · 3.3.8 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html",
+      "support": "Assistenza o alternative ai test cognitivi; eccezioni AA.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "authentication-enhanced",
+      "label": "WCAG 2.2 · 3.3.9 AAA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html",
+      "support": "AAA non ammette eccezioni per oggetti e contenuti personali.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "personal",
+      "label": "COGA · Personalized Interface",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/",
+      "support": "Preferenze facilmente configurabili e base leggibile.",
+      "verifiedOn": "2026-10-11",
+      "kind": "supplemental-guidance"
+    },
+    {
+      "id": "resize",
+      "label": "WCAG 2.2 · 1.4.4 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+      "support": "Ingrandimento del testo.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "reflow",
+      "label": "WCAG 2.2 · 1.4.10 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "support": "Adattamento della presentazione senza perdita di contenuti/funzioni nei casi previsti.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "names",
+      "label": "W3C · Personal Names",
+      "url": "https://www.w3.org/International/questions/qa-personal-names",
+      "support": "Convenzioni diverse e campi adeguati allo scopo.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "language",
+      "label": "WCAG 2.2 · 3.1.1 / 3.1.2",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html",
+      "support": "Lingua pagina e parti; requisiti ed eccezioni.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "focus-obscured",
+      "label": "WCAG 2.2 · 2.4.11 / 2.4.12",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html",
+      "support": "AA componente non interamente nascosto; AAA nessuna parte nascosta.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "conformance",
+      "label": "W3C · WCAG Conformance",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/conformance",
+      "support": "Pagine e processi completi.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "evaluation",
+      "label": "WAI · Evaluating Accessibility",
+      "url": "https://www.w3.org/WAI/test-evaluate/",
+      "support": "Valutazione umana, strumenti e ambito.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "tools",
+      "label": "WAI · Evaluation Tools",
+      "url": "https://www.w3.org/WAI/test-evaluate/tools/",
+      "support": "Nessuno strumento automatico da solo determina conformità.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "easy-checks",
+      "label": "WAI · Easy Checks",
+      "url": "https://www.w3.org/WAI/test-evaluate/preliminary/",
+      "support": "Controlli preliminari non esaustivi.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "involving",
+      "label": "WAI · Involving Users in Projects",
+      "url": "https://www.w3.org/WAI/planning/involving-users/",
+      "support": "Partecipazione durante il progetto.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "tlou",
+      "label": "PlayStation / Naughty Dog · TLOU Part II",
+      "url": "https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/",
+      "support": "Più60opzioni, rimappatura, preset e ausili documentati; nessuna attestazione generale d’efficacia o conformità.",
+      "verifiedOn": "2026-10-11",
+      "kind": "official-product-documentation"
+    },
+    {
+      "id": "text-spacing",
+      "label": "WCAG 2.2 · 1.4.12 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+      "support": "Override della spaziatura senza perdita di contenuti o funzioni; non prescrive interlinea predefinita.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "flashes",
+      "label": "WCAG 2.2 · 2.3.1 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html",
+      "support": "La verifica dei flash è distinta dal controllo del movimento e delle interruzioni.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "non-text-contrast",
+      "label": "WCAG 2.2 · 1.4.11 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+      "support": "Contrasto 3:1 dei segnali non testuali necessari; ambito ed eccezioni.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "name-role-value",
+      "label": "WCAG 2.2 · 4.1.2 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",
+      "support": "Nome, ruolo, stato, valore e aggiornamenti dei componenti.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "label-in-name",
+      "label": "WCAG 2.2 · 2.5.3 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html",
+      "support": "Testo dell’etichetta visibile contenuto nel nome accessibile.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "status-messages",
+      "label": "WCAG 2.2 · 4.1.3 AA",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",
+      "support": "Messaggi di stato identificabili programmaticamente senza ricevere focus; ambito limitato.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "human-help",
+      "label": "COGA · Provide Human Help",
+      "url": "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p01-human-help/",
+      "support": "Indicazione supplementare per raggiungere aiuto umano.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "consistent-help",
+      "label": "WCAG 2.2 · 3.2.6 A",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html",
+      "support": "Ordine relativo degli aiuti ripetuti; non impone di introdurre aiuto.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "informed-consent",
+      "label": "COGA · §5.3 Informed Consent",
+      "url": "https://www.w3.org/TR/coga-usable/#informed-consent",
+      "support": "Consenso comprensibile, volontarietà, possibilità di interrompere.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "intopia-map-it",
+      "label": "Intopia · Mappa WCAG 2.2 italiana",
+      "url": "https://intopia.digital/articles/intopias-wcag-2-2-maps/",
+      "support": "Mappa completa, traduzione Roberto Scano, licenza CC BY-SA 4.0.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    },
+    {
+      "id": "form-notifications",
+      "label": "WAI · User Notifications",
+      "url": "https://www.w3.org/WAI/tutorials/forms/notifications/",
+      "support": "Messaggi di errore comprensibili, istruzioni per correggere e associazione fra campo ed errore. Fonte dell’esempio simulato.",
+      "verifiedOn": "2026-10-11",
+      "kind": "primary"
+    }
+  ],
+  "additionalVerifiedSources": [
+    {
+      "for": "keyboard",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html"
+    },
+    {
+      "for": "focus-order",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html"
+    },
+    {
+      "for": "structure",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html"
+    },
+    {
+      "for": "errors",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html"
+    },
+    {
+      "for": "language",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html"
+    },
+    {
+      "for": "focus-obscured",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html"
+    }
+  ],
+  "inspirations": [
+    {
+      "id": "calo",
+      "author": "Marta Calò",
+      "path": "materiali/approfondimenti/2022-2023/materiali-collegati-2cfu/approfondimento-caloaccessibilita.pdf",
+      "use": "Scenari e relazione fra abilità, compiti e barriere; rielaborati e verificati sulle fontiWAI.",
+      "sha256": "c32faa78cbf5966bc98c7c1732ee1a89e7b8278ed3de85946dc9508fb15e38f9"
+    },
+    {
+      "id": "elhajjaoui",
+      "author": "Monia Elhajjaoui",
+      "path": "materiali/approfondimenti/2022-2023/elhajjaoui-865663-inclusive-web-design.pdf",
+      "use": "Diversità, personalizzazione e partecipazione; nessuna ripresa di esempi di prodotto non verificati.",
+      "sha256": "d053956c6cfa0c6e3b2140e96a65a55017daa255aea7a84773f3d112dc6a4e16"
+    },
+    {
+      "id": "liso",
+      "author": "Roberta Liso",
+      "path": "materiali/approfondimenti/2025-2026/liso-roberta-933726.pdf",
+      "use": "Accessibilità cognitiva e casoTLOU; omesse generalizzazioni su benefici clinici o neuroinclusività.",
+      "sha256": "315aaf3b2e948c4ee25e68199cc0813393e4ee6722818d73dd46b9e5aafe5376"
+    },
+    {
+      "id": "lofaro",
+      "author": "Giacomo Lo Faro",
+      "path": "materiali/approfondimenti/2025-2026/lo-faro-giacomo-870336.pdf",
+      "use": "Memoria, istruzioni e continuità informativa; nessuna soglia fissa di capacità mnemonica.",
+      "sha256": "6c302df16652b5c358053a7208e8c20489b2f419d7fd2dbef26a848caf49004d"
+    }
+  ]
+}

@@ -56,6 +56,12 @@
   width: 100%;
   align-self: stretch;
 }
+/* Parallel teaching comparisons keep their explanatory captions in the full
+   column, so wrapping does not shrink the measured image slot recursively. */
+.slidev-layout.default.figure-comparison .lesson-figure figcaption {
+  width: 100%;
+  align-self: stretch;
+}
 /* Question → development and supporting figure → expected result. The frame
    can shrink for two-line titles; text is never assigned a fixed height. */
 .slidev-layout.default.topic-slide > .topic-layout {

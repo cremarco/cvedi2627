@@ -1,0 +1,59 @@
+Use case: style-transfer / infographic-diagram
+Asset type: a detailed Italian WCAG 2.2 educational map for a printed accessibility booklet.
+Primary request: faithfully recreate the COMPLETE supplied WCAG map in the booklet's red, black and white style. Preserve the information, all criterion identifiers, all Italian criterion names, levels A / AA / AAA, and which criteria are new in WCAG 2.2. This must remain the COMPLETE map, not a simplified 13-guideline overview.
+Input images: Image 1 wcag-2.2-mappa-italiana.png is the exact content and overall map-layout reference. Image 2 scenario-tastiera-v2.png is ONLY a visual style reference.
+Format: high-resolution portrait infographic, approximately 2576 x 3648 pixels or larger, width:height about 0.706. Content from edge to edge with a modest safe margin. Use crisp legible print typography; glyphs, decimals and accents must be accurate and sharp.
+Style: clean flat geometric editorial illustration; geometric sans serif like Geom for headings and labels, thin crisp black lines; primary red #C10007, near-black #030712, white #FFFFFF, and neutral light gray. No multicolor sectors. No paper tint, texture, glow, gradients, 3D, shadows, frame, page header/footer, or logos. Use four small friendly red/black illustrations illustrating seeing/hearing, keyboard input, comprehension and compatibility, rather than the sketchy original characters. Keep illustration scale small enough for all of the text.
+Composition: preserve the original appealing radial "map" architecture. A compact circle labeled "WCAG 2.2" near the center, with FOUR connected wedge sectors: Percepibile top left, Utilizzabile top right, Comprensibile bottom right, Robusto bottom left. The full numbered guideline/criterion branches surround the center. The map must have the complete 4+5+3+1 guideline distribution. Thin red orthogonal branches connect clear black criterion lists, level badges red or black, headings red. Clear hierarchy, plenty of space between separate branches, consistent alignment; never overlap text and illustrations.
+Title: "Mappa WCAG 2.2".
+Center sector definitions (verbatim): Percepibile — "Le informazioni e i componenti dell’interfaccia utente devono essere presentati agli utenti in modi in cui essi possano percepirli."; Utilizzabile — "I componenti e la navigazione dell’interfaccia utente devono essere utilizzabili."; Comprensibile — "Le informazioni e le operazioni dell’interfaccia utente devono essere comprensibili."; Robusto — "Il contenuto deve essere abbastanza robusto per essere interpretato in maniera affidabile da una grande varietà di programmi utente, comprese le tecnologie assistive."
+CRITERION TEXT — reproduce exactly, including identifier and correct level grouping. A star ★ after an identifier marks a new WCAG 2.2 criterion. Do not change these identifiers or invent new ones.
+1.1 Alternative testuali:
+A: 1.1.1 Contenuti non testuali
+1.2 Media temporizzati:
+A: 1.2.1 Solo audio e solo video (preregistrati); 1.2.2 Sottotitoli (preregistrati); 1.2.3 Audiodescrizione o tipo di media alternativo (preregistrato)
+AA: 1.2.4 Sottotitoli (in tempo reale); 1.2.5 Audiodescrizione (preregistrata)
+AAA: 1.2.6 Lingua dei segni (preregistrato); 1.2.7 Audiodescrizione estesa (preregistrata); 1.2.8 Tipo di media alternativo (preregistrato); 1.2.9 Solo audio (in tempo reale)
+1.3 Adattabile:
+A: 1.3.1 Informazioni e correlazioni; 1.3.2 Sequenza significativa; 1.3.3 Caratteristiche sensoriali
+AA: 1.3.4 Orientamento; 1.3.5 Identificare lo scopo degli input
+AAA: 1.3.6 Identificare lo scopo
+1.4 Distinguibile:
+A: 1.4.1 Uso del colore; 1.4.2 Controllo del sonoro
+AA: 1.4.3 Contrasto (minimo); 1.4.4 Ridimensionamento del testo; 1.4.5 Immagini di testo; 1.4.10 Ricalcolo del flusso; 1.4.11 Contrasto in contenuti non testuali; 1.4.12 Spaziatura del testo; 1.4.13 Contenuto con Hover o Focus
+AAA: 1.4.6 Contrasto (avanzato); 1.4.7 Sottofondo sonoro basso o non presente; 1.4.8 Presentazione visiva; 1.4.9 Immagini di testo (senza eccezioni)
+2.1 Accessibile da tastiera:
+A: 2.1.1 Tastiera; 2.1.2 Nessun impedimento all’uso della tastiera; 2.1.4 Tasti di scelta rapida
+AAA: 2.1.3 Tastiera (nessuna eccezione)
+2.2 Adeguata disponibilità di tempo:
+A: 2.2.1 Regolazione tempi di esecuzione; 2.2.2 Pausa, stop, nascondi
+AAA: 2.2.3 Nessun tempo di esecuzione; 2.2.4 Interruzioni; 2.2.5 Riautenticazione; 2.2.6 Termine del tempo
+2.3 Convulsioni e reazioni fisiche:
+A: 2.3.1 Tre lampeggiamenti o inferiore alla soglia
+AAA: 2.3.2 Tre lampeggiamenti; 2.3.3 Animazione da interazioni
+2.4 Navigabile:
+A: 2.4.1 Salto di blocchi; 2.4.2 Titolazione della pagina; 2.4.3 Ordine del focus; 2.4.4 Scopo del collegamento (nel contesto)
+AA: 2.4.5 Differenti modalità; 2.4.6 Intestazioni ed etichette; 2.4.7 Focus visibile; 2.4.11★ Focus non nascosto (minimo)
+AAA: 2.4.8 Posizione; 2.4.9 Scopo del collegamento (solo collegamento); 2.4.10 Intestazioni di sezione; 2.4.12★ Focus non nascosto (avanzato); 2.4.13★ Aspetto del focus
+2.5 Modalità di input:
+A: 2.5.1 Movimenti del puntatore; 2.5.2 Cancellazione delle azioni del puntatore; 2.5.3 Etichetta nel nome; 2.5.4 Azionamento da movimento
+AA: 2.5.7★ Movimenti di trascinamento; 2.5.8★ Dimensione dell’obiettivo (minimo)
+AAA: 2.5.5 Dimensione dell’obiettivo (avanzato); 2.5.6 Meccanismi di input simultanei
+3.1 Leggibile:
+A: 3.1.1 Lingua della pagina
+AA: 3.1.2 Parti in lingua
+AAA: 3.1.3 Parole inusuali; 3.1.4 Abbreviazioni; 3.1.5 Livello di lettura; 3.1.6 Pronuncia
+3.2 Prevedibile:
+A: 3.2.1 Al focus; 3.2.2 All’input; 3.2.6★ Aiuto coerente
+AA: 3.2.3 Navigazione coerente; 3.2.4 Identificazione coerente
+AAA: 3.2.5 Cambiamenti su richiesta
+3.3 Assistenza nell’inserimento:
+A: 3.3.1 Identificazione di errori; 3.3.2 Etichette o istruzioni; 3.3.7★ Inserimento ridondante
+AA: 3.3.3 Suggerimenti per gli errori; 3.3.4 Prevenzione degli errori (legali, finanziari, dati); 3.3.8★ Autenticazione accessibile (minimo)
+AAA: 3.3.5 Aiuto; 3.3.6 Prevenzione degli errori (tutti); 3.3.9★ Autenticazione accessibile (avanzato)
+4.1 Compatibile:
+A: 4.1.2 Nome, ruolo, valore
+AA: 4.1.3 Messaggi di stato
+Separate historic note, not an active criterion: "4.1.1 Analisi sintattica — rimosso nelle WCAG 2.2"
+Legend at bottom: "★ Novità WCAG 2.2" and "A / AA / AAA · Livelli dei criteri di successo".
+Do not include Intopia logo, licenses or credits in the image: those will be editable text outside the raster in the booklet. Retain all the technical content above; this must not be simplified, reduced to an outline, or have unreadable filler text.

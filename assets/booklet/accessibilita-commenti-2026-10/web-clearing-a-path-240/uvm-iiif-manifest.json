@@ -1,0 +1,345 @@
+{
+    "id": "https://digitalcollections.uvm.edu/iiif/manifest/33650",
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "type": "Manifest",
+    "label": {
+        "en": [
+            "Clearing a Path"
+        ]
+    },
+    "homepage": [
+        {
+            "id": "https://digitalcollections.uvm.edu/view/33650",
+            "type": "Text",
+            "label": {
+                "en": [
+                    "Home Page"
+                ]
+            },
+            "format": "text/html"
+        }
+    ],
+    "behavior": [
+        "continuous"
+    ],
+    "thumbnail": [
+        {
+            "id": "https://digitalcollections.uvm.edu/thumbnail/33650",
+            "type": "Image",
+            "format": "image/jpeg",
+            "width": 1024,
+            "height": 1132
+        }
+    ],
+    "metadata": [
+        {
+            "label": {
+                "en": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Clearing a Path"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Parent Collections"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Absurdities and Realities of Special Education",
+                    "Teaching Old Logs New Tricks"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Title"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Clearing a Path"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Creator"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Giangreco, Michael F., 1956-."
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Illustrator"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Ruelle, Kevin."
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Date Created"
+                ]
+            },
+            "value": {
+                "en": [
+                    "2000"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Date Created [Year]"
+                ]
+            },
+            "value": {
+                "en": [
+                    "2000"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Description"
+                ]
+            },
+            "value": {
+                "en": [
+                    "The cartoon shows a school with children waiting at the bottom of the stairs for a school custodian to shovel the snow so that they can get into the building. A student in a wheelchair asks the custodian, \"Could you please shovel the ramp?\" he replies, \"All these other kids are waiting to use the stairs. When I get through shoveling them off then I will clear the ramp for you.\" The student in the wheelchair replies back, \"But if you shovel the ramp we can all get in!\" The tag line reads, \"Clearing a path for people with special needs clears the path for everyone!\""
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Subject"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Access.",
+                    "Stairs.",
+                    "Shoveling.",
+                    "Universal design.",
+                    "Advocacy.",
+                    "Students."
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Subject [Topic]"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Access",
+                    "Stairs",
+                    "Shoveling",
+                    "Universal design",
+                    "Advocacy",
+                    "Students"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Extent"
+                ]
+            },
+            "value": {
+                "en": [
+                    "1 cartoon"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Note [Digital Version]"
+                ]
+            },
+            "value": {
+                "en": [
+                    "2020-11-29, Center for Digital Initiatives, University of Vermont Libraries"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Genre"
+                ]
+            },
+            "value": {
+                "en": [
+                    "cartoons (humorous images)"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Form"
+                ]
+            },
+            "value": {
+                "en": [
+                    "nonprojected graphic"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Type of Resource"
+                ]
+            },
+            "value": {
+                "en": [
+                    "still image"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Access Conditions"
+                ]
+            },
+            "value": {
+                "en": [
+                    "In Copyright - Non-Commercial Use Permitted"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Access Conditions [Local]"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Copyright 2000 Michael F. Giangreco"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Identifier [Local]"
+                ]
+            },
+            "value": {
+                "en": [
+                    "logs100c"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Digital Format"
+                ]
+            },
+            "value": {
+                "en": [
+                    "image/tiff"
+                ]
+            }
+        },
+        {
+            "label": {
+                "en": [
+                    "Digital Format"
+                ]
+            },
+            "value": {
+                "en": [
+                    "Photographs/Color: 24 bits; 300 dpi"
+                ]
+            }
+        }
+    ],
+    "items": [
+        {
+            "id": "https://digitalcollections.uvm.edu/iiif/33650/canvas/p1",
+            "type": "Canvas",
+            "label": {
+                "en": [
+                    "logs100c.tiff"
+                ]
+            },
+            "width": 1808,
+            "height": 1999,
+            "thumbnail": [
+                {
+                    "id": "https://digitalcollections.uvm.edu/iiif/3/187709/full/^500,/0/default.jpg",
+                    "type": "Image",
+                    "format": "image/jpeg",
+                    "width": 500,
+                    "height": 553,
+                    "services": [
+                        {
+                            "id": "https://digitalcollections.uvm.edu/iiif/3/187709",
+                            "profile": "http://iiif.io/api/image/3/level1.json",
+                            "@type": "http://iiif.io/api/image/3/context.json"
+                        }
+                    ]
+                }
+            ],
+            "items": [
+                {
+                    "id": "https://digitalcollections.uvm.edu/iiif/3/187709",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://digitalcollections.uvm.edu/iiif/3/187709",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://digitalcollections.uvm.edu/iiif/3/187709",
+                            "body": {
+                                "id": "https://digitalcollections.uvm.edu/iiif/3/187709/full/^1000,/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "width": 1808,
+                                "height": 1999,
+                                "service": [
+                                    {
+                                        "id": "https://digitalcollections.uvm.edu/iiif/2/187709",
+                                        "profile": "http://iiif.io/api/image/2/level2.json",
+                                        "type": "ImageService2"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "structures": []
+}

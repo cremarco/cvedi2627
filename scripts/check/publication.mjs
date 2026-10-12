@@ -21,9 +21,9 @@ export async function checkPublication() {
     for (const deck of [local, published])
       for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
     const localSlides = local.slides.filter(slide => uxIds.has(slide.frontmatter.lesson))
-    assert.equal(localSlides.length, 293, 'all retained slides of the six lessons remain available locally')
+    assert.equal(localSlides.length, 346, 'active UX lessons include accessibility content and live examples')
     assert.ok(localSlides.filter(slide => localIds.has(slide.frontmatter.lesson)).every(slide => slide.frontmatter.localOnly === true), 'unpublished lesson imports remain explicitly marked')
-    assert.equal(local.slides.length, 535, 'complete local deck')
+    assert.equal(local.slides.length, 588, 'complete local deck')
     assert.equal(published.slides.length, 328, 'published deck includes lessons 03 and 04')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')

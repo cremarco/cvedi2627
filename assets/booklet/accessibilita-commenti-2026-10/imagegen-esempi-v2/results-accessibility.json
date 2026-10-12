@@ -1,0 +1,69 @@
+[
+  {
+    "key": "personalizzazione",
+    "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/personalizzazione-comparison-v2.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "ef1aa0261867d75e9b765df0327974175ed45f5872f0ee24ae5f71ee9731f169",
+    "qa": "passed",
+    "generationSource": "/Users/marco/.codex/generated_images/01a1304e-cb65-7142-8538-dd7af2c1e863/exec-1e22ecbf-8bff-4098-a320-93521067e99e.png"
+  },
+  {
+    "key": "lingua",
+    "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/lingua-comparison-v2.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "dac5fa604a32ea2275e723d84088beb0e26a4888cfc9d68a3e35c315d94422ce",
+    "qa": "passed",
+    "generationSource": "/Users/marco/.codex/generated_images/01a1304e-cb65-7142-8538-dd7af2c1e863/exec-5e7f698e-8770-4387-8744-7b392a086393.png"
+  },
+  {
+    "key": "verifica-wcag",
+    "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/verifica-wcag-comparison-v2.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "2dba284b834eb790a24292226e82f7d8753f697dee44dce6468ccf4bc30593e5",
+    "qa": "passed",
+    "generationSource": "/Users/marco/.codex/generated_images/01a1304e-cb65-7142-8538-dd7af2c1e863/exec-b4f1f349-b2eb-40ef-87d5-f4910e18a321.png",
+    "integrationNote": "Slot immagine180px, crop y≈.128h≈.744; i tre passi verticali sono tutti preservati."
+  },
+  {
+    "key": "valutazione",
+    "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/valutazione-comparison-v2.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "d7d19a0edbc4fa3d80dc959225cedcd992e084dceb939be23a58c93f18ae4750",
+    "qa": "passed",
+    "generationSource": "/Users/marco/.codex/generated_images/01a1304e-cb65-7142-8538-dd7af2c1e863/exec-db95a934-0745-4a74-afc6-33d37662c6c8.png"
+  },
+  {
+    "key": "autenticazione",
+    "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/autenticazione-comparison-v3.png",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "923506cd845b83f252c2869f5ecd20f94dc73b5b61de5f9358b03f92fdf3cc8f",
+    "qa": "passed",
+    "generationSource": "/Users/marco/.codex/generated_images/01a1304e-cb65-7142-8538-dd7af2c1e863/exec-86b54923-7913-4c37-880d-e6756b1ae220.png",
+    "previous": {
+      "key": "autenticazione",
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/autenticazione-comparison-v2.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "ea13d2e0b559223c5846ceb17c90b849792785e2d5f2f049461cd70c84afe031",
+      "qa": "needs-palette-correction",
+      "generationSource": "/Users/marco/.codex/generated_images/01a1304e-cb65-7142-8538-dd7af2c1e863/exec-ab7242b5-99a2-40e1-b040-97039b211496.png"
+    }
+  }
+]

@@ -13,7 +13,6 @@ bookletPages: [235]
 # Test e implementazione
 
 <ChapterMetro section="ux-test" />
-<p class="lead">Osservare l’uso, migliorare e consegnare</p>
 
 ---
 layout: summary

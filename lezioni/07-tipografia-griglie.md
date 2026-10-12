@@ -13,7 +13,6 @@ bookletPages: [157]
 # Tipografia, griglie e interfacce
 
 <ChapterMetro section="ux-type" />
-<p class="lead">Dalla leggibilità alla struttura responsive</p>
 
 ---
 layout: summary

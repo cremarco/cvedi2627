@@ -22,6 +22,7 @@
     "check": "node scripts/check/slides.mjs",
     "check:source": "node scripts/check/slide-source.mjs",
     "check:pagination": "node --test scripts/check/lesson-pagination.test.mjs",
+    "check:clean": "node --test scripts/check/clean.test.mjs",
     "check:publication": "node scripts/check/publication.mjs",
     "check:publication:browser": "node scripts/check/publication-browser.mjs",
     "check:progress": "node scripts/check/progress.mjs",
@@ -36,6 +37,7 @@
     "check:home": "node scripts/check/course-home.mjs",
     "check:indexing": "node --test scripts/check/indexing.test.mjs && node scripts/check/indexing.mjs",
     "check:ux-course": "node scripts/check/ux-course.mjs",
+    "check:accessibility-demos": "node scripts/check/accessibility-demos.mjs",
     "check:archive": "node scripts/check/project-archive.mjs"
   },
   "dependencies": {

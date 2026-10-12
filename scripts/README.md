@@ -3,10 +3,10 @@
 Eseguire dalla radice; i comandi abituali sono nel README principale.
 
 - `dev.mjs`: compilazione CSS, watch Tailwind e avvio Slidev, con terminazione coordinata.
-- `clean.mjs`: elimina soltanto output e rapporti locali.
+- `clean.mjs`: elimina build, export, cache di revisione, metadati macOS e cartelle vuote; conserva sorgenti, dipendenze e rapporti citati da manifest o documentazione. `pnpm clean --dry-run` mostra il piano senza cancellare file; `pnpm check:clean` verifica la pulizia.
 - `build/`: Pages, budget dei media, galleria e anteprime.
 - `check/`: controlli riproducibili; `slide-source.mjs` usa il parser installato, `browser.mjs` condivide l'attesa del rendering.
-- `optimize/`: utilità generiche per immagini, video e archivio.
+- `optimize/`: conversione delle immagini in WebP.
 
 `build/web-design-examples.mjs` esporta le quattro pagine di Caffè TTC, i 21 CSS e le risorse usate, con licenze e metadati degli asset. Il plugin in `utils/web-design-examples.mjs` espone `/web-design-examples/` durante lo sviluppo; Pages copia il sito nella radice del progetto. `pnpm check:web-examples` verifica varianti, risorse, query e navigazione in dev, nella build e sotto `/cvedi2627/`; `SLIDEV_URL` sceglie l'anteprima isolata, `WEB_EXAMPLES_REPORT` la cartella del rapporto.
 
@@ -18,10 +18,10 @@ I controlli browser usano Chromium di `playwright-chromium`. `SLIDEV_URL` cambia
 
 `check:ux-course` verifica l’ordine cromatico degli undici gruppi locali, le proporzioni e l’assenza di cornici delle 138 figure originali, il corpo delle tabelle e l’ingrandimento da tastiera delle lezioni 04–09 su desktop e viewport stretto.
 
-`check:publication` verifica 498 slide locali e 242 online, assenza delle lezioni 04–09 dai file importati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
+`check:publication` verifica 588 slide locali e 328 online, esclusione delle lezioni 05–09 dai file pubblicati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
 
-`check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle sei lezioni locali.
+`check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle cinque lezioni locali.
 
-Per l'archivio: `PROJECTS_URL` cambia il server, `PROJECTS_ALL=1 pnpm check:projects` controlla tutti i siti. `check:links` richiede Python e Beautiful Soup; `check/project-assets.py` controlla risorse locali e `check/navigation.py` l'output Pages.
+L’archivio dei siti è nel repository autonomo `cremarco/cvedi-progetti`. `pnpm check:archive` verifica reindirizzamenti, collegamenti e anteprime locali nella build del corso.
 
-`gallery` usa `sips` su macOS. `build/project-screenshots.mjs` richiede Chromium, `cwebp` e un server dell'archivio. Pages richiede FFmpeg nel PATH o in `PAGES_FFMPEG`; l'ottimizzazione riguarda solo le copie esportate. Non modificare i materiali originali senza verificarne scopo e risultato.
+`gallery` usa `sips` su macOS e le immagini pubblicate dall’archivio autonomo. Pages richiede FFmpeg nel PATH o in `PAGES_FFMPEG`; l'ottimizzazione riguarda solo le copie esportate. Non modificare i materiali originali senza verificarne scopo e risultato.

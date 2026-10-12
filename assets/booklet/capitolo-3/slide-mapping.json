@@ -48,7 +48,7 @@
       "lessonNumber": 4,
       "lessonSlide": 3,
       "title": "Cosa impareremo",
-      "minutes": 2.0,
+      "minutes": 2,
       "sourcePages": [
         1,
         2,
@@ -109,7 +109,7 @@
       "lessonNumber": 4,
       "lessonSlide": 6,
       "title": "La ricerca parte dalle domande",
-      "minutes": 2.0,
+      "minutes": 2,
       "sourcePages": [
         5
       ],
@@ -124,7 +124,7 @@
       "lessonNumber": 4,
       "lessonSlide": 7,
       "title": "Intervistare e osservare",
-      "minutes": 2.0,
+      "minutes": 2,
       "sourcePages": [
         6
       ],
@@ -139,7 +139,7 @@
       "lessonNumber": 4,
       "lessonSlide": 8,
       "title": "Chiedere un episodio concreto",
-      "minutes": 2.0,
+      "minutes": 2,
       "sourcePages": [
         6
       ],
@@ -154,7 +154,7 @@
       "lessonNumber": 4,
       "lessonSlide": 9,
       "title": "Osservazione, interpretazione, ipotesi",
-      "minutes": 2.0,
+      "minutes": 2,
       "sourcePages": [
         7
       ],
@@ -169,7 +169,7 @@
       "lessonNumber": 4,
       "lessonSlide": 10,
       "title": "Rendere rintracciabili le evidenze",
-      "minutes": 2.0,
+      "minutes": 2,
       "sourcePages": [
         7
       ],
@@ -1531,1288 +1531,1771 @@
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 1,
-      "title": "Percezione e gerarchia visiva",
-      "minutes": 0.5,
-      "sourcePages": [
-        59
-      ],
+      "title": "Accessibilità e design inclusivo",
+      "routeAlias": "percezione-gerarchia",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3080"
+        "198:3435",
+        "198:3877"
+      ],
+      "sourceFolios": [
+        168,
+        169
       ],
       "assets": [],
-      "kind": "cover"
+      "minutes": 0.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 2,
-      "title": "Dalla forma alla priorità",
-      "minutes": 0.5,
-      "sourcePages": [
-        59,
-        60,
-        61,
-        62,
-        63,
-        64
-      ],
+      "title": "Progettare l’accesso",
+      "routeAlias": "percezione-gerarchia-sintesi",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3080",
-        "198:3543",
-        "198:4344",
-        "198:4912",
-        "198:3972",
-        "198:4616"
+        "198:3435",
+        "198:3877"
+      ],
+      "sourceFolios": [
+        168,
+        169
       ],
       "assets": [],
-      "kind": "summary"
+      "minutes": 0.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 3,
-      "title": "Cosa impareremo",
-      "minutes": 2,
-      "sourcePages": [
-        59,
-        60,
-        61,
-        62,
-        63,
-        64
-      ],
+      "title": "Dal contesto alle condizioni d’uso",
+      "routeAlias": "accessibilita-design-inclusivo",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3080",
-        "198:3543",
-        "198:4344",
-        "198:4912",
-        "198:3972",
-        "198:4616"
+        "198:3435"
+      ],
+      "sourceFolios": [
+        168
       ],
       "assets": [],
-      "kind": "cards"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 4,
-      "title": "Ideate: aprire le alternative",
-      "minutes": 1.5,
-      "sourcePages": [
-        59
-      ],
+      "title": "La persona media non basta",
+      "routeAlias": "accessibilita-198-3877-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3080"
+        "198:3877"
+      ],
+      "sourceFolios": [
+        169
       ],
       "assets": [],
-      "kind": "statement"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 5,
-      "title": "Dalle parti alla configurazione",
-      "minutes": 2,
-      "sourcePages": [
-        60,
-        61
-      ],
+      "title": "Design universale e design inclusivo",
+      "routeAlias": "accessibilita-198-3446-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3543",
-        "198:4344"
+        "198:3446"
+      ],
+      "sourceFolios": [
+        170
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 6,
-      "title": "Che cosa riconosci per primo?",
-      "minutes": 2,
-      "sourcePages": [
-        61,
-        62
-      ],
+      "title": "Sette principi del design universale",
+      "routeAlias": "accessibilita-198-3446-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4344",
-        "198:4912"
+        "198:3446"
       ],
-      "assets": [
-        "c03-062-01"
+      "sourceFolios": [
+        170
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 7,
-      "title": "Principi per organizzare gli stimoli",
-      "minutes": 2,
-      "sourcePages": [
-        63,
-        64
-      ],
+      "title": "Più modalità, lo stesso compito",
+      "routeAlias": "accessibilita-198-3892-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3972",
-        "198:4616"
+        "198:3892"
+      ],
+      "sourceFolios": [
+        171
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 8,
-      "title": "Vicinanza",
-      "minutes": 2,
-      "sourcePages": [
-        65
-      ],
+      "title": "Persona Spectrum",
+      "routeAlias": "accessibilita-198-3464-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4238"
+        "198:3464"
+      ],
+      "sourceFolios": [
+        172
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 9,
-      "title": "Vicinanza: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        65,
-        66
-      ],
+      "title": "Coinvolgere le persone fin dall’inizio",
+      "routeAlias": "accessibilita-198-3464-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4238",
-        "198:4830"
+        "198:3464"
       ],
-      "assets": [
-        "c03-065-01",
-        "c03-066-01"
+      "sourceFolios": [
+        172
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 10,
-      "title": "Somiglianza",
-      "minutes": 2,
-      "sourcePages": [
-        67
-      ],
+      "title": "Persona Spectrum · Tocco",
+      "routeAlias": "accessibilita-198-3903-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4250"
+        "198:3903"
       ],
-      "assets": [],
-      "kind": "concept"
+      "sourceFolios": [
+        173
+      ],
+      "assets": [
+        "l05-persona-0-0",
+        "l05-persona-0-1",
+        "l05-persona-0-2"
+      ],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 11,
-      "title": "Somiglianza: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        67,
-        68
-      ],
+      "title": "Persona Spectrum · Vista",
+      "routeAlias": "accessibilita-198-3903-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4250",
-        "198:4839"
+        "198:3903"
+      ],
+      "sourceFolios": [
+        173
       ],
       "assets": [
-        "c03-067-01",
-        "c03-068-01"
+        "l05-persona-1-0",
+        "l05-persona-1-1",
+        "l05-persona-1-2"
       ],
-      "kind": "figure"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 12,
-      "title": "Destino comune",
-      "minutes": 2,
-      "sourcePages": [
-        69
-      ],
+      "title": "Persona Spectrum · Udito",
+      "routeAlias": "accessibilita-198-3903-3",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4261"
+        "198:3903"
       ],
-      "assets": [],
-      "kind": "concept"
+      "sourceFolios": [
+        173
+      ],
+      "assets": [
+        "l05-persona-2-0",
+        "l05-persona-2-1",
+        "l05-persona-2-2"
+      ],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 13,
-      "title": "Destino comune: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        69,
-        70
-      ],
+      "title": "Persona Spectrum · Parlato",
+      "routeAlias": "accessibilita-198-3903-4",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4261",
-        "198:4848"
+        "198:3903"
+      ],
+      "sourceFolios": [
+        173
       ],
       "assets": [
-        "c03-069-01",
-        "c03-070-01"
+        "l05-persona-3-0",
+        "l05-persona-3-1",
+        "l05-persona-3-2"
       ],
-      "kind": "figure"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 14,
-      "title": "Buona continuazione",
-      "minutes": 2,
-      "sourcePages": [
-        71
-      ],
+      "title": "Quattro principi per l’accessibilità web",
+      "routeAlias": "accessibilita-198-3498-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4273"
+        "198:3498"
+      ],
+      "sourceFolios": [
+        174
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 15,
-      "title": "Buona continuazione: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        71,
-        72
-      ],
+      "title": "A, AA e AAA",
+      "routeAlias": "accessibilita-198-3498-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4273",
-        "198:4857"
+        "198:3498"
       ],
-      "assets": [
-        "c03-071-01",
-        "c03-072-01"
+      "sourceFolios": [
+        174
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 16,
-      "title": "Chiusura",
-      "minutes": 2,
-      "sourcePages": [
-        73
-      ],
+      "title": "Modalità d’uso e tecnologie assistive",
+      "routeAlias": "accessibilita-198-3498-3",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4285"
+        "198:3498"
+      ],
+      "sourceFolios": [
+        174
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 17,
-      "title": "Chiusura: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        73,
-        74
-      ],
+      "title": "Uno screen reader su smartphone",
+      "routeAlias": "accessibilita-3124-706-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4285",
-        "198:4866"
+        "3124:706"
+      ],
+      "sourceFolios": [
+        175
       ],
       "assets": [
-        "c03-073-01",
-        "c03-074-01"
+        "l05-screen-reader"
       ],
-      "kind": "figure"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 18,
-      "title": "Simmetria",
-      "minutes": 2,
-      "sourcePages": [
-        75
-      ],
+      "title": "Input attraverso un puntatore a bocca",
+      "routeAlias": "accessibilita-3124-706-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4297"
+        "3124:706"
       ],
-      "assets": [],
-      "kind": "concept"
+      "sourceFolios": [
+        175
+      ],
+      "assets": [
+        "l05-puntatore"
+      ],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 19,
-      "title": "Simmetria: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        75,
-        76
-      ],
+      "title": "WCAG: percepire e usare",
+      "routeAlias": "accessibilita-198-3924-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4297",
-        "198:4875"
+        "198:3924"
       ],
-      "assets": [
-        "c03-075-01",
-        "c03-076-01"
+      "sourceFolios": [
+        176
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 20,
-      "title": "Regione comune",
-      "minutes": 2,
-      "sourcePages": [
-        77
-      ],
+      "title": "WCAG: comprendere e interagire",
+      "routeAlias": "accessibilita-198-3924-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4309"
+        "198:3924"
+      ],
+      "sourceFolios": [
+        176
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 21,
-      "title": "Regione comune: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        77,
-        78
-      ],
+      "title": "Contrasto del testo",
+      "routeAlias": "accessibilita-198-3481-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4309",
-        "198:4884"
+        "198:3481"
       ],
-      "assets": [
-        "c03-077-01",
-        "c03-078-01"
+      "sourceFolios": [
+        177
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 22,
-      "title": "Figura e sfondo",
-      "minutes": 2,
-      "sourcePages": [
-        79
-      ],
+      "title": "Il colore da solo non spiega",
+      "routeAlias": "accessibilita-198-3481-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4321"
+        "198:3481"
+      ],
+      "sourceFolios": [
+        177
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 23,
-      "title": "Figura e sfondo: leggere l’esempio",
-      "minutes": 2,
-      "sourcePages": [
-        79,
-        80
-      ],
+      "title": "Verificare una palette con Adobe Color",
+      "routeAlias": "accessibilita-198-3913-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4321",
-        "198:4893"
+        "198:3913"
+      ],
+      "sourceFolios": [
+        178
       ],
       "assets": [
-        "c03-079-01",
-        "c03-080-01"
+        "l05-adobe-contrasto",
+        "l05-adobe-visione"
       ],
-      "kind": "figure"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 24,
-      "title": "Esperienza passata e riconoscimento",
-      "minutes": 2,
-      "sourcePages": [
-        81,
-        82
-      ],
+      "title": "Leggere un appuntamento",
+      "routeAlias": "accessibilita-esempio-contrasto-testo",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4333",
-        "198:4902"
+        "3122:539"
+      ],
+      "sourceFolios": [
+        179
       ],
       "assets": [
-        "c03-082-extra-17"
+        "l05-contrasto-testo-barriere",
+        "l05-contrasto-testo-scelte"
       ],
-      "kind": "figure"
+      "minutes": 1.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 25,
-      "title": "Quali principi collaborano?",
-      "minutes": 8,
-      "sourcePages": [
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82
-      ],
+      "title": "Prova · Leggere un appuntamento",
+      "routeAlias": "accessibilita-demo-contrasto-testo",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4238",
-        "198:4830",
-        "198:4250",
-        "198:4839",
-        "198:4261",
-        "198:4848",
-        "198:4273",
-        "198:4857",
-        "198:4285",
-        "198:4866",
-        "198:4297",
-        "198:4875",
-        "198:4309",
-        "198:4884",
-        "198:4321",
-        "198:4893",
-        "198:4333",
-        "198:4902"
+        "3122:539"
+      ],
+      "sourceFolios": [
+        179
       ],
       "assets": [],
-      "kind": "activity"
+      "minutes": 2
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 26,
-      "title": "Quattro elementi del linguaggio visivo",
-      "minutes": 2,
-      "sourcePages": [
-        83
-      ],
+      "title": "Dal compito alla verifica",
+      "routeAlias": "accessibilita-3124-753-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4131"
+        "3124:753"
+      ],
+      "sourceFolios": [
+        180
       ],
       "assets": [],
-      "kind": "cards"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 27,
-      "title": "Quadrato e cerchio nei marchi",
-      "minutes": 2,
-      "sourcePages": [
-        84
-      ],
+      "title": "Contrasto dei controlli",
+      "routeAlias": "accessibilita-2825-233-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4758"
+        "2825:233"
       ],
-      "assets": [
-        "c03-084-01",
-        "c03-084-02"
+      "sourceFolios": [
+        181
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 28,
-      "title": "Triangolo ed esagono",
-      "minutes": 2,
-      "sourcePages": [
-        85
-      ],
+      "title": "Quale segnale occorre misurare?",
+      "routeAlias": "accessibilita-2825-233-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4150"
+        "2825:233"
       ],
-      "assets": [
-        "c03-085-01",
-        "c03-085-02"
+      "sourceFolios": [
+        181
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 29,
-      "title": "Takete e Maluma",
-      "minutes": 2,
-      "sourcePages": [
-        86
-      ],
+      "title": "Riconoscere una casella",
+      "routeAlias": "accessibilita-esempio-contrasto-controlli",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4775"
+        "3122:598"
+      ],
+      "sourceFolios": [
+        182
       ],
       "assets": [
-        "c03-086-01"
+        "l05-contrasto-controlli-barriere",
+        "l05-contrasto-controlli-scelte"
       ],
-      "kind": "figure"
+      "minutes": 1.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 30,
-      "title": "Forme naturali come riferimento",
-      "minutes": 2,
-      "sourcePages": [
-        87,
-        88
-      ],
+      "title": "Prova · Riconoscere una casella",
+      "routeAlias": "accessibilita-demo-contrasto-controlli",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4222",
-        "198:4819"
+        "3122:598"
       ],
-      "assets": [
-        "c03-088-01"
+      "sourceFolios": [
+        182
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 2
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 31,
-      "title": "Il colore nella composizione",
-      "minutes": 2,
-      "sourcePages": [
-        89,
-        90
-      ],
+      "title": "Ingrandimento, reflow e spaziatura",
+      "routeAlias": "accessibilita-2825-288-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4171",
-        "198:4786"
+        "2825:288"
       ],
-      "assets": [
-        "c03-090-01"
+      "sourceFolios": [
+        183
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 32,
-      "title": "Immagini: illustrare ed evocare",
-      "minutes": 2,
-      "sourcePages": [
-        91,
-        92
-      ],
+      "title": "Verificare l’adattamento del testo",
+      "routeAlias": "accessibilita-2825-288-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4205",
-        "198:4807"
+        "2825:288"
       ],
-      "assets": [
-        "c03-092-01"
+      "sourceFolios": [
+        183
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 33,
-      "title": "Spazio, sguardo e direzione",
-      "minutes": 2,
-      "sourcePages": [
-        93,
-        94
-      ],
+      "title": "Ingrandire una prenotazione",
+      "routeAlias": "accessibilita-esempio-adattamento",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4188",
-        "198:4796"
+        "3122:679"
+      ],
+      "sourceFolios": [
+        184
       ],
       "assets": [
-        "c03-094-01"
+        "l05-adattamento-barriere",
+        "l05-adattamento-scelte"
       ],
-      "kind": "figure"
+      "minutes": 1.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 34,
-      "title": "La gerarchia parte dal contenuto",
-      "minutes": 1.5,
-      "sourcePages": [
-        95,
-        96
-      ],
+      "title": "Prova · Ingrandire una prenotazione",
+      "routeAlias": "accessibilita-demo-adattamento",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4122",
-        "198:4748"
+        "3122:679"
+      ],
+      "sourceFolios": [
+        184
       ],
       "assets": [],
-      "kind": "statement"
+      "minutes": 2
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 35,
-      "title": "Dimensione e scala",
-      "minutes": 2,
-      "sourcePages": [
-        97,
-        98
-      ],
+      "title": "Dalle abilità alle barriere",
+      "routeAlias": "accessibilita-2811-133-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3981",
-        "198:4626"
+        "2811:133"
       ],
-      "assets": [
-        "c03-098-01"
+      "sourceFolios": [
+        185
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 36,
-      "title": "Colore e contrasto",
-      "minutes": 2,
-      "sourcePages": [
-        99,
-        100
-      ],
+      "title": "Tre scenari d’uso",
+      "routeAlias": "accessibilita-2811-177-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4111",
-        "198:4738"
+        "2811:177"
       ],
-      "assets": [
-        "c03-100-01"
+      "sourceFolios": [
+        186
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 37,
-      "title": "Gerarchia tipografica",
-      "minutes": 2,
-      "sourcePages": [
-        101,
-        102
-      ],
+      "title": "Scegliere un prodotto",
+      "routeAlias": "accessibilita-3124-835-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4100",
-        "198:4729"
+        "3124:835"
+      ],
+      "sourceFolios": [
+        187
       ],
       "assets": [
-        "c03-102-01"
+        "l05-scenario-colore"
       ],
-      "kind": "figure"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 38,
-      "title": "Spaziatura e percorso a Z",
-      "minutes": 2,
-      "sourcePages": [
-        103,
-        104
-      ],
+      "title": "Completare un modulo",
+      "routeAlias": "accessibilita-3124-835-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4089",
-        "198:4719"
+        "3124:835"
+      ],
+      "sourceFolios": [
+        187
       ],
       "assets": [
-        "c03-104-01"
+        "l05-scenario-tastiera"
       ],
-      "kind": "figure"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 39,
-      "title": "Scansione a F e priorità",
-      "minutes": 2,
-      "sourcePages": [
-        105,
-        106
-      ],
+      "title": "Seguire una lezione",
+      "routeAlias": "accessibilita-3124-835-3",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4079",
-        "198:4708"
+        "3124:835"
+      ],
+      "sourceFolios": [
+        187
       ],
       "assets": [
-        "c03-106-01"
+        "l05-scenario-media"
       ],
-      "kind": "figure"
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 40,
-      "title": "Prossimità e pareidolia",
-      "minutes": 2,
-      "sourcePages": [
-        107,
-        108
-      ],
+      "title": "Tastiera, ordine e focus",
+      "routeAlias": "accessibilita-2811-218-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4068",
-        "198:4699"
+        "2811:218"
       ],
-      "assets": [
-        "c03-108-01"
+      "sourceFolios": [
+        188
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 41,
-      "title": "Spazio negativo come messaggio",
-      "minutes": 2,
-      "sourcePages": [
-        109,
-        110
-      ],
+      "title": "Entrare, uscire e riprendere",
+      "routeAlias": "accessibilita-2811-218-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4057",
-        "198:4690"
+        "2811:218"
       ],
-      "assets": [
-        "c03-110-01"
+      "sourceFolios": [
+        188
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 42,
-      "title": "Allineare per creare relazioni",
-      "minutes": 2,
-      "sourcePages": [
-        111,
-        112
-      ],
+      "title": "Inviare un modulo senza mouse",
+      "routeAlias": "accessibilita-esempio-tastiera",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3992",
-        "198:4636"
+        "3122:764"
+      ],
+      "sourceFolios": [
+        189
       ],
       "assets": [
-        "c03-112-01"
+        "l05-tastiera-barriere",
+        "l05-tastiera-scelte"
       ],
-      "kind": "figure"
+      "minutes": 1.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 43,
-      "title": "La regola dei dispari",
-      "minutes": 2,
-      "sourcePages": [
-        113,
-        114
-      ],
+      "title": "Prova · Inviare un modulo senza mouse",
+      "routeAlias": "accessibilita-demo-tastiera",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4003",
-        "198:4645"
+        "3122:764"
       ],
-      "assets": [
-        "c03-114-01"
+      "sourceFolios": [
+        189
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 2
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 44,
-      "title": "Ripetizione e riconoscimento",
-      "minutes": 2,
-      "sourcePages": [
-        115,
-        116
-      ],
+      "title": "Dimensioni e spaziatura dei bersagli",
+      "routeAlias": "accessibilita-2811-262-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4014",
-        "198:4654"
+        "2811:262"
       ],
-      "assets": [
-        "c03-116-01"
+      "sourceFolios": [
+        190
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 45,
-      "title": "Linee e movimento implicito",
-      "minutes": 2,
-      "sourcePages": [
-        117,
-        118
-      ],
+      "title": "Un gesto, più percorsi",
+      "routeAlias": "accessibilita-2811-262-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4025",
-        "198:4663"
+        "2811:262"
       ],
-      "assets": [
-        "c03-118-01"
+      "sourceFolios": [
+        190
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 46,
-      "title": "La griglia sostiene la composizione",
-      "minutes": 2,
-      "sourcePages": [
-        119,
-        120
-      ],
+      "title": "Riordinare senza trascinare",
+      "routeAlias": "accessibilita-esempio-puntamento",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4036",
-        "198:4672"
+        "3122:829"
+      ],
+      "sourceFolios": [
+        191
       ],
       "assets": [
-        "c03-120-01"
+        "l05-puntamento-barriere",
+        "l05-puntamento-scelte"
       ],
-      "kind": "figure"
+      "minutes": 1.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 47,
-      "title": "Due manifesti su una struttura modulare",
-      "minutes": 2,
-      "sourcePages": [
-        121,
-        122
-      ],
+      "title": "Prova · Riordinare senza trascinare",
+      "routeAlias": "accessibilita-demo-puntamento",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:5116",
-        "198:5125"
+        "3122:829"
       ],
-      "assets": [
-        "c03-121-01",
-        "c03-122-01"
+      "sourceFolios": [
+        191
       ],
-      "kind": "figure"
+      "assets": [],
+      "minutes": 2
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 48,
-      "title": "Prospettiva e profondità",
-      "minutes": 2,
-      "sourcePages": [
-        123,
-        124
-      ],
+      "title": "L’alternativa dipende dalla funzione",
+      "routeAlias": "accessibilita-2811-301-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4047",
-        "198:4681"
+        "2811:301"
+      ],
+      "sourceFolios": [
+        192
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 49,
+      "title": "La struttura è informazione",
+      "routeAlias": "accessibilita-2811-301-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:301"
+      ],
+      "sourceFolios": [
+        192
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 50,
+      "title": "Descrivere ciò che serve",
+      "routeAlias": "accessibilita-esempio-immagini",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6602"
+      ],
+      "sourceFolios": [
+        193
       ],
       "assets": [
-        "c03-124-01"
+        "l05-immagini-barriere",
+        "l05-immagini-scelte"
       ],
-      "kind": "figure"
+      "minutes": 1.5
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
-      "lessonSlide": 49,
-      "title": "Ridisegnare una gerarchia",
-      "minutes": 12,
-      "sourcePages": [
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124
-      ],
-      "sourceNodes": [
-        "198:4122",
-        "198:4748",
-        "198:3981",
-        "198:4626",
-        "198:4111",
-        "198:4738",
-        "198:4100",
-        "198:4729",
-        "198:4089",
-        "198:4719",
-        "198:4079",
-        "198:4708",
-        "198:4068",
-        "198:4699",
-        "198:4057",
-        "198:4690",
-        "198:3992",
-        "198:4636",
-        "198:4003",
-        "198:4645",
-        "198:4014",
-        "198:4654",
-        "198:4025",
-        "198:4663",
-        "198:4036",
-        "198:4672",
-        "198:5116",
-        "198:5125",
-        "198:4047",
-        "198:4681"
-      ],
-      "assets": [],
-      "kind": "activity"
-    },
-    {
-      "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
-      "lessonSlide": 50,
-      "title": "Confronto tra le composizioni",
-      "minutes": 6,
-      "sourcePages": [
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124
-      ],
-      "sourceNodes": [
-        "198:4122",
-        "198:4748",
-        "198:3981",
-        "198:4626",
-        "198:4111",
-        "198:4738",
-        "198:4100",
-        "198:4729",
-        "198:4089",
-        "198:4719",
-        "198:4079",
-        "198:4708",
-        "198:4068",
-        "198:4699",
-        "198:4057",
-        "198:4690",
-        "198:3992",
-        "198:4636",
-        "198:4003",
-        "198:4645",
-        "198:4014",
-        "198:4654",
-        "198:4025",
-        "198:4663",
-        "198:4036",
-        "198:4672",
-        "198:5116",
-        "198:5125",
-        "198:4047",
-        "198:4681"
-      ],
-      "assets": [],
-      "kind": "activity"
-    },
-    {
-      "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 51,
-      "title": "Tre idee da portare nel progetto",
-      "minutes": 2,
-      "sourcePages": [
-        59,
-        60,
-        61,
-        62,
-        63,
-        64,
-        65,
-        66,
-        67,
-        68,
-        69,
-        70,
-        71,
-        72,
-        73,
-        74,
-        75,
-        76,
-        77,
-        78,
-        79,
-        80,
-        81,
-        82,
-        83,
-        84,
-        85,
-        86,
-        87,
-        88,
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124
-      ],
+      "title": "Prova · Descrivere ciò che serve",
+      "routeAlias": "accessibilita-demo-immagini",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:3080",
-        "198:3543",
-        "198:4344",
-        "198:4912",
-        "198:3972",
-        "198:4616",
-        "198:4238",
-        "198:4830",
-        "198:4250",
-        "198:4839",
-        "198:4261",
-        "198:4848",
-        "198:4273",
-        "198:4857",
-        "198:4285",
-        "198:4866",
-        "198:4297",
-        "198:4875",
-        "198:4309",
-        "198:4884",
-        "198:4321",
-        "198:4893",
-        "198:4333",
-        "198:4902",
-        "198:4131",
-        "198:4758",
-        "198:4150",
-        "198:4775",
-        "198:4222",
-        "198:4819",
-        "198:4171",
-        "198:4786",
-        "198:4205",
-        "198:4807",
-        "198:4188",
-        "198:4796",
-        "198:4122",
-        "198:4748",
-        "198:3981",
-        "198:4626",
-        "198:4111",
-        "198:4738",
-        "198:4100",
-        "198:4729",
-        "198:4089",
-        "198:4719",
-        "198:4079",
-        "198:4708",
-        "198:4068",
-        "198:4699",
-        "198:4057",
-        "198:4690",
-        "198:3992",
-        "198:4636",
-        "198:4003",
-        "198:4645",
-        "198:4014",
-        "198:4654",
-        "198:4025",
-        "198:4663",
-        "198:4036",
-        "198:4672",
-        "198:5116",
-        "198:5125",
-        "198:4047",
-        "198:4681"
+        "3123:6602"
+      ],
+      "sourceFolios": [
+        193
       ],
       "assets": [],
-      "kind": "cards"
+      "minutes": 2
     },
     {
       "lesson": "percezione-gerarchia",
-      "lessonNumber": 5,
       "lessonSlide": 52,
-      "title": "Prima della lezione sul colore",
-      "minutes": 2,
-      "sourcePages": [
-        89,
-        90,
-        91,
-        92,
-        93,
-        94,
-        95,
-        96,
-        97,
-        98,
-        99,
-        100,
-        101,
-        102,
-        103,
-        104,
-        105,
-        106,
-        107,
-        108,
-        109,
-        110,
-        111,
-        112,
-        113,
-        114,
-        115,
-        116,
-        117,
-        118,
-        119,
-        120,
-        121,
-        122,
-        123,
-        124
-      ],
+      "title": "Alternative per audio e video",
+      "routeAlias": "accessibilita-2811-345-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
       "sourceNodes": [
-        "198:4171",
-        "198:4786",
-        "198:4205",
-        "198:4807",
-        "198:4188",
-        "198:4796",
-        "198:4122",
-        "198:4748",
-        "198:3981",
-        "198:4626",
-        "198:4111",
-        "198:4738",
-        "198:4100",
-        "198:4729",
-        "198:4089",
-        "198:4719",
-        "198:4079",
-        "198:4708",
-        "198:4068",
-        "198:4699",
-        "198:4057",
-        "198:4690",
-        "198:3992",
-        "198:4636",
-        "198:4003",
-        "198:4645",
-        "198:4014",
-        "198:4654",
-        "198:4025",
-        "198:4663",
-        "198:4036",
-        "198:4672",
-        "198:5116",
-        "198:5125",
-        "198:4047",
-        "198:4681"
+        "2811:345"
+      ],
+      "sourceFolios": [
+        194
       ],
       "assets": [],
-      "kind": "concept"
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 53,
+      "title": "Progettare anche il lettore",
+      "routeAlias": "accessibilita-2811-345-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:345"
+      ],
+      "sourceFolios": [
+        194
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 54,
+      "title": "Seguire un video su più canali",
+      "routeAlias": "accessibilita-esempio-media",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6669"
+      ],
+      "sourceFolios": [
+        195
+      ],
+      "assets": [
+        "l05-media-barriere",
+        "l05-media-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 55,
+      "title": "Prova · Seguire un video su più canali",
+      "routeAlias": "accessibilita-demo-media",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6669"
+      ],
+      "sourceFolios": [
+        195
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 56,
+      "title": "Nome, ruolo e stato",
+      "routeAlias": "accessibilita-2825-328-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2825:328"
+      ],
+      "sourceFolios": [
+        196
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 57,
+      "title": "Collegare etichetta e nome accessibile",
+      "routeAlias": "accessibilita-2825-328-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2825:328"
+      ],
+      "sourceFolios": [
+        196
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 58,
+      "title": "Aprire i dettagli di consegna",
+      "routeAlias": "accessibilita-esempio-semantica",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6734"
+      ],
+      "sourceFolios": [
+        197
+      ],
+      "assets": [
+        "l05-semantica-barriere",
+        "l05-semantica-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 59,
+      "title": "Prova · Aprire i dettagli di consegna",
+      "routeAlias": "accessibilita-demo-semantica",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6734"
+      ],
+      "sourceFolios": [
+        197
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 60,
+      "title": "Feedback senza perdere il punto",
+      "routeAlias": "accessibilita-2825-372-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2825:372"
+      ],
+      "sourceFolios": [
+        198
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 61,
+      "title": "Capire che il salvataggio è riuscito",
+      "routeAlias": "accessibilita-esempio-feedback",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6795"
+      ],
+      "sourceFolios": [
+        199
+      ],
+      "assets": [
+        "l05-feedback-barriere",
+        "l05-feedback-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 62,
+      "title": "Prova · Capire che il salvataggio è riuscito",
+      "routeAlias": "accessibilita-demo-feedback",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6795"
+      ],
+      "sourceFolios": [
+        199
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 63,
+      "title": "Accessibilità cognitiva",
+      "routeAlias": "accessibilita-2811-384-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:384"
+      ],
+      "sourceFolios": [
+        200
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 64,
+      "title": "Riconoscere, capire, ricordare",
+      "routeAlias": "accessibilita-2811-429-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:429"
+      ],
+      "sourceFolios": [
+        201
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 65,
+      "title": "Prenotare con il contesto visibile",
+      "routeAlias": "accessibilita-esempio-cognitiva",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6857"
+      ],
+      "sourceFolios": [
+        202
+      ],
+      "assets": [
+        "l05-cognitiva-barriere",
+        "l05-cognitiva-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 66,
+      "title": "Prova · Prenotare con il contesto visibile",
+      "routeAlias": "accessibilita-demo-cognitiva",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6857"
+      ],
+      "sourceFolios": [
+        202
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 67,
+      "title": "Controllare movimento e aggiornamenti",
+      "routeAlias": "accessibilita-2811-470-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:470"
+      ],
+      "sourceFolios": [
+        203
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 68,
+      "title": "Animazioni, interruzioni e flash",
+      "routeAlias": "accessibilita-2811-470-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:470"
+      ],
+      "sourceFolios": [
+        203
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 69,
+      "title": "Fermarsi e riprendere",
+      "routeAlias": "accessibilita-2811-516-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:516"
+      ],
+      "sourceFolios": [
+        204
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 70,
+      "title": "Leggere i limiti del requisito",
+      "routeAlias": "accessibilita-2811-516-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:516"
+      ],
+      "sourceFolios": [
+        204
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 71,
+      "title": "Fermare e riprendere la lettura",
+      "routeAlias": "accessibilita-esempio-movimento",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6936"
+      ],
+      "sourceFolios": [
+        205
+      ],
+      "assets": [
+        "l05-movimento-barriere",
+        "l05-movimento-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 72,
+      "title": "Prova · Fermare e riprendere la lettura",
+      "routeAlias": "accessibilita-demo-movimento",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:6936"
+      ],
+      "sourceFolios": [
+        205
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 73,
+      "title": "Moduli: istruzioni ed errori",
+      "routeAlias": "accessibilita-2811-556-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:556"
+      ],
+      "sourceFolios": [
+        206
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 74,
+      "title": "Controllare prima di confermare",
+      "routeAlias": "accessibilita-2811-556-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:556"
+      ],
+      "sourceFolios": [
+        206
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 75,
+      "title": "Correggere una data",
+      "routeAlias": "accessibilita-esempio-moduli",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7005"
+      ],
+      "sourceFolios": [
+        207
+      ],
+      "assets": [
+        "l05-moduli-barriere",
+        "l05-moduli-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 76,
+      "title": "Prova · Correggere una data",
+      "routeAlias": "accessibilita-demo-moduli",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7005"
+      ],
+      "sourceFolios": [
+        207
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 77,
+      "title": "Autenticazione e dati ripetuti",
+      "routeAlias": "accessibilita-2811-600-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:600"
+      ],
+      "sourceFolios": [
+        208
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 78,
+      "title": "Verificare tutto il percorso di accesso",
+      "routeAlias": "accessibilita-2811-600-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:600"
+      ],
+      "sourceFolios": [
+        208
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 79,
+      "title": "Accedere con gli strumenti abituali",
+      "routeAlias": "accessibilita-esempio-autenticazione",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7068"
+      ],
+      "sourceFolios": [
+        209
+      ],
+      "assets": [
+        "l05-autenticazione-barriere",
+        "l05-autenticazione-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 80,
+      "title": "Prova · Accedere con gli strumenti abituali",
+      "routeAlias": "accessibilita-demo-autenticazione",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7068"
+      ],
+      "sourceFolios": [
+        209
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 81,
+      "title": "Personalizzare senza escludere",
+      "routeAlias": "accessibilita-2811-639-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:639"
+      ],
+      "sourceFolios": [
+        210
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 82,
+      "title": "Aiuto facile da trovare",
+      "routeAlias": "accessibilita-2811-639-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:639"
+      ],
+      "sourceFolios": [
+        210
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 83,
+      "title": "Adattare la lettura",
+      "routeAlias": "accessibilita-esempio-personalizzazione",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7129"
+      ],
+      "sourceFolios": [
+        211
+      ],
+      "assets": [
+        "l05-personalizzazione-barriere",
+        "l05-personalizzazione-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 84,
+      "title": "Prova · Adattare la lettura",
+      "routeAlias": "accessibilita-demo-personalizzazione",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7129"
+      ],
+      "sourceFolios": [
+        211
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 85,
+      "title": "Lingua e rappresentazione",
+      "routeAlias": "accessibilita-2811-685-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:685"
+      ],
+      "sourceFolios": [
+        212
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 86,
+      "title": "Riconoscere nomi e lingue",
+      "routeAlias": "accessibilita-esempio-lingua",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7188"
+      ],
+      "sourceFolios": [
+        213
+      ],
+      "assets": [
+        "l05-lingua-barriere",
+        "l05-lingua-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 87,
+      "title": "Prova · Riconoscere nomi e lingue",
+      "routeAlias": "accessibilita-demo-lingua",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7188"
+      ],
+      "sourceFolios": [
+        213
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 88,
+      "title": "WCAG 2.2: focus e azioni",
+      "routeAlias": "accessibilita-2811-725-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:725"
+      ],
+      "sourceFolios": [
+        214
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 89,
+      "title": "WCAG 2.2: dati e autenticazione",
+      "routeAlias": "accessibilita-2811-725-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:725"
+      ],
+      "sourceFolios": [
+        214
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 90,
+      "title": "Conformità e qualità dell’esperienza",
+      "routeAlias": "accessibilita-2811-773-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:773"
+      ],
+      "sourceFolios": [
+        215
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 91,
+      "title": "Verificare un percorso completo",
+      "routeAlias": "accessibilita-esempio-verifica-wcag",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7249"
+      ],
+      "sourceFolios": [
+        216
+      ],
+      "assets": [
+        "l05-verifica-wcag-barriere",
+        "l05-verifica-wcag-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 92,
+      "title": "Prova · Verificare un percorso completo",
+      "routeAlias": "accessibilita-demo-verifica-wcag",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7249"
+      ],
+      "sourceFolios": [
+        216
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 93,
+      "title": "Valutare con strumenti e persone",
+      "routeAlias": "accessibilita-2811-812-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:812"
+      ],
+      "sourceFolios": [
+        217
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 94,
+      "title": "WAI: risorse per la valutazione",
+      "routeAlias": "accessibilita-2811-812-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:812"
+      ],
+      "sourceFolios": [
+        217
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 95,
+      "title": "Dalla ricerca alla correzione",
+      "routeAlias": "accessibilita-2811-857-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:857"
+      ],
+      "sourceFolios": [
+        218
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 96,
+      "title": "Supporti e consenso comprensibile",
+      "routeAlias": "accessibilita-2811-857-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:857"
+      ],
+      "sourceFolios": [
+        218
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 97,
+      "title": "Dall’ostacolo alla nuova prova",
+      "routeAlias": "accessibilita-esempio-valutazione",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7334"
+      ],
+      "sourceFolios": [
+        219
+      ],
+      "assets": [
+        "l05-valutazione-barriere",
+        "l05-valutazione-scelte"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 98,
+      "title": "Prova · Dall’ostacolo alla nuova prova",
+      "routeAlias": "accessibilita-demo-valutazione",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "3123:7334"
+      ],
+      "sourceFolios": [
+        219
+      ],
+      "assets": [],
+      "minutes": 2
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 99,
+      "title": "The Last of Us Part II · controlli",
+      "routeAlias": "accessibilita-2811-897-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:897"
+      ],
+      "sourceFolios": [
+        220
+      ],
+      "assets": [
+        "l05-tlou-controlli"
+      ],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 100,
+      "title": "Configurazioni iniziali, scelte personali",
+      "routeAlias": "accessibilita-2811-897-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:897"
+      ],
+      "sourceFolios": [
+        220
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 101,
+      "title": "The Last of Us Part II · percezione",
+      "routeAlias": "accessibilita-2811-937-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:937"
+      ],
+      "sourceFolios": [
+        221
+      ],
+      "assets": [
+        "l05-tlou-contrasto"
+      ],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 102,
+      "title": "Leggere il caso con precisione",
+      "routeAlias": "accessibilita-2811-937-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "2811:937"
+      ],
+      "sourceFolios": [
+        221
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 103,
+      "title": "Pratiche essenziali · contenuti",
+      "routeAlias": "accessibilita-198-3515-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "198:3515"
+      ],
+      "sourceFolios": [
+        222
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 104,
+      "title": "Pratiche essenziali · interazione",
+      "routeAlias": "accessibilita-198-3515-2",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "198:3515"
+      ],
+      "sourceFolios": [
+        222
+      ],
+      "assets": [],
+      "minutes": 1
+    },
+    {
+      "lesson": "percezione-gerarchia",
+      "lessonSlide": 105,
+      "title": "Verificare l’inclusione",
+      "routeAlias": "accessibilita-198-3934-1",
+      "currentSource": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+      "sourcePages": [],
+      "sourceNodes": [
+        "198:3934"
+      ],
+      "sourceFolios": [
+        223
+      ],
+      "assets": [],
+      "minutes": 1
     },
     {
       "lesson": "colore",

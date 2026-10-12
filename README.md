@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 328 slide online e 535 nell’anteprima locale. Le lezioni 05–09 sono disponibili soltanto in locale; le 67 slide della terza lezione e le 86 della quarta sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 328 slide online e 588 nell’anteprima locale. Le lezioni 05–09 sono disponibili soltanto in locale; le 67 slide della terza lezione e le 86 della quarta sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 
@@ -21,19 +21,22 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm build:pages` | Home, slide, archivio ed esempi autonomi pubblicabili in `_site/` |
 | `pnpm css:home` | Compila `home/home.source.css` in `home/home.css` |
 | `pnpm export` | Export Slidev, soltanto quando richiesto |
-| `pnpm clean` | Elimina output, cache Slidev e rapporti locali |
+| `pnpm clean` | Elimina build, export, cache e rapporti non referenziati, preservando sorgenti e provenienza |
+| `pnpm clean --dry-run` | Mostra i file eliminabili senza modificarli |
+| `pnpm check:clean` | Verifica la conservazione di sorgenti, rapporti referenziati e dipendenze |
 | `pnpm gallery` | Rigenera galleria e anteprime su macOS |
 | `pnpm check:source` | Parser, assenza note, sequenze, dati, fonti e immagini |
 | `pnpm check:publication dist` | Separazione locale/online e assenza degli asset locali nella build |
 | `pnpm check` | Controlli completi nel browser |
 | `pnpm check:layout` | Geometrie, didascalie e dialoghi |
+| `pnpm check:accessibility-demos` | 17 confronti HTML: interazioni, viewport stretto e stampa |
 | `pnpm check:motion` | Animazioni, movimento ridotto ed export |
 | `pnpm check:progress` | Contatore e avanzamento per set |
 | `pnpm check:typography` | Font locali, cifre tabulari e fallback |
 | `pnpm check:home` | Home Pages: URL, layout, movimento, tastiera e stampa |
 | `pnpm check:archive` | Collegamenti all’archivio, reindirizzamenti e anteprime locali |
 
-I controlli slide usano `http://localhost:3035`; `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 535 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea.
+I controlli slide usano `http://localhost:3035`; `check:accessibility-demos` usa `http://localhost:3045`. `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 588 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea. `A11Y_REPORT` seleziona la cartella delle prove dei confronti HTML, predefinita `reports/lesson-05/interactive/`.
 
 `pnpm check:home` serve la build `_site/` con un server temporaneo e un browser isolato. Verifica la home alle basi `/` e `/cvedi2627/`, da 320 a 1440 px, termine automatico dell’animazione entro cinque secondi, movimento ridotto, skip link, forced colors, stampa e funzionamento senza JavaScript. `COURSE_HOME_SITE` sceglie una build diversa; `COURSE_HOME_REPORT` sceglie il percorso di rapporti, screenshot e PDF, predefinito `reports/course-home/`.
 

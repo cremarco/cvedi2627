@@ -1,8 +1,13 @@
 import artwork from '../data/card-artwork.json'
+import localArtwork from '../data/card-artwork-local.json'
 import { slideSet } from './slide-sets'
 import { normalizeTitle } from './normalize-title.mjs'
 
-const catalog = artwork as {
+const catalog = {
+  ...artwork,
+  assets: { ...artwork.assets, ...(import.meta.env.DEV ? localArtwork.assets : {}) },
+  mappings: { ...artwork.mappings, ...(import.meta.env.DEV ? localArtwork.mappings : {}) },
+} as {
   mappings: Record<string, Record<string, string | null>>
   assets: Record<string, string>
   thematicAssets: Record<string, string>

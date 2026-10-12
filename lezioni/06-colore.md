@@ -13,7 +13,6 @@ bookletPages: [125]
 # Colore e significato
 
 <ChapterMetro section="ux-color" />
-<p class="lead">Relazioni cromatiche, contesto e accessibilità</p>
 
 ---
 layout: summary

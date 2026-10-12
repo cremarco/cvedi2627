@@ -1,0 +1,369 @@
+{
+  "schema": "cvedi-imagegen-fullpage-cultural-covers/1",
+  "generatedOn": "2026-10-09",
+  "mode": "built-in image_gen",
+  "skillPath": "/Users/marco/.codex/skills/.system/imagegen/SKILL.md",
+  "userRequestedImageGen": true,
+  "priorNoImageGenSuperseded": true,
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1109",
+  "sectionId": "204:8295",
+  "style": "Collage artistico pittorico, xilografia e serigrafia, rosso/carbone/avorio; pieno formato; due poli nello stesso paesaggio.",
+  "assetCount": 6,
+  "assets": [
+    {
+      "code": "PDI",
+      "boardId": "198:3945",
+      "imageNodeId": "2702:3941",
+      "titleId": "2702:3944",
+      "codeId": "2702:3943",
+      "fadeId": "2702:3942",
+      "creditId": "2702:3949",
+      "poles": [
+        {
+          "labelId": "2702:3945",
+          "poleId": "2702:3946",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3947",
+          "poleId": "2702:3948",
+          "height": 15
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/dimensioni-culturali-native/copertine/imagegen/pdi-v1.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/pdi-v1.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a11c9c-2281-7f63-9609-7bf0f1404839/exec-3d3ff989-b2e5-4e34-85a0-063db23dacfc.png",
+      "sha256": "e7b4d0cab1b461f4ff8c2144a5679c2c305b5ee9ca86603f128e97ede658348a",
+      "bytes": 3601386,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "b04d7ae730f4a46df8313fc131836be48b25b07e",
+      "prompt": "Use case: stylized-concept. Asset: one full-bleed portrait 3:4 cover artwork for an Italian cultural-design teaching book. Create an expressive, richly detailed contemporary editorial fine-art illustration, painterly screenprint and woodcut collage with hand-cut paper, charcoal and visible ivory paper fibres. Sophisticated surreal visual metaphor with material depth and artful brushwork; NOT a vector icon, diagram, corporate infographic or minimal geometric logo. Restrained palette: deep crimson #C10007, ivory #F9F6ED, charcoal black; subtle related red/grey ink tones. A diptych, two equally weighted vertical halves, low pole on left and high pole on right, with an artful subtle join at the centre. Artwork and paper texture extend to every edge, absolutely no outer border, card, mockup or white framing. Upper 20% should be quieter ivory and light paper textures for a large editable title added later in Figma; retain organic marks so it feels full-page. Main composition fills the middle and lower page; bottom 12% slightly calmer for later labels. No text, letters, numbers, symbols resembling typography, flags, charts or national stereotypes. Treat both poles with equal dignity; this is an illustrative metaphor, not a claim about individuals. Concept: Power Distance. LEFT: several abstract, gender-neutral human figures gathered at a circular table on one shared ground plane, equal height and equal eye level, exchanging red thread/paper forms; a tactile artistic scene of shared voice and relatively equal relations. RIGHT: the same number of equally dignified abstract figures on a beautiful terraced architectural staircase at different vertical levels, connected by red ribbons, evoking hierarchical distance and accepted roles. Keep the contrast readable through spatial organization, not villainous leaders or oppression. Dynamic red textile shapes, printmaking shadows, handcrafted depth.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-09",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS"
+    },
+    {
+      "code": "IDV",
+      "boardId": "198:4402",
+      "imageNodeId": "2702:3950",
+      "titleId": "2702:3953",
+      "codeId": "2702:3952",
+      "fadeId": "2702:3951",
+      "creditId": "2702:3958",
+      "poles": [
+        {
+          "labelId": "2702:3954",
+          "poleId": "2702:3955",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3956",
+          "poleId": "2702:3957",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/dimensioni-culturali-native/copertine/imagegen/idv-v1.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/idv-v1.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a11c9c-2281-7f63-9609-7bf0f1404839/exec-a3f94336-160f-43f6-8ab0-b4646198f0b2.png",
+      "sha256": "ce98ed79f87ba2c7489dcc832df26166c800be571bc421be481bb62fb63626b0",
+      "bytes": 3573270,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "6b711a0ace10fcfffafd95a0527c265af7d4f0f9",
+      "prompt": "Use case: stylized-concept. Asset: one full-bleed portrait 3:4 cover artwork for an Italian cultural-design teaching book. Create an expressive, richly detailed contemporary editorial fine-art illustration, painterly screenprint and woodcut collage with hand-cut paper, charcoal and visible ivory paper fibres. Sophisticated surreal visual metaphor with material depth and artful brushwork; NOT a vector icon, diagram, corporate infographic or minimal geometric logo. Restrained palette: deep crimson #C10007, ivory #F9F6ED, charcoal black; subtle related red/grey ink tones. A diptych, two equally weighted vertical halves, low pole on left and high pole on right, with an artful subtle join at the centre. Artwork and paper texture extend to every edge, absolutely no outer border, card, mockup or white framing. Upper 20% should be quieter ivory and light paper textures for a large editable title added later in Figma; retain organic marks so it feels full-page. Main composition fills the middle and lower page; bottom 12% slightly calmer for later labels. No text, letters, numbers, symbols resembling typography, flags, charts or national stereotypes. Treat both poles with equal dignity; this is an illustrative metaphor, not a claim about individuals. Concept: Collectivism versus Individualism. LEFT: five abstract, gender-neutral human silhouettes linked by richly woven crimson threads, interdependent paper paths and a shared organic fabric canopy, each retains an individual shape, evoking durable group ties and reciprocal responsibility. RIGHT: five equally dignified figures or sculptural silhouettes with distinct personal paths, more open space between them, their own flowing red paper ribbons and individual trajectories; evoke autonomy without loneliness. Asymmetric and poetic, tactile collage and layered ink rather than stick figures or nodes. Same visual warmth and density on both halves.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-09",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS"
+    },
+    {
+      "code": "MAS",
+      "boardId": "198:4386",
+      "imageNodeId": "2702:3959",
+      "titleId": "2702:3962",
+      "codeId": "2702:3961",
+      "fadeId": "2702:3960",
+      "creditId": "2702:3967",
+      "poles": [
+        {
+          "labelId": "2702:3963",
+          "poleId": "2702:3964",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3965",
+          "poleId": "2702:3966",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/dimensioni-culturali-native/copertine/imagegen/mas-v1.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/mas-v1.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a1202d-94fa-7100-9f23-c40727ac78ab/exec-bc89da09-669f-4d86-b7d9-28302dd63d8b.png",
+      "sha256": "2e8c3da500ee01a9f44f90f26bbce8a06e99ef039620a814a043e66c5d6725d8",
+      "bytes": 3595781,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "b37d8e7d94d79dc83c9e0c9011913e824eff6f7b",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for a university design booklet, upright portrait 3:4 aspect ratio.\nPrimary request: an edge-to-edge editorial diptych about two equally dignified social value orientations: cooperation and quality of life on the LEFT, achievement and recognition on the RIGHT.\nScene and subjects: On the left, collaged hands and small abstract gender-neutral human figures collaboratively weave and construct one shared bridge, joined by ribbons, overlapping cut-paper shapes and shared gestures. On the right, several parallel mountain routes lead towards prize-like peaks, with plain unlettered cloth pennants and equally dignified small figures pursuing separate routes. Treat both orientations with the same warmth, visual prominence and complexity; neither side is the correct or superior side.\nStyle and medium: bold painterly editorial collage, tactile hand-printed woodcut and screenprint, vigorous charcoal marks, rough ink edges, layered torn cut-paper, palpable paper fibers. Sophisticated surreal metaphors, expressive illustration suitable for an art/design book. This must feel like a substantial original printed artwork, not a minimal flat infographic or icons.\nComposition and framing: full bleed to every side of the 3:4 canvas, all motifs integrated into one portrait landscape. A subtle central transition creates two clear visual halves without a line, frame or empty gutter. Main metaphors occupy the middle 68 percent. Reserve the top 20 percent as a quiet light ivory field with subtle painterly paper texture, suitable for a later native Figma heading; no objects intrude into this heading area. Bottom 12 percent is calm but genuinely painted/textured, suitable for later native pole labels. Do not draw a separate white box, outer margin or border.\nColor palette: restricted to deep red approximately #C10007, charcoal black, and warm ivory. No other colors. Use ink texture and layered paper for tonal variation.\nConstraints: no lettering, no text, no words, no numbers, no logos, no countries, no national flags, no data charts, no diagram labels, no outer border, no watermark. Plain cloth pennants are abstract fabric motifs, never national flags. No gender-coded roles, no moral hierarchy, no simplistic corporate vector figures, no glossy 3D. Deliver only the single finished portrait artwork.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-09",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS"
+    },
+    {
+      "code": "UAI",
+      "boardId": "198:4370",
+      "imageNodeId": "2702:3968",
+      "titleId": "2702:3971",
+      "codeId": "2702:3970",
+      "fadeId": "2702:3969",
+      "creditId": "2702:3976",
+      "poles": [
+        {
+          "labelId": "2702:3972",
+          "poleId": "2702:3973",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3974",
+          "poleId": "2702:3975",
+          "height": 15
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/dimensioni-culturali-native/copertine/imagegen/uai-v1.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/uai-v1.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a1202f-c4e5-76e3-81a1-643fcb835e17/exec-4af57975-7414-485c-b38a-47c887e949fb.png",
+      "sha256": "35b1e07c7d2159f3f59687b1c6dc539a7d7ec5eed9069c0c3c70472334b6c965",
+      "bytes": 3577563,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "8616319e8fca043c11d4027e33cc7fe654fe0742",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait book chapter opener, exactly 3:4 aspect ratio, 1536 x 2048 pixels.\nPrimary request: Create one sophisticated, painterly editorial collage illustrating two dignified attitudes toward uncertainty within a continuous full-page diptych. Low uncertainty avoidance occupies the LEFT half; high uncertainty avoidance occupies the RIGHT half. The image itself has no words.\nScene: On the left, open winding paths branch through flowing sculptural forms and softly printed clouds, with intriguing open doorways inviting exploration. On the right, an equally beautiful path moves through rhythmic architectural arches and repeated landmarks, evoking predictability and orientation. Both sides are thoughtful, inviting, and dignified. The left remains composed and legible; the right has human warmth and organic variation.\nStyle and medium: Bold hand-printed woodcut and screenprint over tactile ivory paper, charcoal drawing, layered cut-paper shapes, painterly dry-brush ink, subtly imperfect print registration, carved marks and rich material texture. Sophisticated surreal editorial concept art with spatial depth and expressive composition.\nComposition: One edge-to-edge painting reaching all four sides. The two worlds merge through a subtle organic transition at the vertical center, with no hard divider. Keep the upper 20 percent, especially upper-left, quiet ivory paper texture for a later heading added in Figma; texture still reaches the top and side edges. Keep the bottom 12 percent calmer and richly textured for later pole labels. Concentrate the evocative landscape and architectural detail across the middle two thirds.\nPalette: Exclusively saturated booklet red #C10007, deep charcoal, and warm ivory. Ink tints and mixtures of these three colors are allowed; no other color family.\nConstraints: Entire output is a finished artistic image, not a page mockup. No text, letters, numbers, flags, statistical graphs, charts, legends, logos, watermarks, borders, frames, margins, UI, or flat geometric icon illustrations. No photographic rendering. No literal chaos versus perfection, no fearful or authoritarian atmosphere. Opaque background. Render exactly portrait 3:4.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-09",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS"
+    },
+    {
+      "code": "LTO",
+      "boardId": "198:4354",
+      "imageNodeId": "2702:3977",
+      "titleId": "2702:3980",
+      "codeId": "2702:3979",
+      "fadeId": "2702:3978",
+      "creditId": "2702:3985",
+      "poles": [
+        {
+          "labelId": "2702:3981",
+          "poleId": "2702:3982",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3983",
+          "poleId": "2702:3984",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/dimensioni-culturali-native/copertine/imagegen/lto-v1.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/lto-v1.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a1202f-c4e5-76e3-81a1-643fcb835e17/exec-fd2b3e30-f87f-4765-a7cc-2927c0adbc2d.png",
+      "sha256": "f7515b2a7c36752c5650502acd17b479030ef1a65e0cbc47929f506e27ecb00e",
+      "bytes": 3807542,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "da9cfaa58e7d8c8e1888a118ec7eda265bb3f3d4",
+      "prompt": "Use case: stylized-concept\nAsset type: full-bleed portrait book chapter opener, exactly 3:4 aspect ratio, 1536 x 2048 pixels.\nPrimary request: Create one sophisticated painterly editorial collage illustrating two dignified ways of balancing continuity with preparation for the future within a continuous full-page diptych. Normative continuity occupies the LEFT half; pragmatic adaptation and future preparation occupy the RIGHT half. The image itself has no words.\nScene: On the left, a deep-rooted tree and intricate cyclic rings evoke continuity, inherited patterns, and repeated natural forms. Show roots curling into layered rings and a stable, richly textured canopy. On the right, related branches adapt, bend, and send out shoots through successive stages toward a layered horizon, evoking learning, perseverance, and future preparation. Both halves share a living organic world and equal visual beauty; the right is an evolving interpretation of the left, not a superior or wealthier world.\nStyle and medium: Bold hand-printed woodcut and screenprint on tactile ivory paper, charcoal drawing, layered cut-paper shapes, painterly dry-brush ink, slightly imperfect print registration, intricate carved rings, and rich material texture. Sophisticated surreal editorial concept art with spatial depth and expressive composition.\nComposition: One edge-to-edge painting reaching all four sides. The two worlds connect through roots, branches, and a subtle organic transition at the vertical center, with no hard divider. Keep the upper 20 percent, especially upper-left, quiet ivory paper texture for a later heading added in Figma; texture still reaches the top and side edges. Keep the bottom 12 percent calmer and richly textured for later pole labels. Place the richest tree, roots, and horizon imagery within the middle two thirds.\nPalette: Exclusively saturated booklet red #C10007, deep charcoal, and warm ivory. Ink tints and mixtures of these three colors are allowed; no other color family.\nConstraints: Entire output is a finished artistic image, not a page mockup. No text, letters, numbers, flags, statistical graphs, charts, legends, logos, watermarks, borders, frames, margins, UI, or flat geometric icon illustrations. No photographic rendering. No backward versus advanced moral hierarchy, no caricatures or national references. Opaque background. Render exactly portrait 3:4.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-09",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS"
+    },
+    {
+      "code": "IVR",
+      "boardId": "198:4429",
+      "imageNodeId": "2702:3986",
+      "titleId": "2702:3989",
+      "codeId": "2702:3988",
+      "fadeId": "2702:3987",
+      "creditId": "2702:3994",
+      "poles": [
+        {
+          "labelId": "2702:3990",
+          "poleId": "2702:3991",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3992",
+          "poleId": "2702:3993",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/cvedi2627/assets/booklet/dimensioni-culturali-native/copertine/imagegen/ivr-v1.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/ivr-v1.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a1202d-94fa-7100-9f23-c40727ac78ab/exec-d562c2cf-7de3-43f6-a875-eacca363ae29.png",
+      "sha256": "96d009129852cc0b35845308d2c4df345bed3b5e801ee1ea9e1edd4c3018be19",
+      "bytes": 3844474,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "d64d262417c8439eb481fee03e4c7591de9f7fe4",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for a university design booklet, upright portrait 3:4 aspect ratio.\nPrimary request: an edge-to-edge editorial diptych about two equally dignified orientations: gratification regulated through social norms on the LEFT, relatively free enjoyment and expression on the RIGHT.\nScene and subjects: Use the SAME stylized flowers, petals, stems and fabric motifs on both halves. On the left, they are gently arranged and rhythmically organized through soft woven ribbons and an organic textile lattice, conveying coordinated social conventions without punishment or distress. On the right, the same flowers and fabric freely unfurl, ripple and open into a petal burst like a fabric dance. Both sides are attractive, equally full of life and visually compelling; this is a difference in cultural organization, not a judgment of happiness, goodness or wellbeing.\nStyle and medium: bold painterly editorial collage, tactile hand-printed woodcut and screenprint, vigorous charcoal marks, rough ink edges, layered torn cut-paper, palpable paper fibers. Sophisticated surreal metaphors, expressive illustration suitable for an art/design book. This must feel like a substantial original printed artwork, not a minimal flat infographic or icons.\nComposition and framing: full bleed to every side of the 3:4 canvas, all motifs integrated into one portrait field. A subtle central transition creates two clear visual halves without a line, frame or empty gutter. Main metaphors occupy the middle 68 percent. Reserve the top 20 percent as a quiet light ivory field with subtle painterly paper texture, suitable for a later native Figma heading; no objects intrude into this heading area. Bottom 12 percent is calm but genuinely painted/textured, suitable for later native pole labels. Do not draw a separate white box, outer margin or border.\nColor palette: restricted to deep red approximately #C10007, charcoal black, and warm ivory. No other colors. Use ink texture and layered paper for tonal variation.\nConstraints: no lettering, no text, no words, no numbers, no logos, no countries, no flags, no data charts, no diagram labels, no outer border, no watermark. No prison cage, chains, locked doors, threat, risk, suffering or happiness judgment. No minimalist flat diagrams, corporate vector icons or glossy 3D. Deliver only the single finished portrait artwork.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-09",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS"
+    }
+  ],
+  "promptsPreserved": true,
+  "originalBytesPreserved": true,
+  "graphBoardsPreserved": [
+    {
+      "code": "PDI",
+      "coverId": "198:3945",
+      "coverComponentId": "2695:3726",
+      "coverInstanceId": "2695:4345",
+      "graphId": "2695:3902",
+      "graphInstanceId": "2695:3919",
+      "coverOrdinal": 15,
+      "graphOrdinal": 16
+    },
+    {
+      "code": "IDV",
+      "coverId": "198:4402",
+      "coverComponentId": "2695:3754",
+      "coverInstanceId": "2695:4510",
+      "graphId": "2695:4373",
+      "graphInstanceId": "2695:4390",
+      "coverOrdinal": 20,
+      "graphOrdinal": 21
+    },
+    {
+      "code": "MAS",
+      "coverId": "198:4386",
+      "coverComponentId": "2695:3782",
+      "coverInstanceId": "2695:4672",
+      "graphId": "2695:4538",
+      "graphInstanceId": "2695:4555",
+      "coverOrdinal": 25,
+      "graphOrdinal": 26
+    },
+    {
+      "code": "UAI",
+      "coverId": "198:4370",
+      "coverComponentId": "2695:3812",
+      "coverInstanceId": "2695:5023",
+      "graphId": "2695:4702",
+      "graphInstanceId": "2695:4719",
+      "coverOrdinal": 30,
+      "graphOrdinal": 31
+    },
+    {
+      "code": "LTO",
+      "coverId": "198:4354",
+      "coverComponentId": "2695:3846",
+      "coverInstanceId": "2695:5364",
+      "graphId": "2695:5057",
+      "graphInstanceId": "2695:5074",
+      "coverOrdinal": 35,
+      "graphOrdinal": 36
+    },
+    {
+      "code": "IVR",
+      "coverId": "198:4429",
+      "coverComponentId": "2695:3871",
+      "coverInstanceId": "2695:6080",
+      "graphId": "2695:5389",
+      "graphInstanceId": "2695:5398",
+      "coverOrdinal": 40,
+      "graphOrdinal": 41
+    }
+  ],
+  "previousNativeOpenerComponentSetId": "2695:3901",
+  "historicalRestoration": [
+    {
+      "code": "PDI",
+      "archiveBoardId": "2619:290",
+      "imageNodeId": "2696:432",
+      "captionNodeId": "2696:433",
+      "pdfPage": 157
+    },
+    {
+      "code": "IDV",
+      "archiveBoardId": "2619:361",
+      "imageNodeId": "2696:434",
+      "captionNodeId": "2696:435",
+      "pdfPage": 160
+    },
+    {
+      "code": "MAS",
+      "archiveBoardId": "2619:432",
+      "imageNodeId": "2696:436",
+      "captionNodeId": "2696:437",
+      "pdfPage": 163
+    },
+    {
+      "code": "UAI",
+      "archiveBoardId": "2619:503",
+      "imageNodeId": "2696:438",
+      "captionNodeId": "2696:439",
+      "pdfPage": 166
+    },
+    {
+      "code": "LTO",
+      "archiveBoardId": "2619:574",
+      "imageNodeId": "2696:440",
+      "captionNodeId": "2696:441",
+      "pdfPage": 169
+    }
+  ],
+  "verificationReport": "../../../../../reports/contesto-culturale/copertine-imagegen/verifica.json",
+  "bookState": {
+    "cultureBoards": 59,
+    "chapterBoards": 289,
+    "lastPrintedPage": 399
+  }
+}

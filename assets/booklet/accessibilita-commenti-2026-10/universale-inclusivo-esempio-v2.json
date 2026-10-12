@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-12",
+  "comment": 240,
+  "generator": "OpenAI ImageGen built-in",
+  "asset": "universale-inclusivo-esempio-v2.png",
+  "dimensions": [
+    1536,
+    1024
+  ],
+  "sha256": "71dd070f8ac795b349472634d17c56f4410fd7e5c55b7007abfc9447aacf5cad",
+  "prompt": "Use case: scientific-educational\nAsset type: original educational illustration for a printed Italian design booklet, a two-column comparison of universal design and inclusive design.\nPrimary request: Create a clear concrete visual comparison, replacing abstract boxes and dots with recognizable people, a video player and a collaborative design process. This is an original illustration, not a reproduction of a Microsoft graphic. Semantic inspiration: the Microsoft Inclusive 101 guidebook example of captions benefiting people with hearing limitations and people in a noisy public setting; universal design principles of equitable use, flexibility and perceptible information.\nComposition: landscape 1536 x 1024, two equal independent columns separated by generous white space. All important content in the vertical band y=130 to y=895. Left artwork entirely within x=25..725; right artwork within x=815..1510. No top heading or footer: Italian headings and explanatory text will remain editable outside this bitmap in Figma.\nLEFT COLUMN, universal design as a goal: one large clearly recognizable accessible video player, facing the viewer. It shows a friendly teacher, a single highly legible caption strip with exact Italian text 'Benvenuti al corso', play/pause, CC and a keyboard focus outline on one control. Below and around the player, three small diverse adult users are participating in the SAME lesson through this shared flexible player: one reading captions, one using a keyboard and one viewing a phone. Keep their devices and the player visually connected; equal participation, dignified everyday poses.\nRIGHT COLUMN, inclusive design as a method: a compact vertical sequence of three recognizable scenes, connected by two simple downward red arrows. Top: a designer and an adult participant seated together examining a video interface and discussing a barrier; they look at each other and the prototype, depicting co-design rather than a lecture. Middle: a clear small video-player prototype with the same caption 'Benvenuti al corso' and CC enabled. Bottom: an adult traveller seated next to a suitcase in a noisy public station reads the captioned video on a phone; a small departure-board pictogram establishes the public setting, never illegible writing. The sequence shows learning from exclusion, testing captions and extending the benefit to another situation.\nStyle: crisp editorial vector-like line illustration rendered as PNG, simple human figures and clean UI, geometrical rounded shapes, no photorealism. Consistent stroke weight, concise details, strong silhouettes, white background. Palette only chapter deep red #C10007, ink #030712, white #FFFFFF and neutral greys. Red for accents, arrows and selected controls; no green, blue, beige or texture. Black text.\nText: only the exact words 'Benvenuti al corso' and the short conventional control 'CC'. No other generated text, labels, captions, numbers or titles.\nConstraints: legible and semantically clear at a small print size; both columns independently understandable. Do not imply that inclusive design is merely adding optional buttons. Do not use nested circles, anonymous dots, abstract box diagrams, stigmatizing disability imagery, frames around the entire illustration, drop shadows, watermark, logos or trademarks.",
+  "references": [
+    {
+      "url": "https://inclusive.microsoft.design/articles/inclusive-101-guidebook",
+      "role": "Riferimento semantico e visivo per didascalie, collaborazione ed estensione dei benefici; grafica finale originale."
+    },
+    {
+      "url": "https://universaldesign.ie/about-universal-design/the-7-principles",
+      "role": "Principi di uso equo, flessibilità e informazione percepibile."
+    }
+  ],
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1110",
+    "boardId": "198:3892",
+    "createdNodeIds": [
+      "3241:18232",
+      "3241:18233",
+      "3241:18234",
+      "3241:18235",
+      "3241:18236",
+      "3241:18237",
+      "3241:18238",
+      "3241:18239"
+    ],
+    "mutatedNodeIds": [
+      "3126:746",
+      "3126:750",
+      "3126:777"
+    ],
+    "imageId": "3241:18236",
+    "comparisonId": "3241:18232",
+    "mainBounds": {
+      "x": 74,
+      "y": 105,
+      "w": 363,
+      "h": 472,
+      "bottom": 577
+    },
+    "imageBounds": {
+      "w": 363,
+      "h": 242
+    },
+    "originalPreservedHidden": true,
+    "imageHash": "cc7a7d2b74511d454044d6824ef6b76daf1a3e98",
+    "scaleMode": "FIT",
+    "crop": "none"
+  },
+  "provenance": "Illustrazione originale di un esempio simulato; non documenta una sessione svolta o un prodotto esistente.",
+  "verification": {
+    "imageText": "Benvenuti al corso, CC: corretti",
+    "palette": "rosso del capitolo, nero, bianco e grigi",
+    "layout": "2x Figma render passed; body bottom 577, notes at 590",
+    "previousDiagram": "3126:750 conservato nascosto"
+  }
+}

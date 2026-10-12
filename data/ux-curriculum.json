@@ -14,7 +14,7 @@
       "title": "Ricerca, contesto e inclusione",
       "subtitle": "Dalle persone al problema progettuale",
       "file": "lezioni/04-ricerca-inclusiva.md",
-      "palette": "lime",
+      "palette": "green",
       "sourceRange": [
         1,
         40
@@ -30,20 +30,27 @@
     {
       "number": 5,
       "id": "percezione-gerarchia",
-      "title": "Percezione e gerarchia visiva",
-      "subtitle": "Gestalt, linguaggio visivo e composizione",
+      "title": "Accessibilità e design inclusivo",
+      "subtitle": "Rendere possibili informazioni e azioni per persone diverse",
       "file": "lezioni/05-percezione-gerarchia.md",
-      "palette": "green",
-      "sourceRange": [
-        59,
-        124
-      ],
+      "palette": "emerald",
       "sections": [
-        5,
-        6
+        3
       ],
-      "slideCount": 52,
-      "paletteAlias": "ux-perception"
+      "slideCount": 105,
+      "paletteAlias": "ux-perception",
+      "lessonMinutes": 129.5,
+      "currentSource": {
+        "snapshot": "assets/booklet/lezione-05-accessibilita/figma-source.json",
+        "sectionId": "2188:1088",
+        "folios": [
+          168,
+          223
+        ],
+        "accessibilitySlides": 86,
+        "interactiveSlides": 17
+      },
+      "perceptionArchive": "assets/booklet/lezione-05-accessibilita/perception-archive.json"
     },
     {
       "number": 6,
@@ -51,7 +58,7 @@
       "title": "Colore e significato",
       "subtitle": "Relazioni cromatiche, contesto e accessibilità",
       "file": "lezioni/06-colore.md",
-      "palette": "emerald",
+      "palette": "teal",
       "sourceRange": [
         125,
         156
@@ -68,7 +75,7 @@
       "title": "Tipografia, griglie e interfacce",
       "subtitle": "Dalla leggibilità alla struttura responsive",
       "file": "lezioni/07-tipografia-griglie.md",
-      "palette": "teal",
+      "palette": "cyan",
       "sourceRange": [
         157,
         200
@@ -86,7 +93,7 @@
       "title": "Prototipi e videogiochi",
       "subtitle": "Flussi, stati e interfacce per l’azione",
       "file": "lezioni/08-prototipi-interfacce.md",
-      "palette": "cyan",
+      "palette": "sky",
       "sourceRange": [
         201,
         234
@@ -104,7 +111,7 @@
       "title": "Test e implementazione",
       "subtitle": "Osservare l’uso, migliorare e consegnare",
       "file": "lezioni/09-test-implementazione.md",
-      "palette": "sky",
+      "palette": "blue",
       "sourceRange": [
         235,
         260

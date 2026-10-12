@@ -1,0 +1,247 @@
+{
+  "schema": "cvedi-booklet-text-continuity/1",
+  "updatedOn": "2026-10-12",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "scope": "Raccordi fra le 13 sezioni C03 e fra i temi interni di Accessibilità; testi nativi nelle tavole esistenti.",
+  "commonCase": "Sara deve spostare un appuntamento; il caso è simulato, già presente nel booklet.",
+  "editedTextNodeCount": 39,
+  "textOperations": 40,
+  "reusedOpeningBoardCount": 4,
+  "pages": [
+    {
+      "id": "2008:1741",
+      "name": "C03.01 · Apertura",
+      "changedNodes": [
+        "2634:149",
+        "2634:185"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1109",
+      "name": "C03.02 · Ricerca, utenti e contesto",
+      "changedNodes": [
+        "198:3079",
+        "2761:3806"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1110",
+      "name": "C03.03 · Accessibilità",
+      "changedNodes": [
+        "198:3891",
+        "2402:1101",
+        "3124:812",
+        "2811:248",
+        "2811:331",
+        "2825:358",
+        "2811:414",
+        "2811:500",
+        "2811:586",
+        "2811:625",
+        "2811:669",
+        "2811:842",
+        "2825:263",
+        "2825:313"
+      ],
+      "openingBoards": [
+        {
+          "id": "198:3435",
+          "title": "Dal contesto alle condizioni d’uso",
+          "mainId": "3157:1198",
+          "titleId": "3157:1193",
+          "height": 147,
+          "y": 271,
+          "bottom": 418
+        }
+      ]
+    },
+    {
+      "id": "2613:1111",
+      "name": "C03.04 · Define",
+      "changedNodes": [
+        "198:3433",
+        "2402:1109"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1112",
+      "name": "C03.05 · Percezione e linguaggio visivo",
+      "changedNodes": [
+        "198:3093",
+        "198:4197"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1113",
+      "name": "C03.06 · Gerarchia visiva",
+      "changedNodes": [
+        "2408:1090",
+        "198:4056"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1114",
+      "name": "C03.07 · Colore",
+      "changedNodes": [
+        "198:5144",
+        "198:5523"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1115",
+      "name": "C03.08 · Tipografia",
+      "changedNodes": [
+        "198:3107",
+        "198:3587",
+        "198:5828"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1116",
+      "name": "C03.09 · Griglie e interfacce",
+      "changedNodes": [
+        "198:3141",
+        "198:3829"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1117",
+      "name": "C03.10 · Wireframe e mockup",
+      "changedNodes": [
+        "2460:1212"
+      ],
+      "openingBoards": [
+        {
+          "id": "198:3171",
+          "title": "Dal layout al percorso d’uso",
+          "mainId": "3158:5763",
+          "titleId": "3158:5758",
+          "height": 147,
+          "y": 271,
+          "bottom": 418
+        }
+      ]
+    },
+    {
+      "id": "2613:1118",
+      "name": "C03.11 · Interfacce dei videogiochi",
+      "changedNodes": [
+        "I3044:882;3030:536;3044:887",
+        "198:6004"
+      ],
+      "openingBoards": [
+        {
+          "id": "198:3284",
+          "title": "Dal servizio al mondo di gioco",
+          "mainId": "3158:6035",
+          "titleId": "3158:6030",
+          "height": 147,
+          "y": 271,
+          "bottom": 418
+        }
+      ]
+    },
+    {
+      "id": "2613:1119",
+      "name": "C03.12 · Test e usabilità",
+      "changedNodes": [
+        "198:6227",
+        "198:6250",
+        "2421:1140"
+      ],
+      "openingBoards": []
+    },
+    {
+      "id": "2613:1120",
+      "name": "C03.13 · Implementazione",
+      "changedNodes": [
+        "198:3600",
+        "198:6240"
+      ],
+      "openingBoards": [
+        {
+          "id": "198:3111",
+          "title": "Dalle prove al prodotto reale",
+          "mainId": "3158:6355",
+          "titleId": "3158:6350",
+          "height": 162,
+          "y": 263.5,
+          "bottom": 425.5
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "path": "materiali/approfondimenti/2025-2026/lo-faro-giacomo-870336.pdf",
+      "author": "Giacomo Lo Faro",
+      "title": "Psicologia applicata al design: principi e leggi che possono orientare le scelte di progettazione",
+      "use": "Collegamento tra ricerca, ipotesi percettive, prestazione nel compito e valutazione iterativa.",
+      "sha256": "6c302df16652b5c358053a7208e8c20489b2f419d7fd2dbef26a848caf49004d"
+    },
+    {
+      "path": "materiali/approfondimenti/2025-2026/approfondimento-sansottera-gaia.pdf",
+      "author": "Gaia Sansottera",
+      "title": "Gestalt e Web Design: critiche, evoluzioni e applicazioni nel design digitale",
+      "use": "Passaggio dai raggruppamenti percettivi alla costruzione della gerarchia visiva.",
+      "sha256": "5e7a6df8579169b22a08c9760d308e023e9edbd0c8be8210f16b1a85297f15d5"
+    },
+    {
+      "path": "materiali/approfondimenti/2025-2026/teston-sara-925568.pdf",
+      "author": "Sara Teston",
+      "title": "Tipografia",
+      "use": "Contesto consultato per il rapporto fra gerarchia del testo, spazio e progettazione web.",
+      "sha256": "38bd876861e523bfc1f698c52198f08a46bd05d0926232e23097c16fe8b499a9"
+    },
+    {
+      "path": "materiali/approfondimenti/2023-2024/bianchimani-chiara-storia-e-tecniche-dei-test-di-usabilita-per-prodotti-digitali-e-non.pdf",
+      "author": "Chiara Bianchimani",
+      "title": "Storia e tecniche dei test di usabilità per prodotti digitali e non",
+      "use": "Collegamento tra domande di progetto, prove, risultati e revisione del prodotto.",
+      "sha256": "99bda36a260acfda430edf749c49ae864758a10c1983c000db44b0e13344e677"
+    },
+    {
+      "path": "materiali/approfondimenti/2022-2023/elhajjaoui-865663-inclusive-web-design.pdf",
+      "author": "Monia Elhajjaoui",
+      "title": "Inclusive Web Design: embracing diversity",
+      "use": "Connessione fra diversità dei contesti, condizioni d’uso, accessibilità e inclusione.",
+      "sha256": "d053956c6cfa0c6e3b2140e96a65a55017daa255aea7a84773f3d112dc6a4e16"
+    },
+    {
+      "path": "materiali/approfondimenti/2021-2022/giusti-867333-lean-ux.pdf",
+      "author": "Alessia Giusti",
+      "title": "La metodologia Lean UX: caratteristiche, principi e contesti di applicazione",
+      "use": "Chiusura del ciclo di implementazione e collegamento al capitolo Lean UX.",
+      "sha256": "d28a7f8665e970e245f2596b076abb20315a9576f5d47936c6d2c976eba0335e"
+    }
+  ],
+  "preservation": {
+    "figures": "Figure, originali, casi documentari e didascalie conservati.",
+    "citations": "Riferimenti tecnici e richiami in nota conservati; attribuzioni degli approfondimenti registrate qui.",
+    "pagination": "Nessuna tavola aggiunta o rimossa; folio e indice conservati.",
+    "slidev": "Il deck Slidev conserva contenuti e visibilità già pubblicati."
+  },
+  "verification": {
+    "receipt": "reports/booklet/collegamenti/applicazione.json",
+    "before": "reports/booklet/collegamenti/prima.json",
+    "after": "reports/booklet/collegamenti/verifica.json",
+    "nodeBounds": "Tutti i testi modificati entro la fascia del corpo; nessun antenato ritaglia il testo.",
+    "fonts": "Geom e Merriweather; ruoli, enfasi e richiamo dei riferimenti controllati.",
+    "previews": [
+      "reports/booklet/collegamenti/accessibilita.png",
+      "reports/booklet/collegamenti/wireframe.png",
+      "reports/booklet/collegamenti/ricerca.png",
+      "reports/booklet/collegamenti/prototipo.png",
+      "reports/booklet/collegamenti/implementazione.png"
+    ],
+    "sourceCheck": "pnpm check:source — passed"
+  }
+}

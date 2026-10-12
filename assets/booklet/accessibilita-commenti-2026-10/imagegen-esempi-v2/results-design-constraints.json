@@ -1,0 +1,313 @@
+{
+  "date": "2026-10-12",
+  "comment": 203,
+  "engine": "built-in image_gen",
+  "promptFile": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/prompts.json",
+  "promptPolicy": "Original item.prompt sent unchanged; onegenerationcall perasset. Authorized targetededits:media v3 andv4,feedbackv3, exactpromptsrecorded. All originalspreserved. No uploads or Figmamutations.",
+  "items": [
+    {
+      "key": "media",
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v2.png",
+      "filename": "media-comparison-v2.png",
+      "sourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-06fecbcd-0d24-4fd6-959e-5ae253c569db.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "f04dc360b57339b2f8b8f15a7e8828e71c9cccd3f19c4985241f8538f08381f2",
+      "inputPromptIndex": 6,
+      "qa": {
+        "status": "needs_targeted_edit",
+        "italian": "Sottotitoli corretti; manca la stringa richiesta Audio soltanto.",
+        "semantics": "Confronto audio/alternative comprensibile e CC/AD presenti.",
+        "issues": [
+          "Manca Audio soltanto nel pannello sinistro.",
+          "Timer0:12/1:00 aggiunto, non incluso nelle stringhe ammesse.",
+          "Carnagione pesca fuori dalla palette rosso/nero/grigi/bianco.",
+          "Campiture leggermente sfumate anziché completamente piatte."
+        ]
+      },
+      "activePath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v4.png",
+      "revision": {
+        "key": "media",
+        "filename": "media-comparison-v4.png",
+        "inputPath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v3.png",
+        "exactRevisionPrompt": "Edit only the colors of the lecturer in this original educational two-panel video UI comparison. Replace every peach, tan, orange or pink skin tone with pure white #FFFFFF, preserving black facial contours and the exact same lecturer pose and gesture in both panels. Replace any other non-red chromatic tint with neutral grayscale. The only colors must be chapter red #C10007, black #030712, neutral grays and pure white. Preserve every exact Italian word, Audio soltanto, Docente: il percorso è a destra, [suono di notifica], CC, AD, the absence of timers, all controls, positions, two columns, 1536×1024 canvas, white margins. No other changes.",
+        "generatedSourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-8d1caf83-41c7-4ee0-a577-90ac2cb87e27.png",
+        "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v4.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "ad937876a1fe52f6a165a321293946eb2433275c5d0713976b0926c222abca6c",
+        "qa": {
+          "status": "reviewed",
+          "italian": "Audio soltanto, sottotitoli, CC e AD corretti; nessun timer.",
+          "semantics": "Stesso docente e gesto, alternative accessibili a destra, distinzione mantenuta.",
+          "palette": "Carnagione resa bianca, contorni neri e colori limitati a rosso, nero, grigi e bianco.",
+          "issues": [
+            "Lieve sfumatura nelle campiture grigie/rosse conservata, come richiesto di preservare gli altri dettagli."
+          ]
+        }
+      },
+      "revisions": [
+        {
+          "key": "media",
+          "filename": "media-comparison-v3.png",
+          "inputPath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v2.png",
+          "exactRevisionPrompt": "Edit this original educational two-panel video comparison. Add only the exact label Audio soltanto to the left player and remove invented time counters0:12 and1:00 from both players, leaving neutral minimal player-control marks. Preserve the same lecturer/path, the right Italian subtitles Docente: il percorso è a destra and [suono di notifica], CC and AD controls, original two-column layout, font sizes and all other details. Use only chapter red #C10007, black, neutral gray and white; no new text, no green/blue/yellow. Keep every essential element inside the central y20%–80% band of1536×1024 and within its existing half. No other changes.",
+          "generatedSourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-58c2793a-c606-430c-a27f-3f82e6e17691.png",
+          "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v3.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "41839d672b43c62c3be094feb72d365df42f2df4fc5d8e86fe0d372856fec1f8",
+          "qa": {
+            "status": "needs_palette_review",
+            "italian": "Audio soltanto aggiunto; i timer sono stati rimossi; sottotitoli CC/AD corretti.",
+            "semantics": "Confronto audio/alternative mantenuto.",
+            "issues": [
+              "La carnagione del docente conserva il colore pesca; non rispetta una lettura rigorosa della palette solo rosso/nero/grigi/bianco.",
+              "Lieve gradiente nel player conservato."
+            ]
+          }
+        },
+        {
+          "key": "media",
+          "filename": "media-comparison-v4.png",
+          "inputPath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v3.png",
+          "exactRevisionPrompt": "Edit only the colors of the lecturer in this original educational two-panel video UI comparison. Replace every peach, tan, orange or pink skin tone with pure white #FFFFFF, preserving black facial contours and the exact same lecturer pose and gesture in both panels. Replace any other non-red chromatic tint with neutral grayscale. The only colors must be chapter red #C10007, black #030712, neutral grays and pure white. Preserve every exact Italian word, Audio soltanto, Docente: il percorso è a destra, [suono di notifica], CC, AD, the absence of timers, all controls, positions, two columns, 1536×1024 canvas, white margins. No other changes.",
+          "generatedSourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-8d1caf83-41c7-4ee0-a577-90ac2cb87e27.png",
+          "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/media-comparison-v4.png",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "sha256": "ad937876a1fe52f6a165a321293946eb2433275c5d0713976b0926c222abca6c",
+          "qa": {
+            "status": "reviewed",
+            "italian": "Audio soltanto, sottotitoli, CC e AD corretti; nessun timer.",
+            "semantics": "Stesso docente e gesto, alternative accessibili a destra, distinzione mantenuta.",
+            "palette": "Carnagione resa bianca, contorni neri e colori limitati a rosso, nero, grigi e bianco.",
+            "issues": [
+              "Lieve sfumatura nelle campiture grigie/rosse conservata, come richiesto di preservare gli altri dettagli."
+            ]
+          }
+        }
+      ],
+      "activeQa": {
+        "status": "reviewed",
+        "italian": "Audio soltanto, sottotitoli, CC e AD corretti; nessun timer.",
+        "semantics": "Stesso docente e gesto, alternative accessibili a destra, distinzione mantenuta.",
+        "palette": "Carnagione resa bianca, contorni neri e colori limitati a rosso, nero, grigi e bianco.",
+        "issues": [
+          "Lieve sfumatura nelle campiture grigie/rosse conservata, come richiesto di preservare gli altri dettagli."
+        ]
+      },
+      "activeSha256": "ad937876a1fe52f6a165a321293946eb2433275c5d0713976b0926c222abca6c",
+      "activeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "key": "semantica",
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/semantica-comparison-v2.png",
+      "filename": "semantica-comparison-v2.png",
+      "sourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-e5ba5797-1f3b-4fda-99af-8ed8b0d9ccae.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "58f67304fb4b17c16079217b4fea2b41d190c64b42a35fae2dcb9edb6b2ef8f8",
+      "inputPromptIndex": 7,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe richieste presenti e corrette.",
+        "semantics": "Nome, ruolo e stato espanso sono distinti e l’inspection card è riconoscibile.",
+        "issues": [
+          "Campiture grigie leggermente sfumate anziché completamente piatte."
+        ]
+      },
+      "activePath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/semantica-comparison-v2.png",
+      "activeQa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe richieste presenti e corrette.",
+        "semantics": "Nome, ruolo e stato espanso sono distinti e l’inspection card è riconoscibile.",
+        "issues": [
+          "Campiture grigie leggermente sfumate anziché completamente piatte."
+        ]
+      },
+      "activeSha256": "58f67304fb4b17c16079217b4fea2b41d190c64b42a35fae2dcb9edb6b2ef8f8",
+      "activeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "key": "feedback",
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/feedback-comparison-v2.png",
+      "filename": "feedback-comparison-v2.png",
+      "sourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-46922b62-8aee-4697-b63d-60d7b05e810e.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "c801b40f1193f91e47ed1719d2f22bcf92e397ad11c2271be46e35ed09428706",
+      "inputPromptIndex": 8,
+      "qa": {
+        "status": "needs_targeted_edit",
+        "italian": "Salvataggio completato, Salva e Nessun annuncio corretti.",
+        "semantics": "Focus mantenuto sul pulsante e annuncio rappresentato a destra.",
+        "issues": [
+          "Focusblu e iconaannuncioverde fuori palette.",
+          "Stringhe Titolo e Descrizione aggiunte, non ammesse dal prompt.",
+          "Campiture leggermente sfumate."
+        ]
+      },
+      "activePath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/feedback-comparison-v3.png",
+      "revision": {
+        "key": "feedback",
+        "filename": "feedback-comparison-v3.png",
+        "inputPath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/feedback-comparison-v2.png",
+        "exactRevisionPrompt": "Edit this original educational save-status comparison. Recolor every blue focus outline and every green announcement icon to chapter red #C10007. Remove unrequested words Titolo and Descrizione, replacing only those two strings with neutral gray skeleton lines. Preserve Salva, Salvataggio completato, Nessun annuncio, all other essential Italian words, both panels, the focused Salva control and the announcement distinction. Pure white background; only red/black/gray/white, no green/blue/yellow. Keep all essential content within central y20%–80% band of1536×1024. No other changes.",
+        "generatedSourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-419dd0ac-e3a8-4074-b7b0-6cb1f665aba3.png",
+        "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/feedback-comparison-v3.png",
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "sha256": "8f8b6b4ebe82cd841d807f8f227d9eb929eab23ec6ef7602bbd2b76af14b5b48",
+        "qa": {
+          "status": "reviewed",
+          "italian": "Salva, Salvataggio completato e Nessun annuncio corretti; Titolo/Descrizione sostituiti con skeleton.",
+          "semantics": "Focus sul pulsante mantenuto e annuncio distinto, senza spostarlo.",
+          "issues": [
+            "Lieve sfumatura nelle campiture rosse/grigie conservata."
+          ]
+        }
+      },
+      "activeQa": {
+        "status": "reviewed",
+        "italian": "Salva, Salvataggio completato e Nessun annuncio corretti; Titolo/Descrizione sostituiti con skeleton.",
+        "semantics": "Focus sul pulsante mantenuto e annuncio distinto, senza spostarlo.",
+        "issues": [
+          "Lieve sfumatura nelle campiture rosse/grigie conservata."
+        ]
+      },
+      "activeSha256": "8f8b6b4ebe82cd841d807f8f227d9eb929eab23ec6ef7602bbd2b76af14b5b48",
+      "activeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "key": "cognitiva",
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/cognitiva-comparison-v2.png",
+      "filename": "cognitiva-comparison-v2.png",
+      "sourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-e8e53c3b-acbd-4b8d-8e5e-f635b6e4cede.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "fd035b0e60c9e98a82ae537de862566224d1f9b77024845d984b1bee22321d22",
+      "inputPromptIndex": 9,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Confermi?, Conferma, Data:14ottobre, Ora:10:00 e Modifica corretti.",
+        "semantics": "Dati assenti a sinistra, visibili e modificabili a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordi delle superfici pallide superano leggermente la fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "activePath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/cognitiva-comparison-v2.png",
+      "activeQa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Confermi?, Conferma, Data:14ottobre, Ora:10:00 e Modifica corretti.",
+        "semantics": "Dati assenti a sinistra, visibili e modificabili a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordi delle superfici pallide superano leggermente la fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "activeSha256": "fd035b0e60c9e98a82ae537de862566224d1f9b77024845d984b1bee22321d22",
+      "activeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "key": "movimento",
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/movimento-comparison-v2.png",
+      "filename": "movimento-comparison-v2.png",
+      "sourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-a19c4f88-b824-4521-a5ae-9e7c04487b91.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "315b3ffc69d6989b74aaa152ccc038c4b0ef30b459ec2fedad4c5753f6114183",
+      "inputPromptIndex": 10,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe degli articoli e dei comandi corrette.",
+        "semantics": "Frecce solo a sinistra, Pausaaggiornamenti e Riprendi separati a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordo esterno delle superfici sfiora i limiti della fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "activePath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/movimento-comparison-v2.png",
+      "activeQa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Tutte le stringhe degli articoli e dei comandi corrette.",
+        "semantics": "Frecce solo a sinistra, Pausaaggiornamenti e Riprendi separati a destra.",
+        "issues": [
+          "Campiture leggermente sfumate.",
+          "Bordo esterno delle superfici sfiora i limiti della fascia20–80%; i controlli e il testo sono nella fascia."
+        ]
+      },
+      "activeSha256": "315b3ffc69d6989b74aaa152ccc038c4b0ef30b459ec2fedad4c5753f6114183",
+      "activeDimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "key": "moduli",
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/moduli-comparison-v2.png",
+      "filename": "moduli-comparison-v2.png",
+      "sourcePath": "/Users/marco/.codex/generated_images/01a1304c-3e2f-7941-bc3c-0ea30814c924/exec-732f5f37-5393-46af-ab9b-1330f2ed90c0.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "17c67dea5c1b34f4b3e966979befd52d7656ac92aab33c2770ea140c8ea579cf",
+      "inputPromptIndex": 11,
+      "qa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Data, Data dell’appuntamento, Usa l’anno di quattro cifre, GG/MM/AAAA e14/10/26 corretti.",
+        "semantics": "Stesso valore invalido su entrambi i pannelli; correzione spiegata solo a destra.",
+        "issues": [
+          "Campiture leggermente sfumate; nessun problema di testo o semantica individuato."
+        ]
+      },
+      "activePath": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/accessibilita-commenti-2026-10/imagegen-esempi-v2/moduli-comparison-v2.png",
+      "activeQa": {
+        "status": "reviewed_with_style_warnings",
+        "italian": "Data, Data dell’appuntamento, Usa l’anno di quattro cifre, GG/MM/AAAA e14/10/26 corretti.",
+        "semantics": "Stesso valore invalido su entrambi i pannelli; correzione spiegata solo a destra.",
+        "issues": [
+          "Campiture leggermente sfumate; nessun problema di testo o semantica individuato."
+        ]
+      },
+      "activeSha256": "17c67dea5c1b34f4b3e966979befd52d7656ac92aab33c2770ea140c8ea579cf",
+      "activeDimensions": [
+        1536,
+        1024
+      ]
+    }
+  ],
+  "allActiveAssetsReviewed": true
+}

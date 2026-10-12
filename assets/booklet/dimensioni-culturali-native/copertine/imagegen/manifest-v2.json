@@ -1,0 +1,390 @@
+{
+  "schema": "cvedi-imagegen-fullpage-cultural-covers/2",
+  "generatedOn": "2026-10-11",
+  "mode": "built-in image_gen",
+  "skillPath": "/Users/marco/.codex/skills/.system/imagegen/SKILL.md",
+  "userRequestedImageGen": true,
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1109",
+  "sectionId": "204:8295",
+  "style": "Illustrazione editoriale geometrica e surreale: archi, cerchi e percorsi curvi; campiture rosse e nere su bianco; grana fine limitata alle forme, senza carta beige o invecchiata.",
+  "assetCount": 6,
+  "promptsPreserved": true,
+  "originalBytesPreserved": true,
+  "graphBoardsPreserved": [
+    {
+      "code": "PDI",
+      "coverId": "198:3945",
+      "coverComponentId": "2695:3726",
+      "coverInstanceId": "2695:4345",
+      "graphId": "2695:3902",
+      "graphInstanceId": "2695:3919",
+      "coverOrdinal": 15,
+      "graphOrdinal": 16
+    },
+    {
+      "code": "IDV",
+      "coverId": "198:4402",
+      "coverComponentId": "2695:3754",
+      "coverInstanceId": "2695:4510",
+      "graphId": "2695:4373",
+      "graphInstanceId": "2695:4390",
+      "coverOrdinal": 20,
+      "graphOrdinal": 21
+    },
+    {
+      "code": "MAS",
+      "coverId": "198:4386",
+      "coverComponentId": "2695:3782",
+      "coverInstanceId": "2695:4672",
+      "graphId": "2695:4538",
+      "graphInstanceId": "2695:4555",
+      "coverOrdinal": 25,
+      "graphOrdinal": 26
+    },
+    {
+      "code": "UAI",
+      "coverId": "198:4370",
+      "coverComponentId": "2695:3812",
+      "coverInstanceId": "2695:5023",
+      "graphId": "2695:4702",
+      "graphInstanceId": "2695:4719",
+      "coverOrdinal": 30,
+      "graphOrdinal": 31
+    },
+    {
+      "code": "LTO",
+      "coverId": "198:4354",
+      "coverComponentId": "2695:3846",
+      "coverInstanceId": "2695:5364",
+      "graphId": "2695:5057",
+      "graphInstanceId": "2695:5074",
+      "coverOrdinal": 35,
+      "graphOrdinal": 36
+    },
+    {
+      "code": "IVR",
+      "coverId": "198:4429",
+      "coverComponentId": "2695:3871",
+      "coverInstanceId": "2695:6080",
+      "graphId": "2695:5389",
+      "graphInstanceId": "2695:5398",
+      "coverOrdinal": 40,
+      "graphOrdinal": 41
+    }
+  ],
+  "previousNativeOpenerComponentSetId": "2695:3901",
+  "historicalRestoration": [
+    {
+      "code": "PDI",
+      "archiveBoardId": "2619:290",
+      "imageNodeId": "2696:432",
+      "captionNodeId": "2696:433",
+      "pdfPage": 157
+    },
+    {
+      "code": "IDV",
+      "archiveBoardId": "2619:361",
+      "imageNodeId": "2696:434",
+      "captionNodeId": "2696:435",
+      "pdfPage": 160
+    },
+    {
+      "code": "MAS",
+      "archiveBoardId": "2619:432",
+      "imageNodeId": "2696:436",
+      "captionNodeId": "2696:437",
+      "pdfPage": 163
+    },
+    {
+      "code": "UAI",
+      "archiveBoardId": "2619:503",
+      "imageNodeId": "2696:438",
+      "captionNodeId": "2696:439",
+      "pdfPage": 166
+    },
+    {
+      "code": "LTO",
+      "archiveBoardId": "2619:574",
+      "imageNodeId": "2696:440",
+      "captionNodeId": "2696:441",
+      "pdfPage": 169
+    }
+  ],
+  "verificationReport": "reports/contesto-culturale/copertine-imagegen-v2/verifica.json",
+  "palette": {
+    "red": "#C10007",
+    "ink": "#030712",
+    "paper": "#FFFFFF",
+    "neutral": "gray"
+  },
+  "assets": [
+    {
+      "code": "PDI",
+      "boardId": "198:3945",
+      "imageNodeId": "2702:3941",
+      "titleId": "2702:3944",
+      "codeId": "2702:3943",
+      "fadeId": "2702:3942",
+      "creditId": "2702:3949",
+      "poles": [
+        {
+          "labelId": "2702:3945",
+          "poleId": "2702:3946",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3947",
+          "poleId": "2702:3948",
+          "height": 15
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/dimensioni-culturali-native/copertine/imagegen/pdi-v2.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/pdi-v2.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a12ca5-168c-7313-8c53-f523d70ce364/exec-6d8b488b-c51d-4686-a461-8d8483565eb4.png",
+      "sha256": "d4e986f8fe113550a5b0140ebd91bc59e6ca90771615c75b895ae9742e7f0887",
+      "bytes": 1959779,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "463959b9dda53e56a7ae5b8cff8f6898be85da2f",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for the six Hofstede dimension openers in an Italian university visual-design booklet. Output portrait 3:4.\nPrimary request: sophisticated artistic editorial illustration that belongs to the booklet's visual language: disciplined geometry, bold red shapes, charcoal-black silhouettes, precise curved routes, open circles and geometric architecture, generous pure WHITE negative space. Surreal graphic art and modernist screenprint composition, visually rich through scale, intersections and rhythm, with a very restrained fine ink grain only INSIDE colored shapes. The overall page must feel bright, crisp and contemporary, never antique or aged.\nColor palette: ONLY chapter red #C10007, near-black #030712, neutral pale gray and pure white #FFFFFF. White is the predominant background and appears inside the illustration. No beige, ivory, cream, sepia, warm gray, parchment texture, torn paper, distressed edges or grungy woodcut. No extra color.\nComposition/framing: One continuous edge-to-edge portrait artwork containing two equally weighted metaphorical halves, low pole LEFT and high pole RIGHT. A subtle meeting of forms at the vertical center, without divider or panel border. Upper 24 percent (especially top-left) stays pure white and free of objects for a later editable title. Main artwork runs across the whole width between 26 and 80 percent of the page and some forms are cropped by the lateral edges. Bottom 18 percent stays pure white and quiet for the two native pole labels and a caption. White is the actual background, not an outer frame or inset sheet. No text is generated: typography will be added natively in Figma.\nStyle constraints: artistic spatial collage with large architectonic shapes and elegant abstract gender-neutral human silhouettes when concept requires them; intentional simplified details and unexpected geometry. Not a statistical diagram, not a UI, not a logo, not a set of icons, not photorealistic, not glossy 3D.\nConstraints: one artwork only, no lettering, letters, numbers, logos, watermarks, borders, flags, charts or national stereotypes. Both poles carry equal dignity and similar visual emphasis. Preserve the left/right meaning and the visual metaphors specified below.\nInput images: Image 1 is a STYLE REFERENCE ONLY showing the booklet's red, black, white, round markers, curved paths and precise graphical restraint. Image 2 is a SUBJECT REFERENCE ONLY for the previous Power Distance cover. Reimagine its metaphor in the new clean contemporary graphic style; do not retain its beige or antique texture or realistic landscape.\nSubject: POWER DISTANCE (PDI). LEFT: five abstract human silhouettes share a large circular table and the same ground level, exchanging a single vivid red ribbon, evoking parity. RIGHT: five equally dignified silhouettes stand on architectural stepped terraces at different levels, connected by the same red ribbon, evoking accepted hierarchical distance. Keep the powerful contrast in horizontal equality versus vertical levels readable; simplify the landscape into interlocking white and black arches, circular counterforms, and crisp red paths. No vegetation or scenery unrelated to the metaphor. The table and stair architecture are substantial graphic art, not small pictograms.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-11",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS",
+      "previousAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/pdi-v1.png",
+      "nativeTextPreserved": true
+    },
+    {
+      "code": "IDV",
+      "boardId": "198:4402",
+      "imageNodeId": "2702:3950",
+      "titleId": "2702:3953",
+      "codeId": "2702:3952",
+      "fadeId": "2702:3951",
+      "creditId": "2702:3958",
+      "poles": [
+        {
+          "labelId": "2702:3954",
+          "poleId": "2702:3955",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3956",
+          "poleId": "2702:3957",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/dimensioni-culturali-native/copertine/imagegen/idv-v2.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/idv-v2.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a12ca5-168c-7313-8c53-f523d70ce364/exec-3352eff7-d8e7-4151-a9c0-8bde75dc07bd.png",
+      "sha256": "d170e76984e61a4bd8c052b2b0fcc9011eaca0de695df90590129e6b9dd99a9b",
+      "bytes": 1652549,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "251c65191d7f1e54eab3da204eae9458dcfe2708",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for the six Hofstede dimension openers in an Italian university visual-design booklet. Output portrait 3:4.\nPrimary request: sophisticated artistic editorial illustration that belongs to the booklet's visual language: disciplined geometry, bold red shapes, charcoal-black silhouettes, precise curved routes, open circles and geometric architecture, generous pure WHITE negative space. Surreal graphic art and modernist screenprint composition, visually rich through scale, intersections and rhythm, with a very restrained fine ink grain only INSIDE colored shapes. The overall page must feel bright, crisp and contemporary, never antique or aged.\nColor palette: ONLY chapter red #C10007, near-black #030712, neutral pale gray and pure white #FFFFFF. White is the predominant background and appears inside the illustration. No beige, ivory, cream, sepia, warm gray, parchment texture, torn paper, distressed edges or grungy woodcut. No extra color.\nComposition/framing: One continuous edge-to-edge portrait artwork containing two equally weighted metaphorical halves, low pole LEFT and high pole RIGHT. A subtle meeting of forms at the vertical center, without divider or panel border. Upper 24 percent (especially top-left) stays pure white and free of objects for a later editable title. Main artwork runs across the whole width between 26 and 80 percent of the page and some forms are cropped by the lateral edges. Bottom 18 percent stays pure white and quiet for the two native pole labels and a caption. White is the actual background, not an outer frame or inset sheet. No text is generated: typography will be added natively in Figma.\nStyle constraints: artistic spatial collage with large architectonic shapes and elegant abstract gender-neutral human silhouettes when concept requires them; intentional simplified details and unexpected geometry. Not a statistical diagram, not a UI, not a logo, not a set of icons, not photorealistic, not glossy 3D.\nConstraints: one artwork only, no lettering, letters, numbers, logos, watermarks, borders, flags, charts or national stereotypes. Both poles carry equal dignity and similar visual emphasis. Preserve the left/right meaning and the visual metaphors specified below.\nInput image: Image 1 is the approved STYLE REFERENCE from this same six-image series. Match its crisp red, black and WHITE palette, artful geometric architecture, precise silhouette language, scale and graphic rhythm. It is not a subject reference: create the distinct metaphor described below. Keep the upper-left quarter empty white and the bottom 18 percent empty white for native text. Reduce grain compared with the reference, with truly flat white negative space and finer print texture only inside red/black/gray shapes.\nSubject: INDIVIDUALISM AND COLLECTIVISM (IDV). LEFT: five distinct abstract human silhouettes grouped around a large shared red circular canopy, connected by woven red routes that form one coherent pattern: belonging, loyalty and reciprocal ties. RIGHT: five equally dignified silhouettes follow distinct sweeping red paths, with clean white breathing room between them: autonomy and less binding ties. The group and separate routes are immediately legible. Give the lines surprising architectural rhythm and scale, not a network diagram.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-11",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS",
+      "previousAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/idv-v1.png",
+      "nativeTextPreserved": true
+    },
+    {
+      "code": "MAS",
+      "boardId": "198:4386",
+      "imageNodeId": "2702:3959",
+      "titleId": "2702:3962",
+      "codeId": "2702:3961",
+      "fadeId": "2702:3960",
+      "creditId": "2702:3967",
+      "poles": [
+        {
+          "labelId": "2702:3963",
+          "poleId": "2702:3964",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3965",
+          "poleId": "2702:3966",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/dimensioni-culturali-native/copertine/imagegen/mas-v2.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/mas-v2.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a12ca5-168c-7313-8c53-f523d70ce364/exec-642f3cf1-65d1-469f-8391-861055276e07.png",
+      "sha256": "273a3eb99ced023467424383e161f08cea99bb89c5dad529040ee924979c8853",
+      "bytes": 1712125,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "5744b206c60c07a1e6f02d72b1dab2566f9de539",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for the six Hofstede dimension openers in an Italian university visual-design booklet. Output portrait 3:4.\nPrimary request: sophisticated artistic editorial illustration that belongs to the booklet's visual language: disciplined geometry, bold red shapes, charcoal-black silhouettes, precise curved routes, open circles and geometric architecture, generous pure WHITE negative space. Surreal graphic art and modernist screenprint composition, visually rich through scale, intersections and rhythm, with a very restrained fine ink grain only INSIDE colored shapes. The overall page must feel bright, crisp and contemporary, never antique or aged.\nColor palette: ONLY chapter red #C10007, near-black #030712, neutral pale gray and pure white #FFFFFF. White is the predominant background and appears inside the illustration. No beige, ivory, cream, sepia, warm gray, parchment texture, torn paper, distressed edges or grungy woodcut. No extra color.\nComposition/framing: One continuous edge-to-edge portrait artwork containing two equally weighted metaphorical halves, low pole LEFT and high pole RIGHT. A subtle meeting of forms at the vertical center, without divider or panel border. Upper 24 percent (especially top-left) stays pure white and free of objects for a later editable title. Main artwork runs across the whole width between 26 and 80 percent of the page and some forms are cropped by the lateral edges. Bottom 18 percent stays pure white and quiet for the two native pole labels and a caption. White is the actual background, not an outer frame or inset sheet. No text is generated: typography will be added natively in Figma.\nStyle constraints: artistic spatial collage with large architectonic shapes and elegant abstract gender-neutral human silhouettes when concept requires them; intentional simplified details and unexpected geometry. Not a statistical diagram, not a UI, not a logo, not a set of icons, not photorealistic, not glossy 3D.\nConstraints: one artwork only, no lettering, letters, numbers, logos, watermarks, borders, flags, charts or national stereotypes. Both poles carry equal dignity and similar visual emphasis. Preserve the left/right meaning and the visual metaphors specified below.\nInput image: Image 1 is the approved STYLE REFERENCE from this same six-image series. Match its crisp red, black and WHITE palette, artful geometric architecture, precise silhouette language, scale and graphic rhythm. It is not a subject reference: create the distinct metaphor described below. Keep the upper-left quarter empty white and the bottom 18 percent empty white for native text. Reduce grain compared with the reference, with truly flat white negative space and finer print texture only inside red/black/gray shapes.\nSubject: MOTIVATION FOR ACHIEVEMENT AND SUCCESS (MAS). LEFT: abstract hands and five small gender-neutral figures jointly build a substantial curved bridge of red and white geometric segments, a warm scene of cooperation and quality of life. RIGHT: several parallel red ascending routes rise through sculptural black and white mountain-like peaks with small abstract pennants, pursued by equally dignified gender-neutral figures, evoking competition and recognition of achievement. Both sides have equal beauty and weight. No trophies or gender-coded roles. Preserve the bridge versus parallel ascents metaphor.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-11",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS",
+      "previousAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/mas-v1.png",
+      "nativeTextPreserved": true
+    },
+    {
+      "code": "UAI",
+      "boardId": "198:4370",
+      "imageNodeId": "2702:3968",
+      "titleId": "2702:3971",
+      "codeId": "2702:3970",
+      "fadeId": "2702:3969",
+      "creditId": "2702:3976",
+      "poles": [
+        {
+          "labelId": "2702:3972",
+          "poleId": "2702:3973",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3974",
+          "poleId": "2702:3975",
+          "height": 15
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/dimensioni-culturali-native/copertine/imagegen/uai-v2.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/uai-v2.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a12ca5-168c-7313-8c53-f523d70ce364/exec-ed97f1f9-5e58-4c8b-a3fa-516408a23ca9.png",
+      "sha256": "7cfb3bf9207de245cbf538e61ffbb035e0169bf236e97484db25a78389b3bc34",
+      "bytes": 1771175,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "f1f21177e743e79afcc3ad8b57b8713e1fc946ce",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for the six Hofstede dimension openers in an Italian university visual-design booklet. Output portrait 3:4.\nPrimary request: sophisticated artistic editorial illustration that belongs to the booklet's visual language: disciplined geometry, bold red shapes, charcoal-black silhouettes, precise curved routes, open circles and geometric architecture, generous pure WHITE negative space. Surreal graphic art and modernist screenprint composition, visually rich through scale, intersections and rhythm, with a very restrained fine ink grain only INSIDE colored shapes. The overall page must feel bright, crisp and contemporary, never antique or aged.\nColor palette: ONLY chapter red #C10007, near-black #030712, neutral pale gray and pure white #FFFFFF. White is the predominant background and appears inside the illustration. No beige, ivory, cream, sepia, warm gray, parchment texture, torn paper, distressed edges or grungy woodcut. No extra color.\nComposition/framing: One continuous edge-to-edge portrait artwork containing two equally weighted metaphorical halves, low pole LEFT and high pole RIGHT. A subtle meeting of forms at the vertical center, without divider or panel border. Upper 24 percent (especially top-left) stays pure white and free of objects for a later editable title. Main artwork runs across the whole width between 26 and 80 percent of the page and some forms are cropped by the lateral edges. Bottom 18 percent stays pure white and quiet for the two native pole labels and a caption. White is the actual background, not an outer frame or inset sheet. No text is generated: typography will be added natively in Figma.\nStyle constraints: artistic spatial collage with large architectonic shapes and elegant abstract gender-neutral human silhouettes when concept requires them; intentional simplified details and unexpected geometry. Not a statistical diagram, not a UI, not a logo, not a set of icons, not photorealistic, not glossy 3D.\nConstraints: one artwork only, no lettering, letters, numbers, logos, watermarks, borders, flags, charts or national stereotypes. Both poles carry equal dignity and similar visual emphasis. Preserve the left/right meaning and the visual metaphors specified below.\nInput image: Image 1 is the approved STYLE REFERENCE from this same six-image series. Match its crisp red, black and WHITE palette, artful geometric architecture, precise silhouette language, scale and graphic rhythm. It is not a subject reference: create the distinct metaphor described below. Keep the upper-left quarter empty white and the bottom 18 percent empty white for native text. Reduce grain compared with the reference, with truly flat white negative space and finer print texture only inside red/black/gray shapes.\nSubject: UNCERTAINTY AVOIDANCE (UAI). LEFT: inviting red open pathways branch and sweep among sculptural white and black forms with open doorways; routes have multiple possible directions, composed and readable, evoking tolerance of ambiguity. RIGHT: an equally inviting red route passes through a rhythmic sequence of large repeated black-and-white architectural arches and clear landmarks, evoking predictability and discomfort with ambiguity. Create a lyrical architectural landscape with curved paths and circles. Neither side is chaos or an authoritarian prison. No arrows or data graphics.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-11",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS",
+      "previousAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/uai-v1.png",
+      "nativeTextPreserved": true
+    },
+    {
+      "code": "LTO",
+      "boardId": "198:4354",
+      "imageNodeId": "2702:3977",
+      "titleId": "2702:3980",
+      "codeId": "2702:3979",
+      "fadeId": "2702:3978",
+      "creditId": "2702:3985",
+      "poles": [
+        {
+          "labelId": "2702:3981",
+          "poleId": "2702:3982",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3983",
+          "poleId": "2702:3984",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/dimensioni-culturali-native/copertine/imagegen/lto-v2.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/lto-v2.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a12ca5-168c-7313-8c53-f523d70ce364/exec-b8a3ffb0-fedd-4c00-82bb-50a4c0e54aa2.png",
+      "sha256": "8a0d9510ee4f230071318e27a32b84c412664708673fba7087462847083c1a67",
+      "bytes": 1914206,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "5812f910f297e7bc3180d02dd0e63dd63254ecfc",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for the six Hofstede dimension openers in an Italian university visual-design booklet. Output portrait 3:4.\nPrimary request: sophisticated artistic editorial illustration that belongs to the booklet's visual language: disciplined geometry, bold red shapes, charcoal-black silhouettes, precise curved routes, open circles and geometric architecture, generous pure WHITE negative space. Surreal graphic art and modernist screenprint composition, visually rich through scale, intersections and rhythm, with a very restrained fine ink grain only INSIDE colored shapes. The overall page must feel bright, crisp and contemporary, never antique or aged.\nColor palette: ONLY chapter red #C10007, near-black #030712, neutral pale gray and pure white #FFFFFF. White is the predominant background and appears inside the illustration. No beige, ivory, cream, sepia, warm gray, parchment texture, torn paper, distressed edges or grungy woodcut. No extra color.\nComposition/framing: One continuous edge-to-edge portrait artwork containing two equally weighted metaphorical halves, low pole LEFT and high pole RIGHT. A subtle meeting of forms at the vertical center, without divider or panel border. Upper 24 percent (especially top-left) stays pure white and free of objects for a later editable title. Main artwork runs across the whole width between 26 and 80 percent of the page and some forms are cropped by the lateral edges. Bottom 18 percent stays pure white and quiet for the two native pole labels and a caption. White is the actual background, not an outer frame or inset sheet. No text is generated: typography will be added natively in Figma.\nStyle constraints: artistic spatial collage with large architectonic shapes and elegant abstract gender-neutral human silhouettes when concept requires them; intentional simplified details and unexpected geometry. Not a statistical diagram, not a UI, not a logo, not a set of icons, not photorealistic, not glossy 3D.\nConstraints: one artwork only, no lettering, letters, numbers, logos, watermarks, borders, flags, charts or national stereotypes. Both poles carry equal dignity and similar visual emphasis. Preserve the left/right meaning and the visual metaphors specified below.\nInput image: Image 1 is the approved STYLE REFERENCE from this same six-image series. Match its crisp red, black and WHITE palette, artful geometric architecture, precise silhouette language, scale and graphic rhythm. It is not a subject reference: create the distinct metaphor described below. Keep the upper-left quarter empty white and the bottom 18 percent empty white for native text. Reduce grain compared with the reference, with truly flat white negative space and finer print texture only inside red/black/gray shapes.\nSubject: LONG-TERM ORIENTATION (LTO). LEFT: a striking sculptural tree made of black branching geometry with strong red roots interlocking in repeated concentric curves, evoking continuity with norms and traditions. RIGHT: equally substantial evolving red stems, white-and-black leaves and germinating forms rise through progressive geometric terraces, evoking adaptation and preparation of the future. Join the rooted and growing forms with a common red flowing ground. Roots and sprouts must be clearly recognizable; contemporary abstract botanical/architectural art, no realistic beige soil, no calendars or clocks.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-11",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS",
+      "previousAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/lto-v1.png",
+      "nativeTextPreserved": true
+    },
+    {
+      "code": "IVR",
+      "boardId": "198:4429",
+      "imageNodeId": "2702:3986",
+      "titleId": "2702:3989",
+      "codeId": "2702:3988",
+      "fadeId": "2702:3987",
+      "creditId": "2702:3994",
+      "poles": [
+        {
+          "labelId": "2702:3990",
+          "poleId": "2702:3991",
+          "height": 15
+        },
+        {
+          "labelId": "2702:3992",
+          "poleId": "2702:3993",
+          "height": 30
+        }
+      ],
+      "fullBleed": {
+        "x": 0,
+        "y": 0,
+        "width": 496.06298828125,
+        "height": 657.6378173828125
+      },
+      "path": "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/dimensioni-culturali-native/copertine/imagegen/ivr-v2.png",
+      "pathRelativeToProject": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/ivr-v2.png",
+      "originalGeneratedPath": "/Users/marco/.codex/generated_images/01a12ca5-168c-7313-8c53-f523d70ce364/exec-d32aa161-f8f2-4652-b0af-b60980a555da.png",
+      "sha256": "110b8e3bea9957b5e335030ec918b8a35ccc41e42264b763d3984eec8ed90295",
+      "bytes": 1733769,
+      "width": 1086,
+      "height": 1448,
+      "format": "PNG",
+      "imageHash": "727ea08a0ba8e17c966db475d3678a6bbda880fe",
+      "prompt": "Use case: stylized-concept.\nAsset type: one finished full-page portrait artwork for the six Hofstede dimension openers in an Italian university visual-design booklet. Output portrait 3:4.\nPrimary request: sophisticated artistic editorial illustration that belongs to the booklet's visual language: disciplined geometry, bold red shapes, charcoal-black silhouettes, precise curved routes, open circles and geometric architecture, generous pure WHITE negative space. Surreal graphic art and modernist screenprint composition, visually rich through scale, intersections and rhythm, with a very restrained fine ink grain only INSIDE colored shapes. The overall page must feel bright, crisp and contemporary, never antique or aged.\nColor palette: ONLY chapter red #C10007, near-black #030712, neutral pale gray and pure white #FFFFFF. White is the predominant background and appears inside the illustration. No beige, ivory, cream, sepia, warm gray, parchment texture, torn paper, distressed edges or grungy woodcut. No extra color.\nComposition/framing: One continuous edge-to-edge portrait artwork containing two equally weighted metaphorical halves, low pole LEFT and high pole RIGHT. A subtle meeting of forms at the vertical center, without divider or panel border. Upper 24 percent (especially top-left) stays pure white and free of objects for a later editable title. Main artwork runs across the whole width between 26 and 80 percent of the page and some forms are cropped by the lateral edges. Bottom 18 percent stays pure white and quiet for the two native pole labels and a caption. White is the actual background, not an outer frame or inset sheet. No text is generated: typography will be added natively in Figma.\nStyle constraints: artistic spatial collage with large architectonic shapes and elegant abstract gender-neutral human silhouettes when concept requires them; intentional simplified details and unexpected geometry. Not a statistical diagram, not a UI, not a logo, not a set of icons, not photorealistic, not glossy 3D.\nConstraints: one artwork only, no lettering, letters, numbers, logos, watermarks, borders, flags, charts or national stereotypes. Both poles carry equal dignity and similar visual emphasis. Preserve the left/right meaning and the visual metaphors specified below.\nInput image: Image 1 is the approved STYLE REFERENCE from this same six-image series. Match its crisp red, black and WHITE palette, artful geometric architecture, precise silhouette language, scale and graphic rhythm. It is not a subject reference: create the distinct metaphor described below. Keep the upper-left quarter empty white and the bottom 18 percent empty white for native text. Reduce grain compared with the reference, with truly flat white negative space and finer print texture only inside red/black/gray shapes.\nSubject: INDULGENCE AND RESTRAINT (IVR). LEFT: orderly black-and-white geometric forms hold red petals in a disciplined repeating rhythm, shaped by a clear but elegant structure, evoking social norms and restraint. RIGHT: the same red petals open and fan outward freely into broad elegant curves and circular shapes, evoking relatively free gratification. A poetic sculptural botanical composition of contained versus opening forms, both equally dignified and beautiful. Keep red forms alive and clear. No literal cages or locks, no morality symbols, no confetti party icons.",
+      "mode": "built-in image_gen",
+      "generatedOn": "2026-10-11",
+      "nature": "Illustrazione concettuale sintetica dei poli; non documenta persone o Paesi reali.",
+      "visualQA": "PASS",
+      "previousAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/ivr-v1.png",
+      "nativeTextPreserved": true
+    }
+  ],
+  "previousManifest": "manifest-v1.json",
+  "promptSet": "prompts-v2.json",
+  "nativeStateSnapshot": "figma-state-v2.json",
+  "rights": "Immagini sintetiche originali generate con OpenAI ImageGen su richiesta dell’utente; utilizzo secondo le condizioni applicabili del servizio. Le fonti e licenze degli altri asset del booklet restano conservate.",
+  "scope": "Sostituzione delle sei immagini nel capitolo attivo C03.02 e conversione al bianco delle dodici velature di contrasto.",
+  "archivedLinkedSectionPreserved": "2751:3772",
+  "textsAndGraphsPreserved": true,
+  "sectionOrderPreserved": true,
+  "visualQA": "PASS — sei anteprime Figma ispezionate; titoli, poli, didascalie e folio leggibili"
+}

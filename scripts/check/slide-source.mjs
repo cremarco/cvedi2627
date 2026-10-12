@@ -74,7 +74,7 @@ export async function checkSlideSources() {
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 67, 'history: 67 slides')
-  assert.equal(visibleDeck.slides.length, 535, 'all retained teaching chapters are available locally')
+  assert.equal(visibleDeck.slides.length, 588, 'active chapters include the accessibility-only lesson and its live examples')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
@@ -106,16 +106,26 @@ export async function checkSlideSources() {
   const uxSource = JSON.parse(await readFile(path.join(root, curriculum.source.snapshot), 'utf8'))
   const uxMapping = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/slide-mapping.json'), 'utf8'))
   const removedMapping = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/lesson-04-removed-slides.json'), 'utf8'))
+  const perceptionArchive = JSON.parse(await readFile(path.join(root, 'assets/booklet/lezione-05-accessibilita/perception-archive.json'), 'utf8'))
+  assert.equal(perceptionArchive.active, false, 'perception is preserved outside the active lesson')
+  assert.equal(perceptionArchive.lessons.length, 52, 'all former perception slide mappings are retained')
+  const archivedDeck = await load(options, path.join(root, perceptionArchive.file))
+  assert.equal(archivedDeck.slides.length, 52, 'all former perception contents are retained')
+  assert.ok(!Object.hasOwn(deck.markdownFiles, path.join(root, perceptionArchive.file)), 'perception archive is not imported into the deck')
   const uxAssets = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/slide-assets.json'), 'utf8'))
   assert.equal(uxSource.fileKey, 'WLdDzbdqP3P5rpYbK1OxYC', 'new lessons use the requested Figma file')
   assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
   assert.deepEqual(uxSource.pages.map(page => page.ordinal), Array.from({ length: 260 }, (_, i) => i + 1), 'all 260 source pages are preserved')
   assert.deepEqual(curriculum.lessons.map(lesson => lesson.number), [4, 5, 6, 7, 8, 9], 'the UX chapter is split into six lessons')
-  assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['lime', 'green', 'emerald', 'teal', 'cyan', 'sky'], 'new index colors continue Tailwind order')
+  assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['green', 'emerald', 'teal', 'cyan', 'sky', 'blue'], 'UX lesson palettes continue Tailwind order after history lime')
   const sourcePages = new Map(uxSource.pages.map(page => [page.ordinal, page]))
   const assetRegistry = new Map(uxAssets.assets.map(asset => [asset.id, asset]))
   const coveredPages = new Set()
   const usedAssets = new Set()
+  const accessibilitySource = JSON.parse(await readFile(path.join(root, 'assets/booklet/lezione-05-accessibilita/figma-source.json'), 'utf8'))
+  const accessibilityPages = new Map(accessibilitySource.frames.map((frame, index) => [frame.id, { ...frame, folio: 168 + index }]))
+  const coveredAccessibility = new Set()
+  assert.equal(accessibilityPages.size, 56, 'lesson 05: all current Figma accessibility boards retained')
   for (const specification of curriculum.lessons) {
     const slides = deck.slides.filter(slide => slide.frontmatter.lesson === specification.id)
     const mapping = uxMapping.lessons.filter(slide => slide.lesson === specification.id)
@@ -129,9 +139,21 @@ export async function checkSlideSources() {
     for (const [index, slide] of slides.entries()) {
       const entry = mapping[index]
       assert.equal(slide.title, entry.title, `${specification.id}/${index + 1}: source map title`)
-      assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, `${specification.id}/${index + 1}: source page identities`)
-      assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page)?.id), `${specification.id}/${index + 1}: genuine Figma nodes`)
-      assert.ok(entry.sourcePages.length > 0, `${specification.id}/${index + 1}: content has a source`)
+      if (entry.currentSource) {
+        assert.equal(entry.currentSource, specification.currentSource.snapshot, 'current accessibility snapshot is explicit')
+        assert.deepEqual(slide.frontmatter.bookletNodes, entry.sourceNodes, 'current Figma node identities match the slide')
+        assert.deepEqual(slide.frontmatter.bookletFolios, entry.sourceFolios, 'current booklet folios match the slide')
+        assert.ok(entry.sourceNodes.length > 0, 'current accessibility content has a source')
+        entry.sourceNodes.forEach((node, i) => {
+          assert.ok(accessibilityPages.has(node), 'genuine current accessibility node')
+          assert.equal(entry.sourceFolios[i], accessibilityPages.get(node).folio, 'current accessibility folio')
+          coveredAccessibility.add(node)
+        })
+      } else {
+        assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, `${specification.id}/${index + 1}: source page identities`)
+        assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page)?.id), `${specification.id}/${index + 1}: genuine Figma nodes`)
+        assert.ok(entry.sourcePages.length > 0, `${specification.id}/${index + 1}: content has a source`)
+      }
       entry.sourcePages.forEach(page => { assert.ok(sourcePages.has(page), `known source page ${page}`); coveredPages.add(page) })
       const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
       const declared = entry.assets.map(id => { usedAssets.add(id); assert.ok(assetRegistry.has(id), `registered figure ${id}`); return assetRegistry.get(id).web })
@@ -139,14 +161,38 @@ export async function checkSlideSources() {
       assert.ok(!/<(?:input|select|textarea)\b/.test(slide.content), `${specification.id}/${index + 1}: UI examples are images`)
     }
   }
+  assert.deepEqual([...coveredAccessibility].sort(), [...accessibilityPages.keys()].sort(), 'every current accessibility board is represented in lesson 05')
+  const liveExamples = deck.slides.filter(slide => slide.frontmatter.interactiveExample)
+  const accessibilityLesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'percezione-gerarchia')
+  assert.equal(accessibilityLesson.length, 105, 'lesson 05 contains only accessibility and its live examples')
+  assert.ok(accessibilityLesson.every(slide => slide.frontmatter.lessonSection === 'accessibility'), 'no perception content remains active in lesson 05')
+  assert.equal(curriculum.lessons.find(lesson => lesson.number === 5).title, 'Accessibilità e design inclusivo', 'lesson 05 has the accessibility-only identity')
+  assert.deepEqual(curriculum.lessons.find(lesson => lesson.number === 5).sections, [3], 'only the accessibility section belongs to lesson 05')
+  const exampleSource = JSON.parse(await readFile(path.join(root, 'assets/booklet/accessibilita-commenti-2026-10/esempi.json'), 'utf8'))
+  assert.equal(liveExamples.length, 17, 'one live scenario comparison for each requested accessibility example')
+  assert.deepEqual(liveExamples.map(slide => slide.frontmatter.interactiveExample).sort(), exampleSource.map(example => example.key).sort(), 'all seventeen example identities have a live comparison')
+  for (const slide of liveExamples) {
+    const id = slide.frontmatter.interactiveExample
+    assert.equal(slide.frontmatter.lesson, 'percezione-gerarchia', 'live examples belong only to the requested lesson')
+    assert.equal(deck.slides[slide.index - 1].frontmatter.routeAlias, 'accessibilita-esempio-' + id, 'the live comparison immediately follows its preserved image example')
+    assert.ok(slide.content.includes(`<AccessibilityExample example-id="${id}" />`), 'the live component agrees with its source identity')
+  }
   assert.deepEqual(removedMapping.lessons.map(slide => [slide.lesson, slide.lessonSlide]),
     Array.from({ length: 23 }, (_, i) => ['ricerca-inclusiva', i + 87]), 'only requested lesson 04 slides are removed')
   const preservedPages = new Set(coveredPages)
   const preservedAssets = new Set(usedAssets)
-  for (const entry of removedMapping.lessons) {
+  for (const entry of [...removedMapping.lessons, ...perceptionArchive.lessons]) {
     entry.sourcePages.forEach(page => { assert.ok(sourcePages.has(page)); preservedPages.add(page) })
     assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page).id), 'removed slides retain genuine source identities')
     entry.assets.forEach(id => { assert.ok(assetRegistry.has(id)); preservedAssets.add(id) })
+  }
+  for (const [index, slide] of archivedDeck.slides.entries()) {
+    const entry = perceptionArchive.lessons[index]
+    assert.equal(slide.title, entry.title, 'archive keeps the perception slide title')
+    assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, 'archive keeps source identities')
+    const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
+    assert.deepEqual(figures, entry.assets.map(id => assetRegistry.get(id).web), 'archive retains every original perception figure')
+    assert.ok(!slide.note?.trim(), 'archive contains no speaker notes')
   }
   assert.deepEqual([...preservedPages].sort((a, b) => a - b), Array.from({ length: 260 }, (_, i) => i + 1), 'active and removed slide mappings preserve every source page')
   assert.equal(preservedAssets.size, assetRegistry.size, 'all original figures and supplementary examples remain accounted for')
@@ -293,13 +339,17 @@ export async function checkSlideSources() {
   assert.deepEqual(booklet.pages.map(page => page.number),
     Array.from({ length: booklet.pages.length }, (_, i) => booklet.pages[0].number + i), 'booklet page sequence')
 
-  const artwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork.json'), 'utf8'))
+  const sharedArtwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork.json'), 'utf8'))
+  const localArtwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork-local.json'), 'utf8'))
+  const artwork = { ...sharedArtwork, assets: { ...sharedArtwork.assets, ...localArtwork.assets }, mappings: { ...sharedArtwork.mappings, ...localArtwork.mappings } }
   const generations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-v1.json'), 'utf8'))
   const cardGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-cards-v2.json'), 'utf8'))
   const outlineGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-outline-v3.json'), 'utf8'))
   const chapterGenerations = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-chapters-v1.json'), 'utf8'))
   const historyIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-history-icons-v1.json'), 'utf8'))
   const researchIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-lesson-04-cards-v1.json'), 'utf8'))
+  const perceptionIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/lesson-05-icons/manifest.json'), 'utf8'))
+  assert.equal(perceptionIcons.jobs.length, 13, 'all requested lesson 05 icons are retained')
   assert.equal(researchIcons.jobs.length, researchIcons.counts.images, 'complete lesson 04 icon family')
   assert.equal(Object.keys(artwork.mappings['ricerca-inclusiva']).length, researchIcons.counts.cardTitles, 'all lesson 04 card titles have artwork')
   assert.equal(historyIcons.jobs.length, historyIcons.counts.images, 'complete history icon family')
@@ -315,7 +365,7 @@ export async function checkSlideSources() {
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
-  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length, 'only registered motifs populate the card catalog')
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length, 'only registered motifs populate the card catalog')
   for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs, ...historyIcons.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
@@ -331,7 +381,7 @@ export async function checkSlideSources() {
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved)
     assert.ok(generation.owners.length > 0)
   }
-  for (const generation of researchIcons.jobs) {
+  for (const generation of [...researchIcons.jobs, ...perceptionIcons.jobs]) {
     assert.equal(generation.status, 'complete', generation.id + ': generated artwork selected')
     assert.equal(artwork.assets[generation.id], '/' + generation.web.replace(/^public\//, ''), generation.id + ': card icon registered')
     assert.equal(generation.visualReview.status, 'accepted', generation.id + ': visually reviewed')
@@ -353,6 +403,7 @@ export async function checkSlideSources() {
   let directCards = 0
   let addedCards = 0
   let researchCardUses = 0
+  let perceptionCardUses = 0
   for (const slide of visibleDeck.slides) {
     for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
       const title = normalizeTitle(card[1])
@@ -367,12 +418,16 @@ export async function checkSlideSources() {
         assert.ok(id, card[1] + ': lesson 04 card has a semantic motif')
         researchCardUses++
       }
+      if (slide.frontmatter.lesson === 'percezione-gerarchia') {
+        assert.ok(id, card[1] + ': requested lesson 05 card has a semantic motif')
+        perceptionCardUses++
+      }
     }
   }
   assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
   assert.equal(researchCardUses, researchIcons.counts.activeDirectCardUses, 'all retained lesson 04 card uses have their requested illustrations')
-  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses, 'selected direct cards have semantic motifs')
-  assert.ok(illustratedCards - researchCardUses > 0 && illustratedCards - researchCardUses < (directCards - researchCardUses) / 4, 'illustrations in the other lessons remain selective')
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses, 'selected direct cards have semantic motifs')
+  assert.ok(illustratedCards - researchCardUses - perceptionCardUses > 0 && illustratedCards - researchCardUses - perceptionCardUses < (directCards - researchCardUses - perceptionCardUses) / 4, 'illustrations in the other lessons remain selective')
 
   // Check literal public image paths in slide content, components and data.
   const files = [...Object.values(deck.markdownFiles).map(file => file.filepath)]

@@ -1,0 +1,331 @@
+{
+  "schema": "cvedi-booklet-accessibility-comments/1",
+  "updatedOn": "2026-10-12",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1110",
+  "sectionId": "2188:1088",
+  "baseManifest": "assets/booklet/accessibilita-estensione/manifest.json",
+  "baseBoardCount": 36,
+  "addedBoardCount": 20,
+  "boardCount": 56,
+  "printedRange": [
+    168,
+    223
+  ],
+  "printedLastPage": 449,
+  "newExampleCount": 17,
+  "commentIds": [
+    161,
+    162,
+    175,
+    176,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191
+  ],
+  "ignoredComments": [
+    {
+      "number": 177,
+      "text": "proca",
+      "reason": "Messaggio di prova senza richiesta di modifica."
+    }
+  ],
+  "sourceScope": "Revisione delle tavole Figma C03.03. I sorgenti Slidev e lo snapshot storico del 7 ottobre restano storici.",
+  "state": "stato-figma.json",
+  "verification": "reports/accessibilita-commenti/verifica.json",
+  "generatedImages": [
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/scenario-colore.png",
+      "sha256": "1be4403398e1ae079fd3621ce12c732677e8b00aa8db516bca20220875e492a8",
+      "bytes": 1195677,
+      "generator": "OpenAI ImageGen, built-in",
+      "provenance": "Originale generato per il progetto; non una fotografia né un prodotto documentato.",
+      "active": true,
+      "promptFile": "prompts.json"
+    },
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera.png",
+      "sha256": "588a90c0aab77feab3218dc3ef0bfdeefb6fedd81e49b7cba7cc1654e3dd0d05",
+      "bytes": 1334308,
+      "generator": "OpenAI ImageGen, built-in",
+      "provenance": "Originale generato per il progetto; non una fotografia né un prodotto documentato.",
+      "active": false,
+      "promptFile": "prompts.json"
+    },
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/scenario-tastiera-v2.png",
+      "sha256": "07cd3815700d2f58aaeb091b897498e718bea0f4229db276f4654132b71dd367",
+      "bytes": 1426220,
+      "generator": "OpenAI ImageGen, built-in",
+      "provenance": "Originale generato per il progetto; non una fotografia né un prodotto documentato.",
+      "active": true,
+      "promptFile": "prompt-tastiera-v2.json"
+    },
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/scenario-sottotitoli.png",
+      "sha256": "a9a08a01e4582fa99ac79b90e26538040b6ea4c4c06d6bba2fdafe91691775eb",
+      "bytes": 1209693,
+      "generator": "OpenAI ImageGen, built-in",
+      "provenance": "Originale generato per il progetto; non una fotografia né un prodotto documentato.",
+      "active": true,
+      "promptFile": "prompts.json"
+    },
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/persona-spectrum-atlas.png",
+      "sha256": "9f0f4fcf042a65d4f9b075f296bdfc035b91429e98458b0a7040fd846e55a3b7",
+      "bytes": 1247379,
+      "generator": "OpenAI ImageGen, built-in",
+      "provenance": "Originale generato per il progetto; non una fotografia né un prodotto documentato.",
+      "active": true,
+      "promptFile": "prompts.json"
+    },
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/universale-inclusivo-esempio-v2.png",
+      "sha256": "71dd070f8ac795b349472634d17c56f4410fd7e5c55b7007abfc9447aacf5cad",
+      "generator": "OpenAI ImageGen, built-in",
+      "active": false,
+      "promptFile": "universale-inclusivo-esempio-v2.json",
+      "comment": 240,
+      "preservedHidden": true,
+      "figmaNodeId": "3241:18236",
+      "supersededByComment": 240,
+      "replacementManifest": "web-clearing-a-path-240/manifest.json"
+    }
+  ],
+  "documentaryImages": [
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/screen-reader-mobile.jpg",
+      "sha256": "8146670b89b7f68c15984c71655915af61b1431499ff7e78f35d697b217a4f59",
+      "source": "https://webaim.org/intro/media/mobile-screen-reader.jpg",
+      "credit": "©2016 W3C®",
+      "license": "CC BY 3.0 US",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/",
+      "changes": "Nessuna modifica all’immagine; impaginazione con proporzioni conservate."
+    },
+    {
+      "path": "assets/booklet/accessibilita-commenti-2026-10/puntatore-bocca.jpg",
+      "sha256": "f3c0f8ee0eb6bf9ee3662160cf9431fe495cddc58c34fcc8a827179ec9cba142",
+      "source": "https://webaim.org/intro/media/mouth-wand.jpg",
+      "credit": "©2016 W3C®",
+      "license": "CC BY 3.0 US",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/us/",
+      "changes": "Nessuna modifica all’immagine; impaginazione con proporzioni conservate."
+    }
+  ],
+  "pictograms": {
+    "source": "Phosphor Icons 2.1.1 / @iconify-json/ph 1.2.2",
+    "license": "MIT",
+    "licenseUrl": "https://github.com/phosphor-icons/core/blob/main/LICENSE",
+    "sources": "pittogrammi.json",
+    "components": {
+      "person-simple-circle": "3131:5324",
+      "users-three": "3131:5332",
+      "circles-three": "3131:5340",
+      "keyboard": "3131:5348",
+      "cursor-click": "3131:5358",
+      "image": "3131:5366",
+      "video": "3131:5374",
+      "eye": "3131:5382",
+      "brain": "3131:5392",
+      "timer": "3131:5400",
+      "pencil-simple": "3131:5408",
+      "key": "3131:5416",
+      "sliders-horizontal": "3131:5426",
+      "translate": "3131:5434",
+      "check-square": "3131:5442",
+      "magnifying-glass": "3131:5450",
+      "list-checks": "3131:5460",
+      "lightbulb": "3131:5468",
+      "text-aa": "3131:5476",
+      "arrows-out": "3131:5484",
+      "info": "3131:5494",
+      "floppy-disk": "3131:5502",
+      "game-controller": "3131:5510"
+    },
+    "instanceCount": 56,
+    "licenseFile": "LICENSE-Phosphor.txt"
+  },
+  "nativeFigures": {
+    "universale": "198:3892",
+    "personaSpectrum": "198:3903",
+    "wcagMap": "198:3924",
+    "oldFigureNodes": [
+      "2141:1353",
+      "2141:1358",
+      "2141:1363"
+    ],
+    "preservation": "I tre originali sono conservati nei livelli Archivio delle stesse tavole. La mappa completa WCAG e il PDF originale restano anche nel manifest della revisione precedente.",
+    "universaleCurrent": "Vignetta documentaria UVM Clearing a Path attiva nel nodo3244:15600, con spiegazione italiana nativa; schema3126:750 e illustrazione concorrente3241:18236 conservati nascosti."
+  },
+  "sources": [
+    {
+      "label": "Microsoft Inclusive Design / Persona Spectrum",
+      "url": "https://inclusive.microsoft.design/articles/inclusive-101-guidebook"
+    },
+    {
+      "label": "CEUD / Seven Principles",
+      "url": "https://universaldesign.ie/about-universal-design/the-7-principles"
+    },
+    {
+      "label": "Riferimento visivo per il confronto",
+      "url": "https://star.global/posts/inclusive-design/",
+      "use": "Confronto semantico; diagramma finale originale nativo, senza ripresa dell’immagine."
+    },
+    {
+      "label": "WebAIM Introduction",
+      "url": "https://webaim.org/intro/"
+    },
+    {
+      "label": "WebAIM About",
+      "url": "https://webaim.org/about/"
+    },
+    {
+      "label": "W3C WCAG at a Glance",
+      "url": "https://www.w3.org/WAI/standards-guidelines/wcag/glance/"
+    },
+    {
+      "label": "Fonti degli esempi",
+      "path": "assets/booklet/accessibilita-estensione/fonti.json"
+    }
+  ],
+  "checks": {
+    "source": "pnpm check:source — passed",
+    "build": "pnpm build — passed",
+    "figma": "56 tavole di contenuto, folio168–223;17confrontiImageGen,riusoReflowteorico e vignettaUVM verificati. Prosa,fonti,quoteCSS e originali conservati; note modulari dell’attività concorrente mantenute.",
+    "layoutEvidence": [
+      "reports/accessibilita-commenti/persona-spectrum.png",
+      "reports/accessibilita-commenti/mappa-wcag.png",
+      "reports/accessibilita-commenti/scenari.png",
+      "reports/accessibilita-commenti/tecnologie-assistive.png",
+      "reports/accessibilita-commenti/consigli-pratici.png"
+    ]
+  },
+  "exampleImagegenRevision": {
+    "comment": 203,
+    "manifest": "imagegen-esempi-v2/manifest.json",
+    "selectedAssetCount": 17,
+    "newImagePlacements": 34,
+    "nativeFiguresPreservedHidden": 34,
+    "preservedPNGCount": 22,
+    "verification": "reports/figma-comments-2026-10-12/imagegen-esempi-203.json",
+    "status": "verified_all17_comparisons"
+  },
+  "additionalReusedPlacements": [
+    {
+      "comment": 225,
+      "boardId": "2825:288",
+      "folio": 183,
+      "assetKey": "adattamento",
+      "asset": "imagegen-esempi-v2/adattamento-comparison-v2.png",
+      "newGenerationCalls": 0,
+      "placements": [
+        {
+          "nodeId": "3222:1030",
+          "oldNodeId": "2835:256",
+          "label": "Deborda",
+          "imageHash": "a5283980ca379cf7cc4ee8c53da64c0658b57fcf",
+          "width": 104,
+          "height": 96,
+          "crop": [
+            [
+              0.37109375,
+              0,
+              0.08333333333333333
+            ],
+            [
+              0,
+              0.5138221153846154,
+              0.2177734375
+            ]
+          ]
+        },
+        {
+          "nodeId": "3222:1031",
+          "oldNodeId": "2835:264",
+          "label": "Si ridistribuisce",
+          "imageHash": "a5283980ca379cf7cc4ee8c53da64c0658b57fcf",
+          "width": 104,
+          "height": 96,
+          "crop": [
+            [
+              0.37109375,
+              0,
+              0.546875
+            ],
+            [
+              0,
+              0.5138221153846154,
+              0.2177734375
+            ]
+          ]
+        }
+      ],
+      "originalsHidden": [
+        "2835:256",
+        "2835:264"
+      ],
+      "verification": "reports/figma-comments-2026-10-12/imagegen225.json",
+      "status": "verified_then_preserved_hidden_after248",
+      "active": false,
+      "preservedHidden": true,
+      "hiddenAfterComment": 248
+    }
+  ],
+  "webFigureRevision": {
+    "comment": 240,
+    "boardId": "198:3892",
+    "manifest": "web-clearing-a-path-240/manifest.json",
+    "source": "https://digitalcollections.uvm.edu/view/33650/clearing-a-path",
+    "status": "verified",
+    "originalRasterUnaltered": true,
+    "nativeItalianExplanation": true,
+    "nativeAndConcurrentOriginalsPreservedHidden": true,
+    "active": true,
+    "activeImageNodeId": "3244:15600",
+    "concurrentImagegenNodeId": "3241:18236",
+    "concurrentImagegenActive": false
+  },
+  "sourceLinkRevision": {
+    "date": "2026-10-12",
+    "comments": [
+      245,
+      246,
+      247,
+      249,
+      251,
+      253,
+      256,
+      259,
+      260,
+      262,
+      263
+    ],
+    "report": "reports/figma-comments-2026-10-12/accessibility245-260.json",
+    "primaryWCAGMap": "reports/figma-comments-2026-10-12/wcag22-links-primary.json",
+    "editorialBoards": 56,
+    "criterionReferences": 88,
+    "correctCriterionLinks": 88,
+    "bibliographicSourceNodes": 99,
+    "bibliographicSourceURLs": 111,
+    "sourceNodesWithAddedURL": 74,
+    "modularNotesCreated": 3,
+    "criterionHeadingsCompleted": 4,
+    "noteNumbering": "Current per-page superscript numbering and component slots preserved",
+    "prose": "Individual criterion paragraphs preserved",
+    "liveVerificationPassed": true,
+    "visualQA": "Passed root targeted screenshots190/192/194/201",
+    "visibleURLsAdded": 83,
+    "status": "verified"
+  }
+}

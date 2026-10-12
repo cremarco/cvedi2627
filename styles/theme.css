@@ -251,13 +251,7 @@
   gap: 8px;
   border-radius: 0;
   box-shadow: none;
-  font-size: var(--cvedi-type-card-body);
-}
-.slidev-layout.default.index-slide .index-lesson-two .index-chapter-number {
-  flex: 0 0 24px;
-  width: 24px;
-  height: 24px;
-  font-size: 16px;
+  font-size: var(--cvedi-type-note);
 }
 .slidev-layout.default.index-slide .index-lesson-two .index-button.btn:first-child {
   border-radius: 16px 0 0 16px;
@@ -270,9 +264,6 @@
   z-index: 1;
 }
 .slidev-layout.default.index-slide .index-chapter-number {
-  flex: 0 0 36px;
-  width: 36px;
-  height: 36px;
   font-size: 18px;
   color: var(--color-primary-content);
 }

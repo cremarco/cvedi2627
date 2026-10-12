@@ -513,11 +513,80 @@
       "sectionId": "2188:1088",
       "range": [
         70,
-        81
+        125
       ],
       "sourceRange": [
         41,
         52
+      ],
+      "extensionManifest": "assets/booklet/accessibilita-estensione/manifest.json",
+      "addedBoardIds": [
+        "2825:233",
+        "2825:288",
+        "2811:133",
+        "2811:177",
+        "2811:218",
+        "2811:262",
+        "2811:301",
+        "2811:345",
+        "2825:328",
+        "2825:372",
+        "2811:384",
+        "2811:429",
+        "2811:470",
+        "2811:516",
+        "2811:556",
+        "2811:600",
+        "2811:639",
+        "2811:685",
+        "2811:725",
+        "2811:773",
+        "2811:812",
+        "2811:857",
+        "2811:897",
+        "2811:937"
+      ],
+      "boardSequence": [
+        "198:3435",
+        "198:3877",
+        "198:3446",
+        "198:3892",
+        "198:3464",
+        "198:3903",
+        "198:3498",
+        "198:3924",
+        "198:3481",
+        "198:3913",
+        "2825:233",
+        "2825:288",
+        "2811:133",
+        "2811:177",
+        "2811:218",
+        "2811:262",
+        "2811:301",
+        "2811:345",
+        "2825:328",
+        "2825:372",
+        "2811:384",
+        "2811:429",
+        "2811:470",
+        "2811:516",
+        "2811:556",
+        "2811:600",
+        "2811:639",
+        "2811:685",
+        "2811:725",
+        "2811:773",
+        "2811:812",
+        "2811:857",
+        "2811:897",
+        "2811:937",
+        "198:3515",
+        "198:3934"
+      ],
+      "printedRange": [
+        168,
+        223
       ]
     },
     {
@@ -525,8 +594,8 @@
       "pageName": "C03.04 · Define",
       "sectionId": "204:8296",
       "range": [
-        82,
-        87
+        126,
+        131
       ],
       "sourceRange": [
         53,
@@ -538,8 +607,8 @@
       "pageName": "C03.05 · Percezione e linguaggio visivo",
       "sectionId": "204:8297",
       "range": [
-        88,
-        123
+        132,
+        167
       ],
       "sourceRange": [
         59,
@@ -551,8 +620,8 @@
       "pageName": "C03.06 · Gerarchia visiva",
       "sectionId": "204:8298",
       "range": [
-        124,
-        153
+        168,
+        197
       ],
       "sourceRange": [
         95,
@@ -564,8 +633,8 @@
       "pageName": "C03.07 · Colore",
       "sectionId": "204:8299",
       "range": [
-        154,
-        185
+        198,
+        229
       ],
       "sourceRange": [
         125,
@@ -577,8 +646,8 @@
       "pageName": "C03.08 · Tipografia",
       "sectionId": "204:8300",
       "range": [
-        186,
-        211
+        230,
+        255
       ],
       "sourceRange": [
         157,
@@ -590,8 +659,8 @@
       "pageName": "C03.09 · Griglie e interfacce",
       "sectionId": "204:8301",
       "range": [
-        212,
-        229
+        256,
+        273
       ],
       "sourceRange": [
         183,
@@ -603,8 +672,8 @@
       "pageName": "C03.10 · Wireframe e mockup",
       "sectionId": "204:8302",
       "range": [
-        230,
-        241
+        274,
+        285
       ],
       "sourceRange": [
         201,
@@ -616,8 +685,8 @@
       "pageName": "C03.11 · Interfacce dei videogiochi",
       "sectionId": "2188:1089",
       "range": [
-        242,
-        263
+        286,
+        307
       ],
       "sourceRange": [
         213,
@@ -629,8 +698,8 @@
       "pageName": "C03.12 · Test e usabilità",
       "sectionId": "204:8303",
       "range": [
-        264,
-        285
+        308,
+        329
       ],
       "sourceRange": [
         235,
@@ -642,8 +711,8 @@
       "pageName": "C03.13 · Implementazione",
       "sectionId": "204:8304",
       "range": [
-        286,
-        289
+        330,
+        333
       ],
       "sourceRange": [
         257,
@@ -10068,11 +10137,11 @@
     }
   ],
   "currentFigma": {
-    "updatedOn": "2026-10-09",
-    "boardCount": 289,
-    "printedLastPage": 399,
+    "updatedOn": "2026-10-12",
+    "boardCount": 333,
+    "printedLastPage": 449,
     "openingBoardCount": 10,
-    "addedBoardCount": 29,
+    "addedBoardCount": 73,
     "revisionManifest": "assets/booklet/contesto-culturale-revisione/manifest.json",
     "culturalBoardCount": 59,
     "restoredCultureBoardCount": 2,
@@ -10133,9 +10202,23 @@
       {
         "sourceRange": [
           41,
-          260
+          47
         ],
         "shift": 29
+      },
+      {
+        "sourceRange": [
+          48,
+          50
+        ],
+        "shift": 30
+      },
+      {
+        "sourceRange": [
+          51,
+          260
+        ],
+        "shift": 73
       }
     ],
     "retainedCulturalAddedBoardCount": 7,
@@ -10200,7 +10283,15 @@
       40
     ],
     "replacedHistoricalCaseScope": "La mappa precedente è conservata in figmaPages[1].historicalSourceOrdinalMap. La mappa corrente dei casi usa pagine PDF 172–187 dell’edizione 2024, in integralCasesManifest.",
-    "culturalDimensionGraphAddedBoardCount": 6
+    "culturalDimensionGraphAddedBoardCount": 6,
+    "accessibilityBoardCount": 56,
+    "accessibilityAddedBoardCount": 44,
+    "accessibilityRevisionManifest": "assets/booklet/accessibilita-estensione/manifest.json",
+    "accessibilityVerification": "reports/accessibilita-commenti/verifica.json",
+    "accessibilityCommentAddedBoardCount": 20,
+    "accessibilityCommentRevisionManifest": "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+    "textContinuityRevisionManifest": "assets/booklet/collegamenti-capitolo-3.json",
+    "textContinuityVerification": "reports/booklet/collegamenti/verifica.json"
   },
   "addedOpeningBoards": [
     {
@@ -10707,5 +10798,424 @@
       "coverBoardId": "198:4429",
       "origin": "native dimension data diagram separated from concept cover"
     }
-  ]
+  ],
+  "currentAccessibilityRevision": {
+    "manifest": "assets/booklet/accessibilita-estensione/manifest.json",
+    "newBoards": [
+      {
+        "key": "contrasto-controlli",
+        "id": "2825:233",
+        "title": "Contrasto dei controlli",
+        "insertBefore": "2811:133",
+        "contentHeight": 447,
+        "ordinal": 83,
+        "folio": 181,
+        "contentY": 117.5,
+        "sourcesY": 600
+      },
+      {
+        "key": "zoom-adattamento",
+        "id": "2825:288",
+        "title": "Ingrandimento e adattamento",
+        "insertBefore": "2811:133",
+        "contentHeight": 421,
+        "ordinal": 85,
+        "folio": 183,
+        "contentY": 125.5,
+        "sourcesY": 580,
+        "nativeFigureId": "2835:252"
+      },
+      {
+        "key": "abilita-barriere",
+        "id": "2811:133",
+        "title": "Dalle abilità alle barriere",
+        "ordinal": 87,
+        "folio": 185,
+        "contentHeight": 309,
+        "contentY": 181.5,
+        "sourcesY": 580
+      },
+      {
+        "key": "scenari-barriere",
+        "id": "2811:177",
+        "title": "Tre scenari di uso",
+        "ordinal": 88,
+        "folio": 186,
+        "contentHeight": 381,
+        "contentY": 140.5,
+        "sourcesY": 570
+      },
+      {
+        "key": "tastiera-focus",
+        "id": "2811:218",
+        "title": "Tastiera, ordine e focus",
+        "ordinal": 90,
+        "folio": 188,
+        "contentHeight": 354,
+        "contentY": 163,
+        "sourcesY": 580
+      },
+      {
+        "key": "puntamento",
+        "id": "2811:262",
+        "title": "Puntamento e trascinamento",
+        "ordinal": 92,
+        "folio": 190,
+        "contentHeight": 434,
+        "contentY": 119,
+        "sourcesY": 580,
+        "nativeFigureId": "2835:269"
+      },
+      {
+        "key": "immagini-semantica",
+        "id": "2811:301",
+        "title": "Immagini, struttura e significato",
+        "ordinal": 94,
+        "folio": 192,
+        "contentHeight": 309,
+        "contentY": 181.5,
+        "sourcesY": 580
+      },
+      {
+        "key": "media",
+        "id": "2811:345",
+        "title": "Contenuti audiovisivi accessibili",
+        "ordinal": 96,
+        "folio": 194,
+        "contentHeight": 339,
+        "contentY": 166.5,
+        "sourcesY": 580
+      },
+      {
+        "key": "controlli-semantici",
+        "id": "2825:328",
+        "title": "Nome, ruolo e stato dei controlli",
+        "insertBefore": "2811:384",
+        "contentHeight": 468,
+        "ordinal": 98,
+        "folio": 196,
+        "contentY": 106,
+        "sourcesY": 590,
+        "nativeFigureId": "2835:294"
+      },
+      {
+        "key": "feedback-dinamico",
+        "id": "2825:372",
+        "title": "Feedback e messaggi di stato",
+        "insertBefore": "2811:384",
+        "contentHeight": 411,
+        "ordinal": 100,
+        "folio": 198,
+        "contentY": 135.5,
+        "sourcesY": 590
+      },
+      {
+        "key": "cognitiva",
+        "id": "2811:384",
+        "title": "Accessibilità cognitiva",
+        "ordinal": 102,
+        "folio": 200,
+        "contentHeight": 324,
+        "contentY": 169,
+        "sourcesY": 570
+      },
+      {
+        "key": "memoria",
+        "id": "2811:429",
+        "title": "Riconoscere, capire, ricordare",
+        "ordinal": 103,
+        "folio": 201,
+        "contentHeight": 309,
+        "contentY": 171.5,
+        "sourcesY": 560
+      },
+      {
+        "key": "movimento",
+        "id": "2811:470",
+        "title": "Movimento, tempo e distrazioni",
+        "ordinal": 105,
+        "folio": 203,
+        "contentHeight": 369,
+        "contentY": 141.5,
+        "sourcesY": 560
+      },
+      {
+        "key": "riprendere",
+        "id": "2811:516",
+        "title": "Fermarsi e riprendere",
+        "ordinal": 106,
+        "folio": 204,
+        "contentHeight": 309,
+        "contentY": 176.5,
+        "sourcesY": 570
+      },
+      {
+        "key": "form",
+        "id": "2811:556",
+        "title": "Moduli: istruzioni ed errori",
+        "ordinal": 108,
+        "folio": 206,
+        "contentHeight": 429,
+        "contentY": 116.5,
+        "sourcesY": 570,
+        "nativeFigureId": "2835:314"
+      },
+      {
+        "key": "autenticazione",
+        "id": "2811:600",
+        "title": "Autenticazione e dati ripetuti",
+        "ordinal": 110,
+        "folio": 208,
+        "contentHeight": 339,
+        "contentY": 166.5,
+        "sourcesY": 580
+      },
+      {
+        "key": "personalizzazione",
+        "id": "2811:639",
+        "title": "Personalizzare senza escludere",
+        "ordinal": 112,
+        "folio": 210,
+        "contentHeight": 417,
+        "contentY": 122.5,
+        "sourcesY": 570
+      },
+      {
+        "key": "lingua-rappresentazione",
+        "id": "2811:685",
+        "title": "Lingua e rappresentazione",
+        "ordinal": 114,
+        "folio": 212,
+        "contentHeight": 324,
+        "contentY": 169,
+        "sourcesY": 570
+      },
+      {
+        "key": "wcag22",
+        "id": "2811:725",
+        "title": "WCAG 2.2: decisioni da verificare",
+        "ordinal": 116,
+        "folio": 214,
+        "contentHeight": 372,
+        "contentY": 140,
+        "sourcesY": 560
+      },
+      {
+        "key": "conformita",
+        "id": "2811:773",
+        "title": "Conformità e qualità dell’esperienza",
+        "ordinal": 117,
+        "folio": 215,
+        "contentHeight": 309,
+        "contentY": 181.5,
+        "sourcesY": 580
+      },
+      {
+        "key": "test",
+        "id": "2811:812",
+        "title": "Valutare con strumenti e persone",
+        "ordinal": 119,
+        "folio": 217,
+        "contentHeight": 396,
+        "contentY": 145,
+        "sourcesY": 580
+      },
+      {
+        "key": "ricerca-inclusiva",
+        "id": "2811:857",
+        "title": "Dalla ricerca alla correzione",
+        "ordinal": 120,
+        "folio": 218,
+        "contentHeight": 324,
+        "contentY": 164,
+        "sourcesY": 560
+      },
+      {
+        "key": "tlou-input",
+        "id": "2811:897",
+        "title": "Un caso: The Last of Us Part II",
+        "ordinal": 122,
+        "folio": 220,
+        "contentHeight": 420.1875,
+        "contentY": 130.90625,
+        "sourcesY": 590,
+        "imageId": "2811:931"
+      },
+      {
+        "key": "tlou-visione",
+        "id": "2811:937",
+        "title": "Alternative visive e informative",
+        "ordinal": 123,
+        "folio": 221,
+        "contentHeight": 456.1875,
+        "contentY": 112.90625,
+        "sourcesY": 590,
+        "imageId": "2811:963"
+      }
+    ],
+    "sourceScope": "Estensione verificata della sezione C03.03; lo snapshot storico pages e le corrispondenze Slidev conservano le fonti precedenti.",
+    "practicalRevision": "assets/booklet/accessibilita-estensione/integrazioni-pratiche.json",
+    "boardCount": 56,
+    "printedRange": [
+      168,
+      223
+    ],
+    "nativeFigureRevision": "assets/booklet/accessibilita-estensione/figure-native.json",
+    "commentRevision": "assets/booklet/accessibilita-commenti-2026-10/manifest.json",
+    "commentAddedBoards": [
+      {
+        "key": "commenti/tecnologie",
+        "id": "3124:706",
+        "title": "Tecnologie assistive in uso",
+        "ordinal": 77,
+        "folio": 175
+      },
+      {
+        "key": "commenti/contrasto-testo",
+        "id": "3122:539",
+        "title": "Leggere un appuntamento",
+        "ordinal": 81,
+        "folio": 179
+      },
+      {
+        "key": "commenti/percorso-operativo",
+        "id": "3124:753",
+        "title": "Dalle regole alle scelte di progetto",
+        "ordinal": 82,
+        "folio": 180
+      },
+      {
+        "key": "commenti/contrasto-controlli",
+        "id": "3122:598",
+        "title": "Riconoscere una casella",
+        "ordinal": 84,
+        "folio": 182
+      },
+      {
+        "key": "commenti/adattamento",
+        "id": "3122:679",
+        "title": "Ingrandire una prenotazione",
+        "ordinal": 86,
+        "folio": 184
+      },
+      {
+        "key": "commenti/scenari-illustrati",
+        "id": "3124:835",
+        "title": "Tre scenari, tre scelte",
+        "ordinal": 89,
+        "folio": 187
+      },
+      {
+        "key": "commenti/tastiera",
+        "id": "3122:764",
+        "title": "Inviare un modulo senza mouse",
+        "ordinal": 91,
+        "folio": 189
+      },
+      {
+        "key": "commenti/puntamento",
+        "id": "3122:829",
+        "title": "Riordinare senza trascinare",
+        "ordinal": 93,
+        "folio": 191
+      },
+      {
+        "key": "commenti/immagini",
+        "id": "3123:6602",
+        "title": "Descrivere ciò che serve",
+        "ordinal": 95,
+        "folio": 193
+      },
+      {
+        "key": "commenti/media",
+        "id": "3123:6669",
+        "title": "Seguire un video su più canali",
+        "ordinal": 97,
+        "folio": 195
+      },
+      {
+        "key": "commenti/semantica",
+        "id": "3123:6734",
+        "title": "Aprire i dettagli di consegna",
+        "ordinal": 99,
+        "folio": 197
+      },
+      {
+        "key": "commenti/feedback",
+        "id": "3123:6795",
+        "title": "Capire che il salvataggio è riuscito",
+        "ordinal": 101,
+        "folio": 199
+      },
+      {
+        "key": "commenti/cognitiva",
+        "id": "3123:6857",
+        "title": "Prenotare con il contesto visibile",
+        "ordinal": 104,
+        "folio": 202
+      },
+      {
+        "key": "commenti/movimento",
+        "id": "3123:6936",
+        "title": "Fermare e riprendere la lettura",
+        "ordinal": 107,
+        "folio": 205
+      },
+      {
+        "key": "commenti/moduli",
+        "id": "3123:7005",
+        "title": "Correggere una data",
+        "ordinal": 109,
+        "folio": 207
+      },
+      {
+        "key": "commenti/autenticazione",
+        "id": "3123:7068",
+        "title": "Accedere con gli strumenti abituali",
+        "ordinal": 111,
+        "folio": 209
+      },
+      {
+        "key": "commenti/personalizzazione",
+        "id": "3123:7129",
+        "title": "Adattare la lettura",
+        "ordinal": 113,
+        "folio": 211
+      },
+      {
+        "key": "commenti/lingua",
+        "id": "3123:7188",
+        "title": "Riconoscere nomi e lingue",
+        "ordinal": 115,
+        "folio": 213
+      },
+      {
+        "key": "commenti/verifica-wcag",
+        "id": "3123:7249",
+        "title": "Verificare un percorso completo",
+        "ordinal": 118,
+        "folio": 216
+      },
+      {
+        "key": "commenti/valutazione",
+        "id": "3123:7334",
+        "title": "Dall’ostacolo alla nuova prova",
+        "ordinal": 121,
+        "folio": 219
+      }
+    ]
+  },
+  "currentTextContinuityRevision": {
+    "manifest": "assets/booklet/collegamenti-capitolo-3.json",
+    "updatedOn": "2026-10-12",
+    "sectionCount": 13,
+    "changedTextNodeCount": 39,
+    "reusedOpeningBoardIds": [
+      "198:3435",
+      "198:3171",
+      "198:3284",
+      "198:3111"
+    ],
+    "printedPaginationChanged": false
+  }
 }

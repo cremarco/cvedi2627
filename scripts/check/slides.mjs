@@ -140,8 +140,8 @@ try {
   await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  assert.equal(await page.locator('.slidev-page-3 .index-grid > .index-lesson, .slidev-page-3 .index-lesson-two > .index-lesson').count(), 3, 'index includes all three published lessons')
-  assert.equal(await page.locator('.slidev-page-3 .index-ux-lessons .slide-action').count(), 6, 'local index includes the six UX lessons')
+  assert.equal(await page.locator('.slidev-page-3 .index-grid > .index-lesson, .slidev-page-3 .index-lesson-two > .index-lesson').count(), 4, 'index includes the four published lessons')
+  assert.equal(await page.locator('.slidev-page-3 .index-ux-lessons .slide-action').count(), 5, 'local index includes lessons 05–09')
   assert.equal(await page.getByRole('button', { name: /Storia del design/ }).count(), 1, 'history index entry is active')
   await page.getByRole('button', { name: /Storia del design/ }).click()
   await page.locator(`.slidev-page-${pageNumber(history[0])} .slidev-layout`).waitFor({ state: 'visible' })
@@ -155,7 +155,7 @@ try {
   assert.equal(await page.locator(`.slidev-page-${topicPages[0]} h1`).textContent(), 'Approfondimenti', 'index opens the official topic section')
   for (const specification of curriculum.lessons) {
     await openSlide(page, baseURL, 3)
-    await page.locator('.slidev-page-3 .index-ux-lessons').getByRole('button', { name: new RegExp(specification.title) }).click()
+    await page.locator('.slidev-page-3 .index-grid').getByRole('button', { name: new RegExp(specification.title) }).click()
     const destination = deck.slides.find(slide => slide.frontmatter.routeAlias === specification.id)
     await page.locator(`.slidev-page-${destination.index + 1} .slidev-layout`).waitFor({ state: 'visible' })
     assert.equal(await page.locator(`.slidev-page-${destination.index + 1} h1`).textContent(), specification.title, `${specification.id}: index opens the real chapter`)
@@ -321,7 +321,7 @@ try {
       assert.equal(report.summary.primary, report.colors.primary, `slide ${number}: summary follows its set palette`)
     }
     const generalCover = String(current.frontmatter.class).split(/\s+/).includes('cover-slide')
-    assert.equal(report.footer, generalCover ? undefined : `${String(lessonPage).padStart(2, '0')} / ${set.length}`, `slide ${number}: lesson footer`)
+    assert.equal(report.footer, generalCover ? undefined : `${lessonPage} / ${set.length}`, `slide ${number}: lesson footer`)
     assert.equal(report.footerLabel, generalCover ? undefined : label, `slide ${number}: accessible lesson footer`)
     for (const notice of report.notices) {
       assert.ok(notice.bodyGap >= 24 - 1, `slide ${number}: notice clears the preceding body`)

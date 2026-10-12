@@ -1,0 +1,609 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:2679:254",
+      "name": "color/accent",
+      "values": {
+        "2679:0": {
+          "r": 0.7568846940994263,
+          "g": 0,
+          "b": 0.028754347935318947,
+          "a": 1
+        }
+      },
+      "scopes": []
+    },
+    {
+      "id": "VariableID:2679:256",
+      "name": "color/ink",
+      "values": {
+        "2679:0": {
+          "r": 0.0117647061124444,
+          "g": 0.027450980618596077,
+          "b": 0.07058823853731155,
+          "a": 1
+        }
+      },
+      "scopes": []
+    },
+    {
+      "id": "VariableID:2679:258",
+      "name": "color/muted",
+      "values": {
+        "2679:0": {
+          "r": 0.29411765933036804,
+          "g": 0.3333333432674408,
+          "b": 0.38823530077934265,
+          "a": 1
+        }
+      },
+      "scopes": []
+    },
+    {
+      "id": "VariableID:2679:260",
+      "name": "color/rule",
+      "values": {
+        "2679:0": {
+          "r": 0.8196078538894653,
+          "g": 0.8352941274642944,
+          "b": 0.8588235378265381,
+          "a": 1
+        }
+      },
+      "scopes": []
+    },
+    {
+      "id": "VariableID:2682:1010",
+      "name": "color/pin-white",
+      "values": {
+        "2679:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": []
+    },
+    {
+      "id": "VariableID:2679:255",
+      "name": "color/accent",
+      "values": {
+        "2679:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2679:254"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:2679:257",
+      "name": "color/ink",
+      "values": {
+        "2679:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2679:256"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:2679:259",
+      "name": "color/muted",
+      "values": {
+        "2679:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2679:258"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:2679:261",
+      "name": "color/rule",
+      "values": {
+        "2679:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2679:260"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL",
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "VariableID:2679:262",
+      "name": "spacing/section",
+      "values": {
+        "2679:1": 8
+      },
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "VariableID:2682:1011",
+      "name": "color/pin-white",
+      "values": {
+        "2679:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2682:1010"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL",
+        "SHAPE_FILL",
+        "TEXT_FILL"
+      ]
+    }
+  ],
+  "fontSegments": [
+    {
+      "fontName": {
+        "family": "Merriweather",
+        "style": "Light",
+        "variationSettings": {
+          "wght": 300,
+          "wdth": 100
+        }
+      },
+      "start": 0,
+      "end": 77
+    },
+    {
+      "fontName": {
+        "family": "Merriweather",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "start": 77,
+      "end": 96
+    },
+    {
+      "fontName": {
+        "family": "Merriweather",
+        "style": "Light",
+        "variationSettings": {
+          "wght": 300,
+          "wdth": 100
+        }
+      },
+      "start": 96,
+      "end": 765
+    },
+    {
+      "fontName": {
+        "family": "Merriweather",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "wdth": 100
+        }
+      },
+      "start": 765,
+      "end": 776
+    },
+    {
+      "fontName": {
+        "family": "Merriweather",
+        "style": "Light",
+        "variationSettings": {
+          "wght": 300,
+          "wdth": 100
+        }
+      },
+      "start": 776,
+      "end": 1353
+    }
+  ],
+  "frames": [
+    {
+      "id": "198:3435",
+      "name": "C03 · 076 · SX — Accessibilità e design inclusivo",
+      "texts": [
+        {
+          "id": "210:1877",
+          "name": "Numero pagina · 168",
+          "text": "168"
+        }
+      ]
+    },
+    {
+      "id": "198:3877",
+      "name": "C03 · 077 · DX — Accessibilità e design inclusivo",
+      "texts": [
+        {
+          "id": "I198:3889;15:2860;5:601;5:590",
+          "name": "2",
+          "text": "3"
+        },
+        {
+          "id": "I198:3889;15:2864;5:563",
+          "name": ".1",
+          "text": ".1"
+        },
+        {
+          "id": "I198:3889;15:2868",
+          "name": "L’importanza del contesto culturale nel digital design",
+          "text": "Accessibilità e design inclusivo"
+        },
+        {
+          "id": "I198:3890;5:618",
+          "name": ".1",
+          "text": ".2"
+        },
+        {
+          "id": "198:3891",
+          "name": "Corpo testo",
+          "text": "Nella progettazione di prodotti e servizi digitali esiste il rischio, spesso implicito, di assumere come riferimento una presunta “persona media”. \n\nQuesto approccio, apparentemente orientato a raggiungere il maggior numero possibile di utenti, finisce in realtà per escludere tutti coloro che non rientrano in tale modello astratto. La diversità umana non costituisce un’eccezione da gestire a posteriori, ma una condizione di partenza del progetto. \n\nPer questa ragione, parlare di accessibilità e design inclusivo significa affrontare una questione non marginale, bensì strutturale: progettare esperienze che possano essere comprese, percepite e utilizzate da persone con caratteristiche, abilità, condizioni e contesti differenti.\n\nIn questo quadro è utile distinguere due concetti spesso avvicinati ma non coincidenti: universal design e inclusive design."
+        },
+        {
+          "id": "210:1878",
+          "name": "Numero pagina · 169",
+          "text": "169"
+        }
+      ]
+    },
+    {
+      "id": "198:3446",
+      "name": "C03 · 078 · SX — Design universale e inclusivo",
+      "texts": [
+        {
+          "id": "198:3455",
+          "name": "Corpo testo",
+          "text": "L’inclusive design, pur condividendo la medesima tensione etica verso l’accesso e la partecipazione, si muove da una prospettiva parzialmente diversa. Più che cercare una soluzione unica valida indistintamente per tutti, esso invita a progettare a partire dalle differenze individuali, riconoscendo che gli utenti non incontrano il mondo — e quindi nemmeno le interfacce — nello stesso modo. Progettare in maniera inclusiva non significa dunque inseguire un’impossibile neutralità, ma offrire modalità diverse e tra loro equivalenti di partecipazione all’esperienza. In questa prospettiva, le persone con disabilità non rappresentano un gruppo separato da “aggiungere” alla fine del processo, bensì un punto di osservazione privilegiato attraverso cui comprendere meglio la varietà dei bisogni umani. Una soluzione pensata per una necessità specifica può infatti rivelarsi utile a un pubblico molto più ampio: è il caso, ad esempio, dei sottotitoli, che non agevolano soltanto chi ha una disabilità uditiva, ma anche chi si trova in un ambiente rumoroso o non può attivare l’audio."
+        },
+        {
+          "id": "198:3456",
+          "name": "Corpo testo",
+          "text": "Il design universale nasce con l’obiettivo di realizzare prodotti, ambienti e sistemi utilizzabili dal maggior numero possibile di persone, senza richiedere adattamenti o soluzioni speciali. Si tratta di un approccio che privilegia la massima estensione dell’accesso e che, in ambito progettuale, invita a concepire soluzioni semplici, comprensibili, flessibili e non stigmatizzanti. I suoi principi insistono su alcuni aspetti centrali: equità d’uso, flessibilità, semplicità, percettibilità delle informazioni, tolleranza all’errore, riduzione dello sforzo fisico e adeguatezza di spazio e dimensioni."
+        },
+        {
+          "id": "198:3457",
+          "name": "Titolo · Design universale e inclusivo",
+          "text": "Design universale e inclusivo"
+        },
+        {
+          "id": "198:3459",
+          "name": "Testatina",
+          "text": "ACCESSIBILITÀ E DESIGN INCLUSIVO"
+        },
+        {
+          "id": "I198:3461;5:732",
+          "name": "3",
+          "text": "3"
+        },
+        {
+          "id": "I198:3462;183:1515",
+          "name": ".1",
+          "text": ".1"
+        },
+        {
+          "id": "I198:3463;183:1518",
+          "name": ".2",
+          "text": ".2"
+        },
+        {
+          "id": "210:1879",
+          "name": "Numero pagina · 170",
+          "text": "170"
+        }
+      ]
+    },
+    {
+      "id": "198:3892",
+      "name": "C03 · 079 · DX — Design universale e inclusivo",
+      "texts": [
+        {
+          "id": "210:1880",
+          "name": "Numero pagina · 171",
+          "text": "171"
+        },
+        {
+          "id": "2141:1350",
+          "name": "Testo didascalia",
+          "text": "Design universale e design inclusivo: due approcci a confronto."
+        }
+      ]
+    },
+    {
+      "id": "198:3464",
+      "name": "C03 · 080 · SX — Persona Spectrum",
+      "texts": [
+        {
+          "id": "198:3473",
+          "name": "Corpo testo",
+          "text": "Uno degli aspetti più rilevanti dell’inclusive design consiste proprio nel superare l’idea che l’esclusione riguardi soltanto condizioni permanenti. \nA questo proposito risulta utile il modello del Persona Spectrum, che amplia la riflessione progettuale distinguendo tra vincoli permanenti, temporanei e situazionali. Un vincolo permanente può essere, per esempio, la cecità; un vincolo temporaneo può derivare da un infortunio; un vincolo situazionale può dipendere dal contesto, come accade quando una folla rumorosa ostacola l’ascolto oppure una forte luce rende difficile leggere uno schermo. Questo modello mostra con chiarezza che l’accessibilità non riguarda solo “alcuni utenti”, ma tutti, in momenti diversi e in condizioni differenti. Progettare per questi scenari significa dunque progettare meglio in generale.\n\nDa questo punto di vista, l’accessibilità non può essere considerata un’aggiunta correttiva da introdurre a sviluppo concluso. Essa deve entrare nel progetto fin dalle prime fasi, orientando la ricerca sugli utenti, la definizione dei requisiti, la costruzione dei flussi e le scelte visive e tecniche. Una progettazione davvero inclusiva richiede inoltre di riconoscere i propri bias: ogni designer, proprio in quanto soggetto situato, rischia di proiettare sui prodotti le proprie abitudini, competenze e aspettative. Per ridurre questo rischio è necessario coinvolgere nel processo persone diverse per età, capacità, provenienza e modalità d’uso, così da verificare concretamente dove e come si generino punti di esclusione.\n\nQuando questa riflessione si applica all’ambiente digitale, si parla più propriamente di accessibilità web. Con questa espressione si intende la progettazione e lo sviluppo di siti, applicazioni, strumenti e contenuti che possano essere utilizzati da un’ampia gamma di persone, comprese quelle con disabilità visive, uditive, motorie o cognitive. In un contesto in cui l’accesso alle tecnologie dell’informazione e della comunicazione costituisce una condizione essenziale di partecipazione sociale, culturale ed economica, garantire pari opportunità di accesso non è solo una questione tecnica, ma anche civile."
+        },
+        {
+          "id": "198:3474",
+          "name": "Titolo · Persona Spectrum",
+          "text": "Persona Spectrum"
+        },
+        {
+          "id": "198:3476",
+          "name": "Testatina",
+          "text": "ACCESSIBILITÀ E DESIGN INCLUSIVO"
+        },
+        {
+          "id": "I198:3478;5:732",
+          "name": "3",
+          "text": "3"
+        },
+        {
+          "id": "I198:3479;183:1515",
+          "name": ".1",
+          "text": ".1"
+        },
+        {
+          "id": "I198:3480;183:1518",
+          "name": ".2",
+          "text": ".2"
+        },
+        {
+          "id": "210:1881",
+          "name": "Numero pagina · 172",
+          "text": "172"
+        }
+      ]
+    },
+    {
+      "id": "198:3903",
+      "name": "C03 · 081 · DX — Persona Spectrum",
+      "texts": [
+        {
+          "id": "210:1882",
+          "name": "Numero pagina · 173",
+          "text": "173"
+        },
+        {
+          "id": "2141:1355",
+          "name": "Testo didascalia",
+          "text": "Persona Spectrum: limitazioni permanenti, temporanee e situazionali."
+        }
+      ]
+    },
+    {
+      "id": "198:3498",
+      "name": "C03 · 082 · SX — Accessibilità Web",
+      "texts": [
+        {
+          "id": "198:3507",
+          "name": "Elenco",
+          "text": "Per orientare la progettazione accessibile esistono le Web Content Accessibility Guidelines (WCAG), un insieme di linee guida che organizzano \ni requisiti intorno a quattro principi fondamentali.* \nIl contenuto deve essere anzitutto percepibile, cioè accessibile ai diversi canali sensoriali dell’utente; deve poi essere utilizzabile, dunque navigabile e controllabile anche tramite tastiera o dispositivi assistivi; deve essere comprensibile, sia nel linguaggio sia nel comportamento dell’interfaccia; infine deve essere robusto, cioè compatibile con una pluralità di browser, software e tecnologie assistive. \n\nLe WCAG definiscono inoltre diversi livelli di conformità — A, AA e AAA — che permettono di valutare il grado di accessibilità raggiunto:\n▸ A: soddisfa i criteri di livello A;\n▸ AA: soddisfa i criteri di livello A e AA;\n▸ AAA: soddisfa i criteri di livello A, AA e AAA.\n\nRagionare in termini di accessibilità significa anche considerare i modi concreti in cui le persone interagiscono con il digitale. WebAIM (Web Accessibility In Mind) individua quattro grandi aree particolarmente rilevanti: disabilità uditiva, motoria, visiva e cognitiva.** \n\nA queste corrisponde una vasta gamma di strumenti e tecnologie assistive — screen reader, tastiere alternative, comandi vocali, ingranditori di schermo, puntatori speciali e altri dispositivi — che permettono agli utenti di accedere ai contenuti solo se il sito o l’applicazione sono stati costruiti riconoscendo e supportando correttamente tali modalità d’uso. La compatibilità con queste tecnologie va progettata e verificata durante lo sviluppo."
+        },
+        {
+          "id": "198:3508",
+          "name": "Titolo · Accessibilità Web",
+          "text": "Accessibilità Web"
+        },
+        {
+          "id": "198:3510",
+          "name": "Testatina",
+          "text": "ACCESSIBILITÀ E DESIGN INCLUSIVO"
+        },
+        {
+          "id": "I198:3512;5:732",
+          "name": "3",
+          "text": "3"
+        },
+        {
+          "id": "I198:3513;183:1515",
+          "name": ".1",
+          "text": ".1"
+        },
+        {
+          "id": "I198:3514;183:1518",
+          "name": ".2",
+          "text": ".2"
+        },
+        {
+          "id": "210:1883",
+          "name": "Numero pagina · 174",
+          "text": "174"
+        },
+        {
+          "id": "2783:133",
+          "name": "Fonte · accessibility-wcag-webaim",
+          "text": "* W3C, WCAG 2.2 · principi e conformità.\n** WebAIM, Introduction to Web Accessibility."
+        }
+      ]
+    },
+    {
+      "id": "198:3924",
+      "name": "C03 · 083 · DX — Accessibilità Web",
+      "texts": [
+        {
+          "id": "210:1884",
+          "name": "Numero pagina · 175",
+          "text": "175"
+        },
+        {
+          "id": "2141:1360",
+          "name": "Testo didascalia",
+          "text": "Mappa dei principi e dei criteri delle Web Content Accessibility Guidelines (WCAG) 2.2."
+        }
+      ]
+    },
+    {
+      "id": "198:3481",
+      "name": "C03 · 084 · SX — Colore e contrasto",
+      "texts": [
+        {
+          "id": "198:3490",
+          "name": "Corpo testo",
+          "text": "Tra gli aspetti più immediati, ma anche più spesso sottovalutati, rientra il contrasto cromatico.\n \nUn contrasto insufficiente tra testo e sfondo compromette seriamente la leggibilità, soprattutto per utenti con disabilità visive o in condizioni di visione non ottimali. \nPer i contenuti testuali, le WCAG 2.2 richiedono al livello AA almeno 4,5:1 per il testo normale e 3:1 per il testo grande (almeno 18 pt, oppure 14 pt in grassetto), con eccezioni per elementi incidentali e logotipi.* Questo dato, apparentemente tecnico, ha in realtà ricadute molto concrete: un’interfaccia elegante ma poco leggibile fallisce nel suo compito comunicativo prima ancora che estetico.   Oggi esistono diversi strumenti online gratuiti per verificare l’accessibilità dei colori. Adobe Color, ad esempio, permette di controllare il rapporto di contrasto tra testo e sfondo secondo gli standard WCAG e di verificare la conformità ai livelli AA e AAA.** Lo strumento Simulatore di daltonismo consente invece di simulare come una palette può essere percepita in presenza di diverse forme di daltonismo, individuando eventuali colori difficili da distinguere. Le simulazioni sono indicative e non sostituiscono i test con gli utenti. Il colore non deve essere l’unico segnale per comunicare stato, azione o errore: affiancagli testo, simboli o altre indicazioni visibili.*"
+        },
+        {
+          "id": "198:3491",
+          "name": "Titolo · Colore e contrasto",
+          "text": "Colore e contrasto"
+        },
+        {
+          "id": "198:3493",
+          "name": "Testatina",
+          "text": "ACCESSIBILITÀ E DESIGN INCLUSIVO"
+        },
+        {
+          "id": "I198:3495;5:732",
+          "name": "3",
+          "text": "3"
+        },
+        {
+          "id": "I198:3496;183:1515",
+          "name": ".1",
+          "text": ".1"
+        },
+        {
+          "id": "I198:3497;183:1518",
+          "name": ".2",
+          "text": ".2"
+        },
+        {
+          "id": "210:1885",
+          "name": "Numero pagina · 176",
+          "text": "176"
+        },
+        {
+          "id": "2783:134",
+          "name": "Fonte · contrast-color-sources",
+          "text": "* W3C, WCAG 2.2 · criteri 1.4.3 e 1.4.1.\n** Adobe Color · strumenti di accessibilità."
+        }
+      ]
+    },
+    {
+      "id": "198:3913",
+      "name": "C03 · 085 · DX — Colore e contrasto",
+      "texts": [
+        {
+          "id": "210:1886",
+          "name": "Numero pagina · 177",
+          "text": "177"
+        },
+        {
+          "id": "2141:1365",
+          "name": "Testo didascalia",
+          "text": "Verifiche del contrasto tra colori, testo e sfondo."
+        }
+      ]
+    },
+    {
+      "id": "198:3515",
+      "name": "C03 · 086 · SX — Consigli pratici",
+      "texts": [
+        {
+          "id": "198:3524",
+          "name": "Titolo · Consigli pratici",
+          "text": "Consigli pratici"
+        },
+        {
+          "id": "198:3526",
+          "name": "Elenco",
+          "text": "Sul piano operativo, progettare interfacce più accessibili non richiede sempre soluzioni complesse; spesso significa piuttosto prestare attenzione ad alcune pratiche essenziali. \n\n▸ Risolvere i problemi di usabilità che confondono tutti gli utenti, perché tali criticità tendono a penalizzare ancora di più chi incontra barriere di accesso.\n▸ Fornire alternative testuali pertinenti per le immagini informative; quelle decorative vanno ignorate dalle tecnologie assistive.\n▸ Usare correttamente la gerarchia dei titoli.\n▸ Associare in modo chiaro etichette e campi nei form.\n▸ Rendere tutti i contenuti navigabili da tastiera.\n▸ Predisporre collegamenti come “vai al contenuto principale” per facilitare l’orientamento.\n▸ Scegliere componenti e temi che siano stati progettati con criteri di accessibilità."
+        },
+        {
+          "id": "198:3527",
+          "name": "Corpo testo",
+          "text": "Le barriere di accessibilità e i problemi generali di usabilità vanno affrontati insieme. Chi usa uno screen reader può esplorare titoli, link e regioni della pagina senza ascoltarla tutta in sequenza. Una struttura semantica chiara rende più rapido l’orientamento e aiuta a trovare le informazioni rilevanti."
+        },
+        {
+          "id": "210:1887",
+          "name": "Numero pagina · 178",
+          "text": "178"
+        }
+      ]
+    },
+    {
+      "id": "198:3934",
+      "name": "C03 · 087 · DX — Verificare l’inclusione",
+      "texts": [
+        {
+          "id": "210:1888",
+          "name": "Numero pagina · 179",
+          "text": "179"
+        },
+        {
+          "id": "2402:1089",
+          "name": "Testo",
+          "text": "DALLA RICERCA ALLA VALUTAZIONE"
+        },
+        {
+          "id": "2402:1090",
+          "name": "Testo",
+          "text": "Verificare l’inclusione"
+        },
+        {
+          "id": "2402:1091",
+          "name": "Testo",
+          "text": "Accessibilità e design inclusivo attraversano tutto il progetto. Per ridurre le barriere servono ricerca, prove d’uso e verifiche tecniche."
+        },
+        {
+          "id": "2402:1094",
+          "name": "Testo",
+          "text": "01 · Ricercare"
+        },
+        {
+          "id": "2402:1095",
+          "name": "Testo",
+          "text": "Coinvolgi persone con capacità, familiarità digitale e modalità d’uso diverse. L’esperienza di una persona non rappresenta tutte le persone con la stessa disabilità."
+        },
+        {
+          "id": "2402:1097",
+          "name": "Testo",
+          "text": "02 · Osservare"
+        },
+        {
+          "id": "2402:1098",
+          "name": "Testo",
+          "text": "Usa compiti realistici sui prototipi, anche con persone che utilizzano tecnologie assistive. Registra gli ostacoli incontrati e come influiscono sul completamento del compito.*"
+        },
+        {
+          "id": "2402:1100",
+          "name": "Testo",
+          "text": "03 · Verificare"
+        },
+        {
+          "id": "2402:1101",
+          "name": "Testo",
+          "text": "Affianca i test con utenti alle verifiche WCAG: i due approcci rilevano barriere differenti. I controlli automatici coprono soltanto una parte dei requisiti."
+        },
+        {
+          "id": "2402:1103",
+          "name": "Testo",
+          "text": "Capire, ricordare, riprendere"
+        },
+        {
+          "id": "2402:1104",
+          "name": "Testo",
+          "text": "Le istruzioni sono chiare? Le informazioni necessarie restano visibili? Si può riprendere un’attività interrotta? La guida W3C per l’accessibilità cognitiva integra le WCAG con indicazioni supplementari.**"
+        },
+        {
+          "id": "2402:1105",
+          "name": "Fonti e approfondimenti",
+          "text": "* W3C, Involving Users. ** W3C, Making Content Usable (COGA).\nSpunti: Monia Elhajjaoui, 2021–2022; Roberta Liso, 2025–2026."
+        }
+      ]
+    }
+  ]
+}

@@ -13,7 +13,6 @@ bookletPages: [1]
 # Ricerca, contesto e inclusione
 
 <ChapterMetro section="ux-research" />
-<p class="lead">Dalle persone al problema progettuale</p>
 
 ---
 layout: summary
@@ -211,7 +210,7 @@ bookletAssets: ["online-mosca-20261009"]
 
 # Mosca · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mosca-20261009-f97d510cc16c.webp" alt="Mosca · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mosca-20261009-f97d510cc16c.webp" alt="Mosca · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -227,7 +226,7 @@ bookletAssets: ["c03-011-01"]
 
 # Mosca · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-011-01-native-55349d1e7f4f.webp" alt="Homepage dell’Università Statale di Mosca." caption="Struttura istituzionale, edificio e percorsi informativi · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-011-01-native-55349d1e7f4f.webp" alt="Homepage dell’Università Statale di Mosca." caption="Struttura istituzionale, edificio e percorsi informativi · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -243,7 +242,7 @@ bookletAssets: ["online-amsterdam-20261009"]
 
 # Amsterdam · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-amsterdam-20261009-4cafba50923c.webp" alt="Amsterdam · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-amsterdam-20261009-4cafba50923c.webp" alt="Amsterdam · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -259,7 +258,7 @@ bookletAssets: ["c03-012-01"]
 
 # Amsterdam · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-012-01-native-e0fea7d138d5.webp" alt="Homepage dell’Università di Amsterdam." caption="Persone, ricerca e percorsi rivolti alla comunità universitaria · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-012-01-native-e0fea7d138d5.webp" alt="Homepage dell’Università di Amsterdam." caption="Persone, ricerca e percorsi rivolti alla comunità universitaria · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -340,7 +339,7 @@ bookletAssets: ["online-greyhound-20261009"]
 
 # Greyhound · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-greyhound-20261009-8d4e87678f81.webp" alt="Greyhound · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.888889]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-greyhound-20261009-8d4e87678f81.webp" alt="Greyhound · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.888889]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -356,7 +355,7 @@ bookletAssets: ["c03-015-01"]
 
 # Greyhound · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-015-01-native-43380e775644.webp" alt="Homepage di Greyhound: ricerca del viaggio e servizi per l’utente." caption="Ricerca del viaggio, app e servizi per il singolo viaggiatore · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-015-01-native-43380e775644.webp" alt="Homepage di Greyhound: ricerca del viaggio e servizi per l’utente." caption="Ricerca del viaggio, app e servizi per il singolo viaggiatore · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -372,7 +371,7 @@ bookletAssets: ["online-kmb-20261009"]
 
 # KMB · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-kmb-20261009-d5f4f45b1718.webp" alt="KMB · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-kmb-20261009-d5f4f45b1718.webp" alt="KMB · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -388,7 +387,7 @@ bookletAssets: ["c03-016-01"]
 
 # KMB · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-016-01-native-abf394d41722.webp" alt="Homepage di Kowloon Motor Bus: informazioni e servizi alla comunità." caption="Informazioni, assistenza e servizi della rete di trasporto · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-016-01-native-abf394d41722.webp" alt="Homepage di Kowloon Motor Bus: informazioni e servizi alla comunità." caption="Informazioni, assistenza e servizi della rete di trasporto · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -485,7 +484,7 @@ bookletAssets: ["online-giappone-20261009"]
 
 # Giappone · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-giappone-20261009-2b2af63fa371.webp" alt="Giappone · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-giappone-20261009-2b2af63fa371.webp" alt="Giappone · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -501,7 +500,7 @@ bookletAssets: ["c03-019-01"]
 
 # Giappone · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-019-01-native-73e3c0750c32.webp" alt="Homepage del governo giapponese." caption="Notizie, temi e messaggi del governo nella versione mostrata · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-019-01-native-73e3c0750c32.webp" alt="Homepage del governo giapponese." caption="Notizie, temi e messaggi del governo nella versione mostrata · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -517,7 +516,7 @@ bookletAssets: ["online-svezia-20261009"]
 
 # Svezia · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-svezia-20261009-934fb1b2c0ff.webp" alt="Svezia · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-svezia-20261009-934fb1b2c0ff.webp" alt="Svezia · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -533,7 +532,7 @@ bookletAssets: ["c03-020-01"]
 
 # Svezia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese." caption="Diritti LGBTQ+, relazioni tra generazioni e sostegno reciproco · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese." caption="Diritti LGBTQ+, relazioni tra generazioni e sostegno reciproco · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -549,7 +548,7 @@ bookletAssets: ["c03-020-01"]
 
 # Svezia · cura e benessere collettivo · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · cattura storica" :vertical-range="[0.712324, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.712324, 1]" />
 
 ---
 layout: default
@@ -614,7 +613,7 @@ bookletAssets: ["online-kfc-bielorussia-20261009"]
 
 # KFC Bielorussia · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-kfc-bielorussia-20261009-51096ef73261.webp" alt="KFC Bielorussia · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.694444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-kfc-bielorussia-20261009-51096ef73261.webp" alt="KFC Bielorussia · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.694444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -630,7 +629,7 @@ bookletAssets: ["c03-023-01"]
 
 # KFC Bielorussia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia." caption="Prodotti, prezzi e promozioni espliciti nella homepage · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia." caption="Prodotti, prezzi e promozioni espliciti nella homepage · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -646,7 +645,7 @@ bookletAssets: ["c03-023-01"]
 
 # KFC Bielorussia · prezzi e prodotti · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · cattura storica" :vertical-range="[0.635268, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.635268, 1]" />
 
 ---
 layout: default
@@ -662,7 +661,7 @@ bookletAssets: ["online-kfc-danimarca-20261009"]
 
 # KFC Danimarca · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-kfc-danimarca-20261009-22516496c9a2.webp" alt="KFC Danimarca · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-kfc-danimarca-20261009-22516496c9a2.webp" alt="KFC Danimarca · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -678,7 +677,7 @@ bookletAssets: ["c03-024-01"]
 
 # KFC Danimarca · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-024-01-native-cd00990116e0.webp" alt="Homepage di KFC in Danimarca." caption="Immagini grandi, offerte e percorsi per conoscere il menu · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-024-01-native-cd00990116e0.webp" alt="Homepage di KFC in Danimarca." caption="Immagini grandi, offerte e percorsi per conoscere il menu · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -694,7 +693,7 @@ bookletAssets: ["hofstede-kfc-russia-2024"]
 
 # KFC Russia · un altro mercato nel libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-russia-2024.webp" alt="KFC Russia · booklet 2024" caption="Altro mercato: menu, offerte e prezzi nella cattura storica · Booklet 2024, p. 167" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-russia-2024.webp" alt="KFC Russia · booklet 2024" caption="Altro mercato: menu, offerte e prezzi nello screenshot storico · Booklet 2024, p. 167" />
 
 ---
 layout: default
@@ -759,7 +758,7 @@ bookletAssets: ["online-kinder-cina-20261009"]
 
 # Kinder Cina · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-kinder-cina-20261009-2ad1b01cefd4.webp" alt="Kinder Cina · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-kinder-cina-20261009-2ad1b01cefd4.webp" alt="Kinder Cina · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -775,7 +774,7 @@ bookletAssets: ["c03-027-01"]
 
 # Kinder Cina · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese." caption="Bambini, relazioni e crescita nei contenuti della versione mostrata · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese." caption="Bambini, relazioni e crescita nei contenuti della versione mostrata · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -791,7 +790,7 @@ bookletAssets: ["c03-027-01"]
 
 # Kinder Cina · bambini e crescita · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · cattura storica" :vertical-range="[0.682101, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.682101, 1]" />
 
 ---
 layout: default
@@ -807,7 +806,7 @@ bookletAssets: ["online-kinder-usa-20261009"]
 
 # Kinder USA · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-kinder-usa-20261009-0227fc9b87bb.webp" alt="Kinder USA · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-kinder-usa-20261009-0227fc9b87bb.webp" alt="Kinder USA · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -823,7 +822,7 @@ bookletAssets: ["c03-028-01"]
 
 # Kinder USA · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense." caption="Novità di prodotto, notizie e accesso alla gamma Kinder · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense." caption="Novità di prodotto, notizie e accesso alla gamma Kinder · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -839,7 +838,7 @@ bookletAssets: ["c03-028-01"]
 
 # Kinder USA · prodotti e novità · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · cattura storica" :vertical-range="[0.682101, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.682101, 1]" />
 
 ---
 layout: default
@@ -920,7 +919,7 @@ bookletAssets: ["c03-036-02"]
 
 # IVR · osservare svago e piaceri
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia. · dettaglio superiore" caption="Esercizio: quali messaggi riguardano svago e gratificazione? Lo screenshot non misura IVR · Booklet CVeDI · cattura storica" :vertical-range="[0, 0.308302]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia. · dettaglio superiore" caption="Esercizio: quali messaggi riguardano svago e gratificazione? Lo screenshot non misura IVR · Booklet CVeDI · screenshot storico" :vertical-range="[0, 0.308302]" />
 
 ---
 layout: default
@@ -936,7 +935,7 @@ bookletAssets: ["c03-036-01"]
 
 # IVR · osservare regole e condizioni
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia. · dettaglio superiore" caption="Esercizio: quali condizioni regolano le offerte? Non bastano a dimostrare restrizione culturale · Booklet CVeDI · cattura storica" :vertical-range="[0, 0.366368]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia. · dettaglio superiore" caption="Esercizio: quali condizioni regolano le offerte? Non bastano a dimostrare restrizione culturale · Booklet CVeDI · screenshot storico" :vertical-range="[0, 0.366368]" />
 
 ---
 layout: default
@@ -968,7 +967,7 @@ bookletAssets: ["online-mcd-cina-20261009"]
 
 # McDonald’s · Cina · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-cina-20261009-3a9ff89355a2.webp" alt="McDonald’s · Cina · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-cina-20261009-3a9ff89355a2.webp" alt="McDonald’s · Cina · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -984,7 +983,7 @@ bookletAssets: ["c03-032-01"]
 
 # McDonald’s · Cina · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative e contenuti aziendali nella griglia della homepage · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative e contenuti aziendali nella griglia della homepage · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1000,7 +999,7 @@ bookletAssets: ["online-mcd-paesi-bassi-20261009"]
 
 # McDonald’s · Paesi Bassi · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-paesi-bassi-20261009-7f018da64e24.webp" alt="McDonald’s · Paesi Bassi · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-paesi-bassi-20261009-7f018da64e24.webp" alt="McDonald’s · Paesi Bassi · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1016,7 +1015,7 @@ bookletAssets: ["c03-032-02"]
 
 # McDonald’s · Paesi Bassi · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-02-native-b3fdab1777fc.webp" alt="Homepage di McDonald’s nei Paesi Bassi." caption="Servizi, prodotti e percorsi di approfondimento · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-02-native-b3fdab1777fc.webp" alt="Homepage di McDonald’s nei Paesi Bassi." caption="Servizi, prodotti e percorsi di approfondimento · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1064,7 +1063,7 @@ bookletAssets: ["online-mcd-italia-20261009"]
 
 # McDonald’s · Italia · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-italia-20261009-f81594af7996.webp" alt="McDonald’s · Italia · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-italia-20261009-f81594af7996.webp" alt="McDonald’s · Italia · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1080,7 +1079,7 @@ bookletAssets: ["c03-034-01"]
 
 # McDonald’s · Italia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-01-native-c6169af974d7.webp" alt="Homepage di McDonald’s in Italia." caption="Comodità, prodotti e servizi rivolti alla persona · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-01-native-c6169af974d7.webp" alt="Homepage di McDonald’s in Italia." caption="Comodità, prodotti e servizi rivolti alla persona · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1096,7 +1095,7 @@ bookletAssets: ["online-mcd-turchia-20261009"]
 
 # McDonald’s · Turchia · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-turchia-20261009-afd98a8c2640.webp" alt="McDonald’s · Turchia · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-turchia-20261009-afd98a8c2640.webp" alt="McDonald’s · Turchia · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1112,7 +1111,7 @@ bookletAssets: ["c03-034-02"]
 
 # McDonald’s · Turchia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-02-native-3a9760798ff6.webp" alt="Homepage di McDonald’s in Turchia." caption="Ricette locali, promozioni e partecipazione · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-02-native-3a9760798ff6.webp" alt="Homepage di McDonald’s in Turchia." caption="Ricette locali, promozioni e partecipazione · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1160,7 +1159,7 @@ bookletAssets: ["online-mcd-slovacchia-20261009"]
 
 # McDonald’s · Slovacchia · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-slovacchia-20261009-a8269f269d58.webp" alt="McDonald’s · Slovacchia · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-slovacchia-20261009-a8269f269d58.webp" alt="McDonald’s · Slovacchia · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1176,7 +1175,7 @@ bookletAssets: ["c03-036-01"]
 
 # McDonald’s · Slovacchia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia." caption="Premi, offerte e convenienza · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia." caption="Premi, offerte e convenienza · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1192,7 +1191,7 @@ bookletAssets: ["online-mcd-slovenia-20261009"]
 
 # McDonald’s · Slovenia · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-slovenia-20261009-e0f787a34b20.webp" alt="McDonald’s · Slovenia · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-slovenia-20261009-e0f787a34b20.webp" alt="McDonald’s · Slovenia · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1208,7 +1207,7 @@ bookletAssets: ["c03-036-02"]
 
 # McDonald’s · Slovenia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia." caption="Promozioni estive, socialità e piaceri quotidiani · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia." caption="Promozioni estive, socialità e piaceri quotidiani · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1256,7 +1255,7 @@ bookletAssets: ["online-mcd-giappone-20261009"]
 
 # McDonald’s · Giappone · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-giappone-20261009-432a43562192.webp" alt="McDonald’s · Giappone · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-giappone-20261009-432a43562192.webp" alt="McDonald’s · Giappone · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1272,7 +1271,7 @@ bookletAssets: ["c03-038-01"]
 
 # McDonald’s · Giappone · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-01-native-1b8ef1343d03.webp" alt="Homepage di McDonald’s in Giappone." caption="Prezzi, prodotti e condizioni della promozione · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-01-native-1b8ef1343d03.webp" alt="Homepage di McDonald’s in Giappone." caption="Prezzi, prodotti e condizioni della promozione · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1288,7 +1287,7 @@ bookletAssets: ["online-mcd-india-20261009"]
 
 # McDonald’s · India occidentale · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-india-20261009-65b995c333aa.webp" alt="McDonald’s · India occidentale · sito ufficiale, cattura del 9 ottobre 2026" caption="Sito ufficiale dell’India occidentale e meridionale · cattura del 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.448931]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-india-20261009-65b995c333aa.webp" alt="McDonald’s · India occidentale · sito ufficiale, screenshot del 9 ottobre 2026" caption="Sito ufficiale dell’India occidentale e meridionale · screenshot del 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.448931]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1304,7 +1303,7 @@ bookletAssets: ["c03-038-02"]
 
 # McDonald’s · India occidentale · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-02-native-ed1439da2a2d.webp" alt="Homepage di McDonald’s in India." caption="Immagini, novità e promozioni · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-02-native-ed1439da2a2d.webp" alt="Homepage di McDonald’s in India." caption="Immagini, novità e promozioni · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1336,7 +1335,7 @@ bookletAssets: ["online-mcd-cina-20261009"]
 
 # McDonald’s · Cina · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-cina-20261009-3a9ff89355a2.webp" alt="McDonald’s · Cina · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-cina-20261009-3a9ff89355a2.webp" alt="McDonald’s · Cina · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1352,7 +1351,7 @@ bookletAssets: ["c03-040-01"]
 
 # McDonald’s · Cina · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative, filiera e punti vendita · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative, filiera e punti vendita · Booklet CVeDI · screenshot storico" />
 
 ---
 layout: default
@@ -1368,7 +1367,7 @@ bookletAssets: ["online-mcd-australia-20261009"]
 
 # McDonald’s · Australia · sito attuale
 
-<LessonFigure src="/images/processo-ux/online-mcd-australia-20261009-abd90502aa03.webp" alt="McDonald’s · Australia · sito ufficiale, cattura del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
+<LessonFigure src="/images/processo-ux/online-mcd-australia-20261009-abd90502aa03.webp" alt="McDonald’s · Australia · sito ufficiale, screenshot del 9 ottobre 2026" caption="Prima schermata del sito ufficiale · 9 ottobre 2026" :max-scale="1" :vertical-range="[0, 0.764444]" :zoom-full-image="true" />
 
 ---
 layout: default
@@ -1384,4 +1383,4 @@ bookletAssets: ["c03-040-02"]
 
 # McDonald’s · Australia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-02-native-75303f6c1d98.webp" alt="Homepage di McDonald’s in Australia." caption="Offerte, ordine e possibilità d’acquisto · Booklet CVeDI · cattura storica" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-02-native-75303f6c1d98.webp" alt="Homepage di McDonald’s in Australia." caption="Offerte, ordine e possibilità d’acquisto · Booklet CVeDI · screenshot storico" />
