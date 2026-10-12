@@ -243,7 +243,6 @@ lessonSlide: 13
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
 <div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-3-0-imagegen-904b722505b0.webp" alt="Persona non verbale · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Persona non verbale" /><LessonFigure src="/images/processo-ux/l05-persona-3-1-imagegen-4e7a60273aa2.webp" alt="Laringite · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Laringite" /><LessonFigure src="/images/processo-ux/l05-persona-3-2-imagegen-a21a143a9e87.webp" alt="Accento non riconosciuto · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Accento non riconosciuto" /></div>
-<CvediNotice kind="explore" title="Da tenere presente"><p>L’accento può creare un disallineamento con il riconoscimento vocale. Una barriera situazionale non equivale a una diagnosi.</p></CvediNotice>
 
 ---
 layout: "default"
