@@ -18,12 +18,13 @@ const stop = computed(() => primary.value.stations[1])
       :journey-progress="'stopProgress' in line ? line.stopProgress : undefined"
       :style="{ '--cover-route-duration': `${line.duration}ms`, '--cover-route-delay': `${line.delay}ms`, '--metro-reveal-from': 'reverse' in line && line.reverse ? -1 : 1 }" />
     <svg class="cvedi-metro-route" viewBox="0 0 1280 720" aria-hidden="true" focusable="false">
-      <g v-for="(line, index) in lines" :key="index">
+      <g v-for="(line, index) in lines" :key="index" :class="`metro-cover-stations--${line.tone}`">
         <template v-for="(station, stationIndex) in line.stations" :key="stationIndex">
           <g v-if="line.tone !== 'track' || stationIndex !== 1" class="metro-cover-station"
             :style="{ '--station-delay': `${station.delay}ms` }">
-            <circle class="metro-station-disc" :cx="station.x" :cy="station.y" r="7" />
-            <circle class="metro-station-core" :cx="station.x" :cy="station.y" r="2" />
+            <line class="metro-station-tick"
+              :transform="`translate(${station.x} ${station.y}) rotate(${'rotation' in station ? station.rotation : 0})`"
+              x1="0" :y1="line.tone === 'track' ? 11 : 2" x2="0" :y2="line.tone === 'track' ? 31 : 16" />
           </g>
         </template>
       </g>

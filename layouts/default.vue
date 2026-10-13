@@ -27,9 +27,9 @@ const lessonNumber = computed(() => {
     <SlideRibbon v-if="!isCover && !isInteractive && set.id !== 'apertura'" :label="set.label" />
     <span v-if="isChapter && lessonNumber" class="chapter-lesson-number absolute">Lezione {{ String(lessonNumber).padStart(2, '0') }}</span>
     <slot />
-    <footer class="slide-footer">
+    <footer v-if="!isCover" class="slide-footer">
       <span v-if="footer && !isCover && !isInteractive" class="slide-label"><AcronymText :text="footer" /></span>
-      <span v-if="!classes.has('cover-slide')" class="slide-index" :aria-label="`Slide ${pagination.page} di ${pagination.total}`">
+      <span class="slide-index" :aria-label="`Slide ${pagination.page} di ${pagination.total}`">
         {{ pagination.page }} / {{ pagination.total }}
       </span>
     </footer>

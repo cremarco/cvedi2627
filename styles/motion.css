@@ -55,13 +55,16 @@
   to { opacity: 1; transform: scale(1); }
 }
 
-/* The same moving segment and arrival ring as the four-step timeline,
-   with the segment's head stopping at the cover's main station. */
+/* The moving segment stops at the main tick; its brief highlight has no ring. */
 :is(.cover-slide, .chapter-slide, .closing-slide).motion-enabled .metro-cover-train {
   animation: cvedi-cover-journey 680ms linear calc(40ms + var(--cover-route-delay, 0ms)) both;
 }
 :is(.cover-slide, .chapter-slide, .closing-slide).motion-enabled .metro-stop-arrival {
-  animation: cvedi-metro-arrival 200ms var(--cvedi-ease-out) var(--stop-arrival-delay) both;
+  animation: cvedi-cover-arrival 200ms var(--cvedi-ease-out) var(--stop-arrival-delay) both;
+}
+@keyframes cvedi-cover-arrival {
+  from, to { opacity: 0; }
+  25% { opacity: .65; }
 }
 @keyframes cvedi-cover-journey {
   0% { stroke-dashoffset: .06; opacity: 0; }
@@ -75,17 +78,12 @@
   animation: cvedi-metro-journey var(--cvedi-motion-metro) linear both;
 }
 .motion-enabled .cvedi-metro-timeline .metro-station::after {
-  animation: cvedi-metro-arrival 200ms var(--cvedi-ease-out) var(--station-arrival-delay, 0ms) both;
+  animation: cvedi-cover-arrival 200ms var(--cvedi-ease-out) var(--station-arrival-delay, 0ms) both;
 }
 @keyframes cvedi-metro-journey {
   0% { stroke-dashoffset: .1; opacity: 0; }
   5%, 92% { opacity: 1; }
   100% { stroke-dashoffset: -1.1; opacity: 0; }
-}
-@keyframes cvedi-metro-arrival {
-  from { opacity: 0; transform: scale(1); }
-  25% { opacity: .65; }
-  to { opacity: 0; transform: scale(1.2); }
 }
 
 /* List order carries information. Staggers end within 800 ms. */

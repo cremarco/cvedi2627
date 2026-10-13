@@ -6,6 +6,8 @@ import PresentationProgress from './components/PresentationProgress.vue'
 
 const { currentSlideNo, currentFrontmatter, slides, isPrintMode } = useNav()
 const pagination = useLessonPagination(slides, currentSlideNo)
+const isCover = computed(() => String(currentFrontmatter.value.class ?? '').split(/\s+/)
+  .some(name => name === 'cover-slide' || name === 'chapter-slide'))
 const onDark = computed(() => {
   const classes = String(currentFrontmatter.value.class ?? '').split(/\s+/)
   return classes.includes('chapter-slide') || classes.includes('archive-wall-slide')
@@ -15,6 +17,7 @@ const compact = computed(() => String(currentFrontmatter.value.class ?? '').spli
 
 <template>
   <PresentationProgress
+    v-if="!isCover"
     :lesson="pagination.lesson"
     :page="pagination.page"
     :total="pagination.total"

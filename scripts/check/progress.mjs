@@ -47,25 +47,30 @@ try {
   }
 
   await page.goto(`${base}/#/apertura`, { waitUntil: 'networkidle' })
-  await waitForCounter(1, 6)
-  const initialFill = await page.locator('.presentation-progress-fill').elementHandle()
+  assert.equal(await page.locator('.presentation-progress-rail').count(), 0, 'the general cover omits progress')
   await page.keyboard.press('ArrowRight')
   await waitForCounter(2, 6)
+  const initialFill = await page.locator('.presentation-progress-fill').elementHandle()
+  await page.keyboard.press('ArrowRight')
+  await waitForCounter(3, 6)
   assert.ok(await initialFill.evaluate(fill => fill === document.querySelector('.presentation-progress-fill')), 'same set retains its animated element')
-  await waitForFraction(2 / 6)
+  await waitForFraction(3 / 6)
   checks.push('accessible counter updates independently of animation')
 
   await page.keyboard.press('ArrowRight')
   await page.keyboard.press('ArrowRight')
   await page.keyboard.press('ArrowLeft')
-  await waitForCounter(3, 6)
-  await waitForFraction(3 / 6)
+  await waitForCounter(4, 6)
+  await waitForFraction(4 / 6)
   checks.push('rapid forward and backward navigation settles correctly')
 
   await page.goto(`${base}/#/presentazione-corso`)
-  const courseState = await waitForCounter(1, course.length)
-  assert.ok(Math.abs(courseState.fraction - 1 / course.length) < .001, 'new set jumps to its own initial fraction')
+  await page.locator('.chapter-slide.is-active').waitFor()
+  assert.equal(await page.locator('.presentation-progress-rail').count(), 0, 'chapter covers omit progress')
   assert.equal(await initialFill.evaluate(fill => fill.isConnected), false, 'previous set animation is replaced')
+  await page.keyboard.press('ArrowRight')
+  const courseState = await waitForCounter(2, course.length)
+  assert.ok(Math.abs(courseState.fraction - 2 / course.length) < .001, 'progress resumes with the actual page after a cover')
   checks.push('set changes reset without an old-set transition')
 
   await page.goto(`${base}/#/${deck.slides.at(-1).index + 1}`)
@@ -75,7 +80,8 @@ try {
 
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto(`${base}/#/introduzione-teorica`)
-  await waitForCounter(1, lesson.length)
+  await page.locator('.chapter-slide.is-active').waitFor()
+  assert.equal(await page.locator('.presentation-progress-rail').count(), 0)
   await page.keyboard.press('ArrowRight')
   const reduced = await waitForCounter(2, lesson.length)
   assert.equal(reduced.duration, '0s')
@@ -96,7 +102,7 @@ try {
 
   await page.setViewportSize({ width: 1280, height: 720 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
-  const fixtures = deck.slides.filter(slide => String(slide.frontmatter.class).split(/\s+/).some(name => ['chapter-slide', 'cover-slide', 'archive-wall-slide'].includes(name)))
+  const fixtures = deck.slides.filter(slide => String(slide.frontmatter.class).split(/\s+/).includes('archive-wall-slide'))
   fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione', ...curriculum.lessons.map(lesson => lesson.id)].map(lesson =>
     deck.slides.find(slide => (slide.frontmatter.lesson ?? 'presentazione-corso') === lesson && !String(slide.frontmatter.class).split(/\s+/).includes('chapter-slide') && !String(slide.frontmatter.class).split(/\s+/).includes('cover-slide'))))
   for (const slide of fixtures) {
@@ -121,11 +127,11 @@ try {
       return { lesson: rail.dataset.lesson, onDark: rail.dataset.onDark, fill, track, contrast: (high + .05) / (low + .05) }
     })
     const classes = String(slide.frontmatter.class).split(/\s+/)
-    assert.equal(result.onDark, String(classes.includes('chapter-slide') || classes.includes('archive-wall-slide')))
+    assert.equal(result.onDark, String(classes.includes('archive-wall-slide')))
     assert.ok(result.contrast >= 3, `slide ${slide.index + 1}: progress contrast ${result.contrast.toFixed(2)}:1`)
     colors.push({ page: slide.index + 1, ...result })
   }
-  checks.push('owning-set accents remain distinguishable at 3:1 or better on light slides and dark covers')
+  checks.push('owning-set accents remain distinguishable at 3:1 or better on light slides and dark archive pages')
   console.log(JSON.stringify({ status: 'passed', checks, colors }, null, 2))
 } finally {
   await browser.close()

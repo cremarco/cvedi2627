@@ -69,7 +69,7 @@
 .slidev-layout.default :is(.cvedi-calendar, .grade-year-table) {
   font-variant-numeric: lining-nums tabular-nums;
 }
-.slidev-layout.default :is(.stat-value, .grade-range-head strong, .grade-table-value, .grade-table-median, .slide-index, .index-chapter-number, .metro-station) {
+.slidev-layout.default :is(.stat-value, .grade-range-head strong, .grade-table-value, .grade-table-median, .slide-index, .index-chapter-number, .timeline-number) {
   font-variant-numeric: lining-nums tabular-nums;
 }
 /* Pagination is shared navigation, including on covers and historical examples.

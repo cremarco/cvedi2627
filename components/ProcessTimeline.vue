@@ -51,8 +51,11 @@ watch(route, measureArrivals, { flush: 'post' })
     <ul class="timeline timeline-horizontal cvedi-process-timeline" :aria-label="label">
       <li v-for="(step, index) in entries" :key="step.title" :style="{ '--station-arrival-delay': `${arrivals[index] ?? 0}ms` }">
         <hr v-if="index > 0" aria-hidden="true" />
-        <div class="timeline-middle">
-          <span class="badge badge-accent metro-station">{{ String(index + 1).padStart(2, '0') }}</span>
+        <div class="timeline-start">
+          <span class="timeline-number">{{ String(index + 1).padStart(2, '0') }}</span>
+        </div>
+        <div class="timeline-middle" aria-hidden="true">
+          <span class="metro-station" />
         </div>
         <div class="timeline-end">
           <span class="timeline-title"><AcronymText :text="step.title" /></span>

@@ -57,7 +57,7 @@ try {
             }
           }
         }
-        for (const dot of root.querySelectorAll('.metro-station-disc, .metro-stop-disc')) {
+        for (const dot of root.querySelectorAll('.metro-station-tick')) {
           const rect = dot.getBoundingClientRect(), gap = 16 * scale
           if (text.some(text => rect.right + gap > text.left && rect.left - gap < text.right && rect.bottom + gap > text.top && rect.top - gap < text.bottom)) collisions.push({ station: true })
         }
@@ -77,8 +77,12 @@ try {
           offsets: [...root.querySelectorAll('.metro-route-reveal, .closing-metro-reveal')].map(path => getComputedStyle(path).strokeDashoffset),
           stationsVisible: [...root.querySelectorAll('.metro-cover-station, .closing-metro-dot')].every(dot => getComputedStyle(dot).opacity === '1'),
           stops: root.querySelectorAll('.metro-cover-stop').length,
+          ticks: root.querySelectorAll('.metro-station-tick').length,
+          stationCircles: root.querySelectorAll('.chapter-metro-route circle').length,
+          counter: root.querySelectorAll('.slide-index').length,
+          progress: document.querySelectorAll('.presentation-progress-rail').length,
           trains: root.querySelectorAll('.metro-cover-train').length,
-          stopVisible: [...root.querySelectorAll('.metro-stop-disc')].every(dot => getComputedStyle(dot).opacity === '1'),
+          stopVisible: [...root.querySelectorAll('.metro-cover-stop .metro-station-tick')].every(dot => getComputedStyle(dot).opacity === '1'),
           trainsHidden: [...root.querySelectorAll('.metro-cover-train')].every(train => getComputedStyle(train).opacity === '0'),
           animations: root.getAnimations({ subtree: true }).filter(animation => animation.animationName?.startsWith('cvedi-')).length,
         }
@@ -90,6 +94,12 @@ try {
       assert.ok(report.offsets.length && report.offsets.every(offset => offset === '0px'), `${mode}/${report.title}: complete static paths`)
       assert.ok(report.stationsVisible, `${mode}/${report.title}: static stations visible`)
       assert.equal(report.stops, report.original ? 0 : 1, `${mode}/${report.title}: main stops belong to chapter covers`)
+      assert.equal(report.stationCircles, 0, `${mode}/${report.title}: chapter stations use ticks instead of circles`)
+      if (!report.original) assert.ok(report.ticks >= 3, `${mode}/${report.title}: every route retains its station ticks`)
+      if (report.original || report.chapter) {
+        assert.equal(report.counter, 0, `${mode}/${report.title}: no cover page counter`)
+        assert.equal(report.progress, 0, `${mode}/${report.title}: no cover progress rail`)
+      }
       if (report.original) assert.equal(report.trains, 0, `${mode}/${report.title}: no added journey on the original map`)
       assert.ok(report.stopVisible && report.trainsHidden, `${mode}/${report.title}: static stop remains visible after the train`)
       assert.equal(report.animations, 0, `${mode}/${report.title}: reduced motion and print are static`)

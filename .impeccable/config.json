@@ -373,6 +373,12 @@
         "value": "opensanshebrewcondensed",
         "createdAt": "2026-10-09T14:26:32.428Z",
         "reason": "Agent: historical iLMeteo copy preserves its condensed source typography; redesign typography tokens apply to redesigned pages"
+      },
+      {
+        "rule": "design-system-font",
+        "value": "nunito sans",
+        "createdAt": "2026-10-13T13:28:38.361Z",
+        "reason": "DESIGN.md, sezione Tipografia e spazi: Nunito Sans variabile locale è il font normativo del deck; styles/typography.css lo dichiara nei font-face esistenti."
       }
     ]
   }

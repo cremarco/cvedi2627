@@ -40,18 +40,21 @@ try {
       const train = root.querySelector('.metro-cover-train')
       const style = getComputedStyle(train)
       const head = train.getPointAtLength((parseFloat(style.strokeDasharray) - parseFloat(style.strokeDashoffset)) * train.getTotalLength()).matrixTransform(train.getScreenCTM())
-      const stop = root.querySelector('.metro-stop-disc')
-      const box = stop.getBoundingClientRect(), scale = root.getBoundingClientRect().width / 1280
-      const error = Math.hypot(head.x - (box.left + box.right) / 2, head.y - (box.top + box.bottom) / 2) / scale
-      const diameter = box.width / scale + parseFloat(getComputedStyle(stop).strokeWidth) * stop.getScreenCTM().a / scale
+      const stop = root.querySelector('.metro-cover-stop')
+      const tick = stop.querySelector('.metro-station-tick')
+      const anchor = new DOMPoint(0, 0).matrixTransform(stop.getScreenCTM())
+      const scale = root.getBoundingClientRect().width / 1280
+      const error = Math.hypot(head.x - anchor.x, head.y - anchor.y) / scale
+      const length = tick.getTotalLength(), width = parseFloat(getComputedStyle(tick).strokeWidth)
       const visible = Number(style.opacity) > .9
       journey.play()
-      return { missingJourney: false, error, diameter, visible, stops: root.querySelectorAll('.metro-cover-stop').length }
+      return { missingJourney: false, error, length, width, visible, stops: root.querySelectorAll('.metro-cover-stop').length }
     })
     assert.equal(report.missingJourney, false, 'a segment travels to the main stop')
     assert.equal(report.stops, 1, 'one main stop per cover')
     assert.ok(report.visible && report.error < 1, `the visible segment reaches the stop (${report.error}px)`)
-    assert.ok(Math.abs(report.diameter - 56) < 1, `the stop matches the timeline's 56px circle (${report.diameter}px)`)
+    assert.equal(report.length, 20, 'the main station uses a perpendicular tick proportional to the track')
+    assert.equal(report.width, 10, 'station ticks share the cover stroke width')
   }
   async function assertStaticMap() {
     assert.equal(await active().evaluate(root => root.classList.contains('motion-enabled')), false)
@@ -72,7 +75,7 @@ try {
     })
     const entries = await animations()
     assert.equal(entries.filter(animation => animation.name === 'cvedi-metro-journey').length, 1, `${fixture.title}: one finite journey`)
-    assert.equal(entries.filter(animation => animation.name === 'cvedi-metro-arrival').length, expectedStations, `${fixture.title}: one pulse per station`)
+    assert.equal(entries.filter(animation => animation.name === 'cvedi-cover-arrival').length, expectedStations, `${fixture.title}: one highlight per station`)
     assert.ok(entries.every(animation => animation.iterations === 1 && animation.duration + animation.delay <= 800), `${fixture.title}: the timeline settles within 800 ms`)
     const report = await active().evaluate(async root => {
       const timeline = root.querySelector('.cvedi-metro-timeline')
@@ -81,7 +84,7 @@ try {
       const journey = timeline.getAnimations({ subtree: true }).find(animation => animation.animationName === 'cvedi-metro-journey')
       const scale = root.getBoundingClientRect().width / 1280
       const timing = journey.effect.getTiming()
-      const labels = [...timeline.querySelectorAll('.timeline-title, .timeline-detail')]
+      const labels = [...timeline.querySelectorAll('.timeline-number, .timeline-title, .timeline-detail')]
       const isSteady = element => {
         const style = getComputedStyle(element)
         return style.opacity === '1' && style.transform === 'none' && style.filter === 'none' && style.animationName === 'none'
@@ -96,10 +99,12 @@ try {
         const headProgress = parseFloat(style.strokeDasharray) - parseFloat(style.strokeDashoffset)
         const head = train.getPointAtLength(headProgress * train.getTotalLength()).matrixTransform(train.getScreenCTM())
         const box = station.getBoundingClientRect()
+        const anchor = station.closest('.timeline-middle').getBoundingClientRect()
         arrivals.push({
           delay,
-          error: Math.hypot(head.x - (box.left + box.right) / 2, head.y - (box.top + box.bottom) / 2) / scale,
-          diameter: box.width / scale,
+          error: Math.hypot(head.x - (anchor.left + anchor.right) / 2, head.y - (anchor.top + anchor.bottom) / 2) / scale,
+          width: box.width / scale,
+          length: box.height / scale,
           visible: Number(style.opacity) > .9,
           steady: stations.every(isSteady) && labels.every(isSteady),
         })
@@ -113,7 +118,7 @@ try {
     assert.equal(report.duration, 800, `${fixture.title}: the shared journey duration is preserved`)
     for (const [index, arrival] of report.arrivals.entries()) {
       assert.ok(arrival.visible && arrival.error < 1, `${fixture.title}: segment head reaches station ${index + 1} at its pulse (${arrival.error}px)`)
-      assert.ok(Math.abs(arrival.diameter - 56) < 1, `${fixture.title}: station ${index + 1} retains its 56px circle`)
+      assert.ok(Math.abs(arrival.width - 10) < 1 && Math.abs(arrival.length - 20) < 1, `${fixture.title}: station ${index + 1} uses a 10 × 20px tick`)
       assert.ok(arrival.steady, `${fixture.title}: labels and station numbers remain fixed during the journey`)
     }
     assert.ok(report.arrivals.every((arrival, index) => index === 0 || arrival.delay > report.arrivals[index - 1].delay), `${fixture.title}: station arrivals follow reading order`)
@@ -125,7 +130,7 @@ try {
     const report = await active().evaluate(root => {
       const timeline = root.querySelector('.cvedi-metro-timeline')
       const stations = [...timeline.querySelectorAll('.metro-station')]
-      const labels = [...timeline.querySelectorAll('.timeline-title, .timeline-detail')]
+      const labels = [...timeline.querySelectorAll('.timeline-number, .timeline-title, .timeline-detail')]
       const isVisible = element => {
         const style = getComputedStyle(element)
         return style.opacity === '1' && style.display !== 'none' && style.visibility === 'visible' && style.transform === 'none'
@@ -141,7 +146,7 @@ try {
     })
     assert.equal(report.stations, expectedStations, `${fixture.title}: all static stations remain present`)
     assert.equal(report.titles, expectedStations, `${fixture.title}: all static titles remain present`)
-    assert.ok(report.visible && report.pulsesHidden, `${fixture.title}: complete static labels and circles without arrival pulses`)
+    assert.ok(report.visible && report.pulsesHidden, `${fixture.title}: complete static numbers, labels and ticks without arrival highlights`)
     assert.deepEqual(report.trains, ['0'], `${fixture.title}: static playback hides the moving segment`)
     assert.ok(report.tracks.length > 0 && report.tracks.every(opacity => opacity === '1'), `${fixture.title}: static playback keeps the full track`)
   }
@@ -180,7 +185,7 @@ try {
     const entries = await animations()
     assert.equal(entries.filter(animation => animation.name === 'cvedi-cover-route').length, 2)
     assert.equal(entries.filter(animation => animation.name === 'cvedi-cover-journey').length, 1)
-    assert.equal(entries.filter(animation => animation.name === 'cvedi-metro-arrival').length, 1)
+    assert.equal(entries.filter(animation => animation.name === 'cvedi-cover-arrival').length, 1)
     assert.ok(entries.every(animation => animation.iterations === 1 && animation.duration + animation.delay <= 900), `${fixture.title}: bounded cover entrance`)
     await assertStopArrival()
     await settle()
@@ -190,7 +195,7 @@ try {
       enabled: root.classList.contains('motion-enabled'),
       offsets: [...root.querySelectorAll('.metro-route-reveal')].map(path => getComputedStyle(path).strokeDashoffset),
       stations: [...root.querySelectorAll('.metro-cover-station')].map(dot => getComputedStyle(dot).opacity),
-      stopVisible: getComputedStyle(root.querySelector('.metro-stop-disc')).opacity,
+      stopVisible: getComputedStyle(root.querySelector('.metro-cover-stop .metro-station-tick')).opacity,
       trainHidden: getComputedStyle(root.querySelector('.metro-cover-train')).opacity,
     }))
     assert.equal(staticCover.enabled, false)
@@ -199,7 +204,7 @@ try {
     assert.equal(staticCover.trainHidden, '0')
     await page.emulateMedia({ reducedMotion: 'no-preference' })
   }
-  checks.push('chapter and closing cover segments reach their 56px stops, with one arrival pulse and a complete reduced-motion alternative')
+  checks.push('chapter and closing segments reach their station ticks, with one brief highlight and a complete reduced-motion alternative')
 
   const timelineFixtures = deck.slides.filter(slide => slide.content.includes('<ProcessTimeline'))
   const timelineCounts = [4, 4, 3, 5, 5, 4, 5]

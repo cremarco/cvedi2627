@@ -162,11 +162,9 @@
 .slidev-layout.default .chapter-metro-line--accent { --cvedi-metro-lane: 3px; --cvedi-metro-divider: 0px; --metro-track-color: var(--chapter-cover-accent); }
 .chapter-metro-route .metro-route-reveal { stroke-width: calc(2 * var(--cvedi-metro-lane) + var(--cvedi-metro-divider) + 2px); stroke-dasharray: 1 1; stroke-dashoffset: 0; }
 .metro-cover-station { transform-box: fill-box; transform-origin: center; }
-.metro-station-disc { fill: var(--chapter-cover-color); stroke: var(--chapter-cover-accent); stroke-width: 3px; }
-.metro-station-core { fill: var(--chapter-cover-accent); stroke: none; }
-.metro-stop-disc { fill: var(--chapter-cover-accent); stroke: white; stroke-width: 4px; }
-.metro-stop-core { fill: var(--chapter-cover-color); stroke: none; }
-.metro-stop-arrival { fill: none; stroke: var(--chapter-cover-accent); stroke-width: 2px; opacity: 0; transform-box: fill-box; transform-origin: center; }
+.metro-station-tick { fill: none; stroke: var(--chapter-cover-accent); stroke-width: 10px; stroke-linecap: butt; }
+.metro-cover-stations--accent .metro-station-tick { stroke-width: 6px; }
+.metro-stop-arrival { fill: none; stroke: var(--color-primary-content); stroke-width: 10px; stroke-linecap: butt; opacity: 0; }
 :is(.cvedi-metro-route, .closing-metro-map) .metro-cover-train { stroke: var(--chapter-cover-accent); stroke-width: 8px; stroke-dasharray: .06 1.1; stroke-dashoffset: .06; }
 .slidev-layout.default.chapter-slide .slide-footer { inset: auto 68px 32px; color: white; font: 500 16px/1.2 var(--cvedi-font-display); }
 .slidev-layout.default.chapter-slide .slide-label { letter-spacing: .12em; font-weight: 700; }
@@ -312,8 +310,9 @@
 /* Process timelines inherit the same primary/accent pair as their lesson. */
 .slidev-layout.default .cvedi-metro-timeline { --metro-track-color: var(--section-primary); --metro-divider-color: var(--cvedi-paper); }
 .slidev-layout.default .cvedi-metro-timeline .metro-train { stroke: var(--section-accent-soft); }
-.slidev-layout.default .cvedi-process-timeline .metro-station { background: var(--section-accent-soft); color: var(--section-primary-deep); }
-.slidev-layout.default .cvedi-process-timeline .metro-station::after { border-color: var(--section-accent); }
+.slidev-layout.default .cvedi-process-timeline .metro-station { background: var(--section-primary); }
+.slidev-layout.default .cvedi-process-timeline .timeline-number { color: var(--section-primary-deep); }
+.slidev-layout.default .cvedi-process-timeline .metro-station::after { background: var(--section-accent); }
 .slidev-layout.default .ux-process-route { stroke: var(--section-primary); }
 .slidev-layout.default .ux-process-map .ux-nucleus-number { background: var(--section-accent-soft); color: var(--section-accent); }
 .slidev-layout.default .ux-process-map .card-title { color: var(--theme-ink); font-weight: 600; }

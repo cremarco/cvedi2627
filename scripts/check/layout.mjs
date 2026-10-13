@@ -73,18 +73,22 @@ try {
       const timelines = [...root.querySelectorAll('.cvedi-metro-timeline')].map(timeline => {
         const canvas = root.getBoundingClientRect(), footer = root.querySelector('.slide-footer').getBoundingClientRect()
         const boxes = [...timeline.querySelectorAll('.cvedi-process-timeline li')].map(li => li.getBoundingClientRect())
-        const circles = [...timeline.querySelectorAll('.metro-station')].map(el => el.getBoundingClientRect())
+        const ticks = [...timeline.querySelectorAll('.metro-station')].map(el => el.getBoundingClientRect())
+        const numbers = [...timeline.querySelectorAll('.timeline-number')].map(el => el.getBoundingClientRect())
         const copies = [...timeline.querySelectorAll('.timeline-end')].map(el => el.getBoundingClientRect())
-        return { count: circles.length, circles: circles.map(rect => ({ width: rect.width / scale, height: rect.height / scale, y: (rect.top + rect.bottom) / (2 * scale) })),
+        return { count: ticks.length, ticks: ticks.map(rect => ({ width: rect.width / scale, height: rect.height / scale, y: (rect.top + rect.bottom) / (2 * scale) })),
+          numbers: numbers.length,
+          numbersAboveTrack: numbers.every((rect, i) => rect.bottom <= ticks[i].top - 30 * scale && rect.top >= canvas.top),
           equalColumns: boxes.every(box => Math.abs(box.width - boxes[0].width) / scale < 1),
-          fits: copies.every((rect, i) => rect.left >= boxes[i].left - 1 && rect.right <= boxes[i].right + 1 && rect.top >= circles[i].bottom && rect.bottom <= footer.top - 12 * scale + 1 && rect.left >= canvas.left && rect.right <= canvas.right + 1),
+          fits: copies.every((rect, i) => rect.left >= boxes[i].left - 1 && rect.right <= boxes[i].right + 1 && rect.top >= ticks[i].bottom && rect.bottom <= footer.top - 12 * scale + 1 && rect.left >= canvas.left && rect.right <= canvas.right + 1),
           label: timeline.querySelector('ul').getAttribute('aria-label') }
       })
       return { rows, captions, readingOrder, formulaAlignment, cardMotifs, timelines }
     })
     for (const timeline of report.timelines) {
       assert.ok(timeline.count >= 3 && timeline.count <= 5 && timeline.equalColumns && timeline.fits && timeline.label, `slide ${slide.index + 1}: timeline columns and copy fit`)
-      assert.ok(timeline.circles.every(circle => Math.abs(circle.width - 56) < 1 && Math.abs(circle.height - 56) < 1 && Math.abs(circle.y - timeline.circles[0].y) < 1), `slide ${slide.index + 1}: shared 56px station baseline`)
+      assert.ok(timeline.ticks.every(tick => Math.abs(tick.width - 10) < 1 && Math.abs(tick.height - 20) < 1 && Math.abs(tick.y - timeline.ticks[0].y) < 1), `slide ${slide.index + 1}: shared station tick baseline`)
+      assert.ok(timeline.numbers === timeline.count && timeline.numbersAboveTrack, `slide ${slide.index + 1}: phase numbers remain above the track`)
     }
     for (const delta of report.rows) assert.ok(delta < 1, `slide ${slide.index + 1}: explanations start on a common row (${delta}px)`)
     for (const gap of report.captions) assert.ok(Math.abs(gap - 12) <= 2, `slide ${slide.index + 1}: caption follows actual image (${gap}px)`)

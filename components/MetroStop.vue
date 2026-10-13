@@ -2,16 +2,17 @@
 withDefaults(defineProps<{
   x: number
   y: number
-  radius?: number
+  rotation?: number
+  offset?: number
+  length?: number
   arrivalDelay?: number
-}>(), { radius: 26, arrivalDelay: 620 })
+}>(), { rotation: 0, offset: 11, length: 20, arrivalDelay: 620 })
 </script>
 
 <template>
-  <g class="metro-cover-stop" :transform="`translate(${x} ${y})`"
+  <g class="metro-cover-stop" :transform="`translate(${x} ${y}) rotate(${rotation})`"
     :style="{ '--stop-arrival-delay': `${arrivalDelay}ms` }">
-    <circle class="metro-stop-arrival" :r="radius + 2" />
-    <circle class="metro-stop-disc" :r="radius" />
-    <circle class="metro-stop-core" r="7" />
+    <line class="metro-station-tick" x1="0" :y1="offset" x2="0" :y2="offset + length" />
+    <line class="metro-stop-arrival" x1="0" :y1="offset" x2="0" :y2="offset + length" />
   </g>
 </template>

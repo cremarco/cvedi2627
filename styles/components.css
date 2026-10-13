@@ -219,26 +219,32 @@
 .cvedi-process-timeline .timeline-middle {
   padding: 0;
 }
-.cvedi-process-timeline .metro-station {
-  position: relative;
-  width: 56px;
-  height: 56px;
-  border: 4px solid var(--cvedi-paper);
-  border-radius: 50%;
+.cvedi-process-timeline .timeline-start {
+  margin: 0;
   font: 700 18px/1 var(--cvedi-font-display);
 }
-.metro-station::after {
+.cvedi-process-timeline .timeline-number { display: block; }
+.cvedi-process-timeline .metro-station {
+  display: block;
+  position: relative;
+  top: 23px;
+  width: 10px;
+  height: 20px;
+  border: 0;
+  border-radius: 0;
+}
+.cvedi-process-timeline .metro-station::after {
   content: '';
   position: absolute;
-  inset: -4px;
-  border: 2px solid var(--slide-detail-accent);
-  border-radius: inherit;
+  inset: 0;
+  background: var(--slide-detail-accent);
   opacity: 0;
   pointer-events: none;
 }
 .cvedi-process-timeline .timeline-end {
   max-width: 270px;
-  padding: 16px 12px 0;
+  margin: 8px 4px 4px;
+  padding: 12px 12px 0;
   color: var(--cvedi-body);
   font: 600 20px/1.3 var(--cvedi-font-display);
   text-align: center;
