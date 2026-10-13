@@ -32,7 +32,7 @@
       "bytes": 140546,
       "sha256": "8106b0fb5adf10ff42b1903fd0b00645ef2df4d1ed3e868b9161cda152847180",
       "imageHash": "54cb6a43ca87c9c6d36e975d3d4d84459cb8fb5f",
-      "figmaNodeId": "I3412:692;3165:593;3412:711",
+      "figmaNodeId": "3501:2299",
       "figmaSize": [
         362.0377502441406,
         195
@@ -40,7 +40,15 @@
       "sourcePdf": "materiali/lezioni/2025-2026/05-processo-ux-gestalt-storia-interfacce.pdf",
       "pdfPage": 60,
       "captureDate": null,
-      "rights": "Original figure or historical screenshot preserved in the course material; no new license inferred"
+      "rights": "Original figure or historical screenshot preserved in the course material; no new license inferred",
+      "historicalRasterNodeId": "I3412:692;3165:593;3412:711",
+      "active": false,
+      "replacedByNativeScheme": {
+        "instanceId": "I3412:692;3165:593;3495:2244",
+        "masterId": "3486:5829",
+        "key": "closure-arcs"
+      },
+      "originalArchiveId": "3501:2298"
     },
     {
       "key": "web-prossimita",
@@ -48,7 +56,7 @@
       "bytes": 209862,
       "sha256": "02c4e0a8e5ce5841fd13e55f116a5aa92d30d8e2697a48a5b5858f4374d615f7",
       "imageHash": "e8b01af2d72f22a3320d71b85a6dbd92e35d5819",
-      "figmaNodeId": "I3415:805;3165:593;3415:824",
+      "figmaNodeId": "3501:2301",
       "figmaSize": [
         302.40740966796875,
         230
@@ -56,7 +64,15 @@
       "sourcePdf": "materiali/lezioni/2025-2026/05-processo-ux-gestalt-storia-interfacce.pdf",
       "pdfPage": 46,
       "captureDate": null,
-      "rights": "Original figure or historical screenshot preserved in the course material; no new license inferred"
+      "rights": "Original figure or historical screenshot preserved in the course material; no new license inferred",
+      "historicalRasterNodeId": "I3415:805;3165:593;3415:824",
+      "active": false,
+      "replacedByNativeScheme": {
+        "instanceId": "I3415:805;3165:593;3495:2281",
+        "masterId": "3486:5830",
+        "key": "text-blocks"
+      },
+      "originalArchiveId": "3501:2300"
     },
     {
       "key": "web-govuk",
@@ -452,7 +468,7 @@
       "bytes": 152121,
       "sha256": "eba8a7e0ac1ecc09693d05d54c913785da0a1444f120109a50101407851026ac",
       "imageHash": "a94b7d3f85403dc2b5ee38d944b0d447351a5919",
-      "figmaNodeId": "I3467:1424;3165:593;3467:1451",
+      "figmaNodeId": "3501:2303",
       "figmaSize": [
         171.5,
         80.28941345214844
@@ -467,7 +483,15 @@
       "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p317-001.png",
       "scaleMode": "FIT",
       "captureDate": null,
-      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta.",
+      "historicalRasterNodeId": "I3467:1424;3165:593;3467:1451",
+      "active": false,
+      "replacedByNativeScheme": {
+        "instanceId": "I3467:1424;3165:593;3494:1780",
+        "masterId": "3486:5831",
+        "key": "legacy-proximity"
+      },
+      "originalArchiveId": "3501:2302"
     },
     {
       "key": "booklet-2024-proxima-logo",
@@ -521,7 +545,7 @@
       "bytes": 163171,
       "sha256": "9b1fbeb90ac04670d50b65af8f2c75b05740a1507fa0fa300149f7abde2eee00",
       "imageHash": "be69d8ae9abe505a160885803c96392e0a24a7c4",
-      "figmaNodeId": "I3467:1565;3165:593;3467:1587",
+      "figmaNodeId": "3501:2305",
       "figmaSize": [
         155.73770141601562,
         95
@@ -536,7 +560,15 @@
       "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p322-001.png",
       "scaleMode": "FIT",
       "captureDate": null,
-      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta.",
+      "historicalRasterNodeId": "I3467:1565;3165:593;3467:1587",
+      "active": false,
+      "replacedByNativeScheme": {
+        "instanceId": "I3467:1565;3165:593;3495:2400",
+        "masterId": "3486:5832",
+        "key": "legacy-similarity"
+      },
+      "originalArchiveId": "3501:2304"
     },
     {
       "key": "booklet-2024-bee-logo",
@@ -567,7 +599,7 @@
       "bytes": 203784,
       "sha256": "532a3223c7cb7004978e67b614e8c31d22ba903e0fb33e2bf1ff742c6bce4b2d",
       "imageHash": "41a06edb733641bcc9fb8f5c119a5f57c985313d",
-      "figmaNodeId": "I3467:1680;3165:593;3467:1697",
+      "figmaNodeId": "3501:2307",
       "figmaSize": [
         157.03875732421875,
         80.07853698730469
@@ -582,7 +614,15 @@
       "mask": null,
       "scaleMode": "FIT",
       "captureDate": null,
-      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta.",
+      "historicalRasterNodeId": "I3467:1680;3165:593;3467:1697",
+      "active": false,
+      "replacedByNativeScheme": {
+        "instanceId": "I3467:1680;3165:593;3495:2517",
+        "masterId": "3486:5833",
+        "key": "legacy-region"
+      },
+      "originalArchiveId": "3501:2306"
     },
     {
       "key": "booklet-2024-meta",
@@ -659,7 +699,7 @@
       "bytes": 53533,
       "sha256": "bf553719e53c82ba3b9c38aa2ae418aab3461f50040d962717c4d0de1c30c2f5",
       "imageHash": "33f6ae86db6e8176827eaf3df883257f1b7f47a6",
-      "figmaNodeId": "I3467:1905;3165:593;3467:1921",
+      "figmaNodeId": "3501:2309",
       "figmaSize": [
         219.95370483398438,
         68.92948150634766
@@ -674,7 +714,15 @@
       "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p328-003.png",
       "scaleMode": "FIT",
       "captureDate": null,
-      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta.",
+      "historicalRasterNodeId": "I3467:1905;3165:593;3467:1921",
+      "active": false,
+      "replacedByNativeScheme": {
+        "instanceId": "I3467:1905;3165:593;3495:2564",
+        "masterId": "3486:5834",
+        "key": "legacy-continuity"
+      },
+      "originalArchiveId": "3501:2308"
     },
     {
       "key": "booklet-2024-minard-map",
@@ -728,7 +776,7 @@
       "bytes": 614925,
       "sha256": "c77443640faaa3495eea1b6b71913c43f393814ed02b9f645358e259d43ae786",
       "imageHash": "ad50435e8ee8380dde77dfbdce7c5f63090674b2",
-      "figmaNodeId": "I3467:2028;3165:593;3467:2050",
+      "figmaNodeId": "3501:2311",
       "figmaSize": [
         171.5,
         79.7356185913086
@@ -743,7 +791,15 @@
       "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p342-001.png",
       "scaleMode": "FIT",
       "captureDate": null,
-      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta.",
+      "historicalRasterNodeId": "I3467:2028;3165:593;3467:2050",
+      "active": false,
+      "replacedByNativeScheme": {
+        "instanceId": "I3467:2028;3165:593;3495:2668",
+        "masterId": "3486:5835",
+        "key": "legacy-figureground"
+      },
+      "originalArchiveId": "3501:2310"
     },
     {
       "key": "booklet-2024-rai",
@@ -1702,5 +1758,6 @@
   "originalsRetained": true,
   "studentWorkProvenance": "Original student materials remain in materiali/approfondimenti; their references are omitted from the Figma booklet in accordance with PRODUCT.md",
   "verification": "reports/percezione-linguaggio-visivo/verifica.json",
-  "latestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json"
+  "latestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json",
+  "nativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json"
 }

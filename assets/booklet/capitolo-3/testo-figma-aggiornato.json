@@ -10747,7 +10747,8 @@
     "perceptionRevisionManifest": "assets/booklet/percezione-linguaggio-visivo/manifest.json",
     "perceptionVerification": "reports/percezione-linguaggio-visivo/verifica.json",
     "ordinalShiftRulesStatus": "Le regole conservate descrivono lo snapshot storico. figmaPages[].sourceOrdinalMap e currentBoardSequence sono i riferimenti correnti dopo le inserzioni in C03.05.",
-    "perceptionLatestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json"
+    "perceptionLatestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json",
+    "perceptionNativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json"
   },
   "addedOpeningBoards": [
     {
@@ -12124,6 +12125,8 @@
     "pagination": "reports/percezione-linguaggio-visivo/verifica.json",
     "latestInsertionBefore": 364,
     "latestInsertionAddedBoards": 8,
-    "latestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json"
+    "latestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json",
+    "nativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json",
+    "nativeSchemeCount": 16
   }
 }
