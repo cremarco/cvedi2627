@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import AcronymText from './AcronymText.vue'
 import { computed, onMounted, ref, watch } from 'vue'
 import MetroTrack from './MetroTrack.vue'
 
@@ -54,8 +55,8 @@ watch(route, measureArrivals, { flush: 'post' })
           <span class="badge badge-accent metro-station">{{ String(index + 1).padStart(2, '0') }}</span>
         </div>
         <div class="timeline-end">
-          <span class="timeline-title">{{ step.title }}</span>
-          <span v-if="step.detail" class="timeline-detail">{{ step.detail }}</span>
+          <span class="timeline-title"><AcronymText :text="step.title" /></span>
+          <span v-if="step.detail" class="timeline-detail"><AcronymText :text="step.detail" /></span>
         </div>
         <hr v-if="index < entries.length - 1" aria-hidden="true" />
       </li>

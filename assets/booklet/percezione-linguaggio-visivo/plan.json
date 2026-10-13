@@ -1,0 +1,449 @@
+{
+  "schema": "cvedi-perception-revision/1",
+  "date": "2026-10-13",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1112",
+  "sectionId": "204:8297",
+  "newBoards": [
+    {
+      "key": "chiusura-confronto",
+      "title": "Chiusura: osservare il raggruppamento",
+      "side": "DX",
+      "lead": "La forma che emerge dipende da come gli elementi si organizzano nella configurazione.¹",
+      "figures": [
+        {
+          "file": "figures/lezione-05-p060-image-01.png",
+          "caption": "Archi accostati: possiamo percepire semicerchi senza vedere cerchi completi.",
+          "maxHeight": 195
+        }
+      ],
+      "body": "Nel confronto della figura {FIG1}, gli archi possono appartenere a semicerchi oppure a colonne dai bordi ricurvi. La disposizione favorisce la prima organizzazione. Il fatto che una figura tenda alla chiusura non implica che tutti i suoi margini mancanti diventino visibili.\n\nLa chiusura può cooperare o competere con la buona continuazione e con altri fattori. Per spiegare un esempio occorre individuare quali relazioni sono presenti, evitando di attribuire ogni forma riconoscibile a un solo principio.",
+      "sources": [
+        {
+          "label": "Max Wertheimer, 1923, Untersuchungen zur Lehre von der Gestalt II. Traduzione in Ellis, 1938",
+          "url": "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm"
+        },
+        {
+          "label": "Schema conservato nel materiale didattico CVeDI 2025/26, lezione 5, PDF p. 60. Originale e provenienza conservati",
+          "url": null
+        }
+      ]
+    },
+    {
+      "key": "completamento-modale",
+      "title": "Contorni illusori e figure anomale",
+      "side": "SX",
+      "lead": "Alcune configurazioni producono l’impressione di contorni e superfici che non sono tracciati nello stimolo.¹",
+      "diagram": "modal",
+      "body": "Nella figura {FIG1}, i tre dischi incompleti sono disposti come nella configurazione di Kanizsa. Può apparire un triangolo chiaro davanti ai dischi, anche se i suoi lati non sono disegnati. I margini percepiti tra i dischi sono detti contorni illusori; questo è un esempio classico di completamento modale.\n\nÈ utile confrontare ciò che è materialmente disegnato con ciò che appare. Ruotare o separare gli elementi induttori può modificare l’effetto. Una superficie suggerita dallo spazio negativo di un marchio non va classificata automaticamente nello stesso modo.",
+      "sources": [
+        {
+          "label": "Thielen et al., 2019, Neuroimaging Findings on Amodal Completion: A Review. Figura 1, configurazione di Kanizsa; schema didattico ridisegnato",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6457032/"
+        }
+      ]
+    },
+    {
+      "key": "completamento-amodale",
+      "title": "Un oggetto dietro un ostacolo",
+      "side": "DX",
+      "lead": "Un oggetto parzialmente coperto può essere percepito come continuo, mentre la sua parte nascosta non è visibile.¹",
+      "diagram": "amodal",
+      "body": "Il completamento amodale riguarda le parti occluse di un oggetto. Nella figura {FIG1}, la superficie rossa suggerisce che i frammenti neri appartengano a una forma che continua dietro di essa. La parte centrale non assume l’aspetto di un contorno direttamente visibile.\n\nNel web, un pannello che copre una foto o una scheda tagliata dal bordo di un’area scorrevole possono offrire situazioni di occlusione. Il frammento visibile può suggerire che esista altro contenuto; la sua reperibilità richiede comunque comandi e segnali comprensibili.\n\nChiusura, completamento e invito a scorrere descrivono aspetti diversi dell’esempio.",
+      "sources": [
+        {
+          "label": "Thielen et al., 2019, Neuroimaging Findings on Amodal Completion: A Review. Schema didattico originale",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6457032/"
+        }
+      ]
+    },
+    {
+      "key": "spazio-negativo",
+      "title": "Spazio negativo e riconoscimento",
+      "side": "SX",
+      "lead": "La campagna Coca-Cola a fronte permette di discutere come contorno, spazio negativo e familiarità concorrano alla lettura di un’immagine.",
+      "sections": [
+        {
+          "title": "Attribuire un contorno",
+          "body": "Le silhouette bianche delimitano uno spazio rosso centrale. Il medesimo margine partecipa alla forma delle persone e alla sagoma che riconosciamo fra esse. La relazione figura-sfondo riguarda l’attribuzione percettiva di quel margine e delle superfici che separa.¹"
+        },
+        {
+          "title": "Riconoscere una forma familiare",
+          "body": "La sagoma centrale richiama la bottiglia del marchio. La familiarità con quella forma contribuisce al riconoscimento: uno spazio vuoto può diventare portatore di significato nella composizione. Questo esempio non dimostra che il sistema visivo chiuda automaticamente ogni contorno incompleto."
+        },
+        {
+          "title": "Descrivere ciò che osserviamo",
+          "body": "Prima individuiamo le superfici e i contorni presenti; poi discutiamo ciò che viene riconosciuto. Le applicazioni nel web richiedono un ulteriore passaggio: valutare se la relazione visiva aiuta a trovare un contenuto o un comando."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Wagemans et al., 2012, A Century of Gestalt Psychology in Visual Perception I: Perceptual Grouping and Figure–Ground Organization",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/22845751/"
+        }
+      ]
+    },
+    {
+      "key": "web-prossimita",
+      "title": "Vicinanza: leggere un catalogo",
+      "side": "SX",
+      "lead": "Il titolo di una riga e le immagini raccolte sotto di esso suggeriscono una relazione di contenuto.",
+      "figures": [
+        {
+          "file": "figures/lezione-05-p046-image-01.png",
+          "caption": "Titoli, paragrafi e link compongono quattro blocchi di lettura.",
+          "maxHeight": 230
+        }
+      ],
+      "body": "Nella figura {FIG1}, titolo, paragrafo e link sono più vicini fra loro che ai contenuti del blocco successivo. La distanza separa quattro unità di lettura.\n\nIl raggruppamento dovrebbe rispecchiare la relazione dei contenuti. Quali elementi si leggono insieme? Che cosa cambia se il link viene allontanato dal proprio paragrafo?",
+      "sources": [
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 46. Figura storica di quattro blocchi di testo; fonte grafica e data di acquisizione non identificate nel PDF",
+          "url": null
+        }
+      ]
+    },
+    {
+      "key": "web-govuk",
+      "title": "Vicinanza: etichetta e campo",
+      "side": "DX",
+      "lead": "Un’etichetta deve essere riconoscibile come parte della domanda a cui il campo permette di rispondere.¹",
+      "figures": [
+        {
+          "file": "web/govuk-etichetta.jpg",
+          "caption": "GOV.UK: domanda, suggerimento e campo nello stesso gruppo.",
+          "maxHeight": 85
+        }
+      ],
+      "diagram": "proximity",
+      "body": "Lo screenshot della figura {FIG1} mostra una domanda sopra il campo e un suggerimento vicino alla risposta attesa. Il confronto didattico della figura {FIG2} modifica soltanto le distanze tra due coppie etichetta–campo.\n\nLa vicinanza visiva va accompagnata da un’associazione semantica corretta fra etichetta e controllo. Verifica se una persona comprende a quale campo appartiene ogni domanda, anche quando il modulo contiene più voci.",
+      "sources": [
+        {
+          "label": "GOV.UK Design System, Text input / Hint text. Screenshot del 13 ottobre 2026; Open Government Licence v3.0, salvo indicazioni diverse. Confronto didattico originale",
+          "url": "https://design-system.service.gov.uk/components/text-input/input-hint-text/"
+        }
+      ]
+    },
+    {
+      "key": "web-somiglianza",
+      "title": "Somiglianza: prodotti e attività",
+      "side": "SX",
+      "lead": "Una struttura ripetuta può suggerire che contenuti diversi appartengano alla stessa famiglia.",
+      "figures": [
+        {
+          "file": "originals/lezione-05-p051-image-01.jpg",
+          "caption": "eBay: immagini e informazioni ripetute nel catalogo.",
+          "maxHeight": 235
+        }
+      ],
+      "body": "Nella figura {FIG1}, dimensioni e disposizione ricorrenti aiutano a confrontare elementi dello stesso tipo. L’immagine di un prodotto, il nome e le informazioni formano una struttura familiare.\n\nElementi che si somigliano dovrebbero comunicare ruoli compatibili. La grafica di un comando e quella di un testo decorativo possono creare aspettative diverse da verificare.",
+      "sources": [
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 51. Screenshot storico; data di acquisizione non registrata. eBay e rispettivi titolari",
+          "url": null
+        }
+      ]
+    },
+    {
+      "key": "web-regione",
+      "title": "Regione comune: separare le sezioni",
+      "side": "DX",
+      "lead": "Una superficie delimitata può suggerire che i contenuti raccolti al suo interno appartengano a un gruppo.¹",
+      "figures": [
+        {
+          "file": "figures/lezione-05-p067-image-01.png",
+          "caption": "WDNN.dev: due aree distinguono due proposte.",
+          "maxHeight": 230
+        }
+      ],
+      "body": "Nella figura {FIG1}, le aree delimitate distinguono due proposte. Titolo, contenuti e comando di ciascuna proposta condividono la stessa regione.¹\n\nIl contenitore dovrebbe corrispondere a una relazione significativa. Aggiungere riquadri a ogni elemento può rendere più difficile riconoscere i gruppi principali. Verifica quali contenuti vengono associati al comando presente nella regione.",
+      "sources": [
+        {
+          "label": "Stephen E. Palmer, 1992, Common region: A new principle of perceptual grouping, Cognitive Psychology 24(3), 436–447",
+          "url": "https://doi.org/10.1016/0010-0285(92)90014-S"
+        },
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 67. Screenshot storico; data di acquisizione non registrata. WDNN.dev e rispettivi titolari",
+          "url": null
+        }
+      ]
+    },
+    {
+      "key": "web-movimento",
+      "title": "Destino comune: seguire un gruppo",
+      "side": "SX",
+      "lead": "Il movimento solidale rende riconoscibile un gruppo quando gli elementi si spostano insieme nella stessa direzione.¹",
+      "diagram": "motion",
+      "body": "Nella figura {FIG1}, i punti rossi mantengono distanze e disposizione mentre si spostano; quelli grigi restano fermi. Lo spostamento condiviso suggerisce un gruppo.\n\nPer applicare il confronto a un menu o a un pannello web occorre osservare la transizione. Una sequenza permette di confrontare direzione, velocità e relazioni fra gli elementi. Uno screenshot singolo documenta invece soltanto la composizione in un istante.",
+      "sources": [
+        {
+          "label": "Max Wertheimer, 1923, fattore del destino comune. Sequenza didattica originale; movimento rappresentato attraverso tre stati",
+          "url": "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm"
+        }
+      ]
+    },
+    {
+      "key": "web-apple",
+      "title": "Coerenza: confrontare le alternative",
+      "side": "DX",
+      "lead": "Foto, titoli, informazioni e azioni ripetono una struttura che permette di leggere le alternative nello stesso ordine.",
+      "figures": [
+        {
+          "file": "web/apple-lineup.jpg",
+          "caption": "Apple Watch: tre alternative nella stessa struttura di confronto.",
+          "maxHeight": 230
+        }
+      ],
+      "body": "Nella figura {FIG1}, le immagini hanno dimensioni confrontabili, i nomi seguono lo stesso trattamento e le azioni ricorrono sotto le informazioni. Somiglianza, vicinanza e allineamento cooperano alla lettura.\n\nLa superficie comune delimita l’area del confronto; la distanza separa i singoli prodotti. È utile descrivere questi fattori insieme, senza attribuire l’intera pagina a un unico principio.\n\nVerifica quale modello viene associato a una descrizione e quale comando agisce su di esso.",
+      "sources": [
+        {
+          "label": "Apple, pagina Apple Watch. Screenshot del 13 ottobre 2026, versione statunitense. © Apple; osservazione della struttura visiva, senza test di usabilità",
+          "url": "https://www.apple.com/watch/"
+        }
+      ]
+    },
+    {
+      "key": "web-continuita",
+      "title": "Continuità: leggere una sequenza",
+      "side": "SX",
+      "lead": "L’allineamento può rendere riconoscibile un percorso di lettura fra elementi correlati.",
+      "figures": [
+        {
+          "file": "figures/lezione-05-p071-image-01.png",
+          "caption": "Catalogo moda: una riga di prodotti sotto un’immagine di apertura.",
+          "maxHeight": 235
+        }
+      ],
+      "body": "Nella figura {FIG1}, i prodotti seguono una linea orizzontale e ripetono immagine, nome e informazioni. La disposizione suggerisce una sequenza; la ripetizione e la vicinanza sostengono il confronto.\n\nÈ un’applicazione progettuale della continuità, da distinguere dalla dimostrazione percettiva con linee che si incrociano. Lo screenshot non misura il percorso reale degli occhi.\n\nQuali elementi si leggono insieme? Dove il percorso perde continuità quando cambia la larghezza disponibile?",
+      "sources": [
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 71. Screenshot storico di un catalogo moda; data di acquisizione non registrata. Marchi e immagini dei rispettivi titolari",
+          "url": null
+        }
+      ]
+    },
+    {
+      "key": "web-dialogo",
+      "title": "Figura-sfondo: un dialogo in primo piano",
+      "side": "DX",
+      "lead": "Una superficie chiara delimitata e la pagina attenuata separano il compito corrente dal contesto.¹",
+      "figures": [
+        {
+          "file": "web/w3c-dialog.jpg",
+          "caption": "W3C APG: il dialogo di esempio sovrapposto alla pagina.",
+          "maxHeight": 220
+        }
+      ],
+      "body": "Nella figura {FIG1}, il dialogo emerge rispetto al contenuto sottostante grazie a contorno, contrasto e sovrapposizione. La separazione visiva rende riconoscibile il compito corrente.\n\nIl comportamento modale richiede anche la gestione del focus e dell’interazione con lo sfondo. Questi aspetti funzionali si verificano separatamente dalla lettura della composizione.\n\nOsserva dove si trova il focus all’apertura e se, chiudendo il dialogo, torna al comando che lo ha aperto. APG propone un esempio illustrativo, da verificare nel contesto d’uso.",
+      "sources": [
+        {
+          "label": "W3C WAI, ARIA Authoring Practices Guide, Modal Dialog Example. Screenshot del 13 ottobre 2026; licenza permissiva W3C",
+          "url": "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/examples/dialog/"
+        }
+      ]
+    },
+    {
+      "key": "web-convenzioni",
+      "title": "Esperienza: interpretare un feedback",
+      "side": "SX",
+      "lead": "Convenzioni familiari possono contribuire al riconoscimento di ruoli e stati, insieme ai segnali presenti nell’interfaccia.",
+      "figures": [
+        {
+          "file": "figures/lezione-05-p064-image-01.png",
+          "caption": "Modulo storico: campi compilati, errore e testo di spiegazione.",
+          "maxHeight": 180
+        }
+      ],
+      "body": "Nella figura {FIG1}, il rosso richiama una convenzione frequente di errore. Il testo sotto il campo specifica il problema; la posizione lo associa alla risposta da correggere. L’interpretazione dipende dalle convenzioni conosciute e dal contesto.\n\nLa familiarità non sostituisce un’indicazione esplicita: colore, etichetta e spiegazione devono concorrere a rendere comprensibile lo stato.\n\nProva a leggere il feedback senza usare il colore. È chiaro quale campo correggere e perché?",
+      "sources": [
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 64. Screenshot storico; data di acquisizione non registrata. Fonte grafica non identificata nel PDF",
+          "url": null
+        }
+      ]
+    },
+    {
+      "key": "web-panetrita",
+      "title": "Pane&Trita: leggere la navigazione",
+      "side": "DX",
+      "lead": "Un caso reale permette di osservare come più relazioni visive concorrano a separare identità, navigazione e contenuti.",
+      "figures": [
+        {
+          "file": "web/panetrita-header.jpg",
+          "caption": "Pane&Trita: logo e voci di navigazione sulla stessa superficie rossa.",
+          "maxHeight": 90
+        }
+      ],
+      "sections": [
+        {
+          "title": "Osservazione",
+          "body": "Nella figura {FIG1}, Ristoranti, Menù e Manifesto condividono stile e posizione. La vicinanza suggerisce un gruppo di navigazione; la superficie rossa lo distingue dal contenuto sottostante. Il logo assume un peso e un ruolo visivo differenti."
+        },
+        {
+          "title": "Interpretazione progettuale",
+          "body": "Somiglianza, vicinanza e regione comune cooperano. L’immagine permette di formulare un’ipotesi di lettura, mentre la comprensione dei comandi richiede una prova nel compito."
+        },
+        {
+          "title": "Domanda di verifica",
+          "body": "Quale controllo useresti per trovare il menù di un ristorante? Come riconosci le voci della navigazione e come cambia la relazione sul viewport stretto?"
+        }
+      ],
+      "sources": [
+        {
+          "label": "Pane&Trita, homepage. Screenshot del 13 ottobre 2026. © Pane&Trita; osservazione della versione consultata, senza attribuire risultati di test",
+          "url": "https://www.panetrita.it/"
+        }
+      ]
+    },
+    {
+      "key": "web-evidenze",
+      "title": "Che cosa dimostrano gli studi",
+      "side": "SX",
+      "lead": "Una preferenza visiva, una prima impressione e il completamento di un compito misurano aspetti differenti dell’esperienza.",
+      "sections": [
+        {
+          "title": "Prime impressioni",
+          "body": "Möller, Brezing e Unz studiano l’accettazione e la raccomandazione di siti dopo esposizioni di tre secondi. Il lavoro permette di discutere l’organizzazione visiva e la presenza sociale in quel contesto; non costituisce una misura generale della prestazione nei compiti.¹"
+        },
+        {
+          "title": "Scelte osservate nei siti",
+          "body": "Kapllani ed Elmimouni osservano manualmente 60 siti, tra siti molto visitati e candidati ai Webby Awards 2018–2019. Descrivono l’uso di somiglianza, simmetria e chiusura. L’analisi documenta scelte ricorrenti; non dimostra che una singola scelta causi popolarità o maggiore usabilità.²"
+        },
+        {
+          "title": "Dalla fonte alla proposta",
+          "body": "Prima di trasferire un risultato, consideriamo compito, partecipanti, versione dell’interfaccia e misura utilizzata. Gli esempi di questo booklet sono osservazioni e confronti didattici; diventano evidenze d’uso quando sono accompagnati da una prova documentata."
+        }
+      ],
+      "sources": [
+        {
+          "label": "Möller, Brezing e Unz, 2012, What should a corporate website look like?, Behaviour & Information Technology 31(7), 739–751",
+          "url": "https://doi.org/10.1080/0144929X.2011.642893"
+        },
+        {
+          "label": "Kapllani ed Elmimouni, 2020, Gestalt principles in web design, Proceedings of ASIS&T 57(1), e340",
+          "url": "https://doi.org/10.1002/pra2.340"
+        }
+      ]
+    },
+    {
+      "key": "web-prova",
+      "title": "Dal principio alla prova",
+      "side": "DX",
+      "lead": "La relazione visiva suggerita dalla composizione deve essere confrontata con ciò che una persona riesce a capire e a fare.",
+      "sections": [
+        {
+          "title": "Formulare un’ipotesi",
+          "body": "Scegli un compito concreto: trovare un prodotto, associare un’etichetta al campo o riconoscere lo stato di una risposta. Indica quali distanze, forme o delimitazioni potrebbero aiutare il compito."
+        },
+        {
+          "title": "Cambiare una relazione",
+          "body": "Confronta due versioni dello stesso contenuto. Modifica una relazione per volta, per esempio la distanza fra etichetta e campo, conservando testi, dimensioni e funzioni. Nei confronti con più differenze, descrivi i fattori che cambiano senza attribuire il risultato a uno solo."
+        },
+        {
+          "title": "Osservare e rivedere",
+          "body": "Chiedi di svolgere il compito e osserva associazioni errate, esitazioni e richieste di aiuto. Registra il contesto della prova. Le osservazioni alimentano nuove alternative e preparano il lavoro sulla gerarchia visiva della sezione successiva."
+        }
+      ],
+      "sources": [
+        {
+          "label": "W3C WAI, Involving Users in Evaluating Web Accessibility. Attività didattica originale: le osservazioni richiedono contesto e una prova documentata",
+          "url": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        }
+      ]
+    },
+    {
+      "key": "web-netflix",
+      "title": "Netflix: righe di contenuti",
+      "side": "DX",
+      "lead": "La distanza fra titolo e immagini suggerisce quale insieme viene descritto.",
+      "figures": [
+        {
+          "file": "originals/lezione-05-p047-image-01.jp2",
+          "runtime": "figures/lezione-05-p047-image-01.png",
+          "caption": "Netflix: titoli vicini alle rispettive righe di contenuti.",
+          "maxHeight": 265
+        }
+      ],
+      "body": "Nella figura {FIG1}, i titoli identificano righe di contenuti. La distanza fra righe separa gli insiemi, mentre la ripetizione del formato li rende confrontabili.\n\nVicinanza, somiglianza e allineamento cooperano. Quale titolo appartiene a una riga? Osserva la relazione senza usare soltanto il colore.",
+      "sources": [
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 47. Screenshot storico; data di acquisizione non registrata. Netflix e rispettivi titolari",
+          "url": null
+        }
+      ],
+      "afterKey": "web-prossimita"
+    },
+    {
+      "key": "web-kanban",
+      "title": "Una bacheca: categorie e stati",
+      "side": "DX",
+      "lead": "Schede simili possono condividere una funzione, mentre etichette e posizione ne distinguono categoria e stato.",
+      "figures": [
+        {
+          "file": "originals/lezione-05-p052-image-01.jpg",
+          "caption": "AppFlowy: schede di attività in colonne, con etichette ricorrenti.",
+          "maxHeight": 230
+        }
+      ],
+      "body": "Nella figura {FIG1}, le attività hanno una struttura ricorrente e sono raccolte in colonne. Le etichette colorate introducono altre relazioni, che possono attraversare la suddivisione spaziale.\n\nSomiglianza, vicinanza e regione comune agiscono insieme. Verifica se una persona sa distinguere lo stato dell’attività dalla sua categoria e se riconosce quali elementi sono interattivi.",
+      "sources": [
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 52. Screenshot storico; data di acquisizione non registrata. AppFlowy e rispettivi titolari",
+          "url": null
+        }
+      ],
+      "afterKey": "web-somiglianza"
+    },
+    {
+      "key": "web-news",
+      "title": "News ed eventi: due regioni",
+      "side": "DX",
+      "lead": "La superficie e lo spazio possono separare sezioni con contenuti e strutture differenti.",
+      "figures": [
+        {
+          "file": "figures/lezione-05-p068-image-01.png",
+          "caption": "News ed eventi: regioni affiancate con titoli e strutture differenti.",
+          "maxHeight": 235
+        }
+      ],
+      "body": "Nella figura {FIG1}, titoli e superfici distinguono le colonne di notizie ed eventi. All’interno, immagini, testi e date si raggruppano anche per vicinanza e allineamento.\n\nÈ possibile capire a quale sezione appartiene ogni elemento? Come cambia la separazione quando le colonne vengono disposte una sotto l’altra?",
+      "sources": [
+        {
+          "label": "Stephen E. Palmer, 1992, Common region: A new principle of perceptual grouping, Cognitive Psychology 24(3), 436–447",
+          "url": "https://doi.org/10.1016/0010-0285(92)90014-S"
+        },
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 68. Screenshot storico; data di acquisizione non registrata. Università di Milano-Bicocca e rispettivi titolari",
+          "url": null
+        }
+      ],
+      "afterKey": "web-regione"
+    },
+    {
+      "key": "web-menu",
+      "title": "Un menu: stato e transizione",
+      "side": "DX",
+      "lead": "Uno screenshot permette di osservare l’organizzazione spaziale di un menu; il movimento richiede una sequenza.",
+      "figures": [
+        {
+          "file": "originals/lezione-05-p058-image-01.jpg",
+          "caption": "Menu a fisarmonica: uno stato conservato nelle slide. Uno screenshot singolo non dimostra il movimento.",
+          "maxHeight": 230
+        }
+      ],
+      "body": "Nella figura {FIG1}, voci simili sono allineate e vicine nello stesso pannello. Queste relazioni sono visibili nello stato fermo.\n\nPer discutere il destino comune osserva l’apertura: quali elementi si muovono insieme? Mantengono distanze, direzione e velocità? L’animazione dovrebbe rendere comprensibile il cambiamento e permettere di leggere i contenuti.",
+      "sources": [
+        {
+          "label": "Max Wertheimer, 1923, fattore del destino comune. Sequenza didattica originale; movimento rappresentato attraverso tre stati",
+          "url": "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm"
+        },
+        {
+          "label": "Materiale didattico CVeDI 2025/26, lezione 5, PDF p. 58. Screenshot storico; data di acquisizione non registrata",
+          "url": null
+        }
+      ],
+      "afterKey": "web-movimento"
+    }
+  ],
+  "splitForLegibility": true
+}

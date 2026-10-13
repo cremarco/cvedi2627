@@ -1,0 +1,53 @@
+{
+  "kind": "original generated photographs for simulated service interfaces",
+  "mode": "built-in image_gen",
+  "created": "2026-10-13",
+  "rights": "Original generated assets for CVeDI. No third-party marks or identifiable persons represented.",
+  "palette": "emerald / rosa fragola; red product retained for alt-text trial",
+  "assets": [
+    {
+      "id": "product",
+      "original": "assets/theme-imagegen/lesson-05-services/originals/product.png",
+      "prompt": "assets/theme-imagegen/lesson-05-services/prompts/product.txt",
+      "public": "public/images/accessibility-services/product.webp",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "sha256": "f1412b26fde384542599eb8596e440d5eb5965f79065a40a247f54743f31b047"
+    },
+    {
+      "id": "course",
+      "original": "assets/theme-imagegen/lesson-05-services/originals/course.png",
+      "prompt": "assets/theme-imagegen/lesson-05-services/prompts/course.txt",
+      "public": "public/images/accessibility-services/course.webp",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "sha256": "add8cc1cf7e218dca2313b1548acd8495546dc230fb5f50ffadaf5c9a61f685e"
+    },
+    {
+      "id": "library",
+      "original": "assets/theme-imagegen/lesson-05-services/originals/library.png",
+      "prompt": "assets/theme-imagegen/lesson-05-services/prompts/library.txt",
+      "public": "public/images/accessibility-services/library.webp",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "sha256": "2c23db5ee107f08d9da1761fd1924add70813c7c68641f0765986aa8181778a2"
+    },
+    {
+      "id": "campus",
+      "original": "assets/theme-imagegen/lesson-05-services/originals/campus.png",
+      "prompt": "assets/theme-imagegen/lesson-05-services/prompts/campus.txt",
+      "public": "public/images/accessibility-services/campus.webp",
+      "dimensions": [
+        1672,
+        940
+      ],
+      "sha256": "178bd0d848807389ecd042b43094b97efd2c34e6e2b65aa51386f3c884cc6ddb"
+    }
+  ]
+}

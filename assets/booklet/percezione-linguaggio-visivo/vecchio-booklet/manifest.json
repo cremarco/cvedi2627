@@ -1,0 +1,621 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+  "sourcePdfSha256": "3d627dcf3d5aec9ad2a5953417303b4f990344deb0ae91a74df6c73e6664dd9b",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1112",
+    "sectionId": "204:8297",
+    "boardsBefore": 61,
+    "boardsAfter": 69,
+    "addedBoards": 8,
+    "folioRange": [
+      230,
+      298
+    ]
+  },
+  "boards": [
+    {
+      "id": "3467:1351",
+      "key": "old-proximity",
+      "title": "Vicinanza: parti che formano un insieme",
+      "folio": 263,
+      "ordinal": 171,
+      "side": "DX",
+      "mainY": 136.5,
+      "mainHeight": 429.5,
+      "mainBottom": 566,
+      "notesY": 584.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3467:1475",
+      "key": "old-similarity",
+      "title": "Somiglianza: ripetizione e differenza",
+      "folio": 266,
+      "ordinal": 174,
+      "side": "SX",
+      "mainY": 117,
+      "mainHeight": 443.5,
+      "mainBottom": 560.5,
+      "notesY": 584.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3467:1609",
+      "key": "old-region",
+      "title": "Regione comune: leggere le aree",
+      "folio": 269,
+      "ordinal": 177,
+      "side": "DX",
+      "mainY": 104.81643676757812,
+      "mainHeight": 467.86712646484375,
+      "mainBottom": 572.6835632324219,
+      "notesY": 584.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3467:1722",
+      "key": "old-motion",
+      "title": "Una fotografia non mostra il movimento",
+      "folio": 272,
+      "ordinal": 180,
+      "side": "SX",
+      "mainY": 138.07534790039062,
+      "mainHeight": 426.34930419921875,
+      "mainBottom": 564.4246520996094,
+      "notesY": 584.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3467:1838",
+      "key": "old-continuity",
+      "title": "Seguire un percorso visivo",
+      "folio": 275,
+      "ordinal": 183,
+      "side": "DX",
+      "mainY": 105.33424377441406,
+      "mainHeight": 451.8315124511719,
+      "mainBottom": 557.1657562255859,
+      "notesY": 569.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3467:1955",
+      "key": "old-figureground",
+      "title": "Attribuire i contorni alle figure",
+      "folio": 277,
+      "ordinal": 185,
+      "side": "DX",
+      "mainY": 122.5,
+      "mainHeight": 432.5,
+      "mainBottom": 555,
+      "notesY": 584.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3467:2072",
+      "key": "old-photo-context",
+      "title": "Fotografie: conoscere il contesto",
+      "folio": 294,
+      "ordinal": 202,
+      "side": "SX",
+      "mainY": 106.670654296875,
+      "mainHeight": 454.15869140625,
+      "mainBottom": 560.829345703125,
+      "notesY": 574.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3467:2194",
+      "key": "old-negative-space",
+      "title": "Spazio negativo e forme riconoscibili",
+      "folio": 298,
+      "ordinal": 206,
+      "side": "SX",
+      "mainY": 169.83499145507812,
+      "mainHeight": 337.83001708984375,
+      "mainBottom": 507.6650085449219,
+      "notesY": 584.5,
+      "notesBottom": 610
+    }
+  ],
+  "assets": [
+    {
+      "key": "booklet-2024-campbell",
+      "file": "vecchio-booklet/figures/campbell.png",
+      "bytes": 1372170,
+      "sha256": "bf976e361aae07fad282be57ce50ed743e6e9a72d5294dce90ee12579f863715",
+      "imageHash": "2b2121b10ac7830027b02916618f1d6ad44c805c",
+      "figmaNodeId": "I3467:1424;3165:593;3467:1447",
+      "figmaSize": [
+        164.52667236328125,
+        232
+      ],
+      "sourceSize": [
+        851,
+        1200
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 316,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p316-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Campbell Mithun, attribuzione nell’edizione 2024. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-proximity-layout",
+      "file": "vecchio-booklet/figures/proximity-layout.png",
+      "bytes": 152121,
+      "sha256": "eba8a7e0ac1ecc09693d05d54c913785da0a1444f120109a50101407851026ac",
+      "imageHash": "a94b7d3f85403dc2b5ee38d944b0d447351a5919",
+      "figmaNodeId": "I3467:1424;3165:593;3467:1451",
+      "figmaSize": [
+        171.5,
+        80.28941345214844
+      ],
+      "sourceSize": [
+        2277,
+        1066
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 317,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p317-000.png",
+      "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p317-001.png",
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-proxima-logo",
+      "file": "vecchio-booklet/figures/proxima-logo.png",
+      "bytes": 26251,
+      "sha256": "6212b063406cd407cb6c19596c81f6e6ab523e00ce0c6fdd7828dc4d8834ec69",
+      "imageHash": "9dd14f5da2def347e99e24a9cb872bdcad31236e",
+      "figmaNodeId": "I3467:1424;3165:593;3467:1454",
+      "figmaSize": [
+        171.5,
+        65.50858306884766
+      ],
+      "sourceSize": [
+        932,
+        356
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 317,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p317-002.png",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-haribo",
+      "file": "vecchio-booklet/figures/haribo.png",
+      "bytes": 855967,
+      "sha256": "87437722a8f32152420911512156605ee0c8705b66d03a9c34b8fccfbebc646d",
+      "imageHash": "100b831b95fd4ee9abee22dd678e7d7d270cec00",
+      "figmaNodeId": "I3467:1565;3165:593;3467:1583",
+      "figmaSize": [
+        171.5,
+        221.96157836914062
+      ],
+      "sourceSize": [
+        989,
+        1280
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 320,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p320-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Haribo. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-similarity-layout",
+      "file": "vecchio-booklet/figures/similarity-layout.png",
+      "bytes": 163171,
+      "sha256": "9b1fbeb90ac04670d50b65af8f2c75b05740a1507fa0fa300149f7abde2eee00",
+      "imageHash": "be69d8ae9abe505a160885803c96392e0a24a7c4",
+      "figmaNodeId": "I3467:1565;3165:593;3467:1587",
+      "figmaSize": [
+        155.73770141601562,
+        95
+      ],
+      "sourceSize": [
+        2200,
+        1342
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 322,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p322-000.png",
+      "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p322-001.png",
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-bee-logo",
+      "file": "vecchio-booklet/figures/bee-logo.png",
+      "bytes": 14262,
+      "sha256": "c1f26eb3b63be8f3cf63610c79abbdeca8c9d9e64070e4ed9280a06bdbcdae8a",
+      "imageHash": "c4dc3d481911a22d9c0948a3e5d292ca066d30f4",
+      "figmaNodeId": "I3467:1565;3165:593;3467:1590",
+      "figmaSize": [
+        98.06034851074219,
+        105
+      ],
+      "sourceSize": [
+        325,
+        348
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 322,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p322-002.png",
+      "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p322-003.png",
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-region-layout",
+      "file": "vecchio-booklet/figures/region-layout.png",
+      "bytes": 203784,
+      "sha256": "532a3223c7cb7004978e67b614e8c31d22ba903e0fb33e2bf1ff742c6bce4b2d",
+      "imageHash": "41a06edb733641bcc9fb8f5c119a5f57c985313d",
+      "figmaNodeId": "I3467:1680;3165:593;3467:1697",
+      "figmaSize": [
+        157.03875732421875,
+        80.07853698730469
+      ],
+      "sourceSize": [
+        2518,
+        1284
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 335,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p335-001.png",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-meta",
+      "file": "vecchio-booklet/figures/meta.png",
+      "bytes": 840755,
+      "sha256": "05b72a95b0c61d3178985cba7d78eee67984cd3d48f979b664dfe7d0a6f4c290",
+      "imageHash": "4627e58b809a8ff532f9d39f6fd3a5dae82a21d0",
+      "figmaNodeId": "I3467:1680;3165:593;3467:1700",
+      "figmaSize": [
+        161.57022094726562,
+        78.12374877929688
+      ],
+      "sourceSize": [
+        1882,
+        910
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 335,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p335-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Meta. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-insurance-dashboard",
+      "file": "vecchio-booklet/figures/insurance-dashboard.png",
+      "bytes": 553404,
+      "sha256": "ea577e285ec408ef3fcc18c9aae4fe758fd9d81e82ffd7a6583e3f7307ec5177",
+      "imageHash": "eb514c936515817da109759351db3a0ec0d70eb8",
+      "figmaNodeId": "I3467:1680;3165:593;3467:1703",
+      "figmaSize": [
+        246.5751495361328,
+        174.28858947753906
+      ],
+      "sourceSize": [
+        3510,
+        2481
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 336,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p336-000.png",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-turkish-birds",
+      "file": "vecchio-booklet/figures/turkish-birds.png",
+      "bytes": 1486799,
+      "sha256": "6ae8ef0cac7fec2fbcf8e27a715adfcbd2cc86604e3575062264b5f355f00cfb",
+      "imageHash": "73b21a5ecb8641da187a2dc96ec8610165d49122",
+      "figmaNodeId": "I3467:1803;3165:593;3467:1819",
+      "figmaSize": [
+        323.4619140625,
+        228.84930419921875
+      ],
+      "sourceSize": [
+        1600,
+        1132
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 325,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p325-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Turkish Airlines. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-continuity-menu",
+      "file": "vecchio-booklet/figures/continuity-menu.png",
+      "bytes": 53533,
+      "sha256": "bf553719e53c82ba3b9c38aa2ae418aab3461f50040d962717c4d0de1c30c2f5",
+      "imageHash": "33f6ae86db6e8176827eaf3df883257f1b7f47a6",
+      "figmaNodeId": "I3467:1905;3165:593;3467:1921",
+      "figmaSize": [
+        219.95370483398438,
+        68.92948150634766
+      ],
+      "sourceSize": [
+        2339,
+        733
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 328,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p328-002.png",
+      "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p328-003.png",
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-minard-map",
+      "file": "vecchio-booklet/figures/minard-map.png",
+      "bytes": 674779,
+      "sha256": "f7b6094b0cbf0216111738c0761e45e753ae4334b325990f97f4dfc247b456b5",
+      "imageHash": "8b13a2544892d731c0eaf6d7bf551bd04b0eadb5",
+      "figmaNodeId": "I3467:1905;3165:593;3467:1924",
+      "figmaSize": [
+        326.9509582519531,
+        154.40203857421875
+      ],
+      "sourceSize": [
+        1063,
+        502
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 328,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p328-001.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Charles Joseph Minard, 1869; carta originale di pubblico dominio. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-sancob",
+      "file": "vecchio-booklet/figures/sancob.png",
+      "bytes": 433295,
+      "sha256": "2a29eb0d9f614645fb4e50d5afac20349af4777b1ef819da04e697681b68c2ee",
+      "imageHash": "4d54768c807b9464526eb07f1e9a60916426583e",
+      "figmaNodeId": "I3467:2028;3165:593;3467:2046",
+      "figmaSize": [
+        167.1408233642578,
+        235
+      ],
+      "sourceSize": [
+        1000,
+        1406
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 341,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p341-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "SANCCOB. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-figureground-modal",
+      "file": "vecchio-booklet/figures/figureground-modal.png",
+      "bytes": 614925,
+      "sha256": "c77443640faaa3495eea1b6b71913c43f393814ed02b9f645358e259d43ae786",
+      "imageHash": "ad50435e8ee8380dde77dfbdce7c5f63090674b2",
+      "figmaNodeId": "I3467:2028;3165:593;3467:2050",
+      "figmaSize": [
+        171.5,
+        79.7356185913086
+      ],
+      "sourceSize": [
+        2381,
+        1107
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 342,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p342-000.jpg",
+      "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p342-001.png",
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Attribuzione non specificata nel booklet; diritti dei rispettivi titolari. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-rai",
+      "file": "vecchio-booklet/figures/rai.png",
+      "bytes": 27645,
+      "sha256": "ae4b48bb673c8fd95e40ccbc95a798c3b485ce9a2decfcfdb5137d1c9b8b2aa0",
+      "imageHash": "d964e231e55fe469f979a9cf4f83bfe6045d6921",
+      "figmaNodeId": "I3467:2028;3165:593;3467:2053",
+      "figmaSize": [
+        171.5,
+        105.81330108642578
+      ],
+      "sourceSize": [
+        1248,
+        770
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 343,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p343-002.png",
+      "mask": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p343-003.png",
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Rai. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-doisneau",
+      "file": "vecchio-booklet/figures/doisneau.png",
+      "bytes": 830173,
+      "sha256": "816b2305e94c494205aed971606267a5ffb46bf31614809c0c9965ff5f3536af",
+      "imageHash": "81d58d4e895fde2c9221ee0cca591169ff2add96",
+      "figmaNodeId": "I3467:2156;3165:593;3467:2172",
+      "figmaSize": [
+        231.76087951660156,
+        135.329345703125
+      ],
+      "sourceSize": [
+        1853,
+        1082
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 21,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p021-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Robert Doisneau. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-widener",
+      "file": "vecchio-booklet/figures/widener.png",
+      "bytes": 2590938,
+      "sha256": "d3ad664cb0b54dd119912165f813510f48b8f074c591ea3867ee69b41cac5745",
+      "imageHash": "b7c8914b848b00c65533e90eeb91d85ce43d23e0",
+      "figmaNodeId": "I3467:2156;3165:593;3467:2175",
+      "figmaSize": [
+        234.5029754638672,
+        135.329345703125
+      ],
+      "sourceSize": [
+        1842,
+        1063
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 21,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p021-001.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Jeff Widener / Associated Press. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-negative-spaces",
+      "file": "vecchio-booklet/figures/negative-spaces.png",
+      "bytes": 527521,
+      "sha256": "1c034233788b0b40d0303103ff664cbc4887989adbf02af44911eb6514df5900",
+      "imageHash": "e0c0c563984d3285628ed19fcebf7c17246d8b03",
+      "figmaNodeId": "I3467:2281;3165:593;3467:2299",
+      "figmaSize": [
+        171.5,
+        121.5199966430664
+      ],
+      "sourceSize": [
+        1400,
+        992
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 349,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p349-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Tang Yau Hoong, attribuzione nell’edizione 2024. Originale conservato; nessuna ulteriore licenza dedotta."
+    },
+    {
+      "key": "booklet-2024-spartan",
+      "file": "vecchio-booklet/figures/spartan.png",
+      "bytes": 67338,
+      "sha256": "07a44e5f7dde9f48bc806f44a595fd70c6fdcde8090421bf3877c0910f8f45b0",
+      "imageHash": "ae76a2d4550f656c74374fd306e823436453c48e",
+      "figmaNodeId": "I3467:2281;3165:593;3467:2303",
+      "figmaSize": [
+        171.5,
+        155.3300018310547
+      ],
+      "sourceSize": [
+        350,
+        317
+      ],
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "pdfPage": 339,
+      "original": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/originals/p339-000.jpg",
+      "mask": null,
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "rights": "Spartan Golf. Originale conservato; nessuna ulteriore licenza dedotta."
+    }
+  ],
+  "figures": [
+    {
+      "boardId": "3467:1351",
+      "id": "3467:1424",
+      "captionId": "I3467:1424;3165:600;3467:1457;3164:51;3467:1459",
+      "number": "3.69"
+    },
+    {
+      "boardId": "3467:1475",
+      "id": "3467:1565",
+      "captionId": "I3467:1565;3165:600;3467:1593;3164:51;3467:1595",
+      "number": "3.72"
+    },
+    {
+      "boardId": "3467:1609",
+      "id": "3467:1680",
+      "captionId": "I3467:1680;3165:600;3467:1706;3164:51;3467:1708",
+      "number": "3.75"
+    },
+    {
+      "boardId": "3467:1722",
+      "id": "3467:1803",
+      "captionId": "I3467:1803;3165:600;3467:1822;3164:51;3467:1824",
+      "number": "3.78"
+    },
+    {
+      "boardId": "3467:1838",
+      "id": "3467:1905",
+      "captionId": "I3467:1905;3165:600;3467:1927;3164:51;3467:1929",
+      "number": "3.81"
+    },
+    {
+      "boardId": "3467:1955",
+      "id": "3467:2028",
+      "captionId": "I3467:2028;3165:600;3467:2056;3164:51;3467:2058",
+      "number": "3.83"
+    },
+    {
+      "boardId": "3467:2072",
+      "id": "3467:2156",
+      "captionId": "I3467:2156;3165:600;3467:2178;3164:51;3467:2180",
+      "number": "3.96"
+    },
+    {
+      "boardId": "3467:2194",
+      "id": "3467:2281",
+      "captionId": "I3467:2281;3165:600;3467:2306;3164:51;3467:2308",
+      "number": "3.99"
+    }
+  ],
+  "verifiedAttributions": {
+    "Doisneau": "https://www.ina.fr/ina-eclaire-actu/robert-doisneau-baiser-hotel-de-ville-francoise-bornet-photographie",
+    "Widener": "https://www.nga.gov/artworks/218541-tank-man",
+    "Minard": "https://catalogue.bnf.fr/ark:/12148/cb40650878p"
+  },
+  "sourceHandling": "Asset originali estratti dal PDF; maschere alpha applicate ai raster operativi, proporzioni originali e file sorgente conservati. Nessuna pagina completa rasterizzata come contenuto editoriale.",
+  "selection": "Omesse ripetizioni di immagini già presenti, artefatti incompleti e placeholder del PDF. I loader non vengono usati come prova della chiusura. Il poster Turkish Airlines è indicato come fotografia statica. Le schermate non sono rappresentate come versioni attuali.",
+  "verification": "reports/percezione-linguaggio-visivo/vecchio-booklet/verification.json"
+}

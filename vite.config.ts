@@ -4,6 +4,7 @@ import { localAssetDirectories, sharedLessonAssetDirectories } from './utils/pub
 import { webDesignExamplesPlugin } from './utils/web-design-examples.mjs'
 import { ilmeteoPlugin } from './utils/ilmeteo.mjs'
 import { preventIndexingHTML } from './utils/indexing.mjs'
+import { annotateAcronyms } from './utils/acronyms.mjs'
 
 function localAssetsPlugin() {
   let outputDirectory: string
@@ -32,6 +33,9 @@ function localAssetsPlugin() {
 }
 
 export default {
+  slidev: {
+    markdown: { transforms: { after: annotateAcronyms } },
+  },
   plugins: [
     localAssetsPlugin(),
     webDesignExamplesPlugin(),

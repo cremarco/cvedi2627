@@ -4,6 +4,7 @@ import { useSlidePlayback } from '../composables/useSlidePlayback'
 import { useLessonPagination } from '../composables/use-lesson-pagination'
 import { useSlideSet } from '../composables/use-slide-set'
 import SlideRibbon from '../components/SlideRibbon.vue'
+import AcronymText from '../components/AcronymText.vue'
 
 const props = defineProps<{ footer?: string; frontmatter?: Record<string, unknown> }>()
 
@@ -14,6 +15,7 @@ const classes = computed(() => new Set(String(matter.value.class ?? '').split(/\
 const isChapter = computed(() => classes.value.has('chapter-slide'))
 const isCover = computed(() => isChapter.value || classes.value.has('cover-slide'))
 const isArchiveWall = computed(() => classes.value.has('archive-wall-slide'))
+const isInteractive = computed(() => classes.value.has('interactive-example-slide'))
 const lessonNumber = computed(() => {
   const value = Number(matter.value.lessonNumber)
   return Number.isInteger(value) && value > 0 ? value : set.value.lessonNumber ?? null
@@ -21,12 +23,12 @@ const lessonNumber = computed(() => {
 </script>
 
 <template>
-  <div class="slidev-layout default" :data-lesson="set.id" :style="setStyle" :class="{ 'is-active': isActive, 'motion-enabled': canAnimate, 'fixed-title-slide': !isCover, 'centered-content-slide': !isCover && !isArchiveWall }">
-    <SlideRibbon v-if="!isCover && set.id !== 'apertura'" :label="set.label" />
+  <div class="slidev-layout default" :data-lesson="set.id" :style="setStyle" :class="{ 'is-active': isActive, 'motion-enabled': canAnimate, 'interactive-canvas': isInteractive, 'fixed-title-slide': !isCover && !isInteractive, 'centered-content-slide': !isCover && !isArchiveWall && !isInteractive }">
+    <SlideRibbon v-if="!isCover && !isInteractive && set.id !== 'apertura'" :label="set.label" />
     <span v-if="isChapter && lessonNumber" class="chapter-lesson-number absolute">Lezione {{ String(lessonNumber).padStart(2, '0') }}</span>
     <slot />
     <footer class="slide-footer">
-      <span v-if="footer && !isCover" class="slide-label">{{ footer }}</span>
+      <span v-if="footer && !isCover && !isInteractive" class="slide-label"><AcronymText :text="footer" /></span>
       <span v-if="!classes.has('cover-slide')" class="slide-index" :aria-label="`Slide ${pagination.page} di ${pagination.total}`">
         {{ pagination.page }} / {{ pagination.total }}
       </span>

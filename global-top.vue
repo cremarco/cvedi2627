@@ -10,6 +10,7 @@ const onDark = computed(() => {
   const classes = String(currentFrontmatter.value.class ?? '').split(/\s+/)
   return classes.includes('chapter-slide') || classes.includes('archive-wall-slide')
 })
+const compact = computed(() => String(currentFrontmatter.value.class ?? '').split(/\s+/).includes('interactive-example-slide'))
 </script>
 
 <template>
@@ -19,5 +20,6 @@ const onDark = computed(() => {
     :total="pagination.total"
     :instant="isPrintMode"
     :on-dark="onDark"
+    :compact="compact"
   />
 </template>

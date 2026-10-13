@@ -15,6 +15,14 @@ const demoInstructionsSource = readFileSync(new URL('data/accessibility-demos.ts
 const demoInstructions = Object.fromEntries([...demoInstructionsSource.matchAll(/^\s*(?:'([^']+)'|(\w+)): '([^']+)',/gm)].map(m => [m[1] || m[2], m[3]]))
 const title = 'Accessibilità e design inclusivo'
 const escape = s => String(s).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;')
+const resourceLink = (label, href) => {
+  if (new URL(href).protocol !== 'https:') throw new Error('Lesson resource must use HTTPS')
+  return `<a class="link" href="${escape(href)}">${escape(label)}</a>`
+}
+const linkedText = (text, links = []) => links.reduce((html, link) => {
+  const label = escape(link.label)
+  return html.replace(label, resourceLink(link.label, link.href))
+}, escape(text))
 // Generation metadata stays in the manifests, outside presented figure copy.
 const presentationText = value => String(value).replace(/\s*\b(?:Imagen|ImageGen)\b/gi, '').replace(/\s+([.,;:!?])/g, '$1').trim()
 const figure = (asset, caption) => `<LessonFigure src="${asset.web}" alt="${escape(presentationText(asset.alt || asset.caption))}" caption="${escape(presentationText(caption || asset.caption))}" />`
@@ -41,12 +49,13 @@ for (const frame of source.frames) {
     if (spec.statement) body += `<div class="lesson-statement">${escape(spec.statement)}</div>\n<p class="lead">${escape(spec.support)}</p>\n`
     else if (spec.lead) body += `<p class="lead">${escape(spec.lead)}</p>\n`
     if (spec.cards) body += `<div class="cvedi-grid${spec.cards.length === 3 ? ' three' : spec.cards.length === 4 ? ' four' : ''}">` + spec.cards.map(c => `<CvediCard title="${escape(c.title)}"><p>${escape(c.text)}</p></CvediCard>`).join('') + '</div>\n'
-    if (spec.points?.length) body += '<ul class="cvedi-list">' + spec.points.map(p => `<li><span>${escape(p)}</span></li>`).join('') + '</ul>\n'
+    if (spec.points?.length) body += '<ul class="cvedi-list">' + spec.points.map(p => `<li><span>${linkedText(p, spec.links)}</span></li>`).join('') + '</ul>\n'
     if (spec.images) {
       const figures = spec.images.map(i => { const a = assets.get(i.asset); if (!a) throw new Error(i.asset); return figure(a, i.caption && (spec.triptych ? i.caption + ' · ' + a.caption.split(' · ')[0] : i.caption)) })
       body += spec.images.length === 1 ? figures[0] + '\n' : `<div class="${spec.triptych ? 'lesson-columns figure-triptych' : 'lesson-columns'}">${figures.join('')}</div>\n`
     }
-    if (spec.notice) body += `<CvediNotice kind="explore" title="${spec.simulated ? 'Come verificare · esempio simulato' : 'Da tenere presente'}"><p>${escape(spec.notice)}</p></CvediNotice>\n`
+    if (spec.notice) body += `<CvediNotice kind="explore" title="${spec.simulated ? 'Come verificare · esempio simulato' : 'Da tenere presente'}"><p>${linkedText(spec.notice, spec.links)}</p></CvediNotice>\n`
+    if (spec.tools?.length) body += '<nav class="lesson-tool-resources" aria-label="Strumenti per la verifica"><ul class="lesson-tools" role="list">' + spec.tools.map(tool => `<li>${resourceLink(tool.label, tool.href)}<p>${escape(tool.usage)}</p></li>`).join('') + '</ul></nav>\n'
     const frontmatter = { layout: 'default', class: classes.join(' '), footer: title, lesson: 'percezione-gerarchia', lessonMinutes: spec.simulated ? 1.5 : 1,
       lessonSection: 'accessibility', routeAlias: spec.alias || `accessibilita-${frame.id.replace(':', '-')}-${index + 1}`, bookletNodes: spec.sourceNodes,
       bookletFolios: spec.sourceNodes.map(id => sourceRows.get(id).folio), bookletAssets: imageIds }
@@ -77,6 +86,10 @@ const combined = [...opening, ...added]
 combined.forEach((s, i) => { s.frontmatter.lessonSlide = i + 1; s.frontmatter.footer = title })
 const yaml = f => Object.entries(f).filter(([k]) => !['localOnly', 'src', 'disabled'].includes(k)).map(([k,v]) => `${k}: ${JSON.stringify(v)}`).join('\n')
 await writeFile(new URL('lezioni/05-percezione-gerarchia.md', root), combined.map(s => `---\n${yaml(s.frontmatter)}\n---\n\n${s.content.trim()}\n`).join('\n'))
+if (process.argv.includes('--slides-only')) {
+  console.log(JSON.stringify({ slides: combined.length, resources: plan.slides.reduce((n, s) => n + (s.links?.length || 0) + (s.tools?.length || 0), 0) }))
+  process.exit(0)
+}
 const curriculum = await read('data/ux-curriculum.json')
 const spec = curriculum.lessons.find(s => s.number === 5)
 delete spec.sourceRange

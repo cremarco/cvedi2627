@@ -20,6 +20,7 @@ import './published.css'
 import './theme.css'
 import './typography.css'
 import './layout.css'
+import './acronyms.css'
 
 // A production build can also be previewed locally. Hide only on online hosts.
 if (typeof window !== 'undefined') {

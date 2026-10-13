@@ -1,0 +1,290 @@
+{
+  "schema": 1,
+  "date": "2026-10-13",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1112",
+    "sectionId": "204:8297",
+    "boardsBefore": 56,
+    "boardsAfter": 61,
+    "addedBoards": 5,
+    "folioRange": [
+      230,
+      290
+    ]
+  },
+  "plan": "plan.json",
+  "boards": [
+    {
+      "id": "3451:1154",
+      "key": "cooperazione-conflitto",
+      "title": "Quando i principi interagiscono",
+      "folio": 258,
+      "ordinal": 166,
+      "side": "SX",
+      "mainY": 142.5,
+      "mainHeight": 392.5,
+      "mainBottom": 535,
+      "notesY": 584.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3451:1313",
+      "key": "connessione-elementi",
+      "title": "Vicinanza, regione e connessione",
+      "folio": 259,
+      "ordinal": 167,
+      "side": "DX",
+      "mainY": 120,
+      "mainHeight": 437.5,
+      "mainBottom": 557.5,
+      "notesY": 584.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3451:1460",
+      "key": "funzioni-immagini",
+      "title": "Che cosa comunica un’immagine",
+      "folio": 286,
+      "ordinal": 194,
+      "side": "SX",
+      "mainY": 105.8885498046875,
+      "mainHeight": 455.722900390625,
+      "mainBottom": 561.6114501953125,
+      "notesY": 574.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3451:1606",
+      "key": "fotografia-illustrazione",
+      "title": "Fotografia o illustrazione?",
+      "folio": 287,
+      "ordinal": 195,
+      "side": "DX",
+      "mainY": 109,
+      "mainHeight": 449.5,
+      "mainBottom": 558.5,
+      "notesY": 574.5,
+      "notesBottom": 610
+    },
+    {
+      "id": "3451:1715",
+      "key": "icone-pittogrammi",
+      "title": "Icone, pittogrammi e illustrazioni",
+      "folio": 288,
+      "ordinal": 196,
+      "side": "SX",
+      "mainY": 109.25,
+      "mainHeight": 444,
+      "mainBottom": 553.25,
+      "notesY": 569.5,
+      "notesBottom": 610
+    }
+  ],
+  "assets": [
+    {
+      "key": "linguaggio-evocativa",
+      "file": "integrazioni-5/figures/evocativa.png",
+      "bytes": 2218097,
+      "sha256": "f25a1f762722b2b2d67809d849603e64589bf73b9fd843c67aa77e831ca84c60",
+      "imageHash": "50193e354134e22f5a961d81a47b76365a53e8be",
+      "figmaNodeId": "I3451:1556;3165:593;3451:1572",
+      "figmaSize": [
+        145,
+        82.16666412353516
+      ],
+      "sourceSize": [
+        1800,
+        1020
+      ],
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "source": "materiali/lezioni/2025-2026/02-visual-design.pdf",
+      "sourcePage": 42,
+      "rights": "Asset originale conservato dal materiale didattico; nessuna nuova licenza dedotta."
+    },
+    {
+      "key": "linguaggio-illustrativa",
+      "file": "integrazioni-5/figures/illustrativa.png",
+      "bytes": 1587921,
+      "sha256": "789e3f8c4bb5f37b5e869a60ab2a5188b01713bbc09352a40f77c08310e357df",
+      "imageHash": "4d1d98dd82c46222ecb2a0a42be76c340790eee1",
+      "figmaNodeId": "I3451:1556;3165:593;3451:1578",
+      "figmaSize": [
+        145,
+        81.5625
+      ],
+      "sourceSize": [
+        1920,
+        1080
+      ],
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "source": "materiali/lezioni/2025-2026/02-visual-design.pdf",
+      "sourcePage": 43,
+      "rights": "Asset originale conservato dal materiale didattico; nessuna nuova licenza dedotta."
+    },
+    {
+      "key": "linguaggio-iconale",
+      "file": "integrazioni-5/figures/iconale.png",
+      "bytes": 518453,
+      "sha256": "e0434c02bf2e11c119299411bef5c2b4b6ecfc6934630a8d4cc38b4f9c813602",
+      "imageHash": "28d5395575c3fd24f5e22b6c543006d07c2af3a2",
+      "figmaNodeId": "I3451:1556;3165:593;3451:1584",
+      "figmaSize": [
+        145,
+        74.4937515258789
+      ],
+      "sourceSize": [
+        1600,
+        822
+      ],
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "source": "materiali/lezioni/2025-2026/02-visual-design.pdf",
+      "sourcePage": 44,
+      "rights": "Asset originale conservato dal materiale didattico; nessuna nuova licenza dedotta."
+    },
+    {
+      "key": "linguaggio-allbirds",
+      "file": "integrazioni-5/figures/allbirds.png",
+      "bytes": 755543,
+      "sha256": "e9acffeabbf55b4e71606f0bfc1d75f70b8ba99d78d23fb78c6d12cab745e8e5",
+      "imageHash": "c37603ae915a96031a5821b5a3e72644c6cce107",
+      "figmaNodeId": "I3451:1675;3165:593;3451:1692",
+      "figmaSize": [
+        181.81817626953125,
+        105
+      ],
+      "sourceSize": [
+        1600,
+        924
+      ],
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "source": "Lezione 5B · Il linguaggio delle immagini",
+      "sourcePage": 11,
+      "rights": "© Allbirds",
+      "sourceDeckUrl": "https://docs.google.com/presentation/d/1aYSAO3stDeU9rLBY6ihH4we0ZzsC_2pHrgZuAk9nQ2k/edit",
+      "historicalScreenshot": true,
+      "officialSiteVerifiedOn": "2026-10-13"
+    },
+    {
+      "key": "linguaggio-headspace",
+      "file": "integrazioni-5/figures/headspace.png",
+      "bytes": 221101,
+      "sha256": "f2bd01728601f5a56c3523ce5eea2c970193d7bc771833fb4732ec2f1fc1c56e",
+      "imageHash": "fa6b9a1c79e17af214fb0cb8fdfa310b4693377f",
+      "figmaNodeId": "I3451:1675;3165:593;3451:1696",
+      "figmaSize": [
+        190.90908813476562,
+        105
+      ],
+      "sourceSize": [
+        1000,
+        550
+      ],
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "source": "Lezione 5B · Il linguaggio delle immagini",
+      "sourcePage": 14,
+      "rights": "© Headspace",
+      "sourceDeckUrl": "https://docs.google.com/presentation/d/1aYSAO3stDeU9rLBY6ihH4we0ZzsC_2pHrgZuAk9nQ2k/edit",
+      "historicalScreenshot": true,
+      "officialSiteVerifiedOn": "2026-10-13"
+    },
+    {
+      "key": "linguaggio-ibm-do",
+      "file": "integrazioni-5/figures/ibm-do.png",
+      "bytes": 27117,
+      "sha256": "9dbb5ff78400c0a04f6021994d242dc4eff1deba32bb2228f09eef1dbdbc8480",
+      "imageHash": "71187dad63d3b5594c3de47ccc53e2c0fe78c86d",
+      "figmaNodeId": "I3451:1801;3165:593;3451:1818",
+      "figmaSize": [
+        171.5,
+        171.5
+      ],
+      "sourceSize": [
+        576,
+        576
+      ],
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "sourceUrl": "https://www.ibm.com/design/language/iconography/pictograms/usage/",
+      "originalSvg": "integrazioni-5/web/ibm-pittogramma-do.svg",
+      "rights": "© IBM. Originale SVG e colori conservati; PNG ottenuto per rendering senza ritaglio. Nessuna nuova licenza dedotta.",
+      "verifiedOn": "2026-10-13"
+    },
+    {
+      "key": "linguaggio-ibm-dont",
+      "file": "integrazioni-5/figures/ibm-dont.png",
+      "bytes": 29376,
+      "sha256": "921eef84718213c91318abf9967a8e5617c4a0cea5cc7223eba0c2ce73f2bcf5",
+      "imageHash": "2dea45705b8aeeca66193492ffa29a0c7f75348e",
+      "figmaNodeId": "I3451:1801;3165:593;3451:1822",
+      "figmaSize": [
+        171.5,
+        171.5
+      ],
+      "sourceSize": [
+        576,
+        576
+      ],
+      "scaleMode": "FIT",
+      "captureDate": null,
+      "sourceUrl": "https://www.ibm.com/design/language/iconography/pictograms/usage/",
+      "originalSvg": "integrazioni-5/web/ibm-pittogramma-dont.svg",
+      "rights": "© IBM. Originale SVG e colori conservati; PNG ottenuto per rendering senza ritaglio. Nessuna nuova licenza dedotta.",
+      "verifiedOn": "2026-10-13"
+    }
+  ],
+  "figures": [
+    {
+      "boardId": "3451:1154",
+      "id": "3451:1253",
+      "captionId": "I3451:1253;3165:600;3451:1295;3164:51;3451:1297",
+      "number": "3.63"
+    },
+    {
+      "boardId": "3451:1313",
+      "id": "3451:1401",
+      "captionId": "I3451:1401;3165:600;3451:1444;3164:51;3451:1446",
+      "number": "3.64"
+    },
+    {
+      "boardId": "3451:1460",
+      "id": "3451:1556",
+      "captionId": "I3451:1556;3165:600;3451:1590;3164:51;3451:1592",
+      "number": "3.88"
+    },
+    {
+      "boardId": "3451:1606",
+      "id": "3451:1675",
+      "captionId": "I3451:1675;3165:600;3451:1699;3164:51;3451:1701",
+      "number": "3.89"
+    },
+    {
+      "boardId": "3451:1715",
+      "id": "3451:1801",
+      "captionId": "I3451:1801;3165:600;3451:1825;3164:51;3451:1827",
+      "number": "3.90"
+    }
+  ],
+  "sources": {
+    "previousYear": "materiali/lezioni/2025-2026/02-visual-design.pdf",
+    "previousYearSha256": "da53d181e9b06c911fe0df249ce8ca9ed519320cd2921e3f053043aebda38dfa",
+    "archiveDeckUrl": "https://docs.google.com/presentation/d/1aYSAO3stDeU9rLBY6ihH4we0ZzsC_2pHrgZuAk9nQ2k/edit",
+    "archivePdf": "originals/lezione-5b.pdf",
+    "archivePdfSha256": "c3769828cbbed238906329e3042c192f3deb8c573ff37d978100091e26b9265c",
+    "archiveCaptureDates": "Non indicate nelle slide; non dedotte dalla data di modifica del deck.",
+    "wertheimer": "https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm",
+    "palmer": "https://palmerlab.berkeley.edu/pdf/Palmer.pdf",
+    "ibm": "https://www.ibm.com/design/language/iconography/pictograms/usage/",
+    "wai": "https://www.w3.org/WAI/tutorials/images/functional/"
+  },
+  "nativeDiagrams": {
+    "competition": "Schema originale; posizioni e dimensioni invarianti, cambia soltanto il colore.",
+    "connectedness": "Schema originale di punti equidistanti con regioni e connessioni."
+  },
+  "verification": "reports/percezione-linguaggio-visivo/integrazioni-5/verification.json"
+}

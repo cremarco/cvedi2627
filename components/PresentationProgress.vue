@@ -8,7 +8,8 @@ const props = withDefaults(defineProps<{
   total: number
   instant?: boolean
   onDark?: boolean
-}>(), { instant: false, onDark: false })
+  compact?: boolean
+}>(), { instant: false, onDark: false, compact: false })
 
 const state = computed(() => {
   const total = Number.isFinite(props.total) ? Math.max(0, Math.floor(props.total)) : 0
@@ -27,6 +28,7 @@ const label = computed(() => `Slide ${state.value.page} di ${state.value.total}`
     :data-lesson="set.id"
     :data-instant="instant"
     :data-on-dark="onDark"
+    :data-compact="compact"
     :style="setStyle"
   >
     <progress
@@ -64,6 +66,7 @@ const label = computed(() => `Slide ${state.value.page} di ${state.value.total}`
   --progress-fill: var(--section-accent-on-dark);
   --progress-track: color-mix(in oklch, var(--section-primary-deep) 88%, var(--section-accent-on-dark));
 }
+.presentation-progress-rail[data-compact="true"] { inset: auto 224px 24px 24px; }
 .presentation-progress-fill {
   display: block;
   width: 100%;

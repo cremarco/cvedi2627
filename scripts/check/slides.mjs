@@ -172,12 +172,16 @@ try {
     const report = await slide.evaluate((root, expected) => {
       const box = root.getBoundingClientRect()
       const scale = box.width / 1280
+      const interactive = root.classList.contains('interactive-example-slide')
       const footer = root.querySelector('.slide-footer')?.getBoundingClientRect()
       const galleryBar = root.querySelector('.project-gallery-linkbar')?.getBoundingClientRect()
       const violations = []
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
       for (let node = walker.nextNode(); node; node = walker.nextNode()) {
         if (!node.textContent.trim() || node.parentElement.closest('.slide-footer, [aria-hidden="true"]')) continue
+        // Live examples keep one semantic H1 and deliberately scroll their task
+        // panels. Their controls and visible content have a dedicated suite.
+        if (interactive && node.parentElement.closest('h1, .a11y-ui')) continue
         const range = document.createRange()
         range.selectNodeContents(node)
         const inGalleryBar = galleryBar && node.parentElement.closest('h1, .project-gallery-linkbar')
@@ -199,7 +203,7 @@ try {
       const backgrounds = [...new Set([...root.querySelectorAll('.cvedi-card')].map(card => getComputedStyle(card).backgroundColor))]
       const title = root.querySelector('h1')
       let contentCenterError = null
-      if (root.classList.contains('centered-content-slide')) {
+      if (!interactive && root.classList.contains('centered-content-slide')) {
         const content = [...root.children].filter(element => {
           const style = getComputedStyle(element)
           return element !== title && !element.classList.contains('slide-footer')
@@ -232,6 +236,8 @@ try {
       })
       const ribbon = root.querySelector('.lesson-ribbon')
       const progressFill = document.querySelector('.presentation-progress-fill')
+      const progressRail = document.querySelector('.presentation-progress-rail'), progressBox = progressRail.getBoundingClientRect()
+      const pageCounter = root.querySelector('.slide-index'), counterBox = pageCounter?.getBoundingClientRect()
       const sectionStyle = getComputedStyle(root)
       const darkProgress = root.classList.contains('chapter-slide') || root.classList.contains('archive-wall-slide')
       const colorContext = document.createElement('canvas').getContext('2d')
@@ -242,7 +248,7 @@ try {
         colorContext.fillRect(0, 0, 1, 1)
         return [...colorContext.getImageData(0, 0, 1, 1).data].join(',')
       }
-      const marker = title && !root.classList.contains('archive-wall-slide') && !root.classList.contains('closing-slide')
+      const marker = title && !interactive && !root.classList.contains('archive-wall-slide') && !root.classList.contains('closing-slide')
         ? getComputedStyle(title, '::after').backgroundColor : null
       const type = element => {
         const style = getComputedStyle(element)
@@ -250,13 +256,24 @@ try {
       }
       return {
         page: expected,
+        interactive,
         title: title?.textContent.trim(),
+        titleHidden: title.getBoundingClientRect().width / scale <= 1.1 && title.getBoundingClientRect().height / scale <= 1.1
+          && getComputedStyle(title).display !== 'none' && getComputedStyle(title).visibility !== 'hidden',
+        fixedTitle: root.classList.contains('fixed-title-slide'),
+        centeredContent: root.classList.contains('centered-content-slide'),
+        ribbonCount: root.querySelectorAll('.lesson-ribbon').length,
+        footerCaptionCount: root.querySelectorAll('.slide-footer .slide-label').length,
         titleTop: Math.round((title.getBoundingClientRect().top - box.top) / scale),
         titleLeft: Math.round((title.getBoundingClientRect().left - box.left) / scale),
         cover: root.classList.contains('cover-slide') || root.classList.contains('chapter-slide'),
         contentCenterError,
         footer: root.querySelector('.slide-index')?.textContent.trim(),
         footerLabel: root.querySelector('.slide-index')?.getAttribute('aria-label'),
+        paginationType: pageCounter ? type(pageCounter) : null,
+        compactProgress: progressRail.dataset.compact === 'true',
+        counterProgressCenterError: counterBox ? Math.abs((counterBox.top + counterBox.bottom - progressBox.top - progressBox.bottom) / (2 * scale)) : null,
+        progressClearsCounter: counterBox ? progressBox.right <= counterBox.left - 8 * scale : null,
         notices: [...root.querySelectorAll('.cvedi-notice')].map(notice => {
           const rect = notice.getBoundingClientRect()
           const icon = notice.querySelector('.cvedi-notice-icon')
@@ -311,6 +328,15 @@ try {
     const lessonPage = set.indexOf(current) + 1
     const label = `Slide ${lessonPage} di ${set.length}`
     assert.equal(report.headings, 1, `slide ${number}: heading`)
+    assert.equal(report.interactive, Boolean(current.frontmatter.interactiveExample), `slide ${number}: live layout is limited to the requested examples`)
+    if (report.interactive) {
+      assert.equal(report.title, current.title, `slide ${number}: live example retains its semantic title`)
+      assert.ok(report.titleHidden, `slide ${number}: live example title is available to assistive technology without occupying the canvas`)
+      assert.equal(report.fixedTitle, false, `slide ${number}: live example does not reserve the ordinary title anchor`)
+      assert.equal(report.centeredContent, false, `slide ${number}: live example uses the full task area`)
+      assert.equal(report.ribbonCount, 0, `slide ${number}: live example omits the decorative ribbon`)
+      assert.equal(report.footerCaptionCount, 0, `slide ${number}: live example omits the redundant footer caption`)
+    }
     if (current.frontmatter.layout === 'summary') {
       assert.ok(report.summary, `slide ${number}: summary layout renders its contents`)
       assert.equal(report.summary.statement, current.frontmatter.summaryStatement)
@@ -323,6 +349,17 @@ try {
     const generalCover = String(current.frontmatter.class).split(/\s+/).includes('cover-slide')
     assert.equal(report.footer, generalCover ? undefined : `${lessonPage} / ${set.length}`, `slide ${number}: lesson footer`)
     assert.equal(report.footerLabel, generalCover ? undefined : label, `slide ${number}: accessible lesson footer`)
+    assert.equal(report.compactProgress, report.interactive, `slide ${number}: only live comparisons shorten the progress rail`)
+    if (report.paginationType) {
+      assert.equal(report.paginationType.size, report.interactive ? 12 : 16, `slide ${number}: page-counter scale follows the intended layout`)
+      assert.ok(report.paginationType.family.includes('Nunito Sans'), `slide ${number}: shared page-counter face`)
+      assert.equal(report.paginationType.weight, '600', `slide ${number}: shared page-counter weight`)
+      assert.ok(report.paginationType.numeric.includes('tabular-nums'), `slide ${number}: page-counter numerals remain aligned`)
+    }
+    if (report.interactive) {
+      assert.ok(report.counterProgressCenterError <= 1, `slide ${number}: compact counter and progress share their vertical center`)
+      assert.ok(report.progressClearsCounter, `slide ${number}: compact progress leaves room for the counter`)
+    }
     for (const notice of report.notices) {
       assert.ok(notice.bodyGap >= 24 - 1, `slide ${number}: notice clears the preceding body`)
       assert.ok(Math.abs(notice.bottom - 82) <= 1, `slide ${number}: teaching notice aligns above the footer`)
@@ -341,7 +378,7 @@ try {
     assert.equal(report.colors.progress, report.colors.progressAccent, `slide ${number}: progress uses the owning set accent and surface variant`)
     if (report.colors.ribbon) assert.equal(report.colors.ribbon, report.colors.primary, `slide ${number}: ribbon uses the owning set primary`)
     if (report.colors.titleMarker && !report.cover) assert.equal(report.colors.titleMarker, report.colors.primary, `slide ${number}: title marker uses the owning set primary`)
-    if (!report.cover) {
+    if (!report.cover && !report.interactive) {
       assert.equal(report.titleTop, 52, `slide ${number}: stable title top`)
       assert.equal(report.titleLeft, 72, `slide ${number}: stable title left`)
     }
@@ -349,7 +386,7 @@ try {
       const t = report.typography
       assert.ok(t.title.family.includes(report.cover ? 'Inter' : 'Nunito Sans'), `slide ${number}: delivered title face`)
       assert.equal(t.synthesis, 'none', `slide ${number}: real font weights and styles`)
-      if (!report.cover) {
+      if (!report.cover && !report.interactive) {
         assert.ok(t.readingFaceLoaded, `slide ${number}: local reading face loaded`)
         assert.equal(t.title.size, 47, `slide ${number}: common title scale`)
         assert.equal(t.title.weight, '500', `slide ${number}: common title weight`)

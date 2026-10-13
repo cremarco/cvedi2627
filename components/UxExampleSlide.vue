@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import examples from '../data/ux-examples.json'
 import LessonFigure from './LessonFigure.vue'
+import AcronymText from './AcronymText.vue'
 
 const props = defineProps<{ exampleId: string }>()
 const example = computed(() => {
@@ -15,9 +16,9 @@ const example = computed(() => {
   <section class="ux-example" aria-label="Esempio di UX negli oggetti e negli spazi">
     <div class="lesson-columns">
       <div class="ux-example-copy">
-        <p class="lead">{{ example.description }}</p>
-        <p>{{ example.question }}</p>
-        <a v-if="example.sourceUrl" :href="example.sourceUrl" target="_blank" rel="noopener noreferrer" class="link ux-example-source">Fonte: {{ example.sourceLabel }}</a>
+        <p class="lead"><AcronymText :text="example.description" /></p>
+        <p><AcronymText :text="example.question" /></p>
+        <a v-if="example.sourceUrl" :href="example.sourceUrl" target="_blank" rel="noopener noreferrer" class="link ux-example-source">Fonte: <AcronymText :text="example.sourceLabel" /></a>
       </div>
       <LessonFigure :src="example.src" :alt="example.alt" :caption="example.caption" />
     </div>

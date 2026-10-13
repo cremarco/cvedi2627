@@ -1,0 +1,49 @@
+/* The help mark inherits the text's metrics and hue, without adding an inline box. */
+.slide-acronym {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: color-mix(in srgb, currentColor 40%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+  cursor: help;
+}
+.slide-acronym:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+/* A teleported daisyUI tooltip stays outside the cards' artwork clipping and
+   the scaled slide canvas. Its position is bounded by the actual viewport. */
+.slide-acronym-tooltip.tooltip {
+  position: fixed;
+  width: 0;
+  height: 0;
+  z-index: 100;
+  pointer-events: none;
+  --tt-bg: var(--cvedi-gray-950);
+  --color-neutral-content: var(--cvedi-paper);
+}
+.slide-acronym-tooltip.tooltip > .tooltip-content {
+  max-width: min(360px, calc(100vw - 24px));
+  padding: 8px 12px;
+  font: 400 var(--cvedi-type-note)/1.4 var(--cvedi-font-reading);
+  letter-spacing: 0;
+  text-align: left;
+  text-wrap: pretty;
+  pointer-events: auto;
+}
+@media (prefers-reduced-motion: reduce) {
+  .slide-acronym-tooltip.tooltip > .tooltip-content,
+  .slide-acronym-tooltip.tooltip::after { transition: none; }
+}
+@media (forced-colors: active) {
+  .slide-acronym { text-decoration-color: currentColor; }
+  .slide-acronym-tooltip.tooltip > .tooltip-content { border: 1px solid CanvasText; background: Canvas; color: CanvasText; }
+}
+@media print {
+  .slide-acronym { text-decoration: none; }
+  .slide-acronym-tooltip { display: none !important; }
+}

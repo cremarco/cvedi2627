@@ -3,6 +3,7 @@ import { computed, useId } from 'vue'
 import { useSlideSet } from '../composables/use-slide-set'
 import { cardArtwork } from '../utils/card-artwork'
 import { publicAsset } from '../utils/public-asset'
+import AcronymText from './AcronymText.vue'
 
 const props = defineProps<{ title: string }>()
 const titleId = useId()
@@ -15,7 +16,7 @@ const background = computed(() => cardArtwork(set.value.id, props.title))
     <img v-if="background" class="card-background" :src="publicAsset(background)" alt="" aria-hidden="true" decoding="async" />
     <div class="card-body">
       <div class="card-heading">
-        <h2 :id="titleId" class="card-title">{{ title }}</h2>
+        <h2 :id="titleId" class="card-title"><span><AcronymText :text="title" /></span></h2>
       </div>
       <div class="card-copy"><slot /></div>
     </div>

@@ -283,6 +283,18 @@
         "Le aree uditiva, motoria, visiva e cognitiva non definiscono un unico modo d’uso.",
         "Screen reader, ingranditori, tastiere alternative, comandi vocali e puntatori sostengono compiti differenti.",
         "La compatibilità con questi strumenti deve essere progettata e verificata."
+      ],
+      "tools": [
+        {
+          "label": "NVDA · Windows",
+          "href": "https://www.nvaccess.org/download/",
+          "usage": "Screen reader gratuito; download e guida ai comandi."
+        },
+        {
+          "label": "VoiceOver · macOS",
+          "href": "https://support.apple.com/it-it/guide/voiceover/welcome/mac",
+          "usage": "Lettore integrato nel Mac; manuale italiano e tutorial."
+        }
       ]
     },
     {
@@ -350,7 +362,13 @@
           "icon": "compatibilita"
         }
       ],
-      "notice": "Questa è una mappa di orientamento. Consulta il testo WCAG 2.2 per i criteri di successo completi."
+      "notice": "Questa è una mappa di orientamento. Consulta il testo WCAG 2.2 per i criteri di successo completi.",
+      "links": [
+        {
+          "label": "WCAG 2.2",
+          "href": "https://www.w3.org/TR/WCAG22/"
+        }
+      ]
     },
     {
       "sourceNodes": [
@@ -371,7 +389,14 @@
           "icon": "percezione"
         }
       ],
-      "notice": "Sono previste eccezioni per elementi incidentali e logotipi. Il colore non deve essere l’unico segnale di stato, azione o errore."
+      "notice": "Sono previste eccezioni per elementi incidentali e logotipi. Il colore non deve essere l’unico segnale di stato, azione o errore.",
+      "tools": [
+        {
+          "label": "WebAIM Contrast Checker",
+          "href": "https://webaim.org/resources/contrastchecker/",
+          "usage": "Confronta testo e sfondo: rapporto e soglie AA/AAA."
+        }
+      ]
     },
     {
       "sourceNodes": [
@@ -398,6 +423,18 @@
         },
         {
           "asset": "l05-adobe-visione"
+        }
+      ],
+      "tools": [
+        {
+          "label": "Adobe · Controllo del contrasto",
+          "href": "https://color.adobe.com/create/color-contrast-analyzer",
+          "usage": "Misura il rapporto tra primo piano e sfondo."
+        },
+        {
+          "label": "Adobe · Simulazione dei colori",
+          "href": "https://color.adobe.com/create/color-accessibility",
+          "usage": "Esplora la palette nelle simulazioni della visione dei colori."
         }
       ]
     },
@@ -1080,6 +1117,18 @@
           "text": "Compiti realistici con strumenti e modalità differenti; registra ostacoli e conseguenze.",
           "icon": "inclusione"
         }
+      ],
+      "tools": [
+        {
+          "label": "WAVE · Estensione browser",
+          "href": "https://wave.webaim.org/extension/",
+          "usage": "Individua problemi automatici sul tuo progetto, anche in locale."
+        },
+        {
+          "label": "Accessibility Insights · FastPass",
+          "href": "https://accessibilityinsights.io/docs/web/getstarted/fastpass/",
+          "usage": "Visualizza il percorso di Tab e controlla l’ordine del focus."
+        }
       ]
     },
     {
@@ -1092,6 +1141,20 @@
         "Evaluation Tools: repertorio degli strumenti.",
         "Easy Checks: controlli preliminari, senza sostituire un audit completo.",
         "Involving Users in Evaluation: guida alle prove con persone; una persona non rappresenta tutta una categoria."
+      ],
+      "links": [
+        {
+          "label": "Evaluation Tools",
+          "href": "https://www.w3.org/WAI/test-evaluate/tools/list/"
+        },
+        {
+          "label": "Easy Checks",
+          "href": "https://www.w3.org/WAI/test-evaluate/preliminary/"
+        },
+        {
+          "label": "Involving Users in Evaluation",
+          "href": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        }
       ]
     },
     {

@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HeroIcon from './HeroIcon.vue'
+import AcronymText from './AcronymText.vue'
 import type { HeroIconName } from '../data/heroicons'
 
 withDefaults(defineProps<{
@@ -24,7 +25,7 @@ const icons = {
 <template>
   <aside class="alert alert-soft cvedi-notice" role="note" :aria-label="title || labels[kind]" :data-kind="kind">
     <div class="cvedi-notice-copy">
-      <h2 v-if="title">{{ title }}</h2>
+      <h2 v-if="title"><AcronymText :text="title" /></h2>
       <slot />
     </div>
     <HeroIcon class="cvedi-notice-icon" :name="icons[kind]" />

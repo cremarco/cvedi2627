@@ -1,0 +1,282 @@
+{
+  "date": "2026-10-13",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1112",
+  "sectionId": "204:8297",
+  "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+  "boards": [
+    {
+      "key": "old-proximity",
+      "title": "Vicinanza: parti che formano un insieme",
+      "afterId": "3415:867",
+      "layout": "twoColumns",
+      "groups": [
+        [
+          {
+            "key": "campbell",
+            "label": "a · Parti e figura",
+            "maxHeight": 232
+          }
+        ],
+        [
+          {
+            "key": "proximity-layout",
+            "label": "b · Due layout",
+            "maxHeight": 96
+          },
+          {
+            "key": "proxima-logo",
+            "label": "c · Proxima",
+            "maxHeight": 66
+          }
+        ]
+      ],
+      "lead": "Distanze e disposizione possono far emergere una figura oppure associare i contenuti di una scheda.¹",
+      "caption": "a. Campagna attribuita a Campbell Mithun. b. Confronto di schede. c. Marchio Proxima. Immagini recuperate dal booklet 2024.",
+      "body": "Nella figura {FIG1}, i frammenti compongono un albero; nei layout la distanza suggerisce quali immagine, titolo, testo e comando appartengano alla stessa scheda. Nel marchio, i punti si raccolgono nella lettera centrale.\n\nI segni di valutazione fanno parte del confronto originale: osserva le relazioni e verifica la comprensione nel compito.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF pp. 316–317. Campbell Mithun e rispettivi titolari; autore del confronto non indicato. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        }
+      ],
+      "side": "DX"
+    },
+    {
+      "key": "old-similarity",
+      "title": "Somiglianza: ripetizione e differenza",
+      "afterId": "3417:1199",
+      "layout": "twoColumns",
+      "groups": [
+        [
+          {
+            "key": "haribo",
+            "label": "a · Ripetizione e anomalia",
+            "maxHeight": 222
+          }
+        ],
+        [
+          {
+            "key": "similarity-layout",
+            "label": "b · Schede coerenti",
+            "maxHeight": 95
+          },
+          {
+            "key": "bee-logo",
+            "label": "c · Forme e orientamenti",
+            "maxHeight": 105
+          }
+        ]
+      ],
+      "lead": "Una serie di elementi simili costruisce una relazione; una differenza può rendere evidente un elemento.¹",
+      "caption": "a. Haribo: un elemento differisce nella serie. b. Due strutture di scheda. c. Figura di fiore e ape recuperata dal booklet.",
+      "body": "La figura {FIG1} permette di confrontare colore, dimensione, forma e orientamento. Nelle schede, la ripetizione dello stesso trattamento suggerisce ruoli simili; nel marchio concorrono somiglianza e riconoscimento della forma.\n\nNon esiste un ordine fisso di efficacia fra colore, dimensione e forma: valuta il loro rapporto nella composizione.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF pp. 320 e 322. © Haribo e rispettivi titolari; autore del confronto e del marchio non identificato nella fonte. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        }
+      ],
+      "side": "SX"
+    },
+    {
+      "key": "old-region",
+      "title": "Regione comune: leggere le aree",
+      "afterId": "3417:1294",
+      "layout": "rowAndFull",
+      "groups": [
+        [
+          {
+            "key": "region-layout",
+            "label": "a · Schede e contenitori",
+            "maxHeight": 85
+          },
+          {
+            "key": "meta",
+            "label": "b · Una pagina Meta",
+            "maxHeight": 85
+          }
+        ],
+        [
+          {
+            "key": "insurance-dashboard",
+            "label": "c · Dashboard",
+            "maxHeight": 185
+          }
+        ]
+      ],
+      "lead": "Bordi e superfici possono separare informazioni appartenenti ad aree differenti.¹",
+      "caption": "a. Confronto fra layout. b. Schermata storica Meta. c. Car Insurance Policies Dashboard. Originali del booklet 2024.",
+      "body": "Nella figura {FIG1}, superfici e titoli distinguono le aree; all’interno dei gruppi intervengono anche vicinanza e somiglianza. La dashboard organizza grafici e informazioni in sezioni.\n\nLo screenshot documenta una composizione, non la sua usabilità né l’accuratezza dei dati esemplificativi.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF pp. 335–336. © Meta e rispettivi titolari; autore della dashboard non indicato nella fonte. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        }
+      ],
+      "side": "DX"
+    },
+    {
+      "key": "old-motion",
+      "title": "Una fotografia non mostra il movimento",
+      "afterId": "3417:1401",
+      "layout": "fullStack",
+      "groups": [
+        [
+          {
+            "key": "turkish-birds",
+            "label": "Turkish Airlines · esempio statico",
+            "maxHeight": 235
+          }
+        ]
+      ],
+      "lead": "Una fotografia può suggerire direzioni condivise, ma documenta soltanto un istante.¹",
+      "caption": "Campagna Turkish Airlines recuperata dal booklet 2024. Posizione e orientamento degli uccelli sono visibili; il movimento nel tempo non è osservabile.",
+      "body": "Nella figura {FIG1}, la disposizione degli uccelli suggerisce un insieme. Il destino comune richiede invece di osservare uno spostamento coerente nel tempo: confronta l’immagine con la sequenza di tre istanti (figura {REF:3415:1265}).\n\nManteniamo l’esempio storico distinguendo il movimento suggerito dalla prova del raggruppamento per movimento.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF p. 325. © Turkish Airlines. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        }
+      ],
+      "side": "SX"
+    },
+    {
+      "key": "old-continuity",
+      "title": "Seguire un percorso visivo",
+      "afterId": "3416:974",
+      "layout": "fullStack",
+      "groups": [
+        [
+          {
+            "key": "continuity-menu",
+            "label": "a · Organizzazione del menu",
+            "maxHeight": 75
+          }
+        ],
+        [
+          {
+            "key": "minard-map",
+            "label": "b · Carta figurativa di Minard",
+            "maxHeight": 168
+          }
+        ]
+      ],
+      "lead": "Allineamenti e percorsi continui possono rendere riconoscibile una sequenza di informazioni.¹",
+      "caption": "a. Due disposizioni del menu. b. Carta figurativa di Charles Joseph Minard, 1869. Immagini recuperate dal booklet 2024.",
+      "body": "La figura {FIG1} accosta un confronto di navigazione e una carta figurativa: i percorsi aiutano a mettere in relazione parti successive della rappresentazione. Scala, colore, testi e legenda contribuiscono alla lettura.\n\nSono applicazioni progettuali, da distinguere dalle dimostrazioni percettive con contorni che si incrociano.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF p. 328. Confronto didattico e carta di Minard; attribuzione e data verificate nel catalogo BnF. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        },
+        {
+          "label": "BnF, Carte figurative des pertes successives, Minard, 1869.",
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb40650878p"
+        }
+      ],
+      "side": "DX"
+    },
+    {
+      "key": "old-figureground",
+      "title": "Attribuire i contorni alle figure",
+      "afterId": "3416:1093",
+      "layout": "twoColumns",
+      "groups": [
+        [
+          {
+            "key": "sancob",
+            "label": "a · SANCCOB",
+            "maxHeight": 235
+          }
+        ],
+        [
+          {
+            "key": "figureground-modal",
+            "label": "b · Contenuto sovrapposto",
+            "maxHeight": 90
+          },
+          {
+            "key": "rai",
+            "label": "c · Marchio Rai",
+            "maxHeight": 115
+          }
+        ]
+      ],
+      "lead": "Un margine può separare superfici la cui lettura cambia secondo ciò che viene riconosciuto come figura.¹",
+      "caption": "a. Campagna SANCCOB. b. Confronto con un pannello in primo piano. c. Marchio Rai: profili e farfalla. Dal booklet 2024.",
+      "body": "Nella figura {FIG1}, le sagome partecipano alla lettura del fondo e delle figure. Nel marchio Rai, i profili delimitano anche una forma di farfalla.\n\nNel confronto di interfaccia, sovrapposizione e contrasto rendono evidente il pannello. La corretta gestione di focus e interazione richiede una verifica distinta dalla composizione statica.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF pp. 341–343. © SANCCOB, Rai e rispettivi titolari; autore del confronto non indicato. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        }
+      ],
+      "side": "DX"
+    },
+    {
+      "key": "old-photo-context",
+      "title": "Fotografie: conoscere il contesto",
+      "afterId": "3451:1606",
+      "layout": "fullStack",
+      "groups": [
+        [
+          {
+            "key": "doisneau",
+            "label": "a · Robert Doisneau · 1950",
+            "maxHeight": 138
+          }
+        ],
+        [
+          {
+            "key": "widener",
+            "label": "b · Jeff Widener / AP · 1989",
+            "maxHeight": 138
+          }
+        ]
+      ],
+      "lead": "Titolo, attribuzione e contesto aiutano a leggere un’immagine e a distinguere osservazione e interpretazione.¹",
+      "caption": "a. Le Baiser de l’Hôtel de Ville, Robert Doisneau, 1950. b. Tank Man, Jeff Widener / Associated Press, 1989. Dal booklet 2024.",
+      "body": "Le fotografie della figura {FIG1} sono qui esempi di comunicazione visiva. Inquadratura e relazione fra le figure sostengono la lettura, mentre la didascalia aggiunge informazioni che l’immagine da sola non restituisce.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF p. 21. © Robert Doisneau; © Jeff Widener / Associated Press. Attribuzioni verificate tramite INA e National Gallery of Art. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        }
+      ],
+      "side": "SX"
+    },
+    {
+      "key": "old-negative-space",
+      "title": "Spazio negativo e forme riconoscibili",
+      "afterId": "198:4796",
+      "layout": "twoColumns",
+      "groups": [
+        [
+          {
+            "key": "negative-spaces",
+            "label": "a · Tang Yau Hoong",
+            "maxHeight": 195
+          }
+        ],
+        [
+          {
+            "key": "spartan",
+            "label": "b · Spartan Golf",
+            "maxHeight": 195
+          }
+        ]
+      ],
+      "lead": "La relazione fra pieno e vuoto può suggerire più forme nella stessa composizione.¹",
+      "caption": "a. Negative Spaces, attribuito a Tang Yau Hoong nel booklet. b. Spartan Golf: sagoma di golfista e richiamo all’elmo.",
+      "body": "Nella figura {FIG1}, osserviamo prima i margini presenti e poi discutiamo le forme riconosciute. Nel marchio, il golfista e il richiamo a un elmo concorrono alla lettura.\n\nLa familiarità aiuta l’interpretazione: non occorre attribuire ogni sagoma riconoscibile alla chiusura.",
+      "sources": [
+        {
+          "label": "Booklet CVeDI, edizione dicembre 2024, PDF pp. 339 e 349. © Tang Yau Hoong e rispettivi titolari; attribuzioni conservate dalla fonte. Originali e proporzioni conservati; le schermate sono esempi storici.",
+          "url": null
+        }
+      ],
+      "side": "SX"
+    }
+  ]
+}

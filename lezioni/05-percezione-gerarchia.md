@@ -300,6 +300,7 @@ lessonSlide: 16
 
 <p class="lead">WebAIM, centro dell’Utah State University, offre formazione, ricerca e valutazione.</p>
 <ul class="cvedi-list"><li><span>Le aree uditiva, motoria, visiva e cognitiva non definiscono un unico modo d’uso.</span></li><li><span>Screen reader, ingranditori, tastiere alternative, comandi vocali e puntatori sostengono compiti differenti.</span></li><li><span>La compatibilità con questi strumenti deve essere progettata e verificata.</span></li></ul>
+<nav class="lesson-tool-resources" aria-label="Strumenti per la verifica"><ul class="lesson-tools" role="list"><li><a class="link" href="https://www.nvaccess.org/download/">NVDA · Windows</a><p>Screen reader gratuito; download e guida ai comandi.</p></li><li><a class="link" href="https://support.apple.com/it-it/guide/voiceover/welcome/mac">VoiceOver · macOS</a><p>Lettore integrato nel Mac; manuale italiano e tutorial.</p></li></ul></nav>
 
 ---
 layout: "default"
@@ -376,7 +377,7 @@ lessonSlide: 20
 
 <p class="lead">Le tredici linee guida rimandano a criteri, livelli ed eccezioni.</p>
 <div class="cvedi-grid"><CvediCard title="03 · Comprensibile"><p>3.1 Leggibile · 3.2 Prevedibile · 3.3 Assistenza nell’inserimento.</p></CvediCard><CvediCard title="04 · Robusto"><p>4.1 Compatibilità con strumenti e tecnologie assistive.</p></CvediCard></div>
-<CvediNotice kind="explore" title="Da tenere presente"><p>Questa è una mappa di orientamento. Consulta il testo WCAG 2.2 per i criteri di successo completi.</p></CvediNotice>
+<CvediNotice kind="explore" title="Da tenere presente"><p>Questa è una mappa di orientamento. Consulta il testo <a class="link" href="https://www.w3.org/TR/WCAG22/">WCAG 2.2</a> per i criteri di successo completi.</p></CvediNotice>
 
 ---
 layout: "default"
@@ -397,6 +398,7 @@ lessonSlide: 21
 <p class="lead">WCAG 2.2 · 1.4.3, livello AA.</p>
 <div class="cvedi-grid"><CvediCard title="Testo normale"><p>Rapporto di contrasto di almeno 4,5:1 rispetto al fondo effettivo.</p></CvediCard><CvediCard title="Testo grande"><p>Almeno 3:1; grande significa 18 pt oppure 14 pt in grassetto.</p></CvediCard></div>
 <CvediNotice kind="explore" title="Da tenere presente"><p>Sono previste eccezioni per elementi incidentali e logotipi. Il colore non deve essere l’unico segnale di stato, azione o errore.</p></CvediNotice>
+<nav class="lesson-tool-resources" aria-label="Strumenti per la verifica"><ul class="lesson-tools" role="list"><li><a class="link" href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a><p>Confronta testo e sfondo: rapporto e soglie AA/AAA.</p></li></ul></nav>
 
 ---
 layout: "default"
@@ -435,6 +437,7 @@ lessonSlide: 23
 
 <p class="lead">Le immagini del booklet mostrano gli strumenti di contrasto e simulazione.</p>
 <div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-adobe-contrasto-83c74c16f32f.webp" alt="Adobe Color · verifica del contrasto; immagine conservata dalla tavola 178 del booklet." caption="Adobe Color · verifica del contrasto; immagine conservata dalla tavola 178 del booklet." /><LessonFigure src="/images/processo-ux/l05-adobe-visione-fb50e67de9bc.webp" alt="Adobe Color · simulazione della visione dei colori; immagine conservata dalla tavola 178 del booklet." caption="Adobe Color · simulazione della visione dei colori; immagine conservata dalla tavola 178 del booklet." /></div>
+<nav class="lesson-tool-resources" aria-label="Strumenti per la verifica"><ul class="lesson-tools" role="list"><li><a class="link" href="https://color.adobe.com/create/color-contrast-analyzer">Adobe · Controllo del contrasto</a><p>Misura il rapporto tra primo piano e sfondo.</p></li><li><a class="link" href="https://color.adobe.com/create/color-accessibility">Adobe · Simulazione dei colori</a><p>Esplora la palette nelle simulazioni della visione dei colori.</p></li></ul></nav>
 
 ---
 layout: "default"
@@ -1769,6 +1772,7 @@ lessonSlide: 93
 
 <p class="lead">Combina metodi che rilevano barriere differenti.</p>
 <div class="cvedi-grid three"><CvediCard title="Controlli automatici"><p>Individuano alcuni problemi; non giudicano da soli pertinenza e accessibilità.</p></CvediCard><CvediCard title="Verifiche manuali"><p>Struttura, contenuti, tastiera, focus, ingrandimenti, errori e alternative.</p></CvediCard><CvediCard title="Prove d’uso"><p>Compiti realistici con strumenti e modalità differenti; registra ostacoli e conseguenze.</p></CvediCard></div>
+<nav class="lesson-tool-resources" aria-label="Strumenti per la verifica"><ul class="lesson-tools" role="list"><li><a class="link" href="https://wave.webaim.org/extension/">WAVE · Estensione browser</a><p>Individua problemi automatici sul tuo progetto, anche in locale.</p></li><li><a class="link" href="https://accessibilityinsights.io/docs/web/getstarted/fastpass/">Accessibility Insights · FastPass</a><p>Visualizza il percorso di Tab e controlla l’ordine del focus.</p></li></ul></nav>
 
 ---
 layout: "default"
@@ -1787,7 +1791,7 @@ lessonSlide: 94
 # WAI: risorse per la valutazione
 
 <p class="lead">Web Accessibility Initiative è l’iniziativa del W3C per l’accessibilità.</p>
-<ul class="cvedi-list"><li><span>Evaluation Tools: repertorio degli strumenti.</span></li><li><span>Easy Checks: controlli preliminari, senza sostituire un audit completo.</span></li><li><span>Involving Users in Evaluation: guida alle prove con persone; una persona non rappresenta tutta una categoria.</span></li></ul>
+<ul class="cvedi-list"><li><span><a class="link" href="https://www.w3.org/WAI/test-evaluate/tools/list/">Evaluation Tools</a>: repertorio degli strumenti.</span></li><li><span><a class="link" href="https://www.w3.org/WAI/test-evaluate/preliminary/">Easy Checks</a>: controlli preliminari, senza sostituire un audit completo.</span></li><li><span><a class="link" href="https://www.w3.org/WAI/test-evaluate/involving-users/">Involving Users in Evaluation</a>: guida alle prove con persone; una persona non rappresenta tutta una categoria.</span></li></ul>
 
 ---
 layout: "default"

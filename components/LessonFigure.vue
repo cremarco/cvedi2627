@@ -3,6 +3,7 @@ import { ref, useId, watch } from 'vue'
 import { useIsSlideActive } from '@slidev/client'
 import LessonImageContent from './LessonImageContent.vue'
 import HeroIcon from './HeroIcon.vue'
+import AcronymText from './AcronymText.vue'
 import { useSlideSet } from '../composables/use-slide-set'
 
 const { setStyle } = useSlideSet()
@@ -71,7 +72,7 @@ function syncDialogState() {
       </button>
     </div>
     <figcaption v-if="caption">
-      <span class="lesson-caption">{{ caption }}</span>
+      <span class="lesson-caption"><AcronymText :text="caption" /></span>
     </figcaption>
   </figure>
   <Teleport to="body">
@@ -86,7 +87,7 @@ function syncDialogState() {
     >
       <div class="modal-box">
         <header>
-          <p :id="`${dialogId}-title`">{{ caption || alt }}</p>
+          <p :id="`${dialogId}-title`"><AcronymText :text="caption || alt" /></p>
           <form method="dialog">
             <button type="submit" class="btn btn-outline lesson-image-close">
               <HeroIcon name="x-mark" stroke-width="1.8" />

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-13",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1112",
+  "sectionId": "204:8297",
+  "boards": [
+    {
+      "key": "cooperazione-conflitto", "title": "Quando i principi interagiscono", "side": "SX", "afterId": "198:4902",
+      "lead": "Più fattori possono favorire lo stesso raggruppamento oppure suggerire organizzazioni diverse.¹",
+      "diagram": "competition",
+      "caption": "a. La vicinanza suggerisce coppie. b. Il colore sostiene le stesse coppie. c. Colore e vicinanza suggeriscono raggruppamenti diversi.",
+      "body": "Nella figura {FIG1}, posizione, distanza e dimensione dei punti restano identiche. Nei pannelli b e c cambia soltanto il colore. Quando i fattori cooperano, la suddivisione può risultare più evidente; quando competono, il loro peso dipende dalla configurazione.\n\nIl risultato non è semplicemente casuale e non esiste una graduatoria valida per ogni composizione. Nel progetto, rendi concordi i segnali che devono indicare la stessa relazione e verifica le ambiguità nel compito.",
+      "sources": [{"label":"Wertheimer, Laws of Organization in Perceptual Forms, 1923; trad. Ellis, 1938, § III. Schema originale, non misura sperimentale.","url":"https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm"}]
+    },
+    {
+      "key": "connessione-elementi", "title": "Vicinanza, regione e connessione", "side": "DX", "afterKey": "cooperazione-conflitto",
+      "lead": "Essere vicini, condividere un’area e avere un collegamento visibile sono relazioni differenti.¹",
+      "diagram": "connectedness",
+      "caption": "a. Punti equidistanti. b. Un contorno racchiude ciascuna coppia. c. Un tratto connette gli elementi della coppia.",
+      "body": "La figura {FIG1} conserva posizione e dimensione dei punti. Nei pannelli b e c compaiono rispettivamente regioni e collegamenti. La connessione degli elementi può suggerire un’unità anche senza ridurre la loro distanza.¹\n\nLa buona continuazione riguarda invece la continuità di direzione dei contorni. La connectedness uniforme descrive la segmentazione dell’immagine in regioni con proprietà omogenee: va distinta dal raggruppamento di elementi già individuati.¹\n\nNelle interfacce, osserva quale relazione viene espressa da un contenitore, da una linea o dalla spaziatura; non attribuirle tutte alla continuità.",
+      "sources": [{"label":"Palmer, Perceptual Grouping: It’s Later Than You Think, Current Directions in Psychological Science, 11(3), 101–106, 2002. Schema originale.","url":"https://palmerlab.berkeley.edu/pdf/Palmer.pdf"}]
+    },
+    {
+      "key": "funzioni-immagini", "title": "Che cosa comunica un’immagine", "side": "SX", "afterId": "198:4807",
+      "lead": "Il ruolo di un’immagine dipende dal messaggio, dal testo che la accompagna e dal contesto in cui compare.¹",
+      "diagram": "imageRoles",
+      "caption": "Tre funzioni negli esempi delle slide: a. evocare un’atmosfera; b. descrivere il prodotto; c. sintetizzare una categoria con un segno.",
+      "body": "Nella figura {FIG1}, l’ambiente del locale può evocare un’atmosfera; le pietanze mostrano il prodotto; i piccoli segni rappresentano tipi di cibo.\n\nQueste funzioni possono coesistere. La stessa fotografia, usata come sfondo o come dettaglio di un catalogo, risponde a domande diverse. Prima di scegliere l’immagine, precisa che cosa deve far comprendere e verifica se il testo rende chiaro il messaggio.",
+      "sources": [{"label":"CVeDI, Lezione 1 · Visual design, A.A. 2025/26, slide 41–44; Lezione 5B · Il linguaggio delle immagini, slide 5–8. Figure originali conservate; autori terzi non specificati nelle slide.","url":"https://docs.google.com/presentation/d/1aYSAO3stDeU9rLBY6ihH4we0ZzsC_2pHrgZuAk9nQ2k/edit"}]
+    },
+    {
+      "key": "fotografia-illustrazione", "title": "Fotografia o illustrazione?", "side": "DX", "afterKey": "funzioni-immagini",
+      "lead": "Scegli il mezzo in base a ciò che vuoi mostrare: un prodotto, una situazione oppure un concetto.¹",
+      "diagram": "photoIllustration",
+      "caption": "a. Allbirds: fotografia ambientata nella comunicazione del prodotto. b. Headspace: personaggi e scene illustrati. Esempi d’archivio recuperati dalla Lezione 5B.",
+      "body": "La figura {FIG1} confronta due scelte delle slide. In a la fotografia mette in scena persone, prodotto e ambiente; in b l’illustrazione costruisce personaggi e situazioni con forme e colori coerenti.\n\nFotografia e illustrazione possono descrivere, evocare o sintetizzare. Nessuna garantisce da sola autenticità, comprensione o memorabilità: valuta pertinenza, dettaglio, stile e leggibilità nella composizione finale.",
+      "sources": [{"label":"CVeDI, Lezione 5B · Il linguaggio delle immagini, slide 9–14. © Allbirds e Headspace. Immagini d’archivio; data di cattura non indicata nella fonte. Siti ufficiali verificati il 13 ottobre 2026.","url":"https://docs.google.com/presentation/d/1aYSAO3stDeU9rLBY6ihH4we0ZzsC_2pHrgZuAk9nQ2k/edit"}]
+    },
+    {
+      "key": "icone-pittogrammi", "title": "Icone, pittogrammi e illustrazioni", "side": "SX", "afterKey": "fotografia-illustrazione",
+      "lead": "Un’icona di interfaccia e un’immagine illustrativa possono avere funzioni e livelli di dettaglio diversi.¹",
+      "diagram": "ibmIcons",
+      "caption": "IBM: a. un pittogramma usato come illustrazione; b. pittogrammi impiegati al posto di icone UI, uso sconsigliato dal sistema. Esempi ufficiali verificati il 13 ottobre 2026.",
+      "body": "Nel confronto della figura {FIG1}, il pittogramma sostiene il contenuto di una card; nella lista gli stessi segni risultano poco adatti alla funzione di icone UI. La distinzione dipende da uso, scala e dettaglio.¹\n\nPer un controllo, scegli un segno riconoscibile nel contesto e affianca un’etichetta quando serve. Mantieni coerenza nello stile e prova la comprensione dell’azione: un’icona non è automaticamente un linguaggio universale.\n\nIl nome accessibile deve comunicare lo scopo del controllo. Le alternative testuali sono approfondite nella sezione Accessibilità.²",
+      "sources": [{"label":"IBM Design Language · Pictograms, Usage. © IBM, immagini integre; consultato il 13 ottobre 2026.","url":"https://www.ibm.com/design/language/iconography/pictograms/usage/"},{"label":"W3C WAI · Functional Images; consultato il 13 ottobre 2026.","url":"https://www.w3.org/WAI/tutorials/images/functional/"}]
+    }
+  ]
+}
