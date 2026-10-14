@@ -21,7 +21,7 @@
     reportLink.setAttribute('aria-label', name);
     reportLink.title = name;
     const advertisements = [...document.querySelectorAll('.home-ad__link')];
-    const worldDiscovery = [...document.querySelectorAll('.world-discovery')];
+    const worldDiscovery = [...document.querySelectorAll('#world-country-form,.world-discovery')];
     let fullWidth = reportLink.getBoundingClientRect().width;
     const clearAdArtwork = () => {
       const rect = reportLink.getBoundingClientRect();

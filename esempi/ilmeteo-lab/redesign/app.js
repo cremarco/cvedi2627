@@ -154,8 +154,10 @@
       if (primaryWidth) forecastBrowser.style.setProperty('--forecast-map-width', `${primaryWidth}px`);
       const image = forecastPanels.find(panel => !panel.hidden)?.querySelector('img');
       if (!image) return;
-      const inset = image.getBoundingClientRect().top - forecastBrowser.getBoundingClientRect().top + 12;
+      const bounds = image.getBoundingClientRect();
+      const inset = bounds.top - forecastBrowser.getBoundingClientRect().top;
       forecastBrowser.style.setProperty('--forecast-tabs-top', `${inset}px`);
+      forecastBrowser.style.setProperty('--forecast-tabs-height', `${bounds.height}px`);
     }
     forecastBrowser.querySelector('.forecast-maps').setAttribute('role', 'presentation');
     window.ILMETEO_UI.tabs(dateTabs, tabs, { orientation: 'vertical', select: selectDate });

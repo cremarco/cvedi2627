@@ -383,13 +383,15 @@ body[data-version="redesign"] .has-date-tabs .forecast-map img {
 body[data-version="redesign"] .forecast-date-tabs {
   position: absolute; z-index: 2; top: var(--forecast-tabs-top, 48px); right: 16px;
   display: flex; flex-direction: column; flex-wrap: nowrap;
-  gap: 4px; width: var(--forecast-date-width); margin: 0; padding: 4px; border-radius: 8px;
-  background: var(--meteo-paper); box-shadow: 0 4px 16px rgb(3 24 54 / 16%);
+  gap: 2px; width: var(--forecast-date-width); height: var(--forecast-tabs-height,auto); margin: 0; padding: 4px;
+  border: 1px solid var(--meteo-rule); border-radius: 0;
+  background: var(--meteo-paper); box-shadow: none;
 }
 body[data-version="redesign"] .forecast-date-tabs[hidden] { display: none; }
 body[data-version="redesign"] .forecast-date-tabs .map-layer-control {
-  flex: none; width: 100%; min-width: 0;
-  height: 60px; min-height: 60px; padding: 8px 12px;
+  flex: 1 1 0; width: 100%; min-width: 0;
+  height: auto; min-height: 48px; padding: 8px 12px;
+  border: 0; border-radius: 0; background: transparent; box-shadow: none;
 }
 .forecast-date-control__label { display: flex; flex-direction: column; gap: 4px; }
 .forecast-date-control__date { font-size: 20px; font-variant-numeric: tabular-nums; }
@@ -406,7 +408,7 @@ body[data-version="redesign"] .forecast-date-tabs .map-layer-control {
   }
   body[data-page="home"] .forecast-map-browser .forecast-maps { padding-inline: 0; }
   body[data-version="redesign"] .has-date-tabs .forecast-maps { width: 100%; }
-  body[data-version="redesign"] .forecast-date-tabs { position: static; order: -1; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); width: 100%; margin-bottom: 12px; border: 1px solid var(--meteo-rule); border-radius: 0; box-shadow: none; }
+  body[data-version="redesign"] .forecast-date-tabs { position: static; order: -1; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); width: 100%; height: auto; margin-bottom: 12px; border: 1px solid var(--meteo-rule); border-radius: 0; box-shadow: none; }
   body[data-version="redesign"] .forecast-date-tabs .map-layer-control {
     height: 48px; min-height: 48px; padding: 4px;
   }

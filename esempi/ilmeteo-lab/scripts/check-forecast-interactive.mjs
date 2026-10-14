@@ -53,13 +53,18 @@ async function open(width, options = {}) {
 
 try {
   browser = await chromium.launch({headless:true});
-  for (const width of [1280,897,768,390,320]) {
+  for (const width of [1280,1135,897,768,390,320]) {
     const {context,page} = await open(width);
     const initial = await state(page);
     assert.equal(initial.visible,20, `${width}: twenty markers inside the overview`);
     assert.equal(initial.overflow,0, `${width}: no page overflow`);
     assert.equal(new Set(initial.labels.map(label => label.split(':')[0])).size,20);
     assert.equal(await page.locator('#forecast-interactive .forecast-map-region').count(),20);
+    if (width > 600) await page.waitForFunction(() => {
+      const map = document.querySelector('#forecast-interactive').getBoundingClientRect();
+      const tabs = document.querySelector('.forecast-date-tabs').getBoundingClientRect();
+      return Math.abs(tabs.top-map.top)<1 && Math.abs(tabs.height-map.height)<1 && Math.abs(tabs.left-map.right)<1;
+    });
     if (screenshots) await page.locator('.forecast-map-browser').screenshot({path:path.join(output,`after-${width}.png`)});
     const palette = await page.evaluate(() => {
       const style = element => getComputedStyle(document.querySelector(element));

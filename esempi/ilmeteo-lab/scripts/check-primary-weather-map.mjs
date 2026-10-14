@@ -38,7 +38,7 @@ try {
   for(const width of [1280,897,390,320]) {
     const {context,page}=await open(width);
     const initial=await state(page);
-    assert.equal(await page.locator('.leaflet-container').count(),2,'one primary map and one daily map');
+    assert.equal(await page.locator('#map.leaflet-container,#forecast-interactive.leaflet-container').count(),2,'one primary map and one daily map');
     assert.equal(await page.locator('#map .forecast-map-region').count(),20);
     assert.equal(await page.locator('#forecast-interactive .forecast-map-region').count(),20);
     const sameBase=await page.evaluate(()=>{
@@ -160,9 +160,9 @@ try {
   record('play-pause-stop-fullscreen-touch');await normal.context.close();
   const resize=await open(1280);
   const before=await state(resize.page);
-  await resize.page.setViewportSize({width:390,height:900});await resize.page.waitForFunction(()=>window.__weatherMaps.map.getSize().x<300);
-  const narrow=await state(resize.page);assert(narrow.zoom<before.zoom);
-  await resize.page.setViewportSize({width:1280,height:900});await resize.page.waitForFunction(()=>window.__weatherMaps.map.getSize().x>600);
+  await resize.page.setViewportSize({width:390,height:900});await resize.page.waitForFunction(()=>window.__weatherMaps.map.getSize().x===document.querySelector('#map').clientWidth);
+  const narrow=await state(resize.page);assert(narrow.size.x<before.size.x);assert(narrow.zoom<before.zoom);
+  await resize.page.setViewportSize({width:1280,height:900});await resize.page.waitForFunction(()=>window.__weatherMaps.map.getSize().x===document.querySelector('#map').clientWidth);
   assert.equal((await state(resize.page)).zoom,before.zoom);
   record('resize-overview');await resize.context.close();
   for(const width of [1280,390]) {

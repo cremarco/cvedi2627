@@ -42,8 +42,8 @@ export async function buildHomeModules() {
     const html = match[1];
     return {href: html.match(/data-live-href="([^"]+)"/)[1], image: html.match(/\bsrc="([^"]+)"/)[1], title: plain(html.match(/<h3[^>]*>([\s\S]*?)<\/h3>/)[1]), date: plain(html.match(/<p[^>]*>([\s\S]*?)<\/p>/)[1])};
   });
-  const opening = `${ad('booklet')}
-  <div class="home-edition"><h1>Previsioni Meteo Italia</h1></div>
+  const opening = `<div class="home-edition"><h1>Previsioni Meteo Italia</h1></div>
+  ${ad('booklet')}
   <section class="home-frontpage" aria-labelledby="frontpage-title">
     <div class="home-section-heading"><h2 id="frontpage-title">Prima pagina</h2><a class="lab-btn lab-btn-ghost" href="#home-news">Tutte le notizie${chevron}</a></div>
     <ul class="home-frontpage__stories">${headlines.map(story => `<li><a href="#snapshot-unavailable" data-live-href="${escape(story.href)}"><img src="${story.image}" width="240" height="150" alt="" decoding="async"/><div><h3>${escape(story.title)}</h3><time>${escape(story.date)}</time></div></a></li>`).join('\n')}</ul>
@@ -77,6 +77,13 @@ export async function buildHomeModules() {
   const international = `<section class="home-international world-weather" id="international-world" aria-labelledby="international-title-world">
     <div class="world-heading"><h2 id="international-title-world">Meteo nel mondo</h2><p>Scegli un paese sulla mappa oppure cercalo per nome.</p></div>
     <div class="world-layout">
+        <form id="world-country-form" class="world-search" action="#international-world" method="get">
+          <label for="world-country-search">Cerca un paese</label>
+          <div class="world-search-row"><input id="world-country-search" class="lab-input" type="search" name="paese" maxlength="64" autocomplete="off" placeholder="Es. Italia, Francia, Giappone" role="combobox" aria-autocomplete="list" aria-controls="world-country-results" aria-expanded="false" aria-describedby="world-search-status" list="world-country-options"/><button class="lab-btn" type="submit" aria-label="Cerca paese">${search}</button></div>
+          <ul id="world-country-results" class="world-country-results" role="listbox" aria-label="Paesi e territori" hidden></ul>
+          <datalist id="world-country-options">${countryOptions}</datalist>
+          <p id="world-search-status" class="world-status" role="status" aria-live="polite">Puoi cercare per nome o selezionare un paese sulla mappa.</p>
+        </form>
       <div class="world-cartography">
         <div id="world-weather-map" class="world-map forecast-interactive" tabindex="0" aria-label="Mappa del mondo per scegliere un paese" aria-describedby="world-map-credit" hidden></div>
         <img id="world-map-fallback" src="../assets/maps/world/world.svg" width="1200" height="600" alt="Mappa completa del mondo con i confini dei paesi e dei territori" loading="lazy"/>
@@ -88,13 +95,7 @@ export async function buildHomeModules() {
         <noscript><p class="world-status">Attiva JavaScript per selezionare i paesi e navigare la mappa. Le previsioni di Milano sono disponibili dal collegamento accanto.</p></noscript>
       </div>
       <div class="world-discovery">
-        <form id="world-country-form" class="world-search" action="#international-world" method="get">
-          <label for="world-country-search">Cerca un paese</label>
-          <div class="world-search-row"><input id="world-country-search" class="lab-input" type="search" name="paese" maxlength="64" autocomplete="off" placeholder="Es. Italia, Francia, Giappone" role="combobox" aria-autocomplete="list" aria-controls="world-country-results" aria-expanded="false" aria-describedby="world-search-status" list="world-country-options"/><button class="lab-btn" type="submit" aria-label="Cerca paese">${search}</button></div>
-          <ul id="world-country-results" class="world-country-results" role="listbox" aria-label="Paesi e territori" hidden></ul>
-          <datalist id="world-country-options">${countryOptions}</datalist>
-          <p id="world-search-status" class="world-status" role="status" aria-live="polite">Puoi cercare per nome o selezionare un paese sulla mappa.</p>
-        </form>
+
         <div class="world-selection"><h3 id="world-selected-country">Scegli un paese</h3><p id="world-country-status" class="world-status" role="status" aria-live="polite">Le previsioni internazionali non sono state acquisite nella copia locale.</p><a id="world-milano-link" class="lab-btn lab-btn-ghost" href="milano.html">Previsioni disponibili: Milano${chevron}</a></div>
         <form id="world-city-form" class="world-search world-city-search" action="#international-world" method="get">
           <label for="world-city-search">Cerca una città</label>
