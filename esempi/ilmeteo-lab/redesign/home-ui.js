@@ -65,7 +65,7 @@
     if (!link) return;
     event.preventDefault();
     const locality = link.closest('#city_list');
-    unavailable(locality ? `Le previsioni per ${link.textContent.trim()} non sono state acquisite. La copia comprende Milano, Home e Meteo domani.` : undefined);
+    unavailable(link.dataset.unavailableMessage || (locality ? `Le previsioni per ${link.textContent.trim()} non sono state acquisite. La copia comprende Milano, Home e Meteo domani.` : undefined));
   });
 
   const form = document.querySelector('form.search_bar');

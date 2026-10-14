@@ -7,6 +7,11 @@ import {chromium} from 'playwright-chromium';
 
 const out = path.resolve('reports/ilmeteo-home-comparison');
 const recaptureWorld320 = process.argv.includes('--recapture-world-320');
+const toolsOnly = process.argv.includes('--tools-only');
+const brandingOnly = process.argv.includes('--branding-only');
+const captureSummaryActions = process.argv.includes('--capture-summary-actions');
+const videoOnly = process.argv.includes('--video-only');
+const newsOnly = process.argv.includes('--news-only');
 await mkdir(out, {recursive:true});
 const preview = await createExportedPreview();
 const url = preview.url;
@@ -43,6 +48,205 @@ async function checkFab(page,width) {
     }).map(title=>title.textContent.trim());
   });
   assert.deepEqual(covered,[],`FAB leaves visible news titles readable at ${width}px`);
+}
+async function checkTools(page,width) {
+  const tools=page.locator('#home-tools');
+  await tools.scrollIntoViewIfNeeded();
+  await page.evaluate(()=>document.activeElement?.blur());
+  await page.waitForTimeout(250);
+  assert.equal(await tools.getByRole('heading',{name:'Altri strumenti meteo'}).count(),1);
+  assert.equal(await tools.getByRole('link').count(),3);
+  const bounds=await tools.locator('.home-tools__link').evaluateAll(links=>links.map(link=>{
+    const box=link.getBoundingClientRect();return {x:box.x,y:box.y,width:box.width,height:box.height};
+  }));
+  for(const box of bounds) assert(box.width>=44&&box.height>=44,'Tools keep usable pointer and keyboard targets');
+  if(width>=768) assert(bounds.every(box=>Math.abs(box.y-bounds[0].y)<1),'Tools share a row on larger screens');
+  else assert(bounds[0].y<bounds[1].y&&bounds[1].y<bounds[2].y,'Tools stack on phones');
+  assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0,`Tools do not overflow at ${width}px`);
+  if([1280,897,375,320].includes(width)) await tools.screenshot({path:path.join(out,`tools-${width}.png`)});
+  const dialog=page.locator('#snapshot-unavailable');
+  for(const [id,phrase] of [['record',/valori estremi non sono state acquisite/],['webcam',/webcam non sono state acquisite/]]) {
+    const link=tools.locator(`#weather-tool-${id}`);
+    assert.match(await link.innerText(),/Non disponibile nella copia/);
+    await link.focus();await page.keyboard.press('Enter');
+    assert.equal(await dialog.isVisible(),true);
+    assert.match(await dialog.locator('p').innerText(),phrase);
+    await page.keyboard.press('Escape');
+    await dialog.waitFor({state:'hidden'});
+    assert.equal(await link.evaluate(element=>document.activeElement===element),true,'Dialog closing returns to its tool');
+  }
+  await tools.locator('#weather-tool-radar').focus();await page.keyboard.press('Enter');
+  assert.equal(await page.locator('#map').getAttribute('data-weather-layer'),'9');
+  assert.equal(await page.evaluate(()=>document.activeElement.id),'map-layer-tab-9');
+  assert.equal(await dialog.isVisible(),false);
+}
+async function checkToolsOnly() {
+  const result={status:'running',cases:[],errors:report.errors};
+  for(const width of [1280,897,768,375,320]) {
+    const {context,page}=await open(width);
+    try {
+      await checkTools(page,width);
+      if(width===1280) {
+        await page.emulateMedia({media:'print'});
+        assert.equal(await page.locator('#home-tools').isVisible(),false,'Print omits the whole interactive section');
+      }
+      result.cases.push({width,tools:3,keyboard:'passed',radar:'passed',unavailableMessages:'passed',overflow:0});
+    } finally {await context.close();}
+  }
+  const {context,page}=await open(375,{javaScriptEnabled:false});
+  try {
+    assert.equal(await page.locator('#home-tools h2').isVisible(),true);
+    assert.equal(await page.locator('#home-tools .home-tools__icon').count(),3,'Icons remain visible without script');
+    assert.equal(await page.locator('#weather-tool-radar').getAttribute('href'),'#home-weather-map');
+    assert.match(await page.locator('#weather-tool-record').innerText(),/Non disponibile nella copia/);
+    assert.match(await page.locator('#weather-tool-webcam').innerText(),/Non disponibile nella copia/);
+    result.cases.push({javaScript:false,visibleLabels:'passed',localRadarAnchor:'passed'});
+  } finally {await context.close();}
+  assert.deepEqual(report.errors,[]);
+  result.status='passed';
+  await writeFile(path.join(out,'tools-verification.json'),JSON.stringify(result,null,2)+'\n');
+  console.log('Weather tools: layout, local Radar, specific messages, keyboard, no-script and print passed.');
+}
+async function checkBrandingOnly() {
+  const result={status:'running',cases:[],errors:report.errors};
+  for(const width of [1280,897,375,320]) for(const file of ['index','milano','domani']) {
+    const {context,page}=await open(width);
+    try {
+      if(file!=='index') await page.goto(new URL(`${file}.html`,url).href);
+      await page.evaluate(()=>document.fonts.ready);
+      assert.match(await page.title(),/The weather forecast/);
+      assert.equal(await page.getByRole('button',{name:'Apri menu The weather forecast',exact:true}).count(),1);
+      const footer=page.locator('.site-footer');
+      assert.equal(await footer.count(),1);
+      assert.equal(await footer.getByRole('img',{name:'The weather forecast',exact:true}).count(),1);
+      assert.doesNotMatch(await footer.innerText(),/Srl|P\.IVA|449669|05184350287|Mefin/i);
+      assert.match(await footer.innerText(),/Progetto didattico CVeDI/);
+      assert.match(await footer.innerText(),/Fonte dei contenuti.*iLMeteo.it/s);
+      for(const id of ['index.html','milano.html','domani.html']) assert.equal(await footer.locator(`a[href="${id}"]`).count()>=1,true);
+      assert.equal(await page.locator('.whatsapp_channel,.google_favorite').count(),0,'The redesign does not advertise channels of the acquired brand');
+      if(file==='index') {
+        const summaryHeading=page.locator('.home-summaries > .home-section-heading');
+        assert.equal(await summaryHeading.locator('p').innerText(),'A cura di Elia Guarnieri');
+        const portrait=summaryHeading.getByRole('img',{name:'Ritratto di Elia Guarnieri'});
+        await portrait.scrollIntoViewIfNeeded();await portrait.evaluate(img=>img.decode());
+        assert.match(await portrait.getAttribute('src'),/people\/elia-guarnieri-v1\/portrait.webp/);
+        assert.deepEqual(await portrait.evaluate(img=>[img.naturalWidth,img.naturalHeight]),[640,640]);
+        const portraitBox=await portrait.boundingBox();
+        assert.equal(portraitBox.width,112);assert.equal(portraitBox.height,112);
+        const banner=page.locator('.whatsapp-banner');
+        assert.equal(await banner.count(),1);
+        assert.equal(await banner.getByRole('heading',{name:'The weather forecast',exact:true}).count(),1);
+        assert.equal(await banner.locator('a,button,input,[role="button"],[role="link"],[tabindex]').count(),0,'The requested WhatsApp graphic has no links or controls');
+        await banner.scrollIntoViewIfNeeded();await banner.locator('img').evaluate(img=>img.decode());
+        await page.evaluate(()=>document.activeElement?.blur());await page.waitForTimeout(250);
+        await banner.screenshot({path:path.join(out,`whatsapp-${width}.png`)});
+        await summaryHeading.screenshot({path:path.join(out,`curator-${width}.png`)});
+        if(captureSummaryActions) {
+          await page.mouse.move(width-1,1);
+          await page.locator('#summary-panel-0 .home-summary-links').screenshot({path:path.join(out,`summary-actions-${width}.png`)});
+          await page.locator('#summary-panel-0 .home-summary-links a').nth(1).focus();
+          await page.keyboard.press('Enter');
+          assert.equal(await page.locator('#snapshot-unavailable').isVisible(),true);
+          await page.keyboard.press('Escape');
+          await page.waitForTimeout(300);
+          await page.locator('#summary-tab-4').click();
+          await page.waitForTimeout(250);
+          await page.locator('#summary-panel-4 .home-summary-links').screenshot({path:path.join(out,`summary-actions-long-${width}.png`)});
+          await page.locator('#summary-tab-1').click();
+          await page.locator('#summary-panel-1 .home-summary-links a').first().click();
+          await page.waitForURL('**/domani.html');
+          await page.goto(url);
+        }
+      }
+      const icon=page.locator('link[rel="icon"]');
+      assert.match(await icon.getAttribute('href'),/the-weather-forecast\/mark-color.svg/);
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0,`Branding overflow: ${file} ${width}`);
+      if(file==='index'||[1280,320].includes(width)) {
+        await page.locator('.main_menu').screenshot({path:path.join(out,`brand-header-${file}-${width}.png`)});
+        await footer.scrollIntoViewIfNeeded();await footer.locator('img').evaluate(img=>img.decode());
+        await page.evaluate(()=>document.activeElement?.blur());await page.waitForTimeout(250);
+        await footer.screenshot({path:path.join(out,`brand-footer-${file}-${width}.png`)});
+      }
+      if(file==='index'&&width===1280) {
+        await page.emulateMedia({media:'print'});
+        assert.equal(await page.locator('.whatsapp-banner').isVisible(),false,'Print omits the social graphic');
+        assert.equal(await page.locator('.home-summaries > .home-section-heading p').innerText(),'A cura di Elia Guarnieri');
+        assert.equal(await page.getByRole('img',{name:'Ritratto di Elia Guarnieri'}).isVisible(),true,'The curator portrait remains in print');
+        const image=footer.locator('img');await image.evaluate(img=>img.decode());
+        assert.match(await image.evaluate(img=>img.currentSrc),/wordmark-color.svg/);
+        await footer.screenshot({path:path.join(out,'brand-footer-print.png')});
+      }
+      result.cases.push({file,width,title:'passed',logo:'passed',footer:'passed',overflow:0});
+    } finally {await context.close();}
+  }
+  const {context,page}=await open(375,{javaScriptEnabled:false});
+  try {assert.equal(await page.locator('.site-footer').isVisible(),true);assert.match(await page.title(),/The weather forecast/);assert.equal(await page.locator('.whatsapp-banner').isVisible(),true);assert.equal(await page.locator('.home-summaries > .home-section-heading p').innerText(),'A cura di Elia Guarnieri');const portrait=page.getByRole('img',{name:'Ritratto di Elia Guarnieri'});await portrait.scrollIntoViewIfNeeded();await portrait.evaluate(img=>img.decode());assert.equal(await portrait.isVisible(),true);}
+  finally {await context.close();}
+  assert.deepEqual(report.errors,[]);result.status='passed';
+  await writeFile(path.join(out,'brand-verification.json'),JSON.stringify(result,null,2)+'\n');
+  console.log('Weather branding: three pages, logo, names, company removal, source attribution, responsive footer, no-script and print passed.');
+}
+async function checkNewsOnly() {
+  const catalog=JSON.parse(await readFile(new URL('../data/home-news-art.json',import.meta.url)));
+  const result={status:'running',cases:[],errors:report.errors};
+  for(const [width,options] of [[1280,{}],[897,{}],[375,{}],[320,{javaScriptEnabled:false}],[1280,{print:true}]]) {
+    const {context,page}=await open(width,options);
+    try {
+      if(options.print) await page.emulateMedia({media:'print'});
+      const items=page.locator('.block_news__col__list__item');
+      assert.equal(await items.count(),16);
+      for(const art of catalog.assets) {
+        const image=items.nth(art.newsIndex-1).locator('img');
+        await image.scrollIntoViewIfNeeded();
+        await image.evaluate(img=>img.decode());
+        assert.equal(await image.getAttribute('src'),art.runtime);
+        assert.deepEqual(await image.evaluate(img=>[img.naturalWidth,img.naturalHeight]),[720,540]);
+      }
+      const opening=page.locator('.home-frontpage__stories img');
+      for(let i=0;i<3;i++) assert.equal(await opening.nth(i).getAttribute('src'),catalog.assets[i].runtime);
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0);
+      await page.locator('.block_news').scrollIntoViewIfNeeded();
+      await page.mouse.move(width-1,1);
+      await page.evaluate(()=>document.activeElement?.blur());
+      const columns=page.locator('.block_news__col');
+      for(let i=0;i<await columns.count();i++) await columns.nth(i).screenshot({path:path.join(out,`news-${width}-${options.print?'print-':''}${i+1}.png`)});
+      if(!options.print&&options.javaScriptEnabled!==false) {
+        await items.nth(0).locator(':scope > a').focus();await page.keyboard.press('Enter');
+        assert.equal(await page.locator('#snapshot-unavailable').isVisible(),true);
+        await page.keyboard.press('Escape');
+      }
+      result.cases.push({width,print:!!options.print,javaScript:options.javaScriptEnabled!==false,replaced:13,opening:3,images:'passed',overflow:0});
+    } finally {await context.close();}
+  }
+  assert.deepEqual(report.errors,[]);result.status='passed';
+  await writeFile(path.join(out,'news-verification.json'),JSON.stringify(result,null,2)+'\n');
+  console.log('Editorial news images: thirteen replacements, shared opening, responsive layout, keyboard, no-script and print passed.');
+}
+async function checkVideoOnly() {
+  const result={status:'running',cases:[],errors:report.errors};
+  for(const width of [1280,897,375,320]) {
+    const {context,page}=await open(width);
+    try {
+      const section=page.locator('.home-video'),link=section.locator('.home-video__preview'),image=link.locator('img');
+      await section.scrollIntoViewIfNeeded();await image.evaluate(img=>img.decode());
+      assert.match(await image.getAttribute('src'),/presenter-studio-v2\/presenter-studio.webp/);
+      assert.deepEqual(await image.evaluate(img=>[img.naturalWidth,img.naturalHeight]),[1663,945]);
+      const poster=await link.locator('.home-video__poster').boundingBox(),play=await link.locator('.home-video__play').boundingBox();
+      assert(Math.abs(play.x+play.width/2-poster.x-poster.width/2)<1&&Math.abs(play.y+play.height/2-poster.y-poster.height/2)<1,'Play is centered over the image');
+      assert.equal(await link.locator('.home-video__play').getAttribute('aria-hidden'),'true');
+      assert.equal(await link.locator('button,a').count(),0,'The overlay does not introduce a nested control');
+      assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0);
+      await page.evaluate(()=>document.activeElement?.blur());await page.waitForTimeout(250);
+      await section.screenshot({path:path.join(out,`video-${width}.png`)});
+      await link.focus();await page.keyboard.press('Enter');
+      assert.equal(await page.locator('#snapshot-unavailable').isVisible(),true,'The acquired video destination retains its local availability message');
+      await page.keyboard.press('Escape');
+      result.cases.push({width,image:'passed',play:'centered',keyboard:'passed',overflow:0});
+    } finally {await context.close();}
+  }
+  assert.deepEqual(report.errors,[]);result.status='passed';
+  await writeFile(path.join(out,'video-verification.json'),JSON.stringify(result,null,2)+'\n');
+  console.log('Edited video poster: local image, centered play, responsive layout and keyboard passed.');
 }
 async function checkMilanoFallback(page,state) {
   const link=page.locator('#world-milano-link');
@@ -219,7 +423,11 @@ async function recaptureWorldEvidence() {
 }
 try {
   browser=await chromium.launch({headless:true});
-  if(recaptureWorld320) await recaptureWorldEvidence();
+  if(newsOnly) await checkNewsOnly();
+  else if(videoOnly) await checkVideoOnly();
+  else if(brandingOnly) await checkBrandingOnly();
+  else if(toolsOnly) await checkToolsOnly();
+  else if(recaptureWorld320) await recaptureWorldEvidence();
   else {
   for(const width of [1280,768,375,320]) {
     const {context,page}=await open(width);
@@ -228,6 +436,7 @@ try {
       await page.screenshot({path:path.join(out,`home-${width}.png`)});
     }
     await checkFab(page,width);
+    await checkTools(page,width);
     assert.equal(await page.locator('#main_menu [aria-current="page"]').count(),1,'Only Home is current in the primary navigation');
     assert.equal(await page.locator('#main_menu [aria-current="page"]').innerText(),'Home');
     assert.equal(await page.locator('#main_menu [aria-current="page"]').getAttribute('href'),'index.html');
@@ -387,8 +596,8 @@ try {
   }
 } catch(error) {report.status='failed'; report.failure=error.stack; throw error;}
 finally {
-  if(!recaptureWorld320) await writeFile(path.join(out,'verification.json'),JSON.stringify(report,null,2)+'\n');
+  if(!recaptureWorld320&&!toolsOnly&&!brandingOnly&&!videoOnly&&!newsOnly) await writeFile(path.join(out,'verification.json'),JSON.stringify(report,null,2)+'\n');
   await browser?.close();
   await preview.close();
 }
-console.log(recaptureWorld320?'World 320px evidence recaptured with an unfocused skip link outside the viewport.':'Home modules: five distinct ad formats, archived content, keyboard, search states, responsive creatives, print, no-script and isolated Pages export passed.');
+if(!toolsOnly&&!brandingOnly&&!videoOnly&&!newsOnly) console.log(recaptureWorld320?'World 320px evidence recaptured with an unfocused skip link outside the viewport.':'Home modules: five distinct ad formats, archived content, keyboard, search states, responsive creatives, print, no-script and isolated Pages export passed.');

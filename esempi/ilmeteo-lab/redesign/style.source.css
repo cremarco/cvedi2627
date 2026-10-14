@@ -1,8 +1,8 @@
 /* Authored redesign overlay. Captured source styles and assets stay intact. */
 @import "tailwindcss/theme.css";
 @import "tailwindcss/utilities.css" source(none);
-@source inline("lab-fab lab-btn lab-btn-lg lab-btn-xs lab-btn-circle lab-btn-primary lab-tooltip lab-tooltip-top lab-tooltip-start lab-tooltip-end lab-tabs lab-tab lab-tab-active lab-range");
-@plugin "daisyui" { themes: false; include: button, fab, tooltip, tab, range; prefix: lab-; logs: false; }
+@source inline("lab-fab lab-btn lab-btn-lg lab-btn-xs lab-btn-circle lab-btn-primary lab-tooltip lab-tooltip-top lab-tooltip-start lab-tooltip-end lab-tabs lab-tab lab-tab-active lab-range lab-footer lab-footer-vertical lab-footer-title lab-menu lab-menu-vertical");
+@plugin "daisyui" { themes: false; include: button, fab, tooltip, tab, range, footer, menu; prefix: lab-; logs: false; }
 /* Square interface surfaces, including controls inherited from the snapshot. */
 body[data-version="redesign"] *,
 body[data-version="redesign"] *::before,
@@ -98,14 +98,12 @@ body[data-version="redesign"] .forecast_gadgets2__more_data { left: 0; }
   background: none !important; cursor: pointer;
 }
 .main_menu__list__item--hamburger .main_menu__list__item__button span { display: none !important; }
-.main_menu__list__item--hamburger .main_menu__list__item__button::before,
-.main_menu__list__item--hamburger .main_menu__list__item__button::after {
-  position: absolute; inset: 0;
-  background: url("../assets/brand/ilmeteo-modern-v1.png") center / contain no-repeat;
+.main_menu__list__item--hamburger .main_menu__list__item__button::before {
+  position: absolute; inset: 4px;
+  background: url("../assets/brand/the-weather-forecast/mark-light.svg") center / contain no-repeat;
   content: "";
 }
-.main_menu__list__item--hamburger .main_menu__list__item__button::before { filter: brightness(0) invert(1); }
-.main_menu__list__item--hamburger .main_menu__list__item__button::after { clip-path: inset(14% 56% 56% 15%); }
+.main_menu__list__item--hamburger .main_menu__list__item__button::after { content: none; }
 .main_menu__list__item__link:link,
 .main_menu__list__item__link:visited {
   box-sizing: border-box; display: flex; align-items: center;
@@ -565,4 +563,42 @@ body[data-version="redesign"] .block_weather_prevision__forecast_maps__map {
   body:has(.home-weather-ticker) .map-surface #bigmap-container,
   body:has(.home-weather-ticker) .map-surface #map { min-height: 0; }
   body:has(.home-weather-ticker) .map-playback { display: none !important; }
+}
+
+/* The weather forecast: common identity and footer across the redesign. */
+body[data-version="redesign"] .site-footer,
+body[data-version="redesign"] .site-footer * { box-sizing: border-box; }
+body[data-version="redesign"] .site-footer {
+  display: grid; grid-template-columns: minmax(0,1fr) minmax(260px,420px);
+  align-items: start; width: 100%; margin: 0; gap: 24px 40px;
+  padding: 32px 60px 80px 16px; border-top: 3px solid var(--meteo-orange);
+  background: var(--meteo-tabs); color: var(--meteo-navy);
+  font: 400 16px/1.5 OpenSansHebrewCondensed,Helvetica,Arial,sans-serif;
+}
+body[data-version="redesign"] .site-footer .main_footer__identity { display: grid; gap: 20px; min-width: 0; width: 100%; padding: 28px; background: var(--meteo-navy); color: var(--meteo-paper); }
+body[data-version="redesign"] .site-footer .main_footer__brandline { display: block; width: 100%; max-width: 440px; }
+body[data-version="redesign"] .site-footer .main_footer__brandline picture,
+body[data-version="redesign"] .site-footer .main_footer__brandline img { display: block; width: 100%; height: auto; }
+body[data-version="redesign"] .site-footer :is(p,h2,ul) { margin: 0; }
+body[data-version="redesign"] .site-footer .main_footer__project { max-width: 65ch; font-size: 18px; }
+body[data-version="redesign"] .site-footer .main_footer__source { max-width: 65ch; font-size: 14px; color: color-mix(in srgb,var(--meteo-paper) 85%,var(--meteo-navy)); }
+body[data-version="redesign"] .site-footer .main_footer__source a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+body[data-version="redesign"] .site-footer .main_footer__navigation { display: grid; gap: 16px; min-width: 0; width: 100%; padding-top: 4px; }
+body[data-version="redesign"] .site-footer .main_footer__title { color: inherit; opacity: 1; font: 700 22px/1.3 OpenSansHebrewCondensed-Bold,sans-serif; text-transform: none; }
+body[data-version="redesign"] .site-footer .main_footer__links { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 8px 24px; width: 100%; padding: 0; list-style: none; }
+body[data-version="redesign"] .site-footer .main_footer__links > li { min-width: 0; border-bottom: 1px solid var(--meteo-rule); }
+body[data-version="redesign"] .site-footer .main_footer__links a { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 48px; padding: 12px 0; color: inherit; font-size: 16px; line-height: 1.4; white-space: normal; text-decoration: none; }
+body[data-version="redesign"] .site-footer .main_footer__links svg { width: 20px; height: 20px; flex: none; }
+body[data-version="redesign"] .site-footer .main_footer__links a:is(:hover,:focus-visible) { background: var(--meteo-paper); text-decoration: underline; text-underline-offset: 3px; }
+body[data-version="redesign"] .site-footer a:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+@media screen and (max-width: 767px) {
+  body[data-version="redesign"] .site-footer { grid-template-columns: minmax(0,1fr); gap: 24px; padding-top: 24px; }
+  body[data-version="redesign"] .site-footer .main_footer__identity { padding: 20px; }
+  body[data-version="redesign"] .site-footer .main_footer__links { grid-template-columns: minmax(0,1fr); }
+}
+@media print {
+  body[data-version="redesign"] .site-footer { padding: 16px 0; border-top: 1px solid var(--meteo-rule); background: var(--meteo-paper); }
+  body[data-version="redesign"] .site-footer .main_footer__identity { padding: 0; background: transparent; color: var(--meteo-navy); }
+  body[data-version="redesign"] .site-footer .main_footer__source { color: inherit; }
+  body[data-version="redesign"] .site-footer .main_footer__brandline { max-width: 320px; }
 }

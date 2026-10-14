@@ -7,10 +7,13 @@ import {createHash} from 'node:crypto';
 const lab = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = file => fs.readFile(path.join(lab, file), 'utf8');
 export async function buildHomeModules() {
-  const [raw, worldCatalog, data, promotions] = await Promise.all([
+  const [acquiredRaw, worldCatalog, data, promotions, site, newsArt] = await Promise.all([
     read('redesign/index.html'), read('assets/maps/world/catalog.js'),
-    read('data/supplementary.json').then(JSON.parse), read('data/home-promotions.json').then(JSON.parse),
+    read('data/supplementary.json').then(JSON.parse), read('data/home-promotions.json').then(JSON.parse), read('data/site.json').then(JSON.parse), read('data/home-news-art.json').then(JSON.parse),
   ]);
+  const raw = newsArt.assets.reduce((html, item) => html.replaceAll(`src="${item.source}"`, `src="${item.runtime}"`), acquiredRaw)
+    .replace(/(<h3\b[^>]*class="[^"]*block_news__col__list__item__title[^"]*"[^>]*>)([\s\S]*?)(<\/h3>)/g,
+      (_, opening, title, closing) => opening + title.replace(/\s*\[[^\]]*\]/g, '') + closing);
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
   const plain = html => html.replace(/<[^>]+>/g, '').replaceAll('&amp;', '&').replaceAll('&nbsp;', ' ').replace(/\s+/g, ' ').trim();
   const icon = async name => (await read(`assets/controls/heroicons/${name}.svg`)).replace('<svg ', `<svg focusable="false" data-heroicon="${name}" `);
@@ -38,8 +41,8 @@ export async function buildHomeModules() {
   </section>`;
   const sidebar = `<div class="home-daily-sidebar">${ad('corso')}${ad('caffe')}</div>`;
   const video = `<section class="home-video" aria-labelledby="video-title"><h2 id="video-title">Video previsioni meteo</h2>
-    <img class="home-video__logo" src="../assets/9d4be5ee3da4-logo_ilmeteotv.svg" alt="iLMeteo TV" width="140" height="36" loading="lazy"/>
-    <a class="home-video__preview" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/video"><img src="../assets/82fae54f1a58-fluid-video-home-placeholder-1.png" width="320" height="180" alt="" loading="lazy"/><span>${play}Video meteo · 8 ottobre 2026</span></a>
+    <p class="home-video__brand">${escape(site.name)} · video</p>
+<a class="home-video__preview" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/video"><span class="home-video__poster"><img src="../assets/video/presenter-studio-v2/presenter-studio.webp" width="1663" height="945" alt="Presentatore in completo nero nello studio delle previsioni meteo" loading="lazy" decoding="async"/><span class="home-video__play" aria-hidden="true">${play}</span></span><span class="home-video__caption">Video meteo · 8 ottobre 2026</span></a>
     <a class="lab-btn lab-btn-ghost" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/Italia">Video Previsioni Italia${chevron}</a>
   </section>`;
 
@@ -52,10 +55,11 @@ export async function buildHomeModules() {
   const link = record => {
     const live = record.attributes.href;
     const local = /meteo-domani$/.test(live) ? 'domani.html' : '#snapshot-unavailable';
-    return `<a class="lab-btn lab-btn-ghost" href="${local}"${local.startsWith('#') ? ` data-live-href="${escape(live)}"` : ''}>${escape(record.text)}${chevron}</a>`;
+    const videoLink = /\/meteo-video\//.test(live);
+    return `<a class="lab-btn lab-btn-primary${videoLink ? ' lab-btn-outline' : ''}" href="${local}"${local.startsWith('#') ? ` data-live-href="${escape(live)}"` : ''}>${videoLink ? play : ''}<span>${escape(record.text)}</span>${videoLink ? '' : chevron}</a>`;
   };
   const summaries = `<section class="home-summaries" aria-labelledby="summaries-title">
-    <div class="home-section-heading"><h2 id="summaries-title">Previsioni sintetiche</h2><p>${escape(data.records[synthetic.attributionRef].text)}</p></div>
+    <div class="home-section-heading"><h2 id="summaries-title">Previsioni sintetiche</h2><div class="home-curator"><div class="lab-avatar"><div class="w-28 h-28"><img src="${escape(site.curatorPortrait.src)}" width="${site.curatorPortrait.width}" height="${site.curatorPortrait.height}" alt="${escape(site.curatorPortrait.alt)}" loading="lazy" decoding="async"/></div></div><p>A cura di <strong>${escape(site.curator)}</strong></p></div></div>
     <nav class="home-summary-dates" aria-label="Date delle previsioni sintetiche"><div class="lab-tabs" data-summary-tabs>${days.map((day, i) => `<a class="lab-tab" id="summary-tab-${i}" href="#summary-panel-${i}">${escape(day.label)}</a>`).join('')}<a class="lab-tab" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/portale/meteo-lungo-termine">Meteo 15gg</a></div></nav>
     <div class="home-summary-panels">${days.map((day, i) => `<article id="summary-panel-${i}" data-summary-panel data-source-ref="${day.sourceRef}"><h3><time datetime="${day.date}">${escape(day.title)}</time></h3><p>${escape(day.text)}</p><div class="home-summary-links">${day.links.map(link).join('')}</div></article>`).join('\n')}</div>
   </section>`;
@@ -92,8 +96,13 @@ export async function buildHomeModules() {
     </div>
   </section>`;
   const resources = `<div class="home-leaderboard-slot">${ad('atlante')}</div><div class="home-secondary-reading">${summaries}<div class="home-resources-sidebar">${video}${ad('laboratorio')}</div></div><div class="home-international-grid">${international}</div>`;
+  const community = `<aside class="whatsapp-banner" aria-labelledby="whatsapp-banner-title">
+    <img class="whatsapp-banner__logo" src="../assets/2176f7cf2764-logo_whatsapp.png" width="64" height="64" alt="" loading="lazy" decoding="async"/>
+    <div class="whatsapp-banner__copy"><h2 id="whatsapp-banner-title">${escape(site.name)}</h2><p>${escape(site.whatsapp.tagline)}</p></div>
+    <span class="whatsapp-banner__label">${escape(site.whatsapp.label)}</span>
+  </aside>`;
   let html = raw;
-  for (const [name, content] of Object.entries({opening, sidebar, resources})) {
+  for (const [name, content] of Object.entries({opening, sidebar, resources, community})) {
     const pattern = new RegExp(`<!-- home-module:${name}:start -->[\\s\\S]*?<!-- home-module:${name}:end -->`);
     if (!pattern.test(html)) throw Error(`Missing home module slot: ${name}`);
     html = html.replace(pattern, `<!-- home-module:${name}:start -->\n${content}\n<!-- home-module:${name}:end -->`);

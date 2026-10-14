@@ -1,0 +1,39 @@
+{
+  "name": "The weather forecast",
+  "design": "Authored WF letterforms with soft joins and rounded terminals, following the previous lettering style; an orange sun above F and the inherited navy/orange palette.",
+  "generator": "../../../scripts/build-weather-brand.py",
+  "palette": {
+    "navy": "#092b60",
+    "orange": "#f28c18",
+    "paper": "#fff"
+  },
+  "wordmark": {
+    "font": "Nunito Sans",
+    "weight": 900,
+    "format": "Outlined paths, no live text",
+    "source": "../../fonts/nunito-sans.woff2",
+    "license": "../../fonts/OFL-NunitoSans.txt"
+  },
+  "assets": [
+    {
+      "file": "apple-touch-icon.png",
+      "sha256": "61ccd1f02e614e441c20093518b40cc0ffd1eedd4cbcf5c0adef3a7038a23933"
+    },
+    {
+      "file": "mark-color.svg",
+      "sha256": "38dfa4d067aeec86ec89efcb1eac88f98db8966ede8c2a1b2e76ca6f583b394b"
+    },
+    {
+      "file": "mark-light.svg",
+      "sha256": "81b3c94bad3d58a98933febb295f355d37cf485a80d5da6b597ccc53950b198d"
+    },
+    {
+      "file": "wordmark-color.svg",
+      "sha256": "55f46233615f2f85ea34fe76139be6bb8e7a544290af4e71a6f02ebb0154de3c"
+    },
+    {
+      "file": "wordmark-light.svg",
+      "sha256": "e6f9d902744017a7765bc79aa6e570458093ebad31c10e96e67a68e72d6c9e4d"
+    }
+  ]
+}

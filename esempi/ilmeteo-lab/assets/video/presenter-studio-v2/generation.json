@@ -1,0 +1,23 @@
+{
+  "generator": "built-in image_gen",
+  "useCase": "text-localization",
+  "prompt": "Use case: text-localization.\nEdit the supplied image only in the small white source-label box at the top right of the studio screen. Remove the existing iLMeteo logo/lettering completely and replace the label with exactly \"Dati WF\". Keep \"Dati\" in dark black lettering and render \"WF\" as clear uppercase white letters on the existing orange brand badge, in the same clean scale, perspective and sharpness as the original source label. There must be no remaining iLMeteo text or logo in that box, and no extra words.\nPreserve everything outside this small label region unchanged: especially the presenter's exact face, beard, hair, piercings, body and modern black suit, the tablet, pose, studio lighting, floor, map geography and cloud/weather colors, and \"Martedì ore 19\". Keep the exact wide framing and aspect ratio. Do not add a play icon to the photo; the page adds it separately. Photorealistic seamless local text edit, opaque background.",
+  "input": {
+    "role": "Edit target: generated presenter in black suit, studio and composition",
+    "file": "../presenter-studio-v1/presenter-studio.png",
+    "provenance": "The initial composite and full identity-preservation prompt are retained in ../presenter-studio-v1/generation.json. User-supplied source photographs are unchanged."
+  },
+  "requestedEdits": [
+    "Replace the original top-right Dati iLMeteo label with Dati WF.",
+    "Preserve the presenter, black suit, studio and wide composition."
+  ],
+  "dimensions": {
+    "width": 1663,
+    "height": 945
+  },
+  "master": "presenter-studio.png",
+  "runtime": "presenter-studio.webp",
+  "runtimeConversion": "cwebp -q 90; no resizing",
+  "ui": "An official Heroicons play icon is overlaid in HTML/CSS, separately from the photograph.",
+  "notes": "Synthetic edited still for the educational redesign; not a newly recorded video. The user explicitly requested the visible WF source label. Acquired source references remain in the site provenance."
+}

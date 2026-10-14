@@ -1,0 +1,34 @@
+{
+  "generator": "built-in image_gen",
+  "useCase": "identity-preserve",
+  "prompt": "Use case: identity-preserve.\nAsset type: editorial curator portrait for the navy-and-orange The weather forecast website.\nInput image 1: edit target and exact identity reference, Elia's user-provided portrait. Input image 2: logo reference ONLY, the existing navy WF monogram with its orange sun on transparent background; use this exact mark for a small physical lapel pin.\nPrimary request: preserve the person from image 1 faithfully: exact facial features, brown tousled hair, eye color, natural short beard/stubble, visible silver hoop earring, head tilt, warm subtle smile and age. Do not beautify or change identity. Dress him in an elegant modern tailored dark navy jacket over a simple dark charcoal crew-neck shirt. Add a small realistic enamel lapel pin on the jacket, the navy WF monogram with the orange sun copied faithfully from image 2, on a tiny white enamel field; modest size, naturally attached, subtle metallic edge and highlights. No other logos.\nReplace the flat gray background with a clean photographic studio backdrop in deep navy #092b60 with a softly lit, slightly lighter blue area behind the head and a very restrained warm orange #f28c18 edge light. Minimal backdrop, no weather graphics, no words or props. Match natural soft portrait lighting and retain realistic skin texture.\nComposition: square, chest-up portrait, centered head and shoulders with sufficient chest and lapel visible so the pin is visible in the final crop; keep the entire hairstyle and a little air above the head. Preserve pose and expression. Opaque background. No border, no frame, no watermark, no captions, no additional people.",
+  "inputs": [
+    {
+      "role": "Portrait edit target and identity reference",
+      "file": "reference.png",
+      "source": "User-provided clipboard photograph; preserved unchanged."
+    },
+    {
+      "role": "Exact WF mark reference for the physical lapel pin",
+      "file": "../../brand/the-weather-forecast/apple-touch-icon.png"
+    }
+  ],
+  "requestedEdits": [
+    "Modern navy jacket.",
+    "Clean navy and blue studio background with restrained orange edge light.",
+    "Small enamel pin with the site's WF logo."
+  ],
+  "master": "portrait.png",
+  "runtime": "portrait.webp",
+  "dimensions": {
+    "master": 1254,
+    "runtime": 640
+  },
+  "runtimeConversion": "cwebp -q 90 -resize 640 640",
+  "notes": "Synthetic edited portrait used beside the visible curator byline. Original portrait is preserved.",
+  "sha256": {
+    "portrait.png": "2a935c4ca7515ba3504795f5c58b240915ed98b0989c5cd9d39bb322805fe8f3",
+    "portrait.webp": "d931cabea6f79efc528a09bf7908ae45a709da005fe550eb260ecc8d00a4784e",
+    "reference.png": "b9eaeae17b92822c65319ee49bdaa959bcf9cad9f58aa5c722b67d645c6bbef4"
+  }
+}

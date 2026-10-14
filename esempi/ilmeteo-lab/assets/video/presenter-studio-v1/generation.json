@@ -1,0 +1,30 @@
+{
+  "generator": "built-in image_gen",
+  "useCase": "identity-preserve",
+  "prompt": "Use case: identity-preserve / compositing.\nEdit target: Image 1, the wide weather studio screenshot. Identity reference: Image 2, the user portrait; use this person ONLY as the replacement presenter, not that portrait's room or clothes.\nReplace the existing presenter completely with the man from Image 2, preserving his recognizable face, short salt-and-pepper hair, dark beard, septum ring, and black ear gauges, natural age and proportions. Dress him in a tailored black two-piece suit: black modern elegant jacket, matching black trousers, a plain black shirt with an open collar, no tie, and elegant black shoes. Make him full-body in the same position, perspective, and scale as the original presenter, holding the original slim tablet naturally. Match the studio lighting, contact shadows and camera texture for a realistic seamless photographic composite. Keep his face faithful to the reference, not a generic lookalike.\nRemove the entire large white circular play icon and white triangle from the center of the weather map. Restore the map underneath coherently.\nPreserve the original wide framing and aspect ratio, studio, floor, ceiling lighting, screens, satellite map/cloud colors, and existing in-image text and source labels exactly. Change only the presenter/clothing and the baked-in play icon. No new graphics, text, additional people, buttons, borders, or watermarks. Opaque image, high-detail photorealistic result.",
+  "inputs": [
+    {
+      "role": "Edit target: studio and original composition",
+      "file": "Screenshot 2026-10-14 alle 13.11.18.png",
+      "source": "User-provided image; original remains at the supplied Desktop path."
+    },
+    {
+      "role": "Identity reference",
+      "file": "IMG_1285.HEIC",
+      "source": "User-provided portrait; original unchanged. PNG conversion used only as generator input."
+    }
+  ],
+  "requestedEdits": [
+    "Replace the original presenter with the reference person in a modern elegant black suit.",
+    "Remove the baked-in circular play icon."
+  ],
+  "ui": "A separate official Heroicons play icon is overlaid by HTML/CSS in the home video preview, as subsequently requested.",
+  "dimensions": {
+    "width": 1663,
+    "height": 945
+  },
+  "master": "presenter-studio.png",
+  "runtime": "presenter-studio.webp",
+  "runtimeConversion": "cwebp -q 90; no resizing",
+  "notes": "Synthetic edited still; not a newly recorded video. Existing source labels on the studio screen are retained."
+}

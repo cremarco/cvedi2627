@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "generator": "built-in image_gen",
+  "date": "2026-10-14",
+  "artDirection": "Editorial semi-realistic illustrations, navy #092b60, pale blue and white with warm orange #f28c18 accents; no embedded text, logos or player controls.",
+  "notes": "Illustrative replacements for the thirteen thumbnails selected by the user (news positions 1–6 and 9–15). Article text, dates, links and acquired attribution are preserved. Generated scenes are not documentary evidence or measured weather maps. Acquired originals retain source and license entries in assets/manifest.json.",
+  "assets": [
+    {
+      "id": "weekend-rain",
+      "newsIndex": 1,
+      "reference": "../../40470128651c-thumb_wee-cop-81026_0.jpg",
+      "master": "weekend-rain.png",
+      "runtime": "weekend-rain.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: An Italian hill town with a stone walkway and medieval buildings during autumn rain; wet paving, umbrellas and atmospheric slate-blue clouds. A quiet broad patch of warm orange evening light on stone suggests improving weather.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. This is an illustrative editorial scene, not documentary evidence of the reported event. Opaque background. One image only.",
+      "styleReference": null,
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "4a0b77a3f4fc443e083f3b433fd8126af08b6c1ae6c91143a288300106ccf943",
+        "runtime": "0bbdd78cdaf270d6d59ebeab87e29770a941c58f3d7d52b6d5b616389227e3b2",
+        "reference": "ecd0f1907273469e87f3a50343dd14086287561fcc2dc00e50a09e39eaf0abbc"
+      }
+    },
+    {
+      "id": "weather-alert",
+      "newsIndex": 2,
+      "reference": "../../266bfa5ec358-thumb_allertarancio-081026.jpeg",
+      "master": "weather-alert.png",
+      "runtime": "weather-alert.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A civil emergency responder seen from behind, wearing an entirely unbranded navy rain jacket with a plain orange reflective shoulder band, observing rain and a flooded roadside in central Italy. No insignia or lettering on clothing.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "9fffa109dfe78076b3d41d007692a7b26387f1c28b63cef0c6a8dd168b344f4b",
+        "runtime": "fc4a0ddf273590925217a246b232c90fe1782537fae5c961164306850c6465f9",
+        "reference": "6a258044e8203f28086f0f5a27bdcaca754fdb848f44758e3695fbfe5101d463"
+      }
+    },
+    {
+      "id": "next-week",
+      "newsIndex": 3,
+      "reference": "../../55edfd82cd65-thumb_pro-cop-81012.jpg",
+      "master": "next-week.png",
+      "runtime": "next-week.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A panoramic Italian autumn landscape beneath moving storm clouds, windy rain at left transitioning to calm pale skies and a gentle orange sunlight break at right. No map overlay.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "04c226bc7ba5561d85f74d7d5c5b38d13c49262e1d7e1b97504f371db29edd5c",
+        "runtime": "95d8fd6dffcdf39be0ea2d3d7696e6a8042895bad288fc78d278b90323d41528",
+        "reference": "02328b939e0e9684384e2b3d673f7330b0c72161c2279adeeb9c081d7bb14c78"
+      }
+    },
+    {
+      "id": "temperature-drop",
+      "newsIndex": 4,
+      "reference": "../../0b53561d22db-thumb_diff_temp_giove_vene_081026_0.png.jpg",
+      "master": "temperature-drop.png",
+      "runtime": "temperature-drop.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: An elegant geographic illustration of the Italian peninsula and Sicily on a dark navy sea, pale cool blue land and restrained icy blue atmospheric bands moving south; small orange warmth restricted to the far northern background. Recognizable Italy outline, no numbers, no legend, no arrows, no false precision, no inset.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "3d9b528d11e38ee2a822ced1d7823faf72ae65013a3fbadf09702236aa2c1203",
+        "runtime": "a601f0a2a6a4b7febdbffd8f9d05fded330550544d73acfb60c58666c2f2f37e",
+        "reference": "e4fd791d43a362ffc9178a10d1d9ae0239acc98f274d705fbc3064c5670eb52f"
+      }
+    },
+    {
+      "id": "europe-block",
+      "newsIndex": 5,
+      "reference": "../../ccfd0d2e219c-thumb_cop-ott-81012.jpg",
+      "master": "europe-block.png",
+      "runtime": "europe-block.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A wide geographic editorial illustration of western and central Europe on a navy sea, recognizable coastlines, a broad warm orange atmospheric swirl over northwestern Europe and pale blue cloud bands over the Adriatic and southern Italy. No numbers, contour labels, arrows or weather icons.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "82b54d954df29cf01a113aa80342d88e55aa5d3ed52341af7ae99292457073ed",
+        "runtime": "2646b51faf0949d858d61e770fdc75d5a98b0316e23b0731966e966c40ded0b8",
+        "reference": "641f0f16e454daa26b42f496d5afbe87fed1783469c6ea9cbe5ec5f2c8883a2f"
+      }
+    },
+    {
+      "id": "passing-storms",
+      "newsIndex": 6,
+      "reference": "../../e67f92cd7624-thumb_Ed-2026107.jpg",
+      "master": "passing-storms.png",
+      "runtime": "passing-storms.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A recognizable Italian peninsula seen from above at an oblique angle, navy Mediterranean sea, soft blue storm cloud bands crossing Italy with rain beneath, gentle warm orange light breaking at the western edge. No arrows, letters, symbols or map labels.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "77356400675927dc39442afd364b8c49160e6f374e95afd50dc59cf8ea23c874",
+        "runtime": "0c2ba116be50d828c7300cf9901750f4fd8abe2088ff3758c6e3ec9b1e537090",
+        "reference": "37a4543e9b0bd6e5a86deb546a1856707ae8981e431bf74ce700bb0b0d06999c"
+      }
+    },
+    {
+      "id": "rome-flood",
+      "newsIndex": 9,
+      "reference": "../../73f1f7357579-thumb_Roma-all-.jpeg",
+      "master": "rome-flood.png",
+      "runtime": "rome-flood.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A Rome residential street in heavy rain, shallow floodwater reflecting elegant ochre buildings and dim amber car lights, blurred traffic in the distance. Recognizable Italian urban character, no catastrophic exaggeration, no inset map.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "refinements": [
+        {
+          "prompt": "Use case: precise-object-edit. Edit the supplied illustration only to remove ALL automobile manufacturer emblems/logos/badges visible on the vehicles, especially the circular badge on the back of the large foreground car at the right edge and the badge on the front car left of center. Replace each badge with seamless plain painted bodywork or plain grille material matching its surroundings. Also remove any license-plate lettering. No logos, no new text, no icons. Preserve the cars, street, water, buildings, colors, framing, lighting and everything else unchanged."
+        }
+      ],
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "4f7b8cfc2ef843a806ea839309b935fdbabee4e065b8985c52780b1a8cde046e",
+        "runtime": "29f4c3895e1099d9197d24814160cf1707ed1d8fe58bae893ad456ca05ea516d",
+        "reference": "8b4777dc8d69b55f3563eba41098ad9062a12c51dba9ae14753a494876c0eb8e"
+      }
+    },
+    {
+      "id": "stelvio-snow",
+      "newsIndex": 10,
+      "reference": "../../c9f4df470a7c-thumb_Stelv-neve.jpg",
+      "master": "stelvio-snow.png",
+      "runtime": "stelvio-snow.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: The high Alpine Stelvio pass in fresh snow, wide full-bleed landscape with snowy peaks and a traditional mountain lodge, cool navy blue shadows, white snow and a restrained warm orange window glow. No signs or lettering.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "bd7c4d9b04e8e5ebac61ffc3ee2774f3367dad439d5365265fc25aa7b9590833",
+        "runtime": "bb5e06d1343110e95f5a285192660bd3ce2de9168c470b2503c39dc50ae495e0",
+        "reference": "ff8ba458a8c1e3240a333ff6989681766e6d7037abf1de5beb01741cf71deea7"
+      }
+    },
+    {
+      "id": "alpine-climate",
+      "newsIndex": 11,
+      "reference": "../../ee7065900dd6-thumb_Tedi-frana-10.jpeg",
+      "master": "alpine-climate.png",
+      "runtime": "alpine-climate.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: An Alpine glacier landscape with bare rocky foreground, receding white glacier and pale blue ice, dark navy mountain shadows and subtle warm orange late afternoon light. Environmental editorial image, no TV studio or presenter.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "e845de70a01a4228e80600e9fbdd531912bed79f0fe22c8d1201cb4045d9d595",
+        "runtime": "7e348b51de7d251be92439f11badf781eea92f630e49a9bcabb0b9ab9676d118",
+        "reference": "f87adf7f8fd09b1af76a1be8e73a8a74fa95cb89ad38cc20f893537210feef54"
+      }
+    },
+    {
+      "id": "viareggio-storm",
+      "newsIndex": 12,
+      "reference": "../../6c22b58522ce-thumb_viaregg.jpg",
+      "master": "viareggio-storm.png",
+      "runtime": "viareggio-storm.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A Viareggio coastal residential street after an autumn storm, a few scattered terracotta roof tiles and wet leaves beside parked unbranded cars, pale Tuscan buildings and maritime pines, navy rain clouds and warm orange terracotta accents. No identifiable people or readable signs.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.\nVehicles must have completely plain body panels and grilles: no manufacturer logos, badges, emblems or license-plate writing.",
+      "styleReference": "weekend-rain.png",
+      "refinements": [
+        {
+          "prompt": "Use case: precise-object-edit. Remove ALL brand emblems and badges from every car in this supplied illustration. In particular erase the circular manufacturer badge centered on the front grille of the gray car left of center and the rear emblem on the dark car at the far right. Fill these small regions with plain unbranded grille or body paint. Remove any writing or logos on cars and plates. No new symbols. Preserve everything else exactly: weather, buildings, trees, vehicle shapes, fallen terracotta tiles, palette, composition and lighting."
+        }
+      ],
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "bac8a6a1ad5dbe028d13680fc6465403080f91b0aacd3e54a194c95adbbd1690",
+        "runtime": "d794f5f7e8569ec233e73edc5fa03d9174593d49035749e355187db0126f802a",
+        "reference": "e2f0e851dc5f28362446ff8340906d003e9358fdfbaa14d3c4685f46faed95c0"
+      }
+    },
+    {
+      "id": "naples-rain",
+      "newsIndex": 13,
+      "reference": "../../b088f74dd0b0-thumb_napoli-081026.jpg",
+      "master": "naples-rain.png",
+      "runtime": "naples-rain.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A rain-soaked Naples street with Castel Nuovo's recognizable stone towers in the distance and slow traffic in the foreground; deep navy cloudy atmosphere, pale stone, warm orange reflections from tail lights. No badges, logos or text.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.\nTraffic cars must be only distant small silhouettes, viewed from the rear, without any visible vehicle logo, badge, emblem or license-plate writing. No prominent foreground cars.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "c744a821ebdb1cae3a625613b68adb18935aa4fae1d65427089bc6798e5f831f",
+        "runtime": "cc59b8554a3389876a0b8e5d57a247cf5bf7339b9c08a08253eb0712c88dde17",
+        "reference": "fcb0f58cde5a5aad3eaf64bc9d0125d5f5ca4ed0eff844025bd35f1a54fcf7a4"
+      }
+    },
+    {
+      "id": "editorial-transparency",
+      "newsIndex": 14,
+      "reference": "../../f43d0d5729a9-thumb_IMG_0798.jpeg",
+      "master": "editorial-transparency.png",
+      "runtime": "editorial-transparency.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A modern weather editorial workspace, a desk and large wall screen showing a simple unlabeled Mediterranean cloud map, navy cabinetry, white lighting and restrained orange practical details. No people, branding, slogans or text; clear restrained composition suggesting careful transparent weather reporting.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "afc8618727de2a049db2d162d7637871334d9e5a0830640db0949cfc50063b46",
+        "runtime": "19bdf4848ed2e5820509b091d66e193701cc5f595559aad7a5837ae217abcd46",
+        "reference": "c01f0d197ba4df62f2c8a4a9c65f5a85ccc69c67e9c53d026b361eef9389bc64"
+      }
+    },
+    {
+      "id": "valencia-flood",
+      "newsIndex": 15,
+      "reference": "../../c0d204840704-thumb_valencia-oggi-021026.jpg",
+      "master": "valencia-flood.png",
+      "runtime": "valencia-flood.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: a single full-bleed landscape editorial thumbnail for The weather forecast, 4:3 composition.\nEdit target/reference: supplied acquired news thumbnail. Recreate its news topic as a premium cohesive editorial illustration, rather than a screenshot. Use simplified semi-realistic painted architecture/landscapes, crisp silhouettes, restrained fine texture and generous readable shapes that remain clear at 130px wide. Palette dominated by deep navy #092b60, slate and pale icy blue, paper white, with restrained warm orange #f28c18 accents; natural spatial depth, calm professional weather-journalism art direction. No frame, no borders, no split panels.\nSubject: A Moncada near Valencia residential street with Mediterranean balconies during heavy rain and floodwater, viewed from a sheltered elevated viewpoint; pale facades, navy reflections and subdued orange terracotta. No readable signs or vehicle brand marks.\nConstraints: remove and do not recreate any logos, brand marks, watermarks, emblems, written words, captions, digits, badges, YouTube symbols, play triangles, buttons or UI overlays. No readable writing anywhere. Illustrative editorial scene, not documentary evidence. Opaque background. One image only. Reference 1 supplies the news topic; reference 2 supplies only consistent navy/orange rendering style, never its town scene.\nNo nearby cars, no vehicle emblems or badges; any traffic is tiny and distant.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "97005e497cefd096f00ccd0c26e3c74f05907b0ea2b64a6db9aad9185fb32d2f",
+        "runtime": "13b8304fb5bbf707f22b2297827c270f5bcb264e9e585b5f57c6809991029640",
+        "reference": "cbb95441f1efe71560bc048256c3311573a46b41fda90f5ec9f9d8b7fedb1d51"
+      }
+    }
+  ]
+}
