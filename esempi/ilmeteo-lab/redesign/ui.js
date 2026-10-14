@@ -27,9 +27,10 @@
       const current = controls.indexOf(document.activeElement);
       if (current < 0) return;
       let next;
+      const vertical = list.getAttribute('aria-orientation') === 'vertical';
       if (event.key === ' ') next = current;
-      else if (event.key === 'ArrowRight' || orientation === 'vertical' && event.key === 'ArrowDown') next = (current + 1) % controls.length;
-      else if (event.key === 'ArrowLeft' || orientation === 'vertical' && event.key === 'ArrowUp') next = (current + controls.length - 1) % controls.length;
+      else if (event.key === 'ArrowRight' || vertical && event.key === 'ArrowDown') next = (current + 1) % controls.length;
+      else if (event.key === 'ArrowLeft' || vertical && event.key === 'ArrowUp') next = (current + controls.length - 1) % controls.length;
       else if (event.key === 'Home') next = 0;
       else if (event.key === 'End') next = controls.length - 1;
       else return;

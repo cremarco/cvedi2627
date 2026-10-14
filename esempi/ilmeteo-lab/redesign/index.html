@@ -1024,7 +1024,7 @@
       </li>
      </ul>
      <div class="navbar-search-item lab-navbar-end">
-       <form action="milano.html" aria-label="Cerca una località" class="search_bar lab-input" method="get" role="search">
+       <form action="index.html#locality-fallback" aria-label="Cerca una località" class="search_bar lab-input" method="get" role="search">
         <button aria-label="Elenco località" class="search_bar__button_elenco lab-btn lab-btn-ghost" id="search-button-elenco" type="button">
          <span>
           Elenco località
@@ -1252,6 +1252,7 @@
      </div>
     </div>
    </header>
+   <noscript><div class="home-search-fallback" id="locality-fallback"><p>La ricerca richiede JavaScript. Puoi aprire le previsioni disponibili per <a href="milano.html">Milano</a>.</p></div></noscript>
    <main id="main_content" tabindex="-1">
     <div class="main_content__col1">
      <!-- home-module:opening:start -->
@@ -1338,33 +1339,6 @@
       </ul>
      </nav>
      <section aria-label="Previsioni meteo Italia" class="block_weather_prevision__forecast_maps">
-      <div class="block_weather_prevision__forecast_maps__news">
-       <div class="block_weather_prevision__forecast_maps__news__title">
-        <div class="bsection" id="html_pre1">
-         <h2 class="forecast-summary-title">
-          Perturbazione in transito sull'Italia.
-         </h2>
-         <p>
-          <strong>
-           VENERDÌ:
-          </strong>
-          un fronte perturbato sospinto da intensi venti di Libeccio e Scirocco attraverserà l'Italia interessando il Nord e le regioni tirreniche.
-         </p>
-         <p>
-          <strong>
-           SABATO E DOMENICA:
-          </strong>
-          le piogge interesseranno il versante Adriatico centro meridionale e localmente il resto del Sud, tornerà il bel tempo al Nord.
-         </p>
-         <p>
-          <strong>
-           PROSSIMA SETTIMANA:
-          </strong>
-          lunedì, piogge al Nordovest. Da martedì ingresso di forti venti di Grecale e maltempo su medio e basso Adriatico, sole pieno al Nord e sulle Tirreniche.
-         </p>
-        </div>
-       </div>
-      </div>
       <div aria-describedby="weather-map-notice" class="block_weather_prevision__forecast_maps__map map-surface" id="home-weather-map" tabindex="-1">
        <p class="weather-map-notice" id="weather-map-notice">Simulazione didattica · valori illustrativi</p>
        <ul aria-label="Livelli della mappa" aria-orientation="vertical" class="block_weather_prevision__forecast_maps__map__forecast_menu map-layer-menu lab-tabs" role="tablist">
@@ -1456,9 +1430,37 @@
         </nav>
        </noscript>
       </div>
+<div class="block_weather_prevision__forecast_maps__news">
+       <div class="block_weather_prevision__forecast_maps__news__title">
+        <div class="bsection" id="html_pre1">
+         <h2 class="forecast-summary-title">
+          Perturbazione in transito sull'Italia.
+         </h2>
+         <p>
+          <strong>
+           VENERDÌ:
+          </strong>
+          un fronte perturbato sospinto da intensi venti di Libeccio e Scirocco attraverserà l'Italia interessando il Nord e le regioni tirreniche.
+         </p>
+         <p>
+          <strong>
+           SABATO E DOMENICA:
+          </strong>
+          le piogge interesseranno il versante Adriatico centro meridionale e localmente il resto del Sud, tornerà il bel tempo al Nord.
+         </p>
+         <p>
+          <strong>
+           PROSSIMA SETTIMANA:
+          </strong>
+          lunedì, piogge al Nordovest. Da martedì ingresso di forti venti di Grecale e maltempo su medio e basso Adriatico, sole pieno al Nord e sulle Tirreniche.
+         </p>
+        </div>
+       </div>
+      </div>
      </section>
      <div class="home-daily-region">
-     <section aria-describedby="forecast-map-credit" aria-label="Mappe meteo dal 9 al 12 ottobre 2026" class="forecast-map-browser">
+     <div class="home-daily-content">
+<section aria-describedby="forecast-map-credit" aria-label="Mappe meteo dal 9 al 12 ottobre 2026" class="forecast-map-browser">
       <div aria-label="Date delle mappe" aria-orientation="vertical" class="map-layer-menu forecast-date-tabs lab-tabs" hidden="" role="tablist">
       </div>
       <ul aria-describedby="forecast-map-credit" aria-label="Mappe meteo dal 9 al 12 ottobre 2026" class="block_weather_prevision__map_list forecast-maps">
@@ -1512,24 +1514,7 @@
        </li>
       </ul>
      </section>
-     <!-- home-module:sidebar:start -->
-<div class="home-daily-sidebar"><aside class="home-ad home-ad--halfpage" aria-label="Pubblicità: TTC in Bicocca" data-promotion="corso" data-ad-format="300x600">
-    <p class="home-ad__label">Pubblicità</p>
-    <a class="home-ad__link" href="https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione" target="_blank" rel="noopener noreferrer">
-      <picture><img src="../assets/advertising/campaign-v4/bicocca-halfpage-v4.webp" width="300" height="600" alt="Teoria e Tecnologia della comunicazione. Laurea magistrale · Milano-Bicocca. Informatica. Psicologia. Design. Scopri il corso" decoding="async" loading="lazy"/></picture>
-    </a>
-  </aside><aside class="home-ad home-ad--mrec" aria-label="Pubblicità: Caffè TTC" data-promotion="caffe" data-ad-format="300x250">
-    <p class="home-ad__label">Pubblicità</p>
-    <a class="home-ad__link" href="https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=liquid" target="_blank" rel="noopener noreferrer">
-      <picture><img src="../assets/advertising/campaign-v4/caffe-mrec-v4.webp" width="300" height="250" alt="Caffè TTC. Un buon caffè. Un po’ di tempo..  Entra al TTC" decoding="async" loading="lazy"/></picture>
-    </a>
-  </aside></div>
-<!-- home-module:sidebar:end -->
-     </div>
-     <p class="forecast-map-credit" hidden="" id="forecast-map-credit">
-      Rielaborazioni illustrative per il confronto didattico. Fonte dei contenuti: iLMeteo.it e rispettivi autori · acquisizione 8 ottobre 2026. Cartografia: Natural Earth · icone: Heroicons.
-     </p>
-     <section id="home-tools" class="home-tools" aria-labelledby="home-tools-title">
+<section id="home-tools" class="home-tools" aria-labelledby="home-tools-title">
       <h2 id="home-tools-title">Altri strumenti meteo</h2>
       <ul class="block_menu lab-menu" aria-labelledby="home-tools-title">
        <li class="block_menu__item home-tools__item">
@@ -1565,6 +1550,25 @@
        </li>
       </ul>
      </section>
+</div>
+     <!-- home-module:sidebar:start -->
+<div class="home-daily-sidebar"><aside class="home-ad home-ad--halfpage" aria-label="Pubblicità: TTC in Bicocca" data-promotion="corso" data-ad-format="300x600">
+    <p class="home-ad__label">Pubblicità</p>
+    <a class="home-ad__link" href="https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione" target="_blank" rel="noopener noreferrer">
+      <picture><img src="../assets/advertising/campaign-v4/bicocca-halfpage-v4.webp" width="300" height="600" alt="Teoria e Tecnologia della comunicazione. Laurea magistrale · Milano-Bicocca. Informatica. Psicologia. Design. Scopri il corso" decoding="async" loading="lazy"/></picture>
+    </a>
+  </aside><aside class="home-ad home-ad--mrec" aria-label="Pubblicità: Caffè TTC" data-promotion="caffe" data-ad-format="300x250">
+    <p class="home-ad__label">Pubblicità</p>
+    <a class="home-ad__link" href="https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=liquid" target="_blank" rel="noopener noreferrer">
+      <picture><img src="../assets/advertising/campaign-v4/caffe-mrec-v4.webp" width="300" height="250" alt="Caffè TTC. Un buon caffè. Un po’ di tempo..  Entra al TTC" decoding="async" loading="lazy"/></picture>
+    </a>
+  </aside></div>
+<!-- home-module:sidebar:end -->
+     </div>
+     <p class="forecast-map-credit" hidden="" id="forecast-map-credit">
+      Rielaborazioni illustrative per il confronto didattico. Fonte dei contenuti: iLMeteo.it e rispettivi autori · acquisizione 8 ottobre 2026. Cartografia: Natural Earth · icone: Heroicons.
+     </p>
+
      <section aria-label="Notizie" id="home-news" class="block_news grid grid-cols-1 lg:grid-cols-2 gap-8 p-4 md:p-6">
       <div class="block_news__col block_news__col--left">
        <h2 class="block_news__col__title">
@@ -1573,126 +1577,14 @@
         </span>
        </h2>
        <ul class="block_news__col__list block_news__list--meteo grid gap-5">
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-weekend-sabato-ancora-piogge-localmente-battenti-al-centrosud-domenica-pi-stabile-le-previsioni-113003" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 1" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/weekend-rain.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-weekend-sabato-ancora-piogge-localmente-battenti-al-centrosud-domenica-pi-stabile-le-previsioni-113003" href="#snapshot-unavailable">
-            Meteo weekend: Sabato ancora piogge localmente battenti al Centro-Sud, Domenica più stabile. Le previsioni
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:28
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/protezione-civile-nazionale-allerta-meteo-arancione-in-campania-e-lazio-gialla-in-14-regioni-il-bollettino-173002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 2" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/weather-alert.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/protezione-civile-nazionale-allerta-meteo-arancione-in-campania-e-lazio-gialla-in-14-regioni-il-bollettino-173002" href="#snapshot-unavailable">
-            Protezione Civile Nazionale: allerta meteo arancione in Campania e Lazio, gialla in 14 regioni. Il bollettino
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:38
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-prossima-settimana-avvio-ancora-con-piogge-e-vento-dal-15-ottobre-temporanea-alta-pressione-tendenza-144001" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 3" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/next-week.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-prossima-settimana-avvio-ancora-con-piogge-e-vento-dal-15-ottobre-temporanea-alta-pressione-tendenza-144001" href="#snapshot-unavailable">
-            Meteo prossima settimana: avvio ancora con piogge e vento, dal 15 Ottobre temporanea alta pressione. Tendenza
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:40
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-calo-termico-in-atto-venerd-9-ottobre-ulteriore-diminuzione-di-56c-al-centrosud-mappa-105002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 4" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/temperature-drop.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-calo-termico-in-atto-venerd-9-ottobre-ulteriore-diminuzione-di-56c-al-centrosud-mappa-105002" href="#snapshot-unavailable">
-            Meteo: calo termico in atto, Venerdì 9 Ottobre ulteriore diminuzione di 5-6°C al Centro-Sud
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:20
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-da-met-ottobre-blocco-atmosferico-in-europa-instabile-su-adriatiche-e-sud-mite-al-nord-proiezioni-153002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 5" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/europe-block.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-da-met-ottobre-blocco-atmosferico-in-europa-instabile-su-adriatiche-e-sud-mite-al-nord-proiezioni-153002" href="#snapshot-unavailable">
-            Meteo: da metà Ottobre blocco atmosferico in Europa; instabile su Adriatiche e Sud, mite al Nord. Proiezioni
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:21
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-perturbazioni-in-transito-piogge-e-locali-temporali-calo-termico-migliora-da-domenica-parla-tedici-210003" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 6" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/passing-storms.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-perturbazioni-in-transito-piogge-e-locali-temporali-calo-termico-migliora-da-domenica-parla-tedici-210003" href="#snapshot-unavailable">
-            Meteo, perturbazioni in transito: piogge e locali temporali, calo termico, migliora da Domenica
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:49
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-prima-fase-ventosa-autunnale-tra-l8-e-il-9-ottobre-con-raffiche-a-8090-kmh-e-mareggiate-mappe-112558" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 7" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/c9f8d4b8e82b-thumb_ventiok-071026.jpg"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-prima-fase-ventosa-autunnale-tra-l8-e-il-9-ottobre-con-raffiche-a-8090-kmh-e-mareggiate-mappe-112558" href="#snapshot-unavailable">
-            Meteo: prima fase ventosa autunnale tra l'8 e il 9 Ottobre con raffiche a 80-90 km/h e mareggiate
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:25
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/ora-solare-2026-quando-torna-limpatto-sul-meteo-e-il-punto-sullabolizione-150001" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia meteo 8" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/bb31e7beea25-thumb_ora-solare-021026.jpg"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/ora-solare-2026-quando-torna-limpatto-sul-meteo-e-il-punto-sullabolizione-150001" href="#snapshot-unavailable">
-            Ora solare 2026: quando torna, l'impatto sul meteo e il punto sull'abolizione
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 11:51
-          </p>
-         </div>
-        </li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-weekend-sabato-ancora-piogge-localmente-battenti-al-centrosud-domenica-pi-stabile-le-previsioni-113003" aria-labelledby="home-news-title-1"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/weekend-rain.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-1">Meteo weekend: Sabato ancora piogge localmente battenti al Centro-Sud, Domenica più stabile. Le previsioni</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:28</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/protezione-civile-nazionale-allerta-meteo-arancione-in-campania-e-lazio-gialla-in-14-regioni-il-bollettino-173002" aria-labelledby="home-news-title-2"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/weather-alert.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-2">Protezione Civile Nazionale: allerta meteo arancione in Campania e Lazio, gialla in 14 regioni. Il bollettino</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:38</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-prossima-settimana-avvio-ancora-con-piogge-e-vento-dal-15-ottobre-temporanea-alta-pressione-tendenza-144001" aria-labelledby="home-news-title-3"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/next-week.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-3">Meteo prossima settimana: avvio ancora con piogge e vento, dal 15 Ottobre temporanea alta pressione. Tendenza</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:40</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-calo-termico-in-atto-venerd-9-ottobre-ulteriore-diminuzione-di-56c-al-centrosud-mappa-105002" aria-labelledby="home-news-title-4"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/temperature-drop.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-4">Meteo: calo termico in atto, Venerdì 9 Ottobre ulteriore diminuzione di 5-6°C al Centro-Sud</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:20</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-da-met-ottobre-blocco-atmosferico-in-europa-instabile-su-adriatiche-e-sud-mite-al-nord-proiezioni-153002" aria-labelledby="home-news-title-5"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/europe-block.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-5">Meteo: da metà Ottobre blocco atmosferico in Europa; instabile su Adriatiche e Sud, mite al Nord. Proiezioni</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:21</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-perturbazioni-in-transito-piogge-e-locali-temporali-calo-termico-migliora-da-domenica-parla-tedici-210003" aria-labelledby="home-news-title-6"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/passing-storms.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-6">Meteo, perturbazioni in transito: piogge e locali temporali, calo termico, migliora da Domenica</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:49</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-prima-fase-ventosa-autunnale-tra-l8-e-il-9-ottobre-con-raffiche-a-8090-kmh-e-mareggiate-mappe-112558" aria-labelledby="home-news-title-7"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/c9f8d4b8e82b-thumb_ventiok-071026.jpg"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-7">Meteo: prima fase ventosa autunnale tra l'8 e il 9 Ottobre con raffiche a 80-90 km/h e mareggiate</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:25</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/ora-solare-2026-quando-torna-limpatto-sul-meteo-e-il-punto-sullabolizione-150001" aria-labelledby="home-news-title-8"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/bb31e7beea25-thumb_ora-solare-021026.jpg"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-8">Ora solare 2026: quando torna, l'impatto sul meteo e il punto sull'abolizione</h3><p class="block_news__col__list__item__data">8/10/2026 ore 11:51</p></div></a></li>
        </ul>
       </div>
       <div class="block_news__col block_news__col--right">
@@ -1702,126 +1594,14 @@
         </span>
        </h2>
        <ul class="block_news__col__list block_news__list--meteo grid gap-5">
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/temporale-a-roma-piogge-intense-e-allagamenti-tra-montesacro-e-la-zona-portuense-video-133002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 1" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/rome-flood.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/temporale-a-roma-piogge-intense-e-allagamenti-tra-montesacro-e-la-zona-portuense-video-133002" href="#snapshot-unavailable">
-            Temporale a Roma: piogge intense e allagamenti tra Montesacro e la zona Portuense
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:35
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-tornata-la-neve-sul-passo-dello-stelvio-paesaggio-imbiancato-video-160003" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 2" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/stelvio-snow.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-tornata-la-neve-sul-passo-dello-stelvio-paesaggio-imbiancato-video-160003" href="#snapshot-unavailable">
-            Meteo: è tornata la neve sul Passo dello Stelvio: paesaggio imbiancato
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:49
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/riscaldamento-globale-le-conseguenze-sul-territorio-alpino-e-mediterraneo-video-160001" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 3" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/alpine-climate.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/riscaldamento-globale-le-conseguenze-sul-territorio-alpino-e-mediterraneo-video-160001" href="#snapshot-unavailable">
-            Riscaldamento globale: le conseguenze sulle Alpi e le aree del Mediterraneo
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:20
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/viareggio-maltempo-danni-alle-abitazioni-e-disagi-sulle-strade-video-150002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 4" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/viareggio-storm.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/viareggio-maltempo-danni-alle-abitazioni-e-disagi-sulle-strade-video-150002" href="#snapshot-unavailable">
-            Viareggio, maltempo: danni alle abitazioni e disagi sulle strade
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:45
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/forti-piogge-e-temporali-a-napoli-traffico-in-tilt-in-diverse-zone-della-citt-video-140004" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 5" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/naples-rain.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/forti-piogge-e-temporali-a-napoli-traffico-in-tilt-in-diverse-zone-della-citt-video-140004" href="#snapshot-unavailable">
-            Forti piogge e temporali a Napoli: traffico in tilt in diverse zone della città
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:40
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/ilmeteoit-cambia-rotta-addio-al-meteo-spettacolo-nasce-il-patto-di-trasparenza-con-i-lettori-173002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 6" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/editorial-transparency.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/ilmeteoit-cambia-rotta-addio-al-meteo-spettacolo-nasce-il-patto-di-trasparenza-con-i-lettori-173002" href="#snapshot-unavailable">
-            iLMeteo.it Cambia Rotta: Addio al 'Meteo Spettacolo', Nasce il Patto di Trasparenza con i Lettori
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:28
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/meteo-valencia-temporali-e-allagamenti-a-moncada-oltre-110-mm-di-pioggia-e-trasporti-in-tilt-video-133002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 7" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/valencia-flood.webp"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/meteo-valencia-temporali-e-allagamenti-a-moncada-oltre-110-mm-di-pioggia-e-trasporti-in-tilt-video-133002" href="#snapshot-unavailable">
-            Meteo: Valencia, temporali e allagamenti a Moncada: oltre 110 mm di pioggia e trasporti in tilt
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:26
-          </p>
-         </div>
-        </li>
-        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm">
-         <a data-live-href="https://www.ilmeteo.it/notizie/livorno-un-grande-capodoglio-spunta-a-pochi-metri-dal-porticciolo-video-183002" href="#snapshot-unavailable">
-          <img alt="Leggi la notizia extra 8" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/4c9e44ed0847-thumb_capodoglio-061026.jpg"/>
-         </a>
-         <div class="lab-card-body">
-          <h3 class="block_news__col__list__item__title lab-card-title">
-           <a data-live-href="https://www.ilmeteo.it/notizie/livorno-un-grande-capodoglio-spunta-a-pochi-metri-dal-porticciolo-video-183002" href="#snapshot-unavailable">
-            Livorno, un grande capodoglio spunta a pochi metri dal porticciolo
-           </a>
-          </h3>
-          <p class="block_news__col__list__item__data">
-           8/10/2026 ore 18:20
-          </p>
-         </div>
-        </li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/temporale-a-roma-piogge-intense-e-allagamenti-tra-montesacro-e-la-zona-portuense-video-133002" aria-labelledby="home-news-title-9"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/rome-flood.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-9">Temporale a Roma: piogge intense e allagamenti tra Montesacro e la zona Portuense</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:35</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-tornata-la-neve-sul-passo-dello-stelvio-paesaggio-imbiancato-video-160003" aria-labelledby="home-news-title-10"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/stelvio-snow.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-10">Meteo: è tornata la neve sul Passo dello Stelvio: paesaggio imbiancato</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:49</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/riscaldamento-globale-le-conseguenze-sul-territorio-alpino-e-mediterraneo-video-160001" aria-labelledby="home-news-title-11"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/alpine-climate.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-11">Riscaldamento globale: le conseguenze sulle Alpi e le aree del Mediterraneo</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:20</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/viareggio-maltempo-danni-alle-abitazioni-e-disagi-sulle-strade-video-150002" aria-labelledby="home-news-title-12"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/viareggio-storm.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-12">Viareggio, maltempo: danni alle abitazioni e disagi sulle strade</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:45</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/forti-piogge-e-temporali-a-napoli-traffico-in-tilt-in-diverse-zone-della-citt-video-140004" aria-labelledby="home-news-title-13"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/naples-rain.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-13">Forti piogge e temporali a Napoli: traffico in tilt in diverse zone della città</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:40</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/ilmeteoit-cambia-rotta-addio-al-meteo-spettacolo-nasce-il-patto-di-trasparenza-con-i-lettori-173002" aria-labelledby="home-news-title-14"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/editorial-transparency.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-14">iLMeteo.it Cambia Rotta: Addio al 'Meteo Spettacolo', Nasce il Patto di Trasparenza con i Lettori</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:28</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/meteo-valencia-temporali-e-allagamenti-a-moncada-oltre-110-mm-di-pioggia-e-trasporti-in-tilt-video-133002" aria-labelledby="home-news-title-15"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/news/editorial-v1/valencia-flood.webp"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-15">Meteo: Valencia, temporali e allagamenti a Moncada: oltre 110 mm di pioggia e trasporti in tilt</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:26</p></div></a></li>
+        <li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/notizie/livorno-un-grande-capodoglio-spunta-a-pochi-metri-dal-porticciolo-video-183002" aria-labelledby="home-news-title-16"><img alt="" class="block_news__col__list__item__img" decoding="async" loading="lazy" src="../assets/4c9e44ed0847-thumb_capodoglio-061026.jpg"/><div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="home-news-title-16">Livorno, un grande capodoglio spunta a pochi metri dal porticciolo</h3><p class="block_news__col__list__item__data">8/10/2026 ore 18:20</p></div></a></li>
        </ul>
       </div>
      </section>
@@ -1941,7 +1721,7 @@ Mostra tutto il mondo</button>
      <section aria-label="Condividi" class="social_condividi">
 <!-- home-module:community:start -->
 <aside class="whatsapp-banner" aria-labelledby="whatsapp-banner-title">
-    <img class="whatsapp-banner__logo" src="../assets/2176f7cf2764-logo_whatsapp.png" width="64" height="64" alt="" loading="lazy" decoding="async"/>
+    <img class="whatsapp-banner__logo" src="../assets/74340fa0a487-social_mobile_whatsapp.svg" width="64" height="64" alt="" loading="lazy" decoding="async"/>
     <div class="whatsapp-banner__copy"><h2 id="whatsapp-banner-title">The weather forecast</h2><p>Il meteo, a portata di chat.</p></div>
     <span class="whatsapp-banner__label">WhatsApp</span>
   </aside>
@@ -1971,7 +1751,6 @@ Mostra tutto il mondo</button>
    <footer class="main_footer site-footer lab-footer lab-footer-vertical">
  <div class="main_footer__identity">
   <a class="main_footer__brandline" href="index.html" aria-label="Home The weather forecast"><picture><source media="print" srcset="../assets/brand/the-weather-forecast/wordmark-color.svg"/><img src="../assets/brand/the-weather-forecast/wordmark-light.svg" alt="The weather forecast" width="908" height="256" loading="lazy" decoding="async"/></picture></a>
-  <p class="main_footer__project">Progetto didattico CVeDI · previsioni acquisite e mappe illustrative.</p>
   <p class="main_footer__source">Fonte dei contenuti: <a href="../originale/index.html">iLMeteo.it e rispettivi autori</a>. Acquisizioni dell’8 e 9 ottobre 2026.</p>
  </div>
  <nav class="main_footer__navigation" aria-labelledby="footer-navigation-title">

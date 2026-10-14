@@ -153,15 +153,21 @@
   navigation?.addEventListener('scroll', placeOpenMenus, {passive: true});
   addEventListener('resize', placeOpenMenus, {passive: true});
   addEventListener('scroll', placeOpenMenus, {passive: true});
-  const sideMenu = document.querySelector('.side_menu');
   document.addEventListener('click', event => {
     if (!event.target.closest('.search_bar')) setResults(false);
-    if (!event.target.closest('.side_menu, .main_menu__list__item--hamburger')) sideMenu?.classList.remove('side_menu--visible');
+    if (!event.target.closest('.main_menu details')) menus.filter(menu => menu.open).forEach(menu => {
+      const restore = menu.contains(document.activeElement);
+      menu.open = false;
+      if (restore) menu.querySelector('summary').focus();
+    });
   });
   document.addEventListener('keydown', event => {
     if (event.key !== 'Escape') return;
     setResults(false);
-    sideMenu?.classList.remove('side_menu--visible');
-    document.querySelectorAll('.main_menu details[open]').forEach(item => { item.open = false; });
+    menus.filter(menu => menu.open).forEach(menu => {
+      const restore = menu.contains(document.activeElement);
+      menu.open = false;
+      if (restore) menu.querySelector('summary').focus();
+    });
   });
 })();

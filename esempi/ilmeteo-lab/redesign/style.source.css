@@ -270,7 +270,7 @@ body[data-version="redesign"] .map-surface > .map-layer-menu .map-layer-control:
 body[data-version="redesign"] .map-playback { grid-area: player; display: flex; align-items: center; justify-content: flex-end; gap: 12px; box-sizing: border-box; min-width: 0; }
 body[data-version="redesign"] .map-playback[hidden] { display: none; }
 @media (max-width: 600px) {
-  body[data-version="redesign"] .map-playback { display: grid; grid-template-columns: minmax(0, 1fr) 84px; gap: 8px 0; }
+  body[data-version="redesign"] .map-playback { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px 0; }
   body[data-version="redesign"] .radar-player__timeline { grid-column: 1 / -1; }
   body[data-version="redesign"] .map-playback .radar-player__toggle { grid-column: 1; justify-self: end; }
 }
@@ -311,7 +311,9 @@ body[data-version="redesign"] .map-layer-menu .map-layer-control:focus-visible {
 }
 body[data-version="redesign"] .map-layer-menu .map-layer-control:active { background: var(--meteo-navy-active); color: var(--meteo-paper); }
 @media screen and (max-width: 600px) {
-  body[data-version="redesign"] .map-surface { grid-template-columns: minmax(0, 1fr) 84px; grid-template-areas: "map types" "player player"; }
+  body[data-version="redesign"] .map-surface { grid-template-columns: minmax(0, 1fr); grid-template-areas: "types" "map" "player"; }
+  body[data-version="redesign"] .map-surface > .map-layer-menu { flex-direction: row; overflow-x: auto; scrollbar-width: thin; scrollbar-color: var(--meteo-orange) var(--meteo-tabs); margin-bottom: 8px; }
+  body[data-version="redesign"] .map-surface > .map-layer-menu > li { flex: 0 0 84px; }
   body[data-version="redesign"] .map-surface > .map-layer-menu .map-layer-control {
     display: flex; flex-direction: column; justify-content: center; height: 100%; min-height: 48px;
     gap: 2px; padding: 4px 2px; font-size: 12px;
@@ -400,8 +402,11 @@ body[data-version="redesign"] .forecast-date-tabs .map-layer-control {
 }
 @media screen and (max-width: 600px) {
   body[data-version="redesign"] .forecast-map-browser.has-date-tabs {
-    --forecast-date-width: 84px;
+    display: flex; flex-direction: column; max-width: none;
   }
+  body[data-page="home"] .forecast-map-browser .forecast-maps { padding-inline: 0; }
+  body[data-version="redesign"] .has-date-tabs .forecast-maps { width: 100%; }
+  body[data-version="redesign"] .forecast-date-tabs { position: static; order: -1; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); width: 100%; margin-bottom: 12px; border: 1px solid var(--meteo-rule); border-radius: 0; box-shadow: none; }
   body[data-version="redesign"] .forecast-date-tabs .map-layer-control {
     height: 48px; min-height: 48px; padding: 4px;
   }
@@ -446,10 +451,11 @@ body[data-version="redesign"] .block_weather_prevision__forecast_maps {
 body[data-version="redesign"] .block_weather_prevision__forecast_maps__news {
   grid-area: news; min-width: 0; padding: 0;
 }
+body[data-page="home"] .block_weather_prevision__forecast_maps { grid-template-columns: minmax(0,1fr) var(--home-support-width,300px); gap: var(--home-column-gap,32px); }
 body[data-version="redesign"] .block_weather_prevision__forecast_maps__map {
   grid-area: map; flex: none; width: 100%; min-width: 0;
 }
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1000px) {
   body[data-version="redesign"] .block_weather_prevision__forecast_maps {
     grid-template-columns: minmax(0, 1fr); grid-template-areas: "map" "news";
   }

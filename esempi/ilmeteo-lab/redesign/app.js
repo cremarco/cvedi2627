@@ -40,10 +40,30 @@
   const sideMenu = document.querySelector('.side_menu');
   if (menuButton && sideMenu) {
     const updateMenu = () => menuButton.setAttribute('aria-expanded', String(sideMenu.classList.contains('side_menu--visible')));
+    const closeMenu = restoreFocus => {
+      const wasOpen = sideMenu.classList.contains('side_menu--visible');
+      sideMenu.classList.remove('side_menu--visible');
+      updateMenu();
+      if (wasOpen && restoreFocus) menuButton.focus();
+    };
     menuButton.addEventListener('click', () => {
       sideMenu.classList.remove('hidden');
       sideMenu.classList.toggle('side_menu--visible');
       updateMenu();
+      if (sideMenu.classList.contains('side_menu--visible')) {
+        [...sideMenu.querySelectorAll('a[href],button,summary')].find(control => control.getClientRects().length && !control.disabled)?.focus();
+      }
+    });
+    document.addEventListener('keydown', event => {
+      if (event.key === 'Escape' && sideMenu.classList.contains('side_menu--visible')) {
+        event.preventDefault(); closeMenu(sideMenu.contains(document.activeElement));
+      }
+    });
+    document.addEventListener('click', event => {
+      if (!sideMenu.contains(event.target) && !menuButton.contains(event.target)) closeMenu(sideMenu.contains(document.activeElement));
+    });
+    document.addEventListener('focusin', event => {
+      if (!sideMenu.contains(event.target) && !menuButton.contains(event.target)) closeMenu(false);
     });
     new MutationObserver(updateMenu).observe(sideMenu, { attributes: true, attributeFilter: ['class'] });
   }
@@ -146,4 +166,10 @@
     document.fonts.ready.then(placeDateTabs);
     placeDateTabs();
   }
+  const compactMaps = matchMedia('(max-width: 600px)');
+  const syncMapOrientation = () => {
+    [layerMenu,dateTabs].filter(Boolean).forEach(list => list.setAttribute('aria-orientation', compactMaps.matches ? 'horizontal' : 'vertical'));
+  };
+  compactMaps.addEventListener('change', syncMapOrientation);
+  syncMapOrientation();
 })();

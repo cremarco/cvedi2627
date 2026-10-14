@@ -11,9 +11,18 @@ export async function buildHomeModules() {
     read('redesign/index.html'), read('assets/maps/world/catalog.js'),
     read('data/supplementary.json').then(JSON.parse), read('data/home-promotions.json').then(JSON.parse), read('data/site.json').then(JSON.parse), read('data/home-news-art.json').then(JSON.parse),
   ]);
-  const raw = newsArt.assets.reduce((html, item) => html.replaceAll(`src="${item.source}"`, `src="${item.runtime}"`), acquiredRaw)
+  const illustrated = newsArt.assets.reduce((html, item) => html.replaceAll(`src="${item.source}"`, `src="${item.runtime}"`), acquiredRaw)
     .replace(/(<h3\b[^>]*class="[^"]*block_news__col__list__item__title[^"]*"[^>]*>)([\s\S]*?)(<\/h3>)/g,
       (_, opening, title, closing) => opening + title.replace(/\s*\[[^\]]*\]/g, '') + closing);
+  let newsIndex = 0;
+  const raw = illustrated.replace(/<li class="block_news__col__list__item[^>]*>([\s\S]*?)<\/li>/g, (_, item) => {
+    const href = item.match(/data-live-href="([^"]+)"/)[1];
+    const image = item.match(/<img\b[^>]*>/)[0].replace(/alt="[^"]*"/, 'alt=""');
+    const title = item.match(/<h3[^>]*>([\s\S]*?)<\/h3>/)[1].replace(/<\/?a\b[^>]*>/g, '').trim();
+    const date = item.match(/<p\b[^>]*>([\s\S]*?)<\/p>/)[1].trim();
+    const id = `home-news-title-${++newsIndex}`;
+    return `<li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="${href}" aria-labelledby="${id}">${image}<div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="${id}">${title}</h3><p class="block_news__col__list__item__data">${date}</p></div></a></li>`;
+  });
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
   const plain = html => html.replace(/<[^>]+>/g, '').replaceAll('&amp;', '&').replaceAll('&nbsp;', ' ').replace(/\s+/g, ' ').trim();
   const icon = async name => (await read(`assets/controls/heroicons/${name}.svg`)).replace('<svg ', `<svg focusable="false" data-heroicon="${name}" `);
@@ -97,7 +106,7 @@ export async function buildHomeModules() {
   </section>`;
   const resources = `<div class="home-leaderboard-slot">${ad('atlante')}</div><div class="home-secondary-reading">${summaries}<div class="home-resources-sidebar">${video}${ad('laboratorio')}</div></div><div class="home-international-grid">${international}</div>`;
   const community = `<aside class="whatsapp-banner" aria-labelledby="whatsapp-banner-title">
-    <img class="whatsapp-banner__logo" src="../assets/2176f7cf2764-logo_whatsapp.png" width="64" height="64" alt="" loading="lazy" decoding="async"/>
+    <img class="whatsapp-banner__logo" src="../assets/74340fa0a487-social_mobile_whatsapp.svg" width="64" height="64" alt="" loading="lazy" decoding="async"/>
     <div class="whatsapp-banner__copy"><h2 id="whatsapp-banner-title">${escape(site.name)}</h2><p>${escape(site.whatsapp.tagline)}</p></div>
     <span class="whatsapp-banner__label">${escape(site.whatsapp.label)}</span>
   </aside>`;

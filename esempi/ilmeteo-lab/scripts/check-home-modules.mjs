@@ -50,6 +50,11 @@ async function checkFab(page,width) {
   assert.deepEqual(covered,[],`FAB leaves visible news titles readable at ${width}px`);
 }
 async function checkTools(page,width) {
+  const menuTrigger=page.getByRole('button',{name:'Apri menu The weather forecast',exact:true});
+  await menuTrigger.click();
+  assert.equal(await page.evaluate(()=>document.querySelector('.side_menu').contains(document.activeElement)),true,'Opening the WF menu moves focus into its contents');
+  await page.keyboard.press('Escape');
+  assert.equal(await menuTrigger.evaluate(button=>button===document.activeElement),true,'Escape returns focus to the visible menu trigger');
   const tools=page.locator('#home-tools');
   await tools.scrollIntoViewIfNeeded();
   await page.evaluate(()=>document.activeElement?.blur());
@@ -120,7 +125,7 @@ async function checkBrandingOnly() {
       assert.equal(await footer.count(),1);
       assert.equal(await footer.getByRole('img',{name:'The weather forecast',exact:true}).count(),1);
       assert.doesNotMatch(await footer.innerText(),/Srl|P\.IVA|449669|05184350287|Mefin/i);
-      assert.match(await footer.innerText(),/Progetto didattico CVeDI/);
+      assert.equal(await footer.locator('.main_footer__project').count(),0);
       assert.match(await footer.innerText(),/Fonte dei contenuti.*iLMeteo.it/s);
       for(const id of ['index.html','milano.html','domani.html']) assert.equal(await footer.locator(`a[href="${id}"]`).count()>=1,true);
       assert.equal(await page.locator('.whatsapp_channel,.google_favorite').count(),0,'The redesign does not advertise channels of the acquired brand');
@@ -460,6 +465,7 @@ try {
     assert.equal(await page.locator('.home-ad').count(),5);
     assert.equal(await page.locator('[data-summary-panel]').count(),7);
     assert.equal(await page.locator('.block_news__col__list__item').count(),16);
+    assert.equal(await page.locator('.block_news__col__list__item a').count(),16,'Each news item has one named link');
     for(const [i,day] of data.pages.home.secondary.syntheticForecast.days.entries()) {
       const expected=data.records[day.narrativeRef].text.split(' Previsioni meteo complete')[0];
       assert.equal(await page.locator(`#summary-panel-${i} > p`).textContent(),expected);
@@ -563,6 +569,11 @@ try {
   assert.equal(await fallback.evaluate(image=>image.complete&&image.naturalWidth>0),true);
   assert.equal(await page.locator('#world-country-search').getAttribute('list'),'world-country-options');
   assert.equal(await page.locator('#world-country-options option').count(),242,'No-script retains the native country chooser');
+  await page.locator('#search-main').fill('Roma');
+  await page.locator('#search-main').press('Enter');
+  await page.waitForURL('**/index.html?citta=Roma#locality-fallback');
+  assert.equal(await page.locator('#locality-fallback').isVisible(),true,'No-script search explains the limitation rather than showing another city');
+  assert.equal(await page.locator('#locality-fallback a').getAttribute('href'),'milano.html','Available Milano is an explicit recovery link');
   for(const id of ['world-map-zoom-in','world-map-zoom-out','world-map-reset']) assert.equal(await page.locator(`#${id}`).isEnabled(),false);
   await checkMilanoFallback(page,'no JavaScript');
   await checkFab(page,375);
