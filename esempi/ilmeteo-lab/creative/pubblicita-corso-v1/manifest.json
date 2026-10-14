@@ -4,7 +4,7 @@
   "generator": "OpenAI built-in image_gen.imagegen",
   "generationMode": "built-in",
   "purpose": "Pubblicità simulate per l'esempio didattico iLMeteo, da usare successivamente.",
-  "publicationStatus": "Non integrate. Cartella fuori dagli asset e dai percorsi pubblici del server e della build iLMeteo.",
+  "publicationStatus": "Original booklet reference used by campaign-v4; unused variants and duplicate ZIP removed.",
   "sources": [
     {
       "url": "https://www.ilmeteo.it/",
@@ -47,23 +47,6 @@
   "rights": "Creatività originali generate per questo progetto. Non rappresentano campagne ufficiali di UniMiB. Non si rivendicano licenze di terze parti sui raster generati. Il riferimento Caffè TTC è un asset originale del progetto, conservato con il proprio manifest.",
   "assets": [
     {
-      "id": "ttc-unimib",
-      "filename": "01-ttc-unimib-banner.png",
-      "title": "TTC · UniMiB",
-      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a1356f-468b-79c2-a9c4-a75931df451c/exec-42aa90f8-e6b4-4727-813f-522a74248bd8.png",
-      "prompt": "Use case: ads-marketing.\nAsset type: ONE finished Italian web display advertisement for a teaching mockup of the iLMeteo website. Standalone raster artwork, not a web page, not a contact sheet. Wide billboard landscape canvas, aspect ratio 3.88:1, intended display size 970 × 250. Fill the entire image with the advertisement.\nPrimary request: promote the real UniMiB master's programme TTC, Teoria e Tecnologia della Comunicazione, in a fictional classroom ad campaign. Friendly ambitious university recruitment creative, clever reference to weather through the headline.\nScene/backdrop: confident midnight indigo field #312e81 with bold lime #a3e635 and white typography. Abstract visual of intersecting disciplines: a few clean geometric paths like a metro map, connected rounded blocks suggesting a conversation and an interface. A visually rich focal composition at the right, plenty of clear space for the copy at the left. Clear, confident advertising, crafted and editorial rather than a generic tech template.\nStyle/medium: polished professional flat graphic campaign with subtle dimensional planes, clean geometric forms and sharply typeset text. Inter-like sans serif. Excellent readability at the small display size.\nText (verbatim), visual hierarchy:\nSmall institution line: \"Università degli Studi di Milano-Bicocca\"\nVery large headline: \"Previsioni: idee in arrivo.\"\nProgramme acronym: \"TTC\"\nProgramme name: \"Teoria e Tecnologia della Comunicazione\"\nSmall supporting line: \"Laurea magistrale\"\nLime call-to-action button: \"Scopri il corso\"\nTiny unobtrusive bottom note: \"Esempio didattico\"\nConstraints: all Italian copy exact and crisply spelled; no additional text. Preserve readable safe margins. No university seal, no invented institutional logo. No dates, enrolment deadlines, pricing, placement claims or promises. No iLMeteo logo, no surrounding webpage, no fake browser chrome, no borders or frame. This is a fictional ad creative for an actual course, not a claim of an official university campaign. Opaque background.",
-      "referenceImages": [],
-      "textVerified": true,
-      "visualVerified": true,
-      "siteIntegration": false,
-      "file": "01-ttc-unimib-banner.png",
-      "width": 1983,
-      "height": 793,
-      "bytes": 1795781,
-      "sha256": "41447e14e96bf658e8d8f0fa4803bda55739998d6ea5963bc4b900b958f7dcb5",
-      "aspectRatio": 2.5006
-    },
-    {
       "id": "booklet",
       "filename": "02-booklet-verticale.png",
       "title": "Booklet · CVeDI",
@@ -79,42 +62,6 @@
       "bytes": 1554134,
       "sha256": "c321adeca48a01533a2a3fa19c1fcd07257eb3b0fbdd98dd81f1d20627a666a3",
       "aspectRatio": 0.5
-    },
-    {
-      "id": "caffe-ttc",
-      "filename": "03-caffe-ttc-rettangolo.png",
-      "title": "Caffè TTC",
-      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a1356f-468b-79c2-a9c4-a75931df451c/exec-c17a91d5-238a-49df-90ea-da7b529d918a.png",
-      "prompt": "Use case: ads-marketing.\nAsset type: ONE finished rectangular Italian web display advertisement, standalone raster artwork for the fictional teaching cafe Caffè TTC, to use later in an iLMeteo classroom mockup. Landscape rectangle aspect ratio 6:5, intended display size 300 × 250. Entire canvas is the advertisement.\nInput image 1: identity reference only, the existing Caffè TTC espresso-cup emblem with circular handle, saucer and TWO curls of steam. Reuse its recognizable silhouette as a small emblem beside the brand name; do not redesign it. The reference is not the image to edit.\nPrimary request: advertise Caffè TTC as a playful interactive design lab with 21 visual styles, using the appetizing visual language of a real cafe display ad.\nScene/backdrop: rich dark forest green #214b39 background, warm cream text and restrained pale green accent. Beautiful photorealistic ceramic espresso cup with crema and a fresh golden croissant filling the lower half. Natural inviting morning light, plausible textures, no unnatural floating beans or extra props. Elegant cafe product photography paired with very clear graphic typography. The products have room to breathe and do not overlap the text.\nComposition: brand line at top, bold concise headline below, product hero filling the middle and lower portion, supporting text and clear pale-green CTA integrated at the bottom. Broad safe margins, excellent small-size contrast.\nText (verbatim):\nBrand name: \"Caffè TTC\"\nMain headline: \"Previsioni: pausa caffè.\"\nSupporting line: \"Un bar. 21 stili. Tutto da esplorare.\"\nCall-to-action button: \"Entra nel laboratorio\"\nTiny unobtrusive bottom note: \"Esempio didattico\"\nConstraints: Caffè must have the correct grave accent è. All copy exact and sharply readable. No menu prices, address, opening hours or real cafe claims. This is the existing fictional educational cafe, not a real venue. No extra logo, no iLMeteo logo, no borders, no external frame, no surrounding website or browser chrome. Opaque background.",
-      "referenceImages": [
-        "/Users/marco/Sites/CVeDI 2026:2027/esempi/caffe-luce/assets/brand/imagegen-v1/essential-original.png"
-      ],
-      "textVerified": true,
-      "visualVerified": true,
-      "siteIntegration": false,
-      "file": "03-caffe-ttc-rettangolo.png",
-      "width": 1374,
-      "height": 1145,
-      "bytes": 2052461,
-      "sha256": "4180ba0a6f3d6375d812927803b2a7627d1ddf7bc78af2564fddb00ec1d8098c",
-      "aspectRatio": 1.2
-    },
-    {
-      "id": "cvedi",
-      "filename": "04-cvedi-rettangolo.png",
-      "title": "CVeDI · Corso",
-      "originalGeneratorPath": "/Users/marco/.codex/generated_images/01a1356f-468b-79c2-a9c4-a75931df451c/exec-42e11132-4f30-4222-a264-dbe5fef50d2b.png",
-      "prompt": "Use case: ads-marketing.\nAsset type: ONE finished rectangular Italian web display advertisement for a teaching mockup of the iLMeteo website. Standalone raster ad artwork, landscape rectangle aspect ratio 6:5, intended display size 300 × 250. Do not show an entire web page or multi-ad sheet.\nPrimary request: promote the real university course Comunicazione visiva e design delle interfacce, abbreviated CVeDI. Persuasive visually striking academic design-course advertisement.\nScene/backdrop: solid deep red #991b1b field, white typography and vivid mint green #11CE7E graphic accent. Contemporary graphic composition: a bold stylized composition of interface panes, typographic letterforms and routed metro-inspired paths in the bottom-right portion. Use flat visual shapes with dark red rounded outlines and subtle offset planes, no glossy 3D or extraneous tiny icons. The graphic makes the subject of visual/interface design immediately apparent.\nComposition: energetic editorial hierarchy with big course acronym at top, large left-aligned headline, complete course name in a distinct secondary block, a mint call-to-action at the lower left. The artwork supports the text without obstructing it; uncluttered enough for 300 × 250px.\nText (verbatim):\nEyebrow: \"UniMiB\"\nCourse acronym: \"CVeDI\"\nMain headline: \"Dai forma alle tue idee.\"\nFull course name: \"Comunicazione visiva e design delle interfacce\"\nCall-to-action button: \"Esplora il corso\"\nTiny unobtrusive bottom note: \"Esempio didattico\"\nConstraints: exact copy, correct capitalization CVeDI with lowercase e, no extra words, no invented logo or university seal. No dates, prices, credits, guaranteed outcomes or invented course statistics. No iLMeteo logo. No image borders, frame, surrounding website or browser UI. Opaque background.",
-      "referenceImages": [],
-      "textVerified": true,
-      "visualVerified": true,
-      "siteIntegration": false,
-      "file": "04-cvedi-rettangolo.png",
-      "width": 1374,
-      "height": 1145,
-      "bytes": 1452557,
-      "sha256": "adf7fefa2e8b1111b8af82d04bdc8be55aff7da56853eb02040c649559f366a1",
-      "aspectRatio": 1.2
     }
   ]
 }

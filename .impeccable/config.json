@@ -379,6 +379,60 @@
         "value": "nunito sans",
         "createdAt": "2026-10-13T13:28:38.361Z",
         "reason": "DESIGN.md, sezione Tipografia e spazi: Nunito Sans variabile locale è il font normativo del deck; styles/typography.css lo dichiara nei font-face esistenti."
+      },
+      {
+        "rule": "dark-glow",
+        "value": "*",
+        "files": [
+          "esempi/ilmeteo-lab/redesign/index.html"
+        ],
+        "createdAt": "2026-10-13T21:06:10.709Z",
+        "reason": "Agent: browser inspection confirms the flagged rgb(3 24 54 / 16%) shadows belong to white navigation/search popup surfaces, with a 4px vertical offset and 16px blur; the detector incorrectly inherits the navy navbar background. Popup background and hit-test verified in reports/ilmeteo-critique/interaction-checks.json."
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "esempi/ilmeteo-lab/redesign/index.html"
+        ],
+        "createdAt": "2026-10-13T21:10:11.693Z",
+        "reason": "Agent: all six signals are identical before and after the fixes. Browser screenshots and CSS confirm centered labels in 44px day targets, 12px menu text padding, a 38px ticker with 20px text, 24px 60px 32px 16px section padding, and intentionally edge-to-edge cartography. The static detector treats ancestor wrappers as unpadded text containers; evidence is in reports/ilmeteo-critique/."
+      },
+      {
+        "rule": "overused-font",
+        "value": "arial",
+        "files": [
+          "esempi/ilmeteo-lab/redesign/index.html"
+        ],
+        "createdAt": "2026-10-13T21:10:11.783Z",
+        "reason": "Agent: body and editorial text use the documented local OpenSansHebrewCondensed fonts; Arial appears only in the preserved OpenStreetMap attribution and as fallback, not as the primary design voice. The same false positive is recorded before and after the fixes."
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "esempi/ilmeteo-lab/redesign/index.html"
+        ],
+        "createdAt": "2026-10-13T21:10:11.867Z",
+        "reason": "Agent: browser assessment B confirmed the search input has box-shadow none and daisyUI depth 0; the static detector interprets an inherited daisyUI inset-shadow formula as a 10px accent stripe that is not rendered. Existing search focus remains the documented orange 2px ring."
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "esempi/ilmeteo-lab/redesign/home.source.css"
+        ],
+        "createdAt": "2026-10-13T21:25:56.357Z",
+        "reason": "Agent: the flagged selector is a navigation details summary with border-top 3px solid transparent and explicit border-radius 0 on the following line. The shared redesign overlay also enforces radius 0 important, as required by DESIGN.md. This is neither a rounded card nor a visible accent border; the border preserves alignment with the existing navigation links."
+      },
+      {
+        "rule": "flat-type-hierarchy",
+        "value": "*",
+        "files": [
+          "esempi/ilmeteo-lab/redesign/index.html"
+        ],
+        "createdAt": "2026-10-13T21:38:28.693Z",
+        "reason": "Agent: native Chromium measurement at 1280px and 390px shows body 18px, h1 36px, section h2 27px and 24px, forecast h2 26px or 24px, and news h3 18px. The rendered hierarchy has steps of at least 1.33:1; the static detector incorrectly assigns every heading role 18px."
       }
     ]
   }

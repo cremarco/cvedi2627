@@ -1,3 +1,4 @@
+import {createExportedPreview} from './exported-preview.mjs';
 import {chromium} from 'playwright-chromium';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -5,11 +6,17 @@ import fs from 'node:fs/promises';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../../..');
 const out=path.join(root,'reports/ilmeteo-lab/navigation');
 await fs.mkdir(out,{recursive:true});
-const browser=await chromium.launch({headless:true});
-const page=await browser.newPage();
-const errors=[];page.on('pageerror',e=>errors.push(e.message));
-const base=`http://127.0.0.1:${process.env.ILMETEO_PORT || 4187}/`;
+const preview=await createExportedPreview();
+let browser;
+let failure;
+const errors=[];
 const results=[];
+try {
+const browserInstance=await chromium.launch({headless:true});
+browser=browserInstance;
+const page=await browser.newPage();
+page.on('pageerror',e=>errors.push(e.message));
+const base=preview.base;
 for(const width of [1440,390,320])for(const version of ['originale','redesign'])for(const file of ['index','milano','domani']){
  await page.setViewportSize({width,height:900});
  const response=await page.goto(`${base}${version}/${file}.html`);await page.waitForLoadState('load');
@@ -61,6 +68,13 @@ for(const file of ['index','milano','domani']){
 const noJS=await browser.newContext({javaScriptEnabled:false});const staticPage=await noJS.newPage();
 await staticPage.goto(`${base}originale/domani.html`);await staticPage.locator('[data-version-switch]').click();
 if(staticPage.url()!==`${base}redesign/domani.html`)throw Error('No-JS switch failed');
-await fs.writeFile(`${out}/checks.json`,JSON.stringify({results,reducedMotion:'pass',withoutJavaScript:'pass',sourceLinks:'pass',errors},null,2));
+
 if(errors.length)throw Error(errors.join('\n'));
-await browser.close();console.log(`PASS: ${results.length} page/viewport checks, bidirectional switches, keyboard, print, reduced motion, no JavaScript.`);
+console.log(`PASS: ${results.length} page/viewport checks, bidirectional switches, keyboard, print, reduced motion, no JavaScript.`);
+
+} catch (error) { failure=error.stack; throw error; }
+finally {
+  await fs.writeFile(`${out}/checks.json`,JSON.stringify({status:failure?'failed':'passed',results,reducedMotion:failure?null:'pass',withoutJavaScript:failure?null:'pass',sourceLinks:failure?null:'pass',errors,failure},null,2)+'\n');
+  await browser?.close();
+  await preview.close();
+}

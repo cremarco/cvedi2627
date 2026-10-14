@@ -1,0 +1,27 @@
+{
+  "family": "iLMeteo Weather Outline",
+  "origin": "Original SVG geometry authored for this project; visual compatibility with Heroicons outline, not official Heroicons",
+  "grid": [
+    24,
+    24
+  ],
+  "strokeWidth": 1.5,
+  "linecap": "round",
+  "linejoin": "round",
+  "icons": [
+    "sun",
+    "moon",
+    "cloud",
+    "partly",
+    "partly-night",
+    "rain",
+    "drizzle",
+    "heavy-rain",
+    "snow",
+    "sleet",
+    "storm",
+    "fog",
+    "wind",
+    "temperature"
+  ]
+}

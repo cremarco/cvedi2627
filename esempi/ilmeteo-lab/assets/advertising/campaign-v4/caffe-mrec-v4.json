@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-13",
+  "generator": "built-in image_gen",
+  "useCase": "ads-marketing",
+  "prompt": "Use case: ads-marketing\nCreate a FINISHED display advertisement supplied by an independent advertiser, not a photograph for a web page, not a website component or card. The finished raster includes its own complete brand identity, campaign typography, artwork, persuasive copy and a prominent call-to-action drawn into the advertisement. All requested Italian wording must be exact and highly legible. Professional real-world ad agency art direction. Use only the brief's copy; no fake prices, discounts, deadlines or added claims. No weather-site branding or shared weather palette. No outer frame or watermark. Make the entire canvas the single ad; no grid of options, no mockup screen.\nFormat: MEDIUM RECTANGLE 300×250, landscape ratio 6:5. Generate a compact rectangular canvas with this exact ratio.\nInput image 1: Caffè TTC interior identity reference. Input image 2: product/lighting reference for the same café.\nCreative concept: premium café ad with integrated cinematic product photography. Forest green #162e28, warm golden pastry and coffee tones, cream lettering. A beautifully lit large cappuccino and croissant occupy the right and lower part against the warm wooden café interior. The left is deep green with a small elegant espresso-cup emblem and brand at top, a large two-line inviting headline, and a cream translucent rounded pill CTA. Modern Inter-like sans, subtle liquid glass material only on the CTA. Entire artwork feels like an independent café campaign.\nText verbatim: brand \"Caffè TTC\"; headline \"Un buon caffè. Un po’ di tempo.\"; CTA \"Entra al TTC\". No additional text. Prioritize large readable wording at a 300px display size. No navy/orange weather graphic.",
+  "references": [
+    "/Users/marco/Sites/CVeDI 2026:2027/esempi/caffe-luce/assets/redesign/materials/cafe-background.png",
+    "/Users/marco/Sites/CVeDI 2026:2027/esempi/ilmeteo-lab/assets/advertising/campaign-v3/caffe-ttc-v3.png"
+  ],
+  "displayFormat": {
+    "width": 300,
+    "height": 250
+  },
+  "original": "caffe-mrec-v4.png",
+  "runtime": "caffe-mrec-v4.webp",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a13727-df47-7eb2-882e-6ef80a4eee58/exec-a7e4a333-7569-40e5-85d7-20674df18ad9.png",
+  "rights": "Creatività originale del laboratorio; non è una campagna commerciale o istituzionale ufficiale. Originale conservato, testo pubblicitario incluso nell’immagine; nome accessibile e destinazione in HTML."
+}

@@ -1,0 +1,41 @@
+{
+  "library": {
+    "name": "Leaflet",
+    "version": "1.9.4",
+    "license": "BSD-2-Clause",
+    "url": "https://leafletjs.com/"
+  },
+  "geography": {
+    "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson",
+    "local": "sources/ne_50m_admin_0_countries.geojson",
+    "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "license": "Public domain",
+    "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  "regions": {
+    "source": "https://github.com/guglielmo/geojson-italy",
+    "original": "sources/regions.geojson",
+    "sha256": "97e9dc4c8ddb83e1d32c9f75f2007f7410f233e465cb529c6f8cf6f5ac488b0f",
+    "license": "CC-BY-4.0",
+    "attribution": "ISTAT / geojson-italy",
+    "simplificationDegrees": 0.004
+  },
+  "icons": {
+    "family": "iLMeteo Weather Outline",
+    "components": [
+      "sun",
+      "cloud",
+      "rain",
+      "partly"
+    ],
+    "originals": "../../controls/weather-outline/",
+    "sha256": {
+      "sun": "bc148e886b97231507a15b7da8194457439ab349aacc4fd5ac39e8f057da48d6",
+      "cloud": "6cea62f3e1673cd9695c2b8fcf1774270cba9634669d6656d69bfb9bc5cefdbe",
+      "rain": "fb56b903670a68f1916e8348738ad18af056a224b0d8cea61fdbe28fd4482789",
+      "partly": "3424871d73135802aacfdc37251db6b17c2c46acc57764d05d2e6e54fae540ea"
+    }
+  },
+  "conditions": "Illustrative only, no live weather data",
+  "generator": "../../../scripts/build-dynamic-forecast.mjs"
+}

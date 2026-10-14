@@ -1,0 +1,105 @@
+/* Authored Leaflet data layers; all colors derive from the site theme. */
+.primary-weather-map {
+  --weather-rain-0: var(--meteo-paper);
+  --weather-rain-1: color-mix(in srgb, var(--meteo-navy) 12%, var(--meteo-paper));
+  --weather-rain-2: color-mix(in srgb, var(--meteo-navy) 28%, var(--meteo-paper));
+  --weather-rain-3: color-mix(in srgb, var(--meteo-navy) 52%, var(--meteo-paper));
+  --weather-rain-4: color-mix(in srgb, var(--meteo-navy) 80%, var(--meteo-paper));
+  --weather-temp-0: color-mix(in srgb, var(--meteo-navy) 62%, var(--meteo-paper));
+  --weather-temp-1: color-mix(in srgb, var(--meteo-navy) 28%, var(--meteo-paper));
+  --weather-temp-2: color-mix(in srgb, var(--meteo-orange) 12%, var(--meteo-paper));
+  --weather-temp-3: color-mix(in srgb, var(--meteo-orange) 48%, var(--meteo-paper));
+  --weather-temp-4: var(--meteo-orange);
+  --weather-snow-0: var(--meteo-paper);
+  --weather-snow-1: color-mix(in srgb, var(--meteo-navy) 18%, var(--meteo-paper));
+  --weather-snow-2: color-mix(in srgb, var(--meteo-navy) 38%, var(--meteo-paper));
+  --weather-snow-3: color-mix(in srgb, var(--meteo-navy) 62%, var(--meteo-paper));
+  --weather-radar-0: color-mix(in srgb, var(--meteo-navy) 30%, var(--meteo-paper));
+  --weather-radar-1: var(--meteo-orange);
+  --weather-radar-2: var(--meteo-notice);
+}
+body[data-version="redesign"] .map-surface #map.primary-weather-map {
+  position: relative; inset: auto; z-index: 1; background: var(--forecast-sea) !important;
+}
+#map.primary-weather-map .leaflet-top { display: block; }
+#map.primary-weather-map .leaflet-top.leaflet-right { display: block; }
+.primary-weather-map .forecast-map-region { cursor: pointer; }
+.primary-weather-map .forecast-map-region:focus-visible { stroke-opacity: 1; stroke-width: 3; outline: none; }
+.primary-weather-map .forecast-map-region.is-selected { stroke-width: 2.4; stroke-opacity: 1; }
+#map .leaflet-bottom.leaflet-right { max-width: 100%; }
+#map[data-weather-layer="1"] .forecast-map-region[data-level="0"] { fill: var(--weather-rain-0); }
+#map[data-weather-layer="1"] .forecast-map-region[data-level="1"] { fill: var(--weather-rain-1); }
+#map[data-weather-layer="1"] .forecast-map-region[data-level="2"] { fill: var(--weather-rain-2); }
+#map[data-weather-layer="1"] .forecast-map-region[data-level="3"] { fill: var(--weather-rain-3); }
+#map[data-weather-layer="1"] .forecast-map-region[data-level="4"] { fill: var(--weather-rain-4); }
+#map[data-weather-layer="2"] .forecast-map-region[data-level="0"] { fill: var(--weather-temp-0); }
+#map[data-weather-layer="2"] .forecast-map-region[data-level="1"] { fill: var(--weather-temp-1); }
+#map[data-weather-layer="2"] .forecast-map-region[data-level="2"] { fill: var(--weather-temp-2); }
+#map[data-weather-layer="2"] .forecast-map-region[data-level="3"] { fill: var(--weather-temp-3); }
+#map[data-weather-layer="2"] .forecast-map-region[data-level="4"] { fill: var(--weather-temp-4); }
+.primary-weather-map .weather-snow-patch.weather-level-1 { fill: var(--weather-snow-1); }
+.primary-weather-map .weather-snow-patch.weather-level-2 { fill: var(--weather-snow-2); }
+.primary-weather-map .weather-snow-patch.weather-level-3 { fill: var(--weather-snow-3); }
+.primary-weather-map .weather-radar-patch.weather-level-1 { fill: var(--weather-radar-0); fill-opacity: .65; }
+.primary-weather-map .weather-radar-patch.weather-level-2 { fill: var(--weather-radar-1); fill-opacity: .72; }
+.primary-weather-map .weather-radar-patch.weather-level-3 { fill: var(--weather-radar-2); fill-opacity: .84; }
+.primary-weather-map .weather-marine-patch { fill: var(--meteo-navy); fill-opacity: .1; }
+.primary-weather-map :is(.forecast-weather-marker,.weather-snow-marker,.weather-wind-marker,.weather-value-marker) { pointer-events: none; }
+.primary-weather-map :is(.weather-snow-marker,.weather-wind-marker,.weather-value-marker,.weather-sea-marker) { border: 0; background: transparent; color: var(--meteo-navy); }
+.weather-symbol { display: block; width: 40px; height: 40px; }
+.weather-wind-marker .weather-symbol { transform: rotate(var(--weather-bearing,0deg)); }
+.weather-wind-marker svg,.weather-snow-marker svg { display: block; width: 32px; height: 32px; margin: 4px; }
+.weather-snow-marker { color: var(--meteo-paper) !important; }
+.weather-snow-marker.is-light { color: var(--meteo-navy) !important; }
+.weather-sea-symbol { display: flex; align-items: center; flex-direction: column; font-size: 12px; line-height: 1.1; font-weight: 700; }
+.weather-sea-symbol svg { width: 28px; height: 24px; }
+.weather-value-marker .weather-number { display: block; text-align: center; color: var(--meteo-navy); font: 700 20px/24px OpenSansHebrewCondensed-Bold,Helvetica,Arial,sans-serif; }
+.weather-value-marker .weather-number[data-light="true"] { color: var(--meteo-paper); }
+.primary-weather-map[data-show-values="false"] .weather-value-marker { visibility: hidden; }
+.weather-map-legend { max-width: min(340px,calc(100vw - 128px)); padding: 5px 8px; background: var(--meteo-paper); color: var(--meteo-navy); font: 12px/1.25 OpenSansHebrewCondensed,Helvetica,Arial,sans-serif; }
+.weather-map-legend__title { display: block; font-weight: 700; }
+.weather-map-legend__scale { display: flex; list-style: none; gap: 8px; padding: 0; margin: 4px 0 0; }
+.weather-map-legend__scale > li { display: flex; align-items: center; gap: 3px; white-space: nowrap; }
+.weather-map-swatch { width: 12px; height: 10px; border: 1px solid var(--meteo-navy); }
+[data-weather-layer="1"] .weather-map-swatch[data-level="0"] { background: var(--weather-rain-0); }
+[data-weather-layer="1"] .weather-map-swatch[data-level="1"] { background: var(--weather-rain-1); }
+[data-weather-layer="1"] .weather-map-swatch[data-level="2"] { background: var(--weather-rain-2); }
+[data-weather-layer="1"] .weather-map-swatch[data-level="3"] { background: var(--weather-rain-3); }
+[data-weather-layer="1"] .weather-map-swatch[data-level="4"] { background: var(--weather-rain-4); }
+[data-weather-layer="2"] .weather-map-swatch[data-level="0"] { background: var(--weather-temp-0); }
+[data-weather-layer="2"] .weather-map-swatch[data-level="1"] { background: var(--weather-temp-1); }
+[data-weather-layer="2"] .weather-map-swatch[data-level="2"] { background: var(--weather-temp-2); }
+[data-weather-layer="2"] .weather-map-swatch[data-level="3"] { background: var(--weather-temp-3); }
+[data-weather-layer="2"] .weather-map-swatch[data-level="4"] { background: var(--weather-temp-4); }
+[data-weather-layer="4"] .weather-map-swatch[data-level="0"] { background: var(--weather-snow-0); }
+[data-weather-layer="4"] .weather-map-swatch[data-level="1"] { background: var(--weather-snow-1); }
+[data-weather-layer="4"] .weather-map-swatch[data-level="2"] { background: var(--weather-snow-2); }
+[data-weather-layer="4"] .weather-map-swatch[data-level="3"] { background: var(--weather-snow-3); }
+[data-weather-layer="9"] .weather-map-swatch[data-level="0"] { background: var(--weather-radar-0); }
+[data-weather-layer="9"] .weather-map-swatch[data-level="1"] { background: var(--weather-radar-1); }
+[data-weather-layer="9"] .weather-map-swatch[data-level="2"] { background: var(--weather-radar-2); }
+.weather-map-fallback { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
+.weather-static-links { display: flex; flex-wrap: wrap; gap: 12px; grid-column: 1 / -1; }
+.weather-static-links a { color: var(--meteo-navy); text-decoration: underline; }
+@media screen { .has-primary-weather-map > .weather-map-fallback { display: none; } }
+@media (max-width:600px) {
+  #map .leaflet-control-attribution { font-size: 10px; line-height: 1.2; }
+  #map .leaflet-bottom.leaflet-left { bottom: 28px; }
+  #map .forecast-map-tools { flex-direction: row; }
+  #map .forecast-map-tools .forecast-map-tool + .forecast-map-tool { border-top: 0; border-left: 1px solid var(--meteo-rule); }
+  #map .forecast-weather-marker svg { width: 24px; height: 24px; margin: 8px; }
+  .weather-map-legend { padding: 4px; max-width: calc(100vw - 176px); font-size: 11px; }
+  .weather-map-legend__scale { gap: 4px; flex-wrap: wrap; }
+  .weather-map-legend__scale > li { gap: 2px; }
+  .weather-map-swatch { width: 8px; height: 8px; }
+  .weather-wind-marker svg,.weather-snow-marker svg { width: 24px; height: 24px; margin: 8px; }
+  .weather-sea-symbol { font-size: 11px; }
+  .weather-sea-symbol svg { width: 22px; height: 20px; }
+}
+@media (max-width:360px) {
+  #map .leaflet-top.leaflet-left .forecast-map-tool:last-child { display: none; }
+}
+@media print {
+  .has-primary-weather-map > #bigmap-div10 { display: none; }
+  .has-primary-weather-map > .weather-map-fallback { display: block; position: static; width: 100%; height: auto; }
+}

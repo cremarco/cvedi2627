@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-13",
+  "generator": "built-in image_gen",
+  "catalog": "data/home-promotions.json",
+  "assets": [
+    {
+      "id": "booklet",
+      "file": "booklet-billboard-v4.webp",
+      "format": {
+        "name": "billboard",
+        "width": 970,
+        "height": 250
+      },
+      "mobile": "booklet-mobile-v4.webp",
+      "sha256": "37ac97d6187facc641dcb5cc5fb1d3b21c39f61addd808859bd124292d045e73",
+      "prompt": "booklet-billboard-v4.json",
+      "original": "booklet-billboard-v4.png"
+    },
+    {
+      "id": "corso",
+      "file": "bicocca-halfpage-v4.webp",
+      "format": {
+        "name": "halfpage",
+        "width": 300,
+        "height": 600
+      },
+      "mobile": null,
+      "sha256": "ec5c441cb62826bad9340edceb34efd25a81403bb4794f076d5fe6023e7e6464",
+      "prompt": "bicocca-halfpage-v4.json",
+      "original": "bicocca-halfpage-v4.png"
+    },
+    {
+      "id": "caffe",
+      "file": "caffe-mrec-v4.webp",
+      "format": {
+        "name": "mrec",
+        "width": 300,
+        "height": 250
+      },
+      "mobile": null,
+      "sha256": "74debe8c91cac729474a4d9334323fed0fc7f7090e00f6e515952368722f95ac",
+      "prompt": "caffe-mrec-v4.json",
+      "original": "caffe-mrec-v4.png"
+    },
+    {
+      "id": "atlante",
+      "file": "atlante-leaderboard-v4.webp",
+      "format": {
+        "name": "leaderboard",
+        "width": 728,
+        "height": 90
+      },
+      "mobile": "atlante-mobile-v4.webp",
+      "sha256": "0b69233da0a45eaace1f62197d42cedd162d69a86d3bbdab49bd2ff7bdd69a22",
+      "prompt": "atlante-leaderboard-v4.json",
+      "original": "atlante-leaderboard-v4.png"
+    },
+    {
+      "id": "laboratorio",
+      "file": "ux-smallbanner-v4.webp",
+      "format": {
+        "name": "smallbanner",
+        "width": 300,
+        "height": 100
+      },
+      "mobile": null,
+      "sha256": "508d3ce62265eb9e536bb4dba2c94f672fea9f6ed033cd4d1d1dd76d939c1246",
+      "prompt": "ux-smallbanner-v4.json",
+      "original": "ux-smallbanner-v4.png"
+    }
+  ]
+}

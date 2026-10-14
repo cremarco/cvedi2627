@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "campaign": "Università e materiali del corso",
+  "illustrative": true,
+  "created": "2026-10-13",
+  "ads": [
+    {
+      "id": "booklet",
+      "asset": "booklet-billboard-v4",
+      "identity": "Booklet CVeDI · indaco/lime, Inter, rete metro",
+      "title": "La teoria, a portata di pagina.",
+      "description": "Comunicazione visiva e design delle interfacce.",
+      "cta": "Sfoglia il booklet",
+      "href": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC",
+      "alt": "Booklet CVeDI con copertina indaco, titolo bianco e percorsi metro lime, magenta, cyan e giallo",
+      "format": {
+        "name": "billboard",
+        "width": 970,
+        "height": 250
+      },
+      "mobileAsset": "booklet-mobile-v4",
+      "mobileFormat": {
+        "width": 300,
+        "height": 250
+      }
+    },
+    {
+      "id": "corso",
+      "asset": "bicocca-halfpage-v4",
+      "identity": "Università di Milano-Bicocca · bordeaux/bianco, PT Sans Narrow, logo autentico",
+      "title": "Teoria e Tecnologia della comunicazione",
+      "description": "Laurea magistrale · Milano-Bicocca. Informatica. Psicologia. Design.",
+      "cta": "Scopri il corso",
+      "href": "https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione",
+      "source": "https://www.unimib.it/magistrale/teoria-tecnologia-comunicazione",
+      "alt": "Studenti universitari lavorano insieme su prototipi di comunicazione in un’aula luminosa",
+      "format": {
+        "name": "halfpage",
+        "width": 300,
+        "height": 600
+      }
+    },
+    {
+      "id": "caffe",
+      "asset": "caffe-mrec-v4",
+      "identity": "Caffè TTC Liquid Glass · verde petrolio, legno, Inter, marchio originale",
+      "title": "Caffè TTC. Un buon caffè. Un po’ di tempo.",
+      "description": "",
+      "cta": "Entra al TTC",
+      "href": "https://cremarco.github.io/cvedi2627/web-design-examples/index.html?stile=liquid",
+      "alt": "Cappuccino e croissant sul tavolo in legno del Caffè TTC, con pareti verde petrolio e luce calda",
+      "format": {
+        "name": "mrec",
+        "width": 300,
+        "height": 250
+      }
+    },
+    {
+      "id": "atlante",
+      "asset": "atlante-leaderboard-v4",
+      "identity": "Atlante delle interfacce · giallo/nero/magenta, tipografia geometrica e tre stili di tazza",
+      "title": "Atlante delle interfacce. Stesso contenuto. Nuove forme.",
+      "description": "",
+      "cta": "Esplora i progetti",
+      "href": "https://cremarco.github.io/cvedi-progetti/",
+      "alt": "Banner giallo con tre tazze interpretate in stili diversi, titolo nero e pulsante magenta",
+      "format": {
+        "name": "leaderboard",
+        "width": 728,
+        "height": 90
+      },
+      "mobileAsset": "atlante-mobile-v4",
+      "mobileFormat": {
+        "width": 300,
+        "height": 100
+      }
+    },
+    {
+      "id": "laboratorio",
+      "asset": "ux-smallbanner-v4",
+      "identity": "Booklet C03 · rosso/nero su bianco, griglia editoriale",
+      "title": "LAB UX. Dalla ricerca al prototipo.",
+      "description": "",
+      "cta": "Apri i materiali",
+      "href": "https://cremarco.github.io/cvedi2627/slides/",
+      "alt": "Banner tipografico LAB UX rosso, bianco e nero con una sequenza grafica dalla ricerca al prototipo",
+      "format": {
+        "name": "smallbanner",
+        "width": 300,
+        "height": 100
+      }
+    }
+  ]
+}

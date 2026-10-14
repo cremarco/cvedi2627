@@ -1,0 +1,243 @@
+{
+  "kind": "Deterministic vector weather illustrations; not real forecasts",
+  "dimensions": [
+    1200,
+    1180
+  ],
+  "projection": "Equirectangular at reference latitude 42 degrees",
+  "source": {
+    "url": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_admin_0_countries.geojson",
+    "local": "sources/ne_50m_admin_0_countries.geojson",
+    "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "license": "Public domain",
+    "terms": "https://www.naturalearthdata.com/about/terms-of-use/"
+  },
+  "icons": {
+    "family": "iLMeteo Weather Outline",
+    "manifest": "../../controls/weather-outline/manifest.json"
+  },
+  "generator": "../../../scripts/build-forecast-maps.mjs",
+  "theme": {
+    "source": "../../../redesign/style.source.css",
+    "palette": {
+      "sea": "#dce8f4",
+      "land": "#fff",
+      "country": "#eef2f7",
+      "border": "#092b60",
+      "countryBorder": "#c8d5e5",
+      "sun": "#f28c18"
+    }
+  },
+  "places": [
+    [
+      "Torino",
+      7.69,
+      45.07
+    ],
+    [
+      "Milano",
+      9.19,
+      45.46
+    ],
+    [
+      "Bolzano",
+      11.35,
+      46.5
+    ],
+    [
+      "Venezia",
+      12.32,
+      45.44
+    ],
+    [
+      "Trieste",
+      13.78,
+      45.65
+    ],
+    [
+      "Genova",
+      8.94,
+      44.4
+    ],
+    [
+      "Bologna",
+      11.34,
+      44.49
+    ],
+    [
+      "Firenze",
+      11.25,
+      43.77
+    ],
+    [
+      "Ancona",
+      13.51,
+      43.62
+    ],
+    [
+      "Roma",
+      12.5,
+      41.9
+    ],
+    [
+      "Pescara",
+      14.21,
+      42.46
+    ],
+    [
+      "Napoli",
+      14.27,
+      40.85
+    ],
+    [
+      "Bari",
+      16.87,
+      41.12
+    ],
+    [
+      "Lecce",
+      18.17,
+      40.35
+    ],
+    [
+      "Cosenza",
+      16.25,
+      39.3
+    ],
+    [
+      "Reggio Calabria",
+      15.65,
+      38.11
+    ],
+    [
+      "Sassari",
+      8.56,
+      40.73
+    ],
+    [
+      "Cagliari",
+      9.12,
+      39.22
+    ],
+    [
+      "Palermo",
+      13.36,
+      38.12
+    ],
+    [
+      "Catania",
+      15.09,
+      37.5
+    ]
+  ],
+  "assets": [
+    {
+      "file": "venerdi-9.svg",
+      "date": "2026-10-09",
+      "sha256": "242db772a17cd9b68047e77b1929042a82114c7fe1b8ecfd754b3243deb7e7ef",
+      "conditions": [
+        "rain",
+        "rain",
+        "cloud",
+        "rain",
+        "rain",
+        "rain",
+        "rain",
+        "rain",
+        "cloud",
+        "rain",
+        "cloud",
+        "rain",
+        "partly",
+        "partly",
+        "cloud",
+        "partly",
+        "partly",
+        "sun",
+        "partly",
+        "cloud"
+      ]
+    },
+    {
+      "file": "sabato-10.svg",
+      "date": "2026-10-10",
+      "sha256": "2886082c7e73a9f17a9d4913f173cce4a3aad0084406c3e8e3a03b717fdff5a3",
+      "conditions": [
+        "partly",
+        "partly",
+        "cloud",
+        "rain",
+        "rain",
+        "partly",
+        "cloud",
+        "cloud",
+        "rain",
+        "cloud",
+        "rain",
+        "cloud",
+        "rain",
+        "rain",
+        "rain",
+        "cloud",
+        "sun",
+        "sun",
+        "partly",
+        "rain"
+      ]
+    },
+    {
+      "file": "domenica-11.svg",
+      "date": "2026-10-11",
+      "sha256": "5f18609c87819df52a62d6e412807c1767313b87059c3cc62f8ef0be80c4e555",
+      "conditions": [
+        "sun",
+        "sun",
+        "partly",
+        "partly",
+        "cloud",
+        "sun",
+        "partly",
+        "sun",
+        "rain",
+        "sun",
+        "rain",
+        "partly",
+        "rain",
+        "rain",
+        "rain",
+        "partly",
+        "sun",
+        "sun",
+        "sun",
+        "partly"
+      ]
+    },
+    {
+      "file": "lunedi-12.svg",
+      "date": "2026-10-12",
+      "sha256": "9417cce2c33e3824ebac6ebad47e3251878da01e2fb86756bd6037ab73c55299",
+      "conditions": [
+        "rain",
+        "rain",
+        "cloud",
+        "partly",
+        "partly",
+        "rain",
+        "cloud",
+        "partly",
+        "cloud",
+        "partly",
+        "cloud",
+        "sun",
+        "partly",
+        "sun",
+        "sun",
+        "sun",
+        "sun",
+        "sun",
+        "sun",
+        "sun"
+      ]
+    }
+  ]
+}

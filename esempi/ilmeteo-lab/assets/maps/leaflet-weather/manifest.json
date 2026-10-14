@@ -1,0 +1,73 @@
+{
+  "kind": "Illustrative only; no observations or real forecasts",
+  "generator": "../../../scripts/build-leaflet-weather.mjs",
+  "data": "../../../data/leaflet-weather.mjs",
+  "basemap": "../forecast-interactive/manifest.json",
+  "theme": {
+    "source": "../../../redesign/style.source.css",
+    "palette": {
+      "navy": "#092b60",
+      "orange": "#f28c18",
+      "notice": "#b85600",
+      "paper": "#fff",
+      "sea": "#dce8f4",
+      "country": "#eef2f7",
+      "rule": "#c8d5e5"
+    }
+  },
+  "icons": {
+    "weather": "../../controls/weather-outline/manifest.json",
+    "controls": "../../controls/heroicons/manifest.json"
+  },
+  "catalogSha256": "7f17cdf3ded01d34bfe9e3c254e306d1f23a494752085a0309da1d4dde907fbd",
+  "assets": [
+    {
+      "file": "tempo.svg",
+      "sha256": "ef752143cf5476720c7bd39f2df8d562db302e45121f8f576c45e55376c9defa"
+    },
+    {
+      "file": "precipitazioni.svg",
+      "sha256": "a1972411b401559f56e8f7e4087b33562728567c14c5de2bcbf958e0c7bbd805"
+    },
+    {
+      "file": "temperature.svg",
+      "sha256": "6a686608dcfdb674c50172fab3e3afbab4d6a48c2171938e5c2775c29cbdf1fd"
+    },
+    {
+      "file": "venti-mari.svg",
+      "sha256": "c00dc5a6ec028a5e762999dcd0a99c63ce73af94ca17fdce9f41c983cb674fba"
+    },
+    {
+      "file": "neve.svg",
+      "sha256": "116668e08401b00a3d26c40b8953d01de150fc73b988edbdfbba35e61e08a73c"
+    },
+    {
+      "file": "radar-0.svg",
+      "sha256": "9e3aa192e9447c93155fe2d29491e37ad87b1473ef993a26196a2533741e9ed3"
+    },
+    {
+      "file": "radar-1.svg",
+      "sha256": "48e48bed38ec5dbd06f702d58fcfe4176290c2203a95318a7b0a2f6e6b63636c"
+    },
+    {
+      "file": "radar-2.svg",
+      "sha256": "b8cbb884dcbb9d15fa996b19b3c8dfaa0b2553086e0a050d693925e89026c30e"
+    },
+    {
+      "file": "radar-3.svg",
+      "sha256": "4ab91c6c25291bc02a9e07b42186d1444924a8bd986567bf9311edc2869caddd"
+    },
+    {
+      "file": "radar-4.svg",
+      "sha256": "30d439dd9833651048231f198742bd3eb37057b637c4eb1c31635b78ae55cf24"
+    },
+    {
+      "file": "radar-5.svg",
+      "sha256": "ccc17b8539e49ceecfdef3b263cade0df06f706d73b467556be547fd577c8cab"
+    },
+    {
+      "file": "radar-6.svg",
+      "sha256": "e084469a0a9cbf0a9c56cec42156e47459d102533183cc01ad50ed126de81311"
+    }
+  ]
+}

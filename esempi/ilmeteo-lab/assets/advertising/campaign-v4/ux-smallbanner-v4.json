@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-13",
+  "generator": "built-in image_gen",
+  "useCase": "ads-marketing",
+  "prompt": "Use case: ads-marketing\nCreate a FINISHED display advertisement supplied by an independent advertiser, not a photograph for a web page, not a website component or card. The finished raster includes its own complete brand identity, campaign typography, artwork, persuasive copy and a prominent call-to-action drawn into the advertisement. All requested Italian wording must be exact and highly legible. Professional real-world ad agency art direction. Use only the brief's copy; no fake prices, discounts, deadlines or added claims. No weather-site branding or shared weather palette. No outer frame or watermark. Make the entire canvas the single ad; no grid of options, no mockup screen.\nFormat: COMPACT BANNER 300×100, wide ratio 3:1. Generate this compact short landscape canvas.\nInput image 1: chapter C03 identity reference: red #c00000, black, white, crisp Swiss editorial grid.\nCreative concept: purely graphic typographic university course-material advertisement, entirely different from photographic ads. White field divided into a large solid red square at left with the brand in white, and precise black text on white at right; a slim red CTA bar along the lower right. Minimal abstract black wireframe arrows and a single red selection dot as secondary detail. Sharp square geometry, strong whitespace, editorial sans type. Every word readable at 300×100. No photograph or realistic desk.\nText verbatim: left brand \"LAB UX\"; headline on right \"Dalla ricerca al prototipo.\"; CTA \"Apri i materiali\". Nothing else. No navy, orange, lime or café styling.",
+  "references": [
+    "/Users/marco/Sites/CVeDI 2026:2027/assets/booklet/diritti-riproduzione/c03-prima-pagina.png"
+  ],
+  "displayFormat": {
+    "width": 300,
+    "height": 100
+  },
+  "original": "ux-smallbanner-v4.png",
+  "runtime": "ux-smallbanner-v4.webp",
+  "generatedSource": "/Users/marco/.codex/generated_images/01a13727-df47-7eb2-882e-6ef80a4eee58/exec-89404820-e0db-4f93-8211-1648d64d2286.png",
+  "rights": "Creatività originale del laboratorio; non è una campagna commerciale o istituzionale ufficiale. Originale conservato, testo pubblicitario incluso nell’immagine; nome accessibile e destinazione in HTML."
+}

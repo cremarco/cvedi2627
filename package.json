@@ -39,7 +39,9 @@
     "check:indexing": "node --test scripts/check/indexing.test.mjs && node scripts/check/indexing.mjs",
     "check:ux-course": "node scripts/check/ux-course.mjs",
     "check:accessibility-demos": "node scripts/check/accessibility-demos.mjs",
-    "check:archive": "node scripts/check/project-archive.mjs"
+    "check:archive": "node scripts/check/project-archive.mjs",
+    "check:ilmeteo:source": "node --test scripts/check/ilmeteo-publication.test.mjs && node esempi/ilmeteo-lab/scripts/check-home.mjs",
+    "check:ilmeteo": "pnpm build:ilmeteo && pnpm check:ilmeteo:source && node esempi/ilmeteo-lab/scripts/check-navigation.mjs && node esempi/ilmeteo-lab/scripts/check-home-modules.mjs && node esempi/ilmeteo-lab/scripts/check-primary-weather-map.mjs && node esempi/ilmeteo-lab/scripts/check-forecast-interactive.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
