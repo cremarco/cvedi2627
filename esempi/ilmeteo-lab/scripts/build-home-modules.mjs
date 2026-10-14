@@ -11,25 +11,36 @@ export async function buildHomeModules() {
     read('redesign/index.html'), read('assets/maps/world/catalog.js'),
     read('data/supplementary.json').then(JSON.parse), read('data/home-promotions.json').then(JSON.parse), read('data/site.json').then(JSON.parse), read('data/home-news-art.json').then(JSON.parse),
   ]);
+  const icon = async name => (await read(`assets/controls/heroicons/${name}.svg`)).replace('<svg ', `<svg focusable="false" data-heroicon="${name}" `);
+  const [chevron, play, search, plus, minus, reset] = await Promise.all([
+    icon('chevron-right'), icon('play'), icon('magnifying-glass'), icon('plus'), icon('minus'), icon('arrows-pointing-in'),
+  ]);
+  const videoNews = new Set(Object.values(data.records)
+    .filter(record => record.source.document === 'home' && record.tag === 'a' && /\[video\]/i.test(record.textContent))
+    .map(record => record.url?.absoluteUrl || record.attributes.href));
   const withNewsArt = newsArt.assets.reduce((html, item) => [item.source, item.previousRuntime].filter(Boolean)
     .reduce((content, source) => content.replaceAll(`src="${source}"`, `src="${item.runtime}"`), html), acquiredRaw)
     .replace(/(<h3\b[^>]*class="[^"]*block_news__col__list__item__title[^"]*"[^>]*>)([\s\S]*?)(<\/h3>)/g,
       (_, opening, title, closing) => opening + title.replace(/\s*\[[^\]]*\]/g, '') + closing);
   let newsIndex = 0;
-  const raw = withNewsArt.replace(/<li class="block_news__col__list__item[^>]*>([\s\S]*?)<\/li>/g, (_, item) => {
+  const newsWithCards = withNewsArt.replace(/<li class="block_news__col__list__item[^>]*>([\s\S]*?)<\/li>/g, (_, item) => {
     const href = item.match(/data-live-href="([^"]+)"/)[1];
     const image = item.match(/<img\b[^>]*>/)[0].replace(/alt="[^"]*"/, 'alt=""');
     const title = item.match(/<h3[^>]*>([\s\S]*?)<\/h3>/)[1].replace(/<\/?a\b[^>]*>/g, '').trim();
     const date = item.match(/<p\b[^>]*>([\s\S]*?)<\/p>/)[1].trim();
     const id = `home-news-title-${++newsIndex}`;
-    return `<li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="${href}" aria-labelledby="${id}">${image}<div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="${id}">${title}</h3><p class="block_news__col__list__item__data">${date}</p></div></a></li>`;
+    const hasVideo = videoNews.has(href);
+    const media = `<span class="home-news__media">${image}${hasVideo ? `<span class="home-news__play" aria-hidden="true">${play}</span>` : ''}</span>`;
+    return `<li class="block_news__col__list__item lab-card lab-card-side lab-card-sm"><a class="home-news__link" href="#snapshot-unavailable" data-live-href="${href}" aria-labelledby="${id}"${hasVideo ? ` aria-describedby="${id}-format"` : ''}>${media}<div class="lab-card-body"><h3 class="block_news__col__list__item__title lab-card-title" id="${id}">${title}</h3><p class="block_news__col__list__item__data">${date}</p>${hasVideo ? `<span class="meteo-sr-only" id="${id}-format">Notizia con video</span>` : ''}</div></a></li>`;
+  });
+  const newsArchive = Object.values(data.records).find(record => record.source.document === 'home' && record.tag === 'a' && record.text?.trim() === 'Notizie').url.absoluteUrl;
+  let newsColumn = 0;
+  const raw = newsWithCards.replace(/(<ul\b[^>]*class="[^"]*block_news__col__list[^"]*"[^>]*>[\s\S]*?<\/ul>)(?:\s*<a\b(?=[^>]*data-news-more=)[\s\S]*?<\/a>)?/g, (_, list) => {
+    const category = ['meteo','extra'][newsColumn++];
+    return `${list}\n<a class="lab-btn lab-btn-outline home-news__more" data-news-more="${category}" href="#snapshot-unavailable" data-live-href="${newsArchive}" aria-label="Altre notizie ${category}" data-unavailable-message="L’archivio delle notizie ${category} non è stato acquisito. Puoi leggere le notizie presenti nella home.">Altre notizie${chevron}</a>`;
   });
   const escape = value => String(value).replaceAll('&', '&amp;').replaceAll('"', '&quot;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
   const plain = html => html.replace(/<[^>]+>/g, '').replaceAll('&amp;', '&').replaceAll('&nbsp;', ' ').replace(/\s+/g, ' ').trim();
-  const icon = async name => (await read(`assets/controls/heroicons/${name}.svg`)).replace('<svg ', `<svg focusable="false" data-heroicon="${name}" `);
-  const [chevron, play, search, plus, minus, reset] = await Promise.all([
-    icon('chevron-right'), icon('play'), icon('magnifying-glass'), icon('plus'), icon('minus'), icon('arrows-pointing-in'),
-  ]);
   const ad = id => {
     const item = promotions.ads.find(item => item.id === id);
     return `<aside class="home-ad home-ad--${item.format.name}" aria-label="Pubblicità: ${escape(id === 'corso' ? 'TTC in Bicocca' : id === 'caffe' ? 'Caffè TTC' : id === 'booklet' ? 'Booklet CVeDI' : item.title)}" data-promotion="${id}" data-ad-format="${item.format.width}x${item.format.height}">

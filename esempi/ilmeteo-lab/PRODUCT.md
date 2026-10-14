@@ -10,7 +10,7 @@ Esempio didattico CVeDI: confrontare la versione acquisita di iLMeteo e il redes
 L’ingresso apre il nuovo redesign. Home, Milano e Meteo domani sono disponibili in entrambe le versioni. Una tab laterale passa alla pagina corrispondente con la transizione a tendina esistente. La home del corso collega `ilmeteo/redesign/index.html`.
 
 ## Capabilities and Constraints
-Le animazioni della home spiegano selezione e feedback: indicatore mobile fra le date, breve continuità del riepilogo e risposte discrete di menu e azioni. Contenuti e comandi restano disponibili subito, anche senza animazioni. Il ticker offre Pausa/Riprendi, conserva la pausa manuale e si ferma fuori viewport o a scheda nascosta; con movimento ridotto mostra testo statico completo su più righe. Le preferenze possono cambiare durante l’uso senza lasciare animazioni in corso.
+Le animazioni della home spiegano selezione e feedback: indicatore mobile fra le date, breve continuità del riepilogo e risposte discrete di menu e azioni. Contenuti e comandi restano disponibili subito, anche senza animazioni. Su richiesta dell’utente il ticker omette il pulsante Pausa/Riprendi; lo scorrimento si sospende su hover e focus del gruppo e si ferma fuori viewport o a scheda nascosta. Con movimento ridotto mostra testo statico completo su più righe. Le preferenze possono cambiare durante l’uso senza lasciare animazioni in corso.
 
 Su richiesta dell’utente, le tre mappe interattive della home non mostrano il riquadro di attribuzione sovrapposto e la mappa mondiale omette anche il credito sotto la cartografia. Metadati dei livelli, fonti e licenze degli asset restano conservati.
 
@@ -30,9 +30,17 @@ Tutte le sedici miniature delle notizie sono rigenerate su richiesta con aspetto
 
 Su richiesta dell’utente, i titoli delle sedici notizie del redesign omettono le etichette fra parentesi quadre («Video», «mappa», «mappe», «parla Tedici»). Il generatore applica la stessa pulizia ai titoli di Prima pagina; testo principale, date e destinazioni restano conservati. Le diciture acquisite restano negli originali e nei dati di provenienza.
 
+Le sette notizie segnalate come video nei record acquisiti mostrano un play navy/bianco sulla miniatura, coerente con il poster video. Il segno è separato dalla fotografia e il link unico aggiunge la descrizione accessibile «Notizia con video», senza ripristinare le parentesi quadre nel titolo. Le destinazioni conservano il comportamento locale delle risorse non acquisite.
+
+Le due categorie di notizie condividono otto righe allineate da 768px: ogni coppia si adatta al titolo più lungo e conserva miniature, date e separatori alla stessa quota. Su telefono le categorie mantengono il flusso indipendente; nessun titolo è troncato.
+
+News Meteo e News Extra terminano ciascuna con «Altre notizie», con nomi accessibili distinti e azioni finali allineate. Entrambe conservano la destinazione dell’archivio Notizie acquisito; il dialog locale specifica che l’archivio completo non è stato acquisito, lasciando consultabili le notizie presenti nella home.
+
 La firma di Elia Guarnieri è accompagnata dal ritratto fornito dall’utente, modificato con giacca navy, sfondo coerente e spilletta WF attraverso ImageGen integrato. `data/site.json` possiede i metadati dell’immagine e `assets/people/elia-guarnieri-v1/` conserva reference, master, runtime e prompt. Il ritratto compatto da 64px è presente anche senza JavaScript e in stampa; la firma acquisita nelle fonti resta conservata. Le sette date sono sempre visibili, su una riga nei viewport larghi e in una griglia 4+3 sul telefono; «Meteo 15gg» resta una destinazione separata dalle sette tab giornaliere.
 
 I pulsanti della home condividono una gerarchia daisyUI: navy per azioni principali, bordo navy per secondarie e superfici neutre per utilità. Bersagli da almeno 44px e azioni principali da 48px, icone da 20px, stati hover/focus/disabilitato coerenti e righe dei menu da almeno 44px accompagnano tutti i percorsi.
+
+I comandi delle tre mappe condividono gruppi bianchi, divisori neutri, misure e stati di utilità; livelli e date condividono tipografia Bold e focus di selezione, con bersagli da 56px sul telefono. Le ricerche nella navbar e nel mondo usano testo da 16px e campi da 44px. La situazione nazionale e il paese scelto adottano la gerarchia navy da 22px dei componenti subordinati. Le differenze di sfondo fra capitoli, le pubblicità autonome e le fotografie delle notizie mantengono la propria funzione.
 
 La navigazione WF gestisce ingresso, uscita ed Escape del focus; i dropdown si chiudono al clic esterno. Senza JavaScript la ricerca rimane sulla home con avviso e link a Milano, evitando risultati attribuiti alla città sbagliata. Su telefono le mappe dispongono livelli e date sopra la cartografia a tutta larghezza, gli annunci restano nello spazio libero dal confronto e i titoli delle notizie precedono miniatura e data. Ogni notizia usa un unico link nominato dal titolo.
 
