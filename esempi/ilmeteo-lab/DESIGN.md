@@ -143,7 +143,7 @@ Sulla home, Home è l’unica pagina corrente nella navigazione principale. Rada
 
 ## Home
 
-La pagina usa tutta la larghezza da 1024px e non ha margini laterali dell’area principale. Il fondale acquisito è omesso. L’apertura contiene una pubblicità del booklet, il titolo visibile Previsioni Meteo Italia con la data dell’edizione acquisita — giovedì 8 ottobre 2026, ore 19:56 — e tre notizie di Prima pagina tratte dalle sedici notizie conservate. La navigazione Accedi riusa il messaggio locale. Seguono mappa principale e riepilogo, carte giornaliere con sidebar pubblicitaria, l’elenco completo delle sedici notizie, previsioni sintetiche dei sette giorni e video, Meteo nel mondo, condivisione e footer di progetto. Le mappe, il ticker, il riepilogo e i controlli conservano il redesign corrente.
+La pagina usa tutta la larghezza da 1024px e non ha margini laterali dell’area principale. Il fondale acquisito è omesso. L’apertura contiene una pubblicità del booklet, il titolo visibile Previsioni Meteo Italia, senza la dicitura dell’edizione acquisita su richiesta dell’utente, e tre notizie di Prima pagina tratte dalle sedici notizie conservate. La navigazione Accedi riusa il messaggio locale. Seguono mappa principale e riepilogo, carte giornaliere con sidebar pubblicitaria, l’elenco completo delle sedici notizie, previsioni sintetiche dei sette giorni e video, Meteo nel mondo, condivisione e footer di progetto. Le mappe, il ticker, il riepilogo e i controlli conservano il redesign corrente.
 
 ### Gerarchia e moduli editoriali
 
@@ -209,7 +209,11 @@ Ogni notizia usa un unico link `home-news__link` con nome accessibile ricavato d
 
 ### Miniature editoriali
 
-Le tredici miniature selezionate dall’utente (notizie 1–6 e 9–15) usano immagini editoriali rigenerate con ImageGen integrato: navy `primary`, blu freddi e bianco con accenti arancio `accent`, trattamento pittorico semirealistico e soggetti distinti legati alle notizie. Nessun logo, testo o play è incorporato. `assets/news/editorial-v1/` conserva PNG master e WebP da 720×540px, prompt e provenienza; `data/home-news-art.json` collega gli originali alle sostituzioni senza modificare le fonti. Il generatore applica gli stessi asset alle tre notizie di Prima pagina. Layout, link, titoli e date restano quelli correnti; gli originali restano nella copia acquisita. Queste immagini sono illustrazioni, non fotografie documentarie degli eventi o mappe di dati meteorologici.
+Le quattordici miniature selezionate dall’utente (notizie 1–6 e 9–16) usano immagini editoriali rigenerate con ImageGen integrato: navy `primary`, blu freddi e bianco con accenti arancio `accent`, trattamento pittorico semirealistico e soggetti distinti legati alle notizie. Nessun logo, testo o play è incorporato. `assets/news/editorial-v1/` conserva PNG master e WebP da 720×540px, prompt e provenienza; `data/home-news-art.json` collega gli originali alle sostituzioni senza modificare le fonti. Il generatore applica gli stessi asset alle tre notizie di Prima pagina. Layout, link, titoli e date restano quelli correnti; gli originali restano nella copia acquisita. Queste immagini sono illustrazioni, non fotografie documentarie degli eventi o mappe di dati meteorologici.
+
+### Navigazione delle previsioni sintetiche
+
+Le sette date usano tab daisyUI su una griglia uniforme, con giorno abbreviato da 14px sopra il numero da 24px e nome accessibile completo. Ogni tab misura almeno 44px di larghezza e 64px di altezza; il giorno selezionato usa navy, testo bianco e filetto inferiore arancio da 3px. Le date restano tutte visibili: sette colonne sopra 600px, quattro colonne e poi tre entro 600px. «Meteo 15gg» è un link separato dalla tablist, a fianco su desktop e sotto a destra sul telefono, con bersaglio minimo di 44px. Focus, frecce, Home/End, fallback ad ancore e stampa di tutte le sette narrazioni sono conservati.
 
 ### Azioni delle previsioni sintetiche
 
@@ -217,7 +221,7 @@ Le azioni sotto ogni riepilogo sono pulsanti-link daisyUI distinti: «Previsioni
 
 ### Ritratto del curatore
 
-La firma «A cura di Elia Guarnieri» nelle previsioni sintetiche affianca il ritratto modificato con ImageGen integrato: giacca navy, sfondo blu con accento arancio e spilletta WF. Il componente daisyUI `lab-avatar` mantiene il taglio quadrato, 112×112px, senza cornice o angoli arrotondati. Immagine e firma sono allineate al centro con intervallo di 12px; il nome è in grassetto e il testo da 18px ha misura massima 160px. Il titolo di sezione e il gruppo si dispongono su due righe quando necessario. `data/site.json` possiede riferimento e testo alternativo; `assets/people/elia-guarnieri-v1/` conserva reference originale, PNG master, WebP runtime da 640px e prompt. Il ritratto resta presente senza JavaScript e in stampa.
+La firma «A cura di Elia Guarnieri» nelle previsioni sintetiche affianca il ritratto modificato con ImageGen integrato: giacca navy, sfondo blu con accento arancio e spilletta WF. Il componente daisyUI `lab-avatar` mantiene il taglio quadrato, 64×64px, senza cornice o angoli arrotondati. Immagine e firma sono allineate al centro con intervallo di 12px; il nome è in grassetto e la dicitura da 14px precede il nome da 18px su una seconda riga, con misura massima 160px. Il titolo di sezione e il gruppo si dispongono su due righe quando necessario, con 24px prima della navigazione delle date. `data/site.json` possiede riferimento e testo alternativo; `assets/people/elia-guarnieri-v1/` conserva reference originale, PNG master, WebP runtime da 640px e prompt. Il ritratto resta presente senza JavaScript e in stampa.
 
 ### Anteprima video
 

@@ -43,7 +43,7 @@ export async function buildHomeModules() {
     return {href: html.match(/data-live-href="([^"]+)"/)[1], image: html.match(/\bsrc="([^"]+)"/)[1], title: plain(html.match(/<h3[^>]*>([\s\S]*?)<\/h3>/)[1]), date: plain(html.match(/<p[^>]*>([\s\S]*?)<\/p>/)[1])};
   });
   const opening = `${ad('booklet')}
-  <div class="home-edition"><h1>Previsioni Meteo Italia</h1><p>Edizione acquisita · <time datetime="2026-10-08T19:56:00+02:00">Giovedì 8 ottobre 2026, ore 19:56</time></p></div>
+  <div class="home-edition"><h1>Previsioni Meteo Italia</h1></div>
   <section class="home-frontpage" aria-labelledby="frontpage-title">
     <div class="home-section-heading"><h2 id="frontpage-title">Prima pagina</h2><a class="lab-btn lab-btn-ghost" href="#home-news">Tutte le notizie${chevron}</a></div>
     <ul class="home-frontpage__stories">${headlines.map(story => `<li><a href="#snapshot-unavailable" data-live-href="${escape(story.href)}"><img src="${story.image}" width="240" height="150" alt="" decoding="async"/><div><h3>${escape(story.title)}</h3><time>${escape(story.date)}</time></div></a></li>`).join('\n')}</ul>
@@ -68,8 +68,8 @@ export async function buildHomeModules() {
     return `<a class="lab-btn lab-btn-primary${videoLink ? ' lab-btn-outline' : ''}" href="${local}"${local.startsWith('#') ? ` data-live-href="${escape(live)}"` : ''}>${videoLink ? play : ''}<span>${escape(record.text)}</span>${videoLink ? '' : chevron}</a>`;
   };
   const summaries = `<section class="home-summaries" aria-labelledby="summaries-title">
-    <div class="home-section-heading"><h2 id="summaries-title">Previsioni sintetiche</h2><div class="home-curator"><div class="lab-avatar"><div class="w-28 h-28"><img src="${escape(site.curatorPortrait.src)}" width="${site.curatorPortrait.width}" height="${site.curatorPortrait.height}" alt="${escape(site.curatorPortrait.alt)}" loading="lazy" decoding="async"/></div></div><p>A cura di <strong>${escape(site.curator)}</strong></p></div></div>
-    <nav class="home-summary-dates" aria-label="Date delle previsioni sintetiche"><div class="lab-tabs" data-summary-tabs>${days.map((day, i) => `<a class="lab-tab" id="summary-tab-${i}" href="#summary-panel-${i}">${escape(day.label)}</a>`).join('')}<a class="lab-tab" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/portale/meteo-lungo-termine">Meteo 15gg</a></div></nav>
+    <div class="home-section-heading"><h2 id="summaries-title">Previsioni sintetiche</h2><div class="home-curator"><div class="lab-avatar"><div class="home-curator__portrait"><img src="${escape(site.curatorPortrait.src)}" width="${site.curatorPortrait.width}" height="${site.curatorPortrait.height}" alt="${escape(site.curatorPortrait.alt)}" loading="lazy" decoding="async"/></div></div><p>A cura di <strong>${escape(site.curator)}</strong></p></div></div>
+    <nav class="home-summary-dates" aria-label="Date delle previsioni sintetiche"><div class="lab-tabs" data-summary-tabs>${days.map((day, i) => `<a class="lab-tab" id="summary-tab-${i}" href="#summary-panel-${i}" aria-label="${escape(day.label)}"><span aria-hidden="true">${escape(day.label.split(' ')[0].slice(0,3))}</span><strong aria-hidden="true">${escape(day.label.split(' ').at(-1))}</strong></a>`).join('')}</div><a class="lab-btn lab-btn-ghost home-summary-outlook" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/portale/meteo-lungo-termine">Meteo 15gg${chevron}</a></nav>
     <div class="home-summary-panels">${days.map((day, i) => `<article id="summary-panel-${i}" data-summary-panel data-source-ref="${day.sourceRef}"><h3><time datetime="${day.date}">${escape(day.title)}</time></h3><p>${escape(day.text)}</p><div class="home-summary-links">${day.links.map(link).join('')}</div></article>`).join('\n')}</div>
   </section>`;
   const world = JSON.parse(worldCatalog.match(/window\.ILMETEO_WORLD_MAP\s*=\s*([\s\S]+);\s*$/)[1]);

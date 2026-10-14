@@ -131,7 +131,7 @@ async function checkBrandingOnly() {
       assert.equal(await page.locator('.whatsapp_channel,.google_favorite').count(),0,'The redesign does not advertise channels of the acquired brand');
       if(file==='index') {
         const summaryHeading=page.locator('.home-summaries > .home-section-heading');
-        assert.equal(await summaryHeading.locator('p').innerText(),'A cura di Elia Guarnieri');
+        assert.equal((await summaryHeading.locator('p').innerText()).replace(/\s+/g,' '),'A cura di Elia Guarnieri');
         const portrait=summaryHeading.getByRole('img',{name:'Ritratto di Elia Guarnieri'});
         await portrait.scrollIntoViewIfNeeded();await portrait.evaluate(img=>img.decode());
         assert.match(await portrait.getAttribute('src'),/people\/elia-guarnieri-v1\/portrait.webp/);
@@ -220,12 +220,12 @@ async function checkNewsOnly() {
         assert.equal(await page.locator('#snapshot-unavailable').isVisible(),true);
         await page.keyboard.press('Escape');
       }
-      result.cases.push({width,print:!!options.print,javaScript:options.javaScriptEnabled!==false,replaced:13,opening:3,images:'passed',overflow:0});
+      result.cases.push({width,print:!!options.print,javaScript:options.javaScriptEnabled!==false,replaced:catalog.assets.length,opening:3,images:'passed',overflow:0});
     } finally {await context.close();}
   }
   assert.deepEqual(report.errors,[]);result.status='passed';
   await writeFile(path.join(out,'news-verification.json'),JSON.stringify(result,null,2)+'\n');
-  console.log('Editorial news images: thirteen replacements, shared opening, responsive layout, keyboard, no-script and print passed.');
+  console.log(`Editorial news images: ${catalog.assets.length} replacements, shared opening, responsive layout, keyboard, no-script and print passed.`);
 }
 async function checkVideoOnly() {
   const result={status:'running',cases:[],errors:report.errors};

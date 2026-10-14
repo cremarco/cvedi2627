@@ -3,7 +3,7 @@
   "generator": "built-in image_gen",
   "date": "2026-10-14",
   "artDirection": "Editorial semi-realistic illustrations, navy #092b60, pale blue and white with warm orange #f28c18 accents; no embedded text, logos or player controls.",
-  "notes": "Illustrative replacements for the thirteen thumbnails selected by the user (news positions 1–6 and 9–15). Article text, dates, links and acquired attribution are preserved. Generated scenes are not documentary evidence or measured weather maps. Acquired originals retain source and license entries in assets/manifest.json.",
+  "notes": "Illustrative replacements for the fourteen thumbnails selected by the user (news positions 1–6 and 9–16). Article text, dates, links and acquired attribution are preserved. Generated scenes are not documentary evidence or measured weather maps. Acquired originals retain source and license entries in assets/manifest.json.",
   "assets": [
     {
       "id": "weekend-rain",
@@ -260,6 +260,25 @@
         "master": "97005e497cefd096f00ccd0c26e3c74f05907b0ea2b64a6db9aad9185fb32d2f",
         "runtime": "13b8304fb5bbf707f22b2297827c270f5bcb264e9e585b5f57c6809991029640",
         "reference": "cbb95441f1efe71560bc048256c3311573a46b41fda90f5ec9f9d8b7fedb1d51"
+      }
+    },
+    {
+      "id": "livorno-whale",
+      "newsIndex": 16,
+      "reference": "../../4c9e44ed0847-thumb_capodoglio-061026.jpg",
+      "master": "livorno-whale.png",
+      "runtime": "livorno-whale.webp",
+      "prompt": "Use case: style-transfer.\nAsset type: one full-bleed 4:3 landscape editorial thumbnail for The weather forecast website.\nInput images: image 1 is the acquired news thumbnail supplying only the sperm whale news topic; image 2 supplies the established navy/orange editorial rendering style, NOT its town or rainy street subject.\nPrimary request: Recreate the Livorno sperm whale thumbnail as a polished semi-realistic painted editorial illustration matching the style reference. A large dark slate sperm whale calmly surfacing near a small Tuscan coastal harbor: recognizable broad blunt head and long rounded back just above the water, low dorsal hump, most of its body submerged. Foreground rippling Mediterranean sea with pale blue and white highlights, distant modest stone harbor and tiny moored boats under subdued evening sky. Whale is the clear central subject and remains legible at 132px wide. Eye-level coastal viewpoint. Natural anatomy, calm scene, not a breaching dolphin or humpback. Deep navy #092b60, slate, icy pale blue and white, restrained warm orange #f28c18 light reflecting from the harbor. Crisp silhouette, restrained painterly texture, natural depth.\nConstraints: one image only, opaque background, full bleed, no borders, no split panels. No text, lettering, numbers, logos, watermarks, badges, play triangles, YouTube symbols, buttons or UI overlays anywhere. Illustrative scene, not documentary evidence of the event.",
+      "styleReference": "weekend-rain.png",
+      "conversion": "cwebp -q 86 -resize 720 0",
+      "masterDimensions": {
+        "width": 1448,
+        "height": 1086
+      },
+      "sha256": {
+        "master": "636e5804082f54e5da4a3b75a8dea4be1b59e69e17be6f5b022c104043dfde0e",
+        "runtime": "3acc23fb19d68600f28fe99bcd43a4bbcd7bd56ecee6019038e51ae4a4cd7cb0",
+        "reference": "87aba73fce235e28568d589d04cc15f7a5003de441d3928f22d82ecf86d3bb5b"
       }
     }
   ]
