@@ -45,7 +45,7 @@ export async function buildHomeModules() {
   const opening = `<div class="home-edition"><h1>Previsioni Meteo Italia</h1></div>
   ${ad('booklet')}
   <section class="home-frontpage" aria-labelledby="frontpage-title">
-    <div class="home-section-heading"><h2 id="frontpage-title">Prima pagina</h2><a class="lab-btn lab-btn-ghost" href="#home-news">Tutte le notizie${chevron}</a></div>
+    <div class="home-section-heading"><h2 id="frontpage-title">Prima pagina</h2><a class="lab-btn lab-btn-outline" href="#home-news">Tutte le notizie${chevron}</a></div>
     <ul class="home-frontpage__stories">${headlines.map(story => `<li><a href="#snapshot-unavailable" data-live-href="${escape(story.href)}"><img src="${story.image}" width="240" height="150" alt="" decoding="async"/><div><h3>${escape(story.title)}</h3><time>${escape(story.date)}</time></div></a></li>`).join('\n')}</ul>
   </section>`;
   const sidebar = `<div class="home-daily-sidebar">${ad('corso')}${ad('caffe')}</div>`;
@@ -69,7 +69,7 @@ export async function buildHomeModules() {
   };
   const summaries = `<section class="home-summaries" aria-labelledby="summaries-title">
     <div class="home-section-heading"><h2 id="summaries-title">Previsioni sintetiche</h2><div class="home-curator"><div class="lab-avatar"><div class="home-curator__portrait"><img src="${escape(site.curatorPortrait.src)}" width="${site.curatorPortrait.width}" height="${site.curatorPortrait.height}" alt="${escape(site.curatorPortrait.alt)}" loading="lazy" decoding="async"/></div></div><p>A cura di <strong>${escape(site.curator)}</strong></p></div></div>
-    <nav class="home-summary-dates" aria-label="Date delle previsioni sintetiche"><div class="lab-tabs" data-summary-tabs>${days.map((day, i) => `<a class="lab-tab" id="summary-tab-${i}" href="#summary-panel-${i}" aria-label="${escape(day.label)}"><span aria-hidden="true">${escape(day.label.split(' ')[0].slice(0,3))}</span><strong aria-hidden="true">${escape(day.label.split(' ').at(-1))}</strong></a>`).join('')}</div><a class="lab-btn lab-btn-ghost home-summary-outlook" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/portale/meteo-lungo-termine">Meteo 15gg${chevron}</a></nav>
+    <nav class="home-summary-dates" aria-label="Date delle previsioni sintetiche"><div class="lab-tabs" data-summary-tabs>${days.map((day, i) => `<a class="lab-tab" id="summary-tab-${i}" href="#summary-panel-${i}" aria-label="${escape(day.label)}"><span aria-hidden="true">${escape(day.label.split(' ')[0].slice(0,3))}</span><strong aria-hidden="true">${escape(day.label.split(' ').at(-1))}</strong></a>`).join('')}</div><a class="lab-btn lab-btn-outline home-summary-outlook" href="#snapshot-unavailable" data-live-href="https://www.ilmeteo.it/portale/meteo-lungo-termine">Meteo 15gg${chevron}</a></nav>
     <div class="home-summary-panels">${days.map((day, i) => `<article id="summary-panel-${i}" data-summary-panel data-source-ref="${day.sourceRef}"><h3><time datetime="${day.date}">${escape(day.title)}</time></h3><p>${escape(day.text)}</p><div class="home-summary-links">${day.links.map(link).join('')}</div></article>`).join('\n')}</div>
   </section>`;
   const world = JSON.parse(worldCatalog.match(/window\.ILMETEO_WORLD_MAP\s*=\s*([\s\S]+);\s*$/)[1]);
@@ -79,19 +79,18 @@ export async function buildHomeModules() {
     <div class="world-layout">
         <form id="world-country-form" class="world-search" action="#international-world" method="get">
           <label for="world-country-search">Cerca un paese</label>
-          <div class="world-search-row"><input id="world-country-search" class="lab-input" type="search" name="paese" maxlength="64" autocomplete="off" placeholder="Es. Italia, Francia, Giappone" role="combobox" aria-autocomplete="list" aria-controls="world-country-results" aria-expanded="false" aria-describedby="world-search-status" list="world-country-options"/><button class="lab-btn" type="submit" aria-label="Cerca paese">${search}</button></div>
+          <div class="world-search-row"><input id="world-country-search" class="lab-input" type="search" name="paese" maxlength="64" autocomplete="off" placeholder="Es. Italia, Francia, Giappone" role="combobox" aria-autocomplete="list" aria-controls="world-country-results" aria-expanded="false" aria-describedby="world-search-status" list="world-country-options"/><button class="lab-btn lab-btn-primary" type="submit" aria-label="Cerca paese">${search}</button></div>
           <ul id="world-country-results" class="world-country-results" role="listbox" aria-label="Paesi e territori" hidden></ul>
           <datalist id="world-country-options">${countryOptions}</datalist>
           <p id="world-search-status" class="world-status" role="status" aria-live="polite">Puoi cercare per nome o selezionare un paese sulla mappa.</p>
         </form>
       <div class="world-cartography">
-        <div id="world-weather-map" class="world-map forecast-interactive" tabindex="0" aria-label="Mappa del mondo per scegliere un paese" aria-describedby="world-map-credit" hidden></div>
+        <div id="world-weather-map" class="world-map forecast-interactive" tabindex="0" aria-label="Mappa del mondo per scegliere un paese" hidden></div>
         <img id="world-map-fallback" src="../assets/maps/world/world.svg" width="1200" height="600" alt="Mappa completa del mondo con i confini dei paesi e dei territori" loading="lazy"/>
         <div class="world-map-tools" aria-label="Comandi della mappa mondiale">
           <div class="world-map-zoom"><button id="world-map-zoom-in" class="lab-btn" type="button" aria-label="Ingrandisci la mappa mondiale" disabled>${plus}</button><button id="world-map-zoom-out" class="lab-btn" type="button" aria-label="Riduci la mappa mondiale" disabled>${minus}</button></div>
-          <button id="world-map-reset" class="lab-btn lab-btn-ghost" type="button" disabled>${reset}Mostra tutto il mondo</button>
+          <button id="world-map-reset" class="lab-btn lab-btn-outline" type="button" disabled>${reset}Mostra tutto il mondo</button>
         </div>
-        <p id="world-map-credit" class="world-map-credit">Cartografia <a href="https://www.naturalearthdata.com/" target="_blank" rel="noopener noreferrer">Natural Earth</a> · ${world.countries.length} paesi e territori</p>
         <noscript><p class="world-status">Attiva JavaScript per selezionare i paesi e navigare la mappa. Le previsioni di Milano sono disponibili dal collegamento accanto.</p></noscript>
       </div>
       <div class="world-discovery">
@@ -99,7 +98,7 @@ export async function buildHomeModules() {
         <div class="world-selection"><h3 id="world-selected-country">Scegli un paese</h3><p id="world-country-status" class="world-status" role="status" aria-live="polite">Le previsioni internazionali non sono state acquisite nella copia locale.</p><a id="world-milano-link" class="lab-btn lab-btn-ghost" href="milano.html">Previsioni disponibili: Milano${chevron}</a></div>
         <form id="world-city-form" class="world-search world-city-search" action="#international-world" method="get">
           <label for="world-city-search">Cerca una città</label>
-          <div class="world-search-row"><input id="world-city-search" class="lab-input" type="search" name="citta" maxlength="64" autocomplete="off" placeholder="Es. Milano" aria-describedby="world-city-status"/><button class="lab-btn" type="submit">Cerca città</button></div>
+          <div class="world-search-row"><input id="world-city-search" class="lab-input" type="search" name="citta" maxlength="64" autocomplete="off" placeholder="Es. Milano" aria-describedby="world-city-status"/><button class="lab-btn lab-btn-primary" type="submit">Cerca città</button></div>
           <p id="world-city-status" class="world-status" role="status" aria-live="polite">Milano è consultabile nella copia. Le altre destinazioni non sono state acquisite.</p>
         </form>
       </div>

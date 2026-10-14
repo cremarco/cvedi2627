@@ -14,6 +14,7 @@ body[data-version="redesign"] {
   --meteo-navy-active: #061d42;
   --meteo-orange: #f28c18;
   --meteo-notice: #b85600;
+  --meteo-forecast-ink: #9c4600;
   --meteo-paper: #fff;
   --meteo-tabs: #eef2f7;
   --meteo-rule: #d5dde7;
@@ -180,7 +181,7 @@ body[data-version="redesign"] .radar-player__phases {
 }
 body[data-version="redesign"] .radar-player__phases [data-phase="passato"] { padding-right: 16px; }
 body[data-version="redesign"] .radar-player__phases [data-phase="ora"] { position: absolute; left: var(--radar-now-position); transform: translateX(-50%); }
-body[data-version="redesign"] .radar-player__phases [data-phase="previsione"] { grid-column: 2; padding-left: 16px; text-align: right; color: var(--meteo-notice); }
+body[data-version="redesign"] .radar-player__phases [data-phase="previsione"] { grid-column: 2; padding-left: 16px; text-align: right; color: var(--meteo-forecast-ink); }
 body[data-version="redesign"] .radar-player__scale { position: relative; }
 body[data-version="redesign"] .radar-player__scale::before {
   content: ""; position: absolute; left: var(--radar-now-position); top: 15px; transform: translateX(-50%);
@@ -204,7 +205,7 @@ body[data-version="redesign"] .radar-player__times {
   font: 12px/1.4 OpenSansHebrewCondensed, Helvetica, Arial, sans-serif;
 }
 body[data-version="redesign"] .radar-player__times [data-current] { font-family: OpenSansHebrewCondensed-Bold, Helvetica, Arial, sans-serif; text-decoration: underline; text-underline-offset: 3px; }
-body[data-version="redesign"] .radar-player__times [data-phase="previsione"] { color: var(--meteo-notice); }
+body[data-version="redesign"] .radar-player__times [data-phase="previsione"] { color: var(--meteo-forecast-ink); }
 body[data-version="redesign"] .map-surface .radar-player__toggle {
   box-sizing: border-box; width: 80px; min-width: 80px; height: 44px; min-height: 44px;
   gap: 5px; padding: 0 6px; border: 0; border-radius: 0;

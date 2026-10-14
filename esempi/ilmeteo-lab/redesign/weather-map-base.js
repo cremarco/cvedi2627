@@ -6,7 +6,7 @@
     create(viewport, onRegionClick, options = {}) {
       const reduced = matchMedia('(prefers-reduced-motion: reduce)');
       const map = L.map(viewport, {
-        zoomControl: false, attributionControl: true, scrollWheelZoom: false,
+        zoomControl: false, attributionControl: false, scrollWheelZoom: false,
         zoomSnap: .25, zoomDelta: .5, minZoom: 3, maxZoom: 10,
         zoomAnimation: !reduced.matches, fadeAnimation: !reduced.matches,
         markerZoomAnimation: !reduced.matches,
@@ -19,7 +19,6 @@
         event.preventDefault();event.stopPropagation();
         map.panBy(direction.map(value => value*map.options.keyboardPanDelta*(event.shiftKey?3:1)),{animate:false});
       });
-      map.attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
       const countries = L.geoJSON(data.geography, {
         interactive: false,
         style: {className:'forecast-map-country', weight:.8, fillOpacity:1},

@@ -40,7 +40,7 @@
 
   viewport.hidden = false;
   const map = L.map(viewport, {
-    crs: L.CRS.EPSG4326, zoomControl: false, attributionControl: true,
+    crs: L.CRS.EPSG4326, zoomControl: false, attributionControl: false,
     center: [0,0], zoom: -2,
     scrollWheelZoom: false, minZoom: -2, maxZoom: 7, zoomSnap: .25, zoomDelta: .5,
     zoomAnimation: !reduced.matches, fadeAnimation: !reduced.matches,
@@ -48,7 +48,6 @@
     maxBounds: [[-100,-220],[100,220]], maxBoundsViscosity: .8,
   });
   viewport.setAttribute('role', 'region');
-  map.attributionControl.setPrefix('<a href="https://leafletjs.com/">Leaflet</a>');
   L.geoJSON(data.geography, {
     style: {className:'world-map-country',weight:.8,fillOpacity:1},
     attribution: '<a href="https://www.naturalearthdata.com/">Natural Earth</a>',
