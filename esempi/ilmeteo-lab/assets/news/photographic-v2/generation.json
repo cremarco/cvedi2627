@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "generator": "built-in image_gen",
+  "date": "2026-10-14",
+  "artDirection": "Sixteen independent natural photographic scenes: varied viewpoints, daylight, weather, optics and ordinary colors. No coordinated site palette, painterly treatment, dramatic grade, logos, writing or player overlays.",
+  "notes": "Generated illustrative photographs for the redesign. They are not documentary evidence of the reported events. Titles, dates, links and acquired attribution are unchanged. Previous artwork and source/license records remain preserved.",
+  "assets": [
+    {
+      "id": "weekend-rain",
+      "newsIndex": 1,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Overcast Saturday late morning in a central Italian hill town, photographed handheld at eye level with a 50mm lens from a doorway. A few distant people with muted umbrellas walk on worn wet stone pavement; flat grey sky, beige rough masonry, quiet light rain, not a postcard panorama. Natural low contrast and mundane details.",
+      "master": "weekend-rain.png",
+      "runtime": "weekend-rain.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "45328a97e2610f40926f4242bf4b412db8af4666426f2f9606ec0bd3accc38f1",
+        "runtime": "85bfd7aa8684e47820f33ce345833be3de05c2435c2b5e47558f13740801a250"
+      },
+      "source": "../assets/40470128651c-thumb_wee-cop-81026_0.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/weekend-rain.webp"
+    },
+    {
+      "id": "weather-alert",
+      "newsIndex": 2,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Local flood precautions in Lazio on a dull afternoon: a municipal emergency worker seen from behind in an unbranded yellow-green waterproof jacket and dark trousers beside a roadside drainage ditch with muddy runoff, orange traffic cone nearby, ordinary suburban buildings softly out of focus. Medium-distance press photograph, 70mm lens, damp fabric, slight rain haze, no dramatic rescue or insignia.",
+      "master": "weather-alert.png",
+      "runtime": "weather-alert.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "16ea943d28ba901a77ead263e12dfffe05c01e198ec23e5857a744b53e30ed62",
+        "runtime": "e5fab7f56f766692d4e434456cf4a17fab0bf352c13970d7635506a01e5710eb"
+      },
+      "source": "../assets/266bfa5ec358-thumb_allertarancio-081026.jpeg",
+      "previousRuntime": "../assets/news/editorial-v1/weather-alert.webp"
+    },
+    {
+      "id": "next-week",
+      "newsIndex": 3,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Early October landscape across the Po plain viewed from a rural roadside at 11am: harvested brown field, thin line of poplars, distant low hills and a broad pale blue-grey sky with broken ordinary cumulus after a rain front. Soft white daylight, green grass verge, no sunset. Wide modest 35mm travel photo, natural atmospheric haze.",
+      "master": "next-week.png",
+      "runtime": "next-week.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "2a96221c11d42d94122d33d80627b92600eab65b9ce457ba859f34be42eb462c",
+        "runtime": "6eb23cd9c3318768ce45d7414bff72ba490ee1006df8a57370a25dcac0fa8c98"
+      },
+      "source": "../assets/55edfd82cd65-thumb_pro-cop-81012.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/next-week.webp"
+    },
+    {
+      "id": "temperature-drop",
+      "newsIndex": 4,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Candid medium-wide photograph in an ordinary town square in Abruzzo on a chilly clear autumn morning. Two distant adults in practical jackets walking across pale stone paving, one scarf moving slightly in breeze, cool neutral daylight, subdued ochre facades and small trees starting to turn yellow. 50mm eye-level, natural realistic proportions, no posed model, no dramatic scenery.",
+      "master": "temperature-drop.png",
+      "runtime": "temperature-drop.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "bda53e1c206726bc753cc970befafefe858f66faeb2a94b75a51d34e2973fa73",
+        "runtime": "66611afaece89602a36cebbd2c320bc473d3858600d411fa700a6a47a7ac5dfc"
+      },
+      "source": "../assets/0b53561d22db-thumb_diff_temp_giove_vene_081026_0.png.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/temperature-drop.webp"
+    },
+    {
+      "id": "europe-block",
+      "newsIndex": 5,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. An Adriatic coastline seen from a modest seaside promenade on a humid autumn midday: grey-green water, low layered clouds offshore, a band of clear pale sky inland, empty concrete sea wall and ordinary low coastal vegetation. Wide 28mm straightforward weather-observation photograph with balanced exposure, no spectacular storm, no landmarks invented, no sunset.",
+      "master": "europe-block.png",
+      "runtime": "europe-block.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "87f3b1d2768deb4c8dbcce4f78f5563772b2131126ad5ca32586681a3b66eb6f",
+        "runtime": "7ade441f5429c0e3a6c8718772438514a4ff067c7a279b8e69c95c648cd7ddb0"
+      },
+      "source": "../assets/ccfd0d2e219c-thumb_cop-ott-81012.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/europe-block.webp"
+    },
+    {
+      "id": "passing-storms",
+      "newsIndex": 6,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. A passing rain shower photographed from a roadside in rural Umbria around 3pm. A modest distant curtain of rain over soft green hills, foreground wet asphalt and untrimmed grasses, broken cloud with a small patch of ordinary white daylight. 85mm landscape photograph, gentle compression, restrained greens and greys, no epic storm structure or golden rays.",
+      "master": "passing-storms.png",
+      "runtime": "passing-storms.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "c9b5492bb563eff86287b10974aa2c6d42e3a0317a76e2f0315b37d8e04129a3",
+        "runtime": "7043e41098807139988c7781a2234c2d9b57c41dbcce3d676d6956a6d7e65609"
+      },
+      "source": "../assets/e67f92cd7624-thumb_Ed-2026107.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/passing-storms.webp"
+    },
+    {
+      "id": "autumn-wind",
+      "newsIndex": 7,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Windy autumn afternoon on an Italian Tyrrhenian beach, a few leaning tamarisk branches at one edge, choppy dull green-grey sea, irregular white surf washing over dark sand. Low handheld viewpoint and 70mm lens, hazy spray, some small natural motion blur. Realistic moderately rough sea rather than giant waves, flat daylight, no staged scene.",
+      "master": "autumn-wind.png",
+      "runtime": "autumn-wind.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "45c713ae9ca7763f7cfd55eeb04bc38fb2509639de4c5669c5852506970d59a7",
+        "runtime": "323d7e68bf522c00890d79545dbf591522ee5f9b9176224bce8d415224dedea7"
+      },
+      "source": "../assets/c9f8d4b8e82b-thumb_ventiok-071026.jpg",
+      "previousRuntime": null
+    },
+    {
+      "id": "winter-time",
+      "newsIndex": 8,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Close observational photograph of a simple unbranded analogue wall clock with dark hands and plain tick marks, no numbers or writing, on an off-white kitchen wall, a soft out-of-focus window edge and dim early autumn morning ambient light. Slightly oblique framing, 50mm lens, subtle aged surface texture, everyday home photo rather than studio product lighting.",
+      "master": "winter-time.png",
+      "runtime": "winter-time.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "27385e5b2fd40867525130e5b69bf37473e516b7e82b0e4006c4e928873a96ca",
+        "runtime": "171db04ea340a9772bfb533d40737aeb6adb89e083e6a24b1ec11110f9953bc2"
+      },
+      "source": "../assets/bb31e7beea25-thumb_ora-solare-021026.jpg",
+      "previousRuntime": null
+    },
+    {
+      "id": "rome-flood",
+      "newsIndex": 9,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Plausible ordinary rain photo in a residential street of Rome, daytime during a heavy shower. Shallow muddy water spreads across the asphalt near the curb, a small unbranded compact car cautiously passing in the middle distance, cream apartment blocks and green plane trees. View from under an awning, 35mm handheld phone-like photograph with a few soft rain streaks, flat light, no catastrophic destruction, no readable signs or plates.",
+      "master": "rome-flood.png",
+      "runtime": "rome-flood.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "b848958ec0bdac2e2dfdb1e5dfc4ae81b9211f35ecfb96935b0e3e15b2d83b17",
+        "runtime": "eaa9e466e40c4c4e3b8a7076fd00b0bc1f32ce7745fd51f5b9de81084bad75b5"
+      },
+      "source": "../assets/73f1f7357579-thumb_Roma-all-.jpeg",
+      "previousRuntime": "../assets/news/editorial-v1/rome-flood.webp"
+    },
+    {
+      "id": "stelvio-snow",
+      "newsIndex": 10,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Photorealistic travel photograph at the Stelvio Pass shortly after the first autumn snowfall, diffuse morning cloud. Fresh thin white snow on irregular rocky slopes and a cleared grey mountain road bending away, one modest alpine building far in distance, grey-white sky with low cloud. 35mm lens, quiet cold neutral whites, realistic sparse snow rather than deep winter blanket, no postcard sunset.",
+      "master": "stelvio-snow.png",
+      "runtime": "stelvio-snow.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "0f6a3953f757527020728ce9aa143d53399563c022dc4a4237ecc091fa29a0ad",
+        "runtime": "90a8f26eeb9a89b8eb9a8ea7b9c5347b0d68f871e59b9f0470da019dab53553f"
+      },
+      "source": "../assets/c9f4df470a7c-thumb_Stelv-neve.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/stelvio-snow.webp"
+    },
+    {
+      "id": "alpine-climate",
+      "newsIndex": 11,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Unretouched documentary-style mountain landscape photograph of a retreating Alpine glacier taken in summer at midday by a hiker with a 50mm lens. Dirty grey-white ice terminating among extensive brown moraine and broken angular stones, pale hazy sky, distant rock faces with realistic scale. Neutral daylight, modest contrast and no glowing blue ice or dramatic lighting, no hikers needed.",
+      "master": "alpine-climate.png",
+      "runtime": "alpine-climate.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "0d5d699379da1d51a0685c947414910fd17ef1e142756c797fb9136311a74dd8",
+        "runtime": "17ec1a5231d3ec0c97903eb545f4ccba8a6e550674408ab7a29ad84a0255dfb7"
+      },
+      "source": "../assets/ee7065900dd6-thumb_Tedi-frana-10.jpeg",
+      "previousRuntime": "../assets/news/editorial-v1/alpine-climate.webp"
+    },
+    {
+      "id": "viareggio-storm",
+      "newsIndex": 12,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Everyday press-style photograph after an autumn squall in Viareggio, morning overcast light. Residential coastal street with low pastel stucco houses, small pine branches and brown leaves scattered on damp asphalt, parked compact cars, a slightly bent garden fence. Eye-level 40mm lens, uneven mundane composition, muted natural colors, moderate storm debris, not picturesque flooded canal, no logos or readable plates.",
+      "master": "viareggio-storm.png",
+      "runtime": "viareggio-storm.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "3f2934c199b19e492df3a8f3c02c3258fe8602819536f9dc94b61d67a6828a0a",
+        "runtime": "e8f718a456f0ce87373c52a669a5635bad720e44e17eeb2d37ac69eba52577ba"
+      },
+      "source": "../assets/6c22b58522ce-thumb_viaregg.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/viareggio-storm.webp"
+    },
+    {
+      "id": "naples-rain",
+      "newsIndex": 13,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Photorealistic candid smartphone photograph of traffic during rain in Naples, taken from the sidewalk at 5pm under an overcast sky. Ordinary dense southern Italian street, closely parked small cars and a slow line of vehicles on wet asphalt, apartment balconies, a single pedestrian with an umbrella in the distance. 28mm, slightly imperfect framing and a little motion softness, natural grey/brown color, no cinematic reflections or famous castle.",
+      "master": "naples-rain.png",
+      "runtime": "naples-rain.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "c14b707928c66970bee4f1c0fc9423b2d5f4773bb06c4ac005a099e30c08c183",
+        "runtime": "1292af4225ffc35c4e576aefa9334ce1c4550ad49b43a97c4de879e0dae28c21"
+      },
+      "source": "../assets/b088f74dd0b0-thumb_napoli-081026.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/naples-rain.webp"
+    },
+    {
+      "id": "editorial-transparency",
+      "newsIndex": 14,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Photorealistic unposed interior photograph of a modest meteorology newsroom in ordinary midday window light. Two simple desks, used office chairs, a keyboard and a mug, two computer monitors showing indistinct atmospheric satellite cloud imagery with no readable interface text, bookshelf at back. Shot from doorway with 35mm lens, utilitarian room, believable cables and everyday clutter, no enormous video wall, luxury office or dramatic blue lighting.",
+      "master": "editorial-transparency.png",
+      "runtime": "editorial-transparency.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "f884ad1e8815c358c05fcad440ba975e6e3fcd0f539c0d4bf879d26b78cc682a",
+        "runtime": "18b3a2b3b151db921f7973999b8e93efea5fef5d8da5a50ecab3edddc0233148"
+      },
+      "source": "../assets/f43d0d5729a9-thumb_IMG_0798.jpeg",
+      "previousRuntime": "../assets/news/editorial-v1/editorial-transparency.webp"
+    },
+    {
+      "id": "valencia-flood",
+      "newsIndex": 15,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Plausible handheld local news photograph of a quiet residential street in Moncada near Valencia after a heavy shower, late afternoon pale daylight. Modest cream and terracotta low-rise facades, shallow brown floodwater obscuring curb edges, a few parked cars and a drain half blocked by leaves. View from a second-floor balcony, slight downward 50mm view, matte wet surfaces, humid haze. No picturesque canal, no spectacular glow, no readable signs.",
+      "master": "valencia-flood.png",
+      "runtime": "valencia-flood.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "8ab0ade0f4f4c6dfd9083cfe294f3b9332b22ef4786cbbfc28d7997903878c39",
+        "runtime": "ae54b30f5a71c814d9fe07d2df3fc8c5e4f7323a42c2c66e19cb32618c87c33b"
+      },
+      "source": "../assets/c0d204840704-thumb_valencia-oggi-021026.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/valencia-flood.webp"
+    },
+    {
+      "id": "livorno-whale",
+      "newsIndex": 16,
+      "prompt": "Use case: photorealistic-natural. Asset: one landscape 3:2 news thumbnail, full bleed. Generate a plausible editorial stock photograph, not a claim to document a specific real incident. Ordinary unretouched photography, natural local colors, physically believable details, imperfect everyday composition, moderate dynamic range. No site palette, no cinematic teal-orange grade, no painted surfaces, no glossy CGI, no HDR, no exaggerated clouds or golden glow. No text, logos, watermarks, captions, play icons or overlays. Photorealistic long-lens observer photograph from a small harbour breakwater near Livorno in ordinary hazy late morning. A sperm whale surfacing at moderate distance, only a low dark grey wrinkled back and broad blunt head partly breaking the grey-green sea, realistic small scale within a broad expanse of water. Low distant harbour wall visible at upper edge. 200mm lens, slight atmospheric softness, natural ripples, no breaching, no fantasy giant dorsal fin, no boats immediately beside animal, no dramatic sunset.",
+      "master": "livorno-whale.png",
+      "runtime": "livorno-whale.webp",
+      "masterDimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "conversion": "Pillow thumbnail 900x600 bounding box, WebP quality 86, method 6",
+      "sha256": {
+        "master": "980867cd90b7b9b5c61d285981998fc17d663d039278e3f0252776ff3a8d6527",
+        "runtime": "fdc67b7224c4640f9b88eaa09457955a6fe5ddebbedd5eb2b0096b9ddf79140f"
+      },
+      "source": "../assets/4c9e44ed0847-thumb_capodoglio-061026.jpg",
+      "previousRuntime": "../assets/news/editorial-v1/livorno-whale.webp"
+    }
+  ]
+}

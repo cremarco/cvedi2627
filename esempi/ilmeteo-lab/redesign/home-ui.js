@@ -2,6 +2,22 @@
  * No captured-page initialization, network calls or native inline handlers.
  */
 (() => {
+  const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+  const motion = new Map();
+  const stopMotion = element => motion.get(element)?.cancel();
+  function animateState(element, frames, duration = 220) {
+    stopMotion(element);
+    if (reducedMotion.matches || !element.animate) return;
+    const animation = element.animate(frames, {duration, easing:'cubic-bezier(.16,1,.3,1)'});
+    motion.set(element, animation);
+    const release = () => { if (motion.get(element) === animation) motion.delete(element); };
+    animation.onfinish = release;
+    animation.oncancel = release;
+  }
+  reducedMotion.addEventListener('change', () => {
+    for (const animation of motion.values()) animation.cancel();
+    motion.clear();
+  });
   const notice = document.querySelector('#snapshot-unavailable');
   const noticeDescription = notice?.querySelector('p');
   const defaultNotice = noticeDescription?.textContent;
@@ -46,6 +62,20 @@
   const summaryTabs = [...(summaries?.querySelectorAll('a[href^="#summary-panel-"]') || [])];
   const summaryPanels = [...document.querySelectorAll('[data-summary-panel]')];
   if (summaryTabs.length === summaryPanels.length && summaryTabs.length) {
+    const indicator = document.createElement('span');
+    indicator.className = 'home-summary-indicator';
+    indicator.setAttribute('aria-hidden', 'true');
+    summaries.append(indicator);
+    summaries.dataset.motionIndicator = 'true';
+    let activeSummary = -1;
+    function placeIndicator(index, animated = false) {
+      const tab = summaryTabs[index];
+      const from = getComputedStyle(indicator).transform;
+      stopMotion(indicator);
+      const to = `translate(${tab.offsetLeft}px,${tab.offsetTop + tab.offsetHeight - 3}px) scaleX(${tab.offsetWidth})`;
+      indicator.style.transform = to;
+      if (animated) animateState(indicator, [{transform:from},{transform:to}], 260);
+    }
     summaries.setAttribute('role', 'tablist');
     summaries.setAttribute('aria-label', 'Date delle previsioni sintetiche');
     summaryTabs.forEach((tab, index) => {
@@ -55,8 +85,21 @@
       summaryPanels[index].tabIndex = 0;
     });
     window.ILMETEO_UI.tabs(summaries, summaryTabs, {
-      select(index) { summaryPanels.forEach((panel, position) => { panel.hidden = position !== index; }); },
+      select(index) {
+        const previous = activeSummary;
+        if (previous >= 0) stopMotion(summaryPanels[previous]);
+        summaryPanels.forEach((panel, position) => { panel.hidden = position !== index; });
+        placeIndicator(index, previous >= 0 && previous !== index);
+        if (previous >= 0 && previous !== index) animateState(summaryPanels[index], [
+          {opacity:.8, transform:`translateX(${index > previous ? 6 : -6}px)`},
+          {opacity:1, transform:'translateX(0)'},
+        ]);
+        activeSummary = index;
+      },
     });
+    const alignIndicator = window.ILMETEO_UI.scheduleFrame(() => placeIndicator(activeSummary));
+    new ResizeObserver(alignIndicator).observe(summaries);
+    document.fonts.ready.then(alignIndicator);
   }
 
   // Delegation also supports links added by future home components.

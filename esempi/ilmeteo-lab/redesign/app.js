@@ -17,6 +17,22 @@
   const item = track?.firstElementChild;
   if (item) {
     const viewport = ticker.querySelector('.home-weather-ticker__viewport');
+    let userPaused = false;
+    let inView = false;
+    const toggle = document.createElement('button');
+    toggle.type = 'button';
+    toggle.className = 'lab-btn lab-btn-ghost home-weather-ticker__toggle';
+    track.id = 'weather-notice-track';
+    toggle.setAttribute('aria-controls', track.id);
+    const syncPause = () => {
+      track.toggleAttribute('data-paused', userPaused || document.hidden || !inView);
+      toggle.textContent = userPaused ? 'Riprendi' : 'Pausa';
+      toggle.setAttribute('aria-label', userPaused ? 'Riprendi lo scorrimento dell’avviso meteo' : 'Metti in pausa lo scorrimento dell’avviso meteo');
+    };
+    toggle.addEventListener('click', () => { userPaused = !userPaused; syncPause(); });
+    ticker.append(toggle);
+    ticker.classList.add('has-motion-control');
+    new IntersectionObserver(([entry]) => { inView = entry.isIntersecting; syncPause(); }).observe(ticker);
     const fill = () => {
       const distance = item.getBoundingClientRect().width;
       if (!distance) return;
@@ -30,9 +46,10 @@
       track.style.setProperty('--ticker-distance', `${distance}px`);
       track.toggleAttribute('data-ready', true);
     };
-    document.addEventListener('visibilitychange', () => track.toggleAttribute('data-paused', document.hidden));
+    document.addEventListener('visibilitychange', syncPause);
     new ResizeObserver(fill).observe(viewport);
     document.fonts.ready.then(fill);
+    syncPause();
     fill();
   }
 

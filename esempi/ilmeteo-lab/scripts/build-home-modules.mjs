@@ -11,11 +11,12 @@ export async function buildHomeModules() {
     read('redesign/index.html'), read('assets/maps/world/catalog.js'),
     read('data/supplementary.json').then(JSON.parse), read('data/home-promotions.json').then(JSON.parse), read('data/site.json').then(JSON.parse), read('data/home-news-art.json').then(JSON.parse),
   ]);
-  const illustrated = newsArt.assets.reduce((html, item) => html.replaceAll(`src="${item.source}"`, `src="${item.runtime}"`), acquiredRaw)
+  const withNewsArt = newsArt.assets.reduce((html, item) => [item.source, item.previousRuntime].filter(Boolean)
+    .reduce((content, source) => content.replaceAll(`src="${source}"`, `src="${item.runtime}"`), html), acquiredRaw)
     .replace(/(<h3\b[^>]*class="[^"]*block_news__col__list__item__title[^"]*"[^>]*>)([\s\S]*?)(<\/h3>)/g,
       (_, opening, title, closing) => opening + title.replace(/\s*\[[^\]]*\]/g, '') + closing);
   let newsIndex = 0;
-  const raw = illustrated.replace(/<li class="block_news__col__list__item[^>]*>([\s\S]*?)<\/li>/g, (_, item) => {
+  const raw = withNewsArt.replace(/<li class="block_news__col__list__item[^>]*>([\s\S]*?)<\/li>/g, (_, item) => {
     const href = item.match(/data-live-href="([^"]+)"/)[1];
     const image = item.match(/<img\b[^>]*>/)[0].replace(/alt="[^"]*"/, 'alt=""');
     const title = item.match(/<h3[^>]*>([\s\S]*?)<\/h3>/)[1].replace(/<\/?a\b[^>]*>/g, '').trim();

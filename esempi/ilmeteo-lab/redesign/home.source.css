@@ -314,6 +314,22 @@ body[data-page="home"] .home-summary-dates .lab-tab strong { font: 700 24px/1.2 
 body[data-page="home"] .home-summary-dates .lab-tab:hover { background: var(--color-base-300); }
 body[data-page="home"] .home-summary-dates [aria-selected="true"] { color: var(--color-primary-content); background: var(--color-primary); border-bottom-color: var(--color-accent); }
 body[data-page="home"] .home-summary-dates [aria-selected="true"]:hover { background: var(--color-secondary); }
+body[data-page="home"] [data-summary-tabs] { position: relative; }
+body[data-page="home"] [data-motion-indicator] [aria-selected="true"] { border-bottom-color: transparent; }
+body[data-page="home"] .home-summary-indicator { position: absolute; top: 0; left: 0; width: 1px; height: 3px; background: var(--color-accent); transform-origin: 0 0; pointer-events: none; }
+@media (prefers-reduced-motion: no-preference) {
+  body[data-page="home"] .side_menu--visible,
+  body[data-page="home"] .main_menu details[open] > ul,
+  body[data-page="home"] .search_bar__dropdown:not([hidden]) { animation: home-menu-open 180ms cubic-bezier(.16,1,.3,1); }
+  body[data-page="home"] :is(.home-summary-links,.world-map-tools,.home-section-heading,.home-tools__list) .lab-btn svg { transition: transform 140ms ease-out; }
+  body[data-page="home"] :is(.home-summary-links,.world-map-tools,.home-section-heading) .lab-btn:is(:hover,:focus-visible) svg[data-heroicon="chevron-right"] { transform: translateX(3px); }
+  body[data-page="home"] .home-video__play { transition: transform 140ms ease-out,background-color 140ms ease-out; }
+  body[data-page="home"] .home-video__preview:is(:hover,:focus-visible) .home-video__play { transform: translate(-50%,-50%) scale(1.06); }
+}
+@keyframes home-menu-open {
+  from { opacity: .8; clip-path: inset(0 0 8% 0); }
+  to { opacity: 1; clip-path: inset(0); }
+}
 body[data-page="home"] .home-summary-outlook { min-height: 64px; height: auto; padding: 8px 12px; gap: 8px; font-size: 16px; white-space: nowrap; }
 body[data-page="home"] .home-summary-outlook svg { width: 18px; height: 18px; }
 body[data-page="home"] .home-summary-panels article { padding: 24px 0; border-bottom: 1px solid var(--color-base-300); }

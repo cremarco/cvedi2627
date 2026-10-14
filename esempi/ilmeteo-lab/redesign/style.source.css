@@ -479,7 +479,11 @@ body[data-version="redesign"] .block_weather_prevision__forecast_maps__map {
 .home-weather-ticker__track > span::after { margin: 0 20px; content: "•"; }
 .home-weather-ticker:hover .home-weather-ticker__track,
 .home-weather-ticker__track[data-paused] { animation-play-state: paused; }
-.home-weather-ticker:focus-within .home-weather-ticker__track { animation: none; }
+.home-weather-ticker:focus-within .home-weather-ticker__track { animation-play-state: paused; }
+#main_menu + .home-weather-ticker.has-motion-control { height: 48px; }
+body[data-page="home"] .home-weather-ticker .home-weather-ticker__toggle { flex: none; min-width: 76px; min-height: 44px; padding: 8px; border-color: currentColor; background: transparent; color: var(--meteo-paper); font-size: 14px; }
+body[data-page="home"] .home-weather-ticker .home-weather-ticker__toggle:is(:hover,:focus-visible) { background: var(--meteo-paper); color: var(--meteo-notice); }
+body[data-page="home"] .home-weather-ticker .home-weather-ticker__toggle:focus-visible { outline-color: var(--meteo-navy); outline-offset: -4px; }
 @keyframes home-weather-ticker-scroll { to { transform: translateX(calc(-1 * var(--ticker-distance))); } }
 
 /* Single-action daisyUI FAB; the captured runtime owns its destination. */
@@ -555,7 +559,11 @@ body[data-version="redesign"] .block_weather_prevision__forecast_maps__map {
 @media (prefers-reduced-motion: reduce) {
   .home-weather-ticker__track[data-ready] { animation: none; }
   .home-weather-ticker__track > span[aria-hidden] { display: none; }
-  .home-weather-ticker__viewport { overflow-x: auto; }
+  .home-weather-ticker__viewport { overflow: visible; }
+  .home-weather-ticker__track { width: auto; }
+  .home-weather-ticker__track > span { white-space: normal; }
+  .home-weather-ticker__toggle { display: none !important; }
+  #main_menu + .home-weather-ticker.has-motion-control { height: auto; min-height: 44px; padding-block: 8px; }
   #weather-report-fab .lab-btn:is(:hover, :focus-visible, :active) svg { animation: none; }
   .navbar-search-item .search_bar,
   .navbar-search-item button { transition: none; }
