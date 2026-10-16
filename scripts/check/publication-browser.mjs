@@ -27,8 +27,8 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 590 + localOnlySlides, buttons: publicLessons.length + supplementalMaterials.length + localLessons.length },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 590, buttons: publicLessons.length + supplementalMaterials.length },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 603 + localOnlySlides, buttons: publicLessons.length + supplementalMaterials.length + localLessons.length },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 603, buttons: publicLessons.length + supplementalMaterials.length },
   ]) {
     const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? localLessons : [])]
     const page = await browser.newPage({ reducedMotion: 'reduce' })

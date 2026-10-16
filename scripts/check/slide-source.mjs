@@ -188,6 +188,14 @@ export async function checkSlideSources() {
           assert.equal(entry.sourceFolios[i], current.frames.get(node).folio, `${specification.id}: current booklet folio`)
           current.covered.add(node)
         })
+      } else if (entry.sourceRelation === 'current-only' || slide.frontmatter.bookletRelation === 'current-only') {
+        assert.equal(entry.sourceRelation, 'current-only', `${specification.id}/${index + 1}: current-only source relation is explicit in the map`)
+        assert.equal(slide.frontmatter.bookletRelation, 'current-only', `${specification.id}/${index + 1}: current-only source relation matches the slide`)
+        assert.equal(slide.frontmatter.bookletPages, undefined, 'current-only content does not invent historical booklet pages')
+        assert.deepEqual(entry.sourcePages, [], 'current-only content has no historical page mapping')
+        assert.deepEqual(entry.sourceNodes, [], 'current-only content has no historical node mapping')
+        assert.ok(typeof entry.currentSource === 'string' && entry.currentSource.length > 0, 'current-only content names its current Figma snapshot')
+        assert.ok(Array.isArray(entry.currentSourceNodes) && entry.currentSourceNodes.length > 0, 'current-only content cites genuine current Figma boards')
       } else {
         assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, `${specification.id}/${index + 1}: source page identities`)
         assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page)?.id), `${specification.id}/${index + 1}: genuine Figma nodes`)

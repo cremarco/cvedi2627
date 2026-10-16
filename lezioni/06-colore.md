@@ -35,7 +35,7 @@ class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
 lessonSlide: 3
-lessonMinutes: 2
+lessonMinutes: 1
 routeAlias: colore-02
 bookletPages: [125, 126]
 ---
@@ -51,7 +51,7 @@ class: content-slide ux-process-lesson lesson-slide reading-slide statement-slid
 footer: "Colore e significato"
 lesson: colore
 lessonSlide: 4
-lessonMinutes: 2
+lessonMinutes: 1.5
 routeAlias: colore-03
 bookletPages: [125]
 ---
@@ -63,11 +63,250 @@ bookletPages: [125]
 
 ---
 layout: default
-class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide image-panels
 footer: "Colore e significato"
 lesson: colore
 lessonSlide: 5
-lessonMinutes: 2.5
+lessonMinutes: 1.5
+routeAlias: colore-proprieta-hsv
+bookletRelation: current-only
+bookletCurrentNodes: ["3956:658"]
+bookletCurrentFolios: [367]
+bookletAssets: ["l07-schemi-proprieta-hsv"]
+---
+
+# Le proprietà del colore
+
+<div class="lesson-columns"><div><p>Nel modello HSV, H individua la tinta, S la saturazione e V il valore.</p><p>Cambia un parametro alla volta per riconoscerne l’effetto. Il valore V non è la luminanza relativa WCAG: lo stesso V non garantisce lo stesso contrasto.</p></div><LessonFigure src="/images/processo-ux/l07-schemi-proprieta-hsv-e23b1f66dee6.webp" alt="Figura 3.196 — Un parametro alla volta: variazioni di tonalità, saturazione e valore nel modello HSV." caption="HSV: varia un parametro alla volta, mantenendo costanti gli altri due." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide image-panels
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 6
+lessonMinutes: 1.5
+routeAlias: colore-modelli-rgb-cmyk-ryb
+bookletRelation: current-only
+bookletCurrentNodes: ["3956:773"]
+bookletCurrentFolios: [368]
+bookletAssets: ["l07-schemi-modelli-rgb-cmy-ryb"]
+---
+
+# Colore emesso e colore stampato
+
+<div class="lesson-columns"><div><p>RGB: le componenti luminose rosse, verdi e blu si sommano.</p><p>CMYK: ciano, magenta e giallo assorbono luce; il nero K completa il processo di stampa. RYB è un riferimento pittorico tradizionale. Modello, profilo e supporto influenzano il risultato.</p></div><LessonFigure src="/images/processo-ux/l07-schemi-modelli-rgb-cmy-ryb-b7afe7d82e0b.webp" alt="Figura 3.197 — Schemi illustrativi di RGB, CMY e primari RYB; le sovrapposizioni non simulano una prova di stampa." caption="RGB, CMY e primari RYB: schemi illustrativi, non una prova di stampa." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide image-panels
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 7
+lessonMinutes: 1.5
+routeAlias: colore-ruote-cromatiche
+bookletRelation: current-only
+bookletCurrentNodes: ["3956:871"]
+bookletCurrentFolios: [369]
+bookletAssets: ["l07-schemi-ruote-hsv-ryb"]
+---
+
+# Leggere la ruota cromatica
+
+<div class="lesson-columns"><div><p>RGB/HSV: rosso e ciano sono opposti. Primari: rosso, verde e blu. La ruota usa passi di H di 30°.</p><p>RYB: rosso e verde sono opposti. Primari: rosso, giallo e blu. È un riferimento tradizionale, non una simulazione dei pigmenti.</p></div><LessonFigure src="/images/processo-ux/l07-schemi-ruote-hsv-ryb-63810352691a.webp" alt="Figura 3.198 — Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento." caption="RGB/HSV a sinistra, RYB a destra. I cerchi grandi indicano i primari." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 8
+lessonMinutes: 1.5
+routeAlias: colore-schema-monocromatico
+bookletRelation: current-only
+bookletCurrentNodes: ["3956:961"]
+bookletCurrentFolios: [370]
+bookletAssets: ["l07-schemi-monocromatico"]
+---
+
+# Schema monocromatico
+
+<div class="lesson-columns"><div><p class="lead">Una sola tinta, con variazioni di saturazione e valore.</p><ul class="cvedi-list"><li><span>I campioni dell’esempio mantengono H = 210° e cambiano S e V.</span></li><li><span>Neutri, differenze di intensità e spazio distinguono contenuti e azioni.</span></li><li><span>La continuità cromatica non sostituisce la verifica del contrasto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-monocromatico-e85c70e07ce9.webp" alt="Figura 3.199 — Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I campioni interni variano saturazione e valore." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair figure-comparison
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 9
+lessonMinutes: 1.5
+routeAlias: colore-schema-monocromatico-esempi
+bookletRelation: current-only
+bookletCurrentNodes: ["3997:23912"]
+bookletCurrentFolios: [371]
+bookletAssets: ["l07-schemi-smartwater", "l07-schemi-netlife"]
+---
+
+# Monocromatico: esempi
+
+<p class="lead">Una famiglia dominante, due identità diverse. Screenshot storici: letture visive, non misure cromatiche.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-smartwater-26fe1e6b5fbb.webp" alt="Smartwater: il blu unifica ambiente, acqua e prodotto, con dettagli chiari." caption="Smartwater: il blu unifica ambiente, acqua e prodotto, con dettagli chiari. Booklet, ed. dicembre 2024, p. 113." /><LessonFigure src="/images/processo-ux/l07-schemi-netlife-fb82dd557cc9.webp" alt="Netlife Research: campo verde, testo scuro e aree chiare. La definizione riguarda la palette prevalente, non ogni pixel." caption="Netlife Research: campo verde, testo scuro e aree chiare. La definizione riguarda la palette prevalente, non ogni pixel. Booklet, ed. dicembre 2024, p. 114." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 10
+lessonMinutes: 1.5
+routeAlias: colore-schema-analogo
+bookletRelation: current-only
+bookletCurrentNodes: ["3997:24046"]
+bookletCurrentFolios: [372]
+bookletAssets: ["l07-schemi-analogo"]
+---
+
+# Schema analogo
+
+<div class="lesson-columns"><div><p class="lead">Tinte vicine sulla ruota costruiscono una continuità cromatica.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: H = 180°, 210° e 240°, cioè ciano, azzurro e blu.</span></li><li><span>Scegli una dominante e assegna alle tinte adiacenti ruoli differenti.</span></li><li><span>Saturazione, valore e quantità separano le funzioni; verifica comunque il contrasto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-analogo-fb3090abe64f.webp" alt="Figura 3.201 — Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair figure-comparison
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 11
+lessonMinutes: 1.5
+routeAlias: colore-schema-analogo-esempi
+bookletRelation: current-only
+bookletCurrentNodes: ["3997:24195"]
+bookletCurrentFolios: [373]
+bookletAssets: ["l07-schemi-boost", "l07-schemi-omnium"]
+---
+
+# Analogo: esempi
+
+<p class="lead">Tinte vicine possono sostenere una dominante calda o fredda. Screenshot storici: letture visive, non misure cromatiche.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-boost-3b115dd06da4.webp" alt="Boost: giallo e arancione sostengono la dominante calda; il bianco evidenzia il titolo." caption="Boost: giallo e arancione sostengono la dominante calda; il bianco evidenzia il titolo. Booklet, ed. dicembre 2024, p. 116." /><LessonFigure src="/images/processo-ux/l07-schemi-omnium-2856bb2c651d.webp" alt="Omnium: blu, violetto e ciano sviluppano passaggi fra tinte vicine nell’illustrazione." caption="Omnium: blu, violetto e ciano sviluppano passaggi fra tinte vicine nell’illustrazione. Booklet, ed. dicembre 2024, p. 117." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 12
+lessonMinutes: 1.5
+routeAlias: colore-schema-complementare
+bookletRelation: current-only
+bookletCurrentNodes: ["3956:1071"]
+bookletCurrentFolios: [374]
+bookletAssets: ["l07-schemi-complementare"]
+---
+
+# Schema complementare
+
+<div class="lesson-columns"><div><p class="lead">Due tinte opposte sulla ruota adottata.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: arancione a 30° e azzurro a 210°, distanti 180°.</span></li><li><span>Una tinta può dominare e l’altra identificare un accento.</span></li><li><span>L’opposizione di tinta non misura il contrasto di luminanza fra testo e superficie.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-complementare-5f977c671ba5.webp" alt="Figura 3.203 — Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair figure-comparison
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 13
+lessonMinutes: 1.5
+routeAlias: colore-schema-complementare-esempi
+bookletRelation: current-only
+bookletCurrentNodes: ["3989:1548"]
+bookletCurrentFolios: [375]
+bookletAssets: ["l07-schemi-wknd", "l07-schemi-ancient"]
+---
+
+# Complementare: esempi
+
+<p class="lead">Campi blu e toni arancioni o sabbia costruiscono relazioni e gerarchie. Screenshot storici: letture visive, non misure cromatiche.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-wknd-17624daa790a.webp" alt="Série Découvertes, presentata da WKND 91,9 FM: arancione e blu scuro occupano aree diverse." caption="Série Découvertes, presentata da WKND 91,9 FM: arancione e blu scuro occupano aree diverse. Booklet, ed. dicembre 2024, p. 119." /><LessonFigure src="/images/processo-ux/l07-schemi-ancient-38e1d8e70e06.webp" alt="The Ancient World: blu petrolio e toni caldi del paesaggio. La relazione descrive famiglie prevalenti, non tutte le tinte." caption="The Ancient World: blu petrolio e toni caldi. Booklet, ed. dicembre 2024, p. 120; attribuzione dell’edizione: Akraaf Elkami." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 14
+lessonMinutes: 1.5
+routeAlias: colore-schema-complementare-divergente
+bookletRelation: current-only
+bookletCurrentNodes: ["3997:24415"]
+bookletCurrentFolios: [376]
+bookletAssets: ["l07-schemi-complementare-divergente"]
+---
+
+# Schema complementare divergente
+
+<div class="lesson-columns"><div><p class="lead">Una tinta e le due adiacenti al suo opposto.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: arancione a 30°, ciano a 180° e blu a 240°.</span></li><li><span>La base e i due accenti possono avere quantità e intensità differenti.</span></li><li><span>Errori, conferme e focus devono restare distinguibili e spiegati anche dal testo.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-complementare-divergente-8795ebc3ec76.webp" alt="Figura 3.205 — Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair figure-comparison
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 15
+lessonMinutes: 1.5
+routeAlias: colore-schema-complementare-divergente-esempi
+bookletRelation: current-only
+bookletCurrentNodes: ["3997:24564"]
+bookletCurrentFolios: [377]
+bookletAssets: ["l07-schemi-neverland", "l07-schemi-skinhealth"]
+---
+
+# Complementare divergente: esempi
+
+<p class="lead">Una dominante si accompagna ad accenti di due famiglie diverse. Screenshot storici: letture visive, non misure cromatiche.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-neverland-82bc44b96385.webp" alt="Neverland: un campo rosa con dettagli verde menta e piccoli accenti caldi." caption="Neverland: un campo rosa con dettagli verde menta e piccoli accenti caldi. Booklet, ed. dicembre 2024, p. 122." /><LessonFigure src="/images/processo-ux/l07-schemi-skinhealth-094323de447a.webp" alt="Skin Health Alliance: viola chiaro, giallo e verde scuro. Il dato “82%” emerge anche per scala e posizione." caption="Skin Health Alliance: viola chiaro, giallo e verde scuro. Il dato “82%” emerge anche per scala e posizione. Booklet, ed. dicembre 2024, p. 123." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 16
+lessonMinutes: 1.5
+routeAlias: colore-schema-triadico
+bookletRelation: current-only
+bookletCurrentNodes: ["3997:24698"]
+bookletCurrentFolios: [378]
+bookletAssets: ["l07-schemi-triadico"]
+---
+
+# Schema triadico
+
+<div class="lesson-columns"><div><p class="lead">Tre tinte equidistanti sulla ruota.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: H = 30°, 150° e 270°, con intervalli di 120°.</span></li><li><span>Una triade non richiede tre aree uguali o tre accenti ugualmente intensi.</span></li><li><span>Definisci una dominante e verifica il contrasto: la distanza angolare non lo garantisce.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-triadico-6a77dd6a88d5.webp" alt="Figura 3.207 — Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair figure-comparison
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 17
+lessonMinutes: 1.5
+routeAlias: colore-schema-triadico-esempi
+bookletRelation: current-only
+bookletCurrentNodes: ["3989:1731"]
+bookletCurrentFolios: [379]
+bookletAssets: ["l07-schemi-secretkey", "l07-schemi-smi"]
+---
+
+# Triadico: esempi e confronto
+
+<p class="lead">Contare tre colori non basta a dimostrare una triade esatta. Screenshot storici: letture visive, non misure cromatiche.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-secretkey-48d0b60c1ef1.webp" alt="SecretKey: viola e arancione costruiscono ambiente e accenti; il verde compare soprattutto nell’illustrazione." caption="SecretKey: viola e arancione costruiscono ambiente e accenti; il verde compare soprattutto nell’illustrazione. Booklet, ed. dicembre 2024, p. 125." /><LessonFigure src="/images/processo-ux/l07-schemi-smi-5f11095c926c.webp" alt="SMI · confronto critico: viola e verde con fondo bruno neutro. Lo screenshot non dimostra tre intervalli di 120°." caption="SMI · confronto critico: viola e verde con fondo bruno neutro. Lo screenshot non dimostra tre intervalli di 120°. Booklet, ed. dicembre 2024, p. 126." /></div>
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
+footer: "Colore e significato"
+lesson: colore
+lessonSlide: 18
+lessonMinutes: 2
 routeAlias: colore-04
 bookletPages: [126]
 bookletAssets: ["c03-126-01"]
@@ -82,8 +321,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 6
-lessonMinutes: 2
+lessonSlide: 19
+lessonMinutes: 1.25
 routeAlias: colore-05
 bookletPages: [127]
 bookletAssets: ["c03-127-01"]
@@ -98,8 +337,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 7
-lessonMinutes: 2
+lessonSlide: 20
+lessonMinutes: 1.25
 routeAlias: colore-06
 bookletPages: [128]
 bookletAssets: ["c03-128-01"]
@@ -114,8 +353,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 8
-lessonMinutes: 2
+lessonSlide: 21
+lessonMinutes: 1.25
 routeAlias: colore-07
 bookletPages: [129]
 bookletAssets: ["c03-129-01"]
@@ -130,8 +369,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 9
-lessonMinutes: 2
+lessonSlide: 22
+lessonMinutes: 1.25
 routeAlias: colore-08
 bookletPages: [130]
 bookletAssets: ["c03-130-01"]
@@ -146,8 +385,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 10
-lessonMinutes: 2
+lessonSlide: 23
+lessonMinutes: 1.25
 routeAlias: colore-09
 bookletPages: [131]
 bookletAssets: ["c03-131-01"]
@@ -162,8 +401,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 11
-lessonMinutes: 2
+lessonSlide: 24
+lessonMinutes: 1.25
 routeAlias: colore-10
 bookletPages: [132]
 bookletAssets: ["c03-132-01"]
@@ -178,8 +417,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 12
-lessonMinutes: 2
+lessonSlide: 25
+lessonMinutes: 1.25
 routeAlias: colore-11
 bookletPages: [133]
 bookletAssets: ["c03-133-01"]
@@ -194,8 +433,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 13
-lessonMinutes: 2
+lessonSlide: 26
+lessonMinutes: 1.25
 routeAlias: colore-12
 bookletPages: [134]
 bookletAssets: ["c03-134-01"]
@@ -210,8 +449,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 14
-lessonMinutes: 2
+lessonSlide: 27
+lessonMinutes: 1.25
 routeAlias: colore-13
 bookletPages: [135]
 bookletAssets: ["c03-135-01"]
@@ -226,8 +465,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 15
-lessonMinutes: 2
+lessonSlide: 28
+lessonMinutes: 1.25
 routeAlias: colore-14
 bookletPages: [136]
 bookletAssets: ["c03-136-01"]
@@ -242,7 +481,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 16
+lessonSlide: 29
 lessonMinutes: 2.5
 routeAlias: colore-15
 bookletPages: [137, 138]
@@ -260,7 +499,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 17
+lessonSlide: 30
 lessonMinutes: 2
 routeAlias: colore-cultura-evidenza
 bookletPages: [137, 138]
@@ -278,7 +517,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide screenshot-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 18
+lessonSlide: 31
 lessonMinutes: 2.5
 routeAlias: colore-cultura-mappa
 bookletPages: [137, 138]
@@ -296,7 +535,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 19
+lessonSlide: 32
 lessonMinutes: 1.5
 routeAlias: colore-cultura-lanterne
 bookletPages: [137, 138]
@@ -314,7 +553,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 20
+lessonSlide: 33
 lessonMinutes: 1.5
 routeAlias: colore-cultura-abiti-bianchi
 bookletPages: [137, 138]
@@ -332,7 +571,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide screenshot-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 21
+lessonSlide: 34
 lessonMinutes: 2
 routeAlias: colore-cultura-ikea-capodanno
 bookletPages: [137, 138]
@@ -350,7 +589,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide screenshot-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 22
+lessonSlide: 35
 lessonMinutes: 2
 routeAlias: colore-cultura-ikea-quotidiano
 bookletPages: [137, 138]
@@ -368,7 +607,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 23
+lessonSlide: 36
 lessonMinutes: 1.5
 routeAlias: colore-cultura-convenzioni
 bookletPages: [137, 138]
@@ -387,7 +626,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide screenshot-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 24
+lessonSlide: 37
 lessonMinutes: 2
 routeAlias: colore-cultura-convenzioni-esempio
 bookletPages: [137, 138]
@@ -405,7 +644,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 25
+lessonSlide: 38
 lessonMinutes: 2
 routeAlias: colore-cultura-lingua
 bookletPages: [137, 138]
@@ -423,7 +662,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 26
+lessonSlide: 39
 lessonMinutes: 1.5
 routeAlias: colore-cultura-cempasuchil
 bookletPages: [137, 138]
@@ -441,7 +680,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide screenshot-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 27
+lessonSlide: 40
 lessonMinutes: 1.5
 routeAlias: colore-cultura-google-muertos
 bookletPages: [137, 138]
@@ -459,7 +698,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 28
+lessonSlide: 41
 lessonMinutes: 2
 routeAlias: colore-cultura-preferenze
 bookletPages: [137, 138]
@@ -477,7 +716,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 29
+lessonSlide: 42
 lessonMinutes: 2
 routeAlias: colore-cultura-verificare
 bookletPages: [137, 138]
@@ -496,8 +735,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 30
-lessonMinutes: 3
+lessonSlide: 43
+lessonMinutes: 2
 routeAlias: colore-16
 bookletPages: [139, 140]
 bookletAssets: ["c03-140-01"]
@@ -512,7 +751,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide statement-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 31
+lessonSlide: 44
 lessonMinutes: 2
 routeAlias: colore-17
 bookletPages: [140]
@@ -528,8 +767,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 32
-lessonMinutes: 2.5
+lessonSlide: 45
+lessonMinutes: 2
 routeAlias: colore-18
 bookletPages: [141, 142]
 bookletAssets: ["c03-142-01"]
@@ -544,8 +783,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 33
-lessonMinutes: 2.5
+lessonSlide: 46
+lessonMinutes: 2
 routeAlias: colore-19
 bookletPages: [143, 144]
 bookletAssets: ["c03-144-01"]
@@ -560,8 +799,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 34
-lessonMinutes: 2.5
+lessonSlide: 47
+lessonMinutes: 2
 routeAlias: colore-20
 bookletPages: [145, 146]
 bookletAssets: ["c03-146-01"]
@@ -576,8 +815,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 35
-lessonMinutes: 2.5
+lessonSlide: 48
+lessonMinutes: 2
 routeAlias: colore-21
 bookletPages: [147, 148]
 bookletAssets: ["c03-148-01"]
@@ -592,8 +831,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 36
-lessonMinutes: 2.5
+lessonSlide: 49
+lessonMinutes: 2
 routeAlias: colore-22
 bookletPages: [149, 150]
 bookletAssets: ["c03-150-01"]
@@ -608,7 +847,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 37
+lessonSlide: 50
 lessonMinutes: 8
 routeAlias: colore-23
 bookletPages: [141, 142, 143, 144, 145, 146, 147, 148, 149, 150]
@@ -625,8 +864,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 38
-lessonMinutes: 3
+lessonSlide: 51
+lessonMinutes: 2
 routeAlias: colore-24
 bookletPages: [151]
 bookletAssets: ["c03-151-01"]
@@ -641,8 +880,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 39
-lessonMinutes: 3
+lessonSlide: 52
+lessonMinutes: 2
 routeAlias: colore-25
 bookletPages: [152]
 bookletAssets: ["c03-152-01"]
@@ -657,8 +896,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 40
-lessonMinutes: 3
+lessonSlide: 53
+lessonMinutes: 2
 routeAlias: colore-26
 bookletPages: [153]
 bookletAssets: ["c03-153-01"]
@@ -673,8 +912,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 41
-lessonMinutes: 3
+lessonSlide: 54
+lessonMinutes: 2
 routeAlias: colore-27
 bookletPages: [154]
 bookletAssets: ["c03-154-01"]
@@ -689,8 +928,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 42
-lessonMinutes: 3
+lessonSlide: 55
+lessonMinutes: 2
 routeAlias: colore-28
 bookletPages: [155, 156]
 bookletAssets: ["c03-155-01"]
@@ -705,7 +944,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 43
+lessonSlide: 56
 lessonMinutes: 15
 routeAlias: colore-29
 bookletPages: [125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156]
@@ -713,7 +952,7 @@ bookletPages: [125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 
 
 # Una palette con ruoli chiari
 
-<p class="lead">Partite dalla moodboard del progetto e definite una piccola palette.</p>
+<p class="lead">Partite dalla moodboard, scegliete uno schema cromatico e motivate la scelta.</p>
 <ul class="cvedi-list"><li><span>Scegliete superficie, testo, primario e accento.</span></li><li><span>Distinguete gli stati semantici dalle scelte di identità.</span></li><li><span>Controllate almeno tre combinazioni testo–sfondo e un caso in cui il colore non basta.</span></li></ul>
 <p class="aside">Attività · 15 minuti</p>
 
@@ -722,7 +961,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 44
+lessonSlide: 57
 lessonMinutes: 6
 routeAlias: colore-30
 bookletPages: [151, 152, 153, 154, 155, 156]
@@ -739,7 +978,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 45
+lessonSlide: 58
 lessonMinutes: 2
 routeAlias: colore-31
 bookletPages: [125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156]
@@ -755,8 +994,8 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Colore e significato"
 lesson: colore
-lessonSlide: 46
-lessonMinutes: 2.5
+lessonSlide: 59
+lessonMinutes: 1
 routeAlias: colore-32
 bookletPages: [151, 152, 153, 154, 155, 156]
 ---

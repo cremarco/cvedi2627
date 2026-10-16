@@ -5775,7 +5775,7 @@
       "lessonNumber": 7,
       "lessonSlide": 3,
       "title": "Cosa impareremo",
-      "minutes": 2.0,
+      "minutes": 1,
       "sourcePages": [
         125,
         126
@@ -5793,7 +5793,7 @@
       "lessonNumber": 7,
       "lessonSlide": 4,
       "title": "Il colore non ha un significato fisso",
-      "minutes": 2.0,
+      "minutes": 1.5,
       "sourcePages": [
         125
       ],
@@ -5808,8 +5808,299 @@
       "lesson": "colore",
       "lessonNumber": 7,
       "lessonSlide": 5,
+      "title": "Le proprietà del colore",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-proprieta-hsv"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-proprieta-hsv",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3956:658"
+      ],
+      "currentSourceFolios": [
+        367
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 6,
+      "title": "Colore emesso e colore stampato",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-modelli-rgb-cmy-ryb"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-modelli-rgb-cmyk-ryb",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3956:773"
+      ],
+      "currentSourceFolios": [
+        368
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 7,
+      "title": "Leggere la ruota cromatica",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-ruote-hsv-ryb"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-ruote-cromatiche",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3956:871"
+      ],
+      "currentSourceFolios": [
+        369
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 8,
+      "title": "Schema monocromatico",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-monocromatico"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-schema-monocromatico",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3956:961"
+      ],
+      "currentSourceFolios": [
+        370
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 9,
+      "title": "Monocromatico: esempi",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-smartwater",
+        "l07-schemi-netlife"
+      ],
+      "kind": "figure-pair",
+      "routeAlias": "colore-schema-monocromatico-esempi",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3997:23912"
+      ],
+      "currentSourceFolios": [
+        371
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 10,
+      "title": "Schema analogo",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-analogo"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-schema-analogo",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3997:24046"
+      ],
+      "currentSourceFolios": [
+        372
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 11,
+      "title": "Analogo: esempi",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-boost",
+        "l07-schemi-omnium"
+      ],
+      "kind": "figure-pair",
+      "routeAlias": "colore-schema-analogo-esempi",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3997:24195"
+      ],
+      "currentSourceFolios": [
+        373
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 12,
+      "title": "Schema complementare",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-complementare"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-schema-complementare",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3956:1071"
+      ],
+      "currentSourceFolios": [
+        374
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 13,
+      "title": "Complementare: esempi",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-wknd",
+        "l07-schemi-ancient"
+      ],
+      "kind": "figure-pair",
+      "routeAlias": "colore-schema-complementare-esempi",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3989:1548"
+      ],
+      "currentSourceFolios": [
+        375
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 14,
+      "title": "Schema complementare divergente",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-complementare-divergente"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-schema-complementare-divergente",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3997:24415"
+      ],
+      "currentSourceFolios": [
+        376
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 15,
+      "title": "Complementare divergente: esempi",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-neverland",
+        "l07-schemi-skinhealth"
+      ],
+      "kind": "figure-pair",
+      "routeAlias": "colore-schema-complementare-divergente-esempi",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3997:24564"
+      ],
+      "currentSourceFolios": [
+        377
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 16,
+      "title": "Schema triadico",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-triadico"
+      ],
+      "kind": "figure",
+      "routeAlias": "colore-schema-triadico",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3997:24698"
+      ],
+      "currentSourceFolios": [
+        378
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 17,
+      "title": "Triadico: esempi e confronto",
+      "minutes": 1.5,
+      "sourceRelation": "current-only",
+      "sourcePages": [],
+      "sourceNodes": [],
+      "assets": [
+        "l07-schemi-secretkey",
+        "l07-schemi-smi"
+      ],
+      "kind": "figure-pair",
+      "routeAlias": "colore-schema-triadico-esempi",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "currentSourceNodes": [
+        "3989:1731"
+      ],
+      "currentSourceFolios": [
+        379
+      ]
+    },
+    {
+      "lesson": "colore",
+      "lessonNumber": 7,
+      "lessonSlide": 18,
       "title": "Caldo e freddo sono relazioni",
-      "minutes": 2.5,
+      "minutes": 2,
       "sourcePages": [
         126
       ],
@@ -5825,9 +6116,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 6,
+      "lessonSlide": 19,
       "title": "Rosso: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         127
       ],
@@ -5843,9 +6134,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 7,
+      "lessonSlide": 20,
       "title": "Arancio: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         128
       ],
@@ -5861,9 +6152,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 8,
+      "lessonSlide": 21,
       "title": "Giallo: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         129
       ],
@@ -5879,9 +6170,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 9,
+      "lessonSlide": 22,
       "title": "Verde: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         130
       ],
@@ -5897,9 +6188,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 10,
+      "lessonSlide": 23,
       "title": "Blu: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         131
       ],
@@ -5915,9 +6206,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 11,
+      "lessonSlide": 24,
       "title": "Marrone: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         132
       ],
@@ -5933,9 +6224,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 12,
+      "lessonSlide": 25,
       "title": "Rosa: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         133
       ],
@@ -5951,9 +6242,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 13,
+      "lessonSlide": 26,
       "title": "Viola: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         134
       ],
@@ -5969,9 +6260,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 14,
+      "lessonSlide": 27,
       "title": "Bianco: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         135
       ],
@@ -5987,9 +6278,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 15,
+      "lessonSlide": 28,
       "title": "Nero: leggere l’identità",
-      "minutes": 2.0,
+      "minutes": 1.25,
       "sourcePages": [
         136
       ],
@@ -6005,7 +6296,7 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 16,
+      "lessonSlide": 29,
       "title": "Tre domande sul significato del colore",
       "minutes": 2.5,
       "sourcePages": [
@@ -6039,7 +6330,7 @@
       ],
       "kind": "cards",
       "lessonNumber": 7,
-      "lessonSlide": 17,
+      "lessonSlide": 30,
       "title": "Associazioni condivise, differenze locali",
       "minutes": 2.0,
       "assets": [],
@@ -6064,7 +6355,7 @@
       ],
       "kind": "figure",
       "lessonNumber": 7,
-      "lessonSlide": 18,
+      "lessonSlide": 31,
       "title": "Leggere una mappa culturale",
       "minutes": 2.5,
       "assets": [
@@ -6091,7 +6382,7 @@
       ],
       "kind": "figure",
       "lessonNumber": 7,
-      "lessonSlide": 19,
+      "lessonSlide": 32,
       "title": "Rosso: un contesto festivo",
       "minutes": 1.5,
       "assets": [
@@ -6118,7 +6409,7 @@
       ],
       "kind": "figure",
       "lessonNumber": 7,
-      "lessonSlide": 20,
+      "lessonSlide": 33,
       "title": "Bianco: osservare prima di interpretare",
       "minutes": 1.5,
       "assets": [
@@ -6145,7 +6436,7 @@
       ],
       "kind": "figure",
       "lessonNumber": 7,
-      "lessonSlide": 21,
+      "lessonSlide": 34,
       "title": "Il rosso nella campagna IKEA",
       "minutes": 2.0,
       "assets": [
@@ -6172,7 +6463,7 @@
       ],
       "kind": "figure",
       "lessonNumber": 7,
-      "lessonSlide": 22,
+      "lessonSlide": 35,
       "title": "La stessa marca, un’altra campagna",
       "minutes": 2.0,
       "assets": [
@@ -6200,7 +6491,7 @@
       ],
       "kind": "cards",
       "sourceRelation": "context-only",
-      "lessonSlide": 23,
+      "lessonSlide": 36,
       "title": "Il colore di un dato è una convenzione",
       "minutes": 1.5,
       "routeAlias": "colore-cultura-convenzioni",
@@ -6224,7 +6515,7 @@
       ],
       "kind": "figure",
       "sourceRelation": "context-only",
-      "lessonSlide": 24,
+      "lessonSlide": 37,
       "title": "Due convenzioni, due letture del grafico",
       "minutes": 2.0,
       "routeAlias": "colore-cultura-convenzioni-esempio",
@@ -6249,7 +6540,7 @@
       ],
       "kind": "figure",
       "sourceRelation": "context-only",
-      "lessonSlide": 25,
+      "lessonSlide": 38,
       "title": "Le parole organizzano anche il colore",
       "minutes": 2.0,
       "routeAlias": "colore-cultura-lingua",
@@ -6274,7 +6565,7 @@
       ],
       "kind": "cards",
       "sourceRelation": "context-only",
-      "lessonSlide": 26,
+      "lessonSlide": 39,
       "title": "Un fiore, un rito, un riferimento culturale",
       "minutes": 1.5,
       "routeAlias": "colore-cultura-cempasuchil",
@@ -6299,7 +6590,7 @@
       ],
       "kind": "figure",
       "sourceRelation": "context-only",
-      "lessonSlide": 27,
+      "lessonSlide": 40,
       "title": "Il riferimento culturale entra nell’interfaccia",
       "minutes": 1.5,
       "routeAlias": "colore-cultura-google-muertos",
@@ -6324,7 +6615,7 @@
       ],
       "kind": "cards",
       "sourceRelation": "context-only",
-      "lessonSlide": 28,
+      "lessonSlide": 41,
       "title": "Associare, preferire e usare sono domande diverse",
       "minutes": 2.0,
       "routeAlias": "colore-cultura-preferenze",
@@ -6347,7 +6638,7 @@
       ],
       "kind": "cards",
       "lessonNumber": 7,
-      "lessonSlide": 29,
+      "lessonSlide": 42,
       "title": "Dal riferimento alla verifica",
       "minutes": 2.0,
       "assets": [],
@@ -6367,9 +6658,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 30,
+      "lessonSlide": 43,
       "title": "Josef Albers: imparare osservando",
-      "minutes": 3.0,
+      "minutes": 2,
       "sourcePages": [
         139,
         140
@@ -6387,7 +6678,7 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 31,
+      "lessonSlide": 44,
       "title": "Un colore cambia con ciò che lo circonda",
       "minutes": 2.0,
       "sourcePages": [
@@ -6403,9 +6694,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 32,
+      "lessonSlide": 45,
       "title": "La relatività del colore",
-      "minutes": 2.5,
+      "minutes": 2,
       "sourcePages": [
         141,
         142
@@ -6423,9 +6714,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 33,
+      "lessonSlide": 46,
       "title": "Gli sfondi invertiti",
-      "minutes": 2.5,
+      "minutes": 2,
       "sourcePages": [
         143,
         144
@@ -6443,9 +6734,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 34,
+      "lessonSlide": 47,
       "title": "La sottrazione del colore",
-      "minutes": 2.5,
+      "minutes": 2,
       "sourcePages": [
         145,
         146
@@ -6463,9 +6754,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 35,
+      "lessonSlide": 48,
       "title": "Il contrasto successivo",
-      "minutes": 2.5,
+      "minutes": 2,
       "sourcePages": [
         147,
         148
@@ -6483,9 +6774,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 36,
+      "lessonSlide": 49,
       "title": "L’effetto Bezold",
-      "minutes": 2.5,
+      "minutes": 2,
       "sourcePages": [
         149,
         150
@@ -6503,7 +6794,7 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 37,
+      "lessonSlide": 50,
       "title": "Confrontare gli accostamenti",
       "minutes": 8.0,
       "sourcePages": [
@@ -6537,9 +6828,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 38,
+      "lessonSlide": 51,
       "title": "Dominante, secondario e accento",
-      "minutes": 3.0,
+      "minutes": 2,
       "sourcePages": [
         151
       ],
@@ -6555,9 +6846,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 39,
+      "lessonSlide": 52,
       "title": "Ricavare una palette dai riferimenti",
-      "minutes": 3.0,
+      "minutes": 2,
       "sourcePages": [
         152
       ],
@@ -6573,9 +6864,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 40,
+      "lessonSlide": 53,
       "title": "Nero, grigio e contesto di lettura",
-      "minutes": 3.0,
+      "minutes": 2,
       "sourcePages": [
         153
       ],
@@ -6591,9 +6882,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 41,
+      "lessonSlide": 54,
       "title": "Ombre e luci nella palette",
-      "minutes": 3.0,
+      "minutes": 2,
       "sourcePages": [
         154
       ],
@@ -6609,9 +6900,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 42,
+      "lessonSlide": 55,
       "title": "Grigi neutri e tonalizzati",
-      "minutes": 3.0,
+      "minutes": 2,
       "sourcePages": [
         155,
         156
@@ -6629,7 +6920,7 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 43,
+      "lessonSlide": 56,
       "title": "Una palette con ruoli chiari",
       "minutes": 15.0,
       "sourcePages": [
@@ -6707,7 +6998,7 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 44,
+      "lessonSlide": 57,
       "title": "Presentare e verificare la palette",
       "minutes": 6.0,
       "sourcePages": [
@@ -6733,7 +7024,7 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 45,
+      "lessonSlide": 58,
       "title": "Tre idee da portare nel progetto",
       "minutes": 2.0,
       "sourcePages": [
@@ -6811,9 +7102,9 @@
     {
       "lesson": "colore",
       "lessonNumber": 7,
-      "lessonSlide": 46,
+      "lessonSlide": 59,
       "title": "Prima della lezione su tipografia e griglie",
-      "minutes": 2.5,
+      "minutes": 1,
       "sourcePages": [
         151,
         152,

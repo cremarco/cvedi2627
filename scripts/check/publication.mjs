@@ -29,7 +29,7 @@ export async function checkPublication() {
       assert.ok(owned.every(slide => (slide.frontmatter.localOnly === true) === localIds.has(lesson.id)), `${lesson.id}: publication visibility matches the curriculum`)
     }
     assert.equal(local.slides.length, 242 + declaredUxSlides, 'complete local deck')
-    assert.equal(published.slides.length, 590, 'published deck includes lessons 01–07')
+    assert.equal(published.slides.length, 603, 'published deck includes lessons 01–07')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')

@@ -12235,6 +12235,1041 @@
         "retrievedOn": "2026-10-16",
         "sourceCatalog": "assets/booklet/colore-cultura/slide-integrazioni/fonti.json"
       }
+    },
+    {
+      "id": "l07-schemi-proprieta-hsv",
+      "key": "proprieta-hsv",
+      "role": "prerequisite",
+      "title": "Le proprietà del colore",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-proprieta-hsv.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3956:658",
+      "page": 367,
+      "figureId": "3956:702",
+      "figmaNode": "I3956:702;3165:593;3956:720",
+      "nodeId": "I3956:702;3165:593;3956:720",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-658",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 363,
+      "naturalHeight": 150,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma node screenshot, scale4, contentsOnly; no footer, image bar or caption.",
+      "minimumNativeLabelFontSize": 8,
+      "recommendedLayout": {
+        "kind": "figure-dominant",
+        "maxWidth": 1024,
+        "projectedLabelAtWidth1024": 22.57,
+        "note": "Conservare il visuale completo; verificare l’altezza disponibile. La ruota doppia può richiedere maggiore altezza oppure legenda HTML e ruote singole native."
+      },
+      "web": "/images/processo-ux/l07-schemi-proprieta-hsv-e23b1f66dee6.webp",
+      "dimensions": [
+        1452,
+        600
+      ],
+      "originalBytes": 32373,
+      "originalSha256": "82d76662a9a08d8285ba4f87414fb846532145b533f3e821c18df13c56e952ab",
+      "webBytes": 8378,
+      "publicationSha256": "e23b1f66dee6123bcd502ed04b66227f9af6d56170a53b1c8649ddddc6409f5f",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "82d76662a9a08d8285ba4f87414fb846532145b533f3e821c18df13c56e952ab",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.196 — Un parametro alla volta: variazioni di tonalità, saturazione e valore nel modello HSV.",
+      "caption": "Un parametro alla volta: variazioni di tonalità, saturazione e valore nel modello HSV.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-658"
+      ]
+    },
+    {
+      "id": "l07-schemi-modelli-rgb-cmy-ryb",
+      "key": "modelli-rgb-cmy-ryb",
+      "role": "prerequisite",
+      "title": "Colore emesso e colore stampato",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-modelli-rgb-cmy-ryb.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3956:773",
+      "page": 368,
+      "figureId": "3956:812",
+      "figmaNode": "I3956:812;3165:593;3956:825",
+      "nodeId": "I3956:812;3165:593;3956:825",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-773",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 363,
+      "naturalHeight": 175,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma node screenshot, scale4, contentsOnly; no footer, image bar or caption.",
+      "minimumNativeLabelFontSize": 8,
+      "recommendedLayout": {
+        "kind": "figure-dominant",
+        "maxWidth": 1024,
+        "projectedLabelAtWidth1024": 22.57,
+        "note": "Conservare il visuale completo; verificare l’altezza disponibile. La ruota doppia può richiedere maggiore altezza oppure legenda HTML e ruote singole native."
+      },
+      "web": "/images/processo-ux/l07-schemi-modelli-rgb-cmy-ryb-b7afe7d82e0b.webp",
+      "dimensions": [
+        1452,
+        700
+      ],
+      "originalBytes": 58367,
+      "originalSha256": "05c72db57e8c016ac6bf50d7bc35d42e02b48a9e5cc630fcb44a50d9cf231545",
+      "webBytes": 22614,
+      "publicationSha256": "b7afe7d82e0b3f0e566fb7d260668770339a6febbbdbf4ee991444a7a86365af",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "05c72db57e8c016ac6bf50d7bc35d42e02b48a9e5cc630fcb44a50d9cf231545",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.197 — Schemi illustrativi di RGB, CMY e primari RYB; le sovrapposizioni non simulano una prova di stampa.",
+      "caption": "Schemi illustrativi di RGB, CMY e primari RYB; le sovrapposizioni non simulano una prova di stampa.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-773"
+      ]
+    },
+    {
+      "id": "l07-schemi-ruote-hsv-ryb",
+      "key": "ruote-hsv-ryb",
+      "role": "prerequisite",
+      "title": "Leggere la ruota cromatica",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-ruote-hsv-ryb.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3956:871",
+      "page": 369,
+      "figureId": "3956:906",
+      "figmaNode": "I3956:906;3165:593;3989:1147",
+      "nodeId": "I3956:906;3165:593;3989:1147",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-871",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 363,
+      "naturalHeight": 214.5,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma node screenshot, scale4, contentsOnly; no footer, image bar or caption.",
+      "minimumNativeLabelFontSize": 8,
+      "recommendedLayout": {
+        "kind": "figure-dominant",
+        "maxWidth": 1024,
+        "projectedLabelAtWidth1024": 22.57,
+        "note": "Conservare il visuale completo; verificare l’altezza disponibile. La ruota doppia può richiedere maggiore altezza oppure legenda HTML e ruote singole native."
+      },
+      "web": "/images/processo-ux/l07-schemi-ruote-hsv-ryb-63810352691a.webp",
+      "dimensions": [
+        1452,
+        858
+      ],
+      "originalBytes": 60154,
+      "originalSha256": "1498cc3b9addf38cace90aadd21221974206141060f6f484aaee1b45b4a76791",
+      "webBytes": 22342,
+      "publicationSha256": "63810352691a5bb9a9a355866faf0996ea2e1307fba0a9aa753e9a652873afe9",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "1498cc3b9addf38cace90aadd21221974206141060f6f484aaee1b45b4a76791",
+      "retainedSources": [
+        "assets/booklet/colore-schemi-slide/native/ruota-hsv.svg",
+        "assets/booklet/colore-schemi-slide/native/ruota-ryb.svg"
+      ],
+      "bookletCaption": "Figura 3.198 — Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento.",
+      "caption": "Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-871"
+      ]
+    },
+    {
+      "id": "l07-schemi-monocromatico",
+      "key": "monocromatico",
+      "role": "scheme-diagram",
+      "title": "Monocromatico",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-monocromatico.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3956:961",
+      "page": 370,
+      "figureId": "3956:1006",
+      "figmaNode": "I3956:1006;3165:593;3997:23891",
+      "nodeId": "I3956:1006;3165:593;3997:23891",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-961",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 220,
+      "naturalHeight": 220,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma wheel node screenshot, scale4, contentsOnly; excludes microtext, color strip and caption.",
+      "retainedSources": [
+        "assets/booklet/colore-schemi-slide/native/schema-monocromatico.svg"
+      ],
+      "recommendedLayout": {
+        "kind": "figure-explainer",
+        "wheelHeight": 320,
+        "legend": "HTML text, outside the image; explain the selected large circles and the relationship between hues."
+      },
+      "exampleKeys": [
+        "smartwater",
+        "netlife"
+      ],
+      "web": "/images/processo-ux/l07-schemi-monocromatico-e85c70e07ce9.webp",
+      "dimensions": [
+        880,
+        880
+      ],
+      "originalBytes": 17242,
+      "originalSha256": "0c1794f8431c69d1c10e3b78afdfc62b55148d944856c00f74c3e1c8045c2acd",
+      "webBytes": 6788,
+      "publicationSha256": "e85c70e07ce9f80f279e4a2a35810d88462456d5c9acc1c55ed8f8af110e206b",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "0c1794f8431c69d1c10e3b78afdfc62b55148d944856c00f74c3e1c8045c2acd",
+      "bookletCaption": "Figura 3.199 — Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.",
+      "caption": "Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-961"
+      ]
+    },
+    {
+      "id": "l07-schemi-analogo",
+      "key": "analogo",
+      "role": "scheme-diagram",
+      "title": "Analogo",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-analogo.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:24046",
+      "page": 372,
+      "figureId": "3997:24054",
+      "figmaNode": "I3997:24054;3165:593;3997:24176",
+      "nodeId": "I3997:24054;3165:593;3997:24176",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24046",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 220,
+      "naturalHeight": 220,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma wheel node screenshot, scale4, contentsOnly; excludes microtext, color strip and caption.",
+      "retainedSources": [
+        "assets/booklet/colore-schemi-slide/native/schema-analogo.svg"
+      ],
+      "recommendedLayout": {
+        "kind": "figure-explainer",
+        "wheelHeight": 320,
+        "legend": "HTML text, outside the image; explain the selected large circles and the relationship between hues."
+      },
+      "exampleKeys": [
+        "boost",
+        "omnium"
+      ],
+      "web": "/images/processo-ux/l07-schemi-analogo-fb3090abe64f.webp",
+      "dimensions": [
+        880,
+        880
+      ],
+      "originalBytes": 15223,
+      "originalSha256": "ab7c2ba7176f0ad17339342d14d8b32717287bc16b5f7df6b8dc946fad54d5f2",
+      "webBytes": 6106,
+      "publicationSha256": "fb3090abe64febf3fd51ad873fa2748987c25b22a973b108ad22c8684e5ce36b",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "ab7c2ba7176f0ad17339342d14d8b32717287bc16b5f7df6b8dc946fad54d5f2",
+      "bookletCaption": "Figura 3.201 — Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "caption": "Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24046"
+      ]
+    },
+    {
+      "id": "l07-schemi-complementare",
+      "key": "complementare",
+      "role": "scheme-diagram",
+      "title": "Complementare",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-complementare.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3956:1071",
+      "page": 374,
+      "figureId": "3956:1126",
+      "figmaNode": "I3956:1126;3165:593;3997:24360",
+      "nodeId": "I3956:1126;3165:593;3997:24360",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-1071",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 220,
+      "naturalHeight": 220,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma wheel node screenshot, scale4, contentsOnly; excludes microtext, color strip and caption.",
+      "retainedSources": [
+        "assets/booklet/colore-schemi-slide/native/schema-complementare.svg"
+      ],
+      "recommendedLayout": {
+        "kind": "figure-explainer",
+        "wheelHeight": 320,
+        "legend": "HTML text, outside the image; explain the selected large circles and the relationship between hues."
+      },
+      "exampleKeys": [
+        "wknd",
+        "ancient"
+      ],
+      "web": "/images/processo-ux/l07-schemi-complementare-5f977c671ba5.webp",
+      "dimensions": [
+        880,
+        880
+      ],
+      "originalBytes": 18685,
+      "originalSha256": "afdb999baa74dc69a9134ec71d04d108bff3ed85d234a9bfb0b14fe0a696a7b4",
+      "webBytes": 6426,
+      "publicationSha256": "5f977c671ba521e04614e4e332cd2d12edaf289fdc12f1fef4f5300788bc027b",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "afdb999baa74dc69a9134ec71d04d108bff3ed85d234a9bfb0b14fe0a696a7b4",
+      "bookletCaption": "Figura 3.203 — Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "caption": "Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3956-1071"
+      ]
+    },
+    {
+      "id": "l07-schemi-complementare-divergente",
+      "key": "complementare-divergente",
+      "role": "scheme-diagram",
+      "title": "Complementare divergente",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-complementare-divergente.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:24415",
+      "page": 376,
+      "figureId": "3997:24423",
+      "figmaNode": "I3997:24423;3165:593;3997:24545",
+      "nodeId": "I3997:24423;3165:593;3997:24545",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24415",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 220,
+      "naturalHeight": 220,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma wheel node screenshot, scale4, contentsOnly; excludes microtext, color strip and caption.",
+      "retainedSources": [
+        "assets/booklet/colore-schemi-slide/native/schema-complementare-divergente.svg"
+      ],
+      "recommendedLayout": {
+        "kind": "figure-explainer",
+        "wheelHeight": 320,
+        "legend": "HTML text, outside the image; explain the selected large circles and the relationship between hues."
+      },
+      "exampleKeys": [
+        "neverland",
+        "skinhealth"
+      ],
+      "web": "/images/processo-ux/l07-schemi-complementare-divergente-8795ebc3ec76.webp",
+      "dimensions": [
+        880,
+        880
+      ],
+      "originalBytes": 23551,
+      "originalSha256": "a294c6f31cd16b333b554ac4235b1c3d4fe6c6fb1b80a2d821deb18e7d9ed38b",
+      "webBytes": 8422,
+      "publicationSha256": "8795ebc3ec7666e0fd0f413aadeae8dacbcba108a99a85d1facda86ee503d8be",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "a294c6f31cd16b333b554ac4235b1c3d4fe6c6fb1b80a2d821deb18e7d9ed38b",
+      "bookletCaption": "Figura 3.205 — Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "caption": "Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24415"
+      ]
+    },
+    {
+      "id": "l07-schemi-triadico",
+      "key": "triadico",
+      "role": "scheme-diagram",
+      "title": "Triadico",
+      "original": "assets/booklet/colore-schemi-slide/originals/l07-schemi-triadico.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:24698",
+      "page": 378,
+      "figureId": "3997:24706",
+      "figmaNode": "I3997:24706;3165:593;3997:24828",
+      "nodeId": "I3997:24706;3165:593;3997:24828",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24698",
+      "rights": "Figura didattica nativa del booklet CVeDI corrente. Crediti del corso conservati; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 220,
+      "naturalHeight": 220,
+      "acquiredOn": "2026-10-16",
+      "acquisition": "Read-only Figma wheel node screenshot, scale4, contentsOnly; excludes microtext, color strip and caption.",
+      "retainedSources": [
+        "assets/booklet/colore-schemi-slide/native/schema-triadico.svg"
+      ],
+      "recommendedLayout": {
+        "kind": "figure-explainer",
+        "wheelHeight": 320,
+        "legend": "HTML text, outside the image; explain the selected large circles and the relationship between hues."
+      },
+      "exampleKeys": [
+        "secretkey",
+        "smi"
+      ],
+      "web": "/images/processo-ux/l07-schemi-triadico-6a77dd6a88d5.webp",
+      "dimensions": [
+        880,
+        880
+      ],
+      "originalBytes": 24380,
+      "originalSha256": "ea287b0aae127b794fcacefd95813d2f2dd8c2d7d2afd771bb6510eb9dd51177",
+      "webBytes": 8086,
+      "publicationSha256": "6a77dd6a88d5ce25fb6ee81e9e3d3bf4bfb68e4e4c18eac6c1c4db7344b76b8d",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "ea287b0aae127b794fcacefd95813d2f2dd8c2d7d2afd771bb6510eb9dd51177",
+      "bookletCaption": "Figura 3.207 — Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "caption": "Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24698"
+      ]
+    },
+    {
+      "id": "l07-schemi-smartwater",
+      "key": "smartwater",
+      "role": "historical-example",
+      "title": "Screenshot storico · Smartwater",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p113-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p113-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:23912",
+      "page": 371,
+      "scheme": "monocromatico",
+      "figureId": "3997:23920",
+      "figmaNode": "I3997:23920;3165:593;3997:24034",
+      "nodeId": "I3997:23920;3165:593;3997:24034",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 113,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 1141,
+      "naturalHeight": 806,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "2118b421bbe02a3e893bcf2ee70dcfb7634853ee7684f75b910875e7d57a9025",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-smartwater-26fe1e6b5fbb.webp",
+      "dimensions": [
+        1141,
+        806
+      ],
+      "originalBytes": 276483,
+      "originalSha256": "2118b421bbe02a3e893bcf2ee70dcfb7634853ee7684f75b910875e7d57a9025",
+      "webBytes": 403908,
+      "publicationSha256": "26fe1e6b5fbba6a0ccb360a3ea2bdfb2bd9f9dcb4c4399596fceb0cddd265c10",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "2118b421bbe02a3e893bcf2ee70dcfb7634853ee7684f75b910875e7d57a9025",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.200 — A · SMARTWATER; B · NETLIFE RESEARCH. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "Smartwater · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 113.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-23912"
+      ]
+    },
+    {
+      "id": "l07-schemi-netlife",
+      "key": "netlife",
+      "role": "historical-example",
+      "title": "Screenshot storico · Netlife Research",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p114-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p114-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:23912",
+      "page": 371,
+      "scheme": "monocromatico",
+      "figureId": "3997:23920",
+      "figmaNode": "I3997:23920;3165:593;3997:24041",
+      "nodeId": "I3997:23920;3165:593;3997:24041",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 114,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 1085,
+      "naturalHeight": 767,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "40706241c70ce48418a74002094be660d01aa8c5c91a1840e2333e42631c7958",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-netlife-fb82dd557cc9.webp",
+      "dimensions": [
+        1085,
+        767
+      ],
+      "originalBytes": 520895,
+      "originalSha256": "40706241c70ce48418a74002094be660d01aa8c5c91a1840e2333e42631c7958",
+      "webBytes": 555226,
+      "publicationSha256": "fb82dd557cc9b6c03c393c31d5e78e60762a216de250ba110d39afea0b45058e",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "40706241c70ce48418a74002094be660d01aa8c5c91a1840e2333e42631c7958",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.200 — A · SMARTWATER; B · NETLIFE RESEARCH. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "Netlife Research · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 114.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-23912"
+      ]
+    },
+    {
+      "id": "l07-schemi-boost",
+      "key": "boost",
+      "role": "historical-example",
+      "title": "Screenshot storico · Boost",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p116-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p116-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:24195",
+      "page": 373,
+      "scheme": "analogo",
+      "figureId": "3997:24203",
+      "figmaNode": "I3997:24203;3165:593;3997:24317",
+      "nodeId": "I3997:24203;3165:593;3997:24317",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 116,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 2440,
+      "naturalHeight": 1724,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "3f1d0b5836e10440eb99212bf091e5afb2f879b06fb77df871ea3e2f322c93f6",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-boost-3b115dd06da4.webp",
+      "dimensions": [
+        2440,
+        1724
+      ],
+      "originalBytes": 963015,
+      "originalSha256": "3f1d0b5836e10440eb99212bf091e5afb2f879b06fb77df871ea3e2f322c93f6",
+      "webBytes": 700974,
+      "publicationSha256": "3b115dd06da4d6c120eec122219ee8ed658742c463401f07b83f7aa81ce252d6",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "3f1d0b5836e10440eb99212bf091e5afb2f879b06fb77df871ea3e2f322c93f6",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.202 — A · BOOST; B · OMNIUM. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "Boost · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 116.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24195"
+      ]
+    },
+    {
+      "id": "l07-schemi-omnium",
+      "key": "omnium",
+      "role": "historical-example",
+      "title": "Screenshot storico · Omnium",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p117-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p117-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:24195",
+      "page": 373,
+      "scheme": "analogo",
+      "figureId": "3997:24203",
+      "figmaNode": "I3997:24203;3165:593;3997:24324",
+      "nodeId": "I3997:24203;3165:593;3997:24324",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 117,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 1228,
+      "naturalHeight": 867,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "d60aa6d2cf97d8d0d8fb5a31e89a65a55bb1fc97864bbcba7cfe4b9d9a477922",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-omnium-2856bb2c651d.webp",
+      "dimensions": [
+        1228,
+        867
+      ],
+      "originalBytes": 453234,
+      "originalSha256": "d60aa6d2cf97d8d0d8fb5a31e89a65a55bb1fc97864bbcba7cfe4b9d9a477922",
+      "webBytes": 672986,
+      "publicationSha256": "2856bb2c651d5c86b6a3c21b33af771a42ab3fc02e9efe43c9cdf1b382e6877e",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "d60aa6d2cf97d8d0d8fb5a31e89a65a55bb1fc97864bbcba7cfe4b9d9a477922",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.202 — A · BOOST; B · OMNIUM. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "Omnium · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 117.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24195"
+      ]
+    },
+    {
+      "id": "l07-schemi-wknd",
+      "key": "wknd",
+      "role": "historical-example",
+      "title": "Screenshot storico · Série Découvertes",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p119-01.png",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p119-01.png",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3989:1548",
+      "page": 375,
+      "scheme": "complementare",
+      "figureId": "3989:1556",
+      "figmaNode": "I3989:1556;3165:593;3997:24405",
+      "nodeId": "I3989:1556;3165:593;3997:24405",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 119,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 1304,
+      "naturalHeight": 917,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "7441e68fff9e5a1cb13eb26796dc2ae1d1baa230306f7efab58c0abd86c4b613",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-wknd-17624daa790a.webp",
+      "dimensions": [
+        1304,
+        917
+      ],
+      "originalBytes": 107213,
+      "originalSha256": "7441e68fff9e5a1cb13eb26796dc2ae1d1baa230306f7efab58c0abd86c4b613",
+      "webBytes": 35896,
+      "publicationSha256": "17624daa790a6fb18788d10f0381ea73639aecfa3ade3e9f39a47ea7e6d6ef91",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "7441e68fff9e5a1cb13eb26796dc2ae1d1baa230306f7efab58c0abd86c4b613",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.204 — A · SÉRIE DÉCOUVERTES; B · THE ANCIENT WORLD. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "Série Découvertes · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 119.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3989-1548"
+      ]
+    },
+    {
+      "id": "l07-schemi-ancient",
+      "key": "ancient",
+      "role": "historical-example",
+      "title": "Screenshot storico · The Ancient World",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p120-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p120-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3989:1548",
+      "page": 375,
+      "scheme": "complementare",
+      "figureId": "3989:1556",
+      "figmaNode": "I3989:1556;3165:593;3997:24411",
+      "nodeId": "I3989:1556;3165:593;3997:24411",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 120,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 852,
+      "naturalHeight": 1200,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "a32aa3c8604d223d6fbb9cb9834da03efad274ab6152db7a9301e6b15714567a",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-ancient-38e1d8e70e06.webp",
+      "dimensions": [
+        852,
+        1200
+      ],
+      "originalBytes": 580507,
+      "originalSha256": "a32aa3c8604d223d6fbb9cb9834da03efad274ab6152db7a9301e6b15714567a",
+      "webBytes": 844822,
+      "publicationSha256": "38e1d8e70e06db2f7c1c09c61fd5dba50830b06a50092ad00b797ae317b5efa6",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "a32aa3c8604d223d6fbb9cb9834da03efad274ab6152db7a9301e6b15714567a",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.204 — A · SÉRIE DÉCOUVERTES; B · THE ANCIENT WORLD. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "The Ancient World · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 120.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3989-1548"
+      ]
+    },
+    {
+      "id": "l07-schemi-neverland",
+      "key": "neverland",
+      "role": "historical-example",
+      "title": "Screenshot storico · Neverland",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p122-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p122-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:24564",
+      "page": 377,
+      "scheme": "complementare-divergente",
+      "figureId": "3997:24572",
+      "figmaNode": "I3997:24572;3165:593;3997:24686",
+      "nodeId": "I3997:24572;3165:593;3997:24686",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 122,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 1596,
+      "naturalHeight": 1130,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "10fef48a9e1aff288505edeefa103b634ecc9c776a7e36226f9dcbbd20a31e29",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-neverland-82bc44b96385.webp",
+      "dimensions": [
+        1596,
+        1130
+      ],
+      "originalBytes": 368129,
+      "originalSha256": "10fef48a9e1aff288505edeefa103b634ecc9c776a7e36226f9dcbbd20a31e29",
+      "webBytes": 523292,
+      "publicationSha256": "82bc44b96385b3d1c34a276b3ea723f7f140abf6e61e92083588af0fcfbd612c",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "10fef48a9e1aff288505edeefa103b634ecc9c776a7e36226f9dcbbd20a31e29",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.206 — A · NEVERLAND; B · SKIN HEALTH ALLIANCE. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "Neverland · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 122.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24564"
+      ]
+    },
+    {
+      "id": "l07-schemi-skinhealth",
+      "key": "skinhealth",
+      "role": "historical-example",
+      "title": "Screenshot storico · Skin Health Alliance",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p123-02.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p123-02.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3997:24564",
+      "page": 377,
+      "scheme": "complementare-divergente",
+      "figureId": "3997:24572",
+      "figmaNode": "I3997:24572;3165:593;3997:24693",
+      "nodeId": "I3997:24572;3165:593;3997:24693",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 123,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 1512,
+      "naturalHeight": 1134,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "9ce1d84d253c8d2fd9977114113d8a74c8b52d69b1338eabdf7b354040f4641b",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-skinhealth-094323de447a.webp",
+      "dimensions": [
+        1512,
+        1134
+      ],
+      "originalBytes": 634968,
+      "originalSha256": "9ce1d84d253c8d2fd9977114113d8a74c8b52d69b1338eabdf7b354040f4641b",
+      "webBytes": 850356,
+      "publicationSha256": "094323de447a6878a60aae0e9d3a5297fc3f8e5f3fc025e0261cfcecc0a518ea",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "9ce1d84d253c8d2fd9977114113d8a74c8b52d69b1338eabdf7b354040f4641b",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.206 — A · NEVERLAND; B · SKIN HEALTH ALLIANCE. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "Skin Health Alliance · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 123.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3997-24564"
+      ]
+    },
+    {
+      "id": "l07-schemi-secretkey",
+      "key": "secretkey",
+      "role": "historical-example",
+      "title": "Screenshot storico · SecretKey",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p125-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p125-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3989:1731",
+      "page": 379,
+      "scheme": "triadico",
+      "figureId": "3989:1739",
+      "figmaNode": "I3989:1739;3165:593;3997:24871",
+      "nodeId": "I3989:1739;3165:593;3997:24871",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 125,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 2206,
+      "naturalHeight": 1559,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "3ae81e338e380e8272b6158041dceb6397f748a031cd5e8e078dbafe7e18327e",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-secretkey-48d0b60c1ef1.webp",
+      "dimensions": [
+        2206,
+        1559
+      ],
+      "originalBytes": 540184,
+      "originalSha256": "3ae81e338e380e8272b6158041dceb6397f748a031cd5e8e078dbafe7e18327e",
+      "webBytes": 615040,
+      "publicationSha256": "48d0b60c1ef119ad0741410388264d3d2bddec6d52e44fe306870a68649a0d4b",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "3ae81e338e380e8272b6158041dceb6397f748a031cd5e8e078dbafe7e18327e",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.208 — A · SECRETKEY; B · SMI · CONFRONTO. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "SecretKey · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 125.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3989-1731"
+      ]
+    },
+    {
+      "id": "l07-schemi-smi",
+      "key": "smi",
+      "role": "historical-example",
+      "title": "Screenshot storico · SMI",
+      "original": "assets/booklet/colore-schemi-slide/originals/booklet-2024-p126-01.jpg",
+      "reusedOriginal": "assets/booklet/colore-estensione/originals/booklet-2024-p126-01.jpg",
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "3989:1731",
+      "page": 379,
+      "scheme": "triadico",
+      "figureId": "3989:1739",
+      "figmaNode": "I3989:1739;3165:593;3997:24878",
+      "nodeId": "I3989:1739;3165:593;3997:24878",
+      "figmaPageId": "2613:1114",
+      "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+      "source": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePdfPage": 126,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita.",
+      "sourceManifest": "assets/booklet/colore-estensione/manifest.json",
+      "naturalWidth": 2442,
+      "naturalHeight": 1725,
+      "historical": true,
+      "screenshotDate": null,
+      "publicationEdition": "Dicembre2024",
+      "acquisition": "Byte-for-byte copy of the registered original; full image retained without crop.",
+      "sourceSha256Verified": "7eed59df9c2a645687a7fcdecccd34336a00bdfbdfa0376ddba495f93d36b44f",
+      "recommendedLayout": {
+        "kind": "figure-pair",
+        "fit": "contain",
+        "zoom": "shared LessonFigure enlargement"
+      },
+      "web": "/images/processo-ux/l07-schemi-smi-5f11095c926c.webp",
+      "dimensions": [
+        2442,
+        1725
+      ],
+      "originalBytes": 844476,
+      "originalSha256": "7eed59df9c2a645687a7fcdecccd34336a00bdfbdfa0376ddba495f93d36b44f",
+      "webBytes": 983582,
+      "publicationSha256": "5f11095c926c0d9ed5fbdbfaa5ad1c2e3c21a4230746dff27b60a2cd36258ee1",
+      "encoding": {
+        "format": "WebP",
+        "lossless": true,
+        "exactAlpha": true
+      },
+      "validation": {
+        "pixelExact": true,
+        "sourcePreserved": true
+      },
+      "sha256": "7eed59df9c2a645687a7fcdecccd34336a00bdfbdfa0376ddba495f93d36b44f",
+      "retainedSources": [],
+      "bookletCaption": "Figura 3.208 — A · SECRETKEY; B · SMI · CONFRONTO. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "caption": "SMI · screenshot storico conservato dal booklet, edizione dicembre 2024, p. 126.",
+      "sourceLinks": [
+        "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=3989-1731"
+      ]
     }
   ],
   "publicationRevision": {
