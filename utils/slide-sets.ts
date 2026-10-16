@@ -16,10 +16,11 @@ export const slideSets: Record<string, SlideSet> = {
   'storia-design': { id: 'storia-design', label: 'Lezione 03', palette: 'history', lessonNumber: 3, artworkPalette: 'history' },
   'ricerca-inclusiva': { id: 'ricerca-inclusiva', label: 'Lezione 04', palette: 'ux-research', lessonNumber: 4, artworkPalette: 'ricerca-inclusiva' },
   'percezione-gerarchia': { id: 'percezione-gerarchia', label: 'Lezione 05', palette: 'ux-perception', lessonNumber: 5, artworkPalette: 'percezione-gerarchia' },
-  colore: { id: 'colore', label: 'Lezione 06', palette: 'ux-color', lessonNumber: 6, artworkPalette: 'colore' },
-  'tipografia-griglie': { id: 'tipografia-griglie', label: 'Lezione 07', palette: 'ux-type', lessonNumber: 7, artworkPalette: 'tipografia-griglie' },
-  'prototipi-interfacce': { id: 'prototipi-interfacce', label: 'Lezione 08', palette: 'ux-prototype', lessonNumber: 8, artworkPalette: 'prototipi-interfacce' },
-  'test-implementazione': { id: 'test-implementazione', label: 'Lezione 09', palette: 'ux-test', lessonNumber: 9, artworkPalette: 'test-implementazione' },
+  gestalt: { id: 'gestalt', label: 'Lezione 06', palette: 'ux-gestalt', lessonNumber: 6, artworkPalette: 'gestalt' },
+  colore: { id: 'colore', label: 'Lezione 07', palette: 'ux-color', lessonNumber: 7, artworkPalette: 'colore' },
+  'tipografia-griglie': { id: 'tipografia-griglie', label: 'Lezione 08', palette: 'ux-type', lessonNumber: 8, artworkPalette: 'tipografia-griglie' },
+  'prototipi-interfacce': { id: 'prototipi-interfacce', label: 'Lezione 09', palette: 'ux-prototype', lessonNumber: 9, artworkPalette: 'prototipi-interfacce' },
+  'test-implementazione': { id: 'test-implementazione', label: 'Lezione 10', palette: 'ux-test', lessonNumber: 10, artworkPalette: 'test-implementazione' },
 }
 
 export function slideSet(lesson: unknown): SlideSet {

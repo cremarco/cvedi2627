@@ -1,4 +1,4 @@
-# Lezione 08 · Prototipi e videogiochi
+# Lezione 09 · Prototipi e videogiochi
 
 Fonte: Booklet CVeDI · C03 Processo UX, pagine Figma [C03.10 · Wireframe e mockup](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1117) e [C03.11 · Interfacce dei videogiochi](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1118). Tavole 201–234; contenuti visibili estratti il 7 ottobre 2026.
 

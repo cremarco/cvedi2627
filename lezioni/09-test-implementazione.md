@@ -6,7 +6,7 @@ lesson: test-implementazione
 lessonSlide: 1
 lessonMinutes: 0.5
 routeAlias: test-implementazione
-lessonNumber: 9
+lessonNumber: 10
 bookletPages: [235]
 ---
 

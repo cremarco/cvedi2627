@@ -73,6 +73,18 @@
 }
 .lesson-activity .lesson-kicker { margin-bottom: 16px; }
 .lesson-activity .cvedi-list { gap: 20px; }
+.slidev-layout .lesson-principles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--cvedi-space-peers) var(--cvedi-space-columns);
+  width: 100%;
+  margin: var(--cvedi-space-related) 0;
+  padding-left: 28px;
+  color: var(--cvedi-body);
+  font: 400 var(--cvedi-type-body)/1.48 var(--cvedi-font-body);
+}
+.lesson-principles li { padding-left: 4px; }
+.lesson-principles li::marker { color: var(--section-primary); font-weight: 600; }
 .lesson-six .cvedi-card .card-body { padding: 20px 24px; }
 .lesson-six .card-title { margin-bottom: 8px; }
 .reading-slide .lesson-six.cvedi-grid.three .cvedi-card { min-height: 0; }

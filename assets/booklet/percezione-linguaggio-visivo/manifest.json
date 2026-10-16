@@ -1759,5 +1759,11 @@
   "studentWorkProvenance": "Original student materials remain in materiali/approfondimenti; their references are omitted from the Figma booklet in accordance with PRODUCT.md",
   "verification": "reports/percezione-linguaggio-visivo/verifica.json",
   "latestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json",
-  "nativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json"
+  "nativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json",
+  "currentFigureNumberingRevision": {
+    "date": "2026-10-16",
+    "index": "assets/booklet/capitolo-3/figure-index.json",
+    "verification": "reports/c03-numerazione-figure/2026-10-16/manifest.json",
+    "scope": "Questo manifest conserva lo snapshot precedente di Percezione e linguaggio visivo; la numerazione corrente segue le due Pages separate Gestalt e Linguaggio visivo."
+  }
 }

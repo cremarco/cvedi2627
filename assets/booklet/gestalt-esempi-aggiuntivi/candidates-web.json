@@ -1,0 +1,802 @@
+{
+  "date": "2026-10-15",
+  "status": "ready",
+  "scope": "Nine additional real web examples, one per Gestalt law. Native browser captures only; no Figma changes or renumbering.",
+  "screenshotViewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "deviceScaleFactor": 3,
+  "selectedCount": 9,
+  "lawOrder": [
+    "vicinanza",
+    "somiglianza",
+    "destino-comune",
+    "continuita",
+    "chiusura",
+    "simmetria",
+    "regione-comune",
+    "figura-sfondo",
+    "esperienza-passata"
+  ],
+  "items": [
+    {
+      "key": "vicinanza",
+      "law": "Vicinanza",
+      "site": "GitHub Issues",
+      "sourceUrl": "https://github.com/microsoft/vscode/issues",
+      "researchSourceUrl": "https://github.com/microsoft/vscode/issues",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T14:57:57.841Z",
+      "caption": "GitHub Issues: titolo, etichette e metadati restano vicini all’interno di ciascuna riga.",
+      "sourceCaption": "Fonte: GitHub Issues, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "Interfaccia GitHub; contenuti pubblici del progetto Microsoft Visual Studio Code e dei rispettivi autori.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/github-issues-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/github-issues-full.png",
+        "relativePath": "originals/web/github-issues-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "8cc41a681918f4fbd9d2c6e8be206ffa0b9ce0486212250319cc8eaa45598752"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/github-issues-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/github-issues-detail.png",
+        "relativePath": "originals/web/github-issues-detail.png",
+        "width": 2925,
+        "height": 654,
+        "sha256": "fe42dbd0c5580019f1282015af4bf118bb38d8fdf7fb7fc82d83c2061fe95eee"
+      },
+      "detailCaption": "Dettaglio di tre segnalazioni: le informazioni ravvicinate appartengono alla stessa voce.",
+      "detailOptional": true,
+      "detailRecommended": false,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 280,
+        "y": 314,
+        "width": 975,
+        "height": 218,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "Scrolled120px to show issue rows."
+      ],
+      "domOrCssModified": false,
+      "caveat": "Anche contorni delle righe e stile ripetuto contribuiscono al raggruppamento.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block."
+    },
+    {
+      "key": "somiglianza",
+      "law": "Somiglianza",
+      "site": "Trello Templates",
+      "sourceUrl": "https://trello.com/templates",
+      "researchSourceUrl": "https://trello.com/templates",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T14:57:59.433Z",
+      "caption": "Trello: anteprime, icone e struttura ripetuta fanno riconoscere le schede come elementi dello stesso catalogo.",
+      "sourceCaption": "Fonte: Trello Templates, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "Trello / Atlassian; template di Trello Team e Trello Engineering Team.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/trello-templates-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/trello-templates-full.png",
+        "relativePath": "originals/web/trello-templates-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "0230892aa257610f7ab0213925d7fa4e834bdd61a8ac90a8262ddfa3953cccbb"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/trello-templates-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/trello-templates-detail.png",
+        "relativePath": "originals/web/trello-templates-detail.png",
+        "width": 2580,
+        "height": 1065,
+        "sha256": "665d2263c4680b973115fa320191757cc33175e1824b18c8c4de291caf72e615"
+      },
+      "detailCaption": "Tre template con formato dell’anteprima, icona, titolo e metadati coerenti.",
+      "detailOptional": true,
+      "detailRecommended": false,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 355,
+        "y": 105,
+        "width": 860,
+        "height": 355,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "Cookie consent: Only necessary; scrolled to New and notable templates."
+      ],
+      "domOrCssModified": false,
+      "caveat": "Le immagini cambiano; dimensione, forma e struttura delle anteprime restano coerenti.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block."
+    },
+    {
+      "key": "destino-comune",
+      "law": "Destino comune",
+      "site": "Swiper demo",
+      "sourceUrl": "https://swiperjs.com/demos/110-slides-per-view/core",
+      "researchSourceUrl": "https://swiperjs.com/demos/110-slides-per-view/core",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T14:57:57.102Z",
+      "caption": "Swiper: tre stati di un unico trascinamento. Le slide visibili si spostano insieme lungo la stessa traccia.",
+      "sourceCaption": "Fonte: Swiper demo, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "Swiper, Vladimir Kharlampidi / nolimits4web. Codice del componente con licenza MIT.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-initial.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-initial.png",
+        "relativePath": "originals/web/swiper-slides-initial.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "833d3c8fc7d9ca5ebfb46febc30b6f2faeac8222d7ad768a58ab56daa3d54511"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-detail.png",
+        "relativePath": "originals/web/swiper-slides-detail.png",
+        "width": 3840,
+        "height": 660,
+        "sha256": "5b573ec0f19e941cd92934c2f966c592c64553571119f771a44f388b81ae4758"
+      },
+      "detailCaption": "La stessa fascia centrale a tutta larghezza nei tre stati: gli elementi entrano ed escono dai bordi della viewport durante il trascinamento.",
+      "detailOptional": true,
+      "detailRecommended": false,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 0,
+        "y": 250,
+        "width": 1280,
+        "height": 220,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "One continuous pointer drag; screenshots at three successive pointer positions while the pointer remained held. No script called slider methods or changed style."
+      ],
+      "domOrCssModified": false,
+      "caveat": "La sequenza documenta un’interazione effettivamente eseguita: il movimento comune è verificato dai rettangoli delle slide e dalla matrice della stessa track, non dedotto da un solo screenshot.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block.",
+      "sequence": [
+        {
+          "step": 1,
+          "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-1.png",
+          "fullAsset": {
+            "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-1.png",
+            "relativePath": "originals/web/swiper-slides-state-1.png",
+            "width": 3840,
+            "height": 2160,
+            "sha256": "a4420ae1da8181c2d342d00c7a92a1ff7f95eb05e7daa1bb674188584afd9341"
+          },
+          "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-1-detail.png",
+          "detailAsset": {
+            "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-1-detail.png",
+            "relativePath": "originals/web/swiper-slides-state-1-detail.png",
+            "width": 3840,
+            "height": 660,
+            "sha256": "034e4774cb20f5bd60209da046e9858a4d3807acb5310cf8c76b8b19ae7f0e09"
+          },
+          "caption": "Swiper: passo 1 dello stesso trascinamento.",
+          "pagePerformanceNowMs": 1314.2000000178814,
+          "pointer": {
+            "x": 898.4000000000001,
+            "y": 360,
+            "button": "held"
+          },
+          "trackTransform": "matrix(1, 0, 0, 1, -91.6666, 0)",
+          "slides": [
+            {
+              "text": "Slide 1",
+              "x": -91.6666259765625,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 2",
+              "x": 344.9896240234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 3",
+              "x": 781.6458740234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 4",
+              "x": 1218.3021240234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 5",
+              "x": 1654.9583740234375,
+              "y": 0,
+              "width": 406.6563720703125
+            }
+          ]
+        },
+        {
+          "step": 2,
+          "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-2.png",
+          "fullAsset": {
+            "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-2.png",
+            "relativePath": "originals/web/swiper-slides-state-2.png",
+            "width": 3840,
+            "height": 2160,
+            "sha256": "86a4cbb213374b1aac7d336e8e7b84f73fcf244e406f7bbccfe5d440499476d1"
+          },
+          "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-2-detail.png",
+          "detailAsset": {
+            "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-2-detail.png",
+            "relativePath": "originals/web/swiper-slides-state-2-detail.png",
+            "width": 3840,
+            "height": 660,
+            "sha256": "306e4013e2969223afff32e8c50c6ea4b77538bf29739a6ff88b7e8d635f0675"
+          },
+          "caption": "Swiper: passo 2 dello stesso trascinamento.",
+          "pagePerformanceNowMs": 1581.2000000178814,
+          "pointer": {
+            "x": 798.4000000000001,
+            "y": 360,
+            "button": "held"
+          },
+          "trackTransform": "matrix(1, 0, 0, 1, -191.667, 0)",
+          "slides": [
+            {
+              "text": "Slide 1",
+              "x": -191.6666259765625,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 2",
+              "x": 244.9896240234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 3",
+              "x": 681.6458740234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 4",
+              "x": 1118.3021240234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 5",
+              "x": 1554.9583740234375,
+              "y": 0,
+              "width": 406.65625
+            }
+          ]
+        },
+        {
+          "step": 3,
+          "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-3.png",
+          "fullAsset": {
+            "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-3.png",
+            "relativePath": "originals/web/swiper-slides-state-3.png",
+            "width": 3840,
+            "height": 2160,
+            "sha256": "08d776e024e8e011f918b8042a24f25a9b2a300578485fdd1704d5694b2cca72"
+          },
+          "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-3-detail.png",
+          "detailAsset": {
+            "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/swiper-slides-state-3-detail.png",
+            "relativePath": "originals/web/swiper-slides-state-3-detail.png",
+            "width": 3840,
+            "height": 660,
+            "sha256": "1560e5b01c3e29aae8d64d637c1222ca50711530cd7e22828cc6abfc83acc4c7"
+          },
+          "caption": "Swiper: passo 3 dello stesso trascinamento.",
+          "pagePerformanceNowMs": 1864,
+          "pointer": {
+            "x": 698.4000000000001,
+            "y": 360,
+            "button": "held"
+          },
+          "trackTransform": "matrix(1, 0, 0, 1, -291.667, 0)",
+          "slides": [
+            {
+              "text": "Slide 1",
+              "x": -291.6666259765625,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 2",
+              "x": 144.9896240234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 3",
+              "x": 581.6458740234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 4",
+              "x": 1018.3021240234375,
+              "y": 0,
+              "width": 406.65625
+            },
+            {
+              "text": "Slide 5",
+              "x": 1454.9583740234375,
+              "y": 0,
+              "width": 406.65625
+            }
+          ]
+        }
+      ],
+      "motionVerification": {
+        "oneContinuousNativePointerDrag": true,
+        "sameTrackSelector": ".swiper-wrapper",
+        "measuredSharedDisplacements": [
+          {
+            "fromStep": 1,
+            "toStep": 2,
+            "sharedDxCssPx": [
+              -100.0,
+              -100.0,
+              -100.0,
+              -100.0,
+              -100.0
+            ],
+            "sharedDyCssPx": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "fromStep": 2,
+            "toStep": 3,
+            "sharedDxCssPx": [
+              -100.0,
+              -100.0,
+              -100.0,
+              -100.0,
+              -100.0
+            ],
+            "sharedDyCssPx": [
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ],
+        "evidence": "Each of the first five slide rectangles moves by exactly−100CSSpx horizontally between successive states; vertical positions remain0. No slider methods, DOM edits or CSS changes were used."
+      }
+    },
+    {
+      "key": "continuita",
+      "law": "Buona continuazione",
+      "site": "U.S. Web Design System",
+      "sourceUrl": "https://designsystem.digital.gov/components/step-indicator/",
+      "researchSourceUrl": "https://designsystem.digital.gov/components/step-indicator/",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T14:58:03.683Z",
+      "caption": "USWDS: i segmenti allineati collegano le cinque fasi in un unico percorso di avanzamento.",
+      "sourceCaption": "Fonte: U.S. Web Design System, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "U.S. Web Design System, U.S. General Services Administration. UI originale del sito ufficiale.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/uswds-step-indicator-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/uswds-step-indicator-full.png",
+        "relativePath": "originals/web/uswds-step-indicator-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "6a17752a892756ad9892cc65f9cbf39fc371e08fc2f93fc69d5e3d5772779271"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/uswds-step-indicator-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/uswds-step-indicator-detail.png",
+        "relativePath": "originals/web/uswds-step-indicator-detail.png",
+        "width": 2160,
+        "height": 426,
+        "sha256": "4a6154e22c63f9ad60158f60c2bb0700787fa0a916b46b8f5bfb3abfac09617f"
+      },
+      "detailCaption": "Indicatore originale con cinque segmenti e stato «3 of 5»: nessuna numerazione è stata aggiunta.",
+      "detailOptional": true,
+      "detailRecommended": false,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 280,
+        "y": 224,
+        "width": 720,
+        "height": 142,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "Scrolled to the unchanged default step indicator."
+      ],
+      "domOrCssModified": false,
+      "caveat": "Si tratta dell’allineamento dei segmenti del componente Step indicator, non di un percorso dello sguardo misurato.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block."
+    },
+    {
+      "key": "chiusura",
+      "law": "Chiusura",
+      "site": "Carbon Design System",
+      "sourceUrl": "https://www.carbondesignsystem.com/building-blocks/core/components/loading/guidelines",
+      "researchSourceUrl": "https://www.carbondesignsystem.com/building-blocks/core/components/loading/guidelines",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T15:01:04.849Z",
+      "caption": "Carbon: l’arco aperto dell’indicatore di caricamento viene completato percettivamente come un anello.",
+      "sourceCaption": "Fonte: Carbon Design System, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "IBM, Carbon Design System. Codice Carbon con licenza Apache-2.0; marchi e contenuti del sito dei rispettivi titolari.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/carbon-loading-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/carbon-loading-full.png",
+        "relativePath": "originals/web/carbon-loading-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "57da2471bf29a2aa0a3dd13f9207d482604ae024252fd88b4fcc2f13b082d4e3"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/carbon-loading-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/carbon-loading-detail.png",
+        "relativePath": "originals/web/carbon-loading-detail.png",
+        "width": 414,
+        "height": 414,
+        "sha256": "8e9831ebf6e1e88a358191be82f544938f6489f8dd032230dbc29abf92778efc"
+      },
+      "detailCaption": "Dettaglio dello stesso fotogramma: l’anello resta riconoscibile nel tratto non disegnato.",
+      "detailOptional": true,
+      "detailRecommended": true,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 299,
+        "y": 209,
+        "width": 138,
+        "height": 138,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "Scrolled to the native Component demo iframe; no DOM or CSS edits."
+      ],
+      "domOrCssModified": false,
+      "caveat": "Fermo immagine di un componente animato reale. Qui si osserva il completamento del contorno, non si deduce l’andamento temporale dal solo fermo immagine.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block.",
+      "nativeComponent": {
+        "url": "https://react.carbondesignsystem.com/iframe.html?id=components-loading--default&globals=theme%3Awhite&viewMode=story",
+        "text": "",
+        "loading": [
+          {
+            "class": "some-class cds--loading",
+            "rect": {
+              "x": 24.527286529541016,
+              "y": 24.527286529541016,
+              "width": 122.9454345703125,
+              "height": 122.9454345703125
+            },
+            "html": "<div aria-atomic=\"true\" aria-live=\"assertive\" class=\"some-class cds--loading\"><svg class=\"cds--loading__svg\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Loading account settings\"><title>Loading account settings</title><circle class=\"cds--loading__stroke\" cx=\"50%\" cy=\"50%\" r=\"44\"></circle></svg></div>"
+          },
+          {
+            "class": "cds--loading__svg",
+            "rect": {
+              "x": 24.527286529541016,
+              "y": 24.527286529541016,
+              "width": 122.9454345703125,
+              "height": 122.9454345703125
+            },
+            "html": "<svg class=\"cds--loading__svg\" viewBox=\"0 0 100 100\" role=\"img\" aria-label=\"Loading account settings\"><title>Loading account settings</title><circle class=\"cds--loading__stroke\" cx=\"50%\" cy=\"50%\" r=\"44\"></circle></svg>"
+          }
+        ]
+      },
+      "componentDocumentationUrl": "https://www.carbondesignsystem.com/building-blocks/core/components/loading/guidelines"
+    },
+    {
+      "key": "simmetria",
+      "law": "Simmetria",
+      "site": "OBS Project",
+      "sourceUrl": "https://obsproject.com/download",
+      "researchSourceUrl": "https://obsproject.com/download",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T14:58:00.779Z",
+      "caption": "OBS: le scelte Windows e Linux occupano posizioni corrispondenti ai lati di macOS. I simboli e i contenuti non sono speculari.",
+      "sourceCaption": "Fonte: OBS Project, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "OBS Project / Wizards of OBS LLC. Screenshot del sito ufficiale; marchi dei sistemi operativi dei rispettivi titolari.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/obs-download-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/obs-download-full.png",
+        "relativePath": "originals/web/obs-download-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "b69bda40c26ca0a2f543876533ed15425576f2ecc52b0f88aafdc73ed878786e"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/obs-download-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/obs-download-detail.png",
+        "relativePath": "originals/web/obs-download-detail.png",
+        "width": 2130,
+        "height": 660,
+        "sha256": "da2d7a7386001b28595657fccf2289872d4ee4edd56994977ec9904e36c2020f"
+      },
+      "detailCaption": "Tre aree di scelta uguali e allineate; l’asse centrale passa per macOS.",
+      "detailOptional": true,
+      "detailRecommended": false,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 285,
+        "y": 235,
+        "width": 710,
+        "height": 220,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [],
+      "domOrCssModified": false,
+      "caveat": "La simmetria riguarda la disposizione delle aree di scelta. I tre pittogrammi sono diversi e lo stato selezionato è evidenziato in blu.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block.",
+      "symmetryVerification": {
+        "nativeSelectionAreas": [
+          {
+            "for": "os_win",
+            "text": "Windows",
+            "html": "<label class=\"os_btn\" id=\"os_win_btn\" for=\"os_win\" aria-controls=\"dl_container\">Windows</label>",
+            "rect": {
+              "x": 307.953125,
+              "y": 242,
+              "width": 200,
+              "height": 200
+            }
+          },
+          {
+            "for": "os_mac",
+            "text": "Mac",
+            "html": "<label class=\"os_btn\" id=\"os_mac_btn\" for=\"os_mac\" aria-controls=\"dl_container\">Mac</label>",
+            "rect": {
+              "x": 540,
+              "y": 242,
+              "width": 200,
+              "height": 200
+            }
+          },
+          {
+            "for": "os_linux",
+            "text": "Linux",
+            "html": "<label class=\"os_btn\" id=\"os_linux_btn\" for=\"os_linux\" aria-controls=\"dl_container\">Linux</label>",
+            "rect": {
+              "x": 772.046875,
+              "y": 242,
+              "width": 200,
+              "height": 200
+            }
+          }
+        ],
+        "horizontalCentersCssPx": [
+          407.953125,
+          640.0,
+          872.046875
+        ],
+        "axisCssPx": 640.0,
+        "leftAndRightDistanceFromAxisCssPx": [
+          232.046875,
+          232.046875
+        ],
+        "captionLimit": "Positions and areas correspond; symbols and contents differ and are not mirror images."
+      }
+    },
+    {
+      "key": "regione-comune",
+      "law": "Regione comune",
+      "site": "Slack Pricing",
+      "sourceUrl": "https://slack.com/pricing",
+      "researchSourceUrl": "https://slack.com/pricing",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T15:00:44.412Z",
+      "caption": "Slack: nome, prezzo, azione e funzioni di ogni piano sono raccolti entro una superficie distinta.",
+      "sourceCaption": "Fonte: Slack Pricing, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "Slack Technologies / Salesforce e rispettivi titolari dei marchi visibili.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/slack-pricing-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/slack-pricing-full.png",
+        "relativePath": "originals/web/slack-pricing-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "0da2b8f33f7e7499d656340c37a7b7f25562ca97c6f5d0e12f773369ee4ed717"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/slack-pricing-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/slack-pricing-detail.png",
+        "relativePath": "originals/web/slack-pricing-detail.png",
+        "width": 3585,
+        "height": 1650,
+        "sha256": "6d7658968175ba8af4d92a14d7c6d10d1469592d84d64dbd7becdaa2c91f435a"
+      },
+      "detailCaption": "Le aree dei piani mantengono separati quattro insiemi di informazioni.",
+      "detailOptional": true,
+      "detailRecommended": false,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 45,
+        "y": 150,
+        "width": 1195,
+        "height": 550,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "Rejected cookies; scrolled190px to show plan names, prices and distinct plan surfaces."
+      ],
+      "domOrCssModified": false,
+      "caveat": "Prezzi e offerte sono quelli visualizzati nella cattura del 15 ottobre 2026; non sono una raccomandazione commerciale.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block."
+    },
+    {
+      "key": "figura-sfondo",
+      "law": "Figura e sfondo",
+      "site": "Tailwind CSS Docs",
+      "sourceUrl": "https://tailwindcss.com/docs/installation/using-vite",
+      "researchSourceUrl": "https://tailwindcss.com/docs/installation/using-vite",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T14:58:49.324Z",
+      "caption": "Tailwind CSS: il pannello di ricerca sovrapposto separa i risultati dalla documentazione attenuata sullo sfondo.",
+      "sourceCaption": "Fonte: Tailwind CSS Docs, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "Tailwind Labs; ricerca Algolia. Screenshot della documentazione ufficiale.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/tailwind-search-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/tailwind-search-full.png",
+        "relativePath": "originals/web/tailwind-search-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "4acb588fed0f0fd376b5d4172dbcedfe21063f53f1912224e262531e93f5edff"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/tailwind-search-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/tailwind-search-detail.png",
+        "relativePath": "originals/web/tailwind-search-detail.png",
+        "width": 2280,
+        "height": 1680,
+        "sha256": "00af7bfa4e7e3e8ed90c8b9bf79acafb37760f3b80e744a4678639de3cec67ec"
+      },
+      "detailCaption": "La superficie chiara dei risultati emerge sulla pagina sottostante sfocata e attenuata.",
+      "detailOptional": true,
+      "detailRecommended": false,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 260,
+        "y": 84,
+        "width": 760,
+        "height": 560,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "Opened the native documentation search dialog and searched grid."
+      ],
+      "domOrCssModified": false,
+      "caveat": "La cattura mostra la separazione visiva dei piani; non certifica il comportamento accessibile del pannello.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block."
+    },
+    {
+      "key": "esperienza-passata",
+      "law": "Esperienza passata",
+      "site": "IKEA Italia",
+      "sourceUrl": "https://www.ikea.com/it/it/",
+      "researchSourceUrl": "https://www.ikea.com/it/it/",
+      "captureDate": "2026-10-15",
+      "capturedAt": "2026-10-15T14:58:46.633Z",
+      "caption": "IKEA: lente, profilo, cuore e borsa richiamano convenzioni apprese per ricerca, account, preferiti e carrello.",
+      "sourceCaption": "Fonte: IKEA Italia, sito ufficiale. Cattura del 15 ottobre 2026.",
+      "attribution": "Inter IKEA Systems B.V. e rispettivi titolari delle immagini visibili.",
+      "rightsNote": "Riproduzione dell’interfaccia e dei contenuti originali a fini di analisi didattica; non viene dichiarata una licenza aperta per l’intera schermata.",
+      "full": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/ikea-navigation-full.png",
+      "fullAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/ikea-navigation-full.png",
+        "relativePath": "originals/web/ikea-navigation-full.png",
+        "width": 3840,
+        "height": 2160,
+        "sha256": "b6fde54efad66274f64a1afa70c2d2571a7e828d43b53e29faa439883c34b966"
+      },
+      "detail": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/ikea-navigation-detail.png",
+      "detailAsset": {
+        "path": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/web/ikea-navigation-detail.png",
+        "relativePath": "originals/web/ikea-navigation-detail.png",
+        "width": 1800,
+        "height": 216,
+        "sha256": "85787962b3cea0ed60a863584cf49d4ff5114dc34e369a372c2d7ea50bd1afeb"
+      },
+      "detailCaption": "Dettaglio della navigazione: simboli familiari per quattro azioni del sito.",
+      "detailOptional": true,
+      "detailRecommended": true,
+      "crop": {
+        "coordinateSpace": "CSS px of original1280x720 viewport; multiply by DPR3 for PNG pixels",
+        "x": 640,
+        "y": 60,
+        "width": 600,
+        "height": 72,
+        "resampled": false,
+        "contentOrColorsChanged": false
+      },
+      "viewport": {
+        "width": 1280,
+        "height": 720
+      },
+      "deviceScaleFactor": 3,
+      "browser": "Playwright Chromium, headless, fresh isolated context; no user tabs affected",
+      "actions": [
+        "Rejected all cookies; closed chat invitation if present."
+      ],
+      "domOrCssModified": false,
+      "caveat": "L’associazione fra simbolo e funzione dipende dalla familiarità con le convenzioni dell’interfaccia e va letta nel contesto del sito.",
+      "pageLayout": "Images + captions + source only; no new page title or prose block."
+    }
+  ],
+  "observations": "originals/web/final-observations.json",
+  "captureScripts": [
+    "/private/tmp/cvedi-web-capture.mjs",
+    "/private/tmp/cvedi-web-final.mjs",
+    "/private/tmp/cvedi-web-repair.mjs"
+  ]
+}

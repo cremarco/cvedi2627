@@ -89,7 +89,7 @@ function syncDialogState() {
         <header>
           <p :id="`${dialogId}-title`"><AcronymText :text="caption || alt" /></p>
           <form method="dialog">
-            <button type="submit" class="btn btn-outline lesson-image-close">
+            <button type="submit" class="btn btn-outline lesson-image-close" autofocus>
               <HeroIcon name="x-mark" stroke-width="1.8" />
               <span>Chiudi</span>
             </button>

@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict'
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, writeFile, readFile } from 'node:fs/promises'
 import { chromium } from 'playwright-chromium'
 import { openSlide } from './browser.mjs'
 import { loadSlideDeck } from './deck.mjs'
@@ -9,7 +9,8 @@ import { loadSlideDeck } from './deck.mjs'
 const deck = await loadSlideDeck()
 const fixtures = deck.slides.filter(slide => /\b(?:cover-slide|chapter-slide|closing-slide)\b/.test(slide.frontmatter.class ?? ''))
 const chapterCovers = fixtures.filter(slide => /\bchapter-slide\b/.test(slide.frontmatter.class ?? ''))
-assert.equal(chapterCovers.length, 13, 'all thirteen chapter openings remain present')
+const curriculum = JSON.parse(await readFile(new URL('../../data/ux-curriculum.json', import.meta.url), 'utf8'))
+assert.equal(chapterCovers.length, 7 + curriculum.lessons.length, 'all original and UX chapter openings remain present')
 const base = process.env.SLIDEV_URL || 'http://localhost:3035'
 const output = process.env.SLIDEV_SCREENSHOTS
 if (output) await mkdir(output, { recursive: true })

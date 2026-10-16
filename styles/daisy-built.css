@@ -1846,6 +1846,21 @@
     border-end-end-radius: var(--join-es, var(--radius-field));
   }
   @layer daisyui.l1.l2.l3 {
+    .indicator {
+      position: relative;
+      display: inline-flex;
+      width: max-content;
+    }
+    .indicator :where(.indicator-item) {
+      z-index: 1;
+      position: absolute;
+      white-space: nowrap;
+      top: var(--indicator-t, 0);
+      bottom: var(--indicator-b, auto);
+      left: var(--indicator-s, auto);
+      right: var(--indicator-e, 0);
+      translate: var(--indicator-x, 50%) var(--indicator-y, -50%);
+    }
     .table {
       font-size: 0.875rem;
       position: relative;
@@ -3716,6 +3731,22 @@
       .stats-vertical .stat:not(:last-child) {
         border-block-end: var(--border) dashed color-mix(in oklab, currentColor 10%, #0000);
       }
+    }
+  }
+  @layer daisyui.l1.l2.l3 {
+    .carousel {
+      display: inline-flex;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      scrollbar-width: none;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .carousel {
+        scroll-behavior: smooth;
+      }
+    }
+    .carousel::-webkit-scrollbar {
+      display: none;
     }
   }
   .alert {

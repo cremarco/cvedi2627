@@ -1,0 +1,3523 @@
+{
+  "date": "2026-10-14",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1112",
+  "titleCount": 53,
+  "style": {
+    "font": "Geom Bold",
+    "fontSize": 20,
+    "lineHeight": 25,
+    "width": 363,
+    "align": "LEFT",
+    "colorVariable": "VariableID:2883:67",
+    "ordinaryY": 60,
+    "ordinaryX": {
+      "SX": 60,
+      "DX": 74
+    },
+    "openingPattern": "Nome italiano\\n(termine inglese)",
+    "applicationPattern": "Nome italiano nel web",
+    "detailPattern": "Nome italiano: argomento"
+  },
+  "rules": [
+    {
+      "boardId": "3721:1964",
+      "web": "198:4238",
+      "name": "Vicinanza",
+      "en": "proximity"
+    },
+    {
+      "boardId": "3721:2140",
+      "web": "198:4250",
+      "name": "Somiglianza",
+      "en": "similarity"
+    },
+    {
+      "boardId": "3721:2282",
+      "web": "198:4261",
+      "name": "Destino comune",
+      "en": "common fate"
+    },
+    {
+      "boardId": "3721:2432",
+      "web": "198:4273",
+      "name": "Buona continuazione",
+      "en": "continuity"
+    },
+    {
+      "boardId": "3721:2461",
+      "web": "198:4285",
+      "name": "Chiusura",
+      "en": "closure"
+    },
+    {
+      "boardId": "3721:2472",
+      "web": "198:4297",
+      "name": "Simmetria",
+      "en": "symmetry"
+    },
+    {
+      "boardId": "3721:2488",
+      "web": "198:4309",
+      "name": "Regione comune",
+      "en": "common region"
+    },
+    {
+      "boardId": "3721:2523",
+      "web": "198:4321",
+      "name": "Figura e sfondo",
+      "en": "figure–ground"
+    },
+    {
+      "boardId": "3721:2536",
+      "web": "198:4333",
+      "name": "Esperienza passata",
+      "en": "past experience"
+    }
+  ],
+  "originals": [
+    {
+      "boardId": "198:3080",
+      "id": "I3039:304;3030:478;3039:324",
+      "text": "Ideate: \nlinguaggio visivo, percezione, colore",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 60,
+      "y": 175,
+      "topId": "2191:1270",
+      "topType": "GROUP",
+      "topName": "Contenuto",
+      "topX": 60,
+      "topY": 116.5
+    },
+    {
+      "boardId": "198:3543",
+      "id": "I3039:235;3030:464;3039:239",
+      "text": "Percezione visiva:\nle origini della Gestalt",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 103,
+      "topId": "198:3555",
+      "topType": "GROUP",
+      "topName": "Titolo · Percezione visiva: la Gestalt e oltre (Albers, ecc.)",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4344",
+      "id": "2402:1132",
+      "text": "Dalle parti all’insieme",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 88,
+      "topId": "2402:1130",
+      "topType": "FRAME",
+      "topName": "C03 · Raggruppamento e spazio · impaginazione",
+      "topX": 60,
+      "topY": 64
+    },
+    {
+      "boardId": "198:3972",
+      "id": "198:3980",
+      "text": "Le leggi \ndella \nGestalt",
+      "font": {
+        "family": "Inter",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700,
+          "slnt": 0
+        }
+      },
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 288,
+      "h": 188,
+      "x": 60,
+      "y": 396,
+      "topId": "198:3980",
+      "topType": "TEXT",
+      "topName": "Corpo testo",
+      "topX": 60,
+      "topY": 396
+    },
+    {
+      "boardId": "3721:1964",
+      "id": "I3039:240;3030:470;3039:244",
+      "text": "Legge della vicinanza\n(proximity)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 60,
+      "y": 60,
+      "topId": "3039:240",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4238",
+      "id": "I3781:1978;3030:470;3781:1980",
+      "text": "Vicinanza nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3781:1978",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3415:726",
+      "id": "I3415:736;3030:464;3415:776",
+      "text": "Vicinanza: leggere un catalogo",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3415:736",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3467:1351",
+      "id": "I3467:1361;3030:464;3467:1396",
+      "text": "Vicinanza: parti che formano un insieme",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 60,
+      "topId": "3467:1361",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3415:867",
+      "id": "I3415:877;3030:464;3415:912",
+      "text": "Vicinanza: etichetta e campo",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3415:877",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3417:1097",
+      "id": "I3417:1107;3030:464;3417:1142",
+      "text": "Netflix: righe di contenuti",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3417:1107",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2140",
+      "id": "I3039:245;3030:470;3039:249",
+      "text": "Legge della somiglianza\n(similarity)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 60,
+      "topId": "3039:245",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4250",
+      "id": "I3781:1999;3030:470;3781:2001",
+      "text": "Somiglianza nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3781:1999",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3467:1475",
+      "id": "I3467:1485;3030:464;3467:1525",
+      "text": "Somiglianza: ripetizione e differenza",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3467:1485",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3415:1002",
+      "id": "I3415:1012;3030:464;3415:1052",
+      "text": "Somiglianza: prodotti e attività",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3415:1012",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3417:1199",
+      "id": "I3417:1209;3030:464;3417:1244",
+      "text": "Una bacheca: categorie e stati",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3417:1209",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2282",
+      "id": "I3039:250;3030:470;3039:254",
+      "text": "Legge del destino comune\n(common fate)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 60,
+      "topId": "3039:250",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4261",
+      "id": "I3781:2020;3030:470;3781:2022",
+      "text": "Destino comune nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3781:2020",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3415:1265",
+      "id": "I3415:1275;3030:464;3415:1315",
+      "text": "Destino comune: seguire un gruppo",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3415:1275",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3467:1722",
+      "id": "I3467:1732;3030:464;3467:1772",
+      "text": "Una fotografia non mostra il movimento",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 60,
+      "topId": "3467:1732",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3417:1401",
+      "id": "I3417:1411;3030:464;3417:1446",
+      "text": "Un menu: stato e transizione",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3417:1411",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2432",
+      "id": "I3039:255;3030:470;3039:259",
+      "text": "Legge della buona continuazione\n(continuity)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 60,
+      "y": 60,
+      "topId": "3039:255",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4273",
+      "id": "I3781:2041;3030:470;3781:2043",
+      "text": "Continuità nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3781:2041",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3467:1838",
+      "id": "I3467:1848;3030:464;3467:1883",
+      "text": "Seguire un percorso visivo",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3467:1848",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3676:2312",
+      "id": "I3676:2327;3030:464;3676:2329",
+      "text": "Continuità: leggere segni interrotti",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3676:2327",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3415:1493",
+      "id": "I3415:1503;3030:464;3415:1538",
+      "text": "Coerenza: confrontare le alternative",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3415:1503",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3416:974",
+      "id": "I3416:984;3030:464;3416:1024",
+      "text": "Continuità: leggere una sequenza",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3416:984",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2461",
+      "id": "I3039:260;3030:470;3039:264",
+      "text": "Legge della chiusura\n(closure)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 60,
+      "y": 60,
+      "topId": "3039:260",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3412:630",
+      "id": "I3412:640;3030:464;3412:675",
+      "text": "Chiusura: osservare il raggruppamento",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 60,
+      "topId": "3412:640",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3412:744",
+      "id": "I3412:754;3030:464;3412:794",
+      "text": "Contorni illusori e figure anomale",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3412:754",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3412:864",
+      "id": "I3412:874;3030:464;3412:909",
+      "text": "Un oggetto dietro un ostacolo",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3412:874",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4285",
+      "id": "I3781:2062;3030:470;3781:2064",
+      "text": "Chiusura nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3781:2062",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3676:2343",
+      "id": "I3676:2358;3030:464;3676:2360",
+      "text": "Archi e stagioni",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3676:2358",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2472",
+      "id": "I3039:265;3030:470;3039:269",
+      "text": "Legge della simmetria\n(symmetry)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 60,
+      "topId": "3039:265",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4297",
+      "id": "I3781:2083;3030:470;3781:2085",
+      "text": "Simmetria nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3781:2083",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2488",
+      "id": "I3039:270;3030:470;3039:274",
+      "text": "Legge della regione comune\n(common region)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 74,
+      "y": 60,
+      "topId": "3039:270",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4309",
+      "id": "I3781:2104;3030:470;3781:2106",
+      "text": "Regione comune nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3781:2104",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3467:1609",
+      "id": "I3467:1619;3030:464;3467:1654",
+      "text": "Regione comune: leggere le aree",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3467:1619",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3415:1136",
+      "id": "I3415:1146;3030:464;3415:1181",
+      "text": "Regione comune: separare le sezioni",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3415:1146",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3417:1294",
+      "id": "I3417:1304;3030:464;3417:1339",
+      "text": "News ed eventi: due regioni",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3417:1304",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2523",
+      "id": "I3039:275;3030:470;3039:279",
+      "text": "Figura e sfondo\n(figure–ground)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 60,
+      "y": 60,
+      "topId": "3039:275",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3676:2373",
+      "id": "I3676:2388;3030:464;3676:2390",
+      "text": "Figura-sfondo: vaso o profili?",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3676:2388",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4321",
+      "id": "I3781:2125;3030:470;3781:2127",
+      "text": "Figura e sfondo nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3781:2125",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3412:969",
+      "id": "I3412:979;3030:464;3412:1019",
+      "text": "Spazio negativo e riconoscimento",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3412:979",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3467:1955",
+      "id": "I3467:1965;3030:464;3467:2000",
+      "text": "Attribuire i contorni alle figure",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3467:1965",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3416:1093",
+      "id": "I3416:1103;3030:464;3416:1138",
+      "text": "Figura-sfondo: un dialogo in primo piano",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 50,
+      "x": 60,
+      "y": 60,
+      "topId": "3416:1103",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3721:2536",
+      "id": "I3039:280;3030:470;3039:284",
+      "text": "Esperienza passata\n(past experience)",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 50,
+      "x": 60,
+      "y": 60,
+      "topId": "3039:280",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "198:4333",
+      "id": "I3781:2146;3030:470;3781:2148",
+      "text": "Esperienza passata nel web",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "PIXELS",
+        "value": 25
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3781:2146",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3416:1188",
+      "id": "I3416:1198;3030:464;3416:1238",
+      "text": "Esperienza: interpretare un feedback",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3416:1198",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3416:1300",
+      "id": "I3416:1310;3030:464;3416:1345",
+      "text": "Pane&Trita: leggere la navigazione",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3416:1310",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3451:1154",
+      "id": "I3451:1164;3030:464;3451:1204",
+      "text": "Quando i principi interagiscono",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3451:1164",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3451:1313",
+      "id": "I3451:1323;3030:464;3451:1358",
+      "text": "Vicinanza, regione e connessione",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3451:1323",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    },
+    {
+      "boardId": "3416:1403",
+      "id": "I3416:1413;3030:464;3416:1453",
+      "text": "Che cosa dimostrano gli studi",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "RIGHT",
+      "w": 363,
+      "h": 25,
+      "x": 74,
+      "y": 60,
+      "topId": "3416:1413",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 74,
+      "topY": 60
+    },
+    {
+      "boardId": "3416:1513",
+      "id": "I3416:1523;3030:464;3416:1558",
+      "text": "Dal principio alla prova",
+      "font": {
+        "family": "Geom",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "size": 20,
+      "line": {
+        "unit": "AUTO"
+      },
+      "align": "LEFT",
+      "w": 363,
+      "h": 25,
+      "x": 60,
+      "y": 60,
+      "topId": "3416:1523",
+      "topType": "INSTANCE",
+      "topName": "02 · Titolo editoriale",
+      "topX": 60,
+      "topY": 60
+    }
+  ],
+  "changes": [
+    {
+      "id": "I3039:304;3030:478;3039:324",
+      "boardId": "198:3080",
+      "topId": "2191:1270",
+      "ordinary": false,
+      "before": "Ideate: \nlinguaggio visivo, percezione, colore",
+      "text": "Ideate:\nlinguaggio visivo, percezione, colore"
+    },
+    {
+      "id": "I3039:235;3030:464;3039:239",
+      "boardId": "198:3543",
+      "topId": "198:3555",
+      "ordinary": false,
+      "before": "Percezione visiva:\nle origini della Gestalt",
+      "text": "Percezione visiva:\nle origini della Gestalt"
+    },
+    {
+      "id": "2402:1132",
+      "boardId": "198:4344",
+      "topId": "2402:1130",
+      "ordinary": false,
+      "before": "Dalle parti all’insieme",
+      "text": "Dalle parti all’insieme"
+    },
+    {
+      "id": "I3039:240;3030:470;3039:244",
+      "boardId": "3721:1964",
+      "topId": "3039:240",
+      "ordinary": true,
+      "before": "Legge della vicinanza\n(proximity)",
+      "text": "Vicinanza\n(proximity)"
+    },
+    {
+      "id": "I3781:1978;3030:470;3781:1980",
+      "boardId": "198:4238",
+      "topId": "3781:1978",
+      "ordinary": true,
+      "before": "Vicinanza nel web",
+      "text": "Vicinanza nel web"
+    },
+    {
+      "id": "I3415:736;3030:464;3415:776",
+      "boardId": "3415:726",
+      "topId": "3415:736",
+      "ordinary": true,
+      "before": "Vicinanza: leggere un catalogo",
+      "text": "Vicinanza: blocchi di contenuto"
+    },
+    {
+      "id": "I3467:1361;3030:464;3467:1396",
+      "boardId": "3467:1351",
+      "topId": "3467:1361",
+      "ordinary": true,
+      "before": "Vicinanza: parti che formano un insieme",
+      "text": "Vicinanza: parti di un insieme"
+    },
+    {
+      "id": "I3415:877;3030:464;3415:912",
+      "boardId": "3415:867",
+      "topId": "3415:877",
+      "ordinary": true,
+      "before": "Vicinanza: etichetta e campo",
+      "text": "Vicinanza: etichetta e campo"
+    },
+    {
+      "id": "I3417:1107;3030:464;3417:1142",
+      "boardId": "3417:1097",
+      "topId": "3417:1107",
+      "ordinary": true,
+      "before": "Netflix: righe di contenuti",
+      "text": "Vicinanza: il catalogo Netflix"
+    },
+    {
+      "id": "I3039:245;3030:470;3039:249",
+      "boardId": "3721:2140",
+      "topId": "3039:245",
+      "ordinary": true,
+      "before": "Legge della somiglianza\n(similarity)",
+      "text": "Somiglianza\n(similarity)"
+    },
+    {
+      "id": "I3781:1999;3030:470;3781:2001",
+      "boardId": "198:4250",
+      "topId": "3781:1999",
+      "ordinary": true,
+      "before": "Somiglianza nel web",
+      "text": "Somiglianza nel web"
+    },
+    {
+      "id": "I3467:1485;3030:464;3467:1525",
+      "boardId": "3467:1475",
+      "topId": "3467:1485",
+      "ordinary": true,
+      "before": "Somiglianza: ripetizione e differenza",
+      "text": "Somiglianza: ripetizione e differenza"
+    },
+    {
+      "id": "I3415:1012;3030:464;3415:1052",
+      "boardId": "3415:1002",
+      "topId": "3415:1012",
+      "ordinary": true,
+      "before": "Somiglianza: prodotti e attività",
+      "text": "Somiglianza: prodotti a confronto"
+    },
+    {
+      "id": "I3417:1209;3030:464;3417:1244",
+      "boardId": "3417:1199",
+      "topId": "3417:1209",
+      "ordinary": true,
+      "before": "Una bacheca: categorie e stati",
+      "text": "Somiglianza: schede e categorie"
+    },
+    {
+      "id": "I3039:250;3030:470;3039:254",
+      "boardId": "3721:2282",
+      "topId": "3039:250",
+      "ordinary": true,
+      "before": "Legge del destino comune\n(common fate)",
+      "text": "Destino comune\n(common fate)"
+    },
+    {
+      "id": "I3781:2020;3030:470;3781:2022",
+      "boardId": "198:4261",
+      "topId": "3781:2020",
+      "ordinary": true,
+      "before": "Destino comune nel web",
+      "text": "Destino comune nel web"
+    },
+    {
+      "id": "I3415:1275;3030:464;3415:1315",
+      "boardId": "3415:1265",
+      "topId": "3415:1275",
+      "ordinary": true,
+      "before": "Destino comune: seguire un gruppo",
+      "text": "Destino comune: seguire un gruppo"
+    },
+    {
+      "id": "I3467:1732;3030:464;3467:1772",
+      "boardId": "3467:1722",
+      "topId": "3467:1732",
+      "ordinary": true,
+      "before": "Una fotografia non mostra il movimento",
+      "text": "Destino comune: una fotografia"
+    },
+    {
+      "id": "I3417:1411;3030:464;3417:1446",
+      "boardId": "3417:1401",
+      "topId": "3417:1411",
+      "ordinary": true,
+      "before": "Un menu: stato e transizione",
+      "text": "Destino comune: osservare un menu"
+    },
+    {
+      "id": "I3039:255;3030:470;3039:259",
+      "boardId": "3721:2432",
+      "topId": "3039:255",
+      "ordinary": true,
+      "before": "Legge della buona continuazione\n(continuity)",
+      "text": "Buona continuazione\n(continuity)"
+    },
+    {
+      "id": "I3781:2041;3030:470;3781:2043",
+      "boardId": "198:4273",
+      "topId": "3781:2041",
+      "ordinary": true,
+      "before": "Continuità nel web",
+      "text": "Buona continuazione nel web"
+    },
+    {
+      "id": "I3467:1848;3030:464;3467:1883",
+      "boardId": "3467:1838",
+      "topId": "3467:1848",
+      "ordinary": true,
+      "before": "Seguire un percorso visivo",
+      "text": "Buona continuazione: percorsi visivi"
+    },
+    {
+      "id": "I3676:2327;3030:464;3676:2329",
+      "boardId": "3676:2312",
+      "topId": "3676:2327",
+      "ordinary": true,
+      "before": "Continuità: leggere segni interrotti",
+      "text": "Buona continuazione: segni interrotti"
+    },
+    {
+      "id": "I3415:1503;3030:464;3415:1538",
+      "boardId": "3415:1493",
+      "topId": "3415:1503",
+      "ordinary": true,
+      "before": "Coerenza: confrontare le alternative",
+      "text": "Buona continuazione: allineamenti"
+    },
+    {
+      "id": "I3416:984;3030:464;3416:1024",
+      "boardId": "3416:974",
+      "topId": "3416:984",
+      "ordinary": true,
+      "before": "Continuità: leggere una sequenza",
+      "text": "Buona continuazione: una sequenza"
+    },
+    {
+      "id": "I3039:260;3030:470;3039:264",
+      "boardId": "3721:2461",
+      "topId": "3039:260",
+      "ordinary": true,
+      "before": "Legge della chiusura\n(closure)",
+      "text": "Chiusura\n(closure)"
+    },
+    {
+      "id": "I3412:640;3030:464;3412:675",
+      "boardId": "3412:630",
+      "topId": "3412:640",
+      "ordinary": true,
+      "before": "Chiusura: osservare il raggruppamento",
+      "text": "Chiusura: forme raggruppate"
+    },
+    {
+      "id": "I3412:754;3030:464;3412:794",
+      "boardId": "3412:744",
+      "topId": "3412:754",
+      "ordinary": true,
+      "before": "Contorni illusori e figure anomale",
+      "text": "Chiusura: contorni illusori"
+    },
+    {
+      "id": "I3412:874;3030:464;3412:909",
+      "boardId": "3412:864",
+      "topId": "3412:874",
+      "ordinary": true,
+      "before": "Un oggetto dietro un ostacolo",
+      "text": "Chiusura: parti nascoste"
+    },
+    {
+      "id": "I3781:2062;3030:470;3781:2064",
+      "boardId": "198:4285",
+      "topId": "3781:2062",
+      "ordinary": true,
+      "before": "Chiusura nel web",
+      "text": "Chiusura nel web"
+    },
+    {
+      "id": "I3676:2358;3030:464;3676:2360",
+      "boardId": "3676:2343",
+      "topId": "3676:2358",
+      "ordinary": true,
+      "before": "Archi e stagioni",
+      "text": "Chiusura: archi e stagioni"
+    },
+    {
+      "id": "I3039:265;3030:470;3039:269",
+      "boardId": "3721:2472",
+      "topId": "3039:265",
+      "ordinary": true,
+      "before": "Legge della simmetria\n(symmetry)",
+      "text": "Simmetria\n(symmetry)"
+    },
+    {
+      "id": "I3781:2083;3030:470;3781:2085",
+      "boardId": "198:4297",
+      "topId": "3781:2083",
+      "ordinary": true,
+      "before": "Simmetria nel web",
+      "text": "Simmetria nel web"
+    },
+    {
+      "id": "I3039:270;3030:470;3039:274",
+      "boardId": "3721:2488",
+      "topId": "3039:270",
+      "ordinary": true,
+      "before": "Legge della regione comune\n(common region)",
+      "text": "Regione comune\n(common region)"
+    },
+    {
+      "id": "I3781:2104;3030:470;3781:2106",
+      "boardId": "198:4309",
+      "topId": "3781:2104",
+      "ordinary": true,
+      "before": "Regione comune nel web",
+      "text": "Regione comune nel web"
+    },
+    {
+      "id": "I3467:1619;3030:464;3467:1654",
+      "boardId": "3467:1609",
+      "topId": "3467:1619",
+      "ordinary": true,
+      "before": "Regione comune: leggere le aree",
+      "text": "Regione comune: leggere le aree"
+    },
+    {
+      "id": "I3415:1146;3030:464;3415:1181",
+      "boardId": "3415:1136",
+      "topId": "3415:1146",
+      "ordinary": true,
+      "before": "Regione comune: separare le sezioni",
+      "text": "Regione comune: separare le sezioni"
+    },
+    {
+      "id": "I3417:1304;3030:464;3417:1339",
+      "boardId": "3417:1294",
+      "topId": "3417:1304",
+      "ordinary": true,
+      "before": "News ed eventi: due regioni",
+      "text": "Regione comune: notizie ed eventi"
+    },
+    {
+      "id": "I3039:275;3030:470;3039:279",
+      "boardId": "3721:2523",
+      "topId": "3039:275",
+      "ordinary": true,
+      "before": "Figura e sfondo\n(figure–ground)",
+      "text": "Figura e sfondo\n(figure–ground)"
+    },
+    {
+      "id": "I3676:2388;3030:464;3676:2390",
+      "boardId": "3676:2373",
+      "topId": "3676:2388",
+      "ordinary": true,
+      "before": "Figura-sfondo: vaso o profili?",
+      "text": "Figura e sfondo: vaso o profili?"
+    },
+    {
+      "id": "I3781:2125;3030:470;3781:2127",
+      "boardId": "198:4321",
+      "topId": "3781:2125",
+      "ordinary": true,
+      "before": "Figura e sfondo nel web",
+      "text": "Figura e sfondo nel web"
+    },
+    {
+      "id": "I3412:979;3030:464;3412:1019",
+      "boardId": "3412:969",
+      "topId": "3412:979",
+      "ordinary": true,
+      "before": "Spazio negativo e riconoscimento",
+      "text": "Figura e sfondo: spazio negativo"
+    },
+    {
+      "id": "I3467:1965;3030:464;3467:2000",
+      "boardId": "3467:1955",
+      "topId": "3467:1965",
+      "ordinary": true,
+      "before": "Attribuire i contorni alle figure",
+      "text": "Figura e sfondo: contorni condivisi"
+    },
+    {
+      "id": "I3416:1103;3030:464;3416:1138",
+      "boardId": "3416:1093",
+      "topId": "3416:1103",
+      "ordinary": true,
+      "before": "Figura-sfondo: un dialogo in primo piano",
+      "text": "Figura e sfondo: un dialogo"
+    },
+    {
+      "id": "I3039:280;3030:470;3039:284",
+      "boardId": "3721:2536",
+      "topId": "3039:280",
+      "ordinary": true,
+      "before": "Esperienza passata\n(past experience)",
+      "text": "Esperienza passata\n(past experience)"
+    },
+    {
+      "id": "I3781:2146;3030:470;3781:2148",
+      "boardId": "198:4333",
+      "topId": "3781:2146",
+      "ordinary": true,
+      "before": "Esperienza passata nel web",
+      "text": "Esperienza passata nel web"
+    },
+    {
+      "id": "I3416:1198;3030:464;3416:1238",
+      "boardId": "3416:1188",
+      "topId": "3416:1198",
+      "ordinary": true,
+      "before": "Esperienza: interpretare un feedback",
+      "text": "Esperienza passata: il feedback"
+    },
+    {
+      "id": "I3416:1310;3030:464;3416:1345",
+      "boardId": "3416:1300",
+      "topId": "3416:1310",
+      "ordinary": true,
+      "before": "Pane&Trita: leggere la navigazione",
+      "text": "Esperienza passata: la navigazione"
+    },
+    {
+      "id": "I3451:1164;3030:464;3451:1204",
+      "boardId": "3451:1154",
+      "topId": "3451:1164",
+      "ordinary": true,
+      "before": "Quando i principi interagiscono",
+      "text": "Quando i principi interagiscono"
+    },
+    {
+      "id": "I3451:1323;3030:464;3451:1358",
+      "boardId": "3451:1313",
+      "topId": "3451:1323",
+      "ordinary": true,
+      "before": "Vicinanza, regione e connessione",
+      "text": "Vicinanza, regione e connessione"
+    },
+    {
+      "id": "I3416:1413;3030:464;3416:1453",
+      "boardId": "3416:1403",
+      "topId": "3416:1413",
+      "ordinary": true,
+      "before": "Che cosa dimostrano gli studi",
+      "text": "Che cosa dimostrano gli studi"
+    },
+    {
+      "id": "I3416:1523;3030:464;3416:1558",
+      "boardId": "3416:1513",
+      "topId": "3416:1523",
+      "ordinary": true,
+      "before": "Dal principio alla prova",
+      "text": "Dal principio alla prova"
+    },
+    {
+      "id": "I3039:285;3030:470;3039:289",
+      "boardId": "198:4131",
+      "ordinary": false,
+      "topId": "198:4142",
+      "before": "Basi del linguaggio visivo\n(forma, colore, immagine, spazio)",
+      "text": "Basi del linguaggio visivo\nForma, colore, immagine e spazio"
+    }
+  ],
+  "verified": [
+    {
+      "id": "I3039:304;3030:478;3039:324",
+      "boardId": "198:3080",
+      "text": "Ideate:\nlinguaggio visivo, percezione, colore",
+      "x": 60,
+      "y": 174.5,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3039:235;3030:464;3039:239",
+      "boardId": "198:3543",
+      "text": "Percezione visiva:\nle origini della Gestalt",
+      "x": 74,
+      "y": 103,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "2402:1132",
+      "boardId": "198:4344",
+      "text": "Dalle parti all’insieme",
+      "x": 60,
+      "y": 88,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:240;3030:470;3039:244",
+      "boardId": "3721:1964",
+      "text": "Vicinanza\n(proximity)",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3781:1978;3030:470;3781:1980",
+      "boardId": "198:4238",
+      "text": "Vicinanza nel web",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3415:736;3030:464;3415:776",
+      "boardId": "3415:726",
+      "text": "Vicinanza: blocchi di contenuto",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3467:1361;3030:464;3467:1396",
+      "boardId": "3467:1351",
+      "text": "Vicinanza: parti di un insieme",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3415:877;3030:464;3415:912",
+      "boardId": "3415:867",
+      "text": "Vicinanza: etichetta e campo",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3417:1107;3030:464;3417:1142",
+      "boardId": "3417:1097",
+      "text": "Vicinanza: il catalogo Netflix",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:245;3030:470;3039:249",
+      "boardId": "3721:2140",
+      "text": "Somiglianza\n(similarity)",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3781:1999;3030:470;3781:2001",
+      "boardId": "198:4250",
+      "text": "Somiglianza nel web",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3467:1485;3030:464;3467:1525",
+      "boardId": "3467:1475",
+      "text": "Somiglianza: ripetizione e differenza",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3415:1012;3030:464;3415:1052",
+      "boardId": "3415:1002",
+      "text": "Somiglianza: prodotti a confronto",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3417:1209;3030:464;3417:1244",
+      "boardId": "3417:1199",
+      "text": "Somiglianza: schede e categorie",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:250;3030:470;3039:254",
+      "boardId": "3721:2282",
+      "text": "Destino comune\n(common fate)",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3781:2020;3030:470;3781:2022",
+      "boardId": "198:4261",
+      "text": "Destino comune nel web",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3415:1275;3030:464;3415:1315",
+      "boardId": "3415:1265",
+      "text": "Destino comune: seguire un gruppo",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3467:1732;3030:464;3467:1772",
+      "boardId": "3467:1722",
+      "text": "Destino comune: una fotografia",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3417:1411;3030:464;3417:1446",
+      "boardId": "3417:1401",
+      "text": "Destino comune: osservare un menu",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:255;3030:470;3039:259",
+      "boardId": "3721:2432",
+      "text": "Buona continuazione\n(continuity)",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3781:2041;3030:470;3781:2043",
+      "boardId": "198:4273",
+      "text": "Buona continuazione nel web",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3467:1848;3030:464;3467:1883",
+      "boardId": "3467:1838",
+      "text": "Buona continuazione: percorsi visivi",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3676:2327;3030:464;3676:2329",
+      "boardId": "3676:2312",
+      "text": "Buona continuazione: segni interrotti",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3415:1503;3030:464;3415:1538",
+      "boardId": "3415:1493",
+      "text": "Buona continuazione: allineamenti",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3416:984;3030:464;3416:1024",
+      "boardId": "3416:974",
+      "text": "Buona continuazione: una sequenza",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:260;3030:470;3039:264",
+      "boardId": "3721:2461",
+      "text": "Chiusura\n(closure)",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3412:640;3030:464;3412:675",
+      "boardId": "3412:630",
+      "text": "Chiusura: forme raggruppate",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3412:754;3030:464;3412:794",
+      "boardId": "3412:744",
+      "text": "Chiusura: contorni illusori",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3412:874;3030:464;3412:909",
+      "boardId": "3412:864",
+      "text": "Chiusura: parti nascoste",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3781:2062;3030:470;3781:2064",
+      "boardId": "198:4285",
+      "text": "Chiusura nel web",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3676:2358;3030:464;3676:2360",
+      "boardId": "3676:2343",
+      "text": "Chiusura: archi e stagioni",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:265;3030:470;3039:269",
+      "boardId": "3721:2472",
+      "text": "Simmetria\n(symmetry)",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3781:2083;3030:470;3781:2085",
+      "boardId": "198:4297",
+      "text": "Simmetria nel web",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:270;3030:470;3039:274",
+      "boardId": "3721:2488",
+      "text": "Regione comune\n(common region)",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3781:2104;3030:470;3781:2106",
+      "boardId": "198:4309",
+      "text": "Regione comune nel web",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3467:1619;3030:464;3467:1654",
+      "boardId": "3467:1609",
+      "text": "Regione comune: leggere le aree",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3415:1146;3030:464;3415:1181",
+      "boardId": "3415:1136",
+      "text": "Regione comune: separare le sezioni",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3417:1304;3030:464;3417:1339",
+      "boardId": "3417:1294",
+      "text": "Regione comune: notizie ed eventi",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:275;3030:470;3039:279",
+      "boardId": "3721:2523",
+      "text": "Figura e sfondo\n(figure–ground)",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3676:2388;3030:464;3676:2390",
+      "boardId": "3676:2373",
+      "text": "Figura e sfondo: vaso o profili?",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3781:2125;3030:470;3781:2127",
+      "boardId": "198:4321",
+      "text": "Figura e sfondo nel web",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3412:979;3030:464;3412:1019",
+      "boardId": "3412:969",
+      "text": "Figura e sfondo: spazio negativo",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3467:1965;3030:464;3467:2000",
+      "boardId": "3467:1955",
+      "text": "Figura e sfondo: contorni condivisi",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3416:1103;3030:464;3416:1138",
+      "boardId": "3416:1093",
+      "text": "Figura e sfondo: un dialogo",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:280;3030:470;3039:284",
+      "boardId": "3721:2536",
+      "text": "Esperienza passata\n(past experience)",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 50
+    },
+    {
+      "id": "I3781:2146;3030:470;3781:2148",
+      "boardId": "198:4333",
+      "text": "Esperienza passata nel web",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3416:1198;3030:464;3416:1238",
+      "boardId": "3416:1188",
+      "text": "Esperienza passata: il feedback",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3416:1310;3030:464;3416:1345",
+      "boardId": "3416:1300",
+      "text": "Esperienza passata: la navigazione",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3451:1164;3030:464;3451:1204",
+      "boardId": "3451:1154",
+      "text": "Quando i principi interagiscono",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3451:1323;3030:464;3451:1358",
+      "boardId": "3451:1313",
+      "text": "Vicinanza, regione e connessione",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3416:1413;3030:464;3416:1453",
+      "boardId": "3416:1403",
+      "text": "Che cosa dimostrano gli studi",
+      "x": 74,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3416:1523;3030:464;3416:1558",
+      "boardId": "3416:1513",
+      "text": "Dal principio alla prova",
+      "x": 60,
+      "y": 60,
+      "w": 363,
+      "h": 25
+    },
+    {
+      "id": "I3039:285;3030:470;3039:289",
+      "boardId": "198:4131",
+      "text": "Basi del linguaggio visivo\nForma, colore, immagine e spazio",
+      "x": 74,
+      "y": 103,
+      "w": 363,
+      "h": 50
+    }
+  ],
+  "currentBoardNames": [
+    {
+      "id": "198:3080",
+      "name": "C03 · 138 · SX — Ideate: linguaggio visivo, percezione, colore"
+    },
+    {
+      "id": "198:3543",
+      "name": "C03 · 139 · DX — Percezione visiva: le origini della Gestalt"
+    },
+    {
+      "id": "198:4344",
+      "name": "C03 · 140 · SX — Dalle parti all’insieme"
+    },
+    {
+      "id": "198:4912",
+      "name": "C03 · 141 · DX — Black Swan: forma e contrasto"
+    },
+    {
+      "id": "198:3972",
+      "name": "C03 · 142 · SX — Le leggi della Gestalt"
+    },
+    {
+      "id": "198:4616",
+      "name": "C03 · 143 · DX — I principi della Gestalt"
+    },
+    {
+      "id": "3721:1964",
+      "name": "C03 · 144 · SX — Vicinanza (proximity)"
+    },
+    {
+      "id": "198:4238",
+      "name": "C03 · 145 · DX — Vicinanza nel web"
+    },
+    {
+      "id": "3415:726",
+      "name": "C03 · 146 · SX — Vicinanza: blocchi di contenuto"
+    },
+    {
+      "id": "3467:1351",
+      "name": "C03 · 147 · DX — Vicinanza: parti di un insieme"
+    },
+    {
+      "id": "3676:2403",
+      "name": "C03 · 148 · SX — Vicinanza: frammenti che formano un albero"
+    },
+    {
+      "id": "198:4830",
+      "name": "C03 · 149 · DX — Vicinanza: la mela ricomposta"
+    },
+    {
+      "id": "3692:2322",
+      "name": "C03 · 150 · SX — Mark Brooks: cervo di punti"
+    },
+    {
+      "id": "3415:867",
+      "name": "C03 · 151 · DX — Vicinanza: etichetta e campo"
+    },
+    {
+      "id": "3417:1097",
+      "name": "C03 · 152 · SX — Vicinanza: il catalogo Netflix"
+    },
+    {
+      "id": "3692:2327",
+      "name": "C03 · 153 · DX — Algida: marchi nel catalogo"
+    },
+    {
+      "id": "3804:2027",
+      "name": "C03 · 154 · SX — GOV.UK: giorno, mese e anno"
+    },
+    {
+      "id": "3721:2140",
+      "name": "C03 · 155 · DX — Somiglianza (similarity)"
+    },
+    {
+      "id": "3692:2337",
+      "name": "C03 · 156 · SX — Punti bianchi e neri"
+    },
+    {
+      "id": "198:4250",
+      "name": "C03 · 157 · DX — Somiglianza nel web"
+    },
+    {
+      "id": "3467:1475",
+      "name": "C03 · 158 · SX — Somiglianza: ripetizione e differenza"
+    },
+    {
+      "id": "3676:2415",
+      "name": "C03 · 159 · DX — Somiglianza: un elemento diverso nella serie"
+    },
+    {
+      "id": "198:4839",
+      "name": "C03 · 160 · SX — Somiglianza: un ritratto nella griglia"
+    },
+    {
+      "id": "3692:2332",
+      "name": "C03 · 161 · DX — Mike Joyce: The Velvet Underground"
+    },
+    {
+      "id": "3415:1002",
+      "name": "C03 · 162 · SX — Somiglianza: prodotti a confronto"
+    },
+    {
+      "id": "3417:1199",
+      "name": "C03 · 163 · DX — Somiglianza: schede e categorie"
+    },
+    {
+      "id": "3804:2037",
+      "name": "C03 · 164 · SX — Api&Bio: schede delle persone"
+    },
+    {
+      "id": "3721:2282",
+      "name": "C03 · 165 · DX — Destino comune (common fate)"
+    },
+    {
+      "id": "3692:2342",
+      "name": "C03 · 166 · SX — Due gruppi in movimento verticale"
+    },
+    {
+      "id": "3692:2349",
+      "name": "C03 · 167 · DX — Elijah Meeks: gruppi in movimento orizzontale"
+    },
+    {
+      "id": "198:4261",
+      "name": "C03 · 168 · SX — Destino comune nel web"
+    },
+    {
+      "id": "3415:1265",
+      "name": "C03 · 169 · DX — Destino comune: seguire un gruppo"
+    },
+    {
+      "id": "198:4848",
+      "name": "C03 · 170 · SX — Destino comune: direzioni suggerite dalle frecce"
+    },
+    {
+      "id": "3467:1722",
+      "name": "C03 · 171 · DX — Destino comune: una fotografia"
+    },
+    {
+      "id": "3417:1401",
+      "name": "C03 · 172 · SX — Destino comune: osservare un menu"
+    },
+    {
+      "id": "3804:2047",
+      "name": "C03 · 173 · DX — Bootstrap: il contenuto scorre come un’unità"
+    },
+    {
+      "id": "3721:2432",
+      "name": "C03 · 174 · SX — Buona continuazione (continuity)"
+    },
+    {
+      "id": "3692:2361",
+      "name": "C03 · 175 · DX — Retta e curva all’intersezione"
+    },
+    {
+      "id": "198:4273",
+      "name": "C03 · 176 · SX — Buona continuazione nel web"
+    },
+    {
+      "id": "3467:1838",
+      "name": "C03 · 177 · DX — Buona continuazione: percorsi visivi"
+    },
+    {
+      "id": "198:4857",
+      "name": "C03 · 178 · SX — Buona continuazione: il percorso della campagna MINI"
+    },
+    {
+      "id": "3676:2312",
+      "name": "C03 · 179 · DX — Buona continuazione: segni interrotti"
+    },
+    {
+      "id": "3692:2356",
+      "name": "C03 · 180 · SX — Wella: tratti e profilo"
+    },
+    {
+      "id": "3415:1493",
+      "name": "C03 · 181 · DX — Buona continuazione: allineamenti"
+    },
+    {
+      "id": "3416:974",
+      "name": "C03 · 182 · SX — Buona continuazione: una sequenza"
+    },
+    {
+      "id": "3804:2065",
+      "name": "C03 · 183 · DX — Api&Bio: un percorso fra le sezioni"
+    },
+    {
+      "id": "3721:2461",
+      "name": "C03 · 184 · SX — Chiusura (closure)"
+    },
+    {
+      "id": "3412:630",
+      "name": "C03 · 185 · DX — Chiusura: forme raggruppate"
+    },
+    {
+      "id": "3412:744",
+      "name": "C03 · 186 · SX — Chiusura: contorni illusori"
+    },
+    {
+      "id": "3412:864",
+      "name": "C03 · 187 · DX — Chiusura: parti nascoste"
+    },
+    {
+      "id": "198:4285",
+      "name": "C03 · 188 · SX — Chiusura nel web"
+    },
+    {
+      "id": "3676:2343",
+      "name": "C03 · 189 · DX — Chiusura: archi e stagioni"
+    },
+    {
+      "id": "3692:2366",
+      "name": "C03 · 190 · SX — Nerolac: figura suggerita dalla vernice"
+    },
+    {
+      "id": "3692:2371",
+      "name": "C03 · 191 · DX — McLaren Vale: forchette e bicchiere"
+    },
+    {
+      "id": "3804:2072",
+      "name": "C03 · 192 · SX — Loader: contorni aperti nel web"
+    },
+    {
+      "id": "3721:2472",
+      "name": "C03 · 193 · DX — Simmetria (symmetry)"
+    },
+    {
+      "id": "3692:2381",
+      "name": "C03 · 194 · SX — Coppie di parentesi"
+    },
+    {
+      "id": "198:4297",
+      "name": "C03 · 195 · DX — Simmetria nel web"
+    },
+    {
+      "id": "198:4875",
+      "name": "C03 · 196 · SX — Simmetria: la campagna Wilson"
+    },
+    {
+      "id": "3692:2376",
+      "name": "C03 · 197 · DX — Adham Dannaway: volto e metà"
+    },
+    {
+      "id": "3804:2087",
+      "name": "C03 · 198 · SX — Wikipedia: lingue attorno a un asse"
+    },
+    {
+      "id": "3721:2488",
+      "name": "C03 · 199 · DX — Regione comune (common region)"
+    },
+    {
+      "id": "198:4309",
+      "name": "C03 · 200 · SX — Regione comune nel web"
+    },
+    {
+      "id": "3467:1609",
+      "name": "C03 · 201 · DX — Regione comune: leggere le aree"
+    },
+    {
+      "id": "198:4884",
+      "name": "C03 · 202 · SX — Regione comune: il catalogo Apple Watch"
+    },
+    {
+      "id": "3692:2386",
+      "name": "C03 · 203 · DX — Xbox: aree verdi e fotografie"
+    },
+    {
+      "id": "3692:2391",
+      "name": "C03 · 204 · SX — Wix: modulo in una regione distinta"
+    },
+    {
+      "id": "3415:1136",
+      "name": "C03 · 205 · DX — Regione comune: separare le sezioni"
+    },
+    {
+      "id": "3417:1294",
+      "name": "C03 · 206 · SX — Regione comune: notizie ed eventi"
+    },
+    {
+      "id": "3804:2097",
+      "name": "C03 · 207 · DX — Notion: due gruppi di piani"
+    },
+    {
+      "id": "3721:2523",
+      "name": "C03 · 208 · SX — Figura e sfondo (figure–ground)"
+    },
+    {
+      "id": "3676:2373",
+      "name": "C03 · 209 · DX — Figura e sfondo: vaso o profili?"
+    },
+    {
+      "id": "198:4321",
+      "name": "C03 · 210 · SX — Figura e sfondo nel web"
+    },
+    {
+      "id": "3412:969",
+      "name": "C03 · 211 · DX — Figura e sfondo: spazio negativo"
+    },
+    {
+      "id": "3467:1955",
+      "name": "C03 · 212 · SX — Figura e sfondo: contorni condivisi"
+    },
+    {
+      "id": "3676:2427",
+      "name": "C03 · 213 · DX — Figura e sfondo: la campagna SANCCOB"
+    },
+    {
+      "id": "198:4893",
+      "name": "C03 · 214 · SX — Figura e sfondo: uccelli e pesci"
+    },
+    {
+      "id": "198:4866",
+      "name": "C03 · 215 · DX — Figura e sfondo: la bottiglia Coca-Cola"
+    },
+    {
+      "id": "3692:2396",
+      "name": "C03 · 216 · SX — Noma Bar: profilo e gallina"
+    },
+    {
+      "id": "3692:2401",
+      "name": "C03 · 217 · DX — Formula 1: il numero nel vuoto"
+    },
+    {
+      "id": "3416:1093",
+      "name": "C03 · 218 · SX — Figura e sfondo: un dialogo"
+    },
+    {
+      "id": "3804:2107",
+      "name": "C03 · 219 · DX — MDN: la ricerca in primo piano"
+    },
+    {
+      "id": "3721:2536",
+      "name": "C03 · 220 · SX — Esperienza passata (past experience)"
+    },
+    {
+      "id": "198:4333",
+      "name": "C03 · 221 · DX — Esperienza passata nel web"
+    },
+    {
+      "id": "3692:2406",
+      "name": "C03 · 222 · SX — Coca-Cola: bottiglie e sorriso"
+    },
+    {
+      "id": "3692:2411",
+      "name": "C03 · 223 · DX — Prada Private: lettere e simboli"
+    },
+    {
+      "id": "3416:1188",
+      "name": "C03 · 224 · SX — Esperienza passata: il feedback"
+    },
+    {
+      "id": "3416:1300",
+      "name": "C03 · 225 · DX — Esperienza passata: la navigazione"
+    },
+    {
+      "id": "3804:2117",
+      "name": "C03 · 226 · SX — GOV.UK: riconoscere un errore"
+    },
+    {
+      "id": "3451:1154",
+      "name": "C03 · 227 · DX — Quando i principi interagiscono"
+    },
+    {
+      "id": "3451:1313",
+      "name": "C03 · 228 · SX — Vicinanza, regione e connessione"
+    },
+    {
+      "id": "3416:1403",
+      "name": "C03 · 229 · DX — Che cosa dimostrano gli studi"
+    },
+    {
+      "id": "3416:1513",
+      "name": "C03 · 230 · SX — Dal principio alla prova"
+    },
+    {
+      "id": "198:4131",
+      "name": "C03 · 231 · DX — Basi del linguaggio visivo Forma, colore, immagine e spazio"
+    }
+  ],
+  "currentTitles": [
+    {
+      "id": "198:3080",
+      "title": "Ideate: linguaggio visivo, percezione, colore",
+      "number": 230,
+      "side": "SX",
+      "rowKey": "intro",
+      "stage": "introduzione"
+    },
+    {
+      "id": "198:3543",
+      "title": "Percezione visiva: le origini della Gestalt",
+      "number": 231,
+      "side": "DX",
+      "rowKey": "intro",
+      "stage": "introduzione"
+    },
+    {
+      "id": "198:4344",
+      "title": "Dalle parti all’insieme",
+      "number": 232,
+      "side": "SX",
+      "rowKey": "intro",
+      "stage": "introduzione"
+    },
+    {
+      "id": "198:4912",
+      "title": "Black Swan: forma e contrasto",
+      "number": 233,
+      "side": "DX",
+      "rowKey": "intro",
+      "stage": "introduzione"
+    },
+    {
+      "id": "198:3972",
+      "title": "Le leggi della Gestalt",
+      "number": 234,
+      "side": "SX",
+      "rowKey": "intro",
+      "stage": "introduzione"
+    },
+    {
+      "id": "198:4616",
+      "title": "I principi della Gestalt",
+      "number": 235,
+      "side": "DX",
+      "rowKey": "intro",
+      "stage": "introduzione"
+    },
+    {
+      "id": "3721:1964",
+      "title": "Vicinanza (proximity)",
+      "number": 236,
+      "side": "SX",
+      "rowKey": "vicinanza",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4238",
+      "title": "Vicinanza nel web",
+      "number": 237,
+      "side": "DX",
+      "rowKey": "vicinanza",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3415:726",
+      "title": "Vicinanza: blocchi di contenuto",
+      "number": 238,
+      "side": "SX",
+      "rowKey": "vicinanza",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3467:1351",
+      "title": "Vicinanza: parti di un insieme",
+      "number": 239,
+      "side": "DX",
+      "rowKey": "vicinanza",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3676:2403",
+      "title": "Vicinanza: frammenti che formano un albero",
+      "number": 240,
+      "side": "SX",
+      "rowKey": "vicinanza",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "198:4830",
+      "title": "Vicinanza: la mela ricomposta",
+      "number": 241,
+      "side": "DX",
+      "rowKey": "vicinanza",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2322",
+      "title": "Mark Brooks: cervo di punti",
+      "number": 242,
+      "side": "SX",
+      "rowKey": "vicinanza",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3415:867",
+      "title": "Vicinanza: etichetta e campo",
+      "number": 243,
+      "side": "DX",
+      "rowKey": "vicinanza",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3417:1097",
+      "title": "Vicinanza: il catalogo Netflix",
+      "number": 244,
+      "side": "SX",
+      "rowKey": "vicinanza",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3692:2327",
+      "title": "Algida: marchi nel catalogo",
+      "number": 245,
+      "side": "DX",
+      "rowKey": "vicinanza",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2027",
+      "title": "GOV.UK: giorno, mese e anno",
+      "number": 246,
+      "side": "SX",
+      "rowKey": "vicinanza",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2140",
+      "title": "Somiglianza (similarity)",
+      "number": 247,
+      "side": "DX",
+      "rowKey": "somiglianza",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3692:2337",
+      "title": "Punti bianchi e neri",
+      "number": 248,
+      "side": "SX",
+      "rowKey": "somiglianza",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4250",
+      "title": "Somiglianza nel web",
+      "number": 249,
+      "side": "DX",
+      "rowKey": "somiglianza",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3467:1475",
+      "title": "Somiglianza: ripetizione e differenza",
+      "number": 250,
+      "side": "SX",
+      "rowKey": "somiglianza",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3676:2415",
+      "title": "Somiglianza: un elemento diverso nella serie",
+      "number": 251,
+      "side": "DX",
+      "rowKey": "somiglianza",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "198:4839",
+      "title": "Somiglianza: un ritratto nella griglia",
+      "number": 252,
+      "side": "SX",
+      "rowKey": "somiglianza",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2332",
+      "title": "Mike Joyce: The Velvet Underground",
+      "number": 253,
+      "side": "DX",
+      "rowKey": "somiglianza",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3415:1002",
+      "title": "Somiglianza: prodotti a confronto",
+      "number": 254,
+      "side": "SX",
+      "rowKey": "somiglianza",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3417:1199",
+      "title": "Somiglianza: schede e categorie",
+      "number": 255,
+      "side": "DX",
+      "rowKey": "somiglianza",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2037",
+      "title": "Api&Bio: schede delle persone",
+      "number": 256,
+      "side": "SX",
+      "rowKey": "somiglianza",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2282",
+      "title": "Destino comune (common fate)",
+      "number": 257,
+      "side": "DX",
+      "rowKey": "destino-comune",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3692:2342",
+      "title": "Due gruppi in movimento verticale",
+      "number": 258,
+      "side": "SX",
+      "rowKey": "destino-comune",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3692:2349",
+      "title": "Elijah Meeks: gruppi in movimento orizzontale",
+      "number": 259,
+      "side": "DX",
+      "rowKey": "destino-comune",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4261",
+      "title": "Destino comune nel web",
+      "number": 260,
+      "side": "SX",
+      "rowKey": "destino-comune",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3415:1265",
+      "title": "Destino comune: seguire un gruppo",
+      "number": 261,
+      "side": "DX",
+      "rowKey": "destino-comune",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "198:4848",
+      "title": "Destino comune: direzioni suggerite dalle frecce",
+      "number": 262,
+      "side": "SX",
+      "rowKey": "destino-comune",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3467:1722",
+      "title": "Destino comune: una fotografia",
+      "number": 263,
+      "side": "DX",
+      "rowKey": "destino-comune",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3417:1401",
+      "title": "Destino comune: osservare un menu",
+      "number": 264,
+      "side": "SX",
+      "rowKey": "destino-comune",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2047",
+      "title": "Bootstrap: il contenuto scorre come un’unità",
+      "number": 265,
+      "side": "DX",
+      "rowKey": "destino-comune",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2432",
+      "title": "Buona continuazione (continuity)",
+      "number": 266,
+      "side": "SX",
+      "rowKey": "continuita",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3692:2361",
+      "title": "Retta e curva all’intersezione",
+      "number": 267,
+      "side": "DX",
+      "rowKey": "continuita",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4273",
+      "title": "Buona continuazione nel web",
+      "number": 268,
+      "side": "SX",
+      "rowKey": "continuita",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3467:1838",
+      "title": "Buona continuazione: percorsi visivi",
+      "number": 269,
+      "side": "DX",
+      "rowKey": "continuita",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "198:4857",
+      "title": "Buona continuazione: il percorso della campagna MINI",
+      "number": 270,
+      "side": "SX",
+      "rowKey": "continuita",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3676:2312",
+      "title": "Buona continuazione: segni interrotti",
+      "number": 271,
+      "side": "DX",
+      "rowKey": "continuita",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2356",
+      "title": "Wella: tratti e profilo",
+      "number": 272,
+      "side": "SX",
+      "rowKey": "continuita",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3415:1493",
+      "title": "Buona continuazione: allineamenti",
+      "number": 273,
+      "side": "DX",
+      "rowKey": "continuita",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3416:974",
+      "title": "Buona continuazione: una sequenza",
+      "number": 274,
+      "side": "SX",
+      "rowKey": "continuita",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2065",
+      "title": "Api&Bio: un percorso fra le sezioni",
+      "number": 275,
+      "side": "DX",
+      "rowKey": "continuita",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2461",
+      "title": "Chiusura (closure)",
+      "number": 276,
+      "side": "SX",
+      "rowKey": "chiusura",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3412:630",
+      "title": "Chiusura: forme raggruppate",
+      "number": 277,
+      "side": "DX",
+      "rowKey": "chiusura",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3412:744",
+      "title": "Chiusura: contorni illusori",
+      "number": 278,
+      "side": "SX",
+      "rowKey": "chiusura",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3412:864",
+      "title": "Chiusura: parti nascoste",
+      "number": 279,
+      "side": "DX",
+      "rowKey": "chiusura",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4285",
+      "title": "Chiusura nel web",
+      "number": 280,
+      "side": "SX",
+      "rowKey": "chiusura",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3676:2343",
+      "title": "Chiusura: archi e stagioni",
+      "number": 281,
+      "side": "DX",
+      "rowKey": "chiusura",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2366",
+      "title": "Nerolac: figura suggerita dalla vernice",
+      "number": 282,
+      "side": "SX",
+      "rowKey": "chiusura",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2371",
+      "title": "McLaren Vale: forchette e bicchiere",
+      "number": 283,
+      "side": "DX",
+      "rowKey": "chiusura",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3804:2072",
+      "title": "Loader: contorni aperti nel web",
+      "number": 284,
+      "side": "SX",
+      "rowKey": "chiusura",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2472",
+      "title": "Simmetria (symmetry)",
+      "number": 285,
+      "side": "DX",
+      "rowKey": "simmetria",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3692:2381",
+      "title": "Coppie di parentesi",
+      "number": 286,
+      "side": "SX",
+      "rowKey": "simmetria",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4297",
+      "title": "Simmetria nel web",
+      "number": 287,
+      "side": "DX",
+      "rowKey": "simmetria",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "198:4875",
+      "title": "Simmetria: la campagna Wilson",
+      "number": 288,
+      "side": "SX",
+      "rowKey": "simmetria",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2376",
+      "title": "Adham Dannaway: volto e metà",
+      "number": 289,
+      "side": "DX",
+      "rowKey": "simmetria",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2087",
+      "title": "Wikipedia: lingue attorno a un asse",
+      "number": 290,
+      "side": "SX",
+      "rowKey": "simmetria",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2488",
+      "title": "Regione comune (common region)",
+      "number": 291,
+      "side": "DX",
+      "rowKey": "regione-comune",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4309",
+      "title": "Regione comune nel web",
+      "number": 292,
+      "side": "SX",
+      "rowKey": "regione-comune",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3467:1609",
+      "title": "Regione comune: leggere le aree",
+      "number": 293,
+      "side": "DX",
+      "rowKey": "regione-comune",
+      "stage": "schermate web"
+    },
+    {
+      "id": "198:4884",
+      "title": "Regione comune: il catalogo Apple Watch",
+      "number": 294,
+      "side": "SX",
+      "rowKey": "regione-comune",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3692:2386",
+      "title": "Xbox: aree verdi e fotografie",
+      "number": 295,
+      "side": "DX",
+      "rowKey": "regione-comune",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3692:2391",
+      "title": "Wix: modulo in una regione distinta",
+      "number": 296,
+      "side": "SX",
+      "rowKey": "regione-comune",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3415:1136",
+      "title": "Regione comune: separare le sezioni",
+      "number": 297,
+      "side": "DX",
+      "rowKey": "regione-comune",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3417:1294",
+      "title": "Regione comune: notizie ed eventi",
+      "number": 298,
+      "side": "SX",
+      "rowKey": "regione-comune",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2097",
+      "title": "Notion: due gruppi di piani",
+      "number": 299,
+      "side": "DX",
+      "rowKey": "regione-comune",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2523",
+      "title": "Figura e sfondo (figure–ground)",
+      "number": 300,
+      "side": "SX",
+      "rowKey": "figura-sfondo",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "3676:2373",
+      "title": "Figura e sfondo: vaso o profili?",
+      "number": 301,
+      "side": "DX",
+      "rowKey": "figura-sfondo",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4321",
+      "title": "Figura e sfondo nel web",
+      "number": 302,
+      "side": "SX",
+      "rowKey": "figura-sfondo",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3412:969",
+      "title": "Figura e sfondo: spazio negativo",
+      "number": 303,
+      "side": "DX",
+      "rowKey": "figura-sfondo",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3467:1955",
+      "title": "Figura e sfondo: contorni condivisi",
+      "number": 304,
+      "side": "SX",
+      "rowKey": "figura-sfondo",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3676:2427",
+      "title": "Figura e sfondo: la campagna SANCCOB",
+      "number": 305,
+      "side": "DX",
+      "rowKey": "figura-sfondo",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "198:4893",
+      "title": "Figura e sfondo: uccelli e pesci",
+      "number": 306,
+      "side": "SX",
+      "rowKey": "figura-sfondo",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "198:4866",
+      "title": "Figura e sfondo: la bottiglia Coca-Cola",
+      "number": 307,
+      "side": "DX",
+      "rowKey": "figura-sfondo",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2396",
+      "title": "Noma Bar: profilo e gallina",
+      "number": 308,
+      "side": "SX",
+      "rowKey": "figura-sfondo",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2401",
+      "title": "Formula 1: il numero nel vuoto",
+      "number": 309,
+      "side": "DX",
+      "rowKey": "figura-sfondo",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3416:1093",
+      "title": "Figura e sfondo: un dialogo",
+      "number": 310,
+      "side": "SX",
+      "rowKey": "figura-sfondo",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2107",
+      "title": "MDN: la ricerca in primo piano",
+      "number": 311,
+      "side": "DX",
+      "rowKey": "figura-sfondo",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3721:2536",
+      "title": "Esperienza passata (past experience)",
+      "number": 312,
+      "side": "SX",
+      "rowKey": "esperienza-passata",
+      "stage": "schemi astratti"
+    },
+    {
+      "id": "198:4333",
+      "title": "Esperienza passata nel web",
+      "number": 313,
+      "side": "DX",
+      "rowKey": "esperienza-passata",
+      "stage": "applicazioni schematiche al web"
+    },
+    {
+      "id": "3692:2406",
+      "title": "Coca-Cola: bottiglie e sorriso",
+      "number": 314,
+      "side": "SX",
+      "rowKey": "esperienza-passata",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3692:2411",
+      "title": "Prada Private: lettere e simboli",
+      "number": 315,
+      "side": "DX",
+      "rowKey": "esperienza-passata",
+      "stage": "esempi grafici e fotografici"
+    },
+    {
+      "id": "3416:1188",
+      "title": "Esperienza passata: il feedback",
+      "number": 316,
+      "side": "SX",
+      "rowKey": "esperienza-passata",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3416:1300",
+      "title": "Esperienza passata: la navigazione",
+      "number": 317,
+      "side": "DX",
+      "rowKey": "esperienza-passata",
+      "stage": "schermate web"
+    },
+    {
+      "id": "3804:2117",
+      "title": "GOV.UK: riconoscere un errore",
+      "number": 318,
+      "side": "SX",
+      "rowKey": "esperienza-passata",
+      "stage": "web-screenshot"
+    },
+    {
+      "id": "3451:1154",
+      "title": "Quando i principi interagiscono",
+      "number": 319,
+      "side": "DX",
+      "rowKey": "interazioni",
+      "stage": "confronti"
+    },
+    {
+      "id": "3451:1313",
+      "title": "Vicinanza, regione e connessione",
+      "number": 320,
+      "side": "SX",
+      "rowKey": "interazioni",
+      "stage": "confronti"
+    },
+    {
+      "id": "3416:1403",
+      "title": "Che cosa dimostrano gli studi",
+      "number": 321,
+      "side": "DX",
+      "rowKey": "verifica",
+      "stage": "sintesi"
+    },
+    {
+      "id": "3416:1513",
+      "title": "Dal principio alla prova",
+      "number": 322,
+      "side": "SX",
+      "rowKey": "verifica",
+      "stage": "sintesi"
+    },
+    {
+      "id": "198:4131",
+      "title": "Basi del linguaggio visivo Forma, colore, immagine e spazio",
+      "number": 323,
+      "side": "DX",
+      "rowKey": "verifica",
+      "stage": "sintesi"
+    }
+  ],
+  "boardCount": 94,
+  "printedRange": [
+    230,
+    323
+  ],
+  "proofs": {
+    "openings": "reports/figma-commenti/2026-10-14/corrente/titoli/titoli-principi.jpg",
+    "applications": "reports/figma-commenti/2026-10-14/corrente/titoli/titoli-applicazioni.jpg"
+  },
+  "notes": "Le aperture strutturali conservano la posizione dei numeri di sezione. La copertina Gestalt conserva la propria composizione."
+}

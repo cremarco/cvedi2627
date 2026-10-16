@@ -6,7 +6,7 @@ lesson: tipografia-griglie
 lessonSlide: 1
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie
-lessonNumber: 7
+lessonNumber: 8
 bookletPages: [157]
 ---
 

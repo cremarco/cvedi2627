@@ -48,7 +48,7 @@ export async function checkSlideSources() {
     assert.ok(summary.frontmatter.summarySupport?.trim(), id + ': summary support is present')
     assert.match(summary.content.trim(), /^# [^\n]+$/, id + ': summary content remains one Markdown heading')
   }
-  assert.equal(total, 221 + addedSlides + addedUxSlides, 'resolved deck includes the topics and six new UX lessons')
+  assert.equal(total, 221 + addedSlides + addedUxSlides, 'resolved deck includes topics and every declared UX lesson')
   assert.equal(lesson.length, 83, 'introduction: 83 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
@@ -74,7 +74,7 @@ export async function checkSlideSources() {
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 67, 'history: 67 slides')
-  assert.equal(visibleDeck.slides.length, 588, 'active chapters include the accessibility-only lesson and its live examples')
+  assert.equal(visibleDeck.slides.length, 221 + addedSlides + addedUxSlides, 'active chapters include every declared UX lesson')
   assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
   assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
@@ -116,16 +116,44 @@ export async function checkSlideSources() {
   assert.equal(uxSource.fileKey, 'WLdDzbdqP3P5rpYbK1OxYC', 'new lessons use the requested Figma file')
   assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
   assert.deepEqual(uxSource.pages.map(page => page.ordinal), Array.from({ length: 260 }, (_, i) => i + 1), 'all 260 source pages are preserved')
-  assert.deepEqual(curriculum.lessons.map(lesson => lesson.number), [4, 5, 6, 7, 8, 9], 'the UX chapter is split into six lessons')
-  assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['green', 'emerald', 'teal', 'cyan', 'sky', 'blue'], 'UX lesson palettes continue Tailwind order after history lime')
+  assert.deepEqual(curriculum.lessons.map(lesson => lesson.number), Array.from({ length: curriculum.lessons.length }, (_, index) => index + 4), 'UX lessons retain consecutive numbers after history')
+  assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['green', 'emerald', 'teal', 'red', 'red', 'red', 'red'], 'lessons after Gestalt inherit the red family of booklet chapter C03')
   const sourcePages = new Map(uxSource.pages.map(page => [page.ordinal, page]))
   const assetRegistry = new Map(uxAssets.assets.map(asset => [asset.id, asset]))
   const coveredPages = new Set()
   const usedAssets = new Set()
-  const accessibilitySource = JSON.parse(await readFile(path.join(root, 'assets/booklet/lezione-05-accessibilita/figma-source.json'), 'utf8'))
-  const accessibilityPages = new Map(accessibilitySource.frames.map((frame, index) => [frame.id, { ...frame, folio: 168 + index }]))
-  const coveredAccessibility = new Set()
-  assert.equal(accessibilityPages.size, 56, 'lesson 05: all current Figma accessibility boards retained')
+  const currentSources = new Map(await Promise.all(curriculum.lessons.filter(lesson => lesson.currentSource).map(async lesson => {
+    const snapshot = JSON.parse(await readFile(path.join(root, lesson.currentSource.snapshot), 'utf8'))
+    const [firstFolio, lastFolio] = lesson.currentSource.folios
+    const frames = new Map(snapshot.frames.map((frame, index) => [frame.id, { ...frame, folio: frame.folio ?? firstFolio + index }]))
+    assert.equal(snapshot.fileKey, curriculum.source.fileKey, `${lesson.id}: current Figma source file`)
+    assert.equal(snapshot.sectionId, lesson.currentSource.sectionId, `${lesson.id}: current Figma section`)
+    assert.equal(frames.size, lastFolio - firstFolio + 1, `${lesson.id}: every current Figma board retained`)
+    assert.deepEqual([...frames.values()].map(frame => frame.folio), Array.from({ length: frames.size }, (_, index) => firstFolio + index), `${lesson.id}: current folios remain complete and ordered`)
+    return [lesson.id, { frames, covered: new Set() }]
+  })))
+  assert.equal(currentSources.get('percezione-gerarchia').frames.size, 56, 'lesson 05: all current Figma accessibility boards retained')
+  assert.equal(currentSources.get('gestalt').frames.size, 89, 'lesson 06: all current Figma Gestalt boards retained')
+  // A focused revision can cite current boards while retaining its original
+  // historical mapping. It does not require migrating the entire lesson.
+  const supplementaryCurrentSources = new Map(await Promise.all([...new Set(uxMapping.lessons
+    .filter(entry => entry.currentSourceNodes).map(entry => entry.currentSource))].map(async snapshotPath => {
+    assert.ok(typeof snapshotPath === 'string' && snapshotPath.length > 0, 'supplementary current snapshot is explicit')
+    const snapshot = JSON.parse(await readFile(path.join(root, snapshotPath), 'utf8'))
+    assert.equal(snapshot.fileKey, curriculum.source.fileKey, 'supplementary source uses the requested Figma file')
+    const frames = new Map(snapshot.frames.map(frame => [frame.id, frame]))
+    assert.equal(frames.size, snapshot.frames.length, 'supplementary current source has unique board identities')
+    return [snapshotPath, frames]
+  })))
+  const externalBibliographies = new Map(await Promise.all([...new Set(uxMapping.lessons
+    .filter(entry => entry.externalSources).map(entry => entry.sourceBibliography))].map(async file => {
+    assert.ok(typeof file === 'string' && file.length > 0, 'external source catalog is explicit')
+    const catalog = JSON.parse(await readFile(path.join(root, file), 'utf8'))
+    const sources = new Map(catalog.sources.map(source => [source.id, source]))
+    assert.equal(sources.size, catalog.sources.length, 'external source identities are unique')
+    for (const source of sources.values()) assert.ok(source.title && /^https:\/\//.test(source.url), 'external source has a title and primary URL')
+    return [file, sources]
+  })))
   for (const specification of curriculum.lessons) {
     const slides = deck.slides.filter(slide => slide.frontmatter.lesson === specification.id)
     const mapping = uxMapping.lessons.filter(slide => slide.lesson === specification.id)
@@ -139,29 +167,69 @@ export async function checkSlideSources() {
     for (const [index, slide] of slides.entries()) {
       const entry = mapping[index]
       assert.equal(slide.title, entry.title, `${specification.id}/${index + 1}: source map title`)
-      if (entry.currentSource) {
-        assert.equal(entry.currentSource, specification.currentSource.snapshot, 'current accessibility snapshot is explicit')
+      if (slide.frontmatter.externalSources || entry.externalSources) {
+        assert.deepEqual(slide.frontmatter.externalSources, entry.externalSources, 'external sources match slide metadata')
+        const bibliography = externalBibliographies.get(entry.sourceBibliography)
+        assert.ok(bibliography && entry.externalSources.length > 0, 'external sources have a registered bibliography')
+        for (const id of entry.externalSources) assert.ok(bibliography.has(id), `known external source ${id}`)
+        if (entry.sourceRelation === 'context-only') {
+          assert.equal(slide.frontmatter.bookletRelation, 'context-only', 'external extension distinguishes its thematic booklet reference')
+          assert.equal(entry.currentSourceNodes, undefined, 'external extension does not invent a current Figma board')
+        }
+      }
+      if (specification.currentSource) {
+        const current = currentSources.get(specification.id)
+        assert.equal(entry.currentSource, specification.currentSource.snapshot, `${specification.id}: current snapshot is explicit`)
         assert.deepEqual(slide.frontmatter.bookletNodes, entry.sourceNodes, 'current Figma node identities match the slide')
         assert.deepEqual(slide.frontmatter.bookletFolios, entry.sourceFolios, 'current booklet folios match the slide')
-        assert.ok(entry.sourceNodes.length > 0, 'current accessibility content has a source')
+        assert.ok(entry.sourceNodes.length > 0, `${specification.id}: current content has a source`)
         entry.sourceNodes.forEach((node, i) => {
-          assert.ok(accessibilityPages.has(node), 'genuine current accessibility node')
-          assert.equal(entry.sourceFolios[i], accessibilityPages.get(node).folio, 'current accessibility folio')
-          coveredAccessibility.add(node)
+          assert.ok(current.frames.has(node), `${specification.id}: genuine current Figma node`)
+          assert.equal(entry.sourceFolios[i], current.frames.get(node).folio, `${specification.id}: current booklet folio`)
+          current.covered.add(node)
         })
       } else {
         assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, `${specification.id}/${index + 1}: source page identities`)
         assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page)?.id), `${specification.id}/${index + 1}: genuine Figma nodes`)
         assert.ok(entry.sourcePages.length > 0, `${specification.id}/${index + 1}: content has a source`)
       }
+      if (slide.frontmatter.bookletCurrentNodes || slide.frontmatter.bookletCurrentFolios || entry.currentSourceNodes || entry.currentSourceFolios) {
+        assert.ok(Array.isArray(entry.currentSourceNodes) && entry.currentSourceNodes.length > 0, `${specification.id}/${index + 1}: supplementary current source nodes`)
+        assert.ok(Array.isArray(entry.currentSourceFolios), `${specification.id}/${index + 1}: supplementary current folios`)
+        assert.equal(entry.currentSourceNodes.length, entry.currentSourceFolios.length, 'one current folio per cited board')
+        assert.deepEqual(slide.frontmatter.bookletCurrentNodes, entry.currentSourceNodes, 'supplementary current nodes match the slide')
+        assert.deepEqual(slide.frontmatter.bookletCurrentFolios, entry.currentSourceFolios, 'supplementary current folios match the slide')
+        const frames = supplementaryCurrentSources.get(entry.currentSource)
+        assert.ok(frames, 'supplementary current snapshot is registered')
+        entry.currentSourceNodes.forEach((node, i) => {
+          const frame = frames.get(node)
+          assert.ok(frame, `${specification.id}/${index + 1}: genuine supplementary current Figma board`)
+          const nativeFolios = frame.texts.map(text => String(text.text).trim()).filter(text => /^\d{3}$/.test(text)).map(Number)
+          const folio = frame.folio ?? (nativeFolios.length === 1 ? nativeFolios[0] : undefined)
+          assert.equal(entry.currentSourceFolios[i], folio, `${specification.id}/${index + 1}: supplementary current booklet folio`)
+        })
+      }
       entry.sourcePages.forEach(page => { assert.ok(sourcePages.has(page), `known source page ${page}`); coveredPages.add(page) })
       const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
-      const declared = entry.assets.map(id => { usedAssets.add(id); assert.ok(assetRegistry.has(id), `registered figure ${id}`); return assetRegistry.get(id).web })
+      if (entry.currentSourceNodes) assert.deepEqual(slide.frontmatter.bookletAssets ?? [], entry.assets, 'supplementary current figures match the slide metadata')
+      const declared = entry.assets.map(id => {
+        usedAssets.add(id)
+        assert.ok(assetRegistry.has(id), `registered figure ${id}`)
+        const asset = assetRegistry.get(id)
+        if (asset.currentSource) {
+          assert.equal(asset.currentSource, entry.currentSource, `${id}: figure uses the cited current snapshot`)
+          const boardIndex = entry.currentSourceNodes?.indexOf(asset.pageId) ?? -1
+          assert.ok(boardIndex >= 0, `${id}: figure belongs to a cited current board`)
+          assert.equal(asset.page, entry.currentSourceFolios[boardIndex], `${id}: figure has the current booklet folio`)
+        }
+        return asset.web
+      })
       assert.deepEqual(figures, declared, `${specification.id}/${index + 1}: correct original figure callsites`)
       assert.ok(!/<(?:input|select|textarea)\b/.test(slide.content), `${specification.id}/${index + 1}: UI examples are images`)
     }
   }
-  assert.deepEqual([...coveredAccessibility].sort(), [...accessibilityPages.keys()].sort(), 'every current accessibility board is represented in lesson 05')
+  for (const [id, { frames, covered }] of currentSources)
+    assert.deepEqual([...covered].sort(), [...frames.keys()].sort(), `${id}: every current Figma board is represented in its lesson`)
   const liveExamples = deck.slides.filter(slide => slide.frontmatter.interactiveExample)
   const accessibilityLesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'percezione-gerarchia')
   assert.equal(accessibilityLesson.length, 105, 'lesson 05 contains only accessibility and its live examples')

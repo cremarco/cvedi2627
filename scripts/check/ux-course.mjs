@@ -20,21 +20,22 @@ try {
   const index = await openSlide(page, base, 3)
   await page.mouse.move(0, 0)
   await page.evaluate(() => Promise.all(document.getAnimations().filter(animation => Number.isFinite(animation.effect?.getComputedTiming().endTime)).map(animation => animation.finished.catch(() => {}))))
-  const colors = await index.evaluate(root => {
+  const indexPalettes = ['red', 'orange', 'amber', 'yellow', 'lime', ...curriculum.lessons.map(lesson => lesson.palette)]
+  const colors = await index.evaluate((root, palettes) => {
     const context = document.createElement('canvas').getContext('2d')
     const rgb = color => { context.fillStyle = color; context.fillRect(0, 0, 1, 1); return [...context.getImageData(0, 0, 1, 1).data].slice(0, 3) }
     const style = getComputedStyle(root)
     return [...root.querySelectorAll('.index-grid button')].map((button, index) => ({
       text: button.textContent.trim(),
       actual: rgb(getComputedStyle(button).backgroundColor),
-      expected: rgb(style.getPropertyValue(`--cvedi-${['red','orange','amber','yellow','lime','green','emerald','teal','cyan','sky','blue'][index]}-800`)),
+      expected: rgb(style.getPropertyValue(`--cvedi-${palettes[index]}-800`)),
     }))
-  })
-  assert.equal(colors.length, 11, 'all local index groups are available')
-  for (const color of colors) assert.deepEqual(color.actual, color.expected, `${color.text}: Tailwind palette order in the index`)
+  }, indexPalettes)
+  assert.equal(colors.length, indexPalettes.length, 'all local index groups are available')
+  for (const color of colors) assert.deepEqual(color.actual, color.expected, `${color.text}: index button follows the owning lesson palette`)
 
   const destinations = ['presentazione-corso', 'introduzione-teorica', 'brief-progetto', 'approfondimenti',
-    'storia-design', 'ricerca-inclusiva', 'percezione-gerarchia', 'colore', 'tipografia-griglie', 'prototipi-interfacce', 'test-implementazione']
+    'storia-design', ...curriculum.lessons.map(lesson => lesson.id)]
   for (const [index, alias] of destinations.entries()) {
     const cover = await openSlide(page, base, alias, { settle: true })
     const background = await cover.evaluate(root => {

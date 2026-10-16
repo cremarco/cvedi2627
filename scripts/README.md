@@ -16,11 +16,13 @@ I controlli browser usano Chromium di `playwright-chromium`. `SLIDEV_URL` cambia
 
 `check:covers` verifica tutte le aperture e la chiusura su desktop, viewport stretto e stampa: geometrie distinte, testo nel canvas, percorsi completi e almeno 16 px di distanza oltre lo spessore della linea.
 
-`check:ux-course` verifica l’ordine cromatico degli undici gruppi locali, le proporzioni e l’assenza di cornici delle 138 figure originali, il corpo delle tabelle e l’ingrandimento da tastiera delle lezioni 04–09 su desktop e viewport stretto.
+`check:ux-course` verifica l’ordine cromatico dei dodici gruppi locali, le proporzioni e l’assenza di cornici delle figure registrate, il corpo delle tabelle e l’ingrandimento da tastiera delle lezioni 04–10 su desktop e viewport stretto.
 
-`check:publication` verifica 588 slide locali e 433 online, esclusione delle lezioni 06–09 dai file pubblicati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
+`check:gestalt` verifica tutte le 111 slide su desktop, viewport stretto e stampa, con copertura delle 89 tavole e di tutte le immagini dello snapshot corrente, caricamento dei pixel, margini, posizione dei titoli, ingrandimento da tastiera e ritorno del focus. Rapporti e anteprime sono in `reports/gestalt-lesson/`. `python3 scripts/build/lesson-06-gestalt.py` rigenera la lezione, le figure e la mappa delle fonti dagli originali conservati.
 
-`check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle quattro lezioni locali.
+`check:publication` verifica 699 slide locali e 433 online, esclusione delle lezioni 06–10 dai file pubblicati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
+
+`check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle cinque lezioni locali.
 
 L’archivio dei siti è nel repository autonomo `cremarco/cvedi-progetti`. `pnpm check:archive` verifica reindirizzamenti, collegamenti e anteprime locali nella build del corso.
 

@@ -1,0 +1,4015 @@
+{
+  "date": "2026-10-16",
+  "status": "passed",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "scope": "C03 corrente; ordine di lettura ricavato dai folio, senza rinumerare le tavole.",
+  "figureCount": 290,
+  "numberRange": [
+    "3.1",
+    "3.290"
+  ],
+  "pageCount": 14,
+  "boardCount": 429,
+  "numberedBoardCount": 427,
+  "printedFolioRange": [
+    95,
+    521
+  ],
+  "unnumberedOpeningBoardIds": [
+    "198:2876",
+    "198:3020"
+  ],
+  "note": "Le due aperture artistiche sono incluse nelle 429 tavole ma non espongono un folio; la pagina note aggiuntiva senza folio del Colore, decorazioni, badge e originali nascosti sono esclusi. La revisione culturale aggiunge quattro tavole e quattro figure.",
+  "pages": [
+    {
+      "pageId": "2008:1741",
+      "pageName": "C03.01 · Apertura",
+      "numberedBoardCount": 8,
+      "boardCount": 10,
+      "printedFolioRange": [
+        95,
+        102
+      ],
+      "figureCount": 2,
+      "figureRange": [
+        "3.1",
+        "3.2"
+      ]
+    },
+    {
+      "pageId": "2613:1109",
+      "pageName": "C03.02 · Ricerca, utenti e contesto",
+      "numberedBoardCount": 65,
+      "boardCount": 65,
+      "printedFolioRange": [
+        103,
+        167
+      ],
+      "figureCount": 39,
+      "figureRange": [
+        "3.3",
+        "3.41"
+      ]
+    },
+    {
+      "pageId": "2613:1110",
+      "pageName": "C03.03 · Accessibilità",
+      "numberedBoardCount": 56,
+      "boardCount": 56,
+      "printedFolioRange": [
+        168,
+        223
+      ],
+      "figureCount": 29,
+      "figureRange": [
+        "3.42",
+        "3.70"
+      ]
+    },
+    {
+      "pageId": "2613:1111",
+      "pageName": "C03.04 · Define",
+      "numberedBoardCount": 6,
+      "boardCount": 6,
+      "printedFolioRange": [
+        224,
+        229
+      ],
+      "figureCount": 2,
+      "figureRange": [
+        "3.71",
+        "3.72"
+      ]
+    },
+    {
+      "pageId": "2613:1112",
+      "pageName": "C03.05 · Gestalt",
+      "numberedBoardCount": 89,
+      "boardCount": 89,
+      "printedFolioRange": [
+        230,
+        318
+      ],
+      "figureCount": 94,
+      "figureRange": [
+        "3.73",
+        "3.166"
+      ]
+    },
+    {
+      "pageId": "3699:2475",
+      "pageName": "C03.06 · Linguaggio visivo",
+      "numberedBoardCount": 17,
+      "boardCount": 17,
+      "printedFolioRange": [
+        319,
+        335
+      ],
+      "figureCount": 14,
+      "figureRange": [
+        "3.167",
+        "3.180"
+      ]
+    },
+    {
+      "pageId": "2613:1113",
+      "pageName": "C03.07 · Gerarchia visiva",
+      "numberedBoardCount": 30,
+      "boardCount": 30,
+      "printedFolioRange": [
+        336,
+        365
+      ],
+      "figureCount": 15,
+      "figureRange": [
+        "3.181",
+        "3.195"
+      ]
+    },
+    {
+      "pageId": "2613:1114",
+      "pageName": "C03.06 · Colore",
+      "numberedBoardCount": 52,
+      "boardCount": 52,
+      "printedFolioRange": [
+        366,
+        417
+      ],
+      "figureCount": 42,
+      "figureRange": [
+        "3.196",
+        "3.237"
+      ]
+    },
+    {
+      "pageId": "2613:1115",
+      "pageName": "C03.09 · Tipografia",
+      "numberedBoardCount": 26,
+      "boardCount": 26,
+      "printedFolioRange": [
+        418,
+        443
+      ],
+      "figureCount": 12,
+      "figureRange": [
+        "3.238",
+        "3.249"
+      ]
+    },
+    {
+      "pageId": "2613:1116",
+      "pageName": "C03.10 · Griglie e interfacce",
+      "numberedBoardCount": 18,
+      "boardCount": 18,
+      "printedFolioRange": [
+        444,
+        461
+      ],
+      "figureCount": 13,
+      "figureRange": [
+        "3.250",
+        "3.262"
+      ]
+    },
+    {
+      "pageId": "2613:1117",
+      "pageName": "C03.11 · Wireframe e mockup",
+      "numberedBoardCount": 12,
+      "boardCount": 12,
+      "printedFolioRange": [
+        462,
+        473
+      ],
+      "figureCount": 7,
+      "figureRange": [
+        "3.263",
+        "3.269"
+      ]
+    },
+    {
+      "pageId": "2613:1118",
+      "pageName": "C03.12 · Interfacce dei videogiochi",
+      "numberedBoardCount": 22,
+      "boardCount": 22,
+      "printedFolioRange": [
+        474,
+        495
+      ],
+      "figureCount": 16,
+      "figureRange": [
+        "3.270",
+        "3.285"
+      ]
+    },
+    {
+      "pageId": "2613:1119",
+      "pageName": "C03.13 · Test e usabilità",
+      "numberedBoardCount": 22,
+      "boardCount": 22,
+      "printedFolioRange": [
+        496,
+        517
+      ],
+      "figureCount": 4,
+      "figureRange": [
+        "3.286",
+        "3.289"
+      ]
+    },
+    {
+      "pageId": "2613:1120",
+      "pageName": "C03.14 · Implementazione",
+      "numberedBoardCount": 4,
+      "boardCount": 4,
+      "printedFolioRange": [
+        518,
+        521
+      ],
+      "figureCount": 1,
+      "figureRange": [
+        "3.290",
+        "3.290"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "number": "3.1",
+      "ordinal": 1,
+      "folio": 96,
+      "pageId": "2008:1741",
+      "boardId": "2655:335",
+      "figureId": "3238:15845",
+      "captionTextId": "I3238:15845;3165:600;3238:15866;3164:51;3238:15869",
+      "captionText": "Figura 3.1 — Cinque modalità del Design Thinking e implementazione: i ritorni nel processo.",
+      "referenceTextIds": [
+        "2655:345"
+      ]
+    },
+    {
+      "number": "3.2",
+      "ordinal": 2,
+      "folio": 99,
+      "pageId": "2008:1741",
+      "boardId": "2634:82",
+      "figureId": "4029:168",
+      "captionTextId": "I4029:170;3164:51;4029:175",
+      "captionText": "Figura 3.2 — Il Double Diamond alterna divergenza e convergenza: Discover e Define per il problema, Develop e Deliver per la soluzione.",
+      "referenceTextIds": [
+        "2634:90"
+      ]
+    },
+    {
+      "number": "3.3",
+      "ordinal": 3,
+      "folio": 106,
+      "pageId": "2613:1109",
+      "boardId": "198:3529",
+      "figureId": "3239:17347",
+      "captionTextId": "I3239:17347;3165:600;3239:17368;3164:51;3239:17371",
+      "captionText": "Figura 3.3 — Le cinque righe contrappongono i poli del modello storico di Hofstede. Aiutano a distinguere i costrutti, senza trasformare un punteggio nazionale nel profilo di un utente; il percorso prosegue con l’indulgenza.",
+      "referenceTextIds": [
+        "2620:209"
+      ]
+    },
+    {
+      "number": "3.4",
+      "ordinal": 4,
+      "folio": 108,
+      "pageId": "2613:1109",
+      "boardId": "2695:3902",
+      "figureId": "I2695:3919;2685:631",
+      "captionTextId": "I2695:3919;3192:874",
+      "captionText": "Figura 3.4 — Le posizioni sull’asse confrontano indici nazionali di accettazione delle gerarchie. Distanze e punteggi sono relativi, non percentuali: suggeriscono domande sull’autorevolezza dei servizi, da verificare con persone e contesti specifici.",
+      "referenceTextIds": [
+        "I2695:3919;2679:437"
+      ]
+    },
+    {
+      "number": "3.5",
+      "ordinal": 5,
+      "folio": 110,
+      "pageId": "2613:1109",
+      "boardId": "198:4418",
+      "figureId": "3239:17380",
+      "captionTextId": "I3239:17380;3165:600;3239:17401;3164:51;3239:17404",
+      "captionText": "Figura 3.5 — La fotografia dell’edificio e i menu presentano l’università come istituzione riconoscibile. Per il PDI, chiediamoci quali segnali rendano autorevole il servizio; il punto di vista fotografico non misura l’accettazione delle gerarchie.\nHomepage dell’Università Statale di Mosca · screenshot storico.",
+      "referenceTextIds": [
+        "198:4428"
+      ]
+    },
+    {
+      "number": "3.6",
+      "ordinal": 6,
+      "folio": 111,
+      "pageId": "2613:1109",
+      "boardId": "198:4973",
+      "figureId": "3239:17413",
+      "captionTextId": "I3239:17413;3165:600;3239:17434;3164:51;3239:17437",
+      "captionText": "Figura 3.6 — La pagina mette in evidenza temi, ricerca e percorsi dell’università. Nel confronto sul PDI, osserviamo come costruisce credibilità e vicinanza ai suoi pubblici; la composizione non dimostra rapporti sociali più paritari.\nHomepage dell’Università di Amsterdam · screenshot storico.",
+      "referenceTextIds": [
+        "198:4982"
+      ]
+    },
+    {
+      "number": "3.7",
+      "ordinal": 7,
+      "folio": 113,
+      "pageId": "2613:1109",
+      "boardId": "2695:4373",
+      "figureId": "I2695:4390;2685:1051",
+      "captionTextId": "I2695:4390;3192:940",
+      "captionText": "Figura 3.7 — L’asse confronta indici nazionali di autonomia e legami con il gruppo. Le differenze orientano domande su decisioni personali e responsabilità condivise; non misurano egoismo, privacy o preferenze di ogni utente.",
+      "referenceTextIds": [
+        "I2695:4390;2679:500"
+      ]
+    },
+    {
+      "number": "3.8",
+      "ordinal": 8,
+      "folio": 115,
+      "pageId": "2613:1109",
+      "boardId": "198:4575",
+      "figureId": "3239:17446",
+      "captionTextId": "I3239:17446;3165:600;3239:17467;3164:51;3239:17470",
+      "captionText": "Figura 3.8 — Ricerca del viaggio, prenotazione e app organizzano compiti del viaggiatore. L’IDV suggerisce di indagare chi decide e con chi condivide il viaggio; queste funzioni dipendono anche dalla natura del servizio.\nHomepage di Greyhound: ricerca del viaggio e servizi per l’utente · screenshot storico.",
+      "referenceTextIds": [
+        "198:4585"
+      ]
+    },
+    {
+      "number": "3.9",
+      "ordinal": 9,
+      "folio": 116,
+      "pageId": "2613:1109",
+      "boardId": "198:5105",
+      "figureId": "3239:17479",
+      "captionTextId": "I3239:17479;3165:600;3239:17500;3164:51;3239:17503",
+      "captionText": "Figura 3.9 — Il banner per animali, la fotografia dello staff e i contatti affiancano il viaggio. Per l’IDV, esploriamo quali relazioni sostiene il servizio; fotografie di gruppo e plurali non provano valori collettivistici.\nHomepage di Kowloon Motor Bus: informazioni e servizi alla comunità · screenshot storico.",
+      "referenceTextIds": [
+        "198:5114"
+      ]
+    },
+    {
+      "number": "3.10",
+      "ordinal": 10,
+      "folio": 118,
+      "pageId": "2613:1109",
+      "boardId": "2695:4538",
+      "figureId": "I2695:4555;2685:1165",
+      "captionTextId": "I2695:4555;3192:1003",
+      "captionText": "Figura 3.10 — L’asse confronta il peso relativo di cooperazione e qualità della vita rispetto a competizione e successo. I punteggi aiutano a formulare domande sui valori comunicati, senza descrivere genere o personalità.",
+      "referenceTextIds": [
+        "I2695:4555;2679:563"
+      ]
+    },
+    {
+      "number": "3.11",
+      "ordinal": 11,
+      "folio": 120,
+      "pageId": "2613:1109",
+      "boardId": "198:4564",
+      "figureId": "3239:17512",
+      "captionTextId": "I3239:17512;3165:600;3239:17533;3164:51;3239:17536",
+      "captionText": "Figura 3.11 — Notizie e anteprime raccontano contributi, attività e temi del Paese. Il MAS invita a confrontare riconoscimento dei risultati e qualità della vita, considerando anche finalità editoriali, destinatari e periodo della pagina.\nHomepage del sito del governo giapponese · screenshot storico.",
+      "referenceTextIds": [
+        "198:4574"
+      ]
+    },
+    {
+      "number": "3.12",
+      "ordinal": 12,
+      "folio": 121,
+      "pageId": "2613:1109",
+      "boardId": "198:5094",
+      "figureId": "3239:17545",
+      "captionTextId": "I3239:17545;3165:600;3239:17566;3164:51;3239:17569",
+      "captionText": "Figura 3.12 — Diritti LGBTQ+ e immagini di cura rendono visibili temi di benessere condiviso. Nel MAS sono spunti sul polo della cooperazione; una selezione editoriale non descrive tutti i valori della società.\nHomepage del sito del governo svedese · screenshot storico.",
+      "referenceTextIds": [
+        "198:5103"
+      ]
+    },
+    {
+      "number": "3.13",
+      "ordinal": 13,
+      "folio": 123,
+      "pageId": "2613:1109",
+      "boardId": "2695:4702",
+      "figureId": "I2695:4719;2685:1276",
+      "captionTextId": "I2695:4719;3192:1253",
+      "captionText": "Figura 3.13 — Le posizioni confrontano il disagio collettivo verso situazioni ambigue. I punteggi suggeriscono verifiche su familiarità e prevedibilità del servizio; non indicano percentuali di utenti né propensione individuale al rischio.",
+      "referenceTextIds": [
+        "I2695:4719;2679:626"
+      ]
+    },
+    {
+      "number": "3.14",
+      "ordinal": 14,
+      "folio": 125,
+      "pageId": "2613:1109",
+      "boardId": "198:4553",
+      "figureId": "3239:17578",
+      "captionTextId": "I3239:17578;3165:600;3239:17599;3164:51;3239:17602",
+      "captionText": "Figura 3.14 — Prezzi, sconto e categorie permettono di confrontare l’offerta nella pagina. Per lo UAI, verifichiamo quali dubbi risolvono e quali restano; la struttura regolare non dimostra il bisogno di prevedibilità degli utenti.\nHomepage di KFC in Bielorussia · screenshot storico.",
+      "referenceTextIds": [
+        "198:4563"
+      ]
+    },
+    {
+      "number": "3.15",
+      "ordinal": 15,
+      "folio": 126,
+      "pageId": "2613:1109",
+      "boardId": "198:5083",
+      "figureId": "3241:4360",
+      "captionTextId": "I3241:4360;3165:600;3241:4386;3164:51;3241:4389",
+      "captionText": "Figura 3.15 — La fotografia principale, lo slogan e il prezzo concentrano l’attenzione sull’offerta. Lo UAI suggerisce di chiedere quali informazioni servano prima della scelta; pochi contenuti non dimostrano maggiore tolleranza dell’ambiguità.\nHomepage di KFC in Danimarca · screenshot storico.",
+      "referenceTextIds": [
+        "198:5092"
+      ]
+    },
+    {
+      "number": "3.16",
+      "ordinal": 16,
+      "folio": 128,
+      "pageId": "2613:1109",
+      "boardId": "2695:5057",
+      "figureId": "I2695:5074;2685:1574",
+      "captionTextId": "I2695:5074;3192:1489",
+      "captionText": "Figura 3.16 — L’asse confronta continuità con norme e tradizioni con adattamento e preparazione del futuro. I punteggi suggeriscono domande su impegni e cambiamento nel tempo; non prescrivono sconti, pulsanti o acquisti immediati.",
+      "referenceTextIds": [
+        "I2695:5074;2679:689"
+      ]
+    },
+    {
+      "number": "3.17",
+      "ordinal": 17,
+      "folio": 130,
+      "pageId": "2613:1109",
+      "boardId": "2648:196",
+      "figureId": "3241:4398",
+      "captionTextId": "I3241:4398;3165:600;3241:4419;3164:51;3241:4422",
+      "captionText": "Figura 3.17 — La scena di gioco, le schede illustrate e i prodotti collegano la marca alla vita quotidiana. Per il LTO, verifichiamo quali temi di crescita e continuità siano effettivamente compresi.\nHomepage di Kinder per il mercato cinese.",
+      "referenceTextIds": [
+        "2648:205"
+      ]
+    },
+    {
+      "number": "3.18",
+      "ordinal": 18,
+      "folio": 131,
+      "pageId": "2613:1109",
+      "boardId": "2648:218",
+      "figureId": "3241:4431",
+      "captionTextId": "I3241:4431;3165:600;3241:4452;3164:51;3241:4455",
+      "captionText": "Figura 3.18 — Nuovi prodotti e collaborazione con Stranger Things danno rilievo alle campagne. Nel confronto sul LTO, esploriamo come vengono valutati novità e benefici nel tempo; una promozione non prova preferenze per risultati immediati.\nHomepage di Kinder per il mercato statunitense.",
+      "referenceTextIds": [
+        "2648:227"
+      ]
+    },
+    {
+      "number": "3.19",
+      "ordinal": 19,
+      "folio": 133,
+      "pageId": "2613:1109",
+      "boardId": "2695:5389",
+      "figureId": "I2695:5398;2685:1858",
+      "captionTextId": "I2695:5398;3192:2109",
+      "captionText": "Figura 3.19 — Le posizioni confrontano controllo tramite norme sociali e gratificazione relativamente libera. I punteggi aprono domande su aspettative e vincoli nel contesto d’uso, senza misurare felicità o desideri delle singole persone.",
+      "referenceTextIds": [
+        "I2695:5398;2679:752"
+      ]
+    },
+    {
+      "number": "3.20",
+      "ordinal": 20,
+      "folio": 134,
+      "pageId": "2613:1109",
+      "boardId": "198:4984",
+      "figureId": "3241:4460",
+      "captionTextId": "I3241:4460;3165:600;3241:4480;3164:51;3241:4482",
+      "captionText": "Figura 3.20 — Telefono, codice e WeChat offrono canali diversi per accedere. Il contesto culturale comprende strumenti e condizioni d’uso: verifichiamo quali opzioni siano disponibili e accessibili al pubblico, senza inferire preferenze da un Paese.\nIKEA Cina · accesso al profilo, screenshot storico.",
+      "referenceTextIds": [
+        "2620:250"
+      ]
+    },
+    {
+      "number": "3.21",
+      "ordinal": 21,
+      "folio": 136,
+      "pageId": "2613:1109",
+      "boardId": "198:5028",
+      "figureId": "3241:4487",
+      "captionTextId": "I3241:4487;3165:600;3241:4507;3164:51;3241:4509",
+      "captionText": "Figura 3.21 — Testo arabo, ricerca e navigazione mostrano una direzione di lettura da verificare elemento per elemento. La localizzazione riguarda lingua e convenzioni d’uso: marchi, numeri e fotografie non richiedono una specchiatura automatica.\nIKEA Arabia Saudita · screenshot storico.",
+      "referenceTextIds": [
+        "2620:278"
+      ]
+    },
+    {
+      "number": "3.22",
+      "ordinal": 22,
+      "folio": 139,
+      "pageId": "2613:1109",
+      "boardId": "198:4536",
+      "figureId": "3241:4514",
+      "captionTextId": "I3241:4514;3165:600;3241:4534;3164:51;3241:4536",
+      "captionText": "Figura 3.22 — I due assi collocano stime aggregate dei valori: tradizionali/secolari-razionali e sopravvivenza/espressione di sé. La distanza sulla mappa suggerisce confronti tra rilevazioni, non preferenze d’interfaccia né comportamenti dei singoli utenti.",
+      "referenceTextIds": [
+        "2620:331"
+      ]
+    },
+    {
+      "number": "3.23",
+      "ordinal": 23,
+      "folio": 142,
+      "pageId": "2613:1109",
+      "boardId": "2759:3843",
+      "figureId": "3316:17326",
+      "captionTextId": "I3316:17326;3165:600;3316:17348;3164:51;3316:17349",
+      "captionText": "Figura 3.23 — Il progetto cinese di Alan Chan Design Company (2003) riprende curve e colori del logotipo latino. La continuità visiva deriva dall’adattamento dei glifi, non dall’uso dello stesso font.",
+      "referenceTextIds": [
+        "2759:3864"
+      ]
+    },
+    {
+      "number": "3.24",
+      "ordinal": 24,
+      "folio": 143,
+      "pageId": "2613:1109",
+      "boardId": "2759:3874",
+      "figureId": "3316:17354",
+      "captionTextId": "I3316:17354;3165:600;3316:17374;3164:51;3316:17375",
+      "captionText": "Figura 3.24 — Decori e scene domestiche richiamano il Capodanno lunare. La campagna apre domande su rituali e tradizioni; prodotti in gruppo e colore rosso non misurano direttamente IDV, IVR o LTO.",
+      "referenceTextIds": [
+        "2759:3895"
+      ]
+    },
+    {
+      "number": "3.25",
+      "ordinal": 25,
+      "folio": 144,
+      "pageId": "2613:1109",
+      "boardId": "2759:3900",
+      "figureId": "3316:17380",
+      "captionTextId": "I3316:17380;3165:600;3316:17400;3164:51;3316:17401",
+      "captionText": "Figura 3.25 — Offerte IKEA Family, risparmio energetico e prodotti quotidiani accostano convenienza e cura. Sono temi utili per discutere MAS; il punteggio svedese non spiega da solo la campagna.",
+      "referenceTextIds": [
+        "2759:3921"
+      ]
+    },
+    {
+      "number": "3.26",
+      "ordinal": 26,
+      "folio": 146,
+      "pageId": "2613:1109",
+      "boardId": "198:4440",
+      "figureId": "3241:4541",
+      "captionTextId": "I3241:4541;3165:600;3241:4561;3164:51;3241:4563",
+      "captionText": "Figura 3.26 — Gli archi e il giallo mantengono riconoscibile McDonald’s. Le pagine successive mostrano come questa identità comune accompagni messaggi, offerte e servizi adattati ai diversi mercati.",
+      "referenceTextIds": [
+        "2668:351"
+      ]
+    },
+    {
+      "number": "3.27",
+      "ordinal": 27,
+      "folio": 148,
+      "pageId": "2613:1109",
+      "boardId": "198:4458",
+      "figureId": "3241:4568",
+      "captionTextId": "I3241:4568;3165:600;3241:4588;3164:51;3241:4590",
+      "captionText": "Figura 3.27 — Campagne, prodotti, app e informazioni aziendali occupano riquadri distinti del mosaico cinese. L’identità comune della marca sostiene contenuti locali; il layout non misura la PDI degli utenti.",
+      "referenceTextIds": [
+        "2668:357"
+      ]
+    },
+    {
+      "number": "3.28",
+      "ordinal": 28,
+      "folio": 149,
+      "pageId": "2613:1109",
+      "boardId": "198:5017",
+      "figureId": "3241:4595",
+      "captionTextId": "I3241:4595;3165:600;3241:4615;3164:51;3241:4617",
+      "captionText": "Figura 3.28 — Happy Meal, app, McCafé, consegna e feedback hanno spazi e azioni distinti. La homepage olandese mantiene l’identità McDonald’s e adatta il percorso editoriale ai contenuti del servizio locale.",
+      "referenceTextIds": [
+        "2668:363"
+      ]
+    },
+    {
+      "number": "3.29",
+      "ordinal": 29,
+      "folio": 151,
+      "pageId": "2613:1109",
+      "boardId": "2668:250",
+      "figureId": "3241:4622",
+      "captionTextId": "I3241:4622;3165:600;3241:4642;3164:51;3241:4644",
+      "captionText": "Figura 3.29 — McRib, «My rewards» e i pulsanti per punti, app e consegna collegano il prodotto a vantaggi e azioni concrete. La pagina statunitense adatta il messaggio commerciale e gli accessi al servizio.",
+      "referenceTextIds": [
+        "2668:369"
+      ]
+    },
+    {
+      "number": "3.30",
+      "ordinal": 30,
+      "folio": 152,
+      "pageId": "2613:1109",
+      "boardId": "2648:267",
+      "figureId": "3242:17842",
+      "captionTextId": "I3242:17842;3165:600;3242:17862;3164:51;3242:17864",
+      "captionText": "Figura 3.30 — Il banner del centenario della Repubblica, Happy Meal, app e social combinano ricorrenza locale e servizi della marca. L’adattamento culturale è visibile nel messaggio della campagna.",
+      "referenceTextIds": [
+        "2668:380"
+      ]
+    },
+    {
+      "number": "3.31",
+      "ordinal": 31,
+      "folio": 154,
+      "pageId": "2613:1109",
+      "boardId": "2668:262",
+      "figureId": "3242:17869",
+      "captionTextId": "I3242:17869;3165:600;3242:17889;3164:51;3242:17891",
+      "captionText": "Figura 3.31 — Prodotti, McHappy Day e responsabilità sulle materie prime convivono nella pagina slovacca. Il messaggio locale affianca offerta commerciale, sostegno alle famiglie e cura.",
+      "referenceTextIds": [
+        "2668:386"
+      ]
+    },
+    {
+      "number": "3.32",
+      "ordinal": 32,
+      "folio": 155,
+      "pageId": "2613:1109",
+      "boardId": "2648:325",
+      "figureId": "3242:17896",
+      "captionTextId": "I3242:17896;3165:600;3242:17916;3164:51;3242:17918",
+      "captionText": "Figura 3.32 — Cuore, saluti quotidiani, donut e richiesta d’opinione danno alla pagina slovena un tono relazionale. La marca adatta i messaggi locali, oltre a tradurre le etichette.",
+      "referenceTextIds": [
+        "2668:397"
+      ]
+    },
+    {
+      "number": "3.33",
+      "ordinal": 33,
+      "folio": 157,
+      "pageId": "2613:1109",
+      "boardId": "2668:274",
+      "figureId": "3242:17923",
+      "captionTextId": "I3242:17923;3165:600;3242:17943;3164:51;3242:17945",
+      "captionText": "Figura 3.33 — Panini con prezzi, categorie e filtri rendono esplicita e confrontabile l’offerta russa. Il caso mostra un adattamento delle informazioni e degli strumenti disponibili durante la scelta.",
+      "referenceTextIds": [
+        "2668:403"
+      ]
+    },
+    {
+      "number": "3.34",
+      "ordinal": 34,
+      "folio": 158,
+      "pageId": "2613:1109",
+      "boardId": "2648:383",
+      "figureId": "3242:17950",
+      "captionTextId": "I3242:17950;3165:600;3242:17970;3164:51;3242:17972",
+      "captionText": "Figura 3.34 — Promozione iniziale e scheda del panino combinano un linguaggio di campagna con informazioni sugli ingredienti. Lo screenshot mostra il contenuto locale; le animazioni sono descritte nella fonte del caso.",
+      "referenceTextIds": [
+        "2668:415"
+      ]
+    },
+    {
+      "number": "3.35",
+      "ordinal": 35,
+      "folio": 160,
+      "pageId": "2613:1109",
+      "boardId": "2668:286",
+      "figureId": "3242:17977",
+      "captionTextId": "I3242:17977;3165:600;3242:17997;3164:51;3242:17999",
+      "captionText": "Figura 3.35 — Feste di compleanno, campagne e candidature hanno inviti all’azione distinti. Il pop-up rimanda ai canali ufficiali: la pagina adatta anche le informazioni utili a usare il servizio locale.",
+      "referenceTextIds": [
+        "2668:421"
+      ]
+    },
+    {
+      "number": "3.36",
+      "ordinal": 36,
+      "folio": 161,
+      "pageId": "2613:1109",
+      "boardId": "2648:441",
+      "figureId": "3242:18004",
+      "captionTextId": "I3242:18004;3165:600;3242:18024;3164:51;3242:18026",
+      "captionText": "Figura 3.36 — Prodotti, McCafé, app e informazioni sulle materie prime occupano riquadri del mosaico. La pagina cinese adatta i contenuti locali, mantenendo un’identità visiva comune.",
+      "referenceTextIds": [
+        "2668:432"
+      ]
+    },
+    {
+      "number": "3.37",
+      "ordinal": 37,
+      "folio": 162,
+      "pageId": "2613:1109",
+      "boardId": "2668:298",
+      "figureId": "3242:18032",
+      "captionTextId": "I3242:18032;3165:600;3242:18052;3164:51;3242:18055",
+      "captionText": "Figura 3.37 — Il logo identifica Alibaba.com. Gli screenshot storici successivi mostrano una localizzazione incompleta di lingua, layout e tipografia.",
+      "referenceTextIds": [
+        "2668:441"
+      ]
+    },
+    {
+      "number": "3.38",
+      "ordinal": 38,
+      "folio": 164,
+      "pageId": "2613:1109",
+      "boardId": "198:5050",
+      "figureId": "3242:18060",
+      "captionTextId": "I3242:18060;3165:600;3242:18080;3164:51;3242:18082",
+      "captionText": "Figura 3.38 — «Ship to: IT» indica la destinazione di spedizione. La lingua dell’interfaccia va verificata separatamente: qui i contenuti visibili sono in inglese. Una localizzazione efficace richiede di controllare tutti i testi, i banner e i percorsi di navigazione nella lingua scelta, senza ricondurre eventuali problemi alle caratteristiche o alle abitudini degli utenti di un determinato Paese.",
+      "referenceTextIds": [
+        "2668:449"
+      ]
+    },
+    {
+      "number": "3.39",
+      "ordinal": 39,
+      "folio": 165,
+      "pageId": "2613:1109",
+      "boardId": "2668:310",
+      "figureId": "3242:18087",
+      "captionTextId": "I3242:18087;3165:600;3242:18107;3164:51;3242:18109",
+      "captionText": "Figura 3.39 — «Carrello di ac…», «Fiera onlin…» e «Prodotti di al…» perdono parti dell’etichetta. Nella card della spedizione, testo e grafica si sovrappongono: il layout non sostiene le stringhe italiane documentate.",
+      "referenceTextIds": [
+        "2668:441"
+      ]
+    },
+    {
+      "number": "3.40",
+      "ordinal": 40,
+      "folio": 166,
+      "pageId": "2613:1109",
+      "boardId": "2668:322",
+      "figureId": "3242:18114",
+      "captionTextId": "I3242:18114;3165:600;3242:18134;3164:51;3242:18136",
+      "captionText": "Figura 3.40 — Menu e testi di categoria usano un carattere con grazie, diverso dalla homepage, e alcune etichette risultano troncate.",
+      "referenceTextIds": [
+        "2668:459"
+      ]
+    },
+    {
+      "number": "3.41",
+      "ordinal": 41,
+      "folio": 167,
+      "pageId": "2613:1109",
+      "boardId": "2761:3782",
+      "figureId": "3242:18141",
+      "captionTextId": "I3242:18141;3165:600;3242:18161;3164:51;3242:18163",
+      "captionText": "Figura 3.41 — Il menu serif, il banner e i nomi dei prodotti della categoria illuminazione mostrano trattamenti diversi. La verifica della localizzazione deve continuare dalla homepage alle pagine interne.",
+      "referenceTextIds": [
+        "2761:3806"
+      ]
+    },
+    {
+      "number": "3.42",
+      "ordinal": 42,
+      "folio": 171,
+      "pageId": "2613:1110",
+      "boardId": "198:3892",
+      "figureId": "3244:15599",
+      "captionTextId": "3244:15602",
+      "captionText": "Figura 3.42 — Lo studente chiede di liberare la rampa. Il custode vuole finire prima le scale. Lo studente fa notare che la rampa libera permette l’ingresso a tutti.\nIl bisogno segnalato avvia l’ascolto: un passo del processo inclusivo. La rampa comune rappresenta il beneficio universale.",
+      "referenceTextIds": [
+        "3126:749"
+      ]
+    },
+    {
+      "number": "3.43",
+      "ordinal": 43,
+      "folio": 173,
+      "pageId": "2613:1110",
+      "boardId": "198:3903",
+      "figureId": "4030:1505",
+      "captionTextId": "I4030:1507;3164:51;4030:1512",
+      "captionText": "Figura 3.43 — Persona Spectrum: tocco, vista, udito e parlato confrontati in condizioni permanenti, temporanee e situazionali.",
+      "referenceTextIds": [
+        "198:3473"
+      ]
+    },
+    {
+      "number": "3.44",
+      "ordinal": 44,
+      "folio": 175,
+      "pageId": "2613:1110",
+      "boardId": "3124:706",
+      "figureId": "3316:17547",
+      "captionTextId": "I3316:17547;3165:600;3316:17567;3164:51;3316:17568",
+      "captionText": "Figura 3.44 — Screen reader su smartphone. La persona esplora il contenuto attraverso gesti e sintesi vocale: la struttura semantica deve rendere disponibili nomi, ruoli e informazioni.",
+      "referenceTextIds": [
+        "3124:747"
+      ]
+    },
+    {
+      "number": "3.45",
+      "ordinal": 45,
+      "folio": 175,
+      "pageId": "2613:1110",
+      "boardId": "3124:706",
+      "figureId": "3316:17573",
+      "captionTextId": "I3316:17573;3165:600;3316:17593;3164:51;3316:17594",
+      "captionText": "Figura 3.45 — Puntatore a bocca per azionare i tasti. Il dispositivo rende possibile l’input: i comandi dell’interfaccia devono essere raggiungibili e utilizzabili anche senza mouse.",
+      "referenceTextIds": [
+        "3124:747"
+      ]
+    },
+    {
+      "number": "3.46",
+      "ordinal": 46,
+      "folio": 176,
+      "pageId": "2613:1110",
+      "boardId": "198:3924",
+      "figureId": "4030:1513",
+      "captionTextId": "I4030:1515;3164:51;4030:1520",
+      "captionText": "Figura 3.46 — Mappa completa dei criteri di successo WCAG 2.2, nella traduzione italiana.",
+      "referenceTextIds": [
+        "198:3507"
+      ]
+    },
+    {
+      "number": "3.47",
+      "ordinal": 47,
+      "folio": 178,
+      "pageId": "2613:1110",
+      "boardId": "198:3913",
+      "figureId": "3324:1227",
+      "captionTextId": "I3324:1227;3165:600;3324:1256;3164:51;3324:1259",
+      "captionText": "Figura 3.47 — Controllo del contrasto del testo e simulazione della visione dei colori negli strumenti Adobe.",
+      "referenceTextIds": [
+        "3324:1226"
+      ]
+    },
+    {
+      "number": "3.48",
+      "ordinal": 48,
+      "folio": 179,
+      "pageId": "2613:1110",
+      "boardId": "3122:539",
+      "figureId": "4030:1521",
+      "captionTextId": "I4030:1523;3164:51;4030:1528",
+      "captionText": "Figura 3.48 — Confronto simulato: un messaggio con contrasto insufficiente e una versione con testo leggibile ed errore esplicito.",
+      "referenceTextIds": [
+        "3122:580"
+      ]
+    },
+    {
+      "number": "3.49",
+      "ordinal": 49,
+      "folio": 182,
+      "pageId": "2613:1110",
+      "boardId": "3122:598",
+      "figureId": "4030:6193",
+      "captionTextId": "I4030:6195;3164:51;4030:6200",
+      "captionText": "Figura 3.49 — Confronto simulato: una casella con bordo troppo tenue e una versione con contorno riconoscibile.",
+      "referenceTextIds": [
+        "3122:657"
+      ]
+    },
+    {
+      "number": "3.50",
+      "ordinal": 50,
+      "folio": 184,
+      "pageId": "2613:1110",
+      "boardId": "3122:679",
+      "figureId": "4030:6201",
+      "captionTextId": "I4030:6203;3164:51;4030:6208",
+      "captionText": "Figura 3.50 — Confronto simulato: una prenotazione in riga rigida e una versione che si adatta allo spazio disponibile.",
+      "referenceTextIds": [
+        "3122:738"
+      ]
+    },
+    {
+      "number": "3.51",
+      "ordinal": 51,
+      "folio": 187,
+      "pageId": "2613:1110",
+      "boardId": "3124:835",
+      "figureId": "3124:877",
+      "captionTextId": "3124:881",
+      "captionText": "Figura 3.51 — Nome del colore vicino al campione e un segno di selezione rendono la scelta comprensibile anche quando le tinte sono difficili da distinguere.",
+      "referenceTextIds": [
+        "3124:876"
+      ]
+    },
+    {
+      "number": "3.52",
+      "ordinal": 52,
+      "folio": 187,
+      "pageId": "2613:1110",
+      "boardId": "3124:835",
+      "figureId": "3124:882",
+      "captionTextId": "3124:886",
+      "captionText": "Figura 3.52 — I controlli sono raggiungibili da tastiera. Il focus visibile e le azioni previste dal componente mantengono continuo il percorso.",
+      "referenceTextIds": [
+        "3124:876"
+      ]
+    },
+    {
+      "number": "3.53",
+      "ordinal": 53,
+      "folio": 187,
+      "pageId": "2613:1110",
+      "boardId": "3124:835",
+      "figureId": "3124:887",
+      "captionTextId": "3124:891",
+      "captionText": "Figura 3.53 — Sottotitoli corretti includono parlato e suoni significativi. Le informazioni visive essenziali richiedono a loro volta un’alternativa pertinente.",
+      "referenceTextIds": [
+        "3124:876"
+      ]
+    },
+    {
+      "number": "3.54",
+      "ordinal": 54,
+      "folio": 189,
+      "pageId": "2613:1110",
+      "boardId": "3122:764",
+      "figureId": "4030:6209",
+      "captionTextId": "I4030:6211;3164:51;4030:6216",
+      "captionText": "Figura 3.54 — Confronto simulato: un modulo con percorso interrotto e una versione utilizzabile da tastiera.",
+      "referenceTextIds": [
+        "3122:805"
+      ]
+    },
+    {
+      "number": "3.55",
+      "ordinal": 55,
+      "folio": 190,
+      "pageId": "2613:1110",
+      "boardId": "2811:262",
+      "figureId": "3316:17449",
+      "captionTextId": "I3316:17449;3165:600;3316:17491;3164:51;3316:17492",
+      "captionText": "Figura 3.55 — Esempio simulato: quote in CSS px, non in scala fisica di stampa. I cerchi indicano l’eccezione di spaziatura del criterio 2.5.8 AA.",
+      "referenceTextIds": [
+        "2811:290"
+      ]
+    },
+    {
+      "number": "3.56",
+      "ordinal": 56,
+      "folio": 191,
+      "pageId": "2613:1110",
+      "boardId": "3122:829",
+      "figureId": "4030:6702",
+      "captionTextId": "I4030:6704;3164:51;4030:6709",
+      "captionText": "Figura 3.56 — Confronto simulato: riordinare una lista mediante trascinamento o con comandi di spostamento.",
+      "referenceTextIds": [
+        "3122:870"
+      ]
+    },
+    {
+      "number": "3.57",
+      "ordinal": 57,
+      "folio": 193,
+      "pageId": "2613:1110",
+      "boardId": "3123:6602",
+      "figureId": "4030:6710",
+      "captionTextId": "I4030:6712;3164:51;4030:6717",
+      "captionText": "Figura 3.57 — Confronto simulato: un’alternativa testuale con il solo nome del file e una descrizione pertinente al prodotto.",
+      "referenceTextIds": [
+        "3123:6643"
+      ]
+    },
+    {
+      "number": "3.58",
+      "ordinal": 58,
+      "folio": 195,
+      "pageId": "2613:1110",
+      "boardId": "3123:6669",
+      "figureId": "4030:6718",
+      "captionTextId": "I4030:6720;3164:51;4030:6725",
+      "captionText": "Figura 3.58 — Confronto simulato: informazioni affidate al solo audio e una versione con sottotitoli e alternative pertinenti.",
+      "referenceTextIds": [
+        "3123:6710"
+      ]
+    },
+    {
+      "number": "3.59",
+      "ordinal": 59,
+      "folio": 197,
+      "pageId": "2613:1110",
+      "boardId": "3123:6734",
+      "figureId": "4030:6726",
+      "captionTextId": "I4030:6728;3164:51;4030:6733",
+      "captionText": "Figura 3.59 — Confronto simulato: testo che sembra cliccabile e un comando con nome, ruolo e stato disponibili alle tecnologie assistive.",
+      "referenceTextIds": [
+        "3123:6775"
+      ]
+    },
+    {
+      "number": "3.60",
+      "ordinal": 60,
+      "folio": 199,
+      "pageId": "2613:1110",
+      "boardId": "3123:6795",
+      "figureId": "4030:6734",
+      "captionTextId": "I4030:6736;3164:51;4030:6741",
+      "captionText": "Figura 3.60 — Confronto simulato: un messaggio di salvataggio lontano dal comando e una conferma disponibile anche allo screen reader.",
+      "referenceTextIds": [
+        "3123:6836"
+      ]
+    },
+    {
+      "number": "3.61",
+      "ordinal": 61,
+      "folio": 202,
+      "pageId": "2613:1110",
+      "boardId": "3123:6857",
+      "figureId": "4030:6742",
+      "captionTextId": "I4030:6744;3164:51;4030:6749",
+      "captionText": "Figura 3.61 — Confronto simulato: una prenotazione che richiede di ricordare i dati e una conferma con il riepilogo visibile.",
+      "referenceTextIds": [
+        "3123:6916"
+      ]
+    },
+    {
+      "number": "3.62",
+      "ordinal": 62,
+      "folio": 205,
+      "pageId": "2613:1110",
+      "boardId": "3123:6936",
+      "figureId": "4030:6750",
+      "captionTextId": "I4030:6752;3164:51;4030:6757",
+      "captionText": "Figura 3.62 — Confronto simulato: notizie in movimento senza controllo e una versione che permette di fermare e riprendere la lettura.",
+      "referenceTextIds": [
+        "3123:6977"
+      ]
+    },
+    {
+      "number": "3.63",
+      "ordinal": 63,
+      "folio": 207,
+      "pageId": "2613:1110",
+      "boardId": "3123:7005",
+      "figureId": "4030:6964",
+      "captionTextId": "I4030:6966;3164:51;4030:6971",
+      "captionText": "Figura 3.63 — Confronto simulato: un messaggio di errore generico e una spiegazione che aiuta a correggere la data.",
+      "referenceTextIds": [
+        "3123:7046"
+      ]
+    },
+    {
+      "number": "3.64",
+      "ordinal": 64,
+      "folio": 209,
+      "pageId": "2613:1110",
+      "boardId": "3123:7068",
+      "figureId": "4030:6972",
+      "captionTextId": "I4030:6974;3164:51;4030:6979",
+      "captionText": "Figura 3.64 — Confronto simulato: un accesso che blocca l’incolla e una versione che permette l’uso degli strumenti abituali.",
+      "referenceTextIds": [
+        "3123:7109"
+      ]
+    },
+    {
+      "number": "3.65",
+      "ordinal": 65,
+      "folio": 211,
+      "pageId": "2613:1110",
+      "boardId": "3123:7129",
+      "figureId": "4030:6980",
+      "captionTextId": "I4030:6982;3164:51;4030:6987",
+      "captionText": "Figura 3.65 — Confronto simulato: una sola configurazione di lettura e una versione che permette di adattare testo, movimento e densità.",
+      "referenceTextIds": [
+        "3123:7170"
+      ]
+    },
+    {
+      "number": "3.66",
+      "ordinal": 66,
+      "folio": 213,
+      "pageId": "2613:1110",
+      "boardId": "3123:7188",
+      "figureId": "4030:6988",
+      "captionTextId": "I4030:6990;3164:51;4030:6995",
+      "captionText": "Figura 3.66 — Confronto simulato: convenzioni rigide per nomi e lingue e una versione adattata ai dati necessari.",
+      "referenceTextIds": [
+        "3123:7229"
+      ]
+    },
+    {
+      "number": "3.67",
+      "ordinal": 67,
+      "folio": 216,
+      "pageId": "2613:1110",
+      "boardId": "3123:7249",
+      "figureId": "4030:6996",
+      "captionTextId": "I4030:6998;3164:51;4030:7003",
+      "captionText": "Figura 3.67 — Confronto simulato: una verifica limitata all’accesso e una prova dell’intero percorso, inclusi errori e conferma.",
+      "referenceTextIds": [
+        "3123:7308"
+      ]
+    },
+    {
+      "number": "3.68",
+      "ordinal": 68,
+      "folio": 219,
+      "pageId": "2613:1110",
+      "boardId": "3123:7334",
+      "figureId": "4030:7004",
+      "captionTextId": "I4030:7006;3164:51;4030:7011",
+      "captionText": "Figura 3.68 — Confronto simulato: una nota generica e una scheda che collega compito, ostacolo, modifica e nuova verifica.",
+      "referenceTextIds": [
+        "3123:7375"
+      ]
+    },
+    {
+      "number": "3.69",
+      "ordinal": 69,
+      "folio": 220,
+      "pageId": "2613:1110",
+      "boardId": "2811:897",
+      "figureId": "3316:17599",
+      "captionTextId": "I3316:17599;3165:600;3316:17619;3164:51;3316:17620",
+      "captionText": "Figura 3.69 — Rimappatura dei controlli. Screenshot ufficiale PlayStation / Naughty Dog; immagine acquisita l’11 ottobre 2026.",
+      "referenceTextIds": [
+        "2811:927"
+      ]
+    },
+    {
+      "number": "3.70",
+      "ordinal": 70,
+      "folio": 221,
+      "pageId": "2613:1110",
+      "boardId": "2811:937",
+      "figureId": "3316:17625",
+      "captionTextId": "I3316:17625;3165:600;3316:17645;3164:51;3316:17646",
+      "captionText": "Figura 3.70 — Presentazione ad alto contrasto. Screenshot ufficiale PlayStation / Naughty Dog; immagine acquisita l’11 ottobre 2026.",
+      "referenceTextIds": [
+        "2811:962"
+      ]
+    },
+    {
+      "number": "3.71",
+      "ordinal": 71,
+      "folio": 229,
+      "pageId": "2613:1111",
+      "boardId": "198:4599",
+      "figureId": "3238:15877",
+      "captionTextId": "I3238:15877;3165:600;3238:15897;3164:51;3238:15900",
+      "captionText": "Figura 3.71 — Moodboard fisica.",
+      "referenceTextIds": [
+        "2402:1124"
+      ]
+    },
+    {
+      "number": "3.72",
+      "ordinal": 72,
+      "folio": 229,
+      "pageId": "2613:1111",
+      "boardId": "198:4599",
+      "figureId": "3238:15907",
+      "captionTextId": "I3238:15907;3165:600;3238:15927;3164:51;3238:15930",
+      "captionText": "Figura 3.72 — Moodboard digitale.",
+      "referenceTextIds": [
+        "2402:1127"
+      ]
+    },
+    {
+      "number": "3.73",
+      "ordinal": 73,
+      "folio": 232,
+      "pageId": "2613:1112",
+      "boardId": "198:4344",
+      "figureId": "4019:12136",
+      "captionTextId": "I4019:12136;3165:600;4019:12138;3164:51;4019:12140",
+      "captionText": "Figura 3.73 — Intervalli costanti suggeriscono una sequenza continua; uno spazio maggiore separa due gruppi di tre elementi.",
+      "referenceTextIds": [
+        "I3981:2615;3030:536;3981:2619"
+      ]
+    },
+    {
+      "number": "3.74",
+      "ordinal": 74,
+      "folio": 233,
+      "pageId": "2613:1112",
+      "boardId": "198:4912",
+      "figureId": "3239:17771",
+      "captionTextId": "I3239:17771;3165:600;3239:17792;3164:51;3239:17795",
+      "captionText": "Figura 3.74 — Black Swan: una composizione giocata su forma, colore e contrasto.",
+      "referenceTextIds": [
+        "I3981:2620;3030:536;3981:2624"
+      ]
+    },
+    {
+      "number": "3.75",
+      "ordinal": 75,
+      "folio": 236,
+      "pageId": "2613:1112",
+      "boardId": "3721:1964",
+      "figureId": "3948:554",
+      "captionTextId": "I3948:554;3165:600;3948:622;3164:51;3948:623",
+      "captionText": "Figura 3.75 — Gli stessi punti, con uguale numero, dimensione e colore, appaiono distribuiti uniformemente oppure raccolti in coppie: cambiano soltanto gli intervalli.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.76",
+      "ordinal": 76,
+      "folio": 238,
+      "pageId": "2613:1112",
+      "boardId": "198:4238",
+      "figureId": "3948:21086",
+      "captionTextId": "I3948:21086;3165:600;3948:21104;3164:51;3948:21105",
+      "captionText": "Figura 3.76 — Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.77",
+      "ordinal": 77,
+      "folio": 239,
+      "pageId": "2613:1112",
+      "boardId": "3864:2018",
+      "figureId": "3948:21118",
+      "captionTextId": "I3948:21118;3165:600;3948:21144;3164:51;3948:21145",
+      "captionText": "Figura 3.77 — Unilever: simboli distinti riuniti nella sagoma di una U.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.78",
+      "ordinal": 78,
+      "folio": 240,
+      "pageId": "2613:1112",
+      "boardId": "3863:2018",
+      "figureId": "3948:21150",
+      "captionTextId": "I3948:21150;3165:600;3948:21168;3164:51;3948:21169",
+      "captionText": "Figura 3.78 — Gli acini più vicini si leggono come grappoli distinti; gli intervalli più ampi separano i gruppi. Anche colore, sovrapposizioni e connessioni contribuiscono al raggruppamento.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.79",
+      "ordinal": 79,
+      "folio": 241,
+      "pageId": "2613:1112",
+      "boardId": "3897:2088",
+      "figureId": "3948:21174",
+      "captionTextId": "I3948:21174;3165:600;3948:21192;3164:51;3948:21193",
+      "captionText": "Figura 3.79 — Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.80",
+      "ordinal": 80,
+      "folio": 242,
+      "pageId": "2613:1112",
+      "boardId": "3417:1097",
+      "figureId": "3948:21198",
+      "captionTextId": "I3948:21198;3165:600;3948:21216;3164:51;3948:21217",
+      "captionText": "Figura 3.80 — Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.81",
+      "ordinal": 81,
+      "folio": 243,
+      "pageId": "2613:1112",
+      "boardId": "3692:2327",
+      "figureId": "3948:21222",
+      "captionTextId": "I3948:21222;3165:600;3948:21240;3164:51;3948:21241",
+      "captionText": "Figura 3.81 — Algida: la vicinanza fra prodotto e marchio rende riconoscibile ogni gruppo del catalogo.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.82",
+      "ordinal": 82,
+      "folio": 244,
+      "pageId": "2613:1112",
+      "boardId": "3897:2106",
+      "figureId": "3948:21246",
+      "captionTextId": "I3948:21246;3165:600;3948:21264;3164:51;3948:21265",
+      "captionText": "Figura 3.82 — GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.83",
+      "ordinal": 83,
+      "folio": 244,
+      "pageId": "2613:1112",
+      "boardId": "3897:2106",
+      "figureId": "3948:21269",
+      "captionTextId": "I3948:21269;3165:600;3948:21287;3164:51;3948:21288",
+      "captionText": "Figura 3.83 — Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.84",
+      "ordinal": 84,
+      "folio": 245,
+      "pageId": "2613:1112",
+      "boardId": "3721:2140",
+      "figureId": "3948:21355",
+      "captionTextId": "I3948:21355;3165:600;3948:21435;3164:51;3948:21436",
+      "captionText": "Figura 3.84 — Nella stessa griglia, posizioni e distanze restano costanti. Alternare il colore per colonne o per righe fa emergere raggruppamenti differenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.85",
+      "ordinal": 85,
+      "folio": 247,
+      "pageId": "2613:1112",
+      "boardId": "198:4250",
+      "figureId": "3948:21441",
+      "captionTextId": "I3948:21441;3165:600;3948:21459;3164:51;3948:21460",
+      "captionText": "Figura 3.85 — AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.86",
+      "ordinal": 86,
+      "folio": 248,
+      "pageId": "2613:1112",
+      "boardId": "3864:2045",
+      "figureId": "3948:21466",
+      "captionTextId": "I3948:21466;3165:600;3948:21485;3164:51;3948:21486",
+      "captionText": "Figura 3.86 — Audi: quattro anelli con forma e peso visivo comuni.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.87",
+      "ordinal": 87,
+      "folio": 249,
+      "pageId": "2613:1112",
+      "boardId": "3863:2038",
+      "figureId": "3948:21491",
+      "captionTextId": "I3948:21491;3165:600;3948:21509;3164:51;3948:21510",
+      "captionText": "Figura 3.87 — Fra biglie mescolate, colori e superfici simili permettono di ritrovare famiglie visive anche quando gli elementi non sono tutti adiacenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.88",
+      "ordinal": 88,
+      "folio": 250,
+      "pageId": "2613:1112",
+      "boardId": "3897:2127",
+      "figureId": "3948:21515",
+      "captionTextId": "I3948:21515;3165:600;3948:21533;3164:51;3948:21534",
+      "captionText": "Figura 3.88 — Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.89",
+      "ordinal": 89,
+      "folio": 251,
+      "pageId": "2613:1112",
+      "boardId": "3417:1199",
+      "figureId": "3948:21539",
+      "captionTextId": "I3948:21539;3165:600;3948:21557;3164:51;3948:21558",
+      "captionText": "Figura 3.89 — AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.90",
+      "ordinal": 90,
+      "folio": 251,
+      "pageId": "2613:1112",
+      "boardId": "3417:1199",
+      "figureId": "3948:21562",
+      "captionTextId": "I3948:21562;3165:600;3948:21580;3164:51;3948:21581",
+      "captionText": "Figura 3.90 — Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.91",
+      "ordinal": 91,
+      "folio": 252,
+      "pageId": "2613:1112",
+      "boardId": "3804:2037",
+      "figureId": "3948:21586",
+      "captionTextId": "I3948:21586;3165:600;3948:21604;3164:51;3948:21605",
+      "captionText": "Figura 3.91 — Api&Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.92",
+      "ordinal": 92,
+      "folio": 252,
+      "pageId": "2613:1112",
+      "boardId": "3804:2037",
+      "figureId": "3948:21609",
+      "captionTextId": "I3948:21609;3165:600;3948:21627;3164:51;3948:21628",
+      "captionText": "Figura 3.92 — Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.93",
+      "ordinal": 93,
+      "folio": 253,
+      "pageId": "2613:1112",
+      "boardId": "3897:2148",
+      "figureId": "3948:21633",
+      "captionTextId": "I3948:21633;3165:600;3948:21651;3164:51;3948:21652",
+      "captionText": "Figura 3.93 — Trello: le schede ripetono immagine, titolo e descrizione.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.94",
+      "ordinal": 94,
+      "folio": 253,
+      "pageId": "2613:1112",
+      "boardId": "3897:2148",
+      "figureId": "3948:21656",
+      "captionTextId": "I3948:21656;3165:600;3948:21674;3164:51;3948:21675",
+      "captionText": "Figura 3.94 — Amazon: titoli, riquadri e immagini ripetono formati coerenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.95",
+      "ordinal": 95,
+      "folio": 254,
+      "pageId": "2613:1112",
+      "boardId": "3721:2282",
+      "figureId": "3948:21704",
+      "captionTextId": "I3948:21704;3165:600;3948:21746;3164:51;3948:21747",
+      "captionText": "Figura 3.95 — Tre istanti della stessa configurazione: alcuni punti si spostano insieme, conservando le distanze interne; gli altri restano fermi. La sequenza rende osservabile il cambiamento concorde.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.96",
+      "ordinal": 96,
+      "folio": 256,
+      "pageId": "2613:1112",
+      "boardId": "198:4261",
+      "figureId": "3948:21762",
+      "captionTextId": "I3948:21762;3165:600;3948:21790;3164:51;3948:21791",
+      "captionText": "Figura 3.96 — Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.97",
+      "ordinal": 97,
+      "folio": 257,
+      "pageId": "2613:1112",
+      "boardId": "3864:2073",
+      "figureId": "3948:21809",
+      "captionTextId": "I3948:21809;3165:600;3948:21842;3164:51;3948:21843",
+      "captionText": "Figura 3.97 — Google Dots, stato Thinking: viste complete e dettagli della stessa rotazione comune, a 6,5000 s; 6,6167 s; 6,7667 s.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.98",
+      "ordinal": 98,
+      "folio": 258,
+      "pageId": "2613:1112",
+      "boardId": "3863:2058",
+      "figureId": "3948:21848",
+      "captionTextId": "I3948:21848;3165:600;3948:21866;3164:51;3948:21867",
+      "captionText": "Figura 3.98 — Posture e orientamento delle biciclette suggeriscono una direzione condivisa nel peloton. La fotografia fissa richiama il destino comune; per osservarlo direttamente serve una sequenza in movimento.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.99",
+      "ordinal": 99,
+      "folio": 259,
+      "pageId": "2613:1112",
+      "boardId": "3897:2169",
+      "figureId": "3948:21872",
+      "captionTextId": "I3948:21872;3165:600;3948:21890;3164:51;3948:21891",
+      "captionText": "Figura 3.99 — Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.100",
+      "ordinal": 100,
+      "folio": 259,
+      "pageId": "2613:1112",
+      "boardId": "3897:2169",
+      "figureId": "3948:21895",
+      "captionTextId": "I3948:21895;3165:600;3948:21913;3164:51;3948:21914",
+      "captionText": "Figura 3.100 — Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.101",
+      "ordinal": 101,
+      "folio": 260,
+      "pageId": "2613:1112",
+      "boardId": "3804:2047",
+      "figureId": "3948:21919",
+      "captionTextId": "I3948:21919;3165:600;3948:21937;3164:51;3948:21938",
+      "captionText": "Figura 3.101 — Carousel Bootstrap: immagine, titolo e testo appartengono alla stessa slide.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.102",
+      "ordinal": 102,
+      "folio": 260,
+      "pageId": "2613:1112",
+      "boardId": "3804:2047",
+      "figureId": "3948:21952",
+      "captionTextId": "I3948:21952;3165:600;3948:21979;3164:51;3948:21980",
+      "captionText": "Figura 3.102 — Durante la transizione, immagine e didascalia scorrono insieme; i controlli restano fermi.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.103",
+      "ordinal": 103,
+      "folio": 261,
+      "pageId": "2613:1112",
+      "boardId": "3897:2187",
+      "figureId": "3948:21985",
+      "captionTextId": "I3948:21985;3165:600;3948:22003;3164:51;3948:22004",
+      "captionText": "Figura 3.103 — Swiper: uno stato reale della traccia durante lo stesso trascinamento.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.104",
+      "ordinal": 104,
+      "folio": 261,
+      "pageId": "2613:1112",
+      "boardId": "3897:2187",
+      "figureId": "3948:22017",
+      "captionTextId": "I3948:22017;3165:600;3948:22044;3164:51;3948:22045",
+      "captionText": "Figura 3.104 — Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra gli screenshot; le distanze reciproche restano costanti.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.105",
+      "ordinal": 105,
+      "folio": 262,
+      "pageId": "2613:1112",
+      "boardId": "3721:2432",
+      "figureId": "3948:22088",
+      "captionTextId": "I3948:22088;3165:600;3948:22144;3164:51;3948:22145",
+      "captionText": "Figura 3.105 — Due percorsi di punti si incrociano. La direzione regolare favorisce la lettura di due andamenti continui, invece di frammenti che cambiano bruscamente direzione.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.106",
+      "ordinal": 106,
+      "folio": 264,
+      "pageId": "2613:1112",
+      "boardId": "198:4273",
+      "figureId": "3948:22150",
+      "captionTextId": "I3948:22150;3165:600;3948:22168;3164:51;3948:22169",
+      "captionText": "Figura 3.106 — Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nelle pagine successive.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.107",
+      "ordinal": 107,
+      "folio": 265,
+      "pageId": "2613:1112",
+      "boardId": "3864:2114",
+      "figureId": "3948:22175",
+      "captionTextId": "I3948:22175;3165:600;3948:22194;3164:51;3948:22195",
+      "captionText": "Figura 3.107 — Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.108",
+      "ordinal": 108,
+      "folio": 266,
+      "pageId": "2613:1112",
+      "boardId": "3863:2078",
+      "figureId": "3948:22200",
+      "captionTextId": "I3948:22200;3165:600;3948:22218;3164:51;3948:22219",
+      "captionText": "Figura 3.108 — Le linee della carreggiata accompagnano lo sguardo lungo la curva: i tratti successivi si leggono come un percorso continuo che prosegue in profondità.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.109",
+      "ordinal": 109,
+      "folio": 267,
+      "pageId": "2613:1112",
+      "boardId": "3897:2217",
+      "figureId": "3948:22224",
+      "captionTextId": "I3948:22224;3165:600;3948:22242;3164:51;3948:22243",
+      "captionText": "Figura 3.109 — MINI: il cavo prosegue in curve regolari e richiama una strada.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.110",
+      "ordinal": 110,
+      "folio": 268,
+      "pageId": "2613:1112",
+      "boardId": "3804:2065",
+      "figureId": "3948:22248",
+      "captionTextId": "I3948:22248;3165:600;3948:22266;3164:51;3948:22267",
+      "captionText": "Figura 3.110 — Api&Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.111",
+      "ordinal": 111,
+      "folio": 269,
+      "pageId": "2613:1112",
+      "boardId": "3897:2235",
+      "figureId": "3948:22272",
+      "captionTextId": "I3948:22272;3165:600;3948:22290;3164:51;3948:22291",
+      "captionText": "Figura 3.111 — USWDS: segmenti e tappe proseguono sullo stesso asse.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.112",
+      "ordinal": 112,
+      "folio": 269,
+      "pageId": "2613:1112",
+      "boardId": "3897:2235",
+      "figureId": "3948:22295",
+      "captionTextId": "I3948:22295;3165:600;3948:22313;3164:51;3948:22314",
+      "captionText": "Figura 3.112 — Burger King: le promozioni proseguono lungo una stessa direzione.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.113",
+      "ordinal": 113,
+      "folio": 270,
+      "pageId": "2613:1112",
+      "boardId": "3721:2461",
+      "figureId": "3948:22367",
+      "captionTextId": "I3948:22367;3165:600;3948:22433;3164:51;3948:22434",
+      "captionText": "Figura 3.113 — Punti separati suggeriscono un cerchio e un quadrato. Le interruzioni lasciano riconoscibile il contorno complessivo, pur senza disegnarlo interamente.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.114",
+      "ordinal": 114,
+      "folio": 272,
+      "pageId": "2613:1112",
+      "boardId": "198:4285",
+      "figureId": "3948:22439",
+      "captionTextId": "I3948:22439;3165:600;3948:22457;3164:51;3948:22458",
+      "captionText": "Figura 3.114 — Bootstrap, dettaglio reale dello spinner: l’arco aperto suggerisce un anello. Nelle pagine successive, una vista completa della stessa documentazione.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.115",
+      "ordinal": 115,
+      "folio": 273,
+      "pageId": "2613:1112",
+      "boardId": "3864:2142",
+      "figureId": "3948:22478",
+      "captionTextId": "I3948:22478;3165:600;3948:22511;3164:51;3948:22512",
+      "captionText": "Figura 3.115 — WWF: il panda si completa oltre i tratti effettivamente disegnati.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.116",
+      "ordinal": 116,
+      "folio": 274,
+      "pageId": "2613:1112",
+      "boardId": "3863:2098",
+      "figureId": "3948:22517",
+      "captionTextId": "I3948:22517;3165:600;3948:22535;3164:51;3948:22536",
+      "captionText": "Figura 3.116 — La rete interrompe porzioni del gatto, che viene comunque percepito come un unico animale. È un completamento amodale dietro un ostacolo, affine alla chiusura di contorni incompleti.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.117",
+      "ordinal": 117,
+      "folio": 275,
+      "pageId": "2613:1112",
+      "boardId": "3897:2256",
+      "figureId": "3948:22541",
+      "captionTextId": "I3948:22541;3165:600;3948:22559;3164:51;3948:22560",
+      "captionText": "Figura 3.117 — Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.118",
+      "ordinal": 118,
+      "folio": 276,
+      "pageId": "2613:1112",
+      "boardId": "3919:2088",
+      "figureId": "3948:22565",
+      "captionTextId": "I3948:22565;3165:600;3948:22583;3164:51;3948:22584",
+      "captionText": "Figura 3.118 — Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.119",
+      "ordinal": 119,
+      "folio": 277,
+      "pageId": "2613:1112",
+      "boardId": "3804:2072",
+      "figureId": "3948:22589",
+      "captionTextId": "I3948:22589;3165:600;3948:22607;3164:51;3948:22608",
+      "captionText": "Figura 3.119 — Bootstrap: lo spinner suggerisce un anello con un contorno aperto. La rotazione e la convenzione appresa ne comunicano la funzione di caricamento.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.120",
+      "ordinal": 120,
+      "folio": 278,
+      "pageId": "2613:1112",
+      "boardId": "3897:2277",
+      "figureId": "3948:22613",
+      "captionTextId": "I3948:22613;3165:600;3948:22631;3164:51;3948:22632",
+      "captionText": "Figura 3.120 — Carbon: un arco incompleto suggerisce un anello.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.121",
+      "ordinal": 121,
+      "folio": 278,
+      "pageId": "2613:1112",
+      "boardId": "3897:2277",
+      "figureId": "3948:22636",
+      "captionTextId": "I3948:22636;3165:600;3948:22654;3164:51;3948:22655",
+      "captionText": "Figura 3.121 — Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.122",
+      "ordinal": 122,
+      "folio": 279,
+      "pageId": "2613:1112",
+      "boardId": "3721:2472",
+      "figureId": "3948:22684",
+      "captionTextId": "I3948:22684;3165:600;3948:22726;3164:51;3948:22727",
+      "captionText": "Figura 3.122 — Le coppie di punti corrispondono rispetto all’asse verticale. Nel confronto, gli stessi elementi perdono la disposizione speculare: simmetria e numero degli elementi sono variabili distinte.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.123",
+      "ordinal": 123,
+      "folio": 281,
+      "pageId": "2613:1112",
+      "boardId": "198:4297",
+      "figureId": "3948:22732",
+      "captionTextId": "I3948:22732;3165:600;3948:22750;3164:51;3948:22751",
+      "captionText": "Figura 3.123 — Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale. Si corrispondono le posizioni, mentre i testi sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.124",
+      "ordinal": 124,
+      "folio": 282,
+      "pageId": "2613:1112",
+      "boardId": "3864:2169",
+      "figureId": "3948:22757",
+      "captionTextId": "I3948:22757;3165:600;3948:22776;3164:51;3948:22777",
+      "captionText": "Figura 3.124 — Volkswagen, 2019: un asse verticale organizza l’emblema.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.125",
+      "ordinal": 125,
+      "folio": 283,
+      "pageId": "2613:1112",
+      "boardId": "3863:2118",
+      "figureId": "3948:22782",
+      "captionTextId": "I3948:22782;3165:600;3948:22800;3164:51;3948:22801",
+      "captionText": "Figura 3.125 — L’asse centrale riunisce cupola, facciata e minareti in un insieme bilanciato; le corrispondenze fra destra e sinistra rafforzano la lettura unitaria dell’edificio.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.126",
+      "ordinal": 126,
+      "folio": 284,
+      "pageId": "2613:1112",
+      "boardId": "3897:2295",
+      "figureId": "3948:22806",
+      "captionTextId": "I3948:22806;3165:600;3948:22824;3164:51;3948:22825",
+      "captionText": "Figura 3.126 — HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.127",
+      "ordinal": 127,
+      "folio": 285,
+      "pageId": "2613:1112",
+      "boardId": "3692:2376",
+      "figureId": "3948:22830",
+      "captionTextId": "I3948:22830;3165:600;3948:22848;3164:51;3948:22849",
+      "captionText": "Figura 3.127 — Adham Dannaway: due metà differenti compongono un volto intorno a un asse centrale.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.128",
+      "ordinal": 128,
+      "folio": 285,
+      "pageId": "2613:1112",
+      "boardId": "3692:2376",
+      "figureId": "3948:22853",
+      "captionTextId": "I3948:22853;3165:600;3948:22871;3164:51;3948:22872",
+      "captionText": "Figura 3.128 — Dettaglio della stessa immagine: i tratti del volto trovano corrispondenza ai due lati; i contenuti delle metà sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.129",
+      "ordinal": 129,
+      "folio": 286,
+      "pageId": "2613:1112",
+      "boardId": "3804:2087",
+      "figureId": "3948:22877",
+      "captionTextId": "I3948:22877;3165:600;3948:22895;3164:51;3948:22896",
+      "captionText": "Figura 3.129 — Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.130",
+      "ordinal": 130,
+      "folio": 286,
+      "pageId": "2613:1112",
+      "boardId": "3804:2087",
+      "figureId": "3948:22900",
+      "captionTextId": "I3948:22900;3165:600;3948:22918;3164:51;3948:22919",
+      "captionText": "Figura 3.130 — Dettaglio: le posizioni si corrispondono ai due lati, mentre testi e lingue sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.131",
+      "ordinal": 131,
+      "folio": 287,
+      "pageId": "2613:1112",
+      "boardId": "3897:2313",
+      "figureId": "3948:22924",
+      "captionTextId": "I3948:22924;3165:600;3948:22942;3164:51;3948:22943",
+      "captionText": "Figura 3.131 — OBS: controlli uguali e centri equidistanti; i simboli sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.132",
+      "ordinal": 132,
+      "folio": 288,
+      "pageId": "2613:1112",
+      "boardId": "3721:2523",
+      "figureId": "3948:22956",
+      "captionTextId": "I3948:22956;3165:600;3948:22982;3164:51;3948:22983",
+      "captionText": "Figura 3.132 — Lo stesso contorno separa un vaso centrale da due profili laterali. Invertire i colori aiuta a esplorare le possibili letture di figura e sfondo.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.133",
+      "ordinal": 133,
+      "folio": 290,
+      "pageId": "2613:1112",
+      "boardId": "198:4321",
+      "figureId": "3948:22988",
+      "captionTextId": "I3948:22988;3165:600;3948:23006;3164:51;3948:23007",
+      "captionText": "Figura 3.133 — MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.134",
+      "ordinal": 134,
+      "folio": 291,
+      "pageId": "2613:1112",
+      "boardId": "3864:2224",
+      "figureId": "3948:23013",
+      "captionTextId": "I3948:23013;3165:600;3948:23032;3164:51;3948:23033",
+      "captionText": "Figura 3.134 — FedEx: lo spazio fra E e x diventa una freccia.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.135",
+      "ordinal": 135,
+      "folio": 292,
+      "pageId": "2613:1112",
+      "boardId": "3863:2158",
+      "figureId": "3948:23038",
+      "captionTextId": "I3948:23038;3165:600;3948:23056;3164:51;3948:23057",
+      "captionText": "Figura 3.135 — Le sagome scure degli uccelli emergono sull’acqua luminosa: il contrasto e il contorno condiviso separano le figure dallo sfondo.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.136",
+      "ordinal": 136,
+      "folio": 293,
+      "pageId": "2613:1112",
+      "boardId": "3897:2370",
+      "figureId": "3948:23062",
+      "captionTextId": "I3948:23062;3165:600;3948:23080;3164:51;3948:23081",
+      "captionText": "Figura 3.136 — Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.137",
+      "ordinal": 137,
+      "folio": 294,
+      "pageId": "2613:1112",
+      "boardId": "3804:2107",
+      "figureId": "3948:23086",
+      "captionTextId": "I3948:23086;3165:600;3948:23104;3164:51;3948:23105",
+      "captionText": "Figura 3.137 — MDN: il campo di ricerca emerge davanti alla pagina oscurata e sfocata.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.138",
+      "ordinal": 138,
+      "folio": 294,
+      "pageId": "2613:1112",
+      "boardId": "3804:2107",
+      "figureId": "3948:23109",
+      "captionTextId": "I3948:23109;3165:600;3948:23127;3164:51;3948:23128",
+      "captionText": "Figura 3.138 — Dettaglio: contorno e contrasto separano il campo attivo dal contesto sottostante.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.139",
+      "ordinal": 139,
+      "folio": 295,
+      "pageId": "2613:1112",
+      "boardId": "3897:2388",
+      "figureId": "3948:23133",
+      "captionTextId": "I3948:23133;3165:600;3948:23151;3164:51;3948:23152",
+      "captionText": "Figura 3.139 — Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.140",
+      "ordinal": 140,
+      "folio": 295,
+      "pageId": "2613:1112",
+      "boardId": "3897:2388",
+      "figureId": "3948:23156",
+      "captionTextId": "I3948:23156;3165:600;3948:23174;3164:51;3948:23175",
+      "captionText": "Figura 3.140 — Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.141",
+      "ordinal": 141,
+      "folio": 296,
+      "pageId": "2613:1112",
+      "boardId": "3721:2536",
+      "figureId": "3948:23216",
+      "captionTextId": "I3948:23216;3165:600;3948:23270;3164:51;3948:23271",
+      "captionText": "Figura 3.141 — I punti suggeriscono una lettera incompleta. La stessa configurazione ruotata può essere meno familiare: disposizione dei tratti e conoscenza dell’alfabeto concorrono al riconoscimento.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.142",
+      "ordinal": 142,
+      "folio": 298,
+      "pageId": "2613:1112",
+      "boardId": "198:4333",
+      "figureId": "3948:23276",
+      "captionTextId": "I3948:23276;3165:600;3948:23294;3164:51;3948:23295",
+      "captionText": "Figura 3.142 — GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.143",
+      "ordinal": 143,
+      "folio": 299,
+      "pageId": "2613:1112",
+      "boardId": "3864:2252",
+      "figureId": "3948:23301",
+      "captionTextId": "I3948:23301;3165:600;3948:23322;3164:51;3948:23323",
+      "captionText": "Figura 3.143 — Goodwill: marchio regionale completo e dettaglio della Smiling G. La stessa g si legge come lettera e volto sorridente.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.144",
+      "ordinal": 144,
+      "folio": 300,
+      "pageId": "2613:1112",
+      "boardId": "3863:2178",
+      "figureId": "3948:23328",
+      "captionTextId": "I3948:23328;3165:600;3948:23346;3164:51;3948:23347",
+      "captionText": "Figura 3.144 — In Irlanda «STAD» significa «STOP». Chi conosce la lingua legge la parola; chi non la conosce può inferirne la funzione dal contesto stradale appreso.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.145",
+      "ordinal": 145,
+      "folio": 301,
+      "pageId": "2613:1112",
+      "boardId": "3897:2409",
+      "figureId": "3948:23352",
+      "captionTextId": "I3948:23352;3165:600;3948:23370;3164:51;3948:23371",
+      "captionText": "Figura 3.145 — Coca-Cola: colore e marchio richiamano associazioni apprese con la marca.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.146",
+      "ordinal": 146,
+      "folio": 302,
+      "pageId": "2613:1112",
+      "boardId": "3804:2117",
+      "figureId": "3948:23376",
+      "captionTextId": "I3948:23376;3165:600;3948:23394;3164:51;3948:23395",
+      "captionText": "Figura 3.146 — GOV.UK: il rosso richiama una convenzione di errore; il testo precisa il problema.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.147",
+      "ordinal": 147,
+      "folio": 302,
+      "pageId": "2613:1112",
+      "boardId": "3804:2117",
+      "figureId": "3948:23399",
+      "captionTextId": "I3948:23399;3165:600;3948:23417;3164:51;3948:23418",
+      "captionText": "Figura 3.147 — Dettaglio: i bordi rossi associano lo stato di errore ai campi della risposta.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.148",
+      "ordinal": 148,
+      "folio": 303,
+      "pageId": "2613:1112",
+      "boardId": "3897:2430",
+      "figureId": "3948:23423",
+      "captionTextId": "I3948:23423;3165:600;3948:23441;3164:51;3948:23442",
+      "captionText": "Figura 3.148 — IKEA: i simboli della testata richiamano convenzioni d’uso apprese.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.149",
+      "ordinal": 149,
+      "folio": 303,
+      "pageId": "2613:1112",
+      "boardId": "3897:2430",
+      "figureId": "3948:23446",
+      "captionTextId": "I3948:23446;3165:600;3948:23464;3164:51;3948:23465",
+      "captionText": "Figura 3.149 — Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.150",
+      "ordinal": 150,
+      "folio": 304,
+      "pageId": "2613:1112",
+      "boardId": "3919:2092",
+      "figureId": "3948:23470",
+      "captionTextId": "I3948:23470;3165:600;3948:23488;3164:51;3948:23489",
+      "captionText": "Figura 3.150 — Oxfam: le icone social richiamano servizi già conosciuti.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.151",
+      "ordinal": 151,
+      "folio": 304,
+      "pageId": "2613:1112",
+      "boardId": "3919:2092",
+      "figureId": "3948:23493",
+      "captionTextId": "I3948:23493;3165:600;3948:23511;3164:51;3948:23512",
+      "captionText": "Figura 3.151 — Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.152",
+      "ordinal": 152,
+      "folio": 305,
+      "pageId": "2613:1112",
+      "boardId": "3721:2488",
+      "figureId": "3948:23547",
+      "captionTextId": "I3948:23547;3165:600;3948:23595;3164:51;3948:23596",
+      "captionText": "Figura 3.152 — Posizione e distanza dei punti restano identiche. Aggiungendo due contorni, gli elementi racchiusi nella stessa area formano gruppi riconoscibili.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.153",
+      "ordinal": 153,
+      "folio": 307,
+      "pageId": "2613:1112",
+      "boardId": "198:4309",
+      "figureId": "3948:23601",
+      "captionTextId": "I3948:23601;3165:600;3948:23619;3164:51;3948:23620",
+      "captionText": "Figura 3.153 — Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.154",
+      "ordinal": 154,
+      "folio": 308,
+      "pageId": "2613:1112",
+      "boardId": "3864:2197",
+      "figureId": "3948:23632",
+      "captionTextId": "I3948:23632;3165:600;3948:23657;3164:51;3948:23658",
+      "captionText": "Figura 3.154 — LEGO: la superficie rossa riunisce il marchio in una regione comune.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.155",
+      "ordinal": 155,
+      "folio": 309,
+      "pageId": "2613:1112",
+      "boardId": "3863:2138",
+      "figureId": "3948:23663",
+      "captionTextId": "I3948:23663;3165:600;3948:23681;3164:51;3948:23682",
+      "captionText": "Figura 3.155 — Gli scomparti del bento raccolgono ingredienti diversi: il confine del contenitore li fa leggere come gruppi, anche quando colore e forma non coincidono.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.156",
+      "ordinal": 156,
+      "folio": 310,
+      "pageId": "2613:1112",
+      "boardId": "3897:2331",
+      "figureId": "3948:23687",
+      "captionTextId": "I3948:23687;3165:600;3948:23705;3164:51;3948:23706",
+      "captionText": "Figura 3.156 — Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.157",
+      "ordinal": 157,
+      "folio": 310,
+      "pageId": "2613:1112",
+      "boardId": "3897:2331",
+      "figureId": "3948:23710",
+      "captionTextId": "I3948:23710;3165:600;3948:23728;3164:51;3948:23729",
+      "captionText": "Figura 3.157 — Dettaglio dello stesso screenshot: ogni pannello riunisce simbolo, nome e valore.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.158",
+      "ordinal": 158,
+      "folio": 311,
+      "pageId": "2613:1112",
+      "boardId": "198:4884",
+      "figureId": "3948:23734",
+      "captionTextId": "I3948:23734;3165:600;3948:23752;3164:51;3948:23753",
+      "captionText": "Figura 3.158 — Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.159",
+      "ordinal": 159,
+      "folio": 312,
+      "pageId": "2613:1112",
+      "boardId": "3692:2386",
+      "figureId": "3948:23758",
+      "captionTextId": "I3948:23758;3165:600;3948:23776;3164:51;3948:23777",
+      "captionText": "Figura 3.159 — Xbox: fotografie e superfici verdi raccolgono i contenuti in regioni visive distinte.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.160",
+      "ordinal": 160,
+      "folio": 312,
+      "pageId": "2613:1112",
+      "boardId": "3692:2386",
+      "figureId": "3948:23781",
+      "captionTextId": "I3948:23781;3165:600;3948:23799;3164:51;3948:23800",
+      "captionText": "Figura 3.160 — Dettaglio della stessa immagine: fotografia, testo e azione condividono l’area dedicata alla singola proposta.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.161",
+      "ordinal": 161,
+      "folio": 313,
+      "pageId": "2613:1112",
+      "boardId": "3804:2097",
+      "figureId": "3948:23805",
+      "captionTextId": "I3948:23805;3165:600;3948:23823;3164:51;3948:23824",
+      "captionText": "Figura 3.161 — Notion: una regione chiara e una azzurra raccolgono due gruppi di piani.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.162",
+      "ordinal": 162,
+      "folio": 313,
+      "pageId": "2613:1112",
+      "boardId": "3804:2097",
+      "figureId": "3948:23828",
+      "captionTextId": "I3948:23828;3165:600;3948:23846;3164:51;3948:23847",
+      "captionText": "Figura 3.162 — Dettaglio: il bordo comune racchiude Free e Plus; lo spazio interno distingue le due proposte.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.163",
+      "ordinal": 163,
+      "folio": 314,
+      "pageId": "2613:1112",
+      "boardId": "3897:2349",
+      "figureId": "3948:23852",
+      "captionTextId": "I3948:23852;3165:600;3948:23870;3164:51;3948:23871",
+      "captionText": "Figura 3.163 — Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.164",
+      "ordinal": 164,
+      "folio": 314,
+      "pageId": "2613:1112",
+      "boardId": "3897:2349",
+      "figureId": "3948:23875",
+      "captionTextId": "I3948:23875;3165:600;3948:23893;3164:51;3948:23894",
+      "captionText": "Figura 3.164 — Pane&Trita: la superficie rossa raccoglie marchio e navigazione.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.165",
+      "ordinal": 165,
+      "folio": 315,
+      "pageId": "2613:1112",
+      "boardId": "3451:1154",
+      "figureId": "3451:1253",
+      "captionTextId": "I3451:1253;3165:600;3451:1295;3164:51;3451:1297",
+      "captionText": "Figura 3.165 — a. La vicinanza suggerisce coppie. b. Il colore sostiene le stesse coppie. c. Colore e vicinanza suggeriscono raggruppamenti diversi.",
+      "referenceTextIds": [
+        "I3976:2227;3030:536;3976:2231"
+      ]
+    },
+    {
+      "number": "3.166",
+      "ordinal": 166,
+      "folio": 316,
+      "pageId": "2613:1112",
+      "boardId": "3451:1313",
+      "figureId": "3451:1401",
+      "captionTextId": "I3451:1401;3165:600;3451:1444;3164:51;3451:1446",
+      "captionText": "Figura 3.166 — a. Punti equidistanti. b. Un contorno racchiude ciascuna coppia. c. Un tratto connette gli elementi della coppia.",
+      "referenceTextIds": [
+        "I3976:2242;3030:536;3976:2246"
+      ]
+    },
+    {
+      "number": "3.167",
+      "ordinal": 167,
+      "folio": 320,
+      "pageId": "3699:2475",
+      "boardId": "3699:3739",
+      "figureId": "3699:3766",
+      "captionTextId": "I3699:3766;3165:600;3699:4919;3164:51;3699:4922",
+      "captionText": "Figura 3.167 — Il quadrato come struttura geometrica nei marchi.",
+      "referenceTextIds": [
+        "3699:3751"
+      ]
+    },
+    {
+      "number": "3.168",
+      "ordinal": 168,
+      "folio": 320,
+      "pageId": "3699:2475",
+      "boardId": "3699:3739",
+      "figureId": "3699:3776",
+      "captionTextId": "I3699:3776;3165:600;3699:4928;3164:51;3699:4931",
+      "captionText": "Figura 3.168 — Il cerchio come struttura geometrica nei marchi.",
+      "referenceTextIds": [
+        "3699:3752"
+      ]
+    },
+    {
+      "number": "3.169",
+      "ordinal": 169,
+      "folio": 321,
+      "pageId": "3699:2475",
+      "boardId": "3699:3777",
+      "figureId": "3699:3802",
+      "captionTextId": "I3699:3802;3165:600;3699:4944;3164:51;3699:4947",
+      "captionText": "Figura 3.169 — Il triangolo come struttura geometrica nei marchi.",
+      "referenceTextIds": [
+        "3699:3787"
+      ]
+    },
+    {
+      "number": "3.170",
+      "ordinal": 170,
+      "folio": 321,
+      "pageId": "3699:2475",
+      "boardId": "3699:3777",
+      "figureId": "3699:3812",
+      "captionTextId": "I3699:3812;3165:600;3699:4953;3164:51;3699:4956",
+      "captionText": "Figura 3.170 — L’esagono come struttura geometrica nei marchi.",
+      "referenceTextIds": [
+        "3699:3788"
+      ]
+    },
+    {
+      "number": "3.171",
+      "ordinal": 171,
+      "folio": 322,
+      "pageId": "3699:2475",
+      "boardId": "3699:3813",
+      "figureId": "3699:3833",
+      "captionTextId": "I3699:3833;3165:600;3699:4962;3164:51;3699:4965",
+      "captionText": "Figura 3.171 — profili spigolosi e curvilinei a confronto.",
+      "referenceTextIds": [
+        "3699:3822"
+      ]
+    },
+    {
+      "number": "3.172",
+      "ordinal": 172,
+      "folio": 324,
+      "pageId": "3699:2475",
+      "boardId": "3699:3847",
+      "figureId": "3699:3867",
+      "captionTextId": "I3699:3867;3165:600;3699:4976;3164:51;3699:4979",
+      "captionText": "Figura 3.172 — Texture e geometrie naturali: foglia, fiore e conchiglia.",
+      "referenceTextIds": [
+        "3699:3845"
+      ]
+    },
+    {
+      "number": "3.173",
+      "ordinal": 173,
+      "folio": 326,
+      "pageId": "3699:2475",
+      "boardId": "3699:3880",
+      "figureId": "3699:3899",
+      "captionTextId": "I3699:3899;3165:600;3699:4994;3164:51;3699:4997",
+      "captionText": "Figura 3.173 — Il colore costruisce atmosfere, contrasti e relazioni tra le immagini.",
+      "referenceTextIds": [
+        "3699:3879"
+      ]
+    },
+    {
+      "number": "3.174",
+      "ordinal": 174,
+      "folio": 328,
+      "pageId": "3699:2475",
+      "boardId": "3699:3912",
+      "figureId": "3699:3933",
+      "captionTextId": "I3699:3933;3165:600;3699:5010;3164:51;3699:5013",
+      "captionText": "Figura 3.174 — Fotografia e illustrazione: scene di vita, paesaggio e ritratto.",
+      "referenceTextIds": [
+        "3699:3911"
+      ]
+    },
+    {
+      "number": "3.175",
+      "ordinal": 175,
+      "folio": 329,
+      "pageId": "3699:2475",
+      "boardId": "3699:3934",
+      "figureId": "3699:3947",
+      "captionTextId": "I3699:3947;3165:600;3699:5031;3164:51;3699:5033",
+      "captionText": "Figura 3.175 — Tre funzioni negli esempi delle slide: a. evocare un’atmosfera; b. descrivere il prodotto; c. sintetizzare una categoria con un segno.",
+      "referenceTextIds": [
+        "3699:3948"
+      ]
+    },
+    {
+      "number": "3.176",
+      "ordinal": 176,
+      "folio": 330,
+      "pageId": "3699:2475",
+      "boardId": "3699:3951",
+      "figureId": "3699:3964",
+      "captionTextId": "I3699:3964;3165:600;3699:5059;3164:51;3699:5061",
+      "captionText": "Figura 3.176 — a. Allbirds: fotografia ambientata nella comunicazione del prodotto. b. Headspace: personaggi e scene illustrati.",
+      "referenceTextIds": [
+        "3699:3965"
+      ]
+    },
+    {
+      "number": "3.177",
+      "ordinal": 177,
+      "folio": 331,
+      "pageId": "3699:2475",
+      "boardId": "3699:3968",
+      "figureId": "3699:3981",
+      "captionTextId": "I3699:3981;3165:600;3699:5084;3164:51;3699:5086",
+      "captionText": "Figura 3.177 — a. Le Baiser de l’Hôtel de Ville, Robert Doisneau, 1950. b. Tank Man, Jeff Widener / Associated Press, 1989.",
+      "referenceTextIds": [
+        "3699:3982"
+      ]
+    },
+    {
+      "number": "3.178",
+      "ordinal": 178,
+      "folio": 332,
+      "pageId": "3699:2475",
+      "boardId": "3699:3985",
+      "figureId": "3699:3998",
+      "captionTextId": "I3699:3998;3165:600;3699:5107;3164:51;3699:5109",
+      "captionText": "Figura 3.178 — IBM: a. un pittogramma usato come illustrazione; b. pittogrammi impiegati al posto di icone UI, uso sconsigliato dal sistema. Esempi ufficiali verificati il 13 ottobre 2026.",
+      "referenceTextIds": [
+        "3699:3999"
+      ]
+    },
+    {
+      "number": "3.179",
+      "ordinal": 179,
+      "folio": 334,
+      "pageId": "3699:2475",
+      "boardId": "3699:4015",
+      "figureId": "3699:4035",
+      "captionTextId": "I3699:4035;3165:600;3699:5132;3164:51;3699:5135",
+      "captionText": "Figura 3.179 — Spazio e direzione dello sguardo nella composizione fotografica.",
+      "referenceTextIds": [
+        "3699:4014"
+      ]
+    },
+    {
+      "number": "3.180",
+      "ordinal": 180,
+      "folio": 335,
+      "pageId": "3699:2475",
+      "boardId": "3699:4036",
+      "figureId": "3699:4049",
+      "captionTextId": "I3699:4049;3165:600;3699:5151;3164:51;3699:5153",
+      "captionText": "Figura 3.180 — a. Negative Spaces, di Tang Yau Hoong. b. Spartan Golf: sagoma di golfista e richiamo all’elmo.",
+      "referenceTextIds": [
+        "3699:4050"
+      ]
+    },
+    {
+      "number": "3.181",
+      "ordinal": 181,
+      "folio": 339,
+      "pageId": "2613:1113",
+      "boardId": "198:4626",
+      "figureId": "3239:18167",
+      "captionTextId": "I3239:18167;3165:600;3239:18188;3164:51;3239:18191",
+      "captionText": "Figura 3.181 — Julius Caesar: scala e dimensione nella gerarchia del manifesto.",
+      "referenceTextIds": [
+        "198:3990"
+      ]
+    },
+    {
+      "number": "3.182",
+      "ordinal": 182,
+      "folio": 341,
+      "pageId": "2613:1113",
+      "boardId": "198:4738",
+      "figureId": "3239:18202",
+      "captionTextId": "I3239:18202;3165:600;3239:18224;3164:51;3239:18227",
+      "captionText": "Figura 3.182 — Locandine di Barbie e Dune: il colore definisce due atmosfere visive.",
+      "referenceTextIds": [
+        "198:4120"
+      ]
+    },
+    {
+      "number": "3.183",
+      "ordinal": 183,
+      "folio": 343,
+      "pageId": "2613:1113",
+      "boardId": "198:4729",
+      "figureId": "3239:18236",
+      "captionTextId": "I3239:18236;3165:600;3239:18257;3164:51;3239:18260",
+      "captionText": "Figura 3.183 — Manifesto MoMA: dimensioni e pesi costruiscono la gerarchia tipografica.",
+      "referenceTextIds": [
+        "198:4109"
+      ]
+    },
+    {
+      "number": "3.184",
+      "ordinal": 184,
+      "folio": 345,
+      "pageId": "2613:1113",
+      "boardId": "198:4719",
+      "figureId": "3239:18269",
+      "captionTextId": "I3239:18269;3165:600;3239:18290;3164:51;3239:18293",
+      "captionText": "Figura 3.184 — Homepage di Aesop: distribuzione dei contenuti lungo un percorso a Z.",
+      "referenceTextIds": [
+        "198:4727"
+      ]
+    },
+    {
+      "number": "3.185",
+      "ordinal": 185,
+      "folio": 347,
+      "pageId": "2613:1113",
+      "boardId": "198:4708",
+      "figureId": "3239:18304",
+      "captionTextId": "I3239:18304;3165:600;3239:18326;3164:51;3239:18329",
+      "captionText": "Figura 3.185 — Campagna Diesel: il contrasto tra immagine e testo guida l’attenzione.",
+      "referenceTextIds": [
+        "198:4087"
+      ]
+    },
+    {
+      "number": "3.186",
+      "ordinal": 186,
+      "folio": 349,
+      "pageId": "2613:1113",
+      "boardId": "198:4699",
+      "figureId": "3239:18338",
+      "captionTextId": "I3239:18338;3165:600;3239:18359;3164:51;3239:18362",
+      "captionText": "Figura 3.186 — Un volto nelle venature del legno: la disposizione delle forme favorisce la pareidolia.",
+      "referenceTextIds": [
+        "198:4077"
+      ]
+    },
+    {
+      "number": "3.187",
+      "ordinal": 187,
+      "folio": 351,
+      "pageId": "2613:1113",
+      "boardId": "198:4690",
+      "figureId": "3239:18371",
+      "captionTextId": "I3239:18371;3165:600;3239:18392;3164:51;3239:18395",
+      "captionText": "Figura 3.187 — Melbourne Food & Wine Festival: una figura costruita con lo spazio negativo.",
+      "referenceTextIds": [
+        "198:4066"
+      ]
+    },
+    {
+      "number": "3.188",
+      "ordinal": 188,
+      "folio": 353,
+      "pageId": "2613:1113",
+      "boardId": "198:4636",
+      "figureId": "3239:18404",
+      "captionTextId": "I3239:18404;3165:600;3239:18425;3164:51;3239:18428",
+      "captionText": "Figura 3.188 — Campagna Adidas: allineamento del testo e relazione con l’immagine.",
+      "referenceTextIds": [
+        "198:4001"
+      ]
+    },
+    {
+      "number": "3.189",
+      "ordinal": 189,
+      "folio": 355,
+      "pageId": "2613:1113",
+      "boardId": "198:4645",
+      "figureId": "3239:18437",
+      "captionTextId": "I3239:18437;3165:600;3239:18458;3164:51;3239:18461",
+      "captionText": "Figura 3.189 — Campagna Häagen-Dazs: prodotti disposti secondo una composizione dispari.",
+      "referenceTextIds": [
+        "198:4012"
+      ]
+    },
+    {
+      "number": "3.190",
+      "ordinal": 190,
+      "folio": 357,
+      "pageId": "2613:1113",
+      "boardId": "198:4654",
+      "figureId": "3239:18470",
+      "captionTextId": "I3239:18470;3165:600;3239:18491;3164:51;3239:18494",
+      "captionText": "Figura 3.190 — Campagna Coca-Cola: la ripetizione delle bottiglie suggerisce un sorriso.",
+      "referenceTextIds": [
+        "198:4023"
+      ]
+    },
+    {
+      "number": "3.191",
+      "ordinal": 191,
+      "folio": 359,
+      "pageId": "2613:1113",
+      "boardId": "198:4663",
+      "figureId": "3239:18503",
+      "captionTextId": "I3239:18503;3165:600;3239:18524;3164:51;3239:18527",
+      "captionText": "Figura 3.191 — Linee e direzione: un percorso visivo attraverso la composizione.",
+      "referenceTextIds": [
+        "198:4034"
+      ]
+    },
+    {
+      "number": "3.192",
+      "ordinal": 192,
+      "folio": 361,
+      "pageId": "2613:1113",
+      "boardId": "198:4672",
+      "figureId": "3239:18536",
+      "captionTextId": "I3239:18536;3165:600;3239:18557;3164:51;3239:18560",
+      "captionText": "Figura 3.192 — Nona Triennale di Milano: una composizione basata sulla griglia.",
+      "referenceTextIds": [
+        "198:4045"
+      ]
+    },
+    {
+      "number": "3.193",
+      "ordinal": 193,
+      "folio": 362,
+      "pageId": "2613:1113",
+      "boardId": "198:5116",
+      "figureId": "3241:18140",
+      "captionTextId": "I3241:18140;3165:600;3241:18161;3164:51;3241:18164",
+      "captionText": "Figura 3.193 — Manifesto teatrale: testo e forme organizzati su una struttura modulare.",
+      "referenceTextIds": [
+        "198:4045"
+      ]
+    },
+    {
+      "number": "3.194",
+      "ordinal": 194,
+      "folio": 363,
+      "pageId": "2613:1113",
+      "boardId": "198:5125",
+      "figureId": "3241:18173",
+      "captionTextId": "I3241:18173;3165:600;3241:18194;3164:51;3241:18197",
+      "captionText": "Figura 3.194 — Manifesto teatrale: una griglia sostiene una composizione tipografica densa.",
+      "referenceTextIds": [
+        "198:4045"
+      ]
+    },
+    {
+      "number": "3.195",
+      "ordinal": 195,
+      "folio": 365,
+      "pageId": "2613:1113",
+      "boardId": "198:4681",
+      "figureId": "3241:18206",
+      "captionTextId": "I3241:18206;3165:600;3241:18227;3164:51;3241:18230",
+      "captionText": "Figura 3.195 — Prospettiva tipografica: il testo costruisce profondità e movimento.",
+      "referenceTextIds": [
+        "198:4056"
+      ]
+    },
+    {
+      "number": "3.196",
+      "ordinal": 196,
+      "folio": 367,
+      "pageId": "2613:1114",
+      "boardId": "3956:658",
+      "figureId": "3956:702",
+      "captionTextId": "I3956:702;3165:600;3956:756;3164:51;3956:755",
+      "captionText": "Figura 3.196 — Un parametro alla volta: variazioni di tonalità, saturazione e valore nel modello HSV.",
+      "referenceTextIds": [
+        "3956:673"
+      ]
+    },
+    {
+      "number": "3.197",
+      "ordinal": 197,
+      "folio": 368,
+      "pageId": "2613:1114",
+      "boardId": "3956:773",
+      "figureId": "3956:812",
+      "captionTextId": "I3956:812;3165:600;3956:856;3164:51;3956:855",
+      "captionText": "Figura 3.197 — Schemi illustrativi di RGB, CMY e primari RYB; le sovrapposizioni non simulano una prova di stampa.",
+      "referenceTextIds": [
+        "3956:788"
+      ]
+    },
+    {
+      "number": "3.198",
+      "ordinal": 198,
+      "folio": 369,
+      "pageId": "2613:1114",
+      "boardId": "3956:871",
+      "figureId": "3956:906",
+      "captionTextId": "I3956:906;3165:600;3956:946;3164:51;3956:945",
+      "captionText": "Figura 3.198 — Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento.",
+      "referenceTextIds": [
+        "3956:886"
+      ]
+    },
+    {
+      "number": "3.199",
+      "ordinal": 199,
+      "folio": 370,
+      "pageId": "2613:1114",
+      "boardId": "3956:961",
+      "figureId": "3956:1006",
+      "captionTextId": "I3956:1006;3165:600;3956:1056;3164:51;3956:1055",
+      "captionText": "Figura 3.199 — Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.",
+      "referenceTextIds": [
+        "3956:976"
+      ]
+    },
+    {
+      "number": "3.200",
+      "ordinal": 200,
+      "folio": 371,
+      "pageId": "2613:1114",
+      "boardId": "3997:23912",
+      "figureId": "3997:23920",
+      "captionTextId": "I3997:23920;3165:600;3997:23927;3164:51;3997:23929",
+      "captionText": "Figura 3.200 — A · SMARTWATER; B · NETLIFE RESEARCH. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "referenceTextIds": [
+        "3997:23919"
+      ]
+    },
+    {
+      "number": "3.201",
+      "ordinal": 201,
+      "folio": 372,
+      "pageId": "2613:1114",
+      "boardId": "3997:24046",
+      "figureId": "3997:24054",
+      "captionTextId": "I3997:24054;3165:600;3997:24061;3164:51;3997:24063",
+      "captionText": "Figura 3.201 — Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "referenceTextIds": [
+        "3997:24053"
+      ]
+    },
+    {
+      "number": "3.202",
+      "ordinal": 202,
+      "folio": 373,
+      "pageId": "2613:1114",
+      "boardId": "3997:24195",
+      "figureId": "3997:24203",
+      "captionTextId": "I3997:24203;3165:600;3997:24210;3164:51;3997:24212",
+      "captionText": "Figura 3.202 — A · BOOST; B · OMNIUM. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "referenceTextIds": [
+        "3997:24202"
+      ]
+    },
+    {
+      "number": "3.203",
+      "ordinal": 203,
+      "folio": 374,
+      "pageId": "2613:1114",
+      "boardId": "3956:1071",
+      "figureId": "3956:1126",
+      "captionTextId": "I3956:1126;3165:600;3956:1186;3164:51;3956:1185",
+      "captionText": "Figura 3.203 — Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "referenceTextIds": [
+        "3956:1086"
+      ]
+    },
+    {
+      "number": "3.204",
+      "ordinal": 204,
+      "folio": 375,
+      "pageId": "2613:1114",
+      "boardId": "3989:1548",
+      "figureId": "3989:1556",
+      "captionTextId": "I3989:1556;3165:600;3989:1563;3164:51;3989:1565",
+      "captionText": "Figura 3.204 — A · SÉRIE DÉCOUVERTES; B · THE ANCIENT WORLD. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "referenceTextIds": [
+        "3989:1555"
+      ]
+    },
+    {
+      "number": "3.205",
+      "ordinal": 205,
+      "folio": 376,
+      "pageId": "2613:1114",
+      "boardId": "3997:24415",
+      "figureId": "3997:24423",
+      "captionTextId": "I3997:24423;3165:600;3997:24430;3164:51;3997:24432",
+      "captionText": "Figura 3.205 — Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "referenceTextIds": [
+        "3997:24422"
+      ]
+    },
+    {
+      "number": "3.206",
+      "ordinal": 206,
+      "folio": 377,
+      "pageId": "2613:1114",
+      "boardId": "3997:24564",
+      "figureId": "3997:24572",
+      "captionTextId": "I3997:24572;3165:600;3997:24579;3164:51;3997:24581",
+      "captionText": "Figura 3.206 — A · NEVERLAND; B · SKIN HEALTH ALLIANCE. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "referenceTextIds": [
+        "3997:24571"
+      ]
+    },
+    {
+      "number": "3.207",
+      "ordinal": 207,
+      "folio": 378,
+      "pageId": "2613:1114",
+      "boardId": "3997:24698",
+      "figureId": "3997:24706",
+      "captionTextId": "I3997:24706;3165:600;3997:24713;3164:51;3997:24715",
+      "captionText": "Figura 3.207 — Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+      "referenceTextIds": [
+        "3997:24705"
+      ]
+    },
+    {
+      "number": "3.208",
+      "ordinal": 208,
+      "folio": 379,
+      "pageId": "2613:1114",
+      "boardId": "3989:1731",
+      "figureId": "3989:1739",
+      "captionTextId": "I3989:1739;3165:600;3989:1746;3164:51;3989:1748",
+      "captionText": "Figura 3.208 — A · SECRETKEY; B · SMI · CONFRONTO. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+      "referenceTextIds": [
+        "3989:1738"
+      ]
+    },
+    {
+      "number": "3.209",
+      "ordinal": 209,
+      "folio": 380,
+      "pageId": "2613:1114",
+      "boardId": "3956:1201",
+      "figureId": "3956:1245",
+      "captionTextId": "I3956:1245;3165:600;3956:1294;3164:51;3956:1293",
+      "captionText": "Figura 3.209 — GOV.UK Design System: riepilogo, messaggio e bordo rendono riconoscibile l’errore insieme al testo. Screenshot dell’esempio ufficiale, 16 ottobre 2026. © Crown copyright, OGL v3.0.",
+      "referenceTextIds": [
+        "3956:1216"
+      ]
+    },
+    {
+      "number": "3.210",
+      "ordinal": 210,
+      "folio": 381,
+      "pageId": "2613:1114",
+      "boardId": "198:5153",
+      "figureId": "3240:358",
+      "captionTextId": "I3240:358;3165:600;3240:385;3164:51;3240:388",
+      "captionText": "Figura 3.210 — La stessa scena interpretata con colori caldi e colori freddi.",
+      "referenceTextIds": [
+        "198:5163"
+      ]
+    },
+    {
+      "number": "3.211",
+      "ordinal": 211,
+      "folio": 382,
+      "pageId": "2613:1114",
+      "boardId": "198:5166",
+      "figureId": "3240:403",
+      "captionTextId": "I3240:403;3165:600;3240:427;3164:51;3240:430",
+      "captionText": "Figura 3.211 — Il rosso nelle identità visive di Adobe, Canon, Coca-Cola e Marvel.",
+      "referenceTextIds": [
+        "198:5174"
+      ]
+    },
+    {
+      "number": "3.212",
+      "ordinal": 212,
+      "folio": 383,
+      "pageId": "2613:1114",
+      "boardId": "198:5238",
+      "figureId": "3240:445",
+      "captionTextId": "I3240:445;3165:600;3240:469;3164:51;3240:472",
+      "captionText": "Figura 3.212 — L’arancione nelle identità visive di easyJet, Etsy, SoundCloud e Nickelodeon.",
+      "referenceTextIds": [
+        "198:5247"
+      ]
+    },
+    {
+      "number": "3.213",
+      "ordinal": 213,
+      "folio": 384,
+      "pageId": "2613:1114",
+      "boardId": "198:5181",
+      "figureId": "3240:487",
+      "captionTextId": "I3240:487;3165:600;3240:511;3164:51;3240:514",
+      "captionText": "Figura 3.213 — Il giallo nelle identità visive di Nikon, CAT, Ferrari e Hertz.",
+      "referenceTextIds": [
+        "198:5190"
+      ]
+    },
+    {
+      "number": "3.214",
+      "ordinal": 214,
+      "folio": 385,
+      "pageId": "2613:1114",
+      "boardId": "198:5253",
+      "figureId": "3240:529",
+      "captionTextId": "I3240:529;3165:600;3240:553;3164:51;3240:556",
+      "captionText": "Figura 3.214 — Il verde nelle identità visive di Lacoste, Spotify, Tic Tac e Sprite.",
+      "referenceTextIds": [
+        "198:5262"
+      ]
+    },
+    {
+      "number": "3.215",
+      "ordinal": 215,
+      "folio": 386,
+      "pageId": "2613:1114",
+      "boardId": "198:5196",
+      "figureId": "3240:571",
+      "captionTextId": "I3240:571;3165:600;3240:595;3164:51;3240:598",
+      "captionText": "Figura 3.215 — Il blu nelle identità visive di American Express, Oral-B, Zurich e Allianz.",
+      "referenceTextIds": [
+        "198:5205"
+      ]
+    },
+    {
+      "number": "3.216",
+      "ordinal": 216,
+      "folio": 387,
+      "pageId": "2613:1114",
+      "boardId": "198:5268",
+      "figureId": "3240:613",
+      "captionTextId": "I3240:613;3165:600;3240:637;3164:51;3240:640",
+      "captionText": "Figura 3.216 — Il marrone nelle identità visive di M&M’s, Nespresso, Pernigotti e UPS.",
+      "referenceTextIds": [
+        "198:5277"
+      ]
+    },
+    {
+      "number": "3.217",
+      "ordinal": 217,
+      "folio": 388,
+      "pageId": "2613:1114",
+      "boardId": "198:5223",
+      "figureId": "3240:655",
+      "captionTextId": "I3240:655;3165:600;3240:679;3164:51;3240:682",
+      "captionText": "Figura 3.217 — Il rosa nelle identità visive di Cosmopolitan, Donut King, Barbie e Telekom.",
+      "referenceTextIds": [
+        "198:5232"
+      ]
+    },
+    {
+      "number": "3.218",
+      "ordinal": 218,
+      "folio": 389,
+      "pageId": "2613:1114",
+      "boardId": "198:5296",
+      "figureId": "3240:697",
+      "captionTextId": "I3240:697;3165:600;3240:721;3164:51;3240:724",
+      "captionText": "Figura 3.218 — Il viola nelle identità visive di Milka, Claire’s, Twitch e Yahoo.",
+      "referenceTextIds": [
+        "198:5305"
+      ]
+    },
+    {
+      "number": "3.219",
+      "ordinal": 219,
+      "folio": 390,
+      "pageId": "2613:1114",
+      "boardId": "198:5211",
+      "figureId": "3240:735",
+      "captionTextId": "I3240:735;3165:600;3240:757;3164:51;3240:760",
+      "captionText": "Figura 3.219 — Il bianco nei marchi di Armani Exchange e Apple su fondo scuro.",
+      "referenceTextIds": [
+        "198:5220"
+      ]
+    },
+    {
+      "number": "3.220",
+      "ordinal": 220,
+      "folio": 391,
+      "pageId": "2613:1114",
+      "boardId": "198:5283",
+      "figureId": "3240:773",
+      "captionTextId": "I3240:773;3165:600;3240:796;3164:51;3240:799",
+      "captionText": "Figura 3.220 — Il nero nelle identità visive di Prada, Chanel e Bentley.",
+      "referenceTextIds": [
+        "198:5292"
+      ]
+    },
+    {
+      "number": "3.221",
+      "ordinal": 221,
+      "folio": 394,
+      "pageId": "2613:1114",
+      "boardId": "4035:12265",
+      "figureId": "4039:1429",
+      "captionTextId": "I4039:1429;3165:600;4039:1458;3164:51;4039:1463",
+      "captionText": "Figura 3.221 — Colours in Culture, David McCandless e AlwaysWithHonor.com, v1.0, aprile 2009. Originale recuperato dal booklet di dicembre 2024, p. 148.",
+      "referenceTextIds": [
+        "4039:1428"
+      ]
+    },
+    {
+      "number": "3.222",
+      "ordinal": 222,
+      "folio": 395,
+      "pageId": "2613:1114",
+      "boardId": "4035:12266",
+      "figureId": "4039:1500",
+      "captionTextId": "I4039:1500;3165:600;4039:1534;3164:51;4039:1539",
+      "captionText": "Figura 3.222 — Lanterne rosse; persone in abiti bianchi con ritratti e fiori. Slide d’archivio di Visual design, pp. 36–37. Autori, luoghi e date delle fotografie non indicati nel materiale.",
+      "referenceTextIds": [
+        "4039:1499"
+      ]
+    },
+    {
+      "number": "3.223",
+      "ordinal": 223,
+      "folio": 396,
+      "pageId": "2613:1114",
+      "boardId": "4035:12267",
+      "figureId": "4039:1576",
+      "captionTextId": "I4039:1576;3165:600;4039:1600;3164:51;4039:1605",
+      "captionText": "Figura 3.223 — IKEA Cina, campagna per il Capodanno lunare. Schermata storica conservata nel materiale 2022–2023; giorno di acquisizione non documentato. © Inter IKEA Systems B.V.",
+      "referenceTextIds": [
+        "4039:1575"
+      ]
+    },
+    {
+      "number": "3.224",
+      "ordinal": 224,
+      "folio": 397,
+      "pageId": "2613:1114",
+      "boardId": "4035:12268",
+      "figureId": "4039:1642",
+      "captionTextId": "I4039:1642;3165:600;4039:1666;3164:51;4039:1671",
+      "captionText": "Figura 3.224 — IKEA Svezia, «Just nu på IKEA»: offerte e vita quotidiana. Schermata storica conservata nel materiale 2022–2023; giorno di acquisizione non documentato. © Inter IKEA Systems B.V.",
+      "referenceTextIds": [
+        "4039:1641"
+      ]
+    },
+    {
+      "number": "3.225",
+      "ordinal": 225,
+      "folio": 399,
+      "pageId": "2613:1114",
+      "boardId": "198:5429",
+      "figureId": "3240:808",
+      "captionTextId": "I3240:808;3165:613;3240:834;3164:60;3240:837",
+      "captionText": "Figura 3.225 — Copertina di Interaction of Color di Josef Albers.",
+      "referenceTextIds": [
+        "198:5440"
+      ]
+    },
+    {
+      "number": "3.226",
+      "ordinal": 226,
+      "folio": 401,
+      "pageId": "2613:1114",
+      "boardId": "198:5441",
+      "figureId": "3242:18993",
+      "captionTextId": "I3242:18993;3165:600;3242:19014;3164:51;3242:19017",
+      "captionText": "Figura 3.226 — Interazione del colore: superfici sovrapposte e contrasti cromatici.",
+      "referenceTextIds": [
+        "198:5344"
+      ]
+    },
+    {
+      "number": "3.227",
+      "ordinal": 227,
+      "folio": 403,
+      "pageId": "2613:1114",
+      "boardId": "198:5453",
+      "figureId": "3242:19026",
+      "captionTextId": "I3242:19026;3165:600;3242:19047;3164:51;3242:19050",
+      "captionText": "Figura 3.227 — Interazione del colore: la percezione cambia con lo sfondo.",
+      "referenceTextIds": [
+        "198:5364"
+      ]
+    },
+    {
+      "number": "3.228",
+      "ordinal": 228,
+      "folio": 405,
+      "pageId": "2613:1114",
+      "boardId": "198:5462",
+      "figureId": "3242:19059",
+      "captionTextId": "I3242:19059;3165:600;3242:19080;3164:51;3242:19083",
+      "captionText": "Figura 3.228 — Interazione del colore: relazioni tra campi cromatici e piccoli quadrati.",
+      "referenceTextIds": [
+        "198:5380"
+      ]
+    },
+    {
+      "number": "3.229",
+      "ordinal": 229,
+      "folio": 407,
+      "pageId": "2613:1114",
+      "boardId": "198:5480",
+      "figureId": "3242:19092",
+      "captionTextId": "I3242:19092;3165:600;3242:19113;3164:51;3242:19116",
+      "captionText": "Figura 3.229 — Contrasto tra forma, colore e sfondo in due campi visivi.",
+      "referenceTextIds": [
+        "198:5412"
+      ]
+    },
+    {
+      "number": "3.230",
+      "ordinal": 230,
+      "folio": 409,
+      "pageId": "2613:1114",
+      "boardId": "198:5471",
+      "figureId": "3242:19125",
+      "captionTextId": "I3242:19125;3165:600;3242:19146;3164:51;3242:19149",
+      "captionText": "Figura 3.230 — La percezione del contrasto cambia con il colore dello sfondo.",
+      "referenceTextIds": [
+        "198:5396"
+      ]
+    },
+    {
+      "number": "3.231",
+      "ordinal": 231,
+      "folio": 410,
+      "pageId": "2613:1114",
+      "boardId": "198:5489",
+      "figureId": "3242:19160",
+      "captionTextId": "I3242:19160;3165:600;3242:19182;3164:51;3242:19185",
+      "captionText": "Figura 3.231 — Distribuzione dei colori dominanti, secondari e d’accento in due esempi cinematografici.",
+      "referenceTextIds": [
+        "198:5501"
+      ]
+    },
+    {
+      "number": "3.232",
+      "ordinal": 232,
+      "folio": 411,
+      "pageId": "2613:1114",
+      "boardId": "198:5526",
+      "figureId": "3242:19200",
+      "captionTextId": "I3242:19200;3165:600;3242:19224;3164:51;3242:19227",
+      "captionText": "Figura 3.232 — Palette cromatiche ricavate da ghiaccio, foresta, deserto e fiori.",
+      "referenceTextIds": [
+        "198:5540"
+      ]
+    },
+    {
+      "number": "3.233",
+      "ordinal": 233,
+      "folio": 412,
+      "pageId": "2613:1114",
+      "boardId": "198:5504",
+      "figureId": "3242:19236",
+      "captionTextId": "I3242:19236;3165:600;3242:19257;3164:51;3242:19260",
+      "captionText": "Figura 3.233 — Alternative al nero puro per il testo su fondo chiaro.",
+      "referenceTextIds": [
+        "198:5512"
+      ]
+    },
+    {
+      "number": "3.234",
+      "ordinal": 234,
+      "folio": 413,
+      "pageId": "2613:1114",
+      "boardId": "198:5541",
+      "figureId": "3242:19271",
+      "captionTextId": "I3242:19271;3165:600;3242:19293;3164:51;3242:19296",
+      "captionText": "Figura 3.234 — Ombre e luci: colori ricavati dall’ambiente e dalle superfici.",
+      "referenceTextIds": [
+        "198:5549"
+      ]
+    },
+    {
+      "number": "3.235",
+      "ordinal": 235,
+      "folio": 414,
+      "pageId": "2613:1114",
+      "boardId": "3956:1309",
+      "figureId": "3956:1347",
+      "captionTextId": "I3956:1347;3165:600;3956:1390;3164:51;3956:1389",
+      "captionText": "Figura 3.235 — Carbon Design System: lo stesso select nei temi White e Gray 100. I numeri nell’immagine rimandano ai ruoli documentati da IBM. Immagine ufficiale, consultata il 16 ottobre 2026. © IBM.",
+      "referenceTextIds": [
+        "3956:1324"
+      ]
+    },
+    {
+      "number": "3.236",
+      "ordinal": 236,
+      "folio": 415,
+      "pageId": "2613:1114",
+      "boardId": "3956:1405",
+      "figureId": "3956:1449",
+      "captionTextId": "I3956:1449;3165:600;3956:1498;3164:51;3956:1497",
+      "captionText": "Figura 3.236 — Riferimento già presente nel booklet, palette adattata e confronto sul testo del pulsante. Caso simulato.",
+      "referenceTextIds": [
+        "3956:1420"
+      ]
+    },
+    {
+      "number": "3.237",
+      "ordinal": 237,
+      "folio": 416,
+      "pageId": "2613:1114",
+      "boardId": "198:5515",
+      "figureId": "3242:19305",
+      "captionTextId": "I3242:19305;3165:600;3242:19326;3164:51;3242:19329",
+      "captionText": "Figura 3.237 — Grigi neutri e grigi tonalizzati applicati al testo.",
+      "referenceTextIds": [
+        "198:5523"
+      ]
+    },
+    {
+      "number": "3.238",
+      "ordinal": 238,
+      "folio": 421,
+      "pageId": "2613:1115",
+      "boardId": "198:5650",
+      "figureId": "3240:17469",
+      "captionTextId": "I3240:17469;3165:613;3240:17490;3164:60;3240:17493",
+      "captionText": "Figura 3.238 — La Linotype: un esempio di macchina per la composizione tipografica.",
+      "referenceTextIds": [
+        "198:5658"
+      ]
+    },
+    {
+      "number": "3.239",
+      "ordinal": 239,
+      "folio": 423,
+      "pageId": "2613:1115",
+      "boardId": "198:5621",
+      "figureId": "3240:17502",
+      "captionTextId": "I3240:17502;3165:600;3240:17523;3164:51;3240:17526",
+      "captionText": "Figura 3.239 — Anatomia del carattere: parti e proporzioni delle lettere.",
+      "referenceTextIds": [
+        "198:5573"
+      ]
+    },
+    {
+      "number": "3.240",
+      "ordinal": 240,
+      "folio": 425,
+      "pageId": "2613:1115",
+      "boardId": "198:5641",
+      "figureId": "3240:17535",
+      "captionTextId": "I3240:17535;3165:600;3240:17556;3164:51;3240:17559",
+      "captionText": "Figura 3.240 — Classificazioni tipografiche: sei famiglie di caratteri a confronto.",
+      "referenceTextIds": [
+        "198:5601"
+      ]
+    },
+    {
+      "number": "3.241",
+      "ordinal": 241,
+      "folio": 427,
+      "pageId": "2613:1115",
+      "boardId": "198:5630",
+      "figureId": "3240:17568",
+      "captionTextId": "I3240:17568;3165:600;3240:17589;3164:51;3240:17592",
+      "captionText": "Figura 3.241 — Legibility e readability: riconoscere i caratteri e leggere un testo.",
+      "referenceTextIds": [
+        "198:5584"
+      ]
+    },
+    {
+      "number": "3.242",
+      "ordinal": 242,
+      "folio": 431,
+      "pageId": "2613:1115",
+      "boardId": "198:5697",
+      "figureId": "4030:12329",
+      "captionTextId": "I4030:12329;3165:600;4030:12350;3164:51;4030:12348",
+      "captionText": "Figura 3.242 — Confronto tipografico della stessa frase in due caratteri.",
+      "referenceTextIds": [
+        "2408:1106"
+      ]
+    },
+    {
+      "number": "3.243",
+      "ordinal": 243,
+      "folio": 432,
+      "pageId": "2613:1115",
+      "boardId": "198:5830",
+      "figureId": "4030:12355",
+      "captionTextId": "I4030:12355;3165:600;4030:12371;3164:51;4030:12369",
+      "captionText": "Figura 3.243 — Campioni di quattro pesi tipografici: regular, light, semibold e bold.",
+      "referenceTextIds": [
+        "I4030:12355;3165:593;4030:12382"
+      ]
+    },
+    {
+      "number": "3.244",
+      "ordinal": 244,
+      "folio": 433,
+      "pageId": "2613:1115",
+      "boardId": "198:5851",
+      "figureId": "3240:17601",
+      "captionTextId": "I3240:17601;3165:600;3240:17622;3164:51;3240:17625",
+      "captionText": "Figura 3.244 — Font weight: variazioni di peso all’interno di una famiglia tipografica.",
+      "referenceTextIds": [
+        "I4030:12355;3165:593;4030:12382"
+      ]
+    },
+    {
+      "number": "3.245",
+      "ordinal": 245,
+      "folio": 434,
+      "pageId": "2613:1115",
+      "boardId": "198:5712",
+      "figureId": "3240:17634",
+      "captionTextId": "I3240:17634;3165:600;3240:17655;3164:51;3240:17658",
+      "captionText": "Figura 3.245 — X-height e proporzioni delle minuscole in un campione di caratteri.",
+      "referenceTextIds": [
+        "198:5720"
+      ]
+    },
+    {
+      "number": "3.246",
+      "ordinal": 246,
+      "folio": 435,
+      "pageId": "2613:1115",
+      "boardId": "198:5766",
+      "figureId": "3240:17667",
+      "captionTextId": "I3240:17667;3165:600;3240:17688;3164:51;3240:17691",
+      "captionText": "Figura 3.246 — Caratteri senza grazie e con grazie messi a confronto.",
+      "referenceTextIds": [
+        "198:5774"
+      ]
+    },
+    {
+      "number": "3.247",
+      "ordinal": 247,
+      "folio": 436,
+      "pageId": "2613:1115",
+      "boardId": "198:5755",
+      "figureId": "3240:17700",
+      "captionTextId": "I3240:17700;3165:600;3240:17721;3164:51;3240:17724",
+      "captionText": "Figura 3.247 — Font contrast: alternanza tra tratti spessi e sottili.",
+      "referenceTextIds": [
+        "198:5763"
+      ]
+    },
+    {
+      "number": "3.248",
+      "ordinal": 248,
+      "folio": 437,
+      "pageId": "2613:1115",
+      "boardId": "198:5799",
+      "figureId": "3240:17733",
+      "captionTextId": "I3240:17733;3165:600;3240:17754;3164:51;3240:17757",
+      "captionText": "Figura 3.248 — Corner rounding: differenze nell’arrotondamento degli angoli del carattere.",
+      "referenceTextIds": [
+        "198:5807"
+      ]
+    },
+    {
+      "number": "3.249",
+      "ordinal": 249,
+      "folio": 439,
+      "pageId": "2613:1115",
+      "boardId": "198:5777",
+      "figureId": "3240:17770",
+      "captionTextId": "I3240:17770;3165:600;3240:17793;3164:51;3240:17796",
+      "captionText": "Figura 3.249 — Tre registri tipografici: contrasto classico, scrittura fluida e forme espressive.",
+      "referenceTextIds": [
+        "198:5732"
+      ]
+    },
+    {
+      "number": "3.250",
+      "ordinal": 250,
+      "folio": 445,
+      "pageId": "2613:1116",
+      "boardId": "198:3604",
+      "figureId": "3240:17805",
+      "captionTextId": "I3240:17805;3165:600;3240:17826;3164:51;3240:17829",
+      "captionText": "Figura 3.250 — Anatomia della griglia: colonne, righe, margini e moduli.",
+      "referenceTextIds": [
+        "198:3614"
+      ]
+    },
+    {
+      "number": "3.251",
+      "ordinal": 251,
+      "folio": 446,
+      "pageId": "2613:1116",
+      "boardId": "198:3367",
+      "figureId": "3240:17838",
+      "captionTextId": "I3240:17838;3165:600;3240:17859;3164:51;3240:17862",
+      "captionText": "Figura 3.251 — Una griglia editoriale applicata a una doppia pagina.",
+      "referenceTextIds": [
+        "198:3377"
+      ]
+    },
+    {
+      "number": "3.252",
+      "ordinal": 252,
+      "folio": 447,
+      "pageId": "2613:1116",
+      "boardId": "198:3830",
+      "figureId": "3240:17871",
+      "captionTextId": "I3240:17871;3165:600;3240:17892;3164:51;3240:17895",
+      "captionText": "Figura 3.252 — Griglie adattabili a schermi e formati diversi.",
+      "referenceTextIds": [
+        "198:3840"
+      ]
+    },
+    {
+      "number": "3.253",
+      "ordinal": 253,
+      "folio": 449,
+      "pageId": "2613:1116",
+      "boardId": "198:3853",
+      "figureId": "3240:17904",
+      "captionTextId": "I3240:17904;3165:600;3240:17925;3164:51;3240:17928",
+      "captionText": "Figura 3.253 — Responsive e adaptive design: due modalità di adattamento del layout.",
+      "referenceTextIds": [
+        "198:3412"
+      ]
+    },
+    {
+      "number": "3.254",
+      "ordinal": 254,
+      "folio": 451,
+      "pageId": "2613:1116",
+      "boardId": "198:3842",
+      "figureId": "3240:17939",
+      "captionTextId": "I3240:17939;3165:600;3240:17961;3164:51;3240:17964",
+      "captionText": "Figura 3.254 — Punti di forza della composizione e distribuzione dell’attenzione visiva.",
+      "referenceTextIds": [
+        "198:3396"
+      ]
+    },
+    {
+      "number": "3.255",
+      "ordinal": 255,
+      "folio": 454,
+      "pageId": "2613:1116",
+      "boardId": "198:3293",
+      "figureId": "3240:17973",
+      "captionTextId": "I3240:17973;3165:600;3240:17994;3164:51;3240:17997",
+      "captionText": "Figura 3.255 — Identità visiva: tipografia e colori rendono riconoscibili i marchi.",
+      "referenceTextIds": [
+        "198:3303"
+      ]
+    },
+    {
+      "number": "3.256",
+      "ordinal": 256,
+      "folio": 455,
+      "pageId": "2613:1116",
+      "boardId": "198:3787",
+      "figureId": "3240:18006",
+      "captionTextId": "I3240:18006;3165:600;3240:18027;3164:51;3240:18030",
+      "captionText": "Figura 3.256 — Due interfacce di pagamento con gerarchie visive differenti.",
+      "referenceTextIds": [
+        "198:3649"
+      ]
+    },
+    {
+      "number": "3.257",
+      "ordinal": 257,
+      "folio": 456,
+      "pageId": "2613:1116",
+      "boardId": "198:3312",
+      "figureId": "3240:18039",
+      "captionTextId": "I3240:18039;3165:600;3240:18061;3164:51;3240:18064",
+      "captionText": "Figura 3.257 — CSS Zen Garden: due interpretazioni visive dello stesso contenuto.",
+      "referenceTextIds": [
+        "198:3322"
+      ]
+    },
+    {
+      "number": "3.258",
+      "ordinal": 258,
+      "folio": 457,
+      "pageId": "2613:1116",
+      "boardId": "198:3798",
+      "figureId": "3240:18073",
+      "captionTextId": "I3240:18073;3165:600;3240:18094;3164:51;3240:18097",
+      "captionText": "Figura 3.258 — Una pera morsicata ricorda il logo Apple attraverso la forma.",
+      "referenceTextIds": [
+        "198:3649"
+      ]
+    },
+    {
+      "number": "3.259",
+      "ordinal": 259,
+      "folio": 458,
+      "pageId": "2613:1116",
+      "boardId": "198:3331",
+      "figureId": "3240:18106",
+      "captionTextId": "I3240:18106;3165:600;3240:18127;3164:51;3240:18130",
+      "captionText": "Figura 3.259 — Componenti grafici e icone nell’ecosistema Google.",
+      "referenceTextIds": [
+        "198:3341"
+      ]
+    },
+    {
+      "number": "3.260",
+      "ordinal": 260,
+      "folio": 459,
+      "pageId": "2613:1116",
+      "boardId": "198:3808",
+      "figureId": "3240:18139",
+      "captionTextId": "I3240:18139;3165:600;3240:18160;3164:51;3240:18163",
+      "captionText": "Figura 3.260 — Coerenza di forme e colori nel sistema di identità di Google.",
+      "referenceTextIds": [
+        "198:3817"
+      ]
+    },
+    {
+      "number": "3.261",
+      "ordinal": 261,
+      "folio": 460,
+      "pageId": "2613:1116",
+      "boardId": "198:3349",
+      "figureId": "3240:18171",
+      "captionTextId": "I3240:18171;3165:600;3240:18192;3164:51;3240:18195",
+      "captionText": "Figura 3.261 — Look & feel: palette, tipografia, componenti e schermate coordinati.",
+      "referenceTextIds": [
+        "198:3359"
+      ]
+    },
+    {
+      "number": "3.262",
+      "ordinal": 262,
+      "folio": 461,
+      "pageId": "2613:1116",
+      "boardId": "198:3819",
+      "figureId": "3242:19409",
+      "captionTextId": "I3242:19409;3165:600;3242:19430;3164:51;3242:19433",
+      "captionText": "Figura 3.262 — Menu, pulsanti e controlli organizzati in un sistema di componenti.",
+      "referenceTextIds": [
+        "198:3829"
+      ]
+    },
+    {
+      "number": "3.263",
+      "ordinal": 263,
+      "folio": 463,
+      "pageId": "2613:1117",
+      "boardId": "2460:1203",
+      "figureId": "4029:374",
+      "captionTextId": "I4029:375;3164:51;4029:380",
+      "captionText": "Figura 3.263 — Journey ipotetica per una prenotazione: fasi, touchpoint e domande da verificare.",
+      "referenceTextIds": [
+        "2460:1212"
+      ]
+    },
+    {
+      "number": "3.264",
+      "ordinal": 264,
+      "folio": 464,
+      "pageId": "2613:1117",
+      "boardId": "2460:1242",
+      "figureId": "4029:381",
+      "captionTextId": "I4029:383;3164:51;4029:388",
+      "captionText": "Figura 3.264 — Wireflow simulato: dalla scelta della nuova data alla conferma dell’appuntamento.",
+      "referenceTextIds": [
+        "2460:1278"
+      ]
+    },
+    {
+      "number": "3.265",
+      "ordinal": 265,
+      "folio": 468,
+      "pageId": "2613:1117",
+      "boardId": "198:6006",
+      "figureId": "3240:18204",
+      "captionTextId": "I3240:18204;3165:600;3240:18225;3164:51;3240:18228",
+      "captionText": "Figura 3.265 — Revisione delle schermate e confronto tra soluzioni durante la prototipazione.",
+      "referenceTextIds": [
+        "198:6016"
+      ]
+    },
+    {
+      "number": "3.266",
+      "ordinal": 266,
+      "folio": 471,
+      "pageId": "2613:1117",
+      "boardId": "2456:1429",
+      "figureId": "4029:389",
+      "captionTextId": "I4029:390;3164:51;4029:395",
+      "captionText": "Figura 3.266 — Cinque stati alternativi del servizio di prenotazione, con messaggi e possibili azioni.",
+      "referenceTextIds": [
+        "2458:1335"
+      ]
+    },
+    {
+      "number": "3.267",
+      "ordinal": 267,
+      "folio": 472,
+      "pageId": "2613:1117",
+      "boardId": "2456:1456",
+      "figureId": "4029:396",
+      "captionTextId": "I4029:397;3164:51;4029:402",
+      "captionText": "Figura 3.267 — Disponibilità esaurita: confronto fra un messaggio generico e uno che offre un’alternativa.",
+      "referenceTextIds": [
+        "2459:1101"
+      ]
+    },
+    {
+      "number": "3.268",
+      "ordinal": 268,
+      "folio": 472,
+      "pageId": "2613:1117",
+      "boardId": "2456:1456",
+      "figureId": "4029:403",
+      "captionTextId": "I4029:404;3164:51;4029:409",
+      "captionText": "Figura 3.268 — Riepilogo simulato prima della conferma di una modifica.",
+      "referenceTextIds": [
+        "2459:1121"
+      ]
+    },
+    {
+      "number": "3.269",
+      "ordinal": 269,
+      "folio": 473,
+      "pageId": "2613:1117",
+      "boardId": "198:6207",
+      "figureId": "3240:18237",
+      "captionTextId": "I3240:18237;3165:600;3240:18258;3164:51;3240:18261",
+      "captionText": "Figura 3.269 — Dal wireframe al mockup: struttura e resa visiva della stessa pagina.",
+      "referenceTextIds": [
+        "198:6034"
+      ]
+    },
+    {
+      "number": "3.270",
+      "ordinal": 270,
+      "folio": 478,
+      "pageId": "2613:1118",
+      "boardId": "198:5889",
+      "figureId": "3241:19502",
+      "captionTextId": "I3241:19502;3165:600;3241:19523;3164:51;3241:19526",
+      "captionText": "Figura 3.270 — Assassin’s Creed: ambientazione e realismo percepito.",
+      "referenceTextIds": [
+        "198:5898"
+      ]
+    },
+    {
+      "number": "3.271",
+      "ordinal": 271,
+      "folio": 480,
+      "pageId": "2613:1118",
+      "boardId": "198:5904",
+      "figureId": "3241:19535",
+      "captionTextId": "I3241:19535;3165:600;3241:19556;3164:51;3241:19559",
+      "captionText": "Figura 3.271 — Equilibrio tra difficoltà e abilità nel canale di flow.",
+      "referenceTextIds": [
+        "198:5914"
+      ]
+    },
+    {
+      "number": "3.272",
+      "ordinal": 272,
+      "folio": 481,
+      "pageId": "2613:1118",
+      "boardId": "198:6082",
+      "figureId": "3241:19567",
+      "captionTextId": "I3241:19567;3165:600;3241:19587;3164:51;3241:19590",
+      "captionText": "Figura 3.272 — Esempio di interfaccia cervello-computer (BCI).",
+      "referenceTextIds": [
+        "198:6092"
+      ]
+    },
+    {
+      "number": "3.273",
+      "ordinal": 273,
+      "folio": 483,
+      "pageId": "2613:1118",
+      "boardId": "198:6096",
+      "figureId": "3316:17739",
+      "captionTextId": "I3316:17739;3165:600;3316:17759;3164:51;3316:17761",
+      "captionText": "Figura 3.273 — Far Cry 3",
+      "referenceTextIds": [
+        "198:5926"
+      ]
+    },
+    {
+      "number": "3.274",
+      "ordinal": 274,
+      "folio": 483,
+      "pageId": "2613:1118",
+      "boardId": "198:6096",
+      "figureId": "3316:17709",
+      "captionTextId": "I3316:17709;3165:600;3316:17729;3164:51;3316:17731",
+      "captionText": "Figura 3.274 — Resident Evil 4",
+      "referenceTextIds": [
+        "198:5926"
+      ]
+    },
+    {
+      "number": "3.275",
+      "ordinal": 275,
+      "folio": 484,
+      "pageId": "2613:1118",
+      "boardId": "198:5927",
+      "figureId": "3241:19599",
+      "captionTextId": "I3241:19599;3165:600;3241:19619;3164:51;3241:19622",
+      "captionText": "Figura 3.275 — Detroit: Become Human",
+      "referenceTextIds": [
+        "198:5937"
+      ]
+    },
+    {
+      "number": "3.276",
+      "ordinal": 276,
+      "folio": 485,
+      "pageId": "2613:1118",
+      "boardId": "198:6111",
+      "figureId": "3241:19631",
+      "captionTextId": "I3241:19631;3165:600;3241:19651;3164:51;3241:19654",
+      "captionText": "Figura 3.276 — Esempio di quick time event in Spider-Man",
+      "referenceTextIds": [
+        "198:6121"
+      ]
+    },
+    {
+      "number": "3.277",
+      "ordinal": 277,
+      "folio": 486,
+      "pageId": "2613:1118",
+      "boardId": "198:5942",
+      "figureId": "4029:833",
+      "captionTextId": "I4029:834;3164:51;4029:839",
+      "captionText": "Figura 3.277 — Matrice delle interfacce di gioco: mondo narrativo e spazio del gioco.",
+      "referenceTextIds": [
+        "2419:1090"
+      ]
+    },
+    {
+      "number": "3.278",
+      "ordinal": 278,
+      "folio": 487,
+      "pageId": "2613:1118",
+      "boardId": "198:6125",
+      "figureId": "3320:1634",
+      "captionTextId": "I3320:1634;3165:600;3320:1659;3164:51;3320:1661",
+      "captionText": "Figura 3.278 — Super Mario Bros 3",
+      "referenceTextIds": [
+        "198:6134"
+      ]
+    },
+    {
+      "number": "3.279",
+      "ordinal": 279,
+      "folio": 489,
+      "pageId": "2613:1118",
+      "boardId": "198:6139",
+      "figureId": "3316:17800",
+      "captionTextId": "I3316:17800;3165:600;3316:17820;3164:51;3316:17822",
+      "captionText": "Figura 3.279 — Wreckfest",
+      "referenceTextIds": [
+        "198:5967"
+      ]
+    },
+    {
+      "number": "3.280",
+      "ordinal": 280,
+      "folio": 489,
+      "pageId": "2613:1118",
+      "boardId": "198:6139",
+      "figureId": "3316:17770",
+      "captionTextId": "I3316:17770;3165:600;3316:17790;3164:51;3316:17792",
+      "captionText": "Figura 3.280 — Far Cry 2",
+      "referenceTextIds": [
+        "198:5967"
+      ]
+    },
+    {
+      "number": "3.281",
+      "ordinal": 281,
+      "folio": 491,
+      "pageId": "2613:1118",
+      "boardId": "198:6169",
+      "figureId": "3241:19663",
+      "captionTextId": "I3241:19663;3165:600;3241:19683;3164:51;3241:19686",
+      "captionText": "Figura 3.281 — Warcraft 3",
+      "referenceTextIds": [
+        "198:5991"
+      ]
+    },
+    {
+      "number": "3.282",
+      "ordinal": 282,
+      "folio": 493,
+      "pageId": "2613:1118",
+      "boardId": "198:6154",
+      "figureId": "3320:1669",
+      "captionTextId": "I3320:1669;3165:600;3320:1689;3164:51;3320:1691",
+      "captionText": "Figura 3.282 — Call of Duty",
+      "referenceTextIds": [
+        "198:5979"
+      ]
+    },
+    {
+      "number": "3.283",
+      "ordinal": 283,
+      "folio": 493,
+      "pageId": "2613:1118",
+      "boardId": "198:6154",
+      "figureId": "3320:1699",
+      "captionTextId": "I3320:1699;3165:600;3320:1719;3164:51;3320:1721",
+      "captionText": "Figura 3.283 — Watch Dogs",
+      "referenceTextIds": [
+        "198:5979"
+      ]
+    },
+    {
+      "number": "3.284",
+      "ordinal": 284,
+      "folio": 495,
+      "pageId": "2613:1118",
+      "boardId": "198:6181",
+      "figureId": "3320:1729",
+      "captionTextId": "I3320:1729;3165:600;3320:1749;3164:51;3320:1751",
+      "captionText": "Figura 3.284 — Fortnite",
+      "referenceTextIds": [
+        "198:6004"
+      ]
+    },
+    {
+      "number": "3.285",
+      "ordinal": 285,
+      "folio": 495,
+      "pageId": "2613:1118",
+      "boardId": "198:6181",
+      "figureId": "3320:1759",
+      "captionTextId": "I3320:1759;3165:600;3320:1779;3164:51;3320:1781",
+      "captionText": "Figura 3.285 — Zelda: Breath of the Wild",
+      "referenceTextIds": [
+        "198:6004"
+      ]
+    },
+    {
+      "number": "3.286",
+      "ordinal": 286,
+      "folio": 510,
+      "pageId": "2613:1119",
+      "boardId": "198:3243",
+      "figureId": "4029:951",
+      "captionTextId": "I4029:952;3164:51;4029:957",
+      "captionText": "Figura 3.286 — Sei momenti indicativi di un test moderato; tempi dimostrativi.",
+      "referenceTextIds": [
+        "2419:1117"
+      ]
+    },
+    {
+      "number": "3.287",
+      "ordinal": 287,
+      "folio": 511,
+      "pageId": "2613:1119",
+      "boardId": "198:3721",
+      "figureId": "3241:18247",
+      "captionTextId": "I3241:18247;3165:600;3241:18268;3164:51;3241:18271",
+      "captionText": "Figura 3.287 — Le fasi e i tempi indicativi di una sessione di test di usabilità.",
+      "referenceTextIds": [
+        "2419:1117"
+      ]
+    },
+    {
+      "number": "3.288",
+      "ordinal": 288,
+      "folio": 514,
+      "pageId": "2613:1119",
+      "boardId": "198:3265",
+      "figureId": "4029:958",
+      "captionTextId": "I4029:959;3164:51;4029:964",
+      "captionText": "Figura 3.288 — Dall’osservazione alla verifica: quattro passaggi del debriefing.",
+      "referenceTextIds": [
+        "2421:1090"
+      ]
+    },
+    {
+      "number": "3.289",
+      "ordinal": 289,
+      "folio": 517,
+      "pageId": "2613:1119",
+      "boardId": "198:3759",
+      "figureId": "4029:965",
+      "captionTextId": "I4029:966;3164:51;4029:971",
+      "captionText": "Figura 3.289 — Card sorting e tree testing: due metodi complementari per l’architettura dell’informazione.",
+      "referenceTextIds": [
+        "2421:1119"
+      ]
+    },
+    {
+      "number": "3.290",
+      "ordinal": 290,
+      "folio": 521,
+      "pageId": "2613:1120",
+      "boardId": "198:6252",
+      "figureId": "3241:18280",
+      "captionTextId": "I3241:18280;3165:600;3241:18301;3164:51;3241:18304",
+      "captionText": "Figura 3.290 — NIST: ciclo di sviluppo del software. Le pratiche SSDF si integrano nelle diverse fasi.",
+      "referenceTextIds": [
+        "198:6240"
+      ]
+    }
+  ],
+  "verification": "reports/c03-numerazione-figure/2026-10-16/manifest.json",
+  "allFiguresHaveProseReferences": true,
+  "originalsCreditsAndLinksPreserved": true,
+  "incrementalRevision": {
+    "manifest": "assets/booklet/colore-cultura/manifest.json",
+    "verification": "reports/colore-cultura/verifica.json",
+    "basis": "Indice completo precedente conservato nelle prove di numerazione; inserimento verificato in Figma e traslazione delle figure successive di quattro."
+  }
+}

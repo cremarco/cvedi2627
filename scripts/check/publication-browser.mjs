@@ -4,6 +4,8 @@ import { chromium } from 'playwright-chromium'
 import { openSlide } from './browser.mjs'
 
 const curriculum = JSON.parse(await readFile('data/ux-curriculum.json', 'utf8'))
+const localLessons = curriculum.lessons.filter(lesson => lesson.localOnly === true)
+const localOnlySlides = localLessons.reduce((sum, lesson) => sum + lesson.slideCount, 0)
 const publicLessons = [
   { id: 'presentazione-corso', number: 1, title: 'Il corso' },
   { id: 'introduzione-teorica', number: 2, title: 'Introduzione a UX e UI' },
@@ -23,10 +25,10 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 588, buttons: 11 },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 433, buttons: 7 },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 433 + localOnlySlides, buttons: publicLessons.length + supplementalMaterials.length + localLessons.length },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 433, buttons: publicLessons.length + supplementalMaterials.length },
   ]) {
-    const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? curriculum.lessons.filter(lesson => lesson.number >= 6) : [])]
+    const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? localLessons : [])]
     const page = await browser.newPage({ reducedMotion: 'reduce' })
     page.on('pageerror', error => {
       // Headless Chromium denies Slidev's Wake Lock when leaving print media.
@@ -108,7 +110,7 @@ try {
       assert.ok(nav.slides.some(slide => slide.alias === 'storia-design'), 'lesson 03 retains its alias')
       for (const lesson of curriculum.lessons) {
         const owned = nav.slides.filter(slide => slide.lesson === lesson.id)
-        const available = profile.name === 'local' || lesson.number <= 5
+        const available = profile.name === 'local' || lesson.localOnly !== true
         assert.equal(owned.length, available ? lesson.slideCount : 0, `${profile.name}: ${lesson.id} navigation and overview`)
         assert.equal(nav.slides.some(slide => slide.alias === lesson.id), available, `${profile.name}: ${lesson.id} alias`)
       }
@@ -146,7 +148,7 @@ try {
       }
     }
     if (profile.name === 'published') {
-      for (const lesson of curriculum.lessons.filter(lesson => lesson.number <= 5)) {
+      for (const lesson of curriculum.lessons.filter(lesson => lesson.localOnly !== true)) {
         const ownedPages = await page.evaluate(id => {
           const nav = document.querySelector('#app').__vue_app__._context.provides['$$slidev-context'].nav
           return (nav.slides.value ?? nav.slides).filter(slide => slide.meta.slide.frontmatter.lesson === id).map(slide => slide.no)
@@ -168,7 +170,7 @@ try {
     await page.close()
   }
   assert.deepEqual(errors, [], 'no browser runtime errors')
-  const report = { status: 'passed', profiles: reports, localLessonLinks: 6, errors, warnings }
+  const report = { status: 'passed', profiles: reports, localLessonLinks: localLessons.length, errors, warnings }
   await writeFile(`${output}/browser-check.json`, JSON.stringify(report, null, 2) + '\n')
   console.log(JSON.stringify(report, null, 2))
 } finally { await browser.close() }

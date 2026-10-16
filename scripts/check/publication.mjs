@@ -12,7 +12,7 @@ export async function checkPublication() {
   const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
-  const localIds = new Set(curriculum.lessons.filter(lesson => lesson.number >= 6).map(lesson => lesson.id))
+  const localIds = new Set(curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id))
   const options = { roots: [root], userRoot: root, allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
   try {
@@ -21,9 +21,14 @@ export async function checkPublication() {
     for (const deck of [local, published])
       for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
     const localSlides = local.slides.filter(slide => uxIds.has(slide.frontmatter.lesson))
-    assert.equal(localSlides.length, 346, 'active UX lessons include accessibility content and live examples')
-    assert.ok(localSlides.filter(slide => localIds.has(slide.frontmatter.lesson)).every(slide => slide.frontmatter.localOnly === true), 'unpublished lesson imports remain explicitly marked')
-    assert.equal(local.slides.length, 588, 'complete local deck')
+    const declaredUxSlides = curriculum.lessons.reduce((sum, lesson) => sum + lesson.slideCount, 0)
+    assert.equal(localSlides.length, declaredUxSlides, 'active UX lessons match the curriculum')
+    for (const lesson of curriculum.lessons) {
+      const owned = localSlides.filter(slide => slide.frontmatter.lesson === lesson.id)
+      assert.equal(owned.length, lesson.slideCount, `${lesson.id}: local publication count matches the curriculum`)
+      assert.ok(owned.every(slide => (slide.frontmatter.localOnly === true) === localIds.has(lesson.id)), `${lesson.id}: publication visibility matches the curriculum`)
+    }
+    assert.equal(local.slides.length, 242 + declaredUxSlides, 'complete local deck')
     assert.equal(published.slides.length, 433, 'published deck includes lessons 01–05')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')

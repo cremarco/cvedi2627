@@ -10748,7 +10748,12 @@
     "perceptionVerification": "reports/percezione-linguaggio-visivo/verifica.json",
     "ordinalShiftRulesStatus": "Le regole conservate descrivono lo snapshot storico. figmaPages[].sourceOrdinalMap e currentBoardSequence sono i riferimenti correnti dopo le inserzioni in C03.05.",
     "perceptionLatestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json",
-    "perceptionNativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json"
+    "perceptionNativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json",
+    "colorRevisionManifest": "assets/booklet/colore-estensione/manifest.json",
+    "colorRevisionSnapshotIsCurrent": true,
+    "colorBoardCount": 48,
+    "colorAddedBoardCount": 16,
+    "latestColorCultureRevision": "assets/booklet/colore-cultura/manifest.json"
   },
   "addedOpeningBoards": [
     {
@@ -12128,5 +12133,498 @@
     "latestExtensionManifest": "assets/booklet/percezione-linguaggio-visivo/vecchio-booklet/manifest.json",
     "nativeSchemesManifest": "assets/booklet/percezione-linguaggio-visivo/schemi-nativi/manifest.json",
     "nativeSchemeCount": 16
-  }
+  },
+  "currentGestaltRevision": {
+    "manifest": "assets/booklet/gestalt-ristrutturazione/manifest.json",
+    "snapshotTextRemainsHistorical": true,
+    "commentReview": {
+      "date": "2026-10-15",
+      "manifest": "reports/figma-commenti/2026-10-15/commenti-finali/manifest.json",
+      "resolvedComments": [
+        296,
+        297,
+        298,
+        299,
+        303,
+        304,
+        305
+      ],
+      "editedPageCount": 6,
+      "editedTextBlockCount": 13,
+      "verification": "passed",
+      "openCommentsAfter": 0
+    },
+    "orderingRevision": {
+      "date": "2026-10-16",
+      "request": "Regione comune ultima nelle nove leggi; numeri delle aperture nell’indice.",
+      "manifest": "reports/figma-commenti/2026-10-16/riordino-regione-comune/manifest.json",
+      "ruleOrder": [
+        "vicinanza",
+        "somiglianza",
+        "destino-comune",
+        "continuita",
+        "chiusura",
+        "simmetria",
+        "figura-sfondo",
+        "esperienza-passata",
+        "regione-comune"
+      ],
+      "indexPage": 235,
+      "pageStarts": {
+        "vicinanza": 236,
+        "somiglianza": 245,
+        "destino-comune": 254,
+        "continuita": 262,
+        "chiusura": 270,
+        "simmetria": 279,
+        "figura-sfondo": 288,
+        "esperienza-passata": 296,
+        "regione-comune": 305
+      },
+      "regionRange": [
+        305,
+        314
+      ],
+      "printedRange": [
+        230,
+        318
+      ],
+      "pageCount": 89,
+      "changedPageCount": 27,
+      "followingNumberingUnchanged": true,
+      "verification": "reports/figma-commenti/2026-10-16/riordino-regione-comune/verifica-native.json"
+    }
+  },
+  "currentColorRevision": {
+    "date": "2026-10-16",
+    "manifest": "assets/booklet/colore-estensione/manifest.json",
+    "snapshot": "assets/booklet/colore-estensione/figma-source.json",
+    "snapshotTextRemainsHistorical": true,
+    "pageId": "2613:1114",
+    "sectionId": "204:8299",
+    "printedFolioRange": [
+      366,
+      417
+    ],
+    "printedBoardCountBefore": 32,
+    "printedBoardCountAfter": 52,
+    "contentBoardCountAfter": 51,
+    "addedBoardCount": 20,
+    "additionalUnnumberedNoteId": "3086:11575",
+    "chapterBoardCountObservedBefore": 409,
+    "chapterBoardCountAfter": 429,
+    "chapterPrintedLastPage": 521,
+    "bookletPrintedLastPage": 539,
+    "followingFolioShift": 20,
+    "figureRange": [
+      196,
+      237
+    ],
+    "figureCount": 42,
+    "revisedExistingTextBlockCount": 22,
+    "newBoardIds": [
+      "3956:658",
+      "3956:773",
+      "3956:871",
+      "3956:961",
+      "3997:23912",
+      "3997:24046",
+      "3997:24195",
+      "3956:1071",
+      "3989:1548",
+      "3997:24415",
+      "3997:24564",
+      "3997:24698",
+      "3989:1731",
+      "3956:1201",
+      "4035:12265",
+      "4035:12266",
+      "4035:12267",
+      "4035:12268",
+      "3956:1309",
+      "3956:1405"
+    ],
+    "currentBoardSequence": [
+      "198:5134",
+      "3956:658",
+      "3956:773",
+      "3956:871",
+      "3956:961",
+      "3997:23912",
+      "3997:24046",
+      "3997:24195",
+      "3956:1071",
+      "3989:1548",
+      "3997:24415",
+      "3997:24564",
+      "3997:24698",
+      "3989:1731",
+      "3956:1201",
+      "198:5153",
+      "198:5166",
+      "198:5238",
+      "198:5181",
+      "198:5253",
+      "198:5196",
+      "198:5268",
+      "198:5223",
+      "198:5296",
+      "198:5211",
+      "198:5283",
+      "198:5311",
+      "198:5419",
+      "4035:12265",
+      "4035:12266",
+      "4035:12267",
+      "4035:12268",
+      "198:5321",
+      "198:5429",
+      "198:5335",
+      "198:5441",
+      "198:5355",
+      "198:5453",
+      "198:5371",
+      "198:5462",
+      "198:5403",
+      "198:5480",
+      "198:5387",
+      "198:5471",
+      "198:5489",
+      "198:5526",
+      "198:5504",
+      "198:5541",
+      "3956:1309",
+      "3956:1405",
+      "198:5515",
+      "198:5553"
+    ],
+    "verification": "reports/colore-cultura/verifica.json",
+    "verificationPassed": true,
+    "schemePageSequence": [
+      {
+        "folio": 370,
+        "id": "3956:961",
+        "title": "Monocromatico",
+        "kind": "explanation"
+      },
+      {
+        "folio": 371,
+        "id": "3997:23912",
+        "title": "Monocromatico: esempi",
+        "kind": "examples"
+      },
+      {
+        "folio": 372,
+        "id": "3997:24046",
+        "title": "Analogo",
+        "kind": "explanation"
+      },
+      {
+        "folio": 373,
+        "id": "3997:24195",
+        "title": "Analogo: esempi",
+        "kind": "examples"
+      },
+      {
+        "folio": 374,
+        "id": "3956:1071",
+        "title": "Complementare",
+        "kind": "explanation"
+      },
+      {
+        "folio": 375,
+        "id": "3989:1548",
+        "title": "Complementare: esempi",
+        "kind": "examples"
+      },
+      {
+        "folio": 376,
+        "id": "3997:24415",
+        "title": "Complementare divergente",
+        "kind": "explanation"
+      },
+      {
+        "folio": 377,
+        "id": "3997:24564",
+        "title": "Complementare divergente: esempi",
+        "kind": "examples"
+      },
+      {
+        "folio": 378,
+        "id": "3997:24698",
+        "title": "Triadico",
+        "kind": "explanation"
+      },
+      {
+        "folio": 379,
+        "id": "3989:1731",
+        "title": "Triadico: esempi",
+        "kind": "examples"
+      }
+    ],
+    "historicalInterfaceExampleCount": 10,
+    "officialWebExampleCount": 2,
+    "typographyNormalization": {
+      "date": "2026-10-16",
+      "frameCount": 49,
+      "activeTextNodeCount": 312,
+      "processedTextNodeCount": 252,
+      "separatedHeadingCount": 11,
+      "rawTitlesMigratedToComponents": 5,
+      "fontFamilies": [
+        "Geom",
+        "Merriweather",
+        "Inter"
+      ],
+      "body": "Merriweather Light 10/15",
+      "title": "Geom Bold 20/AUTO",
+      "subtitle": "Geom Bold 16/AUTO",
+      "source": "Merriweather Light Italic 7/10",
+      "caption": "Merriweather Light Italic 7/12",
+      "folio": "Merriweather Light 9/12",
+      "artOpening": "Inter Bold 44/AUTO",
+      "contentPreserved": true,
+      "figureReferencesPreserved": 38,
+      "structuralPageCountUnchanged": true,
+      "artisticCompositionsPreserved": true,
+      "individualColorBarsPreserved": true,
+      "originalTextsRetainedHidden": true,
+      "proportionalVisualAdjustments": 3,
+      "verification": "reports/colore-verifica/esempi/tipografia-verifica.json",
+      "verificationPassed": true,
+      "snapshotStatus": "Verifica precedente all’inserimento culturale; la verifica corrente comprende 53 frame e 342 testi in reports/colore-cultura/verifica.json."
+    },
+    "cultureRevision": "assets/booklet/colore-cultura/manifest.json",
+    "cultureInsertionCount": 4,
+    "currentActiveTextNodeCount": 342,
+    "currentFrameCount": 53
+  },
+  "currentFigureNumbering": {
+    "date": "2026-10-16",
+    "status": "passed",
+    "figureCount": 290,
+    "numberRange": [
+      "3.1",
+      "3.290"
+    ],
+    "pageCount": 14,
+    "boardCount": 429,
+    "numberedBoardCount": 427,
+    "pages": [
+      {
+        "pageId": "2008:1741",
+        "pageName": "C03.01 · Apertura",
+        "numberedBoardCount": 8,
+        "boardCount": 10,
+        "printedFolioRange": [
+          95,
+          102
+        ],
+        "figureCount": 2,
+        "figureRange": [
+          "3.1",
+          "3.2"
+        ]
+      },
+      {
+        "pageId": "2613:1109",
+        "pageName": "C03.02 · Ricerca, utenti e contesto",
+        "numberedBoardCount": 65,
+        "boardCount": 65,
+        "printedFolioRange": [
+          103,
+          167
+        ],
+        "figureCount": 39,
+        "figureRange": [
+          "3.3",
+          "3.41"
+        ]
+      },
+      {
+        "pageId": "2613:1110",
+        "pageName": "C03.03 · Accessibilità",
+        "numberedBoardCount": 56,
+        "boardCount": 56,
+        "printedFolioRange": [
+          168,
+          223
+        ],
+        "figureCount": 29,
+        "figureRange": [
+          "3.42",
+          "3.70"
+        ]
+      },
+      {
+        "pageId": "2613:1111",
+        "pageName": "C03.04 · Define",
+        "numberedBoardCount": 6,
+        "boardCount": 6,
+        "printedFolioRange": [
+          224,
+          229
+        ],
+        "figureCount": 2,
+        "figureRange": [
+          "3.71",
+          "3.72"
+        ]
+      },
+      {
+        "pageId": "2613:1112",
+        "pageName": "C03.05 · Gestalt",
+        "numberedBoardCount": 89,
+        "boardCount": 89,
+        "printedFolioRange": [
+          230,
+          318
+        ],
+        "figureCount": 94,
+        "figureRange": [
+          "3.73",
+          "3.166"
+        ]
+      },
+      {
+        "pageId": "3699:2475",
+        "pageName": "C03.06 · Linguaggio visivo",
+        "numberedBoardCount": 17,
+        "boardCount": 17,
+        "printedFolioRange": [
+          319,
+          335
+        ],
+        "figureCount": 14,
+        "figureRange": [
+          "3.167",
+          "3.180"
+        ]
+      },
+      {
+        "pageId": "2613:1113",
+        "pageName": "C03.07 · Gerarchia visiva",
+        "numberedBoardCount": 30,
+        "boardCount": 30,
+        "printedFolioRange": [
+          336,
+          365
+        ],
+        "figureCount": 15,
+        "figureRange": [
+          "3.181",
+          "3.195"
+        ]
+      },
+      {
+        "pageId": "2613:1114",
+        "pageName": "C03.06 · Colore",
+        "numberedBoardCount": 52,
+        "boardCount": 52,
+        "printedFolioRange": [
+          366,
+          417
+        ],
+        "figureCount": 42,
+        "figureRange": [
+          "3.196",
+          "3.237"
+        ]
+      },
+      {
+        "pageId": "2613:1115",
+        "pageName": "C03.09 · Tipografia",
+        "numberedBoardCount": 26,
+        "boardCount": 26,
+        "printedFolioRange": [
+          418,
+          443
+        ],
+        "figureCount": 12,
+        "figureRange": [
+          "3.238",
+          "3.249"
+        ]
+      },
+      {
+        "pageId": "2613:1116",
+        "pageName": "C03.10 · Griglie e interfacce",
+        "numberedBoardCount": 18,
+        "boardCount": 18,
+        "printedFolioRange": [
+          444,
+          461
+        ],
+        "figureCount": 13,
+        "figureRange": [
+          "3.250",
+          "3.262"
+        ]
+      },
+      {
+        "pageId": "2613:1117",
+        "pageName": "C03.11 · Wireframe e mockup",
+        "numberedBoardCount": 12,
+        "boardCount": 12,
+        "printedFolioRange": [
+          462,
+          473
+        ],
+        "figureCount": 7,
+        "figureRange": [
+          "3.263",
+          "3.269"
+        ]
+      },
+      {
+        "pageId": "2613:1118",
+        "pageName": "C03.12 · Interfacce dei videogiochi",
+        "numberedBoardCount": 22,
+        "boardCount": 22,
+        "printedFolioRange": [
+          474,
+          495
+        ],
+        "figureCount": 16,
+        "figureRange": [
+          "3.270",
+          "3.285"
+        ]
+      },
+      {
+        "pageId": "2613:1119",
+        "pageName": "C03.13 · Test e usabilità",
+        "numberedBoardCount": 22,
+        "boardCount": 22,
+        "printedFolioRange": [
+          496,
+          517
+        ],
+        "figureCount": 4,
+        "figureRange": [
+          "3.286",
+          "3.289"
+        ]
+      },
+      {
+        "pageId": "2613:1120",
+        "pageName": "C03.14 · Implementazione",
+        "numberedBoardCount": 4,
+        "boardCount": 4,
+        "printedFolioRange": [
+          518,
+          521
+        ],
+        "figureCount": 1,
+        "figureRange": [
+          "3.290",
+          "3.290"
+        ]
+      }
+    ],
+    "index": "assets/booklet/capitolo-3/figure-index.json",
+    "verification": "reports/c03-numerazione-figure/2026-10-16/manifest.json",
+    "incrementalVerification": "reports/colore-cultura/verifica.json"
+  },
+  "figmaPagesSnapshotStatus": "Snapshot storico dei contenuti; la ricognizione corrente delle Pages e delle figure è currentFigureNumbering."
 }

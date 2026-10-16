@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-16",
+  "purpose": "Integrazioni autonome delle slide Colore; i raccordi al booklet indicano il contesto, non una nuova tavola Figma.",
+  "sources": [
+    {
+      "id": "S01",
+      "type": "Manuale ufficiale di prodotto",
+      "title": "CGSE Trader Terminal User Manual",
+      "date": "2021-10-22 (nome del file)",
+      "url": "https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf",
+      "pdfPage": 13,
+      "printedPage": 12,
+      "section": "5.1.4 Up/Down Color Setting",
+      "verified": "PDF scaricato, testo e screenshot verificati visivamente.",
+      "local": "reports/colore-cultura/ricerca-integrativa/fonti-web/cgse-trader-2021.pdf"
+    },
+    {
+      "id": "S02",
+      "type": "Manuale ufficiale ospitato dalla banca",
+      "title": "MagicTrader Plus Android v3.0",
+      "date": "2012 (copyright del PDF)",
+      "url": "https://www.cmbwinglungbank.com/wlb_corporate/files/hk/upload/about-us/service-guide/10.10.1.9.4-CnSecTeleStoQuoUsrGuiAnd.pdf",
+      "pdfPage": 21,
+      "section": "40e",
+      "verified": "PDF scaricato, testo e screenshot verificati visivamente.",
+      "local": "reports/colore-cultura/ricerca-integrativa/fonti-web/magictrader-v3-2012.pdf"
+    },
+    {
+      "id": "S03",
+      "type": "Studio originale",
+      "title": "Russian blues reveal effects of language on color discrimination",
+      "authors": "Winawer et al.",
+      "year": 2007,
+      "doi": "10.1073/pnas.0701644104",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17470790/",
+      "verified": "Abstract originale e metadatiPubMed verificati; PDF dell’autrice non scaricato per timeout."
+    },
+    {
+      "id": "S04",
+      "type": "Fonte istituzionale messicana",
+      "title": "¿Por qué usamos las flores de cempasúchil en el Día de Muertos?",
+      "url": "https://www.gob.mx/agricultura/es/articulos/por-que-usamos-las-flores-de-cempasuchil-en-el-dia-de-muertos",
+      "verified": "Testo indicizzato della fonte primaria verificato; apertura diretta403."
+    },
+    {
+      "id": "S05",
+      "type": "Fonte istituzionale culturale messicana",
+      "title": "Cempasúchil y mariposas: símbolos del regreso de las almas",
+      "url": "https://www.inah.gob.mx/foto-del-dia/cempasuchil-y-mariposas-simbolos-del-regreso-de-las-almas",
+      "verified": "Testo indicizzato della fonte primaria verificato; apertura diretta403."
+    },
+    {
+      "id": "S06",
+      "type": "Archivio ufficiale del prodotto e intervista all’artista",
+      "title": "Day of the Dead2024",
+      "author": "Google Doodles; illustrazioneLuciaSarabia",
+      "date": "2024-11-01",
+      "url": "https://doodles.google/doodle/day-of-the-dead-2024/",
+      "verified": "Pagina completa letta; Doodle verificato visivamente nel browser isolato."
+    },
+    {
+      "id": "S07",
+      "type": "Studio originale",
+      "title": "Color preferences are not universal",
+      "authors": "Taylor,Clifford eFranklin",
+      "year": 2013,
+      "doi": "10.1037/a0030273",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23148465/",
+      "verified": "Abstract originale e metadatiPubMed verificati; non usati numeri campionari da fonti secondarie."
+    },
+    {
+      "id": "S08",
+      "type": "Studio originale openaccess",
+      "title": "Cultural Components of Sex Differences in Color Preference",
+      "authors": "Davis et al.",
+      "year": 2021,
+      "doi": "10.1111/cdev.13528",
+      "url": "https://academic.oup.com/chidev/article/92/4/1574/8254912",
+      "verified": "Testo completo editore; metodo,risultati,tabella4 e discussione letti."
+    },
+    {
+      "id": "S09",
+      "type": "Studio originale qualitativo",
+      "title": "The emotional connotations of color: A qualitative investigation",
+      "authors": "Clarke eCostall",
+      "year": 2008,
+      "doi": "10.1002/col.20435",
+      "url": "https://onlinelibrary.wiley.com/doi/10.1002/col.20435",
+      "verified": "Abstract e metadati dell’editore; campione ricostruito dall’approfondimento locale, non presentato come rappresentativo."
+    }
+  ],
+  "localResearchProvenance": [
+    {
+      "file": "materiali/approfondimenti/2021-2022/rota-david-875401.pdf",
+      "pdfPages": [
+        5,
+        6,
+        19
+      ]
+    },
+    {
+      "file": "materiali/approfondimenti/2024-2025/tresca-alice-916185.pdf",
+      "pdfPages": [
+        7,
+        8,
+        9,
+        10,
+        11
+      ]
+    }
+  ]
+}

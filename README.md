@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 433 slide online e 588 nell’anteprima locale. Le lezioni 06–09 sono disponibili soltanto in locale; le lezioni 03, 04 e 05, rispettivamente di 67, 86 e 105 slide, sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 433 slide online e 712 nell’anteprima locale. Le lezioni 06–10 sono disponibili soltanto in locale, compresa la lezione 06 «Gestalt», con 111 slide dalle 89 tavole correnti del booklet. La lezione 07 «Colore e significato» conta 46 slide per 120 minuti, con tredici integrazioni sui contesti culturali da fonti verificate e materiali d’archivio, comprese convenzioni finanziarie, lingua, rituali e preferenze. Le lezioni 03, 04 e 05, rispettivamente di 67, 86 e 105 slide, sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 
@@ -29,6 +29,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:publication dist` | Separazione locale/online e assenza degli asset locali nella build |
 | `pnpm check` | Controlli completi nel browser |
 | `pnpm check:layout` | Geometrie, didascalie e dialoghi |
+| `pnpm check:gestalt` | 111 slide Gestalt: fonti, immagini, desktop, viewport stretto, stampa e ingrandimento |
 | `pnpm check:accessibility-demos` | 17 confronti HTML: interazioni, viewport stretto e stampa |
 | `pnpm check:motion` | Animazioni, movimento ridotto ed export |
 | `pnpm check:progress` | Contatore e avanzamento per set |
@@ -36,7 +37,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:home` | Home Pages: URL, layout, movimento, tastiera e stampa |
 | `pnpm check:archive` | Collegamenti all’archivio, reindirizzamenti e anteprime locali |
 
-I controlli slide usano `http://localhost:3035`; `check:accessibility-demos` usa `http://localhost:3045`. `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 588 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea. `A11Y_REPORT` seleziona la cartella delle prove dei confronti HTML, predefinita `reports/lesson-05/interactive/`.
+I controlli slide usano `http://localhost:3035`; `check:accessibility-demos` usa `http://localhost:3045`. `SLIDEV_URL` permette un'altra origine. Per verificare tutte le 712 slide usare un’istanza dev su una porta separata dalle schede dell’utente; per la versione online usare un server statico della build. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea. `A11Y_REPORT` seleziona la cartella delle prove dei confronti HTML, predefinita `reports/lesson-05/interactive/`.
 
 `pnpm check:home` serve la build `_site/` con un server temporaneo e un browser isolato. Verifica la home alle basi `/` e `/cvedi2627/`, da 320 a 1440 px, termine automatico dell’animazione entro cinque secondi, movimento ridotto, skip link, forced colors, stampa e funzionamento senza JavaScript. `COURSE_HOME_SITE` sceglie una build diversa; `COURSE_HOME_REPORT` sceglie il percorso di rapporti, screenshot e PDF, predefinito `reports/course-home/`.
 
@@ -66,7 +67,7 @@ La radice `/cvedi2627/` apre la home del corso. Le destinazioni attive sono `/cv
 
 Caffè TTC è consultabile separatamente dalle slide in `/web-design-examples/`: durante `pnpm dev` apre le quattro pagine e il selettore dei 21 stili. `pnpm build` prepara lo stesso percorso in `dist/`; Pages lo pubblica in `/cvedi2627/web-design-examples/`. Gli URL delle varianti usano `?stile=`, per esempio `web-design-examples/menu.html?stile=y2k`. Le build rigenerano gli esempi e copiano le risorse usate dal sito, con licenze e provenienza; originali e varianti archiviate restano in `esempi/caffe-luce/`.
 
-Le lezioni 04 «Ricerca, contesto e inclusione» e 05 «Accessibilità e design inclusivo» sono pubblicate integralmente e collegate nell’indice. Gli import delle lezioni 06–09 dichiarano `localOnly: true`. Il preparser Slidev li disabilita durante ogni build e rimuove il blocco `LocalOnly` dall’indice prima della compilazione. Slide, alias e panoramica online non contengono queste lezioni; il build conserva in `images/processo-ux` soltanto le figure referenziate dalle lezioni pubblicate. `pnpm dev` conserva le sei lezioni e i collegamenti. I controlli delle sorgenti verificano entrambe le modalità.
+Le lezioni 04 «Ricerca, contesto e inclusione» e 05 «Accessibilità e design inclusivo» sono pubblicate integralmente e collegate nell’indice. Gli import delle lezioni 06–10 dichiarano `localOnly: true`. Il preparser Slidev li disabilita durante ogni build e rimuove il blocco `LocalOnly` dall’indice prima della compilazione. Slide, alias e panoramica online non contengono queste lezioni; il build conserva in `images/processo-ux` soltanto le figure referenziate dalle lezioni pubblicate. `pnpm dev` conserva le sette lezioni del processo UX e i collegamenti, con Gestalt dopo Accessibilità. I controlli delle sorgenti verificano entrambe le modalità.
 
 Le immagini generate attive sono registrate in `assets/theme-imagegen/manifest-v1.json`; PNG originali e WebP selezionati conservano pixel e trasparenza. Licenze dei font e provenienza degli artefatti storici restano insieme agli asset.
 

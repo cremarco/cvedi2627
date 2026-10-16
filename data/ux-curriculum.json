@@ -54,11 +54,34 @@
     },
     {
       "number": 6,
+      "id": "gestalt",
+      "title": "Gestalt",
+      "subtitle": "Organizzare forme, relazioni e significati",
+      "file": "lezioni/06-gestalt.md",
+      "palette": "teal",
+      "sections": [
+        5
+      ],
+      "slideCount": 111,
+      "paletteAlias": "ux-gestalt",
+      "localOnly": true,
+      "currentSource": {
+        "snapshot": "assets/booklet/lezione-06-gestalt/figma-source.json",
+        "sectionId": "204:8297",
+        "folios": [
+          230,
+          318
+        ]
+      },
+      "lessonMinutes": 139.5
+    },
+    {
+      "number": 7,
       "id": "colore",
       "title": "Colore e significato",
       "subtitle": "Relazioni cromatiche, contesto e accessibilità",
       "file": "lezioni/06-colore.md",
-      "palette": "teal",
+      "palette": "red",
       "sourceRange": [
         125,
         156
@@ -66,16 +89,17 @@
       "sections": [
         7
       ],
-      "slideCount": 33,
-      "paletteAlias": "ux-color"
+      "slideCount": 46,
+      "paletteAlias": "ux-color",
+      "localOnly": true
     },
     {
-      "number": 7,
+      "number": 8,
       "id": "tipografia-griglie",
       "title": "Tipografia, griglie e interfacce",
       "subtitle": "Dalla leggibilità alla struttura responsive",
       "file": "lezioni/07-tipografia-griglie.md",
-      "palette": "cyan",
+      "palette": "red",
       "sourceRange": [
         157,
         200
@@ -85,15 +109,16 @@
         9
       ],
       "slideCount": 46,
-      "paletteAlias": "ux-type"
+      "paletteAlias": "ux-type",
+      "localOnly": true
     },
     {
-      "number": 8,
+      "number": 9,
       "id": "prototipi-interfacce",
       "title": "Prototipi e videogiochi",
       "subtitle": "Flussi, stati e interfacce per l’azione",
       "file": "lezioni/08-prototipi-interfacce.md",
-      "palette": "sky",
+      "palette": "red",
       "sourceRange": [
         201,
         234
@@ -103,15 +128,16 @@
         11
       ],
       "slideCount": 38,
-      "paletteAlias": "ux-prototype"
+      "paletteAlias": "ux-prototype",
+      "localOnly": true
     },
     {
-      "number": 9,
+      "number": 10,
       "id": "test-implementazione",
       "title": "Test e implementazione",
       "subtitle": "Osservare l’uso, migliorare e consegnare",
       "file": "lezioni/09-test-implementazione.md",
-      "palette": "blue",
+      "palette": "red",
       "sourceRange": [
         235,
         260
@@ -121,7 +147,8 @@
         13
       ],
       "slideCount": 38,
-      "paletteAlias": "ux-test"
+      "paletteAlias": "ux-test",
+      "localOnly": true
     }
   ]
 }

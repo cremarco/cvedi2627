@@ -1,4 +1,4 @@
-# Lezione 09 · Test e implementazione
+# Lezione 10 · Test e implementazione
 
 Fonte: Booklet CVeDI · C03 Processo UX, pagine Figma [C03.12 · Test e usabilità](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1119) e [C03.13 · Implementazione](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1120). Tavole 235–260; contenuti visibili estratti il 7 ottobre 2026.
 

@@ -1,4 +1,4 @@
-# Lezione 07 · Tipografia, griglie e interfacce
+# Lezione 08 · Tipografia, griglie e interfacce
 
 Fonte: Booklet CVeDI · C03 Processo UX, pagine Figma [C03.08 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1115) e [C03.09 · Griglie e interfacce](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1116). Tavole 157–200; contenuti visibili estratti il 7 ottobre 2026.
 

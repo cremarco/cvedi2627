@@ -6,7 +6,7 @@ lesson: prototipi-interfacce
 lessonSlide: 1
 lessonMinutes: 0.5
 routeAlias: prototipi-interfacce
-lessonNumber: 8
+lessonNumber: 9
 bookletPages: [201]
 ---
 
