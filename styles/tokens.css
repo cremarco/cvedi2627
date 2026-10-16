@@ -554,42 +554,42 @@
   --cvedi-ux-gestalt-accent-light: var(--cvedi-teal-accent-light);
   --cvedi-ux-gestalt-accent-vivid: var(--cvedi-teal-accent-vivid);
 
-  /* Lessons 07–10 inherit the red family of booklet chapter C03. */
-  --cvedi-ux-color-base: var(--cvedi-red-800);
-  --cvedi-ux-color-canvas: var(--cvedi-red-900);
-  --cvedi-ux-color-deep: var(--cvedi-red-950);
-  --cvedi-ux-color-light: var(--cvedi-red-100);
-  --cvedi-ux-color-surface: var(--cvedi-red-50);
-  --cvedi-ux-color-accent: var(--cvedi-red-accent);
-  --cvedi-ux-color-accent-light: var(--cvedi-red-accent-light);
-  --cvedi-ux-color-accent-vivid: var(--cvedi-red-accent-vivid);
+  /* Continue the index's Tailwind sequence after teal, including local-only lessons. */
+  --cvedi-ux-color-base: var(--cvedi-cyan-800);
+  --cvedi-ux-color-canvas: var(--cvedi-cyan-900);
+  --cvedi-ux-color-deep: var(--cvedi-cyan-950);
+  --cvedi-ux-color-light: var(--cvedi-cyan-100);
+  --cvedi-ux-color-surface: var(--cvedi-cyan-50);
+  --cvedi-ux-color-accent: var(--cvedi-cyan-accent);
+  --cvedi-ux-color-accent-light: var(--cvedi-cyan-accent-light);
+  --cvedi-ux-color-accent-vivid: var(--cvedi-cyan-accent-vivid);
 
-  --cvedi-ux-type-base: var(--cvedi-red-800);
-  --cvedi-ux-type-canvas: var(--cvedi-red-900);
-  --cvedi-ux-type-deep: var(--cvedi-red-950);
-  --cvedi-ux-type-light: var(--cvedi-red-100);
-  --cvedi-ux-type-surface: var(--cvedi-red-50);
-  --cvedi-ux-type-accent: var(--cvedi-red-accent);
-  --cvedi-ux-type-accent-light: var(--cvedi-red-accent-light);
-  --cvedi-ux-type-accent-vivid: var(--cvedi-red-accent-vivid);
+  --cvedi-ux-type-base: var(--cvedi-sky-800);
+  --cvedi-ux-type-canvas: var(--cvedi-sky-900);
+  --cvedi-ux-type-deep: var(--cvedi-sky-950);
+  --cvedi-ux-type-light: var(--cvedi-sky-100);
+  --cvedi-ux-type-surface: var(--cvedi-sky-50);
+  --cvedi-ux-type-accent: var(--cvedi-sky-accent);
+  --cvedi-ux-type-accent-light: var(--cvedi-sky-accent-light);
+  --cvedi-ux-type-accent-vivid: var(--cvedi-sky-accent-vivid);
 
-  --cvedi-ux-prototype-base: var(--cvedi-red-800);
-  --cvedi-ux-prototype-canvas: var(--cvedi-red-900);
-  --cvedi-ux-prototype-deep: var(--cvedi-red-950);
-  --cvedi-ux-prototype-light: var(--cvedi-red-100);
-  --cvedi-ux-prototype-surface: var(--cvedi-red-50);
-  --cvedi-ux-prototype-accent: var(--cvedi-red-accent);
-  --cvedi-ux-prototype-accent-light: var(--cvedi-red-accent-light);
-  --cvedi-ux-prototype-accent-vivid: var(--cvedi-red-accent-vivid);
+  --cvedi-ux-prototype-base: var(--cvedi-blue-800);
+  --cvedi-ux-prototype-canvas: var(--cvedi-blue-900);
+  --cvedi-ux-prototype-deep: var(--cvedi-blue-950);
+  --cvedi-ux-prototype-light: var(--cvedi-blue-100);
+  --cvedi-ux-prototype-surface: var(--cvedi-blue-50);
+  --cvedi-ux-prototype-accent: var(--cvedi-blue-accent);
+  --cvedi-ux-prototype-accent-light: var(--cvedi-blue-accent-light);
+  --cvedi-ux-prototype-accent-vivid: var(--cvedi-blue-accent-vivid);
 
-  --cvedi-ux-test-base: var(--cvedi-red-800);
-  --cvedi-ux-test-canvas: var(--cvedi-red-900);
-  --cvedi-ux-test-deep: var(--cvedi-red-950);
-  --cvedi-ux-test-light: var(--cvedi-red-100);
-  --cvedi-ux-test-surface: var(--cvedi-red-50);
-  --cvedi-ux-test-accent: var(--cvedi-red-accent);
-  --cvedi-ux-test-accent-light: var(--cvedi-red-accent-light);
-  --cvedi-ux-test-accent-vivid: var(--cvedi-red-accent-vivid);
+  --cvedi-ux-test-base: var(--cvedi-indigo-800);
+  --cvedi-ux-test-canvas: var(--cvedi-indigo-900);
+  --cvedi-ux-test-deep: var(--cvedi-indigo-950);
+  --cvedi-ux-test-light: var(--cvedi-indigo-100);
+  --cvedi-ux-test-surface: var(--cvedi-indigo-50);
+  --cvedi-ux-test-accent: var(--cvedi-indigo-accent);
+  --cvedi-ux-test-accent-light: var(--cvedi-indigo-accent-light);
+  --cvedi-ux-test-accent-vivid: var(--cvedi-indigo-accent-vivid);
 
   /* Default for standalone consumers; the active slide set overrides this role. */
 

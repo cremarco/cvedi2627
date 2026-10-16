@@ -117,7 +117,23 @@ export async function checkSlideSources() {
   assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
   assert.deepEqual(uxSource.pages.map(page => page.ordinal), Array.from({ length: 260 }, (_, i) => i + 1), 'all 260 source pages are preserved')
   assert.deepEqual(curriculum.lessons.map(lesson => lesson.number), Array.from({ length: curriculum.lessons.length }, (_, index) => index + 4), 'UX lessons retain consecutive numbers after history')
-  assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['green', 'emerald', 'teal', 'red', 'red', 'red', 'red'], 'lessons after Gestalt inherit the red family of booklet chapter C03')
+  assert.deepEqual(curriculum.lessons.map(lesson => lesson.palette), ['green', 'emerald', 'teal', 'cyan', 'sky', 'blue', 'indigo'], 'UX lessons continue the Tailwind palette sequence of the index')
+  const tokenSource = await readFile(path.join(root, 'styles/tokens.css'), 'utf8')
+  const tokens = new Map([...tokenSource.matchAll(/--cvedi-([\w-]+):\s*([^;]+);/g)].map(([, name, value]) => [name, value]))
+  const tailwindSource = await readFile(path.join(root, 'node_modules/tailwindcss/theme.css'), 'utf8')
+  const officialColors = [...tailwindSource.matchAll(/--color-([\w-]+):\s*(oklch\([^;]+\));/g)]
+  for (const [, name, color] of officialColors) assert.equal(tokens.get(name), color, `${name}: official installed Tailwind value`)
+  const setPalettes = [
+    ['opening', 'indigo'], ['course', 'red'], ['introduction', 'orange'],
+    ['brief', 'amber'], ['research', 'yellow'], ['history', 'lime'],
+    ...curriculum.lessons.map(lesson => [lesson.paletteAlias, lesson.palette]),
+  ]
+  const paletteRoles = { base: '800', canvas: '900', deep: '950', light: '100', surface: '50', accent: 'accent', 'accent-light': 'accent-light', 'accent-vivid': 'accent-vivid' }
+  for (const [alias, family] of setPalettes) {
+    for (const [role, shade] of Object.entries(paletteRoles)) {
+      assert.equal(tokens.get(`${alias}-${role}`), `var(--cvedi-${family}-${shade})`, `${alias}: ${role} follows its assigned family`)
+    }
+  }
   const sourcePages = new Map(uxSource.pages.map(page => [page.ordinal, page]))
   const assetRegistry = new Map(uxAssets.assets.map(asset => [asset.id, asset]))
   const coveredPages = new Set()
