@@ -951,7 +951,7 @@ bookletAssets: ["c03-029-01"]
 
 # Un’identità, mercati diversi
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-029-01-native-9541b81422bd.webp" alt="Il marchio McDonald’s: identità visiva riconoscibile nei diversi mercati." caption="Identità riconoscibile, contenuti e servizi adattati ai mercati · Booklet CVeDI" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-029-01-native-9541b81422bd.webp" alt="Il marchio McDonald’s: identità visiva riconoscibile nei diversi mercati." caption="Identità riconoscibile, contenuti e servizi adattati ai mercati" />
 
 ---
 layout: default

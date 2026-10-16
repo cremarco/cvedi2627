@@ -185,7 +185,7 @@ lessonSlide: 10
 # Persona Spectrum · Tocco
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-0-0-imagegen-8cb549454b79.webp" alt="Un solo braccio · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Un solo braccio" /><LessonFigure src="/images/processo-ux/l05-persona-0-1-imagegen-8c4c92019654.webp" alt="Braccio infortunato · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Braccio infortunato" /><LessonFigure src="/images/processo-ux/l05-persona-0-2-imagegen-8bf0c6926a73.webp" alt="Neo-genitore · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Neo-genitore" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-0-0-imagegen-8cb549454b79.webp" alt="Un solo braccio · Persona Spectrum, rielaborazione italiana." caption="Permanente · Un solo braccio" /><LessonFigure src="/images/processo-ux/l05-persona-0-1-imagegen-8c4c92019654.webp" alt="Braccio infortunato · Persona Spectrum, rielaborazione italiana." caption="Temporaneo · Braccio infortunato" /><LessonFigure src="/images/processo-ux/l05-persona-0-2-imagegen-8bf0c6926a73.webp" alt="Neo-genitore · Persona Spectrum, rielaborazione italiana." caption="Situazionale · Neo-genitore" /></div>
 
 ---
 layout: "default"
@@ -204,7 +204,7 @@ lessonSlide: 11
 # Persona Spectrum · Vista
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-1-0-imagegen-d3dad31eb86b.webp" alt="Cecità · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Cecità" /><LessonFigure src="/images/processo-ux/l05-persona-1-1-imagegen-2de33dca5731.webp" alt="Cataratta · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Cataratta" /><LessonFigure src="/images/processo-ux/l05-persona-1-2-imagegen-611943b89ebd.webp" alt="Guida: sguardo altrove · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Guida: sguardo altrove" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-1-0-imagegen-d3dad31eb86b.webp" alt="Cecità · Persona Spectrum, rielaborazione italiana." caption="Permanente · Cecità" /><LessonFigure src="/images/processo-ux/l05-persona-1-1-imagegen-2de33dca5731.webp" alt="Cataratta · Persona Spectrum, rielaborazione italiana." caption="Temporaneo · Cataratta" /><LessonFigure src="/images/processo-ux/l05-persona-1-2-imagegen-611943b89ebd.webp" alt="Guida: sguardo altrove · Persona Spectrum, rielaborazione italiana." caption="Situazionale · Guida: sguardo altrove" /></div>
 
 ---
 layout: "default"
@@ -223,7 +223,7 @@ lessonSlide: 12
 # Persona Spectrum · Udito
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-2-0-imagegen-0acc002bacce.webp" alt="Sordità · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Sordità" /><LessonFigure src="/images/processo-ux/l05-persona-2-1-imagegen-586abe2e3f03.webp" alt="Infezione all’orecchio · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Infezione all’orecchio" /><LessonFigure src="/images/processo-ux/l05-persona-2-2-imagegen-8aef3c7fad76.webp" alt="Bar affollato · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Bar affollato" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-2-0-imagegen-0acc002bacce.webp" alt="Sordità · Persona Spectrum, rielaborazione italiana." caption="Permanente · Sordità" /><LessonFigure src="/images/processo-ux/l05-persona-2-1-imagegen-586abe2e3f03.webp" alt="Infezione all’orecchio · Persona Spectrum, rielaborazione italiana." caption="Temporaneo · Infezione all’orecchio" /><LessonFigure src="/images/processo-ux/l05-persona-2-2-imagegen-8aef3c7fad76.webp" alt="Bar affollato · Persona Spectrum, rielaborazione italiana." caption="Situazionale · Bar affollato" /></div>
 
 ---
 layout: "default"
@@ -242,7 +242,7 @@ lessonSlide: 13
 # Persona Spectrum · Parlato
 
 <p class="lead">Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.</p>
-<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-3-0-imagegen-904b722505b0.webp" alt="Persona non verbale · Persona Spectrum, rielaborazione italiana del booklet." caption="Permanente · Persona non verbale" /><LessonFigure src="/images/processo-ux/l05-persona-3-1-imagegen-4e7a60273aa2.webp" alt="Laringite · Persona Spectrum, rielaborazione italiana del booklet." caption="Temporaneo · Laringite" /><LessonFigure src="/images/processo-ux/l05-persona-3-2-imagegen-a21a143a9e87.webp" alt="Accento non riconosciuto · Persona Spectrum, rielaborazione italiana del booklet." caption="Situazionale · Accento non riconosciuto" /></div>
+<div class="lesson-columns figure-triptych"><LessonFigure src="/images/processo-ux/l05-persona-3-0-imagegen-904b722505b0.webp" alt="Persona non verbale · Persona Spectrum, rielaborazione italiana." caption="Permanente · Persona non verbale" /><LessonFigure src="/images/processo-ux/l05-persona-3-1-imagegen-4e7a60273aa2.webp" alt="Laringite · Persona Spectrum, rielaborazione italiana." caption="Temporaneo · Laringite" /><LessonFigure src="/images/processo-ux/l05-persona-3-2-imagegen-a21a143a9e87.webp" alt="Accento non riconosciuto · Persona Spectrum, rielaborazione italiana." caption="Situazionale · Accento non riconosciuto" /></div>
 
 ---
 layout: "default"
@@ -436,7 +436,7 @@ lessonSlide: 23
 # Verificare una palette con Adobe Color
 
 <p class="lead">Le immagini del booklet mostrano gli strumenti di contrasto e simulazione.</p>
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-adobe-contrasto-83c74c16f32f.webp" alt="Adobe Color · verifica del contrasto; immagine conservata dalla tavola 178 del booklet." caption="Adobe Color · verifica del contrasto; immagine conservata dalla tavola 178 del booklet." /><LessonFigure src="/images/processo-ux/l05-adobe-visione-fb50e67de9bc.webp" alt="Adobe Color · simulazione della visione dei colori; immagine conservata dalla tavola 178 del booklet." caption="Adobe Color · simulazione della visione dei colori; immagine conservata dalla tavola 178 del booklet." /></div>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l05-adobe-contrasto-83c74c16f32f.webp" alt="Adobe Color · verifica del contrasto." caption="Adobe Color · verifica del contrasto." /><LessonFigure src="/images/processo-ux/l05-adobe-visione-fb50e67de9bc.webp" alt="Adobe Color · simulazione della visione dei colori." caption="Adobe Color · simulazione della visione dei colori." /></div>
 <nav class="lesson-tool-resources" aria-label="Strumenti per la verifica"><ul class="lesson-tools" role="list"><li><a class="link" href="https://color.adobe.com/create/color-contrast-analyzer">Adobe · Controllo del contrasto</a><p>Misura il rapporto tra primo piano e sfondo.</p></li><li><a class="link" href="https://color.adobe.com/create/color-accessibility">Adobe · Simulazione dei colori</a><p>Esplora la palette nelle simulazioni della visione dei colori.</p></li></ul></nav>
 
 ---
