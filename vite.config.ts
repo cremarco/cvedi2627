@@ -1,5 +1,6 @@
 import { readFile, readdir, rm } from 'node:fs/promises'
 import path from 'node:path'
+import { lessonDecksDevPlugin } from './utils/lesson-decks-dev.mjs'
 import { localAssetDirectories, sharedLessonAssetDirectories } from './utils/publication.mjs'
 import { webDesignExamplesPlugin } from './utils/web-design-examples.mjs'
 import { ilmeteoPlugin } from './utils/ilmeteo.mjs'
@@ -15,6 +16,7 @@ function localAssetsPlugin() {
       outputDirectory = path.resolve(config.root, config.build.outDir)
     },
     async closeBundle() {
+      if (process.env.CVEDI_SHARED_ASSETS) return
       for (const directory of localAssetDirectories)
         await rm(path.join(outputDirectory, directory), { recursive: true, force: true })
       const bundle = path.join(outputDirectory, 'assets')
@@ -33,10 +35,17 @@ function localAssetsPlugin() {
 }
 
 export default {
+  ...(process.env.CVEDI_SHARED_ASSETS ? {
+    build: { copyPublicDir: false },
+    experimental: { renderBuiltUrl(filename: string, { type }: { type: string }) {
+      if (type === 'public') return `${process.env.VITE_CVEDI_ASSET_BASE}${filename}`
+    } },
+  } : {}),
   slidev: {
     markdown: { transforms: { after: annotateAcronyms } },
   },
   plugins: [
+    lessonDecksDevPlugin(),
     localAssetsPlugin(),
     webDesignExamplesPlugin(),
     ilmeteoPlugin(),

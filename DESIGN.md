@@ -619,6 +619,14 @@ Le dieci lezioni 01–10 hanno una slide `layout: summary` subito dopo la copert
 
 La tesi usa Nunito Sans 40 px / 600, interlinea 1,3, colore primario del set e bilanciamento delle righe; la spiegazione usa 27 px / 400 e interlinea 1,48. Il gruppo è largo al massimo 1000 px, con 32 px fra le due parti. Non aggiungere card, immagini decorative o un’agenda al layout di sintesi. Il canvas conserva la composizione nel player stretto e in stampa. La lezione 03 riusa il testo «Dall’introduzione alla storia»; le altre sintesi sono ricavate dagli obiettivi e dai contenuti già presenti.
 
+## Presentazioni per lezione
+
+L’indice apre presentazioni Slidev indipendenti; ciascuna contiene soltanto il proprio set. `utils/lesson-decks.mjs` associa lezioni, sorgenti e alias senza duplicare i contenuti. La selezione nel preparser esclude gli altri import prima della lettura dei file. Le slide di apertura formano il menu, le slide senza `lesson` appartengono alla presentazione del corso, compresa la chiusura. Brief e approfondimenti restano due destinazioni del gruppo della lezione 02.
+
+`SlideAction` usa collegamenti nativi fra presentazioni e la navigazione Slidev all’interno della stessa. Il comando con icona libro in alto a sinistra riporta all’indice; è accessibile da tastiera e omesso in stampa. All’ultima slide non si passa automaticamente a un’altra lezione. Palette, titoli, conteggi e contenuti dei set restano quelli esistenti.
+
+La build produce il menu in `slides/` e le lezioni in `slides/lezioni/<id>/`; immagini e font pubblici sono condivisi alla radice del menu. Il precaricamento globale delle immagini è disattivato. I vecchi collegamenti con alias o numero globale vengono indirizzati alla lezione proprietaria. Le lezioni locali 08–10 restano escluse dalla pubblicazione. L’anteprima predefinita avvia soltanto le lezioni richieste; `pnpm dev:full` mantiene il percorso completo per controlli e revisione.
+
 ## Figure e interazione
 
 Gli acronimi nei testi delle slide hanno una sottolineatura tratteggiata da 1 px, nel colore ereditato al 40%, distante 0,16 em dal testo. Font, peso e impaginazione restano quelli del contesto. `data/acronyms.json` possiede le forme estese; `SlideAcronym` mostra un tooltip daisyUI neutro al passaggio del mouse, al focus da tastiera e al tocco. Escape lo chiude; il puntatore può raggiungere il tooltip senza farlo sparire. La superficie usa il corpo nota da 18 px e rimane nei margini del viewport, fuori dal ritaglio delle card. Nei collegamenti e pulsanti non si aggiungono fermate di tabulazione. Il trasformatore Markdown annota soltanto testo visibile, senza intervenire su attributi, URL, codice, SVG e interpolazioni; `AcronymText` applica lo stesso glossario ai testi dei componenti. `data-no-acronyms` esclude un contenuto che deve conservare il proprio trattamento. In stampa si omettono tooltip e tratteggiatura.

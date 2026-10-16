@@ -3,16 +3,28 @@ import { useNav } from '@slidev/client'
 import { computed } from 'vue'
 import { useSlideSet } from '../composables/use-slide-set'
 import { slideSet } from '../utils/slide-sets'
+import { deckForTarget, deckDirectory } from '../utils/lesson-decks.mjs'
 import HeroIcon from './HeroIcon.vue'
 
 const props = withDefaults(defineProps<{ to: string | number; showArrow?: boolean }>(), { showArrow: true })
 const { go } = useNav()
 const { set, nav } = useSlideSet()
+const destinationDeck = computed(() => typeof props.to === 'string' ? deckForTarget(props.to) : undefined)
+const destinationHref = computed(() => {
+  const owner = destinationDeck.value
+  if (!import.meta.env.VITE_CVEDI_DECK || !owner || nav.value.slides.some(slide => slide.meta.slide.frontmatter.routeAlias === props.to)) return undefined
+  return `${import.meta.env.VITE_CVEDI_MENU_BASE || '/'}${deckDirectory(owner.id)}#/${props.to}`
+})
+function activate(event: MouseEvent) {
+  if (destinationHref.value) return
+  event.preventDefault()
+  go(props.to)
+}
 const actionStyle = computed(() => {
   const target = nav.value.slides.find(slide => typeof props.to === 'number'
     ? slide.no === props.to
     : slide.meta.slide.frontmatter.routeAlias === props.to)
-  const destination = target ? slideSet(target.meta.slide.frontmatter.lesson) : set.value
+  const destination = target ? slideSet(target.meta.slide.frontmatter.lesson) : destinationDeck.value ? slideSet(destinationDeck.value.lesson) : set.value
   return {
     '--action-set-color': `var(--cvedi-${destination.palette}-base)`,
     '--action-set-deep': `var(--cvedi-${destination.palette}-canvas)`,
@@ -21,14 +33,15 @@ const actionStyle = computed(() => {
 </script>
 
 <template>
-  <button type="button" class="btn btn-outline slide-action" :style="actionStyle" @click="go(to)" @keydown.enter.stop @keydown.space.stop>
+  <component :is="destinationHref ? 'a' : 'button'" :type="destinationHref ? undefined : 'button'" :href="destinationHref" class="btn btn-outline slide-action" :style="actionStyle" @click="activate" @keydown.enter.stop @keydown.space.stop>
     <slot />
     <HeroIcon v-if="showArrow" name="arrow-right" stroke-width="1.8" />
-  </button>
+  </component>
 </template>
 
 <style scoped>
 .slide-action.btn {
+  text-decoration: none;
   --action-color: var(--action-set-color, var(--slide-accent));
   --action-deep: var(--action-set-deep, var(--slide-subtitle));
   min-height: 44px;

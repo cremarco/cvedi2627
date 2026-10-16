@@ -2,6 +2,7 @@
 import { computed } from 'vue'
 import { useNav } from '@slidev/client'
 import { useLessonPagination } from './composables/use-lesson-pagination'
+import LessonDeckNavigation from './components/LessonDeckNavigation.vue'
 import PresentationProgress from './components/PresentationProgress.vue'
 
 const { currentSlideNo, currentFrontmatter, slides, isPrintMode } = useNav()
@@ -16,6 +17,7 @@ const compact = computed(() => String(currentFrontmatter.value.class ?? '').spli
 </script>
 
 <template>
+  <LessonDeckNavigation />
   <PresentationProgress
     v-if="!isCover"
     :lesson="pagination.lesson"

@@ -74,9 +74,16 @@ export async function checkPublishedBuild(directory) {
   const output = path.resolve(root, directory)
   for (const directory of localAssetDirectories)
     await assert.rejects(access(path.join(output, directory)), { code: 'ENOENT' }, 'local figures are absent from the published output')
-  const assets = path.join(output, 'assets')
-  const references = (await Promise.all((await readdir(assets)).filter(file => /\.(js|css)$/.test(file))
-    .map(file => readFile(path.join(assets, file), 'utf8')))).join('\n')
+  async function bundleReferences(directory) {
+    let result = ''
+    for (const item of await readdir(directory, { withFileTypes: true })) {
+      const file = path.join(directory, item.name)
+      if (item.isDirectory() && (item.name === 'assets' || item.name === 'lezioni' || directory.endsWith(path.sep + 'lezioni'))) result += await bundleReferences(file)
+      else if (item.isFile() && /\.(?:js|css)$/.test(item.name)) result += await readFile(file, 'utf8')
+    }
+    return result
+  }
+  const references = await bundleReferences(output)
   for (const directory of localAssetDirectories)
     assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
   for (const directory of sharedLessonAssetDirectories) {

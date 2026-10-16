@@ -3,6 +3,7 @@ import { existsSync } from 'node:fs'
 import { cp, mkdir, readFile, readdir, rm, stat, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { buildLessonDecks } from './lesson-decks.mjs'
 import { optimizePagesMedia } from './pages-media.mjs'
 import { checkPublishedBuild } from '../check/publication.mjs'
 import { copyWebDesignExamples } from './web-design-examples.mjs'
@@ -20,11 +21,7 @@ if (!/^\/(?:[^?#\s]+\/)?$/.test(base)) throw new Error('PAGES_BASE must start an
 
 await rm(output, { recursive: true, force: true })
 await mkdir(output, { recursive: true })
-const build = spawnSync(process.execPath, [
-  'node_modules/@slidev/cli/bin/slidev.mjs', 'build', 'slides.md',
-  '--base', `${base}slides/`, '--out', '_site/slides',
-], { cwd: root, stdio: 'inherit' })
-if (build.status !== 0) process.exit(build.status ?? 1)
+await buildLessonDecks(path.join(output, 'slides'), `${base}slides/`)
 await checkPublishedBuild(path.join(output, 'slides'))
 await copyWebDesignExamples(path.join(output, webDesignExamplesDirectory))
 await copyIlmeteo(path.join(output, ilmeteoDirectory))
@@ -37,21 +34,6 @@ await writeFile(path.join(output, '.nojekyll'), '')
 await copyCourseHome(output)
 await copyProjectArchiveRedirects(output, base)
 await preventSiteIndexing(output)
-// Publish only images used by the visible deck. Hidden chapters and older
-// variants stay in the source tree and return automatically when referenced.
-const slideAssets = path.join(output, 'slides/assets')
-const references = (await Promise.all((await readdir(slideAssets)).filter(name => /\.(?:js|css)$/.test(name))
-  .map(name => readFile(path.join(slideAssets, name), 'utf8')))).join('\n')
-async function pruneUnusedSlideImages(directory) {
-  for (const entry of await readdir(directory, { withFileTypes: true })) {
-    const location = path.join(directory, entry.name)
-    if (entry.isDirectory()) await pruneUnusedSlideImages(location)
-    else if (/\.(?:png|webp|jpe?g|gif|avif|svg)$/i.test(entry.name) && !references.includes(entry.name))
-      await rm(location)
-  }
-}
-// Only the derived export is pruned. Source and provenance assets stay in Git.
-await pruneUnusedSlideImages(path.join(output, 'slides/images'))
 const media = await optimizePagesMedia(output)
 await writeFile(path.join(output, 'media-optimization.json'), JSON.stringify(media, null, 2) + '\n')
 const revision = process.env.GITHUB_SHA || spawnSync('git', ['rev-parse', 'HEAD'], { cwd: root, encoding: 'utf8' }).stdout.trim()

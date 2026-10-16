@@ -16,7 +16,7 @@
     "build:ilmeteo": "node esempi/ilmeteo-lab/scripts/build-redesign.mjs",
     "gallery": "node scripts/build/project-gallery.mjs",
     "dev": "pnpm build:caffe-ttc && node scripts/dev.mjs",
-    "build": "pnpm build:caffe-ttc && pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs build && node scripts/build/web-design-examples.mjs dist && node scripts/build/noindex.mjs dist",
+    "build": "pnpm build:caffe-ttc && pnpm run css && node scripts/build/lesson-decks.mjs dist && node scripts/build/web-design-examples.mjs dist && node scripts/build/noindex.mjs dist",
     "build:pages": "pnpm build:caffe-ttc && pnpm build:ilmeteo && pnpm run css && pnpm run css:home && node scripts/build/pages.mjs",
     "export": "pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
     "check": "node scripts/check/slides.mjs",
@@ -24,7 +24,7 @@
     "check:pagination": "node --test scripts/check/lesson-pagination.test.mjs",
     "check:clean": "node --test scripts/check/clean.test.mjs",
     "check:publication": "node scripts/check/publication.mjs",
-    "check:publication:browser": "node scripts/check/publication-browser.mjs",
+    "check:publication:browser": "node scripts/check/lesson-decks-browser.mjs",
     "check:progress": "node scripts/check/progress.mjs",
     "check:motion": "node scripts/check/motion.mjs",
     "check:covers": "node scripts/check/covers.mjs",
@@ -42,7 +42,11 @@
     "check:accessibility-demos": "node scripts/check/accessibility-demos.mjs",
     "check:archive": "node scripts/check/project-archive.mjs",
     "check:ilmeteo:source": "node --test scripts/check/ilmeteo-publication.test.mjs && node esempi/ilmeteo-lab/scripts/check-home.mjs",
-    "check:ilmeteo": "pnpm build:ilmeteo && pnpm check:ilmeteo:source && node esempi/ilmeteo-lab/scripts/check-navigation.mjs && node esempi/ilmeteo-lab/scripts/check-home-modules.mjs && node esempi/ilmeteo-lab/scripts/check-primary-weather-map.mjs && node esempi/ilmeteo-lab/scripts/check-forecast-interactive.mjs"
+    "check:ilmeteo": "pnpm build:ilmeteo && pnpm check:ilmeteo:source && node esempi/ilmeteo-lab/scripts/check-navigation.mjs && node esempi/ilmeteo-lab/scripts/check-home-modules.mjs && node esempi/ilmeteo-lab/scripts/check-primary-weather-map.mjs && node esempi/ilmeteo-lab/scripts/check-forecast-interactive.mjs",
+    "dev:full": "node scripts/dev.mjs --full",
+    "build:full": "pnpm css && node ./node_modules/@slidev/cli/bin/slidev.mjs build",
+    "check:decks": "node --test scripts/check/lesson-decks.test.mjs",
+    "check:decks:browser": "node scripts/check/lesson-decks-browser.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",
