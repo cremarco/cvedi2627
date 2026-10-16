@@ -72,10 +72,10 @@ footer: "Lezioni"
   <SlideAction to="storia-design" class="index-button index-lesson index-history" :show-arrow="false"><span class="index-chapter-number">03</span><span>Storia del design</span></SlideAction>
   <SlideAction to="ricerca-inclusiva" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Ricerca, contesto e inclusione</span></SlideAction>
   <SlideAction to="percezione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Accessibilità e design inclusivo</span></SlideAction>
+  <SlideAction to="gestalt" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Gestalt</span></SlideAction>
+  <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Colore e significato</span></SlideAction>
   <LocalOnly>
   <div class="index-ux-lessons" role="group" aria-label="Lezioni sul processo UX">
-    <SlideAction to="gestalt" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Gestalt</span></SlideAction>
-    <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Colore e significato</span></SlideAction>
     <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Tipografia, griglie e interfacce</span></SlideAction>
     <SlideAction to="prototipi-interfacce" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">09</span><span>Prototipi e videogiochi</span></SlideAction>
     <SlideAction to="test-implementazione" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">10</span><span>Test e implementazione</span></SlideAction>
@@ -750,12 +750,10 @@ src: ./lezioni/05-percezione-gerarchia.md
 
 ---
 src: ./lezioni/06-gestalt.md
-localOnly: true
 ---
 
 ---
 src: ./lezioni/06-colore.md
-localOnly: true
 ---
 
 ---
