@@ -636,7 +636,7 @@ footer: "Appelli"
 ---
 layout: default
 class: grade-slide history-section reading-slide
-footer: "Dati storici · progetto e approfondimento"
+footer: "Valutazioni · progetto e approfondimento"
 ---
 
 # Progetti e approfondimenti
@@ -646,7 +646,7 @@ footer: "Dati storici · progetto e approfondimento"
 ---
 layout: default
 class: grade-slide history-section reading-slide
-footer: "Dati storici · orale"
+footer: "Valutazioni · orale"
 ---
 
 # Valutazioni orali
@@ -656,7 +656,7 @@ footer: "Dati storici · orale"
 ---
 layout: default
 class: grade-slide history-section reading-slide
-footer: "Dati storici · scritto"
+footer: "Valutazioni · scritto"
 ---
 
 # Prove scritte
@@ -666,7 +666,7 @@ footer: "Dati storici · scritto"
 ---
 layout: default
 class: grade-slide history-section reading-slide
-footer: "Dati storici · voto finale"
+footer: "Valutazioni · voto finale"
 ---
 
 # Voto finale
@@ -677,7 +677,7 @@ footer: "Dati storici · voto finale"
 ---
 layout: default
 class: grade-slide history-section reading-slide
-footer: "Dati storici · voto finale"
+footer: "Valutazioni · voto finale"
 ---
 
 # Voti finali: sei anni a confronto

@@ -226,7 +226,7 @@ bookletAssets: ["c03-011-01"]
 
 # Mosca · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-011-01-native-55349d1e7f4f.webp" alt="Homepage dell’Università Statale di Mosca." caption="Struttura istituzionale, edificio e percorsi informativi · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-011-01-native-55349d1e7f4f.webp" alt="Homepage dell’Università Statale di Mosca." caption="Struttura istituzionale, edificio e percorsi informativi" />
 
 ---
 layout: default
@@ -258,7 +258,7 @@ bookletAssets: ["c03-012-01"]
 
 # Amsterdam · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-012-01-native-e0fea7d138d5.webp" alt="Homepage dell’Università di Amsterdam." caption="Persone, ricerca e percorsi rivolti alla comunità universitaria · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-012-01-native-e0fea7d138d5.webp" alt="Homepage dell’Università di Amsterdam." caption="Persone, ricerca e percorsi rivolti alla comunità universitaria" />
 
 ---
 layout: default
@@ -272,9 +272,9 @@ bookletPages: [11]
 bookletAssets: ["hofstede-mosca-2024"]
 ---
 
-# Mosca · versione dal booklet 2024
+# Mosca · percorsi informativi
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mosca-2024.webp" alt="Università Statale di Mosca · booklet 2024" caption="Colonne, notizie e riferimenti istituzionali · Booklet 2024, p. 158" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mosca-2024.webp" alt="Università Statale di Mosca" caption="Colonne, notizie e riferimenti istituzionali" />
 
 ---
 layout: default
@@ -288,9 +288,9 @@ bookletPages: [12]
 bookletAssets: ["hofstede-amsterdam-2024"]
 ---
 
-# Amsterdam · versione dal booklet 2024
+# Amsterdam · comunità universitaria
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-amsterdam-2024.webp" alt="Università di Amsterdam · booklet 2024" caption="Le persone occupano la prima schermata · Booklet 2024, p. 159" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-amsterdam-2024.webp" alt="Università di Amsterdam" caption="Le persone occupano la prima schermata" />
 
 ---
 layout: default
@@ -306,7 +306,7 @@ bookletAssets: ["hofstede-amsterdam-masterweek-2024"]
 
 # Amsterdam · incontri e orientamento
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-amsterdam-masterweek-2024.webp" alt="Amsterdam · Masterweek · booklet 2024" caption="La sezione Masterweek invita a conoscere persone e percorsi · Booklet 2024, p. 159" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-amsterdam-masterweek-2024.webp" alt="Amsterdam · Masterweek" caption="La sezione Masterweek invita a conoscere persone e percorsi" />
 
 ---
 layout: default
@@ -355,7 +355,7 @@ bookletAssets: ["c03-015-01"]
 
 # Greyhound · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-015-01-native-43380e775644.webp" alt="Homepage di Greyhound: ricerca del viaggio e servizi per l’utente." caption="Ricerca del viaggio, app e servizi per il singolo viaggiatore · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-015-01-native-43380e775644.webp" alt="Homepage di Greyhound: ricerca del viaggio e servizi per l’utente." caption="Ricerca del viaggio, app e servizi per il singolo viaggiatore" />
 
 ---
 layout: default
@@ -387,7 +387,7 @@ bookletAssets: ["c03-016-01"]
 
 # KMB · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-016-01-native-abf394d41722.webp" alt="Homepage di Kowloon Motor Bus: informazioni e servizi alla comunità." caption="Informazioni, assistenza e servizi della rete di trasporto · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-016-01-native-abf394d41722.webp" alt="Homepage di Kowloon Motor Bus: informazioni e servizi alla comunità." caption="Informazioni, assistenza e servizi della rete di trasporto" />
 
 ---
 layout: default
@@ -401,9 +401,9 @@ bookletPages: [15]
 bookletAssets: ["hofstede-greyhound-2024"]
 ---
 
-# Greyhound · versione dal booklet 2024
+# Greyhound · ricerca del viaggio
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-greyhound-2024.webp" alt="Greyhound · booklet 2024" caption="La ricerca del viaggio è l’azione principale · Booklet 2024, p. 161" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-greyhound-2024.webp" alt="Greyhound" caption="La ricerca del viaggio è l’azione principale" />
 
 ---
 layout: default
@@ -419,7 +419,7 @@ bookletAssets: ["hofstede-greyhound-road-rewards-2024"]
 
 # Greyhound · il profilo personale
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-greyhound-road-rewards-2024.webp" alt="Greyhound · Road Rewards · booklet 2024" caption="Accesso e vantaggi del programma Road Rewards · Booklet 2024, p. 161" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-greyhound-road-rewards-2024.webp" alt="Greyhound · Road Rewards" caption="Accesso e vantaggi del programma Road Rewards" />
 
 ---
 layout: default
@@ -433,9 +433,9 @@ bookletPages: [16]
 bookletAssets: ["hofstede-kmb-2024"]
 ---
 
-# KMB · versione dal booklet 2024
+# KMB · servizi ai passeggeri
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kmb-2024.webp" alt="Kowloon Motor Bus · booklet 2024" caption="Staff e servizio di trasporto nel messaggio di apertura · Booklet 2024, p. 162" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kmb-2024.webp" alt="Kowloon Motor Bus" caption="Staff e servizio di trasporto nel messaggio di apertura" />
 
 ---
 layout: default
@@ -451,7 +451,7 @@ bookletAssets: ["hofstede-kmb-assistenza-2024"]
 
 # KMB · assistenza ai viaggiatori
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kmb-assistenza-2024.webp" alt="Kowloon Motor Bus · assistenza · booklet 2024" caption="Persone e supporto al cliente nella sezione Passenger Information · Booklet 2024, p. 162" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kmb-assistenza-2024.webp" alt="Kowloon Motor Bus · assistenza" caption="Persone e supporto al cliente nella sezione Passenger Information" />
 
 ---
 layout: default
@@ -500,7 +500,7 @@ bookletAssets: ["c03-019-01"]
 
 # Giappone · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-019-01-native-73e3c0750c32.webp" alt="Homepage del governo giapponese." caption="Notizie, temi e messaggi del governo nella versione mostrata · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-019-01-native-73e3c0750c32.webp" alt="Homepage del governo giapponese." caption="Notizie, temi e messaggi del governo nella versione mostrata" />
 
 ---
 layout: default
@@ -532,7 +532,7 @@ bookletAssets: ["c03-020-01"]
 
 # Svezia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese." caption="Diritti LGBTQ+, relazioni tra generazioni e sostegno reciproco · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese." caption="Diritti LGBTQ+, relazioni tra generazioni e sostegno reciproco" />
 
 ---
 layout: default
@@ -548,7 +548,7 @@ bookletAssets: ["c03-020-01"]
 
 # Svezia · cura e benessere collettivo · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.712324, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-020-01-native-5c345e433ee0.webp" alt="Homepage del governo svedese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage" :vertical-range="[0.712324, 1]" />
 
 ---
 layout: default
@@ -562,9 +562,9 @@ bookletPages: [19]
 bookletAssets: ["hofstede-giappone-2024"]
 ---
 
-# Giappone · versione dal booklet 2024
+# Giappone · temi istituzionali
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-giappone-2024.webp" alt="Governo giapponese · booklet 2024" caption="Temi istituzionali e notizie nella schermata storica · Booklet 2024, p. 164" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-giappone-2024.webp" alt="Governo giapponese" caption="Temi istituzionali e notizie nella schermata" />
 
 ---
 layout: default
@@ -580,7 +580,7 @@ bookletAssets: ["hofstede-norvegia-2024"]
 
 # Norvegia · un altro esempio dal libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-norvegia-2024.webp" alt="Governo norvegese · booklet 2024" caption="Altro Paese: messaggi di governo e relazioni sociali · Booklet 2024, p. 165" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-norvegia-2024.webp" alt="Governo norvegese" caption="Altro Paese: messaggi di governo e relazioni sociali" />
 
 ---
 layout: default
@@ -629,7 +629,7 @@ bookletAssets: ["c03-023-01"]
 
 # KFC Bielorussia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia." caption="Prodotti, prezzi e promozioni espliciti nella homepage · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia." caption="Prodotti, prezzi e promozioni espliciti nella homepage" />
 
 ---
 layout: default
@@ -645,7 +645,7 @@ bookletAssets: ["c03-023-01"]
 
 # KFC Bielorussia · prezzi e prodotti · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.635268, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-023-01-native-57903c69f6a0.webp" alt="Homepage di KFC in Bielorussia. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage" :vertical-range="[0.635268, 1]" />
 
 ---
 layout: default
@@ -677,7 +677,7 @@ bookletAssets: ["c03-024-01"]
 
 # KFC Danimarca · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-024-01-native-cd00990116e0.webp" alt="Homepage di KFC in Danimarca." caption="Immagini grandi, offerte e percorsi per conoscere il menu · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-024-01-native-cd00990116e0.webp" alt="Homepage di KFC in Danimarca." caption="Immagini grandi, offerte e percorsi per conoscere il menu" />
 
 ---
 layout: default
@@ -693,7 +693,7 @@ bookletAssets: ["hofstede-kfc-russia-2024"]
 
 # KFC Russia · un altro mercato nel libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-russia-2024.webp" alt="KFC Russia · booklet 2024" caption="Altro mercato: menu, offerte e prezzi nello screenshot storico · Booklet 2024, p. 167" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-russia-2024.webp" alt="KFC Russia" caption="Altro mercato: menu, offerte e prezzi nello screenshot" />
 
 ---
 layout: default
@@ -709,7 +709,7 @@ bookletAssets: ["hofstede-kfc-russia-punti-2024"]
 
 # KFC Russia · punti e prezzi
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-russia-punti-2024.webp" alt="KFC Russia · punti e prezzi · booklet 2024" caption="Dettaglio del programma fedeltà e dei prezzi in punti · Booklet 2024, p. 167" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-russia-punti-2024.webp" alt="KFC Russia · punti e prezzi" caption="Dettaglio del programma fedeltà e dei prezzi in punti" />
 
 ---
 layout: default
@@ -723,9 +723,9 @@ bookletPages: [24]
 bookletAssets: ["hofstede-kfc-danimarca-2024"]
 ---
 
-# KFC Danimarca · versione dal booklet 2024
+# KFC Danimarca · menu e offerte
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-danimarca-2024.webp" alt="KFC Danimarca · booklet 2024" caption="La fotografia del prodotto e il messaggio guidano la prima schermata · Booklet 2024, p. 168" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kfc-danimarca-2024.webp" alt="KFC Danimarca" caption="La fotografia del prodotto e il messaggio guidano la prima schermata" />
 
 ---
 layout: default
@@ -774,7 +774,7 @@ bookletAssets: ["c03-027-01"]
 
 # Kinder Cina · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese." caption="Bambini, relazioni e crescita nei contenuti della versione mostrata · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese." caption="Bambini, relazioni e crescita nei contenuti della versione mostrata" />
 
 ---
 layout: default
@@ -790,7 +790,7 @@ bookletAssets: ["c03-027-01"]
 
 # Kinder Cina · bambini e crescita · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.682101, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-027-01-native-6c944ce7084f.webp" alt="Homepage di Kinder per il mercato cinese. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage" :vertical-range="[0.682101, 1]" />
 
 ---
 layout: default
@@ -822,7 +822,7 @@ bookletAssets: ["c03-028-01"]
 
 # Kinder USA · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense." caption="Novità di prodotto, notizie e accesso alla gamma Kinder · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense." caption="Novità di prodotto, notizie e accesso alla gamma Kinder" />
 
 ---
 layout: default
@@ -838,7 +838,7 @@ bookletAssets: ["c03-028-01"]
 
 # Kinder USA · prodotti e novità · contenuti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage · Booklet CVeDI · screenshot storico" :vertical-range="[0.682101, 1]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-028-01-native-b7c91f59b353.webp" alt="Homepage di Kinder per il mercato statunitense. · dettaglio inferiore" caption="Osserva i contenuti e i servizi nella parte inferiore della homepage" :vertical-range="[0.682101, 1]" />
 
 ---
 layout: default
@@ -852,9 +852,9 @@ bookletPages: [27]
 bookletAssets: ["hofstede-kinder-cina-2024"]
 ---
 
-# Kinder Cina · apertura nel booklet 2024
+# Kinder Cina · bambini e relazioni
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kinder-cina-2024.webp" alt="Kinder Cina · booklet 2024" caption="Famiglia e bambini: il messaggio della prima schermata · Booklet 2024, p. 170" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kinder-cina-2024.webp" alt="Kinder Cina" caption="Famiglia e bambini: il messaggio della prima schermata" />
 
 ---
 layout: default
@@ -870,7 +870,7 @@ bookletAssets: ["hofstede-kinder-cina-crescita-2024"]
 
 # Kinder Cina · storie di crescita
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kinder-cina-crescita-2024.webp" alt="Kinder Cina · bambini e crescita · booklet 2024" caption="Relazioni, sport e attività dei bambini nei contenuti del sito · Booklet 2024, p. 170" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kinder-cina-crescita-2024.webp" alt="Kinder Cina · bambini e crescita" caption="Relazioni, sport e attività dei bambini nei contenuti del sito" />
 
 ---
 layout: default
@@ -884,9 +884,9 @@ bookletPages: [28]
 bookletAssets: ["hofstede-kinder-usa-2024"]
 ---
 
-# Kinder USA · versione dal booklet 2024
+# Kinder USA · novità e prodotti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kinder-usa-2024.webp" alt="Kinder Stati Uniti · booklet 2024" caption="La novità Kinder Bueno Mini guida il messaggio · Booklet 2024, p. 171" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-kinder-usa-2024.webp" alt="Kinder Stati Uniti" caption="La novità Kinder Bueno Mini guida il messaggio" />
 
 ---
 layout: default
@@ -919,7 +919,7 @@ bookletAssets: ["c03-036-02"]
 
 # IVR · osservare svago e piaceri
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia. · dettaglio superiore" caption="Esercizio: quali messaggi riguardano svago e gratificazione? Lo screenshot non misura IVR · Booklet CVeDI · screenshot storico" :vertical-range="[0, 0.308302]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia. · dettaglio superiore" caption="Esercizio: quali messaggi riguardano svago e gratificazione? Lo screenshot non misura IVR" :vertical-range="[0, 0.308302]" />
 
 ---
 layout: default
@@ -935,7 +935,7 @@ bookletAssets: ["c03-036-01"]
 
 # IVR · osservare regole e condizioni
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia. · dettaglio superiore" caption="Esercizio: quali condizioni regolano le offerte? Non bastano a dimostrare restrizione culturale · Booklet CVeDI · screenshot storico" :vertical-range="[0, 0.366368]" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia. · dettaglio superiore" caption="Esercizio: quali condizioni regolano le offerte? Non bastano a dimostrare restrizione culturale" :vertical-range="[0, 0.366368]" />
 
 ---
 layout: default
@@ -983,7 +983,7 @@ bookletAssets: ["c03-032-01"]
 
 # McDonald’s · Cina · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative e contenuti aziendali nella griglia della homepage · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative e contenuti aziendali nella griglia della homepage" />
 
 ---
 layout: default
@@ -1015,7 +1015,7 @@ bookletAssets: ["c03-032-02"]
 
 # McDonald’s · Paesi Bassi · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-02-native-b3fdab1777fc.webp" alt="Homepage di McDonald’s nei Paesi Bassi." caption="Servizi, prodotti e percorsi di approfondimento · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-032-02-native-b3fdab1777fc.webp" alt="Homepage di McDonald’s nei Paesi Bassi." caption="Servizi, prodotti e percorsi di approfondimento" />
 
 ---
 layout: default
@@ -1029,9 +1029,9 @@ bookletPages: [31, 32]
 bookletAssets: ["hofstede-mcd-cina-2024"]
 ---
 
-# McDonald’s Cina · booklet 2024
+# McDonald’s Cina
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-cina-2024.webp" alt="McDonald’s Cina · booklet 2024" caption="Versione storica: confronta campagne, contenuti e servizi · Booklet 2024, p. 174" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-cina-2024.webp" alt="McDonald’s Cina" caption="Confronta campagne, contenuti e servizi" />
 
 ---
 layout: default
@@ -1045,9 +1045,9 @@ bookletPages: [31, 32]
 bookletAssets: ["hofstede-mcd-paesi-bassi-2024"]
 ---
 
-# McDonald’s Paesi Bassi · booklet 2024
+# McDonald’s Paesi Bassi
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-paesi-bassi-2024.webp" alt="McDonald’s Paesi Bassi · booklet 2024" caption="Versione storica: confronta campagne, contenuti e servizi · Booklet 2024, p. 175" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-paesi-bassi-2024.webp" alt="McDonald’s Paesi Bassi" caption="Confronta campagne, contenuti e servizi" />
 
 ---
 layout: default
@@ -1079,7 +1079,7 @@ bookletAssets: ["c03-034-01"]
 
 # McDonald’s · Italia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-01-native-c6169af974d7.webp" alt="Homepage di McDonald’s in Italia." caption="Comodità, prodotti e servizi rivolti alla persona · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-01-native-c6169af974d7.webp" alt="Homepage di McDonald’s in Italia." caption="Comodità, prodotti e servizi rivolti alla persona" />
 
 ---
 layout: default
@@ -1111,7 +1111,7 @@ bookletAssets: ["c03-034-02"]
 
 # McDonald’s · Turchia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-02-native-3a9760798ff6.webp" alt="Homepage di McDonald’s in Turchia." caption="Ricette locali, promozioni e partecipazione · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-034-02-native-3a9760798ff6.webp" alt="Homepage di McDonald’s in Turchia." caption="Ricette locali, promozioni e partecipazione" />
 
 ---
 layout: default
@@ -1125,9 +1125,9 @@ bookletPages: [33, 34]
 bookletAssets: ["hofstede-mcd-usa-2024"]
 ---
 
-# McDonald’s Stati Uniti · booklet 2024
+# McDonald’s Stati Uniti
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-usa-2024.webp" alt="McDonald’s Stati Uniti · booklet 2024" caption="Altro mercato nel libro: servizi e contenuti della homepage · Booklet 2024, p. 176" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-usa-2024.webp" alt="McDonald’s Stati Uniti" caption="Altro mercato nel libro: servizi e contenuti della homepage" />
 
 ---
 layout: default
@@ -1141,9 +1141,9 @@ bookletPages: [33, 34]
 bookletAssets: ["hofstede-mcd-turchia-2024"]
 ---
 
-# McDonald’s Turchia · booklet 2024
+# McDonald’s Turchia
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-turchia-2024.webp" alt="McDonald’s Turchia · booklet 2024" caption="Versione storica: confronta campagne, contenuti e servizi · Booklet 2024, p. 177" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-turchia-2024.webp" alt="McDonald’s Turchia" caption="Confronta campagne, contenuti e servizi" />
 
 ---
 layout: default
@@ -1175,7 +1175,7 @@ bookletAssets: ["c03-036-01"]
 
 # McDonald’s · Slovacchia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia." caption="Premi, offerte e convenienza · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-01-native-a3563d56408d.webp" alt="Homepage di McDonald’s in Slovacchia." caption="Premi, offerte e convenienza" />
 
 ---
 layout: default
@@ -1207,7 +1207,7 @@ bookletAssets: ["c03-036-02"]
 
 # McDonald’s · Slovenia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia." caption="Promozioni estive, socialità e piaceri quotidiani · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-036-02-native-ffb5a0c0fbf0.webp" alt="Homepage di McDonald’s in Slovenia." caption="Promozioni estive, socialità e piaceri quotidiani" />
 
 ---
 layout: default
@@ -1221,9 +1221,9 @@ bookletPages: [35, 36]
 bookletAssets: ["hofstede-mcd-slovacchia-2024"]
 ---
 
-# McDonald’s Slovacchia · booklet 2024
+# McDonald’s Slovacchia
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-slovacchia-2024.webp" alt="McDonald’s Slovacchia · booklet 2024" caption="Versione storica: confronta campagne, contenuti e servizi · Booklet 2024, p. 178" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-slovacchia-2024.webp" alt="McDonald’s Slovacchia" caption="Confronta campagne, contenuti e servizi" />
 
 ---
 layout: default
@@ -1237,9 +1237,9 @@ bookletPages: [35, 36]
 bookletAssets: ["hofstede-mcd-slovenia-2024"]
 ---
 
-# McDonald’s Slovenia · booklet 2024
+# McDonald’s Slovenia
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-slovenia-2024.webp" alt="McDonald’s Slovenia · booklet 2024" caption="Versione storica: confronta campagne, contenuti e servizi · Booklet 2024, p. 179" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-slovenia-2024.webp" alt="McDonald’s Slovenia" caption="Confronta campagne, contenuti e servizi" />
 
 ---
 layout: default
@@ -1271,7 +1271,7 @@ bookletAssets: ["c03-038-01"]
 
 # McDonald’s · Giappone · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-01-native-1b8ef1343d03.webp" alt="Homepage di McDonald’s in Giappone." caption="Prezzi, prodotti e condizioni della promozione · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-01-native-1b8ef1343d03.webp" alt="Homepage di McDonald’s in Giappone." caption="Prezzi, prodotti e condizioni della promozione" />
 
 ---
 layout: default
@@ -1303,7 +1303,7 @@ bookletAssets: ["c03-038-02"]
 
 # McDonald’s · India occidentale · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-02-native-ed1439da2a2d.webp" alt="Homepage di McDonald’s in India." caption="Immagini, novità e promozioni · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-038-02-native-ed1439da2a2d.webp" alt="Homepage di McDonald’s in India." caption="Immagini, novità e promozioni" />
 
 ---
 layout: default
@@ -1317,9 +1317,9 @@ bookletPages: [37, 38]
 bookletAssets: ["hofstede-mcd-india-2024"]
 ---
 
-# McDonald’s India · booklet 2024
+# McDonald’s India
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-india-2024.webp" alt="McDonald’s India · booklet 2024" caption="Versione storica: confronta campagne, contenuti e servizi · Booklet 2024, p. 181" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/hofstede-mcd-india-2024.webp" alt="McDonald’s India" caption="Confronta campagne, contenuti e servizi" />
 
 ---
 layout: default
@@ -1351,7 +1351,7 @@ bookletAssets: ["c03-040-01"]
 
 # McDonald’s · Cina · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative, filiera e punti vendita · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-01-native-ae0a58cfb0b0.webp" alt="Homepage di McDonald’s in Cina." caption="Iniziative, filiera e punti vendita" />
 
 ---
 layout: default
@@ -1383,4 +1383,4 @@ bookletAssets: ["c03-040-02"]
 
 # McDonald’s · Australia · screenshot del libro
 
-<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-02-native-75303f6c1d98.webp" alt="Homepage di McDonald’s in Australia." caption="Offerte, ordine e possibilità d’acquisto · Booklet CVeDI · screenshot storico" />
+<LessonFigure :max-scale="1" src="/images/processo-ux/c03-040-02-native-75303f6c1d98.webp" alt="Homepage di McDonald’s in Australia." caption="Offerte, ordine e possibilità d’acquisto" />

@@ -149,8 +149,8 @@ bookletAssets: ["l07-schemi-smartwater", "l07-schemi-netlife"]
 
 # Monocromatico: esempi
 
-<p class="lead">Una famiglia dominante, due identità diverse. Screenshot storici: letture visive, non misure cromatiche.</p>
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-smartwater-26fe1e6b5fbb.webp" alt="Smartwater: il blu unifica ambiente, acqua e prodotto, con dettagli chiari." caption="Smartwater: il blu unifica ambiente, acqua e prodotto, con dettagli chiari. Booklet, ed. dicembre 2024, p. 113." /><LessonFigure src="/images/processo-ux/l07-schemi-netlife-fb82dd557cc9.webp" alt="Netlife Research: campo verde, testo scuro e aree chiare. La definizione riguarda la palette prevalente, non ogni pixel." caption="Netlife Research: campo verde, testo scuro e aree chiare. La definizione riguarda la palette prevalente, non ogni pixel. Booklet, ed. dicembre 2024, p. 114." /></div>
+<p class="lead">Una famiglia dominante, due identità diverse.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-smartwater-26fe1e6b5fbb.webp" alt="Smartwater: il blu unifica ambiente, acqua e prodotto, con dettagli chiari." caption="Smartwater: il blu unifica ambiente, acqua e prodotto, con dettagli chiari." /><LessonFigure src="/images/processo-ux/l07-schemi-netlife-fb82dd557cc9.webp" alt="Netlife Research: campo verde, testo scuro e aree chiare. La definizione riguarda la palette prevalente, non ogni pixel." caption="Netlife Research: campo verde, testo scuro e aree chiare. La definizione riguarda la palette prevalente, non ogni pixel." /></div>
 
 ---
 layout: default
@@ -186,8 +186,8 @@ bookletAssets: ["l07-schemi-boost", "l07-schemi-omnium"]
 
 # Analogo: esempi
 
-<p class="lead">Tinte vicine possono sostenere una dominante calda o fredda. Screenshot storici: letture visive, non misure cromatiche.</p>
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-boost-3b115dd06da4.webp" alt="Boost: giallo e arancione sostengono la dominante calda; il bianco evidenzia il titolo." caption="Boost: giallo e arancione sostengono la dominante calda; il bianco evidenzia il titolo. Booklet, ed. dicembre 2024, p. 116." /><LessonFigure src="/images/processo-ux/l07-schemi-omnium-2856bb2c651d.webp" alt="Omnium: blu, violetto e ciano sviluppano passaggi fra tinte vicine nell’illustrazione." caption="Omnium: blu, violetto e ciano sviluppano passaggi fra tinte vicine nell’illustrazione. Booklet, ed. dicembre 2024, p. 117." /></div>
+<p class="lead">Tinte vicine possono sostenere una dominante calda o fredda.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-boost-3b115dd06da4.webp" alt="Boost: giallo e arancione sostengono la dominante calda; il bianco evidenzia il titolo." caption="Boost: giallo e arancione sostengono la dominante calda; il bianco evidenzia il titolo." /><LessonFigure src="/images/processo-ux/l07-schemi-omnium-2856bb2c651d.webp" alt="Omnium: blu, violetto e ciano sviluppano passaggi fra tinte vicine nell’illustrazione." caption="Omnium: blu, violetto e ciano sviluppano passaggi fra tinte vicine nell’illustrazione." /></div>
 
 ---
 layout: default
@@ -223,8 +223,8 @@ bookletAssets: ["l07-schemi-wknd", "l07-schemi-ancient"]
 
 # Complementare: esempi
 
-<p class="lead">Campi blu e toni arancioni o sabbia costruiscono relazioni e gerarchie. Screenshot storici: letture visive, non misure cromatiche.</p>
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-wknd-17624daa790a.webp" alt="Série Découvertes, presentata da WKND 91,9 FM: arancione e blu scuro occupano aree diverse." caption="Série Découvertes, presentata da WKND 91,9 FM: arancione e blu scuro occupano aree diverse. Booklet, ed. dicembre 2024, p. 119." /><LessonFigure src="/images/processo-ux/l07-schemi-ancient-38e1d8e70e06.webp" alt="The Ancient World: blu petrolio e toni caldi del paesaggio. La relazione descrive famiglie prevalenti, non tutte le tinte." caption="The Ancient World: blu petrolio e toni caldi. Booklet, ed. dicembre 2024, p. 120; attribuzione dell’edizione: Akraaf Elkami." /></div>
+<p class="lead">Campi blu e toni arancioni o sabbia costruiscono relazioni e gerarchie.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-wknd-17624daa790a.webp" alt="Série Découvertes, presentata da WKND 91,9 FM: arancione e blu scuro occupano aree diverse." caption="Série Découvertes, presentata da WKND 91,9 FM: arancione e blu scuro occupano aree diverse." /><LessonFigure src="/images/processo-ux/l07-schemi-ancient-38e1d8e70e06.webp" alt="The Ancient World: blu petrolio e toni caldi del paesaggio. La relazione descrive famiglie prevalenti, non tutte le tinte." caption="The Ancient World: blu petrolio e toni caldi. · Akraaf Elkami." /></div>
 
 ---
 layout: default
@@ -260,8 +260,8 @@ bookletAssets: ["l07-schemi-neverland", "l07-schemi-skinhealth"]
 
 # Complementare divergente: esempi
 
-<p class="lead">Una dominante si accompagna ad accenti di due famiglie diverse. Screenshot storici: letture visive, non misure cromatiche.</p>
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-neverland-82bc44b96385.webp" alt="Neverland: un campo rosa con dettagli verde menta e piccoli accenti caldi." caption="Neverland: un campo rosa con dettagli verde menta e piccoli accenti caldi. Booklet, ed. dicembre 2024, p. 122." /><LessonFigure src="/images/processo-ux/l07-schemi-skinhealth-094323de447a.webp" alt="Skin Health Alliance: viola chiaro, giallo e verde scuro. Il dato “82%” emerge anche per scala e posizione." caption="Skin Health Alliance: viola chiaro, giallo e verde scuro. Il dato “82%” emerge anche per scala e posizione. Booklet, ed. dicembre 2024, p. 123." /></div>
+<p class="lead">Una dominante si accompagna ad accenti di due famiglie diverse.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-neverland-82bc44b96385.webp" alt="Neverland: un campo rosa con dettagli verde menta e piccoli accenti caldi." caption="Neverland: un campo rosa con dettagli verde menta e piccoli accenti caldi." /><LessonFigure src="/images/processo-ux/l07-schemi-skinhealth-094323de447a.webp" alt="Skin Health Alliance: viola chiaro, giallo e verde scuro. Il dato “82%” emerge anche per scala e posizione." caption="Skin Health Alliance: viola chiaro, giallo e verde scuro. Il dato “82%” emerge anche per scala e posizione." /></div>
 
 ---
 layout: default
@@ -297,8 +297,8 @@ bookletAssets: ["l07-schemi-secretkey", "l07-schemi-smi"]
 
 # Triadico: esempi e confronto
 
-<p class="lead">Contare tre colori non basta a dimostrare una triade esatta. Screenshot storici: letture visive, non misure cromatiche.</p>
-<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-secretkey-48d0b60c1ef1.webp" alt="SecretKey: viola e arancione costruiscono ambiente e accenti; il verde compare soprattutto nell’illustrazione." caption="SecretKey: viola e arancione costruiscono ambiente e accenti; il verde compare soprattutto nell’illustrazione. Booklet, ed. dicembre 2024, p. 125." /><LessonFigure src="/images/processo-ux/l07-schemi-smi-5f11095c926c.webp" alt="SMI · confronto critico: viola e verde con fondo bruno neutro. Lo screenshot non dimostra tre intervalli di 120°." caption="SMI · confronto critico: viola e verde con fondo bruno neutro. Lo screenshot non dimostra tre intervalli di 120°. Booklet, ed. dicembre 2024, p. 126." /></div>
+<p class="lead">Contare tre colori non basta a dimostrare una triade esatta.</p>
+<div class="lesson-columns"><LessonFigure src="/images/processo-ux/l07-schemi-secretkey-48d0b60c1ef1.webp" alt="SecretKey: viola e arancione costruiscono ambiente e accenti; il verde compare soprattutto nell’illustrazione." caption="SecretKey: viola e arancione costruiscono ambiente e accenti; il verde compare soprattutto nell’illustrazione." /><LessonFigure src="/images/processo-ux/l07-schemi-smi-5f11095c926c.webp" alt="SMI · confronto critico: viola e verde con fondo bruno neutro. Lo screenshot non dimostra tre intervalli di 120°." caption="SMI · confronto critico: viola e verde con fondo bruno neutro. Lo screenshot non dimostra tre intervalli di 120°." /></div>
 
 ---
 layout: default
@@ -528,7 +528,7 @@ bookletAssets: ["l07-cultura-mappa-2009"]
 
 # Leggere una mappa culturale
 
-<LessonFigure src="/images/processo-ux/l07-cultura-mappa-2009-ef6e5880ec07.webp" alt="Colours in Culture: grafico circolare con colori e associazioni simboliche organizzati per categorie culturali." caption="Colours in Culture · David McCandless &amp; AlwaysWithHonor.com, v1.0, aprile 2009. Documento storico: categorie e associazioni richiedono una lettura critica." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l07-cultura-mappa-2009-ef6e5880ec07.webp" alt="Colours in Culture: grafico circolare con colori e associazioni simboliche organizzati per categorie culturali." caption="Colours in Culture · David McCandless &amp; AlwaysWithHonor.com. Categorie e associazioni richiedono una lettura critica." :max-scale="1" />
 
 ---
 layout: default
@@ -546,7 +546,7 @@ bookletAssets: ["l07-cultura-lanterne"]
 
 # Rosso: un contesto festivo
 
-<div class="lesson-columns"><div><p class="lead">Nel Capodanno lunare cinese, lanterne e decorazioni rosse accompagnano la festa.</p><ul class="cvedi-list"><li><span>Il significato nasce dall’insieme: colore, oggetto, rito e situazione.</span></li><li><span>La stessa tonalità può indicare un errore in un altro contesto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-cultura-lanterne-ab25ee7558af.webp" alt="Lanterne rosse in una fotografia d’archivio del corso." caption="Slide d’archivio, p. 36. Lanterne rosse: un uso festivo da leggere nel contesto. Autore, luogo e data della fotografia non indicati." :max-scale="1" /></div>
+<div class="lesson-columns"><div><p class="lead">Nel Capodanno lunare cinese, lanterne e decorazioni rosse accompagnano la festa.</p><ul class="cvedi-list"><li><span>Il significato nasce dall’insieme: colore, oggetto, rito e situazione.</span></li><li><span>La stessa tonalità può indicare un errore in un altro contesto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-cultura-lanterne-ab25ee7558af.webp" alt="Fotografia di lanterne rosse." caption="Lanterne rosse: un uso festivo da leggere nel contesto. Autore, luogo e data della fotografia non indicati." :max-scale="1" /></div>
 
 ---
 layout: default
@@ -564,7 +564,7 @@ bookletAssets: ["l07-cultura-abiti-bianchi"]
 
 # Bianco: osservare prima di interpretare
 
-<div class="lesson-columns"><div><p class="lead">In tradizioni funerarie cinesi documentate, il bianco può esprimere il lutto.</p><ul class="cvedi-list"><li><span>In altri riti può richiamare la purezza: contano occasione e convenzioni locali.</span></li><li><span>Un abito bianco può appartenere a riti diversi: il colore da solo non identifica un funerale.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-cultura-abiti-bianchi-e0854713654a.webp" alt="Persone in abiti bianchi con ritratti e fiori, in una fotografia d’archivio del corso." caption="Slide d’archivio, p. 37. Autore, luogo, data ed evento non identificati: il bianco da solo non consente di riconoscere il rito." :max-scale="1" /></div>
+<div class="lesson-columns"><div><p class="lead">In tradizioni funerarie cinesi documentate, il bianco può esprimere il lutto.</p><ul class="cvedi-list"><li><span>In altri riti può richiamare la purezza: contano occasione e convenzioni locali.</span></li><li><span>Un abito bianco può appartenere a riti diversi: il colore da solo non identifica un funerale.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-cultura-abiti-bianchi-e0854713654a.webp" alt="Persone in abiti bianchi con ritratti e fiori, in una fotografia." caption="Autore, luogo, data ed evento non identificati: il bianco da solo non consente di riconoscere il rito." :max-scale="1" /></div>
 
 ---
 layout: default
@@ -582,7 +582,7 @@ bookletAssets: ["l07-cultura-ikea-capodanno"]
 
 # Il rosso nella campagna IKEA
 
-<LessonFigure src="/images/processo-ux/l07-cultura-ikea-capodanno-79961d7b56cb.webp" alt="Cattura storica IKEA Cina: mosaico di ambienti domestici, lanterne e decori rossi, nuovi prodotti e un pulsante per scoprirli." caption="IKEA Cina · campagna del Capodanno lunare, archivio 2022–2023. Il rosso compare soprattutto nelle foto e nei prodotti; la promozione resta riconoscibile come IKEA." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l07-cultura-ikea-capodanno-79961d7b56cb.webp" alt="IKEA Cina: mosaico di ambienti domestici, lanterne e decori rossi, nuovi prodotti e un pulsante per scoprirli." caption="IKEA Cina · campagna del Capodanno lunare. Il rosso compare soprattutto nelle foto e nei prodotti; la promozione resta riconoscibile come IKEA." :max-scale="1" />
 
 ---
 layout: default
@@ -600,7 +600,7 @@ bookletAssets: ["l07-cultura-ikea-quotidiano"]
 
 # La stessa marca, un’altra campagna
 
-<LessonFigure src="/images/processo-ux/l07-cultura-ikea-quotidiano-653ed13c0bce.webp" alt="Cattura storica IKEA Svezia: tre pannelli su offerte IKEA Family, risparmio energetico e piccoli prezzi, con fondi blu, bruno e grigio." caption="IKEA Svezia · vita quotidiana, archivio 2022–2023. Il confronto con la campagna festiva illustra contenuti e scelte cromatiche; non misura preferenze nazionali." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l07-cultura-ikea-quotidiano-653ed13c0bce.webp" alt="IKEA Svezia: tre pannelli su offerte IKEA Family, risparmio energetico e piccoli prezzi, con fondi blu, bruno e grigio." caption="IKEA Svezia · vita quotidiana. Il confronto con la campagna festiva illustra contenuti e scelte cromatiche; non misura preferenze nazionali." :max-scale="1" />
 
 ---
 layout: default
@@ -637,7 +637,7 @@ bookletAssets: ["l07-cultura-convenzioni-cgse"]
 
 # Due convenzioni, due letture del grafico
 
-<LessonFigure src="/images/processo-ux/l07-cultura-convenzioni-cgse-05a676f30f52.svg" alt="Due grafici originali del CGSE Trader Terminal. A usa verde per l’aumento e rosso per la diminuzione; B usa la convenzione inversa." caption="CGSE Trader Terminal · manuale 2021, p. 12 (PDF 13), §5.1.4. Esempi storici; lettere e traduzione aggiunte. Schermate originali CGSE / Infocast Finance." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l07-cultura-convenzioni-cgse-05a676f30f52.svg" alt="Due grafici originali del CGSE Trader Terminal. A usa verde per l’aumento e rosso per la diminuzione; B usa la convenzione inversa." caption="CGSE Trader Terminal · manuale 2021, p. 12 (PDF 13), §5.1.4. Lettere e traduzione aggiunte. Schermate originali CGSE / Infocast Finance." :max-scale="1" />
 
 ---
 layout: default
@@ -691,7 +691,7 @@ bookletAssets: ["l07-cultura-google-muertos"]
 
 # Il riferimento culturale entra nell’interfaccia
 
-<LessonFigure src="/images/processo-ux/l07-cultura-google-muertos-3a5effd9f5b2.webp" alt="Doodle di Google per il Día de los Muertos 2024: fiori di cempasúchil arancioni, cani bruni e motivi colorati su un fondo giallo." caption="Google Doodles · 1 novembre 2024, illustrazione di Lucia Sarabia. Fiori e cani della tradizione compongono il marchio per la ricorrenza. Originale dall’archivio ufficiale, 16 ottobre 2026." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l07-cultura-google-muertos-3a5effd9f5b2.webp" alt="Doodle di Google per il Día de los Muertos 2024: fiori di cempasúchil arancioni, cani bruni e motivi colorati su un fondo giallo." caption="Google Doodles · 1 novembre 2024, illustrazione di Lucia Sarabia. Fiori e cani della tradizione compongono il marchio per la ricorrenza." :max-scale="1" />
 
 ---
 layout: default

@@ -322,7 +322,7 @@ bookletFigureReferences: []
 <p class="lead">La spaziatura rende visibili le relazioni fra i contenuti.</p>
 <ul class="cvedi-list"><li><span>Nel dettaglio di Netflix, «La mia lista» è vicina alla propria riga di locandine; uno spazio maggiore separa «I più cercati».</span></li><li><span>Anche allineamento e formato ripetuto contribuiscono alla lettura.</span></li></ul>
 </div>
-<LessonFigure src="/images/processo-ux/l06-I3948-21086-3165-593-3948-21100-3164-44-3948-21101-6ce2ede3047f.webp" alt="Figura 3.76 — Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242." caption="Figura 3.76 — Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242. · Netflix · screenshot storico dai materiali del corso. Diritti dei rispettivi titolari." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-I3948-21086-3165-593-3948-21100-3164-44-3948-21101-6ce2ede3047f.webp" alt="Figura 3.76 — Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242." caption="Figura 3.76 — Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242. · Netflix · screenshot. Diritti dei rispettivi titolari." :max-scale="1" />
 </div>
 
 ---
@@ -388,7 +388,7 @@ bookletFigureReferences: []
 
 # Vicinanza: altre immagini e grafiche
 
-<LessonFigure src="/images/processo-ux/l06-I3948-21174-3165-593-3948-21188-3164-44-3948-21189-cee972f546f4.webp" alt="Figura 3.79 — Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano." caption="Figura 3.79 — Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano. · Campbell Mithun, attribuzione nel booklet a p. PDF 315 · Nature Valley Fruit Crisps · booklet 2024, p. PDF 316." />
+<LessonFigure src="/images/processo-ux/l06-I3948-21174-3165-593-3948-21188-3164-44-3948-21189-cee972f546f4.webp" alt="Figura 3.79 — Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano." caption="Figura 3.79 — Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano. · Campbell Mithun · Nature Valley Fruit Crisps." />
 
 ---
 layout: "default"
@@ -408,7 +408,7 @@ bookletFigureReferences: []
 
 # Vicinanza: il catalogo Netflix
 
-<LessonFigure src="/images/processo-ux/l06-I3948-21198-3165-593-3948-21212-3164-44-3948-21213-f46c0303ac1d.webp" alt="Figura 3.80 — Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo." caption="Figura 3.80 — Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo. · Netflix · screenshot storico dai materiali del corso. Diritti dei rispettivi titolari." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-I3948-21198-3165-593-3948-21212-3164-44-3948-21213-f46c0303ac1d.webp" alt="Figura 3.80 — Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo." caption="Figura 3.80 — Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo. · Netflix · screenshot. Diritti dei rispettivi titolari." :max-scale="1" />
 
 ---
 layout: "default"
@@ -583,7 +583,7 @@ bookletFigureReferences: []
 
 <div class="lesson-columns">
 <div>
-<p>I quattro anelli condividono forma circolare, dimensione e spessore. La ripetizione rende immediata la loro appartenenza allo stesso insieme, anche prima di conoscere il significato storico del marchio. La sovrapposizione e l’allineamento rafforzano questo raggruppamento.</p>
+<p>I quattro anelli condividono forma circolare, dimensione e spessore. La ripetizione rende immediata la loro appartenenza allo stesso insieme, anche prima di conoscere il significato del marchio. La sovrapposizione e l’allineamento rafforzano questo raggruppamento.</p>
 </div>
 <LessonFigure src="/images/processo-ux/l06-I3948-21466-3165-593-3948-21480-3164-44-3948-21482-fc1b8d3b7733.webp" alt="Figura 3.86 — Audi: quattro anelli con forma e peso visivo comuni." caption="Figura 3.86 — Audi: quattro anelli con forma e peso visivo comuni. · © AUDI AG. Audi logo: New Corporate Design, immagine AL090142." />
 </div>
@@ -626,7 +626,7 @@ bookletFigureReferences: []
 
 # Somiglianza: altre immagini e grafiche
 
-<LessonFigure src="/images/processo-ux/l06-I3948-21515-3165-593-3948-21529-3164-44-3948-21530-e55da1a0f339.webp" alt="Figura 3.88 — Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue." caption="Figura 3.88 — Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue. · Haribo, «Be Different» · autore non indicato nel materiale · booklet 2024, p. PDF 320." />
+<LessonFigure src="/images/processo-ux/l06-I3948-21515-3165-593-3948-21529-3164-44-3948-21530-e55da1a0f339.webp" alt="Figura 3.88 — Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue." caption="Figura 3.88 — Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue. · Haribo, «Be Different» · autore non indicato nel materiale." />
 
 ---
 layout: "default"
@@ -686,7 +686,7 @@ bookletFigureReferences: []
 
 # Api&Bio: schede delle persone
 
-<LessonFigure src="/images/processo-ux/l06-sequence-030-a6b2ff0fa8b6.svg" alt="Figura 3.91 — Api&amp;Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia. Figura 3.92 — Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia." caption="Figura 3.91 — Api&amp;Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia. Figura 3.92 — Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia. · Progetto Api&amp;Bio, AA 2021. Screenshot storico dalle slide 2025–2026, lezione 05, p. 54. Autori non indicati nella fonte." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-sequence-030-a6b2ff0fa8b6.svg" alt="Figura 3.91 — Api&amp;Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia. Figura 3.92 — Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia." caption="Figura 3.91 — Api&amp;Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia. Figura 3.92 — Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia. · Progetto Api&amp;Bio. Screenshot. Autori non indicati nella fonte." :max-scale="1" />
 
 ---
 layout: "default"
@@ -875,7 +875,7 @@ bookletFigureReferences: []
 
 # Destino comune: altre immagini e grafiche
 
-<LessonFigure src="/images/processo-ux/l06-sequence-039-c52194b2c0f1.svg" alt="Figura 3.99 — Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento. Figura 3.100 — Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme." caption="Figura 3.99 — Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento. Figura 3.100 — Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme. · Turkish Airlines, campagna pubblicitaria · autore non indicato nel materiale · booklet 2024, p. PDF 325; slide 2025–2026, p.59." />
+<LessonFigure src="/images/processo-ux/l06-sequence-039-c52194b2c0f1.svg" alt="Figura 3.99 — Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento. Figura 3.100 — Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme." caption="Figura 3.99 — Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento. Figura 3.100 — Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme. · Turkish Airlines, campagna pubblicitaria · autore non indicato nel materiale." />
 
 ---
 layout: "default"
@@ -1007,9 +1007,9 @@ bookletFigureReferences: []
 <div class="lesson-columns">
 <div>
 <p class="lead">Un andamento regolare mette in relazione parti distanti della pagina.</p>
-<ul class="cvedi-list"><li><span>Nel progetto Api&amp;Bio il percorso puntinato prosegue fra le illustrazioni. Lo screenshot documenta una soluzione storica del progetto.</span></li><li><span>Il percorso suggerito non dimostra l’ordine effettivo di lettura degli utenti.</span></li></ul>
+<ul class="cvedi-list"><li><span>Nel progetto Api&amp;Bio il percorso puntinato prosegue fra le illustrazioni. Lo screenshot mostra il collegamento fra le sezioni del progetto.</span></li><li><span>Il percorso suggerito non dimostra l’ordine effettivo di lettura degli utenti.</span></li></ul>
 </div>
-<LessonFigure src="/images/processo-ux/l06-I3948-22150-3165-593-3948-22164-3164-44-3948-22165-6f4ec321cad1.webp" alt="Figura 3.106 — Api&amp;Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nelle pagine successive." caption="Figura 3.106 — Api&amp;Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nelle pagine successive. · Progetto Api&amp;Bio, AA 2021 · slide 2025–2026, lezione 05, p. 73. Autori non indicati nella fonte." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-I3948-22150-3165-593-3948-22164-3164-44-3948-22165-6f4ec321cad1.webp" alt="Figura 3.106 — Api&amp;Bio, dettaglio dello screenshot: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nelle pagine successive." caption="Figura 3.106 — Api&amp;Bio, dettaglio dello screenshot: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nelle pagine successive. · Progetto Api&amp;Bio. Autori non indicati nella fonte." :max-scale="1" />
 </div>
 
 ---
@@ -1034,7 +1034,7 @@ bookletFigureReferences: []
 <div>
 <p>Le curve e i raccordi della scrittura suggeriscono percorsi fluidi fra lettere e prolungamenti, anche nei punti più intrecciati. La buona continuazione contribuisce alla coesione del logotipo insieme alla familiarità con la parola. È una lettura della forma grafica: non descrive un percorso dello sguardo misurato.</p>
 </div>
-<LessonFigure src="/images/processo-ux/l06-I3948-22175-3165-593-3948-22189-3164-44-3948-22191-6a214adb3eb0.webp" alt="Figura 3.107 — Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo." caption="Figura 3.107 — Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo. · Marchio Coca-Cola. Logotipo storico ideato da Frank M. Robinson. Fonte immagine: sito ufficiale Coca-Cola US." />
+<LessonFigure src="/images/processo-ux/l06-I3948-22175-3165-593-3948-22189-3164-44-3948-22191-6a214adb3eb0.webp" alt="Figura 3.107 — Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo." caption="Figura 3.107 — Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo. · Marchio Coca-Cola. Logotipo ideato da Frank M. Robinson. Fonte immagine: sito ufficiale Coca-Cola US." />
 </div>
 
 ---
@@ -1075,7 +1075,7 @@ bookletFigureReferences: []
 
 # Buona continuazione: altre immagini e grafiche
 
-<LessonFigure src="/images/processo-ux/l06-I3948-22224-3165-593-3948-22238-3164-44-3948-22239-2381f041adc5.webp" alt="Figura 3.109 — MINI: il cavo prosegue in curve regolari e richiama una strada." caption="Figura 3.109 — MINI: il cavo prosegue in curve regolari e richiama una strada. · MINI, «While others play playlist. The MINI is its own soundtrack.» · autore non indicato nel materiale · booklet 2024, p. PDF 327; slide 2025–2026, p.72." />
+<LessonFigure src="/images/processo-ux/l06-I3948-22224-3165-593-3948-22238-3164-44-3948-22239-2381f041adc5.webp" alt="Figura 3.109 — MINI: il cavo prosegue in curve regolari e richiama una strada." caption="Figura 3.109 — MINI: il cavo prosegue in curve regolari e richiama una strada. · MINI, «While others play playlist. The MINI is its own soundtrack.» · autore non indicato nel materiale." />
 
 ---
 layout: "default"
@@ -1095,7 +1095,7 @@ bookletFigureReferences: []
 
 # Api&Bio: un percorso fra le sezioni
 
-<LessonFigure src="/images/processo-ux/l06-I3948-22248-3165-593-3948-22262-3164-44-3948-22263-591d86199ca7.webp" alt="Figura 3.110 — Api&amp;Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni." caption="Figura 3.110 — Api&amp;Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni. · Progetto Api&amp;Bio, AA 2021. Screenshot storico dalle slide 2025–2026, lezione 05, p. 73. Autori non indicati nella fonte." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-I3948-22248-3165-593-3948-22262-3164-44-3948-22263-591d86199ca7.webp" alt="Figura 3.110 — Api&amp;Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni." caption="Figura 3.110 — Api&amp;Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni. · Progetto Api&amp;Bio. Screenshot. Autori non indicati nella fonte." :max-scale="1" />
 
 ---
 layout: "default"
@@ -1294,7 +1294,7 @@ bookletFigureReferences: []
 
 # Chiusura: Sea & Vines
 
-<LessonFigure src="/images/processo-ux/l06-I3948-22541-3165-593-3948-22555-3164-44-3948-22556-5d211b6620aa.webp" alt="Figura 3.117 — Sea &amp; Vines: le forchette suggeriscono il profilo di un calice incompleto." caption="Figura 3.117 — Sea &amp; Vines: le forchette suggeriscono il profilo di un calice incompleto. · Sea &amp; Vines Food &amp; Wine Festival, 2012 · booklet 2024, p. PDF 331; slide 2025–2026, p.62. Autore non indicato." />
+<LessonFigure src="/images/processo-ux/l06-I3948-22541-3165-593-3948-22555-3164-44-3948-22556-5d211b6620aa.webp" alt="Figura 3.117 — Sea &amp; Vines: le forchette suggeriscono il profilo di un calice incompleto." caption="Figura 3.117 — Sea &amp; Vines: le forchette suggeriscono il profilo di un calice incompleto. · Sea &amp; Vines Food &amp; Wine Festival, 2012. Autore non indicato." />
 
 ---
 layout: "default"
@@ -1513,7 +1513,7 @@ bookletFigureReferences: []
 
 # Simmetria: altre immagini e grafiche
 
-<LessonFigure src="/images/processo-ux/l06-I3948-22806-3165-593-3948-22820-3164-44-3948-22821-0e82007069ce.webp" alt="Figura 3.126 — HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale." caption="Figura 3.126 — HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale. · HSBC · autore del marchio non indicato nella fonte didattica · booklet 2024, p.15." />
+<LessonFigure src="/images/processo-ux/l06-I3948-22806-3165-593-3948-22820-3164-44-3948-22821-0e82007069ce.webp" alt="Figura 3.126 — HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale." caption="Figura 3.126 — HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale. · HSBC · autore del marchio non indicato nella fonte didattica." />
 
 ---
 layout: "default"
@@ -1731,7 +1731,7 @@ bookletFigureReferences: []
 
 # Figura e sfondo: altre immagini e grafiche
 
-<LessonFigure src="/images/processo-ux/l06-I3948-23062-3165-593-3948-23076-3164-44-3948-23077-261b22fe44f0.webp" alt="Figura 3.136 — Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero." caption="Figura 3.136 — Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero. · Richard Fonteneau, «Spartan Golf», concept, 2010 · Logopond, progetto 91660; riproduzione nel booklet 2024, p. PDF 339." />
+<LessonFigure src="/images/processo-ux/l06-I3948-23062-3165-593-3948-23076-3164-44-3948-23077-261b22fe44f0.webp" alt="Figura 3.136 — Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero." caption="Figura 3.136 — Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero. · Richard Fonteneau, «Spartan Golf», concept, 2010 · Logopond, progetto 91660." />
 
 ---
 layout: "default"
@@ -1949,7 +1949,7 @@ bookletFigureReferences: []
 
 # Esperienza passata: altre immagini e grafiche
 
-<LessonFigure src="/images/processo-ux/l06-I3948-23352-3165-593-3948-23366-3164-44-3948-23367-01c25b4c2ae2.webp" alt="Figura 3.145 — Coca-Cola: colore e marchio richiamano associazioni apprese con la marca." caption="Figura 3.145 — Coca-Cola: colore e marchio richiamano associazioni apprese con la marca. · Coca-Cola, «Feel it» · autore non indicato nel materiale · booklet 2024, p. PDF 338." />
+<LessonFigure src="/images/processo-ux/l06-I3948-23352-3165-593-3948-23366-3164-44-3948-23367-01c25b4c2ae2.webp" alt="Figura 3.145 — Coca-Cola: colore e marchio richiamano associazioni apprese con la marca." caption="Figura 3.145 — Coca-Cola: colore e marchio richiamano associazioni apprese con la marca. · Coca-Cola, «Feel it» · autore non indicato nel materiale." />
 
 ---
 layout: "default"
@@ -2009,7 +2009,7 @@ bookletFigureReferences: []
 
 # Esperienza passata: Oxfam
 
-<LessonFigure src="/images/processo-ux/l06-sequence-103-5a69015dc362.svg" alt="Figura 3.150 — Oxfam: le icone social richiamano servizi già conosciuti. Figura 3.151 — Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube." caption="Figura 3.150 — Oxfam: le icone social richiamano servizi già conosciuti. Figura 3.151 — Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube. · Gaia Galimberti, approfondimento 2024–2025, p.8, da Nielsen Norman Group · Oxfam, screenshot storico. Diritti dei rispettivi titolari." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-sequence-103-5a69015dc362.svg" alt="Figura 3.150 — Oxfam: le icone social richiamano servizi già conosciuti. Figura 3.151 — Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube." caption="Figura 3.150 — Oxfam: le icone social richiamano servizi già conosciuti. Figura 3.151 — Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube. · Gaia Galimberti, da Nielsen Norman Group · Oxfam, screenshot. Diritti dei rispettivi titolari." :max-scale="1" />
 
 ---
 layout: "default"
@@ -2102,7 +2102,7 @@ bookletFigureReferences: []
 <p class="lead">Schede e superfici possono raccogliere informazioni correlate.</p>
 <ul class="cvedi-list"><li><span>In Notion, Free e Plus condividono una regione chiara; Business ed Enterprise occupano la regione azzurra adiacente.</span></li><li><span>Spaziatura e colonne distinguono le proposte dentro i gruppi. Riquadrare ogni elemento può rendere meno evidenti i raggruppamenti principali.</span></li></ul>
 </div>
-<LessonFigure src="/images/processo-ux/l06-I3948-23601-3165-593-3948-23615-3164-44-3948-23616-76b4787510a2.webp" alt="Figura 3.153 — Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente." caption="Figura 3.153 — Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente. · Notion, Pricing · screenshot del 14 ottobre 2026, versione inglese, EUR. © Notion. Valori storici nello screenshot." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-I3948-23601-3165-593-3948-23615-3164-44-3948-23616-76b4787510a2.webp" alt="Figura 3.153 — Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente." caption="Figura 3.153 — Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente. · Notion, Pricing · screenshot del 14 ottobre 2026, versione inglese, EUR. © Notion." :max-scale="1" />
 </div>
 
 ---
@@ -2188,7 +2188,7 @@ bookletFigureReferences: []
 
 # Regione comune: il catalogo Apple Watch
 
-<LessonFigure src="/images/processo-ux/l06-I3948-23734-3165-593-3948-23748-3164-44-3948-23749-779ce910555f.webp" alt="Figura 3.158 — Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione." caption="Figura 3.158 — Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione. · © Apple · pagina Apple Watch, screenshot storico dai materiali del corso." :max-scale="1" />
+<LessonFigure src="/images/processo-ux/l06-I3948-23734-3165-593-3948-23748-3164-44-3948-23749-779ce910555f.webp" alt="Figura 3.158 — Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione." caption="Figura 3.158 — Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione. · © Apple · pagina Apple Watch, screenshot." :max-scale="1" />
 
 ---
 layout: "default"

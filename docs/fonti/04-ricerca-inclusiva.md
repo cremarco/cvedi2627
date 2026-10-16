@@ -32,17 +32,17 @@ I nuovi screenshot online del 9 ottobre 2026 sono registrati in `assets/booklet/
 | 14 | Mosca · screenshot del libro | 11 | 0.428571 |
 | 15 | Amsterdam · sito attuale | 12 | 0.428571 |
 | 16 | Amsterdam · screenshot del libro | 12 | 0.428571 |
-| 17 | Mosca · versione dal booklet 2024 | 11 | 0.428571 |
-| 18 | Amsterdam · versione dal booklet 2024 | 12 | 0.428571 |
+| 17 | Mosca · percorsi informativi | 11 | 0.428571 |
+| 18 | Amsterdam · comunità universitaria | 12 | 0.428571 |
 | 19 | Amsterdam · incontri e orientamento | 12 | 0.428571 |
 | 20 | Individualismo e appartenenza | 13, 14 | 1.2 |
 | 21 | Greyhound · sito attuale | 15 | 0.375 |
 | 22 | Greyhound · screenshot del libro | 15 | 0.375 |
 | 23 | KMB · sito attuale | 16 | 0.375 |
 | 24 | KMB · screenshot del libro | 16 | 0.375 |
-| 25 | Greyhound · versione dal booklet 2024 | 15 | 0.375 |
+| 25 | Greyhound · ricerca del viaggio | 15 | 0.375 |
 | 26 | Greyhound · il profilo personale | 15 | 0.375 |
-| 27 | KMB · versione dal booklet 2024 | 16 | 0.375 |
+| 27 | KMB · servizi ai passeggeri | 16 | 0.375 |
 | 28 | KMB · assistenza ai viaggiatori | 16 | 0.375 |
 | 29 | Competizione e cooperazione | 17, 18 | 1.2 |
 | 30 | Giappone · sito attuale | 19 | 0.428571 |
@@ -50,7 +50,7 @@ I nuovi screenshot online del 9 ottobre 2026 sono registrati in `assets/booklet/
 | 32 | Svezia · sito attuale | 20 | 0.428571 |
 | 33 | Svezia · screenshot del libro | 20 | 0.428571 |
 | 34 | Svezia · cura e benessere collettivo · contenuti | 20 | 0.428571 |
-| 35 | Giappone · versione dal booklet 2024 | 19 | 0.428571 |
+| 35 | Giappone · temi istituzionali | 19 | 0.428571 |
 | 36 | Norvegia · un altro esempio dal libro | 20 | 0.428571 |
 | 37 | Rifiuto dell’incertezza | 21, 22 | 1.2 |
 | 38 | KFC Bielorussia · sito attuale | 23 | 0.375 |
@@ -60,7 +60,7 @@ I nuovi screenshot online del 9 ottobre 2026 sono registrati in `assets/booklet/
 | 42 | KFC Danimarca · screenshot del libro | 24 | 0.375 |
 | 43 | KFC Russia · un altro mercato nel libro | 23 | 0.375 |
 | 44 | KFC Russia · punti e prezzi | 23 | 0.375 |
-| 45 | KFC Danimarca · versione dal booklet 2024 | 24 | 0.375 |
+| 45 | KFC Danimarca · menu e offerte | 24 | 0.375 |
 | 46 | L’orizzonte temporale del messaggio | 25, 26 | 1.2 |
 | 47 | Kinder Cina · sito attuale | 27 | 0.333333 |
 | 48 | Kinder Cina · screenshot del libro | 27 | 0.333333 |
@@ -68,9 +68,9 @@ I nuovi screenshot online del 9 ottobre 2026 sono registrati in `assets/booklet/
 | 50 | Kinder USA · sito attuale | 28 | 0.333333 |
 | 51 | Kinder USA · screenshot del libro | 28 | 0.333333 |
 | 52 | Kinder USA · prodotti e novità · contenuti | 28 | 0.333333 |
-| 53 | Kinder Cina · apertura nel booklet 2024 | 27 | 0.333333 |
+| 53 | Kinder Cina · bambini e relazioni | 27 | 0.333333 |
 | 54 | Kinder Cina · storie di crescita | 27 | 0.333333 |
-| 55 | Kinder USA · versione dal booklet 2024 | 28 | 0.333333 |
+| 55 | Kinder USA · novità e prodotti | 28 | 0.333333 |
 | 56 | Indulgenza e restrizione | 29 | 0.5 |
 | 57 | IVR · osservare svago e piaceri | 35, 36 | 0.5 |
 | 58 | IVR · osservare regole e condizioni | 35, 36 | 0.5 |
@@ -79,25 +79,25 @@ I nuovi screenshot online del 9 ottobre 2026 sono registrati in `assets/booklet/
 | 61 | McDonald’s · Cina · screenshot del libro | 31, 32 | 0.416667 |
 | 62 | McDonald’s · Paesi Bassi · sito attuale | 31, 32 | 0.416667 |
 | 63 | McDonald’s · Paesi Bassi · screenshot del libro | 31, 32 | 0.416667 |
-| 64 | McDonald’s Cina · booklet 2024 | 31, 32 | 0.416667 |
-| 65 | McDonald’s Paesi Bassi · booklet 2024 | 31, 32 | 0.416667 |
+| 64 | McDonald’s Cina | 31, 32 | 0.416667 |
+| 65 | McDonald’s Paesi Bassi | 31, 32 | 0.416667 |
 | 66 | McDonald’s · Italia · sito attuale | 33, 34 | 0.416667 |
 | 67 | McDonald’s · Italia · screenshot del libro | 33, 34 | 0.416667 |
 | 68 | McDonald’s · Turchia · sito attuale | 33, 34 | 0.416667 |
 | 69 | McDonald’s · Turchia · screenshot del libro | 33, 34 | 0.416667 |
-| 70 | McDonald’s Stati Uniti · booklet 2024 | 33, 34 | 0.416667 |
-| 71 | McDonald’s Turchia · booklet 2024 | 33, 34 | 0.416667 |
+| 70 | McDonald’s Stati Uniti | 33, 34 | 0.416667 |
+| 71 | McDonald’s Turchia | 33, 34 | 0.416667 |
 | 72 | McDonald’s · Slovacchia · sito attuale | 35, 36 | 0.416667 |
 | 73 | McDonald’s · Slovacchia · screenshot del libro | 35, 36 | 0.416667 |
 | 74 | McDonald’s · Slovenia · sito attuale | 35, 36 | 0.416667 |
 | 75 | McDonald’s · Slovenia · screenshot del libro | 35, 36 | 0.416667 |
-| 76 | McDonald’s Slovacchia · booklet 2024 | 35, 36 | 0.416667 |
-| 77 | McDonald’s Slovenia · booklet 2024 | 35, 36 | 0.416667 |
+| 76 | McDonald’s Slovacchia | 35, 36 | 0.416667 |
+| 77 | McDonald’s Slovenia | 35, 36 | 0.416667 |
 | 78 | McDonald’s · Giappone · sito attuale | 37, 38 | 0.5 |
 | 79 | McDonald’s · Giappone · screenshot del libro | 37, 38 | 0.5 |
 | 80 | McDonald’s · India occidentale · sito attuale | 37, 38 | 0.5 |
 | 81 | McDonald’s · India occidentale · screenshot del libro | 37, 38 | 0.5 |
-| 82 | McDonald’s India · booklet 2024 | 37, 38 | 0.5 |
+| 82 | McDonald’s India | 37, 38 | 0.5 |
 | 83 | McDonald’s · Cina · sito attuale | 39, 40 | 0.5 |
 | 84 | McDonald’s · Cina · screenshot del libro | 39, 40 | 0.5 |
 | 85 | McDonald’s · Australia · sito attuale | 39, 40 | 0.5 |
