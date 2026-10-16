@@ -1,0 +1,749 @@
+{
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1112",
+  "date": "2026-10-14",
+  "source": "Testi prima della separazione fra spiegazione generale e applicazione al web",
+  "pages": [
+    {
+      "id": "198:4238",
+      "children": [
+        {
+          "id": "210:1899",
+          "name": "Numero pagina · 237",
+          "type": "TEXT",
+          "x": 400.06298828125,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3320:21340",
+          "name": "Note e fonti · fondo pagina",
+          "type": "FRAME",
+          "x": 74,
+          "y": 584.5,
+          "w": 363,
+          "h": 25.5
+        },
+        {
+          "id": "3708:2322",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4249",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 74,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:240",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 74,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2335",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 74,
+          "y": 129.3125,
+          "w": 363,
+          "h": 435.875
+        }
+      ],
+      "texts": [
+        {
+          "id": "I3200:1328;3189:4585",
+          "text": "¹",
+          "parent": "I3200:1328;3320:13657"
+        },
+        {
+          "id": "I3200:1328;3189:4586;3200:1335",
+          "text": "Max Wertheimer, Untersuchungen zur Lehre von der Gestalt. II,\nPsychologische Forschung, vol. 4, 1923, pp. 301–350.",
+          "parent": "I3200:1328;3189:4586"
+        },
+        {
+          "id": "198:4249",
+          "text": "le leggi della gestalt",
+          "parent": "198:4238"
+        },
+        {
+          "id": "I3039:240;3030:470;3039:244",
+          "text": "Legge della vicinanza\n(proximity)",
+          "parent": "I3039:240;3030:470"
+        },
+        {
+          "id": "198:4246",
+          "text": "A parità di altre condizioni, gli elementi più vicini tendono a essere percepiti come appartenenti a un gruppo.¹\n\nIl principio della vicinanza permette di organizzare i contenuti così che risultino più facilmente percepibili dagli utenti. È utile posizionare gli oggetti correlati l’uno vicino all’altro per creare una connessione poiché gli elementi più vicini tra loro, a parità di altre condizioni, vengono percepiti come appartenenti alla stessa unità.",
+          "parent": "3708:2335"
+        }
+      ]
+    },
+    {
+      "id": "198:4250",
+      "children": [
+        {
+          "id": "210:1901",
+          "name": "Numero pagina · 248",
+          "type": "TEXT",
+          "x": 60,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3320:21253",
+          "name": "Note e fonti · fondo pagina",
+          "type": "FRAME",
+          "x": 60,
+          "y": 584.5,
+          "w": 363,
+          "h": 25.5
+        },
+        {
+          "id": "3708:2336",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4260",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 60,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:245",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 60,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2349",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 60,
+          "y": 158.75,
+          "w": 363,
+          "h": 377
+        }
+      ],
+      "texts": [
+        {
+          "id": "I3200:1338;3189:4585",
+          "text": "¹",
+          "parent": "I3200:1338;3320:13657"
+        },
+        {
+          "id": "I3200:1338;3189:4586;3200:1345",
+          "text": "Max Wertheimer, Untersuchungen zur Lehre von der Gestalt. II,\nPsychologische Forschung, vol. 4, 1923, pp. 301–350.",
+          "parent": "I3200:1338;3189:4586"
+        },
+        {
+          "id": "198:4260",
+          "text": "le leggi della gestalt",
+          "parent": "198:4250"
+        },
+        {
+          "id": "I3039:245;3030:470;3039:249",
+          "text": "La legge della somiglianza\n(similarity)",
+          "parent": "I3039:245;3030:470"
+        },
+        {
+          "id": "198:4258",
+          "text": "Gli elementi con caratteristiche visive simili, come dimensione, colore e forma, tendono a essere percepiti come appartenenti a un gruppo. ¹\n\nGli elementi vengono raggruppati visivamente se hanno somiglianze visive. Per creare somiglianze tra elementi simili si possono usare le stesse dimensioni, colori e forme.",
+          "parent": "3708:2349"
+        }
+      ]
+    },
+    {
+      "id": "198:4261",
+      "children": [
+        {
+          "id": "210:1903",
+          "name": "Numero pagina · 258",
+          "type": "TEXT",
+          "x": 60,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3320:21446",
+          "name": "Note e fonti · fondo pagina",
+          "type": "FRAME",
+          "x": 60,
+          "y": 584.5,
+          "w": 363,
+          "h": 25.5
+        },
+        {
+          "id": "3708:2350",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4272",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 74,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:250",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 60,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2363",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 60,
+          "y": 113.75,
+          "w": 363,
+          "h": 467
+        }
+      ],
+      "texts": [
+        {
+          "id": "I3200:1348;3189:4585",
+          "text": "¹",
+          "parent": "I3200:1348;3320:13657"
+        },
+        {
+          "id": "I3200:1348;3189:4586;3200:1355",
+          "text": "Max Wertheimer, Untersuchungen zur Lehre von der Gestalt. II,\nPsychologische Forschung, vol. 4, 1923, pp. 301–350.",
+          "parent": "I3200:1348;3189:4586"
+        },
+        {
+          "id": "198:4272",
+          "text": "le leggi della gestalt",
+          "parent": "198:4261"
+        },
+        {
+          "id": "I3039:250;3030:470;3039:254",
+          "text": "La legge del destino comune (common fate)",
+          "parent": "I3039:250;3030:470"
+        },
+        {
+          "id": "198:4269",
+          "text": "Gli elementi dotati di un movimento simile tendono a essere percepiti come appartenenti alla stessa unità o gruppo.¹\n\nIn questo principio dunque entra in gioco il movimento, se gli elementi si muovono tutti insieme in una stessa direzione e con la stessa velocità, si parla di “movimento solidale”.\n\nQuesto principio è fondamentale nel motion design. Le animazioni utilizzano il principio del destino comune per guidare l'occhio degli utenti nella giusta direzione.\nPer creare unità è utile far muovere gli elementi di uno stesso gruppo nella stessa direzione (ad esempio un menu dropdown a più livelli).",
+          "parent": "3708:2363"
+        }
+      ]
+    },
+    {
+      "id": "198:4273",
+      "children": [
+        {
+          "id": "210:1905",
+          "name": "Numero pagina · 265",
+          "type": "TEXT",
+          "x": 400.06298828125,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3320:21270",
+          "name": "Note e fonti · fondo pagina",
+          "type": "FRAME",
+          "x": 74,
+          "y": 584.5,
+          "w": 363,
+          "h": 25.5
+        },
+        {
+          "id": "3708:2364",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4284",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 74,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:255",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 74,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2377",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 74,
+          "y": 118.5,
+          "w": 363,
+          "h": 457.5
+        }
+      ],
+      "texts": [
+        {
+          "id": "I3200:1358;3189:4585",
+          "text": "¹",
+          "parent": "I3200:1358;3320:13657"
+        },
+        {
+          "id": "I3200:1358;3189:4586;3200:1365",
+          "text": "Max Wertheimer, Untersuchungen zur Lehre von der Gestalt. II,\nPsychologische Forschung, vol. 4, 1923, pp. 301–350.",
+          "parent": "I3200:1358;3189:4586"
+        },
+        {
+          "id": "198:4284",
+          "text": "le leggi della gestalt",
+          "parent": "198:4273"
+        },
+        {
+          "id": "I3039:255;3030:470;3039:259",
+          "text": "La legge della continuità o della buona continuazione (continuity)",
+          "parent": "I3039:255;3030:470"
+        },
+        {
+          "id": "198:4281",
+          "text": "Elementi figurali in continuità di direzione tendono a essere percepiti come appartenenti alla stessa unità.¹\n\nNel confronto tra una linea e una curva che si incrociano, la direzione aiuta a riconoscere due percorsi continui. Un collegamento tracciato tra elementi può produrre anche un raggruppamento per connessione: è un fattore distinto.\n\nNel web, allineare voci di navigazione, testi e immagini può rendere riconoscibile una sequenza. Questa applicazione progettuale va valutata nel compito: un allineamento non stabilisce da solo l’ordine effettivo dello sguardo.",
+          "parent": "3708:2377"
+        }
+      ]
+    },
+    {
+      "id": "198:4285",
+      "children": [
+        {
+          "id": "210:1907",
+          "name": "Numero pagina · 276",
+          "type": "TEXT",
+          "x": 60,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3320:21428",
+          "name": "Note e fonti · fondo pagina",
+          "type": "FRAME",
+          "x": 60,
+          "y": 584.5,
+          "w": 363,
+          "h": 25.5
+        },
+        {
+          "id": "3708:2378",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4296",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 46,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:260",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 60,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2391",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 60,
+          "y": 152,
+          "w": 363,
+          "h": 390.5
+        }
+      ],
+      "texts": [
+        {
+          "id": "I3200:1368;3189:4585",
+          "text": "¹",
+          "parent": "I3200:1368;3320:13657"
+        },
+        {
+          "id": "I3200:1368;3189:4586;3200:1375",
+          "text": "Max Wertheimer, Untersuchungen zur Lehre von der Gestalt. II,\nPsychologische Forschung, vol. 4, 1923, pp. 301–350.",
+          "parent": "I3200:1368;3189:4586"
+        },
+        {
+          "id": "198:4296",
+          "text": "le leggi della gestalt",
+          "parent": "198:4285"
+        },
+        {
+          "id": "I3039:260;3030:470;3039:264",
+          "text": "La legge di chiusura \n(closure)",
+          "parent": "I3039:260;3030:470"
+        },
+        {
+          "id": "198:4293",
+          "text": "Elementi figurali chiusi o tendenti alla chiusura vengono più facilmente percepiti come appartenenti alla stessa unità.¹\n\nLa chiusura riguarda il raggruppamento dei segmenti in una configurazione. Nel confronto a fronte osserviamo quadrati o semicerchi anziché colonne: gli archi restano aperti.\n\nQuesto fattore non equivale a riempire qualsiasi lacuna. Contorni illusori e completamento dietro un ostacolo sono fenomeni distinti, sviluppati nelle pagine successive.\n\nNelle interfacce, contorni e delimitazioni possono rendere riconoscibili gruppi di contenuti. L’effetto dipende anche dalla disposizione e dagli altri fattori presenti.",
+          "parent": "3708:2391"
+        },
+        {
+          "id": "I3418:1215;3165:593;3430:1155",
+          "text": "Tre quadrati e due segmenti laterali",
+          "parent": "I3418:1215;3165:593;3418:1233"
+        },
+        {
+          "id": "I3418:1215;3165:593;3430:1157",
+          "text": "Il contorno chiuso sostiene il raggruppamento",
+          "parent": "I3418:1215;3165:593;3418:1233"
+        }
+      ]
+    },
+    {
+      "id": "198:4297",
+      "children": [
+        {
+          "id": "210:1909",
+          "name": "Numero pagina · 282",
+          "type": "TEXT",
+          "x": 60,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3320:21338",
+          "name": "Note e fonti · fondo pagina",
+          "type": "FRAME",
+          "x": 60,
+          "y": 584.5,
+          "w": 363,
+          "h": 25.5
+        },
+        {
+          "id": "3708:2392",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4308",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 60,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:265",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 60,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2405",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 60,
+          "y": 141,
+          "w": 363,
+          "h": 412.5
+        }
+      ],
+      "texts": [
+        {
+          "id": "I3200:1378;3189:4585",
+          "text": "¹",
+          "parent": "I3200:1378;3320:13657"
+        },
+        {
+          "id": "I3200:1378;3189:4586;3200:1385",
+          "text": "Max Wertheimer, Untersuchungen zur Lehre von der Gestalt. II,\nPsychologische Forschung, vol. 4, 1923, pp. 301–350.",
+          "parent": "I3200:1378;3189:4586"
+        },
+        {
+          "id": "198:4308",
+          "text": "le leggi della gestalt",
+          "parent": "198:4297"
+        },
+        {
+          "id": "I3039:265;3030:470;3039:269",
+          "text": "La legge di simmetria \n(symmetry)",
+          "parent": "I3039:265;3030:470"
+        },
+        {
+          "id": "198:4305",
+          "text": "Gli elementi simmetrici tendono a essere percepiti come parti di un insieme.¹\n\nLa simmetria può suggerire stabilità e ordine; l’asimmetria può dare rilievo a un elemento o introdurre un diverso ritmo visivo.\n\nNelle interfacce è utile scegliere l’equilibrio in funzione del contenuto e del compito, senza imporre una composizione interamente simmetrica. Allineamenti, distanze e pesi visivi devono rendere riconoscibili le relazioni tra gli elementi.",
+          "parent": "3708:2405"
+        }
+      ]
+    },
+    {
+      "id": "198:4309",
+      "children": [
+        {
+          "id": "210:1911",
+          "name": "Numero pagina · 286",
+          "type": "TEXT",
+          "x": 60,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3320:21268",
+          "name": "Note e fonti · fondo pagina",
+          "type": "FRAME",
+          "x": 60,
+          "y": 584.5,
+          "w": 363,
+          "h": 25.5
+        },
+        {
+          "id": "3708:2406",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4320",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 74,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:270",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 60,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2419",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 60,
+          "y": 134.75,
+          "w": 363,
+          "h": 425
+        }
+      ],
+      "texts": [
+        {
+          "id": "I3200:1388;3189:4585",
+          "text": "¹",
+          "parent": "I3200:1388;3320:13657"
+        },
+        {
+          "id": "I3200:1388;3189:4586;3200:1395",
+          "text": "Stephen E. Palmer, Common region: A new principle of perceptual grouping,\nCognitive Psychology, 24(3), 1992, pp. 436–447.",
+          "parent": "I3200:1388;3189:4586"
+        },
+        {
+          "id": "198:4320",
+          "text": "le leggi della gestalt",
+          "parent": "198:4309"
+        },
+        {
+          "id": "I3039:270;3030:470;3039:274",
+          "text": "La legge della regione comune\n(Common Region)",
+          "parent": "I3039:270;3030:470"
+        },
+        {
+          "id": "198:4317",
+          "text": "Gli elementi all’interno della stessa regione delimitata tendono a essere percepiti come appartenenti a un gruppo.¹\n\nStephen Palmer propose il principio della regione comune nel 1992, ampliando lo studio dei fattori di raggruppamento. Nelle interfacce, un bordo o uno sfondo può rendere riconoscibili contenuti correlati e separarli da quelli circostanti.\n\nIl contenitore deve rispecchiare una relazione significativa: aggiungere riquadri a ogni elemento può produrre rumore visivo.",
+          "parent": "3708:2419"
+        }
+      ]
+    },
+    {
+      "id": "198:4321",
+      "children": [
+        {
+          "id": "210:1913",
+          "name": "Numero pagina · 295",
+          "type": "TEXT",
+          "x": 400.06298828125,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3708:2420",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4332",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 74,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:275",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 74,
+          "y": 60,
+          "w": 363,
+          "h": 25
+        },
+        {
+          "id": "3708:2433",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 74,
+          "y": 130,
+          "w": 363,
+          "h": 421
+        }
+      ],
+      "texts": [
+        {
+          "id": "198:4332",
+          "text": "le leggi della gestalt",
+          "parent": "198:4321"
+        },
+        {
+          "id": "198:4329",
+          "text": "Il rapporto figura-sfondo riguarda il modo in cui una parte della scena viene percepita come figura, mentre altre parti ne costituiscono lo sfondo.\n\nNon dipende soltanto dalla messa a fuoco dell’occhio: contorni, contrasto, dimensioni e disposizione degli elementi contribuiscono alla separazione percettiva. Il rapporto può anche risultare ambiguo, come nelle immagini in cui figura e sfondo si alternano.\n\nNelle interfacce, differenziare contenuto principale e contesto aiuta a guidare l’attenzione e a rendere più chiara la gerarchia delle informazioni.",
+          "parent": "3708:2433"
+        }
+      ]
+    },
+    {
+      "id": "198:4333",
+      "children": [
+        {
+          "id": "210:1915",
+          "name": "Numero pagina · 305",
+          "type": "TEXT",
+          "x": 400.06298828125,
+          "y": 621.6378173828125,
+          "w": 36,
+          "h": 12
+        },
+        {
+          "id": "3708:2434",
+          "name": "01 · Testata editoriale",
+          "type": "INSTANCE",
+          "x": 0,
+          "y": 0,
+          "w": 496,
+          "h": 40
+        },
+        {
+          "id": "198:4343",
+          "name": "Titolo · le leggi della gestalt",
+          "type": "TEXT",
+          "x": 60,
+          "y": 18,
+          "w": 125,
+          "h": 14
+        },
+        {
+          "id": "3039:280",
+          "name": "02 · Titolo editoriale",
+          "type": "INSTANCE",
+          "x": 74,
+          "y": 60,
+          "w": 363,
+          "h": 50
+        },
+        {
+          "id": "3708:2447",
+          "name": "Contenuto · regola · impaginato",
+          "type": "FRAME",
+          "x": 74,
+          "y": 225.5,
+          "w": 363,
+          "h": 255
+        }
+      ],
+      "texts": [
+        {
+          "id": "198:4343",
+          "text": "le leggi della gestalt",
+          "parent": "198:4333"
+        },
+        {
+          "id": "I3039:280;3030:470;3039:284",
+          "text": "La legge dell’esperienza passata \n(past experience)",
+          "parent": "I3039:280;3030:470"
+        },
+        {
+          "id": "198:4341",
+          "text": "\n\nL’esperienza passata contribuisce al riconoscimento: elementi già incontrati o frequentemente associati possono essere organizzati in unità familiari.\n\nNell’esempio della lettera E, ruotare la figura può rendere evidente una forma prima difficile da identificare. Il riconoscimento dipende anche dalla conoscenza dell’alfabeto e dalle aspettative dell’osservatore.\n\nI principi di raggruppamento descrivono come vicinanza, somiglianza e altre relazioni aiutino a organizzare gli stimoli in figure. Non sono istruzioni consapevoli né regole che agiscono sempre allo stesso modo: possono competere tra loro e variare con il contesto.\n\nPer il designer, questi principi offrono strumenti per costruire gruppi, percorsi di lettura e relazioni visive riconoscibili, da valutare attraverso osservazione e test.",
+          "parent": "3708:2447"
+        }
+      ]
+    }
+  ]
+}

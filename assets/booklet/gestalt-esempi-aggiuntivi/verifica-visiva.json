@@ -1,0 +1,574 @@
+{
+  "date": "2026-10-15",
+  "status": "passed",
+  "graphic": {
+    "date": "2026-10-15",
+    "scope": "QA indipendente delle nove nuove pagine grafiche native, senza modifiche Figma.",
+    "status": "passed",
+    "reviewedPageCount": 9,
+    "records": [
+      {
+        "key": "vicinanza",
+        "id": "3897:2088",
+        "number": 241,
+        "side": "DX",
+        "sourceId": "3897:2105",
+        "captionIds": [
+          "3897:2104"
+        ],
+        "imageIds": [
+          "3897:2103"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/vicinanza-graphic.png",
+        "pngSha256": "476573ce15af5851b867c16ac195579845a44e5f3892d5724b17e157eb12a7cc",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      },
+      {
+        "key": "somiglianza",
+        "id": "3897:2127",
+        "number": 250,
+        "side": "SX",
+        "sourceId": "3897:2147",
+        "captionIds": [
+          "3897:2143",
+          "3897:2146"
+        ],
+        "imageIds": [
+          "3897:2142",
+          "3897:2145"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/somiglianza-graphic.png",
+        "pngSha256": "84c615feeaef328cacd80a1bdbf827327fe877740fdad88e395c837fcd43e2da",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      },
+      {
+        "key": "destino-comune",
+        "id": "3897:2169",
+        "number": 259,
+        "side": "DX",
+        "sourceId": "3897:2186",
+        "captionIds": [
+          "3897:2185"
+        ],
+        "imageIds": [
+          "3897:2184"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/destino-comune-graphic.png",
+        "pngSha256": "b8a8d02ae0e7ea14af8247fb84653fc554bf08ec6df45839cc13238c73ce20c6",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      },
+      {
+        "key": "continuita",
+        "id": "3897:2217",
+        "number": 267,
+        "side": "DX",
+        "sourceId": "3897:2234",
+        "captionIds": [
+          "3897:2233"
+        ],
+        "imageIds": [
+          "3897:2232"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/continuita-graphic.png",
+        "pngSha256": "c65c5f0ff986aeb97a4650d7468d6f198dfd29e587694f6c31e7b6bde68714be",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      },
+      {
+        "key": "chiusura",
+        "id": "3897:2256",
+        "number": 275,
+        "side": "DX",
+        "sourceId": "3897:2276",
+        "captionIds": [
+          "3897:2272",
+          "3897:2275"
+        ],
+        "imageIds": [
+          "3897:2271",
+          "3897:2274"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/chiusura-graphic.png",
+        "pngSha256": "a1c7f192b6daf2c34b1b69124618da501d86e2309caf177e206ea92c05920a6f",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      },
+      {
+        "key": "simmetria",
+        "id": "3897:2295",
+        "number": 283,
+        "side": "DX",
+        "sourceId": "3897:2312",
+        "captionIds": [
+          "3897:2311"
+        ],
+        "imageIds": [
+          "3897:2310"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/simmetria-graphic.png",
+        "pngSha256": "2a270ba5ceba9e41243ad1370a4381cb90747eafc77c8c53dec851b54a582d4c",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      },
+      {
+        "key": "regione-comune",
+        "id": "3897:2331",
+        "number": 292,
+        "side": "SX",
+        "sourceId": "3897:2348",
+        "captionIds": [
+          "3897:2347"
+        ],
+        "imageIds": [
+          "3897:2346"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/regione-comune-graphic.png",
+        "pngSha256": "899d898003cc1e7a844afbaca286ab2929cdfe9db33e4125f1a2ee495ed6bcf9",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true,
+        "creditRechecked": true
+      },
+      {
+        "key": "figura-sfondo",
+        "id": "3897:2370",
+        "number": 302,
+        "side": "SX",
+        "sourceId": "3897:2387",
+        "captionIds": [
+          "3897:2386"
+        ],
+        "imageIds": [
+          "3897:2385"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/figura-sfondo-graphic.png",
+        "pngSha256": "54f8b4fbe653176cc3ff82b3ebc3773d6b2bf812d7299384653ff5286d8ebe7f",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      },
+      {
+        "key": "esperienza-passata",
+        "id": "3897:2409",
+        "number": 310,
+        "side": "SX",
+        "sourceId": "3897:2429",
+        "captionIds": [
+          "3897:2425",
+          "3897:2428"
+        ],
+        "imageIds": [
+          "3897:2424",
+          "3897:2427"
+        ],
+        "png": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/esperienza-passata-graphic.png",
+        "pngSha256": "5538a449d9db0618d400b7c15137f429fb8cc8b7ae4626e11de5dd12c597593c",
+        "reviewedAtNativeResolution": true,
+        "noClipping": true,
+        "noOverlap": true,
+        "imagesIntact": true,
+        "onlyImagesCaptionsSourcesFolio": true,
+        "captionsMatchVisibleEvidence": true,
+        "adequateSharpness": true
+      }
+    ],
+    "issues": [],
+    "passed": [
+      "Nove pagine senza testate o titoli aggiunti; solo immagini, didascalie, fonti e folio.",
+      "Nessun clipping o overlap osservato.",
+      "Proporzioni mantenute; immagini intere, salvo il dettaglio Oxfam esplicitamente indicato e accompagnato dalla vista completa nella pagina web successiva.",
+      "Didascalie aderenti all’evidenza. Destino comune distingue pubblicità statica e movimento osservabile; chiusura/Heinz dichiara il contorno irregolare senza inventare ampi vuoti.",
+      "Fonti e attribuzioni presenti; le pagine PDF fisiche sono dichiarate.",
+      "Nitidezza adeguata alle dimensioni. Heinz non è ingrandito oltre misura; nessuna pixelatura problematica dei nuovi asset."
+    ],
+    "resolvedIssues": [
+      {
+        "priority": "P2",
+        "nodeId": "3897:2331",
+        "sourceId": "3897:2348",
+        "folio": 292,
+        "category": "attribuzione",
+        "cause": "Il footer dichiara autore non indicato nel materiale, ma nell’immagine originale completa è leggibile la firma KAVIN KUMAR G | RWFD, in basso al centro.",
+        "evidenceImage": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/originals/slide-booklet/regione-comune-car-insurance-dashboard-booklet-p336.png",
+        "suggestion": "Firma nell’immagine: Kavin Kumar G | RWFD · Car Insurance Policies Dashboard · booklet 2024, p. PDF 336. La forma Firma nell’immagine evita di inferire identità o attribuzioni ulteriori.",
+        "resolved": true,
+        "verification": "Il nuovo PNG nativo del folio292 riporta Firma nell’immagine: Kavin Kumar G | RWFD, senza inferire ulteriori identità."
+      }
+    ]
+  },
+  "web": {
+    "date": "2026-10-15",
+    "scope": "QA indipendente in sola lettura delle nove pagine native WEB aggiuntive. Verificate anche le revisioni finali Carbon e IKEA a497 e360 px.",
+    "status": "PASS",
+    "sourceManifest": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-esempi-aggiuntivi/candidates-web.json",
+    "contactSheet": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/contact-web.png",
+    "items": [
+      {
+        "key": "vicinanza",
+        "site": "GitHub Issues",
+        "sourceUrl": "https://github.com/microsoft/vscode/issues",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/vicinanza-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/vicinanza-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "somiglianza",
+        "site": "Trello Templates",
+        "sourceUrl": "https://trello.com/templates",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/somiglianza-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/somiglianza-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "destino-comune",
+        "site": "Swiper demo",
+        "sourceUrl": "https://swiperjs.com/demos/110-slides-per-view/core",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/destino-comune-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/destino-comune-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "continuita",
+        "site": "U.S. Web Design System",
+        "sourceUrl": "https://designsystem.digital.gov/components/step-indicator/",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/continuita-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/continuita-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "chiusura",
+        "site": "Carbon Design System",
+        "sourceUrl": "https://www.carbondesignsystem.com/building-blocks/core/components/loading/guidelines",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/chiusura-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/chiusura-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "simmetria",
+        "site": "OBS Project",
+        "sourceUrl": "https://obsproject.com/download",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/simmetria-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/simmetria-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "regione-comune",
+        "site": "Slack Pricing",
+        "sourceUrl": "https://slack.com/pricing",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/regione-comune-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/regione-comune-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "figura-sfondo",
+        "site": "Tailwind CSS Docs",
+        "sourceUrl": "https://tailwindcss.com/docs/installation/using-vite",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/figura-sfondo-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/figura-sfondo-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      },
+      {
+        "key": "esperienza-passata",
+        "site": "IKEA Italia",
+        "sourceUrl": "https://www.ikea.com/it/it/",
+        "renders": [
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/esperienza-passata-web.png",
+            "dimensions": [
+              497,
+              658
+            ]
+          },
+          {
+            "path": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-15/esempi-aggiuntivi/esperienza-passata-web-360.png",
+            "dimensions": [
+              360,
+              477
+            ]
+          }
+        ],
+        "checks": {
+          "real_capture_provenance": true,
+          "complete_image_aspect_ratio": true,
+          "caption_visible": true,
+          "caption_accurate": true,
+          "source_visible": true,
+          "no_source_caption_overlap": true
+        },
+        "result": "pass"
+      }
+    ],
+    "findings": [],
+    "resolvedFindings": [
+      {
+        "key": "chiusura",
+        "result": "pass",
+        "observation": "Revisione finale verificata a497 e360 px: la cattura Carbon intera è accompagnata dal dettaglio nativo del medesimo fotogramma. Interruzione del bordo chiara, didascalie leggibili, fonte e folio separati. Nessun taglio o sovrapposizione.",
+        "sameCaptureCropCss": {
+          "x": 299,
+          "y": 209,
+          "width": 138,
+          "height": 138
+        }
+      },
+      {
+        "id": "web-ikea-feature-scale",
+        "key": "esperienza-passata",
+        "result": "pass",
+        "observation": "Revisione finale verificata nei render a497 e360 px: overview IKEA completa, dettaglio della medesima testata con simboli riconoscibili e overview storica Oxfam completa. Didascalie leggibili e separate; fonte inferiore e folio senza sovrapposizioni. Raccomandazione di leggibilità risolta.",
+        "sameCaptureCropCss": {
+          "x": 640,
+          "y": 60,
+          "width": 600,
+          "height": 72
+        }
+      }
+    ],
+    "specificChecks": [
+      {
+        "key": "simmetria",
+        "result": "pass",
+        "observation": "La didascalia OBS qualifica la corrispondenza di dimensioni e posizioni e dichiara esplicitamente che i simboli sono differenti; non presenta i contenuti come perfettamente speculari."
+      },
+      {
+        "key": "destino-comune",
+        "result": "pass",
+        "observation": "Overview reale e tre stati successivi dello stesso trascinamento, con didascalia che riferisce la sequenza anziché dedurre movimento da un solo fermoimmagine. Il manifest documenta lo spostamento comune di−100 px per passaggio con distanze reciproche costanti."
+      },
+      {
+        "key": "historical-references",
+        "result": "pass",
+        "observation": "Le sei schermate storiche sono indicate come catture storiche e attribuite ai materiali del corso. Nessuna UI inventata è stata osservata."
+      }
+    ],
+    "mutationsPerformed": false,
+    "blockingIssues": [],
+    "issues": []
+  },
+  "nativePageCount": 18,
+  "previewWidth": 360,
+  "imageOnlyPagesAdded": 18,
+  "resolvedIssues": [
+    "Firma dashboard",
+    "Ingrandimento reale Carbon",
+    "Dettaglio testata IKEA"
+  ],
+  "issues": []
+}

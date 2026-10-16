@@ -1,6 +1,6 @@
 # Lezione 07 · Colore e significato
 
-Fonte di base: Booklet CVeDI · C03 Processo UX, Page Figma [C03.06 · Colore](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1114). Le 33 slide originarie conservano gli ordinali 125–156 dello snapshot acquisito il 7 ottobre 2026. Le revisioni successive del booklet non trasformano questi ordinali in folio correnti.
+Fonte di base: Booklet CVeDI · C03 Processo UX, Page Figma [C03.08 · Colore](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1114). Le 33 slide originarie conservano gli ordinali 125–156 dello snapshot acquisito il 7 ottobre 2026. Le revisioni successive del booklet non trasformano questi ordinali in folio correnti.
 
 Il 16 ottobre 2026 sono aggiunte sette slide sul significato culturale del colore, dopo `colore-15`: evidenza empirica, mappa storica, due esempi fotografici, due campagne IKEA e metodo di verifica. `bookletPages: [137, 138]` conserva il raccordo allo snapshot storico; i nodi e i folio della revisione corrente sono registrati separatamente. Tutti gli alias originari sono conservati, mentre `lessonSlide` segue la nuova sequenza.
 
@@ -70,7 +70,7 @@ Il 16 ottobre 2026 sono aggiunte sette slide sul significato culturale del color
 
 ## Raccordo con il booklet corrente
 
-I metadati `bookletCurrentNodes` e `bookletCurrentFolios` distinguono le tavole correnti dagli ordinali storici. Le slide 5–17 derivano esclusivamente dai folio correnti 367–379: `bookletRelation: current-only` segnala che non esiste un raccordo con le tavole dello snapshot del 7 ottobre. Non ricevono ordinali `bookletPages`; il trattino nella tabella precedente indica questa assenza. La pagina 393 integra lo studio empirico, mentre le quattro nuove tavole seguono la sezione esistente sul contesto.
+I metadati `bookletCurrentNodes` e `bookletCurrentFolios` distinguono le tavole correnti dagli ordinali storici. Le slide 5–17 derivano esclusivamente dai folio correnti 367–379: `bookletRelation: current-only` segnala che non esiste un raccordo con le tavole dello snapshot del 7 ottobre. Non ricevono ordinali `bookletPages`; il trattino nella tabella precedente indica questa assenza. La pagina 393 integra lo studio empirico; le tavole 394–403 comprendono mappa, fotografie, campagne e gli approfondimenti delle slide 36–41. Il capitolo corrente comprende 58 tavole numerate, ai folio 366–423, e una pagina note aggiuntiva senza folio.
 
 | Slide | Nodo Figma corrente | Folio corrente |
 | --- | --- | --- |
@@ -92,6 +92,12 @@ I metadati `bookletCurrentNodes` e `bookletCurrentFolios` distinguono le tavole 
 | 32–33 | `4035:12266` | 395 |
 | 34 | `4035:12267` | 396 |
 | 35 | `4035:12268` | 397 |
+| 36 | `4110:1510` | 398 |
+| 37 | `4110:1572` | 399 |
+| 38 | `4110:1674` | 400 |
+| 39 | `4110:1776` | 401 |
+| 40 | `4110:1839` | 402 |
+| 41 | `4110:1927` | 403 |
 
 ## Proprietà, ruote e schemi colore
 
@@ -129,7 +135,7 @@ Le campagne IKEA riusano gli originali JPEG di `assets/booklet/revisione-cultura
 
 ## Sei integrazioni da fonti esterne
 
-Le slide 36–41 sviluppano ricerche e documenti esterni al booklet corrente. `bookletPages: [137, 138]` è un raccordo tematico allo snapshot storico, qualificato da `bookletRelation: context-only`; non indica che quelle tavole contengano i nuovi esempi. Non sono assegnati nodi Figma correnti a contenuti che non vi compaiono. I metadati `externalSources` corrispondono al catalogo in `assets/booklet/colore-cultura/slide-integrazioni/fonti.json`, con provenienza interna degli approfondimenti Rota (pp. 5–6, 19) e Tresca (pp. 7–11). I loro nomi non sono attribuzioni editoriali delle slide.
+Le slide 36–41 sviluppano ricerche e documenti esterni, ora riportati anche in sei tavole native del booklet, ai folio 398–403. `bookletPages: [137, 138]` conserva il raccordo tematico allo snapshot storico; i nodi e i folio effettivi sono nei metadati correnti. Lo snapshot e il manifest Figma sono in `assets/booklet/colore-cultura/figma-integrazioni/`. I metadati `externalSources` corrispondono al catalogo in `assets/booklet/colore-cultura/slide-integrazioni/fonti.json`, con provenienza interna degli approfondimenti Rota (pp. 5–6, 19) e Tresca (pp. 7–11). I loro nomi non sono attribuzioni editoriali delle slide o del booklet.
 
 | Slide | Fonti esterne | Contenuto e limiti |
 | --- | --- | --- |
@@ -143,4 +149,4 @@ Le slide 36–41 sviluppano ricerche e documenti esterni al booklet corrente. `b
 
 Tre nuove figure usano `LessonFigure` e l’ingrandimento comune: due SVG con font Nunito Sans e licenza OFL incorporati, più il Doodle originale in WebP. Il confronto CGSE incorpora i PNG originali; i campioni blu sono un nuovo schema didattico. Gli originali, la licenza, il generatore e gli hash sono conservati in `assets/booklet/colore-cultura/slide-integrazioni/`. Il Doodle conserva l’attribuzione Google / Lucia Sarabia; le schermate conservano l’attribuzione CGSE / Infocast Finance. Non sono dichiarate licenze aperte per opere e screenshot di terzi.
 
-Le fonti primarie sono collegate nel catalogo `fonti.json`; la ricognizione e i limiti di ogni pista restano in `reports/colore-cultura/ricerca-integrativa/valutazione.json`. Il caso opzionale Weixin Red Packets e le nuove pagine del booklet non fanno parte di questo aggiornamento delle slide.
+Le fonti primarie sono collegate nel catalogo `fonti.json`; la ricognizione e i limiti di ogni pista restano in `reports/colore-cultura/ricerca-integrativa/valutazione.json`. Nel booklet, i grafici CGSE e il Doodle conservano i PNG originali, mentre etichette, campioni blu e spiegazioni sono modificabili. Le tre nuove figure sono 3.225–3.227; i numeri e i richiami successivi sono riconciliati fino a 3.293. Il caso opzionale Weixin Red Packets resta una pista documentata nella ricognizione.

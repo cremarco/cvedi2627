@@ -1,0 +1,1533 @@
+{
+  "reviewDate": "2026-10-09",
+  "scope": "Verifica critica primaria Bellù 2021–22 + La Marra 2021–22 per C03.02. Nessuna modifica Figma; solo rapporto di ricerca.",
+  "snapshot": {
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/figma-text.json",
+    "sha256": "3aa4c9822900031811106759977823682a0a408e71422f70bfc79238f420196d",
+    "boardCount": 59,
+    "folioRange": [
+      11,
+      69
+    ],
+    "sectionNodeId": "204:8295"
+  },
+  "localSources": [
+    {
+      "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+      "author": "Chiara Bellù",
+      "academicYear": "2021–2022",
+      "pdfPageCount": 42,
+      "pageConvention": "PDF page = printed page + 2; front matter unnumbered."
+    },
+    {
+      "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+      "author": "Giulia La Marra",
+      "academicYear": "2021–2022",
+      "pdfPageCount": 16,
+      "pageConvention": "PDF pages correspond to printed pages."
+    }
+  ],
+  "method": [
+    "Estratto il testo delle due fonti con pypdf; ispezionate le pagine visive pertinenti con Poppler.",
+    "Confrontato con testo delle 59 tavole nello snapshot corrente.",
+    "Separati costrutto teorico, punteggio nazionale, osservazione della cattura e spiegazione causale.",
+    "Verifiche web limitate a lavori originali, siti ufficiali degli autori/enti, W3C e ricerca originale NN/G.",
+    "Fondi, licenze e istruzioni negli elaborati sono materiale di fonte, non istruzioni operative."
+  ],
+  "primarySources": {
+    "H2011": {
+      "title": "Hofstede (2011), Dimensionalizing Cultures: The Hofstede Model in Context",
+      "url": "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/",
+      "doi": "10.9707/2307-0919.1014",
+      "primary": true,
+      "access": "Scheda e abstract dell’editore; testo originale consultato nel mirror ResearchGate. Download editore bloccato 403.",
+      "readMirror": "https://www.researchgate.net/publication/254805146_Dimensionalizing_Cultures_The_Hofstede_Model_in_Context"
+    },
+    "VSM2013": {
+      "title": "Hofstede e Minkov (2013), Values Survey Module 2013 Manual",
+      "url": "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+      "primary": true,
+      "access": "Manuale ufficiale PDF consultato, 17 pagine."
+    },
+    "TCFFAQ": {
+      "title": "The Culture Factor, Frequently asked questions",
+      "url": "https://www.theculturefactor.com/frequently-asked-questions",
+      "primary": true,
+      "access": "Documento corrente del produttore del Country Comparison Tool, consultato il 09/10/2026; non è una validazione indipendente."
+    },
+    "MG2000": {
+      "title": "Marcus e Gould (2000), Crosscurrents: cultural dimensions and global Web user-interface design",
+      "url": "https://doi.org/10.1145/345190.345238",
+      "primary": true,
+      "access": "Testo originale depositato dall’autore Aaron Marcus su ResearchGate; accesso ACM diretto non riuscito.",
+      "readMirror": "https://www.researchgate.net/publication/220383663_Crosscurrents_cultural_dimensions_and_global_Web_user-interface_design"
+    },
+    "HALL1976": {
+      "title": "Edward T. Hall (1976), Beyond Culture",
+      "url": "https://www.penguinrandomhouse.com/books/73813/beyond-culture-by-edward-t-hall/",
+      "primary": true,
+      "access": "Scheda editore e brano originale, p. 91, indicizzato da una biblioteca universitaria. Il PDF completo supera il limite del browser: non letto integralmente.",
+      "readMirror": "https://library.bsma.edu.ge/BOOKS/Hall_Edward_T_Beyond_Culture.pdf"
+    },
+    "KITTLER2011": {
+      "title": "Kittler, Rygl e Mackinnon (2011), Beyond Culture or Beyond Control?",
+      "url": "https://www.storre.stir.ac.uk/handle/1893/3174",
+      "doi": "10.1177/1470595811398797",
+      "primary": true,
+      "access": "Abstract della revisione originale nel repository dell’Università di Stirling; full text in embargo permanente."
+    },
+    "COLOR2020": {
+      "title": "Jonauskaite et al. (2020), Universal Patterns in Color-Emotion Associations Are Further Shaped by Linguistic and Geographic Proximity",
+      "url": "https://www.psychologicalscience.org/journals/psychological-science/0956797620948810/",
+      "doi": "10.1177/0956797620948810",
+      "primary": true,
+      "access": "Abstract originale dell’articolo empirico: 4.598 partecipanti, 30 nazioni, 22 lingue; associazioni colore-emozione, non efficacia UX."
+    },
+    "LUSCHER1979": {
+      "title": "Braün e Bonta (1979), Cross-cultural validity, reliability, and stimulus characteristics of the Lüscher Color Test",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/512812/",
+      "doi": "10.1207/s15327752jpa4305_3",
+      "primary": true,
+      "access": "Abstract originale indicizzato in PubMed: 125 studenti canadesi, 88 ritestati dopo 21 giorni."
+    },
+    "W3CDATES": {
+      "title": "W3C Internationalization, Date formats",
+      "url": "https://www.w3.org/International/questions/qa-date-format.en",
+      "primary": true,
+      "access": "Guida tecnica ufficiale consultata."
+    },
+    "W3CQUICK": {
+      "title": "W3C, Internationalization Quick Tips for the Web",
+      "url": "https://www.w3.org/International/quicktips/",
+      "primary": true,
+      "access": "Guida tecnica ufficiale consultata, sezioni Navigation, Forms, Images, Presentation vs. content."
+    },
+    "W3CENC": {
+      "title": "W3C, Choosing & applying a character encoding",
+      "url": "https://www.w3.org/International/questions/qa-choosing-encodings.en",
+      "primary": true,
+      "access": "Guida ufficiale consultata; distingue codifica da visualizzazione e shaping."
+    },
+    "W3CEXPAND": {
+      "title": "W3C, Text size in translation",
+      "url": "https://www.w3.org/International/articles/article-text-size",
+      "primary": true,
+      "access": "Guida ufficiale consultata; esempi e rapporti non valgono come formula universale."
+    },
+    "W3CCLREQ": {
+      "title": "W3C, Requirements for Chinese Text Layout",
+      "url": "https://www.w3.org/TR/2026/DNOTE-clreq-20261007/",
+      "primary": true,
+      "access": "Group Note Draft 07/10/2026, lavoro in corso, non standard ratificato. Consultate caratteristiche dello script e gerarchie tipografiche §7.1.3.2."
+    },
+    "W3CRTL": {
+      "title": "W3C, Structural markup and right-to-left text in HTML",
+      "url": "https://www.w3.org/International/questions/qa-html-dir",
+      "primary": true,
+      "access": "Guida ufficiale consultata nella prima verifica del capitolo."
+    },
+    "W3CCOLOR": {
+      "title": "W3C WAI, Understanding SC 1.4.1 Use of Color (WCAG 2.2)",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+      "primary": true,
+      "access": "Documento esplicativo ufficiale consultato; il criterio normativo è collegato dalla pagina."
+    },
+    "NNG2014": {
+      "title": "Aurora Harley (2014), Icon Usability, Nielsen Norman Group",
+      "url": "https://www.nngroup.com/articles/icon-usability/",
+      "primary": true,
+      "access": "Indicazioni basate sulla ricerca d’usabilità condotta da NN/G; consultato testo originale."
+    },
+    "NNG2024": {
+      "title": "Kate Kaplan (2024), Icon Usability: When and How to Evaluate Digital Icons",
+      "url": "https://www.nngroup.com/articles/how-to-test-digital-icons/",
+      "primary": true,
+      "access": "Resoconto originale di ricerca NN/G; riconoscimento della forma e interpretazione della funzione distinti."
+    },
+    "ALANCHAN": {
+      "title": "Alan Chan Design, Coca-Cola (2003)",
+      "url": "https://www.alanchandesign.com/zh-hk/projects/2003_coca-cola/?pages=17",
+      "primary": true,
+      "access": "Portfolio ufficiale del designer: conferma progetto e data, non l’etimologia né il nome del carattere tipografico."
+    }
+  },
+  "claims": [
+    {
+      "id": "B01",
+      "theme": "Cronologia Hofstede",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            4
+          ],
+          "printedPages": [
+            2
+          ],
+          "claimParaphrase": "Studio del 1980 descritto già a cinque dimensioni."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "printedPages": [
+            2,
+            3
+          ],
+          "claimParaphrase": "Titolo a cinque dimensioni ma elenco di sei."
+        }
+      ],
+      "verdict": "da correggere",
+      "verifiedAssessment": "Quattro dimensioni nel 1980; LTO aggiunta con Bond nel 1988/1991; IVR con Minkov nel 2010.",
+      "primarySourceIds": [
+        "H2011"
+      ],
+      "sourceUrls": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/"
+      ],
+      "proposedItalianText": "Il modello nasce nel 1980 con quattro dimensioni; LTO e IVR vengono aggiunte in ricerche successive.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 14,
+            "nodeId": "198:3529",
+            "name": "C03 · 014 · DX — Cultura, contesto e ricerca UX"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Già corretto nella tavola 14; non duplicare una nuova pagina.",
+      "limits": []
+    },
+    {
+      "id": "B02",
+      "theme": "Indici e versioni dei dati",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            4
+          ],
+          "printedPages": [
+            2
+          ],
+          "claimParaphrase": "Punteggi sempre tra 1 e 100."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            2,
+            3
+          ],
+          "printedPages": [
+            2,
+            3
+          ],
+          "claimParaphrase": "Punteggi nazionali presentati senza edizione o data."
+        }
+      ],
+      "verdict": "da precisare",
+      "verifiedAssessment": "Gli indici VSM sono relativi e traslabili; l’intervallo non è un confine teorico assoluto. Il tool attuale normalizza 0–100 e aggiorna IDV/LTO nel 2023.",
+      "primarySourceIds": [
+        "VSM2013",
+        "TCFFAQ"
+      ],
+      "sourceUrls": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://www.theculturefactor.com/frequently-asked-questions"
+      ],
+      "proposedItalianText": "Indica fonte, versione e data dei punteggi. I valori sono indici relativi, non percentuali né profili individuali.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 14,
+            "nodeId": "198:3529",
+            "name": "C03 · 014 · DX — Cultura, contesto e ricerca UX"
+          },
+          {
+            "folio": 16,
+            "nodeId": "2695:3902",
+            "name": "C03 · 016 · DX — Distanza dal potere · dati e confronto"
+          },
+          {
+            "folio": 21,
+            "nodeId": "2695:4373",
+            "name": "C03 · 021 · SX — Individualismo e collettivismo · dati e confronto"
+          },
+          {
+            "folio": 26,
+            "nodeId": "2695:4538",
+            "name": "C03 · 026 · DX — Motivazione al risultato e al successo · dati e confronto"
+          },
+          {
+            "folio": 31,
+            "nodeId": "2695:4702",
+            "name": "C03 · 031 · SX — Avversione all’incertezza · dati e confronto"
+          },
+          {
+            "folio": 36,
+            "nodeId": "2695:5057",
+            "name": "C03 · 036 · DX — Orientamento a lungo termine · dati e confronto"
+          },
+          {
+            "folio": 41,
+            "nodeId": "2695:5389",
+            "name": "C03 · 041 · SX — Indulgenza e restrizione · dati e confronto"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Già corretto nelle tavole introduttive e nei grafici; conservare i dati storici dei PDF solo se etichettati come tali.",
+      "limits": []
+    },
+    {
+      "id": "B03",
+      "theme": "Livello nazionale e individuo",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            4
+          ],
+          "printedPages": [
+            2
+          ],
+          "claimParaphrase": "Cultura come principale causa del comportamento."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            2
+          ],
+          "printedPages": [
+            2
+          ],
+          "claimParaphrase": "Intero gruppo agisce in maniera uguale."
+        }
+      ],
+      "verdict": "generalizzazione non sostenuta",
+      "verifiedAssessment": "Le correlazioni nazionali non descrivono ogni individuo. Il VSM richiede campioni nazionali comparabili, non è un test di personalità.",
+      "primarySourceIds": [
+        "H2011",
+        "VSM2013"
+      ],
+      "sourceUrls": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/",
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf"
+      ],
+      "proposedItalianText": "Un indice nazionale apre domande di ricerca; non permette di assegnare bisogni o preferenze a una persona.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 14,
+            "nodeId": "198:3529",
+            "name": "C03 · 014 · DX — Cultura, contesto e ricerca UX"
+          },
+          {
+            "folio": 48,
+            "nodeId": "2668:238",
+            "name": "C03 · 048 · DX — Dai modelli ai casi studio"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "La cautela è già presente, ma i casi restaurati 50–64 tornano a generalizzare.",
+      "limits": []
+    },
+    {
+      "id": "B04",
+      "theme": "PDI e navigazione",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            5,
+            21,
+            22
+          ],
+          "printedPages": [
+            3,
+            19,
+            20
+          ],
+          "claimParaphrase": "Alta PDI implica restrizioni; Cina preferisce che l’azienda decida."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            4
+          ],
+          "printedPages": [
+            4
+          ],
+          "claimParaphrase": "Dimensioni culturali determinano struttura e controllo della navigazione."
+        }
+      ],
+      "verdict": "definizione valida; deduzione UI non dimostrata",
+      "verifiedAssessment": "PDI riguarda aspettative e accettazione della disuguaglianza da parte dei meno potenti. I confronti illustrativi di siti non provano causalità.",
+      "primarySourceIds": [
+        "VSM2013",
+        "MG2000"
+      ],
+      "sourceUrls": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "proposedItalianText": "Nella cattura cinese osserviamo un mosaico; in quella olandese contenuti più essenziali. Campagne, prodotti e organizzazione editoriale sono spiegazioni da verificare.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 50,
+            "nodeId": "198:4995",
+            "name": "C03 · 050 · DX — Case study McDonald’s"
+          },
+          {
+            "folio": 51,
+            "nodeId": "198:4458",
+            "name": "C03 · 051 · SX — Alta distanza dal potere: McDonald's Cina"
+          },
+          {
+            "folio": 52,
+            "nodeId": "198:5017",
+            "name": "C03 · 052 · DX — Bassa distanza dal potere: McDonald's Olanda"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Priorità alta: correggere attribuzioni certe agli utenti e all’intera cultura; conservare le immagini storiche.",
+      "limits": []
+    },
+    {
+      "id": "B05",
+      "theme": "IDV, privacy e fotografie",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            8,
+            23,
+            24
+          ],
+          "printedPages": [
+            6,
+            21,
+            22
+          ],
+          "claimParaphrase": "Individualismo equivale a materialismo e disponibilità di dati; panino singolo prova IDV."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            5
+          ],
+          "printedPages": [
+            5
+          ],
+          "claimParaphrase": "Individualismo implica evitare richieste di dati, in contrasto con Bellù."
+        }
+      ],
+      "verdict": "deduzioni non sostenute",
+      "verifiedAssessment": "IDV riguarda legami individuali e gruppi di appartenenza; non misura disponibilità a condividere dati o preferenze fotografiche. Le fonti secondarie sono anche discordanti.",
+      "primarySourceIds": [
+        "VSM2013",
+        "H2011"
+      ],
+      "sourceUrls": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/"
+      ],
+      "proposedItalianText": "La fotografia del prodotto e il programma premi sono osservabili. Per capirne l’effetto, studia motivazioni, fiducia e uso del servizio.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 53,
+            "nodeId": "2648:240",
+            "name": "C03 · 053 · SX — Individualismo: Stati uniti vs Turchia"
+          },
+          {
+            "folio": 55,
+            "nodeId": "2648:267",
+            "name": "C03 · 055 · SX — Collettivismo: McDonald's Turchia"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Priorità alta nei casi; la definizione 22 è già prudente.",
+      "limits": []
+    },
+    {
+      "id": "B06",
+      "theme": "Correlazione IDV/PDI",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            8
+          ],
+          "printedPages": [
+            6
+          ],
+          "claimParaphrase": "Un indice alto IDV corrisponde sempre a PDI basso."
+        }
+      ],
+      "verdict": "associazione statistica, non equivalenza",
+      "verifiedAssessment": "Hofstede descrive associazioni statistiche tra dimensioni, non regole assolute applicabili a ogni Paese o persona.",
+      "primarySourceIds": [
+        "H2011"
+      ],
+      "sourceUrls": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/"
+      ],
+      "proposedItalianText": "Le dimensioni restano distinte: una correlazione non consente di dedurre automaticamente un punteggio dall’altro.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 22,
+            "nodeId": "198:4960",
+            "name": "C03 · 022 · DX — Empathize · contesto e accessibilità"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Non importare la relazione come formula.",
+      "limits": []
+    },
+    {
+      "id": "B07",
+      "theme": "MAS e forme di interfaccia",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            11,
+            25,
+            26
+          ],
+          "printedPages": [
+            9,
+            23,
+            24
+          ],
+          "claimParaphrase": "Angoli retti mascolini, arrotondati femminili; utenti femminili meno interessati ai dettagli."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            4
+          ],
+          "printedPages": [
+            4
+          ],
+          "claimParaphrase": "MAS determina quantità di collegamenti e multimedialità."
+        }
+      ],
+      "verdict": "stereotipo da eliminare",
+      "verifiedAssessment": "Le forme, la richiesta di feedback e la qualità tecnica non si deducono dal costrutto nazionale. TCF ha cambiato nome, non punteggi MAS.",
+      "primarySourceIds": [
+        "MG2000",
+        "TCFFAQ"
+      ],
+      "sourceUrls": [
+        "https://doi.org/10.1145/345190.345238",
+        "https://www.theculturefactor.com/frequently-asked-questions"
+      ],
+      "proposedItalianText": "Confronta messaggi di successo, cura o collaborazione presenti nelle catture. Non classificare forme o competenze degli utenti come maschili o femminili.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 56,
+            "nodeId": "2648:298",
+            "name": "C03 · 056 · DX — Mascolinità: Slovacchia vs Slovenia"
+          },
+          {
+            "folio": 58,
+            "nodeId": "2648:325",
+            "name": "C03 · 058 · DX — Femminilità: McDonald's Slovenia"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Priorità alta nei casi; tavole 25–27 già aggiornate.",
+      "limits": [
+        "Mantenere MAS come sigla storica e documentare la terminologia corrente."
+      ]
+    },
+    {
+      "id": "B08",
+      "theme": "UAI e rischio",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            14,
+            27,
+            28
+          ],
+          "printedPages": [
+            12,
+            25,
+            26
+          ],
+          "claimParaphrase": "Basso UAI implica rischio, innovazione, vagare; preferenza deduttiva nazionale."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            3,
+            5
+          ],
+          "printedPages": [
+            3,
+            5
+          ],
+          "claimParaphrase": "UAI alto significa saper gestire rischi/problemi; basso significa non riuscirci."
+        }
+      ],
+      "verdict": "errore concettuale e deduzione UI",
+      "verifiedAssessment": "UAI è tolleranza dell’ambiguità; non coincide con avversione al rischio, capacità di controllo o competenza nella gestione dei problemi.",
+      "primarySourceIds": [
+        "H2011"
+      ],
+      "sourceUrls": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/"
+      ],
+      "proposedItalianText": "Il cursore e le animazioni mostrano scelte progettuali della versione indiana. Non dimostrano apertura alle novità di tutti gli utenti.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 59,
+            "nodeId": "2648:356",
+            "name": "C03 · 059 · SX — Rifiuto dell’incertezza: Russia vs India"
+          },
+          {
+            "folio": 61,
+            "nodeId": "2648:383",
+            "name": "C03 · 061 · SX — Basso rifiuto dell'incertezza: McDonald's India"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Priorità alta; definizione 32 già corretta.",
+      "limits": []
+    },
+    {
+      "id": "B09",
+      "theme": "LTO, gratificazione e wishlist",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            17,
+            29,
+            30
+          ],
+          "printedPages": [
+            15,
+            27,
+            28
+          ],
+          "claimParaphrase": "Breve termine implica decisioni rapide/rischiose e grandi CTA; lungo termine implica wishlist."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            3,
+            5
+          ],
+          "printedPages": [
+            3,
+            5
+          ],
+          "claimParaphrase": "Breve termine definito come qualità della vita più importante del lavoro e CTA immediate."
+        }
+      ],
+      "verdict": "costrutti confusi e deduzione UI",
+      "verifiedAssessment": "LTO confronta preparazione futura/adattamento con tradizioni e obblighi presenti/passati. Wishlist, tempi d’acquisto e dimensioni delle CTA richiedono evidenza sul compito.",
+      "primarySourceIds": [
+        "VSM2013",
+        "MG2000"
+      ],
+      "sourceUrls": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "proposedItalianText": "Le catture differiscono per campagne e contenuti. Chiedi quali informazioni aiutano una scelta e quando le persone vogliono conservarle.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 62,
+            "nodeId": "2648:414",
+            "name": "C03 · 062 · DX — Orientamento a lungo termine: Cina vs Portogallo"
+          },
+          {
+            "folio": 64,
+            "nodeId": "2648:441",
+            "name": "C03 · 064 · DX — Orientamento a lungo termine: McDonald's Cina"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Priorità alta; definizione 37 già prudente.",
+      "limits": []
+    },
+    {
+      "id": "B10",
+      "theme": "IVR",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            3
+          ],
+          "printedPages": [
+            3
+          ],
+          "claimParaphrase": "Indulgenza come scarso autocontrollo personale, restrizione come pessimismo individuale."
+        }
+      ],
+      "verdict": "da distinguere dal tratto personale",
+      "verifiedAssessment": "IVR riguarda gratificazione socialmente ammessa di desideri relativi a godersi la vita, oppure vincoli di norme sociali.",
+      "primarySourceIds": [
+        "VSM2013"
+      ],
+      "sourceUrls": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf"
+      ],
+      "proposedItalianText": "La dimensione riguarda norme sociali di gratificazione e restrizione; non diagnostica l’autocontrollo di una persona.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 40,
+            "nodeId": "198:4429",
+            "name": "C03 · 040 · DX — Indulgenza e restrizione (IVR)"
+          },
+          {
+            "folio": 41,
+            "nodeId": "2695:5389",
+            "name": "C03 · 041 · SX — Indulgenza e restrizione · dati e confronto"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Non introdurre la formulazione individuale; grafico 41 già distingue le norme.",
+      "limits": []
+    },
+    {
+      "id": "B11",
+      "theme": "Marcus e Gould: statuto dell’applicazione UX",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            4
+          ],
+          "printedPages": [
+            2
+          ],
+          "claimParaphrase": "Elenco culturale→UI trattato come traduzione diretta delle dimensioni."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            4
+          ],
+          "printedPages": [
+            4
+          ],
+          "claimParaphrase": "Ricerca attribuita al 2001 e presentata come caratterizzazione certa."
+        }
+      ],
+      "verdict": "da contestualizzare",
+      "verifiedAssessment": "L’articolo Interactions è del luglio/agosto 2000; propone possibili influenze illustrate da siti. La lettura critica non lo trasforma in prova causale.",
+      "primarySourceIds": [
+        "MG2000"
+      ],
+      "sourceUrls": [
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "proposedItalianText": "Marcus e Gould (2000) propongono possibili collegamenti fra cultura e interfacce. Usiamoli per formulare ipotesi da confrontare con la ricerca sugli utenti.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 48,
+            "nodeId": "2668:238",
+            "name": "C03 · 048 · DX — Dai modelli ai casi studio"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Integrare attribuzione breve nella cornice dei casi, evitando un’ulteriore pagina di limiti.",
+      "limits": []
+    },
+    {
+      "id": "B12",
+      "theme": "Hall: contesto e tempo",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            4,
+            5
+          ],
+          "printedPages": [
+            4,
+            5
+          ],
+          "claimParaphrase": "Alto contesto coincide con policronia, basso con monocronia; nazionalità determina animazioni e finestre."
+        }
+      ],
+      "verdict": "equivalenza e regola UI non dimostrate",
+      "verifiedAssessment": "Hall distingue quanto significato sta nel contesto rispetto al messaggio esplicito. La revisione dei ranking nazionali trova evidenza debole e contraddittoria.",
+      "primarySourceIds": [
+        "HALL1976",
+        "KITTLER2011"
+      ],
+      "sourceUrls": [
+        "https://www.penguinrandomhouse.com/books/73813/beyond-culture-by-edward-t-hall/",
+        "https://www.storre.stir.ac.uk/handle/1893/3174"
+      ],
+      "proposedItalianText": "Contesto comunicativo e organizzazione del tempo sono concetti distinti. Per un’interfaccia verifica quali informazioni vengono presupposte e quali devono essere esplicite.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 43,
+            "nodeId": "198:4475",
+            "name": "C03 · 043 · SX — Hall: dove sta il significato?"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Tavola 43 già sostanzialmente corretta; eventuale singola frase distingue contesto e tempo.",
+      "limits": [
+        "Non riproporre una classifica rigida di Paesi. Il testo completo di Hall non è stato letto integralmente."
+      ]
+    },
+    {
+      "id": "B13",
+      "theme": "Colori e dizionari nazionali",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            34
+          ],
+          "printedPages": [
+            32
+          ],
+          "claimParaphrase": "Tabella fissa colore→significato per Cina, Occidente, Giappone, India."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            6,
+            7
+          ],
+          "printedPages": [
+            6,
+            7
+          ],
+          "claimParaphrase": "Significati per intere nazioni/religioni; verde vietato in Indonesia."
+        }
+      ],
+      "verdict": "non verificato come regola progettuale",
+      "verifiedAssessment": "Lo studio empirico 2020 rileva associazioni condivise e differenze locali. Non prova dizionari nazionali fissi, efficacia commerciale o preferenze di interfaccia.",
+      "primarySourceIds": [
+        "COLOR2020"
+      ],
+      "sourceUrls": [
+        "https://www.psychologicalscience.org/journals/psychological-science/0956797620948810/"
+      ],
+      "proposedItalianText": "Le associazioni di colore dipendono anche da lingua e contesto. Verifica il significato della scelta cromatica nel servizio e con il pubblico previsto.",
+      "logicalPlacement": {
+        "action": "integrazione dopo la tavola, prima degli altri framework",
+        "boards": [
+          {
+            "folio": 44,
+            "nodeId": "198:5028",
+            "name": "C03 · 044 · DX — Lingua e direzione di lettura"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Tema assente nella sezione attuale: integrazione utile.",
+      "limits": [
+        "Evitare di importare la tabella Bellù come guida normativa; nessuna fonte primaria verificata sostiene il divieto nazionale citato."
+      ]
+    },
+    {
+      "id": "B14",
+      "theme": "Colore, fisiologia e Lüscher",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            6,
+            9
+          ],
+          "printedPages": [
+            6,
+            9
+          ],
+          "claimParaphrase": "Rosso aumenta battito/respirazione; blu rilassa; Lüscher identifica personalità e stato d’animo."
+        }
+      ],
+      "verdict": "non usare come fondamento UX",
+      "verifiedAssessment": "Le associazioni non misurano la fisiologia. Una verifica del Lüscher su studenti trova bassa affidabilità test–retest e rilevanti limiti; non basta a sostenere diagnosi o scelte UI.",
+      "primarySourceIds": [
+        "COLOR2020",
+        "LUSCHER1979"
+      ],
+      "sourceUrls": [
+        "https://www.psychologicalscience.org/journals/psychological-science/0956797620948810/",
+        "https://pubmed.ncbi.nlm.nih.gov/512812/"
+      ],
+      "proposedItalianText": "Distingui un’associazione dichiarata da un effetto misurato. Una palette non permette di diagnosticare la personalità né garantisce una risposta emotiva.",
+      "logicalPlacement": {
+        "action": "integrazione nel nuovo blocco sui colori",
+        "boards": [
+          {
+            "folio": 44,
+            "nodeId": "198:5028",
+            "name": "C03 · 044 · DX — Lingua e direzione di lettura"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Non presente: evitare l’introduzione del test.",
+      "limits": [
+        "Lo studio Lüscher ha un campione specifico; non è una dimostrazione universale di invalidità in ogni popolazione."
+      ]
+    },
+    {
+      "id": "B15",
+      "theme": "Colore e accessibilità",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            34
+          ],
+          "printedPages": [
+            32
+          ],
+          "claimParaphrase": "Colori appropriati assicurano usabilità positiva."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            5,
+            6
+          ],
+          "printedPages": [
+            5,
+            6
+          ],
+          "claimParaphrase": "Colore rende intuibile la navigazione."
+        }
+      ],
+      "verdict": "da completare con requisito verificabile",
+      "verifiedAssessment": "WCAG 2.2 SC 1.4.1 richiede che l’informazione non dipenda soltanto dal colore.",
+      "primarySourceIds": [
+        "W3CCOLOR"
+      ],
+      "sourceUrls": [
+        "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html"
+      ],
+      "proposedItalianText": "Per stati, errori e azioni affianca al colore un’indicazione visiva come testo o forma. Il significato deve restare comprensibile anche senza distinguerne la tonalità.",
+      "logicalPlacement": {
+        "action": "integrazione nel nuovo blocco sui colori",
+        "boards": [
+          {
+            "folio": 44,
+            "nodeId": "198:5028",
+            "name": "C03 · 044 · DX — Lingua e direzione di lettura"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Nuovo ponte tra contesto e accessibilità; non duplicare la sezione tecnica successiva.",
+      "limits": []
+    },
+    {
+      "id": "B16",
+      "theme": "Tipografia cinese",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            7,
+            10
+          ],
+          "printedPages": [
+            7,
+            10
+          ],
+          "claimParaphrase": "Tratti infiniti, righe senza respiro, titoli distinguibili solo per colore."
+        }
+      ],
+      "verdict": "formulazione errata e stereotipata",
+      "verifiedAssessment": "CLReq descrive sistemi e convenzioni regionali, inclusi dimensione, peso e stile per le gerarchie. Mancanza di spazi tra parole non equivale a scarsa leggibilità.",
+      "primarySourceIds": [
+        "W3CCLREQ"
+      ],
+      "sourceUrls": [
+        "https://www.w3.org/TR/2026/DNOTE-clreq-20261007/"
+      ],
+      "proposedItalianText": "Ogni sistema di scrittura ha esigenze tipografiche. Per il cinese verifica glifi, punteggiatura, a capo e gerarchie di dimensione e peso con lettori competenti.",
+      "logicalPlacement": {
+        "action": "integrazione dopo la tavola CSS e stile",
+        "boards": [
+          {
+            "folio": 69,
+            "nodeId": "2668:322",
+            "name": "C03 · 069 · SX — CSS e stile"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Tipografia multiscrittura assente; non duplicare RTL della tavola 44.",
+      "limits": [
+        "CLReq è una Group Note Draft: citarla come lavoro tecnico in corso, non norma ratificata."
+      ]
+    },
+    {
+      "id": "B17",
+      "theme": "UTF-8 e glifi",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            32
+          ],
+          "printedPages": [
+            30
+          ],
+          "claimParaphrase": "UTF-8 da sola garantisce visualizzazione corretta indipendentemente dalla lingua."
+        }
+      ],
+      "verdict": "parzialmente corretto",
+      "verifiedAssessment": "UTF-8 codifica caratteri; resa corretta richiede font con glifi e supporto dello shaping. Una sola dichiarazione non converte i byte.",
+      "primarySourceIds": [
+        "W3CENC"
+      ],
+      "sourceUrls": [
+        "https://www.w3.org/International/questions/qa-choosing-encodings.en"
+      ],
+      "proposedItalianText": "UTF-8 permette di rappresentare il testo; il font deve coprire i glifi e il sistema deve comporli correttamente. Controlla la resa nelle lingue previste.",
+      "logicalPlacement": {
+        "action": "integrazione nella pagina di tipografia multiscrittura",
+        "boards": [
+          {
+            "folio": 69,
+            "nodeId": "2668:322",
+            "name": "C03 · 069 · SX — CSS e stile"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Concetto nuovo e utile; il solo confronto Sans/Times non lo spiega.",
+      "limits": []
+    },
+    {
+      "id": "B18",
+      "theme": "Espansione del testo",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            32
+          ],
+          "printedPages": [
+            30
+          ],
+          "claimParaphrase": "Cinese/giapponese sempre concisi, lingue intere confrontate come lunghezze fisse."
+        }
+      ],
+      "verdict": "principio utile, generalizzazione da correggere",
+      "verifiedAssessment": "La traduzione può espandere o contrarre una stringa; misura e glifi dipendono dal testo. Una cattura non dimostra la causa tecnica del troncamento.",
+      "primarySourceIds": [
+        "W3CEXPAND"
+      ],
+      "sourceUrls": [
+        "https://www.w3.org/International/articles/article-text-size"
+      ],
+      "proposedItalianText": "Nelle catture alcuni testi sono troncati o sovrapposti. Verifica le traduzioni reali in spazi flessibili: il rapporto di lunghezza cambia da una stringa all’altra.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 67,
+            "nodeId": "198:5050",
+            "name": "C03 · 067 · SX — Espansione del testo."
+          },
+          {
+            "folio": 68,
+            "nodeId": "2668:310",
+            "name": "C03 · 068 · DX — Espansione del testo · esempi"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Correggere la tavola 67 in loco; le immagini 68 già illustrano il problema.",
+      "limits": []
+    },
+    {
+      "id": "B19",
+      "theme": "Lingua e locale",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            31
+          ],
+          "printedPages": [
+            29
+          ],
+          "claimParaphrase": "Selettore visibile ed endonimi; traduzione come fattore centrale."
+        }
+      ],
+      "verdict": "utile e confermato",
+      "verifiedAssessment": "W3C raccomanda accesso visibile alle versioni localizzate usando lingua e scrittura di destinazione. Lingua, regione e formato locale non sono equivalenti.",
+      "primarySourceIds": [
+        "W3CQUICK",
+        "W3CDATES"
+      ],
+      "sourceUrls": [
+        "https://www.w3.org/International/quicktips/",
+        "https://www.w3.org/International/questions/qa-date-format.en"
+      ],
+      "proposedItalianText": "Rendi visibile il cambio lingua e usa i nomi nella scrittura di destinazione. Distingui lingua, regione e valuta; verifica anche contenuti nelle immagini e nei messaggi.",
+      "logicalPlacement": {
+        "action": "breve integrazione nella tavola Alibaba / Lingua",
+        "boards": [
+          {
+            "folio": 66,
+            "nodeId": "198:4509",
+            "name": "C03 · 066 · DX — Case study: Alibaba / Lingua"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Il selettore è già osservato; endonimi, accesso dalle pagine interne e distinzione dal locale aggiungono contenuto pratico.",
+      "limits": []
+    },
+    {
+      "id": "B20",
+      "theme": "Date e orari",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            35
+          ],
+          "printedPages": [
+            33
+          ],
+          "claimParaphrase": "USA mese/giorno/anno, tutto il resto giorno/mese/anno; orari divisi rigidamente USA/Europa."
+        }
+      ],
+      "verdict": "errore fattuale; esempio utile",
+      "verifiedAssessment": "Esistono anche ordini anno/mese/giorno. Date numeriche sono ambigue; un formato tecnico univoco non è automaticamente il più familiare per una persona.",
+      "primarySourceIds": [
+        "W3CDATES",
+        "W3CQUICK"
+      ],
+      "sourceUrls": [
+        "https://www.w3.org/International/questions/qa-date-format.en",
+        "https://www.w3.org/International/quicktips/"
+      ],
+      "proposedItalianText": "04/05/2021 può indicare due date. Nei contenuti per le persone rendi espliciti giorno, mese e anno; nei campi indica il formato e controlla le preferenze locali.",
+      "logicalPlacement": {
+        "action": "micro-esempio nell’attività prenotazione; richiamo dopo Alibaba",
+        "boards": [
+          {
+            "folio": 13,
+            "nodeId": "2460:1123",
+            "name": "C03 · 013 · SX — Dalle osservazioni alle evidenze"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Nuovo elemento concreto collegato all’attività didattica.",
+      "limits": [
+        "La guida W3C sulle date non basta a verificare calendari nazionali o percentuali d’uso di 12/24 ore: non importare le semplificazioni."
+      ]
+    },
+    {
+      "id": "B21",
+      "theme": "Icone e interpretazione",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+          "author": "Chiara Bellù",
+          "pdfPages": [
+            33
+          ],
+          "printedPages": [
+            31
+          ],
+          "claimParaphrase": "Casa, ricerca e stampa pressoché universali; cuore/stella ambigui; etichetta sempre visibile."
+        },
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            10
+          ],
+          "printedPages": [
+            10
+          ],
+          "claimParaphrase": "Lente riconoscibile per chiunque."
+        }
+      ],
+      "verdict": "etichetta utile; universalità da evitare",
+      "verifiedAssessment": "NN/G distingue riconoscere un oggetto dall’attribuire la funzione giusta. Etichette e test nel compito riducono l’ambiguità.",
+      "primarySourceIds": [
+        "NNG2014",
+        "NNG2024"
+      ],
+      "sourceUrls": [
+        "https://www.nngroup.com/articles/icon-usability/",
+        "https://www.nngroup.com/articles/how-to-test-digital-icons/"
+      ],
+      "proposedItalianText": "Una stella può indicare preferiti, valutazione o elementi salvati. Affianca un’etichetta chiara e verifica che le persone prevedano l’azione corretta nel compito.",
+      "logicalPlacement": {
+        "action": "integrazione dopo lingua/lettura, prima dei framework",
+        "boards": [
+          {
+            "folio": 44,
+            "nodeId": "198:5028",
+            "name": "C03 · 044 · DX — Lingua e direzione di lettura"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Iconografia culturale e test della funzione assenti: integrazione utile.",
+      "limits": []
+    },
+    {
+      "id": "B22",
+      "theme": "RTL",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            10
+          ],
+          "printedPages": [
+            10
+          ],
+          "claimParaphrase": "RTL descritto da sinistra a destra; menu e tutti i simboli seguono la direzione."
+        }
+      ],
+      "verdict": "errore fattuale e generalizzazione",
+      "verifiedAssessment": "RTL è da destra a sinistra. Testi latini e numeri possono restare LTR; logo, foto e icone non si specchiano indiscriminatamente.",
+      "primarySourceIds": [
+        "W3CRTL"
+      ],
+      "sourceUrls": [
+        "https://www.w3.org/International/questions/qa-html-dir"
+      ],
+      "proposedItalianText": "La direzione di base riguarda il testo e il flusso dell’interfaccia. Contenuti misti, marchi e simboli richiedono controlli specifici.",
+      "logicalPlacement": {
+        "action": "correzione in loco",
+        "boards": [
+          {
+            "folio": 44,
+            "nodeId": "198:5028",
+            "name": "C03 · 044 · DX — Lingua e direzione di lettura"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Già corretto: non creare una seconda pagina RTL.",
+      "limits": []
+    },
+    {
+      "id": "B23",
+      "theme": "Logo Coca-Cola cinese",
+      "oldSources": [
+        {
+          "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+          "author": "Giulia La Marra",
+          "pdfPages": [
+            9
+          ],
+          "printedPages": [
+            9
+          ],
+          "claimParaphrase": "Logo cinese Spencerian; etimologia specifica; rosso Coca-Cola provoca stimolazione fisiologica."
+        }
+      ],
+      "verdict": "progetto verificato; altre attribuzioni non verificate",
+      "verifiedAssessment": "Alan Chan documenta un progetto Coca-Cola del 2003. Il portfolio non conferma nome del carattere, etimologia o effetti fisiologici.",
+      "primarySourceIds": [
+        "ALANCHAN"
+      ],
+      "sourceUrls": [
+        "https://www.alanchandesign.com/zh-hk/projects/2003_coca-cola/?pages=17"
+      ],
+      "proposedItalianText": "Il confronto mostra un’identità adattata a un’altra scrittura. Osserva quali elementi visivi restano riconoscibili e quali cambiano.",
+      "logicalPlacement": {
+        "action": "possibile visuale nella nuova pagina di tipografia multiscrittura",
+        "boards": [
+          {
+            "folio": 69,
+            "nodeId": "2668:322",
+            "name": "C03 · 069 · SX — CSS e stile"
+          }
+        ]
+      },
+      "currentSnapshotStatus": "Esempio nuovo e più adatto della generalizzazione Occidente/Oriente.",
+      "limits": [
+        "Attribuzione: Alan Chan Design, progetto 2003; immagine riprodotta nell’elaborato di Giulia La Marra 2021–22. Licenza della riproduzione non dichiarata."
+      ]
+    }
+  ],
+  "shortIntegrations": [
+    {
+      "id": "I01",
+      "priority": 1,
+      "title": "Date e formati: il caso di una prenotazione",
+      "fromClaims": [
+        "B20"
+      ],
+      "placement": {
+        "action": "micro-esempio o breve nuova tavola dopo attività prenotazione",
+        "boards": [
+          {
+            "folio": 13,
+            "nodeId": "2460:1123",
+            "name": "C03 · 013 · SX — Dalle osservazioni alle evidenze"
+          }
+        ]
+      },
+      "newVsSnapshot": "Nelle 59 tavole non esiste un caso su date, orari o convenzioni di inserimento.",
+      "italianText": "04/05/2021: 4 maggio o 5 aprile? Una prenotazione deve chiarire il formato, la lingua del mese e l’orario. Chiedi alle persone di interpretare e inserire la stessa data; osserva gli errori prima di scegliere il controllo.",
+      "visual": "Meglio tre esempi editabili della stessa data; il grafico AM/PM di Bellù è un confronto storico, non un riepilogo universale.",
+      "sourcePdf": {
+        "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+        "author": "Chiara Bellù",
+        "pdfPages": [
+          35
+        ],
+        "printedPages": [
+          33
+        ],
+        "claimParaphrase": "Ora e data, fig. 69."
+      },
+      "assetPreview": "/private/tmp/cvedi-approfondimenti-review/cultura/bellu-35.png",
+      "rights": "Grafico senza fonte/licenza esplicita nella pagina: non attribuirlo a Bellù come autrice originaria."
+    },
+    {
+      "id": "I02",
+      "priority": 1,
+      "title": "Riconoscere una forma non è capire l’azione",
+      "fromClaims": [
+        "B21"
+      ],
+      "placement": {
+        "action": "nuova tavola dopo lingua e direzione di lettura",
+        "boards": [
+          {
+            "folio": 44,
+            "nodeId": "198:5028",
+            "name": "C03 · 044 · DX — Lingua e direzione di lettura"
+          }
+        ]
+      },
+      "newVsSnapshot": "Il capitolo non verifica l’interpretazione delle icone nel compito.",
+      "italianText": "La forma di una stella può essere riconoscibile, ma la funzione resta ambigua: preferiti, salvati o valutazione? Prova etichette diverse e verifica quale azione le persone si aspettano. Poi osserva se trovano e usano il comando durante il compito.",
+      "visual": "Usare un confronto editabile fra una stessa icona e tre etichette. Fig. 67 Bellù può documentare la fonte storica, ma la raccolta generica spiega poco.",
+      "sourcePdf": {
+        "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+        "author": "Chiara Bellù",
+        "pdfPages": [
+          33
+        ],
+        "printedPages": [
+          31
+        ],
+        "claimParaphrase": "Icone, fig. 67."
+      },
+      "assetPreview": "/private/tmp/cvedi-approfondimenti-review/cultura/bellu-33.png",
+      "rights": "Set di icone senza autore o licenza individuati: preferire icone del sistema con licenza nota."
+    },
+    {
+      "id": "I03",
+      "priority": 2,
+      "title": "Colore: associazione, contesto, comprensione",
+      "fromClaims": [
+        "B13",
+        "B14",
+        "B15"
+      ],
+      "placement": {
+        "action": "breve nuova tavola nel blocco di localizzazione",
+        "boards": [
+          {
+            "folio": 44,
+            "nodeId": "198:5028",
+            "name": "C03 · 044 · DX — Lingua e direzione di lettura"
+          }
+        ]
+      },
+      "newVsSnapshot": "Manca un criterio per leggere associazioni cromatiche senza una tabella nazionale rigida.",
+      "italianText": "Le associazioni fra colori ed emozioni hanno elementi condivisi e differenze locali. Non sono un dizionario di preferenze. Nel servizio verifica il significato con il pubblico previsto e rendi stati, errori e azioni comprensibili anche attraverso testo o forma.",
+      "visual": "Confrontare una spia solo colorata con una spia accompagnata da etichetta; non importare la tabella nazioni/colore come regola.",
+      "sourcePdf": {
+        "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+        "author": "Chiara Bellù",
+        "pdfPages": [
+          34
+        ],
+        "printedPages": [
+          32
+        ],
+        "claimParaphrase": "Colori, fig. 68; confrontare criticamente La Marra pp. 6–7."
+      },
+      "assetPreview": "/private/tmp/cvedi-approfondimenti-review/cultura/bellu-34.png",
+      "rights": "Nessun import consigliato dalla tabella: esempi propri editabili più chiari e meglio verificabili."
+    },
+    {
+      "id": "I04",
+      "priority": 2,
+      "title": "Tipografia per più scritture",
+      "fromClaims": [
+        "B16",
+        "B17",
+        "B23"
+      ],
+      "placement": {
+        "action": "nuova tavola dopo CSS e stile",
+        "boards": [
+          {
+            "folio": 69,
+            "nodeId": "2668:322",
+            "name": "C03 · 069 · SX — CSS e stile"
+          }
+        ]
+      },
+      "newVsSnapshot": "RTL già trattato; qui si aggiungono glifi, composizione e gerarchie.",
+      "italianText": "Localizzare il testo richiede caratteri leggibili e font adatti alle scritture previste. Controlla glifi, composizione, a capo e gerarchie di dimensione e peso. Il confronto Coca-Cola mostra come un’identità possa cambiare scrittura mantenendo elementi riconoscibili.",
+      "visual": "Coppia dei loghi latino/cinese riprodotti da La Marra p. 9, con credito Alan Chan 2003 per il progetto cinese. Non chiamarlo Spencerian né ripetere l’etimologia senza nuova fonte.",
+      "sourcePdf": {
+        "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/lamarra-giulia-865628-giulia-la-marra.pdf",
+        "author": "Giulia La Marra",
+        "pdfPages": [
+          9
+        ],
+        "printedPages": [
+          9
+        ],
+        "claimParaphrase": "Figg. 3–4: loghi Coca-Cola."
+      },
+      "assetPaths": [
+        "/private/tmp/cvedi-approfondimenti-review/cultura/images/lamarra-giulia-865628-giulia-la-marra-p9-i2-Image149.jpg",
+        "/private/tmp/cvedi-approfondimenti-review/cultura/images/lamarra-giulia-865628-giulia-la-marra-p9-i3-Image150.png"
+      ],
+      "assetPreview": "/private/tmp/cvedi-approfondimenti-review/cultura/lamarra-09.png",
+      "rights": "Fonte visiva dell’elaborato conservata; marchio Coca-Cola. Licenza non dichiarata. Controllare esistenza/nome degli asset prima di importare."
+    },
+    {
+      "id": "I05",
+      "priority": 2,
+      "title": "Cambio lingua e locale",
+      "fromClaims": [
+        "B19",
+        "B18"
+      ],
+      "placement": {
+        "action": "aggiunta breve nelle tavole esistenti, senza nuovo caso Alibaba",
+        "boards": [
+          {
+            "folio": 66,
+            "nodeId": "198:4509",
+            "name": "C03 · 066 · DX — Case study: Alibaba / Lingua"
+          },
+          {
+            "folio": 67,
+            "nodeId": "198:5050",
+            "name": "C03 · 067 · SX — Espansione del testo."
+          }
+        ]
+      },
+      "newVsSnapshot": "Si aggiungono endonimi e distinzione lingua/regione/valuta; espansione è già presente e richiede revisione, non duplicazione.",
+      "italianText": "Il cambio lingua deve restare visibile anche nelle pagine interne e usare i nomi nella scrittura di destinazione. Lingua, regione, valuta e formato dei dati sono scelte diverse. Prova le traduzioni reali nei componenti: le stringhe possono espandersi o contrarsi.",
+      "visual": "Riutilizzare le catture Alibaba 66–68; evitare un secondo esempio di traduzione automatica quasi identico.",
+      "sourcePdf": {
+        "path": "/Users/marco/Sites/cvedi2627/materiali/approfondimenti/2021-2022/bellu-chiara-873451.pdf",
+        "author": "Chiara Bellù",
+        "pdfPages": [
+          31,
+          32
+        ],
+        "printedPages": [
+          29,
+          30
+        ],
+        "claimParaphrase": "Lingua; espansione del testo; compatibilità."
+      },
+      "assetPreview": "/private/tmp/cvedi-approfondimenti-review/cultura/bellu-extra-31.png",
+      "rights": "Nessun nuovo asset necessario; conservare crediti delle catture esistenti."
+    }
+  ],
+  "priorityCorrections": {
+    "folios": [
+      50,
+      51,
+      52,
+      53,
+      55,
+      56,
+      58,
+      59,
+      61,
+      62,
+      64,
+      67
+    ],
+    "action": "Conservare casi e immagini restaurati; riscrivere le deduzioni certe come osservazioni e domande verificabili. Contestualizzare statistiche aziendali e catture come materiale storico, senza presentarle come dati correnti.",
+    "alreadyCorrected": [
+      14,
+      17,
+      22,
+      27,
+      32,
+      37,
+      41,
+      43,
+      44
+    ],
+    "avoidDuplicatePages": [
+      "Cronologia Hofstede",
+      "Limiti degli indici",
+      "Nuova pagina RTL",
+      "Secondo caso di traduzione automatica"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1114",
+  "sectionId": "204:8299",
+  "insertAfterBoardId": "4035:12268",
+  "pages": [
+    {
+      "folio": 398,
+      "title": "Il colore di un dato è una convenzione",
+      "kind": "text",
+      "paragraphs": [
+        "Nelle interfacce finanziarie, rosso e verde possono indicare andamenti opposti. Il significato operativo della tinta dipende dalla convenzione del prodotto e dalle abitudini del pubblico.",
+        "Convenzione locale. Il manuale MagicTrader Plus distingue lo stile di Hong Kong da quello della Cina continentale. Anche all’interno della stessa area geografica, prodotti e mercati possono adottare corrispondenze diverse: una sola convenzione «asiatica» non descrive questi casi.",
+        "Personalizzazione. Il CGSE Trader Terminal permette di invertire i colori assegnati ad aumento e diminuzione. La coppia rosso–verde resta la stessa, mentre cambia ciò che ciascuna tinta comunica.",
+        "Segnali espliciti. Prima di interpretare il colore, leggi legenda, segno, unità e grandezza rappresentata. In un progetto, accompagna la tinta con testo, simboli o direzione del dato: la pagina successiva mostra due configurazioni documentate."
+      ],
+      "sources": [
+        {"label": "CGSE Trader Terminal (2021), §5.1.4, PDF p. 13.", "url": "https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf"},
+        {"label": "MagicTrader Plus Android v3.0 (2012), §40e, PDF p. 21.", "url": "https://www.cmbwinglungbank.com/wlb_corporate/files/hk/upload/about-us/service-guide/10.10.1.9.4-CnSecTeleStoQuoUsrGuiAnd.pdf"}
+      ]
+    },
+    {
+      "folio": 399,
+      "title": "Due convenzioni, due letture del grafico",
+      "kind": "charts",
+      "figure": "3.225",
+      "intro": "I due grafici del manuale CGSE mostrano convenzioni cromatiche opposte. Le etichette italiane rendono esplicita la corrispondenza, conservando i bitmap originali e le loro proporzioni (figura 3.225).",
+      "after": "Il confronto documenta una funzione del prodotto nel 2021. Non misura le preferenze del pubblico. La legenda va letta prima di attribuire al rosso o al verde un valore positivo o negativo.",
+      "caption": "Figura 3.225 — CGSE Trader Terminal, manuale 2021, §5.1.4, PDF p. 13. Screenshot storici originali CGSE / Infocast Finance; lettere e traduzione didattica aggiunte.",
+      "sources": [{"label": "CGSE · Trader Terminal User Manual, §5.1.4 Up/Down Color Setting.", "url": "https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf"}]
+    },
+    {
+      "folio": 400,
+      "title": "Le parole organizzano anche il colore",
+      "kind": "language",
+      "figure": "3.226",
+      "intro": "Le lingue non suddividono sempre lo spettro nello stesso modo. Nell’area dei blu, il russo distingue goluboy e siniy: il primo rimanda ai blu più chiari, il secondo ai blu più scuri (figura 3.226).",
+      "after": "Winawer e colleghi (2007) hanno confrontato parlanti russi e inglesi in un compito rapido di discriminazione. I parlanti russi erano più veloci quando i colori appartenevano alle due categorie diverse; il vantaggio scompariva durante un’interferenza verbale, ma non durante quella spaziale.\n\nIl risultato riguarda quel compito sperimentale. Nel progetto di un’interfaccia suggerisce di verificare anche i nomi dei campioni e delle categorie nella lingua del pubblico, senza ricavare una palette nazionale dallo studio.",
+      "caption": "Figura 3.226 — Campioni illustrativi per goluboy e siniy. Schema didattico CVeDI, 2026; non riproduce gli stimoli né il confine sperimentale di Winawer et al. (2007).",
+      "sources": [{"label": "Winawer et al. (2007), Russian blues reveal effects of language on color discrimination.", "url": "https://doi.org/10.1073/pnas.0701644104"}]
+    },
+    {
+      "folio": 401,
+      "title": "Un fiore, un rito, un riferimento culturale",
+      "kind": "text",
+      "paragraphs": [
+        "Un colore acquista significato anche attraverso gli oggetti, le pratiche e le occasioni in cui compare. Il cempasúchil, un fiore giallo o arancione, partecipa alle ofrendas del Día de los Muertos in Messico.",
+        "L’oggetto. Non si osserva soltanto una tinta astratta: la forma del fiore, i petali e il profumo rendono riconoscibile un oggetto legato alla ricorrenza.",
+        "L’occasione. Nelle pratiche ricordate dalle fonti culturali messicane, i fiori accompagnano il ricordo dei defunti e l’accoglienza delle anime. Il significato appartiene al rito e alle tradizioni delle comunità che lo praticano.",
+        "Il riferimento progettuale. Nella pagina seguente, Google riprende fiori e figure della tradizione in un Doodle per la ricorrenza. La scelta cromatica opera insieme ai soggetti rappresentati e alla data della pubblicazione.",
+        "Descrivere il contesto. «Arancione» da solo non riassume una cultura o un’emozione. Per spiegare una scelta, precisa quale oggetto, occasione e messaggio la rendono comprensibile al pubblico."
+      ],
+      "sources": [
+        {"label": "INAH · Cempasúchil y mariposas: símbolos del regreso de las almas.", "url": "https://www.inah.gob.mx/foto-del-dia/cempasuchil-y-mariposas-simbolos-del-regreso-de-las-almas"},
+        {"label": "Google Doodles · Day of the Dead 2024, contesto e intervista all’artista.", "url": "https://doodles.google/doodle/day-of-the-dead-2024/"}
+      ]
+    },
+    {
+      "folio": 402,
+      "title": "Il riferimento culturale entra nell’interfaccia",
+      "kind": "doodle",
+      "figure": "3.227",
+      "intro": "Il 1 novembre 2024 Google ha pubblicato un Doodle di Lucia Sarabia dedicato al Día de los Muertos. Fiori di cempasúchil e cani della tradizione compongono il marchio per l’occasione (figura 3.227).",
+      "after": "Il riferimento culturale emerge dalla relazione fra colore, soggetti e ricorrenza. L’archivio ufficiale documenta le scelte dell’artista e il loro contesto.\n\nL’esempio mostra un’applicazione reale nella comunicazione di un’interfaccia. Per trasferire un riferimento nel proprio progetto, verifica che le persone riconoscano l’occasione e comprendano il messaggio previsto.",
+      "caption": "Figura 3.227 — Day of the Dead 2024, Google Doodles, 1 novembre 2024. Illustrazione di Lucia Sarabia; originale dell’archivio ufficiale acquisito il 16 ottobre 2026. © Google / Lucia Sarabia.",
+      "sources": [{"label": "Google Doodles · Day of the Dead 2024, opera e intervista a Lucia Sarabia.", "url": "https://doodles.google/doodle/day-of-the-dead-2024/"}]
+    },
+    {
+      "folio": 403,
+      "title": "Associazioni, preferenze e uso",
+      "kind": "text",
+      "paragraphs": [
+        "Associare, preferire e usare un colore sono domande diverse. Un’associazione culturale può suggerire un’ipotesi; non basta per stabilire quale palette piaccia o quale interfaccia funzioni meglio.",
+        "Associare. Quale oggetto, idea o occasione richiama questo colore? Parti da domande aperte: dove lo incontri, che cosa ti fa pensare, quale messaggio ti aspetti?",
+        "Preferire. Quanto piace a questa persona, in questa situazione? Taylor e colleghi (2013) hanno osservato preferenze differenti fra i gruppi britannico e himba studiati. Davis e colleghi (2021) hanno confrontato bambini di quattro contesti culturali: il rapporto fra genere e preferenza per il rosa variava fra i campioni. Questi risultati non forniscono una regola universale per scegliere una palette.",
+        "Usare. Il colore aiuta a trovare un comando e a capire uno stato? Osserva lo svolgimento dello stesso compito con il pubblico previsto: comprensione, errori e riconoscimento delle azioni richiedono prove sull’interfaccia.",
+        "Verificare. Distingui messaggio, gusto e prestazione. Mantieni testo, simboli o forme per comunicare stati ed errori anche quando la sola differenza cromatica non viene riconosciuta."
+      ],
+      "sources": [
+        {"label": "Taylor et al. (2013) · Color preferences are not universal.", "url": "https://doi.org/10.1037/a0030273"},
+        {"label": "Davis et al. (2021) · Cultural Components of Sex Differences in Color Preference.", "url": "https://doi.org/10.1111/cdev.13528"},
+        {"label": "Clarke e Costall (2008) · The emotional connotations of color.", "url": "https://doi.org/10.1002/col.20435"}
+      ]
+    }
+  ]
+}

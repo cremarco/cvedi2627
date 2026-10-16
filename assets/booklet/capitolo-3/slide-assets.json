@@ -12281,7 +12281,12 @@
         "kind": "official-document-extract",
         "retrievedOn": "2026-10-16",
         "sourceCatalog": "assets/booklet/colore-cultura/slide-integrazioni/fonti.json"
-      }
+      },
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "4110:1572",
+      "page": 399,
+      "figureId": "4110:1631",
+      "currentVisualId": "I4110:1631;3165:593;4110:1656"
     },
     {
       "id": "l07-cultura-lingua-blu",
@@ -12312,7 +12317,12 @@
         "kind": "original-teaching-diagram",
         "retrievedOn": "2026-10-16",
         "sourceCatalog": "assets/booklet/colore-cultura/slide-integrazioni/fonti.json"
-      }
+      },
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "4110:1674",
+      "page": 400,
+      "figureId": "4110:1733",
+      "currentVisualId": "I4110:1733;3165:593;4110:1758"
     },
     {
       "id": "l07-cultura-google-muertos",
@@ -12342,7 +12352,12 @@
         "kind": "official-artwork",
         "retrievedOn": "2026-10-16",
         "sourceCatalog": "assets/booklet/colore-cultura/slide-integrazioni/fonti.json"
-      }
+      },
+      "currentSource": "assets/booklet/colore-cultura/figma-source.json",
+      "pageId": "4110:1839",
+      "page": 402,
+      "figureId": "4110:1898",
+      "currentVisualId": "I4110:1898;3165:593;4110:1923"
     },
     {
       "id": "l07-schemi-proprieta-hsv",
@@ -12499,10 +12514,7 @@
         "sourcePreserved": true
       },
       "sha256": "1498cc3b9addf38cace90aadd21221974206141060f6f484aaee1b45b4a76791",
-      "retainedSources": [
-        "assets/booklet/colore-schemi-slide/native/ruota-hsv.svg",
-        "assets/booklet/colore-schemi-slide/native/ruota-ryb.svg"
-      ],
+      "retainedSources": [],
       "bookletCaption": "Figura 3.198 — Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento.",
       "caption": "Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento.",
       "sourceLinks": [

@@ -1,0 +1,2291 @@
+{
+  "date": "2026-10-15",
+  "rules": [
+    {
+      "key": "vicinanza",
+      "name_it": "Vicinanza",
+      "name_en": "proximity",
+      "title": "Vicinanza\n(proximity)",
+      "summary": "A parità di altre condizioni, elementi vicini fra loro tendono a essere percepiti come appartenenti allo stesso gruppo visivo.",
+      "description": "La vicinanza è un fattore di organizzazione percettiva: quando osserviamo più elementi, tendiamo a raccogliere nello stesso insieme quelli separati da intervalli minori. Il raggruppamento può emergere senza cornici, collegamenti o cambiamenti di colore. Una serie di punti identici, per esempio, può apparire suddivisa in righe, colonne o coppie soltanto modificando le distanze che separano i punti.\n\nConta il rapporto fra le distanze, non una misura valida in ogni situazione. Per rendere distinguibili alcuni gruppi, lo spazio interno a ciascun gruppo dovrebbe essere inferiore a quello che lo separa dai gruppi vicini. Se tutti gli intervalli diventano simili, la suddivisione perde evidenza; se un elemento si avvicina a un altro insieme, può cambiare l’appartenenza che gli attribuiamo.\n\nLa vicinanza non determina da sola ogni lettura. Colore, forma, allineamento e contenitori possono sostenere lo stesso raggruppamento oppure suggerirne uno diverso. Per comprendere un esempio, osserva quali elementi sembrano appartenersi e quali distanze producono questa impressione. Confronta poi configurazioni in cui cambiano soltanto gli intervalli: mantenere costanti dimensione, numero e aspetto degli elementi permette di riconoscere meglio il contributo della vicinanza (figure 3.75–3.83).",
+      "web": "La vicinanza aiuta a capire quali elementi sono collegati. Nel web, un titolo va accostato ai contenuti che introduce, mentre uno spazio più ampio distingue gruppi diversi.\n\nNel dettaglio di Netflix, «La mia lista» è vicina alla propria riga di locandine; l’intervallo prima di «I più cercati» separa le due categorie. Anche allineamento e formato ripetuto contribuiscono alla lettura.",
+      "schema_caption": "Figura 3.75 — Gli stessi punti, con uguale numero, dimensione e colore, appaiono distribuiti uniformemente oppure raccolti in coppie: cambiano soltanto gli intervalli.",
+      "editorial_notes": [
+        "Isolare la distanza come unica variabile; non usare contemporaneamente regioni/colori nel confronto astratto."
+      ],
+      "word_counts": {
+        "summary": 19,
+        "description": 179,
+        "web": 59,
+        "schema_caption": 22,
+        "web_screenshot_caption": 14
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.76 — Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "somiglianza",
+      "name_it": "Somiglianza",
+      "name_en": "similarity",
+      "title": "Somiglianza\n(similarity)",
+      "summary": "Elementi simili per forma, colore, dimensione o orientamento tendono a essere percepiti come parti di un insieme, anche se distanti.",
+      "description": "La somiglianza favorisce il raggruppamento di elementi che condividono una caratteristica visiva. Possiamo riconoscere una serie di cerchi fra quadrati, oppure seguire i punti dello stesso colore all’interno di una griglia regolare. Gli elementi non devono essere identici in ogni aspetto: è sufficiente che una proprietà comune risulti abbastanza evidente da suggerire una relazione fra loro.\n\nIl raggruppamento può attraversare la distanza. Punti con lo stesso aspetto possono apparire collegati anche quando fra loro si trovano elementi differenti. La lettura dipende però dalla configurazione complessiva: contrasto, dimensione, densità e posizione modificano la forza del segnale. Non esiste una graduatoria universale che renda sempre il colore più efficace della forma, o la forma più efficace della dimensione.\n\nPer osservare il principio, confronta griglie con posizioni e intervalli identici, modificando una sola proprietà. Se il colore varia per colonna, potresti leggere colonne; se varia per riga, potresti leggere righe. Quando somiglianza e vicinanza indicano insiemi differenti, la configurazione può diventare ambigua. Nel descrivere una composizione, distingui quindi la proprietà condivisa dall’interpretazione del suo significato: assomigliarsi suggerisce una relazione, ma non spiega ancora quale relazione sia (figure 3.84–3.94).",
+      "web": "Nel web, elementi che condividono una funzione possono presentare caratteristiche coerenti. Forma, tipografia e struttura ricorrente aiutano a riconoscere contenuti dello stesso tipo e a confrontarli, anche quando le informazioni sono differenti.\n\nNella schermata di AppFlowy, le attività condividono il formato della scheda. La somiglianza segnala la loro appartenenza allo stesso sistema; colonne ed etichette aggiungono altri raggruppamenti. La coerenza va mantenuta senza appiattire le differenze: ruoli e stati distinti richiedono segnali comprensibili, che non dipendano soltanto dal colore.",
+      "schema_caption": "Figura 3.84 — Nella stessa griglia, posizioni e distanze restano costanti. Alternare il colore per colonne o per righe fa emergere raggruppamenti differenti.",
+      "editorial_notes": [
+        "Non dire che tutti gli elementi simili svolgono necessariamente la stessa funzione: questa è una scelta progettuale."
+      ],
+      "word_counts": {
+        "summary": 20,
+        "description": 183,
+        "web": 79,
+        "schema_caption": 23,
+        "web_screenshot_caption": 14
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.89 — AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "destino-comune",
+      "name_it": "Destino comune",
+      "name_en": "common fate",
+      "title": "Destino comune\n(common fate)",
+      "summary": "Elementi che si muovono o cambiano in modo concorde tendono a essere percepiti come appartenenti allo stesso gruppo nel tempo.",
+      "description": "Il destino comune riguarda il comportamento degli elementi nel tempo. Se alcuni punti si spostano insieme mentre altri restano fermi, quelli in movimento tendono a essere percepiti come un gruppo. Anche elementi inizialmente mescolati possono apparire collegati quando condividono una trasformazione. La relazione emerge dal confronto fra stati successivi, non soltanto dalla loro disposizione in un’immagine statica.\n\nDirezione, velocità e contemporaneità contribuiscono a rendere concorde il cambiamento. Un movimento solidale può conservare le distanze interne del gruppo mentre ne modifica la posizione rispetto agli elementi circostanti. Somiglianza e vicinanza possono rafforzare la relazione, ma non sostituiscono l’osservazione temporale. Un insieme di frecce parallele rappresenta una direzione possibile; non mostra, da solo, che gli elementi si stiano effettivamente muovendo insieme.\n\nIn una pagina stampata il fenomeno può essere documentato attraverso una sequenza di fotogrammi, con ordine di lettura e intervalli temporali dichiarati. Per confrontare gli stati occorre poter riconoscere gli stessi elementi in ogni fotogramma. Fotografie di stormi o persone in cammino possono suggerire un’azione comune, ma registrano soltanto un istante: sono indizi visivi da distinguere da una dimostrazione del movimento condiviso (figure 3.95–3.104).",
+      "web": "Nel web, il movimento condiviso può rendere riconoscibile una relazione durante una transizione. Un pannello e le sue voci possono aprirsi insieme; in un carousel, immagine, titolo e didascalia possono spostarsi mantenendo le proprie posizioni reciproche.\n\nI tre screenshot mostrano stati reali del carousel Bootstrap. La documentazione descrive la transizione animata fra le slide; le immagini statiche ne documentano gli stati, ma non dimostrano direzione, velocità o simultaneità del movimento. Per osservare il destino comune occorre riprodurre la transizione. I contenuti devono restare comprensibili anche con le animazioni ridotte.",
+      "schema_caption": "Figura 3.95 — Tre istanti della stessa configurazione: alcuni punti si spostano insieme, conservando le distanze interne; gli altri restano fermi. La sequenza rende osservabile il cambiamento concorde.",
+      "editorial_notes": [
+        "Schema a punti obbligatoriamente temporale, con t0/t1/t2 e medesimi elementi tracciabili.",
+        "Loghi statici non dimostrano destino comune: logo animato reale con fotogrammi oppure spiegare limite del logo statico."
+      ],
+      "word_counts": {
+        "summary": 20,
+        "description": 181,
+        "web": 89,
+        "schema_caption": 25,
+        "web_screenshot_caption": 21
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.96 — Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "continuita",
+      "name_it": "Buona continuazione",
+      "name_en": "good continuation",
+      "title": "Buona continuazione\n(good continuation)",
+      "summary": "Contorni allineati o che proseguono senza bruschi cambi di direzione tendono a essere percepiti come parti dello stesso percorso visivo.",
+      "description": "La buona continuazione descrive la tendenza a organizzare contorni e allineamenti secondo percorsi regolari. Quando due linee si incrociano, tendiamo a seguire ciascuna lungo la direzione che richiede il cambiamento più graduale. La stessa configurazione può essere letta come due percorsi continui, invece che come frammenti che si incontrano e cambiano bruscamente direzione nel punto di intersezione.\n\nIl principio non richiede che ogni tratto sia materialmente collegato. Una successione di punti può suggerire un andamento lineare o curvo se la loro disposizione mantiene una direzione riconoscibile. Interruzioni moderate non eliminano necessariamente il percorso percepito. Spostare alcuni punti o introdurre una svolta improvvisa può invece modificare la lettura, soprattutto quando diventa disponibile un altro andamento più regolare e plausibile.\n\nLa buona continuazione va distinta dalla semplice connessione: una linea che collega due oggetti può raggrupparli anche senza costruire un percorso regolare. Va inoltre distinta dall’affermazione che gli occhi seguano sempre una traiettoria prestabilita. Nel progetto grafico, allineamenti e sequenze possono suggerire un ordine di lettura; il percorso effettivo dipende anche dal compito, dall’attenzione e dagli altri segnali presenti nella composizione (figure 3.105–3.112).",
+      "web": "Nel web, allineamenti e percorsi regolari possono suggerire la prosecuzione di una serie e sostenere l’ordine delle informazioni. Un tracciato curvo può attraversare più aree mantenendo una direzione riconoscibile, anche quando testi e immagini cambiano posizione.\n\nNel progetto Api&Bio, il percorso puntinato prosegue fra le illustrazioni. La continuità del tratto mette in relazione parti distanti della composizione. Lo screenshot documenta una soluzione storica del progetto, non il suo funzionamento attuale. Il percorso visivo suggerito non dimostra da solo l’ordine effettivo di lettura degli utenti.",
+      "schema_caption": "Figura 3.105 — Due percorsi di punti si incrociano. La direzione regolare favorisce la lettura di due andamenti continui, invece di frammenti che cambiano bruscamente direzione.",
+      "editorial_notes": [
+        "Il termine inglese canonico è good continuation; continuity può rimanere se coerenza editoriale richiede mantenere traduzione precedente.",
+        "Non attribuire una griglia di prodotti solamente a questa legge; somiglianza/vicinanza spesso predominano."
+      ],
+      "word_counts": {
+        "summary": 20,
+        "description": 179,
+        "web": 84,
+        "schema_caption": 23,
+        "web_screenshot_caption": 19
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.106 — Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nelle pagine successive.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "chiusura",
+      "name_it": "Chiusura",
+      "name_en": "closure",
+      "title": "Chiusura\n(closure)",
+      "summary": "Elementi disposti lungo un contorno chiuso o quasi chiuso tendono a essere organizzati come una figura unitaria, anche con interruzioni.",
+      "description": "La chiusura favorisce l’organizzazione di elementi che delimitano un’area o suggeriscono un contorno quasi completo. Archi separati, per esempio, possono apparire come parti di un cerchio anziché come frammenti indipendenti. La relazione dipende dalla disposizione dei tratti: spostarli o ruotarli può indebolire la figura d’insieme, anche quando numero, dimensione e forma dei singoli elementi restano invariati.\n\nPercepire una figura unitaria non significa necessariamente vedere tutti i bordi mancanti. Nella configurazione di Kanizsa, alcuni elementi induttori possono far apparire un triangolo con margini non disegnati: si parla di contorni illusori e di completamento modale. Se invece una superficie copre parte di un oggetto e lo percepiamo come continuo dietro l’ostacolo, il completamento è amodale: la parte nascosta non appare direttamente visibile.\n\nQuesti fenomeni sono collegati all’organizzazione delle forme, ma non sono sinonimi. Per spiegare un esempio, chiediti se i frammenti delimitano un insieme, se compaiono margini illusori o se una parte viene interpretata come nascosta. Nel caso dei punti disposti in cerchio, lo schema mostra un contorno suggerito dalla disposizione. Il risultato non autorizza ad attribuire alla chiusura ogni immagine incompleta o ogni oggetto facilmente riconoscibile (figure 3.113–3.121).",
+      "web": "Nel web, icone e indicatori possono restare riconoscibili anche quando il contorno è interrotto. La disposizione dei tratti suggerisce una forma complessiva: un arco sufficientemente esteso può richiamare un anello.\n\nLo screenshot reale della documentazione Bootstrap mostra uno spinner dal contorno aperto. Il completamento percettivo sostiene il riconoscimento della forma circolare; la funzione di caricamento dipende anche dalla convenzione appresa e dall’animazione descritta nella fonte. Lo screenshot documenta la forma, mentre la rotazione va osservata nell’esempio funzionante. Forma e messaggio accessibile devono comunicare insieme lo stato dell’interfaccia.",
+      "schema_caption": "Figura 3.113 — Punti separati suggeriscono un cerchio e un quadrato. Le interruzioni lasciano riconoscibile il contorno complessivo, pur senza disegnarlo interamente.",
+      "editorial_notes": [
+        "Separare Kanizsa/completamento modale e completamento amodale dalla dimostrazione base.",
+        "Il loader statico mostra forma aperta riconoscibile ma funzione di caricamento è appresa."
+      ],
+      "word_counts": {
+        "summary": 20,
+        "description": 185,
+        "web": 87,
+        "schema_caption": 23,
+        "web_screenshot_caption": 19
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.114 — Bootstrap, dettaglio reale dello spinner: l’arco aperto suggerisce un anello. Nelle pagine successive, una vista completa della stessa documentazione.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "simmetria",
+      "name_it": "Simmetria",
+      "name_en": "symmetry",
+      "title": "Simmetria\n(symmetry)",
+      "summary": "Elementi disposti in modo speculare rispetto a un asse tendono a essere percepiti come parti correlate di una stessa configurazione visiva.",
+      "description": "La simmetria è una relazione geometrica fra parti della configurazione. Nella simmetria bilaterale, i punti di una metà trovano corrispondenza nell’altra rispetto a un asse. Questa regolarità può favorire il riconoscimento di un insieme: due contorni speculari possono apparire come i lati di una stessa figura, anche quando fra loro rimane uno spazio privo di segni.\n\nIl contributo della simmetria dipende dalla disposizione complessiva e dagli altri fattori di organizzazione. Nel confronto a punti, è utile mantenere numero, dimensione e densità simili, modificando soltanto le corrispondenze rispetto all’asse. Un piccolo spostamento può rendere visibile la perdita di regolarità; il risultato non implica che ogni composizione asimmetrica sia difficile da comprendere o che ogni insieme simmetrico venga riconosciuto immediatamente.\n\nSimmetria ed equilibrio visivo non coincidono. Due aree possono bilanciarsi per dimensione, contrasto o posizione senza essere speculari. Anche un layout centrato non è necessariamente simmetrico nei suoi contenuti. Nella tradizione della Gestalt, la simmetria è considerata un fattore di organizzazione e di buona forma; nelle applicazioni progettuali occorre precisare quale corrispondenza geometrica è effettivamente presente, evitando di chiamare simmetrica qualsiasi composizione ordinata (figure 3.122–3.131).",
+      "web": "Nel web, posizioni corrispondenti ai due lati di un asse possono suggerire una composizione unitaria. Un elemento centrale e due gruppi laterali possono mettere in relazione contenuti differenti senza renderli identici.\n\nNella pagina iniziale di Wikipedia, il globo occupa il centro e i collegamenti alle lingue si distribuiscono ai suoi lati. La corrispondenza riguarda soprattutto le posizioni: testi e lunghezze sono diversi, quindi la simmetria non è perfetta. Quando il layout cambia, va verificato come si trasformano l’asse e le relazioni fra gli elementi, senza sacrificare lettura e gerarchia.",
+      "schema_caption": "Figura 3.122 — Le coppie di punti corrispondono rispetto all’asse verticale. Nel confronto, gli stessi elementi perdono la disposizione speculare: simmetria e numero degli elementi sono variabili distinte.",
+      "editorial_notes": [
+        "Non identificare Wikipedia con simmetria perfetta: le lingue sono diverse; distribuzione bilanciata con corrispondenze di posizione.",
+        "Simmetria appartiene alla tradizione Gestalt ma non tutti i nove elementi sono le nove leggi originarie di Wertheimer."
+      ],
+      "word_counts": {
+        "summary": 21,
+        "description": 181,
+        "web": 89,
+        "schema_caption": 25,
+        "web_screenshot_caption": 23
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.123 — Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale. Si corrispondono le posizioni, mentre i testi sono differenti.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "figura-sfondo",
+      "name_it": "Figura e sfondo",
+      "name_en": "figure–ground",
+      "title": "Figura e sfondo\n(figure–ground)",
+      "summary": "Nell’organizzare una scena distinguiamo figure e sfondo: i contorni possono appartenere a una forma oppure rendere riconoscibile lo spazio che la circonda.",
+      "description": "L’organizzazione figura–sfondo riguarda il modo in cui attribuiamo forme e contorni alle parti della scena. Una regione può essere percepita come figura definita, mentre l’altra appare come sfondo che prosegue dietro di essa. Il margine condiviso tende ad appartenere alla figura: non è quindi soltanto una differenza di colore, ma una diversa organizzazione della superficie visiva.\n\nAlcune configurazioni permettono letture alternative. Nel vaso di Rubin, il contorno può definire un vaso centrale oppure due profili laterali. Cambiando ciò che viene percepito come figura, cambia anche il significato attribuito agli stessi margini. Le letture possono alternarsi; non occorre affermare che tutte le persone le vedano con uguale facilità o che possano mantenere entrambe stabili nello stesso momento.\n\nContrasto, dimensione relativa, contorni e contesto contribuiscono alla distinzione, ma nessun singolo segnale spiega ogni esempio. Lo spazio negativo di un marchio può diventare una forma riconoscibile quando il progetto ne definisce con precisione i margini. Per descrivere lo schema, indica quale area viene letta come figura e quale come sfondo; poi osserva se il rapporto può invertirsi. Evita di identificare automaticamente lo sfondo con il bianco e la figura con il colore più scuro (figure 3.132–3.140).",
+      "web": "Nel web, contrasto, nitidezza e sovrapposizione possono distinguere il contenuto in primo piano dal contesto circostante. Una superficie che emerge davanti alla pagina suggerisce quale elemento richieda attenzione in quel momento.\n\nNello screenshot di MDN Web Docs, il campo di ricerca rimane nitido mentre la pagina sottostante è oscurata e sfocata. Questa separazione visiva distingue figura e sfondo. La schermata non documenta da sola un comportamento modale: gestione del focus, tastiera e interazione con i contenuti sottostanti richiedono una verifica funzionale.",
+      "schema_caption": "Figura 3.132 — Lo stesso contorno separa un vaso centrale da due profili laterali. Invertire i colori aiuta a esplorare le possibili letture di figura e sfondo.",
+      "editorial_notes": [
+        "Lo schema solo punti può perdere il rapporto di appartenenza dei bordi: usare campo di punti che definisce area/contorno con due letture, oppure punto+campo come supporto esplicito.",
+        "Non classificare ogni logo a spazio negativo come contorno illusorio."
+      ],
+      "word_counts": {
+        "summary": 22,
+        "description": 191,
+        "web": 81,
+        "schema_caption": 20,
+        "web_screenshot_caption": 17
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.133 — MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "esperienza-passata",
+      "name_it": "Esperienza passata",
+      "name_en": "past experience",
+      "title": "Esperienza passata\n(past experience)",
+      "summary": "Conoscenze e associazioni apprese contribuiscono a riconoscere forme e significati familiari, influenzando il modo in cui interpretiamo una configurazione visiva.",
+      "description": "L’esperienza passata contribuisce all’interpretazione di ciò che vediamo. Una disposizione di tratti può richiamare una lettera, un simbolo o un oggetto già conosciuto. Il riconoscimento dipende sia dalle caratteristiche presenti nell’immagine sia dalle conoscenze dell’osservatore. Una forma familiare per una persona può risultare poco significativa per chi non condivide lo stesso alfabeto, la stessa convenzione o lo stesso contesto culturale.\n\nNello schema, un insieme di punti suggerisce una lettera incompleta. La disposizione sostiene il riconoscimento, mentre la conoscenza dell’alfabeto permette di attribuirle un nome. Ruotare la configurazione o modificare alcuni allineamenti può rendere la lettura meno immediata. Il confronto mostra una possibile influenza della familiarità; non dimostra che il riconoscimento derivi esclusivamente dall’esperienza, perché continuazione, chiusura e altre relazioni visive rimangono presenti.\n\nÈ utile distinguere questo contributo appreso dai fattori di raggruppamento formulati attraverso distanze, somiglianze e movimento. L’esperienza non va trattata come una regola che garantisce la stessa risposta in ogni pubblico. Per descrivere un esempio, esplicita quale conoscenza viene richiamata e quale interpretazione rende possibile. Un marchio noto, una convenzione d’interfaccia e una forma naturale familiare attivano conoscenze differenti, anche quando il riconoscimento sembra immediato (figure 3.141–3.151).",
+      "web": "Nel web, molte interpretazioni dipendono da convenzioni apprese: una lente può richiamare la ricerca, una sottolineatura un collegamento, il rosso una condizione di errore. La familiarità aiuta chi conosce già quel segno e lo ritrova in un contesto coerente.\n\nNell’esempio reale del GOV.UK Design System, il rosso compare nel messaggio e nei bordi dei campi. Il testo esplicita il problema, così la segnalazione non dipende soltanto dal colore o dall’esperienza precedente. Le convenzioni vanno verificate con il pubblico previsto: la diffusione di un segno non garantisce una comprensione universale.",
+      "schema_caption": "Figura 3.141 — I punti suggeriscono una lettera incompleta. La stessa configurazione ruotata può essere meno familiare: disposizione dei tratti e conoscenza dell’alfabeto concorrono al riconoscimento.",
+      "editorial_notes": [
+        "Non presentare come legge originaria equivalente ai fattori di raggruppamento.",
+        "Logo reale noto: spiegare ruolo specifico della familiarità e fattori grafici concomitanti."
+      ],
+      "word_counts": {
+        "summary": 20,
+        "description": 187,
+        "web": 89,
+        "schema_caption": 23,
+        "web_screenshot_caption": 20
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.142 — GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.",
+      "web_figure_type": "real-website-screenshot"
+    },
+    {
+      "key": "regione-comune",
+      "name_it": "Regione comune",
+      "name_en": "common region",
+      "title": "Regione comune\n(common region)",
+      "summary": "Elementi collocati dentro la stessa area delimitata tendono a essere percepiti come un gruppo, anche quando altri elementi sono più vicini.",
+      "description": "Una regione comune è un’area che comprende più elementi e li distingue da ciò che si trova all’esterno. Il confine può essere suggerito da un contorno o da una superficie visivamente distinta. Quando alcuni punti condividono la stessa regione, tendiamo a considerarli appartenenti a un insieme: il contenitore introduce una relazione ulteriore rispetto alla loro distanza o somiglianza.\n\nPer osservare il contributo della regione, confronta configurazioni con punti nelle medesime posizioni. Nel primo caso non compare alcun confine; nel secondo, un contorno raccoglie alcuni elementi. Il raggruppamento può cambiare pur mantenendo costanti gli intervalli. Se i confini attraversano gruppi suggeriti dalla vicinanza, i due segnali possono entrare in competizione. Il risultato va descritto in relazione alla configurazione concreta, senza attribuire sempre lo stesso peso a ciascun fattore.\n\nStephen E. Palmer propone la regione comune come principio di raggruppamento nel 1992, dopo le formulazioni classiche della Gestalt. È quindi un’aggiunta successiva alle leggi storiche. Qui interessa l’appartenenza di più elementi a una stessa area; nella chiusura interessa invece l’organizzazione di parti che suggeriscono il contorno di una figura (figure 3.152–3.164).",
+      "web": "Nel web, schede, pannelli e superfici di sfondo possono raccogliere informazioni correlate. Il confine di una regione suggerisce quali contenuti appartengano allo stesso insieme, anche quando al suo interno ci sono più elementi.\n\nNella pagina Pricing di Notion, Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente. Spaziatura e colonne distinguono le singole proposte dentro i gruppi più ampi. Il contenitore deve corrispondere a una relazione significativa: aggiungere un riquadro a ogni elemento può rendere meno evidenti i raggruppamenti principali.",
+      "schema_caption": "Figura 3.152 — Posizione e distanza dei punti restano identiche. Aggiungendo due contorni, gli elementi racchiusi nella stessa area formano gruppi riconoscibili.",
+      "editorial_notes": [
+        "Fattore studiato successivamente: Palmer1992, non presentarlo come legge originaria del1923.",
+        "Per logo usare marchio reale racchiuso in area comune; il bordo deve raccogliere elementi distinti, non essere soltanto forma singola."
+      ],
+      "word_counts": {
+        "summary": 21,
+        "description": 177,
+        "web": 87,
+        "schema_caption": 19,
+        "web_screenshot_caption": 17
+      },
+      "paragraph_counts": {
+        "description": 3,
+        "web": 2
+      },
+      "web_screenshot_caption": "Figura 3.153 — Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente.",
+      "web_figure_type": "real-website-screenshot",
+      "historical_note": "Aggiunta successiva alle formulazioni classiche della Gestalt.",
+      "historical_year": 1992,
+      "opening_note": "Principio proposto da Stephen E. Palmer nel 1992, successivo alle formulazioni classiche della Gestalt."
+    }
+  ],
+  "theorySources": [
+    {
+      "key": "vicinanza",
+      "id": "I3973:1939;3164:57;3973:1943",
+      "text": "M. Wertheimer, Untersuchungen zur Lehre von der Gestalt. II, Psychologische Forschung 4 (1923), 301–350.",
+      "url": "https://doi.org/10.1007/BF00410640",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3973:1939",
+      "sourceGroupId": "3973:1937",
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "somiglianza",
+      "id": "I3975:2189;3164:57;3975:2193",
+      "text": "M. Wertheimer, Untersuchungen zur Lehre von der Gestalt. II, Psychologische Forschung 4 (1923), 301–350.",
+      "url": "https://doi.org/10.1007/BF00410640",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 60,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:2189",
+      "sourceGroupId": "3975:2187",
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "destino-comune",
+      "id": "I3975:2389;3164:57;3975:2393",
+      "text": "M. Wertheimer, Untersuchungen zur Lehre von der Gestalt. II, Psychologische Forschung 4 (1923), 301–350.",
+      "url": "https://doi.org/10.1007/BF00410640",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:2389",
+      "sourceGroupId": "3975:2387",
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "continuita",
+      "id": "I3975:2581;3164:57;3975:2585",
+      "text": "M. Wertheimer, Untersuchungen zur Lehre von der Gestalt. II, Psychologische Forschung 4 (1923), 301–350.",
+      "url": "https://doi.org/10.1007/BF00410640",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:2581",
+      "sourceGroupId": "3975:2579",
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "chiusura",
+      "id": "I3975:2775;3164:57;3975:2779",
+      "text": "M. Wertheimer, Untersuchungen zur Lehre von der Gestalt. II, Psychologische Forschung 4 (1923), 301–350.",
+      "url": "https://doi.org/10.1007/BF00410640",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:2775",
+      "sourceGroupId": "3975:2773",
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "simmetria",
+      "id": "I3975:2977;3164:57;3975:2981",
+      "text": "M. Wertheimer, Untersuchungen zur Lehre von der Gestalt. II, Psychologische Forschung 4 (1923), 301–350.",
+      "url": "https://doi.org/10.1007/BF00410640",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 60,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:2977",
+      "sourceGroupId": "3975:2975",
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "regione-comune",
+      "id": "I3975:3581;3164:57;3975:3585",
+      "text": "S. E. Palmer, Common region: A new principle of perceptual grouping, Cognitive Psychology 24 (1992), 436–447.",
+      "url": "https://doi.org/10.1016/0010-0285(92)90014-S",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 60,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:3581",
+      "sourceGroupId": "3975:3579",
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "figura-sfondo",
+      "id": "I3975:3177;3164:57;3975:3181",
+      "text": "E. Rubin, Synsoplevede Figurer: Studier i psykologisk Analyse, Gyldendalske Forlag, 1915.",
+      "url": "https://www.kb.dk/e-mat/dod/111408024790-bw.pdf",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:3177",
+      "sourceGroupId": "3975:3175",
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "key": "esperienza-passata",
+      "id": "I3975:3371;3164:57;3975:3375",
+      "text": "M. Wertheimer, Untersuchungen zur Lehre von der Gestalt. II, Psychologische Forschung 4 (1923), 301–350.",
+      "url": "https://doi.org/10.1007/BF00410640",
+      "height": 10,
+      "bottom": 610,
+      "bounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceInstanceId": "3975:3371",
+      "sourceGroupId": "3975:3369",
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    }
+  ],
+  "lawList": {
+    "title": "Le nove leggi",
+    "pageId": "3894:2081",
+    "items": [
+      {
+        "it": "Vicinanza",
+        "en": "proximity",
+        "key": "vicinanza",
+        "page": 236,
+        "targetId": "3721:1964"
+      },
+      {
+        "it": "Somiglianza",
+        "en": "similarity",
+        "key": "somiglianza",
+        "page": 245,
+        "targetId": "3721:2140"
+      },
+      {
+        "it": "Destino comune",
+        "en": "common fate",
+        "key": "destino-comune",
+        "page": 254,
+        "targetId": "3721:2282"
+      },
+      {
+        "it": "Buona continuazione",
+        "en": "good continuation",
+        "key": "continuita",
+        "page": 262,
+        "targetId": "3721:2432"
+      },
+      {
+        "it": "Chiusura",
+        "en": "closure",
+        "key": "chiusura",
+        "page": 270,
+        "targetId": "3721:2461"
+      },
+      {
+        "it": "Simmetria",
+        "en": "symmetry",
+        "key": "simmetria",
+        "page": 279,
+        "targetId": "3721:2472"
+      },
+      {
+        "it": "Figura e sfondo",
+        "en": "figure–ground",
+        "key": "figura-sfondo",
+        "page": 288,
+        "targetId": "3721:2523"
+      },
+      {
+        "it": "Esperienza passata",
+        "en": "past experience",
+        "key": "esperienza-passata",
+        "page": 296,
+        "targetId": "3721:2536"
+      },
+      {
+        "it": "Regione comune",
+        "en": "common region",
+        "key": "regione-comune",
+        "page": 305,
+        "targetId": "3721:2488",
+        "referenceMarker": "¹"
+      }
+    ],
+    "historicalNote": {
+      "principle": "Regione comune (common region)",
+      "author": "Stephen E. Palmer",
+      "year": 1992,
+      "explanation": "Aggiunta successiva alle formulazioni classiche della Gestalt.",
+      "pageIds": [
+        "3894:2081",
+        "3721:2488",
+        "3861:21503"
+      ],
+      "noteNodeIds": [
+        "I3975:3565;3030:536;3975:3569",
+        "I3977:2284;3189:4586;3977:2295;3164:57;3977:2296"
+      ],
+      "doi": "10.1016/0010-0285(92)90014-S",
+      "numberedNoteId": "3977:2284",
+      "indexNoteTextId": "I3977:2284;3189:4586;3977:2295;3164:57;3977:2296",
+      "indexNoteText": "Regione comune: proposta da S. E. Palmer nel 1992, dopo le formulazioni classiche della Gestalt.",
+      "referenceMarker": "¹"
+    },
+    "rows": [
+      {
+        "key": "vicinanza",
+        "rowId": "3936:1120",
+        "labelId": "3894:2113",
+        "folioId": "3936:1121",
+        "number": 236,
+        "targetId": "3721:1964",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "somiglianza",
+        "rowId": "3936:1122",
+        "labelId": "3894:2114",
+        "folioId": "3936:1123",
+        "number": 245,
+        "targetId": "3721:2140",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "destino-comune",
+        "rowId": "3936:1124",
+        "labelId": "3894:2115",
+        "folioId": "3936:1125",
+        "number": 254,
+        "targetId": "3721:2282",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "continuita",
+        "rowId": "3936:1126",
+        "labelId": "3894:2116",
+        "folioId": "3936:1127",
+        "number": 262,
+        "targetId": "3721:2432",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "chiusura",
+        "rowId": "3936:1128",
+        "labelId": "3894:2117",
+        "folioId": "3936:1129",
+        "number": 270,
+        "targetId": "3721:2461",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "simmetria",
+        "rowId": "3936:1130",
+        "labelId": "3894:2118",
+        "folioId": "3936:1131",
+        "number": 279,
+        "targetId": "3721:2472",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "figura-sfondo",
+        "rowId": "3936:1132",
+        "labelId": "3894:2120",
+        "folioId": "3936:1133",
+        "number": 288,
+        "targetId": "3721:2523",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "esperienza-passata",
+        "rowId": "3936:1134",
+        "labelId": "3894:2121",
+        "folioId": "3936:1135",
+        "number": 296,
+        "targetId": "3721:2536",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22
+      },
+      {
+        "key": "regione-comune",
+        "rowId": "3936:1136",
+        "labelId": "3894:2119",
+        "folioId": "3936:1137",
+        "number": 305,
+        "targetId": "3721:2488",
+        "w": 363,
+        "h": 22,
+        "labelHeight": 22,
+        "label": "Regione comune (common region)¹",
+        "referenceMarker": "¹"
+      }
+    ],
+    "proof": "reports/figma-gestalt-tipografia-ds/2026-10-16/pages/235.png"
+  },
+  "additionalExamples": [
+    {
+      "pageId": "3897:2088",
+      "key": "vicinanza",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.79 — Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano."
+      ],
+      "credit": "Campbell Mithun, attribuzione nel booklet a p. PDF 315 · Nature Valley Fruit Crisps · booklet 2024, p. PDF 316."
+    },
+    {
+      "pageId": "3897:2106",
+      "key": "vicinanza",
+      "kind": "web",
+      "captions": [
+        "Figura 3.82 — GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.",
+        "Figura 3.83 — Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo."
+      ],
+      "credit": "Issues · microsoft/vscode · GitHub · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.\nLaura Panzeri, approfondimento 2025–2026, p.16. Screenshot storico; diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2127",
+      "key": "somiglianza",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.88 — Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue."
+      ],
+      "credit": "Haribo, «Be Different» · autore non indicato nel materiale · booklet 2024, p. PDF 320."
+    },
+    {
+      "pageId": "3897:2148",
+      "key": "somiglianza",
+      "kind": "web",
+      "captions": [
+        "Figura 3.93 — Trello: le schede ripetono immagine, titolo e descrizione.",
+        "Figura 3.94 — Amazon: titoli, riquadri e immagini ripetono formati coerenti."
+      ],
+      "credit": "Templates | Trello · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.\nElena Sofia Fiorillo, approfondimento 2024–2025, p.5. Screenshot storico; diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2169",
+      "key": "destino-comune",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.99 — Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.",
+        "Figura 3.100 — Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme."
+      ],
+      "credit": "Turkish Airlines, campagna pubblicitaria · autore non indicato nel materiale · booklet 2024, p. PDF 325; slide 2025–2026, p.59."
+    },
+    {
+      "pageId": "3897:2187",
+      "key": "destino-comune",
+      "kind": "web",
+      "captions": [
+        "Figura 3.103 — Swiper: uno stato reale della traccia durante lo stesso trascinamento.",
+        "t0",
+        "t1",
+        "t2",
+        "Figura 3.104 — Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra gli screenshot; le distanze reciproche restano costanti."
+      ],
+      "credit": "Swiper demo · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2217",
+      "key": "continuita",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.109 — MINI: il cavo prosegue in curve regolari e richiama una strada."
+      ],
+      "credit": "MINI, «While others play playlist. The MINI is its own soundtrack.» · autore non indicato nel materiale · booklet 2024, p. PDF 327; slide 2025–2026, p.72."
+    },
+    {
+      "pageId": "3897:2235",
+      "key": "continuita",
+      "kind": "web",
+      "captions": [
+        "Figura 3.111 — USWDS: segmenti e tappe proseguono sullo stesso asse.",
+        "Figura 3.112 — Burger King: le promozioni proseguono lungo una stessa direzione."
+      ],
+      "credit": "Step indicator | U.S. Web Design System (USWDS) · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.\nElena Sofia Fiorillo, approfondimento 2024–2025, p.10. Screenshot storico; diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2256",
+      "key": "chiusura",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.117 — Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto."
+      ],
+      "credit": "Sea & Vines Food & Wine Festival, 2012 · booklet 2024, p. PDF 331; slide 2025–2026, p.62. Autore non indicato."
+    },
+    {
+      "pageId": "3919:2088",
+      "key": "chiusura",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.118 — Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare."
+      ],
+      "credit": "Elena Sofia Fiorillo, approfondimento 2024–2025, p.6 · Heinz, pubblicità. Cattura dal materiale del corso; autore non indicato; rispettivi diritti."
+    },
+    {
+      "pageId": "3897:2277",
+      "key": "chiusura",
+      "kind": "web",
+      "captions": [
+        "Figura 3.120 — Carbon: un arco incompleto suggerisce un anello.",
+        "Figura 3.121 — Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile."
+      ],
+      "credit": "Loading | Carbon Design System · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2295",
+      "key": "simmetria",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.126 — HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale."
+      ],
+      "credit": "HSBC · autore del marchio non indicato nella fonte didattica · booklet 2024, p.15."
+    },
+    {
+      "pageId": "3897:2313",
+      "key": "simmetria",
+      "kind": "web",
+      "captions": [
+        "Figura 3.131 — OBS: controlli uguali e centri equidistanti; i simboli sono differenti."
+      ],
+      "credit": "Download | OBS · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2331",
+      "key": "regione-comune",
+      "kind": "web",
+      "captions": [
+        "Figura 3.156 — Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.",
+        "Figura 3.157 — Dettaglio dello stesso screenshot: ogni pannello riunisce simbolo, nome e valore."
+      ],
+      "credit": "Kavin Kumar G, Car Insurance policies dashboard, Tableau Public (2022) · screenshot reale del 15 ottobre 2026; rispettivi diritti.¹\n¹ Visualizzazione pubblicata su Tableau Public"
+    },
+    {
+      "pageId": "3897:2349",
+      "key": "regione-comune",
+      "kind": "web",
+      "captions": [
+        "Figura 3.163 — Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.",
+        "Figura 3.164 — Pane&Trita: la superficie rossa raccoglie marchio e navigazione."
+      ],
+      "credit": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.\nLaura Panzeri, approfondimento 2025–2026, p.14. Screenshot storico; diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2370",
+      "key": "figura-sfondo",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.136 — Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero."
+      ],
+      "credit": "Richard Fonteneau, «Spartan Golf», concept, 2010 · Logopond, progetto 91660; riproduzione nel booklet 2024, p. PDF 339."
+    },
+    {
+      "pageId": "3897:2388",
+      "key": "figura-sfondo",
+      "kind": "web",
+      "captions": [
+        "Figura 3.139 — Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.",
+        "Figura 3.140 — Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro."
+      ],
+      "credit": "Installing Tailwind CSS with Vite - Tailwind CSS · screenshot del 15 ottobre 2026. Diritti dei rispettivi titolari.\nAsia Castano, approfondimento 2023–2024, p.15. Screenshot storico; diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3897:2409",
+      "key": "esperienza-passata",
+      "kind": "graphic",
+      "captions": [
+        "Figura 3.145 — Coca-Cola: colore e marchio richiamano associazioni apprese con la marca."
+      ],
+      "credit": "Coca-Cola, «Feel it» · autore non indicato nel materiale · booklet 2024, p. PDF 338."
+    },
+    {
+      "pageId": "3897:2430",
+      "key": "esperienza-passata",
+      "kind": "web",
+      "captions": [
+        "Figura 3.148 — IKEA: i simboli della testata richiamano convenzioni d’uso apprese.",
+        "Figura 3.149 — Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti."
+      ],
+      "credit": "IKEA Italia · screenshot reale del 15 ottobre 2026. Dettaglio ricavato dallo stesso screenshot; diritti dei rispettivi titolari."
+    },
+    {
+      "pageId": "3919:2092",
+      "key": "esperienza-passata",
+      "kind": "web",
+      "captions": [
+        "Figura 3.150 — Oxfam: le icone social richiamano servizi già conosciuti.",
+        "Figura 3.151 — Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube."
+      ],
+      "credit": "Gaia Galimberti, approfondimento 2024–2025, p.8, da Nielsen Norman Group · Oxfam, screenshot storico. Diritti dei rispettivi titolari."
+    }
+  ],
+  "relocatedHistoricalCase": {
+    "case": "pane-trita-menu",
+    "pageId": "3417:1199",
+    "bodyId": "3867:2094",
+    "figureId": "3948:21562",
+    "imageId": "I3948:21562;3165:593;3948:21576;3164:44;3948:21577",
+    "captionId": "I3948:21562;3165:600;3948:21580;3164:51;3948:21581",
+    "caption": "Figura 3.90 — Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.",
+    "captionInstanceId": "I3948:21562;3165:600;3948:21580",
+    "visualId": "I3948:21562;3165:593;3948:21576;3164:44;3948:21577",
+    "imageInstanceId": "I3948:21562;3165:593;3948:21576",
+    "bodyBounds": {
+      "x": 45.5,
+      "y": 109.18867492675781,
+      "w": 420,
+      "h": 405.6226501464844,
+      "bottom": 514.8113250732422
+    }
+  },
+  "layoutRevision": "assets/booklet/gestalt-layout-revisione/manifest.json",
+  "editorialTextRevisions": {
+    "source": "reports/figma-commenti/2026-10-15/commenti-finali/manifest.json",
+    "nodes": {
+      "3416:1482": "Möller, Brezing e Unz studiano l’accettazione e la raccomandazione di siti mostrati per tre secondi. I risultati permettono quindi di discutere come organizzazione visiva e presenza sociale si colleghino alle prime impressioni in quel contesto. Non forniscono invece una misura generale della prestazione delle persone nello svolgimento di compiti.¹",
+      "3416:1485": "Kapllani ed Elmimouni esaminano manualmente 60 siti, selezionati tra quelli molto visitati e i candidati ai Webby Awards 2018–2019. Osservano l’uso di somiglianza, simmetria e chiusura, descrivendo così scelte ricorrenti nel campione. Documentare queste scelte non permette però di concludere che una singola soluzione causi popolarità o maggiore usabilità.²",
+      "3416:1488": "Un risultato va interpretato considerando il compito, i partecipanti, la versione dell’interfaccia e la misura utilizzata nello studio. Questi elementi aiutano a capire in quale contesto sia stato ottenuto, prima di trasferirlo a una proposta. Anche gli esempi del booklet restano osservazioni e confronti didattici: diventano evidenze d’uso quando sono accompagnati da una prova documentata.",
+      "3416:1575": "La verifica parte da un compito concreto, come trovare un prodotto, associare un’etichetta al campo o riconoscere lo stato di una risposta. L’ipotesi collega il compito alle relazioni visive che potrebbero facilitarlo: per esempio, una minore distanza potrebbe chiarire l’associazione fra etichetta e campo. Forme e delimitazioni offrono altri aspetti da considerare.",
+      "3416:1578": "Nel caso del modulo si possono confrontare due versioni dello stesso contenuto, variando soltanto la distanza fra etichetta e campo e conservando testi, dimensioni e funzioni. Il confronto rende esplicita la relazione messa alla prova. Quando cambiano più aspetti insieme, occorre descriverli tutti, evitando di attribuire il risultato a uno soltanto.",
+      "3416:1581": "La persona viene invitata a svolgere il compito: nel modulo, per esempio, si osservano eventuali associazioni errate fra etichette e campi, esitazioni e richieste di aiuto. Registrando anche il contesto della prova, le osservazioni diventano un riferimento per rivedere le alternative e preparano il lavoro successivo su forma e gerarchia visiva.¹",
+      "I3039:304;3030:478;3039:324": "Ideazione:\npercezione e Gestalt",
+      "198:3093": "L’ideazione sviluppa più risposte al problema emerso dalla ricerca. Le alternative riguardano il funzionamento, i contenuti e la forma dell’esperienza.\n\nNel caso di Sara, per esempio, si possono confrontare diversi modi di mostrare la data, la disponibilità e la conferma di una prenotazione. Per motivare queste scelte occorre capire come le persone percepiscono gli elementi, li raggruppano e riconoscono le relazioni fra loro. Il linguaggio visivo aiuta a dare forma alle proposte e a discuterle.\n\nConfrontare più alternative permette di scegliere quali sviluppare nei prototipi. Percezione, gerarchia e colore diventano così strumenti del progetto: le scelte vanno poi verificate osservando come le persone comprendono e usano l’interfaccia.",
+      "2402:1161": "Nelle interfacce, la disposizione suggerisce quali elementi sono collegati: un’etichetta vicina al proprio campo, per esempio, viene letta come sua descrizione. Distanze, separazioni e rilievo visivo devono rendere riconoscibili queste relazioni. Poiché i principi possono suggerire letture diverse, occorre verificarle osservando l’uso.",
+      "3861:2014": "La vicinanza aiuta a capire quali elementi sono collegati. Nel web, un titolo va accostato ai contenuti che introduce, mentre uno spazio più ampio distingue gruppi diversi.\n\nNel dettaglio di Netflix, «La mia lista» è vicina alla propria riga di locandine; l’intervallo prima di «I più cercati» separa le due categorie. Anche allineamento e formato ripetuto contribuiscono alla lettura.",
+      "3861:2027": "Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242.",
+      "3451:1230": "Quando osserviamo una composizione, vicinanza, somiglianza e altri fattori agiscono insieme. Se suggeriscono lo stesso raggruppamento, lo rafforzano; se indicano relazioni diverse, entrano in conflitto. Il confronto seguente mantiene fisse le posizioni dei punti e cambia soltanto il colore, per mostrare come uno stesso insieme possa suggerire suddivisioni differenti.¹",
+      "3451:1298": "Nella riga a, gli intervalli fra i punti suggeriscono tre coppie. Nella riga b, i colori uguali confermano le coppie; nella riga c, la corrispondenza dei colori unisce punti che appartengono a coppie diverse.\n\nQuando i segnali concordano, il raggruppamento può risultare più evidente. Quando competono, la lettura dipende dalla configurazione complessiva: nessun fattore prevale sempre. Nel progetto conviene far concordare i segnali che esprimono la stessa relazione e verificare eventuali ambiguità nel compito."
+    },
+    "referenceScope": "Historical IDs for the comment revision identified by source; current operational IDs are in tipografiaRevision.manifest and captionRevision.manifest."
+  },
+  "commentRevision": {
+    "date": "2026-10-15",
+    "manifest": "reports/figma-commenti/2026-10-15/commenti-finali/manifest.json",
+    "resolvedComments": [
+      296,
+      297,
+      298,
+      299,
+      303,
+      304,
+      305
+    ],
+    "editedPageCount": 6,
+    "editedTextBlockCount": 13,
+    "verification": "passed",
+    "openCommentsAfter": 0
+  },
+  "currentOrderingRevision": {
+    "date": "2026-10-16",
+    "request": "Regione comune ultima nelle nove leggi; numeri delle aperture nell’indice.",
+    "manifest": "reports/figma-commenti/2026-10-16/riordino-regione-comune/manifest.json",
+    "ruleOrder": [
+      "vicinanza",
+      "somiglianza",
+      "destino-comune",
+      "continuita",
+      "chiusura",
+      "simmetria",
+      "figura-sfondo",
+      "esperienza-passata",
+      "regione-comune"
+    ],
+    "indexPage": 235,
+    "pageStarts": {
+      "vicinanza": 236,
+      "somiglianza": 245,
+      "destino-comune": 254,
+      "continuita": 262,
+      "chiusura": 270,
+      "simmetria": 279,
+      "figura-sfondo": 288,
+      "esperienza-passata": 296,
+      "regione-comune": 305
+    },
+    "regionRange": [
+      305,
+      314
+    ],
+    "printedRange": [
+      230,
+      318
+    ],
+    "pageCount": 89,
+    "changedPageCount": 27,
+    "followingNumberingUnchanged": true,
+    "verification": "reports/figma-commenti/2026-10-16/riordino-regione-comune/verifica-native.json"
+  },
+  "tipografiaRevision": {
+    "date": "2026-10-16",
+    "status": "passed",
+    "structuralStatus": "passed",
+    "visualStatus": "passed",
+    "verifiedTextCount": 374,
+    "verifiedSourceGroupCount": 85,
+    "generalSourceCount": 79,
+    "linkedNumberedNoteCount": 7,
+    "titleCount": 44,
+    "editorialSubheadingCount": 8,
+    "ordinaryBodyCount": 71,
+    "mixedIntroCount": 1,
+    "headerContextCount": 38,
+    "folioCount": 89,
+    "components": {
+      "title": "3030:463",
+      "subtitle": "3030:469",
+      "subchapter": "3030:473",
+      "section": "3030:484",
+      "body": "3030:535",
+      "source": "3164:56",
+      "note": "3189:4584"
+    },
+    "metrics": {
+      "title": "Geom Bold 20/AUTO",
+      "sectionTitleAndSubheading": "Geom Bold 16/AUTO",
+      "body": "Merriweather Light 10/15; Bold, Light Italic e Bold Italic per le enfasi native",
+      "sourceAndNote": "Merriweather Light Italic 7/10",
+      "sourceAreaWidth": 363,
+      "sourceBottom": 610,
+      "minimumContentNoteGap": 5,
+      "shortRule": [
+        40,
+        0.5
+      ],
+      "notesGap": 5,
+      "pathGap": 12,
+      "folio": "Merriweather Light 9/12"
+    },
+    "manifest": "reports/figma-gestalt-tipografia-ds/2026-10-16/manifest.json",
+    "nativePreviewCount": 89,
+    "textAndLinksStatus": "374/374 passed",
+    "contentOrderAndFoliosUnchanged": true
+  },
+  "captionRevision": {
+    "date": "2026-10-16",
+    "components": {
+      "figure": "3165:589",
+      "image": "3164:43",
+      "caption": "3164:50",
+      "textStyle": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+      "chapterColor": "VariableID:2883:67"
+    },
+    "captionStyle": {
+      "font": "Merriweather",
+      "weight": "Light Italic",
+      "size": 7,
+      "lineHeight": 12,
+      "align": "RIGHT",
+      "imageBar": 4,
+      "captionGap": 4,
+      "lowerRuleGap": 2,
+      "lowerRule": 0.5
+    },
+    "migratedCaptionCount": 90,
+    "existingLinkedCaptionCount": 3,
+    "verifiedCaptionCount": 93,
+    "modifiedPageCount": 72,
+    "structuralStatus": "passed",
+    "visualStatus": "passed",
+    "preservationStatus": "passed",
+    "manifest": "reports/figma-gestalt-caption-ds/2026-10-16/manifest.json",
+    "nativePreviewCount": 73,
+    "contentOrderAndFoliosUnchanged": true,
+    "originalsGroup": "Originali · Figura e didascalia"
+  },
+  "schemiRevision": {
+    "date": "2026-10-16",
+    "status": "passed",
+    "manifest": "reports/figma-gestalt-schemi-ds/2026-10-16/manifest.json",
+    "componentSetId": "3486:5837",
+    "schemaCount": 12,
+    "nativePagePreviews": 12,
+    "originalsHiddenAndPreserved": 12
+  },
+  "finalReviewRevision": {
+    "date": "2026-10-16",
+    "status": "passed",
+    "manifest": "reports/figma-gestalt-controllo-finale/2026-10-16/manifest.json",
+    "globalFigureIndex": "assets/booklet/capitolo-3/figure-index.json",
+    "globalFigureNumberingReport": "reports/c03-numerazione-figure/2026-10-16/manifest.json",
+    "printedPageCount": 89,
+    "printedRange": [
+      230,
+      318
+    ],
+    "visibleTextCount": 515,
+    "captionCount": 94,
+    "figureRange": [
+      "3.73",
+      "3.166"
+    ],
+    "sourceGroupCount": 85,
+    "numberedNoteCount": 7,
+    "originalImagePaintCount": 91,
+    "imageHashesCropsAndTransformsUnchanged": true,
+    "allFiguresHaveProseReferences": true,
+    "sourceBottom": 610,
+    "compactLabelCount": 13,
+    "nativePagePreviewCount": 89,
+    "canvasRowsAndFoliosUnchanged": true
+  },
+  "currentFigureIndex": "assets/booklet/capitolo-3/figure-index.json",
+  "currentNumberedFigures": [
+    {
+      "number": "3.73",
+      "ordinal": 73,
+      "folio": 232,
+      "pageId": "2613:1112",
+      "boardId": "198:4344",
+      "figureId": "4019:12136",
+      "captionTextId": "I4019:12136;3165:600;4019:12138;3164:51;4019:12140",
+      "captionText": "Figura 3.73 — Intervalli costanti suggeriscono una sequenza continua; uno spazio maggiore separa due gruppi di tre elementi.",
+      "referenceTextIds": [
+        "I3981:2615;3030:536;3981:2619"
+      ]
+    },
+    {
+      "number": "3.74",
+      "ordinal": 74,
+      "folio": 233,
+      "pageId": "2613:1112",
+      "boardId": "198:4912",
+      "figureId": "3239:17771",
+      "captionTextId": "I3239:17771;3165:600;3239:17792;3164:51;3239:17795",
+      "captionText": "Figura 3.74 — Black Swan: una composizione giocata su forma, colore e contrasto.",
+      "referenceTextIds": [
+        "I3981:2620;3030:536;3981:2624"
+      ]
+    },
+    {
+      "number": "3.75",
+      "ordinal": 75,
+      "folio": 236,
+      "pageId": "2613:1112",
+      "boardId": "3721:1964",
+      "figureId": "3948:554",
+      "captionTextId": "I3948:554;3165:600;3948:622;3164:51;3948:623",
+      "captionText": "Figura 3.75 — Gli stessi punti, con uguale numero, dimensione e colore, appaiono distribuiti uniformemente oppure raccolti in coppie: cambiano soltanto gli intervalli.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.76",
+      "ordinal": 76,
+      "folio": 238,
+      "pageId": "2613:1112",
+      "boardId": "198:4238",
+      "figureId": "3948:21086",
+      "captionTextId": "I3948:21086;3165:600;3948:21104;3164:51;3948:21105",
+      "captionText": "Figura 3.76 — Netflix: titoli vicini alle righe, spazi fra categorie. Dettaglio; vista completa a p. 242.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.77",
+      "ordinal": 77,
+      "folio": 239,
+      "pageId": "2613:1112",
+      "boardId": "3864:2018",
+      "figureId": "3948:21118",
+      "captionTextId": "I3948:21118;3165:600;3948:21144;3164:51;3948:21145",
+      "captionText": "Figura 3.77 — Unilever: simboli distinti riuniti nella sagoma di una U.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.78",
+      "ordinal": 78,
+      "folio": 240,
+      "pageId": "2613:1112",
+      "boardId": "3863:2018",
+      "figureId": "3948:21150",
+      "captionTextId": "I3948:21150;3165:600;3948:21168;3164:51;3948:21169",
+      "captionText": "Figura 3.78 — Gli acini più vicini si leggono come grappoli distinti; gli intervalli più ampi separano i gruppi. Anche colore, sovrapposizioni e connessioni contribuiscono al raggruppamento.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.79",
+      "ordinal": 79,
+      "folio": 241,
+      "pageId": "2613:1112",
+      "boardId": "3897:2088",
+      "figureId": "3948:21174",
+      "captionTextId": "I3948:21174;3165:600;3948:21192;3164:51;3948:21193",
+      "captionText": "Figura 3.79 — Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.80",
+      "ordinal": 80,
+      "folio": 242,
+      "pageId": "2613:1112",
+      "boardId": "3417:1097",
+      "figureId": "3948:21198",
+      "captionTextId": "I3948:21198;3165:600;3948:21216;3164:51;3948:21217",
+      "captionText": "Figura 3.80 — Netflix: il titolo è vicino alla riga che descrive; lo spazio maggiore separa ciascun gruppo dal successivo.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.81",
+      "ordinal": 81,
+      "folio": 243,
+      "pageId": "2613:1112",
+      "boardId": "3692:2327",
+      "figureId": "3948:21222",
+      "captionTextId": "I3948:21222;3165:600;3948:21240;3164:51;3948:21241",
+      "captionText": "Figura 3.81 — Algida: la vicinanza fra prodotto e marchio rende riconoscibile ogni gruppo del catalogo.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.82",
+      "ordinal": 82,
+      "folio": 244,
+      "pageId": "2613:1112",
+      "boardId": "3897:2106",
+      "figureId": "3948:21246",
+      "captionTextId": "I3948:21246;3165:600;3948:21264;3164:51;3948:21265",
+      "captionText": "Figura 3.82 — GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.83",
+      "ordinal": 83,
+      "folio": 244,
+      "pageId": "2613:1112",
+      "boardId": "3897:2106",
+      "figureId": "3948:21269",
+      "captionTextId": "I3948:21269;3165:600;3948:21287;3164:51;3948:21288",
+      "captionText": "Figura 3.83 — Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo.",
+      "referenceTextIds": [
+        "I3973:1931;3030:536;3973:1935"
+      ]
+    },
+    {
+      "number": "3.84",
+      "ordinal": 84,
+      "folio": 245,
+      "pageId": "2613:1112",
+      "boardId": "3721:2140",
+      "figureId": "3948:21355",
+      "captionTextId": "I3948:21355;3165:600;3948:21435;3164:51;3948:21436",
+      "captionText": "Figura 3.84 — Nella stessa griglia, posizioni e distanze restano costanti. Alternare il colore per colonne o per righe fa emergere raggruppamenti differenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.85",
+      "ordinal": 85,
+      "folio": 247,
+      "pageId": "2613:1112",
+      "boardId": "198:4250",
+      "figureId": "3948:21441",
+      "captionTextId": "I3948:21441;3165:600;3948:21459;3164:51;3948:21460",
+      "captionText": "Figura 3.85 — AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.86",
+      "ordinal": 86,
+      "folio": 248,
+      "pageId": "2613:1112",
+      "boardId": "3864:2045",
+      "figureId": "3948:21466",
+      "captionTextId": "I3948:21466;3165:600;3948:21485;3164:51;3948:21486",
+      "captionText": "Figura 3.86 — Audi: quattro anelli con forma e peso visivo comuni.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.87",
+      "ordinal": 87,
+      "folio": 249,
+      "pageId": "2613:1112",
+      "boardId": "3863:2038",
+      "figureId": "3948:21491",
+      "captionTextId": "I3948:21491;3165:600;3948:21509;3164:51;3948:21510",
+      "captionText": "Figura 3.87 — Fra biglie mescolate, colori e superfici simili permettono di ritrovare famiglie visive anche quando gli elementi non sono tutti adiacenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.88",
+      "ordinal": 88,
+      "folio": 250,
+      "pageId": "2613:1112",
+      "boardId": "3897:2127",
+      "figureId": "3948:21515",
+      "captionTextId": "I3948:21515;3165:600;3948:21533;3164:51;3948:21534",
+      "captionText": "Figura 3.88 — Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.89",
+      "ordinal": 89,
+      "folio": 251,
+      "pageId": "2613:1112",
+      "boardId": "3417:1199",
+      "figureId": "3948:21539",
+      "captionTextId": "I3948:21539;3165:600;3948:21557;3164:51;3948:21558",
+      "captionText": "Figura 3.89 — AppFlowy: le attività condividono il formato della scheda; etichette e colonne introducono ulteriori raggruppamenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.90",
+      "ordinal": 90,
+      "folio": 251,
+      "pageId": "2613:1112",
+      "boardId": "3417:1199",
+      "figureId": "3948:21562",
+      "captionTextId": "I3948:21562;3165:600;3948:21580;3164:51;3948:21581",
+      "captionText": "Figura 3.90 — Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.91",
+      "ordinal": 91,
+      "folio": 252,
+      "pageId": "2613:1112",
+      "boardId": "3804:2037",
+      "figureId": "3948:21586",
+      "captionTextId": "I3948:21586;3165:600;3948:21604;3164:51;3948:21605",
+      "captionText": "Figura 3.91 — Api&Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.92",
+      "ordinal": 92,
+      "folio": 252,
+      "pageId": "2613:1112",
+      "boardId": "3804:2037",
+      "figureId": "3948:21609",
+      "captionTextId": "I3948:21609;3165:600;3948:21627;3164:51;3948:21628",
+      "captionText": "Figura 3.92 — Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.93",
+      "ordinal": 93,
+      "folio": 253,
+      "pageId": "2613:1112",
+      "boardId": "3897:2148",
+      "figureId": "3948:21633",
+      "captionTextId": "I3948:21633;3165:600;3948:21651;3164:51;3948:21652",
+      "captionText": "Figura 3.93 — Trello: le schede ripetono immagine, titolo e descrizione.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.94",
+      "ordinal": 94,
+      "folio": 253,
+      "pageId": "2613:1112",
+      "boardId": "3897:2148",
+      "figureId": "3948:21656",
+      "captionTextId": "I3948:21656;3165:600;3948:21674;3164:51;3948:21675",
+      "captionText": "Figura 3.94 — Amazon: titoli, riquadri e immagini ripetono formati coerenti.",
+      "referenceTextIds": [
+        "I3975:2109;3030:536;3975:2113"
+      ]
+    },
+    {
+      "number": "3.95",
+      "ordinal": 95,
+      "folio": 254,
+      "pageId": "2613:1112",
+      "boardId": "3721:2282",
+      "figureId": "3948:21704",
+      "captionTextId": "I3948:21704;3165:600;3948:21746;3164:51;3948:21747",
+      "captionText": "Figura 3.95 — Tre istanti della stessa configurazione: alcuni punti si spostano insieme, conservando le distanze interne; gli altri restano fermi. La sequenza rende osservabile il cambiamento concorde.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.96",
+      "ordinal": 96,
+      "folio": 256,
+      "pageId": "2613:1112",
+      "boardId": "198:4261",
+      "figureId": "3948:21762",
+      "captionTextId": "I3948:21762;3165:600;3948:21790;3164:51;3948:21791",
+      "captionText": "Figura 3.96 — Bootstrap: tre stati reali dello stesso carousel, in ordine di acquisizione. Per osservare il movimento condiviso occorre vedere la transizione animata.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.97",
+      "ordinal": 97,
+      "folio": 257,
+      "pageId": "2613:1112",
+      "boardId": "3864:2073",
+      "figureId": "3948:21809",
+      "captionTextId": "I3948:21809;3165:600;3948:21842;3164:51;3948:21843",
+      "captionText": "Figura 3.97 — Google Dots, stato Thinking: viste complete e dettagli della stessa rotazione comune, a 6,5000 s; 6,6167 s; 6,7667 s.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.98",
+      "ordinal": 98,
+      "folio": 258,
+      "pageId": "2613:1112",
+      "boardId": "3863:2058",
+      "figureId": "3948:21848",
+      "captionTextId": "I3948:21848;3165:600;3948:21866;3164:51;3948:21867",
+      "captionText": "Figura 3.98 — Posture e orientamento delle biciclette suggeriscono una direzione condivisa nel peloton. La fotografia fissa richiama il destino comune; per osservarlo direttamente serve una sequenza in movimento.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.99",
+      "ordinal": 99,
+      "folio": 259,
+      "pageId": "2613:1112",
+      "boardId": "3897:2169",
+      "figureId": "3948:21872",
+      "captionTextId": "I3948:21872;3165:600;3948:21890;3164:51;3948:21891",
+      "captionText": "Figura 3.99 — Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.100",
+      "ordinal": 100,
+      "folio": 259,
+      "pageId": "2613:1112",
+      "boardId": "3897:2169",
+      "figureId": "3948:21895",
+      "captionTextId": "I3948:21895;3165:600;3948:21913;3164:51;3948:21914",
+      "captionText": "Figura 3.100 — Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.101",
+      "ordinal": 101,
+      "folio": 260,
+      "pageId": "2613:1112",
+      "boardId": "3804:2047",
+      "figureId": "3948:21919",
+      "captionTextId": "I3948:21919;3165:600;3948:21937;3164:51;3948:21938",
+      "captionText": "Figura 3.101 — Carousel Bootstrap: immagine, titolo e testo appartengono alla stessa slide.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.102",
+      "ordinal": 102,
+      "folio": 260,
+      "pageId": "2613:1112",
+      "boardId": "3804:2047",
+      "figureId": "3948:21952",
+      "captionTextId": "I3948:21952;3165:600;3948:21979;3164:51;3948:21980",
+      "captionText": "Figura 3.102 — Durante la transizione, immagine e didascalia scorrono insieme; i controlli restano fermi.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.103",
+      "ordinal": 103,
+      "folio": 261,
+      "pageId": "2613:1112",
+      "boardId": "3897:2187",
+      "figureId": "3948:21985",
+      "captionTextId": "I3948:21985;3165:600;3948:22003;3164:51;3948:22004",
+      "captionText": "Figura 3.103 — Swiper: uno stato reale della traccia durante lo stesso trascinamento.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.104",
+      "ordinal": 104,
+      "folio": 261,
+      "pageId": "2613:1112",
+      "boardId": "3897:2187",
+      "figureId": "3948:22017",
+      "captionTextId": "I3948:22017;3165:600;3948:22044;3164:51;3948:22045",
+      "captionText": "Figura 3.104 — Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra gli screenshot; le distanze reciproche restano costanti.",
+      "referenceTextIds": [
+        "I3975:2311;3030:536;3975:2315"
+      ]
+    },
+    {
+      "number": "3.105",
+      "ordinal": 105,
+      "folio": 262,
+      "pageId": "2613:1112",
+      "boardId": "3721:2432",
+      "figureId": "3948:22088",
+      "captionTextId": "I3948:22088;3165:600;3948:22144;3164:51;3948:22145",
+      "captionText": "Figura 3.105 — Due percorsi di punti si incrociano. La direzione regolare favorisce la lettura di due andamenti continui, invece di frammenti che cambiano bruscamente direzione.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.106",
+      "ordinal": 106,
+      "folio": 264,
+      "pageId": "2613:1112",
+      "boardId": "198:4273",
+      "figureId": "3948:22150",
+      "captionTextId": "I3948:22150;3165:600;3948:22168;3164:51;3948:22169",
+      "captionText": "Figura 3.106 — Api&Bio, dettaglio dello screenshot storico: il tracciato curvo prosegue fra le illustrazioni. La vista completa è nelle pagine successive.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.107",
+      "ordinal": 107,
+      "folio": 265,
+      "pageId": "2613:1112",
+      "boardId": "3864:2114",
+      "figureId": "3948:22175",
+      "captionTextId": "I3948:22175;3165:600;3948:22194;3164:51;3948:22195",
+      "captionText": "Figura 3.107 — Coca-Cola: curve e raccordi suggeriscono percorsi continui nel logotipo.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.108",
+      "ordinal": 108,
+      "folio": 266,
+      "pageId": "2613:1112",
+      "boardId": "3863:2078",
+      "figureId": "3948:22200",
+      "captionTextId": "I3948:22200;3165:600;3948:22218;3164:51;3948:22219",
+      "captionText": "Figura 3.108 — Le linee della carreggiata accompagnano lo sguardo lungo la curva: i tratti successivi si leggono come un percorso continuo che prosegue in profondità.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.109",
+      "ordinal": 109,
+      "folio": 267,
+      "pageId": "2613:1112",
+      "boardId": "3897:2217",
+      "figureId": "3948:22224",
+      "captionTextId": "I3948:22224;3165:600;3948:22242;3164:51;3948:22243",
+      "captionText": "Figura 3.109 — MINI: il cavo prosegue in curve regolari e richiama una strada.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.110",
+      "ordinal": 110,
+      "folio": 268,
+      "pageId": "2613:1112",
+      "boardId": "3804:2065",
+      "figureId": "3948:22248",
+      "captionTextId": "I3948:22248;3165:600;3948:22266;3164:51;3948:22267",
+      "captionText": "Figura 3.110 — Api&Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.111",
+      "ordinal": 111,
+      "folio": 269,
+      "pageId": "2613:1112",
+      "boardId": "3897:2235",
+      "figureId": "3948:22272",
+      "captionTextId": "I3948:22272;3165:600;3948:22290;3164:51;3948:22291",
+      "captionText": "Figura 3.111 — USWDS: segmenti e tappe proseguono sullo stesso asse.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.112",
+      "ordinal": 112,
+      "folio": 269,
+      "pageId": "2613:1112",
+      "boardId": "3897:2235",
+      "figureId": "3948:22295",
+      "captionTextId": "I3948:22295;3165:600;3948:22313;3164:51;3948:22314",
+      "captionText": "Figura 3.112 — Burger King: le promozioni proseguono lungo una stessa direzione.",
+      "referenceTextIds": [
+        "I3975:2503;3030:536;3975:2507"
+      ]
+    },
+    {
+      "number": "3.113",
+      "ordinal": 113,
+      "folio": 270,
+      "pageId": "2613:1112",
+      "boardId": "3721:2461",
+      "figureId": "3948:22367",
+      "captionTextId": "I3948:22367;3165:600;3948:22433;3164:51;3948:22434",
+      "captionText": "Figura 3.113 — Punti separati suggeriscono un cerchio e un quadrato. Le interruzioni lasciano riconoscibile il contorno complessivo, pur senza disegnarlo interamente.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.114",
+      "ordinal": 114,
+      "folio": 272,
+      "pageId": "2613:1112",
+      "boardId": "198:4285",
+      "figureId": "3948:22439",
+      "captionTextId": "I3948:22439;3165:600;3948:22457;3164:51;3948:22458",
+      "captionText": "Figura 3.114 — Bootstrap, dettaglio reale dello spinner: l’arco aperto suggerisce un anello. Nelle pagine successive, una vista completa della stessa documentazione.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.115",
+      "ordinal": 115,
+      "folio": 273,
+      "pageId": "2613:1112",
+      "boardId": "3864:2142",
+      "figureId": "3948:22478",
+      "captionTextId": "I3948:22478;3165:600;3948:22511;3164:51;3948:22512",
+      "captionText": "Figura 3.115 — WWF: il panda si completa oltre i tratti effettivamente disegnati.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.116",
+      "ordinal": 116,
+      "folio": 274,
+      "pageId": "2613:1112",
+      "boardId": "3863:2098",
+      "figureId": "3948:22517",
+      "captionTextId": "I3948:22517;3165:600;3948:22535;3164:51;3948:22536",
+      "captionText": "Figura 3.116 — La rete interrompe porzioni del gatto, che viene comunque percepito come un unico animale. È un completamento amodale dietro un ostacolo, affine alla chiusura di contorni incompleti.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.117",
+      "ordinal": 117,
+      "folio": 275,
+      "pageId": "2613:1112",
+      "boardId": "3897:2256",
+      "figureId": "3948:22541",
+      "captionTextId": "I3948:22541;3165:600;3948:22559;3164:51;3948:22560",
+      "captionText": "Figura 3.117 — Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.118",
+      "ordinal": 118,
+      "folio": 276,
+      "pageId": "2613:1112",
+      "boardId": "3919:2088",
+      "figureId": "3948:22565",
+      "captionTextId": "I3948:22565;3165:600;3948:22583;3164:51;3948:22584",
+      "captionText": "Figura 3.118 — Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.119",
+      "ordinal": 119,
+      "folio": 277,
+      "pageId": "2613:1112",
+      "boardId": "3804:2072",
+      "figureId": "3948:22589",
+      "captionTextId": "I3948:22589;3165:600;3948:22607;3164:51;3948:22608",
+      "captionText": "Figura 3.119 — Bootstrap: lo spinner suggerisce un anello con un contorno aperto. La rotazione e la convenzione appresa ne comunicano la funzione di caricamento.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.120",
+      "ordinal": 120,
+      "folio": 278,
+      "pageId": "2613:1112",
+      "boardId": "3897:2277",
+      "figureId": "3948:22613",
+      "captionTextId": "I3948:22613;3165:600;3948:22631;3164:51;3948:22632",
+      "captionText": "Figura 3.120 — Carbon: un arco incompleto suggerisce un anello.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.121",
+      "ordinal": 121,
+      "folio": 278,
+      "pageId": "2613:1112",
+      "boardId": "3897:2277",
+      "figureId": "3948:22636",
+      "captionTextId": "I3948:22636;3165:600;3948:22654;3164:51;3948:22655",
+      "captionText": "Figura 3.121 — Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile.",
+      "referenceTextIds": [
+        "I3975:2695;3030:536;3975:2699"
+      ]
+    },
+    {
+      "number": "3.122",
+      "ordinal": 122,
+      "folio": 279,
+      "pageId": "2613:1112",
+      "boardId": "3721:2472",
+      "figureId": "3948:22684",
+      "captionTextId": "I3948:22684;3165:600;3948:22726;3164:51;3948:22727",
+      "captionText": "Figura 3.122 — Le coppie di punti corrispondono rispetto all’asse verticale. Nel confronto, gli stessi elementi perdono la disposizione speculare: simmetria e numero degli elementi sono variabili distinte.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.123",
+      "ordinal": 123,
+      "folio": 281,
+      "pageId": "2613:1112",
+      "boardId": "198:4297",
+      "figureId": "3948:22732",
+      "captionTextId": "I3948:22732;3165:600;3948:22750;3164:51;3948:22751",
+      "captionText": "Figura 3.123 — Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale. Si corrispondono le posizioni, mentre i testi sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.124",
+      "ordinal": 124,
+      "folio": 282,
+      "pageId": "2613:1112",
+      "boardId": "3864:2169",
+      "figureId": "3948:22757",
+      "captionTextId": "I3948:22757;3165:600;3948:22776;3164:51;3948:22777",
+      "captionText": "Figura 3.124 — Volkswagen, 2019: un asse verticale organizza l’emblema.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.125",
+      "ordinal": 125,
+      "folio": 283,
+      "pageId": "2613:1112",
+      "boardId": "3863:2118",
+      "figureId": "3948:22782",
+      "captionTextId": "I3948:22782;3165:600;3948:22800;3164:51;3948:22801",
+      "captionText": "Figura 3.125 — L’asse centrale riunisce cupola, facciata e minareti in un insieme bilanciato; le corrispondenze fra destra e sinistra rafforzano la lettura unitaria dell’edificio.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.126",
+      "ordinal": 126,
+      "folio": 284,
+      "pageId": "2613:1112",
+      "boardId": "3897:2295",
+      "figureId": "3948:22806",
+      "captionTextId": "I3948:22806;3165:600;3948:22824;3164:51;3948:22825",
+      "captionText": "Figura 3.126 — HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.127",
+      "ordinal": 127,
+      "folio": 285,
+      "pageId": "2613:1112",
+      "boardId": "3692:2376",
+      "figureId": "3948:22830",
+      "captionTextId": "I3948:22830;3165:600;3948:22848;3164:51;3948:22849",
+      "captionText": "Figura 3.127 — Adham Dannaway: due metà differenti compongono un volto intorno a un asse centrale.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.128",
+      "ordinal": 128,
+      "folio": 285,
+      "pageId": "2613:1112",
+      "boardId": "3692:2376",
+      "figureId": "3948:22853",
+      "captionTextId": "I3948:22853;3165:600;3948:22871;3164:51;3948:22872",
+      "captionText": "Figura 3.128 — Dettaglio della stessa immagine: i tratti del volto trovano corrispondenza ai due lati; i contenuti delle metà sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.129",
+      "ordinal": 129,
+      "folio": 286,
+      "pageId": "2613:1112",
+      "boardId": "3804:2087",
+      "figureId": "3948:22877",
+      "captionTextId": "I3948:22877;3165:600;3948:22895;3164:51;3948:22896",
+      "captionText": "Figura 3.129 — Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.130",
+      "ordinal": 130,
+      "folio": 286,
+      "pageId": "2613:1112",
+      "boardId": "3804:2087",
+      "figureId": "3948:22900",
+      "captionTextId": "I3948:22900;3165:600;3948:22918;3164:51;3948:22919",
+      "captionText": "Figura 3.130 — Dettaglio: le posizioni si corrispondono ai due lati, mentre testi e lingue sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.131",
+      "ordinal": 131,
+      "folio": 287,
+      "pageId": "2613:1112",
+      "boardId": "3897:2313",
+      "figureId": "3948:22924",
+      "captionTextId": "I3948:22924;3165:600;3948:22942;3164:51;3948:22943",
+      "captionText": "Figura 3.131 — OBS: controlli uguali e centri equidistanti; i simboli sono differenti.",
+      "referenceTextIds": [
+        "I3975:2897;3030:536;3975:2901"
+      ]
+    },
+    {
+      "number": "3.132",
+      "ordinal": 132,
+      "folio": 288,
+      "pageId": "2613:1112",
+      "boardId": "3721:2523",
+      "figureId": "3948:22956",
+      "captionTextId": "I3948:22956;3165:600;3948:22982;3164:51;3948:22983",
+      "captionText": "Figura 3.132 — Lo stesso contorno separa un vaso centrale da due profili laterali. Invertire i colori aiuta a esplorare le possibili letture di figura e sfondo.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.133",
+      "ordinal": 133,
+      "folio": 290,
+      "pageId": "2613:1112",
+      "boardId": "198:4321",
+      "figureId": "3948:22988",
+      "captionTextId": "I3948:22988;3165:600;3948:23006;3164:51;3948:23007",
+      "captionText": "Figura 3.133 — MDN: il campo di ricerca resta nitido davanti alla pagina oscurata e sfocata, separandosi dal contesto sottostante.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.134",
+      "ordinal": 134,
+      "folio": 291,
+      "pageId": "2613:1112",
+      "boardId": "3864:2224",
+      "figureId": "3948:23013",
+      "captionTextId": "I3948:23013;3165:600;3948:23032;3164:51;3948:23033",
+      "captionText": "Figura 3.134 — FedEx: lo spazio fra E e x diventa una freccia.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.135",
+      "ordinal": 135,
+      "folio": 292,
+      "pageId": "2613:1112",
+      "boardId": "3863:2158",
+      "figureId": "3948:23038",
+      "captionTextId": "I3948:23038;3165:600;3948:23056;3164:51;3948:23057",
+      "captionText": "Figura 3.135 — Le sagome scure degli uccelli emergono sull’acqua luminosa: il contrasto e il contorno condiviso separano le figure dallo sfondo.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.136",
+      "ordinal": 136,
+      "folio": 293,
+      "pageId": "2613:1112",
+      "boardId": "3897:2370",
+      "figureId": "3948:23062",
+      "captionTextId": "I3948:23062;3165:600;3948:23080;3164:51;3948:23081",
+      "captionText": "Figura 3.136 — Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.137",
+      "ordinal": 137,
+      "folio": 294,
+      "pageId": "2613:1112",
+      "boardId": "3804:2107",
+      "figureId": "3948:23086",
+      "captionTextId": "I3948:23086;3165:600;3948:23104;3164:51;3948:23105",
+      "captionText": "Figura 3.137 — MDN: il campo di ricerca emerge davanti alla pagina oscurata e sfocata.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.138",
+      "ordinal": 138,
+      "folio": 294,
+      "pageId": "2613:1112",
+      "boardId": "3804:2107",
+      "figureId": "3948:23109",
+      "captionTextId": "I3948:23109;3165:600;3948:23127;3164:51;3948:23128",
+      "captionText": "Figura 3.138 — Dettaglio: contorno e contrasto separano il campo attivo dal contesto sottostante.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.139",
+      "ordinal": 139,
+      "folio": 295,
+      "pageId": "2613:1112",
+      "boardId": "3897:2388",
+      "figureId": "3948:23133",
+      "captionTextId": "I3948:23133;3165:600;3948:23151;3164:51;3948:23152",
+      "captionText": "Figura 3.139 — Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.140",
+      "ordinal": 140,
+      "folio": 295,
+      "pageId": "2613:1112",
+      "boardId": "3897:2388",
+      "figureId": "3948:23156",
+      "captionTextId": "I3948:23156;3165:600;3948:23174;3164:51;3948:23175",
+      "captionText": "Figura 3.140 — Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro.",
+      "referenceTextIds": [
+        "I3975:3099;3030:536;3975:3103"
+      ]
+    },
+    {
+      "number": "3.141",
+      "ordinal": 141,
+      "folio": 296,
+      "pageId": "2613:1112",
+      "boardId": "3721:2536",
+      "figureId": "3948:23216",
+      "captionTextId": "I3948:23216;3165:600;3948:23270;3164:51;3948:23271",
+      "captionText": "Figura 3.141 — I punti suggeriscono una lettera incompleta. La stessa configurazione ruotata può essere meno familiare: disposizione dei tratti e conoscenza dell’alfabeto concorrono al riconoscimento.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.142",
+      "ordinal": 142,
+      "folio": 298,
+      "pageId": "2613:1112",
+      "boardId": "198:4333",
+      "figureId": "3948:23276",
+      "captionTextId": "I3948:23276;3165:600;3948:23294;3164:51;3948:23295",
+      "captionText": "Figura 3.142 — GOV.UK: messaggio e bordi rossi richiamano una convenzione di errore; il testo precisa il problema e integra il segnale cromatico.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.143",
+      "ordinal": 143,
+      "folio": 299,
+      "pageId": "2613:1112",
+      "boardId": "3864:2252",
+      "figureId": "3948:23301",
+      "captionTextId": "I3948:23301;3165:600;3948:23322;3164:51;3948:23323",
+      "captionText": "Figura 3.143 — Goodwill: marchio regionale completo e dettaglio della Smiling G. La stessa g si legge come lettera e volto sorridente.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.144",
+      "ordinal": 144,
+      "folio": 300,
+      "pageId": "2613:1112",
+      "boardId": "3863:2178",
+      "figureId": "3948:23328",
+      "captionTextId": "I3948:23328;3165:600;3948:23346;3164:51;3948:23347",
+      "captionText": "Figura 3.144 — In Irlanda «STAD» significa «STOP». Chi conosce la lingua legge la parola; chi non la conosce può inferirne la funzione dal contesto stradale appreso.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.145",
+      "ordinal": 145,
+      "folio": 301,
+      "pageId": "2613:1112",
+      "boardId": "3897:2409",
+      "figureId": "3948:23352",
+      "captionTextId": "I3948:23352;3165:600;3948:23370;3164:51;3948:23371",
+      "captionText": "Figura 3.145 — Coca-Cola: colore e marchio richiamano associazioni apprese con la marca.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.146",
+      "ordinal": 146,
+      "folio": 302,
+      "pageId": "2613:1112",
+      "boardId": "3804:2117",
+      "figureId": "3948:23376",
+      "captionTextId": "I3948:23376;3165:600;3948:23394;3164:51;3948:23395",
+      "captionText": "Figura 3.146 — GOV.UK: il rosso richiama una convenzione di errore; il testo precisa il problema.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.147",
+      "ordinal": 147,
+      "folio": 302,
+      "pageId": "2613:1112",
+      "boardId": "3804:2117",
+      "figureId": "3948:23399",
+      "captionTextId": "I3948:23399;3165:600;3948:23417;3164:51;3948:23418",
+      "captionText": "Figura 3.147 — Dettaglio: i bordi rossi associano lo stato di errore ai campi della risposta.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.148",
+      "ordinal": 148,
+      "folio": 303,
+      "pageId": "2613:1112",
+      "boardId": "3897:2430",
+      "figureId": "3948:23423",
+      "captionTextId": "I3948:23423;3165:600;3948:23441;3164:51;3948:23442",
+      "captionText": "Figura 3.148 — IKEA: i simboli della testata richiamano convenzioni d’uso apprese.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.149",
+      "ordinal": 149,
+      "folio": 303,
+      "pageId": "2613:1112",
+      "boardId": "3897:2430",
+      "figureId": "3948:23446",
+      "captionTextId": "I3948:23446;3165:600;3948:23464;3164:51;3948:23465",
+      "captionText": "Figura 3.149 — Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.150",
+      "ordinal": 150,
+      "folio": 304,
+      "pageId": "2613:1112",
+      "boardId": "3919:2092",
+      "figureId": "3948:23470",
+      "captionTextId": "I3948:23470;3165:600;3948:23488;3164:51;3948:23489",
+      "captionText": "Figura 3.150 — Oxfam: le icone social richiamano servizi già conosciuti.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.151",
+      "ordinal": 151,
+      "folio": 304,
+      "pageId": "2613:1112",
+      "boardId": "3919:2092",
+      "figureId": "3948:23493",
+      "captionTextId": "I3948:23493;3165:600;3948:23511;3164:51;3948:23512",
+      "captionText": "Figura 3.151 — Dettaglio dello stesso screenshot: Twitter, Facebook e YouTube.",
+      "referenceTextIds": [
+        "I3975:3291;3030:536;3975:3295"
+      ]
+    },
+    {
+      "number": "3.152",
+      "ordinal": 152,
+      "folio": 305,
+      "pageId": "2613:1112",
+      "boardId": "3721:2488",
+      "figureId": "3948:23547",
+      "captionTextId": "I3948:23547;3165:600;3948:23595;3164:51;3948:23596",
+      "captionText": "Figura 3.152 — Posizione e distanza dei punti restano identiche. Aggiungendo due contorni, gli elementi racchiusi nella stessa area formano gruppi riconoscibili.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.153",
+      "ordinal": 153,
+      "folio": 307,
+      "pageId": "2613:1112",
+      "boardId": "198:4309",
+      "figureId": "3948:23601",
+      "captionTextId": "I3948:23601;3165:600;3948:23619;3164:51;3948:23620",
+      "captionText": "Figura 3.153 — Notion: Free e Plus condividono una regione chiara; Business ed Enterprise sono raccolti nella regione azzurra adiacente.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.154",
+      "ordinal": 154,
+      "folio": 308,
+      "pageId": "2613:1112",
+      "boardId": "3864:2197",
+      "figureId": "3948:23632",
+      "captionTextId": "I3948:23632;3165:600;3948:23657;3164:51;3948:23658",
+      "captionText": "Figura 3.154 — LEGO: la superficie rossa riunisce il marchio in una regione comune.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.155",
+      "ordinal": 155,
+      "folio": 309,
+      "pageId": "2613:1112",
+      "boardId": "3863:2138",
+      "figureId": "3948:23663",
+      "captionTextId": "I3948:23663;3165:600;3948:23681;3164:51;3948:23682",
+      "captionText": "Figura 3.155 — Gli scomparti del bento raccolgono ingredienti diversi: il confine del contenitore li fa leggere come gruppi, anche quando colore e forma non coincidono.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.156",
+      "ordinal": 156,
+      "folio": 310,
+      "pageId": "2613:1112",
+      "boardId": "3897:2331",
+      "figureId": "3948:23687",
+      "captionTextId": "I3948:23687;3165:600;3948:23705;3164:51;3948:23706",
+      "captionText": "Figura 3.156 — Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.157",
+      "ordinal": 157,
+      "folio": 310,
+      "pageId": "2613:1112",
+      "boardId": "3897:2331",
+      "figureId": "3948:23710",
+      "captionTextId": "I3948:23710;3165:600;3948:23728;3164:51;3948:23729",
+      "captionText": "Figura 3.157 — Dettaglio dello stesso screenshot: ogni pannello riunisce simbolo, nome e valore.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.158",
+      "ordinal": 158,
+      "folio": 311,
+      "pageId": "2613:1112",
+      "boardId": "198:4884",
+      "figureId": "3948:23734",
+      "captionTextId": "I3948:23734;3165:600;3948:23752;3164:51;3948:23753",
+      "captionText": "Figura 3.158 — Apple Watch: fondi e confini dividono il catalogo in aree, associando immagini e informazioni alla rispettiva regione.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.159",
+      "ordinal": 159,
+      "folio": 312,
+      "pageId": "2613:1112",
+      "boardId": "3692:2386",
+      "figureId": "3948:23758",
+      "captionTextId": "I3948:23758;3165:600;3948:23776;3164:51;3948:23777",
+      "captionText": "Figura 3.159 — Xbox: fotografie e superfici verdi raccolgono i contenuti in regioni visive distinte.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.160",
+      "ordinal": 160,
+      "folio": 312,
+      "pageId": "2613:1112",
+      "boardId": "3692:2386",
+      "figureId": "3948:23781",
+      "captionTextId": "I3948:23781;3165:600;3948:23799;3164:51;3948:23800",
+      "captionText": "Figura 3.160 — Dettaglio della stessa immagine: fotografia, testo e azione condividono l’area dedicata alla singola proposta.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.161",
+      "ordinal": 161,
+      "folio": 313,
+      "pageId": "2613:1112",
+      "boardId": "3804:2097",
+      "figureId": "3948:23805",
+      "captionTextId": "I3948:23805;3165:600;3948:23823;3164:51;3948:23824",
+      "captionText": "Figura 3.161 — Notion: una regione chiara e una azzurra raccolgono due gruppi di piani.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.162",
+      "ordinal": 162,
+      "folio": 313,
+      "pageId": "2613:1112",
+      "boardId": "3804:2097",
+      "figureId": "3948:23828",
+      "captionTextId": "I3948:23828;3165:600;3948:23846;3164:51;3948:23847",
+      "captionText": "Figura 3.162 — Dettaglio: il bordo comune racchiude Free e Plus; lo spazio interno distingue le due proposte.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.163",
+      "ordinal": 163,
+      "folio": 314,
+      "pageId": "2613:1112",
+      "boardId": "3897:2349",
+      "figureId": "3948:23852",
+      "captionTextId": "I3948:23852;3165:600;3948:23870;3164:51;3948:23871",
+      "captionText": "Figura 3.163 — Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.164",
+      "ordinal": 164,
+      "folio": 314,
+      "pageId": "2613:1112",
+      "boardId": "3897:2349",
+      "figureId": "3948:23875",
+      "captionTextId": "I3948:23875;3165:600;3948:23893;3164:51;3948:23894",
+      "captionText": "Figura 3.164 — Pane&Trita: la superficie rossa raccoglie marchio e navigazione.",
+      "referenceTextIds": [
+        "I3975:3493;3030:536;3975:3497"
+      ]
+    },
+    {
+      "number": "3.165",
+      "ordinal": 165,
+      "folio": 315,
+      "pageId": "2613:1112",
+      "boardId": "3451:1154",
+      "figureId": "3451:1253",
+      "captionTextId": "I3451:1253;3165:600;3451:1295;3164:51;3451:1297",
+      "captionText": "Figura 3.165 — a. La vicinanza suggerisce coppie. b. Il colore sostiene le stesse coppie. c. Colore e vicinanza suggeriscono raggruppamenti diversi.",
+      "referenceTextIds": [
+        "I3976:2227;3030:536;3976:2231"
+      ]
+    },
+    {
+      "number": "3.166",
+      "ordinal": 166,
+      "folio": 316,
+      "pageId": "2613:1112",
+      "boardId": "3451:1313",
+      "figureId": "3451:1401",
+      "captionTextId": "I3451:1401;3165:600;3451:1444;3164:51;3451:1446",
+      "captionText": "Figura 3.166 — a. Punti equidistanti. b. Un contorno racchiude ciascuna coppia. c. Un tratto connette gli elementi della coppia.",
+      "referenceTextIds": [
+        "I3976:2242;3030:536;3976:2246"
+      ]
+    }
+  ]
+}

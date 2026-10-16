@@ -1,0 +1,1020 @@
+{
+  "schema": "cvedi-cultural-content-edit-plan/1",
+  "preparedOn": "2026-10-09",
+  "scope": "Piano contenuti; nessuna scrittura Figma o modifica al manifest corrente.",
+  "baseline": {
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/contesto-culturale-revisione/figma-text.json",
+    "sha256": "3aa4c9822900031811106759977823682a0a408e71422f70bfc79238f420196d",
+    "boardCount": 59,
+    "sectionId": "204:8295",
+    "folioRange": [
+      11,
+      69
+    ]
+  },
+  "writeGuard": "Rileggere nodeId e characters prima di applicare: oldText deve coincidere. Se cambia, rivedere il delta senza sovrascrivere alla cieca.",
+  "sourceAndFontPolicy": {
+    "asterisks": "Richiami alle fonti, indipendenti dallo stile. PDI mantiene il richiamo e la fonte. Didascalie/bibliografia native sono gestite dal piano del root.",
+    "fontRole": "body = corpo; source = fonti/didascalie; heading = titolo/etichetta. Non dedurre il font da un asterisco.",
+    "credits": "Conservare Marco Cremaschi & Giulia Rosemary Avis per i casi originali; aggiungere fonti della revisione nelle didascalie native. Conservare fonte e crediti degli elaborati e delle immagini."
+  },
+  "edits": [
+    {
+      "nodeId": "198:4428",
+      "boardId": "198:4418",
+      "baselineFolio": 18,
+      "oldText": "Nella schermata conservata dell’Università Statale di Mosca, i menu organizzano l’accesso alle informazioni e le fotografie danno rilievo agli edifici dell’ateneo. Possiamo leggere questi elementi come una presentazione dell’istituzione e della sua identità.\n\nIl confronto apre una domanda sul PDI: quali segnali fanno riconoscere l’autorevolezza dell’università ai diversi pubblici? Il punto di vista fotografico e i colori, da soli, non misurano l’accettazione delle gerarchie né spiegano come le persone usino il sito.",
+      "newText": "Nella schermata dell’Università Statale di Mosca, i menu organizzano l’accesso alle informazioni e le fotografie danno rilievo agli edifici dell’ateneo. Possiamo leggere questi elementi come una presentazione dell’istituzione e della sua identità.\n\nIl confronto apre una domanda sul PDI: quali segnali fanno riconoscere l’autorevolezza dell’università ai diversi pubblici? Il punto di vista fotografico e i colori, da soli, non misurano l’accettazione delle gerarchie né spiegano come le persone usino il sito.",
+      "why": "Commento utente: eliminare la parola conservata nella sezione.",
+      "sourcesURLs": [],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "198:4982",
+      "boardId": "198:4973",
+      "baselineFolio": 19,
+      "oldText": "Nella schermata conservata dell’Università di Amsterdam, fotografie e notizie danno spazio a persone, giovani e attività dell’ateneo. Rispetto all’esempio precedente, cambia il modo di raccontare l’università: dagli edifici alle esperienze di chi la vive.\n\nÈ uno spunto per indagare quali immagini e voci rendano il servizio riconoscibile e credibile. Per confrontare i due siti occorre considerare anche destinatari e scopi delle pagine: più persone nelle immagini non dimostrano minore PDI o maggiore libertà di navigazione.",
+      "newText": "Nella schermata dell’Università di Amsterdam, fotografie e notizie danno spazio a persone, giovani e attività dell’ateneo. Rispetto all’esempio precedente, cambia il modo di raccontare l’università: dagli edifici alle esperienze di chi la vive.\n\nÈ uno spunto per indagare quali immagini e voci rendano il servizio riconoscibile e credibile. Per confrontare i due siti occorre considerare anche destinatari e scopi delle pagine: più persone nelle immagini non dimostrano minore PDI o maggiore libertà di navigazione.",
+      "why": "Commento utente: eliminare la parola conservata nella sezione.",
+      "sourcesURLs": [],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "198:4585",
+      "boardId": "198:4575",
+      "baselineFolio": 23,
+      "oldText": "La schermata conservata di Greyhound mette in primo piano la ricerca di un viaggio. L’accesso al profilo, il recupero della prenotazione, la ricerca della fermata e il tracciamento del bus affiancano l’invito a scaricare l’app tramite codice QR.\n\nSono funzioni legate a compiti personali del viaggiatore. Offrono un caso per chiedersi chi organizza il viaggio e quali decisioni condivide con altre persone. La loro presenza non dimostra un orientamento individualistico del pubblico: conta anche la natura del servizio.",
+      "newText": "La schermata di Greyhound mette in primo piano la ricerca di un viaggio. L’accesso al profilo, il recupero della prenotazione, la ricerca della fermata e il tracciamento del bus affiancano l’invito a scaricare l’app tramite codice QR.\n\nSono funzioni legate a compiti personali del viaggiatore. Offrono un caso per chiedersi chi organizza il viaggio e quali decisioni condivide con altre persone. La loro presenza non dimostra un orientamento individualistico del pubblico: conta anche la natura del servizio.",
+      "why": "Commento utente: eliminare la parola conservata nella sezione.",
+      "sourcesURLs": [],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "198:5114",
+      "boardId": "198:5105",
+      "baselineFolio": 24,
+      "oldText": "Nella schermata conservata di Kowloon Motor Bus, a Hong Kong, compaiono il viaggio con animali domestici, una fotografia dello staff, assistenza e contatti telefonici. L’acquisto del biglietto resta tra le azioni principali.\n\nQuesti elementi permettono di discutere come un servizio rappresenti clienti, personale e relazioni di supporto. Per interpretarli occorre conoscere destinatari e obiettivi della comunicazione: una fotografia di gruppo o l’uso del plurale non bastano a dimostrare valori collettivistici degli utenti.",
+      "newText": "Nella schermata di Kowloon Motor Bus, a Hong Kong, compaiono il viaggio con animali domestici, una fotografia dello staff, assistenza e contatti telefonici. L’acquisto del biglietto resta tra le azioni principali.\n\nQuesti elementi permettono di discutere come un servizio rappresenti clienti, personale e relazioni di supporto. Per interpretarli occorre conoscere destinatari e obiettivi della comunicazione: una fotografia di gruppo o l’uso del plurale non bastano a dimostrare valori collettivistici degli utenti.",
+      "why": "Commento utente: eliminare la parola conservata nella sezione.",
+      "sourcesURLs": [],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "198:4563",
+      "boardId": "198:4553",
+      "baselineFolio": 33,
+      "oldText": "Nella schermata conservata di KFC in Bielorussia, prezzi e percentuali di sconto compaiono in una struttura regolare; il menu dei prodotti è disponibile nella stessa pagina. Sono informazioni che possono sostenere il confronto tra offerte.\n\nPer discutere lo UAI possiamo chiedere quali dubbi restino prima dell’acquisto e se questi contenuti aiutino a risolverli. Promozioni e organizzazione del menu dipendono anche da obiettivi commerciali: la schermata, da sola, non rivela il disagio degli utenti verso l’ambiguità.",
+      "newText": "Nella schermata di KFC in Bielorussia, prezzi e percentuali di sconto compaiono in una struttura regolare; il menu dei prodotti è disponibile nella stessa pagina. Sono informazioni che possono sostenere il confronto tra offerte.\n\nPer discutere lo UAI possiamo chiedere quali dubbi restino prima dell’acquisto e se questi contenuti aiutino a risolverli. Promozioni e organizzazione del menu dipendono anche da obiettivi commerciali: la schermata, da sola, non rivela il disagio degli utenti verso l’ambiguità.",
+      "why": "Commento utente: eliminare la parola conservata nella sezione.",
+      "sourcesURLs": [],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "198:5092",
+      "boardId": "198:5083",
+      "baselineFolio": 34,
+      "oldText": "Nella schermata conservata di KFC in Danimarca, uno slogan e una grande fotografia di prodotto occupano lo spazio principale; rispetto all’esempio bielorusso, i prezzi non sono visibili e sono mostrati meno contenuti.\n\nIl confronto invita a verificare se questa selezione faciliti la scoperta o lasci informazioni necessarie da cercare altrove. Campagna, compito e dispositivo possono incidere sulla risposta. Un’immagine ampia e pochi dati non dimostrano una maggiore tolleranza dell’incertezza né garantiscono coinvolgimento.",
+      "newText": "Nella schermata di KFC in Danimarca, uno slogan e una grande fotografia di prodotto occupano lo spazio principale; rispetto all’esempio bielorusso, i prezzi non sono visibili e sono mostrati meno contenuti.\n\nIl confronto invita a verificare se questa selezione faciliti la scoperta o lasci informazioni necessarie da cercare altrove. Campagna, compito e dispositivo possono incidere sulla risposta. Un’immagine ampia e pochi dati non dimostrano una maggiore tolleranza dell’incertezza né garantiscono coinvolgimento.",
+      "why": "Commento utente: eliminare la parola conservata nella sezione.",
+      "sourcesURLs": [],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2620:209",
+      "boardId": "198:3529",
+      "baselineFolio": 14,
+      "oldText": "Nel 1980 Geert Hofstede pubblicò Culture’s Consequences, presentando quattro dimensioni per confrontare i valori culturali tra Paesi: distanza dal potere (PDI), individualismo/collettivismo (IDV), mascolinità/femminilità (MAS) e avversione all’incertezza (UAI).\n\nIl modello comprende anche LTO e IVR. I nuovi schemi usano gli indici relativi 0–100 di The Culture Factor, consultati il 9 ottobre 2026: sono dati aggregati, non percentuali né profili dei singoli utenti. IDV e LTO sono stati aggiornati nel 2023; le rilevazioni provengono da anni diversi. Per il design suggeriscono domande da verificare con ricerca locale.",
+      "newText": "Nel 1980 Geert Hofstede pubblicò Culture’s Consequences, presentando quattro dimensioni per confrontare i valori culturali tra Paesi: distanza dal potere (PDI), individualismo/collettivismo (IDV), mascolinità/femminilità (MAS, da Masculinity) e avversione all’incertezza (UAI).\n\nL’orientamento a lungo termine (LTO) fu aggiunto con Michael Bond nel 1988/1991; indulgenza/restrizione (IVR), con Michael Minkov nel 2010. Gli schemi usano indici relativi di The Culture Factor, consultati il 9 ottobre 2026: dati aggregati, non percentuali né profili individuali. IDV e LTO sono stati aggiornati nel 2023; le rilevazioni provengono da anni diversi.",
+      "why": "Cronologia LTO/IVR e origine della sigla MAS; versione storica distinta dai dati correnti.",
+      "sourcesURLs": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/",
+        "https://www.theculturefactor.com/frequently-asked-questions"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "I2695:4555;2679:563",
+      "boardId": "2695:4538",
+      "baselineFolio": 26,
+      "oldText": "Quali valori ricevono riconoscimento: cooperazione e qualità della vita, oppure competizione e successo? È la dimensione storicamente chiamata «mascolinità/femminilità», oggi rinominata da The Culture Factor.",
+      "newText": "Quali valori ricevono riconoscimento: cooperazione e qualità della vita, oppure competizione e successo? MAS deriva dal nome storico Masculinity; The Culture Factor usa oggi «motivazione al risultato e al successo».",
+      "why": "Commento MAS: la sigla deriva dal nome storico, non dal nuovo nome TCF.",
+      "sourcesURLs": [
+        "https://www.theculturefactor.com/frequently-asked-questions",
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "198:4956",
+      "boardId": "198:4947",
+      "baselineFolio": 27,
+      "oldText": "La dimensione MAS, oggi chiamata «motivazione al risultato e al successo» da The Culture Factor, confronta il peso attribuito a competizione, risultati e successo materiale con quello dato a cooperazione, cura e qualità della vita. Il nome storico «mascolinità/femminilità» riflette la terminologia del modello di Hofstede; la nuova denominazione conserva il costrutto.\n\nQuesta distinzione serve a interpretare il concetto, non a misurare il genere o le emozioni dei singoli utenti: descrive valori prevalenti in una società, non caratteristiche delle persone. Nella progettazione aiuta a riflettere sui valori trasmessi da messaggi e immagini, che possono mettere in primo piano prestazioni e riconoscimento oppure relazioni e benessere condiviso.",
+      "newText": "La sigla MAS deriva da Masculinity, il nome storico della dimensione «mascolinità/femminilità». The Culture Factor la chiama oggi «motivazione al risultato e al successo», mantenendone punteggi e significato. Il confronto riguarda il peso di competizione, risultati e successo materiale rispetto a cooperazione, cura e qualità della vita.\n\nIl nome storico riflette la terminologia di Hofstede. L’indice descrive valori a livello sociale; non misura il genere o le emozioni dei singoli utenti. Per il design suggerisce domande su come vengono interpretati messaggi di prestazione, riconoscimento, relazioni e benessere condiviso.",
+      "why": "MAS spiegato; nome TCF conservato; livello sociale distinto dalla persona.",
+      "sourcesURLs": [
+        "https://www.theculturefactor.com/frequently-asked-questions",
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2620:250",
+      "boardId": "198:4984",
+      "baselineFolio": 42,
+      "oldText": "Adattare un servizio può richiedere scelte su lingua, canali, accesso e strumenti disponibili. Sono aspetti da studiare nel contesto d’uso, senza attribuirli automaticamente ai valori nazionali.",
+      "newText": "Capire il contesto significa studiare anche come si accede al servizio, quali canali sono disponibili e quali strumenti possono usare le persone. La localizzazione riguarda questi aspetti oltre a testi e layout. Il caso IKEA aiuta a osservare il percorso fra sito, telefono e app, verificando familiarità e barriere nel contesto d’uso.",
+      "why": "Commento IKEA: rendere chiaro perché il contesto riguarda anche servizi e accesso.",
+      "sourcesURLs": [
+        "https://www.w3.org/International/quicktips/"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2620:256",
+      "boardId": "198:4984",
+      "baselineFolio": 42,
+      "oldText": "La schermata propone telefono, codice e un’opzione WeChat. Documenta funzioni disponibili nella versione mostrata.",
+      "newText": "Nella versione mostrata, IKEA propone numero di telefono, codice di verifica e WeChat. Sono alternative per entrare nel servizio: descriverle aiuta a capire quali strumenti e account il percorso richiede.",
+      "why": "Legare osservazioni della schermata ai requisiti di accesso.",
+      "sourcesURLs": [
+        "https://file.app.ikea.cn/cms/u/20260129/55a93c9d6a2b4e729edd824dffa46f7a.pdf"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2620:312",
+      "boardId": "198:5039",
+      "baselineFolio": 46,
+      "oldText": "GLOBE distingue nove dimensioni e separa le pratiche percepite, «come sono», dai valori desiderati, «come dovrebbero essere». Le due misure rispondono a domande diverse.",
+      "newText": "GLOBE (Global Leadership and Organizational Behavior Effectiveness) è un programma internazionale avviato da Robert J. House nei primi anni ’90 per studiare cultura, leadership e organizzazioni. Distingue nove dimensioni e rileva separatamente pratiche percepite («come sono») e valori desiderati («come dovrebbero essere»).",
+      "why": "Commento GLOBE: sciogliere sigla e spiegare origine e scopo.",
+      "sourcesURLs": [
+        "https://globeproject.com/about",
+        "https://ilaglobalnetwork.org/awards/leadership-legacy-program/robert-house/"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2620:264",
+      "boardId": "198:4475",
+      "baselineFolio": 43,
+      "oldText": "Il concetto di contesto alto/basso di Edward T. Hall riguarda il peso del contesto condiviso e delle informazioni rese esplicite nella comunicazione.\n\nNello stesso ambiente si possono usare entrambi: un messaggio tra persone che si conoscono può presupporre riferimenti comuni; una procedura rivolta a nuovi utenti deve spiegare di più.",
+      "newText": "Il concetto di contesto alto/basso di Edward T. Hall riguarda il peso del contesto condiviso e delle informazioni rese esplicite nella comunicazione. È distinto dall’organizzazione monocronica o policronica del tempo.\n\nNello stesso ambiente si possono usare entrambi: un messaggio tra persone che si conoscono può presupporre riferimenti comuni; una procedura rivolta a nuovi utenti deve spiegare di più.",
+      "why": "Distinguere contesto comunicativo e organizzazione del tempo.",
+      "sourcesURLs": [
+        "https://www.penguinrandomhouse.com/books/73813/beyond-culture-by-edward-t-hall/",
+        "https://www.storre.stir.ac.uk/handle/1893/3174"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:336",
+      "boardId": "2668:238",
+      "baselineFolio": 48,
+      "oldText": "Le pagine seguenti riprendono integralmente i casi McDonald’s e Alibaba, con i testi e le schermate delle versioni documentate. Li usiamo per discutere come leggere un’interfaccia alla luce delle dimensioni culturali.",
+      "newText": "Le pagine seguenti riprendono i casi McDonald’s e Alibaba, mantenendo le schermate delle versioni documentate. I testi distinguono ciò che possiamo osservare dalle interpretazioni culturali: una differenza fra siti suggerisce domande da verificare, senza dimostrare da sola bisogni o valori dei loro pubblici.",
+      "why": "Integralmente sarebbe inesatto dopo la revisione; preservare tutti i casi e immagini.",
+      "sourcesURLs": [
+        "https://doi.org/10.1145/345190.345238",
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:340",
+      "boardId": "2668:238",
+      "baselineFolio": 48,
+      "oldText": "I testi originali propongono letture culturali delle schermate. Confrontale con i limiti dei modelli discussi nel capitolo e con altre possibili spiegazioni.",
+      "newText": "Le interpretazioni proposte nei casi sono ipotesi. Considera anche campagne, prodotti, destinatari, dispositivi e obiettivi commerciali prima di collegare un elemento a una dimensione culturale.",
+      "why": "Rendere concrete le spiegazioni alternative alle deduzioni nazionali.",
+      "sourcesURLs": [
+        "https://doi.org/10.1145/345190.345238",
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:351",
+      "boardId": "198:4995",
+      "baselineFolio": 50,
+      "oldText": "McDonald’s è la più grande catena di fast food al mondo: serve ogni giorno più di 64 milioni di clienti e i suoi ristoranti sono presenti in più di 100 Paesi. Rappresentando l’emblema della globalizzazione, McDonald’s fonda il suo successo sull’apertura di punti vendita in tutto il mondo. Nel contesto digitale, dunque, è possibile analizzare la sua presenza online e comprendere come questa azienda sia riuscita a incontrare le differenze culturali dei propri clienti, adattando la propria identità senza mai snaturarsi.",
+      "newText": "McDonald’s opera in numerosi mercati e offre un caso per confrontare l’identità di un brand con gli adattamenti delle sue pagine locali. Le catture del booklet documentano versioni precedenti dei siti: mostrano prodotti, campagne e percorsi disponibili in quel momento.\n\nIl confronto riguarda queste schermate, non il comportamento di tutti gli abitanti dei Paesi considerati. Lingua, offerta commerciale e organizzazione del servizio possono incidere sulle scelte progettuali insieme al contesto culturale.",
+      "why": "Rimuovere statistiche aziendali senza data e successo attribuito automaticamente alla cultura.",
+      "sourcesURLs": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:353",
+      "boardId": "198:4995",
+      "baselineFolio": 50,
+      "oldText": "I siti Web di culture con una bassa distanza dal potere offrono agli utenti informazioni obiettive e dettagliate affinché essi possano sviluppare una propria idea personale in merito ai contenuti che leggono. La comunicazione è informale, diretta e partecipativa, volta a conquistare la fiducia degli utenti. Al contrario, gli utenti di società con un'alta distanza dal potere sono abituati alle autorità e alle strutture consolidate: per questo motivo non amano avere troppa responsabilità poiché prendono l’azienda come fonte autorevole e affidabile di cui fidarsi.",
+      "newText": "La distanza dal potere offre una domanda sul modo in cui un servizio presenta ruoli, competenze e autorevolezza. Nei due siti possiamo confrontare struttura delle informazioni, tono e accesso ai contenuti.\n\nQueste differenze non dimostrano che un pubblico voglia delegare le scelte all’azienda oppure navigare con maggiore autonomia. Per interpretarle servono informazioni sui compiti delle persone e sulle finalità delle pagine.",
+      "why": "PDI non misura volontà di delega o libertà di navigazione desiderata.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:357",
+      "boardId": "198:4458",
+      "baselineFolio": 51,
+      "oldText": "La cultura cinese, abituata alle disuguaglianze di potere tra autorità e subordinati, accetta - e si aspetta - che sia l’azienda a decidere i prodotti e i contenuti destinati ai suoi clienti. La ricchezza delle informazioni visualizzate è inversamente proporzionale alla libertà di scelta e navigazione: il layout a mosaico offre in modo strutturato la maggior parte delle informazioni, presentando all'utente tutto ciò di cui può aver bisogno senza dover consultare altre sezioni del sito.",
+      "newText": "La cattura cinese organizza molti contenuti in un layout a mosaico. Prodotti, campagne e informazioni dell’azienda sono disponibili nella stessa homepage. È una scelta editoriale osservabile; la quantità di contenuti non misura la libertà effettiva di navigazione.\n\nPer discutere l’autorevolezza del servizio, chiediamo quali elementi aiutino le persone a capire l’offerta e a scegliere un percorso. Il mosaico può dipendere anche da campagne e obiettivi commerciali della versione mostrata.",
+      "why": "Eliminare cultura cinese→delega e rapporto inverso non misurato contenuti/libertà.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:363",
+      "boardId": "198:5017",
+      "baselineFolio": 52,
+      "oldText": "L’homepage di McDonald's in Olanda risulta molto leggera e mostra all’utente contenuti essenziali come i prodotti, i servizi offerti e il funzionamento dell'azienda. La cultura olandese tende a prendere le proprie decisioni d’acquisto in base alle informazioni che autonomamente trova sul Web, perciò il design di questo sito ha una struttura ordinata e informativa, con la possibilità per gli utenti di navigare liberamente tra le varie sezioni.",
+      "newText": "La cattura dei Paesi Bassi mostra una homepage più essenziale: prodotti, servizi e informazioni sull’azienda occupano sezioni distinte. Possiamo confrontare come le due versioni distribuiscono i contenuti e rendono visibili i percorsi.\n\nPer capire se questa struttura sostiene scelte autonome, osserviamo persone alle prese con lo stesso compito. Una pagina ordinata non dimostra, da sola, che tutto il pubblico condivida un particolare orientamento verso l’autorità.",
+      "why": "Conservare osservazioni; evitare stereotipo nazionale d’acquisto autonomo.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:369",
+      "boardId": "2648:240",
+      "baselineFolio": 53,
+      "oldText": "Nelle società individualistiche gli utenti agiscono secondo i propri obiettivi personali e prendono le decisioni in modo autonomo in base a ciò che più soddisfa le necessità del momento. Al contrario, gli utenti di culture collettive tendono a prendere le decisioni basandosi sull’opinione altrui e su ciò che è comune o popolare. A livello di contenuti, le società individualistiche parlano al singolo mentre quelle collettive all'intera community.",
+      "newText": "L’individualismo e il collettivismo invitano a esplorare chi partecipa alle decisioni e quali relazioni contano nell’uso del servizio. Nei siti possiamo osservare come vengono rappresentati prodotti, persone e risultati.\n\nUn’immagine singola o di gruppo non rivela il processo decisionale degli utenti. Per comprenderlo, chiediamo chi sceglie, per chi viene fatto l’acquisto e quali opinioni entrano nella scelta.",
+      "why": "IDV nazionale non determina processo decisionale individuale.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:371",
+      "boardId": "2648:240",
+      "baselineFolio": 53,
+      "oldText": "Il sito americano presenta come prima immagine la fotografia di un panino, dando enfasi all'elemento singolo piuttosto che a un gruppo. Inoltre, la sezione “My rewards” sottolinea in modo diretto ed esplicito l'importanza delle ricompense materiali - e la gratificazione personale che ne deriva - tipiche delle culture individualistiche. Le CTA - “Earn Points”, “Order in the App”, “Order McDelivery Now”, “Get the app deals” - suggeriscono all'utente azioni legate alla soddisfazione dei propri bisogni - fame e voglia di mangiare - o all'ottenimento di premi e vantaggi.",
+      "newText": "Nella cattura statunitense, la prima immagine dà rilievo a un panino. La sezione «My rewards» e le CTA «Earn Points», «Order in the App», «Order McDelivery Now» e «Get the app deals» propongono premi, ordinazione e vantaggi dell’app.\n\nQuesti elementi documentano l’offerta e gli incentivi del servizio. Per discutere obiettivi personali e decisioni condivise, verifichiamo come vengono usati: premi e prodotto singolo non sono prove dell’individualismo del pubblico.",
+      "why": "Conservare CTA e prodotti, eliminare premi come prova IDV.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:380",
+      "boardId": "2648:267",
+      "baselineFolio": 55,
+      "oldText": "Il sito turco, diversamente da quello americano, si apre con la fotografia di diversi prodotti presentati tutti insieme e anche nelle immagini che scorrono gli elementi non sono mai presentati da soli. Un esempio, che evidenzia ulteriormente questa tendenza, è la fotografia di una squadra di pallavoliste utilizzata per una campagna. Le sezioni sottostanti mostrano contenuti destinati a diverse fasce d’età, come l'Happy Meal per i bambini o l'Applicazione per gli adulti.L'importanza del gruppo e delle relazioni interpersonali è infine sottolineata dai link ai canali social che sono invece assenti sul sito americano.",
+      "newText": "La cattura turca si apre con più prodotti presentati insieme. Una campagna mostra una squadra di pallavoliste; altre sezioni propongono Happy Meal e applicazione. Rispetto alla versione statunitense mostrata, compaiono anche collegamenti ai canali social.\n\nSono scelte di prodotto e comunicazione che possono suggerire domande sulle relazioni: per chi si acquista, chi partecipa alla scelta e che ruolo hanno le raccomandazioni? Le fotografie di gruppo non dimostrano, da sole, valori collettivistici degli utenti.",
+      "why": "Conservare prodotti/campagna/social; togliere causalità collettivismo→foto.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:386",
+      "boardId": "2648:298",
+      "baselineFolio": 56,
+      "oldText": "Le persone cresciute in una società mascolina tendono a rincorrere il successo, mettendosi alla prova e cercando di diventare i migliori in ciò che fanno. Nel Web design ciò si riflette in utenti critici, che si aspettano un’alta qualità dei contenuti e delle informazioni offerte. Inoltre, competizioni e incentivi possono catturare la loro attenzione. Gli utenti di una società femminile, al contrario, non desiderano farsi riconoscere e vogliono evitare i conflitti: per questo l’esperienza generale su un sito sarà più importante dei dettagli tecnici. L'utente di una cultura femminile è cooperativo e tende a dare feedback.",
+      "newText": "La dimensione MAS permette di discutere il peso dato a successo e riconoscimento rispetto a cooperazione, cura e qualità della vita. Nei casi possiamo confrontare i valori evocati da campagne, immagini e messaggi.\n\nIl punteggio nazionale non stabilisce quanto gli utenti siano critici, attenti ai dettagli o disponibili a dare feedback. Questi comportamenti dipendono anche da obiettivi, esperienza e relazione con il servizio.",
+      "why": "Eliminare stereotipi MAS→competenza tecnica, conflitti e feedback.",
+      "sourcesURLs": [
+        "https://www.theculturefactor.com/frequently-asked-questions",
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:388",
+      "boardId": "2648:298",
+      "baselineFolio": 56,
+      "oldText": "Il sito slovacco, dopo il carosello di fotografie in primo piano, pone l’attenzione su aspetti dell’azienda che vanno oltre i prodotti alimentari. La tendenza al successo e l'importanza dei risultati sono concetti che si ritrovano nella sezione che racconta gli obiettivi raggiunti da McHappy Day, un'iniziativa volta a sostenere le famiglie con bambini in cura lontano da casa. Ma non solo: il sito offre informazioni pratiche per lavorare in McDonald’s e ottenere dei panini gratis. Avendo a che fare con utenti provenienti da culture tendenzialmente attente alla qualità di ciò che gli viene presentato, McDonald’s sottolinea più volte la qualità delle materie prime e la provenienza dei prodotti proposti",
+      "newText": "La cattura slovacca affianca ai prodotti alimentari contenuti sull’azienda. McHappy Day racconta il sostegno alle famiglie con bambini in cura lontano da casa; altre sezioni presentano opportunità di lavoro, promozioni e qualità delle materie prime.\n\nSuccesso, cura e qualità possono comparire nello stesso sito. Chiediamo come questi messaggi vengono interpretati e quali informazioni contano nella scelta: la schermata non dimostra una particolare attenzione tecnica dell’intero pubblico.",
+      "why": "Conservare messaggi; distinguere successo/cura dal punteggio nazionale.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:397",
+      "boardId": "2648:325",
+      "baselineFolio": 58,
+      "oldText": "La prima cosa che appare sul sito sloveno è la presentazione di una coppia di nuovi panini, Don Juan e Doña Sofia. E’ possibile vedere un cuore sopra a due hamburger e la scritta “Dolce novembre” accanto a un donut. Altri testi in linea con questa tendenza sono “Buongiorno, buona giornata!” e “La vita è dolce”. Infine, incontrando la cooperazione dei propri utenti, McDonald's chiede ai visitatori un feedback, sottolineando l'importanza della loro opinione.",
+      "newText": "La cattura slovena presenta i panini Don Juan e Doña Sofia. Un cuore accompagna due hamburger; un donut compare accanto a «Dolce novembre». Altri messaggi sono «Buongiorno, buona giornata!» e «La vita è dolce». Il sito invita inoltre a dare un feedback.\n\nPossiamo discutere i temi evocati da questi elementi e confrontarli con la versione slovacca. La presenza di un cuore o di una richiesta di opinioni non misura i valori personali degli utenti né ne prova la disponibilità a collaborare.",
+      "why": "Conservare esempi, eliminare cooperazione dedotta dal Paese.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:403",
+      "boardId": "2648:356",
+      "baselineFolio": 59,
+      "oldText": "Nelle società con un alto rifiuto dell’incertezza le persone preferiscono approcci deduttivi piuttosto che induttivi. A questi utenti piace analizzare ciò che si trovano davanti e basare le proprie scelte e azioni su una valutazione sistematica di tutti gli aspetti più rilevanti. Inoltre, preferiscono ciò che è familiare a ciò che non lo è. È necessario dunque presentare le informazioni importanti nella maniera più chiara e strutturata possibile, in quanto gli utenti di questo tipo hanno bisogno di confrontare differenti opzioni per prendere delle decisioni. Le persone con un basso rifiuto dell’incertezza, al contrario, sono più aperte alle idee inaspettate e alle novità di ciò che non conoscono. Questi utenti sono più tolleranti verso tutto ciò che è nuovo e diverso da loro, sono spontanei e pensano in modo pratico, adattandosi a nuove situazioni. Sul Web, le tecnologie e i trend del momento offrono nuove possibilità ogni giorno e le società con un basso rifiuto dell'incertezza sono quelle che possono accoglierle meglio.",
+      "newText": "L’evitamento dell’incertezza (UAI) riguarda il rapporto con situazioni ambigue o sconosciute. È distinto dall’avversione al rischio e non misura la capacità di gestire problemi o adottare nuove tecnologie.\n\nNei casi russo e indiano osserviamo informazioni disponibili, struttura e interazioni. Per discuterne l’uso, verifichiamo quali dubbi emergono durante il compito e quali elementi aiutano a risolverli. La chiarezza è una domanda progettuale da studiare con le persone, non una qualità da riservare a una nazionalità.",
+      "why": "Correggere UAI=rischio/competenza e stili cognitivi dedotti dal Paese.",
+      "sourcesURLs": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/",
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:405",
+      "boardId": "2648:356",
+      "baselineFolio": 59,
+      "oldText": "L’homepage russa propone agli utenti una ricca navigazione del menu, come le proposte del McCafè, quelle per genitori e figli, le promozioni del momento e la qualità dei prodotti. Tra le immagini che scorrono, e anche più sotto, sono presentati diversi panini con accanto il loro prezzo, dando dunque agli utenti la possibilità di fare una scelta ponderata attraverso le informazioni che L’utente trova nella homepage la maggior parte delle cose di cui ha bisogno grazie ad un layout familiare e regolare, dotato di un secondo sistema di navigazione per filtrare i prodotti visibili.",
+      "newText": "L’homepage russa presenta un menu articolato: proposte McCafé, contenuti per genitori e figli, promozioni e qualità dei prodotti. Nelle immagini sono mostrati panini con il prezzo, offrendo agli utenti le informazioni che leggono e possono confrontare. La pagina include anche un secondo sistema di navigazione per filtrare i prodotti.\n\nPer capire se queste informazioni sostengono la scelta, osserviamo come vengono cercate e usate. Il numero di opzioni e la struttura regolare non dimostrano, da soli, il disagio degli utenti verso l’ambiguità.",
+      "why": "Riparare frase con le informazioni che leggono; evitare decisioni ponderate dedotte dalla UI.",
+      "sourcesURLs": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:415",
+      "boardId": "2648:383",
+      "baselineFolio": 61,
+      "oldText": "Il sito indiano è più dirompente e innovativo: ciò si rispecchia nella maggior parte degli elementi del sito, a partire dal cursore a forma di McFlurry e dalla barra di caricamento a forma di patatine fritte. Il layout è irregolare, asimmetrico, con elementi animati e testi a comparsa. A differenza del sito russo, gli utenti possono navigare tra una serie di contenuti anche molto diversi tra loro, tanto che i prodotti passano quasi in secondo piano. La prima immagine che appare annuncia l’arrivo di una new entry nel menu, incontrando la tendenza di questa cultura ad accogliere le novità. Dal punto di vista della navigazione, McDonald’s invita gli utenti ad allontanarsi dall’homepage per scoprire altri contenuti.",
+      "newText": "La versione indiana documentata usa un cursore a forma di McFlurry e una barra di caricamento a forma di patatine. Il layout presenta asimmetrie, animazioni e testi a comparsa. La prima immagine annuncia un nuovo prodotto e diversi collegamenti portano ad altri contenuti.\n\nQueste scelte possono servire a richiamare attenzione o caratterizzare una campagna. Per capirne l’effetto, verifichiamo se le persone trovano le informazioni e completano il compito. Animazioni e novità non dimostrano una maggiore tolleranza dell’incertezza del pubblico indiano.",
+      "why": "Conservare interazioni, evitare apertura nazionale alle novità inferita.",
+      "sourcesURLs": [
+        "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:421",
+      "boardId": "2648:414",
+      "baselineFolio": 62,
+      "oldText": "Le persone con una visione a breve termine vivono più nel presente e nel passato piuttosto che nel futuro. Ciò che conta sono i risultati veloci, in linea con i valori e le tradizioni note. Sul Web è necessario offrire delle scorciatoie per far compiere azioni immediate agli utenti ed è possibile catturare la loro attenzione attraverso qualcosa che è loro familiare. Al contrario, le società a lungo termine si aspettano di trovare informazioni dettagliate che li convincano della validità dei prodotti offerti. I consumatori che rientrano nel dominio culturale orientato al futuro amano prendersi il loro tempo nel formulare le proprie valutazioni. Ad esempio, apprezzano tutti gli strumenti che consentono loro di salvare prodotti e informazioni per il futuro, come in una lista dei desideri. I consumatori orientati al presente, al contrario, sono più propensi a preferire decisioni rapide e rischiose. Per questo motivo sono inclini a scegliere grandi pulsanti di call-to-action che li spingano a fare acquisti in modo più deciso.",
+      "newText": "L’orientamento a lungo termine (LTO) confronta il peso della preparazione del futuro con quello di tradizioni e obblighi presenti o passati. Non misura la velocità d’acquisto, il gradimento di grandi CTA o la disponibilità a rischiare.\n\nNei casi possiamo osservare promozioni immediate, investimenti e impegni dell’azienda. Per discuterli, chiediamo quali benefici le persone cercano, quali informazioni aiutano a valutarli e quando è utile ritrovarle in seguito. Una wishlist risponde a un’esigenza da verificare nel compito, non a una regola nazionale.",
+      "why": "Correggere LTO=impulsività/rischio/preferenze per liste e pulsanti.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:423",
+      "boardId": "2648:414",
+      "baselineFolio": 62,
+      "oldText": "Nel sito portoghese sono presenti numerose call-to-action che portano l’utente ad agire nell’immediato, incluso un pop up che invita a saperne di più riguardo a una campagna fraudolenta. Le immagini sono essenziali, legate al contesto del sito",
+      "newText": "Nella cattura portoghese, numerose CTA invitano a esplorare l’offerta. Un pop-up segnala una campagna fraudolenta e propone maggiori informazioni. Le immagini sono legate a prodotti e messaggi del sito.\n\nSono contenuti orientati ad azioni immediate, ma non dimostrano una preferenza del pubblico per decisioni rapide o rischiose. Il messaggio sulla frode, per esempio, risponde a un problema concreto di sicurezza.",
+      "why": "Completare il testo e distinguere azioni della pagina da preferenze nazionali.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:432",
+      "boardId": "2648:441",
+      "baselineFolio": 64,
+      "oldText": "Sul sito cinese, agli utenti è presentata una serie di informazioni che vanno oltre i prodotti offerti dalla catena di ristoranti. L’attenzione degli utenti è focalizzata su aspetti a lungo termine come la costruzione di nuovi edifici, le campagne a favore dell’ambiente, l’apertura di nuovi punti vendita e la gestione delle fattorie da cui arrivano le materie prime.",
+      "newText": "La cattura cinese presenta contenuti oltre l’offerta alimentare: nuovi edifici e punti vendita, iniziative ambientali e gestione delle fattorie da cui provengono le materie prime. Sono temi con orizzonti temporali diversi, scelti nella comunicazione dell’azienda.\n\nPer discuterli attraverso LTO, chiediamo quali impegni futuri o continuità con le pratiche presenti vengono raccontati. La loro presenza non prova che tutti gli utenti preferiscano valutazioni lunghe o informazioni più dettagliate.",
+      "why": "Conservare investimenti e ambiente senza dedurre aspettative temporali del pubblico.",
+      "sourcesURLs": [
+        "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf",
+        "https://doi.org/10.1145/345190.345238"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:441",
+      "boardId": "198:4509",
+      "baselineFolio": 66,
+      "oldText": "Alibaba è nata alla fine degli anni '90 come piattaforma di e-commerce B2B per mettere in contatto i fornitori cinesi con gli acquirenti di tutto il mondo. A 22 anni dalla sua nascita, quotata in borsa e con un fatturato di oltre 90 miliardi di euro, l'azienda è diventata un colosso del mercato internazionale. Tuttavia, analizzando il suo sito principale è possibile notare una serie di elementi che fanno pensare ad una scarsa attenzione verso gli utenti di culture e provenienze diverse da quella cinese.",
+      "newText": "Alibaba nacque nel 1999 come piattaforma B2B per collegare fornitori cinesi e acquirenti internazionali. Il caso del booklet confronta la versione italiana con pagine e contenuti documentati nello stesso periodo.\n\nLe catture permettono di discutere lingua, traduzione e coerenza visiva. Eventuali problemi riguardano queste versioni: per valutare il servizio attuale occorre ripetere l’osservazione e verificare i compiti delle persone.",
+      "why": "Rimuovere età e fatturato senza data; contestualizzare il caso storico.",
+      "sourcesURLs": [
+        "https://www.alibabagroup.com/en-US/about-alibaba"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:443",
+      "boardId": "198:4509",
+      "baselineFolio": 66,
+      "oldText": "Alibaba offre la possibilità di selezionare la lingua e la valuta che gli utenti preferiscono, tuttavia la traduzione italiana appare sommaria e peggiora drasticamente nelle schede dei prodotti, dove l'articolazione delle frasi rende difficile la comprensione dei testi. Inoltre, tra le immagini che scorrono nell'homepage alcune di esse sono rimaste in inglese e come per una frase nel footer.",
+      "newText": "La versione mostrata permette di scegliere lingua e valuta. Nei testi italiani compaiono formulazioni poco chiare, soprattutto nelle schede prodotto; alcune immagini e una frase del footer restano in inglese.\n\nLa localizzazione va controllata lungo tutto il percorso: contenuti nelle immagini, etichette, messaggi e descrizioni dei prodotti. Il selettore deve essere visibile e usare i nomi delle lingue nella scrittura di destinazione; lingua, regione e valuta sono scelte distinte.",
+      "why": "Chiarire problema e verifica pratica, riparare la frase sul footer.",
+      "sourcesURLs": [
+        "https://www.w3.org/International/quicktips/"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:449",
+      "boardId": "198:5050",
+      "baselineFolio": 67,
+      "oldText": "La lingua italiana occupa molto più spazio di quella cinese eppure, in più sezioni del sito, è chiaro che non sia stata presa in considerazione questa variabile: i pulsanti, le CTA e le schede prodotto mostrano in modo evidente le lacune della progettazione poiché il testo non compare nella sua interezza e vengono mostrati dei punti di sospensione.",
+      "newText": "Nelle catture, alcuni testi italiani nei pulsanti, nelle CTA e nelle schede prodotto terminano con punti di sospensione. Questo documenta un troncamento, ma non ne dimostra la causa tecnica.\n\nUna traduzione può occupare più o meno spazio della stringa originale; contano testo, glifi, dimensioni e componente. Prova le traduzioni reali e lascia spazio per righe aggiuntive o etichette alternative.",
+      "why": "Correggere italiano sempre più lungo del cinese e causa del troncamento non verificata.",
+      "sourcesURLs": [
+        "https://www.w3.org/International/articles/article-text-size"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:450",
+      "boardId": "198:5050",
+      "baselineFolio": 67,
+      "oldText": "Anche nelle schede prodotto si riscontra il medesimo problema, con testi che vengono interrotti improvvisamente perché troppo lunghi. Il testo in alcune card va addirittura a coprire la grafica, rendendo difficile la lettura e dando un aspetto poco professionale all’insieme.",
+      "newText": "In alcune card il testo si interrompe o si sovrappone alla grafica. Verifica se le informazioni necessarie restano leggibili e se la persona può accedere al testo completo.\n\nIl controllo riguarda più lingue, dispositivi e dimensioni del testo: anche stringhe brevi possono creare problemi se il componente impone uno spazio fisso.",
+      "why": "Separare problema osservabile da giudizio estetico; verifica sul compito.",
+      "sourcesURLs": [
+        "https://www.w3.org/International/articles/article-text-size"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:459",
+      "boardId": "2668:322",
+      "baselineFolio": 69,
+      "oldText": "Navigando in sezioni del sito diverse dall’homepage è possibile notare una forte incongruenza tra la pagina principale e quelle secondarie. Spostandosi per esempio nelle sezioni delle categorie il testo dell’intero sito da Sans Serif diventa Times New Roman.",
+      "newText": "Nelle versioni documentate, la homepage e alcune pagine di categoria mostrano trattamenti tipografici diversi: il testo passa da un carattere senza grazie a uno con grazie. Le catture permettono di osservare la differenza, senza identificarne la causa tecnica.\n\nPer verificare la coerenza, confronta gerarchie, leggibilità e comportamento dei componenti nelle pagine e nelle lingue previste. Un cambio di font può dipendere anche da risorse mancanti o da stili diversi: va controllato nel prodotto.",
+      "why": "Non identificare Times New Roman dal solo screenshot né attribuire causa CSS certa.",
+      "sourcesURLs": [
+        "https://www.w3.org/International/quicktips/",
+        "https://www.w3.org/International/questions/qa-choosing-encodings.en"
+      ],
+      "fontRole": "body",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:352",
+      "boardId": "198:4995",
+      "baselineFolio": 50,
+      "oldText": "Distanza dal potere: Olanda vs Cina",
+      "newText": "PDI · Paesi Bassi e Cina",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:356",
+      "boardId": "198:4458",
+      "baselineFolio": 51,
+      "oldText": "Alta distanza dal potere: McDonald's Cina",
+      "newText": "PDI · McDonald’s Cina",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:362",
+      "boardId": "198:5017",
+      "baselineFolio": 52,
+      "oldText": "Bassa distanza dal potere: McDonald's Olanda",
+      "newText": "PDI · McDonald’s Paesi Bassi",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:368",
+      "boardId": "2648:240",
+      "baselineFolio": 53,
+      "oldText": "Individualismo: Stati uniti vs Turchia",
+      "newText": "IDV · Stati Uniti e Turchia",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:370",
+      "boardId": "2648:240",
+      "baselineFolio": 53,
+      "oldText": "Individualismo: McDonald's Stati Uniti",
+      "newText": "IDV · McDonald’s Stati Uniti",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:374",
+      "boardId": "2668:250",
+      "baselineFolio": 54,
+      "oldText": "Individualismo: McDonald's Stati Uniti · schermata completa",
+      "newText": "IDV · McDonald’s Stati Uniti · schermata completa",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:379",
+      "boardId": "2648:267",
+      "baselineFolio": 55,
+      "oldText": "Collettivismo: McDonald's Turchia",
+      "newText": "IDV · McDonald’s Turchia",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:385",
+      "boardId": "2648:298",
+      "baselineFolio": 56,
+      "oldText": "Mascolinità: Slovacchia vs Slovenia",
+      "newText": "MAS · Slovacchia e Slovenia",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:387",
+      "boardId": "2648:298",
+      "baselineFolio": 56,
+      "oldText": "Mascolinità: McDonald's Slovacchia",
+      "newText": "MAS · McDonald’s Slovacchia",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:391",
+      "boardId": "2668:262",
+      "baselineFolio": 57,
+      "oldText": "Mascolinità: McDonald's Slovacchia · schermata completa",
+      "newText": "MAS · McDonald’s Slovacchia · schermata completa",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:396",
+      "boardId": "2648:325",
+      "baselineFolio": 58,
+      "oldText": "Femminilità: McDonald's Slovenia",
+      "newText": "MAS · McDonald’s Slovenia",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:402",
+      "boardId": "2648:356",
+      "baselineFolio": 59,
+      "oldText": "Rifiuto dell’incertezza: Russia vs India",
+      "newText": "UAI · Russia e India",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:404",
+      "boardId": "2648:356",
+      "baselineFolio": 59,
+      "oldText": "Alto rifiuto dell'incertezza: McDonald's Russia",
+      "newText": "UAI · McDonald’s Russia",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:409",
+      "boardId": "2668:274",
+      "baselineFolio": 60,
+      "oldText": "Alto rifiuto dell'incertezza: McDonald's Russia · schermata completa",
+      "newText": "UAI · McDonald’s Russia · schermata completa",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:414",
+      "boardId": "2648:383",
+      "baselineFolio": 61,
+      "oldText": "Basso rifiuto dell'incertezza: McDonald's India",
+      "newText": "UAI · McDonald’s India",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:420",
+      "boardId": "2648:414",
+      "baselineFolio": 62,
+      "oldText": "Orientamento a lungo termine: Cina vs Portogallo",
+      "newText": "LTO · Cina e Portogallo",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:422",
+      "boardId": "2648:414",
+      "baselineFolio": 62,
+      "oldText": "Orientamento a breve termine: McDonald's Portogallo",
+      "newText": "LTO · McDonald’s Portogallo",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:426",
+      "boardId": "2668:286",
+      "baselineFolio": 63,
+      "oldText": "Orientamento a breve termine: McDonald's Portogallo · schermata completa",
+      "newText": "LTO · McDonald’s Portogallo · schermata completa",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:431",
+      "boardId": "2648:441",
+      "baselineFolio": 64,
+      "oldText": "Orientamento a lungo termine: McDonald's Cina",
+      "newText": "LTO · McDonald’s Cina",
+      "why": "Titolo di confronto sul costrutto, evitando equivalenza automatica sito=tratto nazionale.",
+      "sourcesURLs": [],
+      "fontRole": "heading",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2620:327",
+      "boardId": "198:5039",
+      "baselineFolio": 46,
+      "oldText": "GLOBE Project · definizioni e item delle scale",
+      "newText": "GLOBE Project · origini, dimensioni e item delle scale",
+      "why": "Estendere fonte esistente all’introduzione aggiunta.",
+      "sourcesURLs": [
+        "https://globeproject.com/about"
+      ],
+      "fontRole": "source",
+      "action": "replaceText"
+    },
+    {
+      "nodeId": "2668:407",
+      "boardId": "2648:356",
+      "baselineFolio": 59,
+      "oldText": "Nota della fonte: la frase dopo «informazioni che» è tronca nell’originale.",
+      "newText": "",
+      "why": "Commento utente: rimuovere nota editoriale sul troncamento dopo la riparazione.",
+      "sourcesURLs": [],
+      "fontRole": "source",
+      "action": "removeNode"
+    }
+  ],
+  "newBoards": [
+    {
+      "key": "locale-dates",
+      "insertAfterBoardId": "198:4536",
+      "sequenceAfterAnchor": 1,
+      "title": "Lingua, locale e dati",
+      "kicker": "LOCALIZZARE IL SERVIZIO",
+      "blocks": [
+        {
+          "fontRole": "body",
+          "text": "Localizzare significa adattare anche convenzioni e percorsi. Lingua, regione, valuta e formato dei dati sono scelte diverse: la lingua inglese, per esempio, non identifica da sola un formato di data."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Scegliere una lingua"
+        },
+        {
+          "fontRole": "body",
+          "text": "Rendi visibile il cambio lingua anche nelle pagine interne. Scrivi le opzioni nella lingua e scrittura di destinazione: Italiano, English, 中文. Controlla testi, messaggi e contenuti nelle immagini."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Leggere una data"
+        },
+        {
+          "fontRole": "body",
+          "text": "04/05/2021 può indicare 4 maggio oppure 5 aprile. Per la prenotazione, esplicita il formato e verifica che le persone sappiano interpretare e inserire giorno, mese e anno."
+        },
+        {
+          "fontRole": "source",
+          "text": "* Spunti: Chiara Bellù, 2021–2022, pp. 29–33; verifica: W3C Internationalization."
+        }
+      ],
+      "sourcesURLs": [
+        "https://www.w3.org/International/quicktips/",
+        "https://www.w3.org/International/questions/qa-date-format.en"
+      ],
+      "visualPlan": {
+        "type": "editable_examples",
+        "examples": [
+          "04/05/2021",
+          "4 maggio 2021",
+          "May 4, 2021"
+        ],
+        "researchQuestion": "Quale data hai letto e come la inseriresti?",
+        "note": "Gli esempi con mese esplicito indicano la stessa data. Non assegnare un formato a tutto un Paese."
+      },
+      "duplicateAvoidance": "Nessun secondo caso Alibaba; lingua e formati del compito in una pagina."
+    },
+    {
+      "key": "color-context",
+      "insertAfterBoardId": "198:4536",
+      "sequenceAfterAnchor": 2,
+      "title": "Colore: significato e contesto",
+      "kicker": "LOCALIZZARE IL SERVIZIO",
+      "blocks": [
+        {
+          "fontRole": "body",
+          "text": "Le associazioni fra colori ed emozioni hanno elementi condivisi e differenze legate anche a lingua e contesto. Non formano un dizionario fisso di preferenze nazionali e non garantiscono una risposta emotiva."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Che cosa comunica nel servizio?"
+        },
+        {
+          "fontRole": "body",
+          "text": "Verifica con il pubblico previsto il significato di un colore in una campagna, uno stato o un avviso. Una stessa tonalità può svolgere funzioni diverse; distingui un’associazione da un effetto misurato."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Il messaggio resta comprensibile?"
+        },
+        {
+          "fontRole": "body",
+          "text": "Per errori, stati e azioni aggiungi un’indicazione visiva come testo o forma. La persona deve poter capire il messaggio anche quando non distingue le tonalità."
+        },
+        {
+          "fontRole": "source",
+          "text": "* Jonauskaite et al., 2020 · associazioni colore–emozione; W3C, WCAG 2.2, criterio 1.4.1."
+        }
+      ],
+      "sourcesURLs": [
+        "https://www.psychologicalscience.org/journals/psychological-science/0956797620948810/",
+        "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html"
+      ],
+      "visualPlan": {
+        "type": "editable_comparison",
+        "examples": [
+          "Indicatore rosso senza testo",
+          "Indicatore + “Data non disponibile”"
+        ],
+        "researchQuestion": "Quale stato leggi e che cosa pensi di poter fare?",
+        "note": "Non importare tabella nazioni/colore; usare dimostrazione propria."
+      },
+      "duplicateAvoidance": "Contesto e comprensione; controlli tecnici approfonditi nella sezione accessibilità."
+    },
+    {
+      "key": "scripts-icons",
+      "insertAfterBoardId": "198:4536",
+      "sequenceAfterAnchor": 3,
+      "title": "Scritture e simboli: verificare la lettura",
+      "kicker": "LOCALIZZARE IL SERVIZIO",
+      "blocks": [
+        {
+          "fontRole": "body",
+          "text": "La stessa identità può cambiare scrittura mantenendo elementi riconoscibili. Il confronto Coca-Cola permette di osservare forma, colore e lettering: l’adattamento richiede conoscenza della lingua e del sistema di scrittura."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Testo e gerarchie"
+        },
+        {
+          "fontRole": "body",
+          "text": "Verifica font, glifi, composizione, a capo e gerarchie di dimensione e peso. UTF-8 rappresenta il testo; non garantisce da sola la resa corretta. Nel cinese, l’assenza di spazi tra parole non implica assenza di gerarchie né scarsa leggibilità."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Forma e funzione dell’icona"
+        },
+        {
+          "fontRole": "body",
+          "text": "Riconoscere una stella non significa sapere se salva un elemento o assegna una valutazione. Affianca un’etichetta e verifica quale azione le persone prevedono e se trovano il comando nel compito."
+        },
+        {
+          "fontRole": "source",
+          "text": "* Loghi da Giulia La Marra, 2021–2022, p. 9; progetto cinese: Alan Chan Design, 2003. Testo: W3C; NN/G, 2014 e 2024."
+        }
+      ],
+      "sourcesURLs": [
+        "https://www.w3.org/TR/2026/DNOTE-clreq-20261007/",
+        "https://www.w3.org/International/questions/qa-choosing-encodings.en",
+        "https://www.nngroup.com/articles/icon-usability/",
+        "https://www.nngroup.com/articles/how-to-test-digital-icons/",
+        "https://www.alanchandesign.com/zh-hk/projects/2003_coca-cola/?pages=17"
+      ],
+      "visualPlan": {
+        "type": "original_logos_plus_editable_icons",
+        "assetPaths": [
+          "/private/tmp/cvedi-approfondimenti-review/cultura/images/lamarra-giulia-865628-giulia-la-marra-p9-i2-Image149.jpg",
+          "/private/tmp/cvedi-approfondimenti-review/cultura/images/lamarra-giulia-865628-giulia-la-marra-p9-i3-Image150.png"
+        ],
+        "iconLabels": [
+          "Preferiti",
+          "Valutazione"
+        ],
+        "researchQuestion": "Che cosa pensi che faccia questo simbolo?",
+        "note": "Preservare loghi/proporzioni e attribuzioni; non dire Spencerian. Icone di sistema con licenza nota."
+      },
+      "duplicateAvoidance": "RTL già nella tavola 44; CLReq citata come Group Note Draft 07/10/2026."
+    },
+    {
+      "key": "ikea-festival",
+      "insertAfterBoardId": "198:4536",
+      "sequenceAfterAnchor": 4,
+      "title": "IKEA · Festa, rituali e vita quotidiana",
+      "kicker": "IDENTITÀ E ADATTAMENTO",
+      "blocks": [
+        {
+          "fontRole": "body",
+          "text": "Una campagna può adattare temi, prodotti e messaggi mantenendo un’identità riconoscibile. Per collegare il caso ai modelli culturali, osserviamo quali pratiche vengono rappresentate e quali esigenze del servizio possiamo indagare."
+        },
+        {
+          "fontRole": "body",
+          "text": "La cattura cinese presenta novità per il Capodanno lunare: lanterne, decori rossi e scene domestiche. Il tema collega festa, tradizione e vita quotidiana. IKEA propone FÖSSTA anche fuori dalla Cina: la campagna non identifica automaticamente i valori di tutti i suoi pubblici."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Una domanda per la ricerca"
+        },
+        {
+          "fontRole": "body",
+          "text": "Quali rituali, attività e relazioni sostiene l’offerta? Colori e prodotti in gruppo non misurano da soli IDV, IVR o LTO."
+        },
+        {
+          "fontRole": "source",
+          "text": "* IKEA · cattura storica. Sarah Corleta, 2022–2023, p. 12, fig. 9. Verifica: IKEA, FÖSSTA 2023."
+        }
+      ],
+      "sourcesURLs": [
+        "https://www.ikea.com/us/en/newsroom/range-news/foessta-collection-puba8fbaf50/"
+      ],
+      "visualPlan": {
+        "type": "original_asset",
+        "assetPath": "/Users/marco/Sites/cvedi2627/assets/booklet/revisione-culturale-approfondimenti/corleta/originals/fig09-ikea-cina-capodanno-lunare.jpg",
+        "fit": "CONTAIN",
+        "preserveOriginal": true
+      },
+      "duplicateAvoidance": "Login/WeChat già nella tavola 42; non duplicarlo."
+    },
+    {
+      "key": "ikea-everyday",
+      "insertAfterBoardId": "198:4536",
+      "sequenceAfterAnchor": 5,
+      "title": "IKEA · Cura, convenienza e vita quotidiana",
+      "kicker": "IDENTITÀ E ADATTAMENTO",
+      "blocks": [
+        {
+          "fontRole": "body",
+          "text": "La cattura svedese accosta offerte IKEA Family, risparmio energetico e prodotti quotidiani a prezzi contenuti. Sono temi della comunicazione del brand: IKEA dichiara valori di collaborazione, cura e attenzione ai costi."
+        },
+        {
+          "fontRole": "body",
+          "text": "Il confronto con la campagna festiva distingue identità dell’azienda, contesto della promozione e pubblico previsto. La stessa marca può dare rilievo a temi diversi; il punteggio MAS della Svezia non ne dimostra la causa."
+        },
+        {
+          "fontRole": "heading",
+          "text": "Una domanda per la ricerca"
+        },
+        {
+          "fontRole": "body",
+          "text": "Come vengono interpretati risparmio, sostenibilità e cura? Quali messaggi risultano pertinenti per le attività quotidiane delle persone?"
+        },
+        {
+          "fontRole": "source",
+          "text": "* IKEA · cattura storica. Sarah Corleta, 2022–2023, p. 12, fig. 10. Valori del brand: Inter IKEA."
+        }
+      ],
+      "sourcesURLs": [
+        "https://www.inter.ikea.com/en/how-we-do-business/ikea-culture-and-values"
+      ],
+      "visualPlan": {
+        "type": "original_asset",
+        "assetPath": "/Users/marco/Sites/cvedi2627/assets/booklet/revisione-culturale-approfondimenti/corleta/originals/fig10-ikea-svezia-adesso-in-ikea.jpg",
+        "fit": "CONTAIN",
+        "preserveOriginal": true
+      },
+      "duplicateAvoidance": "Campagne prima del caso McDonald’s; nessuna regola Paese→UI."
+    }
+  ],
+  "newBoardOrder": {
+    "anchor": "198:4536",
+    "anchorTitle": "Una mappa dei valori",
+    "insertKeys": [
+      "locale-dates",
+      "color-context",
+      "scripts-icons",
+      "ikea-festival",
+      "ikea-everyday"
+    ],
+    "thenExistingBoard": "2668:238",
+    "thenExistingTitle": "Dai modelli ai casi studio",
+    "expectedBoardCount": 64,
+    "reason": "Tutti i framework precedono concetti e casi estesi; due campagne IKEA prima del ponte McDonald’s/Alibaba."
+  },
+  "coverage": {
+    "claimReport": "/Users/marco/Sites/cvedi2627/assets/booklet/revisione-culturale-approfondimenti/verifica-bellu-lamarra.json",
+    "correctedClaims": [
+      "B01",
+      "B03",
+      "B04",
+      "B05",
+      "B07",
+      "B08",
+      "B09",
+      "B11",
+      "B12",
+      "B18",
+      "B19"
+    ],
+    "newBoardClaims": [
+      "B13",
+      "B14",
+      "B15",
+      "B16",
+      "B17",
+      "B20",
+      "B21",
+      "B23"
+    ],
+    "alreadyAdequate": [
+      "B02",
+      "B06",
+      "B10",
+      "B22"
+    ],
+    "wordRemovalCount": 6,
+    "editorialNodeToRemove": "2668:407"
+  },
+  "checks": [
+    "Applicare solo se il testo corrente corrisponde alla baseline.",
+    "Verificare assenza di conservata nell’intera sezione.",
+    "Verificare layout 14/46 e nuova pagina scritture/icone.",
+    "Rinumerazione intenzionale +5 tavole; conservare tutti i casi e le immagini originali."
+  ]
+}

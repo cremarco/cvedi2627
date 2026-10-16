@@ -611,7 +611,8 @@ lessonSlide: 36
 lessonMinutes: 1.5
 routeAlias: colore-cultura-convenzioni
 bookletPages: [137, 138]
-bookletRelation: context-only
+bookletCurrentNodes: ["4110:1510"]
+bookletCurrentFolios: [398]
 externalSources: ["S01", "S02"]
 ---
 
@@ -630,7 +631,8 @@ lessonSlide: 37
 lessonMinutes: 2
 routeAlias: colore-cultura-convenzioni-esempio
 bookletPages: [137, 138]
-bookletRelation: context-only
+bookletCurrentNodes: ["4110:1572"]
+bookletCurrentFolios: [399]
 externalSources: ["S01"]
 bookletAssets: ["l07-cultura-convenzioni-cgse"]
 ---
@@ -648,7 +650,8 @@ lessonSlide: 38
 lessonMinutes: 2
 routeAlias: colore-cultura-lingua
 bookletPages: [137, 138]
-bookletRelation: context-only
+bookletCurrentNodes: ["4110:1674"]
+bookletCurrentFolios: [400]
 externalSources: ["S03"]
 bookletAssets: ["l07-cultura-lingua-blu"]
 ---
@@ -666,7 +669,8 @@ lessonSlide: 39
 lessonMinutes: 1.5
 routeAlias: colore-cultura-cempasuchil
 bookletPages: [137, 138]
-bookletRelation: context-only
+bookletCurrentNodes: ["4110:1776"]
+bookletCurrentFolios: [401]
 externalSources: ["S04", "S05", "S06"]
 ---
 
@@ -684,7 +688,8 @@ lessonSlide: 40
 lessonMinutes: 1.5
 routeAlias: colore-cultura-google-muertos
 bookletPages: [137, 138]
-bookletRelation: context-only
+bookletCurrentNodes: ["4110:1839"]
+bookletCurrentFolios: [402]
 externalSources: ["S06"]
 bookletAssets: ["l07-cultura-google-muertos"]
 ---
@@ -702,7 +707,8 @@ lessonSlide: 41
 lessonMinutes: 2
 routeAlias: colore-cultura-preferenze
 bookletPages: [137, 138]
-bookletRelation: context-only
+bookletCurrentNodes: ["4110:1927"]
+bookletCurrentFolios: [403]
 externalSources: ["S07", "S08"]
 ---
 

@@ -1,0 +1,322 @@
+{
+  "schema": "cvedi-cultural-legacy-asset-review/1",
+  "reviewedOn": "2026-10-09",
+  "scope": "Audit della fonte e integrazione confermata in Figma delle figure9–10; gli altri due estratti restano riserva. Conservati byte, crediti e limiti delle catture storiche.",
+  "source": {
+    "file": "materiali/approfondimenti/2022-2023/corleta-883215-brand-identity-ikea.pdf",
+    "sha256": "14ba72cc5993a2be85e436ea8162db470f118023204268f9662bcb26b0f8b095",
+    "author": "Sarah Corleta",
+    "studentId": "883215",
+    "year": "2022–2023",
+    "title": "Brand identity e design cross-culturale: La strategia di standardizzazione localizzata di IKEA",
+    "pageCount": 18,
+    "copyright": "Nessuna licenza aperta dichiarata. Conservarne attribuzioni e fonte."
+  },
+  "currentFigmaReference": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1109",
+    "sectionId": "204:8295",
+    "boardCount": 65,
+    "ordinalRange": [
+      11,
+      75
+    ],
+    "snapshot": "assets/booklet/contesto-culturale-revisione/figma-text.json",
+    "integratedBoardIds": [
+      "2759:3874",
+      "2759:3900"
+    ]
+  },
+  "primaryURLs": {
+    "values": "https://www.inter.ikea.com/en/how-we-do-business/ikea-culture-and-values",
+    "logo": "https://www.ikea.com/ph/en/this-is-ikea/about-us/the-ikea-logo-history-and-design-pub55d85f50/",
+    "standardisation": "https://portal.research.lu.se/en/publications/a-standardised-approach-to-the-world-ikea-in-china/",
+    "fossta2023": "https://www.ikea.com/us/en/newsroom/range-news/foessta-collection-puba8fbaf50/",
+    "fossta2023PressKit": "https://www.ikea.com/us/en/files/pdf/b4/da/b4da2869/foessta_prkit_dec_2022_final.pdf",
+    "paymentChannels": "https://www.ikea.cn/cn/en/customer-service/payment-options/",
+    "privacy2026": "https://file.app.ikea.cn/cms/u/20260129/55a93c9d6a2b4e729edd824dffa46f7a.pdf",
+    "app": "https://www.ikea.cn/cn/zh/customer-service/mobile-apps/",
+    "tmall2020": "https://www.ingka.com/newsroom/ikea-partners-with-alibaba-to-open-the-first-virtual-ikea-store-on-tmall/"
+  },
+  "images": [
+    {
+      "file": "assets/booklet/revisione-culturale-approfondimenti/corleta/originals/fig09-ikea-cina-capodanno-lunare.jpg",
+      "pdfPage": 12,
+      "imageIndex": 0,
+      "xObjectName": "Image53.jpg",
+      "size": [
+        1364,
+        872
+      ],
+      "bytes": 140853,
+      "sha256": "6238e96f9546f7307a2eaf77f056de6e41db31c7b07bc7a951f66d522f795efb",
+      "pdfImageObjectId": 53,
+      "pdfImageFilters": "/DCTDecode",
+      "pdfRawStreamSha256": "6238e96f9546f7307a2eaf77f056de6e41db31c7b07bc7a951f66d522f795efb",
+      "pixelSha256": "2c1b3ea43428bd6a845ac74c01648a170bdfe044ddeb159c8fa775df3417f905",
+      "extractionMode": "Embedded JPEG DCT stream preserved byte for byte",
+      "rawStreamEqualsSavedFile": true,
+      "figure": 9,
+      "sourceCredit": "IKEA · cattura storica. Sarah Corleta, 883215, 2022–2023, p.12, fig.9.",
+      "rights": "Screenshot e materiali IKEA, copyright Inter IKEA Systems B.V.; nessuna licenza aperta documentata nel PDF. Diritti del testo dell’approfondimento alla sua autrice; non attribuire al repo una licenza per l’immagine.",
+      "status": "approved_as_observational_teaching_example",
+      "historicalDate": "Cattura conservata nell’approfondimento 2022–2023; giorno di cattura non dichiarato.",
+      "captionItalian": "La cattura cinese presenta novità per il Capodanno lunare: lanterne, decori rossi e scene domestiche. IKEA propone FÖSSTA anche fuori dalla Cina. Il caso collega festa, tradizione e vita quotidiana; chiediamoci quali rituali sostiene, senza dedurre gli orientamenti IVR o LTO degli utenti dal colore o dalla composizione.",
+      "captionWordCount": 48,
+      "placement": {
+        "dimension": "IVR, con richiamo LTO",
+        "newBoardRecommended": true,
+        "afterCurrentBoardId": "2695:5389",
+        "currentAfterOrdinal": 41,
+        "title": "IKEA · Festa, rituali e vita quotidiana",
+        "reason": "Confronto critico fra tema festivo della campagna e indice societario. Non etichettare Cina come indulgente a partire dall’immagine."
+      },
+      "primarySources": [
+        "https://www.ikea.com/us/en/newsroom/range-news/foessta-collection-puba8fbaf50/",
+        "https://www.ikea.com/us/en/files/pdf/b4/da/b4da2869/foessta_prkit_dec_2022_final.pdf"
+      ],
+      "visualInspection": "Estratti osservati integralmente; proporzioni, testo e figura preservati, senza ridimensionamento o ritocco.",
+      "preserveFit": "CONTAIN, proporzioni originali; niente cornici aggiunte; evitare crop che elimini etichette o controlli.",
+      "duplicateOfExistingSource": false,
+      "activePlacement": {
+        "boardId": "2759:3874",
+        "folio": 51,
+        "printedPage": 143,
+        "imageNodeId": "2759:3896",
+        "imageHash": "7585efb748d9b334cd9bb087c2a8dd9a8a9ff4af",
+        "uploadReceipt": {
+          "success": true,
+          "imageHash": "7585efb748d9b334cd9bb087c2a8dd9a8a9ff4af",
+          "sizeBytes": 140853,
+          "contentType": "image/jpeg",
+          "placedOnNodeId": "2759:3896"
+        },
+        "fitPolicy": "Original aspect ratio preserved; original source/copyright remains unchanged."
+      },
+      "placementRole": "Original recommended placement retained in placement; actual confirmed Figma location is activePlacement."
+    },
+    {
+      "file": "assets/booklet/revisione-culturale-approfondimenti/corleta/originals/fig10-ikea-svezia-adesso-in-ikea.jpg",
+      "pdfPage": 12,
+      "imageIndex": 1,
+      "xObjectName": "Image54.jpg",
+      "size": [
+        1688,
+        992
+      ],
+      "bytes": 144282,
+      "sha256": "ab53fef6ca29b5d313079fd402fbcaf1e7264ed8c50d77f81019d421fde49447",
+      "pdfImageObjectId": 54,
+      "pdfImageFilters": "/DCTDecode",
+      "pdfRawStreamSha256": "ab53fef6ca29b5d313079fd402fbcaf1e7264ed8c50d77f81019d421fde49447",
+      "pixelSha256": "38bd4cac143c51f460d0b2fce4da3d868e0eadd11b13bcc58f041587433cca48",
+      "extractionMode": "Embedded JPEG DCT stream preserved byte for byte",
+      "rawStreamEqualsSavedFile": true,
+      "figure": 10,
+      "sourceCredit": "IKEA · cattura storica. Sarah Corleta, 883215, 2022–2023, p.12, fig.10.",
+      "rights": "Screenshot e materiali IKEA, copyright Inter IKEA Systems B.V.; nessuna licenza aperta documentata nel PDF. Diritti del testo dell’approfondimento alla sua autrice; non attribuire al repo una licenza per l’immagine.",
+      "status": "approved_as_observational_teaching_example",
+      "historicalDate": "Cattura conservata nell’approfondimento 2022–2023; giorno di cattura non dichiarato.",
+      "captionItalian": "La cattura svedese accosta offerte IKEA Family, risparmio energetico e prodotti quotidiani a prezzi contenuti. Sono temi coerenti con i valori dichiarati dall’azienda: collaborazione, cura e attenzione ai costi. Il caso permette di discutere qualità della vita e cooperazione, senza attribuire automaticamente la comunicazione al punteggio MAS della Svezia.",
+      "captionWordCount": 49,
+      "placement": {
+        "dimension": "MAS",
+        "newBoardRecommended": true,
+        "afterCurrentBoardId": "198:5094",
+        "currentAfterOrdinal": 29,
+        "title": "IKEA · Cura, convenienza e vita quotidiana",
+        "reason": "Aggiunge contesto commerciale all’esempio istituzionale svedese. MAS offre domande su qualità della vita; l’immagine resta comunicazione del brand."
+      },
+      "primarySources": [
+        "https://www.inter.ikea.com/en/how-we-do-business/ikea-culture-and-values",
+        "https://www.ikea.com/ph/en/this-is-ikea/about-us/the-ikea-logo-history-and-design-pub55d85f50/"
+      ],
+      "visualInspection": "Estratti osservati integralmente; proporzioni, testo e figura preservati, senza ridimensionamento o ritocco.",
+      "preserveFit": "CONTAIN, proporzioni originali; niente cornici aggiunte; evitare crop che elimini etichette o controlli.",
+      "duplicateOfExistingSource": false,
+      "activePlacement": {
+        "boardId": "2759:3900",
+        "folio": 52,
+        "printedPage": 144,
+        "imageNodeId": "2759:3922",
+        "imageHash": "4239457c9a639382e96e25451171a33716ab1592",
+        "uploadReceipt": {
+          "success": true,
+          "imageHash": "4239457c9a639382e96e25451171a33716ab1592",
+          "sizeBytes": 144282,
+          "contentType": "image/jpeg",
+          "placedOnNodeId": "2759:3922"
+        },
+        "fitPolicy": "Original aspect ratio preserved; original source/copyright remains unchanged."
+      },
+      "placementRole": "Original recommended placement retained in placement; actual confirmed Figma location is activePlacement."
+    },
+    {
+      "file": "assets/booklet/revisione-culturale-approfondimenti/corleta/originals/fig18-ikea-cina-accesso-telefono.png",
+      "pdfPage": 16,
+      "imageIndex": 0,
+      "xObjectName": "Image75.png",
+      "size": [
+        920,
+        528
+      ],
+      "bytes": 43070,
+      "sha256": "b543f13e53312386d5281fe24302eca2381524cff4ad645a24144e8373cde51d",
+      "pdfImageObjectId": 75,
+      "pdfImageFilters": "/FlateDecode",
+      "pdfRawStreamSha256": "ef4525c9ecd0f6b35438ae3b87bff93f7baed8cfa0754ca293dc4f3df9402015",
+      "pixelSha256": "148cb6dda6de2e23b5920db2c59b6c8d31e495340a31f491ff2947df71d19ab9",
+      "extractionMode": "PDF Flate raster decoded and saved losslessly as PNG; no resizing or retouching",
+      "rawStreamEqualsSavedFile": false,
+      "pixelsEqualDecodedPdfStream": true,
+      "figure": 18,
+      "sourceCredit": "IKEA · cattura storica. Sarah Corleta, 883215, 2022–2023, p.16, fig.18.",
+      "rights": "Screenshot e materiali IKEA, copyright Inter IKEA Systems B.V.; nessuna licenza aperta documentata nel PDF. Diritti del testo dell’approfondimento alla sua autrice; non attribuire al repo una licenza per l’immagine.",
+      "status": "approved_as_observational_teaching_example",
+      "historicalDate": "Cattura conservata nell’approfondimento 2022–2023; giorno di cattura non dichiarato.",
+      "captionItalian": "L’accesso cinese mostra numero di telefono, codice di verifica e, fra le alternative, WeChat. La localizzazione comprende quindi anche il modo di entrare nel servizio. Per discutere familiarità e incertezza, chiediamoci quale percorso le persone riconoscono e quali vincoli incontrano: la schermata non misura il loro orientamento UAI.",
+      "captionWordCount": 48,
+      "placement": {
+        "dimension": "UAI / localizzazione dei servizi",
+        "newBoardRecommended": false,
+        "existingCurrentBoardId": "198:4984",
+        "currentOrdinal": 42,
+        "title": "IKEA · Accesso e canali disponibili",
+        "reason": "Già rappresentata nella tavola corrente Il contesto include i servizi. Conservare l’esempio e arricchirne le fonti, evitando tavola duplicata."
+      },
+      "primarySources": [
+        "https://file.app.ikea.cn/cms/u/20260129/55a93c9d6a2b4e729edd824dffa46f7a.pdf",
+        "https://www.ikea.cn/cn/en/customer-service/payment-options/"
+      ],
+      "visualInspection": "Estratti osservati integralmente; proporzioni, testo e figura preservati, senza ridimensionamento o ritocco.",
+      "preserveFit": "CONTAIN, proporzioni originali; niente cornici aggiunte; evitare crop che elimini etichette o controlli.",
+      "duplicateOfExistingSource": true
+    },
+    {
+      "file": "assets/booklet/revisione-culturale-approfondimenti/corleta/originals/fig19-ikea-cina-qr-app.png",
+      "pdfPage": 16,
+      "imageIndex": 1,
+      "xObjectName": "Image76.png",
+      "size": [
+        393,
+        157
+      ],
+      "bytes": 16143,
+      "sha256": "a180afb3543afa54f3b1f58024fea666091b95c5a009c046e282323cbcebfe18",
+      "pdfImageObjectId": 76,
+      "pdfImageFilters": "/FlateDecode",
+      "pdfRawStreamSha256": "0ecfcac86363f6694b7b6dfb0347e2cd85e1d959725a2f99595de2ac90a12052",
+      "pixelSha256": "25cfab992ce1ce6bd2e42da4af0e0e8c9cf6dbeee7112a82bfa221fd6618837f",
+      "extractionMode": "PDF Flate raster decoded and saved losslessly as PNG; no resizing or retouching",
+      "rawStreamEqualsSavedFile": false,
+      "pixelsEqualDecodedPdfStream": true,
+      "figure": 19,
+      "sourceCredit": "IKEA · cattura storica. Sarah Corleta, 883215, 2022–2023, p.16, fig.19.",
+      "rights": "Screenshot e materiali IKEA, copyright Inter IKEA Systems B.V.; nessuna licenza aperta documentata nel PDF. Diritti del testo dell’approfondimento alla sua autrice; non attribuire al repo una licenza per l’immagine.",
+      "status": "approved_as_observational_teaching_example",
+      "historicalDate": "Cattura conservata nell’approfondimento 2022–2023; giorno di cattura non dichiarato.",
+      "captionItalian": "Il riquadro invita a scaricare l’app IKEA. La pagina ufficiale cinese presenta il medesimo passaggio dal sito all’app. È un adattamento del canale, da leggere insieme a dispositivi, connessione e abitudini d’uso: il QR non prova collettivismo, indulgenza o una preferenza universale dei consumatori cinesi.",
+      "captionWordCount": 45,
+      "placement": {
+        "dimension": "UAI / localizzazione dei servizi",
+        "newBoardRecommended": false,
+        "existingCurrentBoardId": "198:4984",
+        "currentOrdinal": 42,
+        "title": "IKEA · Dal sito all’app",
+        "reason": "Figura complementare al login se la tavola corrente dispone di spazio; usare insieme a fig18, non come dimostrazione di valore culturale nazionale."
+      },
+      "primarySources": [
+        "https://www.ikea.cn/cn/zh/customer-service/mobile-apps/",
+        "https://www.ikea.cn/cn/en/customer-service/payment-options/"
+      ],
+      "visualInspection": "Estratti osservati integralmente; proporzioni, testo e figura preservati, senza ridimensionamento o ritocco.",
+      "preserveFit": "CONTAIN, proporzioni originali; niente cornici aggiunte; evitare crop che elimini etichette o controlli.",
+      "duplicateOfExistingSource": true
+    }
+  ],
+  "claimReviews": [
+    {
+      "sourcePages": [
+        1,
+        5,
+        6,
+        17
+      ],
+      "claim": "Standardizzazione localizzata del brand IKEA",
+      "verdict": "retain_with_scope",
+      "replacement": "IKEA combina un’identità riconoscibile con adattamenti di messaggi, prodotti e canali. La ricerca di Johansson e Thelander (2009) descrive differenze anche centrali nella strategia di marketing in Cina; non dimostra che tutti i prodotti e servizi siano uniformi nel mondo.",
+      "primaryURLs": [
+        "https://portal.research.lu.se/en/publications/a-standardised-approach-to-the-world-ikea-in-china/",
+        "https://www.inter.ikea.com/en/how-we-do-business/ikea-culture-and-values",
+        "https://www.ikea.com/ph/en/this-is-ikea/about-us/the-ikea-logo-history-and-design-pub55d85f50/"
+      ]
+    },
+    {
+      "sourcePages": [
+        8,
+        9,
+        10
+      ],
+      "claim": "IKEA incarna direttamente i punteggi culturali della Svezia",
+      "verdict": "discard_causal_claim",
+      "replacement": "Descrivere i valori dichiarati da IKEA come valori del brand. PDI, IDV, MAS, UAI, LTO e IVR sono lenti per formulare domande, non prove della causa di un elemento UI.",
+      "primaryURLs": [
+        "https://www.inter.ikea.com/en/how-we-do-business/ikea-culture-and-values"
+      ]
+    },
+    {
+      "sourcePages": [
+        12,
+        13
+      ],
+      "claim": "Capodanno, rosso e prodotti in gruppo provano collettivismo; giallo evitato per connotazione pornografica",
+      "verdict": "retain_campaign_discard_inferences",
+      "replacement": "La cattura mostra una campagna festiva. IKEA conferma FÖSSTA per il Capodanno lunare 2023, commercializzata anche negli USA. Non trasferire i significati del colore alla causa della scelta UI, né attribuire un tratto nazionale a ciascun utente. La motivazione specifica per evitare il giallo non è documentata dalle fonti primarie consultate.",
+      "primaryURLs": [
+        "https://www.ikea.com/us/en/newsroom/range-news/foessta-collection-puba8fbaf50/",
+        "https://www.ikea.com/ph/en/this-is-ikea/about-us/the-ikea-logo-history-and-design-pub55d85f50/"
+      ]
+    },
+    {
+      "sourcePages": [
+        13,
+        14,
+        15
+      ],
+      "claim": "Classifica vendite=conformismo collettivista; CTA giocose=PDI basso; menu a tendina=PDI alto",
+      "verdict": "discard_causal_claim",
+      "replacement": "Descrivere funzioni e contenuti osservabili. Bestseller, sconti, menu e CTA richiedono evidenze su pubblico, compito e risultati prima di collegarli ai valori.",
+      "primaryURLs": []
+    },
+    {
+      "sourcePages": [
+        15,
+        16
+      ],
+      "claim": "Telefono, WeChat e QR indicano che i cinesi preferiscono evitare email e acquistare su mobile",
+      "verdict": "retain_features_discard_universal_preference",
+      "replacement": "La cattura propone telefono e codice, oltre a WeChat e accesso con credenziali. IKEA documenta oggi sito, app e mini-programma WeChat e metodi di pagamento locali. Disponibilità di un canale e preferenza dell’intera popolazione sono affermazioni differenti.",
+      "primaryURLs": [
+        "https://file.app.ikea.cn/cms/u/20260129/55a93c9d6a2b4e729edd824dffa46f7a.pdf",
+        "https://www.ikea.cn/cn/en/customer-service/payment-options/",
+        "https://www.ikea.cn/cn/zh/customer-service/mobile-apps/"
+      ]
+    },
+    {
+      "sourcePages": [
+        16,
+        17
+      ],
+      "claim": "Successo definitivo della standardizzazione localizzata in Cina",
+      "verdict": "discard_unbounded_success_claim",
+      "replacement": "Presentare il caso come strategia e adattamenti documentati in un periodo preciso. Le schermate non misurano successo commerciale o soddisfazione.",
+      "primaryURLs": [
+        "https://portal.research.lu.se/en/publications/a-standardised-approach-to-the-world-ikea-in-china/",
+        "https://www.ingka.com/newsroom/ikea-partners-with-alibaba-to-open-the-first-virtual-ikea-store-on-tmall/"
+      ]
+    }
+  ],
+  "extractionNote": "I JPEG corrispondono esattamente al flusso DCT incorporato nel PDF, inclusi hash e byte. Il PDF non incorpora file PNG: i raster Flate sono decodificati e salvati senza perdita; i pixel RGB corrispondono esattamente al flusso PDF decodificato. Nessun resizing, ritocco o recompressione JPEG.",
+  "recommendation": "Integrare fig9 e fig10 come 2 nuovi esempi, con dimensioni usate come domande e contenuto del brand descritto esplicitamente. Non duplicare fig18 già presente in198:4984. Fig19 è opzionale a complemento della tavola dei servizi.",
+  "confirmedImportCount": 2
+}

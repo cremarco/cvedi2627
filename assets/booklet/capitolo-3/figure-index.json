@@ -3,23 +3,23 @@
   "status": "passed",
   "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
   "scope": "C03 corrente; ordine di lettura ricavato dai folio, senza rinumerare le tavole.",
-  "figureCount": 290,
+  "figureCount": 293,
   "numberRange": [
     "3.1",
-    "3.290"
+    "3.293"
   ],
   "pageCount": 14,
-  "boardCount": 429,
-  "numberedBoardCount": 427,
+  "boardCount": 435,
+  "numberedBoardCount": 433,
   "printedFolioRange": [
     95,
-    521
+    527
   ],
   "unnumberedOpeningBoardIds": [
     "198:2876",
     "198:3020"
   ],
-  "note": "Le due aperture artistiche sono incluse nelle 429 tavole ma non espongono un folio; la pagina note aggiuntiva senza folio del Colore, decorazioni, badge e originali nascosti sono esclusi. La revisione culturale aggiunge quattro tavole e quattro figure.",
+  "note": "Le due aperture artistiche sono incluse nelle 435 tavole ma non espongono un folio; la pagina note aggiuntiva senza folio del Colore, decorazioni, badge e originali nascosti sono esclusi. La sezione Colore comprende 58 tavole numerate e 45 figure.",
   "pages": [
     {
       "pageId": "2008:1741",
@@ -128,17 +128,17 @@
     },
     {
       "pageId": "2613:1114",
-      "pageName": "C03.06 · Colore",
-      "numberedBoardCount": 52,
-      "boardCount": 52,
+      "pageName": "C03.08 · Colore",
+      "numberedBoardCount": 58,
+      "boardCount": 58,
       "printedFolioRange": [
         366,
-        417
+        423
       ],
-      "figureCount": 42,
+      "figureCount": 45,
       "figureRange": [
         "3.196",
-        "3.237"
+        "3.240"
       ]
     },
     {
@@ -147,13 +147,13 @@
       "numberedBoardCount": 26,
       "boardCount": 26,
       "printedFolioRange": [
-        418,
-        443
+        424,
+        449
       ],
       "figureCount": 12,
       "figureRange": [
-        "3.238",
-        "3.249"
+        "3.241",
+        "3.252"
       ]
     },
     {
@@ -162,13 +162,13 @@
       "numberedBoardCount": 18,
       "boardCount": 18,
       "printedFolioRange": [
-        444,
-        461
+        450,
+        467
       ],
       "figureCount": 13,
       "figureRange": [
-        "3.250",
-        "3.262"
+        "3.253",
+        "3.265"
       ]
     },
     {
@@ -177,13 +177,13 @@
       "numberedBoardCount": 12,
       "boardCount": 12,
       "printedFolioRange": [
-        462,
-        473
+        468,
+        479
       ],
       "figureCount": 7,
       "figureRange": [
-        "3.263",
-        "3.269"
+        "3.266",
+        "3.272"
       ]
     },
     {
@@ -192,13 +192,13 @@
       "numberedBoardCount": 22,
       "boardCount": 22,
       "printedFolioRange": [
-        474,
-        495
+        480,
+        501
       ],
       "figureCount": 16,
       "figureRange": [
-        "3.270",
-        "3.285"
+        "3.273",
+        "3.288"
       ]
     },
     {
@@ -207,13 +207,13 @@
       "numberedBoardCount": 22,
       "boardCount": 22,
       "printedFolioRange": [
-        496,
-        517
+        502,
+        523
       ],
       "figureCount": 4,
       "figureRange": [
-        "3.286",
-        "3.289"
+        "3.289",
+        "3.292"
       ]
     },
     {
@@ -222,13 +222,13 @@
       "numberedBoardCount": 4,
       "boardCount": 4,
       "printedFolioRange": [
-        518,
-        521
+        524,
+        527
       ],
       "figureCount": 1,
       "figureRange": [
-        "3.290",
-        "3.290"
+        "3.293",
+        "3.293"
       ]
     }
   ],
@@ -3150,38 +3150,38 @@
       "ordinal": 225,
       "folio": 399,
       "pageId": "2613:1114",
-      "boardId": "198:5429",
-      "figureId": "3240:808",
-      "captionTextId": "I3240:808;3165:613;3240:834;3164:60;3240:837",
-      "captionText": "Figura 3.225 — Copertina di Interaction of Color di Josef Albers.",
+      "boardId": "4110:1572",
+      "figureId": "4110:1631",
+      "captionTextId": "I4110:1631;3165:600;4110:1634;3164:51;4110:1637",
+      "captionText": "Figura 3.225 — CGSE Trader Terminal, manuale 2021, §5.1.4, PDF p. 13. Screenshot storici originali CGSE / Infocast Finance; lettere e traduzione didattica aggiunte.",
       "referenceTextIds": [
-        "198:5440"
+        "4110:1630"
       ]
     },
     {
       "number": "3.226",
       "ordinal": 226,
-      "folio": 401,
+      "folio": 400,
       "pageId": "2613:1114",
-      "boardId": "198:5441",
-      "figureId": "3242:18993",
-      "captionTextId": "I3242:18993;3165:600;3242:19014;3164:51;3242:19017",
-      "captionText": "Figura 3.226 — Interazione del colore: superfici sovrapposte e contrasti cromatici.",
+      "boardId": "4110:1674",
+      "figureId": "4110:1733",
+      "captionTextId": "I4110:1733;3165:600;4110:1736;3164:51;4110:1739",
+      "captionText": "Figura 3.226 — Campioni illustrativi per goluboy e siniy. Schema didattico CVeDI, 2026; non riproduce gli stimoli né il confine sperimentale di Winawer et al. (2007).",
       "referenceTextIds": [
-        "198:5344"
+        "4110:1732"
       ]
     },
     {
       "number": "3.227",
       "ordinal": 227,
-      "folio": 403,
+      "folio": 402,
       "pageId": "2613:1114",
-      "boardId": "198:5453",
-      "figureId": "3242:19026",
-      "captionTextId": "I3242:19026;3165:600;3242:19047;3164:51;3242:19050",
-      "captionText": "Figura 3.227 — Interazione del colore: la percezione cambia con lo sfondo.",
+      "boardId": "4110:1839",
+      "figureId": "4110:1898",
+      "captionTextId": "I4110:1898;3165:600;4110:1901;3164:51;4110:1904",
+      "captionText": "Figura 3.227 — Day of the Dead 2024, Google Doodles, 1 novembre 2024. Illustrazione di Lucia Sarabia; originale dell’archivio ufficiale acquisito il 16 ottobre 2026. © Google / Lucia Sarabia.",
       "referenceTextIds": [
-        "198:5364"
+        "4110:1897"
       ]
     },
     {
@@ -3189,12 +3189,12 @@
       "ordinal": 228,
       "folio": 405,
       "pageId": "2613:1114",
-      "boardId": "198:5462",
-      "figureId": "3242:19059",
-      "captionTextId": "I3242:19059;3165:600;3242:19080;3164:51;3242:19083",
-      "captionText": "Figura 3.228 — Interazione del colore: relazioni tra campi cromatici e piccoli quadrati.",
+      "boardId": "198:5429",
+      "figureId": "3240:808",
+      "captionTextId": "I3240:808;3165:613;3240:834;3164:60;3240:837",
+      "captionText": "Figura 3.228 — Copertina di Interaction of Color di Josef Albers.",
       "referenceTextIds": [
-        "198:5380"
+        "198:5440"
       ]
     },
     {
@@ -3202,12 +3202,12 @@
       "ordinal": 229,
       "folio": 407,
       "pageId": "2613:1114",
-      "boardId": "198:5480",
-      "figureId": "3242:19092",
-      "captionTextId": "I3242:19092;3165:600;3242:19113;3164:51;3242:19116",
-      "captionText": "Figura 3.229 — Contrasto tra forma, colore e sfondo in due campi visivi.",
+      "boardId": "198:5441",
+      "figureId": "3242:18993",
+      "captionTextId": "I3242:18993;3165:600;3242:19014;3164:51;3242:19017",
+      "captionText": "Figura 3.229 — Interazione del colore: superfici sovrapposte e contrasti cromatici.",
       "referenceTextIds": [
-        "198:5412"
+        "198:5344"
       ]
     },
     {
@@ -3215,142 +3215,142 @@
       "ordinal": 230,
       "folio": 409,
       "pageId": "2613:1114",
-      "boardId": "198:5471",
-      "figureId": "3242:19125",
-      "captionTextId": "I3242:19125;3165:600;3242:19146;3164:51;3242:19149",
-      "captionText": "Figura 3.230 — La percezione del contrasto cambia con il colore dello sfondo.",
+      "boardId": "198:5453",
+      "figureId": "3242:19026",
+      "captionTextId": "I3242:19026;3165:600;3242:19047;3164:51;3242:19050",
+      "captionText": "Figura 3.230 — Interazione del colore: la percezione cambia con lo sfondo.",
       "referenceTextIds": [
-        "198:5396"
+        "198:5364"
       ]
     },
     {
       "number": "3.231",
       "ordinal": 231,
-      "folio": 410,
+      "folio": 411,
       "pageId": "2613:1114",
-      "boardId": "198:5489",
-      "figureId": "3242:19160",
-      "captionTextId": "I3242:19160;3165:600;3242:19182;3164:51;3242:19185",
-      "captionText": "Figura 3.231 — Distribuzione dei colori dominanti, secondari e d’accento in due esempi cinematografici.",
+      "boardId": "198:5462",
+      "figureId": "3242:19059",
+      "captionTextId": "I3242:19059;3165:600;3242:19080;3164:51;3242:19083",
+      "captionText": "Figura 3.231 — Interazione del colore: relazioni tra campi cromatici e piccoli quadrati.",
       "referenceTextIds": [
-        "198:5501"
+        "198:5380"
       ]
     },
     {
       "number": "3.232",
       "ordinal": 232,
-      "folio": 411,
+      "folio": 413,
       "pageId": "2613:1114",
-      "boardId": "198:5526",
-      "figureId": "3242:19200",
-      "captionTextId": "I3242:19200;3165:600;3242:19224;3164:51;3242:19227",
-      "captionText": "Figura 3.232 — Palette cromatiche ricavate da ghiaccio, foresta, deserto e fiori.",
+      "boardId": "198:5480",
+      "figureId": "3242:19092",
+      "captionTextId": "I3242:19092;3165:600;3242:19113;3164:51;3242:19116",
+      "captionText": "Figura 3.232 — Contrasto tra forma, colore e sfondo in due campi visivi.",
       "referenceTextIds": [
-        "198:5540"
+        "198:5412"
       ]
     },
     {
       "number": "3.233",
       "ordinal": 233,
-      "folio": 412,
+      "folio": 415,
       "pageId": "2613:1114",
-      "boardId": "198:5504",
-      "figureId": "3242:19236",
-      "captionTextId": "I3242:19236;3165:600;3242:19257;3164:51;3242:19260",
-      "captionText": "Figura 3.233 — Alternative al nero puro per il testo su fondo chiaro.",
+      "boardId": "198:5471",
+      "figureId": "3242:19125",
+      "captionTextId": "I3242:19125;3165:600;3242:19146;3164:51;3242:19149",
+      "captionText": "Figura 3.233 — La percezione del contrasto cambia con il colore dello sfondo.",
       "referenceTextIds": [
-        "198:5512"
+        "198:5396"
       ]
     },
     {
       "number": "3.234",
       "ordinal": 234,
-      "folio": 413,
+      "folio": 416,
       "pageId": "2613:1114",
-      "boardId": "198:5541",
-      "figureId": "3242:19271",
-      "captionTextId": "I3242:19271;3165:600;3242:19293;3164:51;3242:19296",
-      "captionText": "Figura 3.234 — Ombre e luci: colori ricavati dall’ambiente e dalle superfici.",
+      "boardId": "198:5489",
+      "figureId": "3242:19160",
+      "captionTextId": "I3242:19160;3165:600;3242:19182;3164:51;3242:19185",
+      "captionText": "Figura 3.234 — Distribuzione dei colori dominanti, secondari e d’accento in due esempi cinematografici.",
       "referenceTextIds": [
-        "198:5549"
+        "198:5501"
       ]
     },
     {
       "number": "3.235",
       "ordinal": 235,
-      "folio": 414,
+      "folio": 417,
       "pageId": "2613:1114",
-      "boardId": "3956:1309",
-      "figureId": "3956:1347",
-      "captionTextId": "I3956:1347;3165:600;3956:1390;3164:51;3956:1389",
-      "captionText": "Figura 3.235 — Carbon Design System: lo stesso select nei temi White e Gray 100. I numeri nell’immagine rimandano ai ruoli documentati da IBM. Immagine ufficiale, consultata il 16 ottobre 2026. © IBM.",
+      "boardId": "198:5526",
+      "figureId": "3242:19200",
+      "captionTextId": "I3242:19200;3165:600;3242:19224;3164:51;3242:19227",
+      "captionText": "Figura 3.235 — Palette cromatiche ricavate da ghiaccio, foresta, deserto e fiori.",
       "referenceTextIds": [
-        "3956:1324"
+        "198:5540"
       ]
     },
     {
       "number": "3.236",
       "ordinal": 236,
-      "folio": 415,
+      "folio": 418,
       "pageId": "2613:1114",
-      "boardId": "3956:1405",
-      "figureId": "3956:1449",
-      "captionTextId": "I3956:1449;3165:600;3956:1498;3164:51;3956:1497",
-      "captionText": "Figura 3.236 — Riferimento già presente nel booklet, palette adattata e confronto sul testo del pulsante. Caso simulato.",
+      "boardId": "198:5504",
+      "figureId": "3242:19236",
+      "captionTextId": "I3242:19236;3165:600;3242:19257;3164:51;3242:19260",
+      "captionText": "Figura 3.236 — Alternative al nero puro per il testo su fondo chiaro.",
       "referenceTextIds": [
-        "3956:1420"
+        "198:5512"
       ]
     },
     {
       "number": "3.237",
       "ordinal": 237,
-      "folio": 416,
+      "folio": 419,
       "pageId": "2613:1114",
-      "boardId": "198:5515",
-      "figureId": "3242:19305",
-      "captionTextId": "I3242:19305;3165:600;3242:19326;3164:51;3242:19329",
-      "captionText": "Figura 3.237 — Grigi neutri e grigi tonalizzati applicati al testo.",
+      "boardId": "198:5541",
+      "figureId": "3242:19271",
+      "captionTextId": "I3242:19271;3165:600;3242:19293;3164:51;3242:19296",
+      "captionText": "Figura 3.237 — Ombre e luci: colori ricavati dall’ambiente e dalle superfici.",
       "referenceTextIds": [
-        "198:5523"
+        "198:5549"
       ]
     },
     {
       "number": "3.238",
       "ordinal": 238,
-      "folio": 421,
-      "pageId": "2613:1115",
-      "boardId": "198:5650",
-      "figureId": "3240:17469",
-      "captionTextId": "I3240:17469;3165:613;3240:17490;3164:60;3240:17493",
-      "captionText": "Figura 3.238 — La Linotype: un esempio di macchina per la composizione tipografica.",
+      "folio": 420,
+      "pageId": "2613:1114",
+      "boardId": "3956:1309",
+      "figureId": "3956:1347",
+      "captionTextId": "I3956:1347;3165:600;3956:1390;3164:51;3956:1389",
+      "captionText": "Figura 3.238 — Carbon Design System: lo stesso select nei temi White e Gray 100. I numeri nell’immagine rimandano ai ruoli documentati da IBM. Immagine ufficiale, consultata il 16 ottobre 2026. © IBM.",
       "referenceTextIds": [
-        "198:5658"
+        "3956:1324"
       ]
     },
     {
       "number": "3.239",
       "ordinal": 239,
-      "folio": 423,
-      "pageId": "2613:1115",
-      "boardId": "198:5621",
-      "figureId": "3240:17502",
-      "captionTextId": "I3240:17502;3165:600;3240:17523;3164:51;3240:17526",
-      "captionText": "Figura 3.239 — Anatomia del carattere: parti e proporzioni delle lettere.",
+      "folio": 421,
+      "pageId": "2613:1114",
+      "boardId": "3956:1405",
+      "figureId": "3956:1449",
+      "captionTextId": "I3956:1449;3165:600;3956:1498;3164:51;3956:1497",
+      "captionText": "Figura 3.239 — Riferimento già presente nel booklet, palette adattata e confronto sul testo del pulsante. Caso simulato.",
       "referenceTextIds": [
-        "198:5573"
+        "3956:1420"
       ]
     },
     {
       "number": "3.240",
       "ordinal": 240,
-      "folio": 425,
-      "pageId": "2613:1115",
-      "boardId": "198:5641",
-      "figureId": "3240:17535",
-      "captionTextId": "I3240:17535;3165:600;3240:17556;3164:51;3240:17559",
-      "captionText": "Figura 3.240 — Classificazioni tipografiche: sei famiglie di caratteri a confronto.",
+      "folio": 422,
+      "pageId": "2613:1114",
+      "boardId": "198:5515",
+      "figureId": "3242:19305",
+      "captionTextId": "I3242:19305;3165:600;3242:19326;3164:51;3242:19329",
+      "captionText": "Figura 3.240 — Grigi neutri e grigi tonalizzati applicati al testo.",
       "referenceTextIds": [
-        "198:5601"
+        "198:5523"
       ]
     },
     {
@@ -3358,38 +3358,38 @@
       "ordinal": 241,
       "folio": 427,
       "pageId": "2613:1115",
-      "boardId": "198:5630",
-      "figureId": "3240:17568",
-      "captionTextId": "I3240:17568;3165:600;3240:17589;3164:51;3240:17592",
-      "captionText": "Figura 3.241 — Legibility e readability: riconoscere i caratteri e leggere un testo.",
+      "boardId": "198:5650",
+      "figureId": "3240:17469",
+      "captionTextId": "I3240:17469;3165:613;3240:17490;3164:60;3240:17493",
+      "captionText": "Figura 3.241 — La Linotype: un esempio di macchina per la composizione tipografica.",
       "referenceTextIds": [
-        "198:5584"
+        "198:5658"
       ]
     },
     {
       "number": "3.242",
       "ordinal": 242,
-      "folio": 431,
+      "folio": 429,
       "pageId": "2613:1115",
-      "boardId": "198:5697",
-      "figureId": "4030:12329",
-      "captionTextId": "I4030:12329;3165:600;4030:12350;3164:51;4030:12348",
-      "captionText": "Figura 3.242 — Confronto tipografico della stessa frase in due caratteri.",
+      "boardId": "198:5621",
+      "figureId": "3240:17502",
+      "captionTextId": "I3240:17502;3165:600;3240:17523;3164:51;3240:17526",
+      "captionText": "Figura 3.242 — Anatomia del carattere: parti e proporzioni delle lettere.",
       "referenceTextIds": [
-        "2408:1106"
+        "198:5573"
       ]
     },
     {
       "number": "3.243",
       "ordinal": 243,
-      "folio": 432,
+      "folio": 431,
       "pageId": "2613:1115",
-      "boardId": "198:5830",
-      "figureId": "4030:12355",
-      "captionTextId": "I4030:12355;3165:600;4030:12371;3164:51;4030:12369",
-      "captionText": "Figura 3.243 — Campioni di quattro pesi tipografici: regular, light, semibold e bold.",
+      "boardId": "198:5641",
+      "figureId": "3240:17535",
+      "captionTextId": "I3240:17535;3165:600;3240:17556;3164:51;3240:17559",
+      "captionText": "Figura 3.243 — Classificazioni tipografiche: sei famiglie di caratteri a confronto.",
       "referenceTextIds": [
-        "I4030:12355;3165:593;4030:12382"
+        "198:5601"
       ]
     },
     {
@@ -3397,155 +3397,155 @@
       "ordinal": 244,
       "folio": 433,
       "pageId": "2613:1115",
-      "boardId": "198:5851",
-      "figureId": "3240:17601",
-      "captionTextId": "I3240:17601;3165:600;3240:17622;3164:51;3240:17625",
-      "captionText": "Figura 3.244 — Font weight: variazioni di peso all’interno di una famiglia tipografica.",
+      "boardId": "198:5630",
+      "figureId": "3240:17568",
+      "captionTextId": "I3240:17568;3165:600;3240:17589;3164:51;3240:17592",
+      "captionText": "Figura 3.244 — Legibility e readability: riconoscere i caratteri e leggere un testo.",
       "referenceTextIds": [
-        "I4030:12355;3165:593;4030:12382"
+        "198:5584"
       ]
     },
     {
       "number": "3.245",
       "ordinal": 245,
-      "folio": 434,
+      "folio": 437,
       "pageId": "2613:1115",
-      "boardId": "198:5712",
-      "figureId": "3240:17634",
-      "captionTextId": "I3240:17634;3165:600;3240:17655;3164:51;3240:17658",
-      "captionText": "Figura 3.245 — X-height e proporzioni delle minuscole in un campione di caratteri.",
+      "boardId": "198:5697",
+      "figureId": "4030:12329",
+      "captionTextId": "I4030:12329;3165:600;4030:12350;3164:51;4030:12348",
+      "captionText": "Figura 3.245 — Confronto tipografico della stessa frase in due caratteri.",
       "referenceTextIds": [
-        "198:5720"
+        "2408:1106"
       ]
     },
     {
       "number": "3.246",
       "ordinal": 246,
-      "folio": 435,
+      "folio": 438,
       "pageId": "2613:1115",
-      "boardId": "198:5766",
-      "figureId": "3240:17667",
-      "captionTextId": "I3240:17667;3165:600;3240:17688;3164:51;3240:17691",
-      "captionText": "Figura 3.246 — Caratteri senza grazie e con grazie messi a confronto.",
+      "boardId": "198:5830",
+      "figureId": "4030:12355",
+      "captionTextId": "I4030:12355;3165:600;4030:12371;3164:51;4030:12369",
+      "captionText": "Figura 3.246 — Campioni di quattro pesi tipografici: regular, light, semibold e bold.",
       "referenceTextIds": [
-        "198:5774"
+        "I4030:12355;3165:593;4030:12382"
       ]
     },
     {
       "number": "3.247",
       "ordinal": 247,
-      "folio": 436,
+      "folio": 439,
       "pageId": "2613:1115",
-      "boardId": "198:5755",
-      "figureId": "3240:17700",
-      "captionTextId": "I3240:17700;3165:600;3240:17721;3164:51;3240:17724",
-      "captionText": "Figura 3.247 — Font contrast: alternanza tra tratti spessi e sottili.",
+      "boardId": "198:5851",
+      "figureId": "3240:17601",
+      "captionTextId": "I3240:17601;3165:600;3240:17622;3164:51;3240:17625",
+      "captionText": "Figura 3.247 — Font weight: variazioni di peso all’interno di una famiglia tipografica.",
       "referenceTextIds": [
-        "198:5763"
+        "I4030:12355;3165:593;4030:12382"
       ]
     },
     {
       "number": "3.248",
       "ordinal": 248,
-      "folio": 437,
+      "folio": 440,
       "pageId": "2613:1115",
-      "boardId": "198:5799",
-      "figureId": "3240:17733",
-      "captionTextId": "I3240:17733;3165:600;3240:17754;3164:51;3240:17757",
-      "captionText": "Figura 3.248 — Corner rounding: differenze nell’arrotondamento degli angoli del carattere.",
+      "boardId": "198:5712",
+      "figureId": "3240:17634",
+      "captionTextId": "I3240:17634;3165:600;3240:17655;3164:51;3240:17658",
+      "captionText": "Figura 3.248 — X-height e proporzioni delle minuscole in un campione di caratteri.",
       "referenceTextIds": [
-        "198:5807"
+        "198:5720"
       ]
     },
     {
       "number": "3.249",
       "ordinal": 249,
-      "folio": 439,
+      "folio": 441,
       "pageId": "2613:1115",
-      "boardId": "198:5777",
-      "figureId": "3240:17770",
-      "captionTextId": "I3240:17770;3165:600;3240:17793;3164:51;3240:17796",
-      "captionText": "Figura 3.249 — Tre registri tipografici: contrasto classico, scrittura fluida e forme espressive.",
+      "boardId": "198:5766",
+      "figureId": "3240:17667",
+      "captionTextId": "I3240:17667;3165:600;3240:17688;3164:51;3240:17691",
+      "captionText": "Figura 3.249 — Caratteri senza grazie e con grazie messi a confronto.",
       "referenceTextIds": [
-        "198:5732"
+        "198:5774"
       ]
     },
     {
       "number": "3.250",
       "ordinal": 250,
-      "folio": 445,
-      "pageId": "2613:1116",
-      "boardId": "198:3604",
-      "figureId": "3240:17805",
-      "captionTextId": "I3240:17805;3165:600;3240:17826;3164:51;3240:17829",
-      "captionText": "Figura 3.250 — Anatomia della griglia: colonne, righe, margini e moduli.",
+      "folio": 442,
+      "pageId": "2613:1115",
+      "boardId": "198:5755",
+      "figureId": "3240:17700",
+      "captionTextId": "I3240:17700;3165:600;3240:17721;3164:51;3240:17724",
+      "captionText": "Figura 3.250 — Font contrast: alternanza tra tratti spessi e sottili.",
       "referenceTextIds": [
-        "198:3614"
+        "198:5763"
       ]
     },
     {
       "number": "3.251",
       "ordinal": 251,
-      "folio": 446,
-      "pageId": "2613:1116",
-      "boardId": "198:3367",
-      "figureId": "3240:17838",
-      "captionTextId": "I3240:17838;3165:600;3240:17859;3164:51;3240:17862",
-      "captionText": "Figura 3.251 — Una griglia editoriale applicata a una doppia pagina.",
+      "folio": 443,
+      "pageId": "2613:1115",
+      "boardId": "198:5799",
+      "figureId": "3240:17733",
+      "captionTextId": "I3240:17733;3165:600;3240:17754;3164:51;3240:17757",
+      "captionText": "Figura 3.251 — Corner rounding: differenze nell’arrotondamento degli angoli del carattere.",
       "referenceTextIds": [
-        "198:3377"
+        "198:5807"
       ]
     },
     {
       "number": "3.252",
       "ordinal": 252,
-      "folio": 447,
-      "pageId": "2613:1116",
-      "boardId": "198:3830",
-      "figureId": "3240:17871",
-      "captionTextId": "I3240:17871;3165:600;3240:17892;3164:51;3240:17895",
-      "captionText": "Figura 3.252 — Griglie adattabili a schermi e formati diversi.",
+      "folio": 445,
+      "pageId": "2613:1115",
+      "boardId": "198:5777",
+      "figureId": "3240:17770",
+      "captionTextId": "I3240:17770;3165:600;3240:17793;3164:51;3240:17796",
+      "captionText": "Figura 3.252 — Tre registri tipografici: contrasto classico, scrittura fluida e forme espressive.",
       "referenceTextIds": [
-        "198:3840"
+        "198:5732"
       ]
     },
     {
       "number": "3.253",
       "ordinal": 253,
-      "folio": 449,
+      "folio": 451,
       "pageId": "2613:1116",
-      "boardId": "198:3853",
-      "figureId": "3240:17904",
-      "captionTextId": "I3240:17904;3165:600;3240:17925;3164:51;3240:17928",
-      "captionText": "Figura 3.253 — Responsive e adaptive design: due modalità di adattamento del layout.",
+      "boardId": "198:3604",
+      "figureId": "3240:17805",
+      "captionTextId": "I3240:17805;3165:600;3240:17826;3164:51;3240:17829",
+      "captionText": "Figura 3.253 — Anatomia della griglia: colonne, righe, margini e moduli.",
       "referenceTextIds": [
-        "198:3412"
+        "198:3614"
       ]
     },
     {
       "number": "3.254",
       "ordinal": 254,
-      "folio": 451,
+      "folio": 452,
       "pageId": "2613:1116",
-      "boardId": "198:3842",
-      "figureId": "3240:17939",
-      "captionTextId": "I3240:17939;3165:600;3240:17961;3164:51;3240:17964",
-      "captionText": "Figura 3.254 — Punti di forza della composizione e distribuzione dell’attenzione visiva.",
+      "boardId": "198:3367",
+      "figureId": "3240:17838",
+      "captionTextId": "I3240:17838;3165:600;3240:17859;3164:51;3240:17862",
+      "captionText": "Figura 3.254 — Una griglia editoriale applicata a una doppia pagina.",
       "referenceTextIds": [
-        "198:3396"
+        "198:3377"
       ]
     },
     {
       "number": "3.255",
       "ordinal": 255,
-      "folio": 454,
+      "folio": 453,
       "pageId": "2613:1116",
-      "boardId": "198:3293",
-      "figureId": "3240:17973",
-      "captionTextId": "I3240:17973;3165:600;3240:17994;3164:51;3240:17997",
-      "captionText": "Figura 3.255 — Identità visiva: tipografia e colori rendono riconoscibili i marchi.",
+      "boardId": "198:3830",
+      "figureId": "3240:17871",
+      "captionTextId": "I3240:17871;3165:600;3240:17892;3164:51;3240:17895",
+      "captionText": "Figura 3.255 — Griglie adattabili a schermi e formati diversi.",
       "referenceTextIds": [
-        "198:3303"
+        "198:3840"
       ]
     },
     {
@@ -3553,452 +3553,491 @@
       "ordinal": 256,
       "folio": 455,
       "pageId": "2613:1116",
-      "boardId": "198:3787",
-      "figureId": "3240:18006",
-      "captionTextId": "I3240:18006;3165:600;3240:18027;3164:51;3240:18030",
-      "captionText": "Figura 3.256 — Due interfacce di pagamento con gerarchie visive differenti.",
+      "boardId": "198:3853",
+      "figureId": "3240:17904",
+      "captionTextId": "I3240:17904;3165:600;3240:17925;3164:51;3240:17928",
+      "captionText": "Figura 3.256 — Responsive e adaptive design: due modalità di adattamento del layout.",
       "referenceTextIds": [
-        "198:3649"
+        "198:3412"
       ]
     },
     {
       "number": "3.257",
       "ordinal": 257,
-      "folio": 456,
+      "folio": 457,
       "pageId": "2613:1116",
-      "boardId": "198:3312",
-      "figureId": "3240:18039",
-      "captionTextId": "I3240:18039;3165:600;3240:18061;3164:51;3240:18064",
-      "captionText": "Figura 3.257 — CSS Zen Garden: due interpretazioni visive dello stesso contenuto.",
+      "boardId": "198:3842",
+      "figureId": "3240:17939",
+      "captionTextId": "I3240:17939;3165:600;3240:17961;3164:51;3240:17964",
+      "captionText": "Figura 3.257 — Punti di forza della composizione e distribuzione dell’attenzione visiva.",
       "referenceTextIds": [
-        "198:3322"
+        "198:3396"
       ]
     },
     {
       "number": "3.258",
       "ordinal": 258,
-      "folio": 457,
+      "folio": 460,
       "pageId": "2613:1116",
-      "boardId": "198:3798",
-      "figureId": "3240:18073",
-      "captionTextId": "I3240:18073;3165:600;3240:18094;3164:51;3240:18097",
-      "captionText": "Figura 3.258 — Una pera morsicata ricorda il logo Apple attraverso la forma.",
+      "boardId": "198:3293",
+      "figureId": "3240:17973",
+      "captionTextId": "I3240:17973;3165:600;3240:17994;3164:51;3240:17997",
+      "captionText": "Figura 3.258 — Identità visiva: tipografia e colori rendono riconoscibili i marchi.",
       "referenceTextIds": [
-        "198:3649"
+        "198:3303"
       ]
     },
     {
       "number": "3.259",
       "ordinal": 259,
-      "folio": 458,
+      "folio": 461,
       "pageId": "2613:1116",
-      "boardId": "198:3331",
-      "figureId": "3240:18106",
-      "captionTextId": "I3240:18106;3165:600;3240:18127;3164:51;3240:18130",
-      "captionText": "Figura 3.259 — Componenti grafici e icone nell’ecosistema Google.",
+      "boardId": "198:3787",
+      "figureId": "3240:18006",
+      "captionTextId": "I3240:18006;3165:600;3240:18027;3164:51;3240:18030",
+      "captionText": "Figura 3.259 — Due interfacce di pagamento con gerarchie visive differenti.",
       "referenceTextIds": [
-        "198:3341"
+        "198:3649"
       ]
     },
     {
       "number": "3.260",
       "ordinal": 260,
-      "folio": 459,
+      "folio": 462,
       "pageId": "2613:1116",
-      "boardId": "198:3808",
-      "figureId": "3240:18139",
-      "captionTextId": "I3240:18139;3165:600;3240:18160;3164:51;3240:18163",
-      "captionText": "Figura 3.260 — Coerenza di forme e colori nel sistema di identità di Google.",
+      "boardId": "198:3312",
+      "figureId": "3240:18039",
+      "captionTextId": "I3240:18039;3165:600;3240:18061;3164:51;3240:18064",
+      "captionText": "Figura 3.260 — CSS Zen Garden: due interpretazioni visive dello stesso contenuto.",
       "referenceTextIds": [
-        "198:3817"
+        "198:3322"
       ]
     },
     {
       "number": "3.261",
       "ordinal": 261,
-      "folio": 460,
+      "folio": 463,
       "pageId": "2613:1116",
-      "boardId": "198:3349",
-      "figureId": "3240:18171",
-      "captionTextId": "I3240:18171;3165:600;3240:18192;3164:51;3240:18195",
-      "captionText": "Figura 3.261 — Look & feel: palette, tipografia, componenti e schermate coordinati.",
+      "boardId": "198:3798",
+      "figureId": "3240:18073",
+      "captionTextId": "I3240:18073;3165:600;3240:18094;3164:51;3240:18097",
+      "captionText": "Figura 3.261 — Una pera morsicata ricorda il logo Apple attraverso la forma.",
       "referenceTextIds": [
-        "198:3359"
+        "198:3649"
       ]
     },
     {
       "number": "3.262",
       "ordinal": 262,
-      "folio": 461,
+      "folio": 464,
       "pageId": "2613:1116",
-      "boardId": "198:3819",
-      "figureId": "3242:19409",
-      "captionTextId": "I3242:19409;3165:600;3242:19430;3164:51;3242:19433",
-      "captionText": "Figura 3.262 — Menu, pulsanti e controlli organizzati in un sistema di componenti.",
+      "boardId": "198:3331",
+      "figureId": "3240:18106",
+      "captionTextId": "I3240:18106;3165:600;3240:18127;3164:51;3240:18130",
+      "captionText": "Figura 3.262 — Componenti grafici e icone nell’ecosistema Google.",
       "referenceTextIds": [
-        "198:3829"
+        "198:3341"
       ]
     },
     {
       "number": "3.263",
       "ordinal": 263,
-      "folio": 463,
-      "pageId": "2613:1117",
-      "boardId": "2460:1203",
-      "figureId": "4029:374",
-      "captionTextId": "I4029:375;3164:51;4029:380",
-      "captionText": "Figura 3.263 — Journey ipotetica per una prenotazione: fasi, touchpoint e domande da verificare.",
+      "folio": 465,
+      "pageId": "2613:1116",
+      "boardId": "198:3808",
+      "figureId": "3240:18139",
+      "captionTextId": "I3240:18139;3165:600;3240:18160;3164:51;3240:18163",
+      "captionText": "Figura 3.263 — Coerenza di forme e colori nel sistema di identità di Google.",
       "referenceTextIds": [
-        "2460:1212"
+        "198:3817"
       ]
     },
     {
       "number": "3.264",
       "ordinal": 264,
-      "folio": 464,
-      "pageId": "2613:1117",
-      "boardId": "2460:1242",
-      "figureId": "4029:381",
-      "captionTextId": "I4029:383;3164:51;4029:388",
-      "captionText": "Figura 3.264 — Wireflow simulato: dalla scelta della nuova data alla conferma dell’appuntamento.",
+      "folio": 466,
+      "pageId": "2613:1116",
+      "boardId": "198:3349",
+      "figureId": "3240:18171",
+      "captionTextId": "I3240:18171;3165:600;3240:18192;3164:51;3240:18195",
+      "captionText": "Figura 3.264 — Look & feel: palette, tipografia, componenti e schermate coordinati.",
       "referenceTextIds": [
-        "2460:1278"
+        "198:3359"
       ]
     },
     {
       "number": "3.265",
       "ordinal": 265,
-      "folio": 468,
-      "pageId": "2613:1117",
-      "boardId": "198:6006",
-      "figureId": "3240:18204",
-      "captionTextId": "I3240:18204;3165:600;3240:18225;3164:51;3240:18228",
-      "captionText": "Figura 3.265 — Revisione delle schermate e confronto tra soluzioni durante la prototipazione.",
+      "folio": 467,
+      "pageId": "2613:1116",
+      "boardId": "198:3819",
+      "figureId": "3242:19409",
+      "captionTextId": "I3242:19409;3165:600;3242:19430;3164:51;3242:19433",
+      "captionText": "Figura 3.265 — Menu, pulsanti e controlli organizzati in un sistema di componenti.",
       "referenceTextIds": [
-        "198:6016"
+        "198:3829"
       ]
     },
     {
       "number": "3.266",
       "ordinal": 266,
-      "folio": 471,
+      "folio": 469,
       "pageId": "2613:1117",
-      "boardId": "2456:1429",
-      "figureId": "4029:389",
-      "captionTextId": "I4029:390;3164:51;4029:395",
-      "captionText": "Figura 3.266 — Cinque stati alternativi del servizio di prenotazione, con messaggi e possibili azioni.",
+      "boardId": "2460:1203",
+      "figureId": "4029:374",
+      "captionTextId": "I4029:375;3164:51;4029:380",
+      "captionText": "Figura 3.266 — Journey ipotetica per una prenotazione: fasi, touchpoint e domande da verificare.",
       "referenceTextIds": [
-        "2458:1335"
+        "2460:1212"
       ]
     },
     {
       "number": "3.267",
       "ordinal": 267,
-      "folio": 472,
+      "folio": 470,
       "pageId": "2613:1117",
-      "boardId": "2456:1456",
-      "figureId": "4029:396",
-      "captionTextId": "I4029:397;3164:51;4029:402",
-      "captionText": "Figura 3.267 — Disponibilità esaurita: confronto fra un messaggio generico e uno che offre un’alternativa.",
+      "boardId": "2460:1242",
+      "figureId": "4029:381",
+      "captionTextId": "I4029:383;3164:51;4029:388",
+      "captionText": "Figura 3.267 — Wireflow simulato: dalla scelta della nuova data alla conferma dell’appuntamento.",
       "referenceTextIds": [
-        "2459:1101"
+        "2460:1278"
       ]
     },
     {
       "number": "3.268",
       "ordinal": 268,
-      "folio": 472,
+      "folio": 474,
       "pageId": "2613:1117",
-      "boardId": "2456:1456",
-      "figureId": "4029:403",
-      "captionTextId": "I4029:404;3164:51;4029:409",
-      "captionText": "Figura 3.268 — Riepilogo simulato prima della conferma di una modifica.",
+      "boardId": "198:6006",
+      "figureId": "3240:18204",
+      "captionTextId": "I3240:18204;3165:600;3240:18225;3164:51;3240:18228",
+      "captionText": "Figura 3.268 — Revisione delle schermate e confronto tra soluzioni durante la prototipazione.",
       "referenceTextIds": [
-        "2459:1121"
+        "198:6016"
       ]
     },
     {
       "number": "3.269",
       "ordinal": 269,
-      "folio": 473,
+      "folio": 477,
       "pageId": "2613:1117",
-      "boardId": "198:6207",
-      "figureId": "3240:18237",
-      "captionTextId": "I3240:18237;3165:600;3240:18258;3164:51;3240:18261",
-      "captionText": "Figura 3.269 — Dal wireframe al mockup: struttura e resa visiva della stessa pagina.",
+      "boardId": "2456:1429",
+      "figureId": "4029:389",
+      "captionTextId": "I4029:390;3164:51;4029:395",
+      "captionText": "Figura 3.269 — Cinque stati alternativi del servizio di prenotazione, con messaggi e possibili azioni.",
       "referenceTextIds": [
-        "198:6034"
+        "2458:1335"
       ]
     },
     {
       "number": "3.270",
       "ordinal": 270,
       "folio": 478,
-      "pageId": "2613:1118",
-      "boardId": "198:5889",
-      "figureId": "3241:19502",
-      "captionTextId": "I3241:19502;3165:600;3241:19523;3164:51;3241:19526",
-      "captionText": "Figura 3.270 — Assassin’s Creed: ambientazione e realismo percepito.",
+      "pageId": "2613:1117",
+      "boardId": "2456:1456",
+      "figureId": "4029:396",
+      "captionTextId": "I4029:397;3164:51;4029:402",
+      "captionText": "Figura 3.270 — Disponibilità esaurita: confronto fra un messaggio generico e uno che offre un’alternativa.",
       "referenceTextIds": [
-        "198:5898"
+        "2459:1101"
       ]
     },
     {
       "number": "3.271",
       "ordinal": 271,
-      "folio": 480,
-      "pageId": "2613:1118",
-      "boardId": "198:5904",
-      "figureId": "3241:19535",
-      "captionTextId": "I3241:19535;3165:600;3241:19556;3164:51;3241:19559",
-      "captionText": "Figura 3.271 — Equilibrio tra difficoltà e abilità nel canale di flow.",
+      "folio": 478,
+      "pageId": "2613:1117",
+      "boardId": "2456:1456",
+      "figureId": "4029:403",
+      "captionTextId": "I4029:404;3164:51;4029:409",
+      "captionText": "Figura 3.271 — Riepilogo simulato prima della conferma di una modifica.",
       "referenceTextIds": [
-        "198:5914"
+        "2459:1121"
       ]
     },
     {
       "number": "3.272",
       "ordinal": 272,
-      "folio": 481,
-      "pageId": "2613:1118",
-      "boardId": "198:6082",
-      "figureId": "3241:19567",
-      "captionTextId": "I3241:19567;3165:600;3241:19587;3164:51;3241:19590",
-      "captionText": "Figura 3.272 — Esempio di interfaccia cervello-computer (BCI).",
+      "folio": 479,
+      "pageId": "2613:1117",
+      "boardId": "198:6207",
+      "figureId": "3240:18237",
+      "captionTextId": "I3240:18237;3165:600;3240:18258;3164:51;3240:18261",
+      "captionText": "Figura 3.272 — Dal wireframe al mockup: struttura e resa visiva della stessa pagina.",
       "referenceTextIds": [
-        "198:6092"
+        "198:6034"
       ]
     },
     {
       "number": "3.273",
       "ordinal": 273,
-      "folio": 483,
+      "folio": 484,
       "pageId": "2613:1118",
-      "boardId": "198:6096",
-      "figureId": "3316:17739",
-      "captionTextId": "I3316:17739;3165:600;3316:17759;3164:51;3316:17761",
-      "captionText": "Figura 3.273 — Far Cry 3",
+      "boardId": "198:5889",
+      "figureId": "3241:19502",
+      "captionTextId": "I3241:19502;3165:600;3241:19523;3164:51;3241:19526",
+      "captionText": "Figura 3.273 — Assassin’s Creed: ambientazione e realismo percepito.",
       "referenceTextIds": [
-        "198:5926"
+        "198:5898"
       ]
     },
     {
       "number": "3.274",
       "ordinal": 274,
-      "folio": 483,
+      "folio": 486,
       "pageId": "2613:1118",
-      "boardId": "198:6096",
-      "figureId": "3316:17709",
-      "captionTextId": "I3316:17709;3165:600;3316:17729;3164:51;3316:17731",
-      "captionText": "Figura 3.274 — Resident Evil 4",
+      "boardId": "198:5904",
+      "figureId": "3241:19535",
+      "captionTextId": "I3241:19535;3165:600;3241:19556;3164:51;3241:19559",
+      "captionText": "Figura 3.274 — Equilibrio tra difficoltà e abilità nel canale di flow.",
       "referenceTextIds": [
-        "198:5926"
+        "198:5914"
       ]
     },
     {
       "number": "3.275",
       "ordinal": 275,
-      "folio": 484,
+      "folio": 487,
       "pageId": "2613:1118",
-      "boardId": "198:5927",
-      "figureId": "3241:19599",
-      "captionTextId": "I3241:19599;3165:600;3241:19619;3164:51;3241:19622",
-      "captionText": "Figura 3.275 — Detroit: Become Human",
+      "boardId": "198:6082",
+      "figureId": "3241:19567",
+      "captionTextId": "I3241:19567;3165:600;3241:19587;3164:51;3241:19590",
+      "captionText": "Figura 3.275 — Esempio di interfaccia cervello-computer (BCI).",
       "referenceTextIds": [
-        "198:5937"
+        "198:6092"
       ]
     },
     {
       "number": "3.276",
       "ordinal": 276,
-      "folio": 485,
+      "folio": 489,
       "pageId": "2613:1118",
-      "boardId": "198:6111",
-      "figureId": "3241:19631",
-      "captionTextId": "I3241:19631;3165:600;3241:19651;3164:51;3241:19654",
-      "captionText": "Figura 3.276 — Esempio di quick time event in Spider-Man",
+      "boardId": "198:6096",
+      "figureId": "3316:17739",
+      "captionTextId": "I3316:17739;3165:600;3316:17759;3164:51;3316:17761",
+      "captionText": "Figura 3.276 — Far Cry 3",
       "referenceTextIds": [
-        "198:6121"
+        "198:5926"
       ]
     },
     {
       "number": "3.277",
       "ordinal": 277,
-      "folio": 486,
+      "folio": 489,
       "pageId": "2613:1118",
-      "boardId": "198:5942",
-      "figureId": "4029:833",
-      "captionTextId": "I4029:834;3164:51;4029:839",
-      "captionText": "Figura 3.277 — Matrice delle interfacce di gioco: mondo narrativo e spazio del gioco.",
+      "boardId": "198:6096",
+      "figureId": "3316:17709",
+      "captionTextId": "I3316:17709;3165:600;3316:17729;3164:51;3316:17731",
+      "captionText": "Figura 3.277 — Resident Evil 4",
       "referenceTextIds": [
-        "2419:1090"
+        "198:5926"
       ]
     },
     {
       "number": "3.278",
       "ordinal": 278,
-      "folio": 487,
+      "folio": 490,
       "pageId": "2613:1118",
-      "boardId": "198:6125",
-      "figureId": "3320:1634",
-      "captionTextId": "I3320:1634;3165:600;3320:1659;3164:51;3320:1661",
-      "captionText": "Figura 3.278 — Super Mario Bros 3",
+      "boardId": "198:5927",
+      "figureId": "3241:19599",
+      "captionTextId": "I3241:19599;3165:600;3241:19619;3164:51;3241:19622",
+      "captionText": "Figura 3.278 — Detroit: Become Human",
       "referenceTextIds": [
-        "198:6134"
+        "198:5937"
       ]
     },
     {
       "number": "3.279",
       "ordinal": 279,
-      "folio": 489,
+      "folio": 491,
       "pageId": "2613:1118",
-      "boardId": "198:6139",
-      "figureId": "3316:17800",
-      "captionTextId": "I3316:17800;3165:600;3316:17820;3164:51;3316:17822",
-      "captionText": "Figura 3.279 — Wreckfest",
+      "boardId": "198:6111",
+      "figureId": "3241:19631",
+      "captionTextId": "I3241:19631;3165:600;3241:19651;3164:51;3241:19654",
+      "captionText": "Figura 3.279 — Esempio di quick time event in Spider-Man",
       "referenceTextIds": [
-        "198:5967"
+        "198:6121"
       ]
     },
     {
       "number": "3.280",
       "ordinal": 280,
-      "folio": 489,
+      "folio": 492,
       "pageId": "2613:1118",
-      "boardId": "198:6139",
-      "figureId": "3316:17770",
-      "captionTextId": "I3316:17770;3165:600;3316:17790;3164:51;3316:17792",
-      "captionText": "Figura 3.280 — Far Cry 2",
+      "boardId": "198:5942",
+      "figureId": "4029:833",
+      "captionTextId": "I4029:834;3164:51;4029:839",
+      "captionText": "Figura 3.280 — Matrice delle interfacce di gioco: mondo narrativo e spazio del gioco.",
       "referenceTextIds": [
-        "198:5967"
+        "2419:1090"
       ]
     },
     {
       "number": "3.281",
       "ordinal": 281,
-      "folio": 491,
+      "folio": 493,
       "pageId": "2613:1118",
-      "boardId": "198:6169",
-      "figureId": "3241:19663",
-      "captionTextId": "I3241:19663;3165:600;3241:19683;3164:51;3241:19686",
-      "captionText": "Figura 3.281 — Warcraft 3",
+      "boardId": "198:6125",
+      "figureId": "3320:1634",
+      "captionTextId": "I3320:1634;3165:600;3320:1659;3164:51;3320:1661",
+      "captionText": "Figura 3.281 — Super Mario Bros 3",
       "referenceTextIds": [
-        "198:5991"
+        "198:6134"
       ]
     },
     {
       "number": "3.282",
       "ordinal": 282,
-      "folio": 493,
+      "folio": 495,
       "pageId": "2613:1118",
-      "boardId": "198:6154",
-      "figureId": "3320:1669",
-      "captionTextId": "I3320:1669;3165:600;3320:1689;3164:51;3320:1691",
-      "captionText": "Figura 3.282 — Call of Duty",
+      "boardId": "198:6139",
+      "figureId": "3316:17800",
+      "captionTextId": "I3316:17800;3165:600;3316:17820;3164:51;3316:17822",
+      "captionText": "Figura 3.282 — Wreckfest",
       "referenceTextIds": [
-        "198:5979"
+        "198:5967"
       ]
     },
     {
       "number": "3.283",
       "ordinal": 283,
-      "folio": 493,
+      "folio": 495,
       "pageId": "2613:1118",
-      "boardId": "198:6154",
-      "figureId": "3320:1699",
-      "captionTextId": "I3320:1699;3165:600;3320:1719;3164:51;3320:1721",
-      "captionText": "Figura 3.283 — Watch Dogs",
+      "boardId": "198:6139",
+      "figureId": "3316:17770",
+      "captionTextId": "I3316:17770;3165:600;3316:17790;3164:51;3316:17792",
+      "captionText": "Figura 3.283 — Far Cry 2",
       "referenceTextIds": [
-        "198:5979"
+        "198:5967"
       ]
     },
     {
       "number": "3.284",
       "ordinal": 284,
-      "folio": 495,
+      "folio": 497,
       "pageId": "2613:1118",
-      "boardId": "198:6181",
-      "figureId": "3320:1729",
-      "captionTextId": "I3320:1729;3165:600;3320:1749;3164:51;3320:1751",
-      "captionText": "Figura 3.284 — Fortnite",
+      "boardId": "198:6169",
+      "figureId": "3241:19663",
+      "captionTextId": "I3241:19663;3165:600;3241:19683;3164:51;3241:19686",
+      "captionText": "Figura 3.284 — Warcraft 3",
       "referenceTextIds": [
-        "198:6004"
+        "198:5991"
       ]
     },
     {
       "number": "3.285",
       "ordinal": 285,
-      "folio": 495,
+      "folio": 499,
       "pageId": "2613:1118",
-      "boardId": "198:6181",
-      "figureId": "3320:1759",
-      "captionTextId": "I3320:1759;3165:600;3320:1779;3164:51;3320:1781",
-      "captionText": "Figura 3.285 — Zelda: Breath of the Wild",
+      "boardId": "198:6154",
+      "figureId": "3320:1669",
+      "captionTextId": "I3320:1669;3165:600;3320:1689;3164:51;3320:1691",
+      "captionText": "Figura 3.285 — Call of Duty",
       "referenceTextIds": [
-        "198:6004"
+        "198:5979"
       ]
     },
     {
       "number": "3.286",
       "ordinal": 286,
-      "folio": 510,
-      "pageId": "2613:1119",
-      "boardId": "198:3243",
-      "figureId": "4029:951",
-      "captionTextId": "I4029:952;3164:51;4029:957",
-      "captionText": "Figura 3.286 — Sei momenti indicativi di un test moderato; tempi dimostrativi.",
+      "folio": 499,
+      "pageId": "2613:1118",
+      "boardId": "198:6154",
+      "figureId": "3320:1699",
+      "captionTextId": "I3320:1699;3165:600;3320:1719;3164:51;3320:1721",
+      "captionText": "Figura 3.286 — Watch Dogs",
       "referenceTextIds": [
-        "2419:1117"
+        "198:5979"
       ]
     },
     {
       "number": "3.287",
       "ordinal": 287,
-      "folio": 511,
-      "pageId": "2613:1119",
-      "boardId": "198:3721",
-      "figureId": "3241:18247",
-      "captionTextId": "I3241:18247;3165:600;3241:18268;3164:51;3241:18271",
-      "captionText": "Figura 3.287 — Le fasi e i tempi indicativi di una sessione di test di usabilità.",
+      "folio": 501,
+      "pageId": "2613:1118",
+      "boardId": "198:6181",
+      "figureId": "3320:1729",
+      "captionTextId": "I3320:1729;3165:600;3320:1749;3164:51;3320:1751",
+      "captionText": "Figura 3.287 — Fortnite",
       "referenceTextIds": [
-        "2419:1117"
+        "198:6004"
       ]
     },
     {
       "number": "3.288",
       "ordinal": 288,
-      "folio": 514,
-      "pageId": "2613:1119",
-      "boardId": "198:3265",
-      "figureId": "4029:958",
-      "captionTextId": "I4029:959;3164:51;4029:964",
-      "captionText": "Figura 3.288 — Dall’osservazione alla verifica: quattro passaggi del debriefing.",
+      "folio": 501,
+      "pageId": "2613:1118",
+      "boardId": "198:6181",
+      "figureId": "3320:1759",
+      "captionTextId": "I3320:1759;3165:600;3320:1779;3164:51;3320:1781",
+      "captionText": "Figura 3.288 — Zelda: Breath of the Wild",
       "referenceTextIds": [
-        "2421:1090"
+        "198:6004"
       ]
     },
     {
       "number": "3.289",
       "ordinal": 289,
-      "folio": 517,
+      "folio": 516,
       "pageId": "2613:1119",
-      "boardId": "198:3759",
-      "figureId": "4029:965",
-      "captionTextId": "I4029:966;3164:51;4029:971",
-      "captionText": "Figura 3.289 — Card sorting e tree testing: due metodi complementari per l’architettura dell’informazione.",
+      "boardId": "198:3243",
+      "figureId": "4029:951",
+      "captionTextId": "I4029:952;3164:51;4029:957",
+      "captionText": "Figura 3.289 — Sei momenti indicativi di un test moderato; tempi dimostrativi.",
       "referenceTextIds": [
-        "2421:1119"
+        "2419:1117"
       ]
     },
     {
       "number": "3.290",
       "ordinal": 290,
-      "folio": 521,
+      "folio": 517,
+      "pageId": "2613:1119",
+      "boardId": "198:3721",
+      "figureId": "3241:18247",
+      "captionTextId": "I3241:18247;3165:600;3241:18268;3164:51;3241:18271",
+      "captionText": "Figura 3.290 — Le fasi e i tempi indicativi di una sessione di test di usabilità.",
+      "referenceTextIds": [
+        "2419:1117"
+      ]
+    },
+    {
+      "number": "3.291",
+      "ordinal": 291,
+      "folio": 520,
+      "pageId": "2613:1119",
+      "boardId": "198:3265",
+      "figureId": "4029:958",
+      "captionTextId": "I4029:959;3164:51;4029:964",
+      "captionText": "Figura 3.291 — Dall’osservazione alla verifica: quattro passaggi del debriefing.",
+      "referenceTextIds": [
+        "2421:1090"
+      ]
+    },
+    {
+      "number": "3.292",
+      "ordinal": 292,
+      "folio": 523,
+      "pageId": "2613:1119",
+      "boardId": "198:3759",
+      "figureId": "4029:965",
+      "captionTextId": "I4029:966;3164:51;4029:971",
+      "captionText": "Figura 3.292 — Card sorting e tree testing: due metodi complementari per l’architettura dell’informazione.",
+      "referenceTextIds": [
+        "2421:1119"
+      ]
+    },
+    {
+      "number": "3.293",
+      "ordinal": 293,
+      "folio": 527,
       "pageId": "2613:1120",
       "boardId": "198:6252",
       "figureId": "3241:18280",
       "captionTextId": "I3241:18280;3165:600;3241:18301;3164:51;3241:18304",
-      "captionText": "Figura 3.290 — NIST: ciclo di sviluppo del software. Le pratiche SSDF si integrano nelle diverse fasi.",
+      "captionText": "Figura 3.293 — NIST: ciclo di sviluppo del software. Le pratiche SSDF si integrano nelle diverse fasi.",
       "referenceTextIds": [
         "198:6240"
       ]
@@ -4008,8 +4047,8 @@
   "allFiguresHaveProseReferences": true,
   "originalsCreditsAndLinksPreserved": true,
   "incrementalRevision": {
-    "manifest": "assets/booklet/colore-cultura/manifest.json",
-    "verification": "reports/colore-cultura/verifica.json",
-    "basis": "Indice completo precedente conservato nelle prove di numerazione; inserimento verificato in Figma e traslazione delle figure successive di quattro."
+    "manifest": "assets/booklet/colore-cultura/figma-integrazioni/manifest.json",
+    "verification": "reports/colore-cultura/figma-integrazioni/verifica.json",
+    "basis": "Sei tavole e tre figure inserite dopo il folio 397; didascalie e richiami successivi verificati con le rispettive identità native."
   }
 }

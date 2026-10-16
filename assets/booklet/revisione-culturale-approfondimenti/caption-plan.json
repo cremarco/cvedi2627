@@ -1,0 +1,1560 @@
+{
+  "schema": "cvedi-cultural-caption-plan/1",
+  "plannedOn": "2026-10-09",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1109",
+  "sectionId": "204:8295",
+  "scope": "Audit indipendente delle 59 tavole culturali, basato sui manifest e raster locali correnti. Nessuna mutazione Figma.",
+  "sourceFiles": [
+    "assets/booklet/contesto-culturale-revisione/figma-text.json",
+    "assets/booklet/casi-studio-integrali/figma-text.json",
+    "assets/booklet/casi-studio-integrali/manifest.json",
+    "assets/booklet/casi-studio-integrali/mcdonald-source.json",
+    "assets/booklet/casi-studio-integrali/alibaba-source.json",
+    "assets/booklet/dimensioni-culturali-native/manifest.json",
+    "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json"
+  ],
+  "counts": {
+    "sectionBoards": 59,
+    "captionRecords": 42,
+    "theoryScreenshotsAndDiagrams": 14,
+    "generatedCovers": 6,
+    "nativeGraphs": 6,
+    "integralCaseVisibleImageNodes": 16,
+    "mcdonaldCaseBoards": 16,
+    "alibabaCaseBoards": 5,
+    "mcdonaldSourceImages": 18,
+    "mcdonaldScreenshotSourceParts": 17,
+    "alibabaMeaningfulSourceImages": 5
+  },
+  "policy": {
+    "captionLengthWords": [
+      20,
+      45
+    ],
+    "method": "Descrivere ciò che si osserva, collegarlo al costrutto e formulare un’ipotesi o una verifica. Non inferire comportamento individuale o causa culturale dalla nazionalità.",
+    "sourceFidelity": "Preservare i testi originali dei casi; le correzioni proposte sono flag separati da sottoporre al root.",
+    "credits": "Tenere crediti e provenienza separati dalla didascalia esplicativa. Non aggiungere licenze non documentate.",
+    "groupedFigures": "Un composito completo richiede una caption che copra tutte le porzioni. Una tavola con due figure distinte, come Alibaba CSS, richiede due caption.",
+    "excludedFromIndividualCaptions": [
+      "Bandiere nei pin dei sei grafici",
+      "Etichette, punti, scale e componenti della matrice/grafico",
+      "Fasce arancioni decorative dei separatori Alibaba",
+      "Footer, numeri di pagina, linee e altri elementi di sistema"
+    ]
+  },
+  "logicalSequence": {
+    "status": "coherent_with_targeted_corrections",
+    "currentOrder": [
+      "11–13 · Metodo Empathize: intervista, osservazione, evidenze",
+      "14 · Introduzione storica alle cinque dimensioni",
+      "15–41 · Sei dimensioni, ognuna con copertina metaforica e grafico nativo; definizione e casi nei primi cinque nuclei",
+      "42 · Canali e condizioni d’uso IKEA",
+      "43–47 · Hall, RTL, Schwartz, GLOBE e mappa WVS",
+      "48 · Ponte: osservazione, interpretazione, verifica",
+      "49–64 · Caso McDonald’s completo in 16 tavole",
+      "65–69 · Caso Alibaba completo in 5 tavole"
+    ],
+    "recommendations": [
+      "Conservare copertina e grafico consecutivi per ogni dimensione.",
+      "Mantenere il grafico separato dalla metafora visiva; un credito ImageGen non sostituisce la caption.",
+      "Il ponte già distingue interpretazioni e verifiche: affiancare caption coerenti ai casi integrali, senza trasformarli in prove causali.",
+      "Le didascalie degli esempi devono seguire la versione effettiva della schermata; risolvere le discordanze fra testi e raster prima del QA finale.",
+      "Nessuna nuova caption necessaria per tavole solo testuali."
+    ]
+  },
+  "captions": [
+    {
+      "key": "hofstede-five-dimension-overview",
+      "boardId": "198:3529",
+      "currentFolio": 14,
+      "printedPage": 106,
+      "boardTitle": "C03 · 014 · DX — Cultura, contesto e ricerca UX",
+      "kind": "historical-model-diagram",
+      "dimension": "Hofstede overview",
+      "imageNodeIds": [
+        "2648:472"
+      ],
+      "existingCaptionNodeIds": [
+        "2648:478"
+      ],
+      "existingCaption": "Schema storico delle prime cinque dimensioni; IVR completa il percorso.",
+      "draftCaption": "Le cinque righe contrappongono i poli del modello storico di Hofstede. Aiutano a distinguere i costrutti, senza trasformare un punteggio nazionale nel profilo di un utente; il percorso prosegue con l’indulgenza.",
+      "wordCount": 31,
+      "credit": {
+        "source": "Schema già presente nel booklet CVeDI; nessun nuovo autore o licenza dedotto.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-008-01.png"
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "imageNodeIdsAreFigureContainer": true
+    },
+    {
+      "key": "moscow",
+      "boardId": "198:4418",
+      "currentFolio": 18,
+      "printedPage": 110,
+      "boardTitle": "C03 · 018 · DX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "PDI",
+      "imageNodeIds": [
+        "2141:1242"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1240"
+      ],
+      "existingCaption": "Homepage dell’Università Statale di Mosca · cattura storica.",
+      "draftCaption": "La fotografia dell’edificio e i menu presentano l’università come istituzione riconoscibile. Per il PDI, chiediamoci quali segnali rendano autorevole il servizio; il punto di vista fotografico non misura l’accettazione delle gerarchie.",
+      "wordCount": 31,
+      "credit": {
+        "label": "Università Statale di Mosca",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-011-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "amsterdam",
+      "boardId": "198:4973",
+      "currentFolio": 19,
+      "printedPage": 111,
+      "boardTitle": "C03 · 019 · SX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "PDI",
+      "imageNodeIds": [
+        "2141:1247"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1245"
+      ],
+      "existingCaption": "Homepage dell’Università di Amsterdam · cattura storica.",
+      "draftCaption": "La pagina mette in evidenza temi, ricerca e percorsi dell’università. Nel confronto sul PDI, osserviamo come costruisce credibilità e vicinanza ai suoi pubblici; la composizione non dimostra rapporti sociali più paritari.",
+      "wordCount": 31,
+      "credit": {
+        "label": "Università di Amsterdam",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-012-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "greyhound",
+      "boardId": "198:4575",
+      "currentFolio": 23,
+      "printedPage": 115,
+      "boardTitle": "C03 · 023 · SX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "IDV",
+      "imageNodeIds": [
+        "2141:1252"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1250"
+      ],
+      "existingCaption": "Homepage di Greyhound: ricerca del viaggio e servizi per l’utente · cattura storica.",
+      "draftCaption": "Ricerca del viaggio, prenotazione e app organizzano compiti del viaggiatore. L’IDV suggerisce di indagare chi decide e con chi condivide il viaggio; queste funzioni dipendono anche dalla natura del servizio.",
+      "wordCount": 30,
+      "credit": {
+        "label": "Greyhound",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-015-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "kmb",
+      "boardId": "198:5105",
+      "currentFolio": 24,
+      "printedPage": 116,
+      "boardTitle": "C03 · 024 · DX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "IDV",
+      "imageNodeIds": [
+        "2141:1257"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1255"
+      ],
+      "existingCaption": "Homepage di Kowloon Motor Bus: informazioni e servizi alla comunità · cattura storica.",
+      "draftCaption": "Il banner per animali, la fotografia dello staff e i contatti affiancano il viaggio. Per l’IDV, esploriamo quali relazioni sostiene il servizio; fotografie di gruppo e plurali non provano valori collettivistici.",
+      "wordCount": 31,
+      "credit": {
+        "label": "Kowloon Motor Bus",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-016-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "japan-government",
+      "boardId": "198:4564",
+      "currentFolio": 28,
+      "printedPage": 120,
+      "boardTitle": "C03 · 028 · DX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "MAS",
+      "imageNodeIds": [
+        "2141:1262"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1260"
+      ],
+      "existingCaption": "Homepage del sito del governo giapponese · cattura storica.",
+      "draftCaption": "Notizie e anteprime raccontano contributi, attività e temi del Paese. Il MAS invita a confrontare riconoscimento dei risultati e qualità della vita, considerando anche finalità editoriali, destinatari e periodo della pagina.",
+      "wordCount": 31,
+      "credit": {
+        "label": "Governo giapponese",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-019-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "sweden-government",
+      "boardId": "198:5094",
+      "currentFolio": 29,
+      "printedPage": 121,
+      "boardTitle": "C03 · 029 · SX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "MAS",
+      "imageNodeIds": [
+        "2141:1267"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1265"
+      ],
+      "existingCaption": "Homepage del sito del governo svedese · cattura storica.",
+      "draftCaption": "Diritti LGBTQ+ e immagini di cura rendono visibili temi di benessere condiviso. Nel MAS sono spunti sul polo della cooperazione; una selezione editoriale non descrive tutti i valori della società.",
+      "wordCount": 30,
+      "credit": {
+        "label": "Governo svedese",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-020-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "kfc-belarus",
+      "boardId": "198:4553",
+      "currentFolio": 33,
+      "printedPage": 125,
+      "boardTitle": "C03 · 033 · SX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "UAI",
+      "imageNodeIds": [
+        "2141:1272"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1270"
+      ],
+      "existingCaption": "Homepage di KFC in Bielorussia · cattura storica.",
+      "draftCaption": "Prezzi, sconto e categorie permettono di confrontare l’offerta nella pagina. Per lo UAI, verifichiamo quali dubbi risolvono e quali restano; la struttura regolare non dimostra il bisogno di prevedibilità degli utenti.",
+      "wordCount": 31,
+      "credit": {
+        "label": "KFC Bielorussia",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-023-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "kfc-denmark",
+      "boardId": "198:5083",
+      "currentFolio": 34,
+      "printedPage": 126,
+      "boardTitle": "C03 · 034 · DX — Empathize · contesto e accessibilità",
+      "kind": "historical-website-screenshot",
+      "dimension": "UAI",
+      "imageNodeIds": [
+        "2141:1277"
+      ],
+      "existingCaptionNodeIds": [
+        "2141:1275"
+      ],
+      "existingCaption": "Homepage di KFC in Danimarca · cattura storica.",
+      "draftCaption": "La fotografia principale, lo slogan e il prezzo concentrano l’attenzione sull’offerta. Lo UAI suggerisce di chiedere quali informazioni servano prima della scelta; pochi contenuti non dimostrano maggiore tolleranza dell’ambiguità.",
+      "wordCount": 29,
+      "credit": {
+        "label": "KFC Danimarca",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-024-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "kinder-china",
+      "boardId": "2648:196",
+      "currentFolio": 38,
+      "printedPage": 130,
+      "boardTitle": "C03 · 038 · DX — Kinder Cina",
+      "kind": "historical-website-screenshot",
+      "dimension": "LTO",
+      "imageNodeIds": [],
+      "existingCaptionNodeIds": [
+        "2648:213"
+      ],
+      "existingCaption": "Homepage di Kinder per il mercato cinese.",
+      "draftCaption": "Fotografia, notizie sulla crescita e prodotti raccontano aspetti diversi della marca. Per il LTO, chiediamoci quali impegni futuri siano comprensibili e rilevanti; i temi dell’azienda non misurano l’orientamento temporale dei clienti.",
+      "wordCount": 31,
+      "credit": {
+        "label": "Kinder Cina",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-027-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "kinder-us",
+      "boardId": "2648:218",
+      "currentFolio": 39,
+      "printedPage": 131,
+      "boardTitle": "C03 · 039 · SX — Kinder Stati Uniti",
+      "kind": "historical-website-screenshot",
+      "dimension": "LTO",
+      "imageNodeIds": [],
+      "existingCaptionNodeIds": [
+        "2648:235"
+      ],
+      "existingCaption": "Homepage di Kinder per il mercato statunitense.",
+      "draftCaption": "Nuovi prodotti e collaborazione con Stranger Things danno rilievo alle campagne. Nel confronto sul LTO, esploriamo come vengono valutati novità e benefici nel tempo; una promozione non prova preferenze per risultati immediati.",
+      "wordCount": 32,
+      "credit": {
+        "label": "Kinder Stati Uniti",
+        "temporalLabel": "Cattura conservata nel booklet; non dedurre la data di acquisizione.",
+        "sourceAsset": "assets/booklet/capitolo-3/originals/c03-028-01.png",
+        "rights": "Sito e immagini: diritti dei rispettivi titolari; non attribuire licenze aperte non documentate."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "activeScreenshotIdentityMustBeConfirmed": true
+    },
+    {
+      "key": "ikea-china-access",
+      "boardId": "198:4984",
+      "currentFolio": 42,
+      "printedPage": 134,
+      "boardTitle": "C03 · 042 · DX — Il contesto include i servizi",
+      "kind": "localization-screenshot",
+      "dimension": "Context / localization",
+      "imageNodeIds": [
+        "2620:252"
+      ],
+      "existingCaptionNodeIds": [
+        "2620:253"
+      ],
+      "existingCaption": "IKEA Cina · accesso al profilo, cattura storica. Da Sarah Corleta.",
+      "draftCaption": "Telefono, codice e WeChat offrono canali diversi per accedere. Il contesto culturale comprende strumenti e condizioni d’uso: verifichiamo quali opzioni siano disponibili e accessibili al pubblico, senza inferire preferenze da un Paese.",
+      "wordCount": 32,
+      "credit": {
+        "label": "IKEA Cina · cattura storica. Da Sarah Corleta.",
+        "sourceAsset": "assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-cina-accesso.png",
+        "rights": "Crediti originali conservati; nessuna nuova licenza dedotta."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true
+    },
+    {
+      "key": "ikea-saudi-rtl",
+      "boardId": "198:5028",
+      "currentFolio": 44,
+      "printedPage": 136,
+      "boardTitle": "C03 · 044 · DX — Lingua e direzione di lettura",
+      "kind": "localization-screenshot",
+      "dimension": "RTL / localization",
+      "imageNodeIds": [
+        "2620:280"
+      ],
+      "existingCaptionNodeIds": [
+        "2620:281"
+      ],
+      "existingCaption": "IKEA Arabia Saudita · cattura storica. Da Sarah Corleta, Brand identity e design cross-culturale.",
+      "draftCaption": "Testo arabo, ricerca e navigazione mostrano una direzione di lettura da verificare elemento per elemento. La localizzazione riguarda lingua e convenzioni d’uso: marchi, numeri e fotografie non richiedono una specchiatura automatica.",
+      "wordCount": 31,
+      "credit": {
+        "label": "IKEA Arabia Saudita · cattura storica. Da Sarah Corleta, Brand identity e design cross-culturale.",
+        "sourceAsset": "assets/booklet/contesto-culturale-revisione/legacy-candidates/ikea-arabia-rtl.jpg",
+        "rights": "Crediti originali conservati; nessuna nuova licenza dedotta."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true
+    },
+    {
+      "key": "wvs-world-cultural-map",
+      "boardId": "198:4536",
+      "currentFolio": 47,
+      "printedPage": 139,
+      "boardTitle": "C03 · 047 · SX — Una mappa dei valori",
+      "kind": "aggregate-data-map",
+      "dimension": "Inglehart–Welzel / WVS",
+      "imageNodeIds": [
+        "2620:333"
+      ],
+      "existingCaptionNodeIds": [
+        "2620:334"
+      ],
+      "existingCaption": "The Inglehart–Welzel World Cultural Map — World Values Survey 7 (2023). Fonte: WVS/EVS; periodo riportato nel grafico 2005–2022.",
+      "draftCaption": "I due assi collocano stime aggregate dei valori: tradizionali/secolari-razionali e sopravvivenza/espressione di sé. La distanza sulla mappa suggerisce confronti tra rilevazioni, non preferenze d’interfaccia né comportamenti dei singoli utenti.",
+      "wordCount": 29,
+      "credit": {
+        "label": "The Inglehart–Welzel World Cultural Map — World Values Survey 7 (2023).",
+        "source": "World Values Survey & European Values Study (2005–2022).",
+        "sourceUrl": "https://www.worldvaluessurvey.org/WVSContents.jsp?CMSID=Findings",
+        "originalPdf": "assets/booklet/contesto-culturale-revisione/official/wvs-wave7-2023.pdf",
+        "rights": "Attribuzione secondo WVSA Findings & Insights; nessuna licenza generale dedotta."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true
+    },
+    {
+      "key": "cover-PDI",
+      "boardId": "198:3945",
+      "currentFolio": 15,
+      "printedPage": 107,
+      "boardTitle": "C03 · 015 · SX — Distanza dal potere (PDI)",
+      "kind": "generated-conceptual-cover",
+      "dimension": "PDI",
+      "imageNodeIds": [
+        "2702:3941"
+      ],
+      "existingCaptionNodeIds": [
+        "2702:3949"
+      ],
+      "existingCaption": "Illustrazione concettuale · ImageGen",
+      "draftCaption": "La tavola comune e i livelli dell’architettura traducono visivamente relazioni più paritarie e gerarchie accettate. Sono metafore dei poli del PDI: non rappresentano Paesi né comportamenti reali di singole persone.",
+      "wordCount": 30,
+      "credit": {
+        "label": "Illustrazione concettuale · ImageGen",
+        "creditNodeId": "2702:3949",
+        "sourceAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/pdi-v1.png",
+        "manifest": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json",
+        "isSynthetic": true
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "placementRecommendation": "Didascalia nativa distinta dai poli e dal credito, con spazio sufficiente; non incorporarla nel raster."
+    },
+    {
+      "key": "cover-IDV",
+      "boardId": "198:4402",
+      "currentFolio": 20,
+      "printedPage": 112,
+      "boardTitle": "C03 · 020 · DX — Individualismo e collettivismo (IDV)",
+      "kind": "generated-conceptual-cover",
+      "dimension": "IDV",
+      "imageNodeIds": [
+        "2702:3950"
+      ],
+      "existingCaptionNodeIds": [
+        "2702:3958"
+      ],
+      "existingCaption": "Illustrazione concettuale · ImageGen",
+      "draftCaption": "I fili che uniscono le figure e i percorsi distinti evocano appartenenza al gruppo e autonomia. La metafora introduce l’IDV senza equiparare collettivismo a uniformità o individualismo a solitudine.",
+      "wordCount": 29,
+      "credit": {
+        "label": "Illustrazione concettuale · ImageGen",
+        "creditNodeId": "2702:3958",
+        "sourceAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/idv-v1.png",
+        "manifest": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json",
+        "isSynthetic": true
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "placementRecommendation": "Didascalia nativa distinta dai poli e dal credito, con spazio sufficiente; non incorporarla nel raster."
+    },
+    {
+      "key": "cover-MAS",
+      "boardId": "198:4386",
+      "currentFolio": 25,
+      "printedPage": 117,
+      "boardTitle": "C03 · 025 · SX — Motivazione al risultato e al successo (MAS)",
+      "kind": "generated-conceptual-cover",
+      "dimension": "MAS",
+      "imageNodeIds": [
+        "2702:3959"
+      ],
+      "existingCaptionNodeIds": [
+        "2702:3967"
+      ],
+      "existingCaption": "Illustrazione concettuale · ImageGen",
+      "draftCaption": "Costruire insieme un ponte e seguire percorsi verso le vette evoca cooperazione e riconoscimento del successo. La metafora introduce i poli del MAS con pari dignità, senza assegnare ruoli di genere.",
+      "wordCount": 31,
+      "credit": {
+        "label": "Illustrazione concettuale · ImageGen",
+        "creditNodeId": "2702:3967",
+        "sourceAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/mas-v1.png",
+        "manifest": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json",
+        "isSynthetic": true
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "placementRecommendation": "Didascalia nativa distinta dai poli e dal credito, con spazio sufficiente; non incorporarla nel raster."
+    },
+    {
+      "key": "cover-UAI",
+      "boardId": "198:4370",
+      "currentFolio": 30,
+      "printedPage": 122,
+      "boardTitle": "C03 · 030 · DX — Avversione all’incertezza (UAI)",
+      "kind": "generated-conceptual-cover",
+      "dimension": "UAI",
+      "imageNodeIds": [
+        "2702:3968"
+      ],
+      "existingCaptionNodeIds": [
+        "2702:3976"
+      ],
+      "existingCaption": "Illustrazione concettuale · ImageGen",
+      "draftCaption": "Sentieri aperti e archi ripetuti evocano esplorazione e prevedibilità. Sono metafore del diverso disagio verso l’ambiguità nello UAI; non contrappongono disordine e sicurezza né descrivono l’avversione individuale al rischio.",
+      "wordCount": 29,
+      "credit": {
+        "label": "Illustrazione concettuale · ImageGen",
+        "creditNodeId": "2702:3976",
+        "sourceAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/uai-v1.png",
+        "manifest": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json",
+        "isSynthetic": true
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "placementRecommendation": "Didascalia nativa distinta dai poli e dal credito, con spazio sufficiente; non incorporarla nel raster."
+    },
+    {
+      "key": "cover-LTO",
+      "boardId": "198:4354",
+      "currentFolio": 35,
+      "printedPage": 127,
+      "boardTitle": "C03 · 035 · SX — Orientamento a lungo termine (LTO)",
+      "kind": "generated-conceptual-cover",
+      "dimension": "LTO",
+      "imageNodeIds": [
+        "2702:3977"
+      ],
+      "existingCaptionNodeIds": [
+        "2702:3985"
+      ],
+      "existingCaption": "Illustrazione concettuale · ImageGen",
+      "draftCaption": "Radici e anelli richiamano continuità; germogli e orizzonti, adattamento e preparazione del futuro. La metafora introduce il LTO senza classificare un polo come più evoluto o prevedere scelte d’acquisto.",
+      "wordCount": 29,
+      "credit": {
+        "label": "Illustrazione concettuale · ImageGen",
+        "creditNodeId": "2702:3985",
+        "sourceAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/lto-v1.png",
+        "manifest": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json",
+        "isSynthetic": true
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "placementRecommendation": "Didascalia nativa distinta dai poli e dal credito, con spazio sufficiente; non incorporarla nel raster."
+    },
+    {
+      "key": "cover-IVR",
+      "boardId": "198:4429",
+      "currentFolio": 40,
+      "printedPage": 132,
+      "boardTitle": "C03 · 040 · DX — Indulgenza e restrizione (IVR)",
+      "kind": "generated-conceptual-cover",
+      "dimension": "IVR",
+      "imageNodeIds": [
+        "2702:3986"
+      ],
+      "existingCaptionNodeIds": [
+        "2702:3994"
+      ],
+      "existingCaption": "Illustrazione concettuale · ImageGen",
+      "draftCaption": "Gli stessi fiori compaiono organizzati da nastri e liberamente aperti. La metafora distingue controllo attraverso norme sociali e gratificazione relativamente libera nell’IVR, senza giudicare felicità, benessere o valore delle persone.",
+      "wordCount": 30,
+      "credit": {
+        "label": "Illustrazione concettuale · ImageGen",
+        "creditNodeId": "2702:3994",
+        "sourceAsset": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/ivr-v1.png",
+        "manifest": "assets/booklet/dimensioni-culturali-native/copertine/imagegen/manifest.json",
+        "isSynthetic": true
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "placementRecommendation": "Didascalia nativa distinta dai poli e dal credito, con spazio sufficiente; non incorporarla nel raster."
+    },
+    {
+      "key": "native-graph-PDI",
+      "boardId": "2695:3902",
+      "currentFolio": 16,
+      "printedPage": 108,
+      "boardTitle": "C03 · 016 · DX — Distanza dal potere · dati e confronto",
+      "kind": "native-data-graph",
+      "dimension": "PDI",
+      "imageNodeIds": [
+        "2695:3919"
+      ],
+      "existingCaptionNodeIds": [
+        "I2695:3919;2685:1050"
+      ],
+      "existingCaption": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+      "draftCaption": "Le posizioni sull’asse confrontano indici nazionali di accettazione delle gerarchie. Distanze e punteggi sono relativi, non percentuali: suggeriscono domande sull’autorevolezza dei servizi, da verificare con persone e contesti specifici.",
+      "wordCount": 29,
+      "credit": {
+        "label": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+        "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+        "flagLicense": "flag-icons (MIT)",
+        "flagSource": "https://github.com/lipis/flag-icons",
+        "consultedOn": "2026-10-09"
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia condivisa per l’intero grafico; nessuna didascalia per le singole bandiere, punti, pin o etichette.",
+      "nativeComponent": true
+    },
+    {
+      "key": "native-graph-IDV",
+      "boardId": "2695:4373",
+      "currentFolio": 21,
+      "printedPage": 113,
+      "boardTitle": "C03 · 021 · SX — Individualismo e collettivismo · dati e confronto",
+      "kind": "native-data-graph",
+      "dimension": "IDV",
+      "imageNodeIds": [
+        "2695:4390"
+      ],
+      "existingCaptionNodeIds": [
+        "I2695:4390;2685:1164"
+      ],
+      "existingCaption": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+      "draftCaption": "L’asse confronta indici nazionali di autonomia e legami con il gruppo. Le differenze orientano domande su decisioni personali e responsabilità condivise; non misurano egoismo, privacy o preferenze di ogni utente.",
+      "wordCount": 30,
+      "credit": {
+        "label": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+        "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+        "flagLicense": "flag-icons (MIT)",
+        "flagSource": "https://github.com/lipis/flag-icons",
+        "consultedOn": "2026-10-09"
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia condivisa per l’intero grafico; nessuna didascalia per le singole bandiere, punti, pin o etichette.",
+      "nativeComponent": true
+    },
+    {
+      "key": "native-graph-MAS",
+      "boardId": "2695:4538",
+      "currentFolio": 26,
+      "printedPage": 118,
+      "boardTitle": "C03 · 026 · DX — Motivazione al risultato e al successo · dati e confronto",
+      "kind": "native-data-graph",
+      "dimension": "MAS",
+      "imageNodeIds": [
+        "2695:4555"
+      ],
+      "existingCaptionNodeIds": [
+        "I2695:4555;2685:1275"
+      ],
+      "existingCaption": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+      "draftCaption": "L’asse confronta il peso relativo di cooperazione e qualità della vita rispetto a competizione e successo. I punteggi aiutano a formulare domande sui valori comunicati, senza descrivere genere o personalità.",
+      "wordCount": 30,
+      "credit": {
+        "label": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+        "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+        "flagLicense": "flag-icons (MIT)",
+        "flagSource": "https://github.com/lipis/flag-icons",
+        "consultedOn": "2026-10-09"
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia condivisa per l’intero grafico; nessuna didascalia per le singole bandiere, punti, pin o etichette.",
+      "nativeComponent": true
+    },
+    {
+      "key": "native-graph-UAI",
+      "boardId": "2695:4702",
+      "currentFolio": 31,
+      "printedPage": 123,
+      "boardTitle": "C03 · 031 · SX — Avversione all’incertezza · dati e confronto",
+      "kind": "native-data-graph",
+      "dimension": "UAI",
+      "imageNodeIds": [
+        "2695:4719"
+      ],
+      "existingCaptionNodeIds": [
+        "I2695:4719;2685:1573"
+      ],
+      "existingCaption": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+      "draftCaption": "Le posizioni confrontano il disagio collettivo verso situazioni ambigue. I punteggi suggeriscono verifiche su familiarità e prevedibilità del servizio; non indicano percentuali di utenti né propensione individuale al rischio.",
+      "wordCount": 29,
+      "credit": {
+        "label": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+        "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+        "flagLicense": "flag-icons (MIT)",
+        "flagSource": "https://github.com/lipis/flag-icons",
+        "consultedOn": "2026-10-09"
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia condivisa per l’intero grafico; nessuna didascalia per le singole bandiere, punti, pin o etichette.",
+      "nativeComponent": true
+    },
+    {
+      "key": "native-graph-LTO",
+      "boardId": "2695:5057",
+      "currentFolio": 36,
+      "printedPage": 128,
+      "boardTitle": "C03 · 036 · DX — Orientamento a lungo termine · dati e confronto",
+      "kind": "native-data-graph",
+      "dimension": "LTO",
+      "imageNodeIds": [
+        "2695:5074"
+      ],
+      "existingCaptionNodeIds": [
+        "I2695:5074;2685:1857"
+      ],
+      "existingCaption": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+      "draftCaption": "L’asse confronta continuità con norme e tradizioni con adattamento e preparazione del futuro. I punteggi suggeriscono domande su impegni e cambiamento nel tempo; non prescrivono sconti, pulsanti o acquisti immediati.",
+      "wordCount": 30,
+      "credit": {
+        "label": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+        "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+        "flagLicense": "flag-icons (MIT)",
+        "flagSource": "https://github.com/lipis/flag-icons",
+        "consultedOn": "2026-10-09"
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia condivisa per l’intero grafico; nessuna didascalia per le singole bandiere, punti, pin o etichette.",
+      "nativeComponent": true
+    },
+    {
+      "key": "native-graph-IVR",
+      "boardId": "2695:5389",
+      "currentFolio": 41,
+      "printedPage": 133,
+      "boardTitle": "C03 · 041 · SX — Indulgenza e restrizione · dati e confronto",
+      "kind": "native-data-graph",
+      "dimension": "IVR",
+      "imageNodeIds": [
+        "2695:5398"
+      ],
+      "existingCaptionNodeIds": [
+        "I2695:5398;2685:2525"
+      ],
+      "existingCaption": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+      "draftCaption": "Le posizioni confrontano controllo tramite norme sociali e gratificazione relativamente libera. I punteggi aprono domande su aspettative e vincoli nel contesto d’uso, senza misurare felicità o desideri delle singole persone.",
+      "wordCount": 30,
+      "credit": {
+        "label": "The Culture Factor · Country Comparison Tool · consultato il 09/10/2026\nIndici relativi, non percentuali. Bandiere: flag-icons (MIT).",
+        "sourceUrl": "https://www.theculturefactor.com/country-comparison-tool",
+        "flagLicense": "flag-icons (MIT)",
+        "flagSource": "https://github.com/lipis/flag-icons",
+        "consultedOn": "2026-10-09"
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia condivisa per l’intero grafico; nessuna didascalia per le singole bandiere, punti, pin o etichette.",
+      "nativeComponent": true
+    },
+    {
+      "key": "mcdonald-logo",
+      "boardId": "198:4440",
+      "currentFolio": 49,
+      "printedPage": 141,
+      "boardTitle": "C03 · 049 · SX — Case study McDonald’s",
+      "kind": "historical-case-logo",
+      "dimension": "Identity",
+      "imageNodeIds": [
+        "2668:347"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Gli archi e il giallo identificano la stessa marca prima del confronto tra mercati. La continuità visiva permette di osservare variazioni locali dei contenuti; il marchio non rappresenta una dimensione culturale.",
+      "wordCount": 31,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 172.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:348"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-172-image-01.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I426.png",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-172-image-01.png",
+          "sha256": "8511e396956e3e84f283a7cc2d9e14a01c2e4d3a79a83966992ddd1e90663c00"
+        }
+      ],
+      "sourcePdfPage": 172
+    },
+    {
+      "key": "mcdonald-174-completo",
+      "boardId": "198:4458",
+      "currentFolio": 51,
+      "printedPage": 143,
+      "boardTitle": "C03 · 051 · SX — Alta distanza dal potere: McDonald's Cina",
+      "kind": "historical-case-screenshot",
+      "dimension": "PDI",
+      "imageNodeIds": [
+        "2668:359"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Il mosaico rende visibili molte campagne e accessi nella homepage cinese. Per il PDI, chiediamoci quali segnali rendano autorevole l’offerta e quanto controllo percepiscano gli utenti; densità e gerarchia sociale non coincidono.",
+      "wordCount": 32,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 174.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:360"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-174-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I427.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-174-image-01.jpg",
+          "sha256": "0eb26f24f14e8c879368ac50e7e96fc3324c2eadc7bd73d4ff12897d9ccff510"
+        },
+        {
+          "name": "I428.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-174-image-02.jpg",
+          "sha256": "e8016f6d0113c2f3555213f54024a97eea4a01408f990edc47bce0a93634b5a0"
+        }
+      ],
+      "sourcePdfPage": 174
+    },
+    {
+      "key": "mcdonald-175-completo",
+      "boardId": "198:5017",
+      "currentFolio": 52,
+      "printedPage": 144,
+      "boardTitle": "C03 · 052 · DX — Bassa distanza dal potere: McDonald's Olanda",
+      "kind": "historical-case-screenshot",
+      "dimension": "PDI",
+      "imageNodeIds": [
+        "2668:365"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "La homepage olandese separa promozione, servizi, informazioni e feedback in moduli. Il confronto sul PDI invita a indagare fiducia e autonomia percepite; una struttura ariosa non dimostra minore accettazione delle gerarchie.",
+      "wordCount": 31,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 175.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:366"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-175-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I429.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-175-image-01.jpg",
+          "sha256": "24581c573f150aa847d94091d9efb0a77375c0631c9a60dfe4947e1cc676e31b"
+        },
+        {
+          "name": "I430.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-175-image-02.jpg",
+          "sha256": "f41dbae9a9128469b5fc6d4eeaaa19c3e607ce5f294fb7b047daa77270834837"
+        },
+        {
+          "name": "I431.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-175-image-03.jpg",
+          "sha256": "62082ea956b90cac4fe1808c62c7d622c290ab5827c938b04b0be545fef43c4e"
+        }
+      ],
+      "sourcePdfPage": 175
+    },
+    {
+      "key": "mcdonald-176-completo",
+      "boardId": "2668:250",
+      "currentFolio": 54,
+      "printedPage": 146,
+      "boardTitle": "C03 · 054 · DX — Individualismo: McDonald's Stati Uniti · schermata completa",
+      "kind": "historical-case-screenshot",
+      "dimension": "IDV",
+      "imageNodeIds": [
+        "2668:376"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Prodotto, ricompense e azioni nell’app evidenziano vantaggi per il cliente. Nel confronto sull’IDV, verifichiamo come si intreccino obiettivi personali e decisioni condivise; promozioni individuali non misurano i valori del pubblico.",
+      "wordCount": 30,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 176.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:377"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-176-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I432.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-176-image-01.jpg",
+          "sha256": "5ec1bf9c790c4a8c639243542eae3659628f8374baa7cabcbb360de25d7a8f77"
+        }
+      ],
+      "sourcePdfPage": 176
+    },
+    {
+      "key": "mcdonald-177-completo",
+      "boardId": "2648:267",
+      "currentFolio": 55,
+      "printedPage": 147,
+      "boardTitle": "C03 · 055 · SX — Collettivismo: McDonald's Turchia",
+      "kind": "historical-case-screenshot",
+      "dimension": "IDV",
+      "imageNodeIds": [
+        "2668:382"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "La celebrazione nazionale, le offerte e i collegamenti social affiancano i prodotti. Per l’IDV, esploriamo quali appartenenze e relazioni siano rilevanti nel servizio; una campagna collettiva non prova valori condivisi da tutti.",
+      "wordCount": 32,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 177.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:383"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-177-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I433.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-177-image-01.jpg",
+          "sha256": "109ee365fa2bee8cec59bbfd1b773d251f1931d158ea8a5f0698a458b4eafc12"
+        },
+        {
+          "name": "I434.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-177-image-02.jpg",
+          "sha256": "7b17d6fbd7b025f0593f4972b455e72975de250300818c662c51233fd43483d6"
+        }
+      ],
+      "sourcePdfPage": 177
+    },
+    {
+      "key": "mcdonald-178-completo",
+      "boardId": "2668:262",
+      "currentFolio": 57,
+      "printedPage": 149,
+      "boardTitle": "C03 · 057 · SX — Mascolinità: McDonald's Slovacchia · schermata completa",
+      "kind": "historical-case-screenshot",
+      "dimension": "MAS",
+      "imageNodeIds": [
+        "2668:393"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "La pagina affianca prodotti, sostegno alle famiglie e responsabilità sulle materie prime. Il MAS aiuta a discutere risultati e cura, ma non consente di dedurre qualità attesa o personalità degli utenti slovacchi.",
+      "wordCount": 32,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 178.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:394"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-178-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I435.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-178-image-01.jpg",
+          "sha256": "b4385f26543e44c2419cce64cf1597c91836f640327e3f63d2192e2bc9d991f9"
+        }
+      ],
+      "sourcePdfPage": 178
+    },
+    {
+      "key": "mcdonald-179-completo",
+      "boardId": "2648:325",
+      "currentFolio": 58,
+      "printedPage": 150,
+      "boardTitle": "C03 · 058 · DX — Femminilità: McDonald's Slovenia",
+      "kind": "historical-case-screenshot",
+      "dimension": "MAS",
+      "imageNodeIds": [
+        "2668:399"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Cuori, formule di saluto e richiesta d’opinione costruiscono un tono relazionale. Nel MAS sono spunti per esplorare cura e cooperazione, considerando anche obiettivi promozionali; non dimostrano caratteristiche personali degli utenti sloveni.",
+      "wordCount": 31,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 179.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:400"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-179-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I436.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-179-image-01.jpg",
+          "sha256": "5ba7908e787db2c15d0db3a21df710481e676df2094e9d568b08b0dfbaabbffd"
+        },
+        {
+          "name": "I437.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-179-image-02.jpg",
+          "sha256": "ec038b998f310069f8b8c18fda4cf6dcd25c8529980eb307abdc4887a469dc34"
+        }
+      ],
+      "sourcePdfPage": 179
+    },
+    {
+      "key": "mcdonald-180-completo",
+      "boardId": "2668:274",
+      "currentFolio": 60,
+      "printedPage": 152,
+      "boardTitle": "C03 · 060 · DX — Alto rifiuto dell'incertezza: McDonald's Russia · schermata completa",
+      "kind": "historical-case-screenshot",
+      "dimension": "UAI",
+      "imageNodeIds": [
+        "2668:411"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Prezzi, menu e filtri rendono confrontabili diverse offerte nella pagina. Per lo UAI, verifichiamo quali ambiguità riducano e quali dubbi restino; disponibilità d’informazioni e avversione all’incertezza non sono la stessa misura.",
+      "wordCount": 31,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 180.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:412"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-180-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I438.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-180-image-01.jpg",
+          "sha256": "b5fea5d74e82fd0762d0747d0cde25ee1e15a82122501af59de75501c6b56158"
+        }
+      ],
+      "sourcePdfPage": 180
+    },
+    {
+      "key": "mcdonald-181-completo",
+      "boardId": "2648:383",
+      "currentFolio": 61,
+      "printedPage": 153,
+      "boardTitle": "C03 · 061 · SX — Basso rifiuto dell'incertezza: McDonald's India",
+      "kind": "historical-case-screenshot",
+      "dimension": "UAI",
+      "imageNodeIds": [
+        "2668:417"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "La promozione iniziale e la scheda prodotto combinano una composizione espressiva con informazioni sugli ingredienti. Lo UAI suggerisce di verificare familiarità e comprensione; la schermata statica non documenta animazioni né tolleranza individuale dell’ambiguità.",
+      "wordCount": 33,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 181.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:418"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-181-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I439.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-181-image-01.jpg",
+          "sha256": "174c17216802a400464349df5d6edbec1466ea15492e68daa730a1c868d06273"
+        },
+        {
+          "name": "I440.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-181-image-02.jpg",
+          "sha256": "c11cd391d458d732bc113b7053a884614741303f71a642c92a92e232cb2afa03"
+        },
+        {
+          "name": "I441.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-181-image-03.jpg",
+          "sha256": "05472df4d766d6c1d35ba89a90e846d03d7eb7c92bfe39a3defb3a227c5202d6"
+        }
+      ],
+      "sourcePdfPage": 181
+    },
+    {
+      "key": "mcdonald-182-completo",
+      "boardId": "2668:286",
+      "currentFolio": 63,
+      "printedPage": 155,
+      "boardTitle": "C03 · 063 · SX — Orientamento a breve termine: McDonald's Portogallo · schermata completa",
+      "kind": "historical-case-screenshot",
+      "dimension": "LTO",
+      "imageNodeIds": [
+        "2668:428"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Pulsanti per campagne, promozioni e candidatura propongono azioni diverse. Per il LTO, chiediamoci come siano valutati obiettivi e impegni nel tempo; una call-to-action non dimostra preferenza per risultati immediati o rischio.",
+      "wordCount": 31,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 182.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:429"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-182-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I442.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-182-image-01.jpg",
+          "sha256": "ea31f8d69ff8948fb44dd38052eadeceebd5c99d325cb67cea05662069e3d285"
+        }
+      ],
+      "sourcePdfPage": 182
+    },
+    {
+      "key": "mcdonald-183-completo",
+      "boardId": "2648:441",
+      "currentFolio": 64,
+      "printedPage": 156,
+      "boardTitle": "C03 · 064 · DX — Orientamento a lungo termine: McDonald's Cina",
+      "kind": "historical-case-screenshot",
+      "dimension": "LTO",
+      "imageNodeIds": [
+        "2668:434"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Il mosaico affianca prodotti, campagne e informazioni sulle attività dell’azienda. Nel confronto sul LTO, verifichiamo come le persone comprendano continuità e benefici futuri; la scelta editoriale non misura il loro orientamento temporale.",
+      "wordCount": 32,
+      "credit": {
+        "label": "McDonald’s · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 183.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:435"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/figures/mcdonald-pdf-183-completo.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [
+        {
+          "name": "I443.jpg",
+          "path": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/mcdonald-pdf-183-image-01.jpg",
+          "sha256": "ebd0684fe0022438942b23f97700cf38b19b69be6fcf3e0aa870c038791c5024"
+        }
+      ],
+      "sourcePdfPage": 183
+    },
+    {
+      "key": "alibaba-logo",
+      "boardId": "2668:298",
+      "currentFolio": 65,
+      "printedPage": 157,
+      "boardTitle": "C03 · 065 · SX — Copertina Alibaba",
+      "kind": "historical-case-logo",
+      "dimension": "Identity / localization",
+      "imageNodeIds": [
+        "2668:438"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Il marchio Alibaba.com introduce una piattaforma destinata a mercati diversi. Il confronto riguarda l’adattamento di lingua e interfaccia mantenendo l’identità visiva; il logo non dimostra attenzione o disattenzione verso una cultura.",
+      "wordCount": 31,
+      "credit": {
+        "label": "Alibaba.com · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 184.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p184-I444.png",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [],
+      "sourcePdfPage": 184
+    },
+    {
+      "key": "alibaba-186-homepage",
+      "boardId": "198:5050",
+      "currentFolio": 67,
+      "printedPage": 159,
+      "boardTitle": "C03 · 067 · SX — Espansione del testo.",
+      "kind": "historical-case-screenshot",
+      "dimension": "Localization",
+      "imageNodeIds": [
+        "2668:448"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Selettore italiano e contenuti inglesi coesistono nella schermata. Osserviamo un’incoerenza della versione documentata: la localizzazione richiede verificare testi, banner e percorsi, senza attribuire il difetto ai valori nazionali degli utenti.",
+      "wordCount": 30,
+      "credit": {
+        "label": "Alibaba.com · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 186.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:451"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I450.jpg",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [],
+      "sourcePdfPage": 186
+    },
+    {
+      "key": "alibaba-186-espansione",
+      "boardId": "2668:310",
+      "currentFolio": 68,
+      "printedPage": 160,
+      "boardTitle": "C03 · 068 · DX — Espansione del testo · esempi",
+      "kind": "historical-case-screenshot",
+      "dimension": "Localization / text expansion",
+      "imageNodeIds": [
+        "2668:455"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Etichette troncate e testo sovrapposto alla grafica mostrano problemi di spazio. La localizzazione richiede misurare stringhe reali e verificare il layout; il confronto non stabilisce che una lingua occupi sempre più spazio.",
+      "wordCount": 32,
+      "credit": {
+        "label": "Alibaba.com · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 186.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:456"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p186-I449.jpg",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [],
+      "sourcePdfPage": 186
+    },
+    {
+      "key": "alibaba-187-css-1",
+      "boardId": "2668:322",
+      "currentFolio": 69,
+      "printedPage": 161,
+      "boardTitle": "C03 · 069 · SX — CSS e stile",
+      "kind": "historical-case-screenshot",
+      "dimension": "Localization / consistency",
+      "imageNodeIds": [
+        "2668:461"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Il testo serif della categoria cambia rispetto alla homepage e accompagna etichette troncate. La coerenza tipografica va verificata nella versione localizzata; la sola immagine non identifica con certezza il font o la causa tecnica.",
+      "wordCount": 34,
+      "credit": {
+        "label": "Alibaba.com · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 187.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:464"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I451.jpg",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [],
+      "sourcePdfPage": 187
+    },
+    {
+      "key": "alibaba-187-css-2",
+      "boardId": "2668:322",
+      "currentFolio": 69,
+      "printedPage": 161,
+      "boardTitle": "C03 · 069 · SX — CSS e stile",
+      "kind": "historical-case-screenshot",
+      "dimension": "Localization / consistency",
+      "imageNodeIds": [
+        "2668:463"
+      ],
+      "existingCaptionNodeIds": [],
+      "existingCaption": null,
+      "draftCaption": "Menu serif, banner e nomi dei prodotti convivono nella categoria illuminazione. Il confronto invita a verificare continuità visiva e leggibilità tra sezioni; uno screenshot non prova quale regola CSS o fallback abbia causato il cambiamento.",
+      "wordCount": 35,
+      "credit": {
+        "label": "Alibaba.com · cattura storica dal booklet CVeDI, A.A. 23/24, PDF p. 187.",
+        "authors": "Marco Cremaschi & Giulia Rosemary Avis.",
+        "authorCreditNodeIds": [
+          "2668:464"
+        ],
+        "sourcePdf": "/Users/marco/Sites/cvedi2627/materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "sourceAsset": "/Users/marco/Sites/cvedi2627/assets/booklet/casi-studio-integrali/originals/p187-I452.jpg",
+        "rights": "Marchio, siti e immagini: diritti dei rispettivi titolari; nessuna licenza aperta attestata.",
+        "captureDate": "Data della cattura non attestata; non chiamarla screenshot attuale."
+      },
+      "action": "add_explanatory_caption_preserve_source_credit",
+      "liveNodeVerificationRequired": true,
+      "captionScope": "Una didascalia per la figura completa visibile, coprendo tutte le porzioni sorgenti del composito.",
+      "originalConstituentImages": [],
+      "sourcePdfPage": 187
+    }
+  ],
+  "alternateHistoricalCaptionDrafts": [
+    {
+      "key": "norway-government-2024",
+      "boardId": "198:5094",
+      "condition": "Solo se il live usa hofstede-norvegia-2024.jpg del PDF2024",
+      "draftCaption": "La pagina del governo norvegese presenta informazioni pubbliche e temi di interesse collettivo. Per il MAS, osserviamo quali valori comunica e come vengono interpretati; la schermata non misura cooperazione o personalità dei cittadini.",
+      "liveImageVerificationRequired": true
+    },
+    {
+      "key": "kfc-russia-2024",
+      "boardId": "198:4553",
+      "condition": "Solo se il live usa gli originali hofstede-kfc-russia-2024 e punti/prezzi",
+      "draftCaption": "Categorie, prodotti e informazioni sulle offerte rendono visibili alternative di scelta. Per lo UAI, chiediamoci quali dubbi aiutino a risolvere; ordine della pagina e presenza di prezzi non misurano il disagio del pubblico verso l’ambiguità.",
+      "liveImageVerificationRequired": true
+    },
+    {
+      "key": "kinder-china-2024",
+      "boardId": "2648:196",
+      "condition": "Solo se il live usa le catture PDF2024 con impegno 2025 e crescita",
+      "draftCaption": "L’impegno sugli imballaggi per il 2025 e i contenuti sulla crescita mettono in scena obiettivi futuri. Per il LTO, verifichiamo come questi impegni siano compresi; la comunicazione aziendale non misura l’orientamento dei clienti.",
+      "liveImageVerificationRequired": true
+    }
+  ],
+  "claimAndVersionFlags": [
+    {
+      "priority": "high",
+      "boardId": "198:5083",
+      "textNodeId": "198:5092",
+      "issue": "Il testo dice che nella schermata danese i prezzi non sono visibili; il raster c03-024-01 mostra chiaramente 49.",
+      "proposedAction": "Controllare l’asset effettivo nel live e correggere la descrizione o ripristinare la cattura coerente. La didascalia qui proposta descrive il raster locale corrente."
+    },
+    {
+      "priority": "high",
+      "boardId": "2648:196",
+      "textNodeId": "2648:205",
+      "issue": "La descrizione cita hero «Il nostro impegno per il 2025»; il raster c03-027-01 mostra un hero fotografico e non quel titolo.",
+      "proposedAction": "Scegliere la versione da illustrare. Se si usa la cattura PDF2024 originale, mantenere il riferimento temporale storico; altrimenti adeguare la descrizione a ciò che è visibile."
+    },
+    {
+      "priority": "high",
+      "boardId": "198:5094",
+      "issue": "Le fonti presenti comprendono una cattura corrente svedese e un originale PDF2024 del governo norvegese.",
+      "proposedAction": "Non trasferire titolo, corpo o caption tra le due immagini. Confermare l’identità dell’asset live."
+    },
+    {
+      "priority": "high",
+      "boardId": "198:4553",
+      "issue": "Le fonti presenti comprendono una cattura corrente KFC Bielorussia e un originale PDF2024 KFC Russia.",
+      "proposedAction": "Confermare Paese/versione nel live prima della didascalia; prezzi e struttura non identificano la nazione."
+    },
+    {
+      "priority": "high",
+      "boardId": "2648:267",
+      "textNodeId": "2668:380",
+      "issue": "Il testo originale descrive squadra di pallavoliste e prodotti sempre in gruppo; la figura composita importata mostra centenario nazionale, un panino isolato e collegamenti social.",
+      "proposedAction": "Preservare la fonte ma segnalare la discordanza fra versione descritta e cattura. La caption proposta si limita agli elementi osservabili."
+    },
+    {
+      "priority": "medium",
+      "boardId": "2648:383",
+      "textNodeId": "2668:415",
+      "issue": "Una cattura statica non conferma cursore McFlurry, caricamento a patatine, animazioni o comportamento della navigazione.",
+      "proposedAction": "Distinguere descrizione riportata nella fonte da proprietà osservabili nella figura."
+    },
+    {
+      "priority": "high",
+      "boardId": "198:4995",
+      "textNodeId": "2668:353",
+      "issue": "Responsabilità, scelta e fiducia attribuite direttamente agli utenti di società ad alto/basso PDI.",
+      "proposedAction": "Revisione proposta: trasformare le generalizzazioni in domande su autorevolezza e autonomia percepita; non modificare il testo importato senza decisione esplicita del root."
+    },
+    {
+      "priority": "high",
+      "boardId": "198:4458",
+      "textNodeId": "2668:357",
+      "issue": "Il testo tratta la densità informativa come inversamente proporzionale alla libertà e la spiega con la cultura cinese.",
+      "proposedAction": "Distinguere densità, percorsi disponibili e controllo percepito; la relazione culturale è un’ipotesi da verificare."
+    },
+    {
+      "priority": "high",
+      "boardId": "2648:240",
+      "textNodeIds": [
+        "2668:369",
+        "2668:371"
+      ],
+      "issue": "Il singolo prodotto, i premi e le CTA vengono trattati come prova di individualismo; il testo assegna decisioni autonome/conformi al gruppo in base alla società.",
+      "proposedAction": "Usare IDV per formulare domande su decisioni e responsabilità; considerare servizio, campagna e destinatari come spiegazioni alternative."
+    },
+    {
+      "priority": "high",
+      "boardId": "2648:298",
+      "textNodeIds": [
+        "2668:386",
+        "2668:388"
+      ],
+      "issue": "MAS è usato per dedurre qualità attesa, attenzione ai dettagli, cooperazione, feedback e conflitto dei singoli utenti.",
+      "proposedAction": "Ricondurre la dimensione a valori di risultato/competizione e cura/qualità della vita, evitando inferenze individuali e stereotipi di genere."
+    },
+    {
+      "priority": "high",
+      "boardId": "2648:356",
+      "textNodeIds": [
+        "2668:403",
+        "2668:405"
+      ],
+      "issue": "UAI è assimilato a stili deduttivi/induttivi, spontaneità, adattamento e disponibilità verso le nuove tecnologie.",
+      "proposedAction": "Mantenere distinto disagio verso l’ambiguità da rischio, innovazione o capacità individuali; formulare verifiche su prevedibilità e comprensione."
+    },
+    {
+      "priority": "high",
+      "boardId": "2648:414",
+      "textNodeIds": [
+        "2668:421",
+        "2668:423"
+      ],
+      "issue": "LTO è usato per inferire decisioni rapide/rischiose, dimensione dei pulsanti, liste dei desideri e quantità di dettagli.",
+      "proposedAction": "Esplorare continuità, tradizioni, adattamento e benefici futuri nel compito; nessuna regola d’interfaccia deriva automaticamente dal punteggio."
+    },
+    {
+      "priority": "medium",
+      "boardId": "198:4509",
+      "textNodeIds": [
+        "2668:441",
+        "2668:443"
+      ],
+      "issue": "«A 22 anni» e «oltre 90 miliardi» sono dati storici senza data esplicita; difetti della versione localizzata sono attribuiti alla provenienza culturale.",
+      "proposedAction": "Conservare la fonte come caso storico e spiegare che errori di localizzazione non sono una misura dei valori degli utenti."
+    },
+    {
+      "priority": "medium",
+      "boardId": "198:5050",
+      "textNodeId": "2668:449",
+      "issue": "«L’italiano occupa molto più spazio del cinese» è presentato come invariante generale.",
+      "proposedAction": "Misurare le stringhe specifiche e i vincoli del layout; mantenere distinta l’osservazione della figura dalla generalizzazione linguistica."
+    },
+    {
+      "priority": "medium",
+      "boardId": "2668:322",
+      "textNodeId": "2668:459",
+      "issue": "La cattura da sola non prova font esatto Times New Roman o causa CSS.",
+      "proposedAction": "Descrivere testo serif e incoerenza osservabile; verificare la causa nel prodotto se necessario."
+    },
+    {
+      "priority": "medium",
+      "boardId": "198:4995",
+      "textNodeId": "2668:351",
+      "issue": "64 milioni di clienti/giorno e oltre 100 Paesi sono affermazioni storiche del booklet, senza fonte datata in queste pagine.",
+      "proposedAction": "Non presentarle come dati correnti del 2026. Preservare sotto etichetta di fonte storica se il testo resta integrale."
+    },
+    {
+      "priority": "low",
+      "boardId": "2648:356",
+      "textNodeId": "2668:407",
+      "issue": "Frase incompleta nel testo importato di PDF p.180.",
+      "proposedAction": "Conservare la nota già presente; non completare inventando parole."
+    }
+  ],
+  "verification": {
+    "jsonParse": true,
+    "captionLengthsValidated": true,
+    "all59BoardIdsKnown": true,
+    "all42CaptionRecordsOnKnownBoards": true,
+    "sourceTextEdited": false,
+    "figmaEdited": false,
+    "contactSheets": [
+      "/private/tmp/cvedi-cultural-caption-audit/contact-1.jpg",
+      "/private/tmp/cvedi-cultural-caption-audit/contact-2.jpg",
+      "/private/tmp/cvedi-cultural-caption-audit/contact-3.jpg"
+    ],
+    "liveInventoryStillNeeded": "Il root deve verificare ID attivi e raster effettivi nel Figma, in particolare Kinder ripristinati, figura introduttiva e versioni alternative."
+  }
+}

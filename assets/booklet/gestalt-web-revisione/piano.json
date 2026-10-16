@@ -1,0 +1,232 @@
+[
+  {
+    "key": "vicinanza",
+    "title": "GOV.UK · giorno, mese e anno",
+    "source": "GOV.UK Design System · Date input. Cattura del 14 ottobre 2026. OGL v3.0.",
+    "url": "https://design-system.service.gov.uk/components/date-input/default/",
+    "views": [
+      {
+        "file": "govuk-data.png",
+        "w": 420,
+        "h": 236.25,
+        "caption": "GOV.UK: una domanda comune descrive i tre campi della data."
+      },
+      {
+        "file": "govuk-data.png",
+        "w": 420,
+        "h": 140,
+        "crop": [
+          20,
+          20,
+          600,
+          200
+        ],
+        "caption": "Dettaglio: ogni etichetta è vicina al proprio campo; lo spazio separa i tre elementi."
+      }
+    ]
+  },
+  {
+    "key": "somiglianza",
+    "title": "Api&Bio · schede delle persone",
+    "source": "Progetto Api&Bio, AA 2021. Cattura storica dalle slide 2025–2026, lezione 05, p. 54. Autori non indicati nella fonte.",
+    "views": [
+      {
+        "file": "api-bio-schede.jpg",
+        "w": 420,
+        "h": 200.7049,
+        "caption": "Api&Bio: tre persone sono presentate con lo stesso formato di immagine, ruolo e biografia."
+      },
+      {
+        "file": "api-bio-schede.jpg",
+        "w": 175,
+        "h": 248.8414,
+        "crop": [
+          410,
+          0,
+          410,
+          583
+        ],
+        "caption": "Dettaglio: la struttura ripetuta suggerisce che le schede appartengano alla stessa famiglia."
+      }
+    ]
+  },
+  {
+    "key": "destino-comune",
+    "title": "Bootstrap · il contenuto scorre come un’unità",
+    "source": "Bootstrap 5.3, Carousel with captions. Tre stati acquisiti il 14 ottobre 2026. Documentazione CC BY 3.0; codice MIT.",
+    "url": "https://getbootstrap.com/docs/5.3/components/carousel/#captions",
+    "views": [
+      {
+        "file": "bootstrap-carousel-1.png",
+        "w": 420,
+        "h": 236.25,
+        "caption": "Carousel Bootstrap: immagine, titolo e testo appartengono alla stessa slide."
+      }
+    ],
+    "sequence": [
+      {
+        "file": "bootstrap-carousel-1.png",
+        "crop": [
+          282,
+          235,
+          728,
+          400
+        ],
+        "caption": "Stato 1"
+      },
+      {
+        "file": "bootstrap-carousel-2.png",
+        "crop": [
+          282,
+          150,
+          728,
+          400
+        ],
+        "caption": "Stato 2"
+      },
+      {
+        "file": "bootstrap-carousel-3.png",
+        "crop": [
+          282,
+          150,
+          728,
+          400
+        ],
+        "caption": "Stato 3"
+      }
+    ],
+    "sequenceCaption": "Durante la transizione, immagine e didascalia scorrono insieme; i controlli restano fermi."
+  },
+  {
+    "key": "continuita",
+    "title": "Api&Bio · un percorso fra le sezioni",
+    "source": "Progetto Api&Bio, AA 2021. Cattura storica dalle slide 2025–2026, lezione 05, p. 73. Autori non indicati nella fonte.",
+    "views": [
+      {
+        "file": "api-bio-percorso.jpg",
+        "w": 350,
+        "h": 458.5843,
+        "caption": "Api&Bio: un tracciato curvo attraversa le sezioni e suggerisce un percorso continuo fra testi e illustrazioni."
+      }
+    ]
+  },
+  {
+    "key": "chiusura",
+    "title": "Loader · contorni aperti nel web",
+    "source": "Schema ripreso dal booklet 2024, p. 332, con originali conservati. Bootstrap 5.3, Spinners, cattura del 14 ottobre 2026. CC BY 3.0 / MIT.",
+    "url": "https://getbootstrap.com/docs/5.3/components/spinners/#border-spinner",
+    "loader": true,
+    "views": [
+      {
+        "file": "bootstrap-spinner.png",
+        "w": 420,
+        "h": 236.25,
+        "caption": "Bootstrap: lo spinner circolare ha un contorno aperto e ruota per indicare il caricamento."
+      }
+    ]
+  },
+  {
+    "key": "simmetria",
+    "title": "Wikipedia · lingue attorno a un asse",
+    "source": "Wikipedia, pagina iniziale italiana. Cattura del 14 ottobre 2026. © Wikimedia Foundation e rispettivi titolari.",
+    "url": "https://www.wikipedia.org/",
+    "views": [
+      {
+        "file": "wikipedia.png",
+        "w": 420,
+        "h": 236.25,
+        "caption": "Wikipedia: il globo centrale e le lingue si organizzano attorno a un asse verticale."
+      },
+      {
+        "file": "wikipedia.png",
+        "w": 220,
+        "h": 216.036,
+        "crop": [
+          360,
+          50,
+          555,
+          545
+        ],
+        "caption": "Dettaglio: le posizioni si corrispondono ai due lati, mentre testi e lingue sono differenti."
+      }
+    ]
+  },
+  {
+    "key": "regione-comune",
+    "title": "Notion · due gruppi di piani",
+    "source": "Notion, Pricing. Cattura del 14 ottobre 2026, versione inglese con valuta EUR. © Notion. Valori documentati nello screenshot.",
+    "url": "https://www.notion.com/pricing",
+    "views": [
+      {
+        "file": "notion-pricing.png",
+        "w": 363,
+        "h": 204.1875,
+        "caption": "Notion: una regione chiara e una azzurra raccolgono due gruppi di piani."
+      },
+      {
+        "file": "notion-pricing.png",
+        "w": 250,
+        "h": 250,
+        "crop": [
+          125,
+          150,
+          510,
+          510
+        ],
+        "caption": "Dettaglio: il bordo comune racchiude Free e Plus; lo spazio interno distingue le due proposte."
+      }
+    ]
+  },
+  {
+    "key": "figura-sfondo",
+    "title": "MDN · la ricerca in primo piano",
+    "source": "MDN Web Docs, ricerca aperta sulla homepage. Cattura del 14 ottobre 2026. © Mozilla e contributori; rispettivi diritti su marchi e asset.",
+    "url": "https://developer.mozilla.org/en-US/",
+    "views": [
+      {
+        "file": "mdn-search.png",
+        "w": 420,
+        "h": 236.25,
+        "caption": "MDN: il campo di ricerca emerge davanti alla pagina oscurata e sfocata."
+      },
+      {
+        "file": "mdn-search.png",
+        "w": 420,
+        "h": 112,
+        "crop": [
+          230,
+          105,
+          825,
+          220
+        ],
+        "caption": "Dettaglio: contorno e contrasto separano il campo attivo dal contesto sottostante."
+      }
+    ]
+  },
+  {
+    "key": "esperienza-passata",
+    "title": "GOV.UK · riconoscere un errore",
+    "source": "GOV.UK Design System, Error message. Cattura del 14 ottobre 2026. OGL v3.0.",
+    "url": "https://design-system.service.gov.uk/components/error-message/default/",
+    "views": [
+      {
+        "file": "govuk-errore-2026-10-14.png",
+        "w": 363,
+        "h": 204.1875,
+        "caption": "GOV.UK: il rosso richiama una convenzione di errore; il testo precisa il problema."
+      },
+      {
+        "file": "govuk-errore-2026-10-14.png",
+        "w": 420,
+        "h": 154,
+        "crop": [
+          20,
+          20,
+          600,
+          220
+        ],
+        "caption": "Dettaglio: messaggio, bordo e campi concorrono alla lettura dello stato, anche senza affidarsi al solo colore."
+      }
+    ]
+  }
+]

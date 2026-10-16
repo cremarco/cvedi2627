@@ -1,0 +1,1920 @@
+{
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1114",
+  "sectionId": "204:8299",
+  "date": "2026-10-16",
+  "printedFolioRange": [
+    398,
+    403
+  ],
+  "frames": [
+    {
+      "id": "4110:1510",
+      "name": "C03 · 306 · SX — Il colore di un dato è una convenzione",
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "x": 1104.1259765625,
+      "y": 3704.18896484375,
+      "folio": 398,
+      "texts": [
+        {
+          "id": "I4110:1513;3030:464;4110:1523",
+          "name": "Titolo · Il colore di un dato è una convenzione",
+          "text": "Il colore di un dato è una convenzione",
+          "x": 60,
+          "y": 60,
+          "width": 363,
+          "height": 50,
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "textStyleId": "S:d513117e1109bd3bbf0d30507125e31cb07d9c9b,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 38,
+              "fontName": {
+                "family": "Geom",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1514;3189:4585",
+          "name": "Numero in apice",
+          "text": "",
+          "x": 60,
+          "y": 590,
+          "width": 8,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [],
+          "links": []
+        },
+        {
+          "id": "I4110:1514;3189:4586;4110:1526",
+          "name": "Fonti primarie · Il colore di un dato è una convenzione",
+          "text": "CGSE Trader Terminal (2021), §5.1.4, PDF p. 13.\nMagicTrader Plus Android v3.0 (2012), §40e, PDF p. 21.",
+          "x": 73,
+          "y": 590,
+          "width": 350,
+          "height": 20,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 102,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": [
+            {
+              "start": 0,
+              "end": 48,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf"
+              }
+            },
+            {
+              "start": 48,
+              "end": 102,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://www.cmbwinglungbank.com/wlb_corporate/files/hk/upload/about-us/service-guide/10.10.1.9.4-CnSecTeleStoQuoUsrGuiAnd.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4110:1568",
+          "name": "Corpo testo",
+          "text": "Nelle interfacce finanziarie, rosso e verde possono indicare andamenti opposti. Il significato operativo della tinta dipende dalla convenzione del prodotto e dalle abitudini del pubblico.",
+          "x": 60,
+          "y": 231.75,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 187,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1569",
+          "name": "Corpo testo",
+          "text": "Convenzione locale. Il manuale MagicTrader Plus distingue lo stile di Hong Kong da quello della Cina continentale. Anche all’interno della stessa area geografica, prodotti e mercati possono adottare corrispondenze diverse: una sola convenzione «asiatica» non descrive questi casi.",
+          "x": 60,
+          "y": 288.75,
+          "width": 363,
+          "height": 60,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 19,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 19,
+              "end": 280,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1570",
+          "name": "Corpo testo",
+          "text": "Personalizzazione. Il CGSE Trader Terminal permette di invertire i colori assegnati ad aumento e diminuzione. La coppia rosso–verde resta la stessa, mentre cambia ciò che ciascuna tinta comunica.",
+          "x": 60,
+          "y": 360.75,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 18,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 18,
+              "end": 195,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1571",
+          "name": "Corpo testo",
+          "text": "Segnali espliciti. Prima di interpretare il colore, leggi legenda, segno, unità e grandezza rappresentata. In un progetto, accompagna la tinta con testo, simboli o direzione del dato: la pagina successiva mostra due configurazioni documentate.",
+          "x": 60,
+          "y": 417.75,
+          "width": 363,
+          "height": 60,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 18,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 18,
+              "end": 243,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1520",
+          "name": "Numero pagina · 398",
+          "text": "398",
+          "x": 60,
+          "y": 621.6376953125,
+          "width": 36,
+          "height": 12,
+          "fontSize": 9,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:a691a48b8fa1d6c232ef452162767d2da192a2e1,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 3,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        }
+      ],
+      "images": [],
+      "bodyArea": {
+        "y": 130,
+        "height": 449.5,
+        "contentY": 101.75,
+        "contentHeight": 246
+      }
+    },
+    {
+      "id": "4110:1572",
+      "name": "C03 · 307 · DX — Due convenzioni, due letture del grafico",
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "x": 1600.18896484375,
+      "y": 3704.18896484375,
+      "folio": 399,
+      "texts": [
+        {
+          "id": "I4110:1575;3030:464;4110:1585",
+          "name": "Titolo · Due convenzioni, due letture del grafico",
+          "text": "Due convenzioni, due letture del grafico",
+          "x": 74,
+          "y": 60,
+          "width": 363,
+          "height": 50,
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "textStyleId": "S:d513117e1109bd3bbf0d30507125e31cb07d9c9b,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 40,
+              "fontName": {
+                "family": "Geom",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1576;3189:4585",
+          "name": "Numero in apice",
+          "text": "",
+          "x": 74,
+          "y": 600,
+          "width": 8,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [],
+          "links": []
+        },
+        {
+          "id": "I4110:1576;3189:4586;4110:1588",
+          "name": "Fonti primarie · Due convenzioni, due letture del grafico",
+          "text": "CGSE · Trader Terminal User Manual, §5.1.4 Up/Down Color Setting.",
+          "x": 87,
+          "y": 600,
+          "width": 350,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 65,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": [
+            {
+              "start": 0,
+              "end": 65,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://cgse.com.hk/chines/sites/default/files/gtp-user-manual-trader-terminal-20211022b.pdf"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4110:1630",
+          "name": "Corpo testo · Introduzione",
+          "text": "I due grafici del manuale CGSE mostrano convenzioni cromatiche opposte. Le etichette italiane rendono esplicita la corrispondenza, conservando i bitmap originali e le loro proporzioni (figura 3.225).",
+          "x": 74,
+          "y": 169.179443359375,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 199,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1631;3165:593;4110:1660",
+          "name": "A · Verde su, rosso giù",
+          "text": "A · Verde su, rosso giù",
+          "x": 74,
+          "y": 226.179443359375,
+          "width": 171.5,
+          "height": 11,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11
+          },
+          "textStyleId": "S:cf39cafe0a0f7c3065ee3fa2b292c67ff8bc8f99,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 23,
+              "fontName": {
+                "family": "Geom",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1631;3165:593;4110:1664",
+          "name": "Verde: aumento · Rosso: diminuzione",
+          "text": "Verde: aumento · Rosso: diminuzione",
+          "x": 74,
+          "y": 446.8212890625,
+          "width": 171.5,
+          "height": 12,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11.5
+          },
+          "textStyleId": "S:b08f1f3a1d4e3f3ba9d5e3ad16990fcf1942029d,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 35,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1631;3165:593;4110:1668",
+          "name": "B · Rosso su, verde giù",
+          "text": "B · Rosso su, verde giù",
+          "x": 265.5,
+          "y": 226.179443359375,
+          "width": 171.5,
+          "height": 11,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11
+          },
+          "textStyleId": "S:cf39cafe0a0f7c3065ee3fa2b292c67ff8bc8f99,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 23,
+              "fontName": {
+                "family": "Geom",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1631;3165:593;4110:1672",
+          "name": "Rosso: aumento · Verde: diminuzione",
+          "text": "Rosso: aumento · Verde: diminuzione",
+          "x": 265.5,
+          "y": 446.8212890625,
+          "width": 171.5,
+          "height": 12,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11.5
+          },
+          "textStyleId": "S:b08f1f3a1d4e3f3ba9d5e3ad16990fcf1942029d,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 35,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1631;3165:600;4110:1634;3164:51;4110:1637",
+          "name": "Figura 3.225 — CGSE Trader Terminal, manuale 2021, §5.1.4, PDF p. 13. Screenshot storici originali CGSE / Infocast Finance; lettere e traduzione didattica aggiunte.",
+          "text": "Figura 3.225 — CGSE Trader Terminal, manuale 2021, §5.1.4, PDF p. 13. Screenshot storici originali CGSE / Infocast Finance; lettere e traduzione didattica aggiunte.",
+          "x": 74,
+          "y": 466.8212890625,
+          "width": 363,
+          "height": 24,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 164,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1673",
+          "name": "Corpo testo · Applicazione",
+          "text": "Il confronto documenta una funzione del prodotto nel 2021. Non misura le preferenze del pubblico. La legenda va letta prima di attribuire al rosso o al verde un valore positivo o negativo.",
+          "x": 74,
+          "y": 505.3212890625,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 188,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1582",
+          "name": "Numero pagina · 399",
+          "text": "399",
+          "x": 400.06298828125,
+          "y": 621.6376953125,
+          "width": 36,
+          "height": 12,
+          "fontSize": 9,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:a691a48b8fa1d6c232ef452162767d2da192a2e1,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 3,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        }
+      ],
+      "images": [
+        {
+          "id": "I4110:1631;3165:593;4110:1662",
+          "name": "Screenshot originale · CGSE · A",
+          "width": 171.5,
+          "height": 199.6418914794922,
+          "imageHash": "2c56c8c7c6bf564f47d11ae577f0ea5a8d610ec4",
+          "scaleMode": "FIT"
+        },
+        {
+          "id": "I4110:1631;3165:593;4110:1670",
+          "name": "Screenshot originale · CGSE · B",
+          "width": 171.5,
+          "height": 199.6418914794922,
+          "imageHash": "b1346d6516caf5486479a9d7e4cfd72a58a85a50",
+          "scaleMode": "FIT"
+        }
+      ],
+      "bodyArea": {
+        "y": 130.00048828125,
+        "height": 459.5,
+        "contentY": 39.179046630859375,
+        "contentHeight": 381.14190673828125
+      }
+    },
+    {
+      "id": "4110:1674",
+      "name": "C03 · 308 · SX — Le parole organizzano anche il colore",
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "x": 2160.251953125,
+      "y": 3704.18896484375,
+      "folio": 400,
+      "texts": [
+        {
+          "id": "I4110:1677;3030:464;4110:1687",
+          "name": "Titolo · Le parole organizzano anche il colore",
+          "text": "Le parole organizzano anche il colore",
+          "x": 60,
+          "y": 60,
+          "width": 363,
+          "height": 25,
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "textStyleId": "S:d513117e1109bd3bbf0d30507125e31cb07d9c9b,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 37,
+              "fontName": {
+                "family": "Geom",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1678;3189:4585",
+          "name": "Numero in apice",
+          "text": "",
+          "x": 60,
+          "y": 600,
+          "width": 8,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [],
+          "links": []
+        },
+        {
+          "id": "I4110:1678;3189:4586;4110:1690",
+          "name": "Fonti primarie · Le parole organizzano anche il colore",
+          "text": "Winawer et al. (2007), Russian blues reveal effects of language on color discrimination.",
+          "x": 73,
+          "y": 600,
+          "width": 350,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 88,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": [
+            {
+              "start": 0,
+              "end": 88,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://doi.org/10.1073/pnas.0701644104"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4110:1732",
+          "name": "Corpo testo · Introduzione",
+          "text": "Le lingue non suddividono sempre lo spettro nello stesso modo. Nell’area dei blu, il russo distingue goluboy e siniy: il primo rimanda ai blu più chiari, il secondo ai blu più scuri (figura 3.226).",
+          "x": 60,
+          "y": 166.5,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 197,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1733;3165:593;4110:1764",
+          "name": "goluboy",
+          "text": "goluboy",
+          "x": 60,
+          "y": 333.5,
+          "width": 171.5,
+          "height": 11,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11
+          },
+          "textStyleId": "S:cf39cafe0a0f7c3065ee3fa2b292c67ff8bc8f99,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 7,
+              "fontName": {
+                "family": "Geom",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1733;3165:593;4110:1766",
+          "name": "Area dei blu chiari",
+          "text": "Area dei blu chiari",
+          "x": 60,
+          "y": 349.5,
+          "width": 171.5,
+          "height": 12,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11.5
+          },
+          "textStyleId": "S:b08f1f3a1d4e3f3ba9d5e3ad16990fcf1942029d,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 19,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1733;3165:593;4110:1772",
+          "name": "siniy",
+          "text": "siniy",
+          "x": 251.5,
+          "y": 333.5,
+          "width": 171.5,
+          "height": 11,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11
+          },
+          "textStyleId": "S:cf39cafe0a0f7c3065ee3fa2b292c67ff8bc8f99,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 5,
+              "fontName": {
+                "family": "Geom",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1733;3165:593;4110:1774",
+          "name": "Area dei blu scuri",
+          "text": "Area dei blu scuri",
+          "x": 251.5,
+          "y": 349.5,
+          "width": 171.5,
+          "height": 12,
+          "fontSize": 8,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 11.5
+          },
+          "textStyleId": "S:b08f1f3a1d4e3f3ba9d5e3ad16990fcf1942029d,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 18,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1733;3165:600;4110:1736;3164:51;4110:1739",
+          "name": "Figura 3.226 — Campioni illustrativi per goluboy e siniy. Schema didattico CVeDI, 2026; non riproduce gli stimoli né il confine sperimentale di Winawer et al. (2007).",
+          "text": "Figura 3.226 — Campioni illustrativi per goluboy e siniy. Schema didattico CVeDI, 2026; non riproduce gli stimoli né il confine sperimentale di Winawer et al. (2007).",
+          "x": 60,
+          "y": 369.5,
+          "width": 363,
+          "height": 24,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 166,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1775",
+          "name": "Corpo testo · Applicazione",
+          "text": "Winawer e colleghi (2007) hanno confrontato parlanti russi e inglesi in un compito rapido di discriminazione. I parlanti russi erano più veloci quando i colori appartenevano alle due categorie diverse; il vantaggio scompariva durante un’interferenza verbale, ma non durante quella spaziale.\n\nIl risultato riguarda quel compito sperimentale. Nel progetto di un’interfaccia suggerisce di verificare anche i nomi dei campioni e delle categorie nella lingua del pubblico, senza ricavare una palette nazionale dallo studio.",
+          "x": 60,
+          "y": 408,
+          "width": 363,
+          "height": 120,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 518,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1684",
+          "name": "Numero pagina · 400",
+          "text": "400",
+          "x": 60,
+          "y": 621.6376953125,
+          "width": 36,
+          "height": 12,
+          "fontSize": 9,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:a691a48b8fa1d6c232ef452162767d2da192a2e1,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 3,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        }
+      ],
+      "images": [],
+      "bodyArea": {
+        "y": 105,
+        "height": 484.5,
+        "contentY": 61.5,
+        "contentHeight": 361.5
+      }
+    },
+    {
+      "id": "4110:1776",
+      "name": "C03 · 309 · DX — Un fiore, un rito, un riferimento culturale",
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "x": 2656.31494140625,
+      "y": 3704.18896484375,
+      "folio": 401,
+      "texts": [
+        {
+          "id": "I4110:1779;3030:464;4110:1789",
+          "name": "Titolo · Un fiore, un rito, un riferimento culturale",
+          "text": "Un fiore, un rito, un riferimento culturale",
+          "x": 74,
+          "y": 60,
+          "width": 363,
+          "height": 50,
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "textStyleId": "S:d513117e1109bd3bbf0d30507125e31cb07d9c9b,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 43,
+              "fontName": {
+                "family": "Geom",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1780;3189:4585",
+          "name": "Numero in apice",
+          "text": "",
+          "x": 74,
+          "y": 590,
+          "width": 8,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [],
+          "links": []
+        },
+        {
+          "id": "I4110:1780;3189:4586;4110:1792",
+          "name": "Fonti primarie · Un fiore, un rito, un riferimento culturale",
+          "text": "INAH · Cempasúchil y mariposas: símbolos del regreso de las almas.\nGoogle Doodles · Day of the Dead 2024, contesto e intervista all’artista.",
+          "x": 87,
+          "y": 590,
+          "width": 350,
+          "height": 20,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 140,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": [
+            {
+              "start": 0,
+              "end": 67,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://www.inah.gob.mx/foto-del-dia/cempasuchil-y-mariposas-simbolos-del-regreso-de-las-almas"
+              }
+            },
+            {
+              "start": 67,
+              "end": 140,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://doodles.google/doodle/day-of-the-dead-2024/"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4110:1834",
+          "name": "Corpo testo",
+          "text": "Un colore acquista significato anche attraverso gli oggetti, le pratiche e le occasioni in cui compare. Il cempasúchil, un fiore giallo o arancione, partecipa alle ofrendas del Día de los Muertos in Messico.",
+          "x": 74,
+          "y": 225.75,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 207,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1835",
+          "name": "Corpo testo",
+          "text": "L’oggetto. Non si osserva soltanto una tinta astratta: la forma del fiore, i petali e il profumo rendono riconoscibile un oggetto legato alla ricorrenza.",
+          "x": 74,
+          "y": 282.75,
+          "width": 363,
+          "height": 30,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 10,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 10,
+              "end": 153,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1836",
+          "name": "Corpo testo",
+          "text": "L’occasione. Nelle pratiche ricordate dalle fonti culturali messicane, i fiori accompagnano il ricordo dei defunti e l’accoglienza delle anime. Il significato appartiene al rito e alle tradizioni delle comunità che lo praticano.",
+          "x": 74,
+          "y": 324.75,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 12,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 12,
+              "end": 228,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1837",
+          "name": "Corpo testo",
+          "text": "Il riferimento progettuale. Nella pagina seguente, Google riprende fiori e figure della tradizione in un Doodle per la ricorrenza. La scelta cromatica opera insieme ai soggetti rappresentati e alla data della pubblicazione.",
+          "x": 74,
+          "y": 381.75,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 27,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 27,
+              "end": 223,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1838",
+          "name": "Corpo testo",
+          "text": "Descrivere il contesto. «Arancione» da solo non riassume una cultura o un’emozione. Per spiegare una scelta, precisa quale oggetto, occasione e messaggio la rendono comprensibile al pubblico.",
+          "x": 74,
+          "y": 438.75,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 23,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 23,
+              "end": 191,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1786",
+          "name": "Numero pagina · 401",
+          "text": "401",
+          "x": 400.06298828125,
+          "y": 621.6376953125,
+          "width": 36,
+          "height": 12,
+          "fontSize": 9,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:a691a48b8fa1d6c232ef452162767d2da192a2e1,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 3,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        }
+      ],
+      "images": [],
+      "bodyArea": {
+        "y": 130,
+        "height": 449.5,
+        "contentY": 95.75,
+        "contentHeight": 258
+      }
+    },
+    {
+      "id": "4110:1839",
+      "name": "C03 · 310 · SX — Il riferimento culturale entra nell’interfaccia",
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "x": 48,
+      "y": 4425.8271484375,
+      "folio": 402,
+      "texts": [
+        {
+          "id": "I4110:1842;3030:464;4110:1852",
+          "name": "Titolo · Il riferimento culturale entra nell’interfaccia",
+          "text": "Il riferimento culturale entra nell’interfaccia",
+          "x": 60,
+          "y": 60,
+          "width": 363,
+          "height": 50,
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "textStyleId": "S:d513117e1109bd3bbf0d30507125e31cb07d9c9b,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 47,
+              "fontName": {
+                "family": "Geom",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1843;3189:4585",
+          "name": "Numero in apice",
+          "text": "",
+          "x": 60,
+          "y": 600,
+          "width": 8,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [],
+          "links": []
+        },
+        {
+          "id": "I4110:1843;3189:4586;4110:1855",
+          "name": "Fonti primarie · Il riferimento culturale entra nell’interfaccia",
+          "text": "Google Doodles · Day of the Dead 2024, opera e intervista a Lucia Sarabia.",
+          "x": 73,
+          "y": 600,
+          "width": 350,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 74,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": [
+            {
+              "start": 0,
+              "end": 74,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://doodles.google/doodle/day-of-the-dead-2024/"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4110:1897",
+          "name": "Corpo testo · Introduzione",
+          "text": "Il 1 novembre 2024 Google ha pubblicato un Doodle di Lucia Sarabia dedicato al Día de los Muertos. Fiori di cempasúchil e cani della tradizione compongono il marchio per l’occasione (figura 3.227).",
+          "x": 60,
+          "y": 182.89990234375,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 197,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1898;3165:600;4110:1901;3164:51;4110:1904",
+          "name": "Figura 3.227 — Day of the Dead 2024, Google Doodles, 1 novembre 2024. Illustrazione di Lucia Sarabia; originale dell’archivio ufficiale acquisito il 16 ottobre 2026. © Google / Lucia Sarabia.",
+          "text": "Figura 3.227 — Day of the Dead 2024, Google Doodles, 1 novembre 2024. Illustrazione di Lucia Sarabia; originale dell’archivio ufficiale acquisito il 16 ottobre 2026. © Google / Lucia Sarabia.",
+          "x": 60,
+          "y": 393.10009765625,
+          "width": 363,
+          "height": 24,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 191,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1926",
+          "name": "Corpo testo · Applicazione",
+          "text": "Il riferimento culturale emerge dalla relazione fra colore, soggetti e ricorrenza. L’archivio ufficiale documenta le scelte dell’artista e il loro contesto.\n\nL’esempio mostra un’applicazione reale nella comunicazione di un’interfaccia. Per trasferire un riferimento nel proprio progetto, verifica che le persone riconoscano l’occasione e comprendano il messaggio previsto.",
+          "x": 60,
+          "y": 431.60009765625,
+          "width": 363,
+          "height": 105,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 372,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1849",
+          "name": "Numero pagina · 402",
+          "text": "402",
+          "x": 60,
+          "y": 621.6376953125,
+          "width": 36,
+          "height": 12,
+          "fontSize": 9,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:a691a48b8fa1d6c232ef452162767d2da192a2e1,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 3,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        }
+      ],
+      "images": [
+        {
+          "id": "I4110:1898;3165:593;4110:1925",
+          "name": "Originale · Google Doodles / Lucia Sarabia",
+          "width": 363,
+          "height": 145.1999969482422,
+          "imageHash": "efbace4df903f91f27e8414e6c165650e7a7f0b5",
+          "scaleMode": "FIT"
+        }
+      ],
+      "bodyArea": {
+        "y": 130,
+        "height": 459.5,
+        "contentY": 52.899993896484375,
+        "contentHeight": 353.70001220703125
+      }
+    },
+    {
+      "id": "4110:1927",
+      "name": "C03 · 311 · DX — Associazioni, preferenze e uso",
+      "width": 496.06298828125,
+      "height": 657.6378173828125,
+      "x": 544.06298828125,
+      "y": 4425.8271484375,
+      "folio": 403,
+      "texts": [
+        {
+          "id": "I4110:1930;3030:464;4110:1940",
+          "name": "Titolo · Associazioni, preferenze e uso",
+          "text": "Associazioni, preferenze e uso",
+          "x": 74,
+          "y": 60,
+          "width": 363,
+          "height": 25,
+          "fontSize": 20,
+          "lineHeight": {
+            "unit": "AUTO"
+          },
+          "textStyleId": "S:d513117e1109bd3bbf0d30507125e31cb07d9c9b,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 30,
+              "fontName": {
+                "family": "Geom",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "I4110:1931;3189:4585",
+          "name": "Numero in apice",
+          "text": "",
+          "x": 74,
+          "y": 580,
+          "width": 8,
+          "height": 10,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [],
+          "links": []
+        },
+        {
+          "id": "I4110:1931;3189:4586;4110:1943",
+          "name": "Fonti primarie · Associazioni, preferenze e uso",
+          "text": "Taylor et al. (2013) · Color preferences are not universal.\nDavis et al. (2021) · Cultural Components of Sex Differences in Color Preference.\nClarke e Costall (2008) · The emotional connotations of color.",
+          "x": 87,
+          "y": 580,
+          "width": 350,
+          "height": 30,
+          "fontSize": 7,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 10
+          },
+          "textStyleId": "",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 204,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light Italic",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": [
+            {
+              "start": 0,
+              "end": 60,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://doi.org/10.1037/a0030273"
+              }
+            },
+            {
+              "start": 60,
+              "end": 142,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://doi.org/10.1111/cdev.13528"
+              }
+            },
+            {
+              "start": 142,
+              "end": 204,
+              "hyperlink": {
+                "type": "URL",
+                "value": "https://doi.org/10.1002/col.20435"
+              }
+            }
+          ]
+        },
+        {
+          "id": "4110:1985",
+          "name": "Corpo testo",
+          "text": "Associare, preferire e usare un colore sono domande diverse. Un’associazione culturale può suggerire un’ipotesi; non basta per stabilire quale palette piaccia o quale interfaccia funzioni meglio.",
+          "x": 74,
+          "y": 178.25,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "S:2e4bc29c735a91b72f683a94a2d48585cc9c23b7,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 195,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1986",
+          "name": "Corpo testo",
+          "text": "Associare. Quale oggetto, idea o occasione richiama questo colore? Parti da domande aperte: dove lo incontri, che cosa ti fa pensare, quale messaggio ti aspetti?",
+          "x": 74,
+          "y": 235.25,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 10,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 10,
+              "end": 161,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1987",
+          "name": "Corpo testo",
+          "text": "Preferire. Quanto piace a questa persona, in questa situazione? Taylor e colleghi (2013) hanno osservato preferenze differenti fra i gruppi britannico e himba studiati. Davis e colleghi (2021) hanno confrontato bambini di quattro contesti culturali: il rapporto fra genere e preferenza per il rosa variava fra i campioni. Questi risultati non forniscono una regola universale per scegliere una palette.",
+          "x": 74,
+          "y": 292.25,
+          "width": 363,
+          "height": 90,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 10,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 10,
+              "end": 402,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1988",
+          "name": "Corpo testo",
+          "text": "Usare. Il colore aiuta a trovare un comando e a capire uno stato? Osserva lo svolgimento dello stesso compito con il pubblico previsto: comprensione, errori e riconoscimento delle azioni richiedono prove sull’interfaccia.",
+          "x": 74,
+          "y": 394.25,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 6,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 6,
+              "end": 221,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1989",
+          "name": "Corpo testo",
+          "text": "Verificare. Distingui messaggio, gusto e prestazione. Mantieni testo, simboli o forme per comunicare stati ed errori anche quando la sola differenza cromatica non viene riconosciuta.",
+          "x": 74,
+          "y": 451.25,
+          "width": 363,
+          "height": 45,
+          "fontSize": 10,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 15
+          },
+          "textStyleId": "mixed",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 11,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Bold",
+                "variationSettings": {
+                  "wght": 700,
+                  "wdth": 100
+                }
+              }
+            },
+            {
+              "start": 11,
+              "end": 182,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        },
+        {
+          "id": "4110:1937",
+          "name": "Numero pagina · 403",
+          "text": "403",
+          "x": 400.06298828125,
+          "y": 621.6376953125,
+          "width": 36,
+          "height": 12,
+          "fontSize": 9,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 12
+          },
+          "textStyleId": "S:a691a48b8fa1d6c232ef452162767d2da192a2e1,",
+          "fonts": [
+            {
+              "start": 0,
+              "end": 3,
+              "fontName": {
+                "family": "Merriweather",
+                "style": "Light",
+                "variationSettings": {
+                  "wght": 300,
+                  "wdth": 100
+                }
+              }
+            }
+          ],
+          "links": []
+        }
+      ],
+      "images": [],
+      "bodyArea": {
+        "y": 105,
+        "height": 464.5,
+        "contentY": 73.25,
+        "contentHeight": 318
+      }
+    }
+  ]
+}
