@@ -29,7 +29,7 @@ export async function checkPublication() {
       assert.ok(owned.every(slide => (slide.frontmatter.localOnly === true) === localIds.has(lesson.id)), `${lesson.id}: publication visibility matches the curriculum`)
     }
     assert.equal(local.slides.length, 242 + declaredUxSlides, 'complete local deck')
-    assert.equal(published.slides.length, 433, 'published deck includes lessons 01–05')
+    assert.equal(published.slides.length, 590, 'published deck includes lessons 01–07')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -43,7 +43,7 @@ export async function checkPublication() {
     assert.deepEqual(published.slides.map(slide => slide.title), local.slides.filter(slide => !localIds.has(slide.frontmatter.lesson)).map(slide => slide.title), 'published content order is preserved')
     const localIndex = local.slides.find(slide => slide.title === 'Indice delle lezioni').content
     const publicIndex = published.slides.find(slide => slide.title === 'Indice delle lezioni').content
-    const publicTargets = ['presentazione-corso', 'introduzione-teorica', 'storia-design', 'ricerca-inclusiva', 'percezione-gerarchia']
+    const publicTargets = ['presentazione-corso', 'introduzione-teorica', 'storia-design', 'ricerca-inclusiva', 'percezione-gerarchia', 'gestalt', 'colore']
     const supplementalTargets = ['brief-progetto', 'approfondimenti']
     const indexTargets = content => [...content.matchAll(/<SlideAction\s+to=["']([^"']+)["']/g)].map(match => match[1])
     const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, ...publicTargets.slice(2)]
@@ -81,7 +81,7 @@ export async function checkPublishedBuild(directory) {
     assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
   for (const directory of sharedLessonAssetDirectories) {
     const expected = [...new Set([...references.matchAll(new RegExp('/' + directory + '/[^"\'\\s<>`)]+', 'g'))].map(match => match[0]))].sort()
-    assert.ok(expected.length > 0, 'published lesson 04 retains its shared figures')
+    assert.ok(expected.length > 0, 'published UX lessons retain their shared figures')
     const actual = (await readdir(path.join(output, directory))).map(file => '/' + directory + '/' + file).sort()
     assert.deepEqual(actual, expected, 'only figures referenced by published lessons are exported')
   }

@@ -20,9 +20,9 @@ I controlli browser usano Chromium di `playwright-chromium`. `SLIDEV_URL` cambia
 
 `check:gestalt` verifica tutte le 111 slide su desktop, viewport stretto e stampa, con copertura delle 89 tavole e di tutte le immagini dello snapshot corrente, caricamento dei pixel, margini, posizione dei titoli, ingrandimento da tastiera e ritorno del focus. Rapporti e anteprime sono in `reports/gestalt-lesson/`. `python3 scripts/build/lesson-06-gestalt.py` rigenera la lezione, le figure e la mappa delle fonti dagli originali conservati.
 
-`check:publication` verifica 699 slide locali e 433 online, esclusione delle lezioni 06–10 dai file pubblicati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
+`check:publication` verifica 712 slide locali e 590 online, esclusione delle lezioni 08–10 dai file pubblicati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
 
-`check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle cinque lezioni locali.
+`check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle sette lezioni pubblicate e alle tre locali.
 
 L’archivio dei siti è nel repository autonomo `cremarco/cvedi-progetti`. `pnpm check:archive` verifica reindirizzamenti, collegamenti e anteprime locali nella build del corso.
 

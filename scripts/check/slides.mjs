@@ -141,7 +141,7 @@ try {
   await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  assert.equal(await page.locator('.slidev-page-3 .index-grid > .index-lesson, .slidev-page-3 .index-lesson-two > .index-lesson').count(), 5, 'index includes the five published lessons')
+  assert.equal(await page.locator('.slidev-page-3 .index-grid > .index-lesson, .slidev-page-3 .index-lesson-two > .index-lesson').count(), 7, 'index includes the seven published lessons')
   assert.equal(await page.locator('.slidev-page-3 .index-ux-lessons .slide-action').count(), curriculum.lessons.filter(lesson => lesson.localOnly === true).length, 'local index includes every unpublished UX lesson')
   assert.equal(await page.getByRole('button', { name: /Storia del design/ }).count(), 1, 'history index entry is active')
   await page.getByRole('button', { name: /Storia del design/ }).click()

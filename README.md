@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 433 slide online e 712 nell’anteprima locale. Le lezioni 06–10 sono disponibili soltanto in locale, compresa la lezione 06 «Gestalt», con 111 slide dalle 89 tavole correnti del booklet. La lezione 07 «Colore e significato» conta 46 slide per 120 minuti, con tredici integrazioni sui contesti culturali da fonti verificate e materiali d’archivio, comprese convenzioni finanziarie, lingua, rituali e preferenze. Le lezioni 03, 04 e 05, rispettivamente di 67, 86 e 105 slide, sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
+Presentazione Slidev del corso Comunicazione visiva e design delle interfacce: 590 slide online e 712 nell’anteprima locale. Le lezioni 08–10 sono disponibili soltanto in locale, mentre la lezione 06 «Gestalt», con 111 slide dalle 89 tavole correnti del booklet, è pubblicata online insieme alle 46 slide di Colore. La lezione 07 «Colore e significato» conta 46 slide per 120 minuti, con tredici integrazioni sui contesti culturali da fonti verificate e materiali d’archivio, comprese convenzioni finanziarie, lingua, rituali e preferenze. Le lezioni 03, 04 e 05, rispettivamente di 67, 86 e 105 slide, sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
 
 ## Avvio
 
@@ -17,7 +17,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 
 | Comando | Risultato |
 | --- | --- |
-| `pnpm build` | SPA pubblicabile, 433 slide in `dist/` |
+| `pnpm build` | SPA pubblicabile, 590 slide in `dist/` |
 | `pnpm build:pages` | Home, slide, archivio ed esempi autonomi pubblicabili in `_site/` |
 | `pnpm css:home` | Compila `home/home.source.css` in `home/home.css` |
 | `pnpm export` | Export Slidev, soltanto quando richiesto |
@@ -67,7 +67,7 @@ La radice `/cvedi2627/` apre la home del corso. Le destinazioni attive sono `/cv
 
 Caffè TTC è consultabile separatamente dalle slide in `/web-design-examples/`: durante `pnpm dev` apre le quattro pagine e il selettore dei 21 stili. `pnpm build` prepara lo stesso percorso in `dist/`; Pages lo pubblica in `/cvedi2627/web-design-examples/`. Gli URL delle varianti usano `?stile=`, per esempio `web-design-examples/menu.html?stile=y2k`. Le build rigenerano gli esempi e copiano le risorse usate dal sito, con licenze e provenienza; originali e varianti archiviate restano in `esempi/caffe-luce/`.
 
-Le lezioni 04 «Ricerca, contesto e inclusione» e 05 «Accessibilità e design inclusivo» sono pubblicate integralmente e collegate nell’indice. Gli import delle lezioni 06–10 dichiarano `localOnly: true`. Il preparser Slidev li disabilita durante ogni build e rimuove il blocco `LocalOnly` dall’indice prima della compilazione. Slide, alias e panoramica online non contengono queste lezioni; il build conserva in `images/processo-ux` soltanto le figure referenziate dalle lezioni pubblicate. `pnpm dev` conserva le sette lezioni del processo UX e i collegamenti, con Gestalt dopo Accessibilità. I controlli delle sorgenti verificano entrambe le modalità.
+Le lezioni 04 «Ricerca, contesto e inclusione», 05 «Accessibilità e design inclusivo», 06 «Gestalt» e 07 «Colore e significato» sono pubblicate integralmente e collegate nell’indice. Gli import delle lezioni 08–10 dichiarano `localOnly: true`. Il preparser Slidev li disabilita durante ogni build e rimuove il blocco `LocalOnly` dall’indice prima della compilazione. Slide, alias e panoramica online non contengono queste lezioni; il build conserva in `images/processo-ux` soltanto le figure referenziate dalle lezioni pubblicate. `pnpm dev` conserva le sette lezioni del processo UX e i collegamenti, con Gestalt dopo Accessibilità. I controlli delle sorgenti verificano entrambe le modalità.
 
 Le immagini generate attive sono registrate in `assets/theme-imagegen/manifest-v1.json`; PNG originali e WebP selezionati conservano pixel e trasparenza. Licenze dei font e provenienza degli artefatti storici restano insieme agli asset.
 

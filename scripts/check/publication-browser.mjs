@@ -12,6 +12,8 @@ const publicLessons = [
   { id: 'storia-design', number: 3, title: 'Storia del design' },
   { id: 'ricerca-inclusiva', number: 4, title: 'Ricerca, contesto e inclusione' },
   { id: 'percezione-gerarchia', number: 5, title: 'Accessibilità e design inclusivo' },
+  { id: 'gestalt', number: 6, title: 'Gestalt' },
+  { id: 'colore', number: 7, title: 'Colore e significato' },
 ]
 const supplementalMaterials = [
   { id: 'brief-progetto', title: 'Brief di progetto', label: 'Brief di progetto · WHAT IF? 2050' },
@@ -25,8 +27,8 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 433 + localOnlySlides, buttons: publicLessons.length + supplementalMaterials.length + localLessons.length },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 433, buttons: publicLessons.length + supplementalMaterials.length },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 590 + localOnlySlides, buttons: publicLessons.length + supplementalMaterials.length + localLessons.length },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 590, buttons: publicLessons.length + supplementalMaterials.length },
   ]) {
     const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? localLessons : [])]
     const page = await browser.newPage({ reducedMotion: 'reduce' })
@@ -134,17 +136,16 @@ try {
         .filter(animation => Number.isFinite(animation.effect?.getComputedTiming().endTime))
         .map(animation => animation.finished.catch(() => {}))))
       if (destination.number) assert.ok((await cover.innerText()).includes(String(destination.number).padStart(2, '0')), `${profile.name}: cover preserves lesson ${destination.number}`)
-      if (destination.id === 'storia-design') {
-        const progress = page.locator('.presentation-progress-rail progress')
-        assert.equal(await progress.getAttribute('max'), '67', 'history progress counts the complete lesson')
-      }
-      if (destination.id === 'ricerca-inclusiva') {
-        assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('max'), '86', 'research progress counts the retained lesson')
-        await page.screenshot({ path: `${output}/${profile.name}-lesson-04.png` })
-      }
-      if (destination.id === 'percezione-gerarchia') {
-        assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('max'), '105', 'accessibility progress counts the complete lesson')
-        await page.screenshot({ path: `${output}/${profile.name}-lesson-05.png` })
+      // Covers omit the progress rail; verify it on the opening summary.
+      if (destination.number >= 3) {
+        const summaryNumber = await page.evaluate(alias => {
+          const nav = document.querySelector('#app').__vue_app__._context.provides['$$slidev-context'].nav
+          return (nav.slides.value ?? nav.slides).find(slide => slide.meta.slide.frontmatter.routeAlias === alias).no + 1
+        }, destination.id)
+        await openSlide(page, profile.base, summaryNumber, { settle: true })
+        const expected = destination.number === 3 ? 67 : curriculum.lessons.find(lesson => lesson.id === destination.id).slideCount
+        assert.equal(await page.locator('.presentation-progress-rail progress').getAttribute('max'), String(expected), `${profile.name}: lesson ${destination.number} progress counts the complete lesson`)
+        await page.screenshot({ path: `${output}/${profile.name}-lesson-${String(destination.number).padStart(2, '0')}.png` })
       }
     }
     if (profile.name === 'published') {
