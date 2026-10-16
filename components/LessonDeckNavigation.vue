@@ -1,17 +1,43 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useNav } from '@slidev/client'
 import HeroIcon from './HeroIcon.vue'
+import { slideSet, slideSetStyle } from '../utils/slide-sets'
 const deck = import.meta.env.VITE_CVEDI_DECK
 const menu = `${import.meta.env.VITE_CVEDI_MENU_BASE || '/'}#/3`
+const { currentFrontmatter } = useNav()
+const setStyle = computed(() => slideSetStyle(slideSet(currentFrontmatter.value.lesson)))
 </script>
 
 <template>
-  <a v-if="deck && deck !== 'apertura'" :href="menu" class="btn btn-ghost btn-square lesson-deck-menu" aria-label="Indice delle lezioni" title="Indice delle lezioni">
-    <HeroIcon name="book-open" />
-  </a>
+  <Teleport to="body">
+    <a v-if="deck && deck !== 'apertura'" :href="menu" class="btn lesson-deck-menu" :style="setStyle" aria-label="Torna al menu delle lezioni" @keydown.enter.stop>
+      <HeroIcon name="chevron-left" stroke-width="2" />
+      <span>Menu lezioni</span>
+    </a>
+  </Teleport>
 </template>
 
 <style scoped>
-.lesson-deck-menu { position: fixed; top: 4px; left: 4px; z-index: 100; width: 44px; height: 44px; min-height: 44px; color: var(--color-base-content); background: var(--color-base-100); }
-.lesson-deck-menu svg { width: 22px; height: 22px; }
+.lesson-deck-menu.btn {
+  position: fixed;
+  top: max(4px, env(safe-area-inset-top));
+  left: max(8px, env(safe-area-inset-left));
+  z-index: 100;
+  height: 44px;
+  min-height: 44px;
+  padding-inline: 10px 14px;
+  gap: 6px;
+  border: 1px solid var(--cvedi-rule);
+  border-radius: 12px;
+  color: var(--section-primary-deep);
+  background: var(--cvedi-paper);
+  box-shadow: none;
+  font: 600 16px/1.2 var(--cvedi-font-display);
+  text-decoration: none;
+}
+.lesson-deck-menu svg { width: 20px; height: 20px; }
+.lesson-deck-menu.btn:is(:hover, :active) { color: var(--cvedi-paper); background: var(--section-primary-deep); border-color: var(--section-primary-deep); }
+.lesson-deck-menu.btn:focus-visible { outline: 3px solid currentColor; outline-offset: -5px; }
 @media print { .lesson-deck-menu { display: none; } }
 </style>

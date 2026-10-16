@@ -43,16 +43,28 @@ export function lessonDecksDevPlugin() {
   return {
     name: 'cvedi-independent-lesson-previews',
     apply: 'serve',
-    async transformIndexHtml(html) {
-      if (process.env.CVEDI_DECK !== 'apertura' || !process.env.CVEDI_DECK_ROUTES) return html
-      const catalog = JSON.parse(await readFile(process.env.CVEDI_DECK_ROUTES, 'utf8'))
-      return html.replace('<head>', `<head><script>${legacyRedirectScript(catalog, '/')}</script>`)
-    },
-    configureServer(server) {
+    async configureServer(server) {
       if (process.env.CVEDI_DECK !== 'apertura') return
+      const redirect = process.env.CVEDI_DECK_ROUTES
+        ? `<script id="cvedi-deck-redirect">${legacyRedirectScript(JSON.parse(await readFile(process.env.CVEDI_DECK_ROUTES, 'utf8')), '/')}</script>`
+        : ''
       server.middlewares.use(async (req, res, next) => {
         const found = match(req.url)
-        if (!found) return next()
+        if (!found) {
+          // Slidev serves its own HTML without Vite's transformIndexHtml hook.
+          // Intercept only the menu response, leaving examples and assets alone.
+          if (redirect && /^\/(?:index\.html)?(?:\?|$)/.test(req.url || '')) {
+            const end = res.end.bind(res)
+            res.end = (body, ...args) => {
+              if (typeof body === 'string' && String(res.getHeader('Content-Type')).includes('text/html')) {
+                body = body.replace('<head>', `<head>${redirect}`)
+                res.removeHeader('Content-Length')
+              }
+              return end(body, ...args)
+            }
+          }
+          return next()
+        }
         try {
           const port = await start(found[1])
           const upstream = request({ hostname: 'localhost', port, path: req.url, method: req.method, headers: { ...req.headers, host: `localhost:${port}` } }, incoming => {

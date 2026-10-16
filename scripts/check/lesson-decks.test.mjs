@@ -1,7 +1,8 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
 import { createRequire } from 'node:module'
-import { realpath } from 'node:fs/promises'
+import { realpath, mkdtemp, writeFile, rm } from 'node:fs/promises'
+import { tmpdir } from 'node:os'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { lessonDecks, lessonDeckExtensions, deckDirectory, deckForTarget } from '../../utils/lesson-decks.mjs'
@@ -27,6 +28,7 @@ test('each presentation imports only its own lesson and preserves every source s
         const sources = Object.keys(selected.markdownFiles).map(f => path.relative(root, f)).sort()
         assert.deepEqual(sources, ['slides.md', ...(deck.file ? [deck.file] : [])].sort(), `${deck.id}: other source files are never imported`)
         assert.equal(selected.headmatter.presenter, false)
+        assert.equal(selected.headmatter.preloadImages, false, `${deck.id}: no global image preload`)
         total += selected.slides.length
       }
       assert.equal(total, full.slides.length, 'no lost, duplicated or additional slides')
@@ -56,4 +58,31 @@ test('existing bookmarks redirect both on entry and after changing the menu hash
   location.hash = '#/500/2?clicks=1'
   runInNewContext(legacyRedirectScript(catalog, '/'), { location, addEventListener() {} })
   assert.equal(destination, '/lezioni/gestalt/#/gestalt-030/2?clicks=1')
+})
+
+test('local menu redirects are injected into Slidev HTML without changing other pages', async () => {
+  const { lessonDecksDevPlugin } = await import('../../utils/lesson-decks-dev.mjs')
+  const directory = await mkdtemp(path.join(tmpdir(), 'cvedi-menu-'))
+  const before = { deck: process.env.CVEDI_DECK, routes: process.env.CVEDI_DECK_ROUTES }
+  try {
+    process.env.CVEDI_DECK = 'apertura'
+    process.env.CVEDI_DECK_ROUTES = path.join(directory, 'decks.json')
+    await writeFile(process.env.CVEDI_DECK_ROUTES, JSON.stringify({ legacy: { colore: { deck: 'colore', target: 'colore' } } }))
+    let middleware
+    await lessonDecksDevPlugin().configureServer({ middlewares: { use(handler) { middleware = handler } }, httpServer: { once() {}, on() {} } })
+    const html = '<html><head></head><body>Slidev</body></html>'
+    for (const url of ['/', '/?preview=true', '/index.html', '/web-design-examples/index.html']) {
+      let response
+      const res = { end(body) { response = body }, getHeader() { return 'text/html; charset=utf-8' }, removeHeader() {} }
+      await middleware({ url }, res, () => res.end(html))
+      assert.equal(response.includes('id="cvedi-deck-redirect"'), !url.startsWith('/web-design-examples/'), url)
+      assert.ok(response.includes('<body>Slidev</body>'))
+    }
+  } finally {
+    for (const [key, value] of [['CVEDI_DECK', before.deck], ['CVEDI_DECK_ROUTES', before.routes]]) {
+      if (value === undefined) delete process.env[key]
+      else process.env[key] = value
+    }
+    await rm(directory, { recursive: true, force: true })
+  }
 })
