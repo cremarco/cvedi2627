@@ -83,8 +83,13 @@ try {
           fits: copies.every((rect, i) => rect.left >= boxes[i].left - 1 && rect.right <= boxes[i].right + 1 && rect.top >= ticks[i].bottom && rect.bottom <= footer.top - 12 * scale + 1 && rect.left >= canvas.left && rect.right <= canvas.right + 1),
           label: timeline.querySelector('ul').getAttribute('aria-label') }
       })
-      return { rows, captions, readingOrder, formulaAlignment, cardMotifs, timelines }
+      const notice = root.querySelector(':scope > .cvedi-notice')
+      const resourceNoticeGap = notice?.previousElementSibling && root.querySelector(':scope > .lesson-tool-resources')
+        ? (notice.getBoundingClientRect().top - notice.previousElementSibling.getBoundingClientRect().bottom) / scale
+        : null
+      return { rows, captions, readingOrder, formulaAlignment, cardMotifs, timelines, resourceNoticeGap }
     })
+    if (report.resourceNoticeGap !== null) assert.ok(report.resourceNoticeGap >= 23, `slide ${slide.index + 1}: notice stays separate from the content above its resource row`)
     for (const timeline of report.timelines) {
       assert.ok(timeline.count >= 3 && timeline.count <= 5 && timeline.equalColumns && timeline.fits && timeline.label, `slide ${slide.index + 1}: timeline columns and copy fit`)
       assert.ok(timeline.ticks.every(tick => Math.abs(tick.width - 10) < 1 && Math.abs(tick.height - 20) < 1 && Math.abs(tick.y - timeline.ticks[0].y) < 1), `slide ${slide.index + 1}: shared station tick baseline`)
@@ -115,13 +120,14 @@ try {
     slide.frontmatter.lesson === 'percezione-gerarchia'
       && (slide.content.match(/<CvediCard\b/g) || []).length === count,
   )).filter(Boolean)
+  const resourceNoticeFixtures = fixtures.filter(slide => slide.content.includes('<CvediNotice') && slide.content.includes('lesson-tool-resources'))
   for (const [mode, viewport, media] of [
     ['narrow', { width: 636, height: 778 }, 'screen'],
     ['print', { width: 1280, height: 720 }, 'print'],
   ]) {
     await page.setViewportSize(viewport)
     await page.emulateMedia({ media })
-    for (const slide of new Set([...timelineFixtures, ...compactCardFixtures])) await inspectSlide(slide, mode)
+    for (const slide of new Set([...timelineFixtures, ...compactCardFixtures, ...resourceNoticeFixtures])) await inspectSlide(slide, mode)
   }
   await page.emulateMedia({ media: 'screen' })
   await page.setViewportSize({ width: 844, height: 390 })

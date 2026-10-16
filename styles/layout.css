@@ -103,13 +103,23 @@
 
 /* The last teaching notice sits on the common footer-safe baseline.
    Auto space above the body and before the notice centers the body in between. */
-.slidev-layout.default.centered-content-slide:has(> .cvedi-notice) > :nth-last-child(3):not(h1) {
+.slidev-layout.default.centered-content-slide:has(> .cvedi-notice):not(:has(> .lesson-tool-resources)) > :nth-last-child(3):not(h1) {
   margin-bottom: var(--cvedi-space-peers);
 }
 .slidev-layout.default.centered-content-slide > .cvedi-notice:last-of-type {
   flex: 0 0 auto;
   margin-top: auto;
   margin-bottom: 0;
+}
+/* Resources belong to the centered reading group. Keep 32px from the lead
+   to its cards, 24px before the notice and the resource row's 16px padding
+   below it, without also inheriting the final-notice margin. */
+.slidev-layout.default.centered-content-slide:has(> .lesson-tool-resources) > .cvedi-notice {
+  margin-top: var(--cvedi-space-peers);
+  margin-bottom: 0;
+}
+.slidev-layout.default.centered-content-slide:has(> .lesson-tool-resources) > .cvedi-grid {
+  margin-top: 0;
 }
 .slidev-layout.default:has(> .cvedi-notice) .interaction-examples .interaction-example-figure {
   height: 176px;

@@ -323,6 +323,27 @@ try {
   await assertStaticMap()
   checks.push('Slidev screen-media export is static without an arbitrary capture delay')
 
+  const actionFixture = deck.slides.find(slide => /<SlideAction\b(?![^>]*:show-arrow="false")/.test(slide.content))
+  assert.ok(actionFixture, 'a navigation action with an arrow is available')
+  for (const mode of [
+    { name: 'normal screen', media: 'screen', reducedMotion: 'no-preference', transform: 'matrix(1, 0, 0, 1, 3, 0)' },
+    { name: 'reduced motion', media: 'screen', reducedMotion: 'reduce', transform: 'none' },
+    { name: 'native print', media: 'print', reducedMotion: 'no-preference', transform: 'none' },
+  ]) {
+    await page.emulateMedia({ media: mode.media, reducedMotion: mode.reducedMotion })
+    await go(actionFixture.frontmatter.routeAlias || actionFixture.index + 1)
+    const action = active().locator('.slide-action').filter({ has: page.locator('svg') }).first()
+    await action.hover()
+    await settle()
+    assert.equal(await action.locator('svg').evaluate(svg => getComputedStyle(svg).transform), mode.transform, `${mode.name}: arrow hover follows the motion preference`)
+    await page.mouse.move(0, 0)
+    await action.focus()
+    await settle()
+    assert.equal(await action.locator('svg').evaluate(svg => getComputedStyle(svg).transform), mode.transform, `${mode.name}: arrow focus follows the motion preference`)
+  }
+  checks.push('navigation arrows respond to hover and focus only when spatial motion is permitted')
+
+  await page.emulateMedia({ media: 'screen', reducedMotion: 'no-preference' })
   // Model background-tab lifecycle in this isolated test page, not the user's UI.
   await go('apertura')
   await page.evaluate(() => {

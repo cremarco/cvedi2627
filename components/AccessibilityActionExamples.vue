@@ -72,15 +72,25 @@ function cityResult() {
     : position === 1 ? 'Il trascinamento ha spostato Milano al primo posto. Non esiste un comando alternativo per chi non riesce a trascinare.' : `Milano è in posizione ${position}: l’unico modo per spostarla è tenere premuto e trascinare.`)
 }
 
-function moveCity(city: string, delta: number) {
+async function moveCity(city: string, delta: number, event: MouseEvent) {
   const from = cities.value.indexOf(city)
   const to = from + delta
   if (to < 0 || to >= cities.value.length) return
+  const trigger = event.currentTarget as HTMLButtonElement
+  const hadFocus = document.activeElement === trigger
   const order = [...cities.value]
   order.splice(from, 1)
   order.splice(to, 0, city)
   cities.value = order
   cityResult()
+  // Moving a keyed DOM row can drop keyboard focus. At either end the
+  // triggering button also becomes disabled, so retain the city's other action.
+  await nextTick()
+  if (!hadFocus || !props.active || !trigger.isConnected) return
+  const nextControl = trigger.disabled
+    ? trigger.parentElement?.querySelector<HTMLButtonElement>('button:not(:disabled)')
+    : trigger
+  nextControl?.focus()
 }
 
 function beginDrag(city: string, event: DragEvent) {
@@ -247,8 +257,8 @@ onMounted(() => { if (props.exampleId === 'semantica') semanticInsight() })
       <li v-for="(city, index) in cities" :key="city" class="list-row" :draggable="!good" @dragstart="beginDrag(city, $event)" @dragend="draggedCity = ''" @dragover.prevent @drop.prevent="dropCity(city)">
         <span class="action-stop"><strong class="action-stop-number">{{ index + 1 }}.</strong><span>{{ city }}</span></span>
         <div v-if="good" class="a11y-actions">
-          <button type="button" class="btn btn-outline" :disabled="index === 0" :aria-label="`Sposta ${city} su`" @click="moveCity(city, -1)">Su</button>
-          <button type="button" class="btn btn-outline" :disabled="index === cities.length - 1" :aria-label="`Sposta ${city} giù`" @click="moveCity(city, 1)">Giù</button>
+          <button type="button" class="btn btn-outline" :disabled="index === 0" :aria-label="`Sposta ${city} su`" @click="moveCity(city, -1, $event)">Su</button>
+          <button type="button" class="btn btn-outline" :disabled="index === cities.length - 1" :aria-label="`Sposta ${city} giù`" @click="moveCity(city, 1, $event)">Giù</button>
         </div>
         <span v-else class="a11y-drag-handle">Trascina</span>
       </li>

@@ -396,7 +396,7 @@ lessonSlide: 21
 # Contrasto del testo
 
 <p class="lead">WCAG 2.2 · 1.4.3, livello AA.</p>
-<div class="cvedi-grid"><CvediCard title="Testo normale"><p>Rapporto di contrasto di almeno 4,5:1 rispetto al fondo effettivo.</p></CvediCard><CvediCard title="Testo grande"><p>Almeno 3:1; grande significa 18 pt oppure 14 pt in grassetto.</p></CvediCard></div>
+<div class="cvedi-grid"><CvediCard title="Testo normale"><p>Rapporto di contrasto di almeno 4,5:1 rispetto al fondo effettivo.</p></CvediCard><CvediCard title="Testo grande"><p>Almeno 3:1; testo di almeno 18 pt, oppure 14 pt in grassetto.</p></CvediCard></div>
 <CvediNotice kind="explore" title="Da tenere presente"><p>Sono previste eccezioni per elementi incidentali e logotipi. Il colore non deve essere l’unico segnale di stato, azione o errore.</p></CvediNotice>
 <nav class="lesson-tool-resources" aria-label="Strumenti per la verifica"><ul class="lesson-tools" role="list"><li><a class="link" href="https://webaim.org/resources/contrastchecker/">WebAIM Contrast Checker</a><p>Confronta testo e sfondo: rapporto e soglie AA/AAA.</p></li></ul></nav>
 
@@ -1409,7 +1409,7 @@ lessonSlide: 74
 # Controllare prima di confermare
 
 <p class="lead">WCAG 2.2 · 3.3.4, livello AA.</p>
-<ul class="cvedi-list"><li><span>Per le operazioni previste, serve almeno una possibilità: invio reversibile, controllo e correzione dei dati, oppure revisione e conferma prima del completamento.</span></li><li><span>Il criterio comprende impegni giuridici, transazioni finanziarie e modifiche o cancellazioni di dati controllabili dall’utente.</span></li><li><span>I campi obbligatori devono essere riconoscibili senza affidarsi solo al colore.</span></li></ul>
+<ul class="cvedi-list"><li><span>Per le operazioni previste, serve almeno una possibilità: invio reversibile, controllo e correzione dei dati, oppure revisione e conferma prima del completamento.</span></li><li><span>Il criterio comprende impegni giuridici, transazioni finanziarie, modifica o cancellazione di dati controllabili dall’utente e invio di risposte a test.</span></li><li><span>Per i campi obbligatori, evita il solo colore: è il requisito distinto 1.4.1 A.</span></li></ul>
 
 ---
 layout: "default"

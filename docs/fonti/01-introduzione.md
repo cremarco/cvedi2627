@@ -1,6 +1,6 @@
 # Introduzione · Mappa delle fonti
 
-Il capitolo contiene 83 slide (92–174 del deck), per 120 minuti. È seguito dalla lezione 3, Storia del design (175–241); la chiusura è alla slide 498 nell’anteprima locale (242 online).
+Il capitolo contiene 83 slide (92–174 del deck), per 120 minuti. È seguito dalla lezione 3, Storia del design (175–241). La posizione della chiusura dipende dai set inclusi nella build ed è calcolata dal deck.
 La guida è il [capitolo Introduzione del booklet](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=204-8291). I PDF 2025/26 sono in `../../materiali/lezioni/2025-2026/`.
 Le pagine PDF sono numerate da 1, compresa la prima pagina. Le pagine del booklet corrispondono ai frame C01 001–020.
 
@@ -136,7 +136,7 @@ Visual design e composizione, Gestalt, teoria del colore, tipografia applicata, 
 
 ## Verifiche editoriali
 
-- La citazione iniziale attribuita a Ruskin non è riportata letteralmente: l’attribuzione esatta non è stata confermata. Il suo significato introduttivo è rielaborato nella slide 4.
+- La citazione iniziale attribuita a Ruskin non è riportata letteralmente: l’attribuzione esatta non è stata confermata. Il suo significato introduttivo è rielaborato nella slide «Design e società».
 - Il passaggio di Eames è parafrasato sulla [trascrizione ufficiale Design Q & A pubblicata da Vitra](https://www.vitra.com/en-un/magazine/details/what-is-your-definition-of-design-monsieur-eames).
 - I criteri di buon design sono una sintesi del booklet, non una riproduzione dei dieci principi di Rams.
 - La moneta è mostrata come esempio di funzione e identità, senza ripetere datazione o genealogie storiche non verificate. Non si trasferiscono le affermazioni etimologiche non verificate.
@@ -166,3 +166,7 @@ Dodici JPEG originali della lezione 03, pp. 9–14 e 17, estratti senza ritagli 
 Aggiunti [OXO Good Grips Swivel Peeler](https://www.oxo.com/more-oxo/swivel-peeler-349.html) e [separatore LEGO](https://www.lego.com/en-us/service/help-topics/article/lego-classic-brick-separator), con fotografie ufficiali dei produttori. Per LEGO la fotografia proviene dalla [scheda del separatore 630](https://www.lego.com/en-us/product/brick-separator-630). File, fonte, pagina, dimensioni e hash sono registrati in `assets/introduzione/ux-examples/manifest.json`; i testi sono in `data/ux-examples.json`.
 
 Due casi documentati da [Katie Sherwin per Nielsen Norman Group nel 2018](https://www.nngroup.com/articles/natural-mappings/) precedono OXO e LEGO: fornelli con comandi disposti diversamente e biglietteria con cifre incoerenti. Le fotografie sono esempi storici, non descrizioni dei prodotti attuali. Le slide hanno alias `ux-fornelli` e `ux-biglietteria`; foto originali, fonti e hash sono nel manifest. Il nuovo caso Lidl di L03 p. 17 ha alias `ux-cassa-appoggio` e mette a confronto lo spazio di appoggio delle due casse, senza dedurre prestazioni misurate dalla sola fotografia. I tempi di tutto il capitolo sono redistribuiti per mantenere 120 minuti.
+
+## Definizioni di UX e usabilità
+
+Le slide «Che cos’è la User Experience?» e «Usabilità: riuscire a fare» usano parafrasi didattiche delle definizioni ISO: la UX comprende anche l’aspettativa d’uso; l’usabilità considera efficacia, efficienza e soddisfazione per persone, obiettivi e contesto definiti. Il riferimento è [ISO 9241-11:2018](https://www.iso.org/standard/63500.html), con le definizioni riportate anche nelle sezioni 3.4.3–3.4.4 di [ISO 9241-115:2024](https://www.iso.org/obp/ui?_escaped_fragment_=iso%3Astd%3Aiso%3A9241%3A-115%3Aed-1%3Av1%3Aen). Verifica sulle fonti primarie: 16 ottobre 2026.

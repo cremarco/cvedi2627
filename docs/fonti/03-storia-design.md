@@ -1,6 +1,6 @@
 # Lezione 3 · Storia del design · Mappa delle fonti
 
-Il capitolo contiene **67 slide (175–241 del deck), per 120 minuti**. Segue Introduzione; la chiusura del deck è alla slide 498 nell’anteprima locale (242 online).
+Il capitolo contiene **67 slide (175–241 del deck), per 120 minuti**. Segue Introduzione. La posizione della chiusura dipende dai set inclusi nella build ed è calcolata dal deck.
 La guida è il [capitolo C02 aggiornato del booklet](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2008-1740), composto da **66 pagine**. “Lezione 3” indica la posizione didattica nell’indice del corso; il capitolo del booklet resta C02.
 
 La revisione del 6 ottobre 2026 segue il testo effettivo del Figma corrente, non l’importazione iniziale di 38 frame. L’atlante degli stili comprende ora undici doppie pagine, con la variante controllata CAFFÈ LUCE a sinistra e quattro screenshot documentati a destra. La [trascrizione dei 66 frame](../../assets/booklet/capitolo-2/testo-figma-aggiornato.json) conserva nodo, ordine, folio, testi e collegamenti. Il numero stampato e il frame locale sono distinti: C02 001–002 sono l’apertura senza folio visibile; le pagine informative C02 003–065 corrispondono ai folii 23–85; C02 066, folio 86, è lo spazio appunti.

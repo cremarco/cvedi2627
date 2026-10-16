@@ -1,0 +1,3654 @@
+{
+  "version": "2026-10-16",
+  "mode": "built-in image_gen",
+  "purpose": "All active decorative card motifs in lessons 03, 04, 05 updated to their current set palettes; original versions preserved.",
+  "rights": "Original AI-generated decorative illustrations for CVeDI; not documentary material. Generated with OpenAI ImageGen; no third-party source illustration copied.",
+  "jobs": [
+    {
+      "id": "history-book",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One open reference book with three broad reading lines on each page and one small magenta #F087FE bookmark. No letters.",
+      "prompt": "Use case: stylized-concept. Asset type: ONE standalone decorative editorial card motif for CVeDI lesson 03. Subject: an open reference book with three broad reading lines on each page and one small magenta bookmark. No letters. Style: clean 2D educational illustration, confident thick rounded dark-lime contours, broad flat opaque white and pale-lime pages, a single slim offset rear edge, simple recognizable proportions. Color palette: dark outline #192E03, primary lime #3C6300, pale faces #ECFCCA and #D8F999, one small magenta accent #F087FE. Composition: compact centered square motif filling about 75% of canvas, at least 10% clear margin on every side, essential concept at center, readable at 96px. Genuine alpha transparency outside objects, fully opaque object surfaces. No gradients, shading, gloss, texture, shadows, glow, decorative backdrop, enclosing badge, frames, letters, numerals, logos or watermarks. Generate exactly one image, not a sheet.",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-book.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-book.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-book.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-book-v1.webp",
+      "owners": [
+        {
+          "slide": 177,
+          "title": "Cosa impareremo",
+          "card": "Leggere un’epoca",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 177,
+          "title": "Cosa impareremo",
+          "card": "Riconoscere le eredità",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 190,
+          "title": "Tipografia: funzione ed espressione",
+          "card": "Leggere",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 211,
+          "title": "Dal leggere all’interagire",
+          "card": "Pagina",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 238,
+          "title": "Lo stile va verificato",
+          "card": "Leggere",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 240,
+          "title": "Fonti per continuare",
+          "card": "Artefatti e contesto",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          116,
+          1236,
+          1136
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-000501fd-479b-443a-8f9e-7dabca8f4a8f.png",
+      "sha256": "25793fde8d92525059ce6d3756a313b0625aa3dfbc685c38186ff398ed312069",
+      "originalSha256": "57ba3b1567ee813d90571179049caa9af733f46cb623ab05641d92d529370fe2",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent outside, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-research",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One tilted magnifying glass over one evidence sheet, with one broad magenta #F087FE evidence dot. No fine detail.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One tilted magnifying glass over one evidence sheet, with one broad magenta #F087FE evidence dot. No fine detail.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-research.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-research.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-research.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-research-v1.webp",
+      "owners": [
+        {
+          "slide": 178,
+          "title": "Come leggere un artefatto",
+          "card": "Con che cosa?",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 189,
+          "title": "Organizzare il sapere",
+          "card": "Ritrovare",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 224,
+          "title": "Semplice non significa sempre usabile",
+          "card": "Comprendere",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 239,
+          "title": "Tre eredità da riconoscere",
+          "card": "Contesto",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          36,
+          38,
+          1202,
+          1220
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-d1a52011-8da9-4005-bb73-67e97b50515d.png",
+      "sha256": "76794321c6abab3aff1eff483339657cbc2e07a421e2b47be040436e0ad1cbf5",
+      "originalSha256": "2d72f9c214fbd801abc6026a55bd629b627f53fb4b8a004ffb1413c088fd8d5c",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent outside, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-identity",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One recognizable round seal attached to a simple identity card. The card has a broad emblem circle and two line bars, no person or lettering.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One recognizable round seal attached to a simple identity card. The card has a broad emblem circle and two line bars, no person or lettering.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-identity.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-identity.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-identity.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-identity-v1.webp",
+      "owners": [
+        {
+          "slide": 178,
+          "title": "Come leggere un artefatto",
+          "card": "Per chi?",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 183,
+          "title": "Segni per riconoscere",
+          "card": "Identità",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 183,
+          "title": "Segni per riconoscere",
+          "card": "Riconoscibilità",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 183,
+          "title": "Segni per riconoscere",
+          "card": "Autenticità",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 188,
+          "title": "Dalla bottega al pubblico",
+          "card": "Marchi tipografici",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 190,
+          "title": "Tipografia: funzione ed espressione",
+          "card": "Riconoscere",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 238,
+          "title": "Lo stile va verificato",
+          "card": "Riconoscere",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          84,
+          1240,
+          1206
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-5a117113-8fff-4322-bd65-69a26f179b62.png",
+      "sha256": "dd0650d6fb1b1ee0bf16890d97f4eedaf2ef0219f88ee396e9c51562c7280e14",
+      "originalSha256": "ad837e43459d2dbeaa2ef8685fc12acd373dfabc6f0a919bd5baee8ca666b0b8",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent outside, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-print",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One compact printing roller above one printed sheet and a simple rectangular printing block. No historical machine reproduction, just a printing concept.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One compact printing roller above one printed sheet and a simple rectangular printing block. No historical machine reproduction, just a printing concept.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-print.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-print.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-print.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-print-v1.webp",
+      "owners": [
+        {
+          "slide": 186,
+          "title": "Gutenberg: un sistema di produzione",
+          "card": "Tipi in metallo",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 186,
+          "title": "Gutenberg: un sistema di produzione",
+          "card": "Processo coordinato",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 191,
+          "title": "La litografia apre nuove possibilità",
+          "card": "Riprodurre",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 208,
+          "title": "Comporre il testo e stampare",
+          "card": "Stampa",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          19,
+          1240,
+          1206
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-536cc7eb-5542-4fca-87f8-c2ef1f9ec647.png",
+      "sha256": "4cd503b1d28fef70cc6659157199ab89e94618173a73b6c745827d5bdf1a0833",
+      "originalSha256": "7cba67dd8f9a9789e71868606a0ac453792c4b4e06d9403d8e1beecac77982b9",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent outside, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-distribution",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "Three paper sheets spread as a fan, with one bold small outgoing arrow. Broad line bars only, no letters.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Three paper sheets spread as a fan, with one bold small outgoing arrow. Broad line bars only, no letters.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-distribution.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-distribution.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-distribution.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-distribution-v1.webp",
+      "owners": [
+        {
+          "slide": 186,
+          "title": "Gutenberg: un sistema di produzione",
+          "card": "Diffusione",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 188,
+          "title": "Dalla bottega al pubblico",
+          "card": "Gazzette",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 201,
+          "title": "Art Déco: dare forma alla modernità",
+          "card": "Velocità",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 201,
+          "title": "Art Déco: dare forma alla modernità",
+          "card": "Diffusione",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          27,
+          105,
+          1253,
+          1201
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-fcb8a4e5-4bdb-4845-b691-56f7c7d8c127.png",
+      "sha256": "ea25529217911f3c554d7933ca5feb4bf6ed78185acbc5d7bd9f255f38944d8c",
+      "originalSha256": "4b829ad35c80fab55ca656de5e205127f7c07ea6cd94bcbe9ad8ccdc0c3f5928",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent outside, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-layout",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One upright layout page with a bold header block and a simple two-column grid, with a short ruler alongside. No numerals or letters.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One upright layout page with a bold header block and a simple two-column grid, with a short ruler alongside. No numerals or letters.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-layout.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-layout.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-layout.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-layout-v1.webp",
+      "owners": [
+        {
+          "slide": 181,
+          "title": "Scrivere significa organizzare",
+          "card": "Ordinare",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 189,
+          "title": "Organizzare il sapere",
+          "card": "Classificare",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 189,
+          "title": "Organizzare il sapere",
+          "card": "Spiegare",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 190,
+          "title": "Tipografia: funzione ed espressione",
+          "card": "Percorrere",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 201,
+          "title": "Art Déco: dare forma alla modernità",
+          "card": "Geometria",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 208,
+          "title": "Comporre il testo e stampare",
+          "card": "Composizione",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 239,
+          "title": "Tre eredità da riconoscere",
+          "card": "Gerarchia",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          73,
+          1246,
+          1230
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-63cf48a8-64d0-48e7-a2e3-4141eec38e61.png",
+      "sha256": "b590645370c5670f486163ac900973846899685d84664046b9281f8ba0d3bb24",
+      "originalSha256": "e6151c226a67b2b7b60f8b38b171b6e4ac9c40870626ffdb1c9d3e5a54d5ef0f",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent outside, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-pen",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One familiar fountain-pen nib overlapping a sheet with one simple curved drawn stroke. No lettering.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One familiar fountain-pen nib overlapping a sheet with one simple curved drawn stroke. No lettering.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-pen.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-pen.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-pen.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-pen-v1.webp",
+      "owners": [
+        {
+          "slide": 181,
+          "title": "Scrivere significa organizzare",
+          "card": "Registrare",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 191,
+          "title": "La litografia apre nuove possibilità",
+          "card": "Disegnare",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 193,
+          "title": "Art Nouveau: un linguaggio integrato",
+          "card": "Linea",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 193,
+          "title": "Art Nouveau: un linguaggio integrato",
+          "card": "Lettere",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          24,
+          1240,
+          1230
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-ded089fc-6817-4491-bce9-1a347d11fc81.png",
+      "sha256": "3c69dfab1a39c8c91d12539d3316ad230bd86ad9384a1e8d61ed290400fa2250",
+      "originalSha256": "8c559bd5a102b4d03f8629c94abba9200b7493da58a8fc23aef9807d6c091b1f",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent outside, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-palette",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One compact fan of three broad color swatches in pale magenta #F087FE, deeper magenta #F087FE and magenta #F087FE, with one small magenta #F087FE selection dot.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One compact fan of three broad color swatches in pale magenta #F087FE, deeper magenta #F087FE and magenta #F087FE, with one small magenta #F087FE selection dot.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-palette.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-palette.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-palette.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-palette-v1.webp",
+      "owners": [
+        {
+          "slide": 191,
+          "title": "La litografia apre nuove possibilità",
+          "card": "Colorare",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          19,
+          8,
+          1240,
+          1254
+        ],
+        "visibleBounds": [
+          199,
+          175,
+          1099,
+          1102
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-daa17847-79f7-4269-a1f5-0aa39a52546c.png",
+      "sha256": "e8fb5fbfea809a500525e260cd3ef840ad82df011ce21da88f2eac134f3fcc4b",
+      "originalSha256": "56f675a9c662b0d7319588d9bec5cf8a63d5d33e44d79025cc50d95da76ef246",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-screen",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One compact browser window with a single broad button and a simple cursor arrow selecting it. Two broad content blocks, no lettering.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One compact browser window with a single broad button and a simple cursor arrow selecting it. Two broad content blocks, no lettering.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-screen.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-screen.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-screen.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-screen-v1.webp",
+      "owners": [
+        {
+          "slide": 178,
+          "title": "Come leggere un artefatto",
+          "card": "Per fare che cosa?",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 196,
+          "title": "Quando il design persuade",
+          "card": "Indicare un’azione",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 211,
+          "title": "Dal leggere all’interagire",
+          "card": "Schermo",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 214,
+          "title": "1968: il computer come collaborazione",
+          "card": "Mouse",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 224,
+          "title": "Semplice non significa sempre usabile",
+          "card": "Distinguere",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 238,
+          "title": "Lo stile va verificato",
+          "card": "Agire",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 239,
+          "title": "Tre eredità da riconoscere",
+          "card": "Convenzioni",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          48,
+          85,
+          1218,
+          1164
+        ],
+        "visibleBounds": [
+          199,
+          226,
+          1064,
+          1030
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-6a3f7373-8c3f-4e7d-aeef-f17112f3863e.png",
+      "sha256": "e7c95d68010e63e53eb8d31ba5676b5858c3adaa0e14e161b027940421e6e8db",
+      "originalSha256": "2129c351da7680a3c9fef2282c9d455f1b6dc0a8b8ec4e6a6c595d94484c992f",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-network",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "Three small page panels joined by two broad connecting lines. One magenta #F087FE central page indicates a shared connection. No people or text.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Three small page panels joined by two broad connecting lines. One magenta #F087FE central page indicates a shared connection. No people or text.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-network.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-network.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-network.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-network-v1.webp",
+      "owners": [
+        {
+          "slide": 181,
+          "title": "Scrivere significa organizzare",
+          "card": "Condividere",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 211,
+          "title": "Dal leggere all’interagire",
+          "card": "Rete",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 214,
+          "title": "1968: il computer come collaborazione",
+          "card": "Ipertesto",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 214,
+          "title": "1968: il computer come collaborazione",
+          "card": "Lavoro condiviso",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 240,
+          "title": "Fonti per continuare",
+          "card": "Sistemi e tecnologie",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          55,
+          71,
+          1240,
+          1055
+        ],
+        "visibleBounds": [
+          96,
+          446,
+          1159,
+          790
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-ce12373b-9c43-41d9-9709-281c396b2fb5.png",
+      "sha256": "5ecbc90d5242ac29768d56d88440f4ec14b334b37abe11e9ae7e59aa7101d09f",
+      "originalSha256": "d21e6f6f180940c257b9a3e061e1a8a7a86438977e72a5853e22b4fab9e47c9f",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-testing",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One familiar small checklist clipboard with two broad check marks and one magenta #F087FE selected check, no words or tiny rows.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One familiar small checklist clipboard with two broad check marks and one magenta #F087FE selected check, no words or tiny rows.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-testing.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-testing.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-testing.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-testing-v1.webp",
+      "owners": [
+        {
+          "slide": 177,
+          "title": "Cosa impareremo",
+          "card": "Motivare una scelta",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 224,
+          "title": "Semplice non significa sempre usabile",
+          "card": "Verificare",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 240,
+          "title": "Fonti per continuare",
+          "card": "Criteri di progetto",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          87,
+          23,
+          1170,
+          1230
+        ],
+        "visibleBounds": [
+          231,
+          85,
+          1027,
+          1166
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-cd7909fb-235a-4f37-929f-0d2c9317ad2c.png",
+      "sha256": "c4c33a74a2f67c5573d8c5ba6576298434ac554e0bda0cafbe8dd19d181c1ee2",
+      "originalSha256": "98d22052c379bad2c29cd98089a3e890917fa52f9b580e9f3c7f7f9c45933dbc",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "history-message",
+      "family": "lime",
+      "palette": {
+        "outline": "#192E03",
+        "primary": "#3C6300",
+        "pale": "#ECFCCA and #D8F999",
+        "accent": "magenta #F087FE"
+      },
+      "subject": "One simple megaphone overlapping one small upright poster sheet, with a bold circle and one diagonal mark as the poster composition. No lettering.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One simple megaphone overlapping one small upright poster sheet, with a bold circle and one diagonal mark as the poster composition. No lettering.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: lime primary #3C6300, dark outline #192E03, pale object faces #ECFCCA and #D8F999, white functional paper/panel surfaces, one small magenta #F087FE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/history-message.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/history-message.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/history-message.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-history-icons-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/history-message-v1.webp",
+      "owners": [
+        {
+          "slide": 188,
+          "title": "Dalla bottega al pubblico",
+          "card": "Annunci",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 193,
+          "title": "Art Nouveau: un linguaggio integrato",
+          "card": "Immagine",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 196,
+          "title": "Quando il design persuade",
+          "card": "Rendere urgente",
+          "lesson": "storia-design"
+        },
+        {
+          "slide": 196,
+          "title": "Quando il design persuade",
+          "card": "Dare una cornice",
+          "lesson": "storia-design"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          21,
+          107,
+          1232,
+          1198
+        ],
+        "visibleBounds": [
+          124,
+          274,
+          1132,
+          983
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-aed55716-f3c9-4122-a131-dda92be88ec4.png",
+      "sha256": "0dd935fa278b18a1211b5603959b0247ec82099c44033a617d6cfb0b3e2b4bdc",
+      "originalSha256": "2e9b98ad64dc0430acccba008b85796c42cc475ca75b1dfe9f2f41b10538dc12",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-people",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "Two simple head-and-shoulder silhouettes facing each other, with one broad magnifying glass between them: learning about people through research. No faces or clothing details.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Two simple head-and-shoulder silhouettes facing each other, with one broad magnifying glass between them: learning about people through research. No faces or clothing details.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-people.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-people.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-people.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-people-v1.webp",
+      "owners": [
+        {
+          "slide": 244,
+          "title": "Cosa impareremo",
+          "card": "Comprendere le persone",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          29,
+          214,
+          1230,
+          1071
+        ],
+        "visibleBounds": [
+          89,
+          326,
+          1165,
+          921
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-1f04f685-39c1-4095-ad61-433657004af2.png",
+      "sha256": "03b122e2b36f3ea89bdb73be1ffc11951c892eae5775c5685966fc6dafa19aa3",
+      "originalSha256": "b366d37d0dcf2aef587df49e8072b31079ccc119d0cf061609516cf138ea0cdd",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-barriers",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One broad low barrier across a simple path, with a coral #FE935E arrow taking a clear alternative route around it. A concrete barrier and an accessible way past it, with no lock or prohibition symbol.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One broad low barrier across a simple path, with a coral #FE935E arrow taking a clear alternative route around it. A concrete barrier and an accessible way past it, with no lock or prohibition symbol.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-barriers.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-barriers.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-barriers.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-barriers-v1.webp",
+      "owners": [
+        {
+          "slide": 244,
+          "title": "Cosa impareremo",
+          "card": "Riconoscere le barriere",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          35,
+          32,
+          1234,
+          1239
+        ],
+        "visibleBounds": [
+          132,
+          157,
+          1122,
+          1096
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-1be87224-8490-4050-837b-24e89c00923b.png",
+      "sha256": "4f837f85a0fd799ad5c35b8f002547d615fd04ab716c8071601ad60eaa587a12",
+      "originalSha256": "22aff535841e3a19e022efd3f36d1199dc3f8c2795d6712e1c55dc6f22600aa0",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-define",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "Two broad evidence slips converging through a small funnel into one clearly outlined target circle: defining a focused problem from evidence. No letters, tiny lists or numbers.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Two broad evidence slips converging through a small funnel into one clearly outlined target circle: defining a focused problem from evidence. No letters, tiny lists or numbers.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-define.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-define.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-define.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-define-v1.webp",
+      "owners": [
+        {
+          "slide": 244,
+          "title": "Cosa impareremo",
+          "card": "Definire il problema",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          21,
+          1226,
+          1236
+        ],
+        "visibleBounds": [
+          116,
+          110,
+          1138,
+          1165
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-eafa7c3b-21fd-4fd4-8ab8-4a6c14b98c2f.png",
+      "sha256": "1c2aad4107222e715b128facd4aacb2e5fd3eadcd0009221f52c1e48b4c64b2b",
+      "originalSha256": "c234f8a5c2d8570f32d3793c321d94e4e51c8f70e985f2a36b9d019dbb6d56ac",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-interview",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "Two overlapping rounded conversation bubbles, one pale lime and one white, with one simple coral #FE935E dot in the front bubble. Clean dialogue motif; no text or punctuation.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Two overlapping rounded conversation bubbles, one pale lime and one white, with one simple coral #FE935E dot in the front bubble. Clean dialogue motif; no text or punctuation.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-interview.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-interview.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-interview.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-interview-v1.webp",
+      "owners": [
+        {
+          "slide": 248,
+          "title": "Intervistare e osservare",
+          "card": "Intervista",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          69,
+          1218,
+          1081
+        ],
+        "visibleBounds": [
+          144,
+          208,
+          1110,
+          1062
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-1b643b75-c34b-4bb7-b55b-c48d0969f77d.png",
+      "sha256": "99f83deba2b3d94cfebe2c5aac819203382d2677140449e9565ea92b656c7124",
+      "originalSha256": "8949fc7bf77a8401b1f822b07b607899ba68d7ad7f6ce5e49d3134e8c8009284",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-observation",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One magnifying glass over a broad blank evidence sheet, with one coral #FE935E observation dot under the lens. Rounded recognizable shapes and very few broad marks.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One magnifying glass over a broad blank evidence sheet, with one coral #FE935E observation dot under the lens. Rounded recognizable shapes and very few broad marks.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-observation.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-observation.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-observation.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-observation-v1.webp",
+      "owners": [
+        {
+          "slide": 248,
+          "title": "Intervistare e osservare",
+          "card": "Osservazione",
+          "lesson": "ricerca-inclusiva"
+        },
+        {
+          "slide": 250,
+          "title": "Osservazione, interpretazione, ipotesi",
+          "card": "Osservazione",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          19,
+          1170,
+          1214
+        ],
+        "visibleBounds": [
+          207,
+          161,
+          1040,
+          1092
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-5bacee9d-6fe7-4adf-97e8-4ffaa2802d2b.png",
+      "sha256": "1076a6c4f0fa4c0818f428850b7075c4b9b61c91b247b6557a3fe205267b216e",
+      "originalSha256": "e10781d725287339b4b18aedeae371d4254ea4f2ad9ee7b7e2c422889e4922ae",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-interpretation",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One evidence sheet branching into two broad thought bubbles of equal importance, one pale lime and one pale coral #FE935E, to suggest alternative interpretations. No punctuation or words.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One evidence sheet branching into two broad thought bubbles of equal importance, one pale lime and one pale coral #FE935E, to suggest alternative interpretations. No punctuation or words.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-interpretation.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-interpretation.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-interpretation.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-interpretation-v1.webp",
+      "owners": [
+        {
+          "slide": 250,
+          "title": "Osservazione, interpretazione, ipotesi",
+          "card": "Interpretazione",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          21,
+          1240,
+          1216
+        ],
+        "visibleBounds": [
+          95,
+          146,
+          1161,
+          1103
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-3a6f2382-6a2f-47ef-a17d-3a5a4f4057b5.png",
+      "sha256": "074107e5765e69c7adeb311bf280cf8ec8c4c07a03bcdb2f472e0b0e243fbd79",
+      "originalSha256": "da9d9a7294dc8fc22e8a9429898ab845b21e1eddfa48b283f7e520d10cc6755e",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-hypothesis",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One simple lightbulb next to one small evidence slip with a broad coral #FE935E check, suggesting a proposed idea to test. No rays, decorative sparkles or text.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One simple lightbulb next to one small evidence slip with a broad coral #FE935E check, suggesting a proposed idea to test. No rays, decorative sparkles or text.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-hypothesis.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-hypothesis.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-hypothesis.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-hypothesis-v1.webp",
+      "owners": [
+        {
+          "slide": 250,
+          "title": "Osservazione, interpretazione, ipotesi",
+          "card": "Ipotesi",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          41,
+          21,
+          1194,
+          1254
+        ],
+        "visibleBounds": [
+          225,
+          168,
+          1060,
+          1087
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-ef06aea2-3cf1-422d-a32c-8235c9d3caf2.png",
+      "sha256": "9decbcbac4b3c5c7868ca9cf9736f89ecfd24e53426d8ec363a73bd410a8e6e1",
+      "originalSha256": "64f3c6480ea3d906d8a10f9a29ac6286f58f8a19865fc3971cac6f0182e40244",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-authority",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One clear organizational hierarchy: one head-and-shoulders silhouette at the top connected to two equal smaller silhouettes below, with a small coral #FE935E connection junction. No crown, flags or country symbols.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One clear organizational hierarchy: one head-and-shoulders silhouette at the top connected to two equal smaller silhouettes below, with a small coral #FE935E connection junction. No crown, flags or country symbols.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-authority.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-authority.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-authority.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-authority-v1.webp",
+      "owners": [
+        {
+          "slide": 253,
+          "title": "Distanza dal potere",
+          "card": "Gerarchia e autorevolezza",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          83,
+          39,
+          1170,
+          1216
+        ],
+        "visibleBounds": [
+          194,
+          119,
+          1060,
+          1145
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-49f19412-27b7-4a8a-a37f-eebd0c3f9ea0.png",
+      "sha256": "c6bcd67e92f89148aeefa5004ef0dda899188c0422a26f68c6f30fa187829d25",
+      "originalSha256": "a67615c8058572ce28da82e52a20553fb2660ce33060bdae573089067f311a21",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-participation",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "Three equal rounded head-and-shoulders silhouettes arranged around one shared small coral #FE935E center, connected at the same level. Shared participation with no dominant person.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Three equal rounded head-and-shoulders silhouettes arranged around one shared small coral #FE935E center, connected at the same level. Shared participation with no dominant person.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-participation.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-participation.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-participation.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-participation-v1.webp",
+      "owners": [
+        {
+          "slide": 253,
+          "title": "Distanza dal potere",
+          "card": "Autonomia e partecipazione",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          37,
+          80,
+          1218,
+          1238
+        ],
+        "visibleBounds": [
+          115,
+          168,
+          1137,
+          1114
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-34568a87-6904-40d8-8fbe-16bf45484365.png",
+      "sha256": "c66e60afa6a69c754b5c4ec459014cec9b25d339be6bac643e99d5d538a7ffd6",
+      "originalSha256": "8ea278f98d97342261e540f419825745b5bcfdb386f9593b703a540d7105f673",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-personal-choice",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One simple head-and-shoulders silhouette choosing between two broad option tiles, with a single coral #FE935E check on one tile. No labels, devices or personal characteristics.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One simple head-and-shoulders silhouette choosing between two broad option tiles, with a single coral #FE935E check on one tile. No labels, devices or personal characteristics.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-personal-choice.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-personal-choice.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-personal-choice.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-personal-choice-v1.webp",
+      "owners": [
+        {
+          "slide": 261,
+          "title": "Individualismo e appartenenza",
+          "card": "Scelte personali",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          73,
+          1234,
+          1182
+        ],
+        "visibleBounds": [
+          156,
+          198,
+          1098,
+          1056
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-d71f72a8-1173-4076-970c-730ffd50191d.png",
+      "sha256": "1cf699ed8cd6c6274cfab1713a5f18fb3690309bf0351ef5ce5fa8f52acf6ed7",
+      "originalSha256": "4b75f587df7f8f1b3b51e8013e19e18b50217597e3e144e7738cd141eb4c734e",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-community",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "Three equal head-and-shoulders silhouettes linked by one simple curved connecting line, with a small coral #FE935E shared link. Community and mutual connection; no faces or cultural markers.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Three equal head-and-shoulders silhouettes linked by one simple curved connecting line, with a small coral #FE935E shared link. Community and mutual connection; no faces or cultural markers.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-community.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-community.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-community.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-community-v1.webp",
+      "owners": [
+        {
+          "slide": 261,
+          "title": "Individualismo e appartenenza",
+          "card": "Relazioni e comunità",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          31,
+          83,
+          1234,
+          1134
+        ],
+        "visibleBounds": [
+          113,
+          321,
+          1139,
+          933
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-820f97dc-d60d-4b61-b624-c5f00f0d497f.png",
+      "sha256": "5038b82bd82978096201cae617b4197e53cf11de9268a027dd9faf03e01cc72a",
+      "originalSha256": "0c24d811ca6e05aeba8550203509ded4b3d397a3f91414f9d2b06ff158aad4b0",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-achievement",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One modest trophy cup on a broad small plinth, with one coral #FE935E medallion on the cup. Simple recognizable achievement motif, no numerals, stars or wording.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One modest trophy cup on a broad small plinth, with one coral #FE935E medallion on the cup. Simple recognizable achievement motif, no numerals, stars or wording.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-achievement.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-achievement.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-achievement.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-achievement-v1.webp",
+      "owners": [
+        {
+          "slide": 270,
+          "title": "Competizione e cooperazione",
+          "card": "Risultati e riconoscimento",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          35,
+          1228,
+          1214
+        ],
+        "visibleBounds": [
+          151,
+          148,
+          1103,
+          1101
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-70ed5934-9931-4282-b0ea-173fde5cb62a.png",
+      "sha256": "b8402769bf6159b63ff0000394430e6b624de0fe08665fef51a5adbf3cec6a3c",
+      "originalSha256": "d29ca61a2bd99e9bf72999a952c2873c24b52875796a1f14a87117b506883270",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-care",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "Two simple cupped hands supporting one pale-lime heart with a small coral #FE935E center. A clear broad silhouette representing care and shared well-being, with no detailed fingers.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Two simple cupped hands supporting one pale-lime heart with a small coral #FE935E center. A clear broad silhouette representing care and shared well-being, with no detailed fingers.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-care.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-care.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-care.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-care-v1.webp",
+      "owners": [
+        {
+          "slide": 270,
+          "title": "Competizione e cooperazione",
+          "card": "Cura e qualità della vita",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          119,
+          1222,
+          1174
+        ],
+        "visibleBounds": [
+          138,
+          227,
+          1115,
+          1043
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-26a2703c-30ae-4d53-ac5f-be32d424fbaa.png",
+      "sha256": "9ec7d46e4f3614cc77964e133337378b83389f52e503b58499bcf21a307e1299",
+      "originalSha256": "49f6d754e0ff356334686811b3255ab867351146dbc9c14e37c90aa0fe3bbc82",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-predictable",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One broad vertical checklist with exactly three large rounded rows and coral #FE935E checks, all contained in a simple pale-lime sheet. No lettering, numbers or tiny marks.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One broad vertical checklist with exactly three large rounded rows and coral #FE935E checks, all contained in a simple pale-lime sheet. No lettering, numbers or tiny marks.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-predictable.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-predictable.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-predictable.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-predictable-v1.webp",
+      "owners": [
+        {
+          "slide": 278,
+          "title": "Rifiuto dell’incertezza",
+          "card": "Riferimenti prevedibili",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          63,
+          41,
+          1210,
+          1228
+        ],
+        "visibleBounds": [
+          205,
+          145,
+          1051,
+          1143
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-9ebd7d52-d717-4897-8b17-7371749df724.png",
+      "sha256": "01a798962b61d1e6005bab33e860d0aa877e997be5e7e4c07942e5a7beef5f7c",
+      "originalSha256": "772346ed2d95d08264edf43606edbb7d741f778cd4261da3ff7721f3674f70d6",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-exploration",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One broad path that forks into two curved alternatives and includes one short return arrow in coral #FE935E. Keep the fork clear and directions legible without a map, text or extra nodes.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One broad path that forks into two curved alternatives and includes one short return arrow in coral #FE935E. Keep the fork clear and directions legible without a map, text or extra nodes.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-exploration.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-exploration.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-exploration.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-exploration-v1.webp",
+      "owners": [
+        {
+          "slide": 278,
+          "title": "Rifiuto dell’incertezza",
+          "card": "Percorsi esplorativi",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          37,
+          44,
+          1216,
+          1237
+        ],
+        "visibleBounds": [
+          110,
+          165,
+          1144,
+          1112
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-6fc6349e-ca45-4d4a-b1ab-0ad5b4134b22.png",
+      "sha256": "35290fcf27fecb08bf44b64f36c4a508f849b0218664d3c3b0457f3dfafcd1f5",
+      "originalSha256": "3fa10f02a021e26b13385f7355846f9767b5407cdd75bc3dd9f4d08e33b9c24b",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-long-term",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One small seedling with two broad leaves rising from a low planter, beside a short gently ascending path ending in one coral #FE935E goal dot. Growth and sustained progress, with no chart labels.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One small seedling with two broad leaves rising from a low planter, beside a short gently ascending path ending in one coral #FE935E goal dot. Growth and sustained progress, with no chart labels.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-long-term.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-long-term.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-long-term.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-long-term-v1.webp",
+      "owners": [
+        {
+          "slide": 287,
+          "title": "L’orizzonte temporale del messaggio",
+          "card": "Lungo termine",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          57,
+          79,
+          1184,
+          1214
+        ],
+        "visibleBounds": [
+          209,
+          310,
+          1048,
+          952
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-f3e57015-c2e5-43ce-9767-76d91ab7f5fc.png",
+      "sha256": "1fdd1a2e91479f9de462d45629afa4fecf2ccb8aae6ae15d7c9985eb89cb06b5",
+      "originalSha256": "15613fcfeb42e7f36a877b899bac5e3593d82c7ee4e40dc333f9fb92ac7879bf",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-short-term",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One small calendar with a single broad coral #FE935E selected date and a compact clock in front of it, symbolizing an immediate time horizon. No numbers, weekday letters or text.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One small calendar with a single broad coral #FE935E selected date and a compact clock in front of it, symbolizing an immediate time horizon. No numbers, weekday letters or text.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-short-term.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-short-term.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-short-term.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-short-term-v1.webp",
+      "owners": [
+        {
+          "slide": 287,
+          "title": "L’orizzonte temporale del messaggio",
+          "card": "Breve termine",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          47,
+          64,
+          1236,
+          1188
+        ],
+        "visibleBounds": [
+          157,
+          184,
+          1122,
+          1069
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-2c3f90e2-4971-4e4f-8720-d0fa3d899ebe.png",
+      "sha256": "a956283e0865c49e3fc14f1b693c294ced3c2bb2b77af1c883f4b2becdb9a741",
+      "originalSha256": "c0c687b09a4ebc7915befcbc100a11bee44fdd4e68dcb44eb01b72fb0d47cf8c",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-indulgence",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One simple open fan of three play and leisure objects: a broad small music note, a rounded game-controller silhouette and a coral #FE935E balloon. Compact friendly personal leisure motif, no faces or food brands.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One simple open fan of three play and leisure objects: a broad small music note, a rounded game-controller silhouette and a coral #FE935E balloon. Compact friendly personal leisure motif, no faces or food brands.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-indulgence.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-indulgence.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-indulgence.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-indulgence-v1.webp",
+      "owners": [
+        {
+          "slide": 297,
+          "title": "Indulgenza e restrizione",
+          "card": "Indulgenza",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          57,
+          87,
+          1218,
+          1125
+        ],
+        "visibleBounds": [
+          150,
+          231,
+          1130,
+          1038
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-65637e65-c2b7-4af7-829e-f5fd4f36c120.png",
+      "sha256": "2e2c6343824210f3c1433d021c8137ff76a39962a947114814b84784aceb8222",
+      "originalSha256": "3f27f946b9f0f4bd2cfaaeea2fc2fd6ba2ae0a0d9b5909aba7d6c900eb2d8fb3",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "ricerca-inclusiva-restraint",
+      "family": "green",
+      "palette": {
+        "outline": "#032E15",
+        "primary": "#016630",
+        "pale": "#DCFCE7 and #B9F8CF",
+        "accent": "coral #FE935E"
+      },
+      "subject": "One clear pale-lime rule sheet with two broad rows, beside a simple clock with coral #FE935E hands, representing gratification governed by social expectations and schedules. No padlock, prison bars, punishment symbols, words or numbers.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One clear pale-lime rule sheet with two broad rows, beside a simple clock with coral #FE935E hands, representing gratification governed by social expectations and schedules. No padlock, prison bars, punishment symbols, words or numbers.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: green primary #016630, dark outline #032E15, pale object faces #DCFCE7 and #B9F8CF, white functional paper/panel surfaces, one small coral #FE935E accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/ricerca-inclusiva-restraint.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/ricerca-inclusiva-restraint.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/ricerca-inclusiva-restraint.webp",
+      "previousManifest": "assets/theme-imagegen/manifest-lesson-04-cards-v1.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/ux-research-restraint-v1.webp",
+      "owners": [
+        {
+          "slide": 297,
+          "title": "Indulgenza e restrizione",
+          "card": "Restrizione",
+          "lesson": "ricerca-inclusiva"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          19,
+          1210,
+          1146
+        ],
+        "visibleBounds": [
+          158,
+          206,
+          1117,
+          1025
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-5c77cec5-d8db-4281-b67d-198a04314344.png",
+      "sha256": "14ad2a6f78ec0fbfa6de2cd059aa89ceb5a2e2aacfb31b23eb4570c7e81801f7",
+      "originalSha256": "5d849470781860fb31e9f38602cef64eff1963919a19e99d321b137b926818c1",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-inclusione",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "Three simple human busts with different silhouettes connected by two equivalent curved paths to one shared circular destination. Focus on equal participation, no disability stereotyping.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Three simple human busts with different silhouettes connected by two equivalent curved paths to one shared circular destination. Focus on equal participation, no disability stereotyping.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-inclusione.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-inclusione.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-inclusione.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-inclusione.webp",
+      "owners": [
+        {
+          "slide": 331,
+          "title": "La persona media non basta",
+          "card": "Persone diverse",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 332,
+          "title": "Design universale e design inclusivo",
+          "card": "Design universale",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 332,
+          "title": "Design universale e design inclusivo",
+          "card": "Design inclusivo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 334,
+          "title": "Più modalità, lo stesso compito",
+          "card": "Una base comune",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 335,
+          "title": "Persona Spectrum",
+          "card": "Permanente",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 335,
+          "title": "Persona Spectrum",
+          "card": "Situazionale",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 362,
+          "title": "Dalle abilità alle barriere",
+          "card": "Osservare l’attività",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 390,
+          "title": "Accessibilità cognitiva",
+          "card": "Indagare i bisogni",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 408,
+          "title": "Personalizzare senza escludere",
+          "card": "Esperienze equivalenti",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 412,
+          "title": "Lingua e rappresentazione",
+          "card": "Nomi personali",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 412,
+          "title": "Lingua e rappresentazione",
+          "card": "Rappresentare le persone",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 417,
+          "title": "Conformità e qualità dell’esperienza",
+          "card": "Bisogni delle persone",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 420,
+          "title": "Valutare con strumenti e persone",
+          "card": "Prove d’uso",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 422,
+          "title": "Dalla ricerca alla correzione",
+          "card": "Preparare le prove",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 432,
+          "title": "Verificare l’inclusione",
+          "card": "Ricercare",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          92,
+          1222,
+          1182
+        ],
+        "visibleBounds": [
+          76,
+          174,
+          1185,
+          1110
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-1fa4d833-2f8d-4bdd-824e-6192a1381c0e.png",
+      "sha256": "d9ba0982f4546128e9cf770fbec368031403c301badeb2318f20b6977a1d7cd8",
+      "originalSha256": "8e3e4bc845bf4337aec95c0203144e9511e26d38451340fe062b080568b55bba",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-percezione",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "One stylized eye looking at two clearly distinct broad rectangles, with a strawberry pink #FE7DBE highlight on the visible rectangle. Focus on perception and visual contrast.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One stylized eye looking at two clearly distinct broad rectangles, with a strawberry pink #FE7DBE highlight on the visible rectangle. Focus on perception and visual contrast.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-percezione.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-percezione.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-percezione.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-percezione.webp",
+      "owners": [
+        {
+          "slide": 341,
+          "title": "Quattro principi per l’accessibilità web",
+          "card": "Percepibile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 346,
+          "title": "WCAG: percepire e usare",
+          "card": "01 · Percepibile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 348,
+          "title": "Contrasto del testo",
+          "card": "Testo normale",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 348,
+          "title": "Contrasto del testo",
+          "card": "Testo grande",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 358,
+          "title": "Ingrandimento, reflow e spaziatura",
+          "card": "Testo al 200%",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 363,
+          "title": "Tre scenari d’uso",
+          "card": "Scegliere un prodotto",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          121,
+          150,
+          1210,
+          1037
+        ],
+        "visibleBounds": [
+          196,
+          254,
+          1126,
+          1014
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-31bc9a57-395f-49f4-9c7d-4b4b9cfa2515.png",
+      "sha256": "c5c8c00bd26406d994149f116173eccb69f261dad8605d0d59802add673bfd50",
+      "originalSha256": "b070897b9963629d1bd98e4c98b0c4f33a84a2fc564462cd2f56096e606259d9",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-tastiera",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "One compact computer keyboard with a single strawberry pink #FE7DBE highlighted key and a curved directional arrow. No letters or numerals on keys. Focus on keyboard access and operating a control.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One compact computer keyboard with a single strawberry pink #FE7DBE highlighted key and a curved directional arrow. No letters or numerals on keys. Focus on keyboard access and operating a control.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-tastiera.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-tastiera.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-tastiera.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-tastiera.webp",
+      "owners": [
+        {
+          "slide": 341,
+          "title": "Quattro principi per l’accessibilità web",
+          "card": "Utilizzabile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 346,
+          "title": "WCAG: percepire e usare",
+          "card": "02 · Utilizzabile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 363,
+          "title": "Tre scenari d’uso",
+          "card": "Completare un modulo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 415,
+          "title": "WCAG 2.2: focus e azioni",
+          "card": "Focus non oscurato",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 415,
+          "title": "WCAG 2.2: focus e azioni",
+          "card": "Azioni e bersagli",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          79,
+          68,
+          1226,
+          1144
+        ],
+        "visibleBounds": [
+          93,
+          295,
+          1161,
+          913
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-e9c612f6-fc01-4be2-8e85-dfdd8140984c.png",
+      "sha256": "aa0c80e542a2ae121465418be93b981752719b34c33a2f719ff883528a414a0f",
+      "originalSha256": "448534f9a25c35cc080fae71242d75ac4acf0c079983f74224e70fa929d4c484",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-comprensione",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "An open guidebook with two broad short text-like bars and one clear strawberry pink #FE7DBE directional arrow leading to a large check mark. Focus on understandable instructions, memory support and clarity.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: An open guidebook with two broad short text-like bars and one clear strawberry pink #FE7DBE directional arrow leading to a large check mark. Focus on understandable instructions, memory support and clarity.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-comprensione.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-comprensione.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-comprensione.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-comprensione.webp",
+      "owners": [
+        {
+          "slide": 341,
+          "title": "Quattro principi per l’accessibilità web",
+          "card": "Comprensibile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 347,
+          "title": "WCAG: comprendere e interagire",
+          "card": "03 · Comprensibile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 383,
+          "title": "Nome, ruolo e stato",
+          "card": "Nome del controllo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 390,
+          "title": "Accessibilità cognitiva",
+          "card": "Integrare le WCAG",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 391,
+          "title": "Riconoscere, capire, ricordare",
+          "card": "Parole chiare",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 391,
+          "title": "Riconoscere, capire, ricordare",
+          "card": "Contesto visibile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 396,
+          "title": "Fermarsi e riprendere",
+          "card": "Ritrovare il contesto",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 412,
+          "title": "Lingua e rappresentazione",
+          "card": "Lingua dichiarata",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          164,
+          1234,
+          1059
+        ],
+        "visibleBounds": [
+          127,
+          285,
+          1128,
+          978
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-a0304723-2b93-400f-9096-85f3e263aa08.png",
+      "sha256": "731f6bf18300a34c61dad6b3df4de951dc3cfa72300644664f152c7f64e1b6c5",
+      "originalSha256": "c402e9ba8224f2dd5213c1f6a7864c5969e67fd500a9d28364db274b8903b39b",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-compatibilita",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "Two simple connectors fitting together below a small browser-window silhouette with an empty interior. One strawberry pink #FE7DBE connector. Focus on robust compatibility between interface and assistive tools.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Two simple connectors fitting together below a small browser-window silhouette with an empty interior. One strawberry pink #FE7DBE connector. Focus on robust compatibility between interface and assistive tools.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-compatibilita.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-compatibilita.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-compatibilita.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-compatibilita.webp",
+      "owners": [
+        {
+          "slide": 331,
+          "title": "La persona media non basta",
+          "card": "Accesso dal principio",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 341,
+          "title": "Quattro principi per l’accessibilità web",
+          "card": "Robusto",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 347,
+          "title": "WCAG: comprendere e interagire",
+          "card": "04 · Robusto",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 383,
+          "title": "Nome, ruolo e stato",
+          "card": "Ruolo del controllo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 383,
+          "title": "Nome, ruolo e stato",
+          "card": "Stato del controllo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 420,
+          "title": "Valutare con strumenti e persone",
+          "card": "Controlli automatici",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          210,
+          41,
+          1136,
+          1170
+        ],
+        "visibleBounds": [
+          232,
+          191,
+          1023,
+          1069
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-df537c0b-7b22-4bd8-b3ec-c1c0173f7f42.png",
+      "sha256": "089519cb10dd95c24686f45a77a2c77755dd38f70fb6998e2983fab420fe9f10",
+      "originalSha256": "8fa9f6654897f461f54541ec58ae7a304815ed6b9b31a3ad361b728bca43003d",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-media",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "One small video rectangle with a broad play triangle above two short subtitle bars, a strawberry pink #FE7DBE sound wave beside it. Focus on equivalent audiovisual and text channels. No words.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One small video rectangle with a broad play triangle above two short subtitle bars, a strawberry pink #FE7DBE sound wave beside it. Focus on equivalent audiovisual and text channels. No words.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-media.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-media.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-media.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-media.webp",
+      "owners": [
+        {
+          "slide": 334,
+          "title": "Più modalità, lo stesso compito",
+          "card": "Percorsi equivalenti",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 363,
+          "title": "Tre scenari d’uso",
+          "card": "Seguire una lezione",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 379,
+          "title": "Alternative per audio e video",
+          "card": "Sottotitoli",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 379,
+          "title": "Alternative per audio e video",
+          "card": "Informazioni visive",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          105,
+          199,
+          1224,
+          1182
+        ],
+        "visibleBounds": [
+          200,
+          331,
+          1105,
+          937
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-938c1768-7086-4e35-9c84-cce3e63fc0f9.png",
+      "sha256": "f2226a252b926a11a1dcbe76d7d0470ba2ff6e90bfec274dd0c9b04bdf488f61",
+      "originalSha256": "4b42cd9a651e278300e71d43cd60a1df805fdc674376e5278ba09cda92b93f4c",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-tempo",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "One round clock accompanied by a large strawberry pink #FE7DBE pause sign. Very simple broad hands, no numerals. Focus on pausing, time and resuming.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One round clock accompanied by a large strawberry pink #FE7DBE pause sign. Very simple broad hands, no numerals. Focus on pausing, time and resuming.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-tempo.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-tempo.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-tempo.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-tempo.webp",
+      "owners": [
+        {
+          "slide": 335,
+          "title": "Persona Spectrum",
+          "card": "Temporanea",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 396,
+          "title": "Fermarsi e riprendere",
+          "card": "Gestire le scadenze",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          39,
+          1139,
+          1122
+        ],
+        "visibleBounds": [
+          115,
+          139,
+          1134,
+          1115
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-4218a58e-c8f8-4d68-8193-74b02edcfecd.png",
+      "sha256": "be18773115db68a8cdd40f3bf4606d9f6b3b665cab2899fe2053449cc174f50d",
+      "originalSha256": "f1c800c23f53007b6fd765eecf07230ecbf938be2014d05a5689242982bd8f45",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-moduli",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "A compact form sheet with two broad blank fields and a strawberry pink #FE7DBE check mark beside the second field. Focus on labels, correcting errors and assisted authentication. No lettering.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: A compact form sheet with two broad blank fields and a strawberry pink #FE7DBE check mark beside the second field. Focus on labels, correcting errors and assisted authentication. No lettering.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-moduli.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-moduli.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-moduli.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-moduli.webp",
+      "owners": [
+        {
+          "slide": 396,
+          "title": "Fermarsi e riprendere",
+          "card": "Conservare il lavoro",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 400,
+          "title": "Moduli: istruzioni ed errori",
+          "card": "Etichette persistenti",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 400,
+          "title": "Moduli: istruzioni ed errori",
+          "card": "Errori in testo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 400,
+          "title": "Moduli: istruzioni ed errori",
+          "card": "Dati validi conservati",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 404,
+          "title": "Autenticazione e dati ripetuti",
+          "card": "Evitare la reinserzione",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 404,
+          "title": "Autenticazione e dati ripetuti",
+          "card": "Consentire assistenza",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 416,
+          "title": "WCAG 2.2: dati e autenticazione",
+          "card": "Dati ripetuti",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 416,
+          "title": "WCAG 2.2: dati e autenticazione",
+          "card": "Accesso assistito",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          105,
+          47,
+          1212,
+          1206
+        ],
+        "visibleBounds": [
+          183,
+          171,
+          1078,
+          1086
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-3e4b88c6-1a15-4896-92f8-6c8a6e266439.png",
+      "sha256": "c3ccf7f842f55b0d3af33dd6c0a4f899593b9332e0577bae53be356e679d6ca5",
+      "originalSha256": "f2c131fe8a420e6b2a0b1e5b7cea8b5c48b42ec0d31c0557ae5dd6a4af7294d3",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-preferenze",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "Three short horizontal slider tracks with large rounded knobs at different positions, one strawberry pink #FE7DBE knob. Focus on personalizing text, contrast and presentation without losing functionality.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Three short horizontal slider tracks with large rounded knobs at different positions, one strawberry pink #FE7DBE knob. Focus on personalizing text, contrast and presentation without losing functionality.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-preferenze.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-preferenze.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-preferenze.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-preferenze.webp",
+      "owners": [
+        {
+          "slide": 353,
+          "title": "Dal compito alla verifica",
+          "card": "Scelta di progetto",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 358,
+          "title": "Ingrandimento, reflow e spaziatura",
+          "card": "Reflow",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 358,
+          "title": "Ingrandimento, reflow e spaziatura",
+          "card": "Spaziatura",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 408,
+          "title": "Personalizzare senza escludere",
+          "card": "Una base utilizzabile",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 408,
+          "title": "Personalizzare senza escludere",
+          "card": "Scelte pertinenti",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          103,
+          96,
+          1166,
+          979
+        ],
+        "visibleBounds": [
+          238,
+          308,
+          1023,
+          969
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-ac3078c0-9225-43db-bc49-65461d32a9df.png",
+      "sha256": "7503931bf61aae8944f2b347c51f1679346d3e5ad02d8572b9f26903e6d2dc5f",
+      "originalSha256": "133addd5840a5a48f05d733fdbbd24ecc368bcf39ae17e24df6239321a3b06c0",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-verifica",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "One large magnifying glass over a short three-step route ending in a strawberry pink #FE7DBE check mark. Focus on evaluating a complete task, documenting a barrier and checking a correction.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One large magnifying glass over a short three-step route ending in a strawberry pink #FE7DBE check mark. Focus on evaluating a complete task, documenting a barrier and checking a correction.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-verifica.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-verifica.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-verifica.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-verifica.webp",
+      "owners": [
+        {
+          "slide": 331,
+          "title": "La persona media non basta",
+          "card": "Punti di esclusione",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 342,
+          "title": "A, AA e AAA",
+          "card": "Livello A",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 342,
+          "title": "A, AA e AAA",
+          "card": "Livello AA",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 342,
+          "title": "A, AA e AAA",
+          "card": "Livello AAA",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 353,
+          "title": "Dal compito alla verifica",
+          "card": "Barriera",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 353,
+          "title": "Dal compito alla verifica",
+          "card": "Verifica del compito",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 362,
+          "title": "Dalle abilità alle barriere",
+          "card": "Individuare l’ostacolo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 362,
+          "title": "Dalle abilità alle barriere",
+          "card": "Collegare la decisione",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 390,
+          "title": "Accessibilità cognitiva",
+          "card": "Osservare le difficoltà",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 417,
+          "title": "Conformità e qualità dell’esperienza",
+          "card": "Processi completi",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 417,
+          "title": "Conformità e qualità dell’esperienza",
+          "card": "Livello e ambito",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 420,
+          "title": "Valutare con strumenti e persone",
+          "card": "Verifiche manuali",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 422,
+          "title": "Dalla ricerca alla correzione",
+          "card": "Verificare di nuovo",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 432,
+          "title": "Verificare l’inclusione",
+          "card": "Osservare",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 432,
+          "title": "Verificare l’inclusione",
+          "card": "Verificare",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          22,
+          1226,
+          1214
+        ],
+        "visibleBounds": [
+          150,
+          136,
+          1107,
+          1125
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-bc24fc71-3405-4aec-a6b6-cddf27889c7e.png",
+      "sha256": "4d87e482dc375b74e08d8ed7fb206ae6ba3f39e2ec6d99a41a5a994bae1b80e0",
+      "originalSha256": "939873fd382c8dad2a1199475a2146a80116394d2eed174df3c95daeda767a07",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-linguaggio",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "One circle, one triangle and one rectangular picture tile with a simple mountain silhouette, arranged as a compact composition with one strawberry pink #FE7DBE accent. Focus on visual language, shape and imagery.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: One circle, one triangle and one rectangular picture tile with a simple mountain silhouette, arranged as a compact composition with one strawberry pink #FE7DBE accent. Focus on visual language, shape and imagery.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-linguaggio.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-linguaggio.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-linguaggio.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-linguaggio.webp",
+      "owners": [
+        {
+          "slide": 375,
+          "title": "L’alternativa dipende dalla funzione",
+          "card": "Immagine informativa",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 375,
+          "title": "L’alternativa dipende dalla funzione",
+          "card": "Immagine decorativa",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          49,
+          119,
+          1152,
+          1182
+        ],
+        "visibleBounds": [
+          187,
+          211,
+          1057,
+          1034
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-97ccc2f3-aa42-40f7-aef6-4fbd521c9658.png",
+      "sha256": "575113d3e28ef5fdefc5d8e5e463ed0ab5b90e07fe368373b88fa14ecc254239",
+      "originalSha256": "81f81a845dbd5b32b9976e198ad6e781e3eeb36e9a607eedca8441d12d680f91",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    },
+    {
+      "id": "percezione-gerarchia-priorita",
+      "family": "emerald",
+      "palette": {
+        "outline": "#002C22",
+        "primary": "#006045",
+        "pale": "#D0FAE5 and #A4F4CF",
+        "accent": "strawberry pink #FE7DBE"
+      },
+      "subject": "Three stacked horizontal bars, clearly decreasing in length from top to bottom, with one prominent strawberry pink #FE7DBE circle at the upper left. Focus on visual hierarchy and recognizing priorities.",
+      "prompt": "Use case: stylized-concept.\nAsset type: ONE standalone decorative card illustration for the CVeDI teaching deck.\nSubject: Three stacked horizontal bars, clearly decreasing in length from top to bottom, with one prominent strawberry pink #FE7DBE circle at the upper left. Focus on visual hierarchy and recognizing priorities.\nStyle: clean 2D educational illustration with bold rounded colored contours and broad FLAT solid opaque fills. Very simple familiar proportions and compact silhouette, readable at 96 pixels. Maximum one slim offset rear edge. Flat ink colors, like a printed flat vector-style illustration; no modeled lighting or shading.\nPalette: emerald primary #006045, dark outline #002C22, pale object faces #D0FAE5 and #A4F4CF, white functional paper/panel surfaces, one small strawberry pink #FE7DBE accent. Use these color roles even if the subject mentions earlier colors.\nComposition: one centered square motif filling 75% of the canvas, at least 10% clear margin on every side, essential clue central. All subject surfaces fully opaque. Genuinely transparent alpha exterior.\nAvoid: gradients, shading, highlights, gloss, texture, shadows, glow, ornament, enclosing badges, backdrops, frames, extra objects, letters, numerals, logos, watermarks. No sheet or variants. Exactly one isolated motif.\n",
+      "promptFile": "assets/theme-imagegen/card-palette-refresh/prompts/percezione-gerarchia-priorita.txt",
+      "original": "assets/theme-imagegen/card-palette-refresh/originals/percezione-gerarchia-priorita.png",
+      "web": "public/images/generated/theme-2026/cards/refresh/percezione-gerarchia-priorita.webp",
+      "previousManifest": "assets/theme-imagegen/lesson-05-icons/manifest.json",
+      "previousWeb": "public/images/generated/theme-2026/cards/lesson-05-local/percezione-gerarchia-priorita.webp",
+      "owners": [
+        {
+          "slide": 353,
+          "title": "Dal compito alla verifica",
+          "card": "Compito",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 375,
+          "title": "L’alternativa dipende dalla funzione",
+          "card": "Immagine funzionale",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 391,
+          "title": "Riconoscere, capire, ricordare",
+          "card": "Preparare il compito",
+          "lesson": "percezione-gerarchia"
+        },
+        {
+          "slide": 422,
+          "title": "Dalla ricerca alla correzione",
+          "card": "Definire i compiti",
+          "lesson": "percezione-gerarchia"
+        }
+      ],
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          69,
+          247,
+          1132,
+          1172
+        ],
+        "visibleBounds": [
+          136,
+          361,
+          1127,
+          918
+        ]
+      },
+      "generatedSource": "/Users/marco/.codex/generated_images/01a144a0-562b-7b23-a18e-e2550165e06c/exec-970d1ed1-1cb5-49c5-8228-0b277a70414f.png",
+      "sha256": "9f7020bf28a49f98eeb41fc67131e8575f3f50211cef7ce50e3d41e50739eb86",
+      "originalSha256": "9326229efef3d70ce27b9c48e45440a0257ee8b14e7032084c26ffeb85fd6bc9",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable motif, current set palette, transparent exterior, no text or enclosing frame; reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "slideReview": {
+        "status": "accepted",
+        "modes": [
+          "desktop",
+          "narrow",
+          "print"
+        ],
+        "report": "reports/slide-review/cards/verification.json"
+      }
+    }
+  ]
+}

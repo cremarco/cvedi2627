@@ -417,6 +417,55 @@ export async function checkSlideSources() {
   const historyIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-history-icons-v1.json'), 'utf8'))
   const researchIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-lesson-04-cards-v1.json'), 'utf8'))
   const perceptionIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/lesson-05-icons/manifest.json'), 'utf8'))
+  const paletteRefresh = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/card-palette-refresh/manifest.json'), 'utf8'))
+  const refreshedCardFamilies = [
+    { lesson: 'storia-design', mapping: 'history', family: 'lime', manifest: 'assets/theme-imagegen/manifest-history-icons-v1.json', jobs: historyIcons.jobs },
+    { lesson: 'ricerca-inclusiva', mapping: 'ricerca-inclusiva', family: 'green', manifest: 'assets/theme-imagegen/manifest-lesson-04-cards-v1.json', jobs: researchIcons.jobs },
+    { lesson: 'percezione-gerarchia', mapping: 'percezione-gerarchia', family: 'emerald', manifest: 'assets/theme-imagegen/lesson-05-icons/manifest.json', jobs: perceptionIcons.jobs },
+  ]
+  const legacyCardRegistry = new Map(refreshedCardFamilies.flatMap(family => family.jobs.map(generation => [generation.id, { ...family, generation }])))
+  assert.ok(Array.isArray(paletteRefresh.jobs), 'card palette refresh: job registry')
+  const refreshedCards = new Map(paletteRefresh.jobs.map(generation => [generation.id, generation]))
+  assert.equal(refreshedCards.size, paletteRefresh.jobs.length, 'card palette refresh: unique asset IDs')
+  for (const generation of paletteRefresh.jobs) {
+    const legacy = legacyCardRegistry.get(generation.id)
+    assert.ok(legacy, `${generation.id}: refresh belongs to a known card motif`)
+    assert.equal(generation.family, legacy.family, `${generation.id}: current owning lesson palette`)
+    assert.equal(generation.previousManifest, legacy.manifest, `${generation.id}: original manifest retained`)
+    assert.equal(generation.previousWeb, legacy.generation.web, `${generation.id}: original public image retained`)
+    assert.notEqual(generation.web, generation.previousWeb, `${generation.id}: refreshed image does not overwrite the original`)
+    assert.notEqual(generation.original, legacy.generation.original, `${generation.id}: refreshed PNG does not overwrite the original`)
+    assert.equal(generation.status, 'complete', `${generation.id}: card palette refresh complete`)
+    assert.ok(typeof generation.subject === 'string' && generation.subject.trim(), `${generation.id}: semantic subject recorded`)
+    assert.ok(typeof generation.prompt === 'string' && generation.prompt.trim(), `${generation.id}: exact prompt recorded`)
+    assert.ok(typeof generation.generatedSource === 'string' && generation.generatedSource.trim(), `${generation.id}: generation source recorded`)
+    for (const role of ['outline', 'primary', 'pale', 'accent'])
+      assert.ok(typeof generation.palette?.[role] === 'string' && generation.palette[role].trim(), `${generation.id}: palette ${role} recorded`)
+    assert.equal(generation.visualReview?.status, 'accepted', `${generation.id}: refreshed image visually reviewed`)
+    assert.equal(generation.publicationEncoding?.format, 'webp', `${generation.id}: WebP publication format`)
+    for (const property of ['lossless', 'pixelPreserved', 'alphaPreserved'])
+      assert.equal(generation.publicationEncoding?.[property], true, `${generation.id}: ${property} publication`)
+    assert.match(generation.original, /^assets\/theme-imagegen\/card-palette-refresh\/originals\/[^/]+\.png$/, `${generation.id}: preserved refresh PNG path`)
+    assert.match(generation.promptFile, /^assets\/theme-imagegen\/card-palette-refresh\/prompts\/[^/]+\.txt$/, `${generation.id}: preserved refresh prompt path`)
+    assert.match(generation.web, /^public\/images\/generated\/theme-2026\/cards\/refresh\/[^/]+\.webp$/, `${generation.id}: refreshed public image path`)
+    assert.equal((await readFile(path.join(root, generation.promptFile), 'utf8')).trim(), generation.prompt.trim(), `${generation.id}: exact refresh prompt retained`)
+    const original = await readFile(path.join(root, generation.original))
+    const publicImage = await readFile(path.join(root, generation.web))
+    assert.equal(createHash('sha256').update(original).digest('hex'), generation.originalSha256, `${generation.id}: original refresh PNG hash`)
+    assert.equal(createHash('sha256').update(publicImage).digest('hex'), generation.sha256, `${generation.id}: refreshed public image hash`)
+    assert.deepEqual([...original.subarray(0, 8)], [137, 80, 78, 71, 13, 10, 26, 10], `${generation.id}: original is a PNG`)
+    assert.equal(original.toString('ascii', 12, 16), 'IHDR', `${generation.id}: original PNG dimensions header`)
+    assert.deepEqual(generation.dimensions, [original.readUInt32BE(16), original.readUInt32BE(20)], `${generation.id}: dimensions match original PNG`)
+    assert.ok(generation.dimensions.every(dimension => Number.isInteger(dimension) && dimension > 0), `${generation.id}: positive image dimensions`)
+    assert.equal(publicImage.toString('ascii', 0, 4), 'RIFF', `${generation.id}: public image container`)
+    assert.equal(publicImage.toString('ascii', 8, 12), 'WEBP', `${generation.id}: public image is WebP`)
+    assert.ok(Array.isArray(generation.owners) && generation.owners.length > 0, `${generation.id}: active owning cards recorded`)
+    for (const owner of generation.owners) {
+      assert.equal(owner.lesson, legacy.lesson, `${generation.id}: owner belongs to its lesson`)
+      assert.equal(artwork.mappings[legacy.mapping]?.[normalizeTitle(owner.card)], generation.id, `${generation.id}: owner matches card catalog`)
+    }
+  }
+  const selectedCardGeneration = generation => refreshedCards.get(generation.id) ?? generation
   assert.equal(perceptionIcons.jobs.length, 13, 'all requested lesson 05 icons are retained')
   assert.equal(researchIcons.jobs.length, researchIcons.counts.images, 'complete lesson 04 icon family')
   assert.equal(Object.keys(artwork.mappings['ricerca-inclusiva']).length, researchIcons.counts.cardTitles, 'all lesson 04 card titles have artwork')
@@ -444,14 +493,14 @@ export async function checkSlideSources() {
   for (const generation of cardGenerations.jobs)
     assert.equal(artwork.assets[generation.id], '/' + (activeOutline.find(job => job.group === 'card' && job.key === generation.id) ?? generation).web.replace(/^public\//, ''), `card motif ${generation.id}: registered public path`)
   for (const generation of historyIcons.jobs) {
-    assert.equal(artwork.assets[generation.id], '/' + generation.web.replace(/^public\//, ''), `${generation.id}: history icon registered`)
+    assert.equal(artwork.assets[generation.id], '/' + selectedCardGeneration(generation).web.replace(/^public\//, ''), `${generation.id}: history icon registered`)
     assert.equal(generation.visualReview.status, 'accepted')
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved)
     assert.ok(generation.owners.length > 0)
   }
   for (const generation of [...researchIcons.jobs, ...perceptionIcons.jobs]) {
     assert.equal(generation.status, 'complete', generation.id + ': generated artwork selected')
-    assert.equal(artwork.assets[generation.id], '/' + generation.web.replace(/^public\//, ''), generation.id + ': card icon registered')
+    assert.equal(artwork.assets[generation.id], '/' + selectedCardGeneration(generation).web.replace(/^public\//, ''), generation.id + ': card icon registered')
     assert.equal(generation.visualReview.status, 'accepted', generation.id + ': visually reviewed')
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved, generation.id + ': RGBA pixels preserved')
     assert.ok(generation.owners.length > 0, generation.id + ': owning cards recorded')
@@ -472,6 +521,7 @@ export async function checkSlideSources() {
   let addedCards = 0
   let researchCardUses = 0
   let perceptionCardUses = 0
+  const activeRefreshedCardOwners = new Map()
   for (const slide of visibleDeck.slides) {
     for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
       const title = normalizeTitle(card[1])
@@ -482,6 +532,11 @@ export async function checkSlideSources() {
       directCards++
       if (uxLessonIds.has(slide.frontmatter.lesson) || slide.frontmatter.lesson === 'storia-design') addedCards++
       if (id) illustratedCards++
+      if (id && legacyCardRegistry.has(id)) {
+        const owners = activeRefreshedCardOwners.get(id) ?? []
+        owners.push({ slide: slide.index + 1, title: slide.title, card: card[1], lesson: slide.frontmatter.lesson })
+        activeRefreshedCardOwners.set(id, owners)
+      }
       if (slide.frontmatter.lesson === 'ricerca-inclusiva') {
         assert.ok(id, card[1] + ': lesson 04 card has a semantic motif')
         researchCardUses++
@@ -496,6 +551,10 @@ export async function checkSlideSources() {
   assert.equal(researchCardUses, researchIcons.counts.activeDirectCardUses, 'all retained lesson 04 card uses have their requested illustrations')
   assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses, 'selected direct cards have semantic motifs')
   assert.ok(illustratedCards - researchCardUses - perceptionCardUses > 0 && illustratedCards - researchCardUses - perceptionCardUses < (directCards - researchCardUses - perceptionCardUses) / 4, 'illustrations in the other lessons remain selective')
+  assert.deepEqual([...refreshedCards.keys()].sort(), [...activeRefreshedCardOwners.keys()].sort(), 'palette refresh covers exactly the active card motifs in its lessons')
+  const ownerKey = owner => JSON.stringify([owner.lesson, owner.slide, owner.title, normalizeTitle(owner.card)])
+  for (const [id, owners] of activeRefreshedCardOwners)
+    assert.deepEqual(refreshedCards.get(id).owners.map(ownerKey).sort(), owners.map(ownerKey).sort(), `${id}: refreshed owners match the active slides and cards`)
 
   // Check literal public image paths in slide content, components and data.
   const files = [...Object.values(deck.markdownFiles).map(file => file.filepath)]

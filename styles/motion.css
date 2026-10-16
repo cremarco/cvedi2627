@@ -140,16 +140,17 @@
   from { opacity: .7; transform: scale(.97); }
   to { opacity: 1; transform: scale(1); }
 }
-.slide-action svg { transition: transform 160ms var(--cvedi-ease-out); }
-.slide-action:is(:hover, :focus-visible) svg { transform: translateX(3px); }
+@media screen and (prefers-reduced-motion: no-preference) {
+  .slide-action svg { transition: transform 160ms var(--cvedi-ease-out); }
+  .slide-action:is(:hover, :focus-visible) svg { transform: translateX(3px); }
+}
 
 /* Keep meaningful feedback, without spatial motion, for system preferences. */
 @media (prefers-reduced-motion: reduce) {
   .slidev-page:is(.fade-enter-active, .fade-leave-active) { transition-duration: 80ms; }
   .lesson-image-dialog[open] .modal-box { animation: cvedi-reading-focus 100ms ease-out both; }
-  .slide-action svg { transition: none; transform: none; }
   .gallery-tile img { transition: none; }
 }
 @media print {
-  .lesson-image-dialog .modal-box, .gallery-tile img { animation: none; transition: none; }
+  .lesson-image-dialog[open] .modal-box, .gallery-tile img { animation: none; transition: none; }
 }

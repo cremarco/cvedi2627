@@ -396,7 +396,7 @@ lessonMinutes: 1.5
 
 # Che cos’è la User Experience?
 
-<div class="lesson-statement">L’esperienza di una persona<br>nel rapporto con un sistema.</div><p class="lead">Percezioni, reazioni e sensazioni legate all’uso di un prodotto, un servizio o un’interfaccia.</p>
+<div class="lesson-statement">L’esperienza di una persona<br>nel rapporto con un sistema.</div><p class="lead">Percezioni e risposte legate all’uso, o all’aspettativa d’uso, di un prodotto, un servizio o un sistema.</p>
 
 ---
 layout: default
@@ -476,7 +476,7 @@ lessonMinutes: 1.5
 
 # Usabilità: riuscire a fare
 
-<p class="lead">Quanto è facile completare un compito <strong>con successo, senza sforzi inutili e con soddisfazione</strong>?</p><div class="cvedi-grid three">
+<p class="lead">Valutiamo <strong>efficacia, efficienza e soddisfazione</strong> rispetto a persone, obiettivi e contesto d’uso definiti.</p><div class="cvedi-grid three">
   <CvediCard title="Orientarsi"><p>Trovare contenuti e capire dove ci si trova.</p></CvediCard>
   <CvediCard title="Agire"><p>Completare il compito senza ostacoli inutili.</p></CvediCard>
   <CvediCard title="Recuperare"><p>Riconoscere gli errori e correggerli.</p></CvediCard>

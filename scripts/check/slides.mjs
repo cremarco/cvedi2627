@@ -136,7 +136,8 @@ try {
     if (error.message !== 'Wake Lock permission request denied') errors.push(error.message)
   })
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
-  await page.getByRole('button', { name: /Introduzione a UX e UI/ }).click()
+  // Acronyms contribute their expanded names to the button's accessible name.
+  await page.getByRole('button', { name: /Introduzione a UX.* e UI/ }).click()
   await page.locator(`.slidev-page-${introductionStart} .slidev-layout`).waitFor()
   assert.equal(await page.locator(`.slidev-page-${introductionStart} h1`).textContent(), 'Introduzione a UX e UI', 'index opens theoretical chapter')
   await page.goto(`${baseURL.replace(/\/$/, '')}/#/3`, { waitUntil: 'networkidle' })
@@ -174,6 +175,7 @@ try {
       const scale = box.width / 1280
       const interactive = root.classList.contains('interactive-example-slide')
       const footer = root.querySelector('.slide-footer')?.getBoundingClientRect()
+      const contentBottom = footer ? footer.top - 12 * scale : box.bottom
       const galleryBar = root.querySelector('.project-gallery-linkbar')?.getBoundingClientRect()
       const violations = []
       const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
@@ -186,7 +188,7 @@ try {
         range.selectNodeContents(node)
         const inGalleryBar = galleryBar && node.parentElement.closest('h1, .project-gallery-linkbar')
         const topLimit = inGalleryBar ? galleryBar.top : box.top
-        const bottomLimit = inGalleryBar ? galleryBar.bottom : footer.top - 12 * scale
+        const bottomLimit = inGalleryBar ? galleryBar.bottom : contentBottom
         for (const rect of range.getClientRects()) {
           if (!rect.width || !rect.height) continue
           if (rect.left < box.left - 1 || rect.right > box.right + 1 || rect.top < topLimit - 1 || rect.bottom > bottomLimit + 1) {
@@ -198,24 +200,25 @@ try {
       const brokenImages = [...root.querySelectorAll('img')].filter(img => !img.complete || !img.naturalWidth).map(img => img.src)
       for (const image of root.querySelectorAll('.lesson-figure img')) {
         const rect = image.getBoundingClientRect()
-        if (rect.left < box.left - 1 || rect.right > box.right + 1 || rect.top < box.top - 1 || rect.bottom > footer.top - 12 * scale + 1) violations.push(`image: ${image.alt}`)
+        if (rect.left < box.left - 1 || rect.right > box.right + 1 || rect.top < box.top - 1 || rect.bottom > contentBottom + 1) violations.push(`image: ${image.alt}`)
       }
       const backgrounds = [...new Set([...root.querySelectorAll('.cvedi-card')].map(card => getComputedStyle(card).backgroundColor))]
       const title = root.querySelector('h1')
       let contentCenterError = null
       if (!interactive && root.classList.contains('centered-content-slide')) {
+        const notice = root.querySelector(':scope > .cvedi-notice')
+        const trailingResources = notice?.nextElementSibling?.classList.contains('lesson-tool-resources')
         const content = [...root.children].filter(element => {
           const style = getComputedStyle(element)
           return element !== title && !element.classList.contains('slide-footer')
-            && !element.classList.contains('cvedi-notice')
+            && (trailingResources || !element.classList.contains('cvedi-notice'))
             && !['absolute', 'fixed'].includes(style.position) && style.display !== 'none'
         }).map(element => element.getBoundingClientRect()).filter(rect => rect.width && rect.height)
         if (content.length) {
           const titleBox = title.getBoundingClientRect()
           const areaTop = titleBox.bottom + parseFloat(getComputedStyle(title).marginBottom) * scale
-          const notice = root.querySelector(':scope > .cvedi-notice')
           const bodyLast = [...root.children].filter(el => el !== title && el !== notice && !el.classList.contains('slide-footer') && !['absolute', 'fixed'].includes(getComputedStyle(el).position)).at(-1)
-          const areaBottom = notice
+          const areaBottom = notice && !trailingResources
             ? notice.getBoundingClientRect().top - parseFloat(getComputedStyle(bodyLast).marginBottom) * scale
             : box.bottom - parseFloat(getComputedStyle(root).paddingBottom) * scale
           const contentTop = Math.min(...content.map(rect => rect.top))
@@ -236,7 +239,7 @@ try {
       })
       const ribbon = root.querySelector('.lesson-ribbon')
       const progressFill = document.querySelector('.presentation-progress-fill')
-      const progressRail = document.querySelector('.presentation-progress-rail'), progressBox = progressRail.getBoundingClientRect()
+      const progressRail = document.querySelector('.presentation-progress-rail'), progressBox = progressRail?.getBoundingClientRect()
       const pageCounter = root.querySelector('.slide-index'), counterBox = pageCounter?.getBoundingClientRect()
       const sectionStyle = getComputedStyle(root)
       const darkProgress = root.classList.contains('chapter-slide') || root.classList.contains('archive-wall-slide')
@@ -271,16 +274,20 @@ try {
         footer: root.querySelector('.slide-index')?.textContent.trim(),
         footerLabel: root.querySelector('.slide-index')?.getAttribute('aria-label'),
         paginationType: pageCounter ? type(pageCounter) : null,
-        compactProgress: progressRail.dataset.compact === 'true',
-        counterProgressCenterError: counterBox ? Math.abs((counterBox.top + counterBox.bottom - progressBox.top - progressBox.bottom) / (2 * scale)) : null,
-        progressClearsCounter: counterBox ? progressBox.right <= counterBox.left - 8 * scale : null,
+        compactProgress: progressRail?.dataset.compact === 'true',
+        counterProgressCenterError: counterBox && progressBox ? Math.abs((counterBox.top + counterBox.bottom - progressBox.top - progressBox.bottom) / (2 * scale)) : null,
+        progressClearsCounter: counterBox && progressBox ? progressBox.right <= counterBox.left - 8 * scale : null,
         notices: [...root.querySelectorAll('.cvedi-notice')].map(notice => {
           const rect = notice.getBoundingClientRect()
           const icon = notice.querySelector('.cvedi-notice-icon')
           const art = icon.getBoundingClientRect()
           const copy = notice.querySelector('.cvedi-notice-copy').getBoundingClientRect()
+          const resources = notice.nextElementSibling?.matches('.lesson-tool-resources')
+            ? notice.nextElementSibling.querySelector('.lesson-tools')?.getBoundingClientRect() : null
           return { bottom: (box.bottom - rect.bottom) / scale,
             bodyGap: (rect.top - notice.previousElementSibling.getBoundingClientRect().bottom) / scale,
+            resourceGap: resources ? (resources.top - rect.bottom) / scale : null,
+            resourcesWithinBody: resources ? resources.bottom <= contentBottom + 1 : null,
             clear: copy.right <= art.left, clipped: art.top < rect.top && art.right > rect.right,
             overflow: getComputedStyle(notice).overflow, role: notice.getAttribute('role'),
             decorative: icon.getAttribute('aria-hidden'), kind: notice.dataset.kind }
@@ -346,9 +353,11 @@ try {
       assert.equal(report.summary.gap, 32)
       assert.equal(report.summary.primary, report.colors.primary, `slide ${number}: summary follows its set palette`)
     }
-    const generalCover = String(current.frontmatter.class).split(/\s+/).includes('cover-slide')
-    assert.equal(report.footer, generalCover ? undefined : `${lessonPage} / ${set.length}`, `slide ${number}: lesson footer`)
-    assert.equal(report.footerLabel, generalCover ? undefined : label, `slide ${number}: accessible lesson footer`)
+    const cover = String(current.frontmatter.class).split(/\s+/).some(name => name === 'cover-slide' || name === 'chapter-slide')
+    assert.equal(report.cover, cover, `slide ${number}: cover identity follows its frontmatter`)
+    assert.equal(await slide.locator('.slide-footer').count(), cover ? 0 : 1, `slide ${number}: covers omit the footer; ordinary slides retain it`)
+    assert.equal(report.footer, cover ? undefined : `${lessonPage} / ${set.length}`, `slide ${number}: lesson footer`)
+    assert.equal(report.footerLabel, cover ? undefined : label, `slide ${number}: accessible lesson footer`)
     assert.equal(report.compactProgress, report.interactive, `slide ${number}: only live comparisons shorten the progress rail`)
     if (report.paginationType) {
       assert.equal(report.paginationType.size, report.interactive ? 12 : 16, `slide ${number}: page-counter scale follows the intended layout`)
@@ -362,20 +371,28 @@ try {
     }
     for (const notice of report.notices) {
       assert.ok(notice.bodyGap >= 24 - 1, `slide ${number}: notice clears the preceding body`)
-      assert.ok(Math.abs(notice.bottom - 82) <= 1, `slide ${number}: teaching notice aligns above the footer`)
+      if (notice.resourceGap !== null) {
+        assert.ok(Math.abs(notice.bodyGap - 24) <= 1, `slide ${number}: notice with resources keeps the authored 24px gap`)
+        assert.ok(Math.abs(notice.resourceGap - 16) <= 1 && notice.resourcesWithinBody, `slide ${number}: resource row keeps its 16px gap below the notice and stays above the footer`)
+      } else {
+        assert.ok(Math.abs(notice.bottom - 82) <= 1, `slide ${number}: final teaching notice aligns above the footer`)
+      }
       assert.ok(notice.clear && notice.clipped && notice.overflow === 'hidden', `slide ${number}: notice icon is cropped without covering copy`)
       assert.equal(notice.role, 'note')
       assert.equal(notice.decorative, 'true')
       assert.ok(['question', 'request', 'explore', 'curiosity'].includes(notice.kind))
     }
     const progress = page.locator('.presentation-progress-rail progress')
-    assert.equal(await progress.getAttribute('max'), String(set.length), `slide ${number}: lesson progress total`)
-    assert.equal(await progress.getAttribute('value'), String(lessonPage), `slide ${number}: lesson progress position`)
-    assert.equal(await progress.getAttribute('aria-valuetext'), label, `slide ${number}: accessible lesson progress`)
+    assert.equal(await page.locator('.presentation-progress-rail').count(), cover ? 0 : 1, `slide ${number}: covers omit progress; ordinary slides retain it`)
+    if (!cover) {
+      assert.equal(await progress.getAttribute('max'), String(set.length), `slide ${number}: lesson progress total`)
+      assert.equal(await progress.getAttribute('value'), String(lessonPage), `slide ${number}: lesson progress position`)
+      assert.equal(await progress.getAttribute('aria-valuetext'), label, `slide ${number}: accessible lesson progress`)
+      assert.equal(report.colors.progress, report.colors.progressAccent, `slide ${number}: progress uses the owning set accent and surface variant`)
+    }
     assert.equal(report.codeBlocks, 0, `slide ${number}: unintended code block`)
     assert.equal(report.brokenImages.length, 0, `slide ${number}: missing images`)
     assert.ok(report.backgrounds.length <= 1, `slide ${number}: inconsistent card surfaces`)
-    assert.equal(report.colors.progress, report.colors.progressAccent, `slide ${number}: progress uses the owning set accent and surface variant`)
     if (report.colors.ribbon) assert.equal(report.colors.ribbon, report.colors.primary, `slide ${number}: ribbon uses the owning set primary`)
     if (report.colors.titleMarker && !report.cover) assert.equal(report.colors.titleMarker, report.colors.primary, `slide ${number}: title marker uses the owning set primary`)
     if (!report.cover && !report.interactive) {

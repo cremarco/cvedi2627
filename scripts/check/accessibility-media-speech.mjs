@@ -152,6 +152,19 @@ try {
   assert.equal(await good.getByRole('button', { name: 'Riproduci', exact: true }).count(), 1)
   checks.push('print stops playback and queued voice callbacks cannot resume it')
 
+  // Slidev's screenshot/PDF exporter can keep screen media. Its print query
+  // must protect the lab just like the browser's native print media query.
+  await page.clock.resume()
+  await page.goto(`${base.replace(/\/$/, '')}/?print=true#/accessibilita-demo-media`, { waitUntil: 'domcontentloaded' })
+  const exportedDemo = page.locator('.slidev-layout.is-active .a11y-demo')
+  await exportedDemo.waitFor({ state: 'visible' })
+  const exportedGood = exportedDemo.locator('[data-variant="good"]')
+  await play(exportedGood)
+  assert.deepEqual(await speechEvents(), [], 'screen-media export cannot start speech')
+  assert.equal(await exportedGood.locator('.a11y-captions').count(), 0)
+  assert.equal(await exportedGood.getByRole('button', { name: 'Riproduci', exact: true }).count(), 1)
+  checks.push('Slidev screen-media export also disables interactive media playback')
+
   assert.deepEqual(errors, [])
   const report = { status: 'passed', checks, errors, simulatedUtteranceMs: 4500 }
   await writeFile(`${out}/report.json`, JSON.stringify(report, null, 2))

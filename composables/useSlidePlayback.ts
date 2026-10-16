@@ -4,7 +4,7 @@ import { useIsSlideActive, useNav, useSlideContext } from '@slidev/client'
 // Slidev keeps many slides mounted. Share one set of browser listeners instead
 // of adding three listeners for every layout and animated component.
 const prefersReducedMotion = ref(false)
-const isPrinting = ref(false)
+const nativePrintMode = ref(false)
 const isVisible = ref(true)
 let consumers = 0
 let motionQuery: MediaQueryList | undefined
@@ -12,7 +12,7 @@ let printQuery: MediaQueryList | undefined
 
 function syncEnvironment() {
   prefersReducedMotion.value = motionQuery?.matches ?? false
-  isPrinting.value = printQuery?.matches ?? false
+  nativePrintMode.value = printQuery?.matches ?? false
   isVisible.value = !document.hidden
 }
 
@@ -41,10 +41,13 @@ export function useSlidePlayback() {
   const isActive = useIsSlideActive()
   const { isPrintMode } = useNav()
   const { $renderContext } = useSlideContext()
+  // Slidev exports with screen media too. Every consumer, including media
+  // playback and printed instructions, needs the same complete print state.
+  const isPrinting = computed(() => isPrintMode.value || nativePrintMode.value)
 
   const canAnimate = computed(() =>
     isMounted.value && isActive.value && ['slide', 'presenter'].includes($renderContext.value)
-      && !isPrintMode.value && !isPrinting.value && !prefersReducedMotion.value && isVisible.value,
+      && !isPrinting.value && !prefersReducedMotion.value && isVisible.value,
   )
 
   onMounted(() => {

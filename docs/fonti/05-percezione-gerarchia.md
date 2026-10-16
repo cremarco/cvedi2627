@@ -186,3 +186,7 @@ Rielaborazione · CC BY-SA 4.0.](https://intopia.digital/articles/intopias-wcag-
 - [COGA · §5.3 Informed Consent](https://www.w3.org/TR/coga-usable/#informed-consent)
 - [PlayStation / Naughty Dog · TLOU Part II](https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/)
 - [W3C, Making Content Usable (COGA).](https://www.w3.org/TR/coga-usable/)
+
+## Precisioni sui criteri
+
+Verifica sul testo W3C del 16 ottobre 2026: nella slide «Contrasto del testo», 18 pt e 14 pt in grassetto sono soglie minime per il testo grande ([1.4.3 AA](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)). «Controllare prima di confermare» include anche l’invio delle risposte a test nell’ambito di [3.3.4 AA](https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html). Il richiamo ai campi obbligatori senza solo colore è distinto ed è attribuito a 1.4.1 A. Conteggi, tempi, fonti Figma e attribuzioni restano invariati.
