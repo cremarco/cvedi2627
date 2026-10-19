@@ -37,7 +37,7 @@ iLMeteo è disponibile in `ilmeteo/redesign/index.html`, con la versione riproge
 
 ## Approfondimenti individuali
 
-Dopo il brief, il set autonomo `approfondimenti` contiene una copertina e una slide per ciascuna delle 20 tracce A01–A20 pubblicate su eLearning. Titoli e domande ufficiali sono conservati; ogni tema ha un’immagine originale ImageGen nella palette giallo/indaco assegnata da `DESIGN.md`. La fonte ufficiale resta in `assets/approfondimenti/`; prompt, raster e verifiche della famiglia a contorni arrotondati sono registrati in `assets/theme-imagegen/manifest-outline-v3.json`.
+Dopo il brief, il set autonomo `approfondimenti` contiene una copertina e una slide per ciascuna delle 20 tracce A01–A20 pubblicate su eLearning. Titoli e domande ufficiali sono conservati; ogni tema ha un’immagine originale ImageGen nella palette giallo/indaco del set Slidev. La fonte ufficiale resta in `assets/approfondimenti/`; prompt, raster e verifiche della famiglia a contorni arrotondati sono registrati in `assets/theme-imagegen/manifest-outline-v3.json`.
 
 ## Processo UX · lezioni 04–10
 
@@ -61,7 +61,7 @@ Il deck non contiene note del relatore e disabilita presenter. Conservare i mate
 
 ## Riferimento per le nuove slide
 
-`DESIGN.md` nella radice è il contratto grafico; deve essere letto prima di aggiungere o modificare slide. `AGENTS.md` indica la procedura di lavoro e le verifiche.
+`AGENTS.md` indica la procedura di lavoro e le verifiche per le slide, che riusano i componenti e i token esistenti. `DESIGN.md` nella radice è dedicato esclusivamente al booklet e non definisce la grafica delle slide. Le descrizioni degli snapshot del booklet in questo documento registrano le rispettive revisioni; per nuove composizioni e revisioni richieste prevale il contratto del booklet.
 
 ## Lezione 05 · Accessibilità e design inclusivo
 
