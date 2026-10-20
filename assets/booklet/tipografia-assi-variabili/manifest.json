@@ -1,0 +1,883 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "purpose": "Clarify the five registered variation axes with paired authentic samples on the existing typography slide.",
+  "construction": "Original diagram; all lettering is retained-font outlines. FontTools pins all axes to exact static instances, then CoreText shapes each exact source face. Only baseline translations and a y-axis reflection are used; no synthetic slant, stretching or weight. Transparent background and no frames.",
+  "palette": {
+    "ink": "#2c333f",
+    "blue": "#17608b"
+  },
+  "rules": [
+    "Both samples in every pair use the same nominal displayed body.",
+    "Only the illustrated variation axis differs within each pair.",
+    "The ital pair uses the true fvar ital axis of the combined Nunito font, not separate Roman/Italic files.",
+    "The opsz pair changes the intended optical size while preserving the displayed body.",
+    "The italic example does not claim a mandatory structural change to a or g."
+  ],
+  "fonts": [
+    {
+      "id": "roboto-serif",
+      "family": "Roboto Serif",
+      "path": "assets/font-previews/downloads/robotoserif/RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+      "originalFilename": "RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+      "postscriptName": "RobotoSerif-20ptRegular",
+      "version": "Version 1.008",
+      "sha256": "351ced75f3851806aa6d846b669361521eb1925cfc530396df9c1a1b77061ddb",
+      "bytes": 3944924,
+      "axes": {
+        "wdth": {
+          "minimum": 50.0,
+          "default": 100.0,
+          "maximum": 150.0
+        },
+        "opsz": {
+          "minimum": 8.0,
+          "default": 20.0,
+          "maximum": 144.0
+        },
+        "wght": {
+          "minimum": 100.0,
+          "default": 400.0,
+          "maximum": 900.0
+        },
+        "GRAD": {
+          "minimum": -50.0,
+          "default": 0.0,
+          "maximum": 100.0
+        }
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoserif/RobotoSerif%5BGRAD%2Copsz%2Cwdth%2Cwght%5D.ttf",
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/font-previews/downloads/robotoserif/OFL.txt",
+      "licenseSha256": "34dbfbb43e0b4fdeef445d77b9ac0b988e5ad7a9bbf16808c97b66c66d51f553",
+      "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoserif/OFL.txt",
+      "copyright": "Copyright 2020 The Roboto Serif Project Authors (https://github.com/googlefonts/RobotoSerif)"
+    },
+    {
+      "id": "roboto-flex",
+      "family": "Roboto Flex",
+      "path": "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+      "originalFilename": "RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+      "postscriptName": "RobotoFlex-Regular",
+      "version": "Version 3.200;gftools[0.9.32]",
+      "sha256": "9b523f7d82593df0107173849ebb8c817471a1df4b4fb2c3cbf40cfd810c8281",
+      "bytes": 1787292,
+      "axes": {
+        "opsz": {
+          "minimum": 8.0,
+          "default": 14.0,
+          "maximum": 144.0
+        },
+        "wght": {
+          "minimum": 100.0,
+          "default": 400.0,
+          "maximum": 1000.0
+        },
+        "GRAD": {
+          "minimum": -200.0,
+          "default": 0.0,
+          "maximum": 150.0
+        },
+        "wdth": {
+          "minimum": 25.0,
+          "default": 100.0,
+          "maximum": 151.0
+        },
+        "slnt": {
+          "minimum": -10.0,
+          "default": 0.0,
+          "maximum": 0.0
+        },
+        "XOPQ": {
+          "minimum": 27.0,
+          "default": 96.0,
+          "maximum": 175.0
+        },
+        "YOPQ": {
+          "minimum": 25.0,
+          "default": 79.0,
+          "maximum": 135.0
+        },
+        "XTRA": {
+          "minimum": 323.0,
+          "default": 468.0,
+          "maximum": 603.0
+        },
+        "YTUC": {
+          "minimum": 528.0,
+          "default": 712.0,
+          "maximum": 760.0
+        },
+        "YTLC": {
+          "minimum": 416.0,
+          "default": 514.0,
+          "maximum": 570.0
+        },
+        "YTAS": {
+          "minimum": 649.0,
+          "default": 750.0,
+          "maximum": 854.0
+        },
+        "YTDE": {
+          "minimum": -305.0,
+          "default": -203.0,
+          "maximum": -98.0
+        },
+        "YTFI": {
+          "minimum": 560.0,
+          "default": 738.0,
+          "maximum": 788.0
+        }
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoflex/RobotoFlex%5BGRAD%2CXOPQ%2CXTRA%2CYOPQ%2CYTAS%2CYTDE%2CYTFI%2CYTLC%2CYTUC%2Copsz%2Cslnt%2Cwdth%2Cwght%5D.ttf",
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex-OFL.txt",
+      "licenseSha256": "9cbaed04b20c853f99840efe5dc96956f6f6120ed83a0ade35f9281a2b63e5d0",
+      "licenseUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoflex/OFL.txt",
+      "copyright": "Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)"
+    },
+    {
+      "id": "nunito",
+      "family": "Nunito",
+      "path": "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+      "originalFilename": "Nunito[ital,wght].ttf",
+      "postscriptName": "Nunito-ExtraLight",
+      "version": "Version 3.602",
+      "sha256": "a37935a46508b065a4217678b2b4d1c73f47ab6050e8ba355dea778c3a49b0d0",
+      "bytes": 441120,
+      "axes": {
+        "wght": {
+          "minimum": 200.0,
+          "default": 200.0,
+          "maximum": 1000.0
+        },
+        "ital": {
+          "minimum": 0.0,
+          "default": 0.0,
+          "maximum": 1.0
+        }
+      },
+      "sourceUrl": "https://raw.githubusercontent.com/googlefonts/nunito/main/fonts/variable/Nunito%5Bital,wght%5D.ttf",
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+      "licenseSha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "licenseUrl": "https://raw.githubusercontent.com/googlefonts/nunito/main/OFL.txt",
+      "copyright": "Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OpenType Design-Variation Axis Tag Registry",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg"
+    },
+    {
+      "title": "OpenType ital axis",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital"
+    },
+    {
+      "title": "OpenType slnt axis",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_slnt"
+    },
+    {
+      "title": "OpenType opsz axis",
+      "url": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz"
+    }
+  ],
+  "samples": [
+    {
+      "slug": "wght-0",
+      "axis": "wght",
+      "meaningItalian": "Peso",
+      "fontId": "roboto-serif",
+      "sample": "Tipo",
+      "bodyPx": 52,
+      "value": 300,
+      "label": "300 · leggero",
+      "coordinates": {
+        "wdth": 100.0,
+        "opsz": 20.0,
+        "wght": 300,
+        "GRAD": 0.0
+      },
+      "x": 208,
+      "baseline": 59,
+      "pinnedCoordinates": {
+        "wdth": 100.0,
+        "opsz": 20.0,
+        "wght": 300,
+        "GRAD": 0.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        2.08,
+        -11.596,
+        109.82400000000001,
+        50.024
+      ],
+      "advanceWidth": 114.244,
+      "glyphCount": 4
+    },
+    {
+      "slug": "wght-1",
+      "axis": "wght",
+      "meaningItalian": "Peso",
+      "fontId": "roboto-serif",
+      "sample": "Tipo",
+      "bodyPx": 52,
+      "value": 800,
+      "label": "800 · pesante",
+      "coordinates": {
+        "wdth": 100.0,
+        "opsz": 20.0,
+        "wght": 800,
+        "GRAD": 0.0
+      },
+      "x": 430,
+      "baseline": 59,
+      "pinnedCoordinates": {
+        "wdth": 100.0,
+        "opsz": 20.0,
+        "wght": 800,
+        "GRAD": 0.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        1.3519999999999999,
+        -11.596,
+        122.82399999999998,
+        50.492000000000004
+      ],
+      "advanceWidth": 125.58,
+      "glyphCount": 4
+    },
+    {
+      "slug": "wdth-0",
+      "axis": "wdth",
+      "meaningItalian": "Larghezza",
+      "fontId": "roboto-serif",
+      "sample": "Tipo",
+      "bodyPx": 52,
+      "value": 50,
+      "label": "50 · stretto",
+      "coordinates": {
+        "wdth": 50,
+        "opsz": 20.0,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "x": 208,
+      "baseline": 163,
+      "pinnedCoordinates": {
+        "wdth": 50,
+        "opsz": 20.0,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        1.144,
+        -11.596,
+        91.20799999999998,
+        49.971999999999994
+      ],
+      "advanceWidth": 94.22399999999999,
+      "glyphCount": 4
+    },
+    {
+      "slug": "wdth-1",
+      "axis": "wdth",
+      "meaningItalian": "Larghezza",
+      "fontId": "roboto-serif",
+      "sample": "Tipo",
+      "bodyPx": 52,
+      "value": 150,
+      "label": "150 · largo",
+      "coordinates": {
+        "wdth": 150,
+        "opsz": 20.0,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "x": 430,
+      "baseline": 163,
+      "pinnedCoordinates": {
+        "wdth": 150,
+        "opsz": 20.0,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        2.08,
+        -11.596,
+        128.284,
+        50.07599999999999
+      ],
+      "advanceWidth": 132.808,
+      "glyphCount": 4
+    },
+    {
+      "slug": "slnt-0",
+      "axis": "slnt",
+      "meaningItalian": "Inclinazione",
+      "fontId": "roboto-flex",
+      "sample": "Tipo",
+      "bodyPx": 56,
+      "value": 0,
+      "label": "0° · diritto",
+      "coordinates": {
+        "opsz": 14.0,
+        "wght": 400.0,
+        "GRAD": 0.0,
+        "wdth": 100.0,
+        "slnt": 0,
+        "XOPQ": 96.0,
+        "YOPQ": 79.0,
+        "XTRA": 468.0,
+        "YTUC": 712.0,
+        "YTLC": 514.0,
+        "YTAS": 750.0,
+        "YTDE": -203.0,
+        "YTFI": 738.0
+      },
+      "x": 208,
+      "baseline": 267,
+      "pinnedCoordinates": {
+        "opsz": 14.0,
+        "wght": 400.0,
+        "GRAD": 0.0,
+        "wdth": 100.0,
+        "slnt": 0,
+        "XOPQ": 96.0,
+        "YOPQ": 79.0,
+        "XTRA": 468.0,
+        "YTUC": 712.0,
+        "YTLC": 514.0,
+        "YTAS": 750.0,
+        "YTDE": -203.0,
+        "YTFI": 738.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        0.65625,
+        -11.375,
+        106.61328125,
+        51.87109375
+      ],
+      "advanceWidth": 109.59375,
+      "glyphCount": 4
+    },
+    {
+      "slug": "slnt-1",
+      "axis": "slnt",
+      "meaningItalian": "Inclinazione",
+      "fontId": "roboto-flex",
+      "sample": "Tipo",
+      "bodyPx": 56,
+      "value": -10,
+      "label": "−10° · inclinato",
+      "coordinates": {
+        "opsz": 14.0,
+        "wght": 400.0,
+        "GRAD": 0.0,
+        "wdth": 100.0,
+        "slnt": -10,
+        "XOPQ": 96.0,
+        "YOPQ": 79.0,
+        "XTRA": 468.0,
+        "YTUC": 712.0,
+        "YTLC": 514.0,
+        "YTAS": 750.0,
+        "YTDE": -203.0,
+        "YTFI": 738.0
+      },
+      "x": 430,
+      "baseline": 267,
+      "pinnedCoordinates": {
+        "opsz": 14.0,
+        "wght": 400.0,
+        "GRAD": 0.0,
+        "wdth": 100.0,
+        "slnt": -10,
+        "XOPQ": 96.0,
+        "YOPQ": 79.0,
+        "XTRA": 468.0,
+        "YTUC": 712.0,
+        "YTLC": 514.0,
+        "YTAS": 750.0,
+        "YTDE": -203.0,
+        "YTFI": 738.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        3.41796875,
+        -11.375,
+        103.29705668604652,
+        51.87109375
+      ],
+      "advanceWidth": 109.59375,
+      "glyphCount": 4
+    },
+    {
+      "slug": "ital-0",
+      "axis": "ital",
+      "meaningItalian": "Corsivo",
+      "fontId": "nunito",
+      "sample": "ag",
+      "bodyPx": 72,
+      "value": 0,
+      "label": "0 · tondo",
+      "coordinates": {
+        "wght": 400,
+        "ital": 0
+      },
+      "x": 208,
+      "baseline": 371,
+      "pinnedCoordinates": {
+        "wght": 400,
+        "ital": 0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        3.888,
+        -13.607999999999999,
+        70.99199999999999,
+        49.248
+      ],
+      "advanceWidth": 80.352,
+      "glyphCount": 2
+    },
+    {
+      "slug": "ital-1",
+      "axis": "ital",
+      "meaningItalian": "Corsivo",
+      "fontId": "nunito",
+      "sample": "ag",
+      "bodyPx": 72,
+      "value": 1,
+      "label": "1 · corsivo",
+      "coordinates": {
+        "wght": 400,
+        "ital": 1
+      },
+      "x": 430,
+      "baseline": 371,
+      "pinnedCoordinates": {
+        "wght": 400,
+        "ital": 1
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        2.88,
+        -13.607999999999999,
+        74.36034782608695,
+        49.248
+      ],
+      "advanceWidth": 80.352,
+      "glyphCount": 2
+    },
+    {
+      "slug": "opsz-0",
+      "axis": "opsz",
+      "meaningItalian": "Dimensione ottica",
+      "fontId": "roboto-serif",
+      "sample": "Ag",
+      "bodyPx": 68,
+      "value": 8,
+      "label": "per 8 pt",
+      "coordinates": {
+        "wdth": 100.0,
+        "opsz": 8,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "x": 208,
+      "baseline": 475,
+      "pinnedCoordinates": {
+        "wdth": 100.0,
+        "opsz": 8,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        1.36,
+        -17.136000000000003,
+        94.79200000000002,
+        66.232
+      ],
+      "advanceWidth": 97.648,
+      "glyphCount": 2
+    },
+    {
+      "slug": "opsz-1",
+      "axis": "opsz",
+      "meaningItalian": "Dimensione ottica",
+      "fontId": "roboto-serif",
+      "sample": "Ag",
+      "bodyPx": 68,
+      "value": 144,
+      "label": "per 144 pt",
+      "coordinates": {
+        "wdth": 100.0,
+        "opsz": 144,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "x": 430,
+      "baseline": 475,
+      "pinnedCoordinates": {
+        "wdth": 100.0,
+        "opsz": 144,
+        "wght": 400.0,
+        "GRAD": 0.0
+      },
+      "coreTextVariationParameters": {},
+      "inkBounds": [
+        0.34,
+        -17.136000000000003,
+        84.93199999999999,
+        65.416
+      ],
+      "advanceWidth": 85.952,
+      "glyphCount": 2
+    }
+  ],
+  "labels": [
+    {
+      "slug": "wght-tag",
+      "x": 8,
+      "baseline": 35,
+      "color": "#17608b",
+      "text": "wght",
+      "bodyPx": 22,
+      "inkBounds": [
+        0.5705333333333332,
+        -4.202,
+        53.72546666666667,
+        19.909999999999997
+      ]
+    },
+    {
+      "slug": "wght-meaning",
+      "x": 8,
+      "baseline": 63,
+      "color": "#2c333f",
+      "text": "Peso",
+      "bodyPx": 20,
+      "inkBounds": [
+        1.6400000000000001,
+        -0.18,
+        41.6,
+        14.28
+      ]
+    },
+    {
+      "slug": "wght-0-label",
+      "x": 208,
+      "baseline": 91,
+      "color": "#17608b",
+      "text": "300 · leggero",
+      "bodyPx": 18,
+      "inkBounds": [
+        0.8809411764705882,
+        -3.4019999999999997,
+        107.4250588235294,
+        16.253999999999998
+      ]
+    },
+    {
+      "slug": "wght-1-label",
+      "x": 430,
+      "baseline": 91,
+      "color": "#17608b",
+      "text": "800 · pesante",
+      "bodyPx": 18,
+      "inkBounds": [
+        0.7919999999999999,
+        -3.3659999999999997,
+        109.872,
+        16.217999999999996
+      ]
+    },
+    {
+      "slug": "wdth-tag",
+      "x": 8,
+      "baseline": 139,
+      "color": "#17608b",
+      "text": "wdth",
+      "bodyPx": 22,
+      "inkBounds": [
+        0.5705333333333332,
+        -0.242,
+        52.62546666666667,
+        15.95
+      ]
+    },
+    {
+      "slug": "wdth-meaning",
+      "x": 8,
+      "baseline": 167,
+      "color": "#2c333f",
+      "text": "Larghezza",
+      "bodyPx": 20,
+      "inkBounds": [
+        1.6400000000000001,
+        -3.7800000000000002,
+        89.52,
+        18.02
+      ]
+    },
+    {
+      "slug": "wdth-0-label",
+      "x": 208,
+      "baseline": 195,
+      "color": "#17608b",
+      "text": "50 · stretto",
+      "bodyPx": 18,
+      "inkBounds": [
+        1.3477499999999998,
+        -0.16199999999999998,
+        87.55425,
+        13.014
+      ]
+    },
+    {
+      "slug": "wdth-1-label",
+      "x": 430,
+      "baseline": 195,
+      "color": "#17608b",
+      "text": "150 · largo",
+      "bodyPx": 18,
+      "inkBounds": [
+        1.9799999999999998,
+        -3.4019999999999997,
+        86.05799999999999,
+        16.253999999999998
+      ]
+    },
+    {
+      "slug": "slnt-tag",
+      "x": 8,
+      "baseline": 243,
+      "color": "#17608b",
+      "text": "slnt",
+      "bodyPx": 22,
+      "inkBounds": [
+        0.7676842105263156,
+        -0.242,
+        39.47031578947368,
+        15.95
+      ]
+    },
+    {
+      "slug": "slnt-meaning",
+      "x": 8,
+      "baseline": 271,
+      "color": "#2c333f",
+      "text": "Inclinazione",
+      "bodyPx": 20,
+      "inkBounds": [
+        1.6400000000000001,
+        -0.18,
+        104.81999999999998,
+        14.42
+      ]
+    },
+    {
+      "slug": "slnt-0-label",
+      "x": 208,
+      "baseline": 299,
+      "color": "#17608b",
+      "text": "0° · diritto",
+      "bodyPx": 18,
+      "inkBounds": [
+        0.8639999999999999,
+        -0.16199999999999998,
+        78.66,
+        13.014
+      ]
+    },
+    {
+      "slug": "slnt-1-label",
+      "x": 430,
+      "baseline": 299,
+      "color": "#17608b",
+      "text": "−10° · inclinato",
+      "bodyPx": 18,
+      "inkBounds": [
+        0.8639999999999999,
+        -0.16199999999999998,
+        121.014,
+        13.014
+      ]
+    },
+    {
+      "slug": "ital-tag",
+      "x": 8,
+      "baseline": 347,
+      "color": "#17608b",
+      "text": "ital",
+      "bodyPx": 22,
+      "inkBounds": [
+        1.034,
+        -0.242,
+        33.308,
+        16.346
+      ]
+    },
+    {
+      "slug": "ital-meaning",
+      "x": 8,
+      "baseline": 375,
+      "color": "#2c333f",
+      "text": "Corsivo",
+      "bodyPx": 20,
+      "inkBounds": [
+        1.16,
+        -0.18,
+        65.53999999999999,
+        14.46
+      ]
+    },
+    {
+      "slug": "ital-0-label",
+      "x": 208,
+      "baseline": 403,
+      "color": "#17608b",
+      "text": "0 · tondo",
+      "bodyPx": 18,
+      "inkBounds": [
+        0.8639999999999999,
+        -0.16199999999999998,
+        70.77599999999998,
+        13.014
+      ]
+    },
+    {
+      "slug": "ital-1-label",
+      "x": 430,
+      "baseline": 403,
+      "color": "#17608b",
+      "text": "1 · corsivo",
+      "bodyPx": 18,
+      "inkBounds": [
+        1.9799999999999998,
+        -0.16199999999999998,
+        79.30799999999999,
+        12.978
+      ]
+    },
+    {
+      "slug": "opsz-tag",
+      "x": 8,
+      "baseline": 451,
+      "color": "#17608b",
+      "text": "opsz",
+      "bodyPx": 22,
+      "inkBounds": [
+        0.748,
+        -4.1579999999999995,
+        46.574,
+        15.18
+      ]
+    },
+    {
+      "slug": "opsz-meaning-1",
+      "x": 8,
+      "baseline": 478,
+      "color": "#2c333f",
+      "text": "Dimensione",
+      "bodyPx": 20,
+      "inkBounds": [
+        1.6400000000000001,
+        -0.18,
+        105.14,
+        14.4
+      ]
+    },
+    {
+      "slug": "opsz-meaning-2",
+      "x": 8,
+      "baseline": 502,
+      "color": "#2c333f",
+      "text": "ottica · stesso corpo",
+      "bodyPx": 16,
+      "inkBounds": [
+        0.672,
+        -2.992,
+        142.83200000000002,
+        14.367999999999999
+      ]
+    },
+    {
+      "slug": "opsz-0-label",
+      "x": 208,
+      "baseline": 507,
+      "color": "#17608b",
+      "text": "per 8 pt",
+      "bodyPx": 18,
+      "inkBounds": [
+        1.2779999999999998,
+        -3.3659999999999997,
+        63.306000000000004,
+        16.217999999999996
+      ]
+    },
+    {
+      "slug": "opsz-1-label",
+      "x": 430,
+      "baseline": 507,
+      "color": "#17608b",
+      "text": "per 144 pt",
+      "bodyPx": 18,
+      "inkBounds": [
+        1.2779999999999998,
+        -3.3659999999999997,
+        84.90599999999998,
+        16.182
+      ]
+    }
+  ],
+  "shaping": {
+    "engine": "FontTools OpenType instancer; Apple CoreText CTLine / CTRun",
+    "coordinateVerification": "Every requested coordinate is range-checked and pinned by fontTools.varLib.instancer. The resulting static font must have no fvar table. CoreText receives that exact static instance and no variation parameters.",
+    "guards": [
+      "All axes pinned to the documented coordinates before shaping",
+      "Exact instantiated font-file URL",
+      "Exact unique PostScript face",
+      "No fallback runs",
+      "All glyphs available",
+      "All ink fits inside SVG viewBox"
+    ],
+    "outlineReportCount": 31
+  },
+  "generator": {
+    "path": "assets/booklet/tipografia-assi-variabili/generate.py",
+    "sha256": "9901aadad07139aa287a54562d7c375635809be3a8cb67f5433c366ea6517088",
+    "helper": "assets/booklet/tipografia-assi-variabili/outline-text.swift",
+    "helperSha256": "9a55c74e8634b27c3b3b112ae222a51ed6577f8b2f1bc4e23336f46be1465a54",
+    "fontToolsVersion": "4.67.0"
+  },
+  "output": {
+    "path": "assets/booklet/tipografia-assi-variabili/cinque-assi-variabili.svg",
+    "publishedPath": "public/images/tipografia/assi-variabili-884b56a41aba.svg",
+    "sha256": "884b56a41abac08e4efeee81f5d0ba6fff22d29d0881a49ca596decf3a4165e5",
+    "naturalWidth": 640,
+    "naturalHeight": 520,
+    "bytes": 190570
+  },
+  "retainedSources": [
+    "assets/font-previews/downloads/robotoserif/RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+    "assets/font-previews/downloads/robotoserif/OFL.txt",
+    "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+    "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex-OFL.txt",
+    "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+    "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+    "assets/booklet/tipografia-assi-variabili/generate.py",
+    "assets/booklet/tipografia-assi-variabili/outline-text.swift",
+    "assets/booklet/tipografia-assi-variabili/manifest.json",
+    "assets/booklet/tipografia-assi-variabili/cinque-assi-variabili.svg",
+    "assets/font-previews/downloads/robotoserif/provenance.json"
+  ]
+}

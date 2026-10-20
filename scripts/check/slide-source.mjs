@@ -117,8 +117,8 @@ export async function checkSlideSources() {
   const typographySpecification = curriculum.lessons.find(lesson => lesson.id === 'tipografia-griglie')
   const typographyRevision = typographySpecification.typographyRevision
   assert.ok(typographyRevision && !typographySpecification.currentSource, 'the typography lesson distinguishes its current revision from retained historical source references')
-  assert.equal(typographySpecification.slideCount, 114, 'the typography lesson excludes the removed exploratory proof slide')
-  assert.equal(typographySpecification.lessonMinutes, 69.5, 'the typography teaching budget excludes the removed half-minute slide')
+  assert.equal(typographySpecification.slideCount, 116, 'the typography lesson includes expanded classification examples and excludes removed content')
+  assert.equal(typographySpecification.lessonMinutes, 71.5, 'the typography teaching budget includes two additional classification examples')
   const typographyArchive = JSON.parse(await readFile(path.join(root, typographyRevision.previousMapping), 'utf8'))
   assert.equal(typographyArchive.file, typographyRevision.archive, 'the previous typography mapping identifies its archived contents')
   assert.equal(typographyArchive.source.snapshot, curriculum.source.snapshot, 'the typography archive retains its historical snapshot')

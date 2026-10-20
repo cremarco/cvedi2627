@@ -398,6 +398,111 @@
       "outputBytes": 13007
     },
     {
+      "slug": "roboto-flex",
+      "name": "Roboto Flex",
+      "mode": "word",
+      "sampleText": "Tipografia",
+      "note": "Official retained OFL variable font, distinct from Roboto. Preview weight400; CoreText applies optical size48 at the displayed48px body (requested default14), honestly recorded in effectiveVariations and the caption. The five-axis comparison instead uses fully pinned static instances.",
+      "sourceOriginalPreserved": true,
+      "output": "/images/font-previews/roboto-flex.svg",
+      "sourceOriginal": "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+      "sourceSha256": "9b523f7d82593df0107173849ebb8c817471a1df4b4fb2c3cbf40cfd810c8281",
+      "fontFamily": "Roboto Flex",
+      "fontStyle": "Regular",
+      "postscriptName": "RobotoFlex-Regular",
+      "version": "Version 3.200;gftools[0.9.32]",
+      "copyright": "Copyright 2017 The Roboto Flex Project Authors (https://github.com/TypeNetwork/Roboto-Flex)",
+      "unitsPerEm": 2048,
+      "variationDefaults": {
+        "opsz": 14.0,
+        "wght": 400.0,
+        "GRAD": 0.0,
+        "wdth": 100.0,
+        "slnt": 0.0,
+        "XOPQ": 96.0,
+        "YOPQ": 79.0,
+        "XTRA": 468.0,
+        "YTUC": 712.0,
+        "YTLC": 514.0,
+        "YTAS": 750.0,
+        "YTDE": -203.0,
+        "YTFI": 738.0
+      },
+      "fontBinaryCopied": false,
+      "license": "SIL Open Font License 1.1",
+      "licenseNotices": [
+        {
+          "path": "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex-OFL.txt",
+          "sha256": "9cbaed04b20c853f99840efe5dc96956f6f6120ed83a0ade35f9281a2b63e5d0"
+        }
+      ],
+      "bodyPx": 48,
+      "effectiveVariations": {
+        "opsz": 48
+      },
+      "glyphCount": 9,
+      "inkBounds": [
+        0.3922119140625,
+        -10.147705078125,
+        184.43426513671875,
+        45.514892578125
+      ],
+      "sample": "Tipografia",
+      "shaping": "Apple CoreText CTLine / CTRun, default kerning and OpenType shaping; exact-face fallback guard",
+      "viewBox": "-2.60779 -38.36719 190.43427 51.51489",
+      "outputSha256": "bdbb27706041a540ded3639a938e2ccd54ec7b12ffaa6aa1834b6e3fa8b6d0d2",
+      "outputBytes": 6934
+    },
+    {
+      "slug": "nunito",
+      "name": "Nunito",
+      "mode": "word",
+      "sampleText": "Tipografia",
+      "note": "Official retained OFL combined variable font with actual fvar ital axis. Its default PostScript name Nunito-ExtraLight identifies the source face, not the preview weight: the preview is pinned to weight400 and ital0.",
+      "sourceOriginalPreserved": true,
+      "output": "/images/font-previews/nunito.svg",
+      "sourceOriginal": "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+      "sourceSha256": "a37935a46508b065a4217678b2b4d1c73f47ab6050e8ba355dea778c3a49b0d0",
+      "fontFamily": "Nunito ExtraLight",
+      "fontStyle": "Regular",
+      "postscriptName": "Nunito-Regular",
+      "version": "Version 3.602",
+      "copyright": "Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito)",
+      "unitsPerEm": 1000,
+      "variationDefaults": {
+        "wght": 200.0,
+        "ital": 0.0
+      },
+      "fontBinaryCopied": false,
+      "license": "SIL Open Font License 1.1",
+      "licenseNotices": [
+        {
+          "path": "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+          "sha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65"
+        },
+        {
+          "path": "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex-OFL.txt",
+          "sha256": "9cbaed04b20c853f99840efe5dc96956f6f6120ed83a0ade35f9281a2b63e5d0"
+        }
+      ],
+      "bodyPx": 48,
+      "effectiveVariations": {
+        "wght": 400
+      },
+      "glyphCount": 9,
+      "inkBounds": [
+        -0.14400000000000002,
+        -9.069,
+        215.29388671875003,
+        43.016629139072855
+      ],
+      "sample": "Tipografia",
+      "shaping": "Apple CoreText CTLine / CTRun, default kerning and OpenType shaping; exact-face fallback guard",
+      "viewBox": "-3.14400 -36.94763 221.29389 49.01663",
+      "outputSha256": "1f1bc70655d65e51a025f8ca297c6127855a546e110d3fdedaeeb7119f9b5555",
+      "outputBytes": 10161
+    },
+    {
       "slug": "eb-garamond",
       "name": "EB Garamond",
       "mode": "word",
@@ -2105,6 +2210,217 @@
       "viewBox": "-1.75200 -38.66400 177.40800 58.51200",
       "outputSha256": "aacfeda214b3cc2e4001064744640c306590c9f06a924bb239c9dad5b2509764",
       "outputBytes": 18268
+    },
+    {
+      "slug": "arvo",
+      "name": "Arvo",
+      "mode": "word",
+      "sampleText": "Tipografia",
+      "note": "Original retained OFL Arvo Regular; authentic Tipografia word at48px.",
+      "sourceOriginalPreserved": true,
+      "output": "/images/font-previews/arvo.svg",
+      "sourceOriginal": "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+      "sourceSha256": "f41bd41471ec2db7140351bdde614da5341524503598ff7fe79f3c89c13b605e",
+      "fontFamily": "Arvo",
+      "fontStyle": "Regular",
+      "postscriptName": "Arvo",
+      "version": "Version 1.006 2010 beta release; ttfautohint (v1.8.2)",
+      "copyright": "Copyright (c) 2010 Anton Koovit.",
+      "unitsPerEm": 2048,
+      "variationDefaults": null,
+      "fontBinaryCopied": false,
+      "license": "SIL Open Font License 1.1",
+      "licenseNotices": [
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+          "sha256": "359671bf16c00cae69cb66d041296b2adc7a4becd73a463cb8c5e101d97c7986"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        }
+      ],
+      "bodyPx": 48,
+      "effectiveVariations": {},
+      "glyphCount": 10,
+      "inkBounds": [
+        0.9609375,
+        -11.0390625,
+        239.4375,
+        47.5078125
+      ],
+      "sample": "Tipografia",
+      "shaping": "Apple CoreText CTLine / CTRun, default kerning and OpenType shaping; exact-face fallback guard",
+      "viewBox": "-2.03906 -39.46875 245.43750 53.50781",
+      "outputSha256": "c253ce534dbe5dc57605f6d2f470d3f6cd3943242fd68591b32d2cbba301cc2a",
+      "outputBytes": 11023
+    },
+    {
+      "slug": "ibm-plex-sans",
+      "name": "IBM Plex Sans",
+      "mode": "word",
+      "sampleText": "Tipografia",
+      "note": "Original retained OFL source; authentic Tipografia word at48px. IBM Plex member names are matched in full, without a generic IBM Plex alias.",
+      "sourceOriginalPreserved": true,
+      "output": "/images/font-previews/ibm-plex-sans.svg",
+      "sourceOriginal": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+      "sourceSha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3",
+      "fontFamily": "IBM Plex Sans",
+      "fontStyle": "Regular",
+      "postscriptName": "IBMPlexSans-Regular",
+      "version": "Version 3.201",
+      "copyright": "Copyright 2019 IBM Corp. All rights reserved.",
+      "unitsPerEm": 1000,
+      "variationDefaults": {
+        "wght": 400.0,
+        "wdth": 100.0
+      },
+      "fontBinaryCopied": false,
+      "license": "SIL Open Font License 1.1",
+      "licenseNotices": [
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+          "sha256": "359671bf16c00cae69cb66d041296b2adc7a4becd73a463cb8c5e101d97c7986"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        }
+      ],
+      "bodyPx": 48,
+      "effectiveVariations": {},
+      "glyphCount": 9,
+      "inkBounds": [
+        1.056,
+        -10.176,
+        212.97600000000003,
+        45.696000000000005
+      ],
+      "sample": "Tipografia",
+      "shaping": "Apple CoreText CTLine / CTRun, default kerning and OpenType shaping; exact-face fallback guard",
+      "viewBox": "-1.94400 -38.52000 218.97600 51.69600",
+      "outputSha256": "9ec54ce4db79397a8079cfb58f9e9f9bbb505b212f80ce01580d34af5155067d",
+      "outputBytes": 8216
+    },
+    {
+      "slug": "ibm-plex-serif",
+      "name": "IBM Plex Serif",
+      "mode": "word",
+      "sampleText": "Tipografia",
+      "note": "Original retained OFL source; authentic Tipografia word at48px. IBM Plex member names are matched in full, without a generic IBM Plex alias.",
+      "sourceOriginalPreserved": true,
+      "output": "/images/font-previews/ibm-plex-serif.svg",
+      "sourceOriginal": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+      "sourceSha256": "e882efa9c41949a528ac2369079ec5ef050c1c996bbd0bacce3c3326d44cf80d",
+      "fontFamily": "IBM Plex Serif",
+      "fontStyle": "Regular",
+      "postscriptName": "IBMPlexSerif-Regular",
+      "version": "Version 2.6",
+      "copyright": "Copyright 2020 IBM Corp. All rights reserved.",
+      "unitsPerEm": 1000,
+      "variationDefaults": null,
+      "fontBinaryCopied": false,
+      "license": "SIL Open Font License 1.1",
+      "licenseNotices": [
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+          "sha256": "359671bf16c00cae69cb66d041296b2adc7a4becd73a463cb8c5e101d97c7986"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        }
+      ],
+      "bodyPx": 48,
+      "effectiveVariations": {},
+      "glyphCount": 9,
+      "inkBounds": [
+        1.68,
+        -10.176,
+        229.968,
+        46.656000000000006
+      ],
+      "sample": "Tipografia",
+      "shaping": "Apple CoreText CTLine / CTRun, default kerning and OpenType shaping; exact-face fallback guard",
+      "viewBox": "-1.32000 -39.48000 235.96800 52.65600",
+      "outputSha256": "a3426a78bc4fdbfa0342f2da264b797f4776ce8451634485afa25b7fa9e3ec19",
+      "outputBytes": 10995
+    },
+    {
+      "slug": "ibm-plex-mono",
+      "name": "IBM Plex Mono",
+      "mode": "word",
+      "sampleText": "Tipografia",
+      "note": "Original retained OFL source; authentic Tipografia word at48px. IBM Plex member names are matched in full, without a generic IBM Plex alias.",
+      "sourceOriginalPreserved": true,
+      "output": "/images/font-previews/ibm-plex-mono.svg",
+      "sourceOriginal": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+      "sourceSha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "fontFamily": "IBM Plex Mono",
+      "fontStyle": "Regular",
+      "postscriptName": "IBMPlexMono-Regular",
+      "version": "Version 2.3",
+      "copyright": "Copyright 2017 IBM Corp. All rights reserved.",
+      "unitsPerEm": 1000,
+      "variationDefaults": null,
+      "fontBinaryCopied": false,
+      "license": "SIL Open Font License 1.1",
+      "licenseNotices": [
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+          "sha256": "359671bf16c00cae69cb66d041296b2adc7a4becd73a463cb8c5e101d97c7986"
+        },
+        {
+          "path": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+          "sha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da"
+        }
+      ],
+      "bodyPx": 48,
+      "effectiveVariations": {},
+      "glyphCount": 10,
+      "inkBounds": [
+        1.2,
+        -10.176,
+        284.40000000000003,
+        46.080000000000005
+      ],
+      "sample": "Tipografia",
+      "shaping": "Apple CoreText CTLine / CTRun, default kerning and OpenType shaping; exact-face fallback guard",
+      "viewBox": "-1.80000 -38.90400 290.40000 52.08000",
+      "outputSha256": "7bd30f26d793a98a91959b1e2cc4f9c4a3900be52880f7b218e719be0e75b7a2",
+      "outputBytes": 8733
     },
     {
       "slug": "sf-pro",

@@ -341,5 +341,73 @@
     "postscriptName": "GreatVibes-Regular",
     "body": 48,
     "variations": null
+  },
+  {
+    "slug": "roboto-flex",
+    "name": "Roboto Flex",
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/tipografia-assi-variabili/originali/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+    "postscriptName": "RobotoFlex-Regular",
+    "body": 48,
+    "variations": {
+      "opsz": 14.0,
+      "wght": 400,
+      "GRAD": 0.0,
+      "wdth": 100.0,
+      "slnt": 0.0,
+      "XOPQ": 96.0,
+      "YOPQ": 79.0,
+      "XTRA": 468.0,
+      "YTUC": 712.0,
+      "YTLC": 514.0,
+      "YTAS": 750.0,
+      "YTDE": -203.0,
+      "YTFI": 738.0
+    }
+  },
+  {
+    "slug": "nunito",
+    "name": "Nunito",
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+    "postscriptName": "Nunito-ExtraLight",
+    "body": 48,
+    "variations": {
+      "wght": 400,
+      "ital": 0.0
+    }
+  },
+  {
+    "slug": "arvo",
+    "name": "Arvo",
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+    "postscriptName": "Arvo",
+    "body": 48,
+    "variations": null
+  },
+  {
+    "slug": "ibm-plex-sans",
+    "name": "IBM Plex Sans",
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+    "postscriptName": "IBMPlexSans-Regular",
+    "body": 48,
+    "variations": {
+      "wght": 400,
+      "wdth": 100.0
+    }
+  },
+  {
+    "slug": "ibm-plex-serif",
+    "name": "IBM Plex Serif",
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+    "postscriptName": "IBMPlexSerif-Regular",
+    "body": 48,
+    "variations": null
+  },
+  {
+    "slug": "ibm-plex-mono",
+    "name": "IBM Plex Mono",
+    "path": "/Users/marco/Sites/cvedi2627/assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+    "postscriptName": "IBMPlexMono-Regular",
+    "body": 48,
+    "variations": null
   }
 ]

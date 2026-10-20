@@ -30,7 +30,7 @@ export async function checkPublication() {
       assert.ok(owned.every(slide => (slide.frontmatter.localOnly === true) === localIds.has(lesson.id)), `${lesson.id}: publication visibility matches the curriculum`)
     }
     assert.equal(local.slides.length, 242 + declaredUxSlides, 'complete local deck')
-    assert.equal(published.slides.length, 717, 'published deck includes lessons 01–08 and the 114 intended typography slides')
+    assert.equal(published.slides.length, 719, 'published deck includes lessons 01–08 and the 116 intended typography slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -39,7 +39,7 @@ export async function checkPublication() {
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'ricerca-inclusiva'), 'lesson 04 retains its destination alias')
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'percezione-gerarchia').length, 105, 'lesson 05 is complete locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'percezione-gerarchia'), 'lesson 05 retains its destination alias')
-      assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie').length, 114, 'lesson 08 is complete locally and online')
+      assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie').length, 116, 'lesson 08 is complete locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie'), 'lesson 08 retains its destination alias')
       assert.ok(!deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie-tipo-prove-esplorative'), 'the removed booklet content is absent locally and online')
     }

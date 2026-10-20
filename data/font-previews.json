@@ -155,6 +155,30 @@
       "caption": "Roboto Serif · peso 400 · opsz 48."
     }
   },
+  "roboto-flex": {
+    "name": "Roboto Flex",
+    "aliases": [
+      "Roboto Flex"
+    ],
+    "sample": {
+      "src": "/images/font-previews/roboto-flex.svg",
+      "alt": "Tipografia, composta in Roboto Flex (wght 400)",
+      "kind": "word",
+      "caption": "Roboto Flex · peso 400 · opsz 48."
+    }
+  },
+  "nunito": {
+    "name": "Nunito",
+    "aliases": [
+      "Nunito"
+    ],
+    "sample": {
+      "src": "/images/font-previews/nunito.svg",
+      "alt": "Tipografia, composta in Nunito (wght 400)",
+      "kind": "word",
+      "caption": "Nunito · peso 400."
+    }
+  },
   "eb-garamond": {
     "name": "EB Garamond",
     "aliases": [
@@ -819,6 +843,54 @@
       "alt": "Tipografia, composta in Great Vibes Regular",
       "kind": "word",
       "caption": "Great Vibes Regular."
+    }
+  },
+  "arvo": {
+    "name": "Arvo",
+    "aliases": [
+      "Arvo"
+    ],
+    "sample": {
+      "src": "/images/font-previews/arvo.svg",
+      "alt": "Tipografia, composta in Arvo Regular",
+      "kind": "word",
+      "caption": "Arvo Regular."
+    }
+  },
+  "ibm-plex-sans": {
+    "name": "IBM Plex Sans",
+    "aliases": [
+      "IBM Plex Sans"
+    ],
+    "sample": {
+      "src": "/images/font-previews/ibm-plex-sans.svg",
+      "alt": "Tipografia, composta in IBM Plex Sans (wght 400)",
+      "kind": "word",
+      "caption": "IBM Plex Sans · peso 400."
+    }
+  },
+  "ibm-plex-serif": {
+    "name": "IBM Plex Serif",
+    "aliases": [
+      "IBM Plex Serif"
+    ],
+    "sample": {
+      "src": "/images/font-previews/ibm-plex-serif.svg",
+      "alt": "Tipografia, composta in IBM Plex Serif Regular",
+      "kind": "word",
+      "caption": "IBM Plex Serif Regular."
+    }
+  },
+  "ibm-plex-mono": {
+    "name": "IBM Plex Mono",
+    "aliases": [
+      "IBM Plex Mono"
+    ],
+    "sample": {
+      "src": "/images/font-previews/ibm-plex-mono.svg",
+      "alt": "Tipografia, composta in IBM Plex Mono Regular",
+      "kind": "word",
+      "caption": "IBM Plex Mono Regular."
     }
   },
   "sf-pro": {

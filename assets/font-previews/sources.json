@@ -255,6 +255,36 @@
     "slug": "roboto-serif"
   },
   {
+    "name": "Roboto Flex",
+    "aliases": [
+      "Roboto Flex"
+    ],
+    "slideNumbers": [
+      41
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+    "style": "Regular",
+    "note": "Official retained OFL variable font, distinct from Roboto. Preview weight400; CoreText applies optical size48 at the displayed48px body (requested default14), honestly recorded in effectiveVariations and the caption. The five-axis comparison instead uses fully pinned static instances.",
+    "binaryExists": true,
+    "slug": "roboto-flex"
+  },
+  {
+    "name": "Nunito",
+    "aliases": [
+      "Nunito"
+    ],
+    "slideNumbers": [
+      41
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+    "style": "Regular",
+    "note": "Official retained OFL combined variable font with actual fvar ital axis. Its default PostScript name Nunito-ExtraLight identifies the source face, not the preview weight: the preview is pinned to weight400 and ital0.",
+    "binaryExists": true,
+    "slug": "nunito"
+  },
+  {
     "name": "EB Garamond",
     "aliases": [
       "EB Garamond"
@@ -1183,6 +1213,78 @@
     "mode": "outline",
     "binaryPath": "assets/booklet/tipografia-campioni-uniformi/early/originali/GreatVibes-Regular.ttf",
     "style": "Regular"
+  },
+  {
+    "slug": "arvo",
+    "name": "Arvo",
+    "aliases": [
+      "Arvo"
+    ],
+    "slideNumbers": [
+      47
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+    "style": "Regular",
+    "sourceLinks": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf"
+    ],
+    "binaryExists": true,
+    "note": "Original retained OFL Arvo Regular; authentic Tipografia word at48px."
+  },
+  {
+    "slug": "ibm-plex-sans",
+    "name": "IBM Plex Sans",
+    "aliases": [
+      "IBM Plex Sans"
+    ],
+    "slideNumbers": [
+      51
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+    "style": "Regular",
+    "sourceLinks": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans%5Bwdth%2Cwght%5D.ttf"
+    ],
+    "binaryExists": true,
+    "note": "Original retained OFL source; authentic Tipografia word at48px. IBM Plex member names are matched in full, without a generic IBM Plex alias."
+  },
+  {
+    "slug": "ibm-plex-serif",
+    "name": "IBM Plex Serif",
+    "aliases": [
+      "IBM Plex Serif"
+    ],
+    "slideNumbers": [
+      51
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+    "style": "Regular",
+    "sourceLinks": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Regular.ttf"
+    ],
+    "binaryExists": true,
+    "note": "Original retained OFL source; authentic Tipografia word at48px. IBM Plex member names are matched in full, without a generic IBM Plex alias."
+  },
+  {
+    "slug": "ibm-plex-mono",
+    "name": "IBM Plex Mono",
+    "aliases": [
+      "IBM Plex Mono"
+    ],
+    "slideNumbers": [
+      51
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+    "style": "Regular",
+    "sourceLinks": [
+      "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf"
+    ],
+    "binaryExists": true,
+    "note": "Original retained OFL source; authentic Tipografia word at48px. IBM Plex member names are matched in full, without a generic IBM Plex alias."
   },
   {
     "slug": "sf-pro",

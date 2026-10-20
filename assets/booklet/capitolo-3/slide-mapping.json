@@ -7226,7 +7226,7 @@
       "lessonNumber": 8,
       "lessonSlide": 3,
       "title": "Cosa impareremo",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         157,
         158
@@ -7272,7 +7272,7 @@
       ],
       "lessonSlide": 5,
       "title": "Storia e trasformazioni",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-storia",
@@ -7533,7 +7533,7 @@
       "lessonNumber": 8,
       "lessonSlide": 16,
       "title": "La Linotype in azione",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [],
       "sourceNodes": [],
       "assets": [],
@@ -7725,7 +7725,7 @@
       ],
       "lessonSlide": 23,
       "title": "Anatomia delle lettere",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-anatomia",
@@ -7956,7 +7956,7 @@
       ],
       "lessonSlide": 32,
       "title": "Font e famiglie",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-font-famiglie",
@@ -8170,8 +8170,10 @@
       "minutes": 0.5,
       "sourcePages": [],
       "sourceNodes": [],
-      "assets": [],
-      "kind": "concept",
+      "assets": [
+        "tipografia-assi-variabili"
+      ],
+      "kind": "figure",
       "routeAlias": "tipografia-griglie-tipo-font-variabili",
       "sourceRelation": "current-only",
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
@@ -8225,7 +8227,7 @@
       ],
       "lessonSlide": 43,
       "title": "Classificare le forme",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-classificazioni",
@@ -8236,12 +8238,14 @@
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
       "lessonSlide": 44,
-      "title": "Le classificazioni sono mappe",
+      "title": "Prima le forme, poi i nomi",
       "minutes": 0.5,
       "sourcePages": [],
       "sourceNodes": [],
-      "assets": [],
-      "kind": "concept",
+      "assets": [
+        "tipografia-classificazioni-panoramica"
+      ],
+      "kind": "figure",
       "routeAlias": "tipografia-griglie-10",
       "sourceRelation": "current-only",
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
@@ -8258,7 +8262,7 @@
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
       "lessonSlide": 45,
-      "title": "Le direzioni dei serif",
+      "title": "Serif: grazie, asse e contrasto",
       "minutes": 0.5,
       "sourcePages": [],
       "sourceNodes": [],
@@ -8286,12 +8290,14 @@
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
       "lessonSlide": 46,
-      "title": "Times e Georgia",
+      "title": "Times e Georgia: proporzioni diverse",
       "minutes": 0.5,
       "sourcePages": [],
       "sourceNodes": [],
-      "assets": [],
-      "kind": "concept",
+      "assets": [
+        "tipografia-classificazioni-times-georgia"
+      ],
+      "kind": "figure",
       "routeAlias": "tipografia-griglie-tipo-times-georgia",
       "sourceRelation": "current-only",
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
@@ -8306,12 +8312,14 @@
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
       "lessonSlide": 47,
-      "title": "Grazie robuste e ibridi",
+      "title": "Slab serif: grazie robuste",
       "minutes": 0.5,
       "sourcePages": [],
       "sourceNodes": [],
-      "assets": [],
-      "kind": "concept",
+      "assets": [
+        "tipografia-classificazioni-slab"
+      ],
+      "kind": "figure",
       "routeAlias": "tipografia-griglie-18",
       "sourceRelation": "current-only",
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
@@ -8328,7 +8336,7 @@
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
       "lessonSlide": 48,
-      "title": "Dentro i sans serif",
+      "title": "Sans serif: tre costruzioni",
       "minutes": 0.5,
       "sourcePages": [],
       "sourceNodes": [],
@@ -8354,7 +8362,7 @@
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
       "lessonSlide": 49,
-      "title": "Il gesto scritto e il gotico",
+      "title": "Script: il gesto continuo",
       "minutes": 0.5,
       "sourcePages": [],
       "sourceNodes": [],
@@ -8377,6 +8385,50 @@
       "lessonNumber": 8,
       "sourcePages": [],
       "sourceNodes": [],
+      "routeAlias": "tipografia-griglie-tipo-gotico-ritmo",
+      "sourceRelation": "current-only",
+      "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
+      "currentSourceNodes": [
+        "4345:58991"
+      ],
+      "currentSourceFolios": [
+        391
+      ],
+      "lessonSlide": 50,
+      "title": "Gotico: il ritmo spezzato",
+      "minutes": 1.0,
+      "assets": [
+        "tipografia-classificazioni-gotico"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "sourcePages": [],
+      "sourceNodes": [],
+      "routeAlias": "tipografia-griglie-tipo-superfamiglia",
+      "sourceRelation": "current-only",
+      "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
+      "currentSourceNodes": [
+        "4345:58548"
+      ],
+      "currentSourceFolios": [
+        388
+      ],
+      "lessonSlide": 51,
+      "title": "Una superfamiglia, più disegni",
+      "minutes": 1.0,
+      "assets": [
+        "tipografia-classificazioni-superfamiglia"
+      ],
+      "kind": "figure"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "sourcePages": [],
+      "sourceNodes": [],
       "sourceRelation": "current-only",
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
       "currentSourceNodes": [
@@ -8385,9 +8437,9 @@
       "currentSourceFolios": [
         392
       ],
-      "lessonSlide": 50,
+      "lessonSlide": 52,
       "title": "Caratteristiche e relazioni",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-caratteristiche",
@@ -8397,7 +8449,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 51,
+      "lessonSlide": 53,
       "title": "Uso e avanzamento",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8419,7 +8471,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 52,
+      "lessonSlide": 54,
       "title": "Peso e larghezza",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8444,7 +8496,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 53,
+      "lessonSlide": 55,
       "title": "L’equilibrio delle altezze",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8468,7 +8520,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 54,
+      "lessonSlide": 56,
       "title": "Contrasto e asse",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8492,7 +8544,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 55,
+      "lessonSlide": 57,
       "title": "Il profilo dei tratti",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8518,7 +8570,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 56,
+      "lessonSlide": 58,
       "title": "Correggere per la percezione",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8542,7 +8594,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 57,
+      "lessonSlide": 59,
       "title": "Scala e dimensione ottica",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8567,7 +8619,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 58,
+      "lessonSlide": 60,
       "title": "La voce delle forme",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8591,7 +8643,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 59,
+      "lessonSlide": 61,
       "title": "Che cosa misurano gli studi",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8613,7 +8665,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 60,
+      "lessonSlide": 62,
       "title": "Forma e significato",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8645,9 +8697,9 @@
         402,
         403
       ],
-      "lessonSlide": 61,
+      "lessonSlide": 63,
       "title": "Esempi e contesti",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-esempi",
@@ -8657,7 +8709,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 62,
+      "lessonSlide": 64,
       "title": "Leggere le scelte nelle lettere",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8681,7 +8733,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 63,
+      "lessonSlide": 65,
       "title": "Coca-Cola: il nome come disegno",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8705,7 +8757,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 64,
+      "lessonSlide": 66,
       "title": "Tiffany e Vogue: grazie e contrasto",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8730,7 +8782,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 65,
+      "lessonSlide": 67,
       "title": "RAI e Diadora: geometrie diverse",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8755,7 +8807,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 66,
+      "lessonSlide": 68,
       "title": "Langosteria: una voce, più ruoli",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8783,7 +8835,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 67,
+      "lessonSlide": 69,
       "title": "Roissy: provare la parola intera",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8807,7 +8859,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 68,
+      "lessonSlide": 70,
       "title": "Helvetica e Futura a confronto",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8835,7 +8887,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 69,
+      "lessonSlide": 71,
       "title": "IKEA: continuità e sostituzione",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8859,7 +8911,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 70,
+      "lessonSlide": 72,
       "title": "Apple e Android: caratteri di sistema",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8883,7 +8935,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 71,
+      "lessonSlide": 73,
       "title": "Cereal, Reith e Netflix Sans",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8913,7 +8965,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 72,
+      "lessonSlide": 74,
       "title": "Duolingo: ruoli e tono",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8940,7 +8992,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 73,
+      "lessonSlide": 75,
       "title": "Semplificare senza perdere il nome",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8964,7 +9016,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 74,
+      "lessonSlide": 76,
       "title": "Lettere disegnate per il manifesto",
       "minutes": 0.5,
       "sourcePages": [],
@@ -8992,7 +9044,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 75,
+      "lessonSlide": 77,
       "title": "Olivetti: nome, modello, messaggio",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9018,7 +9070,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 76,
+      "lessonSlide": 78,
       "title": "Barilla: marchio e promessa",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9043,7 +9095,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 77,
+      "lessonSlide": 79,
       "title": "Blue Note: il ritmo delle parole",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9068,7 +9120,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 78,
+      "lessonSlide": 80,
       "title": "Parole e pause nei lyric video",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9092,7 +9144,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 79,
+      "lessonSlide": 81,
       "title": "Jamie Reid e Persona 5: i ritagli",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9119,7 +9171,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 80,
+      "lessonSlide": 82,
       "title": "Cinema: leggere una sequenza",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9146,7 +9198,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 81,
+      "lessonSlide": 83,
       "title": "Videogiochi: nome e lettura",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9172,7 +9224,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 82,
+      "lessonSlide": 84,
       "title": "La parola come immagine",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9200,7 +9252,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 83,
+      "lessonSlide": 85,
       "title": "Lettere come spazio",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9227,7 +9279,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 84,
+      "lessonSlide": 86,
       "title": "Montecatini Pro: dal segno al sistema",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9251,7 +9303,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 85,
+      "lessonSlide": 87,
       "title": "Mancini: il nome e le altre parole",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9277,7 +9329,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 86,
+      "lessonSlide": 88,
       "title": "Rustichella e Aesop: voci a confronto",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9305,7 +9357,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 87,
+      "lessonSlide": 89,
       "title": "Calligrafia, lettering e contorno",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9330,7 +9382,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 88,
+      "lessonSlide": 90,
       "title": "Tropicana: osservare senza forzare le cause",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9354,7 +9406,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 89,
+      "lessonSlide": 91,
       "title": "Gotham: un’associazione costruita",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9381,7 +9433,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 90,
+      "lessonSlide": 92,
       "title": "Un’identità fra scritture diverse",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9406,7 +9458,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 91,
+      "lessonSlide": 93,
       "title": "Happy Meal e McCafé: due registri",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9431,7 +9483,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 92,
+      "lessonSlide": 94,
       "title": "Comic Sans: giudicare il contesto",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9456,7 +9508,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 93,
+      "lessonSlide": 95,
       "title": "Product Sans e Ray Gun",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9491,9 +9543,9 @@
         455,
         456
       ],
-      "lessonSlide": 94,
+      "lessonSlide": 96,
       "title": "Leggibilità e lettura",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-leggibilita",
@@ -9503,7 +9555,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 95,
+      "lessonSlide": 97,
       "title": "Riconoscere i segni, seguire il discorso",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9525,7 +9577,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 96,
+      "lessonSlide": 98,
       "title": "Quando una lettera somiglia a un’altra",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9547,7 +9599,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 97,
+      "lessonSlide": 99,
       "title": "Dimensione apparente e distanza",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9569,7 +9621,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 98,
+      "lessonSlide": 100,
       "title": "Ritmo fra righe e paragrafi",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9593,7 +9645,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 99,
+      "lessonSlide": 101,
       "title": "Allineamento e sillabazione",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9615,7 +9667,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 100,
+      "lessonSlide": 102,
       "title": "Crenatura e spaziatura",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9640,7 +9692,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 101,
+      "lessonSlide": 103,
       "title": "Unità e colore tipografico",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9662,7 +9714,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 102,
+      "lessonSlide": 104,
       "title": "Leggibilità: che cosa mostrano gli studi",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9684,7 +9736,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 103,
+      "lessonSlide": 105,
       "title": "Quando il lettore cambia il testo",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9720,9 +9772,9 @@
         466,
         467
       ],
-      "lessonSlide": 104,
+      "lessonSlide": 106,
       "title": "Comporre e verificare",
-      "minutes": 0,
+      "minutes": 0.0,
       "assets": [],
       "kind": "section",
       "routeAlias": "tipografia-griglie-sezione-composizione",
@@ -9732,7 +9784,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 105,
+      "lessonSlide": 107,
       "title": "Partire dalle parole e assegnare ruoli",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9756,7 +9808,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 106,
+      "lessonSlide": 108,
       "title": "Far entrare il testo rispettando il disegno",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9778,7 +9830,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 107,
+      "lessonSlide": 109,
       "title": "Correggere i segni prima della resa",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9800,7 +9852,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 108,
+      "lessonSlide": 110,
       "title": "Dare enfasi con un compito",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9822,7 +9874,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 109,
+      "lessonSlide": 111,
       "title": "Contrasto e riconoscibilità dei link",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9844,7 +9896,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 110,
+      "lessonSlide": 112,
       "title": "Verificare anche senza il font",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9866,7 +9918,7 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 111,
+      "lessonSlide": 113,
       "title": "Fonti per continuare il confronto",
       "minutes": 0.5,
       "sourcePages": [],
@@ -9902,9 +9954,9 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 112,
+      "lessonSlide": 114,
       "title": "Mettere alla prova il sistema tipografico",
-      "minutes": 10,
+      "minutes": 10.0,
       "sourcePages": [
         161,
         162,
@@ -9960,9 +10012,9 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 113,
+      "lessonSlide": 115,
       "title": "Tre idee da portare nel progetto",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         157,
         158,
@@ -10026,9 +10078,9 @@
     {
       "lesson": "tipografia-griglie",
       "lessonNumber": 8,
-      "lessonSlide": 114,
+      "lessonSlide": 116,
       "title": "Una scelta tipografica da motivare",
-      "minutes": 2,
+      "minutes": 2.0,
       "sourcePages": [
         157,
         158,

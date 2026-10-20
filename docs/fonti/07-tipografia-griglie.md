@@ -1,28 +1,34 @@
 # Lezione 08 · Tipografia
 
-114 slide, 69,5 minuti pianificati. La lezione tratta esclusivamente la tipografia: storia, anatomia, famiglie, classificazioni, caratteristiche, esempi, leggibilità e composizione. L’attività tipografica di 10 minuti resta nel percorso. Le 19 slide su griglie, interfacce e relative attività sono conservate con testi, note e mapping in `assets/booklet/lezione-08-tipografia/griglie-interfacce-archive.json`; immagini, originali e attribuzioni restano disponibili.
+116 slide, 71,5 minuti pianificati. La lezione tratta esclusivamente la tipografia: storia, anatomia, famiglie, classificazioni, caratteristiche, esempi, leggibilità e composizione. L’attività tipografica di 10 minuti resta nel percorso. Le 19 slide su griglie, interfacce e relative attività sono conservate con testi, note e mapping in `assets/booklet/lezione-08-tipografia/griglie-interfacce-archive.json`; immagini, originali e attribuzioni restano disponibili.
 
 ## Fonte corrente e fonte storica
 
 Lo snapshot della sezione [C09 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4226-16023), acquisito il 19 ottobre 2026, comprende 150 tavole ai folio 332–481. È conservato in `assets/booklet/lezione-08-tipografia/figma-source.json`, con identità delle tavole, testi visibili, figure, crediti e collegamenti. I 225 URL unici estratti dai collegamenti attivi e dai testi visibili sono registrati in `figma-links.json`, con 251 associazioni fra tavole e URL.
 
-Le slide 5–110 sviluppano storia della stampa, anatomia, famiglie, classificazioni, caratteristiche, esempi e contesti, leggibilità e composizione; la slide 111 raccoglie i riferimenti bibliografici. I loro riferimenti al booklet usano esclusivamente lo snapshot tipografico del 19 ottobre: non ricevono ordinali inventati dello snapshot precedente. Le fonti esterne del video della Linotype e della schermata di Microsoft Bob sono documentate separatamente. La schermata della slide 92 proviene da [Microsoft Design](https://microsoft.design/articles/why-we-love-to-hate-comic-sans/): originale, pagina fonte, attribuzione e hash sono in `assets/booklet/tipografia-microsoft-bob/`. Copertina e sintesi conservano le fonti storiche e aggiungono il raccordo corrente.
+Le slide 5–112 sviluppano storia della stampa, anatomia, famiglie, classificazioni, caratteristiche, esempi e contesti, leggibilità e composizione; la slide 113 raccoglie i riferimenti bibliografici. I loro riferimenti al booklet usano esclusivamente lo snapshot tipografico del 19 ottobre: non ricevono ordinali inventati dello snapshot precedente. Le fonti esterne del video della Linotype e della schermata di Microsoft Bob sono documentate separatamente. La schermata della slide 94 proviene da [Microsoft Design](https://microsoft.design/articles/why-we-love-to-hate-comic-sans/): originale, pagina fonte, attribuzione e hash sono in `assets/booklet/tipografia-microsoft-bob/`. Copertina e sintesi conservano le fonti storiche e aggiungono il raccordo corrente.
 
-Le parti introduttive, l’attività alla slide 112 e la chiusura alle slide 113–114 conservano soltanto i riferimenti tipografici dello snapshot del 7 ottobre 2026: [C03.08 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1115), tavole 157–182 dello snapshot di 260 tavole. Questi ordinali descrivono l’acquisizione e non i folio correnti. I riferimenti a griglie e interfacce, tavole 183–200, restano nel nuovo archivio escluso dal percorso attivo. Le 22 slide tipografiche della revisione precedente restano in `lezioni/archivio/07-tipografia-pre-revisione.md`, con la mappa in `assets/booklet/lezione-08-tipografia/previous-mapping.json`.
+Le parti introduttive, l’attività alla slide 114 e la chiusura alle slide 115–116 conservano soltanto i riferimenti tipografici dello snapshot del 7 ottobre 2026: [C03.08 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1115), tavole 157–182 dello snapshot di 260 tavole. Questi ordinali descrivono l’acquisizione e non i folio correnti. I riferimenti a griglie e interfacce, tavole 183–200, restano nel nuovo archivio escluso dal percorso attivo. Le 22 slide tipografiche della revisione precedente restano in `lezioni/archivio/07-tipografia-pre-revisione.md`, con la mappa in `assets/booklet/lezione-08-tipografia/previous-mapping.json`.
 
 La figura della slide 24 è stata ridisegnata il 20 ottobre 2026 in due pannelli: riferimenti verticali e sei dettagli anatomici. Il nuovo schema originale usa i contorni autentici di Roboto Serif 500 e riprende la chiarezza degli esempi di [Monotype](https://www.monotype.com/resources/expertise/typography-terms-and-definitions), con il controllo terminologico di [Google Fonts](https://fonts.google.com/knowledge/glossary/x_height) e la distinzione fra corpo e contorni del [W3C](https://www.w3.org/TR/CSS2/fonts.html#font-size-props). La stessa composizione è riportata in Figma nelle tavole `4345:53282` e `4345:53410`, oggi ai folio 360–361, con testi nativi DM Sans e token del booklet. La mappa sottostante conserva i folio dello snapshot del 19 ottobre; questa revisione mirata non lo riscrive. Generatore, font, licenze, misure e provenienza sono in `assets/booklet/tipografia-anatomia-revisione/`; la figura precedente resta conservata.
 
 La slide 10 affianca al romano di Jenson un dettaglio autentico del gotico della Bibbia di Gutenberg. Tre righe della scansione Bayerische Staatsbibliothek, 2 Inc.s.a. 197-1, folio 5r, sono mostrate attraverso un viewport SVG, con il JPEG originale incorporato byte per byte. Il manifesto IIIF dichiara Public Domain Mark 1.0; la digitalizzazione è del progetto HUMI della Keio University. La pagina completa resta alla slide 9. Etichette, ingrandimento condiviso e note guidano il confronto fra tratti spezzati, ritmo verticale e forme più aperte. Provenienza, diritti, coordinate e generatore sono in `assets/booklet/tipografia-gotico/`; la [Library of Congress](https://www.loc.gov/exhibits/bibles/interactives/gutenberg/text.html) identifica il tipo della Bibbia come Textura, o Black Letter Gothic.
 
-La slide 100 riprende le due figure originali delle slide 104–105 di `materiali/lezioni/2025-2026/07-tipografia-accessibilita.pdf`: «kerning» con e senza regolazione e «tracking» con spaziatura crescente. Le immagini sono estratte alla risoluzione nativa con le maschere di trasparenza del PDF. Originali, estrattore e attribuzioni disponibili sono conservati in `assets/booklet/tipografia-spaziatura-recupero/`; le definizioni correnti distinguono crenatura, tracking e spazio fra parole.
+La slide 102 riprende le due figure originali delle slide 104–105 di `materiali/lezioni/2025-2026/07-tipografia-accessibilita.pdf`: «kerning» con e senza regolazione e «tracking» con spaziatura crescente. Le immagini sono estratte alla risoluzione nativa con le maschere di trasparenza del PDF. Originali, estrattore e attribuzioni disponibili sono conservati in `assets/booklet/tipografia-spaziatura-recupero/`; le definizioni correnti distinguono crenatura, tracking e spazio fra parole.
+
+La slide 41 aggiunge cinque confronti dei [cinque assi registrati OpenType](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg): `wght` 300/800 e `wdth` 50/150 in Roboto Serif, `slnt` 0/−10 in [Roboto Flex](https://github.com/google/fonts/tree/main/ofl/robotoflex), `ital` 0/1 nel file variabile combinato ufficiale di [Nunito](https://github.com/googlefonts/nunito), `opsz` 8/144 in Roboto Serif. Le definizioni distinguono [inclinazione](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_slnt), [corsivo](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital) e [dimensione ottica](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz). In ogni coppia sono costanti il corpo visualizzato e gli altri assi; i contorni e le posizioni derivano dai font originali. La figura è un’integrazione didattica alla slide, con font, licenze SIL OFL 1.1, fonti, coordinate e generatore in `assets/booklet/tipografia-assi-variabili/`; i riferimenti del booklet restano quelli dello snapshot.
 
 Otto aperture di sezione rendono espliciti i passaggi fra storia, anatomia, font e famiglie, classificazioni, caratteristiche, esempi, leggibilità e composizione. Riprendono la copertina metro `ux-type`, con etichetta «Sezione 01»–«Sezione 08». Ogni apertura richiama le fonti del blocco che introduce e ha durata pianificata zero. L’attività tipografica e le due slide conclusive chiudono il percorso.
 
-Le 114 slide includono note del relatore in prosa semplice, pronte per la lettura durante la lezione. La verifica del booklet in Figma del 20 ottobre 2026 comprende 170 tavole ai folio 332–501, incluse le due tavole documentarie sui cataloghi IKEA 2009 e 2010 e l’anatomia aggiornata. Le note seguono i contenuti pertinenti delle tavole correnti, le fonti storiche delle parti introduttive e della sintesi tipografica, e le correzioni già accettate nella verifica delle slide. Le aperture hanno un raccordo breve; l’attività tipografica conserva la consegna e i tempi previsti. Le note di apertura e chiusura sono aggiornate al tema esclusivamente tipografico. Il confronto delle fonti, la corrispondenza per ID e i controlli di lettura sono riproducibili in `reports/typography-speaker-notes/`.
+Le 116 slide includono note del relatore in prosa semplice, pronte per la lettura durante la lezione. La verifica del booklet in Figma del 20 ottobre 2026 comprende 170 tavole ai folio 332–501, incluse le due tavole documentarie sui cataloghi IKEA 2009 e 2010 e l’anatomia aggiornata. Le note seguono i contenuti pertinenti delle tavole correnti, le fonti storiche delle parti introduttive e della sintesi tipografica, e le correzioni già accettate nella verifica delle slide. Le aperture hanno un raccordo breve; l’attività tipografica conserva la consegna e i tempi previsti. Le note di apertura e chiusura sono aggiornate al tema esclusivamente tipografico. Il confronto delle fonti, la corrispondenza per ID e i controlli di lettura sono riproducibili in `reports/typography-speaker-notes/`.
 
 La verifica dei contenuti precisa l’ottavo come otto carte per foglio ([University of Chicago Library](https://guides.lib.uchicago.edu/earlyprintedbooks)), il collegamento della g a due piani e il titolo del confronto serif. La sintesi degli studi sulla leggibilità resta limitata ai compiti e alle misure esaminati; [WCAG 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html) è riferita a una modalità disponibile per blocchi di testo, con massimo 80 caratteri o glifi per riga (40 per CJK). I tre schemi originali conservati nell’archivio di griglie e interfacce, in `assets/booklet/tipografia-correttezza/`, sostituivano la separazione client/server nel confronto responsive–adaptive, le percentuali di attenzione prive di fonte nella regola dei terzi e i marchi Google usati come illustrazione dell’architettura della schermata. I nuovi schemi si basano su [web.dev](https://web.dev/learn/design/intro), [Marcotte](https://alistapart.com/article/responsive-web-design/), [Adobe](https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html) e [CSS Grid](https://www.w3.org/TR/css-grid-1/#grid-concepts); i vettori, il generatore, i font e le licenze sono registrati nel relativo manifest. Le immagini originali e lo snapshot acquisito del booklet restano conservati.
 
 La verifica corrente esclude «Prove esplorative», già rimossa dal booklet. La slide precedente 93 è conservata integralmente con note e mapping in `assets/booklet/lezione-08-tipografia/booklet-esclusioni-archive.json`; i livelli nascosti che documentano la rimozione sono registrati in `booklet-esclusioni-evidence.json`. Le tavole autonome «Cereal: lo specimen» e «Netflix Sans: lo specimen» risultano anch’esse rimosse, ma non avevano slide dedicate. Il confronto Cereal/Reith/Netflix della slide 71 appartiene alla sezione generale 9.6.9 ancora attiva. Gli alias superstiti restano stabili; dalla precedente slide 94 in poi il numero diminuisce di uno. L’acquisizione delle 150 tavole conserva tutti i suoi riferimenti sull’unione di percorso e archivio.
+
+La sezione «Classificare le forme» comprende ora otto slide di contenuto, 44–51. La panoramica precede i confronti serif, Times/Georgia, slab e sans; script e gotico occupano due slide distinte e la superfamiglia IBM Plex chiude il percorso. I campioni usano gli stessi segni e lo stesso corpo per rendere osservabili le differenze. Le tre figure precedenti restano intatte negli originali acquisiti, mentre le pubblicazioni serif, sans e script usano confronti più grandi. Cinque figure supplementari aggiungono panoramica, Times/Georgia, Bitter/Arvo, UnifrakturMaguntia e IBM Plex Serif/Sans/Mono. Generatori, coordinate, controlli di shaping, font originali aperti, versioni e licenze sono in `assets/booklet/tipografia-classificazioni/forme/` e `confronti/`. Per i font Microsoft sono conservati percorso, versione e hash delle copie installate; vengono pubblicati soltanto i contorni del documento. Le storie di [Times New Roman](https://learn.microsoft.com/en-us/typography/font-list/times-new-roman) e [Georgia](https://learn.microsoft.com/en-us/typography/font-list/georgia), la [guida morfologica Monotype](https://www.monotype.com/resources/guide-type-styles), i [tipi blackletter](https://github.com/google/fonts/blob/main/cc-by-sa/knowledge/glossary/terms/blackletter/content.md) e il progetto [IBM Plex](https://www.ibm.com/design/impact/plex/) sostengono le descrizioni. Thibaudeau, Vox, Novarese e il [ritiro del sostegno ATypI nel 2021](https://atypi.org/2021/04/27/atypi-de-adopted-the-vox-atypi-typeface-classification-system/) restano nelle note della panoramica; i riferimenti storici dei sans restano nelle relative note.
+
+La slide 90 usa ora la fotografia Tropicana Orange Tangerine attiva nel booklet: identità precedente a sinistra e redesign del 2009 al centro e a destra. Foto Brian Alexander Gray, in D. Airey, *Logo Design Love*, 2ª ed., p. 61, dall’[estratto ufficiale Pearson](https://www.pearson.de/media/muster/ext/9780133812770.pdf). La verifica diretta Figma identifica l’immagine `4877:8758`, figura 3.335b nel frame `4345:65092`, oggi al folio 452; hash immagine e dimensioni coincidono esattamente con il JPEG conservato. I folio 445–446 della tabella restano quelli dello snapshot acquisito. Il file è pubblicato senza ricodifica o ritagli; crediti, provenienza e originale precedente «Frutteto» sono conservati in `assets/booklet/tipografia-tropicana-slide/manifest.json`. Le note seguono ora la fotografia reale e distinguono riconoscibilità della marca, decifrabilità e variazioni simultanee della confezione.
 
 ## Corrispondenza delle slide
 
@@ -71,77 +77,79 @@ La verifica corrente esclude «Prove esplorative», già rimossa dal booklet. La
 | 41 | Un intervallo progettato | 379, 380, 381 | — | 0.5 |
 | 42 | Formati e condizioni d’uso | 380, 381 | — | 0.5 |
 | 43 | Classificare le forme | 383, 384 | — | 0 |
-| 44 | Le classificazioni sono mappe | 383, 384 | — | 0.5 |
-| 45 | Le direzioni dei serif | 384, 385, 386, 387 | — | 0.5 |
-| 46 | Times e Georgia | 387 | — | 0.5 |
-| 47 | Grazie robuste e ibridi | 387, 388 | — | 0.5 |
-| 48 | Dentro i sans serif | 388, 389, 390 | — | 0.5 |
-| 49 | Il gesto scritto e il gotico | 391 | — | 0.5 |
-| 50 | Caratteristiche e relazioni | 392 | — | 0 |
-| 51 | Uso e avanzamento | 392 | — | 0.5 |
-| 52 | Peso e larghezza | 393, 394 | — | 0.5 |
-| 53 | L’equilibrio delle altezze | 394, 395 | — | 0.5 |
-| 54 | Contrasto e asse | 395, 396 | — | 0.5 |
-| 55 | Il profilo dei tratti | 396, 397, 398 | — | 0.5 |
-| 56 | Correggere per la percezione | 398, 399 | — | 0.5 |
-| 57 | Scala e dimensione ottica | 399, 400 | — | 0.5 |
-| 58 | La voce delle forme | 399, 400, 401 | — | 0.5 |
-| 59 | Che cosa misurano gli studi | 400, 401 | — | 0.5 |
-| 60 | Forma e significato | 401 | — | 0.5 |
-| 61 | Esempi e contesti | 402, 403 | — | 0 |
-| 62 | Leggere le scelte nelle lettere | 402, 403 | — | 0.5 |
-| 63 | Coca-Cola: il nome come disegno | 403, 404 | — | 0.5 |
-| 64 | Tiffany e Vogue: grazie e contrasto | 404, 405 | — | 0.5 |
-| 65 | RAI e Diadora: geometrie diverse | 406, 407 | — | 0.5 |
-| 66 | Langosteria: una voce, più ruoli | 407, 408, 409 | — | 0.5 |
-| 67 | Roissy: provare la parola intera | 410, 411 | — | 0.5 |
-| 68 | Helvetica e Futura a confronto | 411, 412, 413 | — | 0.5 |
-| 69 | IKEA: continuità e sostituzione | 413, 414 | — | 0.5 |
-| 70 | Apple e Android: caratteri di sistema | 415, 416 | — | 0.5 |
-| 71 | Cereal, Reith e Netflix Sans | 416, 417, 418, 453 | — | 0.5 |
-| 72 | Duolingo: ruoli e tono | 418, 419, 420 | — | 0.5 |
-| 73 | Semplificare senza perdere il nome | 420, 421 | — | 0.5 |
-| 74 | Lettere disegnate per il manifesto | 421, 422, 423 | — | 0.5 |
-| 75 | Olivetti: nome, modello, messaggio | 424, 425 | — | 0.5 |
-| 76 | Barilla: marchio e promessa | 425, 426 | — | 0.5 |
-| 77 | Blue Note: il ritmo delle parole | 427, 428 | — | 0.5 |
-| 78 | Parole e pause nei lyric video | 428, 429 | — | 0.5 |
-| 79 | Jamie Reid e Persona 5: i ritagli | 429, 430, 431 | — | 0.5 |
-| 80 | Cinema: leggere una sequenza | 431, 432, 433 | — | 0.5 |
-| 81 | Videogiochi: nome e lettura | 434, 435 | — | 0.5 |
-| 82 | La parola come immagine | 435, 436, 437 | — | 0.5 |
-| 83 | Lettere come spazio | 437, 438, 439 | — | 0.5 |
-| 84 | Montecatini Pro: dal segno al sistema | 440, 441 | — | 0.5 |
-| 85 | Mancini: il nome e le altre parole | 441, 442 | — | 0.5 |
-| 86 | Rustichella e Aesop: voci a confronto | 441, 442, 443 | — | 0.5 |
-| 87 | Calligrafia, lettering e contorno | 444, 445 | — | 0.5 |
-| 88 | Tropicana: osservare senza forzare le cause | 445, 446 | — | 0.5 |
-| 89 | Gotham: un’associazione costruita | 446, 447, 448 | — | 0.5 |
-| 90 | Un’identità fra scritture diverse | 448, 449 | — | 0.5 |
-| 91 | Happy Meal e McCafé: due registri | 449, 450 | — | 0.5 |
-| 92 | Comic Sans: giudicare il contesto | 450, 451 | — | 0.5 |
-| 93 | Product Sans e Ray Gun | 454 | — | 0.5 |
-| 94 | Leggibilità e lettura | 455, 456 | — | 0 |
-| 95 | Riconoscere i segni, seguire il discorso | 455, 456 | — | 0.5 |
-| 96 | Quando una lettera somiglia a un’altra | 456, 457 | — | 0.5 |
-| 97 | Dimensione apparente e distanza | 457, 458 | — | 0.5 |
-| 98 | Ritmo fra righe e paragrafi | 458, 459, 460 | — | 0.5 |
-| 99 | Allineamento e sillabazione | 460, 461 | — | 0.5 |
-| 100 | Crenatura e spaziatura | 461, 462 | — | 0.5 |
-| 101 | Unità e colore tipografico | 462, 463 | — | 0.5 |
-| 102 | Leggibilità: che cosa mostrano gli studi | 463, 464 | — | 0.5 |
-| 103 | Quando il lettore cambia il testo | 464, 465 | — | 0.5 |
-| 104 | Comporre e verificare | 465, 466, 467 | — | 0 |
-| 105 | Partire dalle parole e assegnare ruoli | 465, 466, 467 | — | 0.5 |
-| 106 | Far entrare il testo rispettando il disegno | 467, 468 | — | 0.5 |
-| 107 | Correggere i segni prima della resa | 468, 469 | — | 0.5 |
-| 108 | Dare enfasi con un compito | 469, 470 | — | 0.5 |
-| 109 | Contrasto e riconoscibilità dei link | 470, 471 | — | 0.5 |
-| 110 | Verificare anche senza il font | 471, 472 | — | 0.5 |
-| 111 | Fonti per continuare il confronto | 473, 474, 475, 476, 477, 478, 479, 480, 481 | — | 0.5 |
-| 112 | Mettere alla prova il sistema tipografico | — | 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 10 |
-| 113 | Tre idee da portare nel progetto | — | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 2 |
-| 114 | Una scelta tipografica da motivare | — | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 2 |
+| 44 | Prima le forme, poi i nomi | 383, 384 | — | 0.5 |
+| 45 | Serif: grazie, asse e contrasto | 384, 385, 386, 387 | — | 0.5 |
+| 46 | Times e Georgia: proporzioni diverse | 387 | — | 0.5 |
+| 47 | Slab serif: grazie robuste | 387, 388 | — | 0.5 |
+| 48 | Sans serif: tre costruzioni | 388, 389, 390 | — | 0.5 |
+| 49 | Script: il gesto continuo | 391 | — | 0.5 |
+| 50 | Gotico: il ritmo spezzato | 391 | — | 1 |
+| 51 | Una superfamiglia, più disegni | 388 | — | 1 |
+| 52 | Caratteristiche e relazioni | 392 | — | 0 |
+| 53 | Uso e avanzamento | 392 | — | 0.5 |
+| 54 | Peso e larghezza | 393, 394 | — | 0.5 |
+| 55 | L’equilibrio delle altezze | 394, 395 | — | 0.5 |
+| 56 | Contrasto e asse | 395, 396 | — | 0.5 |
+| 57 | Il profilo dei tratti | 396, 397, 398 | — | 0.5 |
+| 58 | Correggere per la percezione | 398, 399 | — | 0.5 |
+| 59 | Scala e dimensione ottica | 399, 400 | — | 0.5 |
+| 60 | La voce delle forme | 399, 400, 401 | — | 0.5 |
+| 61 | Che cosa misurano gli studi | 400, 401 | — | 0.5 |
+| 62 | Forma e significato | 401 | — | 0.5 |
+| 63 | Esempi e contesti | 402, 403 | — | 0 |
+| 64 | Leggere le scelte nelle lettere | 402, 403 | — | 0.5 |
+| 65 | Coca-Cola: il nome come disegno | 403, 404 | — | 0.5 |
+| 66 | Tiffany e Vogue: grazie e contrasto | 404, 405 | — | 0.5 |
+| 67 | RAI e Diadora: geometrie diverse | 406, 407 | — | 0.5 |
+| 68 | Langosteria: una voce, più ruoli | 407, 408, 409 | — | 0.5 |
+| 69 | Roissy: provare la parola intera | 410, 411 | — | 0.5 |
+| 70 | Helvetica e Futura a confronto | 411, 412, 413 | — | 0.5 |
+| 71 | IKEA: continuità e sostituzione | 413, 414 | — | 0.5 |
+| 72 | Apple e Android: caratteri di sistema | 415, 416 | — | 0.5 |
+| 73 | Cereal, Reith e Netflix Sans | 416, 417, 418, 453 | — | 0.5 |
+| 74 | Duolingo: ruoli e tono | 418, 419, 420 | — | 0.5 |
+| 75 | Semplificare senza perdere il nome | 420, 421 | — | 0.5 |
+| 76 | Lettere disegnate per il manifesto | 421, 422, 423 | — | 0.5 |
+| 77 | Olivetti: nome, modello, messaggio | 424, 425 | — | 0.5 |
+| 78 | Barilla: marchio e promessa | 425, 426 | — | 0.5 |
+| 79 | Blue Note: il ritmo delle parole | 427, 428 | — | 0.5 |
+| 80 | Parole e pause nei lyric video | 428, 429 | — | 0.5 |
+| 81 | Jamie Reid e Persona 5: i ritagli | 429, 430, 431 | — | 0.5 |
+| 82 | Cinema: leggere una sequenza | 431, 432, 433 | — | 0.5 |
+| 83 | Videogiochi: nome e lettura | 434, 435 | — | 0.5 |
+| 84 | La parola come immagine | 435, 436, 437 | — | 0.5 |
+| 85 | Lettere come spazio | 437, 438, 439 | — | 0.5 |
+| 86 | Montecatini Pro: dal segno al sistema | 440, 441 | — | 0.5 |
+| 87 | Mancini: il nome e le altre parole | 441, 442 | — | 0.5 |
+| 88 | Rustichella e Aesop: voci a confronto | 441, 442, 443 | — | 0.5 |
+| 89 | Calligrafia, lettering e contorno | 444, 445 | — | 0.5 |
+| 90 | Tropicana: osservare senza forzare le cause | 445, 446 | — | 0.5 |
+| 91 | Gotham: un’associazione costruita | 446, 447, 448 | — | 0.5 |
+| 92 | Un’identità fra scritture diverse | 448, 449 | — | 0.5 |
+| 93 | Happy Meal e McCafé: due registri | 449, 450 | — | 0.5 |
+| 94 | Comic Sans: giudicare il contesto | 450, 451 | — | 0.5 |
+| 95 | Product Sans e Ray Gun | 454 | — | 0.5 |
+| 96 | Leggibilità e lettura | 455, 456 | — | 0 |
+| 97 | Riconoscere i segni, seguire il discorso | 455, 456 | — | 0.5 |
+| 98 | Quando una lettera somiglia a un’altra | 456, 457 | — | 0.5 |
+| 99 | Dimensione apparente e distanza | 457, 458 | — | 0.5 |
+| 100 | Ritmo fra righe e paragrafi | 458, 459, 460 | — | 0.5 |
+| 101 | Allineamento e sillabazione | 460, 461 | — | 0.5 |
+| 102 | Crenatura e spaziatura | 461, 462 | — | 0.5 |
+| 103 | Unità e colore tipografico | 462, 463 | — | 0.5 |
+| 104 | Leggibilità: che cosa mostrano gli studi | 463, 464 | — | 0.5 |
+| 105 | Quando il lettore cambia il testo | 464, 465 | — | 0.5 |
+| 106 | Comporre e verificare | 465, 466, 467 | — | 0 |
+| 107 | Partire dalle parole e assegnare ruoli | 465, 466, 467 | — | 0.5 |
+| 108 | Far entrare il testo rispettando il disegno | 467, 468 | — | 0.5 |
+| 109 | Correggere i segni prima della resa | 468, 469 | — | 0.5 |
+| 110 | Dare enfasi con un compito | 469, 470 | — | 0.5 |
+| 111 | Contrasto e riconoscibilità dei link | 470, 471 | — | 0.5 |
+| 112 | Verificare anche senza il font | 471, 472 | — | 0.5 |
+| 113 | Fonti per continuare il confronto | 473, 474, 475, 476, 477, 478, 479, 480, 481 | — | 0.5 |
+| 114 | Mettere alla prova il sistema tipografico | — | 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 10 |
+| 115 | Tre idee da portare nel progetto | — | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 2 |
+| 116 | Una scelta tipografica da motivare | — | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 2 |
 
 ## Video della Linotype
 

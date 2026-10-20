@@ -1,0 +1,99 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "purpose": "Replace the typography Tropicana slide specimen with the current booklet photograph.",
+  "lesson": "tipografia-griglie",
+  "routeAlias": "tipografia-griglie-tipo-tropicana",
+  "lessonSlide": 90,
+  "assetId": "tipografia-4370-46013",
+  "source": {
+    "manifest": "assets/booklet/tipografia-opere-integrazioni/manifest.json",
+    "entryId": "tropicana-orange-tangerine-brian-alexander-gray-pearson-comparison",
+    "original": "assets/booklet/tipografia-opere-integrazioni/originals/tropicana/comment390/brian-alexander-gray-orange-tangerine-p61-native.jpg",
+    "sourceUrl": "https://www.pearson.de/media/muster/ext/9780133812770.pdf",
+    "publicationExcerpt": "assets/booklet/tipografia-opere-integrazioni/originals/tropicana/comment390/pearson-logo-design-love-second-edition-official-excerpt.pdf",
+    "creator": "Brian Alexander Gray",
+    "publication": "David Airey, Logo Design Love, second edition, p.61; official Pearson excerpt",
+    "rights": "Photographer credit and publisher source retained; no open licence claimed.",
+    "sha1": "fe696d83bbf7ba6de9cfb760936f94ebd9fe72ec",
+    "sha256": "5c51bcac46d565e5e6cbe02c4326e9fe95ef61164445e5a938bed31431e4f50b",
+    "bytes": 46274,
+    "pixels": [
+      621,
+      483
+    ]
+  },
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "verifiedAt": "2026-10-20",
+    "page": {
+      "id": "4226:16023",
+      "name": "101 Tipografia - Nuovo design"
+    },
+    "frame": {
+      "id": "4345:65092",
+      "name": "C09 · 452 · SX — Calligrafia e lettering nei marchi / Tropicana: i limiti del confronto"
+    },
+    "image": {
+      "id": "4877:8758",
+      "type": "RECTANGLE",
+      "name": "brian-alexander-gray-orange-tangerine-p61-native",
+      "visible": true,
+      "width": 187.08999633789062,
+      "height": 145.51443481445312,
+      "parentId": "4345:65092",
+      "sources": [
+        {
+          "imageHash": "fe696d83bbf7ba6de9cfb760936f94ebd9fe72ec",
+          "scaleMode": "FILL",
+          "size": {
+            "width": 621,
+            "height": 483
+          }
+        }
+      ]
+    },
+    "caption": {
+      "id": "4877:8760",
+      "text": "Figura 3.335b — Tropicana Orange Tangerine: prima a sinistra, redesign del 2009 a destra. Foto Brian Alexander Gray, in D. Airey, Logo Design Love, 2ª ed., p. 61; estratto Pearson. Data dello scatto non indicata.",
+      "visible": true
+    },
+    "currentFolio": 452,
+    "currentFigure": "3.335b",
+    "verification": "Visible current image node; Figma imageHash matches SHA1 of the retained JPEG exactly, as do pixel dimensions."
+  },
+  "snapshotReferences": {
+    "path": "assets/booklet/lezione-08-tipografia/figma-source.json",
+    "frames": [
+      "4345:65092",
+      "4345:65337"
+    ],
+    "acquiredFolios": [
+      445,
+      446
+    ],
+    "note": "The source snapshot and the earlier Frutteto SVG remain unchanged; current publication evidence is recorded separately."
+  },
+  "output": {
+    "path": "public/images/tipografia/tropicana-orange-tangerine-5c51bcac46d5.jpg",
+    "web": "/images/tipografia/tropicana-orange-tangerine-5c51bcac46d5.jpg",
+    "sha256": "5c51bcac46d565e5e6cbe02c4326e9fe95ef61164445e5a938bed31431e4f50b",
+    "bytes": 46274,
+    "pixels": [
+      621,
+      483
+    ],
+    "transformation": "None: original JPEG copied byte for byte, without re-encoding, cropping, retouching or upscaling."
+  },
+  "preservedPrevious": {
+    "original": "assets/booklet/lezione-08-tipografia/originals/4370-46013.svg",
+    "web": "/images/tipografia/4370-46013-66f0c709843f.svg",
+    "sha256": "66f0c709843fec8d1b2f339d760073eb35c0f127092bd80b0cf343ccb2ca6663"
+  },
+  "retainedSources": [
+    "assets/booklet/tipografia-opere-integrazioni/manifest.json",
+    "assets/booklet/tipografia-opere-integrazioni/originals/tropicana/comment390/brian-alexander-gray-orange-tangerine-p61-native.jpg",
+    "assets/booklet/tipografia-opere-integrazioni/originals/tropicana/comment390/pearson-logo-design-love-second-edition-official-excerpt.pdf",
+    "assets/booklet/tipografia-tropicana-slide/manifest.json"
+  ]
+}

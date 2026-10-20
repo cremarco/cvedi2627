@@ -1038,7 +1038,7 @@ Noto riunisce famiglie per molte scritture. Le prove devono includere **parole r
 
 ---
 layout: default
-class: content-slide ux-process-lesson lesson-slide reading-slide
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
 lessonSlide: 41
@@ -1047,18 +1047,23 @@ routeAlias: tipografia-griglie-tipo-font-variabili
 bookletRelation: current-only
 bookletCurrentNodes: ["4345:57374", "4345:57601", "4345:57750"]
 bookletCurrentFolios: [379, 380, 381]
-bookletAssets: []
+bookletAssets: ["tipografia-assi-variabili"]
 ---
 
 # Un intervallo progettato
 
-<p class="lead">Un font statico offre forme determinate; uno variabile descrive un intervallo di variazioni, i cui assi, estremi e relazioni sono stabiliti dal progettista.</p>
-<ul class="cvedi-list"><li><span>wght, wdth, slnt, ital e opsz indicano peso, larghezza, inclinazione, corsivo e dimensione ottica: ogni famiglia implementa solo alcuni assi.</span></li><li><span>Il software può collegarli a interazioni o dati: definire scopo e limiti del movimento e verificarne la continuità.</span></li></ul>
+<div class="lesson-columns"><div><p class="lead">Un font variabile contiene un intervallo di forme. Gli assi controllano aspetti diversi del disegno.</p><ul class="cvedi-list"><li><span><code>wght</code> e <code>wdth</code>: più leggero o più pesante, più stretto o più largo.</span></li><li><span><code>slnt</code> regola l’inclinazione; <code>ital</code> passa dal tondo al corsivo previsto dal font.</span></li><li><span><code>opsz</code> adatta dettagli e proporzioni al corpo d’uso.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/assi-variabili-884b56a41aba.svg" alt="Cinque coppie di campioni: peso da 300 a 800; larghezza da 50 a 150; inclinazione da 0 a meno 10 gradi; tondo e corsivo; dimensione ottica da 8 a 144. In ogni coppia cambia un solo asse e il corpo visualizzato resta uguale." /></div><p class="lesson-caption typography-caption">Un asse per coppia, a corpo costante. Roboto Serif, Roboto Flex e Nunito; SIL OFL 1.1.</p></div></div>
 
 <!--
-Un **font statico** offre uno stile fissato. Un **font variabile** può contenere un intervallo progettato, per esempio dal peso leggero al pesante.
+Un **font statico** offre uno stile fissato; un **font variabile** contiene un intervallo di forme. Gli **assi** sono i controlli: ogni famiglia offre quelli previsti dal progettista.
 
-Gli **assi** sono i controlli di queste variazioni e non sono uguali in ogni famiglia. Le forme intermedie derivano dai dati del disegnatore; il movimento, se serve, viene deciso dall’applicazione.
+Guardiamo le prime due righe: **wght** cambia il peso dei tratti; **wdth** rende le lettere più strette o più larghe.
+
+**slnt** regola l’inclinazione. **ital** permette di passare dal tondo al corsivo previsto dal font. Sono due controlli distinti.
+
+**opsz** cambia i dettagli per il corpo d’uso. Qui i due campioni sono mostrati allo **stesso corpo**: cambiano le forme delle lettere.
+
+Le forme intermedie sono progettate nel font. Il **software** può collegare gli assi a interazioni o dati; se aggiungiamo movimento, ne definiamo scopo e limiti e ne verifichiamo la continuità.
 -->
 
 ---
@@ -1115,7 +1120,7 @@ Le **categorie** aiutano a osservare somiglianze e differenze, ma non sostituisc
 
 ---
 layout: default
-class: content-slide ux-process-lesson lesson-slide reading-slide
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
 lessonSlide: 44
@@ -1124,20 +1129,19 @@ routeAlias: tipografia-griglie-10
 bookletRelation: current-only
 bookletCurrentNodes: ["4345:57867", "4345:57940"]
 bookletCurrentFolios: [383, 384]
-bookletAssets: []
+bookletAssets: ["tipografia-classificazioni-panoramica"]
 ---
 
-# Le classificazioni sono mappe
+# Prima le forme, poi i nomi
 
-<p class="lead">Le categorie orientano l’osservazione di grazie, contrasto, asse e proporzioni. Serif, monospazio e display descrivono dimensioni diverse e possono combinarsi.</p>
-<ul class="cvedi-list"><li><span>Thibaudeau privilegia le grazie; Vox e Novarese articolano altre letture della tradizione latina.</span></li><li><span>Sono sistemi situati: ATypI ritira nel 2021 il sostegno a Vox-ATypI, insufficiente rispetto alla diversità delle scritture.</span></li></ul>
+<div class="lesson-columns"><div><p class="lead">Per riconoscere un carattere osserviamo le terminazioni, la variazione degli spessori e la costruzione delle lettere.</p><ul class="cvedi-list"><li><span>Nei serif cerchiamo le grazie; nei sans osserviamo le terminazioni prive di grazie.</span></li><li><span>Negli script seguiamo il gesto della scrittura; nelle blackletter osserviamo angoli e ritmo verticale.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-panoramica-538458611d28.svg" alt="Quattro modi di costruire le lettere: EB Garamond serif, Work Sans sans serif, Pacifico script e UnifrakturMaguntia blackletter, con lo stesso testo." /></div><p class="lesson-caption typography-caption">EB Garamond, Work Sans, Pacifico e UnifrakturMaguntia. Campioni autentici; SIL OFL 1.1.</p></div></div>
 
 <!--
-Una **classificazione** è una mappa costruita per uno scopo. Thibaudeau guarda soprattutto le **grazie**; Vox e Novarese propongono altri gruppi della tradizione latina.
+Partiamo dalle **lettere**, poi diamo un nome ai gruppi. Nei quattro esempi seguiamo **terminazioni**, **spessori** e **costruzione**. La parola è la stessa: cambiano le forme.
 
-Questi sistemi non descrivono tutte le scritture del mondo.
+Una **classificazione** è una mappa costruita per uno scopo. Thibaudeau guarda soprattutto le grazie; Vox e Novarese propongono altri gruppi della tradizione latina. Nel **2021 ATypI** ritira il sostegno a Vox-ATypI, ritenuta insufficiente rispetto alla diversità delle scritture.
 
-Inoltre serif, monospazio e display riguardano **proprietà diverse**: una stessa famiglia può avere grazie, spazi costanti ed essere pensata per titoli.
+Le categorie aiutano a orientarci. Per scegliere torniamo sempre ai **caratteri concreti** e alle parole da comporre.
 -->
 
 ---
@@ -1154,19 +1158,21 @@ bookletCurrentFolios: [384, 385, 386, 387]
 bookletAssets: ["tipografia-4369-45409"]
 ---
 
-# Le direzioni dei serif
+# Serif: grazie, asse e contrasto
 
-<div class="lesson-columns"><div><p class="lead">Negli oldstyle il contrasto è spesso moderato, l’asse inclinato e le grazie raccordate. Nei transizionali crescono contrasto e verticalità; nei didoni emergono filetti sottili e grazie fini.</p><ul class="cvedi-list"><li><span>Confrontiamo EB Garamond, Libre Baskerville e Bodoni Moda alla dimensione d’uso, osservando la tenuta dei tratti più sottili.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/4369-45409-5fafed9a8a86.svg" alt="Quattro direzioni dei serif: EB Garamond, Libre Baskerville, Bodoni Moda e Bitter, con lo stesso testo e corpo 40." /></div><p class="lesson-caption typography-caption">Quattro direzioni dei serif: EB Garamond, Libre Baskerville, Bodoni Moda e Bitter, con lo stesso testo e corpo 40. Specimen originali dai font; SIL OFL 1.1.</p></div></div>
+<div class="lesson-columns"><div><p class="lead">Nei serif le grazie cambiano forma e rapporto con le aste. Guardiamo anche l’alternanza fra tratti pieni e sottili e l’asse delle curve.</p><ul class="cvedi-list"><li><span>EB Garamond presenta grazie raccordate e contrasto moderato; Libre Baskerville mostra una maggiore verticalità.</span></li><li><span>Bodoni Moda evidenzia filetti e grazie sottili; Bitter presenta grazie più robuste.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-serif-d80a2a4acfca.svg" alt="EB Garamond, Libre Baskerville, Bodoni Moda e Bitter: stessi campioni e stesso corpo per confrontare grazie, contrasto e asse delle curve." /></div><p class="lesson-caption typography-caption">EB Garamond, Libre Baskerville, Bodoni Moda e Bitter, a corpo uguale. Contorni autentici; SIL OFL 1.1.</p></div></div>
 
 <!--
-Nel confronto osserviamo il rapporto fra **spessori**, **asse delle curve** e **grazie**. Da EB Garamond a Libre Baskerville e Bodoni Moda cambiano contrasto e raccordi; Bitter presenta grazie più robuste.
+Seguiamo gli stessi dettagli nei quattro campioni: il raccordo delle **grazie**, gli **spessori** e l’orientamento della modulazione nelle curve.
 
-Per scegliere conta la versione concreta e la tenuta dei dettagli alla **dimensione d’uso**.
+EB Garamond richiama la direzione **oldstyle**. Libre Baskerville rappresenta la direzione **transizionale**. In Bodoni Moda vediamo il contrasto marcato dei **didoni**; Bitter introduce le grazie robuste degli **slab**. Sono versioni digitali concrete, non riproduzioni indistinte dei tipi storici.
+
+La dimensione del campione resta uguale. Alla **dimensione d’uso** controlliamo anche la tenuta dei tratti più sottili.
 -->
 
 ---
 layout: default
-class: content-slide ux-process-lesson lesson-slide reading-slide
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
 lessonSlide: 46
@@ -1175,23 +1181,26 @@ routeAlias: tipografia-griglie-tipo-times-georgia
 bookletRelation: current-only
 bookletCurrentNodes: ["4345:58493"]
 bookletCurrentFolios: [387]
-bookletAssets: []
+bookletAssets: ["tipografia-classificazioni-times-georgia"]
 ---
 
-# Times e Georgia
+# Times e Georgia: proporzioni diverse
 
-<p class="lead">Times New Roman appare nel <span data-no-font-previews>Times</span> nel 1932: disegni di Victor Lardent, direzione di Stanley Morison ed elaborazione Monotype rispondono a economia e lettura nel giornale.</p>
-<ul class="cvedi-list"><li><span>Per Georgia, Matthew Carter redistribuisce minuscole, capitali, ascendenti e corsivo affrontando la resa sullo schermo.</span></li><li><span>Georgia rielabora proporzioni e dettagli per la lettura sullo schermo.</span></li></ul>
+<div class="lesson-columns"><div><p class="lead">Due caratteri serif possono distribuire in modo diverso minuscole, larghezze e cifre. Confrontiamo gli stessi segni allo stesso corpo.</p><ul class="cvedi-list"><li><span>Times New Roman nasce per il giornale <span data-no-font-previews>Times</span> nel 1932, con disegni di Victor Lardent e direzione di Stanley Morison.</span></li><li><span>Matthew Carter progetta Georgia affrontando la resa sugli schermi a bassa risoluzione. Osserviamo a, g e numeri.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-times-georgia-a15a21543e62.svg" alt="Times New Roman e Georgia: lettere, cifre e la stessa frase allo stesso corpo, per confrontare proporzioni e dettagli." /></div><p class="lesson-caption typography-caption">Times New Roman, Monotype; Georgia, Microsoft. Stesso testo e corpo.</p></div></div>
 
 <!--
-**Times New Roman** nasce per le esigenze di un giornale: contenere il testo e renderlo leggibile.
+Essere entrambi **serif** non rende uguali questi due caratteri. Guardiamo le **minuscole**, le larghezze e il disegno delle **cifre**.
 
-**Georgia** affronta invece le condizioni dello schermo, redistribuendo minuscole, capitali e tratti sporgenti. Le **cifre e il corsivo** contribuiscono alla sua identità.
+**Times New Roman** appare nel giornale nel **1932**. Victor Lardent disegna sotto la direzione di Stanley Morison; Monotype sviluppa i tipi per le esigenze della composizione del giornale.
+
+**Georgia**, di Matthew Carter, affronta le condizioni degli schermi a bassa risoluzione. Le proporzioni di minuscole, capitali e tratti sporgenti, insieme al corsivo e alle cifre, contribuiscono alla sua identità.
+
+Il **corpo è uguale**: osserviamo quanta presenza visiva occupano le lettere e quali dettagli distinguono i due progetti.
 -->
 
 ---
 layout: default
-class: content-slide ux-process-lesson lesson-slide reading-slide
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
 lessonSlide: 47
@@ -1200,18 +1209,19 @@ routeAlias: tipografia-griglie-18
 bookletRelation: current-only
 bookletCurrentNodes: ["4345:58493", "4345:58548"]
 bookletCurrentFolios: [387, 388]
-bookletAssets: []
+bookletAssets: ["tipografia-classificazioni-slab"]
 ---
 
-# Grazie robuste e ibridi
+# Slab serif: grazie robuste
 
-<p class="lead">Gli slab serif hanno grazie robuste, spesso squadrate, ma includono contrasti e raccordi diversi. Il nome «egiziano» non dimostra una discendenza dai geroglifici.</p>
-<ul class="cvedi-list"><li><span>I semi-serif dosano piccole espansioni e terminazioni; sono possibilità progettuali da osservare nel disegno.</span></li><li><span>Una superfamiglia può coordinare serif e sans attraverso proporzioni condivise, senza rendere ogni carattere ibrido. Fra categorie esistono relazioni continue.</span></li></ul>
+<div class="lesson-columns"><div><p class="lead">Negli slab serif le grazie sono evidenti, spesso squadrate. Il raccordo con le aste e il contrasto variano da un disegno all’altro.</p><ul class="cvedi-list"><li><span>In Bitter e Arvo seguiamo le grazie di H e n e il punto in cui incontrano l’asta.</span></li><li><span>Confrontiamo la forma degli angoli e il rapporto fra parti spesse e sottili.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-slab-7489a51ed0aa.svg" alt="Bitter e Arvo: campioni autentici allo stesso corpo per osservare grazie robuste, angoli e raccordi con le aste." /></div><p class="lesson-caption typography-caption">Bitter e Arvo, a corpo uguale. Contorni originali dei font; SIL OFL 1.1.</p></div></div>
 
 <!--
-Nelle **grazie robuste** conta il rapporto con le aste: possiamo trovare blocchi netti oppure raccordi più morbidi. Il nome storico **«egiziano»** non indica una derivazione dai geroglifici.
+Qui il tratto comune è la presenza di **grazie robuste**. Guardiamo prima la **H**, poi la **n**: osserviamo gli angoli e il punto in cui la grazia incontra l’asta.
 
-Fra serif e sans esistono anche **soluzioni intermedie**. Una **superfamiglia** può invece affiancare disegni distinti, tenuti insieme da proporzioni comuni: la parentela non li rende tutti ibridi.
+**Bitter** e **Arvo** appartengono alla stessa area, ma organizzano in modo diverso raccordi e spessori. La categoria ci suggerisce che cosa confrontare; il disegno concreto mostra le differenze.
+
+Il nome storico **«egiziano»** è una denominazione della categoria e non dimostra una derivazione dai geroglifici.
 -->
 
 ---
@@ -1228,14 +1238,16 @@ bookletCurrentFolios: [388, 389, 390]
 bookletAssets: ["tipografia-4369-45771"]
 ---
 
-# Dentro i sans serif
+# Sans serif: tre costruzioni
 
-<div class="lesson-columns"><div><p class="lead">L’assenza delle grazie non rende i sans intercambiabili. Grotteschi, umanistici e geometrici differiscono per proporzioni, modulazione, aperture e memoria del gesto.</p><ul class="cvedi-list"><li><span>Futura di Renner, Franklin Gothic di Benton e Helvetica mostrano costruzioni diverse; Johnston e Gill Sans conservano programmi distinti.</span></li><li><span>Per Verdana Carter disegna forme e spazi, Rickner cura l’hinting. Osserviamo a, g, R, c, e e segni confondibili.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/4369-45771-cb3fa9fef4d9.svg" alt="Work Sans, Alegreya Sans e Quicksand: direzioni grottesca, umanistica e geometrica, confrontate con lo stesso testo e corpo." /></div><p class="lesson-caption typography-caption">Work Sans, Alegreya Sans e Quicksand: direzioni grottesca, umanistica e geometrica, confrontate con lo stesso testo e corpo. Specimen originali dai font; SIL OFL 1.1.</p></div></div>
+<div class="lesson-columns"><div><p class="lead">I sans condividono l’assenza delle grazie. Proporzioni, aperture e costruzione delle lettere permettono di distinguerli.</p><ul class="cvedi-list"><li><span>Work Sans rappresenta una direzione grottesca: seguiamo il ritmo e le forme di a e g.</span></li><li><span>Alegreya Sans, umanistico, e Quicksand, geometrico: confrontiamo aperture, curve e proporzioni.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-sans-2e83d733f164.svg" alt="Work Sans, Alegreya Sans e Quicksand: lettere a, e, g, R e la stessa parola, allo stesso corpo, per osservare tre costruzioni dei sans serif." /></div><p class="lesson-caption typography-caption">Work Sans, Alegreya Sans e Quicksand. Stessi campioni e corpo; contorni autentici, SIL OFL 1.1.</p></div></div>
 
 <!--
-Nei tre campioni la **frase e il corpo** rimangono uguali. Possiamo seguire le **aperture** di c ed e, la **costruzione** di a e g e il ritmo delle curve.
+La frase e il **corpo** restano uguali. Nei campioni grandi seguiamo l’apertura della **e**, la costruzione di **a** e **g**, la gamba della **R**.
 
-Work Sans, Alegreya Sans e Quicksand rappresentano direzioni diverse dentro i sans. L’**assenza delle grazie** è quindi un punto di partenza, non una descrizione sufficiente del carattere.
+Work Sans richiama i **grotteschi**; Alegreya Sans una direzione **umanistica**; Quicksand una costruzione **geometrica**. I nomi indicano tendenze da verificare nelle lettere.
+
+Fra i riferimenti storici troviamo Franklin Gothic di Benton, Futura di Renner e Helvetica. Johnston e Gill Sans seguono programmi distinti. Per Verdana, Carter disegna forme e spazi e Rickner cura l’hinting. Questi esempi ampliano la mappa, mentre il confronto visivo resta centrato sui tre font mostrati.
 -->
 
 ---
@@ -1252,16 +1264,68 @@ bookletCurrentFolios: [391]
 bookletAssets: ["tipografia-4526-35447"]
 ---
 
-# Il gesto scritto e il gotico
+# Script: il gesto continuo
 
-<div class="lesson-columns"><div><p class="lead">Gli script trasformano modelli di scrittura in un repertorio ripetibile; varianti e sostituzioni contestuali possono differenziare gli incontri fra lettere.</p><ul class="cvedi-list"><li><span>Le blackletter derivano da tradizioni di scrittura spezzata: densità, angoli e ritmo verticale ne chiariscono la costruzione.</span></li><li><span>Il «gotico» non coincide con Gothic nei nomi di alcuni sans. Dediche, manoscritti o scene musicali sono associazioni culturali, variabili secondo contesto e lettore.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/4526-35447-17864b0b28c3.svg" alt="Pacifico e UnifrakturMaguntia: il gesto dello script e le forme della tradizione blackletter, nei disegni originali dei due font." /></div><p class="lesson-caption typography-caption">Pacifico e UnifrakturMaguntia: il gesto dello script e le forme della tradizione blackletter, nei disegni originali dei due font. Specimen originali; SIL Open Font License 1.1.</p></div></div>
+<div class="lesson-columns"><div><p class="lead">Gli script traducono un modello di scrittura in lettere ripetibili. In una parola contano inclinazione, collegamenti e ritmo.</p><ul class="cvedi-list"><li><span>Pacifico: tratti pieni, curve ampie e collegamenti fra lettere.</span></li><li><span>Great Vibes: alternanza fra pieni e filetti, aste inclinate e terminali allungati.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-script-3a3140979a88.svg" alt="Pacifico e Great Vibes: due script composti con shaping autentico, per confrontare collegamenti, inclinazione e variazione degli spessori." /></div><p class="lesson-caption typography-caption">Pacifico e Great Vibes. Parole composte con le funzioni originali dei font; SIL OFL 1.1.</p></div></div>
 
 <!--
-**Pacifico** richiama un gesto continuo di scrittura; **UnifrakturMaguntia** presenta una costruzione più spezzata e un ritmo verticale fitto. In entrambi i casi stiamo guardando forme ripetibili di un font.
+Seguiamo la parola come un **gesto scritto**. In Pacifico osserviamo i **collegamenti** e le curve ampie; in Great Vibes l’alternanza fra tratti pieni e sottili e l’allungamento dei terminali.
 
-Le **associazioni** con dediche, manoscritti o musica dipendono dalla nostra esperienza.
+Anche se ricordano la scrittura a mano, sono **font**: le lettere sono ripetibili. Varianti e sostituzioni contestuali possono adattare gli incontri fra segni.
 
-Il termine **Gothic** presente nel nome di alcuni sans, invece, non indica questa tradizione gotica.
+Associazioni con dediche, inviti o scene musicali dipendono dal **contesto** e dall’esperienza del lettore. Per scegliere osserviamo prima la parola reale.
+-->
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
+footer: "Tipografia"
+lesson: tipografia-griglie
+lessonSlide: 50
+lessonMinutes: 1
+routeAlias: tipografia-griglie-tipo-gotico-ritmo
+bookletRelation: current-only
+bookletCurrentNodes: ["4345:58991"]
+bookletCurrentFolios: [391]
+bookletAssets: ["tipografia-classificazioni-gotico"]
+---
+
+# Gotico: il ritmo spezzato
+
+<div class="lesson-columns"><div><p class="lead">Nelle blackletter le curve si articolano in tratti spezzati. Aste ravvicinate e angoli costruiscono un ritmo verticale riconoscibile.</p><ul class="cvedi-list"><li><span>In UnifrakturMaguntia seguiamo h, o e n: osserviamo i vuoti interni e gli spigoli.</span></li><li><span>Fraktur e Textura sono direzioni della tradizione gotica, con costruzioni differenti.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-gotico-ac297dc88911.svg" alt="UnifrakturMaguntia: parola e lettere ingrandite per osservare tratti spezzati, angoli, controforme e ritmo verticale della tradizione Fraktur." /></div><p class="lesson-caption typography-caption">UnifrakturMaguntia, disegno digitale nella tradizione Fraktur. Contorni autentici; SIL OFL 1.1.</p></div></div>
+
+<!--
+Qui seguiamo un **ritmo verticale**: le aste sono ravvicinate e le curve si articolano in **tratti spezzati**. Guardiamo i vuoti interni e gli incontri fra i tratti di **h**, **o** e **n**.
+
+**UnifrakturMaguntia** è un disegno digitale nella tradizione **Fraktur**. Nella storia iniziale abbiamo visto la **Textura** della Bibbia di Gutenberg: appartengono entrambe alle blackletter, con costruzioni specifiche.
+
+La parola **Gothic** presente nel nome di alcuni sans, come Franklin Gothic, segue un’altra convenzione di denominazione. Per riconoscere il gruppo guardiamo le lettere.
+-->
+
+---
+layout: default
+class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
+footer: "Tipografia"
+lesson: tipografia-griglie
+lessonSlide: 51
+lessonMinutes: 1
+routeAlias: tipografia-griglie-tipo-superfamiglia
+bookletRelation: current-only
+bookletCurrentNodes: ["4345:58548"]
+bookletCurrentFolios: [388]
+bookletAssets: ["tipografia-classificazioni-superfamiglia"]
+---
+
+# Una superfamiglia, più disegni
+
+<div class="lesson-columns"><div><p class="lead">Una superfamiglia coordina caratteri diversi attraverso un progetto comune. IBM Plex comprende disegni serif, sans e monospaziati.</p><ul class="cvedi-list"><li><span>Confrontiamo IBM Plex Serif, IBM Plex Sans e IBM Plex Mono: cambiano terminazioni e avanzamento, restano relazioni di proporzione e dettagli.</span></li><li><span>Forma, spaziatura e impiego rispondono a domande diverse: un carattere può essere sans e monospaziato, oppure serif e display.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/classificazioni-superfamiglia-0ac6828d866f.svg" alt="IBM Plex Serif, IBM Plex Sans e IBM Plex Mono: campioni allo stesso corpo di tre disegni coordinati della superfamiglia IBM Plex." /></div><p class="lesson-caption typography-caption">IBM Plex Serif, IBM Plex Sans e IBM Plex Mono. Font originali IBM, SIL OFL 1.1.</p></div></div>
+
+<!--
+Una **superfamiglia** riunisce disegni diversi progettati per convivere. In IBM Plex confrontiamo **serif**, **sans** e **mono**: osserviamo sia le differenze sia i dettagli che mantengono una parentela.
+
+Una famiglia coordinata può affiancare disegni distinti. Le forme **intermedie**, o semi-serif, riguardano invece piccole espansioni e terminazioni presenti nel singolo disegno: sono due modi diversi di descrivere le relazioni fra caratteri.
+
+Chiudiamo la mappa distinguendo tre domande: **come sono costruite le lettere**, **come avanzano sulla riga** e **per quale impiego sono pensate**. Serif, monospazio e display possono quindi combinarsi.
 -->
 
 ---
@@ -1269,7 +1333,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide chapter-slide section-divider
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 50
+lessonSlide: 52
 lessonMinutes: 0
 routeAlias: tipografia-griglie-sezione-caratteristiche
 sectionDivider: true
@@ -1296,7 +1360,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 51
+lessonSlide: 53
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-21
 bookletRelation: current-only
@@ -1320,7 +1384,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 52
+lessonSlide: 54
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-peso-larghezza
 bookletRelation: current-only
@@ -1344,7 +1408,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 53
+lessonSlide: 55
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-17
 bookletRelation: current-only
@@ -1368,7 +1432,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 54
+lessonSlide: 56
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-19
 bookletRelation: current-only
@@ -1392,7 +1456,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 55
+lessonSlide: 57
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-20
 bookletRelation: current-only
@@ -1416,7 +1480,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 56
+lessonSlide: 58
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-correzioni-ottiche
 bookletRelation: current-only
@@ -1440,7 +1504,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 57
+lessonSlide: 59
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-dimensione-ottica
 bookletRelation: current-only
@@ -1464,7 +1528,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 58
+lessonSlide: 60
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-15
 bookletRelation: current-only
@@ -1489,7 +1553,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 59
+lessonSlide: 61
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-emozioni-esperimenti
 bookletRelation: current-only
@@ -1514,7 +1578,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 60
+lessonSlide: 62
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-congruenza-forma-significato
 bookletRelation: current-only
@@ -1539,7 +1603,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide chapter-slide section-divider
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 61
+lessonSlide: 63
 lessonMinutes: 0
 routeAlias: tipografia-griglie-sezione-esempi
 sectionDivider: true
@@ -1566,7 +1630,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 62
+lessonSlide: 64
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-leggere-le-scelte
 bookletRelation: current-only
@@ -1590,7 +1654,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 63
+lessonSlide: 65
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-coca-cola-lettering
 bookletRelation: current-only
@@ -1614,7 +1678,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 64
+lessonSlide: 66
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-tiffany-vogue
 bookletRelation: current-only
@@ -1638,7 +1702,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 65
+lessonSlide: 67
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-rai-diadora
 bookletRelation: current-only
@@ -1662,7 +1726,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 66
+lessonSlide: 68
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-langosteria
 bookletRelation: current-only
@@ -1686,7 +1750,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 67
+lessonSlide: 69
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-roissy-frutiger
 bookletRelation: current-only
@@ -1710,7 +1774,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 68
+lessonSlide: 70
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-helvetica-futura
 bookletRelation: current-only
@@ -1734,7 +1798,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 69
+lessonSlide: 71
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-ikea-futura-verdana
 bookletRelation: current-only
@@ -1758,7 +1822,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 70
+lessonSlide: 72
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-apple-android
 bookletRelation: current-only
@@ -1782,7 +1846,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 71
+lessonSlide: 73
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-famiglie-proprietarie
 bookletRelation: current-only
@@ -1806,7 +1870,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 72
+lessonSlide: 74
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-duolingo-calm
 bookletRelation: current-only
@@ -1830,7 +1894,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 73
+lessonSlide: 75
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-semplificare-logotipi
 bookletRelation: current-only
@@ -1854,7 +1918,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 74
+lessonSlide: 76
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-lettere-manifesti
 bookletRelation: current-only
@@ -1878,7 +1942,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 75
+lessonSlide: 77
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-olivetti
 bookletRelation: current-only
@@ -1902,7 +1966,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 76
+lessonSlide: 78
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-barilla
 bookletRelation: current-only
@@ -1926,7 +1990,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 77
+lessonSlide: 79
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-blue-note
 bookletRelation: current-only
@@ -1950,7 +2014,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 78
+lessonSlide: 80
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-musica-ritmo
 bookletRelation: current-only
@@ -1974,7 +2038,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 79
+lessonSlide: 81
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-reid-persona
 bookletRelation: current-only
@@ -1998,7 +2062,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 80
+lessonSlide: 82
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-cinema-serie
 bookletRelation: current-only
@@ -2022,7 +2086,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 81
+lessonSlide: 83
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-videogiochi-lettering
 bookletRelation: current-only
@@ -2046,7 +2110,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 82
+lessonSlide: 84
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-ji-lee
 bookletRelation: current-only
@@ -2072,7 +2136,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 83
+lessonSlide: 85
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-lissitzky-apeloig
 bookletRelation: current-only
@@ -2096,7 +2160,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 84
+lessonSlide: 86
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-montecatini
 bookletRelation: current-only
@@ -2120,7 +2184,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 85
+lessonSlide: 87
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-mancini
 bookletRelation: current-only
@@ -2144,7 +2208,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 86
+lessonSlide: 88
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-rustichella-aesop
 bookletRelation: current-only
@@ -2166,7 +2230,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 87
+lessonSlide: 89
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-calligrafia-marchi
 bookletRelation: current-only
@@ -2190,7 +2254,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 88
+lessonSlide: 90
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-tropicana
 bookletRelation: current-only
@@ -2201,14 +2265,14 @@ bookletAssets: ["tipografia-4370-46013"]
 
 # Tropicana: osservare senza forzare le cause
 
-<div class="lesson-columns"><div><p class="lead">Fra confezioni Tropicana cambiano più elementi insieme. Una reazione negativa o una variazione commerciale non possono essere attribuite al solo carattere senza separare le variabili.</p><ul class="cvedi-list"><li><span>Confrontiamo grazie, contrasto, cassa e orientamento, distinguendo riconoscibilità della marca e decifrabilità.</span></li><li><span>Il marchio fittizio Frutteto mantiene nome, figura e corpo nominale, mentre cambia il carattere.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/4370-46013-66f0c709843f.svg" alt="Frutteto, marchio fittizio: stesso nome, stessa figura e stesso corpo nominale in EB Garamond Regular e Helvetica Regular." /></div><p class="lesson-caption typography-caption">Frutteto, marchio fittizio: dimostrazione originale del corso con contorni autentici EB Garamond Regular e Helvetica Regular.</p></div></div>
+<div class="lesson-columns"><div><p class="lead">Fra confezioni Tropicana cambiano più elementi insieme. Una reazione negativa o una variazione commerciale non possono essere attribuite al solo carattere senza separare le variabili.</p><ul class="cvedi-list"><li><span>Confrontiamo grazie, contrasto, cassa e orientamento, distinguendo riconoscibilità della marca e decifrabilità.</span></li><li><span>Nel redesign del 2009 cambiano anche la figura del prodotto e la gerarchia delle informazioni; il nome diventa verticale.</span></li></ul></div><div class="typography-gallery"><div class="typography-images typography-images-1"><LessonFigure src="/images/tipografia/tropicana-orange-tangerine-5c51bcac46d5.jpg" alt="Confezioni Tropicana Orange Tangerine: identità precedente a sinistra e due esemplari del redesign del 2009 al centro e a destra. Fotografia di Brian Alexander Gray." /></div><p class="lesson-caption typography-caption">Tropicana Orange Tangerine: prima a sinistra, redesign del 2009 a destra. Foto Brian Alexander Gray, in D. Airey, Logo Design Love, 2ª ed., p. 61; estratto Pearson.</p></div></div>
 
 <!--
-In Frutteto rimangono uguali nome, figura e corpo nominale, mentre **cambia il carattere**. Possiamo discutere il profilo della parola e il tono percepito.
+Guardiamo il **nome della marca**. Nella confezione precedente, a sinistra, è orizzontale e presenta grazie; nel **redesign del 2009**, al centro e a destra, diventa una scritta sans serif verticale.
 
-Il caso Tropicana è più complesso perché nelle confezioni cambiano **più elementi insieme**. Una variazione commerciale non dimostra quindi una causa tipografica.
+Ora cerchiamo il **prodotto**. Nel redesign la scritta «100% orange and tangerine» occupa il centro e diventa molto più grande. Cambiano anche la figura e la **gerarchia delle informazioni**.
 
-**Riconoscere una marca** familiare e **decifrare bene il nome** sono due domande collegate ma distinte.
+**Riconoscere una marca** familiare e **decifrare il nome** sono due domande diverse. Qui cambiano **più elementi insieme**: possiamo descrivere il redesign, senza isolare l’effetto del solo carattere.
 -->
 
 ---
@@ -2216,7 +2280,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 89
+lessonSlide: 91
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-gotham-obama
 bookletRelation: current-only
@@ -2240,7 +2304,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 90
+lessonSlide: 92
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-identita-multiscript
 bookletRelation: current-only
@@ -2264,7 +2328,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 91
+lessonSlide: 93
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-happy-meal-mccafe
 bookletRelation: current-only
@@ -2288,7 +2352,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair figure-comparison typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 92
+lessonSlide: 94
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-comic-sans
 bookletRelation: current-only
@@ -2316,7 +2380,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 93
+lessonSlide: 95
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-product-sans-ray-gun
 bookletRelation: current-only
@@ -2342,7 +2406,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide chapter-slide section-divider
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 94
+lessonSlide: 96
 lessonMinutes: 0
 routeAlias: tipografia-griglie-sezione-leggibilita
 sectionDivider: true
@@ -2369,7 +2433,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 95
+lessonSlide: 97
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-11
 bookletRelation: current-only
@@ -2394,7 +2458,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 96
+lessonSlide: 98
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-12
 bookletRelation: current-only
@@ -2419,7 +2483,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 97
+lessonSlide: 99
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-dimensione-distanza
 bookletRelation: current-only
@@ -2444,7 +2508,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 98
+lessonSlide: 100
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-13
 bookletRelation: current-only
@@ -2469,7 +2533,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 99
+lessonSlide: 101
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-24
 bookletRelation: current-only
@@ -2494,7 +2558,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-pair figure-comparison typography-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 100
+lessonSlide: 102
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-14
 bookletRelation: current-only
@@ -2522,7 +2586,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 101
+lessonSlide: 103
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-unita-colore-tipografico
 bookletRelation: current-only
@@ -2547,7 +2611,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 102
+lessonSlide: 104
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-evidenze-leggibilita
 bookletRelation: current-only
@@ -2574,7 +2638,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 103
+lessonSlide: 105
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-lettore-reflow
 bookletRelation: current-only
@@ -2599,7 +2663,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide chapter-slide section-divider
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 104
+lessonSlide: 106
 lessonMinutes: 0
 routeAlias: tipografia-griglie-sezione-composizione
 sectionDivider: true
@@ -2626,7 +2690,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 105
+lessonSlide: 107
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-contenuto-ruoli
 bookletRelation: current-only
@@ -2653,7 +2717,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 106
+lessonSlide: 108
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-23
 bookletRelation: current-only
@@ -2680,7 +2744,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 107
+lessonSlide: 109
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-ortotipografia
 bookletRelation: current-only
@@ -2707,7 +2771,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 108
+lessonSlide: 110
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-enfasi-tipografica
 bookletRelation: current-only
@@ -2732,7 +2796,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 109
+lessonSlide: 111
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-25
 bookletRelation: current-only
@@ -2757,7 +2821,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 110
+lessonSlide: 112
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-tipo-fallback-verifica
 bookletRelation: current-only
@@ -2784,7 +2848,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 111
+lessonSlide: 113
 lessonMinutes: 0.5
 routeAlias: tipografia-griglie-fonti
 bookletRelation: current-only
@@ -2810,7 +2874,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 112
+lessonSlide: 114
 lessonMinutes: 10
 routeAlias: tipografia-griglie-26
 bookletPages: [161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182]
@@ -2837,7 +2901,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide concept-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 113
+lessonSlide: 115
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-44
 bookletPages: [157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182]
@@ -2860,7 +2924,7 @@ layout: default
 class: content-slide ux-process-lesson lesson-slide reading-slide
 footer: "Tipografia"
 lesson: tipografia-griglie
-lessonSlide: 114
+lessonSlide: 116
 lessonMinutes: 2.0
 routeAlias: tipografia-griglie-45
 bookletPages: [157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182]

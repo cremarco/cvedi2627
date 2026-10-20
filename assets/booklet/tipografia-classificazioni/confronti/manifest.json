@@ -1,0 +1,1075 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Authentic supplementary examples for the typography classification section",
+  "construction": "Original diagrams from original-font outlines. FontTools pins every axis before CoreText CTLine/CTRun shaping. Only baseline translations and y-axis reflection; no synthetic weight, slant or width. Transparent backgrounds, no frames.",
+  "fonts": [
+    {
+      "id": "times",
+      "family": "Times New Roman",
+      "path": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+      "sourceUrl": "https://learn.microsoft.com/en-us/typography/font-list/times-new-roman",
+      "sha256": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3",
+      "bytes": 824920,
+      "postscriptName": "TimesNewRomanPSMT",
+      "version": "Version 5.01.4x",
+      "copyright": "© 2006 The Monotype Corporation. All Rights Reserved.",
+      "axes": {},
+      "fontBinaryRedistributedInPublic": false,
+      "license": "Installed macOS font licence; original copyright retained. No open-licence claim.",
+      "originalPreservedInProject": false,
+      "preservation": "Installed source file referenced by exact path and SHA256; only document outlines are published."
+    },
+    {
+      "id": "georgia",
+      "family": "Georgia",
+      "path": "/System/Library/Fonts/Supplemental/Georgia.ttf",
+      "sourceUrl": "https://learn.microsoft.com/en-us/typography/font-list/georgia",
+      "sha256": "4f54eb299fccea7f103edeb0d92437359bfd4441811d53222b82b335369f6218",
+      "bytes": 379588,
+      "postscriptName": "Georgia",
+      "version": "Version 5.00x-4",
+      "copyright": "© 2006 Microsoft Corporation. All Rights Reserved.",
+      "axes": {},
+      "fontBinaryRedistributedInPublic": false,
+      "license": "Installed macOS font licence; original copyright retained. No open-licence claim.",
+      "originalPreservedInProject": false,
+      "preservation": "Installed source file referenced by exact path and SHA256; only document outlines are published."
+    },
+    {
+      "id": "bitter",
+      "family": "Bitter",
+      "path": "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/bitter",
+      "sha256": "ef2b9a711fb02f1e5823b34da1b7450e0fc76793b7d733a8b41006e24916d4a7",
+      "bytes": 328636,
+      "postscriptName": "Bitter-Thin",
+      "version": "Version 3.021",
+      "copyright": "Copyright 2011 The Bitter Project Authors (https://github.com/solmatas/BitterPro)",
+      "axes": {
+        "wght": {
+          "minimum": 100.0,
+          "default": 100.0,
+          "maximum": 900.0
+        }
+      },
+      "fontBinaryRedistributedInPublic": false,
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/font-previews/downloads/bitter/OFL.txt",
+      "licenseSha256": "152a1e283e23b42c4940da4c72f2f5bebaa17969cb77c76d7af05903846006f1",
+      "originalPreservedInProject": true
+    },
+    {
+      "id": "arvo",
+      "family": "Arvo",
+      "path": "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf",
+      "sha256": "f41bd41471ec2db7140351bdde614da5341524503598ff7fe79f3c89c13b605e",
+      "bytes": 38780,
+      "postscriptName": "Arvo",
+      "version": "Version 1.006 2010 beta release; ttfautohint (v1.8.2)",
+      "copyright": "Copyright (c) 2010 Anton Koovit.",
+      "axes": {},
+      "fontBinaryRedistributedInPublic": false,
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+      "licenseSha256": "359671bf16c00cae69cb66d041296b2adc7a4becd73a463cb8c5e101d97c7986",
+      "originalPreservedInProject": true
+    },
+    {
+      "id": "gotico",
+      "family": "UnifrakturMaguntia",
+      "path": "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/unifrakturmaguntia",
+      "sha256": "d64afc0547059dd2e4a78da48bda0aba0a9901be58c7f8c201a8b2b6b4492cc8",
+      "bytes": 88508,
+      "postscriptName": "UnifrakturMaguntia",
+      "version": "Version 2010-11-24 ",
+      "copyright": "Copyright (c) 2010 j. 'mach' wust with Reserved Font Name UnifrakturMaguntia.\nCopyright (c) 2009 Peter Wiegel.\n\nThis Font Software is licensed under the SIL Open Font License, Version 1.1.",
+      "axes": {},
+      "fontBinaryRedistributedInPublic": false,
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/OFL.txt",
+      "licenseSha256": "96199bf9ff12dd471a66911dee95440737b437e7f5a6fd30e9e950c16d66e8df",
+      "originalPreservedInProject": true
+    },
+    {
+      "id": "plex-sans",
+      "family": "IBM Plex Sans",
+      "path": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexsans/IBMPlexSans%5Bwdth%2Cwght%5D.ttf",
+      "sha256": "3b031aa4216174205bd8471f88a49b91f093169e9e87bd5262242bc5967fe2e3",
+      "bytes": 537244,
+      "postscriptName": "IBMPlexSans-Regular",
+      "version": "Version 3.201",
+      "copyright": "Copyright 2019 IBM Corp. All rights reserved.",
+      "axes": {
+        "wght": {
+          "minimum": 100.0,
+          "default": 400.0,
+          "maximum": 700.0
+        },
+        "wdth": {
+          "minimum": 75.0,
+          "default": 100.0,
+          "maximum": 100.0
+        }
+      },
+      "fontBinaryRedistributedInPublic": false,
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+      "licenseSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "originalPreservedInProject": true
+    },
+    {
+      "id": "plex-serif",
+      "family": "IBM Plex Serif",
+      "path": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexserif/IBMPlexSerif-Regular.ttf",
+      "sha256": "e882efa9c41949a528ac2369079ec5ef050c1c996bbd0bacce3c3326d44cf80d",
+      "bytes": 163068,
+      "postscriptName": "IBMPlexSerif-Regular",
+      "version": "Version 2.6",
+      "copyright": "Copyright 2020 IBM Corp. All rights reserved.",
+      "axes": {},
+      "fontBinaryRedistributedInPublic": false,
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+      "licenseSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "originalPreservedInProject": true
+    },
+    {
+      "id": "plex-mono",
+      "family": "IBM Plex Mono",
+      "path": "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+      "sourceUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/ibmplexmono/IBMPlexMono-Regular.ttf",
+      "sha256": "6a3412f058c7d8dfd9170c41e85ade48e5156ecb89356110ca57a0a27734af46",
+      "bytes": 135580,
+      "postscriptName": "IBMPlexMono-Regular",
+      "version": "Version 2.3",
+      "copyright": "Copyright 2017 IBM Corp. All rights reserved.",
+      "axes": {},
+      "fontBinaryRedistributedInPublic": false,
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+      "licenseSha256": "7e6b2818edbd8f6a01ae80641cc8f16a51080d08fb4e532be3a0b6f74adb07da",
+      "originalPreservedInProject": true
+    },
+    {
+      "id": "label",
+      "family": "Nunito",
+      "path": "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+      "sourceUrl": "https://github.com/googlefonts/nunito",
+      "sha256": "a37935a46508b065a4217678b2b4d1c73f47ab6050e8ba355dea778c3a49b0d0",
+      "bytes": 441120,
+      "postscriptName": "Nunito-ExtraLight",
+      "version": "Version 3.602",
+      "copyright": "Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito)",
+      "axes": {
+        "wght": {
+          "minimum": 200.0,
+          "default": 200.0,
+          "maximum": 1000.0
+        },
+        "ital": {
+          "minimum": 0.0,
+          "default": 0.0,
+          "maximum": 1.0
+        }
+      },
+      "fontBinaryRedistributedInPublic": false,
+      "license": "SIL Open Font License 1.1",
+      "licensePath": "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+      "licenseSha256": "580df76c95a1ec5ab878ceb25bb3d85c6a076804e9c970c8c6972aea775fdf65",
+      "originalPreservedInProject": true
+    }
+  ],
+  "outputs": [
+    {
+      "id": "tipografia-classificazioni-times-georgia",
+      "title": "Times New Roman e Georgia allo stesso corpo",
+      "description": "Due font originali confrontati con lo stesso testo e lo stesso corpo: ag 012345 a 64 px; Leggere le parole a 36 px. Le diverse proporzioni delle minuscole e delle cifre restano visibili.",
+      "sourceLinks": [
+        "https://learn.microsoft.com/en-us/typography/font-list/times-new-roman",
+        "https://learn.microsoft.com/en-us/typography/font-list/georgia"
+      ],
+      "path": "assets/booklet/tipografia-classificazioni/confronti/times-georgia.svg",
+      "publishedPath": "public/images/tipografia/classificazioni-times-georgia-a15a21543e62.svg",
+      "naturalWidth": 640,
+      "naturalHeight": 440,
+      "sha256": "a15a21543e62bad5d84d998d971fe18d85ad3df5b1f9e770a58358f9199ace18",
+      "bytes": 96049,
+      "fonts": [
+        "times",
+        "georgia"
+      ],
+      "specimens": [
+        {
+          "figure": "times-georgia",
+          "slug": "times-georgia-times-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 28,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Times New Roman",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            -0.066,
+            -0.21999999999999997,
+            191.708,
+            16.081999999999997
+          ],
+          "advanceWidth": 193.00600000000003,
+          "glyphCount": 15
+        },
+        {
+          "figure": "times-georgia",
+          "slug": "times-georgia-times-letters",
+          "fontId": "times",
+          "x": 12,
+          "baseline": 109,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "ag 012345",
+          "bodyPx": 64,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            2.28125,
+            -13.8125,
+            261.90625,
+            57.0625
+          ],
+          "advanceWidth": 268.40625,
+          "glyphCount": 9
+        },
+        {
+          "figure": "times-georgia",
+          "slug": "times-georgia-times-sentence",
+          "fontId": "times",
+          "x": 12,
+          "baseline": 165,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "Leggere le parole",
+          "bodyPx": 36,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            0.720703125,
+            -7.76953125,
+            250.1015625,
+            32.765625
+          ],
+          "advanceWidth": 251.841796875,
+          "glyphCount": 17
+        },
+        {
+          "figure": "times-georgia",
+          "slug": "times-georgia-georgia-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 232,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Georgia",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.188,
+            -4.18,
+            77.61599999999999,
+            20.041999999999998
+          ],
+          "advanceWidth": 80.16799999999999,
+          "glyphCount": 7
+        },
+        {
+          "figure": "times-georgia",
+          "slug": "times-georgia-georgia-letters",
+          "fontId": "georgia",
+          "x": 12,
+          "baseline": 313,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "ag 012345",
+          "bodyPx": 64,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            2.5,
+            -13.875,
+            282.90625,
+            48.40625
+          ],
+          "advanceWidth": 288.09375,
+          "glyphCount": 9
+        },
+        {
+          "figure": "times-georgia",
+          "slug": "times-georgia-georgia-sentence",
+          "fontId": "georgia",
+          "x": 12,
+          "baseline": 369,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "Leggere le parole",
+          "bodyPx": 36,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.72265625,
+            -7.8046875,
+            268.5234375,
+            35.015625
+          ],
+          "advanceWidth": 270.984375,
+          "glyphCount": 17
+        },
+        {
+          "figure": "times-georgia",
+          "slug": "times-georgia-body",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 432,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Stesso testo · stesso corpo",
+          "bodyPx": 18,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            0.879157894736842,
+            -3.384,
+            220.77284210526315,
+            16.253999999999998
+          ],
+          "advanceWidth": 222.33599999999993,
+          "glyphCount": 27
+        }
+      ]
+    },
+    {
+      "id": "tipografia-classificazioni-slab",
+      "title": "Bitter e Arvo: grazie robuste",
+      "description": "Bitter e Arvo Regular allo stesso corpo: H n o a 76 px e Tipo a 48 px. I campioni mostrano differenze negli innesti e nelle forme delle grazie senza attribuire un tono universale ai caratteri.",
+      "sourceLinks": [
+        "https://github.com/google/fonts/tree/main/ofl/bitter",
+        "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf"
+      ],
+      "path": "assets/booklet/tipografia-classificazioni/confronti/slab.svg",
+      "publishedPath": "public/images/tipografia/classificazioni-slab-7489a51ed0aa.svg",
+      "naturalWidth": 640,
+      "naturalHeight": 440,
+      "sha256": "7489a51ed0aadf5b076aa2586f5b77a1cc13985907603005fba3074e4672c4d6",
+      "bytes": 102477,
+      "fonts": [
+        "bitter",
+        "arvo"
+      ],
+      "specimens": [
+        {
+          "figure": "slab",
+          "slug": "slab-bitter-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 30,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Bitter · slab serif",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.694,
+            -0.21999999999999997,
+            167.4482857142857,
+            16.081999999999997
+          ],
+          "advanceWidth": 168.69599999999997,
+          "glyphCount": 19
+        },
+        {
+          "figure": "slab",
+          "slug": "slab-bitter-letters",
+          "fontId": "bitter",
+          "x": 12,
+          "baseline": 121,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 400
+          },
+          "text": "H n o",
+          "bodyPx": 76,
+          "pinnedCoordinates": {
+            "wght": 400
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            3.7239999999999998,
+            -0.6839999999999999,
+            175.484,
+            53.732
+          ],
+          "advanceWidth": 182.70399999999998,
+          "glyphCount": 5
+        },
+        {
+          "figure": "slab",
+          "slug": "slab-bitter-word",
+          "fontId": "bitter",
+          "x": 370,
+          "baseline": 118,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 400
+          },
+          "text": "Tipo",
+          "bodyPx": 48,
+          "pinnedCoordinates": {
+            "wght": 400
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.296,
+            -11.040000000000001,
+            93.984,
+            47.088
+          ],
+          "advanceWidth": 97.48800000000001,
+          "glyphCount": 4
+        },
+        {
+          "figure": "slab",
+          "slug": "slab-bitter-instruction",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 179,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Osserva gli innesti fra aste e grazie",
+          "bodyPx": 20,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.08,
+            -3.8000000000000003,
+            324.14000000000004,
+            18.22
+          ],
+          "advanceWidth": 325.89999999999986,
+          "glyphCount": 37
+        },
+        {
+          "figure": "slab",
+          "slug": "slab-arvo-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 246,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Arvo · slab serif",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            0.6007692307692307,
+            -0.21999999999999997,
+            160.7755164835165,
+            16.081999999999997
+          ],
+          "advanceWidth": 160.93000000000004,
+          "glyphCount": 17
+        },
+        {
+          "figure": "slab",
+          "slug": "slab-arvo-letters",
+          "fontId": "arvo",
+          "x": 12,
+          "baseline": 337,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "H n o",
+          "bodyPx": 76,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            5.306640625,
+            -1.150390625,
+            188.73828125,
+            57.408203125
+          ],
+          "advanceWidth": 197.79296875,
+          "glyphCount": 5
+        },
+        {
+          "figure": "slab",
+          "slug": "slab-arvo-word",
+          "fontId": "arvo",
+          "x": 370,
+          "baseline": 334,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "Tipo",
+          "bodyPx": 48,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            0.9609375,
+            -11.0390625,
+            103.6640625,
+            46.9453125
+          ],
+          "advanceWidth": 106.9921875,
+          "glyphCount": 4
+        },
+        {
+          "figure": "slab",
+          "slug": "slab-arvo-instruction",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 395,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Osserva gli innesti fra aste e grazie",
+          "bodyPx": 20,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.08,
+            -3.8000000000000003,
+            324.14000000000004,
+            18.22
+          ],
+          "advanceWidth": 325.89999999999986,
+          "glyphCount": 37
+        }
+      ]
+    },
+    {
+      "id": "tipografia-classificazioni-gotico",
+      "title": "Il ritmo della Fraktur",
+      "description": "UnifrakturMaguntia, un font contemporaneo di tradizione Fraktur: Tipografia a 82 px; h o n a 104 px. Tratti spezzati e alternanza verticale sono osservabili nei contorni autentici. Fraktur è una direzione della blackletter; il campione non è identificato come Textura di Gutenberg.",
+      "sourceLinks": [
+        "https://github.com/google/fonts/tree/main/ofl/unifrakturmaguntia",
+        "https://github.com/google/fonts/blob/main/cc-by-sa/knowledge/glossary/terms/blackletter/content.md"
+      ],
+      "path": "assets/booklet/tipografia-classificazioni/confronti/gotico.svg",
+      "publishedPath": "public/images/tipografia/classificazioni-gotico-ac297dc88911.svg",
+      "naturalWidth": 640,
+      "naturalHeight": 440,
+      "sha256": "ac297dc889119bffa2aed9ae2cb2d6b2f6c3b9adafdfab7011967d458a59c2b2",
+      "bytes": 112825,
+      "fonts": [
+        "gotico"
+      ],
+      "specimens": [
+        {
+          "figure": "gotico",
+          "slug": "gotico-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 32,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "UnifrakturMaguntia · Fraktur",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.5839999999999999,
+            -4.18,
+            290.64767741935475,
+            20.041999999999998
+          ],
+          "advanceWidth": 292.2919999999999,
+          "glyphCount": 28
+        },
+        {
+          "figure": "gotico",
+          "slug": "gotico-word",
+          "fontId": "gotico",
+          "x": 12,
+          "baseline": 160,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "Tipografia",
+          "bodyPx": 82,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.9619140625,
+            -16.433395218063186,
+            333.46042158018867,
+            75.06077187016892
+          ],
+          "advanceWidth": 337.2490234375,
+          "glyphCount": 9
+        },
+        {
+          "figure": "gotico",
+          "slug": "gotico-detail",
+          "fontId": "gotico",
+          "x": 12,
+          "baseline": 310,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "h o n",
+          "bodyPx": 104,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            2.4864676339285716,
+            -17.729783442982455,
+            197.21725323471549,
+            90.08253228557504
+          ],
+          "advanceWidth": 202.46484375,
+          "glyphCount": 5
+        },
+        {
+          "figure": "gotico",
+          "slug": "gotico-angular",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 376,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Tratti spezzati",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            -0.066,
+            -4.136,
+            142.34,
+            19.997999999999998
+          ],
+          "advanceWidth": 143.462,
+          "glyphCount": 15
+        },
+        {
+          "figure": "gotico",
+          "slug": "gotico-rhythm",
+          "fontId": "label",
+          "x": 330,
+          "baseline": 376,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Ritmo verticale",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.694,
+            -0.21999999999999997,
+            152.70199999999997,
+            16.081999999999997
+          ],
+          "advanceWidth": 155.14399999999998,
+          "glyphCount": 15
+        },
+        {
+          "figure": "gotico",
+          "slug": "gotico-identity",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 420,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "Un disegno contemporaneo della tradizione gotica",
+          "bodyPx": 20,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.44,
+            -3.8000000000000003,
+            464.06000000000006,
+            18.22
+          ],
+          "advanceWidth": 466.7399999999999,
+          "glyphCount": 48
+        }
+      ]
+    },
+    {
+      "id": "tipografia-classificazioni-superfamiglia",
+      "title": "IBM Plex: tre disegni della stessa superfamiglia",
+      "description": "IBM Plex Serif, Sans e Mono Regular: la stessa parola Tipografia a 62 px. Le etichette distinguono grazie, assenza delle grazie e avanzamento monospaziato. La parentela è documentata da IBM, non dedotta da una semplice somiglianza.",
+      "sourceLinks": [
+        "https://www.ibm.com/design/impact/plex/",
+        "https://github.com/IBM/plex/"
+      ],
+      "path": "assets/booklet/tipografia-classificazioni/confronti/superfamiglia.svg",
+      "publishedPath": "public/images/tipografia/classificazioni-superfamiglia-0ac6828d866f.svg",
+      "naturalWidth": 640,
+      "naturalHeight": 450,
+      "sha256": "0ac6828d866f22f720af3fc873d7cf75ca411afabb2f00bfdc355d5f345c5050",
+      "bytes": 87427,
+      "fonts": [
+        "plex-serif",
+        "plex-sans",
+        "plex-mono"
+      ],
+      "specimens": [
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-serif-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 27,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "IBM Plex Serif",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.694,
+            -0.21999999999999997,
+            144.2822857142857,
+            16.081999999999997
+          ],
+          "advanceWidth": 145.52999999999997,
+          "glyphCount": 14
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-serif-word",
+          "fontId": "plex-serif",
+          "x": 12,
+          "baseline": 105,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "Tipografia",
+          "bodyPx": 62,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            2.17,
+            -13.144,
+            297.04200000000003,
+            60.263999999999996
+          ],
+          "advanceWidth": 301.382,
+          "glyphCount": 9
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-serif-meaning",
+          "fontId": "label",
+          "x": 454,
+          "baseline": 85,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "con grazie",
+          "bodyPx": 20,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            0.76,
+            -3.8000000000000003,
+            92.61999999999999,
+            18.22
+          ],
+          "advanceWidth": 94.06,
+          "glyphCount": 10
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-sans-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 177,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "IBM Plex Sans",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.694,
+            -0.21999999999999997,
+            144.54000000000002,
+            15.95
+          ],
+          "advanceWidth": 147.004,
+          "glyphCount": 13
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-sans-word",
+          "fontId": "plex-sans",
+          "x": 12,
+          "baseline": 255,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 400,
+            "wdth": 100.0
+          },
+          "text": "Tipografia",
+          "bodyPx": 62,
+          "pinnedCoordinates": {
+            "wght": 400,
+            "wdth": 100.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.3639999999999999,
+            -13.144,
+            275.094,
+            59.024
+          ],
+          "advanceWidth": 278.256,
+          "glyphCount": 9
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-sans-meaning",
+          "fontId": "label",
+          "x": 454,
+          "baseline": 235,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "senza grazie",
+          "bodyPx": 20,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            0.784375,
+            -3.8000000000000003,
+            112.755625,
+            18.22
+          ],
+          "advanceWidth": 114.22000000000001,
+          "glyphCount": 12
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-mono-name",
+          "fontId": "label",
+          "x": 12,
+          "baseline": 327,
+          "color": "#17608b",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "IBM Plex Mono",
+          "bodyPx": 22,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.694,
+            -0.21999999999999997,
+            152.26200000000003,
+            15.906
+          ],
+          "advanceWidth": 154.792,
+          "glyphCount": 13
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-mono-word",
+          "fontId": "plex-mono",
+          "x": 12,
+          "baseline": 405,
+          "color": "#2c333f",
+          "coordinates": {},
+          "text": "Tipografia",
+          "bodyPx": 62,
+          "pinnedCoordinates": {},
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.55,
+            -13.144,
+            367.34999999999997,
+            59.519999999999996
+          ],
+          "advanceWidth": 371.99999999999994,
+          "glyphCount": 10
+        },
+        {
+          "figure": "superfamiglia",
+          "slug": "superfamiglia-plex-mono-meaning",
+          "fontId": "label",
+          "x": 454,
+          "baseline": 385,
+          "color": "#2c333f",
+          "coordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "text": "monospazio",
+          "bodyPx": 20,
+          "pinnedCoordinates": {
+            "wght": 700,
+            "ital": 0.0
+          },
+          "coreTextVariationParameters": {},
+          "inkBounds": [
+            1.34,
+            -3.7600000000000002,
+            108.97999999999999,
+            18.18
+          ],
+          "advanceWidth": 111.07999999999998,
+          "glyphCount": 10
+        }
+      ]
+    }
+  ],
+  "retainedSources": [
+    "assets/booklet/tipografia-classificazioni/confronti/generate.py",
+    "assets/booklet/tipografia-classificazioni/confronti/outline-text.swift",
+    "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+    "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+    "assets/font-previews/downloads/bitter/OFL.txt",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+    "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+    "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/OFL.txt",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+    "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+    "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+    "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ibm.com/design/impact/plex/",
+      "verifiedClaim": "IBM documents Sans, Sans Condensed, Mono and Serif as members of the same Plex family."
+    }
+  ],
+  "monoVerification": {
+    "font": "plex-mono",
+    "text": "Tipografia",
+    "sourceAdvanceUnits": [
+      600,
+      600,
+      600,
+      600,
+      600,
+      600,
+      600,
+      600,
+      600,
+      600
+    ],
+    "equalAdvance": true
+  },
+  "generator": {
+    "path": "assets/booklet/tipografia-classificazioni/confronti/generate.py",
+    "sha256": "50bf7fd94eb57f0a063e9b100efff3e6624b6d46e369d273192ac0fa535d7a22",
+    "helper": "assets/booklet/tipografia-classificazioni/confronti/outline-text.swift",
+    "helperSha256": "9a55c74e8634b27c3b3b112ae222a51ed6577f8b2f1bc4e23336f46be1465a54",
+    "fontToolsVersion": "4.67.0"
+  },
+  "guards": [
+    "Exact font-file URL",
+    "Exact PostScript face",
+    "No fallback runs",
+    "All glyphs available",
+    "Every axis frozen before shaping",
+    "All ink fits SVG viewBox"
+  ]
+}

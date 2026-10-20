@@ -16,6 +16,10 @@ Nelle slide storiche 7–22, `LessonHistoryPeriod` mostra data o intervallo in a
 
 La slide 10 confronta due estratti impilati ed etichettati: gotico della Bibbia di Gutenberg e romano di Jenson. Il dettaglio gotico seleziona tre righe tramite viewport SVG sul JPEG originale Bayerische Staatsbibliothek / HUMI Project. Fonte, diritti Public Domain Mark 1.0 e coordinate restano in `assets/booklet/tipografia-gotico/`.
 
+La slide 41 spiega i cinque assi registrati con coppie di contorni autentici di Roboto Serif, Roboto Flex e Nunito. Ogni coppia cambia un solo asse e mantiene il corpo visualizzato; `slnt` e `ital` restano distinti e `opsz` mostra il cambiamento del disegno. Etichette, valori e campioni appartengono a un’unica figura vettoriale con l’ingrandimento condiviso. Font originali, licenze, coordinate e generatore sono conservati in `assets/booklet/tipografia-assi-variabili/`.
+
+Le slide 44–51 presentano la classificazione come osservazione di terminazioni, spessori e costruzione. Otto figure con campioni autentici mostrano la panoramica, i serif, Times/Georgia, gli slab, i sans, gli script, il gotico e una superfamiglia coordinata. I confronti mantengono testo e corpo; le lettere rilevanti sono ingrandite, con nomi e criteri accanto. Script e gotico hanno slide distinte. Le tre figure del booklet precedenti restano conservate come originali; i manifest in `assets/booklet/tipografia-classificazioni/` documentano font, licenze, istanze e nuove pubblicazioni. Le note mantengono i riferimenti storici e guidano la lettura dei campioni.
+
 ## Anteprime dei font
 
 I nomi dei font aprono l’anteprima dalla parola stessa. Una sottolineatura tratteggiata da 1 px nel primario della lezione (`--section-primary`), con offset 0,16 em, li distingue dai link. Testo, metriche e possibilità di andare a capo restano quelli originali.
@@ -30,10 +34,10 @@ Il trasformatore annota soltanto nomi completi nel testo visibile. Conserva link
 
 `LessonVideo` usa `data/lesson-videos.json`: player 16:9 largo 760 px, centrato senza cornice, titolo e autore con link diretto. L’iframe viene montato soltanto sulla slide attiva e visibile, senza autoplay; cambio slide, scheda nascosta e stampa lo rimuovono. La stampa conserva titolo e URL. Il video Linotype occupa la slide 16; i due minuti pianificati sono un budget didattico.
 
-La vista relatore nativa di Slidev resta abilitata con `presenter: true`, barra strumenti nativa, slide corrente, successiva e timer. Tutte le 114 slide di Tipografia hanno note autorizzate: prosa semplice, parole chiave in grassetto e paragrafi brevi separati da una riga vuota. Le altre lezioni restano senza note.
+La vista relatore nativa di Slidev resta abilitata con `presenter: true`, barra strumenti nativa, slide corrente, successiva e timer. Tutte le 116 slide di Tipografia hanno note autorizzate: prosa semplice, parole chiave in grassetto e paragrafi brevi separati da una riga vuota. Le altre lezioni restano senza note.
 
 ## Percorso e pubblicazione
 
-La lezione comprende 114 slide e 69,5 minuti pianificati, con un’attività di 10 minuti. Le 19 slide su griglie e interfacce e la slide sulle prove esplorative restano nei rispettivi archivi con note, mapping, fonti e asset. Le tavole autonome di Cereal e Netflix Sans non avevano slide dedicate; il confronto generale resta attivo.
+La lezione comprende 116 slide e 71,5 minuti pianificati, con un’attività di 10 minuti. Le 19 slide su griglie e interfacce e la slide sulle prove esplorative restano nei rispettivi archivi con note, mapping, fonti e asset. Le tavole autonome di Cereal e Netflix Sans non avevano slide dedicate; il confronto generale resta attivo.
 
-Tipografia è disponibile in locale e online come presentazione autonoma. Il corso pubblica 717 slide e ne conserva 793 in locale; soltanto le lezioni 09–10 restano `localOnly`. Immagini e font pubblici sono condivisi; la build conserva gli asset effettivamente citati e non precarica globalmente le immagini. Verificare sorgenti, build, indice, figure, tooltip, vista relatore, viewport stretto e stampa attraverso un’anteprima isolata.
+Tipografia è disponibile in locale e online come presentazione autonoma. Il corso pubblica 719 slide e ne conserva 795 in locale; soltanto le lezioni 09–10 restano `localOnly`. Immagini e font pubblici sono condivisi; la build conserva gli asset effettivamente citati e non precarica globalmente le immagini. Verificare sorgenti, build, indice, figure, tooltip, vista relatore, viewport stretto e stampa attraverso un’anteprima isolata.

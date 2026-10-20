@@ -15455,33 +15455,69 @@
       "figureId": "4369:45409",
       "nodeId": "4369:45409",
       "masterId": "4366:18015",
-      "title": "Booklet / Teston / Immagini impaginate / 3.288 / specimen-serif-famiglie",
-      "caption": "Quattro direzioni dei serif: EB Garamond, Libre Baskerville, Bodoni Moda e Bitter, con lo stesso testo e corpo 40. Specimen originali dai font; SIL OFL 1.1.",
-      "sourceLinks": [],
+      "title": "Quattro direzioni dei serif",
+      "caption": "EB Garamond, Libre Baskerville, Bodoni Moda e Bitter, a corpo uguale. Contorni autentici; SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://www.monotype.com/resources/guide-type-styles",
+        "https://github.com/google/fonts/tree/main/ofl/bitter",
+        "https://github.com/google/fonts/tree/main/ofl/bodonimoda",
+        "https://github.com/google/fonts/tree/main/ofl/ebgaramond",
+        "https://github.com/googlefonts/nunito",
+        "https://github.com/google/fonts/tree/main/ofl/librebaskerville"
+      ],
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
-      "naturalWidth": 389.0,
-      "naturalHeight": 278.0,
+      "naturalWidth": 640,
+      "naturalHeight": 456,
       "original": "assets/booklet/lezione-08-tipografia/originals/4369-45409.svg",
-      "web": "/images/tipografia/4369-45409-5fafed9a8a86.svg",
-      "retainedSources": [],
+      "web": "/images/tipografia/classificazioni-serif-d80a2a4acfca.svg",
+      "retainedSources": [
+        "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+        "assets/font-previews/downloads/bitter/OFL.txt",
+        "assets/font-previews/downloads/bodonimoda/BodoniModa[opsz,wght].ttf",
+        "assets/font-previews/downloads/bodonimoda/OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/EBGaramond[wght].ttf",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/EBGaramond-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+        "assets/font-previews/downloads/librebaskerville/LibreBaskerville[wght].ttf",
+        "assets/font-previews/downloads/librebaskerville/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/forme/generate.py",
+        "assets/booklet/tipografia-classificazioni/forme/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/forme/manifest.json"
+      ],
       "originalBytes": 121389,
-      "webBytes": 121389,
+      "webBytes": 154552,
       "sha256": "5fafed9a8a8612a50185286ec4ef76c25b20d3db3d21741d2df99065bbe54f2d",
-      "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4369-45409.svg",
-      "publicationSourceSha256": "5fafed9a8a8612a50185286ec4ef76c25b20d3db3d21741d2df99065bbe54f2d",
-      "publicationSha256": "5fafed9a8a8612a50185286ec4ef76c25b20d3db3d21741d2df99065bbe54f2d",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/forme/serif.svg",
+      "publicationSourceSha256": "d80a2a4acfcab6551dab4faeb0a0f06d9a6a153de2b6081b8b5147d6c48d9c57",
+      "publicationSha256": "d80a2a4acfcab6551dab4faeb0a0f06d9a6a153de2b6081b8b5147d6c48d9c57",
       "encoding": {
         "format": "SVG",
         "lossless": true,
         "exactAlpha": true,
-        "text": "Original font outlines"
+        "text": "Authentic font-instance outlines, positioned with CoreText."
       },
       "provenance": {
-        "kind": "figma-native-export",
-        "acquiredAt": "2026-10-19",
-        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
-        "pageId": "4226:16023",
-        "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+        "kind": "authentic-font-comparison",
+        "revisedAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/forme/manifest.json",
+        "scope": "Larger teaching specimens revise the published figure; the acquired booklet SVG remains byte-identical in original.",
+        "previousPublication": {
+          "title": "Booklet / Teston / Immagini impaginate / 3.288 / specimen-serif-famiglie",
+          "caption": "Quattro direzioni dei serif: EB Garamond, Libre Baskerville, Bodoni Moda e Bitter, con lo stesso testo e corpo 40. Specimen originali dai font; SIL OFL 1.1.",
+          "web": "/images/tipografia/4369-45409-5fafed9a8a86.svg",
+          "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4369-45409.svg",
+          "publicationSourceSha256": "5fafed9a8a8612a50185286ec4ef76c25b20d3db3d21741d2df99065bbe54f2d",
+          "publicationSha256": "5fafed9a8a8612a50185286ec4ef76c25b20d3db3d21741d2df99065bbe54f2d",
+          "provenance": {
+            "kind": "figma-native-export",
+            "acquiredAt": "2026-10-19",
+            "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+            "pageId": "4226:16023",
+            "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+          }
+        },
+        "aiGenerated": false
       }
     },
     {
@@ -15491,33 +15527,66 @@
       "figureId": "4369:45771",
       "nodeId": "4369:45771",
       "masterId": "4366:18019",
-      "title": "Booklet / Teston / Immagini impaginate / 3.289 / specimen-sans-direzioni",
-      "caption": "Work Sans, Alegreya Sans e Quicksand: direzioni grottesca, umanistica e geometrica, confrontate con lo stesso testo e corpo. Specimen originali dai font; SIL OFL 1.1.",
-      "sourceLinks": [],
+      "title": "Tre costruzioni dei sans serif",
+      "caption": "Work Sans, Alegreya Sans e Quicksand. Stessi campioni e corpo; contorni autentici, SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://www.monotype.com/resources/guide-type-styles",
+        "https://github.com/google/fonts/tree/main/ofl/alegreyasans",
+        "https://github.com/googlefonts/nunito",
+        "https://github.com/google/fonts/tree/main/ofl/quicksand",
+        "https://github.com/google/fonts/tree/main/ofl/worksans"
+      ],
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
-      "naturalWidth": 389.0,
-      "naturalHeight": 176.0,
+      "naturalWidth": 640,
+      "naturalHeight": 456,
       "original": "assets/booklet/lezione-08-tipografia/originals/4369-45771.svg",
-      "web": "/images/tipografia/4369-45771-cb3fa9fef4d9.svg",
-      "retainedSources": [],
+      "web": "/images/tipografia/classificazioni-sans-2e83d733f164.svg",
+      "retainedSources": [
+        "assets/booklet/tipografia-campioni-uniformi/middle/originali/AlegreyaSans-Regular.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/middle/originali/AlegreyaSans-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/middle/originali/Quicksand-VF.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/middle/originali/Quicksand-OFL.txt",
+        "assets/booklet/tipografia-variabile/WorkSansVF.ttf",
+        "assets/booklet/tipografia-variabile/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/forme/generate.py",
+        "assets/booklet/tipografia-classificazioni/forme/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/forme/manifest.json"
+      ],
       "originalBytes": 90117,
-      "webBytes": 90117,
+      "webBytes": 151620,
       "sha256": "cb3fa9fef4d93ada70ad5e213dc169f76f8af3a700cf544c04267c35f90894b3",
-      "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4369-45771.svg",
-      "publicationSourceSha256": "cb3fa9fef4d93ada70ad5e213dc169f76f8af3a700cf544c04267c35f90894b3",
-      "publicationSha256": "cb3fa9fef4d93ada70ad5e213dc169f76f8af3a700cf544c04267c35f90894b3",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/forme/sans.svg",
+      "publicationSourceSha256": "2e83d733f1648329408a3293a0b59629cc7f567c6e5ebefd56c6501f765ec76c",
+      "publicationSha256": "2e83d733f1648329408a3293a0b59629cc7f567c6e5ebefd56c6501f765ec76c",
       "encoding": {
         "format": "SVG",
         "lossless": true,
         "exactAlpha": true,
-        "text": "Original font outlines"
+        "text": "Authentic font-instance outlines, positioned with CoreText."
       },
       "provenance": {
-        "kind": "figma-native-export",
-        "acquiredAt": "2026-10-19",
-        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
-        "pageId": "4226:16023",
-        "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+        "kind": "authentic-font-comparison",
+        "revisedAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/forme/manifest.json",
+        "scope": "Larger teaching specimens revise the published figure; the acquired booklet SVG remains byte-identical in original.",
+        "previousPublication": {
+          "title": "Booklet / Teston / Immagini impaginate / 3.289 / specimen-sans-direzioni",
+          "caption": "Work Sans, Alegreya Sans e Quicksand: direzioni grottesca, umanistica e geometrica, confrontate con lo stesso testo e corpo. Specimen originali dai font; SIL OFL 1.1.",
+          "web": "/images/tipografia/4369-45771-cb3fa9fef4d9.svg",
+          "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4369-45771.svg",
+          "publicationSourceSha256": "cb3fa9fef4d93ada70ad5e213dc169f76f8af3a700cf544c04267c35f90894b3",
+          "publicationSha256": "cb3fa9fef4d93ada70ad5e213dc169f76f8af3a700cf544c04267c35f90894b3",
+          "provenance": {
+            "kind": "figma-native-export",
+            "acquiredAt": "2026-10-19",
+            "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+            "pageId": "4226:16023",
+            "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+          }
+        },
+        "aiGenerated": false
       }
     },
     {
@@ -15527,33 +15596,63 @@
       "figureId": "4526:35447",
       "nodeId": "4526:35447",
       "masterId": "4366:18023",
-      "title": "Booklet / Teston / Immagini impaginate / 3.290 / specimen-script-blackletter",
-      "caption": "Pacifico e UnifrakturMaguntia: il gesto dello script e le forme della tradizione blackletter, nei disegni originali dei due font. Specimen originali; SIL Open Font License 1.1.",
-      "sourceLinks": [],
+      "title": "Due interpretazioni del gesto scritto",
+      "caption": "Pacifico e Great Vibes. Parole composte con le funzioni originali dei font; SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://www.monotype.com/resources/guide-type-styles",
+        "https://github.com/google/fonts/tree/main/ofl/greatvibes",
+        "https://github.com/googlefonts/nunito",
+        "https://github.com/google/fonts/tree/main/ofl/pacifico"
+      ],
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
-      "naturalWidth": 389.0,
-      "naturalHeight": 101.0,
+      "naturalWidth": 640,
+      "naturalHeight": 432,
       "original": "assets/booklet/lezione-08-tipografia/originals/4526-35447.svg",
-      "web": "/images/tipografia/4526-35447-17864b0b28c3.svg",
-      "retainedSources": [],
+      "web": "/images/tipografia/classificazioni-script-3a3140979a88.svg",
+      "retainedSources": [
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/GreatVibes-Regular.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/GreatVibes-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/Pacifico-Regular.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/Pacifico-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/forme/generate.py",
+        "assets/booklet/tipografia-classificazioni/forme/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/forme/manifest.json"
+      ],
       "originalBytes": 53669,
-      "webBytes": 53669,
+      "webBytes": 86658,
       "sha256": "17864b0b28c3745aa237e3c93b954e43f0ab314136e379f5d5ff4ba41cac41fa",
-      "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4526-35447.svg",
-      "publicationSourceSha256": "17864b0b28c3745aa237e3c93b954e43f0ab314136e379f5d5ff4ba41cac41fa",
-      "publicationSha256": "17864b0b28c3745aa237e3c93b954e43f0ab314136e379f5d5ff4ba41cac41fa",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/forme/script.svg",
+      "publicationSourceSha256": "3a3140979a881d9075dbbd7d2c29aede6409dfe4b92483b89d28dc3e2d5b9365",
+      "publicationSha256": "3a3140979a881d9075dbbd7d2c29aede6409dfe4b92483b89d28dc3e2d5b9365",
       "encoding": {
         "format": "SVG",
         "lossless": true,
         "exactAlpha": true,
-        "text": "Original font outlines"
+        "text": "Authentic font-instance outlines, positioned with CoreText."
       },
       "provenance": {
-        "kind": "figma-native-export",
-        "acquiredAt": "2026-10-19",
-        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
-        "pageId": "4226:16023",
-        "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+        "kind": "authentic-font-comparison",
+        "revisedAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/forme/manifest.json",
+        "scope": "Larger teaching specimens revise the published figure; the acquired booklet SVG remains byte-identical in original.",
+        "previousPublication": {
+          "title": "Booklet / Teston / Immagini impaginate / 3.290 / specimen-script-blackletter",
+          "caption": "Pacifico e UnifrakturMaguntia: il gesto dello script e le forme della tradizione blackletter, nei disegni originali dei due font. Specimen originali; SIL Open Font License 1.1.",
+          "web": "/images/tipografia/4526-35447-17864b0b28c3.svg",
+          "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4526-35447.svg",
+          "publicationSourceSha256": "17864b0b28c3745aa237e3c93b954e43f0ab314136e379f5d5ff4ba41cac41fa",
+          "publicationSha256": "17864b0b28c3745aa237e3c93b954e43f0ab314136e379f5d5ff4ba41cac41fa",
+          "provenance": {
+            "kind": "figma-native-export",
+            "acquiredAt": "2026-10-19",
+            "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+            "pageId": "4226:16023",
+            "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+          }
+        },
+        "aiGenerated": false
       }
     },
     {
@@ -18024,33 +18123,61 @@
       "figureId": "4370:46013",
       "nodeId": "4370:46013",
       "masterId": "4366:18269",
-      "title": "Booklet / Teston / Immagini impaginate / 3.331 / esempi-variabili-pack",
-      "caption": "Frutteto, marchio fittizio: stesso nome, stessa figura e stesso corpo nominale in EB Garamond Regular e Helvetica Regular. Dimostrazione originale del corso; contorni autentici dei due caratteri.",
-      "sourceLinks": [],
+      "title": "Tropicana Orange Tangerine: identità precedente e redesign del 2009",
+      "caption": "Tropicana Orange Tangerine: prima a sinistra, redesign del 2009 a destra. Foto Brian Alexander Gray, in D. Airey, Logo Design Love, 2ª ed., p. 61; estratto Pearson.",
+      "sourceLinks": [
+        "https://www.pearson.de/media/muster/ext/9780133812770.pdf"
+      ],
       "currentSource": "assets/booklet/lezione-08-tipografia/figma-source.json",
-      "naturalWidth": 389.0,
-      "naturalHeight": 195.0,
+      "naturalWidth": 621,
+      "naturalHeight": 483,
       "original": "assets/booklet/lezione-08-tipografia/originals/4370-46013.svg",
-      "web": "/images/tipografia/4370-46013-66f0c709843f.svg",
-      "retainedSources": [],
+      "web": "/images/tipografia/tropicana-orange-tangerine-5c51bcac46d5.jpg",
+      "retainedSources": [
+        "assets/booklet/tipografia-opere-integrazioni/manifest.json",
+        "assets/booklet/tipografia-opere-integrazioni/originals/tropicana/comment390/brian-alexander-gray-orange-tangerine-p61-native.jpg",
+        "assets/booklet/tipografia-opere-integrazioni/originals/tropicana/comment390/pearson-logo-design-love-second-edition-official-excerpt.pdf",
+        "assets/booklet/tipografia-tropicana-slide/manifest.json"
+      ],
       "originalBytes": 62637,
-      "webBytes": 62637,
+      "webBytes": 46274,
       "sha256": "66f0c709843fec8d1b2f339d760073eb35c0f127092bd80b0cf343ccb2ca6663",
-      "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4370-46013.svg",
-      "publicationSourceSha256": "66f0c709843fec8d1b2f339d760073eb35c0f127092bd80b0cf343ccb2ca6663",
-      "publicationSha256": "66f0c709843fec8d1b2f339d760073eb35c0f127092bd80b0cf343ccb2ca6663",
+      "publicationSource": "assets/booklet/tipografia-opere-integrazioni/originals/tropicana/comment390/brian-alexander-gray-orange-tangerine-p61-native.jpg",
+      "publicationSourceSha256": "5c51bcac46d565e5e6cbe02c4326e9fe95ef61164445e5a938bed31431e4f50b",
+      "publicationSha256": "5c51bcac46d565e5e6cbe02c4326e9fe95ef61164445e5a938bed31431e4f50b",
       "encoding": {
-        "format": "SVG",
+        "format": "JPEG",
         "lossless": true,
         "exactAlpha": true,
-        "text": "Original font outlines"
+        "transformation": "Byte-identical publication copy of the retained opaque JPEG, with no re-encoding, pixel changes or crop; lossless describes the copy, not the original JPEG encoding."
       },
       "provenance": {
-        "kind": "figma-native-export",
-        "acquiredAt": "2026-10-19",
-        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
-        "pageId": "4226:16023",
-        "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+        "kind": "current-booklet-image-replacement",
+        "revisedAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-tropicana-slide/manifest.json",
+        "currentFigmaFrameId": "4345:65092",
+        "currentFigmaImageId": "4877:8758",
+        "currentFolio": 452,
+        "currentFigure": "3.335b",
+        "imageHash": "fe696d83bbf7ba6de9cfb760936f94ebd9fe72ec",
+        "previousPublication": {
+          "title": "Booklet / Teston / Immagini impaginate / 3.331 / esempi-variabili-pack",
+          "caption": "Frutteto, marchio fittizio: stesso nome, stessa figura e stesso corpo nominale in EB Garamond Regular e Helvetica Regular. Dimostrazione originale del corso; contorni autentici dei due caratteri.",
+          "web": "/images/tipografia/4370-46013-66f0c709843f.svg",
+          "publicationSource": "assets/booklet/lezione-08-tipografia/originals/4370-46013.svg",
+          "publicationSourceSha256": "66f0c709843fec8d1b2f339d760073eb35c0f127092bd80b0cf343ccb2ca6663",
+          "publicationSha256": "66f0c709843fec8d1b2f339d760073eb35c0f127092bd80b0cf343ccb2ca6663",
+          "provenance": {
+            "kind": "figma-native-export",
+            "acquiredAt": "2026-10-19",
+            "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+            "pageId": "4226:16023",
+            "rights": "Originali, licenze e attribuzioni del booklet conservati; i materiali di terzi mantengono i rispettivi diritti."
+          }
+        },
+        "rights": "Photographer credit and publisher source retained; no open licence claimed.",
+        "scope": "Current photograph verified by its Figma imageHash; original source snapshot metadata and Frutteto SVG preserved unchanged.",
+        "aiGenerated": false
       }
     },
     {
@@ -18666,6 +18793,317 @@
         "license": "https://creativecommons.org/publicdomain/mark/1.0/",
         "rights": "Public Domain Mark 1.0. Bayerische Staatsbibliothek, 2 Inc.s.a. 197-1, fol. 5r; digitalizzazione HUMI Project, Keio University.",
         "scope": "Supplementary detail in the typography slide; derived from the preserved document image, not a new Figma export.",
+        "aiGenerated": false
+      }
+    },
+    {
+      "id": "tipografia-assi-variabili",
+      "nodeId": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg",
+      "title": "Cinque assi dei font variabili",
+      "caption": "Peso, larghezza, inclinazione, corsivo e dimensione ottica: coppie di campioni autentici con un solo asse variato e corpo visualizzato costante. Roboto Serif, Roboto Flex e Nunito; SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_ital",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_slnt",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz",
+        "https://github.com/google/fonts/tree/main/ofl/robotoserif",
+        "https://raw.githubusercontent.com/google/fonts/main/ofl/robotoflex/RobotoFlex%5BGRAD%2CXOPQ%2CXTRA%2CYOPQ%2CYTAS%2CYTDE%2CYTFI%2CYTLC%2CYTUC%2Copsz%2Cslnt%2Cwdth%2Cwght%5D.ttf",
+        "https://raw.githubusercontent.com/googlefonts/nunito/main/fonts/variable/Nunito%5Bital,wght%5D.ttf"
+      ],
+      "naturalWidth": 640,
+      "naturalHeight": 520,
+      "original": "assets/booklet/tipografia-assi-variabili/cinque-assi-variabili.svg",
+      "web": "/images/tipografia/assi-variabili-884b56a41aba.svg",
+      "retainedSources": [
+        "assets/font-previews/downloads/robotoserif/RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+        "assets/font-previews/downloads/robotoserif/OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/RobotoFlex-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/generate.py",
+        "assets/booklet/tipografia-assi-variabili/outline-text.swift",
+        "assets/booklet/tipografia-assi-variabili/manifest.json",
+        "assets/booklet/tipografia-assi-variabili/cinque-assi-variabili.svg",
+        "assets/font-previews/downloads/robotoserif/provenance.json"
+      ],
+      "originalBytes": 190570,
+      "webBytes": 190570,
+      "sha256": "884b56a41abac08e4efeee81f5d0ba6fff22d29d0881a49ca596decf3a4165e5",
+      "publicationSource": "assets/booklet/tipografia-assi-variabili/cinque-assi-variabili.svg",
+      "publicationSourceSha256": "884b56a41abac08e4efeee81f5d0ba6fff22d29d0881a49ca596decf3a4165e5",
+      "publicationSha256": "884b56a41abac08e4efeee81f5d0ba6fff22d29d0881a49ca596decf3a4165e5",
+      "encoding": {
+        "format": "SVG",
+        "lossless": true,
+        "exactAlpha": true,
+        "transformation": "Authentic font-instance outlines; baseline placement and y-axis reflection only."
+      },
+      "provenance": {
+        "kind": "authentic-variable-font-comparison",
+        "createdAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-assi-variabili/manifest.json",
+        "scope": "Supplementary authored teaching figure for slide 41; source booklet references preserved.",
+        "aiGenerated": false
+      }
+    },
+    {
+      "id": "tipografia-classificazioni-panoramica",
+      "nodeId": "https://www.monotype.com/resources/guide-type-styles",
+      "title": "Quattro direzioni da riconoscere",
+      "caption": "EB Garamond, Work Sans, Pacifico e UnifrakturMaguntia. Campioni autentici; SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://www.monotype.com/resources/guide-type-styles",
+        "https://github.com/google/fonts/tree/main/ofl/ebgaramond",
+        "https://github.com/googlefonts/nunito",
+        "https://github.com/google/fonts/tree/main/ofl/pacifico",
+        "https://github.com/google/fonts/tree/main/ofl/unifrakturmaguntia",
+        "https://github.com/google/fonts/tree/main/ofl/worksans"
+      ],
+      "naturalWidth": 640,
+      "naturalHeight": 456,
+      "original": "assets/booklet/tipografia-classificazioni/forme/panoramica.svg",
+      "web": "/images/tipografia/classificazioni-panoramica-538458611d28.svg",
+      "retainedSources": [
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/EBGaramond[wght].ttf",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/EBGaramond-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/Pacifico-Regular.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/early/originali/Pacifico-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/OFL.txt",
+        "assets/booklet/tipografia-variabile/WorkSansVF.ttf",
+        "assets/booklet/tipografia-variabile/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/forme/generate.py",
+        "assets/booklet/tipografia-classificazioni/forme/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/forme/manifest.json"
+      ],
+      "originalBytes": 173380,
+      "webBytes": 173380,
+      "sha256": "538458611d28333cd581d049ab5103dae32e1b5b64474c59c2eb48617ff98513",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/forme/panoramica.svg",
+      "publicationSourceSha256": "538458611d28333cd581d049ab5103dae32e1b5b64474c59c2eb48617ff98513",
+      "publicationSha256": "538458611d28333cd581d049ab5103dae32e1b5b64474c59c2eb48617ff98513",
+      "encoding": {
+        "format": "SVG",
+        "lossless": true,
+        "exactAlpha": true,
+        "text": "Authentic font outlines, no synthetic type transformations."
+      },
+      "provenance": {
+        "kind": "authentic-font-comparison",
+        "createdAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/forme/manifest.json",
+        "scope": "Supplementary authored teaching figure, original font sources and licence notices retained.",
+        "aiGenerated": false
+      }
+    },
+    {
+      "id": "tipografia-classificazioni-times-georgia",
+      "nodeId": "https://learn.microsoft.com/en-us/typography/font-list/times-new-roman",
+      "title": "Times New Roman e Georgia allo stesso corpo",
+      "caption": "Times New Roman, Monotype; Georgia, Microsoft. Stesso testo e corpo.",
+      "sourceLinks": [
+        "https://learn.microsoft.com/en-us/typography/font-list/times-new-roman",
+        "https://learn.microsoft.com/en-us/typography/font-list/georgia"
+      ],
+      "naturalWidth": 640,
+      "naturalHeight": 440,
+      "original": "assets/booklet/tipografia-classificazioni/confronti/times-georgia.svg",
+      "web": "/images/tipografia/classificazioni-times-georgia-a15a21543e62.svg",
+      "retainedSources": [
+        "assets/booklet/tipografia-classificazioni/confronti/generate.py",
+        "assets/booklet/tipografia-classificazioni/confronti/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+        "assets/font-previews/downloads/bitter/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt"
+      ],
+      "originalBytes": 96049,
+      "webBytes": 96049,
+      "sha256": "a15a21543e62bad5d84d998d971fe18d85ad3df5b1f9e770a58358f9199ace18",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/confronti/times-georgia.svg",
+      "publicationSourceSha256": "a15a21543e62bad5d84d998d971fe18d85ad3df5b1f9e770a58358f9199ace18",
+      "publicationSha256": "a15a21543e62bad5d84d998d971fe18d85ad3df5b1f9e770a58358f9199ace18",
+      "encoding": {
+        "format": "SVG",
+        "lossless": true,
+        "exactAlpha": true,
+        "text": "Authentic font outlines, no synthetic type transformations."
+      },
+      "provenance": {
+        "kind": "authentic-font-comparison",
+        "createdAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "scope": "Supplementary authored teaching figure, original font sources and licence notices retained.",
+        "aiGenerated": false
+      }
+    },
+    {
+      "id": "tipografia-classificazioni-slab",
+      "nodeId": "https://github.com/google/fonts/tree/main/ofl/bitter",
+      "title": "Bitter e Arvo: grazie robuste",
+      "caption": "Bitter e Arvo, a corpo uguale. Contorni originali dei font; SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://github.com/google/fonts/tree/main/ofl/bitter",
+        "https://raw.githubusercontent.com/google/fonts/main/ofl/arvo/Arvo-Regular.ttf"
+      ],
+      "naturalWidth": 640,
+      "naturalHeight": 440,
+      "original": "assets/booklet/tipografia-classificazioni/confronti/slab.svg",
+      "web": "/images/tipografia/classificazioni-slab-7489a51ed0aa.svg",
+      "retainedSources": [
+        "assets/booklet/tipografia-classificazioni/confronti/generate.py",
+        "assets/booklet/tipografia-classificazioni/confronti/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+        "assets/font-previews/downloads/bitter/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt"
+      ],
+      "originalBytes": 102477,
+      "webBytes": 102477,
+      "sha256": "7489a51ed0aadf5b076aa2586f5b77a1cc13985907603005fba3074e4672c4d6",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/confronti/slab.svg",
+      "publicationSourceSha256": "7489a51ed0aadf5b076aa2586f5b77a1cc13985907603005fba3074e4672c4d6",
+      "publicationSha256": "7489a51ed0aadf5b076aa2586f5b77a1cc13985907603005fba3074e4672c4d6",
+      "encoding": {
+        "format": "SVG",
+        "lossless": true,
+        "exactAlpha": true,
+        "text": "Authentic font outlines, no synthetic type transformations."
+      },
+      "provenance": {
+        "kind": "authentic-font-comparison",
+        "createdAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "scope": "Supplementary authored teaching figure, original font sources and licence notices retained.",
+        "aiGenerated": false
+      }
+    },
+    {
+      "id": "tipografia-classificazioni-gotico",
+      "nodeId": "https://github.com/google/fonts/tree/main/ofl/unifrakturmaguntia",
+      "title": "Il ritmo della Fraktur",
+      "caption": "UnifrakturMaguntia, disegno digitale nella tradizione Fraktur. Contorni autentici; SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://github.com/google/fonts/tree/main/ofl/unifrakturmaguntia",
+        "https://github.com/google/fonts/blob/main/cc-by-sa/knowledge/glossary/terms/blackletter/content.md"
+      ],
+      "naturalWidth": 640,
+      "naturalHeight": 440,
+      "original": "assets/booklet/tipografia-classificazioni/confronti/gotico.svg",
+      "web": "/images/tipografia/classificazioni-gotico-ac297dc88911.svg",
+      "retainedSources": [
+        "assets/booklet/tipografia-classificazioni/confronti/generate.py",
+        "assets/booklet/tipografia-classificazioni/confronti/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+        "assets/font-previews/downloads/bitter/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt"
+      ],
+      "originalBytes": 112825,
+      "webBytes": 112825,
+      "sha256": "ac297dc889119bffa2aed9ae2cb2d6b2f6c3b9adafdfab7011967d458a59c2b2",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/confronti/gotico.svg",
+      "publicationSourceSha256": "ac297dc889119bffa2aed9ae2cb2d6b2f6c3b9adafdfab7011967d458a59c2b2",
+      "publicationSha256": "ac297dc889119bffa2aed9ae2cb2d6b2f6c3b9adafdfab7011967d458a59c2b2",
+      "encoding": {
+        "format": "SVG",
+        "lossless": true,
+        "exactAlpha": true,
+        "text": "Authentic font outlines, no synthetic type transformations."
+      },
+      "provenance": {
+        "kind": "authentic-font-comparison",
+        "createdAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "scope": "Supplementary authored teaching figure, original font sources and licence notices retained.",
+        "aiGenerated": false
+      }
+    },
+    {
+      "id": "tipografia-classificazioni-superfamiglia",
+      "nodeId": "https://www.ibm.com/design/impact/plex/",
+      "title": "IBM Plex: tre disegni della stessa superfamiglia",
+      "caption": "IBM Plex Serif, IBM Plex Sans e IBM Plex Mono. Font originali IBM, SIL OFL 1.1.",
+      "sourceLinks": [
+        "https://www.ibm.com/design/impact/plex/",
+        "https://github.com/IBM/plex/"
+      ],
+      "naturalWidth": 640,
+      "naturalHeight": 450,
+      "original": "assets/booklet/tipografia-classificazioni/confronti/superfamiglia.svg",
+      "web": "/images/tipografia/classificazioni-superfamiglia-0ac6828d866f.svg",
+      "retainedSources": [
+        "assets/booklet/tipografia-classificazioni/confronti/generate.py",
+        "assets/booklet/tipografia-classificazioni/confronti/outline-text.swift",
+        "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+        "assets/font-previews/downloads/bitter/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/Arvo-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/arvo-OFL.txt",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+        "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSans[wdth,wght].ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexsans-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexSerif-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexserif-OFL.txt",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/IBMPlexMono-Regular.ttf",
+        "assets/booklet/tipografia-classificazioni/confronti/originali/ibmplexmono-OFL.txt",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito[ital,wght].ttf",
+        "assets/booklet/tipografia-assi-variabili/originali/Nunito-OFL.txt"
+      ],
+      "originalBytes": 87427,
+      "webBytes": 87427,
+      "sha256": "0ac6828d866f22f720af3fc873d7cf75ca411afabb2f00bfdc355d5f345c5050",
+      "publicationSource": "assets/booklet/tipografia-classificazioni/confronti/superfamiglia.svg",
+      "publicationSourceSha256": "0ac6828d866f22f720af3fc873d7cf75ca411afabb2f00bfdc355d5f345c5050",
+      "publicationSha256": "0ac6828d866f22f720af3fc873d7cf75ca411afabb2f00bfdc355d5f345c5050",
+      "encoding": {
+        "format": "SVG",
+        "lossless": true,
+        "exactAlpha": true,
+        "text": "Authentic font outlines, no synthetic type transformations."
+      },
+      "provenance": {
+        "kind": "authentic-font-comparison",
+        "createdAt": "2026-10-20",
+        "manifest": "assets/booklet/tipografia-classificazioni/confronti/manifest.json",
+        "scope": "Supplementary authored teaching figure, original font sources and licence notices retained.",
         "aiGenerated": false
       }
     }
