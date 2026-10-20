@@ -15,73 +15,73 @@ I nove PDF 2025/26 restano in `materiali/lezioni/2025-2026/`. Le pagine PDF si c
 
 | Capitolo / deck | Titolo | Booklet: pagina stampata / frame e nodo | PDF: lezione, pagine | Relazione | Minuti |
 | --- | --- | --- | --- | --- | ---: |
-| 1 / 175 | Storia del design | [apertura / C02 001](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2006), [apertura / C02 002](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2037) | — | Booklet | 1 |
-| 2 / 176 | Dall’introduzione alla storia | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575) | L02: 80–82 | Tematica | 1.5 |
-| 3 / 177 | Cosa impareremo | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575) | — | Booklet | 1.5 |
-| 4 / 178 | Come leggere un artefatto | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [24 / C02 004](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2017), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229) | — | Booklet | 1.5 |
-| 5 / 179 | Un percorso, molte continuità | [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052), [27 / C02 007](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2077), [31 / C02 011](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2120), [44 / C02 024](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206), [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290) | L07: 7–12; L05: 74–85 | Tematica | 1.5 |
-| 6 / 180 | Prima della pagina | [24 / C02 004](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2017), [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052) | — | Booklet | 1.5 |
-| 7 / 181 | Scrivere significa organizzare | [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052) | — | Booklet | 1.5 |
-| 8 / 182 | Parola e immagine nel manoscritto | [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052), [26 / C02 006](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2437) | — | Booklet | 1.5 |
-| 9 / 183 | Segni per riconoscere | [26 / C02 006](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2437) | — | Booklet | 1.5 |
-| 10 / 184 | Cina: riprodurre e ricomporre | [27 / C02 007](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2077) | — | Booklet | 1.5 |
-| 11 / 185 | Prima di Gutenberg: il Jikji | [27 / C02 007](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2077) | — | Booklet | 1.5 |
-| 12 / 186 | Gutenberg: un sistema di produzione | [28 / C02 008](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2456) | L07: 7–8 | Diretta | 1.5 |
-| 13 / 187 | Il carattere progetta la lettura | [28 / C02 008](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2456) | L07: 8, 14 | Diretta | 1.5 |
-| 14 / 188 | Dalla bottega al pubblico | [29 / C02 009](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2097) | — | Booklet | 1.5 |
-| 15 / 189 | Organizzare il sapere | [29 / C02 009](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2097), [30 / C02 010](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2471) | — | Booklet | 1.5 |
-| 16 / 190 | Tipografia: funzione ed espressione | [30 / C02 010](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2471) | L07: 14 | Tematica | 1.5 |
-| 17 / 191 | La litografia apre nuove possibilità | [31 / C02 011](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2120), [32 / C02 012](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2487) | L07: 9 | Tematica | 1.5 |
-| 18 / 192 | Il manifesto entra nella città | [31 / C02 011](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2120), [32 / C02 012](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2487) | — | Booklet | 1.5 |
-| 19 / 193 | Art Nouveau: un linguaggio integrato | [33 / C02 013](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2140), [34 / C02 014](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2501) | — | Booklet | 1.5 |
-| 20 / 194 | Mucha: riconoscere un repertorio | [34 / C02 014](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2501) | — | Booklet | 1.5 |
-| 21 / 195 | Behrens e AEG: un’identità coordinata | [35 / C02 015](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-229) | — | Booklet | 2 |
-| 22 / 196 | Quando il design persuade | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 1.5 |
-| 23 / 197 | Due strategie di persuasione | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 1.5 |
-| 24 / 198 | Attività · Leggere la persuasione | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 5 |
-| 25 / 199 | Bauhaus: arte, tecnica, progetto | [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515), [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2 |
-| 26 / 200 | Moholy-Nagy: comporre relazioni | [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | L06: 46–50 | Booklet | 2 |
-| 27 / 201 | Art Déco: dare forma alla modernità | [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 1.5 |
-| 28 / 202 | Isotype: rendere confrontabili i dati | [39 / C02 019](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-247) | — | Booklet | 2 |
-| 29 / 203 | Beck: una mappa per il viaggio | [40 / C02 020](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-265) | — | Booklet | 2 |
-| 30 / 204 | Paul Rand: costruire un’idea visiva | [41 / C02 021](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2532) | — | Booklet | 1.5 |
-| 31 / 205 | La rivista come ritmo di lettura | [42 / C02 022](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256) | — | Booklet | 1.5 |
-| 32 / 206 | La griglia rende visibili le relazioni | [42 / C02 022](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256) | — | Booklet | 1.5 |
-| 33 / 207 | La tipografia diventa immagine | [43 / C02 023](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2595) | L07: 14 | Tematica | 1.5 |
-| 34 / 208 | Comporre il testo e stampare | [28 / C02 008](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2456), [44 / C02 024](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206) | L07: 9–12 | Tematica | 1.5 |
-| 35 / 209 | Il tavolo di lavoro diventa software | [44 / C02 024](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206) | L07: 10–12 | Booklet | 2 |
-| 36 / 210 | Sperimentare cambia la lettura | [45 / C02 025](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2552) | — | Booklet | 1.5 |
-| 37 / 211 | Dal leggere all’interagire | [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229) | L02: 80–82 | Tematica | 1.5 |
-| 38 / 212 | CERN: il Web collega documenti | [47 / C02 027](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-301), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229) | — | Booklet | 1.5 |
-| 39 / 213 | Dall’artefatto al sistema | [48 / C02 028](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2266-300), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575) | — | Booklet | 1.5 |
-| 40 / 214 | 1968: il computer come collaborazione | [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290) | — | Booklet | 1.5 |
-| 41 / 215 | Xerox: ambienti grafici da sperimentare | [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290) | — | Booklet | 1.5 |
-| 42 / 216 | WIMP: quattro elementi coordinati | [51 / C02 031](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2627) | — | Booklet | 2 |
-| 43 / 217 | Susan Kare: un linguaggio di pochi pixel | [52 / C02 032](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-283) | — | Booklet | 1.5 |
-| 44 / 218 | Attività · La metafora della scrivania | [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290), [51 / C02 031](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2627) | L03: 45–46 | Tematica | 4 |
-| 45 / 219 | Il primo web: testo e collegamenti | [53 / C02 033](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2319), [54 / C02 034](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-254) | L05: 75–77 | Booklet | 1.5 |
-| 46 / 220 | Web 2.0: partecipazione e volume | [55 / C02 035](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2652), [56 / C02 036](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-283) | L05: 78–82 | Booklet | 1.5 |
-| 47 / 221 | Scheumorfismo: riconoscere una funzione | [57 / C02 037](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2345), [58 / C02 038](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-312) | L05: 83–84 | Booklet | 1.5 |
-| 48 / 222 | Flat design: ridurre il rilievo | [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675), [60 / C02 040](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-341) | L05: 85–88 | Booklet | 1.5 |
-| 49 / 223 | Material Design: superfici e comportamento | [61 / C02 041](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2381), [62 / C02 042](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-370) | — | Booklet | 2 |
-| 50 / 224 | Semplice non significa sempre usabile | [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675) | L05: 85–86; L03: 45–46 | Tematica | 1.5 |
-| 51 / 225 | Neumorfismo: oggetti dalla superficie | [63 / C02 043](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2363), [64 / C02 044](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-399) | L05: 91–94 | Booklet | 1.5 |
-| 52 / 226 | Glassmorfismo: livelli e trasparenze | [65 / C02 045](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2688), [66 / C02 046](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-428) | L05: 95–101 | Booklet | 1.5 |
-| 53 / 227 | Minimalismo: scegliere che cosa resta | [67 / C02 047](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2701), [68 / C02 048](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-457) | L05: 103–105 | Booklet | 1.5 |
-| 54 / 228 | Y2K: reinterpretare un immaginario | [69 / C02 049](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2399), [70 / C02 050](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-486) | L05: 106–110 | Booklet | 1.5 |
-| 55 / 229 | Massimalismo: coordinare la densità | [71 / C02 051](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2715), [72 / C02 052](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-515) | L05: 111–113 | Booklet | 1.5 |
-| 56 / 230 | Brutalismo web e neobrutalismo | [73 / C02 053](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2418), [74 / C02 054](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-544) | L05: 114–125 | Booklet | 1.5 |
-| 57 / 231 | Attività · Un controllo è riconoscibile? | [63 / C02 043](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2363), [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675) | L05: 91–94; L03: 45–46 | Tematica | 6 |
-| 58 / 232 | Possibili direzioni: quattro domande | [75 / C02 055](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-259) | — | Booklet | 1.5 |
-| 59 / 233 | Tipografia adattabile ed espressiva | [76 / C02 056](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-295) | — | Booklet | 1.5 |
-| 60 / 234 | Liquid Glass: dare un ruolo al materiale | [77 / C02 057](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-317) | — | Booklet | 1.5 |
-| 61 / 235 | Interfacce spaziali: finestre e volumi | [77 / C02 057](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-317) | — | Booklet | 1.5 |
-| 62 / 236 | Interfacce generate su richiesta | [78 / C02 058](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-352) | — | Booklet | 2 |
-| 63 / 237 | Un’estetica attenta alle risorse | [79 / C02 059](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-381) | — | Booklet | 1.5 |
-| 64 / 238 | Lo stile va verificato | [80 / C02 060](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-403) | — | Booklet | 1.5 |
-| 65 / 239 | Tre eredità da riconoscere | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575), [51 / C02 031](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2627), [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675), [73 / C02 053](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2418) | L05: 75–120 | Tematica | 1.5 |
-| 66 / 240 | Fonti per continuare | [81 / C02 061](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2263-284), [82 / C02 062](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2263-328), [83 / C02 063](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2263-372), [84 / C02 064](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2266-335), [85 / C02 065](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2328-245) | — | Booklet | 0.75 |
-| 67 / 241 | Verifica finale · Motivare uno stile | [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575), [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675), [63 / C02 043](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2363), [73 / C02 053](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2418) | L03: 45–46; L05: 126 | Tematica | 7.25 |
+| 1 / 176 | Storia del design | [apertura / C02 001](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2006), [apertura / C02 002](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2037) | — | Booklet | 1 |
+| 2 / 177 | Dall’introduzione alla storia | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575) | L02: 80–82 | Tematica | 1.5 |
+| 3 / 178 | Cosa impareremo | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575) | — | Booklet | 1.5 |
+| 4 / 179 | Come leggere un artefatto | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [24 / C02 004](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2017), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229) | — | Booklet | 1.5 |
+| 5 / 180 | Un percorso, molte continuità | [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052), [27 / C02 007](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2077), [31 / C02 011](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2120), [44 / C02 024](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206), [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290) | L07: 7–12; L05: 74–85 | Tematica | 1.5 |
+| 6 / 181 | Prima della pagina | [24 / C02 004](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2017), [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052) | — | Booklet | 1.5 |
+| 7 / 182 | Scrivere significa organizzare | [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052) | — | Booklet | 1.5 |
+| 8 / 183 | Parola e immagine nel manoscritto | [25 / C02 005](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2052), [26 / C02 006](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2437) | — | Booklet | 1.5 |
+| 9 / 184 | Segni per riconoscere | [26 / C02 006](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2437) | — | Booklet | 1.5 |
+| 10 / 185 | Cina: riprodurre e ricomporre | [27 / C02 007](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2077) | — | Booklet | 1.5 |
+| 11 / 186 | Prima di Gutenberg: il Jikji | [27 / C02 007](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2077) | — | Booklet | 1.5 |
+| 12 / 187 | Gutenberg: un sistema di produzione | [28 / C02 008](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2456) | L07: 7–8 | Diretta | 1.5 |
+| 13 / 188 | Il carattere progetta la lettura | [28 / C02 008](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2456) | L07: 8, 14 | Diretta | 1.5 |
+| 14 / 189 | Dalla bottega al pubblico | [29 / C02 009](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2097) | — | Booklet | 1.5 |
+| 15 / 190 | Organizzare il sapere | [29 / C02 009](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2097), [30 / C02 010](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2471) | — | Booklet | 1.5 |
+| 16 / 191 | Tipografia: funzione ed espressione | [30 / C02 010](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2471) | L07: 14 | Tematica | 1.5 |
+| 17 / 192 | La litografia apre nuove possibilità | [31 / C02 011](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2120), [32 / C02 012](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2487) | L07: 9 | Tematica | 1.5 |
+| 18 / 193 | Il manifesto entra nella città | [31 / C02 011](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2120), [32 / C02 012](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2487) | — | Booklet | 1.5 |
+| 19 / 194 | Art Nouveau: un linguaggio integrato | [33 / C02 013](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2140), [34 / C02 014](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2501) | — | Booklet | 1.5 |
+| 20 / 195 | Mucha: riconoscere un repertorio | [34 / C02 014](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2501) | — | Booklet | 1.5 |
+| 21 / 196 | Behrens e AEG: un’identità coordinata | [35 / C02 015](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-229) | — | Booklet | 2 |
+| 22 / 197 | Quando il design persuade | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 1.5 |
+| 23 / 198 | Due strategie di persuasione | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 1.5 |
+| 24 / 199 | Attività · Leggere la persuasione | [36 / C02 016](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2162), [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515) | — | Booklet | 5 |
+| 25 / 200 | Bauhaus: arte, tecnica, progetto | [37 / C02 017](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2515), [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 2 |
+| 26 / 201 | Moholy-Nagy: comporre relazioni | [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | L06: 46–50 | Booklet | 2 |
+| 27 / 202 | Art Déco: dare forma alla modernità | [38 / C02 018](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2184) | — | Booklet | 1.5 |
+| 28 / 203 | Isotype: rendere confrontabili i dati | [39 / C02 019](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-247) | — | Booklet | 2 |
+| 29 / 204 | Beck: una mappa per il viaggio | [40 / C02 020](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-265) | — | Booklet | 2 |
+| 30 / 205 | Paul Rand: costruire un’idea visiva | [41 / C02 021](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2532) | — | Booklet | 1.5 |
+| 31 / 206 | La rivista come ritmo di lettura | [42 / C02 022](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256) | — | Booklet | 1.5 |
+| 32 / 207 | La griglia rende visibili le relazioni | [42 / C02 022](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2256) | — | Booklet | 1.5 |
+| 33 / 208 | La tipografia diventa immagine | [43 / C02 023](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2595) | L07: 14 | Tematica | 1.5 |
+| 34 / 209 | Comporre il testo e stampare | [28 / C02 008](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2456), [44 / C02 024](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206) | L07: 9–12 | Tematica | 1.5 |
+| 35 / 210 | Il tavolo di lavoro diventa software | [44 / C02 024](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2206) | L07: 10–12 | Booklet | 2 |
+| 36 / 211 | Sperimentare cambia la lettura | [45 / C02 025](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2552) | — | Booklet | 1.5 |
+| 37 / 212 | Dal leggere all’interagire | [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229) | L02: 80–82 | Tematica | 1.5 |
+| 38 / 213 | CERN: il Web collega documenti | [47 / C02 027](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-301), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229) | — | Booklet | 1.5 |
+| 39 / 214 | Dall’artefatto al sistema | [48 / C02 028](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2266-300), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575) | — | Booklet | 1.5 |
+| 40 / 215 | 1968: il computer come collaborazione | [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290) | — | Booklet | 1.5 |
+| 41 / 216 | Xerox: ambienti grafici da sperimentare | [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290) | — | Booklet | 1.5 |
+| 42 / 217 | WIMP: quattro elementi coordinati | [51 / C02 031](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2627) | — | Booklet | 2 |
+| 43 / 218 | Susan Kare: un linguaggio di pochi pixel | [52 / C02 032](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2257-283) | — | Booklet | 1.5 |
+| 44 / 219 | Attività · La metafora della scrivania | [50 / C02 030](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2290), [51 / C02 031](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2627) | L03: 45–46 | Tematica | 4 |
+| 45 / 220 | Il primo web: testo e collegamenti | [53 / C02 033](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2319), [54 / C02 034](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-254) | L05: 75–77 | Booklet | 1.5 |
+| 46 / 221 | Web 2.0: partecipazione e volume | [55 / C02 035](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2652), [56 / C02 036](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-283) | L05: 78–82 | Booklet | 1.5 |
+| 47 / 222 | Scheumorfismo: riconoscere una funzione | [57 / C02 037](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2345), [58 / C02 038](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-312) | L05: 83–84 | Booklet | 1.5 |
+| 48 / 223 | Flat design: ridurre il rilievo | [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675), [60 / C02 040](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-341) | L05: 85–88 | Booklet | 1.5 |
+| 49 / 224 | Material Design: superfici e comportamento | [61 / C02 041](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2381), [62 / C02 042](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-370) | — | Booklet | 2 |
+| 50 / 225 | Semplice non significa sempre usabile | [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675) | L05: 85–86; L03: 45–46 | Tematica | 1.5 |
+| 51 / 226 | Neumorfismo: oggetti dalla superficie | [63 / C02 043](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2363), [64 / C02 044](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-399) | L05: 91–94 | Booklet | 1.5 |
+| 52 / 227 | Glassmorfismo: livelli e trasparenze | [65 / C02 045](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2688), [66 / C02 046](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-428) | L05: 95–101 | Booklet | 1.5 |
+| 53 / 228 | Minimalismo: scegliere che cosa resta | [67 / C02 047](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2701), [68 / C02 048](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-457) | L05: 103–105 | Booklet | 1.5 |
+| 54 / 229 | Y2K: reinterpretare un immaginario | [69 / C02 049](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2399), [70 / C02 050](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-486) | L05: 106–110 | Booklet | 1.5 |
+| 55 / 230 | Massimalismo: coordinare la densità | [71 / C02 051](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2715), [72 / C02 052](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-515) | L05: 111–113 | Booklet | 1.5 |
+| 56 / 231 | Brutalismo web e neobrutalismo | [73 / C02 053](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2418), [74 / C02 054](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2326-544) | L05: 114–125 | Booklet | 1.5 |
+| 57 / 232 | Attività · Un controllo è riconoscibile? | [63 / C02 043](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2363), [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675) | L05: 91–94; L03: 45–46 | Tematica | 6 |
+| 58 / 233 | Possibili direzioni: quattro domande | [75 / C02 055](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-259) | — | Booklet | 1.5 |
+| 59 / 234 | Tipografia adattabile ed espressiva | [76 / C02 056](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-295) | — | Booklet | 1.5 |
+| 60 / 235 | Liquid Glass: dare un ruolo al materiale | [77 / C02 057](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-317) | — | Booklet | 1.5 |
+| 61 / 236 | Interfacce spaziali: finestre e volumi | [77 / C02 057](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-317) | — | Booklet | 1.5 |
+| 62 / 237 | Interfacce generate su richiesta | [78 / C02 058](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-352) | — | Booklet | 2 |
+| 63 / 238 | Un’estetica attenta alle risorse | [79 / C02 059](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-381) | — | Booklet | 1.5 |
+| 64 / 239 | Lo stile va verificato | [80 / C02 060](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2258-403) | — | Booklet | 1.5 |
+| 65 / 240 | Tre eredità da riconoscere | [23 / C02 003](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-1993), [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575), [51 / C02 031](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2627), [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675), [73 / C02 053](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2418) | L05: 75–120 | Tematica | 1.5 |
+| 66 / 241 | Fonti per continuare | [81 / C02 061](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2263-284), [82 / C02 062](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2263-328), [83 / C02 063](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2263-372), [84 / C02 064](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2266-335), [85 / C02 065](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2328-245) | — | Booklet | 0.75 |
+| 67 / 242 | Verifica finale · Motivare uno stile | [46 / C02 026](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2229), [49 / C02 029](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2575), [59 / C02 039](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2675), [63 / C02 043](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2363), [73 / C02 053](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=198-2418) | L03: 45–46; L05: 126 | Tematica | 7.25 |
 
 ## Immagini documentarie
 
@@ -156,17 +156,17 @@ Le undici slide seguenti applicano il linguaggio descritto all’intera composiz
 
 | Capitolo / deck | Titolo | Classe |
 | --- | --- | --- |
-| 45 / 219 | Il primo web: testo e collegamenti | `web-style-html` |
-| 46 / 220 | Web 2.0: partecipazione e volume | `web-style-web2` |
-| 47 / 221 | Scheumorfismo: riconoscere una funzione | `web-style-scheu` |
-| 48 / 222 | Flat design: ridurre il rilievo | `web-style-flat` |
-| 49 / 223 | Material Design: superfici e comportamento | `web-style-material` |
-| 51 / 225 | Neumorfismo: oggetti dalla superficie | `web-style-neumo` |
-| 52 / 226 | Glassmorfismo: livelli e trasparenze | `web-style-glass` |
-| 53 / 227 | Minimalismo: scegliere che cosa resta | `web-style-minimal` |
-| 54 / 228 | Y2K: reinterpretare un immaginario | `web-style-y2k` |
-| 55 / 229 | Massimalismo: coordinare la densità | `web-style-max` |
-| 56 / 230 | Brutalismo web e neobrutalismo | `web-style-neo` |
+| 45 / 220 | Il primo web: testo e collegamenti | `web-style-html` |
+| 46 / 221 | Web 2.0: partecipazione e volume | `web-style-web2` |
+| 47 / 222 | Scheumorfismo: riconoscere una funzione | `web-style-scheu` |
+| 48 / 223 | Flat design: ridurre il rilievo | `web-style-flat` |
+| 49 / 224 | Material Design: superfici e comportamento | `web-style-material` |
+| 51 / 226 | Neumorfismo: oggetti dalla superficie | `web-style-neumo` |
+| 52 / 227 | Glassmorfismo: livelli e trasparenze | `web-style-glass` |
+| 53 / 228 | Minimalismo: scegliere che cosa resta | `web-style-minimal` |
+| 54 / 229 | Y2K: reinterpretare un immaginario | `web-style-y2k` |
+| 55 / 230 | Massimalismo: coordinare la densità | `web-style-max` |
+| 56 / 231 | Brutalismo web e neobrutalismo | `web-style-neo` |
 
 ## Concept per le direzioni future
 

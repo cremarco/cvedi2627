@@ -1,0 +1,2281 @@
+[
+  {
+    "sourceSlide": 1,
+    "title": "Corso di CVeDI (8 CFU)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 5",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 5",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 5"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Elia Guarnieri",
+            "runs": [
+              {
+                "text": "Elia Guarnieri",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "elia.guarnieri@unimib.it",
+            "runs": [
+              {
+                "text": "elia.guarnieri@unimib.it",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Elia Guarnieri\nelia.guarnieri@unimib.it"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/cacd5da19bc008391b3e.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/38e8102022b2d97adb1f.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      }
+    ],
+    "originalText": [
+      "Corso di\nCVeDI (8 CFU)",
+      "ESERCITAZIONE 5",
+      "Elia Guarnieri\nelia.guarnieri@unimib.it"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 2,
+    "title": "ESERCIZIO 3",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Possibile soluzione all’esercizio",
+            "runs": [
+              {
+                "text": "Possibile soluzione all’esercizio"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "https://stackblitz.com/edit/stackblitz-starters-mmxdal?file=index.html",
+            "runs": [
+              {
+                "text": "https://stackblitz.com/edit/stackblitz-starters-mmxdal?file=index.html",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/stackblitz-starters-mmxdal?file=index.html"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Possibile soluzione all’esercizio\nhttps://stackblitz.com/edit/stackblitz-starters-mmxdal?file=index.html"
+      }
+    ],
+    "originalText": [
+      "ESERCIZIO 3",
+      "Possibile soluzione all’esercizio\nhttps://stackblitz.com/edit/stackblitz-starters-mmxdal?file=index.html"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 3,
+    "title": "Introduzione ai framework e a Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Framework, toolkit e librerie",
+            "runs": [
+              {
+                "text": "Framework, toolkit e librerie"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Introduzione a Bootstrap",
+            "runs": [
+              {
+                "text": "Introduzione a Bootstrap"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Bootstrap e il layout",
+            "runs": [
+              {
+                "text": "Bootstrap e il layout"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Framework, toolkit e librerie\nIntroduzione a Bootstrap\nBootstrap e il layout"
+      }
+    ],
+    "originalText": [
+      "Introduzione ai \nframework e a Bootstrap",
+      "Framework, toolkit e librerie\nIntroduzione a Bootstrap\nBootstrap e il layout"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 4,
+    "title": "FRAMEWORK, TOOLKIT, LIBRERIE",
+    "blocks": [],
+    "originalText": [
+      "FRAMEWORK, TOOLKIT, LIBRERIE"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 5,
+    "title": "Cosa è una libreria",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo",
+            "runs": [
+              {
+                "text": "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Lo scopo delle librerie è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per evitare di dover riscrivere ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione",
+            "runs": [
+              {
+                "text": "Lo scopo delle "
+              },
+              {
+                "text": "librerie ",
+                "bold": true
+              },
+              {
+                "text": "è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per "
+              },
+              {
+                "text": "evitare di dover riscrivere",
+                "bold": true
+              },
+              {
+                "text": " ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo\nLo scopo delle librerie è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per evitare di dover riscrivere ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione"
+      }
+    ],
+    "originalText": [
+      "Cosa è una libreria",
+      "La complessità delle applicazioni odierne rende consigliabile combinare il proprio codice con porzioni di codice condiviso che aiutino ad agevolare lo sviluppo\nLo scopo delle librerie è fornire una collezione di entità riutilizzabili, che lo sviluppatore può utilizzare per evitare di dover riscrivere ogni volta le stesse funzioni, facilitando così le operazioni di sviluppo e manutenzione"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 6,
+    "title": "Cosa è un framework",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Quando si parla di applicazioni web, il framework può essere definito come una “cornice” applicabile ad un linguaggio",
+            "runs": [
+              {
+                "text": "Quando si parla di applicazioni web, il "
+              },
+              {
+                "text": "framework ",
+                "bold": true
+              },
+              {
+                "text": "può essere definito come una “"
+              },
+              {
+                "text": "cornice",
+                "bold": true
+              },
+              {
+                "text": "” applicabile ad un linguaggio"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Un framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un design concettuale univoco, sono state create per la realizzazione di alcune specifiche funzioni",
+            "runs": [
+              {
+                "text": "Un framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un "
+              },
+              {
+                "text": "design concettuale",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "univoco",
+                "bold": true
+              },
+              {
+                "text": ", sono state create per la realizzazione di alcune specifiche funzioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Quando si parla di applicazioni web, il framework può essere definito come una “cornice” applicabile ad un linguaggio\nUn framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un design concettuale univoco, sono state create per la realizzazione di alcune specifiche funzioni"
+      }
+    ],
+    "originalText": [
+      "Cosa è un framework",
+      "Quando si parla di applicazioni web, il framework può essere definito come una “cornice” applicabile ad un linguaggio\nUn framework è solitamente un sistema distribuito in cartelle e sotto forma di alcune porzioni di codice prestabilite che, connesse attraverso un design concettuale univoco, sono state create per la realizzazione di alcune specifiche funzioni"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 7,
+    "title": "Cosa è un toolkit",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Ancora non esiste una definizione articolata e condivisa di toolkit ",
+            "runs": [
+              {
+                "text": "Ancora non esiste una definizione articolata e condivisa di toolkit "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il toolkit può essere visto come una collezione di risorse che possono essere sfruttate insieme per svolgere determinate funzioni",
+            "runs": [
+              {
+                "text": "Il toolkit può essere visto come una "
+              },
+              {
+                "text": "collezione di risorse",
+                "bold": true
+              },
+              {
+                "text": " che possono essere sfruttate insieme per svolgere determinate funzioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Ancora non esiste una definizione articolata e condivisa di toolkit \nIl toolkit può essere visto come una collezione di risorse che possono essere sfruttate insieme per svolgere determinate funzioni"
+      }
+    ],
+    "originalText": [
+      "Cosa è un toolkit",
+      "Ancora non esiste una definizione articolata e condivisa di toolkit \nIl toolkit può essere visto come una collezione di risorse che possono essere sfruttate insieme per svolgere determinate funzioni"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 8,
+    "title": "Librerie vs toolkit",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La differenza tra un gruppo di librerie indipendenti e un toolkit è l’integrazione: nel primo caso potrebbe rendersi necessario un ulteriore sforzo per farle funzionare insieme nel modo corretto",
+            "runs": [
+              {
+                "text": "La differenza tra un gruppo di librerie indipendenti e un toolkit è "
+              },
+              {
+                "text": "l’integrazione",
+                "bold": true
+              },
+              {
+                "text": ": nel primo caso potrebbe rendersi necessario un ulteriore sforzo per farle funzionare insieme nel modo corretto"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il toolkit, invece, può comprendere diverse risorse che sono state pensate per integrarsi e operare insieme",
+            "runs": [
+              {
+                "text": "Il toolkit, "
+              },
+              {
+                "text": "invece,"
+              },
+              {
+                "text": " può comprendere diverse risorse che sono state pensate per integrarsi e operare insieme"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "La differenza tra un gruppo di librerie indipendenti e un toolkit è l’integrazione: nel primo caso potrebbe rendersi necessario un ulteriore sforzo per farle funzionare insieme nel modo corretto\nIl toolkit, invece, può comprendere diverse risorse che sono state pensate per integrarsi e operare insieme"
+      }
+    ],
+    "originalText": [
+      "Librerie vs toolkit",
+      "La differenza tra un gruppo di librerie indipendenti e un toolkit è l’integrazione: nel primo caso potrebbe rendersi necessario un ulteriore sforzo per farle funzionare insieme nel modo corretto\nIl toolkit, invece, può comprendere diverse risorse che sono state pensate per integrarsi e operare insieme"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 9,
+    "title": "Librerie vs framework",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Oltre 10 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo sull’inversione di controllo, che può essere vista come la principale differenza tra libreria e framework",
+            "runs": [
+              {
+                "text": "Oltre 10 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo "
+              },
+              {
+                "text": "sull’inversione di controllo",
+                "bold": true
+              },
+              {
+                "text": ", che può essere vista come la principale differenza tra libreria e framework"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Quando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice",
+            "runs": [
+              {
+                "text": "Quando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Oltre 10 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo sull’inversione di controllo, che può essere vista come la principale differenza tra libreria e framework\nQuando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/05-009-diagram.webp",
+        "alt": "Librerie vs framework. ",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "Librerie vs framework",
+      "Oltre 10 anni fa l’informatico Martin Fowler ha pubblicato un influente articolo sull’inversione di controllo, che può essere vista come la principale differenza tra libreria e framework\nQuando utilizziamo una libreria, abbiamo noi il controllo di ciò che stiamo facendo. Quando lavoriamo con un framework, invece, è lui ad averlo: il flusso di controllo è già definito, e noi avremo semplicemente una serie di spazi da riempire con il nostro codice"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 10,
+    "title": "Esempi di librerie, toolkit e framework per applicazioni web",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Librerie",
+            "runs": [
+              {
+                "text": "Librerie",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Front-end: jQuery/React",
+            "runs": [
+              {
+                "text": "Front-end: jQuery/React"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Librerie\nFront-end: jQuery/React"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Toolkit",
+            "runs": [
+              {
+                "text": "Toolkit",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Front-end: Bootstrap",
+            "runs": [
+              {
+                "text": "Front-end: Bootstrap"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Toolkit\nFront-end: Bootstrap"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Framework",
+            "runs": [
+              {
+                "text": "Framework",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Back-end: Laravel (php), Django (python), Express (js)",
+            "runs": [
+              {
+                "text": "Back-end"
+              },
+              {
+                "text": ": Laravel (php), Django (python), Express (js)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Front-end: Angular/Vue (js)",
+            "runs": [
+              {
+                "text": "Front-end: Angular/Vue (js)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Framework\nBack-end: Laravel (php), Django (python), Express (js)\nFront-end: Angular/Vue (js)"
+      }
+    ],
+    "originalText": [
+      "Esempi di librerie, toolkit e framework per applicazioni web",
+      "Librerie\nFront-end: jQuery/React",
+      "Toolkit\nFront-end: Bootstrap",
+      "Framework\nBack-end: Laravel (php), Django (python), Express (js)\nFront-end: Angular/Vue (js)"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 11,
+    "title": "INTRODUZIONE A BOOTSTRAP",
+    "blocks": [],
+    "originalText": [
+      "INTRODUZIONE A BOOTSTRAP"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 12,
+    "title": "Cosa è Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Bootstrap è un toolkit open-source che agevola fortemente lo sviluppo di siti web responsive, facilitando soprattutto la gestione della griglia e del flusso",
+            "runs": [
+              {
+                "text": "Bootstrap è un toolkit open-source che "
+              },
+              {
+                "text": "agevola fortemente lo sviluppo di siti web responsive",
+                "bold": true
+              },
+              {
+                "text": ", facilitando soprattutto la gestione della griglia e del flusso"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Bootstrap mette a disposizione una serie di classi CSS pre-costituite, oltre ad utili plugin JavaScript",
+            "runs": [
+              {
+                "text": "Bootstrap mette a disposizione una serie di "
+              },
+              {
+                "text": "classi CSS pre-costituite",
+                "bold": true
+              },
+              {
+                "text": ", oltre ad utili plugin JavaScript"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Bootstrap è un toolkit open-source che agevola fortemente lo sviluppo di siti web responsive, facilitando soprattutto la gestione della griglia e del flusso\nBootstrap mette a disposizione una serie di classi CSS pre-costituite, oltre ad utili plugin JavaScript"
+      }
+    ],
+    "originalText": [
+      "Cosa è Bootstrap",
+      "Bootstrap è un toolkit open-source che agevola fortemente lo sviluppo di siti web responsive, facilitando soprattutto la gestione della griglia e del flusso\nBootstrap mette a disposizione una serie di classi CSS pre-costituite, oltre ad utili plugin JavaScript"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 13,
+    "title": "I vantaggi di usare Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La scrittura del codice e l’implementazione del sito è più veloce e meno frustrante",
+            "runs": [
+              {
+                "text": "La scrittura del codice e l’implementazione del sito è più veloce e meno frustrante"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Si tratta di un toolkit che è facile da installare e da imparare ad utilizzare",
+            "runs": [
+              {
+                "text": "Si tratta di un toolkit che è facile da installare e da imparare ad utilizzare"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Vi aiuta a gestire la griglia, garantendo allo stesso tempo una grande flessibilità",
+            "runs": [
+              {
+                "text": "Vi aiuta a gestire la griglia, garantendo allo stesso tempo una grande flessibilità"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Implementa stili per diversi elementi html (bottoni, form, tabelle…) e componenti (breadcrumbs, alert, dropdown) lasciando però spazio a una forte personalizzazione",
+            "runs": [
+              {
+                "text": "Implementa stili per diversi elementi html (bottoni, form, tabelle…) e componenti (breadcrumbs, alert, dropdown) lasciando però spazio a una forte personalizzazione"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Ha una buona documentazione",
+            "runs": [
+              {
+                "text": "Ha una buona documentazione"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "La scrittura del codice e l’implementazione del sito è più veloce e meno frustrante\nSi tratta di un toolkit che è facile da installare e da imparare ad utilizzare\nVi aiuta a gestire la griglia, garantendo allo stesso tempo una grande flessibilità\nImplementa stili per diversi elementi html (bottoni, form, tabelle…) e componenti (breadcrumbs, alert, dropdown) lasciando però spazio a una forte personalizzazione\nHa una buona documentazione"
+      }
+    ],
+    "originalText": [
+      "I vantaggi di usare Bootstrap",
+      "La scrittura del codice e l’implementazione del sito è più veloce e meno frustrante\nSi tratta di un toolkit che è facile da installare e da imparare ad utilizzare\nVi aiuta a gestire la griglia, garantendo allo stesso tempo una grande flessibilità\nImplementa stili per diversi elementi html (bottoni, form, tabelle…) e componenti (breadcrumbs, alert, dropdown) lasciando però spazio a una forte personalizzazione\nHa una buona documentazione"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 14,
+    "title": "Installazione di Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Ci sono diverse opzioni",
+            "runs": [
+              {
+                "text": "Ci sono diverse opzioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Ci sono diverse opzioni"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "CSS precompilato",
+            "runs": [
+              {
+                "text": "CSS precompilato",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Scaricando i file e includendoli nella cartella del vostro progetto",
+            "runs": [
+              {
+                "text": "Scaricando i file e includendoli nella cartella del vostro progetto"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Utilizzando una CDN",
+            "runs": [
+              {
+                "text": "Utilizzando una CDN"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "CSS precompilato\nScaricando i file e includendoli nella cartella del vostro progetto\nUtilizzando una CDN"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Codice sorgente",
+            "runs": [
+              {
+                "text": "Codice sorgente",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Scaricando il codice sorgente (sass) e compilandolo sulla macchina",
+            "runs": [
+              {
+                "text": "Scaricando il codice sorgente (sass) e compilandolo sulla macchina"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Codice sorgente\nScaricando il codice sorgente (sass) e compilandolo sulla macchina"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/getting-started/download/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/getting-started/download/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/getting-started/download/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/getting-started/download/"
+      }
+    ],
+    "originalText": [
+      "Installazione di Bootstrap",
+      "Ci sono diverse opzioni",
+      "CSS precompilato\nScaricando i file e includendoli nella cartella del vostro progetto\nUtilizzando una CDN",
+      "Codice sorgente\nScaricando il codice sorgente (sass) e compilandolo sulla macchina",
+      "https://getbootstrap.com/docs/5.3/getting-started/download/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 15,
+    "title": "Sass e compilatori",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "SASS (Syntactically Awesome StyleSheets) è un'estensione del linguaggio CSS che permette di utilizzare variabili, di creare funzioni e di organizzare il foglio di stile in più file ",
+            "runs": [
+              {
+                "text": "SASS ",
+                "bold": true
+              },
+              {
+                "text": "(Syntactically Awesome StyleSheets) è un'estensione del linguaggio CSS che permette di utilizzare variabili, di creare funzioni e di organizzare il foglio di stile in più file "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Esso si affida a un preprocessore CSS, il quale serve a definire fogli di stile con una forma più semplice, completa e potente rispetto ai CSS e a generare file CSS ottimizzati",
+            "runs": [
+              {
+                "text": "Esso si affida a un "
+              },
+              {
+                "text": "preprocessore CSS",
+                "bold": true
+              },
+              {
+                "text": ", il quale serve a definire fogli di stile con una forma più semplice, completa e potente rispetto ai CSS e a generare file CSS ottimizzati"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I preprocessori permettono di definire variabili, funzioni e molto altro",
+            "runs": [
+              {
+                "text": "I preprocessori permettono di definire variabili, funzioni e molto altro"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per generare un .css a partire da un preprocessore serve un compilatore, un programma che “traduce” il vostro .scss",
+            "runs": [
+              {
+                "text": "Per generare un .css a partire da un preprocessore serve un "
+              },
+              {
+                "text": "compilatore",
+                "bold": true
+              },
+              {
+                "text": ", un programma che “traduce” il vostro .scss"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "SASS (Syntactically Awesome StyleSheets) è un'estensione del linguaggio CSS che permette di utilizzare variabili, di creare funzioni e di organizzare il foglio di stile in più file \nEsso si affida a un preprocessore CSS, il quale serve a definire fogli di stile con una forma più semplice, completa e potente rispetto ai CSS e a generare file CSS ottimizzati\nI preprocessori permettono di definire variabili, funzioni e molto altro\nPer generare un .css a partire da un preprocessore serve un compilatore, un programma che “traduce” il vostro .scss"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire: https://sass-lang.com",
+            "runs": [
+              {
+                "text": "Per approfondire:"
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "https://sass-lang.com",
+                "underline": true,
+                "href": "https://sass-lang.com/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Per approfondire: https://sass-lang.com"
+      }
+    ],
+    "originalText": [
+      "Sass e compilatori",
+      "SASS (Syntactically Awesome StyleSheets) è un'estensione del linguaggio CSS che permette di utilizzare variabili, di creare funzioni e di organizzare il foglio di stile in più file \nEsso si affida a un preprocessore CSS, il quale serve a definire fogli di stile con una forma più semplice, completa e potente rispetto ai CSS e a generare file CSS ottimizzati\nI preprocessori permettono di definire variabili, funzioni e molto altro\nPer generare un .css a partire da un preprocessore serve un compilatore, un programma che “traduce” il vostro .scss",
+      "Per approfondire: https://sass-lang.com"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 16,
+    "title": "Configurazione e personalizzazione",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Scaricare il codice sorgente di Bootstrap in formato .scss (non ancora compilato) permette dunque di personalizzare stili e comportamenti sovrascrivendo direttamente le variabili Sass ",
+            "runs": [
+              {
+                "text": "Scaricare il codice sorgente di Bootstrap in formato .scss (non ancora compilato) permette dunque di personalizzare stili e comportamenti sovrascrivendo direttamente le "
+              },
+              {
+                "text": "variabili Sass",
+                "bold": true
+              },
+              {
+                "text": " "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In questo modo è possibile compilare un .css di Bootstrap personalizzato",
+            "runs": [
+              {
+                "text": "In questo modo è possibile compilare un .css di Bootstrap personalizzato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Si può anche scegliere di importare il .css di Bootstrap già compilato, sovrascrivendo le classi necessarie sfruttando le regole di priorità dei CSS",
+            "runs": [
+              {
+                "text": "Si può anche scegliere di importare il .css di Bootstrap già compilato, sovrascrivendo le classi necessarie sfruttando le "
+              },
+              {
+                "text": "regole di priorità dei CSS",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Scaricare il codice sorgente di Bootstrap in formato .scss (non ancora compilato) permette dunque di personalizzare stili e comportamenti sovrascrivendo direttamente le variabili Sass \nIn questo modo è possibile compilare un .css di Bootstrap personalizzato\nSi può anche scegliere di importare il .css di Bootstrap già compilato, sovrascrivendo le classi necessarie sfruttando le regole di priorità dei CSS"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/customize/overview/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/customize/overview/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/customize/overview/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/customize/overview/"
+      }
+    ],
+    "originalText": [
+      "Configurazione e personalizzazione",
+      "Scaricare il codice sorgente di Bootstrap in formato .scss (non ancora compilato) permette dunque di personalizzare stili e comportamenti sovrascrivendo direttamente le variabili Sass \nIn questo modo è possibile compilare un .css di Bootstrap personalizzato\nSi può anche scegliere di importare il .css di Bootstrap già compilato, sovrascrivendo le classi necessarie sfruttando le regole di priorità dei CSS",
+      "https://getbootstrap.com/docs/5.3/customize/overview/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 17,
+    "title": "Bootstrap precompilato",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per iniziare potrebbe essere più semplice utilizzare Bootstrap precompilato, che consiste in un .css pronto per essere incluso nei vostri documenti, oltre a dei plugin JavaScript",
+            "runs": [
+              {
+                "text": "Per iniziare potrebbe essere più semplice utilizzare Bootstrap precompilato, che consiste in un .css pronto per essere incluso nei vostri documenti, oltre a dei plugin JavaScript"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per farlo, un’opzione è scaricare la cartella compressa messa a disposizione dal sito ufficiale",
+            "runs": [
+              {
+                "text": "Per farlo, un’opzione è scaricare la cartella compressa messa a disposizione dal sito ufficiale"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Per iniziare potrebbe essere più semplice utilizzare Bootstrap precompilato, che consiste in un .css pronto per essere incluso nei vostri documenti, oltre a dei plugin JavaScript\nPer farlo, un’opzione è scaricare la cartella compressa messa a disposizione dal sito ufficiale"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/getting-started/download/#compiled-css-and-js",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/getting-started/download/#compiled-css-and-js",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/getting-started/download/#compiled-css-and-js"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/getting-started/download/#compiled-css-and-js"
+      }
+    ],
+    "originalText": [
+      "Bootstrap precompilato",
+      "Per iniziare potrebbe essere più semplice utilizzare Bootstrap precompilato, che consiste in un .css pronto per essere incluso nei vostri documenti, oltre a dei plugin JavaScript\nPer farlo, un’opzione è scaricare la cartella compressa messa a disposizione dal sito ufficiale",
+      "https://getbootstrap.com/docs/5.3/getting-started/download/#compiled-css-and-js"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 18,
+    "title": "Cos’è una CDN",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Se si vuole saltare il download, Bootstrap offre la possibilità di sfruttare una CDN.",
+            "runs": [
+              {
+                "text": "Se si vuole saltare il download, Bootstrap offre la possibilità di sfruttare una CDN."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "CDN è l’acronimo di Content Delivery Network (rete di consegna dei contenuti): è una rete di server geograficamente distribuiti che forniscono rapidamente contenuti di vario tipo.",
+            "runs": [
+              {
+                "text": "CDN è l’acronimo di "
+              },
+              {
+                "text": "Content Delivery Network",
+                "bold": true
+              },
+              {
+                "text": " (rete di consegna dei contenuti): è una rete di server geograficamente distribuiti che forniscono rapidamente contenuti di vario tipo."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Bootstrap usa la CDN JsDelivr",
+            "runs": [
+              {
+                "text": "Bootstrap usa la CDN "
+              },
+              {
+                "text": "JsDelivr",
+                "underline": true,
+                "href": "https://www.jsdelivr.com/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Se si vuole saltare il download, Bootstrap offre la possibilità di sfruttare una CDN.\nCDN è l’acronimo di Content Delivery Network (rete di consegna dei contenuti): è una rete di server geograficamente distribuiti che forniscono rapidamente contenuti di vario tipo.\nBootstrap usa la CDN JsDelivr"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr"
+      }
+    ],
+    "originalText": [
+      "Cos’è una CDN",
+      "Se si vuole saltare il download, Bootstrap offre la possibilità di sfruttare una CDN.\nCDN è l’acronimo di Content Delivery Network (rete di consegna dei contenuti): è una rete di server geograficamente distribuiti che forniscono rapidamente contenuti di vario tipo.\nBootstrap usa la CDN JsDelivr",
+      "https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 19,
+    "title": "BOOTSTRAP E IL LAYOUT",
+    "blocks": [],
+    "originalText": [
+      "BOOTSTRAP E IL LAYOUT"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 20,
+    "title": "I breakpoint di Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Bootstrap è un grande alleato per quanto riguarda l’implementazione dei siti responsive",
+            "runs": [
+              {
+                "text": "Bootstrap è un grande alleato per quanto riguarda l’implementazione dei siti responsive"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il suo approccio mobile-first definisce diversi breakpoint:",
+            "runs": [
+              {
+                "text": "Il suo approccio mobile-first definisce diversi breakpoint:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Dispositivi extra-small (xs) sotto i 576 pixel ",
+            "runs": [
+              {
+                "text": "Dispositivi extra-small ("
+              },
+              {
+                "text": "xs",
+                "bold": true
+              },
+              {
+                "text": ") sotto i 576 pixel "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Dispositivi small (sm) >= 576 e < 768 pixel",
+            "runs": [
+              {
+                "text": "Dispositivi small ("
+              },
+              {
+                "text": "sm",
+                "bold": true
+              },
+              {
+                "text": ") >= 576 e < 768 pixel"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Dispositivi medium (md) >= 768 e < 992 pixel",
+            "runs": [
+              {
+                "text": "Dispositivi medium ("
+              },
+              {
+                "text": "md",
+                "bold": true
+              },
+              {
+                "text": ") >= 768 e < 992 pixel"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Dispositivi large (lg) >= 992 e < 1200 pixel",
+            "runs": [
+              {
+                "text": "Dispositivi large ("
+              },
+              {
+                "text": "lg",
+                "bold": true
+              },
+              {
+                "text": ") >= 992 e < 1200 pixel"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Dispositivi extra-large (xl) sopra i 1200 pixel",
+            "runs": [
+              {
+                "text": "Dispositivi extra-large ("
+              },
+              {
+                "text": "xl",
+                "bold": true
+              },
+              {
+                "text": ") sopra i 1200 pixel"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Bootstrap è un grande alleato per quanto riguarda l’implementazione dei siti responsive\nIl suo approccio mobile-first definisce diversi breakpoint:\nDispositivi extra-small (xs) sotto i 576 pixel \nDispositivi small (sm) >= 576 e < 768 pixel\nDispositivi medium (md) >= 768 e < 992 pixel\nDispositivi large (lg) >= 992 e < 1200 pixel\nDispositivi extra-large (xl) sopra i 1200 pixel"
+      }
+    ],
+    "originalText": [
+      "I breakpoint di Bootstrap",
+      "Bootstrap è un grande alleato per quanto riguarda l’implementazione dei siti responsive\nIl suo approccio mobile-first definisce diversi breakpoint:\nDispositivi extra-small (xs) sotto i 576 pixel \nDispositivi small (sm) >= 576 e < 768 pixel\nDispositivi medium (md) >= 768 e < 992 pixel\nDispositivi large (lg) >= 992 e < 1200 pixel\nDispositivi extra-large (xl) sopra i 1200 pixel"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 21,
+    "title": "I container di Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I container sono un elemento fondamentale del layout di Bootstrap e il loro inserimento è sempre necessario per garantire il corretto funzionamento della griglia del sito che state sviluppando. ",
+            "runs": [
+              {
+                "text": "I container sono un elemento fondamentale del layout di Bootstrap e il loro inserimento è sempre necessario per garantire il corretto funzionamento della griglia del sito che state sviluppando. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Esistono tre tipi di container",
+            "runs": [
+              {
+                "text": "Esistono tre tipi di container"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".container, che imposta una larghezza massima predefinita per ogni breakpoint (es. 1140px per schermi xl)",
+            "runs": [
+              {
+                "text": ".container",
+                "bold": true
+              },
+              {
+                "text": ", che imposta una larghezza massima predefinita per ogni breakpoint (es. 1140px per schermi xl)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": ".container-fluid che ha una larghezza del 100%",
+            "runs": [
+              {
+                "text": ".container-fluid",
+                "bold": true
+              },
+              {
+                "text": " che ha una larghezza del 100%"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": ".container-{breakpoint} che ha una larghezza del 100% finché non si supera un determinato breakpoint (es. md ha una larghezza 100% su schermi inferiori a 768px)",
+            "runs": [
+              {
+                "text": ".container-{breakpoint}",
+                "bold": true
+              },
+              {
+                "text": " che ha una larghezza del 100% finché non si supera un determinato breakpoint (es. md ha una larghezza 100% su schermi inferiori a 768px)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "I container sono un elemento fondamentale del layout di Bootstrap e il loro inserimento è sempre necessario per garantire il corretto funzionamento della griglia del sito che state sviluppando. \nEsistono tre tipi di container\n.container, che imposta una larghezza massima predefinita per ogni breakpoint (es. 1140px per schermi xl)\n.container-fluid che ha una larghezza del 100%\n.container-{breakpoint} che ha una larghezza del 100% finché non si supera un determinato breakpoint (es. md ha una larghezza 100% su schermi inferiori a 768px)"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/layout/containers/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/layout/containers/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/layout/containers/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/layout/containers/"
+      }
+    ],
+    "originalText": [
+      "I container di Bootstrap",
+      "I container sono un elemento fondamentale del layout di Bootstrap e il loro inserimento è sempre necessario per garantire il corretto funzionamento della griglia del sito che state sviluppando. \nEsistono tre tipi di container\n.container, che imposta una larghezza massima predefinita per ogni breakpoint (es. 1140px per schermi xl)\n.container-fluid che ha una larghezza del 100%\n.container-{breakpoint} che ha una larghezza del 100% finché non si supera un determinato breakpoint (es. md ha una larghezza 100% su schermi inferiori a 768px)",
+      "https://getbootstrap.com/docs/5.3/layout/containers/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 22,
+    "title": "La griglia di Bootstrap",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<div class=\"container\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"container\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  <div class=\"row\">",
+            "runs": [
+              {
+                "text": "  <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"row\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <div class=\"col\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"col\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      One of three columns",
+            "runs": [
+              {
+                "text": "      One of three columns",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </div>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <div class=\"col\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"col\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      One of three columns",
+            "runs": [
+              {
+                "text": "      One of three columns",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </div>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <div class=\"col\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"col\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      One of three columns",
+            "runs": [
+              {
+                "text": "      One of three columns",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </div>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  </div>",
+            "runs": [
+              {
+                "text": "  </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      One of three columns\n    </div>\n    <div class=\"col\">\n      One of three columns\n    </div>\n    <div class=\"col\">\n      One of three columns\n    </div>\n  </div>\n</div>"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "A partire dalla versione 4, Bootstrap utilizza una griglia basata su flexbox. ",
+            "runs": [
+              {
+                "text": "A partire dalla versione 4, Bootstrap utilizza una griglia basata su flexbox. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La griglia ha 12 colonne e, come già detto, implementa una responsiveness a 5 livelli.",
+            "runs": [
+              {
+                "text": "La griglia ha "
+              },
+              {
+                "text": "12 colonne",
+                "bold": true
+              },
+              {
+                "text": " e, come già detto, implementa una responsiveness a 5 livelli."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per creare la griglia dovete inserire un div con classe .row dentro a un div di tipo container. ",
+            "runs": [
+              {
+                "text": "Per creare la griglia dovete inserire un div con classe .row dentro a un div di tipo container. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Dentro a .row andrete a creare un certo numero di colonne.",
+            "runs": [
+              {
+                "text": "Dentro a .row andrete a creare un certo numero di colonne."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Se non specificate la dimensione delle colonne, lo spazio sarà distribuito equamente tra di esse",
+            "runs": [
+              {
+                "text": "Se non specificate la dimensione delle colonne, lo spazio sarà distribuito equamente tra di esse"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "A partire dalla versione 4, Bootstrap utilizza una griglia basata su flexbox. \nLa griglia ha 12 colonne e, come già detto, implementa una responsiveness a 5 livelli.\nPer creare la griglia dovete inserire un div con classe .row dentro a un div di tipo container. \nDentro a .row andrete a creare un certo numero di colonne.\nSe non specificate la dimensione delle colonne, lo spazio sarà distribuito equamente tra di esse"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/layout/grid/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/layout/grid/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/layout/grid/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/layout/grid/"
+      }
+    ],
+    "originalText": [
+      "La griglia di Bootstrap",
+      "A partire dalla versione 4, Bootstrap utilizza una griglia basata su flexbox. \nLa griglia ha 12 colonne e, come già detto, implementa una responsiveness a 5 livelli.\nPer creare la griglia dovete inserire un div con classe .row dentro a un div di tipo container. \nDentro a .row andrete a creare un certo numero di colonne.\nSe non specificate la dimensione delle colonne, lo spazio sarà distribuito equamente tra di esse",
+      "https://getbootstrap.com/docs/5.3/layout/grid/",
+      "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col\">\n      One of three columns\n    </div>\n    <div class=\"col\">\n      One of three columns\n    </div>\n    <div class=\"col\">\n      One of three columns\n    </div>\n  </div>\n</div>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 23,
+    "title": "La gestione delle colonne",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Potete utilizzare le classi .col-{n} per specificare quante colonne devono essere occupate dall’elemento",
+            "runs": [
+              {
+                "text": "Potete utilizzare le classi "
+              },
+              {
+                "text": ".col-{n}",
+                "bold": true
+              },
+              {
+                "text": " per specificare quante colonne devono essere occupate dall’elemento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio, creando tre .col-4 potete impostare tre div che occupino ognuno un terzo dello spazio",
+            "runs": [
+              {
+                "text": "Ad esempio, creando tre .col-4 potete impostare tre div che occupino ognuno un terzo dello spazio"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Creando un .col-4 e quattro .col-2 avrete un elemento che è il doppio degli altri",
+            "runs": [
+              {
+                "text": "Creando un .col-4 e quattro .col-2 avrete un elemento che è il doppio degli altri"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Potete utilizzare le classi .col-{n} per specificare quante colonne devono essere occupate dall’elemento\nAd esempio, creando tre .col-4 potete impostare tre div che occupino ognuno un terzo dello spazio\nCreando un .col-4 e quattro .col-2 avrete un elemento che è il doppio degli altri"
+      }
+    ],
+    "originalText": [
+      "La gestione delle colonne",
+      "Potete utilizzare le classi .col-{n} per specificare quante colonne devono essere occupate dall’elemento\nAd esempio, creando tre .col-4 potete impostare tre div che occupino ognuno un terzo dello spazio\nCreando un .col-4 e quattro .col-2 avrete un elemento che è il doppio degli altri"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 24,
+    "title": "Le colonne e i breakpoint",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Anche alle colonne, come ai container, possiamo assegnare i breakpoint. Per farlo, occorrerà usare le classi .col-{breakpoint}-{n}",
+            "runs": [
+              {
+                "text": "Anche alle colonne, come ai container, possiamo assegnare i breakpoint. Per farlo, occorrerà usare le classi "
+              },
+              {
+                "text": ".col-{breakpoint}-{n}",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio, col-md-4 occuperà un terzo dello spazio su schermi a partire da 768px, e il 100% dello spazio su schermi inferiori",
+            "runs": [
+              {
+                "text": "Ad esempio, col-md-4 occuperà un terzo dello spazio su schermi a partire da 768px, e il 100% dello spazio su schermi inferiori"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Anche alle colonne, come ai container, possiamo assegnare i breakpoint. Per farlo, occorrerà usare le classi .col-{breakpoint}-{n}\nAd esempio, col-md-4 occuperà un terzo dello spazio su schermi a partire da 768px, e il 100% dello spazio su schermi inferiori"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/examples/grid/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/examples/grid/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/examples/grid/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/examples/grid/"
+      }
+    ],
+    "originalText": [
+      "Le colonne e i breakpoint",
+      "Anche alle colonne, come ai container, possiamo assegnare i breakpoint. Per farlo, occorrerà usare le classi .col-{breakpoint}-{n}\nAd esempio, col-md-4 occuperà un terzo dello spazio su schermi a partire da 768px, e il 100% dello spazio su schermi inferiori",
+      "https://getbootstrap.com/docs/5.3/examples/grid/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 25,
+    "title": "Annidamento",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Potete inserire una .row dentro a una colonna per creare colonne annidate dentro ad altre colonne ",
+            "runs": [
+              {
+                "text": "Potete inserire una .row dentro a una colonna per creare colonne annidate dentro ad altre colonne "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "L’unico accorgimento importante da seguire è che dentro alle righe possono esserci sempre solo colonne, e che le colonne possono contenere solo righe!",
+            "runs": [
+              {
+                "text": "L’unico accorgimento importante da seguire è che dentro alle righe possono esserci sempre solo colonne, e che le colonne possono contenere solo righe!"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Potete inserire una .row dentro a una colonna per creare colonne annidate dentro ad altre colonne \nL’unico accorgimento importante da seguire è che dentro alle righe possono esserci sempre solo colonne, e che le colonne possono contenere solo righe!"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/layout/grid/#nesting",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/layout/grid/#nesting",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/layout/grid/#nesting"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/layout/grid/#nesting"
+      }
+    ],
+    "originalText": [
+      "Annidamento",
+      "Potete inserire una .row dentro a una colonna per creare colonne annidate dentro ad altre colonne \nL’unico accorgimento importante da seguire è che dentro alle righe possono esserci sempre solo colonne, e che le colonne possono contenere solo righe!",
+      "https://getbootstrap.com/docs/5.3/layout/grid/#nesting"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 26,
+    "title": "Margini e padding di rows e columns",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "L’accorgimento a cui abbiamo accennato è necessario perché le rows hanno un margine negativo destro e sinistro di 15px. ",
+            "runs": [
+              {
+                "text": "L’accorgimento a cui abbiamo accennato è necessario perché le rows hanno un margine negativo destro e sinistro di 15px. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le colonne hanno invece un padding destro e sinistro di 15px. Questo è il motivo per cui righe e colonne devono essere sempre utilizzate insieme.",
+            "runs": [
+              {
+                "text": "Le colonne hanno invece un padding destro e sinistro di 15px. Questo è il motivo per cui righe e colonne devono essere sempre utilizzate insieme."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Questo funzionamento di righe e colonne serve a mantenere il contenuto allineato in modo uniforme sui bordi del layout, evitando così che si crei uno spazio indesiderato a sinistra della prima colonna.",
+            "runs": [
+              {
+                "text": "Questo funzionamento di righe e colonne serve a mantenere il contenuto allineato in modo uniforme sui bordi del layout, evitando così che si crei uno spazio indesiderato a sinistra della prima colonna."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "L’accorgimento a cui abbiamo accennato è necessario perché le rows hanno un margine negativo destro e sinistro di 15px. \nLe colonne hanno invece un padding destro e sinistro di 15px. Questo è il motivo per cui righe e colonne devono essere sempre utilizzate insieme.\nQuesto funzionamento di righe e colonne serve a mantenere il contenuto allineato in modo uniforme sui bordi del layout, evitando così che si crei uno spazio indesiderato a sinistra della prima colonna."
+      }
+    ],
+    "originalText": [
+      "Margini e padding di rows e columns",
+      "L’accorgimento a cui abbiamo accennato è necessario perché le rows hanno un margine negativo destro e sinistro di 15px. \nLe colonne hanno invece un padding destro e sinistro di 15px. Questo è il motivo per cui righe e colonne devono essere sempre utilizzate insieme.\nQuesto funzionamento di righe e colonne serve a mantenere il contenuto allineato in modo uniforme sui bordi del layout, evitando così che si crei uno spazio indesiderato a sinistra della prima colonna."
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 27,
+    "title": "Offset",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Se avete bisogno di inserire colonne vuote nel vostro layout, potete utilizzare .offset",
+            "runs": [
+              {
+                "text": "Se avete bisogno di inserire colonne vuote nel vostro layout, potete utilizzare .offset"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Assegnando queste classi a una colonna, create uno spazio vuoto prima della colonna stessa ",
+            "runs": [
+              {
+                "text": "Assegnando queste classi a una colonna, create uno spazio vuoto prima della colonna stessa "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Se avete bisogno di inserire colonne vuote nel vostro layout, potete utilizzare .offset\nAssegnando queste classi a una colonna, create uno spazio vuoto prima della colonna stessa"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Offset segue lo stesso naming delle colonne",
+            "runs": [
+              {
+                "text": "Offset segue lo stesso naming delle colonne"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".offset-{breakpoint}-{n}",
+            "runs": [
+              {
+                "text": ".offset-{breakpoint}-{n}",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Offset segue lo stesso naming delle colonne\n.offset-{breakpoint}-{n}"
+      }
+    ],
+    "originalText": [
+      "Offset",
+      "Se avete bisogno di inserire colonne vuote nel vostro layout, potete utilizzare .offset\nAssegnando queste classi a una colonna, create uno spazio vuoto prima della colonna stessa",
+      "Offset segue lo stesso naming delle colonne\n.offset-{breakpoint}-{n}"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 28,
+    "title": "ESERCIZIO 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Includete Bootstrap in una pagina web utilizzando la CDN",
+            "runs": [
+              {
+                "text": "Includete Bootstrap in una pagina web utilizzando la CDN"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Create un container e posizionate al suo interno due colonne, una per il contenuto principale e una per un menù laterale (all’interno delle colonne scrivete soltanto “Contenuto” e “Menù”)",
+            "runs": [
+              {
+                "text": "Create un container e posizionate al suo interno due colonne, una per il contenuto principale e una per un menù laterale (all’interno delle colonne scrivete soltanto “Contenuto” e “Menù”)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Fate in modo che su dispositivi mobili (sm) la colonna menù fluisca sotto la colonna contenuto",
+            "runs": [
+              {
+                "text": "Fate in modo che su dispositivi mobili (sm) la colonna menù fluisca sotto la colonna contenuto"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "All’interno del contenuto inserite una riga con 4 box, riempiendoli con testo segnaposto. Fate in modo che i box si posizionino su 2 righe su dispositivi piccoli (sm) e su 4 righe soltanto su dispositivi molto piccoli (xs)",
+            "runs": [
+              {
+                "text": "All’interno del contenuto inserite una riga con 4 box, riempiendoli con testo segnaposto. Fate in modo che i box si posizionino su 2 righe su dispositivi piccoli (sm) e su 4 righe soltanto su dispositivi molto piccoli (xs)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Utilizzate la documentazione per implementare una row con colonne che sfruttino allineamenti flex",
+            "runs": [
+              {
+                "text": "Utilizzate la documentazione per implementare una row con colonne che sfruttino allineamenti flex"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Includete Bootstrap in una pagina web utilizzando la CDN\nCreate un container e posizionate al suo interno due colonne, una per il contenuto principale e una per un menù laterale (all’interno delle colonne scrivete soltanto “Contenuto” e “Menù”)\nFate in modo che su dispositivi mobili (sm) la colonna menù fluisca sotto la colonna contenuto\nAll’interno del contenuto inserite una riga con 4 box, riempiendoli con testo segnaposto. Fate in modo che i box si posizionino su 2 righe su dispositivi piccoli (sm) e su 4 righe soltanto su dispositivi molto piccoli (xs)\nUtilizzate la documentazione per implementare una row con colonne che sfruttino allineamenti flex"
+      }
+    ],
+    "originalText": [
+      "ESERCIZIO 1",
+      "Includete Bootstrap in una pagina web utilizzando la CDN\nCreate un container e posizionate al suo interno due colonne, una per il contenuto principale e una per un menù laterale (all’interno delle colonne scrivete soltanto “Contenuto” e “Menù”)\nFate in modo che su dispositivi mobili (sm) la colonna menù fluisca sotto la colonna contenuto\nAll’interno del contenuto inserite una riga con 4 box, riempiendoli con testo segnaposto. Fate in modo che i box si posizionino su 2 righe su dispositivi piccoli (sm) e su 4 righe soltanto su dispositivi molto piccoli (xs)\nUtilizzate la documentazione per implementare una row con colonne che sfruttino allineamenti flex"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 29,
+    "title": "ESERCIZIO 2",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Utilizzando Bootstrap cercate di riprodurre il layout delle slide successive.",
+            "runs": [
+              {
+                "text": "Utilizzando Bootstrap",
+                "bold": true
+              },
+              {
+                "text": " c"
+              },
+              {
+                "text": "ercate di riprodurre il layout delle slide successive."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La linea tratteggiata delimita la viewport e divide (approssimativamente) i contenuti above the fold da quelli below the fold.",
+            "runs": [
+              {
+                "text": "La linea tratteggiata delimita la viewport e divide (approssimativamente) i contenuti "
+              },
+              {
+                "text": "above the fold",
+                "underline": true,
+                "href": "https://support.google.com/adsense/answer/132618?hl=it"
+              },
+              {
+                "text": " da quelli below the fold."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La stringa di testo nel riquadro azzurro deve essere esattamente quella riportata in figura, o comunque una stringa con lo stesso numero di caratteri.",
+            "runs": [
+              {
+                "text": "La stringa di testo nel riquadro azzurro deve essere esattamente quella riportata in figura, o comunque una stringa con lo stesso numero di caratteri."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I numeri grigi indicano proporzioni che devono essere rispettate.",
+            "runs": [
+              {
+                "text": "I numeri grigi indicano proporzioni che devono essere rispettate."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Potete adattare la visualizzazione per fare in modo che gli elementi con bordo verde assumano una larghezza a vostra scelta rispetto alla larghezza totale della viewport",
+            "runs": [
+              {
+                "text": "Potete adattare la visualizzazione per fare in modo che gli elementi con bordo verde assumano una larghezza a vostra scelta rispetto alla larghezza totale della viewport"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Utilizzando Bootstrap cercate di riprodurre il layout delle slide successive.\nLa linea tratteggiata delimita la viewport e divide (approssimativamente) i contenuti above the fold da quelli below the fold.\nLa stringa di testo nel riquadro azzurro deve essere esattamente quella riportata in figura, o comunque una stringa con lo stesso numero di caratteri.\nI numeri grigi indicano proporzioni che devono essere rispettate.\nPotete adattare la visualizzazione per fare in modo che gli elementi con bordo verde assumano una larghezza a vostra scelta rispetto alla larghezza totale della viewport"
+      }
+    ],
+    "originalText": [
+      "ESERCIZIO 2",
+      "Utilizzando Bootstrap cercate di riprodurre il layout delle slide successive.\nLa linea tratteggiata delimita la viewport e divide (approssimativamente) i contenuti above the fold da quelli below the fold.\nLa stringa di testo nel riquadro azzurro deve essere esattamente quella riportata in figura, o comunque una stringa con lo stesso numero di caratteri.\nI numeri grigi indicano proporzioni che devono essere rispettate.\nPotete adattare la visualizzazione per fare in modo che gli elementi con bordo verde assumano una larghezza a vostra scelta rispetto alla larghezza totale della viewport"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 30,
+    "title": "ESERCIZIO 2 · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas ",
+            "runs": [
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/05-030-diagram.webp",
+        "alt": "ESERCIZIO 2 · esempio. 60 15 15 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas Titolo h1 15 25 (IMMAGINE) 1 3 2 Lorem ipsum Lorem ipsum 100",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "60",
+      "15",
+      "15",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas",
+      "Titolo h1",
+      "15",
+      "25",
+      "(IMMAGINE)",
+      "1",
+      "3",
+      "2",
+      "Lorem ipsum",
+      "Lorem ipsum",
+      "100"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 31,
+    "title": "ESERCIZIO 2 · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas ",
+            "runs": [
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/05-031-diagram.webp",
+        "alt": "ESERCIZIO 2 · esempio. 100 10 5 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas Titolo h1 Lorem ipsum Lorem ipsum (IMMAGINE) 1 3 2 100",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "100",
+      "10",
+      "5",
+      "5",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas",
+      "Titolo h1",
+      "Lorem ipsum",
+      "Lorem ipsum",
+      "(IMMAGINE)",
+      "1",
+      "3",
+      "2",
+      "100"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 32,
+    "title": "FINE",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 4",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 4"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 4"
+      }
+    ],
+    "originalText": [
+      "FINE",
+      "ESERCITAZIONE 4"
+    ],
+    "diagram": true
+  }
+]

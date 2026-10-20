@@ -1,0 +1,3943 @@
+[
+  {
+    "sourceSlide": 1,
+    "title": "Corso di CVeDI (8 CFU)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 3",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 3",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 3"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Elia Guarnieri",
+            "runs": [
+              {
+                "text": "Elia Guarnieri",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "elia.guarnieri@unimib.it",
+            "runs": [
+              {
+                "text": "elia.guarnieri@unimib.it",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Elia Guarnieri\nelia.guarnieri@unimib.it"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/cacd5da19bc008391b3e.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/38e8102022b2d97adb1f.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      }
+    ],
+    "originalText": [
+      "Corso di\nCVeDI (8 CFU)",
+      "ESERCITAZIONE 3",
+      "Elia Guarnieri\nelia.guarnieri@unimib.it"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 2,
+    "title": "Nuove proprietà CSS, Grid e Srcset",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Proprietà Css 2025",
+            "runs": [
+              {
+                "text": "Proprietà Css 2025"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Grid",
+            "runs": [
+              {
+                "text": "Grid"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Srcset",
+            "runs": [
+              {
+                "text": "Srcset"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Proprietà Css 2025\nGrid\nSrcset"
+      }
+    ],
+    "originalText": [
+      "Nuove proprietà CSS, Grid e Srcset",
+      "Proprietà Css 2025\nGrid\nSrcset"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 3,
+    "title": "PROPRIETÀ CSS DA CONOSCERE NEL 2025",
+    "blocks": [],
+    "originalText": [
+      "PROPRIETÀ CSS DA CONOSCERE NEL 2025"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 4,
+    "title": "Proprietà CSS, compatibilità e prefissi",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Periodicamente, vengono introdotte nuove proprietà CSS che non fanno parte fin da subito delle specifiche supportate da tutti i browser",
+            "runs": [
+              {
+                "text": "Periodicamente, vengono introdotte nuove proprietà CSS che non fanno parte fin da subito delle specifiche supportate da tutti i browser"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I prefissi delle proprietà CSS, come \"-webkit-\", \"-moz-\" servono a coloro che sviluppano i browser (conosciuti come vendors) per aggiungere nuove proprietà CSS in modo sicuro, riservandosi una finestra temporale nella quale queste proprietà sono \"sperimentali\", in fase di test",
+            "runs": [
+              {
+                "text": "I prefissi delle proprietà CSS, come \"-webkit-\", \"-moz-\" servono a coloro che sviluppano i browser (conosciuti come "
+              },
+              {
+                "text": "vendors",
+                "underline": true,
+                "href": "https://www.thoughtco.com/css-vendor-prefixes-3466867"
+              },
+              {
+                "text": ") per "
+              },
+              {
+                "text": "aggiungere nuove proprietà CSS in modo sicuro",
+                "bold": true
+              },
+              {
+                "text": ", riservandosi una finestra temporale nella quale queste proprietà sono \"sperimentali\", in fase di test"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Tutte queste proprietà faranno parte, prima o poi, delle specifiche. Utilizzare i prefissi permette allo sviluppatore front-end di avere un \"accesso anticipato\" a esse, garantendo al contempo la compatibilità",
+            "runs": [
+              {
+                "text": "Tutte queste proprietà faranno parte, prima o poi, delle specifiche. Utilizzare i prefissi permette allo sviluppatore front-end di avere un \"accesso anticipato\" a esse, garantendo al contempo la compatibilità"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "CanIUse - per controllare la compatibilità",
+            "runs": [
+              {
+                "text": "CanIUse",
+                "underline": true,
+                "href": "https://caniuse.com/"
+              },
+              {
+                "text": " - per controllare la compatibilità"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Periodicamente, vengono introdotte nuove proprietà CSS che non fanno parte fin da subito delle specifiche supportate da tutti i browser\nI prefissi delle proprietà CSS, come \"-webkit-\", \"-moz-\" servono a coloro che sviluppano i browser (conosciuti come vendors) per aggiungere nuove proprietà CSS in modo sicuro, riservandosi una finestra temporale nella quale queste proprietà sono \"sperimentali\", in fase di test\nTutte queste proprietà faranno parte, prima o poi, delle specifiche. Utilizzare i prefissi permette allo sviluppatore front-end di avere un \"accesso anticipato\" a esse, garantendo al contempo la compatibilità\nCanIUse - per controllare la compatibilità"
+      }
+    ],
+    "originalText": [
+      "Proprietà CSS, compatibilità e prefissi",
+      "Periodicamente, vengono introdotte nuove proprietà CSS che non fanno parte fin da subito delle specifiche supportate da tutti i browser\nI prefissi delle proprietà CSS, come \"-webkit-\", \"-moz-\" servono a coloro che sviluppano i browser (conosciuti come vendors) per aggiungere nuove proprietà CSS in modo sicuro, riservandosi una finestra temporale nella quale queste proprietà sono \"sperimentali\", in fase di test\nTutte queste proprietà faranno parte, prima o poi, delle specifiche. Utilizzare i prefissi permette allo sviluppatore front-end di avere un \"accesso anticipato\" a esse, garantendo al contempo la compatibilità\nCanIUse - per controllare la compatibilità"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 5,
+    "title": "Proprietà da tenere d’occhio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Container Queries\nhttps://developer.mozilla.org/en-US/docs/container_queries",
+            "runs": [
+              {
+                "text": "Container Queries",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/container_queries",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Container Queries\nhttps://developer.mozilla.org/en-US/docs/container_queries"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dynamic Viewport Units\nhttps://developer.mozilla.org/en-US/docs/CSS/Vlues_and_units",
+            "runs": [
+              {
+                "text": "Dynamic Viewport Units",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/CSS/Vlues_and_units",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Dynamic Viewport Units\nhttps://developer.mozilla.org/en-US/docs/CSS/Vlues_and_units"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Logical Properties (Inline and Block)\nhttps://developer.mozilla.org/en-US/docs/logical_properties",
+            "runs": [
+              {
+                "text": "Logical Properties (Inline and Block)",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/logical_properties",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Logical Properties (Inline and Block)\nhttps://developer.mozilla.org/en-US/docs/logical_properties"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "CSS nesting\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting",
+            "runs": [
+              {
+                "text": "CSS nesting",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "CSS nesting\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting"
+      }
+    ],
+    "originalText": [
+      "Proprietà da tenere d’occhio",
+      "Container Queries\nhttps://developer.mozilla.org/en-US/docs/container_queries",
+      "Dynamic Viewport Units\nhttps://developer.mozilla.org/en-US/docs/CSS/Vlues_and_units",
+      "CSS nesting\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/CSS_nesting",
+      "Logical Properties (Inline and Block)\nhttps://developer.mozilla.org/en-US/docs/logical_properties"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 6,
+    "title": "Container Queries",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire",
+            "runs": [
+              {
+                "text": "Per approfondire",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_container_queries"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Per approfondire"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le \"container queries\" ti permettono di applicare stili a un elemento in base alla dimensione del contenitore dell'elemento ",
+            "runs": [
+              {
+                "text": "Le \"container queries\" ti permettono di applicare stili a un elemento in base alla dimensione del contenitore dell'elemento "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio, se un contenitore ha meno spazio disponibile nel contesto circostante, puoi nascondere alcuni elementi o utilizzare caratteri più piccoli ",
+            "runs": [
+              {
+                "text": "Ad esempio, se un contenitore ha meno spazio disponibile nel contesto circostante, puoi nascondere alcuni elementi o utilizzare caratteri più piccoli "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le \"container queries\" sono una alternativa alle \"media queries\", che applicano stili agli elementi in base alla dimensione del viewport o ad altre caratteristiche del dispositivo",
+            "runs": [
+              {
+                "text": "Le \"container queries\" sono "
+              },
+              {
+                "text": "una alternativa"
+              },
+              {
+                "text": " alle \"media queries\", che applicano stili agli elementi in base alla dimensione del viewport o ad altre caratteristiche del dispositivo"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Le \"container queries\" ti permettono di applicare stili a un elemento in base alla dimensione del contenitore dell'elemento \nAd esempio, se un contenitore ha meno spazio disponibile nel contesto circostante, puoi nascondere alcuni elementi o utilizzare caratteri più piccoli \nLe \"container queries\" sono una alternativa alle \"media queries\", che applicano stili agli elementi in base alla dimensione del viewport o ad altre caratteristiche del dispositivo"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "/* If the container is larger than 700px */",
+            "runs": [
+              {
+                "text": "/* If the container is larger than 700px */",
+                "mono": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "@container (min-width: 700px) {",
+            "runs": [
+              {
+                "text": "@container",
+                "mono": true
+              },
+              {
+                "text": " (min-width: 700px) {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " .card h2 {",
+            "runs": [
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": ".card",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "h2",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   font-size: 2em;",
+            "runs": [
+              {
+                "text": "   font-size: ",
+                "mono": true
+              },
+              {
+                "text": "2em",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " }",
+            "runs": [
+              {
+                "text": " }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "/* If the container is larger than 700px */\n@container (min-width: 700px) {\n .card h2 {\n   font-size: 2em;\n }\n}"
+      }
+    ],
+    "originalText": [
+      "Container Queries",
+      "Le \"container queries\" ti permettono di applicare stili a un elemento in base alla dimensione del contenitore dell'elemento \nAd esempio, se un contenitore ha meno spazio disponibile nel contesto circostante, puoi nascondere alcuni elementi o utilizzare caratteri più piccoli \nLe \"container queries\" sono una alternativa alle \"media queries\", che applicano stili agli elementi in base alla dimensione del viewport o ad altre caratteristiche del dispositivo",
+      "/* If the container is larger than 700px */\n@container (min-width: 700px) {\n .card h2 {\n   font-size: 2em;\n }\n}",
+      "Per approfondire"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 7,
+    "title": "Dynamic Viewport Units",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire",
+            "runs": [
+              {
+                "text": "Per approfondire",
+                "underline": true,
+                "href": "https://www.bram.us/2021/07/08/the-large-small-and-dynamic-viewports/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Per approfondire"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le Viewport Unit su mobile non tengono conto della barra di navigazione o di un eventuale bottom menu. Questo causa alcune problematiche di visualizzazione quando lo stato della pagina si aggiorna (e.g., scrollando la barra di navigazione si nasconde)",
+            "runs": [
+              {
+                "text": "Le Viewport Unit su mobile non tengono conto della barra di navigazione o di un eventuale bottom menu. Questo causa alcune problematiche di visualizzazione quando lo stato della pagina si aggiorna (e.g., scrollando la barra di navigazione si nasconde)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Sono quindi state introdotte delle nuove Viewport Units che tengono conto di questi elementi: small, large, dynamic viewport units",
+            "runs": [
+              {
+                "text": "Sono quindi state introdotte delle nuove Viewport Units che tengono conto di questi elementi: small, large, dynamic viewport units"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Le Viewport Unit su mobile non tengono conto della barra di navigazione o di un eventuale bottom menu. Questo causa alcune problematiche di visualizzazione quando lo stato della pagina si aggiorna (e.g., scrollando la barra di navigazione si nasconde)\nSono quindi state introdotte delle nuove Viewport Units che tengono conto di questi elementi: small, large, dynamic viewport units"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "element {",
+            "runs": [
+              {
+                "text": "element",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " property: 10dvh;",
+            "runs": [
+              {
+                "text": " property: ",
+                "mono": true
+              },
+              {
+                "text": "10dvh",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " property: 10lvh;",
+            "runs": [
+              {
+                "text": " property: ",
+                "mono": true
+              },
+              {
+                "text": "10lvh",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " property: 10svh;",
+            "runs": [
+              {
+                "text": " property: ",
+                "mono": true
+              },
+              {
+                "text": "10svh",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "element {\n property: 10dvh;\n property: 10lvh;\n property: 10svh;\n}"
+      }
+    ],
+    "originalText": [
+      "Dynamic Viewport Units",
+      "Le Viewport Unit su mobile non tengono conto della barra di navigazione o di un eventuale bottom menu. Questo causa alcune problematiche di visualizzazione quando lo stato della pagina si aggiorna (e.g., scrollando la barra di navigazione si nasconde)\nSono quindi state introdotte delle nuove Viewport Units che tengono conto di questi elementi: small, large, dynamic viewport units",
+      "element {\n property: 10dvh;\n property: 10lvh;\n property: 10svh;\n}",
+      "Per approfondire"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 8,
+    "title": "Logical Properties",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire",
+            "runs": [
+              {
+                "text": "Per approfondire",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_logical_properties_and_values"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Per approfondire"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le proprietà e i valori logici utilizzano i termini astratti \"block\" e \"inline\" per descrivere la direzione in cui fluiscono. Il significato fisico di questi termini dipende dalla modalità di scrittura",
+            "runs": [
+              {
+                "text": "Le proprietà e i valori logici utilizzano i termini astratti \"block\" e \"inline\" per descrivere la direzione in cui fluiscono. Il significato fisico di questi termini dipende dalla modalità di scrittura"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Lo stesso Bootstrap ha introdotto nelle ultime versione le logical properties (cfr. Bootstrap spacing)",
+            "runs": [
+              {
+                "text": "Lo stesso Bootstrap ha introdotto nelle ultime versione le logical properties (cfr. "
+              },
+              {
+                "text": "Bootstrap spacing",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/spacing/"
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Le proprietà e i valori logici utilizzano i termini astratti \"block\" e \"inline\" per descrivere la direzione in cui fluiscono. Il significato fisico di questi termini dipende dalla modalità di scrittura\nLo stesso Bootstrap ha introdotto nelle ultime versione le logical properties (cfr. Bootstrap spacing)"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "element {",
+            "runs": [
+              {
+                "text": "element",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " margin-block-start: 1rem;",
+            "runs": [
+              {
+                "text": " margin-block-start: ",
+                "mono": true
+              },
+              {
+                "text": "1rem",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " margin-block-end: 2rem;",
+            "runs": [
+              {
+                "text": " margin-block-end: ",
+                "mono": true
+              },
+              {
+                "text": "2rem",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " margin-inline: 3rem;",
+            "runs": [
+              {
+                "text": " margin-inline: ",
+                "mono": true
+              },
+              {
+                "text": "3rem",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "element {\n margin-block-start: 1rem;\n margin-block-end: 2rem;\n margin-inline: 3rem;\n}"
+      }
+    ],
+    "originalText": [
+      "Logical Properties",
+      "Le proprietà e i valori logici utilizzano i termini astratti \"block\" e \"inline\" per descrivere la direzione in cui fluiscono. Il significato fisico di questi termini dipende dalla modalità di scrittura\nLo stesso Bootstrap ha introdotto nelle ultime versione le logical properties (cfr. Bootstrap spacing)",
+      "element {\n margin-block-start: 1rem;\n margin-block-end: 2rem;\n margin-inline: 3rem;\n}",
+      "Per approfondire"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 9,
+    "title": "CSS Nesting",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire",
+            "runs": [
+              {
+                "text": "Per approfondire",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/Nesting_selector"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Per approfondire"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il modulo di nidificazione CSS definisce una sintassi per la nidificazione dei selettori, offrendo la possibilità di annidare una regola di stile all'interno di un'altra. La nidificazione CSS è diversa dai preprocessori CSS come Sass nel senso che viene analizzata dal browser anziché essere precompilata da un preprocessore CSS",
+            "runs": [
+              {
+                "text": "Il modulo di nidificazione CSS definisce una sintassi per la nidificazione dei selettori, offrendo la possibilità di annidare una regola di stile all'interno di un'altra. La nidificazione CSS è diversa dai preprocessori CSS come Sass nel senso che viene analizzata dal browser anziché essere precompilata da un preprocessore CSS"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La nidificazione CSS aiuta nella leggibilità, modularità e manutenibilità dei fogli di stile CSS. Inoltre, potenzialmente aiuta a ridurre le dimensioni dei file CSS, riducendo così la quantità di dati scaricati dagli utenti",
+            "runs": [
+              {
+                "text": "La nidificazione CSS aiuta nella leggibilità, modularità e manutenibilità dei fogli di stile CSS. Inoltre, potenzialmente aiuta a ridurre le dimensioni dei file CSS, riducendo così la quantità di dati scaricati dagli utenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Il modulo di nidificazione CSS definisce una sintassi per la nidificazione dei selettori, offrendo la possibilità di annidare una regola di stile all'interno di un'altra. La nidificazione CSS è diversa dai preprocessori CSS come Sass nel senso che viene analizzata dal browser anziché essere precompilata da un preprocessore CSS\nLa nidificazione CSS aiuta nella leggibilità, modularità e manutenibilità dei fogli di stile CSS. Inoltre, potenzialmente aiuta a ridurre le dimensioni dei file CSS, riducendo così la quantità di dati scaricati dagli utenti"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "parentRule {",
+            "runs": [
+              {
+                "text": "parentRule",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " /* parent rule style properties */",
+            "runs": [
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "/* parent rule style properties */",
+                "mono": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " & childRule {",
+            "runs": [
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "& childRule",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   /* child rule style properties */",
+            "runs": [
+              {
+                "text": "   ",
+                "mono": true
+              },
+              {
+                "text": "/* child rule style properties */",
+                "mono": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " }",
+            "runs": [
+              {
+                "text": " }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "parentRule {\n /* parent rule style properties */\n & childRule {\n   /* child rule style properties */\n }\n}"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".parent-rule {",
+            "runs": [
+              {
+                "text": ".parent-rule",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " /* parent rule style properties */",
+            "runs": [
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "/* parent rule style properties */",
+                "mono": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".parent-rule .child-rule {",
+            "runs": [
+              {
+                "text": ".parent-rule",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": ".child-rule",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " /* style properties for .child-rule descendants for .parent-rule ancestors */",
+            "runs": [
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "/* style properties for .child-rule descendants for .parent-rule ancestors */",
+                "mono": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".parent-rule {\n /* parent rule style properties */\n}\n.parent-rule .child-rule {\n /* style properties for .child-rule descendants for .parent-rule ancestors */\n}"
+      }
+    ],
+    "originalText": [
+      "CSS Nesting",
+      "Il modulo di nidificazione CSS definisce una sintassi per la nidificazione dei selettori, offrendo la possibilità di annidare una regola di stile all'interno di un'altra. La nidificazione CSS è diversa dai preprocessori CSS come Sass nel senso che viene analizzata dal browser anziché essere precompilata da un preprocessore CSS\nLa nidificazione CSS aiuta nella leggibilità, modularità e manutenibilità dei fogli di stile CSS. Inoltre, potenzialmente aiuta a ridurre le dimensioni dei file CSS, riducendo così la quantità di dati scaricati dagli utenti",
+      "parentRule {\n /* parent rule style properties */\n & childRule {\n   /* child rule style properties */\n }\n}",
+      "Per approfondire",
+      ".parent-rule {\n /* parent rule style properties */\n}\n.parent-rule .child-rule {\n /* style properties for .child-rule descendants for .parent-rule ancestors */\n}"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 10,
+    "title": "Proprietà generalmente supportate",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Object-fit\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/object-fit",
+            "runs": [
+              {
+                "text": "Object-fit",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Object-fit\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/object-fit"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Clip-path\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+            "runs": [
+              {
+                "text": "Clip-path",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Clip-path\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/clip-path"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Aspect-ratio\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio",
+            "runs": [
+              {
+                "text": "Aspect-ratio",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Aspect-ratio\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Columns\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/columns",
+            "runs": [
+              {
+                "text": "Columns",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/Web/CSS/columns",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/columns"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Columns\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/columns"
+      }
+    ],
+    "originalText": [
+      "Proprietà generalmente supportate",
+      "Object-fit\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/object-fit",
+      "Clip-path\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/clip-path",
+      "Columns\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/columns",
+      "Aspect-ratio\nhttps://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 11,
+    "title": "Object-fit",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit#try_it"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La proprietà object-fit definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene ",
+            "runs": [
+              {
+                "text": "La proprietà object-fit definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Si utilizza su elementi come immagini e video, e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore",
+            "runs": [
+              {
+                "text": "Si utilizza su elementi come "
+              },
+              {
+                "text": "immagini e video",
+                "bold": true
+              },
+              {
+                "text": ", e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà object-position",
+            "runs": [
+              {
+                "text": "Per modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà "
+              },
+              {
+                "text": "object-position",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per approfondire la differenza tra background-image e object -fit",
+            "runs": [
+              {
+                "text": "Per approfondire la differenza tra background-image e object -fit"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "A Deep Dive Into object-fit And background-size In CSS",
+            "runs": [
+              {
+                "text": "A Deep Dive Into object-fit And background-size In CSS",
+                "underline": true,
+                "href": "https://www.smashingmagazine.com/2021/10/object-fit-background-size-css/"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "La proprietà object-fit definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene \nSi utilizza su elementi come immagini e video, e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore\nPer modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà object-position\nPer approfondire la differenza tra background-image e object -fit\nA Deep Dive Into object-fit And background-size In CSS"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "img {",
+            "runs": [
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  height: 200px;",
+            "runs": [
+              {
+                "text": "  height: ",
+                "mono": true
+              },
+              {
+                "text": "200px",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  width: 200px;",
+            "runs": [
+              {
+                "text": "  width: ",
+                "mono": true
+              },
+              {
+                "text": "200px",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  object-fit: fill | contain | cover | none | scale-down",
+            "runs": [
+              {
+                "text": "  object-fit: fill | contain | cover | none | scale-down",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "img {\n  height: 200px;\n  width: 200px;\n  object-fit: fill | contain | cover | none | scale-down\n}"
+      }
+    ],
+    "originalText": [
+      "Object-fit",
+      "La proprietà object-fit definisce il modo in cui un elemento si adatta all’altezza e alla larghezza del box che lo contiene \nSi utilizza su elementi come immagini e video, e permette di acquisire il controllo su come l’elemento si “schiaccia” o si “allarga” nel suo contenitore\nPer modificare l'allineamento dell'elemento ridimensionato rispetto al suo contenitore si può usare la proprietà object-position\nPer approfondire la differenza tra background-image e object -fit\nA Deep Dive Into object-fit And background-size In CSS",
+      "img {\n  height: 200px;\n  width: 200px;\n  object-fit: fill | contain | cover | none | scale-down\n}",
+      "Try it"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 12,
+    "title": "Clip-path",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path#try_it"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "clip-path permette di isolare nell’elemento la specifica regione che deve essere mostrata. Uno dei suoi utilizzi più semplici prevede la creazione di una regione sfruttando semplici forme geometriche (circle, ellipses, polygon)",
+            "runs": [
+              {
+                "text": "clip-path permette di isolare nell’elemento la specifica regione che deve essere mostrata. Uno dei suoi utilizzi più semplici prevede la creazione di una regione sfruttando "
+              },
+              {
+                "text": "semplici forme geometriche",
+                "bold": true
+              },
+              {
+                "text": " (circle, ellipses, polygon)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Si può altrimenti utilizzare un SVG contenente un path",
+            "runs": [
+              {
+                "text": "Si può altrimenti utilizzare un SVG contenente un path"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Un sito utile per creare particolari forme",
+            "runs": [
+              {
+                "text": "Un sito utile per creare particolari forme"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Clippy — CSS clip-path maker",
+            "runs": [
+              {
+                "text": "Clippy — CSS clip-path maker",
+                "underline": true,
+                "href": "https://bennettfeely.com/clippy/"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "clip-path permette di isolare nell’elemento la specifica regione che deve essere mostrata. Uno dei suoi utilizzi più semplici prevede la creazione di una regione sfruttando semplici forme geometriche (circle, ellipses, polygon)\nSi può altrimenti utilizzare un SVG contenente un path\nUn sito utile per creare particolari forme\nClippy — CSS clip-path maker"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "/*",
+            "runs": [
+              {
+                "text": "/*",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " * Per mostrare soltanto una regione circolare di 60px",
+            "runs": [
+              {
+                "text": " * Per mostrare soltanto una regione circolare di 60px",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " * di diametro posizionata al centro dell'immagine",
+            "runs": [
+              {
+                "text": " * di diametro posizionata al centro dell'immagine",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": " */",
+            "runs": [
+              {
+                "text": " */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "img {",
+            "runs": [
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  clip-path: circle(60px at center);",
+            "runs": [
+              {
+                "text": "  clip-path: ",
+                "mono": true
+              },
+              {
+                "text": "circle",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "60px",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "at",
+                "mono": true
+              },
+              {
+                "text": " center);",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "/*\n * Per mostrare soltanto una regione circolare di 60px\n * di diametro posizionata al centro dell'immagine\n */\nimg {\n  clip-path: circle(60px at center);\n}"
+      }
+    ],
+    "originalText": [
+      "Clip-path",
+      "clip-path permette di isolare nell’elemento la specifica regione che deve essere mostrata. Uno dei suoi utilizzi più semplici prevede la creazione di una regione sfruttando semplici forme geometriche (circle, ellipses, polygon)\nSi può altrimenti utilizzare un SVG contenente un path\nUn sito utile per creare particolari forme\nClippy — CSS clip-path maker",
+      "/*\n * Per mostrare soltanto una regione circolare di 60px\n * di diametro posizionata al centro dell'immagine\n */\nimg {\n  clip-path: circle(60px at center);\n}",
+      "Try it"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 13,
+    "title": "Aspect-ratio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio#try_it"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La proprietà CSS aspect-ratio imposta un rapporto di aspetto preferito per il box, che sarà utilizzato nel calcolo delle dimensioni automatiche e in alcune altre funzioni di layout",
+            "runs": [
+              {
+                "text": "La proprietà CSS aspect-ratio imposta un "
+              },
+              {
+                "text": "rapporto di aspetto preferito per il box",
+                "bold": true
+              },
+              {
+                "text": ", che sarà utilizzato "
+              },
+              {
+                "text": "nel calcolo delle dimensioni automatiche",
+                "bold": true
+              },
+              {
+                "text": " e in alcune altre funzioni di layout"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Se viene definita una dimensione, l’altra verrà calcolata in automatico in base al rapporto d’aspetto selezionato",
+            "runs": [
+              {
+                "text": "Se viene definita una dimensione, l’altra verrà calcolata in automatico in base al rapporto d’aspetto selezionato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Può essere un valido strumento da abbinare a object-fit nella creazione di immagini responsive",
+            "runs": [
+              {
+                "text": "Può essere un valido strumento da abbinare a object-fit nella creazione di immagini responsive"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per approfondire",
+            "runs": [
+              {
+                "text": "Per approfondire"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "esempio",
+            "runs": [
+              {
+                "text": "e",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-cx5rq5?file=index.html,styles.css,script.js"
+              },
+              {
+                "text": "sempio",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-cx5rq5?file=index.html,styles.css,script.js"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Aspect Ratio is Great",
+            "runs": [
+              {
+                "text": "Aspect Ratio is Great",
+                "underline": true,
+                "href": "https://css-irl.info/aspect-ratio-is-great/"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "La proprietà CSS aspect-ratio imposta un rapporto di aspetto preferito per il box, che sarà utilizzato nel calcolo delle dimensioni automatiche e in alcune altre funzioni di layout\nSe viene definita una dimensione, l’altra verrà calcolata in automatico in base al rapporto d’aspetto selezionato\nPuò essere un valido strumento da abbinare a object-fit nella creazione di immagini responsive\nPer approfondire\nesempio\nAspect Ratio is Great"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "img {",
+            "runs": [
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  aspect-ratio: 1 / 1; /* img sarà quadrato */",
+            "runs": [
+              {
+                "text": "  aspect-ratio: ",
+                "mono": true
+              },
+              {
+                "text": "1",
+                "mono": true
+              },
+              {
+                "text": " / ",
+                "mono": true
+              },
+              {
+                "text": "1",
+                "mono": true
+              },
+              {
+                "text": "; ",
+                "mono": true
+              },
+              {
+                "text": "/* img sarà quadrato */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "img {\n  aspect-ratio: 1 / 1; /* img sarà quadrato */\n}"
+      }
+    ],
+    "originalText": [
+      "Aspect-ratio",
+      "La proprietà CSS aspect-ratio imposta un rapporto di aspetto preferito per il box, che sarà utilizzato nel calcolo delle dimensioni automatiche e in alcune altre funzioni di layout\nSe viene definita una dimensione, l’altra verrà calcolata in automatico in base al rapporto d’aspetto selezionato\nPuò essere un valido strumento da abbinare a object-fit nella creazione di immagini responsive\nPer approfondire\nesempio\nAspect Ratio is Great",
+      "img {\n  aspect-ratio: 1 / 1; /* img sarà quadrato */\n}",
+      "Try it"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 14,
+    "title": "Columns",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/CSS/columns#try_it"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Grazie a columns potete creare un layout ispirato alla stampa, dotato tuttavia della flessibilità necessaria sul web. ",
+            "runs": [
+              {
+                "text": "Grazie a columns potete creare un layout ispirato alla stampa, dotato tuttavia della flessibilità necessaria sul web. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La proprietà accetta i valori column-count (intero) o column-width (dimensione), o entrambe",
+            "runs": [
+              {
+                "text": "La proprietà accetta i valori "
+              },
+              {
+                "text": "column-count",
+                "bold": true
+              },
+              {
+                "text": " (intero) o "
+              },
+              {
+                "text": "column-width",
+                "bold": true
+              },
+              {
+                "text": " (dimensione), o entrambe"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Si può abbinare a column-gap, che indica lo spazio tra le colonne",
+            "runs": [
+              {
+                "text": "Si può abbinare a "
+              },
+              {
+                "text": "column-gap",
+                "bold": true
+              },
+              {
+                "text": ", che indica lo spazio tra le colonne"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le colonne sono già responsive e non c’è bisogno di utilizzare media queries per cambiare il numero di colonne. Il browser userà la larghezza ottimale da noi specificata per decidere quando spostare una colonna sotto l’altra",
+            "runs": [
+              {
+                "text": "Le colonne sono già responsive e non c’è bisogno di utilizzare media queries per cambiare il numero di colonne. Il browser userà la larghezza ottimale da noi specificata per decidere quando spostare una colonna sotto l’altra"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Grazie a columns potete creare un layout ispirato alla stampa, dotato tuttavia della flessibilità necessaria sul web. \nLa proprietà accetta i valori column-count (intero) o column-width (dimensione), o entrambe\nSi può abbinare a column-gap, che indica lo spazio tra le colonne\nLe colonne sono già responsive e non c’è bisogno di utilizzare media queries per cambiare il numero di colonne. Il browser userà la larghezza ottimale da noi specificata per decidere quando spostare una colonna sotto l’altra"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".testo {",
+            "runs": [
+              {
+                "text": ".testo",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  columns: 300px 3; /* crea tre colonne di 300px ciascuna */",
+            "runs": [
+              {
+                "text": "  columns: ",
+                "mono": true
+              },
+              {
+                "text": "300px",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "3",
+                "mono": true
+              },
+              {
+                "text": "; ",
+                "mono": true
+              },
+              {
+                "text": "/* crea tre colonne di 300px ciascuna */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  column-gap: 10px; /* crea un gap di 10px tra ogni colonna */",
+            "runs": [
+              {
+                "text": "  column-gap: ",
+                "mono": true
+              },
+              {
+                "text": "10px",
+                "mono": true
+              },
+              {
+                "text": "; ",
+                "mono": true
+              },
+              {
+                "text": "/* crea un gap di 10px tra ogni colonna */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".testo {\n  columns: 300px 3; /* crea tre colonne di 300px ciascuna */\n  column-gap: 10px; /* crea un gap di 10px tra ogni colonna */\n}"
+      }
+    ],
+    "originalText": [
+      "Columns",
+      "Grazie a columns potete creare un layout ispirato alla stampa, dotato tuttavia della flessibilità necessaria sul web. \nLa proprietà accetta i valori column-count (intero) o column-width (dimensione), o entrambe\nSi può abbinare a column-gap, che indica lo spazio tra le colonne\nLe colonne sono già responsive e non c’è bisogno di utilizzare media queries per cambiare il numero di colonne. Il browser userà la larghezza ottimale da noi specificata per decidere quando spostare una colonna sotto l’altra",
+      ".testo {\n  columns: 300px 3; /* crea tre colonne di 300px ciascuna */\n  column-gap: 10px; /* crea un gap di 10px tra ogni colonna */\n}",
+      "Try it"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 15,
+    "title": "GRID",
+    "blocks": [],
+    "originalText": [
+      "GRID"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 16,
+    "title": "Cos’è grid",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il grid layout di CSS è un potente strumento per creare layout",
+            "runs": [
+              {
+                "text": "Il grid layout di CSS è un potente strumento per creare layout"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Al contrario di flexbox, che si basa su una sola dimensione, grid è “bidimensionale”, permettendo di gestire righe e colonne",
+            "runs": [
+              {
+                "text": "Al contrario di flexbox, che si basa su una sola dimensione, grid è “bidimensionale”, permettendo di gestire righe e colonne"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le regole si possono applicare a un elemento genitore (il contenitore grid) e agli elementi figli (i grid items)",
+            "runs": [
+              {
+                "text": "Le regole si possono applicare a un elemento genitore (il "
+              },
+              {
+                "text": "contenitore grid",
+                "bold": true
+              },
+              {
+                "text": ") e agli elementi figli (i "
+              },
+              {
+                "text": "grid items",
+                "bold": true
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Il grid layout di CSS è un potente strumento per creare layout\nAl contrario di flexbox, che si basa su una sola dimensione, grid è “bidimensionale”, permettendo di gestire righe e colonne\nLe regole si possono applicare a un elemento genitore (il contenitore grid) e agli elementi figli (i grid items)"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Reference",
+            "runs": [
+              {
+                "text": "Reference",
+                "underline": true,
+                "href": "https://css-tricks.com/snippets/css/complete-guide-grid/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Reference"
+      }
+    ],
+    "originalText": [
+      "Cos’è grid",
+      "Il grid layout di CSS è un potente strumento per creare layout\nAl contrario di flexbox, che si basa su una sola dimensione, grid è “bidimensionale”, permettendo di gestire righe e colonne\nLe regole si possono applicare a un elemento genitore (il contenitore grid) e agli elementi figli (i grid items)",
+      "Reference"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 17,
+    "title": "Proprietà per il genitore",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per dichiarare un contenitore grid basta assegnargli display: grid;",
+            "runs": [
+              {
+                "text": "Per dichiarare un contenitore grid basta assegnargli "
+              },
+              {
+                "text": "display: grid;",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Al genitore possono essere dunque assegnate diverse proprietà, tra cui:",
+            "runs": [
+              {
+                "text": "Al genitore possono essere dunque assegnate diverse proprietà, tra cui:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "grid-template-columns e grid-template-rows",
+            "runs": [
+              {
+                "text": "grid-template-columns e grid-template-rows"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "grid-template-areas",
+            "runs": [
+              {
+                "text": "grid-template-areas"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "column-gap e row-gap",
+            "runs": [
+              {
+                "text": "column-gap e row-gap"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Per dichiarare un contenitore grid basta assegnargli display: grid;\nAl genitore possono essere dunque assegnate diverse proprietà, tra cui:\ngrid-template-columns e grid-template-rows\ngrid-template-areas\ncolumn-gap e row-gap"
+      }
+    ],
+    "originalText": [
+      "Proprietà per il genitore",
+      "Per dichiarare un contenitore grid basta assegnargli display: grid;\nAl genitore possono essere dunque assegnate diverse proprietà, tra cui:\ngrid-template-columns e grid-template-rows\ngrid-template-areas\ncolumn-gap e row-gap"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 18,
+    "title": "grid-template-columns e grid-template-row",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio",
+            "runs": [
+              {
+                "text": "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ogni valore rappresenta le dimensioni della vostra colonna o della vostra riga",
+            "runs": [
+              {
+                "text": "Ogni valore rappresenta le dimensioni della vostra colonna o della vostra riga"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Gli spazi tra colonne e righe sono detti linee ",
+            "runs": [
+              {
+                "text": "Gli spazi tra colonne e righe sono detti linee "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio\nOgni valore rappresenta le dimensioni della vostra colonna o della vostra riga\nGli spazi tra colonne e righe sono detti linee"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".container {",
+            "runs": [
+              {
+                "text": ".container",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-template-columns: auto auto auto auto;",
+            "runs": [
+              {
+                "text": "  grid-template-columns: auto auto auto auto;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-template-rows: 100px 250px 150px;",
+            "runs": [
+              {
+                "text": "  grid-template-rows: ",
+                "mono": true
+              },
+              {
+                "text": "100px",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "250px",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "150px",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".container {\n  grid-template-columns: auto auto auto auto;\n  grid-template-rows: 100px 250px 150px;\n}"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/03-018-diagram.webp",
+        "alt": "grid-template-columns e grid-template-row. .container { grid-template-columns: auto auto auto auto; grid-template-rows: 100px 250px 150px; }",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "grid-template-columns e\ngrid-template-row",
+      "Queste proprietà definiscono le righe e le colonne della vostra griglia, grazie ad una lista di valori separati da uno spazio\nOgni valore rappresenta le dimensioni della vostra colonna o della vostra riga\nGli spazi tra colonne e righe sono detti linee",
+      ".container {\n  grid-template-columns: auto auto auto auto;\n  grid-template-rows: 100px 250px 150px;\n}"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 19,
+    "title": "grid-template-columns e grid-template-row",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Potete assegnare un nome alle linee usando parentesi quadre",
+            "runs": [
+              {
+                "text": "Potete assegnare un nome alle linee usando parentesi quadre"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Questo vi aiuterà a posizionare i grid items",
+            "runs": [
+              {
+                "text": "Questo vi aiuterà a posizionare i grid items"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Potete assegnare un nome alle linee usando parentesi quadre\nQuesto vi aiuterà a posizionare i grid items"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".container {",
+            "runs": [
+              {
+                "text": ".container",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-template-columns: [col1] auto [col2] auto [col3] auto [col4] auto [col5];",
+            "runs": [
+              {
+                "text": "  grid-template-columns: [col1] auto [col2] auto [col3] auto [col4] auto [col5];",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-template-rows: [row1] 100px [row2] 250px [row3] 150px [row4];",
+            "runs": [
+              {
+                "text": "  grid-template-rows: [row1] ",
+                "mono": true
+              },
+              {
+                "text": "100px",
+                "mono": true
+              },
+              {
+                "text": " [row2] ",
+                "mono": true
+              },
+              {
+                "text": "250px",
+                "mono": true
+              },
+              {
+                "text": " [row3] ",
+                "mono": true
+              },
+              {
+                "text": "150px",
+                "mono": true
+              },
+              {
+                "text": " [row4];",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".container {\n  grid-template-columns: [col1] auto [col2] auto [col3] auto [col4] auto [col5];\n  grid-template-rows: [row1] 100px [row2] 250px [row3] 150px [row4];\n}"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/03-019-diagram.webp",
+        "alt": "grid-template-columns e grid-template-row. Potete assegnare un nome alle linee usando parentesi quadre Questo vi aiuterà a posizionare i grid items .container { grid-template-columns: [col1] auto [col2] auto [col3] auto [col4] auto [col5]; grid-template-rows: [row1] 100px [row2] 250px [row3] 150px [row4]; } row1 row2 row3 row4 col1 col2 col5 col3 col4",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "grid-template-columns e\ngrid-template-row",
+      "Potete assegnare un nome alle linee usando parentesi quadre\nQuesto vi aiuterà a posizionare i grid items",
+      ".container {\n  grid-template-columns: [col1] auto [col2] auto [col3] auto [col4] auto [col5];\n  grid-template-rows: [row1] 100px [row2] 250px [row3] 150px [row4];\n}",
+      "row1",
+      "row2",
+      "row3",
+      "row4",
+      "col1",
+      "col2",
+      "col5",
+      "col3",
+      "col4"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 20,
+    "title": "grid-template-areas",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".container {",
+            "runs": [
+              {
+                "text": ".container",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-template-columns: auto auto auto auto;",
+            "runs": [
+              {
+                "text": "  grid-template-columns: auto auto auto auto;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-template-rows: 100px 250px 150px;",
+            "runs": [
+              {
+                "text": "  grid-template-rows: ",
+                "mono": true
+              },
+              {
+                "text": "100px",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "250px",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "150px",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-template-areas:",
+            "runs": [
+              {
+                "text": "  grid-template-areas:",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    \"header header header header\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "\"header header header header\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    \"main main main side\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "\"main main main side\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    \"footer footer footer side\";",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "\"footer footer footer side\"",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".header {",
+            "runs": [
+              {
+                "text": ".header",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-area: header;",
+            "runs": [
+              {
+                "text": "  grid-area: header;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".main {",
+            "runs": [
+              {
+                "text": ".main",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-area: main;",
+            "runs": [
+              {
+                "text": "  grid-area: main;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".container {\n  grid-template-columns: auto auto auto auto;\n  grid-template-rows: 100px 250px 150px;\n  grid-template-areas:\n    \"header header header header\"\n    \"main main main side\"\n    \"footer footer footer side\";\n}\n\n.header {\n  grid-area: header;\n}\n.main {\n  grid-area: main;\n}"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Questa proprietà permette di definire dei nomi arbitrari per le aree della vostra griglia",
+            "runs": [
+              {
+                "text": "Questa proprietà permette di definire dei nomi arbitrari per le aree della vostra griglia"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La sintassi stessa permette di “visualizzare” la struttura della griglia ",
+            "runs": [
+              {
+                "text": "La sintassi stessa permette di “visualizzare” la struttura della griglia "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Questo permetterà di posizionare più comodamente i grid items (abbinandolo con grid-area)",
+            "runs": [
+              {
+                "text": "Questo permetterà di posizionare più comodamente i grid items (abbinandolo con grid-area)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "O addirittura creare un layout completamente responsive senza l’utilizzo delle media queries",
+            "runs": [
+              {
+                "text": "O addirittura creare un layout completamente responsive senza l’utilizzo delle media queries"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Questa proprietà permette di definire dei nomi arbitrari per le aree della vostra griglia\nLa sintassi stessa permette di “visualizzare” la struttura della griglia \nQuesto permetterà di posizionare più comodamente i grid items (abbinandolo con grid-area)\nO addirittura creare un layout completamente responsive senza l’utilizzo delle media queries"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempio interattivo",
+            "runs": [
+              {
+                "text": "Esempio interattivo",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-89fvbe?file=index.html,styles.css,script.js"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Look Ma, No Media Queries! Responsive Layouts Using CSS Grid",
+            "runs": [
+              {
+                "text": "Look Ma, No Media Queries! Responsive Layouts Using CSS Grid",
+                "underline": true,
+                "href": "https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Esempio interattivo\nLook Ma, No Media Queries! Responsive Layouts Using CSS Grid"
+      }
+    ],
+    "originalText": [
+      "grid-template-areas",
+      "Questa proprietà permette di definire dei nomi arbitrari per le aree della vostra griglia\nLa sintassi stessa permette di “visualizzare” la struttura della griglia \nQuesto permetterà di posizionare più comodamente i grid items (abbinandolo con grid-area)\nO addirittura creare un layout completamente responsive senza l’utilizzo delle media queries",
+      ".container {\n  grid-template-columns: auto auto auto auto;\n  grid-template-rows: 100px 250px 150px;\n  grid-template-areas:\n    \"header header header header\"\n    \"main main main side\"\n    \"footer footer footer side\";\n}\n\n.header {\n  grid-area: header;\n}\n.main {\n  grid-area: main;\n}",
+      "Esempio interattivo\nLook Ma, No Media Queries! Responsive Layouts Using CSS Grid"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 21,
+    "title": "column-gap e row-gap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Permette di definire quello che potete immaginare come il gutter tra colonne o tra righe",
+            "runs": [
+              {
+                "text": "Permette di definire quello che potete immaginare come il gutter tra colonne o tra righe"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Entrambe le proprietà accettano una dimensione come valore",
+            "runs": [
+              {
+                "text": "Entrambe le proprietà accettano una dimensione come valore"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Permette di definire quello che potete immaginare come il gutter tra colonne o tra righe\nEntrambe le proprietà accettano una dimensione come valore"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".container {",
+            "runs": [
+              {
+                "text": ".container",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  column-gap: <line-size>;",
+            "runs": [
+              {
+                "text": "  column-gap: <line-size>;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  row-gap: <line-size>;",
+            "runs": [
+              {
+                "text": "  row-gap: <line-size>;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".container {\n  column-gap: <line-size>;\n  row-gap: <line-size>;\n}"
+      }
+    ],
+    "originalText": [
+      "column-gap e row-gap",
+      "Permette di definire quello che potete immaginare come il gutter tra colonne o tra righe\nEntrambe le proprietà accettano una dimensione come valore",
+      ".container {\n  column-gap: <line-size>;\n  row-gap: <line-size>;\n}"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 22,
+    "title": "Proprietà per i figli",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "grid-column e grid-row",
+            "runs": [
+              {
+                "text": "grid-column e grid-row"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "grid-area",
+            "runs": [
+              {
+                "text": "grid-area"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "grid-column e grid-row\ngrid-area"
+      }
+    ],
+    "originalText": [
+      "Proprietà per i figli",
+      "grid-column e grid-row\ngrid-area"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 23,
+    "title": "grid-column e grid-row",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Sono rispettivamente forme contratte di 4 altre proprietà: grid-column-start + grid-column-end e grid-row-start + grid-row-end",
+            "runs": [
+              {
+                "text": "Sono rispettivamente forme contratte di 4 altre proprietà: "
+              },
+              {
+                "text": "grid-column-start",
+                "bold": true
+              },
+              {
+                "text": " + "
+              },
+              {
+                "text": "grid-column-end",
+                "bold": true
+              },
+              {
+                "text": " e "
+              },
+              {
+                "text": "grid-row-start",
+                "bold": true
+              },
+              {
+                "text": " + "
+              },
+              {
+                "text": "grid-row-end",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I valori accettati sono il numero (o il nome) della linea da cui deve partire l’elemento, unito a un “/” e al numero (o al nome) della linea di fine",
+            "runs": [
+              {
+                "text": "I valori accettati sono il numero (o il nome) della linea da cui deve partire l’elemento, unito a un “/” e al numero (o al nome) della linea di fine"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Alternativamente, il secondo argomento può essere “span” seguito da un numero che indicherà quante righe/colonne dovrà occupare l’elemento",
+            "runs": [
+              {
+                "text": "Alternativamente, il secondo argomento può essere “span” seguito da un numero che indicherà quante righe/colonne dovrà occupare l’elemento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Sono rispettivamente forme contratte di 4 altre proprietà: grid-column-start + grid-column-end e grid-row-start + grid-row-end\nI valori accettati sono il numero (o il nome) della linea da cui deve partire l’elemento, unito a un “/” e al numero (o al nome) della linea di fine\nAlternativamente, il secondo argomento può essere “span” seguito da un numero che indicherà quante righe/colonne dovrà occupare l’elemento"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".item {",
+            "runs": [
+              {
+                "text": ".item",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-column: <start-line> / <end-line> | <start-line> / span <value>;",
+            "runs": [
+              {
+                "text": "  grid-column: <start-line>",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "/",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "<end-line> | <start-line> / span <value>;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  grid-row: <start-line> / <end-line> | <start-line> / span <value>;",
+            "runs": [
+              {
+                "text": "  grid-row: <start-line> / <end-line> | <start-line> / span <value>;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".item {\n  grid-column: <start-line> / <end-line> | <start-line> / span <value>;\n  grid-row: <start-line> / <end-line> | <start-line> / span <value>;\n}"
+      }
+    ],
+    "originalText": [
+      "grid-column e grid-row",
+      "Sono rispettivamente forme contratte di 4 altre proprietà: grid-column-start + grid-column-end e grid-row-start + grid-row-end\nI valori accettati sono il numero (o il nome) della linea da cui deve partire l’elemento, unito a un “/” e al numero (o al nome) della linea di fine\nAlternativamente, il secondo argomento può essere “span” seguito da un numero che indicherà quante righe/colonne dovrà occupare l’elemento",
+      ".item {\n  grid-column: <start-line> / <end-line> | <start-line> / span <value>;\n  grid-row: <start-line> / <end-line> | <start-line> / span <value>;\n}"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 24,
+    "title": "grid-area",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dovete abbinarlo a grid-template-areas per permettere di posizionare direttamente un elemento su una determinata area della griglia.",
+            "runs": [
+              {
+                "text": "Dovete abbinarlo a grid-template-areas per permettere di posizionare direttamente un elemento su una determinata area della griglia."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Dovete abbinarlo a grid-template-areas per permettere di posizionare direttamente un elemento su una determinata area della griglia."
+      }
+    ],
+    "originalText": [
+      "grid-area",
+      "Dovete abbinarlo a grid-template-areas per permettere di posizionare direttamente un elemento su una determinata area della griglia."
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 25,
+    "title": "srcset",
+    "blocks": [],
+    "originalText": [
+      "srcset"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 26,
+    "title": "Cos’è srcset e perché usarlo",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In Html è possibile servire all’utente un’immagine differente in base alle circostanze",
+            "runs": [
+              {
+                "text": "In Html è possibile servire all’utente un’immagine differente in base alle circostanze"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Usando i srcset si fornisce al browser la possibilità di scegliere di mostrare una versione più leggera dell’immagine, se lo ritiene",
+            "runs": [
+              {
+                "text": "Usando i "
+              },
+              {
+                "text": "srcset ",
+                "bold": true
+              },
+              {
+                "text": "si fornisce al browser la possibilità di scegliere di mostrare una versione più leggera dell’immagine, "
+              },
+              {
+                "text": "se lo ritiene",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il risultato è una potenziale riduzione significativa del tempo di caricamento generale, soprattutto su dispositivi piccoli",
+            "runs": [
+              {
+                "text": "Il risultato è una potenziale riduzione significativa del tempo di caricamento generale, soprattutto su dispositivi piccoli"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "In Html è possibile servire all’utente un’immagine differente in base alle circostanze\nUsando i srcset si fornisce al browser la possibilità di scegliere di mostrare una versione più leggera dell’immagine, se lo ritiene\nIl risultato è una potenziale riduzione significativa del tempo di caricamento generale, soprattutto su dispositivi piccoli"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset",
+            "runs": [
+              {
+                "text": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset",
+                "underline": true,
+                "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset"
+      }
+    ],
+    "originalText": [
+      "Cos’è srcset e perché usarlo",
+      "In Html è possibile servire all’utente un’immagine differente in base alle circostanze\nUsando i srcset si fornisce al browser la possibilità di scegliere di mostrare una versione più leggera dell’immagine, se lo ritiene\nIl risultato è una potenziale riduzione significativa del tempo di caricamento generale, soprattutto su dispositivi piccoli",
+      "https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/srcset"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 27,
+    "title": "La sintassi di srcset",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Oltre al normale attributo src, si aggiunge srcset per definire versioni della stessa immagine con dimensioni differenti",
+            "runs": [
+              {
+                "text": "Oltre al normale attributo src, si aggiunge srcset per definire versioni della stessa immagine con dimensioni differenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Oltre al normale attributo src, si aggiunge srcset per definire versioni della stessa immagine con dimensioni differenti"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<img srcset=\"\" src=\"\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "srcset",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<img srcset=\"\" src=\"\">"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il browser assumerà che ogni elemento del srcset è visivamente identico, e sceglierà di utilizzare l’elemento che riterrà più adatto",
+            "runs": [
+              {
+                "text": "Il browser assumerà che ogni elemento del srcset è visivamente identico, e sceglierà di utilizzare l’elemento che riterrà più adatto"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Non è consigliato inserire immagini diverse",
+            "runs": [
+              {
+                "text": "Non è consigliato inserire immagini diverse"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Il browser assumerà che ogni elemento del srcset è visivamente identico, e sceglierà di utilizzare l’elemento che riterrà più adatto\nNon è consigliato inserire immagini diverse"
+      }
+    ],
+    "originalText": [
+      "La sintassi di srcset",
+      "Oltre al normale attributo src, si aggiunge srcset per definire versioni della stessa immagine con dimensioni differenti",
+      "<img srcset=\"\" src=\"\">",
+      "Il browser assumerà che ogni elemento del srcset è visivamente identico, e sceglierà di utilizzare l’elemento che riterrà più adatto\nNon è consigliato inserire immagini diverse"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 28,
+    "title": "Implementare srcset con gli x-descriptors",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il modo più semplice di implementare srcset è utilizzare gli x descriptors: si tratta di una etichetta apposta ad ogni immagine per schermi a diversa densità",
+            "runs": [
+              {
+                "text": "Il modo più semplice di implementare srcset è utilizzare gli "
+              },
+              {
+                "text": "x descriptors",
+                "bold": true
+              },
+              {
+                "text": ": si tratta di una etichetta apposta ad ogni immagine per schermi a diversa densità"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Nel src si fornisce il file di “default”, di solito a bassa risoluzione, e nel srcset si indicano i file per schermi con una pixel-density maggiore",
+            "runs": [
+              {
+                "text": "Nel src si fornisce il file di “"
+              },
+              {
+                "text": "default",
+                "bold": true
+              },
+              {
+                "text": "”, di solito a bassa risoluzione, e nel srcset si indicano i file per schermi con una "
+              },
+              {
+                "text": "pixel-density",
+                "bold": true
+              },
+              {
+                "text": " maggiore"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Il modo più semplice di implementare srcset è utilizzare gli x descriptors: si tratta di una etichetta apposta ad ogni immagine per schermi a diversa densità\nNel src si fornisce il file di “default”, di solito a bassa risoluzione, e nel srcset si indicano i file per schermi con una pixel-density maggiore"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<img",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  src=\"image.jpg\"",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"image.jpg\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  srcset=\"image-large.jpg 2x, image-extra-large.jpg 4x\"",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "srcset",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"image-large.jpg 2x, image-extra-large.jpg 4x\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ">",
+            "runs": [
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<img\n  src=\"image.jpg\"\n  srcset=\"image-large.jpg 2x, image-extra-large.jpg 4x\"\n>"
+      }
+    ],
+    "originalText": [
+      "Implementare srcset con gli x-descriptors",
+      "Il modo più semplice di implementare srcset è utilizzare gli x descriptors: si tratta di una etichetta apposta ad ogni immagine per schermi a diversa densità\nNel src si fornisce il file di “default”, di solito a bassa risoluzione, e nel srcset si indicano i file per schermi con una pixel-density maggiore",
+      "<img\n  src=\"image.jpg\"\n  srcset=\"image-large.jpg 2x, image-extra-large.jpg 4x\"\n>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 29,
+    "title": "Limitazioni degli x-descriptors",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Gli x-descriptors presentano diverse limitazioni perché permettono al browser di basarsi soltanto sul parametro della pixel-density del display, e non sulla dimensione dell’immagine nel layout",
+            "runs": [
+              {
+                "text": "Gli x-descriptors presentano diverse limitazioni perché permettono al browser di basarsi "
+              },
+              {
+                "text": "soltanto sul parametro della pixel-density",
+                "bold": true
+              },
+              {
+                "text": " del display, e non sulla dimensione dell’immagine nel layout"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Visto che le nostre immagini saranno molto spesso inserite nel contesto di un layout responsive, dobbiamo fare in modo che il browser possa decidere anche in base a questo fattore",
+            "runs": [
+              {
+                "text": "Visto che le nostre immagini saranno molto spesso inserite nel contesto di un layout responsive, dobbiamo fare in modo che il browser possa decidere anche in base a questo fattore"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "È per questo che entrano in gioco i w-descriptors e l’attributo sizes",
+            "runs": [
+              {
+                "text": "È per questo che entrano in gioco i "
+              },
+              {
+                "text": "w-descriptors",
+                "bold": true
+              },
+              {
+                "text": " e l’attributo "
+              },
+              {
+                "text": "sizes",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Gli x-descriptors presentano diverse limitazioni perché permettono al browser di basarsi soltanto sul parametro della pixel-density del display, e non sulla dimensione dell’immagine nel layout\nVisto che le nostre immagini saranno molto spesso inserite nel contesto di un layout responsive, dobbiamo fare in modo che il browser possa decidere anche in base a questo fattore\nÈ per questo che entrano in gioco i w-descriptors e l’attributo sizes"
+      }
+    ],
+    "originalText": [
+      "Limitazioni degli x-descriptors",
+      "Gli x-descriptors presentano diverse limitazioni perché permettono al browser di basarsi soltanto sul parametro della pixel-density del display, e non sulla dimensione dell’immagine nel layout\nVisto che le nostre immagini saranno molto spesso inserite nel contesto di un layout responsive, dobbiamo fare in modo che il browser possa decidere anche in base a questo fattore\nÈ per questo che entrano in gioco i w-descriptors e l’attributo sizes"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 30,
+    "title": "Srcset con i w-descriptors",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Con l'uso dei w-descriptors stiamo ancora fornendo copie multiple della stessa immagine e lasciando al browser la scelta di quella più appropriata.",
+            "runs": [
+              {
+                "text": "Con l'uso dei w-descriptors stiamo ancora fornendo copie multiple della stessa immagine e lasciando al browser la scelta di quella più appropriata."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Tuttavia, anziché etichettarle con una densità di pixel (x), le stiamo etichettando con la larghezza della risorsa. Quindi, se img-small.jpg è 300×450, lo etichettiamo come 300w e lo stesso faremo con tutte le altre dimensioni",
+            "runs": [
+              {
+                "text": "Tuttavia, anziché etichettarle con una densità di pixel (x), le stiamo etichettando con la larghezza della risorsa. Quindi, se img-small.jpg è 300×450, lo etichettiamo come 300w e lo stesso faremo con tutte le altre dimensioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Con l'uso dei w-descriptors stiamo ancora fornendo copie multiple della stessa immagine e lasciando al browser la scelta di quella più appropriata.\nTuttavia, anziché etichettarle con una densità di pixel (x), le stiamo etichettando con la larghezza della risorsa. Quindi, se img-small.jpg è 300×450, lo etichettiamo come 300w e lo stesso faremo con tutte le altre dimensioni"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<img srcset=\"image-small.jpg 300w,",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "srcset",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"image-small.jpg 300w,",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  image-medium.jpg 460w, ",
+            "runs": [
+              {
+                "text": "  image-medium.jpg 460w, ",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  image-large.jpg 800w\"",
+            "runs": [
+              {
+                "text": "  image-large.jpg 800w\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ">",
+            "runs": [
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<img srcset=\"image-small.jpg 300w,\n  image-medium.jpg 460w, \n  image-large.jpg 800w\"\n>"
+      }
+    ],
+    "originalText": [
+      "Srcset con i w-descriptors",
+      "Con l'uso dei w-descriptors stiamo ancora fornendo copie multiple della stessa immagine e lasciando al browser la scelta di quella più appropriata.\nTuttavia, anziché etichettarle con una densità di pixel (x), le stiamo etichettando con la larghezza della risorsa. Quindi, se img-small.jpg è 300×450, lo etichettiamo come 300w e lo stesso faremo con tutte le altre dimensioni",
+      "<img srcset=\"image-small.jpg 300w,\n  image-medium.jpg 460w, \n  image-large.jpg 800w\"\n>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 31,
+    "title": "L’attributo sizes",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "L'utilizzo di srcset con descrittori di larghezza (w) come questo implica che deve essere abbinato all’attributo sizes in modo che il browser sappia quanto spazio l'immagine occuperà ",
+            "runs": [
+              {
+                "text": "L'utilizzo di srcset con descrittori di larghezza (w) come questo implica che deve essere abbinato all’attributo sizes in modo che il browser sappia quanto spazio l'immagine occuperà "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Senza queste informazioni, i browser non possono prendere decisioni intelligenti",
+            "runs": [
+              {
+                "text": "Senza queste informazioni, i browser non possono prendere decisioni intelligenti",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La sintassi dell’attributo sizes è",
+            "runs": [
+              {
+                "text": "La sintassi dell’attributo sizes è"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "L'utilizzo di srcset con descrittori di larghezza (w) come questo implica che deve essere abbinato all’attributo sizes in modo che il browser sappia quanto spazio l'immagine occuperà \nSenza queste informazioni, i browser non possono prendere decisioni intelligenti\nLa sintassi dell’attributo sizes è"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<img ... sizes=\"[media query] [length],",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "...",
+                "mono": true
+              },
+              {
+                "text": " sizes",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"[media query] [length],",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "            \t  [media query] [length],",
+            "runs": [
+              {
+                "text": "            \t  [media query] [length],",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "            \t  ...",
+            "runs": [
+              {
+                "text": "            \t  ...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "            \t  [default length]\"",
+            "runs": [
+              {
+                "text": "            \t  [default length]\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ">",
+            "runs": [
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<img ... sizes=\"[media query] [length],\n            \t  [media query] [length],\n            \t  ...\n            \t  [default length]\"\n>"
+      }
+    ],
+    "originalText": [
+      "L’attributo sizes",
+      "L'utilizzo di srcset con descrittori di larghezza (w) come questo implica che deve essere abbinato all’attributo sizes in modo che il browser sappia quanto spazio l'immagine occuperà \nSenza queste informazioni, i browser non possono prendere decisioni intelligenti\nLa sintassi dell’attributo sizes è",
+      "<img ... sizes=\"[media query] [length],\n            \t  [media query] [length],\n            \t  ...\n            \t  [default length]\"\n>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 32,
+    "title": "Implementare srcset con i w-descriptors e sizes",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I w-descriptors etichettano le varie versioni delle immagini specificando la loro larghezza ",
+            "runs": [
+              {
+                "text": "I w-descriptors etichettano le varie versioni delle immagini specificando la loro "
+              },
+              {
+                "text": "larghezza ",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Bisogna accoppiare tali descrittori con un attributo sizes, che darà al browser informazioni sullo spazio che l’immagine occuperà all’interno del layout",
+            "runs": [
+              {
+                "text": "Bisogna accoppiare tali descrittori con un attributo sizes, che darà al browser informazioni sullo spazio che l’immagine occuperà all’interno del layout"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "I w-descriptors etichettano le varie versioni delle immagini specificando la loro larghezza \nBisogna accoppiare tali descrittori con un attributo sizes, che darà al browser informazioni sullo spazio che l’immagine occuperà all’interno del layout"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<!-- Stiamo prevedendo che l'immagine avrà una larghezza di 280px sugli schermi fino a 320px, di 440px sugli schermi fino a 480px, di 800px negli altri casi. Il browser prenderà l'immagine più adeguata dal srcset, scegliendo quella più vicina per dimensione -->",
+            "runs": [
+              {
+                "text": "<!-- Stiamo prevedendo che l'immagine avrà una larghezza di 280px sugli schermi fino a 320px, di 440px sugli schermi fino a 480px, di 800px negli altri casi. Il browser prenderà l'immagine più adeguata dal srcset, scegliendo quella più vicina per dimensione -->",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "<img srcset=\"image-small.jpg 300w,image-medium.jpg 460w, image-large.jpg 800w\"",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "srcset",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"image-small.jpg 300w,image-medium.jpg 460w, image-large.jpg 800w\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "     sizes=\"(max-width: 320px) 280px, (max-width: 480px) 440px,  800px\"",
+            "runs": [
+              {
+                "text": "     ",
+                "mono": true
+              },
+              {
+                "text": "sizes",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"(max-width: 320px) 280px, (max-width: 480px) 440px,  800px\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "     src=\"image-small.jpg\" alt=\"An image\"",
+            "runs": [
+              {
+                "text": "     ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"image-",
+                "mono": true
+              },
+              {
+                "text": "small",
+                "mono": true
+              },
+              {
+                "text": ".jpg\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "alt",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"An image\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ">",
+            "runs": [
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<!-- Stiamo prevedendo che l'immagine avrà una larghezza di 280px sugli schermi fino a 320px, di 440px sugli schermi fino a 480px, di 800px negli altri casi. Il browser prenderà l'immagine più adeguata dal srcset, scegliendo quella più vicina per dimensione -->\n<img srcset=\"image-small.jpg 300w,image-medium.jpg 460w, image-large.jpg 800w\"\n     sizes=\"(max-width: 320px) 280px, (max-width: 480px) 440px,  800px\"\n     src=\"image-small.jpg\" alt=\"An image\"\n>"
+      }
+    ],
+    "originalText": [
+      "Implementare srcset con i w-descriptors e sizes",
+      "I w-descriptors etichettano le varie versioni delle immagini specificando la loro larghezza \nBisogna accoppiare tali descrittori con un attributo sizes, che darà al browser informazioni sullo spazio che l’immagine occuperà all’interno del layout",
+      "<!-- Stiamo prevedendo che l'immagine avrà una larghezza di 280px sugli schermi fino a 320px, di 440px sugli schermi fino a 480px, di 800px negli altri casi. Il browser prenderà l'immagine più adeguata dal srcset, scegliendo quella più vicina per dimensione -->\n<img srcset=\"image-small.jpg 300w,image-medium.jpg 460w, image-large.jpg 800w\"\n     sizes=\"(max-width: 320px) 280px, (max-width: 480px) 440px,  800px\"\n     src=\"image-small.jpg\" alt=\"An image\"\n>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 33,
+    "title": "Sizes",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Quando definite le sizes, ricordate che esse dipenderanno dal vostro layout",
+            "runs": [
+              {
+                "text": "Quando definite le sizes, ricordate che esse dipenderanno dal vostro layout"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In alcuni casi vi sarà possibile conoscere la dimensione precisa dell’immagine sulla pagina",
+            "runs": [
+              {
+                "text": "In alcuni casi vi sarà possibile conoscere la dimensione precisa dell’immagine sulla pagina"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In altri casi, potete fornire una stima che sia “buona abbastanza”, lasciando fare al browser il resto",
+            "runs": [
+              {
+                "text": "In altri casi, potete fornire una stima che sia “buona abbastanza”, lasciando fare al browser il resto"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Quando definite le sizes, ricordate che esse dipenderanno dal vostro layout\nIn alcuni casi vi sarà possibile conoscere la dimensione precisa dell’immagine sulla pagina\nIn altri casi, potete fornire una stima che sia “buona abbastanza”, lasciando fare al browser il resto"
+      }
+    ],
+    "originalText": [
+      "Sizes",
+      "Quando definite le sizes, ricordate che esse dipenderanno dal vostro layout\nIn alcuni casi vi sarà possibile conoscere la dimensione precisa dell’immagine sulla pagina\nIn altri casi, potete fornire una stima che sia “buona abbastanza”, lasciando fare al browser il resto"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 34,
+    "title": "Srcset refercence",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "CSS Tricks\nA Guide to the Responsive Images Syntax in HTML",
+            "runs": [
+              {
+                "text": "CSS Tricks",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "A Guide to the Responsive Images Syntax in HTML",
+                "underline": true,
+                "href": "https://css-tricks.com/a-guide-to-the-responsive-images-syntax-in-html/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "CSS Tricks\nA Guide to the Responsive Images Syntax in HTML"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Smashing Magazine\nResponsive Images Done Right: A Guide To And srcset",
+            "runs": [
+              {
+                "text": "Smashing Magazine",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "Responsive Images Done Right: A Guide To And srcset",
+                "underline": true,
+                "href": "https://www.smashingmagazine.com/2014/05/responsive-images-done-right-guide-picture-srcset/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Smashing Magazine\nResponsive Images Done Right: A Guide To And srcset"
+      }
+    ],
+    "originalText": [
+      "Srcset refercence",
+      "CSS Tricks\nA Guide to the Responsive Images Syntax in HTML",
+      "Smashing Magazine\nResponsive Images Done Right: A Guide To And srcset"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 35,
+    "title": "ESERCIZIO 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Replicate le grid raffigurate nella slide successiva. Per la prima utilizzate grid-template-areas; per la seconda usate gli attributi dei figli (grid column e grid-row)",
+            "runs": [
+              {
+                "text": "Replicate le grid raffigurate nella slide successiva. Per la prima utilizzate grid-template-areas; per la seconda usate gli attributi dei figli (grid column e grid-row)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Fate in modo che la grid occupi, in larghezza, il 100% della pagina su mobile, e il 50% su desktop (posizionatela al centro della pagina)",
+            "runs": [
+              {
+                "text": "Fate in modo che la grid occupi, in larghezza, il 100% della pagina su mobile, e il 50% su desktop (posizionatela al centro della pagina)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Nei due quadrati indicati in grigio, inserite un’immagine dotata di attributo srcset con w-descriptors. Create almeno due sizes, cercando di specificarle il più precisamente possibile in base a ciò che conoscete del vostro design",
+            "runs": [
+              {
+                "text": "Nei due quadrati indicati in grigio, inserite un’immagine dotata di attributo srcset con w-descriptors. Create almeno due sizes, cercando di specificarle il più precisamente possibile in base a ciò che conoscete del vostro design"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Replicate le grid raffigurate nella slide successiva. Per la prima utilizzate grid-template-areas; per la seconda usate gli attributi dei figli (grid column e grid-row)\nFate in modo che la grid occupi, in larghezza, il 100% della pagina su mobile, e il 50% su desktop (posizionatela al centro della pagina)\nNei due quadrati indicati in grigio, inserite un’immagine dotata di attributo srcset con w-descriptors. Create almeno due sizes, cercando di specificarle il più precisamente possibile in base a ciò che conoscete del vostro design"
+      }
+    ],
+    "originalText": [
+      "ESERCIZIO 1",
+      "Replicate le grid raffigurate nella slide successiva. Per la prima utilizzate grid-template-areas; per la seconda usate gli attributi dei figli (grid column e grid-row)\nFate in modo che la grid occupi, in larghezza, il 100% della pagina su mobile, e il 50% su desktop (posizionatela al centro della pagina)\nNei due quadrati indicati in grigio, inserite un’immagine dotata di attributo srcset con w-descriptors. Create almeno due sizes, cercando di specificarle il più precisamente possibile in base a ciò che conoscete del vostro design"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 36,
+    "title": "ESERCIZIO 1 · esempio",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/03-036-diagram.webp",
+        "alt": "ESERCIZIO 1 · esempio. ",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 37,
+    "title": "FINE",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 3",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 3"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 3"
+      }
+    ],
+    "originalText": [
+      "FINE",
+      "ESERCITAZIONE 3"
+    ],
+    "diagram": true
+  }
+]

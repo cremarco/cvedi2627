@@ -1,0 +1,3089 @@
+[
+  {
+    "kind": "cover",
+    "title": "Interfacce responsive e approccio mobile-first",
+    "blocks": [],
+    "sourceSlide": 1,
+    "number": 1,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Interfacce responsive e approccio mobile-first",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Responsive web design",
+            "runs": [
+              {
+                "text": "Responsive web design"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Viewport",
+            "runs": [
+              {
+                "text": "Viewport"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Media Queries",
+            "runs": [
+              {
+                "text": "Media Queries"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Unità di misura relative",
+            "runs": [
+              {
+                "text": "Unità di misura relative"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 2,
+    "number": 2,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "divider",
+    "title": "Responsive Web design",
+    "blocks": [],
+    "sourceSlide": 3,
+    "number": 3,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Responsive design",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il Responsive Design è un approccio che si è reso necessario in seguito alla diffusione dei dispositivi mobili (smartphone, tablet, etc)",
+            "runs": [
+              {
+                "text": "Il "
+              },
+              {
+                "text": "Responsive Design",
+                "bold": true
+              },
+              {
+                "text": " è un approccio che si è reso necessario in seguito alla diffusione dei dispositivi mobili (smartphone, tablet, etc)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I dispositivi mobili hanno dimensioni e forme molto differenti rispetto ai desktop, e molto differenti tra loro. Il design dei siti web deve adattarsi a queste caratteristiche",
+            "runs": [
+              {
+                "text": "I dispositivi mobili hanno dimensioni e forme molto differenti rispetto ai desktop, e molto differenti tra loro. Il design dei siti web deve adattarsi a queste caratteristiche"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio:",
+            "runs": [
+              {
+                "text": "Ad esempio:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Griglie flessibili",
+            "runs": [
+              {
+                "text": "Griglie ",
+                "bold": true
+              },
+              {
+                "text": "flessibili"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Immagini dalle dimensioni responsive",
+            "runs": [
+              {
+                "text": "Immagini ",
+                "bold": true
+              },
+              {
+                "text": "dalle dimensioni responsive"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Testi con dimensioni relative",
+            "runs": [
+              {
+                "text": "Testi ",
+                "bold": true
+              },
+              {
+                "text": "con dimensioni relative"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 4,
+    "number": 4,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "I siti web su schermi piccoli",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Quando visualizzato da smartphone, il sito deve essere pensato affinché tutti gli elementi siano ben visibili, ma soprattutto accessibili all’interazione touch",
+            "runs": [
+              {
+                "text": "Quando visualizzato da smartphone, il sito deve essere pensato affinché tutti gli elementi siano ben visibili, ma soprattutto accessibili all’interazione touch"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Affinché questo sia possibile esistono due approcci",
+            "runs": [
+              {
+                "text": "Affinché questo sia possibile esistono due approcci"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Responsive ",
+            "runs": [
+              {
+                "text": "Responsive "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Adaptive",
+            "runs": [
+              {
+                "text": "Adaptive"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 5,
+    "number": 5,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "I siti web su schermi piccoli · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Responsive VS Adaptive",
+            "runs": [
+              {
+                "text": "Responsive VS Adaptive"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il design responsive è fluido. Si adatta a ogni schermo. I contenuti sono “come l’acqua”",
+            "runs": [
+              {
+                "text": "Il design responsive è fluido. Si adatta a ogni schermo. I contenuti sono “come l’acqua”"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il design adaptive fornisce template differenti a device con risoluzione differente",
+            "runs": [
+              {
+                "text": "Il design adaptive fornisce template differenti a device con risoluzione differente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire",
+            "runs": [
+              {
+                "text": "Per approfondire",
+                "underline": true,
+                "href": "https://medium.com/react-camp/adaptive-responsive-reactive-62fb938d6191"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 6,
+    "number": 6,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "I siti web su schermi piccoli · esempio",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/32afe9f60ef224a22c5c.png",
+        "alt": "I siti web su schermi piccoli · esempio · figura della slide originale 6"
+      }
+    ],
+    "sourceSlide": 6,
+    "number": 7,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "divider",
+    "title": "Viewport",
+    "blocks": [],
+    "sourceSlide": 7,
+    "number": 8,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Il viewport",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le pagine ottimizzate per dispositivi con diverse dimensioni devono contenere un elemento meta viewport nella sezione 'head' del documento, che indica al browser come controllare dimensioni e scala della pagina",
+            "runs": [
+              {
+                "text": "Le pagine ottimizzate per dispositivi con diverse dimensioni "
+              },
+              {
+                "text": "devono",
+                "bold": true
+              },
+              {
+                "text": " contenere un elemento "
+              },
+              {
+                "text": "meta viewport",
+                "bold": true
+              },
+              {
+                "text": " nella sezione 'head' del documento, che indica al browser come controllare dimensioni e scala della pagina"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il viewport è l’area della pagina visibile all’utente",
+            "runs": [
+              {
+                "text": "Il viewport è l’area della pagina visibile all’utente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 8,
+    "number": 9,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Controllare il viewport",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Gli schermi dei dispositivi più stretti renderizzano le pagine in un viewport che solitamente è più largo dello schermo. ",
+            "runs": [
+              {
+                "text": "Gli schermi dei dispositivi più stretti renderizzano le pagine in un viewport che solitamente è più largo dello schermo. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per esempio, se lo schermo di uno smartphone ha una larghezza di 640 pixel, le pagine potrebbero essere renderizzate con una finestra virtuale di 980 pixel, e successivamente ristrette per stare nello spazio di 640 pixel. ",
+            "runs": [
+              {
+                "text": "Per esempio, se lo schermo di uno smartphone ha una larghezza di 640 pixel, le pagine potrebbero essere renderizzate con una finestra virtuale di 980 pixel, e successivamente ristrette per stare nello spazio di 640 pixel. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per imporre al browser di impostare la larghezza della viewport basandosi sulla larghezza dello schermo del dispositivo dobbiamo inserire meta viewport",
+            "runs": [
+              {
+                "text": "Per imporre al browser di impostare la larghezza della viewport basandosi sulla larghezza dello schermo del dispositivo dobbiamo inserire meta viewport"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "meta",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "name",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"viewport\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "content",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"width=device-width, initial-scale=1.0\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">"
+      }
+    ],
+    "sourceSlide": 9,
+    "number": 10,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Controllare il viewport · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "L’attributo width=device-width comunica al browser di impostare la larghezza (width) della viewport in base alla larghezza dello schermo del dispositivo (device-width).",
+            "runs": [
+              {
+                "text": "L’attributo "
+              },
+              {
+                "text": "width=device-width",
+                "bold": true
+              },
+              {
+                "text": " comunica al browser di impostare la larghezza (width) della viewport in base alla larghezza dello schermo del dispositivo (device-width)."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "L'attributo initial-scale imposta il fattore di zoom iniziale nel momento in cui la pagina viene caricata. 1 corrisponde a nessuno zoom",
+            "runs": [
+              {
+                "text": "L'attributo "
+              },
+              {
+                "text": "initial-scale",
+                "bold": true
+              },
+              {
+                "text": " imposta il fattore di zoom iniziale nel momento in cui la pagina viene caricata. "
+              },
+              {
+                "text": "1",
+                "bold": true
+              },
+              {
+                "text": " corrisponde a nessuno zoom"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "La stessa schermata con il controllo del viewport (sinistra) e senza (destra).",
+            "runs": [
+              {
+                "text": "La stessa schermata con il controllo del viewport (sinistra) e senza (destra).",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Nota: Ogni quadratino è di 50px",
+            "runs": [
+              {
+                "text": "Nota: Ogni quadratino è di 50px",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "La stessa schermata con il controllo del viewport (sinistra) e senza (destra).\nNota: Ogni quadratino è di 50px"
+      }
+    ],
+    "sourceSlide": 10,
+    "number": 11,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Controllare il viewport · esempio",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/04-010-diagram.webp",
+        "alt": "Controllare il viewport · esempio. Controllare il viewport La stessa schermata con il controllo del viewport (sinistra) e senza (destra). Nota: Ogni quadratino è di 50px",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 10,
+    "number": 12,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "divider",
+    "title": "Media queries",
+    "blocks": [],
+    "sourceSlide": 11,
+    "number": 13,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "La regola @media",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La regola @media è stata introdotta nei CSS3. Può contenere un blocco di regole CSS che il browser deve tenere in considerazione solo se alcune condizioni sono soddisfatte",
+            "runs": [
+              {
+                "text": "La regola "
+              },
+              {
+                "text": "@media",
+                "bold": true
+              },
+              {
+                "text": " è stata introdotta nei CSS3. Può contenere un blocco di regole CSS che il browser deve tenere in considerazione solo se alcune condizioni sono soddisfatte"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il breakpoint è un “punto di rottura” in cui avviene un cambiamento tra un blocco di regole e un altro. Si possono inserire breakpoint multipli, per definire molti insiemi differenti di regole",
+            "runs": [
+              {
+                "text": "Il "
+              },
+              {
+                "text": "breakpoint ",
+                "bold": true
+              },
+              {
+                "text": "è un “punto di rottura” in cui avviene un cambiamento tra un blocco di regole e un altro. Si possono inserire breakpoint multipli, per definire molti insiemi differenti di regole"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 14,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "La regola @media",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "/* .box ha larghezza 100% su schermi minori di 768 px */",
+            "runs": [
+              {
+                "text": "/* .box ha larghezza 100% su schermi minori di 768 px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "@media only screen and (max-width: 768px) {",
+            "runs": [
+              {
+                "text": "@media",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "only",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "screen",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "and",
+                "mono": true
+              },
+              {
+                "text": " (max-width: ",
+                "mono": true
+              },
+              {
+                "text": "768px",
+                "mono": true
+              },
+              {
+                "text": ") {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  .box { width: 100%; }",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": ".box",
+                "mono": true
+              },
+              {
+                "text": " { width: ",
+                "mono": true
+              },
+              {
+                "text": "100%",
+                "mono": true
+              },
+              {
+                "text": "; }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "/* .box ha larghezza 400px su schermi maggiori di 768 px */",
+            "runs": [
+              {
+                "text": "/* .box ha larghezza 400px su schermi maggiori di 768 px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "@media only screen and (min-width: 768px) {",
+            "runs": [
+              {
+                "text": "@media",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "only",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "screen",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "and",
+                "mono": true
+              },
+              {
+                "text": " (min-width: ",
+                "mono": true
+              },
+              {
+                "text": "768px",
+                "mono": true
+              },
+              {
+                "text": ") {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  .box { width: 400px; }",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": ".box",
+                "mono": true
+              },
+              {
+                "text": " { width: ",
+                "mono": true
+              },
+              {
+                "text": "400px",
+                "mono": true
+              },
+              {
+                "text": "; }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "/* .box ha larghezza 100% su schermi minori di 768 px */\n@media only screen and (max-width: 768px) {\n  .box { width: 100%; }\n}\n/* .box ha larghezza 400px su schermi maggiori di 768 px */\n@media only screen and (min-width: 768px) {\n  .box { width: 400px; }\n}"
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 15,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Nascondere gli elementi su mobile",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Potreste voler nascondere alcuni elementi nella versione mobile dei vostri design",
+            "runs": [
+              {
+                "text": "Potreste voler nascondere alcuni elementi nella versione mobile dei vostri design"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per farlo, basta dichiarare",
+            "runs": [
+              {
+                "text": "Per farlo, basta dichiarare"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "/* questo div è nascosto su schermi minori di 520 px */",
+            "runs": [
+              {
+                "text": "/* questo div è nascosto su schermi minori di 520 px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "@media only screen and (max-width: 520px) {",
+            "runs": [
+              {
+                "text": "@media",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "only",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "screen",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "and",
+                "mono": true
+              },
+              {
+                "text": " (max-width: ",
+                "mono": true
+              },
+              {
+                "text": "520px",
+                "mono": true
+              },
+              {
+                "text": ") {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  div.example {",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ".example",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    display: none;",
+            "runs": [
+              {
+                "text": "    display: none;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  }",
+            "runs": [
+              {
+                "text": "  }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "/* questo div è nascosto su schermi minori di 520 px */\n@media only screen and (max-width: 520px) {\n  div.example {\n    display: none;\n  }\n}"
+      }
+    ],
+    "sourceSlide": 13,
+    "number": 16,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "La sintassi di @media",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le media query possono specificare stili per differenti tipi di schermi (mediatype). ",
+            "runs": [
+              {
+                "text": "Le media query possono specificare stili per differenti tipi di schermi (mediatype). "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le mediafeature permettono di dichiarare dettagli più specifici",
+            "runs": [
+              {
+                "text": "Le mediafeature permettono di dichiarare dettagli più specifici"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "@media not|only mediatype and (mediafeature and|or|not mediafeature) {",
+            "runs": [
+              {
+                "text": "@media not",
+                "mono": true
+              },
+              {
+                "text": "|",
+                "mono": true
+              },
+              {
+                "text": "only",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "mediatype ",
+                "mono": true
+              },
+              {
+                "text": "and",
+                "mono": true
+              },
+              {
+                "text": " (",
+                "mono": true
+              },
+              {
+                "text": "mediafeature and|or|not mediafeature",
+                "mono": true
+              },
+              {
+                "text": ") {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  CSS-Code;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "CSS-Code;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "@media not|only mediatype and (mediafeature and|or|not mediafeature) {\n  CSS-Code;\n}"
+      }
+    ],
+    "sourceSlide": 14,
+    "number": 17,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Mediatypes",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I diversi possibili mediatypes (i più comuni):",
+            "runs": [
+              {
+                "text": "I diversi possibili "
+              },
+              {
+                "text": "mediatypes ",
+                "italic": true
+              },
+              {
+                "text": "(i più comuni):"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "all (default)",
+            "runs": [
+              {
+                "text": "all ",
+                "bold": true
+              },
+              {
+                "text": "(default)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "screen (di computer, smartphone,tablet)",
+            "runs": [
+              {
+                "text": "screen ",
+                "bold": true
+              },
+              {
+                "text": "(di computer, smartphone,tablet)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "print (per le stampanti)",
+            "runs": [
+              {
+                "text": "print ",
+                "bold": true
+              },
+              {
+                "text": "(per le stampanti)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "projection (per i proiettori)",
+            "runs": [
+              {
+                "text": "projection ",
+                "bold": true
+              },
+              {
+                "text": "(per i proiettori)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "tv (per le televisioni)",
+            "runs": [
+              {
+                "text": "tv ",
+                "bold": true
+              },
+              {
+                "text": "(per le televisioni)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 15,
+    "number": 18,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Mediafeatures",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le possibili mediafeatures (le più comuni):",
+            "runs": [
+              {
+                "text": "Le possibili mediafeatures (le più comuni):"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "width, height, min-width, min-height, max-width, max-height",
+            "runs": [
+              {
+                "text": "width",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "height",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "min-width",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "min-height",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "max-width",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "max-height",
+                "bold": true
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "color, min-color, max-color (il numero di bit per componente cromatica del device di output)",
+            "runs": [
+              {
+                "text": "color",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "min-color",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "max-color",
+                "bold": true
+              },
+              {
+                "text": " (il numero di bit per componente cromatica del device di output)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "max-aspect-ratio, min-aspect-ratio (La min/max proporzione tra la larghezza e l’altezza)",
+            "runs": [
+              {
+                "text": "max-aspect-ratio",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "min-aspect-ratio",
+                "bold": true
+              },
+              {
+                "text": " (La min/max proporzione tra la larghezza e l’altezza)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "orientation (landscape or portrait)",
+            "runs": [
+              {
+                "text": "orientation ",
+                "bold": true
+              },
+              {
+                "text": "(landscape "
+              },
+              {
+                "text": "or portrait)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "resolution, min-resolution, max-resolution (in dpi o dpcm)",
+            "runs": [
+              {
+                "text": "resolution",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "min-resolution",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "max-resolution",
+                "bold": true
+              },
+              {
+                "text": " (in dpi o dpcm)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 16,
+    "number": 19,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Mobile first",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempio",
+            "runs": [
+              {
+                "text": "Esempio",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/stackblitz-starters-wro1wk?file=styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "l Responsive Design si basa sui vari breakpoint. ",
+            "runs": [
+              {
+                "text": "l Responsive Design si basa sui vari breakpoint. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Solitamente vengono utilizzate le seguenti dimensioni per gli schermi:",
+            "runs": [
+              {
+                "text": "Solitamente vengono utilizzate le seguenti dimensioni per gli schermi:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "fino a 576px (smartphone) - default",
+            "runs": [
+              {
+                "text": "fino a "
+              },
+              {
+                "text": "576px ",
+                "bold": true
+              },
+              {
+                "text": "(smartphone) - default"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "fino a 768px (tablet con orientamento portrait)",
+            "runs": [
+              {
+                "text": "fino a "
+              },
+              {
+                "text": "768px ",
+                "bold": true
+              },
+              {
+                "text": "(tablet con orientamento portrait)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "fino a 992px (tablet con orientamento landscape)",
+            "runs": [
+              {
+                "text": "fino a "
+              },
+              {
+                "text": "992px ",
+                "bold": true
+              },
+              {
+                "text": "(tablet con orientamento landscape)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "fino a 1200px (laptop e desktop)",
+            "runs": [
+              {
+                "text": "fino a "
+              },
+              {
+                "text": "1200px ",
+                "bold": true
+              },
+              {
+                "text": "("
+              },
+              {
+                "text": "laptop e desktop"
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 17,
+    "number": 20,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Mobile first",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "oltre 1200px (laptop e desktop grandi)",
+            "runs": [
+              {
+                "text": "oltre "
+              },
+              {
+                "text": "1200px ",
+                "bold": true
+              },
+              {
+                "text": "(laptop e desktop grandi)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "La visualizzazione su laptop/desktop è sempre stata considerata primaria per definire la struttura del sito. La visualizzazione per tablet e mobile era derivata da essa, togliendo o modificando parti del sito per renderle compatibili e correttamente fruibili.",
+            "runs": [
+              {
+                "text": "La visualizzazione su laptop/desktop è sempre stata considerata primaria per definire la struttura del sito. La visualizzazione per tablet e mobile era derivata da essa, togliendo o modificando parti del sito per renderle compatibili e correttamente fruibili."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 17,
+    "number": 21,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Mobile first",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Oggi la tendenza è invece quella del Mobile First, cioè quella di partire dalla progettazione su mobile per poi pensare alle risoluzioni più alte",
+            "runs": [
+              {
+                "text": "Oggi la tendenza è invece quella del "
+              },
+              {
+                "text": "Mobile First",
+                "bold": true
+              },
+              {
+                "text": ", cioè quella di partire dalla progettazione su mobile per poi pensare alle risoluzioni più alte"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Questo permette anche di individuare fin da subito gli elementi più importanti da mostrare sul sito, sia dal punto di vista grafico che dei contenuti",
+            "runs": [
+              {
+                "text": "Questo permette anche di individuare fin da subito gli elementi più importanti da mostrare sul sito, sia dal punto di vista grafico che dei contenuti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In questo modo chi progetta il sito e le sue funzionalità ha già da subito le idee chiare su quali saranno i contenuti primari e secondari del sito, quindi si adopererà per visualizzare gli elementi importanti nel migliore dei modi, senza introdurre contenuti superflui o di poca importanza",
+            "runs": [
+              {
+                "text": "In questo modo chi progetta il sito e le sue funzionalità ha già da subito le idee chiare su quali saranno i contenuti primari e secondari del sito, quindi si adopererà per visualizzare gli elementi importanti nel migliore dei modi, senza introdurre contenuti superflui o di poca importanza"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 18,
+    "number": 22,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Mobile first · esempio",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "/* Definiamo la dimensione base di h1 */",
+            "runs": [
+              {
+                "text": "/* Definiamo la dimensione base di h1 */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "h1 { font-size: 2rem; }",
+            "runs": [
+              {
+                "text": "h",
+                "mono": true
+              },
+              {
+                "text": "1 ",
+                "mono": true
+              },
+              {
+                "text": "{ font-size: ",
+                "mono": true
+              },
+              {
+                "text": "2rem",
+                "mono": true
+              },
+              {
+                "text": "; }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "/* Cambiamo la dimensione di h1",
+            "runs": [
+              {
+                "text": "/* Cambiamo la dimensione di h1",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "su schermi più grandi di 760px */",
+            "runs": [
+              {
+                "text": "su schermi più grandi di 760px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "@media only screen and (min-width: 760px) {",
+            "runs": [
+              {
+                "text": "@media",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "only",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "screen",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "and",
+                "mono": true
+              },
+              {
+                "text": " (min-width: ",
+                "mono": true
+              },
+              {
+                "text": "760px",
+                "mono": true
+              },
+              {
+                "text": ") {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   h1 { font-size: 3rem; }",
+            "runs": [
+              {
+                "text": "   ",
+                "mono": true
+              },
+              {
+                "text": "h",
+                "mono": true
+              },
+              {
+                "text": "1 ",
+                "mono": true
+              },
+              {
+                "text": "{ font-size: ",
+                "mono": true
+              },
+              {
+                "text": "3rem",
+                "mono": true
+              },
+              {
+                "text": "; }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "/* Cambiamo la dimensione di h1",
+            "runs": [
+              {
+                "text": "/* Cambiamo la dimensione di h1",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "su schermi più grandi di 1200px */",
+            "runs": [
+              {
+                "text": "su schermi più grandi di 1200px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "@media only screen and (min-width: 1200px) {",
+            "runs": [
+              {
+                "text": "@media",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "only",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "screen",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "and",
+                "mono": true
+              },
+              {
+                "text": " (min-width: ",
+                "mono": true
+              },
+              {
+                "text": "1200px",
+                "mono": true
+              },
+              {
+                "text": ") {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   h1 { font-size: 5rem; }",
+            "runs": [
+              {
+                "text": "   ",
+                "mono": true
+              },
+              {
+                "text": "h",
+                "mono": true
+              },
+              {
+                "text": "1 ",
+                "mono": true
+              },
+              {
+                "text": "{ font-size: ",
+                "mono": true
+              },
+              {
+                "text": "5rem",
+                "mono": true
+              },
+              {
+                "text": "; }",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "/* Definiamo la dimensione base di h1 */\nh1 { font-size: 2rem; }\n\n/* Cambiamo la dimensione di h1\nsu schermi più grandi di 760px */\n@media only screen and (min-width: 760px) {\n   h1 { font-size: 3rem; }\n}\n\n/* Cambiamo la dimensione di h1\nsu schermi più grandi di 1200px */\n@media only screen and (min-width: 1200px) {\n   h1 { font-size: 5rem; }\n}"
+      }
+    ],
+    "sourceSlide": 19,
+    "number": 23,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Mobile first · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Mobile first",
+            "runs": [
+              {
+                "text": "Mobile first"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dal punto di vista pratico questo si traduce in:",
+            "runs": [
+              {
+                "text": "Dal punto di vista pratico questo si traduce in:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "definizione del css base pensato per la fruizione su schermi piccoli (ad esempio smartphone 320 x 640 pixel)",
+            "runs": [
+              {
+                "text": "definizione del "
+              },
+              {
+                "text": "css base",
+                "bold": true
+              },
+              {
+                "text": " pensato per la fruizione su schermi piccoli (ad esempio smartphone 320 x 640 pixel)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "applicazione delle media queries per sovrascrivere gli stili che devono essere diversi su schermi più grandi",
+            "runs": [
+              {
+                "text": "applicazione delle media queries "
+              },
+              {
+                "text": "per sovrascrivere",
+                "bold": true
+              },
+              {
+                "text": " gli stili che devono essere diversi su schermi più grandi"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "N.B. Su schermi di dimensioni maggiori di 1200px entrambe le media queries potrebbero essere applicate; la seconda è però più recente e, viste le regole di priorità di CSS, la scelta ricadrà su quella",
+            "runs": [
+              {
+                "text": "N.B. Su schermi di dimensioni maggiori di 1200px entrambe le media queries potrebbero essere applicate; la seconda è però più recente e, viste le regole di priorità di CSS, la scelta ricadrà su quella",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "N.B. Su schermi di dimensioni maggiori di 1200px entrambe le media queries potrebbero essere applicate; la seconda è però più recente e, viste le regole di priorità di CSS, la scelta ricadrà su quella"
+      }
+    ],
+    "sourceSlide": 19,
+    "number": 24,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Utilizzate le media query per creare una pagina con due elementi che siano disposti uno sotto l’altro su mobile e uno accanto all’altro su desktop. Cambiate anche la dimensione del font",
+            "runs": [
+              {
+                "text": "Utilizzate le media query per creare una pagina con due elementi che siano disposti uno sotto l’altro su mobile e uno accanto all’altro su desktop. Cambiate anche la dimensione del font"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Aggiungete un elemento che venga mostrato soltanto su desktop",
+            "runs": [
+              {
+                "text": "Aggiungete un elemento che venga mostrato soltanto su desktop"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 20,
+    "number": 25,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "divider",
+    "title": "Unità di misura relative",
+    "blocks": [],
+    "sourceSlide": 21,
+    "number": 26,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Pixel e unità di misura relative",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I pixel sono utilizzati molto spesso nel web design. ",
+            "runs": [
+              {
+                "text": "I pixel sono utilizzati molto spesso nel web design. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Si tratta tuttavia di un’unità di misura assoluta (benché la dimensione fisica del pixel dipenda dal tipo di schermo) ",
+            "runs": [
+              {
+                "text": "Si tratta tuttavia di un’unità di misura assoluta (benché la dimensione fisica del pixel dipenda dal tipo di schermo) "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per realizzare layout responsive, è bene capire quali sono i casi in cui non conviene fare uso dei pixel. ",
+            "runs": [
+              {
+                "text": "Per realizzare layout responsive, è bene capire quali sono i casi in cui non conviene fare uso dei pixel. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "È preferibile scegliere unità di misure relative",
+            "runs": [
+              {
+                "text": "È preferibile scegliere unità di misure relative"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 22,
+    "number": 27,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Pixel e unità di misura relative",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le unità di misura relative vengono computate in pixel dal browser, in base alle dimensioni scelte nel vostro design",
+            "runs": [
+              {
+                "text": "Le unità di misura relative vengono computate in pixel dal browser, in base alle dimensioni scelte nel vostro design"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il vantaggio delle unità relative è che con un po’ di pianificazione è possibile fare in modo che le dimensioni di elementi e testi scalino in relazione a tutto il resto.",
+            "runs": [
+              {
+                "text": "Il vantaggio delle unità relative è che con un po’ di pianificazione è possibile fare in modo che le dimensioni di elementi e testi "
+              },
+              {
+                "text": "scalino in relazione a tutto il resto",
+                "bold": true
+              },
+              {
+                "text": "."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Questo ci permette  non solo di ottenere una responsiveness perfetta, ma anche di risparmiare qualche media query",
+            "runs": [
+              {
+                "text": "Questo ci permette  non solo di ottenere una responsiveness perfetta, ma anche di risparmiare qualche media query"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Alcune unità di misura relative:",
+            "runs": [
+              {
+                "text": "Alcune unità di misura relative:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 23,
+    "number": 28,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Pixel e unità di misura relative",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "percentuali",
+            "runs": [
+              {
+                "text": "percentuali",
+                "bold": true
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "em e rem",
+            "runs": [
+              {
+                "text": "em ",
+                "bold": true
+              },
+              {
+                "text": "e "
+              },
+              {
+                "text": "rem",
+                "bold": true
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "vw e vh",
+            "runs": [
+              {
+                "text": "vw ",
+                "bold": true
+              },
+              {
+                "text": "e "
+              },
+              {
+                "text": "vh",
+                "bold": true
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 23,
+    "number": 29,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Percentuali",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le percentuali sono molto utili e facili da usare. L’elemento avrà una dimensione relativa a quella del genitore.",
+            "runs": [
+              {
+                "text": "Le percentuali sono molto utili e facili da usare. L’elemento avrà una dimensione relativa a quella del genitore."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Nota: alcuni calcoli percentuali funzionano in modo non particolarmente intuitivo. ",
+            "runs": [
+              {
+                "text": "Nota: alcuni calcoli percentuali funzionano in modo non particolarmente intuitivo. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio, margin e padding sono calcolati, in percentuale, a partire dalla larghezza del genitore. ",
+            "runs": [
+              {
+                "text": "Ad esempio, margin e padding sono calcolati, in percentuale, a partire dalla larghezza del genitore. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per approfondire:",
+            "runs": [
+              {
+                "text": "Per approfondire:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Oh Hey, Padding Percentage is Based on the Parent Element’s Width",
+            "runs": [
+              {
+                "text": "Oh Hey, Padding Percentage is Based on the Parent Element’s Width",
+                "underline": true,
+                "href": "https://css-tricks.com/oh-hey-padding-percentage-is-based-on-the-parent-elements-width/"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Why are margin/padding percentages in CSS always calculated against width?",
+            "runs": [
+              {
+                "text": "Why are margin/padding percentages in CSS always calculated against width?",
+                "underline": true,
+                "href": "https://stackoverflow.com/a/18295172"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 24,
+    "number": 30,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Gli em e i rem",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In origine, l’em era la misura del blocco di metallo utilizzato per stampare un singolo carattere di uno specifico font (1 em era equivalente alla larghezza della M maiuscola)",
+            "runs": [
+              {
+                "text": "In origine, l’"
+              },
+              {
+                "text": "em",
+                "bold": true
+              },
+              {
+                "text": " era la misura del blocco di metallo utilizzato per stampare un singolo carattere di uno specifico font (1 em era equivalente alla larghezza della M maiuscola)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "L’em imposta la dimensione del testo in relazione a una misura ereditata: solitamente è la font-size del testo dell’elemento genitore. ",
+            "runs": [
+              {
+                "text": "L’em imposta la dimensione del testo in relazione a una misura ereditata: solitamente è la "
+              },
+              {
+                "text": "font-size",
+                "bold": true
+              },
+              {
+                "text": " del testo dell’"
+              },
+              {
+                "text": "elemento genitore",
+                "bold": true
+              },
+              {
+                "text": ". "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I rem fanno invece sempre riferimento al font-size del root element del documento.",
+            "runs": [
+              {
+                "text": "I "
+              },
+              {
+                "text": "rem ",
+                "bold": true
+              },
+              {
+                "text": "fanno invece sempre riferimento al "
+              },
+              {
+                "text": "font-size",
+                "bold": true
+              },
+              {
+                "text": " del "
+              },
+              {
+                "text": "root element",
+                "bold": true
+              },
+              {
+                "text": " del documento."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 25,
+    "number": 31,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Ereditarietà dell’em",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Se imposto il font-size del body a 10px, i suoi discendenti con em a 1.2 avranno un font-size con una grandezza del 120% (12px). ",
+            "runs": [
+              {
+                "text": "Se imposto il font-size del body a 10px, i suoi discendenti con em a 1.2 avranno un font-size con una grandezza del 120% (12px). "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Attenzione!",
+            "runs": [
+              {
+                "text": "Attenzione",
+                "bold": true
+              },
+              {
+                "text": "!"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Se em a 1.2 viene assegnato ai discendenti di elementi con em a 1.2, i discendenti avranno una dimensione corrispondente al 120% del 120%",
+            "runs": [
+              {
+                "text": "Se em a 1.2 viene assegnato ai discendenti di elementi con em a 1.2, i discendenti avranno una dimensione corrispondente al 120% del 120%"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "body { font-size: 10px; } /* 10px */",
+            "runs": [
+              {
+                "text": "body",
+                "mono": true
+              },
+              {
+                "text": " { font-size: ",
+                "mono": true
+              },
+              {
+                "text": "10px",
+                "mono": true
+              },
+              {
+                "text": "; } ",
+                "mono": true
+              },
+              {
+                "text": "/* 10px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "div { font-size: 1.2em; } /* 12px */",
+            "runs": [
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " { font-size: ",
+                "mono": true
+              },
+              {
+                "text": "1.2em",
+                "mono": true
+              },
+              {
+                "text": "; } ",
+                "mono": true
+              },
+              {
+                "text": "/* 12px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "p { font-size: 1.2em; } /* se p è dentro al div, 14.39px */",
+            "runs": [
+              {
+                "text": "p",
+                "mono": true
+              },
+              {
+                "text": " { font-size: ",
+                "mono": true
+              },
+              {
+                "text": "1.2em",
+                "mono": true
+              },
+              {
+                "text": "; } ",
+                "mono": true
+              },
+              {
+                "text": "/* se p è dentro al div, 14.39px */",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "body { font-size: 10px; } /* 10px */\n\ndiv { font-size: 1.2em; } /* 12px */\n\np { font-size: 1.2em; } /* se p è dentro al div, 14.39px */"
+      }
+    ],
+    "sourceSlide": 26,
+    "number": 32,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Ereditarietà dell’em",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "Try!",
+            "runs": [
+              {
+                "text": "Try!",
+                "mono": true,
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-nn5rhn?file=index.html,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try!"
+      }
+    ],
+    "sourceSlide": 26,
+    "number": 33,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Viewport units",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Queste unità, relativamente recenti, corrispondono ad una percentuale dell’attuale viewport del browser. ",
+            "runs": [
+              {
+                "text": "Queste unità, relativamente recenti, corrispondono ad una percentuale dell’attuale viewport del browser. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Quando l’altezza o larghezza della viewport viene modificata, la dimensione computata viene scalata di conseguenza.",
+            "runs": [
+              {
+                "text": "Quando l’altezza o larghezza della viewport viene modificata, la dimensione computata viene scalata di conseguenza."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Viewport width (vw). 1 vw corrisponde ad 1% della larghezza della finestra.",
+            "runs": [
+              {
+                "text": "Viewport width ("
+              },
+              {
+                "text": "vw",
+                "bold": true
+              },
+              {
+                "text": "). 1 vw corrisponde ad 1% della larghezza della finestra."
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Viewport height (vh). 1 vh corrisponde ad 1% dell’altezza della finestra.",
+            "runs": [
+              {
+                "text": "Viewport height ("
+              },
+              {
+                "text": "vh",
+                "bold": true
+              },
+              {
+                "text": "). 1 vh corrisponde ad 1% dell’altezza della finestra."
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 27,
+    "number": 34,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Tipografia responsive",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Utilizzare le viewport units per la tipografia può essere comodo, ma c’è il rischio di creare caratteri troppo piccoli su schermi piccoli. ",
+            "runs": [
+              {
+                "text": "Utilizzare le viewport units per la tipografia può essere comodo, ma c’è il rischio di creare caratteri troppo piccoli su schermi piccoli. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La funzione clamp() può risolvere questo problema",
+            "runs": [
+              {
+                "text": "La funzione clamp() può risolvere questo problema"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "div {",
+            "runs": [
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  font-size: clamp(min, val, max);",
+            "runs": [
+              {
+                "text": "  font-size: ",
+                "mono": true
+              },
+              {
+                "text": "clamp",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "min",
+                "mono": true
+              },
+              {
+                "text": ", ",
+                "mono": true
+              },
+              {
+                "text": "val",
+                "mono": true
+              },
+              {
+                "text": ", ",
+                "mono": true
+              },
+              {
+                "text": "max",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "div {\n  font-size: clamp(min, val, max);\n}"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempio di applicazione",
+            "runs": [
+              {
+                "text": "Esempio di applicazione",
+                "underline": true,
+                "href": "https://codepen.io/kevinpowell/pen/MWoYgrN"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Video approfondimento",
+            "runs": [
+              {
+                "text": "Video approfondimento",
+                "underline": true,
+                "href": "https://www.youtube.com/watch?v=wARbgs5Fmuw"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 28,
+    "number": 35,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Vari tipi di layout responsive",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempi",
+            "runs": [
+              {
+                "text": "Esempi"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Layout a due colonne con unità relative",
+            "runs": [
+              {
+                "text": "Layout a due colonne con unità relative",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/stackblitz-starters-4gpyod?file=styles.css"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Utilizzo di vh per sito one-page",
+            "runs": [
+              {
+                "text": "Utilizzo di vh per sito one-page",
+                "underline": true,
+                "href": "https://codepen.io/metacracker/full/KwMjRa"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Responsive layout con flexbox e em ",
+            "runs": [
+              {
+                "text": "Responsive layout con flexbox e em",
+                "underline": true,
+                "href": "https://codepen.io/girliemac/pen/CuvBc"
+              },
+              {
+                "text": " "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 29,
+    "number": 36,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 2",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Sfruttando tutto ciò che abbiamo visto finora, create un layout a 4 colonne con una unità di misura relativa, seguendo queste specifiche:",
+            "runs": [
+              {
+                "text": "Sfruttando tutto ciò che abbiamo visto finora, create un layout a 4 colonne con una unità di misura relativa, seguendo queste specifiche:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Su mobile, le colonne devono comparire una sotto l’altra. Su desktop, invece, una accanto all’altra.",
+            "runs": [
+              {
+                "text": "Su mobile, le colonne devono comparire una sotto l’altra. Su desktop, invece, una accanto all’altra."
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Su desktop, deve esserci almeno una colonna che è metà di un’altra.",
+            "runs": [
+              {
+                "text": "Su desktop, deve esserci almeno una colonna che è metà di un’altra."
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Su ogni tipo di schermo, una colonna deve avere un font decisamente più piccolo e un’altra un font più grande.",
+            "runs": [
+              {
+                "text": "Su ogni tipo di schermo, una colonna deve avere un font decisamente più piccolo e un’altra un font più grande."
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Seguite un approccio mobile first",
+            "runs": [
+              {
+                "text": "Seguite un approccio mobile first",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 30,
+    "number": 37,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 3",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "soluzione",
+            "runs": [
+              {
+                "text": "soluzione",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/stackblitz-starters-mmxdal?file=index.html"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Cercate di riprodurre il layout delle slide successive.",
+            "runs": [
+              {
+                "text": "Cercate di riprodurre il layout delle slide successive."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La linea tratteggiata delimita la viewport e divide (approssimativamente) i contenuti above the fold da quelli below the fold.",
+            "runs": [
+              {
+                "text": "La linea tratteggiata delimita la viewport e divide (approssimativamente) i contenuti "
+              },
+              {
+                "text": "above the fold",
+                "underline": true,
+                "href": "https://support.google.com/adsense/answer/132618?hl=it"
+              },
+              {
+                "text": " da quelli below the fold."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La stringa di testo nel riquadro azzurro deve essere esattamente quella riportata in figura, o comunque una stringa con lo stesso numero di caratteri.",
+            "runs": [
+              {
+                "text": "La stringa di testo nel riquadro azzurro deve essere esattamente quella riportata in figura, o comunque una stringa con lo stesso numero di caratteri."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I numeri grigi indicano proporzioni che devono essere rispettate.",
+            "runs": [
+              {
+                "text": "I numeri grigi indicano proporzioni che devono essere rispettate."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 31,
+    "number": 38,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 3",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Potete adattare la visualizzazione per fare in modo che gli elementi con bordo verde assumano una larghezza a vostra scelta rispetto alla larghezza totale della viewport",
+            "runs": [
+              {
+                "text": "Potete adattare la visualizzazione per fare in modo che gli elementi con bordo verde assumano una larghezza a vostra scelta rispetto alla larghezza totale della viewport"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 31,
+    "number": 39,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 3 · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas ",
+            "runs": [
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/04-032-diagram.webp",
+        "alt": "ESERCIZIO 3 · esempio. 60 15 15 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas Titolo h1 15 25 (IMMAGINE) 1 3 2 Lorem ipsum Lorem ipsum 100",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 32,
+    "number": 40,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 3 · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas ",
+            "runs": [
+              {
+                "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/04-033-diagram.webp",
+        "alt": "ESERCIZIO 3 · esempio. 100 10 5 5 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas Titolo h1 Lorem ipsum Lorem ipsum (IMMAGINE) 1 3 2 100",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 33,
+    "number": 41,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "closing",
+    "title": "Fine esercitazione 04",
+    "blocks": [],
+    "sourceSlide": 34,
+    "number": 42,
+    "part": 1,
+    "parts": 1
+  }
+]

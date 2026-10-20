@@ -1,6 +1,7 @@
 @import "tailwindcss" source(none);
 @source "../slides.md";
 @source "../lezioni";
+@source "../esercitazioni";
 @source "../components";
 @source "../layouts";
 @source "../global-top.vue";

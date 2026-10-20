@@ -1,0 +1,10 @@
+@import "tailwindcss" source(none);
+@source "./examples";
+@plugin "daisyui";
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: oklch(45% 0.085 224);
+  --color-primary-content: oklch(98% 0 0);
+  --radius-box: 1rem;
+}

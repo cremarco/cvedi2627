@@ -84,7 +84,7 @@ try {
     await page.setViewportSize(viewport)
     const menu = await openSlide(page, base, 3, { settle: true })
     await assertOwner(page, 'apertura')
-    assert.equal(await menu.locator('.index-grid a').count(), catalog.decks.length - 1)
+    assert.equal(await menu.locator('.index-grid a').count(), catalog.decks.filter(deck => deck.id !== 'apertura' && !deck.id.startsWith('esercitazione-')).length)
     assert.equal(await page.locator('.lesson-deck-menu').count(), 0, 'Menu does not link to itself')
     const bounds = await menu.locator('.index-grid a').evaluateAll(nodes => nodes.map(node => {
       const box = node.getBoundingClientRect(), root = node.closest('.slidev-layout').getBoundingClientRect()
@@ -115,14 +115,17 @@ try {
   await page.screenshot({ path: path.join(output, 'navigation-print.png'), animations: 'disabled' })
   await page.close()
 
-  for (const deck of catalog.decks.filter(deck => deck.id !== 'apertura')) {
+  const requestedDecks = process.env.DECK_IDS?.split(',')
+  for (const deck of catalog.decks.filter(deck => deck.id !== 'apertura' && (!requestedDecks || requestedDecks.includes(deck.id)))) {
     // A fresh context for every lesson prevents a warm cache from masking requests.
     const page = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'reduce' })
     trackErrors(page)
     let phase = 'menu'
     const requests = []
     page.on('request', request => requests.push({ phase, type: request.resourceType(), url: request.url() }))
-    const menu = await openSlide(page, base, 3, { settle: true })
+    const exercise = deck.id.startsWith('esercitazione-')
+    const menuTarget = exercise ? 'indice-esercitazioni' : 3
+    const menu = await openSlide(page, base, menuTarget, { settle: true })
     phase = 'lesson'
     await menu.locator(`a[href$="#/${deck.alias}"]`).click()
     await page.waitForURL(`**/lezioni/${deck.id}/**`)
@@ -145,12 +148,12 @@ try {
     for (const image of lessonImages) assert.ok(allowedImages.has(image), `${deck.id}: image belongs to selected lesson: ${image}`)
     if (fixture) assert.ok(lessonImages.length > 0, `${deck.id}: image-bearing fixture actually downloads media`)
     phase = 'return'
-    const returnLink = page.getByRole('link', { name: 'Torna al menu delle lezioni', exact: true })
-    assert.equal(await returnLink.getAttribute('href'), `${local ? '/' : prefix}#/3`)
+    const returnLink = page.getByRole('link', { name: `Torna al menu delle ${exercise ? 'esercitazioni' : 'lezioni'}`, exact: true })
+    assert.equal(await returnLink.getAttribute('href'), `${local ? '/' : prefix}#/${menuTarget}`)
     if (report.decks.length % 2 === 0) { await returnLink.focus(); await page.keyboard.press('Enter') }
     else await returnLink.click()
-    await page.waitForURL(`${base}#/3`)
-    await page.getByRole('heading', { name: 'Indice delle lezioni', exact: true }).waitFor()
+    await page.waitForURL(`${base}#/${menuTarget}`)
+    await page.getByRole('heading', { name: `Indice delle ${exercise ? 'esercitazioni' : 'lezioni'}`, exact: true }).waitFor()
     await assertOwner(page, 'apertura')
     for (const request of requests.filter(request => request.phase !== 'lesson' && request.type === 'image')) {
       const image = imagePath(request.url)

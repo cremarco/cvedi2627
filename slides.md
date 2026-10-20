@@ -12,6 +12,7 @@ colorSchema: light
 transition: fade
 comark: true
 presenter: true
+preloadImages: false
 fonts:
   provider: none
 export:
@@ -81,6 +82,28 @@ footer: "Lezioni"
     <SlideAction to="test-implementazione" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">10</span><span>Test e implementazione</span></SlideAction>
   </div>
   </LocalOnly>
+</div>
+
+---
+layout: default
+class: index-slide course-section reading-slide
+lesson: apertura
+routeAlias: indice-esercitazioni
+footer: "Esercitazioni"
+---
+
+# Indice delle esercitazioni
+
+<div class="index-grid exercise-index-grid" aria-label="Presentazioni delle esercitazioni">
+  <SlideAction to="esercitazione-01" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">01</span><span>Ripasso HTML e CSS di base</span></SlideAction>
+  <SlideAction to="esercitazione-02" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">02</span><span>Ripasso HTML e CSS avanzato</span></SlideAction>
+  <SlideAction to="esercitazione-03" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">03</span><span>Nuove proprietà CSS, Grid e Srcset</span></SlideAction>
+  <SlideAction to="esercitazione-04" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">04</span><span>Interfacce responsive e approccio mobile-first</span></SlideAction>
+  <SlideAction to="esercitazione-05" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Tailwind CSS: basi e layout</span></SlideAction>
+  <SlideAction to="esercitazione-06" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>daisyUI: componenti per le interfacce</span></SlideAction>
+  <SlideAction to="esercitazione-07" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Temi con Tailwind CSS e daisyUI</span></SlideAction>
+  <SlideAction to="esercitazione-08" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Git</span></SlideAction>
+  <SlideAction to="esercitazione-09" local-only class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">09</span><span>JavaScript e jQuery</span></SlideAction>
 </div>
 
 ---
@@ -223,10 +246,10 @@ footer: "Laboratorio"
 <ul class="cvedi-list" role="list">
   <li><span>Ripasso <strong>HTML e CSS3</strong></span></li>
   <li><span>Implementazione di <strong>interfacce responsive</strong></span></li>
-  <li><span><s class="syllabus-retired">Analisi e utilizzo del framework <strong>Bootstrap</strong></s></span></li>
+  <li><span>Utility e layout con <strong>Tailwind CSS</strong>; componenti e temi con <strong>daisyUI</strong></span></li>
   <li><span>Nuovi elementi in <strong>HTML5 e CSS3</strong></span></li>
   <li><span>Cenni di <strong>Git</strong></span></li>
-  <li><span>Cenni di <strong>JavaScript</strong> per i componenti di <s class="syllabus-retired">Bootstrap</s></span></li>
+  <li><span>Cenni di <strong>JavaScript</strong> per il comportamento delle interfacce</span></li>
 </ul>
 <CvediNotice kind="explore"><p>Per esercitarsi in autonomia: <a href="https://www.freecodecamp.org/">FreeCodeCamp</a>.</p></CvediNotice>
 
@@ -767,6 +790,51 @@ localOnly: true
 
 ---
 src: ./lezioni/09-test-implementazione.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/01-html-css-base.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/02-html-css-avanzato.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/03-css-grid-srcset.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/04-responsive-mobile-first.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/05-tailwind-css.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/06-daisyui-componenti.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/07-temi-tailwind-daisyui.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/08-git.md
+localOnly: true
+---
+
+---
+src: ./esercitazioni/09-javascript-jquery.md
 localOnly: true
 ---
 

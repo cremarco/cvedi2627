@@ -4,16 +4,17 @@ import { useNav } from '@slidev/client'
 import HeroIcon from './HeroIcon.vue'
 import { slideSet, slideSetStyle } from '../utils/slide-sets'
 const deck = import.meta.env.VITE_CVEDI_DECK
-const menu = `${import.meta.env.VITE_CVEDI_MENU_BASE || '/'}#/3`
+const exercise = deck?.startsWith('esercitazione-')
+const menu = `${import.meta.env.VITE_CVEDI_MENU_BASE || '/'}#/${exercise ? 'indice-esercitazioni' : '3'}`
 const { currentFrontmatter } = useNav()
 const setStyle = computed(() => slideSetStyle(slideSet(currentFrontmatter.value.lesson)))
 </script>
 
 <template>
   <Teleport to="body">
-    <a v-if="deck && deck !== 'apertura'" :href="menu" class="btn lesson-deck-menu" :style="setStyle" aria-label="Torna al menu delle lezioni" @keydown.enter.stop>
+    <a v-if="deck && deck !== 'apertura'" :href="menu" class="btn lesson-deck-menu" :style="setStyle" :aria-label="`Torna al menu delle ${exercise ? 'esercitazioni' : 'lezioni'}`" @keydown.enter.stop>
       <HeroIcon name="chevron-left" stroke-width="2" />
-      <span>Menu lezioni</span>
+      <span>Menu {{ exercise ? 'esercitazioni' : 'lezioni' }}</span>
     </a>
   </Teleport>
 </template>

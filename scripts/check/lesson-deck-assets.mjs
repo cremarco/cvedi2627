@@ -42,6 +42,11 @@ export async function lessonAssetInventory(mode) {
   for (const slide of source.slides) {
     const owner = slide.frontmatter.lesson ?? 'presentazione-corso', entry = inventory.get(owner)
     const images = new Set(imagePaths(slide.content))
+    if (slide.frontmatter.exerciseNumber) {
+      const number = String(slide.frontmatter.exerciseNumber).padStart(2, '0')
+      const data = await json(`data/esercitazioni/${number}.json`)
+      for (const block of data[slide.frontmatter.lessonSlide - 1].blocks) if (block.kind === 'image') images.add(block.src)
+    }
     for (const [, name] of slide.content.matchAll(/<([A-Z][\w]+)\b/g)) for (const image of await componentAssets(name)) images.add(image)
     for (const [, title] of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
       const id = mappings[cardFamily[owner] || owner]?.[normalizeTitle(title)]

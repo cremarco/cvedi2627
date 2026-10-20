@@ -11,9 +11,11 @@ export async function checkPublication() {
   const require = createRequire(await realpath(path.join(root, 'node_modules/@slidev/cli/package.json')))
   const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
+  const exercises = JSON.parse(await readFile(path.join(root, 'assets/esercitazioni/manifest.json'), 'utf8'))
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
-  const localIds = new Set(curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id))
-  assert.deepEqual([...localIds], ['prototipi-interfacce', 'test-implementazione'], 'only lessons 09 and 10 remain local after typography publication')
+  const localUxIds = curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id)
+  assert.deepEqual(localUxIds, ['prototipi-interfacce', 'test-implementazione'], 'only UX lessons 09 and 10 remain local after typography publication')
+  const localIds = new Set([...localUxIds, ...exercises.exercises.map(exercise => exercise.id)])
   const options = { roots: [root], userRoot: root, allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
   try {
@@ -29,8 +31,8 @@ export async function checkPublication() {
       assert.equal(owned.length, lesson.slideCount, `${lesson.id}: local publication count matches the curriculum`)
       assert.ok(owned.every(slide => (slide.frontmatter.localOnly === true) === localIds.has(lesson.id)), `${lesson.id}: publication visibility matches the curriculum`)
     }
-    assert.equal(local.slides.length, 242 + declaredUxSlides, 'complete local deck')
-    assert.equal(published.slides.length, 719, 'published deck includes lessons 01–08 and the 116 intended typography slides')
+    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount, 'complete local deck includes the new index and exercises')
+    assert.equal(published.slides.length, 720, 'published deck includes the exercise index and preserves the published lessons')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -51,7 +53,7 @@ export async function checkPublication() {
     const supplementalTargets = ['brief-progetto', 'approfondimenti']
     const indexTargets = content => [...content.matchAll(/<SlideAction\s+to=["']([^"']+)["']/g)].map(match => match[1])
     const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, ...publicTargets.slice(2)]
-    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...localIds], 'local index groups lesson 02 materials before continuing in lesson number order')
+    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...localUxIds], 'local lesson index groups lesson 02 materials before continuing in lesson number order')
     assert.deepEqual(indexTargets(publicIndex), groupedPublicTargets, 'published index preserves available destinations in reading order')
     for (const content of [localIndex, publicIndex]) {
       const lessonTwo = content.match(/<div\s+class="join join-horizontal index-lesson-two"[^>]*>([\s\S]*?)<\/div>/)?.[1]
@@ -60,6 +62,16 @@ export async function checkPublication() {
     }
     assert.ok(localIndex.includes('index-ux-lessons'), 'local lesson index remains available')
     assert.ok(!publicIndex.includes('LocalOnly') && !publicIndex.includes('index-ux-lessons'), 'local index is removed before compilation')
+    for (const deck of [local, published]) {
+      const index = deck.slides.find(slide => slide.title === 'Indice delle esercitazioni')
+      assert.equal(index.index, 3, 'exercise index immediately follows the lesson index')
+      assert.deepEqual(indexTargets(index.content), exercises.exercises.map(exercise => exercise.id), 'every exercise remains visible and ordered in both indexes')
+      assert.equal([...index.content.matchAll(/<SlideAction\b[^>]*\blocal-only\b/g)].length, 9, 'every exercise action is disabled in production')
+    }
+    for (const exercise of exercises.exercises) {
+      assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === exercise.id).length, exercise.slideCount, 'local exercise count matches its preserved source mapping')
+      assert.ok(!Object.keys(published.markdownFiles).includes(path.join(root, exercise.file)), 'exercise contents never enter the published parser')
+    }
     for (const lesson of curriculum.lessons) {
       assert.ok(localIndex.includes(`to="${lesson.id}"`), `${lesson.id}: local destination exists`)
       if (!localIds.has(lesson.id)) {
@@ -70,7 +82,7 @@ export async function checkPublication() {
       assert.ok(!publicIndex.includes(`to="${lesson.id}"`), `${lesson.id}: unpublished destination is absent`)
       assert.ok(!Object.keys(published.markdownFiles).includes(path.join(root, lesson.file)), `${lesson.id}: the source is never imported into the published bundle`)
     }
-    return { localSlides: local.slides.length, publishedSlides: published.slides.length, localOnlyLessons: localIds.size }
+    return { localSlides: local.slides.length, publishedSlides: published.slides.length, localOnlyLessons: localUxIds.length, localOnlyExercises: exercises.exercises.length }
   } finally { injectPreparserExtensionLoader(null) }
 }
 
@@ -88,6 +100,13 @@ export async function checkPublishedBuild(directory) {
     return result
   }
   const references = await bundleReferences(output)
+  assert.ok(!references.includes('data-exercise-slide'), 'exercise content renderer is absent from published JavaScript')
+  assert.ok(!references.includes('/data/esercitazioni/'), 'exercise data is absent from published JavaScript')
+  const catalog = JSON.parse(await readFile(path.join(output, 'decks.json'), 'utf8'))
+  assert.ok(catalog.decks.every(deck => !deck.id.startsWith('esercitazione-')), 'no exercise deck is registered online')
+  const exercises = JSON.parse(await readFile(path.join(root, 'assets/esercitazioni/manifest.json'), 'utf8'))
+  for (const exercise of exercises.exercises)
+    await assert.rejects(access(path.join(output, 'lezioni', exercise.id)), { code: 'ENOENT' }, 'direct exercise paths are absent online')
   for (const directory of localAssetDirectories)
     assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
   for (const directory of [...sharedLessonAssetDirectories, 'images/tipografia', 'images/font-previews']) {
@@ -103,7 +122,7 @@ export async function checkPublishedBuild(directory) {
     assert.ok(references.includes(asset), `lesson 05 card icon is registered in the published bundle: ${asset}`)
     assert.deepEqual(await readFile(path.join(output, asset)), await readFile(path.join(root, 'public', asset)), `lesson 05 icon preserves its source bytes: ${asset}`)
   }
-  return { output, localAssetsExcluded: true }
+  return { output, localAssetsExcluded: true, exerciseDecksExcluded: exercises.exercises.length, exerciseDataExcluded: true }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

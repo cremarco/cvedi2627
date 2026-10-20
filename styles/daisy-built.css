@@ -10,6 +10,7 @@
       "Courier New", monospace;
     --color-black: #000;
     --spacing: 0.25rem;
+    --font-weight-semibold: 600;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -2541,6 +2542,44 @@
     }
   }
   @layer daisyui.l1.l2.l3 {
+    .mockup-code {
+      position: relative;
+      overflow: hidden;
+      overflow-x: auto;
+      border-radius: var(--radius-box);
+      background-color: var(--color-neutral);
+      padding-block: calc(0.25rem * 5);
+      color: var(--color-neutral-content);
+      font-size: 0.875rem;
+      direction: ltr;
+    }
+    .mockup-code:before {
+      content: "";
+      margin-bottom: calc(0.25rem * 4);
+      display: block;
+      height: calc(0.25rem * 3);
+      width: calc(0.25rem * 3);
+      border-radius: calc(infinity * 1px);
+      opacity: 30%;
+      box-shadow: 1.4em 0, 2.8em 0, 4.2em 0;
+    }
+    .mockup-code pre {
+      padding-right: calc(0.25rem * 5);
+      width: max-content;
+      min-width: 100%;
+    }
+    .mockup-code pre:before {
+      content: "";
+      margin-right: 2ch;
+    }
+    .mockup-code pre[data-prefix]:before {
+      --tw-content: attr(data-prefix);
+      content: var(--tw-content);
+      display: inline-block;
+      width: calc(0.25rem * 8);
+      text-align: right;
+      opacity: 50%;
+    }
     .checkbox {
       border: var(--border) solid var(--input-color, var(--color-base-content));
     }
@@ -3920,8 +3959,14 @@
   .flex {
     display: flex;
   }
+  .grid {
+    display: grid;
+  }
   .hidden {
     display: none;
+  }
+  .inline {
+    display: inline;
   }
   .table {
     display: table;
@@ -4093,6 +4138,16 @@
       --size: calc(var(--size-selector, 0.25rem) * 5);
       font-size: 0.75rem;
     }
+  }
+  .font-semibold {
+    --tw-font-weight: var(--font-weight-semibold);
+    font-weight: var(--font-weight-semibold);
+  }
+  .italic {
+    font-style: italic;
+  }
+  .underline {
+    text-decoration-line: underline;
   }
   @layer daisyui.l1.l2.l3 {
     :is(.tooltip:is([data-tip]:not([data-tip=""]), :has(.tooltip-content:not(:empty))).tooltip-open, .tooltip:is([data-tip]:not([data-tip=""]), :has(.tooltip-content:not(:empty))):hover, .tooltip:is([data-tip]:not([data-tip=""]), :has(.tooltip-content:not(:empty))):has(:focus-visible)) > .tooltip-content {
@@ -4423,6 +4478,10 @@
   inherits: false;
   initial-value: solid;
 }
+@property --tw-font-weight {
+  syntax: "*";
+  inherits: false;
+}
 @property --tw-outline-style {
   syntax: "*";
   inherits: false;
@@ -4490,6 +4549,7 @@
       --tw-skew-x: initial;
       --tw-skew-y: initial;
       --tw-border-style: solid;
+      --tw-font-weight: initial;
       --tw-outline-style: solid;
       --tw-blur: initial;
       --tw-brightness: initial;

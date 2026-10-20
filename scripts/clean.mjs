@@ -7,7 +7,7 @@ const outputs = ['dist', '_site', '.slidev', 'slides-export', 'output',
 const excluded = new Set(['.git', 'node_modules', '.pnpm-store'])
 
 /** Remove generated output while retaining reports referenced by provenance or docs. */
-export async function cleanProject(root, { dryRun = false } = {}) {
+export async function cleanProject(root, { dryRun = false, keepDev = false } = {}) {
   root = path.resolve(root)
   const protectedReports = new Set()
   async function readReferences(file) {
@@ -55,7 +55,10 @@ export async function cleanProject(root, { dryRun = false } = {}) {
     if (!dryRun) await rm(path.join(root, relative), { recursive: true, force: true })
     removed.add(relative)
   }
-  for (const relative of outputs) await remove(relative)
+  for (const relative of outputs) {
+    if (keepDev && relative === '.slidev') continue
+    await remove(relative)
+  }
 
   async function pruneReports(relative) {
     if (protectedReports.has(relative)) return
@@ -90,6 +93,8 @@ export async function cleanProject(root, { dryRun = false } = {}) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href) {
-  const result = await cleanProject(fileURLToPath(new URL('..', import.meta.url)), { dryRun: process.argv.includes('--dry-run') })
+  const result = await cleanProject(fileURLToPath(new URL('..', import.meta.url)), {
+    dryRun: process.argv.includes('--dry-run'), keepDev: process.argv.includes('--keep-dev'),
+  })
   console.log(JSON.stringify(result, null, 2))
 }

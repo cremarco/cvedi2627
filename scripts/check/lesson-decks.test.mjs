@@ -12,9 +12,10 @@ const require = createRequire(await realpath(path.join(root, 'node_modules/@slid
 const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
 const options = { roots: [root], userRoot: root, allowedRoots: [root] }
 
-test('typography is published while only prototypes and test remain local', async () => {
+test('typography is published while prototypes, test and exercises remain local', async () => {
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
-  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), ['prototipi-interfacce', 'test-implementazione'])
+  const exercises = JSON.parse(await readFile(path.join(root, 'assets/esercitazioni/manifest.json'), 'utf8'))
+  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), ['prototipi-interfacce', 'test-implementazione', ...exercises.exercises.map(exercise => exercise.id)])
   for (const lesson of curriculum.lessons) {
     const presentation = lessonDecks.find(deck => deck.id === lesson.id)
     assert.ok(presentation, `${lesson.id}: presentation exists`)

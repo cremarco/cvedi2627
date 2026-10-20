@@ -3,6 +3,7 @@ import { chromium } from 'playwright-chromium'
 import { checkSlideSources } from './slide-source.mjs'
 
 const { deck, course, lesson, curriculum } = await checkSlideSources()
+const openingLength = deck.slides.filter(slide => slide.frontmatter.lesson === 'apertura').length
 const base = (process.env.SLIDEV_URL || 'http://localhost:3035').replace(/\/$/, '')
 const browser = await chromium.launch()
 const checks = []
@@ -49,19 +50,19 @@ try {
   await page.goto(`${base}/#/apertura`, { waitUntil: 'networkidle' })
   assert.equal(await page.locator('.presentation-progress-rail').count(), 0, 'the general cover omits progress')
   await page.keyboard.press('ArrowRight')
-  await waitForCounter(2, 6)
+  await waitForCounter(2, openingLength)
   const initialFill = await page.locator('.presentation-progress-fill').elementHandle()
   await page.keyboard.press('ArrowRight')
-  await waitForCounter(3, 6)
+  await waitForCounter(3, openingLength)
   assert.ok(await initialFill.evaluate(fill => fill === document.querySelector('.presentation-progress-fill')), 'same set retains its animated element')
-  await waitForFraction(3 / 6)
+  await waitForFraction(3 / openingLength)
   checks.push('accessible counter updates independently of animation')
 
   await page.keyboard.press('ArrowRight')
   await page.keyboard.press('ArrowRight')
   await page.keyboard.press('ArrowLeft')
-  await waitForCounter(4, 6)
-  await waitForFraction(4 / 6)
+  await waitForCounter(4, openingLength)
+  await waitForFraction(4 / openingLength)
   checks.push('rapid forward and backward navigation settles correctly')
 
   await page.goto(`${base}/#/presentazione-corso`)
@@ -103,7 +104,8 @@ try {
   await page.setViewportSize({ width: 1280, height: 720 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
   const fixtures = deck.slides.filter(slide => String(slide.frontmatter.class).split(/\s+/).includes('archive-wall-slide'))
-  fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione', ...curriculum.lessons.map(lesson => lesson.id)].map(lesson =>
+  const exerciseIds = [...new Set(deck.slides.filter(slide => slide.frontmatter.exerciseNumber).map(slide => slide.frontmatter.lesson))]
+  fixtures.push(...['apertura', 'presentazione-corso', 'brief-progetto', 'approfondimenti', 'introduzione', ...curriculum.lessons.map(lesson => lesson.id), ...exerciseIds].map(lesson =>
     deck.slides.find(slide => (slide.frontmatter.lesson ?? 'presentazione-corso') === lesson && !String(slide.frontmatter.class).split(/\s+/).includes('chapter-slide') && !String(slide.frontmatter.class).split(/\s+/).includes('cover-slide'))))
   for (const slide of fixtures) {
     assert.ok(slide, 'each visible set has a progress color fixture')
