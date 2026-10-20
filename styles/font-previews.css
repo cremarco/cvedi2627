@@ -1,0 +1,99 @@
+/* Font names remain ordinary inline text, including wrapping between words. */
+.slide-font-trigger {
+  display: inline;
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  white-space: inherit;
+  text-decoration-line: underline;
+  text-decoration-style: dashed;
+  text-decoration-color: var(--section-primary, var(--color-primary));
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+  cursor: help;
+}
+.slide-font-trigger:focus-visible {
+  outline: 2px solid var(--section-primary, var(--color-primary));
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+/* The viewport portal escapes the scaled canvas and figure/card clipping.
+   Its transparent padding bridges the pointer's path into the tooltip. */
+.slide-font-tooltip.tooltip {
+  position: fixed;
+  z-index: 110;
+  width: min(380px, calc(100vw - 24px));
+  height: auto;
+  max-height: calc(100dvh - 24px);
+  padding: 8px 0;
+  box-sizing: border-box;
+  pointer-events: auto;
+  --tt-bg: var(--cvedi-paper);
+  --color-neutral-content: var(--cvedi-gray-950);
+}
+.slide-font-tooltip.tooltip::after { display: none; }
+.slide-font-tooltip.tooltip > .tooltip-content {
+  position: relative;
+  display: block;
+  inset: auto;
+  width: 100%;
+  max-width: none;
+  max-height: calc(100dvh - 40px);
+  box-sizing: border-box;
+  overflow: auto;
+  overscroll-behavior: contain;
+  padding: 16px 20px;
+  border: 1px solid var(--cvedi-rule);
+  border-radius: 8px;
+  background: var(--cvedi-paper);
+  color: var(--cvedi-gray-950);
+  box-shadow: 0 4px 16px rgb(15 23 42 / 12%);
+  transform: none;
+  font: 400 var(--cvedi-type-note)/1.4 var(--cvedi-font-reading);
+  letter-spacing: 0;
+  text-align: left;
+  white-space: normal;
+  text-wrap: pretty;
+  pointer-events: auto;
+}
+.slide-font-name {
+  display: block;
+  color: var(--section-primary, var(--color-primary));
+  font-weight: 600;
+}
+.slide-font-sample {
+  display: block;
+  width: 100%;
+  margin: 12px 0 0;
+  object-fit: contain;
+  object-position: left center;
+  background: var(--cvedi-paper);
+}
+.slide-font-sample--word { height: 72px; }
+.slide-font-sample--document { height: 176px; }
+.slide-font-caption {
+  display: block;
+  margin-top: 12px;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.slide-font-print { text-decoration: none; }
+@media (prefers-reduced-motion: reduce) {
+  .slide-font-tooltip.tooltip > .tooltip-content { transition: none; }
+}
+@media (forced-colors: active) {
+  .slide-font-trigger { text-decoration-color: currentColor; }
+  .slide-font-trigger:focus-visible { outline-color: Highlight; }
+  .slide-font-tooltip.tooltip > .tooltip-content {
+    border-color: CanvasText;
+    background: Canvas;
+    color: CanvasText;
+    box-shadow: none;
+  }
+  .slide-font-name { color: CanvasText; }
+  .slide-font-sample { forced-color-adjust: none; }
+}
+@media print {
+  .slide-font-trigger { text-decoration: none; }
+  .slide-font-tooltip { display: none !important; }
+}

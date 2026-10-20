@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "task": "Commento 376 — esempio tipografico ottocentesco autentico",
+  "preparedAt": "2026-10-20",
+  "currentFolio": 407,
+  "frameId": "4345:61325",
+  "assetType": "Documentary specimen; embedded lossless raster crop, not an outline font",
+  "family": "Spencerian Script",
+  "historicalSizeName": "Two-Line Small Pica",
+  "historicalSizeCaution": "The historical size name is preserved; no modern point-size equivalence is asserted.",
+  "specimenText": "Spencerian,",
+  "specimenDescription": "Complete family-name word from the first line of the explanatory typeset paragraph below the main specimen, including the original comma.",
+  "source": {
+    "title": "Eleventh book of specimens of printing types and every requisite for typographical use and adornment",
+    "creatorAsCatalogued": "Mackellar, Smiths & Jordan Co",
+    "foundryDisplay": "MacKellar, Smiths & Jordan",
+    "year": 1885,
+    "yearEvidence": "Internet Archive metadata, date field 1885; Cornell University Library contributor; description identifies second issue, first issue 1878.",
+    "issue": "Second issue; first issue 1878",
+    "publisherPlace": "Philadelphia",
+    "contributor": "Cornell University Library",
+    "identifier": "cu31924032183760",
+    "printedPage": "54",
+    "bookReaderLeaf": 61,
+    "pageHeading": "Two-Line Small Pica Spencerian Script",
+    "historicalStatusEvidence": "Printed page is a foundry specimen of type; the paragraph discusses use by printers and kerned beveled-shoulder metal types. The title masthead is not used as the sample.",
+    "individualDesigner": "Not asserted",
+    "pageUrl": "https://archive.org/details/cu31924032183760/page/n61/mode/1up",
+    "metadataUrl": "https://archive.org/metadata/cu31924032183760",
+    "imageUrl": "https://ia601805.us.archive.org/BookReader/BookReaderImages.php?zip=/18/items/cu31924032183760/cu31924032183760_jp2.zip&file=cu31924032183760_jp2/cu31924032183760_0061.jp2&id=cu31924032183760&scale=1&rotate=0"
+  },
+  "rights": {
+    "historicalWork": "1885 foundry specimen book, public domain in the United States.",
+    "digitalFrontMatterStatement": "There are no known copyright restrictions in the United States on the use of the text.",
+    "statementSource": "https://archive.org/download/cu31924032183760/cu31924032183760_djvu.txt",
+    "licenseUrl": null,
+    "caution": "No CC0 or Creative Commons licence is asserted; the catalogue has no explicit licence URL. Credit Cornell University Library and the foundry. Rights outside the United States are not separately determined here."
+  },
+  "files": [
+    {
+      "path": "spencerian-msj1885-p54-original.jpg",
+      "sha256": "3f0912919c919bf98537c5493b32eb783de7411b19f146e37e2a9082141c0f4d"
+    },
+    {
+      "path": "spencerian-msj1885-p54-spencerian-crop.png",
+      "sha256": "bc0583b21d6cce1b57f30dd0d689aa6147396c20e49fb7b1fa4d6a16bd52ccc7"
+    },
+    {
+      "path": "spencerian-msj1885-indice-original.jpg",
+      "sha256": "62cdcb31dc9aa850a0532feb87819098afa641933ce41614e2c1cb7ba88f0d55"
+    },
+    {
+      "path": "spencerian-msj1885-IA-metadata.json",
+      "sha256": "e3bf9c4ace9f42c20beb6b44c3a435c54420d6b4074a71001476bafed09a4fe3"
+    }
+  ],
+  "processing": {
+    "source": "Server-provided BookReader JPEG derivative of source JP2, retained byte-for-byte; not described as the original JP2.",
+    "sourceDimensions": [
+      2780,
+      3802
+    ],
+    "sourceMode": "L",
+    "cropBoxLTRB": [
+      2095,
+      2262,
+      2433,
+      2357
+    ],
+    "cropDimensions": [
+      338,
+      95
+    ],
+    "cropEncoding": "PNG",
+    "resamplingDuringCrop": false,
+    "decodedSourcePixelsIdentical": true,
+    "colourChanges": false,
+    "backgroundRemoval": false,
+    "cropInkBoundsThreshold180": [
+      10,
+      10,
+      328,
+      85
+    ],
+    "helper": "reproduce-spencerian-crop.py",
+    "svg": "spencerian-msj1885-p54-dettaglio.svg",
+    "svgCanvas": [
+      160,
+      54
+    ],
+    "svgImageBounds": [
+      0,
+      4.514793,
+      160,
+      44.970414
+    ],
+    "uniformScale": 0.47337278106508873,
+    "displayedInkBounds": [
+      4.733727810650888,
+      9.248520810650888,
+      155.2662721893491,
+      44.751479390532545
+    ],
+    "displayedInkHeight": 35.50295857988166,
+    "embeddedRasterOnly": true,
+    "noExternalReferences": true
+  },
+  "integration": {
+    "suggestedHeader": "Spencerian Script · campione 1885",
+    "suggestedCaption": "Campione storico — Spencerian Script: MacKellar, Smiths & Jordan, 1885, p. 54. Cornell Library; pubblico dominio USA.",
+    "approvedReplacementSentence": "Il campione di Spencerian Script del 1885 mostra un corsivo tipografico ottocentesco da confrontare con il marchio.",
+    "moduleBounds": [
+      51.02,
+      510.51953,
+      187.09,
+      107
+    ],
+    "moduleBottom": 617.51953,
+    "moduleId": "4811:10425",
+    "parentFrameId": "4345:61325",
+    "headerId": "4811:10426",
+    "actualHeader": "Spencerian Script · campione 1885",
+    "artBandId": "4811:10427",
+    "importedSvgId": "4811:10472",
+    "importedImageId": "4811:10473",
+    "importedSvgLocalBounds": [0, 0, 160, 54],
+    "hiddenPreviousSvgCloneId": "4811:10428",
+    "captionId": "4811:10433",
+    "actualCaption": "Campione storico — Spencerian Script: MacKellar, Smiths & Jordan, 1885, p. 54. Cornell Library; pubblico dominio.",
+    "captionLines": 3,
+    "captionHyperlink": null,
+    "sourceLinkRetainedInSvgAndManifest": true,
+    "nativeHeader": "DM Sans Medium 10/12",
+    "nativeCaption": "DM Sans Light 9/11; prefix Medium",
+    "nativeCaptionAlignment": "LEFT",
+    "artBandHeight": 54,
+    "replacementSentenceApplied": true,
+    "removedGenericSentence": "Confrontiamo la scritta con una normale frase composta in un carattere corsivo.",
+    "remainingBodyPreserved": true,
+    "originalCocaColaFigurePreserved": true,
+    "figmaMutationPerformed": true,
+    "integrationActor": "Parent agent through @Browser; no Figma MCP calls",
+    "thisAgentFigmaMutationPerformed": false,
+    "proof": "reports/figma-commenti/2026-10-19/comment376-browser-after.jpg",
+    "parentVisualQA": "PASS",
+    "independentVisualQA": "PASS_PRIMARY_FACTCHECK_AND_OFFLINE_BEFORE_AFTER_VISUAL_QA",
+    "independentQAReport": "reports/figma-commenti/2026-10-19/comment376-spencerian-independent-factcheck.json",
+    "independentVisualProofStatus": "PASS_LOCAL_PROOF_407",
+    "finalFigmaRenderQA": "PASS — parent Browser review and independent before/after review",
+    "commentResolved": true,
+    "resolutionDate": "2026-10-20",
+    "resolutionActor": "Parent agent through @Browser",
+    "resolutionAfterParentAndIndependentQA": true,
+    "resolutionEvidence": "Unique comment filtered by 'questa frase è banale'; Mark as resolved; authoritative Browser alert 'Comment resolved', reported by parent.",
+    "scopeCaution": "This closes comment376 only; no claim of overall goal completion."
+  },
+  "visualQA": {
+    "completeWord": true,
+    "completePDescender": true,
+    "commaIncluded": true,
+    "neighbouringWordFragments": false,
+    "nextLineFragments": false,
+    "preservesOriginalPaperAndProportions": true,
+    "fits187pxColumn": true,
+    "fits54pxArtBand": true
+  }
+}

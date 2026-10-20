@@ -94,21 +94,34 @@
     {
       "number": 8,
       "id": "tipografia-griglie",
-      "title": "Tipografia, griglie e interfacce",
-      "subtitle": "Dalla leggibilità alla struttura responsive",
+      "title": "Tipografia",
+      "subtitle": "Dal disegno delle lettere alla lettura",
       "file": "lezioni/07-tipografia-griglie.md",
       "palette": "sky",
       "sourceRange": [
         157,
-        200
+        182
       ],
       "sections": [
-        8,
-        9
+        8
       ],
-      "slideCount": 46,
+      "slideCount": 114,
       "paletteAlias": "ux-type",
-      "localOnly": true
+      "typographyRevision": {
+        "snapshot": "assets/booklet/lezione-08-tipografia/figma-source.json",
+        "pageId": "4226:16023",
+        "folios": [
+          332,
+          481
+        ],
+        "frameCount": 150,
+        "sourceLinks": "assets/booklet/lezione-08-tipografia/figma-links.json",
+        "previousMapping": "assets/booklet/lezione-08-tipografia/previous-mapping.json",
+        "archive": "lezioni/archivio/07-tipografia-pre-revisione.md",
+        "excludedContentArchive": "assets/booklet/lezione-08-tipografia/griglie-interfacce-archive.json",
+        "bookletExcludedContentArchive": "assets/booklet/lezione-08-tipografia/booklet-esclusioni-archive.json"
+      },
+      "lessonMinutes": 69.5
     },
     {
       "number": 9,

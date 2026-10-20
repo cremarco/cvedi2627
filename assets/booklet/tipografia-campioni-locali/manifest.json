@@ -1,0 +1,110 @@
+{
+  "purpose": "Campioni autentici locali richiesti dal commento370 del booklet Figma",
+  "additionalLocalOutlines": "fonti-accessibilita-e-script/local-outline-manifest.json",
+  "openDyslexicLicense": "fonti-accessibilita-e-script/OpenDyslexic-OFL.txt",
+  "dyslexieOriginalDocument": "fonti-accessibilita-e-script/dyslexie-adults-official.pdf",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "4226:16023",
+  "sourceDate": "2026-10-19",
+  "scope": "Nuove fonti documentarie e campioni da caratteri già installati; gli asset preesistenti rimangono nei manifest originari",
+  "sources": [
+    {
+      "font": "Golden / Troy / Chaucer",
+      "file": "originali/kelmscott-1897.jpg",
+      "source": "https://commons.wikimedia.org/wiki/File:Kelmscott_Press_Typefaces.jpg",
+      "identification": "https://morrisarchive.lib.uiowa.edu/exhibits/show/bookarts/kelmscottpress/typefaces",
+      "credit": "William Morris / Kelmscott Press, 16 febbraio 1897",
+      "rights": "Public domain, dichiarato Commons PD-old",
+      "sha256": "e6e984b2fc4c265a090ec3a5d334ba9299b2068e520147c7085919466880049d",
+      "folio": 348
+    },
+    {
+      "font": "Franklin Gothic Book",
+      "file": "originali/franklin-gothic-book-microsoft.png",
+      "source": "https://learn.microsoft.com/en-us/typography/font-list/franklin-gothic",
+      "credit": "ITC / Microsoft, campione ufficiale Book",
+      "rights": "Proprietario; dettaglio documentario attribuito, non software del font",
+      "sha256": "59aba39a81d77e024424247277f7a2e45479ee9def45fff99a6a75756a4a1ada",
+      "folio": 391
+    },
+    {
+      "font": "Johnston Sans",
+      "file": "originali/johnston-proof-sheet-tfl.jpg",
+      "source": "https://art.tfl.gov.uk/labyrinth/wp-content/uploads/2013/04/Labyrinth_PART1.pdf",
+      "sourcePage": 9,
+      "credit": "Transport for London / Art on the Underground, Labyrinth Teacher Pack part1,2013",
+      "rights": "Documento fotografico attribuito; nessuna licenza aperta inventata",
+      "sha256": "9e7d9475a89f8608fda5ab35b000c69115a731e8670b9a29a1e1c3b20808fb80",
+      "folio": 391
+    },
+    {
+      "font": "Chicago",
+      "file": "originali/macintosh-fonts-cornell-tech-2016-p11.png",
+      "source": "https://nixdell.com/classes/HCI-and-Design-Spring-2016/Design-class-2.pdf",
+      "sourcePage": 11,
+      "credit": "Susan Kare / Apple; riproduzione del campione bitmap in Cornell Tech2016, Designing for the Digital Ecosystem",
+      "rights": "Riproduzione documentaria di un dettaglio; non un font ricreato o scaricato",
+      "sha256": "e1c1814c939a38001e13c96fa5755aa8b74accd7ca68cf9092b5e4e55dbf975e",
+      "folios": [
+        355,
+        416
+      ]
+    },
+    {
+      "font": "SF Pro / SF Compact / SF Mono",
+      "file": "originali/san-francisco-wwdc22-110381-01m36s.png",
+      "source": "https://developer.apple.com/videos/play/wwdc2022/110381/?time=96",
+      "sourceTimeSeconds": 96,
+      "credit": "Apple, Meet the expanded San Francisco font family,WWDC22,session110381",
+      "rights": "Fotogramma documentario attribuito. Non è stato scaricato o utilizzato nuovo software San Francisco",
+      "sha256": "cb87cd69eb6a5f022b9a2f2cacc936b09fc7c036c31da91cc3afe209a5dba2f0",
+      "folio": 416
+    },
+    {
+      "font": "Eurostile",
+      "file": "originali/eurostile-campionario-nebiolo.png",
+      "source": "https://archiviotipografico.it/en/collections/movable-type/eurostile/",
+      "credit": "Aldo Novarese / Fonderie Nebiolo; documento riprodotto da Archivio Tipografico",
+      "rights": "Campionario originale; dettagli fotografici attribuiti, non software",
+      "sha256": "2e700ebb4482fd813a3ec07ca13bc5bebce06104a5aa98c8983ffed982a476d2",
+      "folios": [
+        407,
+        408
+      ]
+    },
+    {
+      "font": "Glypha Roman",
+      "file": "originali/glypha-linotype.png",
+      "source": "https://www.myfonts.com/collections/glypha-font-linotype/",
+      "credit": "Adrian Frutiger / Linotype, documento pubblicato da MyFonts",
+      "rights": "Fotografia di campionario; dettaglio attribuito, non stimolo Koch2012 né software",
+      "sha256": "d7e4d7cf267b38f9b2f47b719330d8c56330d0794f6717c51d56a0b65c42a045",
+      "folio": 401
+    },
+    {
+      "font": "Microgramma",
+      "file": "originali/microgramma-urw.png",
+      "source": "https://www.myfonts.com/collections/microgramma-font-urw",
+      "credit": "URW Type Foundry / MyFonts; Aldo Novarese e Alessandro Butti",
+      "rights": "Documento della versione digitale successiva, non campione originale1952",
+      "sha256": "2c832a3a204ec5b1bbdc3473f6fb72d2a3415b3791a86f8d52c5d55e005b47ef",
+      "folio": 408
+    },
+    {
+      "font": "DIN Next Rounded",
+      "file": "originali/din-next-rounded-monotype.png",
+      "source": "https://www.myfonts.com/collections/din-next-rounded-font-monotype-imaging/",
+      "credit": "Akira Kobayashi e Sandra Winter / Monotype, campione ufficiale",
+      "rights": "Dettaglio del documento attribuito; nessun software commerciale scaricato",
+      "sha256": "198f1ac15ce98881e5f1ced877172c1c84cc5dd775aed2409e24dd388031e2cc",
+      "folio": 419
+    }
+  ],
+  "localFontOutlines": {
+    "directory": "contorni",
+    "metadata": "contorni/fonti.json",
+    "text": "Aag",
+    "sourceNominalSize": 40,
+    "note": "Font software locale già installato con macOS: si conservano contorni di soli tre glifi, nome, stile, versione, copyright e hash; nessun binario commerciale viene ridistribuito. Nei confronti388/402 il corpo effettivo Figma è38 e la baseline è comune."
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "slide": {
+    "lesson": "tipografia-griglie",
+    "number": 10,
+    "alias": "tipografia-griglie-tipo-venezia-jenson"
+  },
+  "asset": {
+    "id": "tipografia-gutenberg-gotico-dettaglio",
+    "nodeId": "https://www.digitale-sammlungen.de/en/view/bsb00004647?page=13",
+    "title": "Gotico librario — Bibbia di Gutenberg, circa 1455",
+    "caption": "Dettaglio del gotico librario della Bibbia di Gutenberg, circa 1455. Bayerische Staatsbibliothek, 2 Inc.s.a. 197-1, fol. 5r; digitalizzazione HUMI Project, Keio University.",
+    "sourceLinks": [
+      "https://www.digitale-sammlungen.de/en/view/bsb00004647?page=13",
+      "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004647/manifest",
+      "https://www.loc.gov/exhibits/bibles/interactives/gutenberg/text.html"
+    ],
+    "naturalWidth": 560,
+    "naturalHeight": 135,
+    "original": "assets/booklet/tipografia-gotico/bsb00004647-00013.jpg",
+    "web": "/images/tipografia/gutenberg-gotico-5287f6cda696.svg",
+    "retainedSources": [
+      "assets/booklet/tipografia-gotico/bsb00004647-iiif-manifest.json",
+      "assets/booklet/tipografia-gotico/bsb00004647-00013-info.json",
+      "assets/booklet/tipografia-gotico/generate.py",
+      "assets/booklet/tipografia-gotico/manifest.json"
+    ],
+    "originalBytes": 1142879,
+    "webBytes": 1524114,
+    "sha256": "5de3677a190bf1ebe8fc86edf9cadffbb5b90fd56c3edcdaa559cb720e237be6",
+    "publicationSource": "assets/booklet/tipografia-gotico/gutenberg-gotico-dettaglio.svg",
+    "publicationSourceSha256": "5287f6cda696771a0b024ea8023dde07a8b43ff90efca409fc2fa4837fc4b603",
+    "publicationSha256": "5287f6cda696771a0b024ea8023dde07a8b43ff90efca409fc2fa4837fc4b603",
+    "encoding": {
+      "format": "SVG",
+      "lossless": true,
+      "exactAlpha": true,
+      "transformation": "SVG viewBox selects a document region; complete source JPEG embedded byte for byte, without raster edits or glyph redrawing."
+    },
+    "provenance": {
+      "kind": "authentic-document-detail",
+      "createdAt": "2026-10-20",
+      "library": "Bayerische Staatsbibliothek",
+      "callNumber": "2 Inc.s.a. 197-1",
+      "folio": "5r (0013)",
+      "sourceDimensions": [
+        1780,
+        2500
+      ],
+      "viewport": {
+        "x": 264,
+        "y": 1185,
+        "width": 560,
+        "height": 135
+      },
+      "catalogUrl": "https://www.digitale-sammlungen.de/en/view/bsb00004647?page=13",
+      "sourceUrl": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb00004647_00013/full/full/0/default.jpg",
+      "manifestUrl": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00004647/manifest",
+      "license": "https://creativecommons.org/publicdomain/mark/1.0/",
+      "rights": "Public Domain Mark 1.0. Bayerische Staatsbibliothek, 2 Inc.s.a. 197-1, fol. 5r; digitalizzazione HUMI Project, Keio University.",
+      "scope": "Supplementary detail in the typography slide; derived from the preserved document image, not a new Figma export.",
+      "aiGenerated": false
+    }
+  }
+}

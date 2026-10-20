@@ -30,6 +30,7 @@
     "check:covers": "node scripts/check/covers.mjs",
     "check:typography": "node scripts/check/typography.mjs",
     "check:acronyms": "node scripts/check/acronyms.mjs",
+    "check:font-previews": "node scripts/check/font-previews.mjs",
     "check:layout": "node scripts/check/layout.mjs",
     "check:caffe-luce": "node scripts/check/caffe-luce.mjs",
     "check:caffe-motion": "node scripts/check/caffe-ttc-motion.mjs",

@@ -1,0 +1,82 @@
+{
+  "status": "AUTHENTIC_1496_EDITION_SOURCE_ONLY_NOT_APPLIED",
+  "consulted": "2026-10-20",
+  "work": {
+    "author": "Pietro Bembo",
+    "title": "De Aetna ad Angelum Chabrielem liber",
+    "printer": "Aldo Manuzio",
+    "place": "Venezia",
+    "modern_date": "February 1496",
+    "historical_imprint_date": "February 1495, more veneto",
+    "date_verification": "The Biblioteca Nazionale Marciana exhibition explicitly distinguishes the historical imprint date from February 1496. The BNCF copy's original colophon agrees with the historical date.",
+    "date_source_url": "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/"
+  },
+  "selected_holding": {
+    "library": "Biblioteca Nazionale Centrale di Firenze",
+    "shelfmark": "Ald.1.1.40",
+    "archive_identifier": "ita-bnc-ald-00000039-001",
+    "record_url": "https://archive.org/details/ita-bnc-ald-00000039-001",
+    "metadata_url": "https://archive.org/metadata/ita-bnc-ald-00000039-001",
+    "original_pdf_url": "https://archive.org/download/ita-bnc-ald-00000039-001/ita-bnc-ald-00000039-001.pdf",
+    "successful_public_file_url": "https://ia801601.us.archive.org/16/items/ita-bnc-ald-00000039-001/ita-bnc-ald-00000039-001.pdf",
+    "server_provenance": "The successful file server and directory are explicitly listed in the public archive metadata and BookReader URL. The initial archive.org download redirected into an SSL connection timeout, not an access denial.",
+    "selected_opening": "bncf-ald1140-opening-pdf10-original.jpg",
+    "selected_opening_pdf_page": 10,
+    "selected_opening_printed_signature": "A",
+    "selected_colophon": "bncf-ald1140-colophon-pdf69-original.jpg",
+    "selected_colophon_pdf_page": 69,
+    "page_number_caution": "PDF page numbers are one-based scan positions, not printed page numbers or leaf signatures. Do not call PDF10 printed page10.",
+    "identity_check": "Opening title names Petri Bembi De Aetna; the colophon names Aldi Romani, Venice and February. Both images carry the same Ald.1.1.40 shelfmark footer. This is neither the 1530 edition nor the Mardersteig1969 revival."
+  },
+  "preservation": {
+    "original_pdf_retained": "bncf-ald1140-internet-archive-original.pdf",
+    "pdf_pages": 72,
+    "selected_image_dimensions": [1394, 2156],
+    "extraction": "Exact raw /DCTDecode JPEG stream bytes from PDF10 /Im10 and PDF69 /Im69, respectively. No Pillow image save, resampling, recompression, color adjustment, AI generation or redrawing was used for the archived selected JPEGs.",
+    "verification": "Both selected JPEG byte strings were asserted equal to the corresponding raw PDF image streams after copying.",
+    "original_footer_preserved": true,
+    "selected_image_quality": "Readable full-resolution historical type and unaltered paper, stains, stamps and scan footer. Final booklet-size readability has not been assessed."
+  },
+  "rights": {
+    "historical_work": "Fifteenth-century printed work, distinct from the rights statement attached to its digitisation.",
+    "visible_scan_notice": "Early European Books, Copyright © 2010 ProQuest LLC. Images reproduced by courtesy of the Biblioteca Nazionale Centrale di Firenze. Ald.1.1.40.",
+    "specific_reuse_license_observed": null,
+    "do_not_claim": ["CC0 scan", "CC BY scan", "public-domain digital file solely because the printed book is old"],
+    "credit_to_preserve": "Biblioteca Nazionale Centrale di Firenze, Ald.1.1.40; Early European Books / ProQuest, 2010; Internet Archive.",
+    "permission_limit": "Public download and bibliographic authenticity are verified; this source-only audit does not certify an open reuse licence or provide legal clearance. Retain the original notice and attribution."
+  },
+  "caption_proposal_without_figure_number": "Pietro Bembo, De Aetna, Venezia, Aldo Manuzio, febbraio 1496 (1495 more veneto). Pagina iniziale. BNCF, Ald.1.1.40; Early European Books / ProQuest, 2010, via Internet Archive.",
+  "alternate_primary_source": {
+    "institution": "Biblioteca Nazionale Marciana",
+    "context": "marciana-primary-context.html",
+    "pdf": "marciana-de-aetna-original.pdf",
+    "pdf_url": "https://bibliotecanazionalemarciana.cultura.gov.it/wp-content/uploads/2026/01/De-aetna.pdf",
+    "pdf_pages": 77,
+    "visual_limit": "The published PDF shows severe green/pink/brown posterisation over paper in the inspected opening and colophon. A native Poppler rendering of PDF1 independently confirms the opening's artifacts; they are not a pypdf extraction or recompression error. Prefer the BNCF source for clarity; do not recolor the Marciana scan to hide them.",
+    "holding_caution": "The exhibition describes two Marciana copies; this audit did not establish which physical shelfmark the linked PDF reproduces.",
+    "reuse_license_observed": null
+  },
+  "rejected_candidate": {
+    "record_url": "https://grolierclub.omeka.net/exhibits/show/aldus-manutius/item/185",
+    "archived_context": "grolier-primary-context.html",
+    "archived_image": "grolier-brooker-de-aetna-original.jpg",
+    "reason": "The item record says February1496, but the actually linked image visibly reads Verona MCMLXIX and includes Pietro Bembo / On Etna. It is the 1969 Mardersteig edition, not the required historical original. The historical-looking file name is not evidence of authenticity. DO NOT IMPORT this image as1496.",
+    "supporting_revival_record_url": "https://grolierclub.omeka.net/items/show/1436"
+  },
+  "files": [
+    {"file": "bncf-ald1140-internet-archive-original.pdf", "bytes": 21715238, "sha256": "992a28761006075bdc5a56c659117b7603a8cd17c5a719a2159c1d0f6e8f56ec"},
+    {"file": "bncf-ald1140-opening-pdf10-original.jpg", "bytes": 326507, "sha256": "2df68604e359a3404e702ab366a54a7ae9e50ae3fb75fbbf2cf19fcaf807c070"},
+    {"file": "bncf-ald1140-colophon-pdf69-original.jpg", "bytes": 270256, "sha256": "b1b79fd2dda7760b6c9883cad11d4c8aa72c31e6ce66f27b26349b1792cc48ae"},
+    {"file": "bncf-internet-archive-metadata.json", "bytes": 5655, "sha256": "c55ef2c0c09808885f738b31fe59efc4112fc5dfab07039659b9f1d07452fa5b"},
+    {"file": "bncf-internet-archive-context.html", "bytes": 216360, "sha256": "f6adcc7a37bc6b6b4de31e0fc07dda517f5c668e659ddde9d7d3ce1d5c9c8355"},
+    {"file": "marciana-de-aetna-original.pdf", "bytes": 8304793, "sha256": "ce72bf73d5212b88abc707f3bcf4579c68317a837d6a67317a8dc29e761825c2"},
+    {"file": "marciana-primary-context.html", "bytes": 801995, "sha256": "94b74ee572c4e10eac1a24e1b3f7419d336be2fd6800e9070c75257041564418"},
+    {"file": "grolier-primary-context.html", "bytes": 23232, "sha256": "db43378f791840672f17242640714c70b23456ec42324a7c456c66a9c90a7643", "selected": false},
+    {"file": "grolier-brooker-de-aetna-original.jpg", "bytes": 310202, "sha256": "40df895996228a8659fb69ef2a5fb804bed1bae20765713e0a5a455bf1a140d0", "selected": false}
+  ],
+  "access_failures": [
+    "Cambridge exhibition returned403 in web and in a prequeued ordinary curl. No further request was made to that denied source, including alternate transports, archives or asset paths.",
+    "The BNCF archive.org download had an SSL connection timeout, without403. The archive metadata's explicit public file server succeeded."
+  ],
+  "limits": ["No Figma write, Browser action, page insertion, comment resolution, layout test or global coverage certification."]
+}

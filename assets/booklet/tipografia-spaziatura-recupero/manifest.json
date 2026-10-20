@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "recoveredAt": "2026-10-20",
+  "source": {
+    "path": "materiali/lezioni/2025-2026/07-tipografia-accessibilita.pdf",
+    "sha256": "d076df0444f50eb9b5bc96e68075255efb5cb80cf65d3921a7310fe26fb62551",
+    "title": "Corso di CVeDI (8 CFU) - Lezione 7",
+    "year": "2025-2026",
+    "courseAuthor": "Marco Cremaschi",
+    "pageCount": 165
+  },
+  "attribution": "Materiali del corso CVeDI, lezione 7 (2025-2026), Marco Cremaschi. Autori originari delle due figure non indicati nel PDF.",
+  "rights": "Nessuna licenza aperta indicata nel PDF; fonte originale conservata.",
+  "extraction": "Original embedded JPEG colour streams and soft masks retained. Main PNGs are lossless RGBA composites at native resolution, identical to the reviewed report PNGs. JP2s are the pypdf RGBA composites, not original PDF codestreams. No crop, rescaling, retouching or relabelling.",
+  "generator": {
+    "path": "assets/booklet/tipografia-spaziatura-recupero/extract.py",
+    "sha256": "756dd89dd882c73c661650e8b4e7a12439a22686b54c00e9edee18bbc9721871",
+    "dependencies": {
+      "pypdf": "6.10.0",
+      "Pillow": "12.3.0",
+      "pdfplumber": "0.11.9"
+    }
+  },
+  "figures": [
+    {
+      "name": "kerning",
+      "description": "La parola kerning con e senza crenatura, con le due etichette originali.",
+      "page": 104,
+      "pageXref": 712,
+      "xObjectName": "/Image108",
+      "xObjectXref": 717,
+      "sourceFilter": "/DCTDecode",
+      "sourceColorSpace": "/DeviceRGB",
+      "sourceBitsPerComponent": 8,
+      "softMask": {
+        "xref": 718,
+        "filter": "/FlateDecode",
+        "colorSpace": "/DeviceGray",
+        "bitsPerComponent": 8,
+        "compressedStreamSha256": "f733efe7d8641b2ad4162008b91dde3ea4c9b8bb52f84ee173e40ab01514af62",
+        "decodedPixelsSha256": "7c41333c292b81a28399530110add29161b58f16ccd7629a3f0a35c7dead84c3",
+        "file": {
+          "path": "assets/booklet/tipografia-spaziatura-recupero/kerning-mask.png",
+          "sha256": "92821aa33083a236c8876f0434df908ef846d1eafaf2f80cc1217858be55b909",
+          "bytes": 2598
+        }
+      },
+      "pageSizePt": [
+        720,
+        405
+      ],
+      "figureBoundsTopLeftPt": [
+        405.542335812,
+        160.67717837001595,
+        634.40065022208,
+        333.99808155407993
+      ],
+      "naturalWidth": 478,
+      "naturalHeight": 362,
+      "mode": "RGBA",
+      "rgbaPixelsSha256": "0a1a8a7b5dfd860ff8233c6fe1ca199e1acb68035732a9e12060870e1cf71af7",
+      "png": {
+        "path": "assets/booklet/tipografia-spaziatura-recupero/kerning.png",
+        "sha256": "ba3768329761e354190c965573f9350dcbd29c5ecfaa2cb05f9dd19aada2ece3",
+        "bytes": 50265
+      },
+      "jp2Composite": {
+        "path": "assets/booklet/tipografia-spaziatura-recupero/kerning.jp2",
+        "sha256": "9c413f51c7420e6fe60d7f2c8784580ce5a0544c82c37ab697f7148e9305f1e4",
+        "bytes": 93412
+      },
+      "originalJpegStream": {
+        "path": "assets/booklet/tipografia-spaziatura-recupero/kerning-source.jpg",
+        "sha256": "181c96a1edf011d2a2c7e7d5bdf9ca74291c218eba2be8ba5789759c9a34e857",
+        "bytes": 14203
+      },
+      "originalLabels": [
+        "con kerning",
+        "senza kerning"
+      ],
+      "attributionPrintedOnPage": null,
+      "sourceUrlPrintedOnPage": null
+    },
+    {
+      "name": "tracking",
+      "description": "La parola tracking su tre righe con spaziatura crescente.",
+      "page": 105,
+      "pageXref": 721,
+      "xObjectName": "/Image109",
+      "xObjectXref": 726,
+      "sourceFilter": "/DCTDecode",
+      "sourceColorSpace": "/DeviceRGB",
+      "sourceBitsPerComponent": 8,
+      "softMask": {
+        "xref": 727,
+        "filter": "/FlateDecode",
+        "colorSpace": "/DeviceGray",
+        "bitsPerComponent": 8,
+        "compressedStreamSha256": "5d0fedee678b0159834fe1f04180a2dd627962bed6e18b104521b8688654fe40",
+        "decodedPixelsSha256": "c4206c2e541a28dc2ceb80dbfc407a000883ec23d531995423218ebb5ef6a61d",
+        "file": {
+          "path": "assets/booklet/tipografia-spaziatura-recupero/tracking-mask.png",
+          "sha256": "4e09f9e6f4928962edd2122e1d0dbc99778da844e3dcb8805f094d3ec8bba904",
+          "bytes": 7635
+        }
+      },
+      "pageSizePt": [
+        720,
+        405
+      ],
+      "figureBoundsTopLeftPt": [
+        396.85040639999994,
+        161.1003004308,
+        643.0925402639999,
+        343.9802275428
+      ],
+      "naturalWidth": 513,
+      "naturalHeight": 381,
+      "mode": "RGBA",
+      "rgbaPixelsSha256": "20bf8fe45ce171559e2cc1dbaa9ca7e08ff3abdd30da52f20bfa6d47822aa35b",
+      "png": {
+        "path": "assets/booklet/tipografia-spaziatura-recupero/tracking.png",
+        "sha256": "f7d5be3e5fce1636d1d7e3cb54b1eab725fe568d41e2d21c2900686a7a731e55",
+        "bytes": 69399
+      },
+      "jp2Composite": {
+        "path": "assets/booklet/tipografia-spaziatura-recupero/tracking.jp2",
+        "sha256": "be5fe8ed09234b93ae7930531f2abf10797efe5f20cda66840988106de07d360",
+        "bytes": 135171
+      },
+      "originalJpegStream": {
+        "path": "assets/booklet/tipografia-spaziatura-recupero/tracking-source.jpg",
+        "sha256": "33a86da3943e04bbe1b918a3c879f19ae20a77f50975d72d30623bec599aa8d2",
+        "bytes": 18694
+      },
+      "originalLabels": [],
+      "attributionPrintedOnPage": null,
+      "sourceUrlPrintedOnPage": null
+    }
+  ]
+}

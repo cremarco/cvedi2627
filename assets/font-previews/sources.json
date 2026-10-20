@@ -1,0 +1,1304 @@
+[
+  {
+    "name": "Caslon",
+    "aliases": [
+      "Caslon"
+    ],
+    "slideNumbers": [
+      12
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/BigCaslon.ttf",
+    "style": "Big Caslon Medium",
+    "note": "Caslon in slide12 is also the founder surname; Big Caslon is a named digital revival, never identify it as the original Caslon types. If enabled label the interpretation explicitly.",
+    "binaryExists": true,
+    "slug": "caslon",
+    "caption": "Big Caslon Medium: interpretazione digitale del modello storico."
+  },
+  {
+    "name": "Baskerville",
+    "aliases": [
+      "Baskerville"
+    ],
+    "slideNumbers": [
+      12,
+      40
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Baskerville.ttc",
+    "style": "Regular",
+    "note": "Surname/type design in slide12; exact digital macOS face must be labelled.",
+    "binaryExists": true,
+    "slug": "baskerville",
+    "caption": "Baskerville Regular, versione digitale Monotype per macOS."
+  },
+  {
+    "name": "Didot",
+    "aliases": [
+      "Didot"
+    ],
+    "slideNumbers": [
+      12
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Didot.ttc",
+    "style": "Regular",
+    "note": "Historical surname and digital family are distinct; label digital version.",
+    "binaryExists": true,
+    "slug": "didot",
+    "caption": "Didot Regular: versione digitale del modello storico."
+  },
+  {
+    "name": "Bodoni",
+    "aliases": [
+      "Bodoni"
+    ],
+    "slideNumbers": [
+      12,
+      40,
+      45,
+      48,
+      59
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Bodoni 72.ttc",
+    "style": "Bodoni 72 Book",
+    "note": "Historical person/type category, and an unidentified font in Langosteria. Do not claim Bodoni72 is the actual historical or brand font.",
+    "specimen": "/images/tipografia/4368-44544-10101618a542.svg",
+    "specimenNodeId": "4368:44544",
+    "caption": "Bodoni 72 Book: interpretazione digitale, distinta dai tipi storici e dai logotipi citati.",
+    "sourceLinks": [],
+    "binaryExists": true,
+    "slug": "bodoni"
+  },
+  {
+    "name": "Golden",
+    "aliases": [
+      "Golden"
+    ],
+    "slideNumbers": [
+      15
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Historical Kelmscott type. Use authentic documentary specimen; no installed exact font.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/kelmscott-1897.jpg",
+    "slug": "golden",
+    "caption": "Golden, Troy e Chaucer: campionario originale Kelmscott Press, 1897."
+  },
+  {
+    "name": "Troy",
+    "aliases": [
+      "Troy"
+    ],
+    "slideNumbers": [
+      15
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Historical Kelmscott type. Use authentic documentary specimen; no installed exact font.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/kelmscott-1897.jpg",
+    "slug": "troy",
+    "caption": "Golden, Troy e Chaucer: campionario originale Kelmscott Press, 1897."
+  },
+  {
+    "name": "Chaucer",
+    "aliases": [
+      "Chaucer"
+    ],
+    "slideNumbers": [
+      15
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Historical Kelmscott type. Use authentic documentary specimen; no installed exact font.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/kelmscott-1897.jpg",
+    "slug": "chaucer",
+    "caption": "Golden, Troy e Chaucer: campionario originale Kelmscott Press, 1897."
+  },
+  {
+    "name": "Universal",
+    "aliases": [
+      "Universal"
+    ],
+    "slideNumbers": [
+      17
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Bayer1925 alphabet project; not a ready digital family. Do not synthesize Tipografia.",
+    "specimen": "/images/tipografia/4368-44804-ee7b2b179330.svg",
+    "specimenNodeId": "4368:44804",
+    "caption": "Progetto di alfabeto Universal, Herbert Bayer, 1925. Documento originale.",
+    "sourceLinks": [],
+    "slug": "universal"
+  },
+  {
+    "name": "Futura",
+    "aliases": [
+      "Futura"
+    ],
+    "slideNumbers": [
+      17,
+      43,
+      58,
+      61,
+      62
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Futura.ttc",
+    "style": "Medium",
+    "note": null,
+    "specimen": "/images/tipografia/4522-35706-251fc549ac6b.svg",
+    "specimenNodeId": "4522:35706",
+    "sourceLinks": [
+      "https://www.monotype.com/sites/default/files/styles/width_810/public/2020-10/Futura_specimen_1.webp?itok=7gDsqU5B",
+      "https://www.monotype.com/sites/default/files/styles/width_810/public/2020-10/Futura_specimencover_0.webp?itok=aNC-Ylge"
+    ],
+    "binaryExists": true,
+    "slug": "futura"
+  },
+  {
+    "name": "Helvetica",
+    "aliases": [
+      "Helvetica"
+    ],
+    "slideNumbers": [
+      19,
+      43,
+      61,
+      63,
+      71,
+      81,
+      86
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Helvetica.ttc",
+    "style": "Regular",
+    "note": "Avoid matching within Helvetica Neue or Helvetica Now; not those versions.",
+    "specimen": "/images/tipografia/4370-44222-6f16b17f3b76.svg",
+    "specimenNodeId": "4370:44222",
+    "sourceLinks": [
+      "https://www.monotype.com/resources/expertise/will-real-futura-please-stand",
+      "https://www.monotype.com/sites/default/files/styles/width_810/public/2019-10/mt_images-article_helvetica_bodyimage2_1540x1032_0.webp?itok=6TD_fg01"
+    ],
+    "binaryExists": true,
+    "slug": "helvetica"
+  },
+  {
+    "name": "Chicago",
+    "aliases": [
+      "Chicago"
+    ],
+    "slideNumbers": [
+      20,
+      63,
+      76
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Bitmap documentary sample. Slide76 title Chicago is Philippe Apeloig work, not the font; do not annotate that occurrence.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/macintosh-fonts-cornell-tech-2016-p11.png",
+    "slug": "chicago",
+    "caption": "Campione bitmap Macintosh di Susan Kare, riproduzione documentaria."
+  },
+  {
+    "name": "Lo-Res",
+    "aliases": [
+      "Lo-Res"
+    ],
+    "slideNumbers": [
+      20
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Current Emigre specimen of family grouping2001; not a1985 screen capture.",
+    "specimen": "/images/tipografia/4368-45004-fc5c8278364a.svg",
+    "specimenNodeId": "4368:45004",
+    "caption": "Specimen attuale Emigre dei progetti di Zuzana Licko, riuniti nella famiglia Lo-Res.",
+    "sourceLinks": [],
+    "slug": "lo-res"
+  },
+  {
+    "name": "Roboto Serif",
+    "aliases": [
+      "Roboto Serif"
+    ],
+    "slideNumbers": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      33,
+      35,
+      46,
+      51,
+      93
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/font-previews/downloads/robotoserif/RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+    "style": "Regular",
+    "note": "Fonte ufficiale Google Fonts, SIL OFL 1.1, originale e avvisi conservati.",
+    "specimen": "/images/tipografia/4522-36019-7087c5b9e2cf.svg",
+    "specimenNodeId": "4522:36019",
+    "sourceLinks": [],
+    "slug": "roboto-serif"
+  },
+  {
+    "name": "EB Garamond",
+    "aliases": [
+      "EB Garamond"
+    ],
+    "slideNumbers": [
+      28,
+      33,
+      34,
+      35,
+      40,
+      48,
+      50,
+      81,
+      86
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/early/originali/EBGaramond[wght].ttf",
+    "style": "Regular wght400",
+    "note": "Italic exact binary alongside Regular: EBGaramond-Italic[wght].ttf. Avoid matching Garamond inside EB Garamond twice.",
+    "binaryExists": true,
+    "slug": "eb-garamond"
+  },
+  {
+    "name": "Work Sans",
+    "aliases": [
+      "Work Sans"
+    ],
+    "slideNumbers": [
+      28,
+      30,
+      43,
+      45,
+      48,
+      49
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-variabile/WorkSansVF.ttf",
+    "style": "Regular wght400",
+    "note": null,
+    "binaryExists": true,
+    "slug": "work-sans"
+  },
+  {
+    "name": "Garamond",
+    "aliases": [
+      "Garamond"
+    ],
+    "slideNumbers": [
+      28,
+      29,
+      33,
+      34,
+      35,
+      40,
+      48,
+      50,
+      81,
+      86
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/early/originali/EBGaramond[wght].ttf",
+    "style": "Regular",
+    "note": "Slide29 explicitly says unspecified Garamond name insufficient; label EB Garamond interpretation rather than silently equating it.",
+    "specimen": "assets/booklet/tipografia-campioni-uniformi/early/eb-garamond-regular.svg",
+    "slug": "garamond",
+    "caption": "EB Garamond Regular: una specifica interpretazione digitale del modello Garamond."
+  },
+  {
+    "name": "New Alphabet",
+    "aliases": [
+      "New Alphabet"
+    ],
+    "slideNumbers": [
+      32
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": null,
+    "specimen": "/images/tipografia/4522-35649-a0cf7b1c55ba.svg",
+    "specimenNodeId": "4522:35649",
+    "caption": "New Alphabet, Wim Crouwel, 1967. Specimen The Foundry Types.",
+    "sourceLinks": [
+      "https://cms.myfonts.com/sites/default/files/2023-10/Neue-Swift-Font-Field-Guide.pdf",
+      "https://www.thefoundrytypes.com/fonts/new-alphabet/"
+    ],
+    "slug": "new-alphabet"
+  },
+  {
+    "name": "Swift",
+    "aliases": [
+      "Swift"
+    ],
+    "slideNumbers": [
+      32
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Exact Swift current digital poster Quality; distinct from NeueSwift2023. Word Tipografia unavailable from original binary.",
+    "specimen": "assets/booklet/tipografia-campioni-uniformi/documenti/swift-lt-poster03-dettaglio.svg",
+    "slug": "swift",
+    "caption": "«Quality»: campione digitale attuale Swift, Gerard Unger / Linotype. Distinto da Neue Swift."
+  },
+  {
+    "name": "Neue Swift",
+    "aliases": [
+      "Neue Swift"
+    ],
+    "slideNumbers": [
+      32
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Documentary Typography word exists in official2023guide; distinct Swift.",
+    "specimen": "/images/tipografia/4522-35655-8665f5b9558d.svg",
+    "specimenNodeId": "4522:35655",
+    "caption": "«Typography»: dettaglio della guida Neue Swift, Monotype, 2023.",
+    "sourceLinks": [
+      "https://cms.myfonts.com/sites/default/files/2023-10/Neue-Swift-Font-Field-Guide.pdf",
+      "https://www.thefoundrytypes.com/fonts/new-alphabet/"
+    ],
+    "slug": "neue-swift"
+  },
+  {
+    "name": "Noto",
+    "aliases": [
+      "Noto"
+    ],
+    "slideNumbers": [
+      36,
+      85
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/font-previews/downloads/notosans/NotoSans[wdth,wght].ttf",
+    "style": "Regular",
+    "note": "Umbrella family group, not one exact font; use NotoSans preview with explicit qualification if marker necessary.",
+    "specimen": "/images/tipografia/4522-36756-f4c9ccd35c71.svg",
+    "specimenNodeId": "4522:36756",
+    "caption": "Noto Sans Regular: un esempio della famiglia di progetti Noto.",
+    "sourceLinks": [],
+    "slug": "noto"
+  },
+  {
+    "name": "Noto Sans",
+    "aliases": [
+      "Noto Sans"
+    ],
+    "slideNumbers": [
+      36,
+      85
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/font-previews/downloads/notosans/NotoSans[wdth,wght].ttf",
+    "style": "Regular",
+    "note": "Fonte ufficiale Google Fonts, SIL OFL 1.1, originale e avvisi conservati.",
+    "specimen": "/images/tipografia/4527-8503-1f92ed0a971b.svg",
+    "specimenNodeId": "4527:8503",
+    "sourceLinks": [
+      "https://learn.microsoft.com/en-us/typography/font-list/comic-sans-ms"
+    ],
+    "slug": "noto-sans"
+  },
+  {
+    "name": "Noto Sans Arabic",
+    "aliases": [
+      "Noto Sans Arabic"
+    ],
+    "slideNumbers": [
+      36
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Arabic-only face may not contain Latin Tipografia. Show the authentic Arabic specimen; do not substitute NotoSansLatin.",
+    "specimen": "/images/tipografia/4522-36756-f4c9ccd35c71.svg",
+    "specimenNodeId": "4522:36756",
+    "caption": "Campione autentico di Noto Sans Arabic. La scrittura araba mantiene il proprio repertorio.",
+    "sourceLinks": [],
+    "slug": "noto-sans-arabic"
+  },
+  {
+    "name": "Libre Baskerville",
+    "aliases": [
+      "Libre Baskerville"
+    ],
+    "slideNumbers": [
+      40
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/font-previews/downloads/librebaskerville/LibreBaskerville[wght].ttf",
+    "style": "Regular",
+    "note": "Fonte ufficiale Google Fonts, SIL OFL 1.1, originale e avvisi conservati.",
+    "specimen": "/images/tipografia/4369-45409-5fafed9a8a86.svg",
+    "specimenNodeId": "4369:45409",
+    "sourceLinks": [],
+    "slug": "libre-baskerville"
+  },
+  {
+    "name": "Bodoni Moda",
+    "aliases": [
+      "Bodoni Moda"
+    ],
+    "slideNumbers": [
+      40,
+      45,
+      48
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/font-previews/downloads/bodonimoda/BodoniModa[opsz,wght].ttf",
+    "style": "Regular",
+    "note": "Fonte ufficiale Google Fonts, SIL OFL 1.1, originale e avvisi conservati.",
+    "specimen": "/images/tipografia/4369-45409-5fafed9a8a86.svg",
+    "specimenNodeId": "4369:45409",
+    "sourceLinks": [],
+    "slug": "bodoni-moda"
+  },
+  {
+    "name": "Bitter",
+    "aliases": [
+      "Bitter"
+    ],
+    "slideNumbers": [
+      40
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/font-previews/downloads/bitter/Bitter[wght].ttf",
+    "style": "Regular",
+    "note": "Fonte ufficiale Google Fonts, SIL OFL 1.1, originale e avvisi conservati.",
+    "specimen": "/images/tipografia/4369-45409-5fafed9a8a86.svg",
+    "specimenNodeId": "4369:45409",
+    "sourceLinks": [],
+    "slug": "bitter"
+  },
+  {
+    "name": "Times New Roman",
+    "aliases": [
+      "Times New Roman",
+      "Times"
+    ],
+    "slideNumbers": [
+      41
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+    "style": "Regular",
+    "note": "Times in slide41 also newspaper name; only mark explicit familyname.",
+    "binaryExists": true,
+    "slug": "times-new-roman"
+  },
+  {
+    "name": "Georgia",
+    "aliases": [
+      "Georgia"
+    ],
+    "slideNumbers": [
+      41
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Georgia.ttf",
+    "style": "Regular",
+    "note": null,
+    "binaryExists": true,
+    "slug": "georgia"
+  },
+  {
+    "name": "Franklin Gothic",
+    "aliases": [
+      "Franklin Gothic"
+    ],
+    "slideNumbers": [
+      43
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Documentary official Book specimen; not installed.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/franklin-gothic-book-microsoft.png",
+    "slug": "franklin-gothic",
+    "caption": "Franklin Gothic Book: campione ufficiale ITC / Microsoft."
+  },
+  {
+    "name": "Johnston",
+    "aliases": [
+      "Johnston"
+    ],
+    "slideNumbers": [
+      43
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Historical TfLproof, not modernNewJohnston digitalface.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/johnston-proof-sheet-tfl.jpg",
+    "slug": "johnston",
+    "caption": "Johnston Sans: dettaglio di una prova originale, Transport for London."
+  },
+  {
+    "name": "Gill Sans",
+    "aliases": [
+      "Gill Sans"
+    ],
+    "slideNumbers": [
+      43
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/GillSans.ttc",
+    "style": "Regular",
+    "note": null,
+    "binaryExists": true,
+    "slug": "gill-sans"
+  },
+  {
+    "name": "Verdana",
+    "aliases": [
+      "Verdana"
+    ],
+    "slideNumbers": [
+      43,
+      62
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Verdana.ttf",
+    "style": "Regular",
+    "note": null,
+    "binaryExists": true,
+    "slug": "verdana"
+  },
+  {
+    "name": "Alegreya Sans",
+    "aliases": [
+      "Alegreya Sans"
+    ],
+    "slideNumbers": [
+      43,
+      49
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/middle/originali/AlegreyaSans-Regular.ttf",
+    "style": "Regular",
+    "note": null,
+    "binaryExists": true,
+    "slug": "alegreya-sans"
+  },
+  {
+    "name": "Quicksand",
+    "aliases": [
+      "Quicksand"
+    ],
+    "slideNumbers": [
+      43,
+      49
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/middle/originali/Quicksand-VF.ttf",
+    "style": "Regular wght400",
+    "note": null,
+    "binaryExists": true,
+    "slug": "quicksand"
+  },
+  {
+    "name": "Pacifico",
+    "aliases": [
+      "Pacifico"
+    ],
+    "slideNumbers": [
+      44
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/early/originali/Pacifico-Regular.ttf",
+    "style": "Regular",
+    "note": "Script must use actual shaping to preserve contextual joins.",
+    "binaryExists": true,
+    "slug": "pacifico"
+  },
+  {
+    "name": "UnifrakturMaguntia",
+    "aliases": [
+      "UnifrakturMaguntia"
+    ],
+    "slideNumbers": [
+      44
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/classificazioni/originali/UnifrakturMaguntia-Book.ttf",
+    "style": "Book",
+    "note": null,
+    "binaryExists": true,
+    "slug": "unifrakturmaguntia"
+  },
+  {
+    "name": "Liberation Mono",
+    "aliases": [
+      "Liberation Mono"
+    ],
+    "slideNumbers": [
+      45
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "OFL realactiveoutline; check compatible installedLinuxLibreOffice copy or official source before generatingTipografia.",
+    "specimen": "/images/tipografia/4526-35526-f7a44057db9e.svg",
+    "specimenNodeId": "4526:35526",
+    "caption": "Liberation Mono: campione autentico a spaziatura fissa nel confronto didattico.",
+    "sourceLinks": [],
+    "slug": "liberation-mono"
+  },
+  {
+    "name": "Spencerian",
+    "aliases": [
+      "Spencerian"
+    ],
+    "slideNumbers": [
+      56
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Script tradition. Historical Spencerian Script1885metaltype is distinct CocaColalettering; do not claim CocaColafont.",
+    "specimen": "assets/booklet/tipografia-campioni-uniformi/documenti/spencerian-msj1885-p54-dettaglio.svg",
+    "slug": "spencerian",
+    "caption": "Spencerian Script: campionario di tipi del 1885, distinto dal lettering Coca-Cola."
+  },
+  {
+    "name": "Eurostile",
+    "aliases": [
+      "Eurostile"
+    ],
+    "slideNumbers": [
+      58
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": null,
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/eurostile-campionario-nebiolo.png",
+    "slug": "eurostile",
+    "caption": "Eurostile: campionario originale Fonderie Nebiolo / Archivio Tipografico."
+  },
+  {
+    "name": "Roissy",
+    "aliases": [
+      "Roissy"
+    ],
+    "slideNumbers": [
+      60
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "1970–1972prototype; do not substitute retailFrutiger.",
+    "specimen": "/images/tipografia/4370-44029-2b43fb4cc27a.svg",
+    "specimenNodeId": "4370:44029",
+    "caption": "«Douane»: tre prove del prototipo Roissy, Atelier Frutiger + Pfäffli, 1970–1972.",
+    "sourceLinks": [],
+    "slug": "roissy"
+  },
+  {
+    "name": "Frutiger",
+    "aliases": [
+      "Frutiger"
+    ],
+    "slideNumbers": [
+      60
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Frutiger in slide60 currently personalname/Atelier credit; do not annotate author as font. Retail specimen Fru distinct Roissyprototype.",
+    "specimen": "assets/booklet/tipografia-campioni-uniformi/documenti/frutiger-lt-poster01-dettaglio-compatto.svg",
+    "slug": "frutiger",
+    "caption": "«Fru»: campione digitale attuale Frutiger LT, Linotype. Distinto dal prototipo Roissy."
+  },
+  {
+    "name": "Helvetica Now",
+    "aliases": [
+      "Helvetica Now"
+    ],
+    "slideNumbers": [
+      61
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Monotype current version distinct originalHelvetica and HelveticaNeue.",
+    "specimen": "/images/tipografia/4370-44212-d3cfbaba11cb.svg",
+    "specimenNodeId": "4370:44212",
+    "caption": "Helvetica Now: specimen Monotype, distinto da Helvetica e Helvetica Neue.",
+    "sourceLinks": [
+      "https://www.monotype.com/resources/expertise/will-real-futura-please-stand",
+      "https://www.monotype.com/sites/default/files/styles/width_810/public/2019-10/mt_images-article_helvetica_bodyimage2_1540x1032_0.webp?itok=6TD_fg01"
+    ],
+    "slug": "helvetica-now"
+  },
+  {
+    "name": "Geneva",
+    "aliases": [
+      "Geneva"
+    ],
+    "slideNumbers": [
+      63
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Geneva.ttf",
+    "style": "Regular",
+    "note": "Current macOSoutline is distinct historicalbitmap in slide63; label exactversion.",
+    "binaryExists": true,
+    "slug": "geneva",
+    "caption": "Geneva Regular: versione a contorni, distinta dal bitmap Macintosh originale."
+  },
+  {
+    "name": "Monaco",
+    "aliases": [
+      "Monaco"
+    ],
+    "slideNumbers": [
+      63
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Monaco.ttf",
+    "style": "Regular",
+    "note": "Current macOSoutline is distinct historicalbitmap in slide63; label exactversion.",
+    "binaryExists": true,
+    "slug": "monaco",
+    "caption": "Monaco Regular: versione a contorni, distinta dal bitmap Macintosh originale."
+  },
+  {
+    "name": "Lucida Grande",
+    "aliases": [
+      "Lucida Grande"
+    ],
+    "slideNumbers": [
+      63
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/LucidaGrande.ttc",
+    "style": "Regular",
+    "note": null,
+    "binaryExists": true,
+    "slug": "lucida-grande"
+  },
+  {
+    "name": "Helvetica Neue",
+    "aliases": [
+      "Helvetica Neue"
+    ],
+    "slideNumbers": [
+      63
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/HelveticaNeue.ttc",
+    "style": "Regular",
+    "note": null,
+    "binaryExists": true,
+    "slug": "helvetica-neue"
+  },
+  {
+    "name": "San Francisco",
+    "aliases": [
+      "San Francisco"
+    ],
+    "slideNumbers": [
+      45,
+      63
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Systemfont binaries present SFNS/SFCompact/SFNSMono but Applelicense scope and aliases are not identical retailPro. Prefer officialdocumentaryframe. Avoid matching Mono inside LiberationMono or in code.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/san-francisco-wwdc22-110381-01m36s.png",
+    "slug": "san-francisco",
+    "caption": "San Francisco: campione ufficiale Apple con pesi, larghezze e scritture differenti."
+  },
+  {
+    "name": "Roboto",
+    "aliases": [
+      "Roboto"
+    ],
+    "slideNumbers": [
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      33,
+      35,
+      46,
+      51,
+      63,
+      93
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/middle/originali/Roboto-VF.ttf",
+    "style": "Regular wght400",
+    "note": "Avoid substring match inside RobotoSerif.",
+    "binaryExists": true,
+    "slug": "roboto"
+  },
+  {
+    "name": "Airbnb Cereal",
+    "aliases": [
+      "Airbnb Cereal",
+      "Cereal"
+    ],
+    "slideNumbers": [
+      64
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Commercial brand font; actual specimen, no substituteface.",
+    "specimen": "/images/tipografia/4527-8606-e59093a8af77.svg",
+    "specimenNodeId": "4527:8606",
+    "caption": "Specimen di sviluppo Airbnb Cereal, Airbnb Design / Dalton Maag.",
+    "sourceLinks": [
+      "https://medium.com/airbnb-design/working-type-81294544608b",
+      "https://www.noahnathan.com/netflix-sans"
+    ],
+    "slug": "airbnb-cereal"
+  },
+  {
+    "name": "BBC Reith",
+    "aliases": [
+      "BBC Reith",
+      "Reith"
+    ],
+    "slideNumbers": [
+      64
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Multiple family design; actual annotatedproof.",
+    "specimen": "/images/tipografia/4396-8739-b1b17ae4cc63.svg",
+    "specimenNodeId": "4396:8739",
+    "caption": "BBC Reith: prova con correzioni di progetto, Dalton Maag per BBC.",
+    "sourceLinks": [
+      "https://www.daltonmaag.com/img/4k/eb455cf06f/BBC-Reith-Development-2.jpg",
+      "https://www.daltonmaag.com/img/scalable/7dde59a67a/BBC-Reith-Font-Styles-Showcase-Card.svg",
+      "https://www.daltonmaag.com/img/scalable/b401e337eb/BBC-Reith-Sans-Anatomy.svg"
+    ],
+    "slug": "bbc-reith"
+  },
+  {
+    "name": "Netflix Sans",
+    "aliases": [
+      "Netflix Sans"
+    ],
+    "slideNumbers": [
+      64
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": null,
+    "specimen": "/images/tipografia/4527-8616-d663eac106d5.svg",
+    "specimenNodeId": "4527:8616",
+    "caption": "Netflix Sans: specimen di progetto, Noah Nathan / Netflix con Dalton Maag.",
+    "sourceLinks": [
+      "https://medium.com/airbnb-design/working-type-81294544608b",
+      "https://www.noahnathan.com/netflix-sans"
+    ],
+    "slug": "netflix-sans"
+  },
+  {
+    "name": "Feather Bold",
+    "aliases": [
+      "Feather Bold",
+      "Feather"
+    ],
+    "slideNumbers": [
+      65
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": null,
+    "specimen": "/images/tipografia/4370-44741-5d2296c949f8.svg",
+    "specimenNodeId": "4370:44741",
+    "caption": "Feather Bold: campione originale di Johnson Banks, Beth Johnson e Fontsmith per Duolingo.",
+    "sourceLinks": [
+      "https://images.squarespace-cdn.com/content/v1/59f3a3398a02c7a1de13a09e/1568582682001-UUPCJ2Z5VE6CDOTUSPKT/Duolingo_typography1.jpg",
+      "https://images.squarespace-cdn.com/content/v1/59f3a3398a02c7a1de13a09e/1568584379177-8Q1KF2327IYCMFE07CFQ/Feather+Bold.+Typography"
+    ],
+    "slug": "feather-bold"
+  },
+  {
+    "name": "DIN Next Rounded",
+    "aliases": [
+      "DIN Next Rounded"
+    ],
+    "slideNumbers": [
+      65
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": null,
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/din-next-rounded-monotype.png",
+    "slug": "din-next-rounded",
+    "caption": "DIN Next Rounded: specimen ufficiale Monotype, Akira Kobayashi e Sandra Winter."
+  },
+  {
+    "name": "Product Sans",
+    "aliases": [
+      "Product Sans"
+    ],
+    "slideNumbers": [
+      66,
+      87
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Official2015Maps alternate sample; do notequate logotype.",
+    "specimen": "/images/tipografia/4433-8204-cc49799f7403.svg",
+    "specimenNodeId": "4433:8204",
+    "caption": "«Maps»: le due forme della a nello specimen ufficiale Product Sans, Google, 2015.",
+    "sourceLinks": [
+      "https://design.google/library/evolving-google-identity",
+      "https://www.davidcarsondesign.com/t/tag/raygun/"
+    ],
+    "slug": "product-sans"
+  },
+  {
+    "name": "ITC Benguiat",
+    "aliases": [
+      "ITC Benguiat"
+    ],
+    "slideNumbers": [
+      73
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "StrangerThings title is treatedcontourwork; actualfont specimen should be sourced when needed. Do not call outlined transformedtitle Tipografia sample.",
+    "specimen": "/images/tipografia/4370-45386-b2225ba72bd5.svg",
+    "specimenNodeId": "4370:45386",
+    "caption": "ITC Benguiat nei titoli di Stranger Things: lettering trasformato da Imaginary Forces, distinto dal font composto.",
+    "sourceLinks": [
+      "https://a-g-i.s3.eu-west-3.amazonaws.com/saulbass/bass-north2.jpg",
+      "https://imaginaryforces.com/images/pics/757_y6fpK6_stranger_things_8.jpg"
+    ],
+    "slug": "itc-benguiat"
+  },
+  {
+    "name": "Montecatini Pro",
+    "aliases": [
+      "Montecatini Pro"
+    ],
+    "slideNumbers": [
+      77
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": null,
+    "specimen": "/images/tipografia/4370-45699-7bd66d7c3719.svg",
+    "specimenNodeId": "4370:45699",
+    "caption": "Montecatini Pro: specimen ufficiale TipoFili con il raccordo CA.",
+    "sourceLinks": [],
+    "slug": "montecatini-pro"
+  },
+  {
+    "name": "Gotham",
+    "aliases": [
+      "Gotham Bold",
+      "Gotham"
+    ],
+    "slideNumbers": [
+      82
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Commercial family Bold election usage; actual campaignletters notgeneric substitute.",
+    "specimen": "/images/tipografia/4370-46129-3ddefeb2a48b.svg",
+    "specimenNodeId": "4370:46129",
+    "caption": "Gotham nella campagna Obama: fotografia Associated Press, archivio Jonathan Hoefler.",
+    "sourceLinks": [
+      "https://images.squarespace-cdn.com/content/v1/626c10ed20dff048ffa8845e/58f9b0df-ff5f-4c91-8038-0f7da0938d3f/AP_071106035075_lightened.jpg",
+      "https://images.squarespace-cdn.com/content/v1/626c10ed20dff048ffa8845e/9a46cd48-7136-48ee-bccd-f37846fab121/gotham-political-logos.jpg"
+    ],
+    "slug": "gotham"
+  },
+  {
+    "name": "Comic Sans MS",
+    "aliases": [
+      "Comic Sans MS",
+      "Comic Sans"
+    ],
+    "slideNumbers": [
+      85,
+      86
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Comic Sans MS.ttf",
+    "style": "Regular",
+    "note": null,
+    "binaryExists": true,
+    "slug": "comic-sans-ms"
+  },
+  {
+    "name": "Dyslexie",
+    "aliases": [
+      "Dyslexie"
+    ],
+    "slideNumbers": [
+      95
+    ],
+    "mode": "documentary",
+    "binaryPath": null,
+    "style": null,
+    "note": "Officialdocumentarydetail; currentexample is not study stimulus.",
+    "specimen": "assets/booklet/tipografia-campioni-locali/fonti-accessibilita-e-script/dyslexie-pluto-detail.png",
+    "slug": "dyslexie",
+    "caption": "Dettaglio da un documento ufficiale Dyslexie; esempio attuale, distinto dagli stimoli degli studi."
+  },
+  {
+    "name": "OpenDyslexic",
+    "aliases": [
+      "OpenDyslexic"
+    ],
+    "slideNumbers": [
+      95
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-locali/fonti-accessibilita-e-script/OpenDyslexic-Regular.otf",
+    "style": "Regular",
+    "note": "Preserved OFL atsamefolder; currentversion notstudystimulus.",
+    "binaryExists": true,
+    "slug": "opendyslexic"
+  },
+  {
+    "slug": "eb-garamond-italic",
+    "name": "EB Garamond Italic",
+    "aliases": [
+      "EB Garamond Italic"
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/early/originali/EBGaramond-Italic[wght].ttf",
+    "style": "Italic",
+    "note": "Corsivo originale; wght400."
+  },
+  {
+    "slug": "arial",
+    "name": "Arial",
+    "aliases": [
+      "Arial"
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Arial.ttf",
+    "style": "Regular"
+  },
+  {
+    "slug": "impact",
+    "name": "Impact",
+    "aliases": [
+      "Impact"
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Impact.ttf",
+    "style": "Regular"
+  },
+  {
+    "slug": "brush-script-mt",
+    "name": "Brush Script MT",
+    "aliases": [
+      "Brush Script MT"
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Brush Script.ttf",
+    "style": "Italic"
+  },
+  {
+    "slug": "rockwell",
+    "name": "Rockwell",
+    "aliases": [
+      "Rockwell"
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Rockwell.ttc",
+    "style": "Regular"
+  },
+  {
+    "slug": "copperplate",
+    "name": "Copperplate",
+    "aliases": [
+      "Copperplate"
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Copperplate.ttc",
+    "style": "Regular"
+  },
+  {
+    "slug": "bradley-hand",
+    "name": "Bradley Hand",
+    "aliases": [
+      "Bradley Hand"
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Bradley Hand Bold.ttf",
+    "style": "Bold"
+  },
+  {
+    "slug": "academy-engraved-let",
+    "name": "Academy Engraved LET",
+    "aliases": [
+      "Academy Engraved LET"
+    ],
+    "mode": "outline",
+    "binaryPath": "/System/Library/Fonts/Supplemental/Academy Engraved LET Fonts.ttf",
+    "style": "Plain"
+  },
+  {
+    "slug": "great-vibes",
+    "name": "Great Vibes",
+    "aliases": [
+      "Great Vibes"
+    ],
+    "mode": "outline",
+    "binaryPath": "assets/booklet/tipografia-campioni-uniformi/early/originali/GreatVibes-Regular.ttf",
+    "style": "Regular"
+  },
+  {
+    "slug": "sf-pro",
+    "name": "SF Pro",
+    "aliases": [
+      "SF Pro"
+    ],
+    "mode": "documentary",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/san-francisco-wwdc22-110381-01m36s.png",
+    "note": "Fotogramma ufficiale Apple WWDC22 della famiglia San Francisco. Il font non viene ricreato né sostituito.",
+    "caption": "SF Pro nella famiglia San Francisco: fotogramma ufficiale Apple WWDC22."
+  },
+  {
+    "slug": "sf-compact",
+    "name": "SF Compact",
+    "aliases": [
+      "SF Compact",
+      "Compact"
+    ],
+    "mode": "documentary",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/san-francisco-wwdc22-110381-01m36s.png",
+    "note": "Fotogramma ufficiale Apple WWDC22 della famiglia San Francisco. Il font non viene ricreato né sostituito.",
+    "caption": "SF Compact nella famiglia San Francisco: fotogramma ufficiale Apple WWDC22."
+  },
+  {
+    "slug": "sf-mono",
+    "name": "SF Mono",
+    "aliases": [
+      "SF Mono",
+      "Mono"
+    ],
+    "mode": "documentary",
+    "specimen": "assets/booklet/tipografia-campioni-locali/originali/san-francisco-wwdc22-110381-01m36s.png",
+    "note": "Fotogramma ufficiale Apple WWDC22 della famiglia San Francisco. Il font non viene ricreato né sostituito.",
+    "caption": "SF Mono nella famiglia San Francisco: fotogramma ufficiale Apple WWDC22."
+  },
+  {
+    "slug": "jenson",
+    "name": "Jenson",
+    "aliases": [
+      "Jenson"
+    ],
+    "slideNumbers": [
+      16
+    ],
+    "mode": "documentary",
+    "specimen": "assets/booklet/lezione-08-tipografia/retainedSources/4379-8675-image-1.jpg",
+    "specimenNodeId": "4379:8675",
+    "caption": "Romano di Nicolas Jenson nell’Eusebio, Venezia, 1470: modello storico, non un font digitale. Foto Atalanta/WeiaR, 2008; Wikimedia Commons, CC BY-SA 4.0.",
+    "sourceLinks": [
+      "https://commons.wikimedia.org/wiki/File:JensonEusebius.jpg"
+    ],
+    "note": "Jenson da solo nella slide Morris rinvia al disegno storico. Nicolas Jenson resta un nome di persona; evitare di identificarlo con Adobe Jenson o un altro revival."
+  },
+  {
+    "slug": "fraktur",
+    "name": "Fraktur",
+    "aliases": [
+      "Fraktur"
+    ],
+    "slideNumbers": [
+      19
+    ],
+    "mode": "documentary",
+    "specimen": "assets/booklet/lezione-08-tipografia/retainedSources/4368-44899-image-1.jpg",
+    "specimenNodeId": "4368:44899",
+    "cropPixels": [
+      27,
+      40,
+      320,
+      102
+    ],
+    "caption": "Fraktur è un repertorio di scritture spezzate, non una singola famiglia. Dettaglio dell’intestazione della circolare nazista del 3 gennaio 1941; Wikimedia Commons, documento ufficiale in pubblico dominio.",
+    "sourceLinks": [
+      "https://commons.wikimedia.org/wiki/File:Schrifterlass_Antiqua1941.jpg"
+    ],
+    "note": "Campione documentario del repertorio discusso. Il ritaglio non sostituisce l’originale integrale e conserva la sua esplicita attribuzione storica."
+  },
+  {
+    "slug": "antiqua",
+    "name": "Antiqua",
+    "aliases": [
+      "Antiqua"
+    ],
+    "slideNumbers": [
+      19
+    ],
+    "mode": "documentary",
+    "specimen": "assets/booklet/lezione-08-tipografia/retainedSources/4368-44899-image-1.jpg",
+    "specimenNodeId": "4368:44899",
+    "cropPixels": [
+      88,
+      489,
+      715,
+      543
+    ],
+    "caption": "Antiqua indica un repertorio di forme latine non spezzate, non una singola famiglia. Righe dattiloscritte della circolare nazista del 3 gennaio 1941; Wikimedia Commons, documento ufficiale in pubblico dominio.",
+    "sourceLinks": [
+      "https://commons.wikimedia.org/wiki/File:Schrifterlass_Antiqua1941.jpg"
+    ],
+    "note": "Il campione documentario mostra il testo dattiloscritto presente nel documento, senza attribuirgli un nome di font non verificato."
+  },
+  {
+    "slug": "wood-type-117",
+    "name": "No.117",
+    "aliases": [
+      "No.117",
+      "No. 117"
+    ],
+    "slideNumbers": [
+      13
+    ],
+    "mode": "documentary",
+    "specimen": "assets/booklet/lezione-08-tipografia/retainedSources/4368-44593-image-1.jpg",
+    "specimenNodeId": "4368:44593",
+    "caption": "Tipi di legno No.117: fotografia della prova di stampa conservata nella Rob Roy Kelly American Wood Type Collection, University of Texas at Austin. Documento autentico, distinto dall’illustrazione dei blocchi.",
+    "note": "Usa esclusivamente la fotografia documentaria del campionario. Non usare l’illustrazione3D 4618:36339 come originale né ricreare il disegno con una famiglia sostitutiva."
+  }
+]

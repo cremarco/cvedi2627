@@ -1,0 +1,5 @@
+/* Keep Slidev's presenter grid within the viewport even when the controls
+   contribute a large min-content width in a long presentation. */
+.slidev-presenter {
+  grid-template-columns: minmax(0, 1fr);
+}

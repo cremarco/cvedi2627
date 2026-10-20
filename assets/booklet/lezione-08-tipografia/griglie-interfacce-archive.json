@@ -1,0 +1,541 @@
+{
+  "active": false,
+  "reason": "La lezione 08 è dedicata esclusivamente alla tipografia; griglie e interfacce sono escluse dal percorso attivo su richiesta dell’utente.",
+  "source": {
+    "snapshot": "assets/booklet/capitolo-3/testo-figma-aggiornato.json",
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC"
+  },
+  "sourceFile": "lezioni/07-tipografia-griglie.md",
+  "slides": [
+    {
+      "originalSlide": 114,
+      "title": "Griglie e composizione",
+      "alias": "tipografia-griglie-sezione-griglie",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide chapter-slide section-divider\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 114\nlessonMinutes: 0\nrouteAlias: tipografia-griglie-sezione-griglie\nsectionDivider: true\nsectionNumber: 9\nbookletPages: [183, 184]\n---\n\n# Griglie e composizione\n\nOrganizzare lo spazio in relazione ai contenuti.\n\n<ChapterMetro section=\"ux-type\" />\n\n<!--\nDopo il sistema tipografico consideriamo lo spazio che lo accoglie. La griglia mette in relazione testi, immagini e azioni, conservando una struttura riconoscibile.\n-->\n"
+    },
+    {
+      "originalSlide": 115,
+      "title": "Anatomia della griglia",
+      "alias": "tipografia-griglie-27",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 115\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-27\nbookletPages: [183, 184]\nbookletAssets: [\"c03-184-01\"]\n---\n\n# Anatomia della griglia\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Colonne, righe, moduli, gutter e margini organizzano le relazioni nello spazio.</p><ul class=\"cvedi-list\"><li><span>La griglia rende riconoscibile la struttura senza imporre un’unica composizione.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-184-01.webp\" alt=\"Anatomia della griglia: colonne, righe, margini e moduli.\" caption=\"Anatomia della griglia: colonne, righe, margini e moduli.\" /></div>\n\n<!--\nLa griglia divide lo spazio e rende leggibili le relazioni. Le colonne sono fasce verticali e le righe sono fasce orizzontali. Il loro incrocio forma i moduli. I gutter sono gli intervalli fra colonne o moduli; i margini separano il contenuto dai bordi. Questi elementi collaborano: la scelta dipende dal formato, dai contenuti e dagli obiettivi. Una stessa struttura può sostenere composizioni diverse, mantenendo riconoscibili allineamenti, differenze e gruppi di informazioni.\n-->\n"
+    },
+    {
+      "originalSlide": 116,
+      "title": "La griglia editoriale",
+      "alias": "tipografia-griglie-28",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 116\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-28\nbookletPages: [185]\nbookletAssets: [\"c03-185-01\"]\n---\n\n# La griglia editoriale\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">La pagina stampata ha formato, orientamento e dimensioni fisiche definiti.</p><ul class=\"cvedi-list\"><li><span>La struttura coordina testi, immagini e paratesti nella doppia pagina.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-185-01.webp\" alt=\"Una griglia editoriale applicata a una doppia pagina.\" caption=\"Una griglia editoriale applicata a una doppia pagina.\" /></div>\n\n<!--\nNella pagina stampata conosciamo formato, orientamento e dimensioni fisiche. Questo permette di lavorare su una condizione definita e di coordinare le due pagine affiancate. La griglia mette in relazione testi, immagini e paratesti, come titoli e didascalie. La struttura può restare riconoscibile anche quando gli elementi occupano aree differenti. Nell’esempio possiamo seguire gli allineamenti fra le parti e osservare come contribuiscono all’ordine della doppia pagina.\n-->\n"
+    },
+    {
+      "originalSlide": 117,
+      "title": "La griglia nel web",
+      "alias": "tipografia-griglie-29",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 117\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-29\nbookletPages: [186]\nbookletAssets: [\"c03-186-01\"]\n---\n\n# La griglia nel web\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Il layout digitale deve rispondere a viewport con dimensioni e proporzioni diverse.</p><ul class=\"cvedi-list\"><li><span>Misure assolute e relative possono collaborare.</span></li><li><span>Un pixel CSS non coincide necessariamente con un pixel fisico dello schermo.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-186-01.webp\" alt=\"Griglie adattabili a schermi e formati diversi.\" caption=\"Griglie adattabili a schermi e formati diversi.\" /></div>\n\n<!--\nNel web lo spazio disponibile cambia con la finestra e il dispositivo. La griglia deve rispondere a dimensioni e proporzioni diverse, conservando le relazioni fra i contenuti. Misure assolute e relative possono collaborare nello stesso layout. I pixel CSS sono unità di riferimento e non coincidono necessariamente con i pixel fisici dello schermo. Per questo la verifica riguarda il comportamento del contenuto a più larghezze, oltre all’aspetto di una singola schermata.\n-->\n"
+    },
+    {
+      "originalSlide": 118,
+      "title": "Responsive e adaptive",
+      "alias": "tipografia-griglie-30",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 118\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-30\nbookletPages: [187, 188]\nbookletAssets: [\"c03-188-01\"]\n---\n\n# Responsive e adaptive\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Griglie fluide e layout predisposti possono combinarsi.</p><ul class=\"cvedi-list\"><li><span>Responsive: griglia fluida, con eventuali breakpoint.</span></li><li><span>Adaptive: layout predisposti per più larghezze.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-188-01-03bfb7e8de1f.svg\" alt=\"Una griglia fluida e due configurazioni di layout predisposte, mostrate a larghezze diverse.\" caption=\"Una griglia fluida e due configurazioni di layout predisposte, mostrate a larghezze diverse.\" /></div>\n\n<!--\nUn layout responsive usa una griglia fluida e può cambiare organizzazione in corrispondenza dei breakpoint. Un layout adaptive sceglie fra configurazioni predisposte per più larghezze. Nel confronto osserviamo come cambiano le aree, non soltanto quanto diventano piccole. I due approcci possono convivere nello stesso progetto. In entrambi i casi la domanda resta concreta: il contenuto conserva una struttura comprensibile e le azioni restano disponibili nello spazio che la persona ha a disposizione?\n-->\n"
+    },
+    {
+      "originalSlide": 119,
+      "title": "Canoni compositivi",
+      "alias": "tipografia-griglie-31",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide concept-slide\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 119\nlessonMinutes: 2.0\nrouteAlias: tipografia-griglie-31\nbookletPages: [189]\n---\n\n# Canoni compositivi\n\n<p class=\"lead\">Sono strumenti progettuali: non garantiscono bellezza o usabilità.</p>\n<div class=\"cvedi-grid three\"><CvediCard title=\"Sezione aurea\"><p>Il rapporto tra tutto e parte maggiore coincide con quello tra parte maggiore e minore.</p></CvediCard><CvediCard title=\"Fibonacci\"><p>Ogni termine somma i due precedenti; il rapporto tra termini consecutivi tende a phi.</p></CvediCard><CvediCard title=\"Regola dei terzi\"><p>Linee e intersezioni offrono riferimenti per gli elementi principali.</p></CvediCard></div>\n\n<!--\nQuesti canoni offrono rapporti e suddivisioni per organizzare una composizione. Nella sezione aurea, il rapporto fra tutto e parte maggiore coincide con quello fra parte maggiore e parte minore. Nella successione di Fibonacci ogni termine somma i due precedenti e il rapporto fra termini consecutivi tende a phi. La regola dei terzi divide invece lo spazio in tre parti per asse. Sono riferimenti da valutare rispetto al progetto: non garantiscono da soli bellezza o usabilità.\n-->\n"
+    },
+    {
+      "originalSlide": 120,
+      "title": "Distribuire il peso nella composizione",
+      "alias": "tipografia-griglie-32",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 120\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-32\nbookletPages: [189, 190]\nbookletAssets: [\"c03-190-01\"]\n---\n\n# Distribuire il peso nella composizione\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">I riferimenti compositivi aiutano a confrontare posizione e rilievo degli elementi.</p><ul class=\"cvedi-list\"><li><span>La scelta dipende da contenuti, formato e obiettivi del progetto.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-190-01-bc10ae70c576.svg\" alt=\"Griglia in terzi: quattro intersezioni come riferimenti compositivi. La posizione scelta va valutata nel contesto.\" caption=\"Griglia in terzi: quattro intersezioni come riferimenti compositivi. La posizione scelta va valutata nel contesto.\" /></div>\n\n<!--\nLa griglia in terzi offre linee e quattro intersezioni con cui confrontare la posizione degli elementi principali. Possiamo usarle per osservare il rapporto fra le parti e il rilievo assegnato a un contenuto. La scelta dipende da ciò che dobbiamo comunicare, dal formato e dagli altri elementi presenti. Il riferimento geometrico aiuta a confrontare le alternative; la composizione va poi valutata nel suo insieme, considerando gli obiettivi del progetto.\n-->\n"
+    },
+    {
+      "originalSlide": 121,
+      "title": "Identità e interfacce",
+      "alias": "tipografia-griglie-sezione-interfacce",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide chapter-slide section-divider\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 121\nlessonMinutes: 0\nrouteAlias: tipografia-griglie-sezione-interfacce\nsectionDivider: true\nsectionNumber: 10\nbookletPages: [191, 192]\n---\n\n# Identità e interfacce\n\nCollegare gerarchie, linguaggio visivo e componenti.\n\n<ChapterMetro section=\"ux-type\" />\n\n<!--\nPassiamo dalla struttura della pagina al sistema dell’interfaccia. Tipografia, colori, gerarchie e componenti collaborano per rendere riconoscibile il prodotto e disponibili le azioni.\n-->\n"
+    },
+    {
+      "originalSlide": 122,
+      "title": "Un’interfaccia collega persona e prodotto",
+      "alias": "tipografia-griglie-33",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide statement-slide\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 122\nlessonMinutes: 1.5\nrouteAlias: tipografia-griglie-33\nbookletPages: [191, 192]\n---\n\n# Un’interfaccia collega persona e prodotto\n\n<div class=\"lesson-statement\">Rende disponibili<br>informazioni e azioni.</div>\n<p class=\"lead\">La GUI usa elementi visivi come finestre, icone, menu e controlli.</p>\n\n<!--\nL’interfaccia permette uno scambio fra la persona e il prodotto. Rende disponibili informazioni e azioni e offre una forma attraverso cui usarle. Nell’interfaccia grafica, o GUI, questo scambio avviene con elementi visivi: finestre, icone, menu e controlli. Il loro aspetto deve aiutare a capire che cosa è presente e che cosa si può fare. La composizione della schermata partecipa quindi al funzionamento del prodotto.\n-->\n"
+    },
+    {
+      "originalSlide": 123,
+      "title": "Riconoscere un’identità visiva",
+      "alias": "tipografia-griglie-34",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 123\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-34\nbookletPages: [193]\nbookletAssets: [\"c03-193-01\"]\n---\n\n# Riconoscere un’identità visiva\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Tipografia e colori possono rendere riconoscibili marchi come Disney, Tiffany e Facebook.</p><ul class=\"cvedi-list\"><li><span>L’identità deve collaborare con la funzione dell’interfaccia.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-193-01.webp\" alt=\"Identità visiva: tipografia e colori rendono riconoscibili i marchi.\" caption=\"Identità visiva: tipografia e colori rendono riconoscibili i marchi.\" /></div>\n\n<!--\nTipografia e colore possono richiamare un’identità già conosciuta. Negli esempi, il disegno delle lettere Disney e i colori associati a Tiffany e Facebook sostengono il riconoscimento. Nell’interfaccia queste scelte devono collaborare con la lettura delle informazioni e con le azioni. Possiamo quindi osservare due aspetti insieme: quali elementi rendono riconoscibile il marchio e come vengono usati senza perdere chiarezza nel contenuto e nei controlli.\n-->\n"
+    },
+    {
+      "originalSlide": 124,
+      "title": "Gerarchie per il pagamento",
+      "alias": "tipografia-griglie-35",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 124\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-35\nbookletPages: [194]\nbookletAssets: [\"c03-194-01\"]\n---\n\n# Gerarchie per il pagamento\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Confrontate il rilievo dato a informazioni, importi e azioni nelle due schermate.</p><ul class=\"cvedi-list\"><li><span>Quale percorso viene suggerito e quali elementi competono?</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-194-01.webp\" alt=\"Due interfacce di pagamento con gerarchie visive differenti.\" caption=\"Due interfacce di pagamento con gerarchie visive differenti.\" /></div>\n\n<!--\nLe due schermate affrontano un pagamento, ma assegnano rilievo diverso alle informazioni e alle azioni. Il confronto parte da ciò che emerge per primo: importi, dettagli e comandi possono collaborare oppure competere. Possiamo seguire il percorso suggerito dalla gerarchia e chiederci se l’informazione necessaria arriva nel momento utile. L’obiettivo è descrivere le relazioni visibili fra gli elementi, prima di esprimere una preferenza per l’aspetto di una schermata.\n-->\n"
+    },
+    {
+      "originalSlide": 125,
+      "title": "Stesso contenuto, interpretazioni diverse",
+      "alias": "tipografia-griglie-36",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 125\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-36\nbookletPages: [195]\nbookletAssets: [\"c03-195-01\"]\n---\n\n# Stesso contenuto, interpretazioni diverse\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">CSS Zen Garden mostra come la presentazione possa cambiare con lo stesso contenuto.</p><ul class=\"cvedi-list\"><li><span>Differenziazione e coerenza devono sostenere una lettura chiara.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-195-01.webp\" alt=\"CSS Zen Garden: due interpretazioni visive dello stesso contenuto.\" caption=\"CSS Zen Garden: due interpretazioni visive dello stesso contenuto.\" /></div>\n\n<!--\nCSS Zen Garden permette di confrontare interpretazioni visive differenti dello stesso contenuto. Cambiare la presentazione modifica il rapporto fra testi, immagini e spazi, pur mantenendo il materiale di partenza. Questo rende visibile quanto il progetto grafico partecipi alla lettura. Le alternative possono esprimere identità diverse; ciascuna va osservata anche per la chiarezza delle gerarchie e per la coerenza con cui tratta le stesse funzioni nella pagina.\n-->\n"
+    },
+    {
+      "originalSlide": 126,
+      "title": "Memorabilità e forma",
+      "alias": "tipografia-griglie-37",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 126\nlessonMinutes: 2.5\nrouteAlias: tipografia-griglie-37\nbookletPages: [196]\nbookletAssets: [\"c03-196-01\"]\n---\n\n# Memorabilità e forma\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">La pera morsicata richiama un marchio noto attraverso una relazione riconoscibile.</p><ul class=\"cvedi-list\"><li><span>Il riconoscimento dipende anche dall’esperienza del pubblico.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-196-01.webp\" alt=\"Una pera morsicata richiama un marchio noto attraverso la forma.\" caption=\"Una pera morsicata richiama un marchio noto attraverso la forma.\" /></div>\n\n<!--\nLa figura presenta una pera morsicata, ma la relazione fra sagoma e morso può richiamare il marchio Apple. Il riconoscimento usa anche l’esperienza di chi guarda: un riferimento familiare può attivare un’associazione pur cambiando alcuni dettagli. Non tutte le persone condividono però le stesse conoscenze. Quando valutiamo una forma riconoscibile, dobbiamo quindi considerare anche il pubblico al quale si rivolge e le associazioni che può aver costruito.\n-->\n"
+    },
+    {
+      "originalSlide": 127,
+      "title": "Architettura dell’interfaccia",
+      "alias": "tipografia-griglie-38",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 127\nlessonMinutes: 2.0\nrouteAlias: tipografia-griglie-38\nbookletPages: [197]\nbookletAssets: [\"c03-197-01\"]\n---\n\n# Architettura dell’interfaccia\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Layout, schermate e griglia organizzano componenti e contenuti.</p><ul class=\"cvedi-list\"><li><span>Struttura e gerarchia aiutano a capire che cosa è disponibile.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-197-01-9f56f953a5af.svg\" alt=\"Schema di una schermata: navigazione, menu e contenuto principale organizzano componenti e azioni.\" caption=\"Schema di una schermata: navigazione, menu e contenuto principale organizzano componenti e azioni.\" /></div>\n\n<!--\nL’architettura dell’interfaccia riguarda l’organizzazione delle schermate e dei loro contenuti. Nel diagramma, navigazione, menu e area principale occupano ruoli distinti. La griglia tiene in relazione componenti e azioni, mentre la gerarchia aiuta a capire che cosa è disponibile. Per leggere la struttura possiamo seguire la posizione dei gruppi e i loro allineamenti. Questo livello di progetto riguarda le relazioni fra le parti, prima delle singole scelte decorative.\n-->\n"
+    },
+    {
+      "originalSlide": 128,
+      "title": "Sistemi di identità",
+      "alias": "tipografia-griglie-39",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 128\nlessonMinutes: 2.0\nrouteAlias: tipografia-griglie-39\nbookletPages: [198]\nbookletAssets: [\"c03-198-01\"]\n---\n\n# Sistemi di identità\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Branding, tono e mood espressivo possono attraversare prodotti e componenti.</p><ul class=\"cvedi-list\"><li><span>Coerenza di forme e colori sostiene il riconoscimento.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-198-01.webp\" alt=\"Coerenza di forme e colori nel sistema di identità di Google.\" caption=\"Coerenza di forme e colori nel sistema di identità di Google.\" /></div>\n\n<!--\nUn’identità può attraversare prodotti e componenti diversi. Nel sistema Google, forme e colori ricorrenti sostengono il riconoscimento anche quando cambia l’elemento rappresentato. La coerenza riguarda anche tono e carattere espressivo. Le parti possono avere funzioni differenti e conservare una relazione riconoscibile con il sistema. Il confronto ci permette di osservare quali scelte si ripetono e quali cambiano per distinguere un prodotto o un componente dagli altri.\n-->\n"
+    },
+    {
+      "originalSlide": 129,
+      "title": "Look and feel",
+      "alias": "tipografia-griglie-40",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 129\nlessonMinutes: 2.0\nrouteAlias: tipografia-griglie-40\nbookletPages: [199]\nbookletAssets: [\"c03-199-01\"]\n---\n\n# Look and feel\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Palette, tipografia, immagini, icone e schermate definiscono una proposta visiva coordinata.</p><ul class=\"cvedi-list\"><li><span>Il concept deve restare coerente con messaggio e compiti.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-199-01.webp\" alt=\"Look &amp; feel: palette, tipografia, componenti e schermate coordinati.\" caption=\"Look &amp; feel: palette, tipografia, componenti e schermate coordinati.\" /></div>\n\n<!--\nIl look and feel è la proposta visiva complessiva dell’interfaccia. Comprende palette, tipografia, immagini, icone e modo di comporre le schermate. Queste scelte vanno osservate insieme, perché costruiscono una voce comune. Il concept deve restare coerente con il messaggio e con i compiti delle persone. Nell’esempio possiamo seguire le ricorrenze fra gli elementi e capire come la proposta passa dalle singole scelte alle schermate complete.\n-->\n"
+    },
+    {
+      "originalSlide": 130,
+      "title": "Menu, pulsanti e controlli",
+      "alias": "tipografia-griglie-41",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide figure-slide figure-dominant\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 130\nlessonMinutes: 2.0\nrouteAlias: tipografia-griglie-41\nbookletPages: [200]\nbookletAssets: [\"c03-200-01\"]\n---\n\n# Menu, pulsanti e controlli\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">I componenti rendono disponibili le azioni e comunicano i loro esiti.</p><ul class=\"cvedi-list\"><li><span>Etichette e stati spiegano che cosa si può fare.</span></li><li><span>Il feedback aiuta a capire che cosa è accaduto.</span></li></ul></div><LessonFigure src=\"/images/processo-ux/c03-200-01.webp\" alt=\"Menu, pulsanti e controlli organizzati in un sistema di componenti.\" caption=\"Menu, pulsanti e controlli organizzati in un sistema di componenti.\" /></div>\n\n<!--\nMenu, pulsanti e controlli rendono disponibili le azioni. Le etichette aiutano a capire che cosa si può fare; gli stati distinguono le condizioni del componente; il feedback comunica l’esito dell’azione. Questi aspetti devono collaborare con la forma visiva. Un sistema di componenti collega quindi aspetto e comportamento: la persona deve poter riconoscere il comando e capire che cosa è accaduto dopo averlo usato.\n-->\n"
+    },
+    {
+      "originalSlide": 131,
+      "title": "Dal testo alla griglia",
+      "alias": "tipografia-griglie-42",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 131\nlessonMinutes: 12\nrouteAlias: tipografia-griglie-42\nbookletPages: [183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]\n---\n\n# Dal testo alla griglia\n\n<p class=\"lead\">Applicate il sistema tipografico a due larghezze della stessa schermata.</p>\n<ul class=\"cvedi-list\"><li><span>Definite margini, colonne e gutter.</span></li><li><span>Conservate la priorità del contenuto tra i due formati.</span></li><li><span>Indicate come menu, controlli e testo cambiano o si riordinano.</span></li></ul>\n<p class=\"aside\">Attività · 12 minuti</p>\n\n<!--\nAvete dodici minuti per applicare il sistema tipografico a due larghezze della stessa schermata. Definite margini, colonne e gutter e distribuite i contenuti nella griglia. La priorità delle informazioni deve restare riconoscibile in entrambi i formati. Indicate che cosa succede al testo, al menu e ai controlli: quali parti cambiano misura e quali si riordinano. Il confronto deve permettere di seguire lo stesso contenuto nei due spazi disponibili. Quando una scelta cambia fra i formati, collegate il cambiamento al problema di lettura o di organizzazione che state affrontando.\n-->\n"
+    },
+    {
+      "originalSlide": 132,
+      "title": "Confrontare le strutture",
+      "alias": "tipografia-griglie-43",
+      "raw": "---\nlayout: default\nclass: content-slide ux-process-lesson lesson-slide reading-slide lesson-activity\nfooter: \"Tipografia, griglie e interfacce\"\nlesson: tipografia-griglie\nlessonSlide: 132\nlessonMinutes: 6\nrouteAlias: tipografia-griglie-43\nbookletPages: [183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200]\n---\n\n# Confrontare le strutture\n\n<p class=\"lead\">Presentate una relazione che la griglia rende riconoscibile.</p>\n<ul class=\"cvedi-list\"><li><span>Il contenuto principale emerge?</span></li><li><span>Le righe mantengono un ritmo leggibile?</span></li><li><span>Quale comportamento verifichereste su un dispositivo reale?</span></li></ul>\n<p class=\"aside\">Attività · 6 minuti</p>\n\n<!--\nDedichiamo sei minuti al confronto delle strutture. Presentate una relazione che la vostra griglia rende riconoscibile, indicando gli elementi coinvolti. Osservate se il contenuto principale emerge e se le righe conservano un ritmo leggibile nei due formati. Il confronto riguarda le conseguenze delle scelte: allineamenti, spazi e ordine delle informazioni devono aiutare a leggere la schermata. Individuate poi un comportamento da verificare su un dispositivo reale. La discussione può lasciare aperta una domanda precisa, da portare alla prova successiva, invece di concludersi soltanto con una preferenza visiva.\n-->\n"
+    }
+  ],
+  "lessons": [
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "sourcePages": [
+        183,
+        184
+      ],
+      "sourceNodes": [
+        "198:3122",
+        "198:3604"
+      ],
+      "lessonSlide": 114,
+      "title": "Griglie e composizione",
+      "minutes": 0,
+      "assets": [],
+      "kind": "section",
+      "routeAlias": "tipografia-griglie-sezione-griglie",
+      "sectionDivider": true,
+      "sectionNumber": 9
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 115,
+      "title": "Anatomia della griglia",
+      "minutes": 2.5,
+      "sourcePages": [
+        183,
+        184
+      ],
+      "sourceNodes": [
+        "198:3122",
+        "198:3604"
+      ],
+      "assets": [
+        "c03-184-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-27"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 116,
+      "title": "La griglia editoriale",
+      "minutes": 2.5,
+      "sourcePages": [
+        185
+      ],
+      "sourceNodes": [
+        "198:3367"
+      ],
+      "assets": [
+        "c03-185-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-28"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 117,
+      "title": "La griglia nel web",
+      "minutes": 2.5,
+      "sourcePages": [
+        186
+      ],
+      "sourceNodes": [
+        "198:3830"
+      ],
+      "assets": [
+        "c03-186-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-29"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 118,
+      "title": "Responsive e adaptive",
+      "minutes": 2.5,
+      "sourcePages": [
+        187,
+        188
+      ],
+      "sourceNodes": [
+        "198:3403",
+        "198:3853"
+      ],
+      "assets": [
+        "c03-188-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-30"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 119,
+      "title": "Canoni compositivi",
+      "minutes": 2,
+      "sourcePages": [
+        189
+      ],
+      "sourceNodes": [
+        "198:3385"
+      ],
+      "assets": [],
+      "kind": "cards",
+      "routeAlias": "tipografia-griglie-31"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 120,
+      "title": "Distribuire il peso nella composizione",
+      "minutes": 2.5,
+      "sourcePages": [
+        189,
+        190
+      ],
+      "sourceNodes": [
+        "198:3385",
+        "198:3842"
+      ],
+      "assets": [
+        "c03-190-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-32"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "sourcePages": [
+        191,
+        192
+      ],
+      "sourceNodes": [
+        "198:3162",
+        "198:3629"
+      ],
+      "lessonSlide": 121,
+      "title": "Identità e interfacce",
+      "minutes": 0,
+      "assets": [],
+      "kind": "section",
+      "routeAlias": "tipografia-griglie-sezione-interfacce",
+      "sectionDivider": true,
+      "sectionNumber": 10
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 122,
+      "title": "Un’interfaccia collega persona e prodotto",
+      "minutes": 1.5,
+      "sourcePages": [
+        191,
+        192
+      ],
+      "sourceNodes": [
+        "198:3162",
+        "198:3629"
+      ],
+      "assets": [],
+      "kind": "statement",
+      "routeAlias": "tipografia-griglie-33"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 123,
+      "title": "Riconoscere un’identità visiva",
+      "minutes": 2.5,
+      "sourcePages": [
+        193
+      ],
+      "sourceNodes": [
+        "198:3293"
+      ],
+      "assets": [
+        "c03-193-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-34"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 124,
+      "title": "Gerarchie per il pagamento",
+      "minutes": 2.5,
+      "sourcePages": [
+        194
+      ],
+      "sourceNodes": [
+        "198:3787"
+      ],
+      "assets": [
+        "c03-194-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-35"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 125,
+      "title": "Stesso contenuto, interpretazioni diverse",
+      "minutes": 2.5,
+      "sourcePages": [
+        195
+      ],
+      "sourceNodes": [
+        "198:3312"
+      ],
+      "assets": [
+        "c03-195-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-36"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 126,
+      "title": "Memorabilità e forma",
+      "minutes": 2.5,
+      "sourcePages": [
+        196
+      ],
+      "sourceNodes": [
+        "198:3798"
+      ],
+      "assets": [
+        "c03-196-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-37"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 127,
+      "title": "Architettura dell’interfaccia",
+      "minutes": 2,
+      "sourcePages": [
+        197
+      ],
+      "sourceNodes": [
+        "198:3331"
+      ],
+      "assets": [
+        "c03-197-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-38"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 128,
+      "title": "Sistemi di identità",
+      "minutes": 2,
+      "sourcePages": [
+        198
+      ],
+      "sourceNodes": [
+        "198:3808"
+      ],
+      "assets": [
+        "c03-198-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-39"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 129,
+      "title": "Look and feel",
+      "minutes": 2,
+      "sourcePages": [
+        199
+      ],
+      "sourceNodes": [
+        "198:3349"
+      ],
+      "assets": [
+        "c03-199-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-40"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 130,
+      "title": "Menu, pulsanti e controlli",
+      "minutes": 2,
+      "sourcePages": [
+        200
+      ],
+      "sourceNodes": [
+        "198:3819"
+      ],
+      "assets": [
+        "c03-200-01"
+      ],
+      "kind": "figure",
+      "routeAlias": "tipografia-griglie-41"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 131,
+      "title": "Dal testo alla griglia",
+      "minutes": 12,
+      "sourcePages": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "sourceNodes": [
+        "198:3122",
+        "198:3604",
+        "198:3367",
+        "198:3830",
+        "198:3403",
+        "198:3853",
+        "198:3385",
+        "198:3842",
+        "198:3162",
+        "198:3629",
+        "198:3293",
+        "198:3787",
+        "198:3312",
+        "198:3798",
+        "198:3331",
+        "198:3808",
+        "198:3349",
+        "198:3819"
+      ],
+      "assets": [],
+      "kind": "activity",
+      "routeAlias": "tipografia-griglie-42"
+    },
+    {
+      "lesson": "tipografia-griglie",
+      "lessonNumber": 8,
+      "lessonSlide": 132,
+      "title": "Confrontare le strutture",
+      "minutes": 6,
+      "sourcePages": [
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200
+      ],
+      "sourceNodes": [
+        "198:3122",
+        "198:3604",
+        "198:3367",
+        "198:3830",
+        "198:3403",
+        "198:3853",
+        "198:3385",
+        "198:3842",
+        "198:3162",
+        "198:3629",
+        "198:3293",
+        "198:3787",
+        "198:3312",
+        "198:3798",
+        "198:3331",
+        "198:3808",
+        "198:3349",
+        "198:3819"
+      ],
+      "assets": [],
+      "kind": "activity",
+      "routeAlias": "tipografia-griglie-43"
+    }
+  ]
+}

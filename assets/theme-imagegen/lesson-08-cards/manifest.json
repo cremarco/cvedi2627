@@ -1,0 +1,173 @@
+{
+  "version": "2026-10-20",
+  "mode": "built-in image_gen",
+  "purpose": "Three decorative illustrations for the typography lesson objectives.",
+  "rights": "Original AI-generated decorative illustrations for CVeDI; no documentary image or third-party illustration copied.",
+  "jobs": [
+    {
+      "id": "tipografia-griglie-forme",
+      "card": "Riconoscere le forme",
+      "subject": "A large simple serif capital A being examined with one magnifying glass. The amber lens handle and pale-blue rim frame a small part of the letter, but the whole A remains recognizable. Only the letter A; no word, numeral or label.",
+      "prompt": "Use case: stylized-concept. Asset type: ONE standalone decorative illustration for a CVeDI teaching slide card. Style: match a cohesive family of clean 2D educational editorial illustrations, bold rounded deep-blue outlines, broad flat opaque fills, simple familiar proportions, compact silhouette readable at 96 pixels, at most one slim offset rear edge. Palette: dark outline sky-950 #082F49, primary sky-800 #075985, pale sky #E0F2FE and #BAE6FD, white functional paper surfaces, one small vivid amber #F9C213 accent. Composition: a centered square motif filling 75 percent of the canvas with at least 10 percent transparent margin on all sides, essential clue near the center. Fully opaque object surfaces, genuine transparent alpha exterior. No gradients, modeled lighting, gloss, texture, shadows, glow, enclosing badge, decorative backdrop, logos, watermarks, extra ornament or tiny text. Exactly one isolated motif, not a sheet. Subject: A large simple serif capital A being examined with one magnifying glass. The amber lens handle and pale-blue rim frame a small part of the letter, but the whole A remains recognizable. Only the letter A; no word, numeral or label.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a15537-f56f-7691-9369-93c632e7c488/exec-5027f473-cb1e-4c61-bbf2-7a856c37b4b2.png",
+      "family": "sky",
+      "palette": {
+        "outline": "#082F49",
+        "primary": "#075985",
+        "pale": "#E0F2FE / #BAE6FD",
+        "accent": "#F9C213"
+      },
+      "promptFile": "assets/theme-imagegen/lesson-08-cards/prompts/tipografia-griglie-forme.txt",
+      "original": "assets/theme-imagegen/lesson-08-cards/originals/tipografia-griglie-forme.png",
+      "web": "public/images/generated/theme-2026/cards/lesson-08/tipografia-griglie-forme.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          185,
+          1210,
+          1150
+        ]
+      },
+      "sha256": "47d3ea5a843e330b58a9e18e1afc489227fe0d134a9cb6550760bf3e90f9098a",
+      "publicationSha256": "d1059b645d09160329658c18f3035b146cd03616f40d6054677247a8a554e815",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable letter and lens, type selection sheets, or reading book; cohesive sky/amber palette, transparent exterior and clear central silhouette, reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "owners": [
+        {
+          "lesson": "tipografia-griglie",
+          "lessonSlide": 3,
+          "slideAlias": "tipografia-griglie-02",
+          "title": "Cosa impareremo",
+          "card": "Riconoscere le forme"
+        }
+      ]
+    },
+    {
+      "id": "tipografia-griglie-scelta",
+      "card": "Scegliere i caratteri",
+      "subject": "Two slightly overlapping compact white type specimen sheets, one with a simple serif capital A and one with a simple sans-serif capital A. A single small amber selection check on the front sheet represents choosing a typeface. Simple large shapes; no interface chrome, no words or tiny text.",
+      "prompt": "Use case: stylized-concept. Asset type: ONE standalone decorative illustration for a CVeDI teaching slide card. Style: match a cohesive family of clean 2D educational editorial illustrations, bold rounded deep-blue outlines, broad flat opaque fills, simple familiar proportions, compact silhouette readable at 96 pixels, at most one slim offset rear edge. Palette: dark outline sky-950 #082F49, primary sky-800 #075985, pale sky #E0F2FE and #BAE6FD, white functional paper surfaces, one small vivid amber #F9C213 accent. Composition: a centered square motif filling 75 percent of the canvas with at least 10 percent transparent margin on all sides, essential clue near the center. Fully opaque object surfaces, genuine transparent alpha exterior. No gradients, modeled lighting, gloss, texture, shadows, glow, enclosing badge, decorative backdrop, logos, watermarks, extra ornament or tiny text. Exactly one isolated motif, not a sheet. Subject: Two slightly overlapping compact white type specimen sheets, one with a simple serif capital A and one with a simple sans-serif capital A. A single small amber selection check on the front sheet represents choosing a typeface. Simple large shapes; no interface chrome, no words or tiny text.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a15537-f56f-7691-9369-93c632e7c488/exec-a663246d-2ce8-45bf-bf77-dcc32371dbaa.png",
+      "family": "sky",
+      "palette": {
+        "outline": "#082F49",
+        "primary": "#075985",
+        "pale": "#E0F2FE / #BAE6FD",
+        "accent": "#F9C213"
+      },
+      "promptFile": "assets/theme-imagegen/lesson-08-cards/prompts/tipografia-griglie-scelta.txt",
+      "original": "assets/theme-imagegen/lesson-08-cards/originals/tipografia-griglie-scelta.png",
+      "web": "public/images/generated/theme-2026/cards/lesson-08/tipografia-griglie-scelta.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          87,
+          21,
+          1236,
+          1174
+        ]
+      },
+      "sha256": "0265db8de67fb92df321675dd47bad69f8736f894b32703440e95cc1f7be38a2",
+      "publicationSha256": "a4977756805b06e646c629dd170caf37363ffe1abd74fa02c3993557f1553631",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable letter and lens, type selection sheets, or reading book; cohesive sky/amber palette, transparent exterior and clear central silhouette, reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "owners": [
+        {
+          "lesson": "tipografia-griglie",
+          "lessonSlide": 3,
+          "slideAlias": "tipografia-griglie-02",
+          "title": "Cosa impareremo",
+          "card": "Scegliere i caratteri"
+        }
+      ]
+    },
+    {
+      "id": "tipografia-griglie-lettura",
+      "card": "Verificare la lettura",
+      "subject": "An open white reference book with three broad deep-blue reading lines on each page and a pair of simple reading glasses resting across the pages. One small amber bookmark. No letters or words. Compact recognizable silhouette, only book and glasses.",
+      "prompt": "Use case: stylized-concept. Asset type: ONE standalone decorative illustration for a CVeDI teaching slide card. Style: match a cohesive family of clean 2D educational editorial illustrations, bold rounded deep-blue outlines, broad flat opaque fills, simple familiar proportions, compact silhouette readable at 96 pixels, at most one slim offset rear edge. Palette: dark outline sky-950 #082F49, primary sky-800 #075985, pale sky #E0F2FE and #BAE6FD, white functional paper surfaces, one small vivid amber #F9C213 accent. Composition: a centered square motif filling 75 percent of the canvas with at least 10 percent transparent margin on all sides, essential clue near the center. Fully opaque object surfaces, genuine transparent alpha exterior. No gradients, modeled lighting, gloss, texture, shadows, glow, enclosing badge, decorative backdrop, logos, watermarks, extra ornament or tiny text. Exactly one isolated motif, not a sheet. Subject: An open white reference book with three broad deep-blue reading lines on each page and a pair of simple reading glasses resting across the pages. One small amber bookmark. No letters or words. Compact recognizable silhouette, only book and glasses.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a15537-f56f-7691-9369-93c632e7c488/exec-4eaef334-3554-4bc1-bae5-ebae07e5ece1.png",
+      "family": "sky",
+      "palette": {
+        "outline": "#082F49",
+        "primary": "#075985",
+        "pale": "#E0F2FE / #BAE6FD",
+        "accent": "#F9C213"
+      },
+      "promptFile": "assets/theme-imagegen/lesson-08-cards/prompts/tipografia-griglie-lettura.txt",
+      "original": "assets/theme-imagegen/lesson-08-cards/originals/tipografia-griglie-lettura.png",
+      "web": "public/images/generated/theme-2026/cards/lesson-08/tipografia-griglie-lettura.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          241,
+          1220,
+          1015
+        ]
+      },
+      "sha256": "7af3844483ea616f94dbc20820198348b8d42c05e5e102ca6ee704bc6f3da7b1",
+      "publicationSha256": "f3809bb6dadaff00bd48061ea9f35f9d3dfa7401b99ef58e82632b764df1e6b1",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Recognizable letter and lens, type selection sheets, or reading book; cohesive sky/amber palette, transparent exterior and clear central silhouette, reviewed at generation."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "owners": [
+        {
+          "lesson": "tipografia-griglie",
+          "lessonSlide": 3,
+          "slideAlias": "tipografia-griglie-02",
+          "title": "Cosa impareremo",
+          "card": "Verificare la lettura"
+        }
+      ]
+    }
+  ]
+}

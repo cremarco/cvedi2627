@@ -1,0 +1,107 @@
+{
+  "family": "Work Sans",
+  "version": "Version 2.012",
+  "source": "/Users/marco/Sites/cvedi2627/assets/booklet/tipografia-variabile/WorkSansVF.ttf",
+  "sourceSha256": "f50f61f2ba738e239442d40bf1069adb195c224b6a5a73a581fc2f3ed62a9f63",
+  "primaryUrl": "https://github.com/google/fonts/tree/main/ofl/worksans",
+  "license": "SIL OFL 1.1; original license preserved in tipografia-variabile/OFL.txt",
+  "method": "fontTools.varLib.instancer, original advances; no horizontal stretch or tracking",
+  "samples": [
+    {
+      "file": "work-sans-Aa-wght-400.svg",
+      "weight": 400,
+      "text": "Aa",
+      "fontSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "viewBox": [
+        -1,
+        0,
+        46.135999999999996,
+        54
+      ],
+      "glyphBounds": [
+        [
+          0.9359999999999999,
+          7.440000000000001,
+          22.823999999999998,
+          31.2
+        ],
+        [
+          25.955999999999996,
+          12.84,
+          43.199999999999996,
+          31.56
+        ]
+      ],
+      "copyright": "Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans)",
+      "postscriptName": "WorkSans-Regular",
+      "licensePath": "assets/booklet/tipografia-variabile/OFL.txt",
+      "sha256": "70da6c2ae6570289731f6f96ff078eeabf4f12c99576c151593c9c1eff1df3f4"
+    },
+    {
+      "file": "work-sans-Aa-wght-550.svg",
+      "weight": 550,
+      "text": "Aa",
+      "fontSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "viewBox": [
+        -1,
+        0,
+        46.63999999999999,
+        54
+      ],
+      "glyphBounds": [
+        [
+          0.5731611328124999,
+          7.440000000000001,
+          23.479125732421874,
+          31.2
+        ],
+        [
+          25.8461554770318,
+          12.84,
+          44.04498233215547,
+          31.56
+        ]
+      ],
+      "copyright": "Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans)",
+      "postscriptName": "WorkSans-Regular",
+      "licensePath": "assets/booklet/tipografia-variabile/OFL.txt",
+      "sha256": "fea9e03f80c528564a7bf7203c74e7cbd7134baa3bf2a69f7a1384708659fbe8"
+    },
+    {
+      "file": "work-sans-Aa-wght-700.svg",
+      "weight": 700,
+      "text": "Aa",
+      "fontSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "viewBox": [
+        -1,
+        0,
+        47.215999999999994,
+        54
+      ],
+      "glyphBounds": [
+        [
+          0.15843164062499998,
+          7.440000000000001,
+          24.22794287109375,
+          31.2
+        ],
+        [
+          25.53558889545186,
+          12.84,
+          44.9837755463674,
+          31.56
+        ]
+      ],
+      "copyright": "Copyright 2019 The Work Sans Project Authors (https://github.com/weiweihuanghuang/Work-Sans)",
+      "postscriptName": "WorkSans-Regular",
+      "licensePath": "assets/booklet/tipografia-variabile/OFL.txt",
+      "sha256": "87ba8f94ebaf9e4f22f997fb5bffed192f911445527404ae286eab82d2eecbae"
+    }
+  ]
+}

@@ -13,6 +13,7 @@ export async function checkPublication() {
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const localIds = new Set(curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id))
+  assert.deepEqual([...localIds], ['prototipi-interfacce', 'test-implementazione'], 'only lessons 09 and 10 remain local after typography publication')
   const options = { roots: [root], userRoot: root, allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
   try {
@@ -29,7 +30,7 @@ export async function checkPublication() {
       assert.ok(owned.every(slide => (slide.frontmatter.localOnly === true) === localIds.has(lesson.id)), `${lesson.id}: publication visibility matches the curriculum`)
     }
     assert.equal(local.slides.length, 242 + declaredUxSlides, 'complete local deck')
-    assert.equal(published.slides.length, 603, 'published deck includes lessons 01–07')
+    assert.equal(published.slides.length, 717, 'published deck includes lessons 01–08 and the 114 intended typography slides')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'storia-design'), 'lesson 03 retains its destination alias')
@@ -38,12 +39,15 @@ export async function checkPublication() {
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'ricerca-inclusiva'), 'lesson 04 retains its destination alias')
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'percezione-gerarchia').length, 105, 'lesson 05 is complete locally and online')
       assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'percezione-gerarchia'), 'lesson 05 retains its destination alias')
+      assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie').length, 114, 'lesson 08 is complete locally and online')
+      assert.ok(deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie'), 'lesson 08 retains its destination alias')
+      assert.ok(!deck.slides.some(slide => slide.frontmatter.routeAlias === 'tipografia-griglie-tipo-prove-esplorative'), 'the removed booklet content is absent locally and online')
     }
     assert.ok(published.slides.every(slide => !localIds.has(slide.frontmatter.lesson)), 'local lessons are absent from routes and overview')
     assert.deepEqual(published.slides.map(slide => slide.title), local.slides.filter(slide => !localIds.has(slide.frontmatter.lesson)).map(slide => slide.title), 'published content order is preserved')
     const localIndex = local.slides.find(slide => slide.title === 'Indice delle lezioni').content
     const publicIndex = published.slides.find(slide => slide.title === 'Indice delle lezioni').content
-    const publicTargets = ['presentazione-corso', 'introduzione-teorica', 'storia-design', 'ricerca-inclusiva', 'percezione-gerarchia', 'gestalt', 'colore']
+    const publicTargets = ['presentazione-corso', 'introduzione-teorica', 'storia-design', 'ricerca-inclusiva', 'percezione-gerarchia', 'gestalt', 'colore', 'tipografia-griglie']
     const supplementalTargets = ['brief-progetto', 'approfondimenti']
     const indexTargets = content => [...content.matchAll(/<SlideAction\s+to=["']([^"']+)["']/g)].map(match => match[1])
     const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, ...publicTargets.slice(2)]
@@ -86,11 +90,13 @@ export async function checkPublishedBuild(directory) {
   const references = await bundleReferences(output)
   for (const directory of localAssetDirectories)
     assert.ok(!references.includes('/' + directory + '/'), 'no published code references local figures')
-  for (const directory of sharedLessonAssetDirectories) {
+  for (const directory of [...sharedLessonAssetDirectories, 'images/tipografia', 'images/font-previews']) {
     const expected = [...new Set([...references.matchAll(new RegExp('/' + directory + '/[^"\'\\s<>`)]+', 'g'))].map(match => match[0]))].sort()
-    assert.ok(expected.length > 0, 'published UX lessons retain their shared figures')
+    assert.ok(expected.length > 0, `${directory}: published lessons retain their selected figures and font specimens`)
     const actual = (await readdir(path.join(output, directory))).map(file => '/' + directory + '/' + file).sort()
-    assert.deepEqual(actual, expected, 'only figures referenced by published lessons are exported')
+    assert.deepEqual(actual, expected, `${directory}: only images referenced by published lessons are exported`)
+    for (const asset of actual)
+      assert.deepEqual(await readFile(path.join(output, asset)), await readFile(path.join(root, 'public', asset)), `${asset}: publication preserves the original selected image bytes`)
   }
   const lessonArtwork = JSON.parse(await readFile(path.join(root, 'data/card-artwork-local.json'), 'utf8'))
   for (const asset of Object.values(lessonArtwork.assets)) {

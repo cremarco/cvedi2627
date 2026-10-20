@@ -307,6 +307,12 @@
       "usare": null
     },
     "tipografia-griglie": {
+      "riconoscere le forme": "tipografia-griglie-forme",
+      "scegliere i caratteri": "tipografia-griglie-scelta",
+      "verificare la lettura": "tipografia-griglie-lettura",
+      "disegno": null,
+      "contesto": null,
+      "verifica": null,
       "progettare il testo": null,
       "organizzare lo spazio": null,
       "costruire un sistema": null,
@@ -489,9 +495,12 @@
     "ricerca-inclusiva-wcag-aaa": "/images/generated/theme-2026/cards/ux-research-wcag-aaa-v1.webp",
     "ricerca-inclusiva-verification": "/images/generated/theme-2026/cards/ux-research-verification-v1.webp",
     "ricerca-inclusiva-profile": "/images/generated/theme-2026/cards/ux-research-profile-v1.webp",
-    "ricerca-inclusiva-evidence": "/images/generated/theme-2026/cards/ux-research-evidence-v1.webp"
+    "ricerca-inclusiva-evidence": "/images/generated/theme-2026/cards/ux-research-evidence-v1.webp",
+    "tipografia-griglie-forme": "/images/generated/theme-2026/cards/lesson-08/tipografia-griglie-forme.webp",
+    "tipografia-griglie-scelta": "/images/generated/theme-2026/cards/lesson-08/tipografia-griglie-scelta.webp",
+    "tipografia-griglie-lettura": "/images/generated/theme-2026/cards/lesson-08/tipografia-griglie-lettura.webp"
   },
-  "policy": "selective; null explicitly omits artwork; compact cards suppress corner motifs except the lesson 03 three-column variant",
+  "policy": "selective; null explicitly omits artwork; illustrated card variants reserve their own corner space according to the owning lesson",
   "thematicAssets": {
     "introduction-goals": "/images/generated/theme-2026/process/introduction-goals-map-v3.webp",
     "introduction-research": "/images/generated/theme-2026/process/introduction-research-map-v3.webp",

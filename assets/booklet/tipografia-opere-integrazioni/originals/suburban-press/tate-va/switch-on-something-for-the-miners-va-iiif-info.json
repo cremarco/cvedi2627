@@ -1,0 +1,23 @@
+{
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "@id" : "https://framemark.vam.ac.uk/collections/2018LE9665",
+  "protocol" : "http://iiif.io/api/image",
+  "width" : 768,
+  "height" : 748,
+  "sizes" : [
+     { "width" : 192, "height" : 187 },
+     { "width" : 384, "height" : 374 }
+  ],
+  "tiles" : [
+     { "width" : 256, "height" : 256, "scaleFactors" : [ 1, 2, 4 ] }
+  ],
+  "profile" : [
+     "http://iiif.io/api/image/2/level1.json",
+     { "formats" : [ "jpg" ],
+       "qualities" : [ "native","color","gray","bitonal" ],
+       "supports" : ["regionByPct","regionSquare","sizeByForcedWh","sizeByWh","sizeAboveFull","rotationBy90s","mirroring"],
+       "maxWidth" : 2500,
+       "maxHeight" : 2500
+     }
+  ]
+}

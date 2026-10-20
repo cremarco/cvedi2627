@@ -195,11 +195,13 @@
 .slidev-layout.default .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-body { min-height: 168px; padding-inline-end: 176px; }
 .slidev-layout.default .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-background { display: block; }
 .slidev-layout.default[data-lesson="storia-design"] .cvedi-grid.three > .has-card-artwork .card-body,
+.slidev-layout.default[data-lesson="tipografia-griglie"] .cvedi-grid.three > .has-card-artwork .card-body,
 .slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-body,
 .slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-body { padding-bottom: 112px; }
 .slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-body,
 .slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid:has(> .cvedi-card:nth-child(2):last-child) > .has-card-artwork .card-body { min-height: 0; padding-inline-end: 24px; }
 .slidev-layout.default[data-lesson="storia-design"] .cvedi-grid.three > .has-card-artwork .card-background,
+.slidev-layout.default[data-lesson="tipografia-griglie"] .cvedi-grid.three > .has-card-artwork .card-background,
 .slidev-layout.default[data-lesson="ricerca-inclusiva"] .cvedi-grid:is(.three, .four) > .has-card-artwork .card-background,
 .slidev-layout.default[data-lesson="percezione-gerarchia"] .cvedi-grid > .has-card-artwork .card-background { display: block; width: 96px; height: 96px; right: -16px; bottom: -16px; }
 .slidev-layout.default .cvedi-card .card-note { color: #475569; font: 400 var(--cvedi-type-note)/1.45 var(--theme-font); }

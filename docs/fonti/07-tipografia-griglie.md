@@ -1,62 +1,220 @@
-# Lezione 08 · Tipografia, griglie e interfacce
+# Lezione 08 · Tipografia
 
-Fonte: Booklet CVeDI · C03 Processo UX, pagine Figma [C03.08 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1115) e [C03.09 · Griglie e interfacce](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1116). Tavole 157–200; contenuti visibili estratti il 7 ottobre 2026.
+114 slide, 69,5 minuti pianificati. La lezione tratta esclusivamente la tipografia: storia, anatomia, famiglie, classificazioni, caratteristiche, esempi, leggibilità e composizione. L’attività tipografica di 10 minuti resta nel percorso. Le 19 slide su griglie, interfacce e relative attività sono conservate con testi, note e mapping in `assets/booklet/lezione-08-tipografia/griglie-interfacce-archive.json`; immagini, originali e attribuzioni restano disponibili.
 
-Numerazione delle fonti: le tabelle conservano gli ordinali dello snapshot storico del 7 ottobre 2026 (260 tavole). La revisione Figma del 9 ottobre 2026 contava 289 tavole, con 10 tavole di apertura e 59 nella sezione culturale. Le sei aperture delle dimensioni separano i due poli con immagini concettuali; ciascuna è seguita da una tavola distinta con il grafico nativo e i dati The Culture Factor consultati il 9 ottobre 2026. In quella revisione, le tavole teoriche occupavano le posizioni 11–47, seguite dalla tavola ponte 48; i casi completi McDonald’s 49–64 e Alibaba 65–69 conservano testi e immagini delle pagine PDF 172–187 dell’edizione 2024. Le corrispondenze fra snapshot e revisioni sono registrate in figmaPages.sourceOrdinalMap e la mappa dei casi in currentIntegralCaseRevision, nel registro assets/booklet/capitolo-3/testo-figma-aggiornato.json. Lo scarto di 29 posizioni agli ordinali storici 41–260 descrive quella revisione; non va applicato ai folio successivi. Per la corrispondenza con una fonte occorre usare la mappa della sua revisione. Le tabelle delle slide, i minuti, i conteggi e lo snapshot storico non sono rinumerati dalla revisione Figma.
+## Fonte corrente e fonte storica
 
-46 slide, 120 minuti. Testi adattati per la presentazione; esempi, qualificazioni e figure conservano il riferimento al booklet. Le attività sono adattamenti didattici.
+Lo snapshot della sezione [C09 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4226-16023), acquisito il 19 ottobre 2026, comprende 150 tavole ai folio 332–481. È conservato in `assets/booklet/lezione-08-tipografia/figma-source.json`, con identità delle tavole, testi visibili, figure, crediti e collegamenti. I 225 URL unici estratti dai collegamenti attivi e dai testi visibili sono registrati in `figma-links.json`, con 251 associazioni fra tavole e URL.
 
-| Slide | Titolo | Tavole C03 | Minuti |
-| --- | --- | --- | --- |
-| 1 | Tipografia, griglie e interfacce | 157 | 0.5 |
-| 2 | Dal testo alla struttura | 157, 158 | 0.5 |
-| 3 | Cosa impareremo | 157, 158 | 2 |
-| 4 | Il prototipo rende concrete le idee | 157 | 1.5 |
-| 5 | Tipografia: lettere e relazioni | 158 | 2 |
-| 6 | Dai caratteri mobili al corsivo | 159 | 2 |
-| 7 | Composizione e stampa: due processi | 159, 160 | 2 |
-| 8 | Dalla Linotype ai sistemi digitali | 160 | 2.5 |
-| 9 | L’anatomia dei caratteri | 161, 162 | 2.5 |
-| 10 | Typeface, font e glifo | 163 | 2 |
-| 11 | Famiglie tipografiche a confronto | 163, 164 | 2.5 |
-| 12 | Legibility e readability | 165 | 2 |
-| 13 | Dalla lettera al testo | 165, 166 | 2.5 |
-| 14 | Il ritmo verticale | 167 | 2 |
-| 15 | Il ritmo orizzontale | 168 | 2.5 |
-| 16 | Scegliere il tono del carattere | 169, 170 | 2 |
-| 17 | Il peso nella famiglia tipografica | 171, 172 | 2.5 |
-| 18 | X-height: proporzioni delle minuscole | 173 | 2.5 |
-| 19 | Con grazie, senza grazie, forme ibride | 174 | 2.5 |
-| 20 | Contrasto tra i tratti | 175 | 2.5 |
-| 21 | Terminali e arrotondamenti | 176 | 2.5 |
-| 22 | Moderni, script e display | 177 | 2 |
-| 23 | Tre registri tipografici | 177, 178 | 2.5 |
-| 24 | Conservare il disegno del carattere | 179 | 2 |
-| 25 | Allineamento e gerarchia | 180, 181 | 2 |
-| 26 | Contrasto e link riconoscibili | 182 | 2 |
-| 27 | Mettere alla prova il sistema tipografico | 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 10 |
-| 28 | Anatomia della griglia | 183, 184 | 2.5 |
-| 29 | La griglia editoriale | 185 | 2.5 |
-| 30 | La griglia nel web | 186 | 2.5 |
-| 31 | Responsive e adaptive | 187, 188 | 2.5 |
-| 32 | Canoni compositivi | 189 | 2 |
-| 33 | Distribuire il peso nella composizione | 189, 190 | 2.5 |
-| 34 | Un’interfaccia collega persona e prodotto | 191, 192 | 1.5 |
-| 35 | Riconoscere un’identità visiva | 193 | 2.5 |
-| 36 | Gerarchie per il pagamento | 194 | 2.5 |
-| 37 | Stesso contenuto, interpretazioni diverse | 195 | 2.5 |
-| 38 | Memorabilità e forma | 196 | 2.5 |
-| 39 | Architettura dell’interfaccia | 197 | 2 |
-| 40 | Sistemi di identità | 198 | 2 |
-| 41 | Look and feel | 199 | 2 |
-| 42 | Menu, pulsanti e controlli | 200 | 2 |
-| 43 | Dal testo alla griglia | 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200 | 12 |
-| 44 | Confrontare le strutture | 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200 | 6 |
-| 45 | Tre idee da portare nel progetto | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200 | 2 |
-| 46 | Prima della lezione sui prototipi | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200 | 2 |
+Le slide 5–110 sviluppano storia della stampa, anatomia, famiglie, classificazioni, caratteristiche, esempi e contesti, leggibilità e composizione; la slide 111 raccoglie i riferimenti bibliografici. I loro riferimenti al booklet usano esclusivamente lo snapshot tipografico del 19 ottobre: non ricevono ordinali inventati dello snapshot precedente. Le fonti esterne del video della Linotype e della schermata di Microsoft Bob sono documentate separatamente. La schermata della slide 92 proviene da [Microsoft Design](https://microsoft.design/articles/why-we-love-to-hate-comic-sans/): originale, pagina fonte, attribuzione e hash sono in `assets/booklet/tipografia-microsoft-bob/`. Copertina e sintesi conservano le fonti storiche e aggiungono il raccordo corrente.
 
-## Crediti e riferimenti nel booklet
+Le parti introduttive, l’attività alla slide 112 e la chiusura alle slide 113–114 conservano soltanto i riferimenti tipografici dello snapshot del 7 ottobre 2026: [C03.08 · Tipografia](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=2613-1115), tavole 157–182 dello snapshot di 260 tavole. Questi ordinali descrivono l’acquisizione e non i folio correnti. I riferimenti a griglie e interfacce, tavole 183–200, restano nel nuovo archivio escluso dal percorso attivo. Le 22 slide tipografiche della revisione precedente restano in `lezioni/archivio/07-tipografia-pre-revisione.md`, con la mappa in `assets/booklet/lezione-08-tipografia/previous-mapping.json`.
 
-Gli originali delle figure, le fonti e le codifiche sono registrati in `assets/booklet/capitolo-3/slide-assets.json`. I materiali di terzi conservano i rispettivi diritti.
+La figura della slide 24 è stata ridisegnata il 20 ottobre 2026 in due pannelli: riferimenti verticali e sei dettagli anatomici. Il nuovo schema originale usa i contorni autentici di Roboto Serif 500 e riprende la chiarezza degli esempi di [Monotype](https://www.monotype.com/resources/expertise/typography-terms-and-definitions), con il controllo terminologico di [Google Fonts](https://fonts.google.com/knowledge/glossary/x_height) e la distinzione fra corpo e contorni del [W3C](https://www.w3.org/TR/CSS2/fonts.html#font-size-props). La stessa composizione è riportata in Figma nelle tavole `4345:53282` e `4345:53410`, oggi ai folio 360–361, con testi nativi DM Sans e token del booklet. La mappa sottostante conserva i folio dello snapshot del 19 ottobre; questa revisione mirata non lo riscrive. Generatore, font, licenze, misure e provenienza sono in `assets/booklet/tipografia-anatomia-revisione/`; la figura precedente resta conservata.
 
-- Tavola 170: Spunto: approfondimenti di Ferrara e Gentile; Childers e Jass, 2002.
+La slide 10 affianca al romano di Jenson un dettaglio autentico del gotico della Bibbia di Gutenberg. Tre righe della scansione Bayerische Staatsbibliothek, 2 Inc.s.a. 197-1, folio 5r, sono mostrate attraverso un viewport SVG, con il JPEG originale incorporato byte per byte. Il manifesto IIIF dichiara Public Domain Mark 1.0; la digitalizzazione è del progetto HUMI della Keio University. La pagina completa resta alla slide 9. Etichette, ingrandimento condiviso e note guidano il confronto fra tratti spezzati, ritmo verticale e forme più aperte. Provenienza, diritti, coordinate e generatore sono in `assets/booklet/tipografia-gotico/`; la [Library of Congress](https://www.loc.gov/exhibits/bibles/interactives/gutenberg/text.html) identifica il tipo della Bibbia come Textura, o Black Letter Gothic.
+
+La slide 100 riprende le due figure originali delle slide 104–105 di `materiali/lezioni/2025-2026/07-tipografia-accessibilita.pdf`: «kerning» con e senza regolazione e «tracking» con spaziatura crescente. Le immagini sono estratte alla risoluzione nativa con le maschere di trasparenza del PDF. Originali, estrattore e attribuzioni disponibili sono conservati in `assets/booklet/tipografia-spaziatura-recupero/`; le definizioni correnti distinguono crenatura, tracking e spazio fra parole.
+
+Otto aperture di sezione rendono espliciti i passaggi fra storia, anatomia, font e famiglie, classificazioni, caratteristiche, esempi, leggibilità e composizione. Riprendono la copertina metro `ux-type`, con etichetta «Sezione 01»–«Sezione 08». Ogni apertura richiama le fonti del blocco che introduce e ha durata pianificata zero. L’attività tipografica e le due slide conclusive chiudono il percorso.
+
+Le 114 slide includono note del relatore in prosa semplice, pronte per la lettura durante la lezione. La verifica del booklet in Figma del 20 ottobre 2026 comprende 170 tavole ai folio 332–501, incluse le due tavole documentarie sui cataloghi IKEA 2009 e 2010 e l’anatomia aggiornata. Le note seguono i contenuti pertinenti delle tavole correnti, le fonti storiche delle parti introduttive e della sintesi tipografica, e le correzioni già accettate nella verifica delle slide. Le aperture hanno un raccordo breve; l’attività tipografica conserva la consegna e i tempi previsti. Le note di apertura e chiusura sono aggiornate al tema esclusivamente tipografico. Il confronto delle fonti, la corrispondenza per ID e i controlli di lettura sono riproducibili in `reports/typography-speaker-notes/`.
+
+La verifica dei contenuti precisa l’ottavo come otto carte per foglio ([University of Chicago Library](https://guides.lib.uchicago.edu/earlyprintedbooks)), il collegamento della g a due piani e il titolo del confronto serif. La sintesi degli studi sulla leggibilità resta limitata ai compiti e alle misure esaminati; [WCAG 1.4.8](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html) è riferita a una modalità disponibile per blocchi di testo, con massimo 80 caratteri o glifi per riga (40 per CJK). I tre schemi originali conservati nell’archivio di griglie e interfacce, in `assets/booklet/tipografia-correttezza/`, sostituivano la separazione client/server nel confronto responsive–adaptive, le percentuali di attenzione prive di fonte nella regola dei terzi e i marchi Google usati come illustrazione dell’architettura della schermata. I nuovi schemi si basano su [web.dev](https://web.dev/learn/design/intro), [Marcotte](https://alistapart.com/article/responsive-web-design/), [Adobe](https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html) e [CSS Grid](https://www.w3.org/TR/css-grid-1/#grid-concepts); i vettori, il generatore, i font e le licenze sono registrati nel relativo manifest. Le immagini originali e lo snapshot acquisito del booklet restano conservati.
+
+La verifica corrente esclude «Prove esplorative», già rimossa dal booklet. La slide precedente 93 è conservata integralmente con note e mapping in `assets/booklet/lezione-08-tipografia/booklet-esclusioni-archive.json`; i livelli nascosti che documentano la rimozione sono registrati in `booklet-esclusioni-evidence.json`. Le tavole autonome «Cereal: lo specimen» e «Netflix Sans: lo specimen» risultano anch’esse rimosse, ma non avevano slide dedicate. Il confronto Cereal/Reith/Netflix della slide 71 appartiene alla sezione generale 9.6.9 ancora attiva. Gli alias superstiti restano stabili; dalla precedente slide 94 in poi il numero diminuisce di uno. L’acquisizione delle 150 tavole conserva tutti i suoi riferimenti sull’unione di percorso e archivio.
+
+## Corrispondenza delle slide
+
+| Slide | Titolo | Folio correnti C09 | Tavole storiche C03 | Minuti |
+| --- | --- | --- | --- | --- |
+| 1 | Tipografia | 332, 333 | 157 | 0.5 |
+| 2 | Dal disegno alla lettura | 332, 333, 334 | 157, 158 | 0.5 |
+| 3 | Cosa impareremo | — | 157, 158 | 2 |
+| 4 | La tipografia dà forma al testo | — | 157 | 1.5 |
+| 5 | Storia e trasformazioni | 334, 335 | — | 0 |
+| 6 | Dare forma alle parole | 334, 335 | — | 0.5 |
+| 7 | Prima dei tipi | 335, 336 | — | 0.5 |
+| 8 | La stampa prima di Gutenberg | 336, 337 | — | 0.5 |
+| 9 | Il sistema di Gutenberg | 338, 339, 340 | — | 0.5 |
+| 10 | Venezia e il romano | 339, 340, 341 | — | 0.5 |
+| 11 | Manuzio e Griffo | 341, 342 | — | 0.5 |
+| 12 | Firenze: tipi e officine | 343 | — | 0.5 |
+| 13 | Riformulare il romano | 343, 344, 345 | — | 0.5 |
+| 14 | Lettere per la città | 345, 346 | — | 0.5 |
+| 15 | Comporre e stampare | 346, 348, 349 | — | 0.5 |
+| 16 | La Linotype in azione | 346, 348, 349 | — | 2 |
+| 17 | Morris: studiare e ridisegnare | 347, 348, 349 | — | 0.5 |
+| 18 | La parola diventa immagine | 349, 350 | — | 0.5 |
+| 19 | Progettare l’alfabeto | 351, 352 | — | 0.5 |
+| 20 | Lettere e potere | 352, 353 | — | 0.5 |
+| 21 | La tipografia svizzera | 354 | — | 0.5 |
+| 22 | Dal pixel al contorno | 355, 356 | — | 0.5 |
+| 23 | Anatomia delle lettere | 356, 357, 358 | — | 0 |
+| 24 | Il corpo non è la sagoma | 356, 357, 358 | — | 0.5 |
+| 25 | Linea di base e altezze | 358, 359 | — | 0.5 |
+| 26 | Ascendenti e discendenti | 360, 361 | — | 0.5 |
+| 27 | Aste, braccia e gambe | 361, 362 | — | 0.5 |
+| 28 | Spalle, orecchi, spine, code | 362, 363, 364 | — | 0.5 |
+| 29 | Barre, grazie, terminali | 364, 365 | — | 0.5 |
+| 30 | Disegnare anche il vuoto | 366, 367 | — | 0.5 |
+| 31 | Collegamenti e sporgenze | 367, 368 | — | 0.5 |
+| 32 | Font e famiglie | 369 | — | 0 |
+| 33 | Disegno, famiglia, font | 369 | — | 0.5 |
+| 34 | Caratteri e glifi | 369, 370 | — | 0.5 |
+| 35 | Gesto, disegno, repertorio | 371, 372 | — | 0.5 |
+| 36 | Due risposte ai vincoli | 372, 373, 382 | — | 0.5 |
+| 37 | Pesi e posture | 373, 374, 375 | — | 0.5 |
+| 38 | Legature e OpenType | 375, 376 | — | 0.5 |
+| 39 | Maiuscoletto e cifre | 376, 377 | — | 0.5 |
+| 40 | Scritture e copertura | 377, 378, 379, 380 | — | 0.5 |
+| 41 | Un intervallo progettato | 379, 380, 381 | — | 0.5 |
+| 42 | Formati e condizioni d’uso | 380, 381 | — | 0.5 |
+| 43 | Classificare le forme | 383, 384 | — | 0 |
+| 44 | Le classificazioni sono mappe | 383, 384 | — | 0.5 |
+| 45 | Le direzioni dei serif | 384, 385, 386, 387 | — | 0.5 |
+| 46 | Times e Georgia | 387 | — | 0.5 |
+| 47 | Grazie robuste e ibridi | 387, 388 | — | 0.5 |
+| 48 | Dentro i sans serif | 388, 389, 390 | — | 0.5 |
+| 49 | Il gesto scritto e il gotico | 391 | — | 0.5 |
+| 50 | Caratteristiche e relazioni | 392 | — | 0 |
+| 51 | Uso e avanzamento | 392 | — | 0.5 |
+| 52 | Peso e larghezza | 393, 394 | — | 0.5 |
+| 53 | L’equilibrio delle altezze | 394, 395 | — | 0.5 |
+| 54 | Contrasto e asse | 395, 396 | — | 0.5 |
+| 55 | Il profilo dei tratti | 396, 397, 398 | — | 0.5 |
+| 56 | Correggere per la percezione | 398, 399 | — | 0.5 |
+| 57 | Scala e dimensione ottica | 399, 400 | — | 0.5 |
+| 58 | La voce delle forme | 399, 400, 401 | — | 0.5 |
+| 59 | Che cosa misurano gli studi | 400, 401 | — | 0.5 |
+| 60 | Forma e significato | 401 | — | 0.5 |
+| 61 | Esempi e contesti | 402, 403 | — | 0 |
+| 62 | Leggere le scelte nelle lettere | 402, 403 | — | 0.5 |
+| 63 | Coca-Cola: il nome come disegno | 403, 404 | — | 0.5 |
+| 64 | Tiffany e Vogue: grazie e contrasto | 404, 405 | — | 0.5 |
+| 65 | RAI e Diadora: geometrie diverse | 406, 407 | — | 0.5 |
+| 66 | Langosteria: una voce, più ruoli | 407, 408, 409 | — | 0.5 |
+| 67 | Roissy: provare la parola intera | 410, 411 | — | 0.5 |
+| 68 | Helvetica e Futura a confronto | 411, 412, 413 | — | 0.5 |
+| 69 | IKEA: continuità e sostituzione | 413, 414 | — | 0.5 |
+| 70 | Apple e Android: caratteri di sistema | 415, 416 | — | 0.5 |
+| 71 | Cereal, Reith e Netflix Sans | 416, 417, 418, 453 | — | 0.5 |
+| 72 | Duolingo: ruoli e tono | 418, 419, 420 | — | 0.5 |
+| 73 | Semplificare senza perdere il nome | 420, 421 | — | 0.5 |
+| 74 | Lettere disegnate per il manifesto | 421, 422, 423 | — | 0.5 |
+| 75 | Olivetti: nome, modello, messaggio | 424, 425 | — | 0.5 |
+| 76 | Barilla: marchio e promessa | 425, 426 | — | 0.5 |
+| 77 | Blue Note: il ritmo delle parole | 427, 428 | — | 0.5 |
+| 78 | Parole e pause nei lyric video | 428, 429 | — | 0.5 |
+| 79 | Jamie Reid e Persona 5: i ritagli | 429, 430, 431 | — | 0.5 |
+| 80 | Cinema: leggere una sequenza | 431, 432, 433 | — | 0.5 |
+| 81 | Videogiochi: nome e lettura | 434, 435 | — | 0.5 |
+| 82 | La parola come immagine | 435, 436, 437 | — | 0.5 |
+| 83 | Lettere come spazio | 437, 438, 439 | — | 0.5 |
+| 84 | Montecatini Pro: dal segno al sistema | 440, 441 | — | 0.5 |
+| 85 | Mancini: il nome e le altre parole | 441, 442 | — | 0.5 |
+| 86 | Rustichella e Aesop: voci a confronto | 441, 442, 443 | — | 0.5 |
+| 87 | Calligrafia, lettering e contorno | 444, 445 | — | 0.5 |
+| 88 | Tropicana: osservare senza forzare le cause | 445, 446 | — | 0.5 |
+| 89 | Gotham: un’associazione costruita | 446, 447, 448 | — | 0.5 |
+| 90 | Un’identità fra scritture diverse | 448, 449 | — | 0.5 |
+| 91 | Happy Meal e McCafé: due registri | 449, 450 | — | 0.5 |
+| 92 | Comic Sans: giudicare il contesto | 450, 451 | — | 0.5 |
+| 93 | Product Sans e Ray Gun | 454 | — | 0.5 |
+| 94 | Leggibilità e lettura | 455, 456 | — | 0 |
+| 95 | Riconoscere i segni, seguire il discorso | 455, 456 | — | 0.5 |
+| 96 | Quando una lettera somiglia a un’altra | 456, 457 | — | 0.5 |
+| 97 | Dimensione apparente e distanza | 457, 458 | — | 0.5 |
+| 98 | Ritmo fra righe e paragrafi | 458, 459, 460 | — | 0.5 |
+| 99 | Allineamento e sillabazione | 460, 461 | — | 0.5 |
+| 100 | Crenatura e spaziatura | 461, 462 | — | 0.5 |
+| 101 | Unità e colore tipografico | 462, 463 | — | 0.5 |
+| 102 | Leggibilità: che cosa mostrano gli studi | 463, 464 | — | 0.5 |
+| 103 | Quando il lettore cambia il testo | 464, 465 | — | 0.5 |
+| 104 | Comporre e verificare | 465, 466, 467 | — | 0 |
+| 105 | Partire dalle parole e assegnare ruoli | 465, 466, 467 | — | 0.5 |
+| 106 | Far entrare il testo rispettando il disegno | 467, 468 | — | 0.5 |
+| 107 | Correggere i segni prima della resa | 468, 469 | — | 0.5 |
+| 108 | Dare enfasi con un compito | 469, 470 | — | 0.5 |
+| 109 | Contrasto e riconoscibilità dei link | 470, 471 | — | 0.5 |
+| 110 | Verificare anche senza il font | 471, 472 | — | 0.5 |
+| 111 | Fonti per continuare il confronto | 473, 474, 475, 476, 477, 478, 479, 480, 481 | — | 0.5 |
+| 112 | Mettere alla prova il sistema tipografico | — | 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 10 |
+| 113 | Tre idee da portare nel progetto | — | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 2 |
+| 114 | Una scelta tipografica da motivare | — | 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182 | 2 |
+
+## Video della Linotype
+
+La slide 16, «La Linotype in azione», riprende [Linotype Setzmaschine - 3D Animation](https://www.youtube.com/watch?v=9Za8QJp8eK8), di Sylvia Itzigehl. Il collegamento è quello già presente nella pagina 11 di `materiali/lezioni/2025-2026/07-tipografia-accessibilita.pdf`, preceduta dalla spiegazione della Linotype alla pagina 10. Titolo e autore sono stati verificati tramite l’endpoint oEmbed ufficiale di YouTube il 20 ottobre 2026; annotazione originale, hash del PDF e metadati sono conservati in `assets/booklet/lezione-08-tipografia/video-linotype-source.json`.
+
+Il player ufficiale è incorporato su richiesta, con attribuzione e collegamento diretto al video; il file video non viene scaricato né redistribuito. I due minuti della slide sono il tempo didattico pianificato e non una durata certificata del filmato. Il riferimento tematico conserva le tavole dello snapshot tipografico del 19 ottobre, senza attribuire il video al booklet Figma.
+
+## Figure, crediti e licenze
+
+Le figure delle nuove slide conservano la composizione, la palette e le attribuzioni della fonte corrente, con ingrandimento condiviso e senza cornici. Didascalie e testi alternativi identificano opere, autori e istituzioni; le riproduzioni documentarie non ricevono filtri cromatici. Originali esportati, provenienza e registrazione delle immagini sono in `assets/booklet/lezione-08-tipografia/` e `assets/booklet/capitolo-3/slide-assets.json`. I materiali di terzi conservano i rispettivi diritti: la presenza di un collegamento documenta la fonte e non implica una licenza di riutilizzo ulteriore.
+
+Fra i crediti espliciti figurano Bibliothèque nationale de France per il Jikji; Library of Congress per la Bibbia di Gutenberg; Atalanta/WeiaR e Wikimedia Commons (CC BY-SA 4.0) per l’Eusebio di Jenson; la collezione T. Kimball Brooker e Sotheby’s per Orazio; musei, archivi, fonderie e autori indicati nelle singole didascalie. Per le figure storiche di griglie e interfacce valgono originali, fonti e codifiche di `assets/booklet/capitolo-3/slide-assets.json`. Lo snapshot precedente conservava per la tavola 170 lo spunto dagli approfondimenti di Ferrara e Gentile e il riferimento a Childers e Jass (2002).
+
+## Collegamenti delle figure e dei casi
+
+I collegamenti seguenti sono quelli visibili e attivi nelle tavole acquisite; i parametri degli URL documentari sono conservati nel registro JSON. Il folio identifica la fonte corrente, distinta dall’ordinale storico.
+
+| Folio | Tavola | Fonti e crediti collegati |
+| --- | --- | --- |
+| 332 | Indice | [www.figma.com 1](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=4408-8498) |
+| 340 | Documento · La Bibbia di Gutenberg | [www.loc.gov 1](https://www.loc.gov/item/2006680004/) |
+| 347 | Documento · William Morris e la Kelmscott Press | [www.metmuseum.org 1](https://www.metmuseum.org/art/collection/search/354288) |
+| 368 | Collegamenti, svolazzi e speroni | [github.com 1](https://github.com/google/fonts/tree/main/ofl/worksans) |
+| 370 | Caratteri e glifi | [github.com 1](https://github.com/weiweihuanghuang/Work-Sans) |
+| 375 | Pesi, tondo, corsivo e obliquo / Legature e varianti OpenType | [github.com 1](https://github.com/google/fonts/tree/main/ofl/ebgaramond) |
+| 382 | New Alphabet e Neue Swift: gli specimen | [cms.myfonts.com 1](https://cms.myfonts.com/sites/default/files/2023-10/Neue-Swift-Font-Field-Guide.pdf) · [www.thefoundrytypes.com 2](https://www.thefoundrytypes.com/fonts/new-alphabet/) |
+| 405 | Tiffany e Vogue: grazie e contrasto | [pentagram-production.imgix.net 1](https://pentagram-production.imgix.net/adc6a74e-51f1-4e83-8c2b-b20b3b08c9b3/ps_tiffany_03.jpg?auto=compress%2Cformat&fit=min&fm=jpg&q=80&rect=%2C%2C%2C&w=640&crop=1&fit=crop&h=427&s=ab105bb6f14eecc0df512888270a1672) · [www.vogue.com 2](https://www.vogue.com/) |
+| 406 | Geometria e continuità: RAI e Diadora | [inarea.com 1](https://inarea.com/wp-content/uploads/2023/05/20230530_CP_INAREA_Signage_WayfindingV2.pdf) · [www.diadora.com 2](https://www.diadora.com/) |
+| 408 | La tipografia di Langosteria | [cba-design.com 1](https://cba-design.com/italy/work/langosteria-rebranding/) |
+| 412 | Helvetica e Futura a confronto | [www.monotype.com 1](https://www.monotype.com/sites/default/files/styles/width_810/public/2020-10/Futura_specimen_1.webp?itok=7gDsqU5B) · [www.monotype.com 2](https://www.monotype.com/sites/default/files/styles/width_810/public/2020-10/Futura_specimencover_0.webp?itok=aNC-Ylge) |
+| 413 | Helvetica e Futura a confronto / IKEA: da Futura a Verdana | [www.monotype.com 1](https://www.monotype.com/resources/expertise/will-real-futura-please-stand) · [www.monotype.com 2](https://www.monotype.com/sites/default/files/styles/width_810/public/2019-10/mt_images-article_helvetica_bodyimage2_1540x1032_0.webp?itok=6TD_fg01) |
+| 414 | IKEA: da Futura a Verdana | [ikeamuseum.com 1](https://ikeamuseum.com/en/explore/ikea-catalogue/2010-ikea-catalogue/) |
+| 415 | I caratteri di sistema di Apple e Android | [developer.apple.com 1](https://developer.apple.com/fonts/images/san-francisco-light_2x.png) |
+| 417 | Cereal, Reith e Netflix Sans | [www.daltonmaag.com 1](https://www.daltonmaag.com/img/1k/8e81c594a4/BBC-Reith-Mobile-App-BBC-Sounds.jpg) |
+| 418 | Cereal, Reith e Netflix Sans / Duolingo e Calm: ruoli e tono del testo | [www.daltonmaag.com 1](https://www.daltonmaag.com/img/4k/eb455cf06f/BBC-Reith-Development-2.jpg) · [www.daltonmaag.com 2](https://www.daltonmaag.com/img/scalable/7dde59a67a/BBC-Reith-Font-Styles-Showcase-Card.svg) · [www.daltonmaag.com 3](https://www.daltonmaag.com/img/scalable/b401e337eb/BBC-Reith-Sans-Anatomy.svg) |
+| 419 | Duolingo e Calm: ruoli e tono del testo | [images.squarespace-cdn.com 1](https://images.squarespace-cdn.com/content/v1/59f3a3398a02c7a1de13a09e/1568582682001-UUPCJ2Z5VE6CDOTUSPKT/Duolingo_typography1.jpg) · [images.squarespace-cdn.com 2](https://images.squarespace-cdn.com/content/v1/59f3a3398a02c7a1de13a09e/1568584379177-8Q1KF2327IYCMFE07CFQ/Feather+Bold.+Typography) |
+| 420 | Duolingo e Calm: ruoli e tono del testo / La semplificazione dei logotipi | [storage.googleapis.com 1](https://storage.googleapis.com/gd-prod/images/a910d418-7123-4bc4-aa3b-ef7e25e74ae6.799a99c1196c2fd4.webp) |
+| 422 | Lettere disegnate per il manifesto | [www.lombardiabeniculturali.it 1](https://www.lombardiabeniculturali.it/assets/immagini/liv2/S310RL/SC/S/H0110/02/S_H0110-02150_IMG-0000162750.jpg) · [www.themorgan.org 2](https://www.themorgan.org/sites/default/files/pdf/exhibitions/BelleGreeneLargePrintLabels.pdf) |
+| 423 | Lettere disegnate per il manifesto | [depero.it 1](https://depero.it/wp-content/uploads/2019/10/1928_Campari-3-1.jpg) |
+| 424 | Olivetti e Barilla: marchio e messaggio | [www.archiviostoricolivetti.it 1](https://www.archiviostoricolivetti.it/wp-content/uploads/2023/01/img-7.jpg) · [www.archiviostoricolivetti.it 2](https://www.archiviostoricolivetti.it/wp-content/uploads/2023/01/img-8.jpg) |
+| 425 | Olivetti e Barilla: marchio e messaggio | [www.storiaolivetti.it 1](https://www.storiaolivetti.it/articolo/55-dalla-mp1-alla-valentine-passando-per-la-letter/) |
+| 426 | Olivetti e Barilla: marchio e messaggio | [catalogo.beniculturali.it 1](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0500670436) · [www.archiviostoricobarilla.com 2](https://www.archiviostoricobarilla.com/wp-content/uploads/2019/04/Pasta_on_Exhibition.pdf) |
+| 431 | Jamie Reid e Persona 5: lettere a ritagli / La tipografia nel cinema e nelle serie | [persona.atlus.com 1](https://persona.atlus.com/p5r/) |
+| 432 | La tipografia nel cinema e nelle serie | [a-g-i.s3.eu-west-3.amazonaws.com 1](https://a-g-i.s3.eu-west-3.amazonaws.com/saulbass/bass-north1.jpg) |
+| 433 | La tipografia nel cinema e nelle serie | [a-g-i.s3.eu-west-3.amazonaws.com 1](https://a-g-i.s3.eu-west-3.amazonaws.com/saulbass/bass-north2.jpg) · [imaginaryforces.com 2](https://imaginaryforces.com/images/pics/757_y6fpK6_stranger_things_8.jpg) |
+| 434 | La tipografia nei videogiochi | [gmedia.playstation.com 1](https://gmedia.playstation.com/is/image/SIEPDC/ratchet-and-clank-rift-apart-logo-blue-01-03aug21?$native--t$) · [gmedia.playstation.com 2](https://gmedia.playstation.com/is/image/SIEPDC/the-last-of-us-part-i-logo-black-horizontal-en-09jun22?$native$) |
+| 435 | La tipografia nei videogiochi / La parola come immagine | [www.playstation.com 1](https://www.playstation.com/en-us/games/horizon-zero-dawn/) |
+| 436 | La parola come immagine | [images.squarespace-cdn.com 1](https://images.squarespace-cdn.com/content/v1/5baedb2d7fdcb8259f92b2ae/1540200414109-GP7OY4RFMCKLD6ALKVRF/Elevator.jpg) · [images.squarespace-cdn.com 2](https://images.squarespace-cdn.com/content/v1/5baedb2d7fdcb8259f92b2ae/1540200414127-CS1NFB4F6S8GSBU0VMP7/Clock.jpg) |
+| 437 | La parola come immagine | [images.squarespace-cdn.com 1](https://images.squarespace-cdn.com/content/v1/5baedb2d7fdcb8259f92b2ae/1540200414824-N32ZB6VX4CI29TRST4VM/Gravity.jpg) |
+| 438 | La parola come immagine / La prospettiva tipografica di Apeloig | [www.nga.gov 1](https://www.nga.gov/artworks/93943-wendingen) |
+| 439 | La prospettiva tipografica di Apeloig | [d1hhug17qm51in.cloudfront.net 1](https://d1hhug17qm51in.cloudfront.net/www-media/2026/08/18015817/2016.289_01_H02-web.jpg) |
+| 442 | Marchi e testi: Mancini, Rustichella e Aesop | [www.pastamancini.com 1](https://www.pastamancini.com/) |
+| 443 | La voce nasce anche dalle lettere di accompagnamento | [rustichella.it 1](https://rustichella.it/) · [www.aesop.com 2](https://www.aesop.com/) · [www.rustichella.it 3](https://www.rustichella.it/) |
+| 444 | Calligrafia e lettering nei marchi | [uk.creations.mattel.com 1](https://uk.creations.mattel.com/pages/barbie-signature) · [www.kelloggs.com 2](https://www.kelloggs.com/en-tr/who-we-are/our-history.html) |
+| 447 | Gotham e la campagna Obama | [images.squarespace-cdn.com 1](https://images.squarespace-cdn.com/content/v1/626c10ed20dff048ffa8845e/58f9b0df-ff5f-4c91-8038-0f7da0938d3f/AP_071106035075_lightened.jpg) · [images.squarespace-cdn.com 2](https://images.squarespace-cdn.com/content/v1/626c10ed20dff048ffa8845e/9a46cd48-7136-48ee-bccd-f37846fab121/gotham-political-logos.jpg) |
+| 448 | Gotham e la campagna Obama / Conservare un’identità fra scritture diverse | [failover-www.uniqlo.com 1](https://failover-www.uniqlo.com/jp/ja/contents/feature/common/icons/header.svg) · [www.pepsico.com 2](https://www.pepsico.com/) |
+| 450 | Happy Meal e McCafé: due registri / Adeguatezza e pregiudizio: Comic Sans | [www.mcdonalds.com 1](https://www.mcdonalds.com/) · [www.mcdonalds.com 2](https://www.mcdonalds.com/ca/en-ca/newsroom/article/Sip-in-Style-McCafe-Canada-is-Launching-a-Fresh-New-Look.html) |
+| 451 | Adeguatezza e pregiudizio: Comic Sans | [learn.microsoft.com 1](https://learn.microsoft.com/en-us/typography/font-list/comic-sans-ms) |
+| 453 | Le prove esplorative sulla tipografia | [medium.com 1](https://medium.com/airbnb-design/working-type-81294544608b) · [www.noahnathan.com 2](https://www.noahnathan.com/netflix-sans) |
+| 454 | Product Sans e Ray Gun a confronto | [design.google 1](https://design.google/library/evolving-google-identity) · [www.davidcarsondesign.com 2](https://www.davidcarsondesign.com/t/tag/raygun/) |
+
+## Bibliografia corrente
+
+Le nove tavole bibliografiche ai folio 473–481 conservano i riferimenti completi e i collegamenti consultabili. Testi bibliografici, autori, titoli e date restano nello snapshot corrente; la tabella riporta tutti gli URL della rispettiva tavola.
+
+| Folio | Tavola Figma | Riferimenti collegati |
+| --- | --- | --- |
+| 473 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-8498) | [a-g-i.org 1](https://a-g-i.org/design/north-by-northwest) · [accademiadellacrusca.it 2](https://accademiadellacrusca.it/it/consulenza/guida-alluso-di-accenti-e-apostrofi-nellitaliano/100) · [apeloig.com 3](https://apeloig.com/entretien/?lang=en) · [archive.computerhistory.org 4](https://archive.computerhistory.org/resources/text/Aldus/aldus.folder.1987.102659290.pdf) · [archiviotipografico.it 5](https://archiviotipografico.it/en/collections/movable-type/eurostile/) · [atypi.org 6](https://atypi.org/2021/04/27/atypi-de-adopted-the-vox-atypi-typeface-classification-system/) · [bibliotecabodoni.usal.es 7](https://bibliotecabodoni.usal.es/libro/manuale-tipografico-1) · [commons.wikimedia.org 8](https://commons.wikimedia.org/wiki/File:JensonEusebius.jpg) · [depero.it 9](https://depero.it/2019/10/30/depero-e-campari-2/) · [developer.apple.com 10](https://developer.apple.com/documentation/technologyoverviews/fonts) · [developer.apple.com 11](https://developer.apple.com/fonts/) · [devstreaming-cdn.apple.com 12](https://devstreaming-cdn.apple.com/videos/wwdc/2014/209xxbyg01mfqt8/209/209_adapting_your_app_to_the_new_ui_of_os_x_yosemite.pdf) · [helpx.adobe.com 13](https://helpx.adobe.com/fonts/web/using/adobe-type-resources-faq.html) · [persona.atlus.com 14](https://persona.atlus.com/p5r/) · [pmc.ncbi.nlm.nih.gov 15](https://pmc.ncbi.nlm.nih.gov/articles/PMC4612630/) · [www.aesop.com 16](https://www.aesop.com/) · [www.apple.com 17](https://www.apple.com/newsroom/2015/06/08Apple-Announces-OS-X-El-Capitan-with-Refined-Experience-Improved-Performance/) · [www.archiviostoricobarilla.com 18](https://www.archiviostoricobarilla.com/wp-content/uploads/2019/04/Pasta_on_Exhibition.pdf) · [www.archiviostoricolivetti.it 19](https://www.archiviostoricolivetti.it/museo-digitale/lettera-22/) · [www.bundesarchiv.de 20](https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/BFi_36_Heidemeyer_Akten-Einsichten_barrierefrei.pdf) · [www.oscars.org 21](https://www.oscars.org/film-archive/collections/saul-bass-collection) · [www.storiaolivetti.it 22](https://www.storiaolivetti.it/articolo/55-dalla-mp1-alla-valentine-passando-per-la-letter/) |
+| 474 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-35633) | [bibliotecanazionalemarciana.cultura.gov.it 1](https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/) · [cba-design.com 2](https://cba-design.com/italy/work/langosteria-rebranding/) · [commons.wikimedia.org 3](https://commons.wikimedia.org/wiki/File:Schrifterlass_Antiqua1941.jpg) · [devstreaming-cdn.apple.com 4](https://devstreaming-cdn.apple.com/videos/wwdc/2015/804eub264zh3x4j9yb/804/804_introducing_the_new_system_fonts.pdf) · [doi.org 5](https://doi.org/10.1207/153276602760078631) · [flore.unifi.it 6](https://flore.unifi.it/handle/2158/1447474) · [lms.devry.edu 7](https://lms.devry.edu/lms/CourseExport/manual/files/DVU/TC310/documents--brumberger-persona.pdf) · [lucidafonts.com 8](https://lucidafonts.com/blogs/bigelow-holmes-blog/whats-the-difference-between-lucida-grande-and-helvetica-neue) · [web.archive.org 9](https://web.archive.org/web/20251211210624/https://exhibitions.lib.cam.ac.uk/manutius/artifacts/horatius-carmina-2/) · [web.archive.org 10](https://web.archive.org/web/20260418192723/https://exhibitions.lib.cam.ac.uk/manutius/artifacts/bembo-de-aetna/) · [www.bluenote.com 11](https://www.bluenote.com/blue-note-wall-art/) · [www.bluenote.com 12](https://www.bluenote.com/spotlight/lee-morgan-the-sidewinder/) · [www.bnf.fr 13](https://www.bnf.fr/en/jikji-treasure-world-printing) · [www.burberryplc.com 14](https://www.burberryplc.com/news/brand/2023/introducing-the-first-creative-expression-of-burberry-under-dani) · [www.calm.com 15](https://www.calm.com/) · [www.lib.cam.ac.uk 16](https://www.lib.cam.ac.uk/files/monotype_catalogue.pdf) · [www.myfonts.com 17](https://www.myfonts.com/pages/newsletters-cc-201310) · [www.vam.ac.uk 18](https://www.vam.ac.uk/blog/museum-life/william-morris-and-the-printed-book) |
+| 475 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-35712) | [commons.wikimedia.org 1](https://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg) · [design.google 2](https://design.google/library/evolving-google-identity) · [fonts.google.com 3](https://fonts.google.com/noto) · [github.com 4](https://github.com/google/fonts/tree/main/ofl/ebgaramond) · [github.com 5](https://github.com/google/fonts/tree/main/ofl/robotoserif) · [github.com 6](https://github.com/google/fonts/tree/main/ofl/worksans) · [guidance.publishing.service.gov.uk 7](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/style-guides/a-to-z-style-guide/) · [jonathanhoefler.com 8](https://jonathanhoefler.com/articles/history-of-the-gotham-font) · [mediengeschichte.dnb.de 9](https://mediengeschichte.dnb.de/DBSMZBN/Content/EN/TheAestheticsOfTheBook/09-jan-tschichold-elementare-typografie-en.html) · [web.archive.org 10](https://web.archive.org/web/20250331234946/https://design.duolingo.com/identity/typography) · [web.dev 11](https://web.dev/articles/font-best-practices) · [www.coca-cola.com 12](https://www.coca-cola.com/) · [www.coca-cola.com 13](https://www.coca-cola.com/ch/de/about-us/die-geschichte-des-coca-cola-logos) · [www.coca-colacompany.com 14](https://www.coca-colacompany.com/about-us/history/coke-lore-trademark-chronology) · [www.computerhistory.org 15](https://www.computerhistory.org/revolution/personal-computers/17/306) · [www.daltonmaag.com 16](https://www.daltonmaag.com/portfolio/custom-fonts/bbc-reith.html) · [www.davidcarsondesign.com 17](https://www.davidcarsondesign.com/t/tag/raygun/) · [www.diadora.com 18](https://www.diadora.com/) · [www.emigre.com 19](https://www.emigre.com/Fonts/Lo-Res) · [www.fastretailing.com 20](https://www.fastretailing.com/eng/ir/library/pdf/annual2006.pdf) · [www.louisefili.com 21](https://www.louisefili.com/montecatini-pro) · [www.myfonts.com 22](https://www.myfonts.com/pages/fontscom-learning-fontology-level-1-type-anatomy-type-classifications) · [www.thefoundrytypes.com 23](https://www.thefoundrytypes.com/fonts/new-alphabet/) · [www.typography.com 24](https://www.typography.com/blog/the-obama-typefaces) |
+| 476 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-35813) | [beta.imaginaryforces.com 1](https://beta.imaginaryforces.com/project/stranger-things) · [bethjohnson.design 2](https://bethjohnson.design/duolingo) · [doi.org 3](https://doi.org/10.1037/h0026506) · [doi.org 4](https://doi.org/10.1145/287821.287825) · [doi.org 5](https://doi.org/10.2466/pms.106.1.35-42) · [folklore.org 6](https://folklore.org/World_Class_Cities.html) · [ikeamuseum.com 7](https://ikeamuseum.com/en/explore/ikea-catalogue/2010-ikea-catalogue/) · [johnmarchantgallery.com 8](https://johnmarchantgallery.com/artists/jamie-reid-blurb-page) · [journals.uc.edu 9](https://journals.uc.edu/index.php/vl/article/view/5862) · [learn.microsoft.com 10](https://learn.microsoft.com/en-us/typography/develop/word-recognition) · [pleaseenjoy.com 11](https://pleaseenjoy.com/word-as-image) · [pmc.ncbi.nlm.nih.gov 12](https://pmc.ncbi.nlm.nih.gov/articles/PMC5934461/) · [www.carbondesignsystem.com 13](https://www.carbondesignsystem.com/building-blocks/foundations/typography/type-sets) · [www.commarts.com 14](https://www.commarts.com/project/24604/stranger-things-titles) · [www.ibm.com 15](https://www.ibm.com/plex/) · [www.ikeamuseum.com 16](https://www.ikeamuseum.com/en/explore/the-story-of-ikea/history-of-the-logotype/) · [www.kelloggs.com 17](https://www.kelloggs.com/en-tr/who-we-are/our-history.html) · [www.lego.com 18](https://www.lego.com/en-us/history/articles/f-a-modern-international-company) · [www.metmuseum.org 19](https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/alphabet) |
+| 477 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-35898) | [corporate.mcdonalds.com 1](https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-refreshes-mccafe-brand-visual-identity.html) · [developer.mozilla.org 2](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-family) · [developer.mozilla.org 3](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings) · [doi.org 4](https://doi.org/10.1111/j.2044-8295.1989.tb02317.x) · [doi.org 5](https://doi.org/10.3389/fpsyg.2023.1107839) · [exhibitions.letterformarchive.org 6](https://exhibitions.letterformarchive.org/bauhaus/artworks/original-lettering-for-universal-type) · [learn.microsoft.com 7](https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg) · [learn.microsoft.com 8](https://learn.microsoft.com/en-us/typography/opentype/spec/featurelist) · [learn.microsoft.com 9](https://learn.microsoft.com/en-us/typography/opentype/spec/gpos) · [learn.microsoft.com 10](https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview) · [learn.microsoft.com 11](https://learn.microsoft.com/en-us/typography/opentype/spec/ttch01) · [learn.microsoft.com 12](https://learn.microsoft.com/en-us/windows/win32/gdi/device-vs--design-units) · [loc.gov 13](https://loc.gov/exhibits/bibles/the-gutenberg-bible.html) · [microsoft.design 14](https://microsoft.design/articles/why-we-love-to-hate-comic-sans/) · [uk.creations.mattel.com 15](https://uk.creations.mattel.com/pages/barbie-signature) · [web.archive.org 16](https://web.archive.org/web/20250707130856/https://www.loc.gov/item/2006680004/) · [www.lombardiabeniculturali.it 17](https://www.lombardiabeniculturali.it/stampe/schede/H0110-02150/) · [www.mart.tn.it 18](https://www.mart.tn.it/opere-archivi/depero-dalla-a-alla-z-128038) · [www.mcdonalds.com 19](https://www.mcdonalds.com/ca/en-ca/newsroom/article/Sip-in-Style-McCafe-Canada-is-Launching-a-Fresh-New-Look.html) · [www.metmuseum.org 20](https://www.metmuseum.org/art/collection/search/354288) |
+| 478 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-35993) | [cms.myfonts.com 1](https://cms.myfonts.com/sites/default/files/2023-10/Neue-Swift-Font-Field-Guide.pdf) · [learn.microsoft.com 2](https://learn.microsoft.com/en-us/typography/font-list/comic-sans-ms) · [learn.microsoft.com 3](https://learn.microsoft.com/en-us/typography/font-list/franklin-gothic) · [learn.microsoft.com 4](https://learn.microsoft.com/en-us/typography/font-list/georgia) · [learn.microsoft.com 5](https://learn.microsoft.com/en-us/typography/font-list/times-new-roman) · [learn.microsoft.com 6](https://learn.microsoft.com/en-us/typography/font-list/verdana) · [learn.microsoft.com 7](https://learn.microsoft.com/en-us/typography/fonts/font-faq) · [learn.microsoft.com 8](https://learn.microsoft.com/en-us/typography/opentype/spec/) · [www.moma.org 9](https://www.moma.org/collection/works/13429) · [www.moma.org 10](https://www.moma.org/collection/works/185423) · [www.moma.org 11](https://www.moma.org/collection/works/185434) · [www.moma.org 12](https://www.moma.org/collection/works/31450) · [www.moma.org 13](https://www.moma.org/collection/works/6487) · [www.monotype.com 14](https://www.monotype.com/de/ressourcen/expertise/die-futura-des-jahrhunderts) · [www.monotype.com 15](https://www.monotype.com/fonts/helvetica-now) · [www.monotype.com 16](https://www.monotype.com/press-releases/monotype-introduces-helvetica-now-reinvented-to-meet-the-typographical-demands-of-today-s-creative-professionals) · [www.monotype.com 17](https://www.monotype.com/resources/articles/complicated-legacy-helvetica) · [www.monotype.com 18](https://www.monotype.com/resources/expertise/what-are-font-superfamilies) · [www.monotype.com 19](https://www.monotype.com/resources/expertise/will-real-futura-please-stand) · [www.monotype.com 20](https://www.monotype.com/resources/guide-type-styles) · [www.monotype.com 21](https://www.monotype.com/resources/typographic-terms) · [www.myfonts.com 22](https://www.myfonts.com/collections/gill-sans-font-monotype-imaging/) · [www.themorgan.org 23](https://www.themorgan.org/incunables/134238) |
+| 479 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-36084) | [archiviotipografico.it 1](https://archiviotipografico.it/product/aldo-novarese-alfa-beta/) · [catalogo.beniculturali.it 2](https://catalogo.beniculturali.it/detail/HistoricOrArtisticProperty/0500670436) · [developers.googleblog.com 3](https://developers.googleblog.com/en/the-new-roboto/) · [github.com 4](https://github.com/notofonts/latin-greek-cyrillic) · [medium.com 5](https://medium.com/airbnb-design/working-type-81294544608b) · [old.eguide.ch 6](https://old.eguide.ch/en/objekt/1879/) · [pdf.uffizi.it 7](https://pdf.uffizi.it/1777886745656-cartacollezioni-2.pdf) · [pmc.ncbi.nlm.nih.gov 8](https://pmc.ncbi.nlm.nih.gov/articles/PMC2906818/) · [rrk.finearts.utexas.edu 9](https://rrk.finearts.utexas.edu/info/what-is-wood-type/) · [rustichella.it 10](https://rustichella.it/) · [www.linotype.org 11](https://www.linotype.org/OnLineDocs/LinotypeInstructionBook-1925/LIB-contents.pdf) · [www.myfonts.com 12](https://www.myfonts.com/es/collections/susan-kare) · [www.nga.gov 13](https://www.nga.gov/artworks/93943-wendingen) · [www.nike.com 14](https://www.nike.com/) · [www.noahnathan.com 15](https://www.noahnathan.com/netflix-sans) · [www.pastamancini.com 16](https://www.pastamancini.com/) · [www.pentagram.com 17](https://www.pentagram.com/work/tiffany-co) · [www.pepsico.com 18](https://www.pepsico.com/newsroom/press-releases/2023/pepsi-unveils-a-new-logo-and-visual-identity-marking-the-iconic-brands-next-era) · [www.playstation.com 19](https://www.playstation.com/en-us/games/ratchet-and-clank-rift-apart/) · [www.playstation.com 20](https://www.playstation.com/en-us/games/the-last-of-us-part-i/) · [www.rai.it 21](https://www.rai.it/dl/docs/1426244578970Storia_del_logo_Rai.pdf) · [www.themorgan.org 22](https://www.themorgan.org/music-manuscripts-and-printed-music/284731) |
+| 480 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-36185) | [books.google.com 1](https://books.google.com/books?id=eYa6AAAAIAAJ) · [collection.sciencemuseumgroup.org.uk 2](https://collection.sciencemuseumgroup.org.uk/objects/co37924/early-linotype-composing-machine-1892) · [collection.sciencemuseumgroup.org.uk 3](https://collection.sciencemuseumgroup.org.uk/objects/co8989730/composition-caster-by-the-lanston-monotype-corporation-ltd-1897) · [collections.si.edu 4](https://collections.si.edu/search/detail/ead_collection%3Asova-nmah-ac-0666) · [openfontlicense.org 5](https://openfontlicense.org/open-font-license-official-text/) · [sonyinteractive.com 6](https://sonyinteractive.com/jp/news/asset-library/) · [tfl.gov.uk 7](https://tfl.gov.uk/info-for/media/press-releases/2016/november/-tfl-partners-with-two-global-brands-to-bring-the-lettering-of-london-to-life) · [tipofili.com 8](https://tipofili.com/fonts/montecatini) · [unicode.org 9](https://unicode.org/glossary/) · [web.archive.org 10](https://web.archive.org/web/20110127183430id_/http://www.unesco.org/culture/ich/doc/src/ITH-10-5.COM-CONF.202-5%20Rev.-EN.pdf) · [web.archive.org 11](https://web.archive.org/web/20251228165754/https://creative.starbucks.com/typography/) · [www.sfmoma.org 12](https://www.sfmoma.org/artwork/2016.289/) · [www.shizukoyoshikawa.ch 13](https://www.shizukoyoshikawa.ch/ja/josef-mueller-brockmann/) · [www.sothebys.com 14](https://www.sothebys.com/en/buy/auction/2024/bibliotheca-brookeriana-a-renaissance-library-the-aldine-collection-d-m/horatius-flaccus-horatius-venice-aldo-1501) · [www.unesco.org 15](https://www.unesco.org/en/memory-world/baegun-hwasang-chorok-buljo-jikji-simche-yojeol-volii-second-volume-anthology-great-buddhist-priests) · [www.unicode.org 16](https://www.unicode.org/charts/PDF/U2000.pdf) · [www.unicode.org 17](https://www.unicode.org/charts/PDF/U2200.pdf) · [www.unicode.org 18](https://www.unicode.org/faq/font_keyboard.html) · [www.unicode.org 19](https://www.unicode.org/reports/tr14/#GL) · [www.usitc.gov 20](https://www.usitc.gov/publications/701_731/pub2281.pdf) |
+| 481 | [Riferimenti bibliografici](https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC?node-id=4408-36267) | [doi.org 1](https://doi.org/10.1177/2041669515593040) · [drafts.csswg.org 2](https://drafts.csswg.org/css-fonts-4/#font-family-prop) · [morrisarchive.lib.uiowa.edu 3](https://morrisarchive.lib.uiowa.edu/exhibits/show/bookarts/kelmscottpress/typefaces) · [pmc.ncbi.nlm.nih.gov 4](https://pmc.ncbi.nlm.nih.gov/articles/PMC5629233/) · [thewaltdisneycompany.com 5](https://thewaltdisneycompany.com/) · [www.birmingham.ac.uk 6](https://www.birmingham.ac.uk/facilities/cadbury/rarebooks/fine-printing-private-press/baskerville) · [www.vogue.com 7](https://www.vogue.com/) · [www.w3.org 8](https://www.w3.org/TR/CSS2/visudet.html#line-height) · [www.w3.org 9](https://www.w3.org/TR/WOFF2/) · [www.w3.org 10](https://www.w3.org/TR/css-break-3/#widows-orphans) · [www.w3.org 11](https://www.w3.org/TR/css-fonts-4/#font-kerning-prop) · [www.w3.org 12](https://www.w3.org/TR/css-text-3/) · [www.w3.org 13](https://www.w3.org/TR/css-values-4/#font-relative-lengths) · [www.w3.org 14](https://www.w3.org/TR/low-vision-needs/) · [www.w3.org 15](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html) · [www.w3.org 16](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html) · [www.w3.org 17](https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html) · [www.w3.org 18](https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html) · [www.w3.org 19](https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html) · [www.w3.org 20](https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html) |

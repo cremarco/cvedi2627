@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-20",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "page": {
+    "id": "4226:16023",
+    "name": "101 Tipografia - Nuovo design"
+  },
+  "removed": [
+    {
+      "id": "4345:65923",
+      "name": "Originale conservato392 · 459 · Cereal · rimosso su richiesta",
+      "visible": false,
+      "headings": [
+        {
+          "id": "4877:8903",
+          "text": "9.6.29. Cereal: lo specimen"
+        }
+      ]
+    },
+    {
+      "id": "4877:8762",
+      "name": "Originale conservato391 · 459 · Prove esplorative · prima della rimozione",
+      "visible": false,
+      "headings": []
+    },
+    {
+      "id": "4345:66106",
+      "name": "Originale conservato392 · 460 · Netflix Sans · rimosso su richiesta",
+      "visible": false,
+      "headings": [
+        {
+          "id": "4877:8907",
+          "text": "9.6.30. Netflix Sans: lo specimen"
+        }
+      ]
+    }
+  ],
+  "activeFrames": 168,
+  "interpretation": {
+    "removedSlide": "tipografia-griglie-tipo-prove-esplorative",
+    "removedDedicatedBookletSectionsAlreadyAbsentAsSlides": [
+      "9.6.29. Cereal: lo specimen",
+      "9.6.30. Netflix Sans: lo specimen"
+    ],
+    "retainedSlide": "tipografia-griglie-tipo-cereal-reith-netflix",
+    "reason": "Il confronto generale Cereal/Reith/Netflix appartiene alla sezione 9.6.9 ancora attiva; le due tavole autonome rimosse non avevano slide dedicate."
+  }
+}

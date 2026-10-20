@@ -13,7 +13,7 @@ const root = fileURLToPath(new URL('../..', import.meta.url))
 export async function checkSlideSources() {
   // Resolve Slidev's installed parser without adding a second parser dependency.
   const slidevRequire = createRequire(await realpath(new URL('../../node_modules/@slidev/cli/package.json', import.meta.url)))
-  const { load } = await import(slidevRequire.resolve('@slidev/parser/fs'))
+  const { load, parseSlide } = await import(slidevRequire.resolve('@slidev/parser/fs'))
 
   const entry = path.join(root, 'slides.md')
   const options = { roots: [root], userRoot: root, allowedRoots: [root] }
@@ -21,8 +21,10 @@ export async function checkSlideSources() {
   const visibleDeck = await load(options, entry)
   const deck = visibleDeck
   for (const file of Object.values(deck.markdownFiles)) assert.deepEqual(file.errors || [], [], `parse: ${file.filepath}`)
-  assert.equal(deck.slides[0].frontmatter.presenter, false, 'presenter mode is disabled')
-  assert.ok(deck.slides.every(slide => !slide.note?.trim()), 'presenter notes are absent, including hidden chapters')
+  assert.equal(deck.slides[0].frontmatter.presenter, true, 'presenter mode is available in development and builds')
+  const notedSlides = deck.slides.filter(slide => slide.note?.trim())
+  assert.equal(notedSlides.length, deck.slides.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie').length, 'every active typography slide retains its requested speaker notes')
+  assert.ok(notedSlides.every(slide => slide.frontmatter.lesson === 'tipografia-griglie'), 'speaker notes remain limited to the requested typography lesson')
   const total = deck.slides.length
   const lesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'introduzione')
   const history = deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
@@ -112,6 +114,57 @@ export async function checkSlideSources() {
   const archivedDeck = await load(options, path.join(root, perceptionArchive.file))
   assert.equal(archivedDeck.slides.length, 52, 'all former perception contents are retained')
   assert.ok(!Object.hasOwn(deck.markdownFiles, path.join(root, perceptionArchive.file)), 'perception archive is not imported into the deck')
+  const typographySpecification = curriculum.lessons.find(lesson => lesson.id === 'tipografia-griglie')
+  const typographyRevision = typographySpecification.typographyRevision
+  assert.ok(typographyRevision && !typographySpecification.currentSource, 'the typography lesson distinguishes its current revision from retained historical source references')
+  assert.equal(typographySpecification.slideCount, 114, 'the typography lesson excludes the removed exploratory proof slide')
+  assert.equal(typographySpecification.lessonMinutes, 69.5, 'the typography teaching budget excludes the removed half-minute slide')
+  const typographyArchive = JSON.parse(await readFile(path.join(root, typographyRevision.previousMapping), 'utf8'))
+  assert.equal(typographyArchive.file, typographyRevision.archive, 'the previous typography mapping identifies its archived contents')
+  assert.equal(typographyArchive.source.snapshot, curriculum.source.snapshot, 'the typography archive retains its historical snapshot')
+  assert.equal(typographyArchive.lessons.length, 22, 'all twenty-two former typography slide mappings are retained')
+  const typographyArchivedDeck = await load(options, path.join(root, typographyArchive.file))
+  assert.equal(typographyArchivedDeck.slides.length, 22, 'all former typography contents are retained')
+  assert.ok(!Object.hasOwn(deck.markdownFiles, path.join(root, typographyArchive.file)), 'the previous typography contents are excluded from the active deck')
+  assert.ok(typeof typographyRevision.excludedContentArchive === 'string' && typographyRevision.excludedContentArchive.length > 0, 'the removed grids and interfaces have an explicit archive')
+  const typographyExcludedArchive = JSON.parse(await readFile(path.join(root, typographyRevision.excludedContentArchive), 'utf8'))
+  assert.equal(typographyExcludedArchive.active, false, 'grids and interfaces remain outside the typography-only lesson')
+  assert.ok(typographyExcludedArchive.reason?.trim(), 'the intentional removal retains its reason')
+  assert.equal(typographyExcludedArchive.source.snapshot, curriculum.source.snapshot, 'excluded content retains its historical snapshot')
+  assert.equal(typographyExcludedArchive.source.fileKey, curriculum.source.fileKey, 'excluded content retains the original Figma file')
+  assert.equal(typographyExcludedArchive.sourceFile, typographySpecification.file, 'excluded content records its original lesson file')
+  assert.deepEqual(typographyExcludedArchive.slides.map(slide => slide.originalSlide), Array.from({ length: 19 }, (_, index) => index + 114), 'all nineteen removed source slides 114–132 are preserved in order')
+  assert.deepEqual(typographyExcludedArchive.lessons.map(entry => [entry.lesson, entry.lessonNumber, entry.lessonSlide]), Array.from({ length: 19 }, (_, index) => ['tipografia-griglie', 8, index + 114]), 'all nineteen original source mappings are preserved in order')
+  const typographyExcludedSlides = typographyExcludedArchive.slides.map(saved => {
+    assert.ok(typeof saved.raw === 'string' && saved.raw.trim(), 'each removed slide retains its original Markdown')
+    const slide = parseSlide(saved.raw)
+    assert.equal(slide.title, saved.title, 'the saved Markdown retains its original title')
+    assert.equal(slide.frontmatter.lessonSlide, saved.originalSlide, 'the saved Markdown retains its original slide number')
+    assert.equal(slide.frontmatter.routeAlias, saved.alias, 'the saved Markdown retains its original alias')
+    assert.ok(!deck.slides.some(active => active.frontmatter.routeAlias === saved.alias), 'removed grids and interface aliases are absent from the active deck')
+    assert.ok(slide.note?.trim(), 'the excluded content retains its original speaker notes')
+    return slide
+  })
+  assert.equal(typographyRevision.bookletExcludedContentArchive, 'assets/booklet/lezione-08-tipografia/booklet-esclusioni-archive.json', 'current booklet removals have their own archive, separate from historical grids and interfaces')
+  const typographyBookletExcludedArchive = JSON.parse(await readFile(path.join(root, typographyRevision.bookletExcludedContentArchive), 'utf8'))
+  assert.equal(typographyBookletExcludedArchive.active, false, 'removed booklet material remains outside the active typography lesson')
+  assert.ok(typographyBookletExcludedArchive.reason?.trim(), 'the booklet removal retains its reason')
+  assert.equal(typographyBookletExcludedArchive.source.snapshot, typographyRevision.snapshot, 'booklet removals retain their acquired current typography snapshot')
+  assert.equal(typographyBookletExcludedArchive.source.fileKey, curriculum.source.fileKey, 'booklet removals retain the original Figma file')
+  assert.equal(typographyBookletExcludedArchive.sourceFile, typographySpecification.file, 'booklet removals record their original lesson source file')
+  assert.deepEqual(typographyBookletExcludedArchive.slides.map(slide => slide.originalSlide), [93], 'the removed exploratory proof slide retains its original number')
+  assert.deepEqual(typographyBookletExcludedArchive.lessons.map(entry => [entry.lesson, entry.lessonNumber, entry.lessonSlide]), [['tipografia-griglie', 8, 93]], 'the original exploratory proof source mapping is retained')
+  const typographyBookletExcludedSlides = typographyBookletExcludedArchive.slides.map(saved => {
+    assert.ok(typeof saved.raw === 'string' && saved.raw.trim(), 'each booklet removal retains its complete original Markdown')
+    const slide = parseSlide(saved.raw)
+    assert.equal(slide.title, saved.title, 'booklet removal preserves its original title')
+    assert.equal(slide.frontmatter.lessonSlide, saved.originalSlide, 'booklet removal preserves its original slide number')
+    assert.equal(slide.frontmatter.routeAlias, saved.alias, 'booklet removal preserves its original alias')
+    assert.equal(saved.alias, 'tipografia-griglie-tipo-prove-esplorative', 'the intended exploratory proof alias is archived')
+    assert.ok(!deck.slides.some(active => active.frontmatter.routeAlias === saved.alias), 'the removed booklet alias is absent from the active deck')
+    assert.ok(slide.note?.trim(), 'booklet removal preserves the original speaker notes')
+    return slide
+  })
   const uxAssets = JSON.parse(await readFile(path.join(root, 'assets/booklet/capitolo-3/slide-assets.json'), 'utf8'))
   assert.equal(uxSource.fileKey, 'WLdDzbdqP3P5rpYbK1OxYC', 'new lessons use the requested Figma file')
   assert.equal(uxSource.pageId, '2008:1741', 'new lessons use the requested UX chapter')
@@ -161,6 +214,22 @@ export async function checkSlideSources() {
     assert.equal(frames.size, snapshot.frames.length, 'supplementary current source has unique board identities')
     return [snapshotPath, frames]
   })))
+  const typographySnapshot = JSON.parse(await readFile(path.join(root, typographyRevision.snapshot), 'utf8'))
+  const typographyFrames = supplementaryCurrentSources.get(typographyRevision.snapshot)
+  assert.equal(typographySnapshot.pageId, typographyRevision.pageId, 'typography uses the requested current Figma Page')
+  assert.equal(typographyFrames?.size, 150, 'the current typography source retains every one of its 150 boards')
+  assert.equal(typographyRevision.frameCount, typographyFrames.size, 'the declared typography board count matches the source')
+  assert.deepEqual(typographyRevision.folios, [332, 481], 'the acquired typography folio range is explicit')
+  assert.deepEqual(typographySnapshot.frames.map(frame => frame.folio), Array.from({ length: 150 }, (_, index) => index + 332), 'current typography folios are complete and ordered')
+  const typographyLinks = JSON.parse(await readFile(path.join(root, typographyRevision.sourceLinks), 'utf8'))
+  assert.equal(typographyLinks.fileKey, curriculum.source.fileKey, 'typography credits use the requested Figma file')
+  assert.equal(typographyLinks.pageId, typographyRevision.pageId, 'typography credits use the current Figma Page')
+  assert.deepEqual(typographyLinks.frames.map(frame => frame.id), typographySnapshot.frames.map(frame => frame.id), 'credits account for every acquired typography board')
+  for (const [index, frame] of typographyLinks.frames.entries()) {
+    assert.deepEqual(typographySnapshot.frames[index].sourceLinks, frame.sourceLinks, 'current typography credits are preserved in the source snapshot')
+    assert.equal(new Set(frame.sourceLinks).size, frame.sourceLinks.length, 'typography source URLs are unique within each board')
+    for (const url of frame.sourceLinks) assert.match(new URL(url).protocol, /^https?:$/, 'typography credits retain web source URLs')
+  }
   const externalBibliographies = new Map(await Promise.all([...new Set(uxMapping.lessons
     .filter(entry => entry.externalSources).map(entry => entry.sourceBibliography))].map(async file => {
     assert.ok(typeof file === 'string' && file.length > 0, 'external source catalog is explicit')
@@ -170,6 +239,7 @@ export async function checkSlideSources() {
     for (const source of sources.values()) assert.ok(source.title && /^https:\/\//.test(source.url), 'external source has a title and primary URL')
     return [file, sources]
   })))
+  const lessonVideos = JSON.parse(await readFile(path.join(root, 'data/lesson-videos.json'), 'utf8'))
   for (const specification of curriculum.lessons) {
     const slides = deck.slides.filter(slide => slide.frontmatter.lesson === specification.id)
     const mapping = uxMapping.lessons.filter(slide => slide.lesson === specification.id)
@@ -183,6 +253,24 @@ export async function checkSlideSources() {
     for (const [index, slide] of slides.entries()) {
       const entry = mapping[index]
       assert.equal(slide.title, entry.title, `${specification.id}/${index + 1}: source map title`)
+      const videoCalls = [...slide.content.matchAll(/<LessonVideo\b[^>]*\bvideo="([^"]+)"/g)].map(match => match[1])
+      assert.deepEqual(videoCalls, slide.frontmatter.lessonVideo ? [slide.frontmatter.lessonVideo] : [], 'lesson videos have an explicit source identity')
+      if (slide.frontmatter.lessonVideo || entry.lessonVideo) {
+        assert.equal(slide.frontmatter.lessonVideo, entry.lessonVideo, 'the lesson video matches its provenance map')
+        const video = lessonVideos[entry.lessonVideo]
+        assert.ok(video, 'the lesson video has registered display data')
+        assert.equal(entry.videoSource?.url, video.url, 'the mapped video retains its original URL')
+        assert.equal(entry.videoSource.provenance, video.source, 'the video identifies its source record')
+        const provenance = JSON.parse(await readFile(path.join(root, video.source), 'utf8'))
+        assert.equal(video.youtubeId, provenance.videoId, 'the player uses the verified video identity')
+        assert.equal(video.url, provenance.watchUrl, 'the player links to the verified video')
+        assert.equal(video.title, provenance.title, 'the video retains its verified title')
+        assert.equal(video.author, provenance.author, 'the video retains its author attribution')
+        assert.equal(entry.videoSource.originalMaterial, provenance.priorCourseSource.path, 'the video preserves its earlier course source')
+        assert.equal(entry.videoSource.originalMaterialPage, provenance.priorCourseSource.page, 'the video preserves its earlier source page')
+        const original = await readFile(path.join(root, provenance.priorCourseSource.path))
+        assert.equal(createHash('sha256').update(original).digest('hex'), provenance.priorCourseSource.sha256, 'the original PDF containing the video link is retained')
+      }
       if (slide.frontmatter.externalSources || entry.externalSources) {
         assert.deepEqual(slide.frontmatter.externalSources, entry.externalSources, 'external sources match slide metadata')
         const bibliography = externalBibliographies.get(entry.sourceBibliography)
@@ -254,6 +342,16 @@ export async function checkSlideSources() {
   }
   for (const [id, { frames, covered }] of currentSources)
     assert.deepEqual([...covered].sort(), [...frames.keys()].sort(), `${id}: every current Figma board is represented in its lesson`)
+  const typographySlides = deck.slides.filter(slide => slide.frontmatter.lesson === typographySpecification.id)
+  const typographyMapping = uxMapping.lessons.filter(entry => entry.lesson === typographySpecification.id)
+  assert.ok(typographyMapping.every(entry => entry.lessonNumber === 8), 'all current typography mappings use lesson number 08')
+  assert.deepEqual([...new Set([...typographyMapping, ...typographyBookletExcludedArchive.lessons].flatMap(entry => entry.currentSourceNodes ?? []))].sort(), [...typographyFrames.keys()].sort(), 'active typography content and booklet removals preserve all 150 acquired source boards')
+  const typographySourceMap = await readFile(path.join(root, 'docs/fonti/07-tipografia-griglie.md'), 'utf8')
+  const typographySourceRows = [...typographySourceMap.matchAll(/^\| (\d+) \| ([^|]+) \| ([^|]+) \| ([^|]+) \| ([\d.]+) \|$/gm)]
+  const sourceNumbers = value => value.trim() === '—' ? [] : value.split(',').map(Number)
+  assert.deepEqual(typographySourceRows.map(row => ({ slide: Number(row[1]), title: row[2].trim(), current: sourceNumbers(row[3]), historical: sourceNumbers(row[4]), minutes: Number(row[5]) })),
+    typographySlides.map(slide => ({ slide: slide.frontmatter.lessonSlide, title: slide.title, current: slide.frontmatter.bookletCurrentFolios ?? [], historical: slide.frontmatter.bookletPages ?? [], minutes: slide.frontmatter.lessonMinutes })),
+    `the typography source document distinguishes current folios and historical boards for all ${typographySpecification.slideCount} slides`)
   const liveExamples = deck.slides.filter(slide => slide.frontmatter.interactiveExample)
   const accessibilityLesson = deck.slides.filter(slide => slide.frontmatter.lesson === 'percezione-gerarchia')
   assert.equal(accessibilityLesson.length, 105, 'lesson 05 contains only accessibility and its live examples')
@@ -273,7 +371,7 @@ export async function checkSlideSources() {
     Array.from({ length: 23 }, (_, i) => ['ricerca-inclusiva', i + 87]), 'only requested lesson 04 slides are removed')
   const preservedPages = new Set(coveredPages)
   const preservedAssets = new Set(usedAssets)
-  for (const entry of [...removedMapping.lessons, ...perceptionArchive.lessons]) {
+  for (const entry of [...removedMapping.lessons, ...perceptionArchive.lessons, ...typographyArchive.lessons, ...typographyExcludedArchive.lessons, ...typographyBookletExcludedArchive.lessons]) {
     entry.sourcePages.forEach(page => { assert.ok(sourcePages.has(page)); preservedPages.add(page) })
     assert.deepEqual(entry.sourceNodes, entry.sourcePages.map(page => sourcePages.get(page).id), 'removed slides retain genuine source identities')
     entry.assets.forEach(id => { assert.ok(assetRegistry.has(id)); preservedAssets.add(id) })
@@ -285,6 +383,48 @@ export async function checkSlideSources() {
     const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
     assert.deepEqual(figures, entry.assets.map(id => assetRegistry.get(id).web), 'archive retains every original perception figure')
     assert.ok(!slide.note?.trim(), 'archive contains no speaker notes')
+  }
+  assert.deepEqual(typographyArchivedDeck.slides.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: 22 }, (_, index) => index + 5), 'the typography archive preserves its original slide numbers 5–26')
+  for (const [index, slide] of typographyArchivedDeck.slides.entries()) {
+    const entry = typographyArchive.lessons[index]
+    assert.equal(slide.title, entry.title, 'the typography archive preserves its original slide title')
+    assert.equal(slide.frontmatter.lessonSlide, entry.lessonSlide, 'the typography archive preserves its source mapping order')
+    assert.equal(slide.frontmatter.lessonMinutes, entry.minutes, 'the typography archive preserves its original planned duration')
+    assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, 'the typography archive keeps its genuine historical board identities')
+    const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
+    assert.deepEqual(figures, entry.assets.map(id => assetRegistry.get(id).web), 'the typography archive retains every original figure')
+    assert.ok(!slide.note?.trim(), 'the typography archive contains no speaker notes')
+  }
+  for (const [index, slide] of typographyExcludedSlides.entries()) {
+    const entry = typographyExcludedArchive.lessons[index]
+    assert.equal(slide.frontmatter.lesson, entry.lesson, 'excluded content retains its original lesson identity')
+    assert.equal(slide.title, entry.title, 'excluded content agrees with its source map title')
+    assert.equal(slide.frontmatter.routeAlias, entry.routeAlias, 'excluded content agrees with its source map alias')
+    assert.equal(slide.frontmatter.lessonMinutes, entry.minutes, 'excluded content retains its original teaching duration')
+    assert.deepEqual(slide.frontmatter.bookletPages, entry.sourcePages, 'excluded content retains its original booklet references')
+    assert.deepEqual(slide.frontmatter.bookletAssets ?? [], entry.assets, 'excluded content retains its declared original assets')
+    const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
+    assert.deepEqual(figures, entry.assets.map(id => assetRegistry.get(id).web), 'excluded content preserves every original figure callsite')
+  }
+  for (const [index, slide] of typographyBookletExcludedSlides.entries()) {
+    const entry = typographyBookletExcludedArchive.lessons[index]
+    assert.equal(slide.frontmatter.lesson, entry.lesson, 'booklet removal retains its original lesson identity')
+    assert.equal(slide.title, entry.title, 'booklet removal agrees with its original source-map title')
+    assert.equal(slide.frontmatter.routeAlias, entry.routeAlias, 'booklet removal agrees with its original source-map alias')
+    assert.equal(slide.frontmatter.lessonMinutes, entry.minutes, 'booklet removal retains its original teaching duration')
+    assert.equal(entry.currentSource, typographyRevision.snapshot, 'booklet removal keeps the acquired typography snapshot')
+    assert.deepEqual(slide.frontmatter.bookletCurrentNodes, entry.currentSourceNodes, 'booklet removal preserves every current source node')
+    assert.deepEqual(slide.frontmatter.bookletCurrentFolios, entry.currentSourceFolios, 'booklet removal preserves every acquired current folio')
+    assert.ok(entry.currentSourceNodes.length > 0, 'booklet removal has genuine source-board references')
+    entry.currentSourceNodes.forEach((id, sourceIndex) => {
+      const frame = typographyFrames.get(id)
+      assert.ok(frame, 'the removed booklet source board exists in the preserved snapshot')
+      assert.equal(frame.folio, entry.currentSourceFolios[sourceIndex], 'the removed booklet board keeps its acquired folio')
+    })
+    assert.deepEqual(slide.frontmatter.bookletPages ?? [], entry.sourcePages, 'booklet removal preserves its historical references')
+    assert.deepEqual(slide.frontmatter.bookletAssets ?? [], entry.assets, 'booklet removal preserves its declared original assets')
+    const figures = [...slide.content.matchAll(/<LessonFigure\b[^>]*\bsrc="([^"]+)"/g)].map(match => match[1])
+    assert.deepEqual(figures, entry.assets.map(id => assetRegistry.get(id).web), 'booklet removal preserves every original figure callsite')
   }
   assert.deepEqual([...preservedPages].sort((a, b) => a - b), Array.from({ length: 260 }, (_, i) => i + 1), 'active and removed slide mappings preserve every source page')
   assert.equal(preservedAssets.size, assetRegistry.size, 'all original figures and supplementary examples remain accounted for')
@@ -441,6 +581,7 @@ export async function checkSlideSources() {
   const historyIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-history-icons-v1.json'), 'utf8'))
   const researchIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/manifest-lesson-04-cards-v1.json'), 'utf8'))
   const perceptionIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/lesson-05-icons/manifest.json'), 'utf8'))
+  const typographyIcons = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/lesson-08-cards/manifest.json'), 'utf8'))
   const paletteRefresh = JSON.parse(await readFile(path.join(root, 'assets/theme-imagegen/card-palette-refresh/manifest.json'), 'utf8'))
   const refreshedCardFamilies = [
     { lesson: 'storia-design', mapping: 'history', family: 'lime', manifest: 'assets/theme-imagegen/manifest-history-icons-v1.json', jobs: historyIcons.jobs },
@@ -506,7 +647,7 @@ export async function checkSlideSources() {
   const activeOutline = outlineGenerations.jobs.filter(job => job.published)
   assert.equal(generations.jobs.length, generations.counts.images, 'complete shared illustration family')
   assert.equal(cardGenerations.jobs.length, cardGenerations.counts.images, 'complete selective card illustration family')
-  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length, 'only registered motifs populate the card catalog')
+  assert.equal(Object.keys(artwork.assets).length, cardGenerations.jobs.length + historyIcons.jobs.length + researchIcons.jobs.length + perceptionIcons.jobs.length + typographyIcons.jobs.length, 'only registered motifs populate the card catalog')
   for (const generation of [...generations.jobs, ...cardGenerations.jobs, ...activeOutline, ...chapterGenerations.jobs, ...historyIcons.jobs]) {
     assert.equal(generation.status, 'complete', `generated asset ${generation.id}: selected`)
     assert.ok(generation.prompt.trim(), `generated asset ${generation.id}: prompt provenance`)
@@ -522,7 +663,7 @@ export async function checkSlideSources() {
     assert.ok(generation.publicationEncoding.pixelPreserved && generation.publicationEncoding.alphaPreserved)
     assert.ok(generation.owners.length > 0)
   }
-  for (const generation of [...researchIcons.jobs, ...perceptionIcons.jobs]) {
+  for (const generation of [...researchIcons.jobs, ...perceptionIcons.jobs, ...typographyIcons.jobs]) {
     assert.equal(generation.status, 'complete', generation.id + ': generated artwork selected')
     assert.equal(artwork.assets[generation.id], '/' + selectedCardGeneration(generation).web.replace(/^public\//, ''), generation.id + ': card icon registered')
     assert.equal(generation.visualReview.status, 'accepted', generation.id + ': visually reviewed')
@@ -545,6 +686,7 @@ export async function checkSlideSources() {
   let addedCards = 0
   let researchCardUses = 0
   let perceptionCardUses = 0
+  let typographyCardUses = 0
   const activeRefreshedCardOwners = new Map()
   for (const slide of visibleDeck.slides) {
     for (const card of slide.content.matchAll(/<CvediCard\b[^>]*\btitle="([^"]+)"/g)) {
@@ -569,11 +711,16 @@ export async function checkSlideSources() {
         assert.ok(id, card[1] + ': requested lesson 05 card has a semantic motif')
         perceptionCardUses++
       }
+      if (slide.frontmatter.lesson === 'tipografia-griglie' && id) {
+        assert.ok(typographyIcons.jobs.some(job => job.id === id), card[1] + ': typography motif has registered provenance')
+        typographyCardUses++
+      }
     }
   }
   assert.equal(directCards - addedCards, cardGenerations.counts.totalDirectCards, 'the existing card inventory is preserved')
   assert.equal(researchCardUses, researchIcons.counts.activeDirectCardUses, 'all retained lesson 04 card uses have their requested illustrations')
-  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses, 'selected direct cards have semantic motifs')
+  assert.equal(typographyCardUses, typographyIcons.jobs.reduce((sum, job) => sum + job.owners.length, 0), 'the requested typography card illustrations have their active owners')
+  assert.equal(illustratedCards, cardGenerations.counts.directCardUses + historyIcons.counts.directCardUses + researchCardUses + perceptionCardUses + typographyCardUses, 'selected direct cards have semantic motifs')
   assert.ok(illustratedCards - researchCardUses - perceptionCardUses > 0 && illustratedCards - researchCardUses - perceptionCardUses < (directCards - researchCardUses - perceptionCardUses) / 4, 'illustrations in the other lessons remain selective')
   assert.deepEqual([...refreshedCards.keys()].sort(), [...activeRefreshedCardOwners.keys()].sort(), 'palette refresh covers exactly the active card motifs in its lessons')
   const ownerKey = owner => JSON.stringify([owner.lesson, owner.slide, owner.title, normalizeTitle(owner.card)])

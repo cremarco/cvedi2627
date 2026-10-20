@@ -22,6 +22,47 @@
   --metro-track-color: var(--lesson-color-deep);
 }
 .lesson-slide .metro-train { stroke: var(--lesson-accent-on-color); }
+/* Dates are editorial data; the open-book pictogram shares the Heroicons set. */
+.slidev-layout.default .lesson-history-period.stats {
+  position: absolute;
+  top: 52px;
+  right: 72px;
+  z-index: 3;
+  width: 272px;
+  overflow: visible;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  pointer-events: none;
+}
+.slidev-layout.default .lesson-history-period .stat {
+  grid-template-columns: minmax(0, 1fr) 40px;
+  gap: 4px 12px;
+  padding: 0;
+  text-align: right;
+}
+.slidev-layout.default .lesson-history-period .stat-title {
+  color: var(--section-primary);
+  font: 600 var(--cvedi-type-footer)/1.2 var(--cvedi-font-reading);
+  white-space: normal;
+}
+.slidev-layout.default .lesson-history-period .stat-value {
+  color: var(--section-primary-deep);
+  font: 700 var(--cvedi-type-stat)/1.1 var(--cvedi-font-reading);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
+.slidev-layout.default .lesson-history-period .stat-figure {
+  grid-row: 1 / span 2;
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  color: var(--section-primary);
+}
+.slidev-layout.default .lesson-history-period .stat-figure svg { width: 100%; height: 100%; }
+.slidev-layout.default.fixed-title-slide.has-history-period > h1 { max-width: 824px; }
 .lesson-slide ::selection {
   background: var(--lesson-color);
   color: var(--cvedi-paper);
@@ -35,6 +76,76 @@
   gap: 40px;
 }
 .lesson-columns > div > :last-child { margin-bottom: 0; }
+/* The player fits the ordinary title/footer safe area of the teaching canvas. */
+.slidev-layout.default .lesson-video {
+  width: 760px;
+  max-width: 100%;
+  align-self: center;
+  flex: 0 0 auto;
+  margin-inline: auto;
+}
+.lesson-video-stage {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.lesson-video-stage iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.lesson-video figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--cvedi-space-related);
+  margin-top: var(--cvedi-space-copy);
+  color: var(--cvedi-muted);
+  font: 400 var(--cvedi-type-note)/1.4 var(--cvedi-font-reading);
+}
+.lesson-video figcaption a { flex: 0 0 auto; color: var(--section-primary); }
+.lesson-video-fallback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--cvedi-space-peers);
+  height: 100%;
+  padding: var(--cvedi-space-introduction);
+  text-align: center;
+}
+.lesson-video-fallback p { margin: 0; }
+.lesson-video-fallback a { color: var(--section-primary); overflow-wrap: anywhere; }
+/* Type specimens keep their original forms and share the existing image zoom. */
+.typography-slide .typography-gallery {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  min-height: 0;
+}
+.typography-slide .typography-images {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  flex: 1 1 0;
+  min-height: 0;
+  gap: var(--cvedi-space-related);
+}
+.typography-slide .typography-images-2,
+.typography-slide .typography-images-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.typography-slide .typography-images-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.typography-slide .typography-images-4 { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+.typography-slide .typography-images-stacked {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.typography-slide .typography-images-3.typography-images-stacked {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+.typography-slide .typography-caption {
+  flex: 0 0 auto;
+  margin: var(--cvedi-space-copy) 0 0;
+}
 .reading-slide.figure-pair .lesson-columns.figure-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .lesson-figure { min-width: 0; margin: 0; }
 .lesson-figure img {

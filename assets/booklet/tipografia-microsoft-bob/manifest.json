@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "slide": {
+    "lesson": "tipografia-griglie",
+    "number": 92,
+    "alias": "tipografia-griglie-tipo-comic-sans"
+  },
+  "asset": {
+    "id": "tipografia-microsoft-bob-rover",
+    "nodeId": "https://miro.medium.com/v2/resize%3Afit%3A720/1%2AuJkhx7IIXIu5fToVDX8lcg.png",
+    "title": "Microsoft Bob — la stanza e Rover",
+    "caption": "Microsoft Bob: la stanza e l’assistente Rover. © Microsoft; fonte Microsoft Design.",
+    "sourceLinks": [
+      "https://microsoft.design/articles/why-we-love-to-hate-comic-sans/",
+      "https://miro.medium.com/v2/resize%3Afit%3A720/1%2AuJkhx7IIXIu5fToVDX8lcg.png"
+    ],
+    "naturalWidth": 480,
+    "naturalHeight": 360,
+    "original": "assets/booklet/tipografia-microsoft-bob/microsoft-bob-rover.png",
+    "web": "/images/tipografia/microsoft-bob-rover-7066c0fbce21.png",
+    "retainedSources": [
+      "assets/booklet/tipografia-microsoft-bob/source-page.html",
+      "assets/booklet/tipografia-microsoft-bob/manifest.json"
+    ],
+    "originalBytes": 117654,
+    "webBytes": 117654,
+    "sha256": "7066c0fbce216b6544ff335d387e96ecb65836400e898325a52bdfcf67dc5361",
+    "publicationSource": "assets/booklet/tipografia-microsoft-bob/microsoft-bob-rover.png",
+    "publicationSourceSha256": "7066c0fbce216b6544ff335d387e96ecb65836400e898325a52bdfcf67dc5361",
+    "publicationSha256": "7066c0fbce216b6544ff335d387e96ecb65836400e898325a52bdfcf67dc5361",
+    "encoding": {
+      "format": "PNG",
+      "lossless": true,
+      "exactAlpha": true,
+      "transformation": "None; original pixels and file bytes preserved."
+    },
+    "provenance": {
+      "kind": "official-publisher-image",
+      "acquiredAt": "2026-10-20",
+      "pageUrl": "https://microsoft.design/articles/why-we-love-to-hate-comic-sans/",
+      "imageUrl": "https://miro.medium.com/v2/resize%3Afit%3A720/1%2AuJkhx7IIXIu5fToVDX8lcg.png",
+      "publisher": "Microsoft Design",
+      "articleTitle": "Why we love to hate Comic Sans",
+      "articleAuthor": "Danielle McClune",
+      "articleDate": "2019-10-21",
+      "originalCaption": "Rover, star of the Microsoft Bob application circa 1994",
+      "rights": "© Microsoft. Screenshot dell’interfaccia pubblicato da Microsoft Design; nessuna licenza aperta indicata nella pagina.",
+      "scope": "Supplementary image in the typography slide; not a Figma export."
+    }
+  },
+  "sourcePage": {
+    "path": "assets/booklet/tipografia-microsoft-bob/source-page.html",
+    "sha256": "6e9db063a9baf86b2e47e9a1ee02f54c48e4786ae840f4fae462a0f9477b30d2"
+  },
+  "historicalContextSource": "https://learn.microsoft.com/en-us/typography/font-list/comic-sans-ms"
+}

@@ -1,6 +1,6 @@
 # CVeDI 2026/27
 
-Presentazioni Slidev del corso Comunicazione visiva e design delle interfacce: 603 slide online e 725 nell’anteprima locale. Ogni lezione si apre dall’indice e carica soltanto il proprio contenuto. Il menu iniziale contiene 6 slide; il comando con icona libro permette di tornarvi. Le lezioni 08–10 sono disponibili soltanto in locale, mentre la lezione 06 «Gestalt», con 111 slide dalle 89 tavole correnti del booklet, è pubblicata online insieme alle 59 slide di Colore. La lezione 07 «Colore e significato» conta 59 slide per 120 minuti, con proprietà e modelli del colore, cinque schemi cromatici con esempi dal booklet e tredici integrazioni sui contesti culturali da fonti verificate e materiali d’archivio, comprese convenzioni finanziarie, lingua, rituali e preferenze. Le lezioni 03, 04 e 05, rispettivamente di 67, 86 e 105 slide, sono attive in entrambe le modalità. Note del relatore assenti; vista presenter disabilitata.
+Presentazioni Slidev del corso Comunicazione visiva e design delle interfacce: 717 slide online e 793 nell’anteprima locale. Ogni lezione si apre dall’indice e carica soltanto il proprio contenuto. Il menu iniziale contiene 6 slide; il comando con icona libro permette di tornarvi. Le lezioni 09–10 sono disponibili soltanto in locale, mentre la lezione 06 «Gestalt», con 111 slide dalle 89 tavole correnti del booklet, è pubblicata online insieme alle 59 slide di Colore. La lezione 07 «Colore e significato» conta 59 slide per 120 minuti, con proprietà e modelli del colore, cinque schemi cromatici con esempi dal booklet e tredici integrazioni sui contesti culturali da fonti verificate e materiali d’archivio, comprese convenzioni finanziarie, lingua, rituali e preferenze. Le lezioni 03, 04 e 05, rispettivamente di 67, 86 e 105 slide, sono attive in entrambe le modalità. La vista relatore è disponibile dal pulsante «Presenter Mode» nella barra strumenti di Slidev, con slide corrente, anteprima della successiva e timer; «Play Mode» torna alla presentazione. Per il pubblico aprire la stessa presentazione in una seconda finestra. Le 114 slide di Tipografia sono disponibili anche online e includono note semplici da leggere nel pannello del relatore; le altre lezioni restano senza note.
 
 ## Avvio
 
@@ -17,7 +17,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 
 | Comando | Risultato |
 | --- | --- |
-| `pnpm build` | Menu e presentazioni autonome, 603 slide complessive in `dist/` |
+| `pnpm build` | Menu e presentazioni autonome, 717 slide complessive in `dist/` |
 | `pnpm build:pages` | Home, slide, archivio ed esempi autonomi pubblicabili in `_site/` |
 | `pnpm css:home` | Compila `home/home.source.css` in `home/home.css` |
 | `pnpm export` | Export Slidev, soltanto quando richiesto |
@@ -25,7 +25,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm clean --dry-run` | Mostra i file eliminabili senza modificarli |
 | `pnpm check:clean` | Verifica la conservazione di sorgenti, rapporti referenziati e dipendenze |
 | `pnpm gallery` | Rigenera galleria e anteprime su macOS |
-| `pnpm check:source` | Parser, assenza note, sequenze, dati, fonti e immagini |
+| `pnpm check:source` | Parser, copertura delle note richieste, sequenze, dati, fonti e immagini |
 | `pnpm check:publication dist` | Separazione locale/online e assenza degli asset locali nella build |
 | `pnpm check` | Controlli completi nel browser |
 | `pnpm check:layout` | Geometrie, didascalie e dialoghi |
@@ -37,7 +37,7 @@ Il comando compila Tailwind/daisyUI e mantiene il CSS aggiornato durante le modi
 | `pnpm check:home` | Home Pages: URL, layout, movimento, tastiera e stampa |
 | `pnpm check:archive` | Collegamenti all’archivio, reindirizzamenti e anteprime locali |
 
-I controlli slide usano `http://localhost:3035`; `check:accessibility-demos` usa `http://localhost:3045`. `SLIDEV_URL` permette un'altra origine. `pnpm dev` apre l’indice e avvia ogni lezione su richiesta. Per verificare tutte le 725 slide con i controlli del percorso completo usare `pnpm dev:full --port 3035` su una porta isolata. `pnpm build` e `pnpm build:pages` pubblicano presentazioni separate con immagini e font condivisi; `pnpm build:full` mantiene la SPA completa per confronti. `pnpm check:decks` verifica separazione e integrità dei contenuti; `pnpm check:decks:browser` verifica menu, confini delle lezioni, ritorno e vecchi collegamenti sulla build in `dist/`. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea. `A11Y_REPORT` seleziona la cartella delle prove dei confronti HTML, predefinita `reports/lesson-05/interactive/`.
+I controlli slide usano `http://localhost:3035`; `check:accessibility-demos` usa `http://localhost:3045`. `SLIDEV_URL` permette un'altra origine. `pnpm dev` apre l’indice e avvia ogni lezione su richiesta. Per verificare tutte le 793 slide con i controlli del percorso completo usare `pnpm dev:full --port 3035` su una porta isolata. `pnpm build` e `pnpm build:pages` pubblicano presentazioni separate con immagini e font condivisi; `pnpm build:full` mantiene la SPA completa per confronti. `pnpm check:decks` verifica separazione e integrità dei contenuti; `pnpm check:decks:browser` verifica menu, confini delle lezioni, ritorno e vecchi collegamenti sulla build in `dist/`. `SLIDEV_SCREENSHOTS` salva prove visive in una cartella scelta: usare `reports/` o una cartella temporanea. `A11Y_REPORT` seleziona la cartella delle prove dei confronti HTML, predefinita `reports/lesson-05/interactive/`.
 
 `pnpm check:home` serve la build `_site/` con un server temporaneo e un browser isolato. Verifica la home alle basi `/` e `/cvedi2627/`, da 320 a 1440 px, termine automatico dell’animazione entro cinque secondi, movimento ridotto, skip link, forced colors, stampa e funzionamento senza JavaScript. `COURSE_HOME_SITE` sceglie una build diversa; `COURSE_HOME_REPORT` sceglie il percorso di rapporti, screenshot e PDF, predefinito `reports/course-home/`.
 
@@ -67,7 +67,7 @@ La radice `/cvedi2627/` apre la home del corso. Le destinazioni attive sono `/cv
 
 Caffè TTC è consultabile separatamente dalle slide in `/web-design-examples/`: durante `pnpm dev` apre le quattro pagine e il selettore dei 21 stili. `pnpm build` prepara lo stesso percorso in `dist/`; Pages lo pubblica in `/cvedi2627/web-design-examples/`. Gli URL delle varianti usano `?stile=`, per esempio `web-design-examples/menu.html?stile=y2k`. Le build rigenerano gli esempi e copiano le risorse usate dal sito, con licenze e provenienza; originali e varianti archiviate restano in `esempi/caffe-luce/`.
 
-Le lezioni 04 «Ricerca, contesto e inclusione», 05 «Accessibilità e design inclusivo», 06 «Gestalt» e 07 «Colore e significato» sono pubblicate integralmente e collegate nell’indice. Gli import delle lezioni 08–10 dichiarano `localOnly: true`. Il preparser Slidev li disabilita durante ogni build e rimuove il blocco `LocalOnly` dall’indice prima della compilazione. Slide, alias e panoramica online non contengono queste lezioni; il build conserva in `images/processo-ux` soltanto le figure referenziate dalle lezioni pubblicate. `pnpm dev` conserva le sette lezioni del processo UX e i collegamenti, con Gestalt dopo Accessibilità. I controlli delle sorgenti verificano entrambe le modalità.
+Le lezioni 04 «Ricerca, contesto e inclusione», 05 «Accessibilità e design inclusivo», 06 «Gestalt», 07 «Colore e significato» e 08 «Tipografia» sono pubblicate integralmente e collegate nell’indice. Gli import delle lezioni 09–10 dichiarano `localOnly: true`. Il preparser Slidev li disabilita durante ogni build e rimuove il blocco `LocalOnly` dall’indice prima della compilazione. Slide, alias e panoramica online non contengono queste lezioni; il build conserva in `images/processo-ux` soltanto le figure referenziate dalle lezioni pubblicate. `pnpm dev` conserva le sette lezioni del processo UX e i collegamenti, con Gestalt dopo Accessibilità. I controlli delle sorgenti verificano entrambe le modalità.
 
 Le immagini generate attive sono registrate in `assets/theme-imagegen/manifest-v1.json`; PNG originali e WebP selezionati conservano pixel e trasparenza. Licenze dei font e provenienza degli artefatti storici restano insieme agli asset.
 

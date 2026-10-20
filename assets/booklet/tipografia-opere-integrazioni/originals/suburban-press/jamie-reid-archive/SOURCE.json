@@ -1,0 +1,63 @@
+{
+  "comment": 385,
+  "consulted": "2026-10-20",
+  "status": "AUTHENTIC_SOURCE_ACQUIRED_NOT_APPLIED",
+  "source": "https://jmgal3.squarespace.com/jra",
+  "authority": "John Marchant Gallery / The Jamie Reid Archive. The first-person archive page identifies Marchant as responsible for preserving and cataloguing Reid's archive, including Suburban Press originals.",
+  "selected": {
+    "title": "Last Days",
+    "artist": "Jamie Reid",
+    "project": "Suburban Press",
+    "date": 1972,
+    "date_evidence": "The archive's visible heading and image metadata both identify Last Days,1972. This is the work date, not the date of photography or download.",
+    "medium_as_catalogued": "Lithographic gummed paper",
+    "physical_dimensions_mm_as_catalogued": [99, 174],
+    "object_type": "Sticker",
+    "file": "last-days-1972-original.jpeg",
+    "download_url": "https://images.squarespace-cdn.com/content/v1/61226f79297a3b704d94be23/adc0da41-78f0-41fc-b3cb-105d8490b7a2/Last%2Bdays.jpeg",
+    "discovery": "Exact fullsize image link published by the primary archive page; no invented size parameter, alternate protected endpoint or webfont extraction.",
+    "pixels": [1440, 821],
+    "bytes": 255430,
+    "sha256": "ebe1ab593db0c0b4ee074e25065d416d4a8d510135742fed7e3d548fe6864217",
+    "visual_check": "The complete server-delivered raster shows the large LAST DAYS title, OFFICIAL WARNING label, tilted CLOSING / DOWN / SALE blocks and typewritten lower text. Printed halftone, uneven edges and source color remain unchanged.",
+    "source_boundary_limit": "The reproduction reaches printed forms at its outer edges; this audit does not certify complete physical paper margins or reconstruct any shape outside the published image. Import the entire acquired raster without introducing an additional crop.",
+    "version_limit": "The archive identifies the displayed original-period work. It mentions later display/reprinting in its context, but supplies no photo-exposure date or edition number for the digital reproduction. Do not label it a2007 poster-book edition, a new2026 design or a photograph shot in1972.",
+    "caption_without_figure_number": "Jamie Reid, Last Days,1972. Adesivo Suburban Press. Jamie Reid Archive / John Marchant Gallery.",
+    "use_limit": "A genuine illustrative example of the Suburban Press project; not proof that this particular sticker supplied material directly to the1977 Sex Pistols cover."
+  },
+  "rights": {
+    "page_notice": "Copyright © johnmarchantgallery.com2024",
+    "specific_open_image_license_observed": null,
+    "credit_to_preserve": "Jamie Reid; Jamie Reid Archive / John Marchant Gallery",
+    "qualification": "Artwork and reproduction rights remain with their respective holders; no public-domain,CC0orCCBY licence is inferred from public access. No individual photographer is credited by this record."
+  },
+  "preservation": {
+    "downloaded_bytes_unchanged": true,
+    "color_and_proportions_unchanged": true,
+    "ai_or_retyping_or_lookalike_font": false,
+    "image_upscale_or_sharpening": false,
+    "context_file": "primary-context.html",
+    "context_bytes": 837625,
+    "context_sha256": "144197813e71e6bf95b0ef14a991cb752a340df83956fca2f2da39c857126d2b"
+  },
+  "alternate_from_same_archive": {
+    "title_as_visible_heading": "Suburban Press No.1,1971",
+    "file": "suburban-press-no1-archive-dated1971-original.jpg",
+    "download_url": "https://images.squarespace-cdn.com/content/v1/61226f79297a3b704d94be23/5015652b-4eb7-4c51-9be9-b3adbb714b5a/1972%2BSub%2BPress%2B1.jpg",
+    "pixels": [1440, 1920],
+    "bytes": 481894,
+    "sha256": "0e7be5e64c65336afef97d8b5c4a425251d6f2cac83a60c4bd4b1dccf57eb98f",
+    "caution": "The catalogue heading says1971 but the original asset filename includes1972. The date should not be resolved from the filename alone; no further unsupported precision is introduced. The page is retained as an authentic lower-priority alternative, not selected for this small horizontal slot."
+  },
+  "native_layout_math_only": {
+    "maximum_art_cell": [187.09, 70],
+    "preferred_whole_image_size": [122.7771010962241, 70],
+    "uniform_scale": 0.08526187576126674,
+    "horizontal_centering_offset_in_cell": 32.15644945188795,
+    "crop_required": false,
+    "minimum_expected_function": "Large headline and opposed tilted blocks remain recognizable; the small historical paragraph is not promised readable in every detail.",
+    "caption_style": "DM Sans9/11,Light body and Medium figure prefix; external to the image, left aligned. Actual wrapping must be measured natively.",
+    "not_layout_pass": true
+  },
+  "no_design_or_comment_mutation": true
+}

@@ -6,6 +6,33 @@ import { webDesignExamplesPlugin } from './utils/web-design-examples.mjs'
 import { ilmeteoPlugin } from './utils/ilmeteo.mjs'
 import { preventIndexingHTML } from './utils/indexing.mjs'
 import { annotateAcronyms } from './utils/acronyms.mjs'
+import { annotateFontNames, catalog as fontPreviews, splitFontNames } from './utils/font-previews.mjs'
+import { lessonDecks } from './utils/lesson-decks.mjs'
+
+// A public lesson receives only specimens it actually cites. In particular,
+// unpublished lessons must not publish their documentary images through
+// the shared inline-help component.
+function fontPreviewCatalogPlugin() {
+  let selected: Promise<string> | undefined
+  const catalogFile = path.resolve('data/font-previews.json')
+  return {
+    name: 'cvedi-font-preview-catalog',
+    apply: 'build' as const,
+    enforce: 'pre' as const,
+    async load(id: string) {
+      if (id.split('?')[0] !== catalogFile) return
+      selected ??= (async () => {
+        const decks = lessonDecks.filter(deck => process.env.CVEDI_DECK
+          ? deck.id === process.env.CVEDI_DECK : !deck.localOnly)
+        const files = [...new Set(['slides.md', ...decks.map(deck => deck.file).filter(Boolean)])] as string[]
+        const texts = await Promise.all(files.map(file => readFile(path.resolve(file), 'utf8')))
+        const ids = new Set(texts.flatMap(text => splitFontNames(text).flatMap(part => part.fontId ? [part.fontId] : [])))
+        return JSON.stringify(Object.fromEntries(Object.entries(fontPreviews).filter(([id]) => ids.has(id))))
+      })()
+      return selected
+    },
+  }
+}
 
 function localAssetsPlugin() {
   let outputDirectory: string
@@ -42,9 +69,10 @@ export default {
     } },
   } : {}),
   slidev: {
-    markdown: { transforms: { after: annotateAcronyms } },
+    markdown: { transforms: { after: (html: string) => annotateAcronyms(annotateFontNames(html)) } },
   },
   plugins: [
+    fontPreviewCatalogPlugin(),
     lessonDecksDevPlugin(),
     localAssetsPlugin(),
     webDesignExamplesPlugin(),

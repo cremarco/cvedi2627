@@ -1,0 +1,57 @@
+{
+  "status": "AUTHENTIC_HISTORICAL_MODEL_PHOTOGRAPH_ACQUIRED_NOT_EXACT_MUSEUM_OBJECT_IDENTITY",
+  "consulted": "2026-10-20",
+  "model": "Lanston/Bancroft Limited Font Machine, introduced1897",
+  "primary_printed_source": {
+    "author": "Henry Lewis Bullen",
+    "title": "Origin and Development of the Lanston Monotype Composing Machine",
+    "periodical": "The Inland Printer",
+    "volume": 73,
+    "issue": 2,
+    "date": "May1924",
+    "printed_pages": "228–232",
+    "selected_figure": 7,
+    "selected_printed_page": 231,
+    "original_scan_pdf_page": 4,
+    "digitiser": "David M. MacMillan / CircuitousRoot, scanned from an original",
+    "context_url": "https://circuitousroot.com/artifice/letters/press/typemaking/history/type-scholars/bullen/index.html",
+    "photo_url": "https://circuitousroot.com/artifice/letters/press/typemaking/history/type-scholars/bullen/inland-printer-v073-n2-1924-05-bullen-monotype-1200rgb-0241-lanston-bancroft-limited-font-machine-photograph.png",
+    "pdf_url": "https://www.circuitousroot.com/artifice/letters/press/typemaking/history/type-scholars/bullen/inland-printer-v073-n2-1924-05-bullen-monotype-0600rgbjpg.pdf",
+    "filename_caution": "The downloaded photo filename contains0241; the printed source page visually inspected is231. Use the printed pagination, not the digitiser's filename token."
+  },
+  "identification": {
+    "visual_evidence": "The intact Fig7 caption identifies Bancroft's first commercially used machine as the Limited Font Machine,132characters. The article describes commercial practicality in1897; its chronology distinguishes the earlier1887 compression machine,1891 and1893 machines from this limited-font design.",
+    "date_of_model_vs_photo": "1897 identifies the historical machine model;1924 is the confirmed publication date of the reproduced photograph. The exposure date is not established.",
+    "not_keyboard": true,
+    "not_linotype_1892": true,
+    "not_monotype_1911": true,
+    "not_proven_same_object_as_science_museum_serial44": true,
+    "modern_museum_corroboration_url": "https://collection.sciencemuseumgroup.org.uk/objects/co8989730/composition-caster-by-the-lanston-monotype-corporation-ltd-1897",
+    "museum_record": "SMG2024-452, limited-font SizeA, Washington1897, serial44, confirms the model/date. The record offered no directly observable object photograph; do not label the acquired periodical image as a photograph of that particular surviving example.",
+    "source_reliability_limit": "The digitiser warns that Bullen's historical narratives contain errors. The specific image identification is explicit in the original caption and model/date are corroborated independently by the museum; this report does not endorse every assertion in the article."
+  },
+  "selected_asset": {
+    "path": "limited-font-model-bullen-1924-p231-original.png",
+    "dimensions": [2680, 5184],
+    "bytes": 22542253,
+    "sha256": "e84692994557f526b52df4bb997bf39a252e8c6d141e86af4f5da13418cf92bf",
+    "resolution_as_described_by_digitiser": "1200dpi scan; not AI enlargement",
+    "content": "Complete historical photograph plus the complete original Fig7 caption, retained byte-identically as downloaded.",
+    "appearance": "Original printed halftone, paper texture and signs of age remain. Do not recolor, sharpen with generative tools or reconstruct machine parts.",
+    "optional_native_clip_proposal": "A native clip may show only the whole machine photograph, stopping before the printed Fig7 caption, while retaining the complete PNG below it and providing a new editorial citation. Exact crop and final display size still require visual QA; no crop has been applied."
+  },
+  "rights": {
+    "digitiser_statement": "The context explicitly states that the reproduced periodical articles and their images remain in the public domain; it attributes the post1922 cases to nonrenewal. It separately licenses new site commentary CC BY-SA4.0.",
+    "historical_publication": "United States,1924; historical publication is distinct from later website commentary.",
+    "specific_image_cc_license": null,
+    "credit": "The Inland Printer73(2), May1924,p231,fig7; scan David M. MacMillan / CircuitousRoot; public domain as stated by the digitiser.",
+    "do_not_transfer_license": "Do not identify the museum metadata's CC0 or site commentary's CC BY-SA as an image licence."
+  },
+  "caption_proposal_without_figure_number": "Modello Monotype Limited Font del 1897: fotografia pubblicata in The Inland Printer, maggio 1924, p. 231, fig. 7. Scansione David M. MacMillan / CircuitousRoot; pubblico dominio.",
+  "supporting_files": [
+    {"file": "bullen-inland-printer-1924-original.pdf", "bytes": 55499211, "sha256": "ce18b9964045996bae784096c26ed9fac501375a908af8abc9de04513c61b98d"},
+    {"file": "circuitousroot-primary-source-context.html", "bytes": 63036, "sha256": "a3c63fc3422c95f35250536aa41bfc64fa6cd8864823e7fe59a64cf25a338fdb"}
+  ],
+  "access_limit": "A normal curl to the Science Museum object record returned403. No further request to its JSON, IIIF or alternate image paths was attempted. This independently digitised public periodical is not a bypass of the denied museum file.",
+  "limits": ["The exact serial44 museum object photograph is not acquired.", "No Figma/UI action, layout mutation, comment resolution or global coverage certification."]
+}

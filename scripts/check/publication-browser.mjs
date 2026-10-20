@@ -14,6 +14,7 @@ const publicLessons = [
   { id: 'percezione-gerarchia', number: 5, title: 'Accessibilità e design inclusivo' },
   { id: 'gestalt', number: 6, title: 'Gestalt' },
   { id: 'colore', number: 7, title: 'Colore e significato' },
+  { id: 'tipografia-griglie', number: 8, title: 'Tipografia' },
 ]
 const supplementalMaterials = [
   { id: 'brief-progetto', title: 'Brief di progetto', label: 'Brief di progetto · WHAT IF? 2050' },
@@ -27,8 +28,8 @@ const errors = []
 const warnings = []
 try {
   for (const profile of [
-    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 603 + localOnlySlides, buttons: publicLessons.length + supplementalMaterials.length + localLessons.length },
-    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 603, buttons: publicLessons.length + supplementalMaterials.length },
+    { name: 'local', base: process.env.SLIDEV_URL || 'http://localhost:3035', total: 717 + localOnlySlides, buttons: publicLessons.length + supplementalMaterials.length + localLessons.length },
+    { name: 'published', base: process.env.PUBLISHED_SLIDEV_URL || 'http://localhost:3046', total: 717, buttons: publicLessons.length + supplementalMaterials.length },
   ]) {
     const destinations = [...publicLessons.slice(0, 2), ...supplementalMaterials, ...publicLessons.slice(2), ...(profile.name === 'local' ? localLessons : [])]
     const page = await browser.newPage({ reducedMotion: 'reduce' })

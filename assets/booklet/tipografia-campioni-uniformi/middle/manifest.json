@@ -1,0 +1,753 @@
+{
+  "scope": "Authentic Aag outlines for the middle typography pages. No proprietary font binaries copied or redistributed.",
+  "target": {
+    "text": "Aag",
+    "nominalSize": 36,
+    "baseline": 31.2,
+    "bandHeight": 54,
+    "fill": "#30323a",
+    "sidePadding": 1,
+    "horizontalStretch": false,
+    "trackingAdded": 0
+  },
+  "provenanceReference": "/Users/marco/Sites/cvedi2627/reports/figma-commenti/2026-10-19/comment370-fonti-locali/manifest.json",
+  "fonts": [
+    {
+      "slug": "times-new-roman",
+      "family": "Times New Roman",
+      "source": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+      "postScript": "TimesNewRomanPSMT"
+    },
+    {
+      "slug": "georgia",
+      "family": "Georgia",
+      "source": "/System/Library/Fonts/Supplemental/Georgia.ttf",
+      "postScript": "Georgia"
+    },
+    {
+      "slug": "arial",
+      "family": "Arial",
+      "source": "/System/Library/Fonts/Supplemental/Arial.ttf",
+      "postScript": "ArialMT"
+    },
+    {
+      "slug": "gill-sans",
+      "family": "Gill Sans",
+      "source": "/System/Library/Fonts/Supplemental/GillSans.ttc",
+      "postScript": "GillSans"
+    },
+    {
+      "slug": "verdana",
+      "family": "Verdana",
+      "source": "/System/Library/Fonts/Supplemental/Verdana.ttf",
+      "postScript": "Verdana"
+    },
+    {
+      "slug": "geneva",
+      "family": "Geneva",
+      "source": "/System/Library/Fonts/Geneva.ttf",
+      "postScript": "Geneva"
+    },
+    {
+      "slug": "monaco",
+      "family": "Monaco",
+      "source": "/System/Library/Fonts/Monaco.ttf",
+      "postScript": "Monaco"
+    },
+    {
+      "slug": "lucida-grande",
+      "family": "Lucida Grande",
+      "source": "/System/Library/Fonts/LucidaGrande.ttc",
+      "postScript": "LucidaGrande"
+    },
+    {
+      "slug": "helvetica-neue",
+      "family": "Helvetica Neue",
+      "source": "/System/Library/Fonts/HelveticaNeue.ttc",
+      "postScript": "HelveticaNeue"
+    }
+  ],
+  "samples": [
+    {
+      "family": "Times New Roman",
+      "style": "Regular",
+      "postScript": "TimesNewRomanPSMT",
+      "version": "Version 5.01.4x",
+      "copyright": "© 2006 The Monotype Corporation. All Rights Reserved.",
+      "sourcePath": "/System/Library/Fonts/Supplemental/Times New Roman.ttf",
+      "sourceSha256": "f3b4ffff71c2a0c7227d37497683b2498fb2d0a4e8beae26f022e3ccfcaabfa3",
+      "collectionIndex": null,
+      "sourceMatches370": true,
+      "file": "times-new-roman-Aag-36.svg",
+      "sha256": "f1c9804c24548311f744f5b88cb3b898434834cf6029b7aa42e5fe208a4d37de",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 59.9765625,
+      "viewBox": [
+        -1,
+        0,
+        61.9765625,
+        54
+      ],
+      "inkBounds": [
+        0.28125,
+        6.819140624999999,
+        59.044921875,
+        32.150390625
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1479,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            16,
+            0,
+            1456,
+            1387
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1479,
+          "advanceUnits": 909,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            73,
+            -19,
+            905,
+            943
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2388,
+          "advanceUnits": 1024,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            61,
+            -442,
+            987,
+            943
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Georgia",
+      "style": "Regular",
+      "postScript": "Georgia",
+      "version": "Version 5.00x-4",
+      "copyright": "© 2006 Microsoft Corporation. All Rights Reserved.",
+      "sourcePath": "/System/Library/Fonts/Supplemental/Georgia.ttf",
+      "sourceSha256": "4f54eb299fccea7f103edeb0d92437359bfd4441811d53222b82b335369f6218",
+      "collectionIndex": null,
+      "sourceMatches370": true,
+      "file": "georgia-Aag-36.svg",
+      "sha256": "3017e2c7185974271a185a4c362a35931068eec066defde1b4c6dfa83cd4b2cc",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 60.626953125,
+      "viewBox": [
+        -1.720703125,
+        0,
+        63.34765625,
+        54
+      ],
+      "inkBounds": [
+        -0.720703125,
+        5.905078124999999,
+        60.64453125,
+        33.099609375
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1374,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            -41,
+            0,
+            1421,
+            1439
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1374,
+          "advanceUnits": 1032,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            80,
+            -25,
+            1006,
+            1014
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2406,
+          "advanceUnits": 1043,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            42,
+            -444,
+            1003,
+            1014
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Arial",
+      "style": "Regular",
+      "postScript": "ArialMT",
+      "version": "Version 5.01.2x",
+      "copyright": "© 2006 The Monotype Corporation. All Rights Reserved.",
+      "sourcePath": "/System/Library/Fonts/Supplemental/Arial.ttf",
+      "sourceSha256": "525979822591a3447cfc49d943d6f7683508e25543407871c0ed8fed05fd2bd9",
+      "collectionIndex": null,
+      "sourceMatches370": true,
+      "file": "arial-Aag-36.svg",
+      "sha256": "5a92d72f20dc87bc8c127ea4baef72b2147e96038b78bdf9700697578bb2f9a8",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 64.0546875,
+      "viewBox": [
+        -1.052734375,
+        0,
+        66.107421875,
+        54
+      ],
+      "inkBounds": [
+        -0.052734375,
+        5.430468749999999,
+        61.69921875,
+        33.345703125
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1366,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            -3,
+            0,
+            1369,
+            1466
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1366,
+          "advanceUnits": 1139,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            74,
+            -24,
+            1052,
+            1086
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2505,
+          "advanceUnits": 1139,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            66,
+            -431,
+            1002,
+            1086
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Gill Sans",
+      "style": "Regular",
+      "postScript": "GillSans",
+      "version": "22.0d2e1",
+      "copyright": "Digitized data copyright The Monotype Corporation 1991-2001. All rights reserved.",
+      "sourcePath": "/System/Library/Fonts/Supplemental/GillSans.ttc",
+      "sourceSha256": "43c9322041e6fe7e448c988bc09767a9c4a081ad72ea56e9c51f571557eef7e8",
+      "collectionIndex": 0,
+      "sourceMatches370": true,
+      "file": "gill-sans-Aag-36.svg",
+      "sha256": "5001358f9a409456d22a4feb5f48f30eacbe30387af37e587a22ab9a0283f25f",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 54.73828125,
+      "viewBox": [
+        -1,
+        0,
+        56.73828125,
+        54
+      ],
+      "inkBounds": [
+        0.0,
+        6.502734374999999,
+        54.52734375,
+        32.94140625
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1366,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            0,
+            0,
+            1366,
+            1405
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1366,
+          "advanceUnits": 874,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            55,
+            -16,
+            842,
+            938
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2240,
+          "advanceUnits": 874,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            0,
+            -469,
+            862,
+            920
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Verdana",
+      "style": "Regular",
+      "postScript": "Verdana",
+      "version": "Version 5.01x",
+      "copyright": "© 2006 Microsoft Corporation. All Rights Reserved.",
+      "sourcePath": "/System/Library/Fonts/Supplemental/Verdana.ttf",
+      "sourceSha256": "0da8c12f3e15d95585434d2cf294b3113a3e3fc84bf9ba9d64f2ef834ef4bd98",
+      "collectionIndex": null,
+      "sourceMatches370": false,
+      "file": "verdana-Aag-36.svg",
+      "sha256": "7904f70a01d86fdd8c7ed89f317eac90c36f1751d1c86000ec6299a37e6ad1b5",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 68.66015625,
+      "viewBox": [
+        -1,
+        0,
+        70.66015625,
+        54
+      ],
+      "inkBounds": [
+        0.45703125,
+        5.026171874999999,
+        64.951171875,
+        33.609375
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1400,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            26,
+            0,
+            1374,
+            1489
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1400,
+          "advanceUnits": 1230,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            104,
+            -31,
+            1053,
+            1144
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2630,
+          "advanceUnits": 1276,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            108,
+            -423,
+            1091,
+            1148
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Geneva",
+      "style": "Regular",
+      "postScript": "Geneva",
+      "version": "22.0d2e1",
+      "copyright": "© 1990-2016 Apple Inc. © 1990-98 Type Solutions Inc. © 1990-98 The Font Bureau Inc.  TrueType outline design of Geneva typeface created by Kris Holmes and Charles Bigelow.",
+      "sourcePath": "/System/Library/Fonts/Geneva.ttf",
+      "sourceSha256": "dee335fb5951cd4793e2cc6640061460d5531df578e6e987d444ffa7be4b4496",
+      "collectionIndex": null,
+      "sourceMatches370": true,
+      "file": "geneva-Aag-36.svg",
+      "sha256": "7ed2aa32001603a49de8a638d0d1c5a611e23691133b4c67e8f79c42cb2bc025",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 68.044921875,
+      "viewBox": [
+        -1,
+        0,
+        70.044921875,
+        54
+      ],
+      "inkBounds": [
+        0.544921875,
+        3.9187499999999993,
+        64.8984375,
+        35.47265625
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1489,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            31,
+            0,
+            1458,
+            1552
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1489,
+          "advanceUnits": 1133,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            109,
+            -31,
+            1032,
+            1149
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2622,
+          "advanceUnits": 1249,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            93,
+            -466,
+            1101,
+            1148
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Monaco",
+      "style": "Regular",
+      "postScript": "Monaco",
+      "version": "22.0d2e1",
+      "copyright": "© 1990-2008 Apple Inc. © 1990-97 Type Solutions Inc. © 1990-97 The Font Bureau Inc.  TrueType outline design of Monaco typeface created by Kris Holmes and Charles Bigelow.",
+      "sourcePath": "/System/Library/Fonts/Monaco.ttf",
+      "sourceSha256": "c6e990f6429fae28eb85321375dd335252f1122aa64c19fec553619a140724ef",
+      "collectionIndex": null,
+      "sourceMatches370": true,
+      "file": "monaco-Aag-36.svg",
+      "sha256": "81d6889455099be92c7a50025c8f766480f63b0ceb6975bca453b9bf47a08c26",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 64.810546875,
+      "viewBox": [
+        -1,
+        0,
+        66.810546875,
+        54
+      ],
+      "inkBounds": [
+        0.580078125,
+        3.9187499999999993,
+        61.751953125,
+        35.455078125
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1229,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            33,
+            0,
+            1197,
+            1552
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1229,
+          "advanceUnits": 1229,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            102,
+            -31,
+            1118,
+            1133
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2458,
+          "advanceUnits": 1229,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            114,
+            -465,
+            1088,
+            1133
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Lucida Grande",
+      "style": "Regular",
+      "postScript": "LucidaGrande",
+      "version": "22.0d2e1",
+      "copyright": "Copyright © 1989 Bigelow & Holmes, Inc. All rights reserved. Lucida is a trademark of Bigelow & Holmes Inc. registered in the U.S. Patent and Trademark Office and other jurisdictions. Lucida typeface designs created by Kris Holmes and Charles Bigelow.",
+      "sourcePath": "/System/Library/Fonts/LucidaGrande.ttc",
+      "sourceSha256": "c481b239979bf0a4912949494e00568fba253fd6265a9770c8721e7989e111ca",
+      "collectionIndex": 0,
+      "sourceMatches370": true,
+      "file": "lucida-grande-Aag-36.svg",
+      "sha256": "bee824b39c72fba6992e3060a8447bd86d19e2f89513680d7fa2ccd6b3b76ffc",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 2048,
+      "advanceWidth": 67.166015625,
+      "viewBox": [
+        -1,
+        0,
+        69.166015625,
+        54
+      ],
+      "inkBounds": [
+        0.298828125,
+        5.184374999999999,
+        63.615234375,
+        33.380859375
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 1413,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            17,
+            0,
+            1390,
+            1480
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 1413,
+          "advanceUnits": 1131,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            103,
+            -25,
+            1081,
+            1110
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 2544,
+          "advanceUnits": 1277,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            111,
+            -419,
+            1092,
+            1110
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    },
+    {
+      "family": "Helvetica Neue",
+      "style": "Regular",
+      "postScript": "HelveticaNeue",
+      "version": "22.0d2e1",
+      "copyright": "Copyright (c) 1981, 1982, 1983, 1989 and 1993, Linotype Library GmbH or its affiliated Linotype-Hell companies. All rights reserved.\n\nThe digitally encoded machine readable software for producing the Typefaces licensed to you is now the property of Heidelberger Druckmaschinen AG and its licensors, and may not be reproduced, used, displayed, modified, disclosed or transferred without the express written approval of Heidelberger Druckmaschinen AG.\n\nCopyright (c) 1988, 1990, 1993 Adobe Systems Incorporated. All Rights Reserved.",
+      "sourcePath": "/System/Library/Fonts/HelveticaNeue.ttc",
+      "sourceSha256": "f589d70dc741853a336fcb0d11aa1505d1646898fba2340a0f5999ea920406b3",
+      "collectionIndex": 0,
+      "sourceMatches370": true,
+      "file": "helvetica-neue-Aag-36.svg",
+      "sha256": "d23d5d40cfc34a47e30518d115e6a774539639bbd573efe9764f068c69c367b3",
+      "text": "Aag",
+      "nominalSize": 36,
+      "baseline": 31.2,
+      "bandHeight": 54,
+      "unitsPerEm": 1000,
+      "advanceWidth": 63.324,
+      "viewBox": [
+        -1.216,
+        0,
+        65.53999999999999,
+        54
+      ],
+      "inkBounds": [
+        -0.21599999999999997,
+        5.496000000000002,
+        61.236,
+        33.227999999999994
+      ],
+      "glyphs": [
+        {
+          "character": "A",
+          "glyph": "A",
+          "originUnits": 0,
+          "advanceUnits": 648,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            -6,
+            0,
+            656,
+            714
+          ]
+        },
+        {
+          "character": "a",
+          "glyph": "a",
+          "originUnits": 648,
+          "advanceUnits": 537,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            36,
+            -11,
+            522,
+            529
+          ]
+        },
+        {
+          "character": "g",
+          "glyph": "g",
+          "originUnits": 1185,
+          "advanceUnits": 574,
+          "kerningBeforeUnits": 0,
+          "boundsUnits": [
+            36,
+            -209,
+            510,
+            529
+          ]
+        }
+      ],
+      "fill": "#30323a",
+      "softwareFontRedistributed": false,
+      "qualification": "Current installed digital version; not a historic bitmap, original metal type or experimental study stimulus."
+    }
+  ],
+  "generator": {
+    "file": "generate.py",
+    "fontToolsVersion": "4.67.0",
+    "method": "Original glyph outlines and hmtx advances, with native pair kerning; no synthetic tracking or horizontal stretch.",
+    "validation": "Nine originals checked, TTC face names exact, native advance/ink union plus1px per side, vertical bounds within54px."
+  }
+}

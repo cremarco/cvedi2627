@@ -20,7 +20,7 @@ I controlli browser usano Chromium di `playwright-chromium`. `SLIDEV_URL` cambia
 
 `check:gestalt` verifica tutte le 111 slide su desktop, viewport stretto e stampa, con copertura delle 89 tavole e di tutte le immagini dello snapshot corrente, caricamento dei pixel, margini, posizione dei titoli, ingrandimento da tastiera e ritorno del focus. Rapporti e anteprime sono in `reports/gestalt-lesson/`. `python3 scripts/build/lesson-06-gestalt.py` rigenera la lezione, le figure e la mappa delle fonti dagli originali conservati.
 
-`check:publication` verifica 725 slide locali e 603 online, esclusione delle lezioni 08–10 dai file pubblicati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
+`check:publication` verifica 793 slide locali e 717 online, le 114 slide pubblicate di Tipografia, l’esclusione delle lezioni 09–10 dai file pubblicati, alias e indice. Passando `dist` o `_site/slides` verifica anche l’esclusione delle figure locali dalla build e la conservazione degli asset tipografici e delle anteprime citate. Il preparser in `setup/preparser.ts` e il plugin Vite applicano questa regola a ogni build; Pages verifica l’output prima di proseguire.
 
 `check:publication:browser` confronta un dev locale (`SLIDEV_URL`) e un server statico della build (`PUBLISHED_SLIDEV_URL`). Verifica indice su desktop, viewport stretto e stampa, conteggi reali, alias e navigazione alle sette lezioni pubblicate e alle tre locali.
 

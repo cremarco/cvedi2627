@@ -10,7 +10,7 @@ export const lessonDecks = [
   { id: 'percezione-gerarchia', lesson: 'percezione-gerarchia', alias: 'percezione-gerarchia', title: 'Accessibilità e design inclusivo', file: 'lezioni/05-percezione-gerarchia.md' },
   { id: 'gestalt', lesson: 'gestalt', alias: 'gestalt', title: 'Gestalt', file: 'lezioni/06-gestalt.md' },
   { id: 'colore', lesson: 'colore', alias: 'colore', title: 'Colore e significato', file: 'lezioni/06-colore.md' },
-  { id: 'tipografia-griglie', lesson: 'tipografia-griglie', alias: 'tipografia-griglie', title: 'Tipografia, griglie e interfacce', file: 'lezioni/07-tipografia-griglie.md', localOnly: true },
+  { id: 'tipografia-griglie', lesson: 'tipografia-griglie', alias: 'tipografia-griglie', title: 'Tipografia', file: 'lezioni/07-tipografia-griglie.md' },
   { id: 'prototipi-interfacce', lesson: 'prototipi-interfacce', alias: 'prototipi-interfacce', title: 'Prototipi e videogiochi', file: 'lezioni/08-prototipi-interfacce.md', localOnly: true },
   { id: 'test-implementazione', lesson: 'test-implementazione', alias: 'test-implementazione', title: 'Test e implementazione', file: 'lezioni/09-test-implementazione.md', localOnly: true },
 ]

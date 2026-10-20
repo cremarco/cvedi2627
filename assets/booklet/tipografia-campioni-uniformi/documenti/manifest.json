@@ -1,0 +1,174 @@
+{
+  "purpose": "Authentic documentary specimens; no commercial font software copied or reconstructed",
+  "status": "BROWSER_APPLIED_CONTENT_AND_LAYOUT_PASS_SWIFT_LINK_DECORATION_PENDING",
+  "integrationReport": "reports/figma-commenti/2026-10-19/font-uniform-documentary-browser-applied.json",
+  "nativeExportLimitation": "Native PNG download denied by user; no retry or workaround. Visual QA uses ordinary Browser view screenshots, not a native export.",
+  "assets": [
+    {
+      "family": "Frutiger",
+      "file": "frutiger-lt-poster01-original.png",
+      "sha256": "2d8176af2a7d983d5cf127a4784a8f62884cacda58082394901f6472c1fb0a51",
+      "dimensions": [
+        2880,
+        1440
+      ],
+      "sourcePage": "https://www.myfonts.com/collections/frutiger-tr-font-linotype",
+      "sourceImage": "https://cdn.myfonts.net/images/pim/10187/45101_Frutiger%20LT-01.png",
+      "credit": "Adrian Frutiger / Linotype; official poster published by MyFonts / Monotype",
+      "license": "Copyright retained; no open-license claim. Documentary excerpt for teaching, not font software.",
+      "versionQualification": "Current digital Frutiger family; not Roissy prototype, Frutiger Next, Neue Frutiger or a dated1976printedartifact.",
+      "figmaOriginalHiddenNode": "4808:8396",
+      "figmaImageHash": "983671d070efa5e89a74a6b4aed19ed0494da332",
+      "plannedExcerpt": {
+        "text": "Fru",
+        "cropNativePixels": [
+          130,
+          375,
+          728,
+          360
+        ],
+        "displayWidth": 86.46,
+        "estimatedInkHeight": 35.4,
+        "measuredInkHeightLocal": 35.035302197802196,
+        "status": "APPLIED_BROWSER_VISUAL_QA_PASS; NATIVE_EXPORT_NOT_PERFORMED"
+      },
+      "target": {
+        "frameId": "4345:61981",
+        "folioAfterInsertion": 414,
+        "existingModule": "4802:35963"
+      },
+      "integration": {
+        "method": "Browser SVG import; native editor not used",
+        "svgFile": "frutiger-lt-poster01-dettaglio-compatto.svg",
+        "fullSourceSvgPreserved": "frutiger-lt-poster01-dettaglio.svg",
+        "newCellId": "4811:10396",
+        "headerId": "4811:10397",
+        "header": "Frutiger",
+        "bandId": "4811:10398",
+        "bandDimensions": [86.46, 54],
+        "newSvgNodeId": "4811:10407",
+        "svgParentId": "4811:10398",
+        "svgPositionInBand": [0, 5.62],
+        "svgDimensions": [86.46, 42.75],
+        "preservedHiddenCloneViewportId": "4811:10402",
+        "originalHiddenSourcePreserved": true,
+        "moduleY": 524.52,
+        "moduleHeight": 96,
+        "moduleBottom": 620.52,
+        "bodyMaxBottom": 516.52,
+        "browserVisualQa": "PASS at151%: whole App and Fru, full page with margins and captions intact",
+        "proof": "reports/figma-commenti/2026-10-19/font-uniform-frutiger414-browser-final.jpg",
+        "localDecodedCropPixelsIdentical": true,
+        "helveticaNowCropQa": "/private/tmp/font-uniform-app-crop-414-qa.json",
+        "helveticaNowViewport": {"id": "4807:8396", "width": 63, "height": 31.687, "innerWidth": 470.6, "innerHeight": 315.48, "offsetX": -225.89, "offsetY": -179.61, "innerAndOffsetsUnchanged": true},
+        "captionPrefixPreserved": true,
+        "captionBody": "Helvetica e Helvetica Now («App»), Monotype; Helvetica Neue Regular, Linotype. Frutiger LT («Fru»): campione digitale attuale Linotype/MyFonts, non Roissy."
+      }
+    },
+    {
+      "family": "Swift",
+      "file": "swift-lt-poster03-original.png",
+      "sha256": "903a0029f29ac2f41a2445c98cbc553475742f3d0e2c7311783aeb06b4223b61",
+      "dimensions": [
+        2880,
+        1440
+      ],
+      "sourcePage": "https://www.myfonts.com/collections/swift-font-linotype",
+      "sourceImage": "https://cdn.myfonts.net/images/pim/10188/Swift%20LT%203.png",
+      "credit": "Gerard Unger / Linotype; official poster published by MyFonts / Monotype",
+      "license": "Copyright retained; no open-license claim. Documentary excerpt for teaching, not font software.",
+      "versionQualification": "Current digital Swift family, distinct from NeueSwift; do not claim this is a1985print or exact originalsoftware.",
+      "plannedExcerpt": {
+        "text": "Quality",
+        "cropNativePixels": [
+          165,
+          903,
+          409,
+          128
+        ],
+        "scale": 0.28,
+        "displayDimensions": [
+          114.52,
+          35.84
+        ],
+        "inkHeight": 30.8,
+        "status": "APPLIED_BROWSER_CONTENT_AND_LAYOUT_PASS; LINK_DECORATION_APPROVAL_PENDING"
+      },
+      "target": {
+        "frameId": "4433:8092",
+        "folio": 383
+      },
+      "integration": {
+        "method": "Browser import of full-source SVG; native editor not used",
+        "svgFile": "swift-lt-poster03-dettaglio.svg",
+        "newSvgNodeId": "4811:10143",
+        "parentId": "4805:8388",
+        "layoutPositioning": "ABSOLUTE",
+        "positionRelativeToParent": [3.155, 30.665],
+        "displayDimensions": [114.52, 35.84],
+        "header": "Swift · campione Linotype / Neue Swift · guida 2023",
+        "neueSwiftPreserved": {"imageId": "4805:8390", "artId": "4805:8389", "width": 253.35, "height": 65.17, "x": 131.845, "y": 0, "unchanged": true},
+        "captionFigurePrefixPreserved": true,
+        "captionFigureNumber": "3.291",
+        "captionBody": "Swift: «Quality», campione digitale Linotype attuale. Neue Swift: «Typography», guida Monotype 2023. Gerard Unger; Linotype/Monotype, Font Field Guide № 035.",
+        "swiftCaptionSpanSourceLinkCorrect": true,
+        "originalNeueSwiftGuideLinkPreserved": true,
+        "moduleBottom": 624.5,
+        "contentAndLayoutPass": true,
+        "fullStylePass": false,
+        "pendingStyleIssue": "Figma Browser linking added underlining across the whole caption. Removal was blocked by autoReview; asynchronous user approval pending. Do not claim full style QA passed.",
+        "nativeExportQaPerformed": false,
+        "proof": "reports/figma-commenti/2026-10-19/font-uniform-swift383-browser-final-pending-underline.jpg",
+        "proseClause": "il dettaglio di Neue Swift in figura3.291 viene dalla guida Monotype del2023",
+        "proseBody12_14And2023EmphasisPreserved": true,
+        "independentQa": "Existing independent QA reported by parent; content/layout pass, underline still pending"
+      },
+      "additionalLocalIntegration373": {
+        "frameId": "4345:55210",
+        "folio": 373,
+        "moduleId": "4802:35741",
+        "moduleName": "Swift · campione Linotype attuale · modello uniforme",
+        "moduleBounds": {"x": 252.28003, "y": 528.51953, "width": 187.09, "height": 96, "bottom": 624.52},
+        "headerId": "4802:35742",
+        "header": "Swift · campione Linotype attuale",
+        "headerTypography": "DM Sans Medium10/12",
+        "artId": "4802:35743",
+        "artDimensions": [187.09, 54],
+        "oldNeueSwiftViewportHiddenPreserved": "4802:35744",
+        "oldNeueSwiftRasterPreserved": "4802:35745",
+        "newSvgNodeId": "4811:10412",
+        "nativeCopyOf383SvgNode": "4811:10143",
+        "positioning": "ABSOLUTE child of4802:35741",
+        "positionRelativeToModule": [36.285, 25.08],
+        "displayDimensions": [114.52, 35.84],
+        "captionId": "4802:35749",
+        "captionFigureNumber": "3.279c",
+        "captionMediumPrefixPreserved": true,
+        "captionBody": "Swift: campione digitale attuale. Gerard Unger; Linotype/MyFonts.",
+        "captionTypography": "DM Sans Light9/11, two lines",
+        "wholeCaptionSourceLink": "https://www.myfonts.com/collections/swift-font-linotype",
+        "oldNeueSwiftPdfLinkReplaced": true,
+        "contentAndLayoutPass": true,
+        "fullStylePass": false,
+        "pendingStyleIssue": "Browser link styling underlines this caption and the383caption; correction awaits asynchronous user approval.",
+        "proof": "reports/figma-commenti/2026-10-19/font-uniform-swift373-browser-final-pending-underline.jpg"
+      },
+      "relatedNeueSwift375CaptionRepair": {
+        "captionId": "4804:36410",
+        "oldPrefix": "Dettaglio della figura 3.279c",
+        "newPrefix": "Campione documentario",
+        "remainingCaptionUnchanged": true,
+        "neueSwift2023QualificationPreserved": true,
+        "proofStatus": "RECEIVED_INDEPENDENT_CONTENT_AND_LAYOUT_QA_PASS",
+        "proof": "reports/figma-commenti/2026-10-19/font-uniform-neue-swift375-browser-final.jpg",
+        "independentQaReport": "reports/figma-commenti/2026-10-19/font-uniform-swift373-neue375-independent-qa.json"
+      },
+      "historicalAlternative": {
+        "archive": "Gezellearchief, GGA2482",
+        "title": "By Air, Daily Swift",
+        "date": "1987-05-02",
+        "reasonNotChosen": "Authentic archival poem but the available437×632photo has lettering too small for a clear ordinary specimen. Affiche depicts birds, not a font specimen."
+      }
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 import { test } from 'node:test'
 import { createRequire } from 'node:module'
-import { realpath, mkdtemp, writeFile, rm } from 'node:fs/promises'
+import { readFile, realpath, mkdtemp, writeFile, rm } from 'node:fs/promises'
 import { tmpdir } from 'node:os'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
@@ -11,6 +11,16 @@ const root = fileURLToPath(new URL('../..', import.meta.url))
 const require = createRequire(await realpath(path.join(root, 'node_modules/@slidev/cli/package.json')))
 const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
 const options = { roots: [root], userRoot: root, allowedRoots: [root] }
+
+test('typography is published while only prototypes and test remain local', async () => {
+  const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
+  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), ['prototipi-interfacce', 'test-implementazione'])
+  for (const lesson of curriculum.lessons) {
+    const presentation = lessonDecks.find(deck => deck.id === lesson.id)
+    assert.ok(presentation, `${lesson.id}: presentation exists`)
+    assert.equal(Boolean(presentation.localOnly), lesson.localOnly === true, `${lesson.id}: deck and curriculum agree on publication`)
+  }
+})
 
 test('each presentation imports only its own lesson and preserves every source slide', async () => {
   try {
@@ -22,12 +32,12 @@ test('each presentation imports only its own lesson and preserves every source s
         injectPreparserExtensionLoader(async (_r, _h, file, mode) => [...publicationExtensions(mode), ...lessonDeckExtensions(deck.id, file)])
         const selected = await load(options, path.join(root, 'slides.md'), undefined, mode)
         const expected = full.slides.filter(s => (s.frontmatter.lesson ?? 'presentazione-corso') === deck.lesson)
-        assert.deepEqual(selected.slides.map(s => [s.title, s.content]), expected.map(s => [s.title, s.content]), `${mode}/${deck.id}: exact source content, order and count`)
+        assert.deepEqual(selected.slides.map(s => [s.title, s.content, s.note]), expected.map(s => [s.title, s.content, s.note]), `${mode}/${deck.id}: exact source content, notes, order and count`)
         assert.ok(selected.slides.length > 0)
         assert.ok(selected.slides.every(s => (s.frontmatter.lesson ?? 'presentazione-corso') === deck.lesson))
         const sources = Object.keys(selected.markdownFiles).map(f => path.relative(root, f)).sort()
         assert.deepEqual(sources, ['slides.md', ...(deck.file ? [deck.file] : [])].sort(), `${deck.id}: other source files are never imported`)
-        assert.equal(selected.headmatter.presenter, false)
+        assert.equal(selected.headmatter.presenter, true)
         assert.equal(selected.headmatter.preloadImages, false, `${deck.id}: no global image preload`)
         total += selected.slides.length
       }

@@ -16,25 +16,9 @@ import './ux-examples.css'
 import './ux-process.css'
 import './grades.css'
 import './motion.css'
-import './published.css'
+import './presenter.css'
 import './theme.css'
 import './typography.css'
 import './layout.css'
 import './acronyms.css'
-
-// A production build can also be previewed locally. Hide only on online hosts.
-if (typeof window !== 'undefined') {
-  const hostname = window.location.hostname.toLowerCase()
-  const localHost = hostname === 'localhost'
-    || hostname.endsWith('.localhost')
-    || hostname.endsWith('.local')
-    || hostname === '[::1]'
-    || hostname === '::1'
-    || hostname === '0.0.0.0'
-    || /^127\./.test(hostname)
-    || /^10\./.test(hostname)
-    || /^192\.168\./.test(hostname)
-    || /^172\.(1[6-9]|2\d|3[01])\./.test(hostname)
-
-  document.documentElement.classList.toggle('cvedi-published', import.meta.env.PROD && !localHost)
-}
+import './font-previews.css'
