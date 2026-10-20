@@ -359,11 +359,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-themes.webp",
-        "alt": "Le due sezioni usano lo stesso ruolo primario su superfici differenti.",
+        "kind": "native",
         "caption": "Le due sezioni usano lo stesso ruolo primario su superfici differenti.",
-        "example": "themes"
+        "example": "framework:themes"
       }
     ],
     "sources": [
@@ -481,11 +479,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-custom.webp",
-        "alt": "La card mantiene struttura e contenuti; cambiano primario e raggio del tema.",
+        "kind": "native",
         "caption": "La card mantiene struttura e contenuti; cambiano primario e raggio del tema.",
-        "example": "custom"
+        "example": "framework:custom"
       }
     ],
     "sources": [

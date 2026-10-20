@@ -992,9 +992,9 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/0f344dec0d2c041537da.png",
-        "alt": "Flusso di lavoro - completo · figura della slide originale 14"
+        "kind": "native",
+        "example": "0f344dec0d2c041537da.png",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 14,
@@ -1379,9 +1379,9 @@
     "title": "Inizializzare un repository",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/bcea17b47b9c20105db3.png",
-        "alt": "Inizializzare un repository · figura della slide originale 20"
+        "kind": "native",
+        "example": "bcea17b47b9c20105db3.png",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 20,
@@ -1419,10 +1419,9 @@
     "title": "Staging e Commit",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-021-diagram.webp",
-        "alt": "Staging e Commit. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-021-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 21,
@@ -1456,10 +1455,9 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-022-diagram.webp",
-        "alt": "Annullare ultimo commit. Se si vuole annullare l’ultimo commit è possibile farlo selezionando puntini -> Commit -> Undo last Commit",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-022-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 22,
@@ -1536,9 +1534,9 @@
     "title": "Diff e Restore",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/da81bf54e0a7da4bc8e5.png",
-        "alt": "Diff e Restore · figura della slide originale 23"
+        "kind": "native",
+        "example": "da81bf54e0a7da4bc8e5.png",
+        "caption": "Il diff confronta due stati. Discard changes scarta modifiche: controllare il confronto prima di usarlo."
       }
     ],
     "sourceSlide": 23,
@@ -1566,10 +1564,9 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-024-diagram.webp",
-        "alt": "Branch. Per gestire i branch in VS Code esiste un pannello dedicato Brench attuale Tutti i branch locali Tutti le operazioni possibili",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-024-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 24,
@@ -1617,9 +1614,9 @@
     "title": "New Branch",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/b9d423dd0e9c83338bbb.png",
-        "alt": "New Branch · figura della slide originale 25"
+        "kind": "native",
+        "example": "b9d423dd0e9c83338bbb.png",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 25,
@@ -1647,10 +1644,9 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-026-diagram.webp",
-        "alt": "Checkout. Per passare da un Branch all’altro, selezionare il Branch corrente nella Status Bar e selezionare un Branch differente da quello corrente Brench attuale è “dev” Possiamo selezionare “main”",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-026-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 26,
@@ -1688,10 +1684,9 @@
     "title": "Merge",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-027-diagram.webp",
-        "alt": "Merge. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-027-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 27,
@@ -1902,10 +1897,9 @@
     "title": "Caricare il repository su Github",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-031-diagram.webp",
-        "alt": "Caricare il repository su Github. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-031-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 31,
@@ -1973,10 +1967,9 @@
     "title": "Caricare il repository su Github",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-032-diagram.webp",
-        "alt": "Caricare il repository su Github. In VS Code nella Status Bar selezionate puntini -> Remote -> Add Remote… Icona con la nuvoletta rappresenta il comando per pubblicare il Branch sul remote",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-032-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 32,
@@ -2039,10 +2032,9 @@
     "title": "Stato di sincronizzazione",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-033-diagram.webp",
-        "alt": "Stato di sincronizzazione. È possibile verificare lo stato di sincronizzazione dalla Status Bar di VS Code.",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-033-diagram.webp",
+        "caption": "L’indicatore della fonte distingue commit in entrata e in uscita."
       }
     ],
     "sourceSlide": 33,
@@ -2100,10 +2092,9 @@
     "title": "Risolvere inline",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-035-diagram.webp",
-        "alt": "Risolvere inline. Modifiche locali Modifiche remote",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-035-diagram.webp",
+        "caption": "Le due versioni sono ricostruite come testo; i marcatori rendono esplicito il conflitto."
       }
     ],
     "sourceSlide": 35,
@@ -2116,10 +2107,9 @@
     "title": "Risolvere nel Merge Editor",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-036-diagram.webp",
-        "alt": "Risolvere nel Merge Editor. Modifiche locali Modifiche remote Risultato del merge",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-036-diagram.webp",
+        "caption": "Tre aree separate riprendono il Merge Editor: due ingressi e un risultato da verificare."
       }
     ],
     "sourceSlide": 36,
@@ -2160,25 +2150,20 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Da VS Code non è possibile vedere la storia delle modifiche del repository, ma accedendo alla pagina di Github relativa al repository, è possibile vedere il numero di commit e le ultime modifiche",
+            "text": "La storia del repository si può consultare nel Source Control Graph di VS Code, su GitHub o con git log.",
             "runs": [
               {
-                "text": "Da VS Code non è possibile vedere la storia delle modifiche del repository, ma accedendo alla pagina di Github relativa al repository, è possibile vedere il numero di commit e le ultime modifiche"
+                "text": "La storia del repository si può consultare nel Source Control Graph di VS Code, su GitHub o con git log."
               }
             ],
             "bullet": false,
             "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
+          },
           {
-            "text": "Cliccando sui commit è possibile visualizzare tutte le modifiche e tutta la storia relativa al branch",
+            "text": "Aprendo un commit si possono leggere le modifiche introdotte e seguire l’evoluzione del branch.",
             "runs": [
               {
-                "text": "Cliccando sui commit è possibile visualizzare tutte le modifiche e tutta la storia relativa al branch"
+                "text": "Aprendo un commit si possono leggere le modifiche introdotte e seguire l’evoluzione del branch."
               }
             ],
             "bullet": false,
@@ -2190,17 +2175,23 @@
     "sourceSlide": 38,
     "number": 57,
     "part": 1,
-    "parts": 2
+    "parts": 2,
+    "sources": [
+      {
+        "title": "VS Code · source control",
+        "url": "https://code.visualstudio.com/docs/sourcecontrol/overview"
+      }
+    ],
+    "revision": "native-reconstruction"
   },
   {
     "kind": "content",
     "title": "La history",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/08-038-diagram.webp",
-        "alt": "La history. Cliccando sui commit è possibile visualizzare tutte le modifiche e tutta la storia relativa al branch",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "08-038-diagram.webp",
+        "caption": "Operazioni e relazioni ricostruite con testo e codice selezionabili dalla schermata originale."
       }
     ],
     "sourceSlide": 38,

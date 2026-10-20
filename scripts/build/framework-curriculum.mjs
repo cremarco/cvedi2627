@@ -6,6 +6,7 @@ const json = async file => JSON.parse(await readFile(file, 'utf8'))
 const save = (file, value) => writeFile(file, JSON.stringify(value, null, 2) + '\n')
 const archive = 'assets/esercitazioni/bootstrap-archive'
 const manifest = await json('assets/esercitazioni/manifest.json')
+if (manifest.nativeRebuild) throw new Error('Usare scripts/build/exercise-native.mjs per applicare la specifica ai contenuti nativi correnti.')
 await mkdir(`${archive}/images`, { recursive: true })
 let root = await readFile('slides.md', 'utf8')
 let registry = await readFile('utils/lesson-decks.mjs', 'utf8')

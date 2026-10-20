@@ -306,11 +306,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-first.webp",
-        "alt": "Padding, misura del testo e gerarchia derivano da classi distinte.",
+        "kind": "native",
         "caption": "Padding, misura del testo e gerarchia derivano da classi distinte.",
-        "example": "first"
+        "example": "framework:first"
       }
     ],
     "sources": [
@@ -445,11 +443,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-flex.webp",
-        "alt": "Su questa larghezza il titolo e l’orario condividono una riga.",
+        "kind": "native",
         "caption": "Su questa larghezza il titolo e l’orario condividono una riga.",
-        "example": "flex"
+        "example": "framework:flex"
       }
     ],
     "sources": [
@@ -504,11 +500,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-grid.webp",
-        "alt": "Tre fasi condividono colonne e intervalli regolari.",
+        "kind": "native",
         "caption": "Tre fasi condividono colonne e intervalli regolari.",
-        "example": "grid"
+        "example": "framework:grid"
       }
     ],
     "sources": [
@@ -646,11 +640,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-responsive.webp",
-        "alt": "Lo stesso HTML passa da due colonne a una; i viewport degli esempi sono reali.",
+        "kind": "native",
         "caption": "Lo stesso HTML passa da due colonne a una; i viewport degli esempi sono reali.",
-        "example": "responsive"
+        "example": "framework:responsive"
       }
     ],
     "sources": [
@@ -786,11 +778,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-focus.webp",
-        "alt": "Il contorno identifica il collegamento che riceve il focus.",
+        "kind": "native",
         "caption": "Il contorno identifica il collegamento che riceve il focus.",
-        "example": "focus"
+        "example": "framework:focus"
       }
     ],
     "sources": [

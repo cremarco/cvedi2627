@@ -1085,92 +1085,33 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Per capire quali dichiarazioni applicare, il browser segue una logica di specificità ",
+            "text": "La specificità confronta tre conteggi, nell’ordine: ID; classi, attributi e pseudoclassi; tipi e pseudoelementi.",
             "runs": [
               {
-                "text": "Per capire quali dichiarazioni applicare, il browser segue una logica di "
-              },
-              {
-                "text": "specificità",
-                "bold": true
-              },
-              {
-                "text": " "
+                "text": "La specificità confronta tre conteggi, nell’ordine: ID; classi, attributi e pseudoclassi; tipi e pseudoelementi."
               }
             ],
             "bullet": false,
             "level": 0
           },
           {
-            "text": "Potete immaginare la specificità come un punteggio:",
+            "text": "Si confrontano le colonne da sinistra, senza convertire la tupla in una somma. Il selettore universale non aggiunge specificità.",
             "runs": [
               {
-                "text": "Potete immaginare la specificità come un "
-              },
-              {
-                "text": "punteggio",
-                "bold": true
-              },
-              {
-                "text": ":"
+                "text": "Si confrontano le colonne da sinistra, senza convertire la tupla in una somma. Il selettore universale non aggiunge specificità."
               }
             ],
             "bullet": false,
             "level": 0
           },
           {
-            "text": "Il selettore universale * (0)",
+            "text": "Gli stili inline prevalgono sulle normali dichiarazioni degli stylesheet nell’ambito della stessa origine e importanza.",
             "runs": [
               {
-                "text": "Il selettore universale * (0)"
+                "text": "Gli stili inline prevalgono sulle normali dichiarazioni degli stylesheet nell’ambito della stessa origine e importanza."
               }
             ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "I nomi dei tag: p, div, .. (1)",
-            "runs": [
-              {
-                "text": "I nomi dei tag: p, div, .. (1)"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Classi, pseudoclassi e selettori di attributo (10)",
-            "runs": [
-              {
-                "text": "Classi, pseudoclassi e selettori di attributo (10)"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          },
-          {
-            "text": "Id (100)",
-            "runs": [
-              {
-                "text": "Id (100)"
-              }
-            ],
-            "bullet": true,
-            "level": 0
-          }
-        ]
-      },
-      {
-        "kind": "text",
-        "paragraphs": [
-          {
-            "text": "Stili inline (1000)",
-            "runs": [
-              {
-                "text": "Stili inline (1000)"
-              }
-            ],
-            "bullet": true,
+            "bullet": false,
             "level": 0
           }
         ]
@@ -1179,7 +1120,14 @@
     "sourceSlide": 9,
     "number": 11,
     "part": 1,
-    "parts": 3
+    "parts": 3,
+    "sources": [
+      {
+        "title": "MDN · specificità",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascade/Specificity"
+      }
+    ],
+    "revision": "native-reconstruction"
   },
   {
     "kind": "content",
@@ -1270,10 +1218,9 @@
     "title": "Gerarchia della specificità",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-009-diagram.webp",
-        "alt": "Gerarchia della specificità. ul#primary-nav li.active { ... } 1 + 100 + 1 + 10 = 112 ul.active > p.fake-class { ... } 1 + 10 + 1 + 10 = 22",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-009-diagram.webp",
+        "caption": "Gli esempi della fonte sono mantenuti; la specificità è un confronto fra tuple, non una somma decimale."
       }
     ],
     "sourceSlide": 9,
@@ -2345,9 +2292,9 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/e6e12663edf18cd33e89.png",
-        "alt": "Box-sizing · esempio · figura della slide originale 18"
+        "kind": "native",
+        "example": "e6e12663edf18cd33e89.png",
+        "caption": "Stessa width: 100px e padding: 10px; senza bordi. Ricostruzione dello schema accreditato a webriderz.com nella fonte."
       }
     ],
     "sourceSlide": 18,
@@ -3362,14 +3309,10 @@
         "kind": "text",
         "paragraphs": [
           {
-            "text": "Position: fixed - l’elemento è rimosso dal flusso e la sua posizione è relativa al body",
+            "text": "position: fixed — l’elemento è rimosso dal flusso ed è normalmente posizionato rispetto al viewport. Alcune proprietà degli antenati possono cambiare il containing block.",
             "runs": [
               {
-                "text": "Position: fixed - ",
-                "bold": true
-              },
-              {
-                "text": "l’elemento è rimosso dal flusso e la sua posizione è relativa al body"
+                "text": "position: fixed — l’elemento è rimosso dal flusso ed è normalmente posizionato rispetto al viewport. Alcune proprietà degli antenati possono cambiare il containing block."
               }
             ],
             "bullet": false,
@@ -3378,16 +3321,22 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-023-diagram.webp",
-        "alt": "Cambiare il flusso. Esempio interattivo",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-023-diagram.webp",
+        "caption": "Il riquadro fixed è schematizzato rispetto al viewport dell’esempio; relative conserva il proprio posto nel flusso."
       }
     ],
     "sourceSlide": 23,
     "number": 38,
     "part": 2,
-    "parts": 2
+    "parts": 2,
+    "sources": [
+      {
+        "title": "MDN · position",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/position"
+      }
+    ],
+    "revision": "native-reconstruction"
   },
   {
     "kind": "content",
@@ -3611,10 +3560,9 @@
     "title": "Esercizio 2 · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-026-diagram.webp",
-        "alt": "ESERCIZIO 2 · esempio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus. Proin id egestas turpis, quis semper est. Suspendisse fringilla dui eu egestas dignissim. Suspendisse commodo magna in enim consequat elementum. Aliquam vehicula diam vitae justo porta dapibus. Morbi ligula dui, sodales id mauris ac, congue convallis mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id euismod purus.",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-026-diagram.webp",
+        "caption": "L’esercizio mostra il testo che scorre accanto a un elemento flottante."
       }
     ],
     "sourceSlide": 26,
@@ -3909,10 +3857,9 @@
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-030-diagram.webp",
-        "alt": "Proprietà per il genitore. .container { flex-direction: row | row-reverse | column | column-reverse; }",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-030-diagram.webp",
+        "caption": "Gli oggetti sono disposti lungo l’asse principale scelto da flex-direction."
       }
     ],
     "sourceSlide": 30,
@@ -4018,10 +3965,9 @@
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-031-diagram.webp",
-        "alt": "Proprietà per il genitore. flex-wrap Gli oggetti flex tenteranno di incastrarsi in una sola fila Si può cambiare questo comportamento con flex-wrap: wrap .container { flex-wrap: nowrap | wrap | wrap-reverse; }",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-031-diagram.webp",
+        "caption": "Gli stessi sei oggetti restano su una riga o vanno a capo."
       }
     ],
     "sourceSlide": 31,
@@ -4319,10 +4265,9 @@
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-033-diagram.webp",
-        "alt": "Proprietà per il genitore. justify-content Definisce l’allineamento lungo l’asse principale (quella orizzontale se la direzione è row). Aiuta a gestire lo spazio libero Di default è impostato su flex-start .container { justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly | start | end | left; } flex-start flex-end center",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-033-diagram.webp",
+        "caption": "L’allineamento cambia lungo l’asse principale."
       }
     ],
     "sourceSlide": 33,
@@ -4481,10 +4426,9 @@
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-034-diagram.webp",
-        "alt": "Proprietà per il genitore. space-between space-around space-evenly",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-034-diagram.webp",
+        "caption": "Confronta lo spazio fra gli oggetti e quello sui margini esterni."
       }
     ],
     "sourceSlide": 34,
@@ -4698,10 +4642,9 @@
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-035-diagram.webp",
-        "alt": "Proprietà per il genitore. .container { align-items: stretch | flex-start | flex-end | center | baseline; } stretch flex-start flex-end center",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-035-diagram.webp",
+        "caption": "L’allineamento cambia sull’asse trasversale del contenitore."
       }
     ],
     "sourceSlide": 35,
@@ -4929,10 +4872,9 @@
     "title": "Proprietà per il genitore",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-036-diagram.webp",
-        "alt": "Proprietà per il genitore. align-content Organizza le righe di elementi sull’asse perpendicolare Non ha effetto se c’è una sola riga .container { align-content: flex-start | flex-end | center | space-between | space-around | space-evenly | stretch | start | end | baseline; } flex-start flex-end stretch space-between",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-036-diagram.webp",
+        "caption": "align-content distribuisce le righe quando il contenitore offre spazio trasversale."
       }
     ],
     "sourceSlide": 36,
@@ -5329,10 +5271,9 @@
     "title": "Proprietà per i figli",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-040-diagram.webp",
-        "alt": "Proprietà per i figli. .item { flex-grow: 4; /* default 0 */ } flex-grow: 4",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-040-diagram.webp",
+        "caption": "Le proporzioni riguardano lo spazio libero distribuito agli elementi."
       }
     ],
     "sourceSlide": 40,
@@ -5495,10 +5436,9 @@
     "title": "Proprietà per i figli",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/02-041-diagram.webp",
-        "alt": "Proprietà per i figli. .item { flex-shrink: 4; /* default 1 */ } flex-shrink: 0",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "02-041-diagram.webp",
+        "caption": "L’elemento centrale conserva la propria base; gli altri assorbono la riduzione."
       }
     ],
     "sourceSlide": 41,
@@ -6038,9 +5978,9 @@
     "title": "Per esercitarsi e approfondire",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/72486c8220e08ef98523.png",
-        "alt": "PER ESERCITARSI E APPROFONDIRE · figura della slide originale 45"
+        "kind": "native",
+        "example": "72486c8220e08ef98523.png",
+        "caption": "I riferimenti restano collegamenti selezionabili nelle slide del percorso; il logo decorativo è archiviato."
       }
     ],
     "sourceSlide": 45,
@@ -6128,9 +6068,9 @@
     "title": "Riferimenti utili",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/72486c8220e08ef98523.png",
-        "alt": "RIFERIMENTI UTILI · figura della slide originale 46"
+        "kind": "native",
+        "example": "72486c8220e08ef98523.png",
+        "caption": "I riferimenti restano collegamenti selezionabili nelle slide del percorso; il logo decorativo è archiviato."
       }
     ],
     "sourceSlide": 46,

@@ -212,7 +212,7 @@ const code = value => ({ kind: 'code', text: value })
 const s = (title, blocks, keys, kind = 'content') => ({ title, kind, blocks, sources: refs(keys) })
 const T = (title, paragraphs, ...keys) => s(title, [text(...paragraphs)], keys)
 const C = (title, value, ...keys) => s(title, [code(value)], keys)
-const I = (title, example, alt, ...keys) => s(title, [{ kind: 'image', src: `/images/esercitazioni/framework-${example}.webp`, alt, caption: alt, example }], keys)
+const I = (title, example, alt, ...keys) => s(title, [{ kind: 'native', caption: alt, example: `framework:${example}` }], keys)
 const cover = title => s(title, [], [], 'cover')
 const end = (number, ...keys) => ({ ...s(`Fine esercitazione ${number}`, [text('Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere.')], keys, 'closing'), credit: 'Rielaborazione didattica CVeDI · fonti ufficiali collegate' })
 

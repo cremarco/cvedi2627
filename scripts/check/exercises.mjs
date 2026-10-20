@@ -75,6 +75,14 @@ try {
           assert.equal(await progress.getAttribute('value'), String(slide.number))
         }
         await root.evaluate(root => Promise.all([...root.querySelectorAll('img')].map(image => image.complete ? undefined : new Promise(resolve => { image.addEventListener('load', resolve, { once: true }); image.addEventListener('error', resolve, { once: true }) }))))
+        const nativeIssues = []
+        for (const handle of await root.locator('.exercise-native-frame').elementHandles()) {
+          const frame = await handle.contentFrame()
+          await frame.locator('[data-native-root]').waitFor()
+          await frame.evaluate(async () => { await document.fonts.ready; await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve))) })
+          const geometry = await frame.evaluate(() => ({ height: document.querySelector('main').scrollHeight, viewport: innerHeight, width: document.documentElement.scrollWidth, available: innerWidth, images: document.querySelectorAll('img').length }))
+          if (geometry.height > geometry.viewport + 1 || geometry.width > geometry.available + 1 || geometry.images) nativeIssues.push(`native content clipped or rasterized: ${JSON.stringify(geometry)}`)
+        }
         const metrics = await root.evaluate(root => {
           const stage = root.getBoundingClientRect(), scale = stage.width / 1280
           const title = root.querySelector('h1').getBoundingClientRect()
@@ -93,10 +101,11 @@ try {
           if (images.some(image => !image.complete || !image.naturalWidth)) issues.push('missing image')
           return { issues, titleTop: (title.top - stage.top) / scale, bodyHeight: body?.height / scale, images: images.length }
         })
+        metrics.issues.push(...nativeIssues)
         if (metrics.issues.length) {
           report.failures.push({ exercise: number, slide: slide.number, source: slide.sourceSlide, profile, ...metrics })
           await page.screenshot({ path: `${output}/failure-${number}-${slide.number}-${profile}.png` })
-        } else if (slide.number === 1 || slide.number === 4 || slide.number === data.find(s => s.blocks.some(b => b.kind === 'code'))?.number || slide.number === data.find(s => s.blocks.some(b => b.kind === 'image'))?.number) await page.screenshot({ path: `${output}/${number}-${slide.number}-${profile}.png` })
+        } else if (slide.number === 1 || slide.number === 4 || slide.blocks.some(block => block.kind === 'native') || slide.number === data.find(s => s.blocks.some(b => b.kind === 'code'))?.number || slide.number === data.find(s => s.blocks.some(b => b.kind === 'image'))?.number) await page.screenshot({ path: `${output}/${number}-${slide.number}-${profile}.png` })
         report.slides.push({ exercise: number, slide: slide.number, profile, ...metrics })
       }
       if (profile === 'desktop') {

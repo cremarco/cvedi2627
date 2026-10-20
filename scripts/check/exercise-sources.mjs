@@ -4,6 +4,7 @@ import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { curriculum, sources as officialSources } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { nativeExamples, rebuildImportedSlide } from '../../data/esercitazioni/native-examples.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 const json = async file => JSON.parse(await readFile(path.join(root, file), 'utf8'))
@@ -22,7 +23,7 @@ export async function checkExerciseSources() {
   const catalog = await json('assets/esercitazioni/tailwind-daisyui/sources.json')
   for (const [id, [title, url]] of Object.entries(officialSources)) assert.deepEqual(catalog.sources.find(source => source.id === id), { id, title, url })
   for (const asset of catalog.assets) {
-    assert.equal(await digest(`public${asset.web}`), asset.sha256, 'published example matches its recorded rendering')
+    assert.equal(await digest(archivedImages.get(asset.web)?.retained || `public${asset.web}`), asset.sha256, 'retained example matches its recorded rendering')
     assert.equal(await digest(asset.original), asset.originalSha256, 'original PNG retained')
     assert.ok((await readFile(path.join(root, asset.source), 'utf8')).includes('<!doctype html>'), 'editable example HTML retained')
   }
@@ -37,7 +38,21 @@ export async function checkExerciseSources() {
     assert.equal(source.length, exercise.sourceSlides)
     assert.equal(slides.length, exercise.slideCount)
     assert.deepEqual(slides.map(slide => slide.number), Array.from({ length: slides.length }, (_, i) => i + 1))
-    let preserved = slides
+    let imported = slides
+    if (exercise.nativeRebuild) {
+      const archive = exercise.nativeRebuild.archive
+      assert.equal(await digest(archive.data), archive.dataSha256, 'pre-reconstruction content retained')
+      assert.equal(await digest(archive.markdown), archive.markdownSha256, 'pre-reconstruction Markdown retained')
+      imported = await json(archive.data)
+      const expected = curriculum.find(module => module.number === exercise.number)?.slides || imported.map(slide => rebuildImportedSlide(slide, number))
+      for (const block of slides.flatMap(slide => slide.blocks).filter(block => block.kind === 'native' && !block.example.startsWith('framework:'))) {
+        assert.ok(nativeExamples[block.example], 'every retired figure has a native reconstruction')
+        assert.ok(!/<img\b/i.test(nativeExamples[block.example].html), 'native reconstructions contain no raster teaching content')
+      }
+      assert.deepEqual(slides, expected, 'reconstruction matches the native specification and preserves other blocks')
+      assert.ok(slides.every(slide => slide.blocks.every(block => block.kind !== 'image')), 'exercise slides contain no bitmap content')
+    }
+    let preserved = imported
     if (exercise.replacement) {
       assert.equal(await digest(exercise.archive.data), exercise.archive.dataSha256, 'archived imported data preserved')
       assert.equal(await digest(exercise.archive.markdown), exercise.archive.markdownSha256, 'archived imported Markdown preserved')
@@ -56,8 +71,8 @@ export async function checkExerciseSources() {
           }
         }
       } else {
-        preserved = slides.map(slide => exercise.replacement.slides.includes(slide.number) ? archive[slide.number - 1] : slide)
-        for (const slide of slides.filter(slide => !exercise.replacement.slides.includes(slide.number))) assert.deepEqual(slide, archive[slide.number - 1], 'unrevised imported content is unchanged')
+        preserved = imported.map(slide => exercise.replacement.slides.includes(slide.number) ? archive[slide.number - 1] : slide)
+        for (const slide of imported.filter(slide => !exercise.replacement.slides.includes(slide.number))) assert.deepEqual(slide, archive[slide.number - 1], 'unrevised imported content is unchanged')
       }
     }
     assert.deepEqual(exercise.mapping.flatMap(entry => entry.slides), preserved.map(slide => slide.number), 'source mapping covers the retained import once, in order')
@@ -90,8 +105,9 @@ export async function checkExerciseSources() {
     total += slides.length
   }
   assert.equal(total, manifest.slideCount)
-  assert.deepEqual((await readdir(path.join(root, 'public/images/esercitazioni'))).sort(), [...usedImages].sort(), 'no unused extracted media are published locally')
-  return { originals: manifest.sourceSlides, adapted: total, images: usedImages.size, links, rewritten: curriculum.reduce((sum, module) => sum + module.slides.length, 0), officialSources: catalog.sources.length, examples: catalog.assets.length }
+  const publicImages = await readdir(path.join(root, 'public/images/esercitazioni')).catch(error => { if (error.code === 'ENOENT') return []; throw error })
+  assert.deepEqual(publicImages.sort(), [...usedImages].sort(), 'no unused extracted media are published locally')
+  return { originals: manifest.sourceSlides, adapted: total, images: usedImages.size, links, rewritten: curriculum.reduce((sum, module) => sum + module.slides.length, 0), officialSources: catalog.sources.length, examples: catalog.assets.length, nativeSlides: manifest.nativeRebuild?.slides || 0 }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) console.log(await checkExerciseSources())

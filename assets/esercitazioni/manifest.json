@@ -535,7 +535,47 @@
           ]
         }
       ],
-      "file": "esercitazioni/01-html-css-base.md"
+      "file": "esercitazioni/01-html-css-base.md",
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/01.json",
+          "markdown": "assets/esercitazioni/native-rebuild/01.md",
+          "dataSha256": "5ecceee22e9d91b0a4a8347e0be2b7eb1b44271a8550e2e7d82141b5a7103604",
+          "markdownSha256": "794bd7dfe8bc1a9dc49e28e685af83f568ed3d2279bf48352785696e1f66cc37"
+        },
+        "slides": [
+          6,
+          9,
+          13,
+          23,
+          32,
+          35,
+          37,
+          40,
+          43,
+          48,
+          49,
+          51,
+          52,
+          53,
+          54,
+          55,
+          58,
+          69,
+          76,
+          82,
+          85,
+          93,
+          96,
+          100,
+          102,
+          105,
+          107
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": []
+      }
     },
     {
       "number": 2,
@@ -914,7 +954,37 @@
           ]
         }
       ],
-      "file": "esercitazioni/02-html-css-avanzato.md"
+      "file": "esercitazioni/02-html-css-avanzato.md",
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/02.json",
+          "markdown": "assets/esercitazioni/native-rebuild/02.md",
+          "dataSha256": "8ad0845bfe4fa22e67a7b4e68fb40498dbf639b673eebdccd51f43694674bd0b",
+          "markdownSha256": "3c70c0c6a1f5db34ab5919a1a8a33d7cebc0ac31ad3f5d1b4a4f02f2485cabff"
+        },
+        "slides": [
+          13,
+          27,
+          38,
+          42,
+          47,
+          49,
+          53,
+          56,
+          59,
+          62,
+          67,
+          70,
+          76,
+          78
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": [
+          11,
+          38
+        ]
+      }
     },
     {
       "number": 3,
@@ -1221,6 +1291,22 @@
         ],
         "reason": "Rimando alle proprietà logiche aggiornato a Tailwind",
         "catalog": "assets/esercitazioni/tailwind-daisyui/sources.json"
+      },
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/03.json",
+          "markdown": "assets/esercitazioni/native-rebuild/03.md",
+          "dataSha256": "796654dc966969e8ec7660ba8e7fb31781adc1270af2f9e411c048b4c5d8ce40",
+          "markdownSha256": "88c30768a15b8d6b9b7b20fb251bc36331bcf5ec9e75229b2bbf4bf0f5e9d428"
+        },
+        "slides": [
+          28,
+          30,
+          49
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": []
       }
     },
     {
@@ -1485,7 +1571,24 @@
           ]
         }
       ],
-      "file": "esercitazioni/04-responsive-mobile-first.md"
+      "file": "esercitazioni/04-responsive-mobile-first.md",
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/04.json",
+          "markdown": "assets/esercitazioni/native-rebuild/04.md",
+          "dataSha256": "d2634c89d267ad924d5fd970a670e18c9f6ae9320cdce0fb150517ff88d1ca5d",
+          "markdownSha256": "10a4d7c30ee2dc2b204e530b3dc71bc197f3d0ec96968e7a1a5092d482024e80"
+        },
+        "slides": [
+          7,
+          12,
+          40,
+          41
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": []
+      }
     },
     {
       "number": 5,
@@ -1748,6 +1851,24 @@
         "specification": "data/esercitazioni/framework-curriculum.mjs",
         "catalog": "assets/esercitazioni/tailwind-daisyui/sources.json",
         "checkedOn": "2026-10-21"
+      },
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/05.json",
+          "markdown": "assets/esercitazioni/native-rebuild/05.md",
+          "dataSha256": "e66afb12097b9ecd25192dcaa9c13862f31ab561645658b7c458662244279224",
+          "markdownSha256": "9867be25c3b94a28a6748698159e09265d5a63a6996f01d588722f6198188785"
+        },
+        "slides": [
+          11,
+          15,
+          17,
+          21,
+          26
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": []
       }
     },
     {
@@ -2053,6 +2174,34 @@
         "specification": "data/esercitazioni/framework-curriculum.mjs",
         "catalog": "assets/esercitazioni/tailwind-daisyui/sources.json",
         "checkedOn": "2026-10-21"
+      },
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/06.json",
+          "markdown": "assets/esercitazioni/native-rebuild/06.md",
+          "dataSha256": "c95bc3e5a0f2d66249141718458b097474ba3a6f0d1ee0e4bb1045c6f1b476e4",
+          "markdownSha256": "e7112b7c3cc0db74841c95e85a802a3e13d893abb2f7f164691d0535a9a0fcc0"
+        },
+        "slides": [
+          9,
+          12,
+          15,
+          19,
+          22,
+          25,
+          28,
+          31,
+          34,
+          37,
+          40,
+          43,
+          46,
+          50,
+          53
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": []
       }
     },
     {
@@ -2213,6 +2362,21 @@
         "specification": "data/esercitazioni/framework-curriculum.mjs",
         "catalog": "assets/esercitazioni/tailwind-daisyui/sources.json",
         "checkedOn": "2026-10-21"
+      },
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/07.json",
+          "markdown": "assets/esercitazioni/native-rebuild/07.md",
+          "dataSha256": "757b99d01fff876ed14b1bd8de57f60eb41b590e704f1574e84a412d7e4badc8",
+          "markdownSha256": "5852a6b115c8a0ff679d8b79f5c90443b37e449c2e09c9f63ade6f9c21862025"
+        },
+        "slides": [
+          13,
+          17
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": []
       }
     },
     {
@@ -2531,7 +2695,37 @@
           ]
         }
       ],
-      "file": "esercitazioni/08-git.md"
+      "file": "esercitazioni/08-git.md",
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/08.json",
+          "markdown": "assets/esercitazioni/native-rebuild/08.md",
+          "dataSha256": "3304991215144d3e8191a3d94132c646c249c267eb3ad4609482bd0366a0fef8",
+          "markdownSha256": "f0cbe397c5e7692f8f21c4b0a786026f65b2a2dde2e4d7d34cdd4a3417c37e9e"
+        },
+        "slides": [
+          22,
+          30,
+          32,
+          33,
+          35,
+          36,
+          38,
+          39,
+          41,
+          48,
+          50,
+          52,
+          54,
+          55,
+          58
+        ],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": [
+          57
+        ]
+      }
     },
     {
       "number": 9,
@@ -2821,7 +3015,19 @@
           ]
         }
       ],
-      "file": "esercitazioni/09-javascript-jquery.md"
+      "file": "esercitazioni/09-javascript-jquery.md",
+      "nativeRebuild": {
+        "archive": {
+          "data": "assets/esercitazioni/native-rebuild/09.json",
+          "markdown": "assets/esercitazioni/native-rebuild/09.md",
+          "dataSha256": "e134ff42542280864402fd4609fffdc2568d524d2f61cdcb964585e0ad8a0938",
+          "markdownSha256": "38cb951f8871670373a5b14ad16f6435635e832f0a05aa92fbf571355e8264fd"
+        },
+        "slides": [],
+        "specification": "data/esercitazioni/native-examples.mjs",
+        "renderer": "components/ExerciseNative.vue",
+        "corrections": []
+      }
     }
   ],
   "sourceSlides": 349,
@@ -2841,7 +3047,10 @@
     "cleanup": "reports/esercitazioni/cleanup.json",
     "frameworkExamples": "reports/frameworks/examples-check.json",
     "frameworkContactSheet": "reports/frameworks/examples.jpg",
-    "frameworkPreview": "reports/frameworks/preview.png"
+    "frameworkPreview": "reports/frameworks/preview.png",
+    "nativeExamples": "reports/native-exercises/native-report.json",
+    "nativeContactSheet": "reports/native-exercises/contact-sheet.jpg",
+    "nativePreview": "reports/native-exercises/preview.png"
   },
   "archivedImages": [
     {
@@ -2908,6 +3117,421 @@
       "web": "/images/esercitazioni/f0123a7dc54a0de3a307.jpg",
       "retained": "assets/esercitazioni/bootstrap-archive/images/f0123a7dc54a0de3a307.jpg",
       "sha256": "f0123a7dc54a0de3a3078ad5f72a1b987a6d4a78cf5a75f6cd0b52c311272452"
+    },
+    {
+      "web": "/images/esercitazioni/01-017-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-017-diagram.webp",
+      "sha256": "c771283d435e8580ca1ec50fe4a9dd8fabd0de153b1c91f82972627231475580"
+    },
+    {
+      "web": "/images/esercitazioni/01-023-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-023-diagram.webp",
+      "sha256": "78075b070be566ee3cd0d73a4be48ac7c1acf9d3400418bf7ebf2def0dbb26c1"
+    },
+    {
+      "web": "/images/esercitazioni/01-025-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-025-diagram.webp",
+      "sha256": "a8a80b1581e36494540cb597e2f2d0cd73fd5cad283a67076c607da774337832"
+    },
+    {
+      "web": "/images/esercitazioni/01-026-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-026-diagram.webp",
+      "sha256": "2cd055c019261d79aed497f1251bc8da97429decb0ff3963c4240a7775705a99"
+    },
+    {
+      "web": "/images/esercitazioni/01-027-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-027-diagram.webp",
+      "sha256": "b1e4de05d464f6c39a4626bec366aac036c114a297b85b3c6817274d8ea5ebfd"
+    },
+    {
+      "web": "/images/esercitazioni/01-028-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-028-diagram.webp",
+      "sha256": "61251712294a549c7bf457fe47fd45213ef33711635e6d58a883820596cc2657"
+    },
+    {
+      "web": "/images/esercitazioni/01-036-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-036-diagram.webp",
+      "sha256": "aeadfcf26e68b661ea50e241f2f1a2d4a9cd1eb6c0a5c8840994e6d62d084f24"
+    },
+    {
+      "web": "/images/esercitazioni/01-037-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-037-diagram.webp",
+      "sha256": "a7176e4ea31f55408e332cc6b1631797fda96270dcf716c084377a63b4432020"
+    },
+    {
+      "web": "/images/esercitazioni/01-038-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-038-diagram.webp",
+      "sha256": "fe7abb413d0e8382682ae272b497a11a9d218446c7d456e0544f1d0f4765f242"
+    },
+    {
+      "web": "/images/esercitazioni/01-039-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-039-diagram.webp",
+      "sha256": "e33c06f581ed0b2b77bc9e593e6516e6b64b32045c2a5b40a0d74c1e887f3764"
+    },
+    {
+      "web": "/images/esercitazioni/01-048-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-048-diagram.webp",
+      "sha256": "fc73cea114390c0b97370eb5ec03b481ece8884f161726ddbdb9e0d11035333c"
+    },
+    {
+      "web": "/images/esercitazioni/01-056-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-056-diagram.webp",
+      "sha256": "93129f6ebb4d8db010bf726ec92545c869be3d7efd9cba4a783f182de8271eac"
+    },
+    {
+      "web": "/images/esercitazioni/01-057-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-057-diagram.webp",
+      "sha256": "d950db92d50949eeec9027a36cbdb1b02e9ea9e53545eb59ededd4ae58ea61b5"
+    },
+    {
+      "web": "/images/esercitazioni/01-060-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-060-diagram.webp",
+      "sha256": "be7a696964c1aa3dfbb123a25fa3d9961058f97332d80dfa9cd8ba00fe463462"
+    },
+    {
+      "web": "/images/esercitazioni/01-061-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-061-diagram.webp",
+      "sha256": "f49ca6201516f3388267eb3069645d89bb1c6ee3f558a24ea8a90ba44c8da44c"
+    },
+    {
+      "web": "/images/esercitazioni/01-062-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-062-diagram.webp",
+      "sha256": "3452001fad2235bd10ce6ac142060e45ff242a6e2e2c2f147c2a1855e4d6466f"
+    },
+    {
+      "web": "/images/esercitazioni/01-063-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/01-063-diagram.webp",
+      "sha256": "d27ea9a34ec1e7ff1b0c652ad2fa7efae78d071b2510c054167ad44d39787005"
+    },
+    {
+      "web": "/images/esercitazioni/02-009-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-009-diagram.webp",
+      "sha256": "3ea3f30021269f3239119ea8efcf080f76dc5b27e1ca8775ac4c65776274888a"
+    },
+    {
+      "web": "/images/esercitazioni/02-023-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-023-diagram.webp",
+      "sha256": "fdf00a4e02744af2a1402978f958b439ede72b5eda9b5ec68dbf10159702a1d3"
+    },
+    {
+      "web": "/images/esercitazioni/02-026-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-026-diagram.webp",
+      "sha256": "6eedde6967368053ccab7fda8db971e7618777284f88349e2b710792de0d1ad9"
+    },
+    {
+      "web": "/images/esercitazioni/02-030-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-030-diagram.webp",
+      "sha256": "765217816daed7f5685a84cf3fd1bbf5233d6c0f8b4c2de664474c6a51c6f7ee"
+    },
+    {
+      "web": "/images/esercitazioni/02-031-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-031-diagram.webp",
+      "sha256": "ef61e813840d6fc0bed91d550021c2514494ba1b083f8fc8460f7a4708e128c7"
+    },
+    {
+      "web": "/images/esercitazioni/02-033-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-033-diagram.webp",
+      "sha256": "a585567e39ced13ed814a48bac7498e6e9e35f38c82e87b6b3e0ddfdc68219df"
+    },
+    {
+      "web": "/images/esercitazioni/02-034-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-034-diagram.webp",
+      "sha256": "eaca3ed6ec4d6307be278c26fd80e81930a298ba1df2153c18d4ea4f8f863338"
+    },
+    {
+      "web": "/images/esercitazioni/02-035-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-035-diagram.webp",
+      "sha256": "0ce14f760603c604b0fb451bf12812b4192e543e2ca467b4fb94e0060d52d4db"
+    },
+    {
+      "web": "/images/esercitazioni/02-036-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-036-diagram.webp",
+      "sha256": "e9c138004645257b78c15ddde2befce12bdac1d3eddd5f7283efc881bff3695b"
+    },
+    {
+      "web": "/images/esercitazioni/02-040-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-040-diagram.webp",
+      "sha256": "3ba1f1bb0c871cbe6e0e40b0110f8eb4da5622473ebca62d58bdf1ec416160c0"
+    },
+    {
+      "web": "/images/esercitazioni/02-041-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/02-041-diagram.webp",
+      "sha256": "1dcd737c5b89e74068a91bf8f755990bb5b90237e5ccd0ce84a1227711266e30"
+    },
+    {
+      "web": "/images/esercitazioni/03-018-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/03-018-diagram.webp",
+      "sha256": "9125557f7d2e19cc295e66ff4e3863fff57b5cd2dcefdb9ed06de371dc19ee6a"
+    },
+    {
+      "web": "/images/esercitazioni/03-019-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/03-019-diagram.webp",
+      "sha256": "30eaa5f223a13af84ccdc80a8dfb5b00e392ea09962bca8f7d80a880d669e559"
+    },
+    {
+      "web": "/images/esercitazioni/03-036-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/03-036-diagram.webp",
+      "sha256": "044c7734b9b91c961a512685b8a6d6bb01b0cfe3d9e353efca97e24d4670d0c3"
+    },
+    {
+      "web": "/images/esercitazioni/04-010-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/04-010-diagram.webp",
+      "sha256": "ab408bf918dbfeb64c4917f2304e1f0ecc67b51665ad0d9a9acb82fda65905f7"
+    },
+    {
+      "web": "/images/esercitazioni/04-032-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/04-032-diagram.webp",
+      "sha256": "82d1c57311b2ab28b1ec56bed8f9d96e83522bab3315f523e126a67d6dbb0997"
+    },
+    {
+      "web": "/images/esercitazioni/04-033-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/04-033-diagram.webp",
+      "sha256": "5a0c3da48ac40d22030f1dfc8f96aebb3d0e70662c0f59c7de40db65afa28c5c"
+    },
+    {
+      "web": "/images/esercitazioni/08-021-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-021-diagram.webp",
+      "sha256": "88679759bab46f4d23881c1d24e9d9e544bd8d9882e57ae373acb6e2ac892e39"
+    },
+    {
+      "web": "/images/esercitazioni/08-022-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-022-diagram.webp",
+      "sha256": "f86a8b119261c67741bfb246b49e8e3616167cdd2f22ac2ac11e9b26f2e4b519"
+    },
+    {
+      "web": "/images/esercitazioni/08-024-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-024-diagram.webp",
+      "sha256": "d5eed0f55736b839ae3bc519ad5d0542c9fcac8d2b5b99b0ac6bcd9621ea2c9d"
+    },
+    {
+      "web": "/images/esercitazioni/08-026-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-026-diagram.webp",
+      "sha256": "0627080b9f9fbd62ea51df7ec0ed18dede20ccb73140dbb061d26a93d6161b5a"
+    },
+    {
+      "web": "/images/esercitazioni/08-027-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-027-diagram.webp",
+      "sha256": "4b43e005a10b6ebc56a41a200c2cce1987863374489894ef3be56583f6941307"
+    },
+    {
+      "web": "/images/esercitazioni/08-031-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-031-diagram.webp",
+      "sha256": "88808a62014a53a13141356995da74fdc9991d87d2314adc150482477bdc7985"
+    },
+    {
+      "web": "/images/esercitazioni/08-032-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-032-diagram.webp",
+      "sha256": "6e32bb3957fc0c2930579e7d963b8ca02e0812c28f4c5eecc82f1a4c347d1284"
+    },
+    {
+      "web": "/images/esercitazioni/08-033-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-033-diagram.webp",
+      "sha256": "10d978c37d78f3fee98276d1d8af26eee92b7d963ebbe3556e65d79033c4081d"
+    },
+    {
+      "web": "/images/esercitazioni/08-035-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-035-diagram.webp",
+      "sha256": "9986e61ac1f5b2b94576c1d9e3d98be94bdefb0c05124e7599e2c4ccd44066e9"
+    },
+    {
+      "web": "/images/esercitazioni/08-036-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-036-diagram.webp",
+      "sha256": "40f0014c9b602a24a50920343a9866d52cd3a547e9110cc2991008d92a05e5d8"
+    },
+    {
+      "web": "/images/esercitazioni/08-038-diagram.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/08-038-diagram.webp",
+      "sha256": "ceb2bb5dc6f8dba1b1216a2d44b7140abf4b0f349bdbc637e846592883b33120"
+    },
+    {
+      "web": "/images/esercitazioni/0f344dec0d2c041537da.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/0f344dec0d2c041537da.png",
+      "sha256": "0f344dec0d2c041537da5033c4e6c0b41c67396f6e03d050332eea0e1f388731"
+    },
+    {
+      "web": "/images/esercitazioni/32afe9f60ef224a22c5c.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/32afe9f60ef224a22c5c.png",
+      "sha256": "32afe9f60ef224a22c5c16c4a3b8d3d72cbf703335df6b3d53d57bdb52a3985f"
+    },
+    {
+      "web": "/images/esercitazioni/435ae87eed37e32c71f7.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/435ae87eed37e32c71f7.png",
+      "sha256": "435ae87eed37e32c71f7d1012fceef70dc6c11a5d0a48739ce5b9aa376c8ddc8"
+    },
+    {
+      "web": "/images/esercitazioni/4ef7366d1c1e6ad09fa8.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/4ef7366d1c1e6ad09fa8.png",
+      "sha256": "4ef7366d1c1e6ad09fa8ae81f6431ad775476792e02d317353305a59eaa912ca"
+    },
+    {
+      "web": "/images/esercitazioni/6e8c7b2ffa579b74ac2b.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/6e8c7b2ffa579b74ac2b.png",
+      "sha256": "6e8c7b2ffa579b74ac2bb9c401d32f9b0d63efc27f20715f96dfc63315372854"
+    },
+    {
+      "web": "/images/esercitazioni/72486c8220e08ef98523.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/72486c8220e08ef98523.png",
+      "sha256": "72486c8220e08ef98523b6ab00abe553a94fab093159647d6c04aa583560c49b"
+    },
+    {
+      "web": "/images/esercitazioni/728e55141fed182cd2c4.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/728e55141fed182cd2c4.png",
+      "sha256": "728e55141fed182cd2c452823b95a5814a95d275afaebbb2c8ff80d4e964a6db"
+    },
+    {
+      "web": "/images/esercitazioni/88ff7db0856fdc235a7d.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/88ff7db0856fdc235a7d.png",
+      "sha256": "88ff7db0856fdc235a7d2c46434a3db0addd4d0b93a03400666ad0d212eb64c8"
+    },
+    {
+      "web": "/images/esercitazioni/965f16eb212382409d9d.jpg",
+      "retained": "assets/esercitazioni/native-rebuild/images/965f16eb212382409d9d.jpg",
+      "sha256": "965f16eb212382409d9def0aca2e6c85573e87356008dcddf0452be927f41a81"
+    },
+    {
+      "web": "/images/esercitazioni/b63650f3b5ea7c0f6903.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/b63650f3b5ea7c0f6903.png",
+      "sha256": "b63650f3b5ea7c0f690360d04a871286d3628a78bbd0e6f3132029de3453218c"
+    },
+    {
+      "web": "/images/esercitazioni/b9d423dd0e9c83338bbb.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/b9d423dd0e9c83338bbb.png",
+      "sha256": "b9d423dd0e9c83338bbb73b1461f5d078f8ca9a0334917e7cfad8efd1bbd4797"
+    },
+    {
+      "web": "/images/esercitazioni/bcea17b47b9c20105db3.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/bcea17b47b9c20105db3.png",
+      "sha256": "bcea17b47b9c20105db3355505f30d4f23a9724bc7a75ebeec6e331b4a772d56"
+    },
+    {
+      "web": "/images/esercitazioni/bf9c59ac029ae9d4731f.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/bf9c59ac029ae9d4731f.png",
+      "sha256": "bf9c59ac029ae9d4731fed54d7c7029fb1b6cb38d2e7ce423f8289de2a6dd3b1"
+    },
+    {
+      "web": "/images/esercitazioni/da81bf54e0a7da4bc8e5.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/da81bf54e0a7da4bc8e5.png",
+      "sha256": "da81bf54e0a7da4bc8e538467d7d9405f1a23e63dd1730412815b3e5062645a6"
+    },
+    {
+      "web": "/images/esercitazioni/e6e12663edf18cd33e89.png",
+      "retained": "assets/esercitazioni/native-rebuild/images/e6e12663edf18cd33e89.png",
+      "sha256": "e6e12663edf18cd33e892a7889fe5e02769a4a37fe8ecf70b4dda43171808ae7"
+    },
+    {
+      "web": "/images/esercitazioni/f7c30abe2a1b2b98dad2.jpg",
+      "retained": "assets/esercitazioni/native-rebuild/images/f7c30abe2a1b2b98dad2.jpg",
+      "sha256": "f7c30abe2a1b2b98dad284f570e8e43e536c037ee9eb419fd8d0d5d0d9c42e94"
+    },
+    {
+      "web": "/images/esercitazioni/framework-alert.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-alert.webp",
+      "sha256": "04c98e2576c5460169b1b1384062d92811cad1ce82fc0e9b75d58b28407ae912"
+    },
+    {
+      "web": "/images/esercitazioni/framework-breadcrumbs.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-breadcrumbs.webp",
+      "sha256": "c72457cfb17cdf622c5e32ee7dec4ac33ef4a293b4c6922d0a50b13b2af7b38a"
+    },
+    {
+      "web": "/images/esercitazioni/framework-buttons.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-buttons.webp",
+      "sha256": "2cd5438f52824299b0198a05ff6f4aee2972b8bbd922e0be561bcd6abf3a75ec"
+    },
+    {
+      "web": "/images/esercitazioni/framework-card.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-card.webp",
+      "sha256": "3e13beb8fe78f575afbde41ccf1b191a29891ffd36d8d58bf3a303e86a9e79ab"
+    },
+    {
+      "web": "/images/esercitazioni/framework-cards.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-cards.webp",
+      "sha256": "b67c53c718152ebf8884071a04f614115b7a512f270397de0d70351a24d6cddd"
+    },
+    {
+      "web": "/images/esercitazioni/framework-collapse.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-collapse.webp",
+      "sha256": "d15db6236856e2c667e226cda315e1b3e88c05c5435ed23145e6310744eee229"
+    },
+    {
+      "web": "/images/esercitazioni/framework-colors.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-colors.webp",
+      "sha256": "8ba4d75e688bc1d3b05a762ad135fc718e49acb4859567fa6b0a15c1d3ce4f2c"
+    },
+    {
+      "web": "/images/esercitazioni/framework-custom.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-custom.webp",
+      "sha256": "6d5543a38cde45ecbbc8bf4bb0a57d3fa641c15356246d58f59b06fec647284d"
+    },
+    {
+      "web": "/images/esercitazioni/framework-dropdown.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-dropdown.webp",
+      "sha256": "caacd7bf588e18e4b3f245dd36319dbc3d592f2184c4807028696f63b985fdd3"
+    },
+    {
+      "web": "/images/esercitazioni/framework-first.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-first.webp",
+      "sha256": "4718fac7f3e2bb090d7c30b8465bba893554bb00369061c63bcdfe68dd395924"
+    },
+    {
+      "web": "/images/esercitazioni/framework-flex.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-flex.webp",
+      "sha256": "31a8eef59227f1f6256c4c61e025d878c2de497d05ce7ab4eb0ff241ef68e633"
+    },
+    {
+      "web": "/images/esercitazioni/framework-focus.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-focus.webp",
+      "sha256": "9b6581883e139a8243c2eefb5189bc39b195a61f2965a1bd5321de6d73dbf254"
+    },
+    {
+      "web": "/images/esercitazioni/framework-form.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-form.webp",
+      "sha256": "1c8bce8a26d5e9f18b2e9e16790fdedef540d4bb2f32246f76c6d30154406b5d"
+    },
+    {
+      "web": "/images/esercitazioni/framework-grid.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-grid.webp",
+      "sha256": "75aedae66ea81c881e1ba51a28184e09afc16ac3ed1dd47ea93a83e19e8d264c"
+    },
+    {
+      "web": "/images/esercitazioni/framework-loading.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-loading.webp",
+      "sha256": "867ffc8b05e546bef3ef35fc20bb47eea0cae23f9bf77a4d9f87149384ed06e4"
+    },
+    {
+      "web": "/images/esercitazioni/framework-modal.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-modal.webp",
+      "sha256": "8faa6c43dabfe48a3f1e63f959fb1ee389ea4bf8b7551cff454e7ed50a3efbca"
+    },
+    {
+      "web": "/images/esercitazioni/framework-navbar.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-navbar.webp",
+      "sha256": "8625158b686d0f24c97f2999a4a2db5d429965ed694fbae16932386136bf960c"
+    },
+    {
+      "web": "/images/esercitazioni/framework-responsive.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-responsive.webp",
+      "sha256": "f52a8d6fe04adfb31ab4cef2296e543135a9d2ae5d0dcb1caa92f7f8500932d7"
+    },
+    {
+      "web": "/images/esercitazioni/framework-selection.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-selection.webp",
+      "sha256": "098772128175b33571c8ae5c9b642804be7f98408150cf17b22ec80099a8bdf7"
+    },
+    {
+      "web": "/images/esercitazioni/framework-table.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-table.webp",
+      "sha256": "371e02a3155dd3fc09cb00460b98376bcbbb5c8e8d30f67495a12ede31bf056f"
+    },
+    {
+      "web": "/images/esercitazioni/framework-themes.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-themes.webp",
+      "sha256": "b35868619e212327d7959b5edf4d5f320f66c9b4ffd4159248790030a9da4555"
+    },
+    {
+      "web": "/images/esercitazioni/framework-validation.webp",
+      "retained": "assets/esercitazioni/native-rebuild/images/framework-validation.webp",
+      "sha256": "45e64fbd6a282d599351fbea39123871d36e4af3af8e801b760eb7cac2b3a153"
     }
   ],
   "editorialRevision": {
@@ -2935,6 +3559,23 @@
         "pnpm check:frameworks",
         "pnpm check:publication dist"
       ]
+    }
+  },
+  "nativeRebuild": {
+    "requested": "Estrarre i contenuti dalle immagini e ricostruire le slide con elementi nativi",
+    "slides": 85,
+    "specification": "data/esercitazioni/native-examples.mjs",
+    "renderer": "components/ExerciseNative.vue",
+    "sourceBitmapsActive": 0,
+    "verification": {
+      "status": "passed",
+      "nativeExamples": 83,
+      "renderedChecks": 1488,
+      "rasterImagesActive": 0,
+      "examples": "reports/native-exercises/native-report.json",
+      "rendering": "reports/esercitazioni/render-report.json",
+      "interactions": "reports/frameworks/examples-check.json",
+      "publication": "reports/esercitazioni/index-report.json"
     }
   }
 }

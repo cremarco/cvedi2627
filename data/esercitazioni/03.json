@@ -2165,10 +2165,9 @@
     "title": "grid-template-columns e grid-template-row",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/03-018-diagram.webp",
-        "alt": "grid-template-columns e grid-template-row. .container { grid-template-columns: auto auto auto auto; grid-template-rows: 100px 250px 150px; }",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "03-018-diagram.webp",
+        "caption": "Grid nativa a quattro colonne e tre righe; proporzioni verticali 100:250:150."
       }
     ],
     "sourceSlide": 18,
@@ -2294,10 +2293,9 @@
     "title": "grid-template-columns e grid-template-row",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/03-019-diagram.webp",
-        "alt": "grid-template-columns e grid-template-row. Potete assegnare un nome alle linee usando parentesi quadre Questo vi aiuterà a posizionare i grid items .container { grid-template-columns: [col1] auto [col2] auto [col3] auto [col4] auto [col5]; grid-template-rows: [row1] 100px [row2] 250px [row3] 150px [row4]; } row1 row2 row3 row4 col1 col2 col5 col3 col4",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "03-019-diagram.webp",
+        "caption": "Le linee della griglia sono nominate da col1 a col5 e da row1 a row4."
       }
     ],
     "sourceSlide": 19,
@@ -4085,10 +4083,9 @@
     "title": "Esercizio 1 · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/03-036-diagram.webp",
-        "alt": "ESERCIZIO 1 · esempio. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "03-036-diagram.webp",
+        "caption": "Due griglie a quattro colonne: gli stessi blocchi occupano posizioni e intervalli differenti."
       }
     ],
     "sourceSlide": 36,

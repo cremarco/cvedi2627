@@ -265,11 +265,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-colors.webp",
-        "alt": "Le varianti cambiano il trattamento visivo mantenendo il componente btn.",
+        "kind": "native",
         "caption": "Le varianti cambiano il trattamento visivo mantenendo il componente btn.",
-        "example": "colors"
+        "example": "framework:colors"
       }
     ],
     "sources": [
@@ -359,11 +357,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-buttons.webp",
-        "alt": "Azione principale, alternativa e stato disabilitato sono distinti.",
+        "kind": "native",
         "caption": "Azione principale, alternativa e stato disabilitato sono distinti.",
-        "example": "buttons"
+        "example": "framework:buttons"
       }
     ],
     "sources": [
@@ -448,11 +444,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-card.webp",
-        "alt": "Un solo contenuto, una descrizione e un’azione esplicita.",
+        "kind": "native",
         "caption": "Un solo contenuto, una descrizione e un’azione esplicita.",
-        "example": "card"
+        "example": "framework:card"
       }
     ],
     "sources": [
@@ -565,11 +559,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-alert.webp",
-        "alt": "Il testo indica il problema e il punto da controllare.",
+        "kind": "native",
         "caption": "Il testo indica il problema e il punto da controllare.",
-        "example": "alert"
+        "example": "framework:alert"
       }
     ],
     "sources": [
@@ -654,11 +646,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-form.webp",
-        "alt": "Ogni campo ha un’etichetta persistente e l’azione conclude il gruppo.",
+        "kind": "native",
         "caption": "Ogni campo ha un’etichetta persistente e l’azione conclude il gruppo.",
-        "example": "form"
+        "example": "framework:form"
       }
     ],
     "sources": [
@@ -753,11 +743,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-validation.webp",
-        "alt": "Lo stato illustrato mantiene il dato inserito e spiega come correggerlo.",
+        "kind": "native",
         "caption": "Lo stato illustrato mantiene il dato inserito e spiega come correggerlo.",
-        "example": "validation"
+        "example": "framework:validation"
       }
     ],
     "sources": [
@@ -857,11 +845,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-selection.webp",
-        "alt": "Il turno e il promemoria sono due decisioni indipendenti.",
+        "kind": "native",
         "caption": "Il turno e il promemoria sono due decisioni indipendenti.",
-        "example": "selection"
+        "example": "framework:selection"
       }
     ],
     "sources": [
@@ -956,11 +942,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-navbar.webp",
-        "alt": "Identità e destinazioni principali condividono una barra.",
+        "kind": "native",
         "caption": "Identità e destinazioni principali condividono una barra.",
-        "example": "navbar"
+        "example": "framework:navbar"
       }
     ],
     "sources": [
@@ -1045,11 +1029,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-breadcrumbs.webp",
-        "alt": "Le sezioni precedenti sono destinazioni; l’ultima è la pagina corrente.",
+        "kind": "native",
         "caption": "Le sezioni precedenti sono destinazioni; l’ultima è la pagina corrente.",
-        "example": "breadcrumbs"
+        "example": "framework:breadcrumbs"
       }
     ],
     "sources": [
@@ -1134,11 +1116,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-dropdown.webp",
-        "alt": "Il pannello mostra due destinazioni collegate ai materiali.",
+        "kind": "native",
         "caption": "Il pannello mostra due destinazioni collegate ai materiali.",
-        "example": "dropdown"
+        "example": "framework:dropdown"
       }
     ],
     "sources": [
@@ -1223,11 +1203,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-collapse.webp",
-        "alt": "Domanda e risposta restano nello stesso gruppo.",
+        "kind": "native",
         "caption": "Domanda e risposta restano nello stesso gruppo.",
-        "example": "collapse"
+        "example": "framework:collapse"
       }
     ],
     "sources": [
@@ -1312,11 +1290,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-modal.webp",
-        "alt": "Il dialogo ha un titolo e un’azione di chiusura espliciti.",
+        "kind": "native",
         "caption": "Il dialogo ha un titolo e un’azione di chiusura espliciti.",
-        "example": "modal"
+        "example": "framework:modal"
       }
     ],
     "sources": [
@@ -1401,11 +1377,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-table.webp",
-        "alt": "I turni e il numero di posti mantengono intestazioni riconoscibili.",
+        "kind": "native",
         "caption": "I turni e il numero di posti mantengono intestazioni riconoscibili.",
-        "example": "table"
+        "example": "framework:table"
       }
     ],
     "sources": [
@@ -1530,11 +1504,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-loading.webp",
-        "alt": "Il pulsante è disabilitato e il testo comunica l’operazione in corso.",
+        "kind": "native",
         "caption": "Il pulsante è disabilitato e il testo comunica l’operazione in corso.",
-        "example": "loading"
+        "example": "framework:loading"
       }
     ],
     "sources": [
@@ -1646,11 +1618,9 @@
     "kind": "content",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/framework-cards.webp",
-        "alt": "I componenti mantengono la propria struttura mentre Grid ne dispone il gruppo.",
+        "kind": "native",
         "caption": "I componenti mantengono la propria struttura mentre Grid ne dispone il gruppo.",
-        "example": "cards"
+        "example": "framework:cards"
       }
     ],
     "sources": [

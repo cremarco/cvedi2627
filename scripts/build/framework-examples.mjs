@@ -5,10 +5,11 @@ import { chromium } from 'playwright-chromium'
 import { examples, curriculum, sources } from '../../data/esercitazioni/framework-curriculum.mjs'
 
 const folder = 'assets/esercitazioni/tailwind-daisyui'
+const manifest = JSON.parse(await readFile('assets/esercitazioni/manifest.json', 'utf8'))
 await mkdir(`${folder}/examples`, { recursive: true })
 await mkdir(`${folder}/originals`, { recursive: true })
-const baseCSS = '@import "tailwindcss" source(none);\n@source "./examples";\n@plugin "daisyui" { themes: light --default, dark; }\n'
-const customCSS = curriculum[2].slides[14].blocks[0].text.replace('@import "tailwindcss";', '@import "tailwindcss" source(none);\n@source "./examples";')
+const baseCSS = '@import "tailwindcss" source(none);\n@source "./examples";\n@source "../../../data/esercitazioni/native-examples.mjs";\n@plugin "daisyui" { themes: light --default, dark; }\n'
+const customCSS = curriculum[2].slides[14].blocks[0].text.replace('@import "tailwindcss";', '@import "tailwindcss" source(none);\n@source "./examples";\n@source "../../../data/esercitazioni/native-examples.mjs";')
 for (const [key, example] of Object.entries(examples)) {
   const html = `<!doctype html><html lang="it" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="../${example.custom ? 'custom' : 'render'}.css"><style>html{font-size:24px}body{margin:0;background:var(--color-base-100);color:var(--color-base-content);font-family:ui-sans-serif,system-ui,sans-serif}.demo-stage{box-sizing:border-box;width:100%;height:420px;padding:32px;display:grid;align-items:center}*,*::before,*::after{animation-play-state:paused!important}table{font-size:24px!important}form{margin:0}dialog .modal-box{max-height:390px}</style></head><body><main class="demo-stage">${example.html}</main></body></html>`
   await writeFile(`${folder}/examples/${key}.html`, html)
@@ -16,6 +17,10 @@ for (const [key, example] of Object.entries(examples)) {
 for (const [name, css] of [['render', baseCSS], ['custom', customCSS]]) {
   await writeFile(`${folder}/${name}.source.css`, css)
   execFileSync(process.execPath, ['node_modules/@tailwindcss/cli/dist/index.mjs', '-i', `${folder}/${name}.source.css`, '-o', `${folder}/${name}.css`, '--minify'], { stdio: 'inherit' })
+}
+if (manifest.nativeRebuild) {
+  console.log('Native HTML and CSS regenerated; retained bitmap archive unchanged.')
+  process.exit(0)
 }
 const browser = await chromium.launch()
 const assets = []

@@ -28,6 +28,7 @@ L’apertura automatica nel browser di sistema è facoltativa: aggiungere `--ope
 | `pnpm gallery` | Rigenera galleria e anteprime su macOS |
 | `pnpm check:source` | Parser, copertura delle note richieste, sequenze, dati, fonti e immagini |
 | `pnpm check:exercises` | Esercitazioni: fonti complete, desktop, viewport stretto, stampa e indice online disabilitato |
+| `pnpm check:exercise-native` | 83 esempi HTML/CSS e schemi nativi: geometrie, testo e assenza di bitmap |
 | `pnpm check:frameworks` | Esempi Tailwind e daisyUI: vincoli nativi, tastiera, focus, temi e responsive |
 | `pnpm check:publication dist` | Separazione locale/online e assenza degli asset locali nella build |
 | `pnpm check` | Controlli completi nel browser |

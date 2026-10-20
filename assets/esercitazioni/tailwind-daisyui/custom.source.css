@@ -1,5 +1,6 @@
 @import "tailwindcss" source(none);
 @source "./examples";
+@source "../../../data/esercitazioni/native-examples.mjs";
 @plugin "daisyui";
 @plugin "daisyui/theme" {
   name: "light";

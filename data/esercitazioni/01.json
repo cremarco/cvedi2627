@@ -224,9 +224,9 @@
     "title": "L’architettura del Web",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/bf9c59ac029ae9d4731f.png",
-        "alt": "L’ARCHITETTURA DEL WEB · figura della slide originale 5"
+        "kind": "native",
+        "example": "bf9c59ac029ae9d4731f.png",
+        "caption": "Il browser invia una richiesta HTTP; il server restituisce una risposta."
       }
     ],
     "sourceSlide": 5,
@@ -372,9 +372,9 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/728e55141fed182cd2c4.png",
-        "alt": "DIFFUSIONE DEI BROWSER · figura della slide originale 7"
+        "kind": "native",
+        "example": "728e55141fed182cd2c4.png",
+        "caption": "Valori trascritti dalla figura StatCounter originale; non rappresentano quote attuali."
       }
     ],
     "sourceSlide": 7,
@@ -561,9 +561,9 @@
     "title": "Gli ipertesti",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/6e8c7b2ffa579b74ac2b.png",
-        "alt": "GLI IPERTESTI · figura della slide originale 9"
+        "kind": "native",
+        "example": "6e8c7b2ffa579b74ac2b.png",
+        "caption": "I collegamenti permettono percorsi di lettura non sequenziali fra documenti."
       }
     ],
     "sourceSlide": 9,
@@ -1328,10 +1328,9 @@
     "title": "Esempio di rendering",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-017-diagram.webp",
-        "alt": "ESEMPIO DI RENDERING. <u>Esercitazioni CVeDI</u> Esercitazioni CVeDI",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-017-diagram.webp",
+        "caption": "Il codice a sinistra produce il testo sottolineato a destra."
       }
     ],
     "sourceSlide": 17,
@@ -2452,10 +2451,9 @@
     "title": "Tag per i testi",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-023-diagram.webp",
-        "alt": "TAG PER I TESTI. <u> <em> <strong> Sottolineato <u>Lorem ipsum</u> Lorem ipsum Corsivo <em>Lorem ipsum</em> Lorem ipsum Grassetto <strong>Lorem ipsum</strong> Lorem ipsum Elementi inline Necessita chiusura",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-023-diagram.webp",
+        "caption": "Tre elementi inline: contenuto, semantica e presentazione restano distinti."
       }
     ],
     "sourceSlide": 23,
@@ -2756,10 +2754,9 @@
     "title": "Elenchi puntati e numerati",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-025-diagram.webp",
-        "alt": "ELENCHI PUNTATI E NUMERATI. Elenco puntato <ul> <li></li> </ul> <ul> <li>Primo elemento</li> • Primo elemento <li>Secondo elemento</li> • Secondo elemento </ul>",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-025-diagram.webp",
+        "caption": "Ogni elemento della lista è racchiuso nel proprio li."
       }
     ],
     "sourceSlide": 25,
@@ -2969,10 +2966,9 @@
     "title": "Elenchi puntati e numerati",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-026-diagram.webp",
-        "alt": "ELENCHI PUNTATI E NUMERATI. <ol> <li></li> </ol> Elenco numerato <ol> <li>Primo elemento</li> 1. Primo elemento <li>Secondo elemento</li> 2. Secondo elemento </ol>",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-026-diagram.webp",
+        "caption": "Il browser assegna la numerazione attraverso una lista ordinata."
       }
     ],
     "sourceSlide": 26,
@@ -3322,10 +3318,9 @@
     "title": "Tabelle",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-027-diagram.webp",
-        "alt": "TABELLE. <table> <table> <thead> <tr> <th>Colonna 1</th> <th>Colonna 2</th> </tr> </thead> <tbody> <tr> <td>Cella 1</td> <td>Cella 2</td> </tr> </tbody> </table>",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-027-diagram.webp",
+        "caption": "Tabella HTML nativa, con intestazioni e celle ricostruite dalla fonte."
       }
     ],
     "sourceSlide": 27,
@@ -3636,10 +3631,9 @@
     "title": "Form",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-028-diagram.webp",
-        "alt": "Form. <form> <form action=\"#\"> <label for=\"name\">Name</label> <input id=\"name\" type=\"text\"> <input type=\"submit\" value=\"OK\"> </form> OK Name",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-028-diagram.webp",
+        "caption": "Etichetta, campo e pulsante sono controlli HTML effettivi; l’invio dimostrativo resta locale."
       }
     ],
     "sourceSlide": 28,
@@ -4160,9 +4154,9 @@
     "title": "Absolute path",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/b63650f3b5ea7c0f6903.png",
-        "alt": "Absolute path · figura della slide originale 32"
+        "kind": "native",
+        "example": "b63650f3b5ea7c0f6903.png",
+        "caption": "Le parti dell’URL assoluto sono ricostruite come testo."
       }
     ],
     "sourceSlide": 32,
@@ -4175,9 +4169,9 @@
     "title": "Relative path",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/4ef7366d1c1e6ad09fa8.png",
-        "alt": "Relative path · figura della slide originale 33"
+        "kind": "native",
+        "example": "4ef7366d1c1e6ad09fa8.png",
+        "caption": "Il percorso relativo alla radice non contiene un nuovo nome di host."
       }
     ],
     "sourceSlide": 33,
@@ -4225,9 +4219,9 @@
     "title": "Tipi di relative path · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/435ae87eed37e32c71f7.png",
-        "alt": "Tipi di relative path · esempio · figura della slide originale 35"
+        "kind": "native",
+        "example": "435ae87eed37e32c71f7.png",
+        "caption": "Struttura delle cartelle trascritta dall’editor originale."
       }
     ],
     "sourceSlide": 35,
@@ -4240,10 +4234,9 @@
     "title": "Tipi di relative path · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-036-diagram.webp",
-        "alt": "Tipi di relative path · esempio. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-036-diagram.webp",
+        "caption": "Il percorso è risolto a partire dal documento corrente o dalla radice del sito."
       }
     ],
     "sourceSlide": 36,
@@ -4256,10 +4249,9 @@
     "title": "Tipi di relative path · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-037-diagram.webp",
-        "alt": "Tipi di relative path · esempio. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-037-diagram.webp",
+        "caption": "Il percorso è risolto a partire dal documento corrente o dalla radice del sito."
       }
     ],
     "sourceSlide": 37,
@@ -4272,10 +4264,9 @@
     "title": "Tipi di relative path · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-038-diagram.webp",
-        "alt": "Tipi di relative path · esempio. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-038-diagram.webp",
+        "caption": "Il percorso è risolto a partire dal documento corrente o dalla radice del sito."
       }
     ],
     "sourceSlide": 38,
@@ -4288,10 +4279,9 @@
     "title": "Tipi di relative path · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-039-diagram.webp",
-        "alt": "Tipi di relative path · esempio. ",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-039-diagram.webp",
+        "caption": "Il percorso è risolto a partire dal documento corrente o dalla radice del sito."
       }
     ],
     "sourceSlide": 39,
@@ -4348,9 +4338,9 @@
     "title": "Il tag <body>",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/965f16eb212382409d9d.jpg",
-        "alt": "Il tag <body> · figura della slide originale 41"
+        "kind": "native",
+        "example": "965f16eb212382409d9d.jpg",
+        "caption": "La struttura a matrioska del body è espressa con elementi annidati."
       }
     ],
     "sourceSlide": 41,
@@ -6143,10 +6133,9 @@
     "title": "Nell’HTML standard (senza CSS)",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-048-diagram.webp",
-        "alt": "Nell’HTML standard (senza CSS). <p><font color=”#FF0000” size=”10”> <b>tutto questo testo avrà corpo 10, colore rosso e grassetto</b> </font></p> tutto questo testo avrà corpo 10, colore rosso e grassetto",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-048-diagram.webp",
+        "caption": "Esempio storico della fonte: il tag font è obsoleto; oggi la formattazione appartiene al CSS."
       }
     ],
     "sourceSlide": 48,
@@ -7060,9 +7049,9 @@
     "title": "Con i CSS, invece... · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/88ff7db0856fdc235a7d.png",
-        "alt": "Con i CSS, invece... · esempio · figura della slide originale 51"
+        "kind": "native",
+        "example": "88ff7db0856fdc235a7d.png",
+        "caption": "Gli stili body, li e h1 della fonte sono applicati a contenuti HTML nativi."
       }
     ],
     "sourceSlide": 51,
@@ -7745,10 +7734,9 @@
     "title": "Sintassi di una regola CSS",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-056-diagram.webp",
-        "alt": "Sintassi di una regola CSS. selettore { proprietà1: valore1; proprietà2: valore2; } Dichiarazione Regola",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-056-diagram.webp",
+        "caption": "Selettore, dichiarazioni e regola restano selezionabili."
       }
     ],
     "sourceSlide": 56,
@@ -8089,10 +8077,9 @@
     "title": "I selettori di base",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-057-diagram.webp",
-        "alt": "I selettori di base. h1, p, a { font-size: 2em; } h1 #id .class #identificatore1 { ... } .classe1 { ... } h1#identificatore2 { ... } La regola sarà applicata a tutti gli elementi <h1>, <p>, <a> La regola sarà applicata all’elemento con id “identificatore1” La regola sarà applicata agli elementi con classe “classe1” La regola sarà applicata all’elemento <h1> con id “identificatore2”",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-057-diagram.webp",
+        "caption": "Sintassi ed effetti dei selettori ricavati dalla tavola originale."
       }
     ],
     "sourceSlide": 57,
@@ -8941,10 +8928,9 @@
     "title": "I selettori: pseudoclassi",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-060-diagram.webp",
-        "alt": "I selettori: pseudoclassi. :first-child :nth-child(n) :not(selector) p:first-child { color: white; } p:nth-child(2) { color: black; } Le regole saranno applicate, rispettivamente, al <p> che è primo figlio e al <p> che è secondo figlio :not(p) { color: white; } La regola sarà applicata a tutti gli elementi che non sono <p>",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-060-diagram.webp",
+        "caption": "Le pseudoclassi selezionano elementi in base a una condizione."
       }
     ],
     "sourceSlide": 60,
@@ -9274,10 +9260,9 @@
     "title": "I selettori: pseudoelementi",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-061-diagram.webp",
-        "alt": "I selettori: pseudoelementi. ::after ::before ::first-letter p::first-letter { color: white; } La regola sarà applicata alla prima lettera dei paragrafi <p> p::after { content: \"contenuto\"; color: white } Genera un elemento che conterrà “contenuto” dopo ogni tag <p>. Ogni elemento avrà color: white p::before { content: \"contenuto\"; color: white } Genera un elemento che conterrà “contenuto” prima di ogni tag <p>. Ogni elemento avrà color: white",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-061-diagram.webp",
+        "caption": "Gli pseudoelementi rappresentano una parte dell’elemento o contenuto generato."
       }
     ],
     "sourceSlide": 61,
@@ -9927,10 +9912,9 @@
     "title": "I selettori di attributo",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-062-diagram.webp",
-        "alt": "I selettori di attributo. el[attr] el[attr=val] el[attr~=val] el[attr*=val] a[rel] { background-color: yellow; } La regola sarà applicata a tutti i tag <a> che hanno un attributo di tipo rel a[rel=nofollow] { background-color: red; } La regola sarà applicata a tutti i tag <a> che hanno un attributo di tipo rel con valore nofollow a[title~=notizie] { color: white; } La regola sarà applicata ai tag <a> che hanno un attributo title con valore che contiene la parola “notizie” (i.e. <a title=\"Ultime notizie\">) a[rel*=no] { color: white; } La regola sarà applicata ai <a> tag che hanno un attributo rel con valore che contiene la stringa “no” (i.e. <a rel=\"nofollow\">, <a rel=\"norefferer\">)",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-062-diagram.webp",
+        "caption": "Quattro operatori di selezione degli attributi ricostruiti come tabella."
       }
     ],
     "sourceSlide": 62,
@@ -10081,10 +10065,9 @@
     "title": "Raggruppare i selettori",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/01-063-diagram.webp",
-        "alt": "Raggruppare i selettori. p, div, a.class1 { background-color: yellow; } el, el La regola sarà applicata a tutti i tag <p>, ai tag <div> e ai tag <a> con classe “class1” (Da non confondere con i selettori per i discendenti)",
-        "sourceDiagram": true
+        "kind": "native",
+        "example": "01-063-diagram.webp",
+        "caption": "La virgola raggruppa selettori; non indica una relazione di discendenza."
       }
     ],
     "sourceSlide": 63,
@@ -10226,9 +10209,9 @@
     "title": "Esercizio 1 · esempio",
     "blocks": [
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/f7c30abe2a1b2b98dad2.jpg",
-        "alt": "ESERCIZIO 1 · esempio · figura della slide originale 66"
+        "kind": "native",
+        "example": "f7c30abe2a1b2b98dad2.jpg",
+        "caption": "Il modello dell’esercizio mantiene tre pagine collegate con la stessa navigazione."
       }
     ],
     "sourceSlide": 66,
@@ -10357,9 +10340,9 @@
         ]
       },
       {
-        "kind": "image",
-        "src": "/images/esercitazioni/72486c8220e08ef98523.png",
-        "alt": "RIFERIMENTI UTILI · figura della slide originale 67"
+        "kind": "native",
+        "example": "72486c8220e08ef98523.png",
+        "caption": "I riferimenti restano collegamenti selezionabili nelle slide del percorso; il logo decorativo è archiviato."
       }
     ],
     "sourceSlide": 67,

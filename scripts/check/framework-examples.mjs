@@ -1,14 +1,19 @@
 import assert from 'node:assert/strict'
 import { mkdir, writeFile } from 'node:fs/promises'
+import { readFile } from 'node:fs/promises'
+import { examples } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { renderNativeDocument } from '../../data/esercitazioni/native-examples.mjs'
 import { chromium } from 'playwright-chromium'
 import { checkExerciseSources } from './exercise-sources.mjs'
 
 const report = { sources: await checkExerciseSources(), checks: [], errors: [] }
 const browser = await chromium.launch()
+const baseCSS = await readFile('assets/esercitazioni/tailwind-daisyui/render.css', 'utf8')
+const customCSS = await readFile('assets/esercitazioni/tailwind-daisyui/custom.css', 'utf8')
 try {
   const page = await browser.newPage({ viewport: { width: 1000, height: 420 } })
   page.on('pageerror', error => report.errors.push(error.message))
-  const go = example => page.goto(`file://${process.cwd()}/assets/esercitazioni/tailwind-daisyui/examples/${example}.html`)
+  const go = example => page.setContent(renderNativeDocument(examples[example], baseCSS, customCSS))
   await go('buttons')
   assert.equal(await page.getByRole('button', { name: 'Non disponibile' }).isDisabled(), true)
   report.checks.push('disabled button is native')
@@ -37,6 +42,8 @@ try {
   assert.equal(await page.locator('details').evaluate(node => node.open), true)
   report.checks.push('disclosure opens and closes from the keyboard')
   await go('modal')
+  await page.getByRole('dialog', { name: 'Posto prenotato' }).waitFor()
+  await page.keyboard.press('Escape')
   await page.getByRole('button', { name: 'Apri', exact: true }).focus()
   await page.keyboard.press('Enter')
   const dialog = page.getByRole('dialog', { name: 'Posto prenotato' })
@@ -51,10 +58,11 @@ try {
   assert.notEqual(backgrounds[0], backgrounds[1])
   report.checks.push('light and dark sections use distinct semantic surfaces')
   await go('responsive')
-  const columns = async () => page.locator('main > div').evaluate(node => getComputedStyle(node).gridTemplateColumns.split(' ').length)
-  assert.equal(await columns(), 2)
-  await page.setViewportSize({ width: 390, height: 420 })
-  assert.equal(await columns(), 1)
+  const wide = page.locator('iframe[title="Viewport ampio"]').contentFrame()
+  const narrow = page.locator('iframe[title="Viewport stretto"]').contentFrame()
+  const columns = async frame => frame.locator('main > div').evaluate(node => getComputedStyle(node).gridTemplateColumns.split(' ').length)
+  assert.equal(await columns(wide), 2)
+  assert.equal(await columns(narrow), 1)
   report.checks.push('the same Grid changes from two columns to one at a real narrow viewport')
   assert.deepEqual(report.errors, [])
   report.status = 'passed'

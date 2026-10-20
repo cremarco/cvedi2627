@@ -1,3 +1,4 @@
 @import "tailwindcss" source(none);
 @source "./examples";
+@source "../../../data/esercitazioni/native-examples.mjs";
 @plugin "daisyui" { themes: light --default, dark; }

@@ -112,7 +112,7 @@ def text_weight(block):
     return sum(max(1,math.ceil(len(p['text'])/88)) + .4 for p in block['paragraphs'])
 
 for ex in manifest['exercises']:
-    if ex.get('replacement'):
+    if ex.get('replacement') or ex.get('nativeRebuild'):
         print(f"{ex['number']:02}: revisione editoriale attiva; import originale conservato in archivio")
         continue
     original = ROOT/ex['original']

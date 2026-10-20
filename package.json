@@ -22,6 +22,7 @@
     "check": "node scripts/check/slides.mjs",
     "check:source": "node scripts/check/slide-source.mjs",
     "check:exercises": "node scripts/check/exercises.mjs",
+    "check:exercise-native": "node scripts/check/exercise-native.mjs",
     "check:pagination": "node --test scripts/check/lesson-pagination.test.mjs",
     "check:clean": "node --test scripts/check/clean.test.mjs",
     "check:publication": "node scripts/check/publication.mjs",
