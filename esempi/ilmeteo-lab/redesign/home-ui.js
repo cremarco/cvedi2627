@@ -4,7 +4,15 @@
 (() => {
   const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
   const motion = new Map();
+  let anchorScroll = null;
   const stopMotion = element => motion.get(element)?.cancel();
+  const cancelAnchorScroll = finish => {
+    if (!anchorScroll) return;
+    if (anchorScroll.frame) cancelAnimationFrame(anchorScroll.frame);
+    const {targetY} = anchorScroll;
+    anchorScroll = null;
+    if (finish) window.scrollTo(0, targetY);
+  };
   function animateState(element, frames, duration = 220) {
     stopMotion(element);
     if (reducedMotion.matches || !element.animate) return;
@@ -17,6 +25,7 @@
   reducedMotion.addEventListener('change', () => {
     for (const animation of motion.values()) animation.cancel();
     motion.clear();
+    cancelAnchorScroll(reducedMotion.matches);
   });
   const notice = document.querySelector('#snapshot-unavailable');
   const noticeDescription = notice?.querySelector('p');
@@ -28,6 +37,38 @@
   };
   document.documentElement.dataset.capture = 'offline';
   document.documentElement.dataset.captureReady = 'true';
+
+  // Give the synthetic-forecast shortcut a deliberate, interruptible scroll.
+  for (const input of ['wheel', 'touchstart', 'pointerdown', 'keydown']) {
+    addEventListener(input, () => cancelAnchorScroll(false), {passive:true});
+  }
+  document.addEventListener('click', event => {
+    const link = event.target instanceof Element ? event.target.closest('a[href="#summaries-title"]') : null;
+    if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || reducedMotion.matches) return;
+    const target = document.getElementById('summaries-title');
+    if (!target) return;
+    event.preventDefault();
+    cancelAnchorScroll(false);
+    if (location.hash !== link.hash) history.pushState(null, '', link.hash);
+    const startY = window.scrollY;
+    const marginTop = Number.parseFloat(getComputedStyle(target).scrollMarginTop) || 0;
+    const targetY = Math.max(0, target.getBoundingClientRect().top + startY - marginTop);
+    const distance = targetY - startY;
+    if (Math.abs(distance) < 1) return;
+    const duration = Math.min(1500, Math.max(1000, Math.abs(distance) * 0.48));
+    const startTime = performance.now();
+    const animation = {frame:0, targetY};
+    anchorScroll = animation;
+    const step = now => {
+      if (anchorScroll !== animation) return;
+      const progress = Math.min(1, (now - startTime) / duration);
+      const eased = 0.5 - Math.cos(Math.PI * progress) / 2;
+      window.scrollTo(0, startY + distance * eased);
+      if (progress < 1) animation.frame = requestAnimationFrame(step);
+      else anchorScroll = null;
+    };
+    animation.frame = requestAnimationFrame(step);
+  });
 
   // Leave supplied ad artwork and world search fully visible with the fixed action.
   const reportFab = document.querySelector('#weather-report-fab');
