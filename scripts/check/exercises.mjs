@@ -76,6 +76,11 @@ try {
         }
         await root.evaluate(root => Promise.all([...root.querySelectorAll('img')].map(image => image.complete ? undefined : new Promise(resolve => { image.addEventListener('load', resolve, { once: true }); image.addEventListener('error', resolve, { once: true }) }))))
         const nativeIssues = []
+        const resources = slide.blocks.flatMap(block => block.resources || [])
+        if (resources.length) {
+          assert.deepEqual(await root.locator('.exercise-resources a').evaluateAll(nodes => nodes.map(node => ({ title: node.childNodes[0].textContent, url: node.getAttribute('href') }))), resources)
+          assert.equal(await root.locator('.exercise-resources a[target="_blank"][rel="noopener noreferrer"]').count(), resources.length, 'resource links open outside the isolated HTML examples')
+        }
         for (const handle of await root.locator('.exercise-native-frame').elementHandles()) {
           const frame = await handle.contentFrame()
           await frame.locator('[data-native-root]').waitFor()
@@ -94,6 +99,12 @@ try {
           const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT)
           for (let node = walker.nextNode(); node; node = walker.nextNode()) {
             if (!node.textContent.trim() || node.parentElement.closest('dialog, .slide-ribbon')) continue
+            // A deliberately clipped screen-reader label has no painted text bounds.
+            const hiddenLabel = node.parentElement.closest('.sr-only')
+            if (hiddenLabel) {
+              const style = getComputedStyle(hiddenLabel)
+              if (style.position === 'absolute' && style.width === '1px' && style.height === '1px' && style.overflow === 'hidden') continue
+            }
             const range = document.createRange(); range.selectNodeContents(node)
             for (const box of range.getClientRects()) if (box.width && (box.left < stage.left - 1 || box.right > stage.right + 1 || box.top < stage.top - 1 || box.bottom > stage.bottom + 1)) { issues.push('text outside canvas: ' + node.textContent.slice(0, 50)); break }
           }
@@ -105,10 +116,57 @@ try {
         if (metrics.issues.length) {
           report.failures.push({ exercise: number, slide: slide.number, source: slide.sourceSlide, profile, ...metrics })
           await page.screenshot({ path: `${output}/failure-${number}-${slide.number}-${profile}.png` })
-        } else if (slide.number === 1 || slide.number === 4 || slide.blocks.some(block => block.kind === 'native') || slide.number === data.find(s => s.blocks.some(b => b.kind === 'code'))?.number || slide.number === data.find(s => s.blocks.some(b => b.kind === 'image'))?.number) await page.screenshot({ path: `${output}/${number}-${slide.number}-${profile}.png` })
+        } else if (slide.number === 1 || slide.number === 4 || slide.blocks.some(block => ['native', 'resources'].includes(block.kind)) || slide.number === data.find(s => s.blocks.some(b => b.kind === 'code'))?.number || slide.number === data.find(s => s.blocks.some(b => b.kind === 'image'))?.number) await page.screenshot({ path: `${output}/${number}-${slide.number}-${profile}.png` })
         report.slides.push({ exercise: number, slide: slide.number, profile, ...metrics })
       }
       if (profile === 'desktop') {
+        if (exercise.number === 6) {
+          const modalSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:modal'))
+          const modalRoot = await openSlide(page, lessonBase, modalSlide.number, { settle: true })
+          const modalFrame = modalRoot.locator('.exercise-native-frame').contentFrame()
+          await modalFrame.locator('dialog').waitFor({ state: 'attached' })
+          assert.equal(await modalFrame.locator('dialog').evaluate(node => node.open), false)
+          const trigger = modalFrame.getByRole('button', { name: 'Apri', exact: true })
+          await trigger.focus(); await page.keyboard.press('Enter')
+          await modalFrame.getByRole('dialog', { name: 'Posto prenotato' }).waitFor()
+          await page.keyboard.press('Escape')
+          assert.equal(await trigger.evaluate(node => document.activeElement === node), true, 'first Escape closes the dialog and restores its trigger')
+          await page.keyboard.press('Enter')
+          await modalFrame.getByRole('button', { name: 'Chiudi', exact: true }).click()
+          assert.equal(await modalFrame.locator('dialog').evaluate(node => node.open), false, 'method=dialog works inside the real sandbox')
+          assert.equal(await trigger.evaluate(node => document.activeElement === node), true)
+          await page.keyboard.press('Escape')
+          await page.waitForFunction(() => document.activeElement?.classList.contains('exercise-native'))
+          await page.keyboard.press('ArrowRight')
+          await page.waitForURL(url => url.hash === `#/${modalSlide.number + 1}`)
+          const selectionSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:selection'))
+          const selectionRoot = await openSlide(page, lessonBase, selectionSlide.number, { settle: true })
+          await selectionRoot.locator('.exercise-native-frame').contentFrame().getByLabel('Scegli un turno').focus()
+          await page.keyboard.press('ArrowDown')
+          assert.equal(new URL(page.url()).hash, `#/${selectionSlide.number}`, 'arrow keys within controls do not navigate the presentation')
+          await page.keyboard.press('Escape')
+          await page.waitForFunction(() => document.activeElement?.classList.contains('exercise-native'))
+          const loadingSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:loading'))
+          const loadingRoot = await openSlide(page, lessonBase, loadingSlide.number, { settle: true })
+          const loadingFrame = await (await loadingRoot.locator('.exercise-native-frame').elementHandle()).contentFrame()
+          await loadingFrame.waitForFunction(() => document.documentElement.hasAttribute('data-native-paused'))
+          await page.emulateMedia({ reducedMotion: 'no-preference' })
+          await loadingFrame.waitForFunction(() => !document.documentElement.hasAttribute('data-native-paused'))
+          await page.emulateMedia({ reducedMotion: 'reduce' })
+          await loadingFrame.waitForFunction(() => document.documentElement.hasAttribute('data-native-paused'))
+          const formSlide = data.find(slide => slide.blocks.some(block => block.example === 'framework:form'))
+          const formRoot = await openSlide(page, lessonBase, formSlide.number, { settle: true })
+          const formFrame = formRoot.locator('.exercise-native-frame').contentFrame()
+          await formFrame.getByRole('button', { name: 'Iscriviti', exact: true }).click()
+          assert.equal(await formFrame.getByRole('status').textContent(), '', 'invalid form has no confirmation')
+          await formFrame.getByLabel('Nome e cognome', { exact: true }).fill('Esempio didattico')
+          await formFrame.getByLabel('Email', { exact: true }).fill('studente@example.org')
+          await formFrame.getByRole('button', { name: 'Iscriviti', exact: true }).click()
+          assert.equal(await formFrame.getByRole('status').textContent(), 'Dati ricevuti nell’esempio locale.', 'the real iframe sandbox permits the locally handled submit event')
+          const formHandle = await formRoot.locator('.exercise-native-frame').elementHandle()
+          await (await formHandle.contentFrame()).waitForFunction(() => document.querySelector('main').scrollHeight <= innerHeight)
+          report.interactions = ['dialog opens on request', 'Escape returns from the iframe to slide keyboard navigation', 'control arrow keys remain local', 'playback state reaches the isolated example', 'valid form confirms locally inside the actual sandbox']
+        }
         const figureSlide = data.find(slide => slide.blocks.some(block => block.kind === 'image'))
         if (figureSlide) {
           const figureRoot = await openSlide(page, lessonBase, figureSlide.number, { settle: true })

@@ -5978,15 +5978,32 @@
     "title": "Per esercitarsi e approfondire",
     "blocks": [
       {
-        "kind": "native",
-        "example": "72486c8220e08ef98523.png",
-        "caption": "I riferimenti restano collegamenti selezionabili nelle slide del percorso; il logo decorativo è archiviato."
+        "kind": "resources",
+        "resources": [
+          {
+            "title": "Test your skills: Flexbox",
+            "url": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills"
+          },
+          {
+            "title": "Basic concepts of flexbox",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox"
+          },
+          {
+            "title": "What Happens When You Create A Flexbox Flex Container?",
+            "url": "https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/"
+          },
+          {
+            "title": "A Complete Guide to Flexbox",
+            "url": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+          }
+        ]
       }
     ],
     "sourceSlide": 45,
     "number": 76,
     "part": 2,
-    "parts": 2
+    "parts": 2,
+    "revision": "native-reconstruction"
   },
   {
     "kind": "content",
@@ -6068,15 +6085,36 @@
     "title": "Riferimenti utili",
     "blocks": [
       {
-        "kind": "native",
-        "example": "72486c8220e08ef98523.png",
-        "caption": "I riferimenti restano collegamenti selezionabili nelle slide del percorso; il logo decorativo è archiviato."
+        "kind": "resources",
+        "resources": [
+          {
+            "title": "HTML elements reference",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+          },
+          {
+            "title": "CSS selectors reference",
+            "url": "https://www.w3schools.com/cssref/css_selectors.asp"
+          },
+          {
+            "title": "CSS selector tester",
+            "url": "https://www.w3schools.com/cssref/trysel.asp"
+          },
+          {
+            "title": "FreeCodeCamp",
+            "url": "https://www.freecodecamp.org/"
+          },
+          {
+            "title": "Google",
+            "url": "https://www.google.it/"
+          }
+        ]
       }
     ],
     "sourceSlide": 46,
     "number": 78,
     "part": 2,
-    "parts": 2
+    "parts": 2,
+    "revision": "native-reconstruction"
   },
   {
     "kind": "closing",

@@ -125,19 +125,19 @@
     "blocks": [
       {
         "kind": "code",
-        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\" {\n  themes: light --default, dark;\n}"
+        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\" { themes: light --default, dark; }\n@plugin \"daisyui/theme\" {\n  name: \"light\";\n  --color-secondary-content: oklch(12.9% 0.042 264.695);\n  --color-accent-content: oklch(26.2% 0.051 172.552);\n  --color-error: oklch(50.5% 0.213 27.518);\n  --color-error-content: oklch(100% 0 0);\n}\n@plugin \"daisyui/theme\" {\n  name: \"dark\";\n  --color-primary-content: oklch(100% 0 0);\n}"
       }
     ],
     "sources": [
       {
-        "id": "install",
-        "title": "daisyUI · installazione",
-        "url": "https://daisyui.com/docs/install/"
-      },
-      {
         "id": "config",
         "title": "daisyUI · configurazione",
         "url": "https://daisyui.com/docs/config/"
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
       }
     ],
     "number": 5,
@@ -624,7 +624,7 @@
     "blocks": [
       {
         "kind": "code",
-        "text": "<form class=\"grid max-w-xl gap-4\">\n  <label for=\"nome\">Nome e cognome</label>\n  <input id=\"nome\" name=\"nome\" autocomplete=\"name\"\n    class=\"input w-full\" required>\n  <label for=\"email\">Email</label>\n  <input id=\"email\" name=\"email\" type=\"email\"\n    autocomplete=\"email\" class=\"input w-full\" required>\n  <button class=\"btn btn-primary\">Iscriviti</button>\n</form>"
+        "text": "<form class=\"grid max-w-xl gap-4\">\n  <label for=\"nome\">Nome e cognome</label>\n  <input id=\"nome\" name=\"nome\" autocomplete=\"name\"\n    class=\"input w-full\" required>\n  <label for=\"email\">Email</label>\n  <input id=\"email\" name=\"email\" type=\"email\"\n    autocomplete=\"email\" class=\"input w-full\" required>\n  <button class=\"btn btn-primary\">Iscriviti</button>\n  <output role=\"status\" aria-live=\"polite\"></output>\n</form>"
       }
     ],
     "sources": [
@@ -647,7 +647,7 @@
     "blocks": [
       {
         "kind": "native",
-        "caption": "Ogni campo ha un’etichetta persistente e l’azione conclude il gruppo.",
+        "caption": "Compila entrambi i campi: l’invio mostra una conferma locale.",
         "example": "framework:form"
       }
     ],
@@ -1291,7 +1291,7 @@
     "blocks": [
       {
         "kind": "native",
-        "caption": "Il dialogo ha un titolo e un’azione di chiusura espliciti.",
+        "caption": "Apri il dialogo; Escape lo chiude e restituisce il focus al pulsante.",
         "example": "framework:modal"
       }
     ],

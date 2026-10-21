@@ -103,6 +103,7 @@ export const snippets = {
   <input id="email" name="email" type="email"
     autocomplete="email" class="input w-full" required>
   <button class="btn btn-primary">Iscriviti</button>
+  <output role="status" aria-live="polite"></output>
 </form>`,
   validation: `<div class="grid max-w-xl gap-3">
   <label for="email">Email</label>
@@ -190,6 +191,21 @@ export const snippets = {
   </section>
 </div>`,
 }
+// These overrides are shared by the visible setup and the runnable examples.
+export const exampleThemeOverrides = `@plugin "daisyui/theme" {
+  name: "light";
+  --color-secondary-content: oklch(12.9% 0.042 264.695);
+  --color-accent-content: oklch(26.2% 0.051 172.552);
+  --color-error: oklch(50.5% 0.213 27.518);
+  --color-error-content: oklch(100% 0 0);
+}
+@plugin "daisyui/theme" {
+  name: "dark";
+  --color-primary-content: oklch(100% 0 0);
+}`
+export const exampleThemeSetup = `@import "tailwindcss";
+@plugin "daisyui" { themes: light --default, dark; }
+${exampleThemeOverrides}`
 const customTheme = `@import "tailwindcss";
 @plugin "daisyui";
 @plugin "daisyui/theme" {
@@ -260,7 +276,7 @@ const daisy = [
   T('Dalle utility ai componenti', ['Obiettivo: costruire un’interfaccia coerente con daisyUI 5 e Tailwind CSS 4.', 'Per ogni esempio separeremo struttura HTML, aspetto e comportamento, verificando anche etichette, stati e tastiera.'], 'use', 'install'),
   T('Chi fa che cosa', ['Tailwind compone layout e dettagli con utility. daisyUI aggiunge classi come btn e card per gruppi ricorrenti di stili.', 'L’applicazione continua a gestire dati, operazioni e feedback. Le classi CSS non sostituiscono questi comportamenti.'], 'use'),
   C('Installare il plugin', 'npm install -D daisyui@5\n\n# Il progetto usa già Tailwind CSS 4 e la sua compilazione.', 'install'),
-  C('Abilitare daisyUI nel CSS', '@import "tailwindcss";\n@plugin "daisyui" {\n  themes: light --default, dark;\n}', 'install', 'config'),
+  C('Abilitare daisyUI nel CSS', exampleThemeSetup, 'config', 'themes'),
   T('Le classi non cambiano la semantica', ['Un’azione usa un button; una destinazione usa un collegamento con href. Campi ed errori devono avere nomi e relazioni esplicite.', 'Scegli la struttura nativa prevista dal componente e verifica il comportamento nel browser.'], 'button', 'input'),
   T('Colori legati al ruolo', ['primary, secondary e accent descrivono ruoli. base-* definisce le superfici; error e success comunicano uno stato.', 'La coppia *-content specifica il testo sulla superficie corrispondente. Evita di assegnare lo stesso colore a ruoli diversi senza una ragione.'], 'colors'),
   C('Tre ruoli, tre classi', snippets.colors, 'colors', 'button'),
@@ -277,7 +293,7 @@ const daisy = [
   I('Alert: risultato', 'alert', 'Il testo indica il problema e il punto da controllare.', 'alert'),
   T('Form: iniziare dalle etichette', ['Collega ogni label al suo controllo con for e id. type, name e autocomplete aiutano il browser a capire il dato richiesto.', 'Il placeholder può dare un esempio, ma non sostituisce un’etichetta visibile.'], 'input'),
   C('Form: struttura essenziale', snippets.form, 'input'),
-  I('Form: risultato', 'form', 'Ogni campo ha un’etichetta persistente e l’azione conclude il gruppo.', 'input'),
+  I('Form: risultato', 'form', 'Compila entrambi i campi: l’invio mostra una conferma locale.', 'input'),
   T('Validazione: tre responsabilità', ['HTML può verificare vincoli come required e type="email". Validator applica uno stile agli stati supportati.', 'Il progetto deve spiegare gli errori e aggiornare aria-invalid; il server deve verificare nuovamente i dati ricevuti.'], 'validator', 'validation'),
   C('Errore: uno stato esplicito', snippets.validation, 'input', 'validation'),
   I('Errore: risultato', 'validation', 'Lo stato illustrato mantiene il dato inserito e spiega come correggerlo.', 'input', 'validation'),
@@ -298,7 +314,7 @@ const daisy = [
   I('Disclosure: risultato aperto', 'collapse', 'Domanda e risposta restano nello stesso gruppo.', 'collapse'),
   T('Modal: un’interruzione motivata', ['Usa un dialog quando serve un’interazione che protegga il focus. showModal() apre il dialogo nativo.', 'Verifica nome del dialogo, chiusura con Escape e ritorno del focus. Il CSS non sostituisce la logica dell’operazione.'], 'modal'),
   C('Modal: apertura e chiusura native', snippets.modal, 'modal'),
-  I('Modal: risultato', 'modal', 'Il dialogo ha un titolo e un’azione di chiusura espliciti.', 'modal'),
+  I('Modal: risultato', 'modal', 'Apri il dialogo; Escape lo chiude e restituisce il focus al pulsante.', 'modal'),
   T('Table: relazioni fra dati', ['Le tabelle descrivono relazioni fra righe e colonne. Caption e intestazioni aiutano a interpretare i valori.', 'La classe table definisce l’aspetto; th e scope mantengono il significato delle celle.'], 'table'),
   C('Table: struttura', snippets.table, 'table'),
   I('Table: risultato', 'table', 'I turni e il numero di posti mantengono intestazioni riconoscibili.', 'table'),
@@ -323,10 +339,10 @@ const themes = [
   T(':root e @theme hanno compiti diversi', ['Usa :root per una normale custom property. Usa @theme quando vuoi collegare un token alle utility di Tailwind.', 'Un colore definito nel namespace --color-* genera le corrispondenti utility. Non tutte le variabili del progetto devono diventare utility.'], 'theme'),
   C('Un token Tailwind', '@import "tailwindcss";\n@theme {\n  --color-laboratorio: oklch(45% 0.085 224);\n}\n/* bg-laboratorio e text-laboratorio usano questo token. */', 'theme'),
   T('Il tema daisyUI è un insieme di ruoli', ['I componenti leggono variabili semantiche: cambiare tema può aggiornare insieme superfici, testo e azioni.', 'Per sfruttarlo, usa classi come bg-base-100 e text-base-content nei contenitori del progetto.'], 'colors'),
-  C('Abilitare due temi', '@import "tailwindcss";\n@plugin "daisyui" {\n  themes: light --default, dark;\n}\n/* Il tema scuro è disponibile; qui non è selezionato automaticamente. */', 'config'),
+  C('Abilitare due temi', exampleThemeSetup, 'config', 'themes'),
   C('Applicare il tema a una sezione', snippets.themes, 'themes'),
   I('Due temi, gli stessi componenti', 'themes', 'Le due sezioni usano lo stesso ruolo primario su superfici differenti.', 'themes', 'colors'),
-  T('Scegliere le coppie di colore', ['Definisci insieme superficie e contenuto: primary con primary-content, base-100 con base-content.', 'Controlla il testo, i bordi e gli stati, non soltanto il campione di colore isolato.'], 'colors'),
+  T('Scegliere le coppie di colore', ['Definisci insieme superficie e contenuto: primary con primary-content, base-100 con base-content.', 'La configurazione degli esempi modifica secondary-content, accent-content, error ed error-content nel tema chiaro e primary-content nel tema scuro per rendere leggibili queste coppie. Verifica anche gli stati.'], 'colors', 'contrast'),
   C('Personalizzare un tema esistente', customTheme, 'themes'),
   C('Personalizzare la geometria', '@plugin "daisyui/theme" {\n  name: "light";\n  --radius-box: 1rem;\n  --radius-field: 0.5rem;\n  --radius-selector: 0.25rem;\n}\n/* Gli altri valori del tema light restano ereditati. */', 'themes', 'config'),
   I('Risultato: primario e geometria', 'custom', 'La card mantiene struttura e contenuti; cambiano primario e raggio del tema.', 'themes', 'customize'),

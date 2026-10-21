@@ -10311,44 +10311,48 @@
     "title": "Riferimenti utili",
     "blocks": [
       {
-        "kind": "text",
-        "paragraphs": [
+        "kind": "resources",
+        "resources": [
           {
-            "text": "FreeCodeCamp",
-            "runs": [
-              {
-                "text": "FreeCodeCamp",
-                "underline": true,
-                "href": "https://www.freecodecamp.org/"
-              }
-            ],
-            "bullet": true,
-            "level": 0
+            "title": "Visual Studio Code",
+            "url": "https://code.visualstudio.com/"
           },
           {
-            "text": "Google",
-            "runs": [
-              {
-                "text": "Google",
-                "underline": true,
-                "href": "https://www.google.it/"
-              }
-            ],
-            "bullet": true,
-            "level": 0
+            "title": "Editor online",
+            "url": "https://stackblitz.com/edit/stackblitz-starters-dspzs4?description=HTML/CSS/JS%20Starter&file=index.html,styles.css&terminalHeight=10&title=Static%20Starter"
+          },
+          {
+            "title": "HTML elements reference",
+            "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+          },
+          {
+            "title": "CSS selectors reference",
+            "url": "https://www.w3schools.com/cssref/css_selectors.asp"
+          },
+          {
+            "title": "CSS selector tester",
+            "url": "https://www.w3schools.com/cssref/trysel.asp"
+          },
+          {
+            "title": "Tipi di File paths",
+            "url": "https://www.w3schools.com/html/html_filepaths.asp"
+          },
+          {
+            "title": "FreeCodeCamp",
+            "url": "https://www.freecodecamp.org/"
+          },
+          {
+            "title": "Google",
+            "url": "https://www.google.it/"
           }
         ]
-      },
-      {
-        "kind": "native",
-        "example": "72486c8220e08ef98523.png",
-        "caption": "I riferimenti restano collegamenti selezionabili nelle slide del percorso; il logo decorativo è archiviato."
       }
     ],
     "sourceSlide": 67,
     "number": 107,
     "part": 2,
-    "parts": 2
+    "parts": 2,
+    "revision": "native-reconstruction"
   },
   {
     "kind": "closing",

@@ -22,6 +22,8 @@ La specifica editoriale è [framework-curriculum.mjs](../../data/esercitazioni/f
 
 I moduli 05, 06 e 07 mantengono rispettivamente 36, 54 e 23 slide, includendo esercizi pratici di 15, 20 e 15 minuti. Indici e URL dei set restano compatibili. Tutte le esercitazioni rimangono locali; online l’indice conserva titoli e palette con i pulsanti disabilitati. Non sono aggiunte note del relatore.
 
+Le pagine 01/107, 02/76 e 02/78 ricostruiscono i riferimenti come liste di collegamenti, mantenendo etichette, ordine e destinazioni delle pagine originali 67, 45 e 46. In particolare, 02/76 conserva i quattro approfondimenti Flexbox. I dialoghi si aprono su richiesta e mostrano i contenuti in stampa; Escape permette il ritorno alla navigazione della presentazione. Il form del modulo 06 annuncia una conferma locale dopo la validazione. Gli esempi e la configurazione CSS mostrata condividono gli override dei temi per secondary-content, accent-content, error, error-content e primary-content scuro. Il contrasto delle coppie interessate viene misurato in `pnpm check:frameworks`; non costituisce una certificazione dell’intero corso.
+
 ## Documentazione primaria consultata
 
 - [Tailwind · utility classes](https://tailwindcss.com/docs/styling-with-utility-classes)

@@ -23,7 +23,34 @@ export const nativeCorrections = {
   '08/57': { blocks: [copy('La storia del repository si può consultare nel Source Control Graph di VS Code, su GitHub o con git log.', 'Aprendo un commit si possono leggere le modifiche introdotte e seguire l’evoluzione del branch.')], sources: [{ title: 'VS Code · source control', url: 'https://code.visualstudio.com/docs/sourcecontrol/overview' }] },
 }
 
+// Labels and destinations transcribed from the corresponding retained source pages.
+const htmlResources = [
+  ['HTML elements reference', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element'],
+  ['CSS selectors reference', 'https://www.w3schools.com/cssref/css_selectors.asp'],
+  ['CSS selector tester', 'https://www.w3schools.com/cssref/trysel.asp'],
+  ['FreeCodeCamp', 'https://www.freecodecamp.org/'],
+  ['Google', 'https://www.google.it/'],
+]
+export const nativeResources = Object.fromEntries(Object.entries({
+  '01/107': [
+    ['Visual Studio Code', 'https://code.visualstudio.com/'],
+    ['Editor online', 'https://stackblitz.com/edit/stackblitz-starters-dspzs4?description=HTML/CSS/JS%20Starter&file=index.html,styles.css&terminalHeight=10&title=Static%20Starter'],
+    ...htmlResources.slice(0, 3),
+    ['Tipi di File paths', 'https://www.w3schools.com/html/html_filepaths.asp'],
+    ...htmlResources.slice(3),
+  ],
+  '02/76': [
+    ['Test your skills: Flexbox', 'https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox_skills'],
+    ['Basic concepts of flexbox', 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox'],
+    ['What Happens When You Create A Flexbox Flex Container?', 'https://www.smashingmagazine.com/2018/08/flexbox-display-flex-container/'],
+    ['A Complete Guide to Flexbox', 'https://css-tricks.com/snippets/css/a-guide-to-flexbox/'],
+  ],
+  '02/78': htmlResources,
+}).map(([key, resources]) => [key, resources.map(([title, url]) => ({ title, url }))]))
+
 export function rebuildImportedSlide(slide, exerciseNumber) {
+  const resources = nativeResources[`${String(exerciseNumber).padStart(2, '0')}/${slide.number}`]
+  if (resources) return { ...slide, blocks: [{ kind: 'resources', resources }], revision: 'native-reconstruction' }
   const result = { ...slide, blocks: slide.blocks.map(block => {
     if (block.kind !== 'image') return block
     const key = block.src.split('/').pop(), entry = nativeExamples[key]
@@ -67,7 +94,6 @@ export const nativeExamples = {
   '01-062-diagram.webp': record(table(['Selettore','Condizione'], [['a[rel]','Attributo rel presente'],['a[rel=nofollow]','Valore esattamente nofollow'],['a[title~=notizie]','Il valore contiene la parola notizie'],['a[rel*=no]','Il valore contiene la stringa no']]), 'Quattro operatori di selezione degli attributi ricostruiti come tabella.'),
   '01-063-diagram.webp': record(`${code('p, div, a.class1 {\n  background-color: yellow;\n}')}${flow('Tutti i p','Tutti i div','Gli a con classe class1')}`, 'La virgola raggruppa selettori; non indica una relazione di discendenza.'),
   'f7c30abe2a1b2b98dad2.jpg': record(columns(...['Home','Pagina 2','Pagina 3'].map(title => `<nav class="native-result"><a class="link" href="#home">Home</a>　<a class="link" href="#pagina2">Pagina 2</a>　<a class="link" href="#pagina3">Pagina 3</a><h2>${title}</h2><p>Contenuto della pagina</p></nav>`)), 'Il modello dell’esercizio mantiene tre pagine collegate con la stessa navigazione.'),
-  '72486c8220e08ef98523.png': record(`<div class="native-resource"><strong>Cercare, leggere, provare</strong><p>Riprendi i riferimenti collegati nella slide precedente.</p><p>HTML elements reference · CSS selectors reference · CSS selector tester · FreeCodeCamp · Google</p></div>`, 'I riferimenti restano collegamenti selezionabili nelle slide del percorso; il logo decorativo è archiviato.'),
   '02-009-diagram.webp': record(`${table(['Selettore','ID','Classi, attributi, pseudoclassi','Tipi'], [['ul#primary-nav li.active','1','1','2'],['ul.active > p.fake-class','0','2','2']])}<p>Si confrontano le colonne da sinistra: (1, 1, 2) precede (0, 2, 2).</p>`, 'Gli esempi della fonte sono mantenuti; la specificità è un confronto fra tuple, non una somma decimale.'),
   'e6e12663edf18cd33e89.png': record(columns(`${label('content-box')}<div class="native-box-sizing" style="box-sizing:content-box">100 × 100</div><p>100px + 10px + 10px = 120px</p>`,`${label('border-box')}<div class="native-box-sizing" style="box-sizing:border-box">80 × 80</div><p>100px complessivi, padding incluso</p>`), 'Stessa width: 100px e padding: 10px; senza bordi. Ricostruzione dello schema accreditato a webriderz.com nella fonte.'),
   '02-023-diagram.webp': record(columns(...['static','relative','absolute','fixed'].map(position => `${label(`position: ${position}`)}<div class="native-position"><span>A</span><span style="position:${position === 'fixed' ? 'absolute' : position};${position === 'static' ? '' : 'top:24px;left:30px;'}">B</span><span>C</span></div>`)), 'Il riquadro fixed è schematizzato rispetto al viewport dell’esempio; relative conserva il proprio posto nel flusso.'),
@@ -116,24 +142,26 @@ p,h2,ul,ol,pre{margin:0}p{line-height:1.35}h2{font-size:28px;font-weight:700}a{c
 .native-rows{display:grid;gap:18px}.native-rows .native-flex{min-height:54px;padding:8px}.native-flow{display:flex;align-items:stretch;justify-content:space-between;gap:24px;list-style:none;padding:0}.native-flow li{position:relative;display:flex;flex:1;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:18px 10px;background:var(--color-base-200);min-height:120px}.native-flow li+li:before{content:'→';position:absolute;left:-22px;top:45%;color:var(--color-primary)}
 .native-form{display:flex;flex-wrap:wrap;gap:20px;align-items:center}.native-form output{flex-basis:100%;font-size:20px}.native-links{display:flex;align-items:center;justify-content:space-around;gap:24px}.native-links a{padding:30px;background:var(--color-base-200)}
 .native-bars{display:grid;gap:7px}.native-bars>div{display:grid;grid-template-columns:190px 1fr 85px;gap:14px;align-items:center;font-size:18px;line-height:1.2}.native-bar-track{background:var(--color-base-200);height:19px}.native-bar-track>span{display:block;height:100%;background:var(--color-primary)}
-.native-nesting{padding:15px;background:var(--color-base-200)}.native-nesting>div{margin:10px 0 0 24px;padding:10px 18px;border-left:3px solid var(--color-primary)}.native-nesting>div>div{margin:8px 0 0 24px}.native-resource{text-align:center;display:grid;gap:24px}.native-resource strong{font-size:34px}
+.native-nesting{padding:15px;background:var(--color-base-200)}.native-nesting>div{margin:10px 0 0 24px;padding:10px 18px;border-left:3px solid var(--color-primary)}.native-nesting>div>div{margin:8px 0 0 24px}
 .native-box-sizing{width:100px;height:100px;padding:10px;background:var(--color-primary);color:var(--color-primary-content);font-size:14px;outline:10px solid var(--color-base-200);margin:20px}
 .native-position{position:relative;display:flex;gap:8px;height:170px;background:var(--color-base-200);padding:16px}.native-position span{width:44px;height:44px;background:var(--color-primary);color:var(--color-primary-content);display:grid;place-items:center}.native-position span:nth-child(2){background:var(--color-accent);color:var(--color-accent-content)}
 .native-placeholder{display:grid;place-items:center;background:var(--color-base-300);color:var(--color-base-content)}.native-float{line-height:1.6;background:var(--color-base-200);padding:26px}
 .native-grid-lines{position:relative;padding:10px 30px}.native-grid{height:270px;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:2fr 5fr 3fr;gap:10px;background:var(--color-base-200);padding:10px}.native-grid .native-item{padding:0;min-height:0}.native-col-names{display:flex;justify-content:space-between;margin-top:14px;font:20px ui-monospace,monospace}.native-grid-lines p{margin-top:12px}
 .native-fluid{width:90%;padding:25px;background:var(--color-base-200)}.native-adaptive{width:85%;padding:14px;margin-top:10px;background:var(--color-base-200)}.native-adaptive+.native-adaptive{width:65%}.native-checker{height:160px;display:grid;place-items:center;background-color:var(--color-base-100);background-image:linear-gradient(var(--color-base-300) 1px,transparent 1px),linear-gradient(90deg,var(--color-base-300) 1px,transparent 1px)}
 .native-placement{height:290px;display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:1fr 2fr 1fr;gap:12px;padding:14px;background:var(--color-base-200)}.native-placement>span{min-height:0;min-width:0}.native-source-page{display:grid;gap:14px}.native-source-page header{background:var(--color-base-200);padding:18px 25% 18px 15%}.native-source-page header p{font-size:18px;line-height:1.3}.native-source-body{display:grid;grid-template-columns:22% 1fr 20%;gap:14px}.native-source-body>aside{display:grid;place-items:center;background:var(--color-base-200);padding:10px;font-size:18px}.native-source-body>aside>span{font-size:36px}.native-source-regions{height:110px;display:grid;grid-template-columns:1.6fr 1fr;grid-template-rows:2fr 1fr;gap:10px}.native-source-regions span{display:grid;place-items:center;background:var(--color-base-200);border:1px solid var(--color-primary)}.native-source-regions span:nth-child(3){grid-column:2;grid-row:1 / span 2}.native-source-mobile{width:360px;margin:auto;display:grid;gap:12px}.native-source-mobile>div:not(.mobile){padding:14px;background:var(--color-base-200);font-size:20px}.native-source-mobile aside{display:grid;gap:12px;font-size:24px}.native-source-mobile .native-source-regions{display:flex;flex-direction:column;height:170px}.native-source-mobile .native-source-regions span{flex:1}.native-source-mobile>.native-placeholder{height:80px}
+html[data-native-paused] *,html[data-native-paused] *:before,html[data-native-paused] *:after{animation-play-state:paused!important}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}}@media print{*,*:before,*:after{animation:none!important;transition:none!important}}
 `
 
 export function renderNativeDocument(entry, baseCSS, customCSS, themeCSS = '') {
   const css = (entry.custom ? customCSS : baseCSS) + nativeCSS + themeCSS
-  const shell = (body, script = '') => `<!doctype html><html lang="it" data-theme="light"><head><meta charset="utf-8"><style>${css}</style></head><body><main data-native-root>${body}</main>${script}</body></html>`
+  const bridge = `<script>(()=>{document.addEventListener('keydown',event=>{if(event.key!=='Escape'||document.querySelector('dialog[open]'))return;event.preventDefault();parent.postMessage({type:'cvedi-native-escape'},'*')});window.addEventListener('message',event=>{if(event.source===parent&&event.data?.type==='cvedi-native-motion')document.documentElement.toggleAttribute('data-native-paused',event.data.paused===true);if(event.data?.type==='cvedi-native-escape'&&[...document.querySelectorAll('iframe')].some(frame=>frame.contentWindow===event.source))parent.postMessage({type:'cvedi-native-escape'},'*')})})()</script>`
+  const shell = (body, script = '') => `<!doctype html><html lang="it" data-theme="light"><head><meta charset="utf-8"><style>${css}</style></head><body><main data-native-root>${body}</main>${bridge}${script}</body></html>`
   if (entry.comparison) {
     const doc = escapeHTML(shell(entry.html))
     return shell(`<div style="display:flex;gap:16px;align-items:start"><section><p>Viewport: 780px</p><iframe title="Viewport ampio" style="border:0;width:780px;height:300px" srcdoc="${doc}"></iframe></section><section><p>Viewport: 300px</p><iframe title="Viewport stretto" style="border:0;width:300px;height:300px" srcdoc="${doc}"></iframe></section></div>`)
   }
   const observer = `const main=document.querySelector('main');function measure(){parent.postMessage({type:'cvedi-native-height',height:Math.ceil(main.scrollHeight)},'*')}new ResizeObserver(measure).observe(main);requestAnimationFrame(measure);`
-  const script = `<script>(()=>{document.querySelectorAll('form').forEach(form=>form.addEventListener('submit',event=>{if(form.method==='dialog')return;event.preventDefault();const output=form.querySelector('output');if(output)output.textContent='Dati ricevuti nell’esempio locale.'}));${entry.modal ? `document.querySelector('main').style.height='396px';document.getElementById('${entry.modal}').showModal();` : ''}${observer}})()</script>`
+  const script = `<script>(()=>{document.querySelectorAll('form').forEach(form=>form.addEventListener('submit',event=>{if(form.method==='dialog')return;event.preventDefault();const output=form.querySelector('output');if(output)output.textContent='Dati ricevuti nell’esempio locale.'}));${entry.modal ? `document.querySelector('main').style.height='396px';const dialog=document.getElementById('${entry.modal}'),print=matchMedia('print');let openedForPrint=false;function printDialog(){if(print.matches&&!dialog.open){openedForPrint=true;dialog.showModal()}else if(!print.matches&&openedForPrint){dialog.close();openedForPrint=false}}print.addEventListener('change',printDialog);printDialog();` : ''}${observer}})()</script>`
   return shell(entry.html, script)
 }

@@ -51,6 +51,11 @@ export async function checkExerciseSources() {
       }
       assert.deepEqual(slides, expected, 'reconstruction matches the native specification and preserves other blocks')
       assert.ok(slides.every(slide => slide.blocks.every(block => block.kind !== 'image')), 'exercise slides contain no bitmap content')
+      for (const slide of slides.filter(slide => slide.blocks.some(block => block.kind === 'resources'))) {
+        const page = source.find(page => page.sourceSlide === slide.sourceSlide)
+        const links = page.blocks.flatMap(block => block.paragraphs?.flatMap(paragraph => paragraph.runs.filter(run => run.href).map(run => ({ title: run.text, url: run.href }))) || [])
+        assert.deepEqual(slide.blocks.flatMap(block => block.resources || []), links, 'resource lists preserve the labels, order and destinations of their own source page')
+      }
     }
     let preserved = imported
     if (exercise.replacement) {

@@ -3568,14 +3568,38 @@
     "renderer": "components/ExerciseNative.vue",
     "sourceBitmapsActive": 0,
     "verification": {
-      "status": "passed",
-      "nativeExamples": 83,
-      "renderedChecks": 1488,
-      "rasterImagesActive": 0,
-      "examples": "reports/native-exercises/native-report.json",
-      "rendering": "reports/esercitazioni/render-report.json",
+      "layout": "reports/esercitazioni/render-report.json",
+      "nativeExamples": 82,
+      "nativeReport": "reports/native-exercises/native-report.json",
+      "resourceSlides": [
+        "01/107",
+        "02/76",
+        "02/78"
+      ],
       "interactions": "reports/frameworks/examples-check.json",
-      "publication": "reports/esercitazioni/index-report.json"
+      "review": "reports/exercise-review/report.md",
+      "focusedProfiles": "reports/exercise-review/after.json",
+      "renderedChecks": 1488,
+      "focusedChecks": 55,
+      "profiles": [
+        "desktop 1280×720",
+        "narrow 390×844",
+        "print 1280×720"
+      ],
+      "additionalProfiles": [
+        "tablet 768×1024",
+        "wide 1920×1080"
+      ],
+      "detector": "reports/exercise-review/detector.json",
+      "checks": [
+        "pnpm check:source",
+        "pnpm build",
+        "pnpm check:exercise-native",
+        "pnpm check:frameworks",
+        "pnpm check:exercises",
+        "pnpm check:decks",
+        "pnpm check:publication dist"
+      ]
     }
   }
 }

@@ -314,7 +314,7 @@
     "blocks": [
       {
         "kind": "code",
-        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\" {\n  themes: light --default, dark;\n}\n/* Il tema scuro è disponibile; qui non è selezionato automaticamente. */"
+        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\" { themes: light --default, dark; }\n@plugin \"daisyui/theme\" {\n  name: \"light\";\n  --color-secondary-content: oklch(12.9% 0.042 264.695);\n  --color-accent-content: oklch(26.2% 0.051 172.552);\n  --color-error: oklch(50.5% 0.213 27.518);\n  --color-error-content: oklch(100% 0 0);\n}\n@plugin \"daisyui/theme\" {\n  name: \"dark\";\n  --color-primary-content: oklch(100% 0 0);\n}"
       }
     ],
     "sources": [
@@ -322,6 +322,11 @@
         "id": "config",
         "title": "daisyUI · configurazione",
         "url": "https://daisyui.com/docs/config/"
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
       }
     ],
     "number": 11,
@@ -399,10 +404,10 @@
             ]
           },
           {
-            "text": "Controlla il testo, i bordi e gli stati, non soltanto il campione di colore isolato.",
+            "text": "La configurazione degli esempi modifica secondary-content, accent-content, error ed error-content nel tema chiaro e primary-content nel tema scuro per rendere leggibili queste coppie. Verifica anche gli stati.",
             "runs": [
               {
-                "text": "Controlla il testo, i bordi e gli stati, non soltanto il campione di colore isolato."
+                "text": "La configurazione degli esempi modifica secondary-content, accent-content, error ed error-content nel tema chiaro e primary-content nel tema scuro per rendere leggibili queste coppie. Verifica anche gli stati."
               }
             ]
           }
@@ -414,6 +419,11 @@
         "id": "colors",
         "title": "daisyUI · colori semantici",
         "url": "https://daisyui.com/docs/colors/"
+      },
+      {
+        "id": "contrast",
+        "title": "W3C · contrasto del testo",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
       }
     ],
     "number": 14,

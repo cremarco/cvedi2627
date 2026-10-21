@@ -4,7 +4,7 @@ import ExerciseNative from './ExerciseNative.vue'
 
 interface Run { text: string; href?: string; bold?: boolean; italic?: boolean; underline?: boolean; mono?: boolean }
 interface Paragraph { text: string; runs: Run[]; bullet?: boolean; level?: number }
-interface Block { kind: string; text?: string; paragraphs?: Paragraph[]; rows?: string[][]; src?: string; alt?: string; caption?: string; example?: string }
+interface Block { kind: string; text?: string; paragraphs?: Paragraph[]; rows?: string[][]; src?: string; alt?: string; caption?: string; example?: string; resources?: { title: string; url: string }[] }
 interface ExerciseSlide { number: number; sourceSlide: number | null; sourceKind?: string; part: number; parts: number; kind: string; blocks: Block[]; sources?: { title: string; url: string }[]; credit?: string }
 const props = defineProps<{ exercise: string; slide: number }>()
 const files = import.meta.glob('../data/esercitazioni/*.json', { import: 'default' })
@@ -35,6 +35,12 @@ const content = computed(() => slides.value.find(slide => slide.number === props
       </div>
       <table v-else-if="block.kind === 'table'" class="table exercise-table"><tbody><tr v-for="(row, y) in block.rows" :key="y"><component :is="y === 0 ? 'th' : 'td'" v-for="(cell, x) in row" :key="x" :scope="y === 0 ? 'col' : undefined">{{ cell }}</component></tr></tbody></table>
       <ExerciseNative v-else-if="block.kind === 'native' && block.example" :example="block.example" :caption="block.caption" />
+      <div v-else-if="block.kind === 'resources'" class="exercise-resource-group">
+        <ul class="list exercise-resources">
+          <li v-for="resource in block.resources" :key="resource.url" class="list-row"><a class="link" :href="resource.url" target="_blank" rel="noopener noreferrer">{{ resource.title }}<span class="sr-only"> (si apre in una nuova scheda)</span></a></li>
+        </ul>
+        <p class="exercise-resource-hint">I collegamenti si aprono in una nuova scheda.</p>
+      </div>
     </template>
     <p v-if="content.kind === 'closing'" class="lead">{{ content.credit || 'Elia Guarnieri · elia.guarnieri@unimib.it' }}</p>
     <p v-if="content.sources?.length" class="exercise-sources">
