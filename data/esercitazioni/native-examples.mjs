@@ -1,8 +1,9 @@
 // Transcriptions and native reconstructions of the retained teaching figures.
 // Text and code remain DOM nodes; no source slide is used as a bitmap.
+import { highlightExerciseCode, exerciseCodeLanguage } from '../../utils/exercise-code.mjs'
 export const escapeHTML = text => String(text).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;')
 const e = escapeHTML
-const code = value => `<div class="mockup-code"><pre><code>${e(value)}</code></pre></div>`
+const code = value => `<div class="mockup-code"><pre><code data-language="${exerciseCodeLanguage(value)}">${highlightExerciseCode(value)}</code></pre></div>`
 const columns = (...items) => `<div class="native-columns" style="--columns:${items.length}">${items.map(item => `<section>${item}</section>`).join('')}</div>`
 const label = text => `<p class="native-label">${e(text)}</p>`
 const pair = (source, result) => columns(code(source), `<div class="native-result">${result}</div>`)
@@ -136,7 +137,7 @@ main{box-sizing:border-box;width:100%;padding:10px 16px;display:flex;flex-direct
 @layer base{p,h2,ul,ol,pre{margin:0}p{line-height:1.35}h2{font-size:28px;font-weight:700}a{color:var(--color-primary)}}
 .native-columns{display:grid;grid-template-columns:repeat(var(--columns),minmax(0,1fr));gap:28px;align-items:center}.native-columns>section{min-width:0;display:flex;flex-direction:column;gap:14px}
 .native-label{font-size:19px;font-weight:600}.native-result{padding:24px;background:var(--color-base-200);line-height:1.5}
-.mockup-code{padding:12px 18px;font-size:19px;min-width:0}.mockup-code pre{padding:0;white-space:pre-wrap;overflow-wrap:anywhere;min-width:0;font:19px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace}.mockup-code pre:before{display:none}.mockup-code code{font:inherit}
+.mockup-code{padding:12px 18px;font-size:19px;min-width:0;print-color-adjust:exact}.mockup-code pre{padding:0;white-space:pre-wrap;overflow-wrap:anywhere;min-width:0;font:19px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace}.mockup-code pre:before{display:none}.mockup-code code{font:inherit}
 .table :is(th,td){padding:10px 14px;font-size:21px;white-space:normal;overflow-wrap:anywhere}.table th{font-weight:700}
 .native-flex{display:flex;gap:12px;min-height:65px;background:var(--color-base-200);padding:12px}.native-item{display:flex;align-items:center;justify-content:center;min-width:40px;min-height:40px;flex-basis:var(--item-basis,65px);background:var(--color-primary);color:var(--color-primary-content);padding:6px}
 .native-rows{display:grid;gap:18px}.native-rows .native-flex{min-height:54px;padding:8px}.native-flow{display:flex;align-items:stretch;justify-content:space-between;gap:24px;list-style:none;padding:0}.native-flow li{position:relative;display:flex;flex:1;flex-direction:column;align-items:center;justify-content:center;gap:12px;text-align:center;padding:18px 10px;background:var(--color-base-200);min-height:120px}.native-flow li+li:before{content:'→';position:absolute;left:-22px;top:45%;color:var(--color-primary)}

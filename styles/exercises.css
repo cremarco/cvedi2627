@@ -16,6 +16,7 @@
 .exercise-content .exercise-code {
   min-width: 0;
   padding: 12px 24px;
+  print-color-adjust: exact;
 }
 /* daisyUI's max-content terminal width must wrap inside the teaching canvas. */
 .exercise-content .exercise-code pre { width: 100%; min-width: 0; max-width: 100%; margin: 0; padding: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: 400 19px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; }

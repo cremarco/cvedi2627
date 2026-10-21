@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, shallowRef, watch } from 'vue'
 import ExerciseNative from './ExerciseNative.vue'
+import { highlightExerciseCode, exerciseCodeLanguage } from '../utils/exercise-code.mjs'
 
 interface Run { text: string; href?: string; bold?: boolean; italic?: boolean; underline?: boolean; mono?: boolean }
 interface Paragraph { text: string; runs: Run[]; bullet?: boolean; level?: number }
@@ -21,7 +22,7 @@ const content = computed(() => slides.value.find(slide => slide.number === props
   <div v-if="content" class="exercise-content" :data-exercise-slide="content.number" :data-source-slide="content.sourceSlide" :data-source-kind="content.sourceKind">
     <span v-if="content.parts > 1" class="badge badge-outline exercise-continuation" :aria-label="`Parte ${content.part} di ${content.parts}`">{{ content.part }} / {{ content.parts }}</span>
     <template v-for="(block, index) in content.blocks" :key="index">
-      <div v-if="block.kind === 'code'" class="mockup-code exercise-code"><pre><code>{{ block.text }}</code></pre></div>
+      <div v-if="block.kind === 'code'" class="mockup-code exercise-code"><pre><code :data-language="exerciseCodeLanguage(block.text)" v-html="highlightExerciseCode(block.text)" /></pre></div>
       <div v-else-if="block.kind === 'text'" class="exercise-copy">
         <template v-for="(paragraph, p) in block.paragraphs" :key="p">
           <component :is="paragraph.bullet ? 'ul' : 'div'" :class="{ 'exercise-list': paragraph.bullet }">
