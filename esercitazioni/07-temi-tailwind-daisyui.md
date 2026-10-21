@@ -95,7 +95,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Lo scope segue la struttura
+# Esempio · Usare un valore di riserva
 
 <ExerciseContent exercise="07" :slide="7" />
 
@@ -109,7 +109,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# :root e @theme hanno compiti diversi
+# Prova · Usare un valore di riserva
 
 <ExerciseContent exercise="07" :slide="8" />
 
@@ -123,7 +123,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Un token Tailwind
+# Lo scope segue la struttura
 
 <ExerciseContent exercise="07" :slide="9" />
 
@@ -137,7 +137,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Il tema daisyUI è un insieme di ruoli
+# Esempio · Ereditare un valore
 
 <ExerciseContent exercise="07" :slide="10" />
 
@@ -151,7 +151,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Abilitare due temi
+# Prova · Ereditare un valore
 
 <ExerciseContent exercise="07" :slide="11" />
 
@@ -165,7 +165,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Applicare il tema a una sezione
+# :root e @theme hanno compiti diversi
 
 <ExerciseContent exercise="07" :slide="12" />
 
@@ -179,7 +179,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Due temi, gli stessi componenti
+# Un token Tailwind
 
 <ExerciseContent exercise="07" :slide="13" />
 
@@ -193,7 +193,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Scegliere le coppie di colore
+# Il tema daisyUI è un insieme di ruoli
 
 <ExerciseContent exercise="07" :slide="14" />
 
@@ -207,7 +207,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Personalizzare un tema esistente
+# Esempio · Ruoli e colori fissi
 
 <ExerciseContent exercise="07" :slide="15" />
 
@@ -221,7 +221,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Personalizzare la geometria
+# Prova · Ruoli e colori fissi
 
 <ExerciseContent exercise="07" :slide="16" />
 
@@ -235,7 +235,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Risultato: primario e geometria
+# Abilitare due temi
 
 <ExerciseContent exercise="07" :slide="17" />
 
@@ -249,7 +249,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Cambiare tema è una scelta dell’interfaccia
+# Applicare il tema a una sezione
 
 <ExerciseContent exercise="07" :slide="18" />
 
@@ -263,7 +263,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Un controllo per il tema scuro
+# Due temi, gli stessi componenti
 
 <ExerciseContent exercise="07" :slide="19" />
 
@@ -277,7 +277,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Verificare il contrasto in entrambi i temi
+# Scegliere le coppie di colore
 
 <ExerciseContent exercise="07" :slide="20" />
 
@@ -291,7 +291,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Laboratorio · costruire una variante
+# Personalizzare un tema esistente
 
 <ExerciseContent exercise="07" :slide="21" />
 
@@ -305,7 +305,7 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Rivedere il sistema
+# Personalizzare la geometria
 
 <ExerciseContent exercise="07" :slide="22" />
 
@@ -319,6 +319,146 @@ sourceKind: official-docs
 footer: Esercitazione 07 · CVeDI 2026/27
 ---
 
-# Fine esercitazione 07
+# Esempio · Cambiare la geometria
 
 <ExerciseContent exercise="07" :slide="23" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 24
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Prova · Cambiare la geometria
+
+<ExerciseContent exercise="07" :slide="24" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 25
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Risultato: primario e geometria
+
+<ExerciseContent exercise="07" :slide="25" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 26
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Cambiare tema è una scelta dell’interfaccia
+
+<ExerciseContent exercise="07" :slide="26" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 27
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Un controllo per il tema scuro
+
+<ExerciseContent exercise="07" :slide="27" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 28
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Esempio · Provare il cambio di tema
+
+<ExerciseContent exercise="07" :slide="28" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 29
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Prova · Provare il cambio di tema
+
+<ExerciseContent exercise="07" :slide="29" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 30
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Verificare il contrasto in entrambi i temi
+
+<ExerciseContent exercise="07" :slide="30" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 31
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Laboratorio · costruire una variante
+
+<ExerciseContent exercise="07" :slide="31" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 32
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Rivedere il sistema
+
+<ExerciseContent exercise="07" :slide="32" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-07
+lessonSlide: 33
+exerciseNumber: 7
+sourceKind: official-docs
+footer: Esercitazione 07 · CVeDI 2026/27
+---
+
+# Fine esercitazione 07
+
+<ExerciseContent exercise="07" :slide="33" />

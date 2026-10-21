@@ -193,7 +193,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Flexbox: da colonna a riga
+# Esempio · Padding e gap
 
 <ExerciseContent exercise="05" :slide="14" />
 
@@ -207,7 +207,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Risultato: una riga flessibile
+# Prova · Padding e gap
 
 <ExerciseContent exercise="05" :slide="15" />
 
@@ -221,7 +221,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Grid: tre colonne quando c’è spazio
+# Flexbox: da colonna a riga
 
 <ExerciseContent exercise="05" :slide="16" />
 
@@ -235,7 +235,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Risultato: struttura in colonne
+# Risultato: una riga flessibile
 
 <ExerciseContent exercise="05" :slide="17" />
 
@@ -249,7 +249,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Mobile-first: la base non ha prefisso
+# Esempio · Distribuire lo spazio
 
 <ExerciseContent exercise="05" :slide="18" />
 
@@ -263,7 +263,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# I breakpoint predefiniti
+# Prova · Distribuire lo spazio
 
 <ExerciseContent exercise="05" :slide="19" />
 
@@ -277,7 +277,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Stesso contenuto, due disposizioni
+# Esempio · Far andare a capo
 
 <ExerciseContent exercise="05" :slide="20" />
 
@@ -291,7 +291,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Risultato: viewport ampio e stretto
+# Prova · Far andare a capo
 
 <ExerciseContent exercise="05" :slide="21" />
 
@@ -305,7 +305,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Contenere la larghezza
+# Grid: tre colonne quando c’è spazio
 
 <ExerciseContent exercise="05" :slide="22" />
 
@@ -319,7 +319,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# La tipografia è una gerarchia
+# Risultato: struttura in colonne
 
 <ExerciseContent exercise="05" :slide="23" />
 
@@ -333,7 +333,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Titolo e paragrafo
+# Esempio · Occupare più colonne
 
 <ExerciseContent exercise="05" :slide="24" />
 
@@ -347,7 +347,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Hover e focus sono stati diversi
+# Prova · Occupare più colonne
 
 <ExerciseContent exercise="05" :slide="25" />
 
@@ -361,7 +361,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Risultato: focus da tastiera
+# Mobile-first: la base non ha prefisso
 
 <ExerciseContent exercise="05" :slide="26" />
 
@@ -375,7 +375,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Varianti e preferenze
+# I breakpoint predefiniti
 
 <ExerciseContent exercise="05" :slide="27" />
 
@@ -389,7 +389,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Le classi devono essere riconoscibili
+# Stesso contenuto, due disposizioni
 
 <ExerciseContent exercise="05" :slide="28" />
 
@@ -403,7 +403,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Una mappa statica di classi
+# Risultato: viewport ampio e stretto
 
 <ExerciseContent exercise="05" :slide="29" />
 
@@ -417,7 +417,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Valori specifici senza perdere la regola
+# Esempio · Cambiare con il viewport
 
 <ExerciseContent exercise="05" :slide="30" />
 
@@ -431,7 +431,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Token che producono utility
+# Prova · Cambiare con il viewport
 
 <ExerciseContent exercise="05" :slide="31" />
 
@@ -445,7 +445,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Riuso: prima riconosci la ripetizione
+# Contenere la larghezza
 
 <ExerciseContent exercise="05" :slide="32" />
 
@@ -459,7 +459,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Alternativa: integrazione con Vite
+# La tipografia è una gerarchia
 
 <ExerciseContent exercise="05" :slide="33" />
 
@@ -473,7 +473,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Laboratorio · una scheda responsive
+# Titolo e paragrafo
 
 <ExerciseContent exercise="05" :slide="34" />
 
@@ -487,7 +487,7 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Verifica prima di consegnare
+# Esempio · Costruire la gerarchia
 
 <ExerciseContent exercise="05" :slide="35" />
 
@@ -501,6 +501,174 @@ sourceKind: official-docs
 footer: Esercitazione 05 · CVeDI 2026/27
 ---
 
-# Fine esercitazione 05
+# Prova · Costruire la gerarchia
 
 <ExerciseContent exercise="05" :slide="36" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 37
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Hover e focus sono stati diversi
+
+<ExerciseContent exercise="05" :slide="37" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 38
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Risultato: focus da tastiera
+
+<ExerciseContent exercise="05" :slide="38" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 39
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Varianti e preferenze
+
+<ExerciseContent exercise="05" :slide="39" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 40
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Le classi devono essere riconoscibili
+
+<ExerciseContent exercise="05" :slide="40" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 41
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Una mappa statica di classi
+
+<ExerciseContent exercise="05" :slide="41" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 42
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Valori specifici senza perdere la regola
+
+<ExerciseContent exercise="05" :slide="42" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 43
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Token che producono utility
+
+<ExerciseContent exercise="05" :slide="43" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 44
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Riuso: prima riconosci la ripetizione
+
+<ExerciseContent exercise="05" :slide="44" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 45
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Alternativa: integrazione con Vite
+
+<ExerciseContent exercise="05" :slide="45" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 46
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Laboratorio · una scheda responsive
+
+<ExerciseContent exercise="05" :slide="46" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 47
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Verifica prima di consegnare
+
+<ExerciseContent exercise="05" :slide="47" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-05
+lessonSlide: 48
+exerciseNumber: 5
+sourceKind: official-docs
+footer: Esercitazione 05 · CVeDI 2026/27
+---
+
+# Fine esercitazione 05
+
+<ExerciseContent exercise="05" :slide="48" />

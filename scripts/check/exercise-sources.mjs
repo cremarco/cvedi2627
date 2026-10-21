@@ -3,7 +3,8 @@ import { readFile, readdir } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
-import { curriculum, sources as officialSources } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { curriculum, sources as officialSources, examples } from '../../data/esercitazioni/framework-curriculum.mjs'
+import { workedExamples } from '../../data/esercitazioni/worked-examples.mjs'
 import { nativeExamples, rebuildImportedSlide } from '../../data/esercitazioni/native-examples.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
@@ -22,6 +23,18 @@ export async function checkExerciseSources() {
   for (const image of archivedImages.values()) assert.equal(await digest(image.retained), image.sha256, 'retired documentary assets remain intact')
   const catalog = await json('assets/esercitazioni/tailwind-daisyui/sources.json')
   for (const [id, [title, url]] of Object.entries(officialSources)) assert.deepEqual(catalog.sources.find(source => source.id === id), { id, title, url })
+  assert.deepEqual(catalog.nativeExamples.map(example => example.id), Object.keys(examples), 'every runnable example is catalogued')
+  for (const example of catalog.nativeExamples) {
+    assert.equal(await digest(example.source), example.sourceSha256, 'native HTML matches its catalogued source')
+    assert.ok((await readFile(path.join(root, example.source), 'utf8')).includes(examples[example.id].html), 'catalogued HTML contains the current runnable example')
+  }
+  for (const example of workedExamples) {
+    const slides = curriculum.find(module => module.number === example.module).slides
+    const result = slides.findIndex(slide => slide.blocks.some(block => block.example === `framework:${example.id}`))
+    assert.ok(result > 0 && example.observe && example.task, 'each worked example has an observation and guided task')
+    assert.equal(slides[result - 1].blocks[0].text, example.html, 'the exact running HTML is shown immediately before its result')
+    assert.ok(slides[result].blocks[0].caption.includes(example.task))
+  }
   for (const asset of catalog.assets) {
     assert.equal(await digest(archivedImages.get(asset.web)?.retained || `public${asset.web}`), asset.sha256, 'retained example matches its recorded rendering')
     assert.equal(await digest(asset.original), asset.originalSha256, 'original PNG retained')
@@ -112,7 +125,7 @@ export async function checkExerciseSources() {
   assert.equal(total, manifest.slideCount)
   const publicImages = await readdir(path.join(root, 'public/images/esercitazioni')).catch(error => { if (error.code === 'ENOENT') return []; throw error })
   assert.deepEqual(publicImages.sort(), [...usedImages].sort(), 'no unused extracted media are published locally')
-  return { originals: manifest.sourceSlides, adapted: total, images: usedImages.size, links, rewritten: curriculum.reduce((sum, module) => sum + module.slides.length, 0), officialSources: catalog.sources.length, examples: catalog.assets.length, nativeSlides: manifest.nativeRebuild?.slides || 0 }
+  return { originals: manifest.sourceSlides, adapted: total, images: usedImages.size, links, rewritten: curriculum.reduce((sum, module) => sum + module.slides.length, 0), officialSources: catalog.sources.length, examples: catalog.nativeExamples.length, archivedExamples: catalog.assets.length, workedExamples: workedExamples.length, nativeSlides: manifest.nativeRebuild?.slides || 0 }
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) console.log(await checkExerciseSources())

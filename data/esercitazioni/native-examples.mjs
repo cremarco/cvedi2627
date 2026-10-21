@@ -133,7 +133,7 @@ export const nativeExamples = {
 export const nativeCSS = `
 html{font-size:22px;color-scheme:light;background:transparent}body{margin:0;background:transparent;color:var(--color-base-content);font-family:ui-sans-serif,system-ui,sans-serif}
 main{box-sizing:border-box;width:100%;padding:10px 16px;display:flex;flex-direction:column;justify-content:center;gap:18px}main>div,main>section,main>table,main>ol,main>form{width:100%}
-p,h2,ul,ol,pre{margin:0}p{line-height:1.35}h2{font-size:28px;font-weight:700}a{color:var(--color-primary)}
+@layer base{p,h2,ul,ol,pre{margin:0}p{line-height:1.35}h2{font-size:28px;font-weight:700}a{color:var(--color-primary)}}
 .native-columns{display:grid;grid-template-columns:repeat(var(--columns),minmax(0,1fr));gap:28px;align-items:center}.native-columns>section{min-width:0;display:flex;flex-direction:column;gap:14px}
 .native-label{font-size:19px;font-weight:600}.native-result{padding:24px;background:var(--color-base-200);line-height:1.5}
 .mockup-code{padding:12px 18px;font-size:19px;min-width:0}.mockup-code pre{padding:0;white-space:pre-wrap;overflow-wrap:anywhere;min-width:0;font:19px/1.4 ui-monospace,SFMono-Regular,Consolas,monospace}.mockup-code pre:before{display:none}.mockup-code code{font:inherit}
@@ -156,7 +156,7 @@ html[data-native-paused] *,html[data-native-paused] *:before,html[data-native-pa
 export function renderNativeDocument(entry, baseCSS, customCSS, themeCSS = '') {
   const css = (entry.custom ? customCSS : baseCSS) + nativeCSS + themeCSS
   const bridge = `<script>(()=>{document.addEventListener('keydown',event=>{if(event.key!=='Escape'||document.querySelector('dialog[open]'))return;event.preventDefault();parent.postMessage({type:'cvedi-native-escape'},'*')});window.addEventListener('message',event=>{if(event.source===parent&&event.data?.type==='cvedi-native-motion')document.documentElement.toggleAttribute('data-native-paused',event.data.paused===true);if(event.data?.type==='cvedi-native-escape'&&[...document.querySelectorAll('iframe')].some(frame=>frame.contentWindow===event.source))parent.postMessage({type:'cvedi-native-escape'},'*')})})()</script>`
-  const shell = (body, script = '') => `<!doctype html><html lang="it" data-theme="light"><head><meta charset="utf-8"><style>${css}</style></head><body><main data-native-root>${body}</main>${bridge}${script}</body></html>`
+  const shell = (body, script = '') => `<!doctype html><html lang="it" data-theme="light"><head><meta charset="utf-8"><base href="about:srcdoc"><style>${css}</style></head><body><main data-native-root>${body}</main>${bridge}${script}</body></html>`
   if (entry.comparison) {
     const doc = escapeHTML(shell(entry.html))
     return shell(`<div style="display:flex;gap:16px;align-items:start"><section><p>Viewport: 780px</p><iframe title="Viewport ampio" style="border:0;width:780px;height:300px" srcdoc="${doc}"></iframe></section><section><p>Viewport: 300px</p><iframe title="Viewport stretto" style="border:0;width:300px;height:300px" srcdoc="${doc}"></iframe></section></div>`)

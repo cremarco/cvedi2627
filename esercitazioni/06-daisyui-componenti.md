@@ -95,7 +95,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Colori legati al ruolo
+# Esempio · Azione o destinazione?
 
 <ExerciseContent exercise="06" :slide="7" />
 
@@ -109,7 +109,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Tre ruoli, tre classi
+# Prova · Azione o destinazione?
 
 <ExerciseContent exercise="06" :slide="8" />
 
@@ -123,7 +123,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Risultato: ruoli riconoscibili
+# Colori legati al ruolo
 
 <ExerciseContent exercise="06" :slide="9" />
 
@@ -137,7 +137,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Button: azione e priorità
+# Tre ruoli, tre classi
 
 <ExerciseContent exercise="06" :slide="10" />
 
@@ -151,7 +151,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Button: struttura
+# Risultato: ruoli riconoscibili
 
 <ExerciseContent exercise="06" :slide="11" />
 
@@ -165,7 +165,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Button: risultato
+# Button: azione e priorità
 
 <ExerciseContent exercise="06" :slide="12" />
 
@@ -179,7 +179,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Card: un contenuto con un confine
+# Button: struttura
 
 <ExerciseContent exercise="06" :slide="13" />
 
@@ -193,7 +193,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Card: struttura
+# Button: risultato
 
 <ExerciseContent exercise="06" :slide="14" />
 
@@ -207,7 +207,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Card: risultato
+# Esempio · Dare priorità a un’azione
 
 <ExerciseContent exercise="06" :slide="15" />
 
@@ -221,7 +221,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Più card: il layout resta a Tailwind
+# Prova · Dare priorità a un’azione
 
 <ExerciseContent exercise="06" :slide="16" />
 
@@ -235,7 +235,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Alert: spiegare un evento
+# Card: un contenuto con un confine
 
 <ExerciseContent exercise="06" :slide="17" />
 
@@ -249,7 +249,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Alert: un messaggio comprensibile
+# Card: struttura
 
 <ExerciseContent exercise="06" :slide="18" />
 
@@ -263,7 +263,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Alert: risultato
+# Card: risultato
 
 <ExerciseContent exercise="06" :slide="19" />
 
@@ -277,7 +277,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Form: iniziare dalle etichette
+# Più card: il layout resta a Tailwind
 
 <ExerciseContent exercise="06" :slide="20" />
 
@@ -291,7 +291,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Form: struttura essenziale
+# Alert: spiegare un evento
 
 <ExerciseContent exercise="06" :slide="21" />
 
@@ -305,7 +305,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Form: risultato
+# Alert: un messaggio comprensibile
 
 <ExerciseContent exercise="06" :slide="22" />
 
@@ -319,7 +319,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Validazione: tre responsabilità
+# Alert: risultato
 
 <ExerciseContent exercise="06" :slide="23" />
 
@@ -333,7 +333,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Errore: uno stato esplicito
+# Esempio · Spiegare tre stati
 
 <ExerciseContent exercise="06" :slide="24" />
 
@@ -347,7 +347,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Errore: risultato
+# Prova · Spiegare tre stati
 
 <ExerciseContent exercise="06" :slide="25" />
 
@@ -361,7 +361,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Scelte: controlli nativi
+# Form: iniziare dalle etichette
 
 <ExerciseContent exercise="06" :slide="26" />
 
@@ -375,7 +375,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Scelte: struttura
+# Form: struttura essenziale
 
 <ExerciseContent exercise="06" :slide="27" />
 
@@ -389,7 +389,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Scelte: risultato
+# Form: risultato
 
 <ExerciseContent exercise="06" :slide="28" />
 
@@ -403,7 +403,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Navigazione: una destinazione reale
+# Esempio · Aiutare prima dell’errore
 
 <ExerciseContent exercise="06" :slide="29" />
 
@@ -417,7 +417,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Navbar: struttura
+# Prova · Aiutare prima dell’errore
 
 <ExerciseContent exercise="06" :slide="30" />
 
@@ -431,7 +431,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Navbar: risultato
+# Validazione: tre responsabilità
 
 <ExerciseContent exercise="06" :slide="31" />
 
@@ -445,7 +445,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Breadcrumbs: dove mi trovo
+# Errore: uno stato esplicito
 
 <ExerciseContent exercise="06" :slide="32" />
 
@@ -459,7 +459,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Breadcrumbs: struttura
+# Errore: risultato
 
 <ExerciseContent exercise="06" :slide="33" />
 
@@ -473,7 +473,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Breadcrumbs: risultato
+# Scelte: controlli nativi
 
 <ExerciseContent exercise="06" :slide="34" />
 
@@ -487,7 +487,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Dropdown: aprire una scelta
+# Scelte: struttura
 
 <ExerciseContent exercise="06" :slide="35" />
 
@@ -501,7 +501,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Dropdown: struttura aperta
+# Scelte: risultato
 
 <ExerciseContent exercise="06" :slide="36" />
 
@@ -515,7 +515,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Dropdown: risultato aperto
+# Esempio · Una scelta o più scelte?
 
 <ExerciseContent exercise="06" :slide="37" />
 
@@ -529,7 +529,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Disclosure: mostrare un approfondimento
+# Prova · Una scelta o più scelte?
 
 <ExerciseContent exercise="06" :slide="38" />
 
@@ -543,7 +543,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Disclosure: struttura aperta
+# Navigazione: una destinazione reale
 
 <ExerciseContent exercise="06" :slide="39" />
 
@@ -557,7 +557,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Disclosure: risultato aperto
+# Navbar: struttura
 
 <ExerciseContent exercise="06" :slide="40" />
 
@@ -571,7 +571,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Modal: un’interruzione motivata
+# Navbar: risultato
 
 <ExerciseContent exercise="06" :slide="41" />
 
@@ -585,7 +585,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Modal: apertura e chiusura native
+# Breadcrumbs: dove mi trovo
 
 <ExerciseContent exercise="06" :slide="42" />
 
@@ -599,7 +599,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Modal: risultato
+# Breadcrumbs: struttura
 
 <ExerciseContent exercise="06" :slide="43" />
 
@@ -613,7 +613,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Table: relazioni fra dati
+# Breadcrumbs: risultato
 
 <ExerciseContent exercise="06" :slide="44" />
 
@@ -627,7 +627,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Table: struttura
+# Dropdown: aprire una scelta
 
 <ExerciseContent exercise="06" :slide="45" />
 
@@ -641,7 +641,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Table: risultato
+# Dropdown: struttura aperta
 
 <ExerciseContent exercise="06" :slide="46" />
 
@@ -655,7 +655,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Personalizzare con misura
+# Dropdown: risultato aperto
 
 <ExerciseContent exercise="06" :slide="47" />
 
@@ -669,7 +669,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Attesa: impedire il doppio invio
+# Disclosure: mostrare un approfondimento
 
 <ExerciseContent exercise="06" :slide="48" />
 
@@ -683,7 +683,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Attesa: struttura
+# Disclosure: struttura aperta
 
 <ExerciseContent exercise="06" :slide="49" />
 
@@ -697,7 +697,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Attesa: risultato
+# Disclosure: risultato aperto
 
 <ExerciseContent exercise="06" :slide="50" />
 
@@ -711,7 +711,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Laboratorio · comporre un’iscrizione
+# Esempio · Aprire solo ciò che serve
 
 <ExerciseContent exercise="06" :slide="51" />
 
@@ -725,7 +725,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Una verifica con un’altra persona
+# Prova · Aprire solo ciò che serve
 
 <ExerciseContent exercise="06" :slide="52" />
 
@@ -739,7 +739,7 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Risultato: due card in griglia
+# Modal: un’interruzione motivata
 
 <ExerciseContent exercise="06" :slide="53" />
 
@@ -753,6 +753,230 @@ sourceKind: official-docs
 footer: Esercitazione 06 · CVeDI 2026/27
 ---
 
-# Fine esercitazione 06
+# Modal: apertura e chiusura native
 
 <ExerciseContent exercise="06" :slide="54" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 55
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Modal: risultato
+
+<ExerciseContent exercise="06" :slide="55" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 56
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Table: relazioni fra dati
+
+<ExerciseContent exercise="06" :slide="56" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 57
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Table: struttura
+
+<ExerciseContent exercise="06" :slide="57" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 58
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Table: risultato
+
+<ExerciseContent exercise="06" :slide="58" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 59
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Esempio · Leggere dati e stati
+
+<ExerciseContent exercise="06" :slide="59" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 60
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Prova · Leggere dati e stati
+
+<ExerciseContent exercise="06" :slide="60" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 61
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Personalizzare con misura
+
+<ExerciseContent exercise="06" :slide="61" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 62
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Attesa: impedire il doppio invio
+
+<ExerciseContent exercise="06" :slide="62" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 63
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Attesa: struttura
+
+<ExerciseContent exercise="06" :slide="63" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 64
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Attesa: risultato
+
+<ExerciseContent exercise="06" :slide="64" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 65
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Laboratorio · comporre un’iscrizione
+
+<ExerciseContent exercise="06" :slide="65" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 66
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Una verifica con un’altra persona
+
+<ExerciseContent exercise="06" :slide="66" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 67
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Risultato: due card in griglia
+
+<ExerciseContent exercise="06" :slide="67" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 68
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Esempio · Comporre i componenti
+
+<ExerciseContent exercise="06" :slide="68" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 69
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Prova · Comporre i componenti
+
+<ExerciseContent exercise="06" :slide="69" />
+
+---
+layout: default
+class: content-slide exercise-slide reading-slide
+lesson: esercitazione-06
+lessonSlide: 70
+exerciseNumber: 6
+sourceKind: official-docs
+footer: Esercitazione 06 · CVeDI 2026/27
+---
+
+# Fine esercitazione 06
+
+<ExerciseContent exercise="06" :slide="70" />

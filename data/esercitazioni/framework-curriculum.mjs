@@ -1,5 +1,6 @@
 // Original CVeDI teaching material. Official references checked 2026-10-21.
 // Content and runnable examples are independent of the Slidev presentation.
+import { workedExamples } from './worked-examples.mjs'
 const tw = path => `https://tailwindcss.com/docs/${path}`
 const du = path => `https://daisyui.com/${path}/`
 export const sources = {
@@ -39,6 +40,14 @@ export const sources = {
   variables: ['MDN · custom properties', 'https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties'],
   validation: ['MDN · validazione dei form', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation'],
   contrast: ['W3C · contrasto del testo', 'https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html'],
+  gap: ['Tailwind · gap', tw('gap')],
+  justify: ['Tailwind · justify-content', tw('justify-content')],
+  span: ['Tailwind · grid-column', tw('grid-column')],
+  display: ['Tailwind · display', tw('display')],
+  wrap: ['Tailwind · flex-wrap', tw('flex-wrap')],
+  fieldset: ['daisyUI · Fieldset', du('components/fieldset')],
+  radio: ['daisyUI · Radio', du('components/radio')],
+  badge: ['daisyUI · Badge', du('components/badge')],
 }
 export const snippets = {
   first: `<article class="max-w-xl rounded-xl bg-emerald-50 p-6 text-emerald-950">
@@ -206,7 +215,7 @@ export const exampleThemeOverrides = `@plugin "daisyui/theme" {
 export const exampleThemeSetup = `@import "tailwindcss";
 @plugin "daisyui" { themes: light --default, dark; }
 ${exampleThemeOverrides}`
-const customTheme = `@import "tailwindcss";
+export const customTheme = `@import "tailwindcss";
 @plugin "daisyui";
 @plugin "daisyui/theme" {
   name: "light";
@@ -215,7 +224,9 @@ const customTheme = `@import "tailwindcss";
   --color-primary-content: oklch(98% 0 0);
   --radius-box: 1rem;
 }`
+Object.assign(snippets, Object.fromEntries(workedExamples.map(example => [example.id, example.html])))
 export const examples = Object.fromEntries(Object.entries(snippets).map(([key, html]) => [key, { html }]))
+for (const example of workedExamples) if (example.comparison) examples[example.id].comparison = true
 examples.responsive.comparison = true
 examples.focus.focus = 'a'
 examples.modal.modal = 'avviso'
@@ -359,4 +370,13 @@ export const curriculum = [
   { number: 6, title: 'daisyUI: componenti per le interfacce', slug: 'daisyui-componenti', slides: daisy },
   { number: 7, title: 'Temi con Tailwind CSS e daisyUI', slug: 'temi-tailwind-daisyui', slides: themes },
 ]
+for (const module of curriculum) {
+  const additions = workedExamples.filter(example => example.module === module.number)
+  const anchors = new Set(module.slides.map(slide => slide.title))
+  for (const example of additions) if (!anchors.has(example.after)) throw new Error(`Missing worked-example anchor: ${example.after}`)
+  module.slides = module.slides.flatMap(slide => [slide, ...additions.filter(example => example.after === slide.title).flatMap(example => [
+    C(`Esempio · ${example.title}`, example.html, ...example.sources),
+    I(`Prova · ${example.title}`, example.id, `Osserva: ${example.observe} Prova: ${example.task}`, ...example.sources),
+  ])])
+}
 for (const module of curriculum) module.slides.forEach((slide, index) => Object.assign(slide, { number: index + 1, sourceSlide: null, sourceKind: 'official-docs', revision: 'tailwind-daisyui-2026-10', part: 1, parts: 1 }))

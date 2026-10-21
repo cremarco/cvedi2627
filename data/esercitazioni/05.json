@@ -411,6 +411,63 @@
     "parts": 1
   },
   {
+    "title": "Esempio · Padding e gap",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid items-start gap-6 sm:grid-cols-2\">\n  <section class=\"grid gap-2 bg-base-200 p-2\">\n    <p class=\"bg-base-100 p-2\">p-2 · gap-2</p>\n    <p class=\"bg-base-100 p-2\">Secondo elemento</p>\n  </section>\n  <section class=\"grid gap-6 bg-base-200 p-6\">\n    <p class=\"bg-base-100 p-2\">p-6 · gap-6</p>\n    <p class=\"bg-base-100 p-2\">Secondo elemento</p>\n  </section>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
+      },
+      {
+        "id": "gap",
+        "title": "Tailwind · gap",
+        "url": "https://tailwindcss.com/docs/gap"
+      }
+    ],
+    "number": 14,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Padding e gap",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: p-* separa il contenuto dal bordo; gap-* separa i figli. Prova: Porta soltanto gap-2 a gap-6: che cosa cambia?",
+        "example": "framework:spacingCompare"
+      }
+    ],
+    "sources": [
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
+      },
+      {
+        "id": "gap",
+        "title": "Tailwind · gap",
+        "url": "https://tailwindcss.com/docs/gap"
+      }
+    ],
+    "number": 15,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
     "title": "Flexbox: da colonna a riga",
     "kind": "content",
     "blocks": [
@@ -431,7 +488,7 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
-    "number": 14,
+    "number": 16,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -460,7 +517,121 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
-    "number": 15,
+    "number": 17,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Distribuire lo spazio",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-6\">\n  <div class=\"flex flex-wrap justify-center gap-3 bg-base-200 p-4\">\n    <span>justify-center</span><span>14:00</span>\n  </div>\n  <div class=\"flex flex-wrap justify-between gap-3 bg-base-200 p-4\">\n    <span>justify-between</span><span>14:00</span>\n  </div>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "justify",
+        "title": "Tailwind · justify-content",
+        "url": "https://tailwindcss.com/docs/justify-content"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 18,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Distribuire lo spazio",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Gli elementi sono uguali; cambia la distribuzione dello spazio libero. Prova: Sostituisci justify-center con justify-end.",
+        "example": "framework:alignmentCompare"
+      }
+    ],
+    "sources": [
+      {
+        "id": "justify",
+        "title": "Tailwind · justify-content",
+        "url": "https://tailwindcss.com/docs/justify-content"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 19,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Far andare a capo",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"mx-auto flex max-w-xl flex-wrap gap-4 bg-base-200 p-4\">\n  <p class=\"basis-64 grow bg-base-100 p-4\">Analisi</p>\n  <p class=\"basis-64 grow bg-base-100 p-4\">Prototipo</p>\n  <p class=\"basis-64 grow bg-base-100 p-4\">Verifica</p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "wrap",
+        "title": "Tailwind · flex-wrap",
+        "url": "https://tailwindcss.com/docs/flex-wrap"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 20,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Far andare a capo",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: flex-wrap crea una nuova riga quando le basi dei tre elementi non entrano. Prova: Togli flex-wrap e confronta le larghezze degli elementi.",
+        "example": "framework:wrappingItems"
+      }
+    ],
+    "sources": [
+      {
+        "id": "wrap",
+        "title": "Tailwind · flex-wrap",
+        "url": "https://tailwindcss.com/docs/flex-wrap"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 21,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -488,7 +659,7 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
-    "number": 16,
+    "number": 22,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -512,7 +683,64 @@
         "url": "https://tailwindcss.com/docs/grid-template-columns"
       }
     ],
-    "number": 17,
+    "number": 23,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Occupare più colonne",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid grid-cols-1 gap-4 sm:grid-cols-3\">\n  <header class=\"bg-base-200 p-4 sm:col-span-3\">Laboratorio</header>\n  <aside class=\"bg-base-200 p-4\">Materiali</aside>\n  <section class=\"bg-base-300 p-4 sm:col-span-2\">Contenuto principale</section>\n  <footer class=\"bg-base-200 p-4 sm:col-span-3\">Contatti</footer>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "span",
+        "title": "Tailwind · grid-column",
+        "url": "https://tailwindcss.com/docs/grid-column"
+      }
+    ],
+    "number": 24,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Occupare più colonne",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Grid crea tre colonne; col-span-2 assegna due colonne al contenuto. Prova: Cambia col-span-2 in col-span-1 e osserva lo spazio libero.",
+        "example": "framework:gridSpans"
+      }
+    ],
+    "sources": [
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "span",
+        "title": "Tailwind · grid-column",
+        "url": "https://tailwindcss.com/docs/grid-column"
+      }
+    ],
+    "number": 25,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -552,7 +780,7 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
-    "number": 18,
+    "number": 26,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -600,7 +828,7 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
-    "number": 19,
+    "number": 27,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -628,7 +856,7 @@
         "url": "https://tailwindcss.com/docs/grid-template-columns"
       }
     ],
-    "number": 20,
+    "number": 28,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -652,7 +880,64 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
-    "number": 21,
+    "number": 29,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Cambiare con il viewport",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<section class=\"grid gap-4 bg-base-200 p-4\">\n  <h2 class=\"text-xl font-bold\">Prossimo laboratorio</h2>\n  <p>Giovedì, ore 14</p>\n  <p class=\"md:hidden\">Apri il programma per i dettagli.</p>\n  <p class=\"hidden md:block\">Aula 12 · porta computer e prototipo.</p>\n</section>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      },
+      {
+        "id": "display",
+        "title": "Tailwind · display",
+        "url": "https://tailwindcss.com/docs/display"
+      }
+    ],
+    "number": 30,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Cambiare con il viewport",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Sotto md compare il messaggio compatto; da md compaiono i dettagli. Prova: Usa lg: al posto di md: e osserva il viewport da 780px.",
+        "example": "framework:responsiveVisibility"
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      },
+      {
+        "id": "display",
+        "title": "Tailwind · display",
+        "url": "https://tailwindcss.com/docs/display"
+      }
+    ],
+    "number": 31,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -680,7 +965,7 @@
         "url": "https://tailwindcss.com/docs/responsive-design"
       }
     ],
-    "number": 22,
+    "number": 32,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -720,7 +1005,7 @@
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
       }
     ],
-    "number": 23,
+    "number": 33,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -743,7 +1028,54 @@
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
       }
     ],
-    "number": 24,
+    "number": 34,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Costruire la gerarchia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-6 sm:grid-cols-2\">\n  <section class=\"bg-base-200 p-4\">\n    <h2 class=\"text-base font-normal\">Materiali del laboratorio</h2>\n    <p class=\"text-base\">Leggi il brief e prepara una domanda.</p>\n  </section>\n  <section class=\"bg-base-200 p-4\">\n    <h2 class=\"text-2xl font-bold leading-tight\">Materiali del laboratorio</h2>\n    <p class=\"mt-4 text-base leading-relaxed\">Leggi il brief e prepara una domanda.</p>\n  </section>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 35,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Costruire la gerarchia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: La seconda versione distingue titolo, testo e distanza fra i blocchi. Prova: Togli font-bold: il titolo resta riconoscibile?",
+        "example": "framework:typeHierarchy"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 36,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -766,7 +1098,7 @@
         "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
       }
     ],
-    "number": 25,
+    "number": 37,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -790,7 +1122,7 @@
         "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
       }
     ],
-    "number": 26,
+    "number": 38,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -830,7 +1162,7 @@
         "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
       }
     ],
-    "number": 27,
+    "number": 39,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -870,7 +1202,7 @@
         "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
       }
     ],
-    "number": 28,
+    "number": 40,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -893,7 +1225,7 @@
         "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
       }
     ],
-    "number": 29,
+    "number": 41,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -916,7 +1248,7 @@
         "url": "https://tailwindcss.com/docs/adding-custom-styles"
       }
     ],
-    "number": 30,
+    "number": 42,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -939,7 +1271,7 @@
         "url": "https://tailwindcss.com/docs/theme"
       }
     ],
-    "number": 31,
+    "number": 43,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -984,7 +1316,7 @@
         "url": "https://daisyui.com/docs/use/"
       }
     ],
-    "number": 32,
+    "number": 44,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -1007,7 +1339,7 @@
         "url": "https://tailwindcss.com/docs/installation/using-vite"
       }
     ],
-    "number": 33,
+    "number": 45,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -1052,7 +1384,7 @@
         "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
       }
     ],
-    "number": 34,
+    "number": 46,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -1097,7 +1429,7 @@
         "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
       }
     ],
-    "number": 35,
+    "number": 47,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -1135,7 +1467,7 @@
       }
     ],
     "credit": "Rielaborazione didattica CVeDI · fonti ufficiali collegate",
-    "number": 36,
+    "number": 48,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",

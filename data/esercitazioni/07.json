@@ -166,6 +166,53 @@
     "parts": 1
   },
   {
+    "title": "Esempio · Usare un valore di riserva",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<style>\n  .campione { background: var(--superficie, var(--color-base-200)); }\n</style>\n<div class=\"grid gap-6 sm:grid-cols-2\">\n  <p class=\"campione p-6\">Variabile assente: entra il fallback.</p>\n  <p class=\"campione p-6\" style=\"--superficie:var(--color-base-300)\">\n    Variabile presente: viene usato il valore locale.\n  </p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 7,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Usare un valore di riserva",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Senza --superficie viene usato base-200; il secondo riquadro ha un valore locale. Prova: Elimina --superficie dal secondo riquadro: quale fondo compare?",
+        "example": "framework:fallbackColor"
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 8,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
     "title": "Lo scope segue la struttura",
     "kind": "content",
     "blocks": [
@@ -198,7 +245,54 @@
         "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
       }
     ],
-    "number": 7,
+    "number": 9,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Ereditare un valore",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<style>.spazio { padding: var(--spazio); }</style>\n<div class=\"grid gap-6 sm:grid-cols-2\" style=\"--spazio:1.5rem\">\n  <article class=\"spazio bg-base-200\">\n    <h2 class=\"text-xl font-bold\">Valore ereditato</h2>\n    <p>--spazio: 1.5rem</p>\n  </article>\n  <article class=\"spazio bg-base-200\" style=\"--spazio:0.5rem\">\n    <h2 class=\"text-xl font-bold\">Valore locale</h2>\n    <p>--spazio: 0.5rem</p>\n  </article>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 10,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Ereditare un valore",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Il primo riquadro eredita 1.5rem; il secondo ridefinisce la variabile a 0.5rem. Prova: Togli la ridefinizione locale e confronta i due spazi.",
+        "example": "framework:inheritedSpacing"
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 11,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -238,7 +332,7 @@
         "url": "https://tailwindcss.com/docs/theme"
       }
     ],
-    "number": 8,
+    "number": 12,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -261,7 +355,7 @@
         "url": "https://tailwindcss.com/docs/theme"
       }
     ],
-    "number": 9,
+    "number": 13,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -301,7 +395,64 @@
         "url": "https://daisyui.com/docs/colors/"
       }
     ],
-    "number": 10,
+    "number": 14,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Ruoli e colori fissi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-4 sm:grid-cols-2\">\n  <section data-theme=\"light\" class=\"grid gap-4 bg-base-100 p-4\">\n    <p class=\"bg-base-200 p-4 text-base-content\">Ruoli · tema chiaro</p>\n    <p class=\"bg-white p-4 text-black\">Colori fissi · bianco e nero</p>\n  </section>\n  <section data-theme=\"dark\" class=\"grid gap-4 bg-base-100 p-4\">\n    <p class=\"bg-base-200 p-4 text-base-content\">Ruoli · tema scuro</p>\n    <p class=\"bg-white p-4 text-black\">Colori fissi · bianco e nero</p>\n  </section>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      }
+    ],
+    "number": 15,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Ruoli e colori fissi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Le superfici base-* seguono il tema; bg-white e text-black restano uguali. Prova: Sostituisci i colori fissi con bg-base-200 e text-base-content.",
+        "example": "framework:semanticThemes"
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      }
+    ],
+    "number": 16,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -329,7 +480,7 @@
         "url": "https://daisyui.com/docs/themes/"
       }
     ],
-    "number": 11,
+    "number": 17,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -352,7 +503,7 @@
         "url": "https://daisyui.com/docs/themes/"
       }
     ],
-    "number": 12,
+    "number": 18,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -381,7 +532,7 @@
         "url": "https://daisyui.com/docs/colors/"
       }
     ],
-    "number": 13,
+    "number": 19,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -426,7 +577,7 @@
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
       }
     ],
-    "number": 14,
+    "number": 20,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -449,7 +600,7 @@
         "url": "https://daisyui.com/docs/themes/"
       }
     ],
-    "number": 15,
+    "number": 21,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -477,7 +628,64 @@
         "url": "https://daisyui.com/docs/config/"
       }
     ],
-    "number": 16,
+    "number": 22,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Cambiare la geometria",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-6 sm:grid-cols-2\">\n  <article class=\"card card-border bg-base-100\" style=\"--radius-box:0rem\">\n    <div class=\"card-body\"><h2 class=\"card-title\">Raggio: 0rem</h2>\n      <p>Contenuto e gerarchia restano gli stessi.</p></div>\n  </article>\n  <article class=\"card card-border bg-base-100\" style=\"--radius-box:1rem\">\n    <div class=\"card-body\"><h2 class=\"card-title\">Raggio: 1rem</h2>\n      <p>Contenuto e gerarchia restano gli stessi.</p></div>\n  </article>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      },
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      }
+    ],
+    "number": 23,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Cambiare la geometria",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: La struttura card è identica; --radius-box cambia gli angoli del contenitore. Prova: Prova 0.5rem al posto di 1rem.",
+        "example": "framework:radiusCompare"
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      },
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      }
+    ],
+    "number": 24,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -506,7 +714,7 @@
         "url": "https://daisyui.com/docs/customize/"
       }
     ],
-    "number": 17,
+    "number": 25,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -546,7 +754,7 @@
         "url": "https://daisyui.com/components/theme-controller/"
       }
     ],
-    "number": 18,
+    "number": 26,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -569,7 +777,64 @@
         "url": "https://daisyui.com/components/theme-controller/"
       }
     ],
-    "number": 19,
+    "number": 27,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Provare il cambio di tema",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-6 rounded-box bg-base-200 p-6 text-base-content\">\n  <label class=\"flex items-center gap-3\">\n    <input type=\"checkbox\" value=\"dark\" class=\"checkbox theme-controller\">\n    Tema scuro\n  </label>\n  <h2 class=\"text-xl font-bold\">Lo stesso laboratorio</h2>\n  <p>Contenuto e azioni mantengono il proprio significato.</p>\n  <button type=\"button\" class=\"btn btn-primary w-fit\">Iscriviti</button>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "controller",
+        "title": "daisyUI · Theme Controller",
+        "url": "https://daisyui.com/components/theme-controller/"
+      },
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 28,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Provare il cambio di tema",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Il controllo cambia le variabili lette da superficie, testo e pulsante. Prova: Seleziona e deseleziona “Tema scuro”: i contenuti cambiano?",
+        "example": "framework:themeSwitch"
+      }
+    ],
+    "sources": [
+      {
+        "id": "controller",
+        "title": "daisyUI · Theme Controller",
+        "url": "https://daisyui.com/components/theme-controller/"
+      },
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 29,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -609,7 +874,7 @@
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
       }
     ],
-    "number": 20,
+    "number": 30,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -654,7 +919,7 @@
         "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
       }
     ],
-    "number": 21,
+    "number": 31,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -699,7 +964,7 @@
         "url": "https://daisyui.com/components/theme-controller/"
       }
     ],
-    "number": 22,
+    "number": 32,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",
@@ -737,7 +1002,7 @@
       }
     ],
     "credit": "Rielaborazione didattica CVeDI · fonti ufficiali collegate",
-    "number": 23,
+    "number": 33,
     "sourceSlide": null,
     "sourceKind": "official-docs",
     "revision": "tailwind-daisyui-2026-10",

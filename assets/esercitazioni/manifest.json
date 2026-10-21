@@ -1603,7 +1603,7 @@
       "sha256": "eb4ac2d8eb392cb4d57e54bd33adce3243915df81eb1d9b4fdc80560b75c155d",
       "pdf": "assets/esercitazioni/originali/05-framework-bootstrap.pdf",
       "pdfSha256": "25b9efa6b1ff88de235645850586ef0353adab09d990c5b6586f5e99cd31f819",
-      "slideCount": 36,
+      "slideCount": 48,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -1884,7 +1884,7 @@
       "sha256": "38d0783c98476ee0b1dcd6b7608e5887eca80cb08152939fe03aa7d565410631",
       "pdf": "assets/esercitazioni/originali/06-bootstrap-componenti.pdf",
       "pdfSha256": "931a2ef87a36b4a38d65669c8ef30b44385099eec0600cb2b62e3e5775cf550a",
-      "slideCount": 54,
+      "slideCount": 70,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -2217,7 +2217,7 @@
       "sha256": "f326ccfd0620dfc166e0557e9b98e674e261906e737c485ac7f2aead74dd0162",
       "pdf": "assets/esercitazioni/originali/07-bootstrap-custom-properties.pdf",
       "pdfSha256": "59aac4b597ee5295951d7525a3e131b0274abda16fb8dfc5b12d20287ead24c2",
-      "slideCount": 23,
+      "slideCount": 33,
       "mapping": [
         {
           "sourceSlide": 1,
@@ -3031,7 +3031,7 @@
     }
   ],
   "sourceSlides": 349,
-  "slideCount": 496,
+  "slideCount": 534,
   "verification": {
     "summary": "reports/esercitazioni/verification.json",
     "sources": "reports/esercitazioni/source-report.json",
@@ -3539,7 +3539,7 @@
     "requested": "Sostituire Bootstrap con Tailwind CSS e daisyUI, arricchendo le slide con fonti online",
     "specification": "data/esercitazioni/framework-curriculum.mjs",
     "catalog": "assets/esercitazioni/tailwind-daisyui/sources.json",
-    "newSlides": 113,
+    "newSlides": 151,
     "archivedOriginalsUnchanged": true,
     "verification": {
       "status": "passed",
@@ -3550,7 +3550,7 @@
         "narrow 390×844",
         "print 1280×720"
       ],
-      "renderedChecks": 1488,
+      "renderedChecks": 1602,
       "checks": [
         "pnpm check:source",
         "pnpm check:decks",
@@ -3559,6 +3559,23 @@
         "pnpm check:frameworks",
         "pnpm check:publication dist"
       ]
+    },
+    "workedExamples": {
+      "specification": "data/esercitazioni/worked-examples.mjs",
+      "scenarios": 19,
+      "addedSlides": 38,
+      "method": "Codice, risultato nativo, osservazione e modifica guidata",
+      "verification": {
+        "status": "passed",
+        "report": "reports/worked-examples/report.md",
+        "desktopPairs": "reports/worked-examples/preview.json",
+        "finalProfiles": "reports/worked-examples/confirmation.json",
+        "renderedChecks": 1602,
+        "finalTargetedChecks": 12,
+        "scenarios": 19,
+        "htmlExamples": 41,
+        "officialSources": 44
+      }
     }
   },
   "nativeRebuild": {
@@ -3568,38 +3585,24 @@
     "renderer": "components/ExerciseNative.vue",
     "sourceBitmapsActive": 0,
     "verification": {
-      "layout": "reports/esercitazioni/render-report.json",
-      "nativeExamples": 82,
+      "status": "passed",
+      "nativeExamples": 101,
       "nativeReport": "reports/native-exercises/native-report.json",
+      "layout": "reports/esercitazioni/render-report.json",
+      "interactions": "reports/frameworks/examples-check.json",
+      "report": "reports/worked-examples/report.md",
       "resourceSlides": [
         "01/107",
         "02/76",
         "02/78"
       ],
-      "interactions": "reports/frameworks/examples-check.json",
-      "review": "reports/exercise-review/report.md",
-      "focusedProfiles": "reports/exercise-review/after.json",
-      "renderedChecks": 1488,
-      "focusedChecks": 55,
+      "renderedChecks": 1602,
       "profiles": [
         "desktop 1280×720",
         "narrow 390×844",
         "print 1280×720"
       ],
-      "additionalProfiles": [
-        "tablet 768×1024",
-        "wide 1920×1080"
-      ],
-      "detector": "reports/exercise-review/detector.json",
-      "checks": [
-        "pnpm check:source",
-        "pnpm build",
-        "pnpm check:exercise-native",
-        "pnpm check:frameworks",
-        "pnpm check:exercises",
-        "pnpm check:decks",
-        "pnpm check:publication dist"
-      ]
+      "sourceBitmapsActive": 0
     }
   }
 }
