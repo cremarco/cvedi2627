@@ -1,0 +1,2302 @@
+[
+  {
+    "kind": "cover",
+    "title": "Git",
+    "blocks": [],
+    "sourceSlide": 1,
+    "number": 1,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Git, open source distributed version control system",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Cosa è un VCS",
+            "runs": [
+              {
+                "text": "Cosa è un VCS"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Git",
+            "runs": [
+              {
+                "text": "Git"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Installare git",
+            "runs": [
+              {
+                "text": "Installare git"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Git in VSCode",
+            "runs": [
+              {
+                "text": "Git in VSCode"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Git nel cloud",
+            "runs": [
+              {
+                "text": "Git nel cloud"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 2,
+    "number": 2,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "divider",
+    "title": "Cosa è un VCS",
+    "blocks": [],
+    "sourceSlide": 3,
+    "number": 3,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Version Control System (VCS)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un Version Control System (VCS) è uno strumento che registra e gestisce le modifiche apportate a un insieme di file nel tempo ",
+            "runs": [
+              {
+                "text": "Un Version Control System (VCS) è uno strumento che "
+              },
+              {
+                "text": "registra e gestisce le modifiche apportate a un insieme di file nel tempo",
+                "bold": true
+              },
+              {
+                "text": " "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "L'obiettivo principale di un VCS è tenere traccia delle variazioni nel codice sorgente di un progetto software o in qualsiasi altro insieme di file, consentendo a più persone di collaborare in modo efficiente",
+            "runs": [
+              {
+                "text": "L'obiettivo principale di un VCS è "
+              },
+              {
+                "text": "tenere traccia delle variazioni nel codice sorgente",
+                "bold": true
+              },
+              {
+                "text": " di un progetto software o in qualsiasi altro insieme di file, "
+              },
+              {
+                "text": "consentendo a più persone di collaborare in modo efficiente",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 4,
+    "number": 4,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Version Control System (VCS)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il VCS registra le modifiche apportate ai file nel corso del tempo in un repository, che funge da deposito centrale di tutte le versioni del progetto",
+            "runs": [
+              {
+                "text": "Il VCS "
+              },
+              {
+                "text": "registra le modifiche",
+                "bold": true
+              },
+              {
+                "text": " apportate ai file nel corso del tempo "
+              },
+              {
+                "text": "in un repository",
+                "bold": true
+              },
+              {
+                "text": ", che funge da deposito centrale di tutte le versioni del progetto"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Gli utenti possono recuperare versioni precedenti, confrontare le modifiche e, in molti casi, risolvere conflitti quando più persone modificano lo stesso file contemporaneamente",
+            "runs": [
+              {
+                "text": "Gli utenti possono "
+              },
+              {
+                "text": "recuperare versioni precedenti",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "confrontare le modifiche",
+                "bold": true
+              },
+              {
+                "text": " e, in molti casi, "
+              },
+              {
+                "text": "risolvere conflitti",
+                "bold": true
+              },
+              {
+                "text": " quando più persone modificano lo stesso file contemporaneamente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "L'utilizzo di un VCS facilita la gestione delle versioni, la collaborazione e il tracciamento delle modifiche nel corso del ciclo di sviluppo del software o di altri progetti",
+            "runs": [
+              {
+                "text": "L'utilizzo di un VCS facilita la gestione delle versioni, la collaborazione e il tracciamento delle modifiche nel corso del ciclo di sviluppo del software o di altri progetti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 5,
+    "number": 5,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Tipi di VCS",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esistono due tipi principali di VCS",
+            "runs": [
+              {
+                "text": "Esistono due tipi principali di VCS"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Sistemi di Controllo Versione Centralizzati (CVCS)\nIn un CVCS, esiste un repository centralizzato che conserva tutte le versioni dei file. Gli utenti lavorano direttamente su una copia locale dei file, ma devono comunicare con il repository centrale per ottenere gli aggiornamenti più recenti o per registrare le proprie modifiche \nEsempio di CVCS: Subversion (SVN)",
+            "runs": [
+              {
+                "text": "Sistemi di Controllo Versione Centralizzati (CVCS)",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "In un CVCS, esiste un repository centralizzato che conserva tutte le versioni dei file. Gli utenti lavorano direttamente su una copia locale dei file, ma devono comunicare con il repository centrale per ottenere gli aggiornamenti più recenti o per registrare le proprie modifiche "
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "Esempio di CVCS: Subversion (SVN)",
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 6,
+    "number": 6,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Tipi di VCS",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Sistemi di Controllo Versione Distribuiti (DVCS)\nIn un DVCS, ogni utente ha una copia completa del repository, inclusi tutti i file e la storia delle modifiche. Questo consente agli utenti di lavorare in modo autonomo, senza la necessità di una connessione continua al repository centrale. Possono eseguire commit, creare branch e fare merge delle modifiche localmente. Quando è necessario sincronizzare con gli altri utenti, possono scambiarsi le modifiche\nEsempio di DVCS: Git",
+            "runs": [
+              {
+                "text": "Sistemi di Controllo Versione Distribuiti (DVCS)",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "In un DVCS, ogni utente ha una copia completa del repository, inclusi tutti i file e la storia delle modifiche. Questo consente agli utenti di lavorare in modo autonomo, senza la necessità di una connessione continua al repository centrale. Possono eseguire commit, creare branch e fare merge delle modifiche localmente. Quando è necessario sincronizzare con gli altri utenti, possono scambiarsi le modifiche"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "Esempio di DVCS: Git",
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 6,
+    "number": 7,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Quale scegliere?",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Entrambi i tipi di VCS hanno vantaggi e svantaggi: I DVCS offrono maggiore flessibilità e sono più adatti per progetti distribuiti e team remoti; I CVCS sono più centralizzati e seguono un modello più tradizionale, spesso utilizzato in ambienti di sviluppo di grandi dimensioni",
+            "runs": [
+              {
+                "text": "Entrambi i tipi di VCS hanno vantaggi e svantaggi: I DVCS offrono maggiore flessibilità e sono più adatti per progetti distribuiti e team remoti; I CVCS sono più centralizzati e seguono un modello più tradizionale, spesso utilizzato in ambienti di sviluppo di grandi dimensioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La scelta tra i due dipende dalle esigenze specifiche del progetto e del team di sviluppo",
+            "runs": [
+              {
+                "text": "La scelta tra i due dipende dalle esigenze specifiche del progetto e del team di sviluppo",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 7,
+    "number": 8,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Quale scegliere?",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Attualmente, il VCS più diffuso è Git ed è anche quello che vedremo; tuttavia, è importante notare che ci sono situazioni e contesti in cui i sistemi di controllo delle versioni centralizzati (CVCS), come Subversion (SVN), possono ancora essere utilizzati, soprattutto in organizzazioni che hanno una lunga storia di utilizzo di tali sistemi o in progetti specifici che richiedono un approccio centralizzato",
+            "runs": [
+              {
+                "text": "Attualmente, "
+              },
+              {
+                "text": "il VCS più diffuso è Git",
+                "bold": true
+              },
+              {
+                "text": " ed è anche quello che vedremo; tuttavia, è importante notare che ci sono situazioni e contesti in cui i sistemi di controllo delle versioni centralizzati (CVCS), come Subversion (SVN), possono ancora essere utilizzati, soprattutto in organizzazioni che hanno una lunga storia di utilizzo di tali sistemi o in progetti specifici che richiedono un approccio centralizzato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 7,
+    "number": 9,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "divider",
+    "title": "Git",
+    "blocks": [],
+    "sourceSlide": 8,
+    "number": 10,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Git",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Git è un sistema di controllo delle versioni distribuito (DVCS) progettato per gestire il tracciamento delle modifiche nel codice sorgente durante lo sviluppo del software. Creato da Linus Torvalds nel 2005, Git è diventato uno degli strumenti più utilizzati nell'ambito dello sviluppo software",
+            "runs": [
+              {
+                "text": "Git è un sistema di controllo delle versioni distribuito (DVCS) progettato per gestire il tracciamento delle modifiche nel codice sorgente durante lo sviluppo del software. Creato da Linus Torvalds nel 2005, Git è diventato uno degli strumenti più utilizzati nell'ambito dello sviluppo software"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Git è ampiamente utilizzato nell'industria del software e nella comunità di sviluppatori open source. La sua popolarità è dovuta a diverse caratteristiche",
+            "runs": [
+              {
+                "text": "Git è ampiamente utilizzato nell'industria del software e nella comunità di sviluppatori open source. La sua popolarità è dovuta a diverse caratteristiche"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 9,
+    "number": 11,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Principali caratteristiche di Git",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Distribuito: Ogni sviluppatore ha una copia completa dell'intero repository, consentendo il lavoro in modalità offline e facilitando la collaborazione tra sviluppatori distribuiti",
+            "runs": [
+              {
+                "text": "Distribuito",
+                "bold": true
+              },
+              {
+                "text": ": Ogni sviluppatore ha una copia completa dell'intero repository, consentendo il lavoro in modalità offline e facilitando la collaborazione tra sviluppatori distribuiti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Velocità: Git è noto per la sua velocità nelle operazioni di versionamento e gestione dei rami (branch), il che lo rende adatto per progetti di varie dimensioni",
+            "runs": [
+              {
+                "text": "Velocità",
+                "bold": true
+              },
+              {
+                "text": ": Git è noto per la sua velocità nelle operazioni di versionamento e gestione dei rami"
+              },
+              {
+                "text": " (branch)"
+              },
+              {
+                "text": ", il che lo rende adatto per progetti di varie dimensioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 10,
+    "number": 12,
+    "part": 1,
+    "parts": 3
+  },
+  {
+    "kind": "content",
+    "title": "Principali caratteristiche di Git",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Branching e merging efficienti: Git facilita la creazione, la gestione e il merging di rami (branch), consentendo lo sviluppo parallelo di funzionalità senza compromettere la stabilità del codice principale",
+            "runs": [
+              {
+                "text": "Branching e merging efficienti",
+                "bold": true
+              },
+              {
+                "text": ": Git facilita la creazione, la gestione e il merging di rami (branch), consentendo lo sviluppo parallelo di funzionalità senza compromettere la stabilità del codice principale"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Storia completa delle modifiche: Ogni modifica apportata al repository è tracciata in modo dettagliato, fornendo una storia completa delle modifiche nel tempo",
+            "runs": [
+              {
+                "text": "Storia completa delle modifiche",
+                "bold": true
+              },
+              {
+                "text": ": Ogni modifica apportata al repository è tracciata in modo dettagliato, fornendo una storia completa delle modifiche nel tempo"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Collaborazione: Git supporta efficacemente la collaborazione tra team di sviluppatori, consentendo loro di lavorare in modo coordinato su diverse parti di un progetto",
+            "runs": [
+              {
+                "text": "Collaborazione",
+                "bold": true
+              },
+              {
+                "text": ": Git supporta efficacemente la collaborazione tra team di sviluppatori, consentendo loro di lavorare in modo coordinato su diverse parti di un progetto"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 10,
+    "number": 13,
+    "part": 2,
+    "parts": 3
+  },
+  {
+    "kind": "content",
+    "title": "Principali caratteristiche di Git",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Open source: Git è un software open source con una vasta comunità di sviluppatori che contribuiscono al suo miglioramento continuo.",
+            "runs": [
+              {
+                "text": "Open source",
+                "bold": true
+              },
+              {
+                "text": ": Git è un software open source con una vasta comunità di sviluppatori che contribuiscono al suo miglioramento continuo."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Integrazione con servizi di hosting: Git è spesso utilizzato insieme a servizi di hosting come GitHub, GitLab e Bitbucket per la gestione centralizzata dei repository e la collaborazione online",
+            "runs": [
+              {
+                "text": "Integrazione con servizi di hosting",
+                "bold": true
+              },
+              {
+                "text": ": Git è spesso utilizzato insieme a servizi di hosting come GitHub, GitLab e Bitbucket per la gestione centralizzata dei repository e la collaborazione online"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 10,
+    "number": 14,
+    "part": 3,
+    "parts": 3
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - concetti chiave",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esistono 4 elementi fondamentali nel flusso di lavoro con Git",
+            "runs": [
+              {
+                "text": "Esistono 4 elementi fondamentali nel flusso di lavoro con Git"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La Working Directory, la cartella del progetto dove sono presenti tutti i file ",
+            "runs": [
+              {
+                "text": "La Working Directory",
+                "bold": true
+              },
+              {
+                "text": ", la cartella del progetto dove sono presenti tutti i file"
+              },
+              {
+                "text": " ",
+                "bold": true
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "La Staging Area, l’area dove sono inseriti i file modificati e pronti per essere salvati nel local repository",
+            "runs": [
+              {
+                "text": "La Staging Area",
+                "bold": true
+              },
+              {
+                "text": ", l’area dove sono inseriti i file modificati e pronti per essere salvati nel local repository"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Il Local Repository (HEAD), la versione locale del repository",
+            "runs": [
+              {
+                "text": "Il Local Repository (HEAD)",
+                "bold": true
+              },
+              {
+                "text": ", la versione locale del repository"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il Remote Repository (REMOTE), il repository centralizzato che funge da hub centrale per la collaborazione",
+            "runs": [
+              {
+                "text": "Il Remote Repository (REMOTE)",
+                "bold": true
+              },
+              {
+                "text": ", il repository centralizzato che funge da hub centrale per la collaborazione"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 11,
+    "number": 15,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - azioni base",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Repository: Un repository Git è una raccolta di file e cartelle che rappresenta il progetto. Può essere locale (sulla macchina di uno sviluppatore) o remoto (su un server Git come GitHub)",
+            "runs": [
+              {
+                "text": "Repository",
+                "bold": true
+              },
+              {
+                "text": ": Un repository Git è una raccolta di file e cartelle che rappresenta il progetto. Può essere locale (sulla macchina di uno sviluppatore) o remoto (su un server Git come GitHub)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Clone: Per iniziare a lavorare su un progetto, uno sviluppatore clona il repository. Questo crea una copia locale del repository, consentendo modifiche indipendenti",
+            "runs": [
+              {
+                "text": "Clone",
+                "bold": true
+              },
+              {
+                "text": ": Per iniziare a lavorare su un progetto, uno sviluppatore clona il repository. Questo crea una copia locale del repository, consentendo modifiche indipendenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 16,
+    "part": 1,
+    "parts": 4
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - azioni base",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Commit: Gli sviluppatori effettuano modifiche nei propri file ed eseguono dei commit per registrare queste modifiche nel repository locale. Un commit rappresenta una singola unità di modifica",
+            "runs": [
+              {
+                "text": "Commit",
+                "bold": true
+              },
+              {
+                "text": ": Gli sviluppatori effettuano modifiche nei propri file ed eseguono dei "
+              },
+              {
+                "text": "commit",
+                "italic": true
+              },
+              {
+                "text": " per registrare queste modifiche nel repository locale. Un commit rappresenta una singola unità di modifica"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Branch: Git facilita la creazione di rami (branch) per sviluppare funzionalità in modo isolato. Un branch consente di lavorare su nuove idee senza influire sul codice principale",
+            "runs": [
+              {
+                "text": "Branch",
+                "bold": true
+              },
+              {
+                "text": ": Git facilita la creazione di rami (branch) per sviluppare funzionalità in modo isolato. Un branch consente di lavorare su nuove idee senza influire sul codice principale"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 17,
+    "part": 2,
+    "parts": 4
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - azioni base",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Merge: Dopo aver completato lo sviluppo su un branch, è possibile integrare le modifiche nel branch principale (solitamente chiamato main o master) tramite un merge. Git gestisce automaticamente le fusioni quando possibile. In caso di conflitti, gli sviluppatori li devono risolvere manualmente",
+            "runs": [
+              {
+                "text": "Merge",
+                "bold": true
+              },
+              {
+                "text": ": Dopo aver completato lo sviluppo su un branch, è possibile integrare le modifiche nel branch principale (solitamente chiamato main o master) tramite un merge. Git gestisce automaticamente le fusioni quando possibile. In caso di conflitti, gli sviluppatori li devono risolvere manualmente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Pull e Push: Per aggiornare il repository locale con le modifiche apportate da altri sviluppatori sul repository remoto, si scaricano le modifiche (pull). Per condividere le proprie modifiche con il repository remoto, si caricano le modifiche (push)",
+            "runs": [
+              {
+                "text": "Pull e Push",
+                "bold": true
+              },
+              {
+                "text": ": Per aggiornare il repository locale con le modifiche apportate da altri sviluppatori sul repository remoto, si scaricano le modifiche ("
+              },
+              {
+                "text": "pull",
+                "italic": true
+              },
+              {
+                "text": "). Per condividere le proprie modifiche con il repository remoto, si caricano le modifiche ("
+              },
+              {
+                "text": "push",
+                "italic": true
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 18,
+    "part": 3,
+    "parts": 4
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - azioni base",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Stato (Status) e Diff: È sempre possibile controllare lo stato attuale delle modifiche non ancora registrate (status) e visualizzare le differenze tra il lavoro corrente e l'ultima modifica registrata (diff)",
+            "runs": [
+              {
+                "text": "Stato (Status) e Diff",
+                "bold": true
+              },
+              {
+                "text": ": È sempre possibile controllare lo stato attuale delle modifiche non ancora registrate (status) e visualizzare le differenze tra il lavoro corrente e l'ultima modifica registrata ("
+              },
+              {
+                "text": "diff",
+                "italic": true
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Storia: Git mantiene una storia completa delle modifiche. Gli sviluppatori possono sempre esplorare la storia del progetto (log) per visualizzare i commit precedenti ed eventualmente tornare a uno stato precedente del progetto",
+            "runs": [
+              {
+                "text": "Storia",
+                "bold": true
+              },
+              {
+                "text": ": Git mantiene una storia completa delle modifiche. Gli sviluppatori possono sempre esplorare la storia del progetto ("
+              },
+              {
+                "text": "log",
+                "italic": true
+              },
+              {
+                "text": ") per visualizzare i commit precedenti ed eventualmente tornare a uno stato precedente del progetto"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 19,
+    "part": 4,
+    "parts": 4
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - stati del file",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Se si considera un file nella Working Directory, questo può trovarsi in 3 stati possibili",
+            "runs": [
+              {
+                "text": "Se si considera un file nella Working Directory, questo può trovarsi in 3 stati possibili"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Untracked/Modified:  Il file con le modifiche non è ancora stato salvato nel local repository",
+            "runs": [
+              {
+                "text": "Untracked/Modified: ",
+                "bold": true
+              },
+              {
+                "text": " Il file con le modifiche non è ancora stato salvato nel local repository"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Staged:  Il file con le modifiche è pronto per essere committato nel local repository, ma non è ancora stato “committato”",
+            "runs": [
+              {
+                "text": "Staged: ",
+                "bold": true
+              },
+              {
+                "text": " Il file con le modifiche è pronto per essere committato nel local repository, ma non è ancora stato “committato”"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Committed:  Il file con le modifiche è salvato nel local repository",
+            "runs": [
+              {
+                "text": "Committed: ",
+                "bold": true
+              },
+              {
+                "text": " Il file con le modifiche è salvato nel local repository"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 13,
+    "number": 20,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - stati del file",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Lavorare con Git, quindi, consiste nel creare/modificare un file, aggiungerlo alla staging area ed effettuare un commit",
+            "runs": [
+              {
+                "text": "Lavorare con Git, quindi, consiste nel "
+              },
+              {
+                "text": "creare/modificare un file, aggiungerlo alla staging area ed effettuare un commit",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Tuttavia, per poter collaborare è necessario sincronizzare le nostre modifiche con quelle del repository remoto e questo avviene “pushando” le nostre modifiche e “pullando” le modifiche effettuate dagli altri e risolvendo eventuali conflitti che si creano",
+            "runs": [
+              {
+                "text": "Tuttavia, per poter collaborare è necessario sincronizzare le nostre modifiche con quelle del repository remoto e questo avviene “pushando” le nostre modifiche e “pullando” le modifiche effettuate dagli altri e risolvendo eventuali conflitti che si creano"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 13,
+    "number": 21,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Flusso di lavoro - completo",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Vedremo come gestire al meglio questo flusso per renderlo il più fluido possibile",
+            "runs": [
+              {
+                "text": "Vedremo come gestire al meglio questo flusso per renderlo il più fluido possibile"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/0f344dec0d2c041537da.png",
+        "alt": "Flusso di lavoro - completo · figura della slide originale 14"
+      }
+    ],
+    "sourceSlide": 14,
+    "number": 22,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "divider",
+    "title": "Installare Git",
+    "blocks": [],
+    "sourceSlide": 15,
+    "number": 23,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Installare Git",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "macOS\nhttps://git-scm.com/download/mac",
+            "runs": [
+              {
+                "text": "macOS",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://git-scm.com/download/mac",
+                "underline": true,
+                "href": "https://git-scm.com/download/mac"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Windows\nhttps://git-scm.com/download/win",
+            "runs": [
+              {
+                "text": "Windows",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://git-scm.com/download/win",
+                "underline": true,
+                "href": "https://git-scm.com/download/win"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Linux\nhttps://git-scm.com/download/linux",
+            "runs": [
+              {
+                "text": "Linux",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://git-scm.com/download/linux",
+                "underline": true,
+                "href": "https://git-scm.com/download/linux"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 16,
+    "number": 24,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Installare Git",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In un terminale digitate git --version. Se l’installazione è andata a buon fine dovreste visualizzare la versione di git appena installata",
+            "runs": [
+              {
+                "text": "In un terminale digitate "
+              },
+              {
+                "text": "git --version",
+                "mono": true
+              },
+              {
+                "text": ". Se l’installazione è andata a buon fine dovreste visualizzare la versione di git appena installata"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Impostare nome e email come identificativo scrivendo nel terminale: \ngit config --global user.name “[firstname lastname]”\ngit config --global user.email “[valid-email]” ",
+            "runs": [
+              {
+                "text": "Impostare nome e email come identificativo scrivendo nel terminale: "
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "git config --global user.name “[firstname lastname]”",
+                "mono": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "git config --global user.email “[valid-email]” ",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Sempre da terminale create una chiave ssh sul vostro computer digitando\nssh-keygen -t ed25519 -C \"your_email@example.com\" e premete invio confermando ogni prompt senza inserire niente",
+            "runs": [
+              {
+                "text": "Sempre da terminale create una chiave ssh sul vostro computer digitando"
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "ssh-keygen -t ed25519 -C \"your_email@example.com\" ",
+                "mono": true
+              },
+              {
+                "text": "e premete invio confermando ogni prompt senza inserire niente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 17,
+    "number": 25,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Installare Git",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Andate nella home (cartella utente) e visualizzate i file nascosti, lì dovreste trovare una cartella “.ssh”. All’interno troverete il file “id_ed25519.pub” apritelo con un editor di testo (blocco note o VSCode)",
+            "runs": [
+              {
+                "text": "Andate nella home (cartella utente) e visualizzate i file nascosti, lì dovreste trovare una cartella “.ssh”. All’interno troverete il file “id_ed25519.pub” apritelo con un editor di testo (blocco note o VSCode)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Create un account GitHub",
+            "runs": [
+              {
+                "text": "Create un account "
+              },
+              {
+                "text": "GitHub",
+                "underline": true,
+                "href": "https://github.com/signup"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Seguite questa guida per aggiungere la chiave ssh a GitHub",
+            "runs": [
+              {
+                "text": "Seguite "
+              },
+              {
+                "text": "questa guida",
+                "underline": true,
+                "href": "https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account"
+              },
+              {
+                "text": " per aggiungere la chiave ssh a GitHub"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 17,
+    "number": 26,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Git GUI Client",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il miglior modo di utilizzare Git è da riga di comando con la Command Line Interface (CLI) il consiglio è di approfondire il tema per il futuro",
+            "runs": [
+              {
+                "text": "Il miglior modo di utilizzare Git è da riga di comando con la Command Line Interface (CLI) il consiglio è di approfondire il tema per il futuro"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Esistono un’infinità di GUI Client per Git (pagina ufficiale di Git) provatene un po’ per vedere con quale vi trovate meglio, tra i più famosi possiamo trovare",
+            "runs": [
+              {
+                "text": "Esistono un’infinità di GUI Client per Git ("
+              },
+              {
+                "text": "pagina ufficiale di Git",
+                "underline": true,
+                "href": "https://git-scm.com/downloads/guis"
+              },
+              {
+                "text": ") provatene un po’ per vedere con quale vi trovate meglio, tra i più famosi possiamo trovare"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "GitKraken (a pagamento, free con GitHub for Educations)",
+            "runs": [
+              {
+                "text": "GitKraken",
+                "underline": true,
+                "href": "https://www.gitkraken.com/"
+              },
+              {
+                "text": " (a pagamento, free con GitHub for Educations)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "SourceTree (Free open source)",
+            "runs": [
+              {
+                "text": "SourceTree",
+                "underline": true,
+                "href": "https://www.sourcetreeapp.com/#:~:text=A%20free%20Git%20client%20for,you%20can%20focus%20on%20coding"
+              },
+              {
+                "text": " (Free open source)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "GitHub Desktop (Free open source)",
+            "runs": [
+              {
+                "text": "GitHub Desktop",
+                "underline": true,
+                "href": "https://desktop.github.com/"
+              },
+              {
+                "text": " (Free open source)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per  le operazioni più comuni è possibile usare anche Visual Studio Code",
+            "runs": [
+              {
+                "text": "Per  le operazioni più comuni è possibile usare anche Visual Studio Code"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 18,
+    "number": 27,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "divider",
+    "title": "Git in VSCode",
+    "blocks": [],
+    "sourceSlide": 19,
+    "number": 28,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Inizializzare un repository",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In Visual Studio Code è presente un’integrazione con Git. Nella maggior parte dei casi è consigliabile gestire tramite VS Code le operazioni più comuni così da non dover passare da un programma all’altro per effettuare delle modifiche",
+            "runs": [
+              {
+                "text": "In Visual Studio Code è presente un’integrazione con Git. Nella maggior parte dei casi è consigliabile gestire tramite VS Code le operazioni più comuni così da non dover passare da un programma all’altro per effettuare delle modifiche"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per inizializzare un repository cliccate sull’icona di Git e create un nuovo repository",
+            "runs": [
+              {
+                "text": "Per inizializzare un repository cliccate sull’icona di Git e create un nuovo repository"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Da questo momento in poi ogni volta che effettuerete una modifica affianco all’icona di Git verrà visualizzato un badge con il numero di file con una modificata",
+            "runs": [
+              {
+                "text": "Da questo momento in poi ogni volta che effettuerete una modifica affianco all’icona di Git verrà visualizzato un badge con il numero di file con una modificata"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 20,
+    "number": 29,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Inizializzare un repository",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/bcea17b47b9c20105db3.png",
+        "alt": "Inizializzare un repository · figura della slide originale 20"
+      }
+    ],
+    "sourceSlide": 20,
+    "number": 30,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Staging e Commit",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Tornando all’area dedicata a Git dopo una modifica è possibile aggiungere all’area di staging la modifica cliccando sul “+” affianco al nome del file ed effettuare un commit scrivendo il messaggio nel box di testo.",
+            "runs": [
+              {
+                "text": "Tornando all’area dedicata a Git dopo una modifica è possibile aggiungere all’area di staging la modifica cliccando sul “+” affianco al nome del file ed effettuare un commit scrivendo il messaggio nel box di testo."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 21,
+    "number": 31,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Staging e Commit",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-021-diagram.webp",
+        "alt": "Staging e Commit. ",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 21,
+    "number": 32,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Annullare ultimo commit",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Se si vuole annullare l’ultimo commit è possibile farlo selezionando \npuntini -> Commit -> Undo last Commit",
+            "runs": [
+              {
+                "text": "Se si vuole annullare l’ultimo commit è possibile farlo selezionando "
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "puntini -> Commit -> Undo last Commit"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-022-diagram.webp",
+        "alt": "Annullare ultimo commit. Se si vuole annullare l’ultimo commit è possibile farlo selezionando puntini -> Commit -> Undo last Commit",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 22,
+    "number": 33,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Diff e Restore",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Passando sul nome del file con il mouse vengono visualizzate varie opzioni: “Open file”, “Discard changes” e “Stage changes”",
+            "runs": [
+              {
+                "text": "Passando sul nome del file con il mouse vengono visualizzate varie opzioni: “Open file”, “Discard changes” e “Stage changes”"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Discard changes permette di annullare tutte le modifica all’ultimo stato salvato del file",
+            "runs": [
+              {
+                "text": "Discard changes",
+                "bold": true
+              },
+              {
+                "text": " permette di annullare tutte le modifica all’ultimo stato salvato del file"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per visualizzare le modifiche effettuate che verrebbero annullate, è possibile utilizzare “diff” cliccando sul nome del file",
+            "runs": [
+              {
+                "text": "Per visualizzare le modifiche effettuate che verrebbero annullate, è possibile utilizzare “diff” cliccando sul nome del file"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nella schermata a sinistra si vede lo stato precedente del file, a destra le modifiche aggiunte",
+            "runs": [
+              {
+                "text": "Nella schermata a sinistra si vede lo stato precedente del file, a destra le modifiche aggiunte"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 23,
+    "number": 34,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Diff e Restore",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/da81bf54e0a7da4bc8e5.png",
+        "alt": "Diff e Restore · figura della slide originale 23"
+      }
+    ],
+    "sourceSlide": 23,
+    "number": 35,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Branch",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per gestire i branch in VS Code esiste un pannello dedicato",
+            "runs": [
+              {
+                "text": "Per gestire i branch in VS Code esiste un pannello dedicato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-024-diagram.webp",
+        "alt": "Branch. Per gestire i branch in VS Code esiste un pannello dedicato Brench attuale Tutti i branch locali Tutti le operazioni possibili",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 24,
+    "number": 36,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "New Branch",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Selezionando “Create new Branch…” e inserendo il nome del nuovo Branch si creerà un nuovo Branch a partire dal Branch corrente. Per creare un nuovo Branch a partire da un Branch differente è possibile selezionare “Create new Branch from…”, selezionare il Branch di origine e quindi inserire il nome del nuovo Branch",
+            "runs": [
+              {
+                "text": "Selezionando “Create new Branch…” e inserendo il nome del nuovo Branch si creerà un nuovo Branch a partire dal Branch corrente. Per creare un nuovo Branch a partire da un Branch differente è possibile selezionare “Create new Branch from…”, selezionare il Branch di origine e quindi inserire il nome del nuovo Branch"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In tutti i casi, dopo la creazione del nuovo Branch, VS Code effettuerà il Checkout automaticamente al nuovo Branch",
+            "runs": [
+              {
+                "text": "In tutti i casi, dopo la creazione del nuovo Branch, VS Code effettuerà il Checkout automaticamente al nuovo Branch"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 25,
+    "number": 37,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "New Branch",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/b9d423dd0e9c83338bbb.png",
+        "alt": "New Branch · figura della slide originale 25"
+      }
+    ],
+    "sourceSlide": 25,
+    "number": 38,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Checkout",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per passare da un Branch all’altro, selezionare il Branch corrente nella Status Bar e selezionare un Branch differente da quello corrente",
+            "runs": [
+              {
+                "text": "Per passare da un Branch all’altro, selezionare il Branch corrente nella Status Bar e selezionare un Branch differente da quello corrente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-026-diagram.webp",
+        "alt": "Checkout. Per passare da un Branch all’altro, selezionare il Branch corrente nella Status Bar e selezionare un Branch differente da quello corrente Brench attuale è “dev” Possiamo selezionare “main”",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 26,
+    "number": 39,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Merge",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per riunificare due Branch è possibile effettuare un Merge. Posizionandosi sul Branch principale (cioè quello che deve ricevere le modifiche, e.g., “main”) selezionare i tre “puntini -> Branch -> Merge Branch…” quindi selezionare il Branch da cui prendere le modifiche ",
+            "runs": [
+              {
+                "text": "Per riunificare due Branch è possibile effettuare un Merge. Posizionandosi sul Branch principale (cioè quello che deve ricevere le modifiche, e.g., “main”) selezionare i tre “puntini -> Branch -> Merge Branch…” quindi selezionare il Branch da cui prendere le modifiche "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 27,
+    "number": 40,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Merge",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-027-diagram.webp",
+        "alt": "Merge. ",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 27,
+    "number": 41,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Merge",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "A seconda delle impostazioni è possibile sia necessario effettuare il commit del merge (salvare le modifiche derivanti dal merge). A volte è possibile che il merge avvenga in modalità “fast forward” e quindi sia trasparente nella history di Git",
+            "runs": [
+              {
+                "text": "A seconda delle impostazioni è possibile sia necessario effettuare il commit del merge (salvare le modifiche derivanti dal merge). A volte è possibile che il merge avvenga in modalità “fast forward” e quindi sia trasparente nella history di Git"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Una volta effettuato il Merge è possibile eliminare il Branch importato",
+            "runs": [
+              {
+                "text": "Una volta effettuato il Merge è possibile eliminare il Branch importato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Attenzione! Se il Branch esiste solo localmente, questa operazione è irreversibile. Prima di eliminare un Branch dovete essere sicuri che tutto sia andato a buon fine.",
+            "runs": [
+              {
+                "text": "Attenzione! ",
+                "bold": true
+              },
+              {
+                "text": "Se il Branch esiste solo localmente, questa operazione è irreversibile. Prima di eliminare un Branch dovete essere sicuri che tutto sia andato a buon fine."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 28,
+    "number": 42,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "divider",
+    "title": "Git nel Cloud",
+    "blocks": [],
+    "sourceSlide": 29,
+    "number": 43,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Git e Github",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Tutte le operazioni viste fino a ora sono relative all’uso di Git in locale. Per la collaborazione è necessario usare un repository centralizzato",
+            "runs": [
+              {
+                "text": "Tutte le operazioni viste fino a ora sono relative all’uso di Git in locale. Per la collaborazione è necessario usare un repository centralizzato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Una delle alternative più diffuse è Github",
+            "runs": [
+              {
+                "text": "Una delle alternative più diffuse è Github"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 30,
+    "number": 44,
+    "part": 1,
+    "parts": 3
+  },
+  {
+    "kind": "content",
+    "title": "Git e Github",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Git e GitHub sono due concetti distinti, spesso confusi, ma complementari nell'ambito dello sviluppo del software. Git, come abbiamo visto è un DVCS (sistema di controllo delle versioni distribuito), mentre GitHub è una piattaforma remota che fornisce un'infrastruttura centralizzata per l'hosting e la collaborazione su progetti basati su Git. Potete immaginare Github come un Google Drive per i repository Git",
+            "runs": [
+              {
+                "text": "Git e GitHub sono due concetti distinti, spesso confusi, ma complementari nell'ambito dello sviluppo del software. Git, come abbiamo visto è un DVCS (sistema di controllo delle versioni distribuito), mentre GitHub è una piattaforma remota che fornisce un'infrastruttura centralizzata per l'hosting e la collaborazione su progetti basati su Git. Potete immaginare Github come un Google Drive per i repository Git"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Gli sviluppatori utilizzano GitHub per condividere, collaborare e gestire progetti basati su Git. GitHub offre funzionalità aggiuntive come tracciamento dei problemi (issues), richieste di pull (pull requests), e strumenti di collaborazione",
+            "runs": [
+              {
+                "text": "Gli sviluppatori utilizzano GitHub per condividere, collaborare e gestire progetti basati su Git. GitHub offre funzionalità aggiuntive come tracciamento dei problemi (issues), richieste di pull (pull requests), e strumenti di collaborazione"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 30,
+    "number": 45,
+    "part": 2,
+    "parts": 3
+  },
+  {
+    "kind": "content",
+    "title": "Git e Github",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esistono alternative altrettanto valide come BitBucket e GitLab, ma Github è di gran lunga quello più utilizzato nello sviluppo di progetti open source",
+            "runs": [
+              {
+                "text": "Esistono alternative altrettanto valide come BitBucket e GitLab, ma Github è di gran lunga quello più utilizzato nello sviluppo di progetti open source"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 30,
+    "number": 46,
+    "part": 3,
+    "parts": 3
+  },
+  {
+    "kind": "content",
+    "title": "Caricare il repository su Github",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Su Github, nella scheda dei repository, selezionate “New” per creare un nuovo repository",
+            "runs": [
+              {
+                "text": "Su Github, nella scheda dei repository, selezionate “New” per creare un nuovo repository"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Scegliete un nome del repository e cliccate sul bottone “Create repository”",
+            "runs": [
+              {
+                "text": "Scegliete un nome del repository e cliccate sul bottone “Create repository”"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Nella pagina successiva alla scheda Quick setup selezionate “SSH” e copiate l’url",
+            "runs": [
+              {
+                "text": "Nella pagina successiva alla scheda Quick setup selezionate “SSH” e copiate l’url"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 31,
+    "number": 47,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Caricare il repository su Github",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-031-diagram.webp",
+        "alt": "Caricare il repository su Github. ",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 31,
+    "number": 48,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Caricare il repository su Github",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In VS Code nella Status Bar selezionate puntini -> Remote -> Add Remote…",
+            "runs": [
+              {
+                "text": "In VS Code nella Status Bar selezionate puntini -> Remote -> Add Remote…"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Icona con la nuvoletta rappresenta il comando per pubblicare il Branch sul remote",
+            "runs": [
+              {
+                "text": "Icona con la nuvoletta rappresenta il comando per pubblicare il Branch sul remote"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "E inserite nel box di testo il link copiato su Github e date un nome al remote repository (per convenzione si usa origin, ma il nome è arbitrario). Infine, cliccate su “Publish Branch” per pubblicare il branch corrente. Da questo momento il repository locale è sincronizzato con il repository remoto su Github",
+            "runs": [
+              {
+                "text": "E inserite nel box di testo il link copiato su Github e date un nome al remote repository (per convenzione si usa origin, ma il nome è arbitrario). Infine, cliccate su “Publish Branch” per pubblicare il branch corrente. Da questo momento il repository locale è sincronizzato con il repository remoto su Github"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 32,
+    "number": 49,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Caricare il repository su Github",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-032-diagram.webp",
+        "alt": "Caricare il repository su Github. In VS Code nella Status Bar selezionate puntini -> Remote -> Add Remote… Icona con la nuvoletta rappresenta il comando per pubblicare il Branch sul remote",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 32,
+    "number": 50,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Stato di sincronizzazione",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "È possibile verificare lo stato di sincronizzazione dalla Status Bar di VS Code.",
+            "runs": [
+              {
+                "text": "È possibile verificare lo stato di sincronizzazione dalla Status Bar di VS Code."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In questo esempio abbiamo 0 modifiche da scaricare (Pull) e una modifica da caricare (Push)",
+            "runs": [
+              {
+                "text": "In questo esempio abbiamo 0 modifiche da scaricare (Pull) e una modifica da caricare (Push)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Possiamo sincronizzare lo stato cliccando sull’indicatore. Questo farà Pull e Push in automatico e, salvo conflitti, sincronizzare i due repository",
+            "runs": [
+              {
+                "text": "Possiamo sincronizzare lo stato cliccando sull’indicatore. Questo farà Pull e Push in automatico e, salvo conflitti, sincronizzare i due repository"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 33,
+    "number": 51,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Stato di sincronizzazione",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-033-diagram.webp",
+        "alt": "Stato di sincronizzazione. È possibile verificare lo stato di sincronizzazione dalla Status Bar di VS Code.",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 33,
+    "number": 52,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Risolvere conflitti di Merge",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Se qualcuno effettua delle modifiche sullo stesso file alla stessa riga è possibile che Git non sia in grado di risolverlo autonomamente",
+            "runs": [
+              {
+                "text": "Se qualcuno effettua delle modifiche sullo stesso file alla stessa riga è possibile che Git non sia in grado di risolverlo autonomamente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Nel momento in cui tenteremo di effettuare la sincronizzazione ci verrà segnalato che è necessario risolvere manualmente il conflitto",
+            "runs": [
+              {
+                "text": "Nel momento in cui tenteremo di effettuare la sincronizzazione ci verrà segnalato che è necessario risolvere manualmente il conflitto"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Esistono due modi per risolvere i conflitti",
+            "runs": [
+              {
+                "text": "Esistono due modi per risolvere i conflitti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 34,
+    "number": 53,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Risolvere inline",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-035-diagram.webp",
+        "alt": "Risolvere inline. Modifiche locali Modifiche remote",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 35,
+    "number": 54,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Risolvere nel Merge Editor",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-036-diagram.webp",
+        "alt": "Risolvere nel Merge Editor. Modifiche locali Modifiche remote Risultato del merge",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 36,
+    "number": 55,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Risolvere nel Merge Editor",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In entrambi i casi, una volta editato il file per risolvere il merge, sarà necessario fare un commit per confermare le modifiche. Per convenzione i messaggi del commit relativo al Merge contengono il Branch che sta subendo il merge. Il consiglio è di utilizzare il messaggio di default di VS Code",
+            "runs": [
+              {
+                "text": "In entrambi i casi, una volta editato il file per risolvere il merge, sarà necessario fare un commit per confermare le modifiche. Per convenzione i messaggi del commit relativo al Merge contengono il Branch che sta subendo il merge. Il consiglio è di utilizzare il messaggio di default di VS Code"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 37,
+    "number": 56,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "La history",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Da VS Code non è possibile vedere la storia delle modifiche del repository, ma accedendo alla pagina di Github relativa al repository, è possibile vedere il numero di commit e le ultime modifiche",
+            "runs": [
+              {
+                "text": "Da VS Code non è possibile vedere la storia delle modifiche del repository, ma accedendo alla pagina di Github relativa al repository, è possibile vedere il numero di commit e le ultime modifiche"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Cliccando sui commit è possibile visualizzare tutte le modifiche e tutta la storia relativa al branch",
+            "runs": [
+              {
+                "text": "Cliccando sui commit è possibile visualizzare tutte le modifiche e tutta la storia relativa al branch"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 38,
+    "number": 57,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "La history",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/08-038-diagram.webp",
+        "alt": "La history. Cliccando sui commit è possibile visualizzare tutte le modifiche e tutta la storia relativa al branch",
+        "sourceDiagram": true
+      }
+    ],
+    "sourceSlide": 38,
+    "number": 58,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Un po’ di reference",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Tutorial interattivo\nhttps://learngitbranching.js.org/?locale=it_IT",
+            "runs": [
+              {
+                "text": "Tutorial interattivo",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://learngitbranching.js.org/?locale=it_IT",
+                "underline": true,
+                "href": "https://learngitbranching.js.org/?locale=it_IT"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "VS Code e Git\nhttps://code.visualstudio.com/docs/sourcecontrol/overview",
+            "runs": [
+              {
+                "text": "VS Code e Git",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://code.visualstudio.com/docs/sourcecontrol/overview",
+                "underline": true,
+                "href": "https://code.visualstudio.com/docs/sourcecontrol/overview"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Git cheat sheet\nhttps://education.github.com/git-cheat-sheet-education.pdf",
+            "runs": [
+              {
+                "text": "Git cheat sheet",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://education.github.com/git-cheat-sheet-education.pdf",
+                "underline": true,
+                "href": "https://education.github.com/git-cheat-sheet-education.pdf"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 39,
+    "number": 59,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "closing",
+    "title": "Fine esercitazione 08",
+    "blocks": [],
+    "sourceSlide": 40,
+    "number": 60,
+    "part": 1,
+    "parts": 1
+  }
+]

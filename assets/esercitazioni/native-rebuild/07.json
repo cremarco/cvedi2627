@@ -1,0 +1,741 @@
+[
+  {
+    "title": "Temi con Tailwind CSS e daisyUI",
+    "kind": "cover",
+    "blocks": [],
+    "sources": [],
+    "number": 1,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dai valori ai ruoli",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Obiettivo: personalizzare un’interfaccia attraverso custom properties e ruoli cromatici coerenti.",
+            "runs": [
+              {
+                "text": "Obiettivo: personalizzare un’interfaccia attraverso custom properties e ruoli cromatici coerenti."
+              }
+            ]
+          },
+          {
+            "text": "Riutilizza la pagina del laboratorio precedente e conserva stati, semantica e ordine di lettura mentre cambi tema.",
+            "runs": [
+              {
+                "text": "Riutilizza la pagina del laboratorio precedente e conserva stati, semantica e ordine di lettura mentre cambi tema."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      },
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 2,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Una custom property è un valore CSS",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il nome inizia con due trattini. La proprietà segue la cascata e può essere ereditata dagli elementi discendenti.",
+            "runs": [
+              {
+                "text": "Il nome inizia con due trattini. La proprietà segue la cascata e può essere ereditata dagli elementi discendenti."
+              }
+            ]
+          },
+          {
+            "text": "var() legge il valore nel contesto in cui viene usato. Il nome descrittivo rende esplicito il suo scopo.",
+            "runs": [
+              {
+                "text": "var() legge il valore nel contesto in cui viene usato. Il nome descrittivo rende esplicito il suo scopo."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 3,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dichiarare e usare una variabile",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": ":root { --spazio-sezione: 2rem; }\n.sezione { padding-block: var(--spazio-sezione); }"
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 4,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Cambiare il valore in un contesto",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": ":root { --spazio-sezione: 2rem; }\n.compact { --spazio-sezione: 1rem; }\n.sezione { padding-block: var(--spazio-sezione); }\n\n/* Una .sezione dentro .compact eredita il valore locale. */"
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 5,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Un fallback per un valore assente",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": ".sezione {\n  padding-block: var(--spazio-sezione, 2rem);\n}\n/* Il fallback entra in gioco se la variabile non è disponibile. */"
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 6,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Lo scope segue la struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Una variabile su un contenitore può cambiare il valore per i discendenti senza riscrivere ogni regola.",
+            "runs": [
+              {
+                "text": "Una variabile su un contenitore può cambiare il valore per i discendenti senza riscrivere ogni regola."
+              }
+            ]
+          },
+          {
+            "text": "Controlla dove la proprietà è definita e quale dichiarazione vince nella cascata; evita sovrascritture locali non documentate.",
+            "runs": [
+              {
+                "text": "Controlla dove la proprietà è definita e quale dichiarazione vince nella cascata; evita sovrascritture locali non documentate."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "variables",
+        "title": "MDN · custom properties",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties"
+      }
+    ],
+    "number": 7,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": ":root e @theme hanno compiti diversi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Usa :root per una normale custom property. Usa @theme quando vuoi collegare un token alle utility di Tailwind.",
+            "runs": [
+              {
+                "text": "Usa :root per una normale custom property. Usa @theme quando vuoi collegare un token alle utility di Tailwind."
+              }
+            ]
+          },
+          {
+            "text": "Un colore definito nel namespace --color-* genera le corrispondenti utility. Non tutte le variabili del progetto devono diventare utility.",
+            "runs": [
+              {
+                "text": "Un colore definito nel namespace --color-* genera le corrispondenti utility. Non tutte le variabili del progetto devono diventare utility."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "theme",
+        "title": "Tailwind · theme variables",
+        "url": "https://tailwindcss.com/docs/theme"
+      }
+    ],
+    "number": 8,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Un token Tailwind",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "@import \"tailwindcss\";\n@theme {\n  --color-laboratorio: oklch(45% 0.085 224);\n}\n/* bg-laboratorio e text-laboratorio usano questo token. */"
+      }
+    ],
+    "sources": [
+      {
+        "id": "theme",
+        "title": "Tailwind · theme variables",
+        "url": "https://tailwindcss.com/docs/theme"
+      }
+    ],
+    "number": 9,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Il tema daisyUI è un insieme di ruoli",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I componenti leggono variabili semantiche: cambiare tema può aggiornare insieme superfici, testo e azioni.",
+            "runs": [
+              {
+                "text": "I componenti leggono variabili semantiche: cambiare tema può aggiornare insieme superfici, testo e azioni."
+              }
+            ]
+          },
+          {
+            "text": "Per sfruttarlo, usa classi come bg-base-100 e text-base-content nei contenitori del progetto.",
+            "runs": [
+              {
+                "text": "Per sfruttarlo, usa classi come bg-base-100 e text-base-content nei contenitori del progetto."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 10,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Abilitare due temi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\" {\n  themes: light --default, dark;\n}\n/* Il tema scuro è disponibile; qui non è selezionato automaticamente. */"
+      }
+    ],
+    "sources": [
+      {
+        "id": "config",
+        "title": "daisyUI · configurazione",
+        "url": "https://daisyui.com/docs/config/"
+      }
+    ],
+    "number": 11,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Applicare il tema a una sezione",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid grid-cols-2 gap-4\">\n  <section data-theme=\"light\" class=\"bg-base-100 p-6 text-base-content\">\n    <h2 class=\"text-xl font-bold\">Tema chiaro</h2>\n    <button class=\"btn btn-primary mt-4\">Iscriviti</button>\n  </section>\n  <section data-theme=\"dark\" class=\"bg-base-100 p-6 text-base-content\">\n    <h2 class=\"text-xl font-bold\">Tema scuro</h2>\n    <button class=\"btn btn-primary mt-4\">Iscriviti</button>\n  </section>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      }
+    ],
+    "number": 12,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Due temi, gli stessi componenti",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/framework-themes.webp",
+        "alt": "Le due sezioni usano lo stesso ruolo primario su superfici differenti.",
+        "caption": "Le due sezioni usano lo stesso ruolo primario su superfici differenti.",
+        "example": "themes"
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      },
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 13,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Scegliere le coppie di colore",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Definisci insieme superficie e contenuto: primary con primary-content, base-100 con base-content.",
+            "runs": [
+              {
+                "text": "Definisci insieme superficie e contenuto: primary con primary-content, base-100 con base-content."
+              }
+            ]
+          },
+          {
+            "text": "Controlla il testo, i bordi e gli stati, non soltanto il campione di colore isolato.",
+            "runs": [
+              {
+                "text": "Controlla il testo, i bordi e gli stati, non soltanto il campione di colore isolato."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 14,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Personalizzare un tema esistente",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\";\n@plugin \"daisyui/theme\" {\n  name: \"light\";\n  default: true;\n  --color-primary: oklch(45% 0.085 224);\n  --color-primary-content: oklch(98% 0 0);\n  --radius-box: 1rem;\n}"
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      }
+    ],
+    "number": 15,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Personalizzare la geometria",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "@plugin \"daisyui/theme\" {\n  name: \"light\";\n  --radius-box: 1rem;\n  --radius-field: 0.5rem;\n  --radius-selector: 0.25rem;\n}\n/* Gli altri valori del tema light restano ereditati. */"
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      },
+      {
+        "id": "config",
+        "title": "daisyUI · configurazione",
+        "url": "https://daisyui.com/docs/config/"
+      }
+    ],
+    "number": 16,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: primario e geometria",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/framework-custom.webp",
+        "alt": "La card mantiene struttura e contenuti; cambiano primario e raggio del tema.",
+        "caption": "La card mantiene struttura e contenuti; cambiano primario e raggio del tema.",
+        "example": "custom"
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      },
+      {
+        "id": "customize",
+        "title": "daisyUI · personalizzazione",
+        "url": "https://daisyui.com/docs/customize/"
+      }
+    ],
+    "number": 17,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Cambiare tema è una scelta dell’interfaccia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Theme Controller può usare un controllo nativo per selezionare un tema già abilitato.",
+            "runs": [
+              {
+                "text": "Theme Controller può usare un controllo nativo per selezionare un tema già abilitato."
+              }
+            ]
+          },
+          {
+            "text": "La persistenza tra visite richiede una gestione aggiuntiva. Esplicita quale scelta appartiene all’utente e quale è il valore iniziale.",
+            "runs": [
+              {
+                "text": "La persistenza tra visite richiede una gestione aggiuntiva. Esplicita quale scelta appartiene all’utente e quale è il valore iniziale."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "controller",
+        "title": "daisyUI · Theme Controller",
+        "url": "https://daisyui.com/components/theme-controller/"
+      }
+    ],
+    "number": 18,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Un controllo per il tema scuro",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<label class=\"flex items-center gap-3\">\n  <input type=\"checkbox\" value=\"dark\"\n    class=\"checkbox theme-controller\">\n  Usa il tema scuro\n</label>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "controller",
+        "title": "daisyUI · Theme Controller",
+        "url": "https://daisyui.com/components/theme-controller/"
+      }
+    ],
+    "number": 19,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Verificare il contrasto in entrambi i temi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per il testo ordinario, WCAG 2.2 richiede almeno 4,5:1; per il testo grande la soglia è 3:1.",
+            "runs": [
+              {
+                "text": "Per il testo ordinario, WCAG 2.2 richiede almeno 4,5:1; per il testo grande la soglia è 3:1."
+              }
+            ]
+          },
+          {
+            "text": "Misura la coppia reale di testo e sfondo anche negli stati. Un nome come primary non garantisce da solo il contrasto.",
+            "runs": [
+              {
+                "text": "Misura la coppia reale di testo e sfondo anche negli stati. Un nome come primary non garantisce da solo il contrasto."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "contrast",
+        "title": "W3C · contrasto del testo",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+      }
+    ],
+    "number": 20,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Laboratorio · costruire una variante",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In 15 minuti modifica il primario e la geometria della pagina del laboratorio. Aggiungi il selettore del tema.",
+            "runs": [
+              {
+                "text": "In 15 minuti modifica il primario e la geometria della pagina del laboratorio. Aggiungi il selettore del tema."
+              }
+            ]
+          },
+          {
+            "text": "Consegna due screenshot e annota tre coppie testo–sfondo verificate, includendo almeno uno stato di errore.",
+            "runs": [
+              {
+                "text": "Consegna due screenshot e annota tre coppie testo–sfondo verificate, includendo almeno uno stato di errore."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      },
+      {
+        "id": "contrast",
+        "title": "W3C · contrasto del testo",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html"
+      }
+    ],
+    "number": 21,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Rivedere il sistema",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il cambio tema conserva contenuti, focus e operazioni? Le etichette e i messaggi restano leggibili?",
+            "runs": [
+              {
+                "text": "Il cambio tema conserva contenuti, focus e operazioni? Le etichette e i messaggi restano leggibili?"
+              }
+            ]
+          },
+          {
+            "text": "Raccogli le scelte in pochi ruoli condivisi. Documenta le eccezioni prima di introdurre valori isolati nel markup.",
+            "runs": [
+              {
+                "text": "Raccogli le scelte in pochi ruoli condivisi. Documenta le eccezioni prima di introdurre valori isolati nel markup."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      },
+      {
+        "id": "controller",
+        "title": "daisyUI · Theme Controller",
+        "url": "https://daisyui.com/components/theme-controller/"
+      }
+    ],
+    "number": 22,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Fine esercitazione 07",
+    "kind": "closing",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere.",
+            "runs": [
+              {
+                "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      },
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "credit": "Rielaborazione didattica CVeDI · fonti ufficiali collegate",
+    "number": 23,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  }
+]

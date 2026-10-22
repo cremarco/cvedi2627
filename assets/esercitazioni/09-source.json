@@ -1,0 +1,5810 @@
+[
+  {
+    "sourceSlide": 1,
+    "title": "Corso di CVeDI (8 CFU)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 9",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 9",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 9"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Elia Guarnieri",
+            "runs": [
+              {
+                "text": "Elia Guarnieri",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "elia.guarnieri@unimib.it",
+            "runs": [
+              {
+                "text": "elia.guarnieri@unimib.it",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Elia Guarnieri\nelia.guarnieri@unimib.it"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/cacd5da19bc008391b3e.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/38e8102022b2d97adb1f.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      }
+    ],
+    "originalText": [
+      "Corso di\nCVeDI (8 CFU)",
+      "ESERCITAZIONE 9",
+      "Elia Guarnieri\nelia.guarnieri@unimib.it"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 2,
+    "title": "JavaScript e jQuery",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Javascript",
+            "runs": [
+              {
+                "text": "Javascript"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "JQuery",
+            "runs": [
+              {
+                "text": "JQuery"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Javascript\nJQuery"
+      }
+    ],
+    "originalText": [
+      "JavaScript e jQuery",
+      "Javascript\nJQuery"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 3,
+    "title": "JAVASCRIPT",
+    "blocks": [],
+    "originalText": [
+      "JAVASCRIPT"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 4,
+    "title": "Cos’è JavaScript e cosa può fare",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/js-detye4?file=index.js"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "JavaScript è un linguaggio di programmazione utilizzato comunemente nella programmazione Web lato client per la creazione di effetti dinamici interattivi tramite funzioni che possono essere invocate da eventi su una determinata pagina web",
+            "runs": [
+              {
+                "text": "JavaScript ",
+                "bold": true
+              },
+              {
+                "text": "è un linguaggio di programmazione utilizzato comunemente nella programmazione Web lato client per la creazione di effetti dinamici interattivi tramite funzioni che possono essere invocate da eventi su una determinata pagina web"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il codice JavaScript viene eseguito da un interprete contenuto all’interno di ogni browser",
+            "runs": [
+              {
+                "text": "Il codice JavaScript viene eseguito da un interprete contenuto all’interno di ogni browser"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Tra le altre cose, permette di accedere e modificare elementi della pagina HTML e di reagire a eventi generati dall’interazione con l’utente",
+            "runs": [
+              {
+                "text": "Tra le altre cose, permette di accedere e modificare elementi della pagina HTML e di reagire a eventi generati dall’interazione con l’utente"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "JavaScript è un linguaggio di programmazione utilizzato comunemente nella programmazione Web lato client per la creazione di effetti dinamici interattivi tramite funzioni che possono essere invocate da eventi su una determinata pagina web\nIl codice JavaScript viene eseguito da un interprete contenuto all’interno di ogni browser\nTra le altre cose, permette di accedere e modificare elementi della pagina HTML e di reagire a eventi generati dall’interazione con l’utente"
+      }
+    ],
+    "originalText": [
+      "Cos’è JavaScript e cosa può fare",
+      "JavaScript è un linguaggio di programmazione utilizzato comunemente nella programmazione Web lato client per la creazione di effetti dinamici interattivi tramite funzioni che possono essere invocate da eventi su una determinata pagina web\nIl codice JavaScript viene eseguito da un interprete contenuto all’interno di ogni browser\nTra le altre cose, permette di accedere e modificare elementi della pagina HTML e di reagire a eventi generati dall’interazione con l’utente",
+      "Try it"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 5,
+    "title": "Sintassi e variabili",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/js-ykrvdr?file=index.js"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Così come negli altri linguaggi di programmazione, un programma JavaScript comprende una lista di enunciati ",
+            "runs": [
+              {
+                "text": "Così come negli altri linguaggi di programmazione, un programma JavaScript comprende una lista di enunciati "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Così come negli altri linguaggi di programmazione, un programma JavaScript comprende una lista di enunciati"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "var x = 5; // Dichiaro la variabile x e le assegno il valore 5",
+            "runs": [
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": " x ",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "5",
+                "mono": true
+              },
+              {
+                "text": "; ",
+                "mono": true
+              },
+              {
+                "text": "// Dichiaro la variabile x e le assegno il valore 5",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "var x = 5; // Dichiaro la variabile x e le assegno il valore 5"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Gli enunciati sono composti da valori, operatori, funzioni. Ogni enunciato è separato dagli altri con il carattere “;” (semicolon)",
+            "runs": [
+              {
+                "text": "Gli enunciati sono composti da valori, operatori, funzioni. Ogni enunciato è separato dagli altri con il carattere “;” (semicolon)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le variabili permettono di immagazzinare valori. Prima di assegnare un valore a una variabile occorre dichiararla (ad esempio con “var”)",
+            "runs": [
+              {
+                "text": "Le variabili permettono di immagazzinare valori. Prima di assegnare un valore a una variabile occorre dichiararla (ad esempio con “var”)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Dal 2015, oltre a var sono stati introdotti due altri tipi di variabile: let e const",
+            "runs": [
+              {
+                "text": "Dal 2015, oltre a "
+              },
+              {
+                "text": "var ",
+                "bold": true
+              },
+              {
+                "text": "sono stati introdotti due altri tipi di variabile: "
+              },
+              {
+                "text": "let ",
+                "bold": true
+              },
+              {
+                "text": "e "
+              },
+              {
+                "text": "const",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Gli enunciati sono composti da valori, operatori, funzioni. Ogni enunciato è separato dagli altri con il carattere “;” (semicolon)\nLe variabili permettono di immagazzinare valori. Prima di assegnare un valore a una variabile occorre dichiararla (ad esempio con “var”)\nDal 2015, oltre a var sono stati introdotti due altri tipi di variabile: let e const"
+      }
+    ],
+    "originalText": [
+      "Sintassi e variabili",
+      "Così come negli altri linguaggi di programmazione, un programma JavaScript comprende una lista di enunciati",
+      "Try it",
+      "var x = 5; // Dichiaro la variabile x e le assegno il valore 5",
+      "Gli enunciati sono composti da valori, operatori, funzioni. Ogni enunciato è separato dagli altri con il carattere “;” (semicolon)\nLe variabili permettono di immagazzinare valori. Prima di assegnare un valore a una variabile occorre dichiararla (ad esempio con “var”)\nDal 2015, oltre a var sono stati introdotti due altri tipi di variabile: let e const"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 6,
+    "title": "Gli operatori",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/js-fk2shy?file=index.js"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "JavaScript include diversi operatori che, come suggerisce il nome, permettono di eseguire operazioni su un determinato numero di operandi, per produrre un risultato ",
+            "runs": [
+              {
+                "text": "JavaScript include diversi "
+              },
+              {
+                "text": "operatori ",
+                "underline": true,
+                "href": "https://developer.mozilla.org/it/docs/Web/JavaScript/Reference/Operators"
+              },
+              {
+                "text": "che, come suggerisce il nome, permettono di eseguire operazioni su un determinato numero di operandi, per produrre un risultato "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "JavaScript include diversi operatori che, come suggerisce il nome, permettono di eseguire operazioni su un determinato numero di operandi, per produrre un risultato"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esistono tanti tipi di operatori. Ad esempio:",
+            "runs": [
+              {
+                "text": "Esistono tanti tipi di operatori. Ad esempio:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "aritmetici o di incremento/decremento (+, -, *, /, ++, --, etc)",
+            "runs": [
+              {
+                "text": "aritmetici o di incremento/decremento ("
+              },
+              {
+                "text": "+"
+              },
+              {
+                "text": ","
+              },
+              {
+                "text": " -"
+              },
+              {
+                "text": ","
+              },
+              {
+                "text": " *"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "/"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "++"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "--"
+              },
+              {
+                "text": ", etc)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "di assegnamento ( = )",
+            "runs": [
+              {
+                "text": "di assegnamento ( "
+              },
+              {
+                "text": "="
+              },
+              {
+                "text": " )"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "di relazione o confronto (==, >, !=)",
+            "runs": [
+              {
+                "text": "di relazione o confronto ("
+              },
+              {
+                "text": "=="
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": ">"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "!="
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "logici (and: &&, or: ||, not: !)",
+            "runs": [
+              {
+                "text": "logici (and: "
+              },
+              {
+                "text": "&&"
+              },
+              {
+                "text": ", or: "
+              },
+              {
+                "text": "||"
+              },
+              {
+                "text": ", not: "
+              },
+              {
+                "text": "!"
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Esistono tanti tipi di operatori. Ad esempio:\naritmetici o di incremento/decremento (+, -, *, /, ++, --, etc)\ndi assegnamento ( = )\ndi relazione o confronto (==, >, !=)\nlogici (and: &&, or: ||, not: !)"
+      }
+    ],
+    "originalText": [
+      "Gli operatori",
+      "JavaScript include diversi operatori che, come suggerisce il nome, permettono di eseguire operazioni su un determinato numero di operandi, per produrre un risultato",
+      "Try it",
+      "Esistono tanti tipi di operatori. Ad esempio:\naritmetici o di incremento/decremento (+, -, *, /, ++, --, etc)\ndi assegnamento ( = )\ndi relazione o confronto (==, >, !=)\nlogici (and: &&, or: ||, not: !)"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 7,
+    "title": "Funzioni",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/js-334txo?file=index.js"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Una funzione è un blocco di codice ideato per eseguire un compito particolare",
+            "runs": [
+              {
+                "text": "Una funzione è un blocco di codice ideato per eseguire un compito particolare"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Una funzione viene eseguita quando un evento la invoca",
+            "runs": [
+              {
+                "text": "Una funzione viene eseguita quando un evento la invoca"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le funzioni prevedono diversi parametri che definiscono i determinati argomenti che la funzione può accettare quando invocata. Dentro la funzione, i parametri si comportano come variabili locali e assumono il valore passato come argomento",
+            "runs": [
+              {
+                "text": "Le funzioni prevedono diversi "
+              },
+              {
+                "text": "parametri ",
+                "bold": true
+              },
+              {
+                "text": "che definiscono i determinati "
+              },
+              {
+                "text": "argomenti ",
+                "bold": true
+              },
+              {
+                "text": "che la funzione può accettare quando invocata. Dentro la funzione, i parametri si comportano come variabili locali e assumono il valore passato come argomento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le funzioni restituiscono determinati valori attraverso l’enunciato return",
+            "runs": [
+              {
+                "text": "Le funzioni restituiscono determinati valori attraverso l’enunciato "
+              },
+              {
+                "text": "return",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Una funzione è un blocco di codice ideato per eseguire un compito particolare\nUna funzione viene eseguita quando un evento la invoca\nLe funzioni prevedono diversi parametri che definiscono i determinati argomenti che la funzione può accettare quando invocata. Dentro la funzione, i parametri si comportano come variabili locali e assumono il valore passato come argomento\nLe funzioni restituiscono determinati valori attraverso l’enunciato return"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "function myFunction(x, y) {",
+            "runs": [
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "myFunction",
+                "mono": true
+              },
+              {
+                "text": "(x, y) {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  return x * y;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "return",
+                "mono": true
+              },
+              {
+                "text": " x ",
+                "mono": true
+              },
+              {
+                "text": "*",
+                "mono": true
+              },
+              {
+                "text": " y;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "function myFunction(x, y) {\n  return x * y;\n}"
+      }
+    ],
+    "originalText": [
+      "Funzioni",
+      "Una funzione è un blocco di codice ideato per eseguire un compito particolare\nUna funzione viene eseguita quando un evento la invoca\nLe funzioni prevedono diversi parametri che definiscono i determinati argomenti che la funzione può accettare quando invocata. Dentro la funzione, i parametri si comportano come variabili locali e assumono il valore passato come argomento\nLe funzioni restituiscono determinati valori attraverso l’enunciato return",
+      "Try it",
+      "function myFunction(x, y) {\n  return x * y;\n}"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 8,
+    "title": "Condizioni",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Try it",
+            "runs": [
+              {
+                "text": "Try it",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/js-wnvxpb?file=index.js,index.html"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Try it"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Scrivendo il codice di un programma capita spesso che si voglia effettuare azioni differenti in base a condizioni differenti",
+            "runs": [
+              {
+                "text": "Scrivendo il codice di un programma capita spesso che si voglia effettuare azioni differenti in base a condizioni differenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Gli enunciati if, else, elseif aiutano il programmatore a gestire questa necessità",
+            "runs": [
+              {
+                "text": "Gli enunciati "
+              },
+              {
+                "text": "if",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "else",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "elseif ",
+                "bold": true
+              },
+              {
+                "text": "aiutano il programmatore a gestire questa necessità"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Scrivendo il codice di un programma capita spesso che si voglia effettuare azioni differenti in base a condizioni differenti\nGli enunciati if, else, elseif aiutano il programmatore a gestire questa necessità"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "if (new Date().getHours() < 18) {",
+            "runs": [
+              {
+                "text": "if",
+                "mono": true
+              },
+              {
+                "text": " (",
+                "mono": true
+              },
+              {
+                "text": "new",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "Date",
+                "mono": true
+              },
+              {
+                "text": "().",
+                "mono": true
+              },
+              {
+                "text": "getHours",
+                "mono": true
+              },
+              {
+                "text": "() ",
+                "mono": true
+              },
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "18",
+                "mono": true
+              },
+              {
+                "text": ") {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  document.getElementById(\"result\").innerHTML = \"Buongiorno!\"",
+            "runs": [
+              {
+                "text": "  document.",
+                "mono": true
+              },
+              {
+                "text": "getElementById",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"result\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "innerHTML",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "\"Buongiorno!\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "} else {",
+            "runs": [
+              {
+                "text": "} ",
+                "mono": true
+              },
+              {
+                "text": "else",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  document.getElementById(\"result\").innerHTML = \"Buonasera!\"",
+            "runs": [
+              {
+                "text": "  document.",
+                "mono": true
+              },
+              {
+                "text": "getElementById",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"result\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "innerHTML",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "\"Buonasera!\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "if (new Date().getHours() < 18) {\n  document.getElementById(\"result\").innerHTML = \"Buongiorno!\"\n} else {\n  document.getElementById(\"result\").innerHTML = \"Buonasera!\"\n}"
+      }
+    ],
+    "originalText": [
+      "Condizioni",
+      "Scrivendo il codice di un programma capita spesso che si voglia effettuare azioni differenti in base a condizioni differenti\nGli enunciati if, else, elseif aiutano il programmatore a gestire questa necessità",
+      "Try it",
+      "if (new Date().getHours() < 18) {\n  document.getElementById(\"result\").innerHTML = \"Buongiorno!\"\n} else {\n  document.getElementById(\"result\").innerHTML = \"Buonasera!\"\n}"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 9,
+    "title": "JQUERY",
+    "blocks": [],
+    "originalText": [
+      "JQUERY"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 10,
+    "title": "jQuery",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "jQuery è una libreria JavaScript che rende molto semplice la scrittura di applicazioni web offrendo funzionalità quali",
+            "runs": [
+              {
+                "text": "jQuery ",
+                "underline": true,
+                "href": "https://jquery.com/"
+              },
+              {
+                "text": "è una libreria JavaScript che rende molto semplice la scrittura di applicazioni web offrendo funzionalità quali"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "manipolazione di HTML/DOM e CSS",
+            "runs": [
+              {
+                "text": "manipolazione di HTML/DOM e CSS"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "metodi per eventi HTML",
+            "runs": [
+              {
+                "text": "metodi per eventi HTML"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "effetti e animazioni",
+            "runs": [
+              {
+                "text": "effetti e animazioni"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "supporto a programmazione AJAX",
+            "runs": [
+              {
+                "text": "supporto a programmazione AJAX"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "varie altre utilità (anche tramite plugin)",
+            "runs": [
+              {
+                "text": "varie altre utilità (anche tramite plugin)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "jQuery è una libreria JavaScript che rende molto semplice la scrittura di applicazioni web offrendo funzionalità quali\nmanipolazione di HTML/DOM e CSS\nmetodi per eventi HTML\neffetti e animazioni\nsupporto a programmazione AJAX\nvarie altre utilità (anche tramite plugin)"
+      }
+    ],
+    "originalText": [
+      "jQuery",
+      "jQuery è una libreria JavaScript che rende molto semplice la scrittura di applicazioni web offrendo funzionalità quali\nmanipolazione di HTML/DOM e CSS\nmetodi per eventi HTML\neffetti e animazioni\nsupporto a programmazione AJAX\nvarie altre utilità (anche tramite plugin)"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 11,
+    "title": "Importare jQuery",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "È possibile importare jQuery nella propria pagina web attraverso il seguente codice da inserire nella pagina html prima della chiusura del tag body (e prima di qualsiasi altro script che faccia uso di jQuery)",
+            "runs": [
+              {
+                "text": "È possibile importare jQuery nella propria pagina web attraverso il seguente codice da inserire nella pagina html prima della chiusura del tag body (e prima di qualsiasi altro script che faccia uso di jQuery)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "(per le versioni più recenti: https://code.jquery.com/)",
+            "runs": [
+              {
+                "text": "(per le versioni più recenti: "
+              },
+              {
+                "text": "https://code.jquer",
+                "underline": true,
+                "href": "https://code.jquery.com/"
+              },
+              {
+                "text": "y.com/",
+                "underline": true,
+                "href": "https://code.jquery.com/"
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "È possibile importare jQuery nella propria pagina web attraverso il seguente codice da inserire nella pagina html prima della chiusura del tag body (e prima di qualsiasi altro script che faccia uso di jQuery)\n(per le versioni più recenti: https://code.jquery.com/)"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<script",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "script",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    src=\"https://code.jquery.com/jquery-3.6.1.min.js\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"https://code.jquery.com/jquery-3.6.1.min.js\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    integrity=\"sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=\"",
+            "runs": [
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "   ",
+                "mono": true
+              },
+              {
+                "text": "integrity",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    crossorigin=\"anonymous\">",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "crossorigin",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"anonymous\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  </script>",
+            "runs": [
+              {
+                "text": "  </",
+                "mono": true
+              },
+              {
+                "text": "script",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<script\n    src=\"https://code.jquery.com/jquery-3.6.1.min.js\"\n    integrity=\"sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=\"\n    crossorigin=\"anonymous\">\n  </script>"
+      }
+    ],
+    "originalText": [
+      "Importare jQuery",
+      "È possibile importare jQuery nella propria pagina web attraverso il seguente codice da inserire nella pagina html prima della chiusura del tag body (e prima di qualsiasi altro script che faccia uso di jQuery)\n(per le versioni più recenti: https://code.jquery.com/)",
+      "<script\n    src=\"https://code.jquery.com/jquery-3.6.1.min.js\"\n    integrity=\"sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=\"\n    crossorigin=\"anonymous\">\n  </script>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 12,
+    "title": "Sintassi di base",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La sintassi di jQuery è specificamente orientata a permettere una rapida e semplice selezione di elementi del documento HTML. La sintassi base di un comando jQuery è",
+            "runs": [
+              {
+                "text": "La sintassi di jQuery è specificamente orientata a permettere una rapida e semplice selezione di elementi del documento HTML. La sintassi base di un comando jQuery è"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "La sintassi di jQuery è specificamente orientata a permettere una rapida e semplice selezione di elementi del documento HTML. La sintassi base di un comando jQuery è"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "$(selector).action()",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(selector).",
+                "mono": true
+              },
+              {
+                "text": "action",
+                "mono": true
+              },
+              {
+                "text": "()",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "$(selector).action()"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il $ definisce l’accesso a funzionalità offerte da jQuery ",
+            "runs": [
+              {
+                "text": "Il "
+              },
+              {
+                "text": "$",
+                "bold": true
+              },
+              {
+                "text": " definisce l’accesso a funzionalità offerte da jQuery "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "selector viene utilizzato per specificare una query per selezionare una parte del documento HTML",
+            "runs": [
+              {
+                "text": "selector ",
+                "bold": true
+              },
+              {
+                "text": "viene utilizzato per specificare una query per selezionare una parte del documento HTML"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "action specifica l'azione da effettuare sull’elemento stesso",
+            "runs": [
+              {
+                "text": "action ",
+                "bold": true
+              },
+              {
+                "text": "specifica l'azione da effettuare sull’elemento stesso"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Il $ definisce l’accesso a funzionalità offerte da jQuery \nselector viene utilizzato per specificare una query per selezionare una parte del documento HTML\naction specifica l'azione da effettuare sull’elemento stesso"
+      }
+    ],
+    "originalText": [
+      "Sintassi di base",
+      "La sintassi di jQuery è specificamente orientata a permettere una rapida e semplice selezione di elementi del documento HTML. La sintassi base di un comando jQuery è",
+      "$(selector).action()",
+      "Il $ definisce l’accesso a funzionalità offerte da jQuery \nselector viene utilizzato per specificare una query per selezionare una parte del documento HTML\naction specifica l'azione da effettuare sull’elemento stesso"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 13,
+    "title": "Document Ready",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Una pagina non può essere manipolata in modo sicuro finché il documento non è \"pronto\"",
+            "runs": [
+              {
+                "text": "Una pagina non può essere manipolata in modo sicuro finché il documento non è \"pronto\""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il codice incluso in $(document).ready() verrà eseguito solo quando la pagina DOM sarà pronta per l'esecuzione del codice JavaScript",
+            "runs": [
+              {
+                "text": "Il codice incluso in $(document).ready() verrà eseguito solo quando la pagina DOM sarà pronta per l'esecuzione del codice JavaScript"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Una pagina non può essere manipolata in modo sicuro finché il documento non è \"pronto\"\nIl codice incluso in $(document).ready() verrà eseguito solo quando la pagina DOM sarà pronta per l'esecuzione del codice JavaScript"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "$(document).ready(function() {",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(document).",
+                "mono": true
+              },
+              {
+                "text": "ready",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": "() {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  console.log( \"ready!\" );",
+            "runs": [
+              {
+                "text": "  console.",
+                "mono": true
+              },
+              {
+                "text": "log",
+                "mono": true
+              },
+              {
+                "text": "( ",
+                "mono": true
+              },
+              {
+                "text": "\"ready!\"",
+                "mono": true
+              },
+              {
+                "text": " );",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "});",
+            "runs": [
+              {
+                "text": "});",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// Shorthand for $( document ).ready()",
+            "runs": [
+              {
+                "text": "// Shorthand for $( document ).ready()",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(function() {",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": "() {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  console.log( \"ready!\" );",
+            "runs": [
+              {
+                "text": "  console.",
+                "mono": true
+              },
+              {
+                "text": "log",
+                "mono": true
+              },
+              {
+                "text": "( ",
+                "mono": true
+              },
+              {
+                "text": "\"ready!\"",
+                "mono": true
+              },
+              {
+                "text": " );",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "});",
+            "runs": [
+              {
+                "text": "});",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "$(document).ready(function() {\n  console.log( \"ready!\" );\n});\n\n// Shorthand for $( document ).ready()\n$(function() {\n  console.log( \"ready!\" );\n});"
+      }
+    ],
+    "originalText": [
+      "Document Ready",
+      "Una pagina non può essere manipolata in modo sicuro finché il documento non è \"pronto\"\nIl codice incluso in $(document).ready() verrà eseguito solo quando la pagina DOM sarà pronta per l'esecuzione del codice JavaScript",
+      "$(document).ready(function() {\n  console.log( \"ready!\" );\n});\n\n// Shorthand for $( document ).ready()\n$(function() {\n  console.log( \"ready!\" );\n});"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 14,
+    "title": "Esempi",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "// Seleziona tutti i paragrafi (p) con classe summary",
+            "runs": [
+              {
+                "text": "// Seleziona tutti i paragrafi (p) con classe summary",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// all’interno dell’articolo con id = first",
+            "runs": [
+              {
+                "text": "// all’interno dell’articolo con id = first",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "var n = $(\"article#first p.summary\");",
+            "runs": [
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": " n ",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"article#first p.summary\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "// Seleziona tutti i paragrafi (p) con classe summary\n// all’interno dell’articolo con id = first\n\nvar n = $(\"article#first p.summary\");"
+      }
+    ],
+    "originalText": [
+      "Esempi",
+      "// Seleziona tutti i paragrafi (p) con classe summary\n// all’interno dell’articolo con id = first\n\nvar n = $(\"article#first p.summary\");"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 15,
+    "title": "Esempi",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "$(\"a\"); // tutti i link nel documento",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"a\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// tutti i link nel documento",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#blocco\"); // seleziona un singolo elemento con id \"blocco\"",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#blocco\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// seleziona un singolo elemento con id \"blocco\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"a.external\"); // solo i link con classe \"external\"",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"a.external\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// solo i link con classe \"external\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#blocco,a.external\"); // definizione di più selettori",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#blocco,a.external\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// definizione di più selettori",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"*\"); // tutti gli elementi",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"*\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// tutti gli elementi",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#blocco a\"); // tutti i link (<a>) all'interno dell'elemento con id “blocco\"",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#blocco a\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// tutti i link (<a>) all'interno dell'elemento con id “blocco\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"ul > li\"); // solo gli elementi lista diretti discendenti del tag ul",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"ul > li\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// solo gli elementi lista diretti discendenti del tag ul",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"label + input\"); // tutti i tag input preceduti da un tag label",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"label + input\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// tutti i tag input preceduti da un tag label",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"div ~ span\"); // tutti i fratelli seguenti anche non adiacenti",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"div ~ span\"",
+                "mono": true
+              },
+              {
+                "text": "); ",
+                "mono": true
+              },
+              {
+                "text": "// tutti i fratelli seguenti anche non adiacenti",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "$(\"a\"); // tutti i link nel documento\n$(\"#blocco\"); // seleziona un singolo elemento con id \"blocco\"\n$(\"a.external\"); // solo i link con classe \"external\"\n$(\"#blocco,a.external\"); // definizione di più selettori\n$(\"*\"); // tutti gli elementi\n$(\"#blocco a\"); // tutti i link (<a>) all'interno dell'elemento con id “blocco\"\n$(\"ul > li\"); // solo gli elementi lista diretti discendenti del tag ul\n$(\"label + input\"); // tutti i tag input preceduti da un tag label\n$(\"div ~ span\"); // tutti i fratelli seguenti anche non adiacenti"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://api.jquery.com/category/selectors/",
+            "runs": [
+              {
+                "text": "https://api.jquery.com/category/selectors/",
+                "underline": true,
+                "href": "https://api.jquery.com/category/selectors/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://api.jquery.com/category/selectors/"
+      }
+    ],
+    "originalText": [
+      "Esempi",
+      "$(\"a\"); // tutti i link nel documento\n$(\"#blocco\"); // seleziona un singolo elemento con id \"blocco\"\n$(\"a.external\"); // solo i link con classe \"external\"\n$(\"#blocco,a.external\"); // definizione di più selettori\n$(\"*\"); // tutti gli elementi\n$(\"#blocco a\"); // tutti i link (<a>) all'interno dell'elemento con id “blocco\"\n$(\"ul > li\"); // solo gli elementi lista diretti discendenti del tag ul\n$(\"label + input\"); // tutti i tag input preceduti da un tag label\n$(\"div ~ span\"); // tutti i fratelli seguenti anche non adiacenti",
+      "https://api.jquery.com/category/selectors/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 16,
+    "title": "Manipolare il DOM",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "jQuery dispone di moltissimi metodi per manipolare il DOM in vari modi",
+            "runs": [
+              {
+                "text": "jQuery dispone di moltissimi metodi per manipolare il DOM in vari modi"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio, è possibile cambiare gli attributi di un elemento, modificare interi elementi o gruppi di elementi e copiarne, rimuoverne o inserirne altri",
+            "runs": [
+              {
+                "text": "Ad esempio, è possibile cambiare gli attributi di un elemento, modificare interi elementi o gruppi di elementi e copiarne, rimuoverne o inserirne altri"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "jQuery dispone di moltissimi metodi per manipolare il DOM in vari modi\nAd esempio, è possibile cambiare gli attributi di un elemento, modificare interi elementi o gruppi di elementi e copiarne, rimuoverne o inserirne altri"
+      }
+    ],
+    "originalText": [
+      "Manipolare il DOM",
+      "jQuery dispone di moltissimi metodi per manipolare il DOM in vari modi\nAd esempio, è possibile cambiare gli attributi di un elemento, modificare interi elementi o gruppi di elementi e copiarne, rimuoverne o inserirne altri"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 17,
+    "title": "Gestione delle classi",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".hasClass()     // metodo di controllo, ritorna true",
+            "runs": [
+              {
+                "text": ".",
+                "mono": true
+              },
+              {
+                "text": "hasClass",
+                "mono": true
+              },
+              {
+                "text": "()     ",
+                "mono": true
+              },
+              {
+                "text": "// metodo di controllo, ritorna true",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "                // se l’elemento ha una specifica classe",
+            "runs": [
+              {
+                "text": "                ",
+                "mono": true
+              },
+              {
+                "text": "// se l’elemento ha una specifica classe",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".addClass()     // aggiunge una classe agli elementi",
+            "runs": [
+              {
+                "text": ".",
+                "mono": true
+              },
+              {
+                "text": "addClass",
+                "mono": true
+              },
+              {
+                "text": "()     ",
+                "mono": true
+              },
+              {
+                "text": "// aggiunge una classe agli elementi",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".removeClass()  // rimuove una classe agli elementi",
+            "runs": [
+              {
+                "text": ".",
+                "mono": true
+              },
+              {
+                "text": "removeClass",
+                "mono": true
+              },
+              {
+                "text": "()  ",
+                "mono": true
+              },
+              {
+                "text": "// rimuove una classe agli elementi",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".toggleClass()  // aggiunge una classe se non presente,",
+            "runs": [
+              {
+                "text": ".",
+                "mono": true
+              },
+              {
+                "text": "toggleClass",
+                "mono": true
+              },
+              {
+                "text": "()  ",
+                "mono": true
+              },
+              {
+                "text": "// aggiunge una classe se non presente,",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "                // altrimenti la toglie",
+            "runs": [
+              {
+                "text": "                ",
+                "mono": true
+              },
+              {
+                "text": "// altrimenti la toglie",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".hasClass()     // metodo di controllo, ritorna true\n                // se l’elemento ha una specifica classe\n\n.addClass()     // aggiunge una classe agli elementi\n\n.removeClass()  // rimuove una classe agli elementi\n\n.toggleClass()  // aggiunge una classe se non presente,\n                // altrimenti la toglie"
+      }
+    ],
+    "originalText": [
+      "Gestione delle classi",
+      ".hasClass()     // metodo di controllo, ritorna true\n                // se l’elemento ha una specifica classe\n\n.addClass()     // aggiunge una classe agli elementi\n\n.removeClass()  // rimuove una classe agli elementi\n\n.toggleClass()  // aggiunge una classe se non presente,\n                // altrimenti la toglie"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 18,
+    "title": "Modifica del contenuto di un tag",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "// index.html",
+            "runs": [
+              {
+                "text": "// index.html",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "<p>testo del <strong>paragrafo</strong></p>",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "p",
+                "mono": true
+              },
+              {
+                "text": ">testo del <",
+                "mono": true
+              },
+              {
+                "text": "strong",
+                "mono": true
+              },
+              {
+                "text": ">paragrafo</",
+                "mono": true
+              },
+              {
+                "text": "strong",
+                "mono": true
+              },
+              {
+                "text": "></",
+                "mono": true
+              },
+              {
+                "text": "p",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// script.js",
+            "runs": [
+              {
+                "text": "// script.js",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"p\").text();    // \"testo del paragrafo\"",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"p\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "text",
+                "mono": true
+              },
+              {
+                "text": "();    ",
+                "mono": true
+              },
+              {
+                "text": "// \"testo del paragrafo\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"p\").html();    // \"testo del <strong>paragrafo</strong>\"",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"p\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "html",
+                "mono": true
+              },
+              {
+                "text": "();    ",
+                "mono": true
+              },
+              {
+                "text": "// \"testo del <strong>paragrafo</strong>\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"p\").text(\"Nuovo testo\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"p\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "text",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"Nuovo testo\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"p\").html(\"Nuovo testo con <strong>HTML</strong>\")",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"p\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "html",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"Nuovo testo con <strong>HTML</strong>\"",
+                "mono": true
+              },
+              {
+                "text": ")",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "// index.html\n<p>testo del <strong>paragrafo</strong></p>\n\n// script.js\n$(\"p\").text();    // \"testo del paragrafo\"\n$(\"p\").html();    // \"testo del <strong>paragrafo</strong>\"\n$(\"p\").text(\"Nuovo testo\");\n$(\"p\").html(\"Nuovo testo con <strong>HTML</strong>\")"
+      }
+    ],
+    "originalText": [
+      "Modifica del contenuto di un tag",
+      "// index.html\n<p>testo del <strong>paragrafo</strong></p>\n\n// script.js\n$(\"p\").text();    // \"testo del paragrafo\"\n$(\"p\").html();    // \"testo del <strong>paragrafo</strong>\"\n$(\"p\").text(\"Nuovo testo\");\n$(\"p\").html(\"Nuovo testo con <strong>HTML</strong>\")"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 19,
+    "title": "Esempi",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Una funzione che utilizza toggleClass per scambiare le classi di due elementi",
+            "runs": [
+              {
+                "text": "Una funzione che utilizza toggleClass per scambiare le classi di due elementi"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Una funzione per aggiungere una stringa al contenuto di un elemento",
+            "runs": [
+              {
+                "text": "Una funzione per aggiungere una stringa al contenuto di un elemento"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "https://stackblitz.com/edit/web-platform-6dmlsy",
+            "runs": [
+              {
+                "text": "https://stackblitz.com/edit/web-platform-6dmlsy",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-6dmlsy?file=index.html,script.js,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Una funzione che utilizza toggleClass per scambiare le classi di due elementi\nUna funzione per aggiungere una stringa al contenuto di un elemento\nhttps://stackblitz.com/edit/web-platform-6dmlsy"
+      }
+    ],
+    "originalText": [
+      "Esempi",
+      "Una funzione che utilizza toggleClass per scambiare le classi di due elementi\nUna funzione per aggiungere una stringa al contenuto di un elemento\nhttps://stackblitz.com/edit/web-platform-6dmlsy"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 20,
+    "title": "Inserimento di nuovi elementi",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "//seleziono un elemento e vi inserisco un nodo",
+            "runs": [
+              {
+                "text": "//seleziono un elemento e vi inserisco un nodo",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#menu\").append(\"<li>lista</li>\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "append",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"<li>lista</li>\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//inserisco un nuovo nodo nell'elemento selezionato",
+            "runs": [
+              {
+                "text": "//inserisco un nuovo nodo nell'elemento selezionato",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"<li>lista</li>\").appendTo(\"#menu\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"<li>lista</li>\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "appendTo",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//sposta i nodi da una lista all'altra",
+            "runs": [
+              {
+                "text": "//sposta i nodi da una lista all'altra",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#menu2 li\").appendTo(\"#menu\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu2 li\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "appendTo",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "//seleziono un elemento e vi inserisco un nodo\n$(\"#menu\").append(\"<li>lista</li>\");\n\n//inserisco un nuovo nodo nell'elemento selezionato\n$(\"<li>lista</li>\").appendTo(\"#menu\");\n\n//sposta i nodi da una lista all'altra\n$(\"#menu2 li\").appendTo(\"#menu\");"
+      }
+    ],
+    "originalText": [
+      "Inserimento di nuovi elementi",
+      "//seleziono un elemento e vi inserisco un nodo\n$(\"#menu\").append(\"<li>lista</li>\");\n\n//inserisco un nuovo nodo nell'elemento selezionato\n$(\"<li>lista</li>\").appendTo(\"#menu\");\n\n//sposta i nodi da una lista all'altra\n$(\"#menu2 li\").appendTo(\"#menu\");"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 21,
+    "title": "Rimuovere, svuotare e duplicare",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "$(\"table #riga1\").remove();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"table #riga1\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "remove",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// equivale a",
+            "runs": [
+              {
+                "text": "// equivale a",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"table tr\").remove(\"#riga1\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"table tr\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "remove",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#riga1\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// Svuotare un elemento",
+            "runs": [
+              {
+                "text": "// Svuotare un elemento",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").empty();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "empty",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// clonare una lista",
+            "runs": [
+              {
+                "text": "// clonare una lista",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#menu li\").clone().appendTo(\"#menu2\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu li\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "clone",
+                "mono": true
+              },
+              {
+                "text": "().",
+                "mono": true
+              },
+              {
+                "text": "appendTo",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu2\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "$(\"table #riga1\").remove();\n// equivale a\n$(\"table tr\").remove(\"#riga1\");\n\n// Svuotare un elemento\n$(\"#messaggio\").empty();\n\n// clonare una lista\n$(\"#menu li\").clone().appendTo(\"#menu2\");"
+      }
+    ],
+    "originalText": [
+      "Rimuovere, svuotare e duplicare",
+      "$(\"table #riga1\").remove();\n// equivale a\n$(\"table tr\").remove(\"#riga1\");\n\n// Svuotare un elemento\n$(\"#messaggio\").empty();\n\n// clonare una lista\n$(\"#menu li\").clone().appendTo(\"#menu2\");"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 22,
+    "title": "Ciclo su elementi",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "// index.html",
+            "runs": [
+              {
+                "text": "// index.html",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "<ul id=\"menu\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "ul",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "id",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"menu\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <li>Home</li>",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">Home</",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <li>Servizi</li>",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">Servizi</",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <li>Prodotti</li>",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">Prodotti</",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <li>Contatti</li>",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">Contatti</",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</ul>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "ul",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// script.js",
+            "runs": [
+              {
+                "text": "// script.js",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#menu li\").each(function (index) {",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu li\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "each",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": " (index) {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    console.log(index + \" \" + $(this).text());",
+            "runs": [
+              {
+                "text": "    console.",
+                "mono": true
+              },
+              {
+                "text": "log",
+                "mono": true
+              },
+              {
+                "text": "(index ",
+                "mono": true
+              },
+              {
+                "text": "+",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "\" \"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "+",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "this",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "text",
+                "mono": true
+              },
+              {
+                "text": "());",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "});",
+            "runs": [
+              {
+                "text": "});",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "// index.html\n<ul id=\"menu\">\n    <li>Home</li>\n    <li>Servizi</li>\n    <li>Prodotti</li>\n    <li>Contatti</li>\n</ul>\n\n// script.js\n$(\"#menu li\").each(function (index) {\n    console.log(index + \" \" + $(this).text());\n});"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "// Output:",
+            "runs": [
+              {
+                "text": "// Output:",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// 0 Home",
+            "runs": [
+              {
+                "text": "// 0 Home",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// 1 Servizi",
+            "runs": [
+              {
+                "text": "// 1 Servizi",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// 2 Prodotti",
+            "runs": [
+              {
+                "text": "// 2 Prodotti",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// 3 Contatti",
+            "runs": [
+              {
+                "text": "// 3 Contatti",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "// Output:\n// 0 Home\n// 1 Servizi\n// 2 Prodotti\n// 3 Contatti"
+      }
+    ],
+    "originalText": [
+      "Ciclo su elementi",
+      "// index.html\n<ul id=\"menu\">\n    <li>Home</li>\n    <li>Servizi</li>\n    <li>Prodotti</li>\n    <li>Contatti</li>\n</ul>\n\n// script.js\n$(\"#menu li\").each(function (index) {\n    console.log(index + \" \" + $(this).text());\n});",
+      "// Output:\n// 0 Home\n// 1 Servizi\n// 2 Prodotti\n// 3 Contatti"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 23,
+    "title": "On e gestione degli eventi (1)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "On assegna un handler di evento a uno o più eventi per un determinato elemento",
+            "runs": [
+              {
+                "text": "On ",
+                "bold": true
+              },
+              {
+                "text": "assegna un handler di evento a uno o più eventi per un determinato elemento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Gli eventi supportati sono: blur, focus, load, resize, scroll, unload, beforeunload, click, dblclick, mousedown, mouseup, mousemove, mouseover, mouseout, mouseenter, mouseleave, change, select, submit, keydown, keypress, keyup, error",
+            "runs": [
+              {
+                "text": "Gli eventi supportati sono: "
+              },
+              {
+                "text": "blur",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "focus",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "load",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "resize",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "scroll",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "unload",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "beforeunload",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "click",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "dblclick",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "mousedown",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "mouseup",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "mousemove",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "mouseover",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "mouseout",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "mouseenter",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "mouseleave",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "change",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "select",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "submit",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "keydown",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "keypress",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "keyup",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "error",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "On assegna un handler di evento a uno o più eventi per un determinato elemento\nGli eventi supportati sono: blur, focus, load, resize, scroll, unload, beforeunload, click, dblclick, mousedown, mouseup, mousemove, mouseover, mouseout, mouseenter, mouseleave, change, select, submit, keydown, keypress, keyup, error"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "// index.html",
+            "runs": [
+              {
+                "text": "// index.html",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "<a href=\"index.html\"><strong>Testo</strong></a>",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "href",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"index.html\"",
+                "mono": true
+              },
+              {
+                "text": "><",
+                "mono": true
+              },
+              {
+                "text": "strong",
+                "mono": true
+              },
+              {
+                "text": ">Testo</",
+                "mono": true
+              },
+              {
+                "text": "strong",
+                "mono": true
+              },
+              {
+                "text": "></",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// script.js",
+            "runs": [
+              {
+                "text": "// script.js",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"a\").on(\"click\", function (event) {",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"a\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "on",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"click\"",
+                "mono": true
+              },
+              {
+                "text": ", ",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": " (event) {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    alert($(this).attr(\"href\"));        //index.html",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "alert",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "this",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "attr",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"href\"",
+                "mono": true
+              },
+              {
+                "text": "));        ",
+                "mono": true
+              },
+              {
+                "text": "//index.html",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "});",
+            "runs": [
+              {
+                "text": "});",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "// index.html\n<a href=\"index.html\"><strong>Testo</strong></a>\n\n// script.js\n$(\"a\").on(\"click\", function (event) {\n    alert($(this).attr(\"href\"));        //index.html\n});"
+      }
+    ],
+    "originalText": [
+      "On e gestione degli eventi (1)",
+      "// index.html\n<a href=\"index.html\"><strong>Testo</strong></a>\n\n// script.js\n$(\"a\").on(\"click\", function (event) {\n    alert($(this).attr(\"href\"));        //index.html\n});",
+      "On assegna un handler di evento a uno o più eventi per un determinato elemento\nGli eventi supportati sono: blur, focus, load, resize, scroll, unload, beforeunload, click, dblclick, mousedown, mouseup, mousemove, mouseover, mouseout, mouseenter, mouseleave, change, select, submit, keydown, keypress, keyup, error"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 24,
+    "title": "On e gestione degli eventi (2)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La sintassi precedentemente definita associa un evento a uno o più elementi presenti nel DOM nel momento in cui il codice viene eseguito",
+            "runs": [
+              {
+                "text": "La sintassi precedentemente definita associa un evento a uno o più elementi presenti nel DOM nel momento in cui il codice viene eseguito"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In caso di elementi inseriti SUCCESSIVAMENTE (usando append e appendTo ad esempio), gli eventi definiti in questo modo non sono applicati",
+            "runs": [
+              {
+                "text": "In caso di elementi inseriti SUCCESSIVAMENTE (usando append e appendTo ad esempio), gli eventi definiti in questo modo non sono applicati"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In questi casi usare la sintassi alternativa ",
+            "runs": [
+              {
+                "text": "In questi casi usare la sintassi alternativa "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "La sintassi precedentemente definita associa un evento a uno o più elementi presenti nel DOM nel momento in cui il codice viene eseguito\nIn caso di elementi inseriti SUCCESSIVAMENTE (usando append e appendTo ad esempio), gli eventi definiti in questo modo non sono applicati\nIn questi casi usare la sintassi alternativa"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "$(\"#existing-container\").on(\"click\", \"a\", function (event) {",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#existing-container\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "on",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"click\"",
+                "mono": true
+              },
+              {
+                "text": ", ",
+                "mono": true
+              },
+              {
+                "text": "\"a\"",
+                "mono": true
+              },
+              {
+                "text": ", ",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": " (event) {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  alert($(this).attr(\"href\")); //index.html",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "alert",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "this",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "attr",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"href\"",
+                "mono": true
+              },
+              {
+                "text": ")); ",
+                "mono": true
+              },
+              {
+                "text": "//index.html",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "});",
+            "runs": [
+              {
+                "text": "});",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "$(\"#existing-container\").on(\"click\", \"a\", function (event) {\n  alert($(this).attr(\"href\")); //index.html\n});"
+      }
+    ],
+    "originalText": [
+      "On e gestione degli eventi (2)",
+      "La sintassi precedentemente definita associa un evento a uno o più elementi presenti nel DOM nel momento in cui il codice viene eseguito\nIn caso di elementi inseriti SUCCESSIVAMENTE (usando append e appendTo ad esempio), gli eventi definiti in questo modo non sono applicati\nIn questi casi usare la sintassi alternativa",
+      "$(\"#existing-container\").on(\"click\", \"a\", function (event) {\n  alert($(this).attr(\"href\")); //index.html\n});"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 25,
+    "title": "$(this)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nei cicli e negli eventi, per fare riferimento all'oggetto corrente, si utilizza $(this)",
+            "runs": [
+              {
+                "text": "Nei cicli e negli eventi, per fare riferimento all'oggetto corrente, si utilizza "
+              },
+              {
+                "text": "$(this)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Nei cicli e negli eventi, per fare riferimento all'oggetto corrente, si utilizza $(this)"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "$(\"#menu li\").each(function () {",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#menu li\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "each",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": " () {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  // $(this) è uguale al singolo li sul quale si sta iterando",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "// $(this) è uguale al singolo li sul quale si sta iterando",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "})",
+            "runs": [
+              {
+                "text": "})",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"a\").on(\"click\", function (event) {",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"a\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "on",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"click\"",
+                "mono": true
+              },
+              {
+                "text": ", ",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": " (event) {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  // $(this) è uguale alla a sulla quale si è fatto click",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "// $(this) è uguale alla a sulla quale si è fatto click",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "});",
+            "runs": [
+              {
+                "text": "});",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "$(\"#menu li\").each(function () {\n  // $(this) è uguale al singolo li sul quale si sta iterando\n})\n\n$(\"a\").on(\"click\", function (event) {\n  // $(this) è uguale alla a sulla quale si è fatto click\n});"
+      }
+    ],
+    "originalText": [
+      "$(this)",
+      "Nei cicli e negli eventi, per fare riferimento all'oggetto corrente, si utilizza $(this)",
+      "$(\"#menu li\").each(function () {\n  // $(this) è uguale al singolo li sul quale si sta iterando\n})\n\n$(\"a\").on(\"click\", function (event) {\n  // $(this) è uguale alla a sulla quale si è fatto click\n});"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 26,
+    "title": "Esempi",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Una funzione per dimostrare il funzionamento di each",
+            "runs": [
+              {
+                "text": "Una funzione per dimostrare il funzionamento di each"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Una funzione che mostri un alert con il contenuto di un elemento <li> quando ci clicchiamo sopra",
+            "runs": [
+              {
+                "text": "Una funzione che mostri un alert con il contenuto di un elemento <li> quando ci clicchiamo sopra"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Una funzione che aggiunge un nuovo list item leggendo il valore di un input",
+            "runs": [
+              {
+                "text": "Una funzione che aggiunge un nuovo list item leggendo il valore di un input"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "https://stackblitz.com/edit/web-platform-esdze5",
+            "runs": [
+              {
+                "text": "https://stackblitz.com/edit/web-platform-esdze5",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-esdze5?file=index.html,script.js,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Una funzione per dimostrare il funzionamento di each\nUna funzione che mostri un alert con il contenuto di un elemento <li> quando ci clicchiamo sopra\nUna funzione che aggiunge un nuovo list item leggendo il valore di un input\nhttps://stackblitz.com/edit/web-platform-esdze5"
+      }
+    ],
+    "originalText": [
+      "Esempi",
+      "Una funzione per dimostrare il funzionamento di each\nUna funzione che mostri un alert con il contenuto di un elemento <li> quando ci clicchiamo sopra\nUna funzione che aggiunge un nuovo list item leggendo il valore di un input\nhttps://stackblitz.com/edit/web-platform-esdze5"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 27,
+    "title": "Traversing (1)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Alcuni metodi di jQuery vi permettono di “attraversare” gli elementi del DOM",
+            "runs": [
+              {
+                "text": "Alcuni metodi di jQuery vi permettono di “attraversare” gli elementi del DOM"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Partendo da un elemento, potete selezionarne i fratelli, i figli, i genitori, o anche tutti gli antenati e i discendenti",
+            "runs": [
+              {
+                "text": "Partendo da un elemento, potete selezionarne i fratelli, i figli, i genitori, o anche tutti gli antenati e i "
+              },
+              {
+                "text": "discendenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Alcuni metodi di jQuery vi permettono di “attraversare” gli elementi del DOM\nPartendo da un elemento, potete selezionarne i fratelli, i figli, i genitori, o anche tutti gli antenati e i discendenti"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "//Seleziono il genitore dell’elemento",
+            "runs": [
+              {
+                "text": "//Seleziono il genitore dell’elemento",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").parent();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "parent",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono gli antenati dell’elemento",
+            "runs": [
+              {
+                "text": "//Seleziono gli antenati dell’elemento",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").parents();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "parents",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono i figli dell’elemento",
+            "runs": [
+              {
+                "text": "//Seleziono i figli dell’elemento",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").children();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "children",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono tutti i fratelli dell’elemento",
+            "runs": [
+              {
+                "text": "//Seleziono tutti i fratelli dell’elemento",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").siblings();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "siblings",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "//Seleziono il genitore dell’elemento\n$(\"#messaggio\").parent();\n//Seleziono gli antenati dell’elemento\n$(\"#messaggio\").parents();\n//Seleziono i figli dell’elemento\n$(\"#messaggio\").children();\n//Seleziono tutti i fratelli dell’elemento\n$(\"#messaggio\").siblings();"
+      }
+    ],
+    "originalText": [
+      "Traversing (1)",
+      "Alcuni metodi di jQuery vi permettono di “attraversare” gli elementi del DOM\nPartendo da un elemento, potete selezionarne i fratelli, i figli, i genitori, o anche tutti gli antenati e i discendenti",
+      "//Seleziono il genitore dell’elemento\n$(\"#messaggio\").parent();\n//Seleziono gli antenati dell’elemento\n$(\"#messaggio\").parents();\n//Seleziono i figli dell’elemento\n$(\"#messaggio\").children();\n//Seleziono tutti i fratelli dell’elemento\n$(\"#messaggio\").siblings();"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 28,
+    "title": "Traversing (2)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Oppure ricercare tra i discendenti o selezionare i fratelli con una logica posizionale (il fratello precedente o successivo)",
+            "runs": [
+              {
+                "text": "Oppure ricercare tra i discendenti o selezionare i fratelli con una logica "
+              },
+              {
+                "text": "posizionale"
+              },
+              {
+                "text": " (il fratello precedente o successivo)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Oppure ricercare tra i discendenti o selezionare i fratelli con una logica posizionale (il fratello precedente o successivo)"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "//Cerco un elemento tra i discendenti di quello selezionato",
+            "runs": [
+              {
+                "text": "//Cerco un elemento tra i discendenti di quello selezionato",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").find(\"p\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "find",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"p\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono il fratello successivo dell’elemento selezionato",
+            "runs": [
+              {
+                "text": "//Seleziono il fratello successivo dell’elemento selezionato",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").next();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "next",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono il fratello precedente dell’elemento selezionato",
+            "runs": [
+              {
+                "text": "//Seleziono il fratello precedente dell’elemento selezionato",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").prev();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "prev",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "//Cerco un elemento tra i discendenti di quello selezionato\n$(\"#messaggio\").find(\"p\");\n//Seleziono il fratello successivo dell’elemento selezionato\n$(\"#messaggio\").next();\n//Seleziono il fratello precedente dell’elemento selezionato\n$(\"#messaggio\").prev();"
+      }
+    ],
+    "originalText": [
+      "Traversing (2)",
+      "Oppure ricercare tra i discendenti o selezionare i fratelli con una logica posizionale (il fratello precedente o successivo)",
+      "//Cerco un elemento tra i discendenti di quello selezionato\n$(\"#messaggio\").find(\"p\");\n//Seleziono il fratello successivo dell’elemento selezionato\n$(\"#messaggio\").next();\n//Seleziono il fratello precedente dell’elemento selezionato\n$(\"#messaggio\").prev();"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 29,
+    "title": "Filtering",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Alcuni metodi di jQuery vi permettono di restringere la vostra selezione",
+            "runs": [
+              {
+                "text": "Alcuni metodi di jQuery vi permettono di restringere la vostra selezione"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Alcuni metodi di jQuery vi permettono di restringere la vostra selezione"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "//Seleziono soltanto il primo div",
+            "runs": [
+              {
+                "text": "//Seleziono soltanto il primo div",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"div\").first();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"div\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "first",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono soltanto l’ultimo div",
+            "runs": [
+              {
+                "text": "//Seleziono soltanto l’ultimo div",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"div\").last();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"div\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "last",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono il terzo div",
+            "runs": [
+              {
+                "text": "//Seleziono il terzo div",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"div\").eq(2);",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"div\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "eq",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "2",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono soltanto i div con classe “container”",
+            "runs": [
+              {
+                "text": "//Seleziono soltanto i div con classe “container”",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"div\").filter(\".container\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"div\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "filter",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\".container\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Seleziono i div che non hanno classe “intro”",
+            "runs": [
+              {
+                "text": "//Seleziono i div che non hanno classe “intro”",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"div\").not(\".intro\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"div\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "not",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\".intro\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "//Seleziono soltanto il primo div\n$(\"div\").first();\n//Seleziono soltanto l’ultimo div\n$(\"div\").last();\n//Seleziono il terzo div\n$(\"div\").eq(2);\n//Seleziono soltanto i div con classe “container”\n$(\"div\").filter(\".container\");\n//Seleziono i div che non hanno classe “intro”\n$(\"div\").not(\".intro\");"
+      }
+    ],
+    "originalText": [
+      "Filtering",
+      "Alcuni metodi di jQuery vi permettono di restringere la vostra selezione",
+      "//Seleziono soltanto il primo div\n$(\"div\").first();\n//Seleziono soltanto l’ultimo div\n$(\"div\").last();\n//Seleziono il terzo div\n$(\"div\").eq(2);\n//Seleziono soltanto i div con classe “container”\n$(\"div\").filter(\".container\");\n//Seleziono i div che non hanno classe “intro”\n$(\"div\").not(\".intro\");"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 30,
+    "title": "Effetti (1)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "jQuery offre una serie di metodi per creare effetti e modificare l’aspetto degli elementi del DOM",
+            "runs": [
+              {
+                "text": "jQuery offre una serie di metodi per creare effetti e modificare l’aspetto degli elementi del DOM"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "jQuery offre una serie di metodi per creare effetti e modificare l’aspetto degli elementi del DOM"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "//mostrare e nascondere un div (assegna e rimuove automaticamente “display:none” all’elemento selezionato)",
+            "runs": [
+              {
+                "text": "//mostrare e nascondere un div (assegna e rimuove automaticamente “display:none” all’elemento selezionato)",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").hide();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "hide",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").show();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "show",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").toggle();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "toggle",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//mostrare e nascondere un div con dissolvenza",
+            "runs": [
+              {
+                "text": "//mostrare e nascondere un div con dissolvenza",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").fadeIn();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "fadeIn",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").fadeOut();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "fadeOut",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").fadeToggle();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "fadeToggle",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//mostrare e nascondere un div con uno slide",
+            "runs": [
+              {
+                "text": "//mostrare e nascondere un div con uno slide",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").slideDown();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "slideDown",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").slideUp();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "slideUp",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").slideToggle();",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "slideToggle",
+                "mono": true
+              },
+              {
+                "text": "();",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "//mostrare e nascondere un div (assegna e rimuove automaticamente “display:none” all’elemento selezionato)\n$(\"#messaggio\").hide();\n$(\"#messaggio\").show();\n$(\"#messaggio\").toggle();\n//mostrare e nascondere un div con dissolvenza\n$(\"#messaggio\").fadeIn();\n$(\"#messaggio\").fadeOut();\n$(\"#messaggio\").fadeToggle();\n//mostrare e nascondere un div con uno slide\n$(\"#messaggio\").slideDown();\n$(\"#messaggio\").slideUp();\n$(\"#messaggio\").slideToggle();"
+      }
+    ],
+    "originalText": [
+      "Effetti (1)",
+      "jQuery offre una serie di metodi per creare effetti e modificare l’aspetto degli elementi del DOM",
+      "//mostrare e nascondere un div (assegna e rimuove automaticamente “display:none” all’elemento selezionato)\n$(\"#messaggio\").hide();\n$(\"#messaggio\").show();\n$(\"#messaggio\").toggle();\n//mostrare e nascondere un div con dissolvenza\n$(\"#messaggio\").fadeIn();\n$(\"#messaggio\").fadeOut();\n$(\"#messaggio\").fadeToggle();\n//mostrare e nascondere un div con uno slide\n$(\"#messaggio\").slideDown();\n$(\"#messaggio\").slideUp();\n$(\"#messaggio\").slideToggle();"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 31,
+    "title": "Effetti (1)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Come la maggior parte dei metodi jQuery, anche questi possono prendere degli argomenti",
+            "runs": [
+              {
+                "text": "Come la maggior parte dei metodi jQuery, anche questi possono prendere degli argomenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Come la maggior parte dei metodi jQuery, anche questi possono prendere degli argomenti"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "//Nascondere un div con una dissolvenza che duri 500 ms",
+            "runs": [
+              {
+                "text": "//Nascondere un div con una dissolvenza che duri 500 ms",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").fadeOut(500);",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "fadeOut",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "500",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "//Mostrare e nascondere un div con una dissolvenza lenta",
+            "runs": [
+              {
+                "text": "//Mostrare e nascondere un div con una dissolvenza lenta",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").fadeToggle(\"slow\");",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "fadeToggle",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"slow\"",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "//Nascondere un div con una dissolvenza che duri 500 ms\n$(\"#messaggio\").fadeOut(500);\n//Mostrare e nascondere un div con una dissolvenza lenta\n$(\"#messaggio\").fadeToggle(\"slow\");"
+      }
+    ],
+    "originalText": [
+      "Effetti (1)",
+      "Come la maggior parte dei metodi jQuery, anche questi possono prendere degli argomenti",
+      "//Nascondere un div con una dissolvenza che duri 500 ms\n$(\"#messaggio\").fadeOut(500);\n//Mostrare e nascondere un div con una dissolvenza lenta\n$(\"#messaggio\").fadeToggle(\"slow\");"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 32,
+    "title": "Esempi",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Effetti applicati su specifici elementi per mostrare filter e traversing",
+            "runs": [
+              {
+                "text": "Effetti applicati su specifici elementi per mostrare filter e traversing"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "https://stackblitz.com/edit/web-platform-btucem",
+            "runs": [
+              {
+                "text": "https://stackblitz.com/edit/web-platform-btucem",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-btucem?file=index.html,script.js,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Effetti applicati su specifici elementi per mostrare filter e traversing\nhttps://stackblitz.com/edit/web-platform-btucem"
+      }
+    ],
+    "originalText": [
+      "Esempi",
+      "Effetti applicati su specifici elementi per mostrare filter e traversing\nhttps://stackblitz.com/edit/web-platform-btucem"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 33,
+    "title": "Animate",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Con animate è possibile creare animazioni per gli elementi HTML, specificando degli stili CSS",
+            "runs": [
+              {
+                "text": "Con animate è possibile creare animazioni per gli elementi HTML, specificando degli stili CSS"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Questi stili verranno applicati all’elemento in modo graduale, con la velocità specificata ",
+            "runs": [
+              {
+                "text": "Questi stili verranno applicati all’elemento in modo graduale, con la velocità specificata "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I parametri CSS per l’animazione devono essere raggruppati all’interno di parentesi graffe",
+            "runs": [
+              {
+                "text": "I parametri CSS per l’animazione devono essere raggruppati all’interno di parentesi graffe"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Con animate è possibile creare animazioni per gli elementi HTML, specificando degli stili CSS\nQuesti stili verranno applicati all’elemento in modo graduale, con la velocità specificata \nI parametri CSS per l’animazione devono essere raggruppati all’interno di parentesi graffe"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "// Assegna una larghezza di 500px all’elemento,",
+            "runs": [
+              {
+                "text": "// Assegna una larghezza di 500px all’elemento,",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// l’elemento viene spostato di 100px,",
+            "runs": [
+              {
+                "text": "// l’elemento viene spostato di 100px,",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "// con un’animazione che dura 500 ms",
+            "runs": [
+              {
+                "text": "// con un’animazione che dura 500 ms",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "$(\"#messaggio\").animate({",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "animate",
+                "mono": true
+              },
+              {
+                "text": "({",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  width: \"500px\",",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "width",
+                "mono": true
+              },
+              {
+                "text": ":",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "\"500px\"",
+                "mono": true
+              },
+              {
+                "text": ",",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  left: \"100px\",",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "left",
+                "mono": true
+              },
+              {
+                "text": ":",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "\"100px\"",
+                "mono": true
+              },
+              {
+                "text": ",",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}, 500);",
+            "runs": [
+              {
+                "text": "}, ",
+                "mono": true
+              },
+              {
+                "text": "500",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "// Assegna una larghezza di 500px all’elemento,\n// l’elemento viene spostato di 100px,\n// con un’animazione che dura 500 ms\n$(\"#messaggio\").animate({\n  width: \"500px\",\n  left: \"100px\",\n}, 500);"
+      }
+    ],
+    "originalText": [
+      "Animate",
+      "Con animate è possibile creare animazioni per gli elementi HTML, specificando degli stili CSS\nQuesti stili verranno applicati all’elemento in modo graduale, con la velocità specificata \nI parametri CSS per l’animazione devono essere raggruppati all’interno di parentesi graffe",
+      "// Assegna una larghezza di 500px all’elemento,\n// l’elemento viene spostato di 100px,\n// con un’animazione che dura 500 ms\n$(\"#messaggio\").animate({\n  width: \"500px\",\n  left: \"100px\",\n}, 500);"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 34,
+    "title": "Callbacks",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Moltissimi metodi jQuery possono avere funzioni di callback, ovvero funzioni che vengono avviate quando il metodo o l’effetto sono terminati",
+            "runs": [
+              {
+                "text": "Moltissimi metodi jQuery possono avere funzioni di callback, ovvero funzioni che vengono avviate quando il metodo o l’effetto sono terminati"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Moltissimi metodi jQuery possono avere funzioni di callback, ovvero funzioni che vengono avviate quando il metodo o l’effetto sono terminati"
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "$(\"#messaggio\").animate({",
+            "runs": [
+              {
+                "text": "$",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "\"#messaggio\"",
+                "mono": true
+              },
+              {
+                "text": ").",
+                "mono": true
+              },
+              {
+                "text": "animate",
+                "mono": true
+              },
+              {
+                "text": "({",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  width: \"500px\"",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "width",
+                "mono": true
+              },
+              {
+                "text": ":",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "\"500px\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}, 500, function() {",
+            "runs": [
+              {
+                "text": "}, ",
+                "mono": true
+              },
+              {
+                "text": "500",
+                "mono": true
+              },
+              {
+                "text": ", ",
+                "mono": true
+              },
+              {
+                "text": "function",
+                "mono": true
+              },
+              {
+                "text": "() {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  // questa funzione viene eseguita quando ",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "// questa funzione viene eseguita quando ",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  // animate termina (dopo 500 ms)",
+            "runs": [
+              {
+                "text": "  // animate termina (dopo 500 ms)",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "});",
+            "runs": [
+              {
+                "text": "});",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "$(\"#messaggio\").animate({\n  width: \"500px\"\n}, 500, function() {\n  // questa funzione viene eseguita quando \n  // animate termina (dopo 500 ms)\n});"
+      }
+    ],
+    "originalText": [
+      "Callbacks",
+      "Moltissimi metodi jQuery possono avere funzioni di callback, ovvero funzioni che vengono avviate quando il metodo o l’effetto sono terminati",
+      "$(\"#messaggio\").animate({\n  width: \"500px\"\n}, 500, function() {\n  // questa funzione viene eseguita quando \n  // animate termina (dopo 500 ms)\n});"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 35,
+    "title": "Esempi",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempi animate",
+            "runs": [
+              {
+                "text": "Esempi animate"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "https://stackblitz.com/edit/web-platform-fvwhco",
+            "runs": [
+              {
+                "text": "https://stackblitz.com/edit/web-platform-fvwhco",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-fvwhco?file=index.html,script.js,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Esempi animate\nhttps://stackblitz.com/edit/web-platform-fvwhco"
+      }
+    ],
+    "originalText": [
+      "Esempi",
+      "Esempi animate\nhttps://stackblitz.com/edit/web-platform-fvwhco"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 36,
+    "title": "ESERCIZIO 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Create una semplice pagina HTML e includete la CDN di jQuery. Utilizzate jQuery per creare i seguenti script, Ciascuno deve essere innescato da un click su un determinato bottone",
+            "runs": [
+              {
+                "text": "Create una semplice pagina HTML e includete la CDN di jQuery. Utilizzate jQuery per creare i seguenti script, Ciascuno deve essere innescato da un click su un determinato bottone"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "uno script che aggiunga un nuovo elemento alla fine di un altro elemento, e uno script che aggiunga un nuovo elemento all’inizio di quell’elemento. ",
+            "runs": [
+              {
+                "text": "uno script che aggiunga un nuovo elemento alla fine di un altro elemento, e uno script che aggiunga un nuovo elemento all’inizio di quell’elemento. "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "uno script che applichi un fadeToggle soltanto agli elementi con una determinata classe. ",
+            "runs": [
+              {
+                "text": "uno script che applichi un fadeToggle soltanto agli elementi con una determinata classe. "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "uno script che utilizzi animate per fare espandere (in 1,5 secondi) un elemento, finché non occupa il 100% dello schermo. ",
+            "runs": [
+              {
+                "text": "uno script che utilizzi animate per fare espandere (in 1,5 secondi) un elemento, finché non occupa il 100% dello schermo. "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Create inoltre:",
+            "runs": [
+              {
+                "text": "Create inoltre:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "uno script che stampi in console il valore di un input quando questo viene modificato (utilizzate on con change).",
+            "runs": [
+              {
+                "text": "uno script che stampi in console il valore di un input quando questo viene modificato (utilizzate on con change)."
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "uno script che venga attivato quando la finestra $(window) viene ridimensionata (resize) e che mostri il valore di larghezza attuale (usate il metodo width()) all’interno di un div.",
+            "runs": [
+              {
+                "text": "uno script che venga attivato quando la finestra $(window) viene ridimensionata (resize) e che mostri il valore di larghezza attuale (usate il metodo width()) all’interno di un div."
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Create una semplice pagina HTML e includete la CDN di jQuery. Utilizzate jQuery per creare i seguenti script, Ciascuno deve essere innescato da un click su un determinato bottone\nuno script che aggiunga un nuovo elemento alla fine di un altro elemento, e uno script che aggiunga un nuovo elemento all’inizio di quell’elemento. \nuno script che applichi un fadeToggle soltanto agli elementi con una determinata classe. \nuno script che utilizzi animate per fare espandere (in 1,5 secondi) un elemento, finché non occupa il 100% dello schermo. \nCreate inoltre:\nuno script che stampi in console il valore di un input quando questo viene modificato (utilizzate on con change).\nuno script che venga attivato quando la finestra $(window) viene ridimensionata (resize) e che mostri il valore di larghezza attuale (usate il metodo width()) all’interno di un div."
+      }
+    ],
+    "originalText": [
+      "ESERCIZIO 1",
+      "Create una semplice pagina HTML e includete la CDN di jQuery. Utilizzate jQuery per creare i seguenti script, Ciascuno deve essere innescato da un click su un determinato bottone\nuno script che aggiunga un nuovo elemento alla fine di un altro elemento, e uno script che aggiunga un nuovo elemento all’inizio di quell’elemento. \nuno script che applichi un fadeToggle soltanto agli elementi con una determinata classe. \nuno script che utilizzi animate per fare espandere (in 1,5 secondi) un elemento, finché non occupa il 100% dello schermo. \nCreate inoltre:\nuno script che stampi in console il valore di un input quando questo viene modificato (utilizzate on con change).\nuno script che venga attivato quando la finestra $(window) viene ridimensionata (resize) e che mostri il valore di larghezza attuale (usate il metodo width()) all’interno di un div."
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 37,
+    "title": "Un po’ di reference",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Manipolazione del DOM\nhttps://api.jquery.com/category/manipulation/",
+            "runs": [
+              {
+                "text": "Manipolazione del DOM",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://api.jquery.com/category/manipulation/",
+                "underline": true,
+                "href": "https://api.jquery.com/category/manipulation/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Manipolazione del DOM\nhttps://api.jquery.com/category/manipulation/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Traversing\nhttps://api.jquery.com/category/traversing/",
+            "runs": [
+              {
+                "text": "Traversing",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://api.jquery.com/category/traversing/",
+                "underline": true,
+                "href": "https://api.jquery.com/category/traversing/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Traversing\nhttps://api.jquery.com/category/traversing/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Events\nhttps://api.jquery.com/category/events/",
+            "runs": [
+              {
+                "text": "Events",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://api.jquery.com/category/events/",
+                "underline": true,
+                "href": "https://api.jquery.com/category/events/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Events\nhttps://api.jquery.com/category/events/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Effects\nhttps://api.jquery.com/category/effects/",
+            "runs": [
+              {
+                "text": "Effects",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "https://api.jquery.com/category/effects/",
+                "underline": true,
+                "href": "https://api.jquery.com/category/effects/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Effects\nhttps://api.jquery.com/category/effects/"
+      }
+    ],
+    "originalText": [
+      "Un po’ di reference",
+      "Manipolazione del DOM\nhttps://api.jquery.com/category/manipulation/",
+      "Traversing\nhttps://api.jquery.com/category/traversing/",
+      "Events\nhttps://api.jquery.com/category/events/",
+      "Effects\nhttps://api.jquery.com/category/effects/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 38,
+    "title": "FINE",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 8",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 8"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 8"
+      }
+    ],
+    "originalText": [
+      "FINE",
+      "ESERCITAZIONE 8"
+    ],
+    "diagram": true
+  }
+]

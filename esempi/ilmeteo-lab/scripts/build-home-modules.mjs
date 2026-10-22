@@ -54,8 +54,8 @@ export async function buildHomeModules() {
     const html = match[1];
     return {href: html.match(/data-live-href="([^"]+)"/)[1], image: html.match(/\bsrc="([^"]+)"/)[1], title: plain(html.match(/<h3[^>]*>([\s\S]*?)<\/h3>/)[1]), date: plain(html.match(/<p[^>]*>([\s\S]*?)<\/p>/)[1])};
   });
-  const opening = `<div class="home-edition"><h1>Previsioni Meteo Italia</h1></div>
-  ${ad('booklet')}
+  const opening = `${ad('booklet')}
+  <div class="home-edition"><h1>Previsioni Meteo Italia</h1></div>
   <section class="home-frontpage" aria-labelledby="frontpage-title">
     <div class="home-section-heading"><h2 id="frontpage-title">Prima pagina</h2><a class="lab-btn lab-btn-outline" href="#home-news">Tutte le notizie${chevron}</a></div>
     <ul class="home-frontpage__stories">${headlines.map(story => `<li><a href="#snapshot-unavailable" data-live-href="${escape(story.href)}"><img src="${story.image}" width="240" height="150" alt="" decoding="async"/><div><h3>${escape(story.title)}</h3><time>${escape(story.date)}</time></div></a></li>`).join('\n')}</ul>
@@ -116,7 +116,7 @@ export async function buildHomeModules() {
       </div>
     </div>
   </section>`;
-  const resources = `<div class="home-leaderboard-slot">${ad('atlante')}</div><div class="home-secondary-reading">${summaries}<div class="home-resources-sidebar">${video}${ad('laboratorio')}</div></div><div class="home-international-grid">${international}</div>`;
+  const resources = `<div class="home-leaderboard-slot">${ad('atlante')}</div><div class="home-secondary-reading"><div class="home-summaries-column">${summaries}${ad('tipografia')}</div><div class="home-resources-sidebar">${video}${ad('laboratorio')}</div></div><div class="home-international-grid">${international}</div>`;
   const community = `<aside class="whatsapp-banner" aria-labelledby="whatsapp-banner-title">
     <img class="whatsapp-banner__logo" src="../assets/74340fa0a487-social_mobile_whatsapp.svg" width="64" height="64" alt="" loading="lazy" decoding="async"/>
     <div class="whatsapp-banner__copy"><h2 id="whatsapp-banner-title">${escape(site.name)}</h2><p>${escape(site.whatsapp.tagline)}</p></div>
@@ -130,8 +130,8 @@ export async function buildHomeModules() {
   }
   await fs.writeFile(path.join(lab, 'redesign/index.html'), html);
   const assets = await Promise.all(promotions.ads.map(async item => ({id:item.id, file:`${item.asset}.webp`, format:item.format, mobile:item.mobileAsset ? `${item.mobileAsset}.webp` : null, sha256:createHash('sha256').update(await fs.readFile(path.join(lab, `assets/advertising/campaign-v4/${item.asset}.webp`))).digest('hex'), prompt:`${item.asset}.json`, original:`${item.asset}.png`})));
-  await fs.writeFile(path.join(lab, 'assets/advertising/campaign-v4/manifest.json'), JSON.stringify({schemaVersion:1,date:'2026-10-13',generator:'built-in image_gen',catalog:'data/home-promotions.json',assets},null,2)+'\n');
-  console.log('Home: editorial opening, video, seven acquired summaries, world discovery and five promotions built.');
+  await fs.writeFile(path.join(lab, 'assets/advertising/campaign-v4/manifest.json'), JSON.stringify({schemaVersion:1,date:'2026-10-20',generator:'built-in image_gen',catalog:'data/home-promotions.json',assets},null,2)+'\n');
+  console.log('Home: editorial opening, video, seven acquired summaries, world discovery and six promotions built.');
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) await buildHomeModules();

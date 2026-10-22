@@ -6,11 +6,13 @@ import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { normalizeTitle } from '../../utils/normalize-title.mjs'
 import { checkPublication } from './publication.mjs'
+import { checkExerciseSources } from './exercise-sources.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 
 /** Structural checks also run without a server or browser. */
 export async function checkSlideSources() {
+  const exerciseReport = await checkExerciseSources()
   // Resolve Slidev's installed parser without adding a second parser dependency.
   const slidevRequire = createRequire(await realpath(new URL('../../node_modules/@slidev/cli/package.json', import.meta.url)))
   const { load, parseSlide } = await import(slidevRequire.resolve('@slidev/parser/fs'))
@@ -35,6 +37,9 @@ export async function checkSlideSources() {
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
   const uxLessonIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const addedUxSlides = curriculum.lessons.reduce((sum, lesson) => sum + lesson.slideCount, 0)
+  const exercises = JSON.parse(await readFile(path.join(root, 'assets/esercitazioni/manifest.json'), 'utf8'))
+  const addedExerciseSlides = exercises.slideCount
+  const addedOpeningSlides = 1
   const course = deck.slides.filter(slide => !slide.frontmatter.lesson)
 
   const summaryLessonIds = ['presentazione-corso', 'introduzione', 'storia-design', ...curriculum.lessons.map(spec => spec.id)]
@@ -50,7 +55,7 @@ export async function checkSlideSources() {
     assert.ok(summary.frontmatter.summarySupport?.trim(), id + ': summary support is present')
     assert.match(summary.content.trim(), /^# [^\n]+$/, id + ': summary content remains one Markdown heading')
   }
-  assert.equal(total, 221 + addedSlides + addedUxSlides, 'resolved deck includes topics and every declared UX lesson')
+  assert.equal(total, 221 + addedSlides + addedUxSlides + addedExerciseSlides + addedOpeningSlides, 'resolved deck includes topics, UX lessons, exercise index and imported exercises')
   assert.equal(lesson.length, 83, 'introduction: 83 slides')
   const lessonMinutes = set => set.reduce((sum, slide) => sum + slide.frontmatter.lessonMinutes, 0)
   assert.ok(Math.abs(lessonMinutes(lesson) - 120) < 1e-6, 'introduction: 120 minutes')
@@ -76,17 +81,17 @@ export async function checkSlideSources() {
   assert.equal(lesson[0].frontmatter.routeAlias, 'introduzione-teorica', 'stable chapter alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'introduzione-teorica').length, 1, 'unique alias')
   assert.equal(history.length, 67, 'history: 67 slides')
-  assert.equal(visibleDeck.slides.length, 221 + addedSlides + addedUxSlides, 'active chapters include every declared UX lesson')
-  assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, curriculum.lessons.at(-1).id, 'the UX course leads to the original closing')
+  assert.equal(visibleDeck.slides.length, total, 'active chapters include every declared lesson and exercise')
+  assert.equal(visibleDeck.slides.at(-2).frontmatter.lesson, exercises.exercises.at(-1).id, 'the exercises lead to the original closing')
   assert.equal(course.length, 40, 'course presentation: 40 slides, including closing')
-  assert.equal(course[0].index, 6, 'course presentation starts at deck slide 7')
+  assert.equal(course[0].index, 7, 'course presentation starts after the seven opening slides')
   assert.equal(course[0].frontmatter.routeAlias, 'presentazione-corso', 'course alias opens its first slide')
   assert.deepEqual(deck.slides.filter(slide => slide.frontmatter.lesson === 'apertura').map(slide => slide.index),
-    [0, 1, 2, 3, 4, 5], 'opening: six preliminary slides')
+    [0, 1, 2, 3, 4, 5, 6], 'opening: seven preliminary slides including the exercise index')
   assert.ok(Math.abs(lessonMinutes(history) - 120) < 1e-6, 'history: 120 minutes')
   assert.deepEqual(history.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: history.length }, (_, i) => i + 1), 'history sequence')
   assert.equal(history[0].index, lesson.at(-1).index + 1, 'history immediately follows introduction')
-  assert.equal(history.at(-1).index, total - addedUxSlides - 2, 'the preserved history chapter precedes the added UX course')
+  assert.equal(history.at(-1).index, total - addedUxSlides - addedExerciseSlides - 2, 'the preserved history chapter precedes the UX course and exercises')
   assert.equal(history[0].frontmatter.routeAlias, 'storia-design', 'stable history alias')
   assert.equal(deck.slides.filter(slide => slide.frontmatter.routeAlias === 'storia-design').length, 1, 'unique history alias')
   assert.equal(history.filter(slide => slide.frontmatter.class.includes('lesson-activity')).length, 3, 'history: three classroom activities')
@@ -503,7 +508,7 @@ export async function checkSlideSources() {
   ]
   assert.equal(brief.length, 25, 'standalone project brief: twenty-five slides')
   assert.deepEqual(brief.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: 25 }, (_, i) => i + 1), 'project brief lesson sequence')
-  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 45 + i), 'project brief: consecutive slides 46–70')
+  assert.deepEqual(brief.map(slide => slide.index), Array.from({ length: 25 }, (_, i) => 46 + i), 'project brief: consecutive slides 47–71')
   assert.deepEqual(brief.map(slide => slide.frontmatter.routeAlias), briefAliases, 'project brief: stable aliases in lesson order')
   assert.equal(deck.slides[brief[0].index - 1].title, 'Contatti', 'course contacts precede project brief')
   assert.equal(brief.at(-1).index + 1, approfondimenti[0].index, 'topic section immediately follows project brief')
@@ -749,7 +754,7 @@ export async function checkSlideSources() {
   const visibleHistory = visibleDeck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design')
   const publication = await checkPublication()
   const report = { slides: visibleDeck.slides.length, sourceSlides: total, course: course.length, introduction: lesson.length,
-    publication,
+    publication, exercises: exerciseReport,
     history: visibleHistory.length, preservedHistory: history.length,
     lessonMinutes: [lesson, history].map(set => Math.round(lessonMinutes(set) * 1e6) / 1e6),
     publicImages: assets.size, uxExamples: uxExamples.length, bookletPages: booklet.pages.length,

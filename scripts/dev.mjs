@@ -21,7 +21,7 @@ if (initialCSS.status !== 0) process.exit(initialCSS.status ?? 1)
 // Compile utility classes added to slides or Vue components without restarting Slidev.
 const children = [
   spawn(process.execPath, [...cssArgs, '--watch=always'], { cwd: root, stdio: 'inherit' }),
-  spawn(process.execPath, ['node_modules/@slidev/cli/bin/slidev.mjs', '--open', ...args.filter(arg => arg !== '--full')], { cwd: root, stdio: 'inherit', env }),
+  spawn(process.execPath, ['node_modules/@slidev/cli/bin/slidev.mjs', ...args.filter(arg => arg !== '--full')], { cwd: root, stdio: 'inherit', env }),
 ]
 let stopping = false
 function stop(code = 0) {

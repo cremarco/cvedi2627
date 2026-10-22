@@ -17,6 +17,7 @@ test('preserves sources and referenced evidence while cleaning output and empty 
     'public/images/original.webp': 'source image',
     'materiali/original.pdf': 'source document',
     'dist/index.html': 'build',
+    '.slidev/decks-dev.json': '{"mode":"dev"}',
     'output/pdf/draft.pdf': 'export',
     'slides-export/1.png': 'export',
     '.impeccable/config.json': '{}',
@@ -31,17 +32,19 @@ test('preserves sources and referenced evidence while cleaning output and empty 
     }
     await mkdir(path.join(root, 'reports/empty-parent/evidence'), { recursive: true })
     await symlink(path.join(root, 'materiali'), path.join(root, 'reports/source-link'))
-    const preview = await cleanProject(root, { dryRun: true })
+    const preview = await cleanProject(root, { dryRun: true, keepDev: true })
     assert.ok(preview.removedPaths.includes('progetti'))
     for (const [file, content] of Object.entries(fixtures)) assert.equal(await readFile(path.join(root, file), 'utf8'), content)
-    const result = await cleanProject(root)
+    const result = await cleanProject(root, { keepDev: true })
     assert.deepEqual(result.removedPaths, preview.removedPaths)
     assert.equal(result.removedBytes, preview.removedBytes)
     for (const file of ['assets/manifest.json', 'reports/evidence/verification.json', 'reports/reference-group/result.json', 'public/images/original.webp', 'materiali/original.pdf', '.impeccable/config.json', 'node_modules/package/.DS_Store'])
       assert.equal(await readFile(path.join(root, file), 'utf8'), fixtures[file])
     await access(path.join(root, 'reports/empty-parent/evidence'))
+    assert.equal(await readFile(path.join(root, '.slidev/decks-dev.json'), 'utf8'), fixtures['.slidev/decks-dev.json'])
     for (const file of ['dist', 'output', 'slides-export', 'progetti', 'reports/unused', 'reports/evidence/unused.png', 'reports/source-link', '.impeccable/review'])
       await assert.rejects(readFile(path.join(root, file)), { code: 'ENOENT' })
-    assert.deepEqual((await cleanProject(root)).removedPaths, [])
+    assert.deepEqual((await cleanProject(root, { keepDev: true })).removedPaths, [])
+    assert.ok((await cleanProject(root)).removedPaths.includes('.slidev'))
   } finally { await rm(root, { recursive: true, force: true }) }
 })

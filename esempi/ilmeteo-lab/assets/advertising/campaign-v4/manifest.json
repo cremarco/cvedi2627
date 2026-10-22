@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "date": "2026-10-13",
+  "date": "2026-10-20",
   "generator": "built-in image_gen",
   "catalog": "data/home-promotions.json",
   "assets": [
@@ -68,6 +68,19 @@
       "sha256": "508d3ce62265eb9e536bb4dba2c94f672fea9f6ed033cd4d1d1dd76d939c1246",
       "prompt": "ux-smallbanner-v4.json",
       "original": "ux-smallbanner-v4.png"
+    },
+    {
+      "id": "tipografia",
+      "file": "tipografia-leaderboard-v1.webp",
+      "format": {
+        "name": "leaderboard",
+        "width": 728,
+        "height": 90
+      },
+      "mobile": "tipografia-mobile-v1.webp",
+      "sha256": "2f6ea2b0b438acf0c58125fe8b76d92c075a964bfc3b26ceb6afd6651b1e901e",
+      "prompt": "tipografia-leaderboard-v1.json",
+      "original": "tipografia-leaderboard-v1.png"
     }
   ]
 }

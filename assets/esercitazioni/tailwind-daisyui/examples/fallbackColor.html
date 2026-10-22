@@ -1,0 +1,9 @@
+<!doctype html><html lang="it" data-theme="light"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="../render.css"><style>html{font-size:24px}body{margin:0;background:var(--color-base-100);color:var(--color-base-content);font-family:ui-sans-serif,system-ui,sans-serif}.demo-stage{box-sizing:border-box;width:100%;height:420px;padding:32px;display:grid;align-items:center}*,*::before,*::after{animation-play-state:paused!important}table{font-size:24px!important}form{margin:0}dialog .modal-box{max-height:390px}</style></head><body><main class="demo-stage"><style>
+  .campione { background: var(--superficie, var(--color-base-200)); }
+</style>
+<div class="grid gap-6 sm:grid-cols-2">
+  <p class="campione p-6">Variabile assente: entra il fallback.</p>
+  <p class="campione p-6" style="--superficie:var(--color-base-300)">
+    Variabile presente: viene usato il valore locale.
+  </p>
+</div></main></body></html>

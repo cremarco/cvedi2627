@@ -10,31 +10,31 @@ Il tema 2026/27 resta **WHAT IF?**: immaginare un’organizzazione e servizi del
 
 | Brief / deck | Titolo | Slide della fonte 2025/26 | Adattamento |
 | --- | --- | --- | --- |
-| 1 / 46 | Brief di progetto | 1–4 | Copertina autonoma WHAT IF? 2050 con stile della presentazione corrente. |
-| 2 / 47 | Obiettivo e percorso | 3–7 | Sito responsive human-centered, sistema riutilizzabile e tre materiali finali; indice interno. |
-| 3 / 48 | WHAT IF? | 26–27 | Organizzazione e servizi del 2050 basati sulle potenzialità future dell’AI. |
-| 4 / 49 | Dal bisogno al concept | 4–6 | Destinatari, valore, ipotesi future e scelte delle persone. |
-| 5 / 50 | Potenzialità dell’AI | 6 | Direzioni creative per l’offerta, presentate come possibilità progettuali. |
-| 6 / 51 | Spunti per partire | 6 | Esempi illustrativi; ogni gruppo sviluppa una proposta originale. |
-| 7 / 52 | Dal concept al sito web | 4, 26–29 | Identità, catalogo, funzionamento dell’offerta e accesso al servizio. |
-| 8 / 53 | Un percorso completo | 27 | Scoperta, personalizzazione, attivazione e recupero dagli errori. |
-| 9 / 54 | Progetto: requisiti | 28 | Accessibilità, responsive, lingua italiana, contributo dell’AI e controllo dell’utente. |
-| 10 / 55 | Dal brief alle decisioni | 4–7 | Sintesi condivisa di persone, valore, AI, identità e sito. |
-| 11 / 56 | Ricerca: alternative e riferimenti | 8–10 | Tre interfacce comparabili e tre riferimenti funzionali o visivi di servizi attuali. |
-| 12 / 57 | Tre profili, bisogni diversi | 8 e 11; L04 2025/26, pp | Tre proto-personas; separazione fra osservazioni e ipotesi sul 2050. |
-| 13 / 58 | Dare una direzione al concept | 8 e 12 | Moodboard motivata rispetto al servizio e ai destinatari. |
-| 14 / 59 | Organizzare il sito WHAT IF? | 20 e 29; adattamento dell’architettura del ristorante al nuovo tema | Architettura riferita a organizzazione, servizi e attivazione; tre schede complete di servizi o varianti. |
-| 15 / 60 | Dal percorso ai wireframe | 13–14 | Mobile e desktop; distinzione fra user flow e storyboard. |
-| 16 / 61 | Un flusso da verificare | 13–14 e 27 | Esempio ipotetico di esperienze professionali, con configurazione, controllo, conferma e recupero. |
-| 17 / 62 | Dallo stile al design system | 3, 15 e 22 | Fondamenti, componenti e applicazione ai wireframe. |
-| 18 / 63 | Mockup: coprire pagine e stati | 15–16; adattamento alle funzioni e ai requisiti WHAT IF? | Tipologie del nuovo sito, formati e stati dell’interfaccia. |
-| 19 / 64 | Revisioni: mostrare e motivare | 7–8 e 13–17 | Materiali per le revisioni; calendario e modalità 2026/27 da comunicare. |
-| 20 / 65 | Tre materiali per la consegna | 18–23 | Sito ZIP o collegamento GitHub TXT; PDF del design system e PDF del percorso; limite di 10 MB per file. |
-| 21 / 66 | Codice leggibile e verificato | 20–21 e 25; requisiti responsive e accessibili del brief attuale | Naming, HTML/CSS, risorse e verifica del sito; interfaccia in italiano. |
-| 22 / 67 | Il design system finale | 22 e 25 | Look & feel e atomi/molecole senza codice nel PDF, con esempi d’uso. |
-| 23 / 68 | Documentare l’evoluzione | 7, 17 e 23 | Versioni intermedie, motivazioni, esiti e limiti della simulazione. |
-| 24 / 69 | Come verrà letto il progetto | 24–25 | Quattro ambiti di valutazione, senza introdurre pesi o nuove soglie. |
-| 25 / 70 | Prima della consegna | 24 e 30 | Controllo di requisiti, materiali e comunicazioni; chiarimenti nel forum. |
+| 1 / 47 | Brief di progetto | 1–4 | Copertina autonoma WHAT IF? 2050 con stile della presentazione corrente. |
+| 2 / 48 | Obiettivo e percorso | 3–7 | Sito responsive human-centered, sistema riutilizzabile e tre materiali finali; indice interno. |
+| 3 / 49 | WHAT IF? | 26–27 | Organizzazione e servizi del 2050 basati sulle potenzialità future dell’AI. |
+| 4 / 50 | Dal bisogno al concept | 4–6 | Destinatari, valore, ipotesi future e scelte delle persone. |
+| 5 / 51 | Potenzialità dell’AI | 6 | Direzioni creative per l’offerta, presentate come possibilità progettuali. |
+| 6 / 52 | Spunti per partire | 6 | Esempi illustrativi; ogni gruppo sviluppa una proposta originale. |
+| 7 / 53 | Dal concept al sito web | 4, 26–29 | Identità, catalogo, funzionamento dell’offerta e accesso al servizio. |
+| 8 / 54 | Un percorso completo | 27 | Scoperta, personalizzazione, attivazione e recupero dagli errori. |
+| 9 / 55 | Progetto: requisiti | 28 | Accessibilità, responsive, lingua italiana, contributo dell’AI e controllo dell’utente. |
+| 10 / 56 | Dal brief alle decisioni | 4–7 | Sintesi condivisa di persone, valore, AI, identità e sito. |
+| 11 / 57 | Ricerca: alternative e riferimenti | 8–10 | Tre interfacce comparabili e tre riferimenti funzionali o visivi di servizi attuali. |
+| 12 / 58 | Tre profili, bisogni diversi | 8 e 11; L04 2025/26, pp | Tre proto-personas; separazione fra osservazioni e ipotesi sul 2050. |
+| 13 / 59 | Dare una direzione al concept | 8 e 12 | Moodboard motivata rispetto al servizio e ai destinatari. |
+| 14 / 60 | Organizzare il sito WHAT IF? | 20 e 29; adattamento dell’architettura del ristorante al nuovo tema | Architettura riferita a organizzazione, servizi e attivazione; tre schede complete di servizi o varianti. |
+| 15 / 61 | Dal percorso ai wireframe | 13–14 | Mobile e desktop; distinzione fra user flow e storyboard. |
+| 16 / 62 | Un flusso da verificare | 13–14 e 27 | Esempio ipotetico di esperienze professionali, con configurazione, controllo, conferma e recupero. |
+| 17 / 63 | Dallo stile al design system | 3, 15 e 22 | Fondamenti, componenti e applicazione ai wireframe. |
+| 18 / 64 | Mockup: coprire pagine e stati | 15–16; adattamento alle funzioni e ai requisiti WHAT IF? | Tipologie del nuovo sito, formati e stati dell’interfaccia. |
+| 19 / 65 | Revisioni: mostrare e motivare | 7–8 e 13–17 | Materiali per le revisioni; calendario e modalità 2026/27 da comunicare. |
+| 20 / 66 | Tre materiali per la consegna | 18–23 | Sito ZIP o collegamento GitHub TXT; PDF del design system e PDF del percorso; limite di 10 MB per file. |
+| 21 / 67 | Codice leggibile e verificato | 20–21 e 25; requisiti responsive e accessibili del brief attuale | Naming, HTML/CSS, risorse e verifica del sito; interfaccia in italiano. |
+| 22 / 68 | Il design system finale | 22 e 25 | Look & feel e atomi/molecole senza codice nel PDF, con esempi d’uso. |
+| 23 / 69 | Documentare l’evoluzione | 7, 17 e 23 | Versioni intermedie, motivazioni, esiti e limiti della simulazione. |
+| 24 / 70 | Come verrà letto il progetto | 24–25 | Quattro ambiti di valutazione, senza introdurre pesi o nuove soglie. |
+| 25 / 71 | Prima della consegna | 24 e 30 | Controllo di requisiti, materiali e comunicazioni; chiarimenti nel forum. |
 
 ## Scelte editoriali e organizzative
 

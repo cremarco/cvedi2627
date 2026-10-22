@@ -21,6 +21,15 @@ export const slideSets: Record<string, SlideSet> = {
   'tipografia-griglie': { id: 'tipografia-griglie', label: 'Lezione 08', palette: 'ux-type', lessonNumber: 8, artworkPalette: 'tipografia-griglie' },
   'prototipi-interfacce': { id: 'prototipi-interfacce', label: 'Lezione 09', palette: 'ux-prototype', lessonNumber: 9, artworkPalette: 'prototipi-interfacce' },
   'test-implementazione': { id: 'test-implementazione', label: 'Lezione 10', palette: 'ux-test', lessonNumber: 10, artworkPalette: 'test-implementazione' },
+  'esercitazione-01': { id: 'esercitazione-01', label: 'Esercitazione 01', palette: 'course' },
+  'esercitazione-02': { id: 'esercitazione-02', label: 'Esercitazione 02', palette: 'introduction' },
+  'esercitazione-03': { id: 'esercitazione-03', label: 'Esercitazione 03', palette: 'history' },
+  'esercitazione-04': { id: 'esercitazione-04', label: 'Esercitazione 04', palette: 'ux-research' },
+  'esercitazione-05': { id: 'esercitazione-05', label: 'Esercitazione 05', palette: 'ux-perception' },
+  'esercitazione-06': { id: 'esercitazione-06', label: 'Esercitazione 06', palette: 'ux-gestalt' },
+  'esercitazione-07': { id: 'esercitazione-07', label: 'Esercitazione 07', palette: 'ux-color' },
+  'esercitazione-08': { id: 'esercitazione-08', label: 'Esercitazione 08', palette: 'ux-type' },
+  'esercitazione-09': { id: 'esercitazione-09', label: 'Esercitazione 09', palette: 'ux-prototype' },
 }
 
 export function slideSet(lesson: unknown): SlideSet {

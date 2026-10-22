@@ -1396,5 +1396,24 @@
       "colore-27": 2,
       "colore-28": 2
     }
+  },
+  "presentationMotion": {
+    "component": "components/ColorWheelDiagram.vue",
+    "data": "data/color-wheels.ts",
+    "styles": "styles/color-wheels.css",
+    "nativeVectorsPreserved": true,
+    "maxDurationMs": 2200,
+    "loops": false,
+    "replay": "Rianima: native button, keyboard accessible",
+    "enlargement": "Original shared LessonFigure image",
+    "staticStates": [
+      "reduced-motion",
+      "print",
+      "inactive-slide",
+      "hidden-document",
+      "open-enlargement"
+    ],
+    "verification": "reports/color-wheels/report.json",
+    "preview": "reports/color-wheels/complementare-desktop.png"
   }
 }

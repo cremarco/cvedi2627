@@ -1,0 +1,5202 @@
+[
+  {
+    "sourceSlide": 1,
+    "title": "Corso di CVeDI (8 CFU)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 6",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 6",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 6"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Elia Guarnieri",
+            "runs": [
+              {
+                "text": "Elia Guarnieri",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "elia.guarnieri@unimib.it",
+            "runs": [
+              {
+                "text": "elia.guarnieri@unimib.it",
+                "bold": true,
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Elia Guarnieri\nelia.guarnieri@unimib.it"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/cacd5da19bc008391b3e.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/38e8102022b2d97adb1f.png",
+        "alt": "Corso di CVeDI (8 CFU) · figura della slide originale 1"
+      }
+    ],
+    "originalText": [
+      "Corso di\nCVeDI (8 CFU)",
+      "ESERCITAZIONE 6",
+      "Elia Guarnieri\nelia.guarnieri@unimib.it"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 2,
+    "title": "Altri elementi di Bootstrap: content, component, utilities",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Bootstrap: reboot e stili preimpostati",
+            "runs": [
+              {
+                "text": "Bootstrap: reboot e stili preimpostati"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Bootstrap: componenti",
+            "runs": [
+              {
+                "text": "Bootstrap: componenti"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Bootstrap: utilities",
+            "runs": [
+              {
+                "text": "Bootstrap: utilities"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Bootstrap: reboot e stili preimpostati\nBootstrap: componenti\nBootstrap: utilities"
+      }
+    ],
+    "originalText": [
+      "Altri elementi di Bootstrap: content, component, utilities",
+      "Bootstrap: reboot e stili preimpostati\nBootstrap: componenti\nBootstrap: utilities"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 3,
+    "title": "BOOTSTRAP: REBOOT E STILI PREIMPOSTATI",
+    "blocks": [],
+    "originalText": [
+      "BOOTSTRAP: REBOOT E STILI PREIMPOSTATI"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 4,
+    "title": "Reboot",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nel file .css di Bootstrap è compreso un reboot degli stili assegnati di default dai browser ad alcuni elementi",
+            "runs": [
+              {
+                "text": "Nel file .css di Bootstrap è compreso un "
+              },
+              {
+                "text": "reboot degli stili ",
+                "bold": true
+              },
+              {
+                "text": "assegnati di default dai browser ad alcuni elementi"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per farlo, Bootstrap riscrive le proprietà associate  ai semplici selettori di elemento (come “p” o “h1”)",
+            "runs": [
+              {
+                "text": "Per farlo, Bootstrap riscrive le proprietà associate  ai semplici selettori di elemento (come “p” o “h1”)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "“Reboot, una collezione di cambiamenti di CSS specifici per determinati elementi compresa in un solo file, fornisce a Boostrap una base elegante e coerente su cui costruire il resto”",
+            "runs": [
+              {
+                "text": "“Reboot, una collezione di cambiamenti di CSS specifici per determinati elementi compresa in un solo file, fornisce a Boostrap una base elegante e coerente su cui costruire il resto”"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Nel file .css di Bootstrap è compreso un reboot degli stili assegnati di default dai browser ad alcuni elementi\nPer farlo, Bootstrap riscrive le proprietà associate  ai semplici selettori di elemento (come “p” o “h1”)\n“Reboot, una collezione di cambiamenti di CSS specifici per determinati elementi compresa in un solo file, fornisce a Boostrap una base elegante e coerente su cui costruire il resto”"
+      }
+    ],
+    "originalText": [
+      "Reboot",
+      "Nel file .css di Bootstrap è compreso un reboot degli stili assegnati di default dai browser ad alcuni elementi\nPer farlo, Bootstrap riscrive le proprietà associate  ai semplici selettori di elemento (come “p” o “h1”)\n“Reboot, una collezione di cambiamenti di CSS specifici per determinati elementi compresa in un solo file, fornisce a Boostrap una base elegante e coerente su cui costruire il resto”"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 5,
+    "title": "User agent stylesheet",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Quando il browser renderizza una pagina, applica degli stili di base predefiniti",
+            "runs": [
+              {
+                "text": "Quando il browser renderizza una pagina, applica degli "
+              },
+              {
+                "text": "stili di base predefinit",
+                "bold": true
+              },
+              {
+                "text": "i",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per fare un esempio semplice, è evidente che i tag h1-h6 appaiano diversi dal testo normale, anche prima che voi abbiate scritto qualsiasi CSS. ",
+            "runs": [
+              {
+                "text": "Per fare un esempio semplice, è evidente che i tag h1-h6 appaiano diversi dal testo normale, anche prima che voi abbiate scritto qualsiasi CSS. "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Tutti i browser applicano questi stili di base, ma gli stili di ogni browser potrebbero differire leggermente da quelli degli altri.  ",
+            "runs": [
+              {
+                "text": "Tutti i browser applicano questi stili di base, ma gli stili di ogni browser potrebbero differire leggermente da quelli degli altri.  "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ovviamente questo causa un problema a livello di coerenza. Per questo si rendono necessari approcci di reboot dei Css",
+            "runs": [
+              {
+                "text": "Ovviamente questo causa un problema a livello di coerenza. Per questo si rendono necessari approcci di reboot dei Css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Quando il browser renderizza una pagina, applica degli stili di base predefiniti\nPer fare un esempio semplice, è evidente che i tag h1-h6 appaiano diversi dal testo normale, anche prima che voi abbiate scritto qualsiasi CSS. \nTutti i browser applicano questi stili di base, ma gli stili di ogni browser potrebbero differire leggermente da quelli degli altri.  \nOvviamente questo causa un problema a livello di coerenza. Per questo si rendono necessari approcci di reboot dei Css"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/548283f1f1d1f021a5d8.png",
+        "alt": "User agent stylesheet · figura della slide originale 5"
+      }
+    ],
+    "originalText": [
+      "User agent stylesheet",
+      "Quando il browser renderizza una pagina, applica degli stili di base predefiniti\nPer fare un esempio semplice, è evidente che i tag h1-h6 appaiano diversi dal testo normale, anche prima che voi abbiate scritto qualsiasi CSS. \nTutti i browser applicano questi stili di base, ma gli stili di ogni browser potrebbero differire leggermente da quelli degli altri.  \nOvviamente questo causa un problema a livello di coerenza. Per questo si rendono necessari approcci di reboot dei Css"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 6,
+    "title": "Normalize vs Reset",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Bootstrap effettua il reboot utilizzando Normalize, progetto open-source sviluppato collaborativamente su Github",
+            "runs": [
+              {
+                "text": "Bootstrap effettua il reboot utilizzando "
+              },
+              {
+                "text": "Normalize",
+                "bold": true
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "progetto open-source sviluppato collaborativamente su "
+              },
+              {
+                "text": "Github",
+                "underline": true,
+                "href": "https://github.com/necolas/normalize.css/blob/master/normalize.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I Css di Normalize creano coerenza tra gli stili di quegli elementi che potrebbero avere un aspetto diverso su diversi browser",
+            "runs": [
+              {
+                "text": "I Css di Normalize creano coerenza tra gli stili di quegli elementi che potrebbero avere un aspetto diverso su diversi browser"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Una soluzione più aggressiva per il reboot sarebbe il Reset (uno dei più famosi è quello di Eric Meyer)",
+            "runs": [
+              {
+                "text": "Una soluzione più aggressiva per il reboot sarebbe il "
+              },
+              {
+                "text": "Reset ",
+                "bold": true
+              },
+              {
+                "text": "(uno dei più famosi è "
+              },
+              {
+                "text": "quello di Eric Meyer",
+                "underline": true,
+                "href": "https://meyerweb.com/eric/tools/css/reset/"
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Nel Reset, differentemente da Normalize, a tutti gli elementi HTML vengono tolti padding, margini, bordi, allineamenti e font-size",
+            "runs": [
+              {
+                "text": "Nel Reset, differentemente da Normalize, a tutti gli elementi HTML vengono tolti padding, margini, bordi, allineamenti e font-size"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Bootstrap effettua il reboot utilizzando Normalize, progetto open-source sviluppato collaborativamente su Github\nI Css di Normalize creano coerenza tra gli stili di quegli elementi che potrebbero avere un aspetto diverso su diversi browser\nUna soluzione più aggressiva per il reboot sarebbe il Reset (uno dei più famosi è quello di Eric Meyer)\nNel Reset, differentemente da Normalize, a tutti gli elementi HTML vengono tolti padding, margini, bordi, allineamenti e font-size"
+      }
+    ],
+    "originalText": [
+      "Normalize vs Reset",
+      "Bootstrap effettua il reboot utilizzando Normalize, progetto open-source sviluppato collaborativamente su Github\nI Css di Normalize creano coerenza tra gli stili di quegli elementi che potrebbero avere un aspetto diverso su diversi browser\nUna soluzione più aggressiva per il reboot sarebbe il Reset (uno dei più famosi è quello di Eric Meyer)\nNel Reset, differentemente da Normalize, a tutti gli elementi HTML vengono tolti padding, margini, bordi, allineamenti e font-size"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 7,
+    "title": "Stili aggiuntivi e classi per i contenuti",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per compensare gli effetti del reboot, Bootstrap offre diverse classi che forniscono un po’ di eleganza agli elementi",
+            "runs": [
+              {
+                "text": "Per compensare gli effetti del reboot, Bootstrap offre diverse classi che forniscono un po’ di eleganza agli elementi"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per quanto riguarda i contenuti più comuni, inoltre, come ad esempio tipografia, immagini e tabelle, esistono sia classi che modificano il design sia classi con uno scopo funzionale (utilities)",
+            "runs": [
+              {
+                "text": "Per quanto riguarda i contenuti più comuni, inoltre, come ad esempio tipografia, immagini e tabelle, "
+              },
+              {
+                "text": "esistono sia classi che modificano il design sia classi con uno scopo funzionale (utilities)",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Per compensare gli effetti del reboot, Bootstrap offre diverse classi che forniscono un po’ di eleganza agli elementi\nPer quanto riguarda i contenuti più comuni, inoltre, come ad esempio tipografia, immagini e tabelle, esistono sia classi che modificano il design sia classi con uno scopo funzionale (utilities)"
+      }
+    ],
+    "originalText": [
+      "Stili aggiuntivi e classi per i contenuti",
+      "Per compensare gli effetti del reboot, Bootstrap offre diverse classi che forniscono un po’ di eleganza agli elementi\nPer quanto riguarda i contenuti più comuni, inoltre, come ad esempio tipografia, immagini e tabelle, esistono sia classi che modificano il design sia classi con uno scopo funzionale (utilities)"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 8,
+    "title": "Tabelle",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "Tabella senza classe .table",
+            "runs": [
+              {
+                "text": "Tabella senza classe .table",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Tabella senza classe .table"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Ad esempio, le tabelle normalizzate da Bootstrap appaiono così",
+            "runs": [
+              {
+                "text": "Ad esempio, le tabelle normalizzate da Bootstrap appaiono così"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Assegnando semplicemente la classe .table, però, otteniamo già un elemento più elegante, che può essere a sua volta una base di partenza per applicare stili personalizzati",
+            "runs": [
+              {
+                "text": "Assegnando semplicemente la classe "
+              },
+              {
+                "text": ".table",
+                "bold": true
+              },
+              {
+                "text": ", però, otteniamo già un elemento più elegante, che può essere a sua volta una base di partenza per applicare stili personalizzati"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per le tabelle, Bootstrap, fornisce molte altre classi, che aiutano a gestire bordi, header, caption e responsiveness.",
+            "runs": [
+              {
+                "text": "Per le tabelle, Bootstrap, fornisce "
+              },
+              {
+                "text": "molte altre classi",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/content/tables/"
+              },
+              {
+                "text": ", che aiutano a gestire bordi, header, caption e responsiveness."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Ad esempio, le tabelle normalizzate da Bootstrap appaiono così\nAssegnando semplicemente la classe .table, però, otteniamo già un elemento più elegante, che può essere a sua volta una base di partenza per applicare stili personalizzati\nPer le tabelle, Bootstrap, fornisce molte altre classi, che aiutano a gestire bordi, header, caption e responsiveness."
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "Tabella con classe .table",
+            "runs": [
+              {
+                "text": "Tabella con classe .table",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Tabella con classe .table"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/06-008-diagram.webp",
+        "alt": "Tabelle. Tabella con classe .table Tabella senza classe .table",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "Tabelle",
+      "Ad esempio, le tabelle normalizzate da Bootstrap appaiono così\nAssegnando semplicemente la classe .table, però, otteniamo già un elemento più elegante, che può essere a sua volta una base di partenza per applicare stili personalizzati\nPer le tabelle, Bootstrap, fornisce molte altre classi, che aiutano a gestire bordi, header, caption e responsiveness.",
+      "Tabella con classe .table",
+      "Tabella senza classe .table"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 9,
+    "title": "Tipografia",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Ai tag headings (h1, h2, etc.) Bootstrap assegna una dimensione definita in rem. Mette anche a disposizione classi come .h1 per dare ad un altro tipo di elemento lo stesso aspetto di un heading ",
+            "runs": [
+              {
+                "text": "Ai tag headings (h1, h2, etc.) Bootstrap assegna una dimensione definita in rem. Mette anche a disposizione classi come "
+              },
+              {
+                "text": ".h1",
+                "bold": true
+              },
+              {
+                "text": " per dare ad un altro tipo di elemento lo stesso aspetto di un heading "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Altri elementi che il toolkit si è premurato di ridisegnare sono, ad esempio, <blockquote> e gli heading display (.display-{n}) per creare testi in evidenza di grosse dimensioni",
+            "runs": [
+              {
+                "text": "Altri elementi che il toolkit si è premurato di ridisegnare sono, ad esempio, "
+              },
+              {
+                "text": "<blockquote>",
+                "bold": true
+              },
+              {
+                "text": " e gli heading display ("
+              },
+              {
+                "text": ".display-{n}",
+                "bold": true
+              },
+              {
+                "text": ") per creare testi in evidenza di grosse dimensioni"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "https://getbootstrap.com/docs/5.3/content/typography/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/content/typography/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/content/typography/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ci sono anche diverse utilities: e.g. classi per assegnare velocemente le proprietà word-break, text-transform, font-weight, wrap",
+            "runs": [
+              {
+                "text": "Ci sono anche diverse utilities: e.g. classi per assegnare velocemente le proprietà "
+              },
+              {
+                "text": "word-break",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/text/#word-break"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "text-transform",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/text/#text-transform"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "font-weight",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/text/#font-weight-and-italics"
+              },
+              {
+                "text": ", "
+              },
+              {
+                "text": "wrap",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/text/#text-wrapping-and-overflow"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Ai tag headings (h1, h2, etc.) Bootstrap assegna una dimensione definita in rem. Mette anche a disposizione classi come .h1 per dare ad un altro tipo di elemento lo stesso aspetto di un heading \nAltri elementi che il toolkit si è premurato di ridisegnare sono, ad esempio, <blockquote> e gli heading display (.display-{n}) per creare testi in evidenza di grosse dimensioni\nhttps://getbootstrap.com/docs/5.3/content/typography/\nCi sono anche diverse utilities: e.g. classi per assegnare velocemente le proprietà word-break, text-transform, font-weight, wrap"
+      }
+    ],
+    "originalText": [
+      "Tipografia",
+      "Ai tag headings (h1, h2, etc.) Bootstrap assegna una dimensione definita in rem. Mette anche a disposizione classi come .h1 per dare ad un altro tipo di elemento lo stesso aspetto di un heading \nAltri elementi che il toolkit si è premurato di ridisegnare sono, ad esempio, <blockquote> e gli heading display (.display-{n}) per creare testi in evidenza di grosse dimensioni\nhttps://getbootstrap.com/docs/5.3/content/typography/\nCi sono anche diverse utilities: e.g. classi per assegnare velocemente le proprietà word-break, text-transform, font-weight, wrap"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 10,
+    "title": "Immagini e figure",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Bootstrap permette di creare immediatamente un’immagine con una larghezza che non superi il 100%",
+            "runs": [
+              {
+                "text": "Bootstrap permette di creare immediatamente un’immagine con una larghezza che non superi il 100%"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".img-fluid - assegna max-width: 100%; height: auto all’elemento a cui viene assegnata",
+            "runs": [
+              {
+                "text": ".img-fluid ",
+                "bold": true
+              },
+              {
+                "text": "- assegna max-width: 100%; height: auto all’elemento a cui viene assegnata"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".img-thumbnail - crea una sottile cornice intorno all’immagine, con i bordi lievemente arrotondati",
+            "runs": [
+              {
+                "text": ".img-thumbnail",
+                "bold": true
+              },
+              {
+                "text": " - crea una sottile cornice intorno all’immagine, con i bordi lievemente arrotondati"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".rounded (che fa parte delle utilities dei bordi) assegna un border-radius un poco più marcato",
+            "runs": [
+              {
+                "text": ".rounded",
+                "bold": true
+              },
+              {
+                "text": " (che fa parte delle utilities dei bordi) assegna un border-radius un poco più marcato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Bootstrap permette di creare immediatamente un’immagine con una larghezza che non superi il 100%\n.img-fluid - assegna max-width: 100%; height: auto all’elemento a cui viene assegnata\n.img-thumbnail - crea una sottile cornice intorno all’immagine, con i bordi lievemente arrotondati\n.rounded (che fa parte delle utilities dei bordi) assegna un border-radius un poco più marcato"
+      }
+    ],
+    "originalText": [
+      "Immagini e figure",
+      "Bootstrap permette di creare immediatamente un’immagine con una larghezza che non superi il 100%\n.img-fluid - assegna max-width: 100%; height: auto all’elemento a cui viene assegnata\n.img-thumbnail - crea una sottile cornice intorno all’immagine, con i bordi lievemente arrotondati\n.rounded (che fa parte delle utilities dei bordi) assegna un border-radius un poco più marcato"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 11,
+    "title": "BOOTSTRAP: COMPONENTI",
+    "blocks": [],
+    "originalText": [
+      "BOOTSTRAP: COMPONENTI"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 12,
+    "title": "Cos’è un componente",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I componenti di Bootstrap sono elementi più complessi, molto spesso contenenti molteplici, specifici tag Html (anche innestati uno dentro l’altro) e classi CSS e attributi definiti",
+            "runs": [
+              {
+                "text": "I componenti di Bootstrap sono elementi più complessi, molto spesso contenenti molteplici, specifici tag Html (anche innestati uno dentro l’altro) e classi CSS e attributi definiti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In alcuni casi questi elementi sono resi reattivi dall’integrazione di codice JavaScript",
+            "runs": [
+              {
+                "text": "In alcuni casi questi elementi sono resi reattivi dall’integrazione di codice JavaScript"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "I componenti sono elementi utili pronti per l’utilizzo",
+            "runs": [
+              {
+                "text": "I componenti sono elementi utili pronti per l’utilizzo"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "I componenti di Bootstrap sono elementi più complessi, molto spesso contenenti molteplici, specifici tag Html (anche innestati uno dentro l’altro) e classi CSS e attributi definiti\nIn alcuni casi questi elementi sono resi reattivi dall’integrazione di codice JavaScript\nI componenti sono elementi utili pronti per l’utilizzo"
+      }
+    ],
+    "originalText": [
+      "Cos’è un componente",
+      "I componenti di Bootstrap sono elementi più complessi, molto spesso contenenti molteplici, specifici tag Html (anche innestati uno dentro l’altro) e classi CSS e attributi definiti\nIn alcuni casi questi elementi sono resi reattivi dall’integrazione di codice JavaScript\nI componenti sono elementi utili pronti per l’utilizzo"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 13,
+    "title": "Cos’è un componente",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Nella maggior parte dei casi gli elementi dei componenti sono interdipendenti ",
+            "runs": [
+              {
+                "text": "Nella maggior parte dei casi gli elementi dei componenti sono "
+              },
+              {
+                "text": "interdipendenti ",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per l’applicazione del corretto stile e del corretto funzionamento, ad esempio, fanno uso di selettori relazione e proprio per questo bisogna stare attenti a non utilizzare i genitori di un componente senza i figli per lui previsti, e i figli senza i genitori",
+            "runs": [
+              {
+                "text": "Per l’applicazione del corretto stile e del corretto funzionamento, ad esempio, fanno uso di selettori relazione e proprio per questo bisogna stare attenti a non utilizzare i genitori di un componente senza i figli per lui previsti, e i figli senza i genitori"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Nella maggior parte dei casi gli elementi dei componenti sono interdipendenti \nPer l’applicazione del corretto stile e del corretto funzionamento, ad esempio, fanno uso di selettori relazione e proprio per questo bisogna stare attenti a non utilizzare i genitori di un componente senza i figli per lui previsti, e i figli senza i genitori"
+      }
+    ],
+    "originalText": [
+      "Cos’è un componente",
+      "Nella maggior parte dei casi gli elementi dei componenti sono interdipendenti \nPer l’applicazione del corretto stile e del corretto funzionamento, ad esempio, fanno uso di selettori relazione e proprio per questo bisogna stare attenti a non utilizzare i genitori di un componente senza i figli per lui previsti, e i figli senza i genitori"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 14,
+    "title": "Alcuni componenti utili",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Card - https://getbootstrap.com/docs/5.3/components/card",
+            "runs": [
+              {
+                "text": "Card",
+                "bold": true
+              },
+              {
+                "text": " - "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/components/card",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/card"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Card - https://getbootstrap.com/docs/5.3/components/card"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Alert - https://getbootstrap.com/docs/5.3/components/alerts/",
+            "runs": [
+              {
+                "text": "Alert",
+                "bold": true
+              },
+              {
+                "text": " - "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/components/alerts/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/alerts/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Alert - https://getbootstrap.com/docs/5.3/components/alerts/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Breadcrumbs - https://getbootstrap.com/docs/5.3/components/breadcrumb/",
+            "runs": [
+              {
+                "text": "Breadcrumbs",
+                "bold": true
+              },
+              {
+                "text": " - "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/components/breadcrumb/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/breadcrumb/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Breadcrumbs - https://getbootstrap.com/docs/5.3/components/breadcrumb/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dropdown - https://getbootstrap.com/docs/5.3/components/dropdowns/",
+            "runs": [
+              {
+                "text": "Dropdown",
+                "bold": true
+              },
+              {
+                "text": " - "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/components/dropdowns/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/dropdowns/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Dropdown - https://getbootstrap.com/docs/5.3/components/dropdowns/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Form - https://getbootstrap.com/docs/5.3/forms/overview/",
+            "runs": [
+              {
+                "text": "Form",
+                "bold": true
+              },
+              {
+                "text": " - "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/forms/overview/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/forms/overview/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Form - https://getbootstrap.com/docs/5.3/forms/overview/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Input group - https://getbootstrap.com/docs/5.3/forms/input-group/",
+            "runs": [
+              {
+                "text": "Input group ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/forms/input-group/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/forms/input-group/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Input group - https://getbootstrap.com/docs/5.3/forms/input-group/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Navbar - https://getbootstrap.com/docs/5.3/components/navbar/",
+            "runs": [
+              {
+                "text": "Navbar",
+                "bold": true
+              },
+              {
+                "text": " - "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/components/navbar/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/navbar/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Navbar - https://getbootstrap.com/docs/5.3/components/navbar/"
+      }
+    ],
+    "originalText": [
+      "Alcuni componenti utili",
+      "Card - https://getbootstrap.com/docs/5.3/components/card",
+      "Alert - https://getbootstrap.com/docs/5.3/components/alerts/",
+      "Breadcrumbs - https://getbootstrap.com/docs/5.3/components/breadcrumb/",
+      "Dropdown - https://getbootstrap.com/docs/5.3/components/dropdowns/",
+      "Form - https://getbootstrap.com/docs/5.3/forms/overview/",
+      "Input group - https://getbootstrap.com/docs/5.3/forms/input-group/",
+      "Navbar - https://getbootstrap.com/docs/5.3/components/navbar/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 15,
+    "title": "Card",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le card forniscono un contenitore per diverse tipologie di contenuti ",
+            "runs": [
+              {
+                "text": "Le card forniscono un contenitore per diverse tipologie di contenuti "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Sono molto flessibili ed è possibile estenderle con diverse varianti e opzioni (e.g., per header e footer)",
+            "runs": [
+              {
+                "text": "Sono molto flessibili ed è possibile estenderle con diverse varianti e opzioni (e.g., per header e footer)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le card pre-impostate ci arrivano con poco markup e con stili minimali, lasciando a noi il controllo e la possibilità di personalizzazione. Sono realizzate con flexbox e offrono anche una facile gestione degli allineamenti",
+            "runs": [
+              {
+                "text": "Le card pre-impostate ci arrivano con poco markup e con stili minimali, lasciando a noi il controllo e la possibilità di personalizzazione. Sono realizzate con flexbox e offrono anche una facile gestione degli allineamenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Le card forniscono un contenitore per diverse tipologie di contenuti \nSono molto flessibili ed è possibile estenderle con diverse varianti e opzioni (e.g., per header e footer)\nLe card pre-impostate ci arrivano con poco markup e con stili minimali, lasciando a noi il controllo e la possibilità di personalizzazione. Sono realizzate con flexbox e offrono anche una facile gestione degli allineamenti"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/06-015-diagram.webp",
+        "alt": "Card. ",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "Card",
+      "Le card forniscono un contenitore per diverse tipologie di contenuti \nSono molto flessibili ed è possibile estenderle con diverse varianti e opzioni (e.g., per header e footer)\nLe card pre-impostate ci arrivano con poco markup e con stili minimali, lasciando a noi il controllo e la possibilità di personalizzazione. Sono realizzate con flexbox e offrono anche una facile gestione degli allineamenti"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 16,
+    "title": "Card",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<div class=\"card\" style=\"width: 18rem;\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "style",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"width: 18rem;\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   <img src=\"...\" class=\"card-img-top\">",
+            "runs": [
+              {
+                "text": "   <",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"...\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-img-top\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   <div class=\"card-body\">",
+            "runs": [
+              {
+                "text": "   <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-body\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <h5 class=\"card-title\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "h5",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-title\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         Card title",
+            "runs": [
+              {
+                "text": "         Card title",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      </h5>",
+            "runs": [
+              {
+                "text": "      </",
+                "mono": true
+              },
+              {
+                "text": "h5",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <p class=\"card-text\">Some quick",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "p",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-text\"",
+                "mono": true
+              },
+              {
+                "text": ">Some quick",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         example text to build on the",
+            "runs": [
+              {
+                "text": "         example text to build on the",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         card title and make up the bulk",
+            "runs": [
+              {
+                "text": "         card title and make up the bulk",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         of the card's content.</p>",
+            "runs": [
+              {
+                "text": "         of the card's content.</",
+                "mono": true
+              },
+              {
+                "text": "p",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <a href=\"#\" class=\"btn btn-primary\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "href",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"#\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"btn btn-primary\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         Go somewhere",
+            "runs": [
+              {
+                "text": "         Go somewhere",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      </a>",
+            "runs": [
+              {
+                "text": "      </",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   </div>",
+            "runs": [
+              {
+                "text": "   </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<div class=\"card\" style=\"width: 18rem;\">\n   <img src=\"...\" class=\"card-img-top\">\n   <div class=\"card-body\">\n      <h5 class=\"card-title\">\n         Card title\n      </h5>\n      <p class=\"card-text\">Some quick\n         example text to build on the\n         card title and make up the bulk\n         of the card's content.</p>\n      <a href=\"#\" class=\"btn btn-primary\">\n         Go somewhere\n      </a>\n   </div>\n</div>"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le card non hanno una dimensione fissa, quindi senza aggiunta di stili specifici andranno ad occupare l’intera larghezza del loro parent",
+            "runs": [
+              {
+                "text": "Le card non hanno una dimensione fissa, quindi senza aggiunta di stili specifici andranno ad occupare l’intera larghezza del loro parent"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Le card non hanno una dimensione fissa, quindi senza aggiunta di stili specifici andranno ad occupare l’intera larghezza del loro parent"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/632feef623a51c5f62d5.jpg",
+        "alt": "Card · figura della slide originale 16"
+      }
+    ],
+    "originalText": [
+      "Card",
+      "Le card non hanno una dimensione fissa, quindi senza aggiunta di stili specifici andranno ad occupare l’intera larghezza del loro parent",
+      "<div class=\"card\" style=\"width: 18rem;\">\n   <img src=\"...\" class=\"card-img-top\">\n   <div class=\"card-body\">\n      <h5 class=\"card-title\">\n         Card title\n      </h5>\n      <p class=\"card-text\">Some quick\n         example text to build on the\n         card title and make up the bulk\n         of the card's content.</p>\n      <a href=\"#\" class=\"btn btn-primary\">\n         Go somewhere\n      </a>\n   </div>\n</div>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 17,
+    "title": "Card groups",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<div class=\"card-group\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-group\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   <div class=\"card\">",
+            "runs": [
+              {
+                "text": "   <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <img src=\"...\" class=\"card-img-top\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"...\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-img-top\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <div class=\"card-body\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-body\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         ...",
+            "runs": [
+              {
+                "text": "         ...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      </div>",
+            "runs": [
+              {
+                "text": "      </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   </div>",
+            "runs": [
+              {
+                "text": "   </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   <div class=\"card\">",
+            "runs": [
+              {
+                "text": "   <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <img src=\"...\" class=\"card-img-top\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"...\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-img-top\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <div class=\"card-body\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-body\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         ...",
+            "runs": [
+              {
+                "text": "         ...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      </div>",
+            "runs": [
+              {
+                "text": "      </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   </div>",
+            "runs": [
+              {
+                "text": "   </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   <div class=\"card\">",
+            "runs": [
+              {
+                "text": "   <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <img src=\"...\" class=\"card-img-top\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "img",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "src",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"...\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-img-top\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <div class=\"card-body\">",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"card-body\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "         ...",
+            "runs": [
+              {
+                "text": "         ...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      </div>",
+            "runs": [
+              {
+                "text": "      </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   </div>",
+            "runs": [
+              {
+                "text": "   </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<div class=\"card-group\">\n   <div class=\"card\">\n      <img src=\"...\" class=\"card-img-top\">\n      <div class=\"card-body\">\n         ...\n      </div>\n   </div>\n\n   <div class=\"card\">\n      <img src=\"...\" class=\"card-img-top\">\n      <div class=\"card-body\">\n         ...\n      </div>\n   </div>\n\n   <div class=\"card\">\n      <img src=\"...\" class=\"card-img-top\">\n      <div class=\"card-body\">\n         ...\n      </div>\n   </div>\n</div>"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Card group permette di creare delle card attaccate l’una all’altra che abbiano la stessa altezza e larghezza.",
+            "runs": [
+              {
+                "text": "Card group permette di creare delle card attaccate l’una all’altra che abbiano la stessa altezza e larghezza."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "È possibile usare .row e .col per creare una griglia di card (docs)",
+            "runs": [
+              {
+                "text": "È possibile usare .row e .col per creare una griglia di card ("
+              },
+              {
+                "text": "docs",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/card/#grid-cards"
+              },
+              {
+                "text": ")"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Card group permette di creare delle card attaccate l’una all’altra che abbiano la stessa altezza e larghezza.\nÈ possibile usare .row e .col per creare una griglia di card (docs)"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/f0123a7dc54a0de3a307.jpg",
+        "alt": "Card groups · figura della slide originale 17"
+      }
+    ],
+    "originalText": [
+      "Card groups",
+      "Card group permette di creare delle card attaccate l’una all’altra che abbiano la stessa altezza e larghezza.\nÈ possibile usare .row e .col per creare una griglia di card (docs)",
+      "<div class=\"card-group\">\n   <div class=\"card\">\n      <img src=\"...\" class=\"card-img-top\">\n      <div class=\"card-body\">\n         ...\n      </div>\n   </div>\n\n   <div class=\"card\">\n      <img src=\"...\" class=\"card-img-top\">\n      <div class=\"card-body\">\n         ...\n      </div>\n   </div>\n\n   <div class=\"card\">\n      <img src=\"...\" class=\"card-img-top\">\n      <div class=\"card-body\">\n         ...\n      </div>\n   </div>\n</div>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 18,
+    "title": "Alert component",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<div class=\"alert alert-success\" role=\"alert\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert alert-success\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "role",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   A simple success alert—check it out!",
+            "runs": [
+              {
+                "text": "   A simple success alert—check it out!",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "<div class=\"alert alert-danger\" role=\"alert\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert alert-danger\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "role",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   A simple danger alert—check it out!",
+            "runs": [
+              {
+                "text": "   A simple danger alert—check it out!",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "<div class=\"alert alert-warning\" role=\"alert\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert alert-warning\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "role",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "   A simple warning alert—check it out!",
+            "runs": [
+              {
+                "text": "   A simple warning alert—check it out!",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<div class=\"alert alert-success\" role=\"alert\">\n   A simple success alert—check it out!\n</div>\n\n<div class=\"alert alert-danger\" role=\"alert\">\n   A simple danger alert—check it out!\n</div>\n\n<div class=\"alert alert-warning\" role=\"alert\">\n   A simple warning alert—check it out!\n</div>"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Gli alert possono essere utili per fornire feedback all’utente in seguito ad una sua azione. Gli stili sono garantiti da classi contestuali some .alert-success",
+            "runs": [
+              {
+                "text": "Gli alert possono essere utili per fornire feedback all’utente in seguito ad una sua azione. Gli stili sono garantiti da classi contestuali some "
+              },
+              {
+                "text": ".alert-success",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Gli alert possono essere utili per fornire feedback all’utente in seguito ad una sua azione. Gli stili sono garantiti da classi contestuali some .alert-success"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/06-018-diagram.webp",
+        "alt": "Alert component. Gli alert possono essere utili per fornire feedback all’utente in seguito ad una sua azione. Gli stili sono garantiti da classi contestuali some .alert-success <div class=\"alert alert-success\" role=\"alert\"> A simple success alert—check it out! </div> <div class=\"alert alert-danger\" role=\"alert\"> A simple danger alert—check it out! </div> <div class=\"alert alert-warning\" role=\"alert\"> A simple warning alert—check it out! </div>",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "Alert component",
+      "Gli alert possono essere utili per fornire feedback all’utente in seguito ad una sua azione. Gli stili sono garantiti da classi contestuali some .alert-success",
+      "<div class=\"alert alert-success\" role=\"alert\">\n   A simple success alert—check it out!\n</div>\n\n<div class=\"alert alert-danger\" role=\"alert\">\n   A simple danger alert—check it out!\n</div>\n\n<div class=\"alert alert-warning\" role=\"alert\">\n   A simple warning alert—check it out!\n</div>"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 19,
+    "title": "Alert component",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<div",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    class=\"alert alert-warning",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert alert-warning",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    alert-dismissible fade show\"",
+            "runs": [
+              {
+                "text": "    alert-dismissible fade show\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    role=\"alert\">",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "role",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  <strong>",
+            "runs": [
+              {
+                "text": "  <",
+                "mono": true
+              },
+              {
+                "text": "strong",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    Holy guacamole!",
+            "runs": [
+              {
+                "text": "    Holy guacamole!",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  </strong>",
+            "runs": [
+              {
+                "text": "  </",
+                "mono": true
+              },
+              {
+                "text": "strong",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  <button",
+            "runs": [
+              {
+                "text": "  <",
+                "mono": true
+              },
+              {
+                "text": "button",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    type=\"button\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "type",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"button\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    class=\"close\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"close\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    data-dismiss=\"alert\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "data-dismiss",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"alert\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    aria-label=\"Close\">",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "aria-label",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"Close\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <span aria-hidden=\"true\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "span",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "aria-hidden",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"true\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      &times;",
+            "runs": [
+              {
+                "text": "      ",
+                "mono": true
+              },
+              {
+                "text": "&times;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </span>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "span",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  </button>",
+            "runs": [
+              {
+                "text": "  </",
+                "mono": true
+              },
+              {
+                "text": "button",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<div\n    class=\"alert alert-warning\n    alert-dismissible fade show\"\n    role=\"alert\">\n  <strong>\n    Holy guacamole!\n  </strong>\n  <button\n    type=\"button\"\n    class=\"close\"\n    data-dismiss=\"alert\"\n    aria-label=\"Close\">\n    <span aria-hidden=\"true\">\n      &times;\n    </span>\n  </button>\n</div>"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Si può anche creare un alert dismissable, che sfrutterà le funzioni contenute in util.js",
+            "runs": [
+              {
+                "text": "Si può anche creare un alert dismissable, che sfrutterà le funzioni contenute in util.js"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La classe .alert-dismissible permette di posizionare correttamente il bottone .close ",
+            "runs": [
+              {
+                "text": "La classe "
+              },
+              {
+                "text": ".alert-dismissible ",
+                "bold": true
+              },
+              {
+                "text": "permette di posizionare correttamente il bottone "
+              },
+              {
+                "text": ".close",
+                "bold": true
+              },
+              {
+                "text": " "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "A quest’ultimo viene assegnato data-dismiss=\"alert\", che innesca la funzione JavaScript",
+            "runs": [
+              {
+                "text": "A quest’ultimo viene assegnato "
+              },
+              {
+                "text": "data-dismiss=\"alert\"",
+                "bold": true
+              },
+              {
+                "text": ", che innesca la funzione JavaScript"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Potete vedere una live demo: https://getbootstrap.com/docs/5.3/components/alerts/#dismissing",
+            "runs": [
+              {
+                "text": "Potete vedere una live demo: "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/components/alerts/#dismissing",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/alerts/#dismissing"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Si può anche creare un alert dismissable, che sfrutterà le funzioni contenute in util.js\nLa classe .alert-dismissible permette di posizionare correttamente il bottone .close \nA quest’ultimo viene assegnato data-dismiss=\"alert\", che innesca la funzione JavaScript\nPotete vedere una live demo: https://getbootstrap.com/docs/5.3/components/alerts/#dismissing"
+      }
+    ],
+    "originalText": [
+      "Alert component",
+      "Si può anche creare un alert dismissable, che sfrutterà le funzioni contenute in util.js\nLa classe .alert-dismissible permette di posizionare correttamente il bottone .close \nA quest’ultimo viene assegnato data-dismiss=\"alert\", che innesca la funzione JavaScript\nPotete vedere una live demo: https://getbootstrap.com/docs/5.3/components/alerts/#dismissing",
+      "<div\n    class=\"alert alert-warning\n    alert-dismissible fade show\"\n    role=\"alert\">\n  <strong>\n    Holy guacamole!\n  </strong>\n  <button\n    type=\"button\"\n    class=\"close\"\n    data-dismiss=\"alert\"\n    aria-label=\"Close\">\n    <span aria-hidden=\"true\">\n      &times;\n    </span>\n  </button>\n</div>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 20,
+    "title": "Breadcrumbs component",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<nav aria-label=\"breadcrumb\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "nav",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "aria-label",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"breadcrumb\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  <ol class=\"breadcrumb\">",
+            "runs": [
+              {
+                "text": "  <",
+                "mono": true
+              },
+              {
+                "text": "ol",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"breadcrumb\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <li class=\"breadcrumb-item\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"breadcrumb-item\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <a href=\"#\">Home</a>",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "href",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"#\"",
+                "mono": true
+              },
+              {
+                "text": ">Home</",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </li>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <li class=\"breadcrumb-item\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"breadcrumb-item\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      <a href=\"#\">Library</a>",
+            "runs": [
+              {
+                "text": "      <",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "href",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"#\"",
+                "mono": true
+              },
+              {
+                "text": ">Library</",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </li>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <li class=\"breadcrumb-item active\"",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"breadcrumb-item active\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      aria-current=\"page\">",
+            "runs": [
+              {
+                "text": "      ",
+                "mono": true
+              },
+              {
+                "text": "aria-current",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"page\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      Data",
+            "runs": [
+              {
+                "text": "      Data",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </li>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "li",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  </ol>",
+            "runs": [
+              {
+                "text": "  </",
+                "mono": true
+              },
+              {
+                "text": "ol",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</nav>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "nav",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\">\n      <a href=\"#\">Home</a>\n    </li>\n    <li class=\"breadcrumb-item\">\n      <a href=\"#\">Library</a>\n    </li>\n    <li class=\"breadcrumb-item active\"\n      aria-current=\"page\">\n      Data\n    </li>\n  </ol>\n</nav>"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le “briciole di pane” sono un componente in grado di migliorare l'esperienza utente, perché indicano la posizione della pagina attuale all’interno della gerarchia di navigazione",
+            "runs": [
+              {
+                "text": "Le “briciole di pane” sono un componente in grado di migliorare l'esperienza utente, perché indicano la posizione della pagina attuale all’interno della gerarchia di navigazione"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Le “briciole di pane” sono un componente in grado di migliorare l'esperienza utente, perché indicano la posizione della pagina attuale all’interno della gerarchia di navigazione"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/06-020-diagram.webp",
+        "alt": "Breadcrumbs component. <nav aria-label=\"breadcrumb\"> <ol class=\"breadcrumb\"> <li class=\"breadcrumb-item\"> <a href=\"#\">Home</a> </li> <li class=\"breadcrumb-item\"> <a href=\"#\">Library</a> </li> <li class=\"breadcrumb-item active\" aria-current=\"page\"> Data </li> </ol> </nav>",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "Breadcrumbs component",
+      "Le “briciole di pane” sono un componente in grado di migliorare l'esperienza utente, perché indicano la posizione della pagina attuale all’interno della gerarchia di navigazione",
+      "<nav aria-label=\"breadcrumb\">\n  <ol class=\"breadcrumb\">\n    <li class=\"breadcrumb-item\">\n      <a href=\"#\">Home</a>\n    </li>\n    <li class=\"breadcrumb-item\">\n      <a href=\"#\">Library</a>\n    </li>\n    <li class=\"breadcrumb-item active\"\n      aria-current=\"page\">\n      Data\n    </li>\n  </ol>\n</nav>"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 21,
+    "title": "Dropdowns",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I menu dropdown permettono di creare delle liste di link attraverso una tendina a comparsa",
+            "runs": [
+              {
+                "text": "I menu dropdown permettono di creare delle liste di link attraverso una tendina a comparsa"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Fanno uso di librerie JavaScript di terze parti",
+            "runs": [
+              {
+                "text": "Fanno uso di librerie JavaScript di terze parti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "La tendina compare in seguito al click e non all’hover, e questa è una scelta intenzionale di design da parte degli sviluppatori di Bootstrap, che mette l’accento sull’intenzione dell’utente (ritengono che l’hover debba indicare qualcosa, mentre il click debba fare qualcosa)",
+            "runs": [
+              {
+                "text": "La tendina compare in seguito al click e non all’hover, e questa è una scelta intenzionale di design da parte degli sviluppatori di Bootstrap, che mette l’accento sull’intenzione dell’utente (ritengono che l’hover debba indicare qualcosa, mentre il click debba fare qualcosa)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "I menu dropdown permettono di creare delle liste di link attraverso una tendina a comparsa\nFanno uso di librerie JavaScript di terze parti\nLa tendina compare in seguito al click e non all’hover, e questa è una scelta intenzionale di design da parte degli sviluppatori di Bootstrap, che mette l’accento sull’intenzione dell’utente (ritengono che l’hover debba indicare qualcosa, mentre il click debba fare qualcosa)"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/302ab44106e2164e67a1.gif",
+        "alt": "Dropdowns · figura della slide originale 21"
+      }
+    ],
+    "originalText": [
+      "Dropdowns",
+      "I menu dropdown permettono di creare delle liste di link attraverso una tendina a comparsa\nFanno uso di librerie JavaScript di terze parti\nLa tendina compare in seguito al click e non all’hover, e questa è una scelta intenzionale di design da parte degli sviluppatori di Bootstrap, che mette l’accento sull’intenzione dell’utente (ritengono che l’hover debba indicare qualcosa, mentre il click debba fare qualcosa)"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 22,
+    "title": "Dropdowns",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "<div class=\"dropdown\">",
+            "runs": [
+              {
+                "text": "<",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdown\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  <button class=\"btn btn-secondary",
+            "runs": [
+              {
+                "text": "  <",
+                "mono": true
+              },
+              {
+                "text": "button",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"btn btn-secondary",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    dropdown-toggle\"",
+            "runs": [
+              {
+                "text": "    dropdown-toggle\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    type=\"button\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "type",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"button\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    id=\"dropdownMenuButton\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "id",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdownMenuButton\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    data-toggle=\"dropdown\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "data-toggle",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdown\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    aria-haspopup=\"true\"",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "aria-haspopup",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"true\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    aria-expanded=\"false\">",
+            "runs": [
+              {
+                "text": "    ",
+                "mono": true
+              },
+              {
+                "text": "aria-expanded",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"false\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    Dropdown button",
+            "runs": [
+              {
+                "text": "    Dropdown button",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  </button>",
+            "runs": [
+              {
+                "text": "  </",
+                "mono": true
+              },
+              {
+                "text": "button",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  <div class=\"dropdown-menu\"",
+            "runs": [
+              {
+                "text": "  <",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdown-menu\"",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "       aria-labelledby=\"dropdownMenuButton\">",
+            "runs": [
+              {
+                "text": "       ",
+                "mono": true
+              },
+              {
+                "text": "aria-labelledby",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdownMenuButton\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <a class=\"dropdown-item\" href=\"#\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdown-item\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "href",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"#\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      Action",
+            "runs": [
+              {
+                "text": "      Action",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </a>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <a class=\"dropdown-item\" href=\"#\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdown-item\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "href",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"#\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      Another action",
+            "runs": [
+              {
+                "text": "      Another action",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </a>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    <a class=\"dropdown-item\" href=\"#\">",
+            "runs": [
+              {
+                "text": "    <",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "class",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"dropdown-item\"",
+                "mono": true
+              },
+              {
+                "text": " ",
+                "mono": true
+              },
+              {
+                "text": "href",
+                "mono": true
+              },
+              {
+                "text": "=",
+                "mono": true
+              },
+              {
+                "text": "\"#\"",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "      Something else here",
+            "runs": [
+              {
+                "text": "      Something else here",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "    </a>",
+            "runs": [
+              {
+                "text": "    </",
+                "mono": true
+              },
+              {
+                "text": "a",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  </div>",
+            "runs": [
+              {
+                "text": "  </",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "</div>",
+            "runs": [
+              {
+                "text": "</",
+                "mono": true
+              },
+              {
+                "text": "div",
+                "mono": true
+              },
+              {
+                "text": ">",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "<div class=\"dropdown\">\n  <button class=\"btn btn-secondary\n    dropdown-toggle\"\n    type=\"button\"\n    id=\"dropdownMenuButton\"\n    data-toggle=\"dropdown\"\n    aria-haspopup=\"true\"\n    aria-expanded=\"false\">\n    Dropdown button\n  </button>\n  <div class=\"dropdown-menu\"\n       aria-labelledby=\"dropdownMenuButton\">\n    <a class=\"dropdown-item\" href=\"#\">\n      Action\n    </a>\n    <a class=\"dropdown-item\" href=\"#\">\n      Another action\n    </a>\n    <a class=\"dropdown-item\" href=\"#\">\n      Something else here\n    </a>\n  </div>\n</div>"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "All’interno della classe .dropdown, un elemento “button” o un elemento “a” possono trasformarsi in un toggle dropdown (attraverso .dropdown-toggle) solo se possiedono la classe .btn",
+            "runs": [
+              {
+                "text": "All’interno della classe .dropdown, un elemento “button” o un elemento “a” possono trasformarsi in un toggle dropdown (attraverso .dropdown-toggle) solo se possiedono la classe .btn"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "All’interno della classe .dropdown, un elemento “button” o un elemento “a” possono trasformarsi in un toggle dropdown (attraverso .dropdown-toggle) solo se possiedono la classe .btn"
+      }
+    ],
+    "originalText": [
+      "Dropdowns",
+      "All’interno della classe .dropdown, un elemento “button” o un elemento “a” possono trasformarsi in un toggle dropdown (attraverso .dropdown-toggle) solo se possiedono la classe .btn",
+      "<div class=\"dropdown\">\n  <button class=\"btn btn-secondary\n    dropdown-toggle\"\n    type=\"button\"\n    id=\"dropdownMenuButton\"\n    data-toggle=\"dropdown\"\n    aria-haspopup=\"true\"\n    aria-expanded=\"false\">\n    Dropdown button\n  </button>\n  <div class=\"dropdown-menu\"\n       aria-labelledby=\"dropdownMenuButton\">\n    <a class=\"dropdown-item\" href=\"#\">\n      Action\n    </a>\n    <a class=\"dropdown-item\" href=\"#\">\n      Another action\n    </a>\n    <a class=\"dropdown-item\" href=\"#\">\n      Something else here\n    </a>\n  </div>\n</div>"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 23,
+    "title": "Form e input group",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Gli elementi dei form sono stati normalizzati, al pari degli altri elementi, dal reboot di Bootstrap. Così come per gli altri tag, Bootstrap mette a disposizione delle classi per assegnare loro uno stile più evoluto ",
+            "runs": [
+              {
+                "text": "Gli elementi dei form sono stati normalizzati, al pari degli altri elementi, dal reboot di Bootstrap. Così come per gli altri tag, Bootstrap mette a disposizione delle classi per assegnare loro uno stile più evoluto "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ma gli elementi dei form, dal momento che verranno quasi sempre utilizzati gli uni insieme agli altri, sono stati anche organizzati in diversi tipi di componenti",
+            "runs": [
+              {
+                "text": "Ma gli elementi dei form, dal momento che verranno quasi sempre utilizzati gli uni insieme agli altri, sono stati anche organizzati in diversi tipi di componenti"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Gli elementi dei form sono stati normalizzati, al pari degli altri elementi, dal reboot di Bootstrap. Così come per gli altri tag, Bootstrap mette a disposizione delle classi per assegnare loro uno stile più evoluto \nMa gli elementi dei form, dal momento che verranno quasi sempre utilizzati gli uni insieme agli altri, sono stati anche organizzati in diversi tipi di componenti"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/forms/overview/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/forms/overview/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/forms/overview/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/forms/overview/"
+      }
+    ],
+    "originalText": [
+      "Form e input group",
+      "Gli elementi dei form sono stati normalizzati, al pari degli altri elementi, dal reboot di Bootstrap. Così come per gli altri tag, Bootstrap mette a disposizione delle classi per assegnare loro uno stile più evoluto \nMa gli elementi dei form, dal momento che verranno quasi sempre utilizzati gli uni insieme agli altri, sono stati anche organizzati in diversi tipi di componenti",
+      "https://getbootstrap.com/docs/5.3/forms/overview/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 24,
+    "title": "Form e input group",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "È possibile utilizzare una classe .input-group che permette di  estendere i form aggiungendo testi, bottoni o gruppi di bottoni ai lati degli input testuali",
+            "runs": [
+              {
+                "text": "È possibile utilizzare una classe "
+              },
+              {
+                "text": ".input-group",
+                "bold": true
+              },
+              {
+                "text": " che permette di  estendere i form aggiungendo testi, bottoni o gruppi di bottoni ai lati degli input testuali"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per farlo, dentro ad input group aggiungerete uno “span” con classe .input-group-text, che, a seconda della sua posizione, apparirà prima o dopo l’input",
+            "runs": [
+              {
+                "text": "Per farlo, dentro ad input group aggiungerete uno “"
+              },
+              {
+                "text": "span” "
+              },
+              {
+                "text": "con classe "
+              },
+              {
+                "text": ".input-group-text",
+                "bold": true
+              },
+              {
+                "text": ", che, a seconda della sua posizione, apparirà prima o dopo l’input"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "È possibile utilizzare una classe .input-group che permette di  estendere i form aggiungendo testi, bottoni o gruppi di bottoni ai lati degli input testuali\nPer farlo, dentro ad input group aggiungerete uno “span” con classe .input-group-text, che, a seconda della sua posizione, apparirà prima o dopo l’input"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/forms/input-group/#basic-example",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/forms/input-group/#basic-example",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/forms/input-group/#basic-example"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "https://getbootstrap.com/docs/5.3/forms/input-group/#basic-example"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/b0d0aefe16c46ecb338c.png",
+        "alt": "Form e input group · figura della slide originale 24"
+      }
+    ],
+    "originalText": [
+      "Form e input group",
+      "È possibile utilizzare una classe .input-group che permette di  estendere i form aggiungendo testi, bottoni o gruppi di bottoni ai lati degli input testuali\nPer farlo, dentro ad input group aggiungerete uno “span” con classe .input-group-text, che, a seconda della sua posizione, apparirà prima o dopo l’input",
+      "https://getbootstrap.com/docs/5.3/forms/input-group/#basic-example"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 25,
+    "title": "Navbar component",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il componente Navbar permette di creare rapidamente una barra di navigazione responsive dove potete integrare il vostro logo e dei gruppi di link o di dropdown ",
+            "runs": [
+              {
+                "text": "Il componente Navbar permette di creare rapidamente una "
+              },
+              {
+                "text": "barra di navigazione",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": "responsive",
+                "bold": true
+              },
+              {
+                "text": " dove potete integrare il vostro logo e dei gruppi di link o di dropdown "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Per crearla, si deve dichiarare una classe .navbar unita a una classe .navbar-expand-{breakpoint}. Quest’ultima, specifica qual è il breakpoint al di sotto del quale la barra nasconderà gli elementi collapsible per mostrare soltanto l’hamburger menù ",
+            "runs": [
+              {
+                "text": "Per crearla, si deve dichiarare una classe "
+              },
+              {
+                "text": ".navbar",
+                "bold": true
+              },
+              {
+                "text": " unita a una classe "
+              },
+              {
+                "text": ".navbar-expand-{breakpoint}",
+                "bold": true
+              },
+              {
+                "text": ". Quest’ultima, specifica qual è il breakpoint al di sotto del quale la barra nasconderà gli elementi "
+              },
+              {
+                "text": "collapsible"
+              },
+              {
+                "text": " per mostrare soltanto l’hamburger menù "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "https://getbootstrap.com/docs/5.3/components/navbar/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/components/navbar/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/components/navbar/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Il componente Navbar permette di creare rapidamente una barra di navigazione responsive dove potete integrare il vostro logo e dei gruppi di link o di dropdown \nPer crearla, si deve dichiarare una classe .navbar unita a una classe .navbar-expand-{breakpoint}. Quest’ultima, specifica qual è il breakpoint al di sotto del quale la barra nasconderà gli elementi collapsible per mostrare soltanto l’hamburger menù \nhttps://getbootstrap.com/docs/5.3/components/navbar/"
+      },
+      {
+        "kind": "image",
+        "src": "/images/esercitazioni/06-025-diagram.webp",
+        "alt": "Navbar component. ",
+        "sourceDiagram": true
+      }
+    ],
+    "originalText": [
+      "Il componente Navbar permette di creare rapidamente una barra di navigazione responsive dove potete integrare il vostro logo e dei gruppi di link o di dropdown \nPer crearla, si deve dichiarare una classe .navbar unita a una classe .navbar-expand-{breakpoint}. Quest’ultima, specifica qual è il breakpoint al di sotto del quale la barra nasconderà gli elementi collapsible per mostrare soltanto l’hamburger menù \nhttps://getbootstrap.com/docs/5.3/components/navbar/",
+      "Navbar component"
+    ],
+    "diagram": true
+  },
+  {
+    "sourceSlide": 26,
+    "title": "Navbar (sottocomponenti)",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I sottocomponenti di Navbar gestiscono le varie parti che possono comporre la vostra barra",
+            "runs": [
+              {
+                "text": "I sottocomponenti di Navbar gestiscono le varie parti che possono comporre la vostra barra"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".collapse.navbar-collapse raggruppano i contenuti e si occupano di nasconderli in base al breakpoint definito dal genitore expand",
+            "runs": [
+              {
+                "text": ".collapse.navbar-collapse",
+                "bold": true
+              },
+              {
+                "text": " raggruppano i contenuti e si occupa"
+              },
+              {
+                "text": "no"
+              },
+              {
+                "text": " di nasconderli in base al breakpoint definito dal genitore expand"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": ".navbar-brand potrà contenere il nome (o il logo) del sito, della compagnia e del progetto",
+            "runs": [
+              {
+                "text": ".navbar-brand",
+                "bold": true
+              },
+              {
+                "text": " potrà contenere il nome (o il logo) del sito, della compagnia e del progetto"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": ".navbar-nav (assegnato solitamente a un ul) può contenere diversi .nav-item per creare un menù di navigazione. Ai nav-item può essere aggiunta la classe .dropdown per aggiungere un altro livello di navigazione",
+            "runs": [
+              {
+                "text": ".navbar-nav",
+                "bold": true
+              },
+              {
+                "text": " (assegnato solitamente a un ul) può contenere diversi "
+              },
+              {
+                "text": ".nav-item",
+                "bold": true
+              },
+              {
+                "text": " per creare un menù di navigazione. Ai nav-item può essere aggiunta la classe "
+              },
+              {
+                "text": ".dropdown",
+                "bold": true
+              },
+              {
+                "text": " per aggiungere un altro livello di navigazione"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "I sottocomponenti di Navbar gestiscono le varie parti che possono comporre la vostra barra\n.collapse.navbar-collapse raggruppano i contenuti e si occupano di nasconderli in base al breakpoint definito dal genitore expand\n.navbar-brand potrà contenere il nome (o il logo) del sito, della compagnia e del progetto\n.navbar-nav (assegnato solitamente a un ul) può contenere diversi .nav-item per creare un menù di navigazione. Ai nav-item può essere aggiunta la classe .dropdown per aggiungere un altro livello di navigazione"
+      }
+    ],
+    "originalText": [
+      "I sottocomponenti di Navbar gestiscono le varie parti che possono comporre la vostra barra\n.collapse.navbar-collapse raggruppano i contenuti e si occupano di nasconderli in base al breakpoint definito dal genitore expand\n.navbar-brand potrà contenere il nome (o il logo) del sito, della compagnia e del progetto\n.navbar-nav (assegnato solitamente a un ul) può contenere diversi .nav-item per creare un menù di navigazione. Ai nav-item può essere aggiunta la classe .dropdown per aggiungere un altro livello di navigazione",
+      "Navbar (sottocomponenti)"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 27,
+    "title": "JavaScript e componenti",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La maggior parte dei componenti può essere utilizzata in due modi: grazie ai data-attributes oppure grazie all’attivazione manuale con JavaScript",
+            "runs": [
+              {
+                "text": "La maggior parte dei componenti può essere utilizzata in due modi: grazie ai "
+              },
+              {
+                "text": "data-attributes",
+                "bold": true
+              },
+              {
+                "text": " oppure grazie all’"
+              },
+              {
+                "text": "attivazione manuale con JavaScript",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Nel primo caso, gli attributi vi risparmiano la necessità di scrivere funzioni JavaScript perché permettono di definire parametri e stati direttamente nell’HTML",
+            "runs": [
+              {
+                "text": "Nel primo caso, gli attributi vi risparmiano la necessità di scrivere funzioni JavaScript perché permettono di definire parametri e stati direttamente nell’HTML"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le funzioni JavaScript, tuttavia, vi permetterebbero di avere un controllo più elevato",
+            "runs": [
+              {
+                "text": "Le funzioni JavaScript, tuttavia, vi permetterebbero di avere un controllo più elevato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "La maggior parte dei componenti può essere utilizzata in due modi: grazie ai data-attributes oppure grazie all’attivazione manuale con JavaScript\nNel primo caso, gli attributi vi risparmiano la necessità di scrivere funzioni JavaScript perché permettono di definire parametri e stati direttamente nell’HTML\nLe funzioni JavaScript, tuttavia, vi permetterebbero di avere un controllo più elevato"
+      }
+    ],
+    "originalText": [
+      "La maggior parte dei componenti può essere utilizzata in due modi: grazie ai data-attributes oppure grazie all’attivazione manuale con JavaScript\nNel primo caso, gli attributi vi risparmiano la necessità di scrivere funzioni JavaScript perché permettono di definire parametri e stati direttamente nell’HTML\nLe funzioni JavaScript, tuttavia, vi permetterebbero di avere un controllo più elevato",
+      "JavaScript e componenti"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 28,
+    "title": "BOOTSTRAP: UTILITIES",
+    "blocks": [],
+    "originalText": [
+      "BOOTSTRAP: UTILITIES"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 29,
+    "title": "Utilities di Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le utilities sono classi di Bootstrap che permettono di alleggerire di molto la scrittura di codice CSS ",
+            "runs": [
+              {
+                "text": "Le utilities sono classi di Bootstrap che permettono di alleggerire di molto la scrittura di codice CSS "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Molte utilities sono classi a cui è stata assegnata una sola coppia proprietà: valore",
+            "runs": [
+              {
+                "text": "Molte utilities sono classi a cui è stata assegnata una sola coppia "
+              },
+              {
+                "text": "proprietà: valore",
+                "italic": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Si può fare uso delle utilities per le proprietà più svariate (a ogni proprietà, ovviamente, la classe assegna un determinato attributo)",
+            "runs": [
+              {
+                "text": "Si può fare uso delle utilities per le proprietà più svariate (a ogni proprietà, ovviamente, la classe assegna un determinato attributo)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio: .d-none assegna display:none; all’elemento",
+            "runs": [
+              {
+                "text": "Ad esempio:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": ".d-none",
+                "italic": true
+              },
+              {
+                "text": " assegna "
+              },
+              {
+                "text": "display:none",
+                "italic": true
+              },
+              {
+                "text": "; all’elemento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Le utilities sono spesso accoppiate a breakpoint, in modo da attribuire determinate proprietà a un elemento soltanto a partire da schermi di certe dimensioni ",
+            "runs": [
+              {
+                "text": "Le utilities sono spesso accoppiate a breakpoint, in modo da attribuire determinate proprietà a un elemento soltanto a partire da schermi di certe dimensioni "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Ad esempio: .d-md-none assegna display:none; all’elemento, ma solo quando è stato superato il breakpoint md",
+            "runs": [
+              {
+                "text": "Ad esempio:",
+                "bold": true
+              },
+              {
+                "text": " "
+              },
+              {
+                "text": ".d-md-none",
+                "italic": true
+              },
+              {
+                "text": " assegna "
+              },
+              {
+                "text": "display:none",
+                "italic": true
+              },
+              {
+                "text": "; all’elemento, ma solo quando è stato superato il breakpoint md"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Le utilities sono classi di Bootstrap che permettono di alleggerire di molto la scrittura di codice CSS \nMolte utilities sono classi a cui è stata assegnata una sola coppia proprietà: valore\nSi può fare uso delle utilities per le proprietà più svariate (a ogni proprietà, ovviamente, la classe assegna un determinato attributo)\nAd esempio: .d-none assegna display:none; all’elemento\nLe utilities sono spesso accoppiate a breakpoint, in modo da attribuire determinate proprietà a un elemento soltanto a partire da schermi di certe dimensioni \nAd esempio: .d-md-none assegna display:none; all’elemento, ma solo quando è stato superato il breakpoint md"
+      }
+    ],
+    "originalText": [
+      "Utilities di Bootstrap",
+      "Le utilities sono classi di Bootstrap che permettono di alleggerire di molto la scrittura di codice CSS \nMolte utilities sono classi a cui è stata assegnata una sola coppia proprietà: valore\nSi può fare uso delle utilities per le proprietà più svariate (a ogni proprietà, ovviamente, la classe assegna un determinato attributo)\nAd esempio: .d-none assegna display:none; all’elemento\nLe utilities sono spesso accoppiate a breakpoint, in modo da attribuire determinate proprietà a un elemento soltanto a partire da schermi di certe dimensioni \nAd esempio: .d-md-none assegna display:none; all’elemento, ma solo quando è stato superato il breakpoint md"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 30,
+    "title": "Utilities per il layout",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Display - https://getbootstrap.com/docs/5.3/utilities/display/",
+            "runs": [
+              {
+                "text": "Display ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/display/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/display/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Display - https://getbootstrap.com/docs/5.3/utilities/display/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Spacing - https://getbootstrap.com/docs/5.3/utilities/spacing/",
+            "runs": [
+              {
+                "text": "Spacing ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/spacing/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/spacing/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Spacing - https://getbootstrap.com/docs/5.3/utilities/spacing/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Flex - https://getbootstrap.com/docs/5.3/utilities/flex/",
+            "runs": [
+              {
+                "text": "Flex ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/flex/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/flex/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Flex - https://getbootstrap.com/docs/5.3/utilities/flex/"
+      }
+    ],
+    "originalText": [
+      "Utilities per il layout",
+      "Display - https://getbootstrap.com/docs/5.3/utilities/display/",
+      "Spacing - https://getbootstrap.com/docs/5.3/utilities/spacing/",
+      "Flex - https://getbootstrap.com/docs/5.3/utilities/flex/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 31,
+    "title": "Display utilities",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Permette di applicare delle classi per gestire la visibilità degli elementi",
+            "runs": [
+              {
+                "text": "Permette di applicare delle classi per gestire la visibilità degli elementi"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "d-{breakpoint}-{value}",
+            "runs": [
+              {
+                "text": "d-{breakpoint}-{value}",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Permette di applicare delle classi per gestire la visibilità degli elementi\nd-{breakpoint}-{value}"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "value può essere uno tra",
+            "runs": [
+              {
+                "text": "v",
+                "bold": true
+              },
+              {
+                "text": "alue",
+                "bold": true
+              },
+              {
+                "text": " può essere uno tra"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "value può essere uno tra"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "none ",
+            "runs": [
+              {
+                "text": "none "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "inline ",
+            "runs": [
+              {
+                "text": "inline "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "inline-block ",
+            "runs": [
+              {
+                "text": "inline-block "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "block ",
+            "runs": [
+              {
+                "text": "block "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "table ",
+            "runs": [
+              {
+                "text": "table "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "none \ninline \ninline-block \nblock \ntable"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "table-cell ",
+            "runs": [
+              {
+                "text": "table-cell "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "table-row ",
+            "runs": [
+              {
+                "text": "table-row "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "flex ",
+            "runs": [
+              {
+                "text": "flex "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "inline-flex",
+            "runs": [
+              {
+                "text": "inline-flex"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "table-cell \ntable-row \nflex \ninline-flex"
+      }
+    ],
+    "originalText": [
+      "Display utilities",
+      "Permette di applicare delle classi per gestire la visibilità degli elementi\nd-{breakpoint}-{value}",
+      "value può essere uno tra",
+      "none \ninline \ninline-block \nblock \ntable",
+      "table-cell \ntable-row \nflex \ninline-flex"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 32,
+    "title": "Spacing utilities",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Assegna margini o padding responsive ad un elemento (o solo alcuni dei suoi lati)",
+            "runs": [
+              {
+                "text": "Assegna margini o padding responsive ad un elemento (o solo alcuni dei suoi lati)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "{property}{sides}-{breakpoint}-{size}",
+            "runs": [
+              {
+                "text": "{property}{sides}-{breakpoint}-{size}",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "Assegna margini o padding responsive ad un elemento (o solo alcuni dei suoi lati)\n{property}{sides}-{breakpoint}-{size}"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "property è uno tra: m (margin) o p (padding)",
+            "runs": [
+              {
+                "text": "property",
+                "bold": true
+              },
+              {
+                "text": " è uno tra: "
+              },
+              {
+                "text": "m ",
+                "bold": true
+              },
+              {
+                "text": "(margin) o "
+              },
+              {
+                "text": "p ",
+                "bold": true
+              },
+              {
+                "text": "(padding)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "side è uno tra: t (top), b (bottom), s (start), e (end), x (left e right), y (top e bottom), niente (per tutti e 4 i lati)",
+            "runs": [
+              {
+                "text": "side ",
+                "bold": true
+              },
+              {
+                "text": "è uno tra: "
+              },
+              {
+                "text": "t ",
+                "bold": true
+              },
+              {
+                "text": "(top), "
+              },
+              {
+                "text": "b ",
+                "bold": true
+              },
+              {
+                "text": "(bottom), "
+              },
+              {
+                "text": "s ",
+                "bold": true
+              },
+              {
+                "text": "(start), "
+              },
+              {
+                "text": "e ",
+                "bold": true
+              },
+              {
+                "text": "(end), "
+              },
+              {
+                "text": "x ",
+                "bold": true
+              },
+              {
+                "text": "(left e right), "
+              },
+              {
+                "text": "y ",
+                "bold": true
+              },
+              {
+                "text": "(top e bottom), niente (per tutti e 4 i lati)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "size è uno tra: 0 (toglie tutti i margini o padding), auto (imposta i margini ad auto), numeri tra 1 e 5 per impostare margini con un range che va da .25rem (1) e 3rem (5)",
+            "runs": [
+              {
+                "text": "size è uno tra: "
+              },
+              {
+                "text": "0 ",
+                "bold": true
+              },
+              {
+                "text": "(toglie tutti i margini o padding), "
+              },
+              {
+                "text": "auto ",
+                "bold": true
+              },
+              {
+                "text": "(imposta i margini ad auto), numeri tra "
+              },
+              {
+                "text": "1 ",
+                "bold": true
+              },
+              {
+                "text": "e "
+              },
+              {
+                "text": "5 ",
+                "bold": true
+              },
+              {
+                "text": "per impostare margini con un range che va da .25rem (1) e 3rem (5)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "property è uno tra: m (margin) o p (padding)\nside è uno tra: t (top), b (bottom), s (start), e (end), x (left e right), y (top e bottom), niente (per tutti e 4 i lati)\nsize è uno tra: 0 (toglie tutti i margini o padding), auto (imposta i margini ad auto), numeri tra 1 e 5 per impostare margini con un range che va da .25rem (1) e 3rem (5)"
+      }
+    ],
+    "originalText": [
+      "Spacing utilities",
+      "Assegna margini o padding responsive ad un elemento (o solo alcuni dei suoi lati)\n{property}{sides}-{breakpoint}-{size}",
+      "property è uno tra: m (margin) o p (padding)\nside è uno tra: t (top), b (bottom), s (start), e (end), x (left e right), y (top e bottom), niente (per tutti e 4 i lati)\nsize è uno tra: 0 (toglie tutti i margini o padding), auto (imposta i margini ad auto), numeri tra 1 e 5 per impostare margini con un range che va da .25rem (1) e 3rem (5)"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 33,
+    "title": "Flex utilities",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le proprietà flex possono essere implementate velocemente utilizzando classi con questo formato: ",
+            "runs": [
+              {
+                "text": "Le proprietà flex possono essere implementate velocemente utilizzando classi con questo formato: "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "{propriety}-{value}",
+            "runs": [
+              {
+                "text": "{propriety}-{value}",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "{propriety}-{breakpoint}-{value}",
+            "runs": [
+              {
+                "text": "{propriety}-{breakpoint}-{value}",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Esempi:",
+            "runs": [
+              {
+                "text": "Esempi:"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".flex-column-reverse",
+            "runs": [
+              {
+                "text": ".flex-column-reverse"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": ".justify-content-center",
+            "runs": [
+              {
+                "text": ".justify-content-center"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": ".align-items-md-end",
+            "runs": [
+              {
+                "text": ".align-items-md-end"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Le proprietà flex possono essere implementate velocemente utilizzando classi con questo formato: \n{propriety}-{value}\n{propriety}-{breakpoint}-{value}\nEsempi:\n.flex-column-reverse\n.justify-content-center\n.align-items-md-end"
+      }
+    ],
+    "originalText": [
+      "Flex utilities",
+      "Le proprietà flex possono essere implementate velocemente utilizzando classi con questo formato: \n{propriety}-{value}\n{propriety}-{breakpoint}-{value}\nEsempi:\n.flex-column-reverse\n.justify-content-center\n.align-items-md-end"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 34,
+    "title": "Altre",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "width e height - https://getbootstrap.com/docs/5.3/utilities/sizing/",
+            "runs": [
+              {
+                "text": "width e height ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/sizing/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/sizing/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "width e height - https://getbootstrap.com/docs/5.3/utilities/sizing/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "border - https://getbootstrap.com/docs/5.3/utilities/borders/",
+            "runs": [
+              {
+                "text": "b",
+                "bold": true
+              },
+              {
+                "text": "order ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/borders/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/borders/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "border - https://getbootstrap.com/docs/5.3/utilities/borders/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "position - https://getbootstrap.com/docs/5.3/utilities/position/",
+            "runs": [
+              {
+                "text": "position ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/position/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/position/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "position - https://getbootstrap.com/docs/5.3/utilities/position/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "float - https://getbootstrap.com/docs/5.3/utilities/float/",
+            "runs": [
+              {
+                "text": "f",
+                "bold": true
+              },
+              {
+                "text": "loat ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/float/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/float/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "float - https://getbootstrap.com/docs/5.3/utilities/float/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "overflow - https://getbootstrap.com/docs/5.3/utilities/overflow/",
+            "runs": [
+              {
+                "text": "overflow ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/overflow/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/overflow/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "overflow - https://getbootstrap.com/docs/5.3/utilities/overflow/"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "text - https://getbootstrap.com/docs/5.3/utilities/text/",
+            "runs": [
+              {
+                "text": "t",
+                "bold": true
+              },
+              {
+                "text": "ext ",
+                "bold": true
+              },
+              {
+                "text": "- "
+              },
+              {
+                "text": "https://getbootstrap.com/docs/5.3/utilities/text/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/utilities/text/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "text - https://getbootstrap.com/docs/5.3/utilities/text/"
+      }
+    ],
+    "originalText": [
+      "Altre",
+      "width e height - https://getbootstrap.com/docs/5.3/utilities/sizing/",
+      "border - https://getbootstrap.com/docs/5.3/utilities/borders/",
+      "position - https://getbootstrap.com/docs/5.3/utilities/position/",
+      "float - https://getbootstrap.com/docs/5.3/utilities/float/",
+      "overflow - https://getbootstrap.com/docs/5.3/utilities/overflow/",
+      "text - https://getbootstrap.com/docs/5.3/utilities/text/"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 35,
+    "title": "ESERCIZIO 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Includete Bootstrap in una pagina web utilizzando la CDN, premurandovi di includere anche i file JavaScript",
+            "runs": [
+              {
+                "text": "Includete Bootstrap in una pagina web utilizzando la CDN, premurandovi di includere anche i file JavaScript"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Inserite un componente navbar e personalizzatelo con link a vostra scelta. ",
+            "runs": [
+              {
+                "text": "Inserite un componente navbar e personalizzatelo con link a vostra scelta. "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Nel contenuto della pagina, create un accordion utilizzando i componenti collapse e  seguendo la documentazione ",
+            "runs": [
+              {
+                "text": "Nel contenuto della pagina, create un accordion utilizzando i componenti collapse e  seguendo la documentazione "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Nel contenuto della pagina, inserite un insieme di card e un form o un input group",
+            "runs": [
+              {
+                "text": "Nel contenuto della pagina, inserite un insieme di card e un form o un input group"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Personalizzate gli stili dei componenti",
+            "runs": [
+              {
+                "text": "Personalizzate gli stili dei componenti"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ],
+        "text": "Includete Bootstrap in una pagina web utilizzando la CDN, premurandovi di includere anche i file JavaScript\nInserite un componente navbar e personalizzatelo con link a vostra scelta. \nNel contenuto della pagina, create un accordion utilizzando i componenti collapse e  seguendo la documentazione \nNel contenuto della pagina, inserite un insieme di card e un form o un input group\nPersonalizzate gli stili dei componenti"
+      }
+    ],
+    "originalText": [
+      "ESERCIZIO 1",
+      "Includete Bootstrap in una pagina web utilizzando la CDN, premurandovi di includere anche i file JavaScript\nInserite un componente navbar e personalizzatelo con link a vostra scelta. \nNel contenuto della pagina, create un accordion utilizzando i componenti collapse e  seguendo la documentazione \nNel contenuto della pagina, inserite un insieme di card e un form o un input group\nPersonalizzate gli stili dei componenti"
+    ],
+    "diagram": false
+  },
+  {
+    "sourceSlide": 36,
+    "title": "FINE",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "ESERCITAZIONE 6",
+            "runs": [
+              {
+                "text": "ESERCITAZIONE 6"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "ESERCITAZIONE 6"
+      }
+    ],
+    "originalText": [
+      "FINE",
+      "ESERCITAZIONE 6"
+    ],
+    "diagram": true
+  }
+]

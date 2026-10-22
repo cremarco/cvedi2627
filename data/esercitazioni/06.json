@@ -1,0 +1,2129 @@
+[
+  {
+    "title": "daisyUI: componenti per le interfacce",
+    "kind": "cover",
+    "blocks": [],
+    "sources": [],
+    "number": 1,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dalle utility ai componenti",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Obiettivo: costruire un’interfaccia coerente con daisyUI 5 e Tailwind CSS 4.",
+            "runs": [
+              {
+                "text": "Obiettivo: costruire un’interfaccia coerente con daisyUI 5 e Tailwind CSS 4."
+              }
+            ]
+          },
+          {
+            "text": "Per ogni esempio separeremo struttura HTML, aspetto e comportamento, verificando anche etichette, stati e tastiera.",
+            "runs": [
+              {
+                "text": "Per ogni esempio separeremo struttura HTML, aspetto e comportamento, verificando anche etichette, stati e tastiera."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "use",
+        "title": "daisyUI · utilizzo",
+        "url": "https://daisyui.com/docs/use/"
+      },
+      {
+        "id": "install",
+        "title": "daisyUI · installazione",
+        "url": "https://daisyui.com/docs/install/"
+      }
+    ],
+    "number": 2,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Chi fa che cosa",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Tailwind compone layout e dettagli con utility. daisyUI aggiunge classi come btn e card per gruppi ricorrenti di stili.",
+            "runs": [
+              {
+                "text": "Tailwind compone layout e dettagli con utility. daisyUI aggiunge classi come btn e card per gruppi ricorrenti di stili."
+              }
+            ]
+          },
+          {
+            "text": "L’applicazione continua a gestire dati, operazioni e feedback. Le classi CSS non sostituiscono questi comportamenti.",
+            "runs": [
+              {
+                "text": "L’applicazione continua a gestire dati, operazioni e feedback. Le classi CSS non sostituiscono questi comportamenti."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "use",
+        "title": "daisyUI · utilizzo",
+        "url": "https://daisyui.com/docs/use/"
+      }
+    ],
+    "number": 3,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Installare il plugin",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "npm install -D daisyui@5\n\n# Il progetto usa già Tailwind CSS 4 e la sua compilazione."
+      }
+    ],
+    "sources": [
+      {
+        "id": "install",
+        "title": "daisyUI · installazione",
+        "url": "https://daisyui.com/docs/install/"
+      }
+    ],
+    "number": 4,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Abilitare daisyUI nel CSS",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "@import \"tailwindcss\";\n@plugin \"daisyui\" { themes: light --default, dark; }\n@plugin \"daisyui/theme\" {\n  name: \"light\";\n  --color-secondary-content: oklch(12.9% 0.042 264.695);\n  --color-accent-content: oklch(26.2% 0.051 172.552);\n  --color-error: oklch(50.5% 0.213 27.518);\n  --color-error-content: oklch(100% 0 0);\n}\n@plugin \"daisyui/theme\" {\n  name: \"dark\";\n  --color-primary-content: oklch(100% 0 0);\n}"
+      }
+    ],
+    "sources": [
+      {
+        "id": "config",
+        "title": "daisyUI · configurazione",
+        "url": "https://daisyui.com/docs/config/"
+      },
+      {
+        "id": "themes",
+        "title": "daisyUI · temi",
+        "url": "https://daisyui.com/docs/themes/"
+      }
+    ],
+    "number": 5,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Le classi non cambiano la semantica",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un’azione usa un button; una destinazione usa un collegamento con href. Campi ed errori devono avere nomi e relazioni esplicite.",
+            "runs": [
+              {
+                "text": "Un’azione usa un button; una destinazione usa un collegamento con href. Campi ed errori devono avere nomi e relazioni esplicite."
+              }
+            ]
+          },
+          {
+            "text": "Scegli la struttura nativa prevista dal componente e verifica il comportamento nel browser.",
+            "runs": [
+              {
+                "text": "Scegli la struttura nativa prevista dal componente e verifica il comportamento nel browser."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      },
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      }
+    ],
+    "number": 6,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Azione o destinazione?",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-4\">\n  <div class=\"flex flex-wrap gap-4\">\n    <button type=\"button\" class=\"btn btn-primary\"\n      onclick=\"document.getElementById('esito').textContent='Bozza salvata (demo).';\">\n      Salva la bozza\n    </button>\n    <a class=\"btn btn-outline\" href=\"#programma\">Vai al programma</a>\n  </div>\n  <output id=\"esito\" role=\"status\" aria-live=\"polite\"></output>\n  <h2 id=\"programma\" class=\"text-xl font-bold\">Programma: analisi e prototipo</h2>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 7,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Azione o destinazione?",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Il button aggiorna lo stato; il link raggiunge il programma nello stesso documento. Prova: Prova entrambi con Tab e Invio.",
+        "example": "framework:actionAndLink"
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 8,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Colori legati al ruolo",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "primary, secondary e accent descrivono ruoli. base-* definisce le superfici; error e success comunicano uno stato.",
+            "runs": [
+              {
+                "text": "primary, secondary e accent descrivono ruoli. base-* definisce le superfici; error e success comunicano uno stato."
+              }
+            ]
+          },
+          {
+            "text": "La coppia *-content specifica il testo sulla superficie corrispondente. Evita di assegnare lo stesso colore a ruoli diversi senza una ragione.",
+            "runs": [
+              {
+                "text": "La coppia *-content specifica il testo sulla superficie corrispondente. Evita di assegnare lo stesso colore a ruoli diversi senza una ragione."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 9,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Tre ruoli, tre classi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"flex flex-wrap gap-4\">\n  <button class=\"btn btn-primary\">Azione principale</button>\n  <button class=\"btn btn-secondary\">Azione secondaria</button>\n  <button class=\"btn btn-accent\">Accento</button>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      },
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 10,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: ruoli riconoscibili",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Le varianti cambiano il trattamento visivo mantenendo il componente btn.",
+        "example": "framework:colors"
+      }
+    ],
+    "sources": [
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      },
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 11,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Button: azione e priorità",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "btn fornisce la base; varianti e dimensioni cambiano l’aspetto. Usa il primario per l’azione che deve emergere.",
+            "runs": [
+              {
+                "text": "btn fornisce la base; varianti e dimensioni cambiano l’aspetto. Usa il primario per l’azione che deve emergere."
+              }
+            ]
+          },
+          {
+            "text": "Per impedire un’azione su un button usa l’attributo disabled, mantenendo comprensibile il motivo nel contesto.",
+            "runs": [
+              {
+                "text": "Per impedire un’azione su un button usa l’attributo disabled, mantenendo comprensibile il motivo nel contesto."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 12,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Button: struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"flex flex-wrap gap-4\">\n  <button type=\"button\" class=\"btn btn-primary\">Iscriviti</button>\n  <button type=\"button\" class=\"btn btn-outline\">Salva</button>\n  <button type=\"button\" class=\"btn\" disabled>Non disponibile</button>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 13,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Button: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Azione principale, alternativa e stato disabilitato sono distinti.",
+        "example": "framework:buttons"
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 14,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Dare priorità a un’azione",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"flex flex-wrap items-center gap-4\">\n  <button type=\"button\" class=\"btn btn-primary\">Primario</button>\n  <button type=\"button\" class=\"btn btn-outline\">Contorno</button>\n  <button type=\"button\" class=\"btn btn-ghost\">Discreto</button>\n  <button type=\"button\" class=\"btn\" disabled>Non disponibile</button>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 15,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Dare priorità a un’azione",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: La base btn è comune; le varianti cambiano l’enfasi visiva. Prova: Aggiungi btn-sm a tutti e confronta dimensione e priorità.",
+        "example": "framework:buttonEmphasis"
+      }
+    ],
+    "sources": [
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 16,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Card: un contenuto con un confine",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "card raggruppa contenuti correlati; card-body organizza il corpo e card-actions raccoglie le azioni.",
+            "runs": [
+              {
+                "text": "card raggruppa contenuti correlati; card-body organizza il corpo e card-actions raccoglie le azioni."
+              }
+            ]
+          },
+          {
+            "text": "Usa un titolo significativo. Se la scheda porta a una destinazione, mantieni un collegamento reale invece di affidarti al clic sul contenitore.",
+            "runs": [
+              {
+                "text": "Usa un titolo significativo. Se la scheda porta a una destinazione, mantieni un collegamento reale invece di affidarti al clic sul contenitore."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      }
+    ],
+    "number": 17,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Card: struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<article class=\"card card-border max-w-xl bg-base-100\">\n  <div class=\"card-body\">\n    <h2 class=\"card-title\">Laboratorio di interfacce</h2>\n    <p>Un incontro per verificare il tuo prototipo.</p>\n    <div class=\"card-actions justify-end\">\n      <button class=\"btn btn-primary\">Prenota un posto</button>\n    </div>\n  </div>\n</article>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      }
+    ],
+    "number": 18,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Card: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Un solo contenuto, una descrizione e un’azione esplicita.",
+        "example": "framework:card"
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      }
+    ],
+    "number": 19,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Più card: il layout resta a Tailwind",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid grid-cols-1 gap-6 md:grid-cols-2\">\n  <article class=\"card card-border bg-base-100\">\n    <div class=\"card-body\"><h2 class=\"card-title\">Analisi</h2>\n      <p>Definisci il problema.</p></div>\n  </article>\n  <article class=\"card card-border bg-base-100\">\n    <div class=\"card-body\"><h2 class=\"card-title\">Prototipo</h2>\n      <p>Metti alla prova una soluzione.</p></div>\n  </article>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      },
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      }
+    ],
+    "number": 20,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Alert: spiegare un evento",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "L’alert comunica un’informazione rilevante e può includere un’azione di recupero.",
+            "runs": [
+              {
+                "text": "L’alert comunica un’informazione rilevante e può includere un’azione di recupero."
+              }
+            ]
+          },
+          {
+            "text": "Il messaggio deve spiegare il problema anche senza il colore. Riserva role=\"alert\" ai messaggi urgenti che compaiono dinamicamente.",
+            "runs": [
+              {
+                "text": "Il messaggio deve spiegare il problema anche senza il colore. Riserva role=\"alert\" ai messaggi urgenti che compaiono dinamicamente."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "alert",
+        "title": "daisyUI · Alert",
+        "url": "https://daisyui.com/components/alert/"
+      }
+    ],
+    "number": 21,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Alert: un messaggio comprensibile",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div role=\"alert\" class=\"alert alert-error\">\n  <span>Iscrizione non completata: controlla il campo email.</span>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "alert",
+        "title": "daisyUI · Alert",
+        "url": "https://daisyui.com/components/alert/"
+      }
+    ],
+    "number": 22,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Alert: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Il testo indica il problema e il punto da controllare.",
+        "example": "framework:alert"
+      }
+    ],
+    "sources": [
+      {
+        "id": "alert",
+        "title": "daisyUI · Alert",
+        "url": "https://daisyui.com/components/alert/"
+      }
+    ],
+    "number": 23,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Spiegare tre stati",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-4\">\n  <div class=\"alert alert-info\"><span>Informazione: il laboratorio inizia alle 14.</span></div>\n  <div class=\"alert alert-warning\"><span>Attenzione: restano due posti disponibili.</span></div>\n  <div class=\"alert alert-success\"><span>Conferma: il tuo posto è prenotato.</span></div>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "alert",
+        "title": "daisyUI · Alert",
+        "url": "https://daisyui.com/components/alert/"
+      },
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 24,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Spiegare tre stati",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Ogni messaggio nomina l’esito e l’eventuale passo successivo. Prova: Leggi soltanto le parole: capisci lo stato senza il colore?",
+        "example": "framework:messageStates"
+      }
+    ],
+    "sources": [
+      {
+        "id": "alert",
+        "title": "daisyUI · Alert",
+        "url": "https://daisyui.com/components/alert/"
+      },
+      {
+        "id": "colors",
+        "title": "daisyUI · colori semantici",
+        "url": "https://daisyui.com/docs/colors/"
+      }
+    ],
+    "number": 25,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Form: iniziare dalle etichette",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Collega ogni label al suo controllo con for e id. type, name e autocomplete aiutano il browser a capire il dato richiesto.",
+            "runs": [
+              {
+                "text": "Collega ogni label al suo controllo con for e id. type, name e autocomplete aiutano il browser a capire il dato richiesto."
+              }
+            ]
+          },
+          {
+            "text": "Il placeholder può dare un esempio, ma non sostituisce un’etichetta visibile.",
+            "runs": [
+              {
+                "text": "Il placeholder può dare un esempio, ma non sostituisce un’etichetta visibile."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      }
+    ],
+    "number": 26,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Form: struttura essenziale",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<form class=\"grid max-w-xl gap-4\">\n  <label for=\"nome\">Nome e cognome</label>\n  <input id=\"nome\" name=\"nome\" autocomplete=\"name\"\n    class=\"input w-full\" required>\n  <label for=\"email\">Email</label>\n  <input id=\"email\" name=\"email\" type=\"email\"\n    autocomplete=\"email\" class=\"input w-full\" required>\n  <button class=\"btn btn-primary\">Iscriviti</button>\n  <output role=\"status\" aria-live=\"polite\"></output>\n</form>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      }
+    ],
+    "number": 27,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Form: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Compila entrambi i campi: l’invio mostra una conferma locale.",
+        "example": "framework:form"
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      }
+    ],
+    "number": 28,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Aiutare prima dell’errore",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid max-w-xl gap-3\">\n  <label for=\"email-aiuto\">Email per i materiali</label>\n  <input id=\"email-aiuto\" type=\"email\" name=\"email\"\n    class=\"input w-full\" autocomplete=\"email\"\n    aria-describedby=\"aiuto-email\" placeholder=\"nome@esempio.it\">\n  <p id=\"aiuto-email\">Usa un indirizzo che puoi consultare durante il corso.</p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      },
+      {
+        "id": "validation",
+        "title": "MDN · validazione dei form",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation"
+      }
+    ],
+    "number": 29,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Aiutare prima dell’errore",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: L’etichetta identifica il campo; aria-describedby collega l’aiuto. Prova: Inserisci un indirizzo e verifica che il suggerimento resti visibile.",
+        "example": "framework:fieldHelp"
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      },
+      {
+        "id": "validation",
+        "title": "MDN · validazione dei form",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation"
+      }
+    ],
+    "number": 30,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Validazione: tre responsabilità",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "HTML può verificare vincoli come required e type=\"email\". Validator applica uno stile agli stati supportati.",
+            "runs": [
+              {
+                "text": "HTML può verificare vincoli come required e type=\"email\". Validator applica uno stile agli stati supportati."
+              }
+            ]
+          },
+          {
+            "text": "Il progetto deve spiegare gli errori e aggiornare aria-invalid; il server deve verificare nuovamente i dati ricevuti.",
+            "runs": [
+              {
+                "text": "Il progetto deve spiegare gli errori e aggiornare aria-invalid; il server deve verificare nuovamente i dati ricevuti."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "validator",
+        "title": "daisyUI · Validator",
+        "url": "https://daisyui.com/components/validator/"
+      },
+      {
+        "id": "validation",
+        "title": "MDN · validazione dei form",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation"
+      }
+    ],
+    "number": 31,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Errore: uno stato esplicito",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid max-w-xl gap-3\">\n  <label for=\"email\">Email</label>\n  <input id=\"email\" type=\"email\" value=\"mario\"\n    class=\"input input-error w-full\" required\n    aria-invalid=\"true\" aria-describedby=\"email-errore\">\n  <p id=\"email-errore\" class=\"text-error\">\n    Scrivi un indirizzo come nome@esempio.it.\n  </p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      },
+      {
+        "id": "validation",
+        "title": "MDN · validazione dei form",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation"
+      }
+    ],
+    "number": 32,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Errore: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Lo stato illustrato mantiene il dato inserito e spiega come correggerlo.",
+        "example": "framework:validation"
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      },
+      {
+        "id": "validation",
+        "title": "MDN · validazione dei form",
+        "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Constraint_validation"
+      }
+    ],
+    "number": 33,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Scelte: controlli nativi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Select, checkbox e radio rispondono a compiti differenti: una scelta da un elenco, un’opzione indipendente, una scelta esclusiva.",
+            "runs": [
+              {
+                "text": "Select, checkbox e radio rispondono a compiti differenti: una scelta da un elenco, un’opzione indipendente, una scelta esclusiva."
+              }
+            ]
+          },
+          {
+            "text": "Mantieni etichette e raggruppamenti comprensibili; non affidarti soltanto a forma e colore.",
+            "runs": [
+              {
+                "text": "Mantieni etichette e raggruppamenti comprensibili; non affidarti soltanto a forma e colore."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "select",
+        "title": "daisyUI · Select",
+        "url": "https://daisyui.com/components/select/"
+      },
+      {
+        "id": "checkbox",
+        "title": "daisyUI · Checkbox",
+        "url": "https://daisyui.com/components/checkbox/"
+      }
+    ],
+    "number": 34,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Scelte: struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid max-w-xl gap-4\">\n  <label for=\"turno\">Scegli un turno</label>\n  <select id=\"turno\" class=\"select w-full\">\n    <option>Mattina</option><option>Pomeriggio</option>\n  </select>\n  <label class=\"flex items-center gap-3\">\n    <input type=\"checkbox\" class=\"checkbox\" checked>\n    Ricevi il promemoria\n  </label>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "select",
+        "title": "daisyUI · Select",
+        "url": "https://daisyui.com/components/select/"
+      },
+      {
+        "id": "checkbox",
+        "title": "daisyUI · Checkbox",
+        "url": "https://daisyui.com/components/checkbox/"
+      }
+    ],
+    "number": 35,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Scelte: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Il turno e il promemoria sono due decisioni indipendenti.",
+        "example": "framework:selection"
+      }
+    ],
+    "sources": [
+      {
+        "id": "select",
+        "title": "daisyUI · Select",
+        "url": "https://daisyui.com/components/select/"
+      },
+      {
+        "id": "checkbox",
+        "title": "daisyUI · Checkbox",
+        "url": "https://daisyui.com/components/checkbox/"
+      }
+    ],
+    "number": 36,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Una scelta o più scelte?",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-6 sm:grid-cols-2\">\n  <fieldset class=\"fieldset text-base\">\n    <legend class=\"fieldset-legend text-base\">Un solo turno</legend>\n    <label><input type=\"radio\" name=\"turno\" class=\"radio\" checked> Mattina</label>\n    <label><input type=\"radio\" name=\"turno\" class=\"radio\"> Pomeriggio</label>\n  </fieldset>\n  <fieldset class=\"fieldset text-base\">\n    <legend class=\"fieldset-legend text-base\">Materiali desiderati</legend>\n    <label><input type=\"checkbox\" class=\"checkbox\"> Slide</label>\n    <label><input type=\"checkbox\" class=\"checkbox\"> Esercizi</label>\n  </fieldset>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "fieldset",
+        "title": "daisyUI · Fieldset",
+        "url": "https://daisyui.com/components/fieldset/"
+      },
+      {
+        "id": "radio",
+        "title": "daisyUI · Radio",
+        "url": "https://daisyui.com/components/radio/"
+      },
+      {
+        "id": "checkbox",
+        "title": "daisyUI · Checkbox",
+        "url": "https://daisyui.com/components/checkbox/"
+      }
+    ],
+    "number": 37,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Una scelta o più scelte?",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: I radio con lo stesso name sono esclusivi; le checkbox sono indipendenti. Prova: Cambia turno, poi seleziona entrambi i materiali.",
+        "example": "framework:exclusiveChoices"
+      }
+    ],
+    "sources": [
+      {
+        "id": "fieldset",
+        "title": "daisyUI · Fieldset",
+        "url": "https://daisyui.com/components/fieldset/"
+      },
+      {
+        "id": "radio",
+        "title": "daisyUI · Radio",
+        "url": "https://daisyui.com/components/radio/"
+      },
+      {
+        "id": "checkbox",
+        "title": "daisyUI · Checkbox",
+        "url": "https://daisyui.com/components/checkbox/"
+      }
+    ],
+    "number": 38,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Navigazione: una destinazione reale",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Uno stile da pulsante può essere applicato a un link, ma il suo significato resta una navigazione.",
+            "runs": [
+              {
+                "text": "Uno stile da pulsante può essere applicato a un link, ma il suo significato resta una navigazione."
+              }
+            ]
+          },
+          {
+            "text": "Scegli nomi che anticipino la destinazione e un ordine coerente con il percorso della pagina.",
+            "runs": [
+              {
+                "text": "Scegli nomi che anticipino la destinazione e un ordine coerente con il percorso della pagina."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "navbar",
+        "title": "daisyUI · Navbar",
+        "url": "https://daisyui.com/components/navbar/"
+      },
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 39,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Navbar: struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<nav class=\"navbar bg-base-200\" aria-label=\"Principale\">\n  <div class=\"navbar-start\">Laboratorio</div>\n  <div class=\"navbar-end gap-2\">\n    <a class=\"btn btn-ghost\" href=\"#programma\">Programma</a>\n    <a class=\"btn btn-primary\" href=\"#iscrizione\">Iscriviti</a>\n  </div>\n</nav>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "navbar",
+        "title": "daisyUI · Navbar",
+        "url": "https://daisyui.com/components/navbar/"
+      }
+    ],
+    "number": 40,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Navbar: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Identità e destinazioni principali condividono una barra.",
+        "example": "framework:navbar"
+      }
+    ],
+    "sources": [
+      {
+        "id": "navbar",
+        "title": "daisyUI · Navbar",
+        "url": "https://daisyui.com/components/navbar/"
+      }
+    ],
+    "number": 41,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Breadcrumbs: dove mi trovo",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il percorso mostra la gerarchia delle sezioni. Non sostituisce il menu principale e non deve riprodurre tutta la cronologia.",
+            "runs": [
+              {
+                "text": "Il percorso mostra la gerarchia delle sezioni. Non sostituisce il menu principale e non deve riprodurre tutta la cronologia."
+              }
+            ]
+          },
+          {
+            "text": "L’elemento corrente è identificato con aria-current=\"page\".",
+            "runs": [
+              {
+                "text": "L’elemento corrente è identificato con aria-current=\"page\"."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "breadcrumbs",
+        "title": "daisyUI · Breadcrumbs",
+        "url": "https://daisyui.com/components/breadcrumbs/"
+      }
+    ],
+    "number": 42,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Breadcrumbs: struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<nav class=\"breadcrumbs\" aria-label=\"Percorso\">\n  <ul>\n    <li><a href=\"#corsi\">Corsi</a></li>\n    <li><a href=\"#laboratori\">Laboratori</a></li>\n    <li aria-current=\"page\">Interfacce</li>\n  </ul>\n</nav>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "breadcrumbs",
+        "title": "daisyUI · Breadcrumbs",
+        "url": "https://daisyui.com/components/breadcrumbs/"
+      }
+    ],
+    "number": 43,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Breadcrumbs: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Le sezioni precedenti sono destinazioni; l’ultima è la pagina corrente.",
+        "example": "framework:breadcrumbs"
+      }
+    ],
+    "sources": [
+      {
+        "id": "breadcrumbs",
+        "title": "daisyUI · Breadcrumbs",
+        "url": "https://daisyui.com/components/breadcrumbs/"
+      }
+    ],
+    "number": 44,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dropdown: aprire una scelta",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La variante con details e summary usa l’apertura nativa del browser.",
+            "runs": [
+              {
+                "text": "La variante con details e summary usa l’apertura nativa del browser."
+              }
+            ]
+          },
+          {
+            "text": "Il menu deve avere spazio per apparire e restare raggiungibile da tastiera. Verifica anche come si chiude nel pattern scelto.",
+            "runs": [
+              {
+                "text": "Il menu deve avere spazio per apparire e restare raggiungibile da tastiera. Verifica anche come si chiude nel pattern scelto."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "dropdown",
+        "title": "daisyUI · Dropdown",
+        "url": "https://daisyui.com/components/dropdown/"
+      }
+    ],
+    "number": 45,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dropdown: struttura aperta",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<details class=\"dropdown\" open>\n  <summary class=\"btn\">Materiali</summary>\n  <ul class=\"menu dropdown-content w-64 bg-base-200 p-2\">\n    <li><a href=\"#brief\">Brief del progetto</a></li>\n    <li><a href=\"#consegna\">Modalità di consegna</a></li>\n  </ul>\n</details>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "dropdown",
+        "title": "daisyUI · Dropdown",
+        "url": "https://daisyui.com/components/dropdown/"
+      }
+    ],
+    "number": 46,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dropdown: risultato aperto",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Il pannello mostra due destinazioni collegate ai materiali.",
+        "example": "framework:dropdown"
+      }
+    ],
+    "sources": [
+      {
+        "id": "dropdown",
+        "title": "daisyUI · Dropdown",
+        "url": "https://daisyui.com/components/dropdown/"
+      }
+    ],
+    "number": 47,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Disclosure: mostrare un approfondimento",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un details con summary mantiene un controllo nativo per espandere e richiudere il contenuto.",
+            "runs": [
+              {
+                "text": "Un details con summary mantiene un controllo nativo per espandere e richiudere il contenuto."
+              }
+            ]
+          },
+          {
+            "text": "Non nascondere informazioni indispensabili per completare il compito. Valuta cosa resta disponibile nella stampa.",
+            "runs": [
+              {
+                "text": "Non nascondere informazioni indispensabili per completare il compito. Valuta cosa resta disponibile nella stampa."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "collapse",
+        "title": "daisyUI · Collapse",
+        "url": "https://daisyui.com/components/collapse/"
+      }
+    ],
+    "number": 48,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Disclosure: struttura aperta",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<details class=\"collapse collapse-arrow bg-base-200\" open>\n  <summary class=\"collapse-title font-semibold\">\n    Devo portare il computer?\n  </summary>\n  <div class=\"collapse-content\">\n    <p>Sì, insieme al prototipo da verificare.</p>\n  </div>\n</details>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "collapse",
+        "title": "daisyUI · Collapse",
+        "url": "https://daisyui.com/components/collapse/"
+      }
+    ],
+    "number": 49,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Disclosure: risultato aperto",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Domanda e risposta restano nello stesso gruppo.",
+        "example": "framework:collapse"
+      }
+    ],
+    "sources": [
+      {
+        "id": "collapse",
+        "title": "daisyUI · Collapse",
+        "url": "https://daisyui.com/components/collapse/"
+      }
+    ],
+    "number": 50,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Aprire solo ciò che serve",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-4 sm:grid-cols-2\">\n  <details class=\"collapse collapse-arrow bg-base-200\">\n    <summary class=\"collapse-title font-semibold\">Che cosa porto?</summary>\n    <div class=\"collapse-content\"><p>Computer e prototipo da verificare.</p></div>\n  </details>\n  <details class=\"collapse collapse-arrow bg-base-200\">\n    <summary class=\"collapse-title font-semibold\">Come consegno?</summary>\n    <div class=\"collapse-content\"><p>Carica HTML e CSS nella cartella del gruppo.</p></div>\n  </details>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "collapse",
+        "title": "daisyUI · Collapse",
+        "url": "https://daisyui.com/components/collapse/"
+      }
+    ],
+    "number": 51,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Aprire solo ciò che serve",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Ogni summary apre la propria risposta e mantiene l’ordine del documento. Prova: Apri entrambe le risposte con la tastiera, poi richiudile.",
+        "example": "framework:faqChoices"
+      }
+    ],
+    "sources": [
+      {
+        "id": "collapse",
+        "title": "daisyUI · Collapse",
+        "url": "https://daisyui.com/components/collapse/"
+      }
+    ],
+    "number": 52,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Modal: un’interruzione motivata",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Usa un dialog quando serve un’interazione che protegga il focus. showModal() apre il dialogo nativo.",
+            "runs": [
+              {
+                "text": "Usa un dialog quando serve un’interazione che protegga il focus. showModal() apre il dialogo nativo."
+              }
+            ]
+          },
+          {
+            "text": "Verifica nome del dialogo, chiusura con Escape e ritorno del focus. Il CSS non sostituisce la logica dell’operazione.",
+            "runs": [
+              {
+                "text": "Verifica nome del dialogo, chiusura con Escape e ritorno del focus. Il CSS non sostituisce la logica dell’operazione."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "modal",
+        "title": "daisyUI · Modal",
+        "url": "https://daisyui.com/components/modal/"
+      }
+    ],
+    "number": 53,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Modal: apertura e chiusura native",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<button class=\"btn\" onclick=\"document.getElementById('avviso').showModal()\">Apri</button>\n<dialog id=\"avviso\" class=\"modal\" aria-labelledby=\"titolo\">\n  <div class=\"modal-box\">\n    <h2 id=\"titolo\" class=\"text-xl font-bold\">Posto prenotato</h2>\n    <p class=\"py-4\">Riceverai le indicazioni via email.</p>\n    <form method=\"dialog\">\n      <button class=\"btn\">Chiudi</button>\n    </form>\n  </div>\n</dialog>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "modal",
+        "title": "daisyUI · Modal",
+        "url": "https://daisyui.com/components/modal/"
+      }
+    ],
+    "number": 54,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Modal: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Apri il dialogo; Escape lo chiude e restituisce il focus al pulsante.",
+        "example": "framework:modal"
+      }
+    ],
+    "sources": [
+      {
+        "id": "modal",
+        "title": "daisyUI · Modal",
+        "url": "https://daisyui.com/components/modal/"
+      }
+    ],
+    "number": 55,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Table: relazioni fra dati",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le tabelle descrivono relazioni fra righe e colonne. Caption e intestazioni aiutano a interpretare i valori.",
+            "runs": [
+              {
+                "text": "Le tabelle descrivono relazioni fra righe e colonne. Caption e intestazioni aiutano a interpretare i valori."
+              }
+            ]
+          },
+          {
+            "text": "La classe table definisce l’aspetto; th e scope mantengono il significato delle celle.",
+            "runs": [
+              {
+                "text": "La classe table definisce l’aspetto; th e scope mantengono il significato delle celle."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "table",
+        "title": "daisyUI · Table",
+        "url": "https://daisyui.com/components/table/"
+      }
+    ],
+    "number": 56,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Table: struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<table class=\"table\">\n  <caption>Turni disponibili</caption>\n  <thead><tr>\n    <th scope=\"col\">Turno</th><th scope=\"col\">Posti</th>\n  </tr></thead>\n  <tbody>\n    <tr><th scope=\"row\">Mattina</th><td>12</td></tr>\n    <tr><th scope=\"row\">Pomeriggio</th><td>8</td></tr>\n  </tbody>\n</table>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "table",
+        "title": "daisyUI · Table",
+        "url": "https://daisyui.com/components/table/"
+      }
+    ],
+    "number": 57,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Table: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "I turni e il numero di posti mantengono intestazioni riconoscibili.",
+        "example": "framework:table"
+      }
+    ],
+    "sources": [
+      {
+        "id": "table",
+        "title": "daisyUI · Table",
+        "url": "https://daisyui.com/components/table/"
+      }
+    ],
+    "number": 58,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Leggere dati e stati",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<table class=\"table\">\n  <caption>Disponibilità dei laboratori</caption>\n  <thead><tr><th scope=\"col\">Giorno</th><th scope=\"col\">Stato</th></tr></thead>\n  <tbody>\n    <tr><th scope=\"row\">Mercoledì</th>\n      <td><span class=\"badge badge-lg\">Disponibile</span></td></tr>\n    <tr><th scope=\"row\">Giovedì</th>\n      <td><span class=\"badge badge-lg badge-outline\">Completo</span></td></tr>\n  </tbody>\n</table>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "table",
+        "title": "daisyUI · Table",
+        "url": "https://daisyui.com/components/table/"
+      },
+      {
+        "id": "badge",
+        "title": "daisyUI · Badge",
+        "url": "https://daisyui.com/components/badge/"
+      }
+    ],
+    "number": 59,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Leggere dati e stati",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Le intestazioni spiegano le colonne; il badge aggiunge uno stato scritto. Prova: Aggiungi una riga “Venerdì” con stato “In attesa”.",
+        "example": "framework:tableStatuses"
+      }
+    ],
+    "sources": [
+      {
+        "id": "table",
+        "title": "daisyUI · Table",
+        "url": "https://daisyui.com/components/table/"
+      },
+      {
+        "id": "badge",
+        "title": "daisyUI · Badge",
+        "url": "https://daisyui.com/components/badge/"
+      }
+    ],
+    "number": 60,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Personalizzare con misura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Usa prima le varianti del componente; aggiungi utility per spaziatura, larghezza o disposizione.",
+            "runs": [
+              {
+                "text": "Usa prima le varianti del componente; aggiungi utility per spaziatura, larghezza o disposizione."
+              }
+            ]
+          },
+          {
+            "text": "Controlla gli stati dopo una personalizzazione: un dettaglio utile sul tema chiaro può diventare poco leggibile su quello scuro.",
+            "runs": [
+              {
+                "text": "Controlla gli stati dopo una personalizzazione: un dettaglio utile sul tema chiaro può diventare poco leggibile su quello scuro."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "customize",
+        "title": "daisyUI · personalizzazione",
+        "url": "https://daisyui.com/docs/customize/"
+      }
+    ],
+    "number": 61,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Attesa: impedire il doppio invio",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Durante un’operazione comunica lo stato con testo e un indicatore. Se disabiliti l’azione, spiega perché non è disponibile.",
+            "runs": [
+              {
+                "text": "Durante un’operazione comunica lo stato con testo e un indicatore. Se disabiliti l’azione, spiega perché non è disponibile."
+              }
+            ]
+          },
+          {
+            "text": "Al completamento aggiorna lo stato e rendi chiaro l’esito, senza lasciare uno spinner permanente.",
+            "runs": [
+              {
+                "text": "Al completamento aggiorna lo stato e rendi chiaro l’esito, senza lasciare uno spinner permanente."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "loading",
+        "title": "daisyUI · Loading",
+        "url": "https://daisyui.com/components/loading/"
+      }
+    ],
+    "number": 62,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Attesa: struttura",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid justify-items-start gap-4\">\n  <button class=\"btn btn-primary\" disabled aria-busy=\"true\">\n    <span class=\"loading loading-spinner\" aria-hidden=\"true\"></span>\n    Invio in corso\n  </button>\n  <p role=\"status\">Attendi la conferma dell’iscrizione.</p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "loading",
+        "title": "daisyUI · Loading",
+        "url": "https://daisyui.com/components/loading/"
+      }
+    ],
+    "number": 63,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Attesa: risultato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Il pulsante è disabilitato e il testo comunica l’operazione in corso.",
+        "example": "framework:loading"
+      }
+    ],
+    "sources": [
+      {
+        "id": "loading",
+        "title": "daisyUI · Loading",
+        "url": "https://daisyui.com/components/loading/"
+      }
+    ],
+    "number": 64,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Laboratorio · comporre un’iscrizione",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In 20 minuti combina navbar, scheda del laboratorio, form etichettato e messaggi di esito.",
+            "runs": [
+              {
+                "text": "In 20 minuti combina navbar, scheda del laboratorio, form etichettato e messaggi di esito."
+              }
+            ]
+          },
+          {
+            "text": "Prevedi almeno: compilazione iniziale, errore correggibile, invio in corso e conferma. Conserva HTML e screenshot degli stati.",
+            "runs": [
+              {
+                "text": "Prevedi almeno: compilazione iniziale, errore correggibile, invio in corso e conferma. Conserva HTML e screenshot degli stati."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      },
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      }
+    ],
+    "number": 65,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Una verifica con un’altra persona",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il compito si completa con la tastiera? Il focus è visibile e segue un ordine sensato?",
+            "runs": [
+              {
+                "text": "Il compito si completa con la tastiera? Il focus è visibile e segue un ordine sensato?"
+              }
+            ]
+          },
+          {
+            "text": "Le etichette spiegano i dati richiesti? Un errore si capisce senza conoscere il colore? I link portano a una destinazione?",
+            "runs": [
+              {
+                "text": "Le etichette spiegano i dati richiesti? Un errore si capisce senza conoscere il colore? I link portano a una destinazione?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "input",
+        "title": "daisyUI · Input",
+        "url": "https://daisyui.com/components/input/"
+      },
+      {
+        "id": "modal",
+        "title": "daisyUI · Modal",
+        "url": "https://daisyui.com/components/modal/"
+      }
+    ],
+    "number": 66,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: due card in griglia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "I componenti mantengono la propria struttura mentre Grid ne dispone il gruppo.",
+        "example": "framework:cards"
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      },
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      }
+    ],
+    "number": 67,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Comporre i componenti",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<article class=\"card card-border max-w-2xl bg-base-100\">\n  <div class=\"card-body\">\n    <span class=\"badge badge-lg badge-outline\">Disponibile</span>\n    <h2 class=\"card-title\">Laboratorio di interfacce</h2>\n    <p>Giovedì, ore 14 · analisi del prototipo in piccoli gruppi.</p>\n    <div class=\"card-actions justify-end\">\n      <a class=\"btn btn-primary\" href=\"#dettagli\">Leggi i dettagli</a>\n    </div>\n    <p id=\"dettagli\">Porta il prototipo e una domanda da verificare.</p>\n  </div>\n</article>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      },
+      {
+        "id": "badge",
+        "title": "daisyUI · Badge",
+        "url": "https://daisyui.com/components/badge/"
+      },
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 68,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Comporre i componenti",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Card raggruppa, badge comunica lo stato e il link indica la destinazione. Prova: Passa da “Disponibile” a “Completo” e adatta l’azione.",
+        "example": "framework:composedEvent"
+      }
+    ],
+    "sources": [
+      {
+        "id": "card",
+        "title": "daisyUI · Card",
+        "url": "https://daisyui.com/components/card/"
+      },
+      {
+        "id": "badge",
+        "title": "daisyUI · Badge",
+        "url": "https://daisyui.com/components/badge/"
+      },
+      {
+        "id": "button",
+        "title": "daisyUI · Button",
+        "url": "https://daisyui.com/components/button/"
+      }
+    ],
+    "number": 69,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Fine esercitazione 06",
+    "kind": "closing",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere.",
+            "runs": [
+              {
+                "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "use",
+        "title": "daisyUI · utilizzo",
+        "url": "https://daisyui.com/docs/use/"
+      },
+      {
+        "id": "customize",
+        "title": "daisyUI · personalizzazione",
+        "url": "https://daisyui.com/docs/customize/"
+      }
+    ],
+    "credit": "Rielaborazione didattica CVeDI · fonti ufficiali collegate",
+    "number": 70,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  }
+]

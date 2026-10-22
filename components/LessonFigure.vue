@@ -1,10 +1,10 @@
 <script setup lang="ts">
 import { ref, useId, watch } from 'vue'
-import { useIsSlideActive } from '@slidev/client'
 import LessonImageContent from './LessonImageContent.vue'
 import HeroIcon from './HeroIcon.vue'
 import AcronymText from './AcronymText.vue'
 import { useSlideSet } from '../composables/use-slide-set'
+import { useSlidePlayback } from '../composables/useSlidePlayback'
 
 const { setStyle } = useSlideSet()
 
@@ -31,7 +31,8 @@ function matchImageSize(size: { width: number; height: number; emptySpaceY: numb
 const dialog = ref<HTMLDialogElement>()
 const imageIsOpen = ref(false)
 const dialogId = `lesson-image-${useId()}`
-const isActive = useIsSlideActive()
+const { isActive, canAnimate, isPrinting } = useSlidePlayback()
+const replay = ref(0)
 watch(isActive, active => { if (!active && dialog.value?.open) dialog.value.close() })
 
 function openImage() {
@@ -52,6 +53,7 @@ function syncDialogState() {
       <button
         type="button"
         class="lesson-image-button"
+        :class="{ 'lesson-image-with-overlay': $slots.overlay && !isPrinting }"
         :aria-label="`Ingrandisci: ${alt}`"
         aria-haspopup="dialog"
         :aria-controls="dialogId"
@@ -66,8 +68,15 @@ function syncDialogState() {
           :max-scale="maxScale"
           @size-change="matchImageSize"
         />
+        <span v-if="$slots.overlay" v-show="!isPrinting" class="lesson-image-overlay" aria-hidden="true">
+          <slot name="overlay" :playing="canAnimate && !imageIsOpen" :replay="replay" />
+        </span>
       </button>
-      <button type="button" class="btn btn-ghost btn-square lesson-image-hint" :aria-label="`Ingrandisci: ${alt}`" title="Ingrandisci" aria-haspopup="dialog" :aria-controls="dialogId" @click="openImage">
+      <button v-if="$slots.overlay" v-show="!isPrinting" type="button" class="btn btn-ghost btn-sm lesson-image-replay" :disabled="!canAnimate" :title="canAnimate ? 'Ripeti l’animazione del diagramma' : 'Animazione disattivata con movimento ridotto'" @click.stop="replay++">
+        <HeroIcon name="arrow-path" />
+        <span>Rianima</span>
+      </button>
+      <button v-show="!isPrinting" type="button" class="btn btn-ghost btn-square lesson-image-hint" :aria-label="`Ingrandisci: ${alt}`" title="Ingrandisci" aria-haspopup="dialog" :aria-controls="dialogId" @click="openImage">
         <HeroIcon name="arrows-pointing-out" outline-class="lesson-image-hint-outline" stroke-width="1.8" />
       </button>
     </div>

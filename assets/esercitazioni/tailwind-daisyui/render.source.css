@@ -1,0 +1,15 @@
+@import "tailwindcss" source(none);
+@source "./examples";
+@source "../../../data/esercitazioni/native-examples.mjs";
+@plugin "daisyui" { themes: light --default, dark; }
+@plugin "daisyui/theme" {
+  name: "light";
+  --color-secondary-content: oklch(12.9% 0.042 264.695);
+  --color-accent-content: oklch(26.2% 0.051 172.552);
+  --color-error: oklch(50.5% 0.213 27.518);
+  --color-error-content: oklch(100% 0 0);
+}
+@plugin "daisyui/theme" {
+  name: "dark";
+  --color-primary-content: oklch(100% 0 0);
+}

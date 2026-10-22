@@ -13,6 +13,15 @@ export const lessonDecks = [
   { id: 'tipografia-griglie', lesson: 'tipografia-griglie', alias: 'tipografia-griglie', title: 'Tipografia', file: 'lezioni/07-tipografia-griglie.md' },
   { id: 'prototipi-interfacce', lesson: 'prototipi-interfacce', alias: 'prototipi-interfacce', title: 'Prototipi e videogiochi', file: 'lezioni/08-prototipi-interfacce.md', localOnly: true },
   { id: 'test-implementazione', lesson: 'test-implementazione', alias: 'test-implementazione', title: 'Test e implementazione', file: 'lezioni/09-test-implementazione.md', localOnly: true },
+  { id: 'esercitazione-01', lesson: 'esercitazione-01', alias: 'esercitazione-01', title: "Esercitazione 1 - Ripasso HTML e CSS di base", file: 'esercitazioni/01-html-css-base.md', localOnly: true },
+  { id: 'esercitazione-02', lesson: 'esercitazione-02', alias: 'esercitazione-02', title: "Esercitazione 2 - Ripasso HTML e CSS avanzato", file: 'esercitazioni/02-html-css-avanzato.md', localOnly: true },
+  { id: 'esercitazione-03', lesson: 'esercitazione-03', alias: 'esercitazione-03', title: "Esercitazione 3 - Nuove proprietà CSS, Grid e Srcset", file: 'esercitazioni/03-css-grid-srcset.md', localOnly: true },
+  { id: 'esercitazione-04', lesson: 'esercitazione-04', alias: 'esercitazione-04', title: "Esercitazione 4 - Interfacce responsive e approccio mobile-first", file: 'esercitazioni/04-responsive-mobile-first.md', localOnly: true },
+  { id: 'esercitazione-05', lesson: 'esercitazione-05', alias: 'esercitazione-05', title: "Esercitazione 5 - Tailwind CSS: basi e layout", file: 'esercitazioni/05-tailwind-css.md', localOnly: true },
+  { id: 'esercitazione-06', lesson: 'esercitazione-06', alias: 'esercitazione-06', title: "Esercitazione 6 - daisyUI: componenti per le interfacce", file: 'esercitazioni/06-daisyui-componenti.md', localOnly: true },
+  { id: 'esercitazione-07', lesson: 'esercitazione-07', alias: 'esercitazione-07', title: "Esercitazione 7 - Temi con Tailwind CSS e daisyUI", file: 'esercitazioni/07-temi-tailwind-daisyui.md', localOnly: true },
+  { id: 'esercitazione-08', lesson: 'esercitazione-08', alias: 'esercitazione-08', title: "Esercitazione 8 - Git", file: 'esercitazioni/08-git.md', localOnly: true },
+  { id: 'esercitazione-09', lesson: 'esercitazione-09', alias: 'esercitazione-09', title: "Esercitazione 9 - JavaScript e jQuery", file: 'esercitazioni/09-javascript-jquery.md', localOnly: true },
 ]
 export function lessonDeck(id) {
   const deck = lessonDecks.find(deck => deck.id === id)

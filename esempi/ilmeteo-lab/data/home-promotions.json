@@ -89,6 +89,26 @@
         "width": 300,
         "height": 100
       }
+    },
+    {
+      "id": "tipografia",
+      "asset": "tipografia-leaderboard-v1",
+      "identity": "Booklet CVeDI · sezione Tipografia · carta avorio, indaco, lime e specimen tipografici",
+      "title": "La tipografia dà forma al testo",
+      "description": "La sezione di Tipografia del booklet CVeDI.",
+      "cta": "Scopri il booklet",
+      "href": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC",
+      "alt": "Booklet aperto con prove tipografiche e lettere annotate in indaco e lime",
+      "format": {
+        "name": "leaderboard",
+        "width": 728,
+        "height": 90
+      },
+      "mobileAsset": "tipografia-mobile-v1",
+      "mobileFormat": {
+        "width": 300,
+        "height": 100
+      }
     }
   ]
 }

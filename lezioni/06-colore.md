@@ -113,7 +113,7 @@ bookletAssets: ["l07-schemi-ruote-hsv-ryb"]
 
 # Leggere la ruota cromatica
 
-<div class="lesson-columns"><div><p>RGB/HSV: rosso e ciano sono opposti. Primari: rosso, verde e blu. La ruota usa passi di H di 30°.</p><p>RYB: rosso e verde sono opposti. Primari: rosso, giallo e blu. È un riferimento tradizionale, non una simulazione dei pigmenti.</p></div><LessonFigure src="/images/processo-ux/l07-schemi-ruote-hsv-ryb-63810352691a.webp" alt="Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento." caption="RGB/HSV a sinistra, RYB a destra. I cerchi grandi indicano i primari." /></div>
+<div class="lesson-columns"><div><p>RGB/HSV: rosso e ciano sono opposti. Primari: rosso, verde e blu. La ruota usa passi di H di 30°.</p><p>RYB: rosso e verde sono opposti. Primari: rosso, giallo e blu. È un riferimento tradizionale, non una simulazione dei pigmenti.</p></div><LessonFigure src="/images/processo-ux/l07-schemi-ruote-hsv-ryb-63810352691a.webp" alt="Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento." caption="RGB/HSV a sinistra, RYB a destra. I cerchi grandi indicano i primari."><template #overlay="{ playing, replay }"><ColorWheelDiagram :key="replay" variant="confronto" :playing="playing" /></template></LessonFigure></div>
 
 ---
 layout: default
@@ -131,7 +131,7 @@ bookletAssets: ["l07-schemi-monocromatico"]
 
 # Schema monocromatico
 
-<div class="lesson-columns"><div><p class="lead">Una sola tinta, con variazioni di saturazione e valore.</p><ul class="cvedi-list"><li><span>I campioni dell’esempio mantengono H = 210° e cambiano S e V.</span></li><li><span>Neutri, differenze di intensità e spazio distinguono contenuti e azioni.</span></li><li><span>La continuità cromatica non sostituisce la verifica del contrasto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-monocromatico-e85c70e07ce9.webp" alt="Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I campioni interni variano saturazione e valore." /></div>
+<div class="lesson-columns"><div><p class="lead">Una sola tinta, con variazioni di saturazione e valore.</p><ul class="cvedi-list"><li><span>I campioni dell’esempio mantengono H = 210° e cambiano S e V.</span></li><li><span>Neutri, differenze di intensità e spazio distinguono contenuti e azioni.</span></li><li><span>La continuità cromatica non sostituisce la verifica del contrasto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-monocromatico-e85c70e07ce9.webp" alt="Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I campioni interni variano saturazione e valore."><template #overlay="{ playing, replay }"><ColorWheelDiagram :key="replay" variant="monocromatico" :playing="playing" /></template></LessonFigure></div>
 
 ---
 layout: default
@@ -168,7 +168,7 @@ bookletAssets: ["l07-schemi-analogo"]
 
 # Schema analogo
 
-<div class="lesson-columns"><div><p class="lead">Tinte vicine sulla ruota costruiscono una continuità cromatica.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: H = 180°, 210° e 240°, cioè ciano, azzurro e blu.</span></li><li><span>Scegli una dominante e assegna alle tinte adiacenti ruoli differenti.</span></li><li><span>Saturazione, valore e quantità separano le funzioni; verifica comunque il contrasto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-analogo-fb3090abe64f.webp" alt="Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+<div class="lesson-columns"><div><p class="lead">Tinte vicine sulla ruota costruiscono una continuità cromatica.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: H = 180°, 210° e 240°, cioè ciano, azzurro e blu.</span></li><li><span>Scegli una dominante e assegna alle tinte adiacenti ruoli differenti.</span></li><li><span>Saturazione, valore e quantità separano le funzioni; verifica comunque il contrasto.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-analogo-fb3090abe64f.webp" alt="Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica."><template #overlay="{ playing, replay }"><ColorWheelDiagram :key="replay" variant="analogo" :playing="playing" /></template></LessonFigure></div>
 
 ---
 layout: default
@@ -205,7 +205,7 @@ bookletAssets: ["l07-schemi-complementare"]
 
 # Schema complementare
 
-<div class="lesson-columns"><div><p class="lead">Due tinte opposte sulla ruota adottata.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: arancione a 30° e azzurro a 210°, distanti 180°.</span></li><li><span>Una tinta può dominare e l’altra identificare un accento.</span></li><li><span>L’opposizione di tinta non misura il contrasto di luminanza fra testo e superficie.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-complementare-5f977c671ba5.webp" alt="Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+<div class="lesson-columns"><div><p class="lead">Due tinte opposte sulla ruota adottata.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: arancione a 30° e azzurro a 210°, distanti 180°.</span></li><li><span>Una tinta può dominare e l’altra identificare un accento.</span></li><li><span>L’opposizione di tinta non misura il contrasto di luminanza fra testo e superficie.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-complementare-5f977c671ba5.webp" alt="Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica."><template #overlay="{ playing, replay }"><ColorWheelDiagram :key="replay" variant="complementare" :playing="playing" /></template></LessonFigure></div>
 
 ---
 layout: default
@@ -242,7 +242,7 @@ bookletAssets: ["l07-schemi-complementare-divergente"]
 
 # Schema complementare divergente
 
-<div class="lesson-columns"><div><p class="lead">Una tinta e le due adiacenti al suo opposto.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: arancione a 30°, ciano a 180° e blu a 240°.</span></li><li><span>La base e i due accenti possono avere quantità e intensità differenti.</span></li><li><span>Errori, conferme e focus devono restare distinguibili e spiegati anche dal testo.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-complementare-divergente-8795ebc3ec76.webp" alt="Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+<div class="lesson-columns"><div><p class="lead">Una tinta e le due adiacenti al suo opposto.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: arancione a 30°, ciano a 180° e blu a 240°.</span></li><li><span>La base e i due accenti possono avere quantità e intensità differenti.</span></li><li><span>Errori, conferme e focus devono restare distinguibili e spiegati anche dal testo.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-complementare-divergente-8795ebc3ec76.webp" alt="Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica."><template #overlay="{ playing, replay }"><ColorWheelDiagram :key="replay" variant="divergente" :playing="playing" /></template></LessonFigure></div>
 
 ---
 layout: default
@@ -279,7 +279,7 @@ bookletAssets: ["l07-schemi-triadico"]
 
 # Schema triadico
 
-<div class="lesson-columns"><div><p class="lead">Tre tinte equidistanti sulla ruota.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: H = 30°, 150° e 270°, con intervalli di 120°.</span></li><li><span>Una triade non richiede tre aree uguali o tre accenti ugualmente intensi.</span></li><li><span>Definisci una dominante e verifica il contrasto: la distanza angolare non lo garantisce.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-triadico-6a77dd6a88d5.webp" alt="Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica." /></div>
+<div class="lesson-columns"><div><p class="lead">Tre tinte equidistanti sulla ruota.</p><ul class="cvedi-list"><li><span>Nell’esempio HSV: H = 30°, 150° e 270°, con intervalli di 120°.</span></li><li><span>Una triade non richiede tre aree uguali o tre accenti ugualmente intensi.</span></li><li><span>Definisci una dominante e verifica il contrasto: la distanza angolare non lo garantisce.</span></li></ul></div><LessonFigure src="/images/processo-ux/l07-schemi-triadico-6a77dd6a88d5.webp" alt="Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica." caption="Ruota HSV: i cerchi grandi indicano le tinte selezionate. I collegamenti mostrano la relazione geometrica."><template #overlay="{ playing, replay }"><ColorWheelDiagram :key="replay" variant="triadico" :playing="playing" /></template></LessonFigure></div>
 
 ---
 layout: default

@@ -1,0 +1,2332 @@
+[
+  {
+    "kind": "cover",
+    "title": "Personalizzare Bootstrap con le custom properties",
+    "blocks": [],
+    "sourceSlide": 1,
+    "number": 1,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Personalizzare Bootstrap con le custom properties",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Custom properties",
+            "runs": [
+              {
+                "text": "Custom properties"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Personalizzare Bootstrap",
+            "runs": [
+              {
+                "text": "Personalizzare Bootstrap"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 2,
+    "number": 2,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "divider",
+    "title": "Custom properties",
+    "blocks": [],
+    "sourceSlide": 3,
+    "number": 3,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Cosa sono le variabili CSS",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le custom properties (talvolta chiamate variabili CSS) sono entità personalizzate che contengono valori specifici da riutilizzare in tutto il documento",
+            "runs": [
+              {
+                "text": "Le "
+              },
+              {
+                "text": "custom properties",
+                "bold": true
+              },
+              {
+                "text": " (talvolta chiamate variabili CSS) sono entità personalizzate che contengono valori specifici da riutilizzare in tutto il documento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Vengono impostate utilizzando la notazione ",
+            "runs": [
+              {
+                "text": "Vengono impostate utilizzando la notazione "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "--custom-property: value;",
+            "runs": [
+              {
+                "text": "--custom-property",
+                "mono": true
+              },
+              {
+                "text": ": value;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "--custom-property: value;"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Successivamente vi si accede con la funzione var()",
+            "runs": [
+              {
+                "text": "Successivamente vi si accede con la funzione var()"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "color: var(--custom-property);",
+            "runs": [
+              {
+                "text": "color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--custom-property",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "color: var(--custom-property);"
+      }
+    ],
+    "sourceSlide": 4,
+    "number": 4,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Perché?",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "I siti complessi hanno quantità molto elevate di CSS, spesso con molti valori ripetuti",
+            "runs": [
+              {
+                "text": "I siti complessi hanno "
+              },
+              {
+                "text": "quantità molto elevate di CSS, spesso con molti valori ripetuti",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Lo stesso colore (e.g. #000) potrebbe essere utilizzato in centinaia di posti diversi",
+            "runs": [
+              {
+                "text": "Lo stesso colore (e.g. #000) potrebbe essere utilizzato in centinaia di posti diversi"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Se successivamente si cambia idea sul colore è necessario fare una ricerca globale nell’intero documento per sostituire il colore in tutte le proprietà dove lo si è utilizzato, mentre con l’utilizzo delle variabili CSS sarà necessario cambiare la sua definizione e il colore cambierà per l’intero documento",
+            "runs": [
+              {
+                "text": "Se successivamente si cambia idea sul colore è necessario fare una ricerca globale nell’intero documento per sostituire il colore in tutte le proprietà dove lo si è utilizzato, mentre con l’utilizzo delle variabili CSS sarà necessario cambiare la sua definizione e il colore cambierà per l’intero documento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un altro vantaggio risiede negli identificatori semantici, infatti, --primary-color è sicuramente più facile da capire e ricordare rispetto a #00ff00",
+            "runs": [
+              {
+                "text": "Un altro vantaggio risiede negli "
+              },
+              {
+                "text": "identificatori semantici",
+                "bold": true
+              },
+              {
+                "text": ", infatti, --primary-color è sicuramente più facile da capire e ricordare rispetto a #00ff00"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 5,
+    "number": 5,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Dichiarare una custom property",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La dichiarazione di una custom property avviene scrivendo il nome della custom property preceduto da due trattini (--) e, dopo i due punti, il valore che può essere qualunque valore CSS valido",
+            "runs": [
+              {
+                "text": "La dichiarazione di una custom property avviene scrivendo il nome della "
+              },
+              {
+                "text": "custom property preceduto da due trattini",
+                "bold": true
+              },
+              {
+                "text": " (--) e, dopo i due punti, "
+              },
+              {
+                "text": "il valore che può essere qualunque valore CSS valido",
+                "bold": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il selettore nel quale è dichiarata la custom property definisce lo scope (dove può essere utilizzata)",
+            "runs": [
+              {
+                "text": "Il selettore nel quale è dichiarata la custom property definisce lo scope (dove può essere utilizzata)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Generalmente le custom properties si dichiarano all’interno dello pseudo-elemento :root che rappresenta l’elemento radice (HTML) in modo tale che la custom property sia utilizzabile nell’intero documento ",
+            "runs": [
+              {
+                "text": "Generalmente le custom properties si dichiarano all’interno dello pseudo-elemento "
+              },
+              {
+                "text": ":root",
+                "bold": true
+              },
+              {
+                "text": " che rappresenta l’elemento radice (HTML) in modo tale che la custom property sia utilizzabile nell’intero documento "
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 6,
+    "number": 6,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Dichiarare una custom property",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ":root {",
+            "runs": [
+              {
+                "text": ":root",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --custom-property: value;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--custom-property",
+                "mono": true
+              },
+              {
+                "text": ": value;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ":root {\n  --custom-property: value;\n}"
+      }
+    ],
+    "sourceSlide": 6,
+    "number": 7,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Dichiarare una custom property",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "È possibile dichiarare una custom property anche a livello locale (solo per il selettore utilizzato)",
+            "runs": [
+              {
+                "text": "È possibile dichiarare una custom property anche a livello locale (solo per il selettore utilizzato)"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "In questo caso la custom property sarà accessibile solo all’interno del selettore",
+            "runs": [
+              {
+                "text": "In questo caso la custom property sarà accessibile solo all’interno del selettore"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ".my-class {",
+            "runs": [
+              {
+                "text": ".my-class",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --custom-property: value;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--custom-property",
+                "mono": true
+              },
+              {
+                "text": ": value;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ".my-class {\n  --custom-property: value;\n}"
+      }
+    ],
+    "sourceSlide": 7,
+    "number": 8,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Utilizzare una custom property",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Come detto precedentemente, l’utilizzo delle custom properties avviene attraverso la funzione var() che, come argomento, prende il nome della custom property precedentemente definita",
+            "runs": [
+              {
+                "text": "Come detto precedentemente, l’utilizzo delle custom properties avviene attraverso la funzione var() che, come argomento, prende il nome della custom property precedentemente definita"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "element {",
+            "runs": [
+              {
+                "text": "element",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  property: var(--custom-property);",
+            "runs": [
+              {
+                "text": "  property: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--custom-property",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "element {\n  property: var(--custom-property);\n}"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "La funzione var() prende un secondo argomento il fallback value che viene utilizzato se la custom property non è definita",
+            "runs": [
+              {
+                "text": "La funzione var() prende un secondo argomento il "
+              },
+              {
+                "text": "fallback value ",
+                "bold": true
+              },
+              {
+                "text": "che viene utilizzato se la custom property non è definita"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 8,
+    "number": 9,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Utilizzare una custom property",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "element {",
+            "runs": [
+              {
+                "text": "element",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  property: var(--custom-property, fallback-value);",
+            "runs": [
+              {
+                "text": "  property: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--custom-property",
+                "mono": true
+              },
+              {
+                "text": ",",
+                "mono": true
+              },
+              {
+                "text": " fallback-value",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "element {\n  property: var(--custom-property, fallback-value);\n}"
+      }
+    ],
+    "sourceSlide": 8,
+    "number": 10,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Utilizzare una custom property · esempio",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ":root {",
+            "runs": [
+              {
+                "text": ":root",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --primary-text-color: #c3c3c3;",
+            "runs": [
+              {
+                "text": "  --primary-text-color",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#c3c3c3",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --primary-bg-color: #f4f4f4;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--primary-bg-color",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#f4f4f4",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".one {",
+            "runs": [
+              {
+                "text": ".one",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  color: var(--primary-text-color);",
+            "runs": [
+              {
+                "text": "  color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-text-color",
+                "mono": true
+              },
+              {
+                "text": ")",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  background-color: var(--primary-bg-color);",
+            "runs": [
+              {
+                "text": "  background-color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-bg-color",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  ...",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".two {",
+            "runs": [
+              {
+                "text": ".two",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  color: var(--primary-text-color);",
+            "runs": [
+              {
+                "text": "  color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-text-color",
+                "mono": true
+              },
+              {
+                "text": ")",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  background-color: var(--primary-bg-color);",
+            "runs": [
+              {
+                "text": "  background-color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-bg-color",
+                "mono": true
+              },
+              {
+                "text": ")",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  ...",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ":root {\n  --primary-text-color: #c3c3c3;\n  --primary-bg-color: #f4f4f4;\n}\n\n.one {\n  color: var(--primary-text-color);\n  background-color: var(--primary-bg-color);\n  ...\n}\n\n.two {\n  color: var(--primary-text-color);\n  background-color: var(--primary-bg-color);"
+      }
+    ],
+    "sourceSlide": 9,
+    "number": 11,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Utilizzare una custom property · esempio",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ":root {",
+            "runs": [
+              {
+                "text": ":root",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --primary-text-color: #c3c3c3;",
+            "runs": [
+              {
+                "text": "  --primary-text-color",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#c3c3c3",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --primary-bg-color: #f4f4f4;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--primary-bg-color",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#f4f4f4",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".one {",
+            "runs": [
+              {
+                "text": ".one",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  color: var(--primary-text-color);",
+            "runs": [
+              {
+                "text": "  color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-text-color",
+                "mono": true
+              },
+              {
+                "text": ")",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  background-color: var(--primary-bg-color);",
+            "runs": [
+              {
+                "text": "  background-color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-bg-color",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  ...",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".two {",
+            "runs": [
+              {
+                "text": ".two",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  color: var(--primary-text-color);",
+            "runs": [
+              {
+                "text": "  color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-text-color",
+                "mono": true
+              },
+              {
+                "text": ")",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  background-color: var(--primary-bg-color);",
+            "runs": [
+              {
+                "text": "  background-color: ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--primary-bg-color",
+                "mono": true
+              },
+              {
+                "text": ")",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  ...",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "  ...\n}"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempio custom property",
+            "runs": [
+              {
+                "text": "Esempio custom property"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Qualora decidessimo di cambiare i colori sarà sufficiente cambiarli nella definizione delle relative custom properties",
+            "runs": [
+              {
+                "text": "Qualora decidessimo di cambiare i colori sarà sufficiente cambiarli nella definizione delle relative custom properties"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 9,
+    "number": 12,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "divider",
+    "title": "Personalizzare Bootstrap",
+    "blocks": [],
+    "sourceSlide": 10,
+    "number": 13,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Custom properties e Bootstrap",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dalla versione 5, Bootstrap, espone molte custom properties nel CSS compilato",
+            "runs": [
+              {
+                "text": "Dalla versione 5, Bootstrap, espone molte custom properties nel CSS compilato"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "È possibile sovrascrivere le custom properties, o aggiungerne di nuove, per personalizzare Bootstrap a nostro piacimento",
+            "runs": [
+              {
+                "text": "È possibile sovrascrivere le custom properties, o aggiungerne di nuove, per personalizzare Bootstrap a nostro piacimento"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "https://getbootstrap.com/docs/5.3/customize/css-variables/",
+            "runs": [
+              {
+                "text": "https://getbootstrap.com/docs/5.3/customize/css-variables/",
+                "underline": true,
+                "href": "https://getbootstrap.com/docs/5.3/customize/css-variables/"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 11,
+    "number": 14,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Custom properties e Bootstrap · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Sovrascrivere custom property",
+            "runs": [
+              {
+                "text": "Sovrascrivere custom property"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In questo esempio vengono sovrascritti i colori white e black di Bootstrap e vengono cambiati i colori di sfondo e del testo del body",
+            "runs": [
+              {
+                "text": "In questo esempio vengono sovrascritti i colori white e black di Bootstrap e vengono cambiati i colori di sfondo e del testo del body"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "N.B.\nÈ possibile assegnare come valore di una custom property un’altra custom property precedentemente definita",
+            "runs": [
+              {
+                "text": "N.B.",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "È possibile assegnare come valore di una custom property un’altra custom property precedentemente definita"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 15,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Custom properties e Bootstrap · esempio",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ":root {",
+            "runs": [
+              {
+                "text": ":root",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-black: #2E3440;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-black",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#",
+                "mono": true
+              },
+              {
+                "text": "2E3440",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-white: #eceff4;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-white",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#",
+                "mono": true
+              },
+              {
+                "text": "eceff4",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-body-color: var(--bs-white);",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-body-color",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--bs-",
+                "mono": true
+              },
+              {
+                "text": "white",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-body-bg: var(--bs-black);",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-body-bg",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--bs-",
+                "mono": true
+              },
+              {
+                "text": "black",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ":root {\n  --bs-black: #2E3440;\n  --bs-white: #eceff4;\n\n  --bs-body-color: var(--bs-white);\n  --bs-body-bg: var(--bs-black);\n}"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "esempio",
+            "runs": [
+              {
+                "text": "esempio",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-zjytpn?file=index.html,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 12,
+    "number": 16,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Custom properties e Bootstrap · esempio",
+    "blocks": [
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": ":root {",
+            "runs": [
+              {
+                "text": ":root",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-black: #2E3440;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-black",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#",
+                "mono": true
+              },
+              {
+                "text": "2E3440",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-white: #eceff4;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-white",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#",
+                "mono": true
+              },
+              {
+                "text": "eceff4",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-violet: #5e81ac;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-violet",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "#",
+                "mono": true
+              },
+              {
+                "text": "5e81ac",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  ...",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "",
+            "runs": [
+              {
+                "text": ""
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": ".btn-custom-primary {",
+            "runs": [
+              {
+                "text": ".btn-custom-primary",
+                "mono": true
+              },
+              {
+                "text": " {",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-btn-font-weight: 600;",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-btn-font-weight",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "600",
+                "mono": true
+              },
+              {
+                "text": ";",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-btn-color: var(--bs-white);",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-btn-color",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--bs-white",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-btn-bg: var(--bs-violet);",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-btn-bg",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--bs-violet",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "  --bs-btn-border-color: var(--bs-violet);",
+            "runs": [
+              {
+                "text": "  ",
+                "mono": true
+              },
+              {
+                "text": "--bs-btn-border-color",
+                "mono": true
+              },
+              {
+                "text": ": ",
+                "mono": true
+              },
+              {
+                "text": "var",
+                "mono": true
+              },
+              {
+                "text": "(",
+                "mono": true
+              },
+              {
+                "text": "--bs-violet",
+                "mono": true
+              },
+              {
+                "text": ");",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "...",
+            "runs": [
+              {
+                "text": "...",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "}",
+            "runs": [
+              {
+                "text": "}",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": ":root {\n  --bs-black: #2E3440;\n  --bs-white: #eceff4;\n  --bs-violet: #5e81ac;\n  ...\n}\n\n.btn-custom-primary {\n  --bs-btn-font-weight: 600;\n  --bs-btn-color: var(--bs-white);\n  --bs-btn-bg: var(--bs-violet);\n  --bs-btn-border-color: var(--bs-violet);\n...\n}"
+      }
+    ],
+    "sourceSlide": 13,
+    "number": 17,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Custom properties e Bootstrap · esempio",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Aggiungere custom property",
+            "runs": [
+              {
+                "text": "Aggiungere"
+              },
+              {
+                "text": " custom property"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In questo esempio vengono aggiunti colori ai colori di default di Bootstrap",
+            "runs": [
+              {
+                "text": "In questo esempio vengono aggiunti colori ai colori di default di Bootstrap"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Viene poi creata una nuova variante di bottone basata su questi nuovi colori sfruttando le custom property esposte da Bootstrap per il componente button",
+            "runs": [
+              {
+                "text": "Viene poi creata una nuova variante di bottone basata su questi nuovi colori sfruttando le custom property esposte da Bootstrap per il componente button"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "N.B.\nLe variabili definite nella classe .btn-custom-primary sono valide solo per questa classe",
+            "runs": [
+              {
+                "text": "N.B.",
+                "bold": true
+              },
+              {
+                "text": "\n"
+              },
+              {
+                "text": "Le variabili definite nella classe .btn-custom-primary sono valide solo per questa classe"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempio completo",
+            "runs": [
+              {
+                "text": "E",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-bhvbuf?file=index.html,styles.css"
+              },
+              {
+                "text": "sempio completo",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-bhvbuf?file=index.html,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 13,
+    "number": 18,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Personalizzazione dei componenti",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Per la maggior parte dei componenti, Bootstrap espone le variabili CSS utilizzate nel componente.",
+            "runs": [
+              {
+                "text": "Per la maggior parte dei componenti, Bootstrap espone le variabili CSS utilizzate nel componente."
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il formato delle variabili è quello SCSS",
+            "runs": [
+              {
+                "text": "Il formato delle variabili è quello SCSS"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "--#{$prefix}navbar-padding-x: value;",
+            "runs": [
+              {
+                "text": "--#{$prefix}navbar-padding-x:",
+                "mono": true
+              },
+              {
+                "text": " value;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "--#{$prefix}navbar-padding-x: value;"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il prefisso di Bootstrap è “bs”, quindi nell’uso pratico la variabile risulterà così",
+            "runs": [
+              {
+                "text": "Il prefisso di Bootstrap è “bs”, quindi nell’uso pratico la variabile risulterà così"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      },
+      {
+        "kind": "code",
+        "paragraphs": [
+          {
+            "text": "--bs-navbar-padding-x: value;",
+            "runs": [
+              {
+                "text": "--bs-navbar-padding-x:",
+                "mono": true
+              },
+              {
+                "text": " value;",
+                "mono": true
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ],
+        "text": "--bs-navbar-padding-x: value;"
+      },
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Esempio completo di personalizzazione della Navbar",
+            "runs": [
+              {
+                "text": "Esempio completo di personalizzazione della Navbar",
+                "underline": true,
+                "href": "https://stackblitz.com/edit/web-platform-lvs4zw?file=index.html,about.html,styles.css"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 14,
+    "number": 19,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Utilizzate Bootstrap per creare un mini-sito responsive composto da diverse pagine. Seguite le seguenti specifiche",
+            "runs": [
+              {
+                "text": "Utilizzate Bootstrap per creare un mini-sito responsive composto da diverse pagine. Seguite le seguenti specifiche"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il sito dovrà essere composto da una homepage, da almeno una pagina di secondo livello e da almeno una pagina di terzo livello",
+            "runs": [
+              {
+                "text": "Il sito dovrà essere composto da una homepage, da almeno una pagina di secondo livello e da almeno una pagina di terzo livello"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "La navigabilità tra le diverse pagine deve essere garantita da un elemento che rimanga costante (e.g. barra superiore / navbar / menù)",
+            "runs": [
+              {
+                "text": "La navigabilità tra le diverse pagine deve essere garantita da un elemento che rimanga costante (e.g. barra superiore / navbar / menù)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Ogni pagina dovrà avere un contenuto (testuale o multimediale)",
+            "runs": [
+              {
+                "text": "Ogni pagina dovrà avere un contenuto (testuale o multimediale)"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 15,
+    "number": 20,
+    "part": 1,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Utilizzate più utilities possibile per margini, bordi, posizionamenti e dimensioni, e utilizzate le classi di Bootstrap per garantire la responsiveness",
+            "runs": [
+              {
+                "text": "Utilizzate più "
+              },
+              {
+                "text": "utilities",
+                "underline": true,
+                "href": "https://docs.google.com/presentation/u/0/d/16J43FAwzCB8_qWiUo9W-OccNMJwY-ol33fjXH09YFmo/edit"
+              },
+              {
+                "text": " possibile per margini, bordi, posizionamenti e dimensioni, e utilizzate le classi di Bootstrap per garantire la responsiveness"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "In una delle pagine a vostra scelta dovrete inserire una serie di immagini, utilizzando il componente carousel ",
+            "runs": [
+              {
+                "text": "In una delle pagine a vostra scelta dovrete inserire una serie di immagini, utilizzando il componente carousel "
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "In ogni pagina, esclusa la homepage, dovrete inoltre implementare le breadcrumbs per aiutare un potenziale utente a orientarsi nella gerarchia delle diverse pagine",
+            "runs": [
+              {
+                "text": "In ogni pagina, esclusa la homepage, dovrete inoltre implementare le breadcrumbs per aiutare un potenziale utente a orientarsi nella gerarchia delle diverse pagine"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 15,
+    "number": 21,
+    "part": 2,
+    "parts": 2
+  },
+  {
+    "kind": "content",
+    "title": "Esercizio 1",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Seguite inoltre le seguenti specifiche",
+            "runs": [
+              {
+                "text": "Seguite inoltre le seguenti specifiche"
+              }
+            ],
+            "bullet": false,
+            "level": 0
+          },
+          {
+            "text": "Il layout tra le diverse pagine deve mostrare una certa coerenza",
+            "runs": [
+              {
+                "text": "Il layout tra le diverse pagine deve mostrare una certa coerenza"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Lo stile tra le diverse pagine deve mostrare una certa coerenza",
+            "runs": [
+              {
+                "text": "Lo stile tra le diverse pagine deve mostrare una certa coerenza"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Utilizzate le custom properties per personalizzare gli stili e creare nuovi componenti o nuove varianti dei componenti già esistenti",
+            "runs": [
+              {
+                "text": "Utilizzate le custom properties per personalizzare gli stili e creare nuovi componenti o nuove varianti dei componenti già esistenti"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          },
+          {
+            "text": "Ispiratevi al vostro progetto per definire l’aspetto di questo mini-sito",
+            "runs": [
+              {
+                "text": "Ispiratevi al vostro progetto per definire l’aspetto di questo mini-sito"
+              }
+            ],
+            "bullet": true,
+            "level": 0
+          }
+        ]
+      }
+    ],
+    "sourceSlide": 16,
+    "number": 22,
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "kind": "closing",
+    "title": "Fine esercitazione 07",
+    "blocks": [],
+    "sourceSlide": 17,
+    "number": 23,
+    "part": 1,
+    "parts": 1
+  }
+]

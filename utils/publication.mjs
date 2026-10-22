@@ -15,5 +15,5 @@ export function publicationExtensions(mode) {
 
 // Unpublished illustration families remain local. The shared UX figures are
 // filtered against the compiled bundle so published lessons retain their assets.
-export const localAssetDirectories = ['images/generated/theme-2026/chapters/local']
+export const localAssetDirectories = ['images/generated/theme-2026/chapters/local', 'images/esercitazioni']
 export const sharedLessonAssetDirectories = ['images/processo-ux']

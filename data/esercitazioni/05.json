@@ -1,0 +1,1477 @@
+[
+  {
+    "title": "Tailwind CSS: basi e layout",
+    "kind": "cover",
+    "blocks": [],
+    "sources": [],
+    "number": 1,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Dal CSS al progetto",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Obiettivo: comporre un’interfaccia responsive con utility, riconoscendo le proprietà CSS che ogni classe applica.",
+            "runs": [
+              {
+                "text": "Obiettivo: comporre un’interfaccia responsive con utility, riconoscendo le proprietà CSS che ogni classe applica."
+              }
+            ]
+          },
+          {
+            "text": "Il percorso usa Tailwind CSS 4. Il codice degli esempi è originale e modificabile.",
+            "runs": [
+              {
+                "text": "Il percorso usa Tailwind CSS 4. Il codice degli esempi è originale e modificabile."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 2,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Che cosa fa un framework CSS",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Un insieme di convenzioni e strumenti organizza stili e riuso. HTML, cascata e layout del browser continuano a funzionare secondo le regole del web.",
+            "runs": [
+              {
+                "text": "Un insieme di convenzioni e strumenti organizza stili e riuso. HTML, cascata e layout del browser continuano a funzionare secondo le regole del web."
+              }
+            ]
+          },
+          {
+            "text": "Tailwind genera utility; nel modulo successivo daisyUI aggiunge classi per componenti.",
+            "runs": [
+              {
+                "text": "Tailwind genera utility; nel modulo successivo daisyUI aggiunge classi per componenti."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      },
+      {
+        "id": "use",
+        "title": "daisyUI · utilizzo",
+        "url": "https://daisyui.com/docs/use/"
+      }
+    ],
+    "number": 3,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Una utility, un compito",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le classi descrivono decisioni di stile: p-6 aggiunge padding, font-bold cambia il peso, grid abilita CSS Grid.",
+            "runs": [
+              {
+                "text": "Le classi descrivono decisioni di stile: p-6 aggiunge padding, font-bold cambia il peso, grid abilita CSS Grid."
+              }
+            ]
+          },
+          {
+            "text": "Leggi le classi per gruppi: layout, spazio, tipografia, colore e stati.",
+            "runs": [
+              {
+                "text": "Leggi le classi per gruppi: layout, spazio, tipografia, colore e stati."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 4,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Leggere una composizione",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<section class=\"grid gap-4 p-6\">\n  <h2 class=\"text-2xl font-bold\">Layout, spazio e tipografia</h2>\n</section>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 5,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Una classe si può decodificare",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In md:grid-cols-2, md: è la condizione e grid-cols-2 è l’utility.",
+            "runs": [
+              {
+                "text": "In md:grid-cols-2, md: è la condizione e grid-cols-2 è l’utility."
+              }
+            ]
+          },
+          {
+            "text": "La condizione non modifica il significato HTML dell’elemento: un titolo rimane un titolo perché usa h1, h2 e così via.",
+            "runs": [
+              {
+                "text": "La condizione non modifica il significato HTML dell’elemento: un titolo rimane un titolo perché usa h1, h2 e così via."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      },
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 6,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Installare: percorso con la CLI",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "npm install -D tailwindcss @tailwindcss/cli\n\nnpx @tailwindcss/cli -i ./src/input.css \\\n  -o ./public/output.css --watch"
+      }
+    ],
+    "sources": [
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 7,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Il CSS di ingresso",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "@import \"tailwindcss\";\n\n/* src/input.css: la CLI produce public/output.css. */"
+      }
+    ],
+    "sources": [
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      }
+    ],
+    "number": 8,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Collegare il CSS compilato",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<!-- Nel documento public/index.html -->\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<link rel=\"stylesheet\" href=\"./output.css\">"
+      }
+    ],
+    "sources": [
+      {
+        "id": "cli",
+        "title": "Tailwind · installazione CLI",
+        "url": "https://tailwindcss.com/docs/installation/tailwind-cli"
+      },
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 9,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Il primo contenuto",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<article class=\"max-w-xl rounded-xl bg-emerald-50 p-6 text-emerald-950\">\n  <h2 class=\"text-2xl font-bold\">Laboratorio aperto</h2>\n  <p class=\"mt-3\">Porta una domanda e il tuo prototipo.</p>\n</article>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 10,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: utility in combinazione",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Padding, misura del testo e gerarchia derivano da classi distinte.",
+        "example": "framework:first"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 11,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Preflight: la base cambia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "L’import di Tailwind include Preflight. Tra gli effetti: rimozione dei margini predefiniti e titoli senza una gerarchia visiva automatica.",
+            "runs": [
+              {
+                "text": "L’import di Tailwind include Preflight. Tra gli effetti: rimozione dei margini predefiniti e titoli senza una gerarchia visiva automatica."
+              }
+            ]
+          },
+          {
+            "text": "La semantica resta nell’HTML; dimensione, peso e spazio dei titoli vanno scelti esplicitamente.",
+            "runs": [
+              {
+                "text": "La semantica resta nell’HTML; dimensione, peso e spazio dei titoli vanno scelti esplicitamente."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "preflight",
+        "title": "Tailwind · Preflight",
+        "url": "https://tailwindcss.com/docs/preflight"
+      }
+    ],
+    "number": 12,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Spazio: padding, margini e gap",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "p-* agisce all’interno; m-* all’esterno; gap-* separa gli elementi di un contenitore Flexbox o Grid.",
+            "runs": [
+              {
+                "text": "p-* agisce all’interno; m-* all’esterno; gap-* separa gli elementi di un contenitore Flexbox o Grid."
+              }
+            ]
+          },
+          {
+            "text": "Per il flusso logico usa anche ps-* e pe-*. Parti da una scala coerente e verifica gli spazi nel risultato.",
+            "runs": [
+              {
+                "text": "Per il flusso logico usa anche ps-* e pe-*. Parti da una scala coerente e verifica gli spazi nel risultato."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
+      },
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      }
+    ],
+    "number": 13,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Padding e gap",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid items-start gap-6 sm:grid-cols-2\">\n  <section class=\"grid gap-2 bg-base-200 p-2\">\n    <p class=\"bg-base-100 p-2\">p-2 · gap-2</p>\n    <p class=\"bg-base-100 p-2\">Secondo elemento</p>\n  </section>\n  <section class=\"grid gap-6 bg-base-200 p-6\">\n    <p class=\"bg-base-100 p-2\">p-6 · gap-6</p>\n    <p class=\"bg-base-100 p-2\">Secondo elemento</p>\n  </section>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
+      },
+      {
+        "id": "gap",
+        "title": "Tailwind · gap",
+        "url": "https://tailwindcss.com/docs/gap"
+      }
+    ],
+    "number": 14,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Padding e gap",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: p-* separa il contenuto dal bordo; gap-* separa i figli. Prova: Porta soltanto gap-2 a gap-6: che cosa cambia?",
+        "example": "framework:spacingCompare"
+      }
+    ],
+    "sources": [
+      {
+        "id": "spacing",
+        "title": "Tailwind · padding",
+        "url": "https://tailwindcss.com/docs/padding"
+      },
+      {
+        "id": "gap",
+        "title": "Tailwind · gap",
+        "url": "https://tailwindcss.com/docs/gap"
+      }
+    ],
+    "number": 15,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Flexbox: da colonna a riga",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"flex flex-col gap-4 sm:flex-row sm:items-center\">\n  <h2 class=\"text-2xl font-bold\">Laboratorio aperto</h2>\n  <p class=\"sm:ml-auto\">Giovedì, ore 14</p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      },
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 16,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: una riga flessibile",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Su questa larghezza il titolo e l’orario condividono una riga.",
+        "example": "framework:flex"
+      }
+    ],
+    "sources": [
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      },
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 17,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Distribuire lo spazio",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-6\">\n  <div class=\"flex flex-wrap justify-center gap-3 bg-base-200 p-4\">\n    <span>justify-center</span><span>14:00</span>\n  </div>\n  <div class=\"flex flex-wrap justify-between gap-3 bg-base-200 p-4\">\n    <span>justify-between</span><span>14:00</span>\n  </div>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "justify",
+        "title": "Tailwind · justify-content",
+        "url": "https://tailwindcss.com/docs/justify-content"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 18,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Distribuire lo spazio",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Gli elementi sono uguali; cambia la distribuzione dello spazio libero. Prova: Sostituisci justify-center con justify-end.",
+        "example": "framework:alignmentCompare"
+      }
+    ],
+    "sources": [
+      {
+        "id": "justify",
+        "title": "Tailwind · justify-content",
+        "url": "https://tailwindcss.com/docs/justify-content"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 19,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Far andare a capo",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"mx-auto flex max-w-xl flex-wrap gap-4 bg-base-200 p-4\">\n  <p class=\"basis-64 grow bg-base-100 p-4\">Analisi</p>\n  <p class=\"basis-64 grow bg-base-100 p-4\">Prototipo</p>\n  <p class=\"basis-64 grow bg-base-100 p-4\">Verifica</p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "wrap",
+        "title": "Tailwind · flex-wrap",
+        "url": "https://tailwindcss.com/docs/flex-wrap"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 20,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Far andare a capo",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: flex-wrap crea una nuova riga quando le basi dei tre elementi non entrano. Prova: Togli flex-wrap e confronta le larghezze degli elementi.",
+        "example": "framework:wrappingItems"
+      }
+    ],
+    "sources": [
+      {
+        "id": "wrap",
+        "title": "Tailwind · flex-wrap",
+        "url": "https://tailwindcss.com/docs/flex-wrap"
+      },
+      {
+        "id": "flex",
+        "title": "Tailwind · Flexbox",
+        "url": "https://tailwindcss.com/docs/flex"
+      }
+    ],
+    "number": 21,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Grid: tre colonne quando c’è spazio",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid grid-cols-1 gap-4 md:grid-cols-3\">\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Osserva</p>\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Progetta</p>\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Verifica</p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 22,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: struttura in colonne",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Tre fasi condividono colonne e intervalli regolari.",
+        "example": "framework:grid"
+      }
+    ],
+    "sources": [
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      }
+    ],
+    "number": 23,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Occupare più colonne",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid grid-cols-1 gap-4 sm:grid-cols-3\">\n  <header class=\"bg-base-200 p-4 sm:col-span-3\">Laboratorio</header>\n  <aside class=\"bg-base-200 p-4\">Materiali</aside>\n  <section class=\"bg-base-300 p-4 sm:col-span-2\">Contenuto principale</section>\n  <footer class=\"bg-base-200 p-4 sm:col-span-3\">Contatti</footer>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "span",
+        "title": "Tailwind · grid-column",
+        "url": "https://tailwindcss.com/docs/grid-column"
+      }
+    ],
+    "number": 24,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Occupare più colonne",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Grid crea tre colonne; col-span-2 assegna due colonne al contenuto. Prova: Cambia col-span-2 in col-span-1 e osserva lo spazio libero.",
+        "example": "framework:gridSpans"
+      }
+    ],
+    "sources": [
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      },
+      {
+        "id": "span",
+        "title": "Tailwind · grid-column",
+        "url": "https://tailwindcss.com/docs/grid-column"
+      }
+    ],
+    "number": 25,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Mobile-first: la base non ha prefisso",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le utility senza prefisso valgono a ogni larghezza. md: aggiunge regole dalla soglia md in avanti.",
+            "runs": [
+              {
+                "text": "Le utility senza prefisso valgono a ogni larghezza. md: aggiunge regole dalla soglia md in avanti."
+              }
+            ]
+          },
+          {
+            "text": "sm: non significa “solo smartphone”. Scegli i breakpoint quando il contenuto richiede una disposizione diversa.",
+            "runs": [
+              {
+                "text": "sm: non significa “solo smartphone”. Scegli i breakpoint quando il contenuto richiede una disposizione diversa."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 26,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "I breakpoint predefiniti",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "table",
+        "rows": [
+          [
+            "Variante",
+            "Larghezza minima"
+          ],
+          [
+            "sm:",
+            "40rem · 640px"
+          ],
+          [
+            "md:",
+            "48rem · 768px"
+          ],
+          [
+            "lg:",
+            "64rem · 1024px"
+          ],
+          [
+            "xl:",
+            "80rem · 1280px"
+          ],
+          [
+            "2xl:",
+            "96rem · 1536px"
+          ]
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 27,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Stesso contenuto, due disposizioni",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid grid-cols-1 gap-4 md:grid-cols-2\">\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Programma</p>\n  <p class=\"rounded-lg bg-emerald-100 p-6\">Materiali</p>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      },
+      {
+        "id": "grid",
+        "title": "Tailwind · Grid",
+        "url": "https://tailwindcss.com/docs/grid-template-columns"
+      }
+    ],
+    "number": 28,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: viewport ampio e stretto",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Lo stesso HTML passa da due colonne a una; i viewport degli esempi sono reali.",
+        "example": "framework:responsive"
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 29,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Cambiare con il viewport",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<section class=\"grid gap-4 bg-base-200 p-4\">\n  <h2 class=\"text-xl font-bold\">Prossimo laboratorio</h2>\n  <p>Giovedì, ore 14</p>\n  <p class=\"md:hidden\">Apri il programma per i dettagli.</p>\n  <p class=\"hidden md:block\">Aula 12 · porta computer e prototipo.</p>\n</section>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      },
+      {
+        "id": "display",
+        "title": "Tailwind · display",
+        "url": "https://tailwindcss.com/docs/display"
+      }
+    ],
+    "number": 30,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Cambiare con il viewport",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: Sotto md compare il messaggio compatto; da md compaiono i dettagli. Prova: Usa lg: al posto di md: e osserva il viewport da 780px.",
+        "example": "framework:responsiveVisibility"
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      },
+      {
+        "id": "display",
+        "title": "Tailwind · display",
+        "url": "https://tailwindcss.com/docs/display"
+      }
+    ],
+    "number": 31,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Contenere la larghezza",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<main class=\"mx-auto w-full max-w-5xl px-4 sm:px-6\">\n  <p class=\"max-w-prose\">Una riga di testo con misura controllata.</p>\n</main>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      },
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "number": 32,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "La tipografia è una gerarchia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Dimensione, peso e interlinea hanno ruoli distinti. Un carattere grande non deve sostituire l’elemento semantico corretto.",
+            "runs": [
+              {
+                "text": "Dimensione, peso e interlinea hanno ruoli distinti. Un carattere grande non deve sostituire l’elemento semantico corretto."
+              }
+            ]
+          },
+          {
+            "text": "Controlla righe troppo lunghe, testo che va a capo e spazio fra titolo e paragrafo.",
+            "runs": [
+              {
+                "text": "Controlla righe troppo lunghe, testo che va a capo e spazio fra titolo e paragrafo."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 33,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Titolo e paragrafo",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<h2 class=\"text-2xl font-bold leading-tight\">Materiali del laboratorio</h2>\n<p class=\"mt-4 max-w-prose text-lg leading-relaxed\">\n  Leggi il brief e prepara una prima ipotesi.\n</p>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 34,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Esempio · Costruire la gerarchia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid gap-6 sm:grid-cols-2\">\n  <section class=\"bg-base-200 p-4\">\n    <h2 class=\"text-base font-normal\">Materiali del laboratorio</h2>\n    <p class=\"text-base\">Leggi il brief e prepara una domanda.</p>\n  </section>\n  <section class=\"bg-base-200 p-4\">\n    <h2 class=\"text-2xl font-bold leading-tight\">Materiali del laboratorio</h2>\n    <p class=\"mt-4 text-base leading-relaxed\">Leggi il brief e prepara una domanda.</p>\n  </section>\n</div>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 35,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Prova · Costruire la gerarchia",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Osserva: La seconda versione distingue titolo, testo e distanza fra i blocchi. Prova: Togli font-bold: il titolo resta riconoscibile?",
+        "example": "framework:typeHierarchy"
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 36,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Hover e focus sono stati diversi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<a href=\"#programma\"\n  class=\"rounded px-4 py-2 underline hover:no-underline\n    focus-visible:outline-2 focus-visible:outline-offset-4\">\n  Leggi il programma\n</a>"
+      }
+    ],
+    "sources": [
+      {
+        "id": "states",
+        "title": "Tailwind · stati e varianti",
+        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
+      }
+    ],
+    "number": 37,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Risultato: focus da tastiera",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "native",
+        "caption": "Il contorno identifica il collegamento che riceve il focus.",
+        "example": "framework:focus"
+      }
+    ],
+    "sources": [
+      {
+        "id": "states",
+        "title": "Tailwind · stati e varianti",
+        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
+      }
+    ],
+    "number": 38,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Varianti e preferenze",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Le varianti possono dipendere da stati, media query e attributi. motion-reduce: permette di adattare gli effetti alle preferenze di movimento.",
+            "runs": [
+              {
+                "text": "Le varianti possono dipendere da stati, media query e attributi. motion-reduce: permette di adattare gli effetti alle preferenze di movimento."
+              }
+            ]
+          },
+          {
+            "text": "Definisci il risultato anche senza hover e verifica la navigazione da tastiera.",
+            "runs": [
+              {
+                "text": "Definisci il risultato anche senza hover e verifica la navigazione da tastiera."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "states",
+        "title": "Tailwind · stati e varianti",
+        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
+      }
+    ],
+    "number": 39,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Le classi devono essere riconoscibili",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Tailwind cerca nomi di classe completi nei sorgenti. Concatenare frammenti come bg- + colore + -600 può impedire la generazione dello stile.",
+            "runs": [
+              {
+                "text": "Tailwind cerca nomi di classe completi nei sorgenti. Concatenare frammenti come bg- + colore + -600 può impedire la generazione dello stile."
+              }
+            ]
+          },
+          {
+            "text": "Prepara una mappa di stringhe complete e registra esplicitamente i sorgenti esterni con @source quando necessario.",
+            "runs": [
+              {
+                "text": "Prepara una mappa di stringhe complete e registra esplicitamente i sorgenti esterni con @source quando necessario."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "detection",
+        "title": "Tailwind · rilevamento delle classi",
+        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+      }
+    ],
+    "number": 40,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Una mappa statica di classi",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "const stato = {\n  disponibile: \"bg-emerald-100 text-emerald-950\",\n  esaurito: \"bg-amber-100 text-amber-950\",\n};\n// Usa una delle stringhe complete, senza costruire il nome a pezzi."
+      }
+    ],
+    "sources": [
+      {
+        "id": "detection",
+        "title": "Tailwind · rilevamento delle classi",
+        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+      }
+    ],
+    "number": 41,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Valori specifici senza perdere la regola",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "<div class=\"grid grid-cols-[auto_1fr] gap-4\">\n  <span>14:00</span><p>Laboratorio di interfacce</p>\n</div>\n<!-- Le parentesi quadre contengono un valore CSS specifico. -->"
+      }
+    ],
+    "sources": [
+      {
+        "id": "custom",
+        "title": "Tailwind · CSS personalizzato",
+        "url": "https://tailwindcss.com/docs/adding-custom-styles"
+      }
+    ],
+    "number": 42,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Token che producono utility",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "@import \"tailwindcss\";\n@theme {\n  --color-laboratorio: oklch(45% 0.085 224);\n}\n/* Ora esistono utility come bg-laboratorio. */"
+      }
+    ],
+    "sources": [
+      {
+        "id": "theme",
+        "title": "Tailwind · theme variables",
+        "url": "https://tailwindcss.com/docs/theme"
+      }
+    ],
+    "number": 43,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Riuso: prima riconosci la ripetizione",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Una sequenza di utility può essere estratta in un componente del progetto quando struttura e comportamento si ripetono.",
+            "runs": [
+              {
+                "text": "Una sequenza di utility può essere estratta in un componente del progetto quando struttura e comportamento si ripetono."
+              }
+            ]
+          },
+          {
+            "text": "Nel prossimo modulo useremo componenti CSS già definiti da daisyUI e utility Tailwind per il layout che li contiene.",
+            "runs": [
+              {
+                "text": "Nel prossimo modulo useremo componenti CSS già definiti da daisyUI e utility Tailwind per il layout che li contiene."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "custom",
+        "title": "Tailwind · CSS personalizzato",
+        "url": "https://tailwindcss.com/docs/adding-custom-styles"
+      },
+      {
+        "id": "use",
+        "title": "daisyUI · utilizzo",
+        "url": "https://daisyui.com/docs/use/"
+      }
+    ],
+    "number": 44,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Alternativa: integrazione con Vite",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "code",
+        "text": "import { defineConfig } from \"vite\";\nimport tailwindcss from \"@tailwindcss/vite\";\n\nexport default defineConfig({\n  plugins: [tailwindcss()],\n});\n// Installa tailwindcss e @tailwindcss/vite; importa il CSS nel progetto."
+      }
+    ],
+    "sources": [
+      {
+        "id": "vite",
+        "title": "Tailwind · Vite",
+        "url": "https://tailwindcss.com/docs/installation/using-vite"
+      }
+    ],
+    "number": 45,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Laboratorio · una scheda responsive",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "In 15 minuti costruisci una scheda per un laboratorio: titolo, descrizione, data e un collegamento descrittivo.",
+            "runs": [
+              {
+                "text": "In 15 minuti costruisci una scheda per un laboratorio: titolo, descrizione, data e un collegamento descrittivo."
+              }
+            ]
+          },
+          {
+            "text": "Usa una colonna come base e due aree affiancate quando il contenuto lo consente. Consegna HTML, CSS di ingresso e due screenshot.",
+            "runs": [
+              {
+                "text": "Usa una colonna come base e due aree affiancate quando il contenuto lo consente. Consegna HTML, CSS di ingresso e due screenshot."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      },
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      }
+    ],
+    "number": 46,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Verifica prima di consegnare",
+    "kind": "content",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Il CSS compilato è collegato e le classi usate esistono? Il contenuto resta leggibile a 390px e a 1280px?",
+            "runs": [
+              {
+                "text": "Il CSS compilato è collegato e le classi usate esistono? Il contenuto resta leggibile a 390px e a 1280px?"
+              }
+            ]
+          },
+          {
+            "text": "Titoli, collegamenti e ordine di lettura hanno senso anche senza lo stile? Il focus è riconoscibile?",
+            "runs": [
+              {
+                "text": "Titoli, collegamenti e ordine di lettura hanno senso anche senza lo stile? Il focus è riconoscibile?"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "detection",
+        "title": "Tailwind · rilevamento delle classi",
+        "url": "https://tailwindcss.com/docs/detecting-classes-in-source-files"
+      },
+      {
+        "id": "states",
+        "title": "Tailwind · stati e varianti",
+        "url": "https://tailwindcss.com/docs/hover-focus-and-other-states"
+      }
+    ],
+    "number": 47,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  },
+  {
+    "title": "Fine esercitazione 05",
+    "kind": "closing",
+    "blocks": [
+      {
+        "kind": "text",
+        "paragraphs": [
+          {
+            "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere.",
+            "runs": [
+              {
+                "text": "Riprendi il codice degli esempi, modifica un parametro e confronta il risultato prima di procedere."
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "utilities",
+        "title": "Tailwind · utility classes",
+        "url": "https://tailwindcss.com/docs/styling-with-utility-classes"
+      },
+      {
+        "id": "responsive",
+        "title": "Tailwind · responsive design",
+        "url": "https://tailwindcss.com/docs/responsive-design"
+      }
+    ],
+    "credit": "Rielaborazione didattica CVeDI · fonti ufficiali collegate",
+    "number": 48,
+    "sourceSlide": null,
+    "sourceKind": "official-docs",
+    "revision": "tailwind-daisyui-2026-10",
+    "part": 1,
+    "parts": 1
+  }
+]

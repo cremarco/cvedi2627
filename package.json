@@ -25,12 +25,17 @@
     "export": "pnpm prepare:assets && pnpm run css && node ./node_modules/@slidev/cli/bin/slidev.mjs export",
     "check": "node scripts/check/slides.mjs",
     "check:source": "node scripts/check/slide-source.mjs",
+    "check:exercises": "node scripts/check/exercises.mjs",
+    "check:exercise-native": "node scripts/check/exercise-native.mjs",
+    "check:exercise-code": "node scripts/check/exercise-code.mjs",
     "check:pagination": "node --test scripts/check/lesson-pagination.test.mjs",
     "check:clean": "node --test scripts/check/clean.test.mjs",
     "check:publication": "node scripts/check/publication.mjs",
     "check:publication:browser": "node scripts/check/lesson-decks-browser.mjs",
     "check:progress": "node scripts/check/progress.mjs",
     "check:motion": "node scripts/check/motion.mjs",
+    "check:color-wheels": "node scripts/check/color-wheels.mjs",
+    "check:frameworks": "node scripts/check/framework-examples.mjs",
     "check:covers": "node scripts/check/covers.mjs",
     "check:typography": "node scripts/check/typography.mjs",
     "check:acronyms": "node scripts/check/acronyms.mjs",
@@ -63,6 +68,7 @@
     "@tailwindcss/cli": "^4.3.3",
     "daisyui": "^5.7.46",
     "playwright-chromium": "^1.63.0",
+    "shiki": "4.4.3",
     "tailwindcss": "^4.3.3"
   }
 }

@@ -462,7 +462,7 @@ try {
       assert.equal(await page.locator('#snapshot-unavailable').isVisible(),false,'Local Radar avoids the unavailable-service dialog');
     }
     if([1280,375].includes(width)) await page.locator('#home-weather-map').screenshot({path:path.join(out,`weather-${width}.png`)});
-    assert.equal(await page.locator('.home-ad').count(),5);
+    assert.equal(await page.locator('.home-ad').count(),6);
     assert.equal(await page.locator('[data-summary-panel]').count(),7);
     assert.equal(await page.locator('.block_news__col__list__item').count(),16);
     assert.equal(await page.locator('.block_news__col__list__item a').count(),16,'Each news item has one named link');
@@ -470,7 +470,7 @@ try {
       const expected=data.records[day.narrativeRef].text.split(' Previsioni meteo complete')[0];
       assert.equal(await page.locator(`#summary-panel-${i} > p`).textContent(),expected);
     }
-    for(const id of ['booklet','corso','caffe','atlante','laboratorio']) {
+    for(const id of ['booklet','corso','caffe','atlante','laboratorio','tipografia']) {
       const unit=page.locator(`[data-promotion="${id}"]`);
       await unit.scrollIntoViewIfNeeded();
       await unit.locator('img').evaluate(img=>img.decode());
@@ -530,7 +530,7 @@ try {
       await footer.screenshot({path:path.join(out,'footer-print.png')});
       await page.pdf({path:path.join(out,'print.pdf'),format:'A4',printBackground:true});
     }
-    report.cases.push({width,ads:5,sourceNarratives:7,news:16,overflow:0,keyboard:'passed',worldCountries:242,worldSearch:'passed',worldSelection:'passed',internationalFallback:'passed',radarNavigation:'passed',simulationNotice:'passed',fab:'passed'});
+    report.cases.push({width,ads:6,sourceNarratives:7,news:16,overflow:0,keyboard:'passed',worldCountries:242,worldSearch:'passed',worldSelection:'passed',internationalFallback:'passed',radarNavigation:'passed',simulationNotice:'passed',fab:'passed'});
     await context.close();
   }
   const tablet=await open(897);
@@ -558,7 +558,7 @@ try {
   await tablet.context.close();
   const {context,page}=await open(375,{javaScriptEnabled:false});
   assert.equal(await page.locator('[data-summary-panel]:visible').count(),7,'No-script keeps every day');
-  assert.equal(await page.locator('.home-ad a').count(),5,'No-script ads remain links');
+  assert.equal(await page.locator('.home-ad a').count(),6,'No-script ads remain links');
   assert.equal(await page.locator('#weather-map-notice').isVisible(),true,'No-script preserves the simulation declaration');
   await page.locator('#main_menu a[data-local-radar]').click();
   assert.equal(new URL(page.url()).hash,'#home-weather-map','No-script Radar opens the local map');
@@ -579,7 +579,7 @@ try {
   await checkFab(page,375);
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth),0);
   await Promise.all([page.waitForURL(new URL('milano.html',url).href),page.locator('#world-milano-link').click()]);
-  report.cases.push({javaScript:false,sourceNarratives:7,ads:5,overflow:0});
+  report.cases.push({javaScript:false,sourceNarratives:7,ads:6,overflow:0});
   await context.close();
   const local=await open(1280);
   for(const country of [null,'Italia']) {
@@ -611,4 +611,4 @@ finally {
   await browser?.close();
   await preview.close();
 }
-if(!toolsOnly&&!brandingOnly&&!videoOnly&&!newsOnly) console.log(recaptureWorld320?'World 320px evidence recaptured with an unfocused skip link outside the viewport.':'Home modules: five distinct ad formats, archived content, keyboard, search states, responsive creatives, print, no-script and isolated Pages export passed.');
+if(!toolsOnly&&!brandingOnly&&!videoOnly&&!newsOnly) console.log(recaptureWorld320?'World 320px evidence recaptured with an unfocused skip link outside the viewport.':'Home modules: six promotional creatives, archived content, keyboard, search states, responsive creatives, print, no-script and isolated Pages export passed.');

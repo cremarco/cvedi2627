@@ -6,7 +6,8 @@ import { slideSet } from '../utils/slide-sets'
 import { deckForTarget, deckDirectory } from '../utils/lesson-decks.mjs'
 import HeroIcon from './HeroIcon.vue'
 
-const props = withDefaults(defineProps<{ to: string | number; showArrow?: boolean }>(), { showArrow: true })
+const props = withDefaults(defineProps<{ to: string | number; showArrow?: boolean; localOnly?: boolean }>(), { showArrow: true, localOnly: false })
+const disabled = computed(() => props.localOnly && import.meta.env.PROD)
 const { go } = useNav()
 const { set, nav } = useSlideSet()
 const destinationDeck = computed(() => typeof props.to === 'string' ? deckForTarget(props.to) : undefined)
@@ -16,6 +17,7 @@ const destinationHref = computed(() => {
   return `${import.meta.env.VITE_CVEDI_MENU_BASE || '/'}${deckDirectory(owner.id)}#/${props.to}`
 })
 function activate(event: MouseEvent) {
+  if (disabled.value) { event.preventDefault(); return }
   if (destinationHref.value) return
   event.preventDefault()
   go(props.to)
@@ -33,7 +35,7 @@ const actionStyle = computed(() => {
 </script>
 
 <template>
-  <component :is="destinationHref ? 'a' : 'button'" :type="destinationHref ? undefined : 'button'" :href="destinationHref" class="btn btn-outline slide-action" :style="actionStyle" @click="activate" @keydown.enter.stop @keydown.space.stop>
+  <component :is="destinationHref && !disabled ? 'a' : 'button'" :type="destinationHref && !disabled ? undefined : 'button'" :href="disabled ? undefined : destinationHref" :disabled="disabled || undefined" :aria-disabled="disabled || undefined" class="btn btn-outline slide-action" :style="actionStyle" @click="activate" @keydown.enter.stop @keydown.space.stop>
     <slot />
     <HeroIcon v-if="showArrow" name="arrow-right" stroke-width="1.8" />
   </component>

@@ -38,7 +38,7 @@ const sectionNumber = computed(() => {
   <div class="slidev-layout default" :data-lesson="set.id" :style="setStyle" :class="{ 'is-active': isActive, 'motion-enabled': canAnimate, 'interactive-canvas': isInteractive, 'fixed-title-slide': !isCover && !isInteractive, 'centered-content-slide': !isCover && !isArchiveWall && !isInteractive, 'has-history-period': !!historyPeriod }">
     <SlideRibbon v-if="!isCover && !isInteractive && set.id !== 'apertura'" :label="set.label" />
     <LessonHistoryPeriod v-if="historyPeriod && !isCover" :period="historyPeriod" />
-    <span v-if="isChapter && lessonNumber" class="chapter-lesson-number absolute">Lezione {{ String(lessonNumber).padStart(2, '0') }}<template v-if="sectionNumber"> · Sezione {{ String(sectionNumber).padStart(2, '0') }}</template></span>
+    <span v-if="isChapter && (lessonNumber || matter.exerciseNumber)" class="chapter-lesson-number absolute"><template v-if="matter.exerciseNumber">Esercitazione {{ String(matter.exerciseNumber).padStart(2, '0') }}</template><template v-else>Lezione {{ String(lessonNumber).padStart(2, '0') }}</template><template v-if="sectionNumber"> · Sezione {{ String(sectionNumber).padStart(2, '0') }}</template></span>
     <slot />
     <footer v-if="!isCover" class="slide-footer">
       <span v-if="footer && !isCover && !isInteractive" class="slide-label"><AcronymText :text="footer" /></span>
