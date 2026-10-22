@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Colore: tinte e intersezioni</title>
+  <desc id="descrizione">Dischi grandi si sovrappongono usando soltanto la tinta del capitolo, con diverse intensità.</desc>
+  <!-- Campiture piatte nel colore del capitolo; i tagli sul bordo sono intenzionali. -->
+  <g fill="#74D4FF">
+    <circle cx="80" cy="80" r="650" opacity="0.22"/>
+    <circle cx="1120" cy="500" r="650" opacity="0.45"/>
+    <circle cx="80" cy="1250" r="650" opacity="0.35"/>
+    <circle cx="1120" cy="1694" r="650" opacity="0.2"/>
+  </g>
+</svg>

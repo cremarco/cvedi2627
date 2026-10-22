@@ -1,0 +1,15 @@
+# Typst 0.15.1 non trasferisce il campo BibLaTeX eid.
+# Il formato nativo conserva il numero di articolo nella bibliografia APA.
+gestalt-kapllani2020:
+  type: article
+  title: "Gestalt principles in web design: A study of the usage of similarity, symmetry and closure in today’s websites"
+  author: ["Kapllani, Levi", "Elmimouni, Houda"]
+  date: 2020
+  serial-number:
+    serial: e340
+    doi: "10.1002/pra2.340"
+  parent:
+    type: periodical
+    title: Proceedings of the Association for Information Science and Technology
+    volume: 57
+    issue: 1

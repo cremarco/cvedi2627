@@ -1,0 +1,23 @@
+# Gli output normali sono in build/; ignora anche vecchi PDF nella radice.
+# I PDF delle fonti nelle sottocartelle restano versionabili.
+/*.pdf
+
+# Esportazioni accanto ai sorgenti di anteprime e demo.
+/anteprime/*.pdf
+/esperimenti/base.pdf
+/esperimenti/**/main.pdf
+
+# Esportazioni e file temporanei: si rigenerano dai sorgenti Typst.
+/build/
+/output/
+/tmp/
+/.cache/
+/.venv/
+
+# Cache degli strumenti Python usati per preparare i contorni.
+__pycache__/
+*.py[cod]
+
+# File locali del sistema operativo.
+.DS_Store
+._*

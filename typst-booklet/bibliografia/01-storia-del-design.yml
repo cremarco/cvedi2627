@@ -1,0 +1,415 @@
+# Fonti effettivamente citate nella prosa di Storia del design.
+# Formato Hayagriva ufficiale: la presentazione APA 7 resta nativa di Typst.
+# Le date assenti non vengono ricavate dagli anni delle opere o dal copyright.
+# Meggs è l’edizione consultata del 2025; Chermayeff è citato attraverso la prefazione.
+# MacPaint: data della registrazione 6 maggio 2010; la trascrizione reca © CHM 2015.
+# L’accesso online a un oggetto non trasferisce i diritti della sua riproduzione.
+# Le URL dei casi dell’atlante restano note, senza creare voci bibliografiche ridondanti.
+# WSG è la bozza del 24 settembre 2026, WCAG 2.2 la Recommendation del 12 dicembre 2024.
+
+meggs2025-storia:
+  type: "Book"
+  author:
+    - "Meggs, Philip B."
+    - "Purvis, Alston W."
+    - "Maxa, Sandra"
+    - "Sanders, Mark"
+  title: "{Meggs’} history of graphic design"
+  date: 2025
+  edition: 7
+  publisher: "Wiley"
+  serial-number:
+    isbn: "9781119743293"
+  language: "en"
+  url: "https://www.oreilly.com/library/view/meggs-history-of/9781119743293/f04.xhtml"
+
+culkin1967-tools:
+  type: "Article"
+  author: "Culkin, John M."
+  title: "A schoolman’s guide to {Marshall McLuhan}"
+  date: "1967-03-18"
+  parent:
+    type: "Periodical"
+    title: "{Saturday Review}"
+  page-range: "51-53,70-72"
+  language: "en"
+  url: "https://webspace.royalroads.ca/llefevre/wp-content/uploads/sites/258/2017/08/A-Schoolmans-Guide-to-Marshall-McLuhan-1.pdf"
+
+preston2026-graphic:
+  type: "Article"
+  author: "Preston, David"
+  title: "The terminological development of graphic design: Between office art and social purpose"
+  date: "2026-04-26"
+  parent:
+    type: "Periodical"
+    title: "{Visible Language}"
+    volume: 60
+    issue: 1
+  page-range: "1-23"
+  language: "en"
+  url: "https://www.visible-language.org/journal/issue-60-1-graphic-design-terminology/"
+
+rand1947-thoughts:
+  type: "Book"
+  author: "Rand, Paul"
+  title: "Thoughts on design"
+  date: 1947
+  publisher: "Wittenborn"
+  language: "en"
+  url: "https://www.paulrand.design/writing/books/thoughts-on-design-1st-edition.html"
+
+ecker2019-khamsa:
+  type: "Article"
+  author: "Ecker, Heather"
+  title: "The artful overlapping of old and modern {Iran}"
+  date: "2019-02-07"
+  parent:
+    type: "Blog"
+    title: "{Dallas Museum of Art Uncrated}"
+  language: "en"
+  url: "https://blog.dma.org/2019/02/07/the-artful-overlapping-of-old-and-modern-iran/"
+
+bnf-jikji:
+  type: "Web"
+  author:
+    name: "Bibliothèque nationale de France"
+  title: "“{Jikji}”, a treasure of the world of printing"
+  language: "en"
+  url:
+    value: "https://www.bnf.fr/en/jikji-treasure-world-printing"
+    date: 2026-10-21
+
+marciana-manuzio:
+  type: "Web"
+  author:
+    name: "Biblioteca Nazionale Marciana"
+  title: "{Aldo Manutius}: ten interludes"
+  language: "en"
+  url:
+    value: "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/"
+    date: 2026-10-21
+
+loc-gutenberg:
+  type: "Web"
+  author:
+    name: "Library of Congress"
+  title: "The {Gutenberg Bible} at the {Library of Congress}: A resource guide"
+  language: "en"
+  url:
+    value: "https://guides.loc.gov/gutenberg"
+    date: 2026-10-21
+
+thompson2003-xilografia:
+  type: "Article"
+  author: "Thompson, Wendy"
+  title: "The printed image in the {West}: Woodcut"
+  date: "2003-10-01"
+  parent:
+    type: "Blog"
+    title: "{Heilbrunn Timeline of Art History}"
+  publisher: "The Metropolitan Museum of Art"
+  language: "en"
+  url: "https://www.metmuseum.org/essays/the-printed-image-in-the-west-woodcut"
+
+vam2026-artigianato:
+  type: "Web"
+  author:
+    name: "Victoria and Albert Museum"
+  title: "Arts and Crafts: an introduction"
+  date: "2026-09-30"
+  language: "en"
+  url: "https://www.vam.ac.uk/articles/arts-and-crafts-an-introduction"
+
+bungard2010-tipografia:
+  type: "Article"
+  author: "Bungard, Brigitta"
+  title: "Rediscovering {The New Typography}"
+  date: "2010-02-12"
+  parent:
+    type: "Blog"
+    title: "{MoMA Inside/Out}"
+  language: "en"
+  url: "https://www.moma.org/explore/inside_out/2010/02/12/rediscovering-the-new-typography/"
+
+reading-isotype:
+  type: "Web"
+  author:
+    name: "University of Reading"
+  title: "{Marie Neurath} collection"
+  language: "en"
+  url:
+    value: "https://collections.reading.ac.uk/special-collections/collections/marie-neurath-collection/"
+    date: 2026-10-21
+
+lufthansa-gru:
+  type: "Web"
+  author:
+    name: "Lufthansa"
+  title: "The crane through the ages"
+  language: "en"
+  url:
+    value: "https://www.lufthansa.com/de/en/100-years/crane"
+    date: 2026-10-21
+
+holt-monaco:
+  type: "Article"
+  author: "Holt, Mark"
+  title: "Design as a team sport"
+  parent:
+    type: "Blog"
+    title: "{otl aicher 100}"
+  language: "en"
+  url:
+    value: "https://www.otlaicher.de/en/articles/design-as-a-team-sport/"
+    date: 2026-10-21
+
+chm-desktop-publishing:
+  type: "Web"
+  author:
+    name: "Computer History Museum"
+  title: "Desktop publishing"
+  language: "en"
+  url:
+    value: "https://www.computerhistory.org/revolution/personal-computers/17/306"
+    date: 2026-10-21
+
+engelbartEnglish1968-nls:
+  type: "Article"
+  author:
+    - "Engelbart, Douglas C."
+    - "English, William K."
+  title: "A research center for augmenting human intellect"
+  date: "1968-12-09"
+  parent:
+    type: "Proceedings"
+    title: "Proceedings of the December 9–11, 1968, fall joint computer conference, part I"
+    volume: 33
+  page-range: "395-410"
+  serial-number:
+    doi: "10.1145/1476589.1476645"
+  language: "en"
+  url: "https://doi.org/10.1145/1476589.1476645"
+
+chm-alto:
+  type: "Web"
+  author:
+    name: "Computer History Museum"
+  title: "{Xerox Alto}"
+  language: "en"
+  url:
+    value: "https://www.computerhistory.org/revolution/input-output/14/347"
+    date: 2026-10-21
+
+atkinsonHertzfeld2010-macpaint:
+  type: "Misc"
+  author:
+    - "Atkinson, Bill"
+    - "Hertzfeld, Andy"
+  title: "{MacPaint} interview and demonstration with {Bill Atkinson} and {Andy Hertzfeld}"
+  date: "2010-05-06"
+  genre: "Trascrizione di intervista"
+  archive: "Computer History Museum"
+  call-number: "X5818.2010"
+  language: "en"
+  url: "https://archive.computerhistory.org/resources/access/text/2015/12/102743021-05-01-acc.pdf"
+
+cern-storia-web:
+  type: "Web"
+  author:
+    name: "CERN"
+  title: "A short history of the {Web}"
+  language: "en"
+  url:
+    value: "https://home.cern/science/computing/the-birth-of-the-web/short-history-web/"
+    date: 2026-10-21
+
+w3c1996-css:
+  type: "Web"
+  author:
+    name: "World Wide Web Consortium"
+  title: "The {World Wide Web Consortium} issues {Cascading Style Sheets} recommendation"
+  date: "1996-12-17"
+  language: "en"
+  url: "https://www.w3.org/press-releases/1996/css1-rec/"
+
+chan2024-scheumorfismo:
+  type: "Article"
+  author: "Chan, Megan"
+  title: "Skeuomorphism"
+  date: "2024-03-15"
+  parent:
+    type: "Blog"
+    title: "{Nielsen Norman Group}"
+  language: "en"
+  url: "https://www.nngroup.com/articles/skeuomorphism/"
+
+moran2017-flat:
+  type: "Article"
+  author: "Moran, Kate"
+  title: "Flat-design best practices"
+  date: "2017-03-12"
+  parent:
+    type: "Blog"
+    title: "{Nielsen Norman Group}"
+  language: "en"
+  url: "https://www.nngroup.com/articles/flat-design-best-practices/"
+
+jitkoff2014-material:
+  type: "Article"
+  author: "Jitkoff, Nicholas"
+  title: "This is material design"
+  date: "2014-06-25"
+  parent:
+    type: "Blog"
+    title: "{Google Developers Blog}"
+  language: "en"
+  url: "https://developers.googleblog.com/en/this-is-material-design/"
+
+malewicz-neumorfismo:
+  type: "Article"
+  author: "Malewicz, Michał"
+  title: "Neumorphism in user interfaces"
+  parent:
+    type: "Blog"
+    title: "{Hype4 Academy}"
+  language: "en"
+  url:
+    value: "https://hype4.academy/articles/design/neumorphism-in-user-interfaces"
+    date: 2026-10-21
+
+microsoft-materiali:
+  type: "Web"
+  author:
+    name: "Microsoft"
+  title: "Material"
+  language: "en"
+  url:
+    value: "https://fluent2.microsoft.design/material"
+    date: 2026-10-21
+
+moran2015-minimalismo:
+  type: "Article"
+  author: "Moran, Kate"
+  title: "The characteristics of minimalism in web design"
+  date: "2015-07-12"
+  parent:
+    type: "Blog"
+    title: "{Nielsen Norman Group}"
+  language: "en"
+  url: "https://www.nngroup.com/articles/characteristics-minimalism/"
+
+spotify2023-wrapped:
+  type: "Article"
+  author:
+    name: "Spotify"
+  title: "{Spotify}’s head of global marketing experience explains why this year’s {Wrapped} is the realest yet"
+  date: "2023-11-29"
+  parent:
+    type: "Blog"
+    title: "{Spotify Newsroom}"
+  language: "en"
+  url: "https://newsroom.spotify.com/2023-11-29/wrapped-design-marketing-brand-creative-inside-spotify/"
+
+sheikh2025-neobrutalismo:
+  type: "Article"
+  author: "Sheikh, Hayat"
+  title: "Neobrutalism: Definition and best practices"
+  date: "2025-04-11"
+  parent:
+    type: "Blog"
+    title: "{Nielsen Norman Group}"
+  language: "en"
+  url: "https://www.nngroup.com/articles/neobrutalism/"
+
+# Il testo del tutorial dichiara Last Updated 05/11/22; conserviamo il solo anno
+# perché l’ordine di giorno/mese non è esplicitato nel corpo consultato.
+google-font-variabili:
+  type: "Web"
+  author:
+    name: "Google"
+  title: "Migrating to variable fonts"
+  date: 2022
+  language: "en"
+  url: "https://codelabs.developers.google.com/migrating-variable-fonts"
+
+google-expressive:
+  type: "Web"
+  author:
+    name: "Google Design"
+  title: "Better, easier, emotional {UX}"
+  language: "en"
+  url:
+    value: "https://design.google/library/expressive-material-design-google-research"
+    date: 2026-10-21
+
+apple-materiali:
+  type: "Web"
+  author:
+    name: "Apple"
+  title: "Materials"
+  language: "en"
+  url:
+    value: "https://developer.apple.com/design/human-interface-guidelines/materials"
+    date: 2026-10-21
+
+apple-spazio:
+  type: "Web"
+  author:
+    name: "Apple"
+  title: "Spatial layout"
+  language: "en"
+  url:
+    value: "https://developer.apple.com/design/human-interface-guidelines/spatial-layout/"
+    date: 2026-10-21
+
+leviathan2025-generative:
+  type: "Article"
+  author:
+    - "Leviathan, Yaniv"
+    - "Valevski, Dani"
+    - "Natchu, Vishnu"
+    - "Matias, Yossi"
+  title: "Generative {UI}: A rich, custom, visual interactive user experience for any prompt"
+  date: "2025-11-18"
+  parent:
+    type: "Blog"
+    title: "{Google Research}"
+  language: "en"
+  url: "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/"
+
+w3c2026-sostenibilita:
+  type: "Report"
+  author:
+    name: "World Wide Web Consortium"
+  title: "Web sustainability guidelines ({WSG})"
+  date: "2026-09-24"
+  genre: "Group Note Draft"
+  editor:
+    - "Dawson, Alexander"
+    - "Newell, Rose"
+  language: "en"
+  url: "https://www.w3.org/TR/2026/DNOTE-web-sustainability-guidelines-20260924/"
+
+dedecker2018-lowtech:
+  type: "Article"
+  author:
+    - "De Decker, Kris"
+    - "Otsuka, Marie"
+    - "Roscam Abbing, Roel"
+  title: "How to build a low-tech website?"
+  date: "2018-09-24"
+  parent:
+    type: "Blog"
+    title: "{Low-tech Magazine}"
+  language: "en"
+  url: "https://solar.lowtechmagazine.com/2018/09/how-to-build-a-low-tech-website/"
+
+w3c2024-wcag22:
+  type: "Report"
+  author:
+    name: "World Wide Web Consortium"
+  title: "Web content accessibility guidelines ({WCAG}) 2.2"
+  date: "2024-12-12"
+  genre: "W3C Recommendation"
+  language: "en"
+  url: "https://www.w3.org/TR/2024/REC-WCAG22-20241212/"

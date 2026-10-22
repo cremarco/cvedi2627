@@ -1,0 +1,110 @@
+# Fonti del capitolo Introduzione nel formato Hayagriva nativo di Typst.
+# Il parent Newspaper distingue il quotidiano da una rivista scientifica
+# e permette ad APA di mostrare la data completa dell'articolo.
+rand1993:
+  type: Article
+  author: Rand, Paul
+  title: Failure by Design
+  date: 1993-05-02
+  parent:
+    type: Newspaper
+    title: The New York Times
+  url: https://www.paulrand.design/writing/articles/1993-failure-by-design.html
+
+# L'Eames Office data l'opera al 1972: non sono indicati giorno e mese.
+# Video senza parent identifica qui il film, non una pagina web sul film.
+eames1972:
+  type: Video
+  author: ["Eames, Charles", "Eames, Ray"]
+  title: Design Q&A
+  date: 1972
+  publisher: Eames Office
+  url: https://www.eamesoffice.com/the-work/design-q-a/
+
+# Le norme usano il tipo Report e il codice ufficiale nel campo serial-number.
+# Il nome esplicito conserva l'autore istituzionale per intero nelle citazioni.
+# I paragrafi pertinenti (§ 3.1.1 e § 3.15) appartengono al richiamo nel testo,
+# non identificano due pubblicazioni diverse dalle norme qui registrate.
+iso9241usabilita2018:
+  type: Report
+  author:
+    name: International Organization for Standardization
+  title: "Ergonomics of human-system interaction — Part 11: Usability: Definitions and concepts"
+  date: 2018
+  serial-number: ISO 9241-11:2018
+  language: en
+  url: https://www.iso.org/standard/63500.html
+
+iso9241ux2019:
+  type: Report
+  author:
+    name: International Organization for Standardization
+  title: "Ergonomics of human-system interaction — Part 210: Human-centred design for interactive systems"
+  date: 2019
+  serial-number: ISO 9241-210:2019
+  language: en
+  url: https://www.iso.org/standard/77520.html
+
+# Gli autori e l'anno sono accreditati dalla d.school per Bootleg 2018.
+# La fonte descrive cinque modalità iterative; l'implementazione aggiunta
+# nel diagramma del booklet resta una distinzione editoriale esplicita.
+doorley2018:
+  type: Report
+  author: ["Doorley, Scott", "Holcomb, Sarah", "Klebahn, Perry", "Segovia, Kathryn", "Utley, Jeremy"]
+  title: Design Thinking Bootleg
+  date: 2018
+  publisher: Stanford d.school
+  language: en
+  url: https://dschool.stanford.edu/tools/design-thinking-bootleg
+
+# Articoli professionali online: il parent Blog identifica la pubblicazione,
+# mentre l'autore rimane quello firmato sull'articolo originale.
+# language: en permette al formatter APA nativo la capitalizzazione inglese;
+# le parentesi graffe conservano soltanto acronimi e nomi propri pertinenti.
+normanNielsen1998:
+  type: Article
+  author: ["Norman, Don", "Nielsen, Jakob"]
+  title: "The Definition of User Experience ({UX})"
+  date: 1998-08-08
+  parent:
+    type: Blog
+    title: "{Nielsen Norman Group}"
+  language: en
+  url: https://www.nngroup.com/articles/definition-user-experience/
+
+# La pagina distingue la pubblicazione (2012) dall'ultima revisione (2026).
+# Si conserva la data originale; la distinzione utilità/usabilità è attestata.
+nielsen2012:
+  type: Article
+  author: Nielsen, Jakob
+  title: "Usability 101: Introduction to Usability"
+  date: 2012-01-03
+  parent:
+    type: Blog
+    title: "{Nielsen Norman Group}"
+  language: en
+  url: https://www.nngroup.com/articles/usability-101-introduction-to-usability/
+
+yang2023:
+  type: Article
+  author: Yang, Lillian
+  title: "Mood Boards in {UX}: How and Why to Use Them"
+  date: 2023-02-26
+  parent:
+    type: Blog
+    title: "{Nielsen Norman Group}"
+  language: en
+  url: https://www.nngroup.com/articles/mood-boards/
+
+# È la storia del prodotto pubblicata da OXO, non uno studio indipendente
+# sull'efficacia degli utensili e non il credito della fotografia del prodotto.
+liston2017:
+  type: Article
+  author: Liston, Valerie
+  title: "Behind the Design: {OXO}'s Iconic {Good Grips} Handles"
+  date: 2017-01-31
+  parent:
+    type: Blog
+    title: "{OXO}"
+  language: en
+  url: https://www.oxo.com/blog/behind-the-scenes/behind-design-oxos-iconic-good-grips-handles

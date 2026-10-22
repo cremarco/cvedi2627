@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Linguaggio visivo: segni in relazione</title>
+  <desc id="descrizione">Archi, cerchi e un triangolo attraversano il foglio come segni di un linguaggio comune.</desc>
+  <!-- Campiture piatte nel colore del capitolo con un solo accento secondario; i tagli sul bordo sono intenzionali. -->
+  <g data-palette="principale" fill="#46ECD5">
+    <path d="M -300,600 A 650,650 0 0 1 1000,600 H 760 A 410,410 0 0 0 -60,600 Z" opacity="0.3"/>
+    <circle data-palette="secondario" fill="#FFB86A" cx="1100" cy="90" r="340" opacity="0.30"/>
+    <rect x="-100" y="1120" width="500" height="650" opacity="0.18"/>
+    <path d="M 950,720 1570,1694 H 330 Z" opacity="0.45"/>
+  </g>
+</svg>

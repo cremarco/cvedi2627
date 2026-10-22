@@ -1,0 +1,557 @@
+{
+  "schema": 1,
+  "immagini": [
+    {
+      "id": "eb-garamond-regular-italic",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-regular-italic.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4802:35697",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.08999633789062,
+      "altezza_pt": 54,
+      "caratteri_originali": 18876,
+      "fnv32_originale": 3874931179,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "b86e7534021b478bb6bf1a3fb1734f88c23f4a266138e53479cb0f6904fe1964",
+      "byte": 18876,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "work-sans-repertorio",
+      "percorso": "assets/images/figure/tipografia/font/work-sans-repertorio.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4800:8824",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 205.88235473632812,
+      "caratteri_originali": 41913,
+      "fnv32_originale": 223124425,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "0dbb093229eb1cb13eb617892c569d8e0e1ff3cf9a83cdb67f7a67c2d0e8784e",
+      "byte": 41913,
+      "fonti_tipografiche": [
+        {
+          "nome": "Work Sans",
+          "autori": [
+            "Wei Huang",
+            "The Work Sans Project Authors"
+          ],
+          "licenza": "SIL OFL 1.1"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-tondo",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-tondo.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4800:8794",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.08999633789062,
+      "altezza_pt": 54,
+      "caratteri_originali": 8753,
+      "fnv32_originale": 44070120,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "ab19effeed7f6533260f8be64d29324fab7607ff8e25bedf76fe60f7903cb69a",
+      "byte": 8753,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-corsivo",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-corsivo.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4800:8806",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.08999633789062,
+      "altezza_pt": 54,
+      "caratteri_originali": 10229,
+      "fnv32_originale": 2618428104,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "2f804617fd3c966b4c1a997c5a9398855a78a1fbc4b6a489b7cb6b7c9fe8e968",
+      "byte": 10229,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "roboto-serif-sei-pesi",
+      "percorso": "assets/images/figure/tipografia/font/roboto-serif-sei-pesi.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4804:36401",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 279.006103515625,
+      "caratteri_originali": 258603,
+      "fnv32_originale": 1122224727,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "95dfcd3417c8da13dcc4adb225a29c609b122fa63c393c3f84be3c30ba907e29",
+      "byte": 258603,
+      "fonti_tipografiche": [
+        {
+          "nome": "Roboto Serif",
+          "autori": [
+            "Commercial Type",
+            "Greg Gazdowicz"
+          ],
+          "licenza": "SIL OFL 1.1"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-corsivo-e-simulazione",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-corsivo-e-simulazione.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4522:36261",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 140.77687072753906,
+      "caratteri_originali": 57567,
+      "fnv32_originale": 2100794660,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "937de48541d45ff06104b19231ad062d79a122da0b93511847767af1c98e49c9",
+      "byte": 57567,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-legature-disattivate",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-legature-disattivate.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4522:36338",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.08999633789062,
+      "altezza_pt": 41.231956481933594,
+      "caratteri_originali": 15369,
+      "fnv32_originale": 28606721,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "1f4a702276a5958c950f02597f2786b48681816deb7ca3372a6610a3e62afd20",
+      "byte": 15369,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-legature-attivate",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-legature-attivate.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4522:36357",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.08999633789062,
+      "altezza_pt": 41.231956481933594,
+      "caratteri_originali": 14497,
+      "fnv32_originale": 2272536384,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "34874c161706ee45748fd9a5119c3dbac7906b12ed099d1985e53728e8f7cd19",
+      "byte": 14497,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "roboto-serif-tipi-di-cifre",
+      "percorso": "assets/images/figure/tipografia/font/roboto-serif-tipi-di-cifre.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4522:36438",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 120.27214050292969,
+      "caratteri_originali": 115845,
+      "fnv32_originale": 1743348807,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "e132caf7801eabeab6760387811dd764db01fe92a2382a5c12f26db90b942179",
+      "byte": 115845,
+      "fonti_tipografiche": [
+        {
+          "nome": "Roboto Serif",
+          "autori": [
+            "Commercial Type",
+            "Greg Gazdowicz"
+          ],
+          "licenza": "SIL OFL 1.1"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-maiuscole-ridotte",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-maiuscole-ridotte.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4731:36288",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 30,
+      "caratteri_originali": 36035,
+      "fnv32_originale": 996061642,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "841e38aa36cbadb375716e81a2bc072e7690481aa3d737bafe9281e6720b6a12",
+      "byte": 36035,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-maiuscoletto-reale",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-maiuscoletto-reale.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4731:36347",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 30,
+      "caratteri_originali": 32282,
+      "fnv32_originale": 3741568326,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "3e03e097a20124bbfa7c98eeeb4a317218e0aaddf4417488090041756bb720a4",
+      "byte": 32282,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "caratteri-e-glifi-fi",
+      "percorso": "assets/images/figure/tipografia/font/caratteri-e-glifi-fi.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4740:8695",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 30,
+      "caratteri_originali": 24700,
+      "fnv32_originale": 586822846,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "0eaed860fd0775e06ecf9a79be198c9f967e8fe3080c9a4bbd32adef679db971",
+      "byte": 24700,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "noto-tre-repertori-dettagli",
+      "percorso": "assets/images/figure/tipografia/font/noto-tre-repertori-dettagli.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4743:8919",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 63,
+      "caratteri_originali": 51388,
+      "fnv32_originale": 1649935843,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "2cd4c5dad14d438d81fd37cd4c3c580415ce9c7eb3f0133ba36c34d29acdff63",
+      "byte": 51388,
+      "fonti_tipografiche": [
+        {
+          "nome": "Noto Sans / Noto Sans Arabic",
+          "autori": [
+            "The Noto Project Authors"
+          ],
+          "licenza": "SIL OFL 1.1"
+        }
+      ]
+    },
+    {
+      "id": "noto-tre-repertori",
+      "percorso": "assets/images/figure/tipografia/font/noto-tre-repertori.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4522:36755",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 219.00999450683594,
+      "caratteri_originali": 60723,
+      "fnv32_originale": 1699987511,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "91c391ed2c9e77bfddaa7e7c9741d0be59245cf3d48d614642ad3ab6090ec297",
+      "byte": 60723,
+      "fonti_tipografiche": [
+        {
+          "nome": "Noto Sans / Noto Sans Arabic",
+          "autori": [
+            "The Noto Project Authors"
+          ],
+          "licenza": "SIL OFL 1.1"
+        }
+      ]
+    },
+    {
+      "id": "work-sans-asse-peso",
+      "percorso": "assets/images/figure/tipografia/font/work-sans-asse-peso.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4803:35869",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.08999633789062,
+      "altezza_pt": 70,
+      "caratteri_originali": 23101,
+      "fnv32_originale": 2774461914,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "a4118b374d5977bf7527f335c2b9a2e4be18ab50c3642078d07e0cd7c9f2539a",
+      "byte": 23101,
+      "fonti_tipografiche": [
+        {
+          "nome": "Work Sans",
+          "autori": [
+            "Wei Huang",
+            "The Work Sans Project Authors"
+          ],
+          "licenza": "SIL OFL 1.1"
+        }
+      ]
+    },
+    {
+      "id": "eb-garamond-regular-aag",
+      "percorso": "assets/images/figure/tipografia/font/eb-garamond-regular-aag.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4802:8581",
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 388.3500061035156,
+      "altezza_pt": 70,
+      "caratteri_originali": 23731,
+      "fnv32_originale": 2645836405,
+      "nota": "Visuale originale esportata senza didascalia; contorni autentici, nessuna sostituzione del font.",
+      "sha256": "13e9cd8a833f722965b32cf9f5b93c17f1dc5975795a29a471c4f955ead243cf",
+      "byte": 23731,
+      "fonti_tipografiche": [
+        {
+          "nome": "EB Garamond",
+          "autori": [
+            "Georg Duffner",
+            "Octavio Pardo"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "originali": "assets/booklet/tipografia-campioni-uniformi/early/originali/"
+        }
+      ]
+    },
+    {
+      "id": "pacifico-regular-aag",
+      "percorso": "assets/images/figure/tipografia/font/pacifico-regular-aag.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4802:35711",
+        "folio_fonte": 374,
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.09,
+      "altezza_pt": 54,
+      "sha256": "b8fb18a2d62f59c60cefd25427d697884cb42e83a52178cec108a60e7b5091dd",
+      "byte": 5412,
+      "diritti": {
+        "nota": "Campione originale con contorni autentici; SIL OFL 1.1, autori dichiarati nella didascalia."
+      },
+      "fonti_tipografiche": [
+        {
+          "nome": "Pacifico",
+          "autori": [
+            "Vernon Adams e altri autori"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "licenza_originale": "assets/booklet/tipografia-campioni-uniformi/early/originali/Pacifico-OFL.txt"
+        }
+      ]
+    },
+    {
+      "id": "great-vibes-regular-aag",
+      "percorso": "assets/images/figure/tipografia/font/great-vibes-regular-aag.svg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4802:35720",
+        "folio_fonte": 374,
+        "data": "2026-10-21"
+      },
+      "larghezza_pt": 187.09,
+      "altezza_pt": 54,
+      "sha256": "a27cbb1ff0593ea43d3d19b6f8be5a144364c04c1663c605cc8f995715d81029",
+      "byte": 9194,
+      "diritti": {
+        "nota": "Campione originale con contorni autentici; SIL OFL 1.1, autori dichiarati nella didascalia."
+      },
+      "fonti_tipografiche": [
+        {
+          "nome": "Great Vibes",
+          "autori": [
+            "Robert Leuschke"
+          ],
+          "licenza": "SIL OFL 1.1",
+          "licenza_originale": "assets/booklet/tipografia-campioni-uniformi/early/originali/GreatVibes-OFL.txt"
+        }
+      ]
+    },
+    {
+      "id": "gesto-esempio-calligrafico",
+      "percorso": "assets/images/figure/tipografia/font/gesto-esempio-calligrafico.png",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4802:35728",
+        "folio_fonte": 374,
+        "data": "2026-10-21",
+        "modalita": "Download originale dal contesto Figma corrente, senza ritocco né ricampionamento."
+      },
+      "sha256": "b0050c89bf23b015270c3a1894f6379941c7f337d1985762553074e8a1a83a37",
+      "byte": 617575,
+      "diritti": {
+        "nota": "Esempio illustrativo contemporaneo, originale conservato."
+      }
+    },
+    {
+      "id": "crouwel-new-alphabet-documento-1967",
+      "percorso": "assets/images/figure/tipografia/font/crouwel-new-alphabet-documento-1967.jpg",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4802:35736",
+        "folio_fonte": 375,
+        "data": "2026-10-21",
+        "modalita": "Download originale dal contesto Figma corrente, senza ritocco né ricampionamento."
+      },
+      "sha256": "fd6c1fb412b640df7f2667818185caf70fdb551cb75109d977d39879cd8869d5",
+      "byte": 31086,
+      "diritti": {
+        "nota": "Wim Crouwel / The Foundry Types."
+      }
+    },
+    {
+      "id": "unger-swift-quality-campione",
+      "percorso": "assets/images/figure/tipografia/font/unger-swift-quality-campione.png",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4811:10416",
+        "folio_fonte": 375,
+        "data": "2026-10-21",
+        "modalita": "Download originale dal contesto Figma corrente, senza ritocco né ricampionamento.",
+        "originale_documentario": {
+          "pagina": "https://www.myfonts.com/collections/swift-font-linotype",
+          "immagine": "https://cdn.myfonts.net/images/pim/10188/Swift%20LT%203.png",
+          "autore": "Gerard Unger",
+          "editore": "Linotype / MyFonts",
+          "verifica": "Download ufficiale del22ottobre2026 identico byte per byte all’asset condiviso.",
+          "sha256": "903a0029f29ac2f41a2445c98cbc553475742f3d0e2c7311783aeb06b4223b61",
+          "qualificazione": "Campione della versione digitale Swift; distinto daNeueSwift e da uno specimen originale degli anniOttanta. Nessun softwarefont scaricato o installato.",
+          "licenza": "Copyright dei titolari; nessuna licenza aperta dichiarata."
+        }
+      },
+      "sha256": "903a0029f29ac2f41a2445c98cbc553475742f3d0e2c7311783aeb06b4223b61",
+      "byte": 6372306,
+      "diritti": {
+        "nota": "Gerard Unger / Linotype, MyFonts."
+      }
+    },
+    {
+      "id": "unger-neue-swift-typography-guida-2023",
+      "percorso": "assets/images/figure/tipografia/font/unger-neue-swift-typography-guida-2023.png",
+      "fonte": {
+        "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+        "nodo": "4805:8390",
+        "folio_fonte": 385,
+        "data": "2026-10-21",
+        "modalita": "Download originale dal contesto Figma corrente, senza ritocco né ricampionamento."
+      },
+      "sha256": "de73a85e5bb5f9400510716449e1a586e41432d3407ba38812820520fd839006",
+      "byte": 46531,
+      "diritti": {
+        "nota": "Gerard Unger / Monotype, Font Field Guide 035, 2023."
+      }
+    }
+  ]
+}

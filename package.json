@@ -8,6 +8,8 @@
     "node": ">=22.12.0"
   },
   "scripts": {
+    "build:booklet": "node scripts/booklet.mjs build",
+    "check:booklet": "node scripts/booklet.mjs check",
     "clean": "node scripts/clean.mjs",
     "css": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./styles/daisy.css -o ./styles/daisy-built.css",
     "css:home": "node ./node_modules/@tailwindcss/cli/dist/index.mjs -i ./home/home.source.css -o ./home/home.css --minify",
@@ -15,6 +17,7 @@
     "build:caffe-ttc": "node scripts/build/caffe-ttc-assets.mjs && node scripts/build/caffe-ttc-catalogue.mjs && node scripts/build/caffe-ttc-notes.mjs && node scripts/build/caffe-ttc.mjs && pnpm css:caffe-luce",
     "build:ilmeteo": "node esempi/ilmeteo-lab/scripts/build-redesign.mjs",
     "gallery": "node scripts/build/project-gallery.mjs",
+    "prepare:assets": "node scripts/build/shared-assets.mjs",
     "dev": "pnpm build:caffe-ttc && node scripts/dev.mjs",
     "build": "pnpm build:caffe-ttc && pnpm run css && node scripts/build/lesson-decks.mjs dist && node scripts/build/web-design-examples.mjs dist && node scripts/build/noindex.mjs dist",
     "build:pages": "pnpm build:caffe-ttc && pnpm build:ilmeteo && pnpm run css && pnpm run css:home && node scripts/build/pages.mjs",

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Gestalt: forma e spazio</title>
+  <desc id="descrizione">Quattro grandi campiture incomplete suggeriscono una forma nello spazio centrale.</desc>
+  <!-- Campiture piatte nel colore del capitolo; i tagli sul bordo sono intenzionali. -->
+  <g fill="#5EE9B5">
+    <path d="M 150,350 H 580 A 430,430 0 1 0 150,780 Z" opacity="0.42"/>
+    <path d="M 1050,350 V 780 A 430,430 0 1 0 620,350 Z" opacity="0.2"/>
+    <path d="M 150,1344 V 914 A 430,430 0 1 0 580,1344 Z" opacity="0.2"/>
+    <path d="M 1050,1344 H 620 A 430,430 0 1 0 1050,914 Z" opacity="0.42"/>
+  </g>
+</svg>

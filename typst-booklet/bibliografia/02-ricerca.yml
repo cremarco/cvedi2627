@@ -1,0 +1,71 @@
+# Metadati primari verificati, fonti e limiti in ricerca-fonti-verificate.json.
+
+urcommunity2017-interviews:
+  type: "Web"
+  title: "Using in-depth interviews"
+  language: "en"
+  author: {"name": "User research community"}
+  date: "2017-02-21"
+  url: {"value": "https://www.gov.uk/service-manual/user-research/using-in-depth-interviews", "date": "2026-10-21"}
+  parent: {"type": "Web", "title": "GOV.UK Service Manual"}
+
+urcommunity2017-contextual:
+  type: "Web"
+  title: "Contextual research and observation"
+  language: "en"
+  author: {"name": "User research community"}
+  date: "2017-09-01"
+  url: {"value": "https://www.gov.uk/service-manual/user-research/contextual-research-and-observation", "date": "2026-10-21"}
+  parent: {"type": "Web", "title": "GOV.UK Service Manual"}
+
+urcommunity2016-analysis:
+  type: "Web"
+  title: "Analyse a research session"
+  language: "en"
+  author: {"name": "User research community"}
+  date: "2016-05-24"
+  url: {"value": "https://www.gov.uk/service-manual/user-research/analyse-a-research-session", "date": "2026-10-21"}
+  parent: {"type": "Web", "title": "GOV.UK Service Manual"}
+
+hofstede2011-cultures:
+  type: "Article"
+  title: "Dimensionalizing cultures: The Hofstede model in context"
+  language: "en"
+  author: ["Hofstede, Geert"]
+  date: "2011"
+  url: {"value": "https://scholarworks.gvsu.edu/orpc/vol2/iss1/8/", "date": "2026-10-21"}
+  parent: {"type": "Periodical", "title": "Online Readings in Psychology and Culture", "volume": 2, "issue": 1}
+  serial-number: {"doi": "10.9707/2307-0919.1014"}
+
+brewer2014-ecological:
+  type: "Article"
+  title: "The ecological fallacy in national culture research"
+  language: "en"
+  author: ["Brewer, Paul", "Venaik, Sunil"]
+  date: "2014"
+  url: {"value": "https://journals.sagepub.com/doi/10.1177/0170840613517602", "date": "2026-10-21"}
+  parent: {"type": "Periodical", "title": "Organization Studies", "volume": 35, "issue": 7}
+  page-range: "1063-1086"
+  serial-number: {"doi": "10.1177/0170840613517602"}
+
+hofstede-minkov2013-vsm:
+  type: "Report"
+  title: "Values survey module 2013: Manual"
+  language: "en"
+  author: ["Hofstede, Geert", "Minkov, Michael"]
+  date: "2013"
+  url: {"value": "https://geerthofstede.com/wp-content/uploads/2016/07/Manual-VSM-2013.pdf", "date": "2026-10-21"}
+
+tcf-sd-country-comparison:
+  type: "Web"
+  title: "Country Comparison tool"
+  language: "en"
+  author: {"name": "The Culture Factor"}
+  url: {"value": "https://www.theculturefactor.com/country-comparison-tool", "date": "2026-10-09"}
+
+tcf-sd-faq:
+  type: "Web"
+  title: "Frequently asked questions"
+  language: "en"
+  author: {"name": "The Culture Factor"}
+  url: {"value": "https://www.theculturefactor.com/frequently-asked-questions", "date": "2026-10-09"}

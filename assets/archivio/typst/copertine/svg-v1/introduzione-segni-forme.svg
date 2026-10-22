@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="introduzione-titolo introduzione-descrizione">
+  <title id="introduzione-titolo">Segni e forme in relazione</title>
+  <desc id="introduzione-descrizione">Cerchi e quadrati di grande scala si sovrappongono e proseguono oltre i quattro bordi della pagina.</desc>
+  <!-- I tagli ai bordi sono intenzionali: le forme compongono lo sfondo della pagina intera. -->
+  <g fill="#FFA2A2">
+    <circle cx="150" cy="1140" r="960" opacity="0.20"/>
+    <rect x="650" y="-180" width="860" height="1050" opacity="0.18"/>
+    <rect x="-130" y="380" width="1020" height="900" opacity="0.14"/>
+    <circle cx="1140" cy="1460" r="430" opacity="0.26"/>
+    <rect x="-90" y="1470" width="950" height="360" opacity="0.26"/>
+  </g>
+</svg>

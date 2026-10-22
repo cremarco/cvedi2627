@@ -1,0 +1,2729 @@
+{
+  "schema": 1,
+  "fonte": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "page": "4226:16023",
+    "acquisizione": "2026-10-21"
+  },
+  "nota": "Snapshot dei testi nativi e dei ruoli dei campioni, distinto dalla prosa. Le implementazioni modificabili sono in consigli-campioni.typ; nessuno Scotch decorativo è importato.",
+  "tavole": [
+    {
+      "folio_fonte": 471,
+      "frame_figma": "4813:15968",
+      "testi": [
+        {
+          "nodo_figma": "I4813:15942;4288:131",
+          "testo": "Prenotazione simulata",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:15968",
+              "nome": "C09 · 471 · DX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:15961",
+              "nome": "Inserto · consigli-iniziare-testo",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15940",
+              "nome": "Esempio · Cominciare dalle parole che saranno davvero lette",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15941",
+              "nome": "Foglio di prova · testo reale",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15942",
+              "nome": "Tipo di campione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:15944;4302:517",
+          "testo": "Prenotare la visita al laboratorio di tipografia",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[20px] relative shrink-0 text-[18px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:15968",
+              "nome": "C09 · 471 · DX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:15961",
+              "nome": "Inserto · consigli-iniziare-testo",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15940",
+              "nome": "Esempio · Cominciare dalle parole che saranno davvero lette",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15941",
+              "nome": "Foglio di prova · testo reale",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15944",
+              "nome": "Titolo lungo",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:15947;4302:517",
+          "testo": "Lunedì 19 ottobre il laboratorio apre alle 14:30. La visita dura un’ora e comprende una breve dimostrazione di composizione. È necessario prenotare prima dell’arrivo e conservare il codice di conferma.\nIl biglietto costa 24,50 €. Chi arriva in ritardo può chiedere al personale se è ancora possibile entrare. Prima di confermare, controlla il nome, il giorno scelto e il numero di partecipanti.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:15968",
+              "nome": "C09 · 471 · DX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:15961",
+              "nome": "Inserto · consigli-iniziare-testo",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15940",
+              "nome": "Esempio · Cominciare dalle parole che saranno davvero lette",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15941",
+              "nome": "Foglio di prova · testo reale",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15947",
+              "nome": "Lettura e accenti",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:15949;4302:517",
+          "testo": "Nicolò Ferri · 19 ottobre 2026 · 24,50 € · Il1-038",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:15968",
+              "nome": "C09 · 471 · DX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:15961",
+              "nome": "Inserto · consigli-iniziare-testo",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15940",
+              "nome": "Esempio · Cominciare dalle parole che saranno davvero lette",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15941",
+              "nome": "Foglio di prova · testo reale",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15949",
+              "nome": "Data · prezzo · codice",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:15953;4288:131",
+          "testo": "Figura 3.347. Titolo, due paragrafi e dati appartengono alla stessa simulazione. Osserva i ritorni a capo, gli accenti e la distinzione fra I, l e 1 alla misura finale.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:15968",
+              "nome": "C09 · 471 · DX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:15961",
+              "nome": "Inserto · consigli-iniziare-testo",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15940",
+              "nome": "Esempio · Cominciare dalle parole che saranno davvero lette",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15953",
+              "nome": "Figura 3.347 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:15955;4789:8599",
+          "testo": "DM Sans · The DM Sans Project Authors · SIL OFL 1.1.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Italic'] font-normal italic leading-[10px] relative shrink-0 text-[8px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:15968",
+              "nome": "C09 · 471 · DX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:15961",
+              "nome": "Inserto · consigli-iniziare-testo",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15940",
+              "nome": "Esempio · Cominciare dalle parole che saranno davvero lette",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15955",
+              "nome": "Figura 3.347 · Diritti",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:15959;4288:131",
+          "testo": "Leggilo alla misura finale.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:15968",
+              "nome": "C09 · 471 · DX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:15961",
+              "nome": "Inserto · consigli-iniziare-testo",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15940",
+              "nome": "Esempio · Cominciare dalle parole che saranno davvero lette",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:15957",
+              "nome": "Annotazione separata",
+              "classe": "content-stretch flex items-start justify-end relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": null,
+              "nome": "Post-it · Leggilo alla misura finale.",
+              "classe": "bg-[#fff2b6] content-stretch drop-shadow-[0px_1.5px_1.5px_rgba(46,48,56,0.09)] flex flex-col items-start px-[12px] py-[10px] relative w-[144px]"
+            },
+            {
+              "nodo": "4813:15959",
+              "nome": "Promemoria",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[120px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 473,
+      "frame_figma": "4813:16084",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16048;4302:517",
+          "testo": "Una mostra da leggere",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Black'] font-black leading-[20px] relative shrink-0 text-[18px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16084",
+              "nome": "C09 · 473 · DX — Consigli utili / Far entrare il testo senza schiacciare le lettere",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16101",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16060",
+              "nome": "Inserto · consigli-famiglie-ruoli",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16046",
+              "nome": "Esempio · Abbinare le famiglie e definirne i ruoli",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16047",
+              "nome": "Campione editoriale · ruoli",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16048",
+              "nome": "Titolo · DM Sans Black",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16051;4302:517",
+          "testo": "Tre percorsi, una sola voce",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[16px] relative shrink-0 text-[14px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16084",
+              "nome": "C09 · 473 · DX — Consigli utili / Far entrare il testo senza schiacciare le lettere",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16101",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16060",
+              "nome": "Inserto · consigli-famiglie-ruoli",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16046",
+              "nome": "Esempio · Abbinare le famiglie e definirne i ruoli",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16047",
+              "nome": "Campione editoriale · ruoli",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16050",
+              "nome": "Stacco titolo–sottotitolo",
+              "classe": "content-stretch flex flex-col items-start pb-[14px] pt-[8px] relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16051",
+              "nome": "Sottotitolo · DM Sans Bold",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16053;4302:517",
+          "testo": "Il titolo introduce il tema. Il sottotitolo orienta e il corpo accompagna la lettura. Pesi e spazi rendono riconoscibili questi compiti.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16084",
+              "nome": "C09 · 473 · DX — Consigli utili / Far entrare il testo senza schiacciare le lettere",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16101",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16060",
+              "nome": "Inserto · consigli-famiglie-ruoli",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16046",
+              "nome": "Esempio · Abbinare le famiglie e definirne i ruoli",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16047",
+              "nome": "Campione editoriale · ruoli",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16053",
+              "nome": "Corpo · DM Sans Regular",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16056;4288:131",
+          "testo": "Titolo 18 · sottotitolo 14 · corpo 12\nUna famiglia, tre compiti.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[0] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16084",
+              "nome": "C09 · 473 · DX — Consigli utili / Far entrare il testo senza schiacciare le lettere",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16101",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16060",
+              "nome": "Inserto · consigli-famiglie-ruoli",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16046",
+              "nome": "Esempio · Abbinare le famiglie e definirne i ruoli",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16055",
+              "nome": "Appunto · ruoli della stessa famiglia",
+              "classe": "border-[var(--teston-ink,#2e3138)] border-l border-solid content-stretch flex flex-col items-start pl-[9px] py-[5px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16056",
+              "nome": "Indicazione dei ruoli",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[178.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16058;4288:131",
+          "testo": "Figura 3.348. La stessa famiglia distingue tre ruoli attraverso peso, corpo e spaziatura. L’aggiunta di un’altra famiglia richiede una funzione riconoscibile.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16084",
+              "nome": "C09 · 473 · DX — Consigli utili / Far entrare il testo senza schiacciare le lettere",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16101",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16060",
+              "nome": "Inserto · consigli-famiglie-ruoli",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16046",
+              "nome": "Esempio · Abbinare le famiglie e definirne i ruoli",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16058",
+              "nome": "Figura 3.348 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 474,
+      "frame_figma": "4813:16166",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16119;4288:131",
+          "testo": "Compressione geometrica",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16116",
+              "nome": "Confronto · Compressione geometrica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16117",
+              "nome": "Foglio · Compressione geometrica",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16118",
+              "nome": "Condizione di prova",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16119",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16121;4288:131",
+          "testo": "Larghezza geometrica: 75%",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16116",
+              "nome": "Confronto · Compressione geometrica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16117",
+              "nome": "Foglio · Compressione geometrica",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16118",
+              "nome": "Condizione di prova",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16121",
+              "nome": "Parametro",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16136;4288:131",
+          "testo": "Figura 3.349. Roboto Serif compresso geometricamente. La deformazione è mostrata soltanto come condizione di confronto.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16116",
+              "nome": "Confronto · Compressione geometrica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16136",
+              "nome": "Figura 3.349 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16138;4789:8599",
+          "testo": "Campione originale su contorni autentici Roboto Serif, deformazione dichiarata. SIL OFL1.1.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Italic'] font-normal italic leading-[10px] relative shrink-0 text-[8px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16116",
+              "nome": "Confronto · Compressione geometrica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16138",
+              "nome": "Figura 3.349 · Diritti",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16143;4288:131",
+          "testo": "Asse wdth 75",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16140",
+              "nome": "Confronto · Asse wdth 75",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16141",
+              "nome": "Foglio · Asse wdth 75",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16142",
+              "nome": "Condizione di prova",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16143",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16145;4288:131",
+          "testo": "Asse reale del font: wdth 75",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16140",
+              "nome": "Confronto · Asse wdth 75",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16141",
+              "nome": "Foglio · Asse wdth 75",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16142",
+              "nome": "Condizione di prova",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16145",
+              "nome": "Parametro",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16160;4288:131",
+          "testo": "Figura 3.350. Roboto Serif con asse wdth impostato a 75: una variazione progettata, distinta dalla compressione geometrica. Il valore dell’asse non indica una riduzione uniforme della parola al 75%.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16140",
+              "nome": "Confronto · Asse wdth 75",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16160",
+              "nome": "Figura 3.350 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16162;4789:8599",
+          "testo": "Roboto Serif, Commercial Type e Google Fonts; asse reale del file. SIL OFL1.1.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Italic'] font-normal italic leading-[10px] relative shrink-0 text-[8px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16115",
+              "nome": "Confronto · stessa scala",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16140",
+              "nome": "Confronto · Asse wdth 75",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16162",
+              "nome": "Figura 3.350 · Diritti",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16164;4288:131",
+          "testo": "Roboto Serif · contorni autentici · stessa scala nei due campioni",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16166",
+              "nome": "C09 · 474 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16114",
+              "nome": "Esempio · Far entrare il testo senza schiacciare le lettere",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[294.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16164",
+              "nome": "Condizioni comuni",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 477,
+      "frame_figma": "4813:16352",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16257;4288:131",
+          "testo": "Accenti",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16256",
+              "nome": "Segno · Accenti",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16257",
+              "nome": "Funzione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16259;4302:517",
+          "testo": "È · CAFFÈ · PERCHÉ",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16256",
+              "nome": "Segno · Accenti",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16259",
+              "nome": "Campione italiano",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16262;4288:131",
+          "testo": "Apostrofo e virgolette",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16261",
+              "nome": "Segno · Apostrofo e virgolette",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16262",
+              "nome": "Funzione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16264;4302:517",
+          "testo": "L’idea è «già pronta».",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16261",
+              "nome": "Segno · Apostrofo e virgolette",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16264",
+              "nome": "Campione italiano",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16267;4288:131",
+          "testo": "Parola composta",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16266",
+              "nome": "Segno · Parola composta",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16267",
+              "nome": "Funzione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16269;4302:517",
+          "testo": "tecnico-scientifico",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16266",
+              "nome": "Segno · Parola composta",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16269",
+              "nome": "Campione italiano",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16272;4288:131",
+          "testo": "Intervallo",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16271",
+              "nome": "Segno · Intervallo",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16272",
+              "nome": "Funzione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16274;4302:517",
+          "testo": "10–12",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16271",
+              "nome": "Segno · Intervallo",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16274",
+              "nome": "Campione italiano",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4823:8778;4288:131",
+          "testo": "Numero negativo",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4823:8777",
+              "nome": "Segno · Numero negativo",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4823:8778",
+              "nome": "Funzione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4823:8779;4302:517",
+          "testo": "−5",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4823:8777",
+              "nome": "Segno · Numero negativo",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4823:8779",
+              "nome": "Campione italiano",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4823:8783;4288:131",
+          "testo": "Spazio normale",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4823:8782",
+              "nome": "Segno · Spazio normale",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4823:8783",
+              "nome": "Funzione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4823:8784;4302:517",
+          "testo": "Peso: 10 kg",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4823:8782",
+              "nome": "Segno · Spazio normale",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4823:8784",
+              "nome": "Campione italiano",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[51px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4823:8788;4288:131",
+          "testo": "Spazio non separabile",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4823:8787",
+              "nome": "Segno · Spazio non separabile",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4823:8788",
+              "nome": "Funzione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4823:8789;4302:517",
+          "testo": "Peso: 10 kg",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16255",
+              "nome": "Striscia · accenti e segni",
+              "classe": "bg-[var(--teston-capitolo-tipografia-colore,#afc7e8)] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[12px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4823:8787",
+              "nome": "Segno · Spazio non separabile",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4823:8789",
+              "nome": "Campione italiano",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[51px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16276;4288:131",
+          "testo": "Figura 3.351. Nei campioni il trattino unisce una parola composta, la lineetta esprime un intervallo e il meno indica un valore negativo. Il confronto «10 kg» e «10 kg» mostra come lo spazio non separabile tiene insieme numero e unità a fine riga.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16276",
+              "nome": "Figura 3.351 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16280;4288:131",
+          "testo": "Segni simili, funzioni diverse.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16352",
+              "nome": "C09 · 477 · DX — Consigli utili / Dare enfasi senza alzare sempre la voce",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16369",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16282",
+              "nome": "Inserto · consigli-ortotipografia",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16254",
+              "nome": "Esempio · La revisione ortotipografica",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16278",
+              "nome": "Annotazione separata",
+              "classe": "content-stretch flex items-start justify-end relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": null,
+              "nome": "Post-it · Segni simili, funzioni diverse.",
+              "classe": "bg-[#fff2b6] content-stretch drop-shadow-[0px_1.5px_1.5px_rgba(46,48,56,0.09)] flex flex-col items-start px-[12px] py-[10px] relative w-[150px]"
+            },
+            {
+              "nodo": "4813:16280",
+              "nome": "Promemoria",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[126px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 479,
+      "frame_figma": "4813:16453",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16336;4288:131",
+          "testo": "Tutto marcato",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16453",
+              "nome": "C09 · 479 · DX — Consigli utili / Contrasto e riconoscibilità dei link",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16470",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16351",
+              "nome": "Inserto · consigli-enfasi",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16334",
+              "nome": "Esempio · Dare enfasi senza alzare sempre la voce",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16335",
+              "nome": "Confronto enfasi · Quasi tutto marcato",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16336",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16338;4302:517",
+          "testo": "La prenotazione resta valida fino alle 18. Porta il codice di conferma e presentati all’ingresso principale.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16453",
+              "nome": "C09 · 479 · DX — Consigli utili / Contrasto e riconoscibilità dei link",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16470",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16351",
+              "nome": "Inserto · consigli-enfasi",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16334",
+              "nome": "Esempio · Dare enfasi senza alzare sempre la voce",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16335",
+              "nome": "Confronto enfasi · Quasi tutto marcato",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16338",
+              "nome": "Stesso testo · enfasi 1",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16343;4288:131",
+          "testo": "Un’informazione da ritrovare",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16453",
+              "nome": "C09 · 479 · DX — Consigli utili / Contrasto e riconoscibilità dei link",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16470",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16351",
+              "nome": "Inserto · consigli-enfasi",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16334",
+              "nome": "Esempio · Dare enfasi senza alzare sempre la voce",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16342",
+              "nome": "Confronto enfasi · Un’informazione da ritrovare",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16343",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16345;4302:517",
+          "testo": "La prenotazione resta valida fino alle 18. Porta il codice di conferma e presentati all’ingresso principale.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16453",
+              "nome": "C09 · 479 · DX — Consigli utili / Contrasto e riconoscibilità dei link",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16470",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16351",
+              "nome": "Inserto · consigli-enfasi",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16334",
+              "nome": "Esempio · Dare enfasi senza alzare sempre la voce",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16342",
+              "nome": "Confronto enfasi · Un’informazione da ritrovare",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16345",
+              "nome": "Stesso testo · enfasi 2",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16347;4288:131",
+          "testo": "Trova la scadenza.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16453",
+              "nome": "C09 · 479 · DX — Consigli utili / Contrasto e riconoscibilità dei link",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16470",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16351",
+              "nome": "Inserto · consigli-enfasi",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16334",
+              "nome": "Esempio · Dare enfasi senza alzare sempre la voce",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16347",
+              "nome": "Annotazione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16349;4288:131",
+          "testo": "Figura 3.352. Stessi contenuti, corpo e larghezza: cambia l’estensione del grassetto. Nel secondo campione la scadenza è distinta dal resto del paragrafo; la scelta delle parole da marcare dipende dal compito.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16453",
+              "nome": "C09 · 479 · DX — Consigli utili / Contrasto e riconoscibilità dei link",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16470",
+              "nome": "Colonna sinistra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[51.02px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16351",
+              "nome": "Inserto · consigli-enfasi",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16334",
+              "nome": "Esempio · Dare enfasi senza alzare sempre la voce",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16349",
+              "nome": "Figura 3.352 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 480,
+      "frame_figma": "4813:16531",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16422;4288:131",
+          "testo": "Solo colore",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16421",
+              "nome": "Confronto link · Solo colore",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16422",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16424;4302:517",
+          "testo": "Per preparare la visita, consulta gli orari e i biglietti della mostra.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16421",
+              "nome": "Confronto link · Solo colore",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16424",
+              "nome": "Paragrafo con destinazione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16426;4288:131",
+          "testo": "mostra.example/orari",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16421",
+              "nome": "Confronto link · Solo colore",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16426",
+              "nome": "URL simulato · non cliccabile",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16429;4288:131",
+          "testo": "Colore e sottolineatura",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16428",
+              "nome": "Confronto link · Colore e sottolineatura",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16429",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16431;4302:517",
+          "testo": "Per preparare la visita, consulta gli orari e i biglietti della mostra.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16428",
+              "nome": "Confronto link · Colore e sottolineatura",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16431",
+              "nome": "Paragrafo con destinazione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16433;4288:131",
+          "testo": "mostra.example/orari",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16428",
+              "nome": "Confronto link · Colore e sottolineatura",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16433",
+              "nome": "URL simulato · non cliccabile",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16435;4288:131",
+          "testo": "Figura 3.353. Entrambi i campioni hanno contrasto sufficiente sul bianco (5,10:1). Nel primo il solo colore non distingue abbastanza il link dal corpo; nel secondo la sottolineatura aggiunge un segnale stabile. Le parole anticipano la destinazione.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16435",
+              "nome": "Figura 3.353 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16439;4288:131",
+          "testo": "La destinazione si capisce dalle parole.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16531",
+              "nome": "C09 · 480 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16549",
+              "nome": "Colonna destra · lettura",
+              "classe": "absolute content-stretch flex flex-col items-start left-[243.78px] top-[42.52px] w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16441",
+              "nome": "Inserto · consigli-contrasto-link",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16420",
+              "nome": "Esempio · Contrasto e riconoscibilità dei link",
+              "classe": "content-stretch flex flex-col gap-[8px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16437",
+              "nome": "Annotazione separata",
+              "classe": "content-stretch flex items-start justify-end relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": null,
+              "nome": "Post-it · La destinazione\nè nelle parole.",
+              "classe": "bg-[#fff2b6] content-stretch drop-shadow-[0px_1.5px_1.5px_rgba(46,48,56,0.09)] flex flex-col items-start px-[12px] py-[10px] relative w-[145px]"
+            },
+            {
+              "nodo": "4813:16439",
+              "nome": "Promemoria",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[121px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 482,
+      "frame_figma": "4813:16635",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16498;4288:131",
+          "testo": "Font previsto · DM Sans",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16497",
+              "nome": "Ritaglio UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16498",
+              "nome": "Condizione del font",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16501;4302:517",
+          "testo": "Prenota una visita al laboratorio",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Bold'] font-bold leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16497",
+              "nome": "Ritaglio UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16500",
+              "nome": "Interfaccia simulata · Font previsto · DM Sans",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16501",
+              "nome": "Titolo UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16503;4302:517",
+          "testo": "Scegli il giorno e controlla i posti disponibili prima di confermare.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16497",
+              "nome": "Ritaglio UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16500",
+              "nome": "Interfaccia simulata · Font previsto · DM Sans",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16503",
+              "nome": "Testo UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16506;4302:517",
+          "testo": "19 ottobre 2026 · 14:30",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16497",
+              "nome": "Ritaglio UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16500",
+              "nome": "Interfaccia simulata · Font previsto · DM Sans",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16506",
+              "nome": "Data UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16509;4302:517",
+          "testo": "Conferma la visita",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-white w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16497",
+              "nome": "Ritaglio UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16500",
+              "nome": "Interfaccia simulata · Font previsto · DM Sans",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16508",
+              "nome": "Pulsante · Font previsto · DM Sans",
+              "classe": "bg-[var(--teston-ink,#2e3138)] content-stretch flex flex-col items-start px-[9px] py-[7px] relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16509",
+              "nome": "Azione UI · Font previsto · DM Sans",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[137.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16514;4288:131",
+          "testo": "Font di riserva · Sora",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16513",
+              "nome": "Ritaglio UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16514",
+              "nome": "Condizione del font",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[187.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16517;4302:517",
+          "testo": "Prenota una visita al laboratorio",
+          "stile_figma": "[word-break:break-word] font-['Sora:Bold'] font-bold leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16513",
+              "nome": "Ritaglio UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16516",
+              "nome": "Interfaccia simulata · Font di riserva · Sora",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16517",
+              "nome": "Titolo UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16519;4302:517",
+          "testo": "Scegli il giorno e controlla i posti disponibili prima di confermare.",
+          "stile_figma": "[word-break:break-word] font-['Sora:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16513",
+              "nome": "Ritaglio UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16516",
+              "nome": "Interfaccia simulata · Font di riserva · Sora",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16519",
+              "nome": "Testo UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16522;4302:517",
+          "testo": "19 ottobre 2026 · 14:30",
+          "stile_figma": "[word-break:break-word] font-['Sora:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16513",
+              "nome": "Ritaglio UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16516",
+              "nome": "Interfaccia simulata · Font di riserva · Sora",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16522",
+              "nome": "Data UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16525;4302:517",
+          "testo": "Conferma la visita",
+          "stile_figma": "[word-break:break-word] font-['Sora:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-white w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16496",
+              "nome": "Confronto UI · stessa larghezza",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16513",
+              "nome": "Ritaglio UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[5px] items-start relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16516",
+              "nome": "Interfaccia simulata · Font di riserva · Sora",
+              "classe": "bg-white content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[10px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16524",
+              "nome": "Pulsante · Font di riserva · Sora",
+              "classe": "bg-[var(--teston-ink,#2e3138)] content-stretch flex flex-col items-start px-[9px] py-[7px] relative shrink-0 w-[155.09px]"
+            },
+            {
+              "nodo": "4813:16525",
+              "nome": "Azione UI · Font di riserva · Sora",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[137.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16527;4288:131",
+          "testo": "Interfaccia simulata · corpo nominale 12 pt\nStessa larghezza, interlinea e contenuto.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[0] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16527",
+              "nome": "Condizioni comuni",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16529;4288:131",
+          "testo": "Figura 3.354. Interfaccia simulata: DM Sans e Sora allo stesso corpo nominale, con uguali contenuto, larghezza e interlinea. Le proporzioni cambiano i ritorni a capo e l’ingombro. Questa prova non misura i tempi di caricamento.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4813:16635",
+              "nome": "C09 · 482 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16495",
+              "nome": "Esempio · Verificare caricamento e fallback",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[308.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16529",
+              "nome": "Figura 3.354 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 484,
+      "frame_figma": "4825:8842",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16617;4288:131",
+          "testo": "Corpo 12 / interlinea 14",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8842",
+              "nome": "C09 · 484 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16614",
+              "nome": "Esempio · Confrontare una scelta alla volta",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16615",
+              "nome": "Confronto · varia soltanto l’interlinea",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16616",
+              "nome": "Campione 12/14",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16617",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16619;4302:517",
+          "testo": "Quando il paragrafo prosegue per più righe, il lettore deve poter ritrovare l’inizio della successiva. Il rapporto fra corpo, giustezza e interlinea va osservato sul testo e nel formato previsti.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[14px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8842",
+              "nome": "C09 · 484 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16614",
+              "nome": "Esempio · Confrontare una scelta alla volta",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16615",
+              "nome": "Confronto · varia soltanto l’interlinea",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16616",
+              "nome": "Campione 12/14",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16619",
+              "nome": "Stesso paragrafo · 12/14",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16622;4288:131",
+          "testo": "Corpo 12 / interlinea 18",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8842",
+              "nome": "C09 · 484 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16614",
+              "nome": "Esempio · Confrontare una scelta alla volta",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16615",
+              "nome": "Confronto · varia soltanto l’interlinea",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16621",
+              "nome": "Campione 12/18",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16622",
+              "nome": "Condizione",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16624;4302:517",
+          "testo": "Quando il paragrafo prosegue per più righe, il lettore deve poter ritrovare l’inizio della successiva. Il rapporto fra corpo, giustezza e interlinea va osservato sul testo e nel formato previsti.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[18px] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8842",
+              "nome": "C09 · 484 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16614",
+              "nome": "Esempio · Confrontare una scelta alla volta",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16615",
+              "nome": "Confronto · varia soltanto l’interlinea",
+              "classe": "content-stretch flex gap-[14.17px] items-start relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16621",
+              "nome": "Campione 12/18",
+              "classe": "bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[8px] items-start pb-[16px] pt-[28px] px-[16px] relative shrink-0 w-[187.09px]"
+            },
+            {
+              "nodo": "4813:16624",
+              "nome": "Stesso paragrafo · 12/18",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[155.09px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16629;4288:131",
+          "testo": "Uguali: testo, DM Sans Regular, corpo 12 pt e giustezza 155,09 pt.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8842",
+              "nome": "C09 · 484 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16614",
+              "nome": "Esempio · Confrontare una scelta alla volta",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16628",
+              "nome": "Nota · condizioni del confronto",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start py-[5px] relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16629",
+              "nome": "Costanti",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16631;4288:131",
+          "testo": "Cambia: interlinea 14 oppure 18 pt.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Medium'] font-medium leading-[11px] relative shrink-0 text-[9.5px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8842",
+              "nome": "C09 · 484 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16614",
+              "nome": "Esempio · Confrontare una scelta alla volta",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16628",
+              "nome": "Nota · condizioni del confronto",
+              "classe": "content-stretch flex flex-col gap-[3px] items-start py-[5px] relative shrink-0 w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16631",
+              "nome": "Variabile",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16633;4288:131",
+          "testo": "Figura 3.355. Stesse parole, DM Sans Regular 12 pt e larghezza 155,09 pt; cambia l’interlinea, da 14 a 18 pt. I valori descrivono questa prova. Osserva il passaggio alla riga successiva e l’ingombro del paragrafo.",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Light'] font-light leading-[0] relative shrink-0 text-[9px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8842",
+              "nome": "C09 · 484 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16614",
+              "nome": "Esempio · Confrontare una scelta alla volta",
+              "classe": "absolute content-stretch flex flex-col gap-[8px] items-start left-[42.52px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16633",
+              "nome": "Figura 3.355 · Didascalia",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[388.35px]"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "folio_fonte": 486,
+      "frame_figma": "4825:8945",
+      "testi": [
+        {
+          "nodo_figma": "I4813:16721;4487:8130",
+          "testo": "Il mio prossimo confronto",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Black'] font-black leading-[14px] relative shrink-0 text-[14px] text-[color:var(--teston-ink,#2e3138)] text-balance w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8945",
+              "nome": "C09 · 486 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16720",
+              "nome": "Foglio di lavoro · confronto controllato",
+              "classe": "absolute bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[14px] items-start left-[42.52px] pb-[16px] pt-[28px] px-[16px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16721",
+              "nome": "Titolo del foglio",
+              "classe": "content-stretch flex flex-col items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16723;4302:517",
+          "testo": "Testo, formato e condizioni che mantengo uguali\n____________________________________________",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8945",
+              "nome": "C09 · 486 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16720",
+              "nome": "Foglio di lavoro · confronto controllato",
+              "classe": "absolute bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[14px] items-start left-[42.52px] pb-[16px] pt-[28px] px-[16px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16723",
+              "nome": "Campo della prova",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16725;4302:517",
+          "testo": "Compito e risultato che voglio verificare\n____________________________________________",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8945",
+              "nome": "C09 · 486 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16720",
+              "nome": "Foglio di lavoro · confronto controllato",
+              "classe": "absolute bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[14px] items-start left-[42.52px] pb-[16px] pt-[28px] px-[16px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16725",
+              "nome": "Campo della prova",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16727;4302:517",
+          "testo": "Parametro che cambia fra A e B\n____________________________________________",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8945",
+              "nome": "C09 · 486 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16720",
+              "nome": "Foglio di lavoro · confronto controllato",
+              "classe": "absolute bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[14px] items-start left-[42.52px] pb-[16px] pt-[28px] px-[16px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16727",
+              "nome": "Campo della prova",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16729;4302:517",
+          "testo": "Ordine dei campioni e persone coinvolte\n____________________________________________",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8945",
+              "nome": "C09 · 486 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16720",
+              "nome": "Foglio di lavoro · confronto controllato",
+              "classe": "absolute bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[14px] items-start left-[42.52px] pb-[16px] pt-[28px] px-[16px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16729",
+              "nome": "Campo della prova",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4813:16731;4302:517",
+          "testo": "Errori, esitazioni e comprensione osservati\n____________________________________________",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8945",
+              "nome": "C09 · 486 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16720",
+              "nome": "Foglio di lavoro · confronto controllato",
+              "classe": "absolute bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[14px] items-start left-[42.52px] pb-[16px] pt-[28px] px-[16px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4813:16731",
+              "nome": "Campo della prova",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        },
+        {
+          "nodo_figma": "I4823:8792;4302:517",
+          "testo": "Decisione e compromesso accettato\n____________________________________________",
+          "stile_figma": "[word-break:break-word] font-['DM_Sans:Regular'] font-normal leading-[0] relative shrink-0 text-[12px] text-[color:var(--teston-ink,#2e3138)] w-full",
+          "contenitori_figma": [
+            {
+              "nodo": "4825:8945",
+              "nome": "C09 · 486 · SX — Consigli utili",
+              "classe": "bg-[var(--teston-paper,white)] relative size-full"
+            },
+            {
+              "nodo": "4813:16720",
+              "nome": "Foglio di lavoro · confronto controllato",
+              "classe": "absolute bg-[#faf8f1] content-stretch drop-shadow-[0px_2px_2px_rgba(46,48,56,0.07)] flex flex-col gap-[14px] items-start left-[42.52px] pb-[16px] pt-[28px] px-[16px] top-[42.52px] w-[388.35px]"
+            },
+            {
+              "nodo": "4823:8792",
+              "nome": "Campo della prova",
+              "classe": "content-stretch flex flex-col gap-[var(--teston-space-paragraph,8px)] items-start relative shrink-0 w-[356.35px]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

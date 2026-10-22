@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Tipografia: lettera, ritmo e controforma</title>
+  <desc id="descrizione">Una grande a minuscola autentica di Sora Bold mostra aste, raccordi e controforma, fra due linee metriche.</desc>
+  <!-- Glifo Sora Bold 700 convertito in tracciato con Typst 0.15.1.
+       Fonte: assets/fonts/editoriali/sora-variabile.ttf, licenza OFL 1.1.
+       Il glifo resta fedele al font: scala uniforme, nessuna deformazione.
+       Titolo e numero sono testo Typst, separato da questa grafica. -->
+  <g fill="#8EC5FF" data-palette="principale">
+    <rect x="0" y="0" width="1200" height="1694" opacity="0.06"/>
+    <path d="M 0 0m 403.75 0v 161.5h -26.5v 176q 0 42.25 -20.25 63.125q -20.25 20.875 -64 20.875q -22 0 -58 -1q -36 -1 -74.25 -2.75q -38.25 -1.75 -69.25 -3.75v 135q 23.5 2 54.375 3.875q 30.875 1.875 64 2.75q 33.125 0.875 61.625 0.875q 84.25 0 141.875 -23.625q 57.625 -23.625 87.5 -72.125q 29.875 -48.5 29.875 -125v -335.75h -127Z m -175 -14q -58.5 0 -103.125 20.875q -44.625 20.875 -69.625 60.25q -25 39.375 -25 94.375q 0 60.75 31.125 99.125q 31.125 38.375 86.875 56.75q 55.75 18.375 129.25 18.375h 116.5v -88.5h -117.5q -42.25 0 -65 -20.875q -22.75 -20.875 -22.75 -55.125q 0 -33.5 22.75 -54.125q 22.75 -20.625 65 -20.625q 26.5 0 48.125 9.5q 21.625 9.5 35.75 32.625q 14.125 23.125 16.125 63.875l 38 -39.5q -5 -57 -27.5 -96.25q -22.5 -39.25 -62 -60q -39.5 -20.75 -97 -20.75Z " transform="translate(25 1540) scale(2.15 -2.15)" opacity="0.64"/>
+  </g>
+  <!-- Altezza della x e linea di base richiamano la costruzione tipografica. -->
+  <path d="M0 342 H1200 M0 1540 H1200" fill="none" stroke="#8EC5FF" data-palette="principale" stroke-width="3" opacity="0.65"/>
+  <!-- Un accento corallo marca la linea di base, senza alterare il glifo. -->
+  <path d="M0 1540 H1200" fill="none" stroke="#FFA2A2" data-palette="secondario" stroke-width="12"/>
+</svg>

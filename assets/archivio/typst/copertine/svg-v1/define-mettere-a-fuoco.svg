@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="define-titolo define-descrizione">
+  <title id="define-titolo">Mettere a fuoco le evidenze</title>
+  <desc id="define-descrizione">Quattro grandi angoli oltrepassano i bordi del foglio; quadrati di scale differenti occupano la pagina e richiamano una selezione delle evidenze.</desc>
+  <!-- Gli angoli raggiungono il vivo della pagina; non formano un riquadro attorno a un’icona. -->
+  <g fill="none" stroke="#7BF1A8" stroke-width="200" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M520 80 H80 V640" opacity="0.18"/>
+    <path d="M760 80 H1120 V640" opacity="0.22"/>
+    <path d="M80 980 V1614 H520" opacity="0.22"/>
+    <path d="M1120 980 V1614 H760" opacity="0.18"/>
+  </g>
+  <g fill="#7BF1A8">
+    <rect x="-180" y="620" width="440" height="440" opacity="0.16"/>
+    <rect x="360" y="480" width="480" height="480" opacity="0.20"/>
+    <rect x="920" y="1060" width="420" height="420" opacity="0.28"/>
+    <rect x="260" y="1200" width="400" height="400" opacity="0.24"/>
+  </g>
+</svg>

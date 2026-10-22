@@ -1,0 +1,1775 @@
+{
+  "schema": "cvedi-caffe-ttc-asset/v1",
+  "data_promozione": "2026-10-21T14:15:40.537418+00:00",
+  "descrizione": "Sedici screenshot reali Home Caffè TTC: quindici desktop e una variante mobile Adattabile, approvati dopo verifica visiva individuale.",
+  "radice_sito": "esempi/caffe-luce/",
+  "rapporto": "17:24",
+  "trasformazioni_pixel": "Nessuna: copie identiche dei PNG di cattura; nessun ritaglio, deformazione o ricompressione.",
+  "registro_cattura": {
+    "percorso": "assets/images/figure/caffe-ttc/catture-browser.json",
+    "byte": 99037,
+    "sha256": "be5c22a272c52739ecec0877358a4eca4c50879a0557b7c25b9c80cae109b946"
+  },
+  "registro_sorgenti": {
+    "percorso": "assets/images/figure/caffe-ttc/sorgenti.json",
+    "byte": 63641,
+    "sha256": "2365b8ede29498d5f0eb32a02eaeb28d550a2eaf293b5b2f321b90be4aff0ff6"
+  },
+  "source_hash_codice": {
+    "algoritmo": "SHA256 della concatenazione UTF-8 ordinata per percorso: percorso + NUL + sha256_file + LF.",
+    "sha256": "e50aa5a8754188edf25d270a77d7f9e723baa4c06d7ec1dc169562587495a6cd",
+    "ambito": "Tutti i file di sorgente elencati in sorgenti_prima (HTML, JS, CSS base e dei 15 stili, catalogo e contenuti). Non include gli asset binari caricati.",
+    "file": 37
+  },
+  "source_hash_bundle_documentato": {
+    "sha256": "6259633db4b6246543455b7a40fb93fdf4c1564042931e860ef62f0778bfc821",
+    "criterio": "SHA256 della stringa UTF-8: prefisso cvedi-local-source-bundle/v1 + newline, poi righe ordinate per percorso contenenti percorso, NUL, SHA256, NUL, byte, newline. Non include il contenuto delle catture PNG.",
+    "ambito": "37 sorgenti di cattura; dipendenze CSS/import locali, font richiesti, IMG documentati, risorse statiche JS, asset delle varianti selezionate nel catalogo e registri di provenienza/licenze.",
+    "limite": "È una firma del bundle documentato e delle sue risorse dichiarate, non un inventario completo delle richieste di rete effettivamente eseguite dal browser. Le ragioni per ogni file distinguono i due tipi di evidenza.",
+    "file": 132
+  },
+  "criteri_cattura": {
+    "pagine": "15 Home desktop a viewport 1190×1680, deviceScaleFactor 2; Adattabile mobile selezionato 612×864, deviceScaleFactor 2. Prova originale 408×576 DSF3 conservata separatamente.",
+    "rapporto": "17:24, uguale al foglio170×240mm",
+    "capture": "viewport; fullPage:false; nessun crop o stretch",
+    "media": "screen",
+    "movimento": "reduce",
+    "esclusioni_utente": {
+      "selettori": [
+        "#design-notes",
+        ".style-control"
+      ],
+      "style": "#design-notes, .style-control { display: none !important; }",
+      "meccanismo": "Opzione style transitoria di page.screenshot; nessun CSS/DOM sorgente cambiato."
+    },
+    "controlli_demo": "Conservati range Adattabile, pulsanti AR e chat. Nessun altro controllo nascosto.",
+    "limite_istantanea": "Il bordo inferiore coincide con il viewport richiesto: il contenuto successivo può proseguire sotto. Nessuno scrolling, crop o stretch applicato.",
+    "risorse_documentate": "Hash completi delle sorgenti e dei font richiesti. Per i 15 desktop il manifest iniziale non serializza l’elenco completo delle richieste locali; immagini visibili elencate nello stato, possibili sfondi CSS separati da verificare nei sorgenti. Per il mobile 612×864 tutte le richieste locali sono elencate con hash."
+  },
+  "browser": {
+    "package": "playwright-chromium1.63.0",
+    "isolamento": "Browser headless nuovo, contesto nuovo per ogni schermata, nessun collegamento a schede o profili dell’utente.",
+    "versione": "153.0.8010.12"
+  },
+  "qa_visiva": {
+    "data": "2026-10-21T14:09:34.243022+00:00",
+    "lettura": "Tutte le 17 immagini visionate individualmente; 16 selezionate e una prova mobile sostituita.",
+    "selezionate": 16,
+    "desktop": 15,
+    "mobile_selezionato": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-adattabile-mobile-612x864-dsf2.png",
+    "esito": "Tutte le immagini selezionate corrette per la promozione; nessun taglio orizzontale di contenuto utile.",
+    "problemi_residui": [],
+    "nessuna_modifica_produzione": true,
+    "no_pdf": true
+  },
+  "registri_font_fotografie_illustrazioni_marchio": [
+    {
+      "percorso": "esempi/caffe-luce/assets/brand/imagegen-v1/manifest.json",
+      "byte": 18222,
+      "sha256": "1b676f5e95f99a97e9b9ec8902fd6280bc9437ee1462db23a4bcfa1673cf367c",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/fonts/extra-fonts-provenienza.json",
+      "byte": 5562,
+      "sha256": "36a5a939577f98609ff4d7f28878667833043e651853304843549c26df6ecfb4",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/fonts/roboto-flex-provenienza.json",
+      "byte": 3428,
+      "sha256": "5e26880d6c75adfbb47841a98f27dc57534b2221a668cabe2808255649b8ad9d",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/deck/manifest.json",
+      "byte": 764,
+      "sha256": "5bcfed9393236d5549fc29e1f450469435c06fa04e03fef0d7031ebfceac194d",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/manifest.json",
+      "byte": 12562,
+      "sha256": "6c929d3670a12f70bd1a498e3925416a7419f6e84fc7630a0b561223e6afe7c5",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/redesign/ar-interactive/manifest.json",
+      "byte": 4810,
+      "sha256": "753a156b51f1f174043ea6e2c32b0d0bcf1fa65eb1df71dce4af0e5265600d2b",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/redesign/holographic/manifest.json",
+      "byte": 9648,
+      "sha256": "6d9e3c2c9f5666949aae96113f4106d46ee06442f7ee73c91d228bef80789099",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/redesign/manifest.json",
+      "byte": 15756,
+      "sha256": "b6f9a9a81325c5035d3fb44d36080a38318ebb45ee5c26fda8491fa2b6fc888e",
+      "ragioni": [
+        "Registro o licenza del sito"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-adattabile.json",
+      "byte": 14114,
+      "sha256": "bba161b5647060a5743150044dbd1919f31ed48db614e70225a59a38879d55a9",
+      "ragioni": [
+        "Provenienza delle immagini della variante adattabile"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-flat.json",
+      "byte": 15931,
+      "sha256": "21d5ffb364a2454c75829c4836cd9677718bfbd75604d0bdb73b98a5351346f1",
+      "ragioni": [
+        "Provenienza delle immagini della variante flat"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-generativa.json",
+      "byte": 16281,
+      "sha256": "2296d5de0a8488dccc413d8bd8472bbe3df730c5fc3943ba562ce9aa3519afe8",
+      "ragioni": [
+        "Provenienza delle immagini della variante generativa"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-glass.json",
+      "byte": 13735,
+      "sha256": "31569a3a9ddd1a9887b7a4bbe0440436acc112646cea086dac7cef4350bd24c7",
+      "ragioni": [
+        "Provenienza delle immagini della variante glass"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-html.json",
+      "byte": 14599,
+      "sha256": "eaa98c7ed13322cf9b3c9c4b823f383fb664b045e06de9114ae96ff6d3517274",
+      "ragioni": [
+        "Provenienza delle immagini della variante html"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-material.json",
+      "byte": 14798,
+      "sha256": "dd0501a07401e16bfda3aa6fb09a77f3b679ab7e2a099e5951b22a2343aee5d7",
+      "ragioni": [
+        "Provenienza delle immagini della variante material"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-max.json",
+      "byte": 14661,
+      "sha256": "6c28c2ff3407c13c9f8edbdc45012e06ac1173fa7aff0abb210f2353c3990b6d",
+      "ragioni": [
+        "Provenienza delle immagini della variante max"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-minimal.json",
+      "byte": 13669,
+      "sha256": "a9ec2034c41dcb4ec51008c89c987e3b4fe898a9396b517385b964332d76f1e6",
+      "ragioni": [
+        "Provenienza delle immagini della variante minimal"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-neo.json",
+      "byte": 13789,
+      "sha256": "232ce28b6510e608da77542f81be79ba1821c1243024b224bac74bb3d6285e4f",
+      "ragioni": [
+        "Provenienza delle immagini della variante neo"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-neumo.json",
+      "byte": 13919,
+      "sha256": "71eae245832cdb4d3c62ecee56f8b3a69770cfe65f65e57bb0443147cd422ea8",
+      "ragioni": [
+        "Provenienza delle immagini della variante neumo"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-scheu.json",
+      "byte": 15240,
+      "sha256": "c2202df44a431a59542cc050994c6e48ba581525d3e0e3fbdaeb2efb82125d73",
+      "ragioni": [
+        "Provenienza delle immagini della variante scheu"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-spaziale.json",
+      "byte": 14768,
+      "sha256": "bb7d7abeb59bdad79cb01acdcaae928c903b8c57455dddaeee644791e538ef09",
+      "ragioni": [
+        "Provenienza delle immagini della variante spaziale"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-web2.json",
+      "byte": 14811,
+      "sha256": "cd149a265382ad1439578165de476554fc72a05750496a6b2a3401b7b388a381",
+      "ragioni": [
+        "Provenienza delle immagini della variante web2"
+      ]
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/ttc-v3/provenance-y2k.json",
+      "byte": 13796,
+      "sha256": "4380ae46b7a96417d911f059b876241ba48f7c16ae48c5b8a91aa3bf4923d80a",
+      "ragioni": [
+        "Provenienza delle immagini della variante y2k"
+      ]
+    }
+  ],
+  "licenze_font": [
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/Inter-LICENSE.txt",
+      "byte": 4477,
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/deck/OFL-NunitoSans.txt",
+      "byte": 4526,
+      "sha256": "6632e6c45fcc18cc03909a0a53d84e9775185e06203ff80d6367cf93959b91a8"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/deck/manifest.json",
+      "byte": 764,
+      "sha256": "5bcfed9393236d5549fc29e1f450469435c06fa04e03fef0d7031ebfceac194d"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/limelight-OFL.txt",
+      "byte": 4399,
+      "sha256": "6b53fb03a50914cc382f4d025ee595c17c43f24ae870f840bc51969d3e316c7e"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/liquid-glass-MIT.txt",
+      "byte": 1063,
+      "sha256": "5dd5466f381885513ccc0419885dc9fbf58d9c8bf254a13327cc58a5163e472c"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/press-start-2p-OFL.txt",
+      "byte": 4413,
+      "sha256": "705960c3281a5765ecc0b59bd4ed7ca59eed165748076bc2fc3e8fdbfeb944b0"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/roboto-flex-OFL.txt",
+      "byte": 4488,
+      "sha256": "9cbaed04b20c853f99840efe5dc96956f6f6120ed83a0ade35f9281a2b63e5d0"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/archivo-black.txt",
+      "byte": 4398,
+      "sha256": "4cafdbbd100af37a23805af09b7068e4daafb4516dc3d6d52436f4a9d7b4c0d3"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/audiowide.txt",
+      "byte": 4429,
+      "sha256": "187ff9f7308f41117a5bfd0a0974bc8503882e488d15ac721dd4b7734904357b"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/fraunces.txt",
+      "byte": 4390,
+      "sha256": "6732d6cc72c5d09292ff754dc1f39d9ea14918f74e87a17afa3f00a5120c3d48"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/ibm-plex-mono.txt",
+      "byte": 4362,
+      "sha256": "d741e57d5f865e294df801f96b7b5161a88b211df65887e4358d271c9fc5fb4f"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/lora.txt",
+      "byte": 4422,
+      "sha256": "6d6bc7bbb828514925dabcaf89e4771398d12c60dd1cb2bbb90eea129535d0f4"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/manifest.json",
+      "byte": 12562,
+      "sha256": "6c929d3670a12f70bd1a498e3925416a7419f6e84fc7630a0b561223e6afe7c5"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/noto-serif.txt",
+      "byte": 4395,
+      "sha256": "e2e177a32561584d4fc13aaa3cd8e53758a12910f013fe9ca125419111722029"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/nunito.txt",
+      "byte": 4384,
+      "sha256": "ee9491ad3ea5d390878695bd6cce49beb3cacd5c4312f8ab574b541e9f7afa21"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/roboto.txt",
+      "byte": 4393,
+      "sha256": "ee94f8704aa81e9a3bf4271e8320e99d975a3ee08ea45a088b494b918476ec12"
+    },
+    {
+      "percorso": "esempi/caffe-luce/assets/licenses/web-styles/space-grotesk.txt",
+      "byte": 4401,
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    }
+  ],
+  "diritti": "Nessuna nuova licenza per gli screenshot. Le condizioni dei singoli materiali restano quelle documentate nei registri del sito; un font OFL non attribuisce la stessa licenza all’intera schermata.",
+  "limite_inventario": "È una firma del bundle documentato e delle sue risorse dichiarate, non un inventario completo delle richieste di rete effettivamente eseguite dal browser. Le ragioni per ogni file distinguono i due tipi di evidenza.",
+  "catture": [
+    {
+      "id": "html",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-primo-web-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-html-desktop-1190x1680-dsf2.png",
+      "sha256": "902feb0a1368889ba8d0e15fa90357c107fc3019e63d75be54803c21642ba724",
+      "byte": 1264883,
+      "data": "2026-10-21T14:03:48.866Z",
+      "query_stile": "stile=html",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/redesign/historical/coffee-still.png",
+          "complete": true,
+          "w": 104,
+          "h": 58
+        },
+        {
+          "src": "assets/redesign/historical/new-still.png",
+          "complete": true,
+          "w": 54,
+          "h": 24
+        },
+        {
+          "src": "assets/redesign/historical/earlyweb-photos.jpg",
+          "complete": true,
+          "w": 384,
+          "h": 576
+        },
+        {
+          "src": "assets/redesign/historical/earlyweb-photos.jpg",
+          "complete": true,
+          "w": 384,
+          "h": 576
+        },
+        {
+          "src": "assets/redesign/historical/earlyweb-photos.jpg",
+          "complete": true,
+          "w": 384,
+          "h": 576
+        },
+        {
+          "src": "assets/redesign/historical/earlyweb-photos.jpg",
+          "complete": true,
+          "w": 384,
+          "h": 576
+        },
+        {
+          "src": "assets/redesign/historical/earlyweb-photos.jpg",
+          "complete": true,
+          "w": 384,
+          "h": 576
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Header, navigazione, finestra e tre prodotti leggibili; il layout storico mantiene la propria larghezza minima senza debordare."
+        ]
+      }
+    },
+    {
+      "id": "web2",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-web-2-0-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-web2-desktop-1190x1680-dsf2.png",
+      "sha256": "221e7dc1b4c28e79c5c00e3c94c77a9049f9071a638c9ddf909ad3361186944b",
+      "byte": 2320746,
+      "data": "2026-10-21T14:03:49.401Z",
+      "query_stile": "stile=web2",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/web2.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/web2.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/web2.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/web2.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/web2.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Finestre, gradienti, intestazione e tre prodotti leggibili; nessun taglio orizzontale."
+        ]
+      }
+    },
+    {
+      "id": "scheu",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-scheumorfismo-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-scheu-desktop-1190x1680-dsf2.png",
+      "sha256": "33265a2a058cd03c76b3d6007a0ec64571c561099a40403f730bf2b04dfe6d82",
+      "byte": 6023417,
+      "data": "2026-10-21T14:03:50.380Z",
+      "query_stile": "stile=scheu",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/lora.woff2",
+          "byte": 37792,
+          "sha256": "6b102ab35aa1f2b315788bb4853434ed1e52137603bf7a3da71a682276748d45"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Texture, pannelli e schede prodotto conservati; navigazione e contenuto principale leggibili."
+        ]
+      }
+    },
+    {
+      "id": "flat",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-flat-design-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-flat-desktop-1190x1680-dsf2.png",
+      "sha256": "d5a68ea6fe1f68177350d59b396c0febdb6d176032e73bd5f4d5c7cf3813e34c",
+      "byte": 1276695,
+      "data": "2026-10-21T14:03:50.759Z",
+      "query_stile": "stile=flat",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/redesign/materials/flat-atlas.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/redesign/materials/flat-atlas.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/redesign/materials/flat-atlas.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/redesign/materials/flat-atlas.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/redesign/materials/flat-atlas.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Hero e tre prodotti leggibili; resta lo spazio nativo a destra della navigazione dopo la sola esclusione del controllo stile."
+        ]
+      }
+    },
+    {
+      "id": "material",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-material-design-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-material-desktop-1190x1680-dsf2.png",
+      "sha256": "e03606120fc00e4e36d1a41cb34f9c672f0de6e1c0d09c2c2f25a89b67bf297c",
+      "byte": 2366108,
+      "data": "2026-10-21T14:03:51.229Z",
+      "query_stile": "stile=material",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/roboto.woff2",
+          "byte": 37520,
+          "sha256": "0a44e0bb6ba5c8537e8814c148ef7755f1bce12112361231f595ecc584a18d7a"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Material 1 (2014): app bar viola, hero e schede leggibili. Non sostituito con Material 2 o 3."
+        ]
+      }
+    },
+    {
+      "id": "neumo",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-neumorfismo-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-neumo-desktop-1190x1680-dsf2.png",
+      "sha256": "5c0efa0d88fdfb36f397ff089b9a38b06e607733e4e5817d621146c7f3fb1cff",
+      "byte": 2123986,
+      "data": "2026-10-21T14:03:51.717Z",
+      "query_stile": "stile=neumo",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/nunito.woff2",
+          "byte": 39152,
+          "sha256": "20fc9b6fc618e7c3c68d3ac750a2a5dfbceb8521675458d2cea580b5693e4798"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/neumo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neumo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neumo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neumo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neumo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Pannelli in rilievo e gerarchie leggibili; hero e prodotti presenti."
+        ]
+      }
+    },
+    {
+      "id": "glass",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-glassmorfismo-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-glass-desktop-1190x1680-dsf2.png",
+      "sha256": "c0cd989d1500e50a25dfcb7332bd09aa090dd8eeb4149fd67f9c3161164fd9be",
+      "byte": 4772476,
+      "data": "2026-10-21T14:03:52.843Z",
+      "query_stile": "stile=glass",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/glass.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/glass.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/glass.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/glass.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/glass.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Sfondo fotografico e pannelli traslucidi presenti; marchio, hero e prodotti leggibili."
+        ]
+      }
+    },
+    {
+      "id": "minimal",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-minimalismo-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-minimal-desktop-1190x1680-dsf2.png",
+      "sha256": "026b4c8ed51512238ea1311c4e2dac52457ea3d1991111ffff736723e4a43a8a",
+      "byte": 1828673,
+      "data": "2026-10-21T14:03:53.290Z",
+      "query_stile": "stile=minimal",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/minimal.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/minimal.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/minimal.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/minimal.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/minimal.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Gerarchie native e immagini in scala di grigi conservate; nessun taglio orizzontale."
+        ]
+      }
+    },
+    {
+      "id": "y2k",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-y2k-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-y2k-desktop-1190x1680-dsf2.png",
+      "sha256": "5bf8da1fa9645bfd5ac91db48b553b60b3028f69a2f91c5eb533a68544938ce8",
+      "byte": 2714860,
+      "data": "2026-10-21T14:03:53.832Z",
+      "query_stile": "stile=y2k",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/space-grotesk.woff2",
+          "byte": 22320,
+          "sha256": "a0d054c4af557de20afd6ca59f47ab353bcaec49c63ff04b6c9d39d0f8910557"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/audiowide.woff2",
+          "byte": 13744,
+          "sha256": "2da113c9964a66eeab098d816dd4c13af85d902a733a4df30493f454151b9180"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/y2k.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/y2k.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/y2k.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/y2k.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/y2k.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Intestazione cromata, hero e tre schede prodotto leggibili; larghezza minima storica contenuta nel viewport."
+        ]
+      }
+    },
+    {
+      "id": "max",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-massimalismo-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-max-desktop-1190x1680-dsf2.png",
+      "sha256": "e06aa509ed05e167489b636e5663b86c4dac1ea61c8771da220f8835417c2a65",
+      "byte": 3542997,
+      "data": "2026-10-21T14:03:54.454Z",
+      "query_stile": "stile=max",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/space-grotesk.woff2",
+          "byte": 22320,
+          "sha256": "a0d054c4af557de20afd6ca59f47ab353bcaec49c63ff04b6c9d39d0f8910557"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/fraunces.woff2",
+          "byte": 36560,
+          "sha256": "88e17be075f1be50ab67b057b99e3701b828f44ed28f9452df6c02645bb0cba9"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/max.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/max.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/max.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/max.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/max.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Hero, tre prodotti e motivi decorativi conservati; le scritte ripetute nelle fasce proseguono nativamente oltre il bordo, senza overflow del documento."
+        ]
+      }
+    },
+    {
+      "id": "neo",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-neobrutalismo-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-neo-desktop-1190x1680-dsf2.png",
+      "sha256": "a5e6fba467e301fa7cc31efd133420e6e41567592d7524c8e741402a5d8ca897",
+      "byte": 3484374,
+      "data": "2026-10-21T14:03:55.032Z",
+      "query_stile": "stile=neo",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/space-grotesk.woff2",
+          "byte": 22320,
+          "sha256": "a0d054c4af557de20afd6ca59f47ab353bcaec49c63ff04b6c9d39d0f8910557"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/archivo-black.woff2",
+          "byte": 9792,
+          "sha256": "4eca2abdbbc1998c3a286e2e83a2256be5263ccb801aa93b00c64fea891efd3a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/ibm-plex-mono-regular.woff2",
+          "byte": 10052,
+          "sha256": "c36f509c0a8f9f85f29cb44bc8701d8a9e0b14c499e77a884f789ead7093a7ac"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/neo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/neo.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Hero illustrato e tre schede con bordi/ombre native presenti; testi e prezzi leggibili."
+        ]
+      }
+    },
+    {
+      "id": "adattabile",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-adattabile-home-desktop.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-adattabile-desktop-1190x1680-dsf2.png",
+      "sha256": "41987ca934e0d71dd3b5b0cbf27759d53419402e75a251bd08fd0fdfc23c0d9c",
+      "byte": 1155073,
+      "data": "2026-10-21T14:03:55.384Z",
+      "query_stile": "stile=adattabile",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/roboto-flex.woff2",
+          "byte": 195712,
+          "sha256": "b80f7198cce0a739fd1a6b39430f9da48ae29d4d4c32d5097ac1280b401a37f8"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Desktop: riferimento e lettura personalizzata completi, preset e tutti e tre i range visibili; hero presente. Le schede prodotto iniziano al bordo inferiore."
+        ]
+      }
+    },
+    {
+      "id": "spaziale",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-interfaccia-spaziale-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-spaziale-desktop-1190x1680-dsf2.png",
+      "sha256": "b9b6da1d097878745e9ddd93956659a2a5759e4fb1297b1acfa0e213ab954e07",
+      "byte": 6537710,
+      "data": "2026-10-21T14:03:56.848Z",
+      "query_stile": "stile=spaziale",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/redesign/ar-interactive/street-background-v1.webp",
+          "complete": true,
+          "w": 1586,
+          "h": 992
+        },
+        {
+          "src": "assets/redesign/holographic/coffee.webp",
+          "complete": true,
+          "w": 1100,
+          "h": 1100
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Simulazione AR pronta: pannello menu, prodotto, selettore categoria e controlli di posizione/scala visibili; nessuna attivazione di camera o WebXR."
+        ]
+      }
+    },
+    {
+      "id": "generativa",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-interfaccia-generativa-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-generativa-desktop-1190x1680-dsf2.png",
+      "sha256": "92e7358b1de3e9bc08057fff9496050d3ffd806ff1f348ba9c5c445f34382114",
+      "byte": 1380530,
+      "data": "2026-10-21T14:03:57.184Z",
+      "query_stile": "stile=generativa",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/material.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Conversazione completata: tre richieste/risposte, tre prodotti e inizio dei contatti visibili; stato «La pagina è pronta». Le ore proseguono sotto il bordo viewport."
+        ]
+      }
+    },
+    {
+      "id": "text",
+      "modalita": "desktop",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-primissimo-web-testuale-home.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-text-desktop-1190x1680-dsf2.png",
+      "sha256": "61ce89cff4de340090d8d08e8e3c74dd085ca46a2b1a4363e19cdd6309c33d0c",
+      "byte": 313465,
+      "data": "2026-10-21T14:03:57.390Z",
+      "query_stile": "stile=text",
+      "viewport_css_px": {
+        "width": 1190,
+        "height": 1680
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        2380,
+        3360
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        }
+      ],
+      "immagini_documentate_nel_dom": [],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Home testuale senza immagini: marchio TTC, link, prodotti, contatti, orari e footer visibili. È il sostituto approvato, non una variante Risorse esistente."
+        ]
+      }
+    },
+    {
+      "id": "adattabile",
+      "modalita": "mobile",
+      "percorso": "assets/images/figure/caffe-ttc/caffe-ttc-adattabile-home-mobile.png",
+      "percorso_cattura": "reports/typst-booklet/caffe-ttc-definitive/caffe-ttc-adattabile-mobile-612x864-dsf2.png",
+      "sha256": "aad39e4a2cf1d45d757c496c2263ed85c3f6dbdee104c00dec6be26daff734bf",
+      "byte": 138524,
+      "data": "2026-10-21T14:08:11.597Z",
+      "query_stile": "stile=adattabile",
+      "viewport_css_px": {
+        "width": 612,
+        "height": 864
+      },
+      "device_scale_factor": 2,
+      "dimensioni_px": [
+        1224,
+        1728
+      ],
+      "font_richiesti": [
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-400.woff2",
+          "byte": 23664,
+          "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-700.woff2",
+          "byte": 24356,
+          "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-600.woff2",
+          "byte": 24452,
+          "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/inter-500.woff2",
+          "byte": 24272,
+          "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+        },
+        {
+          "percorso": "esempi/caffe-luce/assets/fonts/roboto-flex.woff2",
+          "byte": 195712,
+          "sha256": "b80f7198cce0a739fd1a6b39430f9da48ae29d4d4c32d5097ac1280b401a37f8"
+        }
+      ],
+      "immagini_documentate_nel_dom": [
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        },
+        {
+          "src": "assets/ttc-v3/adattabile.webp",
+          "complete": true,
+          "w": 1024,
+          "h": 1536
+        }
+      ],
+      "qa_visiva": {
+        "esito": "verificata",
+        "marchio": "Caffè TTC visibile e corretto",
+        "esclusioni": "Nessun tab Design né etichetta/select stile; controlli propri delle demo conservati.",
+        "tagli_orizzontali": false,
+        "osservazioni": [
+          "Viewport 612×864 sotto il breakpoint 720: campione «La tua lettura» completo, preset e primi due range interamente visibili; il terzo controllo inizia al bordo inferiore. Più esplicativo del 408×576."
+        ]
+      }
+    }
+  ],
+  "mappatura_dalle_visuali_precedenti": [
+    {
+      "stile_query": "html",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-primo-web.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-primo-web-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-primo-web.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "web2",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-web-2-0.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-web-2-0-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-web-2-0.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "scheu",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-scheumorfismo.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-scheumorfismo-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-scheumorfismo.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "flat",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-flat-design.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-flat-design-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-flat-design.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "material",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-material-design.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-material-design-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-material-design.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "neumo",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-neumorfismo.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-neumorfismo-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-neumorfismo.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "glass",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-glassmorfismo.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-glassmorfismo-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-glassmorfismo.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "minimal",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-minimalismo.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-minimalismo-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-minimalismo.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "y2k",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-y2k.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-y2k-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-y2k.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "max",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-massimalismo.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-massimalismo-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-massimalismo.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "neo",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-demo-neobrutalismo.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-neobrutalismo-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-neobrutalismo.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "adattabile",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-tipografia-adattabile-desktop-mobile.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-adattabile-home-desktop.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-tipografia-adattabile-desktop-mobile.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC",
+      "nuovo_mobile": "assets/images/figure/caffe-ttc/caffe-ttc-adattabile-home-mobile.png",
+      "nota": "Il vecchio mockup desktop/mobile è sostituito da due screenshot reali separati."
+    },
+    {
+      "stile_query": "spaziale",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-interfaccia-spaziale-menu-volume.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-interfaccia-spaziale-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-interfaccia-spaziale-menu-volume.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC"
+    },
+    {
+      "stile_query": "generativa",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-calcolatore-colazione-esempio-didattico.svg",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-interfaccia-generativa-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-calcolatore-colazione-esempio-didattico.svg",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC",
+      "nota": "La cattura reale presenta la chat dell’app corrente, non il calcolatore fittizio Figma; il testo va coerentemente rivisto dal root."
+    },
+    {
+      "stile_query": "text",
+      "vecchio": "assets/images/figure/storia-del-design/caffe-luce-menu-risorse-immagini-facoltative.png",
+      "nuovo": "assets/images/figure/caffe-ttc/caffe-ttc-primissimo-web-testuale-home.png",
+      "archivio": "assets/archivio/typst/figure/caffe-luce/caffe-luce-menu-risorse-immagini-facoltative.png",
+      "tipo": "sostituzione con screenshot reale del sito didattico Caffè TTC",
+      "nota": "Scelta utente esplicita: esempio testuale Primissimo web; non è la vecchia variante Risorse né un suo screenshot."
+    }
+  ],
+  "archivio_visuali_precedenti": "assets/archivio/typst/figure/caffe-luce/manifest.json"
+}

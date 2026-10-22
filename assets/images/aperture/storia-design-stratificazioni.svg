@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="storia-titolo storia-descrizione">
+  <title id="storia-titolo">Stratificazioni del design</title>
+  <desc id="storia-descrizione">Sei larghe bande stratificate attraversano tutta la pagina, alternando tagli a gradino e continuazioni oltre i bordi.</desc>
+  <!-- Le bande sono elementi di sfondo a tutta pagina; i tagli sono geometria, senza maschere. -->
+  <g data-palette="principale" fill="#FFB86A">
+    <rect data-palette="secondario" fill="#46ECD5" x="-120" y="-100" width="1120" height="280" opacity="0.30"/>
+    <path d="M180 190 H1320 V430 H980 V500 H180 Z" opacity="0.20"/>
+    <path d="M-160 510 H960 V690 H1120 V810 H-160 Z" opacity="0.26"/>
+    <path d="M120 820 H1340 V1050 H820 V1140 H120 Z" opacity="0.22"/>
+    <path d="M-100 1150 H1040 V1300 H1180 V1400 H-100 Z" opacity="0.32"/>
+    <path d="M220 1410 H1320 V1750 H220 V1660 H-80 V1510 H220 Z" opacity="0.24"/>
+  </g>
+</svg>

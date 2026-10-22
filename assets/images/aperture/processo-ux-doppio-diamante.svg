@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="processo-titolo processo-descrizione">
+  <title id="processo-titolo">Esplorazione e convergenza</title>
+  <desc id="processo-descrizione">Due grandi rombi riempiono l’altezza del foglio e continuano oltre i bordi; rombi interni riprendono i passaggi di esplorazione e convergenza.</desc>
+  <!-- Il doppio diamante supera il foglio: titolo e numero restano sovrapposizioni native in Typst. -->
+  <g data-palette="principale" fill="#FFD230">
+    <polygon points="-120,847 240,-100 600,847 240,1794" opacity="0.22"/>
+    <polygon points="600,847 960,-100 1320,847 960,1794" opacity="0.32"/>
+    <polygon points="80,847 240,420 400,847 240,1274" opacity="0.22"/>
+    <polygon points="800,847 960,420 1120,847 960,1274" opacity="0.18"/>
+    <rect data-palette="secondario" fill="#8EC5FF" x="530" y="710" width="140" height="274" opacity="0.55"/>
+  </g>
+</svg>

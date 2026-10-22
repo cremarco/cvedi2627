@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="ricerca-titolo ricerca-descrizione">
+  <title id="ricerca-titolo">Punti di vista sovrapposti</title>
+  <desc id="ricerca-descrizione">Tre campi circolari molto ampi si incontrano sulla pagina e continuano fuori dal foglio; tre cerchi interni distinguono i punti di vista.</desc>
+  <!-- La sovrapposizione è parte dello sfondo; nessun riquadro contiene la composizione. -->
+  <g data-palette="principale" fill="#FFDF20">
+    <circle cx="-80" cy="520" r="900" opacity="0.18"/>
+    <circle cx="1280" cy="520" r="900" opacity="0.22"/>
+    <circle cx="600" cy="1730" r="1060" opacity="0.18"/>
+    <circle cx="160" cy="440" r="160" opacity="0.25"/>
+    <circle data-palette="secondario" fill="#FDA5D5" cx="1040" cy="440" r="160" opacity="0.50"/>
+    <circle cx="600" cy="1430" r="200" opacity="0.25"/>
+  </g>
+</svg>

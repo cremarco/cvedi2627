@@ -1,0 +1,57 @@
+# Numeri di articolo nel campo nativo documentato serial-number.
+# In Typst 0.15.1 il campo BibLaTeX eid non viene trasferito al riferimento APA.
+# Autori, anni, titolo e identificatori restano dati; nessuna citazione è manuale.
+t06-wallace2022:
+  type: article
+  title: "Towards individuated reading experiences: Different fonts increase reading speed for different individuals"
+  author: ["Wallace, Shaun", "Bylinskii, Zoya", "Dobres, Jonathan", "Kerr, Bernard", "Berlow, Sam", "Treitman, Rick", "Kumawat, Nirmal", "Arpin, Kathleen", "Miller, Dave B.", "Huang, Jeff", "Sawyer, Ben D."]
+  date: 2022
+  serial-number:
+    serial: "38"
+    doi: "10.1145/3502222"
+  parent:
+    type: periodical
+    title: ACM Transactions on Computer-Human Interaction
+    volume: 29
+    issue: 4
+
+t06-rayner2009:
+  type: article
+  title: "Eye movements in reading: Models and data"
+  author: "Rayner, Keith"
+  date: 2009
+  serial-number:
+    serial: "2"
+    doi: "10.16910/jemr.2.5.2"
+  parent:
+    type: periodical
+    title: Journal of Eye Movement Research
+    volume: 2
+    issue: 5
+
+t06-medved2023:
+  type: article
+  title: "Influence of letter shape on readers’ emotional experience, reading fluency, and text comprehension and memorisation"
+  author: ["Medved, Tanja", "Podlesek, Anja", "Možina, Klementina"]
+  date: 2023
+  serial-number:
+    serial: "1107839"
+    doi: "10.3389/fpsyg.2023.1107839"
+  parent:
+    type: periodical
+    title: Frontiers in Psychology
+    volume: 14
+
+t06-velasco2015:
+  type: article
+  title: The taste of typeface
+  author: ["Velasco, Carlos", "Woods, Andy T.", "Hyndman, Sarah", "Spence, Charles"]
+  date: 2015
+  serial-number:
+    serial: "2041669515593040"
+    doi: "10.1177/2041669515593040"
+  parent:
+    type: periodical
+    title: i-Perception
+    volume: 6
+    issue: 4

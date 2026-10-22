@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="colore-titolo colore-descrizione">
+  <title id="colore-titolo">Colore: uno spettro di relazioni</title>
+  <desc id="colore-descrizione">Un grande disco a diciassette settori cromatici esce dal bordo superiore. Il campo azzurro resta continuo sotto il titolo e due grandi campiture completano la pagina.</desc>
+  <!-- Il campo sky 300 mantiene l’identità; lo spettro Tailwind 400 resta fisso. -->
+  <rect data-palette="principale" x="0" y="0" width="1200" height="1694" fill="#74D4FF"/>
+  <g data-palette="spettro">
+    <path data-palette="spettro" fill="#FF6467" d="M 600,380 L 600.00,-270.00 A 650,650 0 0 1 834.81,-226.11 Z"/>
+    <path data-palette="spettro" fill="#FF8904" d="M 600,380 L 834.81,-226.11 A 650,650 0 0 1 1037.90,-100.36 Z"/>
+    <path data-palette="spettro" fill="#FFB900" d="M 600,380 L 1037.90,-100.36 A 650,650 0 0 1 1181.86,90.27 Z"/>
+    <path data-palette="spettro" fill="#FDC700" d="M 600,380 L 1181.86,90.27 A 650,650 0 0 1 1247.23,320.03 Z"/>
+    <path data-palette="spettro" fill="#9AE600" d="M 600,380 L 1247.23,320.03 A 650,650 0 0 1 1225.19,557.88 Z"/>
+    <path data-palette="spettro" fill="#05DF72" d="M 600,380 L 1225.19,557.88 A 650,650 0 0 1 1118.71,771.71 Z"/>
+    <path data-palette="spettro" fill="#00D492" d="M 600,380 L 1118.71,771.71 A 650,650 0 0 1 942.18,932.64 Z"/>
+    <path data-palette="spettro" fill="#00D5BE" d="M 600,380 L 942.18,932.64 A 650,650 0 0 1 719.44,1018.93 Z"/>
+    <path data-palette="spettro" fill="#00D3F2" d="M 600,380 L 719.44,1018.93 A 650,650 0 0 1 480.56,1018.93 Z"/>
+    <path data-palette="spettro" fill="#00BCFF" d="M 600,380 L 480.56,1018.93 A 650,650 0 0 1 257.82,932.64 Z"/>
+    <path data-palette="spettro" fill="#51A2FF" d="M 600,380 L 257.82,932.64 A 650,650 0 0 1 81.29,771.71 Z"/>
+    <path data-palette="spettro" fill="#7C86FF" d="M 600,380 L 81.29,771.71 A 650,650 0 0 1 -25.19,557.88 Z"/>
+    <path data-palette="spettro" fill="#A684FF" d="M 600,380 L -25.19,557.88 A 650,650 0 0 1 -47.23,320.03 Z"/>
+    <path data-palette="spettro" fill="#C27AFF" d="M 600,380 L -47.23,320.03 A 650,650 0 0 1 18.14,90.27 Z"/>
+    <path data-palette="spettro" fill="#ED6AFF" d="M 600,380 L 18.14,90.27 A 650,650 0 0 1 162.10,-100.36 Z"/>
+    <path data-palette="spettro" fill="#FB64B6" d="M 600,380 L 162.10,-100.36 A 650,650 0 0 1 365.19,-226.11 Z"/>
+    <path data-palette="spettro" fill="#FF637E" d="M 600,380 L 365.19,-226.11 A 650,650 0 0 1 600.00,-270.00 Z"/>
+  </g>
+  <!-- Il centro aperto e la fascia sotto il disco conservano spazio per i testi. -->
+  <circle data-palette="principale" cx="600" cy="380" r="250" fill="#74D4FF"/>
+  <rect data-palette="spettro" x="-40" y="1490" width="820" height="244" fill="#FFB900"/>
+  <rect data-palette="spettro" x="780" y="1390" width="460" height="344" fill="#FB64B6"/>
+</svg>

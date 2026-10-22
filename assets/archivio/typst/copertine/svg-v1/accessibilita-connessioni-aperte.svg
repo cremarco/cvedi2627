@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="accessibilita-titolo accessibilita-descrizione">
+  <title id="accessibilita-titolo">Accessi diversi a uno spazio comune</title>
+  <desc id="accessibilita-descrizione">Geometrie aperte di grande scala attraversano il foglio: un angolo, una curva e una V accolgono accessi diversi a uno spazio comune.</desc>
+  <!-- Le geometrie continuano oltre i bordi e restano aperte verso lo spazio comune. -->
+  <g fill="none" stroke="#BBF451" stroke-linecap="butt" stroke-linejoin="miter">
+    <path d="M480 -40 H80 V1720 H480" stroke-width="200" opacity="0.24"/>
+    <path d="M800 -80 C1580 -80 1580 1770 800 1770" stroke-width="190" opacity="0.20"/>
+    <path d="M-100 1180 L600 1830 L1300 1180" stroke-width="160" opacity="0.22"/>
+  </g>
+  <g fill="#BBF451">
+    <circle cx="600" cy="900" r="260" opacity="0.18"/>
+    <rect x="-80" y="800" width="420" height="160" opacity="0.32"/>
+    <rect x="860" y="800" width="420" height="160" opacity="0.32"/>
+  </g>
+</svg>

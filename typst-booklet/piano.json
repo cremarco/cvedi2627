@@ -1,0 +1,70 @@
+{
+  "versione": 1,
+  "ambito": "Soltanto le sei lezioni indicate dall’utente nello screenshot del 21 ottobre 2026. Numerazione editoriale da 01; i numeri03–08 delle slide restano identificatori delle fonti.",
+  "capitoli": [
+    {
+      "numero": 1,
+      "codice": "01",
+      "titolo": "Storia del design",
+      "lezione": "03",
+      "apertura_originale": 2,
+      "file": "capitoli/01-storia-del-design.typ",
+      "fonti": "bibliografia/01-storia-del-design.yml",
+      "stato": "completo"
+    },
+    {
+      "numero": 2,
+      "codice": "02",
+      "titolo": "Ricerca, contesto e inclusione",
+      "lezione": "04",
+      "apertura_originale": 4,
+      "file": "capitoli/02-ricerca.typ",
+      "fonti": "bibliografia/02-ricerca.yml",
+      "stato": "completo"
+    },
+    {
+      "numero": 3,
+      "codice": "03",
+      "titolo": "Accessibilità e design inclusivo",
+      "lezione": "05",
+      "apertura_originale": 5,
+      "file": "capitoli/03-accessibilita.typ",
+      "fonti": "bibliografia/03-accessibilita.yml",
+      "stato": "completo"
+    },
+    {
+      "numero": 4,
+      "codice": "04",
+      "titolo": "Gestalt",
+      "lezione": "06",
+      "apertura_originale": 7,
+      "file": "capitoli/04-gestalt.typ",
+      "fonti": ["bibliografia/04-gestalt.bib", "bibliografia/04-gestalt-articoli.yml"],
+      "stato": "completo"
+    },
+    {
+      "numero": 5,
+      "codice": "05",
+      "titolo": "Colore e significato",
+      "lezione": "07",
+      "apertura_originale": 10,
+      "file": "capitoli/05-colore.typ",
+      "fonti": "bibliografia/05-colore.yml",
+      "stato": "completo"
+    },
+    {
+      "numero": 6,
+      "codice": "06",
+      "titolo": "Tipografia",
+      "lezione": "08",
+      "apertura_originale": 11,
+      "file": "capitoli/06-tipografia.typ",
+      "fonti": [
+        "bibliografia/06-tipografia.bib",
+        "bibliografia/06-tipografia-articoli.yml",
+        "bibliografia/06-tipografia-opere.yml"
+      ],
+      "stato": "in-revisione"
+    }
+  ]
+}

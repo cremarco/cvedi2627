@@ -1,0 +1,149 @@
+# Documenti citati nel capitolo Accessibilità. I link operativi puntuali restano nelle note.
+# Le date non attestate restano assenti: nessun anno dedotto dal copyright di un sito.
+# WCAG 2.2 e COGA conservano versioni documentate e natura differente.
+a03-wcag:
+  type: Report
+  author:
+    name: World Wide Web Consortium
+  title: Web content accessibility guidelines ({WCAG}) 2.2
+  date: 2024-12-12
+  genre: W3C Recommendation
+  language: en
+  url: https://www.w3.org/TR/2024/REC-WCAG22-20241212/
+a03-coga:
+  type: Report
+  author:
+    name: World Wide Web Consortium
+  title: Making content usable for people with cognitive and learning disabilities
+  date: 2021-04-29
+  genre: W3C Working Group Note
+  language: en
+  url: https://www.w3.org/TR/2021/NOTE-coga-usable-20210429/
+a03-ceud:
+  type: Web
+  author:
+    name: Centre for Excellence in Universal Design
+  title: The 7 principles
+  language: en
+  url:
+    value: https://universaldesign.ie/about-universal-design/the-7-principles
+    date: 2026-10-21
+a03-microsoft:
+  type: Web
+  author:
+    name: Microsoft Design
+  title: Inclusive 101
+  language: en
+  url:
+    value: https://inclusive.microsoft.design/articles/inclusive-101-guidebook
+    date: 2026-10-21
+a03-webaim:
+  type: Web
+  author:
+    name: WebAIM
+  title: Introduction to web accessibility
+  language: en
+  url:
+    value: https://webaim.org/intro/
+    date: 2026-10-21
+a03-intopia:
+  type: Artwork
+  author:
+    - name: Intopia
+    - name: Sketch Group
+  title: "{WCAG} 2.2 map: Italian"
+  translator: Scano, Roberto
+  language: it
+  url:
+    value: https://intopia.digital/wp-content/uploads/2024/05/Italian-WCAG-2.2-Map-by-Intopia.pdf
+    date: 2026-10-21
+a03-wai-principles:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: Accessibility principles
+  language: en
+  url:
+    value: https://www.w3.org/WAI/fundamentals/accessibility-principles/
+    date: 2026-10-21
+a03-wai-barriers:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: Diverse abilities and barriers
+  language: en
+  url:
+    value: https://www.w3.org/WAI/people-use-web/abilities-barriers/
+    date: 2026-10-21
+a03-wai-easy:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: "Easy checks: A first review of web accessibility"
+  language: en
+  url:
+    value: https://www.w3.org/WAI/test-evaluate/preliminary/
+    date: 2026-10-21
+a03-wai-evaluation:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: Evaluating web accessibility overview
+  language: en
+  url:
+    value: https://www.w3.org/WAI/test-evaluate/
+    date: 2026-10-21
+a03-wai-images:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: Images tutorial
+  language: en
+  url:
+    value: https://www.w3.org/WAI/tutorials/images/
+    date: 2026-10-21
+a03-wai-involving:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: Involving users in evaluating web accessibility
+  language: en
+  url:
+    value: https://www.w3.org/WAI/test-evaluate/involving-users/
+    date: 2026-10-21
+a03-names:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: Personal names around the world
+  language: en
+  url:
+    value: https://www.w3.org/International/questions/qa-personal-names
+    date: 2026-10-21
+a03-wai-stories:
+  type: Web
+  author:
+    name: World Wide Web Consortium
+  title: Stories of web users
+  language: en
+  url:
+    value: https://www.w3.org/WAI/people-use-web/user-stories/
+    date: 2026-10-21
+a03-tlou:
+  type: Web
+  author:
+    name: PlayStation
+  title: "{The Last of Us Part II}: Accessibility features"
+  language: en
+  url:
+    value: https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/
+    date: 2026-10-21
+a03-adobe:
+  type: Web
+  author:
+    name: Adobe
+  title: Color accessibility tools
+  language: en
+  url:
+    value: https://color.adobe.com/create/color-accessibility
+    date: 2026-10-21

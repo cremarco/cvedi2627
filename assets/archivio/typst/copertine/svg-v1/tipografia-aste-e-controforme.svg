@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Tipografia: aste e controforme</title>
+  <desc id="descrizione">Aste, traversa e controforma diventano una composizione tipografica astratta a tutta pagina.</desc>
+  <!-- Campiture piatte nel colore del capitolo; i tagli sul bordo sono intenzionali. -->
+  <g fill="#8EC5FF">
+    <rect x="-80" y="0" width="360" height="1694" opacity="0.38"/>
+    <path d="M 380,-80 H 710 A 850,850 0 0 1 710,1774 H 380 Z M 650,220 V 1474 H 710 A 580,580 0 0 0 710,220 Z" fill-rule="evenodd" opacity="0.25"/>
+    <rect x="0" y="0" width="1200" height="230" opacity="0.15"/>
+    <rect x="0" y="1464" width="1200" height="230" opacity="0.15"/>
+  </g>
+</svg>

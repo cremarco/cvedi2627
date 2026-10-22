@@ -1,0 +1,1748 @@
+{
+  "schema": "cvedi-caffe-luce-archivio/v1",
+  "data": "2026-10-21T14:15:40.537418+00:00",
+  "descrizione": "Quindici visuali precedenti Caffè Luce, quattordici PNG e un SVG, conservate integralmente con la registrazione attiva precedente completa.",
+  "motivo": "Sostituzione esplicita con sedici screenshot reali Caffè TTC; non costituisce una revisione del file Figma o delle fonti storiche.",
+  "nuova_raccolta": "assets/images/figure/caffe-ttc/manifest.json",
+  "nessuna_ricompressione": true,
+  "riferimenti_attivi_pre_spostamento": {
+    "comando": "rg nei sorgenti Typst, Slidev, componenti, dati, script e public, esclusi build/mirror/JSON",
+    "occorrenze": 0,
+    "data": "2026-10-21T14:15:40.537418+00:00"
+  },
+  "originali_e_documentazione_storica_verificati_immutati": [
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png",
+      "byte": 1604080,
+      "sha256": "15230ebad06c61c0e15bbccd71978261f38ff29e8a6f0d547b68686b9e0d102a"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+      "byte": 47468,
+      "sha256": "4853053fe76dea1facb7d9089ee6c0ad9cd3134fa7d9bf7fc310518c2bcbd88b"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+      "byte": 1628639,
+      "sha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png",
+      "byte": 2657098,
+      "sha256": "89b76c34c0e24404d9527efafff73ced31899f98337fa726feaa3e69074d950c"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+      "byte": 1251028,
+      "sha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+      "byte": 1537665,
+      "sha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+      "byte": 1473460,
+      "sha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+      "byte": 1698115,
+      "sha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+      "byte": 1456632,
+      "sha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+      "byte": 2047624,
+      "sha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+      "byte": 2450794,
+      "sha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+      "byte": 1430898,
+      "sha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/direzioni-future/demo-adattabile-v1.png",
+      "byte": 1477084,
+      "sha256": "374daa7d93396943692e89e723616d74f8528a0327b3ac3592483289800b3aa8"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+      "byte": 27596,
+      "sha256": "acfe05319c4270c7689bacafbcbc40614bd28b292c21016abbd3add866d02286"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/direzioni-future/demo-spaziale-v1.png",
+      "byte": 1733359,
+      "sha256": "ea65f0e70819b0fa4ffe5c1a45f65384aded786c137120618311ab5a2e698f3d"
+    },
+    {
+      "percorso": "reports/typst-booklet/import-source/storia-svg-esportazione.json",
+      "byte": 1510,
+      "sha256": "aa8778373677c0332f62fdbd0030b6ca132426c08d6ce91dc0307a93ee74212f"
+    },
+    {
+      "percorso": "assets/booklet/capitolo-2/direzioni-future/demo-risorse-v1.png",
+      "byte": 1176643,
+      "sha256": "608dd774d172f81e66e0004cc27f4e5f25ab06cebaddb2ba625948cd436d274f"
+    }
+  ],
+  "immagini": [
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-primo-web.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-primo-web.png",
+      "sha256": "15230ebad06c61c0e15bbccd71978261f38ff29e8a6f0d547b68686b9e0d102a",
+      "byte": 1604080,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-primo-web-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-primo-web",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-primo-web.png",
+        "sha256": "15230ebad06c61c0e15bbccd71978261f38ff29e8a6f0d547b68686b9e0d102a",
+        "byte": 1604080,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-html-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/0",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "bdfd0276042a1ac8ad825690bd501591df2323a8",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "bdfd0276042a1ac8ad825690bd501591df2323a8",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2319",
+                "frame_nome": "C02 · 039 · SX — Il primo web",
+                "nodo": "I3238:16814;3165:593;3238:16829",
+                "nome_nodo": "Immagine · demo-html",
+                "parent": {
+                  "id": "I3238:16814;3165:593;3238:16827",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · html"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 221,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "bdfd0276042a1ac8ad825690bd501591df2323a8"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/0",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · primo web",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · primo web",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-web-2-0.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-web-2-0.png",
+      "sha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1",
+      "byte": 1628639,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-web-2-0-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-web-2-0",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-web-2-0.png",
+        "sha256": "56774dcd950eedc420e8797a533f1cc34ea2aa97c3494eb6973b58a7f27a4bd1",
+        "byte": 1628639,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-web2-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/1",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "ab73b236546c957278a59b5b7840ce3851118a98",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "ab73b236546c957278a59b5b7840ce3851118a98",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2652",
+                "frame_nome": "C02 · 041 · SX — Web 2.0",
+                "nodo": "I3238:16959;3165:593;3238:16974",
+                "nome_nodo": "Immagine · demo-web2",
+                "parent": {
+                  "id": "I3238:16959;3165:593;3238:16972",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · web2"
+                },
+                "bbox": {
+                  "x": 86.1666259765625,
+                  "y": 312,
+                  "w": 310.6666564941406,
+                  "h": 233
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "ab73b236546c957278a59b5b7840ce3851118a98"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/1",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · web 2 0",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · web 2 0",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-scheumorfismo.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-scheumorfismo.png",
+      "sha256": "89b76c34c0e24404d9527efafff73ced31899f98337fa726feaa3e69074d950c",
+      "byte": 2657098,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-scheumorfismo-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-scheumorfismo",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-scheumorfismo.png",
+        "sha256": "89b76c34c0e24404d9527efafff73ced31899f98337fa726feaa3e69074d950c",
+        "byte": 2657098,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-scheu-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/2",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "e73869c8e6998f07d49a373f3803e71a2ad95a84",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "e73869c8e6998f07d49a373f3803e71a2ad95a84",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2345",
+                "frame_nome": "C02 · 043 · SX — Scheumorfismo",
+                "nodo": "I3238:17104;3165:593;3238:17119",
+                "nome_nodo": "Immagine · demo-scheu",
+                "parent": {
+                  "id": "I3238:17104;3165:593;3238:17117",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · scheu"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 251,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "e73869c8e6998f07d49a373f3803e71a2ad95a84"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/2",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · scheumorfismo",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · scheumorfismo",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-flat-design.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-flat-design.png",
+      "sha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755",
+      "byte": 1251028,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-flat-design-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-flat-design",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-flat-design.png",
+        "sha256": "53ed41b1f605cb89f5f5a20dcce72b9becc25e30536ef36cef394db3a2ae9755",
+        "byte": 1251028,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-flat-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/3",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "0d9b074eea7a77a70b6baf221ba966df8eba1e36",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "0d9b074eea7a77a70b6baf221ba966df8eba1e36",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2675",
+                "frame_nome": "C02 · 045 · SX — Flat design",
+                "nodo": "I3238:17249;3165:593;3238:17264",
+                "nome_nodo": "Immagine · demo-flat",
+                "parent": {
+                  "id": "I3238:17249;3165:593;3238:17262",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · flat"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 282,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "0d9b074eea7a77a70b6baf221ba966df8eba1e36"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/3",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · flat design",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · flat design",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-material-design.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-material-design.png",
+      "sha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362",
+      "byte": 1537665,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-material-design-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-material-design",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-material-design.png",
+        "sha256": "1c9c55aba0aa023cebc760534f142cf2f6a26c14b72f49dca6f3b1068b19a362",
+        "byte": 1537665,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-material-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/4",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "7062f1c2424885d98bc4a938dab2079e678b6593",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "7062f1c2424885d98bc4a938dab2079e678b6593",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2381",
+                "frame_nome": "C02 · 047 · SX — Material Design",
+                "nodo": "I3238:17386;3165:593;3238:17401",
+                "nome_nodo": "Immagine · demo-material",
+                "parent": {
+                  "id": "I3238:17386;3165:593;3238:17399",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · material"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 221,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "7062f1c2424885d98bc4a938dab2079e678b6593"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/4",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · material design",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · material design",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-neumorfismo.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-neumorfismo.png",
+      "sha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f",
+      "byte": 1473460,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-neumorfismo-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-neumorfismo",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-neumorfismo.png",
+        "sha256": "61fa0135bc3b5015e49eab01714d132c50360c219365e60ab0d5470953a0087f",
+        "byte": 1473460,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-neumo-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/5",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "33c7ae2b5f56250725bdb2036453386a010e9851",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "33c7ae2b5f56250725bdb2036453386a010e9851",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2363",
+                "frame_nome": "C02 · 049 · SX — Neumorfismo",
+                "nodo": "I3239:1662;3165:593;3239:1677",
+                "nome_nodo": "Immagine · demo-neumo",
+                "parent": {
+                  "id": "I3239:1662;3165:593;3239:1675",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · neumo"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 236,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "33c7ae2b5f56250725bdb2036453386a010e9851"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/5",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · neumorfismo",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · neumorfismo",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-glassmorfismo.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-glassmorfismo.png",
+      "sha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f",
+      "byte": 1698115,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-glassmorfismo-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-glassmorfismo",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-glassmorfismo.png",
+        "sha256": "7843f1b0c7d869d999fd1da10e159e1c00becc48a949b0f9afd2c5b748697d4f",
+        "byte": 1698115,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-glass-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/6",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "2deec1a974b019fb995a8e174ea1dc6e7349a273",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "2deec1a974b019fb995a8e174ea1dc6e7349a273",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2688",
+                "frame_nome": "C02 · 051 · SX — Glassmorfismo",
+                "nodo": "I3239:1799;3165:593;3239:1814",
+                "nome_nodo": "Immagine · demo-glass",
+                "parent": {
+                  "id": "I3239:1799;3165:593;3239:1812",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · glass"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 251,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "2deec1a974b019fb995a8e174ea1dc6e7349a273"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/6",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · glassmorfismo",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · glassmorfismo",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-minimalismo.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-minimalismo.png",
+      "sha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12",
+      "byte": 1456632,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-minimalismo-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-minimalismo",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-minimalismo.png",
+        "sha256": "341a236192829f702cbc34841159c5f220556d4fa5b4f355fdf8a2b0f84e5c12",
+        "byte": 1456632,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-minimal-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/7",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "d0e6595596f3c3cca46662654559d07a3aaf58e6",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "d0e6595596f3c3cca46662654559d07a3aaf58e6",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2701",
+                "frame_nome": "C02 · 053 · SX — Minimalismo",
+                "nodo": "I3239:16408;3165:593;3239:16423",
+                "nome_nodo": "Immagine · demo-minimal",
+                "parent": {
+                  "id": "I3239:16408;3165:593;3239:16421",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · minimal"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 236,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "d0e6595596f3c3cca46662654559d07a3aaf58e6"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/7",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · minimalismo",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · minimalismo",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-y2k.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-y2k.png",
+      "sha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d",
+      "byte": 2047624,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-y2k-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-y2k",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-y2k.png",
+        "sha256": "693fdf33199ee471c1c1f562fbadc3332d211776a38bb6946d67879cf7625a7d",
+        "byte": 2047624,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-y2k-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/8",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "940e7cd2a47aa87a292412442dd04c272ba40864",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "940e7cd2a47aa87a292412442dd04c272ba40864",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2399",
+                "frame_nome": "C02 · 055 · SX — Y2K",
+                "nodo": "I3239:16545;3165:593;3239:16560",
+                "nome_nodo": "Immagine · demo-y2k",
+                "parent": {
+                  "id": "I3239:16545;3165:593;3239:16558",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · y2k"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 251,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "940e7cd2a47aa87a292412442dd04c272ba40864"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/8",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · y2k",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · y2k",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-massimalismo.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-massimalismo.png",
+      "sha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3",
+      "byte": 2450794,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-massimalismo-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-massimalismo",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-massimalismo.png",
+        "sha256": "e2c792ec72361646d947c8a5265a8d99ee013af44c1b75d145763be7e9c66cd3",
+        "byte": 2450794,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-max-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/9",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "5327a85fc2255814f340bf0e1b1f72cb3aac0d1f",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "5327a85fc2255814f340bf0e1b1f72cb3aac0d1f",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2715",
+                "frame_nome": "C02 · 057 · SX — Massimalismo",
+                "nodo": "I3239:16682;3165:593;3239:16697",
+                "nome_nodo": "Immagine · demo-max",
+                "parent": {
+                  "id": "I3239:16682;3165:593;3239:16695",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · max"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 258.875,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "5327a85fc2255814f340bf0e1b1f72cb3aac0d1f"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/9",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · massimalismo",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · massimalismo",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-demo-neobrutalismo.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-demo-neobrutalismo.png",
+      "sha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f",
+      "byte": 1430898,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-neobrutalismo-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-demo-neobrutalismo",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-demo-neobrutalismo.png",
+        "sha256": "9967ee579c73cbbfb1288ed9aa08d1d99bf8ab582e8d441b7ef6ebb89659b35f",
+        "byte": 1430898,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1448,
+          1086
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "demo_generata",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/atlante-stili/demo/demo-neo-v2.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+          "voce_documentazione": "/images/10",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "e19b74ad8f1194f1f9dbad3be46364c09003b1a0",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "e19b74ad8f1194f1f9dbad3be46364c09003b1a0",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "198:2418",
+                "frame_nome": "C02 · 059 · SX — Brutalismo e neobrutalismo",
+                "nodo": "I3239:16819;3165:593;3239:16834",
+                "nome_nodo": "Immagine · demo-neo",
+                "parent": {
+                  "id": "I3239:16819;3165:593;3239:16832",
+                  "n": "Visuale originale · Figura · Caffè Luce · demo generata · neo"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 258.875,
+                  "w": 350,
+                  "h": 262.5
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "e19b74ad8f1194f1f9dbad3be46364c09003b1a0"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "Built-in Imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/atlante-stili/demo/manifest-v2.json",
+            "voce_prompt": "/images/10",
+            "versione": 2
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · neobrutalismo",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · neobrutalismo",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-tipografia-adattabile-desktop-mobile.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-tipografia-adattabile-desktop-mobile.png",
+      "sha256": "374daa7d93396943692e89e723616d74f8528a0327b3ac3592483289800b3aa8",
+      "byte": 1477084,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-adattabile-home-desktop.png",
+        "assets/images/figure/caffe-ttc/caffe-ttc-adattabile-home-mobile.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-tipografia-adattabile-desktop-mobile",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-tipografia-adattabile-desktop-mobile.png",
+        "sha256": "374daa7d93396943692e89e723616d74f8528a0327b3ac3592483289800b3aa8",
+        "byte": 1477084,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1672,
+          941
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "scenario_generato",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/direzioni-future/demo-adattabile-v1.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/direzioni-future/demo-adattabile-v1.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+          "voce_documentazione": "/images/0",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "1958ce37a44daf3d543e3784b94866dca2797376",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "1958ce37a44daf3d543e3784b94866dca2797376",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "2258:295",
+                "frame_nome": "C02 · 062 · DX — Tipografia adattabile ed espressiva",
+                "nodo": "I3239:16957;3165:593;3239:16971",
+                "nome_nodo": "Immagine · Caffè Luce · adattabile",
+                "parent": {
+                  "id": "I3239:16957;3165:593;3239:16970",
+                  "n": "Visuale originale · Figura · Ipotesi progettuale Caffè Luce · adattabile"
+                },
+                "bbox": {
+                  "x": 80.5,
+                  "y": 224,
+                  "w": 350,
+                  "h": 196.9796600341797
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "1958ce37a44daf3d543e3784b94866dca2797376"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "built-in image_gen.imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+            "voce_prompt": "/images/0",
+            "versione": 1
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · adattabile",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · adattabile",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-interfaccia-spaziale-menu-volume.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-interfaccia-spaziale-menu-volume.png",
+      "sha256": "ea65f0e70819b0fa4ffe5c1a45f65384aded786c137120618311ab5a2e698f3d",
+      "byte": 1733359,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-interfaccia-spaziale-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-interfaccia-spaziale-menu-volume",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-interfaccia-spaziale-menu-volume.png",
+        "sha256": "ea65f0e70819b0fa4ffe5c1a45f65384aded786c137120618311ab5a2e698f3d",
+        "byte": 1733359,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1672,
+          941
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "scenario_generato",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/direzioni-future/demo-spaziale-v1.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/direzioni-future/demo-spaziale-v1.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+          "voce_documentazione": "/images/1",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "433a7ac412d17901d9676299227b1118765038ce",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "433a7ac412d17901d9676299227b1118765038ce",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "2258:317",
+                "frame_nome": "C02 · 063 · SX — Profondità e materiali dinamici",
+                "nodo": "I3239:17017;3165:593;3239:17031",
+                "nome_nodo": "Immagine · Caffè Luce · spaziale",
+                "parent": {
+                  "id": "I3239:17017;3165:593;3239:17030",
+                  "n": "Visuale originale · Figura · Ipotesi progettuale Caffè Luce · spaziale"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 224,
+                  "w": 350,
+                  "h": 196.9796600341797
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "433a7ac412d17901d9676299227b1118765038ce"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "built-in image_gen.imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+            "voce_prompt": "/images/1",
+            "versione": 1
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · spaziale",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · spaziale",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-calcolatore-colazione-esempio-didattico.svg",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-calcolatore-colazione-esempio-didattico.svg",
+      "sha256": "f835dd25f59cd1e6c2e55898e17f18f009d78868228a74d934df290d7ba30e3d",
+      "byte": 225309,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-interfaccia-generativa-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-calcolatore-colazione-esempio-didattico",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-calcolatore-colazione-esempio-didattico.svg",
+        "sha256": "f835dd25f59cd1e6c2e55898e17f18f009d78868228a74d934df290d7ba30e3d",
+        "byte": 225309,
+        "formato": "SVG",
+        "dimensioni_px": [
+          350,
+          232
+        ],
+        "trasparenza": true,
+        "tipo_contenuto": "esempio_interfaccia_nativo",
+        "provenienza": {
+          "percorso_originale": "assets/images/figure/storia-del-design/caffe-luce-calcolatore-colazione-esempio-didattico.svg",
+          "documentazione": "reports/typst-booklet/import-source/storia-svg-esportazione.json",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "frame_id": "2258:352",
+            "nodo": "I3239:17202;3165:593;3239:17216",
+            "data_lettura": "2026-10-21",
+            "dimensioni_nodo": [
+              350,
+              231.1999969482422
+            ]
+          },
+          "esportazione": {
+            "options": {
+              "format": "SVG_STRING",
+              "svgOutlineText": true,
+              "svgIdAttribute": false
+            },
+            "byte": 225309,
+            "sha1": "d78e4f696a549deb352bf07bcedb810206112938",
+            "fnv1a32": 1419858940,
+            "viewBox": "0 0 350 232",
+            "dimensioni_canvas_svg": [
+              350,
+              232
+            ],
+            "dimensioni_nodo_figma": [
+              350,
+              231.1999969482422
+            ],
+            "nota_dimensioni": "L’esportatore include gli ingombri delle forme e arrotonda il canvas SVG: le dimensioni del nodo Figma restano registrate separatamente.",
+            "verifica_struttura": {
+              "raster": 0,
+              "testi_svg": 0,
+              "link_esterni": 0
+            }
+          },
+          "nota_importazione": "Sola visuale corrente esportata in sola lettura; colori originali e testi interni convertiti in tracciati dall’esportatore. Nessuna ricostruzione, cornice editoriale, testata, folio, watermark o caption rasterizzata aggiunta.",
+          "elementi_intrinseci": "Bordo, angoli e controlli appartengono alla UI illustrata nel calcolatore e sono conservati nell’esportazione; non costituiscono una cornice aggiunta alla figura."
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · calcolatore della colazione, esempio con prezzi fittizi",
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · dalla richiesta al calcolatore: cambiando le quantità, cambia il totale. Esempio didattico · prezzi fittizi."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "nota": "Esempio nativo di un caso fittizio, con prezzi fittizi; non è uno screenshot storico di un servizio reale. Nessuna licenza di riuso specifica dichiarata."
+        }
+      }
+    },
+    {
+      "percorso_precedente": "assets/images/figure/storia-del-design/caffe-luce-menu-risorse-immagini-facoltative.png",
+      "percorso_archiviato": "assets/archivio/typst/figure/caffe-luce/caffe-luce-menu-risorse-immagini-facoltative.png",
+      "sha256": "608dd774d172f81e66e0004cc27f4e5f25ab06cebaddb2ba625948cd436d274f",
+      "byte": 1176643,
+      "sostituzioni_attive": [
+        "assets/images/figure/caffe-ttc/caffe-ttc-primissimo-web-testuale-home.png"
+      ],
+      "operazione": "spostamento identico byte per byte; originali e fonti storiche conservati",
+      "registrazione_attiva_precedente": {
+        "id": "caffe-luce-menu-risorse-immagini-facoltative",
+        "percorso": "assets/images/figure/storia-del-design/caffe-luce-menu-risorse-immagini-facoltative.png",
+        "sha256": "608dd774d172f81e66e0004cc27f4e5f25ab06cebaddb2ba625948cd436d274f",
+        "byte": 1176643,
+        "formato": "PNG",
+        "dimensioni_px": [
+          1672,
+          941
+        ],
+        "trasparenza": false,
+        "tipo_contenuto": "scenario_generato",
+        "provenienza": {
+          "percorso_originale": "assets/booklet/capitolo-2/direzioni-future/demo-risorse-v1.png",
+          "originali_locali_identici": [
+            "assets/booklet/capitolo-2/direzioni-future/demo-risorse-v1.png"
+          ],
+          "documentazione": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+          "voce_documentazione": "/images/3",
+          "documentazione_corrente": "reports/typst-booklet/import-source/storia-corrente.json",
+          "copia_identica_all_originale": true,
+          "sha1_originale": "222b7ca8ade077b7b7af886afc1ba2955f07831f",
+          "url_fonti": [],
+          "figma": {
+            "file_key": "WLdDzbdqP3P5rpYbK1OxYC",
+            "page_id": "2008:1740",
+            "image_hash": "222b7ca8ade077b7b7af886afc1ba2955f07831f",
+            "data_lettura": "2026-10-21",
+            "usi": [
+              {
+                "frame_id": "2258:381",
+                "frame_nome": "C02 · 065 · SX — Un’estetica attenta alle risorse",
+                "nodo": "I3239:17285;3165:593;3239:17299",
+                "nome_nodo": "Immagine · Caffè Luce · risorse",
+                "parent": {
+                  "id": "I3239:17285;3165:593;3239:17298",
+                  "n": "Visuale originale · Figura · Ipotesi progettuale Caffè Luce · risorse"
+                },
+                "bbox": {
+                  "x": 66.5,
+                  "y": 224,
+                  "w": 350,
+                  "h": 196.9796600341797
+                },
+                "fill": {
+                  "type": "IMAGE",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "scaleMode": "FIT",
+                  "scalingFactor": 0.5,
+                  "rotation": 0,
+                  "filters": {
+                    "exposure": 0,
+                    "contrast": 0,
+                    "saturation": 0,
+                    "temperature": 0,
+                    "tint": 0,
+                    "highlights": 0,
+                    "shadows": 0
+                  },
+                  "imageTransform": [
+                    [
+                      1,
+                      0,
+                      0
+                    ],
+                    [
+                      0,
+                      1,
+                      0
+                    ]
+                  ],
+                  "imageHash": "222b7ca8ade077b7b7af886afc1ba2955f07831f"
+                }
+              }
+            ]
+          },
+          "nota_importazione": "Copia dei byte esatti del bitmap visibile corrente. Originali e registri storici conservati; crop, filtri e trasformazioni Figma documentati per ogni uso, senza applicarli ai pixel canonici.",
+          "generazione": {
+            "strumento": "built-in image_gen.imagegen",
+            "documentazione_prompt": "assets/booklet/capitolo-2/direzioni-future/manifest-v1.json",
+            "voce_prompt": "/images/3",
+            "versione": 1
+          },
+          "caso_fittizio": "Caffè Luce"
+        },
+        "attribuzione": {
+          "autore_opera": null,
+          "opera": "Caffè Luce · risorse",
+          "ente_fonte": null,
+          "autore_riproduzione": null,
+          "didascalia_fonte": "Caffè Luce · risorse",
+          "nota": "Visuale generata per un caso didattico; originale, prompt e versioni conservati nel registro tecnico. Non è uno screenshot storico o di un servizio reale."
+        },
+        "diritti": {
+          "titolare": null,
+          "licenza": null,
+          "condizioni_documentate": "Titolare e licenza della riproduzione non documentati in modo specifico nella fonte locale di questa voce; nessuna nuova licenza assegnata.",
+          "limite_verifica": "Condizioni ricavate dai registri locali citati, senza nuova verifica online né nuova licenza per questa importazione."
+        }
+      }
+    }
+  ]
+}

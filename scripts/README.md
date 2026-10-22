@@ -7,6 +7,7 @@ Eseguire dalla radice; i comandi abituali sono nel README principale.
 - `build/`: Pages, budget dei media, galleria e anteprime.
 - `check/`: controlli riproducibili; `slide-source.mjs` usa il parser installato, `browser.mjs` condivide l'attesa del rendering.
 - `optimize/`: conversione delle immagini in WebP.
+- `booklet.mjs` e `booklet.py`: ingressi di `pnpm build:booklet` e `pnpm check:booklet`; i moduli Python in `booklet/` separano asset, compilazione, inventario, PDF e regressioni. Le prove editoriali e degli strumenti stanno in `booklet-prove/`; vedere la [guida del booklet](../typst-booklet/README.md).
 
 `build/web-design-examples.mjs` esporta le quattro pagine di Caffè TTC, i 21 CSS e le risorse usate, con licenze e metadati degli asset. Il plugin in `utils/web-design-examples.mjs` espone `/web-design-examples/` durante lo sviluppo; Pages copia il sito nella radice del progetto. `pnpm check:web-examples` verifica varianti, risorse, query e navigazione in dev, nella build e sotto `/cvedi2627/`; `SLIDEV_URL` sceglie l'anteprima isolata, `WEB_EXAMPLES_REPORT` la cartella del rapporto.
 
