@@ -1,0 +1,199 @@
+---
+name: "CVeDI · sistema delle slide"
+description: "Contratto visivo ricavato dalle lezioni Slidev 01–08 e applicato alle lezioni successive."
+colors:
+  reading-background: "#f8fafc"
+  reading-ink: "#0f172a"
+  reading-body: "#334155"
+  reading-caption: "#64748b"
+  card-background: "#ffffff"
+  rule: "#e2e8f0"
+typography:
+  title:
+    fontFamily: "Nunito Sans, Inter, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "47px"
+    fontWeight: 500
+    lineHeight: 1.12
+    letterSpacing: "-0.02em"
+  lead:
+    fontFamily: "Nunito Sans, Inter, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "27px"
+    fontWeight: 500
+    lineHeight: 1.4
+  body:
+    fontFamily: "Nunito Sans, Inter, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "23px"
+    fontWeight: 400
+    lineHeight: 1.45
+  caption:
+    fontFamily: "Nunito Sans, Inter, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "18px"
+    fontWeight: 400
+    lineHeight: 1.4
+  chapter:
+    fontFamily: "Inter, ui-sans-serif, system-ui, sans-serif"
+    fontSize: "92px"
+    fontWeight: 700
+    lineHeight: 1.06
+    letterSpacing: "-0.035em"
+rounded:
+  card: "16px"
+  action: "12px"
+spacing:
+  copy: "12px"
+  related: "16px"
+  peers: "24px"
+  introduction: "32px"
+  columns: "48px"
+---
+
+# Design delle slide CVeDI
+
+## Overview
+
+Questo è il contratto visivo delle presentazioni Slidev. La fonte del sistema sono le lezioni **01–08 esistenti**, i loro componenti condivisi e il risultato renderizzato. La modalità è lettura e spiegazione didattica: il pubblico deve distinguere l’idea, osservare l’esempio e ritrovare la fonte.
+
+La lezione 09 e le successive applicano questi stessi ruoli. Il documento non introduce una nuova identità né trasforma le tavole del booklet in un tema per le slide. Il `progetti/booklet/DESIGN.md` alla radice rimane esclusivo del booklet. `progetti/slide/docs/design-slidev.md` conserva la documentazione di funzionamento e le specifiche dei singoli set.
+
+I valori qui registrati descrivono il sistema implementato; i token CSS rimangono la fonte utilizzata dall’applicazione. Un cambiamento intenzionale del sistema aggiorna insieme codice e contratto. Una variante specifica conserva le regole comuni e dichiara quale problema didattico risolve.
+
+| Riferimento | Sorgente | Modelli osservati |
+| --- | --- | --- |
+| 01 · Il corso | `progetti/slide/slides.md` | Copertina metro, titolo fisso, calendario, card, indice e collegamenti |
+| 02 · Introduzione a UX e UI | `progetti/slide/lezioni/01-introduzione.md` | Sintesi, obiettivi, concetti, confronti e attività |
+| 03 · Storia del design | `progetti/slide/lezioni/03-storia-design.md` | Opere, immagini affiancate, didascalie e attribuzioni |
+| 04 · Ricerca, contesto e inclusione | `progetti/slide/lezioni/04-ricerca-inclusiva.md` | Obiettivi, card, figure documentarie e casi |
+| 05 · Accessibilità e design inclusivo | `progetti/slide/lezioni/05-percezione-gerarchia.md` | Scenari, confronti e dimostrazioni interattive |
+| 06 · Gestalt | `progetti/slide/lezioni/06-gestalt.md` | Figure dominanti, documenti a tutta gabbia e attività |
+| 07 · Colore e significato | `progetti/slide/lezioni/06-colore.md` | Spiegazione e figura dominante, diagrammi e attività |
+| 08 · Tipografia | `progetti/slide/lezioni/07-tipografia-griglie.md` | Obiettivi, divisori, campioni, gallerie e fonti |
+
+## Colors
+
+Ogni lezione possiede una sola identità cromatica. Il registro `utils/slide-sets.ts` assegna la palette e `slideSetStyle` ne distribuisce i ruoli; `risorse-condivise/stili/tokens.css` conserva i valori ufficiali Tailwind e il catalogo degli accenti.
+
+| Lezione | Alias della palette | Famiglia Tailwind | Accento del catalogo |
+| --- | --- | --- | --- |
+| 01 | `course` | red | Menta |
+| 02 | `introduction` | orange | Ciano |
+| 03 | `history` | lime | Magenta |
+| 04 | `ux-research` | green | Corallo |
+| 05 | `ux-perception` | emerald | Rosa fragola |
+| 06 | `ux-gestalt` | teal | Mandarino |
+| 07 | `ux-color` | cyan | Vermiglio |
+| 08 | `ux-type` | sky | Ambra |
+| 09 · continuazione | `ux-grid` | blue | Giallo limone |
+
+Il brief usa amber e gli approfondimenti yellow: sono materiali raggruppati con l’introduzione e spiegano i passaggi intermedi della sequenza del menu.
+
+- Il primario è la tinta 800; canvas e stato profondo usano 900 e 950. Superfici chiare usano 50 e 100.
+- L’accento ha tre ruoli distinti: inchiostro su chiaro, superficie tenue, tinta vivida su scuro. Non usare la tinta vivida come testo minuto su fondo chiaro.
+- Copertina, pulsante dell’indice, nastro, azioni, dialoghi e avanzamento appartengono alla stessa lezione, anche quando la slide è inattiva o viene stampata.
+- La superficie ordinaria e i colori del testo sono i neutri del frontmatter. Le copertine usano testo bianco sul primario.
+- Opere, screenshot, campioni e diagrammi documentari conservano i colori originali. Il salvia di una figura del capitolo Griglie non diventa blue per imitare la cornice della presentazione.
+
+## Typography
+
+Le slide ordinarie usano **Nunito Sans locale**, con Inter locale come fallback. Le aperture metro usano **Inter**. Il font contenuto in uno specimen o in un’opera è contenuto didattico e conserva il disegno originale.
+
+La scala condivisa è in `progetti/slide/styles/typography.css`; la cascata finale di `progetti/slide/styles/theme.css` determina i pesi e gli allineamenti effettivi.
+
+| Ruolo | Regola |
+| --- | --- |
+| Titolo ordinario | Ruolo `title` del frontmatter; massimo due righe quando il testo lo richiede |
+| Introduzione | Ruolo `lead`; una proposizione che orienta la lettura |
+| Prosa e liste | Ruolo `body`; parole chiave in peso 600, senza interi paragrafi in grassetto |
+| Card | Titolo 24/1,35, peso 600; corpo 20/1,5, peso 400 |
+| Nota o fonte breve | 18/1,45; separata dalla spiegazione principale |
+| Didascalia effettiva | Ruolo `caption`, normale e allineato a sinistra; vale per `.lesson-caption`, anche dentro `figcaption` |
+| Sintesi | Enunciato 40/1,3, peso 600; supporto 27/1,48, peso 400 |
+| Numero di lezione in copertina | Inter 20/1,2, peso 600, maiuscolo, tracking 0,08 em |
+| Footer e contatore | Etichetta 14 px; numero pagina 16/1,2, peso 600 e cifre tabulari |
+| Nastro | Etichetta 12/1,2, peso 700 e maiuscolo |
+
+Non ridurre la scala del testo per far entrare una spiegazione. Separare i passaggi o scegliere un modello di slide più adatto. La dimensione del wrapper di una didascalia non dimostra la dimensione del suo testo: verificare lo stile calcolato del nodo visibile.
+
+## Layout
+
+Il canvas è **1280 × 720, 16:9**. Slidev scala l’intera composizione; il viewport stretto non trasforma il contenuto in una pagina a scorrimento.
+
+- Titolo ordinario ancorato a **x 72, y 52**, margine inferiore 24. Il segno colorato sotto il titolo misura 48 × 2 e mantiene la posizione condivisa.
+- Margini laterali 72, riserva inferiore 82. Corpo centrato verticalmente nell’area rimasta fra titolo e footer, come unico gruppo.
+- Footer a 30 dal fondo, con le stesse estremità laterali; avanzamento a 14 dal fondo. La numerazione è autonoma per presentazione.
+- La spaziatura segue i ruoli del frontmatter. Il gap ordinario fra colonne è 48.
+- Due colonne spiegazione/figura usano proporzioni 0,9/1,1. La variante con figura dominante usa 0,55/1,45 solo se la spiegazione resta leggibile nella colonna ridotta.
+- Una coppia di documenti confrontabili usa l’intera gabbia, in due colonne uguali. Se la spiegazione sottrae troppo spazio, occupa la slide precedente, con un raccordo esplicito.
+- Una tavola orizzontale usa il modello con spiegazione sopra e figura larga sotto. Conservare nella spiegazione anche i collegamenti presenti nei dati.
+- Un documento da osservare in dettaglio può occupare una slide autonoma, con caption e zoom. Non collocare due documenti complessi dentro la sola metà destra per rispettare una simmetria astratta.
+
+Prima scegliere la composizione in funzione dell’esempio; poi verificare immagine, testo e didascalia insieme. Un’immagine dentro il canvas può comunque risultare troppo piccola: l’ispezione a dimensione di presentazione integra i controlli geometrici. Le etichette incorporate nelle fonti non vengono ridisegnate o sostituite con font diversi.
+
+## Elevation & Depth
+
+Il fondo ordinario è piano. Card e pulsanti dell’indice usano l’ombra tenue condivisa `--theme-shadow` (0 8px 24px, inchiostro al 5%); il nastro ha la propria ombra contenuta. Le immagini e gli ingrandimenti restano senza cornici, ombre, angoli o supporti decorativi aggiunti.
+
+## Shapes
+
+Card e pulsanti dell’indice hanno angoli da 16; azioni e avvisi usano i componenti esistenti con angoli da 12. Il nastro conserva il taglio inferiore del componente `SlideRibbon`. La metro usa tracciati e tacche, non icone ornamentali aggiunte.
+
+## Components
+
+### Apertura di lezione e divisori esistenti
+
+Usare `default`, `chapter-slide` e `ChapterMetro`. La copertina ha margini laterali 68, titolo `chapter` del frontmatter e numero a y 64. L’area del testo resta libera da linee e stazioni, con almeno 16 di distanza dal tratto. Ogni lezione ha una geometria riconoscibile nel catalogo `progetti/slide/data/cover-routes.ts`. La lezione 09 usa soltanto la copertina metro, senza diapositive divisorie intermedie.
+
+Le aperture omettono footer, nastro e avanzamento. Gli otto divisori esistenti della lezione 08 restano invariati: riusano la sua geometria, aggiungono il numero della sezione e hanno `sectionDivider: true` e budget zero; entrano nella numerazione. Questa composizione non è una regola per le nuove lezioni. La cover generale del corso, con mappa multicolore e banda, conserva la sua variante originale.
+
+### Sequenza iniziale
+
+La copertina è seguita dalla sintesi nel layout `summary`: un’idea centrale e una spiegazione, distanti 32, entro una larghezza di 1000. Le lezioni teoriche usano poi obiettivi brevi, normalmente tre card `CvediCard`, come nelle lezioni 02, 04, 07 e 08. La lezione 01 conserva l’organizzazione specifica delle informazioni sul corso.
+
+### Spiegazioni e attività
+
+Riutilizzare `lead`, `cvedi-list`, `CvediCard` e `CvediNotice`, scegliendo il modello in funzione del contenuto. Le card hanno padding 24 e gap 24; le illustrazioni già catalogate mantengono il proprio spazio, senza invadere il testo. Non aggiungere card per incorniciare prosa ordinaria.
+
+Gli obiettivi illustrati a tre colonne, come nelle lezioni 08 e 09, usano immagini decorative da 96 × 96 nell’angolo inferiore destro (offset −16), opacità 0,6 e padding inferiore 112. I soggetti seguono il significato della card e la palette della lezione; catalogo, prompt e originali restano separati dal contenuto Markdown.
+
+Le attività dichiarano `lesson-activity`: consegna nel lead, operazioni nella lista, tempo in un’`aside` distinta («Attività · 8 minuti»). I minuti visibili devono concordare con il budget nei dati; spostare il tempo fuori dal lead non riscrive la consegna.
+
+### Copione nelle note della lezione 09
+
+Le note autorizzate della lezione 09 sono prosa italiana per sintesi vocale, separata dai contenuti visibili e indicizzata per alias in `speaker-notes.json`. Usare paragrafi brevi senza enfasi Markdown, URL, notazione matematica grezza o tag di regia. Il parlato spiega i passaggi e gli esempi, mantiene i raccordi della sequenza attiva e non reintroduce i materiali archiviati. Numeri, unità e formule si esprimono come devono essere pronunciati. Le attività richiedono una pausa autonoma; apertura e fonti sono brevi, con congedo solo nell’ultima slide. La lezione 08 conserva il proprio formato di note, con parole chiave in grassetto; le altre lezioni non ricevono note senza richiesta.
+
+### Audio approvati della lezione 09
+
+Le sole slide 1 e 2 dichiarano `narrationAudio` nel frontmatter generato dalla selezione `progetti/slide/assets/booklet/lezione-griglie/audio-approved.json`. Il componente condiviso `LessonAudio` usa i pulsanti daisyUI `btn` e `join join-vertical`, le icone HeroIcon e la palette proprietaria. Tre pulsanti da 32 × 32 px con icone da 18 px sono disposti in colonna, centrati verticalmente a 24 px dal bordo destro. Le azioni Riproduci, Pausa e Ricomincia sono indicate dalle sole icone, con nomi accessibili e tooltip; restano fuori dalla gabbia dei contenuti e la sintesi conserva il proprio centramento. Le note rimangono la trascrizione del parlato.
+
+Riproduzione e caricamento partono su richiesta. Al cambio slide, con scheda nascosta e in stampa l’audio si ferma; non riparte al ritorno. Il player è assente nelle anteprime delle altre slide, nella panoramica e in stampa. Gli errori permettono di riprovare con Riproduci. Il mirror web comprende soltanto i due originali approvati e resta escluso dalle build pubbliche della lezione locale.
+
+### Formule matematiche
+
+Usare il supporto nativo Slidev/KaTeX, senza un’altra dipendenza. La prosa conserva Nunito Sans; i simboli matematici usano i glifi di KaTeX e mantengono insieme HTML visivo e MathML accessibile. Le formule di Griglie sono blocchi Markdown `$$`, separati dall’HTML con righe vuote: i delimitatori inseriti direttamente in un paragrafo HTML non vengono interpretati.
+
+La regola generale usa `lesson-equation` a 30 px; l’esempio numerico usa `lesson-equation-example` a 26 px. Entrambi hanno margini verticali di 20 px; il contesto dell’esempio è separato dal contenuto precedente di 20 px. Il paragrafo e il contenitore KaTeX ereditano il corpo del blocco. Le unità sono in tondo con `\mathrm{mm}` o `\mathrm{px}`, precedute dallo spazio sottile `\,`; testo esplicativo, figure documentarie e relative attribuzioni conservano i propri ruoli.
+
+### Figure, didascalie e fonti
+
+`LessonFigure` conserva proporzioni, testo alternativo, didascalia, attribuzioni e zoom comune. Il controllo di ingrandimento rimane raggiungibile da tastiera, il dialogo si chiude con Escape e restituisce il focus. Un cambio slide chiude il dialogo.
+
+La didascalia segue i pixel con distanza 12. Nei confronti affiancati dispone dell’intera larghezza della propria colonna. Le gallerie che descrivono un unico gruppo possono avere una caption comune esterna alle celle, come nella lezione 08; documenti con descrizioni e diritti distinti mantengono le proprie caption in colonne sufficientemente larghe.
+
+Le fonti brevi restano accanto alla spiegazione pertinente; le liste finali raccolgono i collegamenti completi. Un ramo del generatore per figure larghe non deve eliminare link, diritti o passaggi della prosa. Originali, licenze e mappe restano nei manifest, separati dal Markdown generato e dalla presentazione.
+
+Il modello `teaching-figure` della lezione 09 dispone una breve introduzione sopra un diagramma dominante, con `LessonFigure`, caption, attribuzione e collegamenti della fonte sotto. È adatto ai confronti che richiedono l’intera larghezza per leggere etichette e relazioni. Quando l’introduzione comprende una formula, come nel box model e nel rapporto aureo, lead e KaTeX occupano due colonne affiancate con gap 48 e allineamento centrale: i margini della formula sono azzerati in questa riga, conservando il corpo previsto. Le spiegazioni necessarie restano nel lead o nella caption del catalogo; il modello non le elimina per ingrandire la figura.
+
+### Movimento, navigazione e stampa
+
+Le animazioni condivise entrano soltanto nella slide attiva e visibile; movimento ridotto, scheda nascosta e stampa mostrano uno stato completo e statico. Le copertine e gli otto divisori esistenti della lezione 08 riusano i tempi del sistema. L’avanzamento usa il contatore reale e un accento della palette proprietaria.
+
+Conservare alias e ritorno al menu; non attivare set archiviati o futuri. Le note esistenti della lezione 08 sono un’eccezione già autorizzata: il sistema visivo non autorizza nuove note o modifiche al presenter.
+
+## Do's and Don'ts
+
+- Derivare le nuove slide dai modelli 01–08 e dai token condivisi, verificando la cascata finale nel browser.
+- Correggere il piano e il generatore della 09, poi rigenerare Markdown e mapping; una rigenerazione deve conservare il risultato.
+- Controllare l’intera lezione su desktop, viewport stretto e stampa, includendo i dettagli delle figure, le caption, gli stati di zoom e i collegamenti.
+- Eseguire `pnpm check:source` e `pnpm build` per nuovi inserimenti; scegliere anche i controlli pertinenti di layout, tipografia, movimento e avanzamento. Rapporti e screenshot restano in `reports/`.
+- Non sovrascrivere il contratto del booklet, non modificare i CSS compilati a mano e non aggiungere regole tipografiche locali per aggirare un impaginato inadatto.
+- Non trattare la sola assenza di overflow o il solo superamento di una dimensione minima dell’immagine come prova di qualità visiva.
+- Non ricolorare opere o diagrammi originali, eliminare fonti o sostituire gli asset per uniformarli al tema.

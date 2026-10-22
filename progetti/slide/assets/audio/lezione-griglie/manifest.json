@@ -1,0 +1,183 @@
+{
+  "version": 1,
+  "lesson": "griglie-layout",
+  "notesSource": "progetti/slide/assets/booklet/lezione-griglie/speaker-notes.json",
+  "settingsSource": "progetti/slide/assets/booklet/lezione-griglie/audio-settings.json",
+  "clips": [
+    {
+      "slide": 1,
+      "alias": "griglie-layout",
+      "title": "Griglie e layout",
+      "file": "progetti/slide/assets/audio/lezione-griglie/01-griglie-layout-1f6a8d019a8e.mp3",
+      "generatedAt": "2026-10-22T21:35:53.436Z",
+      "settings": {
+        "voiceName": "Cremarco",
+        "voiceId": "4UillScmIHyWFXkYMqfz",
+        "modelId": "eleven_v4",
+        "languageCode": "it",
+        "outputFormat": "mp3_44100_128",
+        "voiceSettings": {
+          "stability": 0.5,
+          "similarityBoost": 0.75
+        }
+      },
+      "text": "Buongiorno a tutte e a tutti. In questa lezione vedremo come usare griglie e layout per organizzare i contenuti, adattarli a formati diversi e verificare le nostre scelte",
+      "submittedCharacters": 170,
+      "textSha256": "1b2f63c3cea52da0a6f8ec663ae0921de1d033f527e10ff450d83d0bba111455",
+      "fingerprint": "1f6a8d019a8e3ef0eac9328c0e11e2febddc5f09e3e21352eb46ab0435e5f33d",
+      "bytes": 185198,
+      "audioSha256": "b2c244e83a45ce34e9105b995d204440cff71435096d4a10060c4daf0746ccc4",
+      "durationSeconds": 11.52
+    },
+    {
+      "slide": 2,
+      "alias": "griglie-layout-sintesi",
+      "title": "Organizzare, adattare, verificare",
+      "file": "progetti/slide/assets/audio/lezione-griglie/02-griglie-layout-sintesi-017a13747ef8.mp3",
+      "generatedAt": "2026-10-22T21:36:04.307Z",
+      "settings": {
+        "voiceName": "Cremarco",
+        "voiceId": "4UillScmIHyWFXkYMqfz",
+        "modelId": "eleven_v4",
+        "languageCode": "it",
+        "outputFormat": "mp3_44100_128",
+        "voiceSettings": {
+          "stability": 0.5,
+          "similarityBoost": 0.75
+        }
+      },
+      "text": "Partiamo da un’osservazione semplice: ciò che mettiamo vicino appare collegato, ciò che allineiamo si confronta più facilmente, ciò che separiamo appare distinto dagli altri elementi. La griglia ci aiuta a scegliere con cura queste relazioni. Il suo compito è dare spazio ai contenuti e rendere riconoscibili le loro priorità.\n\nPensate a una pagina con un titolo, una fotografia e un comando. I tre elementi hanno compiti diversi e devono poter essere riconosciuti anche quando lo spazio cambia. Una buona composizione fa capire come titolo, fotografia e comando lavorano insieme.\n\nPasseremo dalla disposizione visibile alle regole che la producono: chiediamoci che cosa una persona deve leggere, confrontare o fare, e se la struttura rende possibile quel compito senza ostacoli inutili.",
+      "submittedCharacters": 787,
+      "textSha256": "334b0b690805e7c0ec0460385bc811f69c2a087318db246a060e5fdebcbf8f77",
+      "fingerprint": "017a13747ef8f36e908491fd4c2c81604100ce88a502e4e3a04fcbccb6e1f537",
+      "bytes": 808794,
+      "audioSha256": "bdd77fb28d44d76d9b9f0f17cd91b45f0a680d1e1d6fb418c5d414c0ba925597",
+      "durationSeconds": 50.48
+    },
+    {
+      "slide": 3,
+      "alias": "griglie-layout-obiettivi",
+      "title": "Cosa impareremo",
+      "file": "progetti/slide/assets/audio/lezione-griglie/03-griglie-layout-obiettivi-8cf5fa52111e.mp3",
+      "generatedAt": "2026-10-22T21:36:16.162Z",
+      "settings": {
+        "voiceName": "Cremarco",
+        "voiceId": "4UillScmIHyWFXkYMqfz",
+        "modelId": "eleven_v4",
+        "languageCode": "it",
+        "outputFormat": "mp3_44100_128",
+        "voiceSettings": {
+          "stability": 0.5,
+          "similarityBoost": 0.75
+        }
+      },
+      "text": "Le tre card descrivono tre capacità che useremo insieme. Leggere una struttura significa riconoscere dove iniziano i contenuti, quali bordi si allineano e quali distanze li separano. Dovremo indicare gli allineamenti, distinguendo ciò che vediamo dalle intenzioni dell'autore.\n\nProgettare il layout significa scegliere una struttura adatta ai materiali e decidere come usarla. Un'immagine può attraversare più colonne; una nota può avere uno spazio diverso dal testo principale. Dovremo motivare queste scelte in rapporto alla lettura.\n\nVerificare le regole significa infine provare la soluzione con contenuti e condizioni che possono metterla in difficoltà. Un titolo più lungo o una finestra più stretta sono occasioni per capire se la regola funziona. Alla fine dovremo poter descrivere una scelta, mostrarne l'effetto e registrare ciò che va corretto. Cominciamo osservando come cambia una composizione quando introduciamo riferimenti comuni.",
+      "submittedCharacters": 946,
+      "textSha256": "3ad71174ab126a2aefb1b395bae0baf9e9e517d414d22dafb10e172c0aa3720f",
+      "fingerprint": "8cf5fa52111e709069ed1143af0a0df4c75bcf6ed808ecda02fa079c69d1d782",
+      "bytes": 955915,
+      "audioSha256": "1346f6bd3bceaac291d3eb46f559841c4e483a8f3185411ab02482f8032167a3",
+      "durationSeconds": 59.68
+    },
+    {
+      "slide": 1,
+      "alias": "griglie-layout",
+      "title": "Griglie e layout",
+      "file": "progetti/slide/assets/audio/lezione-griglie/01-griglie-layout-fba9e97dc81f.mp3",
+      "generatedAt": "2026-10-22T21:45:55.806Z",
+      "settings": {
+        "voiceName": "Cremarco",
+        "voiceId": "4UillScmIHyWFXkYMqfz",
+        "modelId": "eleven_v4",
+        "languageCode": "it",
+        "outputFormat": "mp3_44100_128",
+        "voiceSettings": {
+          "stability": 0.5,
+          "similarityBoost": 0.9
+        }
+      },
+      "text": "Buongiorno a tutte e a tutti. Oggi parliamo di griglie e layout: di come lo spazio ci aiuta a dare un ordine ai contenuti, anche quando cambiano il formato o lo schermo.",
+      "submittedCharacters": 169,
+      "textSha256": "eba1fd47b7aacc2287b572f6cec674ab9f2805901b216780789dbf531e7f40dc",
+      "fingerprint": "fba9e97dc81f1c10fe71d5c03d7f50726689dcfd9ba99843f7d04d6dfd21ce01",
+      "bytes": 181437,
+      "audioSha256": "e826f2672b96851409781aaadacf1c52c39282013d7639d9f8110b3eb3d037ff",
+      "durationSeconds": 11.28
+    },
+    {
+      "slide": 2,
+      "alias": "griglie-layout-sintesi",
+      "title": "Organizzare, adattare, verificare",
+      "file": "progetti/slide/assets/audio/lezione-griglie/02-griglie-layout-sintesi-de9b06ea2b6e.mp3",
+      "generatedAt": "2026-10-22T21:46:07.173Z",
+      "settings": {
+        "voiceName": "Cremarco",
+        "voiceId": "4UillScmIHyWFXkYMqfz",
+        "modelId": "eleven_v4",
+        "languageCode": "it",
+        "outputFormat": "mp3_44100_128",
+        "voiceSettings": {
+          "stability": 0.5,
+          "similarityBoost": 0.9
+        }
+      },
+      "text": "Quando apriamo una pagina, cominciamo a orientarci prima ancora di leggerla. Un titolo vicino a una fotografia ci fa pensare che i due elementi siano collegati. Una distanza più ampia, invece, ci suggerisce che lì inizi qualcosa di diverso. Sono relazioni che percepiamo quasi senza accorgercene.\n\nLa griglia ci aiuta a progettare queste relazioni. In una pagina che presenta un evento, per esempio, il titolo ci dice di che cosa si tratta e il pulsante ci permette di prenotare. Il layout, cioè la disposizione degli elementi, deve rendere chiari questi compiti.\n\nSu un telefono avremo meno spazio e potremmo dover mettere gli stessi contenuti uno sotto l’altro. La disposizione cambierà, ma dovremo ancora capire di quale evento si parla e dove si prenota. È questo il criterio con cui valuteremo le nostre scelte: quanto aiutano una persona a orientarsi e a trovare ciò che le serve.",
+      "submittedCharacters": 886,
+      "textSha256": "7f85b1fed22fbdf430396cee2fb3c57d109fc3acc930e7dddffc5bbcea1fd5b9",
+      "fingerprint": "de9b06ea2b6ea8a205194369d3423630b1681c5dbe4000a4e6c464612e29ef2f",
+      "bytes": 890714,
+      "audioSha256": "107d3f0290f7f0dba4345c378c4fedbdfff25bde790aaf3adc6cf5c2571fcc7d",
+      "durationSeconds": 55.6
+    },
+    {
+      "slide": 1,
+      "alias": "griglie-layout",
+      "title": "Griglie e layout",
+      "file": "progetti/slide/assets/audio/lezione-griglie/01-griglie-layout-b4d59301f0e5.mp3",
+      "generatedAt": "2026-10-22T21:50:01.540Z",
+      "settings": {
+        "voiceName": "Cremarco",
+        "voiceId": "4UillScmIHyWFXkYMqfz",
+        "modelId": "eleven_v4",
+        "languageCode": "it",
+        "outputFormat": "mp3_44100_128",
+        "voiceSettings": {
+          "stability": 0.6,
+          "similarityBoost": 0.9
+        }
+      },
+      "text": "Buongiorno a tutte e a tutti. Oggi parliamo di griglie e layout: di come lo spazio ci aiuta a dare un ordine ai contenuti, anche quando cambiano il formato o lo schermo.",
+      "submittedCharacters": 169,
+      "textSha256": "eba1fd47b7aacc2287b572f6cec674ab9f2805901b216780789dbf531e7f40dc",
+      "fingerprint": "b4d59301f0e5a0f7c961e289c86ea4879c5688ddbefe967d43f91ec53b908f87",
+      "bytes": 178929,
+      "audioSha256": "28d41f4a29108202228a8cee3941826341affeb30ab7a1d4301e3ae39d71db89",
+      "durationSeconds": 11.12
+    },
+    {
+      "slide": 2,
+      "alias": "griglie-layout-sintesi",
+      "title": "Organizzare, adattare, verificare",
+      "file": "progetti/slide/assets/audio/lezione-griglie/02-griglie-layout-sintesi-e21984fd83b7.mp3",
+      "generatedAt": "2026-10-22T21:50:15.544Z",
+      "settings": {
+        "voiceName": "Cremarco",
+        "voiceId": "4UillScmIHyWFXkYMqfz",
+        "modelId": "eleven_v4",
+        "languageCode": "it",
+        "outputFormat": "mp3_44100_128",
+        "voiceSettings": {
+          "stability": 0.6,
+          "similarityBoost": 0.9
+        }
+      },
+      "text": "Quando apriamo una pagina, cominciamo a orientarci prima ancora di leggerla. Un titolo vicino a una fotografia ci fa pensare che i due elementi siano collegati. Una distanza più ampia, invece, ci suggerisce che lì inizi qualcosa di diverso. Sono relazioni che percepiamo quasi senza accorgercene.\n\nLa griglia ci aiuta a progettare queste relazioni. In una pagina che presenta un evento, per esempio, il titolo ci dice di che cosa si tratta e il pulsante ci permette di prenotare. Il layout, cioè la disposizione degli elementi, deve rendere chiari questi compiti.\n\nSu un telefono avremo meno spazio e potremmo dover mettere gli stessi contenuti uno sotto l’altro. La disposizione cambierà, ma dovremo ancora capire di quale evento si parla e dove si prenota. È questo il criterio con cui valuteremo le nostre scelte: quanto aiutano una persona a orientarsi e a trovare ciò che le serve.",
+      "submittedCharacters": 886,
+      "textSha256": "7f85b1fed22fbdf430396cee2fb3c57d109fc3acc930e7dddffc5bbcea1fd5b9",
+      "fingerprint": "e21984fd83b74eca3cacc340ef6ec867b1619b3bd922b54a7b384747628d6973",
+      "bytes": 901998,
+      "audioSha256": "4511662824fd32fdcc10ad7ff7997a8c643c01e08dc99e266e2697558705785d",
+      "durationSeconds": 56.32
+    }
+  ]
+}

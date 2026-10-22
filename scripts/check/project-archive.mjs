@@ -5,8 +5,8 @@ import { realpathSync } from 'node:fs'
 import { access, mkdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { chromium } from 'playwright-chromium'
-import { projectArchiveURL } from '../../utils/project-archive.mjs'
-import { publicationExtensions } from '../../utils/publication.mjs'
+import { projectArchiveURL } from '../lib/project-archive.mjs'
+import { publicationExtensions } from '../../progetti/slide/utils/publication.mjs'
 
 const root = process.cwd()
 const output = path.resolve(process.env.ARCHIVE_MIGRATION_REPORT || 'reports/project-archive')
@@ -24,11 +24,11 @@ const origin = `http://127.0.0.1:${server.address().port}`
 const browser = await chromium.launch({ headless: true })
 const report = { cases: [] }
 try {
-  const projects = JSON.parse(await readFile('data/projects.json', 'utf8'))
+  const projects = JSON.parse(await readFile('progetti/slide/data/projects.json', 'utf8'))
   assert.equal(projects.length, 76, 'all archived projects retain their slide previews')
   for (const project of projects) {
     assert.ok(project.source.startsWith(projectArchiveURL), `${project.title}: external provenance`)
-    await access(path.join(root, 'public', project.image))
+    await access(path.join(root, 'progetti/slide/public', project.image))
   }
   await assert.rejects(access(path.join(directory, 'project/gallery-data.json')), { code: 'ENOENT' }, 'course builds contain only the archive redirect')
   const context = await browser.newContext()
@@ -54,7 +54,7 @@ try {
   await fallback.close()
   const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
-  const deck = await load({ roots: [root], userRoot: root, allowedRoots: [root] }, path.join(root, 'slides.md'), undefined, 'build')
+  const deck = await load({ roots: [root], userRoot: root, allowedRoots: [root] }, path.join(root, 'progetti/slide/slides.md'), undefined, 'build')
   injectPreparserExtensionLoader(null)
   const gallerySlide = deck.slides.findIndex(slide => /<ProjectGallery\b/.test(slide.content)) + 1
   assert.ok(gallerySlide > 0, 'the published deck retains its gallery slide')

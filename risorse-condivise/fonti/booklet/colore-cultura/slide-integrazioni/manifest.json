@@ -1,0 +1,58 @@
+{
+  "schema": "cvedi-color-cultural-slides/1",
+  "date": "2026-10-16",
+  "lesson": "colore",
+  "slideCountBefore": 40,
+  "slideCountAfter": 46,
+  "lessonMinutes": 120,
+  "addedSlides": [
+    {
+      "lessonSlide": 23,
+      "routeAlias": "colore-cultura-convenzioni",
+      "title": "Il colore di un dato è una convenzione",
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 24,
+      "routeAlias": "colore-cultura-convenzioni-esempio",
+      "title": "Due convenzioni, due letture del grafico",
+      "minutes": 2.0
+    },
+    {
+      "lessonSlide": 25,
+      "routeAlias": "colore-cultura-lingua",
+      "title": "Le parole organizzano anche il colore",
+      "minutes": 2.0
+    },
+    {
+      "lessonSlide": 26,
+      "routeAlias": "colore-cultura-cempasuchil",
+      "title": "Un fiore, un rito, un riferimento culturale",
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 27,
+      "routeAlias": "colore-cultura-google-muertos",
+      "title": "Il riferimento culturale entra nell’interfaccia",
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 28,
+      "routeAlias": "colore-cultura-preferenze",
+      "title": "Associare, preferire e usare sono domande diverse",
+      "minutes": 2.0
+    }
+  ],
+  "externalSourceCatalog": "risorse-condivise/fonti/booklet/colore-cultura/slide-integrazioni/fonti.json",
+  "assets": "risorse-condivise/fonti/booklet/colore-cultura/slide-integrazioni/assets.json",
+  "bookletRelation": "Le sei slide 23–28 corrispondono ora a sei tavole native del booklet, ai folio 398–403; gli ordinali 137–138 rimangono il raccordo allo snapshot storico.",
+  "activitiesMinutesPreserved": [
+    8,
+    15,
+    6
+  ],
+  "verification": "reports/colore-cultura/slide-integrazioni/verifica.json",
+  "verificationStatus": "source-build-and-focused-browser-passed",
+  "globalLayoutLimitation": "Il controllo generale segnala slide490Gestalt; dettagli nel rapporto. Nessuna delle sei slide Colore coinvolta.",
+  "figmaRevision": "risorse-condivise/fonti/booklet/colore-cultura/figma-integrazioni/manifest.json"
+}

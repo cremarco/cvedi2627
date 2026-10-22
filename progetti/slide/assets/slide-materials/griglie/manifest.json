@@ -1,0 +1,163 @@
+{
+  "version": 1,
+  "generator": "progetti/slide/scripts/build/griglie-teaching-assets.py",
+  "sourceCatalog": "progetti/slide/assets/slide-materials/griglie/catalog.json",
+  "shapingEngine": "HarfBuzz 14.6.0",
+  "images": [
+    {
+      "code": "didattica-box-sizing",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/box-sizing.svg",
+      "caption": "Stessa width dichiarata: border-box conserva 240 px di ingombro e 206 px di contenuto; content-box conserva 240 px di contenuto e arriva a 274 px.",
+      "alt": "Due riquadri alla stessa scala distinguono contenuto, padding e bordo nei due modelli di dimensionamento.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://www.w3.org/TR/css-sizing-3/#box-sizing"
+      ],
+      "web": "/images/shared/figure/griglia-didattica/didattica-box-sizing.svg",
+      "sourceSha256": "659e4b93f3ed6f6014270426097a7f1f45dee220f705267406709f8487a3413f",
+      "sha256": "745cc2f9e0514291f1ed2b0f7f2333a6652d25eae999bc184ab1e67060e14e06",
+      "fonts": [
+        {
+          "source": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sourceSha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+          "license": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "transformation": "outlined-source-text"
+    },
+    {
+      "code": "didattica-ordine-colonne",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/ordine-colonne.svg",
+      "caption": "Un articolo continua nella seconda colonna; due servizi completi costituiscono invece unità autonome.",
+      "alt": "A sinistra un unico articolo segue le colonne 1 e 2; a destra due servizi hanno ciascuno titolo, data e azione.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [],
+      "web": "/images/shared/figure/griglia-didattica/didattica-ordine-colonne.svg",
+      "sourceSha256": "e7585c9dc4101052b98233b02433091b937d8a80421c0cbe82ca2ee9b82fea1a",
+      "sha256": "b8eb55cec69e536e308f69292d9425e52bbccf88ee379b270c714d55d856aba5",
+      "fonts": [
+        {
+          "source": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sourceSha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+          "license": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "transformation": "outlined-source-text"
+    },
+    {
+      "code": "didattica-rapporto-aureo",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/rapporto-aureo.svg",
+      "caption": "Il segmento totale a + b si divide in una parte maggiore a e una minore b; le lunghezze illustrate sono approssimate.",
+      "alt": "Una barra è divisa in a, circa 61,8 per cento, e b, circa 38,2 per cento; una quota indica il totale a più b.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [],
+      "web": "/images/shared/figure/griglia-didattica/didattica-rapporto-aureo.svg",
+      "sourceSha256": "ff88adc96da073d7b8d207b848051160d144b0b4907d87fa437123a83eaec085",
+      "sha256": "e21727418740723ccc68542c57979713942c58f9b6e48c3cd7b468f3236b018c",
+      "fonts": [
+        {
+          "source": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sourceSha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+          "license": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "transformation": "outlined-source-text"
+    },
+    {
+      "code": "didattica-query-contenitore",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/query-contenitore.svg",
+      "caption": "Nello stesso viewport, il contenitore da 320 px impila le schede; quello da 640 px le affianca. La soglia dell’esempio è 552 px.",
+      "alt": "Un solo viewport di 1280 px contiene due aree predisposte da 320 e 640 px con lo stesso gruppo di due schede.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+      ],
+      "web": "/images/shared/figure/griglia-didattica/didattica-query-contenitore.svg",
+      "sourceSha256": "6b64e8ee92dd3ee130c3514b0afd281243b4cccfc6b619b71e5088aada6a1c1f",
+      "sha256": "232b2c5c9a3561741cce6fbcfc08f6a67afd2b717cf9101b463ef62bf4406a2a",
+      "fonts": [
+        {
+          "source": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sourceSha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+          "license": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "transformation": "outlined-source-text"
+    },
+    {
+      "code": "didattica-grid-flexbox",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/grid-flexbox.svg",
+      "caption": "Una traccia è lo spazio fra due linee della griglia. Grid conserva tre colonne; Flexbox fa crescere D ed E. Le guide del disegno non devono diventare una per una tracce CSS.",
+      "alt": "Confronto fra cinque schede A–E: in Grid D ed E occupano le prime due colonne; in Flexbox crescono e riempiono la seconda riga.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods"
+      ],
+      "web": "/images/shared/figure/griglia-didattica/didattica-grid-flexbox.svg",
+      "sourceSha256": "ad057ae6b1a74df0734d451620fcca22eb245e03d0a0827f60becff567d9e387",
+      "sha256": "9afeebcc764d8e493ce6974dd76ad8e0bf78ad27072404ca1c20f5dc4f29157b",
+      "fonts": [
+        {
+          "source": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sourceSha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+          "license": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "transformation": "outlined-source-text"
+    },
+    {
+      "code": "didattica-immagini-scelte",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/immagini-scelte.svg",
+      "caption": "Schemi delle due scelte: risoluzione e inquadratura. sizes descrive lo spazio previsto, senza assegnare la larghezza CSS. Più pixel non recuperano un soggetto tagliato.",
+      "alt": "Una scena geometrica con cerchio giallo distingue la selezione della risoluzione dalla scelta di un’inquadratura dedicata.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://html.spec.whatwg.org/multipage/images.html#adaptive-images"
+      ],
+      "web": "/images/shared/figure/griglia-didattica/didattica-immagini-scelte.svg",
+      "sourceSha256": "0d5accb1df89cb9c1569b5a6aac3646682f45ae26c41db1532bc1c9af553ee23",
+      "sha256": "b5885b3b7c6bc2d20466a7e3ee068811f1135f9d2bd2d395053a2bae71ee3def",
+      "fonts": [
+        {
+          "source": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+          "sourceSha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+          "license": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+          "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+        }
+      ],
+      "transformation": "outlined-source-text"
+    },
+    {
+      "code": "didattica-luce-e-spazio",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/luce-e-spazio.svg",
+      "caption": "Campione originale dell’esercizio. Il cerchio giallo sul lato destro è il dettaglio da conservare.",
+      "alt": "Composizione geometrica con rettangoli blu e un cerchio giallo sul lato destro.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [],
+      "web": "/images/shared/figure/griglia-didattica/didattica-luce-e-spazio.svg",
+      "sourceSha256": "745a8121924f5028c4443f23fc61310f5109d2bc50d14031bc803e6bc1e133a3",
+      "sha256": "745a8121924f5028c4443f23fc61310f5109d2bc50d14031bc803e6bc1e133a3",
+      "fonts": [],
+      "transformation": "identical-bytes"
+    }
+  ],
+  "exerciseKit": {
+    "source": "progetti/slide/assets/slide-materials/griglie/exercise-kit.json",
+    "sourceSha256": "fe5206cb217e7dcd43b8f84da2a6b543152fdabf5ed901e17da76636ececcbbd",
+    "download": "/materiali/griglie-layout/luce-e-spazio.zip",
+    "sha256": "53c843d91b8a77464c894f307b2be01224a7d70a8824404f0baff1f3633499fa",
+    "wordCount": 80
+  }
+}

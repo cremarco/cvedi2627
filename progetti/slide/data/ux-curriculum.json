@@ -1,0 +1,171 @@
+{
+  "source": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2008:1741",
+    "chapter": "C03 · Processo UX",
+    "pages": 260,
+    "snapshot": "risorse-condivise/fonti/booklet/capitolo-3/testo-figma-aggiornato.json"
+  },
+  "lessonMinutes": 120,
+  "lessons": [
+    {
+      "number": 4,
+      "id": "ricerca-inclusiva",
+      "title": "Ricerca, contesto e inclusione",
+      "subtitle": "Dalle persone al problema progettuale",
+      "file": "progetti/slide/lezioni/04-ricerca-inclusiva.md",
+      "palette": "green",
+      "sourceRange": [
+        1,
+        40
+      ],
+      "sections": [
+        1,
+        2
+      ],
+      "slideCount": 86,
+      "paletteAlias": "ux-research",
+      "lessonMinutes": 56.5
+    },
+    {
+      "number": 5,
+      "id": "percezione-gerarchia",
+      "title": "Accessibilità e design inclusivo",
+      "subtitle": "Rendere possibili informazioni e azioni per persone diverse",
+      "file": "progetti/slide/lezioni/05-percezione-gerarchia.md",
+      "palette": "emerald",
+      "sections": [
+        3
+      ],
+      "slideCount": 105,
+      "paletteAlias": "ux-perception",
+      "lessonMinutes": 129.5,
+      "currentSource": {
+        "snapshot": "progetti/slide/assets/booklet/lezione-05-accessibilita/figma-source.json",
+        "sectionId": "2188:1088",
+        "folios": [
+          168,
+          223
+        ],
+        "accessibilitySlides": 86,
+        "interactiveSlides": 17
+      },
+      "perceptionArchive": "progetti/slide/assets/booklet/lezione-05-accessibilita/perception-archive.json"
+    },
+    {
+      "number": 6,
+      "id": "gestalt",
+      "title": "Gestalt",
+      "subtitle": "Organizzare forme, relazioni e significati",
+      "file": "progetti/slide/lezioni/06-gestalt.md",
+      "palette": "teal",
+      "sections": [
+        5
+      ],
+      "slideCount": 111,
+      "paletteAlias": "ux-gestalt",
+      "currentSource": {
+        "snapshot": "progetti/slide/assets/booklet/lezione-06-gestalt/figma-source.json",
+        "sectionId": "204:8297",
+        "folios": [
+          230,
+          318
+        ]
+      },
+      "lessonMinutes": 139.5
+    },
+    {
+      "number": 7,
+      "id": "colore",
+      "title": "Colore e significato",
+      "subtitle": "Relazioni cromatiche, contesto e accessibilità",
+      "file": "progetti/slide/lezioni/06-colore.md",
+      "palette": "cyan",
+      "sourceRange": [
+        125,
+        156
+      ],
+      "sections": [
+        7
+      ],
+      "slideCount": 59,
+      "paletteAlias": "ux-color"
+    },
+    {
+      "number": 8,
+      "id": "tipografia-griglie",
+      "title": "Tipografia",
+      "subtitle": "Dal disegno delle lettere alla lettura",
+      "file": "progetti/slide/lezioni/07-tipografia-griglie.md",
+      "palette": "sky",
+      "sourceRange": [
+        157,
+        182
+      ],
+      "sections": [
+        8
+      ],
+      "slideCount": 116,
+      "paletteAlias": "ux-type",
+      "typographyRevision": {
+        "snapshot": "progetti/slide/assets/booklet/lezione-08-tipografia/figma-source.json",
+        "pageId": "4226:16023",
+        "folios": [
+          332,
+          481
+        ],
+        "frameCount": 150,
+        "sourceLinks": "progetti/slide/assets/booklet/lezione-08-tipografia/figma-links.json",
+        "previousMapping": "progetti/slide/assets/booklet/lezione-08-tipografia/previous-mapping.json",
+        "archive": "progetti/slide/lezioni/archivio/07-tipografia-pre-revisione.md",
+        "excludedContentArchive": "progetti/slide/assets/booklet/lezione-08-tipografia/griglie-interfacce-archive.json",
+        "bookletExcludedContentArchive": "progetti/slide/assets/booklet/lezione-08-tipografia/booklet-esclusioni-archive.json"
+      },
+      "lessonMinutes": 71.5
+    }
+  ],
+  "archivedLessons": [
+    {
+      "number": 10,
+      "id": "prototipi-interfacce",
+      "active": false,
+      "reason": "Rimossa dal percorso Slidev su richiesta dell’utente.",
+      "title": "Prototipi e videogiochi",
+      "subtitle": "Flussi, stati e interfacce per l’azione",
+      "file": "progetti/slide/lezioni/08-prototipi-interfacce.md",
+      "palette": "indigo",
+      "sourceRange": [
+        201,
+        234
+      ],
+      "sections": [
+        10,
+        11
+      ],
+      "slideCount": 38,
+      "paletteAlias": "ux-prototype",
+      "localOnly": true
+    },
+    {
+      "number": 11,
+      "id": "test-implementazione",
+      "active": false,
+      "reason": "Rimossa dal percorso Slidev su richiesta dell’utente.",
+      "title": "Test e implementazione",
+      "subtitle": "Osservare l’uso, migliorare e consegnare",
+      "file": "progetti/slide/lezioni/09-test-implementazione.md",
+      "palette": "violet",
+      "sourceRange": [
+        235,
+        260
+      ],
+      "sections": [
+        12,
+        13
+      ],
+      "slideCount": 38,
+      "paletteAlias": "ux-test",
+      "localOnly": true
+    }
+  ]
+}

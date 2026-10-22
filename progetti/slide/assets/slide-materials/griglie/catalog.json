@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "purpose": "Integrazioni originali delle slide, distinte dagli asset del booklet.",
+  "images": [
+    {
+      "code": "didattica-box-sizing",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/box-sizing.svg",
+      "caption": "Stessa width dichiarata: border-box conserva 240 px di ingombro e 206 px di contenuto; content-box conserva 240 px di contenuto e arriva a 274 px.",
+      "alt": "Due riquadri alla stessa scala distinguono contenuto, padding e bordo nei due modelli di dimensionamento.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://www.w3.org/TR/css-sizing-3/#box-sizing"
+      ]
+    },
+    {
+      "code": "didattica-ordine-colonne",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/ordine-colonne.svg",
+      "caption": "Un articolo continua nella seconda colonna; due servizi completi costituiscono invece unità autonome.",
+      "alt": "A sinistra un unico articolo segue le colonne 1 e 2; a destra due servizi hanno ciascuno titolo, data e azione.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": []
+    },
+    {
+      "code": "didattica-rapporto-aureo",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/rapporto-aureo.svg",
+      "caption": "Il segmento totale a + b si divide in una parte maggiore a e una minore b; le lunghezze illustrate sono approssimate.",
+      "alt": "Una barra è divisa in a, circa 61,8 per cento, e b, circa 38,2 per cento; una quota indica il totale a più b.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": []
+    },
+    {
+      "code": "didattica-query-contenitore",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/query-contenitore.svg",
+      "caption": "Nello stesso viewport, il contenitore da 320 px impila le schede; quello da 640 px le affianca. La soglia dell’esempio è 552 px.",
+      "alt": "Un solo viewport di 1280 px contiene due aree predisposte da 320 e 640 px con lo stesso gruppo di due schede.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+      ]
+    },
+    {
+      "code": "didattica-grid-flexbox",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/grid-flexbox.svg",
+      "caption": "Una traccia è lo spazio fra due linee della griglia. Grid conserva tre colonne; Flexbox fa crescere D ed E. Le guide del disegno non devono diventare una per una tracce CSS.",
+      "alt": "Confronto fra cinque schede A–E: in Grid D ed E occupano le prime due colonne; in Flexbox crescono e riempiono la seconda riga.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods"
+      ]
+    },
+    {
+      "code": "didattica-immagini-scelte",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/immagini-scelte.svg",
+      "caption": "Schemi delle due scelte: risoluzione e inquadratura. sizes descrive lo spazio previsto, senza assegnare la larghezza CSS. Più pixel non recuperano un soggetto tagliato.",
+      "alt": "Una scena geometrica con cerchio giallo distingue la selezione della risoluzione dalla scelta di un’inquadratura dedicata.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": [
+        "https://html.spec.whatwg.org/multipage/images.html#adaptive-images"
+      ]
+    },
+    {
+      "code": "didattica-luce-e-spazio",
+      "source": "progetti/slide/assets/slide-materials/griglie/originals/luce-e-spazio.svg",
+      "caption": "Campione originale dell’esercizio. Il cerchio giallo sul lato destro è il dettaglio da conservare.",
+      "alt": "Composizione geometrica con rettangoli blu e un cerchio giallo sul lato destro.",
+      "attribution": "CVeDI · elaborazione didattica originale",
+      "rights": "Sorgente originale del corso; nessun materiale visivo di terzi.",
+      "sources": []
+    }
+  ]
+}

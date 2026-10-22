@@ -1,0 +1,23 @@
+# Luce e spazio
+
+Contenuti simulati per l’esercizio CVeDI.
+
+Luce e spazio è un laboratorio per osservare il quartiere attraverso fotografie e appunti. Nei tre incontri seguiremo lo stesso percorso, confrontando il paesaggio in momenti diversi della giornata. Non servono competenze di disegno: sono sufficienti uno smartphone o un taccuino. Raccoglieremo dettagli, individueremo riferimenti e discuteremo come raccontare un luogo con immagini e parole. Nell’ultimo incontro ogni gruppo presenterà una sequenza. Il laboratorio è aperto a tutti; i materiali saranno condivisi durante il lavoro, senza obbligo di pubblicazione online.
+
+## Appuntamenti
+
+- 6 novembre · 15–17 · Osservare
+- 13 novembre · 15–17 · Raccogliere
+- 20 novembre · 15–17 · Comporre
+
+## Nota di servizio
+
+Ritrovo all’ingresso della biblioteca; in caso di pioggia il laboratorio si svolge al coperto.
+
+## Immagine e vincoli
+
+![Campione geometrico](immagine-luce-e-spazio.svg)
+
+Il cerchio giallo sul lato destro deve restare interamente visibile.
+
+Progettare a 960 e 360 px CSS, conservando tutti i contenuti.

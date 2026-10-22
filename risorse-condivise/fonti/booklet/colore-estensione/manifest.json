@@ -1,0 +1,2334 @@
+{
+  "schema": "cvedi-color-extension/1",
+  "date": "2026-10-16",
+  "figma": {
+    "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+    "pageId": "2613:1114",
+    "pageName": "C03.06 · Colore",
+    "sectionId": "204:8299",
+    "sourceUrl": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/Booklet?node-id=2613-1114",
+    "printedFolioRange": [
+      366,
+      417
+    ],
+    "printedBoardCountBefore": 32,
+    "printedBoardCountAfter": 52,
+    "contentBoardCountBefore": 31,
+    "contentBoardCountAfter": 51,
+    "additionalUnnumberedNoteBoardCount": 1,
+    "addedBoardCount": 20,
+    "chapterBoardCountObservedBefore": 409,
+    "chapterBoardCountAfter": 429,
+    "chapterPrintedLastPage": 521,
+    "bookletPrintedLastPage": 539
+  },
+  "newPages": [
+    {
+      "key": "properties",
+      "id": "3956:658",
+      "title": "Le proprietà del colore",
+      "folio": 367,
+      "bodyId": "3956:673",
+      "detailId": "3956:757",
+      "figureId": "3956:702",
+      "contentId": "3956:666",
+      "noteId": "3956:758",
+      "folioId": "3956:772",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    },
+    {
+      "key": "models",
+      "id": "3956:773",
+      "title": "Colore emesso e colore stampato",
+      "folio": 368,
+      "bodyId": "3956:788",
+      "detailId": "3956:857",
+      "figureId": "3956:812",
+      "contentId": "3956:781",
+      "noteId": "3956:858",
+      "folioId": "3956:870",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    },
+    {
+      "key": "wheel",
+      "id": "3956:871",
+      "title": "Leggere la ruota cromatica",
+      "folio": 369,
+      "bodyId": "3956:886",
+      "detailId": "3956:947",
+      "figureId": "3956:906",
+      "contentId": "3956:879",
+      "noteId": "3956:948",
+      "folioId": "3956:960",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    },
+    {
+      "key": "cohesive",
+      "id": "3956:961",
+      "title": "Monocromatico",
+      "folio": 370,
+      "bodyId": "3956:976",
+      "detailId": "3956:1057",
+      "figureId": "3956:1006",
+      "contentId": "3956:969",
+      "noteId": "3956:1058",
+      "folioId": "3956:1070",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    },
+    {
+      "key": "color-371",
+      "id": "3997:23912",
+      "title": "Monocromatico: esempi",
+      "folio": 371,
+      "bodyId": "3997:23919",
+      "detailId": "3997:23921",
+      "figureId": "3997:23920",
+      "contentId": "3997:23915",
+      "noteId": "3997:23922",
+      "folioId": "3997:23923"
+    },
+    {
+      "key": "color-372",
+      "id": "3997:24046",
+      "title": "Analogo",
+      "folio": 372,
+      "bodyId": "3997:24053",
+      "detailId": "3997:24055",
+      "figureId": "3997:24054",
+      "contentId": "3997:24049",
+      "noteId": "3997:24056",
+      "folioId": "3997:24057"
+    },
+    {
+      "key": "color-373",
+      "id": "3997:24195",
+      "title": "Analogo: esempi",
+      "folio": 373,
+      "bodyId": "3997:24202",
+      "detailId": "3997:24204",
+      "figureId": "3997:24203",
+      "contentId": "3997:24198",
+      "noteId": "3997:24205",
+      "folioId": "3997:24206"
+    },
+    {
+      "key": "contrast",
+      "id": "3956:1071",
+      "title": "Complementare",
+      "folio": 374,
+      "bodyId": "3956:1086",
+      "detailId": "3956:1187",
+      "figureId": "3956:1126",
+      "contentId": "3956:1079",
+      "noteId": "3956:1188",
+      "folioId": "3956:1200",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    },
+    {
+      "key": "color-372",
+      "id": "3989:1548",
+      "title": "Complementare: esempi",
+      "folio": 375,
+      "bodyId": "3989:1555",
+      "detailId": "3989:1557",
+      "figureId": "3989:1556",
+      "contentId": "3989:1551",
+      "noteId": "3989:1558",
+      "folioId": "3989:1559"
+    },
+    {
+      "key": "color-376",
+      "id": "3997:24415",
+      "title": "Complementare divergente",
+      "folio": 376,
+      "bodyId": "3997:24422",
+      "detailId": "3997:24424",
+      "figureId": "3997:24423",
+      "contentId": "3997:24418",
+      "noteId": "3997:24425",
+      "folioId": "3997:24426"
+    },
+    {
+      "key": "color-377",
+      "id": "3997:24564",
+      "title": "Complementare divergente: esempi",
+      "folio": 377,
+      "bodyId": "3997:24571",
+      "detailId": "3997:24573",
+      "figureId": "3997:24572",
+      "contentId": "3997:24567",
+      "noteId": "3997:24574",
+      "folioId": "3997:24575"
+    },
+    {
+      "key": "color-378",
+      "id": "3997:24698",
+      "title": "Triadico",
+      "folio": 378,
+      "bodyId": "3997:24705",
+      "detailId": "3997:24707",
+      "figureId": "3997:24706",
+      "contentId": "3997:24701",
+      "noteId": "3997:24708",
+      "folioId": "3997:24709"
+    },
+    {
+      "key": "color-373",
+      "id": "3989:1731",
+      "title": "Triadico: esempi",
+      "folio": 379,
+      "bodyId": "3989:1738",
+      "detailId": "3989:1740",
+      "figureId": "3989:1739",
+      "contentId": "3989:1734",
+      "noteId": "3989:1741",
+      "folioId": "3989:1742"
+    },
+    {
+      "key": "roles",
+      "id": "3956:1201",
+      "title": "Dalla palette ai ruoli",
+      "folio": 380,
+      "bodyId": "3956:1216",
+      "detailId": "3956:1295",
+      "figureId": "3956:1245",
+      "contentId": "3956:1209",
+      "noteId": "3956:1296",
+      "folioId": "3956:1308",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    },
+    {
+      "key": "culture-394",
+      "id": "4035:12265",
+      "title": "Leggere una mappa culturale",
+      "folio": 394,
+      "figureId": "4039:1429",
+      "bodyIds": [
+        "4039:1428",
+        "4039:1464"
+      ],
+      "captionId": "I4039:1429;3165:600;4039:1458;3164:51;4039:1463",
+      "noteId": "I4039:1407;3189:4586;4039:1425",
+      "folioId": "4039:1465"
+    },
+    {
+      "key": "culture-395",
+      "id": "4035:12266",
+      "title": "Rosso e bianco: conta il contesto",
+      "folio": 395,
+      "figureId": "4039:1500",
+      "bodyIds": [
+        "4039:1499",
+        "4039:1540"
+      ],
+      "captionId": "I4039:1500;3165:600;4039:1534;3164:51;4039:1539",
+      "noteId": "I4039:1480;3189:4586;4039:1496",
+      "folioId": "4039:1541"
+    },
+    {
+      "key": "culture-396",
+      "id": "4035:12267",
+      "title": "Il rosso nella campagna IKEA",
+      "folio": 396,
+      "figureId": "4039:1576",
+      "bodyIds": [
+        "4039:1575",
+        "4039:1606"
+      ],
+      "captionId": "I4039:1576;3165:600;4039:1600;3164:51;4039:1605",
+      "noteId": "I4039:1556;3189:4586;4039:1572",
+      "folioId": "4039:1607"
+    },
+    {
+      "key": "culture-397",
+      "id": "4035:12268",
+      "title": "Confrontare le campagne, poi verificare",
+      "folio": 397,
+      "figureId": "4039:1642",
+      "bodyIds": [
+        "4039:1641",
+        "4039:1672"
+      ],
+      "captionId": "I4039:1642;3165:600;4039:1666;3164:51;4039:1671",
+      "noteId": "I4039:1622;3189:4586;4039:1638",
+      "folioId": "4039:1673"
+    },
+    {
+      "key": "themes",
+      "id": "3956:1309",
+      "title": "La stessa interfaccia in chiaro e scuro",
+      "folio": 414,
+      "bodyId": "3956:1324",
+      "detailId": "3956:1391",
+      "figureId": "3956:1347",
+      "contentId": "3956:1317",
+      "noteId": "3956:1392",
+      "folioId": "3956:1404",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    },
+    {
+      "key": "reference",
+      "id": "3956:1405",
+      "title": "Dal riferimento alla schermata",
+      "folio": 415,
+      "bodyId": "3956:1420",
+      "detailId": "3956:1499",
+      "figureId": "3956:1449",
+      "contentId": "3956:1413",
+      "noteId": "3956:1500",
+      "folioId": "3956:1512",
+      "nativeEvidenceBasis": "Precedente ricognizione conservata; la prova corrente è reports/colore-verifica/esempi/verifica.json."
+    }
+  ],
+  "sequence": [
+    "198:5134",
+    "3956:658",
+    "3956:773",
+    "3956:871",
+    "3956:961",
+    "3997:23912",
+    "3997:24046",
+    "3997:24195",
+    "3956:1071",
+    "3989:1548",
+    "3997:24415",
+    "3997:24564",
+    "3997:24698",
+    "3989:1731",
+    "3956:1201",
+    "198:5153",
+    "198:5166",
+    "198:5238",
+    "198:5181",
+    "198:5253",
+    "198:5196",
+    "198:5268",
+    "198:5223",
+    "198:5296",
+    "198:5211",
+    "198:5283",
+    "198:5311",
+    "198:5419",
+    "4035:12265",
+    "4035:12266",
+    "4035:12267",
+    "4035:12268",
+    "198:5321",
+    "198:5429",
+    "198:5335",
+    "198:5441",
+    "198:5355",
+    "198:5453",
+    "198:5371",
+    "198:5462",
+    "198:5403",
+    "198:5480",
+    "198:5387",
+    "198:5471",
+    "198:5489",
+    "198:5526",
+    "198:5504",
+    "198:5541",
+    "3956:1309",
+    "3956:1405",
+    "198:5515",
+    "198:5553",
+    "3086:11575"
+  ],
+  "figureNumbering": {
+    "range": [
+      196,
+      237
+    ],
+    "count": 42,
+    "lastNumberedFigureBeforeHierarchy": "3.180",
+    "precedingHierarchyFigureCount": 15,
+    "figures": [
+      {
+        "number": 196,
+        "frameId": "3956:658",
+        "instanceId": "3956:702",
+        "captionId": "I3956:702;3165:600;3956:756;3164:51;3956:755",
+        "captionText": "Figura 3.196 — Un parametro alla volta: variazioni di tonalità, saturazione e valore nel modello HSV.",
+        "referenceTextIds": [
+          "3956:673"
+        ]
+      },
+      {
+        "number": 197,
+        "frameId": "3956:773",
+        "instanceId": "3956:812",
+        "captionId": "I3956:812;3165:600;3956:856;3164:51;3956:855",
+        "captionText": "Figura 3.197 — Schemi illustrativi di RGB, CMY e primari RYB; le sovrapposizioni non simulano una prova di stampa.",
+        "referenceTextIds": [
+          "3956:788"
+        ]
+      },
+      {
+        "number": 198,
+        "frameId": "3956:871",
+        "instanceId": "3956:906",
+        "captionId": "I3956:906;3165:600;3956:946;3164:51;3956:945",
+        "captionText": "Figura 3.198 — Ruote ricreate con cerchi e tracciati nativi: RGB/HSV (a sinistra) e RYB tradizionale (a destra). Le terne grandi indicano i primari del riferimento.",
+        "referenceTextIds": [
+          "3956:886"
+        ]
+      },
+      {
+        "number": 199,
+        "frameId": "3956:961",
+        "instanceId": "3956:1006",
+        "captionId": "I3956:1006;3165:600;3956:1056;3164:51;3956:1055",
+        "captionText": "Figura 3.199 — Schema monocromatico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i tre campioni interni variano saturazione e valore.",
+        "referenceTextIds": [
+          "3956:976"
+        ]
+      },
+      {
+        "number": 200,
+        "frameId": "3997:23912",
+        "instanceId": "3997:23920",
+        "captionId": "I3997:23920;3165:600;3997:23927;3164:51;3997:23929",
+        "captionText": "Figura 3.200 — A · SMARTWATER; B · NETLIFE RESEARCH. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+        "referenceTextIds": [
+          "3997:23919"
+        ]
+      },
+      {
+        "number": 201,
+        "frameId": "3997:24046",
+        "instanceId": "3997:24054",
+        "captionId": "I3997:24054;3165:600;3997:24061;3164:51;3997:24063",
+        "captionText": "Figura 3.201 — Schema analogo sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+        "referenceTextIds": [
+          "3997:24053"
+        ]
+      },
+      {
+        "number": 202,
+        "frameId": "3997:24195",
+        "instanceId": "3997:24203",
+        "captionId": "I3997:24203;3165:600;3997:24210;3164:51;3997:24212",
+        "captionText": "Figura 3.202 — A · BOOST; B · OMNIUM. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+        "referenceTextIds": [
+          "3997:24202"
+        ]
+      },
+      {
+        "number": 203,
+        "frameId": "3956:1071",
+        "instanceId": "3956:1126",
+        "captionId": "I3956:1126;3165:600;3956:1186;3164:51;3956:1185",
+        "captionText": "Figura 3.203 — Schema complementare sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+        "referenceTextIds": [
+          "3956:1086"
+        ]
+      },
+      {
+        "number": 204,
+        "frameId": "3989:1548",
+        "instanceId": "3989:1556",
+        "captionId": "I3989:1556;3165:600;3989:1563;3164:51;3989:1565",
+        "captionText": "Figura 3.204 — A · SÉRIE DÉCOUVERTES; B · THE ANCIENT WORLD. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+        "referenceTextIds": [
+          "3989:1555"
+        ]
+      },
+      {
+        "number": 205,
+        "frameId": "3997:24415",
+        "instanceId": "3997:24423",
+        "captionId": "I3997:24423;3165:600;3997:24430;3164:51;3997:24432",
+        "captionText": "Figura 3.205 — Schema complementare divergente sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+        "referenceTextIds": [
+          "3997:24422"
+        ]
+      },
+      {
+        "number": 206,
+        "frameId": "3997:24564",
+        "instanceId": "3997:24572",
+        "captionId": "I3997:24572;3165:600;3997:24579;3164:51;3997:24581",
+        "captionText": "Figura 3.206 — A · NEVERLAND; B · SKIN HEALTH ALLIANCE. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+        "referenceTextIds": [
+          "3997:24571"
+        ]
+      },
+      {
+        "number": 207,
+        "frameId": "3997:24698",
+        "instanceId": "3997:24706",
+        "captionId": "I3997:24706;3165:600;3997:24713;3164:51;3997:24715",
+        "captionText": "Figura 3.207 — Schema triadico sulla ruota HSV. I cerchi grandi indicano le tinte selezionate; i collegamenti ne mostrano la relazione geometrica.",
+        "referenceTextIds": [
+          "3997:24705"
+        ]
+      },
+      {
+        "number": 208,
+        "frameId": "3989:1731",
+        "instanceId": "3989:1739",
+        "captionId": "I3989:1739;3165:600;3989:1746;3164:51;3989:1748",
+        "captionText": "Figura 3.208 — A · SECRETKEY; B · SMI · CONFRONTO. Screenshot storici dal booklet, ed. dicembre 2024. Campioni cromatici indicativi, non misurati.",
+        "referenceTextIds": [
+          "3989:1738"
+        ]
+      },
+      {
+        "number": 209,
+        "frameId": "3956:1201",
+        "instanceId": "3956:1245",
+        "captionId": "I3956:1245;3165:600;3956:1294;3164:51;3956:1293",
+        "captionText": "Figura 3.209 — GOV.UK Design System: riepilogo, messaggio e bordo rendono riconoscibile l’errore insieme al testo. Screenshot dell’esempio ufficiale, 16 ottobre 2026. © Crown copyright, OGL v3.0.",
+        "referenceTextIds": [
+          "3956:1216"
+        ]
+      },
+      {
+        "number": 210,
+        "frameId": "198:5153",
+        "instanceId": "3240:358",
+        "captionId": "I3240:358;3165:600;3240:385;3164:51;3240:388",
+        "captionText": "Figura 3.210 — La stessa scena interpretata con colori caldi e colori freddi.",
+        "referenceTextIds": [
+          "198:5163"
+        ]
+      },
+      {
+        "number": 211,
+        "frameId": "198:5166",
+        "instanceId": "3240:403",
+        "captionId": "I3240:403;3165:600;3240:427;3164:51;3240:430",
+        "captionText": "Figura 3.211 — Il rosso nelle identità visive di Adobe, Canon, Coca-Cola e Marvel.",
+        "referenceTextIds": [
+          "198:5174"
+        ]
+      },
+      {
+        "number": 212,
+        "frameId": "198:5238",
+        "instanceId": "3240:445",
+        "captionId": "I3240:445;3165:600;3240:469;3164:51;3240:472",
+        "captionText": "Figura 3.212 — L’arancione nelle identità visive di easyJet, Etsy, SoundCloud e Nickelodeon.",
+        "referenceTextIds": [
+          "198:5247"
+        ]
+      },
+      {
+        "number": 213,
+        "frameId": "198:5181",
+        "instanceId": "3240:487",
+        "captionId": "I3240:487;3165:600;3240:511;3164:51;3240:514",
+        "captionText": "Figura 3.213 — Il giallo nelle identità visive di Nikon, CAT, Ferrari e Hertz.",
+        "referenceTextIds": [
+          "198:5190"
+        ]
+      },
+      {
+        "number": 214,
+        "frameId": "198:5253",
+        "instanceId": "3240:529",
+        "captionId": "I3240:529;3165:600;3240:553;3164:51;3240:556",
+        "captionText": "Figura 3.214 — Il verde nelle identità visive di Lacoste, Spotify, Tic Tac e Sprite.",
+        "referenceTextIds": [
+          "198:5262"
+        ]
+      },
+      {
+        "number": 215,
+        "frameId": "198:5196",
+        "instanceId": "3240:571",
+        "captionId": "I3240:571;3165:600;3240:595;3164:51;3240:598",
+        "captionText": "Figura 3.215 — Il blu nelle identità visive di American Express, Oral-B, Zurich e Allianz.",
+        "referenceTextIds": [
+          "198:5205"
+        ]
+      },
+      {
+        "number": 216,
+        "frameId": "198:5268",
+        "instanceId": "3240:613",
+        "captionId": "I3240:613;3165:600;3240:637;3164:51;3240:640",
+        "captionText": "Figura 3.216 — Il marrone nelle identità visive di M&M’s, Nespresso, Pernigotti e UPS.",
+        "referenceTextIds": [
+          "198:5277"
+        ]
+      },
+      {
+        "number": 217,
+        "frameId": "198:5223",
+        "instanceId": "3240:655",
+        "captionId": "I3240:655;3165:600;3240:679;3164:51;3240:682",
+        "captionText": "Figura 3.217 — Il rosa nelle identità visive di Cosmopolitan, Donut King, Barbie e Telekom.",
+        "referenceTextIds": [
+          "198:5232"
+        ]
+      },
+      {
+        "number": 218,
+        "frameId": "198:5296",
+        "instanceId": "3240:697",
+        "captionId": "I3240:697;3165:600;3240:721;3164:51;3240:724",
+        "captionText": "Figura 3.218 — Il viola nelle identità visive di Milka, Claire’s, Twitch e Yahoo.",
+        "referenceTextIds": [
+          "198:5305"
+        ]
+      },
+      {
+        "number": 219,
+        "frameId": "198:5211",
+        "instanceId": "3240:735",
+        "captionId": "I3240:735;3165:600;3240:757;3164:51;3240:760",
+        "captionText": "Figura 3.219 — Il bianco nei marchi di Armani Exchange e Apple su fondo scuro.",
+        "referenceTextIds": [
+          "198:5220"
+        ]
+      },
+      {
+        "number": 220,
+        "frameId": "198:5283",
+        "instanceId": "3240:773",
+        "captionId": "I3240:773;3165:600;3240:796;3164:51;3240:799",
+        "captionText": "Figura 3.220 — Il nero nelle identità visive di Prada, Chanel e Bentley.",
+        "referenceTextIds": [
+          "198:5292"
+        ]
+      },
+      {
+        "number": 221,
+        "frameId": "4035:12265",
+        "instanceId": "4039:1429",
+        "captionId": "I4039:1429;3165:600;4039:1458;3164:51;4039:1463",
+        "captionText": "Figura 3.221 — Colours in Culture, David McCandless e AlwaysWithHonor.com, v1.0, aprile 2009. Originale recuperato dal booklet di dicembre 2024, p. 148.",
+        "referenceTextIds": [
+          "4039:1428"
+        ]
+      },
+      {
+        "number": 222,
+        "frameId": "4035:12266",
+        "instanceId": "4039:1500",
+        "captionId": "I4039:1500;3165:600;4039:1534;3164:51;4039:1539",
+        "captionText": "Figura 3.222 — Lanterne rosse; persone in abiti bianchi con ritratti e fiori. Slide d’archivio di Visual design, pp. 36–37. Autori, luoghi e date delle fotografie non indicati nel materiale.",
+        "referenceTextIds": [
+          "4039:1499"
+        ]
+      },
+      {
+        "number": 223,
+        "frameId": "4035:12267",
+        "instanceId": "4039:1576",
+        "captionId": "I4039:1576;3165:600;4039:1600;3164:51;4039:1605",
+        "captionText": "Figura 3.223 — IKEA Cina, campagna per il Capodanno lunare. Schermata storica conservata nel materiale 2022–2023; giorno di acquisizione non documentato. © Inter IKEA Systems B.V.",
+        "referenceTextIds": [
+          "4039:1575"
+        ]
+      },
+      {
+        "number": 224,
+        "frameId": "4035:12268",
+        "instanceId": "4039:1642",
+        "captionId": "I4039:1642;3165:600;4039:1666;3164:51;4039:1671",
+        "captionText": "Figura 3.224 — IKEA Svezia, «Just nu på IKEA»: offerte e vita quotidiana. Schermata storica conservata nel materiale 2022–2023; giorno di acquisizione non documentato. © Inter IKEA Systems B.V.",
+        "referenceTextIds": [
+          "4039:1641"
+        ]
+      },
+      {
+        "number": 225,
+        "frameId": "198:5429",
+        "instanceId": "3240:808",
+        "captionId": "I3240:808;3165:613;3240:834;3164:60;3240:837",
+        "captionText": "Figura 3.225 — Copertina di Interaction of Color di Josef Albers.",
+        "referenceTextIds": [
+          "198:5440"
+        ]
+      },
+      {
+        "number": 226,
+        "frameId": "198:5441",
+        "instanceId": "3242:18993",
+        "captionId": "I3242:18993;3165:600;3242:19014;3164:51;3242:19017",
+        "captionText": "Figura 3.226 — Interazione del colore: superfici sovrapposte e contrasti cromatici.",
+        "referenceTextIds": [
+          "198:5344"
+        ]
+      },
+      {
+        "number": 227,
+        "frameId": "198:5453",
+        "instanceId": "3242:19026",
+        "captionId": "I3242:19026;3165:600;3242:19047;3164:51;3242:19050",
+        "captionText": "Figura 3.227 — Interazione del colore: la percezione cambia con lo sfondo.",
+        "referenceTextIds": [
+          "198:5364"
+        ]
+      },
+      {
+        "number": 228,
+        "frameId": "198:5462",
+        "instanceId": "3242:19059",
+        "captionId": "I3242:19059;3165:600;3242:19080;3164:51;3242:19083",
+        "captionText": "Figura 3.228 — Interazione del colore: relazioni tra campi cromatici e piccoli quadrati.",
+        "referenceTextIds": [
+          "198:5380"
+        ]
+      },
+      {
+        "number": 229,
+        "frameId": "198:5480",
+        "instanceId": "3242:19092",
+        "captionId": "I3242:19092;3165:600;3242:19113;3164:51;3242:19116",
+        "captionText": "Figura 3.229 — Contrasto tra forma, colore e sfondo in due campi visivi.",
+        "referenceTextIds": [
+          "198:5412"
+        ]
+      },
+      {
+        "number": 230,
+        "frameId": "198:5471",
+        "instanceId": "3242:19125",
+        "captionId": "I3242:19125;3165:600;3242:19146;3164:51;3242:19149",
+        "captionText": "Figura 3.230 — La percezione del contrasto cambia con il colore dello sfondo.",
+        "referenceTextIds": [
+          "198:5396"
+        ]
+      },
+      {
+        "number": 231,
+        "frameId": "198:5489",
+        "instanceId": "3242:19160",
+        "captionId": "I3242:19160;3165:600;3242:19182;3164:51;3242:19185",
+        "captionText": "Figura 3.231 — Distribuzione dei colori dominanti, secondari e d’accento in due esempi cinematografici.",
+        "referenceTextIds": [
+          "198:5501"
+        ]
+      },
+      {
+        "number": 232,
+        "frameId": "198:5526",
+        "instanceId": "3242:19200",
+        "captionId": "I3242:19200;3165:600;3242:19224;3164:51;3242:19227",
+        "captionText": "Figura 3.232 — Palette cromatiche ricavate da ghiaccio, foresta, deserto e fiori.",
+        "referenceTextIds": [
+          "198:5540"
+        ]
+      },
+      {
+        "number": 233,
+        "frameId": "198:5504",
+        "instanceId": "3242:19236",
+        "captionId": "I3242:19236;3165:600;3242:19257;3164:51;3242:19260",
+        "captionText": "Figura 3.233 — Alternative al nero puro per il testo su fondo chiaro.",
+        "referenceTextIds": [
+          "198:5512"
+        ]
+      },
+      {
+        "number": 234,
+        "frameId": "198:5541",
+        "instanceId": "3242:19271",
+        "captionId": "I3242:19271;3165:600;3242:19293;3164:51;3242:19296",
+        "captionText": "Figura 3.234 — Ombre e luci: colori ricavati dall’ambiente e dalle superfici.",
+        "referenceTextIds": [
+          "198:5549"
+        ]
+      },
+      {
+        "number": 235,
+        "frameId": "3956:1309",
+        "instanceId": "3956:1347",
+        "captionId": "I3956:1347;3165:600;3956:1390;3164:51;3956:1389",
+        "captionText": "Figura 3.235 — Carbon Design System: lo stesso select nei temi White e Gray 100. I numeri nell’immagine rimandano ai ruoli documentati da IBM. Immagine ufficiale, consultata il 16 ottobre 2026. © IBM.",
+        "referenceTextIds": [
+          "3956:1324"
+        ]
+      },
+      {
+        "number": 236,
+        "frameId": "3956:1405",
+        "instanceId": "3956:1449",
+        "captionId": "I3956:1449;3165:600;3956:1498;3164:51;3956:1497",
+        "captionText": "Figura 3.236 — Riferimento già presente nel booklet, palette adattata e confronto sul testo del pulsante. Caso simulato.",
+        "referenceTextIds": [
+          "3956:1420"
+        ]
+      },
+      {
+        "number": 237,
+        "frameId": "198:5515",
+        "instanceId": "3242:19305",
+        "captionId": "I3242:19305;3165:600;3242:19326;3164:51;3242:19329",
+        "captionText": "Figura 3.237 — Grigi neutri e grigi tonalizzati applicati al testo.",
+        "referenceTextIds": [
+          "198:5523"
+        ]
+      }
+    ],
+    "globalIndex": "risorse-condivise/fonti/booklet/capitolo-3/figure-index.json",
+    "currentVerification": "reports/c03-numerazione-figure/2026-10-16/manifest.json"
+  },
+  "integration": {
+    "revisedExistingTextBlocks": 22,
+    "oldFolioToNew": [
+      {
+        "before": [
+          366,
+          366
+        ],
+        "after": [
+          366,
+          366
+        ]
+      },
+      {
+        "before": [
+          367,
+          395
+        ],
+        "shift": 14
+      },
+      {
+        "before": [
+          396,
+          397
+        ],
+        "shift": 16
+      }
+    ],
+    "textRedistributedFrom": "198:5523",
+    "textRedistributedTo": [
+      "3956:1391",
+      "3956:1499"
+    ],
+    "correctedCaption": {
+      "frameId": "198:5489",
+      "folio": 402,
+      "topic": "60–30–10",
+      "content": "Distribuzione dei colori dominanti, secondari e d’accento in due esempi cinematografici."
+    },
+    "nativeGraphicRepair": {
+      "pageFolio": 388,
+      "nodeIds": [
+        "198:5346",
+        "198:5348"
+      ],
+      "verticalShift": -150,
+      "arrowToTextGap": 21.473167419433594
+    },
+    "cultureInsertion": {
+      "afterFolio": 393,
+      "count": 4,
+      "followingFolioShift": 4
+    }
+  },
+  "designSystem": {
+    "families": [
+      "Geom",
+      "Merriweather",
+      "Inter"
+    ],
+    "body": "Merriweather Light 10/15",
+    "title": "Geom Bold 20/AUTO",
+    "caption": "Merriweather Light Italic 7/12",
+    "source": "Merriweather Light Italic 7/10",
+    "diagramLabel": "Geom Regular 8/11",
+    "components": [
+      "Booklet / Testata editoriale",
+      "Booklet / Titolo editoriale",
+      "Booklet / Figura",
+      "Booklet / Caption",
+      "Booklet / Nota a piè di pagina"
+    ],
+    "chapterColorVariable": "VariableID:2883:67",
+    "pageSize": [
+      496.06298828125,
+      657.6378173828125
+    ],
+    "trimSize": [
+      479.05511474609375,
+      640.6299438476562
+    ],
+    "bleed": 8.503936767578125,
+    "subtitle": "Geom Bold 16/AUTO",
+    "folio": "Merriweather Light 9/12",
+    "artOpening": "Inter Bold 44/AUTO"
+  },
+  "reusedImage": {
+    "file": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-152-01-source-05.jpeg",
+    "bytes": 646632,
+    "sha1": "b78de045f3eff65817b028dc08c7b5ef64ddd7f7",
+    "sha256": "15faa3dcfb1166cd6551d6fb4fd7a08407393aa7f2b9f2b0762c9f9845a23ac4",
+    "imageHash": "b78de045f3eff65817b028dc08c7b5ef64ddd7f7",
+    "figmaNodeId": "I3956:1449;3165:593;3956:1464",
+    "sourceFigureId": "2142:1499",
+    "rights": "Originale già conservato nel materiale didattico; nessuna nuova licenza attribuita."
+  },
+  "sources": {
+    "local": [
+      {
+        "file": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+        "pages": 349,
+        "intro": "COMUNICAZIONE VISIVA E DESIGN DELLE INTERFACCE Marco Cremaschi & Giulia Rosemary Avis Materiale teorico del corso e approfondimenti A.A. 23/24 COMUNICAZIONE VISIVA E DESIGN DELLE INTERFACCE",
+        "colorMatches": [
+          {
+            "p": 20,
+            "hits": 9,
+            "intro": "INTRODUZIONE AL VISUAL DESIGN I colori sono dotati di significati culturalmente codificati, di aspetti fisico percettivi e di qualità espres- sive. Colore e con"
+          },
+          {
+            "p": 29,
+            "hits": 10,
+            "intro": "29 CAPITOLO 2 Colori simili possono essere utilizzati per raggruppare elementi correlati tra di loro all’interno di un design e la scelta del colore può addirit"
+          },
+          {
+            "p": 30,
+            "hits": 4,
+            "intro": "30 PRINCIPI SULLA GERARCHIA VISIVA La combinazione di colori caldi e freddi può creare profondità, proprio come la prospettiva. La scelta del colore è perciò es"
+          },
+          {
+            "p": 85,
+            "hits": 4,
+            "intro": "85 CAPITOLO 3 13. User Interface & Mockup Dopo che il cliente ha dato il suo benestare per i wireframe e si ha quindi tutto il funzionamento del prodotto approv"
+          },
+          {
+            "p": 93,
+            "hits": 3,
+            "intro": "CAPITOLO 4 93 Moodboard Una modalità per visualizzare e presentare il concept e il mood del vostro progetto è la cosiddet- ta moodboard. Quando parliamo di mood"
+          },
+          {
+            "p": 108,
+            "hits": 11,
+            "intro": "108 PROGETTARE CON IL COLORE La psicologia dei colori La psicologia dei colori è una branca della psicologia che studia l'influenza dei colori sull'umore e sul "
+          },
+          {
+            "p": 109,
+            "hits": 10,
+            "intro": "CAPITOLO 6 109 La ruota dei colori La ruota dei colori è uno strumento fondamentale per la combinazione dei colori. Il primo schema di colore circolare è stato "
+          },
+          {
+            "p": 110,
+            "hits": 6,
+            "intro": "110 PROGETTARE CON IL COLORE Componente del colore saturation hue: 140 value Ogni colore è costituito da tre componenti: Tonalità (Hue): indica il colore effett"
+          },
+          {
+            "p": 111,
+            "hits": 16,
+            "intro": "CAPITOLO 6 111 Modello RYB La ruota dei colori si basa su un modello colore, ovvero una strategia matematica che permette di semplificare la realtà, chiamato mo"
+          },
+          {
+            "p": 112,
+            "hits": 6,
+            "intro": "112 PROGETTARE CON IL COLORE Colour Scheme Gli schemi colore permettono di scegliere combinazioni di colori che, accostati, creano una buo- na armonia. Consider"
+          },
+          {
+            "p": 115,
+            "hits": 3,
+            "intro": "CAPITOLO 6 115 Le seguenti immagini sono di: donedone.com e omniumblockchain.com Colori analoghi: usa tre colori situati uno accanto all’altro sulla ruota dei c"
+          },
+          {
+            "p": 118,
+            "hits": 4,
+            "intro": "118 PROGETTARE CON IL COLORE Colori complementari: utilizza coppie di “colore opposti” nella ruota dei colori, ad esempio blu/giallo, per massimizzare il contra"
+          },
+          {
+            "p": 121,
+            "hits": 4,
+            "intro": "CAPITOLO 6 121 Colori Complementari Divergenti: utilizza tre colori ottenuti scegliendo un colore iniziale e prendendo i due colori adiacenti al suo complementa"
+          },
+          {
+            "p": 124,
+            "hits": 3,
+            "intro": "124 PROGETTARE CON IL COLORE Colore Triadico: si basa sull’utilizzo di tre colori che siano tra loro equidistanti. Le seguenti immagini sono di: secretykey.it e"
+          },
+          {
+            "p": 127,
+            "hits": 10,
+            "intro": "CAPITOLO 6 127 Il significato dei colori La psicologia dei colori nasce perché i colori possono stimolare la mente umana provocando del- le emozioni particolari"
+          },
+          {
+            "p": 128,
+            "hits": 3,
+            "intro": "128 PROGETTARE CON IL COLORE Colori freddi In generale, i colori freddi suggeriscono calma, riposo e contemplazione, ma anche, a seconda dei casi, tristezza e m"
+          },
+          {
+            "p": 129,
+            "hits": 3,
+            "intro": "CAPITOLO 6 129 Colori neutri I colori neutri, ovvero i colori che non sono né caldi né freddi, sono il bianco, il nero e tutte le tonalità di grigio che vi stan"
+          },
+          {
+            "p": 134,
+            "hits": 4,
+            "intro": "134 PROGETTARE CON IL COLORE Il verde viene spesso considerato il colore della natura, dell'equilibrio e dell'armonia. Porta sen- sazioni calmanti e rigeneranti"
+          },
+          {
+            "p": 135,
+            "hits": 3,
+            "intro": "CAPITOLO 6 135 Il blu è il colore della fiducia e spesso indica affidabilità e per questo viene spesso utilizzato come colore principale nella brand identity de"
+          },
+          {
+            "p": 136,
+            "hits": 4,
+            "intro": "136 PROGETTARE CON IL COLORE Il viola è stato a lungo associato alla regalità e alla ricchezza poiché molti re indossavano abiti viola. È un colore utile per pr"
+          },
+          {
+            "p": 138,
+            "hits": 4,
+            "intro": "138 PROGETTARE CON IL COLORE Il marrone è il colore della sicurezza e della protezione come lo è la madre Terra. Questo colore è spesso utilizzato come colore d"
+          },
+          {
+            "p": 141,
+            "hits": 15,
+            "intro": "CAPITOLO 6 141 Interaction of Colors: lo studio di Albers Josef Albers e la Bauhaus Nei primi decenni del XX secolo venne istituita, in Germania, la Staatliches"
+          },
+          {
+            "p": 143,
+            "hits": 3,
+            "intro": "CAPITOLO 6 143 Gli sfondi invertiti Osservando con attenzione il tratto superiore che unisce le due X possiamo dedurre che il colore è ugua- le. Sembrano esserc"
+          },
+          {
+            "p": 144,
+            "hits": 5,
+            "intro": "144 PROGETTARE CON IL COLORE La sottrazione del colore Focalizzando lo sguardo sui singoli rettangoli interni, si nota come i loro colori siano differenti, benc"
+          },
+          {
+            "p": 145,
+            "hits": 4,
+            "intro": "CAPITOLO 6 145 Il contrasto successivo Fissate per almeno 30 secondi il punto posto nel cerchio rosso e, trascorso il tempo, spostate immedia- tamente lo sguard"
+          },
+          {
+            "p": 146,
+            "hits": 5,
+            "intro": "146 PROGETTARE CON IL COLORE L’effetto Bezold “Il rosso con il bianco sembra molto più chiaro del rosso con il nero, soprattutto a distanza.” Un colore, se comb"
+          },
+          {
+            "p": 147,
+            "hits": 5,
+            "intro": "CAPITOLO 6 147 Significati culturali del colore Prestare attenzione al target di riferimento per il quale si progetta è fondamentale per la buona riuscita del p"
+          },
+          {
+            "p": 149,
+            "hits": 3,
+            "intro": "CAPITOLO 6 149 Consigli pratici La regola del 60-30-10 La regola del 60-30-10 permette di creare un’interfaccia con colori ben bilanciati tra loro. Questa regol"
+          },
+          {
+            "p": 152,
+            "hits": 4,
+            "intro": "152 PROGETTARE CON IL COLORE Lasciati ispirare dalla natura L'occhio umano può vedere più di 10 milioni di colori. Sfrutta l’armonia e il contrasto dei colori d"
+          },
+          {
+            "p": 154,
+            "hits": 7,
+            "intro": "154 PROGETTARE CON IL COLORE grigio tonalizzato permette di cambiare il tono finale del prodotto. Grigio tonalizzato Le due scritte, sebbene appaiano entrambe n"
+          },
+          {
+            "p": 158,
+            "hits": 4,
+            "intro": "158 CONTESTO CULTURALE NEL WEB DESIGN Questa dimensione si riflette nel Web design secondo i seguenti aspetti. Alta distanza dal potere ▶ Informazioni altamente"
+          },
+          {
+            "p": 189,
+            "hits": 3,
+            "intro": "CAPITOLO 8 189 Storia della tipografia e del type design È possibile far risalire la nascita della disciplina tipografica attorno alla metà del XV secolo, quand"
+          },
+          {
+            "p": 309,
+            "hits": 3,
+            "intro": "309 CAPITOLO 11 Contrasto colore Trovare il giusto contrasto colore tra i diversi elementi di un sito web/app è fondamentale per gli utenti con disabilità visiv"
+          },
+          {
+            "p": 322,
+            "hits": 3,
+            "intro": "Ci sono diversi modi per far percepire elementi come simili e quindi correlati. Tra cui la somiglianza di colore, dimensione, forma, texture; alcuni di essi com"
+          }
+        ],
+        "bytes": 144226774,
+        "sha256": "3d627dcf3d5aec9ad2a5953417303b4f990344deb0ae91a74df6c73e6664dd9b"
+      },
+      {
+        "file": "materiali/approfondimenti/2025-2026/bison-angelica-881620.pdf",
+        "pages": 23,
+        "intro": "Approfondimento di Comunicazione Visiva e Design delle Interfacce a.a. 2025/2026 Traccia: “Design, composizione dell'immagine e palette cromatica nelle inquadrature cinematograﬁche” Com unicazione visiva e design dell’im m agine cinem atograﬁca Angelica Bison Matr. 881620 Indice Introduzione........",
+        "colorMatches": [
+          {
+            "p": 4,
+            "hits": 4,
+            "intro": "coerente, agevolando inoltre la comprensione della storia (DeGuzman, 2023). Tutte le scelte visuali, incluse la palette cromatica e la composizione dell’immagin"
+          },
+          {
+            "p": 7,
+            "hits": 16,
+            "intro": "talvolta in modo esagerato, per riﬂettere uno stato emotivo o un cambiamento nel personaggio nel corso della storia (Crawford, 2021). Il colore com e dispositiv"
+          },
+          {
+            "p": 12,
+            "hits": 5,
+            "intro": "Figura 3. Madame D.: costume, acconciatura e trucco come indicatori di status e caratterizzazione. Il colore tra m em oria e decadim ento Lo stile cinematograﬁc"
+          },
+          {
+            "p": 13,
+            "hits": 6,
+            "intro": "Il passaggio al 1968 lascia spazio a una palette meno luminosa, caratterizzata da arancioni bruciati, verdi opachi e toni legnacei. Rispetto all’inizio, le tona"
+          },
+          {
+            "p": 14,
+            "hits": 4,
+            "intro": "Si ritrova un esempio di questa categoria nella scena delle scatole di dolci Mendl’s, dove i toni pastello del rosa e del celeste si mescolano armoniosamente, c"
+          },
+          {
+            "p": 21,
+            "hits": 6,
+            "intro": "Bibliograﬁa Anderson, W. (Regista). (2014). The Grand Budapest Hotel [Film]. Fox Searchlight Pictures. Attademo, G. (2020). Colore e/è narrazione. Il ruolo narr"
+          }
+        ],
+        "bytes": 1429348,
+        "sha256": "7b26df33517a799898a61f4314abf631cb78a307497e46a411c8602c5aa30f40"
+      },
+      {
+        "file": "materiali/approfondimenti/2022-2023/padilla-873069-palette-cromatica-cinema.pdf",
+        "pages": 39,
+        "intro": "Università degli Studi di Milano Bicocca Comunicazione Visiva e Design delle Interfacce a.a. 2022/2023 Prof.: Marco Cremaschi, Elia Guarnieri, Andrea Primo Pierotti Deborah Padilla, 873069 (In copertina)Fallen Angels, 1995 di Wong Kar-wai",
+        "colorMatches": [
+          {
+            "p": 5,
+            "hits": 8,
+            "intro": "TOPIC 0 - DESIGN - movimento d’immagini - forma - mood 0 1 TOPIC 1 - COLORE 0 2 TOPIC 2 - COMPOSIZIONE IMMAGINI 0 3 CONCLUSIONI 0 4 Preistoria e i primi passi l"
+          },
+          {
+            "p": 13,
+            "hits": 7,
+            "intro": "TOPIC 1 - COLORE Gli effetti psicologici che i colori provocano su di noi si trovano in tutte le arti visive da migliaia di anni e ovviamente non poteva mancare"
+          },
+          {
+            "p": 14,
+            "hits": 12,
+            "intro": "Quando si parla di colore non si possono tralasciare le sue componenti: tonalità, saturazione e luminosità. La tonalità è definita dalla lunghezza d’onda della "
+          },
+          {
+            "p": 15,
+            "hits": 4,
+            "intro": "I tre colori primari: Il giallo è il più luminoso e caldo. Il rosso è il più emozionale e dinamico. Il blu è il più freddo e sereno. Giallo Giallo e rosso sono "
+          },
+          {
+            "p": 16,
+            "hits": 3,
+            "intro": "Rosso Tradizionalmente, il rosso è associato a sentimenti incontrollabili e intensi come l’amore e passione romantica, pericolo, rabbia e violenza. Sono sentime"
+          },
+          {
+            "p": 17,
+            "hits": 5,
+            "intro": "DIVERSI UTILIZZI DEL COLORE NEL CINEMA I colori complementari si trovano nel lato opposto della ruota dei colori. Ad esempio: Rosso e Verde Giallo e Viola Blu e"
+          },
+          {
+            "p": 18,
+            "hits": 8,
+            "intro": "La triade di colori, uso di 3 colori: Godard usava molto questo schema, come si può vedere in Il bandito delle 11(1965), Dove ha utilizzato i colori della bandi"
+          },
+          {
+            "p": 21,
+            "hits": 4,
+            "intro": "BIANCO E NERO - rima poetica Un altro uso del colore come rafforzamento dell'ambientazione lo si trova in Paterson (2016) di Jim Jarmusch. Il film ha una strutt"
+          },
+          {
+            "p": 22,
+            "hits": 11,
+            "intro": "In The Handmaid's Tale (2017) di Bruce Miller, i colori si utilizzano nei vestiti per descrivere i diversi ruoli della società di Gilead. L'azzurro é il colore "
+          },
+          {
+            "p": 23,
+            "hits": 3,
+            "intro": "Conclusioni colore Il colore nel cinema ha una moltitudine di usi e propositi. Può immergerci in universi unici e inimmaginabili o essere un ponte di connession"
+          },
+          {
+            "p": 24,
+            "hits": 7,
+            "intro": "Nei decenni successivi, la competitività che sorgeva tra le compagnie dedicate alle pellicole negative dà luogo a esperimentazioni che ampliarono le varietà di "
+          },
+          {
+            "p": 25,
+            "hits": 3,
+            "intro": "Un esempio è ROMA (2018) di Alfonso Cuarón, nel quale una parte fondamentale del film è la casa che grazie alla rappresenza monocromatica, risulta facile farsi "
+          },
+          {
+            "p": 38,
+            "hits": 5,
+            "intro": "DESIGN, COMPOSIZIONE DELL'IMMAGINE E PALETTE CROMATICA NELLE INQUADRATURE CINEMATOGRAFICHE Sitografia -Treccani -Perché il cinema è la “settima arte”? -compoṡiz"
+          }
+        ],
+        "bytes": 4541008,
+        "sha256": "4317560ffb4a47648141040e643082e127b6fb2e9edc367ca57f2a2a49685028"
+      },
+      {
+        "file": "materiali/approfondimenti/2024-2025/martina-mazzolin-916276.pdf",
+        "pages": 22,
+        "intro": "Comunicazione visiva e design delle interfacce A.A. 2024 / 2025 Introduzione Psicologia e design: combinazione vincente Negli ultimi decenni, il rapporto tra psicologia e design ha assunto un ruolo sempre più centrale nella progettazione delle interfacce digitali. L'interazione tra l'essere umano e ",
+        "colorMatches": [
+          {
+            "p": 16,
+            "hits": 17,
+            "intro": "3 - Il ruolo del colore nel design 3.1 Psicologia del colore nella progettazione di interfacce I colori rappresentano una componente essenziale della nostra quo"
+          },
+          {
+            "p": 17,
+            "hits": 9,
+            "intro": "• Luminosità: indica quanto un colore appare chiaro o scuro. Ad esempio, esistono tonalità di verde più chiare e altre più scure, una variazione che “dipende da"
+          },
+          {
+            "p": 18,
+            "hits": 24,
+            "intro": "computer dai colori vivaci, rompendo con la tradizione dei modelli beige fino ad allora dominanti. Questa strategia ha dato nuova vita al marchio, contribuendo "
+          },
+          {
+            "p": 19,
+            "hits": 8,
+            "intro": "in base all'esperienza personale e al contesto culturale, esistono numerose leggi che dimostrano la correlazione tra colori, stati d'animo e reazioni comportame"
+          },
+          {
+            "p": 21,
+            "hits": 3,
+            "intro": "o Mullet, K., & Sano, D. (1995). Designing visual interfaces: Communication Oriented Techniques. Prentice Hall. o Mullet, K., & Sano, D. (1996). Designing Visua"
+          }
+        ],
+        "bytes": 311190,
+        "sha256": "9881a775790440f654d7dca84b84ecc869002d2b9501fe914865142e043412e0"
+      },
+      {
+        "file": "materiali/approfondimenti/2024-2025/cigagna-filippo-905418.pdf",
+        "pages": 25,
+        "intro": "L e b a s i d e l l i n g u a g g i o v i s i v o : e s p l o r a z i o n e d e g l i a s p e t t i e s p r e s s i v i e c o m u n i c a t i v i d i f o r m a , c o l o r e e i m m a g i n e i n d i v e r s i m e d i a e c o n t e s t i Cigagna Filippo mat. 906418 RAI - Radiot ele visione It aliana",
+        "colorMatches": [
+          {
+            "p": 3,
+            "hits": 13,
+            "intro": "1 INDICE INTRODUZIONE .........................................................................................................................................."
+          },
+          {
+            "p": 5,
+            "hits": 5,
+            "intro": "3 INTRODUZIONE Nel contesto dell’identità aziendale, quella visiva è sicuramente una delle m ain features che contribuisce a rendere riconoscibile il brand agli"
+          },
+          {
+            "p": 6,
+            "hits": 15,
+            "intro": "4 Il processo creativo che coinvolge questi aspetti del linguaggio visuale, deve dunque tener conto di forma, colore e immagine, così da definire un progetto gr"
+          },
+          {
+            "p": 7,
+            "hits": 19,
+            "intro": "5 2.1 Significato colori Gli aspetti emozionali legati all’utilizzo di determinate tinte colore che influiscono sugli aspetti percettivo - attentivi del cervell"
+          },
+          {
+            "p": 8,
+            "hits": 35,
+            "intro": "6 2.3 Ruota dei colori e proprietà La ruota dei colori è lo strumento , progettato nel 1666 da Sir Isaac Newton, che ci permette di comprendere come la combinaz"
+          },
+          {
+            "p": 9,
+            "hits": 22,
+            "intro": "7 Di seguit o le principali caratteristiche percettive teorizzate da J. Albers , fenomeni ed archetipi tratti dal testo Interaction of Color: • Relatività del c"
+          },
+          {
+            "p": 12,
+            "hits": 6,
+            "intro": "10 Si tratta in generale di design puliti che mettono al centro l’usabilità e l’esperienza utente, adattabili e replicabili su una molteplicità di piattaforme g"
+          },
+          {
+            "p": 13,
+            "hits": 13,
+            "intro": "11 8 IMMAGINE, FORMA E COLORE NEI MEDIA E NEI CONTESTI Abbiamo fino ad ora definito le regole generali che governano la comunicazione per immagini, l’uso dei co"
+          },
+          {
+            "p": 14,
+            "hits": 5,
+            "intro": "12 8.2 Iconografia visiva di colore e forma nei media, la trasposizione televisiva L’immagine, grazie ai suoi componenti, definisce e veicola istantaneamente me"
+          },
+          {
+            "p": 17,
+            "hits": 3,
+            "intro": "15 Se per il logo è stata scelta la forma quadrata, rivisitato e sfruttato in tutte le sue declinazioni del caso, per suggerire la categoria tematico-merceologi"
+          }
+        ],
+        "bytes": 1599888,
+        "sha256": "be89e8f858066d9dece8d6d8ba45c8bca51d59b15b2e1d1540737cbcc1a4e3f8"
+      },
+      {
+        "file": "materiali/approfondimenti/2024-2025/tresca-alice-916185.pdf",
+        "pages": 47,
+        "intro": "Le basi del linguaggio visivo: esplorazione degli aspetti espressivi e comunicativi di forma, colore e immagine in diversi media e contesti Comunicazione Visiva e Design delle Interfacce Alice Tresca Matricola: 91618 Capitolo 1. Elementi fondamentali del linguaggio visivo Forma La forma è uno degli ",
+        "colorMatches": [
+          {
+            "p": 7,
+            "hits": 16,
+            "intro": "Esempi di oggetti caratterizzati da forme naturali, come la conchiglia a forma di spirale e il cavolo romano Colore I colori sono tra gli elementi più potenti e"
+          },
+          {
+            "p": 8,
+            "hits": 3,
+            "intro": "● Rosso: è il colore più visibile nello spettro e attira immediatamente l’attenzione, in quanto stimola il sistema nervoso. Qualità espressive: trasmette energi"
+          },
+          {
+            "p": 10,
+            "hits": 5,
+            "intro": "● Arancione: combina il potere del rosso e la cordialità del giallo, attirando l'attenzione. Qualità espressive: è un colore energico e caldo che trasmette sens"
+          },
+          {
+            "p": 11,
+            "hits": 3,
+            "intro": "● Nero: è un colore con luminosità teoricamente nulla, senza tinta (per cui è detto \"colore acromatico\"). Qualità espressive: il nero è visivamente dominante e "
+          },
+          {
+            "p": 14,
+            "hits": 7,
+            "intro": "Capitolo 2. Media e contesti applicativi Il linguaggio visivo trova applicazione in una vasta gamma di media e contesti, dove elementi come colori, forme e imma"
+          },
+          {
+            "p": 18,
+            "hits": 5,
+            "intro": "CINEMA Uso del colore Shining (1980): ● Stanley Kubrick utilizza il colore in maniera simbolica per esprimere tensione, paura e la discesa nella follia dei prot"
+          },
+          {
+            "p": 21,
+            "hits": 3,
+            "intro": "Matrix (1999) ● La maggior parte del film si svolge all'interno di una simulazione al computer, chiamata matrix, che è raffigurata con tonalità verdi desaturate"
+          },
+          {
+            "p": 30,
+            "hits": 8,
+            "intro": "Esempio rappresentativo nel media del cinema: Un esempio lampante di prodotto cinematografico che usa in modo straordinario gli elementi visivi di forma, colore"
+          },
+          {
+            "p": 36,
+            "hits": 4,
+            "intro": "ARTE Di seguito verranno presentati alcuni esempi di opere d'arte che evidenziano l'uso espressivo del colore, delle forme e delle immagini evocative, dimostran"
+          },
+          {
+            "p": 38,
+            "hits": 6,
+            "intro": "“Quadrati con cerchi concentrici\" di Wassily Kandinsky (1913) ● Acquerello astratto suddiviso in dodici quadrati, distribuiti su tre righe. All’interno di ogni "
+          },
+          {
+            "p": 39,
+            "hits": 6,
+            "intro": "EDUCAZIONE E INCLUSIONE In conclusione, l'importanza del linguaggio visivo si estende all'educazione, dove colori, forme e immagini sono utilizzati per facilita"
+          },
+          {
+            "p": 40,
+            "hits": 6,
+            "intro": "Per le persone ipovedenti, il colore è utilizzato per creare contrasti forti che migliorano la leggibilità e la navigazione. Per esempio, viene preferito un tes"
+          },
+          {
+            "p": 41,
+            "hits": 4,
+            "intro": "Note ● L’immagine scelta come copertina per questo approfondimento è il quadro “Alcuni cerchi” di Wassily Kandinsky (1926) ● Le palette colori presenti all’inte"
+          },
+          {
+            "p": 43,
+            "hits": 5,
+            "intro": "Sitografia Antonello, P. (2018). Le forme naturali di Bruno Munari. Arte senza artisti. https://www.doppiozero.com/le-forme-naturali-di-bruno-munari Artesatura."
+          },
+          {
+            "p": 44,
+            "hits": 6,
+            "intro": "Goldstein, H. (2012). Absolute Watchmen Review - IGN. IGN. https://www.ign.com/articles/2009/03/06/absolute-watchmen-review Isabel. (2024). Squid Game: tra colo"
+          },
+          {
+            "p": 45,
+            "hits": 7,
+            "intro": "Rabino, M. (2024, November 9). Guernica di Pablo Picasso. ADO Analisi Dell’opera. https://www.analisidellopera.it/guernica-di-pablo-picasso/ Rabino, M. (2024). "
+          }
+        ],
+        "bytes": 2776706,
+        "sha256": "a7c2250d3464bd8eb3ecb54d8544c77d602c42e82a58439e1e3a7184a39f08a8"
+      },
+      {
+        "file": "materiali/lezioni/2025-2026/06-processo-ux-colore.pdf",
+        "pages": 78,
+        "intro": "Corso di CVeDI (8 CFU) Lezione 6 Marco Cremaschi marco.cremaschi@unimib.it 1 Il processo UX 2",
+        "colorMatches": [
+          {
+            "p": 16,
+            "hits": 5,
+            "intro": "Psicologia dei colori 16 La psicologia dei colori è una branca della psicologia che studia l'influenza dei colori sull'umore e sul comportamento umano La psicol"
+          },
+          {
+            "p": 20,
+            "hits": 4,
+            "intro": "La ruota dei colori 20 La ruota dei colori è uno strumento fondamentale per la combinazione dei colori Il primo schema di colore circolare è stato progettato da"
+          },
+          {
+            "p": 21,
+            "hits": 3,
+            "intro": "La ruota dei colori 21 La ruota dei colori ha subito nel tempo diverse modifiche e miglioramenti Attualmente si considera una ruota composta da 12 colori ordina"
+          },
+          {
+            "p": 22,
+            "hits": 3,
+            "intro": "La ruota dei colori 22 La ruota si compone di: 3 colori primari (giallo, rosso e blu) che non possono essere ottenuti da nessuna combinazione con altri colori"
+          },
+          {
+            "p": 29,
+            "hits": 5,
+            "intro": "Modello RGB 29 La ruota dei colori si basa su un modello colore, ovvero una strategia matematica che permette di semplificare la realtà, chiamato modello RGB (r"
+          },
+          {
+            "p": 30,
+            "hits": 3,
+            "intro": "Modello RGB e sintesi addittiva 30 Un altro modello colore è il modello RGB i cui colori primari sono costituiti dalla triade rosso (Red), verde (Green) e blu ("
+          },
+          {
+            "p": 31,
+            "hits": 3,
+            "intro": "Modello RGB e sintesi addittiva 31 Da ricordare: ❏ La Sintesi Additiva è valida se si sta considerando la percezione del colore tramite Luce Emessa (e.g., monit"
+          },
+          {
+            "p": 32,
+            "hits": 4,
+            "intro": "Modello CMY(K) e sintesi sottrattiva 32 Contrapposta alla sintesi additiva vi è la sintesi sottrattiva sulla quale è basato il Modello Colore CMY(K) che vede co"
+          },
+          {
+            "p": 33,
+            "hits": 3,
+            "intro": "Modello RGB e sintesi sottrattiva 33 Da ricordare: ❏ La sintesi sottrattiva dei colori è valida quando di parla di colori generati da luce riflessa (e.g. fotogr"
+          },
+          {
+            "p": 34,
+            "hits": 8,
+            "intro": "Colour Scheme 34 Gli schemi colore permettono di scegliere combinazioni di colori che, accostati, creano una buona armonia ❏ Schema Colori Monocromatici ❏ Schem"
+          },
+          {
+            "p": 35,
+            "hits": 3,
+            "intro": "Colour Scheme (1) 35 Colori Monocromatici: si basa sull’utilizzo di un unico colore (tinta) al quale vengono applicate variazioni tramite cambiamenti di luminos"
+          },
+          {
+            "p": 38,
+            "hits": 3,
+            "intro": "Colour Scheme (2) 38 Colori analoghi: usa tre colori situati uno accanto all’altro sulla ruota dei colori"
+          },
+          {
+            "p": 41,
+            "hits": 3,
+            "intro": "Colour Scheme (3) 41 Colori complementari: utilizza coppie di “colore opposti” nella ruota dei colori, ad esempio blu/giallo, per massimizzare il contrasto"
+          },
+          {
+            "p": 44,
+            "hits": 4,
+            "intro": "Colour Scheme (4) 44 Colori Complementari Divergenti: utilizza tre colori ottenuti scegliendo un colore iniziale e prendendo i due colori adiacenti al suo compl"
+          },
+          {
+            "p": 51,
+            "hits": 8,
+            "intro": "Il significato dei colori 51 I colori possono essere percepiti con lievi variazioni, tuttavia la percezione dei colori assume significati diversi a seconda dell"
+          },
+          {
+            "p": 52,
+            "hits": 7,
+            "intro": "Il significato dei colori 52 Possiamo fare una prima distinzione tra colori caldi, quelli compresi nella gamma cromatica che va dal giallo al rosso, e colori fr"
+          },
+          {
+            "p": 55,
+            "hits": 3,
+            "intro": "I colori neutri 55 I colori neutri, ovvero i colori che non sono né caldi né freddi, sono il bianco, il nero e tutte le tonalità di grigio che vi stanno nel mez"
+          },
+          {
+            "p": 60,
+            "hits": 3,
+            "intro": "Il verde 60 Il verde viene spesso considerato il colore della natura, dell'equilibrio e dell'armonia Porta sensazioni calmanti e rigeneranti Inoltre, è un segno"
+          },
+          {
+            "p": 61,
+            "hits": 3,
+            "intro": "Il blu 61 Il blu è il colore della fiducia e spesso indica affidabilità e per questo viene spesso utilizzato come colore principale nella brand identity delle a"
+          },
+          {
+            "p": 63,
+            "hits": 3,
+            "intro": "Il marrone 63 Il marrone è il colore della sicurezza e della protezione come lo è la madre Terra Questo colore è spesso utilizzato come colore di sfondo in una "
+          },
+          {
+            "p": 68,
+            "hits": 3,
+            "intro": "Josef Albers e la Bauhaus (2) 68 La Bauhaus esercitò un’enorme influenza sul graphic design, e sullo studio meticoloso degli elementi che costituiscono la gramm"
+          },
+          {
+            "p": 69,
+            "hits": 7,
+            "intro": "Interaction of colours 69 Albers introdusse una rivoluzionaria teoria del colore: l’idea fondante da cui partì fu quella che il colore è sempre ingannevole e ch"
+          },
+          {
+            "p": 73,
+            "hits": 3,
+            "intro": "Sfondi invertiti 73 Osservando con attenzione il tratto superiore che unisce le due X possiamo dedurre che il colore è uguale Sembrano esserci soltanto due colo"
+          },
+          {
+            "p": 74,
+            "hits": 4,
+            "intro": "Sottrazione del colore 74 Focalizzando lo sguardo sui singoli rettangoli interni, si nota come i loro colori siano differenti, benché a prima vista non sembri c"
+          },
+          {
+            "p": 76,
+            "hits": 4,
+            "intro": "Il contrasto successivo 76 Le terminazioni nervose nella retina elaborano i tre colori primari. “Affaticando” le cellule responsabili di un determinato colore, "
+          },
+          {
+            "p": 77,
+            "hits": 4,
+            "intro": "L’effetto Bezold 77 “Il rosso con il bianco sembra molto più chiaro del rosso con il nero, soprattutto a distanza.” Un colore, se combinato ad un colore chiaro "
+          }
+        ],
+        "bytes": 7581331,
+        "sha256": "c693ed9b5ebdcf550045a9f99fc985b6e997f733771d9bf46c309539d48cd23c"
+      }
+    ],
+    "web": [
+      {
+        "titolo": "Jonauskaite et al. 2020",
+        "url": "https://journals.sagepub.com/eprint/5G3HXWNGZTT6ZXFIHTDP/full",
+        "supporto": "Associazioni tra termini cromatici ed emozioni; differenze culturali e limite rispetto alle emozioni provate."
+      },
+      {
+        "titolo": "Adobe Understanding color",
+        "url": "https://helpx.adobe.com/photoshop-elements/desktop/working-with-colors/color.html",
+        "supporto": "HSB, RGB e relazioni sulla ruota."
+      },
+      {
+        "titolo": "Adobe Color modes",
+        "url": "https://helpx.adobe.com/photoshop/desktop/adjust-color/choose-colors/color-modes-in-photoshop.html",
+        "supporto": "RGB, CMYK, gamut e condizioni di stampa."
+      },
+      {
+        "titolo": "Adobe Color",
+        "url": "https://color.adobe.com/create/color-wheel",
+        "supporto": "Schemi di abbinamento, estrazione da immagini e verifica del contrasto."
+      },
+      {
+        "titolo": "Interaction of Color",
+        "url": "https://interactionofcolor.com/footer-menu/about",
+        "supporto": "Tavole ed esercizi pratici di Albers."
+      },
+      {
+        "titolo": "GOV.UK Colour",
+        "url": "https://design-system.service.gov.uk/styles/colour/",
+        "supporto": "Palette e colori funzionali."
+      },
+      {
+        "titolo": "Carbon Color",
+        "url": "https://www.carbondesignsystem.com/building-blocks/foundations/color/overview",
+        "supporto": "Ruoli, superfici e temi chiari e scuri."
+      },
+      {
+        "titolo": "Carbon Themes",
+        "url": "https://www.carbondesignsystem.com/building-blocks/foundations/themes/overview",
+        "supporto": "Distinzione fra ruolo e valore dei token nei temi."
+      },
+      {
+        "titolo": "WCAG 1.4.1",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html",
+        "supporto": "Uso non esclusivo del colore."
+      },
+      {
+        "titolo": "WCAG 1.4.3",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+        "supporto": "Contrasto del testo, definizioni e formula sRGB."
+      },
+      {
+        "titolo": "WCAG 1.4.11",
+        "url": "https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html",
+        "supporto": "Informazioni visive necessarie di controlli, stati e grafici."
+      },
+      {
+        "titolo": "W3C Compositing and Blending",
+        "url": "https://www.w3.org/TR/compositing-1/",
+        "supporto": "Colore sorgente, opacità e sfondo."
+      },
+      {
+        "titolo": "W3C CSS Color 4",
+        "url": "https://www.w3.org/TR/css-color-4/",
+        "supporto": "Definizioni di modelli e coordinate del colore."
+      }
+    ],
+    "studentWorkReferencesKeptLocal": true
+  },
+  "snapshots": {
+    "before": "reports/colore-verifica/testi-figma.json",
+    "after": "risorse-condivise/fonti/booklet/colore-estensione/figma-source.json"
+  },
+  "verification": {
+    "report": "reports/colore-verifica/verifica.md",
+    "native": "reports/colore-cultura/verifica.json",
+    "geometry": "reports/colore-cultura/verifica.json",
+    "screenshotCount": 13,
+    "proofPageIds": [
+      "3956:961",
+      "3997:23912",
+      "3997:24046",
+      "3997:24195",
+      "3956:1071",
+      "3989:1548",
+      "3997:24415",
+      "3997:24564",
+      "3997:24698",
+      "3989:1731",
+      "3956:871",
+      "3956:1201",
+      "3956:1309"
+    ],
+    "fontFamiliesValid": true,
+    "notesVisible": true,
+    "folioSequenceContiguous": true,
+    "collisionCount": 0,
+    "bodyWithin584": true,
+    "figuresWithin610": true,
+    "missingFigureRefs": [],
+    "duplicateFigureNumbers": [],
+    "pagination": "reports/colore-cultura/verifica.json",
+    "typography": "reports/colore-verifica/esempi/tipografia-verifica.json",
+    "typographyPassed": true
+  },
+  "historicalSlideSnapshotPreserved": true,
+  "schemeSequence": [
+    {
+      "folio": 370,
+      "id": "3956:961",
+      "title": "Monocromatico",
+      "kind": "explanation"
+    },
+    {
+      "folio": 371,
+      "id": "3997:23912",
+      "title": "Monocromatico: esempi",
+      "kind": "examples"
+    },
+    {
+      "folio": 372,
+      "id": "3997:24046",
+      "title": "Analogo",
+      "kind": "explanation"
+    },
+    {
+      "folio": 373,
+      "id": "3997:24195",
+      "title": "Analogo: esempi",
+      "kind": "examples"
+    },
+    {
+      "folio": 374,
+      "id": "3956:1071",
+      "title": "Complementare",
+      "kind": "explanation"
+    },
+    {
+      "folio": 375,
+      "id": "3989:1548",
+      "title": "Complementare: esempi",
+      "kind": "examples"
+    },
+    {
+      "folio": 376,
+      "id": "3997:24415",
+      "title": "Complementare divergente",
+      "kind": "explanation"
+    },
+    {
+      "folio": 377,
+      "id": "3997:24564",
+      "title": "Complementare divergente: esempi",
+      "kind": "examples"
+    },
+    {
+      "folio": 378,
+      "id": "3997:24698",
+      "title": "Triadico",
+      "kind": "explanation"
+    },
+    {
+      "folio": 379,
+      "id": "3989:1731",
+      "title": "Triadico: esempi",
+      "kind": "examples"
+    }
+  ],
+  "interfaceExamples": [
+    {
+      "key": "smartwater",
+      "name": "Screenshot storico · Smartwater",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p113-01.jpg",
+      "nodeId": "I3997:23920;3165:593;3997:24034",
+      "w": 1141,
+      "h": 806,
+      "imageHash": "f27af85f4c750dfc56161b0ffaa2bf6e88d09c2a",
+      "bytes": 276483,
+      "sha256": "2118b421bbe02a3e893bcf2ee70dcfb7634853ee7684f75b910875e7d57a9025",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 113,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "omnium",
+      "name": "Screenshot storico · Omnium",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p117-01.jpg",
+      "nodeId": "I3997:24203;3165:593;3997:24324",
+      "w": 1228,
+      "h": 867,
+      "imageHash": "0ed9842cbc07d98337d0a8731af03bb2dbefd434",
+      "bytes": 453234,
+      "sha256": "d60aa6d2cf97d8d0d8fb5a31e89a65a55bb1fc97864bbcba7cfe4b9d9a477922",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 117,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "wknd",
+      "name": "Screenshot storico · Série Découvertes",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p119-01.png",
+      "nodeId": "I3989:1556;3165:593;3997:24405",
+      "w": 1304,
+      "h": 917,
+      "imageHash": "ac45c3c74f3e94864aef6b3b8b28c6c6c4e56ae9",
+      "bytes": 107213,
+      "sha256": "7441e68fff9e5a1cb13eb26796dc2ae1d1baa230306f7efab58c0abd86c4b613",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 119,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "skinhealth",
+      "name": "Screenshot storico · Skin Health Alliance",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p123-02.jpg",
+      "nodeId": "I3997:24572;3165:593;3997:24693",
+      "w": 1512,
+      "h": 1134,
+      "imageHash": "7f78ffde1d7e2d4de116d5dfdb2bfbb5cb864c4d",
+      "bytes": 634968,
+      "sha256": "9ce1d84d253c8d2fd9977114113d8a74c8b52d69b1338eabdf7b354040f4641b",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 123,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "secretkey",
+      "name": "Screenshot storico · SecretKey",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p125-01.jpg",
+      "nodeId": "I3989:1739;3165:593;3997:24871",
+      "w": 2206,
+      "h": 1559,
+      "imageHash": "51aeca7b10b2d523c67a647f623019a672495687",
+      "bytes": 540184,
+      "sha256": "3ae81e338e380e8272b6158041dceb6397f748a031cd5e8e078dbafe7e18327e",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 125,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "govuk",
+      "name": "Screenshot ufficiale · GOV.UK errore",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/web/govuk-error-original.png",
+      "nodeId": "I3956:1245;3165:593;3989:2040",
+      "w": 1640,
+      "h": 1060,
+      "imageHash": "07f2da62a8d99e62040ada7cd426fab251bd1053",
+      "bytes": 36354,
+      "sha256": "f8cf96c59053474f8f0d5c0ab47be699dbeb92894b19e691a2bf8eb03d3e4b90",
+      "sourceUrl": "https://design-system.service.gov.uk/components/error-summary/linking/",
+      "documentationUrl": "https://design-system.service.gov.uk/components/error-summary/",
+      "acquiredOn": "2026-10-16",
+      "historical": false,
+      "rights": "© Crown copyright. Open Government Licence v3.0, salvo eccezioni dichiarate dalla fonte.",
+      "licenseUrl": "https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+    },
+    {
+      "key": "carbon",
+      "name": "IBM Carbon · temi White e Gray 100",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/web/carbon-themes-original.png",
+      "nodeId": "I3956:1347;3165:593;3989:2106",
+      "w": 1728,
+      "h": 864,
+      "imageHash": "c5b9c3e46fb81b7298ef56a192dfc0b4fcf63690",
+      "bytes": 13299,
+      "sha256": "be443fd93fc038f6676b1d869d3f578e3c5b0864bab58b868429e058d62c5145",
+      "sourceUrl": "https://s3.us-south.cloud-object-storage.appdomain.cloud/cxp-prod-payload-cms/themes-1.png",
+      "documentationUrl": "https://www.carbondesignsystem.com/building-blocks/foundations/themes/overview",
+      "acquiredOn": "2026-10-16",
+      "historical": false,
+      "rights": "© IBM. Immagine ufficiale dalla documentazione Carbon; nessuna licenza aggiuntiva attribuita."
+    },
+    {
+      "key": "netlife",
+      "name": "Screenshot storico · Netlife Research",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p114-01.jpg",
+      "nodeId": "I3997:23920;3165:593;3997:24041",
+      "w": 1085,
+      "h": 767,
+      "imageHash": "0785c8eb714889dbb403275451ef16579c679141",
+      "bytes": 520895,
+      "sha256": "40706241c70ce48418a74002094be660d01aa8c5c91a1840e2333e42631c7958",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 114,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "boost",
+      "name": "Screenshot storico · Boost",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p116-01.jpg",
+      "nodeId": "I3997:24203;3165:593;3997:24317",
+      "w": 2440,
+      "h": 1724,
+      "imageHash": "ec640033217e68f0e13bec498e3f6f3add09c065",
+      "bytes": 963015,
+      "sha256": "3f1d0b5836e10440eb99212bf091e5afb2f879b06fb77df871ea3e2f322c93f6",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 116,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "ancient",
+      "name": "Screenshot storico · The Ancient World",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p120-01.jpg",
+      "nodeId": "I3989:1556;3165:593;3997:24411",
+      "w": 852,
+      "h": 1200,
+      "imageHash": "7486db77546a62d4a2f86a6c9ad8229ea4fef22f",
+      "bytes": 580507,
+      "sha256": "a32aa3c8604d223d6fbb9cb9834da03efad274ab6152db7a9301e6b15714567a",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 120,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "neverland",
+      "name": "Screenshot storico · Neverland",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p122-01.jpg",
+      "nodeId": "I3997:24572;3165:593;3997:24686",
+      "w": 1596,
+      "h": 1130,
+      "imageHash": "a425d373f4ee157c32f6b5a26cc1cd260a68a9af",
+      "bytes": 368129,
+      "sha256": "10fef48a9e1aff288505edeefa103b634ecc9c776a7e36226f9dcbbd20a31e29",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 122,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    },
+    {
+      "key": "smi",
+      "name": "Screenshot storico · SMI",
+      "path": "risorse-condivise/fonti/booklet/colore-estensione/originals/booklet-2024-p126-01.jpg",
+      "nodeId": "I3989:1739;3165:593;3997:24878",
+      "w": 2442,
+      "h": 1725,
+      "imageHash": "4b09bd2c8e89d1fde62f43e23bbc4473e018cf89",
+      "bytes": 844476,
+      "sha256": "7eed59df9c2a645687a7fcdecccd34336a00bdfbdfa0376ddba495f93d36b44f",
+      "sourcePdf": "materiali/booklet precedente/Booklet_CVDI_12_2024.pdf",
+      "sourcePage": 126,
+      "historical": true,
+      "screenshotDate": null,
+      "rights": "Screenshot documentario dell’edizione dicembre 2024. Diritti dei rispettivi titolari; nessuna nuova licenza attribuita."
+    }
+  ],
+  "nativeColorWheels": [
+    {
+      "id": "I3956:906;3165:593;3989:1150",
+      "name": "Ruota nativa · RGB / HSV",
+      "ellipses": 12,
+      "vectors": 1,
+      "imageCount": 0
+    },
+    {
+      "id": "I3956:906;3165:593;3989:1167",
+      "name": "Ruota nativa · RYB · TRADIZIONALE",
+      "ellipses": 12,
+      "vectors": 1,
+      "imageCount": 0
+    },
+    {
+      "id": "I3956:1006;3165:593;3997:23891",
+      "name": "Ruota nativa · MONOCROMATICO",
+      "ellipses": 15,
+      "vectors": 0,
+      "imageCount": 0
+    },
+    {
+      "id": "I3997:24054;3165:593;3997:24176",
+      "name": "Ruota nativa · ANALOGO",
+      "ellipses": 12,
+      "vectors": 1,
+      "imageCount": 0
+    },
+    {
+      "id": "I3956:1126;3165:593;3997:24360",
+      "name": "Ruota nativa · COMPLEMENTARE",
+      "ellipses": 12,
+      "vectors": 1,
+      "imageCount": 0
+    },
+    {
+      "id": "I3997:24423;3165:593;3997:24545",
+      "name": "Ruota nativa · COMPLEMENTARE DIVERGENTE",
+      "ellipses": 12,
+      "vectors": 1,
+      "imageCount": 0
+    },
+    {
+      "id": "I3997:24706;3165:593;3997:24828",
+      "name": "Ruota nativa · TRIADICO",
+      "ellipses": 12,
+      "vectors": 1,
+      "imageCount": 0
+    }
+  ],
+  "attributionCorrections": [
+    "La schermata di p. 116 mostra Boost; l’edizione precedente indicava DoneDone.",
+    "La schermata di p. 122 mostra Neverland; i nomi precedenti non vengono associati automaticamente alle immagini.",
+    "Il marchio di p. 119 è Série Découvertes; WKND 91,9 FM è indicato come presentatore.",
+    "SMI è conservato come confronto critico: lo screenshot non dimostra tre intervalli cromatici esatti di 120°."
+  ],
+  "preservation": {
+    "uploadedOriginalArchiveId": "3989:2111",
+    "originalVisuals": "Conservati nascosti negli slot o nelle figure originali delle rispettive tavole. Nessun originale rimosso.",
+    "oldSourceImages": "Originali estratti in originals/; PDF precedenti conservati integralmente.",
+    "currentSchemeApplication": "reports/colore-verifica/esempi/sequenza-schemi.json"
+  },
+  "individualColorBars": {
+    "rule": "Bande laterali, barre delle figure e filetti delle didascalie seguono la tinta della pagina. Bianco su fondo scuro; GRAY_950 per il nero.",
+    "pages": [
+      {
+        "id": "198:5166",
+        "color": "Rosso",
+        "folio": "382",
+        "changedNodeIds": [
+          "198:5179",
+          "I3240:403;3217:1122",
+          "I3240:403;3165:600;3240:427;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5238",
+        "color": "Arancio",
+        "folio": "383",
+        "changedNodeIds": [
+          "198:5252",
+          "I3240:445;3217:1122",
+          "I3240:445;3165:600;3240:469;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5181",
+        "color": "Giallo",
+        "folio": "384",
+        "changedNodeIds": [
+          "198:5195",
+          "I3240:487;3217:1122",
+          "I3240:487;3165:600;3240:511;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5253",
+        "color": "Verde",
+        "folio": "385",
+        "changedNodeIds": [
+          "198:5267",
+          "I3240:529;3217:1122",
+          "I3240:529;3165:600;3240:553;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5196",
+        "color": "Blu",
+        "folio": "386",
+        "changedNodeIds": [
+          "198:5210",
+          "I3240:571;3217:1122",
+          "I3240:571;3165:600;3240:595;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5268",
+        "color": "Marrone",
+        "folio": "387",
+        "changedNodeIds": [
+          "198:5282",
+          "I3240:613;3217:1122",
+          "I3240:613;3165:600;3240:637;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5223",
+        "color": "Rosa",
+        "folio": "388",
+        "changedNodeIds": [
+          "198:5237",
+          "I3240:655;3217:1122",
+          "I3240:655;3165:600;3240:679;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5296",
+        "color": "Viola",
+        "folio": "389",
+        "changedNodeIds": [
+          "198:5310",
+          "I3240:697;3217:1122",
+          "I3240:697;3165:600;3240:721;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5211",
+        "color": "Bianco",
+        "folio": "390",
+        "changedNodeIds": [
+          "I3240:735;3217:1122",
+          "I3240:735;3165:600;3240:757;3217:1118"
+        ]
+      },
+      {
+        "id": "198:5283",
+        "color": "Nero",
+        "folio": "391",
+        "changedNodeIds": [
+          "I3240:773;3217:1122",
+          "I3240:773;3165:600;3240:796;3217:1118"
+        ]
+      }
+    ],
+    "verification": "reports/colore-verifica/esempi/barre-colori.json",
+    "geometryUnchanged": true
+  },
+  "typographyNormalization": {
+    "date": "2026-10-16",
+    "frameCount": 49,
+    "activeTextNodeCount": 312,
+    "processedTextNodeCount": 252,
+    "separatedHeadingCount": 11,
+    "rawTitlesMigratedToComponents": 5,
+    "fontFamilies": [
+      "Geom",
+      "Merriweather",
+      "Inter"
+    ],
+    "body": "Merriweather Light 10/15",
+    "title": "Geom Bold 20/AUTO",
+    "subtitle": "Geom Bold 16/AUTO",
+    "source": "Merriweather Light Italic 7/10",
+    "caption": "Merriweather Light Italic 7/12",
+    "folio": "Merriweather Light 9/12",
+    "artOpening": "Inter Bold 44/AUTO",
+    "contentPreserved": true,
+    "figureReferencesPreserved": 38,
+    "structuralPageCountUnchanged": true,
+    "artisticCompositionsPreserved": true,
+    "individualColorBarsPreserved": true,
+    "originalTextsRetainedHidden": true,
+    "proportionalVisualAdjustments": 3,
+    "verification": "reports/colore-verifica/esempi/tipografia-verifica.json",
+    "verificationPassed": true,
+    "snapshotStatus": "Verifica precedente all’inserimento culturale; la verifica corrente comprende 53 frame e 342 testi in reports/colore-cultura/verifica.json."
+  },
+  "previousFigureNumberingSnapshot": {
+    "range": [
+      115,
+      152
+    ],
+    "count": 38,
+    "lastNumberedFigureBeforeHierarchy": "3.99",
+    "precedingHierarchyFigureCount": 15,
+    "figures": [
+      {
+        "number": 115,
+        "frameId": "3956:658",
+        "instanceId": "3956:702",
+        "captionId": "I3956:702;3165:600;3956:756;3164:51;3956:755",
+        "refId": "3956:673"
+      },
+      {
+        "number": 116,
+        "frameId": "3956:773",
+        "instanceId": "3956:812",
+        "captionId": "I3956:812;3165:600;3956:856;3164:51;3956:855",
+        "refId": "3956:788"
+      },
+      {
+        "number": 117,
+        "frameId": "3956:871",
+        "instanceId": "3956:906",
+        "captionId": "I3956:906;3165:600;3956:946;3164:51;3956:945",
+        "refId": "3956:886"
+      },
+      {
+        "number": 118,
+        "frameId": "3956:961",
+        "instanceId": "3956:1006",
+        "captionId": "I3956:1006;3165:600;3956:1056;3164:51;3956:1055",
+        "refId": "3956:976"
+      },
+      {
+        "number": 119,
+        "frameId": "3997:23912",
+        "instanceId": "3997:23920",
+        "captionId": "I3997:23920;3165:600;3997:23927;3164:51;3997:23929",
+        "refId": "3997:23919"
+      },
+      {
+        "number": 120,
+        "frameId": "3997:24046",
+        "instanceId": "3997:24054",
+        "captionId": "I3997:24054;3165:600;3997:24061;3164:51;3997:24063",
+        "refId": "3997:24053"
+      },
+      {
+        "number": 121,
+        "frameId": "3997:24195",
+        "instanceId": "3997:24203",
+        "captionId": "I3997:24203;3165:600;3997:24210;3164:51;3997:24212",
+        "refId": "3997:24202"
+      },
+      {
+        "number": 122,
+        "frameId": "3956:1071",
+        "instanceId": "3956:1126",
+        "captionId": "I3956:1126;3165:600;3956:1186;3164:51;3956:1185",
+        "refId": "3956:1086"
+      },
+      {
+        "number": 123,
+        "frameId": "3989:1548",
+        "instanceId": "3989:1556",
+        "captionId": "I3989:1556;3165:600;3989:1563;3164:51;3989:1565",
+        "refId": "3989:1555"
+      },
+      {
+        "number": 124,
+        "frameId": "3997:24415",
+        "instanceId": "3997:24423",
+        "captionId": "I3997:24423;3165:600;3997:24430;3164:51;3997:24432",
+        "refId": "3997:24422"
+      },
+      {
+        "number": 125,
+        "frameId": "3997:24564",
+        "instanceId": "3997:24572",
+        "captionId": "I3997:24572;3165:600;3997:24579;3164:51;3997:24581",
+        "refId": "3997:24571"
+      },
+      {
+        "number": 126,
+        "frameId": "3997:24698",
+        "instanceId": "3997:24706",
+        "captionId": "I3997:24706;3165:600;3997:24713;3164:51;3997:24715",
+        "refId": "3997:24705"
+      },
+      {
+        "number": 127,
+        "frameId": "3989:1731",
+        "instanceId": "3989:1739",
+        "captionId": "I3989:1739;3165:600;3989:1746;3164:51;3989:1748",
+        "refId": "3989:1738"
+      },
+      {
+        "number": 128,
+        "frameId": "3956:1201",
+        "instanceId": "3956:1245",
+        "captionId": "I3956:1245;3165:600;3956:1294;3164:51;3956:1293",
+        "refId": "3956:1216"
+      },
+      {
+        "number": 129,
+        "frameId": "198:5153",
+        "instanceId": "3240:358",
+        "captionId": "I3240:358;3165:600;3240:385;3164:51;3240:388",
+        "refId": "198:5163"
+      },
+      {
+        "number": 130,
+        "frameId": "198:5166",
+        "instanceId": "3240:403",
+        "captionId": "I3240:403;3165:600;3240:427;3164:51;3240:430",
+        "refId": "198:5174"
+      },
+      {
+        "number": 131,
+        "frameId": "198:5238",
+        "instanceId": "3240:445",
+        "captionId": "I3240:445;3165:600;3240:469;3164:51;3240:472",
+        "refId": "198:5247"
+      },
+      {
+        "number": 132,
+        "frameId": "198:5181",
+        "instanceId": "3240:487",
+        "captionId": "I3240:487;3165:600;3240:511;3164:51;3240:514",
+        "refId": "198:5190"
+      },
+      {
+        "number": 133,
+        "frameId": "198:5253",
+        "instanceId": "3240:529",
+        "captionId": "I3240:529;3165:600;3240:553;3164:51;3240:556",
+        "refId": "198:5262"
+      },
+      {
+        "number": 134,
+        "frameId": "198:5196",
+        "instanceId": "3240:571",
+        "captionId": "I3240:571;3165:600;3240:595;3164:51;3240:598",
+        "refId": "198:5205"
+      },
+      {
+        "number": 135,
+        "frameId": "198:5268",
+        "instanceId": "3240:613",
+        "captionId": "I3240:613;3165:600;3240:637;3164:51;3240:640",
+        "refId": "198:5277"
+      },
+      {
+        "number": 136,
+        "frameId": "198:5223",
+        "instanceId": "3240:655",
+        "captionId": "I3240:655;3165:600;3240:679;3164:51;3240:682",
+        "refId": "198:5232"
+      },
+      {
+        "number": 137,
+        "frameId": "198:5296",
+        "instanceId": "3240:697",
+        "captionId": "I3240:697;3165:600;3240:721;3164:51;3240:724",
+        "refId": "198:5305"
+      },
+      {
+        "number": 138,
+        "frameId": "198:5211",
+        "instanceId": "3240:735",
+        "captionId": "I3240:735;3165:600;3240:757;3164:51;3240:760",
+        "refId": "198:5220"
+      },
+      {
+        "number": 139,
+        "frameId": "198:5283",
+        "instanceId": "3240:773",
+        "captionId": "I3240:773;3165:600;3240:796;3164:51;3240:799",
+        "refId": "198:5292"
+      },
+      {
+        "number": 140,
+        "frameId": "198:5429",
+        "instanceId": "3240:808",
+        "captionId": "I3240:808;3165:613;3240:834;3164:60;3240:837",
+        "refId": "198:5440"
+      },
+      {
+        "number": 141,
+        "frameId": "198:5441",
+        "instanceId": "3242:18993",
+        "captionId": "I3242:18993;3165:600;3242:19014;3164:51;3242:19017",
+        "refId": "198:5344"
+      },
+      {
+        "number": 142,
+        "frameId": "198:5453",
+        "instanceId": "3242:19026",
+        "captionId": "I3242:19026;3165:600;3242:19047;3164:51;3242:19050",
+        "refId": "198:5364"
+      },
+      {
+        "number": 143,
+        "frameId": "198:5462",
+        "instanceId": "3242:19059",
+        "captionId": "I3242:19059;3165:600;3242:19080;3164:51;3242:19083",
+        "refId": "198:5380"
+      },
+      {
+        "number": 144,
+        "frameId": "198:5480",
+        "instanceId": "3242:19092",
+        "captionId": "I3242:19092;3165:600;3242:19113;3164:51;3242:19116",
+        "refId": "198:5412"
+      },
+      {
+        "number": 145,
+        "frameId": "198:5471",
+        "instanceId": "3242:19125",
+        "captionId": "I3242:19125;3165:600;3242:19146;3164:51;3242:19149",
+        "refId": "198:5396"
+      },
+      {
+        "number": 146,
+        "frameId": "198:5489",
+        "instanceId": "3242:19160",
+        "captionId": "I3242:19160;3165:600;3242:19182;3164:51;3242:19185",
+        "refId": "198:5501"
+      },
+      {
+        "number": 147,
+        "frameId": "198:5526",
+        "instanceId": "3242:19200",
+        "captionId": "I3242:19200;3165:600;3242:19224;3164:51;3242:19227",
+        "refId": "198:5540"
+      },
+      {
+        "number": 148,
+        "frameId": "198:5504",
+        "instanceId": "3242:19236",
+        "captionId": "I3242:19236;3165:600;3242:19257;3164:51;3242:19260",
+        "refId": "198:5512"
+      },
+      {
+        "number": 149,
+        "frameId": "198:5541",
+        "instanceId": "3242:19271",
+        "captionId": "I3242:19271;3165:600;3242:19293;3164:51;3242:19296",
+        "refId": "198:5549"
+      },
+      {
+        "number": 150,
+        "frameId": "3956:1309",
+        "instanceId": "3956:1347",
+        "captionId": "I3956:1347;3165:600;3956:1390;3164:51;3956:1389",
+        "refId": "3956:1324"
+      },
+      {
+        "number": 151,
+        "frameId": "3956:1405",
+        "instanceId": "3956:1449",
+        "captionId": "I3956:1449;3165:600;3956:1498;3164:51;3956:1497",
+        "refId": "3956:1420"
+      },
+      {
+        "number": 152,
+        "frameId": "198:5515",
+        "instanceId": "3242:19305",
+        "captionId": "I3242:19305;3165:600;3242:19326;3164:51;3242:19329",
+        "refId": "198:5523"
+      }
+    ]
+  },
+  "currentFigureNumberingRevision": {
+    "date": "2026-10-16",
+    "index": "risorse-condivise/fonti/booklet/capitolo-3/figure-index.json",
+    "verification": "reports/c03-numerazione-figure/2026-10-16/manifest.json"
+  },
+  "cultureRevision": "risorse-condivise/fonti/booklet/colore-cultura/manifest.json",
+  "currentTypographyVerification": {
+    "frameCount": 53,
+    "activeTextNodeCount": 342,
+    "report": "reports/colore-cultura/verifica.json"
+  },
+  "slideCultureIntegration": "Tredici slide culturali aggiunte: sette raccordate al booklet corrente e sei da fonti esterne esplicite; testi e alias delle 33 slide originarie conservati.",
+  "externalSlideRevision": "risorse-condivise/fonti/booklet/colore-cultura/slide-integrazioni/manifest.json"
+}

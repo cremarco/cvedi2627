@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="330" viewBox="0 0 1120 330" role="img" aria-labelledby="title desc">
+  <title id="title">Il segmento diviso secondo il rapporto aureo</title>
+  <desc id="desc">Un segmento di mille unità è diviso in una parte maggiore a, di circa 618 unità, e una parte minore b, di circa 382. La somma a più b è il totale. Le parti rispettano la condizione a maggiore di b maggiore di zero.</desc>
+  <text x="0" y="29" font-family="DM Sans" font-size="28" font-weight="600" fill="#162456">Relazione fra misure</text>
+  <text x="560" y="75" text-anchor="middle" font-family="DM Sans" font-size="26" font-weight="400" fill="#162456">Totale a + b · 1000 unità</text>
+  <path d="M60 86V100M60 93H1060M1060 86V100" fill="none" stroke="#334155" stroke-width="2" />
+  <rect x="60" y="112" width="618" height="76" fill="#DBEAFE" />
+  <rect x="678" y="112" width="382" height="76" fill="#193CB8" />
+  <text x="369" y="160" text-anchor="middle" font-family="DM Sans" font-size="32" font-weight="600" fill="#162456">a</text>
+  <text x="869" y="160" text-anchor="middle" font-family="DM Sans" font-size="32" font-weight="600" fill="white">b</text>
+  <path d="M60 200V214M60 207H678M678 200V214M678 207H1060M1060 200V214" fill="none" stroke="#334155" stroke-width="2" />
+  <text x="369" y="245" text-anchor="middle" font-family="DM Sans" font-size="26" font-weight="400" fill="#162456">a ≈ 618 unità</text>
+  <text x="869" y="245" text-anchor="middle" font-family="DM Sans" font-size="26" font-weight="400" fill="#162456">b ≈ 382 unità</text>
+  <text x="560" y="307" text-anchor="middle" font-family="DM Sans" font-size="28" font-weight="500" fill="#162456">a &gt; b &gt; 0</text>
+</svg>

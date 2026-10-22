@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="330" viewBox="0 0 1120 330" role="img" aria-labelledby="title desc">
+<title id="title">Cinque schede con Grid e Flexbox</title>
+<desc id="desc">Confronto schematico originale. CSS Grid usa tre colonne condivise: A, B e C sulla prima riga, D ed E nelle prime due colonne della seconda; la terza resta libera. Flexbox consente uguale crescita a tutte le schede: A, B e C sulla prima riga, D ed E si espandono dividendosi lo spazio della seconda riga. Non è una schermata di un prodotto.</desc>
+<text x="24" y="30" class="heading" font-family="DM Sans" font-size="26" font-weight="600" fill="#162456">CSS Grid</text>
+<text x="24" y="65" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">Tre colonne condivise</text>
+<text x="576" y="30" class="heading" font-family="DM Sans" font-size="26" font-weight="600" fill="#162456">Flexbox</text>
+<text x="576" y="65" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">Stessa crescita per ogni scheda</text>
+<rect x="24" y="94" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="104" y="145" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">A</text>
+<rect x="204" y="94" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="284" y="145" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">B</text>
+<rect x="384" y="94" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="464" y="145" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">C</text>
+<rect x="24" y="196" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="104" y="247" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">D</text>
+<rect x="204" y="196" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="284" y="247" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">E</text>
+<rect x="384" y="196" width="160" height="82" fill="none" stroke="#e2e8f0" stroke-width="2" stroke-dasharray="8 7" />
+<text x="464" y="245" class="label" text-anchor="middle" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">Libera</text>
+<rect x="576" y="94" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="656.0" y="145" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">A</text>
+<rect x="756" y="94" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="836.0" y="145" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">B</text>
+<rect x="936" y="94" width="160" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="1016.0" y="145" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">C</text>
+<rect x="576" y="196" width="250" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="701.0" y="247" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">D</text>
+<rect x="846" y="196" width="250" height="82" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="971.0" y="247" class="strong" text-anchor="middle" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">E</text>
+<text x="24" y="317" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">D ed E conservano le colonne.</text>
+<text x="576" y="317" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">D ed E si espandono sulla propria riga.</text>
+</svg>

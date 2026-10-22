@@ -1,0 +1,3842 @@
+{
+  "date": "2026-10-15",
+  "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
+  "pageId": "2613:1112",
+  "sectionId": "204:8297",
+  "figmaUrl": "https://www.figma.com/design/WLdDzbdqP3P5rpYbK1OxYC/?node-id=2613-1112",
+  "request": "Migliorare layout e dimensioni degli esempi, uniformare didascalie, mantenere una riga per legge, indicare l’aggiunta successiva della regione comune e usare solo screenshot web reali.",
+  "status": "complete",
+  "currentManifest": "risorse-condivise/fonti/booklet/gestalt-ristrutturazione/manifest.json",
+  "currentSectionBoardCount": 89,
+  "currentChapterBoardCount": 409,
+  "printedRange": [
+    230,
+    318
+  ],
+  "chapterOrdinalRange": [
+    138,
+    226
+  ],
+  "printedLastPage": 519,
+  "revisedExamplePageCount": 20,
+  "graphicPageCount": 9,
+  "webPageCount": 11,
+  "additionalExampleCaseCount": 26,
+  "newContinuationPages": [
+    {
+      "id": "3919:2088",
+      "case": "Heinz",
+      "number": 276
+    },
+    {
+      "id": "3919:2092",
+      "case": "Oxfam",
+      "number": 304
+    }
+  ],
+  "imageOnlyExamplePageCount": 43,
+  "dedicatedWebScreenshotPageCount": 25,
+  "webApplicationScreenshotPageCount": 9,
+  "totalRealWebScreenshotPageCount": 34,
+  "captionStyle": {
+    "font": "Merriweather Light Italic",
+    "size": 7,
+    "lineHeight": 12,
+    "alignment": "RIGHT",
+    "colorToken": "color/chapter/C03",
+    "fieldWidth": "match-visual",
+    "imageGap": 4,
+    "groupGap": 16,
+    "compactGroupGap": 8,
+    "maxFieldWidth": 420,
+    "imageBar": 4,
+    "captionGap": 4,
+    "lowerRuleGap": 2,
+    "lowerRule": 0.5,
+    "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+    "chapterColorVariableId": "VariableID:2883:67"
+  },
+  "exampleLayout": {
+    "maxWidth": 420,
+    "portraitHeight": 484,
+    "areaY": [
+      52,
+      572
+    ],
+    "folioY": 621.637817,
+    "originalAspectRatiosPreserved": true,
+    "fullViewRetainedWithDetails": true,
+    "footnotesBottomY": 610,
+    "sourceAreaWidth": 363,
+    "minimumContentNoteGap": 5
+  },
+  "pages": [
+    {
+      "id": "3897:2088",
+      "key": "vicinanza",
+      "kind": "graphic",
+      "bodyId": "3897:2101",
+      "sourceId": "I3975:2019;3164:57;3975:2023",
+      "footerId": "3897:2095",
+      "source": "Campbell Mithun, attribuzione nel booklet a p. PDF 315 · Nature Valley Fruit Crisps · booklet 2024, p. PDF 316.",
+      "sourceHeight": 10,
+      "number": 241,
+      "body": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "images": [
+        {
+          "id": "I3948:21174;3165:593;3948:21188;3164:44;3948:21189",
+          "name": "Immagine reale · vicinanza-nature-valley",
+          "w": 343.2366638183594,
+          "h": 484,
+          "hash": "cfba9a12063c9b1cd136719559db7d8f94b8c9da",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21174;3165:593;3948:21188",
+          "figureId": "3948:21174"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:21174;3165:600;3948:21192;3164:51;3948:21193",
+          "text": "Nature Valley: le chips ravvicinate suggeriscono un albero. Vicinanza e riconoscimento della forma cooperano.",
+          "w": 343.2366638183594,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21174;3165:600;3948:21192",
+          "figureId": "3948:21174",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 149,
+      "side": "DX",
+      "row": 1,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 881.6378173828125,
+      "title": "Vicinanza: altre immagini e grafiche",
+      "captionIds": [
+        "I3948:21174;3165:600;3948:21192;3164:51;3948:21193"
+      ],
+      "imageIds": [
+        "I3948:21174;3165:593;3948:21188;3164:44;3948:21189"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "figureIds": [
+        "3948:21174"
+      ],
+      "visualIds": [
+        "I3948:21174;3165:593;3948:21188;3164:44;3948:21189"
+      ],
+      "sourceInstanceId": "3975:2019",
+      "sourceGroupId": "3975:2017",
+      "sourceBounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2106",
+      "key": "vicinanza",
+      "kind": "web",
+      "bodyId": "3897:2119",
+      "sourceId": "I3975:2043;3164:57;3975:2047",
+      "footerId": "3897:2113",
+      "source": "Issues · microsoft/vscode · GitHub · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.\nLaura Panzeri, approfondimento 2025–2026, p.16. Cattura storica; diritti dei rispettivi titolari.",
+      "sourceHeight": 20,
+      "number": 244,
+      "body": {
+        "x": 31.5,
+        "y": 84.45779418945312,
+        "w": 420,
+        "h": 455.08441162109375,
+        "bottom": 539.5422058105469
+      },
+      "images": [
+        {
+          "id": "I3948:21246;3165:593;3948:21260;3164:44;3948:21261",
+          "name": "Immagine reale · vicinanza-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "7e40ac84dabee3d998afc7dcc9d44ef8fab5a7b2",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21246;3165:593;3948:21260",
+          "figureId": "3948:21246"
+        },
+        {
+          "id": "I3948:21269;3165:593;3948:21283;3164:44;3948:21284",
+          "name": "Immagine reale · pane-trita-ristoranti",
+          "w": 420,
+          "h": 157.8343963623047,
+          "hash": "9c401dfea7217f4e0935b255efa4a9d274944dc6",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21269;3165:593;3948:21283",
+          "figureId": "3948:21269"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:21246;3165:600;3948:21264;3164:51;3948:21265",
+          "text": "GitHub: titolo, etichette e metadati ravvicinati formano ogni issue.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21246;3165:600;3948:21264",
+          "figureId": "3948:21246",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:21269;3165:600;3948:21287;3164:51;3948:21288",
+          "text": "Pane&Trita: fotografia, indirizzo e pulsante si leggono come un gruppo.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21269;3165:600;3948:21287",
+          "figureId": "3948:21269",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 152,
+      "side": "SX",
+      "row": 1,
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 881.6378173828125,
+      "title": "Vicinanza: altri screenshot reali",
+      "captionIds": [
+        "I3948:21246;3165:600;3948:21264;3164:51;3948:21265",
+        "I3948:21269;3165:600;3948:21287;3164:51;3948:21288"
+      ],
+      "imageIds": [
+        "I3948:21246;3165:593;3948:21260;3164:44;3948:21261",
+        "I3948:21269;3165:593;3948:21283;3164:44;3948:21284"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 84.45779418945312,
+        "w": 420,
+        "h": 455.08441162109375,
+        "bottom": 539.5422058105469
+      },
+      "figureIds": [
+        "3948:21246",
+        "3948:21269"
+      ],
+      "visualIds": [
+        "I3948:21246;3165:593;3948:21260;3164:44;3948:21261",
+        "I3948:21269;3165:593;3948:21283;3164:44;3948:21284"
+      ],
+      "sourceInstanceId": "3975:2043",
+      "sourceGroupId": "3975:2041",
+      "sourceBounds": {
+        "x": 60,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2127",
+      "key": "somiglianza",
+      "kind": "graphic",
+      "bodyId": "3897:2140",
+      "sourceId": "I3975:2221;3164:57;3975:2225",
+      "footerId": "3897:2134",
+      "source": "Haribo, «Be Different» · autore non indicato nel materiale · booklet 2024, p. PDF 320.",
+      "sourceHeight": 10,
+      "number": 250,
+      "body": {
+        "x": 31.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "images": [
+        {
+          "id": "I3948:21515;3165:593;3948:21529;3164:44;3948:21530",
+          "name": "Immagine reale · somiglianza-haribo",
+          "w": 373.96563720703125,
+          "h": 484,
+          "hash": "9c347f9c3056753ec28121b17ddb82901494da2e",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21515;3165:593;3948:21529",
+          "figureId": "3948:21515"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:21515;3165:600;3948:21533;3164:51;3948:21534",
+          "text": "Haribo: forma e colore accomunano gli orsetti gialli; quello verde si distingue.",
+          "w": 373.96563720703125,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21515;3165:600;3948:21533",
+          "figureId": "3948:21515",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 158,
+      "side": "SX",
+      "row": 2,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 1667.275634765625,
+      "title": "Somiglianza: altre immagini e grafiche",
+      "captionIds": [
+        "I3948:21515;3165:600;3948:21533;3164:51;3948:21534"
+      ],
+      "imageIds": [
+        "I3948:21515;3165:593;3948:21529;3164:44;3948:21530"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "figureIds": [
+        "3948:21515"
+      ],
+      "visualIds": [
+        "I3948:21515;3165:593;3948:21529;3164:44;3948:21530"
+      ],
+      "sourceInstanceId": "3975:2221",
+      "sourceGroupId": "3975:2219",
+      "sourceBounds": {
+        "x": 60,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2148",
+      "key": "somiglianza",
+      "kind": "web",
+      "bodyId": "3897:2161",
+      "sourceId": "I3975:2245;3164:57;3975:2249",
+      "footerId": "3897:2155",
+      "source": "Templates | Trello · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.\nElena Sofia Fiorillo, approfondimento 2024–2025, p.5. Cattura storica; diritti dei rispettivi titolari.",
+      "sourceHeight": 20,
+      "number": 253,
+      "body": {
+        "x": 45.5,
+        "y": 66.86764526367188,
+        "w": 420,
+        "h": 490.26470947265625,
+        "bottom": 557.1323547363281
+      },
+      "images": [
+        {
+          "id": "I3948:21633;3165:593;3948:21647;3164:44;3948:21648",
+          "name": "Immagine reale · somiglianza-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "de8a4ce2cd358e83b28e11f35b2d90a39c05b9f4",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21633;3165:593;3948:21647",
+          "figureId": "3948:21633"
+        },
+        {
+          "id": "I3948:21656;3165:593;3948:21670;3164:44;3948:21671",
+          "name": "Immagine reale · amazon-schede",
+          "w": 420,
+          "h": 193.01470947265625,
+          "hash": "c747f84e22a467a5ae443ecd38bac386e80f6db7",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21656;3165:593;3948:21670",
+          "figureId": "3948:21656"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:21633;3165:600;3948:21651;3164:51;3948:21652",
+          "text": "Trello: le schede ripetono immagine, titolo e descrizione.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21633;3165:600;3948:21651",
+          "figureId": "3948:21633",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:21656;3165:600;3948:21674;3164:51;3948:21675",
+          "text": "Amazon: titoli, riquadri e immagini ripetono formati coerenti.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21656;3165:600;3948:21674",
+          "figureId": "3948:21656",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 161,
+      "side": "DX",
+      "row": 2,
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 1667.275634765625,
+      "title": "Somiglianza: altri screenshot reali",
+      "captionIds": [
+        "I3948:21633;3165:600;3948:21651;3164:51;3948:21652",
+        "I3948:21656;3165:600;3948:21674;3164:51;3948:21675"
+      ],
+      "imageIds": [
+        "I3948:21633;3165:593;3948:21647;3164:44;3948:21648",
+        "I3948:21656;3165:593;3948:21670;3164:44;3948:21671"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 66.86764526367188,
+        "w": 420,
+        "h": 490.26470947265625,
+        "bottom": 557.1323547363281
+      },
+      "figureIds": [
+        "3948:21633",
+        "3948:21656"
+      ],
+      "visualIds": [
+        "I3948:21633;3165:593;3948:21647;3164:44;3948:21648",
+        "I3948:21656;3165:593;3948:21670;3164:44;3948:21671"
+      ],
+      "sourceInstanceId": "3975:2245",
+      "sourceGroupId": "3975:2243",
+      "sourceBounds": {
+        "x": 74,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2169",
+      "key": "destino-comune",
+      "kind": "graphic",
+      "bodyId": "3897:2182",
+      "sourceId": "I3975:2421;3164:57;3975:2425",
+      "footerId": "3897:2176",
+      "source": "Turkish Airlines, campagna pubblicitaria · autore non indicato nel materiale · booklet 2024, p. PDF 325; slide 2025–2026, p.59.",
+      "sourceHeight": 20,
+      "number": 259,
+      "body": {
+        "x": 45.5,
+        "y": 62.92500305175781,
+        "w": 420,
+        "h": 498.1499938964844,
+        "bottom": 561.0749969482422
+      },
+      "images": [
+        {
+          "id": "I3948:21872;3165:593;3948:21886;3164:44;3948:21887",
+          "name": "Immagine reale · destino-comune-turkish-airlines",
+          "w": 420,
+          "h": 297.1499938964844,
+          "hash": "e1980eb9c661f57a43ea1c45ffb879228af1aa59",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21872;3165:593;3948:21886",
+          "figureId": "3948:21872"
+        },
+        {
+          "id": "I3948:21895;3165:593;3948:21909;3164:44;3948:21910",
+          "name": "Dettaglio della stessa campagna · uccelli",
+          "w": 420,
+          "h": 140,
+          "hash": "e1980eb9c661f57a43ea1c45ffb879228af1aa59",
+          "mode": "CROP",
+          "crop": [
+            [
+              0.625,
+              0,
+              0.18125000596046448
+            ],
+            [
+              0,
+              0.2944640815258026,
+              0.49028268456459045
+            ]
+          ],
+          "imageInstanceId": "I3948:21895;3165:593;3948:21909",
+          "figureId": "3948:21895"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:21872;3165:600;3948:21890;3164:51;3948:21891",
+          "text": "Turkish Airlines: lo stormo suggerisce una direzione condivisa. La pubblicità statica non documenta il movimento.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21872;3165:600;3948:21890",
+          "figureId": "3948:21872",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:21895;3165:600;3948:21913;3164:51;3948:21914",
+          "text": "Dettaglio dello stormo: orientamento e disposizione suggeriscono un insieme.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21895;3165:600;3948:21913",
+          "figureId": "3948:21895",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 167,
+      "side": "DX",
+      "row": 3,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 2452.91357421875,
+      "title": "Destino comune: altre immagini e grafiche",
+      "captionIds": [
+        "I3948:21872;3165:600;3948:21890;3164:51;3948:21891",
+        "I3948:21895;3165:600;3948:21913;3164:51;3948:21914"
+      ],
+      "imageIds": [
+        "I3948:21872;3165:593;3948:21886;3164:44;3948:21887",
+        "I3948:21895;3165:593;3948:21909;3164:44;3948:21910"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 62.92500305175781,
+        "w": 420,
+        "h": 498.1499938964844,
+        "bottom": 561.0749969482422
+      },
+      "figureIds": [
+        "3948:21872",
+        "3948:21895"
+      ],
+      "visualIds": [
+        "I3948:21872;3165:593;3948:21886;3164:44;3948:21887",
+        "I3948:21895;3165:593;3948:21909;3164:44;3948:21910"
+      ],
+      "sourceInstanceId": "3975:2421",
+      "sourceGroupId": "3975:2419",
+      "sourceBounds": {
+        "x": 74,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2187",
+      "key": "destino-comune",
+      "kind": "web",
+      "bodyId": "3897:2200",
+      "sourceId": "I3975:2437;3164:57;3975:2441",
+      "footerId": "3897:2194",
+      "source": "Swiper demo · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.",
+      "sourceHeight": 10,
+      "number": 261,
+      "body": {
+        "x": 45.5,
+        "y": 56.375,
+        "w": 420,
+        "h": 511.25,
+        "bottom": 567.625
+      },
+      "images": [
+        {
+          "id": "I3948:21985;3165:593;3948:21999;3164:44;3948:22000",
+          "name": "Immagine reale · destino-comune-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "067bbb0694f59e916985b2c6ad0cc2d8757ba00b",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:21985;3165:593;3948:21999",
+          "figureId": "3948:21985"
+        },
+        {
+          "name": "Immagine reale · undefined",
+          "w": 384,
+          "h": 66,
+          "hash": "067bbb0694f59e916985b2c6ad0cc2d8757ba00b",
+          "mode": "CROP",
+          "crop": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0.3055555522441864,
+              0.3472222089767456
+            ]
+          ],
+          "historicalNodeId": "3897:2207",
+          "referenceScope": "historical internal raster layer of preserved composite"
+        },
+        {
+          "name": "Immagine reale · undefined",
+          "w": 384,
+          "h": 66,
+          "hash": "b0272e71992efad1f98386685505a196c5d28cbf",
+          "mode": "CROP",
+          "crop": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0.3055555522441864,
+              0.3472222089767456
+            ]
+          ],
+          "historicalNodeId": "3897:2210",
+          "referenceScope": "historical internal raster layer of preserved composite"
+        },
+        {
+          "name": "Immagine reale · undefined",
+          "w": 384,
+          "h": 66,
+          "hash": "8d5e882308e13c5ba323ea529eeeab4a46b6e949",
+          "mode": "CROP",
+          "crop": [
+            [
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              0.3055555522441864,
+              0.3472222089767456
+            ]
+          ],
+          "historicalNodeId": "3897:2213",
+          "referenceScope": "historical internal raster layer of preserved composite"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:21985;3165:600;3948:22003;3164:51;3948:22004",
+          "text": "Swiper: uno stato reale della traccia durante lo stesso trascinamento.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:21985;3165:600;3948:22003",
+          "figureId": "3948:21985",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "text": "t0",
+          "w": 30,
+          "h": 12,
+          "styleOK": true,
+          "historicalNodeId": "3897:2208",
+          "referenceScope": "historical internal time label; outside editorial caption migration"
+        },
+        {
+          "text": "t1",
+          "w": 30,
+          "h": 12,
+          "styleOK": true,
+          "historicalNodeId": "3897:2211",
+          "referenceScope": "historical internal time label; outside editorial caption migration"
+        },
+        {
+          "text": "t2",
+          "w": 30,
+          "h": 12,
+          "styleOK": true,
+          "historicalNodeId": "3897:2214",
+          "referenceScope": "historical internal time label; outside editorial caption migration"
+        },
+        {
+          "id": "I3948:22017;3165:600;3948:22044;3164:51;3948:22045",
+          "text": "Dettagli di tre istanti consecutivi: la traccia avanza di 100 px fra le catture; le distanze reciproche restano costanti.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22017;3165:600;3948:22044",
+          "figureId": "3948:22017",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 169,
+      "side": "DX",
+      "row": 3,
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 2452.91357421875,
+      "title": "Destino comune: altri screenshot reali",
+      "captionIds": [
+        "I3948:21985;3165:600;3948:22003;3164:51;3948:22004",
+        "I3948:22017;3165:600;3948:22044;3164:51;3948:22045"
+      ],
+      "imageIds": [
+        "I3948:21985;3165:593;3948:21999;3164:44;3948:22000"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 56.375,
+        "w": 420,
+        "h": 511.25,
+        "bottom": 567.625
+      },
+      "figureIds": [
+        "3948:21985",
+        "3948:22017"
+      ],
+      "visualIds": [
+        "I3948:21985;3165:593;3948:21999;3164:44;3948:22000",
+        "I3948:22017;3165:593;3948:22031;3164:44;3948:22032"
+      ],
+      "historicalInternalCaptionIds": [
+        "3897:2208",
+        "3897:2211",
+        "3897:2214"
+      ],
+      "historicalInternalImageIds": [
+        "3897:2207",
+        "3897:2210",
+        "3897:2213"
+      ],
+      "sourceInstanceId": "3975:2437",
+      "sourceGroupId": "3975:2435",
+      "sourceBounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2217",
+      "key": "continuita",
+      "kind": "graphic",
+      "bodyId": "3897:2230",
+      "sourceId": "I3975:2613;3164:57;3975:2617",
+      "footerId": "3897:2224",
+      "source": "MINI, «While others play playlist. The MINI is its own soundtrack.» · autore non indicato nel materiale · booklet 2024, p. PDF 327; slide 2025–2026, p.72.",
+      "sourceHeight": 20,
+      "number": 267,
+      "body": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "images": [
+        {
+          "id": "I3948:22224;3165:593;3948:22238;3164:44;3948:22239",
+          "name": "Immagine reale · continuita-mini",
+          "w": 342.2629089355469,
+          "h": 484,
+          "hash": "4db2056b222550901f2a8370c7cd1f975cb295ec",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22224;3165:593;3948:22238",
+          "figureId": "3948:22224"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:22224;3165:600;3948:22242;3164:51;3948:22243",
+          "text": "MINI: il cavo prosegue in curve regolari e richiama una strada.",
+          "w": 342.2629089355469,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22224;3165:600;3948:22242",
+          "figureId": "3948:22224",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 175,
+      "side": "DX",
+      "row": 4,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 3238.55126953125,
+      "title": "Buona continuazione: altre immagini e grafiche",
+      "captionIds": [
+        "I3948:22224;3165:600;3948:22242;3164:51;3948:22243"
+      ],
+      "imageIds": [
+        "I3948:22224;3165:593;3948:22238;3164:44;3948:22239"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "figureIds": [
+        "3948:22224"
+      ],
+      "visualIds": [
+        "I3948:22224;3165:593;3948:22238;3164:44;3948:22239"
+      ],
+      "sourceInstanceId": "3975:2613",
+      "sourceGroupId": "3975:2611",
+      "sourceBounds": {
+        "x": 74,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2235",
+      "key": "continuita",
+      "kind": "web",
+      "bodyId": "3897:2248",
+      "sourceId": "I3975:2629;3164:57;3975:2633",
+      "footerId": "3897:2242",
+      "source": "Step indicator | U.S. Web Design System (USWDS) · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.\nElena Sofia Fiorillo, approfondimento 2024–2025, p.10. Cattura storica; diritti dei rispettivi titolari.",
+      "sourceHeight": 20,
+      "number": 269,
+      "body": {
+        "x": 45.5,
+        "y": 67.09341430664062,
+        "w": 420,
+        "h": 489.81317138671875,
+        "bottom": 556.9065856933594
+      },
+      "images": [
+        {
+          "id": "I3948:22272;3165:593;3948:22286;3164:44;3948:22287",
+          "name": "Immagine reale · continuita-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "2ca0204d9298e41a78b1807e54715e2cb381b365",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22272;3165:593;3948:22286",
+          "figureId": "3948:22272"
+        },
+        {
+          "id": "I3948:22295;3165:593;3948:22309;3164:44;3948:22310",
+          "name": "Immagine reale · burger-king-promozioni",
+          "w": 420,
+          "h": 192.56317138671875,
+          "hash": "b4e108c55ba906691b36bbee64cd27ee4383766f",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22295;3165:593;3948:22309",
+          "figureId": "3948:22295"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:22272;3165:600;3948:22290;3164:51;3948:22291",
+          "text": "USWDS: segmenti e tappe proseguono sullo stesso asse.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22272;3165:600;3948:22290",
+          "figureId": "3948:22272",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:22295;3165:600;3948:22313;3164:51;3948:22314",
+          "text": "Burger King: le promozioni proseguono lungo una stessa direzione.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22295;3165:600;3948:22313",
+          "figureId": "3948:22295",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 177,
+      "side": "DX",
+      "row": 4,
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 3238.55126953125,
+      "title": "Buona continuazione: altri screenshot reali",
+      "captionIds": [
+        "I3948:22272;3165:600;3948:22290;3164:51;3948:22291",
+        "I3948:22295;3165:600;3948:22313;3164:51;3948:22314"
+      ],
+      "imageIds": [
+        "I3948:22272;3165:593;3948:22286;3164:44;3948:22287",
+        "I3948:22295;3165:593;3948:22309;3164:44;3948:22310"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 67.09341430664062,
+        "w": 420,
+        "h": 489.81317138671875,
+        "bottom": 556.9065856933594
+      },
+      "figureIds": [
+        "3948:22272",
+        "3948:22295"
+      ],
+      "visualIds": [
+        "I3948:22272;3165:593;3948:22286;3164:44;3948:22287",
+        "I3948:22295;3165:593;3948:22309;3164:44;3948:22310"
+      ],
+      "sourceInstanceId": "3975:2629",
+      "sourceGroupId": "3975:2627",
+      "sourceBounds": {
+        "x": 74,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2256",
+      "key": "chiusura",
+      "kind": "graphic",
+      "bodyId": "3897:2269",
+      "sourceId": "I3975:2807;3164:57;3975:2811",
+      "footerId": "3897:2263",
+      "source": "Sea & Vines Food & Wine Festival, 2012 · booklet 2024, p. PDF 331; slide 2025–2026, p.62. Autore non indicato.",
+      "sourceHeight": 10,
+      "number": 275,
+      "body": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "images": [
+        {
+          "id": "I3948:22541;3165:593;3948:22555;3164:44;3948:22556",
+          "name": "Immagine reale · chiusura-sea-vines",
+          "w": 342.45281982421875,
+          "h": 484,
+          "hash": "916843fc2b607f758cf71fb522634f13f1ad3b71",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22541;3165:593;3948:22555",
+          "figureId": "3948:22541"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:22541;3165:600;3948:22559;3164:51;3948:22560",
+          "text": "Sea & Vines: le forchette suggeriscono il profilo di un calice incompleto.",
+          "w": 342.45281982421875,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22541;3165:600;3948:22559",
+          "figureId": "3948:22541",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 183,
+      "side": "DX",
+      "row": 5,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 4024.18896484375,
+      "title": "Chiusura: Sea & Vines",
+      "captionIds": [
+        "I3948:22541;3165:600;3948:22559;3164:51;3948:22560"
+      ],
+      "imageIds": [
+        "I3948:22541;3165:593;3948:22555;3164:44;3948:22556"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "figureIds": [
+        "3948:22541"
+      ],
+      "visualIds": [
+        "I3948:22541;3165:593;3948:22555;3164:44;3948:22556"
+      ],
+      "sourceInstanceId": "3975:2807",
+      "sourceGroupId": "3975:2805",
+      "sourceBounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3919:2088",
+      "key": "chiusura",
+      "kind": "graphic",
+      "bodyId": "3919:2090",
+      "sourceId": "I3975:2815;3164:57;3975:2819",
+      "footerId": "3919:2089",
+      "source": "Elena Sofia Fiorillo, approfondimento 2024–2025, p.6 · Heinz, pubblicità. Cattura dal materiale del corso; autore non indicato; rispettivi diritti.",
+      "sourceHeight": 20,
+      "number": 276,
+      "body": {
+        "x": 31.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "images": [
+        {
+          "id": "I3948:22565;3165:593;3948:22579;3164:44;3948:22580",
+          "name": "Immagine reale · heinz-bottiglia-pomodoro",
+          "w": 353.87939453125,
+          "h": 484,
+          "hash": "f012fc2c5e213ea9b5fef4595ba4ca412423ad8a",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22565;3165:593;3948:22579",
+          "figureId": "3948:22565"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:22565;3165:600;3948:22583;3164:51;3948:22584",
+          "text": "Heinz: fette, collo ed etichetta suggeriscono una bottiglia dal contorno irregolare.",
+          "w": 353.87939453125,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22565;3165:600;3948:22583",
+          "figureId": "3948:22565",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 184,
+      "side": "SX",
+      "row": 5,
+      "col": 6,
+      "x": 3408.3779296875,
+      "y": 4024.18896484375,
+      "title": "Chiusura: Heinz",
+      "captionIds": [
+        "I3948:22565;3165:600;3948:22583;3164:51;3948:22584"
+      ],
+      "imageIds": [
+        "I3948:22565;3165:593;3948:22579;3164:44;3948:22580"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "figureIds": [
+        "3948:22565"
+      ],
+      "visualIds": [
+        "I3948:22565;3165:593;3948:22579;3164:44;3948:22580"
+      ],
+      "sourceInstanceId": "3975:2815",
+      "sourceGroupId": "3975:2813",
+      "sourceBounds": {
+        "x": 60,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2277",
+      "key": "chiusura",
+      "kind": "web",
+      "bodyId": "3897:2290",
+      "sourceId": "I3975:2831;3164:57;3975:2835",
+      "footerId": "3897:2284",
+      "source": "Loading | Carbon Design System · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.",
+      "sourceHeight": 10,
+      "number": 278,
+      "body": {
+        "x": 31.5,
+        "y": 57.375,
+        "w": 420,
+        "h": 509.25,
+        "bottom": 566.625
+      },
+      "images": [
+        {
+          "id": "I3948:22613;3165:593;3948:22627;3164:44;3948:22628",
+          "name": "Immagine reale · chiusura-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "a2a0e76fb2a0b9af561712ba20703c8b5c4bfb1b",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22613;3165:593;3948:22627",
+          "figureId": "3948:22613"
+        },
+        {
+          "id": "I3948:22636;3165:593;3948:22650;3164:44;3948:22651",
+          "name": "Dettaglio reale · stesso fotogramma Carbon",
+          "w": 200,
+          "h": 200,
+          "hash": "a2a0e76fb2a0b9af561712ba20703c8b5c4bfb1b",
+          "mode": "CROP",
+          "crop": [
+            [
+              0.10781250149011612,
+              0,
+              0.23359374701976776
+            ],
+            [
+              0,
+              0.19166666269302368,
+              0.29027777910232544
+            ]
+          ],
+          "imageInstanceId": "I3948:22636;3165:593;3948:22650",
+          "figureId": "3948:22636"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:22613;3165:600;3948:22631;3164:51;3948:22632",
+          "text": "Carbon: un arco incompleto suggerisce un anello.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22613;3165:600;3948:22631",
+          "figureId": "3948:22613",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:22636;3165:600;3948:22654;3164:51;3948:22655",
+          "text": "Dettaglio dello stesso fotogramma: il contorno interrotto resta riconoscibile.",
+          "w": 200,
+          "h": 24,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22636;3165:600;3948:22654",
+          "figureId": "3948:22636",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 186,
+      "side": "SX",
+      "row": 5,
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 4024.18896484375,
+      "title": "Chiusura: altri screenshot reali",
+      "captionIds": [
+        "I3948:22613;3165:600;3948:22631;3164:51;3948:22632",
+        "I3948:22636;3165:600;3948:22654;3164:51;3948:22655"
+      ],
+      "imageIds": [
+        "I3948:22613;3165:593;3948:22627;3164:44;3948:22628",
+        "I3948:22636;3165:593;3948:22650;3164:44;3948:22651"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 57.375,
+        "w": 420,
+        "h": 509.25,
+        "bottom": 566.625
+      },
+      "figureIds": [
+        "3948:22613",
+        "3948:22636"
+      ],
+      "visualIds": [
+        "I3948:22613;3165:593;3948:22627;3164:44;3948:22628",
+        "I3948:22636;3165:593;3948:22650;3164:44;3948:22651"
+      ],
+      "sourceInstanceId": "3975:2831",
+      "sourceGroupId": "3975:2829",
+      "sourceBounds": {
+        "x": 60,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2295",
+      "key": "simmetria",
+      "kind": "graphic",
+      "bodyId": "3897:2308",
+      "sourceId": "I3975:3009;3164:57;3975:3013",
+      "footerId": "3897:2302",
+      "source": "HSBC · autore del marchio non indicato nella fonte didattica · booklet 2024, p.15.",
+      "sourceHeight": 10,
+      "number": 284,
+      "body": {
+        "x": 31.5,
+        "y": 155.75,
+        "w": 420,
+        "h": 312.5,
+        "bottom": 468.25
+      },
+      "images": [
+        {
+          "id": "I3948:22806;3165:593;3948:22820;3164:44;3948:22821",
+          "name": "Immagine reale · simmetria-hsbc",
+          "w": 337,
+          "h": 290,
+          "hash": "6d1a5a8b45090685c0b852a8969fd2d2b9a012f9",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22806;3165:593;3948:22820",
+          "figureId": "3948:22806"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:22806;3165:600;3948:22824;3164:51;3948:22825",
+          "text": "HSBC: le forme dell’emblema si corrispondono rispetto agli assi verticale e orizzontale.",
+          "w": 337,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22806;3165:600;3948:22824",
+          "figureId": "3948:22806",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 192,
+      "side": "SX",
+      "row": 6,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 4809.8271484375,
+      "title": "Simmetria: altre immagini e grafiche",
+      "captionIds": [
+        "I3948:22806;3165:600;3948:22824;3164:51;3948:22825"
+      ],
+      "imageIds": [
+        "I3948:22806;3165:593;3948:22820;3164:44;3948:22821"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 155.75,
+        "w": 420,
+        "h": 312.5,
+        "bottom": 468.25
+      },
+      "figureIds": [
+        "3948:22806"
+      ],
+      "visualIds": [
+        "I3948:22806;3165:593;3948:22820;3164:44;3948:22821"
+      ],
+      "sourceInstanceId": "3975:3009",
+      "sourceGroupId": "3975:3007",
+      "sourceBounds": {
+        "x": 60,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2313",
+      "key": "simmetria",
+      "kind": "web",
+      "bodyId": "3897:2326",
+      "sourceId": "I3975:3033;3164:57;3975:3037",
+      "footerId": "3897:2320",
+      "source": "Download | OBS · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.",
+      "sourceHeight": 10,
+      "number": 287,
+      "body": {
+        "x": 45.5,
+        "y": 182.625,
+        "w": 420,
+        "h": 258.75,
+        "bottom": 441.375
+      },
+      "images": [
+        {
+          "id": "I3948:22924;3165:593;3948:22938;3164:44;3948:22939",
+          "name": "Immagine reale · simmetria-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "4f3e02ef4cb0de35f5af6f20bd9d8743dd077d67",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:22924;3165:593;3948:22938",
+          "figureId": "3948:22924"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:22924;3165:600;3948:22942;3164:51;3948:22943",
+          "text": "OBS: controlli uguali e centri equidistanti; i simboli sono differenti.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:22924;3165:600;3948:22942",
+          "figureId": "3948:22924",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 195,
+      "side": "DX",
+      "row": 6,
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 4809.8271484375,
+      "title": "Simmetria: altri screenshot reali",
+      "captionIds": [
+        "I3948:22924;3165:600;3948:22942;3164:51;3948:22943"
+      ],
+      "imageIds": [
+        "I3948:22924;3165:593;3948:22938;3164:44;3948:22939"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 182.625,
+        "w": 420,
+        "h": 258.75,
+        "bottom": 441.375
+      },
+      "figureIds": [
+        "3948:22924"
+      ],
+      "visualIds": [
+        "I3948:22924;3165:593;3948:22938;3164:44;3948:22939"
+      ],
+      "sourceInstanceId": "3975:3033",
+      "sourceGroupId": "3975:3031",
+      "sourceBounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2370",
+      "key": "figura-sfondo",
+      "kind": "graphic",
+      "bodyId": "3897:2383",
+      "sourceId": "I3975:3209;3164:57;3975:3213",
+      "footerId": "3897:2377",
+      "source": "Richard Fonteneau, «Spartan Golf», concept, 2010 · Logopond, progetto 91660; riproduzione nel booklet 2024, p. PDF 339.",
+      "sourceHeight": 20,
+      "number": 293,
+      "body": {
+        "x": 45.5,
+        "y": 142.25,
+        "w": 420,
+        "h": 339.5,
+        "bottom": 481.75
+      },
+      "images": [
+        {
+          "id": "I3948:23062;3165:593;3948:23076;3164:44;3948:23077",
+          "name": "Immagine reale · figura-sfondo-spartan-golf",
+          "w": 350,
+          "h": 317,
+          "hash": "0556f16c3c6d3a116c4cad3c3c256ce2b6276f6a",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23062;3165:593;3948:23076",
+          "figureId": "3948:23062"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:23062;3165:600;3948:23080;3164:51;3948:23081",
+          "text": "Spartan Golf: la figura del golfista partecipa anche al profilo di un guerriero.",
+          "w": 350,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23062;3165:600;3948:23080",
+          "figureId": "3948:23062",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 201,
+      "side": "DX",
+      "row": 7,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 5595.46484375,
+      "title": "Figura e sfondo: altre immagini e grafiche",
+      "captionIds": [
+        "I3948:23062;3165:600;3948:23080;3164:51;3948:23081"
+      ],
+      "imageIds": [
+        "I3948:23062;3165:593;3948:23076;3164:44;3948:23077"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 142.25,
+        "w": 420,
+        "h": 339.5,
+        "bottom": 481.75
+      },
+      "figureIds": [
+        "3948:23062"
+      ],
+      "visualIds": [
+        "I3948:23062;3165:593;3948:23076;3164:44;3948:23077"
+      ],
+      "sourceInstanceId": "3975:3209",
+      "sourceGroupId": "3975:3207",
+      "sourceBounds": {
+        "x": 74,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2388",
+      "key": "figura-sfondo",
+      "kind": "web",
+      "bodyId": "3897:2401",
+      "sourceId": "I3975:3225;3164:57;3975:3229",
+      "footerId": "3897:2395",
+      "source": "Installing Tailwind CSS with Vite - Tailwind CSS · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.\nAsia Castano, approfondimento 2023–2024, p.15. Cattura storica; diritti dei rispettivi titolari.",
+      "sourceHeight": 20,
+      "number": 295,
+      "body": {
+        "x": 45.5,
+        "y": 52.25,
+        "w": 420,
+        "h": 519.5,
+        "bottom": 571.75
+      },
+      "images": [
+        {
+          "id": "I3948:23133;3165:593;3948:23147;3164:44;3948:23148",
+          "name": "Immagine reale · figura-sfondo-web-live",
+          "w": 414.7486877441406,
+          "h": 233.29612731933594,
+          "hash": "5a767f9f05ca5a1ef58ea960a13f4e31041f456a",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23133;3165:593;3948:23147",
+          "figureId": "3948:23133"
+        },
+        {
+          "id": "I3948:23156;3165:593;3948:23170;3164:44;3948:23171",
+          "name": "Immagine reale · atelier-contrasto",
+          "w": 414.7486877441406,
+          "h": 233.20388793945312,
+          "hash": "23b5ba3af99c33ec0aecd43fbd8dd89254b21637",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23156;3165:593;3948:23170",
+          "figureId": "3948:23156"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:23133;3165:600;3948:23151;3164:51;3948:23152",
+          "text": "Tailwind: la ricerca nitida emerge davanti alla documentazione attenuata.",
+          "w": 414.7486877441406,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23133;3165:600;3948:23151",
+          "figureId": "3948:23133",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:23156;3165:600;3948:23174;3164:51;3948:23175",
+          "text": "Atelier: il volto illuminato e il testo chiaro emergono dal fondo scuro.",
+          "w": 414.7486877441406,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23156;3165:600;3948:23174",
+          "figureId": "3948:23156",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 203,
+      "side": "DX",
+      "row": 7,
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 5595.46484375,
+      "title": "Figura e sfondo: altri screenshot reali",
+      "captionIds": [
+        "I3948:23133;3165:600;3948:23151;3164:51;3948:23152",
+        "I3948:23156;3165:600;3948:23174;3164:51;3948:23175"
+      ],
+      "imageIds": [
+        "I3948:23133;3165:593;3948:23147;3164:44;3948:23148",
+        "I3948:23156;3165:593;3948:23170;3164:44;3948:23171"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 52.25,
+        "w": 420,
+        "h": 519.5,
+        "bottom": 571.75
+      },
+      "figureIds": [
+        "3948:23133",
+        "3948:23156"
+      ],
+      "visualIds": [
+        "I3948:23133;3165:593;3948:23147;3164:44;3948:23148",
+        "I3948:23156;3165:593;3948:23170;3164:44;3948:23171"
+      ],
+      "sourceInstanceId": "3975:3225",
+      "sourceGroupId": "3975:3223",
+      "sourceBounds": {
+        "x": 74,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2409",
+      "key": "esperienza-passata",
+      "kind": "graphic",
+      "bodyId": "3897:2422",
+      "sourceId": "I3975:3403;3164:57;3975:3407",
+      "footerId": "3897:2416",
+      "source": "Coca-Cola, «Feel it» · autore non indicato nel materiale · booklet 2024, p. PDF 338.",
+      "sourceHeight": 10,
+      "number": 301,
+      "body": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "images": [
+        {
+          "id": "I3948:23352;3165:593;3948:23366;3164:44;3948:23367",
+          "name": "Immagine reale · esperienza-cocacola-feel-it",
+          "w": 401.9888916015625,
+          "h": 484,
+          "hash": "d6e396b3cd7e602e7a69da5010738ed6547ef193",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23352;3165:593;3948:23366",
+          "figureId": "3948:23352"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:23352;3165:600;3948:23370;3164:51;3948:23371",
+          "text": "Coca-Cola: colore e marchio richiamano associazioni apprese con la marca.",
+          "w": 401.9888916015625,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23352;3165:600;3948:23370",
+          "figureId": "3948:23352",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 209,
+      "side": "DX",
+      "row": 8,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 6381.1025390625,
+      "title": "Esperienza passata: altre immagini e grafiche",
+      "captionIds": [
+        "I3948:23352;3165:600;3948:23370;3164:51;3948:23371"
+      ],
+      "imageIds": [
+        "I3948:23352;3165:593;3948:23366;3164:44;3948:23367"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 58.75,
+        "w": 420,
+        "h": 506.5,
+        "bottom": 565.25
+      },
+      "figureIds": [
+        "3948:23352"
+      ],
+      "visualIds": [
+        "I3948:23352;3165:593;3948:23366;3164:44;3948:23367"
+      ],
+      "sourceInstanceId": "3975:3403",
+      "sourceGroupId": "3975:3401",
+      "sourceBounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2430",
+      "key": "esperienza-passata",
+      "kind": "web",
+      "bodyId": "3897:2443",
+      "sourceId": "I3975:3419;3164:57;3975:3423",
+      "footerId": "3897:2437",
+      "source": "IKEA Italia · cattura reale del 15 ottobre 2026. Dettaglio ricavato dalla stessa cattura; diritti dei rispettivi titolari.",
+      "sourceHeight": 10,
+      "number": 303,
+      "body": {
+        "x": 45.5,
+        "y": 138.1750030517578,
+        "w": 420,
+        "h": 347.6499938964844,
+        "bottom": 485.8249969482422
+      },
+      "images": [
+        {
+          "id": "I3948:23423;3165:593;3948:23437;3164:44;3948:23438",
+          "name": "Immagine reale · esperienza-passata-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "9c1617691394a5f127290d9d24a7950500e22992",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23423;3165:593;3948:23437",
+          "figureId": "3948:23423"
+        },
+        {
+          "id": "I3948:23446;3165:593;3948:23460;3164:44;3948:23461",
+          "name": "Dettaglio reale · stessa testata IKEA",
+          "w": 420,
+          "h": 50.400001525878906,
+          "hash": "9c1617691394a5f127290d9d24a7950500e22992",
+          "mode": "CROP",
+          "crop": [
+            [
+              0.46875,
+              0,
+              0.5
+            ],
+            [
+              0,
+              0.10000000149011612,
+              0.0833333358168602
+            ]
+          ],
+          "imageInstanceId": "I3948:23446;3165:593;3948:23460",
+          "figureId": "3948:23446"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:23423;3165:600;3948:23441;3164:51;3948:23442",
+          "text": "IKEA: i simboli della testata richiamano convenzioni d’uso apprese.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23423;3165:600;3948:23441",
+          "figureId": "3948:23423",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:23446;3165:600;3948:23464;3164:51;3948:23465",
+          "text": "Dettaglio della stessa testata: ricerca, profilo, preferiti e acquisti.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23446;3165:600;3948:23464",
+          "figureId": "3948:23446",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 211,
+      "side": "DX",
+      "row": 8,
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 6381.1025390625,
+      "title": "Esperienza passata: IKEA",
+      "captionIds": [
+        "I3948:23423;3165:600;3948:23441;3164:51;3948:23442",
+        "I3948:23446;3165:600;3948:23464;3164:51;3948:23465"
+      ],
+      "imageIds": [
+        "I3948:23423;3165:593;3948:23437;3164:44;3948:23438",
+        "I3948:23446;3165:593;3948:23460;3164:44;3948:23461"
+      ],
+      "bodyBounds": {
+        "x": 45.5,
+        "y": 138.1750030517578,
+        "w": 420,
+        "h": 347.6499938964844,
+        "bottom": 485.8249969482422
+      },
+      "figureIds": [
+        "3948:23423",
+        "3948:23446"
+      ],
+      "visualIds": [
+        "I3948:23423;3165:593;3948:23437;3164:44;3948:23438",
+        "I3948:23446;3165:593;3948:23460;3164:44;3948:23461"
+      ],
+      "sourceInstanceId": "3975:3419",
+      "sourceGroupId": "3975:3417",
+      "sourceBounds": {
+        "x": 74,
+        "y": 600,
+        "w": 363,
+        "h": 10,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 74,
+        "y": 594.5,
+        "w": 363,
+        "h": 15.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3919:2092",
+      "key": "esperienza-passata",
+      "kind": "web",
+      "bodyId": "3919:2094",
+      "sourceId": "I3975:3427;3164:57;3975:3431",
+      "footerId": "3919:2093",
+      "source": "Gaia Galimberti, approfondimento 2024–2025, p.8, da Nielsen Norman Group · Oxfam, cattura storica. Diritti dei rispettivi titolari.",
+      "sourceHeight": 20,
+      "number": 304,
+      "body": {
+        "x": 31.5,
+        "y": 100.8515625,
+        "w": 420,
+        "h": 422.296875,
+        "bottom": 523.1484375
+      },
+      "images": [
+        {
+          "id": "I3948:23470;3165:593;3948:23484;3164:44;3948:23485",
+          "name": "Immagine reale · oxfam-icon-social",
+          "w": 420,
+          "h": 275.296875,
+          "hash": "87f49877184899c024a886a46111fec67f5974d5",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23470;3165:593;3948:23484",
+          "figureId": "3948:23470"
+        },
+        {
+          "id": "I3948:23493;3165:593;3948:23507;3164:44;3948:23508",
+          "name": "Immagine reale · oxfam-icon-social-detail",
+          "w": 335,
+          "h": 86,
+          "hash": "b978b86c32104dd680bdd3d010c40ddad4151a8f",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23493;3165:593;3948:23507",
+          "figureId": "3948:23493"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:23470;3165:600;3948:23488;3164:51;3948:23489",
+          "text": "Oxfam: le icone social richiamano servizi già conosciuti.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23470;3165:600;3948:23488",
+          "figureId": "3948:23470",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:23493;3165:600;3948:23511;3164:51;3948:23512",
+          "text": "Dettaglio della stessa cattura: Twitter, Facebook e YouTube.",
+          "w": 335,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23493;3165:600;3948:23511",
+          "figureId": "3948:23493",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 212,
+      "side": "SX",
+      "row": 8,
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 6381.1025390625,
+      "title": "Esperienza passata: Oxfam",
+      "captionIds": [
+        "I3948:23470;3165:600;3948:23488;3164:51;3948:23489",
+        "I3948:23493;3165:600;3948:23511;3164:51;3948:23512"
+      ],
+      "imageIds": [
+        "I3948:23470;3165:593;3948:23484;3164:44;3948:23485",
+        "I3948:23493;3165:593;3948:23507;3164:44;3948:23508"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 100.8515625,
+        "w": 420,
+        "h": 422.296875,
+        "bottom": 523.1484375
+      },
+      "figureIds": [
+        "3948:23470",
+        "3948:23493"
+      ],
+      "visualIds": [
+        "I3948:23470;3165:593;3948:23484;3164:44;3948:23485",
+        "I3948:23493;3165:593;3948:23507;3164:44;3948:23508"
+      ],
+      "sourceInstanceId": "3975:3427",
+      "sourceGroupId": "3975:3425",
+      "sourceBounds": {
+        "x": 60,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2331",
+      "key": "regione-comune",
+      "kind": "web",
+      "bodyId": "3897:2344",
+      "sourceId": "I3975:3613;3164:57;3975:3617",
+      "footerId": "3897:2338",
+      "source": "Kavin Kumar G, Car Insurance policies dashboard, Tableau Public (2022) · cattura reale del 15 ottobre 2026; rispettivi diritti.¹\n¹ Visualizzazione pubblicata su Tableau Public",
+      "sourceHeight": 30,
+      "number": 310,
+      "body": {
+        "x": 31.5,
+        "y": 90.03665161132812,
+        "w": 420,
+        "h": 443.92669677734375,
+        "bottom": 533.9633483886719
+      },
+      "images": [
+        {
+          "id": "I3948:23687;3165:593;3948:23701;3164:44;3948:23702",
+          "name": "Screenshot reale · dashboard Tableau Public",
+          "w": 420,
+          "h": 290.135986328125,
+          "hash": "a381af2ca60c9d5e10d29723283221ee2c1b36b3",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23687;3165:593;3948:23701",
+          "figureId": "3948:23687"
+        },
+        {
+          "id": "I3948:23710;3165:593;3948:23724;3164:44;3948:23725",
+          "name": "Dettaglio reale · primi due pannelli KPI",
+          "w": 420,
+          "h": 92.79069519042969,
+          "hash": "c9e4398ce5e4530460a638cb76c58b618dff2247",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23710;3165:593;3948:23724",
+          "figureId": "3948:23710"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:23687;3165:600;3948:23705;3164:51;3948:23706",
+          "text": "Tableau Public: ogni pannello bianco raccoglie informazioni in una regione distinta.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23687;3165:600;3948:23705",
+          "figureId": "3948:23687",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:23710;3165:600;3948:23728;3164:51;3948:23729",
+          "text": "Dettaglio della stessa cattura: ogni pannello riunisce simbolo, nome e valore.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23710;3165:600;3948:23728",
+          "figureId": "3948:23710",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 218,
+      "side": "SX",
+      "row": 9,
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 7166.740234375,
+      "title": "Regione comune: dashboard pubblicata su Tableau",
+      "captionIds": [
+        "I3948:23687;3165:600;3948:23705;3164:51;3948:23706",
+        "I3948:23710;3165:600;3948:23728;3164:51;3948:23729"
+      ],
+      "imageIds": [
+        "I3948:23687;3165:593;3948:23701;3164:44;3948:23702",
+        "I3948:23710;3165:593;3948:23724;3164:44;3948:23725"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 90.03665161132812,
+        "w": 420,
+        "h": 443.92669677734375,
+        "bottom": 533.9633483886719
+      },
+      "figureIds": [
+        "3948:23687",
+        "3948:23710"
+      ],
+      "visualIds": [
+        "I3948:23687;3165:593;3948:23701;3164:44;3948:23702",
+        "I3948:23710;3165:593;3948:23724;3164:44;3948:23725"
+      ],
+      "sourceInstanceId": "3975:3613",
+      "sourceGroupId": "3975:3611",
+      "sourceBounds": {
+        "x": 60,
+        "y": 580,
+        "w": 363,
+        "h": 30,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 574.5,
+        "w": 363,
+        "h": 35.5,
+        "bottom": 610.0
+      }
+    },
+    {
+      "id": "3897:2349",
+      "key": "regione-comune",
+      "kind": "web",
+      "bodyId": "3897:2362",
+      "sourceId": "I3975:3645;3164:57;3975:3649",
+      "footerId": "3897:2356",
+      "source": "Slack Pricing Plans: Find the Right Fit for Your Team | Slack · cattura del 15 ottobre 2026. Diritti dei rispettivi titolari.\nLaura Panzeri, approfondimento 2025–2026, p.14. Cattura storica; diritti dei rispettivi titolari.",
+      "sourceHeight": 20,
+      "number": 314,
+      "body": {
+        "x": 31.5,
+        "y": 148.62164306640625,
+        "w": 420,
+        "h": 326.7567138671875,
+        "bottom": 475.37835693359375
+      },
+      "images": [
+        {
+          "id": "I3948:23852;3165:593;3948:23866;3164:44;3948:23867",
+          "name": "Immagine reale · regione-comune-web-live",
+          "w": 420,
+          "h": 236.25,
+          "hash": "203e83a0a4aa853724994016846000b38a80d41a",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23852;3165:593;3948:23866",
+          "figureId": "3948:23852"
+        },
+        {
+          "id": "I3948:23875;3165:593;3948:23889;3164:44;3948:23890",
+          "name": "Immagine reale · pane-trita-header",
+          "w": 420,
+          "h": 29.50672721862793,
+          "hash": "c96294e6a6cd8f41ae5298313f0a3e3dd6fdf2c0",
+          "mode": "FIT",
+          "imageInstanceId": "I3948:23875;3165:593;3948:23889",
+          "figureId": "3948:23875"
+        }
+      ],
+      "captions": [
+        {
+          "id": "I3948:23852;3165:600;3948:23870;3164:51;3948:23871",
+          "text": "Slack: ogni piano riunisce prezzo, pulsante e funzioni in una regione delimitata.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23852;3165:600;3948:23870",
+          "figureId": "3948:23852",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        },
+        {
+          "id": "I3948:23875;3165:600;3948:23893;3164:51;3948:23894",
+          "text": "Pane&Trita: la superficie rossa raccoglie marchio e navigazione.",
+          "w": 420,
+          "h": 12,
+          "styleOK": true,
+          "captionInstanceId": "I3948:23875;3165:600;3948:23893",
+          "figureId": "3948:23875",
+          "textStyleId": "S:57e7444d26d962e027652fa050efff6200e1966c,"
+        }
+      ],
+      "index": 222,
+      "side": "SX",
+      "row": 9,
+      "col": 9,
+      "x": 5088.56689453125,
+      "y": 7166.740234375,
+      "title": "Regione comune: altri screenshot reali",
+      "captionIds": [
+        "I3948:23852;3165:600;3948:23870;3164:51;3948:23871",
+        "I3948:23875;3165:600;3948:23893;3164:51;3948:23894"
+      ],
+      "imageIds": [
+        "I3948:23852;3165:593;3948:23866;3164:44;3948:23867",
+        "I3948:23875;3165:593;3948:23889;3164:44;3948:23890"
+      ],
+      "bodyBounds": {
+        "x": 31.5,
+        "y": 148.62164306640625,
+        "w": 420,
+        "h": 326.7567138671875,
+        "bottom": 475.37835693359375
+      },
+      "figureIds": [
+        "3948:23852",
+        "3948:23875"
+      ],
+      "visualIds": [
+        "I3948:23852;3165:593;3948:23866;3164:44;3948:23867",
+        "I3948:23875;3165:593;3948:23889;3164:44;3948:23890"
+      ],
+      "sourceInstanceId": "3975:3645",
+      "sourceGroupId": "3975:3643",
+      "sourceBounds": {
+        "x": 60,
+        "y": 590,
+        "w": 363,
+        "h": 20,
+        "bottom": 610
+      },
+      "sourceGroupBounds": {
+        "x": 60,
+        "y": 584.5,
+        "w": 363,
+        "h": 25.5,
+        "bottom": 610.0
+      }
+    }
+  ],
+  "relocatedHistoricalCase": {
+    "case": "pane-trita-menu",
+    "pageId": "3417:1199",
+    "bodyId": "3867:2094",
+    "figureId": "3948:21562",
+    "imageId": "I3948:21562;3165:593;3948:21576;3164:44;3948:21577",
+    "captionId": "I3948:21562;3165:600;3948:21580;3164:51;3948:21581",
+    "caption": "Pane&Trita: le due schede rosse risultano più simili fra loro rispetto alla terza.",
+    "visualId": "I3948:21562;3165:593;3948:21576;3164:44;3948:21577",
+    "imageInstanceId": "I3948:21562;3165:593;3948:21576",
+    "captionInstanceId": "I3948:21562;3165:600;3948:21580",
+    "bodyBounds": {
+      "x": 45.5,
+      "y": 109.18867492675781,
+      "w": 420,
+      "h": 405.6226501464844,
+      "bottom": 514.8113250732422
+    }
+  },
+  "historicalNote": {
+    "principle": "Regione comune (common region)",
+    "author": "Stephen E. Palmer",
+    "year": 1992,
+    "explanation": "Aggiunta successiva alle formulazioni classiche della Gestalt.",
+    "pageIds": [
+      "3894:2081",
+      "3721:2488",
+      "3861:21503"
+    ],
+    "noteNodeIds": [
+      "I3975:3565;3030:536;3975:3569",
+      "I3977:2284;3189:4586;3977:2295;3164:57;3977:2296"
+    ],
+    "doi": "10.1016/0010-0285(92)90014-S",
+    "numberedNoteId": "3977:2284",
+    "indexNoteTextId": "I3977:2284;3189:4586;3977:2295;3164:57;3977:2296",
+    "referenceMarker": "¹"
+  },
+  "tableauScreenshot": {
+    "requestedUrl": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+    "url": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+    "title": "Workbook: Car Insurance policies dashboard",
+    "captureDate": "2026-10-15",
+    "capturedAt": "2026-10-15T17:37:39.565Z",
+    "viewport": {
+      "width": 1600,
+      "height": 1200
+    },
+    "deviceScaleFactor": 3,
+    "method": "Cattura reale con Chromium isolato; nessuna modifica a DOM o CSS.",
+    "observations": [
+      {
+        "url": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+        "title": "Workbook: Car Insurance policies dashboard",
+        "text": "",
+        "iframes": [
+          {
+            "src": "",
+            "title": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "canvases": 0,
+        "bodySize": [
+          2500,
+          1727
+        ]
+      },
+      {
+        "url": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+        "title": "Workbook: Car Insurance policies dashboard",
+        "text": "Filter\nCar Model\nInclusive\n(All)\nFilter\nCar Make\nInclusive\n(All)\nView on Tableau Public\nUndo\nRedo\nRevert\nReplay Animation\nReplay Speed Options\nDownload\nFull Screen\nShare",
+        "iframes": [
+          {
+            "src": "",
+            "title": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "canvases": 0,
+        "bodySize": [
+          2500,
+          1727
+        ]
+      },
+      {
+        "url": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+        "title": "Workbook: Car Insurance policies dashboard",
+        "text": "Filter\nCar Model\nInclusive\n(All)\nFilter\nCar Make\nInclusive\n(All)\nView on Tableau Public\nUndo\nRedo\nRevert\nReplay Animation\nReplay Speed Options\nDownload\nFull Screen\nShare",
+        "iframes": [
+          {
+            "src": "",
+            "title": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "canvases": 0,
+        "bodySize": [
+          2500,
+          1727
+        ]
+      },
+      {
+        "url": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+        "title": "Workbook: Car Insurance policies dashboard",
+        "text": "Filter\nCar Model\nInclusive\n(All)\nFilter\nCar Make\nInclusive\n(All)\nView on Tableau Public\nUndo\nRedo\nRevert\nReplay Animation\nReplay Speed Options\nDownload\nFull Screen\nShare",
+        "iframes": [
+          {
+            "src": "",
+            "title": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "canvases": 0,
+        "bodySize": [
+          2500,
+          1727
+        ]
+      },
+      {
+        "url": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+        "title": "Workbook: Car Insurance policies dashboard",
+        "text": "Filter\nCar Model\nInclusive\n(All)\nFilter\nCar Make\nInclusive\n(All)\nView on Tableau Public\nUndo\nRedo\nRevert\nReplay Animation\nReplay Speed Options\nDownload\nFull Screen\nShare",
+        "iframes": [
+          {
+            "src": "",
+            "title": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "canvases": 0,
+        "bodySize": [
+          2500,
+          1727
+        ]
+      },
+      {
+        "url": "https://public.tableau.com/views/CarInsurancepoliciesdashboard/viz?:showVizHome=no",
+        "title": "Workbook: Car Insurance policies dashboard",
+        "text": "Filter\nCar Model\nInclusive\n(All)\nFilter\nCar Make\nInclusive\n(All)\nView on Tableau Public\nUndo\nRedo\nRevert\nReplay Animation\nReplay Speed Options\nDownload\nFull Screen\nShare",
+        "iframes": [
+          {
+            "src": "",
+            "title": "",
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            }
+          }
+        ],
+        "canvases": 0,
+        "bodySize": [
+          2500,
+          1727
+        ]
+      }
+    ],
+    "file": "/Users/marco/Sites/cvedi2627/assets/booklet/gestalt-layout-revisione/originals/tableau-car-insurance-2026-10-15-full@3x.png",
+    "bitmap": {
+      "width": 7500,
+      "height": 5181,
+      "sha256": "89c2ff8d14a4de4f59959a7a7cf4e33e356d0260243650765a8d5ed75da3c489"
+    },
+    "author": "Kavin Kumar G",
+    "publicListingUrl": "https://public.tableau.com/app/profile/kavin.kumar.g/viz/CarInsurancepoliciesdashboard/viz",
+    "publicationDateFromOfficialListing": "2022-08-03",
+    "domOrCssModified": false,
+    "detail": {
+      "path": "risorse-condivise/fonti/booklet/gestalt-layout-revisione/originals/tableau-car-insurance-2026-10-15-detail@3x.png",
+      "cropCssPixels": [
+        170,
+        310,
+        860,
+        190
+      ],
+      "cropBitmapPixels": [
+        510,
+        930,
+        3090,
+        1500
+      ],
+      "width": 2580,
+      "height": 570,
+      "sha256": "95bb11a6595ec7b8c5f53bf03b4c49a9fb4ab9d0fce34b730b2669d533d644b9",
+      "derivation": "Ritaglio dichiarato dal PNG integrale: due pannelli KPI adiacenti; nessun cambiamento di contenuto, colore o proporzioni."
+    },
+    "caption": "Tableau Public, visualizzazione di Kavin Kumar G: i pannelli bianchi raccolgono icona, indicatore e valore in regioni distinte. La superficie condivisa associa gli elementi di ogni gruppo.",
+    "detailCaption": "Dettaglio dello stesso screenshot: ogni pannello bianco riunisce il proprio simbolo, nome e valore, separandoli dall’indicatore vicino.",
+    "verifiedVisually": true,
+    "fullPageCssSize": {
+      "width": 2500,
+      "height": 1727
+    },
+    "fullScreenshotContains": "Intera dashboard pubblicata, firma Kavin Kumar G | RWFD e barra inferiore Tableau Public con controlli reali.",
+    "sourceType": "real-published-Tableau-visualization-screenshot"
+  },
+  "nativeImageLayerCountInTwentyPages": 33,
+  "nativeImageLayerCountIncludingRelocatedCase": 34,
+  "archive": {
+    "mutatedNodeIds": [
+      "3860:1955",
+      "3722:1964"
+    ],
+    "destinationPageId": "2186:3831",
+    "sections": [
+      {
+        "id": "3860:1955",
+        "name": "Archivio · Gestalt · prima della ristrutturazione del 15 ottobre 2026",
+        "parentId": "2186:3831",
+        "x": 23193.14453125,
+        "y": 64,
+        "w": 3473,
+        "h": 10357.2939453125,
+        "boardCount": 74
+      },
+      {
+        "id": "3722:1964",
+        "name": "Archivio · Schemi Gestalt precedenti",
+        "parentId": "2186:3831",
+        "x": 26826.14453125,
+        "y": 64,
+        "w": 1216.1259765625,
+        "h": 801.6378173828125,
+        "boardCount": 1
+      }
+    ]
+  },
+  "originalSources": "risorse-condivise/fonti/booklet/gestalt-esempi-aggiuntivi/manifest.json",
+  "logoSourceReview": "risorse-condivise/fonti/booklet/gestalt-layout-revisione/logo-upgrade-research.json",
+  "verification": {
+    "structural": "reports/figma-commenti/2026-10-15/layout-revisione/verifica-finale.json",
+    "followingNumbering": "reports/figma-commenti/2026-10-15/layout-revisione/verifica-numerazione.json",
+    "graphicQA": "reports/figma-commenti/2026-10-15/layout-revisione/qa-grafica.json",
+    "webQA": "reports/figma-commenti/2026-10-15/layout-revisione/qa-web.json",
+    "nativePreviews": "reports/figma-commenti/2026-10-15/layout-revisione/",
+    "status": "passed",
+    "newApplicationSource": "risorse-condivise/fonti/booklet/gestalt-layout-revisione/originals/tableau-car-insurance-2026-10-15.json",
+    "ordering": {
+      "date": "2026-10-16",
+      "request": "Regione comune ultima nelle nove leggi; numeri delle aperture nell’indice.",
+      "manifest": "reports/figma-commenti/2026-10-16/riordino-regione-comune/manifest.json",
+      "ruleOrder": [
+        "vicinanza",
+        "somiglianza",
+        "destino-comune",
+        "continuita",
+        "chiusura",
+        "simmetria",
+        "figura-sfondo",
+        "esperienza-passata",
+        "regione-comune"
+      ],
+      "indexPage": 235,
+      "pageStarts": {
+        "vicinanza": 236,
+        "somiglianza": 245,
+        "destino-comune": 254,
+        "continuita": 262,
+        "chiusura": 270,
+        "simmetria": 279,
+        "figura-sfondo": 288,
+        "esperienza-passata": 296,
+        "regione-comune": 305
+      },
+      "regionRange": [
+        305,
+        314
+      ],
+      "printedRange": [
+        230,
+        318
+      ],
+      "pageCount": 89,
+      "changedPageCount": 27,
+      "followingNumberingUnchanged": true,
+      "verification": "reports/figma-commenti/2026-10-16/riordino-regione-comune/verifica-native.json"
+    }
+  },
+  "currentOrder": [
+    {
+      "id": "198:3080",
+      "row": 0,
+      "col": 0,
+      "key": "intro",
+      "stage": "introduzione",
+      "title": "Ideazione: percezione e Gestalt",
+      "index": 138,
+      "number": 230,
+      "side": "SX",
+      "footerId": "210:1893",
+      "x": 48,
+      "y": 96
+    },
+    {
+      "id": "198:3543",
+      "row": 0,
+      "col": 1,
+      "key": "intro",
+      "stage": "introduzione",
+      "title": "Percezione visiva: le origini della Gestalt",
+      "index": 139,
+      "number": 231,
+      "side": "DX",
+      "footerId": "210:1894",
+      "x": 608.06298828125,
+      "y": 96
+    },
+    {
+      "id": "198:4344",
+      "row": 0,
+      "col": 2,
+      "key": "intro",
+      "stage": "introduzione",
+      "title": "Dalle parti all’insieme",
+      "index": 140,
+      "number": 232,
+      "side": "SX",
+      "footerId": "210:1895",
+      "x": 1168.1259765625,
+      "y": 96
+    },
+    {
+      "id": "198:4912",
+      "row": 0,
+      "col": 3,
+      "key": "intro",
+      "stage": "introduzione",
+      "title": "Black Swan: forma e contrasto",
+      "index": 141,
+      "number": 233,
+      "side": "DX",
+      "footerId": "210:1896",
+      "x": 1728.18896484375,
+      "y": 96
+    },
+    {
+      "id": "198:3972",
+      "row": 0,
+      "col": 4,
+      "key": "intro",
+      "stage": "introduzione",
+      "title": "Le leggi della Gestalt",
+      "index": 142,
+      "number": 234,
+      "side": "SX",
+      "footerId": "210:1897",
+      "x": 2288.251953125,
+      "y": 96
+    },
+    {
+      "id": "3894:2081",
+      "row": 0,
+      "col": 5,
+      "key": "intro",
+      "stage": "elenco delle leggi",
+      "title": "Le nove leggi della Gestalt",
+      "index": 143,
+      "number": 235,
+      "side": "DX",
+      "footerId": "3894:2084",
+      "x": 2848.31494140625,
+      "y": 96
+    },
+    {
+      "id": "3721:1964",
+      "row": 1,
+      "col": 0,
+      "key": "vicinanza",
+      "stage": "sintesi e schema",
+      "title": "Vicinanza (proximity)",
+      "index": 144,
+      "number": 236,
+      "side": "SX",
+      "footerId": "3721:1965",
+      "x": 48,
+      "y": 881.6378173828125
+    },
+    {
+      "id": "3861:2029",
+      "row": 1,
+      "col": 1,
+      "key": "vicinanza",
+      "stage": "spiegazione",
+      "title": "Vicinanza: come funziona",
+      "index": 145,
+      "number": 237,
+      "side": "DX",
+      "footerId": "3861:2044",
+      "x": 608.06298828125,
+      "y": 881.6378173828125
+    },
+    {
+      "id": "198:4238",
+      "row": 1,
+      "col": 2,
+      "key": "vicinanza",
+      "stage": "applicazione al web",
+      "title": "Vicinanza nel web",
+      "index": 146,
+      "number": 238,
+      "side": "SX",
+      "footerId": "210:1899",
+      "x": 1168.1259765625,
+      "y": 881.6378173828125
+    },
+    {
+      "id": "3864:2018",
+      "row": 1,
+      "col": 3,
+      "key": "vicinanza",
+      "stage": "logo reale",
+      "title": "Vicinanza: logo reale",
+      "index": 147,
+      "number": 239,
+      "side": "DX",
+      "footerId": "3864:2033",
+      "x": 1728.18896484375,
+      "y": 881.6378173828125
+    },
+    {
+      "id": "3863:2018",
+      "row": 1,
+      "col": 4,
+      "key": "vicinanza",
+      "stage": "fotografia",
+      "title": "Vicinanza: fotografia",
+      "index": 148,
+      "number": 240,
+      "side": "SX",
+      "footerId": "3863:2033",
+      "x": 2288.251953125,
+      "y": 881.6378173828125
+    },
+    {
+      "id": "3897:2088",
+      "key": "vicinanza",
+      "row": 1,
+      "stage": "grafica e immagini",
+      "title": "Vicinanza: altre immagini e grafiche",
+      "number": 241,
+      "index": 149,
+      "side": "DX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 881.6378173828125,
+      "footerId": "3897:2095"
+    },
+    {
+      "id": "3417:1097",
+      "row": 1,
+      "col": 6,
+      "key": "vicinanza",
+      "stage": "screenshot web",
+      "title": "Vicinanza: il catalogo Netflix",
+      "index": 150,
+      "number": 242,
+      "side": "SX",
+      "footerId": "3417:1106",
+      "x": 3408.3779296875,
+      "y": 881.6378173828125
+    },
+    {
+      "id": "3692:2327",
+      "row": 1,
+      "col": 7,
+      "key": "vicinanza",
+      "stage": "screenshot web",
+      "title": "Algida: marchi nel catalogo",
+      "index": 151,
+      "number": 243,
+      "side": "DX",
+      "footerId": "3692:2328",
+      "x": 3968.44091796875,
+      "y": 881.6378173828125
+    },
+    {
+      "id": "3897:2106",
+      "key": "vicinanza",
+      "row": 1,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Vicinanza: altri screenshot reali",
+      "number": 244,
+      "index": 152,
+      "side": "SX",
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 881.6378173828125,
+      "footerId": "3897:2113"
+    },
+    {
+      "id": "3721:2140",
+      "row": 2,
+      "col": 0,
+      "key": "somiglianza",
+      "stage": "sintesi e schema",
+      "title": "Somiglianza (similarity)",
+      "index": 153,
+      "number": 245,
+      "side": "DX",
+      "footerId": "3721:2141",
+      "x": 48,
+      "y": 1667.275634765625
+    },
+    {
+      "id": "3861:2148",
+      "row": 2,
+      "col": 1,
+      "key": "somiglianza",
+      "stage": "spiegazione",
+      "title": "Somiglianza: come funziona",
+      "index": 154,
+      "number": 246,
+      "side": "SX",
+      "footerId": "3861:2163",
+      "x": 608.06298828125,
+      "y": 1667.275634765625
+    },
+    {
+      "id": "198:4250",
+      "row": 2,
+      "col": 2,
+      "key": "somiglianza",
+      "stage": "applicazione al web",
+      "title": "Somiglianza nel web",
+      "index": 155,
+      "number": 247,
+      "side": "DX",
+      "footerId": "210:1901",
+      "x": 1168.1259765625,
+      "y": 1667.275634765625
+    },
+    {
+      "id": "3864:2045",
+      "row": 2,
+      "col": 3,
+      "key": "somiglianza",
+      "stage": "logo reale",
+      "title": "Somiglianza: logo reale",
+      "index": 156,
+      "number": 248,
+      "side": "SX",
+      "footerId": "3864:2060",
+      "x": 1728.18896484375,
+      "y": 1667.275634765625
+    },
+    {
+      "id": "3863:2038",
+      "row": 2,
+      "col": 4,
+      "key": "somiglianza",
+      "stage": "fotografia",
+      "title": "Somiglianza: fotografia",
+      "index": 157,
+      "number": 249,
+      "side": "DX",
+      "footerId": "3863:2053",
+      "x": 2288.251953125,
+      "y": 1667.275634765625
+    },
+    {
+      "id": "3897:2127",
+      "key": "somiglianza",
+      "row": 2,
+      "stage": "grafica e immagini",
+      "title": "Somiglianza: altre immagini e grafiche",
+      "number": 250,
+      "index": 158,
+      "side": "SX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 1667.275634765625,
+      "footerId": "3897:2134"
+    },
+    {
+      "id": "3417:1199",
+      "row": 2,
+      "col": 6,
+      "key": "somiglianza",
+      "stage": "screenshot web",
+      "title": "Somiglianza: schede e categorie",
+      "index": 159,
+      "number": 251,
+      "side": "DX",
+      "footerId": "3417:1208",
+      "x": 3408.3779296875,
+      "y": 1667.275634765625
+    },
+    {
+      "id": "3804:2037",
+      "row": 2,
+      "col": 7,
+      "key": "somiglianza",
+      "stage": "screenshot web",
+      "title": "Api&Bio: schede delle persone",
+      "index": 160,
+      "number": 252,
+      "side": "SX",
+      "footerId": "3804:2038",
+      "x": 3968.44091796875,
+      "y": 1667.275634765625
+    },
+    {
+      "id": "3897:2148",
+      "key": "somiglianza",
+      "row": 2,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Somiglianza: altri screenshot reali",
+      "number": 253,
+      "index": 161,
+      "side": "DX",
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 1667.275634765625,
+      "footerId": "3897:2155"
+    },
+    {
+      "id": "3721:2282",
+      "row": 3,
+      "col": 0,
+      "key": "destino-comune",
+      "stage": "sintesi e schema",
+      "title": "Destino comune (common fate)",
+      "index": 162,
+      "number": 254,
+      "side": "SX",
+      "footerId": "3721:2283",
+      "x": 48,
+      "y": 2452.91357421875
+    },
+    {
+      "id": "3861:2236",
+      "row": 3,
+      "col": 1,
+      "key": "destino-comune",
+      "stage": "spiegazione",
+      "title": "Destino comune: come funziona",
+      "index": 163,
+      "number": 255,
+      "side": "DX",
+      "footerId": "3861:2251",
+      "x": 608.06298828125,
+      "y": 2452.91357421875
+    },
+    {
+      "id": "198:4261",
+      "row": 3,
+      "col": 2,
+      "key": "destino-comune",
+      "stage": "applicazione al web",
+      "title": "Destino comune nel web",
+      "index": 164,
+      "number": 256,
+      "side": "SX",
+      "footerId": "210:1903",
+      "x": 1168.1259765625,
+      "y": 2452.91357421875
+    },
+    {
+      "id": "3864:2073",
+      "row": 3,
+      "col": 3,
+      "key": "destino-comune",
+      "stage": "logo reale",
+      "title": "Destino comune: logo reale",
+      "index": 165,
+      "number": 257,
+      "side": "DX",
+      "footerId": "3864:2088",
+      "x": 1728.18896484375,
+      "y": 2452.91357421875
+    },
+    {
+      "id": "3863:2058",
+      "row": 3,
+      "col": 4,
+      "key": "destino-comune",
+      "stage": "fotografia",
+      "title": "Destino comune: fotografia",
+      "index": 166,
+      "number": 258,
+      "side": "SX",
+      "footerId": "3863:2073",
+      "x": 2288.251953125,
+      "y": 2452.91357421875
+    },
+    {
+      "id": "3897:2169",
+      "key": "destino-comune",
+      "row": 3,
+      "stage": "grafica e immagini",
+      "title": "Destino comune: altre immagini e grafiche",
+      "number": 259,
+      "index": 167,
+      "side": "DX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 2452.91357421875,
+      "footerId": "3897:2176"
+    },
+    {
+      "id": "3804:2047",
+      "row": 3,
+      "col": 6,
+      "key": "destino-comune",
+      "stage": "screenshot web",
+      "title": "Bootstrap: il contenuto scorre come un’unità",
+      "index": 168,
+      "number": 260,
+      "side": "SX",
+      "footerId": "3804:2048",
+      "x": 3408.3779296875,
+      "y": 2452.91357421875
+    },
+    {
+      "id": "3897:2187",
+      "key": "destino-comune",
+      "row": 3,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Destino comune: altri screenshot reali",
+      "number": 261,
+      "index": 169,
+      "side": "DX",
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 2452.91357421875,
+      "footerId": "3897:2194"
+    },
+    {
+      "id": "3721:2432",
+      "row": 4,
+      "col": 0,
+      "key": "continuita",
+      "stage": "sintesi e schema",
+      "title": "Buona continuazione (good continuation)",
+      "index": 170,
+      "number": 262,
+      "side": "SX",
+      "footerId": "3721:2433",
+      "x": 48,
+      "y": 3238.55126953125
+    },
+    {
+      "id": "3861:21248",
+      "row": 4,
+      "col": 1,
+      "key": "continuita",
+      "stage": "spiegazione",
+      "title": "Buona continuazione: come funziona",
+      "index": 171,
+      "number": 263,
+      "side": "DX",
+      "footerId": "3861:21263",
+      "x": 608.06298828125,
+      "y": 3238.55126953125
+    },
+    {
+      "id": "198:4273",
+      "row": 4,
+      "col": 2,
+      "key": "continuita",
+      "stage": "applicazione al web",
+      "title": "Buona continuazione nel web",
+      "index": 172,
+      "number": 264,
+      "side": "SX",
+      "footerId": "210:1905",
+      "x": 1168.1259765625,
+      "y": 3238.55126953125
+    },
+    {
+      "id": "3864:2114",
+      "row": 4,
+      "col": 3,
+      "key": "continuita",
+      "stage": "logo reale",
+      "title": "Buona continuazione: logo reale",
+      "index": 173,
+      "number": 265,
+      "side": "DX",
+      "footerId": "3864:2129",
+      "x": 1728.18896484375,
+      "y": 3238.55126953125
+    },
+    {
+      "id": "3863:2078",
+      "row": 4,
+      "col": 4,
+      "key": "continuita",
+      "stage": "fotografia",
+      "title": "Buona continuazione: fotografia",
+      "index": 174,
+      "number": 266,
+      "side": "SX",
+      "footerId": "3863:2093",
+      "x": 2288.251953125,
+      "y": 3238.55126953125
+    },
+    {
+      "id": "3897:2217",
+      "key": "continuita",
+      "row": 4,
+      "stage": "grafica e immagini",
+      "title": "Buona continuazione: altre immagini e grafiche",
+      "number": 267,
+      "index": 175,
+      "side": "DX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 3238.55126953125,
+      "footerId": "3897:2224"
+    },
+    {
+      "id": "3804:2065",
+      "row": 4,
+      "col": 6,
+      "key": "continuita",
+      "stage": "screenshot web",
+      "title": "Api&Bio: un percorso fra le sezioni",
+      "index": 176,
+      "number": 268,
+      "side": "SX",
+      "footerId": "3804:2066",
+      "x": 3408.3779296875,
+      "y": 3238.55126953125
+    },
+    {
+      "id": "3897:2235",
+      "key": "continuita",
+      "row": 4,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Buona continuazione: altri screenshot reali",
+      "number": 269,
+      "index": 177,
+      "side": "DX",
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 3238.55126953125,
+      "footerId": "3897:2242"
+    },
+    {
+      "id": "3721:2461",
+      "row": 5,
+      "col": 0,
+      "key": "chiusura",
+      "stage": "sintesi e schema",
+      "title": "Chiusura (closure)",
+      "index": 178,
+      "number": 270,
+      "side": "SX",
+      "footerId": "3721:2462",
+      "x": 48,
+      "y": 4024.18896484375
+    },
+    {
+      "id": "3861:21343",
+      "row": 5,
+      "col": 1,
+      "key": "chiusura",
+      "stage": "spiegazione",
+      "title": "Chiusura: come funziona",
+      "index": 179,
+      "number": 271,
+      "side": "DX",
+      "footerId": "3861:21358",
+      "x": 608.06298828125,
+      "y": 4024.18896484375
+    },
+    {
+      "id": "198:4285",
+      "row": 5,
+      "col": 2,
+      "key": "chiusura",
+      "stage": "applicazione al web",
+      "title": "Chiusura nel web",
+      "index": 180,
+      "number": 272,
+      "side": "SX",
+      "footerId": "210:1907",
+      "x": 1168.1259765625,
+      "y": 4024.18896484375
+    },
+    {
+      "id": "3864:2142",
+      "row": 5,
+      "col": 3,
+      "key": "chiusura",
+      "stage": "logo reale",
+      "title": "Chiusura: logo reale",
+      "index": 181,
+      "number": 273,
+      "side": "DX",
+      "footerId": "3864:2157",
+      "x": 1728.18896484375,
+      "y": 4024.18896484375
+    },
+    {
+      "id": "3863:2098",
+      "row": 5,
+      "col": 4,
+      "key": "chiusura",
+      "stage": "fotografia",
+      "title": "Chiusura: fotografia",
+      "index": 182,
+      "number": 274,
+      "side": "SX",
+      "footerId": "3863:2113",
+      "x": 2288.251953125,
+      "y": 4024.18896484375
+    },
+    {
+      "id": "3897:2256",
+      "key": "chiusura",
+      "row": 5,
+      "stage": "grafica e immagini",
+      "title": "Chiusura: Sea & Vines",
+      "number": 275,
+      "index": 183,
+      "side": "DX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 4024.18896484375,
+      "footerId": "3897:2263"
+    },
+    {
+      "id": "3919:2088",
+      "key": "chiusura",
+      "row": 5,
+      "stage": "grafica e immagini",
+      "title": "Chiusura: Heinz",
+      "footerId": "3919:2089",
+      "number": 276,
+      "index": 184,
+      "side": "SX",
+      "col": 6,
+      "x": 3408.3779296875,
+      "y": 4024.18896484375
+    },
+    {
+      "id": "3804:2072",
+      "row": 5,
+      "col": 7,
+      "key": "chiusura",
+      "stage": "screenshot web",
+      "title": "Loader: contorni aperti nel web",
+      "index": 185,
+      "number": 277,
+      "side": "DX",
+      "footerId": "3804:2073",
+      "x": 3968.44091796875,
+      "y": 4024.18896484375
+    },
+    {
+      "id": "3897:2277",
+      "key": "chiusura",
+      "row": 5,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Chiusura: altri screenshot reali",
+      "number": 278,
+      "index": 186,
+      "side": "SX",
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 4024.18896484375,
+      "footerId": "3897:2284"
+    },
+    {
+      "id": "3721:2472",
+      "row": 6,
+      "col": 0,
+      "key": "simmetria",
+      "stage": "sintesi e schema",
+      "title": "Simmetria (symmetry)",
+      "index": 187,
+      "number": 279,
+      "side": "DX",
+      "footerId": "3721:2473",
+      "x": 48,
+      "y": 4809.8271484375
+    },
+    {
+      "id": "3861:21422",
+      "row": 6,
+      "col": 1,
+      "key": "simmetria",
+      "stage": "spiegazione",
+      "title": "Simmetria: come funziona",
+      "index": 188,
+      "number": 280,
+      "side": "SX",
+      "footerId": "3861:21437",
+      "x": 608.06298828125,
+      "y": 4809.8271484375
+    },
+    {
+      "id": "198:4297",
+      "row": 6,
+      "col": 2,
+      "key": "simmetria",
+      "stage": "applicazione al web",
+      "title": "Simmetria nel web",
+      "index": 189,
+      "number": 281,
+      "side": "DX",
+      "footerId": "210:1909",
+      "x": 1168.1259765625,
+      "y": 4809.8271484375
+    },
+    {
+      "id": "3864:2169",
+      "row": 6,
+      "col": 3,
+      "key": "simmetria",
+      "stage": "logo reale",
+      "title": "Simmetria: logo reale",
+      "index": 190,
+      "number": 282,
+      "side": "SX",
+      "footerId": "3864:2184",
+      "x": 1728.18896484375,
+      "y": 4809.8271484375
+    },
+    {
+      "id": "3863:2118",
+      "row": 6,
+      "col": 4,
+      "key": "simmetria",
+      "stage": "fotografia",
+      "title": "Simmetria: fotografia",
+      "index": 191,
+      "number": 283,
+      "side": "DX",
+      "footerId": "3863:2133",
+      "x": 2288.251953125,
+      "y": 4809.8271484375
+    },
+    {
+      "id": "3897:2295",
+      "key": "simmetria",
+      "row": 6,
+      "stage": "grafica e immagini",
+      "title": "Simmetria: altre immagini e grafiche",
+      "number": 284,
+      "index": 192,
+      "side": "SX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 4809.8271484375,
+      "footerId": "3897:2302"
+    },
+    {
+      "id": "3692:2376",
+      "row": 6,
+      "col": 6,
+      "key": "simmetria",
+      "stage": "screenshot web",
+      "title": "Adham Dannaway: volto e metà",
+      "index": 193,
+      "number": 285,
+      "side": "DX",
+      "footerId": "3692:2377",
+      "x": 3408.3779296875,
+      "y": 4809.8271484375
+    },
+    {
+      "id": "3804:2087",
+      "row": 6,
+      "col": 7,
+      "key": "simmetria",
+      "stage": "screenshot web",
+      "title": "Wikipedia: lingue attorno a un asse",
+      "index": 194,
+      "number": 286,
+      "side": "SX",
+      "footerId": "3804:2088",
+      "x": 3968.44091796875,
+      "y": 4809.8271484375
+    },
+    {
+      "id": "3897:2313",
+      "key": "simmetria",
+      "row": 6,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Simmetria: altri screenshot reali",
+      "number": 287,
+      "index": 195,
+      "side": "DX",
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 4809.8271484375,
+      "footerId": "3897:2320"
+    },
+    {
+      "id": "3721:2523",
+      "row": 7,
+      "col": 0,
+      "key": "figura-sfondo",
+      "stage": "sintesi e schema",
+      "title": "Figura e sfondo (figure–ground)",
+      "index": 196,
+      "number": 288,
+      "side": "SX",
+      "footerId": "3721:2524",
+      "x": 48,
+      "y": 5595.46484375
+    },
+    {
+      "id": "3861:21569",
+      "row": 7,
+      "col": 1,
+      "key": "figura-sfondo",
+      "stage": "spiegazione",
+      "title": "Figura e sfondo: come funziona",
+      "index": 197,
+      "number": 289,
+      "side": "DX",
+      "footerId": "3861:21584",
+      "x": 608.06298828125,
+      "y": 5595.46484375
+    },
+    {
+      "id": "198:4321",
+      "row": 7,
+      "col": 2,
+      "key": "figura-sfondo",
+      "stage": "applicazione al web",
+      "title": "Figura e sfondo nel web",
+      "index": 198,
+      "number": 290,
+      "side": "SX",
+      "footerId": "210:1913",
+      "x": 1168.1259765625,
+      "y": 5595.46484375
+    },
+    {
+      "id": "3864:2224",
+      "row": 7,
+      "col": 3,
+      "key": "figura-sfondo",
+      "stage": "logo reale",
+      "title": "Figura e sfondo: logo reale",
+      "index": 199,
+      "number": 291,
+      "side": "DX",
+      "footerId": "3864:2239",
+      "x": 1728.18896484375,
+      "y": 5595.46484375
+    },
+    {
+      "id": "3863:2158",
+      "row": 7,
+      "col": 4,
+      "key": "figura-sfondo",
+      "stage": "fotografia",
+      "title": "Figura e sfondo: fotografia",
+      "index": 200,
+      "number": 292,
+      "side": "SX",
+      "footerId": "3863:2173",
+      "x": 2288.251953125,
+      "y": 5595.46484375
+    },
+    {
+      "id": "3897:2370",
+      "key": "figura-sfondo",
+      "row": 7,
+      "stage": "grafica e immagini",
+      "title": "Figura e sfondo: altre immagini e grafiche",
+      "number": 293,
+      "index": 201,
+      "side": "DX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 5595.46484375,
+      "footerId": "3897:2377"
+    },
+    {
+      "id": "3804:2107",
+      "row": 7,
+      "col": 6,
+      "key": "figura-sfondo",
+      "stage": "screenshot web",
+      "title": "MDN: la ricerca in primo piano",
+      "index": 202,
+      "number": 294,
+      "side": "SX",
+      "footerId": "3804:2108",
+      "x": 3408.3779296875,
+      "y": 5595.46484375
+    },
+    {
+      "id": "3897:2388",
+      "key": "figura-sfondo",
+      "row": 7,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Figura e sfondo: altri screenshot reali",
+      "number": 295,
+      "index": 203,
+      "side": "DX",
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 5595.46484375,
+      "footerId": "3897:2395"
+    },
+    {
+      "id": "3721:2536",
+      "row": 8,
+      "col": 0,
+      "key": "esperienza-passata",
+      "stage": "sintesi e schema",
+      "title": "Esperienza passata (past experience)",
+      "index": 204,
+      "number": 296,
+      "side": "SX",
+      "footerId": "3721:2537",
+      "x": 48,
+      "y": 6381.1025390625
+    },
+    {
+      "id": "3861:21652",
+      "row": 8,
+      "col": 1,
+      "key": "esperienza-passata",
+      "stage": "spiegazione",
+      "title": "Esperienza passata: come funziona",
+      "index": 205,
+      "number": 297,
+      "side": "DX",
+      "footerId": "3861:21667",
+      "x": 608.06298828125,
+      "y": 6381.1025390625
+    },
+    {
+      "id": "198:4333",
+      "row": 8,
+      "col": 2,
+      "key": "esperienza-passata",
+      "stage": "applicazione al web",
+      "title": "Esperienza passata nel web",
+      "index": 206,
+      "number": 298,
+      "side": "SX",
+      "footerId": "210:1915",
+      "x": 1168.1259765625,
+      "y": 6381.1025390625
+    },
+    {
+      "id": "3864:2252",
+      "row": 8,
+      "col": 3,
+      "key": "esperienza-passata",
+      "stage": "logo reale",
+      "title": "Esperienza passata: logo reale",
+      "index": 207,
+      "number": 299,
+      "side": "DX",
+      "footerId": "3864:2267",
+      "x": 1728.18896484375,
+      "y": 6381.1025390625
+    },
+    {
+      "id": "3863:2178",
+      "row": 8,
+      "col": 4,
+      "key": "esperienza-passata",
+      "stage": "fotografia",
+      "title": "Esperienza passata: fotografia",
+      "index": 208,
+      "number": 300,
+      "side": "SX",
+      "footerId": "3863:2193",
+      "x": 2288.251953125,
+      "y": 6381.1025390625
+    },
+    {
+      "id": "3897:2409",
+      "key": "esperienza-passata",
+      "row": 8,
+      "stage": "grafica e immagini",
+      "title": "Esperienza passata: altre immagini e grafiche",
+      "number": 301,
+      "index": 209,
+      "side": "DX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 6381.1025390625,
+      "footerId": "3897:2416"
+    },
+    {
+      "id": "3804:2117",
+      "row": 8,
+      "col": 6,
+      "key": "esperienza-passata",
+      "stage": "screenshot web",
+      "title": "GOV.UK: riconoscere un errore",
+      "index": 210,
+      "number": 302,
+      "side": "SX",
+      "footerId": "3804:2118",
+      "x": 3408.3779296875,
+      "y": 6381.1025390625
+    },
+    {
+      "id": "3897:2430",
+      "key": "esperienza-passata",
+      "row": 8,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Esperienza passata: IKEA",
+      "number": 303,
+      "index": 211,
+      "side": "DX",
+      "col": 7,
+      "x": 3968.44091796875,
+      "y": 6381.1025390625,
+      "footerId": "3897:2437"
+    },
+    {
+      "id": "3919:2092",
+      "key": "esperienza-passata",
+      "row": 8,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Esperienza passata: Oxfam",
+      "footerId": "3919:2093",
+      "number": 304,
+      "index": 212,
+      "side": "SX",
+      "col": 8,
+      "x": 4528.50390625,
+      "y": 6381.1025390625
+    },
+    {
+      "id": "3721:2488",
+      "row": 9,
+      "col": 0,
+      "key": "regione-comune",
+      "stage": "sintesi e schema",
+      "title": "Regione comune (common region)",
+      "index": 213,
+      "number": 305,
+      "side": "DX",
+      "footerId": "3721:2489",
+      "x": 48,
+      "y": 7166.740234375
+    },
+    {
+      "id": "3861:21503",
+      "row": 9,
+      "col": 1,
+      "key": "regione-comune",
+      "stage": "spiegazione",
+      "title": "Regione comune: come funziona",
+      "index": 214,
+      "number": 306,
+      "side": "SX",
+      "footerId": "3861:21518",
+      "x": 608.06298828125,
+      "y": 7166.740234375
+    },
+    {
+      "id": "198:4309",
+      "row": 9,
+      "col": 2,
+      "key": "regione-comune",
+      "stage": "applicazione al web",
+      "title": "Regione comune nel web",
+      "index": 215,
+      "number": 307,
+      "side": "DX",
+      "footerId": "210:1911",
+      "x": 1168.1259765625,
+      "y": 7166.740234375
+    },
+    {
+      "id": "3864:2197",
+      "row": 9,
+      "col": 3,
+      "key": "regione-comune",
+      "stage": "logo reale",
+      "title": "Regione comune: logo reale",
+      "index": 216,
+      "number": 308,
+      "side": "SX",
+      "footerId": "3864:2212",
+      "x": 1728.18896484375,
+      "y": 7166.740234375
+    },
+    {
+      "id": "3863:2138",
+      "row": 9,
+      "col": 4,
+      "key": "regione-comune",
+      "stage": "fotografia",
+      "title": "Regione comune: fotografia",
+      "index": 217,
+      "number": 309,
+      "side": "DX",
+      "footerId": "3863:2153",
+      "x": 2288.251953125,
+      "y": 7166.740234375
+    },
+    {
+      "id": "3897:2331",
+      "key": "regione-comune",
+      "row": 9,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Regione comune: dashboard pubblicata su Tableau",
+      "number": 310,
+      "index": 218,
+      "side": "SX",
+      "col": 5,
+      "x": 2848.31494140625,
+      "y": 7166.740234375,
+      "footerId": "3897:2338"
+    },
+    {
+      "id": "198:4884",
+      "row": 9,
+      "col": 6,
+      "key": "regione-comune",
+      "stage": "screenshot web",
+      "title": "Regione comune: il catalogo Apple Watch",
+      "index": 219,
+      "number": 311,
+      "side": "DX",
+      "footerId": "210:1912",
+      "x": 3408.3779296875,
+      "y": 7166.740234375
+    },
+    {
+      "id": "3692:2386",
+      "row": 9,
+      "col": 7,
+      "key": "regione-comune",
+      "stage": "screenshot web",
+      "title": "Xbox: aree verdi e fotografie",
+      "index": 220,
+      "number": 312,
+      "side": "SX",
+      "footerId": "3692:2387",
+      "x": 3968.44091796875,
+      "y": 7166.740234375
+    },
+    {
+      "id": "3804:2097",
+      "row": 9,
+      "col": 8,
+      "key": "regione-comune",
+      "stage": "screenshot web",
+      "title": "Notion: due gruppi di piani",
+      "index": 221,
+      "number": 313,
+      "side": "DX",
+      "footerId": "3804:2098",
+      "x": 4528.50390625,
+      "y": 7166.740234375
+    },
+    {
+      "id": "3897:2349",
+      "key": "regione-comune",
+      "row": 9,
+      "stage": "screenshot web aggiuntivi",
+      "title": "Regione comune: altri screenshot reali",
+      "number": 314,
+      "index": 222,
+      "side": "SX",
+      "col": 9,
+      "x": 5088.56689453125,
+      "y": 7166.740234375,
+      "footerId": "3897:2356"
+    },
+    {
+      "id": "3451:1154",
+      "row": 10,
+      "col": 0,
+      "key": "interazioni",
+      "stage": "sintesi",
+      "title": "Quando i principi interagiscono",
+      "index": 223,
+      "number": 315,
+      "side": "DX",
+      "footerId": "3451:1163",
+      "x": 48,
+      "y": 7952.3779296875
+    },
+    {
+      "id": "3451:1313",
+      "row": 10,
+      "col": 1,
+      "key": "interazioni",
+      "stage": "sintesi",
+      "title": "Vicinanza, regione e connessione",
+      "index": 224,
+      "number": 316,
+      "side": "SX",
+      "footerId": "3451:1322",
+      "x": 608.06298828125,
+      "y": 7952.3779296875
+    },
+    {
+      "id": "3416:1403",
+      "row": 11,
+      "col": 0,
+      "key": "verifica",
+      "stage": "sintesi",
+      "title": "Che cosa dimostrano gli studi",
+      "index": 225,
+      "number": 317,
+      "side": "DX",
+      "footerId": "3416:1412",
+      "x": 48,
+      "y": 8738.015625
+    },
+    {
+      "id": "3416:1513",
+      "row": 11,
+      "col": 1,
+      "key": "verifica",
+      "stage": "sintesi",
+      "title": "Dal principio alla prova",
+      "index": 226,
+      "number": 318,
+      "side": "SX",
+      "footerId": "3416:1522",
+      "x": 608.06298828125,
+      "y": 8738.015625
+    }
+  ],
+  "currentCommentRevision": {
+    "date": "2026-10-15",
+    "manifest": "reports/figma-commenti/2026-10-15/commenti-finali/manifest.json",
+    "resolvedComments": [
+      296,
+      297,
+      298,
+      299,
+      303,
+      304,
+      305
+    ],
+    "editedPageCount": 6,
+    "editedTextBlockCount": 13,
+    "verification": "passed",
+    "openCommentsAfter": 0
+  },
+  "currentOrderingRevision": {
+    "date": "2026-10-16",
+    "request": "Regione comune ultima nelle nove leggi; numeri delle aperture nell’indice.",
+    "manifest": "reports/figma-commenti/2026-10-16/riordino-regione-comune/manifest.json",
+    "ruleOrder": [
+      "vicinanza",
+      "somiglianza",
+      "destino-comune",
+      "continuita",
+      "chiusura",
+      "simmetria",
+      "figura-sfondo",
+      "esperienza-passata",
+      "regione-comune"
+    ],
+    "indexPage": 235,
+    "pageStarts": {
+      "vicinanza": 236,
+      "somiglianza": 245,
+      "destino-comune": 254,
+      "continuita": 262,
+      "chiusura": 270,
+      "simmetria": 279,
+      "figura-sfondo": 288,
+      "esperienza-passata": 296,
+      "regione-comune": 305
+    },
+    "regionRange": [
+      305,
+      314
+    ],
+    "printedRange": [
+      230,
+      318
+    ],
+    "pageCount": 89,
+    "changedPageCount": 27,
+    "followingNumberingUnchanged": true,
+    "verification": "reports/figma-commenti/2026-10-16/riordino-regione-comune/verifica-native.json"
+  },
+  "components": {
+    "figure": "3165:589",
+    "image": "3164:43",
+    "caption": "3164:50",
+    "textStyle": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+    "chapterColor": "VariableID:2883:67",
+    "title": "3030:463",
+    "subtitle": "3030:469",
+    "subchapter": "3030:473",
+    "section": "3030:484",
+    "body": "3030:535",
+    "source": "3164:56",
+    "note": "3189:4584"
+  },
+  "captionRevision": {
+    "date": "2026-10-16",
+    "components": {
+      "figure": "3165:589",
+      "image": "3164:43",
+      "caption": "3164:50",
+      "textStyle": "S:57e7444d26d962e027652fa050efff6200e1966c,",
+      "chapterColor": "VariableID:2883:67"
+    },
+    "captionStyle": {
+      "font": "Merriweather",
+      "weight": "Light Italic",
+      "size": 7,
+      "lineHeight": 12,
+      "align": "RIGHT",
+      "imageBar": 4,
+      "captionGap": 4,
+      "lowerRuleGap": 2,
+      "lowerRule": 0.5
+    },
+    "migratedCaptionCount": 90,
+    "existingLinkedCaptionCount": 3,
+    "verifiedCaptionCount": 93,
+    "modifiedPageCount": 72,
+    "structuralStatus": "passed",
+    "visualStatus": "passed",
+    "preservationStatus": "passed",
+    "manifest": "reports/figma-gestalt-caption-ds/2026-10-16/manifest.json",
+    "nativePreviewCount": 73,
+    "contentOrderAndFoliosUnchanged": true,
+    "originalsGroup": "Originali · Figura e didascalia"
+  },
+  "tipografiaRevision": {
+    "date": "2026-10-16",
+    "status": "passed",
+    "structuralStatus": "passed",
+    "visualStatus": "passed",
+    "verifiedTextCount": 374,
+    "verifiedSourceGroupCount": 85,
+    "generalSourceCount": 79,
+    "linkedNumberedNoteCount": 7,
+    "titleCount": 44,
+    "editorialSubheadingCount": 8,
+    "ordinaryBodyCount": 71,
+    "mixedIntroCount": 1,
+    "headerContextCount": 38,
+    "folioCount": 89,
+    "components": {
+      "title": "3030:463",
+      "subtitle": "3030:469",
+      "subchapter": "3030:473",
+      "section": "3030:484",
+      "body": "3030:535",
+      "source": "3164:56",
+      "note": "3189:4584"
+    },
+    "metrics": {
+      "title": "Geom Bold 20/AUTO",
+      "sectionTitleAndSubheading": "Geom Bold 16/AUTO",
+      "body": "Merriweather Light 10/15; Bold, Light Italic e Bold Italic per le enfasi native",
+      "sourceAndNote": "Merriweather Light Italic 7/10",
+      "sourceAreaWidth": 363,
+      "sourceBottom": 610,
+      "minimumContentNoteGap": 5,
+      "shortRule": [
+        40,
+        0.5
+      ],
+      "notesGap": 5,
+      "pathGap": 12,
+      "folio": "Merriweather Light 9/12"
+    },
+    "manifest": "reports/figma-gestalt-tipografia-ds/2026-10-16/manifest.json",
+    "nativePreviewCount": 89,
+    "textAndLinksStatus": "374/374 passed",
+    "contentOrderAndFoliosUnchanged": true
+  }
+}

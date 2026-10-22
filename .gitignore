@@ -1,27 +1,53 @@
+# Dipendenze e ambienti locali: una sola installazione alla radice.
 node_modules/
 .pnpm-store/
-/dist/
+.venv/
+
+# Build ed esportazioni della struttura corrente.
 /_site/
+/progetti/slide/dist/
 .slidev/
-/*.pptx
 slides-export/
 /output/
+/*.pptx
+/progetti/booklet/build/
+/progetti/booklet/main.pdf
+/progetti/booklet/output/
+
+# Mirror web rigenerati dagli originali e dalle selezioni approvate.
+/progetti/slide/public/images/shared/
+/progetti/slide/public/audio/lezione-griglie/
+
+# Rapporti ed evidenze locali: la pulizia li conserva integralmente.
+/reports/
+
+# Cache tecniche e metadati del sistema operativo.
+.vite/
+.vite-temp/
+__pycache__/
+*.pyc
+*.pyo
 .DS_Store
 ._*
 [Dd]esktop.ini
 [Tt]humbs.db
-__pycache__/
-*.pyc
-*.pyo
-reports/
 
+# Credenziali e configurazioni locali; gli esempi restano versionabili.
+.env
+.env.*
+!.env.example
+
+# Dati locali degli strumenti di design; preservati dalla pulizia.
 .impeccable/*
 !.impeccable/config.json
 **/.impeccable/*
 !**/.impeccable/config.json
 
-# Local conversion scratch files
-/tmp/
+# Studi grafici già versionati: conservare prompt e provenienza dopo il riordino.
+!progetti/ilmeteo/.impeccable/mocks/
+!progetti/ilmeteo/.impeccable/mocks/**
+!progetti/ilmeteo/.impeccable/surfaces/
+!progetti/ilmeteo/.impeccable/surfaces/redesign-bologna-html.md
 
-# Copie web generate dagli asset condivisi di slide e booklet.
-/public/images/shared/
+# Temporanei di conversione; le fonti uniche sono state ricollocate.
+/tmp/

@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="380" viewBox="0 0 1120 380" role="img" aria-labelledby="title desc">
+  <title id="title">Due colonne possono contenere un articolo oppure due servizi autonomi</title>
+  <desc id="desc">A sinistra un articolo su come spostare una visita continua dalla colonna uno alla colonna due. A destra due schede indipendenti presentano medicina generale e visita oculistica: ciascuna ha titolo, data e azione Prenota.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0L10 5L0 10Z" fill="#193CB8" />
+    </marker>
+  </defs>
+  <text x="0" y="29" font-family="DM Sans" font-size="28" font-weight="600" fill="#162456">Un articolo · lettura continua</text>
+  <text x="0" y="72" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">Spostare una visita</text>
+  <rect x="0" y="94" width="240" height="248" fill="#DBEAFE" />
+  <rect x="280" y="94" width="240" height="248" fill="#DBEAFE" />
+  <text x="16" y="130" font-family="DM Sans" font-size="28" font-weight="600" fill="#193CB8">1</text>
+  <text x="296" y="130" font-family="DM Sans" font-size="28" font-weight="600" fill="#193CB8">2</text>
+  <text x="16" y="171" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">
+    <tspan x="16" y="171" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">Per cambiare la</tspan>
+    <tspan x="16" y="201" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">data, apri la</tspan>
+    <tspan x="16" y="231" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">prenotazione e</tspan>
+    <tspan x="16" y="261" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">scegli un nuovo</tspan>
+    <tspan x="16" y="291" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">giorno. Prima di</tspan>
+  </text>
+  <text x="296" y="171" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">
+    <tspan x="296" y="171" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">confermare,</tspan>
+    <tspan x="296" y="201" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">controlla data</tspan>
+    <tspan x="296" y="231" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">e orario nel</tspan>
+    <tspan x="296" y="261" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">riepilogo.</tspan>
+  </text>
+  <path d="M246 215H274" fill="none" stroke="#193CB8" stroke-width="3" marker-end="url(#arrow)" />
+  <text x="0" y="374" font-family="DM Sans" font-size="24" font-weight="400" fill="#334155">1 → 2 · Il testo continua.</text>
+  <text x="600" y="29" font-family="DM Sans" font-size="28" font-weight="600" fill="#162456">Due servizi · lettura autonoma</text>
+  <text x="600" y="72" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">Prenotazioni disponibili</text>
+  <rect x="600" y="94" width="240" height="248" fill="#DBEAFE" />
+  <rect x="880" y="94" width="240" height="248" fill="#DBEAFE" />
+  <text x="616" y="137" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">
+    <tspan x="616" y="137" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">Medicina</tspan>
+    <tspan x="616" y="167" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">generale</tspan>
+  </text>
+  <text x="896" y="137" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">
+    <tspan x="896" y="137" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">Visita</tspan>
+    <tspan x="896" y="167" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">oculistica</tspan>
+  </text>
+  <text x="616" y="220" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">12 marzo · 9:30</text>
+  <text x="896" y="220" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">14 marzo · 11:00</text>
+  <rect x="616" y="273" width="208" height="46" fill="#193CB8" />
+  <rect x="896" y="273" width="208" height="46" fill="#193CB8" />
+  <text x="720" y="305" text-anchor="middle" font-family="DM Sans" font-size="24" font-weight="500" fill="white">Prenota</text>
+  <text x="1000" y="305" text-anchor="middle" font-family="DM Sans" font-size="24" font-weight="500" fill="white">Prenota</text>
+  <text x="600" y="374" font-family="DM Sans" font-size="24" font-weight="400" fill="#334155">Ogni scheda è completa.</text>
+</svg>

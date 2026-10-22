@@ -1,0 +1,318 @@
+{
+  "version": 1,
+  "lesson": "griglie-layout",
+  "sourceFile": "progetti/booklet/capitoli/07-griglia.typ",
+  "sourceSlideCount": 72,
+  "sourceMinutes": 84.5,
+  "purpose": "Contenuti accorpati o esclusi dalla semplificazione richiesta; originali, fonti, attribuzioni e versioni precedenti conservati.",
+  "slides": [
+    {
+      "reason": "Anticipa il passaggio allo schermo già sviluppato nel blocco responsive.",
+      "retainedIn": [
+        "griglie-layout-viewport-comportamento"
+      ],
+      "plan": {
+        "slug": "storia-foglio-schermo",
+        "title": "Che cosa passa allo schermo",
+        "section": 2,
+        "lead": "Allineamenti, misure di lettura, intervalli e gerarchie devono funzionare anche quando cambia la larghezza.",
+        "points": [
+          "Due campi affiancati diventano una sequenza verticale, conservando contenuti e azioni.",
+          "Documentare gli stati e il comportamento fra uno stato e l'altro; ogni comando resta vicino all'informazione sulla quale agisce."
+        ],
+        "figures": [
+          "368"
+        ],
+        "minutes": 1,
+        "sourceHeading": "Che cosa passa allo schermo"
+      },
+      "mapping": {
+        "lessonSlide": 12,
+        "title": "Che cosa passa allo schermo",
+        "alias": "griglie-layout-storia-foglio-schermo",
+        "section": 2,
+        "sourceHeading": "Che cosa passa allo schermo",
+        "figures": [
+          "368"
+        ],
+        "minutes": 1
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide figure-slide figure-comparison\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 12\nlessonMinutes: 1\nrouteAlias: \"griglie-layout-storia-foglio-schermo\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: [\"368\"]\n---\n\n# Che cosa passa allo schermo\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Allineamenti, misure di lettura, intervalli e gerarchie devono funzionare anche quando cambia la larghezza.</p><ul class=\"cvedi-list\"><li><span>Due campi affiancati diventano una sequenza verticale, conservando contenuti e azioni.</span></li><li><span>Documentare gli stati e il comportamento fra uno stato e l'altro; ogni comando resta vicino all'informazione sulla quale agisce.</span></li></ul></div><LessonFigure src=\"/images/shared/figure/griglia-slidev/griglie-368-testo-tracciato.svg\" alt=\"Dalla coppia affiancata alla sequenza verticale: si preservano relazioni e ordine delle informazioni.\" caption=\"Dalla coppia affiancata alla sequenza verticale: si preservano relazioni e ordine delle informazioni.\" /></div>\n\n"
+    },
+    {
+      "reason": "Definizione e calcolo accorpati al confronto illustrato con gli stessi valori.",
+      "retainedIn": [
+        "griglie-layout-anatomia-box-sizing-confronto"
+      ],
+      "plan": {
+        "slug": "anatomia-box-sizing",
+        "title": "Che cosa comprende la larghezza",
+        "section": 3,
+        "lead": "La misura dichiarata dipende dal riquadro scelto con box-sizing.",
+        "points": [
+          "Con border-box, 240 px comprendono contenuto, padding e bordo; il margine resta esterno.",
+          "Nell’esempio: 16 px di padding e 1 px di bordo per lato lasciano 206 px per il contenuto.",
+          "Con content-box la larghezza riguarda il solo contenuto. Documentare sia la distanza desiderata sia il riquadro dal quale misurarla."
+        ],
+        "figures": [],
+        "minutes": 1,
+        "sourceHeading": "Margine, intercolonna e spazio interno",
+        "formula": "(240 - 2 \\cdot 16 - 2 \\cdot 1)\\,\\mathrm{px} = 206\\,\\mathrm{px}"
+      },
+      "mapping": {
+        "lessonSlide": 19,
+        "title": "Che cosa comprende la larghezza",
+        "alias": "griglie-layout-anatomia-box-sizing",
+        "section": 3,
+        "sourceHeading": "Margine, intercolonna e spazio interno",
+        "figures": [],
+        "minutes": 1
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide formula-slide\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 19\nlessonMinutes: 1\nrouteAlias: \"griglie-layout-anatomia-box-sizing\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: []\n---\n\n# Che cosa comprende la larghezza\n\n<div><p class=\"lead\">La misura dichiarata dipende dal riquadro scelto con box-sizing.</p>\n\n<div class=\"lesson-equation lesson-equation-rule\">\n\n$$\n(240 - 2 \\cdot 16 - 2 \\cdot 1)\\,\\mathrm{px} = 206\\,\\mathrm{px}\n$$\n\n</div>\n\n<ul class=\"cvedi-list\"><li><span>Con border-box, 240 px comprendono contenuto, padding e bordo; il margine resta esterno.</span></li><li><span>Nell’esempio: 16 px di padding e 1 px di bordo per lato lasciano 206 px per il contenuto.</span></li><li><span>Con content-box la larghezza riguarda il solo contenuto. Documentare sia la distanza desiderata sia il riquadro dal quale misurarla.</span></li></ul></div>\n\n"
+    },
+    {
+      "reason": "La lettura corretta delle proporzioni è già offerta dal confronto didattico; non occorre introdurre schemi inesatti per confutarli.",
+      "retainedIn": [
+        "griglie-layout-terzi-aureo"
+      ],
+      "plan": {
+        "slug": "terzi-documenti-critici",
+        "title": "Leggere criticamente i due schemi",
+        "section": 5,
+        "lead": "Nella tavola successiva, osservate il documento con le percentuali e quello con le intersezioni dei terzi.",
+        "points": [
+          "Il documento con le percentuali non cita ricerche a sostegno dei numeri: non descrive una distribuzione generale dimostrata dello sguardo.",
+          "Il documento sui terzi chiama impropriamente «Area aurea» il campo centrale. Il confronto geometrico distingue le due costruzioni."
+        ],
+        "figures": [],
+        "minutes": 0.5,
+        "sourceHeading": "Proporzioni e rottura"
+      },
+      "mapping": {
+        "lessonSlide": 34,
+        "title": "Leggere criticamente i due schemi",
+        "alias": "griglie-layout-terzi-documenti-critici",
+        "section": 5,
+        "sourceHeading": "Proporzioni e rottura",
+        "figures": [],
+        "minutes": 0.5
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 34\nlessonMinutes: 0.5\nrouteAlias: \"griglie-layout-terzi-documenti-critici\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: []\n---\n\n# Leggere criticamente i due schemi\n\n<div><p class=\"lead\">Nella tavola successiva, osservate il documento con le percentuali e quello con le intersezioni dei terzi.</p><ul class=\"cvedi-list\"><li><span>Il documento con le percentuali non cita ricerche a sostegno dei numeri: non descrive una distribuzione generale dimostrata dello sguardo.</span></li><li><span>Il documento sui terzi chiama impropriamente «Area aurea» il campo centrale. Il confronto geometrico distingue le due costruzioni.</span></li></ul></div>\n\n"
+    },
+    {
+      "reason": "Documenti inesatti non necessari al percorso; originali e critica restano in archivio.",
+      "retainedIn": [
+        "griglie-layout-terzi-aureo"
+      ],
+      "plan": {
+        "slug": "terzi-documenti-confronto",
+        "title": "Confrontare i due schemi",
+        "section": 5,
+        "lead": "",
+        "points": [],
+        "figures": [
+          "2024-107-attenzione",
+          "2024-107-terzi"
+        ],
+        "minutes": 0.5,
+        "sourceHeading": "Proporzioni e rottura",
+        "kind": "figure-pair"
+      },
+      "mapping": {
+        "lessonSlide": 35,
+        "title": "Confrontare i due schemi",
+        "alias": "griglie-layout-terzi-documenti-confronto",
+        "section": 5,
+        "sourceHeading": "Proporzioni e rottura",
+        "figures": [
+          "2024-107-attenzione",
+          "2024-107-terzi"
+        ],
+        "minutes": 0.5
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide figure-slide figure-pair\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 35\nlessonMinutes: 0.5\nrouteAlias: \"griglie-layout-terzi-documenti-confronto\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: [\"2024-107-attenzione\",\"2024-107-terzi\"]\n---\n\n# Confrontare i due schemi\n\n<div class=\"lesson-columns\"><LessonFigure src=\"/images/shared/figure/griglia/edizione-2024/regola-terzi-percentuali-louis-nguyen.jpg\" alt=\"Schema storico della regola dei terzi. Le percentuali riportate non sono accompagnate da dati o metodo: non costituiscono una regola generale della lettura.\" caption=\"Schema storico della regola dei terzi. Le percentuali riportate non sono accompagnate da dati o metodo: non costituiscono una regola generale della lettura. Fotografia attribuita a Louis Nguyen.\" /><LessonFigure src=\"/images/shared/figure/griglia/edizione-2024/regola-terzi-area-aurea.jpg\" alt=\"Schema dei punti d’intersezione dei terzi. La dicitura «Area aurea» appartiene all’originale: il reticolo raffigura divisioni in terzi, non la sezione aurea.\" caption=\"Schema dei punti d’intersezione dei terzi. La dicitura «Area aurea» appartiene all’originale: il reticolo raffigura divisioni in terzi, non la sezione aurea.\" /></div>\n\n"
+    },
+    {
+      "reason": "Ripete la costruzione di Fibonacci; il limite del valore estetico è conservato nella spiegazione.",
+      "retainedIn": [
+        "griglie-layout-aureo-fibonacci"
+      ],
+      "plan": {
+        "slug": "aureo-originale",
+        "title": "Confrontare la costruzione",
+        "section": 5,
+        "lead": "La rappresentazione di MPAstudio affianca rettangoli e andamento a spirale.",
+        "points": [
+          "Si confronta il disegno con i quadrati di lati Fibonacci e con i quarti di cerchio osservati nella figura precedente.",
+          "Proporzione aurea e costruzione approssimata della spirale restano distinte. Una relazione matematica precisa non certifica il valore estetico di una pagina o di un’opera."
+        ],
+        "figures": [
+          "2024-106-aureo"
+        ],
+        "minutes": 0.5,
+        "sourceHeading": "Aureo, _Fibonacci_ e spirale"
+      },
+      "mapping": {
+        "lessonSlide": 38,
+        "title": "Confrontare la costruzione",
+        "alias": "griglie-layout-aureo-originale",
+        "section": 5,
+        "sourceHeading": "Aureo, _Fibonacci_ e spirale",
+        "figures": [
+          "2024-106-aureo"
+        ],
+        "minutes": 0.5
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide figure-slide figure-comparison\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 38\nlessonMinutes: 0.5\nrouteAlias: \"griglie-layout-aureo-originale\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: [\"2024-106-aureo\"]\n---\n\n# Confrontare la costruzione\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">La rappresentazione di MPAstudio affianca rettangoli e andamento a spirale.</p><ul class=\"cvedi-list\"><li><span>Si confronta il disegno con i quadrati di lati Fibonacci e con i quarti di cerchio osservati nella figura precedente.</span></li><li><span>Proporzione aurea e costruzione approssimata della spirale restano distinte. Una relazione matematica precisa non certifica il valore estetico di una pagina o di un’opera.</span></li></ul></div><LessonFigure src=\"/images/shared/figure/griglia/edizione-2024/rettangolo-spirale-aurea-mpastudio.jpg\" alt=\"Suddivisioni del rettangolo aureo e curva costruita con quarti di cerchio. La curva è un’approssimazione, distinta dalla spirale logaritmica aurea esatta; le suddivisioni auree sono inoltre diverse dai quadrati di lati Fibonacci.\" caption=\"Suddivisioni del rettangolo aureo e curva costruita con quarti di cerchio. La curva è un’approssimazione, distinta dalla spirale logaritmica aurea esatta; le suddivisioni auree sono inoltre diverse dai quadrati di lati Fibonacci. MPAstudio.\" /></div>\n\n"
+    },
+    {
+      "reason": "La slide corregge una classificazione storica senza aggiungere un comportamento alle spiegazioni attive.",
+      "retainedIn": [
+        "griglie-layout-viewport-comportamento",
+        "griglie-layout-fisso-fluido-ibrido",
+        "griglie-layout-breakpoint-contenuto"
+      ],
+      "plan": {
+        "slug": "responsive-adaptive-lettura-critica",
+        "title": "Responsive e adaptive: leggere il confronto",
+        "section": 6,
+        "lead": "L’infografica storica richiede una precisazione sul significato dei due approcci.",
+        "points": [
+          "Si chiama spesso adattivo il passaggio fra poche larghezze prefissate; il responsive può combinare fluidità e cambi di regola.",
+          "L’equazione responsive/client-side e adaptive/server-side semplifica troppo: questi comportamenti non determinano dove venga eseguito il codice. Si provano anche le larghezze intermedie."
+        ],
+        "figures": [
+          "2024-105-responsive-adaptive"
+        ],
+        "minutes": 1,
+        "sourceHeading": "Fisso, fluido e ibrido",
+        "sources": [
+          {
+            "label": "Google · Layout adattivi e responsivi",
+            "url": "https://web.dev/learn/design/intro"
+          }
+        ]
+      },
+      "mapping": {
+        "lessonSlide": 43,
+        "title": "Responsive e adaptive: leggere il confronto",
+        "alias": "griglie-layout-responsive-adaptive-lettura-critica",
+        "section": 6,
+        "sourceHeading": "Fisso, fluido e ibrido",
+        "figures": [
+          "2024-105-responsive-adaptive"
+        ],
+        "minutes": 1
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide figure-slide figure-comparison\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 43\nlessonMinutes: 1\nrouteAlias: \"griglie-layout-responsive-adaptive-lettura-critica\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: [\"2024-105-responsive-adaptive\"]\n---\n\n# Responsive e adaptive: leggere il confronto\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">L’infografica storica richiede una precisazione sul significato dei due approcci.</p><ul class=\"cvedi-list\"><li><span>Si chiama spesso adattivo il passaggio fra poche larghezze prefissate; il responsive può combinare fluidità e cambi di regola.</span></li><li><span>L’equazione responsive/client-side e adaptive/server-side semplifica troppo: questi comportamenti non determinano dove venga eseguito il codice. Si provano anche le larghezze intermedie.</span></li></ul><p class=\"aside\"><a class=\"link\" href=\"https://web.dev/learn/design/intro\" target=\"_blank\" rel=\"noreferrer\">Google · Layout adattivi e responsivi</a></p></div><LessonFigure src=\"/images/shared/figure/griglia/edizione-2024/responsive-adaptive-htmlburger.png\" alt=\"Infografica storica «Responsive vs Adaptive Design». La contrapposizione client side/server side nell’immagine non definisce questi approcci: il confronto riguarda fluidità e configurazioni del layout.\" caption=\"Infografica storica «Responsive vs Adaptive Design». La contrapposizione client side/server side nell’immagine non definisce questi approcci: il confronto riguarda fluidità e configurazioni del layout. HTMLBurger.\" /></div>\n\n"
+    },
+    {
+      "reason": "Ripete reticolo e ripiegamento del diagramma; il link alla fonte rimane nella slide attiva.",
+      "retainedIn": [
+        "griglie-layout-golden-grid-system"
+      ],
+      "plan": {
+        "slug": "golden-grid-documento",
+        "title": "Leggere la presentazione originale",
+        "section": 6,
+        "lead": "Il documento del Golden Grid System mette in relazione reticolo e comportamento.",
+        "points": [
+          "Si osservano insieme colonne, intervalli, griglia di base ed esempi di ripiegamento.",
+          "Il confronto con il diagramma precedente aiuta a riconoscere ciò che resta costante e ciò che cambia quando i gruppi vengono accorpati."
+        ],
+        "figures": [
+          "2024-101-ggs"
+        ],
+        "minutes": 0.5,
+        "sourceHeading": "Golden Grid System",
+        "sources": [
+          {
+            "label": "Joni Korpi · Golden Grid System",
+            "url": "https://github.com/jonikorpi/Golden-Grid-System"
+          }
+        ]
+      },
+      "mapping": {
+        "lessonSlide": 48,
+        "title": "Leggere la presentazione originale",
+        "alias": "griglie-layout-golden-grid-documento",
+        "section": 6,
+        "sourceHeading": "Golden Grid System",
+        "figures": [
+          "2024-101-ggs"
+        ],
+        "minutes": 0.5
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide figure-slide figure-comparison\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 48\nlessonMinutes: 0.5\nrouteAlias: \"griglie-layout-golden-grid-documento\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: [\"2024-101-ggs\"]\n---\n\n# Leggere la presentazione originale\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Il documento del Golden Grid System mette in relazione reticolo e comportamento.</p><ul class=\"cvedi-list\"><li><span>Si osservano insieme colonne, intervalli, griglia di base ed esempi di ripiegamento.</span></li><li><span>Il confronto con il diagramma precedente aiuta a riconoscere ciò che resta costante e ciò che cambia quando i gruppi vengono accorpati.</span></li></ul><p class=\"aside\"><a class=\"link\" href=\"https://github.com/jonikorpi/Golden-Grid-System\" target=\"_blank\" rel=\"noreferrer\">Joni Korpi · Golden Grid System</a></p></div><LessonFigure src=\"/images/shared/figure/griglia/edizione-2024/golden-grid-system-joni-korpi.jpg\" alt=\"Golden Grid System di Joni Korpi: schermata storica del progetto. Colonne, intervalli e linee di base sono resi visibili nella composizione.\" caption=\"Golden Grid System di Joni Korpi: schermata storica del progetto. Colonne, intervalli e linee di base sono resi visibili nella composizione. Joni Korpi.\" /></div>\n\n"
+    },
+    {
+      "reason": "Il metodo è già operativo nei casi; raccordo diretto dalle prove WCAG al caso Sara.",
+      "retainedIn": [
+        "griglie-layout-anatomia-contenuti-reali",
+        "griglie-layout-sara-priorita"
+      ],
+      "plan": {
+        "slug": "osservare-ipotizzare-verificare",
+        "title": "Osservare, ipotizzare, verificare",
+        "section": 7,
+        "lead": "Dalle regole alle prove: osserviamo la struttura e verifichiamo se sostiene il compito.",
+        "points": [
+          "Si individuano margini, inizi dei testi, quote ricorrenti e prossimità; questi indizi restano distinti dall’ipotesi sul reticolo dell’autore.",
+          "Una sola immagine suggerisce una griglia. Altre pagine e altri contenuti permettono di verificare quali riferimenti ritornano."
+        ],
+        "figures": [
+          "393"
+        ],
+        "minutes": 1,
+        "sourceHeading": "Leggere, progettare, verificare"
+      },
+      "mapping": {
+        "lessonSlide": 59,
+        "title": "Osservare, ipotizzare, verificare",
+        "alias": "griglie-layout-osservare-ipotizzare-verificare",
+        "section": 7,
+        "sourceHeading": "Leggere, progettare, verificare",
+        "figures": [
+          "393"
+        ],
+        "minutes": 1
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide figure-slide figure-comparison\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 59\nlessonMinutes: 1\nrouteAlias: \"griglie-layout-osservare-ipotizzare-verificare\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: [\"393\"]\n---\n\n# Osservare, ipotizzare, verificare\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Dalle regole alle prove: osserviamo la struttura e verifichiamo se sostiene il compito.</p><ul class=\"cvedi-list\"><li><span>Si individuano margini, inizi dei testi, quote ricorrenti e prossimità; questi indizi restano distinti dall’ipotesi sul reticolo dell’autore.</span></li><li><span>Una sola immagine suggerisce una griglia. Altre pagine e altri contenuti permettono di verificare quali riferimenti ritornano.</span></li></ul></div><LessonFigure src=\"/images/shared/figure/griglia-slidev/griglie-393-testo-tracciato.svg\" alt=\"Osservazione, ipotesi e prova: il reticolo ricostruito resta un'interpretazione finché non è documentato.\" caption=\"Osservazione, ipotesi e prova: il reticolo ricostruito resta un'interpretazione finché non è documentato.\" /></div>\n\n"
+    },
+    {
+      "reason": "Contesto laterale non ripreso nelle attività; il caso Sara copre già priorità, azioni e stati.",
+      "retainedIn": [
+        "griglie-layout-sara-priorita",
+        "griglie-layout-sara-nuova-data",
+        "griglie-layout-layout-flusso"
+      ],
+      "plan": {
+        "slug": "interfaccia-gioco",
+        "title": "Dall’interfaccia web al gioco",
+        "section": 7,
+        "lead": "Lo stesso metodo passa al gioco: il reticolo deve lasciare spazio all’azione e ai contenuti in movimento.",
+        "points": [
+          "Nel diagramma simulato stato, obiettivo e azioni occupano posizioni stabili; il centro conserva spazio per l’azione.",
+          "Si provano rapporti di schermo differenti, sottotitoli e messaggi variabili. La verifica comprende movimento, distanza di visione e sistemi di controllo: i gruppi non devono coprirsi né nascondere dettagli necessari."
+        ],
+        "figures": [
+          "396"
+        ],
+        "minutes": 1,
+        "sourceHeading": "Dall'interfaccia web al gioco"
+      },
+      "mapping": {
+        "lessonSlide": 63,
+        "title": "Dall’interfaccia web al gioco",
+        "alias": "griglie-layout-interfaccia-gioco",
+        "section": 7,
+        "sourceHeading": "Dall'interfaccia web al gioco",
+        "figures": [
+          "396"
+        ],
+        "minutes": 1
+      },
+      "markdown": "---\nlayout: \"default\"\nclass: \"content-slide ux-process-lesson lesson-slide griglie-slide reading-slide figure-slide figure-comparison\"\nfooter: \"Griglie e layout\"\nlesson: \"griglie-layout\"\nlessonSlide: 63\nlessonMinutes: 1\nrouteAlias: \"griglie-layout-interfaccia-gioco\"\nbookletChapter: 7\nbookletSource: \"progetti/booklet/capitoli/07-griglia.typ\"\nbookletFigures: [\"396\"]\n---\n\n# Dall’interfaccia web al gioco\n\n<div class=\"lesson-columns\"><div><p class=\"lead\">Lo stesso metodo passa al gioco: il reticolo deve lasciare spazio all’azione e ai contenuti in movimento.</p><ul class=\"cvedi-list\"><li><span>Nel diagramma simulato stato, obiettivo e azioni occupano posizioni stabili; il centro conserva spazio per l’azione.</span></li><li><span>Si provano rapporti di schermo differenti, sottotitoli e messaggi variabili. La verifica comprende movimento, distanza di visione e sistemi di controllo: i gruppi non devono coprirsi né nascondere dettagli necessari.</span></li></ul></div><LessonFigure src=\"/images/shared/figure/griglia-slidev/griglie-396-testo-tracciato.svg\" alt=\"Distribuzione di stato, obiettivo e comandi in un'interfaccia di gioco simulata; il centro resta disponibile per l'azione.\" caption=\"Distribuzione di stato, obiettivo e comandi in un'interfaccia di gioco simulata; il centro resta disponibile per l'azione.\" /></div>\n\n"
+    }
+  ]
+}

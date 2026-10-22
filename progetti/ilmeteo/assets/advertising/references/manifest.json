@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-13",
+  "assets": [
+    {
+      "file": "unimib-logo.png",
+      "source": "https://www.unimib.it/sites/default/files/logo.png",
+      "rights": "Marchio autentico Università degli Studi di Milano-Bicocca, senza nuova licenza attribuita.",
+      "sha256": "99fd1154d56e35b123f006bd6254883bc307ad7a55e10428ebc5b4f6f67c4035"
+    },
+    {
+      "file": "pt-sans-narrow-400.woff2",
+      "source": "https://www.unimib.it/themes/custom/unimib_base/fonts/pt-sans-narrow-v17-latin-ext_latin_cyrillic-ext_cyrillic-regular.woff2",
+      "rights": "SIL OFL 1.1; pt-sans-narrow-OFL.txt",
+      "sha256": "a15cf4c78d044ba0bd776d29a054335045d794a50c9feada522e8e0e523aa8d4"
+    },
+    {
+      "file": "pt-sans-narrow-700.woff2",
+      "source": "https://www.unimib.it/themes/custom/unimib_base/fonts/pt-sans-narrow-v17-latin-ext_latin_cyrillic-ext_cyrillic-700.woff2",
+      "rights": "SIL OFL 1.1; pt-sans-narrow-OFL.txt",
+      "sha256": "9b56c5537a96d95e08a55c259b901ca4428f17ad92bcbd21497cd66b02ff61e9"
+    },
+    {
+      "file": "inter-400.woff2",
+      "source": "node_modules/@fontsource/inter/files/inter-latin-400-normal.woff2",
+      "rights": "SIL OFL 1.1; inter-LICENSE.txt",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "file": "inter-700.woff2",
+      "source": "node_modules/@fontsource/inter/files/inter-latin-700-normal.woff2",
+      "rights": "SIL OFL 1.1; inter-LICENSE.txt",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491"
+    },
+    {
+      "file": "caffe-ttc-glass.webp",
+      "source": "progetti/caffe-ttc/assets/brand/imagegen-v1/glass.webp",
+      "rights": "ImageGen originale; manifest in progetti/caffe-ttc/assets/brand/imagegen-v1/manifest.json",
+      "sha256": "aa3de4e05522670a831f6b07245612190f2d23cfe4958dc723d3cd06c35018ea"
+    },
+    {
+      "file": "unimib-colors.css.source",
+      "source": "https://www.unimib.it/sites/default/files/color/unimib_base-3d6b0fd9/colors.css?tmu0o3",
+      "rights": "Fonte cromatica conservata, non caricata nel runtime.",
+      "sha256": "6d0e214f8e9219a02c36946c3667acfb81ec5d810f795e2386d270a12becd886"
+    }
+  ]
+}

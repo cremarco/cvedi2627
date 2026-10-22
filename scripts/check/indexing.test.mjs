@@ -3,7 +3,7 @@ import { mkdtemp, mkdir, rm, writeFile } from 'node:fs/promises'
 import os from 'node:os'
 import path from 'node:path'
 import test from 'node:test'
-import { preventIndexingHTML, readIndexingMeta } from '../../utils/indexing.mjs'
+import { preventIndexingHTML, readIndexingMeta } from '../lib/indexing.mjs'
 import { checkIndexing } from './indexing.mjs'
 
 function normalizedMetadata(source) {

@@ -1,0 +1,1298 @@
+{
+  "source": "progetti/slide/assets/booklet/lezione-05-accessibilita/figma-source.json",
+  "slides": [
+    {
+      "sourceNodes": [
+        "198:3435"
+      ],
+      "title": "Dal contesto alle condizioni d’uso",
+      "lead": "Le differenze riguardano anche ciò che rende possibile usare un servizio.",
+      "points": [],
+      "alias": "accessibilita-design-inclusivo",
+      "statement": "Percepire, raggiungere, comprendere e completare.",
+      "support": "Le scelte di accessibilità entrano nella ricerca, nei requisiti, nei prototipi e nella verifica."
+    },
+    {
+      "sourceNodes": [
+        "198:3877"
+      ],
+      "title": "La persona media non basta",
+      "lead": "La diversità umana è una condizione di partenza del progetto.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Persone diverse",
+          "text": "Abilità, familiarità digitale e contesti modificano il modo di usare un servizio.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Punti di esclusione",
+          "text": "Un riferimento presunto può rendere impossibile un’informazione o un’azione.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Accesso dal principio",
+          "text": "Le condizioni di accesso orientano il progetto prima dello sviluppo.",
+          "icon": "compatibilita"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3446"
+      ],
+      "title": "Design universale e design inclusivo",
+      "lead": "Due prospettive complementari ampliano accesso e partecipazione.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Design universale",
+          "text": "Prodotti, ambienti e sistemi utilizzabili dal maggior numero di persone, senza adattamenti o soluzioni speciali.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Design inclusivo",
+          "text": "Partire dalle differenze, riconoscere i punti di esclusione e offrire modalità equivalenti di partecipazione.",
+          "icon": "inclusione"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3446"
+      ],
+      "title": "Sette principi del design universale",
+      "lead": "Una base semplice, flessibile e non stigmatizzante.",
+      "points": [
+        "Equità e flessibilità d’uso; semplicità e comprensibilità.",
+        "Informazioni percepibili e tolleranza all’errore.",
+        "Sforzo fisico contenuto; spazio e dimensioni adeguati."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3892"
+      ],
+      "title": "Più modalità, lo stesso compito",
+      "lead": "Un video può offrire parlato chiaro, sottotitoli e descrizione delle informazioni visive.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Una base comune",
+          "text": "Modalità identiche quando possibile, equivalenti quando necessario.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Percorsi equivalenti",
+          "text": "Testo, audio e tastiera vanno progettati e verificati insieme.",
+          "icon": "media"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3464"
+      ],
+      "title": "Persona Spectrum",
+      "lead": "Un punto di esclusione può riguardare condizioni diverse.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Permanente",
+          "text": "Una condizione duratura, come la cecità.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Temporanea",
+          "text": "Una condizione limitata nel tempo, come un infortunio.",
+          "icon": "tempo"
+        },
+        {
+          "title": "Situazionale",
+          "text": "Il contesto ostacola un’azione: rumore, forte luce, mani occupate.",
+          "icon": "inclusione"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3464"
+      ],
+      "title": "Coinvolgere le persone fin dall’inizio",
+      "lead": "Riconosci i tuoi bias e verifica dove si genera esclusione.",
+      "points": [
+        "Non proiettare le tue abitudini, capacità e aspettative su tutti gli utenti.",
+        "Coinvolgi persone diverse per età, provenienza, abilità e modalità d’uso.",
+        "Ricerca, requisiti, flussi e scelte tecniche devono considerare l’accesso."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3903"
+      ],
+      "title": "Persona Spectrum · Tocco",
+      "lead": "Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-persona-0-0",
+          "caption": "Permanente"
+        },
+        {
+          "asset": "l05-persona-0-1",
+          "caption": "Temporaneo"
+        },
+        {
+          "asset": "l05-persona-0-2",
+          "caption": "Situazionale"
+        }
+      ],
+      "triptych": true
+    },
+    {
+      "sourceNodes": [
+        "198:3903"
+      ],
+      "title": "Persona Spectrum · Vista",
+      "lead": "Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-persona-1-0",
+          "caption": "Permanente"
+        },
+        {
+          "asset": "l05-persona-1-1",
+          "caption": "Temporaneo"
+        },
+        {
+          "asset": "l05-persona-1-2",
+          "caption": "Situazionale"
+        }
+      ],
+      "triptych": true
+    },
+    {
+      "sourceNodes": [
+        "198:3903"
+      ],
+      "title": "Persona Spectrum · Udito",
+      "lead": "Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-persona-2-0",
+          "caption": "Permanente"
+        },
+        {
+          "asset": "l05-persona-2-1",
+          "caption": "Temporaneo"
+        },
+        {
+          "asset": "l05-persona-2-2",
+          "caption": "Situazionale"
+        }
+      ],
+      "triptych": true
+    },
+    {
+      "sourceNodes": [
+        "198:3903"
+      ],
+      "title": "Persona Spectrum · Parlato",
+      "lead": "Permanente, temporaneo e situazionale: osserva la relazione fra persona, compito e contesto.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-persona-3-0",
+          "caption": "Permanente"
+        },
+        {
+          "asset": "l05-persona-3-1",
+          "caption": "Temporaneo"
+        },
+        {
+          "asset": "l05-persona-3-2",
+          "caption": "Situazionale"
+        }
+      ],
+      "triptych": true
+    },
+    {
+      "sourceNodes": [
+        "198:3498"
+      ],
+      "title": "Quattro principi per l’accessibilità web",
+      "lead": "Le WCAG organizzano requisiti verificabili.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Percepibile",
+          "text": "Informazioni disponibili attraverso canali sensoriali differenti.",
+          "icon": "percezione"
+        },
+        {
+          "title": "Utilizzabile",
+          "text": "Azioni e navigazione disponibili anche con tastiera e dispositivi assistivi.",
+          "icon": "tastiera"
+        },
+        {
+          "title": "Comprensibile",
+          "text": "Linguaggio e comportamento dell’interfaccia comprensibili e prevedibili.",
+          "icon": "comprensione"
+        },
+        {
+          "title": "Robusto",
+          "text": "Contenuto compatibile con browser, software e tecnologie assistive.",
+          "icon": "compatibilita"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3498"
+      ],
+      "title": "A, AA e AAA",
+      "lead": "I livelli sono cumulativi.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Livello A",
+          "text": "Soddisfa tutti i criteri di livello A.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Livello AA",
+          "text": "Soddisfa tutti i criteri di livello A e AA.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Livello AAA",
+          "text": "Soddisfa tutti i criteri di livello A, AA e AAA.",
+          "icon": "verifica"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3498"
+      ],
+      "title": "Modalità d’uso e tecnologie assistive",
+      "lead": "WebAIM, centro dell’Utah State University, offre formazione, ricerca e valutazione.",
+      "points": [
+        "Le aree uditiva, motoria, visiva e cognitiva non definiscono un unico modo d’uso.",
+        "Screen reader, ingranditori, tastiere alternative, comandi vocali e puntatori sostengono compiti differenti.",
+        "La compatibilità con questi strumenti deve essere progettata e verificata."
+      ],
+      "tools": [
+        {
+          "label": "NVDA · Windows",
+          "href": "https://www.nvaccess.org/download/",
+          "usage": "Screen reader gratuito; download e guida ai comandi."
+        },
+        {
+          "label": "VoiceOver · macOS",
+          "href": "https://support.apple.com/it-it/guide/voiceover/welcome/mac",
+          "usage": "Lettore integrato nel Mac; manuale italiano e tutorial."
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "3124:706"
+      ],
+      "title": "Uno screen reader su smartphone",
+      "lead": "Nomi, ruoli e struttura semantica rendono disponibile l’informazione.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-screen-reader"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "3124:706"
+      ],
+      "title": "Input attraverso un puntatore a bocca",
+      "lead": "I comandi devono essere raggiungibili e utilizzabili anche senza mouse.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-puntatore"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3924"
+      ],
+      "title": "WCAG: percepire e usare",
+      "lead": "Le prime nove linee guida.",
+      "points": [],
+      "cards": [
+        {
+          "title": "01 · Percepibile",
+          "text": "1.1 Alternative testuali · 1.2 Media temporali · 1.3 Adattabilità · 1.4 Distinguibilità.",
+          "icon": "percezione"
+        },
+        {
+          "title": "02 · Utilizzabile",
+          "text": "2.1 Tastiera · 2.2 Tempo sufficiente · 2.3 Convulsioni e reazioni fisiche · 2.4 Navigabile · 2.5 Modalità di input.",
+          "icon": "tastiera"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3924"
+      ],
+      "title": "WCAG: comprendere e interagire",
+      "lead": "Le tredici linee guida rimandano a criteri, livelli ed eccezioni.",
+      "points": [],
+      "cards": [
+        {
+          "title": "03 · Comprensibile",
+          "text": "3.1 Leggibile · 3.2 Prevedibile · 3.3 Assistenza nell’inserimento.",
+          "icon": "comprensione"
+        },
+        {
+          "title": "04 · Robusto",
+          "text": "4.1 Compatibilità con strumenti e tecnologie assistive.",
+          "icon": "compatibilita"
+        }
+      ],
+      "notice": "Questa è una mappa di orientamento. Consulta il testo WCAG 2.2 per i criteri di successo completi.",
+      "links": [
+        {
+          "label": "WCAG 2.2",
+          "href": "https://www.w3.org/TR/WCAG22/"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3481"
+      ],
+      "title": "Contrasto del testo",
+      "lead": "WCAG 2.2 · 1.4.3, livello AA.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Testo normale",
+          "text": "Rapporto di contrasto di almeno 4,5:1 rispetto al fondo effettivo.",
+          "icon": "percezione"
+        },
+        {
+          "title": "Testo grande",
+          "text": "Almeno 3:1; grande significa 18 pt oppure 14 pt in grassetto.",
+          "icon": "percezione"
+        }
+      ],
+      "notice": "Sono previste eccezioni per elementi incidentali e logotipi. Il colore non deve essere l’unico segnale di stato, azione o errore.",
+      "tools": [
+        {
+          "label": "WebAIM Contrast Checker",
+          "href": "https://webaim.org/resources/contrastchecker/",
+          "usage": "Confronta testo e sfondo: rapporto e soglie AA/AAA."
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3481"
+      ],
+      "title": "Il colore da solo non spiega",
+      "lead": "Affianca testo, simboli o altri segnali visibili.",
+      "points": [
+        "Un messaggio deve restare comprensibile anche senza distinguere tutte le tinte.",
+        "Le simulazioni della visione dei colori sono indicative e non sostituiscono le prove con le persone.",
+        "Misura il contrasto dei colori effettivamente adiacenti nella composizione."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3913"
+      ],
+      "title": "Verificare una palette con Adobe Color",
+      "lead": "Le immagini del booklet mostrano gli strumenti di contrasto e simulazione.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-adobe-contrasto"
+        },
+        {
+          "asset": "l05-adobe-visione"
+        }
+      ],
+      "tools": [
+        {
+          "label": "Adobe · Controllo del contrasto",
+          "href": "https://color.adobe.com/create/color-contrast-analyzer",
+          "usage": "Misura il rapporto tra primo piano e sfondo."
+        },
+        {
+          "label": "Adobe · Simulazione dei colori",
+          "href": "https://color.adobe.com/create/color-accessibility",
+          "usage": "Esplora la palette nelle simulazioni della visione dei colori."
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "3124:753"
+      ],
+      "title": "Dal compito alla verifica",
+      "lead": "Le scelte nascono da un ostacolo osservabile.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Compito",
+          "text": "Che cosa deve ottenere la persona?",
+          "icon": "priorita"
+        },
+        {
+          "title": "Barriera",
+          "text": "Dove si interrompe il percorso e perché?",
+          "icon": "verifica"
+        },
+        {
+          "title": "Scelta di progetto",
+          "text": "Quale decisione può rendere possibile l’azione?",
+          "icon": "preferenze"
+        },
+        {
+          "title": "Verifica del compito",
+          "text": "Riprova con persone e criteri tecnici pertinenti.",
+          "icon": "verifica"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2825:233"
+      ],
+      "title": "Contrasto dei controlli",
+      "lead": "WCAG 2.2 · 1.4.11, livello AA.",
+      "points": [
+        "I segnali necessari a identificare controlli e stati richiedono almeno 3:1 rispetto ai colori adiacenti.",
+        "Il requisito riguarda anche le parti dei grafici necessarie a comprenderli.",
+        "Controlla la spunta, l’indicatore di selezione o il bordo quando identifica il campo."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2825:233"
+      ],
+      "title": "Quale segnale occorre misurare?",
+      "lead": "Non ogni bordo o decorazione è necessario.",
+      "points": [
+        "Se testo o icona identificano già il pulsante, il suo perimetro può non essere il segnale necessario.",
+        "Il testo conserva i propri requisiti di contrasto.",
+        "Sono previste eccezioni per controlli inattivi, aspetti determinati dal programma utente e presentazioni grafiche essenziali."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2825:288"
+      ],
+      "title": "Ingrandimento, reflow e spaziatura",
+      "lead": "Tre verifiche distinte, senza perdere informazioni o funzioni.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Testo al 200%",
+          "text": "1.4.4 AA: ingrandire senza tecnologie assistive; esclusi sottotitoli e immagini di testo.",
+          "icon": "percezione"
+        },
+        {
+          "title": "Reflow",
+          "text": "1.4.10 AA: 320 CSS px di larghezza per lo scorrimento verticale; 256 CSS px di altezza per quello orizzontale.",
+          "icon": "preferenze"
+        },
+        {
+          "title": "Spaziatura",
+          "text": "1.4.12 AA: override combinati di interlinea, paragrafi, lettere e parole.",
+          "icon": "preferenze"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2825:288"
+      ],
+      "title": "Verificare l’adattamento del testo",
+      "lead": "Le soglie di spaziatura sono condizioni di prova.",
+      "points": [
+        "Interlinea ≥1,5 volte il corpo; dopo i paragrafi ≥2; fra lettere ≥0,12; fra parole ≥0,16.",
+        "Applica insieme gli override pertinenti a lingua e scrittura, senza cambiare altri stili.",
+        "Nel reflow, l’eccezione riguarda solo le parti che richiedono un layout bidimensionale per uso o significato, come una mappa."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:133"
+      ],
+      "title": "Dalle abilità alle barriere",
+      "lead": "Una barriera nasce dall’incontro fra persona, compito e interfaccia.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Osservare l’attività",
+          "text": "Una categoria non descrive da sola strumenti e preferenze.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Individuare l’ostacolo",
+          "text": "Quale informazione manca? Quale azione è impossibile?",
+          "icon": "verifica"
+        },
+        {
+          "title": "Collegare la decisione",
+          "text": "Registra compito, conseguenza e modifica; poi verifica.",
+          "icon": "verifica"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:177"
+      ],
+      "title": "Tre scenari d’uso",
+      "lead": "Scenari illustrativi adattati dalle storie WAI; non risultati di test del progetto.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Scegliere un prodotto",
+          "text": "Campioni cromatici senza etichette rendono incerta la scelta di un colore.",
+          "icon": "percezione"
+        },
+        {
+          "title": "Completare un modulo",
+          "text": "Un menu che risponde solo al mouse interrompe il percorso da tastiera.",
+          "icon": "tastiera"
+        },
+        {
+          "title": "Seguire una lezione",
+          "text": "Un video senza sottotitoli può rendere indisponibile il parlato.",
+          "icon": "media"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "3124:835"
+      ],
+      "title": "Scegliere un prodotto",
+      "lead": "Nome del colore e segno di selezione affiancano il campione cromatico.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-scenario-colore"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "3124:835"
+      ],
+      "title": "Completare un modulo",
+      "lead": "Focus visibile, controlli raggiungibili e azioni da tastiera mantengono continuo il compito.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-scenario-tastiera"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "3124:835"
+      ],
+      "title": "Seguire una lezione",
+      "lead": "Sottotitoli corretti includono il parlato e i suoni significativi.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-scenario-media"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:218"
+      ],
+      "title": "Tastiera, ordine e focus",
+      "lead": "Raggiungere, utilizzare e orientarsi fanno parte dello stesso compito.",
+      "points": [
+        "Le funzionalità devono essere utilizzabili da tastiera, salvo funzioni dipendenti dal percorso del movimento, come il disegno a mano libera.",
+        "Tab e Shift+Tab spostano il focus; i componenti complessi prevedono altri tasti secondo il proprio modello.",
+        "Ordine coerente, focus visibile, titoli, regioni e salti dei blocchi ripetuti aiutano l’orientamento."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:218"
+      ],
+      "title": "Entrare, uscire e riprendere",
+      "lead": "Un componente non deve intrappolare la tastiera.",
+      "points": [
+        "Il dialogo modale contiene il focus mentre è aperto.",
+        "Alla chiusura, il focus viene restituito in modo appropriato.",
+        "Se servono tasti non standard per uscire, comunicali all’utente."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:262"
+      ],
+      "title": "Dimensioni e spaziatura dei bersagli",
+      "lead": "WCAG 2.2 · 2.5.8, livello AA.",
+      "points": [
+        "Almeno 24 × 24 CSS px, oppure una delle eccezioni previste.",
+        "Per i bersagli piccoli, i cerchi di diametro 24 CSS px centrati sui riquadri non devono intersecare altri bersagli né i cerchi di altri bersagli piccoli.",
+        "Il criterio 2.5.5 AAA usa 44 × 44 CSS px con proprie eccezioni."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:262"
+      ],
+      "title": "Un gesto, più percorsi",
+      "lead": "WCAG 2.2 · 2.5.7, livello AA.",
+      "points": [
+        "Offri un’alternativa con puntatore singolo senza trascinamento, salvo le eccezioni previste.",
+        "Per riordinare, comandi «Sposta su» e «Sposta giù» permettono di completare la stessa azione.",
+        "La sola alternativa da tastiera non soddisfa questo requisito."
+      ],
+      "notice": "Per i bersagli: controllo equivalente, link nel testo, dimensioni imposte dal programma utente e presentazioni essenziali hanno eccezioni specifiche."
+    },
+    {
+      "sourceNodes": [
+        "2811:301"
+      ],
+      "title": "L’alternativa dipende dalla funzione",
+      "lead": "Il testo restituisce ciò che l’immagine comunica o permette di fare.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Immagine informativa",
+          "text": "Descrivi l’informazione pertinente al contenuto.",
+          "icon": "linguaggio"
+        },
+        {
+          "title": "Immagine funzionale",
+          "text": "Comunica lo scopo dell’azione.",
+          "icon": "priorita"
+        },
+        {
+          "title": "Immagine decorativa",
+          "text": "Un’alternativa vuota evita letture inutili.",
+          "icon": "linguaggio"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:301"
+      ],
+      "title": "La struttura è informazione",
+      "lead": "Titoli, elenchi, tabelle e regioni conservano relazioni reali.",
+      "points": [
+        "Un grafico può richiedere una descrizione breve e una spiegazione estesa con dati e relazioni.",
+        "Un testo grande e in grassetto non diventa automaticamente un titolo semantico.",
+        "I collegamenti indicano una destinazione o uno scopo comprensibile nel contesto."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:345"
+      ],
+      "title": "Alternative per audio e video",
+      "lead": "Un canale non sostituisce automaticamente tutti gli altri.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Sottotitoli",
+          "text": "Parlato, chi parla e suoni significativi; gli automatismi vanno verificati e corretti.",
+          "icon": "media"
+        },
+        {
+          "title": "Informazioni visive",
+          "text": "Descrivi nell’audio le informazioni rilevanti non già comunicate dalla traccia.",
+          "icon": "media"
+        }
+      ],
+      "notice": "Una trascrizione descrittiva offre un’altra modalità di fruizione, ma da sola non sostituisce il requisito di audiodescrizione AA."
+    },
+    {
+      "sourceNodes": [
+        "2811:345"
+      ],
+      "title": "Progettare anche il lettore",
+      "lead": "Le alternative si pianificano durante la produzione.",
+      "points": [
+        "1.2.2 A: sottotitoli per audio preregistrato nei contenuti sincronizzati; eccezione per media dichiarati alternativa al testo.",
+        "1.2.5 AA: audiodescrizione per informazioni visive importanti nei video preregistrati sincronizzati; se sono già nell’audio, non serve aggiungerle.",
+        "Player da tastiera, controlli comprensibili e alternative reperibili completano il percorso."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2825:328"
+      ],
+      "title": "Nome, ruolo e stato",
+      "lead": "Anche il software deve riconoscere il comando.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Nome del controllo",
+          "text": "Identifica l’azione: «Dettagli consegna».",
+          "icon": "comprensione"
+        },
+        {
+          "title": "Ruolo del controllo",
+          "text": "Indica la funzione: pulsante.",
+          "icon": "compatibilita"
+        },
+        {
+          "title": "Stato del controllo",
+          "text": "Comunica la condizione: compresso o espanso.",
+          "icon": "compatibilita"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2825:328"
+      ],
+      "title": "Collegare etichetta e nome accessibile",
+      "lead": "WCAG 2.2 · 4.1.2 e 2.5.3, livello A.",
+      "points": [
+        "Nome, ruolo, stati, proprietà e valori devono essere disponibili programmaticamente.",
+        "Se il controllo contiene testo visibile, il nome accessibile deve contenerlo: «Cerca nel catalogo» conserva «Cerca».",
+        "Preferisci controlli nativi e verifica quelli personalizzati insieme alle loro modalità di azione."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2825:372"
+      ],
+      "title": "Feedback senza perdere il punto",
+      "lead": "WCAG 2.2 · 4.1.3, livello AA.",
+      "points": [
+        "I messaggi di stato devono poter essere presentati dalle tecnologie assistive senza ricevere focus.",
+        "Esito, attesa, avanzamento o errori richiedono un riscontro comprensibile quando non cambiano il contesto.",
+        "L’annuncio non sostituisce le spiegazioni associate ai campi; non spostare il focus per ogni aggiornamento."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:384"
+      ],
+      "title": "Accessibilità cognitiva",
+      "lead": "Orientamento, memoria, linguaggio e attenzione fanno parte del compito.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Indagare i bisogni",
+          "text": "Non ricavare un profilo completo da una diagnosi.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Osservare le difficoltà",
+          "text": "Registra esitazioni, perdita del filo e aiuti richiesti.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Integrare le WCAG",
+          "text": "COGA propone indicazioni supplementari per contenuti comprensibili e utilizzabili.",
+          "icon": "comprensione"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:429"
+      ],
+      "title": "Riconoscere, capire, ricordare",
+      "lead": "Rendi disponibili le informazioni nel momento in cui servono.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Parole chiare",
+          "text": "Termini comuni e istruzioni brevi vicine all’azione.",
+          "icon": "comprensione"
+        },
+        {
+          "title": "Contesto visibile",
+          "text": "Passi, riepilogo e correzione senza ricominciare.",
+          "icon": "comprensione"
+        },
+        {
+          "title": "Preparare il compito",
+          "text": "Documenti richiesti, tempo stimato e sequenza delle fasi.",
+          "icon": "priorita"
+        }
+      ],
+      "notice": "Sono indicazioni COGA: sostengono il progetto e non sono tutte requisiti di conformità WCAG."
+    },
+    {
+      "sourceNodes": [
+        "2811:470"
+      ],
+      "title": "Controllare movimento e aggiornamenti",
+      "lead": "WCAG 2.2 · 2.2.2, livello A.",
+      "points": [
+        "Per movimento automatico, lampeggiante o scorrevole oltre cinque secondi, presentato insieme ad altri contenuti, prevedi pausa, arresto o nascondimento, salvo essenzialità.",
+        "Per aggiornamenti automatici in parallelo è previsto anche il controllo della frequenza; non si usa la soglia di cinque secondi."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:470"
+      ],
+      "title": "Animazioni, interruzioni e flash",
+      "lead": "Sono verifiche differenti.",
+      "points": [
+        "2.3.3 AAA: le animazioni di movimento attivate dall’interazione possono essere disabilitate, salvo quelle essenziali.",
+        "Rispetta il movimento ridotto e mantieni comprensibile il riscontro statico; COGA raccomanda di limitare le interruzioni.",
+        "I flash richiedono la verifica distinta del criterio 2.3.1 A: pausa e movimento ridotto non la sostituiscono."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:516"
+      ],
+      "title": "Fermarsi e riprendere",
+      "lead": "Un’interruzione non dovrebbe cancellare lavoro e contesto.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Conservare il lavoro",
+          "text": "Salva progressivamente quando possibile e sicuro; rendi evidente l’esito.",
+          "icon": "moduli"
+        },
+        {
+          "title": "Gestire le scadenze",
+          "text": "2.2.1 A: disattivare, regolare o estendere nei modi previsti dal criterio.",
+          "icon": "tempo"
+        },
+        {
+          "title": "Ritrovare il contesto",
+          "text": "Mostra l’ultimo passo, i dati e l’azione successiva.",
+          "icon": "comprensione"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:516"
+      ],
+      "title": "Leggere i limiti del requisito",
+      "lead": "Le modalità precise dipendono dal criterio.",
+      "points": [
+        "2.2.1 prevede eccezioni per eventi in tempo reale, limiti essenziali e limiti superiori a venti ore.",
+        "COGA sostiene la prevenzione della perdita dei dati.",
+        "Salvare fra sessioni è una scelta distinta da 3.3.7, che riguarda le informazioni già fornite nello stesso processo."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:556"
+      ],
+      "title": "Moduli: istruzioni ed errori",
+      "lead": "Comprendere, compilare e correggere senza perdere il percorso.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Etichette persistenti",
+          "text": "Il placeholder può dare un esempio, ma non sostituisce l’etichetta.",
+          "icon": "moduli"
+        },
+        {
+          "title": "Errori in testo",
+          "text": "Identifica il campo e spiega il problema; suggerisci una correzione quando nota e appropriata.",
+          "icon": "moduli"
+        },
+        {
+          "title": "Dati validi conservati",
+          "text": "Rendi raggiungibili le spiegazioni senza cancellare le altre informazioni.",
+          "icon": "moduli"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:556"
+      ],
+      "title": "Controllare prima di confermare",
+      "lead": "WCAG 2.2 · 3.3.4, livello AA.",
+      "points": [
+        "Per le operazioni previste, serve almeno una possibilità: invio reversibile, controllo e correzione dei dati, oppure revisione e conferma prima del completamento.",
+        "Il criterio comprende impegni giuridici, transazioni finanziarie e modifiche o cancellazioni di dati controllabili dall’utente.",
+        "I campi obbligatori devono essere riconoscibili senza affidarsi solo al colore."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:600"
+      ],
+      "title": "Autenticazione e dati ripetuti",
+      "lead": "Memoria e trascrizione possono creare barriere.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Evitare la reinserzione",
+          "text": "3.3.7 A: informazioni già fornite nello stesso processo precompilate o selezionabili.",
+          "icon": "moduli"
+        },
+        {
+          "title": "Consentire assistenza",
+          "text": "3.3.8 AA: alternativa o assistenza per un test cognitivo nell’autenticazione, con le eccezioni previste.",
+          "icon": "moduli"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:600"
+      ],
+      "title": "Verificare tutto il percorso di accesso",
+      "lead": "Password, recupero account e più fattori vanno considerati insieme.",
+      "points": [
+        "3.3.7 non richiede conservazione fra sessioni; eccezioni per essenzialità, sicurezza o dati non più validi.",
+        "Compatibilità con gestori di password e incolla riducono memoria e trascrizione; il criterio non vieta le password.",
+        "3.3.9 AAA non ammette le eccezioni AA per riconoscimento di oggetti o contenuti personali."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:639"
+      ],
+      "title": "Personalizzare senza escludere",
+      "lead": "Le preferenze sostengono una base già utilizzabile.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Una base utilizzabile",
+          "text": "Una preferenza non corregge da sola una versione predefinita illeggibile.",
+          "icon": "preferenze"
+        },
+        {
+          "title": "Scelte pertinenti",
+          "text": "Testo, contrasto, suoni, animazioni e densità: spiega effetto e ripristino.",
+          "icon": "preferenze"
+        },
+        {
+          "title": "Esperienze equivalenti",
+          "text": "Modalità diverse conservano informazioni e azioni essenziali.",
+          "icon": "inclusione"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:639"
+      ],
+      "title": "Aiuto facile da trovare",
+      "lead": "COGA raccomanda accesso semplice al supporto durante il compito.",
+      "points": [
+        "Quando i meccanismi di aiuto previsti ricorrono su pagine dello stesso insieme, 3.2.6 A richiede lo stesso ordine relativo, salvo modifica avviata dall’utente.",
+        "Il criterio non impone di introdurre un servizio di assistenza.",
+        "Prova le preferenze con browser, sistema e persone; una modalità per categoria non rappresenta tutte le preferenze."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:685"
+      ],
+      "title": "Lingua e rappresentazione",
+      "lead": "Un servizio deve riconoscere differenze reali.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Nomi personali",
+          "text": "Evita assunzioni rigide su parti, ordine, lunghezza e caratteri.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Lingua dichiarata",
+          "text": "Pagina e passaggi in altre lingue vanno identificati quando richiesto.",
+          "icon": "comprensione"
+        },
+        {
+          "title": "Rappresentare le persone",
+          "text": "Immagini e categorie non permettono di dedurre abilità o bisogni.",
+          "icon": "inclusione"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:725"
+      ],
+      "title": "WCAG 2.2: focus e azioni",
+      "lead": "Associa ciascuna decisione al criterio e al livello.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Focus non oscurato",
+          "text": "2.4.11 AA: il componente focalizzato non deve essere interamente nascosto da contenuti dell’autore. 2.4.12 AAA: nessuna parte nascosta.",
+          "icon": "tastiera"
+        },
+        {
+          "title": "Azioni e bersagli",
+          "text": "2.5.7 e 2.5.8 AA: alternativa al trascinamento e dimensioni o spaziatura, con le rispettive eccezioni.",
+          "icon": "tastiera"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:725"
+      ],
+      "title": "WCAG 2.2: dati e autenticazione",
+      "lead": "Verifica il comportamento concreto del processo.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Dati ripetuti",
+          "text": "3.3.7 A: rendi disponibili informazioni già fornite nello stesso processo, salvo eccezioni.",
+          "icon": "moduli"
+        },
+        {
+          "title": "Accesso assistito",
+          "text": "3.3.8 AA: verifica richieste cognitive, alternativa e assistenza lungo l’accesso.",
+          "icon": "moduli"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:773"
+      ],
+      "title": "Conformità e qualità dell’esperienza",
+      "lead": "La verifica deve esplicitare il proprio ambito.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Processi completi",
+          "text": "Una sola schermata corretta non dimostra la conformità del sito.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Livello e ambito",
+          "text": "Versione, livello, pagine, funzioni, metodi, data e limiti.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Bisogni delle persone",
+          "text": "Audit dei criteri e prove d’uso si affiancano: rilevano barriere diverse.",
+          "icon": "inclusione"
+        }
+      ],
+      "notice": "Il numero di errori automatici non è una percentuale universale di accessibilità."
+    },
+    {
+      "sourceNodes": [
+        "2811:812"
+      ],
+      "title": "Valutare con strumenti e persone",
+      "lead": "Combina metodi che rilevano barriere differenti.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Controlli automatici",
+          "text": "Individuano alcuni problemi; non giudicano da soli pertinenza e accessibilità.",
+          "icon": "compatibilita"
+        },
+        {
+          "title": "Verifiche manuali",
+          "text": "Struttura, contenuti, tastiera, focus, ingrandimenti, errori e alternative.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Prove d’uso",
+          "text": "Compiti realistici con strumenti e modalità differenti; registra ostacoli e conseguenze.",
+          "icon": "inclusione"
+        }
+      ],
+      "tools": [
+        {
+          "label": "WAVE · Estensione browser",
+          "href": "https://wave.webaim.org/extension/",
+          "usage": "Individua problemi automatici sul tuo progetto, anche in locale."
+        },
+        {
+          "label": "Accessibility Insights · FastPass",
+          "href": "https://accessibilityinsights.io/docs/web/getstarted/fastpass/",
+          "usage": "Visualizza il percorso di Tab e controlla l’ordine del focus."
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:812"
+      ],
+      "title": "WAI: risorse per la valutazione",
+      "lead": "Web Accessibility Initiative è l’iniziativa del W3C per l’accessibilità.",
+      "points": [
+        "Evaluation Tools: repertorio degli strumenti.",
+        "Easy Checks: controlli preliminari, senza sostituire un audit completo.",
+        "Involving Users in Evaluation: guida alle prove con persone; una persona non rappresenta tutta una categoria."
+      ],
+      "links": [
+        {
+          "label": "Evaluation Tools",
+          "href": "https://www.w3.org/WAI/test-evaluate/tools/list/"
+        },
+        {
+          "label": "Easy Checks",
+          "href": "https://www.w3.org/WAI/test-evaluate/preliminary/"
+        },
+        {
+          "label": "Involving Users in Evaluation",
+          "href": "https://www.w3.org/WAI/test-evaluate/involving-users/"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:857"
+      ],
+      "title": "Dalla ricerca alla correzione",
+      "lead": "La partecipazione è utile durante tutto il progetto.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Definire i compiti",
+          "text": "Obiettivi realistici; capacità, conoscenze e dispositivi impliciti.",
+          "icon": "priorita"
+        },
+        {
+          "title": "Preparare le prove",
+          "text": "Materiali, tempi, supporti e tecnologie assistive concordati.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Verificare di nuovo",
+          "text": "Distingui osservazioni e ipotesi, correggi e riprova il percorso.",
+          "icon": "verifica"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:857"
+      ],
+      "title": "Supporti e consenso comprensibile",
+      "lead": "La partecipazione è volontaria e si può interrompere.",
+      "points": [
+        "Spiega scopo, attività, dati raccolti e loro uso; verifica la comprensione e ottieni il consenso.",
+        "Concorda pause e supporti con la persona, senza dedurli dalla sola disabilità.",
+        "Registra compito, contesto, comportamento osservato, conseguenza e modifica proposta."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:897"
+      ],
+      "title": "The Last of Us Part II · controlli",
+      "lead": "Rimappatura, schemi per una mano e alternative alle pressioni ripetute o prolungate.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-tlou-controlli"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:897"
+      ],
+      "title": "Configurazioni iniziali, scelte personali",
+      "lead": "Il gioco documenta più di sessanta impostazioni di accessibilità.",
+      "points": [
+        "Tre configurazioni iniziali riguardano esigenze visive, uditive e motorie.",
+        "Le singole opzioni restano modificabili.",
+        "Un preset è un punto di partenza, senza rappresentare il profilo completo di una persona."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:937"
+      ],
+      "title": "The Last of Us Part II · percezione",
+      "lead": "Presentazione ad alto contrasto e informazioni su più canali.",
+      "points": [],
+      "images": [
+        {
+          "asset": "l05-tlou-contrasto"
+        }
+      ]
+    },
+    {
+      "sourceNodes": [
+        "2811:937"
+      ],
+      "title": "Leggere il caso con precisione",
+      "lead": "Le alternative devono essere configurabili e verificate nei compiti.",
+      "points": [
+        "HUD regolabile, ingrandimento, text-to-speech, sottotitoli personalizzabili e segnali audio rispondono a funzioni diverse.",
+        "La presenza delle funzioni non dimostra che ogni persona possa usare ogni parte del gioco.",
+        "Questo caso non costituisce una valutazione di conformità WCAG, che riguarda i contenuti web."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3515"
+      ],
+      "title": "Pratiche essenziali · contenuti",
+      "lead": "Accessibilità e usabilità vanno affrontate insieme.",
+      "points": [
+        "Risolvi i problemi di usabilità che confondono gli utenti.",
+        "Fornisci alternative pertinenti alle immagini informative e ignora quelle decorative.",
+        "Usa una gerarchia semantica chiara per titoli e contenuti."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3515"
+      ],
+      "title": "Pratiche essenziali · interazione",
+      "lead": "La struttura permette percorsi di lettura differenti.",
+      "points": [
+        "Associa etichette e campi; rendi i contenuti navigabili da tastiera.",
+        "Offri salti dei blocchi ripetuti e scegli componenti progettati con criteri di accessibilità.",
+        "Chi usa uno screen reader può esplorare titoli, link e regioni senza ascoltare tutta la pagina in sequenza."
+      ]
+    },
+    {
+      "sourceNodes": [
+        "198:3934"
+      ],
+      "title": "Verificare l’inclusione",
+      "lead": "Ricerca, prove d’uso e criteri tecnici attraversano tutto il progetto.",
+      "points": [],
+      "cards": [
+        {
+          "title": "Ricercare",
+          "text": "Coinvolgi persone con capacità e modalità d’uso differenti.",
+          "icon": "inclusione"
+        },
+        {
+          "title": "Osservare",
+          "text": "Usa compiti realistici e registra gli ostacoli al completamento.",
+          "icon": "verifica"
+        },
+        {
+          "title": "Verificare",
+          "text": "Affianca WCAG e prove d’uso; gli automatismi coprono solo parte dei requisiti.",
+          "icon": "verifica"
+        }
+      ],
+      "notice": "Capire, ricordare, riprendere: COGA integra le WCAG. Gli ostacoli osservati diventano requisiti e domande nella fase Define."
+    }
+  ]
+}

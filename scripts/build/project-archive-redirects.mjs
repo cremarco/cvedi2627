@@ -1,6 +1,6 @@
 import { cp, mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
-import { projectArchiveURL } from '../../utils/project-archive.mjs'
+import { projectArchiveURL } from '../lib/project-archive.mjs'
 
 export async function copyProjectArchiveRedirects(output, base) {
   const legacyPrefix = `${base}project/`
@@ -28,5 +28,5 @@ export async function copyProjectArchiveRedirects(output, base) {
   await mkdir(path.join(output, 'project'), { recursive: true })
   await writeFile(path.join(output, 'project/index.html'), document())
   await writeFile(path.join(output, '404.html'), document(true))
-  await cp(new URL('../../home/project-redirect.js', import.meta.url), path.join(output, 'home-assets/project-redirect.js'))
+  await cp(new URL('../../progetti/home/project-redirect.js', import.meta.url), path.join(output, 'home-assets/project-redirect.js'))
 }

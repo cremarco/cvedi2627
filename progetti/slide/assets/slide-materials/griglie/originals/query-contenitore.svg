@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="360" viewBox="0 0 1120 360" role="img" aria-labelledby="title desc">
+<title id="title">La stessa finestra, due contenitori</title>
+<desc id="desc">Schema originale. Una finestra larga 1280 pixel CSS contiene due gruppi identici di schede. Nel contenitore da 320 pixel le schede sono impilate; in quello da 640 sono affiancate. La soglia è di 552 pixel CSS sul contenitore. Le larghezze sono rappresentate all’80 per cento; le quote sono simulate.</desc>
+<text x="48" y="30" class="heading" font-family="DM Sans" font-size="26" font-weight="600" fill="#162456">Una finestra · 1280 px CSS</text>
+<text x="1072" y="30" class="label" text-anchor="end" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">Schema · larghezze in scala 80%</text>
+<rect x="48" y="58" width="1024" height="264" fill="none" stroke="#e2e8f0" stroke-width="2" />
+<text x="224" y="92" class="strong" text-anchor="middle" font-family="DM Sans" font-size="24" font-weight="600" fill="#162456">320 px CSS</text>
+<text x="768" y="92" class="strong" text-anchor="middle" font-family="DM Sans" font-size="24" font-weight="600" fill="#162456">640 px CSS</text>
+<rect x="96" y="108" width="256" height="194" fill="#ffffff" stroke="#193CB8" stroke-width="2" />
+<rect x="512" y="108" width="512" height="194" fill="#ffffff" stroke="#193CB8" stroke-width="2" />
+<rect x="115.2" y="124" width="217.6" height="72" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="129.2" y="152" class="strong" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">Laboratorio A</text>
+<text x="129.2" y="179" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">6 nov · 15:00</text>
+<rect x="115.2" y="214" width="217.6" height="72" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="129.2" y="242" class="strong" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">Laboratorio B</text>
+<text x="129.2" y="269" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">13 nov · 15:00</text>
+<rect x="531.2" y="169" width="227.2" height="72" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="545.2" y="197" class="strong" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">Laboratorio A</text>
+<text x="545.2" y="224" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">6 nov · 15:00</text>
+<rect x="777.6" y="169" width="227.2" height="72" fill="#DBEAFE" stroke="#193CB8" stroke-width="2" rx="8" />
+<text x="791.6" y="197" class="strong" font-size="24" font-family="DM Sans" font-weight="600" fill="#162456">Laboratorio B</text>
+<text x="791.6" y="224" class="label" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">13 nov · 15:00</text>
+<text x="224" y="344" class="label" text-anchor="middle" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">Schede impilate</text>
+<text x="768" y="344" class="label" text-anchor="middle" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">Schede affiancate</text>
+<rect x="373" y="131" width="118" height="110" fill="#DBEAFE" rx="8" />
+<text x="432" y="166" class="label" text-anchor="middle" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">Soglia</text>
+<text x="432" y="197" class="strong" text-anchor="middle" font-family="DM Sans" font-size="24" font-weight="600" fill="#162456">552 px</text>
+<text x="432" y="226" class="label" text-anchor="middle" font-family="DM Sans" font-size="22" font-weight="400" fill="#334155">CSS</text>
+</svg>

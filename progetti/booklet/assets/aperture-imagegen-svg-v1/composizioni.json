@@ -1,0 +1,160 @@
+{
+  "versione": 1,
+  "tela": [
+    1055,
+    1491
+  ],
+  "formato_mm": [
+    170,
+    240
+  ],
+  "font": "risorse-condivise/font/editoriali/sora-variabile.ttf",
+  "licenza_font": "risorse-condivise/font/editoriali/sora-licenza.txt",
+  "capitoli": [
+    {
+      "numero": 1,
+      "nome": "01-storia",
+      "riferimento": "v2-01-storia",
+      "a_capo_dopo": 2,
+      "titolo": {
+        "x": 40,
+        "y": 374,
+        "corpo": 86,
+        "interlinea": 84,
+        "spaziatura": -2.4,
+        "limite_destro": 610
+      },
+      "codice": {
+        "x": 28,
+        "y": 263,
+        "corpo": 278,
+        "spaziatura": -10
+      }
+    },
+    {
+      "numero": 2,
+      "nome": "02-ricerca",
+      "riferimento": "v3-02-ricerca",
+      "a_capo_dopo": 2,
+      "titolo": {
+        "x": 51,
+        "y": 320,
+        "corpo": 66,
+        "interlinea": 64,
+        "spaziatura": -2,
+        "limite_destro": 610
+      },
+      "codice": {
+        "x": 35,
+        "y": 248,
+        "corpo": 256,
+        "spaziatura": -16
+      }
+    },
+    {
+      "numero": 3,
+      "nome": "03-accessibilita",
+      "riferimento": "v2-03-accessibilita",
+      "a_capo_dopo": 1,
+      "titolo": {
+        "x": 56,
+        "y": 136,
+        "corpo": 91,
+        "interlinea": 94,
+        "spaziatura": -1.7,
+        "limite_destro": 700
+      },
+      "codice": {
+        "x": 47,
+        "y": 437,
+        "corpo": 236,
+        "spaziatura": -15
+      }
+    },
+    {
+      "numero": 4,
+      "nome": "04-gestalt",
+      "riferimento": "v2-04-gestalt",
+      "a_capo_dopo": 1,
+      "titolo": {
+        "x": 49,
+        "y": 366,
+        "corpo": 84,
+        "interlinea": 77,
+        "spaziatura": -2.5,
+        "limite_destro": 580
+      },
+      "codice": {
+        "x": 32,
+        "y": 268,
+        "corpo": 292,
+        "spaziatura": -7
+      }
+    },
+    {
+      "numero": 5,
+      "nome": "05-colore",
+      "riferimento": "v2-05-colore",
+      "a_capo_dopo": 1,
+      "titolo": {
+        "x": 30,
+        "y": 328,
+        "corpo": 77,
+        "interlinea": 76,
+        "spaziatura": -1.9,
+        "limite_destro": 447,
+        "corpi_righe": [
+          77,
+          66.5
+        ]
+      },
+      "codice": {
+        "x": 23,
+        "y": 228,
+        "corpo": 244,
+        "spaziatura": -17
+      }
+    },
+    {
+      "numero": 6,
+      "nome": "06-tipografia",
+      "riferimento": "v2-06-tipografia",
+      "a_capo_dopo": 1,
+      "titolo": {
+        "x": 47,
+        "y": 169,
+        "corpo": 125,
+        "interlinea": 122,
+        "spaziatura": -2,
+        "limite_destro": 800
+      },
+      "codice": {
+        "x": 45,
+        "y": 418,
+        "corpo": 110,
+        "spaziatura": -8,
+        "colore": "#155DFC"
+      }
+    },
+    {
+      "numero": 7,
+      "nome": "07-griglie",
+      "riferimento": "v2-07-griglie",
+      "a_capo_dopo": 1,
+      "titolo": {
+        "x": 32,
+        "y": 565,
+        "corpo": 151,
+        "interlinea": 139,
+        "spaziatura": -3.3,
+        "limite_destro": 704
+      },
+      "codice": {
+        "x": 18,
+        "y": 358,
+        "corpo": 310,
+        "spaziatura": -15
+      }
+    }
+  ]
+}

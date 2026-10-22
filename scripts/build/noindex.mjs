@@ -1,7 +1,7 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { preventIndexingHTML } from '../../utils/indexing.mjs'
+import { preventIndexingHTML } from '../lib/indexing.mjs'
 import { checkIndexing } from '../check/indexing.mjs'
 
 /** Apply the policy only to generated publication copies, including archives. */

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="330" viewBox="0 0 1120 330" role="img" aria-labelledby="title desc">
+  <title id="title">La stessa width produce due ingombri diversi</title>
+  <desc id="desc">Con width di 240 pixel CSS, padding di 16 pixel e bordo di un pixel per lato, border-box produce un contenuto di 206 pixel e un ingombro di 240. Content-box produce un contenuto di 240 pixel e un ingombro di 274. Le due barre hanno la stessa scala; il margine non è rappresentato.</desc>
+  <text x="0" y="29" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">Stessa width: 240 px CSS · padding: 16 px · bordo: 1 px per lato</text>
+  <text x="0" y="89" font-family="DM Sans" font-size="28" font-weight="600" fill="#162456">border-box</text>
+  <text x="0" y="119" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">width: 240 px</text>
+  <rect x="360" y="64" width="480" height="54" fill="#193CB8" />
+  <rect x="362" y="66" width="476" height="50" fill="#E3CD13" />
+  <rect x="394" y="66" width="412" height="50" fill="#DBEAFE" />
+  <text x="600" y="100" text-anchor="middle" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">Contenuto: 206 px</text>
+  <path d="M360 125V137M360 131H840M840 125V137" fill="none" stroke="#334155" stroke-width="2" />
+  <text x="600" y="161" text-anchor="middle" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">Ingombro: 240 px</text>
+  <text x="0" y="207" font-family="DM Sans" font-size="28" font-weight="600" fill="#162456">content-box</text>
+  <text x="0" y="237" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">width: 240 px</text>
+  <rect x="360" y="182" width="548" height="54" fill="#193CB8" />
+  <rect x="362" y="184" width="544" height="50" fill="#E3CD13" />
+  <rect x="394" y="184" width="480" height="50" fill="#DBEAFE" />
+  <text x="634" y="218" text-anchor="middle" font-family="DM Sans" font-size="26" font-weight="500" fill="#162456">Contenuto: 240 px</text>
+  <path d="M360 243V255M360 249H908M908 243V255" fill="none" stroke="#334155" stroke-width="2" />
+  <text x="634" y="279" text-anchor="middle" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">Ingombro: 274 px</text>
+  <rect x="0" y="304" width="18" height="18" fill="#DBEAFE" />
+  <text x="28" y="320" font-family="DM Sans" font-size="22" font-weight="400" fill="#162456">Contenuto</text>
+  <rect x="180" y="304" width="18" height="18" fill="#E3CD13" />
+  <text x="208" y="320" font-family="DM Sans" font-size="22" font-weight="400" fill="#162456">Padding</text>
+  <rect x="340" y="304" width="18" height="18" fill="#193CB8" />
+  <text x="368" y="320" font-family="DM Sans" font-size="22" font-weight="400" fill="#162456">Bordo</text>
+  <text x="1120" y="320" text-anchor="end" font-family="DM Sans" font-size="24" font-weight="400" fill="#162456">Margine escluso</text>
+</svg>

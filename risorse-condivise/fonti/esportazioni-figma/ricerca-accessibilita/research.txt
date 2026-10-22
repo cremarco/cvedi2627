@@ -1,0 +1,1880 @@
+   3           .1
+Empathize: 
+
+comprendere utenti, contesti 
+
+e accessibilità
+
+La ricerca dà un punto di partenza alle
+decisioni di progetto: capire le persone, i loro
+obiettivi e le condizioni in cui useranno il
+servizio.
+
+
+
+Si parte da domande sui bisogni e si lavora sul campo, osservando attività
+reali e ascoltando chi usa, o potrebbe usare, il servizio. Si raccolgono
+comportamenti, difficoltà e contesti d’uso; il campione considera capacità e
+familiarità digitale diverse, per rendere visibili condizioni che il gruppo di
+progetto potrebbe trascurare.
+
+
+
+
+Le osservazioni, cioè ciò che si vede e si sente, restano distinte dalle
+interpretazioni. Le assunzioni diventano domande da verificare e il problema
+si aggiorna quando emergono nuove evidenze. Differenze culturali e barriere
+di accesso sono parte di questa ricerca: aiutano a precisare per chi e in quali
+situazioni una proposta deve funzionare.
+
+
+
+
+103
+EMPATHIZE · CASO PRENOTAZIONE
+
+Intervistare e osservare
+L’intervista aiuta a comprendere ciò che le persone raccontano; l’osservazione
+mostra come svolgono un’attività nel proprio contesto. Le due prospettive si
+completano.¹ Parti da una domanda di ricerca e da episodi concreti, usando
+domande aperte e neutrali. Evita di chiedere soltanto se un’idea piace o se
+qualcuno pensa che la userebbe.
+
+
+    Intervista                                               Osservazione
+    Episodi, motivazioni e difficoltà                        Azioni, strumenti, interruzioni
+    raccontate. Usa domande aperte                           e contesto. Osserva il processo
+    e neutrali; chiedi esempi                                reale, quando possibile e con
+    concreti.                                                consenso.
+
+
+
+    Una domanda di ricerca
+    Come viene controllata e modificata la data dell’appuntamento?
+
+Per iniziare l’intervista: «Raccontami l’ultima volta che hai dovuto spostare
+un appuntamento». È una proposta di domanda, non una risposta raccolta.
+
+Prepara una traccia, ma lascia spazio a temi inattesi. Separa azioni osservate
+e racconti. Le risposte orientano ciò che vale la pena approfondire: non
+confermano automaticamente la soluzione immaginata.
+Caso didattico. Dati e situazioni simulati.
+
+
+
+
+¹   Metodo: GOV.UK, interviste e osservazione contestuale.
+
+                                                                                               104
+EMPATHIZE · CASO PRENOTAZIONE
+
+
+Dalle osservazioni alle evidenze
+Un’evidenza deve essere rintracciabile: conserva il compito, il contesto e ciò
+che la persona ha fatto o detto. Un’interpretazione spiega un possibile
+significato; un’ipotesi suggerisce cosa verificare. Tenere distinti questi livelli
+rende più chiaro il passaggio dalla ricerca alle scelte progettuali.¹
+
+
+    01 · Comportamento simulato
+    Sara torna al calendario prima della conferma.
+
+
+
+    02 · Interpretazione possibile
+    Potrebbe voler ricontrollare data e orario; potrebbero esserci altre
+    ragioni.
+
+
+
+    03 · Ipotesi progettuale
+    Un riepilogo potrebbe facilitare il controllo. È una soluzione da esplorare.
+
+In uno studio reale, confronta episodi di più partecipanti e conserva anche i
+casi contrari. Collega ogni sintesi alle note originali. Un singolo episodio non
+dimostra quanto un problema sia diffuso; il successivo ciclo di ricerca deve
+poter mettere in discussione l’interpretazione.
+Caso didattico. Dati e situazioni simulati.
+
+
+
+
+¹   Metodo: GOV.UK, Analyse a research session.
+
+105
+Cultura, contesto e ricerca UX
+Nel 1980 Geert Hofstede pubblicò Culture’s Consequences, presentando
+quattro dimensioni per confrontare i valori culturali tra Paesi: distanza dal
+potere (PDI), individualismo/collettivismo (IDV), mascolinità/femminilità
+(MAS, da Masculinity) e avversione all’incertezza (UAI).¹
+
+
+
+L’orientamento a lungo termine (LTO) fu aggiunto con Michael Bond nel
+1988/1991; indulgenza/restrizione (IVR), con Michael Minkov nel 2010. Gli
+schemi usano indici relativi di The Culture Factor, consultati il 9 ottobre
+2026: dati aggregati, non percentuali né profili individuali.² IDV e LTO sono
+stati aggiornati nel 2023; le rilevazioni provengono da anni diversi.¹
+
+
+
+
+                 Le cinque righe contrappongono i poli del modello storico di Hofstede. Aiutano a
+       distinguere i costrutti, senza trasformare un punteggio nazionale nel profilo di un utente; il
+                                                               percorso prosegue con l’indulgenza.
+
+Una differenza visiva tra siti è un’osservazione; la sua spiegazione culturale
+resta un’ipotesi.
+
+
+
+
+¹   Hofstede, 2011 · modello; TCF · dati, consultati 09/10/2026.
+²   Brewer e Venaik, 2014 · fallacia ecologica
+
+                                                                                                        106
+   il contesto culturale nel digital design                    3 .1 .1
+
+ 01 · PDI
+
+ Distanza dal potere
+
+
+
+
+PUNTEGGIO BASSO                                       PUNTEGGIO ALTO
+Relazioni più paritarie                               Gerarchie più accettate
+                  Figure sullo stesso piano e su livelli diversi evocano parità e gerarchia. La metafora
+   107                     visualizza i poli PDI, senza descrivere il comportamento dei singoli utenti.
+il contesto culturale nel digital design                                    3 .1 .1
+
+  01 · PDI
+
+  Distanza dal potere
+  Quanto viene accettata una distribuzione diseguale del potere? Un indice
+  basso segnala aspettative più paritarie; uno alto, maggiore accettazione delle
+  gerarchie.
+  PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO
+  Rapporti più paritari                                           Gerarchie più accettate
+  Confronto tra Paesi · indice 0–100¹
+       Austria        Danimarca            Nuova                       Guatemala   Malesia        Slovacchia
+                                          Zelanda
+         11                18                22                          95         100             100
+
+
+
+
+        0                    20                   40                   60             80                100
+
+      Le posizioni sull’asse confrontano indici nazionali di accettazione delle gerarchie. Distanze e punteggi
+       sono relativi, non percentuali: suggeriscono domande sull’autorevolezza dei servizi, da verificare con
+                                                                                   persone e contesti specifici.
+
+  Nella ricerca UX, verifica quali ruoli, competenze e segnali rendono
+  autorevole il servizio per i suoi pubblici.
+
+
+
+  ¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+
+
+
+                                                                                                           108
+La distanza dal potere (PDI, Power Distance Index) descrive quanto i membri
+meno potenti di istituzioni e organizzazioni si aspettano e accettano una
+distribuzione diseguale del potere.¹ Nel confronto tra società, punteggi alti
+indicano maggiore accettazione delle gerarchie; punteggi bassi, una
+maggiore aspettativa di rapporti paritari e consultazione.
+
+
+
+
+Per il design, il tema diventa una domanda: come viene riconosciuta
+l’autorevolezza di un servizio? Ruoli, competenze, fonti e tono possono essere
+esplorati con gli utenti. Il punteggio nazionale non stabilisce quanta guida
+serva né quanto debba essere libera la navigazione.
+
+
+
+
+Alta distanza dal potere
+                                    Bassa distanza dal potere
+
+Ipotesi per la ricerca:
+                                     Ipotesi per la ricerca:
+
+▸ Quali ruoli e competenze rendono                           ▸ Come viene accolto un tono
+credibile il servizio?
+                                      diretto?
+
+▸ Come viene interpretato un tono                            ▸ Quali occasioni di confronto con il
+istituzionale?
+                                              servizio sono utili?
+
+▸ È utile esplicitare chi decide e chi                       ▸ Come rendere visibili le ragioni di
+risponde delle informazioni?                                 una decisione e le possibilità di
+                                                             discuterla?
+
+
+
+
+¹   Fonti: Hofstede (2011); Hofstede e Minkov, Values Survey Module 2013.
+
+
+109
+Nella schermata dell’Università Statale di Mosca, i menu organizzano
+l’accesso alle informazioni e le fotografie danno rilievo agli edifici dell’ateneo.
+Possiamo leggere questi elementi come una presentazione dell’istituzione e
+della sua identità.
+
+
+
+
+Il confronto apre una domanda sul PDI: quali segnali fanno riconoscere
+l’autorevolezza dell’università ai diversi pubblici? Il punto di vista fotografico
+e i colori, da soli, non misurano l’accettazione delle gerarchie né spiegano
+come le persone usino il sito.
+
+
+
+
+       La fotografia dell’edificio e i menu presentano l’università come istituzione riconoscibile.
+            Per il PDI, chiediamoci quali segnali rendano autorevole il servizio; il punto di vista
+                                        fotografico non misura l’accettazione delle gerarchie.
+
+                                 Homepage dell’Università Statale di Mosca · screenshot storico.
+
+
+                                                                                                      110
+Nella schermata dell’Università di Amsterdam, fotografie e notizie danno
+
+spazio a persone, giovani e attività dell’ateneo. Rispetto all’esempio
+
+precedente, cambia il modo di raccontare l’università: dagli edifici alle
+
+esperienze di chi la vive.
+
+
+
+
+
+È uno spunto per indagare quali immagini e voci rendano il servizio
+
+riconoscibile e credibile. Per confrontare i due siti occorre considerare anche
+
+destinatari e scopi delle pagine: più persone nelle immagini non dimostrano
+
+minore PDI o maggiore libertà di navigazione.
+
+
+
+
+       La pagina mette in evidenza temi, ricerca e percorsi dell’università. Nel confronto sul PDI,
+        osserviamo come costruisce credibilità e vicinanza ai suoi pubblici; la composizione non
+
+                                                            dimostra rapporti sociali più paritari.
+
+                                    Homepage dell’Università di Amsterdam · screenshot storico.
+
+
+
+111
+   il contesto culturale nel digital design                            3 .1 .1
+
+ 02 · IDV
+
+ Individualismo e
+ collettivismo
+
+
+
+
+PUNTEGGIO BASSO                                                PUNTEGGIO ALTO
+Appartenenza e lealtà al                                       Autonomia e legami meno
+gruppo                                                         vincolanti
+   Il gruppo e i percorsi separati evocano legami collettivi e autonomia. Le due metà
+   illustrano i poli IDV; non stabiliscono come ogni persona prende decisioni.          112
+il contesto culturale nel digital design                                   3 .1 .1
+
+02 · IDV
+
+Individualismo e collettivismo
+Quanto sono vincolanti i legami con i gruppi? Il polo collettivistico valorizza
+appartenenza e obblighi reciproci; quello individualistico, autonomia e
+legami meno vincolanti.
+PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO
+Appartenenza e lealtà al gruppo Autonomia e legami meno
+                                vincolanti
+Confronto tra Paesi · indice 0–100¹
+    Nigeria            Kenya          Bangladesh                     Svezia   Danimarca Paesi Bassi
+
+       0                  4                 5                         87         89             100
+
+
+
+
+      0                    20                   40                   60          80                 100
+
+             L’asse confronta indici nazionali di autonomia e legami con il gruppo. Le differenze orientano
+               domande su decisioni personali e responsabilità condivise; non misurano egoismo, privacy o
+                                                                                 preferenze di ogni utente.
+
+Nella ricerca UX, esplora chi partecipa alle decisioni e quali responsabilità
+personali o condivise emergono nel servizio.
+
+
+¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+
+
+
+113
+L’individualismo (IDV, Individualism Index) descrive il rapporto tra la
+persona e i gruppi a cui appartiene. Nel modello di Hofstede, punteggi alti
+indicano legami sociali meno vincolanti e maggiore responsabilità verso sé
+stessi e la famiglia più vicina; punteggi bassi danno più peso ad appartenenze
+durature, lealtà e obblighi reciproci.
+
+
+
+Per il design può essere utile esplorare come le persone collegano obiettivi
+personali, decisioni condivise e relazioni. L’indice nazionale non misura
+egoismo, bisogno di personalizzazione o attenzione alla privacy: la
+condivisione dei dati richiede domande specifiche sul servizio e sul contesto.
+
+
+
+
+Individualismo
+                          Collettivismo
+
+Ipotesi per la ricerca:
+                 Ipotesi per la ricerca:
+
+▸ Quali obiettivi personali guidano      ▸ Quali gruppi contano nell’uso del
+la scelta?
+                              servizio?
+
+▸ Come viene raccontato un risultato     ▸ Chi partecipa alla scelta e con quali
+individuale?
+                            responsabilità?
+
+▸ Quali decisioni la persona vuole       ▸ Come vengono riconosciuti un
+gestire direttamente e quali             risultato condiviso e gli impegni
+preferisce condividere?                  verso altre persone?
+
+
+
+
+                                                                            114
+01 · PDI                                                                                                            02 · ID     V                                                                                                      0   3 · MAS
+
+Distanza dal potere                                                                                                 Indi id         v ualismo e collettivismo                                                                          Motivazione al risultato e al successo
+Quanto viene accettata una distribuzione diseguale del potere? Un indice                                            Quanto sono vincolanti i legami con i gruppi?                      Il polo collettivistico valorizza                                                   :
+                                                                                                                                                                                                                                       Quali valori ricevono riconoscimento cooperazione e qualità della vita,
+basso segnala aspettative più paritarie; uno alto, maggiore accettazione delle                                      appartenenza e obblighi reciproci;                     quello individualistico, autonomia e                        oppure competizione e successo? È la dimensione storicamente chiamata
+gerarchie.                                                                                                          legami meno vincolanti.                                                                                            «mascolinità/femminilità», oggi rinominata da The Culture Factor.
+PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO                                      PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO                                     PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO
+
+
+Rapporti più paritari                                           Gerarchie più accettate                             Appartenenza e lealt                  à al gruppo               A    utonomia e legami meno                        Cooperazione e                qualità della                     Competizione e riconoscimento
+Confronto tra Paesi · indice 0–100¹
+                                                                                                                                                                                    vincolanti                                         vita                                                            del successo
+
+
+                                                                                                                    Confronto tra Paesi · indice 0–100¹                                                                                Confronto tra Paesi · indice 0–100¹
+     Austria          Danimarca           Nuova                      Guatemala     Malesia         Slovacchia
+
+                                        Zelanda
+                                                                                                                         Ni   geria           Kenya       Bangladesh                            z
+                                                                                                                                                                                           Sve ia     Danimarca       Paesi Bassi                 z
+                                                                                                                                                                                                                                             Sve ia         Norve    gia       Lettonia                     Ungheria        Gia   ppone      Slovacchia
+
+
+          11              18               22                          95          100               100
+                                                                                                                              0                4                5                           8   7         89             100                   5                 8                 9                           88               95             100
+
+
+
+
+          0                 20                    40                 60              80                  100
+
+
+                                                                                                                          0                      20                 40                    60              80                  100             0                   20                   40                    60                 80                 100
+
+    Le posizioni sull’asse confrontano indici nazionali di accettazione delle gerarchie. Distanze e punteggi
+
+     sono relativi, non percentuali: suggeriscono domande sull’autorevolezza dei servizi, da verificare con
+                                                                                                                                  L’asse confronta indici nazionali di autonomia e legami con il gruppo. Le differenze orientano       L’asse confronta il peso relativo di cooperazione e         qualità della vita rispetto a competizione e successo. I
+                                                                                   persone e contesti specifici.
+                                                                                                                                      domande su decisioni personali e responsa ilitb à condivise; non misurano egoismo, privacy o          punteggi aiutano a formulare domande sui valori comunicati, senza descrivere genere o personalit .           à
+¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).                                                                                                                                        preferenze di ogni utente.
+                                                                                                                                                                                                                                       ¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+                                                                                                                    ¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+Nella ricerca UX, verifica quali ruoli, competenze e segnali rendono                                                                                                                                                                   Nella ricerca UX, verifica quali valori esprimono messaggi e immagini e
+autorevole il servizio per i suoi pubblici.                                                                         Nella ricerca UX, esplora chi partecipa alle decisioni e quali responsabilità                                      come vengono interpretati dalle persone coinvolte.
+
+                                                                                                                    personali o condivise emergono nel servizio.
+
+
+
+
+0   4 · UAI                                                                                                         05 · LTO                                                                                                           0   6 · I VR
+
+A     vversione all’incertezza                                                                                      Orienta                    mento a lungo termine                                                                   Ind            ulgenza e restrizione
+Quanto le situazioni ambigue o sconosciute generano disagio? Un indice                                              Quale peso hanno tradizioni e norme rispetto ad adattamento e preparazione                                         Quanto spazio viene riconosciuto al godersi la vita?                           La restrizione enfatizza il
+                                                          ’               à
+basso indica maggiore tolleranza dell ambiguit ; uno alto, maggiore bisogno                                         del    futuro? Il polo a lungo termine valorizza pragmatismo, perseveranza e                                                                                               ’
+                                                                                                                                                                                                                                       controllo attraverso norme sociali; l indulgenza ammette una grati                                   ficazione
+di prevedibilit .       à Non misura l’avversione al rischio.                                                       parsimonia.                                                                                                        relativamente libera.
+
+
+PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO                                      PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO                                     PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO
+
+
+Maggiore tolleranza                                             Maggiore disagio verso                              Contin          uità con norme e                                Adatta mento e preparazione                        Controllo          mediante norme                               Grati   ficazione relativamente
+dell’ambiguità                                                  l’ambiguità                                         tradizioni                                                      del futuro                                         sociali                                                          bera
+                                                                                                                                                                                                                                                                                                       li
+
+
+Confronto tra Paesi · indice 0–100¹                                                                                 Confronto tra Paesi · indice 0–100¹                                                                                Confronto tra Paesi · indice 0–100¹
+
+
+
+      gapore
+    Sin               Danimarca               z
+                                          Sve ia                      Uruguay    Portogallo          Grecia             Venezuela            Ghana             Perù                        Taiwan     Hong Kong        Gia   ppone           Egitto          Pakistan           Libano                      Portorico         Messico        Venezuela
+
+
+          8              2  3              29                          98           99               100                      0                 1               5                           8   7         9  3           100                   0                 0                10                           90               9  7           100
+
+
+
+
+          0                 20                    40                 60              80                  100              0                      20                 40                    60              80                  100             0                   20                   40                    60                 80                 100
+
+
+
+
+                                                                                b
+              Le posizioni confrontano il disagio collettivo verso situazioni am igue. I punteggi suggeriscono                  L’asse confronta continuit  à con norme e tradizioni con adattamento e preparazione del futuro. I                 Le posizioni confrontano controllo tramite norme sociali e gratificazione relativamente li era.   b     I
+     verifiche su familiarit  à e prevedibilità del servizio; non indicano percentuali di utenti né propensione                                                                       b                 ;
+                                                                                                                                punteggi suggeriscono domande su impegni e cam iamento nel tempo non prescrivono sconti,                   punteggi aprono domande su aspettative e vincoli nel contesto d’uso, senza misurare felicit         à o desideri
+                                                                                          individuale al rischio.                                                                                                 q
+                                                                                                                                                                                                      pulsanti o ac uisti immediati.                                                                                                 delle singole persone.
+
+
+¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).                                                  ¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).                                                 ¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+
+
+
+Nella ricerca UX, osserva quali passaggi risultano ambigui e quali                                                  Nella ricerca UX, esplora come le persone valutano benefici futuri, impegni                                        Nella ricerca UX, verifica quali attività e messaggi risultano appropriati nel
+informazioni consentono di capire condizioni, conseguenze e azioni                                                  presenti e cambiamenti nelle pratiche del servizio.                                                                contesto d’uso e quali vincoli sociali incidono sul servizio.
+01 · PDI                                                                                        02 · IDV                                                                                      03 · MAS
+
+
+
+
+Distanza dal potere                                                                             Individualismo e                                                                              Motivazione al risultato
+
+                                                                                                collettivismo                                                                                 e al successo
+    PARI                                                            LIVELLI
+                                                                                                                                                                                                   INSIEME                                                        PRIMI
+                                                                                                    NOI                                                             IO
+
+
+
+    Relazioni più paritarie                                         Gerarchie più accettate
+
+
+
+
+                                                                                                    Appartenenza e lealtà al                                        Autonomia e legami meno        Cooperazione e qualità della                                   Competizione e
+
+    PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO                  gruppo                                                          vincolanti                     vita                                                           riconoscimento del successo
+
+
+
+
+Metafore dei due poli. Gli indici descrivono tendenze aggregate:
+
+                                                                                                    PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO                 PUNTEGGIO BASSO                                                PUNTEGGIO ALTO
+le domande di progetto vanno verificate con le persone.
+
+
+
+
+                                                                                                Metafore dei due poli. Gli indici descrivono tendenze aggregate:
+                             Metafore dei due poli. Gli indici descrivono tendenze aggregate:
+
+
+                                                                                                le domande di progetto vanno verificate con le persone.                                       le domande di progetto vanno verificate con le persone.
+
+
+
+
+04 · UAI                                                                                        05 · LTO                                                                                      0   6 · IVR
+
+
+Avversione all’incertezza                                                                       Orientamento a lungo                                                                          Indulgenza e restrizione
+
+                                                                                                termine
+    APERTURA                                                        ORDINE                                                                                                                         C   ONTENERE                                                   ESPRIMERE
+
+
+                                                                                                    RADICI                                                          ORIZZONTI
+
+
+
+
+    Tolleranza dell’ambiguità                                       Disagio verso l’ambiguità                                                                                                      Controllo mediante norme                                       Gratificazione relativamente
+                                                                                                                                                                                                   sociali                                                        libera
+
+
+                                                                                                    Continuità con norme e                                          Adattamento e
+
+    PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO                  tradizioni                                                      preparazione del futuro        PUNTEGGIO BASSO                                                PUNTEGGIO ALTO
+
+
+
+
+Metafore dei due poli. Gli indici descrivono tendenze aggregate:
+                                                                                                                             Metafore dei due poli. Gli indici descrivono tendenze aggregate:
+
+                                                                                                    PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO
+le domande di progetto vanno verificate con le persone.                                                                                                                                       le domande di progetto vanno verificate con le persone.
+
+
+
+
+                                                                                                Metafore dei due poli. Gli indici descrivono tendenze aggregate:
+
+
+                                                                                                le domande di progetto vanno verificate con le persone.
+La schermata di Greyhound mette in primo piano la ricerca di un viaggio.
+L’accesso al profilo, il recupero della prenotazione, la ricerca della fermata e il
+tracciamento del bus affiancano l’invito a scaricare l’app tramite codice QR.
+
+
+
+Sono funzioni legate a compiti personali del viaggiatore. Offrono un caso per
+chiedersi chi organizza il viaggio e quali decisioni condivide con altre
+persone. La loro presenza non dimostra un orientamento individualistico del
+pubblico: conta anche la natura del servizio.
+
+
+
+
+       Ricerca del viaggio, prenotazione e app organizzano compiti del viaggiatore. L’IDV suggerisce di
+      indagare chi decide e con chi condivide il viaggio; queste funzioni dipendono anche dalla natura
+                                                                                            del servizio.
+
+                  Homepage di Greyhound: ricerca del viaggio e servizi per l’utente · screenshot storico.
+
+115
+Nella schermata di Kowloon Motor Bus, a Hong Kong, compaiono il viaggio
+con animali domestici, una fotografia dello staff, assistenza e contatti
+telefonici. L’acquisto del biglietto resta tra le azioni principali.
+
+
+
+Questi elementi permettono di discutere come un servizio rappresenti
+clienti, personale e relazioni di supporto. Per interpretarli occorre conoscere
+destinatari e obiettivi della comunicazione: una fotografia di gruppo o l’uso
+del plurale non bastano a dimostrare valori collettivistici degli utenti.
+
+
+
+
+   Il banner per animali, la fotografia dello staff e i contatti affiancano il viaggio. Per l’IDV, esploriamo
+       quali relazioni sostiene il servizio; fotografie di gruppo e plurali non provano valori collettivistici.
+
+             Homepage di Kowloon Motor Bus: informazioni e servizi alla comunità · screenshot storico.
+
+
+
+                                                                                                           116
+   il contesto culturale nel digital design                       3 .1 .1
+
+ 03 · MAS
+
+ Motivazione al risultato
+ e al successo
+
+
+
+
+PUNTEGGIO BASSO                                          PUNTEGGIO ALTO
+Cooperazione e qualità della                             Competizione e riconoscimento
+vita                                                     del successo
+            Il ponte costruito insieme e le salite parallele rappresentano cooperazione e riconoscimento
+   117                      dei risultati. Sono metafore del MAS, non ruoli legati al genere delle persone.
+il contesto culturale nel digital design                                  3 .1 .1
+
+  03 · MAS
+
+  Motivazione al risultato e al successo
+  Quali valori ricevono riconoscimento: cooperazione e qualità della vita,
+  oppure competizione e successo? MAS (masculinity) è il nome storico della
+  dimensione; The Culture Factor usa oggi «motivazione al risultato e al
+  successo».
+  PUNTEGGIO BASSO                                               PUNTEGGIO ALTO
+  Cooperazione e qualità della                                  Competizione e riconoscimento
+  vita                                                          del successo
+  Confronto tra Paesi · indice 0–100¹
+      Svezia         Norvegia           Lettonia                     Ungheria   Giappone        Slovacchia
+
+        5                 8                 9                         88            95            100
+
+
+
+
+       0                   20                   40                   60             80                100
+
+  L’asse confronta il peso relativo di cooperazione e qualità della vita rispetto a competizione e successo. I
+     punteggi aiutano a formulare domande sui valori comunicati, senza descrivere genere o personalità.
+
+  Nella ricerca UX, verifica quali valori esprimono messaggi e immagini e
+  come vengono interpretati dalle persone coinvolte.
+
+
+  ¹   The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+
+
+                                                                                                         118
+La sigla MAS (masculinity) riprende il nome storico della dimensione
+«mascolinità/femminilità». The Culture Factor la chiama oggi «motivazione
+al risultato e al successo», mantenendone punteggi e significato. Il confronto
+riguarda il peso di competizione, risultati e successo materiale rispetto a
+cooperazione, cura e qualità della vita.
+
+
+
+Il nome storico riflette la terminologia di Hofstede. L’indice descrive valori a
+livello sociale; non misura il genere o le emozioni dei singoli utenti. Per il
+design suggerisce domande su come vengono interpretati messaggi di
+prestazione, riconoscimento, relazioni e benessere condiviso.
+
+
+
+
+Competizione e risultati
+                  Cooperazione e qualità della
+Ipotesi per la ricerca:
+                   vita
+
+▸ Quali traguardi ricevono                 Ipotesi per la ricerca:
+
+riconoscimento?
+                           ▸ Quali relazioni sostiene il servizio?
+
+▸ Come vengono raccontate                  ▸ Come vengono rappresentati cura
+prestazioni e successo?
+                   e cooperazione?
+
+▸ Il confronto tra risultati è utile nel   ▸ Quali aspetti del benessere
+compito e per il pubblico del              condiviso contano per le persone
+servizio?                                  coinvolte?
+
+
+
+
+119
+Nella schermata del sito web del governo giapponese, notizie e anteprime
+
+presentano obiettivi raggiunti, investimenti e contributi del Paese a temi
+
+globali.
+
+
+
+
+
+Per discutere il MAS, osserviamo quali valori emergono e chiediamoci quale
+
+spazio ricevano anche sostenibilità e qualità della vita. La funzione del sito e
+
+il pubblico previsto sono centrali: la promozione di un Paese può spiegare
+
+l’enfasi sui suoi successi. Il confronto richiede contenuti e periodi di
+
+pubblicazione comparabili.
+
+
+
+
+                  Notizie e anteprime raccontano contributi, attività e temi del Paese. Il MAS invita a
+             confrontare riconoscimento dei risultati e qualità della vita, considerando anche finalità
+
+                                                         editoriali, destinatari e periodo della pagina.
+
+                                      Homepage del sito del governo giapponese · screenshot storico.
+
+
+
+                                                                                                            120
+Nella schermata del sito del governo svedese, la notizia iniziale riguarda la
+comunità LGBTQ+; altre immagini mostrano relazioni tra generazioni e
+attività di sostegno reciproco. Cura e benessere collettivo sono temi utili per
+discutere il polo della cooperazione e della qualità della vita del MAS.
+
+
+
+La selezione editoriale documenta però ciò che questa pagina sceglie di
+mostrare. Per interpretarla insieme all’esempio giapponese vanno
+considerati finalità, destinatari e momento della pubblicazione, oltre ai valori
+evocati dalle immagini.
+
+
+
+
+      Diritti LGBTQ+ e immagini di cura rendono visibili temi di benessere condiviso. Nel MAS sono
+         spunti sul polo della cooperazione; una selezione editoriale non descrive tutti i valori della
+                                                                                               società.
+
+                                         Homepage del sito del governo svedese · screenshot storico.
+
+121
+   il contesto culturale nel digital design                           3 .1 .1
+
+ 04 · UAI
+
+ Avversione all’incertezza
+
+
+
+
+PUNTEGGIO BASSO                                               PUNTEGGIO ALTO
+Tolleranza dell’ambiguità                                     Disagio verso l’ambiguità
+   Percorsi aperti e riferimenti ripetuti evocano tolleranza dell’ambiguità e ricerca di
+   prevedibilità. La metafora riguarda UAI: non contrappone creatività a obbedienza né     122
+   misura il rischio.
+il contesto culturale nel digital design                                  3 .1 .1
+
+04 · UAI
+
+Avversione all’incertezza
+Quanto le situazioni ambigue o sconosciute generano disagio? Un indice
+basso indica maggiore tolleranza dell’ambiguità; uno alto, maggiore bisogno
+di prevedibilità. Non misura l’avversione al rischio.
+PUNTEGGIO BASSO                                                PUNTEGGIO ALTO
+Maggiore tolleranza                                            Maggiore disagio verso
+dell’ambiguità                                                 l’ambiguità
+Confronto tra Paesi · indice 0–100¹
+    Singapore Danimarca                  Svezia                     Uruguay     Portogallo         Grecia
+
+       8               23                 29                         98            99              100
+
+
+
+
+      0                   20                   40                   60              80                 100
+
+           Le posizioni confrontano il disagio collettivo verso situazioni ambigue. I punteggi suggeriscono
+     verifiche su familiarità e prevedibilità del servizio; non indicano percentuali di utenti né propensione
+                                                                                        individuale al rischio.
+
+Nella ricerca UX, osserva quali passaggi risultano ambigui e quali
+informazioni consentono di capire condizioni, conseguenze e azioni
+successive.
+
+¹    The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+
+
+
+123
+L’avversione all’incertezza (UAI, Uncertainty Avoidance Index) indica quanto,
+in una società, le situazioni ambigue o sconosciute sono vissute come una
+minaccia. Punteggi alti segnalano un maggiore disagio verso l’ambiguità;
+punteggi bassi, una maggiore tolleranza. L’indice descrive una tendenza
+collettiva: non misura l’avversione al rischio, la creatività o il rispetto delle
+regole delle singole persone.
+
+
+
+Nella progettazione offre uno spunto per indagare quanto contino familiarità,
+prevedibilità e interpretazione di elementi nuovi. La ricerca deve però
+distinguere queste aspettative dagli effetti di esperienza, compito e posta in
+gioco. Alcune soluzioni, come prezzi chiari, feedback tempestivi e possibilità
+di recuperare dagli errori, sono utili a pubblici diversi.
+
+
+
+Alta avversione all’incertezza
+            Bassa avversione
+Ipotesi per la ricerca:
+                   all’incertezza
+
+▸ Quali passaggi risultano ambigui?
+       Ipotesi per la ricerca:
+
+▸ Etichette e riferimenti sono             ▸ Come vengono interpretati
+familiari?
+                                elementi nuovi?
+
+▸ Quali informazioni servono per           ▸ Quali percorsi di esplorazione
+capire condizioni, conseguenze e           risultano utili?
+
+passo successivo di un’azione?             ▸ Quando la varietà facilita la
+                                           scoperta e quando ostacola il
+                                           compito da svolgere?
+
+
+
+
+                                                                              124
+Nella schermata di KFC in Bielorussia, prezzi e percentuali di sconto
+compaiono in una struttura regolare; il menu dei prodotti è disponibile nella
+stessa pagina. Sono informazioni che possono sostenere il confronto tra
+offerte.
+
+
+
+Per discutere lo UAI possiamo chiedere quali dubbi restino prima
+dell’acquisto e se questi contenuti aiutino a risolverli. Promozioni e
+organizzazione del menu dipendono anche da obiettivi commerciali: la
+schermata, da sola, non rivela il disagio degli utenti verso l’ambiguità.
+
+
+
+
+          Prezzi, sconto e categorie permettono di confrontare l’offerta nella pagina. Per lo UAI,
+        verifichiamo quali dubbi risolvono e quali restano; la struttura regolare non dimostra il
+                                                            bisogno di prevedibilità degli utenti.
+
+                                           Homepage di KFC in Bielorussia · screenshot storico.
+
+
+125
+Nella schermata di KFC in Danimarca, lo slogan, la fotografia del prodotto e il
+prezzo «49» danno rilievo a una promozione. Seguono sezioni per ordinare
+online e per le opportunità di lavoro.
+
+
+
+Il confronto sullo UAI invita a verificare quali informazioni rendano l’offerta
+comprensibile e quali dubbi restino prima della scelta. La campagna e il
+compito incidono sulle informazioni necessarie: una fotografia ampia o la
+quantità di contenuti non misurano il disagio verso l’ambiguità del pubblico.
+
+
+
+
+       La fotografia principale, lo slogan e il prezzo concentrano l’attenzione sull’offerta. Lo UAI
+       suggerisce di chiedere quali informazioni servano prima della scelta; pochi contenuti non
+                                                   dimostrano maggiore tolleranza dell’ambiguità.
+
+                                              Homepage di KFC in Danimarca · screenshot storico.
+
+                                                                                                       126
+   il contesto culturale nel digital design                    3 .1 .1
+
+ 05 · LTO
+
+ Orientamento a lungo
+ termine
+
+
+
+
+PUNTEGGIO BASSO                                        PUNTEGGIO ALTO
+Continuità con norme e                                 Adattamento e preparazione
+tradizioni                                             del futuro
+            Radici e germogli suggeriscono continuità con le tradizioni e adattamento al futuro. Le due
+   127                                   metà illustrano LTO, senza ridurlo alla durata di un acquisto.
+il contesto culturale nel digital design                                    3 .1 .1
+
+  05 · LTO
+
+  Orientamento a lungo termine
+  Quale peso hanno tradizioni e norme rispetto ad adattamento e preparazione
+  del futuro? Il polo a lungo termine valorizza pragmatismo, perseveranza e
+  parsimonia.
+  PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO
+  Continuità con norme e                                          Adattamento e preparazione
+  tradizioni                                                      del futuro
+  Confronto tra Paesi · indice 0–100¹
+      Venezuela          Ghana               Perù                      Taiwan    Hong Kong Giappone
+
+         0                  1                 5                         87            93        100
+
+
+
+
+        0                    20                   40                   60             80            100
+
+            L’asse confronta continuità con norme e tradizioni con adattamento e preparazione del futuro. I
+            punteggi suggeriscono domande su impegni e cambiamento nel tempo; non prescrivono sconti,
+                                                                            pulsanti o acquisti immediati.
+
+  Nella ricerca UX, esplora come le persone valutano benefici futuri, impegni
+  presenti e cambiamenti nelle pratiche del servizio.
+
+
+  ¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+
+
+
+                                                                                                      128
+L’orientamento a lungo termine (LTO, Long-Term Orientation Index)
+confronta il peso dato alla preparazione del futuro con quello attribuito a
+tradizioni e obblighi legati al presente e al passato. Nel modello, il polo a
+lungo termine valorizza adattamento, perseveranza e parsimonia; quello a
+breve termine richiama continuità con le tradizioni, reputazione e
+adempimento degli obblighi sociali.
+
+
+
+Per il design può suggerire domande su come le persone valutano continuità
+e cambiamento nel tempo. Non misura una preferenza per sconti o acquisti
+immediati: contano anche risorse disponibili, necessità e caratteristiche del
+servizio.
+
+
+Orientamento a lungo                      Orientamento a breve
+termine
+                                  termine
+
+Ipotesi per la ricerca:
+                  Ipotesi per la ricerca:
+
+▸ Quali obiettivi richiedono              ▸ Quali tradizioni orientano le
+continuità e perseveranza?
+               aspettative?
+
+▸ Come vengono valutati benefici e        ▸ Come vengono interpretati
+impegni futuri?
+                          impegni e responsabilità presenti?
+
+▸ Quali informazioni aiutano a            ▸ Quali continuità con le pratiche
+capire progressi e cambiamenti nel        abituali contano nell’uso del
+tempo?                                    servizio?
+
+
+
+
+129
+Lo screenshot del sito Kinder per il mercato cinese apre con una scena di
+gioco fra un adulto e un bambino. Seguono tre schede illustrate e una sezione
+che presenta diversi prodotti del marchio.
+
+
+
+Nel confronto sul LTO, queste scelte editoriali suggeriscono domande: quali
+aspetti della crescita e del benessere vengono percepiti? Quali impegni
+presenti o futuri sono esplicitamente comprensibili? Per rispondere servono
+anche il testo tradotto correttamente e la ricerca con il pubblico previsto.
+
+
+
+
+    La scena di gioco, le schede illustrate e i prodotti collegano la marca alla vita quotidiana. Per il
+               LTO, verifichiamo quali temi di crescita e continuità siano effettivamente compresi.
+
+                                                             Homepage di Kinder per il mercato cinese.
+
+                                                                                                      130
+La schermata di Kinder per il mercato statunitense privilegia prodotti e
+promozioni.
+
+
+
+Nella versione mostrata, l’homepage presenta l'arrivo di un nuovo prodotto
+sul mercato americano e le notizie sottostanti focalizzano la propria
+attenzione sui prodotti dell'azienda.
+
+Più sotto, dove nel sito cinese c'era una sezione dedicata allo sport per
+bambini, l'azienda presenta la collaborazione per le proprie sorpresine con la
+celebre serie “Stranger Things”.
+
+
+
+
+
+         Nuovi prodotti e collaborazione con Stranger Things danno rilievo alle campagne. Nel
+         confronto sul LTO, esploriamo come vengono valutati novità e benefici nel tempo; una
+                                     promozione non prova preferenze per risultati immediati.
+
+                                              Homepage di Kinder per il mercato statunitense.
+
+131
+   il contesto culturale nel digital design                           3 .1 .1
+
+ 06 · IVR
+
+ Indulgenza e restrizione
+
+
+
+
+PUNTEGGIO BASSO                                               PUNTEGGIO ALTO
+Controllo mediante norme                                      Gratificazione relativamente
+sociali                                                       libera
+   Forme regolari e petali che si aprono evocano norme sociali e gratificazione relativamente
+   libera. I poli IVR non sono giudizi morali né misure dell’autocontrollo individuale.         132
+il contesto culturale nel digital design                                    3 .1 .1
+
+
+06 · IVR
+
+Indulgenza e restrizione
+Quanto spazio viene riconosciuto al godersi la vita? La restrizione enfatizza il
+controllo attraverso norme sociali; l’indulgenza ammette una gratificazione
+relativamente libera.
+PUNTEGGIO BASSO                                                 PUNTEGGIO ALTO
+Controllo mediante norme                                        Gratificazione relativamente
+sociali                                                         libera
+Confronto tra Paesi · indice 0–100¹
+
+      Egitto          Pakistan           Libano                      Portorico   Messico      Venezuela
+
+
+        0                 0                10                         90          97            100
+
+
+
+
+       0                   20                   40                   60           80               100
+
+          Le posizioni confrontano controllo tramite norme sociali e gratificazione relativamente libera. I
+    punteggi aprono domande su aspettative e vincoli nel contesto d’uso, senza misurare felicità o desideri
+                                                                                     delle singole persone.
+
+Nella ricerca UX, verifica quali attività e messaggi risultano appropriati nel
+contesto d’uso e quali vincoli sociali incidono sul servizio.
+
+
+
+
+¹     The Culture Factor · 09/10/2026. Bandiere: flag-icons (MIT).
+
+
+
+
+133
+Il contesto include i servizi
+Le teorie presentate in queste sezioni offrono chiavi di lettura utili per
+interpretare le differenze culturali, ma una progettazione efficace non si
+ferma all’interfaccia. Il contesto in cui le persone usano un prodotto
+comprende anche il servizio che lo accompagna: adattarlo può richiedere
+scelte su lingua, canali di contatto, modalità di accesso e strumenti
+effettivamente disponibili. Queste scelte vanno verificate studiando il
+contesto d’uso reale, senza attribuirle in modo automatico ai valori nazionali:
+ciò che dipende dalle infrastrutture, dalle abitudini o dalle risorse di un
+gruppo non è necessariamente un tratto della sua cultura.
+
+
+
+
+                Telefono, codice e WeChat offrono canali diversi per accedere. Il
+                    contesto culturale comprende strumenti e condizioni d’uso:
+                     verifichiamo quali opzioni siano disponibili e accessibili al
+                                pubblico, senza inferire preferenze da un Paese.
+
+                               IKEA Cina · accesso al profilo, screenshot storico.
+
+Che cosa osserviamo
+Nella versione mostrata, IKEA propone numero di telefono, codice di verifica
+e WeChat. Sono alternative per entrare nel servizio: descriverle aiuta a capire
+quali strumenti e account il percorso richiede.
+
+Che cosa verificare
+Quali canali possono usare le persone del pubblico previsto? Quali barriere
+incontrano? La presenza di un’opzione non dimostra una preferenza
+condivisa da tutti.
+
+
+
+                                                                                     134
+il contesto culturale nel digital design                           3 .1 .1
+
+
+Hall: dove sta il significato?
+Il concetto di contesto alto/basso di Edward T. Hall riguarda il peso del
+contesto condiviso e delle informazioni rese esplicite nella comunicazione.¹ È
+distinto dall’organizzazione monocronica o policronica del tempo.
+
+
+
+Nello stesso ambiente si possono usare entrambi: un messaggio tra persone
+che si conoscono può presupporre riferimenti comuni; una procedura rivolta
+a nuovi utenti deve spiegare di più.
+Più contesto condiviso                                    Più messaggio esplicito
+Il significato dipende anche da                           Il messaggio chiarisce informazioni,
+relazioni, situazione e conoscenze                        condizioni e passaggi. Chiediti che
+pregresse. Chiediti quali riferimenti                     cosa serve a una persona nuova per
+vengono dati per scontati.                                capire e agire.
+Le classifiche nazionali alto/basso contesto hanno evidenza spesso debole o
+contraddittoria. Non assegnare uno stile a una persona in base al passaporto,
+né a un sito in base al numero di immagini.²
+
+
+
+
+¹   Hall, Beyond Culture, 1976 · riferimento originario
+²   Kittler, Rygl e Mackinnon, 2011 · revisione critica
+
+135
+Lingua e direzione di lettura
+Localizzare significa adattare il prodotto a requisiti linguistici e del contesto.
+La scrittura da destra a sinistra richiede attenzione a testo, allineamenti,
+controlli e contenuti misti.¹
+
+
+
+
+      Testo arabo, ricerca e navigazione mostrano una direzione di lettura da verificare elemento per
+    elemento. La localizzazione riguarda lingua e convenzioni d’uso: marchi, numeri e fotografie non
+                                                           richiedono una specchiatura automatica.
+
+                                                            IKEA Arabia Saudita · screenshot storico.
+
+Guardare gli elementi, non la nazionalità
+Osserva logo, menu, campo di ricerca e freccia. Il testo e la navigazione
+possono seguire direzioni diverse da numeri, marchi o fotografie: non
+applicare una specchiatura indiscriminata.
+
+Una prova concreta
+Verifica con persone che usano quella lingua ordine, comprensione e
+completamento del compito, anche quando compaiono stringhe latine o
+numeriche.
+
+¹   W3C · direzione del testo e contenuti bidirezionali
+
+                                                                                                  136
+il contesto culturale nel digital design                           3 .1 .1
+
+
+Schwartz: due livelli distinti
+La teoria dei valori personali di Schwartz descrive priorità motivazionali:
+dieci valori di base¹, articolati in diciannove nella versione raffinata del 2012.²
+Non sono diciannove tipi di cultura nazionale.
+Livello personale
+Autodirezione (self-direction), sicurezza e benevolenza sono esempi di
+priorità che possono entrare in tensione. Nella ricerca UX vanno esplorate
+rispetto alle situazioni e alle scelte delle persone.
+Livello societario
+Il modello delle orientazioni culturali distingue sette orientamenti lungo tre
+dimensioni: radicamento nel gruppo versus autonomia intellettuale e
+affettiva; gerarchia versus egualitarismo; padronanza (mastery) versus
+armonia.³
+Domanda utile                                             Errore da evitare
+Quali valori contano nel compito e                        Dedurre la priorità di un individuo
+quali compromessi devono                                  dalla media del Paese o scambiare i
+affrontare le persone?                                    due modelli.
+
+
+
+
+¹   Schwartz, 2012 · dieci valori personali
+²   Schwartz et al., 2012 · diciannove valori personali
+³   Schwartz, 2006 · orientazioni culturali societarie
+
+137
+GLOBE: pratiche e valori
+GLOBE (Global Leadership and Organizational Behavior Effectiveness) è un
+programma internazionale avviato da Robert J. House nei primi anni ’90 per
+studiare cultura, leadership e organizzazioni. Distingue nove dimensioni e
+rileva separatamente pratiche percepite («come sono») e valori desiderati
+(«come dovrebbero essere»).¹
+
+Pratiche percepite                                           Valori desiderati
+Come viene descritto oggi il                                 Come le persone vorrebbero che ci si
+comportamento nel gruppo o nella                             comportasse? Un’aspirazione non
+società? È una percezione rilevata,                          prova che quella pratica sia già
+non l’osservazione diretta di ogni                           presente.
+situazione.
+
+Nove dimensioni
+Distanza dal potere; collettivismo istituzionale e del gruppo; evitamento
+dell’incertezza; orientamento al futuro, alla prestazione e alla cura (humane
+orientation); egualitarismo di genere; assertività.
+
+Prima di usare un punteggio
+Controlla strumento, campione e livello di analisi.² Anche etichette simili,
+come «incertezza» in GLOBE e Hofstede, possono avere definizioni operative
+differenti.
+
+
+
+
+¹   GLOBE Project · origini, dimensioni e item delle scale
+²   Brewer e Venaik, 2014 · evitare inferenze tra livelli
+
+                                                                                             138
+il contesto culturale nel digital design                          3 .1 .1
+
+
+Una mappa dei valori
+Inglehart e Welzel organizzano dati WVS/EVS lungo due assi: valori
+tradizionali versus secolari-razionali; sopravvivenza versus espressione di sé.
+
+
+
+
+      I due assi collocano stime aggregate dei valori: tradizionali/secolari-razionali e sopravvivenza/
+        espressione di sé. La distanza sulla mappa suggerisce confronti tra rilevazioni, non preferenze
+                                                    d’interfaccia né comportamenti dei singoli utenti.
+
+La mappa rappresenta stime aggregate e un periodo preciso. Generazioni,
+istruzione e condizioni sociali variano dentro ogni società. La posizione di un
+Paese non è una preferenza di interfaccia né il profilo di una persona.
+
+
+
+
+139
+LOCALIZZARE IL SERVIZIO
+
+Lingua, locale e dati
+Localizzare significa adattare anche convenzioni e percorsi. Lingua, regione,
+valuta e formato dei dati sono scelte diverse: l’inglese, per esempio, non
+identifica da solo un formato di data.¹
+Scegliere una lingua
+Rendi visibile il cambio lingua anche nelle pagine interne. Scrivi le opzioni
+nella lingua e scrittura di destinazione: Italiano, English, 中文. Verifica testi,
+messaggi e contenuti nelle immagini.
+Leggere una data
+04/05/2026 può indicare 4 maggio oppure 5 aprile. Esplicita il formato e
+verifica come le persone interpretano e inseriscono la data.
+
+04/05/2026
+4 maggio 2026                                            5 aprile 2026
+giorno / mese / anno                                     mese / giorno / anno
+
+La stessa stringa produce due letture. Il mese scritto per esteso rende esplicito il significato; chiedi quale
+data la persona ha letto.
+
+
+
+
+¹   Verifica: W3C Internationalization.
+
+                                                                                                         140
+LOCALIZZARE IL SERVIZIO
+
+Colore: significato e contesto
+Le associazioni fra colori ed emozioni hanno elementi condivisi e differenze
+legate anche a lingua e contesto. Non formano un dizionario fisso di
+preferenze nazionali né garantiscono una risposta emotiva.¹
+
+Che cosa comunica nel servizio?
+Verifica il significato del colore per il pubblico e per il compito: una
+campagna, uno stato e un avviso hanno scopi diversi. Distingui
+un’associazione da un effetto misurato.
+
+
+
+
+Senza descrizione                                               Data non disponibile
+Il colore è identico, ma l’etichetta rende interpretabile lo stato. La dimostrazione riguarda
+comprensione e accessibilità, non una preferenza nazionale.
+
+Per errori, stati e azioni affianca testo o forma al colore. Il messaggio deve
+restare comprensibile anche quando la persona non distingue le tonalità.²
+
+
+
+
+¹     Jonauskaite et al., 2020: associazioni colore–emozione.
+²     W3C, WCAG 2.2: criterio 1.4.1, Use of Color.
+
+141
+LOCALIZZARE IL SERVIZIO
+
+Scritture e simboli
+Una marca può cambiare scrittura mantenendo elementi riconoscibili. Nei
+logotipi Coca-Cola osserviamo continuità di colore e curve, insieme
+all’adattamento del lettering al sistema di scrittura.
+
+
+
+
+    Il progetto cinese di Alan Chan Design Company (2003) riprende curve e colori del logotipo latino. La
+                           continuità visiva deriva dall’adattamento dei glifi, non dall’uso dello stesso font.
+
+Testo e gerarchie
+Verifica font, glifi, a capo e gerarchie di dimensione e peso. UTF-8
+rappresenta il testo: la resa dipende anche da font e composizione. L’assenza
+di spazi nel cinese non elimina le gerarchie visive.¹
+
+Forma e funzione dell’icona
+Una stella può indicare un preferito o una valutazione: riconoscere la forma
+non chiarisce sempre l’azione. Affianca un’etichetta e verifica cosa le persone
+prevedono nel compito.²
+
+
+
+
+¹    W3C, UTF-8 e Chinese Layout Requirements.
+²    NN/G, Icon Usability e test delle icone.
+
+                                                                                                          142
+IDENTITÀ E ADATTAMENTO
+
+IKEA · Il Capodanno lunare
+IKEA propone FÖSSTA anche negli USA. Questa campagna permette di
+distinguere identità della marca, contesto locale e ipotesi sui valori culturali.¹
+
+
+
+
+    Decori e scene domestiche richiamano il Capodanno lunare. La campagna apre domande su rituali e
+                  tradizioni; prodotti in gruppo e colore rosso non misurano direttamente IDV, IVR o LTO.
+
+Quali rituali, attività e relazioni sostiene l’offerta? Come vengono interpretati
+dal pubblico previsto?
+
+
+
+
+¹    Verifica: IKEA, FÖSSTA 2023.
+
+143
+IDENTITÀ E ADATTAMENTO
+
+IKEA · La vita quotidiana
+I valori dichiarati da IKEA comprendono collaborazione, cura e attenzione ai
+costi. Confronta ciò che resta riconoscibile nella marca con i messaggi della
+campagna.¹
+
+
+
+
+    Offerte IKEA Family, risparmio energetico e prodotti quotidiani accostano convenienza e cura. Sono
+                    temi utili per discutere MAS; il punteggio svedese non spiega da solo la campagna.
+
+Come vengono interpretati risparmio, sostenibilità e cura? Quali messaggi
+sono pertinenti alle attività quotidiane delle persone?
+
+
+
+
+¹   Valori della marca: Inter IKEA.
+
+                                                                                                 144
+Due modi di localizzare
+Negli screenshot storici del booklet, McDonald’s offre un buon esempio di
+adattamento dei messaggi e dei servizi ai contesti locali. Alibaba, di contro,
+mostra i limiti di una localizzazione incompleta: lingua, layout e tipografia
+non formano un percorso coerente. Il confronto riguarda le versioni
+documentate, non i siti attuali.
+
+McDonald’s · Adattare mantenendo l’identità
+La marca mantiene un’identità riconoscibile, mentre cambiano campagne,
+prodotti, temi e percorsi in base ai diversi mercati locali. L’adattamento,
+quindi, non riguarda soltanto la lingua, ma anche il modo in cui vengono
+comunicati i contenuti e offerti i servizi.
+
+Alibaba · Tradurre non basta
+Lingue mescolate, formulazioni poco chiare, testi troncati e incoerenze
+tipografiche interrompono la continuità dell’esperienza. Il caso mostra che la
+localizzazione deve riguardare l’intero percorso.
+
+Leggere le prove
+Parti da ciò che le schermate mostrano concretamente. I modelli culturali
+possono aiutare a formulare domande e ipotesi, ma gli indici nazionali sono
+dati aggregati e, da soli, non spiegano le scelte di una campagna né le
+preferenze delle singole persone.
+
+Prodotti, campagne e problemi descritti appartengono agli screenshot storici
+del caso. Per misurare l’efficacia degli adattamenti occorrono verifiche con le
+persone nel contesto d’uso.
+
+
+
+
+145
+Gli archi e il giallo mantengono riconoscibile McDonald’s. Le pagine successive mostrano come questa
+                      identità comune accompagni messaggi, offerte e servizi adattati ai diversi mercati.
+
+
+
+
+                                                                                                    146
+McDonald’s · Un buon adattamento
+McDonald’s è qui un buon esempio di attenzione al contesto: le pagine locali
+mantengono la stessa identità, ma adattano lingua, campagne, offerta e
+accessi al servizio. Gli screenshot storici rendono visibili scelte diverse per
+pubblici e occasioni d’uso differenti.
+
+
+
+Il valore del caso è questa combinazione di continuità e adattamento. I
+modelli culturali offrono una chiave di lettura, mentre l’efficacia delle singole
+scelte va verificata con gli utenti.
+
+PDI · Paesi Bassi e Cina
+Il confronto tra le homepage di McDonald’s nei diversi Paesi parte dal
+modo in cui il brand presenta la propria offerta e organizza i percorsi di
+navigazione. Nella versione cinese, la homepage riunisce numerose
+campagne e promozioni in una composizione molto ricca; quella olandese
+presenta invece in modo più distinto promozioni, servizi e contenuti
+dedicati alla relazione con il cliente. Si tratta di un esempio concreto di
+adattamento editoriale e progettuale ai diversi contesti locali. La PDI
+(Power Distance Index) può aiutare a formulare domande sul rapporto tra
+autorevolezza, fiducia e autonomia, ma non permette di interpretare
+direttamente la densità della pagina come una misura delle gerarchie sociali
+di un Paese.
+
+
+
+
+147
+il contesto culturale nel digital design                       3 .1 .1
+
+
+  PDI · McDonald’s Cina
+  Nello screenshot del sito cinese, prodotti, campagne, app e informazioni
+  dell’azienda convivono in un mosaico. Lingua e temi dei riquadri
+  costruiscono una pagina locale; gli archi, il giallo e il sistema di accessi
+  mantengono riconoscibile la marca.
+
+
+
+  L’esempio positivo mostra come l’offerta possa essere adattata al mercato
+  locale e presentata in modo efficiente. Per valutarne l’efficacia, osserviamo i
+  percorsi di navigazione e verifichiamo quanto aiutino le persone a trovare
+  facilmente ciò che cercano.
+
+
+
+
+             Campagne, prodotti, app e informazioni aziendali occupano riquadri distinti del
+          mosaico cinese. L’identità comune della marca sostiene contenuti locali; il layout non
+                                                                    misura la PDI degli utenti.
+
+
+                                                                                                   148
+PDI · McDonald’s Paesi Bassi
+La homepage olandese organizza in sezioni distinte contenuti e servizi
+come Happy Meal, app, McCafé, consegna e feedback. Testi e immagini
+accompagnano azioni e informazioni facilmente riconoscibili, mentre la
+struttura della pagina è diversa da quella, più ricca e articolata, della
+homepage cinese. Un buon adattamento consiste nel dare una forma
+adeguata al contesto locale, mantenendo riconoscibili la marca e i suoi
+servizi. Il confronto tra le due homepage permette di riflettere su aspetti
+come fiducia e autonomia durante la navigazione, senza però attribuire a
+tutto il pubblico di un Paese un unico modo di rapportarsi all’autorità.
+
+
+
+
+                Happy Meal, app, McCafé, consegna e feedback hanno spazi e
+                   azioni distinti. La homepage olandese mantiene l’identità
+                   McDonald’s e adatta il percorso editoriale ai contenuti del
+                                                               servizio locale.
+
+
+
+
+149
+il contesto culturale nel digital design           3 .1 .1
+
+
+  IDV · Stati Uniti e Turchia
+  Stati Uniti e Turchia mostrano come una marca possa cambiare gli accenti
+  della comunicazione. Premi e vantaggi personali sono centrali nello
+  screenshot del sito statunitense; ricorrenza nazionale, offerte per la famiglia
+  e canali social lo sono invece in quello del sito turco.
+
+
+
+  L’IDV aiuta a riflettere sul rapporto tra individuo e gruppo. Tuttavia, le
+  campagne pubblicitarie vanno considerate come scelte progettuali legate a
+  uno specifico contesto e non possono essere utilizzate per misurare il livello
+  di individualismo dei singoli utenti.
+  IDV · McDonald’s Stati Uniti
+  La homepage statunitense mette in primo piano il panino McRib e collega
+  la promozione ai servizi digitali di McDonald’s. Sezioni come My Rewards,
+  «Earn Points», «Order in the App», «Order McDelivery Now» e «Get App
+  Deals» associano il prodotto a premi, ordinazione e vantaggi riservati agli
+  utenti dell’app. La pagina costruisce quindi il percorso intorno a benefici
+  concreti per il cliente, integrando promozione e servizi. È un esempio di
+  localizzazione efficace del percorso: per valutarne l’efficacia, possiamo
+  osservare chi prende le decisioni di acquisto e in che modo vengono
+  utilizzati questi incentivi.
+
+
+
+
+                                                                               150
+IDV · McDonald’s Stati Uniti ·
+schermata completa
+
+
+
+
+  McRib, «My rewards» e i pulsanti per punti, app e consegna collegano il prodotto a vantaggi e azioni
+            concrete. La pagina statunitense adatta il messaggio commerciale e gli accessi al servizio.
+
+
+
+
+151
+IDV · McDonald’s Turchia
+La homepage turca dedica il banner principale al centenario della
+Repubblica, seguito da contenuti dedicati ai prodotti, all’Happy Meal, alla
+promozione dell’app e ai canali social. Una ricorrenza significativa per il
+mercato locale entra così nella comunicazione di McDonald’s, pur
+mantenendo riconoscibile l’identità della marca presente anche nelle altre
+versioni. È un esempio di adattamento dei messaggi al contesto culturale e
+alle occasioni locali. La campagna, però, non può essere interpretata come
+un’espressione dei valori di tutte le persone del Paese: rappresenta una scelta
+comunicativa concreta, che va analizzata considerando il pubblico a cui si
+rivolge e il periodo in cui è stata realizzata.
+
+
+
+
+        Il banner del centenario della Repubblica, Happy Meal, app e social combinano ricorrenza
+    locale e servizi della marca. L’adattamento culturale è visibile nel messaggio della campagna.
+
+
+
+
+                                                                                                 152
+il contesto culturale nel digital design             3 .1 .1
+
+
+MAS · Slovacchia e Slovenia
+Le versioni slovacca e slovena affiancano ai prodotti temi e toni differenti. In
+Slovacchia emergono sostegno alle famiglie e responsabilità sulle materie
+prime; in Slovenia, relazioni, piaceri quotidiani e dialogo con il cliente.
+
+
+
+MAS permette di discutere risultati, cura e qualità della vita. Il buon esempio
+sta nell’adattare i messaggi locali, senza dedurre dal punteggio nazionale il
+genere o la personalità degli utenti.
+MAS · McDonald’s Slovacchia
+Nello screenshot del sito slovacco, McHappy Day racconta il sostegno alle
+famiglie con bambini in cura lontano da casa. La sezione sulle materie prime
+affianca al prodotto la responsabilità dell’azienda.
+
+
+
+La pagina locale non si limita a un’offerta da acquistare: presenta anche
+relazione con il territorio e cura. Questi contenuti mostrano come la stessa
+identità possa accogliere valori e impegni diversi, da verificare rispetto a ciò
+che conta per il pubblico.
+
+
+
+
+153
+MAS · McDonald’s Slovacchia ·
+schermata completa
+
+
+
+
+  Prodotti, McHappy Day e responsabilità sulle materie prime convivono nella pagina slovacca. Il
+                   messaggio locale affianca offerta commerciale, sostegno alle famiglie e cura.
+
+
+
+
+                                                                                           154
+MAS · McDonald’s Slovenia
+Nella homepage slovena, i personaggi Don Juan e Doña Sofia, il cuore
+accanto ai due hamburger e il donut della campagna «Dolce novembre»
+contribuiscono a creare un tono più personale e relazionale. Anche
+messaggi come «Buongiorno, buona giornata!» e l’invito a lasciare un
+feedback rafforzano questo approccio alla comunicazione. Si tratta di un
+esempio positivo di adattamento: cambia il modo di comunicare con il
+cliente, mentre l’identità della marca rimane riconoscibile. Il confronto
+con il caso slovacco permette di osservare differenze nei temi e nel tono della
+comunicazione, ma, anche qui, non dimostra che tutti gli utenti di un Paese
+condividano gli stessi valori o comportamenti.
+
+
+
+
+              Cuore, saluti quotidiani, donut e richiesta d’opinione danno alla pagina
+               slovena un tono relazionale. La marca adatta i messaggi locali, oltre a
+                                                                   tradurre le etichette.
+
+
+
+155
+il contesto culturale nel digital design           3 .1 .1
+
+
+  UAI · Russia e India
+  Le homepage di McDonald’s in Russia e India mostrano due modi diversi di
+  presentare l’offerta e accompagnare il cliente nella scelta. La versione russa
+  mette in evidenza prezzi, categorie e filtri, facilitando la consultazione
+  dell’offerta; quella indiana combina una campagna dal tono più espressivo
+  con informazioni dettagliate sugli ingredienti. L’UAI (Uncertainty Avoidance
+  Index) riguarda il modo in cui una cultura gestisce ambiguità e incertezza,
+  non la propensione al rischio dei singoli individui né il loro atteggiamento
+  verso le nuove tecnologie. Il confronto permette quindi di osservare come
+  informazioni, struttura e linguaggio del servizio vengano adattati ai
+  diversi contesti. La loro efficacia, tuttavia, deve essere verificata osservando
+  come le persone comprendono e utilizzano concretamente l’interfaccia.
+  UAI · McDonald’s Russia
+  La homepage russa presenta McCafé, contenuti per genitori e figli,
+  promozioni e qualità dei prodotti. Panini e prezzi offrono informazioni che le
+  persone possono leggere e confrontare; un secondo sistema di navigazione
+  permette di filtrare l’offerta.
+
+
+
+  L’adattamento riguarda quindi anche il servizio: non soltanto parole e
+  immagini, ma strumenti per orientarsi e scegliere. La struttura osservata
+  può suggerire un’attenzione alla chiarezza e alla riduzione dell’ambiguità,
+  ma non è sufficiente, da sola, per dimostrare che gli utenti provino disagio di
+  fronte a situazioni poco definite.
+
+
+
+
+                                                                              156
+UAI · McDonald’s Russia · schermata
+completa
+
+
+
+
+  Panini con prezzi, categorie e filtri rendono esplicita e confrontabile l’offerta russa. Il caso mostra un
+                        adattamento delle informazioni e degli strumenti disponibili durante la scelta.
+
+
+
+
+157
+UAI · McDonald’s India
+La homepage indiana presenta in primo piano una promozione,
+accompagnata da una scheda del prodotto con le relative informazioni sugli
+ingredienti. Il linguaggio visivo contribuisce a caratterizzare la campagna,
+mentre le informazioni sul prodotto rimangono parte integrante dell’offerta.
+L’edizione del 2024 descrive inoltre elementi interattivi, come un cursore
+McFlurry, una barra di caricamento a forma di patatine e alcune animazioni,
+che non possono però essere verificati attraverso una semplice immagine
+statica. È un buon esempio di come identità della marca, messaggi
+promozionali e contenuti locali possano essere integrati nella stessa
+esperienza. Per valutarne l’efficacia è necessario osservare come le persone
+utilizzano concretamente la pagina e svolgono i propri compiti, senza
+dedurre dal solo design quanto ogni utente sia più o meno a proprio agio di
+fronte all’incertezza.
+
+
+
+
+       Promozione iniziale e scheda del panino combinano un linguaggio di campagna con
+                informazioni sugli ingredienti. Lo screenshot mostra il contenuto locale; le
+                                            animazioni sono descritte nella fonte del caso.
+
+
+
+
+                                                                                               158
+il contesto culturale nel digital design           3 .1 .1
+
+
+LTO · Cina e Portogallo
+Le homepage di McDonald’s in Cina e Portogallo mostrano come
+l’adattamento locale possa mettere in evidenza obiettivi e priorità
+comunicative differenti. La versione portoghese dà maggiore spazio a
+campagne e azioni legate all’offerta del momento, mentre quella cinese
+valorizza maggiormente la qualità delle materie prime e gli impegni
+dell’azienda nel lungo periodo. La LTO può offrire una chiave di lettura per
+confrontare questi diversi orientamenti temporali. Non permette però di
+misurare la velocità con cui le persone acquistano, il gradimento delle CTA o
+la loro disponibilità a correre rischi. Il confronto deve quindi partire dai
+messaggi effettivamente documentati e verificare, attraverso
+l’osservazione degli utenti, quali benefici risultino realmente rilevanti per
+loro.
+LTO · McDonald’s Portogallo
+Nello screenshot del sito portoghese, le CTA accompagnano feste di
+compleanno, campagne e candidature. Un pop-up ricorda che le promozioni
+McDonald’s compaiono soltanto sui canali ufficiali, rispondendo a un
+problema concreto di sicurezza.
+
+
+
+Un buon adattamento tiene conto delle occasioni locali, della lingua e delle
+modalità di accesso ai servizi. La presenza di azioni e promozioni pensate
+per un risultato immediato, però, non è sufficiente per dedurre
+l’orientamento temporale di tutto il pubblico.
+
+
+
+
+159
+LTO · McDonald’s Portogallo ·
+schermata completa
+
+
+
+
+Feste di compleanno, campagne e candidature hanno inviti all’azione distinti. Il pop-up rimanda ai
+               canali ufficiali: la pagina adatta anche le informazioni utili a usare il servizio locale.
+
+
+
+
+                                                                                                      160
+LTO · McDonald’s Cina
+La homepage cinese affianca prodotti, campagne, contenuti dedicati a
+McCafé, servizi dell’app e informazioni sull’origine delle materie prime. La
+pagina presenta così l’offerta insieme a temi legati alla qualità dei prodotti e
+alle attività dell’azienda. Si tratta di un adattamento positivo perché amplia e
+modifica i contenuti comunicati dalla marca in funzione del contesto
+locale, mantenendone al tempo stesso riconoscibile l’identità. La prospettiva
+dell’LTO può aiutare a discutere il valore attribuito alla continuità e ai benefici
+nel tempo, ma la selezione dei contenuti della homepage non permette di
+stabilire quale sia l’orientamento temporale dei singoli utenti.
+
+
+
+
+                Prodotti, McCafé, app e informazioni sulle materie prime occupano
+                   riquadri del mosaico. La pagina cinese adatta i contenuti locali,
+                                            mantenendo un’identità visiva comune.
+
+
+
+
+161
+Il logo identifica Alibaba.com. Gli screenshot storici successivi mostrano una localizzazione incompleta
+                                                                            di lingua, layout e tipografia.
+
+                                                                                                      162
+il contesto culturale nel digital design             3 .1 .1
+
+
+Alibaba · Una cattiva localizzazione
+Alibaba nasce nel 1999 come piattaforma B2B (business-to-business), con
+l’obiettivo di mettere in contatto i fornitori cinesi con acquirenti
+internazionali. Il caso presentato nel booklet analizza la versione italiana del
+sito e la confronta con pagine e contenuti dello stesso periodo. Le schermate
+mostrano come l’adattamento di un sito a un mercato straniero non riguardi
+soltanto la traduzione dei testi, ma anche la coerenza dell’intera interfaccia.
+Le osservazioni si riferiscono alle versioni documentate nel booklet e non
+necessariamente al servizio attuale, che dovrebbe essere analizzato
+nuovamente.
+1 · Lingua e comprensione
+Nella versione esaminata, l’utente può scegliere lingua e valuta. Tuttavia,
+alcuni testi in italiano risultano poco chiari, soprattutto nelle schede dei
+prodotti, mentre alcune immagini e una frase nel footer rimangono in
+inglese. La traduzione risulta quindi incompleta e poco uniforme. Una buona
+localizzazione deve essere verificata in ogni parte del sito: testi, immagini,
+pulsanti, etichette, messaggi e descrizioni dei prodotti devono essere
+coerenti con la lingua scelta. Anche il selettore della lingua deve essere facile
+da trovare e mostrare i nomi delle lingue nella loro forma originale. Inoltre,
+lingua, regione e valuta devono essere considerate impostazioni distinte,
+perché la scelta di una non determina necessariamente le altre.
+
+
+
+
+163
+2 · Dal testo al layout
+
+
+
+
+                   «Ship to: IT» indica la destinazione di spedizione. La lingua
+                     dell’interfaccia va verificata separatamente: qui i contenuti
+                  visibili sono in inglese. Una localizzazione efficace richiede di
+                    controllare tutti i testi, i banner e i percorsi di navigazione
+                    nella lingua scelta, senza ricondurre eventuali problemi alle
+                   caratteristiche o alle abitudini degli utenti di un determinato
+                                                                              Paese.
+
+
+Il problema può continuare anche dopo la traduzione, quando il testo viene
+inserito nei diversi componenti dell’interfaccia. Nelle schermate italiane,
+per esempio, alcune etichette di pulsanti e card vengono troncate con i
+puntini di sospensione, mentre alcune parole si spezzano o si sovrappongono
+agli elementi grafici. Questo mostra come una buona localizzazione debba
+tenere conto anche dello spazio disponibile nel layout. Le traduzioni reali
+devono essere testate direttamente nell’interfaccia, prevedendo la possibilità
+di andare a capo e scegliendo, quando necessario, formulazioni più brevi ma
+comunque comprensibili.
+Una traduzione può infatti occupare più o meno spazio rispetto al testo
+originale. La lunghezza dipende dalla lingua, dalle parole utilizzate, dalla
+forma dei caratteri, dalle dimensioni del testo e dal componente in cui viene
+inserito. Per questo non è sufficiente sostituire una stringa mantenendo
+invariata la geometria dell’interfaccia. Le immagini della pagina successiva
+mostrano concretamente questo problema. Osserva quali informazioni
+vengono perse e come il componente potrebbe essere progettato per
+conservarle. La sola schermata, tuttavia, non permette di stabilire con
+certezza quale sia la causa tecnica del troncamento.
+
+
+
+                                                                                       164
+Quando il testo non entra
+
+
+
+
+    «Carrello di ac…», «Fiera onlin…» e «Prodotti di al…» perdono parti dell’etichetta. Nella card della
+  spedizione, testo e grafica si sovrappongono: il layout non sostiene le stringhe italiane documentate.
+
+
+
+
+165
+3 · Continuità tipografica
+Il terzo problema emerge passando dalla homepage alle pagine di categoria:
+nelle schermate documentate, il carattere senza grazie utilizzato nella
+homepage viene sostituito da un carattere con grazie. Di conseguenza,
+menu, nomi dei prodotti e banner non mantengono una tipografia
+coerente. La localizzazione, quindi, non riguarda soltanto la traduzione dei
+contenuti, ma anche la coerenza visiva dell’interfaccia. È necessario
+verificare che gerarchie tipografiche, leggibilità e componenti siano
+mantenuti correttamente nelle diverse lingue e nelle diverse pagine. La
+differenza è evidente nelle schermate, ma per stabilire se dipenda, per
+esempio, da una regola CSS o dalla mancata disponibilità di un determinato
+font è necessario un controllo tecnico.
+
+
+
+
+   Menu e testi di categoria usano un carattere con grazie, diverso dalla homepage, e alcune etichette
+                                                                                  risultano troncate.
+
+
+
+
+                                                                                                 166
+Dall’esempio al progetto
+Nella categoria Illuminazione, menu, banner e nomi dei prodotti
+confermano la discontinuità tipografica e visiva già osservata. Il caso Alibaba
+mette quindi in evidenza tre principali problemi di localizzazione: la
+comprensibilità dei testi, l’adattamento delle traduzioni allo spazio
+disponibile e la coerenza visiva lungo tutto il percorso di navigazione. Mentre
+il caso McDonald’s mostra l’importanza di adattare messaggi e servizi ai
+diversi contesti mantenendo al tempo stesso un’identità comune, Alibaba
+evidenzia, al contrario, i limiti di una localizzazione incompleta. Per
+progettare un’interfaccia efficace servono quindi contenuti comprensibili,
+layout testati con le lingue reali e verifiche con gli utenti. Il passo
+successivo è considerare l’accessibilità: lo stesso compito deve poter essere
+svolto anche quando cambiano le capacità delle persone, gli strumenti
+utilizzati o le condizioni d’uso.
+
+
+
+
+Il menu serif, il banner e i nomi dei prodotti della categoria illuminazione mostrano trattamenti diversi.
+                     La verifica della localizzazione deve continuare dalla homepage alle pagine interne.
+
+
+
+
+167
+          F T
+    R A
+D
+

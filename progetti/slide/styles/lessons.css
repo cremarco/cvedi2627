@@ -1,0 +1,291 @@
+/* Palette roles are supplied by useSlideSet; this sheet owns lesson layouts. */
+.slidev-layout.lesson-slide {
+  --slide-accent: var(--lesson-color);
+  --slide-canvas: var(--lesson-canvas);
+  --slide-subtitle: var(--lesson-color-deep);
+  --slide-detail-accent: var(--lesson-accent);
+  --slide-stripe: var(--lesson-color);
+  --slide-surface: var(--cvedi-gray-50);
+  --slide-surface-alt: var(--cvedi-gray-50);
+  --slide-rule: var(--cvedi-rule);
+  --chapter-ghost: var(--lesson-color-deep);
+  --chapter-mid: var(--cvedi-gray-50);
+  --color-secondary: var(--lesson-color-deep);
+  --color-secondary-content: var(--cvedi-paper);
+  --color-accent: var(--lesson-accent-on-color);
+  --color-accent-content: var(--cvedi-gray-950);
+}
+.lesson-slide .slide-label { color: var(--lesson-color); }
+.lesson-slide.chapter-slide .slide-label { color: inherit; }
+.slidev-layout.lesson-slide.chapter-slide > p { color: var(--lesson-accent-on-color); }
+.slidev-layout.lesson-slide .chapter-metro-route {
+  --metro-track-color: var(--lesson-color-deep);
+}
+.lesson-slide .metro-train { stroke: var(--lesson-accent-on-color); }
+/* Dates are editorial data; the open-book pictogram shares the Heroicons set. */
+.slidev-layout.default .lesson-history-period.stats {
+  position: absolute;
+  top: 52px;
+  right: 72px;
+  z-index: 3;
+  width: 272px;
+  overflow: visible;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  pointer-events: none;
+}
+.slidev-layout.default .lesson-history-period .stat {
+  grid-template-columns: minmax(0, 1fr) 40px;
+  gap: 4px 12px;
+  padding: 0;
+  text-align: right;
+}
+.slidev-layout.default .lesson-history-period .stat-title {
+  color: var(--section-primary);
+  font: 600 var(--cvedi-type-footer)/1.2 var(--cvedi-font-reading);
+  white-space: normal;
+}
+.slidev-layout.default .lesson-history-period .stat-value {
+  color: var(--section-primary-deep);
+  font: 700 var(--cvedi-type-stat)/1.1 var(--cvedi-font-reading);
+  font-variant-numeric: lining-nums tabular-nums;
+  letter-spacing: -.02em;
+  white-space: nowrap;
+}
+.slidev-layout.default .lesson-history-period .stat-figure {
+  grid-row: 1 / span 2;
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  color: var(--section-primary);
+}
+.slidev-layout.default .lesson-history-period .stat-figure svg { width: 100%; height: 100%; }
+.slidev-layout.default.fixed-title-slide.has-history-period > h1 { max-width: 824px; }
+.lesson-slide ::selection {
+  background: var(--lesson-color);
+  color: var(--cvedi-paper);
+}
+
+/* Teaching layouts use the same fixed canvas and type roles as the course. */
+.lesson-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 40px;
+}
+.lesson-columns > div > :last-child { margin-bottom: 0; }
+/* Native KaTeX keeps mathematical glyphs and accessible MathML together. */
+.slidev-layout.default .lesson-equation {
+  margin-block: 20px;
+  color: var(--section-primary-deep);
+  font-size: 30px;
+}
+.slidev-layout.default .lesson-equation-example { font-size: 26px; }
+.slidev-layout.default .lesson-equation :is(p, .katex-display) { margin: 0; }
+.slidev-layout.default .lesson-equation p { font-size: inherit; }
+.slidev-layout.default .lesson-equation .katex { font-size: 1em; }
+.slidev-layout.default .lesson-equation-context { margin: 20px 0 0; }
+.lesson-materials { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; margin-top: 24px; }
+.slidev-layout.default .lesson-materials h2 { margin: 0 0 12px; font-size: var(--cvedi-type-card-title); }
+.slidev-layout.default .lesson-materials p { margin: 0 0 16px; }
+.lesson-materials .cvedi-list { margin-bottom: 24px; }
+.lesson-teaching-figure { display: flex; flex-direction: column; flex: 1 1 0; min-height: 0; gap: var(--cvedi-space-related); }
+.lesson-teaching-intro.with-equation { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: var(--cvedi-space-columns); }
+.slidev-layout.default .lesson-teaching-intro :is(.lead, .lesson-equation) { margin: 0; }
+.lesson-teaching-figure > .lesson-figure { flex: 1 1 0; }
+.slidev-layout.default .lesson-teaching-figure > .aside { margin: 0; }
+/* Sources remain readable in the ordinary title/footer safe area. */
+.griglie-references.list { margin: 0; padding: 0; }
+.griglie-references .list-row { padding: 9px 0; }
+.griglie-references .list-row p {
+  margin: 3px 0 0;
+  color: var(--cvedi-muted);
+  font-size: var(--cvedi-type-note);
+  line-height: 1.35;
+}
+/* The player fits the ordinary title/footer safe area of the teaching canvas. */
+.slidev-layout.default .lesson-video {
+  width: 760px;
+  max-width: 100%;
+  align-self: center;
+  flex: 0 0 auto;
+  margin-inline: auto;
+}
+.lesson-video-stage {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+.lesson-video-stage iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.lesson-video figcaption {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--cvedi-space-related);
+  margin-top: var(--cvedi-space-copy);
+  color: var(--cvedi-muted);
+  font: 400 var(--cvedi-type-note)/1.4 var(--cvedi-font-reading);
+}
+.lesson-video figcaption a { flex: 0 0 auto; color: var(--section-primary); }
+.lesson-video-fallback {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--cvedi-space-peers);
+  height: 100%;
+  padding: var(--cvedi-space-introduction);
+  text-align: center;
+}
+.lesson-video-fallback p { margin: 0; }
+.lesson-video-fallback a { color: var(--section-primary); overflow-wrap: anywhere; }
+/* Type specimens keep their original forms and share the existing image zoom. */
+.typography-slide .typography-gallery {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  min-height: 0;
+}
+.typography-slide .typography-images {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  flex: 1 1 0;
+  min-height: 0;
+  gap: var(--cvedi-space-related);
+}
+.typography-slide .typography-images-2,
+.typography-slide .typography-images-4 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.typography-slide .typography-images-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.typography-slide .typography-images-4 { grid-template-rows: repeat(2, minmax(0, 1fr)); }
+.typography-slide .typography-images-stacked {
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.typography-slide .typography-images-3.typography-images-stacked {
+  grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+.typography-slide .typography-caption {
+  flex: 0 0 auto;
+  margin: var(--cvedi-space-copy) 0 0;
+}
+.reading-slide.figure-pair .lesson-columns.figure-triptych { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.lesson-figure { min-width: 0; margin: 0; }
+.lesson-figure img {
+  display: block;
+  width: 100%;
+  object-fit: contain;
+}
+.lesson-figure figcaption {
+  margin-top: 12px;
+  color: var(--cvedi-muted);
+  font: 400 var(--cvedi-type-label)/1.4 var(--cvedi-font-display);
+}
+.lesson-caption {
+  flex: 0 0 auto;
+  width: 100%;
+  min-width: 0;
+  padding-bottom: 3px;
+  border-bottom: .5px solid currentColor;
+  color: var(--slide-accent);
+  font: italic 300 var(--cvedi-type-label)/1.7 var(--cvedi-font-body);
+  text-align: right;
+}
+.lesson-statement {
+  max-width: 1000px;
+  margin: 0;
+  color: var(--slide-subtitle);
+  font: 600 42px/1.25 var(--cvedi-font-display);
+  letter-spacing: -.025em;
+  text-wrap: balance;
+}
+.lesson-statement + .lead { margin-top: 32px; }
+.lesson-kicker {
+  margin-bottom: 20px;
+  color: var(--cvedi-muted);
+  font: 400 19px/1.3 var(--cvedi-font-display);
+}
+.lesson-activity .lesson-kicker { margin-bottom: 16px; }
+.lesson-activity .cvedi-list { gap: 20px; }
+.slidev-layout .lesson-principles {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--cvedi-space-peers) var(--cvedi-space-columns);
+  width: 100%;
+  margin: var(--cvedi-space-related) 0;
+  padding-left: 28px;
+  color: var(--cvedi-body);
+  font: 400 var(--cvedi-type-body)/1.48 var(--cvedi-font-body);
+}
+.lesson-principles li { padding-left: 4px; }
+.lesson-principles li::marker { color: var(--section-primary); font-weight: 600; }
+.lesson-six .cvedi-card .card-body { padding: 20px 24px; }
+.lesson-six .card-title { margin-bottom: 8px; }
+.reading-slide .lesson-six.cvedi-grid.three .cvedi-card { min-height: 0; }
+.lesson-steps.steps {
+  width: 100%;
+  margin: 16px 0 28px;
+  overflow: visible;
+  grid-auto-columns: 1fr;
+}
+.slidev-layout .lesson-steps .step {
+  min-width: 0;
+  white-space: normal;
+  color: var(--slide-subtitle);
+  font: 700 24px/1.3 var(--cvedi-font-display);
+}
+.lesson-steps .step span { display: block; margin-top: 6px; color: var(--cvedi-body); font-size: 19px; font-weight: 400; }
+.lesson-loop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin-top: 24px;
+  padding: 22px 28px;
+  background: var(--slide-surface);
+  color: var(--slide-subtitle);
+  border-radius: var(--cvedi-radius);
+  font: 600 24px/1.3 var(--cvedi-font-display);
+}
+.lesson-loop .loop-arrow { color: var(--slide-detail-accent); font-size: 32px; }
+
+/* Practical resources follow the explanation and retain native link behavior. */
+.slidev-layout.default .lesson-tool-resources {
+  flex: 0 0 auto;
+  width: 100%;
+  padding-top: var(--cvedi-space-related);
+}
+.slidev-layout.default .lesson-tools {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--cvedi-space-columns);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.slidev-layout.default .lesson-tools li { min-width: 0; margin: 0; padding: 0; }
+.slidev-layout.default .lesson-tools li:only-child {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: var(--cvedi-space-peers);
+}
+.slidev-layout.default .lesson-tools .link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  border-bottom: 0;
+  color: var(--section-primary);
+  font: 600 var(--cvedi-type-card-body)/1.4 var(--cvedi-font-display);
+}
+.slidev-layout.default .lesson-tools p {
+  margin: 0;
+  color: var(--cvedi-body);
+  font: 400 var(--cvedi-type-note)/1.4 var(--cvedi-font-body);
+}

@@ -1,0 +1,190 @@
+{
+  "versione": 1,
+  "descrizione": "Font editoriali locali. I nomi dei file sono descrittivi; le famiglie interne del font restano quelle originali. Tutti i percorsi sono relativi alla radice del repository.",
+  "font": [
+    {
+      "id": "dm-sans-variabile",
+      "percorso": "risorse-condivise/font/editoriali/dm-sans-variabile.ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "byte": 240164,
+      "famiglia": "DM Sans",
+      "famiglia_typst": "DM Sans 9pt",
+      "stile": "tondo",
+      "nome_file_originale": "DMSans[opsz,wght].ttf",
+      "percorso_originale": "risorse-condivise/fonti/booklet/tipografia-comment394/originals/DMSans[opsz,wght].ttf",
+      "copia_identica_all_originale": true,
+      "provenienza": {
+        "documentazione_locale": "risorse-condivise/fonti/booklet/tipografia-comment394/manifest.json",
+        "metadati_originali": "risorse-condivise/fonti/booklet/tipografia-comment394/originals/DMSans-METADATA.pb",
+        "distribuzione": "https://github.com/google/fonts/tree/main/ofl/dmsans",
+        "url_file": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+        "repository_progetto": "https://github.com/googlefonts/dm-fonts",
+        "designer_da_metadati": "Colophon Foundry"
+      },
+      "licenza_id": "dm-sans-ofl-1.1"
+    },
+    {
+      "id": "dm-sans-corsivo-variabile",
+      "percorso": "risorse-condivise/font/editoriali/dm-sans-corsivo-variabile.ttf",
+      "sha256": "22259c0cc8237221b80f44c76ba8d36e6bce3cda72779f5b2773643d499720ae",
+      "byte": 285040,
+      "famiglia": "DM Sans",
+      "famiglia_typst": "DM Sans 9pt",
+      "stile": "corsivo",
+      "nome_file_originale": "DMSans-Italic[opsz,wght].ttf",
+      "percorso_originale": null,
+      "provenienza": {
+        "nota": "Scaricato direttamente dal file ufficiale con il nome canonico; non esiste una seconda copia locale precedente.",
+        "distribuzione": "https://github.com/google/fonts/tree/main/ofl/dmsans",
+        "url_file": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans-Italic%5Bopsz,wght%5D.ttf",
+        "repository_progetto": "https://github.com/googlefonts/dm-fonts",
+        "metadati_famiglia": "risorse-condivise/fonti/booklet/tipografia-comment394/originals/DMSans-METADATA.pb",
+        "designer_da_metadati": "Colophon Foundry"
+      },
+      "licenza_id": "dm-sans-ofl-1.1"
+    },
+    {
+      "id": "sora-variabile",
+      "percorso": "risorse-condivise/font/editoriali/sora-variabile.ttf",
+      "sha256": "84ff7096ae3ec6c8be47d906d1a0ba4de7f2ce78c615275c77301964a316e16c",
+      "byte": 111400,
+      "famiglia": "Sora",
+      "famiglia_typst": "Sora",
+      "stile": "tondo",
+      "nome_file_originale": "Sora[wght].ttf",
+      "percorso_originale": "risorse-condivise/fonti/booklet/tipografia-comment402/originals/Sora[wght].ttf",
+      "copia_identica_all_originale": true,
+      "provenienza": {
+        "documentazione_locale": "risorse-condivise/fonti/booklet/tipografia-comment402/manifest.json",
+        "metadati_originali": "risorse-condivise/fonti/booklet/tipografia-comment402/originals/Sora-METADATA.pb",
+        "distribuzione": "https://github.com/google/fonts/tree/main/ofl/sora",
+        "url_file": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/Sora%5Bwght%5D.ttf",
+        "repository_progetto": "https://github.com/sora-xor/sora-font",
+        "designer_da_metadati": "Jonathan Barnbrook, Julián Moncada"
+      },
+      "licenza_id": "sora-ofl-1.1"
+    },
+    {
+      "id": "noto-sans-jp-tondo-variabile",
+      "percorso": "risorse-condivise/font/editoriali/noto-sans-jp-tondo-variabile.ttf",
+      "sha256": "c2f3b4d463500a2ddcd3849cded1fceeb9fd6d1c32e6cbecd568453ba50fc68f",
+      "byte": 9589900,
+      "famiglia": "Noto Sans JP",
+      "famiglia_typst": "Noto Sans JP",
+      "stile": "tondo",
+      "nome_file_originale": "NotoSansJP[wght].ttf",
+      "percorso_originale": null,
+      "ruolo": "Solo fallback per gli script mancanti nei font editoriali; non sostituisce DM Sans o Sora.",
+      "provenienza": {
+        "nota": "File ufficiale completo scaricato con nome canonico descrittivo; nessun subset, conversione o altra trasformazione. Nessuna copia Noto Sans JP trovata nelle cartelle assets e public prima dell’acquisizione.",
+        "distribuzione": "https://github.com/google/fonts/tree/main/ofl/notosansjp",
+        "url_file": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/NotoSansJP%5Bwght%5D.ttf",
+        "url_metadati": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/METADATA.pb",
+        "repository_progetto": "https://github.com/notofonts/noto-cjk",
+        "commit_upstream_da_metadati": "523d033d6cb47f4a80c58a35753646f5c3608a78",
+        "designer_da_metadati": "Google",
+        "data_acquisizione": "2026-10-21"
+      },
+      "assi_variabili": [
+        {
+          "tag": "wght",
+          "min": 100,
+          "default": 100,
+          "max": 900
+        }
+      ],
+      "verifica": {
+        "comando_famiglia": "typst fonts --font-path risorse-condivise/font/editoriali --ignore-system-fonts --ignore-embedded-fonts --variants",
+        "famiglia_rilevata": "Noto Sans JP",
+        "formato": "TrueType variabile",
+        "supporto_cmap": {
+          "浮": {
+            "unicode": "U+6D6E",
+            "glifo": 7639
+          },
+          "世": {
+            "unicode": "U+4E16",
+            "glifo": 2408
+          },
+          "絵": {
+            "unicode": "U+7D75",
+            "glifo": 10134
+          }
+        },
+        "metodo_supporto": "Lettura della tabella cmap originale: tutti e tre i caratteri hanno un indice glifo diverso da zero.",
+        "fallback_typst": "Compilazione isolata riuscita senza avvisi con font (DM Sans 9pt, Noto Sans JP), peso400, --ignore-system-fonts e --ignore-embedded-fonts; testo di verifica Ukiyo-e: 浮世絵."
+      },
+      "licenza_id": "noto-sans-jp-ofl-1.1"
+    },
+    {
+      "id": "noto-sans-sc-tondo-variabile",
+      "percorso": "risorse-condivise/font/editoriali/noto-sans-sc-tondo-variabile.ttf",
+      "sha256": "a3041811a78c361b1de50f953c805e0244951c21c5bd412f7232ef0d899af0da",
+      "byte": 17772300,
+      "famiglia": "Noto Sans SC",
+      "famiglia_typst": "Noto Sans SC",
+      "stile": "tondo",
+      "nome_file_originale": "NotoSansSC[wght].ttf",
+      "percorso_originale": null,
+      "ruolo": "Fallback per i caratteri cinesi assenti in DM Sans e Noto Sans JP; non sostituisce il testo latino o giapponese.",
+      "provenienza": {
+        "nota": "Font ufficiale completo scaricato senza conversioni, modifiche o subset. Necessario per il carattere劳 nella didascalia nativa麦当劳.",
+        "distribuzione": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+        "url_file": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/NotoSansSC%5Bwght%5D.ttf"
+      },
+      "verifica": {
+        "cmap": "reports/typst-booklet/06-tipografia/noto-sans-sc-cmap.json",
+        "glifi_verificati": "麦当劳星巴克浮世絵"
+      },
+      "licenza_id": "noto-sans-sc-ofl-1.1"
+    }
+  ],
+  "licenze": [
+    {
+      "id": "dm-sans-ofl-1.1",
+      "nome": "SIL Open Font License 1.1",
+      "identificatore_spdx": "OFL-1.1",
+      "copyright": "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)",
+      "percorso": "risorse-condivise/font/editoriali/dm-sans-licenza.txt",
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "percorso_originale": "risorse-condivise/fonti/booklet/tipografia-comment394/originals/DMSans-OFL.txt",
+      "copia_identica_all_originale": true,
+      "url_fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/OFL.txt"
+    },
+    {
+      "id": "sora-ofl-1.1",
+      "nome": "SIL Open Font License 1.1",
+      "identificatore_spdx": "OFL-1.1",
+      "copyright": "Copyright 2019 The Sora Project Authors (https://github.com/sora-xor/sora-font)",
+      "percorso": "risorse-condivise/font/editoriali/sora-licenza.txt",
+      "sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299",
+      "percorso_originale": "risorse-condivise/fonti/booklet/tipografia-comment402/originals/Sora-OFL.txt",
+      "copia_identica_all_originale": true,
+      "url_fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/sora/OFL.txt"
+    },
+    {
+      "id": "noto-sans-jp-ofl-1.1",
+      "nome": "SIL Open Font License 1.1",
+      "identificatore_spdx": "OFL-1.1",
+      "copyright": "Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'",
+      "percorso": "risorse-condivise/font/editoriali/noto-sans-jp-licenza.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "byte": 4388,
+      "percorso_originale": null,
+      "url_fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosansjp/OFL.txt",
+      "nota": "Licenza originale scaricata senza modifiche dalla stessa distribuzione del font."
+    },
+    {
+      "id": "noto-sans-sc-ofl-1.1",
+      "nome": "SIL Open Font License1.1",
+      "identificatore_spdx": "OFL-1.1",
+      "copyright": "Copyright 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'",
+      "percorso": "risorse-condivise/font/editoriali/noto-sans-sc-licenza.txt",
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9",
+      "byte": 4388,
+      "percorso_originale": null,
+      "url_fonte": "https://raw.githubusercontent.com/google/fonts/main/ofl/notosanssc/OFL.txt",
+      "nota": "Licenza originale della stessa distribuzione, conservata senza modifiche."
+    }
+  ]
+}

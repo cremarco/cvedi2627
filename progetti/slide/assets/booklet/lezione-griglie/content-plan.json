@@ -1,0 +1,1147 @@
+{
+  "version": 1,
+  "sourceFile": "progetti/booklet/capitoli/07-griglia.typ",
+  "sections": [
+    {
+      "number": 1,
+      "title": "Dallo spazio alla struttura",
+      "sourceHeading": "Dallo spazio alla struttura",
+      "description": "Allineamenti, intervalli e priorità rendono leggibili le relazioni."
+    },
+    {
+      "number": 2,
+      "title": "Una storia di sistemi e scelte",
+      "sourceHeading": "Una storia di sistemi e scelte",
+      "description": "Un metodo condiviso permette di coordinare pubblicazioni e formati diversi."
+    },
+    {
+      "number": 3,
+      "title": "Anatomia e costruzione",
+      "sourceHeading": "Anatomia e costruzione",
+      "description": "Definire il campo utile, calcolare le misure e provare i contenuti."
+    },
+    {
+      "number": 4,
+      "title": "Tipologie e pagina editoriale",
+      "sourceHeading": "Tipologie e pagina editoriale",
+      "description": "Scegliere una struttura in funzione del percorso di lettura."
+    },
+    {
+      "number": 5,
+      "title": "Proporzioni e rottura",
+      "sourceHeading": "Proporzioni e rottura",
+      "description": "Mettere alla prova proporzioni e variazioni della regola."
+    },
+    {
+      "number": 6,
+      "title": "Dal foglio al viewport",
+      "sourceHeading": "Dal foglio al viewport",
+      "description": "Descrivere come il layout cambia insieme allo spazio disponibile."
+    },
+    {
+      "number": 7,
+      "title": "Leggere, progettare, verificare",
+      "sourceHeading": "Leggere, progettare, verificare",
+      "description": "Osservare i contenuti, formulare regole e registrarne i limiti."
+    }
+  ],
+  "slides": [
+    {
+      "slug": "relazioni-struttura",
+      "title": "Dare struttura alle relazioni",
+      "section": 1,
+      "lead": "La griglia stabilisce riferimenti comuni per organizzare contenuti con compiti diversi.",
+      "points": [
+        "Margini, allineamenti e intervalli rendono riconoscibili inizi, gruppi e pause.",
+        "Nel confronto cambiano i rapporti fra gli stessi elementi, prima ancora della loro forma."
+      ],
+      "figures": [
+        "359"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Dallo spazio alla struttura",
+      "fullWidth": true
+    },
+    {
+      "slug": "relazioni-appuntamenti",
+      "title": "Allineamenti per confrontare",
+      "section": 1,
+      "lead": "Date e azioni tornano sulle stesse verticali nella lista di appuntamenti simulata.",
+      "points": [
+        "Il bianco separa le prenotazioni e tiene vicini etichetta e valore.",
+        "Per verificare la scelta, chiedere di individuare una data e osservare esitazioni, errori e percorso."
+      ],
+      "figures": [
+        "360"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Rendere visibili le relazioni"
+    },
+    {
+      "slug": "relazioni-griglia-layout-gerarchia",
+      "title": "Griglia, layout e gerarchia",
+      "section": 1,
+      "lead": "La griglia descrive possibilità; il layout è la disposizione concreta; la gerarchia stabilisce le priorità.",
+      "points": [
+        "Lo stesso reticolo accoglie immagini che occupano due, tre o quattro colonne.",
+        "Dimensione, peso, posizione, contrasto e distanza distinguono i ruoli: l'allineamento da solo non basta."
+      ],
+      "figures": [
+        "361"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Griglia, layout e gerarchia"
+    },
+    {
+      "slug": "relazioni-bianco-misura",
+      "title": "Il bianco ha una misura",
+      "section": 1,
+      "lead": "Una scala di spaziatura ripete rapporti coerenti fra distanze con compiti diversi.",
+      "points": [
+        "Nell'esempio: 8 dentro il gruppo, 16 fra gruppi, 32 fra sezioni; sono unità convenzionali."
+      ],
+      "figures": [
+        "362"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Il bianco ha una misura"
+    },
+    {
+      "slug": "storia-metodo-esplicito",
+      "title": "Un metodo esplicito",
+      "section": 2,
+      "lead": "Nel manuale del 1981, Josef Müller-Brockmann mette in rapporto formato, margini, colonne, suddivisioni e caratteri.",
+      "points": [
+        "Riferimenti condivisi permettono di comporre pagine diverse e confrontare le decisioni.",
+        "Il diagramma interpreta il metodo: non riproduce le tavole del libro. Contenuti diversi possono richiedere un'altra griglia."
+      ],
+      "figures": [
+        "364"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Un metodo esplicito"
+    },
+    {
+      "slug": "storia-musica-viva",
+      "title": "Musica Viva, 1957",
+      "section": 2,
+      "lead": "Nel manifesto di Josef Müller-Brockmann, quattro campi verticali raccolgono le informazioni del concerto.",
+      "points": [
+        "In basso, segni obliqui e superficie libera costruiscono un ritmo distinto dal testo.",
+        "Osservare inizi dei blocchi e pause descrive relazioni visibili; non ricostruisce il reticolo originale dell'autore."
+      ],
+      "figures": [
+        "365"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Musica Viva, 1957"
+    },
+    {
+      "slug": "storia-unigrid",
+      "title": "Unigrid: un sistema editoriale",
+      "section": 2,
+      "lead": "Nel 1977 Vincent Gleason coinvolge Massimo Vignelli nel sistema di pubblicazioni del National Park Service.",
+      "points": [
+        "Unigrid coordina formati, pieghe, tipografia e produzione su pannelli di base di 4 × 8¼ pollici.",
+        "Clara Barton, 1978, è la prima brochure per un parco: osservate testata, colonne, cronologia e mappa."
+      ],
+      "figures": [
+        "366"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Unigrid: un sistema editoriale"
+    },
+    {
+      "slug": "storia-coordinare-variazioni",
+      "title": "Coordinare senza uniformare",
+      "section": 2,
+      "lead": "Mappa, cronologia e testo richiedono campi diversi, pur condividendo riferimenti riconoscibili.",
+      "points": [
+        "Nei tre pannelli schematici la testata torna alla stessa quota, mentre cambia la disposizione sottostante.",
+        "Contenuti differenti devono trovare spazio senza perdere significato."
+      ],
+      "figures": [
+        "367"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Coordinare senza uniformare"
+    },
+    {
+      "slug": "anatomia-campo-utile",
+      "title": "Definire il campo utile",
+      "section": 3,
+      "lead": "Prima del numero di colonne si definiscono lo spazio disponibile e i contenuti da ospitare.",
+      "points": [
+        "Nel libro, margine interno, margine esterno e piede rispondono a dorso, taglio e folio.",
+        "Nell'interfaccia contano anche finestra, navigazione e aree riservate ai controlli."
+      ],
+      "figures": [
+        "369"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Anatomia e costruzione"
+    },
+    {
+      "slug": "anatomia-reticolo",
+      "title": "Leggere il reticolo",
+      "section": 3,
+      "lead": "Colonne e fasce individuano moduli; un'area può attraversarne diversi.",
+      "points": [
+        "Le suddivisioni chiare mostrano la costruzione, gli ingombri più intensi mostrano il layout; le linee di flusso coordinano gli inizi."
+      ],
+      "figures": [
+        "370"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Leggere il reticolo",
+      "fullWidth": true
+    },
+    {
+      "slug": "anatomia-documento",
+      "title": "Distinguere le parti della griglia",
+      "section": 3,
+      "lead": "Segni e colori distinguono colonne, righe, margini e gutter nel documento.",
+      "points": [
+        "La colonna magenta è un campo verticale; la riga azzurra attraversa il reticolo. Le colonne suddividono la larghezza, le righe coordinano quote e altezze.",
+        "Il sottile intervallo verde è l’intercolonna fra due colonne; il margine, indicato sul bordo destro, separa il campo utile dal bordo della pagina."
+      ],
+      "figures": [
+        "2024-102-anatomia"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Leggere il reticolo"
+    },
+    {
+      "slug": "anatomia-calcolo-colonne",
+      "title": "Calcolare colonne uguali",
+      "section": 3,
+      "lead": "Prima sottraete margini e intercolonne; poi dividete lo spazio rimasto.",
+      "points": [
+        "W: larghezza totale; L e R: margini; g: intercolonna; n: colonne.",
+        "Fra n colonne ci sono n − 1 intervalli: tre colonne, due intercolonne."
+      ],
+      "figures": [
+        "371"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Calcolare e verificare",
+      "formula": "c = \\frac{W - L - R - (n - 1)\\,g}{n}",
+      "example": {
+        "text": "Misure in mm: W = 170, L = 15, R = 18, g = 5; n = 2.",
+        "tex": "c = \\frac{170 - 15 - 18 - 5}{2}\\,\\mathrm{mm} = 66\\,\\mathrm{mm}"
+      }
+    },
+    {
+      "slug": "anatomia-span",
+      "title": "Occupare più colonne",
+      "section": 3,
+      "lead": "Un elemento su più colonne contigue comprende anche le intercolonne interne.",
+      "points": [
+        "s è la larghezza occupata, k il numero di colonne, c la larghezza di ogni colonna e g l’intercolonna.",
+        "Con colonne asimmetriche si sommano le diverse larghezze e gli intervalli compresi nell’area."
+      ],
+      "figures": [],
+      "minutes": 1,
+      "sourceHeading": "Calcolare e verificare",
+      "formula": "s = k\\,c + (k - 1)\\,g",
+      "example": {
+        "text": "Esempio: due colonne da 66 mm e un’intercolonna da 5 mm.",
+        "tex": "s = (2 \\cdot 66 + 5)\\,\\mathrm{mm} = 137\\,\\mathrm{mm}"
+      }
+    },
+    {
+      "slug": "anatomia-spazi-esterni-interni",
+      "title": "Margine, gutter e padding",
+      "section": 3,
+      "lead": "Bordo e campo, schede adiacenti, contenuto e limite della scheda richiedono distanze distinte.",
+      "points": [
+        "In CSS, margin è esterno all'elemento; gap può separare le tracce; padding è interno.",
+        "A parità di ingombro, più padding lascia meno spazio al contenuto. Distanze aggiunte in punti diversi si sommano."
+      ],
+      "figures": [
+        "materiali-spazi"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Margine, intercolonna e spazio interno"
+    },
+    {
+      "slug": "anatomia-box-sizing-confronto",
+      "title": "La stessa width, due ingombri",
+      "section": 3,
+      "lead": "box-sizing stabilisce quale riquadro misura width. Il margine resta esterno.",
+      "points": [],
+      "figures": [
+        "didattica-box-sizing"
+      ],
+      "fullWidth": true,
+      "minutes": 1.5,
+      "sourceHeading": "Margine, intercolonna e spazio interno",
+      "sources": [
+        {
+          "label": "W3C · box-sizing",
+          "url": "https://www.w3.org/TR/css-sizing-3/#box-sizing"
+        }
+      ],
+      "origin": "teaching-supplement",
+      "kind": "teaching-figure",
+      "formula": "(240 - 2 \\cdot 16 - 2 \\cdot 1)\\,\\mathrm{px} = 206\\,\\mathrm{px}"
+    },
+    {
+      "slug": "anatomia-linee-base",
+      "title": "Coordinare le linee di base",
+      "section": 3,
+      "lead": "Una griglia di base ripete riferimenti orizzontali per coordinare le righe di testo.",
+      "points": [
+        "Con passo di 14 pt, le baseline 20–34–48 e 23–37–51 sono sfalsate di 3 pt: va allineata anche la quota iniziale.",
+        "Dopo un titolo si calcolano anche le distanze; note e didascalie possono seguire ritmi propri."
+      ],
+      "figures": [
+        "372"
+      ],
+      "minutes": 1,
+      "sourceHeading": "La griglia delle linee di base"
+    },
+    {
+      "slug": "anatomia-contenuti-reali",
+      "title": "Provare contenuti reali",
+      "section": 3,
+      "lead": "Un titolo su due righe, un'immagine verticale e un elenco mettono alla prova lo stesso reticolo.",
+      "points": [
+        "Estendere il campione con casi ordinari e casi limite: didascalie lunghe, nomi propri e ingombri differenti.",
+        "Se servono sempre correzioni locali, rivedere colonne, intervalli o occupazioni prima di estendere il sistema."
+      ],
+      "figures": [
+        "373"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Costruire con contenuti reali"
+    },
+    {
+      "slug": "tipologie-quattro-logiche",
+      "title": "Quattro logiche di organizzazione",
+      "section": 4,
+      "lead": "Blocco, colonne, moduli e aree gerarchiche rispondono a esigenze di lettura diverse.",
+      "points": [
+        "Testo continuo, confronto, ritmo delle immagini e priorità orientano la scelta.",
+        "Le categorie possono combinarsi: una griglia modulare può avere un'area dominante e una a colonne ospitare testo continuo."
+      ],
+      "figures": [
+        "374"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Tipologie e pagina editoriale"
+    },
+    {
+      "slug": "tipologie-blocco",
+      "title": "Una colonna, una sequenza",
+      "section": 4,
+      "lead": "La griglia a blocco affida il discorso a un campo principale e a un ordine verticale riconoscibile.",
+      "points": [
+        "La nota resta subordinata al richiamo nel testo, senza avviare un discorso parallelo.",
+        "La misura della riga dipende da corpo, carattere, interlinea e distanza di lettura; allargare la colonna non impone di riempire la pagina."
+      ],
+      "figures": [
+        "375"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Una colonna, una sequenza"
+    },
+    {
+      "slug": "tipologie-colonne",
+      "title": "Colonne per confrontare",
+      "section": 4,
+      "lead": "Una base di sei unità consente occupazioni 3 + 3, 2 + 4 e 1 + 5.",
+      "points": [
+        "Testo, immagine e didascalia possono occupare larghezze diverse, mantenendo riferimenti comuni.",
+        "La divisibilità offre possibilità: una fascia stretta può ospitare una nota breve, ma non necessariamente un lungo testo leggibile.",
+        "I numeri contano le colonne occupate; con le intercolonne non sono rapporti esatti fra le larghezze risultanti."
+      ],
+      "figures": [
+        "376"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Colonne per confrontare"
+    },
+    {
+      "slug": "tipologie-ordine-colonne",
+      "title": "Rendere chiaro l'ordine",
+      "section": 4,
+      "lead": "Due colonne possono continuare lo stesso discorso oppure ospitare contenuti autonomi.",
+      "points": [
+        "Un articolo prosegue dalla fine della colonna sinistra all’inizio della destra.",
+        "Due servizi hanno ciascuno titolo, data e azione: ogni scheda si legge come unità completa."
+      ],
+      "figures": [
+        "didattica-ordine-colonne"
+      ],
+      "minutes": 0.5,
+      "sourceHeading": "Colonne per confrontare",
+      "fullWidth": true
+    },
+    {
+      "slug": "tipologie-dodici-colonne",
+      "title": "Perché dodici colonne",
+      "section": 4,
+      "lead": "Dodici è divisibile per due, tre e quattro: consente occupazioni 6 + 6, 4 + 4 + 4 e 3 + 3 + 3 + 3.",
+      "points": [
+        "Sono possibilità di occupazione: ogni gruppo deve conservare una misura leggibile."
+      ],
+      "figures": [
+        "materiali-dodici"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Perché dodici colonne"
+    },
+    {
+      "slug": "tipologie-due-assetti",
+      "title": "Gli stessi contenuti, due assetti",
+      "section": 4,
+      "lead": "Titolo, presentazione, programma e immagine restano uguali; cambia la distribuzione dello spazio.",
+      "points": [
+        "Confrontare misura delle righe, peso dell'immagine e percorso: l'asimmetria non rende automaticamente migliore il layout."
+      ],
+      "figures": [
+        "377"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Gli stessi contenuti, due assetti",
+      "fullWidth": true
+    },
+    {
+      "slug": "tipologie-documento-editoriale",
+      "title": "Leggere una doppia pagina",
+      "section": 4,
+      "lead": "Le guide sovrapposte rendono visibili allineamenti e divisioni del campo nella doppia pagina «Muscoli & zucchero».",
+      "points": [
+        "Testi, fotografie e riquadri occupano porzioni diverse della stessa struttura.",
+        "Individuate due quote comuni e un elemento che attraversa più colonne; spiegate quale ordine di lettura suggeriscono."
+      ],
+      "figures": [
+        "2024-103-editoriale"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Gli stessi contenuti, due assetti"
+    },
+    {
+      "slug": "tipologie-modulare",
+      "title": "La griglia modulare",
+      "section": 4,
+      "lead": "Le suddivisioni orizzontali incontrano le colonne e formano moduli per campi ricorrenti.",
+      "points": [
+        "Quote comuni rendono confrontabili immagine, nome e dati; un contenuto può occupare più unità.",
+        "Con descrizioni lunghe, decidere se la riga segue l'elemento maggiore o se le schede crescono autonomamente, poi verificare gli allineamenti."
+      ],
+      "figures": [
+        "378"
+      ],
+      "minutes": 1,
+      "sourceHeading": "La griglia modulare"
+    },
+    {
+      "slug": "tipologie-gerarchica",
+      "title": "Gerarchia e asimmetria",
+      "section": 4,
+      "lead": "Aree di misura diversa possono rendere riconoscibili priorità differenti.",
+      "points": [
+        "Nell'esempio la notizia principale domina; aggiornamento e servizio condividono una verticale laterale.",
+        "Ogni nuova misura deve esprimere una differenza: variazioni arbitrarie fra elementi dello stesso ruolo suggeriscono priorità inesistenti."
+      ],
+      "figures": [
+        "379"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Gerarchia e asimmetria"
+    },
+    {
+      "slug": "tipologie-dorso",
+      "title": "Progettare la doppia pagina",
+      "section": 4,
+      "lead": "Un libro aperto è un'unità di due pagine, attraversata dal limite fisico della rilegatura.",
+      "points": [
+        "Spostare i dettagli essenziali dal dorso conserva il soggetto in un campo leggibile.",
+        "La pagina pari è a sinistra, la dispari a destra: dopo un inserimento, ricontrollare gli accoppiamenti interessati."
+      ],
+      "figures": [
+        "380"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Progettare la doppia pagina"
+    },
+    {
+      "slug": "terzi-aureo",
+      "title": "Terzi e proporzioni auree",
+      "section": 5,
+      "lead": "Costruito il reticolo, le proporzioni suggeriscono divisioni del campo da provare con i contenuti.",
+      "points": [
+        "I terzi dividono il rettangolo a circa 33,3% e 66,7%; le divisioni auree sono a circa 38,2% e 61,8%.",
+        "Le linee non coincidono: sono due ipotesi compositive diverse."
+      ],
+      "figures": [
+        "389"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Proporzioni e rottura",
+      "sources": [
+        {
+          "label": "Adobe · Uso e limiti della regola dei terzi",
+          "url": "https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html"
+        }
+      ]
+    },
+    {
+      "slug": "aureo-leggere-rapporto",
+      "title": "Leggere il rapporto aureo",
+      "section": 5,
+      "lead": "Il totale sta alla parte maggiore come la parte maggiore sta alla minore.",
+      "formula": "\\frac{a + b}{a} = \\frac{a}{b} = \\varphi,\\qquad a > b > 0",
+      "points": [],
+      "figures": [
+        "didattica-rapporto-aureo"
+      ],
+      "fullWidth": true,
+      "minutes": 1,
+      "sourceHeading": "Aureo, _Fibonacci_ e spirale",
+      "origin": "teaching-supplement",
+      "kind": "teaching-figure"
+    },
+    {
+      "slug": "aureo-fibonacci",
+      "title": "Aureo, Fibonacci e spirale",
+      "section": 5,
+      "lead": "Fibonacci parte da 1 e 1: ogni nuovo termine è la somma dei due precedenti.",
+      "points": [
+        "φ ≈ 1,618. I rapporti fra termini consecutivi si avvicinano a φ: 8/5 = 1,6; 13/8 = 1,625.",
+        "I quarti di cerchio approssimano una spirale, senza coincidere con la spirale aurea. La proporzione matematica non garantisce il valore estetico."
+      ],
+      "figures": [
+        "390"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Aureo, _Fibonacci_ e spirale"
+    },
+    {
+      "slug": "april-greiman",
+      "title": "April Greiman, 1986",
+      "section": 5,
+      "lead": "In DOES IT MAKE SENSE?, Design Quarterly 133, il corpo digitalizzato attraversa il campo.",
+      "points": [
+        "Immagini, segni e testi introducono centri di attenzione e scale differenti. La testimonianza dell’autrice descrive il passaggio da video a pixel; sovrapposizioni e cambi di scala non dimostrano l’assenza di struttura."
+      ],
+      "figures": [
+        "391"
+      ],
+      "fullWidth": true,
+      "minutes": 1,
+      "sourceHeading": "_April Greiman_, 1986",
+      "sources": [
+        {
+          "label": "MoMA · Scheda e testimonianza di April Greiman",
+          "url": "https://www.moma.org/audio/playlist/297/4835"
+        }
+      ],
+      "figureTexts": {
+        "391": {
+          "caption": "April Greiman, DOES IT MAKE SENSE?, Design Quarterly 133, 1986. Vista complessiva dell’opera.",
+          "alt": "April Greiman, DOES IT MAKE SENSE?, Design Quarterly 133, 1986. Vista complessiva dell’opera."
+        }
+      }
+    },
+    {
+      "slug": "uscire-dalla-griglia",
+      "title": "Uscire dalla griglia con uno scopo",
+      "section": 5,
+      "lead": "Una deroga è leggibile quando resta riconoscibile il sistema dal quale si allontana.",
+      "points": [
+        "Nel diagramma un elemento attraversa due campi, mentre margini, corpo e allineamenti del testo conservano la regola comune.",
+        "La variazione deve conservare la leggibilità di testo e didascalie e rispettare taglio e dorso."
+      ],
+      "figures": [
+        "392"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Uscire dalla griglia con uno scopo"
+    },
+    {
+      "slug": "viewport-comportamento",
+      "title": "La griglia diventa comportamento",
+      "section": 6,
+      "lead": "Dalla pagina allo schermo, la griglia descrive anche come cambia la disposizione dei contenuti.",
+      "points": [
+        "Il viewport è l’area in cui il browser dispone la pagina; la sua larghezza in pixel CSS varia con finestra, orientamento e zoom.",
+        "Il confronto mostra misure fisse, fluidità e campi che si impilano: il responsive può combinare questi comportamenti."
+      ],
+      "figures": [
+        "381"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Dal foglio al viewport",
+      "sources": [
+        {
+          "label": "Google · Macro layout",
+          "url": "https://web.dev/learn/design/macro-layouts"
+        }
+      ]
+    },
+    {
+      "slug": "fisso-fluido-ibrido",
+      "title": "Fisso, fluido e ibrido",
+      "section": 6,
+      "lead": "Una misura costante e una flessibile possono convivere nello stesso layout.",
+      "points": [
+        "Nel confronto il menu conserva la propria larghezza, mentre il campo principale segue lo spazio disponibile.",
+        "Minimi, massimi e ritorno a capo limitano la fluidità; quando lo spazio non basta occorre cambiare anche la disposizione della navigazione."
+      ],
+      "figures": [
+        "382"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Fisso, fluido e ibrido"
+    },
+    {
+      "slug": "contenitore-fluido-limite",
+      "title": "Un contenitore fluido con un limite",
+      "section": 6,
+      "lead": "Il campo segue la finestra fino al massimo, poi cresce lo spazio esterno.",
+      "points": [
+        "V è la larghezza disponibile e W quella del campo, con margini minimi di 24 px per lato e larghezza massima di 960 px. Con V pari a 720 px il campo misura 672 px; con 1280 px raggiunge 960 px.",
+        "max-width limita la larghezza: centratura e margini richiedono altre regole. Raggiungere il massimo non equivale a introdurre un breakpoint."
+      ],
+      "figures": [
+        "materiali-contenitore"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Un contenitore fluido con un limite",
+      "sources": [
+        {
+          "label": "MDN · max-width",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width"
+        }
+      ],
+      "formula": "W = \\min\\bigl(V - 48\\,\\mathrm{px},\\;960\\,\\mathrm{px}\\bigr)"
+    },
+    {
+      "slug": "breakpoint-contenuto",
+      "title": "La soglia nasce dal contenuto",
+      "section": 6,
+      "lead": "Un breakpoint cambia una regola quando il contenuto smette di funzionare.",
+      "points": [
+        "Due schede da almeno 240 px, compresi bordi e spazi interni, un intervallo da 24 e margini da 24 richiedono 552 px nel contenitore; sotto, le schede si impilano.",
+        "Si provano larghezze appena sotto e sopra la soglia, testi lunghi e ingrandimento. I pixel CSS sono unità logiche, diverse dai pixel fisici."
+      ],
+      "figures": [
+        "383"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Scegliere i punti di cambiamento",
+      "sources": [
+        {
+          "label": "Google · Media query",
+          "url": "https://web.dev/learn/design/media-queries"
+        }
+      ]
+    },
+    {
+      "slug": "query-viewport-contenitore",
+      "title": "Viewport o contenitore?",
+      "section": 6,
+      "lead": "La media query sulla larghezza legge il viewport; la container query legge la larghezza di un contenitore predisposto.",
+      "points": [],
+      "figures": [
+        "didattica-query-contenitore"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Scegliere i punti di cambiamento",
+      "sources": [
+        {
+          "label": "MDN · Container query",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+        }
+      ],
+      "fullWidth": true,
+      "kind": "teaching-figure"
+    },
+    {
+      "slug": "golden-grid-system",
+      "title": "Golden Grid System",
+      "section": 6,
+      "lead": "La griglia fluida e ripiegabile di Joni Korpi è un esempio storico.",
+      "points": [
+        "Diciotto colonne uguali comprendono due margini e sedici colonne disponibili: i gruppi si accorpano in otto o quattro campi più larghi.",
+        "Il nome non indica una proporzione aurea; il repository conserva un sistema storico, da valutare per il proprio prodotto."
+      ],
+      "figures": [
+        "384"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Golden Grid System",
+      "sources": [
+        {
+          "label": "Joni Korpi · Repository originale",
+          "url": "https://github.com/jonikorpi/Golden-Grid-System"
+        }
+      ]
+    },
+    {
+      "slug": "ibm-2x-grid",
+      "title": "IBM e la 2x Grid",
+      "section": 6,
+      "lead": "Una misura di base coordina spazi e oggetti, mentre le colonne possono cambiare.",
+      "points": [
+        "Carbon usa una mini unità quadrata di 8 pixel e rapporti costruiti moltiplicando o dividendo per due; la documentazione consultata prevede 4, 8 o 16 colonne.",
+        "Sono valori del sistema IBM. Il diagramma mostra il principio di suddivisione: occupazioni, spazi interni e componenti richiedono regole ulteriori."
+      ],
+      "figures": [
+        "385"
+      ],
+      "minutes": 1,
+      "sourceHeading": "IBM e la 2x Grid",
+      "sources": [
+        {
+          "label": "IBM Carbon · 2x Grid, consultato il 21 ottobre 2026",
+          "url": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview"
+        }
+      ]
+    },
+    {
+      "slug": "griglia-componenti",
+      "title": "Dalla pagina al componente",
+      "section": 6,
+      "lead": "Occupare quattro colonne non risolve il layout interno di una scheda.",
+      "points": [
+        "Titolo, descrizione, stato e azione mantengono un ordine anche quando cambia la lunghezza del testo.",
+        "Nel confronto le schede crescono con il contenuto: un comando a quota fissa rischierebbe di sovrapporsi alla descrizione più lunga."
+      ],
+      "figures": [
+        "386"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Dalla griglia ai componenti",
+      "fullWidth": true
+    },
+    {
+      "slug": "grid-flexbox",
+      "title": "CSS Grid e Flexbox",
+      "section": 6,
+      "lead": "Grid allinea le tracce fra le righe; Flexbox con crescita distribuisce lo spazio riga per riga.",
+      "points": [],
+      "figures": [
+        "didattica-grid-flexbox"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Dalla griglia ai componenti",
+      "sources": [
+        {
+          "label": "MDN · Grid e altri metodi di layout",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods"
+        }
+      ],
+      "fullWidth": true,
+      "kind": "teaching-figure"
+    },
+    {
+      "slug": "immagine-conservare-soggetto",
+      "title": "Conservare il soggetto",
+      "section": 6,
+      "lead": "Ridimensionare, ritagliare e cambiare inquadratura producono risultati differenti.",
+      "points": [
+        "object-fit: contain conserva l’immagine intera; cover riempie il campo mantenendo le proporzioni e taglia l’eccedenza. object-position controlla l’allineamento.",
+        "Nello stesso contenitore il ritaglio centrale perde il soggetto laterale; spostare l’inquadratura lo conserva. Si controllano volti, testo e dettaglio discusso nella didascalia."
+      ],
+      "figures": [
+        "materiali-immagini"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Adattare l'immagine, conservare il soggetto",
+      "sources": [
+        {
+          "label": "MDN · object-fit",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit"
+        },
+        {
+          "label": "MDN · object-position",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-position"
+        }
+      ]
+    },
+    {
+      "slug": "immagine-risoluzione-inquadratura",
+      "title": "Risoluzione e inquadratura",
+      "section": 6,
+      "lead": "srcset e sizes aiutano a scegliere la risorsa della stessa scena; picture può proporre un’inquadratura diversa.",
+      "points": [],
+      "figures": [
+        "didattica-immagini-scelte"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Risoluzione e inquadratura sono due scelte",
+      "sources": [
+        {
+          "label": "WHATWG · Immagini adattabili",
+          "url": "https://html.spec.whatwg.org/multipage/images.html#adaptive-images"
+        }
+      ],
+      "fullWidth": true,
+      "kind": "teaching-figure"
+    },
+    {
+      "slug": "vogue-confronto-responsive",
+      "title": "Vogue Italia: due disposizioni",
+      "section": 6,
+      "lead": "Le schermate sono storiche; la data di cattura non è attestata.",
+      "points": [
+        "Sul telefono la testata si compatta, il titolo occupa più righe e In the bag segue la copertina: si conservano soggetti e ruoli.",
+        "Il menu è presente in entrambe le viste. Due schermate sovrapposte non rivelano voci nascoste, tracce CSS o breakpoint esatti, né descrivono necessariamente il sito attuale."
+      ],
+      "figures": [
+        "materiali-caso-responsive"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Leggere un confronto desktop e telefono"
+    },
+    {
+      "slug": "ordine-visivo-lettura",
+      "title": "Ordine visivo e ordine di lettura",
+      "section": 6,
+      "lead": "Spostare un elemento con CSS può lasciare invariata la sequenza HTML.",
+      "points": [
+        "Tecnologie assistive e tastiera possono seguire un ordine diverso da quello suggerito dalla composizione; la sequenza del documento parte dal significato.",
+        "Nel diagramma 1–2–3 si conserva anche quando i campi si impilano. Sull’interfaccia reale si confrontano documento, percorso del focus e disposizione visiva."
+      ],
+      "figures": [
+        "387"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Ordine visivo e ordine di lettura",
+      "sources": [
+        {
+          "label": "W3C · CSS Grid, ordine e accessibilità",
+          "url": "https://www.w3.org/TR/css-grid-1/#order-accessibility"
+        }
+      ]
+    },
+    {
+      "slug": "wcag-reflow",
+      "title": "Reflow: 320 px CSS",
+      "section": 6,
+      "lead": "WCAG 2.2, 1.4.10 Reflow (AA), verifica l’adattamento dello spazio.",
+      "points": [
+        "Il contenuto verticale deve funzionare a 320 px CSS senza perdite né scorrimento in due dimensioni; prova equivalente: 1280 px CSS con zoom al 400%.",
+        "L’eccezione riguarda parti che richiedono due dimensioni, come una mappa. Il diagramma mostra un rischio da cercare durante la prova: l’altezza fissa taglia il testo; non mostra da solo il passaggio a 320 px."
+      ],
+      "figures": [
+        "388"
+      ],
+      "minutes": 1.5,
+      "sourceHeading": "Reflow e testo che cresce",
+      "sources": [
+        {
+          "label": "W3C WAI · 1.4.10 Reflow",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+        },
+        {
+          "label": "Lezione 05 · prova della prenotazione",
+          "url": "/lezioni/percezione-gerarchia/#/accessibilita-demo-adattamento"
+        }
+      ]
+    },
+    {
+      "slug": "wcag-resize-text",
+      "title": "Resize Text: testo al 200%",
+      "section": 6,
+      "lead": "WCAG 2.2, 1.4.4 Resize Text (AA), verifica l’ingrandimento del testo.",
+      "points": [
+        "Con le normali funzioni del browser il testo deve poter crescere fino al 200%, senza richiedere tecnologie assistive e senza perdita di contenuti o funzionalità.",
+        "Nella prova della prenotazione, la data deve restare intera e «Conferma» raggiungibile anche con il testo ingrandito; un riquadro che taglia il comando non passa.",
+        "Sono esclusi sottotitoli dei media e immagini di testo. È una prova distinta dal reflow, da eseguire sul prodotto funzionante."
+      ],
+      "figures": [],
+      "minutes": 1,
+      "sourceHeading": "Reflow e testo che cresce",
+      "sources": [
+        {
+          "label": "W3C WAI · 1.4.4 Resize Text",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html"
+        },
+        {
+          "label": "Lezione 05 · prova della prenotazione",
+          "url": "/lezioni/percezione-gerarchia/#/accessibilita-demo-adattamento"
+        }
+      ]
+    },
+    {
+      "slug": "wcag-text-spacing",
+      "title": "Text Spacing: quattro valori insieme",
+      "section": 6,
+      "lead": "WCAG 2.2, 1.4.12 Text Spacing (AA), verifica l’adattamento alle preferenze dell’utente.",
+      "points": [
+        "Dove supportate, si modificano insieme interlinea a 1,5 volte il corpo, spazio dopo i paragrafi a 2 volte, fra lettere a 0,12 e fra parole a 0,16 volte.",
+        "Con corpo di 16 px: interlinea 24 px, spazio dopo i paragrafi 32 px, fra lettere 1,92 px e fra parole 2,56 px.",
+        "Lasciate invariati gli altri stili: contenuti e funzioni devono restare disponibili. Sono valori di prova, non lo stile iniziale."
+      ],
+      "figures": [],
+      "minutes": 1,
+      "sourceHeading": "Reflow e testo che cresce",
+      "sources": [
+        {
+          "label": "W3C WAI · 1.4.12 Text Spacing",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html"
+        }
+      ]
+    },
+    {
+      "slug": "sara-priorita",
+      "title": "Sara deve spostare un appuntamento",
+      "section": 7,
+      "lead": "Applichiamo le prove al caso simulato di Sara, che deve spostare una visita.",
+      "points": [
+        "Nel primo assetto domina una promozione; nel secondo servizio, data e modifica condividono un’area. Titolo e data diventano l’ingresso alla prenotazione.",
+        "Si chiede di spostare la visita senza indicare il comando e si osservano percorso, esitazioni ed esito. Se la funzione resta poco chiara, si rivedono anche etichetta e feedback."
+      ],
+      "figures": [
+        "394"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Sara deve spostare un appuntamento"
+    },
+    {
+      "slug": "sara-nuova-data",
+      "title": "Scegliere una nuova data",
+      "section": 7,
+      "lead": "Calendario e lista sostengono confronti diversi: la scelta dipende dal compito.",
+      "points": [
+        "La lista mostra giorni selezionabili e uno stato con etichetta; seguono orari, riepilogo e conferma. Il significato della selezione non dipende solo dal colore.",
+        "Si provano tastiera, ingrandimento e testi lunghi. Tornare indietro deve conservare il contesto; focus e stato selezionato vanno verificati nel controllo implementato."
+      ],
+      "figures": [
+        "395"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Scegliere una nuova data"
+    },
+    {
+      "slug": "layout-flusso",
+      "title": "Dal layout al flusso",
+      "section": 7,
+      "lead": "Il progetto collega gli stati: provenienza, azione disponibile e risultato.",
+      "points": [
+        "Sara controlla la nuova data prima della conferma; dopo, riconosce l’appuntamento modificato e l’esito riuscito.",
+        "Il wireframe collega queste schermate rendendo riconoscibili navigazione, azioni disponibili e feedback."
+      ],
+      "figures": [
+        "400"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Dal layout al flusso"
+    },
+    {
+      "slug": "materiali-esercizio",
+      "title": "I contenuti comuni: Luce e spazio",
+      "section": 7,
+      "lead": "Un unico kit per confrontare le proposte con gli stessi materiali.",
+      "points": [],
+      "figures": [],
+      "kind": "exercise-material",
+      "minutes": 0.5,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "origin": "teaching-supplement"
+    },
+    {
+      "slug": "materiali-immagine-formati",
+      "title": "Immagine e formati della prova",
+      "section": 7,
+      "lead": "Il cerchio giallo sul lato destro deve restare interamente visibile.",
+      "points": [
+        "Progettate a 960 e 360 px CSS: sono vincoli comuni dell’esercizio, non breakpoint universali.",
+        "Conservate questo dettaglio anche nel formato stretto, senza perdere i testi."
+      ],
+      "figures": [
+        "didattica-luce-e-spazio"
+      ],
+      "minutes": 0.5,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "origin": "teaching-supplement"
+    },
+    {
+      "slug": "matrice-prove",
+      "title": "Una matrice di prove",
+      "section": 7,
+      "lead": "Prima delle due prove, usate la matrice per registrare condizioni, esiti e correzioni.",
+      "points": [
+        "Esempio simulato: a 360 px, con titolo lungo, l’azione viene coperta. Esito: non passa. Si elimina l’altezza fissa e si riprova a 360 e 960 px.",
+        "Si registrano contenuto, larghezza e ingrandimento; poi si combinano i casi. Una correzione ricorrente richiede di ricontrollare la regola comune."
+      ],
+      "figures": [
+        "398"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Una matrice di prove"
+    },
+    {
+      "slug": "esercizio-ricomposizione",
+      "title": "Esercizio: tre strutture, stessi contenuti",
+      "section": 7,
+      "lead": "Usate il kit «Luce e spazio»: titolo, testo di 80 parole, tre appuntamenti, immagine e nota.",
+      "points": [
+        "Abbozzate tre strutture rapide: una colonna continua, una gabbia a sei unità e una modulare. Indicate ingresso, ordine di lettura e posizione della nota.",
+        "Confrontate le proposte alla stessa dimensione: osservate righe troppo lunghe, gruppi spezzati e dettagli persi nelle immagini."
+      ],
+      "figures": [
+        "397"
+      ],
+      "minutes": 8,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "activityMinutes": 8
+    },
+    {
+      "slug": "esercizio-due-larghezze",
+      "title": "Esercizio: due larghezze, una regola",
+      "section": 7,
+      "lead": "Traducete una proposta in due contenitori da 960 e 360 px CSS, mantenendo tutti i contenuti.",
+      "points": [
+        "Dichiarate margini minimi, intervalli e larghezza massima; annotate le occupazioni delle unità e quali gruppi si impilano nella variante stretta.",
+        "Registrate nella matrice una condizione di fallimento, correggete la regola e riprovate entrambi i formati."
+      ],
+      "figures": [],
+      "minutes": 7,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "activityMinutes": 7
+    },
+    {
+      "slug": "errori-griglia",
+      "title": "Leggere, progettare, verificare",
+      "section": 7,
+      "lead": "Una griglia regolare non garantisce da sola gerarchia, comprensione e significato.",
+      "points": [
+        "Leggere: ricomporre titolo e paragrafo, azione e oggetto, didascalia e figura per rendere chiare le relazioni.",
+        "Progettare: se il contenuto non entra, rivedere accorpamenti, continuazioni, figure e misura di lettura prima di ridurre il corpo.",
+        "Verificare: risalire alla causa del problema, correggere la regola e ricontrollare tutte le occorrenze."
+      ],
+      "figures": [
+        "399"
+      ],
+      "minutes": 1,
+      "sourceHeading": "Errori che la griglia non risolve"
+    }
+  ],
+  "references": [
+    {
+      "title": "Fonti: sistemi e opere",
+      "items": [
+        {
+          "label": "Josef Müller-Brockmann · Grid systems (1981)",
+          "url": "https://niggli.ch/products/rastersysteme-fur-die-visuelle-gestaltung",
+          "note": "Formato, tipografia e costruzione della griglia."
+        },
+        {
+          "label": "MoMA · Musica Viva (1957)",
+          "url": "https://www.moma.org/collection/works/4885",
+          "note": "Scheda documentaria del manifesto di Müller-Brockmann."
+        },
+        {
+          "label": "National Park Service · Unigrid",
+          "url": "https://www.nps.gov/subjects/hfc/a-brief-history-of-the-unigrid.htm",
+          "note": "Storia del sistema e prima brochure per Clara Barton."
+        },
+        {
+          "label": "MoMA · April Greiman (1986)",
+          "url": "https://www.moma.org/audio/playlist/297/4835",
+          "note": "Opera e testimonianza della designer."
+        },
+        {
+          "label": "Joni Korpi · Golden Grid System",
+          "url": "https://github.com/jonikorpi/Golden-Grid-System",
+          "note": "Repository originale archiviato; codice con licenza MIT."
+        },
+        {
+          "label": "IBM Carbon · 2x Grid",
+          "url": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview",
+          "note": "Mini unità, divisioni e comportamenti del sistema."
+        }
+      ]
+    },
+    {
+      "title": "Fonti: layout e immagini",
+      "items": [
+        {
+          "label": "W3C · CSS Grid Layout",
+          "url": "https://www.w3.org/TR/css-grid-1/",
+          "note": "Linee, tracce, aree e rapporto con l’ordine del documento."
+        },
+        {
+          "label": "W3C · box-sizing",
+          "url": "https://www.w3.org/TR/css-sizing-3/#box-sizing",
+          "note": "Limiti del riquadro e significato della larghezza."
+        },
+        {
+          "label": "MDN · Grid e altri metodi di layout",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods",
+          "note": "Confronto fra coordinamento bidimensionale e righe Flexbox."
+        },
+        {
+          "label": "WHATWG · Immagini adattabili",
+          "url": "https://html.spec.whatwg.org/multipage/images.html#adaptive-images",
+          "note": "Risorse candidate, spazio previsto e direzione artistica."
+        },
+        {
+          "label": "MDN · object-fit e object-position",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit",
+          "note": "Adattamento dell’immagine e controllo dell’inquadratura."
+        },
+        {
+          "label": "MDN · max-width",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width",
+          "note": "Limite massimo della larghezza del contenitore."
+        }
+      ]
+    },
+    {
+      "title": "Fonti: adattamento e accessibilità",
+      "items": [
+        {
+          "label": "Google · Responsive design",
+          "url": "https://web.dev/learn/design/intro",
+          "note": "Fluidità, cambi di regola e larghezze intermedie."
+        },
+        {
+          "label": "MDN · Container queries",
+          "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+          "note": "Adattare un componente al contenitore di riferimento."
+        },
+        {
+          "label": "W3C WAI · 1.4.10 Reflow (AA)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+          "note": "320 px CSS e parti che richiedono due dimensioni."
+        },
+        {
+          "label": "W3C WAI · 1.4.4 Resize Text (AA)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+          "note": "Ingrandimento del testo fino al 200%."
+        },
+        {
+          "label": "W3C WAI · 1.4.12 Text Spacing (AA)",
+          "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+          "note": "Quattro spaziature modificate insieme senza perdita di contenuti."
+        }
+      ]
+    }
+  ],
+  "objectives": {
+    "title": "Cosa impareremo",
+    "minutes": 1,
+    "sourceHeading": "Dallo spazio alla struttura",
+    "cards": [
+      {
+        "title": "Leggere la struttura",
+        "text": "Riconoscere margini, colonne, moduli e allineamenti nei casi presentati."
+      },
+      {
+        "title": "Progettare il layout",
+        "text": "Scegliere una gabbia e adattarla a formati e larghezze differenti."
+      },
+      {
+        "title": "Verificare le regole",
+        "text": "Provare testi e immagini reali, documentare limiti e correggere la composizione."
+      }
+    ]
+  }
+}

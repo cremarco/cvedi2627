@@ -1,0 +1,1840 @@
+ACCESSIBILITÀ E DESIGN INCLUSIVO        3 .1 .2
+
+        Dal contesto alle condizioni d’uso
+
+
+
+
+I casi di localizzazione hanno mostrato come lingua, abitudini e riferimenti
+culturali entrino nelle decisioni sull’interfaccia. La stessa attenzione alle
+differenze deve riguardare anche le condizioni che rendono possibile usare il
+servizio: percepire un’informazione, raggiungere un controllo, comprendere
+un messaggio e completare un’azione.
+L’accessibilità porta queste domande nella ricerca e nel progetto. Il percorso
+parte dal design universale e inclusivo, osserva barriere e modalità d’uso, poi
+collega le scelte operative alla loro verifica. Ciò che emerge tornerà nella
+definizione dei requisiti e accompagnerà prototipi, test e implementazione.
+
+
+
+
+168
+  3 .1 .2
+Accessibilità e design inclusivo
+
+
+La ricerca su persone e contesti porta a
+interrogarsi anche sulle condizioni di accesso.
+Nella progettazione di prodotti e servizi
+digitali resta infatti il rischio di assumere come
+riferimento una presunta “persona media”. 
+
+
+Questo approccio, apparentemente orientato a raggiungere il maggior
+numero possibile di utenti, può escludere persone con bisogni non
+considerati. La diversità umana non costituisce un’eccezione da gestire a
+posteriori, ma una condizione di partenza del progetto. 
+
+
+
+Per questa ragione, parlare di accessibilità e design inclusivo significa
+affrontare una questione non marginale, bensì strutturale: progettare
+esperienze che possano essere comprese, percepite e utilizzate da persone
+con caratteristiche, abilità, condizioni e contesti differenti.
+
+
+
+In questo quadro è utile distinguere due concetti spesso avvicinati ma non
+coincidenti: universal design e inclusive design.
+
+
+
+
+                                                                             169
+ACCESSIBILITÀ E DESIGN INCLUSIVO         3 .1 .2
+
+
+
+                               Design universale e inclusivo
+
+
+Il design universale nasce con l’obiettivo di realizzare prodotti, ambienti e
+sistemi utilizzabili dal maggior numero possibile di persone, senza
+richiedere adattamenti o soluzioni speciali. Si tratta di un approccio che
+privilegia la massima estensione dell’accesso e che, in ambito progettuale,
+invita a concepire soluzioni semplici, comprensibili, flessibili e non
+stigmatizzanti. I suoi principi insistono su alcuni aspetti centrali: equità
+d’uso, flessibilità, semplicità, percettibilità delle informazioni, tolleranza
+all’errore, riduzione dello sforzo fisico e adeguatezza di spazio e dimensioni.
+L’inclusive design, pur condividendo la medesima tensione etica verso
+l’accesso e la partecipazione, si muove da una prospettiva parzialmente
+diversa. Più che cercare una soluzione unica valida indistintamente per tutti,
+esso invita a progettare a partire dalle differenze individuali, riconoscendo
+che gli utenti non incontrano il mondo — e quindi nemmeno le interfacce —
+nello stesso modo. Progettare in maniera inclusiva non significa dunque
+inseguire un’impossibile neutralità, ma offrire modalità diverse e tra loro
+equivalenti di partecipazione all’esperienza. In questa prospettiva, le persone
+con disabilità non rappresentano un gruppo separato da “aggiungere” alla
+fine del processo, bensì un punto di osservazione privilegiato attraverso cui
+comprendere meglio la varietà dei bisogni umani. Una soluzione pensata per
+una necessità specifica può infatti rivelarsi utile a un pubblico molto più
+ampio: è il caso, ad esempio, dei sottotitoli, che non agevolano soltanto chi ha
+una disabilità uditiva, ma anche chi si trova in un ambiente rumoroso o non
+può attivare l’audio.
+
+
+170
+Design universale e inclusivo
+Due prospettive complementari cercano di ampliare la partecipazione. La
+differenza è nel punto di partenza del progetto.
+
+
+                                                                      Lo studente chiede di liberare
+                                                                      la rampa. Il custode vuole
+                                                                      finire prima le scale. Lo
+                                                                      studente fa notare che la
+                                                                      rampa libera permette
+                                                                      l’ingresso a tutti.
+
+                                                                      Il bisogno segnalato avvia
+                                                                      l’ascolto: un passo del processo
+                                                                      inclusivo. La rampa comune
+                                                                      rappresenta il beneficio
+                                                                      universale.
+
+
+Design universale¹                                            Design inclusivo¹
+Progetta prodotti, ambienti e                                 Parti dalle differenze e dai punti di
+sistemi utilizzabili dal maggior                              esclusione. Coinvolgi le persone e
+numero di persone, con modalità                               offri percorsi equivalenti, adattando
+identiche quando possibile ed                                 modalità e contesto dell’interazione.
+equivalenti quando necessario.
+Esempio: un video con parlato chiaro, sottotitoli e descrizione delle
+informazioni visive amplia l’accesso. Le modalità vanno progettate e
+verificate insieme.
+
+
+
+
+¹   CEUD · 7 Principles; Microsoft · Inclusive Design — universaldesign.ie/about-universal-design/the-7-principles;
+    inclusive.microsoft.design/
+©2002 M.F. Giangreco · ill. K. Ruelle · UVM · uso non commerciale permesso.
+
+
+                                                                                                                  171
+ACCESSIBILITÀ E DESIGN INCLUSIVO          3 .1 .2
+
+                                                  Persona Spectrum
+Uno degli aspetti più rilevanti dell’inclusive design consiste proprio nel
+superare l’idea che l’esclusione riguardi soltanto condizioni permanenti. 
+
+A questo proposito risulta utile il modello del Persona Spectrum, che amplia
+la riflessione progettuale distinguendo tra vincoli permanenti, temporanei e
+situazionali. Un vincolo permanente può essere, per esempio, la cecità; un
+vincolo temporaneo può derivare da un infortunio; un vincolo situazionale
+può dipendere dal contesto, come accade quando una folla rumorosa ostacola
+l’ascolto oppure una forte luce rende difficile leggere uno schermo. Questo
+modello mostra con chiarezza che l’accessibilità non riguarda solo “alcuni
+utenti”, ma tutti, in momenti diversi e in condizioni differenti. Progettare per
+questi scenari significa dunque progettare meglio in generale.
+
+
+Da questo punto di vista, l’accessibilità non può essere considerata
+un’aggiunta correttiva da introdurre a sviluppo concluso. Essa deve entrare
+nel progetto fin dalle prime fasi, orientando la ricerca sugli utenti, la
+definizione dei requisiti, la costruzione dei flussi e le scelte visive e tecniche.
+Una progettazione davvero inclusiva richiede inoltre di riconoscere i propri
+bias: ogni designer, proprio in quanto soggetto situato, rischia di proiettare
+sui prodotti le proprie abitudini, competenze e aspettative. Per ridurre questo
+rischio è necessario coinvolgere nel processo persone diverse per età,
+capacità, provenienza e modalità d’uso, così da verificare concretamente dove
+e come si generino punti di esclusione.
+
+
+Quando questa riflessione si applica all’ambiente digitale, si parla più
+propriamente di accessibilità web. Con questa espressione si intende la
+progettazione e lo sviluppo di siti, applicazioni, strumenti e contenuti che
+possano essere utilizzati da un’ampia gamma di persone, comprese quelle
+con disabilità visive, uditive, motorie o cognitive. In un contesto in cui
+l’accesso alle tecnologie dell’informazione e della comunicazione costituisce
+una condizione essenziale di partecipazione sociale, culturale ed economica,
+garantire pari opportunità di accesso non è solo una questione tecnica, ma
+anche civile.
+
+
+172
+Persona Spectrum¹
+
+                     Permanente                          Temporaneo                           Situazionale
+Tocco
+
+
+
+
+                     Un solo braccio                   Braccio infortunato                     Neo-genitore
+
+Vista
+
+
+
+
+                           Cecità                            Cataratta                  Guida: sguardo altrove
+
+Udito
+
+
+
+
+                          Sordità                    Infezione all’orecchio                    Bar affollato
+
+Parlato
+
+
+
+
+                  Persona non verbale                         Laringite                        Accento non
+                                                                                               riconosciuto
+
+¹   Microsoft · Inclusive Design / Persona Spectrum — inclusive.microsoft.design/articles/inclusive-101-guidebook
+Esempi del Persona Spectrum, rielaborati in italiano. Illustrazioni originali. Una barriera situazionale non equivale a
+una diagnosi; l’accento può creare un disallineamento con il riconoscimento vocale.
+
+                                                                                                                    173
+ACCESSIBILITÀ E DESIGN INCLUSIVO                        3 .1 .2
+
+                                                                    Accessibilità Web
+Per orientare la progettazione accessibile esistono le Web Content
+Accessibility Guidelines (WCAG), un insieme di linee guida che organizzano 
+
+i requisiti intorno a quattro principi fondamentali.¹ 
+
+Il contenuto deve essere anzitutto percepibile, cioè accessibile ai diversi canali
+sensoriali dell’utente; deve poi essere utilizzabile, dunque navigabile e
+controllabile anche tramite tastiera o dispositivi assistivi; deve essere
+comprensibile, sia nel linguaggio sia nel comportamento dell’interfaccia;
+infine deve essere robusto, cioè compatibile con una pluralità di browser,
+software e tecnologie assistive. 
+
+
+Le WCAG definiscono inoltre diversi livelli di conformità — A, AA e AAA —
+che permettono di valutare il grado di accessibilità raggiunto:
+
+▸ A: soddisfa i criteri di livello A;
+
+▸ AA: soddisfa i criteri di livello A e AA;
+
+▸ AAA: soddisfa i criteri di livello A, AA e AAA.
+
+
+Ragionare in termini di accessibilità significa anche considerare i modi
+concreti in cui le persone interagiscono con il digitale. WebAIM (Web
+Accessibility In Mind) è un centro non profit dell’Utah State University che
+svolge formazione, ricerca e valutazione sull’accessibilità web. Le sue risorse
+aiutano a tradurre i bisogni delle persone in scelte di progetto. Nella sua
+introduzione distingue quattro grandi aree: disabilità uditiva, motoria, visiva
+e cognitiva.² 
+
+
+A queste corrisponde una vasta gamma di strumenti e tecnologie assistive —
+screen reader, tastiere alternative, comandi vocali, ingranditori di schermo,
+puntatori speciali e altri dispositivi — che permettono agli utenti di accedere
+ai contenuti solo se il sito o l’applicazione sono stati costruiti riconoscendo e
+supportando correttamente tali modalità d’uso. La compatibilità con queste
+tecnologie va progettata e verificata durante lo sviluppo.
+
+¹ W3C · WCAG 2.2 — w3.org/TR/WCAG22/
+² WebAIM · Introduction to Web Accessibility; WebAIM · About — webaim.org/intro/; webaim.org/about/
+
+174
+Tecnologie assistive in uso
+
+Due modalità documentate mostrano come il software e i dispositivi rendano
+possibile l’interazione con il web.¹
+
+
+
+
+    Screen reader su smartphone. La persona esplora il contenuto attraverso gesti e sintesi vocale: la struttura semantica
+                                                                    deve rendere disponibili nomi, ruoli e informazioni.
+
+
+
+
+      Puntatore a bocca per azionare i tasti. Il dispositivo rende possibile l’input: i comandi dell’interfaccia devono essere
+                                                                               raggiungibili e utilizzabili anche senza mouse.
+
+
+
+
+¹     WebAIM · Introduction to Web Accessibility — webaim.org/intro/
+Fotografie ©2016 W3C® · da Introduction to Web Accessibility. CC BY 3.0 US · immagini integre.
+
+                                                                                                                         175
+ACCESSIBILITÀ E DESIGN INCLUSIVO                             3 .1 .2
+
+
+
+
+W3C · WCAG 2.2 — w3.org/TR/WCAG22/
+Mappa: Intopia / Sketch Group · traduzione Roberto Scano.
+
+Rielaborazione · CC BY-SA 4.0.
+
+176
+Colore e contrasto
+
+
+
+
+Contrasto del testo · 1.4.3 AA¹
+Tra gli aspetti più immediati, ma anche più spesso sottovalutati, rientra il
+contrasto cromatico.
+
+ 
+
+Un contrasto insufficiente tra testo e sfondo compromette seriamente la
+leggibilità, soprattutto per utenti con disabilità visive o in condizioni di
+visione non ottimali. 
+
+Per i contenuti testuali, le WCAG 2.2 richiedono al livello AA almeno 4,5:1 per
+il testo normale e 3:1 per il testo grande (almeno 18 pt, oppure 14 pt in
+grassetto), con eccezioni per elementi incidentali e logotipi.¹ Questo dato,
+apparentemente tecnico, ha in realtà ricadute molto concrete: un’interfaccia
+elegante ma poco leggibile fallisce nel suo compito comunicativo prima
+ancora che estetico.
+
+Il colore come informazione · 1.4.1 A¹
+Il colore non deve essere l’unico segnale per comunicare stato, azione o
+errore: affiancagli testo, simboli o altre indicazioni visibili.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 1.4.3 AA / 1.4.1 A — w3.org/WAI/WCAG22/Understanding/contrast-minimum; w3.org/WAI/
+    WCAG22/Understanding/use-of-color; w3.org/TR/WCAG22/#contrast-minimum
+
+
+                                                                                                          177
+ACCESSIBILITÀ E DESIGN INCLUSIVO                          3 .1 .2
+
+Valutare una palette
+Contrasto del testo · 1.4.3 AA / 1.4.6 AAA²
+
+Il controllo del contrasto confronta testo e sfondo e restituisce un rapporto:
+valuta la soglia pertinente a dimensione, peso e livello richiesto¹. AA e AAA
+descrivono qui il contrasto del testo, non la conformità dell’intera pagina.²
+
+
+Il simulatore mostra differenze possibili fra forme di visione dei colori. Aiuta
+a controllare la distinguibilità della palette; le simulazioni sono indicative e
+non sostituiscono le prove con le persone.¹
+
+
+
+
+                       Controllo del contrasto del testo e simulazione della visione dei colori negli strumenti Adobe.
+
+¹ Adobe · controllo del contrasto e simulazione cromatica — color.adobe.com/create/color-accessibility;
+  color.adobe.com/create/color-contrast-analyzer
+² W3C · WCAG 2.2 · 1.4.3 AA / 1.4.6 AAA — w3.org/WAI/WCAG22/Understanding/contrast-minimum; w3.org/WAI/
+  WCAG22/Understanding/contrast-enhanced; color.adobe.com/create/color-accessibility
+
+178
+Leggere un appuntamento
+
+Due versioni dello stesso messaggio mostrano perché testo e colore vanno valutati
+insieme.
+
+
+Barriera                                                 Scelta di progetto
+
+
+
+
+Un messaggio poco contrastato                            Il testo ha contrasto verificato e
+diventa difficile da leggere; il solo                    l’errore è indicato anche con parole:
+rosso non spiega quale dato richiede                     «Orario non disponibile».¹
+attenzione.
+
+
+
+
+Come verificare · 1.4.3 AA / 1.4.1 A¹
+Misura il contrasto sul fondo effettivo e controlla che stato ed errore restino
+comprensibili senza colore.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 1.4.3 AA / 1.4.1 A — w3.org/WAI/WCAG22/Understanding/contrast-minimum; w3.org/WAI/
+    WCAG22/Understanding/use-of-color
+
+                                                                                                          179
+ACCESSIBILITÀ E DESIGN INCLUSIVO                           3 .1 .2
+
+        Dalle regole alle scelte di progetto
+
+Le regole sul contrasto aprono una domanda più ampia: come rendere il compito
+possibile nelle diverse condizioni d’uso? Le pagine seguenti collegano ciò che si
+percepisce, ciò che si può fare e ciò che si comprende, attraverso esempi e verifiche.
+
+             01 · Compito
+             Parti da ciò che la persona deve ottenere: leggere una notizia,
+             scegliere un prodotto, prenotare o recuperare un account.
+             02 · Barriera
+             Individua quale informazione o azione manca e dove il percorso si
+             interrompe. Collega l’ostacolo alla situazione d’uso.
+             03 · Scelta di progetto
+             Leggi la tavola del tema e la pagina di esempi associata. Il confronto
+             rende visibile una possibile decisione, senza sostituire
+             l’implementazione.
+             04 · Verifica
+             Riprova il compito con i criteri tecnici pertinenti e con le persone.
+             Documenta condizioni, eccezioni e limiti della verifica.
+
+Il percorso affronta percezione, controllo, comprensione e compatibilità, poi
+la valutazione. WCAG definisce criteri verificabili; le indicazioni COGA sono
+supplementari. Gli esempi sono simulati e servono a ragionare sul progetto.¹
+
+
+
+¹   WAI · Accessibility Principles — w3.org/WAI/fundamentals/accessibility-principles/
+
+180
+Contrasto dei controlli
+
+
+
+Il contrasto del testo prepara la verifica dei controlli e dei loro stati: caselle,
+indicatori e segni necessari devono poter essere distinti nel contesto
+dell’interazione.
+
+Segnali necessari · 1.4.11 AA¹
+Le informazioni visive necessarie a identificare controlli e stati richiedono
+almeno 3:1 rispetto ai colori adiacenti. Il requisito riguarda anche le parti dei
+grafici necessarie a comprenderne il contenuto. Valuta, per esempio, il segno
+di spunta, un indicatore di selezione o una linea che distingue una serie di
+dati.
+
+Scegliere che cosa misurare · 1.4.11 AA / 1.4.3 AA¹
+Non ogni bordo o decorazione deve superare la soglia. Se testo o icona
+rendono già identificabile un pulsante, il suo perimetro può non essere
+necessario. Quando invece il bordo è l’unico segnale visivo del campo,
+verifica quel bordo. Il testo del controllo mantiene i propri requisiti di
+contrasto.
+
+Leggere le eccezioni · 1.4.11 AA¹
+Sono esclusi i controlli inattivi e quelli il cui aspetto è determinato dal
+programma utente e non modificato dall’autore. Per gli oggetti grafici è
+prevista l’eccezione delle presentazioni essenziali. Il rapporto si confronta
+con i colori adiacenti: non è una misura generica della differenza fra due
+schermate.
+
+
+
+
+¹   W3C · WCAG 2.2 · 1.4.11 AA / 1.4.3 AA — w3.org/WAI/WCAG22/Understanding/non-text-contrast; w3.org/WAI/
+    WCAG22/Understanding/contrast-minimum
+
+                                                                                                             181
+ACCESSIBILITÀ E DESIGN INCLUSIVO                        3 .1 .2
+
+                                         Riconoscere una casella
+
+Un’etichetta leggibile non rende automaticamente riconoscibile il controllo
+associato.
+
+Barriera                                                 Scelta di progetto
+
+
+
+
+Il bordo troppo tenue è l’unico                          Un bordo distinguibile identifica la
+segnale della casella: l’utente può                      casella; la spunta comunica la
+non individuare dove agire.                              selezione insieme allo stato esposto
+                                                         al software.¹
+
+
+
+Come verificare · 1.4.11 AA / 4.1.2 A¹
+Verifica i segnali necessari rispetto ai colori adiacenti; per questi segnali, la
+soglia AA è 3:1.¹
+
+
+
+¹ W3C · WCAG 2.2 · 1.4.11 AA / 4.1.2 A — w3.org/WAI/WCAG22/Understanding/non-text-contrast; w3.org/WAI/
+  WCAG22/Understanding/name-role-value
+
+182
+Ingrandimento e adattamento
+
+
+
+
+Testi e controlli distinguibili devono restare disponibili quando cambia la
+presentazione. Ingrandimento, reflow e spaziatura richiedono verifiche distinte su
+informazioni e azioni.
+
+Testo al 200% · 1.4.4 AA¹
+Ridimensiona il testo fino al 200%, senza tecnologie assistive e senza
+perdere contenuti o funzioni. Sono esclusi sottotitoli e immagini di testo.
+Verifica etichette, pulsanti e livelli intermedi dell’ingrandimento.
+
+Reflow · 1.4.10 AA²
+Per contenuti a scorrimento verticale, verifica una larghezza equivalente a
+320 CSS px; per quelli orizzontali, un’altezza di 256 CSS px. Contenuti e
+funzioni devono restare disponibili senza scorrere in due direzioni.
+L’eccezione riguarda solo parti che richiedono un layout bidimensionale per
+uso o significato, come una mappa.
+
+Spaziatura · 1.4.12 AA³
+Nei contenuti con markup che supporta questi stili, verifica insieme questi
+multipli del corpo: interlinea ≥1,5; spazio dopo i paragrafi ≥2; fra lettere ≥0,12;
+fra parole ≥0,16. Senza cambiare altri stili, contenuti e funzioni devono
+restare disponibili. Sono soglie di verifica, non valori predefiniti obbligatori;
+per ogni lingua o scrittura usa le proprietà pertinenti.
+
+
+
+
+¹   W3C · WCAG 2.2 · 1.4.4 AA — w3.org/WAI/WCAG22/Understanding/resize-text
+²   W3C · WCAG 2.2 · 1.4.10 AA — w3.org/WAI/WCAG22/Understanding/reflow
+³   W3C · WCAG 2.2 · 1.4.12 AA — w3.org/WAI/WCAG22/Understanding/text-spacing
+
+                                                                                183
+ACCESSIBILITÀ E DESIGN INCLUSIVO                          3 .1 .2
+
+                          Ingrandire una prenotazione
+
+Il contenuto della prenotazione resta lo stesso mentre cambia lo spazio
+disponibile.
+
+Barriera                                                   Scelta di progetto
+
+
+
+
+Una riga rigida nasconde l’ora e il                        Il riepilogo si ridistribuisce e il
+comando quando la vista si                                 comando resta raggiungibile. Le
+restringe o il testo cresce.                               informazioni conservano ordine e
+                                                           significato.¹
+
+
+
+Come verificare · 1.4.4 AA / 1.4.10 AA / 1.4.12 AA¹
+Prova il testo al 200%, il reflow a 320 CSS px e gli override di spaziatura come
+verifiche distinte.¹
+
+
+
+¹   W3C · WCAG 2.2 · 1.4.4 AA / 1.4.10 AA / 1.4.12 AA — w3.org/WAI/WCAG22/Understanding/resize-text; w3.org/WAI/
+    WCAG22/Understanding/reflow; w3.org/WAI/WCAG22/Understanding/text-spacing
+
+
+184
+Dalle abilità alle barriere
+
+
+
+
+Una barriera nasce dall’incontro fra una persona, un compito e un’interfaccia.
+Descriverla in modo concreto aiuta a scegliere una soluzione verificabile.
+
+Osservare l’attività
+Una categoria come “disabilità visiva” non descrive da sola come una persona
+usa il web. Alcune persone leggono con uno screen reader o un display
+braille; altre ingrandiscono testo e immagini o modificano i colori. Anche le
+combinazioni di strumenti e le preferenze possono essere differenti.
+
+Identificare il punto di esclusione
+Chiediti quale informazione manca, quale azione è impossibile e quale
+requisito implicito impone il progetto. Un prezzo segnalato soltanto dal
+colore, un comando disponibile soltanto al passaggio del mouse o una
+scadenza senza preavviso producono barriere diverse.
+
+Collegare bisogno e decisione
+Annota il compito, l’ostacolo, la conseguenza e la modifica proposta. Poi
+verifica la soluzione con le persone coinvolte e con i criteri tecnici pertinenti.
+Una tecnologia assistiva aiuta soltanto se l’interfaccia ne supporta
+correttamente l’uso.
+
+
+
+
+WAI · Abilities and barriers — w3.org/WAI/people-use-web/abilities-barriers/
+WAI · Involving Users in Evaluation — w3.org/WAI/test-evaluate/involving-users/
+
+                                                                                  185
+ACCESSIBILITÀ E DESIGN INCLUSIVO                       3 .1 .2
+
+                                                                    Tre scenari di uso
+
+Questi tre scenari illustrativi, adattati dalle storie di utenti WAI, mostrano come un
+compito possa essere interrotto da una barriera. Servono a formulare domande di
+progetto; non sono risultati di test condotti per questo booklet.
+01 · Scegliere un prodotto
+Una persona che fatica a distinguere rosso e verde deve scegliere il colore di
+un capo. Campioni cromatici senza etichette rendono la scelta incerta.
+Affianca il nome del colore al campione e rendi riconoscibile la selezione
+anche senza affidarti soltanto alla tinta.
+02 · Completare un modulo
+Una persona che usa la tastiera incontra un menu che si apre soltanto con il
+mouse. Il compito si interrompe. Rendi raggiungibili e utilizzabili i controlli,
+mostra il focus e consenti di uscire dai componenti senza restare
+intrappolati.
+03 · Seguire una lezione
+Una persona che non può ascoltare il parlato incontra un video privo di
+sottotitoli. Prevedi una versione accessibile del contenuto audiovisivo, con
+sottotitoli corretti che includano anche i suoni significativi per
+comprenderlo.
+La stessa modifica può aiutare anche in contesti temporanei o situazionali.
+L’efficacia va verificata sul compito, senza dedurla dalla sola appartenenza a una
+categoria.
+
+WAI · Stories of Web Users — w3.org/WAI/people-use-web/user-stories/
+W3C · WCAG 2.2 · 2.1.1 A / 2.1.2 A — w3.org/WAI/WCAG22/Understanding/keyboard; w3.org/WAI/WCAG22/
+Understanding/no-keyboard-trap
+W3C · WCAG 2.2 · 1.2.2 A — w3.org/WAI/WCAG22/Understanding/captions-prerecorded
+
+186
+Tre scenari, tre scelte
+
+
+Le illustrazioni riprendono i compiti appena descritti: scegliere un prodotto,
+completare un modulo e seguire una lezione.¹
+
+
+                                                     01 · Scegliere un prodotto
+                                                     Nome del colore vicino al campione e un
+                                                     segno di selezione rendono la scelta
+                                                     comprensibile anche quando le tinte sono
+                                                     difficili da distinguere.
+
+
+
+                                                     02 · Completare un modulo
+                                                     I controlli sono raggiungibili da tastiera. Il
+                                                     focus visibile e le azioni previste dal
+                                                     componente mantengono continuo il
+                                                     percorso.
+
+
+
+                                                     03 · Seguire una lezione
+                                                     Sottotitoli corretti includono parlato e suoni
+                                                     significativi. Le informazioni visive
+                                                     essenziali richiedono a loro volta
+                                                     un’alternativa pertinente.
+
+
+Scenari illustrativi e immagini originali. Non sono fotografie, risultati di test o interfacce reali.
+
+
+
+
+¹   WAI · Stories of Web Users — w3.org/WAI/people-use-web/user-stories/
+
+
+                                                                                                        187
+ACCESSIBILITÀ E DESIGN INCLUSIVO                         3 .1 .2
+
+                                                         Tastiera, ordine e focus
+
+L’informazione leggibile deve anche essere raggiungibile. Senza mouse, il compito
+richiede controlli utilizzabili, orientamento e possibilità di entrare e uscire dai
+componenti: i tre passaggi vanno verificati insieme.
+01 · Raggiungere e usare · 2.1.1 A¹
+Le funzionalità devono poter essere utilizzate tramite tastiera, salvo quando
+la funzione stessa dipende dal percorso del movimento, come il disegno a
+mano libera. L’eccezione riguarda la funzione, non la tecnica di input scelta.
+Nei controlli web ordinari, Tab e Shift+Tab spostano il focus; i componenti
+complessi possono prevedere ulteriori tasti secondo il loro modello di
+interazione.
+02 · Orientarsi durante il percorso · 2.4.3 A / 2.4.7 AA / 2.4.1
+A²
+L’ordine del focus deve preservare significato e operabilità. Un indicatore
+visibile mostra dove agirà il prossimo comando. Titoli, regioni e collegamenti
+per saltare blocchi ripetuti consentono percorsi diversi: chi usa uno screen
+reader non deve necessariamente ascoltare tutta la pagina in sequenza.
+03 · Entrare, uscire e riprendere · 2.1.2 A¹,³
+Un dialogo o un menu non deve intrappolare la tastiera. Un dialogo modale
+contiene il focus mentre è aperto e lo restituisce in modo appropriato alla
+chiusura. Se servono tasti non standard per uscire, occorre comunicarli
+all’utente.
+
+
+¹   W3C · WCAG 2.2 · 2.1.1 A / 2.1.2 A — w3.org/WAI/WCAG22/Understanding/keyboard; w3.org/WAI/WCAG22/
+    Understanding/no-keyboard-trap
+²   W3C · WCAG 2.2 · 2.4.3 A / 2.4.7 AA / 2.4.1 A — w3.org/WAI/WCAG22/Understanding/focus-order; w3.org/WAI/
+    WCAG22/Understanding/focus-visible; w3.org/WAI/WCAG22/Understanding/bypass-blocks
+³   WAI-ARIA APG · Dialog (Modal) — w3.org/WAI/ARIA/apg/patterns/dialog-modal/
+
+
+188
+Inviare un modulo senza mouse
+
+Il compito è scegliere un corso e inviare il modulo: il percorso deve rimanere
+continuo.
+
+
+Barriera                                                  Scelta di progetto
+
+
+
+
+Il menu del corso risponde soltanto                       Tasti previsti dal componente, focus
+al mouse; l’utente raggiunge il                           visibile e ordine coerente
+campo ma non può completare la                            consentono scelta, invio e ritorno
+scelta.                                                   alla pagina.¹
+
+
+
+
+Come verificare · 2.1.1 A / 2.1.2 A / 2.4.3 A / 2.4.7 AA¹
+Percorri il modulo con la tastiera. Apri e chiudi il menu, controllando sempre
+dove si trova il focus.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 2.1.1 A / 2.1.2 A / 2.4.3 A / 2.4.7 AA — w3.org/WAI/WCAG22/Understanding/keyboard; w3.org/
+    WAI/WCAG22/Understanding/no-keyboard-trap; w3.org/WAI/WCAG22/Understanding/focus-order; w3.org/WAI/
+    WCAG22/Understanding/focus-visible
+
+
+                                                                                                           189
+ACCESSIBILITÀ E DESIGN INCLUSIVO                                3 .1 .2
+
+                                                Puntamento e trascinamento
+Precisione, ampiezza dei bersagli e modalità alternative di azione influenzano la
+possibilità di completare un’interazione.
+Dimensione minima dei bersagli · 2.5.8 AA¹
+WCAG 2.2, criterio 2.5.8 AA: il bersaglio di un input a puntatore deve misurare
+almeno 24 × 24 CSS px, oppure rispettare una delle eccezioni previste. Per
+bersagli più piccoli, i cerchi di diametro 24 CSS px centrati sui rispettivi
+riquadri non devono intersecare altri bersagli né i cerchi di altri bersagli
+piccoli.
+Le eccezioni contano · 2.5.8 AA / 2.5.5 AAA¹,²
+Il criterio prevede anche eccezioni per un controllo equivalente sulla stessa
+pagina, collegamenti nel testo, controlli la cui dimensione è determinata dal
+programma utente e non modificata dall’autore, e presentazioni essenziali.
+Non applicare la misura meccanicamente a ogni parola cliccabile. Il criterio
+2.5.5 AAA usa 44 × 44 CSS px con proprie eccezioni.
+Un gesto, più percorsi · 2.5.7 AA³
+Se una funzione richiede trascinamento, il criterio 2.5.7 AA richiede anche
+un’alternativa con un puntatore singolo senza trascinare, salvo le eccezioni
+del criterio. Per riordinare una lista si possono offrire comandi “Sposta su” e
+“Sposta giù”. La sola alternativa da tastiera non soddisfa questo requisito.
+          24 × 24 CSS px                         20 × 20 · spazio 4                         20 × 20 · spazio 0
+
+
+             Dimensione
+                               Spaziatura
+                               Spaziatura
+
+              rispettata                               sufficiente                              insufficiente
+    sempio simulato: quote in CSS px, non in scala fisica di stampa. I cerchi indicano l’eccezione di spaziatura del criterio
+    E
+
+                                                                                                                   2.5.8 AA.
+
+
+
+
+¹                   .
+        W3C · WCAG 2 2 · 2.5.8 AA — w3.org/WAI/WCAG22/Understanding/target-size-minimum
+
+²                   .
+        W3C · WCAG 2 2 · 2.5.5 AAA — w3.org/WAI/WCAG22/Understanding/target-size-enhanced
+
+³       W3C · WCAG 2.2 · 2.5.7 AA — w3.org/WAI/WCAG22/Understanding/dragging-movements
+
+
+
+190
+Riordinare senza trascinare
+
+
+Spostare una voce può avere percorsi equivalenti anche quando il gesto cambia.
+
+
+Barriera                                                 Scelta di progetto
+
+
+
+
+La lista offre soltanto                                  «Sposta su» e «Sposta giù»
+un’impugnatura da trascinare;                            permettono lo stesso riordino con
+precisione e movimento continuo                          un puntatore singolo senza
+diventano requisiti impliciti.                           trascinamento.¹
+
+
+
+
+Come verificare · 2.5.7 AA / 2.5.8 AA / 2.1.1 A¹
+Verifica l’alternativa a puntatore e, separatamente, l’uso da tastiera e i
+bersagli. Le eccezioni dipendono dal criterio.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 2.5.7 AA / 2.5.8 AA / 2.1.1 A — w3.org/WAI/WCAG22/Understanding/dragging-movements;
+    w3.org/WAI/WCAG22/Understanding/target-size-minimum; w3.org/WAI/WCAG22/Understanding/keyboard
+
+                                                                                                           191
+ACCESSIBILITÀ E DESIGN INCLUSIVO                          3 .1 .2
+
+                                   Immagini, struttura e significato
+
+
+Raggiungere i controlli è utile se il loro contenuto è comprensibile. Per le immagini,
+l’alternativa testuale restituisce ciò che viene comunicato o ciò che si può fare nel
+contesto d’uso.
+Informativa, funzionale, decorativa · 1.1.1 A¹,²
+Per un’immagine informativa, scrivi un testo che restituisca l’informazione
+pertinente. Se un’immagine svolge una funzione, come un’icona che avvia
+una ricerca, comunica lo scopo dell’azione. Per un’immagine puramente
+decorativa, un’alternativa vuota evita letture inutili.¹
+Le figure complesse · 1.1.1 A¹,²
+Un grafico può richiedere una descrizione breve e una spiegazione più estesa,
+con dati o relazioni disponibili nel contenuto. Il testo alternativo non deve
+diventare un elenco indiscriminato di dettagli: scegli l’informazione
+necessaria a comprendere il messaggio o completare il compito.²
+La struttura è informazione · 1.3.1 A / 2.4.4 A³
+Titoli, elenchi, tabelle e regioni devono rappresentare relazioni reali e
+conservarle anche per le tecnologie assistive. Un testo grande e in grassetto
+non diventa automaticamente un titolo semantico. Nei link, indica una
+destinazione o uno scopo comprensibile nel contesto.³
+
+
+
+¹        mages utorial
+    WAI · I      T                        .
+                        ; W3C · WCAG 2 2 · 1.1.1 A — w3.org/WAI/WCAG22/Understanding/non-text-content; w3.org/
+    WAI/tutorials/images/
+
+²         omple mages
+    WAI · C      xI                           .
+                         ; W3C · WCAG 2 2 · 1.1.1 A — w3.org/WAI/WCAG22/Understanding/non-text-content; w3.org/
+    WAI/tutorials/images/complex/
+
+³   WAI ·Page tructure
+               S                      .
+                         ; W3C · WCAG 2 2 · 1.3.1 A / 2.4.4 A — w3.org/WAI/WCAG22/Understanding/info-and-
+    relationships; w3.org/WAI/WCAG22/Understanding/link-purpose-in-context; w3.org/WAI/tutorials/page-
+    structure/
+
+
+192
+Descrivere ciò che serve
+
+La stessa fotografia può avere alternative differenti secondo il compito e il
+contesto.
+
+
+Barriera                                                   Scelta di progetto
+
+
+
+
+Il nome del file non descrive il                           L’alternativa restituisce il dettaglio
+prodotto; chi non vede l’immagine                          pertinente. Un’icona funzionale
+perde l’informazione necessaria a                          comunica l’azione; una decorazione
+confrontarlo.                                              può avere alternativa vuota.¹
+
+
+
+
+Come verificare · 1.1.1 A¹
+Leggi la pagina senza immagini e verifica se resta possibile comprendere il
+contenuto o completare il compito.¹
+
+
+
+
+¹   WAI · Images Tutorial; W3C · WCAG 2.2 · 1.1.1 A — w3.org/WAI/WCAG22/Understanding/non-text-content; w3.org/
+    WAI/tutorials/images/
+
+                                                                                                           193
+ACCESSIBILITÀ E DESIGN INCLUSIVO                       3 .1 .2
+
+                                   Contenuti audiovisivi accessibili
+
+
+Audio e immagini in movimento trasmettono informazioni diverse. Una sola
+alternativa non copre automaticamente tutte le esigenze.
+Sottotitoli · 1.2.2 A¹
+Per l’audio preregistrato in contenuti sincronizzati, il criterio 1.2.2 A richiede
+sottotitoli, salvo l’eccezione dei media che costituiscono un’alternativa al
+testo e sono indicati come tali. Includi parlato, identificazione di chi parla e
+suoni significativi. I sottotitoli automatici devono essere verificati e corretti.
+Informazioni visive · 1.2.5 AA²
+I sottotitoli non descrivono ciò che si vede. Per i video preregistrati nei media
+sincronizzati, il criterio 1.2.5 AA richiede l’audiodescrizione delle
+informazioni visive rilevanti non già comunicate dalla traccia audio. Se tutte
+le informazioni importanti sono già nell’audio, non occorre una descrizione
+aggiuntiva. Una trascrizione descrittiva offre un’altra modalità di fruizione,
+ma non sostituisce da sola quel requisito.
+Progettare anche il lettore · 2.1.1 A³
+Il player deve consentire l’uso da tastiera, mostrare controlli comprensibili e
+rendere disponibili le alternative. Sottotitoli, trascrizioni e descrizioni vanno
+pianificati durante la produzione, così da evitare che informazioni essenziali
+siano affidate a un solo canale.
+
+
+
+¹ W3C · WCAG 2.2 · 1.2.2 A — w3.org/WAI/WCAG22/Understanding/captions-prerecorded
+² W3C · WCAG 2.2 · 1.2.5 AA — w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded
+³ WAI · Planning Audio and Video; W3C · WCAG 2.2 · 2.1.1 A — w3.org/WAI/WCAG22/Understanding/keyboard;
+   w3.org/WAI/media/av/planning/
+
+
+194
+Seguire un video su più canali
+
+Parlato, suoni significativi e informazioni visive richiedono alternative pertinenti.
+
+
+Barriera                                                    Scelta di progetto
+
+
+
+
+Il parlato è disponibile soltanto                           Sottotitoli corretti rendono
+nell’audio; una freccia mostrata dal                        disponibile l’audio. Le informazioni
+docente non viene spiegata a voce.                          visive essenziali sono descritte
+                                                            anche nella traccia audio o con
+                                                            audiodescrizione.¹
+
+
+
+
+Come verificare · 1.2.2 A / 1.2.5 AA / 2.1.1 A¹
+Controlla le alternative e il player da tastiera. Una trascrizione da sola non
+sostituisce automaticamente l’audiodescrizione AA.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 1.2.2 A / 1.2.5 AA / 2.1.1 A — w3.org/WAI/WCAG22/Understanding/captions-prerecorded; w3.org/
+    WAI/WCAG22/Understanding/audio-description-prerecorded; w3.org/WAI/WCAG22/Understanding/keyboard
+
+
+                                                                                                             195
+ACCESSIBILITÀ E DESIGN INCLUSIVO                      3 .1 .2
+
+                                 Nome, ruolo e stato dei controlli
+
+
+
+Il nome identifica il comando, il ruolo la funzione, lo stato la condizione corrente.
+Anche i controlli, come testi e media, devono trasmettere queste informazioni.
+Rendere riconoscibile il comando · 4.1.2 A¹
+Nome e ruolo devono essere identificabili dal software. Stati, proprietà e
+valori impostabili dall’utente devono poter essere impostati anche
+programmaticamente; le notifiche dei cambiamenti devono essere
+disponibili ai programmi utente, incluse le tecnologie assistive. Preferisci
+controlli nativi usati secondo le specifiche e verifica quelli personalizzati.
+Collegare ciò che si vede e si pronuncia · 2.5.3 A²
+Quando l’etichetta di un controllo contiene testo visibile, il criterio 2.5.3 A
+richiede che il nome accessibile contenga quel testo. Un pulsante “Cerca” con
+nome accessibile “Trova prodotti” può ostacolare chi tenta di attivarlo
+pronunciando la parola visibile. “Cerca nel catalogo” conserva invece
+l’etichetta.
+Lo stato fa parte dell’informazione · 4.1.2 A¹
+Comunica se un pannello è aperto o chiuso e se una casella è selezionata.
+Colore o forma non bastano per le tecnologie assistive: documenta gli stati
+insieme alle modalità di azione e verifica il componente realizzato.
+
+
+
+
+¹   W3C · WCAG 2.2 · 4.1.2 A — w3.org/WAI/WCAG22/Understanding/name-role-value
+²   W3C · WCAG 2.2 · 2.5.3 A — w3.org/WAI/WCAG22/Understanding/label-in-name
+
+196
+Aprire i dettagli di consegna
+
+
+Aspetto visivo e informazione esposta alle tecnologie assistive descrivono lo stesso
+comando.
+
+
+Barriera                                                 Scelta di progetto
+
+
+
+
+Il testo sembra cliccabile, ma il                        Nome «Dettagli consegna», ruolo
+software non riconosce il pulsante o                     pulsante e stato espanso/compresso
+non riceve il suo stato.                                 consentono di capire l’azione e il
+                                                         cambiamento.¹
+
+
+
+
+Come verificare · 4.1.2 A / 2.1.1 A¹
+Attiva il controllo con la tastiera e verifica nome, ruolo e stato con la
+tecnologia assistiva pertinente.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 4.1.2 A / 2.1.1 A — w3.org/WAI/WCAG22/Understanding/name-role-value; w3.org/WAI/WCAG22/
+    Understanding/keyboard
+
+
+                                                                                                       197
+ACCESSIBILITÀ E DESIGN INCLUSIVO                          3 .1 .2
+
+                                         Feedback e messaggi di stato
+
+
+Un aggiornamento può essere visibile sullo schermo senza essere percepito da chi
+utilizza una tecnologia assistiva.
+Comunicare senza spostare il focus · 4.1.3 AA¹
+Nei contenuti con linguaggi di markup, i messaggi di stato devono essere
+identificabili programmaticamente mediante ruolo o proprietà, così che le
+tecnologie assistive possano presentarli senza ricevere focus. Il criterio
+riguarda messaggi su esito di azioni, attesa, avanzamento o errori che non
+comportano un cambiamento di contesto.
+Un riscontro comprensibile · 4.1.3 AA / 3.3.1 A / 3.3.3 AA¹,²
+“Salvataggio completato”, “Nessun risultato” o “Tre errori nel modulo”
+spiegano che cosa è successo. Nel progetto, indica quale evento produce il
+messaggio e quale informazione occorre comunicare. Per gli errori, conserva
+anche le spiegazioni associate ai campi: l’annuncio non sostituisce le
+istruzioni per correggerli.
+Evitare interruzioni superflue · 4.1.3 AA¹
+Non spostare il focus per ogni aggiornamento e non trasformare ogni
+modifica in un annuncio. Il criterio non impone di creare messaggi per tutti i
+cambiamenti della pagina. Concorda con chi implementa priorità e frequenza
+dei riscontri e verifica che l’utente comprenda l’esito senza perdere il punto
+del compito.
+
+
+
+¹   W3C · WCAG 2.2 · 4.1.3 AA — w3.org/WAI/WCAG22/Understanding/status-messages
+²   W3C · WCAG 2.2 · 3.3.1 A / 3.3.3 AA — w3.org/WAI/WCAG22/Understanding/error-identification; w3.org/WAI/
+    WCAG22/Understanding/error-suggestion
+
+198
+Capire che il salvataggio è riuscito
+
+
+L’esito deve essere disponibile anche quando il focus rimane sul comando.
+
+
+Barriera                                                Scelta di progetto
+
+
+
+
+Un messaggio appare lontano dal                         Il messaggio di stato è identificabile
+pulsante; chi usa uno screen reader                     programmaticamente. L’esito viene
+può continuare senza sapere che                         presentato senza spostare il focus
+cosa è successo.                                        dal compito.¹
+
+
+
+
+Come verificare · 4.1.3 AA¹
+Dopo «Salva», verifica che il messaggio sia percepito e che l’utente possa
+continuare dal punto in cui si trova.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 4.1.3 AA — w3.org/WAI/WCAG22/Understanding/status-messages
+
+                                                                                           199
+ACCESSIBILITÀ E DESIGN INCLUSIVO                          3 .1 .2
+
+                                                            Accessibilità cognitiva
+
+
+Informazioni e controlli riconoscibili devono anche poter essere compresi e usati.
+Orientarsi, ricordare e gestire l’attenzione fanno parte del compito; i bisogni
+variano fra persone e situazioni.
+Indagare i bisogni
+Le difficoltà possono riguardare linguaggio, attenzione, memoria o
+elaborazione delle informazioni. Una difficoltà in una di queste funzioni non
+implica una difficoltà in tutte le altre. Non ricavare un profilo completo da
+una diagnosi: osserva obiettivi, compiti, preferenze e modalità d’uso.
+Oltre la verifica dei criteri
+La conformità alle WCAG è una base importante, ma non copre ogni bisogno.
+La guida W3C Making Content Usable for People with Cognitive and
+Learning Disabilities, spesso indicata come COGA, propone indicazioni
+supplementari per rendere i contenuti più comprensibili e utilizzabili.
+Coinvolgere e osservare
+Una schermata visivamente semplice può comunque richiedere passaggi
+difficili da capire o ricordare. Coinvolgi persone con esperienze diverse e
+osserva dove esitano, perdono il filo o devono chiedere aiuto. Usa i risultati
+per rivedere il compito e l’interfaccia, senza attribuire automaticamente la
+difficoltà alla persona.
+
+
+
+WAI · Cognitive and Learning — w3.org/WAI/people-use-web/abilities-barriers/cognitive/
+WAI · Supplemental Guidance — w3.org/WAI/WCAG2/supplemental/about/
+WAI · Involving Users in Evaluation — w3.org/WAI/test-evaluate/involving-users/
+
+200
+Riconoscere, capire, ricordare
+
+
+
+
+Rendi disponibili le informazioni nel momento in cui servono. Riduci la necessità
+di ricostruirle mentalmente fra schermate.
+
+
+Parole e istruzioni
+Usa parole comuni e spiega i termini specialistici necessari. Dividi istruzioni
+articolate in passaggi brevi e ordinati. Colloca la spiegazione vicino al campo
+o prima dell’azione; un esempio può chiarire il formato richiesto. Non
+aspettare l’errore per dire che cosa occorre fare.
+
+
+Il contesto resta visibile
+Mostra dove si trova l’utente nel percorso e quali passi restano. Rendi
+consultabili i dati rilevanti già inseriti: per esempio, un riepilogo di
+prenotazione prima della conferma. Consenti di tornare a correggere un dato
+senza ricominciare l’intero processo.
+
+
+Preparare il compito
+Prima di un’attività articolata, indica documenti o risorse richiesti, una stima
+del tempo e la sequenza delle fasi. Distingui chiaramente un passaggio in
+corso da uno completato. Queste indicazioni COGA sostengono il progetto;
+non sono tutte, di per sé, requisiti di conformità WCAG.
+
+
+
+
+COGA · Clear Words — w3.org/WAI/WCAG2/supplemental/patterns/o3p01-clear-words/
+
+COGA · Step-by-step Instructions — w3.org/WAI/WCAG2/supplemental/patterns/o4p07-step-instructions/
+
+COGA · Reduce Memor y Demands — w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/
+
+COGA · Task Expectations — w3.org/WAI/WCAG2/supplemental/patterns/o5p04-task-expectations/
+
+
+                                                                                                     201
+ACCESSIBILITÀ E DESIGN INCLUSIVO                       3 .1 .2
+
+              Prenotare con il contesto visibile
+Un riepilogo al momento della scelta riduce la necessità di ricordare dati fra
+schermate.
+
+Barriera                                                 Scelta di progetto
+
+
+
+
+La conferma richiede di ricordare                        Il riepilogo conserva i dati e
+data e ora inserite nella schermata                      distingue «Modifica» da
+precedente; correggerle significa                        «Conferma». Parole comuni e passi
+ricominciare.                                            visibili sostengono il compito.¹
+
+
+
+Come verificare · COGA¹
+Osserva una prenotazione completa. Queste indicazioni COGA integrano le
+WCAG e non sono da sole una prova di conformità.¹
+
+
+
+¹   COGA · Reduce Memor y Demands; COGA · Clear Words; COGA · Step-by-step Instructions — w3.org/WAI/WCAG2/
+    supplemental/patterns/o6p05-low-cognition/; w3.org/WAI/WCAG2/supplemental/patterns/o3p01-clear-words/;
+    w3.org/WAI/WCAG2/supplemental/patterns/o4p07-step-instructions/
+
+
+202
+Movimento, tempo e distrazioni
+
+
+La continuità del compito dipende anche da tempo e attenzione. Movimento,
+suoni e interruzioni possono far perdere il punto: il controllo dell’esperienza deve
+restare comprensibile.
+
+Pausa, arresto, nascondi · 2.2.2 A¹
+Il criterio 2.2.2 A riguarda, fra l’altro, contenuti in movimento, lampeggianti o
+scorrevoli che partono automaticamente, durano più di cinque secondi e sono
+presentati insieme ad altri contenuti. Serve un modo per metterli in pausa,
+fermarli o nasconderli, salvo che il movimento sia essenziale. Per gli
+aggiornamenti automatici presentati in parallelo, il criterio prevede anche il
+controllo della frequenza e non usa la soglia di cinque secondi.
+
+Animazioni e preferenze · 2.3.3 AAA²
+Il criterio 2.3.3 AAA prevede che le animazioni di movimento attivate
+dall’interazione possano essere disabilitate, salvo quelle essenziali. Come
+scelta progettuale, rispetta la preferenza di movimento ridotto e conserva un
+riscontro comprensibile delle azioni anche nella versione statica.
+
+Interruzioni e flash · COGA / 2.3.1 A³,⁴
+COGA raccomanda di limitare notifiche e distrazioni non necessarie e di
+offrire controlli semplici sul loro comportamento. L’utente dovrebbe poter
+scegliere quando interrompere il compito o riprenderlo. Non presumere che
+una stessa quantità di stimoli sia confortevole per tutte le persone. I flash
+richiedono una verifica distinta sul criterio 2.3.1 A: pausa e movimento
+ridotto non la sostituiscono.
+
+
+¹   W3C · WCAG 2.2 · 2.2.2 A — w3.org/WAI/WCAG22/Understanding/pause-stop-hide
+²   W3C · WCAG 2.2 · 2.3.3 AAA — w3.org/WAI/WCAG22/Understanding/animation-from-interactions
+³   W3C · WCAG 2.2 · 2.3.1 A — w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold
+⁴   COGA · Limit Interruptions — w3.org/WAI/WCAG2/supplemental/patterns/o5p01-minimal-interruptions/
+
+                                                                                                       203
+ACCESSIBILITÀ E DESIGN INCLUSIVO                       3 .1 .2
+
+                                                         Fermarsi e riprendere
+
+
+
+Un’interruzione non dovrebbe costringere a perdere il lavoro o a ricostruire da
+zero ciò che è già stato fatto.
+Prevenire la perdita dei dati · COGA¹
+Quando possibile e sicuro, conserva progressivamente il lavoro e rendi
+evidente che cosa è stato salvato. Se il sistema richiede una scadenza,
+comunica prima quanto tempo è disponibile e che cosa succederà ai dati.
+COGA propone queste indicazioni come supporto supplementare.
+Gestire i limiti di tempo · 2.2.1 A²
+Il criterio 2.2.1 A richiede, per i limiti di tempo impostati dal contenuto,
+almeno una delle possibilità previste per disattivarli, regolarli o estenderli,
+salvo le eccezioni per eventi in tempo reale, limiti essenziali e limiti superiori
+a venti ore. Le modalità precise vanno verificate sul criterio.
+Ritrovare il contesto · COGA¹,³
+Alla ripresa, mostra l’ultimo passo completato, i dati disponibili e l’azione
+successiva. Un riepilogo consente di verificare lo stato senza affidarsi soltanto
+alla memoria. Il salvataggio tra sessioni è una scelta progettuale distinta dal
+criterio 3.3.7 A sull’inserimento ridondante nello stesso processo.
+
+
+
+
+¹   COGA · Avoid Data Loss — w3.org/WAI/WCAG2/supplemental/patterns/o4p09-data-loss/
+²   W3C · WCAG 2.2 · 2.2.1 A — w3.org/WAI/WCAG22/Understanding/timing-adjustable
+³   W3C · WCAG 2.2 · 3.3.7 A — w3.org/WAI/WCAG22/Understanding/redundant-entry
+
+204
+Fermare e riprendere la lettura
+
+L’utente deve poter controllare un cambiamento che interferisce con il compito.
+
+
+Barriera                                                    Scelta di progetto
+
+
+
+
+Le notizie scorrono e si aggiornano                         Il controllo previsto ferma gli
+mentre l’utente legge; una                                  aggiornamenti e rende possibile
+distrazione può fargli perdere il                           riprendere. Le impostazioni di
+punto.                                                      movimento ridotto agiscono sugli
+                                                            effetti pertinenti.¹
+
+
+
+
+Come verificare · 2.2.2 A / 2.3.3 AAA / 2.2.1 A / 2.3.1 A¹
+Distingui movimento, aggiornamenti, limiti di tempo e flash: sono verifiche
+con condizioni ed eccezioni diverse.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 2.2.2 A / 2.3.3 AAA / 2.2.1 A / 2.3.1 A — w3.org/WAI/WCAG22/Understanding/pause-stop-hide;
+    w3.org/WAI/WCAG22/Understanding/animation-from-interactions; w3.org/WAI/WCAG22/Understanding/
+    timing-adjustable; w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold
+
+                                                                                                            205
+ACCESSIBILITÀ E DESIGN INCLUSIVO                           3 .1 .2
+
+                                                   Moduli: istruzioni ed errori
+
+Queste scelte si incontrano nei moduli: occorre capire che cosa inserire, perché è
+richiesto e come correggere un errore, senza perdere il percorso o i dati validi.
+Etichette persistenti · 1.3.1 A / 3.3.2 A / 1.4.1 A¹
+Associa un’etichetta a ogni campo e fornisci le istruzioni necessarie. Il
+placeholder può mostrare un esempio, ma non sostituisce un’etichetta:
+scompare durante la compilazione e non garantisce una relazione
+programmatica con il controllo. I campi obbligatori devono essere
+riconoscibili anche senza il solo colore.
+Errori comprensibili · 3.3.1 A / 3.3.3 AA²,³
+Quando un errore viene rilevato automaticamente, identifica il campo
+interessato e descrivi il problema in testo. Quando è nota una correzione,
+suggeriscila, salvo che comprometta sicurezza o scopo del contenuto.
+Conserva i dati validi e rendi raggiungibili le spiegazioni.
+Controllare prima di confermare · 3.3.4 AA⁴
+Per le operazioni previste dal criterio 3.3.4 AA, fra cui impegni giuridici o
+transazioni finanziarie e modifiche o cancellazioni di dati controllabili
+dall’utente, serve almeno una delle possibilità indicate: rendere reversibile
+l’invio; controllare i dati e consentire la correzione degli errori; oppure
+permettere di riesaminare, confermare e correggere le informazioni prima di
+completare l’invio.
+
+
+¹   WAI · Labels and Instructions; W3C · WCAG 2.2 · 1.3.1 A / 3.3.2 A / 1.4.1 A — w3.org/WAI/WCAG22/Understanding/
+    info-and-relationships; w3.org/WAI/WCAG22/Understanding/labels-or-instructions; w3.org/WAI/WCAG22/
+    Understanding/use-of-color; w3.org/WAI/tutorials/forms/labels/
+²   W3C · WCAG 2.2 · 3.3.1 A / 3.3.3 AA — w3.org/WAI/WCAG22/Understanding/error-identification; w3.org/WAI/
+    WCAG22/Understanding/error-suggestion
+³   WAI · User Notifications — w3.org/WAI/tutorials/forms/notifications/
+⁴   W3C · WCAG 2.2 · 3.3.4 AA — w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data
+
+
+206
+Correggere una data
+
+Il messaggio identifica il problema e indica come intervenire, conservando gli altri
+dati validi.
+
+
+Barriera                                                        Scelta di progetto
+
+
+
+
+Un campo diventa rosso con un                                   L’etichetta resta visibile e il
+generico «Errore»; l’utente deve                                messaggio associato al campo
+indovinare che cosa modificare.                                 spiega il formato GG/MM/AAAA e la
+                                                                correzione necessaria.¹
+
+
+
+
+Come verificare · 1.3.1 A / 3.3.2 A / 3.3.1 A / 3.3.3 AA / 1.4.1
+A¹
+Invia un dato errato e verifica messaggio, collegamento al campo, focus e
+conservazione delle altre informazioni.¹
+
+
+
+
+¹   WAI · Labels and Instructions; W3C · WCAG 2.2 · 1.3.1 A / 3.3.2 A / 3.3.1 A / 3.3.3 AA / 1.4.1 A — w3.org/WAI/WCAG22/
+    Understanding/info-and-relationships; w3.org/WAI/WCAG22/Understanding/labels-or-instructions; w3.org/WAI/
+    WCAG22/Understanding/error-identification; w3.org/WAI/WCAG22/Understanding/error-suggestion; w3.org/
+    WAI/WCAG22/Understanding/use-of-color; w3.org/WAI/tutorials/forms/labels/
+
+                                                                                                                    207
+ACCESSIBILITÀ E DESIGN INCLUSIVO                     3 .1 .2
+
+                                       Autenticazione e dati ripetuti
+
+
+Il percorso del modulo continua nell’accesso al servizio. Memoria e trascrizione
+possono creare barriere anche qui; le WCAG 2.2 ne affrontano alcune attraverso
+requisiti sull’autenticazione.
+Non far reinserire senza motivo · 3.3.7 A¹
+Il criterio 3.3.7 A riguarda le informazioni già inserite o fornite all’utente nello
+stesso processo: devono essere precompilate oppure disponibili da
+selezionare. Sono previste eccezioni quando la ripetizione è essenziale, serve
+alla sicurezza o l’informazione non è più valida. Non richiede la
+conservazione tra sessioni.
+Consentire assistenza · 3.3.8 AA²
+Il criterio 3.3.8 AA non vieta le password. Per un passaggio di autenticazione
+che richiede un test cognitivo, prevede un’alternativa o un meccanismo di
+assistenza, con specifiche eccezioni. Compatibilità con i gestori di password e
+possibilità di incollare credenziali o codici possono ridurre memoria e
+trascrizione.
+Verificare il percorso completo · 3.3.8 AA / 3.3.9 AAA²,³
+Controlla accesso, recupero account e autenticazione a più fattori. Evita di
+interrompere l’assistenza fra un passaggio e l’altro. Il criterio 3.3.9 AAA è più
+restrittivo: non ammette le eccezioni del livello AA per riconoscimento di
+oggetti o contenuti personali.
+
+
+
+¹ W3C · WCAG 2.2 · 3.3.7 A — w3.org/WAI/WCAG22/Understanding/redundant-entry
+² W3C · WCAG 2.2 · 3.3.8 AA — w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum
+³ W3C · WCAG 2.2 · 3.3.9 AAA — w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced
+
+
+208
+Accedere con gli strumenti abituali
+
+La password non è di per sé il problema: conta l’assistenza disponibile lungo il
+percorso.
+
+
+Barriera                                                Scelta di progetto
+
+
+
+
+Il servizio blocca l’incolla e obbliga a                L’incolla e la compatibilità con il
+ricordare o trascrivere la password,                    gestore riducono memoria e
+anche quando un gestore può                             trascrizione. L’assistenza continua
+fornirla.                                               anche nel recupero e nei passaggi
+                                                        successivi.¹
+
+
+
+
+Come verificare · 3.3.8 AA¹
+Valuta il percorso completo rispetto al criterio 3.3.8 AA, comprese le sue
+condizioni ed eccezioni.¹
+
+
+
+
+¹   W3C · WCAG 2.2 · 3.3.8 AA — w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum
+
+                                                                                                    209
+ACCESSIBILITÀ E DESIGN INCLUSIVO                     3 .1 .2
+
+                                   Personalizzare senza escludere
+Moduli e accesso mostrano che un’unica modalità può non rispondere a bisogni
+diversi. Le alternative devono essere facili da trovare e usare, conservando
+informazioni e funzioni necessarie.
+Una base già utilizzabile · COGA¹
+Una preferenza non corregge da sola una versione predefinita illeggibile.
+Verifica gli adattamenti descritti nelle tavole sul testo e sul layout, anche con
+le impostazioni del browser e del sistema. Le indicazioni COGA sostengono
+una personalizzazione più ampia.
+Scelte pertinenti · COGA¹
+COGA suggerisce interfacce personalizzabili e familiari. Offri controlli per gli
+aspetti che influenzano il compito: testo, contrasto, animazioni, suoni o
+densità delle informazioni. Spiega l’effetto delle opzioni e consenti di
+modificare o ripristinare le preferenze.
+Esperienze equivalenti · COGA¹
+Modalità differenti devono conservare l’informazione e l’azione necessarie.
+Una scelta più semplice non dovrebbe privare l’utente di una funzione
+essenziale. Coinvolgi le persone nella verifica: una modalità unica per una
+categoria di utenti non rappresenta automaticamente le loro preferenze.
+Aiuto facile da trovare · COGA / 3.2.6 A²,³
+COGA raccomanda accesso semplice al supporto durante il compito. Se i
+meccanismi di aiuto previsti dal criterio ricorrono su più pagine dello stesso
+insieme, il criterio 3.2.6 A richiede lo stesso ordine relativo rispetto agli altri
+contenuti, salvo una modifica avviata dall’utente. Non impone di introdurre
+un servizio di assistenza.
+
+¹ COGA · Personalized Interface — w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/
+² W3C · WCAG 2.2 · 3.2.6 A — w3.org/WAI/WCAG22/Understanding/consistent-help
+³ COGA · Provide Human Help — w3.org/WAI/WCAG2/supplemental/patterns/o7p01-human-help/
+
+210
+Adattare la lettura
+
+
+
+Le preferenze sostengono un’esperienza già utilizzabile e conservano le funzioni
+essenziali.
+
+
+
+Barriera                                                 Scelta di progetto
+
+
+
+
+Testo, movimento e densità hanno                         Opzioni reperibili spiegano l’effetto
+una sola configurazione; adattare il                     e consentono di ripristinare la
+compito richiede aggirare                                scelta. I contenuti essenziali restano
+l’interfaccia.                                           disponibili.¹
+
+
+
+
+Come verificare · COGA¹
+Verifica le opzioni con le impostazioni del browser e con le persone. La
+personalizzazione COGA non sostituisce i requisiti WCAG.¹
+
+
+
+
+¹   COGA · Personalized Interface — w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/
+
+
+                                                                                              211
+ACCESSIBILITÀ E DESIGN INCLUSIVO                          3 .1 .2
+
+                                                 Lingua e rappresentazione
+
+
+L’inclusione riguarda anche il modo in cui un servizio descrive le persone e
+riconosce le loro differenze.
+Nomi e moduli · I18n¹
+Le convenzioni sui nomi personali variano fra lingue e culture. Evita
+assunzioni rigide su numero delle parti, ordine, lunghezza e caratteri.
+Definisci i campi in base all’uso effettivo dell’informazione e spiega i requisiti
+necessari, invece di trattare una sola convenzione come universale.
+Lingua e comprensione · 3.1.1 A / 3.1.2 AA²
+Dichiara correttamente la lingua della pagina e dei passaggi in altre lingue
+quando richiesto: le tecnologie assistive possono così interpretare meglio il
+testo. Nei servizi multilingue, rendi chiara la scelta della lingua e verifica
+termini, istruzioni e messaggi nel contesto d’uso.
+Rappresentare la diversità · WAI³
+Nei materiali di ricerca e nelle immagini, considera esperienze e contesti
+differenti. Le rappresentazioni possono aprire domande di progetto, ma non
+sostituiscono la partecipazione delle persone. Non dedurre capacità, bisogni
+o comportamento dall’aspetto di un personaggio o da una categoria
+demografica.
+
+
+
+¹ W3C · Personal Names — w3.org/International/questions/qa-personal-names
+² W3C · WCAG 2.2 · 3.1.1 A / 3.1.2 AA — w3.org/WAI/WCAG22/Understanding/language-of-page; w3.org/WAI/
+    WCAG22/Understanding/language-of-parts
+³   WAI · Involving Users in Evaluation — w3.org/WAI/test-evaluate/involving-users/
+
+212
+Riconoscere nomi e lingue
+
+
+Le convenzioni del modulo devono corrispondere all’uso reale dell’informazione.
+
+
+
+Barriera                                                 Scelta di progetto
+
+
+
+
+Un campo impone una sola                                 I requisiti sono spiegati e motivati
+convenzione su parti del nome e                          dal servizio; il modulo gestisce i
+caratteri, escludendo combinazioni                       nomi effettivi. La lingua dei
+valide in altri contesti.                                contenuti è dichiarata
+                                                         correttamente.¹
+
+
+
+
+Come verificare · I18n / 3.1.1 A¹
+Prova nomi e lingue pertinenti al servizio, senza dedurre capacità o bisogni
+dall’origine o dall’aspetto delle persone.¹
+
+
+
+
+¹   W3C · Personal Names; W3C · WCAG 2.2 · 3.1.1 A — w3.org/WAI/WCAG22/Understanding/language-of-page;
+    w3.org/International/questions/qa-personal-names
+
+
+                                                                                                         213
+ACCESSIBILITÀ E DESIGN INCLUSIVO                     3 .1 .2
+
+                              WCAG 2.2: decisioni da verificare
+
+I criteri sono requisiti verificabili, con un ambito e un livello precisi. Queste
+aggiunte delle WCAG 2.2 hanno ricadute dirette sul progetto.
+Focus non oscurato · 2.4.11 AA / 2.4.12 AAA¹
+Quando un componente riceve il focus da tastiera, non deve essere
+interamente nascosto da contenuti creati dall’autore. Verifica banner, barre
+fisse e finestre sovrapposte. Il criterio 2.4.12 AAA richiede invece che nessuna
+parte del componente sia nascosta.
+Azioni e bersagli · 2.5.7 AA / 2.5.8 AA²,³
+Prevedi un’alternativa al trascinamento con puntatore singolo e verifica
+dimensioni o spaziatura dei bersagli. I criteri contengono eccezioni: associa
+la decisione al comportamento concreto del componente, evitando una
+misura unica applicata senza contesto.
+Dati ripetuti · 3.3.7 A⁴
+Nel medesimo processo, rendi disponibili le informazioni già inserite o
+fornite, salvo le eccezioni previste. Un percorso di acquisto o prenotazione è
+un buon punto in cui verificare se l’utente deve riscrivere gli stessi dati.
+Autenticazione accessibile · 3.3.8 AA⁵
+Controlla le richieste cognitive nei passaggi di accesso e l’assistenza
+disponibile. L’uso di password non determina da solo una violazione: occorre
+valutare il percorso e le condizioni previste dal criterio.
+
+¹ W3C · WCAG 2.2 · 2.4.11 AA / 2.4.12 AAA — w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum;
+  w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced
+² W3C · WCAG 2.2 · 2.5.7 AA — w3.org/WAI/WCAG22/Understanding/dragging-movements
+³ W3C · WCAG 2.2 · 2.5.8 AA — w3.org/WAI/WCAG22/Understanding/target-size-minimum
+⁴ W3C · WCAG 2.2 · 3.3.7 A — w3.org/WAI/WCAG22/Understanding/redundant-entry
+⁵ W3C · WCAG 2.2 · 3.3.8 AA — w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum
+214
+Conformità e qualità dell’esperienza
+
+
+
+
+Un buon progetto collega i requisiti tecnici alle attività delle persone. La
+valutazione deve esplicitare che cosa è stato verificato.
+
+Pagine e processi completi
+La conformità riguarda le pagine complete e, quando un’attività è composta
+da una sequenza, il processo completo. Un singolo controllo corretto o una
+sola schermata verificata non dimostrano la conformità di un intero sito.
+
+Livello e ambito
+Dichiara versione delle WCAG, livello, pagine e funzioni valutate, metodi, data
+e limiti della verifica. Una mappa dei criteri aiuta a individuare responsabilità
+e prove richieste. Il numero di errori segnalati da uno strumento non è una
+percentuale universale di accessibilità.
+
+La conformità non copre ogni bisogno
+Le WCAG riconoscono di non affrontare ogni esigenza degli utenti. Affianca
+quindi le verifiche tecniche a osservazioni sui compiti, indicazioni
+supplementari pertinenti e prove con persone diverse. Un test di usabilità
+non sostituisce l’audit dei criteri; l’audit non sostituisce la ricerca
+sull’esperienza.
+
+
+
+
+W3C · WCAG Conformance — w3.org/WAI/WCAG22/Understanding/conformance
+WAI · Evaluating Accessibility — w3.org/WAI/test-evaluate/
+WAI · Supplemental Guidance — w3.org/WAI/WCAG2/supplemental/about/
+
+                                                                               215
+ACCESSIBILITÀ E DESIGN INCLUSIVO                 3 .1 .2
+
+              Verificare un percorso completo
+Una schermata corretta non basta quando il compito attraversa più passaggi.
+
+Barriera                                          Scelta di progetto
+
+
+
+
+L’audit si ferma alla pagina di                   La verifica considera tutte le pagine
+accesso; gli errori e la conferma                 e i passaggi del processo. Versione,
+della prenotazione rimangono fuori                livello, metodi, data e limiti sono
+dall’ambito.                                      dichiarati.¹
+
+
+
+Come verificare · Conformità WCAG¹
+Usa i criteri pertinenti su ogni passaggio. Il conteggio degli errori automatici
+non è una percentuale universale di accessibilità.¹
+
+
+
+¹ W3C · WCAG Conformance — w3.org/WAI/WCAG22/Understanding/conformance
+
+216
+Valutare con strumenti e persone
+
+
+Le alternative di progetto devono essere verificate nei compiti. Strumenti
+automatici, controlli manuali e prove con persone rilevano barriere differenti:
+combinarli permette di rivedere le scelte con evidenze.
+
+Controlli automatici
+Gli strumenti aiutano a trovare alcuni problemi, ma non possono
+determinare da soli se un sito è accessibile. Per esempio, la presenza di un
+testo alternativo è verificabile automaticamente; la sua pertinenza rispetto al
+contesto richiede giudizio umano.
+
+Verifiche manuali
+Esamina struttura, contenuti e comportamento dei componenti. Prova la
+tastiera, il focus, gli ingrandimenti, gli errori nei moduli e le alternative ai
+media. Quando pertinente, verifica le combinazioni di browser e tecnologie
+assistive considerate nel progetto.
+
+Prove d’uso
+Coinvolgi persone che utilizzano modalità e tecnologie differenti. Usa
+compiti realistici e registra ostacoli, aiuti richiesti e conseguenze sul
+completamento. L’esperienza di una persona non rappresenta tutte le
+persone con la stessa disabilità; le prove con utenti vanno affiancate alla
+valutazione dei criteri.
+
+WAI significa Web Accessibility Initiative: l’iniziativa del W3C che sviluppa
+risorse, indicazioni e materiali per progettare e valutare l’accessibilità. Le tre
+risorse in nota hanno funzioni diverse e si usano insieme alle verifiche sul
+compito.
+
+
+WAI (W3C) · Evaluation Tools — w3.org/WAI/test-evaluate/tools/
+WAI · Involving Users in Evaluation — w3.org/WAI/test-evaluate/involving-users/
+WAI · Easy Checks — w3.org/WAI/test-evaluate/preliminar y/
+
+
+                                                                                  217
+ACCESSIBILITÀ E DESIGN INCLUSIVO                          3 .1 .2
+
+                                               Dalla ricerca alla correzione
+
+
+La partecipazione delle persone è utile durante tutto il progetto, dalle prime
+ipotesi alle verifiche della soluzione realizzata.
+Definire i compiti
+Scegli attività coerenti con gli obiettivi del servizio: trovare un’informazione,
+confrontare un’offerta, prenotare, pagare o recuperare un account. Chiarisci
+quali capacità, conoscenze e dispositivi il percorso richiede implicitamente.
+Preparare prove accessibili
+Prevedi materiali, tempi e modalità adeguati, consentendo quando possibile
+le tecnologie assistive abituali. Prima della prova, spiega in forma
+comprensibile scopo, attività, dati raccolti e uso; verifica la comprensione e
+ottieni il consenso. La partecipazione è volontaria e si può interrompere.
+Concorda pause e supporti con la persona, senza dedurli dalla sola disabilità.
+Registrare e verificare di nuovo
+Per ogni ostacolo conserva compito, contesto, comportamento osservato,
+conseguenza e modifica proposta. Distingui ciò che è stato osservato da ciò
+che è soltanto ipotizzato. Dopo la correzione, riprova il percorso e aggiorna
+l’esito: l’accessibilità richiede attenzione anche quando contenuti e
+componenti cambiano.
+
+
+
+WAI · Involving Users in Evaluation — w3.org/WAI/test-evaluate/involving-users/
+WAI · Involving Users in Projects — w3.org/WAI/planning/involving-users/
+WAI · Evaluating Accessibility — w3.org/WAI/test-evaluate/
+COGA · §5.3 Informed Consent — w3.org/TR/coga-usable/#informed-consent
+
+218
+Dall’ostacolo alla nuova prova
+
+
+Una scheda di osservazione collega compito, barriera, modifica e verifica.
+
+
+Barriera                                                    Scelta di progetto
+
+
+
+
+Una nota generica non permette di                           Il registro distingue osservazioni e
+ricostruire dove il compito si                              ipotesi e indica la conseguenza.
+interrompe o quale modifica serva.                          Dopo la correzione, lo stesso
+                                                            percorso viene verificato di nuovo.¹
+
+
+
+
+Come verificare · WAI / COGA¹
+Concorda compiti, supporti e consenso comprensibile. Il registro qui
+mostrato è illustrativo e non documenta un test svolto.¹
+
+
+
+
+¹   WAI · Involving Users in Evaluation; COGA · Consenso informato — w3.org/WAI/test-evaluate/involving-users/;
+    w3.org/TR/coga-usable/#informed-consent
+
+                                                                                                             219
+ACCESSIBILITÀ E DESIGN INCLUSIVO                            3 .1 .2
+
+                                           Un caso: The Last of Us Part II
+
+Il gioco documenta più di sessanta impostazioni di accessibilità. Il caso mostra
+come la configurazione possa offrire percorsi diversi verso la stessa esperienza.
+Controlli adattabili
+La documentazione ufficiale descrive la rimappatura dei comandi, schemi
+per una sola mano e alternative alle pressioni ripetute o prolungate. Queste
+opzioni modificano il modo di eseguire un’azione senza richiedere un unico
+gesto a tutti i giocatori.
+
+
+
+
+      Rimappatura dei controlli. Screenshot ufficiale PlayStation / Naughty Dog; immagine acquisita l’11 ottobre 2026.
+
+Il progetto rende disponibili anche tre configurazioni iniziali per esigenze
+visive, uditive e motorie. Le singole opzioni restano modificabili: un preset è
+un punto di partenza, non il profilo completo di una persona.
+
+
+PlayStation / Naughty Dog · TLOU Part II — playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/
+
+220
+Alternative visive e informative
+
+
+Le scelte di accessibilità possono agire insieme su percezione, controllo e
+orientamento.
+
+
+
+
+Presentazione ad alto contrasto. Screenshot ufficiale PlayStation / Naughty Dog; immagine acquisita l’11 ottobre 2026.
+
+
+
+
+Informazioni su più canali
+Il gioco documenta dimensioni e colori della HUD regolabili, presentazione
+ad alto contrasto, ingrandimento, text-to-speech, sottotitoli personalizzabili
+e segnali audio di orientamento. Ogni opzione risponde a una funzione
+specifica.
+
+
+Leggere il caso con precisione
+La presenza di queste funzioni non dimostra che ogni persona possa usare
+ogni parte del gioco. Il caso insegna a rendere le alternative configurabili e a
+verificarne l’efficacia nei compiti. Non costituisce una valutazione di
+conformità WCAG, che riguarda i contenuti web.
+
+
+
+PlayStation / Naughty Dog · TLOU Part II — playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/
+
+
+                                                                                                                 221
+ACCESSIBILITÀ E DESIGN INCLUSIVO                        3 .1 .2
+
+                                                             Consigli pratici
+
+Sul piano operativo, progettare interfacce più accessibili non richiede sempre
+soluzioni complesse; spesso significa prestare attenzione ad alcune pratiche
+essenziali.
+
+      Risolvere i problemi di usabilità che confondono tutti gli utenti, perché
+      tali criticità tendono a penalizzare ancora di più chi incontra barriere di
+      accesso.
+      Fornire alternative testuali pertinenti per le immagini informative;
+      quelle decorative vanno ignorate dalle tecnologie assistive.
+      Usare correttamente la gerarchia dei titoli.
+      Associare in modo chiaro etichette e campi nei form.
+      Rendere tutti i contenuti navigabili da tastiera.
+      Predisporre collegamenti come “vai al contenuto principale” per
+      facilitare l’orientamento.
+      Scegliere componenti e temi che siano stati progettati con criteri di
+      accessibilità.
+
+Le barriere di accessibilità e i problemi generali di usabilità vanno affrontati
+insieme. Chi usa uno screen reader può esplorare titoli, link e regioni della
+pagina senza ascoltarla tutta in sequenza. Una struttura semantica chiara
+rende più rapido l’orientamento e aiuta a trovare le informazioni rilevanti.
+
+
+
+WAI · Easy Checks — w3.org/WAI/test-evaluate/preliminary/
+
+222
+DALLA RICERCA ALLA VALUTAZIONE
+
+
+Verificare l’inclusione
+Accessibilità e design inclusivo attraversano tutto il progetto. Per ridurre le
+barriere servono ricerca, prove d’uso e verifiche tecniche.
+
+01 · Ricercare
+Coinvolgi persone con capacità, familiarità digitale e modalità d’uso diverse.
+L’esperienza di una persona non rappresenta tutte le persone con la stessa
+disabilità.
+
+02 · Osservare
+Usa compiti realistici sui prototipi, anche con persone che utilizzano
+tecnologie assistive. Registra gli ostacoli incontrati e come influiscono sul
+completamento del compito.¹
+
+03 · Verificare
+Affianca i test con utenti alle verifiche WCAG: i due approcci rilevano barriere
+differenti. I controlli automatici coprono soltanto una parte dei requisiti.
+
+
+
+Gli ostacoli osservati diventano requisiti e domande di progetto: nella fase
+Define occorre chiarire quale problema affrontare e per chi.
+
+
+    Capire, ricordare, riprendere
+    Le istruzioni sono chiare? Le informazioni necessarie restano visibili? Si
+    può riprendere un’attività interrotta? La guida W3C per l’accessibilità
+    cognitiva integra le WCAG con indicazioni supplementari.²
+
+
+
+
+¹   W3C, Involving Users. — w3.org/WAI/test-evaluate/involving-users/
+²   W3C, Making Content Usable (COGA). — w3.org/TR/coga-usable/
+
+                                                                                223
+          F T
+    R A
+D
+

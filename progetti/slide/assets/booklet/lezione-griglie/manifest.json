@@ -1,0 +1,699 @@
+{
+  "version": 1,
+  "lesson": "griglie-layout",
+  "sourceFile": "progetti/booklet/capitoli/07-griglia.typ",
+  "assetManifest": "risorse-condivise/immagini/figure/griglia/manifest.json",
+  "imageManifest": "progetti/slide/assets/booklet/lezione-griglie/image-manifest.json",
+  "editorialPlan": "progetti/slide/assets/booklet/lezione-griglie/content-plan.json",
+  "generator": "progetti/slide/scripts/build/griglie-slides.mjs",
+  "speakerNotesSource": "progetti/slide/assets/booklet/lezione-griglie/speaker-notes.json",
+  "audioSelectionSource": "progetti/slide/assets/booklet/lezione-griglie/audio-approved.json",
+  "teachingMaterials": "progetti/slide/assets/slide-materials/griglie/manifest.json",
+  "simplifiedContentArchive": "progetti/slide/assets/booklet/lezione-griglie/simplification-archive.json",
+  "archivedSlides": "progetti/slide/assets/booklet/lezione-08-tipografia/griglie-interfacce-archive.json",
+  "slideCount": 63,
+  "minutes": 78,
+  "slides": [
+    {
+      "lessonSlide": 1,
+      "title": "Griglie e layout",
+      "alias": "griglie-layout",
+      "section": 0,
+      "sourceHeading": "Dallo spazio alla struttura",
+      "figures": [],
+      "minutes": 0.5
+    },
+    {
+      "lessonSlide": 2,
+      "title": "Organizzare, adattare, verificare",
+      "alias": "griglie-layout-sintesi",
+      "section": 0,
+      "sourceHeading": "Dallo spazio alla struttura",
+      "figures": [],
+      "minutes": 0.5
+    },
+    {
+      "lessonSlide": 3,
+      "title": "Cosa impareremo",
+      "alias": "griglie-layout-obiettivi",
+      "section": 0,
+      "sourceHeading": "Dallo spazio alla struttura",
+      "figures": [],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 4,
+      "title": "Dare struttura alle relazioni",
+      "alias": "griglie-layout-relazioni-struttura",
+      "section": 1,
+      "sourceHeading": "Dallo spazio alla struttura",
+      "figures": [
+        "359"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 5,
+      "title": "Allineamenti per confrontare",
+      "alias": "griglie-layout-relazioni-appuntamenti",
+      "section": 1,
+      "sourceHeading": "Rendere visibili le relazioni",
+      "figures": [
+        "360"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 6,
+      "title": "Griglia, layout e gerarchia",
+      "alias": "griglie-layout-relazioni-griglia-layout-gerarchia",
+      "section": 1,
+      "sourceHeading": "Griglia, layout e gerarchia",
+      "figures": [
+        "361"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 7,
+      "title": "Il bianco ha una misura",
+      "alias": "griglie-layout-relazioni-bianco-misura",
+      "section": 1,
+      "sourceHeading": "Il bianco ha una misura",
+      "figures": [
+        "362"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 8,
+      "title": "Un metodo esplicito",
+      "alias": "griglie-layout-storia-metodo-esplicito",
+      "section": 2,
+      "sourceHeading": "Un metodo esplicito",
+      "figures": [
+        "364"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 9,
+      "title": "Musica Viva, 1957",
+      "alias": "griglie-layout-storia-musica-viva",
+      "section": 2,
+      "sourceHeading": "Musica Viva, 1957",
+      "figures": [
+        "365"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 10,
+      "title": "Unigrid: un sistema editoriale",
+      "alias": "griglie-layout-storia-unigrid",
+      "section": 2,
+      "sourceHeading": "Unigrid: un sistema editoriale",
+      "figures": [
+        "366"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 11,
+      "title": "Coordinare senza uniformare",
+      "alias": "griglie-layout-storia-coordinare-variazioni",
+      "section": 2,
+      "sourceHeading": "Coordinare senza uniformare",
+      "figures": [
+        "367"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 12,
+      "title": "Definire il campo utile",
+      "alias": "griglie-layout-anatomia-campo-utile",
+      "section": 3,
+      "sourceHeading": "Anatomia e costruzione",
+      "figures": [
+        "369"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 13,
+      "title": "Leggere il reticolo",
+      "alias": "griglie-layout-anatomia-reticolo",
+      "section": 3,
+      "sourceHeading": "Leggere il reticolo",
+      "figures": [
+        "370"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 14,
+      "title": "Distinguere le parti della griglia",
+      "alias": "griglie-layout-anatomia-documento",
+      "section": 3,
+      "sourceHeading": "Leggere il reticolo",
+      "figures": [
+        "2024-102-anatomia"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 15,
+      "title": "Calcolare colonne uguali",
+      "alias": "griglie-layout-anatomia-calcolo-colonne",
+      "section": 3,
+      "sourceHeading": "Calcolare e verificare",
+      "figures": [
+        "371"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 16,
+      "title": "Occupare più colonne",
+      "alias": "griglie-layout-anatomia-span",
+      "section": 3,
+      "sourceHeading": "Calcolare e verificare",
+      "figures": [],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 17,
+      "title": "Margine, gutter e padding",
+      "alias": "griglie-layout-anatomia-spazi-esterni-interni",
+      "section": 3,
+      "sourceHeading": "Margine, intercolonna e spazio interno",
+      "figures": [
+        "materiali-spazi"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 18,
+      "title": "La stessa width, due ingombri",
+      "alias": "griglie-layout-anatomia-box-sizing-confronto",
+      "section": 3,
+      "sourceHeading": "Margine, intercolonna e spazio interno",
+      "figures": [
+        "didattica-box-sizing"
+      ],
+      "minutes": 1.5,
+      "origin": "teaching-supplement"
+    },
+    {
+      "lessonSlide": 19,
+      "title": "Coordinare le linee di base",
+      "alias": "griglie-layout-anatomia-linee-base",
+      "section": 3,
+      "sourceHeading": "La griglia delle linee di base",
+      "figures": [
+        "372"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 20,
+      "title": "Provare contenuti reali",
+      "alias": "griglie-layout-anatomia-contenuti-reali",
+      "section": 3,
+      "sourceHeading": "Costruire con contenuti reali",
+      "figures": [
+        "373"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 21,
+      "title": "Quattro logiche di organizzazione",
+      "alias": "griglie-layout-tipologie-quattro-logiche",
+      "section": 4,
+      "sourceHeading": "Tipologie e pagina editoriale",
+      "figures": [
+        "374"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 22,
+      "title": "Una colonna, una sequenza",
+      "alias": "griglie-layout-tipologie-blocco",
+      "section": 4,
+      "sourceHeading": "Una colonna, una sequenza",
+      "figures": [
+        "375"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 23,
+      "title": "Colonne per confrontare",
+      "alias": "griglie-layout-tipologie-colonne",
+      "section": 4,
+      "sourceHeading": "Colonne per confrontare",
+      "figures": [
+        "376"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 24,
+      "title": "Rendere chiaro l'ordine",
+      "alias": "griglie-layout-tipologie-ordine-colonne",
+      "section": 4,
+      "sourceHeading": "Colonne per confrontare",
+      "figures": [
+        "didattica-ordine-colonne"
+      ],
+      "minutes": 0.5
+    },
+    {
+      "lessonSlide": 25,
+      "title": "Perché dodici colonne",
+      "alias": "griglie-layout-tipologie-dodici-colonne",
+      "section": 4,
+      "sourceHeading": "Perché dodici colonne",
+      "figures": [
+        "materiali-dodici"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 26,
+      "title": "Gli stessi contenuti, due assetti",
+      "alias": "griglie-layout-tipologie-due-assetti",
+      "section": 4,
+      "sourceHeading": "Gli stessi contenuti, due assetti",
+      "figures": [
+        "377"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 27,
+      "title": "Leggere una doppia pagina",
+      "alias": "griglie-layout-tipologie-documento-editoriale",
+      "section": 4,
+      "sourceHeading": "Gli stessi contenuti, due assetti",
+      "figures": [
+        "2024-103-editoriale"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 28,
+      "title": "La griglia modulare",
+      "alias": "griglie-layout-tipologie-modulare",
+      "section": 4,
+      "sourceHeading": "La griglia modulare",
+      "figures": [
+        "378"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 29,
+      "title": "Gerarchia e asimmetria",
+      "alias": "griglie-layout-tipologie-gerarchica",
+      "section": 4,
+      "sourceHeading": "Gerarchia e asimmetria",
+      "figures": [
+        "379"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 30,
+      "title": "Progettare la doppia pagina",
+      "alias": "griglie-layout-tipologie-dorso",
+      "section": 4,
+      "sourceHeading": "Progettare la doppia pagina",
+      "figures": [
+        "380"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 31,
+      "title": "Terzi e proporzioni auree",
+      "alias": "griglie-layout-terzi-aureo",
+      "section": 5,
+      "sourceHeading": "Proporzioni e rottura",
+      "figures": [
+        "389"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 32,
+      "title": "Leggere il rapporto aureo",
+      "alias": "griglie-layout-aureo-leggere-rapporto",
+      "section": 5,
+      "sourceHeading": "Aureo, _Fibonacci_ e spirale",
+      "figures": [
+        "didattica-rapporto-aureo"
+      ],
+      "minutes": 1,
+      "origin": "teaching-supplement"
+    },
+    {
+      "lessonSlide": 33,
+      "title": "Aureo, Fibonacci e spirale",
+      "alias": "griglie-layout-aureo-fibonacci",
+      "section": 5,
+      "sourceHeading": "Aureo, _Fibonacci_ e spirale",
+      "figures": [
+        "390"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 34,
+      "title": "April Greiman, 1986",
+      "alias": "griglie-layout-april-greiman",
+      "section": 5,
+      "sourceHeading": "_April Greiman_, 1986",
+      "figures": [
+        "391"
+      ],
+      "minutes": 1,
+      "figureTexts": {
+        "391": {
+          "caption": "April Greiman, DOES IT MAKE SENSE?, Design Quarterly 133, 1986. Vista complessiva dell’opera.",
+          "alt": "April Greiman, DOES IT MAKE SENSE?, Design Quarterly 133, 1986. Vista complessiva dell’opera."
+        }
+      }
+    },
+    {
+      "lessonSlide": 35,
+      "title": "Uscire dalla griglia con uno scopo",
+      "alias": "griglie-layout-uscire-dalla-griglia",
+      "section": 5,
+      "sourceHeading": "Uscire dalla griglia con uno scopo",
+      "figures": [
+        "392"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 36,
+      "title": "La griglia diventa comportamento",
+      "alias": "griglie-layout-viewport-comportamento",
+      "section": 6,
+      "sourceHeading": "Dal foglio al viewport",
+      "figures": [
+        "381"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 37,
+      "title": "Fisso, fluido e ibrido",
+      "alias": "griglie-layout-fisso-fluido-ibrido",
+      "section": 6,
+      "sourceHeading": "Fisso, fluido e ibrido",
+      "figures": [
+        "382"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 38,
+      "title": "Un contenitore fluido con un limite",
+      "alias": "griglie-layout-contenitore-fluido-limite",
+      "section": 6,
+      "sourceHeading": "Un contenitore fluido con un limite",
+      "figures": [
+        "materiali-contenitore"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 39,
+      "title": "La soglia nasce dal contenuto",
+      "alias": "griglie-layout-breakpoint-contenuto",
+      "section": 6,
+      "sourceHeading": "Scegliere i punti di cambiamento",
+      "figures": [
+        "383"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 40,
+      "title": "Viewport o contenitore?",
+      "alias": "griglie-layout-query-viewport-contenitore",
+      "section": 6,
+      "sourceHeading": "Scegliere i punti di cambiamento",
+      "figures": [
+        "didattica-query-contenitore"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 41,
+      "title": "Golden Grid System",
+      "alias": "griglie-layout-golden-grid-system",
+      "section": 6,
+      "sourceHeading": "Golden Grid System",
+      "figures": [
+        "384"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 42,
+      "title": "IBM e la 2x Grid",
+      "alias": "griglie-layout-ibm-2x-grid",
+      "section": 6,
+      "sourceHeading": "IBM e la 2x Grid",
+      "figures": [
+        "385"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 43,
+      "title": "Dalla pagina al componente",
+      "alias": "griglie-layout-griglia-componenti",
+      "section": 6,
+      "sourceHeading": "Dalla griglia ai componenti",
+      "figures": [
+        "386"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 44,
+      "title": "CSS Grid e Flexbox",
+      "alias": "griglie-layout-grid-flexbox",
+      "section": 6,
+      "sourceHeading": "Dalla griglia ai componenti",
+      "figures": [
+        "didattica-grid-flexbox"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 45,
+      "title": "Conservare il soggetto",
+      "alias": "griglie-layout-immagine-conservare-soggetto",
+      "section": 6,
+      "sourceHeading": "Adattare l'immagine, conservare il soggetto",
+      "figures": [
+        "materiali-immagini"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 46,
+      "title": "Risoluzione e inquadratura",
+      "alias": "griglie-layout-immagine-risoluzione-inquadratura",
+      "section": 6,
+      "sourceHeading": "Risoluzione e inquadratura sono due scelte",
+      "figures": [
+        "didattica-immagini-scelte"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 47,
+      "title": "Vogue Italia: due disposizioni",
+      "alias": "griglie-layout-vogue-confronto-responsive",
+      "section": 6,
+      "sourceHeading": "Leggere un confronto desktop e telefono",
+      "figures": [
+        "materiali-caso-responsive"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 48,
+      "title": "Ordine visivo e ordine di lettura",
+      "alias": "griglie-layout-ordine-visivo-lettura",
+      "section": 6,
+      "sourceHeading": "Ordine visivo e ordine di lettura",
+      "figures": [
+        "387"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 49,
+      "title": "Reflow: 320 px CSS",
+      "alias": "griglie-layout-wcag-reflow",
+      "section": 6,
+      "sourceHeading": "Reflow e testo che cresce",
+      "figures": [
+        "388"
+      ],
+      "minutes": 1.5
+    },
+    {
+      "lessonSlide": 50,
+      "title": "Resize Text: testo al 200%",
+      "alias": "griglie-layout-wcag-resize-text",
+      "section": 6,
+      "sourceHeading": "Reflow e testo che cresce",
+      "figures": [],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 51,
+      "title": "Text Spacing: quattro valori insieme",
+      "alias": "griglie-layout-wcag-text-spacing",
+      "section": 6,
+      "sourceHeading": "Reflow e testo che cresce",
+      "figures": [],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 52,
+      "title": "Sara deve spostare un appuntamento",
+      "alias": "griglie-layout-sara-priorita",
+      "section": 7,
+      "sourceHeading": "Sara deve spostare un appuntamento",
+      "figures": [
+        "394"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 53,
+      "title": "Scegliere una nuova data",
+      "alias": "griglie-layout-sara-nuova-data",
+      "section": 7,
+      "sourceHeading": "Scegliere una nuova data",
+      "figures": [
+        "395"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 54,
+      "title": "Dal layout al flusso",
+      "alias": "griglie-layout-layout-flusso",
+      "section": 7,
+      "sourceHeading": "Dal layout al flusso",
+      "figures": [
+        "400"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 55,
+      "title": "I contenuti comuni: Luce e spazio",
+      "alias": "griglie-layout-materiali-esercizio",
+      "section": 7,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "figures": [],
+      "minutes": 0.5,
+      "origin": "teaching-supplement"
+    },
+    {
+      "lessonSlide": 56,
+      "title": "Immagine e formati della prova",
+      "alias": "griglie-layout-materiali-immagine-formati",
+      "section": 7,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "figures": [
+        "didattica-luce-e-spazio"
+      ],
+      "minutes": 0.5,
+      "origin": "teaching-supplement"
+    },
+    {
+      "lessonSlide": 57,
+      "title": "Una matrice di prove",
+      "alias": "griglie-layout-matrice-prove",
+      "section": 7,
+      "sourceHeading": "Una matrice di prove",
+      "figures": [
+        "398"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 58,
+      "title": "Esercizio: tre strutture, stessi contenuti",
+      "alias": "griglie-layout-esercizio-ricomposizione",
+      "section": 7,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "figures": [
+        "397"
+      ],
+      "minutes": 8
+    },
+    {
+      "lessonSlide": 59,
+      "title": "Esercizio: due larghezze, una regola",
+      "alias": "griglie-layout-esercizio-due-larghezze",
+      "section": 7,
+      "sourceHeading": "Un esercizio di ricomposizione",
+      "figures": [],
+      "minutes": 7
+    },
+    {
+      "lessonSlide": 60,
+      "title": "Leggere, progettare, verificare",
+      "alias": "griglie-layout-errori-griglia",
+      "section": 7,
+      "sourceHeading": "Errori che la griglia non risolve",
+      "figures": [
+        "399"
+      ],
+      "minutes": 1
+    },
+    {
+      "lessonSlide": 61,
+      "title": "Fonti: sistemi e opere",
+      "alias": "griglie-layout-fonti-1",
+      "section": 7,
+      "sourceHeading": "Lettura delle fonti",
+      "figures": [],
+      "minutes": 0.5
+    },
+    {
+      "lessonSlide": 62,
+      "title": "Fonti: layout e immagini",
+      "alias": "griglie-layout-fonti-2",
+      "section": 7,
+      "sourceHeading": "Lettura delle fonti",
+      "figures": [],
+      "minutes": 0.5
+    },
+    {
+      "lessonSlide": 63,
+      "title": "Fonti: adattamento e accessibilità",
+      "alias": "griglie-layout-fonti-3",
+      "section": 7,
+      "sourceHeading": "Lettura delle fonti",
+      "figures": [],
+      "minutes": 0.5
+    }
+  ]
+}

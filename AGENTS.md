@@ -2,9 +2,11 @@
 
 ## Prima delle modifiche
 
-Leggere `PRODUCT.md` prima di creare o modificare contenuti, componenti, immagini o stili. Per le slide leggere anche `docs/design-slidev.md`. Per il booklet leggere anche `DESIGN.md`: è il contratto editoriale esclusivo del booklet, non delle slide o del sito. Le istruzioni esplicite dell’utente hanno precedenza; un cambiamento intenzionale del sistema del booklet aggiorna anche il documento.
+Il repository contiene cinque progetti in `progetti/`; consultare [la struttura](docs/struttura-progetto.md). Gli asset esclusivi e gli script specifici stanno nel rispettivo progetto; immagini, font, dati, metro e token comuni stanno in `risorse-condivise/`. `risorse-condivise/stili/tokens.css` è la sorgente condivisa di home e slide. Eseguire i comandi `pnpm` dalla radice.
 
-Per scrivere o impaginare i prossimi capitoli del booklet, applicare anche la sezione «Regole editoriali per i prossimi capitoli» di `DESIGN.md`, ricavata dai commenti Figma. Verificare insieme prosa, esempi, didascalie, fonti, ordine delle colonne e doppie pagine; una correzione ricorrente richiede un controllo dell’intero capitolo.
+Leggere `PRODUCT.md` prima di creare o modificare contenuti, componenti, immagini o stili. Per le slide leggere anche [il contratto visivo](progetti/slide/docs/slidev/design.md), ricavato dalle lezioni 01–08, e [la guida operativa dei set](progetti/slide/docs/design-slidev.md). Per il booklet leggere anche `progetti/booklet/DESIGN.md`: è il contratto editoriale esclusivo del booklet, non delle slide o del sito. Le istruzioni esplicite dell’utente hanno precedenza; un cambiamento intenzionale del sistema del booklet aggiorna anche il documento.
+
+Per scrivere o impaginare i prossimi capitoli del booklet, applicare anche la sezione «Regole editoriali per i prossimi capitoli» di `progetti/booklet/DESIGN.md`, ricavata dai commenti Figma. Verificare insieme prosa, esempi, didascalie, fonti, ordine delle colonne e doppie pagine; una correzione ricorrente richiede un controllo dell’intero capitolo.
 
 ## Vincoli
 
@@ -21,7 +23,7 @@ Per scrivere o impaginare i prossimi capitoli del booklet, applicare anche la se
 
 Non aprire PDF del booklet nella preview di Codex, compresi i PDF dei singoli capitoli: possono provocare il crash dell'app. Il divieto riguarda anche `open_in_codex`, allegati e direttive `codex-file-citation`, anteprime automatiche e copie rinominate del volume. Non allegare né creare collegamenti cliccabili al PDF nelle risposte: indicarne il percorso come codice, per la consultazione in un lettore esterno. Compilare e verificare i PDF soltanto tramite CLI.
 
-Per l'ispezione visiva usare `pnpm preview:booklet --pages 8-9` sul PDF già compilato, eventualmente con `--target NOME`: richiede pagine fisiche esplicite, ne accetta al massimo otto e produce soltanto PNG a lato lungo massimo 1600 px in `typst-booklet/build/anteprime-ispezione/`. Aprire o mostrare soltanto i PNG richiesti, senza caricare in blocco la cartella. Se il PDF non è aggiornato, compilare prima il target pertinente. L'anteprima non ricompila né sostituisce i controlli editoriali.
+Per l'ispezione visiva usare `pnpm preview:booklet --pages 8-9` sul PDF già compilato, eventualmente con `--target NOME`: richiede pagine fisiche esplicite, ne accetta al massimo otto e produce soltanto PNG a lato lungo massimo 1600 px in `progetti/booklet/build/anteprime-ispezione/`. Aprire o mostrare soltanto i PNG richiesti, senza caricare in blocco la cartella. Se il PDF non è aggiornato, compilare prima il target pertinente. L'anteprima non ricompila né sostituisce i controlli editoriali.
 
 Il hook di progetto `.codex/hooks.json` blocca preventivamente `open_in_codex` sui PDF del booklet e, in questo progetto, sui PDF da almeno 20 MiB. Non disabilitarlo né aggirarlo cambiando nome, percorso o strumento. La sua attivazione iniziale richiede la revisione in `/hooks` nel Codex CLI; prima della fiducia valgono comunque tutte le regole qui sopra. Le schede PDF già salvate non passano dal hook: chiuderle prima di riaprire la chat, usando se necessario il ripristino ad app chiusa già predisposto.
 

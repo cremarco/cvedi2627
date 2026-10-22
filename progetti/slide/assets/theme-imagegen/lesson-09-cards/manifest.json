@@ -1,0 +1,177 @@
+{
+  "version": "2026-10-22",
+  "mode": "built-in image_gen",
+  "purpose": "Three decorative illustrations for the lesson09 grid and layout objectives, following the existing lesson01–08 card system.",
+  "rights": "Original AI-generated decorative illustrations for CVeDI; no documentary image or third-party illustration copied.",
+  "styleReference": "progetti/slide/assets/theme-imagegen/lesson-08-cards/manifest.json",
+  "jobs": [
+    {
+      "id": "griglie-layout-struttura",
+      "card": "Leggere la struttura",
+      "subject": "Pagina a due colonne con lente.",
+      "prompt": "Use case: stylized-concept. Asset type: ONE standalone decorative illustration for a CVeDI teaching slide card, a cohesive sibling of the existing lesson08 card illustrations. Clean educational editorial illustration, bold rounded navy outlines, broad opaque pale-blue and white fills, simple familiar proportions, compact silhouette readable at 96 pixels, subtle single offset edge for thickness. Palette: Tailwind blue-950 #162456 outlines, blue-800 #193CB8, blue-100 #DBEAFE and blue-200 #BEDBFF, white paper surfaces, one small lemon-yellow #E3CD13 accent. Center one compact motif filling 75 percent of a square canvas, at least 10 percent genuinely transparent margin on every side. Fully opaque object interiors and genuine alpha outside. No badge, enclosing backdrop, decorative halo, texture, shadows, gloss, gradients, logos, watermark, text, letters, numbers or tiny details. Subject: one upright white paper page showing a simple two-column grid with visible margins and three large pale-blue content blocks; a magnifying glass in front of one column, with a lemon-yellow handle. The page and grid remain recognizable; large simple geometry.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a164bb-b273-7b60-b480-b5ffe546a9d2/exec-5bab125b-50f8-45bb-9417-fd5a6fdb835c.png",
+      "family": "blue",
+      "palette": {
+        "outline": "#162456",
+        "primary": "#193CB8",
+        "pale": "#DBEAFE / #BEDBFF",
+        "accent": "#E3CD13"
+      },
+      "promptFile": "progetti/slide/assets/theme-imagegen/lesson-09-cards/prompts/griglie-layout-struttura.txt",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-09-cards/originals/griglie-layout-struttura.png",
+      "web": "progetti/slide/public/images/generated/theme-2026/cards/lesson-09/griglie-layout-struttura.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          73,
+          1160,
+          1148
+        ],
+        "note": "Generated alpha preserved. Main interiors are near-opaque; faint alpha traces extend beyond the visible silhouette. The 10 percent prompt margin is approximate."
+      },
+      "sha256": "de1b862437c1d5a89d2775a23883464079c628ec3a3d0cc0758af9b2d0b3ef1d",
+      "publicationSha256": "bb091fa9ef7e715174147a6373cec5ffa7dbfdae117f477a4c384081be84f3db",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed alongside the lesson08 PNG originals: distinct page/lens, layout/pencil and ruler/check motifs, coherent rounded navy outlines, blue/white fills and lemon accent. Minor tonal variation follows the existing illustrative family. No pixel editing."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "owners": [
+        {
+          "lesson": "griglie-layout",
+          "lessonSlide": 3,
+          "slideAlias": "griglie-layout-obiettivi",
+          "title": "Cosa impareremo",
+          "card": "Leggere la struttura"
+        }
+      ]
+    },
+    {
+      "id": "griglie-layout-progetto",
+      "card": "Progettare il layout",
+      "subject": "Due layout modulari con matita.",
+      "prompt": "Use case: stylized-concept. Asset type: ONE standalone decorative illustration for a CVeDI teaching slide card, a cohesive sibling of the existing lesson08 card illustrations. Clean educational editorial illustration, bold rounded navy outlines, broad opaque pale-blue and white fills, simple familiar proportions, compact silhouette readable at 96 pixels, subtle single offset edge for thickness. Palette: Tailwind blue-950 #162456 outlines, blue-800 #193CB8, blue-100 #DBEAFE and blue-200 #BEDBFF, white paper surfaces, one small lemon-yellow #E3CD13 accent. Center one compact motif filling 75 percent of a square canvas, at least 10 percent genuinely transparent margin on every side. Fully opaque object interiors and genuine alpha outside. No badge, enclosing backdrop, decorative halo, texture, shadows, gloss, gradients, logos, watermark, text, letters, numbers or tiny details. Subject: two slightly overlapping white layout sheets, a wider landscape sheet behind and a narrower upright sheet in front, each composed of a few large blue modular rectangles arranged in columns. One short lemon-yellow pencil rests diagonally along the front sheet edge, suggesting composition and adaptation. Only two sheets and one pencil, no interface controls, no typography.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a164c4-7a26-7202-910b-a30ee16ba953/exec-254d0ee2-344b-422a-87ea-104d00f9f829.png",
+      "family": "blue",
+      "palette": {
+        "outline": "#162456",
+        "primary": "#193CB8",
+        "pale": "#DBEAFE / #BEDBFF",
+        "accent": "#E3CD13"
+      },
+      "promptFile": "progetti/slide/assets/theme-imagegen/lesson-09-cards/prompts/griglie-layout-progetto.txt",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-09-cards/originals/griglie-layout-progetto.png",
+      "web": "progetti/slide/public/images/generated/theme-2026/cards/lesson-09/griglie-layout-progetto.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          2,
+          117,
+          1184,
+          1221
+        ],
+        "note": "Generated alpha preserved. Main interiors are near-opaque; faint alpha traces extend beyond the visible silhouette. The 10 percent prompt margin is approximate."
+      },
+      "sha256": "b4b760ce1448504dee29807a77a34ef7b06c188406f9f29e3514b73c8148795e",
+      "publicationSha256": "a0ce1370445c0aae639db405f4d7ae3e7346c9060b4cbf38bdc62a2454cb262d",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed alongside the lesson08 PNG originals: distinct page/lens, layout/pencil and ruler/check motifs, coherent rounded navy outlines, blue/white fills and lemon accent. Minor tonal variation follows the existing illustrative family. No pixel editing."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "owners": [
+        {
+          "lesson": "griglie-layout",
+          "lessonSlide": 3,
+          "slideAlias": "griglie-layout-obiettivi",
+          "title": "Cosa impareremo",
+          "card": "Progettare il layout"
+        }
+      ]
+    },
+    {
+      "id": "griglie-layout-verifica",
+      "card": "Verificare le regole",
+      "subject": "Griglia di contenuti con righello e spunta.",
+      "prompt": "Use case: stylized-concept. Asset type: ONE standalone decorative illustration for a CVeDI teaching slide card, a cohesive sibling of the existing lesson08 card illustrations. Clean educational editorial illustration, bold rounded navy outlines, broad opaque pale-blue and white fills, simple familiar proportions, compact silhouette readable at 96 pixels, subtle single offset edge for thickness. Palette: Tailwind blue-950 #162456 outlines, blue-800 #193CB8, blue-100 #DBEAFE and blue-200 #BEDBFF, white paper surfaces, one small lemon-yellow #E3CD13 accent. Center one compact motif filling 75 percent of a square canvas, at least 10 percent genuinely transparent margin on every side. Fully opaque object interiors and genuine alpha outside. No badge, enclosing backdrop, decorative halo, texture, shadows, gloss, gradients, logos, watermark, text, letters, numbers or tiny details. Subject: one upright white layout sheet with two columns of large aligned blue rectangular content blocks; a short simple pale-blue ruler rests along the left edge, and a single clear lemon-yellow checkmark is positioned over the lower-right area of the sheet, conveying verification of alignment. Only page, ruler and checkmark. No written checklist or labels.",
+      "generatedSource": "/Users/marco/.codex/generated_images/01a164b7-a501-7fa1-97e1-c6fe0083977b/exec-26af9040-c6d8-45e6-a2dd-0e9bf4998243.png",
+      "family": "blue",
+      "palette": {
+        "outline": "#162456",
+        "primary": "#193CB8",
+        "pale": "#DBEAFE / #BEDBFF",
+        "accent": "#E3CD13"
+      },
+      "promptFile": "progetti/slide/assets/theme-imagegen/lesson-09-cards/prompts/griglie-layout-verifica.txt",
+      "original": "progetti/slide/assets/theme-imagegen/lesson-09-cards/originals/griglie-layout-verifica.png",
+      "web": "progetti/slide/public/images/generated/theme-2026/cards/lesson-09/griglie-layout-verifica.webp",
+      "status": "complete",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": {
+        "range": [
+          0,
+          255
+        ],
+        "bounds": [
+          0,
+          73,
+          1236,
+          1244
+        ],
+        "note": "Generated alpha preserved. Main interiors are near-opaque; faint alpha traces extend beyond the visible silhouette. The 10 percent prompt margin is approximate."
+      },
+      "sha256": "d39dd2464448d75ffcd499e5703204ceac5246005fadcf95d3fd910f8f3d48ec",
+      "publicationSha256": "efe4a9c276e10fb3dd07fc8e61a0cc43d303f962f88046c93b05d363d297faea",
+      "visualReview": {
+        "status": "accepted",
+        "notes": "Reviewed alongside the lesson08 PNG originals: distinct page/lens, layout/pencil and ruler/check motifs, coherent rounded navy outlines, blue/white fills and lemon accent. Minor tonal variation follows the existing illustrative family. No pixel editing."
+      },
+      "publicationEncoding": {
+        "format": "webp",
+        "lossless": true,
+        "pixelPreserved": true,
+        "alphaPreserved": true
+      },
+      "owners": [
+        {
+          "lesson": "griglie-layout",
+          "lessonSlide": 3,
+          "slideAlias": "griglie-layout-obiettivi",
+          "title": "Cosa impareremo",
+          "card": "Verificare le regole"
+        }
+      ]
+    }
+  ]
+}

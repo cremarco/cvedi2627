@@ -1,0 +1,676 @@
+{
+  "schema": "cvedi-riconciliazione-fonti/v1",
+  "data": "2026-10-22",
+  "ambito": "Riconciliazione per ruolo dei riferimenti Figma491–502 con prosa, consultazioni e provenienza delle immagini di Tipografia. La copertura per URL non certifica da sola ogni metadato APA o ogni interpretazione del testo.",
+  "metodo": "Identificatori NCBI, metadati Crossref e pagine primarie; differenza esplicita fra stessa opera, variante di URL e risorsa distinta. Originali conservati in riferimenti-figma.json.",
+  "voci": [
+    {
+      "url_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5934461/",
+      "chiave": "t06-kuster2018",
+      "stato": "risolto",
+      "tipo": "stessa_opera",
+      "evidenza": [
+        "https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/?ids=PMC5934461&format=json",
+        "https://doi.org/10.1007/s11881-017-0154-6"
+      ],
+      "nota": "PMCID5934461 e PMID29204931 identificano lo stesso DOI. Anno del fascicolo2018,68(1),25–42; pubblicazione online2017. La particella van resta nel cognome van Weerdenburg."
+    },
+    {
+      "url_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5629233/",
+      "chiave": "t06-wery2017",
+      "stato": "risolto",
+      "tipo": "stessa_opera_con_correzione_dati",
+      "evidenza": [
+        "https://pubmed.ncbi.nlm.nih.gov/26993270/",
+        "https://doi.org/10.1007/s11881-016-0127-1"
+      ],
+      "nota": "PMCID5629233 e PMID26993270 identificano lo stesso DOI. Corretto il fascicolo Typst1→2: Annals of Dyslexia67(2),114–127(2017); online18marzo2016. Il riferimento Figma riportava già2."
+    },
+    {
+      "url_fonte": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2906818/",
+      "chiave": "t06-rayner2009",
+      "stato": "risolto",
+      "tipo": "stessa_opera",
+      "evidenza": [
+        "https://pubmed.ncbi.nlm.nih.gov/20664810/",
+        "https://bop.unibe.ch/JEMR/article/view/2281",
+        "https://api.crossref.org/works/10.16910%2Fjemr.2.5.2"
+      ],
+      "nota": "PMCID2906818/PMID20664810, titolo, autore, rivista2(5) corrispondono. Anno2009 attestato da PubMed, Crossref e pubblicazione originale BOP4marzo2009; il fascicolo è etichettato2008. Non equiparare anno del fascicolo e data effettiva di pubblicazione."
+    },
+    {
+      "url_fonte": "https://lms.devry.edu/lms/CourseExport/manual/files/DVU/TC310/documents--brumberger-persona.pdf",
+      "chiave": "t06-brumberger2003",
+      "stato": "risolto",
+      "tipo": "opera_identificata_da_catalogo_autrice",
+      "evidenza": [
+        "https://asu.elsevierpure.com/en/publications/the-rhetoric-of-typography-the-persona-of-typeface-and-text/"
+      ],
+      "nota": "Il riferimento descritto in Figma corrisponde per autrice, titolo, anno, rivista50(2),206–223 al catalogo istituzionale. Nel booklet è usata la scheda primaria recuperabile; il vecchio file LMS non è stato riesaminato e non è attestata identità byte per byte né disponibilità attuale."
+    },
+    {
+      "url_fonte": "https://www.lego.com/en-us/history/articles/f-a-modern-international-company",
+      "chiave": "t06-lego",
+      "stato": "risolto",
+      "tipo": "variante_locale_della_stessa_pagina",
+      "evidenza": [
+        "https://www.lego.com/en-us/history/articles/f-a-modern-international-company",
+        "https://www.lego.com/en-my/history/articles/f-a-modern-international-company"
+      ],
+      "nota": "Confrontati titolo e sezione New logo: stessi contenuti sull’identità1973–1998. Il booklet è allineato all’URL en-us della fonte Figma."
+    },
+    {
+      "url_fonte": "https://johnmarchantgallery.com/artists/jamie-reid-blurb-page",
+      "chiave": "t06-reid-archive",
+      "stato": "risolto",
+      "tipo": "risorsa_distinta_conservata_in_nota",
+      "evidenza": [
+        "https://johnmarchantgallery.com/artists/jamie-reid-blurb-page"
+      ],
+      "nota": "Il profilo dell’artista e The Jamie Reid Archive sono risorse distinte della galleria. Entrambe conservate come link nella stessa nota sul linguaggio cut-up; la voce bibliografica dell’archivio rimane nativa."
+    },
+    {
+      "url_fonte": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings",
+      "chiave": "t06-css-fonts2026",
+      "stato": "risolto",
+      "tipo": "documentazione_consultazione_conservata_in_nota",
+      "evidenza": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/font-variation-settings",
+        "https://www.w3.org/TR/2026/WD-css-fonts-4-20261016/#font-variation-settings-def"
+      ],
+      "nota": "MDN e W3C sono fonti distinte. MDN conferma controllo di basso livello e preferenza per proprietà CSS di alto livello; i due URL sono nella stessa nota. Il riferimento APA resta la specifica W3C citata nel testo."
+    },
+    {
+      "url_fonte": "https://drafts.csswg.org/css-fonts-4/#font-family-prop",
+      "chiave": "t06-css-fonts2026",
+      "stato": "risolto",
+      "tipo": "stessa_specifica_in_versione_datata",
+      "evidenza": [
+        "https://www.w3.org/TR/2026/WD-css-fonts-4-20261016/"
+      ],
+      "nota": "La Working Draft16ottobre2026 collega esplicitamente l’Editor’s Draft CSSWG e contiene font-family/fallback. Il booklet cita lo snapshot datato come Working Draft, non una Recommendation."
+    },
+    {
+      "url_fonte": "https://www.w3.org/TR/CSS2/visudet.html#line-height",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/leggibilita.typ",
+      "evidenza": [
+        "https://www.w3.org/TR/CSS2/visudet.html#line-height"
+      ],
+      "nota": "La nota del passaggio sull’interlinea collega §10.8. La specifica distingue line-height degli elementi in linea e altezza risultante delle line box; nessun valore universale aggiunto alla prosa."
+    },
+    {
+      "url_fonte": "https://www.w3.org/TR/css-break-3/#widows-orphans",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/leggibilita.typ",
+      "evidenza": [
+        "https://www.w3.org/TR/css-break-3/#widows-orphans"
+      ],
+      "nota": "Nota presso vedove e orfane; §3.3 definisce le righe minime prima e dopo l’interruzione. Stato Candidate Recommendation4dicembre2018 dichiarato; non presentata come Recommendation finale."
+    },
+    {
+      "url_fonte": "https://www.w3.org/TR/css-text-3/",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/leggibilita.typ",
+      "evidenza": [
+        "https://www.w3.org/TR/css-text-3/"
+      ],
+      "nota": "Nota alla discussione di allineamento e sillabazione. Verificati text-align, text-justify e modello delle righe; Candidate Recommendation Draft14agosto2026, non Recommendation finale."
+    },
+    {
+      "url_fonte": "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html",
+      "stato": "risolto",
+      "tipo": "documentazione_distinta_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/leggibilita.typ",
+      "evidenza": [
+        "https://www.w3.org/WAI/WCAG22/Understanding/visual-presentation.html"
+      ],
+      "nota": "La nota conserva sia il criterio WCAG1.4.8 sia Understanding. Il secondo è esplicativo, non normativo; condizioni relative a un meccanismo di personalizzazione, non obbligo di un unico layout iniziale."
+    },
+    {
+      "url_fonte": "https://learn.microsoft.com/en-us/windows/win32/gdi/device-vs--design-units",
+      "stato": "risolto",
+      "tipo": "copertura_con_documentazione_primaria_specifica",
+      "chiavi": [
+        "t06-opentype-head"
+      ],
+      "evidenza": [
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/head",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/ttch01"
+      ],
+      "nota": "La guida GDI originale riguarda la conversione per il device context. La prosa importata spiega scala nominale ed em senza dare una procedura GDI: cita il campo unitsPerEm e il relativo capitolo TrueType collegato dal documento. Fonti diverse con ambito dichiarato, non URL equivalenti."
+    },
+    {
+      "url_fonte": "https://learn.microsoft.com/en-us/typography/opentype/spec/ttch01",
+      "stato": "risolto",
+      "tipo": "copertura_con_documentazione_primaria_specifica",
+      "chiavi": [
+        "t06-opentype-head"
+      ],
+      "evidenza": [
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/head",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/ttch01"
+      ],
+      "nota": "FUnits, scala dell’em e contorni che possono uscirne sono attestati nel capitolo TrueType. Il riferimento nativo della prosa è la tabella head, che documenta unitsPerEm e rimanda espressamente a questo capitolo. Riferimenti interni della stessa specifica, non la stessa pagina."
+    },
+    {
+      "url_fonte": "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg",
+      "stato": "risolto",
+      "tipo": "copertura_con_documentazione_primaria_specifica",
+      "chiavi": [
+        "t06-variable",
+        "t06-wdth2021",
+        "t06-opsz2021"
+      ],
+      "evidenza": [
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxisreg",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_wdth",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/dvaraxistag_opsz"
+      ],
+      "nota": "La prosa cita l’overview e le schede primarie dei singoli assi dove li spiega. Il registro è l’indice generale delle stesse schede: conservato nella provenienza, senza duplicare un riferimento generale in ogni esempio. Nessuna equivalenza fra documenti distinti."
+    },
+    {
+      "url_fonte": "https://learn.microsoft.com/en-us/typography/opentype/spec/",
+      "stato": "risolto",
+      "tipo": "copertura_con_documentazione_primaria_specifica",
+      "chiavi": [
+        "t06-opentype-file",
+        "t06-opentype-features",
+        "t06-variable"
+      ],
+      "evidenza": [
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/otff",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/featurelist",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/otvaroverview"
+      ],
+      "nota": "L’indice ufficiale OpenType1.9.1 collega esplicitamente struttura del file, layout e variazioni. Nel capitolo sono citate le sezioni specifiche pertinenti, non una falsa copia dell’indice. Il riferimento generale originale resta nel registro Figma."
+    },
+    {
+      "url_fonte": "https://commons.wikimedia.org/wiki/File:JensonEusebius.jpg",
+      "tipo": "fotografia_conservata_e_collegata",
+      "uso": "progetti/booklet/capitoli/06-tipografia/storia-iniziale.typ",
+      "asset": "risorse-condivise/immagini/figure/tipografia/jenson-eusebio-1470-dettaglio.jpg",
+      "sha256": "e440b1cf633132654953cd07f87f58a532045ec311348636d9df790b4e4c99c5",
+      "evidenza": [
+        "https://commons.wikimedia.org/wiki/File:JensonEusebius.jpg"
+      ],
+      "nota": "La foto Atalanta/WeiaR è la stessa conservata nel manifest font-previews, con hashidentico. Autore, data3febbraio2008 e condizioni CCBY-SA4.0 verificati. Morgan documenta un diverso esemplare della stessa edizione: la nota distingue la scheda bibliografica dalla fotografia.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://bibliotecabodoni.usal.es/libro/manuale-tipografico-1",
+      "tipo": "scheda_specifica_collegata",
+      "uso": "progetti/booklet/capitoli/06-tipografia/firenze-e-settecento.typ",
+      "chiave": "bodoni1818",
+      "evidenza": [
+        "https://bibliotecabodoni.usal.es/libro/manuale-tipografico-1"
+      ],
+      "nota": "L’URL della scheda specifica del Manuale1818 sostituisce la home nella nota esistente. Conservata la distinta provenienza dell’immagine BibliotecaBodoni rispetto all’esemplare della bibliografia nativa.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://www.unesco.org/en/memory-world/baegun-hwasang-chorok-buljo-jikji-simche-yojeol-volii-second-volume-anthology-great-buddhist-priests",
+      "tipo": "fonte_dell_attribuzione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/storia-iniziale.typ",
+      "evidenza": [
+        "https://www.unesco.org/en/memory-world/baegun-hwasang-chorok-buljo-jikji-simche-yojeol-volii-second-volume-anthology-great-buddhist-priests"
+      ],
+      "nota": "Conservata accanto alla BnF nella nota del passo che attribuisce a UNESCO il riconoscimento: stampa luglio1377, testimonianza metallica conservata, iscrizione2001. Non sostituisce la provenienza BnF della visuale.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg",
+      "tipo": "asset_documentario_precedente_non_usato",
+      "asset_attivo": "risorse-condivise/immagini/figure/tipografia/tipi-metallici-in-rilievo.png",
+      "evidenza": [
+        "https://commons.wikimedia.org/wiki/File:Metal_movable_type.jpg",
+        "reports/typst-booklet/06-tipografia/commenti-live.json",
+        "risorse-condivise/immagini/figure/tipografia/manifest.json"
+      ],
+      "nota": "La foto di WilliHeidelbach2288×1520,2004,CCBY2.5 è distinta dall’illustrazione corrente1536×1024 con alpha. Il commento Figma307 chiede tipi metallici generati e testo attorno. Il booklet conserva l’asset corrente e non attribuisce l’illustrazione a Heidelbach; la fonte fotografica precedente resta nel registro originale, senza presentarla come immagine usata.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://www.mart.tn.it/opere-archivi/depero-dalla-a-alla-z-128038",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/avanguardie-e-digitale.typ",
+      "evidenza": [
+        "https://www.mart.tn.it/opere-archivi/depero-dalla-a-alla-z-128038"
+      ],
+      "nota": "Scheda Mart, voce Editoria: attribuzione già presente nella prosa ora collegata nella stessa nota del catalogo MoMA. L’immagine conserva i crediti del MoMA."
+    },
+    {
+      "url_fonte": "https://www.monotype.com/resources/guide-type-styles",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/classificazioni.typ",
+      "evidenza": [
+        "https://www.monotype.com/resources/guide-type-styles"
+      ],
+      "nota": "Guida tipologica conservata nella nota introduttiva insieme a Haley; le classificazioni sono orientamenti descrittivi, non predittori universali della leggibilità. I campioni e le categorie non sono presentati come equivalenti ai tre sistemi storici."
+    },
+    {
+      "url_fonte": "https://github.com/notofonts/latin-greek-cyrillic",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/font.typ",
+      "evidenza": [
+        "https://github.com/notofonts/latin-greek-cyrillic"
+      ],
+      "nota": "Repository del progetto collegato nella nota di Noto accanto al catalogo Google Fonts. I campioni vettoriali provengono dalla fonte Figma, non da una nuova compilazione del repository. Il riferimento non è esteso ai font arabi."
+    },
+    {
+      "url_fonte": "https://www.myfonts.com/es/collections/susan-kare",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/identita-digitali.typ",
+      "evidenza": [
+        "https://www.myfonts.com/es/collections/susan-kare"
+      ],
+      "nota": "Il profilo contiene la testimonianza di Kare sui bitmap Apple del1983; distingue le successive versioni TrueType di Bigelow e Holmes. La nota collega la testimonianza senza attribuire a Kare le curve dei campioni vettoriali successivi."
+    },
+    {
+      "url_fonte": "https://lucidafonts.com/blogs/bigelow-holmes-blog/whats-the-difference-between-lucida-grande-and-helvetica-neue",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/identita-digitali.typ",
+      "evidenza": [
+        "https://lucidafonts.com/blogs/bigelow-holmes-blog/whats-the-difference-between-lucida-grande-and-helvetica-neue"
+      ],
+      "nota": "Confronto dei disegnatori di Lucida,29agosto2018. La nota accompagna il passaggio sulle forme e distingue versioni di sistema da versioni standard; nessuna percentuale o superiorità generale di leggibilità importata."
+    },
+    {
+      "url_fonte": "https://tfl.gov.uk/info-for/media/press-releases/2016/november/-tfl-partners-with-two-global-brands-to-bring-the-lettering-of-london-to-life",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/classificazioni.typ",
+      "evidenza": [
+        "https://tfl.gov.uk/info-for/media/press-releases/2016/november/-tfl-partners-with-two-global-brands-to-bring-the-lettering-of-london-to-life"
+      ],
+      "nota": "Il comunicato22novembre2016 conferma introduzione di Johnston nel1916. Collegato nella nota del paragrafo Johnston/GillSans; esempio storico ammesso, senza importare il concept metro del booklet."
+    },
+    {
+      "url_fonte": "https://www.bluenote.com/blue-note-wall-art/",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/musica.typ",
+      "evidenza": [
+        "https://www.bluenote.com/blue-note-wall-art/"
+      ],
+      "nota": "Comunicato16gennaio2019: conferma ReidMiles, FrancisWolff e TheSidewinder nell’elenco. Collegato alla nota esistente dell’album; non si importa il prodotto commerciale o la cornice della vendita."
+    },
+    {
+      "url_fonte": "https://www.ibm.com/plex/",
+      "tipo": "risorsa_ulteriore_non_citata",
+      "evidenza": [
+        "https://www.ibm.com/plex/",
+        "risorse-condivise/dati/fonti/tipografia/riferimenti-figma.json"
+      ],
+      "nota": "La voce è nel precedente apparato Figma, ma IBM e Plex non ricorrono nella prosa o nei campioni del capitolo corrente334–490. Conservata nel registro originale; non aggiunta come opera citata né come nuovo esempio. Non implica che il progetto IBM sia irrilevante in generale.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://doi.org/10.1145/287821.287825",
+      "tipo": "risorsa_ulteriore_non_citata",
+      "evidenza": [
+        "https://api.crossref.org/works/10.1145%2F287821.287825",
+        "risorse-condivise/dati/fonti/tipografia/riferimenti-figma.json"
+      ],
+      "nota": "Kahn e Lenk non hanno richiami espliciti nei testi correnti334–490 né nel nuovo capitolo. La voce originale resta nel registro. Crossref attesta titolo,autori,1998,Interactions5(6) e pagina iniziale15; non attesta l’estremo29. Nessuna nuova citazione introdotta senza esaminare il contenuto e completare la verifica dei metadati.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://helpx.adobe.com/fonts/web/using/adobe-type-resources-faq.html",
+      "tipo": "copertura_con_documentazione_primaria_specifica",
+      "chiavi": [
+        "t06-opentype-file",
+        "t06-opentype-features"
+      ],
+      "evidenza": [
+        "https://helpx.adobe.com/fonts/web/using/adobe-type-resources-faq.html",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/otff",
+        "https://learn.microsoft.com/en-us/typography/opentype/spec/featurelist"
+      ],
+      "nota": "La FAQ generale raccoglie tecnologia,compatibilità e piattaforme anche storiche. Nel testo attuale struttura del file e funzioni sono documentate tramite la specifica OpenType pertinente. FAQ conservata come risorsa originale, senza importare vecchie indicazioni su Windows2000/XP o trattarle come attuali.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://loc.gov/exhibits/bibles/the-gutenberg-bible.html",
+      "tipo": "variante_dominio_della_stessa_risorsa",
+      "chiave": "t06-loc-gutenberg",
+      "evidenza": [
+        "https://loc.gov/exhibits/bibles/the-gutenberg-bible.html",
+        "https://www.loc.gov/exhibits/bibles/the-gutenberg-bible.html"
+      ],
+      "nota": "Verificata la stessa pagina ufficiale TheGutenbergBible con e senza www: stessa edizione, completamento probabile1455, ruolo europeo qualificato e decorazioni manuali. Il booklet mantiene la variante www già citata.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://unicode.org/glossary/",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/font.typ",
+      "evidenza": [
+        "https://unicode.org/glossary/"
+      ],
+      "nota": "Collegato nella nota su caratteri,glifi e repertorio. Verificati abstract character,glyph e replacement glyph; il glossario è distinto dalle FAQ Fonts and Keyboards."
+    },
+    {
+      "url_fonte": "https://www.monotype.com/de/ressourcen/expertise/die-futura-des-jahrhunderts",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/caratteri-e-identita.typ",
+      "evidenza": [
+        "https://www.monotype.com/de/ressourcen/expertise/die-futura-des-jahrhunderts"
+      ],
+      "nota": "Il testo Monotype identifica Renner,Bauer e1927 e presenta anche il successivo FuturaNow. La nota distingue il disegno storico dal progetto contemporaneo, senza trattare i contorni delle versioni come identici."
+    },
+    {
+      "url_fonte": "https://www.monotype.com/press-releases/monotype-introduces-helvetica-now-reinvented-to-meet-the-typographical-demands-of-today-s-creative-professionals",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/caratteri-e-identita.typ",
+      "evidenza": [
+        "https://www.monotype.com/press-releases/monotype-introduces-helvetica-now-reinvented-to-meet-the-typographical-demands-of-today-s-creative-professionals"
+      ],
+      "nota": "Comunicato9aprile2019, contemporaneo all’uscita HelveticaNow. Collegato accanto alla scheda della famiglia; non si importano giudizi promozionali sulla superiorità del carattere."
+    },
+    {
+      "url_fonte": "https://collections.si.edu/search/detail/ead_collection%3Asova-nmah-ac-0666",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/linotype-e-morris.typ",
+      "evidenza": [
+        "https://collections.si.edu/search/detail/ead_collection%3Asova-nmah-ac-0666"
+      ],
+      "nota": "Archivio1886–1997 della MergenthalerLinotypeCompany. La nota distingue la raccolta documentaria dal manuale tecnico Rogers1925 già citato; il fondo non è fonte della fotografia1892 proposta né dell’illustrazione corrente."
+    },
+    {
+      "url_fonte": "https://devstreaming-cdn.apple.com/videos/wwdc/2014/209xxbyg01mfqt8/209/209_adapting_your_app_to_the_new_ui_of_os_x_yosemite.pdf",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/identita-digitali.typ",
+      "evidenza": [
+        "https://devstreaming-cdn.apple.com/videos/wwdc/2014/209xxbyg01mfqt8/209/209_adapting_your_app_to_the_new_ui_of_os_x_yosemite.pdf"
+      ],
+      "nota": "PDF originale288pagine letto localmente: titolo eSessione209 verificati,pp.228–229 riportano HelveticaNeue come nuovo font di sistema ottimizzato perOSX. La nota lo distingue dall’annuncio ElCapitan2015. PDF usato solo per verifica, non incorporato fra le immagini o distribuito come nuovo asset."
+    },
+    {
+      "url_fonte": "https://developer.apple.com/documentation/technologyoverviews/fonts",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/identita-digitali.typ",
+      "evidenza": [
+        "https://developer.apple.com/documentation/technologyoverviews/fonts"
+      ],
+      "nota": "Contenuto letto nella versione Markdown ufficiale indicata dal link alternate nell’HTML: distingue system/document/custom fonts e descrive SFPro,SFCompact,SFMono e famiglie per altre scritture. Collegato in nota insieme al portale AppleFonts; non importa API o codice SwiftUI nel capitolo."
+    },
+    {
+      "url_fonte": "https://www.mcdonalds.com/ca/en-ca/newsroom/article/Sip-in-Style-McCafe-Canada-is-Launching-a-Fresh-New-Look.html",
+      "stato": "risolto",
+      "tipo": "caso_precedente_distinto",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/mccafe-e-comic-sans.typ",
+      "evidenza": [
+        "https://www.mcdonalds.com/ca/en-ca/newsroom/article/Sip-in-Style-McCafe-Canada-is-Launching-a-Fresh-New-Look.html",
+        "https://corporate.mcdonalds.com/corpmcd/our-stories/article/mcdonalds-refreshes-mccafe-brand-visual-identity.html"
+      ],
+      "nota": "La fonte15febbraio2024 riguarda il packaging canadese marrone. La fonte corrente del booklet descrive esplicitamente il wordmark globale1maggio2026 e ne mostra il dettaglio. Non sono la stessa revisione. Il caso2024 resta nel registro originale; non viene attribuito all’immagine2026 o usato per datarla."
+    },
+    {
+      "url_fonte": "https://www.pepsico.com/newsroom/press-releases/2023/pepsi-unveils-a-new-logo-and-visual-identity-marking-the-iconic-brands-next-era",
+      "stato": "risolto",
+      "tipo": "qualificazione_storica_del_campione",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/multiscript.typ",
+      "evidenza": [
+        "https://www.pepsico.com/newsroom/press-releases/2023/pepsi-unveils-a-new-logo-and-visual-identity-marking-the-iconic-brands-next-era",
+        "https://www.pepsico.com/newsroom/press-releases/2023/pepsi-unveils-a-new-logo-and-visual-identity-marking-the-iconic-brands-next-era"
+      ],
+      "nota": "Il comunicato28marzo2023 documenta un’identità successiva al campione multiscript conservato. Il booklet qualifica la figura come versioni precedenti: non dichiara i vecchi lettering attuali e non importa una nuova comparazione di rebranding. La fonte resta nel registro tecnico di qualificazione."
+    },
+    {
+      "url_fonte": "https://web.archive.org/web/20251228165754/https://creative.starbucks.com/typography/",
+      "stato": "risolto",
+      "tipo": "caso_precedente_distinto",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/multiscript.typ",
+      "evidenza": [
+        "https://web.archive.org/web/20251228165754/https://creative.starbucks.com/typography/",
+        "https://www.linkedin.com/posts/starbucks-singapore_starbuckssingapore-37smithstreet-craftsmanship-activity-7317841654982369281-GeBr"
+      ],
+      "nota": "La vecchia guida tipografica è una risorsa distinta dal caso corrente: insegna calligrafica del negozio37SmithStreet,Singapore,video2025. Il booklet conserva il campione corrente e l’attribuzione a YongCheongThye/ChehKaiHon; non usa l’archivio della guida come fonte del video. La disponibilità corrente dello snapshot non è attestata."
+    },
+    {
+      "url_fonte": "https://www.coca-cola.com/ch/de/about-us/die-geschichte-des-coca-cola-logos",
+      "stato": "risolto",
+      "tipo": "fonte_primaria_alternativa",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/marchi.typ",
+      "evidenza": [
+        "https://www.coca-cola.com/ch/de/about-us/die-geschichte-des-coca-cola-logos",
+        "https://www.coca-colacompany.com/about-us/history/coke-lore-trademark-chronology"
+      ],
+      "nota": "La pagina svizzera oggi risponde403 nello strumento. Non è trattata come un alias: la prosa attribuisce nome,Robinson e tradizioneSpencerian alla cronologia ufficiale CokeLore citata, recuperabile e già verificata. Il riferimento svizzero resta originale e non si inventa una data o una copia equivalente."
+    },
+    {
+      "url_fonte": "https://pdf.uffizi.it/1777886745656-cartacollezioni-2.pdf",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/firenze-e-settecento.typ",
+      "evidenza": [
+        "https://pdf.uffizi.it/1777886745656-cartacollezioni-2.pdf"
+      ],
+      "nota": "SilviaPagni, Carta delle collezioni: §6.3 (pagina numerata15) conferma che gli Uffizi conservano entrambe le edizioni1550/1568. Collegata nella nota esistente accanto alla scheda1568, che da sola non documenta il posseduto di entrambe."
+    },
+    {
+      "url_fonte": "https://www.fastretailing.com/eng/ir/library/pdf/annual2006.pdf",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/multiscript.typ",
+      "evidenza": [
+        "https://www.fastretailing.com/eng/ir/library/pdf/annual2006.pdf"
+      ],
+      "nota": "AnnualReport2006,pp.2–4: intervistaTadashiYanai/KashiwaSato,UNIQLOSoho e marchi in katakana. Collegato alla nota esistente insieme al file ufficiale del marchio; non si confonde il logo della holdingFastRetailing con quelloUNIQLO."
+    },
+    {
+      "url_fonte": "https://www.usitc.gov/publications/701_731/pub2281.pdf",
+      "stato": "risolto",
+      "tipo": "consultazione_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/linotype-e-morris.typ",
+      "evidenza": [
+        "https://www.usitc.gov/publications/701_731/pub2281.pdf"
+      ],
+      "nota": "Publication2281,maggio1990,p.7: definizione della fotocomposizione con immagine del segno,luce e supporto fotosensibile. La nota è ancorata solo a questa definizione; non presenta il rapporto commerciale come manuale di tutta la stampa offset o come dato attuale di mercato."
+    },
+    {
+      "url_fonte": "https://flore.unifi.it/handle/2158/1447474",
+      "tipo": "risorsa_ulteriore_non_citata",
+      "evidenza": [
+        "https://flore.unifi.it/handle/2158/1447474",
+        "risorse-condivise/dati/fonti/tipografia/riferimenti-figma.json"
+      ],
+      "nota": "CatalogoAcquistiCoattivi2016–2024,DavidSperanzi(2024),conservato come riferimento originale. Il capitolo corrente non mostra né discute gli StatutiSantoStefano1562: il caso fiorentino usa le Vite1550/1568. Non attribuire al catalogo un’immagine delle Vite o inventare un ulteriore esempio per giustificare la vecchia voce.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://devstreaming-cdn.apple.com/videos/wwdc/2015/804eub264zh3x4j9yb/804/804_introducing_the_new_system_fonts.pdf",
+      "tipo": "documentazione_storica_distinta_dai_campioni_correnti",
+      "evidenza": [
+        "https://devstreaming-cdn.apple.com/videos/wwdc/2015/804eub264zh3x4j9yb/804/804_introducing_the_new_system_fonts.pdf",
+        "progetti/booklet/capitoli/06-tipografia/esempi/identita-digitali.typ"
+      ],
+      "nota": "Verificati titolo,AntonioCavedoni,Sessione804,2015 eSF/SFCompactText/Display(pp.24–26 PDF). I campioni correnti Pro/Compact/Mono sono invece esplicitamente dalla WWDC22. Conservato il documento2015 nel registro senza attribuirgli i campioni2022; la data2015 diElCapitan è sostenuta dal comunicatoApple già citato.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://www.vam.ac.uk/blog/museum-life/william-morris-and-the-printed-book",
+      "tipo": "fonte_primaria_alternativa",
+      "chiave": "t06-morris-archive",
+      "evidenza": [
+        "https://www.vam.ac.uk/blog/museum-life/william-morris-and-the-printed-book",
+        "https://morrisarchive.lib.uiowa.edu/exhibits/show/bookarts/kelmscottpress/typefaces"
+      ],
+      "nota": "La paginaV&A risponde403 nello strumento corrente. Il testo importato cita il WilliamMorrisArchive dell’UniversitàIowa per Golden,Troy eChaucer e mostra il libro catalogato dalMet. Sono fonti distinte: non si assegna alla schedaIowa la data2017 o l’autriceKatyCanales della voceV&A originale, conservata nel registro.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://www.coca-cola.com/",
+      "stato": "risolto",
+      "tipo": "rimando_generale_con_fonti_specifiche",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/marchi.typ",
+      "evidenza": [
+        "https://www.coca-cola.com/",
+        "https://www.coca-colacompany.com/about-us/history/coke-lore-trademark-chronology",
+        "https://www.coca-cola.com/cn/zh/media-center/Share-a-Coke"
+      ],
+      "nota": "Il portale generale originale è distinto dalla cronologia del marchio e dal casoShareaCoke2025 effettivamente citati. Questi URL specifici restano nei richiami e nelle fonti; il riferimento generale resta nel registro, senza assumere che la homepage odierna riproduca il campione documentato2025. Accesso corrente403 nello strumento."
+    },
+    {
+      "url_fonte": "https://www.diadora.com/",
+      "stato": "risolto",
+      "tipo": "provenienza_generale_del_marchio",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/marchi.typ",
+      "evidenza": [
+        "https://www.diadora.com/",
+        "risorse-condivise/immagini/figure/tipografia/esempi/manifest.json"
+      ],
+      "nota": "Il portale ufficiale è il riferimento generale dichiarato nella fonte del marchioDiadora. Il campione della tavola411 è conservato con hash e attribuzioneDiadora; il sito corrente è un selettore di localizzazione, non una prova del font di produzione. Nessuna attribuzione aEurostile o data di disegno ricavata dalla homepage."
+    },
+    {
+      "url_fonte": "https://www.nike.com/",
+      "stato": "risolto",
+      "tipo": "rimando_generale_con_documento_specifico",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/lettering-e-packaging.typ",
+      "evidenza": [
+        "https://www.nike.com/",
+        "https://about.nike.com/en/magazine/nike-swoosh-logo-history",
+        "risorse-condivise/immagini/figure/tipografia/esempi/manifest.json"
+      ],
+      "nota": "Il portale commerciale originale è distinto dalla tavola delDepartmentofNikeArchives pubblicata2ottobre2025, effettivamente usata e citata. Il dettaglio è etichettato1976 nella tavola; non è descritto come logo nato2025 o come screenshot della homepage odierna."
+    },
+    {
+      "url_fonte": "https://sonyinteractive.com/jp/news/asset-library/",
+      "stato": "risolto",
+      "tipo": "indice_generale_con_fonti_specifiche",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/cinema-e-videogiochi.typ",
+      "evidenza": [
+        "https://sonyinteractive.com/jp/news/asset-library/",
+        "https://www.playstation.com/en-us/games/the-last-of-us-part-i/",
+        "https://www.playstation.com/en-us/games/ratchet-and-clank-rift-apart/"
+      ],
+      "nota": "LaMaterialLibrary è un indice di software,hardware e loghi; verificata la presenza diTheLastofUsPartI eRatchet&Clank. Il booklet cita le schede specifiche dei due giochi e conserva nei manifest le visuali Figma. L’indice non diventa un ulteriore gioco o una fonte di un font per testo continuo."
+    },
+    {
+      "url_fonte": "https://thewaltdisneycompany.com/",
+      "stato": "risolto",
+      "tipo": "portale_aziendale_distinto_dalla_fonte_del_marchio",
+      "uso": "progetti/booklet/capitoli/06-tipografia/esempi/lettering-e-packaging.typ",
+      "evidenza": [
+        "https://thewaltdisneycompany.com/",
+        "https://www.disney.com/",
+        "risorse-condivise/immagini/figure/tipografia/esempi/manifest.json"
+      ],
+      "nota": "Il portale aziendale del registro originale è distinto dal sitoDisney.com da cui proviene il wordmark corrente, già citato. Non sono alias. La didascalia conserva consultazione20ottobre2026 e disegno non datato; non si aggiungono informazioni societarie estranee al confronto tipografico."
+    },
+    {
+      "url_fonte": "https://www.bundesarchiv.de/assets/bundesarchiv/de/Publikationen/BFi_36_Heidemeyer_Akten-Einsichten_barrierefrei.pdf",
+      "tipo": "risorsa_ulteriore_non_citata",
+      "evidenza": [
+        "https://www.bundesarchiv.de/publikationen/publikation/akten-einsichten/",
+        "risorse-condivise/dati/fonti/tipografia/riferimenti-figma.json"
+      ],
+      "nota": "La scheda ufficialeAkten-Einsichten(2016),BF36,identifica il contributoChristianAdam sulBindestrichderFreiheit. Nel corpoFigma corrente334–490 e nel testo importato non c’è il casoischschwöreBerlin; la parte politica usa invece la circolareBormann1941. Il riferimento originale resta conservato; non viene attribuito alla circolare o aggiunto come opera citata. La numerazione interna del contributo non è usata nel booklet.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://www.lib.cam.ac.uk/files/monotype_catalogue.pdf",
+      "tipo": "catalogo_indiretto_con_documento_primario_specifico",
+      "uso": "progetti/booklet/capitoli/06-tipografia/documenti-settecento.typ",
+      "evidenza": [
+        "https://www.lib.cam.ac.uk/files/monotype_catalogue.pdf",
+        "https://exhibitions.library.columbia.edu/exhibits/show/jewels/item/11131"
+      ],
+      "nota": "Il vecchio riferimento è il catalogoMonotype comprendente il contributoMosley1966 sul foglioCaslon1734. Il documento visualizzato corrente è attribuito allaRBMLColumbia: la sua scheda primaria conferma titoloIronmonger-Row,luogoLondra e data catalografica1734. Non si confonde il contributo1966 con la data del foglio o con la sua digitalizzazione. PDFCambridge oggi403 nello strumento; non attestata identità delle immagini.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://web.archive.org/web/20260418192723/https://exhibitions.lib.cam.ac.uk/manutius/artifacts/bembo-de-aetna/",
+      "tipo": "scheda_di_collezione_distinta_dal_documento_usato",
+      "uso": "progetti/booklet/capitoli/06-tipografia/manuzio.typ",
+      "evidenza": [
+        "risorse-condivise/immagini/figure/tipografia/manifest.json",
+        "https://bibliotecanazionalemarciana.cultura.gov.it/en/library/digital-library/aldo-manutius-ten-interludes/"
+      ],
+      "nota": "Il riferimentoCambridge originale resta nel registro. La visuale correnteDeAetna è esplicitamenteBNCF,Ald.1.1.40,scansioneProQuest2010; non viene attribuita aCambridge. La ricostruzione editoriale è sostenuta dallaMarciana citata. Lo snapshotWayback non è stato riesaminato e non si attesta equivalenza di esemplare o di scansione.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://web.archive.org/web/20251211210624/https://exhibitions.lib.cam.ac.uk/manutius/artifacts/horatius-carmina-2/",
+      "tipo": "scheda_di_collezione_distinta_dall_esemplare_usato",
+      "uso": "progetti/booklet/capitoli/06-tipografia/manuzio.typ",
+      "evidenza": [
+        "https://www.sothebys.com/en/buy/auction/2024/bibliotheca-brookeriana-a-renaissance-library-the-aldine-collection-d-m/horatius-flaccus-horatius-venice-aldo-1501",
+        "risorse-condivise/immagini/figure/tipografia/manifest.json"
+      ],
+      "nota": "Il riferimentoCambridge originale resta conservato, ma il booklet mostra e identifica l’esemplare miniato perMinoRossi,Sotheby’s2024,lotto780. Non sono dichiarati lo stesso esemplare né la stessa fotografia. Lo snapshotWayback non è stato riesaminato.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://web.archive.org/web/20250707130856/https://www.loc.gov/item/2006680004/",
+      "tipo": "scheda_dell_asset_confermata_da_identificatori_e_hash",
+      "asset": "risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png",
+      "sha256": "6bf2cfd780ebd6525fbbf7ddea5d9844642f13583b1d94d49441b533fe3c6827",
+      "evidenza": [
+        "https://www.loc.gov/item/2006680004/",
+        "https://www.loc.gov/pictures/item/2006680004/",
+        "risorse-condivise/immagini/manifest.json",
+        "risorse-condivise/fonti/booklet/capitolo-2/provenienza-origini.json"
+      ],
+      "nota": "LCCN2006680004,digitalIDcph.3a51868 e riproduzioneLC-USZ62-51844 corrispondono al TIFF/PNG dei registri e all’hash del file condiviso traStoria eTipografia. Il catalogo ufficiale riporta No known restrictions on publication,nonCC0. IlPNG deriva dalTIFF con sola conversione di formato; conserva la fotografia in scala di grigi. Lo snapshotWayback non è necessario per identificare la risorsa corrente.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://www.sothebys.com/en/buy/auction/2024/bibliotheca-brookeriana-a-renaissance-library-the-aldine-collection-d-m/horatius-flaccus-horatius-venice-aldo-1501",
+      "tipo": "scheda_dell_esemplare_conservata_in_nota",
+      "uso": "progetti/booklet/capitoli/06-tipografia/manuzio.typ",
+      "asset": "risorse-condivise/immagini/figure/tipografia/orazio-manuzio-1501-miniatura.jpg",
+      "evidenza": [
+        "https://www.sothebys.com/en/buy/auction/2024/bibliotheca-brookeriana-a-renaissance-library-the-aldine-collection-d-m/horatius-flaccus-horatius-venice-aldo-1501"
+      ],
+      "nota": "La scheda del lotto780 confermaVenezia,maggio1501,prima edizionealdina,miniatura e stemmaMinoRossi,corsivo e formato8vo. Collegata nella nota del paragrafo che identifica l’esemplare; il prezzo non entra nel booklet.",
+      "stato": "risolto"
+    },
+    {
+      "url_fonte": "https://web.archive.org/web/20110127183430id_/http://www.unesco.org/culture/ich/doc/src/ITH-10-5.COM-CONF.202-5%20Rev.-EN.pdf",
+      "tipo": "risorsa_ulteriore_non_citata",
+      "evidenza": [
+        "risorse-condivise/dati/fonti/tipografia/riferimenti-figma.json",
+        "progetti/booklet/capitoli/06-tipografia/storia-iniziale.typ",
+        "progetti/booklet/capitoli/06-tipografia/legno-e-manifesti.typ"
+      ],
+      "nota": "La voce originale è una valutazioneUNESCO2010 della stampa cinese con tipi mobili di legno. Il corpo corrente non sviluppa questo caso del patrimonio: distingueBiSheng in ceramica,Jikji in metallo e i tipi di legno occidentali per manifesti. Nessun dato della valutazione2010 è trasferito a questi esempi; fonte conservata come risorsa ulteriore. Non attestata disponibilità attuale del vecchioPDFarchiviato.",
+      "stato": "risolto"
+    }
+  ],
+  "strumenti_di_verifica": {
+    "procedura": "citation-management",
+    "riferimento_metodologico": {
+      "author": [
+        "Kassis, Timothy",
+        "Agarwal, Vinayak",
+        "He, Yuhuan",
+        "Patel, Darshil",
+        "Brueckner, Aubrey M."
+      ],
+      "year": 2026,
+      "title": "Scientific Agent Skills: A Library of Procedural Knowledge for Research Agents",
+      "doi": "10.48550/arXiv.2609.00065",
+      "url": "https://arxiv.org/abs/2609.00065",
+      "stato": "Preprint; record corrente controllato22ottobre2026, revisione2settembre2026. Nessun DOI editoriale indicato."
+    },
+    "nota": "Provenienza metodologica del controllo nei registri tecnici. Non è una fonte didattica del capitolo e non è inclusa nella bibliografia del lettore."
+  }
+}

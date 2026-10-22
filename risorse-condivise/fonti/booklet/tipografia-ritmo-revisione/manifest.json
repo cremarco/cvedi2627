@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-20",
+  "originalAsset": "tipografia-4370-45150",
+  "purpose": "Clarify the rhythm example on the typography slide with an actually empty pause and a proportional timeline.",
+  "originalRetained": "progetti/slide/assets/booklet/lezione-08-tipografia/originals/4370-45150.svg",
+  "construction": "Original static vector diagram. Three equal video frames; three equal one-second timeline segments. No text appears inside the middle frame. All text uses authentic local Nunito Sans outlines.",
+  "durationSeconds": 3,
+  "sequence": [
+    {
+      "start": 0,
+      "end": 1,
+      "text": "ASCOLTA"
+    },
+    {
+      "start": 1,
+      "end": 2,
+      "text": ""
+    },
+    {
+      "start": 2,
+      "end": 3,
+      "text": "ORA"
+    }
+  ],
+  "font": {
+    "family": "Nunito Sans",
+    "path": "progetti/slide/public/fonts/deck/nunito-sans-latin-wght-normal.woff2",
+    "sha256": "29e3890496844a9ea81975c52771c587c872b4eb317026422d1995b88d21b57d",
+    "weights": [
+      500,
+      600,
+      700
+    ],
+    "license": "SIL Open Font License 1.1",
+    "licensePath": "progetti/slide/public/fonts/deck/OFL-NunitoSans.txt",
+    "licenseSha256": "6632e6c45fcc18cc03909a0a53d84e9775185e06203ff80d6367cf93959b91a8"
+  },
+  "labels": [
+    {
+      "text": "Sullo schermo",
+      "x": 0,
+      "baseline": 55,
+      "size": 44,
+      "weight": 600,
+      "width": 285.95599999999996
+    },
+    {
+      "text": "0–1 s",
+      "x": 146.166,
+      "baseline": 122,
+      "size": 44,
+      "weight": 600,
+      "width": 107.66799999999999
+    },
+    {
+      "text": "ASCOLTA",
+      "x": 33.19,
+      "baseline": 291,
+      "size": 70,
+      "weight": 700,
+      "width": 333.62
+    },
+    {
+      "text": "Compare ASCOLTA",
+      "x": 18.840000000000003,
+      "baseline": 435,
+      "size": 40,
+      "weight": 500,
+      "width": 362.32
+    },
+    {
+      "text": "1–2 s",
+      "x": 546.166,
+      "baseline": 122,
+      "size": 44,
+      "weight": 600,
+      "width": 107.66799999999999
+    },
+    {
+      "text": "Schermo vuoto",
+      "x": 464.08,
+      "baseline": 435,
+      "size": 40,
+      "weight": 500,
+      "width": 271.84000000000003
+    },
+    {
+      "text": "2–3 s",
+      "x": 946.166,
+      "baseline": 122,
+      "size": 44,
+      "weight": 600,
+      "width": 107.66799999999999
+    },
+    {
+      "text": "ORA",
+      "x": 922.475,
+      "baseline": 291,
+      "size": 70,
+      "weight": 700,
+      "width": 155.05
+    },
+    {
+      "text": "Compare ORA",
+      "x": 868.98,
+      "baseline": 435,
+      "size": 40,
+      "weight": 500,
+      "width": 262.04
+    },
+    {
+      "text": "Durata e pausa",
+      "x": 0,
+      "baseline": 495,
+      "size": 44,
+      "weight": 600,
+      "width": 304.17199999999997
+    },
+    {
+      "text": "ASCOLTA",
+      "x": 104.67999999999999,
+      "baseline": 592,
+      "size": 40,
+      "weight": 700,
+      "width": 190.64000000000001
+    },
+    {
+      "text": "PAUSA",
+      "x": 529.8199999999999,
+      "baseline": 592,
+      "size": 40,
+      "weight": 700,
+      "width": 140.36
+    },
+    {
+      "text": "ORA",
+      "x": 955.7,
+      "baseline": 592,
+      "size": 40,
+      "weight": 700,
+      "width": 88.60000000000001
+    },
+    {
+      "text": "0 s",
+      "x": 0,
+      "baseline": 700,
+      "size": 44,
+      "weight": 500,
+      "width": 59.092
+    },
+    {
+      "text": "1 s",
+      "x": 370.454,
+      "baseline": 700,
+      "size": 44,
+      "weight": 500,
+      "width": 59.092
+    },
+    {
+      "text": "2 s",
+      "x": 770.454,
+      "baseline": 700,
+      "size": 44,
+      "weight": 500,
+      "width": 59.092
+    },
+    {
+      "text": "3 s",
+      "x": 1140.908,
+      "baseline": 700,
+      "size": 44,
+      "weight": 500,
+      "width": 59.092
+    }
+  ],
+  "generator": {
+    "path": "risorse-condivise/fonti/booklet/tipografia-ritmo-revisione/generate.py",
+    "sha256": "3f3933604abe3d0deb5947a23af18c5eea6baa2001be961c6818e7c5d9188dc4",
+    "fontToolsVersion": "4.67.0"
+  },
+  "output": {
+    "path": "risorse-condivise/fonti/booklet/tipografia-ritmo-revisione/parole-pausa-tempo.svg",
+    "sha256": "c6b51eea05564cc7611694b01c941012e7949006f2eeae724f4c6e18b5c80482",
+    "width": 1200,
+    "height": 800
+  }
+}

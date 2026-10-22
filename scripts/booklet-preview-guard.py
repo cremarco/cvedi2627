@@ -11,7 +11,7 @@ import sys
 
 
 ROOT = Path(__file__).resolve().parents[1]
-BOOKLET = ROOT / "typst-booklet"
+BOOKLET = ROOT / "progetti/booklet"
 MAX_PDF_BYTES = 20 * 1024 * 1024
 REASON = (
     "Anteprima PDF bloccata per evitare il crash di Codex. "

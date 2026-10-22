@@ -1,0 +1,133 @@
+{
+  "versione": 1,
+  "stato": "Sette aperture approvate e attive nel booklet Typst; fondi SVG con titolo e numero composti come testo nativo.",
+  "origine": "Concept ImageGen built-in della sessione del 22 ottobre 2026",
+  "piano": "progetti/booklet/piano.json",
+  "font": "risorse-condivise/font/editoriali/sora-variabile.ttf",
+  "licenza_font": "risorse-condivise/font/editoriali/sora-licenza.txt",
+  "note": [
+    "Illustrazioni ricostruite in forme e tracciati; nessun raster incorporato.",
+    "Rifinitura geometrica: bordi condivisi, tangenti raccordate, archi ellittici esatti e nastro spettrale governato da un unico profilo continuo.",
+    "Colore: nastro e contesti composti esclusivamente da archi ellittici A e rette H/V/L. Raggi e centri sono in geometria-colore.json; geometria-colore.py calcola le tangenti comuni.",
+    "Controllo generale: controcurve di Ricerca e Tipografia regolarizzate, tangenti Gestalt riallineate e modulo bianco Griglie sullo stesso asse del quarto superiore. Numero Tipografia blue 600 per contrasto 3,74 sul fondo verde, senza cambiare font, dimensione o posizione.",
+    "Le lievi sfumature del generatore sono sostituite dalle campiture piatte del capitolo.",
+    "Titoli e numeri sono testo Sora 700, con font OFL completo incorporato negli SVG portabili.",
+    "Il macrosegno del capitolo 06 riprende il disegno del concept: è un'illustrazione, non un campione autentico del glifo Sora.",
+    "Lo spettro del capitolo 05 usa le 17 famiglie esatte del sistema; i due campioni sono identici.",
+    "Testi e posizioni si aggiornano con composizioni.json e componi.py; il titolo completo proviene dal piano unico."
+  ],
+  "capitoli": [
+    {
+      "numero": 1,
+      "titolo": "Storia del design visivo",
+      "svg": "svg/01-storia.svg",
+      "disegno": "disegni/01-storia.svg",
+      "riferimento": "originali/v2-01-storia.png",
+      "prompt": "prompts/v2-01-storia.txt",
+      "sha256_riferimento": "ef977e2470ff8f21987f54c3d8161b8dd244fe5e3e78278ddd3437629691ca26",
+      "sha256_prompt": "c23dc7dac6814296017ef5024d5e0310beb4f526ec54f87d8fe3ad84b6e96c4e",
+      "sha256_svg": "5474c33a72a105ba4ba0dfb4abee9af82cd7fe1bc68ded4ba4df1821aaa3757f",
+      "sha256_disegno": "6dd2b8b6efe6089cb2eee49aa511c15ae4fdb69399861b1c49ca4ffb6fcffefe",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    },
+    {
+      "numero": 2,
+      "titolo": "Ricerca, persone e culture",
+      "svg": "svg/02-ricerca.svg",
+      "disegno": "disegni/02-ricerca.svg",
+      "riferimento": "originali/v3-02-ricerca.png",
+      "prompt": "prompts/v3-02-ricerca.txt",
+      "sha256_riferimento": "2158f043022575f5d244247f0a2a9577441b8977917402be28100b552575df2e",
+      "sha256_prompt": "9a2af07ca764644aadf5a37ea77df55435fb333dd5370832c4f8b1c567646494",
+      "sha256_svg": "ee203c3306aa8f73b84c745f6224cce5c589c8dcc590c7dd43eb5d22b737816c",
+      "sha256_disegno": "a300c950cc693b66523ec339a02857912bb6e2fd0f8ea6c44c5840f76b48dbb0",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    },
+    {
+      "numero": 3,
+      "titolo": "Accessibilità e inclusione",
+      "svg": "svg/03-accessibilita.svg",
+      "disegno": "disegni/03-accessibilita.svg",
+      "riferimento": "originali/v2-03-accessibilita.png",
+      "prompt": "prompts/v2-03-accessibilita.txt",
+      "sha256_riferimento": "d3fd93a7a1fc7af1373fceec03c6e234311739bce0f4daa52c2e25e4908d37f7",
+      "sha256_prompt": "ff2b12f6cee0a3c70f7e9aff159a05bc25210d21a74b0140b660f2d0069be6ef",
+      "sha256_svg": "6445f47fb53ed2e0a8a06ba38ca90f835928dd3a22cbe2c927aff41eb523216c",
+      "sha256_disegno": "b569d78dfc9dc63770c8b3ea0b4f2ffacab8b43787185ad0881cff88ac017298",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    },
+    {
+      "numero": 4,
+      "titolo": "Percezione e Gestalt",
+      "svg": "svg/04-gestalt.svg",
+      "disegno": "disegni/04-gestalt.svg",
+      "riferimento": "originali/v2-04-gestalt.png",
+      "prompt": "prompts/v2-04-gestalt.txt",
+      "sha256_riferimento": "29d54c31829ccfce0d560c5b486f165badddb18d88f384d68d53bee813e96b46",
+      "sha256_prompt": "4d2f0e19b4fde046bf361232ab1424efdf338945a40e8c36eb3c4c72b51af008",
+      "sha256_svg": "f6286e4051525b2ecce9baa9efbb8611e65c201090b2bf254eac6dae503a7e08",
+      "sha256_disegno": "d04deee45e57115da5b251b9fd4400288e1d52f7f6366ad550392ec1d8ffb031",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    },
+    {
+      "numero": 5,
+      "titolo": "Colore e significato",
+      "svg": "svg/05-colore.svg",
+      "disegno": "disegni/05-colore.svg",
+      "riferimento": "originali/v2-05-colore.png",
+      "prompt": "prompts/v2-05-colore.txt",
+      "sha256_riferimento": "a240496be0b8920bb5be35bc829b209b41ebe4a28720fe4d5c5d190215ea7869",
+      "sha256_prompt": "38924c29da5be0e7ea573c09149da18796559197008024b60e7d078ec5ba64bd",
+      "sha256_svg": "b82fdb734f4efe7d7edd614df7325a2e248c1c6b7ba1c8afc768598cb75d384d",
+      "sha256_disegno": "5eb7d8e7df4a52eb145499856dd08c9e3e634367285fb1e54060ce0755fbe74c",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    },
+    {
+      "numero": 6,
+      "titolo": "Tipografia e lettura",
+      "svg": "svg/06-tipografia.svg",
+      "disegno": "disegni/06-tipografia.svg",
+      "riferimento": "originali/v2-06-tipografia.png",
+      "prompt": "prompts/v2-06-tipografia.txt",
+      "sha256_riferimento": "aabd2ec9c1193e30edf627226ad74ee603bb5b93c9ec2f9283b30e9e920b780c",
+      "sha256_prompt": "7323c4ff4a6f77101ef79aca5117aadd8b869bb1d77cb49c4b581b39277aeebd",
+      "sha256_svg": "948cd38faa59fd935289d1c96501407b1ae8523b472c14cc8d4a72aecbcf91ed",
+      "sha256_disegno": "3cf3569c6fcecac6e27f934808a6cdcd0a7de6433438b8bbc3a107e51fd5b62b",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    },
+    {
+      "numero": 7,
+      "titolo": "Griglie e layout",
+      "svg": "svg/07-griglie.svg",
+      "disegno": "disegni/07-griglie.svg",
+      "riferimento": "originali/v2-07-griglie.png",
+      "prompt": "prompts/v2-07-griglie.txt",
+      "sha256_riferimento": "25b36017f320638871a64c1ac825db02bc13a9ad7937236e0b55b237e57878c1",
+      "sha256_prompt": "4185f8b7f21c75784682ca5b61383b2dae05406684199b61c9e97f65b4cc8461",
+      "sha256_svg": "0b38f338213085ecad6dcaac2a61f51dfce1af6f6cbaf66f4bf09fb375012ce9",
+      "sha256_disegno": "0dfe7347e0f1fccbafa9db5782c5e4bd438431656219413f494945bed3084314",
+      "testi_editabili": [
+        "titolo-capitolo",
+        "numero-capitolo"
+      ]
+    }
+  ]
+}
