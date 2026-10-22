@@ -1,5 +1,6 @@
 // Due aperture in cui il titolo e il numero dimostrano il tema del capitolo.
 // Il testo arriva dal chiamante: cambiando titolo o numero si aggiorna il PDF.
+#import "titolo.typ": testo-titolo
 #let apertura-lettere-griglia(tema, numero, titolo) = {
   assert(tema in (11, 12), message: "Questa variante copre i temi originali 11–12.")
   // Le due cifre del nuovo numero mantengono i pesi e i moduli approvati.
@@ -8,7 +9,7 @@
     // Tipografia: titolo arioso e due pesi della stessa famiglia nel numero.
     // La grande lettera sullo sfondo è il contorno autentico di Sora Bold.
     show heading.where(level: 1): it => block(above: 0pt, below: 0pt)[
-      #text(size: 38pt, weight: 400, tracking: 2.2pt, upper(it.body))
+      #text(size: 38pt, weight: 400, tracking: 2.2pt, testo-titolo(upper(it.body)))
     ]
     heading(level: 1, titolo)
     v(1fr)
@@ -20,8 +21,9 @@
   } else {
     // Griglia: il titolo occupa un campo stretto, le cifre due moduli uguali.
     // Righe, colonne e allineamenti sono elementi Typst, non testo nell'SVG.
-    show heading.where(level: 1): it => block(width: 170pt, above: 0pt, below: 0pt)[
-      #text(size: 47pt, weight: 700, it.body)
+    // La giustezza accoglie «e layout» sulla stessa riga, senza ridurre il corpo.
+    show heading.where(level: 1): it => block(width: 200pt, above: 0pt, below: 0pt)[
+      #text(size: 47pt, weight: 700, testo-titolo(it.body))
     ]
     pad(left: 12mm)[#heading(level: 1, titolo)]
     v(1fr)

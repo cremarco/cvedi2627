@@ -32,13 +32,14 @@
 ]
 
 #let sottotitolo-lettura(corpo) = block(above: 10pt, below: 4pt, sticky: true)[
+  #set par(leading: 2pt)
   #text(weight: 900, size: 14pt, variations: (opsz: 14), corpo)
 ]
 
 // Ingrandimento non numerato: campioni storici e dettagli di figure conservano
 // lo stesso ritmo. Il chiamante prepara il testo e gli eventuali rimandi nativi.
 #let dettaglio-editoriale(titolo: [], didascalia: [], corpo) = block(breakable: false)[
-  #set par(justify: false, spacing: 4pt)
+  #set par(justify: false, leading: 2pt, spacing: 4pt)
   #text(size: 10pt, weight: 500)[#titolo]
   #v(4pt)
   #align(center, corpo)

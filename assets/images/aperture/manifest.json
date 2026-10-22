@@ -2,7 +2,7 @@
   "versione": 2,
   "stato": "Dodici proposte rivedute: motivo, titolo e numero richiamano il tema; colori principali Tailwind, accenti secondari e spettro completo per Colore.",
   "formato": "SVG vettoriale nativo 1200×1694 a tutta pagina; nessun raster incorporato.",
-  "colore": "Tinta principale del capitolo con accenti secondari; Colore usa tutte le diciassette famiglie cromatiche. Titoli e numeri sono testo Typst nativo.",
+  "colore": "Tinte originali dei dodici motivi, con accenti secondari e spettro di diciassette famiglie per Colore. La sezione palette assegna la tinta principale secondo il capitolo corrente; titoli e numeri sono testo Typst nativo.",
   "fonte_sistema": {
     "fileKey": "WLdDzbdqP3P5rpYbK1OxYC",
     "tipografia": "4306:475",
@@ -245,8 +245,130 @@
       "cyan",
       "sky",
       "blue",
-      "indigo"
+      "indigo",
+      "violet",
+      "purple",
+      "fuchsia",
+      "pink",
+      "rose",
+      "slate",
+      "gray",
+      "zinc",
+      "neutral",
+      "stone",
+      "taupe",
+      "mauve",
+      "mist",
+      "olive"
     ],
-    "conversione": "Valori OKLCH ufficiali convertiti con color.to-hex() di Typst 0.15.1 per SVG e PDF."
+    "conversione": "Valori OKLCH ufficiali convertiti con color.to-hex() di Typst 0.15.1 per SVG e PDF.",
+    "preliminari": "gray",
+    "famiglie": {
+      "red": {
+        "oklch": "oklch(80.8% 0.114 19.571)",
+        "colore": "#FFA2A2"
+      },
+      "orange": {
+        "oklch": "oklch(83.7% 0.128 66.29)",
+        "colore": "#FFB86A"
+      },
+      "amber": {
+        "oklch": "oklch(87.9% 0.169 91.605)",
+        "colore": "#FFD230"
+      },
+      "yellow": {
+        "oklch": "oklch(90.5% 0.182 98.111)",
+        "colore": "#FFDF20"
+      },
+      "lime": {
+        "oklch": "oklch(89.7% 0.196 126.665)",
+        "colore": "#BBF451"
+      },
+      "green": {
+        "oklch": "oklch(87.1% 0.15 154.449)",
+        "colore": "#7BF1A8"
+      },
+      "emerald": {
+        "oklch": "oklch(84.5% 0.143 164.978)",
+        "colore": "#5EE9B5"
+      },
+      "teal": {
+        "oklch": "oklch(85.5% 0.138 181.071)",
+        "colore": "#46ECD5"
+      },
+      "cyan": {
+        "oklch": "oklch(86.5% 0.127 207.078)",
+        "colore": "#53EAFD"
+      },
+      "sky": {
+        "oklch": "oklch(82.8% 0.111 230.318)",
+        "colore": "#74D4FF"
+      },
+      "blue": {
+        "oklch": "oklch(80.9% 0.105 251.813)",
+        "colore": "#8EC5FF"
+      },
+      "indigo": {
+        "oklch": "oklch(78.5% 0.115 274.713)",
+        "colore": "#A3B3FF"
+      },
+      "violet": {
+        "oklch": "oklch(81.1% 0.111 293.571)",
+        "colore": "#C4B4FF"
+      },
+      "purple": {
+        "oklch": "oklch(82.7% 0.119 306.383)",
+        "colore": "#DAB2FF"
+      },
+      "fuchsia": {
+        "oklch": "oklch(83.3% 0.145 321.434)",
+        "colore": "#F4A8FF"
+      },
+      "pink": {
+        "oklch": "oklch(82.3% 0.12 346.018)",
+        "colore": "#FDA5D5"
+      },
+      "rose": {
+        "oklch": "oklch(81% 0.117 11.638)",
+        "colore": "#FFA1AD"
+      },
+      "slate": {
+        "oklch": "oklch(86.9% 0.022 252.894)",
+        "colore": "#CAD5E2"
+      },
+      "gray": {
+        "oklch": "oklch(87.2% 0.01 258.338)",
+        "colore": "#D1D5DC"
+      },
+      "zinc": {
+        "oklch": "oklch(87.1% 0.006 286.286)",
+        "colore": "#D4D4D8"
+      },
+      "neutral": {
+        "oklch": "oklch(87% 0 none)",
+        "colore": "#D4D4D4"
+      },
+      "stone": {
+        "oklch": "oklch(86.9% 0.005 56.366)",
+        "colore": "#D6D3D1"
+      },
+      "taupe": {
+        "oklch": "oklch(86.8% 0.007 39.5)",
+        "colore": "#D8D2D0"
+      },
+      "mauve": {
+        "oklch": "oklch(86.5% 0.012 325.68)",
+        "colore": "#D7D0D7"
+      },
+      "mist": {
+        "oklch": "oklch(87.2% 0.007 219.6)",
+        "colore": "#D0D6D8"
+      },
+      "olive": {
+        "oklch": "oklch(88% 0.011 106.6)",
+        "colore": "#D8D8D0"
+      }
+    },
+    "assegnazione": "Preliminari gray 300; capitoli da red in ordine, secondo il numero editoriale corrente. Il tema originale conserva il motivo; la tinta principale viene applicata in memoria da Typst."
   }
 }

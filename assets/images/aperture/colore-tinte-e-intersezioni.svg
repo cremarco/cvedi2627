@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="colore-titolo colore-descrizione">
   <title id="colore-titolo">Colore: uno spettro di relazioni</title>
-  <desc id="colore-descrizione">Un grande disco a diciassette settori cromatici esce dal bordo superiore. Il campo azzurro resta continuo sotto il titolo e due grandi campiture completano la pagina.</desc>
-  <!-- Il campo sky 300 mantiene l’identità; lo spettro Tailwind 400 resta fisso. -->
+  <desc id="colore-descrizione">Un grande disco a diciassette settori cromatici esce dal bordo superiore. Il campo nella tinta del capitolo resta continuo sotto il titolo e due grandi campiture completano la pagina.</desc>
+  <!-- Il campo principale segue il capitolo; lo spettro Tailwind 400 resta fisso. -->
   <rect data-palette="principale" x="0" y="0" width="1200" height="1694" fill="#74D4FF"/>
   <g data-palette="spettro">
     <path data-palette="spettro" fill="#FF6467" d="M 600,380 L 600.00,-270.00 A 650,650 0 0 1 834.81,-226.11 Z"/>

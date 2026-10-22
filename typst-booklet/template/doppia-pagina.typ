@@ -99,7 +99,7 @@
       let visuale = box(width: larghezza, height: altezza-immagine)[
         #set align(left)
         #if lato == 0 { [
-          #figure(image(file, width: larghezza, alt: alt), caption: none, kind: image)
+          #figure(image(file, width: larghezza, alt: alt), caption: none, kind: image, placement: none)
           #label(id)
         ] } else {
           image(file, width: larghezza,
@@ -192,19 +192,22 @@
   ..(preset-duomo + argomenti.named()), ..argomenti.pos())
 
 // Nome breve per il caso a un solo foglio: stessi apparati e stesso overflow.
-#let sagoma-pagina(al-vivo-sinistro: false, ..argomenti) = {
+#let sagoma-pagina(al-vivo-sinistro: false, partenza: auto, ..argomenti) = {
+  assert(partenza in (auto, "even", "odd"),
+    message: "La sagoma singola può iniziare su una pagina automatica, pari o dispari.")
+  if partenza != auto { pagebreak(to: partenza, weak: true) }
   if al-vivo-sinistro {
-    // Il salto debole precede la lettura del margine: conta la pagina reale,
-    // anche quando una modifica a monte cambia la sua parità.
-    pagebreak(weak: true)
-    context {
-      let dati = argomenti.named()
-      let bordo-alpha = bordo-alpha-sinistro(fasce-profilo(dati.profilo))
-      // Allineare il primo pixel visibile, non il rettangolo trasparente.
-      // L'asset resta intero e il testo usa lo stesso profilo spostato.
-      let origine = -margine-sinistro(here().page()) - bordo-alpha * dati.larghezza
-      sagoma-regionale(pagine: 1, note-esterne: false,
-        ..(dati + (inizio-immagine: origine)), ..argomenti.pos())
+    let dati = argomenti.named()
+    let bordo-alpha = bordo-alpha-sinistro(fasce-profilo(dati.profilo))
+    let compone(margine) = sagoma-regionale(pagine: 1, note-esterne: false,
+      ..(dati + (inizio-immagine: -margine - bordo-alpha * dati.larghezza)), ..argomenti.pos())
+    if partenza == auto {
+      pagebreak(weak: true)
+      context compone(margine-sinistro(here().page()))
+    } else {
+      // Il lato editoriale esplicito determina il margine prima delle misure.
+      // La figura tocca il bordo esterno con il primo pixel, senza tagliare l’asset.
+      compone(if partenza == "even" { margine-esterno } else { margine-interno })
     }
   } else {
     sagoma-regionale(pagine: 1, note-esterne: false, ..argomenti)

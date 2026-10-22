@@ -1,4 +1,4 @@
-"""Orchestrazione dei comandi pubblici build e check e dei rispettivi rapporti."""
+"""Compilazione, verifica e anteprime limitate del booklet."""
 
 from __future__ import annotations
 
@@ -11,6 +11,7 @@ from .common import BOOKLET, PROVE, ROOT, TARGETS, read_json, require, run, save
 from .documents import compile_document, inventory
 from .inventory import check_inventory
 from .pdf import check_pdf
+from .preview import create_preview
 from .regressions import check_regressions
 
 
@@ -25,18 +26,37 @@ def report_name(action: str, *, assets_only: bool = False, target: str | None = 
 
 def arguments(argv: list[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("azione", choices=("build", "check"))
+    parser.add_argument("azione", choices=("build", "check", "preview"))
     selection = parser.add_mutually_exclusive_group()
-    selection.add_argument("--target", choices=TARGETS, help="Compila un solo ingresso (solo build).")
+    selection.add_argument("--target", choices=TARGETS, help="Ingresso per build o preview (preview: booklet).")
     selection.add_argument("--assets-only", action="store_true", help="Verifica solo ambiente e dati, senza compilare.")
+    parser.add_argument("--pages", help="Pagine fisiche da 1 o intervalli chiusi, massimo 8 (solo preview).")
     args = parser.parse_args(argv)
-    if args.target and args.azione != "build":
-        parser.error("--target è disponibile soltanto per build.")
+    if args.target and args.azione == "check":
+        parser.error("--target è disponibile soltanto per build e preview.")
+    if args.azione == "preview":
+        if args.assets_only:
+            parser.error("--assets-only non è disponibile per preview.")
+        if args.pages is None:
+            parser.error("preview richiede --pages, per esempio --pages 8-9.")
+    elif args.pages is not None:
+        parser.error("--pages è disponibile soltanto per preview.")
     return args
 
 
 def main(argv: list[str] | None = None) -> int:
     args = arguments(argv)
+    if args.azione == "preview":
+        try:
+            preview = create_preview(args.target or "booklet", args.pages)
+            print(f"Anteprime PNG · pagine fisiche {', '.join(map(str, preview['pagine']))} "
+                  f"di {preview['pagine_totali']}:")
+            for path in preview["file"]:
+                print(path)
+            return 0
+        except (ValueError, KeyError, OSError) as error:
+            print(f"Errore: {error}", file=sys.stderr)
+            return 1
     reports = ROOT / "reports/typst-booklet/check"
     report = {"schema": "cvedi-booklet-check/v1", "esito": "in-corso", "azione": args.azione}
     start = time.monotonic()

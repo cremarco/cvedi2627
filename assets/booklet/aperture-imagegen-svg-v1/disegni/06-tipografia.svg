@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1055" height="1491" viewBox="0 0 1055 1491" overflow="hidden" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Tipografia: forma e controforma monumentali</title>
+  <desc id="descrizione">Ricostruzione vettoriale del macrosegno illustrativo del concept generato. La forma riprende una a con un'asta verticale indipendente; non è presentata come campione autentico di un font. Titolo e numero sono composti separatamente.</desc>
+  <g id="campo-principale" data-palette="principale" fill="#7BF1A8">
+    <rect id="fondo" width="1055" height="1491"/>
+  </g>
+  <g id="campo-verde-profondo" data-palette="secondario" fill="#00A63E">
+    <rect id="modulo-inferiore" x="852" y="1047" width="203" height="444"/>
+  </g>
+  <g id="macrosegno" data-palette="inchiostro" fill="#2E3138">
+    <!-- L'asta inferiore è esattamente verticale. I raccordi della pancia
+         e della spalla condividono le tangenti; la controforma è un'ellisse
+         esatta di 457 × 442, senza quattro curve approssimate. -->
+    <path id="lettera-illustrata-e-controforma" fill-rule="evenodd" d="M852 0H1055V851H855V1247C855 1388 745 1474 590 1498H385C165 1462-2 1324-2 1100C-2 930 146 783 304 735C409.333333 703 654 703 819 703V672C819 584 741 549 649 546C539 542.413043 418 575 337 617H128C221 421 400 338 620 338C709 338 793 358 852 384Z M732 1086A228.5 221 0 1 0 275 1086A228.5 221 0 1 0 732 1086Z"/>
+  </g>
+</svg>

@@ -2,7 +2,7 @@
 // I ritagli servono soltanto a ingrandire dettagli già indicati nella fonte Figma.
 // Larghezza e altezza esplicite conservano la scala originale anche nella finestra
 // bassa: image() non deve adattare automaticamente la fotografia a quell'altezza.
-#import "pagine.typ": pagina-documentaria
+#import "pagine.typ": pagina-documentaria, tavola-mobile
 #import "editoriale.typ": dettaglio-editoriale
 #let dettaglio(file, width: 100pt, height: 54pt,
   originale-width: 100pt, originale-height: 100pt,
@@ -11,9 +11,11 @@
     move(dx: dx, dy: dy, image(file, width: originale-width,
       height: originale-height, fit: "contain", alt: alt))))
 
-// Una pagina ordinaria senza fascia delle note, riservata ai documenti autonomi.
-// Il contenuto è composto nel flusso: nessuna coordinata per righe o didascalie.
-#let tavola-documentaria = pagina-documentaria
+// Le tavole ordinarie si spostano insieme alle proprie didascalie.
+// fissa è riservato a esercizi e raccordi intenzionali delle doppie pagine.
+#let tavola-documentaria(corpo, fissa: false) = if fissa {
+  pagina-documentaria(corpo)
+} else { tavola-mobile(corpo) }
 
 // I dettagli di uno stesso documento non aumentano il progressivo delle figure.
 // La didascalia rimanda alla figura completa mediante il suo riferimento nativo.

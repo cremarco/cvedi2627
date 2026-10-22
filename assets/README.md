@@ -2,7 +2,7 @@
 
 Questa cartella conserva gli originali, le fonti e i dati condivisi fra booklet e slide. Il sistema editoriale del booklet è descritto in [DESIGN.md](../DESIGN.md).
 
-Il perimetro corrente del booklet comprende sei lezioni: **01 Storia, 02 Ricerca, 03 Accessibilità, 04 Gestalt, 05 Colore e 06 Tipografia**. Il Processo UX è escluso; il suo Double Diamond è conservato in archivio. La scelta precedente fra NN/g e Stanford è annullata e non richiede una nuova decisione. L’inventario condiviso conserva anche gli altri asset già presenti, indipendentemente dalle lezioni attualmente impaginate.
+Il perimetro corrente del booklet comprende sette capitoli: **01 Storia, 02 Ricerca, 03 Accessibilità, 04 Gestalt, 05 Colore, 06 Tipografia e 07 La griglia**. Il Processo UX è escluso; il suo Double Diamond è conservato in archivio. La scelta precedente fra NN/g e Stanford è annullata e non richiede una nuova decisione. L’inventario condiviso conserva anche gli altri asset già presenti, indipendentemente dalle lezioni attualmente impaginate.
 
 ## Asset attivi
 
@@ -11,9 +11,11 @@ Il perimetro corrente del booklet comprende sei lezioni: **01 Storia, 02 Ricerca
 | [images/aperture/](images/aperture/) | Dodici aperture SVG flat condivise; colori, ruoli e provenienza nel [manifest](images/aperture/manifest.json). Titoli e numeri restano testo Typst. |
 | [images/figure/](images/figure/) | Immagini canoniche delle raccolte tematiche. I manifest nelle singole cartelle conservano fonti, attribuzioni e hash; il [manifest generale delle immagini](images/manifest.json) descrive il proprio sottoinsieme storico e non costituisce un inventario completo. |
 | [images/figure/caffe-ttc/](images/figure/caffe-ttc/) | Sedici screenshot reali Home Caffè TTC: 15 desktop e Adattabile anche mobile, tutti in rapporto 17:24. Il [manifest della raccolta](images/figure/caffe-ttc/manifest.json) conserva query, data, viewport, scala e hash; il [registro del browser](images/figure/caffe-ttc/catture-browser.json) documenta cattura e verifica visiva. |
+| [images/figure/griglia/](images/figure/griglia/) | Il [manifest](images/figure/griglia/manifest.json) associa le 42 figure Figma correnti (39 diagrammi SVG e tre originali documentari) e otto figure della sezione Griglia del PDF di dicembre 2024, con provenienza e hash. Le opere già canoniche restano nei rispettivi percorsi. |
 | [fonts/editoriali/](fonts/editoriali/) | Sora, DM Sans e DM Sans corsivo; Noto Sans JP completa i caratteri giapponesi e Noto Sans SC quelli cinesi assenti anche nel font JP, senza cambiare i font editoriali. File originali, licenze OFL e provenienza nel [manifest dei font](fonts/editoriali/manifest.json). |
 | [dati/sagome/](dati/sagome/) | Profili alpha derivati dalle immagini trasparenti, con hash, dimensioni e fasce del contorno. Sono dati delle figure, indipendenti dalle righe del testo. |
 | [dati/figure/tipografia/](dati/figure/tipografia/) | Testi e stili originali dei campioni nativi, condivisibili senza incorporare l’impaginazione del booklet. |
+| [dati/figure/griglia/](dati/figure/griglia/) | Didascalie, diritti, testi alternativi e identificatori delle 50 figure del capitolo, comprese le otto integrazioni storiche. Il progressivo stampato è generato dal capitolo Typst. |
 | [dati/fonti/tipografia/](dati/fonti/tipografia/) | Registro dei testi e collegamenti delle dodici tavole bibliografiche Figma491–502. Conserva la provenienza originale, distinta dalle fonti APA verificate e dalle note del testo corrente. |
 
 Per un nuovo riferimento Typst, con la radice del repository impostata tramite `--root`:

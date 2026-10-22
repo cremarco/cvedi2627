@@ -2,6 +2,7 @@
 // Il contenitore esterno fornisce la gabbia di 137 × 205 mm e il fondo SVG.
 // Titolo e numero rimangono testo nativo: queste quote riguardano solo l’apertura.
 #import "../geometria.typ": inchiostro
+#import "titolo.typ": testo-titolo
 
 #let apertura-visive(tema, numero, titolo) = {
   assert(tema in (7, 8, 9, 10), message: "Questa variante copre i temi originali 7–10.")
@@ -14,7 +15,7 @@
     // Numero e parola formano un solo gruppo nella chiusura suggerita dal fondo.
     show heading.where(level: 1): it => place(top + center, dy: 119mm)[
       #block(width: 100%, above: 0pt, below: 0pt)[
-        #align(center, text(size: 54pt, weight: 700, it.body))
+        #align(center, text(size: 54pt, weight: 700, testo-titolo(it.body)))
       ]
     ]
     heading(level: 1, titolo)

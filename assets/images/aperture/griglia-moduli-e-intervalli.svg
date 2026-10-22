@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1694" viewBox="0 0 1200 1694" overflow="hidden" role="img" aria-labelledby="griglia-titolo griglia-descrizione">
   <title id="griglia-titolo">La griglia: campi e intervalli</title>
-  <desc id="griglia-descrizione">Una griglia editoriale di sei colonne e sette righe attraversa la pagina. Campi di dimensioni differenti occupano più moduli, con intervalli regolari e allineamenti comuni. L’indigo è la tinta dominante; un solo modulo lime nella parte inferiore destra introduce un accento secondario.</desc>
+  <desc id="griglia-descrizione">Una griglia editoriale di sei colonne e sette righe attraversa la pagina. Campi di dimensioni differenti occupano più moduli, con intervalli regolari e allineamenti comuni. La tinta del capitolo domina; un solo modulo lime nella parte inferiore destra introduce un accento secondario.</desc>
   <!-- Sei colonne da 180 con intercolonna 24; sette righe da 218 con intervallo 28. -->
   <!-- Il reticolo sottile resta sul centro degli intervalli; i campi accorpano moduli interi. -->
   <path d="M192 0 V1694 M396 0 V1694 M600 0 V1694 M804 0 V1694 M1008 0 V1694 M0 232 H1200 M0 478 H1200 M0 724 H1200 M0 970 H1200 M0 1216 H1200 M0 1462 H1200" fill="none" stroke="#A3B3FF" stroke-width="1.2" opacity="0.30" data-palette="principale"/>
@@ -15,7 +15,7 @@
     <!-- Nella metà inferiore il numero nativo può allinearsi alle stesse partenze di colonna. -->
     <rect x="0" y="984" width="180" height="710" opacity="0.24"/>
     <rect x="204" y="984" width="588" height="464" opacity="0.16"/>
-    <!-- Un solo modulo introduce il colore secondario senza alterare la prevalenza indigo. -->
+    <!-- Un solo modulo introduce il colore secondario senza alterare la tinta dominante. -->
     <rect x="1020" y="1230" width="180" height="218" fill="#BBF451" opacity="0.28" data-palette="secondario"/>
     <rect x="204" y="1476" width="996" height="218" opacity="0.22"/>
   </g>

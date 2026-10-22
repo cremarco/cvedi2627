@@ -13,3 +13,22 @@ gestalt-kapllani2020:
     title: Proceedings of the Association for Information Science and Technology
     volume: 57
     issue: 1
+
+# Typst 0.15.1 duplica booktitle convertendo questa voce BibLaTeX incollection.
+# Chapter con parent Book conserva il riferimento e stampa il titolo una volta.
+# Origdate della precedente voce: 1923; l'originale è citato separatamente
+# con la chiave gestalt-wertheimer1923, senza attribuirlo al volume di Ellis.
+gestalt-wertheimer1938:
+  type: chapter
+  author: "Wertheimer, Max"
+  title: Laws of Organization in Perceptual Forms
+  date: 1938
+  page-range: 71-88
+  serial-number:
+    doi: "10.1037/11496-005"
+  url: https://psychclassics.yorku.ca/Wertheimer/Forms/forms.htm
+  parent:
+    type: book
+    title: A Source Book of Gestalt Psychology
+    editor: "Ellis, Willis D."
+    publisher: "Kegan Paul, Trench, Trubner & Company"

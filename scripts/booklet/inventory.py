@@ -3,9 +3,59 @@
 from __future__ import annotations
 
 from collections import defaultdict
+from math import isfinite
 import re
 
 from .common import PT_MM, require
+
+
+def check_document_spreads(spreads: list[dict]) -> None:
+    """Verifica le coppie documentarie rispetto alle figure native effettive."""
+    by_id = defaultdict(list)
+    for spread in spreads:
+        ident = spread["id"]
+        require(isinstance(ident, str) and bool(ident), "ID della doppia documentaria non valido.")
+        by_id[ident].append(spread)
+        require(type(spread["pagine"]) is int and spread["pagine"] == 2,
+                f"La doppia documentaria deve dichiarare due fogli: {ident}")
+        require(type(spread["lato"]) is int and spread["lato"] in (0, 1),
+                f"Lato della doppia documentaria non valido: {ident}")
+        require(spread["pagina"] == spread["dichiarata"],
+                f"Metadati della doppia sulla pagina errata: {ident}")
+        for key in ("x", "y", "larghezza", "altezza", "scala"):
+            value = spread[key]
+            require(type(value) in (int, float) and isfinite(value),
+                    f"Geometria della doppia non numerica o finita: {ident}")
+        require(all(spread[key] > 0 for key in ("larghezza", "altezza", "scala")),
+                f"Dimensioni o scala della doppia non positive: {ident}")
+        dimensions = spread["dimensioni_fonte"]
+        require(isinstance(dimensions, list) and len(dimensions) == 2
+                and all(type(value) in (int, float) and isfinite(value) and value > 0
+                        for value in dimensions),
+                f"Dimensioni della fonte della doppia non valide: {ident}")
+        require(abs(spread["larghezza"] / dimensions[0] - spread["scala"]) < 0.00001
+                and abs(dimensions[1] * spread["scala"] - spread["altezza"]) < 0.01,
+                f"Rapporto della fonte alterato sulla doppia: {ident}")
+    for ident, pair in by_id.items():
+        require(sorted(side["lato"] for side in pair) == [0, 1],
+                f"Lati della doppia documentaria assenti, duplicati o non validi: {ident}")
+        left, right = sorted(pair, key=lambda side: side["lato"])
+        require(type(left["pagina"]) is int and type(right["pagina"]) is int
+                and left["pagina"] % 2 == 0 and right["pagina"] == left["pagina"] + 1,
+                f"Doppia documentaria senza pagine pari/dispari affiancate: {ident}")
+        require(all(abs(left[key] - right[key]) < 0.01
+                    for key in ("y", "larghezza", "altezza", "scala"))
+                and left["dimensioni_fonte"] == right["dimensioni_fonte"],
+                f"Scala, quota o fonte diversa sui due fogli della doppia: {ident}")
+        require(abs(left["x"] - right["x"] - 170 * PT_MM) < 0.1,
+                f"Documento disallineato sul dorso: {ident}")
+        require(len(left["figura"]) == 1,
+                f"Figura documentaria assente o duplicata: {ident}")
+        actual = left["figura"][0]
+        require(actual["pagina"] == left["pagina"]
+                and abs(actual["x"] - left["x"]) < 0.1
+                and abs(actual["y"] - left["y"]) < 0.1,
+                f"Metadati diversi dalla figura documentaria nativa: {ident}")
 
 
 def check_inventory(data: dict, expected: dict | None = None) -> dict:
@@ -66,7 +116,9 @@ def check_inventory(data: dict, expected: dict | None = None) -> dict:
                     f"Scala o quota diversa sui due fogli: {ident}")
             require(abs(left["x"] - right["x"] - 170 * PT_MM) < 0.1,
                     f"Immagine disallineata sul dorso: {ident}")
+    check_document_spreads(data.get("documenti_doppi", []))
     return {"capitoli": data["capitoli"], "bibliografie": data["bibliografie"],
             "bibliografie_native": data["bibliografie_native"],
             "figure": len(data["figure"]), "note": len(notes), "ripetute": data["ripetute"],
-            "sagome": len(data["sagome"])}
+            "sagome": len(data["sagome"]),
+            "documenti_doppi": len(data.get("documenti_doppi", []))}

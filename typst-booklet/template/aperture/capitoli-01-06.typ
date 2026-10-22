@@ -4,6 +4,7 @@
 // Qui cambiano soltanto posizione, corpo e peso di titolo e numero.
 // Nessun titolo è riscritto: la stessa funzione accetta stringhe o contenuto.
 #import "../geometria.typ": inchiostro
+#import "titolo.typ": testo-titolo
 
 // Un solo heading visibile conserva titolo, indice e segnalibro nativi.
 // La regola locale modifica la presentazione di it.body, non il suo contenuto.
@@ -13,7 +14,7 @@
     #set text(font: "Sora", size: corpo, weight: peso, fill: inchiostro,
       hyphenate: false, top-edge: 0.9em, bottom-edge: 0.1em)
     #set par(justify: false, leading: -5pt, spacing: 0pt)
-    #it.body
+    #testo-titolo(it.body)
   ]
   heading(level: 1, titolo)
 }

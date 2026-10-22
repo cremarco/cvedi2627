@@ -9,6 +9,8 @@ Per scrivere o impaginare i prossimi capitoli del booklet, applicare anche la se
 ## Vincoli
 
 - Conservare contenuti e attribuzioni salvo richiesta esplicita di revisione.
+- Nel booklet mantenere la sitografia nei footnote della pagina pertinente e la bibliografia in una sezione intitolata «Bibliografia» alla fine di ogni capitolo. Conservare questa separazione anche durante ricerche, verifiche delle fonti e uso di skill bibliografiche.
+- Nel booklet omettere i rimandi ai materiali di preparazione editoriale: vecchi booklet, presentazioni, approfondimenti e slide. La regola vale per testo, caption e diritti, note, citazioni visibili o invisibili e bibliografie; conservare provenienza e originali nei manifest locali, insieme alle attribuzioni delle opere.
 - Per le slide riutilizzare Slidev, daisyUI, componenti e token esistenti; nel booklet usare i componenti Figma del sistema editoriale. Mantenere la separazione fra contenuti, dati e presentazione.
 - Per le slide: titoli ordinari nella posizione comune e corpo centrato; copertine metro originali e palette del set.
 - Nel deck Slidev non aggiungere note del relatore né riattivare presenter, terza lezione o voci future dell’indice senza richiesta.
@@ -16,6 +18,12 @@ Per scrivere o impaginare i prossimi capitoli del booklet, applicare anche la se
 - Conservare originali, fonti e licenze degli asset attivi. Non modificare i file CSS compilati manualmente.
 
 ## Verifica e documentazione
+
+Non aprire PDF del booklet nella preview di Codex, compresi i PDF dei singoli capitoli: possono provocare il crash dell'app. Il divieto riguarda anche `open_in_codex`, allegati e direttive `codex-file-citation`, anteprime automatiche e copie rinominate del volume. Non allegare né creare collegamenti cliccabili al PDF nelle risposte: indicarne il percorso come codice, per la consultazione in un lettore esterno. Compilare e verificare i PDF soltanto tramite CLI.
+
+Per l'ispezione visiva usare `pnpm preview:booklet --pages 8-9` sul PDF già compilato, eventualmente con `--target NOME`: richiede pagine fisiche esplicite, ne accetta al massimo otto e produce soltanto PNG a lato lungo massimo 1600 px in `typst-booklet/build/anteprime-ispezione/`. Aprire o mostrare soltanto i PNG richiesti, senza caricare in blocco la cartella. Se il PDF non è aggiornato, compilare prima il target pertinente. L'anteprima non ricompila né sostituisce i controlli editoriali.
+
+Il hook di progetto `.codex/hooks.json` blocca preventivamente `open_in_codex` sui PDF del booklet e, in questo progetto, sui PDF da almeno 20 MiB. Non disabilitarlo né aggirarlo cambiando nome, percorso o strumento. La sua attivazione iniziale richiede la revisione in `/hooks` nel Codex CLI; prima della fiducia valgono comunque tutte le regole qui sopra. Le schede PDF già salvate non passano dal hook: chiuderle prima di riaprire la chat, usando se necessario il ripristino ad app chiusa già predisposto.
 
 Per nuove slide eseguire `pnpm check:source` e `pnpm build`; scegliere i controlli browser pertinenti fra `check`, `check:layout`, `check:motion`, `check:progress` e `check:typography`. Verificare i nuovi layout su desktop, viewport stretto e stampa, con un’anteprima isolata dalle schede dell’utente.
 

@@ -5,6 +5,7 @@
 #import "geometria.typ": rispetto-sagoma, minimo-testo
 #import "editoriale.typ": didascalia as stampa-didascalia, contenuto-didascalia
 #import "profili.typ": fasce-profilo, fascia-a-quota
+#import "note.typ": richiamo-sagomato, voci-sagoma, richiamo-nota as richiamo-ordinario
 
 // file è un path() costruito nel file chiamante; profilo è json(path(...)).
 // id è anche l'etichetta nativa della figura: id: "fig-duomo" abilita @fig-duomo.
@@ -33,6 +34,7 @@
   let resto = state("booklet-sagoma-" + id, none)
 
   block(breakable: false, spacing: 0pt)[
+  #show footnote: nota => richiamo-sagomato(nota, id)
   #layout(spazio => {
     let spazio-testo = if lato == center { 2 * (minimo-testo + rispetto) } else { minimo-testo + rispetto }
     let larghezza = calc.min(width, spazio.width - spazio-testo)
@@ -50,7 +52,7 @@
     let figura = box(width: spazio.width, height: altezza-immagine)[
       #figure(box(width: spazio.width, height: altezza-immagine)[
         #place(top + lato, visuale)
-      ], kind: image, caption: none)#label(id)
+      ], kind: image, caption: none, placement: none)#label(id)
     ]
     let altezza-figura = measure(figura).height
 
@@ -112,13 +114,19 @@
         opt.overflow.state(resto)
       })
   })
+  // Il contenitore nativo tiene le voci sulla pagina della regione. L'overlay
+  // resta fuori da reflow: le misure del testo vedono soltanto i richiami.
+  #place(top + left, box(width: 0pt, height: 0pt, voci-sagoma(id)))
   ]
 
   // Riprende il normale flusso del documento, comprese le note al piede.
   // Nessuna riga è precomposta; nessuna quantità di pagine è stabilita qui.
   context {
     let seguito = resto.get()
-    if seguito != none { seguito.styled }
+    if seguito != none {
+      show footnote: richiamo-ordinario
+      seguito.styled
+    }
   }
   // Il capitolo passa il solo paragrafo associato alla sagoma: il resto resta
   // fuori dalla funzione. Numero e link derivano dalla figura nativa già creata.

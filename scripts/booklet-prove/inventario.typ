@@ -6,9 +6,13 @@
 
 #let inventario() = {
   let voci = query(<booklet-note-entry>)
-  let ancore-figure = query(<booklet-figure-anchor>)
+  let ancore-figure = query(<booklet-figure-anchor>) + query(<booklet-figure-block-anchor>)
   (
     capitoli: query(heading.where(level: 1)).len(),
+    aperture: query(<booklet-apertura>).map(m => (
+      numero: m.value.numero, titolo: m.value.titolo, serie: m.value.serie,
+      pagina: m.location().page(),
+    )),
     // Il titolo editoriale è unico anche quando APA usa più intervalli nativi.
     bibliografie: query(<booklet-bibliografia>).len(),
     bibliografie_native: query(bibliography).len(),
@@ -43,6 +47,14 @@
       id: m.value.id, lato: m.value.lato, pagine: m.value.pagine, pagina: m.location().page(),
       x: m.value.x / 1pt, y: m.value.y / 1pt,
       larghezza: m.value.larghezza / 1pt, altezza: m.value.altezza / 1pt,
+      figura: query(label(m.value.id)).map(f => posizione(f.location())),
+    )),
+    documenti_doppi: query(<booklet-documento-doppio>).map(m => (
+      id: m.value.id, lato: m.value.lato, pagine: m.value.pagine,
+      pagina: m.location().page(), dichiarata: m.value.pagina,
+      x: m.value.x / 1pt, y: m.value.y / 1pt,
+      larghezza: m.value.larghezza / 1pt, altezza: m.value.altezza / 1pt,
+      scala: m.value.scala, dimensioni_fonte: m.value.dimensioni-fonte,
       figura: query(label(m.value.id)).map(f => posizione(f.location())),
     )),
     paragrafi: query(<booklet-prova-paragrafo>).map(m => m.value),

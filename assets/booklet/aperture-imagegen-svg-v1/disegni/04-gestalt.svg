@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1055" height="1491" viewBox="0 0 1055 1491" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Gestalt: profili e figura centrale</title>
+  <desc id="descrizione">Due profili contrapposti definiscono uno spazio bianco centrale che si legge anche come vaso; un grande arco scuro e un punto fucsia spostano l'equilibrio. Ricostruzione vettoriale del concept ImageGen, senza titolo e numero editoriali.</desc>
+  <g id="fondo-giallo" data-palette="principale" fill="#FFDF20">
+    <rect width="1055" height="1491"/>
+  </g>
+  <g id="arco-superiore" data-palette="inchiostro" fill="#2E3138">
+    <path id="curva-concava" d="M803 0 H1055 V254 C932 273 811 317 758 405 C728.092391 454.657917 740 502 795 528 C658 520 583 437 586 340 C589.402633 229.981525 690 65 803 0 Z"/>
+  </g>
+  <!-- Il campo bianco è una controforma unica: il suo lato destro disegna
+       il profilo giallo, senza contorni o sovrapposizioni raster. -->
+  <g id="controforma-vaso" data-palette="carta" fill="#FFFFFF">
+    <path id="spazio-centrale" d="M222 528 H789 C821 528 856 527 858 539 C859.5 548 819 560 777 579 C707.329412 610.517647 653 666 655 736 C656.228572 779.000012 670 799 676 819 C683.183486 842.944954 660 884 626 928 C610.341527 948.263907 601 960 611 972 C619.196721 981.836066 635 986 647 993 C667.891192 1005.186528 641 1027 645 1044 C647.5 1054.625 654 1056.4 659 1058.4 C667 1061.6 667 1067.5 660 1072.3 C650.000067 1079.157097 655 1094.765 670 1105 C687.186384 1116.726843 681 1134 676 1153 C666.181347 1190.310881 682 1211 711 1233 C742.232453 1256.693585 778 1274 820 1300 C904.447541 1352.277049 965 1407 987 1491 H0 V528 Z"/>
+  </g>
+  <g id="profilo-sinistro" data-palette="inchiostro" fill="#2E3138">
+    <path id="viso-sinistro" d="M0 449 L222 528 C318.520522 562.347393 401 593 432 671 C450.679487 718 451 768 429 811 C414.129018 840.066009 435.182556 868.868154 462 906 L488 942 C503.926978 964.052738 490 978 461 988 C439.180659 995.523911 446 1009 452 1025 C459.5 1045 449 1054 441 1058 C433 1062 435 1067 440 1071 C451 1079.8 447 1094 433 1104 C413.253378 1118.104730 421 1136 425 1154 C432.555556 1188 413 1218 375 1237 C247.8 1300.6 122 1352 62 1491 H0 Z"/>
+  </g>
+  <g id="accento-ottico" data-palette="secondario" fill="#ED6AFF">
+    <circle id="punto-fucsia" cx="740" cy="797" r="32.5"/>
+  </g>
+</svg>

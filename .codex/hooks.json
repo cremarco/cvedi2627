@@ -1,0 +1,18 @@
+{
+  "description": "CVeDI: evita il crash della preview PDF del booklet; usa PNG di pagine selezionate.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "open_in_codex$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/usr/bin/python3 \"$(git rev-parse --show-toplevel)/scripts/booklet-preview-guard.py\"",
+            "timeout": 5,
+            "statusMessage": "Verifica anteprima booklet"
+          }
+        ]
+      }
+    ]
+  }
+}

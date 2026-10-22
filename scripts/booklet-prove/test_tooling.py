@@ -21,6 +21,7 @@ sys.path.insert(0, str(SCRIPTS))
 
 from booklet import cli
 from booklet import assets
+from booklet import common
 from booklet.common import ROOT, digest, local_path
 from booklet.inventory import check_inventory
 from booklet.pdf import note_links
@@ -31,6 +32,7 @@ def empty_inventory() -> dict:
         "capitoli": 0, "bibliografie": 0, "bibliografie_native": 0,
         "parti_bibliografiche_attese": 0, "note": [], "voci": 0,
         "regioni": [], "figure": [], "sagome": [], "ripetute": 0,
+        "documenti_doppi": [],
     }
 
 
@@ -40,6 +42,85 @@ def shape(side: int, page: int, x: float, *, pages: int = 2) -> dict:
         "x": x, "y": 80.0, "larghezza": 300.0, "altezza": 200.0,
         "figura": [{"pagina": 2, "x": 400.0, "y": 80.0}],
     }
+
+
+def document_spread(side: int, page: int) -> dict:
+    width = 340 * 72 / 25.4
+    return {
+        "id": "documento-prova", "lato": side, "pagine": 2,
+        "pagina": page, "dichiarata": page, "x": -side * 170 * 72 / 25.4,
+        "y": 240.0, "larghezza": width, "altezza": width * 300 / 964,
+        "scala": width / 964, "dimensioni_fonte": [964, 300],
+        "figura": [{"pagina": 2, "x": 0.0, "y": 240.0}],
+    }
+
+
+class DocumentSpreadTests(unittest.TestCase):
+    def data(self):
+        data = empty_inventory()
+        data["documenti_doppi"] = [document_spread(0, 2), document_spread(1, 3)]
+        return data
+
+    def test_facing_pages_share_one_native_figure_and_geometry(self):
+        self.assertEqual(check_inventory(self.data())["documenti_doppi"], 2)
+
+    def test_missing_or_duplicate_halves_are_rejected(self):
+        left, right = self.data()["documenti_doppi"]
+        for pair in ([left], [right], [left, left], [left, right, right]):
+            with self.subTest(sides=[s["lato"] for s in pair]):
+                data = empty_inventory()
+                data["documenti_doppi"] = pair
+                with self.assertRaisesRegex(ValueError, "Lati della doppia"):
+                    check_inventory(data)
+
+    def test_wrong_parity_or_nonadjacent_pages_are_rejected(self):
+        for left_page, right_page in ((3, 4), (2, 5)):
+            with self.subTest(pages=(left_page, right_page)):
+                data = self.data()
+                for side, page in zip(data["documenti_doppi"], (left_page, right_page)):
+                    side["pagina"] = side["dichiarata"] = page
+                with self.assertRaisesRegex(ValueError, "pari/dispari affiancate"):
+                    check_inventory(data)
+
+    def test_different_vertical_position_or_shift_at_binding_is_rejected(self):
+        for change in ({"y": 241.0}, {"x": 0.0}):
+            with self.subTest(change=change):
+                data = self.data()
+                data["documenti_doppi"][1].update(change)
+                with self.assertRaises(ValueError):
+                    check_inventory(data)
+
+    def test_stretching_or_changing_source_dimensions_is_rejected(self):
+        for change in ({"scala": 0.5}, {"altezza": 300.0}, {"dimensioni_fonte": [963, 300]}):
+            with self.subTest(change=change):
+                data = self.data()
+                data["documenti_doppi"][1].update(change)
+                with self.assertRaisesRegex(ValueError, "Rapporto della fonte"):
+                    check_inventory(data)
+
+    def test_native_figure_must_match_declared_position_and_be_unique(self):
+        actual = document_spread(0, 2)["figura"][0]
+        for figures in ([], [actual, actual], [{**actual, "pagina": 3}], [{**actual, "y": 241.0}]):
+            with self.subTest(figures=figures):
+                data = self.data()
+                data["documenti_doppi"][0]["figura"] = figures
+                with self.assertRaisesRegex(ValueError, "Figura documentaria|figura documentaria nativa"):
+                    check_inventory(data)
+
+    def test_metadata_cannot_move_to_another_page(self):
+        data = self.data()
+        data["documenti_doppi"][1]["dichiarata"] = 2
+        with self.assertRaisesRegex(ValueError, "pagina errata"):
+            check_inventory(data)
+
+    def test_invalid_declarations_fail_before_geometry_checks(self):
+        for change in ({"pagine": 1}, {"lato": True}, {"scala": float("nan")},
+                       {"dimensioni_fonte": [True, 300]}, {"larghezza": 0.0}):
+            with self.subTest(change=change):
+                data = self.data()
+                data["documenti_doppi"][0].update(change)
+                with self.assertRaises(ValueError):
+                    check_inventory(data)
 
 
 class InventoryTests(unittest.TestCase):
@@ -119,6 +200,9 @@ class NotesTests(unittest.TestCase):
 
 
 class CommandTests(unittest.TestCase):
+    def test_grid_preview_is_a_public_target(self):
+        self.assertEqual(cli.arguments(["build", "--target", "griglia"]).target, "griglia")
+
     def test_partial_build_preserves_full_build_report(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -150,6 +234,28 @@ class CommandTests(unittest.TestCase):
 
 
 class AssetTests(unittest.TestCase):
+    def test_plan_length_is_driven_by_editorial_data(self):
+        # Un nuovo capitolo richiede dati e fonti, senza cambiare una costante
+        # nel runner. Gli altri contratti restano gli stessi a ogni lunghezza.
+        palette = json.loads((ROOT / "assets/images/aperture/manifest.json").read_text())["palette"]
+        for count in (1, 6, 7, 8):
+            chapters = [{"numero": i, "codice": f"{i:02}", "titolo": f"Capitolo {i}",
+                         "apertura_originale": i, "file": f"capitoli/{i}.typ",
+                         "fonti": f"bibliografia/{i}.yml", "stato": "in-revisione"}
+                        for i in range(1, count + 1)]
+            themes = [{"numero": i, "percorso": f"apertura-{i}.svg", "colore": "#A3B3FF"}
+                      for i in range(1, count + 1)]
+            with (self.subTest(chapters=count),
+                  patch.object(assets, "read_json", side_effect=[{"versione": 1, "capitoli": chapters},
+                                                                {"capitoli": themes, "palette": palette}]),
+                  patch.object(assets, "local_path", side_effect=lambda value, *args: Path(value))):
+                self.assertEqual(assets.check_plan(), chapters)
+
+    def test_empty_plan_is_rejected(self):
+        with patch.object(assets, "read_json", return_value={"versione": 1, "capitoli": []}):
+            with self.assertRaisesRegex(ValueError, "almeno un capitolo"):
+                assets.check_plan()
+
     def test_module_paths_remain_relative_to_repository(self):
         self.assertEqual(ROOT, SCRIPTS.parent)
         self.assertEqual(local_path("typst-booklet/piano.json"), ROOT / "typst-booklet/piano.json")
@@ -195,6 +301,126 @@ class AssetTests(unittest.TestCase):
                         output.write_text(json.dumps({**valid, **change}))
                         with self.assertRaisesRegex(ValueError, "non valid"):
                             assets.check_profiles()
+
+
+class OpeningSeriesTests(unittest.TestCase):
+    """La serie attiva deve restare nativa e riconciliata con il piano unico."""
+
+    def setUp(self):
+        temporary = tempfile.TemporaryDirectory()
+        self.addCleanup(temporary.cleanup)
+        self.root = Path(temporary.name).resolve()
+        self.base = self.root / "assets/booklet/aperture-attive"
+        source = ROOT / "assets/booklet/aperture-imagegen-svg-v1"
+        self.manifest = json.loads((source / "manifest.json").read_text())
+        self.compositions = json.loads((source / "composizioni.json").read_text())
+        self.manifest["capitoli"] = self.manifest["capitoli"][:1]
+        self.compositions["capitoli"] = self.compositions["capitoli"][:1]
+        chapter = json.loads((ROOT / "typst-booklet/piano.json").read_text())["capitoli"][0]
+        self.plan = {"aperture": "assets/booklet/aperture-attive", "capitoli": [chapter]}
+        self.legacy = json.loads((ROOT / "assets/images/aperture/manifest.json").read_text())
+        for kind in ("disegno", "svg", "riferimento", "prompt"):
+            relative = self.manifest["capitoli"][0][kind]
+            target = self.base / relative
+            target.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(source / relative, target)
+        font_manifest = "assets/fonts/editoriali/manifest.json"
+        target = self.root / font_manifest
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(ROOT / font_manifest, target)
+        for key in ("font", "licenza_font"):
+            relative = self.manifest[key]
+            shutil.copyfile(ROOT / relative, self.root / relative)
+        (self.root / "typst-booklet").mkdir()
+        (self.root / "typst-booklet/piano.json").write_text(json.dumps(self.plan))
+        for module, key, value in ((assets, "ROOT", self.root), (common, "ROOT", self.root),
+                                   (assets, "BOOKLET", self.root / "typst-booklet")):
+            replacement = patch.object(module, key, value)
+            replacement.start()
+            self.addCleanup(replacement.stop)
+        paths = patch.object(assets, "local_path", side_effect=lambda value, base=None:
+                             common.local_path(value, self.root if base is None else base))
+        paths.start()
+        self.addCleanup(paths.stop)
+
+    def check(self):
+        (self.base / "manifest.json").write_text(json.dumps(self.manifest))
+        (self.base / "composizioni.json").write_text(json.dumps(self.compositions))
+        assets.check_opening_series(self.plan, self.plan["capitoli"], self.legacy["palette"],
+                                    self.legacy["capitoli"])
+
+    def replace_asset(self, kind, old, new):
+        entry = self.manifest["capitoli"][0]
+        path = self.base / entry[kind]
+        original = path.read_text()
+        self.assertIn(old, original)
+        path.write_text(original.replace(old, new, 1))
+        entry["sha256_" + kind] = digest(path)
+
+    def test_native_series_and_separate_text_are_accepted(self):
+        self.check()
+
+    def test_duplicate_or_missing_chapters_are_rejected(self):
+        for key in ("manifest", "compositions"):
+            data = getattr(self, key)
+            original = deepcopy(data["capitoli"])
+            for entries in ([], original * 2):
+                with self.subTest(source=key, entries=len(entries)):
+                    data["capitoli"] = entries
+                    with self.assertRaisesRegex(ValueError, "diversi dal piano o duplicati"):
+                        self.check()
+            data["capitoli"] = original
+
+    def test_provenance_hash_cannot_be_silently_changed(self):
+        entry = self.manifest["capitoli"][0]
+        path = self.base / entry["prompt"]
+        path.write_text(path.read_text() + "\nModifica non registrata.\n")
+        with self.assertRaisesRegex(ValueError, "Hash non coerente"):
+            self.check()
+
+    def test_raster_or_text_in_background_is_rejected_even_with_updated_hash(self):
+        entry = self.manifest["capitoli"][0]
+        path = self.base / entry["disegno"]
+        original = path.read_text()
+        for element in ('<image href="originale.png"/>', '<text>01</text>'):
+            with self.subTest(element=element):
+                path.write_text(original.replace("</svg>", element + "</svg>"))
+                entry["sha256_disegno"] = digest(path)
+                with self.assertRaisesRegex(ValueError, "soltanto forme SVG native"):
+                    self.check()
+
+    def test_nonfinite_or_boolean_text_coordinates_are_rejected(self):
+        title = self.compositions["capitoli"][0]["titolo"]
+        for value in (float("nan"), float("inf"), True, -1, 1055):
+            with self.subTest(x=value):
+                title["x"] = value
+                with self.assertRaisesRegex(ValueError, "Quote titolo non valide"):
+                    self.check()
+
+    def test_font_must_match_the_licensed_editorial_font(self):
+        self.compositions["font"] = "assets/fonts/altro.ttf"
+        with self.assertRaisesRegex(ValueError, "font editoriale autorizzato"):
+            self.check()
+
+    def test_valid_coordinates_must_still_match_the_approved_svg(self):
+        self.compositions["capitoli"][0]["titolo"]["x"] += 10
+        with self.assertRaisesRegex(ValueError, "Quote SVG diverse dalle composizioni"):
+            self.check()
+
+    def test_svg_text_must_match_the_canonical_title(self):
+        self.replace_asset("svg", ">Storia del<", ">Storia del?<")
+        with self.assertRaisesRegex(ValueError, "Testi SVG diversi dal piano"):
+            self.check()
+
+    def test_portable_and_active_geometry_cannot_diverge(self):
+        self.replace_asset("disegno", "M438 535", "M437 535")
+        with self.assertRaisesRegex(ValueError, "Geometria dell'esecutivo diversa"):
+            self.check()
+
+    def test_background_must_keep_the_chapter_color(self):
+        self.replace_asset("disegno", 'fill="#FFA2A2"', 'fill="#FFB86A"')
+        with self.assertRaisesRegex(ValueError, "Campitura principale diversa"):
+            self.check()
 
 
 @unittest.skipUnless(shutil.which("typst"), "Serve Typst per le prove pure dei profili.")

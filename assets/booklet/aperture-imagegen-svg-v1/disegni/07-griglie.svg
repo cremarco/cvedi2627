@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1055" height="1491" viewBox="0 0 1055 1491" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Griglie e layout: moduli e intervalli</title>
+  <desc id="descrizione">Campi smeraldo, rettangoli scuri e quarti di cerchio si allineano su una struttura modulare con intervalli bianchi. Il titolo e il numero sono composti separatamente.</desc>
+  <!-- Ricostruzione geometrica del concept v2-07-griglie.png, senza il testo.
+       La tela mantiene la scala del raster; archi ellittici nativi conservano
+       estremi, raggi e tangenti regolari. Gli intervalli mantengono le quote originali. -->
+  <g id="campo-capitolo" data-palette="principale" fill="#5EE9B5">
+    <rect id="fondo-smeraldo" width="1055" height="1491"/>
+  </g>
+  <g id="campi-modulari" data-palette="inchiostro" fill="#2E3138">
+    <rect id="modulo-superiore-destro" x="457" y="20" width="570" height="364"/>
+    <path id="quarto-cerchio-sinistro" d="M28 770 A379 428 0 0 1 407 1198 H28 Z"/>
+    <rect id="modulo-verticale-centrale" x="418" y="944" width="181" height="509"/>
+    <rect id="modulo-destro-superiore" x="792" y="770" width="235" height="162"/>
+  </g>
+  <g id="campi-secondari" data-palette="secondario" fill="#00BC7D">
+    <rect id="campo-destro-del-titolo" x="721" y="399" width="306" height="357"/>
+    <rect id="campo-destro-inferiore" x="792" y="944" width="235" height="509"/>
+  </g>
+  <g id="intervalli-e-controforme" data-palette="carta" fill="#FFFFFF">
+    <path id="quarto-cerchio-superiore" d="M688 20 A339 364 0 0 1 1027 384 A339 364 0 0 1 688 20 Z"/>
+    <rect id="intervallo-superiore-verticale" x="441" y="0" width="16" height="384"/>
+    <rect id="intervallo-superiore-orizzontale" x="0" y="384" width="1055" height="15"/>
+    <rect id="intervallo-del-titolo-verticale" x="706" y="399" width="15" height="357"/>
+    <rect id="intervallo-mediano-orizzontale" x="0" y="756" width="1055" height="14"/>
+    <rect id="modulo-bianco-sinistro" x="28" y="1198" width="379" height="255"/>
+    <rect id="intervallo-inferiore-sinistro" x="407" y="770" width="11" height="721"/>
+    <rect id="intervallo-del-quarto-blu" x="418" y="932" width="181" height="12"/>
+    <rect id="modulo-bianco-centrale" x="626" y="770" width="154" height="683"/>
+    <rect id="intervallo-inferiore-destro" x="780" y="770" width="12" height="721"/>
+    <rect id="intervallo-destro-orizzontale" x="792" y="932" width="263" height="12"/>
+    <path id="quarto-cerchio-inferiore" d="M1027 1114 A235 339 0 0 0 792 1453 H1027 Z"/>
+  </g>
+  <g id="accento-blu" data-palette="secondario" fill="#51A2FF">
+    <path id="quarto-cerchio-blu" d="M418 770 A181 162 0 0 1 599 932 H418 Z"/>
+  </g>
+</svg>

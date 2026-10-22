@@ -1,53 +1,18 @@
-// Ingresso del booklet: il piano contiene soltanto le sei lezioni richieste.
-// I testi restano in file separati; i capitoli in preparazione non hanno pagine vuote.
+// Ingresso del volume: i testi completi restano nei singoli file di capitoli/.
 #import "template/stile.typ": booklet, capitolo
-#import "template/piano.typ": piano, dati-capitolo, stato-volume, avviso-importazione
+#import "template/piano.typ": piano, dati-capitolo
+#import "capitoli/00-frontespizio-indice.typ" as preliminari
 #show: booklet
 
-#page(columns: 1, footer: none)[
-  #set par(justify: false, leading: 0pt)
-  #set text(hyphenate: false)
-  #text(font: "Sora", size: 10pt, weight: 600)[CVeDI · A.A. 2026/27]
-  #v(45pt)
-  #text(font: "Sora", size: 35pt, weight: 700)[
-    Comunicazione visiva e design delle interfacce
-  ]
-  #v(24pt)
-  #text(size: 15pt)[Booklet · Sei lezioni]
-  #v(1fr)
-  #text(size: 10pt)[Marco Cremaschi · Elia Guarnieri · Andrea Primo Pierotti]
-  #v(10pt)
-  #text(size: 9pt, stato-volume())
-]
+#preliminari.testo
 
-#include "apparati/crediti.typ"
+#counter(page).update(1)
+#set page(numbering: "1")
 
-#page(columns: 1)[
-  #set par(justify: false)
-  #text(font: "Sora", size: 30pt, weight: 700)[I sei capitoli]
-  #v(20pt)
-  // Il piano espone l’ordine completo; l’indice nativo collega il testo già importato.
-  #for voce in piano [
-    #block(above: 0pt, below: 10pt)[
-      #text(size: 15pt, weight: 600)[#voce.codice]
-      #h(8pt)#text(size: 14pt)[#voce.titolo]
-    ]
-  ]
-  #v(12pt)
-  #text(size: 14pt, weight: 600)[Indice dei contenuti presenti]
-  #v(10pt)
-  #show outline.entry: set text(size: 11pt, weight: 400)
-  #show outline.entry.where(level: 1): set text(size: 13pt, weight: 600)
-  #outline(title: none, depth: 2)
-  #v(1fr)
-  #text(size: 9pt, avviso-importazione())
-]
-
-// Il tema grafico approvato è indipendente dal nuovo numero del capitolo.
+// Importare il testo evita di ripetere lo stile dell’ingresso autonomo.
 #for voce in piano {
   if voce.file != none {
-    capitolo(..dati-capitolo(voce))[
-      #include voce.file
-    ]
+    import voce.file as sorgente
+    capitolo(..dati-capitolo(voce), sorgente.testo)
   }
 }

@@ -1,0 +1,1786 @@
+{
+  "comment": 397,
+  "date": "2026-10-20",
+  "status": "LOCAL_SOURCE_ASSETS_READY_FIGMA_APPLICATION_TRACKED_SEPARATELY",
+  "fonts": {
+    "dm-sans": {
+      "family": "DM Sans 9pt",
+      "version": "Version 4.004;gftools[0.9.30]",
+      "postscriptName": "DMSans-9ptRegular",
+      "copyright": "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)",
+      "fontPath": "assets/booklet/tipografia-comment397/originals/DMSans[opsz,wght].ttf",
+      "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+      "copiedByteIdenticalFrom": "assets/booklet/tipografia-comment394/originals/DMSans[opsz,wght].ttf",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/dmsans",
+      "license": "SIL Open Font License1.1",
+      "licensePath": "assets/booklet/tipografia-comment397/originals/DMSans-OFL.txt",
+      "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+      "metadataPath": "assets/booklet/tipografia-comment397/originals/DMSans-METADATA.pb",
+      "metadataSha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee",
+      "axes": [
+        {
+          "tag": "opsz",
+          "min": 9.0,
+          "default": 9.0,
+          "max": 40.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 400.0,
+          "max": 1000.0
+        }
+      ]
+    },
+    "roboto-serif": {
+      "family": "Roboto Serif 20pt",
+      "version": "Version 1.008",
+      "postscriptName": "RobotoSerif-20ptRegular",
+      "copyright": "Copyright 2020 The Roboto Serif Project Authors (https://github.com/googlefonts/RobotoSerif)",
+      "fontPath": "assets/booklet/tipografia-comment397/originals/RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+      "sha256": "351ced75f3851806aa6d846b669361521eb1925cfc530396df9c1a1b77061ddb",
+      "copiedByteIdenticalFrom": "assets/booklet/tipografia-comment394/originals/RobotoSerif[GRAD,opsz,wdth,wght].ttf",
+      "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/robotoserif",
+      "license": "SIL Open Font License1.1",
+      "licensePath": "assets/booklet/tipografia-comment397/originals/RobotoSerif-OFL.txt",
+      "licenseSha256": "34dbfbb43e0b4fdeef445d77b9ac0b988e5ad7a9bbf16808c97b66c66d51f553",
+      "metadataPath": "assets/booklet/tipografia-comment397/originals/RobotoSerif-METADATA.pb",
+      "metadataSha256": "5f5893410acc682cefc0eef3c6be921fde33c6e78a052fc763ca949ddb102eee",
+      "axes": [
+        {
+          "tag": "wdth",
+          "min": 50.0,
+          "default": 100.0,
+          "max": 150.0
+        },
+        {
+          "tag": "opsz",
+          "min": 8.0,
+          "default": 20.0,
+          "max": 144.0
+        },
+        {
+          "tag": "wght",
+          "min": 100.0,
+          "default": 400.0,
+          "max": 900.0
+        },
+        {
+          "tag": "GRAD",
+          "min": -50.0,
+          "default": 0.0,
+          "max": 100.0
+        }
+      ]
+    }
+  },
+  "model": {
+    "background": "#FFFFFF",
+    "ink": "#2E3138",
+    "labels": "DM SansMedium10pt/wght500/opsz14, native editorial caption and rights external",
+    "accent": "#AFC7E8; no decorative accent added"
+  },
+  "shaping": {
+    "engine": "HarfBuzz",
+    "pythonBinding": "0.56.3",
+    "fontTools": "4.67.0",
+    "helper": "assets/booklet/tipografia-comment394/generate_figures.py",
+    "helperSha256": "dc07951b97d2fffe855fd9ac0d1aabc0ad1ede702414da68a36e6018b8fd4b6e",
+    "customFeatureControl": "FeatureFont.shape explicitly sets kern0/1 and liga1. The394helper is imported read-only; no394output or manifest is regenerated.",
+    "direction": "ltr",
+    "script": "Latn",
+    "language": "it"
+  },
+  "figures": [
+    {
+      "file": "01-kerning-off.svg",
+      "width": 187.09,
+      "height": 86,
+      "bytes": 14593,
+      "sha256": "d6810daabe25671ab7159df09342b7f567f42ba5914f1cee671a836a10e7e593",
+      "parameters": {
+        "font": "roboto-serif",
+        "weight": 400,
+        "widthAxis": 100,
+        "grade": 0,
+        "features": {
+          "kern": false,
+          "liga": true
+        },
+        "word": {
+          "text": "AVATAR",
+          "nominalSize": 32,
+          "opticalSize": 32,
+          "firstGlyphOrigin": [
+            0,
+            44
+          ]
+        },
+        "pairs": {
+          "texts": [
+            "AV",
+            "VA",
+            "To"
+          ],
+          "nominalSize": 20,
+          "opticalSize": 20,
+          "firstGlyphOrigins": [
+            [
+              0,
+              78
+            ],
+            [
+              62,
+              78
+            ],
+            [
+              124,
+              78
+            ]
+          ]
+        },
+        "horizontalScaling": false
+      },
+      "textRuns": [
+        {
+          "role": "label",
+          "text": "Senza kerning",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 0,
+          "baseline": 10,
+          "advance": 64.78,
+          "inkBounds": [
+            0.44862676329910756,
+            2.7499755859374995,
+            64.45510402821004,
+            12.32
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "S",
+            "e",
+            "n",
+            "z",
+            "a",
+            "space",
+            "k",
+            "e",
+            "r",
+            "n",
+            "i",
+            "n",
+            "g"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              10.0
+            ],
+            [
+              5.87,
+              10.0
+            ],
+            [
+              11.66,
+              10.0
+            ],
+            [
+              17.53,
+              10.0
+            ],
+            [
+              22.21,
+              10.0
+            ],
+            [
+              27.78,
+              10.0
+            ],
+            [
+              30.34,
+              10.0
+            ],
+            [
+              35.230000000000004,
+              10.0
+            ],
+            [
+              41.02,
+              10.0
+            ],
+            [
+              44.84,
+              10.0
+            ],
+            [
+              50.71,
+              10.0
+            ],
+            [
+              53.21,
+              10.0
+            ],
+            [
+              59.08,
+              10.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "AVATAR",
+          "font": "roboto-serif",
+          "nominalSize": 32,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 32,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 0,
+          "baseline": 44,
+          "advance": 132.64000000000001,
+          "inkBounds": [
+            0.24670703125000001,
+            21.28,
+            131.94733984375,
+            44.0
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": false,
+            "liga": true
+          },
+          "glyphNames": [
+            "A",
+            "V",
+            "A",
+            "T",
+            "A",
+            "R"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              44.0
+            ],
+            [
+              22.304000000000002,
+              44.0
+            ],
+            [
+              44.608000000000004,
+              44.0
+            ],
+            [
+              66.912,
+              44.0
+            ],
+            [
+              88.19200000000001,
+              44.0
+            ],
+            [
+              110.49600000000001,
+              44.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "AV",
+          "font": "roboto-serif",
+          "nominalSize": 20,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 20,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 0,
+          "baseline": 78,
+          "advance": 27.96,
+          "inkBounds": [
+            0.16,
+            63.8,
+            27.8,
+            78.0
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": false,
+            "liga": true
+          },
+          "glyphNames": [
+            "A",
+            "V"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              78.0
+            ],
+            [
+              13.98,
+              78.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "VA",
+          "font": "roboto-serif",
+          "nominalSize": 20,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 20,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 62,
+          "baseline": 78,
+          "advance": 27.96,
+          "inkBounds": [
+            62.16,
+            63.8,
+            89.80000000000001,
+            78.0
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": false,
+            "liga": true
+          },
+          "glyphNames": [
+            "V",
+            "A"
+          ],
+          "glyphOriginsPt": [
+            [
+              62.0,
+              78.0
+            ],
+            [
+              75.98,
+              78.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "To",
+          "font": "roboto-serif",
+          "nominalSize": 20,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 20,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 124,
+          "baseline": 78,
+          "advance": 25.66,
+          "inkBounds": [
+            124.8,
+            63.8,
+            148.74,
+            78.2
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": false,
+            "liga": true
+          },
+          "glyphNames": [
+            "T",
+            "o"
+          ],
+          "glyphOriginsPt": [
+            [
+              124.0,
+              78.0
+            ],
+            [
+              137.38,
+              78.0
+            ]
+          ]
+        }
+      ],
+      "allInkInsideViewport": true,
+      "clipPaths": false
+    },
+    {
+      "file": "02-kerning-on.svg",
+      "width": 187.09,
+      "height": 86,
+      "bytes": 12803,
+      "sha256": "7ebdaedde5975ee940df91bae9fa093add7b203a314e9f5b92e1af881505b7da",
+      "parameters": {
+        "font": "roboto-serif",
+        "weight": 400,
+        "widthAxis": 100,
+        "grade": 0,
+        "features": {
+          "kern": true,
+          "liga": true
+        },
+        "word": {
+          "text": "AVATAR",
+          "nominalSize": 32,
+          "opticalSize": 32,
+          "firstGlyphOrigin": [
+            0,
+            44
+          ]
+        },
+        "pairs": {
+          "texts": [
+            "AV",
+            "VA",
+            "To"
+          ],
+          "nominalSize": 20,
+          "opticalSize": 20,
+          "firstGlyphOrigins": [
+            [
+              0,
+              78
+            ],
+            [
+              62,
+              78
+            ],
+            [
+              124,
+              78
+            ]
+          ]
+        },
+        "horizontalScaling": false
+      },
+      "textRuns": [
+        {
+          "role": "label",
+          "text": "Con kerning",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 0,
+          "baseline": 10,
+          "advance": 56.1,
+          "inkBounds": [
+            0.46902639977633953,
+            2.7499755859374995,
+            55.775104028210045,
+            12.32
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "C",
+            "o",
+            "n",
+            "space",
+            "k",
+            "e",
+            "r",
+            "n",
+            "i",
+            "n",
+            "g"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              10.0
+            ],
+            [
+              7.24,
+              10.0
+            ],
+            [
+              13.23,
+              10.0
+            ],
+            [
+              19.1,
+              10.0
+            ],
+            [
+              21.66,
+              10.0
+            ],
+            [
+              26.55,
+              10.0
+            ],
+            [
+              32.34,
+              10.0
+            ],
+            [
+              36.160000000000004,
+              10.0
+            ],
+            [
+              42.03,
+              10.0
+            ],
+            [
+              44.53,
+              10.0
+            ],
+            [
+              50.4,
+              10.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "AVATAR",
+          "font": "roboto-serif",
+          "nominalSize": 32,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 32,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 0,
+          "baseline": 44,
+          "advance": 126.464,
+          "inkBounds": [
+            0.24670703125000001,
+            21.28,
+            125.77133984375001,
+            44.0
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "A",
+            "V",
+            "A",
+            "T",
+            "A",
+            "R"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              44.0
+            ],
+            [
+              20.384,
+              44.0
+            ],
+            [
+              40.736000000000004,
+              44.0
+            ],
+            [
+              61.888,
+              44.0
+            ],
+            [
+              82.016,
+              44.0
+            ],
+            [
+              104.32000000000001,
+              44.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "AV",
+          "font": "roboto-serif",
+          "nominalSize": 20,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 20,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 0,
+          "baseline": 78,
+          "advance": 26.76,
+          "inkBounds": [
+            0.16,
+            63.8,
+            26.6,
+            78.0
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "A",
+            "V"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              78.0
+            ],
+            [
+              12.780000000000001,
+              78.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "VA",
+          "font": "roboto-serif",
+          "nominalSize": 20,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 20,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 62,
+          "baseline": 78,
+          "advance": 26.76,
+          "inkBounds": [
+            62.16,
+            63.8,
+            88.6,
+            78.0
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "V",
+            "A"
+          ],
+          "glyphOriginsPt": [
+            [
+              62.0,
+              78.0
+            ],
+            [
+              74.78,
+              78.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "To",
+          "font": "roboto-serif",
+          "nominalSize": 20,
+          "variationLocation": {
+            "wdth": 100.0,
+            "opsz": 20,
+            "wght": 400,
+            "GRAD": 0.0
+          },
+          "x": 124,
+          "baseline": 78,
+          "advance": 24.36,
+          "inkBounds": [
+            124.8,
+            63.8,
+            147.44,
+            78.2
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "T",
+            "o"
+          ],
+          "glyphOriginsPt": [
+            [
+              124.0,
+              78.0
+            ],
+            [
+              136.08,
+              78.0
+            ]
+          ]
+        }
+      ],
+      "allInkInsideViewport": true,
+      "clipPaths": false
+    },
+    {
+      "file": "03-tracking-wordspace.svg",
+      "width": 187.09,
+      "height": 200,
+      "bytes": 56486,
+      "sha256": "19125d0eb9ce6a0e7862269c29bb143ff96558761991003df35d152e72277da7",
+      "parameters": {
+        "font": "dm-sans",
+        "weight": 400,
+        "features": {
+          "kern": true,
+          "liga": true
+        },
+        "tracking": {
+          "text": "tracking",
+          "nominalSize": 26,
+          "opticalSize": 26,
+          "addedPt": [
+            -0.8,
+            0,
+            1.6
+          ],
+          "labelBaselines": [
+            10,
+            50,
+            90
+          ],
+          "sampleBaselines": [
+            34,
+            74,
+            114
+          ],
+          "boundaryDefinition": "Added after every successive shaped glyph except the final glyph;0 retains original font advances including kerning."
+        },
+        "wordSpacing": {
+          "text": "il nome",
+          "nominalSize": 12,
+          "opticalSize": 12,
+          "addedPt": [
+            0,
+            3
+          ],
+          "trackingAddedPt": 0,
+          "labelTop": 140,
+          "labelBaseline": 150,
+          "sampleBaselines": [
+            168,
+            184
+          ],
+          "valueLabelX": 130,
+          "definition": "Added only to the existing single word space;0 retains the original font space advance."
+        },
+        "horizontalScaling": false,
+        "rankingClaim": false,
+        "cssQualification": "These are explicit illustrative font-layout increments, not a claim of universally correct CSS spacing values."
+      },
+      "textRuns": [
+        {
+          "role": "label",
+          "text": "Tracking −0,8 pt",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 0,
+          "baseline": 10,
+          "advance": 75.43,
+          "inkBounds": [
+            0.28718741051852703,
+            2.7499755859374995,
+            75.00504109166562,
+            12.32
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "T",
+            "r",
+            "a",
+            "c",
+            "k",
+            "i",
+            "n",
+            "g",
+            "space",
+            "minus",
+            "zero",
+            "comma",
+            "eight",
+            "space",
+            "p",
+            "t"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              10.0
+            ],
+            [
+              5.18,
+              10.0
+            ],
+            [
+              9.0,
+              10.0
+            ],
+            [
+              14.57,
+              10.0
+            ],
+            [
+              20.400000000000002,
+              10.0
+            ],
+            [
+              25.67,
+              10.0
+            ],
+            [
+              28.17,
+              10.0
+            ],
+            [
+              34.04,
+              10.0
+            ],
+            [
+              39.74,
+              10.0
+            ],
+            [
+              42.300000000000004,
+              10.0
+            ],
+            [
+              47.89,
+              10.0
+            ],
+            [
+              54.49,
+              10.0
+            ],
+            [
+              56.51,
+              10.0
+            ],
+            [
+              62.67,
+              10.0
+            ],
+            [
+              65.23,
+              10.0
+            ],
+            [
+              71.38,
+              10.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "tracking",
+          "font": "dm-sans",
+          "nominalSize": 26,
+          "variationLocation": {
+            "opsz": 26,
+            "wght": 400
+          },
+          "x": 0,
+          "baseline": 34,
+          "advance": 90.21,
+          "inkBounds": [
+            0.767,
+            15.306000000000001,
+            89.53399999999999,
+            39.967
+          ],
+          "tracking": -0.8,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "t",
+            "r",
+            "a",
+            "c",
+            "k",
+            "i",
+            "n",
+            "g"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              34.0
+            ],
+            [
+              9.054,
+              34.0
+            ],
+            [
+              17.536,
+              34.0
+            ],
+            [
+              30.698000000000004,
+              34.0
+            ],
+            [
+              44.562000000000005,
+              34.0
+            ],
+            [
+              56.658,
+              34.0
+            ],
+            [
+              61.94199999999999,
+              34.0
+            ],
+            [
+              75.85799999999999,
+              34.0
+            ]
+          ]
+        },
+        {
+          "role": "label",
+          "text": "Tracking 0 pt",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 0,
+          "baseline": 50,
+          "advance": 61.96,
+          "inkBounds": [
+            0.28718741051852703,
+            42.7499755859375,
+            61.53504109166563,
+            52.32
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "T",
+            "r",
+            "a",
+            "c",
+            "k",
+            "i",
+            "n",
+            "g",
+            "space",
+            "zero",
+            "space",
+            "p",
+            "t"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              50.0
+            ],
+            [
+              5.18,
+              50.0
+            ],
+            [
+              9.0,
+              50.0
+            ],
+            [
+              14.57,
+              50.0
+            ],
+            [
+              20.400000000000002,
+              50.0
+            ],
+            [
+              25.67,
+              50.0
+            ],
+            [
+              28.17,
+              50.0
+            ],
+            [
+              34.04,
+              50.0
+            ],
+            [
+              39.74,
+              50.0
+            ],
+            [
+              42.300000000000004,
+              50.0
+            ],
+            [
+              49.2,
+              50.0
+            ],
+            [
+              51.76,
+              50.0
+            ],
+            [
+              57.910000000000004,
+              50.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "tracking",
+          "font": "dm-sans",
+          "nominalSize": 26,
+          "variationLocation": {
+            "opsz": 26,
+            "wght": 400
+          },
+          "x": 0,
+          "baseline": 74,
+          "advance": 95.81,
+          "inkBounds": [
+            0.767,
+            55.306,
+            95.134,
+            79.967
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "t",
+            "r",
+            "a",
+            "c",
+            "k",
+            "i",
+            "n",
+            "g"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              74.0
+            ],
+            [
+              9.854,
+              74.0
+            ],
+            [
+              19.136,
+              74.0
+            ],
+            [
+              33.098,
+              74.0
+            ],
+            [
+              47.762,
+              74.0
+            ],
+            [
+              60.657999999999994,
+              74.0
+            ],
+            [
+              66.74199999999999,
+              74.0
+            ],
+            [
+              81.458,
+              74.0
+            ]
+          ]
+        },
+        {
+          "role": "label",
+          "text": "Tracking +1,6 pt",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 0,
+          "baseline": 90,
+          "advance": 72.25,
+          "inkBounds": [
+            0.28718741051852703,
+            82.7499755859375,
+            71.82504109166563,
+            92.32
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "T",
+            "r",
+            "a",
+            "c",
+            "k",
+            "i",
+            "n",
+            "g",
+            "space",
+            "plus",
+            "one",
+            "comma",
+            "six",
+            "space",
+            "p",
+            "t"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              90.0
+            ],
+            [
+              5.18,
+              90.0
+            ],
+            [
+              9.0,
+              90.0
+            ],
+            [
+              14.57,
+              90.0
+            ],
+            [
+              20.400000000000002,
+              90.0
+            ],
+            [
+              25.67,
+              90.0
+            ],
+            [
+              28.17,
+              90.0
+            ],
+            [
+              34.04,
+              90.0
+            ],
+            [
+              39.74,
+              90.0
+            ],
+            [
+              42.300000000000004,
+              90.0
+            ],
+            [
+              47.89,
+              90.0
+            ],
+            [
+              51.17,
+              90.0
+            ],
+            [
+              53.19,
+              90.0
+            ],
+            [
+              59.49,
+              90.0
+            ],
+            [
+              62.050000000000004,
+              90.0
+            ],
+            [
+              68.2,
+              90.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "tracking",
+          "font": "dm-sans",
+          "nominalSize": 26,
+          "variationLocation": {
+            "opsz": 26,
+            "wght": 400
+          },
+          "x": 0,
+          "baseline": 114,
+          "advance": 107.00999999999999,
+          "inkBounds": [
+            0.767,
+            95.306,
+            106.33399999999999,
+            119.967
+          ],
+          "tracking": 1.6,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "t",
+            "r",
+            "a",
+            "c",
+            "k",
+            "i",
+            "n",
+            "g"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              114.0
+            ],
+            [
+              11.453999999999999,
+              114.0
+            ],
+            [
+              22.336,
+              114.0
+            ],
+            [
+              37.898,
+              114.0
+            ],
+            [
+              54.162,
+              114.0
+            ],
+            [
+              68.658,
+              114.0
+            ],
+            [
+              76.342,
+              114.0
+            ],
+            [
+              92.65799999999999,
+              114.0
+            ]
+          ]
+        },
+        {
+          "role": "label",
+          "text": "Spazi fra parole",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 0,
+          "baseline": 150,
+          "advance": 72.71000000000001,
+          "inkBounds": [
+            0.44862676329910756,
+            142.7499755859375,
+            72.27521714136005,
+            152.2
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "S",
+            "p",
+            "a",
+            "z",
+            "i",
+            "space",
+            "f",
+            "r",
+            "a",
+            "space",
+            "p",
+            "a",
+            "r",
+            "o",
+            "l",
+            "e"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              150.0
+            ],
+            [
+              5.87,
+              150.0
+            ],
+            [
+              12.22,
+              150.0
+            ],
+            [
+              17.79,
+              150.0
+            ],
+            [
+              22.47,
+              150.0
+            ],
+            [
+              24.97,
+              150.0
+            ],
+            [
+              27.53,
+              150.0
+            ],
+            [
+              31.03,
+              150.0
+            ],
+            [
+              34.85,
+              150.0
+            ],
+            [
+              40.42,
+              150.0
+            ],
+            [
+              42.980000000000004,
+              150.0
+            ],
+            [
+              49.33,
+              150.0
+            ],
+            [
+              54.9,
+              150.0
+            ],
+            [
+              58.56,
+              150.0
+            ],
+            [
+              64.55,
+              150.0
+            ],
+            [
+              66.92,
+              150.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "il nome",
+          "font": "dm-sans",
+          "nominalSize": 12,
+          "variationLocation": {
+            "opsz": 12,
+            "wght": 400
+          },
+          "x": 0,
+          "baseline": 168,
+          "advance": 40.248,
+          "inkBounds": [
+            0.7506005859375,
+            159.22798828125,
+            39.728396484375004,
+            168.144
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "i",
+            "l",
+            "space",
+            "n",
+            "o",
+            "m",
+            "e"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              168.0
+            ],
+            [
+              2.88,
+              168.0
+            ],
+            [
+              5.5680000000000005,
+              168.0
+            ],
+            [
+              8.772,
+              168.0
+            ],
+            [
+              15.672,
+              168.0
+            ],
+            [
+              22.812,
+              168.0
+            ],
+            [
+              33.444,
+              168.0
+            ]
+          ]
+        },
+        {
+          "role": "label",
+          "text": "0 pt",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 130,
+          "baseline": 168,
+          "advance": 19.66,
+          "inkBounds": [
+            130.46902639977634,
+            160.88,
+            149.23504109166564,
+            170.2
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "zero",
+            "space",
+            "p",
+            "t"
+          ],
+          "glyphOriginsPt": [
+            [
+              130.0,
+              168.0
+            ],
+            [
+              136.9,
+              168.0
+            ],
+            [
+              139.46,
+              168.0
+            ],
+            [
+              145.61,
+              168.0
+            ]
+          ]
+        },
+        {
+          "role": "sample",
+          "text": "il nome",
+          "font": "dm-sans",
+          "nominalSize": 12,
+          "variationLocation": {
+            "opsz": 12,
+            "wght": 400
+          },
+          "x": 0,
+          "baseline": 184,
+          "advance": 43.248,
+          "inkBounds": [
+            0.7506005859375,
+            175.22798828125,
+            42.728396484375004,
+            184.144
+          ],
+          "tracking": 0,
+          "wordSpacing": 3,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "i",
+            "l",
+            "space",
+            "n",
+            "o",
+            "m",
+            "e"
+          ],
+          "glyphOriginsPt": [
+            [
+              0.0,
+              184.0
+            ],
+            [
+              2.88,
+              184.0
+            ],
+            [
+              5.5680000000000005,
+              184.0
+            ],
+            [
+              11.772,
+              184.0
+            ],
+            [
+              18.672,
+              184.0
+            ],
+            [
+              25.812,
+              184.0
+            ],
+            [
+              36.444,
+              184.0
+            ]
+          ]
+        },
+        {
+          "role": "label",
+          "text": "+3 pt",
+          "font": "dm-sans",
+          "nominalSize": 10,
+          "variationLocation": {
+            "opsz": 14,
+            "wght": 500
+          },
+          "x": 130,
+          "baseline": 184,
+          "advance": 24.29,
+          "inkBounds": [
+            130.45770103894174,
+            176.88,
+            153.86504109166563,
+            186.2
+          ],
+          "tracking": 0,
+          "wordSpacing": 0,
+          "geometricShearDegrees": 0,
+          "features": {
+            "kern": true,
+            "liga": true
+          },
+          "glyphNames": [
+            "plus",
+            "three",
+            "space",
+            "p",
+            "t"
+          ],
+          "glyphOriginsPt": [
+            [
+              130.0,
+              184.0
+            ],
+            [
+              135.59,
+              184.0
+            ],
+            [
+              141.53,
+              184.0
+            ],
+            [
+              144.09,
+              184.0
+            ],
+            [
+              150.24,
+              184.0
+            ]
+          ]
+        }
+      ],
+      "allInkInsideViewport": true,
+      "clipPaths": false
+    }
+  ],
+  "kerningAudit": [
+    {
+      "text": "AVATAR",
+      "nominalSize": 32,
+      "opticalSize": 32,
+      "glyphNames": [
+        "A",
+        "V",
+        "A",
+        "T",
+        "A",
+        "R"
+      ],
+      "sameContours": true,
+      "offAdvance": 132.64000000000001,
+      "onAdvance": 126.464,
+      "advanceDeltaOnMinusOff": -6.176000000000016,
+      "glyphOriginXDeltaOnMinusOff": [
+        0.0,
+        -1.92,
+        -3.872,
+        -5.024,
+        -6.176,
+        -6.176
+      ]
+    },
+    {
+      "text": "AV",
+      "nominalSize": 20,
+      "opticalSize": 20,
+      "glyphNames": [
+        "A",
+        "V"
+      ],
+      "sameContours": true,
+      "offAdvance": 27.96,
+      "onAdvance": 26.76,
+      "advanceDeltaOnMinusOff": -1.1999999999999993,
+      "glyphOriginXDeltaOnMinusOff": [
+        0.0,
+        -1.2
+      ]
+    },
+    {
+      "text": "VA",
+      "nominalSize": 20,
+      "opticalSize": 20,
+      "glyphNames": [
+        "V",
+        "A"
+      ],
+      "sameContours": true,
+      "offAdvance": 27.96,
+      "onAdvance": 26.76,
+      "advanceDeltaOnMinusOff": -1.1999999999999993,
+      "glyphOriginXDeltaOnMinusOff": [
+        0.0,
+        -1.2
+      ]
+    },
+    {
+      "text": "To",
+      "nominalSize": 20,
+      "opticalSize": 20,
+      "glyphNames": [
+        "T",
+        "o"
+      ],
+      "sameContours": true,
+      "offAdvance": 25.66,
+      "onAdvance": 24.36,
+      "advanceDeltaOnMinusOff": -1.3000000000000007,
+      "glyphOriginXDeltaOnMinusOff": [
+        0.0,
+        -1.3
+      ]
+    }
+  ],
+  "historicalReferenceOnly": {
+    "pdf": "materiali/lezioni/2025-2026/07-tipografia-accessibilita.pdf",
+    "pages": [
+      104,
+      105
+    ],
+    "figures": [
+      "assets/booklet/tipografia-spaziatura-recupero/kerning.png",
+      "assets/booklet/tipografia-spaziatura-recupero/tracking.png"
+    ],
+    "provenance": "assets/booklet/tipografia-spaziatura-recupero/manifest.json",
+    "qualification": "The old PDF's figure font is unknown; these new SVGs are controlled recompositions with identified genuine fonts, not recovered copies or claims of the same font. No historical erroneous1/3emrule or conflation of tracking/word spacing is reused."
+  },
+  "limitations": [
+    "No Figma import, current-page fit, native caption/rights typography, PDF or print certification.",
+    "No universally correct kerning/tracking/CSS values or better-font ranking claimed."
+  ]
+}

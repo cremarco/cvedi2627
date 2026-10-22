@@ -1,0 +1,971 @@
+{
+  "capitolo": 10,
+  "pagine": [
+    {
+      "folio": 503,
+      "title": "La griglia",
+      "layout": "cover",
+      "body": []
+    },
+    {
+      "folio": 504,
+      "title": "Indice del capitolo",
+      "layout": "index",
+      "body": []
+    },
+    {
+      "folio": 505,
+      "title": "Dallo spazio\nalla struttura",
+      "body": [
+        "Un titolo, una fotografia e un testo occupano lo stesso foglio, ma non hanno lo stesso compito. Per comporli bisogna decidere dove inizia la lettura, quali elementi appartengono allo stesso gruppo e dove lasciare una pausa.",
+        "La griglia rende esplicite queste relazioni. Stabilisce riferimenti comuni ai quali agganciare contenuti diversi: margini, allineamenti, intervalli, colonne e quote orizzontali. Nella figura 3.359, gli stessi elementi passano da un accumulo senza riferimenti a una composizione leggibile. Il cambiamento riguarda i rapporti fra le parti, prima ancora della loro forma."
+      ],
+      "figure": "order",
+      "caption": "Gli stessi contenuti prima e dopo la scelta di allineamenti e intervalli comuni.",
+      "layout": "opener",
+      "section": "10.1",
+      "lead": "La griglia è un sistema di relazioni spaziali: aiuta a organizzare i contenuti e a rendere riconoscibile il loro ordine.",
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.359"
+    },
+    {
+      "folio": 506,
+      "title": "10.1.1. Rendere visibili le relazioni",
+      "body": [
+        "Osserviamo una pagina di appuntamenti. Il nome del servizio identifica l'oggetto, la data permette di riconoscere la prenotazione e il comando di modifica consente di agire. Se questi elementi cambiano posizione a ogni riga, il confronto richiede continue ricerche.",
+        "Nella figura 3.360, date e azioni ritornano sulle stesse verticali. Il lettore può confrontare più appuntamenti senza ricostruire ogni volta la struttura. Il bianco fra le righe separa record distinti; quello più breve fra etichetta e valore li tiene uniti.",
+        "Questo assetto non dimostra da solo una maggiore velocità di esecuzione. Formula una scelta verificabile: si può chiedere a una persona di individuare una data e osservare esitazioni, errori e percorso seguito. Una griglia diventa utile quando sostiene un compito riconoscibile."
+      ],
+      "figure": "appointments",
+      "caption": "Allineamenti ricorrenti in una lista di appuntamenti. Dati e servizio sono simulati.",
+      "layout": "split",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.360"
+    },
+    {
+      "folio": 507,
+      "title": "10.1.2. Griglia, layout e gerarchia",
+      "body": [
+        "La griglia descrive possibilità di collocazione; il layout è la disposizione concreta di una pagina. Una struttura a sei colonne può accogliere un'immagine larga tre colonne oppure una figura larga quattro. Non impone che ogni elemento occupi una singola cella.",
+        "La gerarchia stabilisce invece le priorità fra i contenuti. Dimensione, peso, posizione, contrasto e distanza contribuiscono a distinguere un titolo da una nota. Un allineamento perfetto non risolve una pagina in cui tutti i contenuti chiedono la stessa attenzione.",
+        "La figura 3.361 mostra tre occupazioni dello stesso reticolo: il campo colorato si estende su tre, due o quattro colonne. Titolo e righe schematiche mantengono i propri riferimenti. La griglia rende possibili queste variazioni; la gerarchia dipende da come vengono usate nel layout."
+      ],
+      "figure": "same-grid",
+      "caption": "Tre layout su una struttura comune di sei colonne; le linee rendono visibile il reticolo di costruzione.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.361"
+    },
+    {
+      "folio": 508,
+      "title": "10.1.3. Il bianco ha una misura",
+      "body": [
+        "Il margine distingue il contenuto dal bordo della pagina. L'intercolonna separa flussi di lettura vicini. Lo spazio dentro un controllo tiene il testo lontano dal suo limite. Sono distanze diverse, che rispondono a problemi diversi.",
+        "Una scala di spaziatura permette di ripetere rapporti coerenti. Nella figura 3.362, le distanze sono in rapporto 1:2:4: 8 dentro il gruppo, 16 fra gruppi, 32 fra sezioni. Sono unità convenzionali del diagramma; in un progetto vanno tradotte in misure esplicite. I valori sono una scelta dell'esempio, non una regola universale.",
+        "La verifica deve includere anche ciò che cambia: un titolo su due righe, un'etichetta tradotta, un messaggio di errore. Se il sistema accetta soltanto testi corti, il suo ordine è fragile. Si correggono le regole e lo spazio disponibile, senza ridurre automaticamente il corpo per conservare l'aspetto iniziale."
+      ],
+      "figure": "spacing",
+      "caption": "Tre distanze con funzioni distinte: 8 dentro il gruppo, 16 fra gruppi, 32 fra sezioni.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.362"
+    },
+    {
+      "folio": 509,
+      "title": "Una storia di\nsistemi e scelte",
+      "body": [
+        "Margini e colonne coordinano da tempo testo, annotazioni e immagini. La griglia moderna rende esplicite e condivisibili queste scelte, senza costituire un'invenzione riconducibile a una sola data o persona.",
+        "Seguono tre esempi: Musica Viva (1957), Unigrid (dal 1977) e il manuale di Josef Müller-Brockmann (1981). La figura 3.363 collega pagina, sistema e interfaccia: ambiti che si influenzano e continuano a coesistere."
+      ],
+      "figure": "history",
+      "caption": "Tre ambiti di progetto: pagina editoriale, sistema di pubblicazioni e interfaccia adattabile.",
+      "layout": "opener",
+      "section": "10.2",
+      "lead": "Dalla pagina ripetibile ai sistemi di pubblicazione, la griglia diventa un modo per prendere e condividere decisioni.",
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.363"
+    },
+    {
+      "folio": 510,
+      "title": "10.2.1. Un metodo esplicito",
+      "body": [
+        "In Grid systems in graphic design, pubblicato da Arthur Niggli nel 1981, Josef Müller-Brockmann presenta la griglia come strumento sistematico di organizzazione. Il metodo mette in rapporto formato, margini, colonne, suddivisioni orizzontali e caratteri.¹",
+        "La figura 3.364 confronta due scelte: distribuire oggetti isolati oppure costruire una famiglia di allineamenti che possa ospitare pagine diverse. È uno schema di lettura del metodo, non una riproduzione delle tavole del libro.",
+        "La ripetizione rende confrontabili le decisioni. Si può descrivere perché una figura occupa due colonne e perché una didascalia segue un'altra misura. Questo rende il progetto discutibile e modificabile, senza trasformare il reticolo in un vincolo da rispettare a ogni costo. La forma del contenuto può richiedere un'altra griglia o una deroga riconoscibile."
+      ],
+      "figure": "method",
+      "caption": "Da decisioni isolate a riferimenti condivisi: una struttura consente variazioni senza ricominciare ogni pagina.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "Müller-Brockmann, 1981: scheda dell’editore Niggli.",
+          "https://niggli.ch/products/rastersysteme-fur-die-visuelle-gestaltung"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.364"
+    },
+    {
+      "folio": 511,
+      "title": "10.2.2. Musica Viva, 1957",
+      "body": [
+        "Nel manifesto Musica Viva di Josef Müller-Brockmann, le informazioni del concerto occupano quattro campi verticali nella parte superiore. In basso, segni obliqui di lunghezza e spessore diversi introducono un ritmo distinto. La figura 3.365 conserva l'opera intera.¹",
+        "Si osservano gli inizi dei blocchi, le pause fra gruppi e il rapporto fra testo fitto e superficie libera. Queste relazioni sono leggibili nell'immagine; non equivalgono alla ricostruzione del reticolo originale dell'autore."
+      ],
+      "figure": "image:musica",
+      "caption": "Josef Müller-Brockmann, Musica Viva, 1957. La fascia superiore organizza il programma; il campo inferiore contrappone segni obliqui e vuoto.",
+      "layout": "plate",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "Scheda dell'opera, MoMA.",
+          "https://www.moma.org/collection/works/4885"
+        ]
+      ],
+      "rights": "Opera di Josef Müller-Brockmann. Immagine: MoMA, dono dell’artista. Riproduzione: Art Resource / Scala Archives.",
+      "figureNumber": "3.365"
+    },
+    {
+      "folio": 512,
+      "title": "10.2.3. Unigrid: un sistema editoriale",
+      "body": [
+        "Nel 1977 Vincent Gleason, responsabile delle pubblicazioni del National Park Service, coinvolge Massimo Vignelli nella definizione di Unigrid. Il sistema coordina formati, pieghe, tipografia e produzione delle brochure. Il primo esempio per un parco è quello di Clara Barton, del 1978.¹",
+        "I pannelli di base misurano 4 × 8¼ pollici. Formati e combinazioni possono cambiare, mantenendo una riconoscibilità comune. Nella figura 3.366 si osservano testata, colonne, cronologia e mappa della brochure originale."
+      ],
+      "figure": "image:unigrid",
+      "caption": "Clara Barton National Historic Site, 1978: prima brochure Unigrid per un parco, secondo la ricostruzione del National Park Service.",
+      "layout": "plate",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "National Park Service, storia di Unigrid.",
+          "https://www.nps.gov/subjects/hfc/a-brief-history-of-the-unigrid.htm"
+        ]
+      ],
+      "rights": "Immagine: National Park Service, Harpers Ferry Center. Licenza specifica della singola immagine non indicata nella fonte.",
+      "figureNumber": "3.366"
+    },
+    {
+      "folio": 513,
+      "title": "10.2.4. Coordinare senza uniformare",
+      "body": [
+        "Un sistema editoriale deve accogliere contenuti differenti: una mappa richiede un campo continuo, una cronologia dispone eventi in sequenza, un testo lungo richiede una misura leggibile. Unigrid consente composizioni diverse all'interno di regole comuni.",
+        "La figura 3.367 usa tre pannelli per mostrare questa logica. La testata torna alla stessa quota; i campi sottostanti cambiano disposizione. Le etichette indicano possibili destinazioni dei pannelli: sono schemi di ingombro, non mappe, cronologie o brochure reali del National Park Service.",
+        "La coerenza si riconosce nei riferimenti che ritornano: il bordo del titolo, un intervallo fra fasce, la posizione dei dati di servizio. Per valutare il sistema non basta sovrapporre due pagine: bisogna controllare che i contenuti diversi possano trovare spazio senza perdere il proprio significato."
+      ],
+      "figure": "panels",
+      "caption": "Tre pannelli schematici condividono una testata e distribuiscono diversamente i campi destinati ai contenuti.",
+      "layout": "modular",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.367"
+    },
+    {
+      "folio": 514,
+      "title": "10.2.5. Che cosa passa allo schermo",
+      "body": [
+        "Dal progetto editoriale arrivano principi ancora utili: allineamenti ricorrenti, misure di lettura, intervalli e gerarchie. Sullo schermo queste relazioni devono funzionare anche quando la finestra cambia larghezza o compare un contenuto imprevisto.",
+        "La figura 3.368 schematizza il passaggio da due colonne a una sequenza verticale: si riconoscono ancora testo e immagine. Nell'interfaccia reale occorre conservare tutti i contenuti e le azioni, mantenendo ogni comando vicino all'informazione sulla quale agisce.",
+        "La dimensione di una schermata non può essere assunta come formato definitivo. Per documentare il progetto occorre descrivere sia gli stati rappresentativi, sia il comportamento fra uno stato e l'altro. Una serie di immagini mostra alcuni risultati; le regole spiegano come ottenerli quando lo spazio disponibile è diverso."
+      ],
+      "figure": "paper-screen",
+      "caption": "Dalla coppia affiancata alla sequenza verticale: si preservano relazioni e ordine delle informazioni.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.368"
+    },
+    {
+      "folio": 515,
+      "title": "Anatomia e\ncostruzione",
+      "body": [
+        "Prima di scegliere quante colonne usare, occorre definire lo spazio disponibile e il contenuto che deve abitarlo. Nel libro entrano in gioco formato, margini e rilegatura; in un'interfaccia contano anche finestra, navigazione e aree riservate ai controlli.",
+        "La figura 3.369 separa il foglio dal campo utilizzabile. Il margine interno tiene conto del dorso; quello esterno lascia un distacco dal taglio. Il piede conserva uno spazio distinto per il folio."
+      ],
+      "figure": "margins",
+      "caption": "Formato, campo utile e margini speculari: il margine interno cambia lato fra verso e recto.",
+      "layout": "opener",
+      "section": "10.3",
+      "lead": "Una griglia si costruisce mettendo in relazione il contenitore, i contenuti e le distanze che li rendono leggibili.",
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.369"
+    },
+    {
+      "folio": 516,
+      "title": "10.3.1. Leggere il reticolo",
+      "body": [
+        "Le colonne suddividono la larghezza; le fasce orizzontali coordinano quote e altezze. Le loro intersezioni individuano moduli. Un modulo può contenere una parte di una figura oppure contribuire a un'area più ampia.",
+        "La figura 3.370 attraversa questa doppia pagina: il campo continua alla stessa quota e con la stessa scala. Il dorso resta una zona da considerare, soprattutto se vi cadono testo o dettagli essenziali."
+      ],
+      "figure": "spread:anatomy",
+      "caption": "Anatomia di una griglia modulare sulla doppia pagina: colonne, fasce, moduli, intercolonne e linea di flusso.",
+      "layout": "spread-left",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.370"
+    },
+    {
+      "folio": 517,
+      "title": "Colonne, fasce e aree",
+      "body": [
+        "L'intercolonna separa due colonne adiacenti. Una linea di flusso è un riferimento orizzontale sul quale possono iniziare blocchi differenti. L'area è uno spazio occupato da un contenuto, anche quando attraversa più moduli.",
+        "Nel confronto della figura 3.370, i campi chiari mostrano le suddivisioni; quelli più intensi mostrano gli ingombri. La griglia di costruzione e la disposizione effettiva diventano così distinguibili."
+      ],
+      "figure": "spread:anatomy",
+      "caption": "Continua la figura della pagina a fronte.",
+      "layout": "spread-right",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.370"
+    },
+    {
+      "folio": 518,
+      "title": "10.3.2. Calcolare e verificare",
+      "body": [
+        "Nella figura 3.371, se W è la larghezza totale, L e R i margini laterali, g l'intercolonna e n il numero di colonne, la larghezza di ogni colonna uguale è c = (W − L − R − (n − 1)g) / n.",
+        "Con W = 170 mm, L = 15 mm, R = 18 mm e g = 5 mm, due colonne si dividono 132 mm: c = 66 mm.",
+        "Un elemento che occupa k colonne contigue comprende anche le intercolonne interne: s = kc + (k − 1)g. Qui, su due colonne, misura 66 + 5 + 66 = 137 mm, l'intera gabbia.",
+        "La formula vale per colonne uguali. In una gabbia asimmetrica si sommano le diverse larghezze e gli intervalli compresi nell'area. Si prova poi il risultato con testi e immagini reali: l'esattezza aritmetica non garantisce una misura di lettura adatta."
+      ],
+      "figure": "formula",
+      "caption": "170 − 15 − 18 − 5 = 132 mm; 132 / 2 = 66 mm per colonna. Un elemento su due colonne comprende il vuoto centrale e misura 137 mm.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.371"
+    },
+    {
+      "folio": 519,
+      "title": "10.3.3. La griglia delle linee di base",
+      "body": [
+        "La linea di base è il riferimento sul quale si appoggia la maggior parte delle lettere; i tratti discendenti, come quelli di p e g, scendono sotto di essa. Una griglia di base ripete riferimenti orizzontali per coordinare le righe.",
+        "La stessa interlinea non basta ad allineare due colonne: serve anche una quota iniziale comune. Nella figura 3.372 le righe ritornano ogni 14 punti. Un titolo interrompe il testo; la ripresa torna su una delle linee della stessa serie, calcolando insieme titolo e distanze.",
+        "La griglia di base è distinta dalle fasce modulari. Note e didascalie possono usare ritmi propri; il sistema deve indicare quali elementi seguono il passo principale. Si controllano le linee di base effettive dei glifi, non soltanto il bordo dei rettangoli di testo."
+      ],
+      "figure": "baseline",
+      "caption": "Due colonne condividono quota iniziale e interlinea di 14 pt. Dopo il titolo, il testo riprende sulle stesse linee di base.",
+      "layout": "split",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.372"
+    },
+    {
+      "folio": 520,
+      "title": "10.3.4. Costruire con contenuti reali",
+      "body": [
+        "Un reticolo vuoto nasconde molti problemi. Una didascalia può essere più lunga del previsto; un'immagine verticale può lasciare un residuo difficile da usare; un nome proprio può non entrare nello spazio assegnato.",
+        "La figura 3.373 prova tre ingombri sullo stesso reticolo: un titolo su due righe, un'immagine verticale e un elenco. I testi sono leggibili e l'immagine ha un campo riconoscibile: si può controllare se rientrano nello spazio previsto. È un campione iniziale da estendere con i contenuti effettivi.",
+        "Conviene preparare un campione di casi ordinari e di casi limite prima di estendere il sistema. Se la soluzione richiede sempre correzioni locali, si rivede la griglia: numero di colonne, intervalli o regole di occupazione. Le eccezioni motivate restano possibili, ma non devono compensare un modello incapace di accogliere i contenuti ricorrenti."
+      ],
+      "figure": "stress",
+      "caption": "Un titolo su due righe, un'immagine verticale e un elenco: tre ingombri da verificare sullo stesso reticolo.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.373"
+    },
+    {
+      "folio": 521,
+      "title": "Tipologie e\npagina editoriale",
+      "body": [
+        "Le tipologie di griglia descrivono logiche di organizzazione. Una struttura a blocco concentra la lettura in un campo principale; una struttura a colonne consente flussi affiancati; una modulare aggiunge suddivisioni orizzontali; una gerarchica stabilisce aree di misura diversa secondo le priorità.",
+        "La figura 3.374 confronta queste quattro logiche attraverso campi di testo e immagine schematici. Le categorie possono combinarsi: una pagina modulare può avere un'area dominante e una gabbia a colonne può accogliere un testo continuo. Servono a descrivere le scelte, non a classificare ogni pagina in modo esclusivo."
+      ],
+      "figure": "types",
+      "caption": "Quattro logiche di organizzazione: blocco, colonne, moduli e aree gerarchiche.",
+      "layout": "opener",
+      "section": "10.4",
+      "lead": "La griglia si sceglie in funzione della lettura: continuità del testo, confronto, ritmo delle immagini e priorità.",
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.374"
+    },
+    {
+      "folio": 522,
+      "title": "10.4.1. Una colonna, una sequenza",
+      "body": [
+        "La griglia a blocco affida il discorso a un campo principale. È adatta a una lettura continua, quando testo e immagini possono seguire un ordine verticale riconoscibile. La misura della riga dipende da corpo, carattere, interlinea e distanza di lettura.",
+        "In questa pagina il testo usa una sola colonna più larga di quella ordinaria. La figura 3.375 distingue il campo di lettura dal margine disponibile per un'annotazione. Il margine non avvia un secondo discorso parallelo: il richiamo permette di raggiungere la nota dal punto pertinente.",
+        "Allargare una colonna non significa occupare automaticamente tutta la pagina. Si può mantenere una misura più breve e lasciare un campo libero per l'immagine o per una pausa. La verifica riguarda il ritorno da una riga alla successiva e la continuità dell'argomentazione, oltre alla quantità di testo che entra nel foglio."
+      ],
+      "figure": "manuscript",
+      "caption": "Un campo principale sostiene il testo continuo; la nota è subordinata al punto che la richiama.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.375"
+    },
+    {
+      "folio": 523,
+      "title": "10.4.2. Colonne per confrontare",
+      "body": [
+        "Una griglia a colonne permette di accostare informazioni e di assegnare larghezze diverse ai contenuti. Il testo può occupare una colonna, mentre un'immagine ne attraversa due. Una didascalia segue la misura della figura che spiega.",
+        "Nella figura 3.376, sei unità consentono rapporti 3+3, 2+4 e 1+5. L'ultima combinazione può essere utile per una nota breve, ma non per un lungo testo nella fascia più stretta. La divisibilità offre possibilità; non garantisce che tutte siano leggibili.",
+        "Le colonne non devono creare ambiguità nell'ordine. Se il lettore deve completare il testo a sinistra prima di passare a destra, titoli e raccordi devono confermare quel percorso. Quando i campi sono confronti autonomi, etichette esplicite permettono invece di leggere ogni esempio come un'unità."
+      ],
+      "figure": "column-ratios",
+      "caption": "Una base di sei unità permette accorpamenti differenti; la giustezza utile dipende dal contenuto.",
+      "layout": "split",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.376"
+    },
+    {
+      "folio": 524,
+      "title": "10.4.3. Gli stessi contenuti, due assetti",
+      "body": [
+        "Una pagina racconta una mostra immaginaria attraverso titolo, presentazione, programma e immagine. Nel primo assetto, due campi di pari larghezza accostano testo e immagine; il programma segue sotto. La prosa resta una sequenza unica.",
+        "La figura 3.377 continua sulla pagina destra. Il contenuto resta uguale: cambia la distribuzione dello spazio. Il confronto riguarda il layout, non due versioni abbreviate del testo."
+      ],
+      "figure": "spread:compare",
+      "caption": "Stesso contenuto e stessi ruoli in due composizioni: a sinistra una struttura simmetrica, a destra una struttura asimmetrica.",
+      "layout": "spread-left",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.377"
+    },
+    {
+      "folio": 525,
+      "title": "Dare spazio a una priorità",
+      "body": [
+        "Nel secondo assetto l'immagine è più larga e la colonna di lettura più stretta. Il programma occupa il campo sotto l'immagine, senza sovrapporsi a essa; il titolo collega i due campi.",
+        "La figura 3.377 permette di confrontare misura delle righe, peso dell'immagine e percorso di lettura. La soluzione asimmetrica non è automaticamente più dinamica o migliore: occorre verificare quale assetto sostiene meglio lo scopo della pagina e quanto materiale può accogliere."
+      ],
+      "figure": "spread:compare",
+      "caption": "Continua il confronto della pagina a fronte.",
+      "layout": "spread-right",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.377"
+    },
+    {
+      "folio": 526,
+      "title": "10.4.4. La griglia modulare",
+      "body": [
+        "Quando si aggiungono suddivisioni orizzontali, le intersezioni con le colonne formano moduli. Un catalogo può assegnare un campo ricorrente a immagine, nome e dati di ogni oggetto. Una figura più importante può occupare più moduli.",
+        "La figura 3.378 mostra una raccolta di sei schede. Quote comuni rendono confrontabili i dati; un elemento più esteso occupa due unità senza cambiare la posizione delle etichette. La modularità non impone che tutte le immagini abbiano lo stesso contenuto o lo stesso peso.",
+        "Il controllo riguarda anche gli spazi interni. Se le descrizioni crescono, si decide se l'altezza della riga segue l'elemento più lungo o se le schede possono avere altezze autonome. La scelta cambia gli allineamenti e l'ordine di scansione: deve essere intenzionale e provata con casi realistici."
+      ],
+      "figure": "modular",
+      "caption": "Una raccolta modulare usa campi ricorrenti e consente a un contenuto di occupare due unità.",
+      "layout": "modular",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.378"
+    },
+    {
+      "folio": 527,
+      "title": "10.4.5. Gerarchia e asimmetria",
+      "body": [
+        "Una griglia gerarchica attribuisce aree differenti a contenuti con priorità diverse. In una pagina di notizie, un articolo principale può dominare, mentre aggiornamenti brevi occupano campi secondari. Le relazioni si costruiscono a partire dal contenuto, senza richiedere celle tutte uguali.",
+        "Nella figura 3.379, la notizia principale occupa il campo più ampio e ha un titolo maggiore. Aggiornamento e servizio condividono una verticale laterale. L'asimmetria riguarda la distribuzione delle masse; la coerenza dipende ancora da allineamenti e distanze.",
+        "Prima di introdurre una nuova misura conviene chiedersi quale differenza esprima. Se due elementi hanno lo stesso ruolo, misure arbitrarie possono suggerire una priorità inesistente. Se i ruoli sono diversi, una variazione motivata aiuta a riconoscerli."
+      ],
+      "figure": "hierarchy",
+      "caption": "Un contenuto principale, un aggiornamento e un campo di servizio: aree diverse seguono priorità esplicite.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.379"
+    },
+    {
+      "folio": 528,
+      "title": "10.4.6. Progettare la doppia pagina",
+      "body": [
+        "Un libro aperto mostra due pagine insieme. Margini interni, posizione dei folio e rapporti fra immagini devono essere valutati anche in questa unità. Una figura sul dorso è una composizione unica, divisa dal limite fisico della rilegatura.",
+        "La figura 3.380 mette a confronto un dettaglio essenziale sul dorso e lo stesso dettaglio spostato in un campo leggibile. Le due metà mantengono scala e quota; il soggetto viene collocato in modo da non dipendere dalla parte meno visibile.",
+        "La parità dei folio conta: la pagina pari è a sinistra, quella dispari a destra. Dopo un inserimento si ricontrollano tutti gli accoppiamenti interessati. Due immagini vicine nel file di lavoro non formano una doppia pagina di stampa se la numerazione le colloca su lati incompatibili."
+      ],
+      "figure": "binding",
+      "caption": "Il dorso richiede una zona di attenzione: dettagli essenziali e testi devono conservare una posizione leggibile.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.380"
+    },
+    {
+      "folio": 529,
+      "title": "Dal foglio\nal viewport",
+      "body": [
+        "Il viewport è l'area nella quale il browser dispone la pagina. Per il layout conta la larghezza disponibile in pixel CSS, che può cambiare con finestra, orientamento e zoom della pagina.",
+        "La figura 3.381 mostra ogni esempio in due larghezze: una misura resta fissa, una varia in modo fluido, due campi si ricompongono in verticale. Il progetto responsivo può combinare fluidità e cambi di disposizione: non è una categoria separata dal layout fluido.¹"
+      ],
+      "figure": "responsive",
+      "caption": "Ogni esempio compare a due larghezze: misura fissa, misura fluida e campi che passano da affiancati a sovrapposti.",
+      "layout": "opener",
+      "section": "10.5",
+      "lead": "Sullo schermo la griglia descrive un comportamento: come si ridistribuiscono i contenuti quando lo spazio cambia.",
+      "notes": [
+        [
+          "1",
+          "Google, macro layout responsivi.",
+          "https://web.dev/learn/design/macro-layouts"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.381"
+    },
+    {
+      "folio": 530,
+      "title": "10.5.1. Fisso, fluido e ibrido",
+      "body": [
+        "In un layout fisso una misura resta costante. In uno fluido alcune misure seguono lo spazio disponibile. Il layout ibrido combina i due comportamenti: per esempio un menu di larghezza stabile accanto a un'area di lavoro flessibile.",
+        "Nella figura 3.382 il menu conserva la propria misura e il campo principale cambia larghezza. Quando lo spazio non basta, occorre un'altra disposizione della navigazione.",
+        "Si chiama spesso adattivo un layout che passa fra poche larghezze prefissate, restando fisso fra le soglie. Il responsive può unire fluidità e cambi di regola: va provato anche alle larghezze intermedie.¹",
+        "Minimi, massimi e ritorno a capo pongono limiti alla fluidità: evitano righe troppo lunghe e campi troppo stretti."
+      ],
+      "figure": "hybrid",
+      "caption": "Due larghezze dello stesso assetto ibrido: il pannello resta fisso, mentre il campo principale cambia misura.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "Google, layout adattivi e responsivi.",
+          "https://web.dev/learn/design/intro"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.382"
+    },
+    {
+      "folio": 531,
+      "title": "10.5.2. Scegliere i punti di cambiamento",
+      "body": [
+        "Un breakpoint è una soglia alla quale cambia una regola di layout. Si cerca dove il contenuto smette di funzionare, senza assumere che ogni categoria di dispositivo richieda una soglia propria.¹",
+        "Nella figura 3.383, due schede richiedono almeno 240 px CSS ciascuna, compresi bordi e spazi interni; l'intervallo è 24 e i margini laterali sono 24. Servono 552 px nel contenitore. Sotto questa larghezza le schede si impilano. La soglia coincide con quella del viewport soltanto se il contenitore ne occupa tutta la larghezza.",
+        "Il pixel CSS è un'unità logica e può corrispondere a più pixel fisici dello schermo.² Si provano larghezze appena sotto e sopra la soglia, testi lunghi e ingrandimento: 552 px risolve questo esempio, non ogni interfaccia.",
+        "Una media query sulla larghezza considera il viewport; una container query sulle dimensioni considera un contenitore antenato predisposto.³ La stessa scheda può così assumere assetti diversi in una barra laterale e nel campo principale della stessa finestra. Si documentano la soglia e il contenitore di riferimento."
+      ],
+      "figure": "breakpoint",
+      "caption": "240 + 240 + 24 + 24 + 24 = 552 px CSS nel contenitore. Sotto la soglia, le due schede passano a una per riga.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "Google, media query e adattamento.",
+          "https://web.dev/learn/design/media-queries"
+        ],
+        [
+          "2",
+          "W3C, unità CSS e pixel del dispositivo.",
+          "https://www.w3.org/TR/css-values-3/#absolute-lengths"
+        ],
+        [
+          "3",
+          "MDN, query sulle dimensioni dei contenitori.",
+          "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.383"
+    },
+    {
+      "folio": 532,
+      "title": "10.5.3. Golden Grid System",
+      "body": [
+        "Il Golden Grid System di Joni Korpi è un esempio storico di griglia fluida e ripiegabile. Il progetto parte da 18 colonne uguali: due servono come margini esterni e 16 restano disponibili per il layout. Queste possono essere raggruppate in 8 o 4 colonne.¹",
+        "La figura 3.384 rende visibile l'accorpamento. I gruppi diventano più larghi mentre diminuisce il loro numero. Il nome del sistema non implica che la suddivisione segua la sezione aurea.",
+        "Il repository originale è archiviato: è utile per comprendere una logica progettuale e leggere le scelte del codice, senza assumere che costituisca la soluzione necessaria per un nuovo prodotto."
+      ],
+      "figure": "ggs",
+      "caption": "Da 16 colonne utili a 8 e 4 mediante raggruppamento; le due colonne esterne hanno funzione di margine.",
+      "layout": "modular",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "Joni Korpi, repository originale; codice MIT.",
+          "https://github.com/jonikorpi/Golden-Grid-System"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.384"
+    },
+    {
+      "folio": 533,
+      "title": "10.5.4. IBM e la 2x Grid",
+      "body": [
+        "La 2x Grid di IBM usa una mini unità quadrata di 8 pixel e rapporti costruiti moltiplicando o dividendo per due. Il sistema descrive griglie fisse, fluide e ibride. Nella documentazione Carbon consultata, i breakpoint prevedono 4, 8 o 16 colonne.¹",
+        "La figura 3.385 mostra il principio di suddivisione, non tutte le specifiche del sistema. La misura di base coordina spazi e oggetti, mentre il numero di colonne può cambiare con la larghezza.",
+        "Questi valori appartengono a Carbon. Per un altro prodotto si valuta se sostengono i contenuti e i vincoli effettivi. Una scala condivisa riduce le decisioni ripetitive, ma va accompagnata da regole che descrivano occupazione delle colonne, spazi interni e comportamento dei componenti."
+      ],
+      "figure": "carbon",
+      "caption": "Mini unità di 8 px e campi suddivisi per due: schema del principio della 2x Grid di IBM, rappresentato in scala.",
+      "layout": "split",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "IBM Carbon, 2x Grid; versione consultata il 21 ottobre 2026.",
+          "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.385"
+    },
+    {
+      "folio": 534,
+      "title": "10.5.5. Dalla griglia ai componenti",
+      "body": [
+        "La griglia della pagina e il layout interno di un componente operano a scale diverse. Una scheda può occupare quattro colonne della pagina, ma al suo interno deve ancora organizzare titolo, descrizione, stato e azione.",
+        "Nella figura 3.386, le due schede accostano testi di lunghezza diversa. Ogni scheda mantiene il proprio ordine e cresce con il testo. L'altezza segue il contenuto; il comando non viene collocato a una quota fissa che potrebbe sovrapporsi a una descrizione più lunga.",
+        "Nel web, CSS Grid coordina righe e colonne; una traccia è lo spazio fra due linee adiacenti della griglia, un'area può comprendere più celle. Flexbox organizza relazioni principalmente lungo un asse.¹ Le guide del disegno non devono tradursi una per una in tracce CSS: si implementano regole capaci di accogliere anche contenuti imprevisti."
+      ],
+      "figure": "components",
+      "caption": "Griglia esterna e organizzazione interna delle schede: due scale coordinate, con altezze guidate dal contenuto.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "W3C, CSS Grid Layout Module Level 1.",
+          "https://www.w3.org/TR/css-grid-1/"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.386"
+    },
+    {
+      "folio": 535,
+      "title": "10.5.6. Ordine visivo e ordine di lettura",
+      "body": [
+        "Spostare un elemento con CSS Grid può cambiare la posizione visiva senza cambiare la sequenza del documento HTML. Lettura con tecnologie assistive e spostamento del focus con la tastiera possono allora seguire un ordine diverso da quello suggerito dalla composizione.¹",
+        "Nella figura 3.387 i numeri identificano la sequenza 1–2–3, conservata quando i campi si impilano. L'ordine nel documento va progettato a partire dal significato; il posizionamento visivo non deve compensare una sequenza logica sbagliata.",
+        "Si verifica sull'interfaccia implementata: si legge la sequenza del documento, si percorrono i controlli con la tastiera e si confrontano entrambi con la disposizione visiva. I numeri del diagramma esplicitano una decisione; il disegno da solo non verifica il comportamento reale."
+      ],
+      "figure": "reading-order",
+      "caption": "La sequenza 1–2–3 resta comprensibile nella disposizione larga e in quella stretta.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "W3C, CSS Grid: ordine e accessibilità.",
+          "https://www.w3.org/TR/css-grid-1/#order-accessibility"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.387"
+    },
+    {
+      "folio": 536,
+      "title": "10.5.7. Reflow e testo che cresce",
+      "body": [
+        "WCAG 2.2, criterio 1.4.10 Reflow (AA), richiede per il contenuto a scorrimento verticale una larghezza equivalente a 320 px CSS, senza perdita di informazioni o funzionalità né scorrimento in due dimensioni. Una prova equivalente parte da 1280 px CSS con zoom al 400%. L'eccezione riguarda le parti che necessitano di due dimensioni, come una mappa, non l'intera pagina.¹",
+        "Nella figura 3.388 lo stesso messaggio entra in un contenitore fisso e in uno che cresce. Il secondo conserva tutto il testo; il primo lo taglia.",
+        "Il criterio 1.4.4 Resize Text (AA) richiede testo ingrandibile fino al 200% senza perdita, salvo sottotitoli dei media e immagini di testo.² Il criterio 1.4.12 Text Spacing (AA), nei contenuti che supportano tali proprietà, prova insieme questi valori minimi: interlinea 1,5 volte il corpo, spazio dopo i paragrafi 2 volte, fra lettere 0,12 e fra parole 0,16 volte.³",
+        "Si modificano queste quattro proprietà senza cambiare gli altri stili. Questi valori verificano l'adattamento alle preferenze dell'utente; non prescrivono lo stile iniziale. Reflow, ingrandimento e spaziatura sono prove distinte, da eseguire sul prodotto funzionante."
+      ],
+      "figure": "reflow",
+      "caption": "Stesso testo e stessa larghezza: l'altezza fissa taglia il messaggio; l'altezza guidata dal contenuto lo conserva intero.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "W3C WAI, 1.4.10 Reflow (AA).",
+          "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html"
+        ],
+        [
+          "2",
+          "W3C WAI, 1.4.4 Resize Text (AA).",
+          "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html"
+        ],
+        [
+          "3",
+          "W3C WAI, 1.4.12 Text Spacing (AA).",
+          "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.388"
+    },
+    {
+      "folio": 537,
+      "title": "Proporzioni\ne rottura",
+      "body": [
+        "Le proporzioni possono fornire un punto di partenza per dividere un campo. Terzi, metà e rapporti asimmetrici producono possibilità diverse; nessuno di essi stabilisce da solo dove debbano trovarsi i contenuti.",
+        "La figura 3.389 confronta divisioni in terzi e divisioni auree sullo stesso rettangolo. Le linee non coincidono: i terzi corrispondono a circa 33,3% e 66,7%, le divisioni auree a circa 38,2% e 61,8%.¹"
+      ],
+      "figure": "thirds-golden",
+      "caption": "Terzi e divisioni auree a confronto. Sono costruzioni geometriche diverse, qui applicate allo stesso campo.",
+      "layout": "opener",
+      "section": "10.6",
+      "lead": "Una regola compositiva è un'ipotesi da mettere alla prova. Anche la sua deroga deve avere un ruolo leggibile.",
+      "notes": [
+        [
+          "1",
+          "Adobe, uso e limiti della regola dei terzi.",
+          "https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html"
+        ]
+      ],
+      "rights": null,
+      "figureNumber": "3.389"
+    },
+    {
+      "folio": 538,
+      "title": "10.6.1. Aureo, Fibonacci e spirale",
+      "body": [
+        "La sezione aurea divide un segmento in una parte maggiore a e una minore b, con a > b > 0, in modo che (a + b) / a = a / b. Il rapporto è φ = (1 + √5) / 2, circa 1,618. La parte maggiore occupa circa il 61,8% del totale.",
+        "Nella successione di Fibonacci, ogni termine dopo i primi due è la somma dei precedenti: 1, 1, 2, 3, 5, 8, 13. I rapporti fra termini consecutivi si avvicinano a φ, senza essere tutti uguali a esso.",
+        "La figura 3.390 distingue i quadrati di lati Fibonacci dalla spirale costruita con quarti di cerchio. Questa costruzione approssima un andamento a spirale, ma non coincide esattamente con una spirale logaritmica aurea. Un diagramma matematico descrive relazioni precise; non certifica il valore estetico di una pagina o di un'opera."
+      ],
+      "figure": "fibonacci",
+      "caption": "Quadrati di lati 1, 1, 2, 3, 5 e 8; i quarti di cerchio formano una costruzione approssimata, distinta da una spirale logaritmica esatta.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.390"
+    },
+    {
+      "folio": 539,
+      "title": "10.6.2. April Greiman, 1986",
+      "body": [
+        "In DOES IT MAKE SENSE?, per Design Quarterly 133, April Greiman combina nel 1986 corpo digitalizzato, immagini, segni e testi con scale differenti. L'opera si ripiega nel formato della rivista; la testimonianza dell'autrice descrive il passaggio da video a pixel.¹",
+        "Nella figura 3.391, il corpo attraversa il campo mentre immagini e segni introducono altri centri di attenzione. Questa lettura osserva sovrapposizioni e cambi di scala; non dimostra che l'opera sia priva di struttura."
+      ],
+      "figure": "image:greiman",
+      "caption": "April Greiman, DOES IT MAKE SENSE?, Design Quarterly 133, 1986. Vista complessiva e dettaglio del rapporto fra pixel, immagine e segni.",
+      "layout": "greiman",
+      "section": null,
+      "lead": null,
+      "notes": [
+        [
+          "1",
+          "MoMA, scheda e testimonianza di April Greiman.",
+          "https://www.moma.org/audio/playlist/297/4835"
+        ]
+      ],
+      "rights": "Opera di April Greiman. Immagine: MoMA, dono della designer. Nessuna licenza aperta dichiarata.",
+      "figureNumber": "3.391"
+    },
+    {
+      "folio": 540,
+      "title": "10.6.3. Uscire dalla griglia con uno scopo",
+      "body": [
+        "Una deroga è leggibile quando si riconosce il sistema dal quale si allontana. Un titolo può superare una colonna per introdurre una sezione; una figura può andare al vivo per rendere visibile un dettaglio; un elemento inclinato può segnalare un cambio di registro.",
+        "La figura 3.392 conserva margini, corpo e allineamenti del testo, mentre un solo elemento attraversa due campi. L'eccezione ha un oggetto preciso. Se ogni elemento introduce una misura diversa, diventa difficile riconoscere sia la regola sia la sua deroga.",
+        "Dopo la variazione si verifica ancora la lettura: il titolo resta associato al paragrafo, la didascalia resta vicina alla figura e nessun dettaglio necessario cade nel taglio o nel dorso. L'intenzione espressiva non elimina questi vincoli; li rende parte della scelta."
+      ],
+      "figure": "break-grid",
+      "caption": "Un elemento attraversa più campi, mentre testo e apparati mantengono riferimenti comuni.",
+      "layout": "modular",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.392"
+    },
+    {
+      "folio": 541,
+      "title": "Leggere, progettare,\nverificare",
+      "body": [
+        "Per analizzare una composizione conviene partire da ciò che è osservabile. Si individuano margini, inizi dei testi, quote ricorrenti e rapporti di prossimità. Si distinguono poi questi indizi dalle ipotesi sul reticolo usato dall'autore.",
+        "La figura 3.393 segue tre passaggi: osservare, formulare un'ipotesi, verificarla con altri contenuti. Una sola immagine può suggerire una griglia; un insieme di pagine permette di capire quali riferimenti ritornano."
+      ],
+      "figure": "process",
+      "caption": "Osservazione, ipotesi e prova: il reticolo ricostruito resta un'interpretazione finché non è documentato.",
+      "layout": "opener",
+      "section": "10.7",
+      "lead": "La qualità della griglia si valuta con i contenuti e con i compiti: leggere, confrontare, trovare e agire.",
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.393"
+    },
+    {
+      "folio": 542,
+      "title": "10.7.1. Sara deve spostare un appuntamento",
+      "body": [
+        "Sara ha prenotato una visita e deve cambiare giorno. Nell'esempio simulato, il primo assetto mette in evidenza una promozione e lascia il comando di modifica lontano dai dati della prenotazione. Il secondo raccoglie servizio, data e azione in una stessa area.",
+        "La figura 3.394 confronta le due distribuzioni. Non cambia il servizio offerto: cambia la priorità assegnata ai contenuti. Il titolo della prenotazione e la data diventano il punto di ingresso; l'azione segue le informazioni necessarie per riconoscere l'appuntamento.",
+        "Questa è un'ipotesi progettuale. La prova consiste nel chiedere di spostare la visita senza indicare il comando, osservando percorso, esitazioni ed esito. Se le persone non riconoscono la funzione, la sola vicinanza spaziale può non bastare: vanno rivisti anche etichetta e feedback."
+      ],
+      "figure": "sara-before-after",
+      "caption": "Scenario simulato: la prenotazione e l'azione di modifica vengono raccolte in un'area prioritaria.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.394"
+    },
+    {
+      "folio": 543,
+      "title": "10.7.2. Scegliere una nuova data",
+      "body": [
+        "Nel passaggio successivo, Sara deve confrontare giorni e orari disponibili. Un calendario offre una vista sintetica del mese; una lista può rendere più espliciti gli appuntamenti effettivamente selezionabili. La scelta dipende dalla quantità di date e dal compito.",
+        "La figura 3.395 mostra una lista di giorni con lo stato selezionato. Dopo il giorno scelto, la sequenza prosegue con orari, riepilogo e conferma. Lo stato selezionato ha anche un'etichetta, così il significato non dipende soltanto dal colore.",
+        "La disposizione deve consentire di tornare alla scelta precedente senza perdere il contesto. Si provano tastiera, ingrandimento e testi lunghi: il focus deve restare visibile e lo stato selezionato deve essere comunicato anche dal controllo implementato. Una lista alternativa può facilitare la scelta quando la visione del mese non è necessaria al compito."
+      ],
+      "figure": "sara-dates",
+      "caption": "Scelta della data nello scenario simulato: il giorno selezionato ha un'etichetta esplicita oltre alla variazione di colore.",
+      "layout": "split",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.395"
+    },
+    {
+      "folio": 544,
+      "title": "10.7.3. Dall'interfaccia web al gioco",
+      "body": [
+        "In un'interfaccia di gioco, il reticolo deve tenere conto del campo visivo e del contenuto in movimento. Stato, obiettivo e comandi possono richiedere posizioni stabili, mentre l'area di gioco cambia continuamente.",
+        "La figura 3.396 mostra un'interfaccia simulata: informazioni di stato in alto, obiettivo su un lato, azioni disponibili in basso. Il centro conserva spazio per l'azione. Il diagramma rappresenta una scelta di distribuzione, senza imitare un titolo commerciale specifico.",
+        "Si prova su rapporti di schermo differenti, con sottotitoli e messaggi di lunghezza variabile. Gli elementi non devono coprirsi né nascondere dettagli necessari. La griglia dell'interfaccia può coordinare i gruppi, ma la verifica richiede anche il gioco in movimento, la distanza di visione e i sistemi di controllo previsti."
+      ],
+      "figure": "game",
+      "caption": "Distribuzione di stato, obiettivo e comandi in un'interfaccia di gioco simulata; il centro resta disponibile per l'azione.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.396"
+    },
+    {
+      "folio": 545,
+      "title": "10.7.4. Un esercizio di ricomposizione",
+      "body": [
+        "Si prepara un piccolo insieme di contenuti: titolo di un incontro, presentazione di circa 80 parole, tre appuntamenti, un'immagine e una nota di servizio. Il materiale resta uguale in tutte le varianti.",
+        "La figura 3.397 propone tre vincoli di partenza: una colonna continua, una gabbia a sei unità e una struttura modulare. Ogni soluzione deve indicare il primo ingresso, l'ordine di lettura e la posizione della nota. Una variante può usare una doppia pagina, purché la parità sia corretta.",
+        "Si confrontano poi le proposte alla stessa dimensione. Si cerca dove una riga diventa troppo lunga, dove un gruppo si spezza e dove una figura perde dettaglio. La discussione deve riferirsi a elementi osservabili: non basta definire una composizione più pulita o più interessante senza spiegare che cosa consente di leggere."
+      ],
+      "figure": "exercise",
+      "caption": "Tre vincoli per ricomporre gli stessi materiali: blocco, sei unità e moduli.",
+      "layout": "modular",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.397"
+    },
+    {
+      "folio": 546,
+      "title": "10.7.5. Una matrice di prove",
+      "body": [
+        "La verifica incrocia contenuti e condizioni. Un titolo corto non mette alla prova gli stessi limiti di uno su quattro righe; una finestra stretta non equivale a una larga con testo ingrandito.",
+        "La figura 3.398 organizza quattro condizioni: larghezza ordinaria, ridotta, testo lungo e ingrandimento. Ogni cella richiede un esito su ordine, tagli, sovrapposizioni o accesso alle azioni. Si annotano passa/non passa, contenuto, larghezza e ingrandimento usati. Poi si combinano i casi, per esempio testo lungo in una finestra stretta.",
+        "Per il libro si aggiungono scala di stampa, dorso e doppie pagine; per il web, sequenza del documento e tastiera. Le prove di accessibilità a pagina 536 hanno parametri specifici e vanno registrate separatamente. Una correzione ricorrente richiede di rivedere la regola comune e ricontrollare tutte le pagine o i componenti che la usano."
+      ],
+      "figure": "test-matrix",
+      "caption": "Una matrice collega quattro condizioni di prova a quattro aspetti da osservare. Le celle registrano un controllo, non un esito già dimostrato.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.398"
+    },
+    {
+      "folio": 547,
+      "title": "10.7.6. Errori che la griglia non risolve",
+      "body": [
+        "Un reticolo regolare può contenere una gerarchia confusa. Una scheda perfettamente allineata può usare un'etichetta incomprensibile. Un'immagine può occupare il campo corretto e tagliare proprio il dettaglio discusso nel testo.",
+        "La figura 3.399 ricompone tre relazioni: il titolo con il proprio paragrafo, l'azione con l'oggetto e la didascalia con la figura. La correzione riguarda i rapporti semantici e spaziali, non soltanto l'aggancio alle linee.",
+        "Quando il contenuto non entra, si valuta prima come distribuirlo: un altro accorpamento, una pagina di continuazione, una figura più adatta o una diversa misura di lettura. Ridurre sistematicamente il corpo conserva l'ingombro ma sposta il problema sulla leggibilità. Una revisione efficace rende esplicita la causa e controlla tutte le sue occorrenze."
+      ],
+      "figure": "errors",
+      "caption": "Tre relazioni ricomposte: titolo e testo, dato e azione, figura e didascalia.",
+      "layout": "two",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.399"
+    },
+    {
+      "folio": 548,
+      "title": "10.7.7. Dal layout al flusso",
+      "body": [
+        "La griglia coordina lo spazio di una pagina o di una schermata. Nel progetto di un'interfaccia occorre collegare questi stati: da dove si arriva, quale azione è disponibile e che cosa accade dopo.",
+        "Nella figura 3.400, lo scenario di Sara termina con un esito esplicito: la modifica è riuscita e la nuova data compare nella schermata finale. La sequenza collega scelta e risultato. Prima della conferma si controlla la nuova data; dopo si deve poter riconoscere quale appuntamento è stato modificato.",
+        "Il passaggio al wireframe sviluppa queste relazioni fra schermate. Le decisioni spaziali restano utili, ma vengono lette insieme a navigazione, priorità e feedback. Una griglia funziona quando aiuta a comporre contenuti che conservano significato anche nel passaggio da uno stato al successivo."
+      ],
+      "figure": "flow",
+      "caption": "Prenotazione, scelta ed esito: una struttura coerente accompagna il flusso dello scenario simulato.",
+      "layout": "wide",
+      "section": null,
+      "lead": null,
+      "notes": [],
+      "rights": null,
+      "figureNumber": "3.400"
+    },
+    {
+      "folio": 549,
+      "title": "Riferimenti bibliografici",
+      "layout": "bibliography",
+      "body": [],
+      "entries": [
+        [
+          "Müller-Brockmann, Josef. Grid systems in graphic design / Rastersysteme für die visuelle Gestaltung. Niggli, 1981. ISBN 978-3-7212-0145-1.",
+          "Manuale di costruzione della griglia, con esempi sui rapporti fra formato, tipografia e organizzazione."
+        ],
+        [
+          "The Museum of Modern Art. Josef Müller-Brockmann. Musica Viva. 1957. Scheda di collezione, opera 58.1960.",
+          "Fotolitografia, dono dell'artista. Riferimento documentario per il manifesto riprodotto a pagina 511."
+        ],
+        [
+          "National Park Service, Harpers Ferry Center. A Brief History of the Unigrid. Aggiornato il 10 marzo 2023.",
+          "Ricostruzione istituzionale del progetto del 1977 e della prima brochure per Clara Barton del 1978. Comprende formati, pannelli, produzione e variazioni del sistema."
+        ],
+        [
+          "Korpi, Joni. Golden Grid System. Repository del progetto dell'autore, GitHub; archiviato nel 2017. Consultato il 21 ottobre 2026.",
+          "Descrizione e codice della griglia fluida: 18 colonne complessive, 16 utili, raggruppabili in 8 o 4; licenza MIT per il codice."
+        ],
+        [
+          "IBM. Carbon Design System. 2x Grid. Aggiornato il 25 settembre 2026. Consultato il 21 ottobre 2026.",
+          "Documentazione ufficiale di mini unità, logica di divisione, comportamenti e breakpoint. Le misure sono specifiche del sistema Carbon."
+        ],
+        [
+          "W3C, CSS Working Group. CSS Grid Layout Module Level 1. Candidate Recommendation Draft, 26 marzo 2025.",
+          "Definisce linee, tracce, celle e aree, oltre al rapporto fra posizionamento visivo e ordine del documento."
+        ],
+        [
+          "The Museum of Modern Art. April Greiman. DOES IT MAKE SENSE? Design Quarterly #133. 1986. Scheda e commento audio dell'autrice.",
+          "Testimonianza dell'autrice sull'uso del video e del computer per la composizione del numero della rivista."
+        ]
+      ]
+    },
+    {
+      "folio": 550,
+      "title": "Riferimenti bibliografici · continua",
+      "layout": "bibliography",
+      "body": [],
+      "entries": [
+        [
+          "Google. Macro layouts. Learn Responsive Design, web.dev. Aggiornato il 3 novembre 2021; consultato il 21 ottobre 2026.",
+          "Organizzazione globale della pagina e adattamento della disposizione allo spazio disponibile."
+        ],
+        [
+          "Google. Media queries. Learn Responsive Design, web.dev. Aggiornato il 23 agosto 2025; consultato il 21 ottobre 2026.",
+          "Condizioni CSS per adattare la presentazione a larghezza, modalità di fruizione e preferenze dell'utente."
+        ],
+        [
+          "W3C Web Accessibility Initiative. Understanding Success Criterion 1.4.10: Reflow. Understanding WCAG 2.2, livello AA. Consultato il 21 ottobre 2026.",
+          "Spiega il requisito a 320 CSS pixel per contenuti a scorrimento verticale e le eccezioni per parti che richiedono una disposizione bidimensionale."
+        ],
+        [
+          "W3C Web Accessibility Initiative. Understanding Success Criterion 1.4.4: Resize Text. Understanding WCAG 2.2, livello AA. Consultato il 21 ottobre 2026.",
+          "Descrive il ridimensionamento del testo fino al 200% senza perdita di informazioni o funzionalità, con le eccezioni previste dal criterio."
+        ],
+        [
+          "W3C Web Accessibility Initiative. Understanding Success Criterion 1.4.12: Text Spacing. Understanding WCAG 2.2, livello AA. Consultato il 21 ottobre 2026.",
+          "Distingue i valori di prova delle spaziature dallo stile iniziale della pagina. L'applicazione delle preferenze non deve provocare perdita di contenuti o funzionalità."
+        ],
+        [
+          "Adobe. How to use (& break) the rule of thirds in photography. Creative Cloud, documentazione online. Consultato il 21 ottobre 2026.",
+          "Divisione del campo in terzi come guida compositiva, da valutare in rapporto al soggetto."
+        ],
+        [
+          "W3C, CSS Working Group. CSS Values and Units Module Level 3, § 5.2: Absolute Lengths. Candidate Recommendation Draft, 22 marzo 2024.",
+          "Definisce il pixel CSS e il suo rapporto con i pixel del dispositivo e le altre unità di misura."
+        ],
+        [
+          "Google. Introduction. Learn Responsive Design, web.dev. Aggiornato il 3 novembre 2021; consultato il 21 ottobre 2026.",
+          "Confronta layout fissi, fluidi, adattivi e responsivi; spiega la combinazione di fluidità e cambiamenti alle soglie."
+        ],
+        [
+          "MDN Web Docs. CSS container queries. Documentazione CSS, guida al contenimento. Consultato il 21 ottobre 2026.",
+          "Descrive l'adattamento dei componenti in base alle dimensioni di un contenitore antenato predisposto e il confronto con le media query."
+        ]
+      ]
+    }
+  ],
+  "figureFinali": 400,
+  "sezioni": [
+    [
+      "10.1",
+      "Dallo spazio alla struttura",
+      505
+    ],
+    [
+      "10.2",
+      "Una storia di sistemi e scelte",
+      509
+    ],
+    [
+      "10.3",
+      "Anatomia e costruzione",
+      515
+    ],
+    [
+      "10.4",
+      "Tipologie e pagina editoriale",
+      521
+    ],
+    [
+      "10.5",
+      "Dal foglio al viewport",
+      529
+    ],
+    [
+      "10.6",
+      "Proporzioni e rottura",
+      537
+    ],
+    [
+      "10.7",
+      "Leggere, progettare, verificare",
+      541
+    ]
+  ]
+}

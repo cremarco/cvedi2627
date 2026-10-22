@@ -1,46 +1,45 @@
-// Apertura vettoriale del capitolo: una pagina, senza testi dentro l'SVG.
-// La pagina eredita formato, margini speculari e folio da template/stile.typ.
-// L'asset è un SVG al vivo, con tela 1200 × 1694, proporzionata a 170 × 240 mm.
-// Può essere un path() SVG oppure bytes() nei test; non contiene testi incorporati.
-// Numero e titolo sono testo Typst: si modificano senza rigenerare l'immagine.
-#import "capitoli-01-06.typ": apertura-primi
-#import "capitoli-07-10.typ": apertura-visive
-#import "capitoli-11-12.typ": apertura-lettere-griglia
-#import "../geometria.typ": inchiostro
+// Apertura attiva: fondo SVG senza testo, titolo e numero Typst modificabili.
+// Quote condivise con i sette esecutivi SVG approvati, su tela 1055 × 1491.
+#import "../geometria.typ": inchiostro, pagina-larghezza, pagina-altezza
 
-// numero segue il piano attivo; tema conserva la composizione già approvata.
-#let apertura(numero: 1, tema: 2, titolo: [], accento: rgb("FFA2A2"), visuale: none) = {
-  assert(type(numero) == int and numero >= 1 and numero <= 6,
-    message: "Indicare un numero di capitolo fra 1 e 6.")
-  assert(type(tema) == int and tema >= 1 and tema <= 12,
-    message: "Indicare il tema originale della grafica approvata, fra 1 e 12.")
-  assert(visuale != none, message: "Indicare il path() della grafica SVG del capitolo.")
+#let apertura(numero: 1, titolo: "", composizione: none, visuale: none) = {
+  assert(type(numero) == int and numero >= 1,
+    message: "Indicare un numero di capitolo intero positivo.")
+  assert(type(titolo) == str and titolo.len() > 0,
+    message: "Il titolo completo deve provenire dal piano editoriale.")
+  assert(composizione != none and composizione.numero == numero,
+    message: "Indicare la composizione approvata per questo capitolo.")
+  assert(visuale != none, message: "Indicare il fondo SVG senza testi editoriali.")
+  let sx = pagina-larghezza / composizione.tela.at(0)
+  let sy = pagina-altezza / composizione.tela.at(1)
+  let t = composizione.titolo
+  let n = composizione.codice
+  let parole = titolo.split(" ")
+  let salto = composizione.a_capo_dopo
+  let righe = (parole.slice(0, salto).join(" "), parole.slice(salto).join(" "))
 
-  // background usa l'intero foglio, compresi i margini. Solo il testo segue
-  // la gabbia speculare ereditata; non viene aggiunto un pannello attorno all'arte.
-  // La tela SVG ha lo stesso rapporto della pagina: stretch evita fasce bianche.
-  // accento resta il token del capitolo nell'API; grafica e folio lo ricevono
-  // rispettivamente nell'SVG e dal componente capitolo() del template comune.
-  page(columns: 1,
+  // La sola apertura usa coordinate dell'intero foglio e omette il folio.
+  // Il corpo successivo conserva gabbia speculare, colonne e numerazione.
+  page(columns: 1, margin: 0pt, header: none, footer: none,
     background: image(visuale, width: 100%, height: 100%, fit: "stretch"))[
     #set text(font: "Sora", weight: 700, fill: inchiostro,
-      hyphenate: false, top-edge: 0.9em, bottom-edge: 0.1em)
-    #set par(justify: false, leading: -5pt, spacing: 0pt)
-    // L'indice conserva il codice a due cifre; sulla copertina il titolo
-    // personalizzato mostra solo it.body e il numero ha il proprio disegno.
+      hyphenate: false, top-edge: 0pt, bottom-edge: 0pt)
+    #set par(justify: false, leading: 0pt, spacing: 0pt)
     #set heading(numbering: n => if n < 10 { "0" + str(n) } else { str(n) })
-
-    // Ogni tema compone titolo e numero in modo diverso; il titolo resta
-    // un heading nativo per l'indice e i segnalibri. Il codice riguarda solo
-    // l'apertura: la prosa dei capitoli continua nel normale flusso Typst.
-    #block(width: 100%, height: 100%)[
-      #if tema <= 6 {
-        apertura-primi(tema, numero, titolo)
-      } else if tema <= 10 {
-        apertura-visive(tema, numero, titolo)
-      } else {
-        apertura-lettere-griglia(tema, numero, titolo)
+    // Un solo heading mantiene il titolo continuo nell'indice e nei segnalibri.
+    // La regola locale ne dispone le due righe, ancora come testo nativo.
+    #show heading.where(level: 1): it => {
+      for (i, riga) in righe.enumerate() {
+        place(top + left, dx: t.x * sx, dy: (t.y + i * t.interlinea) * sy,
+          text(size: t.at("corpi_righe", default: (t.corpo, t.corpo)).at(i) * sx,
+            tracking: t.spaziatura * sx, riga))
       }
-    ]
+    }
+    #metadata((numero: numero, titolo: titolo, serie: composizione.nome)) <booklet-apertura>
+    #heading(level: 1, titolo)
+    #place(top + left, dx: n.x * sx, dy: n.y * sy,
+      text(size: n.corpo * sx, tracking: n.spaziatura * sx,
+        fill: rgb(n.at("colore", default: "#2E3138")),
+        if numero < 10 { "0" + str(numero) } else { str(numero) }))
   ]
 }

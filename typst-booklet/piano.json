@@ -1,11 +1,12 @@
 {
   "versione": 1,
-  "ambito": "Soltanto le sei lezioni indicate dall’utente nello screenshot del 21 ottobre 2026. Numerazione editoriale da 01; i numeri03–08 delle slide restano identificatori delle fonti.",
+  "aperture": "assets/booklet/aperture-imagegen-svg-v1",
+  "ambito": "Sette capitoli: le sei lezioni approvate e La griglia dalla Page Figma 4954:42, aggiunta su richiesta dell’utente. Numerazione editoriale da 01; i numeri03–08 delle slide restano identificatori delle fonti. Per La griglia,08 identifica soltanto il precedente percorso Slidev: la fonte corrente è la Page Figma.",
   "capitoli": [
     {
       "numero": 1,
       "codice": "01",
-      "titolo": "Storia del design",
+      "titolo": "Storia del design visivo",
       "lezione": "03",
       "apertura_originale": 2,
       "file": "capitoli/01-storia-del-design.typ",
@@ -15,7 +16,7 @@
     {
       "numero": 2,
       "codice": "02",
-      "titolo": "Ricerca, contesto e inclusione",
+      "titolo": "Ricerca, persone e culture",
       "lezione": "04",
       "apertura_originale": 4,
       "file": "capitoli/02-ricerca.typ",
@@ -25,7 +26,7 @@
     {
       "numero": 3,
       "codice": "03",
-      "titolo": "Accessibilità e design inclusivo",
+      "titolo": "Accessibilità e inclusione",
       "lezione": "05",
       "apertura_originale": 5,
       "file": "capitoli/03-accessibilita.typ",
@@ -35,11 +36,14 @@
     {
       "numero": 4,
       "codice": "04",
-      "titolo": "Gestalt",
+      "titolo": "Percezione e Gestalt",
       "lezione": "06",
       "apertura_originale": 7,
       "file": "capitoli/04-gestalt.typ",
-      "fonti": ["bibliografia/04-gestalt.bib", "bibliografia/04-gestalt-articoli.yml"],
+      "fonti": [
+        "bibliografia/04-gestalt.bib",
+        "bibliografia/04-gestalt-articoli.yml"
+      ],
       "stato": "completo"
     },
     {
@@ -55,7 +59,7 @@
     {
       "numero": 6,
       "codice": "06",
-      "titolo": "Tipografia",
+      "titolo": "Tipografia e lettura",
       "lezione": "08",
       "apertura_originale": 11,
       "file": "capitoli/06-tipografia.typ",
@@ -64,6 +68,16 @@
         "bibliografia/06-tipografia-articoli.yml",
         "bibliografia/06-tipografia-opere.yml"
       ],
+      "stato": "in-revisione"
+    },
+    {
+      "numero": 7,
+      "codice": "07",
+      "titolo": "Griglie e layout",
+      "lezione": "08",
+      "apertura_originale": 12,
+      "file": "capitoli/07-griglia.typ",
+      "fonti": "bibliografia/07-griglia.yml",
       "stato": "in-revisione"
     }
   ]

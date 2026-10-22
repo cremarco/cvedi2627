@@ -1,0 +1,270 @@
+# Fonti del capitolo 07 · La griglia, dalla Page Figma corrente 4954:42.
+# Metadati: assets/booklet/griglia-nuovo-design/fonti.json e tavole 549–550.
+# Le date di pubblicazione/aggiornamento restano distinte dalla consultazione
+# storica del 21 ottobre 2026. L’archiviazione GitHub nel 2017 non data il progetto.
+# I musei sono archivi delle opere, non autori; diritti e provenienza delle immagini
+# restano nei manifest delle figure. APA è composta nativamente da Typst.
+# Le integrazioni dai materiali locali rimandano alle specifiche e alle
+# documentazioni primarie verificate; la provenienza didattica resta nei dati.
+
+grigliaMuller:
+  type: Book
+  author: "Müller-Brockmann, Josef"
+  title: "Grid systems in graphic design / Rastersysteme für die visuelle Gestaltung"
+  date: 1981
+  publisher: Arthur Niggli
+  serial-number:
+    isbn: "978-3-7212-0145-1"
+  url:
+    value: https://niggli.ch/products/rastersysteme-fur-die-visuelle-gestaltung
+    date: 2026-10-21
+
+grigliaMusica:
+  type: Artwork
+  author: "Müller-Brockmann, Josef"
+  title: Musica Viva
+  date: 1957
+  genre: Fotolitografia
+  archive: The Museum of Modern Art
+  call-number: "58.1960"
+  url:
+    value: https://www.moma.org/collection/works/4885
+    date: 2026-10-21
+
+grigliaUnigrid:
+  type: Web
+  author:
+    name: "National Park Service, Harpers Ferry Center"
+  title: A Brief History of the Unigrid
+  date: 2023-03-10
+  url:
+    value: https://www.nps.gov/subjects/hfc/a-brief-history-of-the-unigrid.htm
+    date: 2026-10-21
+
+grigliaGreiman:
+  type: Artwork
+  author: "Greiman, April"
+  title: "DOES IT MAKE SENSE? Design Quarterly #133"
+  date: 1986
+  archive: The Museum of Modern Art
+  url:
+    value: https://www.moma.org/audio/playlist/297/4835
+    date: 2026-10-21
+
+grigliaGgs:
+  type: Repository
+  author: "Korpi, Joni"
+  title: Golden Grid System
+  publisher: GitHub
+  url:
+    value: https://github.com/jonikorpi/Golden-Grid-System
+    date: 2026-10-21
+
+grigliaCarbon:
+  type: Web
+  author:
+    name: IBM
+  title: "Carbon Design System: 2x Grid"
+  date: 2026-09-25
+  url:
+    value: https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview
+    date: 2026-10-21
+
+grigliaCssgrid:
+  type: Report
+  author:
+    name: "W3C, CSS Working Group"
+  title: CSS Grid Layout Module Level 1
+  date: 2025-03-26
+  genre: Candidate Recommendation Draft
+  url:
+    value: https://www.w3.org/TR/css-grid-1/
+    date: 2026-10-21
+
+grigliaReflow:
+  type: Web
+  author:
+    name: W3C Web Accessibility Initiative
+  title: "Understanding Success Criterion 1.4.10: Reflow"
+  date: 2026-09-06
+  parent:
+    type: Web
+    title: Understanding WCAG 2.2
+  url:
+    value: https://www.w3.org/WAI/WCAG22/Understanding/reflow.html
+    date: 2026-10-21
+
+grigliaResize:
+  type: Web
+  author:
+    name: W3C Web Accessibility Initiative
+  title: "Understanding Success Criterion 1.4.4: Resize Text"
+  date: 2026-09-06
+  parent:
+    type: Web
+    title: Understanding WCAG 2.2
+  url:
+    value: https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html
+    date: 2026-10-21
+
+grigliaSpacing:
+  type: Web
+  author:
+    name: W3C Web Accessibility Initiative
+  title: "Understanding Success Criterion 1.4.12: Text Spacing"
+  date: 2025-10-01
+  parent:
+    type: Web
+    title: Understanding WCAG 2.2
+  url:
+    value: https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html
+    date: 2026-10-21
+
+grigliaMacro:
+  type: Web
+  author:
+    name: Google
+  title: Macro layouts
+  date: 2021-11-03
+  parent:
+    type: Web
+    title: Learn Responsive Design
+    publisher: web.dev
+  url:
+    value: https://web.dev/learn/design/macro-layouts
+    date: 2026-10-21
+
+grigliaBreakpoints:
+  type: Web
+  author:
+    name: Google
+  title: Media queries
+  date: 2025-08-23
+  parent:
+    type: Web
+    title: Learn Responsive Design
+    publisher: web.dev
+  url:
+    value: https://web.dev/learn/design/media-queries
+    date: 2026-10-21
+
+grigliaThirds:
+  type: Web
+  author:
+    name: Adobe
+  title: "How to use (& break) the rule of thirds in photography"
+  parent:
+    type: Web
+    title: Creative Cloud
+  url:
+    value: https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html
+    date: 2026-10-21
+
+grigliaCssunits:
+  type: Report
+  author:
+    name: "W3C, CSS Working Group"
+  title: "CSS Values and Units Module Level 3, § 5.2: Absolute Lengths"
+  date: 2024-03-22
+  genre: Candidate Recommendation Draft
+  url:
+    value: https://www.w3.org/TR/css-values-3/#absolute-lengths
+    date: 2026-10-21
+
+grigliaAdaptive:
+  type: Web
+  author:
+    name: Google
+  title: Introduction
+  date: 2021-11-03
+  parent:
+    type: Web
+    title: Learn Responsive Design
+    publisher: web.dev
+  url:
+    value: https://web.dev/learn/design/intro
+    date: 2026-10-21
+
+grigliaContainer:
+  type: Web
+  author:
+    name: MDN contributors
+  title: CSS container queries
+  date: 2026-07-08
+  url:
+    value: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries
+    date: 2026-10-21
+
+grigliaBoxSizing:
+  type: Report
+  author:
+    name: "W3C, CSS Working Group"
+  title: "CSS Box Sizing Module Level 3, § 3.3: Box Edges for Sizing"
+  date: 2026-09-04
+  genre: Working Draft
+  url:
+    value: https://www.w3.org/TR/css-sizing-3/#box-sizing
+    date: 2026-10-22
+
+grigliaBootstrap:
+  type: Web
+  author:
+    name: Bootstrap team
+  title: Grid system
+  parent:
+    type: Web
+    title: Bootstrap 5.3
+  url:
+    value: https://getbootstrap.com/docs/5.3/layout/grid/
+    date: 2026-10-22
+
+grigliaMaxwidth:
+  type: Web
+  author:
+    name: MDN contributors
+  title: max-width CSS property
+  date: 2026-09-10
+  url:
+    value: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/max-width
+    date: 2026-10-22
+
+grigliaGridFlex:
+  type: Web
+  author:
+    name: MDN contributors
+  title: Relationship of grid layout to other layout methods
+  date: 2026-04-07
+  url:
+    value: https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Grid_layout/Relationship_with_other_layout_methods
+    date: 2026-10-22
+
+grigliaImages:
+  type: Report
+  author:
+    name: WHATWG
+  title: "HTML Living Standard, § 4.8.4: Images"
+  date: 2026-10-20
+  genre: Living Standard
+  url:
+    value: https://html.spec.whatwg.org/multipage/images.html
+    date: 2026-10-22
+
+grigliaObjectfit:
+  type: Web
+  author:
+    name: MDN contributors
+  title: object-fit CSS property
+  date: 2026-07-21
+  url:
+    value: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-fit
+    date: 2026-10-22
+
+grigliaObjectposition:
+  type: Web
+  author:
+    name: MDN contributors
+  title: object-position CSS property
+  date: 2026-04-20
+  url:
+    value: https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/object-position
+    date: 2026-10-22

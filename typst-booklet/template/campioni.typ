@@ -7,7 +7,7 @@
   #align(left, text(size: 10pt, weight: 500, titolo))
   #v(4pt)
   #box(width: 100%, height: fascia, align(center + horizon, corpo))
-], kind: image, caption: contenuto-didascalia(didascalia, diritti: diritti))
+], kind: image, placement: none, caption: contenuto-didascalia(didascalia, diritti: diritti))
 
 // L'offset verticale conserva la linea di base del campione nella fascia di 54 pt.
 // Queste quote riguardano soltanto il glifo illustrato, non il testo del capitolo.
@@ -23,7 +23,10 @@
 // Un confronto resta unito e può occupare tutta la gabbia delle due colonne.
 // Le figure interne conservano didascalie, contatori e collegamenti nativi.
 #let confronto(corpo) = place(top, scope: "parent", float: true,
-  block(width: gabbia, breakable: false, corpo))
+  block(width: gabbia, breakable: false)[
+    #set figure(placement: none, scope: "column")
+    #corpo
+  ])
 
 // Una riga di esempi: le etichette crescono con il testo; i glifi mantengono
 // la fascia e il corpo comuni. La griglia non governa i paragrafi del capitolo.

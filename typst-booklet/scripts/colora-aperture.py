@@ -35,6 +35,10 @@ def main():
                 colore = elemento.get(attributo, "")
                 if not re.fullmatch(r"#[0-9a-fA-F]{6}", colore):
                     continue
+                # Typst riassegna in memoria soltanto questa tinta. Un colore
+                # condiviso con altri ruoli renderebbe ambigua la sostituzione.
+                if ruolo != "principale" and colore.upper() == capitolo["colore"].upper():
+                    raise SystemExit(f"{file.name}: tinta principale condivisa con {ruolo}")
                 if ruolo == "spettro":
                     if colore.upper() not in spettro:
                         raise SystemExit(f"{file.name}: tinta {colore} assente dallo spettro")

@@ -15,8 +15,14 @@ PROVE = ROOT / "scripts/booklet-prove"
 TARGETS = {
     "booklet": (BOOKLET / "main.typ", BOOKLET / "build/booklet.pdf"),
     "aperture": (BOOKLET / "anteprime/aperture.typ", BOOKLET / "build/anteprime/aperture.pdf"),
-    "colore": (BOOKLET / "anteprime/05-colore.typ", BOOKLET / "build/anteprime/05-colore.pdf"),
-    "tipografia": (BOOKLET / "anteprime/06-tipografia.typ", BOOKLET / "build/anteprime/06-tipografia.pdf"),
+    "frontespizio-indice": (BOOKLET / "capitoli/00-frontespizio-indice.typ", BOOKLET / "build/anteprime/00-frontespizio-indice.pdf"),
+    "storia-del-design": (BOOKLET / "capitoli/01-storia-del-design.typ", BOOKLET / "build/anteprime/01-storia-del-design.pdf"),
+    "ricerca": (BOOKLET / "capitoli/02-ricerca.typ", BOOKLET / "build/anteprime/02-ricerca.pdf"),
+    "accessibilita": (BOOKLET / "capitoli/03-accessibilita.typ", BOOKLET / "build/anteprime/03-accessibilita.pdf"),
+    "gestalt": (BOOKLET / "capitoli/04-gestalt.typ", BOOKLET / "build/anteprime/04-gestalt.pdf"),
+    "colore": (BOOKLET / "capitoli/05-colore.typ", BOOKLET / "build/anteprime/05-colore.pdf"),
+    "tipografia": (BOOKLET / "capitoli/06-tipografia.typ", BOOKLET / "build/anteprime/06-tipografia.pdf"),
+    "griglia": (BOOKLET / "capitoli/07-griglia.typ", BOOKLET / "build/anteprime/07-griglia.pdf"),
 }
 PT_MM = 72 / 25.4
 

@@ -1,0 +1,90 @@
+{
+  "comment": 396,
+  "date": "2026-10-20",
+  "status": "LOCAL_SOURCE_ASSET_READY_FIGMA_APPLICATION_TRACKED_SEPARATELY",
+  "file": "assets/booklet/tipografia-comment396/13-distanza-riga.svg",
+  "sha256": "9987f09449d37869b6155743f427c7ef27a64017e2a127c251b286c610a4e0a9",
+  "bytes": 13398,
+  "width": 187.09,
+  "height": 14,
+  "textRuns": [
+    {
+      "role": "sample",
+      "text": "Leggi il nome e il codice.",
+      "font": "dm-sans",
+      "nominalSize": 12,
+      "variationLocation": {
+        "opsz": 12,
+        "wght": 400
+      },
+      "x": 0,
+      "baseline": 10,
+      "advance": 135.252,
+      "inkBounds": [
+        0.9078017578125,
+        1.2279882812499991,
+        134.727603515625,
+        12.784
+      ],
+      "tracking": 0,
+      "wordSpacing": 0,
+      "geometricShearDegrees": 0
+    }
+  ],
+  "parameters": {
+    "samePhysicalSample": true,
+    "nominalSize": 12,
+    "weight": 400,
+    "opticalSize": 12,
+    "baseline": 10,
+    "trackingAdded": 0,
+    "wordSpacingAdded": 0,
+    "geometricDeformation": false,
+    "distanceSimulation": false,
+    "rankingClaim": false
+  },
+  "font": {
+    "family": "DM Sans",
+    "version": "Version 4.004;gftools[0.9.30]",
+    "postscriptName": "DMSans-9ptRegular",
+    "copyright": "Copyright 2014 The DM Sans Project Authors (https://github.com/googlefonts/dm-fonts)",
+    "sourceUrl": "https://github.com/google/fonts/tree/main/ofl/dmsans",
+    "rawFontUrl": "https://raw.githubusercontent.com/google/fonts/main/ofl/dmsans/DMSans%5Bopsz%2Cwght%5D.ttf",
+    "path": "assets/booklet/tipografia-comment396/originals/DMSans[opsz,wght].ttf",
+    "sha256": "8cd08d97e89c24d0aa92edd2f0f4c8ee6195eee9b7c9f154865a58b02f0c1c0d",
+    "copiedByteIdenticalFrom": "assets/booklet/tipografia-comment394/originals/",
+    "license": "SIL Open Font License1.1",
+    "licensePath": "assets/booklet/tipografia-comment396/originals/DMSans-OFL.txt",
+    "licenseSha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1",
+    "metadataPath": "assets/booklet/tipografia-comment396/originals/DMSans-METADATA.pb",
+    "metadataSha256": "55b3697a416f7d08c093918a4019a75cca7186c64bc56b1bb23e197a5d559dee"
+  },
+  "shaping": {
+    "engine": "HarfBuzz",
+    "pythonBinding": "0.56.3",
+    "fontTools": "4.67.0",
+    "helper": "assets/booklet/tipografia-comment394/generate_figures.py",
+    "helperSha256": "dc07951b97d2fffe855fd9ac0d1aabc0ad1ede702414da68a36e6018b8fd4b6e",
+    "features": {
+      "kern": true,
+      "liga": true
+    },
+    "direction": "ltr",
+    "script": "Latn",
+    "language": "it",
+    "pathPrecision": "0.001font units and0.001pt translations; original contours, no redraw or fallback"
+  },
+  "model": {
+    "background": "#FFFFFF",
+    "ink": "#2E3138",
+    "internalLabels": false,
+    "clipPaths": false,
+    "allInkInsideViewport": true
+  },
+  "nativeCaptionProposal": "DM Sans a 12 pt. Leggi la stessa riga da vicino, poi tenendo la pagina a braccio teso. Cambia la distanza, non il corpo del campione.",
+  "limitations": [
+    "An observation exercise using two real viewing distances, not a simulated distance or a measured experiment.",
+    "No universal legibility ranking or performance claim.",
+    "Native caption and rights are external; no Figma import, current-page fit or PDF-print certification."
+  ]
+}

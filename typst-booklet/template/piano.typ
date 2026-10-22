@@ -1,6 +1,10 @@
 // Unico resolver dei metadati editoriali per volume e anteprime.
-#let piano = json(path("/typst-booklet/piano.json")).capitoli
-#let grafiche = json(path("/assets/images/aperture/manifest.json")).capitoli
+#let dati-piano = json(path("/typst-booklet/piano.json"))
+#let piano = dati-piano.capitoli
+#let base-aperture = "/" + dati-piano.aperture
+#let grafiche = json(path(base-aperture + "/manifest.json")).capitoli
+#let composizioni-aperture = json(path(base-aperture + "/composizioni.json"))
+#import "palette.typ": accento-capitolo
 // Tipografia conserva un’unica bibliografia visibile, in quattro intervalli
 // nativi per la disambiguazione APA; le fonti restano nei file del piano.
 #import "../bibliografia/06-tipografia-gruppi.typ": gruppi-fonti as gruppi-tipografia
@@ -16,15 +20,20 @@
 }
 
 #let dati-capitolo(voce, fonti: none) = {
-  let grafica = grafiche.find(g => g.numero == voce.apertura_originale)
+  let grafica = grafiche.find(g => g.numero == voce.numero)
   assert(grafica != none,
     message: "La grafica del capitolo " + voce.codice + " manca nel manifest.")
+  let composizione = composizioni-aperture.capitoli.find(c => c.numero == voce.numero)
+  assert(composizione != none,
+    message: "La composizione del capitolo " + voce.codice + " manca nei dati.")
+  composizione.insert("tela", composizioni-aperture.tela)
   let sorgenti = if fonti == none { voce.fonti } else { fonti }
   let percorsi = if sorgenti == none { none }
     else if type(sorgenti) == array { sorgenti.map(percorso-fonte) }
     else { percorso-fonte(sorgenti) }
-  (numero: voce.numero, titolo: voce.titolo, tema: voce.apertura_originale,
-    accento: rgb(grafica.colore), visuale: path("/" + grafica.percorso), fonti: percorsi,
+  let accento = accento-capitolo(voce.numero)
+  (numero: voce.numero, titolo: voce.titolo, composizione: composizione,
+    accento: accento, visuale: path(base-aperture + "/" + grafica.disegno), fonti: percorsi,
     gruppi-fonti: if voce.numero == 6 { gruppi-tipografia } else { none })
 }
 

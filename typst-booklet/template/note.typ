@@ -44,10 +44,19 @@
   disegna-richiamo(originale, etichetta-nota(originale))
 }
 
+// Il marker identifica la nota effettivamente rimasta nella regione sagomata.
+// Le copie misurate da Meander non dispongono alcuna voce nella fascia note.
+#let richiamo-sagomato(nota, regione) = context {
+  [#metadata((regione: regione, origine: nota.location()))<booklet-richiamo-sagomato>]
+  richiamo-solo(nota)
+}
+
 // Misura e stampa condividono esattamente font, interlinea e giustezza.
 #let stile-voce(larghezza, corpo) = block(width: larghezza, above: 0pt, below: 0pt)[
   #set text(font: ("DM Sans 9pt", "Noto Sans JP", "Noto Sans SC"), size: 7.5pt,
     weight: 400, style: "normal", variations: (opsz: 9), fill: inchiostro)
+  // I rimandi bibliografici nelle note conservano il ruolo dell'apparato.
+  #show cite: set text(size: 7.5pt, fill: inchiostro)
   #set par(justify: false, leading: 1.5pt, spacing: 3pt, first-line-indent: 0pt)
   #corpo
 ]
@@ -115,18 +124,10 @@
   #v(4pt, weak: false)
 ]
 
-// Le identità e il contatore rimangono quelli di footnote.
-// Un riferimento ripetuto collega la stessa voce senza stamparla due volte.
-#let richiamo-nota(nota) = context {
-  let ripetuta = type(nota.body) == label
-  let originale = nota-originale(nota)
-  let origine = originale.location()
-  // Il selettore individua direttamente la voce, senza filtrare tutte le ancore.
-  let ancore = query(selector(<booklet-note-entry>).and(metadata.where(value: origine)))
-  let destinazione = if ancore.len() == 0 { origine } else { ancore.first().location() }
-  disegna-richiamo(originale, destinazione)
-  if ripetuta { return }
-
+// Lo stesso posizionamento serve al flusso ordinario e alle note rimaste nelle
+// sagome locali. Il secondo caso lo invoca soltanto fuori dalle misure Meander.
+#let colloca-voce(nota) = {
+  let origine = nota.location()
   // La box vuota non interrompe il paragrafo. place non riserva altro spazio:
   // la fascia è già sottratta alla gabbia nel solo corpo dei capitoli.
   box(width: 0pt, height: 0pt)[#context {
@@ -151,4 +152,31 @@
       ]
     ]
   }]
+}
+
+// I marker dell'overflow tornano ordinari e non appartengono a questa query.
+// La ricerca delle note native evita voci duplicate per richiami ripetuti.
+#let voci-sagoma(regione) = context {
+  let origini = query(<booklet-richiamo-sagomato>)
+    .filter(m => m.value.regione == regione).map(m => m.value.origine)
+  for nota in query(footnote) {
+    if type(nota.body) != label and nota.location() in origini {
+      colloca-voce(nota)
+    }
+  }
+}
+
+// Le identità e il contatore rimangono quelli di footnote.
+// Un riferimento ripetuto collega la stessa voce senza stamparla due volte.
+#let richiamo-nota(nota) = context {
+  let ripetuta = type(nota.body) == label
+  let originale = nota-originale(nota)
+  let origine = originale.location()
+  // Il selettore individua direttamente la voce, senza filtrare tutte le ancore.
+  let ancore = query(selector(<booklet-note-entry>).and(metadata.where(value: origine)))
+  let destinazione = if ancore.len() == 0 { origine } else { ancore.first().location() }
+  disegna-richiamo(originale, destinazione)
+  // Il richiamo e l'ancora vuota appartengono alla stessa riga: se il numero
+  // chiude la colonna, la voce deve restare sulla pagina di quel richiamo.
+  if not ripetuta { sym.wj; colloca-voce(nota) }
 }

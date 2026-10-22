@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1055" height="1491" viewBox="0 0 1055 1491" overflow="hidden" role="img" aria-labelledby="titolo descrizione">
+  <title id="titolo">Ricerca, persone e culture</title>
+  <desc id="descrizione">Campi di osservazione e aperture intrecciate con una lente rosa centrale, ricostruiti dal concept selezionato. Titolo e numero sono composti separatamente.</desc>
+  <g id="campo-capitolo" data-palette="principale" fill="#FFB86A"><rect width="1055" height="1491"/></g>
+  <g id="campo-osservazione-superiore" data-palette="inchiostro" fill="#2E3138">
+    <path d="M1055 16 C870 16 678 111 569 263 C599 270 617 280 623 300 C629 320 608 347 588 366 C568 385 555 399 543 417 C624 434 690 465 738 547.166381 C748 410 904 263 1055 263 Z"/>
+  </g>
+  <g id="piano-diagonale-destro" data-palette="inchiostro" fill="#2E3138">
+    <!-- La fascia ha bordi paralleli; i nodi delle intersezioni coincidono con quelli del campo bianco. -->
+    <path d="M738 547.166381 L1055 427 V792.464837 L890 855.012007 C854 761 799 652 738 547.166381 Z"/>
+  </g>
+  <g id="piano-diagonale-centrale" data-palette="inchiostro" fill="#2E3138">
+    <path d="M264 726.847341 L472 648 C452 795 495 900 577 973.662093 L402 1040 Z"/>
+  </g>
+  <g id="campo-osservazione-inferiore" data-palette="inchiostro" fill="#2E3138">
+    <path d="M890 855.012007 C909 924 978 968 1055 978 V1244 C981 1238 920 1220 862 1193 C812 1170 767 1146 723 1108 C824 1050 891 973 890 855.012007 Z"/>
+    <path d="M587 988 C622 1038 678 1081 723 1108 C665 1139 602 1166 529 1167 Z"/>
+    <path d="M361 1367 C239 1451.586667 109 1485 39 1491 H413 L452 1384 C420 1377.5 387 1371.597561 361 1367 Z"/>
+  </g>
+  <g id="apertura-circolare" data-palette="carta" fill="#FFFFFF">
+    <!-- Il distacco fra 472,617 e 472,648 appartiene allo spazio negativo del concept. -->
+    <path d="M543 417 C489 496 473 558 472 617 C330 619 209 734 209 879 C209 1042 340 1166 529 1167 C495 1244 436 1315 361 1367 C197 1338 63 1222 0 1061 V714 C116 500 324 371 543 417 Z"/>
+  </g>
+  <g id="apertura-diagonale-centrale" data-palette="carta" fill="#FFFFFF">
+    <path d="M472 648 L738 547.166381 C799 652 854 761 890 855.012007 L577 973.662093 C620 941 636 891 628 838 C617 755 555 667 472 648 Z"/>
+  </g>
+  <g id="apertura-diagonale-inferiore" data-palette="carta" fill="#FFFFFF">
+    <path d="M529 1167 C602 1166 665 1139 723 1108 C767 1146 812 1170 862 1193 L761 1491 H413 Z"/>
+  </g>
+  <g id="intersezione-rosa" data-palette="secondario" fill="#FB64B6">
+    <path d="M472 648 C555 667 617 755 628 838 C636 891 620 941 577 973.662093 C495 900 452 795 472 648 Z"/>
+  </g>
+</svg>

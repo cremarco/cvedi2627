@@ -8,17 +8,36 @@
 #import "figure.typ": immagine, schermata
 #import "pagine.typ": appunti
 #import "bibliografia.typ": pagina-bibliografia
-#let colore-capitolo = state("colore-capitolo", rgb("FFA2A2"))
+#import "palette.typ": accento-preliminari, accento-capitolo
+#let colore-capitolo = state("colore-capitolo", accento-preliminari)
+
+// Misure del testo discorsivo. Il preset approvato è 11/13,5 pt;
+// l'input della CLI conserva il confronto con la composizione precedente.
+#let varianti-lettura = (
+  "12-14": (corpo: 12pt, interlinea: 14pt),
+  "11-13.5": (corpo: 11pt, interlinea: 13.5pt),
+)
+#let variante-lettura = sys.inputs.at("lettura", default: "11-13.5")
+#assert(variante-lettura in varianti-lettura,
+  message: "La lettura accetta soltanto 11-13.5 oppure 12-14.")
+#let misure-lettura = varianti-lettura.at(variante-lettura)
+
+// I rimandi autore–anno restano leggibili senza prevalere sulla prosa.
+// La misura relativa mantiene il rapporto anche nelle didascalie.
+#let scala-citazioni = 10 / 11
+#let colore-citazioni = rgb("626872")
 
 // Il folio è condiviso dalle pagine ordinarie e dalla prova delle note a tutta gabbia.
-#let folio() = context {
+#let folio(romano: false) = context {
   let lato = if calc.odd(counter(page).get().first()) { right } else { left }
   let numero = counter(page).get().first()
-  let cifre = if numero < 10 { "00" + str(numero) }
+  let cifre = if romano { numbering("i", numero) }
+    else if numero < 10 { "00" + str(numero) }
     else if numero < 100 { "0" + str(numero) } else { str(numero) }
   align(lato, rect(width: 32pt, height: 22pt, fill: colore-capitolo.get(),
     stroke: none, inset: 4pt)[
     #set text(size: 12pt, weight: 500, variations: (opsz: 14))
+    #set par(leading: 2pt)
     #align(center + horizon, cifre)
   ])
 }
@@ -39,6 +58,8 @@
     // occupano un corpo intero. Con leading 2pt il corpo 12 ha interlinea 14.
     variations: (opsz: 18), top-edge: 0.9em, bottom-edge: -0.1em)
   set par(justify: true, leading: 2pt, spacing: 10pt, first-line-indent: 0pt)
+  // Font matematico distribuito con Typst, disponibile anche senza font di sistema.
+  show math.equation: set text(font: "New Computer Modern Math", weight: 400)
   // Consuma strong: lasciarlo nel wrapper aggiungerebbe ancora il suo peso.
   show strong: it => text(weight: 700, variations: (opsz: 14), it.body)
   set page(width: pagina-larghezza, height: pagina-altezza, binding: left,
@@ -74,27 +95,42 @@
   set footnote.entry(separator: line(length: 30%, stroke: 0.4pt + inchiostro),
     clearance: 8pt, gap: 4pt)
   set cite(style: "apa")
-  set figure(gap: distacco-didascalia, supplement: [Figura])
+  show cite: set text(size: scala-citazioni * 1em, fill: colore-citazioni)
+  // Le figure ordinarie lasciano proseguire il testo nello spazio disponibile.
+  // I contenitori di composizioni fisse impostano placement: none localmente.
+  set figure(gap: distacco-didascalia, supplement: [Figura], placement: auto)
   show figure.caption: it => disegna-didascalia(it.body,
     prefisso: [#it.supplement #context it.counter.display(it.numbering)])
 
   // Typst #4359: una figura mobile conserva il punto d'inserimento logico.
-  // Il marker invisibile segue l'immagine senza cambiare la composizione.
+  // Anche i pannelli dentro una tavola mobile ricevono un'ancora visiva:
+  // placement: none descrive il pannello, non il movimento del contenitore.
   show figure: fig => {
-    if fig.placement == none { return fig }
+    // I testi costruiti negli esempi conservano la propria scala didattica
+    // anche quando si prova un corpo diverso nella prosa circostante.
     show image: visuale => [#metadata(fig.location()) <booklet-figure-anchor>#visuale]
-    fig
+    // I confronti costruiti soltanto con testo e glifi non contengono image.
+    // La seconda ancora è usata solo se manca quella della visuale.
+    show block: blocco => [#metadata(fig.location()) <booklet-figure-block-anchor>#blocco]
+    if variante-lettura == "11-13.5" {
+      set text(size: 12pt)
+      set par(leading: 2pt)
+      fig
+    } else { fig }
   }
   // I richiami usano la posizione visiva, ma contatore e supplemento nativi.
-  // Le altre figure, i titoli e le citazioni bibliografiche restano invariati.
   show ref.where(form: "normal"): it => {
     let fig = it.element
-    if fig == none or fig.func() != figure or fig.placement == none { return it }
-    // Solo le figure mobili richiedono una query: i rimandi fissi restano
-    // nativi, senza introdurre un contesto dentro le misure delle sagome.
+    if fig == none or fig.func() != figure { return it }
+    // Le figure prive di immagini, come alcuni campioni testuali, conservano
+    // la destinazione nativa quando non hanno un'ancora visiva.
     context {
       let ancore = query(selector(<booklet-figure-anchor>)
         .and(metadata.where(value: fig.location())))
+      if ancore.len() == 0 {
+        ancore = query(selector(<booklet-figure-block-anchor>)
+          .and(metadata.where(value: fig.location())))
+      }
       if ancore.len() == 0 or fig.numbering == none { return it }
       let supplemento = if it.supplement == auto { fig.supplement }
         else if type(it.supplement) == function { (it.supplement)(fig) }
@@ -117,18 +153,18 @@
 ]
 
 // Apertura e chiusura del capitolo. numero conserva l'ordine del piano editoriale.
-// visuale è il path() dell'SVG condiviso, esteso a tutta pagina nell'apertura.
+// visuale è il fondo SVG senza testo; composizione contiene le quote approvate.
 // fonti è il path() del .bib o .yml di questo capitolo; corpo è prosa continua.
-#let capitolo(numero: 1, titolo: [], tema: none, accento: rgb("FFA2A2"),
+#let capitolo(numero: 1, titolo: [], composizione: none, accento: accento-capitolo(1),
   visuale: none, fonti: none, gruppi-fonti: none, corpo) = {
   // Il prefisso appartiene al capitolo anche quando un richiamo è altrove.
   // Il progressivo rimane il contatore nativo, azzerato prima del corpo.
   set figure(numbering: n => str(numero) + "." + str(n))
   colore-capitolo.update(accento)
-  // Il numero editoriale parte da 01; il tema mantiene la composizione approvata.
+  // Il numero editoriale parte da 01; il titolo resta un heading nativo.
   counter(heading).update((numero - 1, 0, 0))
-  apertura(numero: numero, titolo: titolo, tema: tema,
-    accento: accento, visuale: visuale)
+  apertura(numero: numero, titolo: titolo, composizione: composizione,
+    visuale: visuale)
   // I contatori ripartono per capitolo; indice e richiami restano automatici.
   counter(heading).update((numero, 0, 0))
   counter(figure.where(kind: image)).update(0)
@@ -136,6 +172,8 @@
   // Fascia di 35 mm confermata dall'utente sotto entrambe le colonne.
   // Il gruppo locale applica la gabbia solo al corpo, non ad aperture e bibliografia.
   {
+    set text(size: misure-lettura.corpo)
+    set par(leading: misure-lettura.interlinea - misure-lettura.corpo)
     set page(margin: margini(bottom: margini().bottom + spazio-note + distacco-note),
       footer-descent: spazio-note + distacco-note + discesa-folio)
     // L'apparato originale di colonna non deve essere duplicato.

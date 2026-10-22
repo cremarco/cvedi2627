@@ -1,0 +1,127 @@
+{
+  "id": "griglia-materiali-caso-responsive",
+  "codice": "materiali-caso-responsive",
+  "percorso": "assets/images/figure/griglia/caso-responsive-dossi/vogue-desktop-telefono-storico.svg",
+  "sha256": "dbbcda7c6fa0a522870ce5ac2ce345dcf1b1c81db4da9546659877e0c9b11d94",
+  "byte": 922137,
+  "formato": "SVG",
+  "dimensioni_px": [
+    2004,
+    1225
+  ],
+  "tipo": "documento",
+  "provenienza": {
+    "pdf": "materiali/approfondimenti/2023-2024/dossi-gloria-899821.pdf",
+    "pdf_sha256": "7c74606d2406219e526f8eb4fd3afe1b098e5d3c0a4d8147c95955306a63f221",
+    "pagine_pdf": [
+      9
+    ],
+    "autore_elaborato": "Gloria Dossi",
+    "raccolta": "2023-2024",
+    "titolo_elaborato": "La griglia in tipografia e nel web: differenze e analogie",
+    "sezione": "Esempi di Responsive Design",
+    "opera": "Schermate storiche del sito Vogue Italia, confronto desktop/telefono",
+    "marchio": "Vogue Italia",
+    "data_acquisizione_originale": null,
+    "data_estrazione": "2026-10-22",
+    "metodo": "Estrazione dei quattro tasselli originali del montaggio, ricomposti tramite SVG alle posizioni relative attestate nel PDF; sovrapposizione di 2 px fra tasselli conservata. Aggiunte soltanto due etichette editoriali esterne."
+  },
+  "attribuzione": {
+    "opera": "Vogue Italia; gli autori e i crediti visibili delle opere restano nelle schermate originali.",
+    "provenienza_locale": "Elaborato di Gloria Dossi, raccolta 2023–2024, pagina PDF 9. La provenienza dell’elaborato è registrata qui e non fa parte del testo stampato."
+  },
+  "diritti": {
+    "licenza": null,
+    "nota": "Copyright dei rispettivi aventi diritto; nessuna nuova licenza assegnata. Il PDF non attesta una licenza aperta per le schermate."
+  },
+  "originali": [
+    {
+      "risorsa_pdf": "Im8.jpg",
+      "percorso": "assets/images/figure/griglia/caso-responsive-dossi/originali/vogue-superiore-sinistro.jpg",
+      "sha256": "77c9ef0932ce22b0f68713af8bc92da317d513af2bdf5018cd9bc14bc6cd15e0",
+      "byte": 285170,
+      "dimensioni_px": [
+        1070,
+        903
+      ],
+      "formato": "JPEG",
+      "modo_colore": "CMYK",
+      "x_composito_px": 0,
+      "y_composito_px": 64,
+      "estrazione": "Bytes di pypdf PageObject.images, senza ricampionamento o conversione cromatica."
+    },
+    {
+      "risorsa_pdf": "Im9.jpg",
+      "percorso": "assets/images/figure/griglia/caso-responsive-dossi/originali/vogue-superiore-destro.jpg",
+      "sha256": "cda8ead6d88ca70730d54133b7bf607f3d4c92237b4dc7b0a0abbc2f1d070164",
+      "byte": 367244,
+      "dimensioni_px": [
+        936,
+        1032
+      ],
+      "formato": "JPEG",
+      "modo_colore": "CMYK",
+      "x_composito_px": 1068,
+      "y_composito_px": 64,
+      "estrazione": "Bytes di pypdf PageObject.images, senza ricampionamento o conversione cromatica."
+    },
+    {
+      "risorsa_pdf": "Im10.png",
+      "percorso": "assets/images/figure/griglia/caso-responsive-dossi/originali/vogue-inferiore-sinistro.png",
+      "sha256": "cbaaa342267475b5eddd2b74e90e7deecc36caaba068f9a79fdd6fac6568ac2a",
+      "byte": 1452,
+      "dimensioni_px": [
+        1070,
+        260
+      ],
+      "formato": "PNG",
+      "modo_colore": "RGB",
+      "x_composito_px": 0,
+      "y_composito_px": 965,
+      "estrazione": "Bytes di pypdf PageObject.images, senza ricampionamento o conversione cromatica."
+    },
+    {
+      "risorsa_pdf": "Im11.jpg",
+      "percorso": "assets/images/figure/griglia/caso-responsive-dossi/originali/vogue-inferiore-destro.jpg",
+      "sha256": "a1ad457683a9723b5fb78026a453f4f88854eac38afb3f94c44c04b008389755",
+      "byte": 37109,
+      "dimensioni_px": [
+        936,
+        131
+      ],
+      "formato": "JPEG",
+      "modo_colore": "CMYK",
+      "x_composito_px": 1068,
+      "y_composito_px": 1094,
+      "estrazione": "Bytes di pypdf PageObject.images, senza ricampionamento o conversione cromatica."
+    }
+  ],
+  "didascalia_suggerita": "Vogue Italia: confronto storico fra la disposizione desktop e quella per telefono. La testata cambia proporzioni e il contenuto editoriale affiancato passa a una sequenza verticale; il montaggio e la sovrapposizione delle due viste appartengono alla fonte.",
+  "alt_suggerito": "Montaggio storico del sito Vogue Italia: a sinistra la pagina desktop con testata, navigazione orizzontale e due contenuti affiancati; a destra, sovrapposta, la vista per telefono con testata compatta e contenuti in successione verticale.",
+  "osservazioni_verificabili": [
+    "La vista desktop mostra una testata centrata e più grande rispetto al marchio della vista per telefono.",
+    "La vista desktop presenta una riga di categorie sotto la testata; nella vista per telefono la riga di categorie non è visibile e rimangono icona del menu e Abbonamenti.",
+    "Il contenuto di copertina e il contributo In the bag sono affiancati nella vista desktop. Nella vista per telefono il contributo In the bag compare sotto la copertina.",
+    "Il titolo di copertina è disteso su più righe nella vista per telefono.",
+    "La data 27 dicembre 2023 è visibile nel contenuto editoriale; non dimostra la data della cattura."
+  ],
+  "cautele": [
+    "Le immagini documentano il montaggio presente nella raccolta 2023–2024; non attestano l’interfaccia attuale del sito.",
+    "Le due viste sono già sovrapposte dentro le immagini originali. Le porzioni desktop coperte dalla vista telefono non sono state ricostruite.",
+    "I viewport originali, i breakpoint, il codice CSS e il comportamento interattivo non sono attestati: non ricavarli dalle misure del montaggio.",
+    "Le etichette Desktop e Telefono sono editoriali; non è stato aggiunto alcun elemento all’interfaccia riprodotta."
+  ],
+  "leggibilita": {
+    "dimensioni_composito_px": [
+      2004,
+      1225
+    ],
+    "larghezza_uso_suggerita_pt": 388.35,
+    "nota": "A gabbia intera sono riconoscibili testate, immagini, titoli e cambi di distribuzione; i piccoli nomi delle categorie non vanno usati come dettaglio didattico da leggere nel PDF.",
+    "verifica": "Composito compilato con Typst 0.15.1 a larghezza 140 mm e renderizzato con Poppler. Testate, immagini e titoli principali leggibili; nessun tassello mancante, nessuna deformazione introdotta."
+  },
+  "dimensioni_editoriali_suggerite_pt": [
+    388.35,
+    237.38959580838323
+  ]
+}

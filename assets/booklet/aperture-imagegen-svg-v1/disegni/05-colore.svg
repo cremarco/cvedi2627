@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1055" height="1491" viewBox="0 0 1055 1491" role="img" aria-labelledby="titolo descrizione" overflow="hidden">
+  <title id="titolo">Colore e significato: campioni e contesti</title>
+  <desc id="descrizione">Due quadrati corallo identici appaiono in contesti diversi. Un nastro continuo a diciassette tinte attraversa la pagina lime, con campi scuri, chiari e violetti. Titolo e numero sono composti separatamente.</desc>
+  <defs>
+    <clipPath id="profilo-nastro-continuo" clipPathUnits="userSpaceOnUse">
+      <path id="contorno-nastro" d="M861 75 H754 A304 276 0 0 0 592.760082 584.979268 L776.512587 689.354981 A89 162 0 0 1 750 1006 H449 A388 319.60005 0 0 0 117 1491 H617 A215 99 0 0 0 402 1392 A158 128 0 0 1 402 1136 H750 A250 292 0 0 0 772.634592 553.199253 L731.085971 548.787416 A201 186 0 0 1 754 178 H861 A380 338 0 0 0 1241 -160 H1110 A249 235 0 0 1 861 75 Z" />
+    </clipPath>
+  </defs>
+  <g id="campo-capitolo" data-palette="principale" fill="#BBF451">
+    <rect id="fondo-lime" width="1055" height="1491" />
+  </g>
+  <g id="contesti-scuri" data-palette="inchiostro" fill="#2E3138">
+    <path id="contesto-superiore" d="M754 0H1055V690H939L730 625L754 573A250 222 0 0 1 754 129V0Z" />
+    <path id="contesto-inferiore" d="M1055 1098H894A266 240 0 0 0 628 1338V1491H1055Z" />
+  </g>
+  <g id="contesti-secondari" data-palette="secondario">
+    <path id="campo-giallo" fill="#FDC700" d="M0 451H170A234 199 0 0 1 404 650V1008H0Z" />
+    <path id="campo-menta" fill="#E4FBDA" d="M521 580H305A260 276 0 0 0 45 856V1491H521Z" />
+    <path id="campo-bianco" data-palette="carta" fill="#FFFFFF" d="M45 1225H245A317 266 0 0 1 562 1491H45Z" />
+    <path id="campo-violetto" fill="#A684FF" d="M939 335A116 117 0 0 1 1055 218V690H939Z" />
+  </g>
+  <g id="nastro-spettrale" data-palette="spettro" clip-path="url(#profilo-nastro-continuo)">
+    <path id="spettro-red" data-palette="spettro" data-famiglia="red" fill="#FF6467" stroke="#FF6467" stroke-width="0.5" stroke-linejoin="round" d="M-300 -300 L376.466418 -300 L734.669753 376.045731 L730.713339 375.304888 L-300 -120.381679 Z" />
+    <path id="spettro-orange" data-palette="spettro" data-famiglia="orange" fill="#FF8904" stroke="#FF8904" stroke-width="0.5" stroke-linejoin="round" d="M376.466418 -300 L688.132743 -300 L792.178101 391.595614 L754.055151 386.942492 L734.669753 376.045731 Z" />
+    <path id="spettro-amber" data-palette="spettro" data-famiglia="amber" fill="#FFB900" stroke="#FFB900" stroke-width="0.5" stroke-linejoin="round" d="M688.132743 -300 L758.363462 -300 L861.882025 -94.543308 L910.825685 412.373166 L803.13709 395.444846 L792.178101 391.595614 Z" />
+    <path id="spettro-yellow" data-palette="spettro" data-famiglia="yellow" fill="#FDC700" stroke="#FDC700" stroke-width="0.5" stroke-linejoin="round" d="M861.882025 -94.543308 L1400 434.376068 L1400 489.268848 L1299.112257 483.671946 L920.229429 416.328985 L910.825685 412.373166 Z" />
+    <path id="spettro-lime" data-palette="spettro" data-famiglia="lime" fill="#9AE600" stroke="#9AE600" stroke-width="0.5" stroke-linejoin="round" d="M758.363462 -300 L1400 -300 L1400 434.376068 L861.882025 -94.543308 Z M-300 512.733333 L-300 -120.381679 L730.713339 375.304888 Z" />
+    <path id="spettro-green" data-palette="spettro" data-famiglia="green" fill="#05DF72" stroke="#05DF72" stroke-width="0.5" stroke-linejoin="round" d="M-300 516.968661 L-300 512.733333 L730.713339 375.304888 L734.669753 376.045731 L754.055151 386.942492 L709.340122 425.181551 L177.034309 710.15335 L-23.589888 642.967572 Z" />
+    <path id="spettro-emerald" data-palette="spettro" data-famiglia="emerald" fill="#00D492" stroke="#00D492" stroke-width="0.5" stroke-linejoin="round" d="M177.034309 710.15335 L709.340122 425.181551 L461.541114 807.653933 L251.074705 746.631127 Z" />
+    <path id="spettro-teal" data-palette="spettro" data-famiglia="teal" fill="#00D5BE" stroke="#00D5BE" stroke-width="0.5" stroke-linejoin="round" d="M461.541114 807.653933 L709.340122 425.181551 L754.055151 386.942492 L792.178101 391.595614 L803.13709 395.444846 L579.9513 836.744021 L495 823.476139 Z" />
+    <path id="spettro-cyan" data-palette="spettro" data-famiglia="cyan" fill="#00D3F2" stroke="#00D3F2" stroke-width="0.5" stroke-linejoin="round" d="M579.9513 836.744021 L803.13709 395.444846 L910.825685 412.373166 L920.229429 416.328985 L705.950419 848.458321 L627.357201 854.819652 Z" />
+    <path id="spettro-sky" data-palette="spettro" data-famiglia="sky" fill="#00BCFF" stroke="#00BCFF" stroke-width="0.5" stroke-linejoin="round" d="M705.950419 848.458321 L920.229429 416.328985 L1299.112257 483.671946 L748.139271 854.624055 L736.957166 857.097972 Z" />
+    <path id="spettro-blue" data-palette="spettro" data-famiglia="blue" fill="#51A2FF" stroke="#51A2FF" stroke-width="0.5" stroke-linejoin="round" d="M1400 489.268848 L1400 948.492 L748.139271 854.624055 L1299.112257 483.671946 Z" />
+    <path id="spettro-indigo" data-palette="spettro" data-famiglia="indigo" fill="#7C86FF" stroke="#7C86FF" stroke-width="0.5" stroke-linejoin="round" d="M1400 948.492 L1400 1562.9 L1139.088956 1437.494369 L736.957166 857.097972 L748.139271 854.624055 Z" />
+    <path id="spettro-violet" data-palette="spettro" data-famiglia="violet" fill="#A684FF" stroke="#A684FF" stroke-width="0.5" stroke-linejoin="round" d="M708.338699 1307.363316 L627.357201 854.819652 L705.950419 848.458321 L736.957166 857.097972 L1139.088956 1437.494369 Z M-23.589888 642.967572 L177.034309 710.15335 L251.074705 746.631127 L417.052039 1265.842275 L343.507513 1286.854996 L325.083946 1279.144392 Z" />
+    <path id="spettro-purple" data-palette="spettro" data-famiglia="purple" fill="#C27AFF" stroke="#C27AFF" stroke-width="0.5" stroke-linejoin="round" d="M251.074705 746.631127 L461.541114 807.653933 L495 823.476139 L495 1270.250643 L417.052039 1265.842275 Z M-300 1011.631068 L-300 516.968661 L-23.589888 642.967572 L325.083946 1279.144392 L310.940402 1278.546778 Z" />
+    <path id="spettro-fuchsia" data-palette="spettro" data-famiglia="fuchsia" fill="#ED6AFF" stroke="#ED6AFF" stroke-width="0.5" stroke-linejoin="round" d="M495 1270.250643 L495 823.476139 L579.9513 836.744021 L627.357201 854.819652 L708.338699 1307.363316 L597.698203 1314.603594 Z" />
+    <path id="spettro-pink" data-palette="spettro" data-famiglia="pink" fill="#FB64B6" stroke="#FB64B6" stroke-width="0.5" stroke-linejoin="round" d="M-300 1478.490909 L-300 1011.631068 L310.940402 1278.546778 Z" />
+    <path id="spettro-rose" data-palette="spettro" data-famiglia="rose" fill="#FF637E" stroke="#FF637E" stroke-width="0.5" stroke-linejoin="round" d="M150.776995 1800 L-300 1800 L-300 1478.490909 L310.940402 1278.546778 L325.083946 1279.144392 L343.507513 1286.854996 Z M355 1800 L150.776995 1800 L343.507513 1286.854996 L417.052039 1265.842275 L495 1270.250643 L597.698203 1314.603594 Z M1400 1562.9 L1400 1800 L355 1800 L597.698203 1314.603594 L708.338699 1307.363316 L1139.088956 1437.494369 Z" />
+  </g>
+  <g id="campioni-identici" data-palette="secondario" fill="#FF6467">
+    <rect id="campione-su-scuro" x="651" y="302" width="207" height="208" />
+    <rect id="campione-su-chiaro" x="204" y="727" width="207" height="208" />
+  </g>
+</svg>

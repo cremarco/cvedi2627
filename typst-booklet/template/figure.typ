@@ -1,14 +1,15 @@
-// Inserti documentari a pagina intera, separati dalla prosa continua.
-// Si usano solo per figure che avevano questo formato nella fonte Figma.
+// Figure ordinarie e inserti documentari mobili: la prosa scorre fra i fogli.
+// Il formato a pagina intera resta distinto dalla posizione nel volume.
 #import "editoriale.typ": didascalia as disegna-didascalia, contenuto-didascalia
-#import "pagine.typ": pagina-documentaria, pagina-al-vivo
+#import "pagine.typ": tavola-mobile, pagina-al-vivo
 #import "geometria.typ": altezza-gabbia, spazio-note, distacco-note
 
-// Figura nel flusso ordinario. placement e scope passano direttamente a Typst:
+// Figura mobile ordinaria. placement e scope passano direttamente a Typst:
 // top + "parent" usa tutta la gabbia senza imporre una pagina alla prosa.
+// Senza opzioni eredita lo stile: auto nel corpo, none nelle tavole composte.
 #let immagine(file, didascalia, diritti: none, alt: none, width: 100%,
-  placement: none, scope: "column") = figure(
-  image(file, width: width, alt: alt), placement: placement, scope: scope,
+  ..posizione) = figure(
+  image(file, width: width, alt: alt), ..posizione,
   caption: contenuto-didascalia(didascalia, diritti: diritti),
 )
 
@@ -62,7 +63,7 @@
   assert(type(id) == str and id != "", message: "Assegnare un id univoco alla figura.")
   // Questi inserti non contengono note: recuperano la gabbia ordinaria del foglio.
   // Richiami bibliografici e URL di consultazione restano nella prosa precedente.
-  pagina-documentaria[
+  tavola-mobile[
     #layout(spazio => context {
       let contenuto = contenuto-didascalia(didascalia, diritti: diritti)
       // Si misura soltanto la didascalia per ricavare lo spazio dell'immagine.

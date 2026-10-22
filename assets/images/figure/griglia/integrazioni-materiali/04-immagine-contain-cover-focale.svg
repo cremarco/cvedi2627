@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="389" height="254" viewBox="0 0 389 254" fill="none">
+<title>Ritagli della stessa immagine: contain e cover</title>
+<defs><g id="paesaggio"><rect x="0" y="0" width="320" height="180" fill="#EEF0FF"/>
+<path d="M0 117L61 65L131 124L196 75L270 129L320 102V180H0Z" fill="#A3B3FF"/>
+<rect x="0" y="144" width="320" height="36" fill="#DCE2E6"/>
+<circle cx="48" cy="35" r="14" fill="#FFFFFF"/>
+<rect x="277" y="102" width="7" height="48" fill="#2E3138"/>
+<path d="M280 60L257 112H303Z" fill="#2E3138"/></g><clipPath id="campo-0"><rect x="12" y="126" width="107" height="116"/></clipPath><clipPath id="campo-1"><rect x="141" y="126" width="107" height="116"/></clipPath><clipPath id="campo-2"><rect x="270" y="126" width="107" height="116"/></clipPath></defs>
+<g fill="#2E3138" font-family="DM Sans 9pt">
+<text x="12" y="16" font-size="10" font-weight="500" text-anchor="start">Immagine completa</text>
+<use href="#paesaggio" transform="translate(12 25) scale(0.35)"/>
+<text x="146" y="44" font-size="10" font-weight="400" text-anchor="start">Il soggetto è sul lato destro.</text>
+<text x="146" y="61" font-size="10" font-weight="400" text-anchor="start">Cambia il ritaglio, non il campo.</text>
+<text x="12" y="116" font-size="10" font-weight="500" text-anchor="start">contain</text>
+<rect x="12" y="126" width="107" height="116" fill="#E9ECEE"/>
+<g clip-path="url(#campo-0)"><use href="#paesaggio" transform="translate(12 153.906) scale(0.334375)"/></g>
+<text x="141" y="116" font-size="10" font-weight="500" text-anchor="start">cover: centro</text>
+<rect x="141" y="126" width="107" height="116" fill="#E9ECEE"/>
+<g clip-path="url(#campo-1)"><use href="#paesaggio" transform="translate(91.3889 126) scale(0.644444)"/></g>
+<text x="270" y="116" font-size="10" font-weight="500" text-anchor="start">cover: punto focale</text>
+<rect x="270" y="126" width="107" height="116" fill="#E9ECEE"/>
+<g clip-path="url(#campo-2)"><use href="#paesaggio" transform="translate(170.778 126) scale(0.644444)"/></g>
+</g>
+</svg>

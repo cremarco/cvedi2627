@@ -1,0 +1,147 @@
+{
+  "consultato": "2026-10-21",
+  "criterio": "Fonti primarie, cataloghi delle istituzioni e documentazione degli autori. Analisi visive dichiarate come letture della composizione; nessuna attribuzione di efficacia sperimentale.",
+  "fonti": [
+    {
+      "id": "muller",
+      "titolo": "Josef Müller-Brockmann, Grid systems in graphic design",
+      "anno": 1981,
+      "editore": "Arthur Niggli",
+      "url": "https://niggli.ch/products/rastersysteme-fur-die-visuelle-gestaltung",
+      "verifica": "Data 1981, autore, titolo bilingue e ISBN confermati nella scheda dell’editore Niggli. Il manuale codifica il metodo, non inventa la griglia.",
+      "urlCatalogoPrecedente": "https://library.cca.edu/bib/19410",
+      "isbn": "978-3-7212-0145-1"
+    },
+    {
+      "id": "musica",
+      "titolo": "Josef Müller-Brockmann, Musica Viva",
+      "anno": 1957,
+      "url": "https://www.moma.org/collection/works/4885",
+      "verifica": "MoMA: fotolitografia, dono dell'artista. Analisi degli allineamenti distinta da ricostruzione del reticolo originale.",
+      "asset": "assets/booklet/capitolo-2/muller-brockmann-musica-viva-1957.jpg",
+      "diritti": "Opera di Josef Müller-Brockmann. Immagine: MoMA, dono dell’artista. Il catalogo rinvia ad Art Resource e Scala Archives per le riproduzioni; nessuna licenza aperta dichiarata."
+    },
+    {
+      "id": "unigrid",
+      "titolo": "National Park Service, A Brief History of the Unigrid",
+      "anno": 2023,
+      "url": "https://www.nps.gov/subjects/hfc/a-brief-history-of-the-unigrid.htm",
+      "verifica": "Vincent Gleason e Massimo Vignelli, 1977; prima brochure Clara Barton, 1978; pannelli 4 × 8¼ pollici. Non un unico impaginato prefissato.",
+      "imageUrl": "https://www.nps.gov/subjects/hfc/images/CLBA_01.jpg?autorotate=false&maxwidth=650",
+      "diritti": "Immagine: National Park Service, Harpers Ferry Center. La pagina non attribuisce una licenza specifica alla singola immagine."
+    },
+    {
+      "id": "greiman",
+      "titolo": "April Greiman, DOES IT MAKE SENSE? Design Quarterly 133",
+      "anno": 1986,
+      "url": "https://www.moma.org/audio/playlist/297/4835",
+      "verifica": "Titolo, autrice e data confermati dal museo e dalla testimonianza dell'autrice. Sovrapposizione e cambi di scala osservabili; non si presume l'assenza di una struttura.",
+      "imageUrl": "https://www.moma.org/d/assets/W1siZiIsIjIwMjYvMDMvMTEvNmtiNmJ6bXJ5aF9ncmVpbWFuLmpwZyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ/greiman.jpg?sha=ec90410037320bc4",
+      "diritti": "Opera di April Greiman. Immagine: MoMA, dono della designer. Nessuna licenza aperta dichiarata."
+    },
+    {
+      "id": "ggs",
+      "titolo": "Joni Korpi, Golden Grid System",
+      "url": "https://github.com/jonikorpi/Golden-Grid-System",
+      "verifica": "README originale: 18 colonne uguali, 2 margini, 16 utili; accorpamento in 8 o 4. Repository storico archiviato nel 2017. Licenza MIT per il codice; nessuna relazione geometrica necessaria con φ."
+    },
+    {
+      "id": "carbon",
+      "titolo": "IBM, Carbon Design System: 2x Grid",
+      "url": "https://www.carbondesignsystem.com/building-blocks/foundations/2x-grid/overview",
+      "aggiornamento": "2026-09-25",
+      "verifica": "Mini unità di 8 px; divisione e moltiplicazione per due; griglie fisse, fluide e ibride; colonne 4/8/16. Valori propri di Carbon, non standard universali."
+    },
+    {
+      "id": "cssgrid",
+      "titolo": "W3C, CSS Grid Layout Module Level 1",
+      "url": "https://www.w3.org/TR/css-grid-1/",
+      "verifica": "Righe, colonne, linee, tracce, aree e gap; posizionamento bidimensionale. L'ordine visivo non sostituisce l'ordine del documento. Non presentato come Recommendation definitiva."
+    },
+    {
+      "id": "reflow",
+      "titolo": "W3C WAI, Understanding SC 1.4.10 Reflow (WCAG 2.2, AA)",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html",
+      "verifica": "320 CSS px per contenuto a scorrimento verticale; assenza di perdita e doppio scorrimento salvo parti che richiedono due dimensioni. Equivalenza 1280 px al 400%. Non una verifica automatica di conformità dei mockup."
+    },
+    {
+      "id": "resize",
+      "titolo": "W3C WAI, Understanding SC 1.4.4 Resize Text",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html",
+      "verifica": "Testo ridimensionabile fino al 200% senza perdita di contenuto o funzionalità, con le eccezioni del criterio."
+    },
+    {
+      "id": "spacing",
+      "titolo": "W3C WAI, Understanding SC 1.4.12 Text Spacing",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",
+      "verifica": "Nessuna perdita applicando simultaneamente interlinea 1,5, spazio dopo paragrafi 2, lettere 0,12 e parole 0,16 volte il corpo, negli ambiti e con le eccezioni del criterio."
+    },
+    {
+      "id": "macro",
+      "titolo": "Google, web.dev Learn Responsive Design: Macro layouts",
+      "url": "https://web.dev/learn/design/macro-layouts",
+      "verifica": "Layout globali e adattamento al contenuto; CSS Grid e Flexbox. Possibili layout flessibili senza media query.",
+      "aggiornamento": "2021-11-03"
+    },
+    {
+      "id": "breakpoints",
+      "titolo": "Google, web.dev Learn Responsive Design: Media queries",
+      "url": "https://web.dev/learn/design/media-queries",
+      "verifica": "Breakpoints dal comportamento dei contenuti, senza obbligo di riprodurre categorie di dispositivi.",
+      "aggiornamento": "2025-08-23"
+    },
+    {
+      "id": "thirds",
+      "titolo": "Adobe, Understanding and using the rule of thirds in photography",
+      "url": "https://www.adobe.com/creativecloud/photography/technique/rule-of-thirds.html",
+      "verifica": "Due divisioni uguali per asse, quattro intersezioni; guida compositiva, distinta dalla sezione aurea. Nessuna garanzia universale di efficacia."
+    },
+    {
+      "id": "cssunits",
+      "titolo": "W3C, CSS Values and Units Module Level 3, § 5.2 Absolute Lengths",
+      "url": "https://www.w3.org/TR/css-values-3/#absolute-lengths",
+      "aggiornamento": "2024-03-22",
+      "verifica": "Il px CSS è distinto dal pixel del dispositivo. Su schermi ad alta densità un px CSS può corrispondere a più pixel fisici."
+    },
+    {
+      "id": "adaptive",
+      "titolo": "Google, web.dev Learn Responsive Design: Introduction",
+      "url": "https://web.dev/learn/design/intro",
+      "aggiornamento": "2021-11-03",
+      "consultato": "2026-10-21",
+      "verifica": "La sezione Adaptive layouts descrive poche larghezze fisse selezionate attraverso media query; Responsive web design combina griglie e media flessibili e media query. Terminologia qualificata con «si chiama spesso», senza presentarla come classificazione normativa."
+    },
+    {
+      "id": "container",
+      "titolo": "MDN Web Docs, CSS container queries",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Containment/Container_queries",
+      "consultato": "2026-10-21",
+      "verifica": "Le size container queries interrogano le dimensioni di un contenitore antenato predisposto; l’esempio dichiara container-type: inline-size e adatta i discendenti al contenitore. Il confronto nel capitolo riguarda la larghezza, non tutte le possibili media o container query."
+    }
+  ],
+  "corpusLocale": {
+    "inventario": "reports/analisi-griglia/mappa.json",
+    "analisi": "reports/analisi-griglia/analisi-griglia.txt",
+    "approfondimenti": 89,
+    "fileComplessivi": 99,
+    "sezioniEsplicite": 18
+  },
+  "decisioni": [
+    "I riferimenti agli elaborati e al recupero degli asset restano solo nei registri locali.",
+    "Le opere documentarie conservano proporzioni e colori originali.",
+    "Diagrammi ed esempi di interfaccia sono costruzioni modificabili, distinti dai casi documentari."
+  ],
+  "revisioneContenuto": "2026-10-21: nuova verifica di tutte le fonti; confronto integrale fra prosa, figure e destinazioni native dei link.",
+  "integrazioniContenuto": {
+    "data": "2026-10-21",
+    "pagine": [
+      518,
+      530,
+      531,
+      550
+    ],
+    "fontiPrimarieAggiunte": 2,
+    "formulaAccorpamenti": "s = kc + (k − 1)g; k intero da 1 a n; 2 × 66 + 5 = 137 mm",
+    "confermaFormula": "W3C CSS Grid Level 1, § 10.1 Gutters, https://www.w3.org/TR/css-grid-1/#gutters; verifica algebrica rispetto a W − L − R."
+  }
+}
