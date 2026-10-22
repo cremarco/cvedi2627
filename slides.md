@@ -75,7 +75,12 @@ footer: "Lezioni"
   <SlideAction to="percezione-gerarchia" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">05</span><span>Accessibilità e design inclusivo</span></SlideAction>
   <SlideAction to="gestalt" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">06</span><span>Gestalt</span></SlideAction>
   <SlideAction to="colore" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">07</span><span>Colore e significato</span></SlideAction>
-  <SlideAction to="tipografia-griglie" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Tipografia</span></SlideAction>
+  <div class="join join-horizontal index-lesson-type" role="group" aria-label="Tipografia e griglie">
+    <SlideAction to="tipografia-griglie" class="join-item index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">08</span><span>Tipografia</span></SlideAction>
+    <LocalOnly>
+    <SlideAction to="griglie-layout" class="join-item index-button" :show-arrow="false"><span>Griglie e layout</span></SlideAction>
+    </LocalOnly>
+  </div>
   <LocalOnly>
   <div class="index-ux-lessons" role="group" aria-label="Lezioni sul processo UX">
     <SlideAction to="prototipi-interfacce" class="index-button index-lesson" :show-arrow="false"><span class="index-chapter-number">09</span><span>Prototipi e videogiochi</span></SlideAction>
@@ -781,6 +786,11 @@ src: ./lezioni/06-colore.md
 
 ---
 src: ./lezioni/07-tipografia-griglie.md
+---
+
+---
+src: ./lezioni/07-griglie-layout.md
+localOnly: true
 ---
 
 ---

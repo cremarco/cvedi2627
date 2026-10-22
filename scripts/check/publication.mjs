@@ -4,6 +4,7 @@ import { readFile, realpath, readdir, access } from 'node:fs/promises'
 import { fileURLToPath } from 'node:url'
 import path from 'node:path'
 import { publicationExtensions, localAssetDirectories, sharedLessonAssetDirectories } from '../../utils/publication.mjs'
+import { readGridsManifest } from './grids-source.mjs'
 
 const root = fileURLToPath(new URL('../..', import.meta.url))
 
@@ -12,10 +13,12 @@ export async function checkPublication() {
   const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
   const exercises = JSON.parse(await readFile(path.join(root, 'assets/esercitazioni/manifest.json'), 'utf8'))
+  const grids = await readGridsManifest()
   const uxIds = new Set(curriculum.lessons.map(lesson => lesson.id))
   const localUxIds = curriculum.lessons.filter(lesson => lesson.localOnly === true).map(lesson => lesson.id)
   assert.deepEqual(localUxIds, ['prototipi-interfacce', 'test-implementazione'], 'only UX lessons 09 and 10 remain local after typography publication')
-  const localIds = new Set([...localUxIds, ...exercises.exercises.map(exercise => exercise.id)])
+  const supplementalIds = [grids.lesson]
+  const localIds = new Set([...localUxIds, ...supplementalIds, ...exercises.exercises.map(exercise => exercise.id)])
   const options = { roots: [root], userRoot: root, allowedRoots: [root] }
   injectPreparserExtensionLoader(async (_roots, _headmatter, _file, mode) => publicationExtensions(mode))
   try {
@@ -31,7 +34,9 @@ export async function checkPublication() {
       assert.equal(owned.length, lesson.slideCount, `${lesson.id}: local publication count matches the curriculum`)
       assert.ok(owned.every(slide => (slide.frontmatter.localOnly === true) === localIds.has(lesson.id)), `${lesson.id}: publication visibility matches the curriculum`)
     }
-    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount, 'complete local deck includes the new index and exercises')
+    assert.equal(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).length, grids.slideCount, 'supplementary grids count matches its independent current manifest')
+    assert.ok(local.slides.filter(slide => slide.frontmatter.lesson === grids.lesson).every(slide => slide.frontmatter.localOnly === true), 'all supplementary grids slides inherit local visibility')
+    assert.equal(local.slides.length, 243 + declaredUxSlides + exercises.slideCount + grids.slideCount, 'complete local deck includes the supplementary grids set, index and exercises')
     assert.equal(published.slides.length, 720, 'published deck includes the exercise index and preserves the published lessons')
     for (const deck of [local, published]) {
       assert.equal(deck.slides.filter(slide => slide.frontmatter.lesson === 'storia-design').length, 67, 'lesson 03 is available locally and online')
@@ -53,13 +58,17 @@ export async function checkPublication() {
     const supplementalTargets = ['brief-progetto', 'approfondimenti']
     const indexTargets = content => [...content.matchAll(/<SlideAction\s+to=["']([^"']+)["']/g)].map(match => match[1])
     const groupedPublicTargets = [...publicTargets.slice(0, 2), ...supplementalTargets, ...publicTargets.slice(2)]
-    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...localUxIds], 'local lesson index groups lesson 02 materials before continuing in lesson number order')
+    assert.deepEqual(indexTargets(localIndex), [...groupedPublicTargets, ...supplementalIds, ...localUxIds], 'local lesson index keeps materials grouped and places supplementary grids after typography')
     assert.deepEqual(indexTargets(publicIndex), groupedPublicTargets, 'published index preserves available destinations in reading order')
     for (const content of [localIndex, publicIndex]) {
       const lessonTwo = content.match(/<div\s+class="join join-horizontal index-lesson-two"[^>]*>([\s\S]*?)<\/div>/)?.[1]
       assert.ok(lessonTwo, 'lesson 02 has one accessible group')
       assert.deepEqual(indexTargets(lessonTwo), ['introduzione-teorica', ...supplementalTargets], 'lesson 02 contains exactly its three destinations')
     }
+    const typographyGroup = content => content.match(/<div\s+class="join join-horizontal index-lesson-type"[^>]*>([\s\S]*?)<\/div>/)?.[1]
+    assert.deepEqual(indexTargets(typographyGroup(localIndex) ?? ''), ['tipografia-griglie', ...supplementalIds], 'typography and the supplementary grids set share one readable local group')
+    assert.deepEqual(indexTargets(typographyGroup(publicIndex) ?? ''), ['tipografia-griglie'], 'the published typography destination stays active')
+    assert.ok(!Object.keys(published.markdownFiles).includes(path.join(root, 'lezioni/07-griglie-layout.md')), 'supplementary grids source never enters the published parser')
     assert.ok(localIndex.includes('index-ux-lessons'), 'local lesson index remains available')
     assert.ok(!publicIndex.includes('LocalOnly') && !publicIndex.includes('index-ux-lessons'), 'local index is removed before compilation')
     for (const deck of [local, published]) {
@@ -82,7 +91,7 @@ export async function checkPublication() {
       assert.ok(!publicIndex.includes(`to="${lesson.id}"`), `${lesson.id}: unpublished destination is absent`)
       assert.ok(!Object.keys(published.markdownFiles).includes(path.join(root, lesson.file)), `${lesson.id}: the source is never imported into the published bundle`)
     }
-    return { localSlides: local.slides.length, publishedSlides: published.slides.length, localOnlyLessons: localUxIds.length, localOnlyExercises: exercises.exercises.length }
+    return { localSlides: local.slides.length, publishedSlides: published.slides.length, localOnlyLessons: localUxIds.length, localOnlySupplementarySets: supplementalIds.length, localOnlyExercises: exercises.exercises.length }
   } finally { injectPreparserExtensionLoader(null) }
 }
 
@@ -103,6 +112,12 @@ export async function checkPublishedBuild(directory) {
   assert.ok(!references.includes('data-exercise-slide'), 'exercise content renderer is absent from published JavaScript')
   assert.ok(!references.includes('/data/esercitazioni/'), 'exercise data is absent from published JavaScript')
   const catalog = JSON.parse(await readFile(path.join(output, 'decks.json'), 'utf8'))
+  assert.ok(catalog.decks.every(deck => deck.id !== 'griglie-layout'), 'the supplementary grids deck is absent online')
+  await assert.rejects(access(path.join(output, 'lezioni/griglie-layout')), { code: 'ENOENT' }, 'the direct supplementary grids path is absent online')
+  const gridsImages = JSON.parse(await readFile(path.join(root, 'assets/booklet/lezione-griglie/image-manifest.json'), 'utf8'))
+  assert.ok(!references.includes('/images/shared/figure/griglia-slidev/'), 'exclusive supplementary grids SVGs are absent from published JavaScript')
+  for (const image of gridsImages.images.filter(image => image.transformation !== 'identical-bytes'))
+    await assert.rejects(access(path.join(output, image.web)), { code: 'ENOENT' }, 'exclusive supplementary grids SVGs are absent from the published files')
   assert.ok(catalog.decks.every(deck => !deck.id.startsWith('esercitazione-')), 'no exercise deck is registered online')
   const exercises = JSON.parse(await readFile(path.join(root, 'assets/esercitazioni/manifest.json'), 'utf8'))
   for (const exercise of exercises.exercises)

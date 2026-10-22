@@ -19,6 +19,7 @@ export const slideSets: Record<string, SlideSet> = {
   gestalt: { id: 'gestalt', label: 'Lezione 06', palette: 'ux-gestalt', lessonNumber: 6, artworkPalette: 'gestalt' },
   colore: { id: 'colore', label: 'Lezione 07', palette: 'ux-color', lessonNumber: 7, artworkPalette: 'colore' },
   'tipografia-griglie': { id: 'tipografia-griglie', label: 'Lezione 08', palette: 'ux-type', lessonNumber: 8, artworkPalette: 'tipografia-griglie' },
+  'griglie-layout': { id: 'griglie-layout', label: 'Griglie e layout', palette: 'ux-type' },
   'prototipi-interfacce': { id: 'prototipi-interfacce', label: 'Lezione 09', palette: 'ux-prototype', lessonNumber: 9, artworkPalette: 'prototipi-interfacce' },
   'test-implementazione': { id: 'test-implementazione', label: 'Lezione 10', palette: 'ux-test', lessonNumber: 10, artworkPalette: 'test-implementazione' },
   'esercitazione-01': { id: 'esercitazione-01', label: 'Esercitazione 01', palette: 'course' },

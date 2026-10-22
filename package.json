@@ -56,7 +56,8 @@
     "dev:full": "pnpm prepare:assets && node scripts/dev.mjs --full",
     "build:full": "pnpm prepare:assets && pnpm css && node ./node_modules/@slidev/cli/bin/slidev.mjs build",
     "check:decks": "node --test scripts/check/lesson-decks.test.mjs",
-    "check:decks:browser": "node scripts/check/lesson-decks-browser.mjs"
+    "check:decks:browser": "node scripts/check/lesson-decks-browser.mjs",
+    "check:grids": "node scripts/check/grids.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.2.8",

@@ -240,11 +240,11 @@
 .slidev-layout.default.index-slide .index-grid .index-button.btn:is(:hover, :active) {
   background: var(--index-deep);
 }
-.slidev-layout.default.index-slide .index-lesson-two {
+.slidev-layout.default.index-slide :is(.index-lesson-two, .index-lesson-type) {
   border-radius: 16px;
   box-shadow: var(--theme-shadow);
 }
-.slidev-layout.default.index-slide .index-lesson-two .index-button.btn {
+.slidev-layout.default.index-slide :is(.index-lesson-two, .index-lesson-type) .index-button.btn {
   align-items: center;
   justify-content: center;
   padding: 8px;
@@ -253,13 +253,20 @@
   box-shadow: none;
   font-size: var(--cvedi-type-note);
 }
-.slidev-layout.default.index-slide .index-lesson-two .index-button.btn:first-child {
+.slidev-layout.default.index-slide :is(.index-lesson-two, .index-lesson-type) .index-button.btn:first-child {
   border-radius: 16px 0 0 16px;
 }
-.slidev-layout.default.index-slide .index-lesson-two .index-button.btn:last-child {
+.slidev-layout.default.index-slide :is(.index-lesson-two, .index-lesson-type) .index-button.btn:last-child {
   border-radius: 0 16px 16px 0;
 }
-.slidev-layout.default.index-slide .index-lesson-two .index-button.btn:focus-visible {
+.slidev-layout.default.index-slide .index-lesson-type .index-button.btn:only-child {
+  justify-content: flex-start;
+  padding: 8px 20px;
+  gap: 16px;
+  border-radius: 16px;
+  font-size: var(--cvedi-type-compact-title);
+}
+.slidev-layout.default.index-slide :is(.index-lesson-two, .index-lesson-type) .index-button.btn:focus-visible {
   position: relative;
   z-index: 1;
 }

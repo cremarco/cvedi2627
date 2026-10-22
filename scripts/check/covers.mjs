@@ -11,12 +11,17 @@ const fixtures = deck.slides.filter(slide => /\b(?:cover-slide|chapter-slide|clo
 const sectionDividers = deck.slides.filter(slide => slide.frontmatter.sectionDivider === true)
 const chapterCovers = fixtures.filter(slide => /\bchapter-slide\b/.test(slide.frontmatter.class ?? '') && slide.frontmatter.sectionDivider !== true)
 const curriculum = JSON.parse(await readFile(new URL('../../data/ux-curriculum.json', import.meta.url), 'utf8'))
-assert.equal(chapterCovers.length, 7 + curriculum.lessons.length, 'all original and UX chapter openings remain present')
-assert.equal(sectionDividers.length, 8, 'the typography-only lesson retains its eight section openings')
-assert.deepEqual(sectionDividers.map(slide => slide.frontmatter.sectionNumber), Array.from({ length: 8 }, (_, index) => index + 1), 'section numbers follow the presentation order')
+assert.equal(chapterCovers.length, 8 + curriculum.lessons.length, 'all original, UX and supplementary grids chapter openings remain present')
+const typographyDividers = sectionDividers.filter(slide => slide.frontmatter.lesson === 'tipografia-griglie')
+const gridsDividers = sectionDividers.filter(slide => slide.frontmatter.lesson === 'griglie-layout')
+assert.equal(typographyDividers.length, 8, 'the typography-only lesson retains its eight section openings')
+assert.equal(gridsDividers.length, 7, 'the supplementary grids set has seven section openings')
+assert.equal(sectionDividers.length, typographyDividers.length + gridsDividers.length, 'only the two requested sets have section openings')
+for (const dividers of [typographyDividers, gridsDividers])
+  assert.deepEqual(dividers.map(slide => slide.frontmatter.sectionNumber), Array.from({ length: dividers.length }, (_, index) => index + 1), 'section numbers follow the presentation order within each set')
 assert.equal(deck.slides.filter(slide => /\bsection-divider\b/.test(slide.frontmatter.class ?? '')).length, sectionDividers.length, 'section-divider classes have explicit section metadata')
 for (const divider of sectionDividers) {
-  assert.equal(divider.frontmatter.lesson, 'tipografia-griglie', 'section openings belong to the typography lesson')
+  assert.ok(['tipografia-griglie', 'griglie-layout'].includes(divider.frontmatter.lesson), 'section openings belong to the requested typography or grids set')
   assert.match(divider.frontmatter.class ?? '', /\bchapter-slide\b/, 'section openings retain the chapter cover composition')
   assert.match(divider.frontmatter.class ?? '', /\bsection-divider\b/, 'section openings have a distinct class')
   assert.equal(divider.frontmatter.lessonMinutes, 0, 'section openings preserve the teaching budget')
@@ -124,17 +129,23 @@ try {
       const isDivider = fixture.frontmatter.sectionDivider === true
       assert.equal(report.sectionDivider, isDivider, `${mode}/${report.title}: section identity matches the source`)
       if (isDivider) {
-        assert.equal(report.chapterLabel, `Lezione 08 · Sezione ${String(fixture.frontmatter.sectionNumber).padStart(2, '0')}`, `${mode}/${report.title}: lesson and section remain identifiable`)
+        const label = fixture.frontmatter.lesson === 'griglie-layout' ? 'Griglie e layout' : 'Lezione 08'
+        assert.equal(report.chapterLabel, `${label} · Sezione ${String(fixture.frontmatter.sectionNumber).padStart(2, '0')}`, `${mode}/${report.title}: lesson and section remain identifiable`)
         assert.equal(report.route, 'ux-type', `${mode}/${report.title}: typography metro route`)
         assert.ok(lessonGeometry.has(fixture.frontmatter.lesson), `${mode}/${report.title}: lesson cover geometry was inspected`)
         assert.equal(report.signature, lessonGeometry.get(fixture.frontmatter.lesson), `${mode}/${report.title}: same metro geometry as its lesson cover`)
+      } else if (report.signature && fixture.frontmatter.lesson === 'griglie-layout') {
+        assert.equal(report.route, 'ux-type', `${mode}/${report.title}: grids reuse the existing typography metro`)
+        assert.equal(report.chapterLabel, '', `${mode}/${report.title}: the supplementary set does not invent a lesson number`)
+        assert.equal(report.signature, lessonGeometry.get('tipografia-griglie'), `${mode}/${report.title}: grids intentionally share the typography route`)
+        lessonGeometry.set(fixture.frontmatter.lesson, report.signature)
       } else if (report.signature) {
         assert.ok(!signatures.has(report.signature), `${mode}/${report.title}: unique cover geometry`)
         signatures.add(report.signature)
         if (report.chapter) lessonGeometry.set(fixture.frontmatter.lesson, report.signature)
       }
       reports.push({ mode, page: fixture.index + 1, ...report })
-      if (output) await slide.screenshot({ path: `${output}/${mode}-${report.route}${isDivider ? `-section-${String(fixture.frontmatter.sectionNumber).padStart(2, '0')}` : ''}.png` })
+      if (output) await slide.screenshot({ path: `${output}/${mode}-${fixture.frontmatter.lesson === 'griglie-layout' ? 'griglie-layout' : report.route}${isDivider ? `-section-${String(fixture.frontmatter.sectionNumber).padStart(2, '0')}` : ''}.png` })
     }
   }
   assert.deepEqual(errors, [])

@@ -12,10 +12,14 @@ const require = createRequire(await realpath(path.join(root, 'node_modules/@slid
 const { load, injectPreparserExtensionLoader } = await import(require.resolve('@slidev/parser/fs'))
 const options = { roots: [root], userRoot: root, allowedRoots: [root] }
 
-test('typography is published while prototypes, test and exercises remain local', async () => {
+test('typography is published while supplementary grids, prototypes, test and exercises remain local', async () => {
   const curriculum = JSON.parse(await readFile(path.join(root, 'data/ux-curriculum.json'), 'utf8'))
   const exercises = JSON.parse(await readFile(path.join(root, 'assets/esercitazioni/manifest.json'), 'utf8'))
-  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), ['prototipi-interfacce', 'test-implementazione', ...exercises.exercises.map(exercise => exercise.id)])
+  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), ['griglie-layout', 'prototipi-interfacce', 'test-implementazione', ...exercises.exercises.map(exercise => exercise.id)])
+  const gridsIndex = lessonDecks.findIndex(deck => deck.id === 'griglie-layout')
+  assert.equal(lessonDecks[gridsIndex - 1].id, 'tipografia-griglie', 'grids are a separate set immediately after typography')
+  assert.equal(lessonDecks[gridsIndex + 1].id, 'prototipi-interfacce', 'the existing numbered lesson order is preserved')
+  assert.equal(lessonDecks[gridsIndex].file, 'lezioni/07-griglie-layout.md', 'grids have their own source file')
   for (const lesson of curriculum.lessons) {
     const presentation = lessonDecks.find(deck => deck.id === lesson.id)
     assert.ok(presentation, `${lesson.id}: presentation exists`)
@@ -50,6 +54,7 @@ test('each presentation imports only its own lesson and preserves every source s
 test('menu destinations resolve to a presentation and keep stable aliases', () => {
   assert.equal(deckForTarget('introduzione-teorica').id, 'introduzione')
   assert.equal(deckForTarget('colore').id, 'colore')
+  assert.equal(deckForTarget('griglie-layout').id, 'griglie-layout')
   assert.equal(deckDirectory('apertura'), '')
   assert.equal(deckDirectory('colore'), 'lezioni/colore/')
   assert.throws(() => lessonDeckExtensions('../../missing', 'slides.md'), /Unknown lesson deck/)

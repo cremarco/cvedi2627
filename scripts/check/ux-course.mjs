@@ -20,7 +20,7 @@ try {
   const index = await openSlide(page, base, 3)
   await page.mouse.move(0, 0)
   await page.evaluate(() => Promise.all(document.getAnimations().filter(animation => Number.isFinite(animation.effect?.getComputedTiming().endTime)).map(animation => animation.finished.catch(() => {}))))
-  const indexPalettes = ['red', 'orange', 'amber', 'yellow', 'lime', ...curriculum.lessons.map(lesson => lesson.palette)]
+  const indexPalettes = ['red', 'orange', 'amber', 'yellow', 'lime', ...curriculum.lessons.flatMap(lesson => lesson.id === 'tipografia-griglie' ? [lesson.palette, 'sky'] : [lesson.palette])]
   const colors = await index.evaluate((root, palettes) => {
     const context = document.createElement('canvas').getContext('2d')
     const rgb = color => { context.fillStyle = color; context.fillRect(0, 0, 1, 1); return [...context.getImageData(0, 0, 1, 1).data].slice(0, 3) }
@@ -35,7 +35,7 @@ try {
   for (const color of colors) assert.deepEqual(color.actual, color.expected, `${color.text}: index button follows the owning lesson palette`)
 
   const destinations = ['presentazione-corso', 'introduzione-teorica', 'brief-progetto', 'approfondimenti',
-    'storia-design', ...curriculum.lessons.map(lesson => lesson.id)]
+    'storia-design', ...curriculum.lessons.flatMap(lesson => lesson.id === 'tipografia-griglie' ? [lesson.id, 'griglie-layout'] : [lesson.id])]
   for (const [index, alias] of destinations.entries()) {
     const cover = await openSlide(page, base, alias, { settle: true })
     const background = await cover.evaluate(root => {

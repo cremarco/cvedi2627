@@ -71,6 +71,8 @@
   grid-template-rows: minmax(0, 1fr);
   min-width: 0;
 }
+.index-lesson-type { display: flex; min-width: 0; }
+.index-lesson-type > .index-button { flex: 1 1 0; }
 .index-button.btn {
   justify-content: flex-start;
   gap: 16px;
