@@ -9,6 +9,30 @@ import re
 from .common import PT_MM, require
 
 
+def check_separated_captions(captions: list[dict]) -> None:
+    """Il rimando segue il folio reale dell'immagine, anche dopo spostamenti."""
+    labels = []
+    for caption in captions:
+        label = caption["figura"]
+        require(isinstance(label, str) and bool(label),
+                "Etichetta della didascalia separata assente.")
+        labels.append(label)
+        for key in ("origine", "immagine"):
+            position = caption[key]
+            require(type(position["pagina"]) is int and position["pagina"] > 0
+                    and all(type(position[axis]) in (int, float) and isfinite(position[axis])
+                            for axis in ("x", "y")),
+                    f"Posizione della didascalia separata non valida: {label}")
+        require(caption["origine"]["pagina"] != caption["immagine"]["pagina"],
+                f"La didascalia separata non rimanda a un altro foglio: {label}")
+        require(type(caption["folio"]) is int and caption["folio"] > 0
+                and type(caption["folio_atteso"]) is int
+                and caption["folio"] == caption["folio_atteso"],
+                f"Folio della didascalia separata diverso dalla pagina dell'immagine: {label}")
+    require(len(labels) == len(set(labels)),
+            "Una figura ha più didascalie separate invece di un rimando univoco.")
+
+
 def check_document_spreads(spreads: list[dict]) -> None:
     """Verifica le coppie documentarie rispetto alle figure native effettive."""
     by_id = defaultdict(list)
@@ -117,8 +141,10 @@ def check_inventory(data: dict, expected: dict | None = None) -> dict:
             require(abs(left["x"] - right["x"] - 170 * PT_MM) < 0.1,
                     f"Immagine disallineata sul dorso: {ident}")
     check_document_spreads(data.get("documenti_doppi", []))
+    check_separated_captions(data.get("didascalie_separate", []))
     return {"capitoli": data["capitoli"], "bibliografie": data["bibliografie"],
             "bibliografie_native": data["bibliografie_native"],
             "figure": len(data["figure"]), "note": len(notes), "ripetute": data["ripetute"],
             "sagome": len(data["sagome"]),
-            "documenti_doppi": len(data.get("documenti_doppi", []))}
+            "documenti_doppi": len(data.get("documenti_doppi", [])),
+            "didascalie_separate": len(data.get("didascalie_separate", []))}

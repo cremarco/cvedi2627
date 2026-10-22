@@ -41,15 +41,45 @@
   caption: contenuto-didascalia(didascalia, diritti: diritti),
 )
 
+// La miniatura identifica l'immagine senza creare un secondo progressivo.
+// Il folio è letto dalla sua posizione visiva: non coincide necessariamente
+// con la pagina fisica del PDF, né con il foglio successivo alla didascalia.
+#let didascalia-separata(file, didascalia, etichetta, alt: none, diritti: none) = block(
+  breakable: false, above: 8pt, below: 10pt,
+)[
+  #set text(size: 9pt, weight: 300, variations: (opsz: 9))
+  #set par(justify: false, leading: 1.8pt, spacing: 0pt)
+  #grid(columns: (18mm, 1fr), column-gutter: 3mm, align: top,
+    link(etichetta, image(file, width: 18mm, alt: alt)),
+    [
+      #text(weight: 500, variations: (opsz: 14))[
+        #ref(etichetta)#linebreak()
+        #context {
+          let figura = query(etichetta).first()
+          let ancore = query(selector(<booklet-figure-anchor>)
+            .and(metadata.where(value: figura.location())))
+          let destinazione = if ancore.len() > 0 { ancore.first().location() }
+            else { figura.location() }
+          let numero = counter(page).at(destinazione).first()
+          let folio = if numero < 10 { "00" + str(numero) }
+            else if numero < 100 { "0" + str(numero) } else { str(numero) }
+          link(destinazione, box[#metadata((figura: etichetta,
+            destinazione: destinazione, folio: numero))<booklet-didascalia-separata>Immagine a p. #folio])
+        }
+      ]
+      #v(3pt)
+      #contenuto-didascalia(didascalia, diritti: diritti)
+    ],
+  )
+]
+
 // Schermata a pieno formato. Il viewport ha il rapporto del foglio: nessun
-// ritaglio e nessuna deformazione. La didascalia precede la pagina dedicata.
+// ritaglio e nessuna deformazione. Miniatura e rimando restano nella prosa.
 #let schermata(file, didascalia, etichetta, alt) = {
   // none permette due schermate consecutive spiegate insieme prima della coppia.
-  if didascalia != none { block(above: 8pt, below: 10pt)[
-    #set text(size: 9pt, weight: 300, variations: (opsz: 9))
-    #set par(justify: false, leading: 1.8pt)
-    #text(weight: 500)[#ref(etichetta)] — #didascalia
-  ] }
+  if didascalia != none {
+    didascalia-separata(file, didascalia, etichetta, alt: alt)
+  }
   pagina-al-vivo[
     #figure(
       image(file, width: 100%, height: 100%, fit: "contain", alt: alt),

@@ -25,6 +25,7 @@ from booklet import common
 from booklet.common import ROOT, digest, local_path
 from booklet.inventory import check_inventory
 from booklet.pdf import note_links
+from booklet.regressions import separated_caption_references
 
 
 def empty_inventory() -> dict:
@@ -33,6 +34,7 @@ def empty_inventory() -> dict:
         "parti_bibliografiche_attese": 0, "note": [], "voci": 0,
         "regioni": [], "figure": [], "sagome": [], "ripetute": 0,
         "documenti_doppi": [],
+        "didascalie_separate": [],
     }
 
 
@@ -157,6 +159,60 @@ class InventoryTests(unittest.TestCase):
                                    {**shape(1, 3, 400.0 - 170 * 72 / 25.4), **change}]
                 with self.assertRaises(ValueError):
                     check_inventory(data)
+
+
+class SeparatedCaptionTests(unittest.TestCase):
+    def setUp(self):
+        self.caption = {"figura": "<fig-prova>", "origine": {"pagina": 2, "x": 110., "y": 160.},
+                        "immagine": {"pagina": 3, "x": 0., "y": 0.},
+                        "folio": 9, "folio_atteso": 9}
+        self.link = {"pagina": 2, "rettangolo": [110., 153., 190., 162.],
+                     "destinazione": {"pagina": 3, "x": 0., "y": 0.}}
+        self.texts = ["Pagina inserita", "Figura 2\nImmagine a p. 009\nDidascalia", ""]
+
+    def data(self):
+        data = empty_inventory()
+        data["didascalie_separate"] = [deepcopy(self.caption)]
+        return data
+
+    def test_folio_can_differ_from_physical_page(self):
+        self.assertEqual(check_inventory(self.data())["didascalie_separate"], 1)
+        self.assertEqual(separated_caption_references([self.link], self.texts, [self.caption])[0]["folio"], 9)
+
+    def test_stale_folio_and_duplicate_captions_are_rejected(self):
+        data = self.data()
+        data["didascalie_separate"][0]["folio"] = 8
+        with self.assertRaisesRegex(ValueError, "Folio della didascalia"):
+            check_inventory(data)
+        data = self.data()
+        data["didascalie_separate"].append(deepcopy(self.caption))
+        with self.assertRaisesRegex(ValueError, "più didascalie separate"):
+            check_inventory(data)
+
+    def test_same_page_and_invalid_geometry_are_rejected(self):
+        for change in ({"pagina": 2}, {"pagina": True}, {"x": float("nan")}):
+            with self.subTest(change=change):
+                data = self.data()
+                data["didascalie_separate"][0]["immagine"].update(change)
+                with self.assertRaises(ValueError):
+                    check_inventory(data)
+
+    def test_missing_or_duplicate_pdf_link_is_rejected(self):
+        for links in ([], [self.link, deepcopy(self.link)]):
+            with self.subTest(links=len(links)), self.assertRaisesRegex(ValueError, "unico link PDF"):
+                separated_caption_references(links, self.texts, [self.caption])
+
+    def test_logical_insertion_point_cannot_replace_visible_image_target(self):
+        for change in ({"pagina": 2}, {"x": 40.}, {"y": 10.}):
+            link = deepcopy(self.link)
+            link["destinazione"].update(change)
+            with self.subTest(change=change), self.assertRaisesRegex(ValueError, "immagine visibile"):
+                separated_caption_references([link], self.texts, [self.caption])
+
+    def test_stale_printed_number_is_rejected_even_with_correct_metadata_and_link(self):
+        texts = ["Pagina inserita", "Figura 2\nImmagine a p. 008\nDidascalia", ""]
+        with self.assertRaisesRegex(ValueError, "rimando stampato"):
+            separated_caption_references([self.link], texts, [self.caption])
 
 
 class NotesTests(unittest.TestCase):

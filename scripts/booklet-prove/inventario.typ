@@ -25,6 +25,11 @@
       mobile: f.placement != none,
       ancore: ancore-figure.filter(m => m.value == f.location()).len(),
     )),
+    didascalie_separate: query(<booklet-didascalia-separata>).map(m => (
+      figura: repr(m.value.figura), origine: posizione(m.location()),
+      immagine: posizione(m.value.destinazione), folio: m.value.folio,
+      folio_atteso: counter(page).at(m.value.destinazione).first(),
+    )),
     note: query(footnote).filter(n => type(n.body) != label).map(n => (
       pagina: n.location().page(),
       origine: posizione(n.location()), corpo: repr(n.body),

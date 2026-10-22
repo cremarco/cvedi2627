@@ -8,7 +8,7 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 
-from .common import PROVE, ROOT, require, run, typst_options
+from .common import PROVE, PT_MM, ROOT, require, run, typst_options
 from .documents import compile_document, inventory
 from .inventory import check_inventory
 from .pdf import check_pdf
@@ -113,6 +113,134 @@ def check_flow(output: Path) -> dict:
                         "paragrafi_prima_della_tavola": filled,
                         "barriera_rilevata": True,
                         "richiamo": check_flow_reference(pdf, data)}
+    return result
+
+
+def separated_caption_references(annotations: list[dict], texts: list[str], captions: list[dict]) -> list[dict]:
+    """Verifica il link sul rimando testuale, distinto da quello della miniatura."""
+    result = []
+    for caption in captions:
+        source, target = caption["origine"], caption["immagine"]
+        links = [annotation for annotation in annotations
+                 if annotation["pagina"] == source["pagina"]
+                 and abs(annotation["rettangolo"][0] - source["x"]) < .1
+                 and annotation["rettangolo"][1] - .01 <= source["y"] <= annotation["rettangolo"][3] + .01]
+        require(len(links) == 1,
+                f"Il rimando della didascalia separata non ha un unico link PDF: {caption['figura']}")
+        destination = links[0]["destinazione"]
+        require(destination is not None and destination["pagina"] == target["pagina"]
+                and abs(destination["x"] - target["x"]) < .1
+                and abs(destination["y"] - max(0, target["y"] - 10)) < .1,
+                f"Il rimando della didascalia separata non raggiunge l'immagine visibile: {caption['figura']}")
+        text = re.sub(r"\s+", "", texts[source["pagina"] - 1])
+        expected = f"Immagineap.{caption['folio']:03}"
+        require(expected in text,
+                f"Numero di pagina assente o errato nel rimando stampato: {caption['figura']}")
+        result.append({"figura": caption["figura"], "pagina_didascalia": source["pagina"],
+                       "pagina_immagine": target["pagina"], "folio": caption["folio"],
+                       "posizione_visuale": True})
+    return result
+
+
+def check_separated_caption_references(pdf: Path, data: dict) -> list[dict]:
+    """Usabile anche sul volume completo dopo la sua verifica strutturale."""
+    from pypdf import PdfReader
+
+    reader = PdfReader(pdf)
+    page_ids = {page.indirect_reference.idnum: i for i, page in enumerate(reader.pages, start=1)}
+    annotations = []
+    for page_number, page in enumerate(reader.pages, start=1):
+        height = float(page.mediabox.top)
+        for reference in page.get("/Annots", []):
+            annotation = reference.get_object()
+            if annotation.get("/Subtype") != "/Link":
+                continue
+            action = annotation.get("/A", {})
+            action = action.get_object() if hasattr(action, "get_object") else action
+            destination = annotation.get("/Dest")
+            if action.get("/S") == "/GoTo":
+                destination = action.get("/D")
+            point = None
+            if destination is not None:
+                destination = destination.get_object() if hasattr(destination, "get_object") else destination
+                if not isinstance(destination, str) and destination[1] == "/XYZ":
+                    number = page_ids.get(destination[0].idnum)
+                    if number is not None:
+                        point = {"pagina": number, "x": float(destination[2]),
+                                 "y": float(reader.pages[number - 1].mediabox.top) - float(destination[3])}
+            rect = list(map(float, annotation["/Rect"]))
+            annotations.append({"pagina": page_number,
+                                "rettangolo": [rect[0], height - rect[3], rect[2], height - rect[1]],
+                                "destinazione": point})
+    return separated_caption_references(annotations, [page.extract_text() or "" for page in reader.pages],
+                                        data.get("didascalie_separate", []))
+
+
+def check_separated_captions(output: Path) -> dict:
+    """Inserire un foglio aggiorna il folio, senza duplicare figure o spostare note."""
+    from PIL import Image
+    from pypdf import PdfReader
+    from pypdf.generic import ContentStream
+
+    source = PROVE / "didascalia-separata.typ"
+    asset = ROOT / "assets/images/figure/caffe-ttc/caffe-ttc-primo-web-home.png"
+    with Image.open(asset) as original:
+        dimensions = original.size
+    result, positions = {}, []
+    for case in ("base", "spostata"):
+        inputs, pdf = {"caso": case}, output / f"didascalia-separata-{case}.pdf"
+        compile_document(source, pdf, inputs)
+        data = inventory(source, inputs)
+        summary = check_inventory(data, {"figure": 2, "note": 1})
+        require([figure["numero"] for figure in data["figure"]] == [1, 2],
+                "La miniatura aggiunge un progressivo o altera il numero della schermata.")
+        require(len(data["didascalie_separate"]) == 1,
+                "La prova deve avere una sola didascalia separata.")
+        caption = data["didascalie_separate"][0]
+        origin, picture = caption["origine"], caption["immagine"]
+        require(data["note"][0]["origine"]["pagina"] == origin["pagina"],
+                "La nota della fonte non resta sulla pagina della didascalia.")
+        require(caption["folio"] == picture["pagina"] + 6,
+                "Il rimando usa la pagina PDF al posto del folio stampato.")
+        references = check_separated_caption_references(pdf, data)
+        reader = PdfReader(pdf)
+        require(not (reader.pages[picture["pagina"] - 1].extract_text() or "").strip(),
+                "La schermata a pieno formato contiene testi o apparati sovrapposti.")
+        images = {}
+        for number in (origin["pagina"], picture["pagina"]):
+            page = reader.pages[number - 1]
+            xobjects = page["/Resources"].get("/XObject", {})
+            stack, matrix, matches = [], (1., 0., 0., 1., 0., 0.), []
+            for operands, operation in ContentStream(page.get_contents(), reader).operations:
+                if operation == b"q":
+                    stack.append(matrix)
+                elif operation == b"Q":
+                    matrix = stack.pop()
+                elif operation == b"cm":
+                    a, b, c, d, e, f = matrix
+                    g, h, i, j, k, l = map(float, operands)
+                    matrix = (a*g + c*h, b*g + d*h, a*i + c*j, b*i + d*j,
+                              a*k + c*l + e, b*k + d*l + f)
+                elif operation == b"Do":
+                    visual = xobjects[operands[0]].get_object()
+                    if (visual.get("/Subtype") == "/Image"
+                            and (visual.get("/Width"), visual.get("/Height")) == dimensions):
+                        matches.append(matrix)
+            require(len(matches) == 1,
+                    "La miniatura o la schermata non conserva una sola copia dell'immagine originale.")
+            a, b, c, d, x, bottom = matches[0]
+            require(abs(b) < .001 and abs(c) < .001 and a > 0 and d > 0
+                    and abs(a / d - dimensions[0] / dimensions[1]) < .001,
+                    "La miniatura o la schermata è ritagliata, deformata o ruotata.")
+            expected = 18 if number == origin["pagina"] else 170
+            require(abs(a - expected * PT_MM) < .01,
+                    "La miniatura non misura 18 mm oppure la schermata ha perso il pieno formato.")
+            images[number] = {"larghezza_mm": round(a / PT_MM, 4)}
+        positions.append((origin["pagina"], picture["pagina"], caption["folio"]))
+        result[case] = {**summary, **check_pdf(pdf, data), "rimandi": references,
+                        "immagini": images, "nota_con_didascalia": True}
+    require(positions[1] == tuple(value + 1 for value in positions[0]),
+            "Inserire un foglio a monte non aggiorna insieme didascalia, immagine e folio.")
     return result
 
 
@@ -285,6 +413,7 @@ def check_regressions(output: Path) -> dict:
     data = inventory(source)
     result["bibliografia"] = {**check_inventory(data, {"figure": 0, "note": 0}), **check_pdf(pdf, data)}
     result["flusso"] = check_flow(output)
+    result["didascalie-separate"] = check_separated_captions(output)
     result["olivetti"] = check_olivetti(output)
     result["sagoma-classica"] = check_classic_notes(output)
     result["nota-fondo"] = check_note_at_bottom(output)
