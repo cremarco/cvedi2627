@@ -9,8 +9,12 @@ const lesson = `${base}/lezioni/griglie-layout`
 const output = process.env.SLIDE_AUDIO_REPORT || 'reports/slide-audio'
 const selection = JSON.parse(await readFile('progetti/slide/assets/booklet/lezione-griglie/audio-approved.json', 'utf8'))
 const lessonManifest = JSON.parse(await readFile('progetti/slide/assets/booklet/lezione-griglie/manifest.json', 'utf8'))
+const speakerNotes = JSON.parse(await readFile(lessonManifest.speakerNotesSource, 'utf8'))
 const clips = Object.entries(selection.clips)
-assert.deepEqual(clips.map(([alias]) => alias), lessonManifest.slides.slice(0, 2).map(slide => slide.alias))
+assert.equal(lessonManifest.slides.length, 63, 'the full Griglie lesson contains 63 slides')
+assert.deepEqual(clips.map(([alias]) => alias), lessonManifest.slides.map(slide => slide.alias), 'every slide has its selected recording in lesson order')
+const screenshotSlides = new Set([1, 3, 10, 32, 63])
+const normalizeWhitespace = text => text.replace(/\s+/gu, ' ').trim()
 await mkdir(output, { recursive: true })
 const browser = await chromium.launch()
 const reports = [], errors = [], requests = []
@@ -38,6 +42,7 @@ try {
   page.setDefaultTimeout(15_000)
   observe(page)
   for (const [index, [alias, clip]] of clips.entries()) {
+    const beforeOpenRequests = requests.length
     const root = await openSlide(page, lesson, alias, { settle: true })
     const player = root.locator('.lesson-audio'), audio = player.locator('audio')
     assert.equal(await page.locator('.lesson-audio').count(), 1, `${alias}: only the active slide owns a player`)
@@ -52,6 +57,7 @@ try {
     })
     const src = await audio.getAttribute('src')
     assert.ok(src.endsWith(clip.web), 'the pinned approved recording is used')
+    const audioUrl = new URL(src, page.url()).href
     const geometry = await player.evaluate(node => {
       const root = node.closest('.slidev-layout'), canvas = root.getBoundingClientRect(), bounds = node.getBoundingClientRect()
       const intersects = other => {
@@ -72,10 +78,9 @@ try {
     assert.ok(geometry.buttons.every(button => button.height === 32 && button.width === 32 && !button.text), 'controls use compact icon-only 32px buttons')
     assert.ok(geometry.buttons.every(button => button.x === geometry.buttons[0].x), 'controls share a vertical axis')
     assert.ok(geometry.buttons.every((button, index) => index === 0 || button.y > geometry.buttons[index - 1].y), 'controls form a vertical column')
-    await page.screenshot({ path: `${output}/desktop-${index + 1}.png` })
-    const idleRequests = requests.length
+    if (screenshotSlides.has(index + 1)) await page.screenshot({ path: `${output}/desktop-${index + 1}.png` })
     await page.waitForTimeout(250)
-    assert.equal(requests.length, idleRequests, 'no media fetch occurs before play')
+    assert.equal(requests.length, beforeOpenRequests, `${alias}: no media fetch occurs before play`)
     const play = player.getByRole('button', { name: 'Riproduci audio', exact: true })
     const pause = player.getByRole('button', { name: 'Metti in pausa l’audio', exact: true })
     const restart = player.getByRole('button', { name: 'Riproduci dall’inizio', exact: true })
@@ -106,16 +111,18 @@ try {
     assert.equal(page.url(), initialUrl, 'restart does not change the slide')
     await player.evaluate(node => { window.__slideAudioPrevious = node.querySelector('audio') })
     await root.locator('h1').click()
-    await page.keyboard.press('ArrowRight')
-    await page.waitForFunction(() => window.__slideAudioPrevious?.paused)
+    const navigationDirection = index + 1 < clips.length ? 'ArrowRight' : 'ArrowLeft'
+    const adjacentClip = clips[index + (navigationDirection === 'ArrowRight' ? 1 : -1)][1]
+    await page.keyboard.press(navigationDirection)
+    await page.waitForFunction(web => {
+      const previous = window.__slideAudioPrevious
+      const current = document.querySelector('.lesson-audio audio')
+      return previous?.paused && !previous.isConnected && current?.getAttribute('src')?.endsWith(web)
+    }, adjacentClip.web)
     assert.equal(await page.evaluate(() => window.__slideAudioPrevious.isConnected), false, 'previous audio is unmounted after navigation')
-    assert.equal(await page.locator('.lesson-audio').count(), index === 0 ? 1 : 0)
-    reports.push({ alias, geometry, started, held, restarted, keyboard: true, navigationPausedAndUnmounted: true, autoplay: false, preload: 'none' })
-  }
-  // A direct visit must not attach a player to slide three or another lesson.
-  for (const target of [lessonManifest.slides[2].alias, lessonManifest.slides.at(-1).alias]) {
-    await openSlide(page, lesson, target)
-    assert.equal(await page.locator('.lesson-audio, audio').count(), 0, `${target}: no narration attached`)
+    assert.equal(await page.locator('.lesson-audio').count(), 1, 'the adjacent slide owns exactly one player')
+    assert.ok(await page.locator('.lesson-audio audio').evaluate(node => node.paused && node.currentTime === 0 && node.readyState === 0), 'navigation never starts or preloads the next recording')
+    reports.push({ alias, audioUrl, geometry, started, held, restarted, keyboard: true, navigationDirection, navigationPausedAndUnmounted: true, autoplay: false, preload: 'none' })
   }
   await openSlide(page, base, 1)
   assert.equal(await page.locator('.lesson-audio, audio').count(), 0, 'menu has no audio')
@@ -123,11 +130,12 @@ try {
   // HTTP bodies and byte ranges must serve precisely the selected original files.
   for (const [alias, clip] of clips) {
     const local = await readFile(clip.source)
-    const response = await page.request.get(`${lesson}${clip.web}`)
+    const audioUrl = reports.find(report => report.alias === alias).audioUrl
+    const response = await page.request.get(audioUrl)
     assert.equal(response.status(), 200)
     assert.equal(hash(await response.body()), clip.sha256)
     assert.equal(hash(local), clip.sha256)
-    const range = await page.request.get(`${lesson}${clip.web}`, { headers: { Range: 'bytes=0-127' } })
+    const range = await page.request.get(audioUrl, { headers: { Range: 'bytes=0-127' } })
     assert.equal(range.status(), 206)
     assert.equal(range.headers()['content-range'], `bytes 0-127/${local.length}`)
     assert.deepEqual(await range.body(), local.subarray(0, 128))
@@ -141,7 +149,8 @@ try {
       return box.left >= root.left - 1 && box.right <= root.right + 1 && box.top >= root.top - 1 && box.bottom <= root.bottom + 1
     })
     assert.ok(within, 'narrow viewport: controls remain within scaled canvas')
-    await page.screenshot({ path: `${output}/narrow-${index + 1}.png` })
+    reports.find(report => report.alias === alias).narrowWithinCanvas = within
+    if (screenshotSlides.has(index + 1)) await page.screenshot({ path: `${output}/narrow-${index + 1}.png` })
   }
   await page.setViewportSize({ width: 1280, height: 720 })
   const summary = await openSlide(page, lesson, clips[1][0], { settle: true })
@@ -170,9 +179,19 @@ try {
   for (const [alias] of clips) {
     await openSlide(page, lesson, `presenter/${alias}`)
     assert.equal(await page.locator('.lesson-audio').count(), 1, 'presenter and previews mount exactly one audio player')
-    assert.ok(await page.locator('.lesson-audio audio').evaluate(node => node.paused && node.currentTime === 0))
+    assert.ok(await page.locator('.lesson-audio audio').evaluate(node => node.paused && node.currentTime === 0 && node.readyState === 0))
+    const note = page.locator('.slidev-note').filter({ visible: true })
+    await note.waitFor({ state: 'visible' })
+    await page.waitForFunction(expected => [...document.querySelectorAll('.slidev-note')].some(node =>
+      node.getBoundingClientRect().width > 0 && node.getBoundingClientRect().height > 0
+      && node.innerText.replace(/\s+/gu, ' ').trim() === expected), normalizeWhitespace(speakerNotes[alias]))
+    assert.equal(await note.count(), 1, `${alias}: presenter shows one current note`)
+    const noteText = normalizeWhitespace(await note.innerText())
+    assert.ok(noteText.startsWith('[calm, matter-of-fact delivery]'), `${alias}: presenter shows the neutral delivery tag`)
+    assert.equal(noteText, normalizeWhitespace(speakerNotes[alias]), `${alias}: presenter note matches the full tagged generation text`)
+    reports.find(report => report.alias === alias).presenter = { singlePlayer: true, taggedNote: true, autoplay: false, preload: 'none' }
   }
-  reports.push({ presenterSinglePlayer: true })
+  reports.push({ presenterSinglePlayer: true, presenterTaggedNotes: clips.length })
 
   // One failed media request exposes a readable recovery action; retry is a real playback request.
   const failedPage = await browser.newPage({ viewport: { width: 1280, height: 720 }, reducedMotion: 'reduce' })
@@ -204,7 +223,7 @@ try {
   reports.push({ errorAndRetry: true, errorGeometry })
   assert.deepEqual(errors, [], 'no unexpected browser or console errors')
   await writeFile(`${output}/verification.json`, JSON.stringify({ status: 'passed', base, reports, requests, errors }, null, 2) + '\n')
-  console.log('Slide audio: approved bytes/ranges, playback, keyboard, navigation, print, presenter, narrow viewport and error/retry passed.')
+  console.log(`Slide audio: all ${clips.length} recordings passed approved bytes/ranges, playback, keyboard, navigation, print, presenter notes, narrow viewport and error/retry checks.`)
 } catch (error) {
   const failurePages = []
   for (const page of browser.contexts().flatMap(context => context.pages())) {

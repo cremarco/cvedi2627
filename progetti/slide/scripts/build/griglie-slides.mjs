@@ -1,11 +1,13 @@
-// Rebuild the local grid lesson from its editorial plan and preserved figures.
+// Rebuild the grid lesson from its editorial plan and preserved figures.
 // Content and source selection are data; the existing Slidev layouts own style.
 import { readFile, writeFile } from 'node:fs/promises'
+import { stripAudioDelivery } from './audio-delivery.mjs'
 const root = new URL('../../../../', import.meta.url)
 const base = 'progetti/slide/assets/booklet/lezione-griglie/'
 const read = async file => JSON.parse(await readFile(new URL(file, root), 'utf8'))
 const plan = await read(base + 'content-plan.json')
 const notesSource = base + 'speaker-notes.json'
+const speakerNotesOriginalSource = base + 'speaker-notes-original.json'
 const notes = await read(notesSource)
 const audioSelectionSource = base + 'audio-approved.json'
 const audioSelection = await read(audioSelectionSource)
@@ -30,6 +32,7 @@ function append(slide, body, extra = {}) {
   const narration = notes[alias]
   if (typeof narration !== 'string' || !narration.trim() || /<!--|-->/.test(narration))
     throw new Error(`${alias}: a complete plain-text narration is required`)
+  stripAudioDelivery(narration)
   const classes = 'content-slide ux-process-lesson lesson-slide griglie-slide ' + (slide.classes ?? 'reading-slide')
   const fields = { layout: slide.layout ?? 'default', class: classes, footer: 'Griglie e layout',
     lesson: 'griglie-layout', lessonSlide: number, lessonMinutes: slide.minutes,
@@ -69,7 +72,7 @@ for (const section of plan.sections) {
     const supporting = `${points}${example}${links}${activity}`
     const classes = ['reading-slide', ...(slide.formula ? ['formula-slide'] : []), ...(activity ? ['lesson-activity'] : [])]
     if (slide.kind === 'exercise-material') {
-      copy += `<div class="lesson-materials"><div><p>${html(kit.text)}</p></div><div><h2>Tre appuntamenti</h2><ul class="cvedi-list">${kit.appointments.map(item => `<li><span>${html(item)}</span></li>`).join('')}</ul><h2>Nota di servizio</h2><p>${html(kit.note)}</p><p class="aside">Contenuti simulati per l’esercizio.</p><a class="link" href="${teaching.exerciseKit.download}" download>Scarica testo e immagine</a></div></div>`
+      copy += `<div class="lesson-materials"><div><p>${html(kit.text)}</p></div><div><h2>Tre appuntamenti</h2><ul class="cvedi-list">${kit.appointments.map(item => `<li><span>${html(item)}</span></li>`).join('')}</ul><h2>Nota di servizio</h2><p>${html(kit.note)}</p><p class="aside">Contenuti simulati per l’esercizio.</p><LessonDownload src="${teaching.exerciseKit.download}">Scarica testo e immagine</LessonDownload></div></div>`
     } else if (slide.kind === 'teaching-figure') {
       classes.push('figure-slide', 'figure-comparison', 'teaching-figure-slide')
       copy = `<div class="lesson-teaching-figure"><div class="lesson-teaching-intro${slide.formula ? ' with-equation' : ''}"><p class="lead">${inline(slide.lead)}</p>${equation(slide.formula)}</div>${figure(slide.figures[0], slide.figureTexts)}${links}</div>`
@@ -100,6 +103,7 @@ const manifest = { version: 1, lesson: 'griglie-layout', sourceFile: plan.source
   assetManifest: 'risorse-condivise/immagini/figure/griglia/manifest.json', imageManifest: base + 'image-manifest.json',
   editorialPlan: base + 'content-plan.json', generator: 'progetti/slide/scripts/build/griglie-slides.mjs',
   speakerNotesSource: notesSource,
+  speakerNotesOriginalSource,
   audioSelectionSource,
   teachingMaterials: 'progetti/slide/assets/slide-materials/griglie/manifest.json',
   simplifiedContentArchive: base + 'simplification-archive.json',
@@ -114,12 +118,12 @@ await writeFile(new URL('progetti/slide/lezioni/07-griglie-layout.md', root), ch
 await writeFile(new URL(base + 'manifest.json', root), JSON.stringify(manifest, null, 2) + '\n')
 
 let doc = '# Griglie e layout · fonti delle slide\n\n'
-doc += `La lezione 09, autonoma e locale, segue Tipografia (08) e conclude il percorso delle lezioni. Comprende ${manifest.slideCount} slide senza divisori intermedi e ${manifest.minutes} minuti pianificati, inclusi 15 minuti di attività.\n\n`
+doc += `La lezione 09, autonoma e pubblicata online, segue Tipografia (08) e conclude il percorso delle lezioni. Comprende ${manifest.slideCount} slide senza divisori intermedi e ${manifest.minutes} minuti pianificati, inclusi 15 minuti di attività.\n\n`
 doc += 'La fonte testuale corrente è `progetti/booklet/capitoli/07-griglia.typ`, comprese le integrazioni locali successive alla Page Figma `4954:42`. Non si attribuiscono ai nuovi contenuti ordinali o folio dello snapshot storico. Il piano editoriale e la mappa delle slide sono in `progetti/slide/assets/booklet/lezione-griglie/`; le 19 slide precedenti restano nell’archivio di Tipografia con le loro attribuzioni e note.\n\n'
 doc += 'Le figure riusano gli originali del capitolo. Negli SVG per le slide, il testo diventa tracciato del font DM Sans originale: geometrie, testi, immagini e colori restano quelli della fonte. Originali, hash, font e licenze sono registrati in `image-manifest.json`; la ricostruzione avviene con `progetti/slide/scripts/build/griglie-assets.py` e `progetti/slide/scripts/build/griglie-slides.mjs`. Tutte le figure conservano alternativa testuale, didascalia, diritti e ingrandimento condiviso. La descrizione di Greiman indica la sola vista complessiva mostrata nella slide; la caption originale con il dettaglio resta nel catalogo. Le caselle vuote della matrice 398, assenti nel font originale, sono segni geometrici documentati nel manifest.\n\n'
 doc += 'Le integrazioni didattiche originali sono distinte dalle figure del booklet: confronti su box model, ordine delle colonne, query, Grid/Flexbox, immagini e rapporto aureo, più il kit simulato «Luce e spazio». Sorgenti SVG, font, hash, riferimenti e contenuti del kit sono in `progetti/slide/assets/slide-materials/griglie/manifest.json`; il generatore è `progetti/slide/scripts/build/griglie-teaching-assets.py`. Non hanno folio o nodi Figma attribuiti.\n\n'
 doc += 'I nove passaggi accorpati o esclusi sono conservati in `simplification-archive.json`, con piano, mapping, Markdown e rimandi ai contenuti attivi. Fra questi restano gli schemi storici su responsive/adaptive, percentuali di attenzione e «Area aurea», insieme alla precedente lettura critica. Vogue rimane un confronto storico, non una descrizione del sito attuale; le immagini non consentono di ricostruire breakpoint, tracce CSS o voci nascoste. Reflow, ingrandimento e spaziatura restano prove distinte del prodotto implementato.\n\n'
-doc += 'Le 63 note del relatore autorizzate sono un copione italiano per sintesi vocale, conservato per alias in `speaker-notes.json` e inserito dal generatore nei commenti Slidev. Approfondiscono i contenuti attivi con il capitolo corrente, senza riattivare i passaggi archiviati. Numeri e formule sono pronunciabili, le attività invitano a sospendere l’audio e le fonti non vengono lette come indirizzi. Il copione mira a circa 60 minuti di parlato; i 15 minuti di attività restano autonomi e il budget della presentazione resta 78 minuti.\n\n'
+doc += 'Le 63 note del relatore autorizzate sono un copione italiano per sintesi vocale, conservato per alias in `speaker-notes.json` e inserito dal generatore nei commenti Slidev. Approfondiscono i contenuti attivi con il capitolo corrente, senza riattivare i passaggi archiviati. Numeri e formule sono pronunciabili, le attività invitano a sospendere l’audio e le fonti non vengono lette come indirizzi. Tutte le note includono direttamente `[calm, matter-of-fact delivery]` e pause più distese, con stabilità comune 0,90; rimuovendo i soli tag si recupera il testo integrale conservato in `speaker-notes-original.json`. Ogni slide dispone di una nuova registrazione coerente con queste note e di controlli di riproduzione condivisi. Dopo la verifica integrale dei 63 file, le registrazioni precedenti sono rimosse su richiesta; i relativi metadati restano separati in `archivedClips` del manifest audio. La selezione non contiene rigenerazioni in attesa. Il copione mira a circa 60 minuti di parlato; i 15 minuti di attività restano autonomi e il budget della presentazione resta 78 minuti.\n\n'
 doc += '| Slide | Titolo | Sezione della fonte | Figure |\n|---|---|---|---|\n'
 doc += mappings.map(slide => `| ${slide.lessonSlide} | ${slide.title} | ${slide.sourceHeading} | ${slide.figures.join(', ') || '—'} |`).join('\n')
 doc += '\n\nLe fonti primarie del capitolo sono in `progetti/booklet/bibliografia/07-griglia.yml`; i collegamenti didattici delle slide sono conservati nel piano editoriale. Le attribuzioni delle opere non vengono sostituite dalle fonti tecniche.\n'

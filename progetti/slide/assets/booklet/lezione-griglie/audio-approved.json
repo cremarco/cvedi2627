@@ -3,16 +3,383 @@
   "lesson": "griglie-layout",
   "clips": {
     "griglie-layout": {
-      "source": "progetti/slide/assets/audio/lezione-griglie/01-griglie-layout-b4d59301f0e5.mp3",
-      "web": "/audio/lezione-griglie/01-griglie-layout-b4d59301f0e5.mp3",
-      "sha256": "28d41f4a29108202228a8cee3941826341affeb30ab7a1d4301e3ae39d71db89",
-      "durationSeconds": 11.12
+      "source": "progetti/slide/assets/audio/lezione-griglie/01-griglie-layout-394fe9039c43-mvkuzqtr.mp3",
+      "web": "/audio/lezione-griglie/01-griglie-layout-394fe9039c43-mvkuzqtr.mp3",
+      "sha256": "e7465acc3a5f18745a4f76ddcffa89f41dba235a6eae60388868b3e4d6a0df47",
+      "durationSeconds": 11.546122
     },
     "griglie-layout-sintesi": {
-      "source": "progetti/slide/assets/audio/lezione-griglie/02-griglie-layout-sintesi-e21984fd83b7.mp3",
-      "web": "/audio/lezione-griglie/02-griglie-layout-sintesi-e21984fd83b7.mp3",
-      "sha256": "4511662824fd32fdcc10ad7ff7997a8c643c01e08dc99e266e2697558705785d",
-      "durationSeconds": 56.32
+      "source": "progetti/slide/assets/audio/lezione-griglie/02-griglie-layout-sintesi-1188cd9b4ba0-mvkuzt1o.mp3",
+      "web": "/audio/lezione-griglie/02-griglie-layout-sintesi-1188cd9b4ba0-mvkuzt1o.mp3",
+      "sha256": "20a72d5a8218917b597250667e151726233e5539be5eaa4951707b5a7a0129b7",
+      "durationSeconds": 54.674286
+    },
+    "griglie-layout-obiettivi": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/03-griglie-layout-obiettivi-2194d1a072fc-mvkv01ud.mp3",
+      "web": "/audio/lezione-griglie/03-griglie-layout-obiettivi-2194d1a072fc-mvkv01ud.mp3",
+      "sha256": "55df7a0b289942025cc441c619985fd18f00df304faf147e48fc13580b8ef2e9",
+      "durationSeconds": 60.029388
+    },
+    "griglie-layout-relazioni-struttura": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/04-griglie-layout-relazioni-struttura-7c61577f9f8c-mvkv0c8x.mp3",
+      "web": "/audio/lezione-griglie/04-griglie-layout-relazioni-struttura-7c61577f9f8c-mvkv0c8x.mp3",
+      "sha256": "81c08d209d02846d2921d57330466756e0737fb5c907d376bc46ea3cfe480266",
+      "durationSeconds": 53.786122
+    },
+    "griglie-layout-relazioni-appuntamenti": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/05-griglie-layout-relazioni-appuntamenti-c3f60318a5f1-mvkv0lo2.mp3",
+      "web": "/audio/lezione-griglie/05-griglie-layout-relazioni-appuntamenti-c3f60318a5f1-mvkv0lo2.mp3",
+      "sha256": "373d28e16dfb59b709ea195fa3ef45df38082f28aa80433d44b982c2d8f00fa8",
+      "durationSeconds": 61.64898
+    },
+    "griglie-layout-relazioni-griglia-layout-gerarchia": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/06-griglie-layout-relazioni-griglia-layout-gerarchia-20913ffe88f6-mvkv0vgd.mp3",
+      "web": "/audio/lezione-griglie/06-griglie-layout-relazioni-griglia-layout-gerarchia-20913ffe88f6-mvkv0vgd.mp3",
+      "sha256": "accc5e20259823da04b271205b8d0f51e17fce085183488502ae8d49e100cdf1",
+      "durationSeconds": 59.245714
+    },
+    "griglie-layout-relazioni-bianco-misura": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/07-griglie-layout-relazioni-bianco-misura-8c290bfe9d74-mvkv14ev.mp3",
+      "web": "/audio/lezione-griglie/07-griglie-layout-relazioni-bianco-misura-8c290bfe9d74-mvkv14ev.mp3",
+      "sha256": "88910adab7fb06315059d3b52c60aaef1bb52a34036acbd6d7cf13d298bf13e3",
+      "durationSeconds": 59.559184
+    },
+    "griglie-layout-storia-metodo-esplicito": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/08-griglie-layout-storia-metodo-esplicito-876ec1acff57-mvkv1epo.mp3",
+      "web": "/audio/lezione-griglie/08-griglie-layout-storia-metodo-esplicito-876ec1acff57-mvkv1epo.mp3",
+      "sha256": "b8cdec4bf745ea215ce2c3d1261a1da5cf81f83ac01c63ec361da7c08fb79844",
+      "durationSeconds": 60.604082
+    },
+    "griglie-layout-storia-musica-viva": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/09-griglie-layout-storia-musica-viva-9c12067f8607-mvkv1ocd.mp3",
+      "web": "/audio/lezione-griglie/09-griglie-layout-storia-musica-viva-9c12067f8607-mvkv1ocd.mp3",
+      "sha256": "ffa3c407ca2c9ab122ac98eb758f084ff67b56c791ca77b71e079696a6397601",
+      "durationSeconds": 59.402449
+    },
+    "griglie-layout-storia-unigrid": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/10-griglie-layout-storia-unigrid-3743f6aa90c8-mvkv1z8b.mp3",
+      "web": "/audio/lezione-griglie/10-griglie-layout-storia-unigrid-3743f6aa90c8-mvkv1z8b.mp3",
+      "sha256": "1f8f9d8b5002116e41aabced32d9f91404cecfbe9d2e5ce93c6b152430ef9b06",
+      "durationSeconds": 63.634286
+    },
+    "griglie-layout-storia-coordinare-variazioni": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/11-griglie-layout-storia-coordinare-variazioni-65410b5d849c-mvkv2a5o.mp3",
+      "web": "/audio/lezione-griglie/11-griglie-layout-storia-coordinare-variazioni-65410b5d849c-mvkv2a5o.mp3",
+      "sha256": "66b5adabd88ac9115a4c1bf29ce90eea04176eeade143360f9bf876ae20d3767",
+      "durationSeconds": 58.906122
+    },
+    "griglie-layout-anatomia-campo-utile": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/12-griglie-layout-anatomia-campo-utile-20d425407ab0-mvkv2j52.mp3",
+      "web": "/audio/lezione-griglie/12-griglie-layout-anatomia-campo-utile-20d425407ab0-mvkv2j52.mp3",
+      "sha256": "76f5e01f64280f7086b3795f27ec7b5d542eee202e3cebc62a3e09bb6c01cb79",
+      "durationSeconds": 56.032653
+    },
+    "griglie-layout-anatomia-reticolo": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/13-griglie-layout-anatomia-reticolo-f2f7f7851d5d-mvkv2rld.mp3",
+      "web": "/audio/lezione-griglie/13-griglie-layout-anatomia-reticolo-f2f7f7851d5d-mvkv2rld.mp3",
+      "sha256": "e2656ddaa0b98ddfda99e7bc2827f25246c3ca1ae5b40d6aac6c337443663350",
+      "durationSeconds": 60.760816
+    },
+    "griglie-layout-anatomia-documento": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/14-griglie-layout-anatomia-documento-9ba07a7087ed-mvkv31x2.mp3",
+      "web": "/audio/lezione-griglie/14-griglie-layout-anatomia-documento-9ba07a7087ed-mvkv31x2.mp3",
+      "sha256": "df2cf5b55142c48c839f8865b9b614868f4197f13dc5a637ebf31a5baa2efa07",
+      "durationSeconds": 49.867755
+    },
+    "griglie-layout-anatomia-calcolo-colonne": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/15-griglie-layout-anatomia-calcolo-colonne-f14bd07c8ec1-mvkv3af7.mp3",
+      "web": "/audio/lezione-griglie/15-griglie-layout-anatomia-calcolo-colonne-f14bd07c8ec1-mvkv3af7.mp3",
+      "sha256": "755b6dabc3756f3b48f87e099c3f0019d44b2be45c28706297c5b02fbe842231",
+      "durationSeconds": 56.685714
+    },
+    "griglie-layout-anatomia-span": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/16-griglie-layout-anatomia-span-3720da05dc29-mvkv3jvw.mp3",
+      "web": "/audio/lezione-griglie/16-griglie-layout-anatomia-span-3720da05dc29-mvkv3jvw.mp3",
+      "sha256": "59d3786e68e6a43fe1bf0ebb0447bad6448fd5d3d54c0d7807ccd800c396786d",
+      "durationSeconds": 62.432653
+    },
+    "griglie-layout-anatomia-spazi-esterni-interni": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/17-griglie-layout-anatomia-spazi-esterni-interni-c3b4f2b00d75-mvkv3vb2.mp3",
+      "web": "/audio/lezione-griglie/17-griglie-layout-anatomia-spazi-esterni-interni-c3b4f2b00d75-mvkv3vb2.mp3",
+      "sha256": "aa214fe5bd9dbcda04ffa18d00b453dc5f2cca775f4bded61852d261cf693a88",
+      "durationSeconds": 57.887347
+    },
+    "griglie-layout-anatomia-box-sizing-confronto": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/18-griglie-layout-anatomia-box-sizing-confronto-fb0e1d2f066e-mvkv46qr.mp3",
+      "web": "/audio/lezione-griglie/18-griglie-layout-anatomia-box-sizing-confronto-fb0e1d2f066e-mvkv46qr.mp3",
+      "sha256": "a4b5ee625d3e1684ad38da52911a5f212e6cf7c1e1734d3293513a718dfde3df",
+      "durationSeconds": 63.085714
+    },
+    "griglie-layout-anatomia-linee-base": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/19-griglie-layout-anatomia-linee-base-cdc74b2e0752-mvkv4hak.mp3",
+      "web": "/audio/lezione-griglie/19-griglie-layout-anatomia-linee-base-cdc74b2e0752-mvkv4hak.mp3",
+      "sha256": "cbd4149d2b139c9984202fac9ab773731b24bc9021aa998667ce0cea1cb36a0c",
+      "durationSeconds": 53.96898
+    },
+    "griglie-layout-anatomia-contenuti-reali": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/20-griglie-layout-anatomia-contenuti-reali-36a8fe08c981-mvkv4qno.mp3",
+      "web": "/audio/lezione-griglie/20-griglie-layout-anatomia-contenuti-reali-36a8fe08c981-mvkv4qno.mp3",
+      "sha256": "c2e63e8275f9125c0ec099e3388d88091f51bb55fe972aa4594aaeea69b79451",
+      "durationSeconds": 58.357551
+    },
+    "griglie-layout-tipologie-quattro-logiche": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/21-griglie-layout-tipologie-quattro-logiche-3e8aa91ed6d4-mvkv514r.mp3",
+      "web": "/audio/lezione-griglie/21-griglie-layout-tipologie-quattro-logiche-3e8aa91ed6d4-mvkv514r.mp3",
+      "sha256": "1ebc43cae37c525ed920042aa7b69859f03900db71f643362b9e21291762b06e",
+      "durationSeconds": 57.626122
+    },
+    "griglie-layout-tipologie-blocco": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/22-griglie-layout-tipologie-blocco-aeb0ccf7cada-mvkv59er.mp3",
+      "web": "/audio/lezione-griglie/22-griglie-layout-tipologie-blocco-aeb0ccf7cada-mvkv59er.mp3",
+      "sha256": "d1109b40d62307abe6b4bfe040b4c20e40768296d21a3585de5b6a34687a872f",
+      "durationSeconds": 53.890612
+    },
+    "griglie-layout-tipologie-colonne": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/23-griglie-layout-tipologie-colonne-d2228d1cbf1e-mvkv5iwh.mp3",
+      "web": "/audio/lezione-griglie/23-griglie-layout-tipologie-colonne-d2228d1cbf1e-mvkv5iwh.mp3",
+      "sha256": "ef974b61ec55fbc7c72c079b6c9a470e0be7219548b5be5728f1c176b0b0b6fd",
+      "durationSeconds": 53.890612
+    },
+    "griglie-layout-tipologie-ordine-colonne": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/24-griglie-layout-tipologie-ordine-colonne-04f6243cea44-mvkv5r7h.mp3",
+      "web": "/audio/lezione-griglie/24-griglie-layout-tipologie-ordine-colonne-04f6243cea44-mvkv5r7h.mp3",
+      "sha256": "9676fd30393f5bacca8cdb0242bc647da47a126d8863d198a790eede624f5dcd",
+      "durationSeconds": 42.684082
+    },
+    "griglie-layout-tipologie-dodici-colonne": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/25-griglie-layout-tipologie-dodici-colonne-fcffb7b99d17-mvkv5ydz.mp3",
+      "web": "/audio/lezione-griglie/25-griglie-layout-tipologie-dodici-colonne-fcffb7b99d17-mvkv5ydz.mp3",
+      "sha256": "daace0a932b3bee5db6586b604f5ac9fdc0ff6994952656a9487d5ed0e86e685",
+      "durationSeconds": 58.827755
+    },
+    "griglie-layout-tipologie-due-assetti": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/26-griglie-layout-tipologie-due-assetti-d5cb38e63d15-mvkv67m8.mp3",
+      "web": "/audio/lezione-griglie/26-griglie-layout-tipologie-due-assetti-d5cb38e63d15-mvkv67m8.mp3",
+      "sha256": "44317b6ec413548b83512f5f60ff67c63442c90b529748c0af75546b780ba45f",
+      "durationSeconds": 53.55102
+    },
+    "griglie-layout-tipologie-documento-editoriale": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/27-griglie-layout-tipologie-documento-editoriale-d79b13358245-mvkv6fme.mp3",
+      "web": "/audio/lezione-griglie/27-griglie-layout-tipologie-documento-editoriale-d79b13358245-mvkv6fme.mp3",
+      "sha256": "c67b17beb4bfd01f9225bcd2af370d4e0847d04e4f48e08c1390daebab46a326",
+      "durationSeconds": 55.327347
+    },
+    "griglie-layout-tipologie-modulare": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/28-griglie-layout-tipologie-modulare-75ee9be57208-mvkv6o9f.mp3",
+      "web": "/audio/lezione-griglie/28-griglie-layout-tipologie-modulare-75ee9be57208-mvkv6o9f.mp3",
+      "sha256": "69178590a5ffdb335c485a039879624fb02b33bdec1f149f2824ad1f7ccb95e2",
+      "durationSeconds": 59.715918
+    },
+    "griglie-layout-tipologie-gerarchica": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/29-griglie-layout-tipologie-gerarchica-edf757b408a7-mvkv6y0i.mp3",
+      "web": "/audio/lezione-griglie/29-griglie-layout-tipologie-gerarchica-edf757b408a7-mvkv6y0i.mp3",
+      "sha256": "93baf661513ccdb17635839d5b4f423a1b539cdddd8b364dea10830e293db25a",
+      "durationSeconds": 60.995918
+    },
+    "griglie-layout-tipologie-dorso": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/30-griglie-layout-tipologie-dorso-5b591cc0b385-mvkv77tl.mp3",
+      "web": "/audio/lezione-griglie/30-griglie-layout-tipologie-dorso-5b591cc0b385-mvkv77tl.mp3",
+      "sha256": "9d7a1fd3f2b9a32be2e9457511a8954e2fd1d9e1b4aa2d654da6b65b31623eea",
+      "durationSeconds": 57.730612
+    },
+    "griglie-layout-terzi-aureo": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/31-griglie-layout-terzi-aureo-5d287f3df178-mvkv7h9p.mp3",
+      "web": "/audio/lezione-griglie/31-griglie-layout-terzi-aureo-5d287f3df178-mvkv7h9p.mp3",
+      "sha256": "c5e0b10e7b9caf7fbe0698ea86adcb6504dbd411e636c61e5dc7856d7d1cb411",
+      "durationSeconds": 51.722449
+    },
+    "griglie-layout-aureo-leggere-rapporto": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/32-griglie-layout-aureo-leggere-rapporto-a2016cecf548-mvkv7pc9.mp3",
+      "web": "/audio/lezione-griglie/32-griglie-layout-aureo-leggere-rapporto-a2016cecf548-mvkv7pc9.mp3",
+      "sha256": "8ea40573fc8c96fc422ba3a7178392c23d0638a5df2ea557dd65562094ba4b55",
+      "durationSeconds": 63.164082
+    },
+    "griglie-layout-aureo-fibonacci": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/33-griglie-layout-aureo-fibonacci-b5340e2917a0-mvkv7ypq.mp3",
+      "web": "/audio/lezione-griglie/33-griglie-layout-aureo-fibonacci-b5340e2917a0-mvkv7ypq.mp3",
+      "sha256": "d34e9ffb913d9e8870bdc6c7baacf61dc3a29abe205c7be9d1d618481c683676",
+      "durationSeconds": 65.567347
+    },
+    "griglie-layout-april-greiman": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/34-griglie-layout-april-greiman-9ae2a4e21363-mvkv8932.mp3",
+      "web": "/audio/lezione-griglie/34-griglie-layout-april-greiman-9ae2a4e21363-mvkv8932.mp3",
+      "sha256": "f085d6e4633a5be50107ccfd127a0a8b97c1991795d53815979eecf42030124a",
+      "durationSeconds": 58.200816
+    },
+    "griglie-layout-uscire-dalla-griglia": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/35-griglie-layout-uscire-dalla-griglia-958ef105aea5-mvkv8idf.mp3",
+      "web": "/audio/lezione-griglie/35-griglie-layout-uscire-dalla-griglia-958ef105aea5-mvkv8idf.mp3",
+      "sha256": "a6c66f8edbf6b8463520167424bb98c2e3a2873d0cb9d82bbb0e02e634cb36d4",
+      "durationSeconds": 60.107755
+    },
+    "griglie-layout-viewport-comportamento": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/36-griglie-layout-viewport-comportamento-0b5b2d23bc96-mvkv8s8c.mp3",
+      "web": "/audio/lezione-griglie/36-griglie-layout-viewport-comportamento-0b5b2d23bc96-mvkv8s8c.mp3",
+      "sha256": "3edc58baafa63e6f58720cf466fb1dbd7203e79e0a2d23e598d7da81cade2817",
+      "durationSeconds": 59.010612
+    },
+    "griglie-layout-fisso-fluido-ibrido": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/37-griglie-layout-fisso-fluido-ibrido-d02441caaed6-mvkv91nk.mp3",
+      "web": "/audio/lezione-griglie/37-griglie-layout-fisso-fluido-ibrido-d02441caaed6-mvkv91nk.mp3",
+      "sha256": "624753b20f1d42611e3dc9865c75e7897772e9b936ed8985e3cf839e852bf20e",
+      "durationSeconds": 56.52898
+    },
+    "griglie-layout-contenitore-fluido-limite": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/38-griglie-layout-contenitore-fluido-limite-2bb159d429eb-mvkv9a4z.mp3",
+      "web": "/audio/lezione-griglie/38-griglie-layout-contenitore-fluido-limite-2bb159d429eb-mvkv9a4z.mp3",
+      "sha256": "071aebd1a1c862eeebe7c078e4e9bb106d870a984e92fd4717b43e94eafaa75d",
+      "durationSeconds": 73.404082
+    },
+    "griglie-layout-breakpoint-contenuto": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/39-griglie-layout-breakpoint-contenuto-d83e7cd2bbd4-mvkv9jy0.mp3",
+      "web": "/audio/lezione-griglie/39-griglie-layout-breakpoint-contenuto-d83e7cd2bbd4-mvkv9jy0.mp3",
+      "sha256": "232070a6be447939af4c245446a292e1097179b8780d771bfd82265aa19bed62",
+      "durationSeconds": 63.555918
+    },
+    "griglie-layout-query-viewport-contenitore": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/40-griglie-layout-query-viewport-contenitore-5a73a5227ef5-mvkv9u7x.mp3",
+      "web": "/audio/lezione-griglie/40-griglie-layout-query-viewport-contenitore-5a73a5227ef5-mvkv9u7x.mp3",
+      "sha256": "29743aeb0e4f52b6a011748cdd4aea151b1ec7c05895534b7adee651fa4856a9",
+      "durationSeconds": 52.68898
+    },
+    "griglie-layout-golden-grid-system": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/41-griglie-layout-golden-grid-system-f390aaa042c1-mvkva2m1.mp3",
+      "web": "/audio/lezione-griglie/41-griglie-layout-golden-grid-system-f390aaa042c1-mvkva2m1.mp3",
+      "sha256": "743d41a1350dc966140e76fc58212deef1cecc8bc10d985581f02ef6f93b114a",
+      "durationSeconds": 52.427755
+    },
+    "griglie-layout-ibm-2x-grid": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/42-griglie-layout-ibm-2x-grid-fbdd45a3d922-mvkvaau2.mp3",
+      "web": "/audio/lezione-griglie/42-griglie-layout-ibm-2x-grid-fbdd45a3d922-mvkvaau2.mp3",
+      "sha256": "867673ea531751796667a7ce994c58fda05b4ea4526cce9f0d1ba978e2d59d68",
+      "durationSeconds": 56.267755
+    },
+    "griglie-layout-griglia-componenti": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/43-griglie-layout-griglia-componenti-458cddbe8f3c-mvkvaj84.mp3",
+      "web": "/audio/lezione-griglie/43-griglie-layout-griglia-componenti-458cddbe8f3c-mvkvaj84.mp3",
+      "sha256": "fe9d19d405522307b200069cd59db41a2d7251e609de6e24647c9e850853f7d3",
+      "durationSeconds": 44.355918
+    },
+    "griglie-layout-grid-flexbox": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/44-griglie-layout-grid-flexbox-924182138cda-mvkvaqiy.mp3",
+      "web": "/audio/lezione-griglie/44-griglie-layout-grid-flexbox-924182138cda-mvkvaqiy.mp3",
+      "sha256": "5ba617b8a66622c60b3480c95f42f5b5ee97c200af21d3cae583c3e1813aa88a",
+      "durationSeconds": 75.72898
+    },
+    "griglie-layout-immagine-conservare-soggetto": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/45-griglie-layout-immagine-conservare-soggetto-4c3ef67e0220-mvkvb2cz.mp3",
+      "web": "/audio/lezione-griglie/45-griglie-layout-immagine-conservare-soggetto-4c3ef67e0220-mvkvb2cz.mp3",
+      "sha256": "3771d4a6f5dbe1c04bb61bb6a991fd0b93e619e34b15da917c0e62ed71ec9358",
+      "durationSeconds": 62.51102
+    },
+    "griglie-layout-immagine-risoluzione-inquadratura": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/46-griglie-layout-immagine-risoluzione-inquadratura-e49f7fea162d-mvkvbc1d.mp3",
+      "web": "/audio/lezione-griglie/46-griglie-layout-immagine-risoluzione-inquadratura-e49f7fea162d-mvkvbc1d.mp3",
+      "sha256": "de882a8d199261fe8236787e5fa939d707b2fc7155719f6a86aac279c9672dd3",
+      "durationSeconds": 54.125714
+    },
+    "griglie-layout-vogue-confronto-responsive": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/47-griglie-layout-vogue-confronto-responsive-ce05216aac3a-mvkvbkuk.mp3",
+      "web": "/audio/lezione-griglie/47-griglie-layout-vogue-confronto-responsive-ce05216aac3a-mvkvbkuk.mp3",
+      "sha256": "1bbf093209dd526476d758954bdb5ca0a54aa370fe4814aa2b4e2473e1951ea8",
+      "durationSeconds": 60.839184
+    },
+    "griglie-layout-ordine-visivo-lettura": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/48-griglie-layout-ordine-visivo-lettura-ce4af6f7cf39-mvkvbv0l.mp3",
+      "web": "/audio/lezione-griglie/48-griglie-layout-ordine-visivo-lettura-ce4af6f7cf39-mvkvbv0l.mp3",
+      "sha256": "d2bf9799e92aa07207b36cadc6b589e1d5d82f60b50ab0f9425e191ef857e15a",
+      "durationSeconds": 48.587755
+    },
+    "griglie-layout-wcag-reflow": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/49-griglie-layout-wcag-reflow-d7c2198b9829-mvkvc2xn.mp3",
+      "web": "/audio/lezione-griglie/49-griglie-layout-wcag-reflow-d7c2198b9829-mvkvc2xn.mp3",
+      "sha256": "05bf3af0e0e2a30cc24abebb48a9b6fc898a8fcf0fb2410f5ee06b502b1693aa",
+      "durationSeconds": 63.320816
+    },
+    "griglie-layout-wcag-resize-text": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/50-griglie-layout-wcag-resize-text-6061d0089a0f-mvkvcdp3.mp3",
+      "web": "/audio/lezione-griglie/50-griglie-layout-wcag-resize-text-6061d0089a0f-mvkvcdp3.mp3",
+      "sha256": "c6524070a4486d8351746cfe83883ca88ca059e0c695f920e355eb31cf070fca",
+      "durationSeconds": 57.965714
+    },
+    "griglie-layout-wcag-text-spacing": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/51-griglie-layout-wcag-text-spacing-225dd0153935-mvkvcmfw.mp3",
+      "web": "/audio/lezione-griglie/51-griglie-layout-wcag-text-spacing-225dd0153935-mvkvcmfw.mp3",
+      "sha256": "20c10fd39f52635ae2af48c747eeaddbcff6af8e50859c1d89d2251ea0e5a3ce",
+      "durationSeconds": 74.527347
+    },
+    "griglie-layout-sara-priorita": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/52-griglie-layout-sara-priorita-64ef4bfe6c4e-mvkvcyhh.mp3",
+      "web": "/audio/lezione-griglie/52-griglie-layout-sara-priorita-64ef4bfe6c4e-mvkvcyhh.mp3",
+      "sha256": "19403f1ae7c0ed09c83e8fdf7641d51f951036b8c28bdac7c8d569b0e7844696",
+      "durationSeconds": 56.267755
+    },
+    "griglie-layout-sara-nuova-data": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/53-griglie-layout-sara-nuova-data-4342534684cc-mvkvd8be.mp3",
+      "web": "/audio/lezione-griglie/53-griglie-layout-sara-nuova-data-4342534684cc-mvkvd8be.mp3",
+      "sha256": "dd97cc687330060129ba4dc8ef82d65f3cf5186ec407e8350c5c0956d2ec7984",
+      "durationSeconds": 58.357551
+    },
+    "griglie-layout-layout-flusso": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/54-griglie-layout-layout-flusso-f7684711a11b-mvkvdhuy.mp3",
+      "web": "/audio/lezione-griglie/54-griglie-layout-layout-flusso-f7684711a11b-mvkvdhuy.mp3",
+      "sha256": "76f40c76937d3c6c8394e763662ba0861539742666b2282757b8cee2a526d96b",
+      "durationSeconds": 53.080816
+    },
+    "griglie-layout-materiali-esercizio": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/55-griglie-layout-materiali-esercizio-65832d3f83b1-mvkvdqmt.mp3",
+      "web": "/audio/lezione-griglie/55-griglie-layout-materiali-esercizio-65832d3f83b1-mvkvdqmt.mp3",
+      "sha256": "37dc7d8307a83d542f919e4337edf52c0f1b02254934478a67ad3cd1058b9c61",
+      "durationSeconds": 39.88898
+    },
+    "griglie-layout-materiali-immagine-formati": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/56-griglie-layout-materiali-immagine-formati-5b6a307e3d9f-mvkvdwvn.mp3",
+      "web": "/audio/lezione-griglie/56-griglie-layout-materiali-immagine-formati-5b6a307e3d9f-mvkvdwvn.mp3",
+      "sha256": "326f95e8ea116f534b6246613b45b7235bb023d7d910e8d033da9f07b277165a",
+      "durationSeconds": 42.109388
+    },
+    "griglie-layout-matrice-prove": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/57-griglie-layout-matrice-prove-5f9a6f69b642-mvkve4g8.mp3",
+      "web": "/audio/lezione-griglie/57-griglie-layout-matrice-prove-5f9a6f69b642-mvkve4g8.mp3",
+      "sha256": "28b7631abca4a58d7efb784101e4edc4c346cb268236f11f779ac978afb7ba09",
+      "durationSeconds": 55.954286
+    },
+    "griglie-layout-esercizio-ricomposizione": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/58-griglie-layout-esercizio-ricomposizione-32e3acfe0728-mvkveeff.mp3",
+      "web": "/audio/lezione-griglie/58-griglie-layout-esercizio-ricomposizione-32e3acfe0728-mvkveeff.mp3",
+      "sha256": "d86b7a3d13179e79e7dc70eee9ce9ad838c310ff57000cfd58322fec6eb6d143",
+      "durationSeconds": 62.275918
+    },
+    "griglie-layout-esercizio-due-larghezze": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/59-griglie-layout-esercizio-due-larghezze-7e7e32cad874-mvkvepbe.mp3",
+      "web": "/audio/lezione-griglie/59-griglie-layout-esercizio-due-larghezze-7e7e32cad874-mvkvepbe.mp3",
+      "sha256": "9d18aabc4f7db9fd8fc1e2dc9439fda8d110e170065c7b8002ffa9bc82afd7f3",
+      "durationSeconds": 58.435918
+    },
+    "griglie-layout-errori-griglia": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/60-griglie-layout-errori-griglia-0e74ae52df39-mvkvez6e.mp3",
+      "web": "/audio/lezione-griglie/60-griglie-layout-errori-griglia-0e74ae52df39-mvkvez6e.mp3",
+      "sha256": "cd635d1942599f8b86137497cf373128a0a83a628d80688f6ff86252e0ce5224",
+      "durationSeconds": 61.074286
+    },
+    "griglie-layout-fonti-1": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/61-griglie-layout-fonti-1-67532d7f0d52-mvkvf92k.mp3",
+      "web": "/audio/lezione-griglie/61-griglie-layout-fonti-1-67532d7f0d52-mvkvf92k.mp3",
+      "sha256": "4b810c6d17164a734e8857c31bfad09858354c428f3684b4dfcf156604dabe6d",
+      "durationSeconds": 27.324082
+    },
+    "griglie-layout-fonti-2": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/62-griglie-layout-fonti-2-be3cf472a7fa-mvkvfd9f.mp3",
+      "web": "/audio/lezione-griglie/62-griglie-layout-fonti-2-be3cf472a7fa-mvkvfd9f.mp3",
+      "sha256": "9cf889e78a892455e805d307547d7b88556c6735a1ec6a93e635961ef33c8dfa",
+      "durationSeconds": 27.872653
+    },
+    "griglie-layout-fonti-3": {
+      "source": "progetti/slide/assets/audio/lezione-griglie/63-griglie-layout-fonti-3-142c72221580-mvkvfht3.mp3",
+      "web": "/audio/lezione-griglie/63-griglie-layout-fonti-3-142c72221580-mvkvfht3.mp3",
+      "sha256": "66213860517eb7b31161c13ca8755a4fa0c343db0b29ae409712b1e92d33a9e3",
+      "durationSeconds": 28.682449
     }
-  }
+  },
+  "pendingRegeneration": []
 }

@@ -1,9 +1,10 @@
 import assert from 'node:assert/strict'
-import { readFile, realpath, stat } from 'node:fs/promises'
+import { readFile, readdir, realpath, stat } from 'node:fs/promises'
 import { createHash } from 'node:crypto'
 import { createRequire } from 'node:module'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
+import { stripAudioDelivery, resolveSlideAudioSettings } from '../build/audio-delivery.mjs'
 
 const root = fileURLToPath(new URL('../../../..', import.meta.url))
 export const gridsManifestPath = 'progetti/slide/assets/booklet/lezione-griglie/manifest.json'
@@ -18,15 +19,21 @@ export async function checkGridsSources(deck) {
   const plan = JSON.parse(await readFile(path.join(root, manifest.editorialPlan), 'utf8'))
   assert.equal(manifest.speakerNotesSource, 'progetti/slide/assets/booklet/lezione-griglie/speaker-notes.json', 'grids: narration has its own reproducible source')
   const speakerNotes = JSON.parse(await readFile(path.join(root, manifest.speakerNotesSource), 'utf8'))
+  assert.equal(manifest.speakerNotesOriginalSource, 'progetti/slide/assets/booklet/lezione-griglie/speaker-notes-original.json')
+  const originalNotes = JSON.parse(await readFile(path.join(root, manifest.speakerNotesOriginalSource), 'utf8'))
+  assert.deepEqual(Object.keys(speakerNotes), Object.keys(originalNotes), 'grids: all original notes remain preserved')
   assert.deepEqual(Object.keys(speakerNotes).sort(), manifest.slides.map(slide => slide.alias).sort(), 'grids: one narration for every active alias, with no archived or orphan entries')
-  const narrationWords = Object.values(speakerNotes).reduce((sum, text) => sum + text.trim().split(/\s+/u).length, 0)
+  const narrationWords = Object.values(speakerNotes).reduce((sum, text) => sum + stripAudioDelivery(text).trim().split(/\s+/u).length, 0)
   assert.ok(narrationWords >= 7800 && narrationWords <= 8400, 'grids: the complete lesson narration stays within the agreed 7,800–8,400-word estimate')
-  const coverNarration = speakerNotes['griglie-layout']
+  const coverNarration = stripAudioDelivery(speakerNotes['griglie-layout'])
   assert.match(coverNarration, /^Buongiorno a tutte e a tutti\./u, 'grids: the cover opens with the class greeting')
   assert.ok(coverNarration.split(/\s+/u).length <= 50 && !coverNarration.includes('\n'), 'grids: the cover keeps a brief spoken introduction')
   for (const [alias, text] of Object.entries(speakerNotes)) {
     assert.ok(typeof text === 'string' && text.trim() === text && text.length > 0, `${alias}: narration is clean nonempty prose`)
-    assert.doesNotMatch(text, /[\d`*_<>$%≈=+×÷\[\]]|https?:\/\/|www\.|\\(?:frac|mathrm|varphi)|^\s*(?:#{1,6}\s|[-•]\s)/mu, `${alias}: text is ready to speak without markup, digits, formula code or audio tags`)
+    assert.ok(text.startsWith('[calm, matter-of-fact delivery]'), `${alias}: every note uses the requested neutral delivery`)
+    const plainText = stripAudioDelivery(text)
+    assert.equal(plainText, originalNotes[alias], `${alias}: every original character is preserved under the voice directions`)
+    assert.doesNotMatch(plainText, /[\d`*_<>$%≈=+×÷\[\]]|https?:\/\/|www\.|\\(?:frac|mathrm|varphi)|^\s*(?:#{1,6}\s|[-•]\s)/mu, `${alias}: spoken prose has no markup, digits or formula code`)
   }
   for (const [slug, duration] of [['esercizio-ricomposizione', 'otto'], ['esercizio-due-larghezze', 'sette']]) {
     const text = speakerNotes[`griglie-layout-${slug}`]
@@ -83,36 +90,61 @@ export async function checkGridsSources(deck) {
   const approvedAudio = JSON.parse(await readFile(path.join(root, manifest.audioSelectionSource), 'utf8'))
   assert.equal(approvedAudio.version, 1, 'grids: approved audio uses its supported schema')
   assert.equal(approvedAudio.lesson, manifest.lesson, 'grids: approved audio belongs to this lesson')
-  assert.deepEqual(Object.keys(approvedAudio.clips).sort(), ['griglie-layout', 'griglie-layout-sintesi'], 'grids: audio is approved for exactly the cover and opening summary')
+  assert.deepEqual(Object.keys(approvedAudio.clips), manifest.slides.map(slide => slide.alias), 'grids: every active slide has its approved audio in lesson order')
+  const pendingRegeneration = approvedAudio.pendingRegeneration ?? []
+  assert.deepEqual(pendingRegeneration, [], 'grids: every audio reflects the current narration and delivery settings')
   const audioHistory = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/audio/lezione-griglie/manifest.json'), 'utf8'))
+  const audioSettings = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/booklet/lezione-griglie/audio-settings.json'), 'utf8'))
   assert.equal(audioHistory.lesson, manifest.lesson, 'grids: audio generation receipts belong to this lesson')
   assert.equal(audioHistory.notesSource, manifest.speakerNotesSource, 'grids: audio receipts identify the canonical narration source')
-  assert.ok(Array.isArray(audioHistory.clips), 'grids: audio generation receipts retain their history')
+  assert.equal(audioHistory.settingsSource, 'progetti/slide/assets/booklet/lezione-griglie/audio-settings.json', 'grids: audio receipts identify the common generation settings')
+  assert.ok(Array.isArray(audioHistory.clips), 'grids: current audio generation receipts are recorded')
+  assert.equal(audioHistory.clips.length, slides.length, 'grids: exactly one current generation receipt exists for each slide')
+  assert.deepEqual(audioHistory.clips.map(clip => clip.alias).sort(), manifest.slides.map(slide => slide.alias).sort(), 'grids: current generation receipts have no duplicate, missing or archived aliases')
+  const selectedFiles = Object.values(approvedAudio.clips).map(clip => clip.source)
+  assert.equal(new Set(selectedFiles).size, slides.length, 'grids: every slide has its own complete audio file')
+  assert.deepEqual(audioHistory.clips.map(clip => clip.file).sort(), [...selectedFiles].sort(), 'grids: current generation receipts contain only the selected files')
+  assert.ok(Array.isArray(audioHistory.archivedClips), 'grids: metadata from previous generations remains preserved separately')
+  for (const receipt of audioHistory.archivedClips) {
+    assert.ok(!selectedFiles.includes(receipt.file), `${receipt.alias}: previous generations are not selected as current audio`)
+    assert.equal(receipt.fileRemoved, true, `${receipt.alias}: archived metadata records the removal of the previous MP3`)
+  }
+  const sourceAudioDirectory = path.join(root, 'progetti/slide/assets/audio/lezione-griglie')
+  const audioFiles = (await readdir(sourceAudioDirectory)).filter(file => file.endsWith('.mp3')).sort()
+  assert.deepEqual(audioFiles, selectedFiles.map(file => path.basename(file)).sort(), 'grids: previous MP3 files have been removed after the complete replacement')
   for (const [index, slide] of slides.entries()) {
     const alias = slide.frontmatter.routeAlias
     const clip = approvedAudio.clips[alias]
-    if (!clip) {
-      assert.equal(slide.frontmatter.narrationAudio, undefined, `${alias}: no unapproved narration audio is attached`)
-      continue
-    }
-    assert.ok(index < 2, `${alias}: the audio trial remains limited to the first two slides`)
+    assert.ok(clip, `${alias}: the slide has its approved narration audio`)
     assert.match(clip.source, /^progetti\/slide\/assets\/audio\/lezione-griglie\/[a-z0-9][a-z0-9._-]*\.mp3$/, `${alias}: the approved source is a canonical local MP3`)
     assert.equal(clip.web, '/audio/lezione-griglie/' + path.basename(clip.source), `${alias}: the public mirror preserves the approved filename`)
     assert.equal(slide.frontmatter.narrationAudio, clip.web, `${alias}: the slide selects exactly its approved audio`)
     const receipt = audioHistory.clips.find(record => record.alias === alias && record.file === clip.source)
     assert.ok(receipt, `${alias}: the approved audio has a preserved generation receipt`)
     assert.equal(receipt.slide, index + 1, `${alias}: the receipt identifies the correct slide`)
-    assert.equal(receipt.text, speakerNotes[alias], `${alias}: audio was generated from the current narration`)
-    assert.equal(receipt.textSha256, createHash('sha256').update(speakerNotes[alias]).digest('hex'), `${alias}: the recorded text hash matches the narration`)
+    assert.equal(receipt.title, slide.title, `${alias}: the receipt identifies the correct slide title`)
+    const recordedText = receipt.submittedText ?? receipt.text
+    assert.equal(recordedText, speakerNotes[alias], `${alias}: the recording uses exactly the current narration and voice directions`)
+    assert.equal(stripAudioDelivery(recordedText), originalNotes[alias], `${alias}: the selected recording retains the same spoken words`)
+    assert.equal(stripAudioDelivery(receipt.text), originalNotes[alias], `${alias}: the generation text preserves the original spoken prose`)
+    assert.equal(receipt.textSha256, createHash('sha256').update(receipt.text).digest('hex'), `${alias}: the original generation text retains its recorded hash`)
+    assert.equal(receipt.submittedTextSha256 ?? receipt.textSha256, createHash('sha256').update(recordedText).digest('hex'), `${alias}: the submitted payload retains its recorded hash`)
+    assert.equal(receipt.submittedCharacters, recordedText.length, `${alias}: the receipt preserves the complete submitted text length`)
+    assert.equal(receipt.plainText, originalNotes[alias], `${alias}: the original spoken prose remains preserved in the receipt`)
+    assert.equal(receipt.plainTextSha256, createHash('sha256').update(originalNotes[alias]).digest('hex'), `${alias}: the original spoken prose retains its recorded hash`)
+    const settings = resolveSlideAudioSettings(audioSettings, alias)
+    assert.deepEqual(receipt.settings, settings, `${alias}: the recording uses exactly the current shared voice settings`)
+    assert.equal(receipt.fingerprint, createHash('sha256').update(JSON.stringify({ text: recordedText, settings: receipt.settings })).digest('hex'), `${alias}: preserved generation identity uses its actual submitted text and settings`)
     assert.match(clip.sha256, /^[a-f0-9]{64}$/, `${alias}: the approved audio has a SHA-256 hash`)
     assert.equal(receipt.audioSha256, clip.sha256, `${alias}: selection and generation receipt identify the same audio bytes`)
     const bytes = await readFile(path.join(root, clip.source))
     assert.equal(createHash('sha256').update(bytes).digest('hex'), clip.sha256, `${alias}: approved audio bytes remain unchanged`)
+    assert.ok(Number.isInteger(receipt.bytes) && receipt.bytes >= 1000, `${alias}: the generation receipt records a complete MP3 response`)
     assert.equal(bytes.length, receipt.bytes, `${alias}: the complete recorded audio file is preserved`)
     assert.ok(Number.isFinite(clip.durationSeconds) && clip.durationSeconds > 0, `${alias}: a positive playback duration is recorded`)
     assert.equal(clip.durationSeconds, receipt.durationSeconds, `${alias}: the approved duration agrees with its verified receipt`)
   }
-  assert.equal(slides.filter(slide => slide.frontmatter.narrationAudio !== undefined).length, 2, 'grids: exactly two approved slide audio controls')
+  assert.equal(slides.filter(slide => slide.frontmatter.narrationAudio !== undefined).length, slides.length, 'grids: every slide has audio controls')
   assert.deepEqual(slides.map(slide => slide.frontmatter.lessonSlide), Array.from({ length: slides.length }, (_, index) => index + 1), 'grids: complete autonomous pagination')
   assert.equal(slides[0]?.title, 'Griglie e layout', 'grids: chapter title')
   assert.equal(slides[0]?.frontmatter.routeAlias, manifest.lesson, 'grids: stable menu destination')
@@ -250,7 +282,7 @@ export async function checkGridsSources(deck) {
     assert.equal(deck.slides.filter(other => other.frontmatter.routeAlias === saved.alias).length, 1, context + ': alias is unique throughout the complete deck')
     assert.ok(Number.isInteger(saved.section) && saved.section >= 0 && saved.section <= 7, context + ': thematic section is explicit')
     assert.ok(saved.sourceHeading?.trim() && chapter.includes(saved.sourceHeading), context + ': a genuine heading in the current chapter is cited')
-    assert.equal(matter.localOnly, true, context + ': lesson 09 stays local')
+    assert.notEqual(matter.localOnly, true, context + ': lesson 09 is published')
     assert.equal(matter.lessonNumber, index === 0 ? 9 : undefined, context + ': the cover identifies lesson 09')
     assert.equal(slide.note?.trim(), speakerNotes[saved.alias], context + ': parsed speaker notes match their alias source exactly')
     assert.equal(matter.bookletChapter, 7, context + ': current chapter identity')
@@ -292,7 +324,7 @@ export async function checkGridsSources(deck) {
     }
   }
   return { lesson: manifest.lesson, slides: slides.length, minutes, sections: dividers.length, figures: used.size,
-    speakerNotes: Object.keys(speakerNotes).length, narrationWords, audioClips: Object.keys(approvedAudio.clips).length,
+    speakerNotes: Object.keys(speakerNotes).length, narrationWords, audioClips: Object.keys(approvedAudio.clips).length, pendingAudioClips: pendingRegeneration.length,
     archivedSlides: simplified.slides.length, archivedFigures: archivedUsed.size,
     archivedOnlyFigures: [...archivedUsed].filter(code => !used.has(code)).length }
 }

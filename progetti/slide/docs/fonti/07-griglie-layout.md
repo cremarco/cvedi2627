@@ -1,6 +1,6 @@
 # Griglie e layout · fonti delle slide
 
-La lezione 09, autonoma e locale, segue Tipografia (08) e conclude il percorso delle lezioni. Comprende 63 slide senza divisori intermedi e 78 minuti pianificati, inclusi 15 minuti di attività.
+La lezione 09, autonoma e pubblicata online, segue Tipografia (08) e conclude il percorso delle lezioni. Comprende 63 slide senza divisori intermedi e 78 minuti pianificati, inclusi 15 minuti di attività.
 
 La fonte testuale corrente è `progetti/booklet/capitoli/07-griglia.typ`, comprese le integrazioni locali successive alla Page Figma `4954:42`. Non si attribuiscono ai nuovi contenuti ordinali o folio dello snapshot storico. Il piano editoriale e la mappa delle slide sono in `progetti/slide/assets/booklet/lezione-griglie/`; le 19 slide precedenti restano nell’archivio di Tipografia con le loro attribuzioni e note.
 
@@ -10,7 +10,7 @@ Le integrazioni didattiche originali sono distinte dalle figure del booklet: con
 
 I nove passaggi accorpati o esclusi sono conservati in `simplification-archive.json`, con piano, mapping, Markdown e rimandi ai contenuti attivi. Fra questi restano gli schemi storici su responsive/adaptive, percentuali di attenzione e «Area aurea», insieme alla precedente lettura critica. Vogue rimane un confronto storico, non una descrizione del sito attuale; le immagini non consentono di ricostruire breakpoint, tracce CSS o voci nascoste. Reflow, ingrandimento e spaziatura restano prove distinte del prodotto implementato.
 
-Le 63 note del relatore autorizzate sono un copione italiano per sintesi vocale, conservato per alias in `speaker-notes.json` e inserito dal generatore nei commenti Slidev. Approfondiscono i contenuti attivi con il capitolo corrente, senza riattivare i passaggi archiviati. Numeri e formule sono pronunciabili, le attività invitano a sospendere l’audio e le fonti non vengono lette come indirizzi. Il copione mira a circa 60 minuti di parlato; i 15 minuti di attività restano autonomi e il budget della presentazione resta 78 minuti.
+Le 63 note del relatore autorizzate sono un copione italiano per sintesi vocale, conservato per alias in `speaker-notes.json` e inserito dal generatore nei commenti Slidev. Approfondiscono i contenuti attivi con il capitolo corrente, senza riattivare i passaggi archiviati. Numeri e formule sono pronunciabili, le attività invitano a sospendere l’audio e le fonti non vengono lette come indirizzi. Tutte le note includono direttamente `[calm, matter-of-fact delivery]` e pause più distese, con stabilità comune 0,90; rimuovendo i soli tag si recupera il testo integrale conservato in `speaker-notes-original.json`. Ogni slide dispone di una nuova registrazione coerente con queste note e di controlli di riproduzione condivisi. Dopo la verifica integrale dei 63 file, le registrazioni precedenti sono rimosse su richiesta; i relativi metadati restano separati in `archivedClips` del manifest audio. La selezione non contiene rigenerazioni in attesa. Il copione mira a circa 60 minuti di parlato; i 15 minuti di attività restano autonomi e il budget della presentazione resta 78 minuti.
 
 | Slide | Titolo | Sezione della fonte | Figure |
 |---|---|---|---|

@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "lesson": "griglie-layout",
+  "description": "Prova della slide 3: tono colloquiale e sei pause, senza modificare il copione.",
+  "slides": {
+    "griglie-layout-obiettivi": {
+      "tone": "warm, conversational tone",
+      "pauses": [
+        { "after": "Le tre card descrivono tre capacità che useremo insieme.", "tag": "short pause" },
+        { "after": "quali distanze li separano.", "tag": "short pause" },
+        { "after": "intenzioni dell'autore.", "tag": "pause" },
+        { "after": "rapporto alla lettura.", "tag": "pause" },
+        { "after": "metterla in difficoltà.", "tag": "short pause" },
+        { "after": "ciò che va corretto.", "tag": "pause" }
+      ]
+    }
+  }
+}

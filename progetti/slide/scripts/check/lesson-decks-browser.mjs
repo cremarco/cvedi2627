@@ -1,4 +1,5 @@
 import assert from 'node:assert/strict'
+import { createHash } from 'node:crypto'
 import { createServer } from 'node:http'
 import { createRequire } from 'node:module'
 import { realpathSync } from 'node:fs'
@@ -85,6 +86,10 @@ try {
     const menu = await openSlide(page, base, 3, { settle: true })
     await assertOwner(page, 'apertura')
     assert.equal(await menu.locator('.index-grid a').count(), catalog.decks.filter(deck => deck.id !== 'apertura' && !deck.id.startsWith('esercitazione-')).length)
+    const gridsLink = menu.getByRole('link', { name: '09 Griglie e layout · Audio disponibile', exact: true })
+    assert.equal(await gridsLink.count(), 1, 'grids are an available lesson with an accessible audio announcement')
+    assert.equal(await gridsLink.locator('.index-audio-icon').count(), 1, 'the grids menu action shows its small audio symbol')
+    assert.equal(await menu.locator('.index-audio-icon').count(), 1, 'only the recorded lesson announces audio')
     assert.equal(await page.locator('.lesson-deck-menu').count(), 0, 'Menu does not link to itself')
     const bounds = await menu.locator('.index-grid a').evaluateAll(nodes => nodes.map(node => {
       const box = node.getBoundingClientRect(), root = node.closest('.slidev-layout').getBoundingClientRect()
@@ -136,6 +141,18 @@ try {
     assert.equal(await second.locator('.slide-index').textContent(), `2 / ${deck.slides.length}`)
     const fixture = inventory.get(deck.id).slides.find(slide => slide.no > 2 && slide.images > 0)
     if (fixture) await openSlide(page, lessonBase, fixture.no, { settle: true })
+    if (deck.id === 'griglie-layout') {
+      const manifest = JSON.parse(await readFile('progetti/slide/assets/booklet/lezione-griglie/manifest.json', 'utf8'))
+      const teaching = JSON.parse(await readFile(manifest.teachingMaterials, 'utf8'))
+      const materials = manifest.slides.find(slide => slide.alias === 'griglie-layout-materiali-esercizio')
+      const slide = await openSlide(page, lessonBase, materials.lessonSlide, { settle: true })
+      const download = slide.getByRole('link', { name: 'Scarica testo e immagine', exact: true })
+      const href = await download.getAttribute('href')
+      assert.equal(new URL(href, page.url()).href, new URL(teaching.exerciseKit.download.slice(1), base).href, 'the grids download uses the shared Pages asset base')
+      const response = await page.request.get(new URL(href, page.url()).href)
+      assert.equal(response.status(), 200, 'the grids exercise kit is downloadable')
+      assert.equal(createHash('sha256').update(await response.body()).digest('hex'), teaching.exerciseKit.sha256, 'the downloaded kit matches its registered original')
+    }
     const last = await openSlide(page, lessonBase, deck.slides.length, { settle: true })
     await page.keyboard.press('ArrowRight')
     await page.waitForTimeout(120)

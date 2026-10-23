@@ -3729,6 +3729,9 @@
   .mt-6\! {
     margin-top: calc(var(--spacing) * 6) !important;
   }
+  .ml-auto\! {
+    margin-left: auto !important;
+  }
   @layer daisyui.l1.l2.l3 {
     .status {
       display: inline-block;
@@ -3980,6 +3983,13 @@
       width: var(--size);
       height: var(--size);
     }
+  }
+  .size-\[18px\]\! {
+    width: 18px !important;
+    height: 18px !important;
+  }
+  .shrink-0 {
+    flex-shrink: 0;
   }
   @layer daisyui.l1.l2.l3 {
     .menu .dropdown:focus-within .menu-dropdown-toggle:after {

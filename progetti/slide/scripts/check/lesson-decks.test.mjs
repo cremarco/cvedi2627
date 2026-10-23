@@ -13,14 +13,15 @@ const { load, injectPreparserExtensionLoader } = await import(require.resolve('@
 const slideRoot = path.join(root, 'progetti/slide')
 const options = { roots: [slideRoot], userRoot: slideRoot, allowedRoots: [root] }
 
-test('typography is published while grids and exercises remain local and removed lessons stay archived', async () => {
+test('typography and grids are published while exercises remain local and removed lessons stay archived', async () => {
   const curriculum = JSON.parse(await readFile(path.join(root, 'progetti/slide/data/ux-curriculum.json'), 'utf8'))
   const exercises = JSON.parse(await readFile(path.join(root, 'progetti/slide/assets/esercitazioni/manifest.json'), 'utf8'))
-  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), ['griglie-layout', ...exercises.exercises.map(exercise => exercise.id)])
+  assert.deepEqual(lessonDecks.filter(deck => deck.localOnly).map(deck => deck.id), exercises.exercises.map(exercise => exercise.id))
   const gridsIndex = lessonDecks.findIndex(deck => deck.id === 'griglie-layout')
   assert.equal(lessonDecks[gridsIndex - 1].id, 'tipografia-griglie', 'grids are a separate set immediately after typography')
   assert.equal(lessonDecks[gridsIndex + 1].id, exercises.exercises[0].id, 'exercises follow the last active theory lesson')
   assert.equal(lessonDecks[gridsIndex].file, 'lezioni/07-griglie-layout.md', 'grids have their own source file')
+  assert.equal(lessonDecks[gridsIndex].localOnly, undefined, 'grids are included in public builds')
   for (const lesson of curriculum.lessons) {
     const presentation = lessonDecks.find(deck => deck.id === lesson.id)
     assert.ok(presentation, `${lesson.id}: presentation exists`)
