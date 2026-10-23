@@ -319,7 +319,7 @@ bookletFigures: ["370"]
 <!--
 Nel reticolo incontriamo riferimenti verticali e orizzontali. Le colonne suddividono la larghezza; le fasce orizzontali aiutano ad allineare gli elementi a determinate altezze. Le loro intersezioni individuano moduli, che possiamo usare singolarmente oppure riunire in aree più ampie.
 
-Osservate la differenza fra campi chiari e campi più intensi. I primi mostrano la costruzione disponibile, i secondi lo spazio effettivamente occupato dai contenuti. Un'immagine può attraversare più moduli e diventare un'unica area. Questo non elimina la griglia: ne usa una delle possibilità.
+Osservate la differenza fra campi chiari e campi più intensi. I primi mostrano la costruzione disponibile, i secondi lo spazio effettivamente occupato dai contenuti. Un'immagine può attraversare più moduli e diventare un'unica area. Questo non elimina la griglia ma sfrutta una delle sue possibilità.
 
 Le linee di flusso sono riferimenti orizzontali sui quali possono cominciare blocchi diversi. Due contenuti affiancati possono quindi condividere una quota iniziale, pur avendo altezze differenti. Nel leggere il diagramma distinguiamo le guide della griglia dai bordi dei contenuti. Per nominare con precisione questi spazi guardiamo ora un documento in cui le parti sono evidenziate con segni e colori.
 -->
@@ -668,7 +668,7 @@ Dodici colonne sono frequenti perché il numero dodici consente diverse division
 
 Pensate a tre appuntamenti: ciascuno potrebbe occupare quattro unità e contenere servizio, data e comando. Ma la regolarità della divisione non basta. Se il nome del servizio è lungo, dobbiamo verificare che quelle quattro unità lascino spazio sufficiente.
 
-Dodici è dunque una convenzione utile in certi sistemi. Per sceglierla dobbiamo considerare anche lo spazio richiesto dai contenuti e gli intervalli fra loro. Non impone una sequenza obbligatoria di colonne per computer, tablet e telefono. Altri sistemi scelgono numeri diversi, come vedremo più avanti.
+Dodici è dunque una convenzione utile in certi sistemi. Per sceglierla dobbiamo considerare anche lo spazio richiesto dai contenuti e gli intervalli fra loro. Questa convenzione non impone una sequenza obbligatoria di colonne per computer, tablet e telefono. Altri sistemi scelgono numeri diversi, come vedremo più avanti.
 -->
 
 ---
@@ -737,7 +737,7 @@ bookletFigures: ["378"]
 <div class="lesson-columns"><div><p class="lead">Le suddivisioni orizzontali incontrano le colonne e formano moduli per campi ricorrenti.</p><ul class="cvedi-list"><li><span>Quote comuni rendono confrontabili immagine, nome e dati; un contenuto può occupare più unità.</span></li><li><span>Con descrizioni lunghe, decidere se la riga segue l'elemento maggiore o se le schede crescono autonomamente, poi verificare gli allineamenti.</span></li></ul></div><LessonFigure src="/images/shared/figure/griglia-slidev/griglie-378-testo-tracciato.svg" alt="Una raccolta modulare usa campi ricorrenti e consente a un contenuto di occupare due unità." caption="Una raccolta modulare usa campi ricorrenti e consente a un contenuto di occupare due unità." /></div>
 
 <!--
-Quando alle colonne aggiungiamo suddivisioni orizzontali, otteniamo moduli: unità con cui possiamo organizzare contenuti che si ripetono. Nel catalogo illustrato, immagine, nome e dati tornano in posizioni confrontabili. Un oggetto può occupare più unità, conservando però i riferimenti utili a riconoscere gli stessi ruoli.
+Quando alle colonne aggiungiamo suddivisioni orizzontali, otteniamo i moduli: unità con cui possiamo organizzare contenuti che si ripetono. Nel catalogo illustrato, immagine, nome e dati tornano in posizioni confrontabili. Un oggetto può occupare più unità, conservando però i riferimenti utili a riconoscere gli stessi ruoli.
 
 La modularità è particolarmente utile quando vogliamo scorrere e confrontare una raccolta. Non obbliga ogni contenuto ad avere la stessa lunghezza. Qui nasce una decisione importante: se una descrizione cresce, tutta la riga segue l'elemento più alto oppure ogni scheda mantiene un'altezza autonoma? Nel primo caso conserviamo alcuni allineamenti, nel secondo accettiamo un andamento differente.
 
@@ -762,7 +762,7 @@ bookletFigures: ["379"]
 <div class="lesson-columns"><div><p class="lead">Aree di misura diversa possono rendere riconoscibili priorità differenti.</p><ul class="cvedi-list"><li><span>Nell'esempio la notizia principale domina; aggiornamento e servizio condividono una verticale laterale.</span></li><li><span>Ogni nuova misura deve esprimere una differenza: variazioni arbitrarie fra elementi dello stesso ruolo suggeriscono priorità inesistenti.</span></li></ul></div><LessonFigure src="/images/shared/figure/griglia-slidev/griglie-379-testo-tracciato.svg" alt="Un contenuto principale, un aggiornamento e un campo di servizio: aree diverse seguono priorità esplicite." caption="Un contenuto principale, un aggiornamento e un campo di servizio: aree diverse seguono priorità esplicite." /></div>
 
 <!--
-Una raccolta non contiene sempre elementi della stessa importanza. Nella pagina di notizie del confronto, il contenuto principale occupa il campo maggiore e ha un titolo più evidente. Aggiornamento e servizio condividono invece una verticale laterale. Le misure differenti rendono riconoscibili ruoli differenti, mentre allineamenti e distanze tengono insieme la pagina.
+Una raccolta non contiene sempre elementi della stessa importanza. In questo confronto, nella pagina di notizie presentata, il contenuto principale occupa il campo maggiore e ha un titolo più evidente. Aggiornamento e servizio condividono invece una verticale laterale. Le misure differenti rendono riconoscibili ruoli differenti, mentre allineamenti e distanze tengono insieme la pagina.
 
 Questa è la logica di una griglia gerarchica: partire dalle priorità del contenuto per assegnare le aree. L’asimmetria riguarda il modo in cui aree grandi e piccole si distribuiscono nella pagina. Da sola non ci dice se le priorità siano chiare.
 
@@ -787,9 +787,9 @@ bookletFigures: ["380"]
 <div class="lesson-columns"><div><p class="lead">Un libro aperto è un'unità di due pagine, attraversata dal limite fisico della rilegatura.</p><ul class="cvedi-list"><li><span>Spostare i dettagli essenziali dal dorso conserva il soggetto in un campo leggibile.</span></li><li><span>La pagina pari è a sinistra, la dispari a destra: dopo un inserimento, ricontrollare gli accoppiamenti interessati.</span></li></ul></div><LessonFigure src="/images/shared/figure/griglia-slidev/griglie-380-testo-tracciato.svg" alt="Il dorso richiede una zona di attenzione: dettagli essenziali e testi devono conservare una posizione leggibile." caption="Il dorso richiede una zona di attenzione: dettagli essenziali e testi devono conservare una posizione leggibile." /></div>
 
 <!--
-Finora abbiamo osservato i campi dentro la pagina. In un libro aperto dobbiamo valutare anche l'insieme delle due pagine e il limite fisico che le attraversa. Il dorso non è una semplice linea del file: la rilegatura può rendere meno visibile una parte dell'immagine.
+Finora abbiamo osservato i campi dentro la pagina. In un libro aperto dobbiamo valutare anche l'insieme delle due pagine e il limite fisico che le attraversa. Il dorso non è una semplice linea del file: la rilegatura, infatti, può rendere meno visibile una parte dell'immagine.
 
-Nel confronto il dettaglio essenziale viene spostato dal dorso verso un campo leggibile. La dimensione e la posizione verticale restano coerenti; cambia la posizione del soggetto per conservarne il significato. Un volto, una parola o un'informazione decisiva non dovrebbero dipendere dalla zona che tende a chiudersi.
+Nel confronto il dettaglio essenziale viene spostato dal dorso verso un campo leggibile. La dimensione e la posizione verticale restano coerenti; cambia la posizione del soggetto per conservarne il significato. Un volto, una parola o un'informazione decisiva non dovrebbero trovarsi nella zona che tende a chiudersi.
 
 Conta anche il modo in cui le pagine si affiancano. La pagina pari è a sinistra e la dispari a destra. Dopo un inserimento bisogna ricontrollare le coppie interessate: due pagine vicine nel documento possono non trovarsi una di fronte all’altra nel libro stampato. Il supporto partecipa quindi alla composizione quanto il reticolo.
 -->
@@ -1013,7 +1013,7 @@ Immaginiamo un campo centrato che lasci almeno ventiquattro pixel ci esse esse l
 
 Con una larghezza disponibile di settecentoventi pixel, sottraiamo quarantotto pixel e otteniamo seicentosettantadue. Non abbiamo raggiunto il massimo, quindi il contenitore segue la finestra e lascia ventiquattro pixel per lato. Con milleduecentottanta pixel disponibili, invece, la sottrazione darebbe milleduecentotrentadue. Il campo si ferma a novecentosessanta: i trecentoventi pixel rimanenti si dividono in due margini da centosessanta.
 
-Il calcolo vale per un campo centrato, senza una barra laterale che gli sottragga spazio. In ci esse esse, fissare la larghezza massima non centra il contenitore e non crea i margini: sono decisioni separate. Inoltre raggiungere quel massimo non significa cambiare disposizione: il campo può smettere di crescere mantenendo gli stessi gruppi. Questi numeri descrivono l'esempio; la misura adatta dipende dai contenuti.
+Il calcolo vale per un campo centrato, senza una barra laterale che gli sottragga spazio. In ci esse esse, fissare la larghezza massima non centra il contenitore e non crea i margini: sono decisioni separate. Inoltre raggiungere quel massimo non significa cambiare disposizione: il campo può smettere di crescere mantenendo gli stessi gruppi. Questi numeri descrivono l'esempio; la misura adatta dipende sempre dai contenuti.
 -->
 
 ---
@@ -1167,7 +1167,7 @@ Una traccia Grid è lo spazio fra due linee adiacenti. Nel confronto vediamo cin
 
 Con Flexbox, nell’esempio, abbiamo consentito agli elementi di crescere. La prima riga contiene ancora tre schede. Nella seconda, però, le due schede si dividono tutto lo spazio disponibile. Ogni riga distribuisce il proprio spazio. Questo risultato dipende dalla configurazione scelta, non da un obbligo di Flexbox.
 
-Per un catalogo può servire confrontare gli stessi campi lungo verticali comuni. Per un gruppo di azioni può essere utile riempire ogni riga. Scegliamo in base alla relazione da conservare, senza tradurre automaticamente ogni guida del disegno in una traccia.
+Per un catalogo può servire confrontare gli stessi campi lungo verticali comuni. Per un gruppo di azioni può essere utile riempire ogni riga. Scegliamo Grid o Flexbox in base agli allineamenti e alla distribuzione dello spazio che vogliamo ottenere. Non è necessario riprodurre nel codice ogni suddivisione della griglia usata nel progetto grafico.
 -->
 
 ---
@@ -1192,7 +1192,7 @@ Il comportamento del contenitore riguarda anche quello che possiamo vedere dentr
 
 La proprietà chiamata object fit stabilisce come adattare l’immagine al campo. Il valore contain conserva l’intera immagine mantenendone le proporzioni. Il valore cover mantiene le proporzioni e riempie il campo, tagliando ciò che eccede. La proprietà object position permette di controllarne l’allineamento.
 
-Per esempio, se il testo parla di un ingresso laterale, quell’ingresso deve restare visibile. Confrontate quindi immagine e didascalia, oltre ai bordi del riquadro. Un ritaglio ordinato può eliminare proprio l’informazione che stiamo cercando di comunicare.
+Per esempio, se il testo parla di un ingresso laterale, quell’ingresso deve restare visibile. Confrontate quindi immagine e didascalia, oltre ai bordi del riquadro. Un ritaglio, per quanto ordinato, può eliminare proprio l’informazione che stiamo cercando di comunicare.
 -->
 
 ---
@@ -1239,7 +1239,7 @@ bookletFigures: ["materiali-caso-responsive"]
 <div class="lesson-columns"><div><p class="lead">Le schermate sono storiche; la data di cattura non è attestata.</p><ul class="cvedi-list"><li><span>Sul telefono la testata si compatta, il titolo occupa più righe e In the bag segue la copertina: si conservano soggetti e ruoli.</span></li><li><span>Il menu è presente in entrambe le viste. Due schermate sovrapposte non rivelano voci nascoste, tracce CSS o breakpoint esatti, né descrivono necessariamente il sito attuale.</span></li></ul></div><LessonFigure src="/images/shared/figure/griglia-slidev/griglie-materiali-caso-responsive-testo-tracciato.svg" alt="Montaggio storico del sito Vogue Italia: a sinistra la pagina desktop con testata, navigazione orizzontale e due contenuti affiancati; a destra, sovrapposta, la vista per telefono con testata compatta e contenuti in successione verticale." caption="Vogue Italia: confronto storico fra desktop e telefono, documentato nel 2023–2024. I contenuti affiancati passano a una sequenza verticale; la sovrapposizione delle due viste appartiene al montaggio originale. Schermate del sito Vogue Italia. Diritti dei rispettivi titolari; licenza non indicata nella fonte." /></div>
 
 <!--
-Possiamo ora osservare queste relazioni in un confronto documentario. Le schermate di Vogue Italia sono storiche e non conosciamo la data di cattura. Ci servono per leggere le disposizioni rappresentate, senza attribuirle automaticamente al sito attuale.
+Osserviamo ora come cambia la disposizione dei contenuti tra computer e telefono, confrontando due schermate dello stesso sito. Le schermate di Vogue Italia sono storiche e non conosciamo la data di cattura. Ci servono per leggere le disposizioni rappresentate, senza attribuirle automaticamente al sito attuale.
 
 Sul desktop, la copertina e il contributo intitolato In the bag occupano campi affiancati. Sul telefono, il secondo contributo segue la copertina. La testata è più compatta e il titolo occupa più righe. Cambia la distribuzione, mentre ritroviamo soggetti e ruoli editoriali.
 
