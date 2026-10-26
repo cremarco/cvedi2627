@@ -1,0 +1,54 @@
+{
+  "schema": "cvedi-natural-cutouts/v1",
+  "created": "2026-10-26",
+  "tool": "image_gen",
+  "mode": "built-in",
+  "purpose": "Three complete transparent natural specimens. Independent native captions and alpha-aware text flow across two consecutive pages.",
+  "prompts": "prompts.json",
+  "provenance_note": "New generated visual interpretations, not documentary photographs of identified specimens. Reference photographs and previous attribution records are preserved unchanged.",
+  "assets": [
+    {
+      "subject": "foglia",
+      "file": "immagini/foglia.png",
+      "sha256": "a2b37d9cec9e5f26ed1a64ed036fd62d5a1d0fe739396c72b0882ac0e71aa313",
+      "profile": "profili/foglia.json",
+      "profile_sha256": "debcaf46996c4abd3b439f5e0b06e29b0bb146d8554dbd5663d6e220c4918872",
+      "generated_original": "/Users/marco/.codex/generated_images/01a178cb-1fcd-7e60-8f9b-dce913c9d027/exec-6acee84c-5e27-4e21-9ff0-0daa9e9373f3.png",
+      "reference": "progetti/booklet/assets/figure-singole/composizione/foglia.jpeg",
+      "reference_sha256": "19df6a3cbf477c5cc905d23a0e8614b37b70105b48eb22af1024540afcc0eb7e",
+      "reference_attribution": "Autori delle fotografie non identificati; diritti dei rispettivi titolari.",
+      "chapter_properties": "File, format: sagoma, ID, page index, image geometry, caption geometry, caption, rights and alternative text are supplied in the chapter."
+    },
+    {
+      "subject": "fiore",
+      "file": "immagini/fiore.png",
+      "sha256": "0e8cf9057f3605eb4124a54fa58ccfeb0feca0df2ec0d51a8697c726cd056e73",
+      "profile": "profili/fiore.json",
+      "profile_sha256": "fcffb0d87c2815d6a21ae7f91003c3e34711a98a1198ac87b19f2930cdc81188",
+      "generated_original": "/Users/marco/.codex/generated_images/01a178cb-1fcd-7e60-8f9b-dce913c9d027/exec-36cf2102-56f8-418b-b95b-37e3d42ac34f.png",
+      "reference": "progetti/booklet/assets/figure-singole/composizione/fiore.jpeg",
+      "reference_sha256": "d7b6acfe5aa27bb83600e34c9b27280ac22f081863d5bc72dd01ef00e4c76e02",
+      "reference_attribution": "Autori delle fotografie non identificati; diritti dei rispettivi titolari.",
+      "chapter_properties": "File, format: sagoma, ID, page index, image geometry, caption geometry, caption, rights and alternative text are supplied in the chapter."
+    },
+    {
+      "subject": "conchiglia",
+      "file": "immagini/conchiglia.png",
+      "sha256": "51e00d2e1ab7e52efeb976f9e90d1a4597ee7cb4867c859971326cc53f84ffbb",
+      "profile": "profili/conchiglia.json",
+      "profile_sha256": "d5f6a98218a7767b58ebeb24eb39c4790677acffd3374b5b26311465a89a0e4b",
+      "generated_original": "/Users/marco/.codex/generated_images/01a178cb-1fcd-7e60-8f9b-dce913c9d027/exec-7d1d3e15-c513-4961-aacf-046392b4088c.png",
+      "reference": "progetti/booklet/assets/figure-singole/composizione/conchiglia.jpeg",
+      "reference_sha256": "4507e7589010aa5a6f04e790083f804732df5185327027bd1dbcccb85ed820d0",
+      "reference_attribution": "Autori delle fotografie non identificati; diritti dei rispettivi titolari.",
+      "chapter_properties": "File, format: sagoma, ID, page index, image geometry, caption geometry, caption, rights and alternative text are supplied in the chapter."
+    }
+  ],
+  "generation_inputs": [
+    {
+      "file": "originali/foglia-prima-scontorno.png",
+      "sha256": "5d8b99325af7d7c1d50bd75a8a6514e73dc1e788584b70e2b3b8413d4d77938f",
+      "purpose": "Input to the leaf background extraction pass; retained unchanged."
+    }
+  ]
+}

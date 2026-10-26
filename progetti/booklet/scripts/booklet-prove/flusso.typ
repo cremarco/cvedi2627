@@ -1,37 +1,35 @@
 // La prosa successiva a una tavola mobile deve completare il foglio precedente.
 // I componenti reali conservano formato e numerazione delle figure del volume.
-#import "/progetti/booklet/template/stile.typ": booklet
-#import "/progetti/booklet/template/geometria.typ": margini, spazio-note, distacco-note
-#import "/progetti/booklet/template/ricerca.typ": tavola-intera
-#import "/progetti/booklet/template/gestalt.typ": tavola-gestalt
-#import "/progetti/booklet/template/documenti.typ": tavola-documentaria
-#import "/progetti/booklet/template/figure.typ": figura-pagina, immagine
+#import "/progetti/booklet/template/layout.typ": booklet
+#import "/progetti/booklet/template/geometry.typ": page-margins, footnote-space, footnote-gap
+#import "/progetti/booklet/template/pages.typ": document-plate
+#import "/progetti/booklet/template/figures.typ": image-figure
 #show: booklet
 #let caso = sys.inputs.at("caso", default: "ricerca")
-#set page(margin: margini(bottom: margini().bottom + spazio-note + distacco-note), footer: none)
+#set page(margin: page-margins(bottom: page-margins().bottom + footnote-space + footnote-gap), footer: none)
 #assert(caso in ("ricerca", "gestalt", "documentaria", "figura-pagina", "solo-testo"),
   message: "Caso di flusso sconosciuto.")
 
 // Dati della sola prova: il controllo non fissa un numero di pagina assoluto.
-#let dati-flusso() = {
-  let posizione(loc) = {
+#let flow-data() = {
+  let position-options(loc) = {
     let p = loc.position()
-    (pagina: p.page, x: p.x / 1pt, y: p.y / 1pt)
+    ("pagina": p.page, x: p.x / 1pt, y: p.y / 1pt)
   }
-  let posizione-figura(id) = {
-    let figura = query(id).first()
-    let ancore = query(<booklet-figure-anchor>).filter(m => m.value == figura.location())
-    let blocchi = query(<booklet-figure-block-anchor>).filter(m => m.value == figura.location())
-    let visuale = if ancore.len() > 0 { ancore.first().location() }
-      else if blocchi.len() > 0 { blocchi.first().location() } else { figura.location() }
-    (logica: posizione(figura.location()), visuale: posizione(visuale),
-      ancore-immagini: ancore.len(), ancore-blocchi: blocchi.len())
+  let figure-position(id) = {
+    let figure-item = query(id).first()
+    let anchors = query(<booklet-figure-anchor>).filter(m => m.value == figure-item.location())
+    let blocks = query(<booklet-figure-block-anchor>).filter(m => m.value == figure-item.location())
+    let visual = if anchors.len() > 0 { anchors.first().location() }
+      else if blocks.len() > 0 { blocks.first().location() } else { figure-item.location() }
+    (logica: position-options(figure-item.location()), "visuale": position-options(visual),
+      ancore-immagini: anchors.len(), ancore-blocchi: blocks.len())
   }
-  let tavola = posizione-figura(<booklet-prova-tavola>)
-  (paragrafi: query(<booklet-prova-flusso>).map(m => (valore: m.value, ..posizione(m.location()))),
-    tavola: tavola.visuale, figura: tavola.logica,
-    ancore-immagini: tavola.ancore-immagini, ancore-blocchi: tavola.ancore-blocchi,
-    richiamo: posizione(query(<booklet-prova-richiamo>).first().location()))
+  let plate = figure-position(<booklet-prova-tavola>)
+  (paragrafi: query(<booklet-prova-flusso>).map(m => ("valore": m.value, ..position-options(m.location()))),
+    "tavola": plate.visuale, "figura": plate.logica,
+    ancore-immagini: plate.ancore-immagini, ancore-blocchi: plate.ancore-blocchi,
+    "richiamo": position-options(query(<booklet-prova-richiamo>).first().location()))
 }
 
 #metadata("apertura") <booklet-prova-flusso>
@@ -44,22 +42,23 @@ Una breve introduzione avvia il confronto. Le figure mantengono il proprio forma
 ) <booklet-prova-prima-figura>
 
 #if caso == "ricerca" {
-  tavola-intera(path("/risorse-condivise/immagini/figure/ricerca/pdi-metafora.png"),
+  image-figure(path("/risorse-condivise/immagini/figure/ricerca/pdi-metafora.png"),
     [Tavola della prova: il testo continua sulle pagine vicine.],
-    <booklet-prova-tavola>, "Metafora dei poli PDI.")
+    format: "una-colonna", id: "booklet-prova-tavola", height: 110mm,
+    aspect-ratio: 1086 / 1448, alt: "Metafora dei poli PDI.")
 } else if caso == "gestalt" {
-  tavola-gestalt((
-    (file: path("/risorse-condivise/immagini/figure/gestalt/02-black-swan-forma-e-contrasto.png"),
-      didascalia: [Tavola della prova: il testo continua sulle pagine vicine.],
-      diritti: none, alt: "Black Swan: forma e contrasto.",
-      rapporto: 0.7542735042735043, larghezza-fonte: 363,
-      etichetta: <booklet-prova-tavola>),
-  ))
+  image-figure(path("/risorse-condivise/immagini/figure/gestalt/02-black-swan-forma-e-contrasto.png"),
+    [Tavola della prova: il testo continua sulle pagine vicine.],
+    format: "tutta-pagina", id: "booklet-prova-tavola", alt: "Black Swan: forma e contrasto.")
 } else if caso == "documentaria" {
-  tavola-documentaria[
-    #immagine(path("/risorse-condivise/immagini/figure/colore/albers-superfici-sovrapposte.svg"),
-      [Tavola della prova: il testo continua sulle pagine vicine.],
-      alt: "Superfici e contrasti cromatici.", width: 137mm) <booklet-prova-tavola>
+  document-plate[
+    #image-figure(path("/risorse-condivise/immagini/figure/colore/albers-superfici-sovrapposte.svg"),
+  [Tavola della prova: il testo continua sulle pagine vicine.],
+  format: "due-colonne",
+  alt: "Superfici e contrasti cromatici.",
+  width: 137mm,
+  id: "booklet-prova-tavola",
+)
   ]
 } else if caso == "solo-testo" {
   // Nessun image: l'ancora del blocco deve seguire il campione testuale mobile.
@@ -68,9 +67,9 @@ Una breve introduzione avvia il confronto. Le figure mantengono il proprio forma
   ], kind: image, placement: top, scope: "parent",
     caption: [Tavola della prova.]) <booklet-prova-tavola>]
 } else {
-  figura-pagina(id: "booklet-prova-tavola",
-    file: path("/risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png"),
-    didascalia: [Tavola della prova: il testo continua sulle pagine vicine.],
+  image-figure(path("/risorse-condivise/immagini/figure/storia-del-design/bibbia-gutenberg-pagina-miniata-1454-1455-loc.png"),
+    [Tavola della prova: il testo continua sulle pagine vicine.],
+    format: "tutta-pagina", id: "booklet-prova-tavola",
     alt: "Pagina della Bibbia di Gutenberg.")
 }
 // Solo il controllo negativo ricrea la barriera che causava i vuoti.

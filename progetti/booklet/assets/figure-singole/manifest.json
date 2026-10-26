@@ -1,0 +1,630 @@
+{
+  "schema": "cvedi-independent-figures/v1",
+  "policy": "Independent examples use separate figures. Direct comparisons, sequences, classifications and same-document details remain grouped.",
+  "assets": [
+    {
+      "file": "composizione/foglia.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-088-01-source-01.jpeg",
+      "source_sha256": "19df6a3cbf477c5cc905d23a0e8614b37b70105b48eb22af1024540afcc0eb7e",
+      "sha256": "19df6a3cbf477c5cc905d23a0e8614b37b70105b48eb22af1024540afcc0eb7e",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/forme-naturali.svg",
+      "rights": "Autori delle fotografie non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/fiore.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-088-01-source-05.jpeg",
+      "source_sha256": "d7b6acfe5aa27bb83600e34c9b27280ac22f081863d5bc72dd01ef00e4c76e02",
+      "sha256": "d7b6acfe5aa27bb83600e34c9b27280ac22f081863d5bc72dd01ef00e4c76e02",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/forme-naturali.svg",
+      "rights": "Autori delle fotografie non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/conchiglia.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-088-01-source-02.jpeg",
+      "source_sha256": "4507e7589010aa5a6f04e790083f804732df5185327027bd1dbcccb85ed820d0",
+      "sha256": "4507e7589010aa5a6f04e790083f804732df5185327027bd1dbcccb85ed820d0",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/forme-naturali.svg",
+      "rights": "Autori delle fotografie non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/pranzo-grattacielo.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-092-01-source-01.jpeg",
+      "source_sha256": "fc5270c315cab90694ef31e298a4fc111107c167570fd44f397d04b1d4bb679c",
+      "sha256": "fc5270c315cab90694ef31e298a4fc111107c167570fd44f397d04b1d4bb679c",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/fotografia-illustrazione.svg",
+      "rights": "Afghan Girl: © Steve McCurry. Le Baiser de l’Hôtel de Ville: © Atelier Robert Doisneau. Lunch Atop a Skyscraper: autore non identificato, Bettmann / Getty Images. Xilografia: autore non identificato."
+    },
+    {
+      "file": "composizione/paesaggio-xilografia.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-092-01-source-03.jpeg",
+      "source_sha256": "ed910ef4e566f61efee9d40a245aaa7eaf54a4fc6fc2e3e9621f2949526fbf77",
+      "sha256": "ed910ef4e566f61efee9d40a245aaa7eaf54a4fc6fc2e3e9621f2949526fbf77",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/fotografia-illustrazione.svg",
+      "rights": "Afghan Girl: © Steve McCurry. Le Baiser de l’Hôtel de Ville: © Atelier Robert Doisneau. Lunch Atop a Skyscraper: autore non identificato, Bettmann / Getty Images. Xilografia: autore non identificato."
+    },
+    {
+      "file": "composizione/doisneau-ritratto-scena.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-092-01-source-05.jpeg",
+      "source_sha256": "63405bdb5a66d99b12c6f617d8600d333656406a21b2668c399340e98ff58ead",
+      "sha256": "63405bdb5a66d99b12c6f617d8600d333656406a21b2668c399340e98ff58ead",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/fotografia-illustrazione.svg",
+      "rights": "Afghan Girl: © Steve McCurry. Le Baiser de l’Hôtel de Ville: © Atelier Robert Doisneau. Lunch Atop a Skyscraper: autore non identificato, Bettmann / Getty Images. Xilografia: autore non identificato."
+    },
+    {
+      "file": "composizione/afghan-girl.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-092-01-source-06.png",
+      "source_sha256": "195f876fa8f41711b3d62ee6804aa10dd18b9c72b653bf4364c684bab083067c",
+      "sha256": "195f876fa8f41711b3d62ee6804aa10dd18b9c72b653bf4364c684bab083067c",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/fotografia-illustrazione.svg",
+      "rights": "Afghan Girl: © Steve McCurry. Le Baiser de l’Hôtel de Ville: © Atelier Robert Doisneau. Lunch Atop a Skyscraper: autore non identificato, Bettmann / Getty Images. Xilografia: autore non identificato."
+    },
+    {
+      "file": "composizione/funzione-evocativa.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/integrazioni-5/figures/evocativa.png",
+      "source_sha256": "f25a1f762722b2b2d67809d849603e64589bf73b9fd843c67aa77e831ca84c60",
+      "sha256": "f25a1f762722b2b2d67809d849603e64589bf73b9fd843c67aa77e831ca84c60",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/funzioni-immagini.svg",
+      "rights": "Autori delle immagini non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/funzione-descrittiva.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/integrazioni-5/figures/illustrativa.png",
+      "source_sha256": "789e3f8c4bb5f37b5e869a60ab2a5188b01713bbc09352a40f77c08310e357df",
+      "sha256": "789e3f8c4bb5f37b5e869a60ab2a5188b01713bbc09352a40f77c08310e357df",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/funzioni-immagini.svg",
+      "rights": "Autori delle immagini non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/funzione-sintetica.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/integrazioni-5/figures/iconale.png",
+      "source_sha256": "e0434c02bf2e11c119299411bef5c2b4b6ecfc6934630a8d4cc38b4f9c813602",
+      "sha256": "e0434c02bf2e11c119299411bef5c2b4b6ecfc6934630a8d4cc38b4f9c813602",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/funzioni-immagini.svg",
+      "rights": "Autori delle immagini non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/allbirds.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/integrazioni-5/figures/allbirds.png",
+      "source_sha256": "e9acffeabbf55b4e71606f0bfc1d75f70b8ba99d78d23fb78c6d12cab745e8e5",
+      "sha256": "e9acffeabbf55b4e71606f0bfc1d75f70b8ba99d78d23fb78c6d12cab745e8e5",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/allbirds-headspace.svg",
+      "rights": "© Allbirds e Headspace. Versioni storiche; data delle catture non indicata."
+    },
+    {
+      "file": "composizione/headspace.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/integrazioni-5/figures/headspace.png",
+      "source_sha256": "f2bd01728601f5a56c3523ce5eea2c970193d7bc771833fb4732ec2f1fc1c56e",
+      "sha256": "f2bd01728601f5a56c3523ce5eea2c970193d7bc771833fb4732ec2f1fc1c56e",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/allbirds-headspace.svg",
+      "rights": "© Allbirds e Headspace. Versioni storiche; data delle catture non indicata."
+    },
+    {
+      "file": "composizione/doisneau.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/vecchio-booklet/figures/doisneau.png",
+      "source_sha256": "816b2305e94c494205aed971606267a5ffb46bf31614809c0c9965ff5f3536af",
+      "sha256": "816b2305e94c494205aed971606267a5ffb46bf31614809c0c9965ff5f3536af",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/doisneau-widener.svg",
+      "rights": "© Robert Doisneau; © Jeff Widener / Associated Press."
+    },
+    {
+      "file": "composizione/widener.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/vecchio-booklet/figures/widener.png",
+      "source_sha256": "d3ad664cb0b54dd119912165f813510f48b8f074c591ea3867ee69b41cac5745",
+      "sha256": "d3ad664cb0b54dd119912165f813510f48b8f074c591ea3867ee69b41cac5745",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/doisneau-widener.svg",
+      "rights": "© Robert Doisneau; © Jeff Widener / Associated Press."
+    },
+    {
+      "file": "composizione/sguardo-ritratto.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-094-01-source-01.jpeg",
+      "source_sha256": "76c16243d65184121b9da3b265459aaed0d1e34d6ce27fc21a2f1adebaa32fa9",
+      "sha256": "76c16243d65184121b9da3b265459aaed0d1e34d6ce27fc21a2f1adebaa32fa9",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/sguardo-spazio.svg",
+      "rights": "Autori delle fotografie non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/sguardo-direzione.jpeg",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-094-01-source-02.jpeg",
+      "source_sha256": "455512a76d0250c21035f2d9c3ea1f7e645e140cc9077a457222aaea05f15747",
+      "sha256": "455512a76d0250c21035f2d9c3ea1f7e645e140cc9077a457222aaea05f15747",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/sguardo-spazio.svg",
+      "rights": "Autori delle fotografie non identificati; diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/negative-spaces.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/vecchio-booklet/figures/negative-spaces.png",
+      "source_sha256": "1c034233788b0b40d0303103ff664cbc4887989adbf02af44911eb6514df5900",
+      "sha256": "1c034233788b0b40d0303103ff664cbc4887989adbf02af44911eb6514df5900",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/pieno-vuoto.svg",
+      "rights": "© Tang Yau Hoong; Richard Fonteneau, Spartan Golf, concept, 2010. Diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/spartan-golf.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/percezione-linguaggio-visivo/vecchio-booklet/figures/spartan.png",
+      "source_sha256": "07a44e5f7dde9f48bc806f44a595fd70c6fdcde8090421bf3877c0910f8f45b0",
+      "sha256": "07a44e5f7dde9f48bc806f44a595fd70c6fdcde8090421bf3877c0910f8f45b0",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/pieno-vuoto.svg",
+      "rights": "© Tang Yau Hoong; Richard Fonteneau, Spartan Golf, concept, 2010. Diritti dei rispettivi titolari."
+    },
+    {
+      "file": "composizione/barbie.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-100-01-source-02.png",
+      "source_sha256": "821494972eaea8a3777398a3bde703b9672a6c78f6750dc1062dd65b116c85cf",
+      "sha256": "821494972eaea8a3777398a3bde703b9672a6c78f6750dc1062dd65b116c85cf",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/barbie-dune.svg",
+      "rights": "© Warner Bros. e rispettivi titolari dei materiali promozionali."
+    },
+    {
+      "file": "composizione/dune.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-100-01-source-04.png",
+      "source_sha256": "29cf1bb944ba2b73b2ff4165fc6873df68e6d9aa54fedc041ffd24178a9f9549",
+      "sha256": "29cf1bb944ba2b73b2ff4165fc6873df68e6d9aa54fedc041ffd24178a9f9549",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/barbie-dune.svg",
+      "rights": "© Warner Bros. e rispettivi titolari dei materiali promozionali."
+    },
+    {
+      "file": "composizione/diesel-prima.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-106-01-source-01.png",
+      "source_sha256": "6fbc644fc7586aaa3165b927e7a0c431358f182897507472998cafa9b26286c0",
+      "sha256": "6fbc644fc7586aaa3165b927e7a0c431358f182897507472998cafa9b26286c0",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/diesel-contrasto.svg",
+      "rights": "© Diesel; diritti dei rispettivi titolari della campagna."
+    },
+    {
+      "file": "composizione/diesel-seconda.png",
+      "method": "copy",
+      "source": "risorse-condivise/fonti/booklet/capitolo-3/originals/c03-106-01-source-03.png",
+      "source_sha256": "aa95e4d8d8519d6f2b3850cf35fd19d9dc527569382e5fe3d37d506c6ddbfb78",
+      "sha256": "aa95e4d8d8519d6f2b3850cf35fd19d9dc527569382e5fe3d37d506c6ddbfb78",
+      "previous_composite": "risorse-condivise/immagini/figure/composizione/diesel-contrasto.svg",
+      "rights": "© Diesel; diritti dei rispettivi titolari della campagna."
+    },
+    {
+      "file": "colore/smartwater.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-monocromatici-smartwater-netlife.svg",
+      "source_sha256": "8ca8702b431e3173b0a22cc61282b20da2ab46661bd0c27c4641245b3af0ef5f",
+      "panel": 0,
+      "size": [
+        171.5,
+        166.147
+      ],
+      "title": "Smartwater",
+      "sha256": "89036ec1b168ad1a1acb05a1148fbe21068db8e69e96e7dfe866dbde9f0e9ee8",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/netlife-research.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-monocromatici-smartwater-netlife.svg",
+      "source_sha256": "8ca8702b431e3173b0a22cc61282b20da2ab46661bd0c27c4641245b3af0ef5f",
+      "panel": 1,
+      "size": [
+        171.5,
+        166.235
+      ],
+      "title": "Netlife Research",
+      "sha256": "5fbb5a37b0fc2ea503a27ad814c7b5971ba141621873bc340011bdf0a8e8bae9",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/boost.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-analoghi-boost-omnium.svg",
+      "source_sha256": "eab0bffdc9ac8f7da9f8fb5dd02170e7569419429374322bc66856a48dce7b0e",
+      "panel": 0,
+      "size": [
+        171.5,
+        166.175
+      ],
+      "title": "Boost",
+      "sha256": "fe87364a6c7b7a3ae6751a5b29e288bb9007ff6be971b2b445c475d9a86f212e",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/omnium.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-analoghi-boost-omnium.svg",
+      "source_sha256": "eab0bffdc9ac8f7da9f8fb5dd02170e7569419429374322bc66856a48dce7b0e",
+      "panel": 1,
+      "size": [
+        171.5,
+        166.083
+      ],
+      "title": "Omnium",
+      "sha256": "78a523f82b5a375a1243fc224d145755fc8c9bd438a0e7619e371b16c2230895",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/serie-decouvertes.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-complementari-serie-decouvertes-ancient-world.svg",
+      "source_sha256": "3a865c9c4b8206317e03b76322ddd9582b7dd60ee0443012dbdff395e8382ba7",
+      "panel": 0,
+      "size": [
+        171.5,
+        165.602
+      ],
+      "title": "Série Découvertes",
+      "sha256": "910fc6218b9a6599d4d0b827618abdf8f1d9caf3460e5eae1d88b04f7f83d539",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/ancient-world.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-complementari-serie-decouvertes-ancient-world.svg",
+      "source_sha256": "3a865c9c4b8206317e03b76322ddd9582b7dd60ee0443012dbdff395e8382ba7",
+      "panel": 1,
+      "size": [
+        171.5,
+        245.0
+      ],
+      "title": "The Ancient World",
+      "sha256": "9ebf2e025ab02c13ee7fc66d2a23394086e1ca5c623d32fd5cd8997ec72d2f47",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/neverland.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-complementari-divergenti-neverland-skin-health.svg",
+      "source_sha256": "77861f7bf391278f73692071e3db37cb0466e4df411857d5b716fe1f9d483a77",
+      "panel": 0,
+      "size": [
+        171.5,
+        166.425
+      ],
+      "title": "Neverland",
+      "sha256": "c94f51264cb0e454466a6463c7f4835c9f21970ffbd852b0450a75e8e01c1d9d",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/skin-health-alliance.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-complementari-divergenti-neverland-skin-health.svg",
+      "source_sha256": "77861f7bf391278f73692071e3db37cb0466e4df411857d5b716fe1f9d483a77",
+      "panel": 1,
+      "size": [
+        171.5,
+        173.625
+      ],
+      "title": "Skin Health Alliance",
+      "sha256": "bfa620b43705f43054195c1398717d843950386cd4c4d6a480eb714f6bcf588c",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/secretkey.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-triadici-secretkey-smi.svg",
+      "source_sha256": "d0ec8fbad887424ced0bb992764a44f7ecf691449368ee4bcbf87449ffc0408e",
+      "panel": 0,
+      "size": [
+        171.5,
+        166.201
+      ],
+      "title": "Secretkey",
+      "sha256": "2c1bf123ba91bacbb7fc73cabb55e5813c4f344e2fbeea3131bb68d71e168c87",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/smi.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/esempi-triadici-secretkey-smi.svg",
+      "source_sha256": "d0ec8fbad887424ced0bb992764a44f7ecf691449368ee4bcbf87449ffc0408e",
+      "panel": 1,
+      "size": [
+        171.5,
+        166.146
+      ],
+      "title": "SMI · confronto",
+      "sha256": "901d9c84604849e1bc084a04bea01ad3d1a95424a4d926e16f23527a3c06dc27",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/lanterne-rosse.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/lanterne-rosse-abiti-bianchi.svg",
+      "source_sha256": "cf8c8feb6ce128f465789176f884b04cde80f1f4d775e45257d0d49b0e2e5b2d",
+      "panel": 0,
+      "size": [
+        171.5,
+        113.741
+      ],
+      "title": "Lanterne rosse",
+      "sha256": "1811723a8945496e7d2818ad8fe458aeda384b472dd0b51e0f18ca6967440867",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    },
+    {
+      "file": "colore/abiti-bianchi.svg",
+      "method": "svg-panel",
+      "source": "risorse-condivise/immagini/figure/colore/lanterne-rosse-abiti-bianchi.svg",
+      "source_sha256": "cf8c8feb6ce128f465789176f884b04cde80f1f4d775e45257d0d49b0e2e5b2d",
+      "panel": 1,
+      "size": [
+        171.5,
+        128.625
+      ],
+      "title": "Persone in abiti bianchi con ritratti e fiori",
+      "sha256": "166861643b5b1d879f87a9274932b1a95f4e368536f0fc7ce9bfe44578f91192",
+      "rights": "Titolarità e provenienza conservate nel manifest originale di Colore."
+    }
+  ],
+  "splits": [
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-forme-naturali",
+      "figure_ids": [
+        "fig-comp-forme-naturali",
+        "fig-comp-fiore",
+        "fig-comp-conchiglia"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-fotografia-illustrazione",
+      "figure_ids": [
+        "fig-comp-fotografia-illustrazione",
+        "fig-comp-paesaggio-xilografia",
+        "fig-comp-doisneau-ritratto-scena",
+        "fig-comp-afghan-girl"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-funzioni-immagini",
+      "figure_ids": [
+        "fig-comp-funzioni-immagini",
+        "fig-comp-funzione-descrittiva",
+        "fig-comp-funzione-sintetica"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-allbirds-headspace",
+      "figure_ids": [
+        "fig-comp-allbirds-headspace",
+        "fig-comp-headspace"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-doisneau-widener",
+      "figure_ids": [
+        "fig-comp-doisneau-widener",
+        "fig-comp-widener"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-sguardo-spazio",
+      "figure_ids": [
+        "fig-comp-sguardo-spazio",
+        "fig-comp-sguardo-direzione"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-pieno-vuoto",
+      "figure_ids": [
+        "fig-comp-pieno-vuoto",
+        "fig-comp-spartan-golf"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-barbie-dune",
+      "figure_ids": [
+        "fig-comp-barbie-dune",
+        "fig-comp-dune"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-diesel-contrasto",
+      "figure_ids": [
+        "fig-comp-diesel-contrasto",
+        "fig-comp-diesel-seconda"
+      ],
+      "reason": "Independent works or examples can be read separately."
+    },
+    {
+      "chapter": 8,
+      "previous_id": "fig-comp-budapest",
+      "figure_ids": [
+        "fig-comp-budapest",
+        "fig-comp-budapest-cornice",
+        "fig-comp-budapest-spazio"
+      ],
+      "reason": "Each frame illustrates a distinct composition, not a temporal sequence."
+    },
+    {
+      "chapter": 5,
+      "previous_id": "fig-colore-200",
+      "figure_ids": [
+        "fig-colore-200",
+        "fig-colore-netlife-research"
+      ],
+      "reason": "Independent examples; each screenshot retains its own palette."
+    },
+    {
+      "chapter": 5,
+      "previous_id": "fig-colore-202",
+      "figure_ids": [
+        "fig-colore-202",
+        "fig-colore-omnium"
+      ],
+      "reason": "Independent examples; each screenshot retains its own palette."
+    },
+    {
+      "chapter": 5,
+      "previous_id": "fig-colore-204",
+      "figure_ids": [
+        "fig-colore-204",
+        "fig-colore-ancient-world"
+      ],
+      "reason": "Independent examples; each screenshot retains its own palette."
+    },
+    {
+      "chapter": 5,
+      "previous_id": "fig-colore-206",
+      "figure_ids": [
+        "fig-colore-206",
+        "fig-colore-skin-health-alliance"
+      ],
+      "reason": "Independent examples; each screenshot retains its own palette."
+    },
+    {
+      "chapter": 5,
+      "previous_id": "fig-colore-208",
+      "figure_ids": [
+        "fig-colore-208",
+        "fig-colore-smi"
+      ],
+      "reason": "Independent examples; each screenshot retains its own palette."
+    },
+    {
+      "chapter": 5,
+      "previous_id": "fig-colore-222",
+      "figure_ids": [
+        "fig-colore-222",
+        "fig-colore-abiti-bianchi"
+      ],
+      "reason": "Independent examples; each screenshot retains its own palette."
+    },
+    {
+      "chapter": 3,
+      "previous_id": "fig-a03-47",
+      "figure_ids": [
+        "fig-a03-47",
+        "fig-a03-adobe-simulazione"
+      ],
+      "reason": "Separate tools serve distinct contrast and simulation tasks."
+    },
+    {
+      "chapter": 6,
+      "previous_id": "fig-tipo-334c",
+      "figure_ids": [
+        "fig-tipo-brush-script",
+        "fig-tipo-334c",
+        "fig-tipo-lego"
+      ],
+      "reason": "Independent lettering sample and brand marks."
+    }
+  ],
+  "released_groups": [
+    {
+      "chapter": 6,
+      "examples": [
+        "crouwel-new-alphabet-documento-1967.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "crouwel-new-alphabet-documento-1967.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "reid-miles-lee-morgan-sidewinder-1964.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "last-of-us-part-i-logo.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "ji-lee-clock.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "kelloggs-marchio.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "tropicana-j-lai-2008-varianti-diverse.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "obama-campagna-gotham-fotografia.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "pepsi-marchi-storici-latino-arabo-cinese.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "mcdonalds-cina-schermata-storica.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "examples": [
+        "mccafe-marchio-storico-script.jpg"
+      ],
+      "reason": "Independent figures can float and be edited separately."
+    },
+    {
+      "chapter": 6,
+      "figure_ids": [
+        "fig-tipo-332a",
+        "fig-tipo-332d",
+        "fig-tipo-332b"
+      ],
+      "reason": "Separate documents, with each caption attached to its own native figure. Overview and same-page detail remain together."
+    }
+  ]
+}

@@ -1,17 +1,18 @@
 // Capitolo 03: unico testo per volume e compilazione autonoma.
-#import "../template/stile.typ": booklet, capitolo
-#import "../template/piano.typ": parametri-capitolo
+#import "../template/layout.typ": booklet, chapter
+#import "../template/plan.typ": chapter-parameters
+#import "../template/figures.typ": image-figure
+#import "../template/editorial.typ": compact-note, reading-subtitle, caption-content, caption as draw-caption
+#import "../template/geometry.typ": grid-width, column-width, column-gutter, body-height
+#import "../template/footnotes.typ": reference-only
 
-#let testo = [
-#import "../template/schemi-accessibilita.typ": disegno-bersagli
-#import "../template/figure.typ": figura-al-vivo, figura-nel-testo
-#import "../template/editoriale.typ": nota-compatta
+#let content = [
+#import "../assets/diagrams/interface-barriers.typ": target-sizes
 // Ordine editoriale del capitolo; le varianti restano nei rispettivi ambiti locali.
 // Le specifiche W3C mantengono APA; le pagine di consultazione usano le sole note.
 
 #[
-#import "../template/editoriale.typ": nota-compatta, sottotitolo-lettura
-#import "../template/accessibilita.typ": mappa-a-pagina
+#import "../assets/diagrams/wcag-map.typ": wcag-data, wcag-criteria, wcag-group
 
 // Fonte Figma 198:3435 · C03 · 076 · SX — Accessibilità e design inclusivo
 
@@ -22,7 +23,7 @@ I casi di localizzazione hanno mostrato come lingua, abitudini e riferimenti cul
 L’accessibilità porta queste domande nella ricerca e nel progetto. Il percorso parte dal design universale e inclusivo, osserva barriere e modalità d’uso, poi collega le scelte operative alla loro verifica. Ciò che emerge tornerà nella definizione dei requisiti e accompagnerà prototipi, test e implementazione.
 
 // Fonte Figma 198:3877 · C03 · 077 · DX — Accessibilità e design inclusivo
-#sottotitolo-lettura[Accessibilità e design inclusivo]
+#reading-subtitle[Accessibilità e design inclusivo]
 
 #strong[La ricerca su persone e contesti porta a interrogarsi anche sulle condizioni di accesso. Nella progettazione di prodotti e servizi digitali resta infatti il rischio di assumere come riferimento una presunta “persona media”.  ] Questo approccio, apparentemente orientato a raggiungere il maggior numero possibile di utenti, può escludere persone con bisogni non considerati. La diversità umana non costituisce un’eccezione da gestire a posteriori, ma una condizione di partenza del progetto.
 
@@ -34,32 +35,31 @@ In questo quadro è utile distinguere due concetti spesso avvicinati ma non coin
 
 == Design universale e inclusivo
 
-Il #strong[design universale] nasce con l’obiettivo di realizzare prodotti, ambienti e sistemi utilizzabili dal maggior numero possibile di persone, senza richiedere adattamenti o soluzioni speciali. Si tratta di un approccio che privilegia la massima estensione dell’accesso e che, in ambito progettuale, invita a concepire soluzioni semplici, comprensibili, flessibili e non stigmatizzanti. I suoi principi insistono su alcuni aspetti centrali: equità d’uso, flessibilità, semplicità, percettibilità delle informazioni, tolleranza all’errore, riduzione dello sforzo fisico e adeguatezza di spazio e dimensioni.#nota-compatta([#([#text("The 7 principles")#text("; ")CEUD · 7 Principles; Microsoft · Inclusive Design])], ("https://universaldesign.ie/about-universal-design/the-7-principles",), etichetta: (text("universaldesign.ie/…/the-7-principles"),)) <nota-a03-3-1>#super[, ]#nota-compatta(text("Inclusive 101"), "https://inclusive.microsoft.design/articles/inclusive-101-guidebook", etichetta: text("inclusive.microsoft.design/…/inclusive-101-guidebook"))
+Il #strong[design universale] nasce con l’obiettivo di realizzare prodotti, ambienti e sistemi utilizzabili dal maggior numero possibile di persone, senza richiedere adattamenti o soluzioni speciali. Si tratta di un approccio che privilegia la massima estensione dell’accesso e che, in ambito progettuale, invita a concepire soluzioni semplici, comprensibili, flessibili e non stigmatizzanti. I suoi principi insistono su alcuni aspetti centrali: equità d’uso, flessibilità, semplicità, percettibilità delle informazioni, tolleranza all’errore, riduzione dello sforzo fisico e adeguatezza di spazio e dimensioni.#compact-note([#([#text("The 7 principles")#text("; ")CEUD · 7 Principles; Microsoft · Inclusive Design])], ("https://universaldesign.ie/about-universal-design/the-7-principles",), tag: (text("universaldesign.ie/…/the-7-principles"),)) <nota-a03-3-1>#super[, ]#compact-note(text("Inclusive 101"), "https://inclusive.microsoft.design/articles/inclusive-101-guidebook", tag: text("inclusive.microsoft.design/…/inclusive-101-guidebook")) <nota-a03-pagina-locale-2>
 
 L’#strong[inclusive design], pur condividendo la medesima tensione etica verso l’accesso e la partecipazione, si muove da una prospettiva parzialmente diversa. Più che cercare una soluzione unica valida indistintamente per tutti, esso invita a progettare a partire dalle differenze individuali, riconoscendo che gli utenti non incontrano il mondo — e quindi nemmeno le interfacce — nello stesso modo. Progettare in maniera inclusiva non significa dunque inseguire un’impossibile neutralità, ma offrire modalità diverse e tra loro equivalenti di partecipazione all’esperienza. In questa prospettiva, le persone con disabilità non rappresentano un gruppo separato da “aggiungere” alla fine del processo, bensì un punto di osservazione privilegiato attraverso cui comprendere meglio la varietà dei bisogni umani. Una soluzione pensata per una necessità specifica può infatti rivelarsi utile a un pubblico molto più ampio: è il caso, ad esempio, dei sottotitoli, che non agevolano soltanto chi ha una disabilità uditiva, ma anche chi si trova in un ambiente rumoroso o non può attivare l’audio.
 
 // Fonte Figma 198:3892 · C03 · 079 · DX — Design universale e inclusivo
-#emph[Due prospettive complementari cercano di ampliare la partecipazione. La differenza è nel punto di partenza del progetto (@fig-a03-42).]#nota-compatta([University of Vermont, Clearing a Path], "https://digitalcollections.uvm.edu/view/33650/clearing-a-path", etichetta: [digitalcollections.uvm.edu\/…\/clearing-a-path]) <nota-a03-diritti-3>
+#emph[Due prospettive complementari cercano di ampliare la partecipazione. La differenza è nel punto di partenza del progetto (@fig-a03-42).]#compact-note([University of Vermont, Clearing a Path], "https://digitalcollections.uvm.edu/view/33650/clearing-a-path", tag: [digitalcollections.uvm.edu\/…\/clearing-a-path]) <nota-a03-diritti-3>
 
-#figura-nel-testo(
+#image-figure(path("/risorse-condivise/immagini/figure/accessibilita/clearing-a-path-giangreco-ruelle.jpg"),
+  [Lo studente chiede di liberare la rampa. Il custode vuole finire prima le scale. Lo studente fa notare che la rampa libera permette l’ingresso a tutti.],
+  format: "due-colonne",
   id: "fig-a03-42",
-  file: path("/risorse-condivise/immagini/figure/accessibilita/clearing-a-path-giangreco-ruelle.jpg"),
-  didascalia: [Lo studente chiede di liberare la rampa. Il custode vuole finire prima le scale. Lo studente fa notare che la rampa libera permette l’ingresso a tutti.],
-  diritti: [©2002 M. F. Giangreco; illustrazione K. Ruelle; University of Vermont. Uso non commerciale permesso.],
+  rights: [©2002 M. F. Giangreco; illustrazione K. Ruelle; University of Vermont. Uso non commerciale permesso.],
   alt: "Lo studente chiede di liberare la rampa. Il custode vuole finire prima le scale. Lo studente fa notare che la rampa libera permette l’ingresso a tutti.",
-  rapporto: 1808 / 1999,
-  colonne: 2,
-  altezza: 110mm,
+  aspect-ratio: 1808 / 1999,
+  height: 110mm,
 )
 
 
-#sottotitolo-lettura[Design universale]
+#reading-subtitle[Design universale]
 
 Progetta prodotti, ambienti e sistemi utilizzabili dal maggior numero di persone, con modalità identiche quando possibile ed equivalenti quando necessario.#footnote(<nota-a03-3-1>)
 
 Il bisogno segnalato avvia l’ascolto: un passo del processo inclusivo. La rampa comune rappresenta il beneficio universale.
 
-#sottotitolo-lettura[Design inclusivo]
+#reading-subtitle[Design inclusivo]
 
 Parti dalle differenze e dai punti di esclusione. Coinvolgi le persone e offri percorsi equivalenti, adattando modalità e contesto dell’interazione.#footnote(<nota-a03-3-1>)
 
@@ -74,7 +74,7 @@ Uno degli aspetti più rilevanti dell’inclusive design consiste proprio nel su
 
 Da questo punto di vista, l’accessibilità non può essere considerata un’aggiunta correttiva da introdurre a sviluppo concluso. Essa deve entrare nel progetto fin dalle prime fasi, orientando la ricerca sugli utenti, la definizione dei requisiti, la costruzione dei flussi e le scelte visive e tecniche. Una progettazione davvero inclusiva richiede inoltre di riconoscere i propri bias: ogni designer, proprio in quanto soggetto situato, rischia di proiettare sui prodotti le proprie abitudini, competenze e aspettative. Per ridurre questo rischio è necessario coinvolgere nel processo persone diverse per età, capacità, provenienza e modalità d’uso, così da verificare concretamente dove e come si generino punti di esclusione.
 
-Quando questa riflessione si applica all’ambiente digitale, si parla più propriamente di #strong[accessibilità web]. Con questa espressione si intende la progettazione e lo sviluppo di siti, applicazioni, strumenti e contenuti che possano essere utilizzati da un’ampia gamma di persone, comprese quelle con disabilità visive, uditive, motorie o cognitive. In un contesto in cui l’accesso alle tecnologie dell’informazione e della comunicazione costituisce una condizione essenziale di partecipazione sociale, culturale ed economica, garantire pari opportunità di accesso non è solo una questione tecnica, ma anche civile (@fig-a03-43).#nota-compatta([#text("Inclusive 101")#text("; ")Microsoft Design], ("https://inclusive.microsoft.design/articles/inclusive-101-guidebook",), etichetta: (text("inclusive.microsoft.design/…/inclusive-101-guidebook"),)) <nota-a03-5-1>
+Quando questa riflessione si applica all’ambiente digitale, si parla più propriamente di #strong[accessibilità web]. Con questa espressione si intende la progettazione e lo sviluppo di siti, applicazioni, strumenti e contenuti che possano essere utilizzati da un’ampia gamma di persone, comprese quelle con disabilità visive, uditive, motorie o cognitive. In un contesto in cui l’accesso alle tecnologie dell’informazione e della comunicazione costituisce una condizione essenziale di partecipazione sociale, culturale ed economica, garantire pari opportunità di accesso non è solo una questione tecnica, ma anche civile (@fig-a03-43).#compact-note([#text("Inclusive 101")#text("; ")Microsoft Design], ("https://inclusive.microsoft.design/articles/inclusive-101-guidebook",), tag: (text("inclusive.microsoft.design/…/inclusive-101-guidebook"),)) <nota-a03-5-1>
 
 // Fonte Figma 198:3903 · C03 · 081 · DX — Persona Spectrum
 La @fig-a03-43 confronta i vincoli permanenti, temporanei e situazionali.#footnote(<nota-a03-5-1>)
@@ -94,7 +94,7 @@ La @fig-a03-43 confronta i vincoli permanenti, temporanei e situazionali.#footno
 
 == Accessibilità Web
 
-Per orientare la progettazione accessibile esistono le Web Content Accessibility Guidelines (WCAG), un insieme di linee guida che organizzano  i requisiti intorno a quattro principi fondamentali.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/TR/WCAG22/", etichetta: [w3.org\/TR\/WCAG22\/]) <nota-a03-6-1>  Il contenuto deve essere anzitutto percepibile, cioè accessibile ai diversi canali sensoriali dell’utente; deve poi essere utilizzabile, dunque navigabile e controllabile anche tramite tastiera o dispositivi assistivi; deve essere comprensibile, sia nel linguaggio sia nel comportamento dell’interfaccia; infine deve essere robusto, cioè compatibile con una pluralità di browser, software e tecnologie assistive.
+Per orientare la progettazione accessibile esistono le Web Content Accessibility Guidelines (WCAG), un insieme di linee guida che organizzano  i requisiti intorno a quattro principi fondamentali.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/TR/WCAG22/", tag: [w3.org\/TR\/WCAG22\/]) <nota-a03-6-1>  Il contenuto deve essere anzitutto percepibile, cioè accessibile ai diversi canali sensoriali dell’utente; deve poi essere utilizzabile, dunque navigabile e controllabile anche tramite tastiera o dispositivi assistivi; deve essere comprensibile, sia nel linguaggio sia nel comportamento dell’interfaccia; infine deve essere robusto, cioè compatibile con una pluralità di browser, software e tecnologie assistive.
 
 Le WCAG definiscono inoltre diversi livelli di conformità — A, AA e AAA — che permettono di valutare il grado di accessibilità raggiunto:
 
@@ -102,7 +102,7 @@ Le WCAG definiscono inoltre diversi livelli di conformità — A, AA e AAA — c
 - AA: soddisfa i criteri di livello A e AA;
 - AAA: soddisfa i criteri di livello A, AA e AAA.
 
-Ragionare in termini di accessibilità significa anche considerare i modi concreti in cui le persone interagiscono con il digitale. WebAIM (Web Accessibility In Mind) è un centro non profit dell’Utah State University che svolge formazione, ricerca e valutazione sull’accessibilità web. Le sue risorse aiutano a tradurre i bisogni delle persone in scelte di progetto. Nella sua introduzione distingue quattro grandi aree: disabilità uditiva, motoria, visiva e cognitiva.#nota-compatta([WebAIM; #text("Introduction to web accessibility")], ("https://webaim.org/intro/", "https://webaim.org/about/",), etichetta: ([webaim.org\/intro\/], [webaim.org\/about\/],)) <nota-a03-6-2>
+Ragionare in termini di accessibilità significa anche considerare i modi concreti in cui le persone interagiscono con il digitale. WebAIM (Web Accessibility In Mind) è un centro non profit dell’Utah State University che svolge formazione, ricerca e valutazione sull’accessibilità web. Le sue risorse aiutano a tradurre i bisogni delle persone in scelte di progetto. Nella sua introduzione distingue quattro grandi aree: disabilità uditiva, motoria, visiva e cognitiva.#compact-note([WebAIM; #text("Introduction to web accessibility")], ("https://webaim.org/intro/", "https://webaim.org/about/",), tag: ([webaim.org\/intro\/], [webaim.org\/about\/],)) <nota-a03-6-2>
 
 A queste corrisponde una vasta gamma di strumenti e tecnologie assistive — screen reader, tastiere alternative, comandi vocali, ingranditori di schermo, puntatori speciali e altri dispositivi — che permettono agli utenti di accedere ai contenuti solo se il sito o l’applicazione sono stati costruiti riconoscendo e supportando correttamente tali modalità d’uso. La compatibilità con queste tecnologie va progettata e verificata durante lo sviluppo (@fig-a03-46). @a03-wcag.#footnote(<nota-a03-6-2>)
 
@@ -110,7 +110,7 @@ A queste corrisponde una vasta gamma di strumenti e tecnologie assistive — scr
 
 === Tecnologie assistive in uso
 
-#emph[Due modalità documentate mostrano come il software e i dispositivi rendano possibile l’interazione con il web (@fig-a03-44 e @fig-a03-45).]#nota-compatta([WebAIM; #text("Introduction to web accessibility")], ("https://webaim.org/intro/", "https://webaim.org/about/",), etichetta: ([webaim.org\/intro\/], [webaim.org\/about\/],)) <nota-layout-03-011>#nota-compatta([W3C, licenza delle fotografie], "https://creativecommons.org/licenses/by/3.0/us/", etichetta: [creativecommons.org\/…\/us]) <nota-a03-diritti-7>
+#emph[Due modalità documentate mostrano come il software e i dispositivi rendano possibile l’interazione con il web (@fig-a03-44 e @fig-a03-45).]#compact-note([WebAIM; #text("Introduction to web accessibility")], ("https://webaim.org/intro/", "https://webaim.org/about/",), tag: ([webaim.org\/intro\/], [webaim.org\/about\/],)) <nota-layout-03-011>#compact-note([W3C, licenza delle fotografie], "https://creativecommons.org/licenses/by/3.0/us/", tag: [creativecommons.org\/…\/us]) <nota-a03-diritti-7>
 
 #figure(
   [#image(path("/risorse-condivise/immagini/figure/accessibilita/screen-reader-smartphone.jpg"), width: 100%, alt: "Screen reader su smartphone. La persona esplora il contenuto attraverso gesti e sintesi vocale: la struttura semantica deve rendere disponibili nomi, ruoli e informazioni.")],
@@ -132,14 +132,75 @@ A queste corrisponde una vasta gamma di strumenti e tecnologie assistive — scr
 
 
 // Fonte Figma 198:3924 · C03 · 084 · SX — Accessibilità Web
-La mappa in @fig-a03-46 raccoglie i criteri di successo e i livelli delle WCAG 2.2 @a03-wcag; la traduzione italiana è documentata da @a03-intopia.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/TR/WCAG22/", etichetta: [w3.org\/TR\/WCAG22\/]) <nota-a03-8-1>#nota-compatta([Intopia e Sketch Group, mappe WCAG 2.2], "https://intopia.digital/articles/intopias-wcag-2-2-maps/", etichetta: [intopia.digital\/articles\/intopias-wcag-2-2-maps\/]) <nota-a03-mappa-fonte>
+La mappa in @fig-a03-46 raccoglie i criteri di successo e i livelli delle WCAG 2.2 @a03-wcag; la traduzione italiana è documentata da @a03-intopia.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/TR/WCAG22/", tag: [w3.org\/TR\/WCAG22\/]) <nota-a03-8-1>#compact-note([Intopia e Sketch Group, mappe WCAG 2.2], "https://intopia.digital/articles/intopias-wcag-2-2-maps/", tag: [intopia.digital\/articles\/intopias-wcag-2-2-maps\/]) <nota-a03-mappa-fonte>
 
-#mappa-a-pagina(
-  path("/progetti/booklet/assets/illustrazioni-palette-capitoli/originali/mappa-wcag-2.2.png"),
-  [Mappa completa dei criteri di successo WCAG 2.2, nella traduzione italiana.],
-  [Intopia e Sketch Group; traduzione Roberto Scano; rielaborazione. CC BY-SA 4.0.],
-  "Mappa completa dei criteri di successo WCAG 2.2, nella traduzione italiana.",
-)
+#context {
+  let file = path("/progetti/booklet/assets/illustrazioni-palette-capitoli/originali/mappa-wcag-2.2.png")
+  let caption = [Mappa completa dei criteri di successo WCAG 2.2, nella traduzione italiana.]
+  let rights = [Intopia e Sketch Group; traduzione Roberto Scano; rielaborazione. CC BY-SA 4.0.]
+  let alt = "Mappa completa dei criteri di successo WCAG 2.2, nella traduzione italiana."
+  let id = "fig-a03-46"
+  let didascalia-continuazione = [Mappa WCAG 2.2 · continuazione.]
+
+  assert(wcag-criteria.len() == 86, message: "La mappa WCAG deve conservare tutti gli 86 criteri attivi.")
+  let groups = ()
+  for principle in wcag-data.principi {
+    for (i, guideline) in principle.linee_guida.enumerate() {
+      groups.push(wcag-group(principle, guideline, first: i == 0))
+    }
+  }
+  let heights = groups.map(g => measure(g, width: column-width).height)
+  // Quattro intervalli contigui conservano l'ordine 1.1–4.1 e bilanciano le
+  // due colonne di ciascuna parte senza comprimere caratteri o interlinea.
+  let cuts = none
+  let maximum = 10000pt
+  for a in range(1, groups.len() - 2) {
+    for b in range(a + 1, groups.len() - 1) {
+      for c in range(b + 1, groups.len()) {
+        let heights = (heights.slice(0, a).sum(), heights.slice(a, b).sum(),
+          heights.slice(b, c).sum(), heights.slice(c).sum())
+        let probe = calc.max(..heights)
+        if probe < maximum { maximum = probe; cuts = (0, a, b, c, groups.len()) }
+      }
+    }
+  }
+  let map-column(i) = block(width: column-width)[
+    #for g in groups.slice(cuts.at(i), cuts.at(i + 1)) { g }
+  ]
+  let legend = text(size: 7.5pt, "A, AA e AAA indicano i livelli; * indica i criteri introdotti in WCAG 2.2. Il criterio 4.1.1 è rimosso da WCAG 2.2.")
+  let cap = caption-content(caption, rights: rights)
+  let measured-caption = measure(block(width: grid-width)[
+    #show footnote: reference-only
+    #draw-caption(cap, prefix: [Figura #counter(figure.where(kind: image)).display(figure.numbering)])
+  ], width: grid-width).height
+  assert(maximum + measured-caption + 28pt < body-height,
+    message: "La parte della mappa WCAG supera il corpo: " + repr(maximum))
+  [
+    #figure(
+      [
+        #metadata((criteri: wcag-criteria.map(c => (id: c.id, "livello": c.livello)),
+          "parti": 2, alt: alt, "originale": file)) <booklet-mappa-wcag>
+        #grid(columns: (column-width, column-width), column-gutter: column-gutter,
+          map-column(0), map-column(1))
+        #v(5pt)
+        #legend
+      ],
+      kind: image, supplement: [Figura], caption: cap,
+      placement: top, scope: "parent",
+    )#label(id)
+    #place(top, scope: "parent", float: true, clearance: 8pt)[
+      #block(width: grid-width)[
+        #grid(columns: (column-width, column-width), column-gutter: column-gutter,
+          map-column(2), map-column(3))
+        #v(5pt)
+        #legend
+        #v(8pt)
+        #draw-caption(didascalia-continuazione,
+          prefix: [#ref(label(id))])
+      ]
+    ]
+  ]
+}
 
 
 
@@ -147,35 +208,45 @@ La mappa in @fig-a03-46 raccoglie i criteri di successo e i livelli delle WCAG 2
 
 == Colore e contrasto
 
-#sottotitolo-lettura[Contrasto del testo · #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")[1.4.3] AA]
+#reading-subtitle[Contrasto del testo · #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")[1.4.3] AA]
 
-Tra gli aspetti più immediati, ma anche più spesso sottovalutati, rientra il contrasto cromatico.   Un contrasto insufficiente tra testo e sfondo compromette seriamente la leggibilità, soprattutto per utenti con disabilità visive o in condizioni di visione non ottimali.  Per i contenuti testuali, le WCAG 2.2 richiedono al livello AA almeno 4,5:1 per il testo normale e 3:1 per il testo grande (almeno 18 pt, oppure 14 pt in grassetto), con eccezioni per elementi incidentali e logotipi.#nota-compatta([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe],
+Tra gli aspetti più immediati, ma anche più spesso sottovalutati, rientra il contrasto cromatico.   Un contrasto insufficiente tra testo e sfondo compromette seriamente la leggibilità, soprattutto per utenti con disabilità visive o in condizioni di visione non ottimali.  Per i contenuti testuali, le WCAG 2.2 richiedono al livello AA almeno 4,5:1 per il testo normale e 3:1 per il testo grande (almeno 18 pt, oppure 14 pt in grassetto), con eccezioni per elementi incidentali e logotipi.#compact-note([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe],
   ("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/TR/WCAG22/#contrast-minimum", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html", "https://color.adobe.com/create/color-accessibility", "https://color.adobe.com/create/color-contrast-analyzer",),
-  etichetta: ([w3.org\/…\/contrast-minimum], [w3.org\/…\/\#contrast-minimum], [w3.org\/…\/use-of-color], [w3.org\/…\/contrast-enhanced], [color.adobe.com\/create\/color-accessibility], [color.adobe.com\/create\/color-contrast-analyzer],)) <nota-a03-9-1> Questo dato, apparentemente tecnico, ha in realtà ricadute molto concrete: un’interfaccia elegante ma poco leggibile fallisce nel suo compito comunicativo prima ancora che estetico. @a03-wcag.
+  tag: ([w3.org\/…\/contrast-minimum], [w3.org\/…\/\#contrast-minimum], [w3.org\/…\/use-of-color], [w3.org\/…\/contrast-enhanced], [color.adobe.com\/create\/color-accessibility], [color.adobe.com\/create\/color-contrast-analyzer],)) <nota-a03-9-1> Questo dato, apparentemente tecnico, ha in realtà ricadute molto concrete: un’interfaccia elegante ma poco leggibile fallisce nel suo compito comunicativo prima ancora che estetico. @a03-wcag.
 
-#sottotitolo-lettura[Il colore come informazione · #link("https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html")[1.4.1] A]
+#reading-subtitle[Il colore come informazione · #link("https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html")[1.4.1] A]
 
-Il colore non deve essere l’unico segnale per comunicare stato, azione o errore: affiancagli testo, simboli o altre indicazioni visibili.#nota-compatta([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe],
+Il colore non deve essere l’unico segnale per comunicare stato, azione o errore: affiancagli testo, simboli o altre indicazioni visibili.#compact-note([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe],
   ("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/TR/WCAG22/#contrast-minimum", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html", "https://color.adobe.com/create/color-accessibility", "https://color.adobe.com/create/color-contrast-analyzer",),
-  etichetta: ([w3.org\/…\/contrast-minimum], [w3.org\/…\/\#contrast-minimum], [w3.org\/…\/use-of-color], [w3.org\/…\/contrast-enhanced], [color.adobe.com\/create\/color-accessibility], [color.adobe.com\/create\/color-contrast-analyzer],)) <nota-layout-03-016>
+  tag: ([w3.org\/…\/contrast-minimum], [w3.org\/…\/\#contrast-minimum], [w3.org\/…\/use-of-color], [w3.org\/…\/contrast-enhanced], [color.adobe.com\/create\/color-accessibility], [color.adobe.com\/create\/color-contrast-analyzer],)) <nota-layout-03-016>
 
 // Fonte Figma 198:3913 · C03 · 086 · SX — Valutare una palette
 
 === Valutare una palette
 
-Contrasto del testo · #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")[1.4.3] AA \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html")[1.4.6] AAA#nota-compatta([#([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe])#text("; ")#([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe])], ("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/TR/WCAG22/#contrast-minimum", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html", "https://color.adobe.com/create/color-accessibility", "https://color.adobe.com/create/color-contrast-analyzer",), etichetta: ([w3.org\/…\/contrast-minimum], [w3.org\/…\/\#contrast-minimum], [w3.org\/…\/use-of-color], [w3.org\/…\/contrast-enhanced], [color.adobe.com\/create\/color-accessibility], [color.adobe.com\/create\/color-contrast-analyzer],)) <nota-layout-03-017>.
+Contrasto del testo · #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")[1.4.3] AA \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html")[1.4.6] AAA#compact-note([#([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe])#text("; ")#([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe])], ("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/TR/WCAG22/#contrast-minimum", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html", "https://color.adobe.com/create/color-accessibility", "https://color.adobe.com/create/color-contrast-analyzer",), tag: ([w3.org\/…\/contrast-minimum], [w3.org\/…\/\#contrast-minimum], [w3.org\/…\/use-of-color], [w3.org\/…\/contrast-enhanced], [color.adobe.com\/create\/color-accessibility], [color.adobe.com\/create\/color-contrast-analyzer],)) <nota-layout-03-017>.
 
-Il controllo del contrasto confronta testo e sfondo e restituisce un rapporto: valuta la soglia pertinente a dimensione, peso e livello richiesto#footnote(<nota-layout-03-017>). AA e AAA descrivono qui il contrasto del testo, non la conformità dell’intera pagina.#footnote(<nota-layout-03-017>)
+Il controllo del contrasto confronta testo e sfondo e restituisce un rapporto: valuta la soglia pertinente a dimensione, peso e livello richiesto#footnote(<nota-layout-03-017>). AA e AAA descrivono qui il contrasto del testo, non la conformità dell’intera pagina (@fig-a03-47).#footnote(<nota-layout-03-017>)
 
-Il simulatore mostra differenze possibili fra forme di visione dei colori. Aiuta a controllare la distinguibilità della palette; le simulazioni sono indicative e non sostituiscono le prove con le persone (@fig-a03-47).#footnote(<nota-layout-03-017>)
+Il simulatore mostra differenze possibili fra forme di visione dei colori. Aiuta a controllare la distinguibilità della palette; le simulazioni sono indicative e non sostituiscono le prove con le persone (@fig-a03-adobe-simulazione).#footnote(<nota-layout-03-017>)
 
-#figure(
-  [#grid(columns: (1fr, 1fr), gutter: 12pt, [#image(path("/risorse-condivise/immagini/figure/accessibilita/adobe-contrasto.jpg"), width: 100%, alt: "Controllo del contrasto del testo e simulazione della visione dei colori negli strumenti Adobe.")], [#image(path("/risorse-condivise/immagini/figure/accessibilita/adobe-simulazione-cromatica.png"), width: 100%, alt: "Controllo del contrasto del testo e simulazione della visione dei colori negli strumenti Adobe.")])],
-  caption: [Controllo del contrasto del testo e simulazione della visione dei colori negli strumenti Adobe.
-#v(4pt)
-#text(size: 8pt, style: "italic", weight: 400)[Adobe. Schermate degli strumenti ufficiali.]],
-  placement: top, scope: "parent",
-) <fig-a03-47>
+#image-figure(path("/risorse-condivise/immagini/figure/accessibilita/adobe-contrasto.jpg"),
+  [Controllo del contrasto del testo negli strumenti Adobe.],
+  format: "due-colonne",
+  id: "fig-a03-47",
+  rights: [Adobe. Schermata dello strumento ufficiale.],
+  alt: "Controllo del contrasto del testo negli strumenti Adobe.",
+  height: 110mm,
+)
+
+#image-figure(path("/risorse-condivise/immagini/figure/accessibilita/adobe-simulazione-cromatica.png"),
+  [Simulazione della visione dei colori negli strumenti Adobe.],
+  format: "due-colonne",
+  id: "fig-a03-adobe-simulazione",
+  rights: [Adobe. Schermata dello strumento ufficiale.],
+  alt: "Simulazione della visione dei colori negli strumenti Adobe.",
+  height: 110mm,
+)
 
 
 
@@ -192,50 +263,47 @@ Il simulatore mostra differenze possibili fra forme di visione dei colori. Aiuta
 ) <fig-a03-48>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Un messaggio poco contrastato diventa difficile da leggere; il solo rosso non spiega quale dato richiede attenzione.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
 Il testo ha contrasto verificato e l’errore è indicato anche con parole: «Orario non disponibile».#footnote(<nota-layout-03-017>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")[1.4.3 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html")[1.4.1 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")[1.4.3 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html")[1.4.1 A]]
 
-Misura il contrasto sul fondo effettivo e controlla che stato ed errore restino comprensibili senza colore.#footnote(<nota-layout-03-017>)
+Misura il contrasto sul fondo effettivo e controlla che stato ed errore restino comprensibili senza colore.#compact-note([#([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe])#text("; ")#([W3C, WCAG 2.2; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe; W3C · WCAG 2.2 · 1.4.1 A, 1.4.3 AA \/ 1.4.6 AAA; Adobe])], ("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/TR/WCAG22/#contrast-minimum", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-enhanced.html", "https://color.adobe.com/create/color-accessibility", "https://color.adobe.com/create/color-contrast-analyzer",), tag: ([w3.org\/…\/contrast-minimum], [w3.org\/…\/\#contrast-minimum], [w3.org\/…\/use-of-color], [w3.org\/…\/contrast-enhanced], [color.adobe.com\/create\/color-accessibility], [color.adobe.com\/create\/color-contrast-analyzer],)) <nota-a03-pagina-locale-22>
 
 ]
 #[
-#import "../template/editoriale.typ": nota-compatta, sottotitolo-lettura
 
 
 // Fonte Figma 3124:753 · C03 · 088 · SX — Dalle regole alle scelte di progetto
 
 == Dalle regole alle scelte di progetto
 
-#emph[Le regole sul contrasto aprono una domanda più ampia: come rendere il compito possibile nelle diverse condizioni d’uso? Le pagine seguenti collegano ciò che si percepisce, ciò che si può fare e ciò che si comprende, attraverso esempi e verifiche.]#nota-compatta([#(text("Accessibility principles"))#text("; ")#([W3C, WAI])],
+#emph[Le regole sul contrasto aprono una domanda più ampia: come rendere il compito possibile nelle diverse condizioni d’uso? Le pagine seguenti collegano ciò che si percepisce, ciò che si può fare e ciò che si comprende, attraverso esempi e verifiche.]#compact-note([#(text("Accessibility principles"))#text("; ")#([W3C, WAI])],
   ("https://www.w3.org/WAI/fundamentals/accessibility-principles/",),
-  etichetta: (text("w3.org/…/accessibility-principles"),)) <nota-a03-locale-locale-al-vivo-1>
+  tag: (text("w3.org/…/accessibility-principles"),)) <nota-a03-locale-locale-al-vivo-1>
 
-#sottotitolo-lettura[01 · Compito]
+#reading-subtitle[01 · Compito]
 
 Parti da ciò che la persona deve ottenere: leggere una notizia, scegliere un prodotto, prenotare o recuperare un account.
 
-#sottotitolo-lettura[02 · Barriera]
+#reading-subtitle[02 · Barriera]
 
 Individua quale informazione o azione manca e dove il percorso si interrompe. Collega l’ostacolo alla situazione d’uso.
 
-#sottotitolo-lettura[03 · Scelta di progetto]
+#reading-subtitle[03 · Scelta di progetto]
 
 Leggi la tavola del tema e la pagina di esempi associata. Il confronto rende visibile una possibile decisione, senza sostituire l’implementazione.
 
-#sottotitolo-lettura[04 · Verifica]
+#reading-subtitle[04 · Verifica]
 
 Riprova il compito con i criteri tecnici pertinenti e con le persone. Documenta condizioni, eccezioni e limiti della verifica.
 
-Il percorso affronta percezione, controllo, comprensione e compatibilità, poi la valutazione. WCAG definisce criteri verificabili; le indicazioni COGA sono supplementari. Gli esempi sono simulati e servono a ragionare sul progetto.#nota-compatta([#(text("Accessibility principles"))#text("; ")#([W3C, WAI])],
-  ("https://www.w3.org/WAI/fundamentals/accessibility-principles/",),
-  etichetta: (text("w3.org/…/accessibility-principles"),)) <nota-layout-03-024>
+Il percorso affronta percezione, controllo, comprensione e compatibilità, poi la valutazione. WCAG definisce criteri verificabili; le indicazioni COGA sono supplementari. Gli esempi sono simulati e servono a ragionare sul progetto.#footnote(<nota-a03-locale-locale-al-vivo-1>)
 
 // Fonte Figma 2825:233 · C03 · 089 · DX — Contrasto dei controlli
 
@@ -245,9 +313,9 @@ Il percorso affronta percezione, controllo, comprensione e compatibilità, poi l
 
 === Segnali necessari · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html")[1.4.11 AA]
 
-Le informazioni visive necessarie a identificare controlli e stati richiedono almeno 3:1 rispetto ai colori adiacenti. Il requisito riguarda anche le parti dei grafici necessarie a comprenderne il contenuto. Valuta, per esempio, il segno di spunta, un indicatore di selezione o una linea che distingue una serie di dati.#nota-compatta([W3C, WCAG 2.2],
+Le informazioni visive necessarie a identificare controlli e stati richiedono almeno 3:1 rispetto ai colori adiacenti. Il requisito riguarda anche le parti dei grafici necessarie a comprenderne il contenuto. Valuta, per esempio, il segno di spunta, un indicatore di selezione o una linea che distingue una serie di dati.#compact-note([W3C, WCAG 2.2],
   ("https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",),
-  etichetta: ([w3.org\/…\/non-text-contrast], [w3.org\/…\/contrast-minimum], [w3.org\/…\/name-role-value],)) <nota-a03-13-1>
+  tag: ([w3.org\/…\/non-text-contrast], [w3.org\/…\/contrast-minimum], [w3.org\/…\/name-role-value],)) <nota-a03-13-1>
 
 === Scegliere che cosa misurare · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html")[1.4.11 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html")[1.4.3 AA]
 
@@ -270,19 +338,17 @@ Sono esclusi i controlli inattivi e quelli il cui aspetto è determinato dal pro
 ) <fig-a03-49>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Il bordo troppo tenue è l’unico segnale della casella: l’utente può non individuare dove agire.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Un bordo distinguibile identifica la casella; la spunta comunica la selezione insieme allo stato esposto al software.#nota-compatta([W3C, WCAG 2.2],
-  ("https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html", "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html", "https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html",),
-  etichetta: ([w3.org\/…\/non-text-contrast], [w3.org\/…\/contrast-minimum], [w3.org\/…\/name-role-value],)) <nota-layout-03-028>
+Un bordo distinguibile identifica la casella; la spunta comunica la selezione insieme allo stato esposto al software.#footnote(<nota-a03-13-1>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html")[1.4.11 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html")[4.1.2 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-contrast.html")[1.4.11 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html")[4.1.2 A]]
 
-Verifica i segnali necessari rispetto ai colori adiacenti; per questi segnali, la soglia AA è 3:1.#footnote(<nota-layout-03-028>)
+Verifica i segnali necessari rispetto ai colori adiacenti; per questi segnali, la soglia AA è 3:1.#footnote(<nota-a03-13-1>)
 
 
 // Fonte Figma 2825:288 · C03 · 091 · DX — Ingrandimento e adattamento
@@ -293,7 +359,7 @@ Verifica i segnali necessari rispetto ai colori adiacenti; per questi segnali, l
 
 === Testo al 200% · #link("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html")[1.4.4 AA]
 
-Ridimensiona il testo fino al 200%, senza tecnologie assistive e senza perdere contenuti o funzioni. Sono esclusi sottotitoli e immagini di testo. Verifica etichette, pulsanti e livelli intermedi dell’ingrandimento.#nota-compatta([#([W3C, WCAG 2.2])], ("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html", "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html", "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",), etichetta: ([w3.org\/…\/resize-text], [w3.org\/…\/reflow], [w3.org\/…\/text-spacing],)) <nota-a03-15-1>
+Ridimensiona il testo fino al 200%, senza tecnologie assistive e senza perdere contenuti o funzioni. Sono esclusi sottotitoli e immagini di testo. Verifica etichette, pulsanti e livelli intermedi dell’ingrandimento.#compact-note([#([W3C, WCAG 2.2])], ("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html", "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html", "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",), tag: ([w3.org\/…\/resize-text], [w3.org\/…\/reflow], [w3.org\/…\/text-spacing],)) <nota-a03-15-1>
 
 === Reflow · #link("https://www.w3.org/WAI/WCAG22/Understanding/reflow.html")[1.4.10 AA]
 
@@ -316,28 +382,27 @@ Nei contenuti con markup che supporta questi stili, verifica insieme questi mult
 ) <fig-a03-50>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Una riga rigida nasconde l’ora e il comando quando la vista si restringe o il testo cresce.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Il riepilogo si ridistribuisce e il comando resta raggiungibile. Le informazioni conservano ordine e significato.#nota-compatta([#([W3C, WCAG 2.2])], ("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html", "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html", "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",), etichetta: ([w3.org\/…\/resize-text], [w3.org\/…\/reflow], [w3.org\/…\/text-spacing],)) <nota-a03-15-1-piede-2-1>
+Il riepilogo si ridistribuisce e il comando resta raggiungibile. Le informazioni conservano ordine e significato.#compact-note([#([W3C, WCAG 2.2])], ("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html", "https://www.w3.org/WAI/WCAG22/Understanding/reflow.html", "https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html",), tag: ([w3.org\/…\/resize-text], [w3.org\/…\/reflow], [w3.org\/…\/text-spacing],)) <nota-a03-15-1-piede-2-1>
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html")[1.4.4 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/reflow.html")[1.4.10 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html")[1.4.12 AA]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/resize-text.html")[1.4.4 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/reflow.html")[1.4.10 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/text-spacing.html")[1.4.12 AA]]
 
 Prova il testo al 200%, il reflow a 320 CSS px e gli override di spaziatura come verifiche distinte.#footnote(<nota-a03-15-1-piede-2-1>)
 
 ]
 #[
-#import "../template/editoriale.typ": nota-compatta, sottotitolo-lettura
 
 
 // Fonte Figma 2811:133 · C03 · 093 · DX — Dalle abilità alle barriere
 
 == Dalle abilità alle barriere
 
-#emph[Una barriera nasce dall’incontro fra una persona, un compito e un’interfaccia. Descriverla in modo concreto aiuta a scegliere una soluzione verificabile.]#nota-compatta([#(text("Diverse abilities and barriers"))#text("; ")#([W3C, WAI])], ("https://www.w3.org/WAI/people-use-web/abilities-barriers/",), etichetta: ([w3.org\/…\/abilities-barriers],)) <nota-layout-03-035>
+#emph[Una barriera nasce dall’incontro fra una persona, un compito e un’interfaccia. Descriverla in modo concreto aiuta a scegliere una soluzione verificabile.]#compact-note([#(text("Diverse abilities and barriers"))#text("; ")#([W3C, WAI])], ("https://www.w3.org/WAI/people-use-web/abilities-barriers/",), tag: ([w3.org\/…\/abilities-barriers],)) <nota-layout-03-035>
 
 === Osservare l’attività
 
@@ -349,13 +414,13 @@ Chiediti quale informazione manca, quale azione è impossibile e quale requisito
 
 === Collegare bisogno e decisione
 
-Annota il compito, l’ostacolo, la conseguenza e la modifica proposta. Poi verifica la soluzione con le persone coinvolte e con i criteri tecnici pertinenti. Una tecnologia assistiva aiuta soltanto se l’interfaccia ne supporta correttamente l’uso.#footnote(<nota-layout-03-035>)#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/involving-users/", etichetta: [w3.org\/…\/involving-users]) <nota-a03-17-2>
+Annota il compito, l’ostacolo, la conseguenza e la modifica proposta. Poi verifica la soluzione con le persone coinvolte e con i criteri tecnici pertinenti. Una tecnologia assistiva aiuta soltanto se l’interfaccia ne supporta correttamente l’uso.#compact-note([#(text("Diverse abilities and barriers"))#text("; ")#([W3C, WAI])], ("https://www.w3.org/WAI/people-use-web/abilities-barriers/",), tag: ([w3.org\/…\/abilities-barriers],)) <nota-a03-pagina-locale-36>#compact-note([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/involving-users/", tag: [w3.org\/…\/involving-users]) <nota-a03-17-2>
 
 // Fonte Figma 2811:177 · C03 · 094 · SX — Tre scenari di uso
 
 === Tre scenari di uso
 
-#emph[Questi tre scenari illustrativi, adattati dalle storie di utenti WAI, mostrano come un compito possa essere interrotto da una barriera. Servono a formulare domande di progetto; non sono risultati di test.]#nota-compatta([#([#text("Stories of web users")#text("; ")W3C, WAI])], ("https://www.w3.org/WAI/people-use-web/user-stories/",), etichetta: (text("w3.org/…/user-stories"),)) <nota-a03-18-1>
+#emph[Questi tre scenari illustrativi, adattati dalle storie di utenti WAI, mostrano come un compito possa essere interrotto da una barriera. Servono a formulare domande di progetto; non sono risultati di test.]#compact-note([#([#text("Stories of web users")#text("; ")W3C, WAI])], ("https://www.w3.org/WAI/people-use-web/user-stories/",), tag: (text("w3.org/…/user-stories"),)) <nota-a03-18-1>
 
 === 01 · Scegliere un prodotto
 
@@ -369,9 +434,9 @@ Una persona che usa la tastiera incontra un menu che si apre soltanto con il mou
 
 Una persona che non può ascoltare il parlato incontra un video privo di sottotitoli. Prevedi una versione accessibile del contenuto audiovisivo, con sottotitoli corretti che includano anche i suoni significativi per comprenderlo.
 
-#emph[La stessa modifica può aiutare anche in contesti temporanei o situazionali. L’efficacia va verificata sul compito, senza dedurla dalla sola appartenenza a una categoria.]#nota-compatta([#([#text("Stories of web users")#text("; ")W3C, WAI])], ("https://www.w3.org/WAI/people-use-web/user-stories/",), etichetta: (text("w3.org/…/user-stories"),)) <nota-a03-18-1-piede-2-1>#nota-compatta([W3C, WCAG 2.2],
+#emph[La stessa modifica può aiutare anche in contesti temporanei o situazionali. L’efficacia va verificata sul compito, senza dedurla dalla sola appartenenza a una categoria.]#compact-note([#([#text("Stories of web users")#text("; ")W3C, WAI])], ("https://www.w3.org/WAI/people-use-web/user-stories/",), tag: (text("w3.org/…/user-stories"),)) <nota-a03-18-1-piede-2-1>#compact-note([W3C, WCAG 2.2],
   ("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html"),
-  etichetta: ([w3.org\/…\/keyboard], [w3.org\/…\/no-keyboard-trap])) <nota-a03-18-2>#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html", etichetta: [w3.org\/…\/captions-prerecorded]) <nota-a03-18-3>
+  tag: ([w3.org\/…\/keyboard], [w3.org\/…\/no-keyboard-trap])) <nota-a03-18-2>#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html", tag: [w3.org\/…\/captions-prerecorded]) <nota-a03-18-3>
 
 // Fonte Figma 3124:835 · C03 · 095 · DX — Tre scenari, tre scelte
 
@@ -397,11 +462,11 @@ Una persona che non può ascoltare il parlato incontra un video privo di sottoti
   ) <fig-a03-53>
 
 
-#sottotitolo-lettura[01 · Scegliere un prodotto]
+#reading-subtitle[01 · Scegliere un prodotto]
 
-#sottotitolo-lettura[02 · Completare un modulo]
+#reading-subtitle[02 · Completare un modulo]
 
-#sottotitolo-lettura[03 · Seguire una lezione]
+#reading-subtitle[03 · Seguire una lezione]
 
 #emph[Scenari illustrativi e immagini originali. Non sono fotografie, risultati di test o interfacce reali.]
 
@@ -414,17 +479,17 @@ Una persona che non può ascoltare il parlato incontra un video privo di sottoti
 
 === 01 · Raggiungere e usare · #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]
 
-Le funzionalità devono poter essere utilizzate tramite tastiera, salvo quando la funzione stessa dipende dal percorso del movimento, come il disegno a mano libera. L’eccezione riguarda la funzione, non la tecnica di input scelta. Nei controlli web ordinari, Tab e Shift+Tab spostano il focus; i componenti complessi possono prevedere ulteriori tasti secondo il loro modello di interazione.#nota-compatta([W3C, WCAG 2.2],
-  ("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html"),
-  etichetta: ([w3.org\/…\/keyboard], [w3.org\/…\/no-keyboard-trap])) <nota-a03-20-1>
+Le funzionalità devono poter essere utilizzate tramite tastiera, salvo quando la funzione stessa dipende dal percorso del movimento, come il disegno a mano libera. L’eccezione riguarda la funzione, non la tecnica di input scelta. Nei controlli web ordinari, Tab e Shift+Tab spostano il focus; i componenti complessi possono prevedere ulteriori tasti secondo il loro modello di interazione.#compact-note([#([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])])],
+  ("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html", "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html", "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html", "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html",),
+  tag: ([w3.org\/…\/keyboard], [w3.org\/…\/no-keyboard-trap], [w3.org\/…\/focus-order], [w3.org\/…\/focus-visible], [w3.org\/…\/bypass-blocks],)) <nota-a03-20-1>
 
 === 02 · Orientarsi durante il percorso · #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html")[2.4.3 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html")[2.4.7 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html")[2.4.1 A]
 
-L’ordine del focus deve preservare significato e operabilità. Un indicatore visibile mostra dove agirà il prossimo comando. Titoli, regioni e collegamenti per saltare blocchi ripetuti consentono percorsi diversi: chi usa uno screen reader non deve necessariamente ascoltare tutta la pagina in sequenza.#nota-compatta([#([W3C, WCAG 2.2])], ("https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html", "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html", "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html",), etichetta: ([w3.org\/…\/focus-order], [w3.org\/…\/focus-visible], [w3.org\/…\/bypass-blocks], [w3.org\/…\/keyboard], [w3.org\/…\/no-keyboard-trap],)) <nota-a03-20-2>
+L’ordine del focus deve preservare significato e operabilità. Un indicatore visibile mostra dove agirà il prossimo comando. Titoli, regioni e collegamenti per saltare blocchi ripetuti consentono percorsi diversi: chi usa uno screen reader non deve necessariamente ascoltare tutta la pagina in sequenza.#footnote(<nota-a03-20-1>)
 
 === 03 · Entrare, uscire e riprendere · #link("https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html")[2.1.2 A]
 
-Un dialogo o un menu non deve intrappolare la tastiera. Un dialogo modale contiene il focus mentre è aperto e lo restituisce in modo appropriato alla chiusura. Se servono tasti non standard per uscire, occorre comunicarli all’utente.#footnote(<nota-a03-20-2>)#super[, ]#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/", etichetta: [w3.org\/…\/dialog-modal]) <nota-a03-20-3>
+Un dialogo o un menu non deve intrappolare la tastiera. Un dialogo modale contiene il focus mentre è aperto e lo restituisce in modo appropriato alla chiusura. Se servono tasti non standard per uscire, occorre comunicarli all’utente.#footnote(<nota-a03-20-1>)#super[, ]#compact-note([W3C, WAI], "https://www.w3.org/WAI/ARIA/apg/patterns/dialog-modal/", tag: [w3.org\/…\/dialog-modal]) <nota-a03-20-3>
 
 // Fonte Figma 3122:764 · C03 · 097 · DX — Inviare un modulo senza mouse
 
@@ -439,19 +504,19 @@ Un dialogo o un menu non deve intrappolare la tastiera. Un dialogo modale contie
 ) <fig-a03-54>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Il menu del corso risponde soltanto al mouse; l’utente raggiunge il campo ma non può completare la scelta.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Tasti previsti dal componente, focus visibile e ordine coerente consentono scelta, invio e ritorno alla pagina.#footnote(<nota-a03-20-2>)
+Tasti previsti dal componente, focus visibile e ordine coerente consentono scelta, invio e ritorno alla pagina.#compact-note([#([#([W3C, WCAG 2.2])])#text("; ")#([W3C, WCAG 2.2])],
+  ("https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html", "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html", "https://www.w3.org/WAI/WCAG22/Understanding/bypass-blocks.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html",),
+  tag: ([w3.org\/…\/focus-order], [w3.org\/…\/focus-visible], [w3.org\/…\/bypass-blocks], [w3.org\/…\/keyboard], [w3.org\/…\/no-keyboard-trap],)) <nota-a03-pagina-locale-47>
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html")[2.1.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html")[2.4.3 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html")[2.4.7 AA]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html")[2.1.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html")[2.4.3 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html")[2.4.7 AA]]
 
-Percorri il modulo con la tastiera. Apri e chiudi il menu, controllando sempre dove si trova il focus.#nota-compatta([W3C, WCAG 2.2],
-  ("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/WCAG22/Understanding/no-keyboard-trap.html", "https://www.w3.org/WAI/WCAG22/Understanding/focus-order.html", "https://www.w3.org/WAI/WCAG22/Understanding/focus-visible.html"),
-  etichetta: ([w3.org\/…\/keyboard], [w3.org\/…\/no-keyboard-trap], [w3.org\/…\/focus-order], [w3.org\/…\/focus-visible])) <nota-layout-03-048>
+Percorri il modulo con la tastiera. Apri e chiudi il menu, controllando sempre dove si trova il focus.#footnote(<nota-a03-pagina-locale-47>)
 
 
 // Fonte Figma 2811:262 · C03 · 098 · SX — Puntamento e trascinamento
@@ -462,20 +527,20 @@ Percorri il modulo con la tastiera. Apri e chiudi il menu, controllando sempre d
 
 === Dimensione minima dei bersagli · #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html")[2.5.8 AA]
 
-WCAG 2.2, criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html")[2.5.8 AA]: il bersaglio di un input a puntatore deve misurare almeno 24 × 24 CSS px, oppure rispettare una delle eccezioni previste. Per bersagli più piccoli, i cerchi di diametro 24 CSS px centrati sui rispettivi riquadri non devono intersecare altri bersagli né i cerchi di altri bersagli piccoli (@fig-a03-55).#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", etichetta: [w3.org\/…\/target-size-minimum]) <nota-a03-22-1>
+WCAG 2.2, criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html")[2.5.8 AA]: il bersaglio di un input a puntatore deve misurare almeno 24 × 24 CSS px, oppure rispettare una delle eccezioni previste. Per bersagli più piccoli, i cerchi di diametro 24 CSS px centrati sui rispettivi riquadri non devono intersecare altri bersagli né i cerchi di altri bersagli piccoli (@fig-a03-55).#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", tag: [w3.org\/…\/target-size-minimum]) <nota-a03-22-1>
 
 === Le eccezioni contano · #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html")[2.5.8 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html")[2.5.5 AAA]
 
-Il criterio prevede anche eccezioni per un controllo equivalente sulla stessa pagina, collegamenti nel testo, controlli la cui dimensione è determinata dal programma utente e non modificata dall’autore, e presentazioni essenziali. Non applicare la misura meccanicamente a ogni parola cliccabile. Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html")[2.5.5 AAA] usa 44 × 44 CSS px con proprie eccezioni.#footnote(<nota-a03-22-1>)#super[, ]#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html", etichetta: [w3.org\/…\/target-size-enhanced]) <nota-a03-22-2>
+Il criterio prevede anche eccezioni per un controllo equivalente sulla stessa pagina, collegamenti nel testo, controlli la cui dimensione è determinata dal programma utente e non modificata dall’autore, e presentazioni essenziali. Non applicare la misura meccanicamente a ogni parola cliccabile. Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html")[2.5.5 AAA] usa 44 × 44 CSS px con proprie eccezioni.#footnote(<nota-a03-22-1>)#super[, ]#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/target-size-enhanced.html", tag: [w3.org\/…\/target-size-enhanced]) <nota-a03-22-2>
 
 === Un gesto, più percorsi · #link("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html")[2.5.7 AA]
 
-Se una funzione richiede trascinamento, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html")[2.5.7 AA] richiede anche un’alternativa con un puntatore singolo senza trascinare, salvo le eccezioni del criterio. Per riordinare una lista si possono offrire comandi “Sposta su” e “Sposta giù”. La sola alternativa da tastiera non soddisfa questo requisito.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html", etichetta: [w3.org\/…\/dragging-movements]) <nota-a03-22-3>
+Se una funzione richiede trascinamento, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html")[2.5.7 AA] richiede anche un’alternativa con un puntatore singolo senza trascinare, salvo le eccezioni del criterio. Per riordinare una lista si possono offrire comandi “Sposta su” e “Sposta giù”. La sola alternativa da tastiera non soddisfa questo requisito.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html", tag: [w3.org\/…\/dragging-movements]) <nota-a03-22-3>
 
 Il confronto in @fig-a03-55 distingue dimensione e spaziatura dei bersagli.
 
 #figure(
-  [#disegno-bersagli()],
+  [#target-sizes()],
   kind: image,
   caption: [Esempio simulato: quote in CSS px, non in scala fisica di stampa. I cerchi indicano l’eccezione di spaziatura del criterio 2.5.8 AA.],
   placement: top, scope: "parent",
@@ -496,46 +561,45 @@ Il confronto in @fig-a03-55 distingue dimensione e spaziatura dei bersagli.
 ) <fig-a03-56>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 La lista offre soltanto un’impugnatura da trascinare; precisione e movimento continuo diventano requisiti impliciti.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-«Sposta su» e «Sposta giù» permettono lo stesso riordino con un puntatore singolo senza trascinamento.#nota-compatta([W3C, WCAG 2.2],
+«Sposta su» e «Sposta giù» permettono lo stesso riordino con un puntatore singolo senza trascinamento.#compact-note([W3C, WCAG 2.2],
   ("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html", "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html"),
-  etichetta: ([w3.org\/…\/dragging-movements], [w3.org\/…\/target-size-minimum], [w3.org\/…\/keyboard])) <nota-a03-23-1>
+  tag: ([w3.org\/…\/dragging-movements], [w3.org\/…\/target-size-minimum], [w3.org\/…\/keyboard])) <nota-a03-23-1>
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html")[2.5.7 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html")[2.5.8 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html")[2.5.7 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html")[2.5.8 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]]
 
-Verifica l’alternativa a puntatore e, separatamente, l’uso da tastiera e i bersagli. Le eccezioni dipendono dal criterio.#nota-compatta([W3C, WCAG 2.2],
-  ("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html", "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html"),
-  etichetta: ([w3.org\/…\/dragging-movements], [w3.org\/…\/target-size-minimum], [w3.org\/…\/keyboard])) <nota-layout-03-054>
+Verifica l’alternativa a puntatore e, separatamente, l’uso da tastiera e i bersagli. Le eccezioni dipendono dal criterio.#footnote(<nota-a03-23-1>)
 
 ]
 #[
-#import "../template/editoriale.typ": nota-compatta, sottotitolo-lettura
 
 
 // Fonte Figma 2811:301 · C03 · 100 · SX — Immagini, struttura e significato
 
 == Immagini, struttura e significato
 
-#emph[Raggiungere i controlli è utile se il loro contenuto è comprensibile. Per le immagini, l’alternativa testuale restituisce ciò che viene comunicato o ciò che si può fare nel contesto d’uso.]#nota-compatta([#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])])])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])]); #([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])])], ("https://www.w3.org/WAI/tutorials/images/", "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html", "https://www.w3.org/WAI/tutorials/images/complex/",), etichetta: (text("w3.org/…/images"), [w3.org\/…\/non-text-content], [w3.org\/…\/complex],)) <nota-a03-24-1>
+#emph[Raggiungere i controlli è utile se il loro contenuto è comprensibile. Per le immagini, l’alternativa testuale restituisce ciò che viene comunicato o ciò che si può fare nel contesto d’uso.]#compact-note([#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])])])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])]); #([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])])], ("https://www.w3.org/WAI/tutorials/images/", "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html", "https://www.w3.org/WAI/tutorials/images/complex/",), tag: (text("w3.org/…/images"), [w3.org\/…\/non-text-content], [w3.org\/…\/complex],)) <nota-a03-24-1>
 
 === Informativa, funzionale, decorativa · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html")[1.1.1 A]
 
-Per un’immagine informativa, scrivi un testo che restituisca l’informazione pertinente. Se un’immagine svolge una funzione, come un’icona che avvia una ricerca, comunica lo scopo dell’azione. Per un’immagine puramente decorativa, un’alternativa vuota evita letture inutili.#footnote(<nota-a03-24-1>)
+Per un’immagine informativa, scrivi un testo che restituisca l’informazione pertinente. Se un’immagine svolge una funzione, come un’icona che avvia una ricerca, comunica lo scopo dell’azione. Per un’immagine puramente decorativa, un’alternativa vuota evita letture inutili.#compact-note([#([#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])])])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])]); #([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])])])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])]); #([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])])],
+  ("https://www.w3.org/WAI/tutorials/images/", "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html", "https://www.w3.org/WAI/tutorials/images/complex/",),
+  tag: (text("w3.org/…/images"), [w3.org\/…\/non-text-content], [w3.org\/…\/complex],)) <nota-a03-pagina-locale-56>
 
 === Le figure complesse · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html")[1.1.1 A]
 
-Un grafico può richiedere una descrizione breve e una spiegazione più estesa, con dati o relazioni disponibili nel contenuto. Il testo alternativo non deve diventare un elenco indiscriminato di dettagli: scegli l’informazione necessaria a comprendere il messaggio o completare il compito.#footnote(<nota-a03-24-1>)
+Un grafico può richiedere una descrizione breve e una spiegazione più estesa, con dati o relazioni disponibili nel contenuto. Il testo alternativo non deve diventare un elenco indiscriminato di dettagli: scegli l’informazione necessaria a comprendere il messaggio o completare il compito.#footnote(<nota-a03-pagina-locale-56>)
 
 === La struttura è informazione · #link("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html")[1.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html")[2.4.4 A]
 
-Titoli, elenchi, tabelle e regioni devono rappresentare relazioni reali e conservarle anche per le tecnologie assistive. Un testo grande e in grassetto non diventa automaticamente un titolo semantico. Nei link, indica una destinazione o uno scopo comprensibile nel contesto.#nota-compatta([W3C, WAI],
+Titoli, elenchi, tabelle e regioni devono rappresentare relazioni reali e conservarle anche per le tecnologie assistive. Un testo grande e in grassetto non diventa automaticamente un titolo semantico. Nei link, indica una destinazione o uno scopo comprensibile nel contesto.#compact-note([W3C, WAI],
   ("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html", "https://www.w3.org/WAI/WCAG22/Understanding/link-purpose-in-context.html", "https://www.w3.org/WAI/tutorials/page-structure/"),
-  etichetta: ([w3.org\/…\/info-and-relationships], [w3.org\/…\/link-purpose-in-context], [w3.org\/…\/page-structure])) <nota-a03-24-3>
+  tag: ([w3.org\/…\/info-and-relationships], [w3.org\/…\/link-purpose-in-context], [w3.org\/…\/page-structure])) <nota-a03-24-3>
 
 // Fonte Figma 3123:6602 · C03 · 101 · DX — Descrivere ciò che serve
 
@@ -550,19 +614,17 @@ Titoli, elenchi, tabelle e regioni devono rappresentare relazioni reali e conser
 ) <fig-a03-57>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Il nome del file non descrive il prodotto; chi non vede l’immagine perde l’informazione necessaria a confrontarlo.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-L’alternativa restituisce il dettaglio pertinente. Un’icona funzionale comunica l’azione; una decorazione può avere alternativa vuota.#nota-compatta([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([#([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])]); #([#text("Images tutorial")#text("; ")W3C, WAI])#text("; ")#([W3C, WAI])],
-  ("https://www.w3.org/WAI/tutorials/images/", "https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html", "https://www.w3.org/WAI/tutorials/images/complex/",),
-  etichetta: (text("w3.org/…/images"), [w3.org\/…\/non-text-content], [w3.org\/…\/complex],)) <nota-layout-03-059>
+L’alternativa restituisce il dettaglio pertinente. Un’icona funzionale comunica l’azione; una decorazione può avere alternativa vuota.#footnote(<nota-a03-pagina-locale-56>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html")[1.1.1 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/non-text-content.html")[1.1.1 A]]
 
-Leggi la pagina senza immagini e verifica se resta possibile comprendere il contenuto o completare il compito.#footnote(<nota-layout-03-059>)
+Leggi la pagina senza immagini e verifica se resta possibile comprendere il contenuto o completare il compito.#footnote(<nota-a03-pagina-locale-56>)
 
 
 // Fonte Figma 2811:345 · C03 · 102 · SX — Contenuti audiovisivi accessibili
@@ -573,7 +635,7 @@ Leggi la pagina senza immagini e verifica se resta possibile comprendere il cont
 
 === Sottotitoli · #link("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html")[1.2.2 A]
 
-Per l’audio preregistrato in contenuti sincronizzati, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html")[1.2.2 A] richiede sottotitoli, salvo l’eccezione dei media che costituiscono un’alternativa al testo e sono indicati come tali. Includi parlato, identificazione di chi parla e suoni significativi. I sottotitoli automatici devono essere verificati e corretti.#nota-compatta([#([#([W3C, WCAG 2.2; W3C, WAI])])], ("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html", "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/media/av/planning/",), etichetta: ([w3.org\/…\/captions-prerecorded], [w3.org\/…\/audio-description-prerecorded], [w3.org\/…\/keyboard], [w3.org\/…\/planning],)) <nota-a03-26-1>
+Per l’audio preregistrato in contenuti sincronizzati, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html")[1.2.2 A] richiede sottotitoli, salvo l’eccezione dei media che costituiscono un’alternativa al testo e sono indicati come tali. Includi parlato, identificazione di chi parla e suoni significativi. I sottotitoli automatici devono essere verificati e corretti.#compact-note([#([#([W3C, WCAG 2.2; W3C, WAI])])], ("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html", "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/media/av/planning/",), tag: ([w3.org\/…\/captions-prerecorded], [w3.org\/…\/audio-description-prerecorded], [w3.org\/…\/keyboard], [w3.org\/…\/planning],)) <nota-a03-26-1>
 
 === Informazioni visive · #link("https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html")[1.2.5 AA]
 
@@ -581,7 +643,7 @@ I sottotitoli non descrivono ciò che si vede. Per i video preregistrati nei med
 
 === Progettare anche il lettore · #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]
 
-Il player deve consentire l’uso da tastiera, mostrare controlli comprensibili e rendere disponibili le alternative. Sottotitoli, trascrizioni e descrizioni vanno pianificati durante la produzione, così da evitare che informazioni essenziali siano affidate a un solo canale.#footnote(<nota-a03-26-1>)
+Il player deve consentire l’uso da tastiera, mostrare controlli comprensibili e rendere disponibili le alternative. Sottotitoli, trascrizioni e descrizioni vanno pianificati durante la produzione, così da evitare che informazioni essenziali siano affidate a un solo canale.#compact-note([#([#([W3C, WCAG 2.2; W3C, WAI])])], ("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html", "https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html", "https://www.w3.org/WAI/media/av/planning/",), tag: ([w3.org\/…\/captions-prerecorded], [w3.org\/…\/audio-description-prerecorded], [w3.org\/…\/keyboard], [w3.org\/…\/planning],)) <nota-a03-pagina-locale-63>
 
 // Fonte Figma 3123:6669 · C03 · 103 · DX — Seguire un video su più canali
 
@@ -596,17 +658,17 @@ Il player deve consentire l’uso da tastiera, mostrare controlli comprensibili 
 ) <fig-a03-58>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Il parlato è disponibile soltanto nell’audio; una freccia mostrata dal docente non viene spiegata a voce.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Sottotitoli corretti rendono disponibile l’audio. Le informazioni visive essenziali sono descritte anche nella traccia audio o con audiodescrizione.#footnote(<nota-a03-26-1>)
+Sottotitoli corretti rendono disponibile l’audio. Le informazioni visive essenziali sono descritte anche nella traccia audio o con audiodescrizione.#footnote(<nota-a03-pagina-locale-63>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html")[1.2.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html")[1.2.5 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/captions-prerecorded.html")[1.2.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/audio-description-prerecorded.html")[1.2.5 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]]
 
-Controlla le alternative e il player da tastiera. Una trascrizione da sola non sostituisce automaticamente l’audiodescrizione AA.#footnote(<nota-a03-26-1>)
+Controlla le alternative e il player da tastiera. Una trascrizione da sola non sostituisce automaticamente l’audiodescrizione AA.#footnote(<nota-a03-pagina-locale-63>)
 
 
 // Fonte Figma 2825:328 · C03 · 104 · SX — Nome, ruolo e stato dei controlli
@@ -617,19 +679,17 @@ Controlla le alternative e il player da tastiera. Una trascrizione da sola non s
 
 === Rendere riconoscibile il comando · #link("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html")[4.1.2 A]
 
-Nome e ruolo devono essere identificabili dal software. Stati, proprietà e valori impostabili dall’utente devono poter essere impostati anche programmaticamente; le notifiche dei cambiamenti devono essere disponibili ai programmi utente, incluse le tecnologie assistive. Preferisci controlli nativi usati secondo le specifiche e verifica quelli personalizzati.#nota-compatta([#([W3C, WCAG 2.2])],
+Nome e ruolo devono essere identificabili dal software. Stati, proprietà e valori impostabili dall’utente devono poter essere impostati anche programmaticamente; le notifiche dei cambiamenti devono essere disponibili ai programmi utente, incluse le tecnologie assistive. Preferisci controlli nativi usati secondo le specifiche e verifica quelli personalizzati.#compact-note([#([W3C, WCAG 2.2])],
   ("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",),
-  etichetta: ([w3.org\/…\/name-role-value], [w3.org\/…\/keyboard],)) <nota-a03-28-1>
+  tag: ([w3.org\/…\/name-role-value], [w3.org\/…\/keyboard],)) <nota-a03-28-1>
 
 === Collegare ciò che si vede e si pronuncia · #link("https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html")[2.5.3 A]
 
-Quando l’etichetta di un controllo contiene testo visibile, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html")[2.5.3 A] richiede che il nome accessibile contenga quel testo. Un pulsante “Cerca” con nome accessibile “Trova prodotti” può ostacolare chi tenta di attivarlo pronunciando la parola visibile. “Cerca nel catalogo” conserva invece l’etichetta.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html", etichetta: [w3.org\/…\/label-in-name]) <nota-a03-28-2>
+Quando l’etichetta di un controllo contiene testo visibile, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html")[2.5.3 A] richiede che il nome accessibile contenga quel testo. Un pulsante “Cerca” con nome accessibile “Trova prodotti” può ostacolare chi tenta di attivarlo pronunciando la parola visibile. “Cerca nel catalogo” conserva invece l’etichetta.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/label-in-name.html", tag: [w3.org\/…\/label-in-name]) <nota-a03-28-2>
 
 === Lo stato fa parte dell’informazione · #link("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html")[4.1.2 A]
 
-Comunica se un pannello è aperto o chiuso e se una casella è selezionata. Colore o forma non bastano per le tecnologie assistive: documenta gli stati insieme alle modalità di azione e verifica il componente realizzato.#nota-compatta([#([W3C, WCAG 2.2])],
-  ("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html", "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",),
-  etichetta: ([w3.org\/…\/name-role-value], [w3.org\/…\/keyboard],)) <nota-layout-03-068>
+Comunica se un pannello è aperto o chiuso e se una casella è selezionata. Colore o forma non bastano per le tecnologie assistive: documenta gli stati insieme alle modalità di azione e verifica il componente realizzato.#footnote(<nota-a03-28-1>)
 
 // Fonte Figma 3123:6734 · C03 · 105 · DX — Aprire i dettagli di consegna
 
@@ -644,17 +704,17 @@ Comunica se un pannello è aperto o chiuso e se una casella è selezionata. Colo
 ) <fig-a03-59>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Il testo sembra cliccabile, ma il software non riconosce il pulsante o non riceve il suo stato.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Nome «Dettagli consegna», ruolo pulsante e stato espanso\/compresso consentono di capire l’azione e il cambiamento.#footnote(<nota-layout-03-068>)
+Nome «Dettagli consegna», ruolo pulsante e stato espanso\/compresso consentono di capire l’azione e il cambiamento.#footnote(<nota-a03-28-1>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html")[4.1.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/name-role-value.html")[4.1.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html")[2.1.1 A]]
 
-Attiva il controllo con la tastiera e verifica nome, ruolo e stato con la tecnologia assistiva pertinente.#footnote(<nota-layout-03-068>)
+Attiva il controllo con la tastiera e verifica nome, ruolo e stato con la tecnologia assistiva pertinente.#footnote(<nota-a03-28-1>)
 
 
 // Fonte Figma 2825:372 · C03 · 106 · SX — Feedback e messaggi di stato
@@ -665,17 +725,17 @@ Attiva il controllo con la tastiera e verifica nome, ruolo e stato con la tecnol
 
 === Comunicare senza spostare il focus · #link("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html")[4.1.3 AA]
 
-Nei contenuti con linguaggi di markup, i messaggi di stato devono essere identificabili programmaticamente mediante ruolo o proprietà, così che le tecnologie assistive possano presentarli senza ricevere focus. Il criterio riguarda messaggi su esito di azioni, attesa, avanzamento o errori che non comportano un cambiamento di contesto.#nota-compatta([#([#([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",), etichetta: ([w3.org\/…\/status-messages],)) <nota-a03-30-1>
+Nei contenuti con linguaggi di markup, i messaggi di stato devono essere identificabili programmaticamente mediante ruolo o proprietà, così che le tecnologie assistive possano presentarli senza ricevere focus. Il criterio riguarda messaggi su esito di azioni, attesa, avanzamento o errori che non comportano un cambiamento di contesto.#compact-note([#([#([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",), tag: ([w3.org\/…\/status-messages],)) <nota-a03-30-1>
 
 === Un riscontro comprensibile · #link("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html")[4.1.3 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html")[3.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html")[3.3.3 AA]
 
-“Salvataggio completato”, “Nessun risultato” o “Tre errori nel modulo” spiegano che cosa è successo. Nel progetto, indica quale evento produce il messaggio e quale informazione occorre comunicare. Per gli errori, conserva anche le spiegazioni associate ai campi: l’annuncio non sostituisce le istruzioni per correggerli.#footnote(<nota-a03-30-1>)#super[, ]#nota-compatta([W3C, WCAG 2.2],
+“Salvataggio completato”, “Nessun risultato” o “Tre errori nel modulo” spiegano che cosa è successo. Nel progetto, indica quale evento produce il messaggio e quale informazione occorre comunicare. Per gli errori, conserva anche le spiegazioni associate ai campi: l’annuncio non sostituisce le istruzioni per correggerli.#footnote(<nota-a03-30-1>)#super[, ]#compact-note([W3C, WCAG 2.2],
   ("https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html", "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html"),
-  etichetta: ([w3.org\/…\/error-identification], [w3.org\/…\/error-suggestion])) <nota-a03-30-2>
+  tag: ([w3.org\/…\/error-identification], [w3.org\/…\/error-suggestion])) <nota-a03-30-2>
 
 === Evitare interruzioni superflue · #link("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html")[4.1.3 AA]
 
-Non spostare il focus per ogni aggiornamento e non trasformare ogni modifica in un annuncio. Il criterio non impone di creare messaggi per tutti i cambiamenti della pagina. Concorda con chi implementa priorità e frequenza dei riscontri e verifica che l’utente comprenda l’esito senza perdere il punto del compito.#footnote(<nota-a03-30-1>)
+Non spostare il focus per ogni aggiornamento e non trasformare ogni modifica in un annuncio. Il criterio non impone di creare messaggi per tutti i cambiamenti della pagina. Concorda con chi implementa priorità e frequenza dei riscontri e verifica che l’utente comprenda l’esito senza perdere il punto del compito.#compact-note([#([#([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html",), tag: ([w3.org\/…\/status-messages],)) <nota-a03-pagina-locale-74>
 
 // Fonte Figma 3123:6795 · C03 · 107 · DX — Capire che il salvataggio è riuscito
 
@@ -690,21 +750,20 @@ Non spostare il focus per ogni aggiornamento e non trasformare ogni modifica in 
 ) <fig-a03-60>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Un messaggio appare lontano dal pulsante; chi usa uno screen reader può continuare senza sapere che cosa è successo.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Il messaggio di stato è identificabile programmaticamente. L’esito viene presentato senza spostare il focus dal compito.#footnote(<nota-a03-30-1>)
+Il messaggio di stato è identificabile programmaticamente. L’esito viene presentato senza spostare il focus dal compito.#footnote(<nota-a03-pagina-locale-74>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html")[4.1.3 AA]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/status-messages.html")[4.1.3 AA]]
 
-Dopo «Salva», verifica che il messaggio sia percepito e che l’utente possa continuare dal punto in cui si trova.#footnote(<nota-a03-30-1>)
+Dopo «Salva», verifica che il messaggio sia percepito e che l’utente possa continuare dal punto in cui si trova.#footnote(<nota-a03-pagina-locale-74>)
 
 ]
 #[
-#import "../template/editoriale.typ": nota-compatta, sottotitolo-lettura
 
 
 // Fonte Figma 2811:384 · C03 · 108 · SX — Accessibilità cognitiva
@@ -723,7 +782,7 @@ La conformità alle WCAG è una base importante, ma non copre ogni bisogno. La g
 
 === Coinvolgere e osservare
 
-Una schermata visivamente semplice può comunque richiedere passaggi difficili da capire o ricordare. Coinvolgi persone con esperienze diverse e osserva dove esitano, perdono il filo o devono chiedere aiuto. Usa i risultati per rivedere il compito e l’interfaccia, senza attribuire automaticamente la difficoltà alla persona.#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/people-use-web/abilities-barriers/cognitive/", etichetta: [w3.org\/…\/cognitive]) <nota-a03-32-1>#nota-compatta([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/about/", etichetta: [w3.org\/…\/about]) <nota-a03-32-2>#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/involving-users/", etichetta: [w3.org\/…\/involving-users]) <nota-a03-32-3>
+Una schermata visivamente semplice può comunque richiedere passaggi difficili da capire o ricordare. Coinvolgi persone con esperienze diverse e osserva dove esitano, perdono il filo o devono chiedere aiuto. Usa i risultati per rivedere il compito e l’interfaccia, senza attribuire automaticamente la difficoltà alla persona.#compact-note([W3C, WAI], "https://www.w3.org/WAI/people-use-web/abilities-barriers/cognitive/", tag: [w3.org\/…\/cognitive]) <nota-a03-32-1>#compact-note([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/about/", tag: [w3.org\/…\/about]) <nota-a03-32-2>#compact-note([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/involving-users/", tag: [w3.org\/…\/involving-users]) <nota-a03-32-3>
 
 // Fonte Figma 2811:429 · C03 · 109 · DX — Riconoscere, capire, ricordare
 
@@ -741,7 +800,7 @@ Mostra dove si trova l’utente nel percorso e quali passi restano. Rendi consul
 
 === Preparare il compito
 
-Prima di un’attività articolata, indica documenti o risorse richiesti, una stima del tempo e la sequenza delle fasi. Distingui chiaramente un passaggio in corso da uno completato. Queste indicazioni COGA sostengono il progetto; non sono tutte, di per sé, requisiti di conformità WCAG.#nota-compatta([W3C, COGA], ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p01-clear-words/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p07-step-instructions/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/",), etichetta: ([w3.org\/…\/o3p01-clear-words], [w3.org\/…\/o4p07-step-instructions], [w3.org\/…\/o6p05-low-cognition],)) <nota-a03-33-1>#nota-compatta([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p04-task-expectations/", etichetta: [w3.org\/…\/o5p04-task-expectations]) <nota-a03-33-4>
+Prima di un’attività articolata, indica documenti o risorse richiesti, una stima del tempo e la sequenza delle fasi. Distingui chiaramente un passaggio in corso da uno completato. Queste indicazioni COGA sostengono il progetto; non sono tutte, di per sé, requisiti di conformità WCAG.#compact-note([W3C, COGA], ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p01-clear-words/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p07-step-instructions/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/",), tag: ([w3.org\/…\/o3p01-clear-words], [w3.org\/…\/o4p07-step-instructions], [w3.org\/…\/o6p05-low-cognition],)) <nota-a03-33-1>#compact-note([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p04-task-expectations/", tag: [w3.org\/…\/o5p04-task-expectations]) <nota-a03-33-4>
 
 // Fonte Figma 3123:6857 · C03 · 110 · SX — Prenotare con il contesto visibile
 
@@ -756,17 +815,17 @@ Prima di un’attività articolata, indica documenti o risorse richiesti, una st
 ) <fig-a03-61>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 La conferma richiede di ricordare data e ora inserite nella schermata precedente; correggerle significa ricominciare.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
 Il riepilogo conserva i dati e distingue «Modifica» da «Conferma». Parole comuni e passi visibili sostengono il compito.#footnote(<nota-a03-33-1>)
 
-#sottotitolo-lettura[Come verificare · COGA]
+#reading-subtitle[Come verificare · COGA]
 
-Osserva una prenotazione completa. Queste indicazioni COGA integrano le WCAG e non sono da sole una prova di conformità.#nota-compatta([W3C, COGA], ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p01-clear-words/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p07-step-instructions/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/",), etichetta: ([w3.org\/…\/o3p01-clear-words], [w3.org\/…\/o4p07-step-instructions], [w3.org\/…\/o6p05-low-cognition],)) <nota-a03-33-1-locale-83>
+Osserva una prenotazione completa. Queste indicazioni COGA integrano le WCAG e non sono da sole una prova di conformità.#compact-note([W3C, COGA], ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o3p01-clear-words/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p07-step-instructions/", "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o6p05-low-cognition/",), tag: ([w3.org\/…\/o3p01-clear-words], [w3.org\/…\/o4p07-step-instructions], [w3.org\/…\/o6p05-low-cognition],)) <nota-a03-33-1-locale-83>
 
 
 // Fonte Figma 2811:470 · C03 · 111 · DX — Movimento, tempo e distrazioni
@@ -777,17 +836,17 @@ Osserva una prenotazione completa. Queste indicazioni COGA integrano le WCAG e n
 
 === Pausa, arresto, nascondi · #link("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html")[2.2.2 A]
 
-Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html")[2.2.2 A] riguarda, fra l’altro, contenuti in movimento, lampeggianti o scorrevoli che partono automaticamente, durano più di cinque secondi e sono presentati insieme ad altri contenuti. Serve un modo per metterli in pausa, fermarli o nasconderli, salvo che il movimento sia essenziale. Per gli aggiornamenti automatici presentati in parallelo, il criterio prevede anche il controllo della frequenza e non usa la soglia di cinque secondi.#nota-compatta([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])])],
+Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html")[2.2.2 A] riguarda, fra l’altro, contenuti in movimento, lampeggianti o scorrevoli che partono automaticamente, durano più di cinque secondi e sono presentati insieme ad altri contenuti. Serve un modo per metterli in pausa, fermarli o nasconderli, salvo che il movimento sia essenziale. Per gli aggiornamenti automatici presentati in parallelo, il criterio prevede anche il controllo della frequenza e non usa la soglia di cinque secondi.#compact-note([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])])])#text("; ")#([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])])])#text("; ")#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])]); #([W3C, WCAG 2.2])])])],
   ("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html", "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html", "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html", "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",),
-  etichetta: ([w3.org\/…\/pause-stop-hide], [w3.org\/…\/animation-from-interactions], [w3.org\/…\/three-flashes-or-below-threshold], [w3.org\/…\/timing-adjustable],)) <nota-a03-35-1>
+  tag: ([w3.org\/…\/pause-stop-hide], [w3.org\/…\/animation-from-interactions], [w3.org\/…\/three-flashes-or-below-threshold], [w3.org\/…\/timing-adjustable],)) <nota-a03-35-1>
 
 === Animazioni e preferenze · #link("https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html")[2.3.3 AAA]
 
-Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html")[2.3.3 AAA] prevede che le animazioni di movimento attivate dall’interazione possano essere disabilitate, salvo quelle essenziali. Come scelta progettuale, rispetta la preferenza di movimento ridotto e conserva un riscontro comprensibile delle azioni anche nella versione statica.#nota-compatta([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])])])#text("; ")#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])]); #([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html", "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html", "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html", "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",), etichetta: ([w3.org\/…\/pause-stop-hide], [w3.org\/…\/animation-from-interactions], [w3.org\/…\/three-flashes-or-below-threshold], [w3.org\/…\/timing-adjustable],)) <nota-layout-03-085>
+Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html")[2.3.3 AAA] prevede che le animazioni di movimento attivate dall’interazione possano essere disabilitate, salvo quelle essenziali. Come scelta progettuale, rispetta la preferenza di movimento ridotto e conserva un riscontro comprensibile delle azioni anche nella versione statica.#footnote(<nota-a03-35-1>)
 
 === Interruzioni e flash · COGA \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html")[2.3.1 A]
 
-COGA raccomanda di limitare notifiche e distrazioni non necessarie e di offrire controlli semplici sul loro comportamento. L’utente dovrebbe poter scegliere quando interrompere il compito o riprenderlo. Non presumere che una stessa quantità di stimoli sia confortevole per tutte le persone. I flash richiedono una verifica distinta sul criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html")[2.3.1 A]: pausa e movimento ridotto non la sostituiscono.#footnote(<nota-layout-03-085>)#super[, ]#nota-compatta([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p01-minimal-interruptions/", etichetta: [w3.org\/…\/o5p01-minimal-interruptions]) <nota-a03-35-4>
+COGA raccomanda di limitare notifiche e distrazioni non necessarie e di offrire controlli semplici sul loro comportamento. L’utente dovrebbe poter scegliere quando interrompere il compito o riprenderlo. Non presumere che una stessa quantità di stimoli sia confortevole per tutte le persone. I flash richiedono una verifica distinta sul criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html")[2.3.1 A]: pausa e movimento ridotto non la sostituiscono.#footnote(<nota-a03-35-1>)#super[, ]#compact-note([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o5p01-minimal-interruptions/", tag: [w3.org\/…\/o5p01-minimal-interruptions]) <nota-a03-35-4>
 
 // Fonte Figma 2811:516 · C03 · 112 · SX — Fermarsi e riprendere
 
@@ -797,15 +856,17 @@ COGA raccomanda di limitare notifiche e distrazioni non necessarie e di offrire 
 
 === Prevenire la perdita dei dati · COGA
 
-Quando possibile e sicuro, conserva progressivamente il lavoro e rendi evidente che cosa è stato salvato. Se il sistema richiede una scadenza, comunica prima quanto tempo è disponibile e che cosa succederà ai dati. COGA propone queste indicazioni come supporto supplementare.#nota-compatta([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p09-data-loss/", etichetta: [w3.org\/…\/o4p09-data-loss]) <nota-a03-36-1>
+Quando possibile e sicuro, conserva progressivamente il lavoro e rendi evidente che cosa è stato salvato. Se il sistema richiede una scadenza, comunica prima quanto tempo è disponibile e che cosa succederà ai dati. COGA propone queste indicazioni come supporto supplementare.#compact-note([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o4p09-data-loss/", tag: [w3.org\/…\/o4p09-data-loss]) <nota-a03-36-1>
 
 === Gestire i limiti di tempo · #link("https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html")[2.2.1 A]
 
-Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html")[2.2.1 A] richiede, per i limiti di tempo impostati dal contenuto, almeno una delle possibilità previste per disattivarli, regolarli o estenderli, salvo le eccezioni per eventi in tempo reale, limiti essenziali e limiti superiori a venti ore. Le modalità precise vanno verificate sul criterio.#footnote(<nota-layout-03-085>)
+Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html")[2.2.1 A] richiede, per i limiti di tempo impostati dal contenuto, almeno una delle possibilità previste per disattivarli, regolarli o estenderli, salvo le eccezioni per eventi in tempo reale, limiti essenziali e limiti superiori a venti ore. Le modalità precise vanno verificate sul criterio.#compact-note([#([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])])])#text("; ")#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])]); #([W3C, WCAG 2.2])])])#text("; ")#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])]); #([W3C, WCAG 2.2])])],
+  ("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html", "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html", "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html", "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",),
+  tag: ([w3.org\/…\/pause-stop-hide], [w3.org\/…\/animation-from-interactions], [w3.org\/…\/three-flashes-or-below-threshold], [w3.org\/…\/timing-adjustable],)) <nota-a03-pagina-locale-89>
 
 === Ritrovare il contesto · COGA
 
-Alla ripresa, mostra l’ultimo passo completato, i dati disponibili e l’azione successiva. Un riepilogo consente di verificare lo stato senza affidarsi soltanto alla memoria. Il salvataggio tra sessioni è una scelta progettuale distinta dal criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html")[3.3.7 A] sull’inserimento ridondante nello stesso processo.#footnote(<nota-a03-36-1>)#super[, ]#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html", etichetta: [w3.org\/…\/redundant-entry]) <nota-a03-36-3>
+Alla ripresa, mostra l’ultimo passo completato, i dati disponibili e l’azione successiva. Un riepilogo consente di verificare lo stato senza affidarsi soltanto alla memoria. Il salvataggio tra sessioni è una scelta progettuale distinta dal criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html")[3.3.7 A] sull’inserimento ridondante nello stesso processo.#footnote(<nota-a03-36-1>)#super[, ]#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html", tag: [w3.org\/…\/redundant-entry]) <nota-a03-36-3>
 
 // Fonte Figma 3123:6936 · C03 · 113 · DX — Fermare e riprendere la lettura
 
@@ -820,19 +881,17 @@ Alla ripresa, mostra l’ultimo passo completato, i dati disponibili e l’azion
 ) <fig-a03-62>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Le notizie scorrono e si aggiornano mentre l’utente legge; una distrazione può fargli perdere il punto.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Il controllo previsto ferma gli aggiornamenti e rende possibile riprendere. Le impostazioni di movimento ridotto agiscono sugli effetti pertinenti.#nota-compatta([W3C, WCAG 2.2; #([W3C, WCAG 2.2])#text("; ")#([#([W3C, WCAG 2.2])]); #([W3C, WCAG 2.2])],
-  ("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html", "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html", "https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html", "https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html",),
-  etichetta: ([w3.org\/…\/pause-stop-hide], [w3.org\/…\/animation-from-interactions], [w3.org\/…\/three-flashes-or-below-threshold], [w3.org\/…\/timing-adjustable],)) <nota-layout-03-092>
+Il controllo previsto ferma gli aggiornamenti e rende possibile riprendere. Le impostazioni di movimento ridotto agiscono sugli effetti pertinenti.#footnote(<nota-a03-pagina-locale-89>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html")[2.2.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html")[2.3.3 AAA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html")[2.2.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html")[2.3.1 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html")[2.2.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html")[2.3.3 AAA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/timing-adjustable.html")[2.2.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/three-flashes-or-below-threshold.html")[2.3.1 A]]
 
-Distingui movimento, aggiornamenti, limiti di tempo e flash: sono verifiche con condizioni ed eccezioni diverse.#footnote(<nota-layout-03-092>)
+Distingui movimento, aggiornamenti, limiti di tempo e flash: sono verifiche con condizioni ed eccezioni diverse.#footnote(<nota-a03-pagina-locale-89>)
 
 
 // Fonte Figma 2811:556 · C03 · 114 · SX — Moduli: istruzioni ed errori
@@ -843,15 +902,15 @@ Distingui movimento, aggiornamenti, limiti di tempo e flash: sono verifiche con 
 
 === Etichette persistenti · #link("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html")[1.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html")[3.3.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html")[1.4.1 A]
 
-Associa un’etichetta a ogni campo e fornisci le istruzioni necessarie. Il placeholder può mostrare un esempio, ma non sostituisce un’etichetta: scompare durante la compilazione e non garantisce una relazione programmatica con il controllo. I campi obbligatori devono essere riconoscibili anche senza il solo colore.#nota-compatta([#([#([W3C, WAI; W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html", "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/tutorials/forms/labels/", "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html", "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html",), etichetta: ([w3.org\/…\/info-and-relationships], [w3.org\/…\/labels-or-instructions], [w3.org\/…\/use-of-color], [w3.org\/…\/labels], [w3.org\/…\/error-identification], [w3.org\/…\/error-suggestion],)) <nota-a03-38-1>
+Associa un’etichetta a ogni campo e fornisci le istruzioni necessarie. Il placeholder può mostrare un esempio, ma non sostituisce un’etichetta: scompare durante la compilazione e non garantisce una relazione programmatica con il controllo. I campi obbligatori devono essere riconoscibili anche senza il solo colore.#compact-note([#([#([W3C, WAI; W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html", "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/tutorials/forms/labels/", "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html", "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html",), tag: ([w3.org\/…\/info-and-relationships], [w3.org\/…\/labels-or-instructions], [w3.org\/…\/use-of-color], [w3.org\/…\/labels], [w3.org\/…\/error-identification], [w3.org\/…\/error-suggestion],)) <nota-a03-38-1>
 
 === Errori comprensibili · #link("https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html")[3.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html")[3.3.3 AA]
 
-Quando un errore viene rilevato automaticamente, identifica il campo interessato e descrivi il problema in testo. Quando è nota una correzione, suggeriscila, salvo che comprometta sicurezza o scopo del contenuto. Conserva i dati validi e rendi raggiungibili le spiegazioni.#footnote(<nota-a03-38-1>)#super[, ]#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/tutorials/forms/notifications/", etichetta: [w3.org\/…\/notifications]) <nota-a03-38-3>
+Quando un errore viene rilevato automaticamente, identifica il campo interessato e descrivi il problema in testo. Quando è nota una correzione, suggeriscila, salvo che comprometta sicurezza o scopo del contenuto. Conserva i dati validi e rendi raggiungibili le spiegazioni.#footnote(<nota-a03-38-1>)#super[, ]#compact-note([W3C, WAI], "https://www.w3.org/WAI/tutorials/forms/notifications/", tag: [w3.org\/…\/notifications]) <nota-a03-38-3>
 
 === Controllare prima di confermare · #link("https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html")[3.3.4 AA]
 
-Per le operazioni previste dal criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html")[3.3.4 AA], fra cui impegni giuridici o transazioni finanziarie e modifiche o cancellazioni di dati controllabili dall’utente e l’invio di risposte a test, serve almeno una delle possibilità indicate: rendere reversibile l’invio; controllare i dati e consentire la correzione degli errori; oppure permettere di riesaminare, confermare e correggere le informazioni prima di completare l’invio.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html", etichetta: [w3.org\/…\/error-prevention-legal-financial-data]) <nota-a03-38-4>
+Per le operazioni previste dal criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html")[3.3.4 AA], fra cui impegni giuridici o transazioni finanziarie e modifiche o cancellazioni di dati controllabili dall’utente e l’invio di risposte a test, serve almeno una delle possibilità indicate: rendere reversibile l’invio; controllare i dati e consentire la correzione degli errori; oppure permettere di riesaminare, confermare e correggere le informazioni prima di completare l’invio.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/error-prevention-legal-financial-data.html", tag: [w3.org\/…\/error-prevention-legal-financial-data]) <nota-a03-38-4>
 
 // Fonte Figma 3123:7005 · C03 · 115 · DX — Correggere una data
 
@@ -866,17 +925,17 @@ Per le operazioni previste dal criterio #link("https://www.w3.org/WAI/WCAG22/Und
 ) <fig-a03-63>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
 Un campo diventa rosso con un generico «Errore»; l’utente deve indovinare che cosa modificare.
 
-L’etichetta resta visibile e il messaggio associato al campo spiega il formato GG\/MM\/AAAA e la correzione necessaria.#footnote(<nota-a03-38-1>)
+L’etichetta resta visibile e il messaggio associato al campo spiega il formato GG\/MM\/AAAA e la correzione necessaria.#compact-note([#([#([W3C, WAI; W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html", "https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html", "https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html", "https://www.w3.org/WAI/tutorials/forms/labels/", "https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html", "https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html",), tag: ([w3.org\/…\/info-and-relationships], [w3.org\/…\/labels-or-instructions], [w3.org\/…\/use-of-color], [w3.org\/…\/labels], [w3.org\/…\/error-identification], [w3.org\/…\/error-suggestion],)) <nota-a03-pagina-locale-98>
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html")[1.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html")[3.3.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html")[3.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html")[3.3.3 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html")[1.4.1 A]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/info-and-relationships.html")[1.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/labels-or-instructions.html")[3.3.2 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/error-identification.html")[3.3.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/error-suggestion.html")[3.3.3 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/use-of-color.html")[1.4.1 A]]
 
-Invia un dato errato e verifica messaggio, collegamento al campo, focus e conservazione delle altre informazioni.#footnote(<nota-a03-38-1>)
+Invia un dato errato e verifica messaggio, collegamento al campo, focus e conservazione delle altre informazioni.#footnote(<nota-a03-pagina-locale-98>)
 
 
 // Fonte Figma 2811:600 · C03 · 116 · SX — Autenticazione e dati ripetuti
@@ -887,17 +946,17 @@ Invia un dato errato e verifica messaggio, collegamento al campo, focus e conser
 
 === Non far reinserire senza motivo · #link("https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html")[3.3.7 A]
 
-Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html")[3.3.7 A] riguarda le informazioni già inserite o fornite all’utente nello stesso processo: devono essere precompilate oppure disponibili da selezionare. Sono previste eccezioni quando la ripetizione è essenziale, serve alla sicurezza o l’informazione non è più valida. Non richiede la conservazione tra sessioni.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html", etichetta: [w3.org\/…\/redundant-entry]) <nota-a03-40-1>
+Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html")[3.3.7 A] riguarda le informazioni già inserite o fornite all’utente nello stesso processo: devono essere precompilate oppure disponibili da selezionare. Sono previste eccezioni quando la ripetizione è essenziale, serve alla sicurezza o l’informazione non è più valida. Non richiede la conservazione tra sessioni.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html", tag: [w3.org\/…\/redundant-entry]) <nota-a03-40-1>
 
 === Consentire assistenza · #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA]
 
-Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA] non vieta le password. Per un passaggio di autenticazione che richiede un test cognitivo, prevede un’alternativa o un meccanismo di assistenza, con specifiche eccezioni. Compatibilità con i gestori di password e possibilità di incollare credenziali o codici possono ridurre memoria e trascrizione.#nota-compatta([W3C, WCAG 2.2; #([W3C, WCAG 2.2])],
+Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA] non vieta le password. Per un passaggio di autenticazione che richiede un test cognitivo, prevede un’alternativa o un meccanismo di assistenza, con specifiche eccezioni. Compatibilità con i gestori di password e possibilità di incollare credenziali o codici possono ridurre memoria e trascrizione.#compact-note([#([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])])#text("; ")#([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])])])])#text("; ")#([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])])])],
   ("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html",),
-  etichetta: ([w3.org\/…\/accessible-authentication-minimum],)) <nota-a03-40-2>
+  tag: ([w3.org\/…\/accessible-authentication-minimum],)) <nota-a03-40-2>
 
 === Verificare il percorso completo · #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html")[3.3.9 AAA]
 
-Controlla accesso, recupero account e autenticazione a più fattori. Evita di interrompere l’assistenza fra un passaggio e l’altro. Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html")[3.3.9 AAA] è più restrittivo: non ammette le eccezioni del livello AA per riconoscimento di oggetti o contenuti personali.#nota-compatta([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html",), etichetta: ([w3.org\/…\/accessible-authentication-minimum],)) <nota-layout-03-102>#super[, ]#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html", etichetta: [w3.org\/…\/accessible-authentication-enhanced]) <nota-a03-40-3>
+Controlla accesso, recupero account e autenticazione a più fattori. Evita di interrompere l’assistenza fra un passaggio e l’altro. Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html")[3.3.9 AAA] è più restrittivo: non ammette le eccezioni del livello AA per riconoscimento di oggetti o contenuti personali.#footnote(<nota-a03-40-2>)#super[, ]#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-enhanced.html", tag: [w3.org\/…\/accessible-authentication-enhanced]) <nota-a03-40-3>
 
 // Fonte Figma 3123:7068 · C03 · 117 · DX — Accedere con gli strumenti abituali
 
@@ -912,21 +971,20 @@ Controlla accesso, recupero account e autenticazione a più fattori. Evita di in
 ) <fig-a03-64>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Il servizio blocca l’incolla e obbliga a ricordare o trascrivere la password, anche quando un gestore può fornirla.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-L’incolla e la compatibilità con il gestore riducono memoria e trascrizione. L’assistenza continua anche nel recupero e nei passaggi successivi.#footnote(<nota-layout-03-102>)
+L’incolla e la compatibilità con il gestore riducono memoria e trascrizione. L’assistenza continua anche nel recupero e nei passaggi successivi.#footnote(<nota-a03-40-2>)
 
-#sottotitolo-lettura[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA]]
+#reading-subtitle[Come verificare · #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA]]
 
-Valuta il percorso completo rispetto al criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA], comprese le sue condizioni ed eccezioni.#footnote(<nota-layout-03-102>)
+Valuta il percorso completo rispetto al criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA], comprese le sue condizioni ed eccezioni.#compact-note([#([W3C, WCAG 2.2; #([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html",), tag: ([w3.org\/…\/accessible-authentication-minimum],)) <nota-a03-pagina-locale-105>
 
 ]
 #[
-#import "../template/editoriale.typ": nota-compatta, sottotitolo-lettura
 
 
 // Fonte Figma 2811:639 · C03 · 118 · SX — Personalizzare senza escludere
@@ -937,19 +995,23 @@ Valuta il percorso completo rispetto al criterio #link("https://www.w3.org/WAI/W
 
 === Una base già utilizzabile · COGA
 
-Una preferenza non corregge da sola una versione predefinita illeggibile. Verifica gli adattamenti descritti nelle tavole sul testo e sul layout, anche con le impostazioni del browser e del sistema. Le indicazioni COGA sostengono una personalizzazione più ampia.#nota-compatta([#([W3C, COGA])], ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/",), etichetta: ([w3.org\/…\/o8p04-interface],)) <nota-a03-42-1>
+Una preferenza non corregge da sola una versione predefinita illeggibile. Verifica gli adattamenti descritti nelle tavole sul testo e sul layout, anche con le impostazioni del browser e del sistema. Le indicazioni COGA sostengono una personalizzazione più ampia.#compact-note([#([#([W3C, COGA])])#text("; ")#([W3C, COGA])],
+  ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/",),
+  tag: ([w3.org\/…\/o8p04-interface],)) <nota-a03-42-1>
 
 === Scelte pertinenti · COGA
 
-COGA suggerisce interfacce personalizzabili e familiari. Offri controlli per gli aspetti che influenzano il compito: testo, contrasto, animazioni, suoni o densità delle informazioni. Spiega l’effetto delle opzioni e consenti di modificare o ripristinare le preferenze.#footnote(<nota-a03-42-1>)
+COGA suggerisce interfacce personalizzabili e familiari. Offri controlli per gli aspetti che influenzano il compito: testo, contrasto, animazioni, suoni o densità delle informazioni. Spiega l’effetto delle opzioni e consenti di modificare o ripristinare le preferenze.#compact-note([#([#([W3C, COGA])])#text("; ")#([W3C, COGA])],
+  ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/",),
+  tag: ([w3.org\/…\/o8p04-interface],)) <nota-a03-pagina-locale-107>
 
 === Esperienze equivalenti · COGA
 
-Modalità differenti devono conservare l’informazione e l’azione necessarie. Una scelta più semplice non dovrebbe privare l’utente di una funzione essenziale. Coinvolgi le persone nella verifica: una modalità unica per una categoria di utenti non rappresenta automaticamente le loro preferenze.#footnote(<nota-a03-42-1>)
+Modalità differenti devono conservare l’informazione e l’azione necessarie. Una scelta più semplice non dovrebbe privare l’utente di una funzione essenziale. Coinvolgi le persone nella verifica: una modalità unica per una categoria di utenti non rappresenta automaticamente le loro preferenze.#footnote(<nota-a03-pagina-locale-107>)
 
 === Aiuto facile da trovare · COGA \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html")[3.2.6 A]
 
-COGA raccomanda accesso semplice al supporto durante il compito. Se i meccanismi di aiuto previsti dal criterio ricorrono su più pagine dello stesso insieme, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html")[3.2.6 A] richiede lo stesso ordine relativo rispetto agli altri contenuti, salvo una modifica avviata dall’utente. Non impone di introdurre un servizio di assistenza.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html", etichetta: [w3.org\/…\/consistent-help]) <nota-a03-42-2>#super[, ]#nota-compatta([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p01-human-help/", etichetta: [w3.org\/…\/o7p01-human-help]) <nota-a03-42-3>
+COGA raccomanda accesso semplice al supporto durante il compito. Se i meccanismi di aiuto previsti dal criterio ricorrono su più pagine dello stesso insieme, il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html")[3.2.6 A] richiede lo stesso ordine relativo rispetto agli altri contenuti, salvo una modifica avviata dall’utente. Non impone di introdurre un servizio di assistenza.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/consistent-help.html", tag: [w3.org\/…\/consistent-help]) <nota-a03-42-2>#super[, ]#compact-note([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/patterns/o7p01-human-help/", tag: [w3.org\/…\/o7p01-human-help]) <nota-a03-42-3>
 
 // Fonte Figma 3123:7129 · C03 · 119 · DX — Adattare la lettura
 
@@ -964,44 +1026,42 @@ COGA raccomanda accesso semplice al supporto durante il compito. Se i meccanismi
 ) <fig-a03-65>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Testo, movimento e densità hanno una sola configurazione; adattare il compito richiede aggirare l’interfaccia.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Opzioni reperibili spiegano l’effetto e consentono di ripristinare la scelta. I contenuti essenziali restano disponibili.#nota-compatta([W3C, COGA],
+Opzioni reperibili spiegano l’effetto e consentono di ripristinare la scelta. I contenuti essenziali restano disponibili.#compact-note([#([#([W3C, COGA])])#text("; ")#([W3C, COGA])],
   ("https://www.w3.org/WAI/WCAG2/supplemental/patterns/o8p04-interface/",),
-  etichetta: ([w3.org\/…\/o8p04-interface],)) <nota-a03-42-1-piede-5-2>
+  tag: ([w3.org\/…\/o8p04-interface],)) <nota-a03-pagina-locale-111>
 
-#sottotitolo-lettura[Come verificare · COGA]
+#reading-subtitle[Come verificare · COGA]
 
-Verifica le opzioni con le impostazioni del browser e con le persone. La personalizzazione COGA non sostituisce i requisiti WCAG.#footnote(<nota-a03-42-1-piede-5-2>)
+Verifica le opzioni con le impostazioni del browser e con le persone. La personalizzazione COGA non sostituisce i requisiti WCAG.#footnote(<nota-a03-pagina-locale-111>)
 
 
 // Fonte Figma 2811:685 · C03 · 120 · SX — Lingua e rappresentazione
 
 == Lingua e rappresentazione
 
-#emph[L’inclusione riguarda anche il modo in cui un servizio descrive le persone e riconosce le loro differenze.]#nota-compatta([#(text("Personal names around the world"))#text("; ")#([W3C, WAI])],
+#emph[L’inclusione riguarda anche il modo in cui un servizio descrive le persone e riconosce le loro differenze.]#compact-note([#(text("Personal names around the world"))#text("; ")#([W3C, WAI])],
   ("https://www.w3.org/International/questions/qa-personal-names",),
-  etichetta: (text("w3.org/…/qa-personal-names"),)) <nota-a03-locale-locale-al-vivo-2>
+  tag: (text("w3.org/…/qa-personal-names"),)) <nota-a03-locale-locale-al-vivo-2>
 
 === Nomi e moduli · I18n
 
-Le convenzioni sui nomi personali variano fra lingue e culture. Evita assunzioni rigide su numero delle parti, ordine, lunghezza e caratteri. Definisci i campi in base all’uso effettivo dell’informazione e spiega i requisiti necessari, invece di trattare una sola convenzione come universale.#nota-compatta([#(text("Personal names around the world"))#text("; ")#([W3C, WAI])],
-  ("https://www.w3.org/International/questions/qa-personal-names",),
-  etichetta: (text("w3.org/…/qa-personal-names"),)) <nota-layout-03-114>
+Le convenzioni sui nomi personali variano fra lingue e culture. Evita assunzioni rigide su numero delle parti, ordine, lunghezza e caratteri. Definisci i campi in base all’uso effettivo dell’informazione e spiega i requisiti necessari, invece di trattare una sola convenzione come universale.#footnote(<nota-a03-locale-locale-al-vivo-2>)
 
 === Lingua e comprensione · #link("https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html")[3.1.1 A] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html")[3.1.2 AA]
 
-Dichiara correttamente la lingua della pagina e dei passaggi in altre lingue quando richiesto: le tecnologie assistive possono così interpretare meglio il testo. Nei servizi multilingue, rendi chiara la scelta della lingua e verifica termini, istruzioni e messaggi nel contesto d’uso.#nota-compatta([W3C, WCAG 2.2],
+Dichiara correttamente la lingua della pagina e dei passaggi in altre lingue quando richiesto: le tecnologie assistive possono così interpretare meglio il testo. Nei servizi multilingue, rendi chiara la scelta della lingua e verifica termini, istruzioni e messaggi nel contesto d’uso.#compact-note([W3C, WCAG 2.2],
   ("https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html", "https://www.w3.org/WAI/WCAG22/Understanding/language-of-parts.html"),
-  etichetta: ([w3.org\/…\/language-of-page], [w3.org\/…\/language-of-parts])) <nota-a03-44-2>
+  tag: ([w3.org\/…\/language-of-page], [w3.org\/…\/language-of-parts])) <nota-a03-44-2>
 
 === Rappresentare la diversità · WAI
 
-Nei materiali di ricerca e nelle immagini, considera esperienze e contesti differenti. Le rappresentazioni possono aprire domande di progetto, ma non sostituiscono la partecipazione delle persone. Non dedurre capacità, bisogni o comportamento dall’aspetto di un personaggio o da una categoria demografica.#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/involving-users/", etichetta: [w3.org\/…\/involving-users]) <nota-a03-44-3>
+Nei materiali di ricerca e nelle immagini, considera esperienze e contesti differenti. Le rappresentazioni possono aprire domande di progetto, ma non sostituiscono la partecipazione delle persone. Non dedurre capacità, bisogni o comportamento dall’aspetto di un personaggio o da una categoria demografica.#compact-note([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/involving-users/", tag: [w3.org\/…\/involving-users]) <nota-a03-44-3>
 
 // Fonte Figma 3123:7188 · C03 · 121 · DX — Riconoscere nomi e lingue
 
@@ -1016,17 +1076,17 @@ Nei materiali di ricerca e nelle immagini, considera esperienze e contesti diffe
 ) <fig-a03-66>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Un campo impone una sola convenzione su parti del nome e caratteri, escludendo combinazioni valide in altri contesti.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-I requisiti sono spiegati e motivati dal servizio; il modulo gestisce i nomi effettivi. La lingua dei contenuti è dichiarata correttamente.#nota-compatta([W3C, WAI],
+I requisiti sono spiegati e motivati dal servizio; il modulo gestisce i nomi effettivi. La lingua dei contenuti è dichiarata correttamente.#compact-note([W3C, WAI],
   ("https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html", "https://www.w3.org/International/questions/qa-personal-names"),
-  etichetta: ([w3.org\/…\/language-of-page], [w3.org\/…\/qa-personal-names])) <nota-a03-45-1>
+  tag: ([w3.org\/…\/language-of-page], [w3.org\/…\/qa-personal-names])) <nota-a03-45-1>
 
-#sottotitolo-lettura[Come verificare · I18n \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html")[3.1.1 A]]
+#reading-subtitle[Come verificare · I18n \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/language-of-page.html")[3.1.1 A]]
 
 Prova nomi e lingue pertinenti al servizio, senza dedurre capacità o bisogni dall’origine o dall’aspetto delle persone.#footnote(<nota-a03-45-1>)
 
@@ -1039,21 +1099,21 @@ Prova nomi e lingue pertinenti al servizio, senza dedurre capacità o bisogni da
 
 === Focus non oscurato · #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html")[2.4.11 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html")[2.4.12 AAA]
 
-Quando un componente riceve il focus da tastiera, non deve essere interamente nascosto da contenuti creati dall’autore. Verifica banner, barre fisse e finestre sovrapposte. Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html")[2.4.12 AAA] richiede invece che nessuna parte del componente sia nascosta.#nota-compatta([W3C, WCAG 2.2],
+Quando un componente riceve il focus da tastiera, non deve essere interamente nascosto da contenuti creati dall’autore. Verifica banner, barre fisse e finestre sovrapposte. Il criterio #link("https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html")[2.4.12 AAA] richiede invece che nessuna parte del componente sia nascosta.#compact-note([W3C, WCAG 2.2],
   ("https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum.html", "https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-enhanced.html"),
-  etichetta: ([w3.org\/…\/focus-not-obscured-minimum], [w3.org\/…\/focus-not-obscured-enhanced])) <nota-a03-46-1>
+  tag: ([w3.org\/…\/focus-not-obscured-minimum], [w3.org\/…\/focus-not-obscured-enhanced])) <nota-a03-46-1>
 
 === Azioni e bersagli · #link("https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html")[2.5.7 AA] \/ #link("https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html")[2.5.8 AA]
 
-Prevedi un’alternativa al trascinamento con puntatore singolo e verifica dimensioni o spaziatura dei bersagli. I criteri contengono eccezioni: associa la decisione al comportamento concreto del componente, evitando una misura unica applicata senza contesto.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html", etichetta: [w3.org\/…\/dragging-movements]) <nota-a03-46-2>#super[, ]#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", etichetta: [w3.org\/…\/target-size-minimum]) <nota-a03-46-3>
+Prevedi un’alternativa al trascinamento con puntatore singolo e verifica dimensioni o spaziatura dei bersagli. I criteri contengono eccezioni: associa la decisione al comportamento concreto del componente, evitando una misura unica applicata senza contesto.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html", tag: [w3.org\/…\/dragging-movements]) <nota-a03-46-2>#super[, ]#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html", tag: [w3.org\/…\/target-size-minimum]) <nota-a03-46-3>
 
 === Dati ripetuti · #link("https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html")[3.3.7 A]
 
-Nel medesimo processo, rendi disponibili le informazioni già inserite o fornite, salvo le eccezioni previste. Un percorso di acquisto o prenotazione è un buon punto in cui verificare se l’utente deve riscrivere gli stessi dati.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html", etichetta: [w3.org\/…\/redundant-entry]) <nota-a03-46-4>
+Nel medesimo processo, rendi disponibili le informazioni già inserite o fornite, salvo le eccezioni previste. Un percorso di acquisto o prenotazione è un buon punto in cui verificare se l’utente deve riscrivere gli stessi dati.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/redundant-entry.html", tag: [w3.org\/…\/redundant-entry]) <nota-a03-46-4>
 
 === Autenticazione accessibile · #link("https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html")[3.3.8 AA]
 
-Controlla le richieste cognitive nei passaggi di accesso e l’assistenza disponibile. L’uso di password non determina da solo una violazione: occorre valutare il percorso e le condizioni previste dal criterio.#nota-compatta([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html", etichetta: [w3.org\/…\/accessible-authentication-minimum]) <nota-a03-46-5>
+Controlla le richieste cognitive nei passaggi di accesso e l’assistenza disponibile. L’uso di password non determina da solo una violazione: occorre valutare il percorso e le condizioni previste dal criterio.#compact-note([W3C, WCAG 2.2], "https://www.w3.org/WAI/WCAG22/Understanding/accessible-authentication-minimum.html", tag: [w3.org\/…\/accessible-authentication-minimum]) <nota-a03-46-5>
 
 // Fonte Figma 2811:773 · C03 · 123 · DX — Conformità e qualità dell’esperienza
 
@@ -1071,7 +1131,7 @@ Dichiara versione delle WCAG, livello, pagine e funzioni valutate, metodi, data 
 
 === La conformità non copre ogni bisogno
 
-Le WCAG riconoscono di non affrontare ogni esigenza degli utenti. Affianca quindi le verifiche tecniche a osservazioni sui compiti, indicazioni supplementari pertinenti e prove con persone diverse. Un test di usabilità non sostituisce l’audit dei criteri; l’audit non sostituisce la ricerca sull’esperienza.#nota-compatta([#([#([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/conformance",), etichetta: ([w3.org\/…\/conformance],)) <nota-a03-47-1>#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/", etichetta: [w3.org\/WAI\/test-evaluate\/]) <nota-a03-47-2>#nota-compatta([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/about/", etichetta: [w3.org\/…\/about]) <nota-a03-47-3>
+Le WCAG riconoscono di non affrontare ogni esigenza degli utenti. Affianca quindi le verifiche tecniche a osservazioni sui compiti, indicazioni supplementari pertinenti e prove con persone diverse. Un test di usabilità non sostituisce l’audit dei criteri; l’audit non sostituisce la ricerca sull’esperienza.#compact-note([#([#([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/conformance",), tag: ([w3.org\/…\/conformance],)) <nota-a03-47-1>#compact-note([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/", tag: [w3.org\/WAI\/test-evaluate\/]) <nota-a03-47-2>#compact-note([W3C, COGA], "https://www.w3.org/WAI/WCAG2/supplemental/about/", tag: [w3.org\/…\/about]) <nota-a03-47-3>
 
 // Fonte Figma 3123:7249 · C03 · 124 · SX — Verificare un percorso completo
 
@@ -1086,24 +1146,24 @@ Le WCAG riconoscono di non affrontare ogni esigenza degli utenti. Affianca quind
 ) <fig-a03-67>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 L’audit si ferma alla pagina di accesso; gli errori e la conferma della prenotazione rimangono fuori dall’ambito.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-La verifica considera tutte le pagine e i passaggi del processo. Versione, livello, metodi, data e limiti sono dichiarati.#footnote(<nota-a03-47-1>)
+La verifica considera tutte le pagine e i passaggi del processo. Versione, livello, metodi, data e limiti sono dichiarati.#compact-note([#([#([W3C, WCAG 2.2])])], ("https://www.w3.org/WAI/WCAG22/Understanding/conformance",), tag: ([w3.org\/…\/conformance],)) <nota-a03-pagina-locale-127>
 
-#sottotitolo-lettura[Come verificare · Conformità WCAG]
+#reading-subtitle[Come verificare · Conformità WCAG]
 
-Usa i criteri pertinenti su ogni passaggio. Il conteggio degli errori automatici non è una percentuale universale di accessibilità.#footnote(<nota-a03-47-1>)
+Usa i criteri pertinenti su ogni passaggio. Il conteggio degli errori automatici non è una percentuale universale di accessibilità.#footnote(<nota-a03-pagina-locale-127>)
 
 
 // Fonte Figma 2811:812 · C03 · 125 · DX — Valutare con strumenti e persone
 
 == Valutare con strumenti e persone
 
-#emph[Le alternative di progetto devono essere verificate nei compiti. Strumenti automatici, controlli manuali e prove con persone rilevano barriere differenti: combinarli permette di rivedere le scelte con evidenze.]#nota-compatta(text("Evaluating web accessibility overview"), "https://www.w3.org/WAI/test-evaluate/", etichetta: text("w3.org/…/test-evaluate"))
+#emph[Le alternative di progetto devono essere verificate nei compiti. Strumenti automatici, controlli manuali e prove con persone rilevano barriere differenti: combinarli permette di rivedere le scelte con evidenze.]#compact-note(text("Evaluating web accessibility overview"), "https://www.w3.org/WAI/test-evaluate/", tag: text("w3.org/…/test-evaluate")) <nota-a03-pagina-locale-129>
 
 === Controlli automatici
 
@@ -1117,13 +1177,15 @@ Esamina struttura, contenuti e comportamento dei componenti. Prova la tastiera, 
 
 Coinvolgi persone che utilizzano modalità e tecnologie differenti. Usa compiti realistici e registra ostacoli, aiuti richiesti e conseguenze sul completamento. L’esperienza di una persona non rappresenta tutte le persone con la stessa disabilità; le prove con utenti vanno affiancate alla valutazione dei criteri.
 
-WAI significa Web Accessibility Initiative: l’iniziativa del W3C che sviluppa risorse, indicazioni e materiali per progettare e valutare l’accessibilità. Le tre risorse in nota hanno funzioni diverse e si usano insieme alle verifiche sul compito.#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/tools/", etichetta: [w3.org\/…\/tools]) <nota-a03-49-1>#nota-compatta([#([W3C, WAI; #text("Involving users in evaluating web accessibility")])#text("; ")#([W3C, WAI; #text("Involving users in evaluating web accessibility"); W3C, COGA; W3C, WAI])], ("https://www.w3.org/WAI/test-evaluate/involving-users/", "https://www.w3.org/TR/coga-usable/#informed-consent",), etichetta: ([w3.org\/…\/involving-users], [w3.org\/…\/\#informed-consent],)) <nota-a03-49-2>#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/preliminary/", etichetta: [w3.org\/…\/preliminary]) <nota-a03-49-3>
+WAI significa Web Accessibility Initiative: l’iniziativa del W3C che sviluppa risorse, indicazioni e materiali per progettare e valutare l’accessibilità. Le tre risorse in nota hanno funzioni diverse e si usano insieme alle verifiche sul compito.#compact-note([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/tools/", tag: [w3.org\/…\/tools]) <nota-a03-49-1>#compact-note([#([W3C, WAI; #text("Involving users in evaluating web accessibility")])#text("; ")#([W3C, WAI; #text("Involving users in evaluating web accessibility"); W3C, COGA; W3C, WAI])], ("https://www.w3.org/WAI/test-evaluate/involving-users/", "https://www.w3.org/TR/coga-usable/#informed-consent",), tag: ([w3.org\/…\/involving-users], [w3.org\/…\/\#informed-consent],)) <nota-a03-49-2>#compact-note([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/preliminary/", tag: [w3.org\/…\/preliminary]) <nota-a03-49-3>
 
 // Fonte Figma 2811:857 · C03 · 126 · SX — Dalla ricerca alla correzione
 
 === Dalla ricerca alla correzione
 
-#emph[La partecipazione delle persone è utile durante tutto il progetto, dalle prime ipotesi alle verifiche della soluzione realizzata.]#footnote(<nota-a03-49-2>) @a03-coga.
+#emph[La partecipazione delle persone è utile durante tutto il progetto, dalle prime ipotesi alle verifiche della soluzione realizzata.]#compact-note([#([#([W3C, WAI; #text("Involving users in evaluating web accessibility")])#text("; ")#([W3C, WAI; #text("Involving users in evaluating web accessibility"); W3C, COGA; W3C, WAI])])#text("; ")#([W3C, WAI; #text("Involving users in evaluating web accessibility"); W3C, COGA; W3C, WAI])],
+  ("https://www.w3.org/WAI/test-evaluate/involving-users/", "https://www.w3.org/TR/coga-usable/#informed-consent",),
+  tag: ([w3.org\/…\/involving-users], [w3.org\/…\/\#informed-consent],)) <nota-a03-pagina-locale-133> @a03-coga.
 
 === Definire i compiti
 
@@ -1135,7 +1197,7 @@ Prevedi materiali, tempi e modalità adeguati, consentendo quando possibile le t
 
 === Registrare e verificare di nuovo
 
-Per ogni ostacolo conserva compito, contesto, comportamento osservato, conseguenza e modifica proposta. Distingui ciò che è stato osservato da ciò che è soltanto ipotizzato. Dopo la correzione, riprova il percorso e aggiorna l’esito: l’accessibilità richiede attenzione anche quando contenuti e componenti cambiano.#footnote(<nota-a03-49-2>)#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/planning/involving-users/", etichetta: [w3.org\/…\/involving-users]) <nota-a03-50-2>#nota-compatta([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/", etichetta: [w3.org\/WAI\/test-evaluate\/]) <nota-a03-50-3>#footnote(<nota-a03-49-2>)
+Per ogni ostacolo conserva compito, contesto, comportamento osservato, conseguenza e modifica proposta. Distingui ciò che è stato osservato da ciò che è soltanto ipotizzato. Dopo la correzione, riprova il percorso e aggiorna l’esito: l’accessibilità richiede attenzione anche quando contenuti e componenti cambiano.#footnote(<nota-a03-pagina-locale-133>)#compact-note([W3C, WAI], "https://www.w3.org/WAI/planning/involving-users/", tag: [w3.org\/…\/involving-users]) <nota-a03-50-2>#compact-note([W3C, WAI], "https://www.w3.org/WAI/test-evaluate/", tag: [w3.org\/WAI\/test-evaluate\/]) <nota-a03-50-3>#footnote(<nota-a03-pagina-locale-133>)
 
 // Fonte Figma 3123:7334 · C03 · 127 · DX — Dall’ostacolo alla nuova prova
 
@@ -1150,28 +1212,26 @@ Per ogni ostacolo conserva compito, contesto, comportamento osservato, conseguen
 ) <fig-a03-68>
 
 
-#sottotitolo-lettura[Barriera]
+#reading-subtitle[Barriera]
 
 Una nota generica non permette di ricostruire dove il compito si interrompe o quale modifica serva.
 
-#sottotitolo-lettura[Scelta di progetto]
+#reading-subtitle[Scelta di progetto]
 
-Il registro distingue osservazioni e ipotesi e indica la conseguenza. Dopo la correzione, lo stesso percorso viene verificato di nuovo.#nota-compatta([W3C, WAI; #text("Involving users in evaluating web accessibility"); W3C, COGA; W3C, WAI],
-  ("https://www.w3.org/WAI/test-evaluate/involving-users/", "https://www.w3.org/TR/coga-usable/#informed-consent",),
-  etichetta: ([w3.org\/…\/involving-users], [w3.org\/…\/\#informed-consent],)) <nota-layout-03-138>
+Il registro distingue osservazioni e ipotesi e indica la conseguenza. Dopo la correzione, lo stesso percorso viene verificato di nuovo.#footnote(<nota-a03-pagina-locale-133>)
 
-#sottotitolo-lettura[Come verificare · WAI \/ COGA]
+#reading-subtitle[Come verificare · WAI \/ COGA]
 
-Concorda compiti, supporti e consenso comprensibile. Il registro qui mostrato è illustrativo e non documenta un test svolto.#footnote(<nota-layout-03-138>)
+Concorda compiti, supporti e consenso comprensibile. Il registro qui mostrato è illustrativo e non documenta un test svolto.#footnote(<nota-a03-pagina-locale-133>)
 
 
 // Fonte Figma 2811:897 · C03 · 128 · SX — Un caso: The Last of Us Part II
 
 == Un caso: The Last of Us Part II
 
-#emph[Il gioco documenta più di sessanta impostazioni di accessibilità. Il caso mostra come la configurazione possa offrire percorsi diversi verso la stessa esperienza (@fig-a03-69).]#nota-compatta([#text("Accessibility options for The Last of Us Part II"); PlayStation \/ Naughty Dog; #text("Accessibility options for The Last of Us Part II")],
+#emph[Il gioco documenta più di sessanta impostazioni di accessibilità. Il caso mostra come la configurazione possa offrire percorsi diversi verso la stessa esperienza (@fig-a03-69).]#compact-note([#text("Accessibility options for The Last of Us Part II"); PlayStation \/ Naughty Dog; #text("Accessibility options for The Last of Us Part II")],
   ("https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/",),
-  etichetta: (text("playstation.com/…/accessibility"),)) <nota-accessibilita-unita-4-85>
+  tag: (text("playstation.com/…/accessibility"),)) <nota-accessibilita-unita-4-85>
 
 #figure(
   [#image(path("/risorse-condivise/immagini/figure/accessibilita/tlou-controlli.png"), width: 100%, alt: "Rimappatura dei controlli. Screenshot ufficiale PlayStation / Naughty Dog; immagine acquisita l’11 ottobre 2026.")],
@@ -1186,16 +1246,14 @@ Concorda compiti, supporti e consenso comprensibile. Il registro qui mostrato è
 
 La documentazione ufficiale descrive la rimappatura dei comandi, schemi per una sola mano e alternative alle pressioni ripetute o prolungate. Queste opzioni modificano il modo di eseguire un’azione senza richiedere un unico gesto a tutti i giocatori.
 
-Il progetto rende disponibili anche tre configurazioni iniziali per esigenze visive, uditive e motorie. Le singole opzioni restano modificabili: un preset è un punto di partenza, non il profilo completo di una persona.#nota-compatta([#text("Accessibility options for The Last of Us Part II"); PlayStation \/ Naughty Dog; #text("Accessibility options for The Last of Us Part II")],
-  ("https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/",),
-  etichetta: (text("playstation.com/…/accessibility"),)) <nota-layout-03-141>
+Il progetto rende disponibili anche tre configurazioni iniziali per esigenze visive, uditive e motorie. Le singole opzioni restano modificabili: un preset è un punto di partenza, non il profilo completo di una persona.#footnote(<nota-accessibilita-unita-4-85>)
 
 
 // Fonte Figma 2811:937 · C03 · 129 · DX — Alternative visive e informative
 
 === Alternative visive e informative
 
-#emph[Le scelte di accessibilità possono agire insieme su percezione, controllo e orientamento (@fig-a03-70).]#footnote(<nota-layout-03-141>)
+#emph[Le scelte di accessibilità possono agire insieme su percezione, controllo e orientamento (@fig-a03-70).]#footnote(<nota-accessibilita-unita-4-85>)
 
 #figure(
   [#image(path("/risorse-condivise/immagini/figure/accessibilita/tlou-alto-contrasto.png"), width: 100%, alt: "Presentazione ad alto contrasto. Screenshot ufficiale PlayStation / Naughty Dog; immagine acquisita l’11 ottobre 2026.")],
@@ -1212,16 +1270,16 @@ Il gioco documenta dimensioni e colori della HUD regolabili, presentazione ad al
 
 === Leggere il caso con precisione
 
-La presenza di queste funzioni non dimostra che ogni persona possa usare ogni parte del gioco. Il caso insegna a rendere le alternative configurabili e a verificarne l’efficacia nei compiti. Non costituisce una valutazione di conformità WCAG, che riguarda i contenuti web.#nota-compatta([PlayStation \/ Naughty Dog], "https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/", etichetta: [playstation.com\/…\/accessibility]) <nota-a03-53-1>
+La presenza di queste funzioni non dimostra che ogni persona possa usare ogni parte del gioco. Il caso insegna a rendere le alternative configurabili e a verificarne l’efficacia nei compiti. Non costituisce una valutazione di conformità WCAG, che riguarda i contenuti web.#compact-note([PlayStation \/ Naughty Dog], "https://www.playstation.com/en-us/games/the-last-of-us-part-ii/accessibility/", tag: [playstation.com\/…\/accessibility]) <nota-a03-53-1>
 
 
 // Fonte Figma 198:3515 · C03 · 130 · SX — Consigli pratici
 
 == Consigli pratici
 
-#emph[Sul piano operativo, progettare interfacce più accessibili non richiede sempre soluzioni complesse; spesso significa prestare attenzione ad alcune pratiche essenziali.]#nota-compatta([#text("Easy checks: A first review of web accessibility"); W3C, WAI],
+#emph[Sul piano operativo, progettare interfacce più accessibili non richiede sempre soluzioni complesse; spesso significa prestare attenzione ad alcune pratiche essenziali.]#compact-note([#text("Easy checks: A first review of web accessibility"); W3C, WAI],
   ("https://www.w3.org/WAI/test-evaluate/preliminary/",),
-  etichetta: (text("w3.org/…/preliminary"),)) <nota-accessibilita-unita-1-88>
+  tag: (text("w3.org/…/preliminary"),)) <nota-accessibilita-unita-1-88>
 
 Risolvere i problemi di usabilità che confondono tutti gli utenti, perché tali criticità tendono a penalizzare ancora di più chi incontra barriere di accesso.
 
@@ -1237,36 +1295,34 @@ Predisporre collegamenti come “vai al contenuto principale” per facilitare l
 
 Scegliere componenti e temi che siano stati progettati con criteri di accessibilità.
 
-Le barriere di accessibilità e i problemi generali di usabilità vanno affrontati insieme. Chi usa uno screen reader può esplorare titoli, link e regioni della pagina senza ascoltarla tutta in sequenza. Una struttura semantica chiara rende più rapido l’orientamento e aiuta a trovare le informazioni rilevanti.#nota-compatta([#text("Easy checks: A first review of web accessibility"); W3C, WAI],
-  ("https://www.w3.org/WAI/test-evaluate/preliminary/",),
-  etichetta: (text("w3.org/…/preliminary"),)) <nota-layout-03-145>
+Le barriere di accessibilità e i problemi generali di usabilità vanno affrontati insieme. Chi usa uno screen reader può esplorare titoli, link e regioni della pagina senza ascoltarla tutta in sequenza. Una struttura semantica chiara rende più rapido l’orientamento e aiuta a trovare le informazioni rilevanti.#footnote(<nota-accessibilita-unita-1-88>)
 
 // Fonte Figma 198:3934 · C03 · 131 · DX — Verificare l’inclusione
 
 == Verificare l’inclusione
 
-Accessibilità e design inclusivo attraversano tutto il progetto. Per ridurre le barriere servono ricerca, prove d’uso e verifiche tecniche.#nota-compatta([#([#text("Involving users in evaluating web accessibility")#text("; ")W3C, WAI])], ("https://www.w3.org/WAI/test-evaluate/involving-users/",), etichetta: (text("w3.org/…/involving-users"),)) <nota-a03-55-1> @a03-coga.
+Accessibilità e design inclusivo attraversano tutto il progetto. Per ridurre le barriere servono ricerca, prove d’uso e verifiche tecniche.#compact-note([#([#text("Involving users in evaluating web accessibility")#text("; ")W3C, WAI])], ("https://www.w3.org/WAI/test-evaluate/involving-users/",), tag: (text("w3.org/…/involving-users"),)) <nota-a03-55-1> @a03-coga.
 
-#sottotitolo-lettura[01 · Ricercare]
+#reading-subtitle[01 · Ricercare]
 
 Coinvolgi persone con capacità, familiarità digitale e modalità d’uso diverse. L’esperienza di una persona non rappresenta tutte le persone con la stessa disabilità.
 
-#sottotitolo-lettura[02 · Osservare]
+#reading-subtitle[02 · Osservare]
 
-Usa compiti realistici sui prototipi, anche con persone che utilizzano tecnologie assistive. Registra gli ostacoli incontrati e come influiscono sul completamento del compito.#footnote(<nota-a03-55-1>)
+Usa compiti realistici sui prototipi, anche con persone che utilizzano tecnologie assistive. Registra gli ostacoli incontrati e come influiscono sul completamento del compito.#compact-note([#([#text("Involving users in evaluating web accessibility")#text("; ")W3C, WAI])], ("https://www.w3.org/WAI/test-evaluate/involving-users/",), tag: (text("w3.org/…/involving-users"),)) <nota-a03-pagina-locale-147>
 
-#sottotitolo-lettura[03 · Verificare]
+#reading-subtitle[03 · Verificare]
 
 Affianca i test con utenti alle verifiche WCAG: i due approcci rilevano barriere differenti. I controlli automatici coprono soltanto una parte dei requisiti.
 
 Gli ostacoli osservati diventano requisiti e domande di progetto: nella fase Define occorre chiarire quale problema affrontare e per chi.
 
-#sottotitolo-lettura[Capire, ricordare, riprendere]
+#reading-subtitle[Capire, ricordare, riprendere]
 
-Le istruzioni sono chiare? Le informazioni necessarie restano visibili? Si può riprendere un’attività interrotta? La guida W3C per l’accessibilità cognitiva integra le WCAG con indicazioni supplementari.#nota-compatta([W3C, COGA], "https://www.w3.org/TR/coga-usable/", etichetta: [w3.org\/TR\/coga-usable\/]) <nota-a03-55-2>
+Le istruzioni sono chiare? Le informazioni necessarie restano visibili? Si può riprendere un’attività interrotta? La guida W3C per l’accessibilità cognitiva integra le WCAG con indicazioni supplementari.#compact-note([W3C, COGA], "https://www.w3.org/TR/coga-usable/", tag: [w3.org\/TR\/coga-usable\/]) <nota-a03-55-2>
 ]
 ]
 
 // La compilazione diretta applica lo stesso sistema editoriale del volume.
 #show: booklet
-#capitolo(..parametri-capitolo(3), testo)
+#chapter(..chapter-parameters(3), content)

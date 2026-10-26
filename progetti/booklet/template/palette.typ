@@ -1,17 +1,13 @@
-// La sequenza cromatica segue il capitolo corrente, non il vecchio tema grafico.
+// Resolve chapter accents from the shared palette data.
+// Colors are selected by order, without artwork-specific substitutions.
+
 #let palette = json(path("/risorse-condivise/immagini/aperture/manifest.json")).palette
-#let accento-preliminari = rgb(palette.famiglie.at(palette.preliminari).colore)
+#let front-matter-accent = rgb(palette.famiglie.at(palette.preliminari).colore)
+// Keep the current accent available to editorial components without importing layout.
+#let chapter-color = state("colore-capitolo", front-matter-accent)
 
-#let accento-capitolo(numero) = {
-  assert(type(numero) == int and numero >= 1 and numero <= palette.ordine.len(),
-    message: "Il numero di capitolo supera la sequenza cromatica disponibile.")
-  rgb(palette.famiglie.at(palette.ordine.at(numero - 1)).colore)
-}
-
-#let visuale-capitolo(grafica, accento) = {
-  // La tinta principale originale è riservata a quel ruolo: --check verifica
-  // che secondari e spettro non la condividano. La sostituzione conserva
-  // geometria e asset originali, senza produrre copie SVG da sincronizzare.
-  let svg = read(path("/" + grafica.percorso))
-  bytes(svg.replace(regex("(?i)" + grafica.colore), accento.to-hex()))
+#let chapter-accent(number) = {
+  assert(type(number) == int and number >= 1 and number <= palette.ordine.len(),
+    message: "The chapter number exceeds the available palette sequence.")
+  rgb(palette.famiglie.at(palette.ordine.at(number - 1)).colore)
 }

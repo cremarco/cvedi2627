@@ -15,7 +15,7 @@ def argomenti() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
         description=(
             "Genera il contorno JSON di una fotografia o illustrazione scontornata. "
-            "Il file originale resta invariato; sagome.typ applica il distacco di stampa."
+            'Il file originale resta invariato; text-wrap.typ applica il distacco di stampa.'
         ),
         epilog=(
             "Esempio: python3 progetti/booklet/scripts/contorni.py risorse-condivise/immagini/figure/tipografia/duomo-firenze-illustrazione.png "

@@ -1,0 +1,27 @@
+{
+  "tool": "image_gen",
+  "mode": "built-in",
+  "transparent_background": true,
+  "created": "2026-10-26",
+  "images": [
+    {
+      "subject": "foglia",
+      "source": "/Users/marco/.codex/generated_images/01a178cb-1fcd-7e60-8f9b-dce913c9d027/exec-6acee84c-5e27-4e21-9ff0-0daa9e9373f3.png",
+      "reference": "progetti/booklet/assets/figure-singole/composizione/foglia.jpeg",
+      "prompt": "Use case: scientific-educational. Asset: a single complete botanical leaf cutout for a printed design textbook, text must wrap around its actual silhouette. The attached photograph is a reference for the green veining and material only, not an edit target to keep rectangular. Recreate one entire broad lanceolate tropical leaf, viewed almost straight-on, with a natural central rib and fine parallel diagonal veins like the reference. Show a complete pointed tip, all side edges, and a short petiole; the leaf should lean subtly diagonally from lower left to upper right. Photorealistic botanical specimen with clear rich green venation, realistic fine texture, soft diffuse light, crisp edges, nearly all in focus. Natural green hues and slightly lighter veins. One single leaf only. Transparent background with genuine alpha, no ground plane, no cast shadow outside the leaf, no pot, no scene, no label, no frame, no typography. Center the whole object within the canvas with roughly 5-8% transparent safety around its silhouette. Do not crop the leaf, do not create a rectangular macro crop, do not add other plants. High-resolution specimen photograph.",
+      "cleanup_prompt": "Use case: background-extraction. Edit only the background of the attached complete leaf image. Preserve the exact green leaf, its full pointed tip, short petiole, internal veining, color, sharpness, position and photographic realism. Remove ALL blurred green haze, glow and dark background outside the actual leaf edge; these are background, not part of the leaf. All pixels outside the crisp anatomical leaf outline and petiole must become completely transparent alpha 0, including all four corners and the area next to the tip. The opaque leaf surface should remain fully opaque alpha 255. No glow, no outer shadow, no scenery, no checkerboard painted into the image. Genuine transparent background. Do not crop, reshape, rotate, redraw or change the leaf. Keep the entire object and transparent safety margin."
+    },
+    {
+      "subject": "fiore",
+      "source": "/Users/marco/.codex/generated_images/01a178cb-1fcd-7e60-8f9b-dce913c9d027/exec-36cf2102-56f8-418b-b95b-37e3d42ac34f.png",
+      "reference": "progetti/booklet/assets/figure-singole/composizione/fiore.jpeg",
+      "prompt": "Use case: scientific-educational. Asset: a single complete daisy flower-head cutout for a printed design textbook, text will wrap its irregular petal outline. The attached macro photograph is a reference for subject, white petals, golden yellow disk florets and realistic botanical detail. Recreate one whole daisy flower head seen face-on, entire radial disk and all white petals visible, slightly irregular natural petal lengths. The golden yellow center must show believable tiny florets and their natural spiral arrangement; not a mathematically perfect diagram or a smooth circle. Photorealistic macro botanical photography, soft diffuse light, crisp natural textures, nearly all in focus. White petals with pale natural shadows, yellow center, no artificial outlines. Absolutely no stem, no green leaves, no other flowers, no insects. Genuine transparent background, no paper, no surrounding scene, no ground plane, no cast shadow outside the petals. The entire flower must fit inside the canvas with 5-8% transparent safety around all petals. No cropping, no rectangular close-up, no typography, no labels, no frame."
+    },
+    {
+      "subject": "conchiglia",
+      "source": "/Users/marco/.codex/generated_images/01a178cb-1fcd-7e60-8f9b-dce913c9d027/exec-7d1d3e15-c513-4961-aacf-046392b4088c.png",
+      "reference": "progetti/booklet/assets/figure-singole/composizione/conchiglia.jpeg",
+      "prompt": "Use case: scientific-educational. Asset: a single complete spiral shell fossil cutout for a printed design textbook; text will wrap its natural outer contour. The attached photograph is the material and spiral reference. Recreate one whole coiled ammonite fossil shell viewed face-on from the spiral side, with the central spiral clearly readable and realistic radial growth ridges. Keep the reference's weathered limestone texture, gray, beige and subtle warm ochre tones; natural mineral detail, not glossy jewelry. Show the complete irregular outer perimeter and complete innermost whorl, nothing cropped. Photorealistic museum specimen macro photography, soft diffuse side light revealing the relief, nearly all in focus. One isolated fossil shell only; no surrounding rock slab, no animal, no soft snail body, no sand, no props, no pedestal, no extra shell. Genuine transparent background with clean accurate alpha around all outer edges and 5-8% transparent safety. No ground plane, no external cast shadow, no scene, no frame, no text, no labels. Do not generate a rectangular texture panel."
+    }
+  ]
+}

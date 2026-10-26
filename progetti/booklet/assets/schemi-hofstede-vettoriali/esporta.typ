@@ -1,9 +1,9 @@
 // Esporta la stessa visuale vettoriale nativa usata nel volume, senza caption.
-#import "../../template/ricerca.typ": disegno-grafico, dati-dimensioni, geometria-grafico
-#import "../../template/geometria.typ": gabbia
-#let codice = sys.inputs.at("dimensione", default: "PDI")
-#let dimensione = dati-dimensioni.find(d => d.code == codice)
-#assert(dimensione != none, message: "Dimensione culturale non riconosciuta.")
-#set page(width: gabbia, height: geometria-grafico.altezza * (gabbia / geometria-grafico.larghezza),
+#import "../diagrams/cultural-indices.typ": cultural-chart, dimension-data, chart-geometry
+#import "../../template/geometry.typ": grid-width
+#let code = sys.inputs.at("dimensione", default: "PDI")
+#let dimension = dimension-data.find(d => d.code == code)
+#assert(dimension != none, message: "Dimensione culturale non riconosciuta.")
+#set page(width: grid-width, height: chart-geometry.altezza * (grid-width / chart-geometry.larghezza),
   margin: 0pt, fill: white)
-#disegno-grafico(dimensione.data)
+#cultural-chart(dimension.data)

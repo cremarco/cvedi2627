@@ -1,17 +1,17 @@
+#import "/progetti/booklet/template/figures.typ": image-figure
 // La stessa sagoma deve restare al vivo quando il testo a monte cambia parità.
 // L'asset e le quote sono quelli dell'annuncio attivo; la prosa verifica anche
 // il seguito oltre la regione sagomata, senza coordinate per le singole righe.
-#import "/progetti/booklet/template/stile.typ": booklet, sito
-#import "/progetti/booklet/template/note.typ": richiamo-nota, spazio-note, distacco-note
-#import "/progetti/booklet/template/doppia-pagina.typ": sagoma-pagina
+#import "/progetti/booklet/template/layout.typ": booklet, website-note
+#import "/progetti/booklet/template/footnotes.typ": note-reference, footnote-space, footnote-gap
 #show: booklet
 #set text(size: 11pt)
 #set par(leading: 2.5pt)
 #set page(margin: (inside: 18mm, outside: 15mm, top: 15mm,
-  bottom: 20mm + spazio-note + distacco-note), footer: none)
+  bottom: 20mm + footnote-space + footnote-gap), footer: none)
 #show footnote.entry: none
 #set footnote.entry(separator: none, clearance: 0pt, gap: 0pt)
-#show footnote: richiamo-nota
+#show footnote: note-reference
 #let caso = sys.inputs.at("caso", default: "dispari")
 #assert(caso in ("dispari", "pari", "sinistra"), message: "Parità della prova Olivetti sconosciuta.")
 #if caso == "pari" { [Pagina preliminare.] ; pagebreak() }
@@ -19,14 +19,15 @@
   [Prima riga a monte.#linebreak()Seconda riga a monte.#linebreak()Terza riga a monte.]
 }
 
-#sagoma-pagina(
+#image-figure(path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/olivetti-lettera-32-annuncio.png"),
+  [Olivetti Lettera 32: testo e immagine conservano le proprie proporzioni.],
+  format: "sagoma-pagina",
   id: "booklet-prova-olivetti",
-  file: path("/risorse-condivise/immagini/figure/tipografia/esempi/manifesti/olivetti-lettera-32-annuncio.png"),
-  profilo: json(path("/risorse-condivise/dati/sagome/olivetti-lettera-32-annuncio.json")),
-  larghezza: 240pt, al-vivo-sinistro: true,
-  partenza: if caso == "sinistra" { "even" } else { auto },
-  fondo-immagine: 15mm + 240pt * 425 / 611,
-  didascalia: [Olivetti Lettera 32: testo e immagine conservano le proprie proporzioni.],
+  profile: json(path("/risorse-condivise/dati/sagome/olivetti-lettera-32-annuncio.json")),
+  width: 240pt,
+  bleed-left: true,
+  start-page: if caso == "sinistra" { "even" } else { auto },
+  image-bottom: 15mm + 240pt * 425 / 611,
   alt: "Annuncio trasparente Olivetti Lettera 32, allineato al bordo sinistro.",
 )[
   === Olivetti: parola e immagine
@@ -39,7 +40,7 @@
       successive quando lo spazio della composizione termina. Le righe restano
       native, modificabili e ordinate da sinistra a destra.]
     if i in (0, 8, 20) {
-      sito([Nota della prova #i.], "https://example.com/olivetti")
+      website-note([Nota della prova #i.], "https://example.com/olivetti")
     }
     if i == 0 {
       [ Il #metadata(true) <booklet-prova-richiamo>@booklet-prova-olivetti
@@ -50,14 +51,14 @@
 ]
 
 #let dati-olivetti() = {
-  let posizione(loc) = {
+  let position-options(loc) = {
     let p = loc.position()
-    (pagina: p.page, x: p.x / 1pt, y: p.y / 1pt)
+    ("pagina": p.page, x: p.x / 1pt, y: p.y / 1pt)
   }
-  let figura = query(<booklet-prova-olivetti>).first()
-  let ancore = query(<booklet-figure-anchor>).filter(m => m.value == figura.location())
-  (tavola: posizione(ancore.first().location()),
-    richiamo: posizione(query(<booklet-prova-richiamo>).first().location()),
+  let figure-item = query(<booklet-prova-olivetti>).first()
+  let anchors = query(<booklet-figure-anchor>).filter(m => m.value == figure-item.location())
+  ("tavola": position-options(anchors.first().location()),
+    "richiamo": position-options(query(<booklet-prova-richiamo>).first().location()),
     paragrafi: query(<booklet-prova-paragrafo>).map(m =>
-      (indice: m.value, ..posizione(m.location()))))
+      ("indice": m.value, ..position-options(m.location()))))
 }

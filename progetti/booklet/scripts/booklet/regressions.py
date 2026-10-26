@@ -31,7 +31,7 @@ def check_strong(output: Path) -> dict:
 
 
 def flow_data(source: Path, inputs: dict) -> dict:
-    expression = '{ import path("/progetti/booklet/scripts/booklet-prove/flusso.typ"): dati-flusso; dati-flusso() }'
+    expression = '{ import path("/progetti/booklet/scripts/booklet-prove/flusso.typ"): flow-data; flow-data() }'
     return json.loads(run(["typst", "eval", *typst_options(inputs), "--in", str(source), expression]))
 
 
@@ -593,12 +593,7 @@ def check_note_at_bottom(output: Path) -> dict:
 def check_editorial_helpers() -> dict:
     # Le parentesi del corpo funzione sono necessarie per un if multilinea
     # in un modulo Typst: i rami successivi non devono restituire none.
-    expression = '''{
-      import "progetti/booklet/template/editoriale.typ": folio-arabo;
-      import "progetti/booklet/template/note.typ": ingombro-note;
-      (folio: (1, 9, 10, 99, 100, 348, 1000).map(folio-arabo),
-        note: (ingombro-note(()) / 1pt, ingombro-note((9pt, 18pt)) / 1pt))
-    }'''
+    expression = '{\n      import "progetti/booklet/template/editorial.typ": arabic-folio;\n      import "progetti/booklet/template/footnotes.typ": footnote-height;\n      (folio: (1, 9, 10, 99, 100, 348, 1000).map(arabic-folio),\n        note: (footnote-height(()) / 1pt, footnote-height((9pt, 18pt)) / 1pt))\n    }'
     data = json.loads(run(["typst", "eval", *typst_options(), expression]))
     require(data["folio"] == ["001", "009", "010", "099", "100", "348", "1000"],
             "Il folio arabo deve conservare tutte le cifre, anche oltre 99.")
@@ -606,15 +601,39 @@ def check_editorial_helpers() -> dict:
     return data
 
 
+def check_figure_formats(output: Path) -> dict:
+    source, pdf = PROVE / 'figure-formats.typ', output / "formati-figure.pdf"
+    compile_document(source, pdf)
+    expression = '{ query(<booklet-formato-figura>).map(m => m.value) }'
+    applied = json.loads(run(["typst", "eval", *typst_options(), "--in", str(source), expression]))
+    expected = {"prova-colonna": "una-colonna", "prova-gabbia": "due-colonne",
+                "prova-pagina": "tutta-pagina", "prova-vivo": "al-vivo"}
+    require({m["id"]: m["formato"] for m in applied} == expected,
+            "Explicit figure formats were not applied.")
+    data = inventory(source)
+    require(len(data["figure_nel_testo"]) == 2 and len(data["figure_al_vivo"]) == 1,
+            "Ordinary and full-bleed figures have incorrect containers.")
+    for figure in data["figure_nel_testo"]:
+        requested = expected[figure["figura"][1:-1]]
+        require(figure["colonne"] == (1 if requested == "una-colonna" else 2),
+                "The figure does not occupy the requested number of columns.")
+    pages = json.loads(run(["typst", "eval", *typst_options(), "--in", str(source),
+                           '{ query(<booklet-figura-pagina>).map(m => m.value) }']))
+    require(pages == ["prova-pagina"], "The dedicated page lost its margins.")
+    return {**check_inventory(data, {"figure": 4, "note": 0}), **check_pdf(pdf, data),
+            "formati": expected}
+
+
 def check_regressions(output: Path) -> dict:
     # Le prove Python proteggono anche i controlli: un errore nella verifica
     # non deve trasformare silenziosamente un documento errato in un successo.
     run([sys.executable, "-m", "unittest", "discover", "-s", str(PROVE), "-p", "test_*.py"])
     result = {"strumenti": {"esito": "ok"}, "helper-editoriali": check_editorial_helpers(),
-              "pesi": check_strong(output / "grassetto.svg")}
+              "pesi": check_strong(output / "grassetto.svg"),
+              "formati-figure": check_figure_formats(output)}
     # La compatibilità APA deve conservare suffissi e date complete, correggendo
     # soltanto la virgola errata delle date che attestano esclusivamente l'anno.
-    source, pdf = PROVE / "bibliografia.typ", output / "bibliografia.pdf"
+    source, pdf = PROVE / 'bibliography.typ', output / "bibliografia.pdf"
     compile_document(source, pdf)
     from pypdf import PdfReader
     text = re.sub(r"\s+", "", "".join(page.extract_text() or "" for page in PdfReader(pdf).pages))

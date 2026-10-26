@@ -1,0 +1,68 @@
+{
+  "schema": "cvedi-bouba-kiki/v1",
+  "reference": {
+    "authors": "Ćwiek et al.",
+    "year": 2022,
+    "copyright_year": 2021,
+    "title": "The bouba/kiki effect is robust across cultures and writing systems",
+    "doi": "10.1098/rstb.2020.0390",
+    "figure": 1,
+    "pdf_page": 3,
+    "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8591387/",
+    "pdf_url": "https://findresearcher.sdu.dk/ws/portalfiles/portal/196586109/Open_Access_Version.pdf",
+    "figure_url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/13d7/8591387/59c355c6cb38/rstb20200390f01.jpg",
+    "data_repository": "https://osf.io/w7crs/",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "upstream_credit": "The article credits the shapes as adapted from Bremner et al. (2013).",
+    "retrieved": "2026-10-26"
+  },
+  "shapes": {
+    "bouba": "Im2.png",
+    "kiki": "Im3.png"
+  },
+  "transformation": "Original PDF image streams extracted as lossless PNGs. SVG converts grayscale into alpha without tracing or resampling. Rendering at 72 ppi preserves the original pixel grid; contorni.py derives the text-wrap profiles.",
+  "chapter_properties": "Each call owns its format, width, side, caption, rights, alternative text and body.",
+  "files": [
+    {
+      "file": "bouba.svg",
+      "sha256": "1d0478ccc24bd870d5f9c89850b2a050fdbc9bdde343144a009d2d78ec60c83d"
+    },
+    {
+      "file": "derivati/bouba.json",
+      "sha256": "94bf6a1b1350deb8e78b70393b388eaf7d5ed931805701d85faca2de2b52f410"
+    },
+    {
+      "file": "derivati/bouba.png",
+      "sha256": "590dd38664be13aea0486253606516b88ffc75af76223808c17d0da3b60b1f9d"
+    },
+    {
+      "file": "derivati/kiki.json",
+      "sha256": "257bf8531ebc3cb7f8bedf6c29273659cf61b1d72614c5f7aae1f87bf0a68083"
+    },
+    {
+      "file": "derivati/kiki.png",
+      "sha256": "10c9f09b4a2c9a752f8293bea1f533c43d4df51bee6396ad89070584d34ea2f0"
+    },
+    {
+      "file": "kiki.svg",
+      "sha256": "2b1e194faeeff1882229f2e44d761d0756c9488a0156623c8048ab79fb18824c"
+    },
+    {
+      "file": "originali/Im2.png",
+      "sha256": "74de6b5f76cfcc4a6cf60acb72eab3a03bbb94790272ad553fef154e2589ba06"
+    },
+    {
+      "file": "originali/Im3.png",
+      "sha256": "6575b82dfbfe60914aa4776403b6ca01f1477a2ce6b5fa3352e2d755e9df435d"
+    },
+    {
+      "file": "originali/cwiek-2022.pdf",
+      "sha256": "a5b07bbb9963a90e4ccacbf78c19815400e9e6ca714d6ca1d973027d1c29e9be"
+    },
+    {
+      "file": "originali/cwiek-figure-1.jpg",
+      "sha256": "8f2aef87d581d4e540602b9251c432b8b7c33994c74555ad79330db12c5be621"
+    }
+  ]
+}

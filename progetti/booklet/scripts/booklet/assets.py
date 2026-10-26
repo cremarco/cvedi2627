@@ -294,6 +294,8 @@ def check_profiles() -> list[dict]:
     from PIL import Image
 
     profiles = sorted((ROOT / "risorse-condivise/dati/sagome").glob("*.json"))
+    local_profiles = sorted((ROOT / "progetti/booklet/assets").glob("*/profili/*.json"))
+    profiles.extend(local_profiles)
     require(bool(profiles), "Nessun profilo alpha trovato.")
     files = defaultdict(list)
     for file in (ROOT / "risorse-condivise/immagini/figure").rglob("*"):
@@ -303,7 +305,9 @@ def check_profiles() -> list[dict]:
     for path in profiles:
         profile = read_json(path)
         require(profile.get("schema") == "cvedi-alpha-profile/v1", f"Schema alpha non valido: {path.name}")
-        candidates = files[profile["sorgente"]]
+        # Project-specific families resolve names within their own asset folder.
+        candidates = list(path.parent.parent.rglob(profile["sorgente"])) \
+            if path in local_profiles else files[profile["sorgente"]]
         require(len(candidates) == 1, f"Sorgente alpha assente o ambigua: {profile['sorgente']}")
         source = candidates[0]
         require(digest(source) == profile["sha256"], f"Profilo alpha obsoleto: {path.name}; rigenerarlo con contorni.py.")

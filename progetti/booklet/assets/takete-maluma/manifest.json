@@ -1,0 +1,45 @@
+{
+  "schema": "cvedi-sound-shape-figures/v1",
+  "chapter": 8,
+  "accent": "#46ECD5",
+  "layout": "Horizontal: Takete on the left, Maluma on the right. Native labels, caption and rights belong to the chapter.",
+  "reference": {
+    "authors": [
+      "Kazuko Shinohara",
+      "Naoto Yamauchi",
+      "Shigeto Kawahara",
+      "Hideyuki Tanaka"
+    ],
+    "title": "Takete and Maluma in Action: A Cross-Modal Relationship between Gestures and Sounds",
+    "year": 2016,
+    "doi": "10.1371/journal.pone.0163525",
+    "figure": "1(a)",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0163525",
+    "image_url": "https://journals.plos.org/plosone/article/figure/image?size=large&id=10.1371/journal.pone.0163525.g001",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0/",
+    "description": "Panel (a) reproduces Köhler's original stimuli. Other panels are later variants and are not used here.",
+    "retrieved": "2026-10-26",
+    "original": "originali/shinohara-2016-figure-1.png",
+    "sha256": "f19974c6264ce743f6040e194e07a9cd00a984f64e3523f0e3bca52ca1b39441"
+  },
+  "assets": [
+    {
+      "file": "takete.svg",
+      "source_shape": "Figure 1(a), shape 2",
+      "method": "Editable SVG redrawing of the published contour, retaining crossings and relative proportions. Chapter accent replaces the black stroke; no raster images are embedded.",
+      "sha256": "4213ba5bb702ba091af9320162dc0083cbf0206a9d9b36249b41bc0298e26eca"
+    },
+    {
+      "file": "maluma.svg",
+      "source_shape": "Figure 1(a), shape 1",
+      "method": "Editable SVG redrawing of the published contour, retaining crossings and relative proportions. Chapter accent replaces the black stroke; no raster images are embedded.",
+      "sha256": "dfba2a64eaf9d5f1a8e897858e91ea4e8d92b45aae18f156b0085be63059f723"
+    }
+  ],
+  "previous_asset": {
+    "file": "risorse-condivise/immagini/figure/composizione/takete-maluma.svg",
+    "sha256": "995c3596a54ae70239107e0e80db6dc961aaee2a8e53c9f8ceb4ddf0edae1ff3",
+    "status": "Preserved unchanged; no longer used by this booklet figure."
+  }
+}

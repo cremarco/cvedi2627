@@ -1,4 +1,4 @@
-#import "/progetti/booklet/template/stile.typ": booklet
+#import "/progetti/booklet/template/layout.typ": booklet
 #show: booklet
 #set page(columns: 1, footer: none)
 // L'ordine dei sette glifi è verificato confrontando i contorni SVG.

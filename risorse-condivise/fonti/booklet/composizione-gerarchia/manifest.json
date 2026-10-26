@@ -147,7 +147,13 @@
     "https://www.studiobabelsberg.com/about-us/press-and-news/drehstart-von-wes-andersons-neuem-film-the-grand-budapest-hotel/",
     "https://raw.githubusercontent.com/typst/hayagriva/main/docs/file-format.md",
     "https://www.nngroup.com/articles/visual-hierarchy-ux-definition/",
-    "https://www.nngroup.com/articles/mood-boards/"
+    "https://www.nngroup.com/articles/mood-boards/",
+    "https://doi.org/10.1037/h0055392",
+    "https://www.yorku.ca/mack/hci1992.html",
+    "https://journals.sagepub.com/doi/abs/10.1080/17470215208416600",
+    "https://www2.psychology.uiowa.edu/faculty/mordkoff/InfoProc/pdfs/Hyman%201953.pdf",
+    "https://odr.chalmers.se/server/api/core/bitstreams/fd267f70-c295-4eae-ae01-af5db676e61d/content",
+    "https://celiahodent.com/understanding-the-success-of-fortnite-ux/"
   ],
   "revisione_editoriale": {
     "data": "2026-10-24",
@@ -231,5 +237,123 @@
     ],
     "figure_originali": "vecchio-booklet/manifest.json",
     "attribuzione_allineata": "Spartan Golf: Richard Fonteneau, concept2010; medesima attribuzione già documentata nel capitolo04."
+  },
+  "verifica_materiali": {
+    "data": "2026-10-26",
+    "rapporto": "reports/typst-booklet/08-composizione-gerarchia/verifica-materiali/audit.json",
+    "documenti_ricognizione": 99,
+    "integrazioni": [
+      {
+        "file": "materiali/lezioni/2025-2026/04-processo-ux-concept-moodboard.pdf",
+        "pages": [
+          112
+        ],
+        "addition": "Equilibrio simmetrico e asimmetrico, con schema nativo; ripresa del paesaggio già presente senza duplicarlo.",
+        "limits": "Escluse associazioni emotive universali attribuite alla simmetria.",
+        "sha256": "829f72ff3648bca4152db0fca0cbf6c4e254d10adcadc6e2aca8b8b18657ca70"
+      },
+      {
+        "file": "materiali/approfondimenti/2025-2026/lo-faro-giacomo-870336.pdf",
+        "pages": [
+          9,
+          10,
+          11,
+          17,
+          18
+        ],
+        "addition": "Scelta della risposta e movimento verso il bersaglio, distinti da salienza e riconoscimento.",
+        "limits": "Verificati gli originali di Hick, Hyman e Fitts e la revisione di MacKenzie; nessuna formula attribuita impropriamente, soglia universale di menu o conversione fra punti e pixel.",
+        "sha256": "6c302df16652b5c358053a7208e8c20489b2f419d7fd2dbef26a848caf49004d"
+      },
+      {
+        "file": "materiali/lezioni/2025-2026/09-interfacce-videogiochi.pdf",
+        "pages": [
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "addition": "Informazione durante il gioco; recupero della schermata storica di Fortnite a p.44.",
+        "limits": "Nessuna equivalenza fra HUD meno visibile, maggiore usabilità e immersione; la schermata non documenta la versione corrente.",
+        "sha256": "8ee3302c448d52c91d5f7c22c1eb4429de5435a6c7f8b00c0f94deb86e57428d"
+      },
+      {
+        "file": "materiali/approfondimenti/2021-2022/preziosi-779005-narrazione-interattiva.pdf",
+        "pages": [
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "addition": "Indicatori nel mondo rappresentato; schermata di Dead Space a p.9, figura i.16.",
+        "limits": "Nessuna attribuzione retroattiva al nome dello studio; diritti Electronic Arts. Esclusi temi narrativi estranei alla composizione.",
+        "sha256": "15d50ce50c17b4f670a227fcbcc3204cf13d52b3350fde6513a2796ffdc20a06"
+      },
+      {
+        "file": "materiali/approfondimenti/2021-2022/ursini-andrea-873224.pdf",
+        "pages": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "addition": "Confronto dei criteri di appartenenza alla diegesi e posizione nello spazio.",
+        "limits": "La tassonomia è ricondotta alla ricerca originale; nessuna nuova schermata da questo documento.",
+        "sha256": "61b489c6bd02cd1d00e04d225e9f0a1d740283518991a2e017c39aaed6fd6123"
+      },
+      {
+        "file": "materiali/approfondimenti/2023-2024/rinaldi-donato-maria-906127.pdf",
+        "pages": [
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "addition": "Passaggio operativo dalla moodboard a riferimento, scelta e verifica sul caso simulato del laboratorio già presente.",
+        "limits": "Escluse ricostruzioni non verificabili dei processi interni di Apple e Airbnb; nessuna nuova moodboard o ripetizione di immagini.",
+        "sha256": "2c1e7bb203a00765783119ffecd75a43f2d4248ac687aabd699109ee1f415079"
+      }
+    ],
+    "nuove_figure": [
+      "fig-comp-equilibrio",
+      "fig-comp-hud-fortnite",
+      "fig-comp-dead-space"
+    ],
+    "manifest_asset": "progetti/booklet/assets/composition-materials/manifest.json",
+    "pubblicazioni_aggiunte": [
+      "compFitts",
+      "compMacKenzie",
+      "compHick",
+      "compHyman",
+      "compFagerholt",
+      "compHodent"
+    ],
+    "conteggi": {
+      "figure": 56,
+      "pubblicazioni_apa": 21,
+      "note_sitografiche": 8
+    },
+    "fonti_preparatorie_solo_manifest": true
   }
 }

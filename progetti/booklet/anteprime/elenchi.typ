@@ -1,9 +1,9 @@
 // Campione autonomo: gli stessi elenchi nativi e gli stessi stili del volume.
-#import "../template/stile.typ": booklet, elenchi
-#import "../template/palette.typ": accento-capitolo
+#import "../template/layout.typ": booklet, styled-lists
+#import "../template/palette.typ": chapter-accent
 
 #show: booklet
-#show: elenchi.with(accento: accento-capitolo(2))
+#show: styled-lists.with(accent: chapter-accent(2))
 #set page(height: 145mm, columns: 1, footer: none, background: none)
 #set text(size: 11pt)
 #set par(leading: 2.5pt)

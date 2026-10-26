@@ -8,9 +8,9 @@
   "catalogo": "risorse-condivise/immagini/figure/ricerca/dimensioni.json",
   "sorgente_esportazione": "progetti/booklet/assets/schemi-hofstede-vettoriali/esporta.typ",
   "renderer": {
-    "percorso": "progetti/booklet/template/ricerca.typ",
-    "sha256": "789a49d71aa32b5a21f9f37cfd8c4543871268e93c71325411acb399efa90d66",
-    "funzione": "disegno-grafico"
+    "percorso": "progetti/booklet/assets/diagrams/cultural-indices.typ",
+    "sha256": "cecb8f7be278d36a5b2b602850864a7fa23ee377f8aab9d9feba47e201e93bc9",
+    "funzione": "cultural-chart"
   },
   "generatore": "progetti/booklet/scripts/prepara-schemi-hofstede.py",
   "font": "risorse-condivise/font/editoriali/manifest.json",

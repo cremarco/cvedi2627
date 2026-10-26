@@ -10,7 +10,7 @@ from booklet.common import BOOKLET, ROOT, digest, read_json, require, run, save_
 
 BASE = BOOKLET / "assets/schemi-accessibilita-vettoriali"
 DATI = BASE / "contenuti.json"
-RENDERER = BOOKLET / "template/schemi-accessibilita.typ"
+RENDERER = BOOKLET / "assets/diagrams/interface-barriers.typ"
 NS = "{http://www.w3.org/2000/svg}"
 ET.register_namespace("", "http://www.w3.org/2000/svg")
 ET.register_namespace("xlink", "http://www.w3.org/1999/xlink")

@@ -18,5 +18,5 @@ def compile_document(source: Path, output: Path, inputs: dict | None = None) -> 
 
 
 def inventory(source: Path, inputs: dict | None = None) -> dict:
-    expression = '{ import path("/progetti/booklet/scripts/booklet-prove/inventario.typ"): inventario; inventario() }'
+    expression = '{ import path("/progetti/booklet/scripts/booklet-prove/inventario.typ"): inventory; inventory() }'
     return json.loads(run(["typst", "eval", *typst_options(inputs), "--in", str(source), expression]))

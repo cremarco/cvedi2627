@@ -3,7 +3,7 @@
 // Le quattro parti compongono una sola lista visibile in ordine alfabetico.
 // Se si aggiunge una fonte, inserire qui la sua chiave nell’intervallo pertinente.
 // Una citazione esclusa dai bersagli produce un errore nativo di compilazione.
-#let gruppi-fonti = (
+#let source-groups = (
   // A–I
   (
     <t06-crusca2002>,

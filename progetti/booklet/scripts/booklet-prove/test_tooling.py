@@ -716,15 +716,15 @@ class TypstProfileTests(unittest.TestCase):
     def evaluate(self, expression):
         return subprocess.run([
             common.typst_executable(), "eval", "--root", str(ROOT),
-            '{ import path("/progetti/booklet/template/profili.typ"): *; ' + expression + ' }',
+            '{ import path("/progetti/booklet/template/text-wrap.typ"): *; ' + expression + ' }',
         ], capture_output=True, text=True, timeout=10)
 
     def test_first_and_last_bands_include_normalized_endpoints(self):
         result = self.evaluate('''
           let p = (schema: "cvedi-alpha-profile/v1", larghezza_px: 10, altezza_px: 8,
             fasce: ((0.2, 0.8),) + (none,) * 6 + ((0.3, 0.7),))
-          let fasce = fasce-profilo(p)
-          (fascia-a-quota(fasce, 0), fascia-a-quota(fasce, 1), bordo-alpha-sinistro(fasce))
+          let fasce = profile-bands(p)
+          (band-at-height(fasce, 0), band-at-height(fasce, 1), left-alpha-edge(fasce))
         ''')
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertNotIn("warning:", result.stderr.lower())
@@ -732,13 +732,13 @@ class TypstProfileTests(unittest.TestCase):
 
     def test_invalid_profiles_fail_before_layout(self):
         for fields, diagnostic in [
-            ('larghezza_px: 0, altezza_px: 8, fasce: ((0, 1),) * 8', "dimensioni intere positive"),
-            ('larghezza_px: 10, altezza_px: 8, fasce: (none,) * 8', "pixel visibili"),
-            ('larghezza_px: 10, altezza_px: 8, fasce: ((0.8, 0.2),) * 8', "intervallo crescente"),
-            ('larghezza_px: 10, altezza_px: 8, fasce: ((),) * 8', "intervallo crescente"),
+            ('larghezza_px: 0, altezza_px: 8, fasce: ((0, 1),) * 8', "positive integer dimensions"),
+            ('larghezza_px: 10, altezza_px: 8, fasce: (none,) * 8', "visible pixels"),
+            ('larghezza_px: 10, altezza_px: 8, fasce: ((0.8, 0.2),) * 8', "ascending interval"),
+            ('larghezza_px: 10, altezza_px: 8, fasce: ((),) * 8', "ascending interval"),
         ]:
             with self.subTest(fields=fields):
-                result = self.evaluate('fasce-profilo((schema: "cvedi-alpha-profile/v1", ' + fields + '))')
+                result = self.evaluate('profile-bands((schema: "cvedi-alpha-profile/v1", ' + fields + '))')
                 self.assertNotEqual(result.returncode, 0)
                 self.assertIn(diagnostic, result.stderr)
 

@@ -1,12 +1,12 @@
 // Frontespizio, crediti e indice: testo condiviso con il volume.
-#import "../template/stile.typ": booklet, folio, colore-capitolo
-#import "../template/palette.typ": accento-preliminari
-#import "../template/piano.typ": piano, stato-volume, avviso-importazione
+#import "../template/layout.typ": booklet, folio, chapter-color
+#import "../template/palette.typ": front-matter-accent
+#import "../template/plan.typ": volume-status, import-notice
 
-#let preliminari(con-indice: true) = [
-#colore-capitolo.update(accento-preliminari)
+#let front-matter(include-outline: true) = [
+#chapter-color.update(front-matter-accent)
 // I preliminari hanno folio ed etichette PDF in numeri romani.
-#set page(numbering: "i", footer: folio(romano: true))
+#set page(numbering: "i", footer: folio(roman: true))
 #page(columns: 1)[
   #set par(justify: false, leading: 0pt)
   #set text(hyphenate: false)
@@ -18,7 +18,7 @@
   #v(24pt)
   #v(1fr)
   #v(10pt)
-  #text(size: 9pt, stato-volume())
+  #text(size: 9pt, volume-status())
 ]
 
 #[
@@ -46,7 +46,7 @@
 ]
 ]
 
-#if con-indice [
+#if include-outline [
 #page(columns: 1)[
   #set par(justify: false)
   #text(font: "Sora", size: 30pt, weight: 700)[Indice]
@@ -56,14 +56,14 @@
   #show outline.entry.where(level: 1): set text(size: 13pt, weight: 600)
   #outline(title: none, depth: 2)
   #v(1fr)
-  #text(size: 9pt, avviso-importazione())
+  #text(size: 9pt, import-notice())
 ]
 ]
 // Anche l’eventuale foglio di raccordo conserva la numerazione dei preliminari.
 #pagebreak(to: "odd", weak: true)
 ]
 
-#let testo = preliminari()
+#let content = front-matter()
 
 #show: booklet
-#preliminari(con-indice: false)
+#front-matter(include-outline: false)

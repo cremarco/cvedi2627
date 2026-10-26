@@ -1,0 +1,38 @@
+{
+  "schema": 1,
+  "purpose": "Independent game screenshots recovered from local preparation materials; published claims cite primary research in the chapter.",
+  "assets": [
+    {
+      "id": "fig-comp-dead-space",
+      "source": "materiali/approfondimenti/2021-2022/preziosi-779005-narrazione-interattiva.pdf",
+      "source_page": 9,
+      "source_figure": "i.16",
+      "source_sha256": "15d50ce50c17b4f670a227fcbcc3204cf13d52b3350fde6513a2796ffdc20a06",
+      "original": "originals/dead-space.jp2",
+      "original_sha256": "f9c70d2856a7b7a03ede882150ae36532dd3cca7283f92f4db698e7a61ac5439",
+      "file": "images/dead-space.png",
+      "sha256": "754e7109c80dc8341f5365c0dd12151b97cdb633c2b559a5ee57f2b59637ba82",
+      "dimensions": [
+        488,
+        305
+      ],
+      "conversion": "Lossless PNG encoding of the original JPX raster; identical decoded pixels.",
+      "rights": "© Electronic Arts."
+    },
+    {
+      "id": "fig-comp-hud-fortnite",
+      "source": "materiali/lezioni/2025-2026/09-interfacce-videogiochi.pdf",
+      "source_page": 44,
+      "source_image": "Image29",
+      "source_sha256": "8ee3302c448d52c91d5f7c22c1eb4429de5435a6c7f8b00c0f94deb86e57428d",
+      "file": "images/fortnite-hud.jpg",
+      "sha256": "bf9bb9a82e65e39904ae42ee967bdadce2ed9cbd84628581d772983dde6bd15d",
+      "dimensions": [
+        1680,
+        1048
+      ],
+      "conversion": "Original JPEG bytes; existing red annotations preserved.",
+      "rights": "© Epic Games."
+    }
+  ]
+}

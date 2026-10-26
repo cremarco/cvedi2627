@@ -7,12 +7,12 @@
     "sha256": "ecd138fa7701a2ee0066e7691f47b74ac1eb33f0c1657f86779902aba05e47aa"
   },
   "renderer": {
-    "percorso": "progetti/booklet/template/schemi-accessibilita.typ",
-    "sha256": "9b170006bf234adf508c30925e0a81df9bdaa72ebe9a9488042586e01862d10a"
+    "percorso": "progetti/booklet/assets/diagrams/interface-barriers.typ",
+    "sha256": "74bd34f808d106a4af581be5c6fe97bb4f0eba5219402438a50464e783218ab9"
   },
   "esportatore": {
     "percorso": "progetti/booklet/assets/schemi-accessibilita-vettoriali/esporta.typ",
-    "sha256": "4c74a7f72da1bc1fe2140cd35a7b97745d3d8d2cc25da35aa664de85e74fae20"
+    "sha256": "1872b15152098f24b829deee7cbb34e26a684875cade14629bc4a753780457d6"
   },
   "generatore": "progetti/booklet/scripts/prepara-schemi-accessibilita.py",
   "font": {

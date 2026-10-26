@@ -68,6 +68,8 @@ def main(argv: list[str] | None = None) -> int:
         report["profili"] = check_profiles()
         run([sys.executable, str(BOOKLET / "scripts/colora-aperture.py"), "--check"])
         run([sys.executable, str(BOOKLET / "scripts/prepara-schemi-accessibilita.py"), "--check"])
+        run([sys.executable, str(BOOKLET / "scripts/prepara-figure-singole.py"), "--check"])
+        run([sys.executable, str(BOOKLET / "scripts/prepara-bouba-kiki.py"), "--check"])
         save_json(reports / "manifest-assets.json", {"manifest": manifest_index()})
         print(f"Dati verificati: {len(chapters)} capitoli, {report['font']['font']} font, "
               f"{len(report['profili'])} profili alpha; palette coerenti.", flush=True)
